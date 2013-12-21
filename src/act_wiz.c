@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -88,7 +88,7 @@ void do_wiznet( CHAR_DATA *ch, char *argument )
 	REMOVE_BIT(ch->wiznet,WIZ_ON);
 	return;
     }
-    if (!str_prefix(argument,"status")) 
+    if (!str_prefix(argument,"status"))
     {
 	buf[0] = '\0';
 	if (!IS_SET(ch->wiznet,WIZ_ON))
@@ -138,7 +138,7 @@ void do_wiznet( CHAR_DATA *ch, char *argument )
     }
 }
 
-void wiznet(char *string, CHAR_DATA *ch, OBJ_DATA *obj,long flag, long flag_skip, int min_level) 
+void wiznet(char *string, CHAR_DATA *ch, OBJ_DATA *obj,long flag, long flag_skip, int min_level)
 {
     char buf[MSL], newtime[9];
     char *strtime = (char *) ctime( &mud_data.current_time );
@@ -155,7 +155,7 @@ void wiznet(char *string, CHAR_DATA *ch, OBJ_DATA *obj,long flag, long flag_skip
     sprintf(buf,"`&W`8i`&ZNET`8 ``%s`8: ``%s", newtime, string);
     for ( d = descriptor_list; d != NULL; d = d->next )
     {
-        if (d->connected == CON_PLAYING && IS_IMMORTAL(d->character) && IS_SET(d->character->wiznet,WIZ_ON) 
+        if (d->connected == CON_PLAYING && IS_IMMORTAL(d->character) && IS_SET(d->character->wiznet,WIZ_ON)
         && (!flag || IS_SET(d->character->wiznet,flag)) && (!flag_skip || !IS_SET(d->character->wiznet,flag_skip))
         && get_trust(d->character) >= min_level && d->character != ch)
 	    act_new(buf,d->character,obj,ch,TO_CHAR,POS_DEAD);
@@ -239,9 +239,9 @@ void do_plag( CHAR_DATA *ch, char *argument )
 	return;
     }
     if ( arg2[0] != '\0' )
-	lagtime = atoi(arg2) * 4;	
+	lagtime = atoi(arg2) * 4;
     WAIT_STATE(victim,lagtime);
-    sendf(ch, "%s is experiencing some technical difficulties.\n\r",PERS2(victim)); 
+    sendf(ch, "%s is experiencing some technical difficulties.\n\r",PERS2(victim));
 }
 
 void do_nochannels( CHAR_DATA *ch, char *argument )
@@ -358,7 +358,7 @@ void do_deny( CHAR_DATA *ch, char *argument )
 
     if (victim->pcdata->pbounty){
       rem_bounty( victim->pcdata->pbounty );
-      free_bounty( victim->pcdata->pbounty );      
+      free_bounty( victim->pcdata->pbounty );
     }
     save_char_obj(victim);
     stop_fighting(victim,TRUE);
@@ -472,7 +472,7 @@ void do_pardon( CHAR_DATA *ch, char *argument )
       AFFECT_DATA af;
       AFFECT_DATA* paf;
       int sn = skill_lookup("pardon");
-      
+
       if (IS_NPC(ch)){
 	send_to_char("Not mobs\n\r", ch);
 	return;
@@ -564,7 +564,7 @@ void aecho( AREA_DATA* area, char* echo ){
   DESCRIPTOR_DATA *d;
 
   for ( d = descriptor_list; d; d = d->next ){
-    if ( d->connected == CON_PLAYING 
+    if ( d->connected == CON_PLAYING
 	 && d->character->in_room->area
 	 && d->character->in_room->area == area
 	 && IS_AWAKE(d->character)){
@@ -956,7 +956,7 @@ void do_violate( CHAR_DATA *ch, char *argument )
         send_to_char( "That room isn't private, use goto.\n\r", ch );
         return;
     }
-    if ( !have_access(ch,location))   
+    if ( !have_access(ch,location))
     {
         send_to_char( "Don't think so.\n\r",ch);
         return;
@@ -1051,7 +1051,7 @@ void do_sngstat ( CHAR_DATA *ch, char *argument )
     return;
   }
   sendf( ch, "Name: %s's songs:\n\r", victim->name);
-  
+
   for ( sn = 0; sn < MAX_SONG; sn++ )
     {
       if ( song_table[sn].name == NULL )
@@ -1155,7 +1155,7 @@ void do_rstat( CHAR_DATA *ch, char *argument )
 	send_to_char( "That room is private right now.\n\r", ch );
 	return;
     }
-    if ( !have_access(ch,location))   
+    if ( !have_access(ch,location))
     {
         send_to_char( "Don't think so.\n\r",ch);
         return;
@@ -1217,6 +1217,9 @@ void do_cstat( CHAR_DATA* ch, char* argument ){
   int i = 0;
   int cnt = 0;
   bool fEld = FALSE;
+  /* Useless conditional */
+  if( fEld == TRUE )
+    return;
 
   if (IS_NULLSTR( argument )){
     send_to_char("Stat what cabal?\n\r", ch);
@@ -1246,8 +1249,8 @@ void do_cstat( CHAR_DATA* ch, char* argument ){
   else
     send_to_char(".\n\r", ch);
 
-  sendf(ch, "Flags: %s\n\r", flag_string( cabal_flags, pCab->flags ));  
-  sendf(ch, "Flags2: %s\n\r\n\r", flag_string( cabal_flags2, pCab->flags2 ));  
+  sendf(ch, "Flags: %s\n\r", flag_string( cabal_flags, pCab->flags ));
+  sendf(ch, "Flags2: %s\n\r\n\r", flag_string( cabal_flags2, pCab->flags2 ));
   if (pPar->city)
     sendf(ch, "City: %s\n\r", pPar->city->name );
 /* PRESENT */
@@ -1260,7 +1263,7 @@ void do_cstat( CHAR_DATA* ch, char* argument ){
   if (pCab->present_stamp && mud_data.current_time - pCab->present_stamp < CABAL_PRESENT_CAPUTREWAIT){
     int num = mud_data.current_time - pCab->present_stamp;
     char* str;
-    
+
     if ( (num = num / 60) < 60)
       str = "minutes";
     else if ( (num = num / 60) < 24)
@@ -1275,7 +1278,7 @@ void do_cstat( CHAR_DATA* ch, char* argument ){
 
 /* ECONOMY INFO */
   sendf( ch, "Coffers: %d cps\n\r", GET_CAB_CP( pPar ));
-  sendf( ch, 
+  sendf( ch,
 	 "Support: Income: %d (Trade: %d) (Raid: %ld) Armies: -%d Rooms: -%d  Corr: -%d Gain: %d\n\r",
 	 pPar->support[ECO_INCOME],
 	 pPar->support[ECO_TRADE],
@@ -1285,7 +1288,7 @@ void do_cstat( CHAR_DATA* ch, char* argument ){
 	 pPar->support[ECO_LAST_CORR],
 	 pPar->support[ECO_GAIN]
 	 );
-  sendf( ch, 
+  sendf( ch,
 	 "Cps: Income: %ld Trade: %ld Gain: %ld\n\r",
 	 pPar->cp_gain[ECO_INCOME] / CPTS,
 	 pPar->cp_gain[ECO_TRADE] / CPTS,
@@ -1293,18 +1296,18 @@ void do_cstat( CHAR_DATA* ch, char* argument ){
 	 );
   sendf( ch, "TAX: %d%%\n\r\n\r",  pPar->cp_tax);
 
-  sprintf( buf, "[%s] Members: [%d/%d] Elders: [%d/%d]  Leaders [%d/%d]\n\r", 
+  sprintf( buf, "[%s] Members: [%d/%d] Elders: [%d/%d]  Leaders [%d/%d]\n\r",
 	   pPar->who_name,
 	   pPar->cur_member, pPar->pIndexData->max_member,
 	   pPar->cur_elder, pPar->max_elder,
 	   pPar->cur_leader, pPar->max_leader);
   send_to_char( buf, ch );
-    
+
   if (pCab->parent){
     sprintf( buf, "Cabal rank required to join: %d\n\r", pCab->pIndexData->min_rank );
     send_to_char( buf, ch );
   }
-  sprintf( buf, "Align:    [%s%s%s]    Ethos:    [%s%s%s]\n\r", 
+  sprintf( buf, "Align:    [%s%s%s]    Ethos:    [%s%s%s]\n\r",
 	   IS_SET(pCab->pIndexData->align, ALIGN_GOOD) ? "G" : " ",
 	   IS_SET(pCab->pIndexData->align, ALIGN_NEUTRAL) ? "N" : " ",
 	   IS_SET(pCab->pIndexData->align, ALIGN_EVIL) ? "E" : " ",
@@ -1312,12 +1315,12 @@ void do_cstat( CHAR_DATA* ch, char* argument ){
 	   IS_SET(pCab->pIndexData->ethos, ETHOS_NEUTRAL) ? "N" : " ",
 	   IS_SET(pCab->pIndexData->ethos, ETHOS_CHAOTIC) ? "C" : " ");
   send_to_char( buf, ch );
-  
-  
+
+
   send_to_char("Entrance and member status:\n\r", ch );
   sprintf( buf, "Avatar: %s\n\r", pCab->pIndexData->fAvatar ? "Yes" : "No" );
   send_to_char( buf, ch );
-  
+
   if (pCab->pIndexData->race[0] < 0){
     sprintf(buf, "Races: All");
   }
@@ -1333,7 +1336,7 @@ void do_cstat( CHAR_DATA* ch, char* argument ){
     }
   send_to_char( buf, ch );
   send_to_char("\n\r", ch);
-  
+
   if (pCab->pIndexData->class[0] < 0){
     sprintf(buf, "Class: All");
   }
@@ -1347,10 +1350,10 @@ void do_cstat( CHAR_DATA* ch, char* argument ){
       }
     }
   }
-  
+
   send_to_char( buf, ch );
   send_to_char("\n\r", ch);
-  
+
   /* show members that you can see */
   for ( cnt = 0, cMem = pPar->members; cMem; cMem = cMem->next ){
     if (cMem->level > 50 && !IS_IMMORTAL(ch))
@@ -1360,8 +1363,8 @@ void do_cstat( CHAR_DATA* ch, char* argument ){
       send_to_char( "Number     Name       Class   Race    Lvl   Rank    Cp   Month  Days Ago    Cabal\n\r", ch );
       send_to_char( "------ ------------- ------- ------- ----- ------  ---- ------- ------- -------\n\r", ch );
     }
-    sprintf( buf, "[%4d] %-15.15s %-6s %-8.8s %-6d %-5d %-5ld %-5d %-5ld %-10s\n\r", 
-	     cnt, 
+    sprintf( buf, "[%4d] %-15.15s %-6s %-8.8s %-6d %-5d %-5ld %-5d %-5ld %-10s\n\r",
+	     cnt,
 	     cMem->name,
 	     class_table[cMem->class].who_name,
 	     race_table[cMem->race].name,
@@ -1375,7 +1378,7 @@ void do_cstat( CHAR_DATA* ch, char* argument ){
     cnt++;
   }
   send_to_char("\n\r", ch );
-  if (IS_CABAL(pPar, CABAL_TRADE) || IS_CABAL(pPar, CABAL_NAPACT) 
+  if (IS_CABAL(pPar, CABAL_TRADE) || IS_CABAL(pPar, CABAL_NAPACT)
       || IS_CABAL(pPar, CABAL_ALLIANCE) || IS_CABAL(pPar, CABAL_VENDETTA)){
     send_to_char("PACTS:\n\r", ch );
     show_pacts( ch, pPar );
@@ -1404,10 +1407,10 @@ void do_ostat( CHAR_DATA *ch, char *argument )
     sendf( ch, "Vnum: %d (%d) Format: %s  Type: %s  Material: %s\n\r",
       obj->vnum, obj->pIndexData->vnum, obj->pIndexData->new_format ? "new" : "old", item_name(obj->item_type), obj->material);
     sendf( ch, "Resets: %d  Factor: %d  Allowed %d  Count: %d  Home: %d  Recall %d  Pit %d\n\r",
-	   obj->pIndexData->reset_num, 
+	   obj->pIndexData->reset_num,
 	   IS_LIMITED(obj) ? obj->pIndexData->cost : 0,
 	   get_maxcount( obj->pIndexData ),
-	   obj->pIndexData->count, 
+	   obj->pIndexData->count,
 	   obj->homevnum,
 	   obj->recall,
 	   get_temple_pit(obj->recall));
@@ -1438,7 +1441,7 @@ void do_ostat( CHAR_DATA *ch, char *argument )
       sendf(ch, "Adds following to weapon flags: %s\n\r",
 	    flag_string( weapon_type2,  obj->value[4] ) );
       break;
-    	case ITEM_SCROLL: 
+    	case ITEM_SCROLL:
 	case ITEM_ARTIFACT:
     	case ITEM_POTION:
     	case ITEM_PILL:
@@ -1448,8 +1451,8 @@ void do_ostat( CHAR_DATA *ch, char *argument )
                     sendf( ch, " '%s'", skill_table[obj->value[i]].name);
 	    send_to_char( ".\n\r", ch );
 	break;
-    	case ITEM_WAND: 
-    	case ITEM_STAFF: 
+    	case ITEM_WAND:
+    	case ITEM_STAFF:
             sendf( ch, "Has %d(%d) charges of level %d", obj->value[1], obj->value[2], obj->value[0] );
 	    if ( obj->value[3] >= 0 && obj->value[3] < MAX_SKILL && skill_table[obj->value[3]].name != NULL)
 	    	sendf( ch, " '%s'", skill_table[obj->value[3]].name);
@@ -1463,7 +1466,7 @@ void do_ostat( CHAR_DATA *ch, char *argument )
 	    switch (obj->value[0])
 	    {
                 case(WEAPON_EXOTIC): send_to_char("exotic\n\r",ch);      break;
-                case(WEAPON_SWORD):  send_to_char("sword\n\r",ch);       break; 
+                case(WEAPON_SWORD):  send_to_char("sword\n\r",ch);       break;
                 case(WEAPON_DAGGER): send_to_char("dagger\n\r",ch);      break;
                 case(WEAPON_SPEAR):  send_to_char("spear\n\r",ch); break;
                 case(WEAPON_STAFF):  send_to_char("staff\n\r",ch); break;
@@ -1508,12 +1511,12 @@ void do_ostat( CHAR_DATA *ch, char *argument )
       TRAP_DATA* pTrap = obj->traps;
       while(pTrap){
 	sendf(ch, "Trap [%d] %s%s%s: %s, type: %s, lvl: %d, dur: %d, %s\n\r",
-	      pTrap->vnum, 
+	      pTrap->vnum,
 	      pTrap->owner ? "(" : "",
 	      pTrap->owner ? pTrap->owner->name : "",
 	      pTrap->owner ? ")" : "",
 	      pTrap->name, trap_table[pTrap->type].name,
-	      pTrap->level, pTrap->duration, 
+	      pTrap->level, pTrap->duration,
 	      pTrap->armed ? "ARMED" :  "disarmed");
 	pTrap = pTrap->next_trap;
       }
@@ -1541,12 +1544,12 @@ void do_ostat( CHAR_DATA *ch, char *argument )
 	if (IS_GEN(paf->type))
 	  sendf( ch, "Effect: '%s' modifies %s by %d for %d hours with bits "\
 		 "%s or %s, level %d%s%s\n\r",
-		 effect_table[GN_POS(paf->type)].name, 
-		 (paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location )), 
+		 effect_table[GN_POS(paf->type)].name,
+		 (paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location )),
 		 paf->modifier,
 		 paf->duration,
-		 affect_bit_name( paf->bitvector ), 
-		 affect2_bit_name( paf->bitvector ), 
+		 affect_bit_name( paf->bitvector ),
+		 affect2_bit_name( paf->bitvector ),
 		 paf->level,
 		 (paf->has_string && paf->string != NULL? ".\n\r String: " :  ""),
 		 (paf->has_string && paf->string != NULL? paf->string: "") );
@@ -1554,16 +1557,16 @@ void do_ostat( CHAR_DATA *ch, char *argument )
 	else{
 	  sendf( ch, "Spell: '%s' modifies %s by %d for %d hours with bits %s"\
 		 " or %s, level %d%s%s\n\r",
-		 skill_table[(int) paf->type].name, 
-		 (paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location )), 
+		 skill_table[(int) paf->type].name,
+		 (paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location )),
 		 paf->modifier,
 		 paf->duration,
 		 affect_bit_name( paf->bitvector ),
-		 affect2_bit_name( paf->bitvector ), 
+		 affect2_bit_name( paf->bitvector ),
 		 paf->level,
 		 (paf->has_string && paf->string != NULL? ".\n\r String: " :  ""),
 		 (paf->has_string && paf->string != NULL? paf->string: "") );
-	  
+
 	  if (paf->bitvector){
 	    switch(paf->where){
             case TO_AFFECTS: sendf(ch,"Adds %s affect.\n\r", affect_bit_name(paf->bitvector));          break;
@@ -1583,10 +1586,10 @@ void do_ostat( CHAR_DATA *ch, char *argument )
         {
 	  if ( paf->location != APPLY_NONE && paf->modifier != 0 )
 	    sendf( ch, "Affects %s by %d, level %d.\n\r",
-		   (paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location )), 
-		   paf->modifier, 
+		   (paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location )),
+		   paf->modifier,
 		   paf->level );
-	  
+
             if (paf->bitvector)
             {
                 switch(paf->where)
@@ -1662,20 +1665,20 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 	   IS_QRACE(victim) ? "(" : "",
 	   IS_QRACE(victim) ? race_table[victim->race].name: "",
 	   IS_QRACE(victim) ? ") " : "",
-	   IS_NPC(victim) ? victim->group : 0, 
+	   IS_NPC(victim) ? victim->group : 0,
 	   victim->sex == 0 ? "sexless" : victim->sex == 1 ? "male" : "female",
 	   !IS_NPC(victim) ? (victim->pcdata->true_sex == 0 ? "sexless" : victim->pcdata->true_sex == 1 ? "male" : "female") : "mob",
 	   victim->in_room == NULL    ?        0 : victim->in_room->vnum);
     if (!IS_NPC(victim)){
       sendf(ch, "Hometown: %s,   Ethos: %s,   Tattoo: %s\n\r",
-	    hometown_table[victim->hometown].name, 
-	    ethos_table[victim->pcdata->ethos].name, 
+	    hometown_table[victim->hometown].name,
+	    ethos_table[victim->pcdata->ethos].name,
 	    deity_table[victim->tattoo].god);
     }
     else{
       sendf(ch, "Count: %d  Killed: %d  Home: %d  Cabal: %s\n\r",
 	    victim->pIndexData->count,
-	    victim->pIndexData->killed, 
+	    victim->pIndexData->killed,
 	    victim->homevnum,
 	    victim->pCabal ? victim->pCabal->name : "None");
     }
@@ -1718,10 +1721,10 @@ void do_mstat( CHAR_DATA *ch, char *argument )
     if (!IS_NPC(victim)){
       sendf(ch, "Weapon Position: %s.\n\r",
 	    victim->pcdata->wep_pos == WEPPOS_HIGH ? "high" :
-	    victim->pcdata->wep_pos == WEPPOS_LOW ? "low" : 
+	    victim->pcdata->wep_pos == WEPPOS_LOW ? "low" :
 	    victim->pcdata->wep_pos == WEPPOS_NORMAL? "normal" : "unkown");
     }
-    
+
     sendf(ch, "Affl: %d  Maled: %d  Mental: %d  Breath: %d  Spell: %d\n\r",
 	victim->savingaffl, victim->savingmaled, victim->savingmental, victim->savingbreath, victim->savingspell);
     sendf(ch, "Level Modifier: Affl %d  Maled  %d Mental %d  Spell %d.\n\r",
@@ -1751,7 +1754,7 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 	  victim->carry_number, get_carry_weight(victim) / 10, victim->pcdata->guarding ? victim->pcdata->guarding->name : "(none)",
 	  victim->pcdata->guarded_by ? victim->pcdata->guarded_by->name : "(none)" );
         sendf( ch, "Age: %d  Played: %d  Last Level: %d  Timer: %d\n\r",
-	    get_age(victim), (int) (victim->played + mud_data.current_time - victim->logon) / 3600, 
+	    get_age(victim), (int) (victim->played + mud_data.current_time - victim->logon) / 3600,
 	    victim->pcdata->last_level, victim->timer );
     }
 
@@ -1796,7 +1799,7 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 	if (victim->logon != 0)
 	    total += ((int) ((mud_data.current_time - victim->logon)/60));
 	sendf( ch, "Month: %d -- %d Hours and %d Mins -- Total: %d\n\r",victim->pcdata->month, total/60, total % 60, total );
-        sendf( ch, "Security: %d.\n\r", victim->pcdata->security );	
+        sendf( ch, "Security: %d.\n\r", victim->pcdata->security );
         sendf( ch, "Times flagged: %d.\n\r", victim->pcdata->flagged );
         sendf( ch, "Player Rank: %d.\n\r", victim->pcdata->rank );
 	sendf( ch, "Player Kills: %d, Player Deaths: %d, Mob Kills: %d, Mob Deaths: %d, Total Deaths: %d\n\r",
@@ -1821,7 +1824,7 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 	   5 - victim->level/10 - victim->hunttime,
 	   IS_NPC(victim->hunting) ? victim->hunting->short_descr : victim->hunting->name,
            IS_NPC(victim->hunting) ? "MOB" : "PLAYER" );
-    
+
     if ( !IS_NPC(victim) && is_ghost(victim,300) )
         send_to_char("Is a ghost right now.\n\r",ch);
     if (victim->class == class_lookup("monk"))
@@ -1833,7 +1836,7 @@ void do_mstat( CHAR_DATA *ch, char *argument )
         send_to_char("\n\r", ch);
         send_to_char("Encumberance:", ch);
         for (i = 0; i < 8; i++)
-            if ((obj = get_eq_char(victim, monk_table[i].value)) != NULL && obj->weight > monk_table[i].weight * 10)            
+            if ((obj = get_eq_char(victim, monk_table[i].value)) != NULL && obj->weight > monk_table[i].weight * 10)
                 sendf(ch, " %s", monk_table[i].wear);
         send_to_char("\n\r", ch);
     }
@@ -1850,17 +1853,17 @@ void do_mstat( CHAR_DATA *ch, char *argument )
       else if (pTrap->on_exit)
 	sendf(ch, "Trap E: %s [%d] ",
 	      pTrap->on_exit->to_room ? pTrap->on_exit->to_room->name : "error",
-	      pTrap->on_exit->to_room ? pTrap->on_exit->to_room->vnum : 0); 
+	      pTrap->on_exit->to_room ? pTrap->on_exit->to_room->vnum : 0);
       else
 	sendf(ch, "Trap ");
-      
+
       sendf(ch, "Vn:[%d] %s%s%s, type: %s, lvl: %d, dur: %d, %s\n\r",
-	    pTrap->vnum, 
+	    pTrap->vnum,
 	    pTrap->owner ? "(" : "",
 	    pTrap->owner ? pTrap->owner->name : "",
 	    pTrap->owner ? ")" : "",
 	    trap_table[pTrap->type].name,
-	    pTrap->level, pTrap->duration, 
+	    pTrap->level, pTrap->duration,
 	      pTrap->armed ? "ARMED" :  "disarmed");
       pTrap = pTrap->next_trap;
     }
@@ -1881,12 +1884,12 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 	if (IS_GEN(paf->type))
 	  sendf( ch, "Effect: '%s' modifies %s by %d for %d hours with bits"\
 		 "%s or %s, level %d%s%s\n\r",
-		 effect_table[GN_POS(paf->type)].name, 
-		 (paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location )), 
+		 effect_table[GN_POS(paf->type)].name,
+		 (paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location )),
 		 paf->modifier,
 		 paf->duration,
-		 affect_bit_name( paf->bitvector ), 
-		 affect2_bit_name( paf->bitvector ), 
+		 affect_bit_name( paf->bitvector ),
+		 affect2_bit_name( paf->bitvector ),
 		 paf->level,
 		 (paf->has_string && paf->string != NULL? ".\n\r String: " :  ""),
 		 (paf->has_string && paf->string != NULL? paf->string: "") );
@@ -1894,12 +1897,12 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 	else
 	  sendf( ch, "Spell: '%s' modifies %s by %d for %d hours with bits %s"\
 		 " or %s, level %d%s%s\n\r",
-		 skill_table[(int) paf->type].name, 
-		 (paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location )), 
+		 skill_table[(int) paf->type].name,
+		 (paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location )),
 		 paf->modifier,
 		 paf->duration,
 		 affect_bit_name( paf->bitvector ),
-		 affect2_bit_name( paf->bitvector ), 
+		 affect2_bit_name( paf->bitvector ),
 		 paf->level,
 		 (paf->has_string && paf->string != NULL? ".\n\r String: " :  ""),
 		 (paf->has_string && paf->string != NULL? paf->string: "") );
@@ -1908,14 +1911,14 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 
     for ( paf = victim->affected2; paf != NULL; paf = paf->next )
         sendf( ch, "Song: '%s' modifies %s by %d for %d hours with bits %s or %s, level %d.\n\r",
-          song_table[(int) paf->type].name, 
-	       (paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location )), 
-	       paf->modifier, 
+          song_table[(int) paf->type].name,
+	       (paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location )),
+	       paf->modifier,
 	       paf->duration,
-	       affect_bit_name( paf->bitvector ), 
-	       affect2_bit_name( paf->bitvector ), paf->level ); 
+	       affect_bit_name( paf->bitvector ),
+	       affect2_bit_name( paf->bitvector ), paf->level );
 }//end mstat
-	      
+
 void do_tfind( CHAR_DATA *ch, char *argument ){
   char buf[MSL];
   BUFFER *buffer;
@@ -2172,7 +2175,7 @@ void do_ofind( CHAR_DATA *ch, char *argument )
 	add_buf( buffer, buf );
       }
     }
-    
+
     if ( !found )
       send_to_char( "No objects by that name.\n\r", ch );
     else
@@ -2217,7 +2220,7 @@ void do_wepfind( CHAR_DATA *ch, char *argument ){
       if ( ( pObjIndex = get_obj_index( vnum ) ) == NULL)
 	continue;
       nMatch++;
-      if (pObjIndex->value[0] != type 	   
+      if (pObjIndex->value[0] != type
 	  || pObjIndex->item_type != ITEM_WEAPON)
 	continue;
       if (wear && !CAN_WEAR(pObjIndex, wear))
@@ -2262,15 +2265,15 @@ void do_owhere(CHAR_DATA *ch, char *argument )
     for ( obj = object_list; obj != NULL; obj = obj->next )
     {
       /* skip stained stuff on imms */
-      if (!str_cmp(argument, "stained") 
+      if (!str_cmp(argument, "stained")
 	  && obj->carried_by
 	  && IS_IMMORTAL(obj->carried_by))
 	continue;
-        if ( can_see_obj( ch, obj ) 
+        if ( can_see_obj( ch, obj )
 	     && obj->level <= 60
 	     && (is_name( argument, obj->name )
 		 || (is_number(argument) && atoi(argument) == obj->pIndexData->vnum)
-		 || (!str_cmp(argument, "stained") 
+		 || (!str_cmp(argument, "stained")
 		     && IS_SET(obj->extra_flags, ITEM_STAIN))))
 	{
             found = TRUE;
@@ -2328,21 +2331,21 @@ void do_twhere(CHAR_DATA *ch, char *argument )
 	CHAR_DATA* carried = in_char( obj );
 	OBJ_DATA* stored = in_obj( obj );
 	sprintf( buf, "%3d) %s is on object %s [Room %d]\n\r",
-		 number, 
-		 pTrap->name, 
-		 obj->short_descr, 
+		 number,
+		 pTrap->name,
+		 obj->short_descr,
 		 carried ? carried->in_room->vnum : stored->in_room->vnum);
       }
       else if (pTrap->on_exit){
 	EXIT_DATA* pExit = pTrap->on_exit;
 	sprintf( buf, "%3d) %s is on exit to %s [to Room %d]\n\r",
-		 number, 
-		 pTrap->name, 
-		 pExit->to_room ? pExit->to_room->name : "somewhere", 
-		 pExit->to_room ? pExit->to_room->vnum : 0); 
+		 number,
+		 pTrap->name,
+		 pExit->to_room ? pExit->to_room->name : "somewhere",
+		 pExit->to_room ? pExit->to_room->vnum : 0);
 
       }
-      else 
+      else
 	sprintf( buf, "%3d) %s is nowhere.\n\r", number, pTrap->name);
       buf[0] = UPPER(buf[0]);
       add_buf(buffer,buf);
@@ -2494,7 +2497,7 @@ void do_rwhere( CHAR_DATA *ch, char *argument )
 		  room->area->vnum, room->area->name);
 	  add_buf(buffer,buf);
 	}
-      }//END for (room = 
+      }//END for (room =
     }//END for (i = 0
 
     if ( buf[0] == '\0' )
@@ -2551,10 +2554,10 @@ void do_reboot( CHAR_DATA *ch, char *argument )
   bool found = FALSE;
   AREA_DATA *pArea;
   argument = one_argument(argument,arg);
-  
+
   if (argument[0] && reboot_buffer[0] == '\0')
     strcpy(reboot_buffer, argument);
-  
+
   num_ticks = is_number (arg) ? atoi (arg) : -1979;
   if ( num_ticks == -1979)
     {
@@ -2744,10 +2747,10 @@ void do_protect( CHAR_DATA *ch, char *argument)
 int check_snoop_loop (Double_List *snoop, CHAR_DATA *victim) {
   Double_List * tmp_list;
   Double_List * tmp_list2;
-  
+
   tmp_list = snoop;
   while (tmp_list != NULL) {
-    if ((((DESCRIPTOR_DATA *)tmp_list->cur_entry)->character == victim) || 
+    if ((((DESCRIPTOR_DATA *)tmp_list->cur_entry)->character == victim) ||
 	(((DESCRIPTOR_DATA *)tmp_list->cur_entry)->original == victim)) {
       return (-1);
     }
@@ -2760,10 +2763,10 @@ int check_snoop_loop (Double_List *snoop, CHAR_DATA *victim) {
     }
     tmp_list = tmp_list->next_node;
   }
-  
+
   return (0);
 }
-  
+
 void do_snoop( CHAR_DATA *ch, char *argument )
 {
     char arg[MIL], buf[MSL];
@@ -2837,7 +2840,7 @@ void do_snoop( CHAR_DATA *ch, char *argument )
         sendf(ch, "%s is in a private room.\n\r", PERS2(victim));
         return;
     }
-    if ( !have_access(ch,victim->in_room))   
+    if ( !have_access(ch,victim->in_room))
     {
         send_to_char( "Don't think so.\n\r",ch);
         return;
@@ -2926,7 +2929,7 @@ void do_switch( CHAR_DATA *ch, char *argument )
 	sendf(ch, "%s is in a private room.\n\r", PERS2(victim));
 	return;
     }
-    if ( !have_access(ch,victim->in_room))   
+    if ( !have_access(ch,victim->in_room))
     {
         send_to_char( "Don't think so.\n\r",ch);
         return;
@@ -2973,7 +2976,7 @@ void do_return( CHAR_DATA *ch, char *argument )
     ch->comm                  = COMM_NOCHANNELS|COMM_NOYELL|COMM_NOTELL;
     ch->desc->character       = ch->desc->original;
     ch->desc->original        = NULL;
-    ch->desc->character->desc = ch->desc; 
+    ch->desc->character->desc = ch->desc;
     ch->desc                  = NULL;
 }
 
@@ -3033,7 +3036,7 @@ void do_clone(CHAR_DATA *ch, char *argument )
     if (obj != NULL)
     {
 	OBJ_DATA *clone;
-        clone = create_object(obj->pIndexData,0); 
+        clone = create_object(obj->pIndexData,0);
 	clone_object(obj,clone);
 	if (obj->carried_by != NULL)
 	    obj_to_char(clone,ch);
@@ -3056,7 +3059,7 @@ void do_clone(CHAR_DATA *ch, char *argument )
 	    return;
 	}
 	clone = create_mobile(mob->pIndexData);
-	clone_mobile(mob,clone); 
+	clone_mobile(mob,clone);
 	for (obj = mob->carrying; obj != NULL; obj = obj->next_content)
 	{
             new_obj = create_object(obj->pIndexData,0);
@@ -3387,7 +3390,7 @@ void do_restore( CHAR_DATA *ch, char *argument )
 	    affect_strip(victim,gsn_strangle);
             victim->hit 	= victim->max_hit;
             victim->mana	= victim->max_mana;
-            victim->move	= victim->max_move;	   
+            victim->move	= victim->max_move;
 	    if (!IS_NPC(victim)){
 	      victim->pcdata->condition[COND_HUNGER] = 100;
 	      victim->pcdata->condition[COND_THIRST] = 100;
@@ -3436,7 +3439,7 @@ void do_restore( CHAR_DATA *ch, char *argument )
     wiznet(buf,ch,NULL,WIZ_RESTORE,WIZ_SECURE,get_trust(ch));
     sendf(ch, "You have restored %s.\n\r", PERS2(victim) );
 }
- 	
+
 void do_freeze( CHAR_DATA *ch, char *argument )
 {
     char arg[MIL], buf[MSL];
@@ -3607,7 +3610,7 @@ void do_noyell( CHAR_DATA *ch, char *argument )
             send_to_char( "This command is irreversible.\n\r"\
 			  "To complete the command, type: "\
 			  "'noyell yes'.\n\r",ch);
-	  
+
 	    return;
 	}
 	else
@@ -3852,10 +3855,10 @@ void do_sset( CHAR_DATA *ch, char *argument )
     {
 	send_to_char( "Syntax:\n\r",ch);
 	send_to_char( "  set skill <name> <spell or skill> <value>\n\r", ch);
-	send_to_char( "  set skill <name> all <value>\n\r",ch);  
-	send_to_char( "  set skill <name> class <value>\n\r",ch);  
-	send_to_char( "  set skill <name> group <groupname> <value>\n\r",ch);  
-	send_to_char( "  set skill <name> anat <anatomy> <value>\n\r",ch);  
+	send_to_char( "  set skill <name> all <value>\n\r",ch);
+	send_to_char( "  set skill <name> class <value>\n\r",ch);
+	send_to_char( "  set skill <name> group <groupname> <value>\n\r",ch);
+	send_to_char( "  set skill <name> anat <anatomy> <value>\n\r",ch);
 	send_to_char("   (use the name of the skill, not the number)\n\r",ch);
 	return;
     }
@@ -3956,7 +3959,7 @@ void do_sset( CHAR_DATA *ch, char *argument )
 
 	  if ( skill_table[sn].name != NULL)
 	    {
-	      if (skill_table[sn].skill_level[0] != 69 
+	      if (skill_table[sn].skill_level[0] != 69
 		  && skill_table[sn].skill_level[victim->class] < 51
 		  && skill_table[sn].skill_level[victim->class] > 0
 		  ){
@@ -3977,7 +3980,7 @@ void do_sset( CHAR_DATA *ch, char *argument )
 		set_cleric_skillset(victim, UMIN(100, value));
 		set_race_skills(victim, UMIN(100, value));
 	      }
-	  
+
         }
     else{
       SKILL_DATA* nsk;
@@ -4005,7 +4008,7 @@ void do_sgset( CHAR_DATA *ch, char *argument )
     {
 	send_to_char( "Syntax:\n\r",ch);
 	send_to_char( "  set song <name> <song> <value>\n\r", ch);
-	send_to_char( "  set song <name> all <value>\n\r",ch);  
+	send_to_char( "  set song <name> all <value>\n\r",ch);
 	send_to_char("   (use the name of the song, not the number)\n\r",ch);
 	return;
     }
@@ -4055,14 +4058,14 @@ void do_mset( CHAR_DATA *ch, char *argument )
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
     strcpy( arg3, argument );
-    if ( arg1[0] == '\0' || arg2[0] == '\0' 
-	 || (arg3[0] == '\0' 
-	     && (str_cmp(arg2, "maxstat") 
+    if ( arg1[0] == '\0' || arg2[0] == '\0'
+	 || (arg3[0] == '\0'
+	     && (str_cmp(arg2, "maxstat")
 		 && str_cmp(arg2, "newbie")
 		 && str_cmp(arg2, "telepath")
 		 && str_cmp(arg2, "dndspell")
 		 && str_cmp(arg2, "nospells"))
-	     ) 
+	     )
 	 )
     {
       send_to_char("Syntax:\n\r"\
@@ -4104,7 +4107,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
       sendf(ch, "%s is now of the royal blood.\n\r", PERS2(victim));
       send_to_char( "You are now a member of the royality.\n\r",victim);
       return;
-    }                                     
+    }
     //NOBLE
     if (!str_prefix(arg2, "noble")){
       if ( IS_NPC(victim) ){
@@ -4121,7 +4124,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
       sendf(ch, "%s is now of the nobility.\n\r", PERS2(victim));
       send_to_char( "You are now a member of the nobility.\n\r",victim);
       return;
-    }                                     
+    }
 //Cabal Points
     if ( !str_prefix( arg2, "cabalpts" ) ){
       if (get_trust(ch) < 60){
@@ -4158,12 +4161,12 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	send_to_char("They must be in a cabal.\n\r", ch );
 	return;
       }
-	
+
       if (value < 0)
 	value = 0;
       victim->pcdata->member->mhours += 3600 * value - victim->pcdata->member->hours;
       victim->pcdata->member->hours = value * 3600;
-      sendf(ch, "Cabal Hours set to: %d, Month: %d.\n\r", victim->pcdata->member->hours / 3600, 
+      sendf(ch, "Cabal Hours set to: %d, Month: %d.\n\r", victim->pcdata->member->hours / 3600,
 	    victim->pcdata->member->mhours / 3600);
       /* Anti Cheating */
       if (!IS_IMMORTAL(victim))
@@ -4225,7 +4228,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	  case 1: ethos = DIETY_ETHOS_NEUTRAL;break;
 	  case 2: ethos = DIETY_ETHOS_CHAOTIC;break;
 	  }
-	
+
 	if ( (god = way_lookup(arg3)) < 0 )
 	  {
 	    char buf[MIL];
@@ -4234,9 +4237,9 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	    for ( god = 0; (deity_table[god].way != NULL && god < MAX_DIETY); god++ ){
 	      //print only dieties that are right for the char.
 	      if (!IS_SET(deity_table[god].align, align) || !IS_SET(deity_table[god].ethos, ethos) )
-		continue;  
-	      sprintf( buf, "%-12s: %-15s (%s)\n\r", 
-		       path_table[deity_table[god].path].name, 
+		continue;
+	      sprintf( buf, "%-12s: %-15s (%s)\n\r",
+		       path_table[deity_table[god].path].name,
 		       deity_table[god].way,
 		       deity_table[god].god);
 	      strcat(out, buf);
@@ -4246,8 +4249,8 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	  }
 	victim->pcdata->deity = deity_table[god].god;
 	victim->pcdata->way = god;
-	sendf(ch, "Religion set to the way of %s under %s's guidance.\n\r", deity_table[victim->pcdata->way].way, 
-	      victim->pcdata->deity);	
+	sendf(ch, "Religion set to the way of %s under %s's guidance.\n\r", deity_table[victim->pcdata->way].way,
+	      victim->pcdata->deity);
 	return;
       }
     if ( !str_cmp( arg2, "leader" ) )
@@ -4328,7 +4331,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	    REMOVE_BIT(victim->act2,PLR_ANNOY);
 	    act("Annoy removed from $N.",ch,NULL,victim,TO_CHAR);
 	}
-	else	
+	else
 	{
 	    SET_BIT(victim->act2,PLR_ANNOY);
 	    act("Annoy set on $N.",ch,NULL,victim,TO_CHAR);
@@ -4351,7 +4354,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	    REMOVE_BIT(victim->act2,PLR_EQLIMIT);
 	    act("$N is no longer safe from rare purge.",ch,NULL,victim,TO_CHAR);
 	}
-	else	
+	else
 	{
 	    SET_BIT(victim->act2,PLR_EQLIMIT);
 	    act("$N is now safe from rare purge.",ch,NULL,victim,TO_CHAR);
@@ -4370,7 +4373,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	    REMOVE_BIT(victim->act2,PLR_NOPURGE);
 	    act("$N will now be checked for rare purge.",ch,NULL,victim,TO_CHAR);
 	}
-	else	
+	else
 	{
 	    SET_BIT(victim->act2,PLR_NOPURGE);
 	    act("$N will no longer be affected by rare purges.",ch,NULL,victim,TO_CHAR);
@@ -4393,7 +4396,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	    REMOVE_BIT(victim->act2,PLR_GIMP);
 	    act("Gimp mode removed from $N.",ch,NULL,victim,TO_CHAR);
 	}
-	else	
+	else
 	{
 	    SET_BIT(victim->act2,PLR_GIMP);
 	    act("Gimp mode set on $N.",ch,NULL,victim,TO_CHAR);
@@ -4416,7 +4419,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	    REMOVE_BIT(victim->act2,PLR_GARBLE);
 	    act("Garble mode removed from $N.",ch,NULL,victim,TO_CHAR);
 	}
-	else	
+	else
 	{
 	    SET_BIT(victim->act2,PLR_GARBLE);
 	    act("Garble mode set on $N.",ch,NULL,victim,TO_CHAR);
@@ -4439,7 +4442,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	    REMOVE_BIT(victim->act2,PLR_NOWHO);
 	    act("Nowho removed from $N.",ch,NULL,victim,TO_CHAR);
 	}
-	else	
+	else
 	{
 	    SET_BIT(victim->act2,PLR_NOWHO);
 	    act("Nowho set on $N.",ch,NULL,victim,TO_CHAR);
@@ -4851,7 +4854,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
 	else if (!str_cmp(arg3,"bear"))
 	  btype = BEAST_RACE_BEAR;
 	else if (!str_cmp(arg3,"falcon"))
-	  btype = BEAST_RACE_FALCON; 
+	  btype = BEAST_RACE_FALCON;
 	else{
 	  send_to_char("Beast type may be: tiger, wolf, bear, falcon.\n\r", ch);
 	  return;
@@ -5287,8 +5290,8 @@ void do_oset( CHAR_DATA *ch, char *argument )
 	    send_to_char("That item has no Living Weapon effect.\n\r", ch);
 	    return;
 	  }
-	sendf(ch, "Set %s exp from %d to %d.\n\r", 
-	      obj->short_descr, 
+	sendf(ch, "Set %s exp from %d to %d.\n\r",
+	      obj->short_descr,
 	      paf->modifier,
 	      value);
 	paf->modifier = value;
@@ -5305,7 +5308,7 @@ void do_oset( CHAR_DATA *ch, char *argument )
     if ( !str_cmp( arg2, "value4" ) || !str_cmp( arg2, "v4" ) )
     {	obj->value[4] = value;		return;    }
     if ( !str_prefix( arg2, "extra" ) )
-    {	
+    {
 	obj->extra_flags ^= value;
 	return;
     }
@@ -5361,7 +5364,7 @@ void do_rset( CHAR_DATA *ch, char *argument )
         send_to_char("That room is private right now.\n\r",ch);
         return;
     }
-    if ( !have_access(ch,location))   
+    if ( !have_access(ch,location))
     {
         send_to_char( "Don't think so.\n\r",ch);
         return;
@@ -5404,7 +5407,7 @@ void do_sockets( CHAR_DATA *ch, char *argument )
 		 "---------------------------\n\r",ch);
     for ( d = descriptor_list; d != NULL; d = d->next )
     {
-	if ( d->character != NULL && can_see( ch, d->character ) 
+	if ( d->character != NULL && can_see( ch, d->character )
 	&& (arg[0] == '\0' || is_name(arg,d->character->name)
         || (d->original && is_name(arg,d->original->name))))
 	{
@@ -5427,7 +5430,7 @@ void do_sockets( CHAR_DATA *ch, char *argument )
     {
 	if (vch->desc != NULL)
 	    continue;
-	if ( can_see( ch, vch ) 
+	if ( can_see( ch, vch )
 	&& (arg[0] == '\0' || is_name(arg,vch->name)))
 	{
             strftime( s, 100, "%I:%M%p", localtime( &vch->logon ) );
@@ -5525,7 +5528,7 @@ void do_force( CHAR_DATA *ch, char *argument )
             sendf(ch, "%s is in a private room.\n\r", PERS2(victim));
             return;
         }
-        if ( !have_access(ch,victim->in_room))   
+        if ( !have_access(ch,victim->in_room))
         {
             send_to_char( "Don't think so.\n\r",ch);
             return;
@@ -5551,7 +5554,7 @@ void do_invis( CHAR_DATA *ch, char *argument )
     int level;
     char arg[MSL];
     one_argument( argument, arg );
-    if ( arg[0] == '\0' ) 
+    if ( arg[0] == '\0' )
     {
         if ( ch->invis_level)
         {
@@ -5633,7 +5636,7 @@ void do_holylight( CHAR_DATA *ch, char *argument )
     {
         send_to_char("They aren't here.\n\r",ch);
         return;
-    }   	
+    }
     if ( IS_NPC(victim) )
 	return;
     if ( IS_SET(victim->act, PLR_HOLYLIGHT) )
@@ -5760,10 +5763,14 @@ void do_mlevel(CHAR_DATA *ch, char *argument)
 
 DESCRIPTOR_DATA* bring( ROOM_INDEX_DATA* room, char* arg ){
   DESCRIPTOR_DATA *d;
-  int garbage;
+  int garbage = 0;
   char strsave[MIL];
   FILE *fp;
   CHAR_DATA* ch;
+
+  /* Useless conditional */
+  if( garbage != 0 )
+    garbage = garbage;
 
   fclose( fpReserve );
 
@@ -5783,14 +5790,14 @@ DESCRIPTOR_DATA* bring( ROOM_INDEX_DATA* room, char* arg ){
   d->editor = 69;
   garbage = load_char (d, arg);
   load_obj (d->character);
-  
+
   d->character->next = char_list;
   char_list = d->character;
   d->character->next_player = player_list;
   player_list = d->character;
-  
+
   reset_char(d->character);
-  
+
   char_to_room (d->character, room ? room : get_room_index(d->character->in_room->vnum));
   d->character->logon = 0;
 
@@ -5830,7 +5837,7 @@ void do_bringon( CHAR_DATA *ch, char *argument )
   if (string_count != nAllocString || perm_count < nAllocPerm ) {
     stringdif = sAllocString - string_size;
     permdif = sAllocPerm - perm_size;
-    sprintf(buf,"Memcheck: strings %d bytes : perms %d bytes : %s\n\r", 
+    sprintf(buf,"Memcheck: strings %d bytes : perms %d bytes : %s\n\r",
 	    stringdif, permdif, ch->name);
     send_to_char( buf, ch );
   }
@@ -5947,6 +5954,10 @@ void do_rename (CHAR_DATA *ch, char *argument)
         return;
     }
 
+    /* Useless conditional */
+    if( garbage != 0 )
+        garbage = garbage;
+
 /* check for a bunch of illegalities, including MOB names... */
     if ( !check_parse_name( arg2 ) ) {
       send_to_char ("Illegal name, try another.\n\r", ch);
@@ -5977,7 +5988,7 @@ void do_rename (CHAR_DATA *ch, char *argument)
         send_to_char ("That player name is illegal.  Rename aborted.\n\r", ch);
 	return;
     }
-    
+
     if ((vict = char_file_active (arg1)) != NULL)
         extract_them = 0;
     if (!vict)
@@ -6153,19 +6164,19 @@ void do_last (CHAR_DATA *ch, char *argument)
 {
   DESCRIPTOR_DATA *d = new_descriptor();
   long temp, timediff = 0;
-  
+
   if (argument[0]=='\0'){
     send_to_char("You must provide a name\n\r",ch);
     return;
   }
-  
+
   if (!load_char(d,  capitalize( argument ) )){
     send_to_char("Player File not found.\n\r", ch);
     free_descriptor(d);
     return;
   }
 
-  /* Make sure the room is not saved */    
+  /* Make sure the room is not saved */
   d->character->pcdata->roomnum/=-1;
   timediff = mud_data.current_time - d->character->logoff;
 
@@ -6345,7 +6356,7 @@ void do_flag(CHAR_DATA *ch, char *argument)
 	    flag = &victim->comm;
 	    flag_table = comm_flags;
 	}
-	else 
+	else
 	{
 	    send_to_char("That's not an acceptable flag.\n\r",ch);
 	    return;
@@ -6464,6 +6475,11 @@ void do_lfind(CHAR_DATA *ch, char *argument)
     int vnum, nMatch = 0;
     bool found = FALSE;
     buffer=new_buf();
+
+    /* Useless conditional */
+    if( found == TRUE )
+        found = FALSE;
+
     for(vnum=0; nMatch < top_obj_index; vnum++)
     {
         if ( (pObjIndex=get_obj_index(vnum)) !=NULL)
@@ -6488,6 +6504,10 @@ void do_rfind(CHAR_DATA *ch, char *argument)
     int vnum, nMatch = 0;
     bool found = FALSE;
     buffer=new_buf();
+    /* Useless conditional */
+    if( found == TRUE )
+        found = FALSE;
+
     sprintf(buf, "There are %d pfiles.\n\r", mud_data.pfiles);
     add_buf(buffer,buf);
     for(vnum=0; nMatch < top_obj_index; vnum++)
@@ -6498,8 +6518,8 @@ void do_rfind(CHAR_DATA *ch, char *argument)
         {
             found=TRUE;
             sprintf(buf, "[%5d] [%3d of %3d] %s\n\r",
-		    pObjIndex->vnum, 
-		    pObjIndex->count, 
+		    pObjIndex->vnum,
+		    pObjIndex->count,
 		    get_maxcount( pObjIndex ),
 		    pObjIndex->short_descr);
             add_buf(buffer,buf);
@@ -6518,7 +6538,9 @@ void do_profind(CHAR_DATA *ch, char *argument)
     int vnum, nMatch = 0;
     bool found = FALSE;
     buffer=new_buf();
-
+    /* Useless conditional */
+    if( found == TRUE )
+        found = FALSE;
     add_buf( buffer, "Projectiles:\n\r");
     for(vnum=0; nMatch < top_obj_index; vnum++){
       if ( (pObjIndex=get_obj_index(vnum)) != NULL)
@@ -6531,10 +6553,10 @@ void do_profind(CHAR_DATA *ch, char *argument)
 	sprintf( buf2, "%s", flag_string(projectile_type, pObjIndex->value[0]));
 
 	sprintf(buf, "[%5d] %-25.25s   %-10.10s  %-3d Max %-2d %s %-4dGp %s\n\r",
-		pObjIndex->vnum, 
+		pObjIndex->vnum,
 		pObjIndex->short_descr,
 		buf2,
-		pObjIndex->condition, 
+		pObjIndex->condition,
 		pObjIndex->value[1] * pObjIndex->value[2],
 		IS_SET(pObjIndex->wear_flags, ITEM_RARE) ? "R" : (IS_SET(pObjIndex->wear_flags, ITEM_UNIQUE) ? "U" : " "),
 		pObjIndex->cost,
@@ -6592,6 +6614,9 @@ void do_wfind(CHAR_DATA *ch, char *argument)
     int vnum, nMatch = 0;
     bool found = FALSE;
     buffer=new_buf();
+    /* Useless conditional */
+    if( found == TRUE )
+        found = FALSE;
     for( vnum=0; nMatch < top_obj_index; vnum++)
     {
         if ( (pObjIndex=get_obj_index(vnum)) !=NULL)
@@ -6614,8 +6639,11 @@ void do_efind(CHAR_DATA *ch, char *argument)
     BUFFER *buffer;
     OBJ_INDEX_DATA *pObjIndex;
     int vnum, number, nMatch = 0;
-    bool found;
+    bool found = FALSE;
     buffer=new_buf();
+    /* Useless conditional */
+    if( found == TRUE )
+        found = FALSE;
     number = flag_value(extra_flags,argument);
     if (number == NO_FLAG)
     {
@@ -6675,7 +6703,7 @@ void do_anum(CHAR_DATA *ch, char *argument)
 	    }
     }
     else if (!str_cmp(arg,"mob") || !str_cmp(arg,"char"))
-    { 
+    {
         for ( vnum = low; vnum <= high; vnum++ )
 	    if ( ( pMobIndex = get_mob_index( vnum ) ) != NULL )
 	    {
@@ -6730,13 +6758,13 @@ void do_wefind(CHAR_DATA *ch, char *argument)
         if ( (pObjIndex=get_obj_index(vnum)) !=NULL)
 	{
             nMatch++;
-            if ( IS_SET(pObjIndex->wear_flags, number) && 
+            if ( IS_SET(pObjIndex->wear_flags, number) &&
 		 pObjIndex->weight / 10 <= weight)
 	    {
 		include++;
                 if (CAN_WEAR(pObjIndex, ITEM_UNIQUE))
                     sprintf(buf2, "u");
-                else if (CAN_WEAR(pObjIndex, ITEM_RARE))   
+                else if (CAN_WEAR(pObjIndex, ITEM_RARE))
                     sprintf(buf2, "r");
                 else
                     sprintf(buf2, " ");
@@ -6750,13 +6778,13 @@ void do_wefind(CHAR_DATA *ch, char *argument)
         if ( (pObjIndex=get_obj_index(vnum)) !=NULL)
 	{
             nMatch++;
-            if ( IS_SET(pObjIndex->wear_flags, number) && 
+            if ( IS_SET(pObjIndex->wear_flags, number) &&
 		 pObjIndex->weight / 10 > weight)
 	    {
 		exclude++;
                 if (CAN_WEAR(pObjIndex, ITEM_UNIQUE))
                     sprintf(buf2, "u");
-                else if (CAN_WEAR(pObjIndex, ITEM_RARE))   
+                else if (CAN_WEAR(pObjIndex, ITEM_RARE))
                     sprintf(buf2, "r");
                 else
                     sprintf(buf2, " ");
@@ -6870,7 +6898,7 @@ void do_ssfind(CHAR_DATA *ch, char *argument)
 void do_crashus(CHAR_DATA *ch, char *argument)
 {
     CHAR_DATA *victim = NULL;
-    if (IS_NPC(ch)) 
+    if (IS_NPC(ch))
         return;
     send_to_char("Here we go!\n\r",ch);
     send_to_char("Here we go!\n\r",victim);
@@ -6881,6 +6909,9 @@ void do_freezeus(CHAR_DATA *ch, char *argument)
     int counter, nothing;
     for ( counter = 1; counter > 0; counter++);
 	nothing = counter;
+	/* Useless conditional */
+    if( nothing != counter )
+        nothing = counter;
 }
 
 void do_interest( CHAR_DATA *ch, char *argument )
@@ -6970,7 +7001,7 @@ void do_gofind( CHAR_DATA *ch, char *argument )
                 add_buf(buffer,buf);
             }
         }
-    }   
+    }
     page_to_char(buf_string(buffer),ch);
     free_buf(buffer);
 }
@@ -7020,7 +7051,7 @@ void do_affstrip( CHAR_DATA *ch, char *argument )
 	return;
     }
     affect_strip(victim,sn);
-    update_pos(victim);        
+    update_pos(victim);
     if (IS_GEN(sn))
       sendf(ch,"You strip the %s affect from %s.\n\r", effect_table[GN_POS(sn)].name, PERS2(victim));
     else
@@ -7051,7 +7082,7 @@ void do_songstrip( CHAR_DATA *ch, char *argument )
 	return;
     }
     song_strip(victim,sn);
-    update_pos(victim);        
+    update_pos(victim);
     sendf(ch,"You strip the %s song from %s.\n\r", song_table[sn].name, PERS2(victim));
 }
 
@@ -7165,7 +7196,7 @@ bool quest_approve(CHAR_DATA* ch, char* name, int quest){
   CHAR_DATA* victim;
   DESCRIPTOR_DATA* d;
   bool fRemote = FALSE;
-  
+
   if ( (victim = char_file_active (name)) == NULL){
     if ( (d = bring( ch->in_room, name )) != NULL){
       victim = d->character;
@@ -7197,7 +7228,7 @@ bool quest_approve(CHAR_DATA* ch, char* name, int quest){
   }
   send_to_char("`&You've been charged with a quest!``\n\r", victim);
   do_permquest(ch, arg);
-  
+
 /* check if this was remote and hence we need to purge */
   if (fRemote){
     SET_BIT(victim->pcdata->messages, MSG_QUEST);
@@ -7216,7 +7247,7 @@ void do_quest_crus(CHAR_DATA *ch, char *argument )
   int psalms[MAX_PSALM];
   char arg[MIL];
   char buf[MIL];
-  
+
   CHAR_DATA *victim;
   argument = one_argument( argument, arg );
   if ( arg[0] == '\0' ){
@@ -7235,7 +7266,7 @@ void do_quest_crus(CHAR_DATA *ch, char *argument )
     send_to_char("That person is already a Crusader.\n\r",ch);
     return;
   }
-  
+
 /* reset skills and setup new ones */
   while(victim->pcdata->newskills)
     nskill_remove(victim, victim->pcdata->newskills);
@@ -7262,43 +7293,43 @@ void do_quest_crus(CHAR_DATA *ch, char *argument )
 
   /* SET CLASS */
   victim->class = crusader;
-  
+
   /* PSALM PEN. RESET */
   victim->pcdata->psalm_pen = 0;
-  
+
   /* NUKE ALL THE GRANTED SKILLS */
   while(victim->pcdata->newskills)
     nskill_remove(victim, victim->pcdata->newskills);
-  
 
-  
+
+
   sprintf(buf, "%s has changed %s's class to %s.", IS_NPC(ch) ? PERS2(ch) : ch->name, victim->name, class_table[victim->class].name);
   log_event(ch, buf);
   do_hal("immortal", buf, buf, NOTE_PENALTY);
   send_to_char("Ok.\n\r",ch);
-  
+
   send_to_char("You have been accepted into the Order of Crusades.\n\r",victim);
   act("$n has been accepted into the Order of Crusades.",victim,NULL,NULL,TO_ROOM);
-  
+
 /* REMORT EFFECTS OF CLASS CHANGE */
   if (victim->level > 50)
     return;
-  
+
   /* STRIP THEM NAKED */
   while(victim->carrying){
     OBJ_DATA* obj = victim->carrying;
     obj_from_char( obj );
     extract_obj( obj );
   }
-  
-  /* LOWER MAX STATS */    
+
+  /* LOWER MAX STATS */
   for (sn = 0; sn < MAX_STATS; sn++)
     victim->perm_stat[sn] = UMAX(1, victim->perm_stat[sn] - 1);
-  
+
   /* lower one more stat by one */
   sn = number_range(0, STAT_CON);
   victim->perm_stat[sn] = UMAX(1, victim->perm_stat[sn] - 1);
-  
+
   /* raise condition if warranted */
   if (victim->pcdata->dall > 10){
     send_to_char("With wonder you see some of the scars dissapear from you body.\n\r", victim);
@@ -7310,7 +7341,7 @@ void do_quest_crus(CHAR_DATA *ch, char *argument )
   /* RESET  PSALMS */
   for (sn = 0; sn < MAX_PSALM; sn++)
     victim->pcdata->psalms[sn] = 0;
-  
+
   /* GET A RANDOM PSALM LIST */
   for (sn = 0; psalm_table[sn].name != NULL && sn < MAX_PSALM; sn++){
     if (psalm_table[sn].fRand)
@@ -7319,10 +7350,10 @@ void do_quest_crus(CHAR_DATA *ch, char *argument )
   /* ADD ONE RANDOM PSALM REGARDLESS*/
   if (last_psalm > 0)
     victim->pcdata->psalms[psalms[number_range(0, last_psalm - 1)]] = 1;
-  
+
   /* re approval of desc */
   SET_BIT(victim->act2, PLR_DESC);
-  
+
   /* RESET STARTING STATS */
   if (victim->race == race_lookup("illithid"))
     victim->dam_type = 28;
@@ -7360,7 +7391,7 @@ void do_quest_psi(CHAR_DATA *ch, char *argument )
   const int psi = class_lookup("psionicist");
   char arg[MIL];
   char buf[MIL];
-  
+
   CHAR_DATA *victim;
   argument = one_argument( argument, arg );
   if ( arg[0] == '\0' ){
@@ -7379,7 +7410,7 @@ void do_quest_psi(CHAR_DATA *ch, char *argument )
     send_to_char("That person is already a Psionicst.\n\r",ch);
     return;
   }
-  
+
 /* reset skills and setup new ones */
   while(victim->pcdata->newskills)
     nskill_remove(victim, victim->pcdata->newskills);
@@ -7391,7 +7422,7 @@ void do_quest_psi(CHAR_DATA *ch, char *argument )
 /* reset skills */
   for ( sn = 0; sn < MAX_SKILL; sn++ ){
     victim->pcdata->learned[sn] = UMIN(victim->pcdata->learned[sn], 100);
-    if ( skill_table[sn].name != NULL 
+    if ( skill_table[sn].name != NULL
 	 && skill_table[sn].rating[psi] > 0
 	 && skill_table[sn].skill_level[0] != 69){
       if (skill_table[sn].rating[psi] > 9)
@@ -7404,40 +7435,40 @@ void do_quest_psi(CHAR_DATA *ch, char *argument )
 
   /* SET CLASS */
   victim->class = psi;
-  
+
   /* NUKE ALL THE GRANTED SKILLS */
   while(victim->pcdata->newskills)
     nskill_remove(victim, victim->pcdata->newskills);
-  
 
-  
+
+
   sprintf(buf, "%s has changed %s's class to %s.", IS_NPC(ch) ? PERS2(ch) : ch->name, victim->name, class_table[victim->class].name);
   log_event(ch, buf);
   do_hal("immortal", buf, buf, NOTE_PENALTY);
   send_to_char("Ok.\n\r",ch);
-  
+
   send_to_char("You have been accepted into the Tower of Mind's Eye.\n\r",victim);
   act("$n has been accepted into the Tower of Mind's Eye.",victim,NULL,NULL,TO_ROOM);
-  
+
 /* REMORT EFFECTS OF CLASS CHANGE */
   if (victim->level > 50)
     return;
-  
+
   /* STRIP THEM NAKED */
   while(victim->carrying){
     OBJ_DATA* obj = victim->carrying;
     obj_from_char( obj );
     extract_obj( obj );
   }
-  
-  /* LOWER MAX STATS */    
+
+  /* LOWER MAX STATS */
   for (sn = 0; sn < MAX_STATS; sn++)
     victim->perm_stat[sn] = UMAX(1, victim->perm_stat[sn] - 1);
-  
+
   /* lower one more stat by one */
   sn = number_range(0, STAT_CON);
   victim->perm_stat[sn] = UMAX(1, victim->perm_stat[sn] - 1);
-  
+
   /* raise condition if warranted */
   if (victim->pcdata->dall > 10){
     send_to_char("With wonder you see some of the scars dissapear from you body.\n\r", victim);
@@ -7448,7 +7479,7 @@ void do_quest_psi(CHAR_DATA *ch, char *argument )
 
   /* re approval of desc */
   SET_BIT(victim->act2, PLR_DESC);
-  
+
  /* DND SPELLS */
   SET_BIT(victim->game, GAME_DNDS);
 
@@ -7488,7 +7519,7 @@ void do_guild(CHAR_DATA *ch, char *argument ){
   int sn;
   int c = 0, i = 0, choice = 0, new_class = -1;
   char buf[MIL];
-  
+
   if (ch->class != gcn_adventurer){
     send_to_char("Huh?\n\r", ch);
     return;
@@ -7503,8 +7534,8 @@ void do_guild(CHAR_DATA *ch, char *argument ){
 	continue;
       else if (ch->class == i)
 	continue;
-      sprintf( buf, "%2d. %-15.15s %3d Exp    ", 
-	       c + 1, 
+      sprintf( buf, "%2d. %-15.15s %3d Exp    ",
+	       c + 1,
 	       pc_race_table[ch->race].class_choice[i],
 	       class_table[i].extra_exp + pc_race_table[ch->race].class_mult - 1500);
       strcat( out, buf );
@@ -7553,7 +7584,7 @@ void do_guild(CHAR_DATA *ch, char *argument ){
 /* reset skills */
   for ( sn = 0; sn < MAX_SKILL; sn++ ){
     victim->pcdata->learned[sn] = UMIN(victim->pcdata->learned[sn], 100);
-    if ( skill_table[sn].name != NULL 
+    if ( skill_table[sn].name != NULL
 	 && skill_table[sn].rating[new_class] > 0
 	 && skill_table[sn].skill_level[0] != 69){
       if (skill_table[sn].rating[new_class] > 9)
@@ -7562,7 +7593,7 @@ void do_guild(CHAR_DATA *ch, char *argument ){
 	victim->pcdata->learned[sn] = 1;
     }
   }
-  
+
   /* SET CLASS */
   victim->class = new_class;
 
@@ -7571,11 +7602,11 @@ void do_guild(CHAR_DATA *ch, char *argument ){
 
   sendf(ch, "You have been accepted into the %s guild.\n\r", class_table[ch->class].name);
   act("$n has been accepted into %s guild.",victim, class_table[ch->class].name, NULL,TO_ROOM);
-  
+
 /* REMORT EFFECTS OF CLASS CHANGE */
   if (victim->level > 50)
     return;
-  
+
   /* raise condition if warranted */
   if (victim->pcdata->dall > 10){
     send_to_char("With wonder you see some of the scars dissapear from you body.\n\r", victim);
@@ -7586,7 +7617,7 @@ void do_guild(CHAR_DATA *ch, char *argument ){
 
   /* re approval of desc */
   SET_BIT(victim->act2, PLR_DESC);
-  
+
   /* RESET STARTING STATS */
   if (victim->race == race_lookup("illithid"))
     victim->dam_type = 28;
@@ -7620,7 +7651,7 @@ void do_guild(CHAR_DATA *ch, char *argument ){
 void do_quest_king(CHAR_DATA *ch, char *argument ){
   OBJ_DATA* crown, *obj;
   char arg[MIL];
-  
+
   CHAR_DATA *victim;
   argument = one_argument( argument, arg );
 
@@ -7656,7 +7687,7 @@ void do_quest_king(CHAR_DATA *ch, char *argument ){
   }
   send_to_char("Your scars disappear and your body is made whole once again.\n\r", victim );
   victim->pcdata->dall = 0;
-  
+
   send_to_char("You have been crowned as the King of Aabahran!\n\r", victim);
   act("$n has been crowned as the King of Aabahran.", victim, NULL, NULL, TO_ROOM );
   SET_BIT(victim->act2, PLR_ROYAL );
@@ -7696,19 +7727,19 @@ void do_quest_vamp(CHAR_DATA *ch, char *argument )
     victim->mod_stat[STAT_STR] = UMIN(get_max_train(victim, STAT_STR), victim->mod_stat[STAT_STR]);
     victim->mod_stat[STAT_INT] = UMIN(get_max_train(victim, STAT_INT), victim->mod_stat[STAT_INT]);
     victim->mod_stat[STAT_WIS] = UMIN(get_max_train(victim, STAT_WIS), victim->mod_stat[STAT_WIS]);
-    victim->mod_stat[STAT_DEX] = UMIN(get_max_train(victim, STAT_DEX), victim->mod_stat[STAT_DEX]); 
+    victim->mod_stat[STAT_DEX] = UMIN(get_max_train(victim, STAT_DEX), victim->mod_stat[STAT_DEX]);
     victim->mod_stat[STAT_CON] = UMIN(get_max_train(victim, STAT_CON), victim->mod_stat[STAT_CON]);
 
     victim->perm_stat[STAT_STR] = UMIN(get_max_train(victim, STAT_STR), victim->perm_stat[STAT_STR]);
     victim->perm_stat[STAT_INT] = UMIN(get_max_train(victim, STAT_INT), victim->perm_stat[STAT_INT]);
     victim->perm_stat[STAT_WIS] = UMIN(get_max_train(victim, STAT_WIS), victim->perm_stat[STAT_WIS]);
-    victim->perm_stat[STAT_DEX] = UMIN(get_max_train(victim, STAT_DEX), victim->perm_stat[STAT_DEX]); 
+    victim->perm_stat[STAT_DEX] = UMIN(get_max_train(victim, STAT_DEX), victim->perm_stat[STAT_DEX]);
     victim->perm_stat[STAT_CON] = UMIN(get_max_train(victim, STAT_CON), victim->perm_stat[STAT_CON]);
 
 
     victim->practice += 6;
     SET_BIT(victim->act2, PLR_MASQUERADE);
-	
+
     victim->affected_by = victim->affected_by|race_table[victim->race].aff;
     victim->imm_flags   = victim->imm_flags|race_table[victim->race].imm;
     victim->res_flags   = victim->res_flags|race_table[victim->race].res;
@@ -7778,17 +7809,17 @@ void do_quest_undead(CHAR_DATA *ch, char *argument )
     victim->mod_stat[STAT_STR] = UMIN(get_max_train(victim, STAT_STR), victim->mod_stat[STAT_STR]);
     victim->mod_stat[STAT_INT] = UMIN(get_max_train(victim, STAT_INT), victim->mod_stat[STAT_INT]);
     victim->mod_stat[STAT_WIS] = UMIN(get_max_train(victim, STAT_WIS), victim->mod_stat[STAT_WIS]);
-    victim->mod_stat[STAT_DEX] = UMIN(get_max_train(victim, STAT_DEX), victim->mod_stat[STAT_DEX]); 
+    victim->mod_stat[STAT_DEX] = UMIN(get_max_train(victim, STAT_DEX), victim->mod_stat[STAT_DEX]);
     victim->mod_stat[STAT_CON] = UMIN(get_max_train(victim, STAT_CON), victim->mod_stat[STAT_CON]);
 
     victim->perm_stat[STAT_STR] = UMIN(get_max_train(victim, STAT_STR), victim->perm_stat[STAT_STR]);
     victim->perm_stat[STAT_INT] = UMIN(get_max_train(victim, STAT_INT), victim->perm_stat[STAT_INT]);
     victim->perm_stat[STAT_WIS] = UMIN(get_max_train(victim, STAT_WIS), victim->perm_stat[STAT_WIS]);
-    victim->perm_stat[STAT_DEX] = UMIN(get_max_train(victim, STAT_DEX), victim->perm_stat[STAT_DEX]); 
+    victim->perm_stat[STAT_DEX] = UMIN(get_max_train(victim, STAT_DEX), victim->perm_stat[STAT_DEX]);
     victim->perm_stat[STAT_CON] = UMIN(get_max_train(victim, STAT_CON), victim->perm_stat[STAT_CON]);
 
 
-	
+
     victim->affected_by = victim->affected_by|race_table[victim->race].aff;
     victim->imm_flags   = race_table[victim->race].imm;
     victim->res_flags   = race_table[victim->race].res;
@@ -7845,13 +7876,13 @@ void do_quest_avatar(CHAR_DATA *ch, char *argument )
     victim->mod_stat[STAT_STR] = UMIN(get_max_train(victim, STAT_STR), victim->mod_stat[STAT_STR]);
     victim->mod_stat[STAT_INT] = UMIN(get_max_train(victim, STAT_INT), victim->mod_stat[STAT_INT]);
     victim->mod_stat[STAT_WIS] = UMIN(get_max_train(victim, STAT_WIS), victim->mod_stat[STAT_WIS]);
-    victim->mod_stat[STAT_DEX] = UMIN(get_max_train(victim, STAT_DEX), victim->mod_stat[STAT_DEX]); 
+    victim->mod_stat[STAT_DEX] = UMIN(get_max_train(victim, STAT_DEX), victim->mod_stat[STAT_DEX]);
     victim->mod_stat[STAT_CON] = UMIN(get_max_train(victim, STAT_CON), victim->mod_stat[STAT_CON]);
 
     victim->perm_stat[STAT_STR] = UMIN(get_max_train(victim, STAT_STR), victim->perm_stat[STAT_STR]);
     victim->perm_stat[STAT_INT] = UMIN(get_max_train(victim, STAT_INT), victim->perm_stat[STAT_INT]);
     victim->perm_stat[STAT_WIS] = UMIN(get_max_train(victim, STAT_WIS), victim->perm_stat[STAT_WIS]);
-    victim->perm_stat[STAT_DEX] = UMIN(get_max_train(victim, STAT_DEX), victim->perm_stat[STAT_DEX]); 
+    victim->perm_stat[STAT_DEX] = UMIN(get_max_train(victim, STAT_DEX), victim->perm_stat[STAT_DEX]);
     victim->perm_stat[STAT_CON] = UMIN(get_max_train(victim, STAT_CON), victim->perm_stat[STAT_CON]);
 
 
@@ -7898,13 +7929,13 @@ void do_quest_demon(CHAR_DATA *ch, char *argument )
     victim->mod_stat[STAT_STR] = UMIN(get_max_train(victim, STAT_STR), victim->mod_stat[STAT_STR]);
     victim->mod_stat[STAT_INT] = UMIN(get_max_train(victim, STAT_INT), victim->mod_stat[STAT_INT]);
     victim->mod_stat[STAT_WIS] = UMIN(get_max_train(victim, STAT_WIS), victim->mod_stat[STAT_WIS]);
-    victim->mod_stat[STAT_DEX] = UMIN(get_max_train(victim, STAT_DEX), victim->mod_stat[STAT_DEX]); 
+    victim->mod_stat[STAT_DEX] = UMIN(get_max_train(victim, STAT_DEX), victim->mod_stat[STAT_DEX]);
     victim->mod_stat[STAT_CON] = UMIN(get_max_train(victim, STAT_CON), victim->mod_stat[STAT_CON]);
 
     victim->perm_stat[STAT_STR] = UMIN(get_max_train(victim, STAT_STR), victim->perm_stat[STAT_STR]);
     victim->perm_stat[STAT_INT] = UMIN(get_max_train(victim, STAT_INT), victim->perm_stat[STAT_INT]);
     victim->perm_stat[STAT_WIS] = UMIN(get_max_train(victim, STAT_WIS), victim->perm_stat[STAT_WIS]);
-    victim->perm_stat[STAT_DEX] = UMIN(get_max_train(victim, STAT_DEX), victim->perm_stat[STAT_DEX]); 
+    victim->perm_stat[STAT_DEX] = UMIN(get_max_train(victim, STAT_DEX), victim->perm_stat[STAT_DEX]);
     victim->perm_stat[STAT_CON] = UMIN(get_max_train(victim, STAT_CON), victim->perm_stat[STAT_CON]);
 
     victim->affected_by = victim->affected_by|race_table[victim->race].aff;
@@ -7984,12 +8015,12 @@ void do_quest_druid(CHAR_DATA *ch, char *argument )
     victim->form        = race_table[victim->race].form;
     victim->parts       = race_table[victim->race].parts;
     victim->size = pc_race_table[victim->race].size;
-    
-     
+
+
     for ( sn = 0; sn < MAX_SKILL; sn++ )
-        if ( skill_table[sn].name != NULL 
-	&& skill_table[sn].rating[victim->class] < 10 
-	&& skill_table[sn].rating[victim->class] > 0 
+        if ( skill_table[sn].name != NULL
+	&& skill_table[sn].rating[victim->class] < 10
+	&& skill_table[sn].rating[victim->class] > 0
 	&& skill_table[sn].skill_level[0] !=69 && get_skill(victim,sn) == 0)
             victim->pcdata->learned[sn] = 1;
 
@@ -8019,9 +8050,9 @@ void to_healer(CHAR_DATA* ch)
 
 
   for ( sn = 0; sn < MAX_SKILL; sn++ )
-    if ( skill_table[sn].name != NULL 
-	 && skill_table[sn].rating[ch->class] < 10 
-	 && skill_table[sn].rating[ch->class] > 0 
+    if ( skill_table[sn].name != NULL
+	 && skill_table[sn].rating[ch->class] < 10
+	 && skill_table[sn].rating[ch->class] > 0
 	 && skill_table[sn].skill_level[0] != 69 && get_skill(ch,sn) == 0)
       ch->pcdata->learned[sn] = 1;
   act("You feel $g's blessing as you dedicate your life to healing.\n\r",ch, NULL, NULL, TO_CHAR);
@@ -8042,14 +8073,14 @@ void to_druid(CHAR_DATA* ch)
    }
  else
    ch->class = class_lookup("druid");
- 
+
  for ( sn = 0; sn < MAX_SKILL; sn++ )
-   if ( skill_table[sn].name != NULL 
-	&& skill_table[sn].rating[ch->class] < 10 
-	&& skill_table[sn].rating[ch->class] > 0 
+   if ( skill_table[sn].name != NULL
+	&& skill_table[sn].rating[ch->class] < 10
+	&& skill_table[sn].rating[ch->class] > 0
 	&& skill_table[sn].skill_level[0] != 69 && get_skill(ch,sn) == 0)
      ch->pcdata->learned[sn] = 1;
- 
+
  send_to_char("You leave your aggressive naure behind and dedicate your life to nature.\n\r",ch);
  act("A green aura envelops $n as $e dedicates his life to powers of nature.",ch,NULL,NULL,TO_ROOM);
  set_race_skills(ch, -1);
@@ -8072,10 +8103,10 @@ void to_shaman(CHAR_DATA* ch)
    ch->class = class_lookup("shaman");
 
  for ( sn = 0; sn < MAX_SKILL; sn++ ){
-   if ( skill_table[sn].name != NULL 
-	&& skill_table[sn].rating[ch->class] < 10 
-	&& skill_table[sn].rating[ch->class] > 0 
-	&& skill_table[sn].skill_level[0] != 69 
+   if ( skill_table[sn].name != NULL
+	&& skill_table[sn].rating[ch->class] < 10
+	&& skill_table[sn].rating[ch->class] > 0
+	&& skill_table[sn].skill_level[0] != 69
 	&& get_skill(ch,sn) == 0)
      ch->pcdata->learned[sn] = 1;
  }
@@ -8148,11 +8179,11 @@ void do_quest_druid(CHAR_DATA *ch, char *argument )
       send_to_char("That person is already a druid.\n\r",ch);
 	return;
     }
-    
+
     while(victim->pcdata->newskills){
       nskill_remove(victim, victim->pcdata->newskills);
     }
-    
+
     victim->practice += 6;
     to_druid(victim);
 
@@ -8244,7 +8275,7 @@ void do_convert( CHAR_DATA *ch, char *argument)
 	continue;
       to_room = ch->in_room->exit[iDoor]->to_room;
       for ( iClass = 0; class_table[iClass].name != NULL && iClass < MAX_CLASS; iClass++ )
-	for ( iGuild = 0; iGuild < MAX_GUILD; iGuild ++)	
+	for ( iGuild = 0; iGuild < MAX_GUILD; iGuild ++)
 	  if ( to_room->vnum == class_table[iClass].guild[iGuild] )
 	    if ((iClass == class_lookup("shaman") && !fGood)
 		|| (iClass == class_lookup("healer") && fGood)
@@ -8295,7 +8326,9 @@ void do_badname( CHAR_DATA *ch, char *argument)
     {
 	for ( ; ; )
 	{
-            fscanf (fp, "%s", nameread);
+        if(fscanf (fp, "%s", nameread) <= 0){
+            nameread[0] = '\0';
+        }
 	    if ( !str_cmp( nameread, "END" ) )
            	break;
 	    else
@@ -8386,7 +8419,7 @@ void do_advself (CHAR_DATA *ch, char *argument)
       iLevel = 40;
     else if(ch->level < 45)
       iLevel = 45;
-    else 
+    else
       iLevel = 50;
 
 //set max stats.
@@ -8440,7 +8473,7 @@ void do_matchip( CHAR_DATA *ch, char *argument )
   for ( d = descriptor_list; d != NULL && max_d < MAX_SIZE; d = d->next ){
     if (d == NULL)
       continue;
-    if ( d->character == NULL 
+    if ( d->character == NULL
 	 || !can_see( ch, d->character ) )
       continue;
     desc[max_d++] = d;
@@ -8477,19 +8510,19 @@ void do_matchip( CHAR_DATA *ch, char *argument )
 /* get strings */
     strcpy(host,capitalize(d->host));
     host[0] = LOWER(host[0]);
-    
+
     strcpy(ident,capitalize(d->ident));
     ident[0] = LOWER(ident[0]);
 
 /* rejection */
-    if ( d->character == NULL 
+    if ( d->character == NULL
 	 || !can_see( ch, d->character ) )
       continue;
 
 /* rest of selection */
-    if (IS_NULLSTR(argument) 
+    if (IS_NULLSTR(argument)
 	|| is_name(argument, d->character->name)
-	|| (d->original && is_name(argument,d->original->name)) 
+	|| (d->original && is_name(argument,d->original->name))
 	|| strstr(host,argument) != NULL || strstr(ident,argument) != NULL){
 /* start printing info */
       char tim[MIL], idle[MIL];
@@ -8509,14 +8542,14 @@ void do_matchip( CHAR_DATA *ch, char *argument )
 	fHigh = TRUE;
 
       sprintf( buf, "[%3d %8.8s %7s %2s] %-15s %s%-20s %-20s%s\n\r",
-	       d->descriptor, 
-	       chargen_table[UMIN(d->connected, CGEN_MAX)].name, 
-	       tim, 
+	       d->descriptor,
+	       chargen_table[UMIN(d->connected, CGEN_MAX)].name,
+	       tim,
 	       idle,
-	       d->original ? d->original->name 
-	       : d->character ? d->character->name : "(none)", 
+	       d->original ? d->original->name
+	       : d->character ? d->character->name : "(none)",
 	       fHigh ? "`A" : "``",
-	       d->ident, 
+	       d->ident,
 	       d->host,
 	       fHigh ? "``" : "``");
       add_buf(buffer, buf);
@@ -8528,10 +8561,10 @@ void do_matchip( CHAR_DATA *ch, char *argument )
     char tim[MIL], idle[MIL];
     if (vch->desc != NULL)
       continue;
-    if ( !can_see( ch, vch ) 
+    if ( !can_see( ch, vch )
 	 || (argument[0] != '\0' && !is_name(argument, vch->name)))
       continue;
-    
+
     strftime( tim, MIL, "%I:%M%p", localtime( &vch->logon ) );
     if ( vch->idle > 0 )
       sprintf( idle, "%-2d", vch->idle );
@@ -8826,7 +8859,9 @@ void do_allowname( CHAR_DATA *ch, char *argument)
     {
 	for ( ; ; )
 	{
-            fscanf (fp, "%s", nameread);
+        if(fscanf (fp, "%s", nameread) <= 0){
+            nameread[0] = '\0';
+        }
 	    if ( !str_cmp( nameread, "END" ) )
            	break;
 	    else
@@ -8871,27 +8906,27 @@ void do_broadcast( CHAR_DATA *ch, char* argument )
 /*linked in act_wiz.c only*/
 void do_quest_elder( CHAR_DATA *ch, char *argument )
 {
-  
+
 //Following toggles the unholy_gift ability on and off.
   char buf [MIL];
   char arg [MIL];
   int sk;
 
-  
+
 //Pointers for target and skills.
   CHAR_DATA* victim;
   SKILL_DATA * fsk = NULL;
 
-  
+
 //Few flags.
   bool is_elder = TRUE;
 
-  
+
 //Fist we check for some usuals stuff.
   if (ch == NULL)
     return;
- 
-  
+
+
 //The we do argument.
   argument = one_argument( argument, arg );
   if ( arg[0] == '\0')
@@ -8908,7 +8943,7 @@ void do_quest_elder( CHAR_DATA *ch, char *argument )
       return;
     }
 
-  
+
 //Now we check if the target is a player.
   if (IS_NPC(victim))
     {
@@ -8916,17 +8951,17 @@ void do_quest_elder( CHAR_DATA *ch, char *argument )
       return;
     }
 
-  
+
 //And the we check for vamp ablity.
-  if ( victim->race != race_lookup("vampire") 
-       || victim->class != class_lookup("vampire") 
+  if ( victim->race != race_lookup("vampire")
+       || victim->class != class_lookup("vampire")
        || !IS_SET(victim->act, ACT_UNDEAD) )
     {
       send_to_char("Elders is a \"vampire exclusive\" club.\n\r", ch);
       return;
     }
 
- 
+
 //Finaly we check that the player has the skill so we can take it away.
   if ( ((sk =  get_skill(victim, gsn_unholy_gift)) == 0) &&  ( (fsk = nskill_find(victim->pcdata->newskills,gsn_unholy_gift)) == NULL) )
     {
@@ -8954,7 +8989,7 @@ void do_quest_elder( CHAR_DATA *ch, char *argument )
     }
   else
     {
-    
+
 //He doesnt have the skill and we give it to him.
       victim->pcdata->learned[gsn_unholy_gift] = 100;
       sprintf(buf, "You grant %s the trust of the clan, and elevate him to true power of an Elder.\n\r", victim->name);
@@ -8979,17 +9014,17 @@ void do_masquerade(CHAR_DATA *ch, char *argument)
 
   bool is_mortal = TRUE;
   bool is_masked = FALSE;
-  
+
 //First we check the usual problems.
   if (ch == NULL)
     return;
 
-  
+
 //check if this is mortal or not.
   if (IS_IMMORTAL(ch))
     is_mortal = FALSE;
 
-  
+
 //check for immortal or vamp.
   if ( (is_mortal) && (ch->class != class_lookup("vampire")) )
     {
@@ -8997,7 +9032,7 @@ void do_masquerade(CHAR_DATA *ch, char *argument)
       return;
     }
 
-  
+
 //The we do argument.
   argument = one_argument( argument, arg );
   if ( arg[0] == '\0')
@@ -9030,7 +9065,7 @@ void do_masquerade(CHAR_DATA *ch, char *argument)
 	    }
 	}//end mortal reminder.
     }//end null arg.
-  
+
 //check if target is around.
   if ( ( victim = get_char_world(ch, arg ) ) == NULL )
     {
@@ -9046,7 +9081,7 @@ void do_masquerade(CHAR_DATA *ch, char *argument)
 	}
     }
 
-  
+
 //Now we check if the target is a player.
   if (IS_NPC(victim))
     {
@@ -9076,7 +9111,7 @@ if (is_mortal && !IS_SET(victim->act2, PLR_MASQUERADE))
     send_to_char("You have chosen to defay a millenia old custom.  There is no way back now.\n\r", ch);
     return;
   }
-  
+
 //And the we check for vamp ablity.
   if (victim->class != class_lookup("vampire"))
     {
@@ -9091,12 +9126,12 @@ if (is_mortal && !IS_SET(victim->act2, PLR_MASQUERADE))
 	  return;
 	}
     }
-  
+
 
 //Now we know that immortals target a vamp, or mortal himself, and its not npc.
 //we toggle the status now.
 
-  
+
   if (IS_SET(victim->act2, PLR_MASQUERADE))
     is_masked = TRUE;
 
@@ -9104,7 +9139,7 @@ if (is_mortal && !IS_SET(victim->act2, PLR_MASQUERADE))
     {
 //we remove the flag and give him proper vamp title.
       REMOVE_BIT(victim->act2, PLR_MASQUERADE);
-  
+
 //Now we switch titles, only if current one is a proper DK title.
 //we get a proper DK title.
       sprintf( buf, " the %s", title_table [class_lookup("dark-knight")] [victim->level] [victim->sex == SEX_FEMALE ? 1 : 0] );
@@ -9116,7 +9151,7 @@ if (is_mortal && !IS_SET(victim->act2, PLR_MASQUERADE))
 //and we set it.
 	  set_title( victim, buf );
 	}//end if titles matched.
-      
+
 //now we shoot out some messages.
       if (is_mortal)
 	{
@@ -9140,20 +9175,20 @@ if (is_mortal && !IS_SET(victim->act2, PLR_MASQUERADE))
     {
 //We set the flag, and give him a proper DK title.
       SET_BIT(victim->act2, PLR_MASQUERADE);
-      
+
 //we get a proper VAMP title.
       sprintf( buf, " the %s", title_table [victim->class] [victim->level] [victim->sex == SEX_FEMALE ? 1 : 0] );
-      
+
 //and we compare with current.
       if (!strcmp(buf, victim->pcdata->title))
 	{
 //match, we switch title.
 	  sprintf( buf, "the %s", title_table [class_lookup("dark-knight")] [victim->level] [victim->sex == SEX_FEMALE ? 1 : 0] );
-	  
+
 //and we set it.
 	  set_title( victim, buf );
 	}//end if titles matched.
-      
+
 //now we shoot out some messages.
       send_to_char("The Elders forgive your transgressions and you are once again partake in the Masquerade.\n\r", victim);
       act("You allow $N to once agian be part of Masquerade.", ch, NULL, victim, TO_CHAR);
@@ -9163,7 +9198,7 @@ if (is_mortal && !IS_SET(victim->act2, PLR_MASQUERADE))
 	  sprintf(buf, "%s has given %s masquarade status.", ch->name, victim->name);
 	  log_event(ch, buf);
     }//end if not masked.
-}//end do_quest_masquerade.    
+}//end do_quest_masquerade.
 
 
 
@@ -9194,7 +9229,7 @@ This is the imm command to give a spell effect to an item in inventory
 NOT to set it in the object database to be loaded. Do that in OLC.
 Syntax:
 ospell <cmd> [arguments] <item>
-commands: 
+commands:
 - add <spell>
 - set <spell> <field>
      fields:
@@ -9202,7 +9237,7 @@ commands:
 	- frequency <percent>
 	- selfmessage <string?
 	- roommessage <string>
-- view 
+- view
   */
 
 //get the arguments.
@@ -9286,7 +9321,7 @@ commands:
 	  return;
 	}
 
-      //check for items specified 
+      //check for items specified
       if (arg2[0] == '\0')
 	{send_to_char("Need target item.\n\r", ch);return;}
 
@@ -9304,7 +9339,7 @@ commands:
       //the strings must be set after we hook those up.
       spell_to_obj(obj, &new_spell, TRUE);
 
-      sendf(ch, "Spell %s added onto %s.\n\r", 
+      sendf(ch, "Spell %s added onto %s.\n\r",
 	    skill_table[vnum].name, obj->short_descr);
     }
 /* DELETE */
@@ -9313,7 +9348,7 @@ commands:
       //we know arg2 will be an item here so we check it.
       if (arg2[0] == '\0')
 	{send_to_char("Need target item.\n\r", ch);return;}
-      
+
       //check if item is on char.
       if ((obj = get_obj_here(ch, NULL, arg2)) == NULL)
 	{
@@ -9376,7 +9411,7 @@ commands:
 	    for (spell = obj->pIndexData->spell; spell != NULL; spell = spell->next)
 	      sendf(ch, "Name: %-15s Target: %-10s Freq: %-10d\n\rMessage"\
 		    " See: %s\n\rMessage Blind: %s\n\r\n\r",
-		    skill_table[spell->spell].name, 
+		    skill_table[spell->spell].name,
 		    (spell->target == SPELL_TAR_SELF ? "Self" : spell->target == SPELL_TAR_VICT ? "Victim" : "UNKNOWN"),
 		    spell->percent,
 		    (spell->message == NULL? "NULL": spell->message),
@@ -9392,7 +9427,7 @@ commands:
 	    for (spell = obj->spell; spell != NULL; spell = spell->next)
 	      sendf(ch, "Name: %-15s Target: %-10s Freq: %-10d\n\rMessage See"\
 		    ": %s\n\rMessage Blind: %s\n\r\n\r",
-		    skill_table[spell->spell].name, 
+		    skill_table[spell->spell].name,
 		    (spell->target == SPELL_TAR_SELF ? "Self" : spell->target == SPELL_TAR_VICT ? "Victim" : "UNKNOWN"),
 		    spell->percent,
 		    (spell->message == NULL? "NULL": spell->message),
@@ -9634,11 +9669,11 @@ void do_noxlist(CHAR_DATA *ch, char *argument)
 	    sprintf(buf, "[ %d ] %-10s\n\r", room->vnum, room->name);
 	    strcat(out, buf);
 	  }
-	
+
       }
 
    send_to_char(out, ch);
-} 
+}
 
 void do_appdesc(CHAR_DATA *ch, char *argument)
 {
@@ -9707,9 +9742,9 @@ void do_appdesc(CHAR_DATA *ch, char *argument)
     {
       if (!str_prefix(arg2, "bonus"))
 	{fBonus = TRUE;fPenal = FALSE;}
-      else if (!str_prefix(arg2, "penalty")) 
+      else if (!str_prefix(arg2, "penalty"))
 	{fPenal = TRUE;fBonus = FALSE;}
-      else if (!str_prefix(arg2, "none")) 
+      else if (!str_prefix(arg2, "none"))
 	{fPenal = FALSE;fBonus = FALSE;}
     }
 
@@ -9785,8 +9820,10 @@ int name_ok (char *name) {
   sprintf(namelist,"%s","");
   if ((fp = fopen (strsave, "r" )) != NULL) {
     for ( ; ; ) {
-      fscanf (fp, "%s", nameread);
-      if (!str_cmp (nameread, "END" )) { 
+      if(fscanf (fp, "%s", nameread) <= 0){
+        nameread[0] = '\0';
+      }
+      if (!str_cmp (nameread, "END" )) {
 	  break;
       }
       else {
@@ -10017,7 +10054,7 @@ void do_reject( CHAR_DATA *ch, char *argument ){
 // 04-10 20:00 Ath: Added do_coding
 // 04-13 12:00 Viri: Added do_quest_elder
 //04-13 13:00 Viri: Added do_masquerade
-//04-28-00 Virir: Modified Advself 
+//04-28-00 Virir: Modified Advself
 //05-08 Ath: added do_most
 //05-10-00 Viri: Added ospell.
 //05-12 Ath: Cleaned up a bit, moved more stuff into do_set

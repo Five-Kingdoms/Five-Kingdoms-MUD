@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -267,11 +267,11 @@ bool change_doorflag(ROOM_INDEX_DATA* pRoom, char* value, int door, char oper){
       return FALSE;
     }
     switch (oper){
-    case '+' : 
+    case '+' :
       SET_BIT(pRoom->exit[door]->exit_info,  val);	break;
-    case '-' : 
+    case '-' :
       REMOVE_BIT(pRoom->exit[door]->exit_info,  val);	break;
-    case '=' : 
+    case '=' :
       pRoom->exit[door]->exit_info = val;		break;
     default:
       TOGGLE_BIT(pRoom->exit[door]->exit_info,  val);	break;
@@ -282,11 +282,11 @@ bool change_doorflag(ROOM_INDEX_DATA* pRoom, char* value, int door, char oper){
     rev = rev_dir[door];
     if (pToRoom->exit[rev] != NULL){
       switch (oper){
-      case '+' : 
+      case '+' :
 	SET_BIT(pToRoom->exit[rev]->exit_info,  val);	break;
-      case '-' : 
+      case '-' :
 	REMOVE_BIT(pToRoom->exit[rev]->exit_info,  val);	break;
-      case '=' : 
+      case '=' :
 	pToRoom->exit[rev]->exit_info = val;		break;
       default:
 	TOGGLE_BIT(pToRoom->exit[rev]->exit_info,  val);	break;
@@ -363,11 +363,11 @@ void rattrib(ROOM_INDEX_DATA* room, char* argument){
   else if (!str_cmp(attrib, "room")){
     if ( ( val = flag_value( room_flags, value ) ) != NO_FLAG ){
       switch (oper[0]){
-      case '+' : 
+      case '+' :
 	SET_BIT(pRoom->room_flags, val);	break;
-      case '-' : 
+      case '-' :
 	REMOVE_BIT(pRoom->room_flags, val);	break;
-      case '=' : 
+      case '=' :
 	pRoom->room_flags = val;		break;
       default:
 	TOGGLE_BIT(pRoom->room_flags, val);
@@ -380,11 +380,11 @@ void rattrib(ROOM_INDEX_DATA* room, char* argument){
   else if (!str_cmp(attrib, "room2")){
     if ( ( val = flag_value( room_flags2, value ) ) != NO_FLAG )
       switch (oper[0]){
-      case '+' : 
+      case '+' :
 	SET_BIT(pRoom->room_flags2, val);	break;
-      case '-' : 
+      case '-' :
 	REMOVE_BIT(pRoom->room_flags2, val);	break;
-      case '=' : 
+      case '=' :
 	pRoom->room_flags2 = val;		break;
       default:
 	TOGGLE_BIT(pRoom->room_flags2, val);
@@ -397,15 +397,15 @@ void rattrib(ROOM_INDEX_DATA* room, char* argument){
     val = atoi( value );
     if (val >= 0){
       switch (oper[0]){
-      case '+' : 
+      case '+' :
 	pRoom->rprog_delay += val;	break;
-      case '-' : 
+      case '-' :
 	pRoom->rprog_delay -= val;	break;
-      case '=' : 
+      case '=' :
 	pRoom->rprog_delay = val;		break;
-      case '*' : 
+      case '*' :
 	pRoom->rprog_delay *= val;	break;
-      case '/' : 
+      case '/' :
 	pRoom->rprog_delay /= val;	break;
       default:
 	pRoom->rprog_delay = val;		break;
@@ -420,15 +420,15 @@ void rattrib(ROOM_INDEX_DATA* room, char* argument){
     val = atoi( value );
     if (val >= 0){
       switch (oper[0]){
-      case '+' : 
+      case '+' :
 	pRoom->heal_rate += val;	break;
-      case '-' : 
+      case '-' :
 	pRoom->heal_rate -= val;	break;
-      case '=' : 
+      case '=' :
 	pRoom->heal_rate = val;		break;
-      case '*' : 
+      case '*' :
 	pRoom->heal_rate *= val;	break;
-      case '/' : 
+      case '/' :
 	pRoom->heal_rate /= val;	break;
       default:
 	pRoom->heal_rate = val;		break;
@@ -443,15 +443,15 @@ void rattrib(ROOM_INDEX_DATA* room, char* argument){
     val = atoi( value );
     if (val >= 0){
       switch (oper[0]){
-      case '+' : 
+      case '+' :
 	pRoom->mana_rate += val;	break;
-      case '-' : 
+      case '-' :
 	pRoom->mana_rate -= val;	break;
-      case '=' : 
+      case '=' :
 	pRoom->mana_rate = val;		break;
-      case '*' : 
+      case '*' :
 	pRoom->mana_rate *= val;	break;
-      case '/' : 
+      case '/' :
 	pRoom->mana_rate /= val;	break;
       default:
 	pRoom->mana_rate = val;		break;
@@ -466,15 +466,15 @@ void rattrib(ROOM_INDEX_DATA* room, char* argument){
     val = atoi( value );
     if (val >= 0){
       switch (oper[0]){
-      case '+' : 
+      case '+' :
 	pRoom->temp += val;	break;
-      case '-' : 
+      case '-' :
 	pRoom->temp -= val;	break;
-      case '=' : 
+      case '=' :
 	pRoom->temp = val;	break;
-      case '*' : 
+      case '*' :
 	pRoom->temp *= val;	break;
-      case '/' : 
+      case '/' :
 	pRoom->temp /= val;	break;
       default:
 	pRoom->temp = val;	break;
@@ -563,7 +563,7 @@ void mob_interpret( CHAR_DATA *ch, char *argument )
     bug( buf, 0 );
 }
 
-/* 
+/*
  * Displays MOBprogram triggers of a mobile
  *
  * Syntax: mpstat [name]
@@ -604,7 +604,7 @@ void do_mpstat( CHAR_DATA *ch, char *argument )
 
     sprintf( arg, "Delay   %-6d [%s]\n\r",
 	victim->mprog_delay,
-	victim->mprog_target == NULL 
+	victim->mprog_target == NULL
 		? "No target" : victim->mprog_target->name );
     send_to_char( arg, ch );
 
@@ -698,8 +698,8 @@ void do_mpzecho( CHAR_DATA *ch, char *argument )
 
     for ( d = descriptor_list; d; d = d->next )
     {
-	if ( d->connected == CON_PLAYING 
-	&&   d->character->in_room != NULL 
+	if ( d->connected == CON_PLAYING
+	&&   d->character->in_room != NULL
 	&&   d->character->in_room->area == ch->in_room->area )
  	{
 	    if ( IS_IMMORTAL(d->character) )
@@ -728,7 +728,7 @@ void do_mpasound( CHAR_DATA *ch, char *argument )
     for ( door = 0; door < 6; door++ )
     {
     	EXIT_DATA       *pexit;
-      
+
       	if ( ( pexit = was_in_room->exit[door] ) != NULL
 	  &&   pexit->to_room != NULL
 	  &&   pexit->to_room != was_in_room )
@@ -803,8 +803,8 @@ void do_mpassist( CHAR_DATA *ch, char *argument )
 
 /*
  * Lets the mobile destroy an object in its inventory
- * it can also destroy a worn object and it can destroy 
- * items using all.xxxxx or just plain all of them 
+ * it can also destroy a worn object and it can destroy
+ * items using all.xxxxx or just plain all of them
  *
  * Syntax: mob junk [item]
  * Syntax: mob junk all
@@ -830,7 +830,7 @@ void do_mpjunk( CHAR_DATA *ch, char *argument )
     	    return;
      	}
       	if ( ( obj = get_obj_carry( ch, arg, ch ) ) == NULL )
-	    return; 
+	    return;
 	extract_obj( obj );
     }
     else
@@ -842,7 +842,7 @@ void do_mpjunk( CHAR_DATA *ch, char *argument )
           	if ( obj->wear_loc != WEAR_NONE)
 	    	unequip_char( ch, obj );
           	extract_obj( obj );
-            } 
+            }
       	}
 
     return;
@@ -952,14 +952,14 @@ void do_mpoload( CHAR_DATA *ch, char *argument )
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
                one_argument( argument, arg3 );
- 
+
     if ( arg1[0] == '\0' || !is_number( arg1 ) )
     {
         bug( "Mpoload - Bad syntax from vnum %d.",
 	    IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
         return;
     }
- 
+
     if ( arg2[0] == '\0' )
     {
       level = get_trust( ch );
@@ -971,14 +971,14 @@ void do_mpoload( CHAR_DATA *ch, char *argument )
 	 */
         if ( !is_number( arg2 ) )
         {
-	    bug( "Mpoload - Bad syntax from vnum %d.", 
+	    bug( "Mpoload - Bad syntax from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	    return;
         }
 	level = atoi( arg2 );
 	if ( level < 0 || level > get_trust( ch ) )
 	{
-	    bug( "Mpoload - Bad level from vnum %d.", 
+	    bug( "Mpoload - Bad level from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	    return;
 	}
@@ -997,7 +997,7 @@ void do_mpoload( CHAR_DATA *ch, char *argument )
 
     if ( ( pObjIndex = get_obj_index( atoi( arg1 ) ) ) == NULL )
     {
-	bug( "Mpoload - Bad vnum arg from vnum %d.", 
+	bug( "Mpoload - Bad vnum arg from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
@@ -1041,7 +1041,7 @@ void do_mppurge( CHAR_DATA *ch, char *argument )
 	for ( victim = ch->in_room->people; victim != NULL; victim = vnext )
 	{
 	    vnext = victim->next_in_room;
-	    if ( IS_NPC( victim ) && victim != ch 
+	    if ( IS_NPC( victim ) && victim != ch
 	    &&   !IS_SET(victim->act, ACT_NOPURGE) )
 		extract_char( victim, TRUE );
 	}
@@ -1067,7 +1067,7 @@ void do_mppurge( CHAR_DATA *ch, char *argument )
 
     if ( !IS_NPC( victim ) )
     {
-	bug( "Mppurge - Purging a PC from vnum %d.", 
+	bug( "Mppurge - Purging a PC from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
@@ -1089,14 +1089,14 @@ void do_mpgoto( CHAR_DATA *ch, char *argument )
     one_argument( argument, arg );
     if ( arg[0] == '\0' )
     {
-	bug( "Mpgoto - No argument from vnum %d.", 
+	bug( "Mpgoto - No argument from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
 
     if ( ( location = find_location( ch, arg ) ) == NULL )
     {
-	bug( "Mpgoto - No such location from vnum %d.", 
+	bug( "Mpgoto - No such location from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
@@ -1110,7 +1110,7 @@ void do_mpgoto( CHAR_DATA *ch, char *argument )
     return;
 }
 
-/* 
+/*
  * Lets the mobile do a command at another location.
  *
  * Syntax: mob at [location] [commands]
@@ -1127,7 +1127,7 @@ void do_mpat( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' || argument[0] == '\0' )
     {
-	bug( "Mpat - Bad argument from vnum %d.", 
+	bug( "Mpat - Bad argument from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
@@ -1168,7 +1168,7 @@ void do_mpat( CHAR_DATA *ch, char *argument )
 
     return;
 }
- 
+
 /*
  * Lets the mobile transfer people.  The 'all' argument transfers
  *  everyone in the current room to the specified location
@@ -1188,7 +1188,7 @@ void do_mptransfer( CHAR_DATA *ch, char *argument )
 
     if ( arg1[0] == '\0' )
     {
-	bug( "Mptransfer - Bad syntax from vnum %d.", 
+	bug( "Mptransfer - Bad syntax from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
@@ -1261,7 +1261,7 @@ void do_mpgtransfer( CHAR_DATA *ch, char *argument )
 
     if ( arg1[0] == '\0' )
     {
-	bug( "Mpgtransfer - Bad syntax from vnum %d.", 
+	bug( "Mpgtransfer - Bad syntax from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
@@ -1302,7 +1302,7 @@ void do_mprtransfer( CHAR_DATA *ch, char *argument )
 
     if ( arg1[0] == '\0' )
     {
-	bug( "Mprtransfer - Bad syntax from vnum %d.", 
+	bug( "Mprtransfer - Bad syntax from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
@@ -1314,7 +1314,7 @@ void do_mprtransfer( CHAR_DATA *ch, char *argument )
     for ( victim = ch->in_room->people; victim; victim = victim_next )
     {
     	victim_next = victim->next_in_room;
-    	if(fAll 
+    	if(fAll
 	   || who == NULL
 	   || who != victim){
 	  sprintf( buf, "%s %s", victim->name, arg2 );
@@ -1338,7 +1338,7 @@ void do_mpforce( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' || argument[0] == '\0' )
     {
-	bug( "Mpforce - Bad syntax from vnum %d.", 
+	bug( "Mpforce - Bad syntax from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
@@ -1353,7 +1353,7 @@ void do_mpforce( CHAR_DATA *ch, char *argument )
 	    vch_next = vch->next;
 
 	    if ( vch->in_room == ch->in_room
-		&& get_trust( vch ) < get_trust( ch ) 
+		&& get_trust( vch ) < get_trust( ch )
 		&& can_see( ch, vch ) )
 	    {
 		interpret( vch, argument );
@@ -1390,7 +1390,7 @@ void do_mpgforce( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' || argument[0] == '\0' )
     {
-	bug( "MpGforce - Bad syntax from vnum %d.", 
+	bug( "MpGforce - Bad syntax from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
@@ -1428,14 +1428,14 @@ void do_mpvforce( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' || argument[0] == '\0' )
     {
-	bug( "MpVforce - Bad syntax from vnum %d.", 
+	bug( "MpVforce - Bad syntax from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
 
     if ( !is_number( arg ) )
     {
-	bug( "MpVforce - Non-number argument vnum %d.", 
+	bug( "MpVforce - Non-number argument vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
@@ -1477,14 +1477,14 @@ void do_mpcast( CHAR_DATA *ch, char *argument )
     target_name = argument;
     if ( spell[0] == '\0' )
     {
-	bug( "MpCast - Bad syntax from vnum %d.", 
+	bug( "MpCast - Bad syntax from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
 
     if ( ( sn = skill_lookup( spell ) ) < 0 )
     {
-	bug( "MpCast - No such spell from vnum %d.", 
+	bug( "MpCast - No such spell from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
@@ -1494,9 +1494,9 @@ void do_mpcast( CHAR_DATA *ch, char *argument )
     switch ( skill_table[sn].target )
     {
 	default: return;
-	case TAR_IGNORE: 
+	case TAR_IGNORE:
 	    break;
-	case TAR_CHAR_OFFENSIVE: 
+	case TAR_CHAR_OFFENSIVE:
 	    if ( vch == NULL || vch == ch )
 		return;
 	    victim = ( void * ) vch;
@@ -1538,7 +1538,7 @@ void do_mpdamage( CHAR_DATA *ch, char *argument )
 
     if ( target[0] == '\0' )
     {
-	bug( "MpDamage - Bad syntax from vnum %d.", 
+	bug( "MpDamage - Bad syntax from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
@@ -1551,7 +1551,7 @@ void do_mpdamage( CHAR_DATA *ch, char *argument )
 	low = atoi( min );
     else
     {
-	bug( "MpDamage - Bad damage min vnum %d.", 
+	bug( "MpDamage - Bad damage min vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
@@ -1559,7 +1559,7 @@ void do_mpdamage( CHAR_DATA *ch, char *argument )
 	high = atoi( max );
     else
     {
-	bug( "MpDamage - Bad damage max vnum %d.", 
+	bug( "MpDamage - Bad damage max vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
@@ -1578,15 +1578,15 @@ void do_mpdamage( CHAR_DATA *ch, char *argument )
 	{
 	    victim_next = victim->next_in_room;
 	    if ( victim != ch )
-    		damage( victim, NULL, 
-		    fKill ? 
+    		damage( victim, NULL,
+		    fKill ?
 		    number_range(low,high) : UMIN(victim->hit - 1, number_range(low,high)),
 	        TYPE_UNDEFINED, DAM_NONE, FALSE );
 	}
     }
     else
-    	damage( victim, NULL, 
-	    fKill ? 
+    	damage( victim, NULL,
+	    fKill ?
 	    number_range(low,high) : UMIN(victim->hit - 1, number_range(low,high)),
         TYPE_UNDEFINED, DAM_NONE, FALSE );
     return;
@@ -1605,7 +1605,7 @@ void do_mpremember( CHAR_DATA *ch, char *argument )
     if ( arg[0] != '\0' )
 	ch->mprog_target = get_char( arg );
     else
-	bug( "MpRemember: missing argument from vnum %d.", 
+	bug( "MpRemember: missing argument from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 }
 
@@ -1633,7 +1633,7 @@ void do_mpdelay( CHAR_DATA *ch, char *argument )
     one_argument( argument, arg );
     if ( !is_number( arg ) )
     {
-	bug( "MpDelay: invalid arg from vnum %d.", 
+	bug( "MpDelay: invalid arg from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
@@ -1670,18 +1670,18 @@ void do_mpcall( CHAR_DATA *ch, char *argument )
     argument = one_argument( argument, arg );
     if ( arg[0] == '\0' )
     {
-	bug( "MpCall: missing arguments from vnum %d.", 
+	bug( "MpCall: missing arguments from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
     if ( ( prg = get_prog_index( atoi(arg), PRG_MPROG ) ) == NULL )
     {
-	bug( "MpCall: invalid prog from vnum %d.", 
+	bug( "MpCall: invalid prog from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
     if (ch->in_room == NULL)
-      return; 
+      return;
     vch = NULL;
     obj1 = obj2 = NULL;
     argument = one_argument( argument, arg );
@@ -1747,7 +1747,7 @@ void do_mpotransfer( CHAR_DATA *ch, char *argument )
     argument = one_argument( argument, arg );
     if ( arg[0] == '\0' )
     {
-	bug( "MpOTransfer - Missing argument from vnum %d.", 
+	bug( "MpOTransfer - Missing argument from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
@@ -1755,11 +1755,11 @@ void do_mpotransfer( CHAR_DATA *ch, char *argument )
     if ( (victim = get_char_world(ch, buf)) == NULL
 	 && ( location = find_location( ch, buf ) ) == NULL )
     {
-	bug( "MpOTransfer - No such location from vnum %d.", 
+	bug( "MpOTransfer - No such location from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
-    if ( (obj = get_obj_carry( ch, arg, NULL )) == NULL 
+    if ( (obj = get_obj_carry( ch, arg, NULL )) == NULL
 	 && (obj = get_obj_here( ch, NULL, arg )) == NULL )
       return;
     if ( obj->carried_by == NULL )
@@ -1774,7 +1774,7 @@ void do_mpotransfer( CHAR_DATA *ch, char *argument )
       obj_to_char( obj, victim );
     else if (location)
       obj_to_room( obj, location );
-    else 
+    else
       extract_obj ( obj );
 }
 
@@ -1801,7 +1801,7 @@ void do_mpremove( CHAR_DATA *ch, char *argument )
 	fAll = TRUE;
     else if ( !is_number( arg ) )
     {
-	bug ( "MpRemove: Invalid object from vnum %d.", 
+	bug ( "MpRemove: Invalid object from vnum %d.",
 		IS_NPC(ch) ? ch->pIndexData->vnum : 0 );
 	return;
     }
@@ -1832,7 +1832,7 @@ void do_mpstop( CHAR_DATA *ch, char *argument )
     CHAR_DATA *victim;
     if ( ( victim = get_char_room( NULL, ch->in_room, argument ) ) == NULL )
       return;
-    /* flag is cleared after TRIG_EX** ends */ 
+    /* flag is cleared after TRIG_EX** ends */
     SET_BIT(victim->affected_by, AFF_FLAG);
 }
 
@@ -1849,7 +1849,7 @@ void do_mpobey( CHAR_DATA *ch, char *argument )
     if (ch->in_room == NULL)
       return;
     argument = one_argument( argument, arg );
-    if ( ( vch = get_char_room( ch, NULL, arg ) ) == NULL 
+    if ( ( vch = get_char_room( ch, NULL, arg ) ) == NULL
 	 || !IS_NPC(vch))
       return;
     argument = one_argument( argument, arg );
@@ -1859,7 +1859,7 @@ void do_mpobey( CHAR_DATA *ch, char *argument )
     /*set charmie */
     if ( is_number(argument)){
       AFFECT_DATA af;
-      
+
       af.type = gsn_timer;
       af.level= vch->level;
       af.duration = UMAX(0, atoi(argument));
@@ -1891,14 +1891,14 @@ void do_mpobey( CHAR_DATA *ch, char *argument )
 
 /*
  * Lets the mob change its stats, can be related to the
- * target's level by using "level" 
+ * target's level by using "level"
  *
  * Syntax: mob attrib [target] [field] [+-* / =] [value/"level"]
  */
 void do_mpattrib(CHAR_DATA* ch, char *argument ){
   CHAR_DATA *victim;
-  char target[MIL], 
-    arg1[MIL], 
+  char target[MIL],
+    arg1[MIL],
     arg2[MIL],
     arg3[MIL];
   char mod;
@@ -1915,7 +1915,7 @@ void do_mpattrib(CHAR_DATA* ch, char *argument ){
   else if ( ( victim = get_char_room( NULL, ch->in_room, target ) ) == NULL )
     victim = ch;
 
-  /* 
+  /*
      get the integer value for field
      check if operator was skipped
   */
@@ -1935,9 +1935,9 @@ void do_mpattrib(CHAR_DATA* ch, char *argument ){
     else
       value = atoi(arg3);
   }
-  
+
   /*
-    we have the value, time to get 
+    we have the value, time to get
     the operator
   */
   if(IS_NULLSTR(arg3))
@@ -1994,7 +1994,7 @@ void do_mpattrib(CHAR_DATA* ch, char *argument ){
 
 }
 
-/* Allows prog to set the "mounted" affect on a victim giving him ability to mount 
+/* Allows prog to set the "mounted" affect on a victim giving him ability to mount
  * Syntax: mount <vnum> <dur> <victim>
  * duration of < 0 means infinite
  */
@@ -2033,13 +2033,13 @@ void prog_mount( ROOM_INDEX_DATA* room, char* argument ){
     affect_to_char( victim, &af );
   }
 }
-	      
-    
+
+
 
 
 /*
  * Adjusts given statistic on the given mob/pc
- * 
+ *
  * Syntax: mob gain [stat] [all/exc/group/pc/mob] [victim] [min] [max]
  * Stats supported: hp, php, mana, pmana, move, pmove, exp, gold, cp, dfavor, train, prac
  */
@@ -2077,6 +2077,14 @@ void prog_gain(ROOM_INDEX_DATA* in_room, char *argument ){
 
   if (room == NULL)
     return;
+
+  /* Useless conditional */
+  if( fpmove != FALSE )
+    fpmove = FALSE;
+  /* Useless conditional */
+  if( fAll != FALSE )
+    fAll = FALSE;
+
 /* start parsing arguments */
   argument = one_argument(argument, stat);
   if (IS_NULLSTR(stat)){
@@ -2248,17 +2256,17 @@ void do_mpmount( CHAR_DATA* ch, char* argument ){
   else
     prog_mount( ch->in_room, argument );
 }
-  
-/* Allows a mob to take an item from a mob/pc 
- * mob chown <object> <victim> 
- * mob chown all <victim> 
+
+/* Allows a mob to take an item from a mob/pc
+ * mob chown <object> <victim>
+ * mob chown all <victim>
  */
 void do_mpchown(CHAR_DATA* ch, char* argument){
   char arg1 [MIL];
   CHAR_DATA *victim;
   OBJ_DATA *obj;
   argument = one_argument( argument, arg1 );
-  
+
   if ( arg1[0] == '\0' || argument[0] == '\0' )
     {
       bug("mpchown: null arguments for mob %d", ch->pIndexData->vnum);
@@ -2297,7 +2305,7 @@ int _destroy_items( OBJ_DATA* list, char* name, int vnum, int number, int count 
     return 0;
   for (obj = list; obj; obj = obj_next){
     obj_next = obj->next_content;
-   
+
     /* check contents first, that way we can destroy an object that contains
        objects to destroy */
     if (obj->contains){
@@ -2305,7 +2313,7 @@ int _destroy_items( OBJ_DATA* list, char* name, int vnum, int number, int count 
       if (count >= number)
 	return count;
     }
-      
+
     if ( (vnum && obj->pIndexData->vnum == vnum) || is_name(name, obj->name) || !str_cmp(name, "*") || !str_cmp(name, "all")){
       extract_obj( obj );
       if (++count >= number)
@@ -2325,7 +2333,7 @@ void prog_destroy( ROOM_INDEX_DATA* room, char* argument ){
   char type[MIL];
   char target[MIL];
   char item[MIL];
-  
+
   void* tar = NULL;
   CHAR_DATA* ch_tar = NULL;
 
@@ -2355,7 +2363,7 @@ void prog_destroy( ROOM_INDEX_DATA* room, char* argument ){
 
 /* get our target */
   if (!str_cmp( type, "obj")){
-    if ( ((OBJ_DATA*) tar = get_obj_here( NULL, room, target)) == NULL){
+    if ( (tar = (OBJ_DATA*) get_obj_here( NULL, room, target)) == NULL){
       bug("prog_destroy: obj target not found.", 0);
       return;
     }
@@ -2365,7 +2373,7 @@ void prog_destroy( ROOM_INDEX_DATA* room, char* argument ){
     }
   }
   else if (!str_cmp( type, "ch")){
-    if ( ((CHAR_DATA*) tar = get_char_room( NULL, room, target)) == NULL){
+    if ( (tar = (CHAR_DATA*) get_char_room( NULL, room, target)) == NULL){
       bug("prog_destroy: ch target not found.", 0);
       return;
     }
@@ -2405,7 +2413,7 @@ void prog_path( CHAR_DATA* ch,  char* argument ){
     mob = ch;
   else
     mob = get_char_world( NULL, argument );
-  
+
 
   if (mob == NULL || mob->in_room == NULL){
     bug("prog_path: null mob passed.", 0);
@@ -2446,10 +2454,10 @@ void prog_path( CHAR_DATA* ch,  char* argument ){
     bug("prog_path: path to virtual room: %d.", room_vnum);
     return;
   }
-  
+
   path = generate_path( mob->in_room, to, 128, TRUE, &dist, NULL);
   clean_path();
-  
+
   if (path == NULL)
     return;
   else{
@@ -2459,7 +2467,7 @@ void prog_path( CHAR_DATA* ch,  char* argument ){
   }
 }
 
-/* allows to repeat a prog command across people in the room 
+/* allows to repeat a prog command across people in the room
  * '#' gets substituted for current char name
  * pfor <room/exc/group/mob/pc/fight> <target> <command>
  * ex: mob pfor room $n echoat # This is just like mob echo
@@ -2467,7 +2475,7 @@ void prog_path( CHAR_DATA* ch,  char* argument ){
 /* this version takes a room/obj/mob and arguments and is reused */
 void prog_for(CHAR_DATA* ch,
 	    OBJ_DATA* obj,
-	    ROOM_INDEX_DATA* room, 
+	    ROOM_INDEX_DATA* room,
 	    char* argument){
 
   char range[MIL], target[MIL];
@@ -2476,7 +2484,11 @@ void prog_for(CHAR_DATA* ch,
   bool fRoom = FALSE, fGroup = FALSE, fMob = FALSE, fPc = FALSE;
   bool fFight = FALSE, fExc = FALSE;
   bool fSub = FALSE;
-  
+
+  /* Useless conditional */
+  if( fRoom != FALSE )
+    fRoom = FALSE;
+
   argument = one_argument (argument, range);
   if (IS_NULLSTR(range)){
     bug("prog_for: NULL range passed", 0);
@@ -2493,35 +2505,35 @@ void prog_for(CHAR_DATA* ch,
   }
   if (!str_prefix("pfor", argument))
     return;
-  
+
   /* check what range this is for */
-  if (!str_cmp (range, "room"))        
+  if (!str_cmp (range, "room"))
     fRoom = TRUE;
-  else if (!str_cmp (range, "exc"))     
+  else if (!str_cmp (range, "exc"))
     fExc = TRUE;
-  else if (!str_cmp (range, "group"))     
+  else if (!str_cmp (range, "group"))
     fGroup = TRUE;
-  else if (!str_cmp (range, "mob"))     
+  else if (!str_cmp (range, "mob"))
     fMob = TRUE;
-  else if (!str_cmp (range, "pc"))     
+  else if (!str_cmp (range, "pc"))
     fPc = TRUE;
-  else if (!str_cmp (range, "fight"))     
+  else if (!str_cmp (range, "fight"))
     fFight = TRUE;
   else{
     bug ( "prog_For: Invalid argument: range", 0);
     return;
   }
-  
+
   /* get target */
   if ( (victim = get_char(target)) == NULL){
     bug("prog_for: Target victim  not found.", 0);
     return;
   }
-  
+
   /* check for name substitution */
   if (strchr (argument, '#'))
     fSub = TRUE;
-  
+
   /* begin doing things based on the range */
   for (p = victim->in_room->people; p; p = p_next){
     p_next = p->next_in_room;
@@ -2535,7 +2547,7 @@ void prog_for(CHAR_DATA* ch,
 	|| (fPc && IS_NPC(p))
 	|| (fFight && (!p->fighting || p->fighting != victim)) )
       continue;
-    
+
     if (fSub){
       char buf[MSL];
       char *pSource = argument, *pDest = buf;
@@ -2610,7 +2622,7 @@ void do_opstop( OBJ_DATA *obj, char *argument )
 
     if ( ( victim = get_char_room( NULL, obj->in_room, argument ) ) == NULL )
       return;
-    /* flag is cleared after TRIG_EX** ends */ 
+    /* flag is cleared after TRIG_EX** ends */
     SET_BIT(victim->affected_by, AFF_FLAG);
 }
 
@@ -2652,7 +2664,7 @@ void obj_interpret( OBJ_DATA *obj, char *argument )
     bug( buf, 0 );
 }
 
-/* 
+/*
  * Displays OBJprogram triggers of an object
  *
  * Syntax: opstat [name]
@@ -2684,7 +2696,7 @@ void do_opstat( CHAR_DATA *ch, char *argument )
 
     sprintf( arg, "Delay   %-6d [%s]\n\r",
 	obj->oprog_delay,
-	obj->oprog_target == NULL 
+	obj->oprog_target == NULL
 		? "No target" : obj->oprog_target->name );
     send_to_char( arg, ch );
 
@@ -2778,8 +2790,8 @@ void do_opzecho( OBJ_DATA *obj, char *argument )
 
     for ( d = descriptor_list; d; d = d->next )
     {
-	if ( d->connected == CON_PLAYING 
-	&&   d->character->in_room != NULL 
+	if ( d->connected == CON_PLAYING
+	&&   d->character->in_room != NULL
 	&&   ( (obj->in_room && d->character->in_room->area == obj->in_room->area)
 	|| (obj->carried_by && d->character->in_room->area == obj->carried_by->in_room->area) ) )
  	{
@@ -2821,7 +2833,7 @@ void do_opechoat( OBJ_DATA *obj, char *argument )
 {
     char       arg[ MAX_INPUT_LENGTH ];
     CHAR_DATA *victim;
-    CHAR_DATA* ch = NULL; 
+    CHAR_DATA* ch = NULL;
 
     argument = one_argument( argument, arg );
 
@@ -2912,14 +2924,14 @@ void do_opoload( OBJ_DATA *obj, char *argument )
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
     argument = one_argument( argument, arg3 );
- 
+
     if ( arg1[0] == '\0' || !is_number( arg1 ) )
     {
         bug( "Opoload - Bad syntax from vnum %d.",
 	    obj->pIndexData->vnum );
         return;
     }
- 
+
     if ( arg2[0] == '\0' )
     {
 	level = obj->level;
@@ -2934,7 +2946,7 @@ void do_opoload( OBJ_DATA *obj, char *argument )
 	  level = atoi( arg2 );
 	  if ( level < 0 || level > obj->level )
 	    {
-	      bug( "Opoload - Bad level from vnum %d.", 
+	      bug( "Opoload - Bad level from vnum %d.",
 		obj->pIndexData->vnum );
 	      return;
 	    }
@@ -2968,7 +2980,7 @@ void do_opoload( OBJ_DATA *obj, char *argument )
 
     if ( ( pObjIndex = get_obj_index( atoi( arg1 ) ) ) == NULL )
     {
-	bug( "Opoload - Bad vnum arg from vnum %d.", 
+	bug( "Opoload - Bad vnum arg from vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3059,7 +3071,7 @@ void do_oppurge( OBJ_DATA *obj, char *argument )
 
     if ( !IS_NPC( victim ) )
     {
-	bug( "Oppurge - Purging a PC from vnum %d.", 
+	bug( "Oppurge - Purging a PC from vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3083,7 +3095,7 @@ void do_opgoto( OBJ_DATA *obj, char *argument )
     argument = one_argument( argument, arg );
     if ( arg[0] == '\0' )
     {
-	bug( "Opgoto - No argument from vnum %d.", 
+	bug( "Opgoto - No argument from vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3096,7 +3108,7 @@ void do_opgoto( OBJ_DATA *obj, char *argument )
 	location = dobj->in_room;
     else
     {
-	bug( "Opgoto - No such location from vnum %d.", 
+	bug( "Opgoto - No such location from vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3114,7 +3126,7 @@ void do_opgoto( OBJ_DATA *obj, char *argument )
       obj_to_room( obj, location );
     return;
 }
- 
+
 /*
  * Lets the object transfer people.  The 'all' argument transfers
  *  everyone in the current room to the specified location
@@ -3135,7 +3147,7 @@ void do_optransfer( OBJ_DATA *obj, char *argument )
 
     if ( arg1[0] == '\0' )
     {
-	bug( "Optransfer - Bad syntax from vnum %d.", 
+	bug( "Optransfer - Bad syntax from vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3222,7 +3234,7 @@ void do_opgtransfer( OBJ_DATA *obj, char *argument )
 
     if ( arg1[0] == '\0' )
     {
-	bug( "Opgtransfer - Bad syntax from vnum %d.", 
+	bug( "Opgtransfer - Bad syntax from vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3271,7 +3283,7 @@ void do_oprtransfer( OBJ_DATA *obj, char *argument )
 
     if ( arg1[0] == '\0' )
     {
-	bug( "Oprtransfer - Bad syntax from vnum %d.", 
+	bug( "Oprtransfer - Bad syntax from vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3290,13 +3302,13 @@ void do_oprtransfer( OBJ_DATA *obj, char *argument )
     for ( ; victim; victim = victim_next )
     {
     	victim_next = victim->next_in_room;
-    	if( fAll 
+    	if( fAll
 	    || who == NULL
 	    || who != victim){
 	  sprintf( buf, "%s %s", victim->name, arg2 );
 	  do_optransfer( obj, buf );
 	}
-    	
+
     }
     return;
 }
@@ -3315,7 +3327,7 @@ void do_opforce( OBJ_DATA *obj, char *argument )
 
     if ( arg[0] == '\0' || argument[0] == '\0' )
     {
-	bug( "Opforce - Bad syntax from vnum %d.", 
+	bug( "Opforce - Bad syntax from vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3370,7 +3382,7 @@ void do_opgforce( OBJ_DATA *obj, char *argument )
 
     if ( arg[0] == '\0' || argument[0] == '\0' )
     {
-	bug( "OpGforce - Bad syntax from vnum %d.", 
+	bug( "OpGforce - Bad syntax from vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3405,14 +3417,14 @@ void do_opvforce( OBJ_DATA *obj, char *argument )
 
     if ( arg[0] == '\0' || argument[0] == '\0' )
     {
-	bug( "OpVforce - Bad syntax from vnum %d.", 
+	bug( "OpVforce - Bad syntax from vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
 
     if ( !is_number( arg ) )
     {
-	bug( "OpVforce - Non-number argument vnum %d.", 
+	bug( "OpVforce - Non-number argument vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3450,7 +3462,7 @@ void do_opdamage( OBJ_DATA *obj, char *argument )
 
     if ( target[0] == '\0' )
     {
-	bug( "OpDamage - Bad syntax from vnum %d.", 
+	bug( "OpDamage - Bad syntax from vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3463,7 +3475,7 @@ void do_opdamage( OBJ_DATA *obj, char *argument )
 	low = atoi( min );
     else
     {
-	bug( "OpDamage - Bad damage min vnum %d.", 
+	bug( "OpDamage - Bad damage min vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3471,7 +3483,7 @@ void do_opdamage( OBJ_DATA *obj, char *argument )
 	high = atoi( max );
     else
     {
-	bug( "OpDamage - Bad damage max vnum %d.", 
+	bug( "OpDamage - Bad damage max vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3498,15 +3510,15 @@ void do_opdamage( OBJ_DATA *obj, char *argument )
 	    victim_next = victim->next_in_room;
 	    if ( obj->carried_by && victim == obj->carried_by )
 	      continue;
-	    damage( victim, NULL, 
-		    fKill ? 
+	    damage( victim, NULL,
+		    fKill ?
 		    number_range(low,high) : UMIN(victim->hit - 1, number_range(low,high)),
 		    TYPE_UNDEFINED, DAM_NONE, FALSE );
 	}
     }
     else
-      damage( victim, NULL, 
-	      fKill ? 
+      damage( victim, NULL,
+	      fKill ?
 	      number_range(low,high) : UMIN(victim->hit - 1, number_range(low,high)),
 	      TYPE_UNDEFINED, DAM_NONE, FALSE );
     return;
@@ -3525,7 +3537,7 @@ void do_opremember( OBJ_DATA *obj, char *argument )
     if ( argument[0] != '\0' )
 	obj->oprog_target = get_char( argument );
     else
-	bug( "OpRemember: missing argument from vnum %d.", 
+	bug( "OpRemember: missing argument from vnum %d.",
 		obj->pIndexData->vnum );
 }
 
@@ -3553,7 +3565,7 @@ void do_opdelay( OBJ_DATA *obj, char *argument )
     one_argument( argument, arg );
     if ( !is_number( arg ) )
     {
-	bug( "OpDelay: invalid arg from vnum %d.", 
+	bug( "OpDelay: invalid arg from vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3590,13 +3602,13 @@ void do_opcall( OBJ_DATA *obj, char *argument )
     argument = one_argument( argument, arg );
     if ( arg[0] == '\0' )
     {
-	bug( "OpCall: missing arguments from vnum %d.", 
+	bug( "OpCall: missing arguments from vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
     if ( ( prg = get_prog_index( atoi(arg), PRG_OPROG ) ) == NULL )
     {
-	bug( "OpCall: invalid prog from vnum %d.", 
+	bug( "OpCall: invalid prog from vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3619,7 +3631,7 @@ void do_opcall( OBJ_DATA *obj, char *argument )
  * room with the object.  Addition of "inv" places object into inventory
  * of character location
  *
- * Syntax: obj otransfer [item name] [location] ["inv"] 
+ * Syntax: obj otransfer [item name] [location] ["inv"]
  */
 void do_opotransfer( OBJ_DATA *obj, char *argument )
 {
@@ -3632,7 +3644,7 @@ void do_opotransfer( OBJ_DATA *obj, char *argument )
     argument = one_argument( argument, arg );
     if ( arg[0] == '\0' )
     {
-	bug( "OpOTransfer - Missing argument from vnum %d.", 
+	bug( "OpOTransfer - Missing argument from vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3647,7 +3659,7 @@ void do_opotransfer( OBJ_DATA *obj, char *argument )
 	location = dobj->in_room;
     else
     {
-	bug( "OpOTransfer - No such location from vnum %d.", 
+	bug( "OpOTransfer - No such location from vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3701,7 +3713,7 @@ void do_opremove( OBJ_DATA *obj, char *argument )
 	fAll = TRUE;
     else if ( !is_number( arg ) )
     {
-	bug ( "OpRemove: Invalid object from vnum %d.", 
+	bug ( "OpRemove: Invalid object from vnum %d.",
 		obj->pIndexData->vnum );
 	return;
     }
@@ -3722,14 +3734,14 @@ void do_opremove( OBJ_DATA *obj, char *argument )
 
 /*
  * Lets the object change another object's stats
- * target's level by using "level" 
+ * target's level by using "level"
  *
  * Syntax: obj attrib [targetobj] [field] [+-* / =] [value/"level"]
  */
 void do_opattrib( OBJ_DATA *obj, char *argument ){
   OBJ_DATA* vobj = obj;
-  char target[MIL], 
-    arg1[MIL], 
+  char target[MIL],
+    arg1[MIL],
     arg2[MIL];
   char mod;
   int value;
@@ -3762,7 +3774,7 @@ void do_opattrib( OBJ_DATA *obj, char *argument ){
 	return;
     }
   }
-  /* 
+  /*
      get the integer value for field
      check if operator was skipped
   */
@@ -3778,9 +3790,9 @@ void do_opattrib( OBJ_DATA *obj, char *argument ){
     else
       value = atoi(argument);
   }
-  
+
   /*
-    we have the value, time to get 
+    we have the value, time to get
     the operator
   */
   if(IS_NULLSTR(argument))
@@ -3848,9 +3860,9 @@ void do_opattrib( OBJ_DATA *obj, char *argument ){
     int val = 0;
     if ( ( val = flag_value( wear_flags, argument ) ) != NO_FLAG ){
       switch (mod){
-      case '+' : 
+      case '+' :
 	SET_BIT(obj->wear_flags, val);	break;
-      case '-' : 
+      case '-' :
 	REMOVE_BIT(obj->wear_flags, val);	break;
       case '=' :
 	obj->wear_flags = val;		break;
@@ -3866,9 +3878,9 @@ void do_opattrib( OBJ_DATA *obj, char *argument ){
     int val = 0;
     if ( ( val = flag_value( extra_flags, argument ) ) != NO_FLAG ){
       switch (mod){
-      case '+' : 
+      case '+' :
 	SET_BIT(obj->extra_flags, val);	break;
-      case '-' : 
+      case '-' :
 	REMOVE_BIT(obj->extra_flags, val);	break;
       case '=' :
 	obj->extra_flags = val;		break;
@@ -3933,7 +3945,7 @@ void do_oprattrib(OBJ_DATA* obj, char* argument){
     room = obj->carried_by->in_room;
   else if (obj->in_obj)
     room = obj->in_obj->in_room;
-  else 
+  else
     room = NULL;
   rattrib(room, argument);
 }
@@ -3963,7 +3975,7 @@ void do_opcast( OBJ_DATA* Obj, char *argument )
 
   argument = one_argument( argument, spell );
   one_argument( argument, target );
-  
+
   if (!Obj->carried_by){
     if (Obj->in_room && !IS_NULLSTR(target))
       in_room = Obj->in_room;
@@ -3977,14 +3989,14 @@ void do_opcast( OBJ_DATA* Obj, char *argument )
 
   if ( spell[0] == '\0' )
     {
-      bug( "OpCast - Bad syntax from vnum %d.", 
+      bug( "OpCast - Bad syntax from vnum %d.",
 	   Obj->pIndexData->vnum);
       return;
     }
 
   if ( ( sn = skill_lookup( spell ) ) < 0 )
     {
-      bug( "OpCast - No such spell from vnum %d.", 
+      bug( "OpCast - No such spell from vnum %d.",
 	   Obj->pIndexData->vnum);
       return;
     }
@@ -4006,9 +4018,9 @@ void do_opcast( OBJ_DATA* Obj, char *argument )
     return;
   switch ( skill_table[sn].target )
     {	default: return;
-    case TAR_IGNORE: 
+    case TAR_IGNORE:
       break;
-    case TAR_CHAR_OFFENSIVE: 
+    case TAR_CHAR_OFFENSIVE:
       if ( vch == NULL){
 	if (ch->fighting)
 	  vch = ch->fighting;
@@ -4029,9 +4041,9 @@ void do_opcast( OBJ_DATA* Obj, char *argument )
 	return;
       victim = ( void * ) obj;
     }
-  (*skill_table[sn].spell_fun)( sn, 
-				Obj->level > 1 ? UMIN(ch->level, ch->level/3 + 2*Obj->level/3) : 1, 
-				ch, 
+  (*skill_table[sn].spell_fun)( sn,
+				Obj->level > 1 ? UMIN(ch->level, ch->level/3 + 2*Obj->level/3) : 1,
+				ch,
 				victim,
 				skill_table[sn].target );
   return;
@@ -4054,7 +4066,7 @@ void do_opobey( OBJ_DATA *obj, char *argument )
       return;
     }
     argument = one_argument( argument, arg );
-    if ( ( vch = get_char_room( NULL, room, arg ) ) == NULL 
+    if ( ( vch = get_char_room( NULL, room, arg ) ) == NULL
 	 || !IS_NPC(vch))
       return;
     argument = one_argument( argument, arg );
@@ -4064,7 +4076,7 @@ void do_opobey( OBJ_DATA *obj, char *argument )
     /*set charmie */
     if ( is_number(argument)){
       AFFECT_DATA af;
-      
+
       af.type = gsn_timer;
       af.level= vch->level;
       af.duration = UMAX(0, atoi(argument));
@@ -4129,10 +4141,10 @@ void do_opequipself( OBJ_DATA *obj, char *argument )
 
 /* uses prog_gain from above */
 void do_opgain(OBJ_DATA* obj, char *argument ){
-  ROOM_INDEX_DATA* room = obj->in_room ? obj->in_room : 
+  ROOM_INDEX_DATA* room = obj->in_room ? obj->in_room :
     obj->carried_by ? obj->carried_by->in_room : NULL;
 
-  prog_gain(room, argument); 
+  prog_gain(room, argument);
 }
 
 /* This is re-implementation of same command in "misc.c" */
@@ -4215,16 +4227,16 @@ void do_opaffstrip(OBJ_DATA* obj, char* argument){
   char arg[MIL];
   CHAR_DATA* victim;
   int sn = 0;
- 
+
   if (obj->in_room)
     room = obj->in_room;
   else if (obj->carried_by)
     room = obj->carried_by->in_room;
   else if (obj->in_obj)
     room = obj->in_obj->in_room;
-  else 
+  else
     room = NULL;
-  
+
   if (room == NULL)
     return;
 
@@ -4238,7 +4250,7 @@ void do_opaffstrip(OBJ_DATA* obj, char* argument){
     return;
   }
   affect_strip(victim,sn);
-  update_pos(victim);        
+  update_pos(victim);
 }
 
 /* shows syndicate score board to given char.: scoreboard <cabal> <character> */
@@ -4253,11 +4265,11 @@ void do_opscoreboard( OBJ_DATA* obj, char* argument ){
 
   int last = 0;
   int i = 0;
-  
+
   char buf[MIL];
 
   argument = one_argument(argument, buf);
-  
+
   if (in_char( obj ))
     room = in_char( obj )->in_room;
   else if (in_obj( obj ))
@@ -4265,7 +4277,7 @@ void do_opscoreboard( OBJ_DATA* obj, char* argument ){
   else
     return;
 
-    
+
   if ( (pc = get_cabal( buf )) == NULL){
     bug("do_opscoreboard: cabal not found.\n\r", 0);
     return;
@@ -4294,7 +4306,7 @@ void do_opscoreboard( OBJ_DATA* obj, char* argument ){
     for (j = 0; j  < last - i; j ++ ){
       cm = cm_list[j];
       cm_next = cm_list[j + 1];
-      
+
       if (cm_next->kills > cm->kills){
 	cm_list[j + 1] = cm;
 	cm_list[j] = cm_next;
@@ -4325,7 +4337,7 @@ void do_opdestroy( OBJ_DATA* obj, char* argument ){
   }
   prog_destroy( in_room, argument );
 }
-    
+
 /*
  * ROOMprog section
  */
@@ -4369,7 +4381,7 @@ void do_oppath( OBJ_DATA*obj, char* argument ){
   prog_path( NULL, argument );
 }
 
-/* 
+/*
  * Displays ROOMprogram triggers of a room
  *
  * Syntax: rpstat [name]
@@ -4402,7 +4414,7 @@ void do_rpstat( CHAR_DATA *ch, char *argument )
 
     sprintf( arg, "Delay   %-6d [%s]\n\r",
 	room->rprog_delay,
-	room->rprog_target == NULL 
+	room->rprog_target == NULL
 		? "No target" : room->rprog_target->name );
     send_to_char( arg, ch );
 
@@ -4493,8 +4505,8 @@ void do_rpzecho( ROOM_INDEX_DATA *room, char *argument )
 
     for ( d = descriptor_list; d; d = d->next )
     {
-	if ( d->connected == CON_PLAYING 
-	&&   d->character->in_room != NULL 
+	if ( d->connected == CON_PLAYING
+	&&   d->character->in_room != NULL
 	&&   d->character->in_room->area == room->area )
  	{
 	    if ( IS_IMMORTAL(d->character) )
@@ -4520,7 +4532,7 @@ void do_rpasound( ROOM_INDEX_DATA *room, char *argument )
     for ( door = 0; door < 6; door++ )
     {
     	EXIT_DATA       *pexit;
-      
+
       	if ( ( pexit = room->exit[door] ) != NULL
 	  &&   pexit->to_room != NULL
 	  &&   pexit->to_room != room
@@ -4641,15 +4653,15 @@ void do_rpoload( ROOM_INDEX_DATA *room, char *argument )
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
                one_argument( argument, arg3 );
- 
-    if ( arg1[0] == '\0' || !is_number( arg1 ) || arg2[0] == '\0' 
+
+    if ( arg1[0] == '\0' || !is_number( arg1 ) || arg2[0] == '\0'
       || !is_number( arg2 ) )
     {
         bug( "Rpoload - Bad syntax from vnum %d.",
 	    room->vnum );
         return;
     }
- 
+
     level = atoi( arg2 );
     if ( level < 0 || level > LEVEL_IMMORTAL )
     {
@@ -4692,7 +4704,7 @@ void do_rppurge( ROOM_INDEX_DATA *room, char *argument )
 	for ( victim = room->people; victim != NULL; victim = vnext )
 	{
 	    vnext = victim->next_in_room;
-	    if ( IS_NPC( victim ) 
+	    if ( IS_NPC( victim )
 	    &&   !IS_SET(victim->act, ACT_NOPURGE) )
 		extract_char( victim, TRUE );
 	}
@@ -4728,7 +4740,7 @@ void do_rppurge( ROOM_INDEX_DATA *room, char *argument )
     extract_char( victim, TRUE );
     return;
 }
- 
+
 /*
  * Lets the room transfer people.  The 'all' argument transfers
  *  everyone in the room to the specified location
@@ -4878,13 +4890,13 @@ void do_rprtransfer( ROOM_INDEX_DATA *room, char *argument )
     for ( victim = room->people; victim; victim = victim_next )
     {
     	victim_next = victim->next_in_room;
-    	if( fAll 
+    	if( fAll
 	    || who == NULL
 	    || who != victim){
 	  sprintf( buf, "%s %s", victim->name, arg2 );
 	  do_rptransfer( room, buf );
 	}
-    	
+
     }
     return;
 }
@@ -5071,13 +5083,13 @@ void do_rpdamage( ROOM_INDEX_DATA *room, char *argument )
     if ( fAll ) {
       for( victim = room->people; victim; victim = victim_next ) {
 	victim_next = victim->next_in_room;
-	damage( victim, NULL, fKill ? 
+	damage( victim, NULL, fKill ?
 		    number_range(low,high) : UMIN(victim->hit,number_range(low,high)),
 		    TYPE_UNDEFINED, damage_type, FALSE );
       }
     }
     else {
-      damage( victim, NULL, fKill ? 
+      damage( victim, NULL, fKill ?
 	      number_range(low,high) : UMIN(victim->hit,number_range(low,high)),
 	      TYPE_UNDEFINED, damage_type, FALSE );
     }
@@ -5282,7 +5294,7 @@ void do_rpstop( ROOM_INDEX_DATA *room, char *argument )
     CHAR_DATA *victim;
     if ( ( victim = get_char_room( NULL, room, argument ) ) == NULL )
       return;
-    /* flag is cleared after TRIG_EX** ends */ 
+    /* flag is cleared after TRIG_EX** ends */
     SET_BIT(victim->affected_by, AFF_FLAG);
 }
 
@@ -5297,7 +5309,7 @@ void do_rpobey( ROOM_INDEX_DATA *room, char *argument )
     char arg[MIL];
 
     argument = one_argument( argument, arg );
-    if ( ( vch = get_char_room( NULL, room,  arg ) ) == NULL 
+    if ( ( vch = get_char_room( NULL, room,  arg ) ) == NULL
 	 || !IS_NPC(vch))
       return;
     argument = one_argument( argument, arg );
@@ -5308,7 +5320,7 @@ void do_rpobey( ROOM_INDEX_DATA *room, char *argument )
     /*set charmie */
     if ( is_number(argument)){
       AFFECT_DATA af;
-      
+
       af.type = gsn_timer;
       af.level= vch->level;
       af.duration = UMAX(0, atoi(argument));

@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -131,7 +131,7 @@ void show_detail_info( CHAR_DATA* ch, CHAR_DATA* victim){
 
   rltom_date( victim->pcdata->birth_date, &h, &d, &m, &y );
 
-  sprintf( buf, 
+  sprintf( buf,
 	   "Born at: %s\n\r"\
 	   "Aged   : %-4d (%s-handed) %s%s%s\n\r",
 	   mud_date_string( h, d, m, y ),
@@ -163,7 +163,7 @@ void show_detail_info( CHAR_DATA* ch, CHAR_DATA* victim){
   }
   add_buf( output, "Description:\n\r");
   add_buf( output, victim->description);
-  
+
 
   page_to_char( buf_string(output), ch );
   free_buf(output);
@@ -175,7 +175,7 @@ char *pers( CHAR_DATA *Ch, CHAR_DATA *looker )
   CHAR_DATA* ch = Ch;
   static char buf[MSL];
   buf[0] = '\0';
-  
+
   if (can_see(looker,ch)){
     if (IS_NPC(ch) && !is_affected(ch, gsn_doppelganger))
       return (ch->short_descr);
@@ -197,7 +197,7 @@ char *pers( CHAR_DATA *Ch, CHAR_DATA *looker )
 	return ("A large oak tree");
     }
     if ( (paf = affect_find(ch->affected,gen_conceal)) != NULL){
-      if (IS_IMMORTAL(looker) 
+      if (IS_IMMORTAL(looker)
 	  || (paf->modifier && is_same_cabal(ch->pCabal, looker->pCabal))){
 	sprintf(buf,"{`8%s``} %s", ch->name, ch->short_descr);
 	return (buf);
@@ -215,8 +215,8 @@ char *pers( CHAR_DATA *Ch, CHAR_DATA *looker )
       else
 	return (ch->doppel->name);
     }
-    if (is_affected(ch,gsn_bat_form) 
-	|| is_affected(ch,gsn_wolf_form) 
+    if (is_affected(ch,gsn_bat_form)
+	|| is_affected(ch,gsn_wolf_form)
 	|| is_affected(ch,gsn_mist_form)){
       if (IS_IMMORTAL(looker)){
 	sprintf(buf,"{`8%s``} %s", ch->name, ch->short_descr);
@@ -245,8 +245,8 @@ char *pers( CHAR_DATA *Ch, CHAR_DATA *looker )
 char *pers2( CHAR_DATA *ch )
 {
   CHAR_DATA* vch = ch;
-  static char buf[MSL];
-  buf[0] = '\0';
+  //static char buf[MSL];
+  //buf[0] = '\0';
 
   if (is_affected(ch,gsn_doppelganger) && ch->doppel){
     vch = ch->doppel;
@@ -254,13 +254,13 @@ char *pers2( CHAR_DATA *ch )
   if (IS_NPC(vch))
     return (vch->short_descr);
 
-  if (is_affected(vch,gsn_bat_form) 
-      || is_affected(vch,gsn_wolf_form) 
+  if (is_affected(vch,gsn_bat_form)
+      || is_affected(vch,gsn_wolf_form)
       || is_affected(vch,gsn_mist_form)
       || is_affected(vch, gen_conceal) )
     return (vch->short_descr);
 
-  if (IS_IMMORTAL(ch) && ch->short_descr[0] 
+  if (IS_IMMORTAL(ch) && ch->short_descr[0]
       && str_cmp(ch->name, ch->short_descr))
     return (ch->short_descr);
   return (ch->name);
@@ -316,9 +316,9 @@ void do_psalm(CHAR_DATA* ch, char* argument){
       continue;
     }
     last_psalm++;
-    sprintf(psalm_list[ch->pcdata->psalms[i] - 1], 
-	    "%3d. %-22s %8s %8s\n\r", 
-	    ch->pcdata->psalms[i], 
+    sprintf(psalm_list[ch->pcdata->psalms[i] - 1],
+	    "%3d. %-22s %8s %8s\n\r",
+	    ch->pcdata->psalms[i],
 	    psalm_table[i].name,
 	    psalm_table[i].fGroup ? "[Group]" : "",
 	    psalm_table[i].fTwo ? "" : "[no-double]");
@@ -342,7 +342,7 @@ void do_law(CHAR_DATA *ch, char *argument){
     int crime = 0;
     send_to_char("The area about you observes Law in following ways:\n\r", ch );
     for (crime = 0; crime  < MAX_CRIME; crime ++ ){
-      sendf(ch, "%-15s : %s\n\r", 
+      sendf(ch, "%-15s : %s\n\r",
 	    crime_table[crime].name,
 	    punish_table[ch->in_room->area->crimes[crime]].name);
     }
@@ -361,7 +361,7 @@ void do_color(CHAR_DATA *ch, char *argument)
     if (IS_NULLSTR(argument)){
       TOGGLE_BIT(ch->color, COLOR_ON);
       send_to_char("Syntax:  color <flag>\n\rCurrent Settings:\n\r", ch);
-      sendf(ch, 
+      sendf(ch,
 	    "color\t\t%s\n\r"\
 	    "damage\t\t%s\n\r",
 	    IS_COLOR(ch, COLOR_ON) ? "[ON]" : "[OFF]",
@@ -404,8 +404,8 @@ void list_to_char( OBJ_DATA *list, CHAR_DATA *ch, bool fShort, bool fShowNothing
     prgnShow    = alloc_mem( count * sizeof(int)    );
 
     for ( obj = list; obj != NULL; obj = obj->next_content )
-      if ( obj->wear_loc == WEAR_NONE && 
-	   (can_see_obj( ch, obj ) || fShowAll)) 
+      if ( obj->wear_loc == WEAR_NONE &&
+	   (can_see_obj( ch, obj ) || fShowAll))
 	{
 	  pstrShow = format_obj_to_char( obj, ch, fShort );
 	  fCombine = FALSE;
@@ -458,7 +458,7 @@ void char_to_char( CHAR_DATA *victim, CHAR_DATA *ch , bool fAll)
   CHAR_DATA* vch = victim;
   char buf[MSL], buf2[MSL];
   AFFECT_DATA* paf;
-  
+
   buf[0] = '\0';
   if (IS_AFFECTED2(victim, AFF_CATALEPSY))
     return;
@@ -467,7 +467,7 @@ void char_to_char( CHAR_DATA *victim, CHAR_DATA *ch , bool fAll)
       sendf(ch, "(%s)\n\r", victim->short_descr);
     }
     return;
-  } 
+  }
   if (!IS_NPC(victim) && IS_IMMORTAL(victim) && victim->long_descr[0] != '\0')
     {
       if (IS_IMMORTAL(ch) && IS_SET(ch->act,PLR_HOLYLIGHT))
@@ -490,11 +490,11 @@ void char_to_char( CHAR_DATA *victim, CHAR_DATA *ch , bool fAll)
 	sprintf( buf2, "(Incog %d) ", victim->incog_level);
 	strcat( buf,buf2);
     }
-  
+
   /* Mirror cloak reverses prefixes */
   if (ch != victim
       && ch->class != gcn_psi
-      && !IS_SET(ch->act, PLR_HOLYLIGHT) 
+      && !IS_SET(ch->act, PLR_HOLYLIGHT)
       && is_affected( victim, gsn_mirror_cloak))
     vch = ch;
 
@@ -504,28 +504,28 @@ void char_to_char( CHAR_DATA *victim, CHAR_DATA *ch , bool fAll)
   if ( IS_AFFECTED(vch, AFF_INVISIBLE)   ) strcat( buf, "(`8Invisible``) " );
   if ( is_affected(vch, gsn_burrow)   )    strcat( buf, "(`3Burrowed``) " );
   if ( IS_AFFECTED2(vch, AFF_CAMOUFLAGE) ) strcat( buf, "(`2Camouflage``) " );
-  if ( IS_AFFECTED(vch, AFF_HIDE)        
+  if ( IS_AFFECTED(vch, AFF_HIDE)
        || is_affected(vch, gen_d_shroud))  strcat( buf, "(`8Hide``) " );
   if ( IS_AFFECTED(vch, AFF_CHARM)       ) strcat( buf, "(`8Charmed``) " );
   if (IS_AFFECTED2(vch,AFF_SHADOWFORM))    strcat( buf, "(`5Shadowformed``) ");
   if (IS_AFFECTED2(vch,AFF_TREEFORM))      strcat( buf, "(`2Treeformed``) ");
-  if (!IS_NPC(victim) 
+  if (!IS_NPC(victim)
       && IS_SET(victim->act, PLR_WANTED ) )strcat(buf, "(`1WANTED``) ");
-  if (!IS_NPC(victim) 
+  if (!IS_NPC(victim)
       && IS_SET(victim->act, PLR_OUTCAST) )strcat(buf, "(`1OUTCAST``) ");
   if (IS_EVIL(victim)
       && IS_AFFECTED(ch, AFF_DETECT_EVIL) )strcat( buf, "(`!Red Aura``) "   );
-  if (IS_GOOD(victim) 
+  if (IS_GOOD(victim)
       && IS_AFFECTED(ch, AFF_DETECT_GOOD) )strcat( buf, "(`#Golden Aura``) ");
   if (!IS_NPC(victim)
-      && IS_AFFECTED2(ch,AFF_SENSE_EVIL) 
+      && IS_AFFECTED2(ch,AFF_SENSE_EVIL)
       && IS_EVIL(victim)
       && !IS_IMMORTAL(victim)
       && !can_see(ch,victim) ){
     buf[0] = '\0';
     strcat( buf, "(`!Red Aura``) ");
-  }    
-  
+  }
+
   /* can be hidden by shroud */
   if ( !is_affected(vch,skill_lookup("dark shroud")) ){
     if (IS_AFFECTED(vch, AFF_PASS_DOOR))    strcat( buf, "(`^Translucent``) ");
@@ -534,13 +534,13 @@ void char_to_char( CHAR_DATA *victim, CHAR_DATA *ch , bool fAll)
     if (IS_AFFECTED(vch, AFF_SANCTUARY))    strcat( buf, "(`&White Aura``) " );
     if (is_affected(vch, gsn_lifeforce))    strcat( buf, "(`2Green Aura``) " );
     if (is_affected(vch, gsn_pyramid_of_force))strcat( buf, "(`0Pyramid``) " );
-    if (is_affected(vch, gsn_aura) 
+    if (is_affected(vch, gsn_aura)
 	|| IS_AVATAR(vch))	            strcat( buf, "(`&Bright Aura``)" );
-  } 
-  if ( IS_NPC(victim) 
+  }
+  if ( IS_NPC(victim)
        && !IS_AFFECTED2(victim, AFF_SEVERED)
-       && victim->position == victim->start_pos 
-       && victim->long_descr[0] != '\0' 
+       && victim->position == victim->start_pos
+       && victim->long_descr[0] != '\0'
        && can_see(ch,victim) ){
     strcat( buf, victim->long_descr );
     send_to_char( buf, ch );
@@ -556,7 +556,7 @@ void char_to_char( CHAR_DATA *victim, CHAR_DATA *ch , bool fAll)
     send_to_char(buf,ch);
     return;
   }
-  
+
   /* were beast flags */
   if (!IS_NPC(victim) && victim->race == grn_werebeast){
     char tag[MIL];
@@ -582,19 +582,19 @@ void char_to_char( CHAR_DATA *victim, CHAR_DATA *ch , bool fAll)
     strcat(buf, ( fAll? PERS2(victim): PERS(victim, ch )));
     if (!IS_NPC(victim->doppel) && !IS_SET(ch->comm, COMM_BRIEF)
 	&& victim->doppel->short_descr[0] == '\0')
-      strcat(buf, 
+      strcat(buf,
 	     (fAll ? (IS_NPC(victim) ? "" : victim->pcdata->title) : victim->doppel->pcdata->title));
   }
   else{
     strcat( buf, (fAll? PERS2(victim) : PERS( victim, ch )) );
-    if ( !IS_NPC(victim) 
-	 && !IS_SET(ch->comm, COMM_BRIEF) 
+    if ( !IS_NPC(victim)
+	 && !IS_SET(ch->comm, COMM_BRIEF)
 	 && victim->position == POS_STANDING
 	 && !IS_AFFECTED2(victim, AFF_SHADOWFORM)
-	 && !IS_AFFECTED2(victim, AFF_TREEFORM) 
+	 && !IS_AFFECTED2(victim, AFF_TREEFORM)
 	 && (can_see(ch,victim) || fAll)
-	 && !is_affected(victim,gsn_bat_form) 
-	 && !is_affected(victim,gsn_wolf_form) 
+	 && !is_affected(victim,gsn_bat_form)
+	 && !is_affected(victim,gsn_wolf_form)
 	 && !is_affected(victim,gsn_mist_form)
 	 && !is_affected(victim,gen_conceal) )
       strcat( buf, victim->pcdata->title );
@@ -605,25 +605,25 @@ void char_to_char( CHAR_DATA *victim, CHAR_DATA *ch , bool fAll)
   case POS_INCAP:    strcat( buf, " is incapacitated." );      break;
   case POS_STUNNED:  strcat( buf, " is lying here stunned." ); break;
   case POS_MEDITATE:  strcat( buf, " is sitting here meditating." ); break;
-  case POS_SLEEPING: 
+  case POS_SLEEPING:
     if (is_affected(victim, gsn_camp)) strcat( buf," is camped up here.");
     else if (is_affected(victim, gsn_coffin)) strcat( buf," is lying here in a coffin.");
     else if (is_affected(victim, gsn_entomb)) strcat( buf," is sleeping in a tomb.");
     else if (is_affected(victim, gen_watchtower)) strcat( buf," is sleeping in a watchtower.");
     else strcat( buf," is sleeping here.");	break;
-  case POS_RESTING:  
-    if (is_affected(victim, gsn_mortally_wounded)) strcat( buf, " is kneeling on the ground." );       
+  case POS_RESTING:
+    if (is_affected(victim, gsn_mortally_wounded)) strcat( buf, " is kneeling on the ground." );
     else if (is_affected(victim,gsn_ecstacy)) strcat( buf," is resting here with a wide grin.");
     else if (is_affected(victim, gen_watchtower)) strcat( buf," is resting in a watchtower.");
     else if (is_affected(victim, gen_acraft)) strcat( buf," is swinging a hammer here.");
     else if (is_affected(victim, gen_wcraft)) strcat( buf," is working on a weapon here.");
     else if (is_affected(victim, gen_chant)) strcat( buf," is praying here.");
     else strcat( buf, " is resting here." ); break;
-  case POS_SITTING:  
+  case POS_SITTING:
     if (is_affected(victim,gsn_ecstacy)) strcat( buf," is sitting here with a wide grin.");
     else if (is_affected(victim, gen_watchtower)) strcat( buf," is sitting in a watchtower.");
     else strcat( buf, " is sitting here.");	 break;
-  case POS_STANDING: 
+  case POS_STANDING:
     if (!IS_NPC(victim) && victim->pcdata->pStallion != NULL){
       sprintf( buf2, " is here, sitting astride %s.", victim->pcdata->pStallion->short_descr);
       strcat( buf, buf2);
@@ -636,7 +636,7 @@ void char_to_char( CHAR_DATA *victim, CHAR_DATA *ch , bool fAll)
       if ( victim->fighting == NULL ) strcat( buf, "thin air??" );
       else if ( victim->fighting == ch ) strcat( buf, "YOU!" );
       else if ( victim->in_room == victim->fighting->in_room ){
-	strcat( buf, 
+	strcat( buf,
 		(fAll? PERS2(victim->fighting): PERS( victim->fighting, ch )) );
 	strcat( buf, "." );
       }
@@ -693,7 +693,7 @@ void show_equipment(CHAR_DATA* Victim, CHAR_DATA* ch, bool fMirror ){
 
 /* dopple switch */
   CHAR_DATA* victim = is_affected(Victim, gsn_doppelganger) && Victim->doppel ? Victim->doppel : Victim;
-  
+
   bool fBodyWep = is_affected(victim, gsn_body_weaponry);
   bool fGraft = is_affected(victim, gsn_graft_weapon);
   bool fShowSheath = show_sheath(ch, victim);
@@ -727,8 +727,8 @@ void show_equipment(CHAR_DATA* Victim, CHAR_DATA* ch, bool fMirror ){
 	  && pos != WEAR_SHROUD
 	  && pos != WEAR_TATTOO
 	  && pos != WEAR_RANGED){
-	sprintf( buf, "%s %s\n\r", 
-		 where_name[eq_positions[i]], 
+	sprintf( buf, "%s %s\n\r",
+		 where_name[eq_positions[i]],
 		 "nothing.");
 	strcat(out, buf );
       }
@@ -748,29 +748,29 @@ void show_equipment(CHAR_DATA* Victim, CHAR_DATA* ch, bool fMirror ){
 	continue;
     }
     else if (pos == WEAR_WIELD && fGraft){
-      sprintf( buf, "<grafted to hands>  %s\n\r", 
+      sprintf( buf, "<grafted to hands>  %s\n\r",
 	       format_obj_to_char( obj, ch, TRUE ));
     }
     else if (pos == WEAR_SHEATH_L){
-      sprintf( buf, "%s %s\n\r", 
+      sprintf( buf, "%s %s\n\r",
 	       sheath_str(victim, obj, TRUE),
 	       format_obj_to_char( obj, ch, TRUE ));
     }
     else if (pos == WEAR_SHEATH_R){
-      sprintf( buf, "%s %s\n\r", 
+      sprintf( buf, "%s %s\n\r",
 	       sheath_str(victim, obj, FALSE),
 	       format_obj_to_char( obj, ch, TRUE ));
     }
     else{
-      sprintf( buf, "%s %s\n\r", 
-	       where_name[eq_positions[i]], 
+      sprintf( buf, "%s %s\n\r",
+	       where_name[eq_positions[i]],
 	       format_obj_to_char( obj, ch, TRUE ));
     }
     /* attatch the string to output */
     strcat(out, buf);
   }
   if (buf[0] != '\0'){
-    sendf(ch, "\n\r%s is using:\n\r", 
+    sendf(ch, "\n\r%s is using:\n\r",
 	  fMirror ? PERS(Victim, ch) : PERS(victim,ch) );
     send_to_char(out, ch);
   }
@@ -807,7 +807,7 @@ void show_char_to_char_1( CHAR_DATA *victim, CHAR_DATA *ch ){
     /* Mirror cloak reverses desc/eq onto the looker */
     if (ch != victim
 	&& ch->class != gcn_psi
-	&& !IS_SET(ch->act, PLR_HOLYLIGHT) 
+	&& !IS_SET(ch->act, PLR_HOLYLIGHT)
 	&& is_affected( victim, gsn_mirror_cloak)){
       fMirror = TRUE;
     }
@@ -908,7 +908,7 @@ if ( victim->max_hit > 0 )
     if ( victim != ch && !IS_NPC(ch) && (number_percent() < peek || IS_IMMORTAL(ch)))
     {
       if (!IS_NPC(victim) && IS_IMMORTAL(victim) && !IS_IMMORTAL(ch))
-	return;	  
+	return;
       send_to_char( "\n\rYou peek at the inventory:\n\r", ch );
       check_improve(ch,gsn_peek,TRUE, 0);
       show_list_to_char( is_affected(victim,gsn_doppelganger) ? tmp_vict->carrying : victim->carrying, ch, TRUE, TRUE );
@@ -920,7 +920,7 @@ if ( victim->max_hit > 0 )
       }
     }
 
-     
+
 }
 
 void show_char_to_char( CHAR_DATA *list, CHAR_DATA *ch )
@@ -934,8 +934,8 @@ void show_char_to_char( CHAR_DATA *list, CHAR_DATA *ch )
 	    continue;
 	if ( get_trust(ch) < rch->invis_level)
 	    continue;
-	if ( can_see( ch, rch ) 
-	     || (IS_AFFECTED2(ch, AFF_SENSE_EVIL) 
+	if ( can_see( ch, rch )
+	     || (IS_AFFECTED2(ch, AFF_SENSE_EVIL)
 		 && IS_EVIL(rch) && !is_affected(rch, gen_d_shroud))
 	     || (check_avenger(ch, rch) == CRUSADE_MATCH
 		 && !is_affected(rch, gen_d_shroud)) )
@@ -952,12 +952,12 @@ void show_char_to_char( CHAR_DATA *list, CHAR_DATA *ch )
       }
       else if (ch->class == gcn_monk
 	       && is_affected(ch, gsn_sense_motion)
-	       && get_skill(ch,gsn_sense_motion) > number_percent() 
+	       && get_skill(ch,gsn_sense_motion) > number_percent()
 	       && monk_good(ch, WEAR_HEAD) ){
 	send_to_char("You sense a hidden presence in this room.\n\r", ch);
       }
     }
-} 
+}
 
 bool check_blind( CHAR_DATA *ch )
 {
@@ -968,7 +968,7 @@ bool check_blind( CHAR_DATA *ch )
 //with silence.
 
     if(  (IS_AFFECTED(ch, AFF_BLIND) && !is_affected(ch, gsn_bat_form)) || (IS_AFFECTED(ch, AFF_BLIND) && bat_blind(ch)) || bat_blind(ch) )
-      return FALSE; 
+      return FALSE;
     else
       return TRUE;
 }
@@ -1048,7 +1048,7 @@ void do_autolist(CHAR_DATA *ch, char *argument)
     send_to_char("---------------------\n\r",ch);
     send_to_char("autoassist     ",ch);
     if (IS_SET(ch->act,PLR_AUTOASSIST)) send_to_char("ON\n\r",ch);
-    else send_to_char("OFF\n\r",ch); 
+    else send_to_char("OFF\n\r",ch);
     send_to_char("autoexit       ",ch);
     if (IS_SET(ch->act,PLR_AUTOEXIT)) send_to_char("ON\n\r",ch);
     else send_to_char("OFF\n\r",ch);
@@ -1069,23 +1069,23 @@ void do_autolist(CHAR_DATA *ch, char *argument)
     else send_to_char("OFF\n\r",ch);
     send_to_char("autofire       ",ch);
     if (IS_GAME(ch, GAME_NOAUTOFIRE)) send_to_char("OFF\n\r", ch);
-    else  send_to_char("ON\n\r", ch);  
+    else  send_to_char("ON\n\r", ch);
     send_to_char("autosex        ",ch);
     if (IS_GAME(ch, GAME_SEX)) send_to_char("ON\n\r", ch);
-    else  send_to_char("OFF\n\r", ch);  
+    else  send_to_char("OFF\n\r", ch);
     send_to_char("prompt         ",ch);
     if (IS_SET(ch->comm,COMM_PROMPT)) send_to_char("ON\n\r",ch);
     else send_to_char("OFF\n\r",ch);
     send_to_char("autosheath     ",ch);
     if (IS_GAME(ch, GAME_ASHEATH)) send_to_char("ON\n\r", ch);
-    else  send_to_char("OFF\n\r", ch);  
+    else  send_to_char("OFF\n\r", ch);
     if (ch->class == class_lookup("warrior")
 	|| ch->class == class_lookup("paladin")
 	|| ch->class == gcn_blademaster
 	|| ch->class == class_lookup("monk")){
       send_to_char("mercykill      ",ch);
       if (IS_GAME(ch, GAME_MERCY)) send_to_char("ON\n\r", ch);
-      else  send_to_char("OFF\n\r", ch);  
+      else  send_to_char("OFF\n\r", ch);
     }
     send_to_char("aliases        ",ch);
     if (IS_GAME(ch, GAME_NOALIAS)) send_to_char("OFF\n\r",ch);
@@ -1128,7 +1128,7 @@ void do_autoaim(CHAR_DATA *ch, char *argument)
 
   if (IS_NPC(ch))
     return;
-  
+
   if (argument[0] == '\0'){
     send_to_char("autoaim:    ",ch);
     if (IS_GAME(ch, GAME_AMOB)) send_to_char("MOB[ON] ", ch);
@@ -1150,8 +1150,8 @@ void do_autoaim(CHAR_DATA *ch, char *argument)
     else
       SET_BIT(ch->game, GAME_AMOB);
   }//END MOB
-  
-  
+
+
   /* PC */
   else if (!str_prefix("pc", arg1)){
     if (IS_GAME(ch, GAME_APC))
@@ -1159,7 +1159,7 @@ void do_autoaim(CHAR_DATA *ch, char *argument)
     else
       SET_BIT(ch->game, GAME_APC);
   }//END PC
-  
+
   /* OBJ */
   else if (!str_prefix("obj", arg1)){
     if (IS_GAME(ch, GAME_AOBJ))
@@ -1167,7 +1167,7 @@ void do_autoaim(CHAR_DATA *ch, char *argument)
     else
       SET_BIT(ch->game, GAME_AOBJ);
   }//END OBJ
-  
+
   /* ALL */
   else if (!str_prefix("all", arg1)){
     if (IS_GAME(ch, GAME_AMOB)){
@@ -1276,7 +1276,7 @@ void do_autosex(CHAR_DATA *ch, char *argument)
         send_to_char("Sexes will now be displayed on the whois list.\n\r",ch);
         SET_BIT(ch->game,GAME_SEX);
     }
-}   
+}
 
 /* Toggles firing of weapons in combat */
 void do_autofire(CHAR_DATA *ch, char *argument)
@@ -1291,7 +1291,7 @@ void do_autofire(CHAR_DATA *ch, char *argument)
       send_to_char("You will no longer fire your weapons in combat.\n\r",ch);
       SET_BIT(ch->game,GAME_NOAUTOFIRE);
     }
-}   
+}
 
 /* removes person from consideration for questor */
 void do_forfeit(CHAR_DATA *ch, char *argument){
@@ -1368,7 +1368,7 @@ void do_autosheath(CHAR_DATA *ch, char *argument)
       send_to_char("When possible, you will now sheath while entering a city.\n\r", ch);
       SET_BIT(ch->game,GAME_ASHEATH);
     }
-}   
+}
 
 void do_autocabal(CHAR_DATA *ch, char *argument)
 {
@@ -1528,7 +1528,7 @@ void do_show(CHAR_DATA *ch, char *argument)
 void do_prompt(CHAR_DATA *ch, char *argument)
 {
    char buf[MSL];
-   
+
    SET_BIT(ch->comm,COMM_PROMPT);
    if ( argument[0] == '\0' )
    {
@@ -1572,7 +1572,7 @@ void do_nofollow(CHAR_DATA *ch, char *argument)
     {
         send_to_char("You no longer accept followers.\n\r",ch);
         SET_BIT(ch->act,PLR_NOFOLLOW);
-	
+
         die_follower( ch, TRUE );
 	stop_follower( ch );
     }
@@ -1613,7 +1613,7 @@ void do_nosummon(CHAR_DATA *ch, char *argument)
    comments:	Simple function to allow players to check the are they are in.
 */
 void do_skylook(CHAR_DATA* ch){
-  if(  (IS_AFFECTED(ch, AFF_BLIND) && !is_affected(ch, gsn_bat_form)) 
+  if(  (IS_AFFECTED(ch, AFF_BLIND) && !is_affected(ch, gsn_bat_form))
        || (IS_AFFECTED(ch, AFF_BLIND) && bat_blind(ch))  || bat_blind(ch) )
     {
       send_to_char( "You can't see a thing!\n\r", ch );
@@ -1634,7 +1634,7 @@ void do_skylook(CHAR_DATA* ch){
   if (mud_data.weather_info.sunlight != SUN_DARK){
     do_weather(ch, "");
   }
-  sendf(ch, "Using the sky and the surroundings you decide you are in area of %s.\n\r", 
+  sendf(ch, "Using the sky and the surroundings you decide you are in area of %s.\n\r",
 	ch->in_room->area->name);
 }
 
@@ -1652,6 +1652,11 @@ void do_look( CHAR_DATA *ch, char *argument )
     int door, number, count;
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
+
+    /* Useless conditional */
+    tattoo = NULL;
+    if( tattoo != NULL )
+        return;
 
     /* sku look to check the area */
     if (!str_prefix("sky", arg1)){
@@ -1689,16 +1694,16 @@ void do_look( CHAR_DATA *ch, char *argument )
 	return;
     }
     if ( !check_blind( ch ) ){
-      send_to_char( "You can't see a thing!\n\r", ch ); 
+      send_to_char( "You can't see a thing!\n\r", ch );
       return;
     }
 
     tattoo = get_eq_char(ch, WEAR_TATTOO);
 
-    if ( (!IS_NPC(ch) && !IS_SET(ch->act, PLR_HOLYLIGHT) 
-	  && room_is_dark( ch->in_room ) 
-	  && !IS_AFFECTED(ch, AFF_INFRARED ) 
-	  //	  && get_eq_char(ch, WEAR_LIGHT) == NULL 
+    if ( (!IS_NPC(ch) && !IS_SET(ch->act, PLR_HOLYLIGHT)
+	  && room_is_dark( ch->in_room )
+	  && !IS_AFFECTED(ch, AFF_INFRARED )
+	  //	  && get_eq_char(ch, WEAR_LIGHT) == NULL
 	  && !is_ghost(ch,600)))
     {
 	send_to_char( "It is pitch black ... \n\r", ch );
@@ -1714,8 +1719,8 @@ void do_look( CHAR_DATA *ch, char *argument )
     {
       if (IS_AFFECTED2(ch,AFF_TERRAIN)){
 	if (is_affected(ch, gsn_forest_mist)){
-	  if (ch->in_room->sector_type != SECT_AIR 
-	      && ch->in_room->sector_type != SECT_DESERT 
+	  if (ch->in_room->sector_type != SECT_AIR
+	      && ch->in_room->sector_type != SECT_DESERT
 	      && ch->in_room->sector_type != SECT_CITY
 	      && ch->in_room->sector_type != SECT_INSIDE){
 	    send_to_char("Shrouded in Mist\n\r",ch);
@@ -1738,7 +1743,7 @@ void do_look( CHAR_DATA *ch, char *argument )
 	  if (IS_IMMORTAL(ch) && (IS_NPC(ch) || IS_SET(ch->act,PLR_HOLYLIGHT)))
 	    sendf(ch, " [Room %d]",ch->in_room->vnum);
 	  send_to_char( "\n\r", ch );
-	  
+
 	  if ( arg1[0] == '\0' || ( !IS_NPC(ch) && !IS_SET(ch->comm, COMM_BRIEF) ) )
             {
 	      send_to_char( "  ",ch);
@@ -1752,19 +1757,19 @@ void do_look( CHAR_DATA *ch, char *argument )
 	  }
 	  if (!IS_NULLSTR(ch->in_room->area->prefix)){
 	    send_to_char(ch->in_room->area->prefix, ch);
-	  }	  
+	  }
 	  send_to_char( "\n\r", ch );
 	  show_tracks( ch, ch->in_room );
 	  if ( IS_NPC(ch) || (!IS_NPC(ch) && IS_SET(ch->act, PLR_AUTOEXIT)) )
 	    do_exits( ch, "auto" );
         }
-      show_room_armies(ch, &ch->in_room->room_armies );      
+      show_room_armies(ch, &ch->in_room->room_armies );
       show_list_to_char( ch->in_room->contents, ch, FALSE, FALSE );
       show_char_to_char( ch->in_room->people, ch );
-      
 
-      
-      if (IS_SET(ch->in_room->room_flags, ROOM_NEWBIES_ONLY) 
+
+
+      if (IS_SET(ch->in_room->room_flags, ROOM_NEWBIES_ONLY)
 	  && ch->level > 5 && !IS_IMMORTAL(ch)){
 	send_to_char("\n\r`&You are no longer allowed in here.  Recalling...\n\r``", ch);
 	spell_word_of_recall(skill_lookup("word of recall"), 60, ch, ch, 0);
@@ -1826,13 +1831,13 @@ void do_look( CHAR_DATA *ch, char *argument )
       /* check for sheath for justice */
       if (victim->in_room && IS_AREA(victim->in_room->area, AREA_LAWFUL)
 	  && victim->in_room->area->raid == NULL
-	  && ch->pCabal 
+	  && ch->pCabal
 	  && (IS_CABAL(ch->pCabal, CABAL_JUSTICE) || IS_HIGHBORN(ch))
 	  && !IS_WANTED(victim)
-	  && ( ((inst = get_eq_char(victim, WEAR_WIELD) ) != NULL 
+	  && ( ((inst = get_eq_char(victim, WEAR_WIELD) ) != NULL
 		&& inst->item_type != ITEM_INSTRUMENT
 		&& get_eq_char(victim, WEAR_SHEATH_L) == NULL)
-	       || (get_eq_char(victim, WEAR_SECONDARY) != NULL 
+	       || (get_eq_char(victim, WEAR_SECONDARY) != NULL
 		   && get_eq_char(victim, WEAR_SHEATH_R) == NULL))
 	  ){
 	set_crime(victim, NULL, victim->in_room->area, CRIME_SHEATH);
@@ -1848,7 +1853,7 @@ void do_look( CHAR_DATA *ch, char *argument )
       send_to_char( "\n\r", ch );
       return;
     }
-    
+
     pdesc = get_auto_extra_descr(arg3,ch->in_room->extra_descr, fAuto);
     if (pdesc != NULL)
       if (++count == number)
@@ -1863,7 +1868,7 @@ void do_look( CHAR_DATA *ch, char *argument )
       {
 	if ( !can_see_obj( ch, obj ) )
 	  continue;
-	
+
 	if ( (	pdesc = get_auto_extra_descr( arg3, obj->extra_descr, fAuto )) != NULL ) {
 	  if (++count == number) {
 	    page_to_char(pdesc,ch);
@@ -1931,7 +1936,7 @@ void do_look( CHAR_DATA *ch, char *argument )
 	  sendf(ch,"You only see %d of those here.\n\r",count);
 	return;
       }
-    
+
     if      ( !str_cmp( arg1, "n" ) || !str_cmp( arg1, "north" ) ) door = 0;
     else if ( !str_cmp( arg1, "e" ) || !str_cmp( arg1, "east"  ) ) door = 1;
     else if ( !str_cmp( arg1, "s" ) || !str_cmp( arg1, "south" ) ) door = 2;
@@ -2011,14 +2016,14 @@ void do_examine( CHAR_DATA *ch, char *argument )
       case ITEM_WEAPON:
 	/* get the minimum strength */
         weight = get_obj_weight_char(ch, obj);
-        if ((IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS) 
+        if ((IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS)
 	     && (ch->size < SIZE_LARGE || obj->value[0] == WEAPON_STAFF))
-	    || obj->value[0] == WEAPON_POLEARM 
+	    || obj->value[0] == WEAPON_POLEARM
 	    || obj->item_type == ITEM_INSTRUMENT )
 	  weight = 2 * weight / 3;
 	if (obj->item_type == ITEM_WEAPON
 	    && get_skill(ch, gsn_2h_handling) > 0
-	    && (IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS) 
+	    && (IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS)
 		|| is_affected(ch, gsn_double_grip)) )
 	  weight = 2 * weight / 3;
 	for (i = 0; i < 26; i++){
@@ -2027,7 +2032,7 @@ void do_examine( CHAR_DATA *ch, char *argument )
 	}
 	i = URANGE(1, i, 26);
 
-	sendf(ch, "After a brief examination you decide it looks much like a %s%s. (%d Str)\n\r", 
+	sendf(ch, "After a brief examination you decide it looks much like a %s%s. (%d Str)\n\r",
 		IS_WEAPON_STAT(obj, WEAPON_TWO_HANDS) ? "a two handed " : "",
 	      weapon_name(obj->value[0]),
 			  i );
@@ -2038,7 +2043,7 @@ void do_examine( CHAR_DATA *ch, char *argument )
 	  if ( (paf = affect_find(obj->affected, gen_hwep)) != NULL){
 	    sendf(ch, "The holy aura indicates it is at %d%s circle of Consecration.\n\r",
 		  paf->level,
-		  paf->level == 1 ? "st." : 	    
+		  paf->level == 1 ? "st." :
 		  paf->level == 2 ? "nd." :
 		  paf->level  == 3 ? "rd." :"th.");
 	  }
@@ -2046,7 +2051,7 @@ void do_examine( CHAR_DATA *ch, char *argument )
 	    {
 	      if (obj->contains){
 		act( "$p has the following affixed to it:", ch, obj, NULL, TO_CHAR );
-		show_list_to_char( obj->contains, ch, TRUE, TRUE );  
+		show_list_to_char( obj->contains, ch, TRUE, TRUE );
 	      }
 	      else
 	      act( "$p seems to have a space to attach something to it.", ch, obj, NULL, TO_CHAR );
@@ -2057,7 +2062,7 @@ void do_examine( CHAR_DATA *ch, char *argument )
 	    {
 	      if (obj->contains){
 		act( "$p has the following affixed to it:", ch, obj, NULL, TO_CHAR );
-		show_list_to_char( obj->contains, ch, TRUE, TRUE );  
+		show_list_to_char( obj->contains, ch, TRUE, TRUE );
 	      }
 	      else
 		act( "$p seems to have a space to attach something to it.", ch, obj, NULL, TO_CHAR );
@@ -2080,7 +2085,7 @@ void do_examine( CHAR_DATA *ch, char *argument )
 	else if (IS_SOC_STAT(obj, SOCKET_WEAPON))
 	  act("You think you could attach $p to a proper weapon.",
 	      ch, obj, NULL, TO_CHAR);
-	  else 
+	  else
 	    act("You think you could attach $p to a proper weapon.",
 		ch, obj, NULL, TO_CHAR);
 	break;
@@ -2094,11 +2099,11 @@ void do_examine( CHAR_DATA *ch, char *argument )
 /* mention of signature */
       if (IS_SET(obj->wear_flags, ITEM_HAS_OWNER)
 	  && (paf = affect_find(obj->affected, gen_has_owner)) != NULL
-	  && paf->has_string 
+	  && paf->has_string
 	  && !IS_NULLSTR(paf->string)){
 	sendf(ch, "A single signature graces its surface: \"%s\"", paf->string);
       }
-      act("\n\rYou judge $P to be in $tcondition.", ch, 
+      act("\n\rYou judge $P to be in $tcondition.", ch,
 	  get_condition(get_curr_cond(obj), FALSE), obj, TO_CHAR);
       if (obj->pCabal || obj->race || obj->class >= 0)
 	sendf(ch, "You have a feeling only a %s%s%s%s%s%scan use it.\n\r",
@@ -2135,7 +2140,7 @@ void do_promptexit(CHAR_DATA* ch, char* str){
   int door = 0;
   char buf[MIL];
   bool found = FALSE;
-  
+
   sprintf(buf,"[Exits:");
   if ( !check_blind( ch ) && !is_affected(ch,gsn_bat_form)){
     sprintf(str,"[Exits: --- ]");
@@ -2144,8 +2149,8 @@ void do_promptexit(CHAR_DATA* ch, char* str){
   else if (IS_AFFECTED2(ch,AFF_TERRAIN))
     {
       if (is_affected(ch, gsn_forest_mist)){
-	if (ch->in_room->sector_type != SECT_AIR 
-	    && ch->in_room->sector_type != SECT_DESERT 
+	if (ch->in_room->sector_type != SECT_AIR
+	    && ch->in_room->sector_type != SECT_DESERT
 	    && ch->in_room->sector_type != SECT_CITY
 	    && ch->in_room->sector_type != SECT_INSIDE){
 	  sprintf(str,"[Exits: ??? ]");
@@ -2163,7 +2168,7 @@ void do_promptexit(CHAR_DATA* ch, char* str){
   for ( door = 0; door <= 5; door++ )
     {
       bool paran = FALSE;
-      if ( (pexit = ch->in_room->exit[door] ) == NULL 
+      if ( (pexit = ch->in_room->exit[door] ) == NULL
 	   || pexit->to_room == NULL
 	   || !can_see_room(ch,pexit->to_room)
 	   || (!IS_SET(pexit->exit_info, EX_ISDOOR) && IS_SET(pexit->exit_info, EX_SECRET) && !IS_IMMORTAL( ch ))
@@ -2197,14 +2202,14 @@ void do_exits( CHAR_DATA *ch, char *argument )
     bool found = FALSE, fAuto = !str_cmp( argument, "auto" );
     int door;
     if ( !check_blind( ch ) && !is_affected(ch,gsn_bat_form)){
-      send_to_char( "You can't see a thing!\n\r", ch ); 
+      send_to_char( "You can't see a thing!\n\r", ch );
       return;
     }
     if (IS_AFFECTED2(ch,AFF_TERRAIN))
     {
       if (is_affected(ch, gsn_forest_mist)){
-	if (ch->in_room->sector_type != SECT_AIR 
-	    && ch->in_room->sector_type != SECT_DESERT 
+	if (ch->in_room->sector_type != SECT_AIR
+	    && ch->in_room->sector_type != SECT_DESERT
 	    && ch->in_room->sector_type != SECT_CITY
 	    && ch->in_room->sector_type != SECT_INSIDE){
 	  send_to_char("You can't tell where the exits are.\n\r",ch);
@@ -2226,7 +2231,7 @@ void do_exits( CHAR_DATA *ch, char *argument )
     for ( door = 0; door <= 5; door++ )
     {
 	bool paran = FALSE;
-	if ( (pexit = ch->in_room->exit[door] ) == NULL 
+	if ( (pexit = ch->in_room->exit[door] ) == NULL
 	     || pexit->to_room == NULL
 	     || !can_see_room(ch,pexit->to_room)
 	     || (!IS_SET(pexit->exit_info, EX_ISDOOR) && IS_SET(pexit->exit_info, EX_SECRET) && !IS_IMMORTAL( ch ))
@@ -2248,12 +2253,12 @@ void do_exits( CHAR_DATA *ch, char *argument )
 	  }
 	  else{
 	    if (paran)
-	      sprintf( buf + strlen(buf), "%s(%-5s) - %s", 
+	      sprintf( buf + strlen(buf), "%s(%-5s) - %s",
 		       can_see_trap(ch, pexit->traps) ? "`!+``" : "",
 		       capitalize( dir_name[door] ),
 		       room_is_dark(ch->in_room) ? "Too dark to tell." : pexit->to_room->name);
 	    else
-	      sprintf( buf + strlen(buf), " %s%-5s  - %s", 
+	      sprintf( buf + strlen(buf), " %s%-5s  - %s",
 		       can_see_trap(ch, pexit->traps) ? "`!+``" : "",
 		       capitalize( dir_name[door] ),
 		       room_is_dark(ch->in_room) ? "Too dark to tell." : pexit->to_room->name);
@@ -2280,7 +2285,7 @@ void do_worth( CHAR_DATA *ch, char *argument )
     }
     sendf(ch, "You have %ld gold, and %ld experience (%ld exp to level).\n\r", ch->gold, ch->exp, total_exp(ch) - ch->exp);
     if ( !IS_NPC(ch) && ch->pCabal)
-      sendf(ch, "You currently possess %d %s%s for your service to %s.\n\r", 
+      sendf(ch, "You currently possess %d %s%s for your service to %s.\n\r",
 	    GET_CP(ch),
 	    ch->pCabal->currency,
 	    GET_CP(ch) == 1 ? "" : "s",
@@ -2296,7 +2301,7 @@ void do_worth( CHAR_DATA *ch, char *argument )
       }
 	/* calculate ticks per cp */
       rate /= CPTS;
-      
+
       /* check if we gain more then 1 cp / tick */
       if (rate < 1){
 	rate = 1 / rate;
@@ -2316,7 +2321,7 @@ void do_worth( CHAR_DATA *ch, char *argument )
 char* get_stat_string( CHAR_DATA* ch, int stat ){
   static char output[32];
   char* stat_str, *color;
-  
+
   output[0] = 0;
 
   if (ch == NULL)
@@ -2337,7 +2342,7 @@ char* get_stat_string( CHAR_DATA* ch, int stat ){
     int abs_stat =  get_abs_stat( ch, stat );
     int cur_stat =  get_curr_stat(ch, stat);
     int perm_stat =  UMIN(get_max_stat(ch, stat), ch->perm_stat[stat]);
-    
+
 
     if (abs_stat > cur_stat){
       sprintf(over_string, "^%1.1d", abs_stat - cur_stat);
@@ -2354,7 +2359,7 @@ char* get_stat_string( CHAR_DATA* ch, int stat ){
 
     sprintf( output, "%3.3s: %2.2d(%s%-2.2d%s)%-2.2s",
 	     stat_str,
-	     perm_stat, 
+	     perm_stat,
 	     color,
 	     cur_stat,
 	     abs_stat != perm_stat ? "``" : "",
@@ -2376,7 +2381,7 @@ void add_score_line( BUFFER* buffer, char* str ){
 }
 
 /* CURRENT LAYOUT
-1 +  15     +   2 +                    44                     + 1 = 63 chars 
+1 +  15     +   2 +                    44                     + 1 = 63 chars
 /---------------\/----------------------------------------------\
 | Voytek        || The Hand of Pandemonium [MASQUE]             |
 \---------------/\----------------------------------------------/
@@ -2399,7 +2404,7 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
   AFFECT_DATA* paf;
   BUFFER* buffer;
   char buf[MIL], buf1[MIL], buf2[MIL], buf3[MIL], buf4[MIL];
-  int i, scroll;  
+  int i, scroll;
 
   if (is_affected(victim,gsn_linked_mind))
     return;
@@ -2412,8 +2417,8 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
 /* LINE 2: name(13), title/cabal rank and cabal(44) */
   sprintf(buf1, "%-13s", victim->name );
   if (victim->pCabal){
-    sprintf(buf2, "%s of %s%s", 
-	    get_crank(victim), 
+    sprintf(buf2, "%s of %s%s",
+	    get_crank(victim),
 	    victim->pCabal->who_name,
 	    IS_MASQUE(victim) ? " [MASQUE]" : "");
     sprintf(buf3, "%-48.48s", buf2);
@@ -2428,7 +2433,7 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
   add_buf(buffer, buf );
 
 /* LINE 3: */
-  add_buf(buffer, 
+  add_buf(buffer,
   "\\---------------/\\----------------------------------------------/\n\r");
 
 /* LINE 4: Strength (13)  Level[Sex] (20)  Age (22) */
@@ -2439,7 +2444,7 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
   }
   sprintf( buf1, "%s", get_stat_string(victim, STAT_STR));
   sprintf( buf2, "Level: %2d Sex: %s", victim->level, buf4 );
-  sprintf( buf3, "Age  : %2d(%dh)", 
+  sprintf( buf3, "Age  : %2d(%dh)",
 	   get_age(victim),
 	   ( victim->played + (int) (mud_data.current_time - victim->logon) ) / 3600);
   sprintf( buf, "| %s || %-20.20s  %-22.22s |\n\r",
@@ -2449,10 +2454,10 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
 /* LINE 5: Int (13) Class (20)  Ethos (22) */
   //sex
   sprintf( buf1, "%s", get_stat_string(victim, STAT_INT));
-  sprintf( buf2, "Class: %s", 
+  sprintf( buf2, "Class: %s",
 	   IS_NPC(victim) ? "mobile" : class_table[victim->class].name);
 
-  sprintf( buf3, "Ethos: %s", 
+  sprintf( buf3, "Ethos: %s",
 	   IS_NPC(victim) ? "None" : ethos_table[victim->pcdata->ethos].name);
   sprintf( buf, "| %s || %-20.20s  %-22.22s |\n\r",
 	   buf1, buf2, buf3);
@@ -2464,7 +2469,7 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
   if (is_affected(victim, gen_unlife))
     sprintf(buf2, "Race : %s", "undead");
   else if (IS_QRACE(victim))
-    sprintf(buf2, "Race : %s(%s)", 
+    sprintf(buf2, "Race : %s(%s)",
 	    victim->pcdata->race, race_table[victim->race].name);
   else
     sprintf(buf2, "Race : %s", race_table[victim->race].name);
@@ -2483,7 +2488,7 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
 /* LINE 7: Dex (13) Hp (20) Exp (22)  */
   sprintf( buf1, "%s", get_stat_string(victim, STAT_DEX));
   sprintf( buf2, "Hp   : %4d/%-4d", victim->hit, victim->max_hit );
-  sprintf( buf3, "Exp  : %ld/%-6ld", 
+  sprintf( buf3, "Exp  : %ld/%-6ld",
 	   total_exp(victim) - victim->exp, victim->exp);
   sprintf( buf, "| %s || %-20.20s  %-22.22s |\n\r",
 	   buf1, buf2, buf3);
@@ -2499,7 +2504,7 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
   }
   else
     buf3[0] = 0;
-  
+
   sprintf( buf, "| %s || %-20.20s  %-22.22s |\n\r",
 	   buf1, buf2, buf3);
   add_buf( buffer, buf );
@@ -2514,7 +2519,7 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
   add_buf( buffer, buf );
 
 /* LINE 10 */
-  add_buf( buffer, 
+  add_buf( buffer,
   "/---------------/\\------------------/\\--------------------------\\\n\r");
 
 /* LINE 11 Deity (16)*/
@@ -2528,7 +2533,7 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
   if (IS_NPC(victim))
     sprintf(buf3, "Faith : None");
   else
-    sprintf(buf3, "Faith : %s", 
+    sprintf(buf3, "Faith : %s",
 	    deity_table[victim->pcdata->way].way);
 
   sprintf(buf, "| %-13.13s || %-16.16s || %-24.24s |\n\r",
@@ -2538,24 +2543,24 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
 /* LINE 13: AC-Pierce (13) Svs-Afflictive (17) Weight (24) */
   sprintf(buf1, "Pierce: %5d", GET_AC(victim, AC_PIERCE ));
   sprintf(buf2, "Afflictive : %2d", victim->savingaffl );
-  sprintf(buf3, "Weight: %d/%-3d", 
-	  get_carry_weight(victim) / 10, 
+  sprintf(buf3, "Weight: %d/%-3d",
+	  get_carry_weight(victim) / 10,
 	  can_carry_w(victim) /10 );
   sprintf(buf, "| %-13.13s || %-16.16s || %-24.24s |\n\r",
 	  buf1, buf2, buf3);
   add_buf( buffer, buf );
 
-/* LINE 14: AC-Blunt (13) Svs-Maledictive (17) Items (24) */  
+/* LINE 14: AC-Blunt (13) Svs-Maledictive (17) Items (24) */
   sprintf(buf1, "Blunt : %5d", GET_AC(victim, AC_BASH ));
   sprintf(buf2, "Maledictive: %2d", victim->savingmaled );
-  sprintf(buf3, "Items : %d/%-3d", 
-	  victim->carry_number, 
+  sprintf(buf3, "Items : %d/%-3d",
+	  victim->carry_number,
 	  can_carry_n(victim));
   sprintf(buf, "| %-13.13s || %-16.16s || %-24.24s |\n\r",
 	  buf1, buf2, buf3);
   add_buf( buffer, buf );
 
-/* LINE 15: AC-Magic (13) Svs-Mental (17) Prac (13) Train (10) */  
+/* LINE 15: AC-Magic (13) Svs-Mental (17) Prac (13) Train (10) */
   sprintf(buf1, "Magic : %5d", GET_AC(victim, AC_EXOTIC ));
   sprintf(buf2, "Mental     : %2d", victim->savingmental );
   sprintf(buf3, "Prac  : %d", victim->practice );
@@ -2565,25 +2570,25 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
   add_buf( buffer, buf );
 
 /* LINE 16: Weapon Pos(13) Gold (13) Cp (10) */
-  if (!IS_NPC(victim) 
+  if (!IS_NPC(victim)
       && (get_skill(victim, gsn_2h_tactics) || get_skill(victim, gsn_battlestance))){
     sprintf(buf3, "Weapon: %s",
 	    victim->pcdata->wep_pos == WEPPOS_HIGH ? "high" :
-	    victim->pcdata->wep_pos == WEPPOS_LOW ? "low" : 
+	    victim->pcdata->wep_pos == WEPPOS_LOW ? "low" :
 	    victim->pcdata->wep_pos == WEPPOS_NORMAL? "norm" : "unkown");
   }
   else
     buf3[0] = 0;
-  if (!IS_NPC(victim) 
+  if (!IS_NPC(victim)
       && get_skill(victim, gsn_footwork)){
     sprintf(buf4, "Pos: %s",
 	    victim->pcdata->bat_pos == BATPOS_LEFT ? "left" :
-	    victim->pcdata->bat_pos == BATPOS_RIGHT ? "right" : 
+	    victim->pcdata->bat_pos == BATPOS_RIGHT ? "right" :
 	    victim->pcdata->bat_pos == BATPOS_MIDDLE ? "middle" : "unkown");
   }
   else
     buf4[0] = 0;
-  sprintf(buf1, "Gold  : %ld%s", 
+  sprintf(buf1, "Gold  : %ld%s",
 	  victim->gold > 9999 ? victim->gold / 1000 : victim->gold,
 	  victim->gold > 9999 ? "k" : "" );
   if (victim->pCabal){
@@ -2600,7 +2605,7 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
   add_buf( buffer, buf );
 
 /* LINE 17 */
-  add_buf( buffer, 
+  add_buf( buffer,
   "\\---------------\\/------------------\\/--------------------------/\n\r");
 
   if (!IS_NULLSTR(argument)){
@@ -2615,17 +2620,17 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
 /* LINE 18: Condition */
   if (victim->pcdata->dall < 10  )
     sprintf(buf1, "You are in the prime of your health.");
-  else if (victim->pcdata->dall < 20  )  
+  else if (victim->pcdata->dall < 20  )
     sprintf(buf1, "You have a few cuts and bruises.");
-  else if (victim->pcdata->dall < 30  ) 
+  else if (victim->pcdata->dall < 30  )
     sprintf(buf1, "You are a bit worn out from your wounds.");
-  else if (victim->pcdata->dall < 40  ) 
+  else if (victim->pcdata->dall < 40  )
     sprintf(buf1, "You are covered with deep scars and lacerations.");
   else if (victim->pcdata->dall < 50  )
     sprintf(buf1, "You have sustained mortal injuries in your travels.");
   else if (victim->pcdata->dall < 60  )
     sprintf(buf1, "Death is knocking at your door.");
-  else				    
+  else
     sprintf(buf1, "The next death will send you beyond the abyss.");
 
   sprintf( buf, "/ Condition: %-50.50s \\\n\r", buf1 );
@@ -2678,18 +2683,18 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
       sprintf( buf, "%d more hours must pass before a cabal promotion.", diff);
       add_score_line( buffer, buf );
     }
-  }  
+  }
 
   /* alias */
-  if (!IS_NPC(ch) && victim->pcdata->alias 
+  if (!IS_NPC(ch) && victim->pcdata->alias
       && victim->pcdata->alias[0] != '\0'){
     sprintf( buf, "Alias: The last thing you see is %s.", victim->pcdata->alias);
     add_score_line( buffer, buf );
   }
 
   /* Hunger, Thirst, and Drunkiness */
-  if ( !IS_NPC(victim)){ 
-    if (is_affected(victim, gsn_drunken) 
+  if ( !IS_NPC(victim)){
+    if (is_affected(victim, gsn_drunken)
 	|| victim->pcdata->condition[COND_DRUNK]   > 10 )
       add_score_line(buffer, "You are drunk." );
     if ( victim->pcdata->condition[COND_THIRST] ==  0 )
@@ -2698,7 +2703,7 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
       add_score_line(buffer,"You are hungry." );
     if ( is_ghost( victim, 300 ) )
       add_score_line(buffer, "You are a ghost.");
-    
+
     /* SERVANTS */
     if (victim->pcdata->familiar != NULL){
       sprintf(buf, "Your servant task: %s", special_bit_name(victim->pcdata->familiar->special));
@@ -2709,31 +2714,31 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
       sprintf(buf, "You are on Crusade against %s", show_crusade( paf ));
       add_score_line( buffer, buf );
     }
-    
+
 /* CABAL AREA OWNERSHIPS */
     /* CABAL AREA EFFECTS */
     if (victim->in_room && victim->in_room->area->pCabal ){
-      if (!str_cmp(victim->in_room->area->pCabal->name, "Knight") 
+      if (!str_cmp(victim->in_room->area->pCabal->name, "Knight")
 	  && IS_GOOD(ch))
-	sprintf(buf, "[%s] forces are aiding your healing.", 
+	sprintf(buf, "[%s] forces are aiding your healing.",
 		victim->in_room->area->pCabal->who_name );
       else if (!str_cmp(victim->in_room->area->pCabal->name, "Savant")
-	       && (class_table[victim->class].fMana 
+	       && (class_table[victim->class].fMana
 		   || class_table[victim->class].sMana ))
-	sprintf( buf, "[%s] forces are aiding your mind.", 
+	sprintf( buf, "[%s] forces are aiding your mind.",
 		 victim->in_room->area->pCabal->who_name );
       else if (!str_cmp(victim->in_room->area->pCabal->name, "Warmaster")
-	       && !class_table[victim->class].fMana 
+	       && !class_table[victim->class].fMana
 	       && !class_table[victim->class].sMana)
-	sprintf( buf, "[%s] forces are aiding your feet and stamina.", 
+	sprintf( buf, "[%s] forces are aiding your feet and stamina.",
 		 victim->in_room->area->pCabal->who_name );
-      else if (!str_cmp(victim->in_room->area->pCabal->name, "Nexus") 
+      else if (!str_cmp(victim->in_room->area->pCabal->name, "Nexus")
 	       && IS_EVIL(victim))
-	sprintf(buf, "[%s] forces are aiding your violent instincts.", 
+	sprintf(buf, "[%s] forces are aiding your violent instincts.",
 		victim->in_room->area->pCabal->who_name );
       else
 	buf[0] = 0;
-      
+
       if (buf[0] != 0){
 	sprintf(buf1, "| %-65.65s |\n\r", buf );
 	add_buf( buffer, buf1 );
@@ -2748,7 +2753,7 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
     }
 /* show chaos orb */
     if ( (paf = affect_find(victim->affected, gen_orb)) != NULL){
-      sprintf(buf1, "Your %s is at level %d", 
+      sprintf(buf1, "Your %s is at level %d",
 	      effect_table[GN_POS(paf->type)].name,
 	      paf->modifier / effect_table[GN_POS(paf->type)].value3[0] );
       add_score_line( buffer, buf1 );
@@ -2759,7 +2764,7 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
       if (pTrap == NULL)
 	continue;
       if (pTrap->on_obj){
-	sprintf(buf1, "You've set %s on %s [%d]", 
+	sprintf(buf1, "You've set %s on %s [%d]",
 		pTrap->name,
 		pTrap->on_obj->short_descr,
 		pTrap->duration);
@@ -2784,10 +2789,10 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
     }
   }
 /* END */
-  sprintf( buf, 
+  sprintf( buf,
    "\\---------------------------------------------------------------/\n\r");
   add_buf( buffer, buf );
-  
+
   scroll = ch->lines;
   ch->lines = 0;
   page_to_char(buf_string(buffer),ch);
@@ -2797,13 +2802,13 @@ void new_score( CHAR_DATA* ch,  CHAR_DATA* victim, char* argument ){
 
 void do_crimes( CHAR_DATA *ch, char *argument ){
   show_crimes(ch, ch, FALSE, FALSE );
-}  
+}
 
 void do_score( CHAR_DATA *ch, char *argument ){
 
   int i;
   AFFECT_DATA* paf;
-  
+
   if (is_affected(ch,gsn_linked_mind))
     return;
   if (IS_GAME(ch, GAME_NEWSCORE )){
@@ -2812,8 +2817,8 @@ void do_score( CHAR_DATA *ch, char *argument ){
   }
   sendf( ch, "You are %s",  ch->name);
   if (!IS_NPC(ch))
-    sendf(ch, ", loyal believer in way of %s and powers of %s.", 
-	  deity_table[ch->pcdata->way].way, 
+    sendf(ch, ", loyal believer in way of %s and powers of %s.",
+	  deity_table[ch->pcdata->way].way,
 	  path_table[deity_table[ch->pcdata->way].path].name);
 
   sendf(ch, "\n\rLevel %d, %d years old (%d hours).\n\r", ch->level, get_age(ch),
@@ -2823,15 +2828,15 @@ void do_score( CHAR_DATA *ch, char *argument ){
   if (!IS_NPC(ch) && ch->pcdata->alias && ch->pcdata->alias[0] != '\0')
     sendf( ch, "Alias: The last thing you see is %s.\n\r", ch->pcdata->alias);
   sendf(ch, "Race: %s %s%s%s Sex: %s  Class: %s",
-	IS_QRACE(ch) ? ch->pcdata->race :  
-	race_table[is_affected(ch, gen_unlife) ? 
-		  race_lookup("undead") : ch->race].name, 
+	IS_QRACE(ch) ? ch->pcdata->race :
+	race_table[is_affected(ch, gen_unlife) ?
+		  race_lookup("undead") : ch->race].name,
 	IS_QRACE(ch) ? "(" : "",
-	IS_QRACE(ch) ? race_table[is_affected(ch, gen_unlife) ? 
+	IS_QRACE(ch) ? race_table[is_affected(ch, gen_unlife) ?
 				 race_lookup("undead") : ch->race].name :
 	"",
 	IS_QRACE(ch) ? ") " : "",
-	ch->sex == 0 
+	ch->sex == 0
 	? "sexless" : ch->sex == 1 ? "male" : "female",
 	IS_NPC(ch) ? "mobile" : class_table[ch->class].name);
 
@@ -2845,10 +2850,10 @@ void do_score( CHAR_DATA *ch, char *argument ){
 	IS_NPC(ch) ? "None" : ethos_table[ch->pcdata->ethos].name);
   sendf(ch, "\n\r");
   if ( !IS_NPC(ch) && ch->pCabal){
-    sendf( ch, "%s of [%s] with %d %s%s to your name.\n\r", 
+    sendf( ch, "%s of [%s] with %d %s%s to your name.\n\r",
 	   get_crank( ch ),
 	   ch->pCabal->who_name,
-	   GET_CP(ch), 
+	   GET_CP(ch),
 	   ch->pCabal->currency,
 	   GET_CP(ch) == 1 ? "" : "s");
   }
@@ -2893,11 +2898,11 @@ void do_score( CHAR_DATA *ch, char *argument ){
       else if (luck < 24)		send_to_char("You feel very lucky.\n\r",ch);
       else 				send_to_char("Lady Luck is going your way.\n\r",ch);
     }
-  
+
   /* Show Avatar Level description. */
   if (!IS_NPC(ch) && IS_AVATAR(ch))
     act(get_avatar_desc(ch), ch, NULL, NULL, TO_CHAR);
-  
+
   if (!IS_NPC(ch) && ch->level < LEVEL_HERO)
     sendf (ch, "You need %ld exp to level.\n\r",total_exp(ch) - ch->exp);
   sendf( ch, "Wimpy set to %d hit points.\n\r", ch->wimpy );
@@ -2988,11 +2993,11 @@ void do_score( CHAR_DATA *ch, char *argument ){
     }
     if ( ch->level >= 15 )
         sendf( ch, "Hitroll: %d  Damroll: %d.\n\r",GET_HITROLL(ch),GET_DAMROLL(ch));
-    if (!IS_NPC(ch) 
+    if (!IS_NPC(ch)
 	&& (get_skill(ch, gsn_2h_tactics) && has_twohanded(ch)) ){
       sendf(ch, "Your weapon is held %s.\n\r",
 	    ch->pcdata->wep_pos == WEPPOS_HIGH ? "high" :
-	    ch->pcdata->wep_pos == WEPPOS_LOW ? "low" : 
+	    ch->pcdata->wep_pos == WEPPOS_LOW ? "low" :
 	    ch->pcdata->wep_pos == WEPPOS_NORMAL? "normal" : "unkown");
     }
     if ( (paf = affect_find(ch->affected, gen_crusade)) != NULL){
@@ -3011,7 +3016,7 @@ void do_score( CHAR_DATA *ch, char *argument ){
       else if (!str_cmp(ch->in_room->area->pCabal->name, "Nexus") && IS_EVIL(ch))
 	sendf( ch, "[%s] forces are aiding your darker instincts.\n\r", ch->in_room->area->pCabal->who_name );
     }
-	
+
     if ((ch->class == gcn_monk || ch->class == gcn_blademaster) && !IS_NPC(ch))
     {
 	OBJ_DATA *obj;
@@ -3033,7 +3038,7 @@ void do_score( CHAR_DATA *ch, char *argument ){
     sendf(ch, "%s\n\r", abduct_info(ch));
 /* show chaos orb */
     if ( (paf = affect_find(ch->affected, gen_orb)) != NULL){
-      sendf(ch, "Your %s is at level %d\n\r", 
+      sendf(ch, "Your %s is at level %d\n\r",
 	    effect_table[GN_POS(paf->type)].name,
 	    paf->modifier / effect_table[GN_POS(paf->type)].value3[0] );
     }
@@ -3045,7 +3050,7 @@ void do_score( CHAR_DATA *ch, char *argument ){
       if (pTrap == NULL)
 	continue;
       if (pTrap->on_obj)
-	sendf(ch, "You've set %s on %s [%d]\n\r", 
+	sendf(ch, "You've set %s on %s [%d]\n\r",
 	      pTrap->name,
 	      pTrap->on_obj->short_descr,
 	      pTrap->duration);
@@ -3067,7 +3072,7 @@ void show_affects(CHAR_DATA* ch, CHAR_DATA* victim ){
   AFFECT_DATA *paf, *paf_last = NULL;
   char buf[MSL];
   bool fAffected = FALSE;
-  
+
 //Check if there is anythhing to show.
   if ( victim->affected != NULL || victim->affected2 != NULL)
     {
@@ -3079,7 +3084,7 @@ void show_affects(CHAR_DATA* ch, CHAR_DATA* victim ){
 	    if (paf->where != TO_NONE)
 	      {fAffected = TRUE;break;}
     }//end show check.
-  
+
   if (fAffected)
     {
       if (ch == victim)
@@ -3093,11 +3098,11 @@ void show_affects(CHAR_DATA* ch, CHAR_DATA* victim ){
 //if paf->where = TO_NONE we do not show it eithter.
 //Viri 04-18 added GN_POS() for poper lookups with gen's
 //also if APPLY_NONE is set we only show the name and duration.
-	  
-	  if (paf->type == gsn_cutpurse 
-	      || paf->type == gsn_noquit 
+
+	  if (paf->type == gsn_cutpurse
+	      || paf->type == gsn_noquit
 	      || paf->type == gsn_sneak
-	      || !paf->valid 
+	      || !paf->valid
 	      || paf->where == TO_NONE)
 	    continue;
 	  if (paf_last != NULL && paf->type == paf_last->type)
@@ -3133,20 +3138,20 @@ void show_affects(CHAR_DATA* ch, CHAR_DATA* victim ){
 	      sprintf( buf, "Spell: %-15s", effect_table[GN_POS(paf->type)].name );
 	    else
 	      sprintf( buf, "Spell: %-15s", skill_table[paf->type].name );
-	  
+
 	  send_to_char( buf, ch );
 	  if ( ch->level >= 20 )
 	    {
 //IF APPLY NONE THEN WE DONT SHOW JUNK
 	      if (paf->location != APPLY_NONE) {
 		sendf( ch, ": modifies %s by %d ",
-		       paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location ), 
+		       paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location ),
 		       paf->modifier);
 	      }
 	      else {
                 sendf( ch, ": ");
 	      }
-	      
+
 	      if ( paf->duration == -1 )
 		sendf( ch, "permanently" );
 	      else
@@ -3223,15 +3228,15 @@ void show_custom_affects( CHAR_DATA* ch, char* argument ){
 
   /* first run through all the pafs we have and fill in the data */
   for (paf = ch->affected; paf; paf = paf->next ){
-    if (paf->type == gsn_cutpurse 
-	|| paf->type == gsn_noquit 
+    if (paf->type == gsn_cutpurse
+	|| paf->type == gsn_noquit
 	|| paf->type == gsn_sneak
-	|| !paf->valid 
+	|| !paf->valid
 	|| paf->where == TO_NONE)
-      continue;    
+      continue;
 
     //get the lowest duration only and turn it on
-    if (!data_table[paf->type].fOn 
+    if (!data_table[paf->type].fOn
 	|| paf->duration < data_table[paf->type].dur){
       data_table[paf->type].dur = paf->duration;
     }
@@ -3245,7 +3250,7 @@ void show_custom_affects( CHAR_DATA* ch, char* argument ){
 
   if (!fFull){
     for (i = 0; i < MAX_AFF_DISPLAY; i++){
-      if (IS_NULLSTR(cus_aff[i].name) 
+      if (IS_NULLSTR(cus_aff[i].name)
 	|| cus_aff[i].gsn < 1
 	  || cus_aff[i].gsn > (MAX_SKILL + MAX_EFFECTS))
 	continue;
@@ -3254,7 +3259,7 @@ void show_custom_affects( CHAR_DATA* ch, char* argument ){
       //designation
       sprintf( buf, "%-3.3s ", cus_aff[i].name );
       strcat( custom2, buf );
-      
+
       //duration
       if (!data_table[cus_aff[i].gsn].fOn)
 	sprintf(buf, " %c  ", '-' );
@@ -3270,7 +3275,7 @@ void show_custom_affects( CHAR_DATA* ch, char* argument ){
       else
 	sprintf(buf, "%-3d ", data_table[cus_aff[i].gsn].dur);
       strcat(custom1, buf);
-      
+
     //remove from data table
       data_table[cus_aff[i].gsn].fOn = FALSE;
       data_table[cus_aff[i].gsn].dur = 0;
@@ -3327,18 +3332,18 @@ void show_custom_affects( CHAR_DATA* ch, char* argument ){
 
     if (paf->location != APPLY_NONE) {
       sendf( ch, ": modifies %s by %d ",
-	     paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location ), 
+	     paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location ),
 	     paf->modifier);
     }
     else {
       sendf( ch, ": ");
     }
-	      
+
     if ( paf->duration == -1 )
       sendf( ch, "permanently" );
     else
       sendf( ch, "for %d hours", paf->duration );
-  
+
     send_to_char( "\n\r", ch );
     paf_last = paf;
   }
@@ -3361,7 +3366,7 @@ void show_custom_affects( CHAR_DATA* ch, char* argument ){
       sendf( ch, "permanently" );
     else
       sendf( ch, "for %d hours", paf->duration );
-  
+
     send_to_char( "\n\r", ch );
     paf_last = paf;
   }
@@ -3622,7 +3627,7 @@ void do_help( CHAR_DATA *ch, char *argument )
 	  found = TRUE;
 	  if (ch->desc != NULL && ch->desc->connected != CON_PLAYING)
 	    break;
-	  
+
 	}
     }
     if (!found)
@@ -3693,7 +3698,9 @@ void do_whois (CHAR_DATA *ch, char *argument) {
     int race_undead  = race_lookup("undead");
     int race_human  = race_lookup("human");
 
-
+    /* Useless conditional */
+    if( vch != NULL )
+        return;
 
     one_argument(argument,arg);
     if (arg[0] == '\0')
@@ -3712,7 +3719,7 @@ void do_whois (CHAR_DATA *ch, char *argument) {
         if ( IS_AFFECTED2(wch,AFF_SHADOWFORM) && !IS_IMMORTAL(ch) && wch != ch)
             continue;
         if ( IS_AFFECTED2(wch,AFF_TREEFORM) && !IS_IMMORTAL(ch) && wch != ch)
-            continue; 
+            continue;
 	if ( IS_SET(wch->act2,PLR_NOWHO) )
 	    continue;
 	if (!str_prefix(arg,wch->name))
@@ -3738,7 +3745,7 @@ void do_whois (CHAR_DATA *ch, char *argument) {
 	      race_str = (char*)pc_race_table[race].who_name;
 	    else
 	      race_str = "Unknw";
-	    
+
 	    switch(wch->level)
 	    {
 		case MAX_LEVEL - 0 : class = "IMP";     break;
@@ -3753,26 +3760,26 @@ void do_whois (CHAR_DATA *ch, char *argument) {
 		case MAX_LEVEL - 9 : class = "HER";	break;
 	    }
 	    nMatch++;
-            if (IS_IMMORTAL(ch) || IS_IMMORTAL(wch) 
+            if (IS_IMMORTAL(ch) || IS_IMMORTAL(wch)
 		|| IS_MASTER(wch) || ch == wch)
 	      sprintf( buf, "[%2d %5s %s%s%s %s] ",
-		       wch->level, 
+		       wch->level,
 		       race_str,
 		       IS_QRACE(wch) ? "(" : "",
 		       IS_QRACE(wch) ? pc_race_table[race].who_name : "",
 		       IS_QRACE(wch) ? ")" : "",
 		       class);
             else{
-	      sprintf( buf, "[   %5s %s%s%s] ", 
+	      sprintf( buf, "[   %5s %s%s%s] ",
 		       race_str,
 		       IS_QRACE(wch) ? "(" : "",
 		       IS_QRACE(wch) ? pc_race_table[race].who_name : "",
 		       IS_QRACE(wch) ? ")" : "");
 	    }//end ELSE
             add_buf(output,buf);
-	    if (wch->pCabal 
+	    if (wch->pCabal
 		&& (!IS_IMMORTAL(wch) || IS_IMMORTAL(ch))
-		&& ( IS_IMMORTAL(ch) 
+		&& ( IS_IMMORTAL(ch)
 		     || IS_GAME(wch, GAME_SHOW_CABAL)
 		     || is_same_cabal(ch->pCabal, wch->pCabal)) ){
 	      sprintf( buf, "[%s %s(%s)] ", wch->pCabal->who_name,
@@ -3802,11 +3809,11 @@ void do_whois (CHAR_DATA *ch, char *argument) {
 		add_buf(output,buf);
 	    }
 	    if (HAS_CLAN(wch) && (GET_CLAN(wch) == GET_CLAN(ch) || IS_IMMORTAL(ch)) ){
-	      sprintf( buf, "`3(`8%s [%s]`3)`` ", 
+	      sprintf( buf, "`3(`8%s [%s]`3)`` ",
 		       GetClanName( GET_CLAN(wch)),
 		       clanr_table[wch->pcdata->clan_rank][0]);
 	      add_buf(output,buf);
-	    } 
+	    }
 	    if (IS_IMMORTAL(ch) && IS_GAME(wch, GAME_PKWARN))
 	    {
 		sprintf( buf, "[`!W``] ");
@@ -3822,8 +3829,8 @@ void do_whois (CHAR_DATA *ch, char *argument) {
 	      sprintf( buf, "`%%[`5MASQUE`%%]`` ");
 	      add_buf(output,buf);
 	    }
-	    if (wch->pcdata->pbounty 
-		&& ch->pCabal 
+	    if (wch->pcdata->pbounty
+		&& ch->pCabal
 		&& (IS_CABAL(get_parent(ch->pCabal), CABAL_ROUGE) || IS_CABAL(get_parent(ch->pCabal), CABAL_SPIES)) )
             {
 	      if (is_bounty_priority( wch->pcdata->pbounty, ch->pCabal))
@@ -3841,12 +3848,12 @@ void do_whois (CHAR_DATA *ch, char *argument) {
             {
                 sprintf( buf, "[`!Female``] ");
                 add_buf(output,buf);
-            }   
+            }
             if ((wch->sex == 0 ) && (IS_GAME(ch, GAME_SEX)))
             {
                 sprintf( buf, "[`3Neuter``] ");
                 add_buf(output,buf);
-            }   
+            }
 	    if ( IS_IMMORTAL(ch) && IS_SET(wch->act, PLR_DOOF))
 	    {
 		sprintf( buf, "(FORSAKEN) ");
@@ -3880,7 +3887,7 @@ void do_whois (CHAR_DATA *ch, char *argument) {
             {
                 sprintf( buf, "(`1WANTED``) ");
                 add_buf(output,buf);
-            } 
+            }
             if (IS_SET(wch->act, PLR_OUTCAST))
             {
                 sprintf( buf, "(`1OUTCAST``) ");
@@ -3904,10 +3911,10 @@ void do_whois (CHAR_DATA *ch, char *argument) {
 		add_buf(output,buf);
 	      }
 	    }
-	    
+
 /* NAME AND TITLE HERE */
 	    sprintf( buf, "%s%s%s%s",
-		     wch->name, wch->pcdata->family[0] == '\0' ? "" : " ", 
+		     wch->name, wch->pcdata->family[0] == '\0' ? "" : " ",
 		     wch->pcdata->family[0] == '\0' ? "" : wch->pcdata->family,
 		     IS_NPC(wch) ? "" : wch->pcdata->title );
             add_buf(output,buf);
@@ -3935,17 +3942,21 @@ void do_who( CHAR_DATA *ch, char *argument )
     BUFFER *output;
     int iRace, nMatch = 0, count = 0;
     bool rgfRace[MAX_PC_RACE];
-    bool fRaceRestrict = FALSE, fCabalOnly = FALSE, 
+    bool fRaceRestrict = FALSE, fCabalOnly = FALSE,
       fImmortalOnly = FALSE, fPKOnly = FALSE, fGroupOnly = FALSE,
-      fWantedOnly = FALSE, fOutlawOnly = FALSE,fNewbieOnly = FALSE, 
+      fWantedOnly = FALSE, fOutlawOnly = FALSE,fNewbieOnly = FALSE,
       fClassOnly = FALSE, fDescOnly = FALSE, fBountyOnly = FALSE,
       fAvatarOnly = FALSE, fClanOnly = FALSE, fWarnOnly = FALSE,
       fReligionOnly = FALSE;
     bool fQuest = FALSE;
 
-    int contra = 0, race, race_human = race_lookup("human"), 
+    int contra = 0, race, race_human = race_lookup("human"),
       race_undead = race_lookup("undead");
     char* race_str;
+
+    /* Useless conditional */
+    if( fOutlawOnly == TRUE )
+        return;
 
     for ( iRace = 0; iRace < MAX_PC_RACE; iRace++ )
 	rgfRace[iRace] = FALSE;
@@ -3970,7 +3981,7 @@ void do_who( CHAR_DATA *ch, char *argument )
 	    else if (!str_prefix(arg,"description"))	fDescOnly = IS_IMMORTAL(ch);
 	    else if (!str_prefix(arg,"warned"))		fWarnOnly = IS_IMMORTAL(ch);
 	    else if (!str_prefix(arg,"avatar"))		fAvatarOnly = (IS_IMMORTAL(ch) || IS_AVATAR(ch));
-	    else if (!str_prefix(arg,"bounty"))		
+	    else if (!str_prefix(arg,"bounty"))
 	      fBountyOnly = (ch->pCabal && (IS_CABAL(get_parent(ch->pCabal), CABAL_ROUGE) || IS_CABAL(get_parent(ch->pCabal), CABAL_SPIES)));
 	    else
 	    {
@@ -4007,7 +4018,7 @@ void do_who( CHAR_DATA *ch, char *argument )
       if ( IS_AFFECTED2(wch,AFF_SHADOWFORM) && !IS_IMMORTAL(ch))
 	continue;
       if ( IS_AFFECTED2(wch,AFF_TREEFORM) && !IS_IMMORTAL(ch))
-	continue; 
+	continue;
 
       /* select race etc */
       if (IS_SET(wch->act2, PLR_MASQUERADE) && !IS_IMMORTAL(ch)
@@ -4026,18 +4037,18 @@ void do_who( CHAR_DATA *ch, char *argument )
 	race_str = (char*)pc_race_table[race].who_name;
       else
 	race_str = "Unknw";
-      
+
       if (fClassOnly && !IS_IMMORTAL(ch)){
 	if ( (paf = affect_find(wch->affected, gen_guise)) != NULL)
 	  fake_class = paf->modifier;
 	else if (IS_MASQUE(wch) && !IS_IMMORTAL(ch) && wch != ch)
 	  fake_class = class_lookup("dark-knight");
       }
-      if ( ( fImmortalOnly && wch->level < LEVEL_IMMORTAL ) 
+      if ( ( fImmortalOnly && wch->level < LEVEL_IMMORTAL )
 	   || ( fPKOnly && !is_pk(ch,wch) )
-	   || ( fGroupOnly && (ch->level+8 < wch->level 
-			       || ch->level-8 > wch->level 
-			       || (IS_GOOD(ch) && IS_EVIL(wch)) 
+	   || ( fGroupOnly && (ch->level+8 < wch->level
+			       || ch->level-8 > wch->level
+			       || (IS_GOOD(ch) && IS_EVIL(wch))
 			       || (IS_GOOD(wch) && IS_EVIL(ch))))
 	   || ( fNewbieOnly && is_pk(wch,wch) && !IS_GAME(wch, GAME_NEWBIE))
 	   || ( fWantedOnly && !IS_SET(wch->act, PLR_WANTED) )
@@ -4051,17 +4062,17 @@ void do_who( CHAR_DATA *ch, char *argument )
 	   || ( fDescOnly && !IS_SET(wch->act2, PLR_DESC))
 	   || ( fWarnOnly && !IS_GAME(wch, GAME_PKWARN))
 	   || ( fBountyOnly && !IS_NPC(wch) && wch->pcdata->pbounty == NULL)
-	   || ( fReligionOnly && !IS_NPC(wch) 
+	   || ( fReligionOnly && !IS_NPC(wch)
 		&& wch->pcdata->way != ch->pcdata->way)
 	   || ( fAvatarOnly && !IS_AVATAR(wch)) )
 	continue;
       nMatch++;
 
       /* count how many contracts */
-      if (!IS_NPC(wch) 
-	  && wch->pcdata->pbounty 
-	  && wch != ch 
-	  && is_pk_abs(ch, wch) 
+      if (!IS_NPC(wch)
+	  && wch->pcdata->pbounty
+	  && wch != ch
+	  && is_pk_abs(ch, wch)
 	  && !bounty_covered( wch ))
 	contra++;
 
@@ -4084,8 +4095,8 @@ void do_who( CHAR_DATA *ch, char *argument )
 	}
       if (IS_IMMORTAL(ch) || IS_IMMORTAL(wch) || IS_MASTER(wch) || ch == wch)
 	sprintf( buf, "[%2d %5s %s] ",
-		 wch->level, 
-		 race_str, 
+		 wch->level,
+		 race_str,
 		 class);
       else{
 	sprintf( buf, "[   %5s    ] ", race_str );
@@ -4113,7 +4124,7 @@ void do_who( CHAR_DATA *ch, char *argument )
 	}
       if (wch->pCabal
 	  && (!IS_IMMORTAL(wch) || IS_IMMORTAL(ch))
-	  && (IS_IMMORTAL(ch)  
+	  && (IS_IMMORTAL(ch)
 	      || IS_GAME(wch, GAME_SHOW_CABAL)
 	      || is_same_cabal(ch->pCabal, wch->pCabal)) ){
 	CABAL_DATA* pPar = get_parent(wch->pCabal);
@@ -4130,14 +4141,14 @@ void do_who( CHAR_DATA *ch, char *argument )
 	  sprintf( buf, "[`#D``] ");
 	  add_buf(output,buf);
 	}
-      
+
       if ( (IS_IMMORTAL(ch) || ch == wch )&& IS_SET(wch->act2, PLR_MASQUERADE))
 	{
 	  sprintf( buf, "`%%[`5MASQUE`%%]`` ");
 	  add_buf(output,buf);
 	}
-      if (wch->pcdata->pbounty 
-	  && ch->pCabal 
+      if (wch->pcdata->pbounty
+	  && ch->pCabal
 	  && (IS_CABAL(get_parent(ch->pCabal), CABAL_ROUGE) || IS_CABAL(get_parent(ch->pCabal), CABAL_SPIES)) )
       {
 	if (is_bounty_priority( wch->pcdata->pbounty, ch->pCabal))
@@ -4145,13 +4156,13 @@ void do_who( CHAR_DATA *ch, char *argument )
 	else
 	  sprintf( buf, "`3(`#$`3)`` ");
 	  add_buf(output,buf);
-        } 
+        }
       if (HAS_CLAN(wch) && (GET_CLAN(wch) == GET_CLAN(ch) || IS_IMMORTAL(ch)) ){
-	sprintf( buf, "`3(`8%s [%s]`3)`` ", 
+	sprintf( buf, "`3(`8%s [%s]`3)`` ",
 		 GetClanName( GET_CLAN(wch)),
 		 clanr_table[wch->pcdata->clan_rank][0]);
 	add_buf(output,buf);
-      } 
+      }
       if ( IS_IMMORTAL(ch) && IS_SET(wch->act, PLR_DOOF))
 	{
 	  sprintf( buf, "(FORSAKEN) ");
@@ -4191,7 +4202,7 @@ void do_who( CHAR_DATA *ch, char *argument )
         {
 	  sprintf( buf, "(`1OUTCAST``) ");
 	  add_buf(output,buf);
-        }                     
+        }
 /* reset the title buffer to empty in case the sponsor title needs to be used */
       title_buf[0] = '\0';
       if ( wch->pCabal && IS_GAME(wch, GAME_SHOW_CABAL) && !IS_IMMORTAL(wch)){
@@ -4210,19 +4221,19 @@ void do_who( CHAR_DATA *ch, char *argument )
 	  sprintf( buf, "%s ", wch->pCabal->pIndexData->mprefix);
 		add_buf(output,buf);
 	}
-      }    
-      
+      }
+
       if (!IS_NULLSTR(mud_data.questor) && mud_data.questor[0] == wch->name[0] && !str_cmp(wch->name, mud_data.questor))
 	fQuest = TRUE;
       else
 	fQuest = FALSE;
-	
+
       sprintf( buf, "%s%s%s%s%s%s",
 	       fQuest ? "`#" : "",
 	       wch->name,
 	       fQuest ? "``" : "",
-	       wch->pcdata->family[0] == '\0' ? "" : " ",  
-	       wch->pcdata->family[0] == '\0' ? "" : wch->pcdata->family, 
+	       wch->pcdata->family[0] == '\0' ? "" : " ",
+	       wch->pcdata->family[0] == '\0' ? "" : wch->pcdata->family,
 	       IS_NPC(wch) ? "" : title_buf[0] == '\0' ? wch->pcdata->title : title_buf);
       add_buf(output,buf);
       sprintf( buf, "\n\r");
@@ -4397,22 +4408,22 @@ void where( CHAR_DATA* ch, AREA_DATA* area, char* argument ){
 
   if ( arg[0] == '\0' ){
     for ( victim = player_list; victim != NULL; victim = victim->next){
-      if (!IS_NPC(victim) 
+      if (!IS_NPC(victim)
 	  && victim->in_room->area == area
 	  && !IS_IMMORTAL(victim) && victim->in_room != NULL
 	  && !IS_SET(victim->in_room->room_flags,ROOM_NOWHERE)
 	  && !room_is_private(victim->in_room)
-	  && (!IS_AFFECTED2(victim,AFF_SHADOWFORM) 
+	  && (!IS_AFFECTED2(victim,AFF_SHADOWFORM)
 	      || IS_IMMORTAL(ch))
 	  && !IS_AFFECTED2(victim,AFF_TREEFORM)
-	  && !is_affected(victim,gsn_bat_form) 
-	  && !is_affected(victim,gsn_coffin) 
+	  && !is_affected(victim,gsn_bat_form)
+	  && !is_affected(victim,gsn_coffin)
 	  && !is_affected(victim,gsn_entomb)
 	  && !IS_AFFECTED2(victim,AFF_CATALEPSY)
-	  && (can_see( ch, victim )  
+	  && (can_see( ch, victim )
 	      || (check_avenger(ch, victim) == CRUSADE_MATCH
-		  && !is_affected(victim, gen_d_shroud)) 
-	      || (!can_see(ch,victim) && IS_AFFECTED2(ch,AFF_SENSE_EVIL) 
+		  && !is_affected(victim, gen_d_shroud))
+	      || (!can_see(ch,victim) && IS_AFFECTED2(ch,AFF_SENSE_EVIL)
 		  && IS_EVIL(victim)))
 	  ){
 	found = TRUE;
@@ -4423,8 +4434,8 @@ void where( CHAR_DATA* ch, AREA_DATA* area, char* argument ){
 	  sprintf( name, "`#$``");
 	else
 	  sprintf( name, "`@ ``");
-	
-	if (!can_see(ch,victim) 
+
+	if (!can_see(ch,victim)
 	    && IS_AFFECTED2(ch,AFF_SENSE_EVIL) && IS_EVIL(victim)
 	    && (victim->invis_level < 1 || victim->incog_level < 1)){
 	  sprintf( name + strlen(name), "%s", "(Red Aura) Someone");
@@ -4434,17 +4445,17 @@ void where( CHAR_DATA* ch, AREA_DATA* area, char* argument ){
 	}
 	if (IS_WANTED(victim)){
 	  sprintf(buf, "%12s", "(`!WANTED``)");
-	  
+
 	}
 	else
 	  sprintf(buf, "%12s", "`!``");
 	if (IS_SET(victim->in_room->area->area_flags, AREA_LAWFUL)){
 	  /* justice */
-	  if ( victim->pCabal 
+	  if ( victim->pCabal
 	       && IS_GAME(victim, GAME_SHOW_CABAL)
 	       && IS_CABAL(victim->pCabal, CABAL_JUSTICE)
 	       ){
-	    sprintf(buf + strlen(buf), "[%s]", 
+	    sprintf(buf + strlen(buf), "[%s]",
 		    get_parent(victim->pCabal)->who_name);
 	  }
 	  /* royal/nobles */
@@ -4457,10 +4468,10 @@ void where( CHAR_DATA* ch, AREA_DATA* area, char* argument ){
 	}
 	else
 	  sprintf(buf + strlen(buf), "`!``");
-	
+
 	if (victim->invis_level < 1 || victim->incog_level < 1)
-	  sendf( ch, "%s %-18s %-26s %s\n\r", 
-		 is_pk(ch,victim) ? is_affected(victim, gen_diplomacy) ? "<`8PK``> " : "<`1PK``> " : "     ", 
+	  sendf( ch, "%s %-18s %-26s %s\n\r",
+		 is_pk(ch,victim) ? is_affected(victim, gen_diplomacy) ? "<`8PK``> " : "<`1PK``> " : "     ",
 		 name, buf, victim->in_room->name);
       }
     }
@@ -4475,8 +4486,8 @@ void where( CHAR_DATA* ch, AREA_DATA* area, char* argument ){
 	  && !IS_SET(victim->in_room->room_flags,ROOM_NOWHERE)
 	  && !room_is_private(victim->in_room)
 	  && victim->in_room->area == area
-	  && !is_affected(victim,gsn_bat_form) 
-	  && !is_affected(victim,gsn_coffin) 
+	  && !is_affected(victim,gsn_bat_form)
+	  && !is_affected(victim,gsn_coffin)
 	  && !is_affected(victim,gsn_entomb)
 	  && !IS_AFFECTED2(victim,AFF_CATALEPSY)
 	  && (!IS_AFFECTED2(victim,AFF_SHADOWFORM) || IS_IMMORTAL(ch))
@@ -4492,7 +4503,7 @@ void where( CHAR_DATA* ch, AREA_DATA* area, char* argument ){
 	  else
 	    sprintf( name, "`# ``");
 	  sprintf( name + strlen(name), "%s", PERS2(victim));
-	  
+
 	  if (IS_WANTED(victim)){
 	    sprintf(buf, "%12s", "(`!WANTED``)");
 	  }
@@ -4500,11 +4511,11 @@ void where( CHAR_DATA* ch, AREA_DATA* area, char* argument ){
 	    sprintf(buf, "%12s", "`!``");
 	  if (IS_SET(victim->in_room->area->area_flags, AREA_LAWFUL)){
 	    /* justice */
-	    if ( victim->pCabal 
+	    if ( victim->pCabal
 		 && IS_GAME(victim, GAME_SHOW_CABAL)
 		 && IS_CABAL(victim->pCabal, CABAL_JUSTICE)
 		 ){
-	      sprintf(buf + strlen(buf), "[%s]", 
+	      sprintf(buf + strlen(buf), "[%s]",
 		      get_parent(victim->pCabal)->who_name);
 	    }
 	    /* royal/nobles */
@@ -4517,8 +4528,8 @@ void where( CHAR_DATA* ch, AREA_DATA* area, char* argument ){
 	  }
 	  else
 	    sprintf(buf + strlen(buf), "`!``");
-	  sendf( ch, "%s %-18s %-26s %s\n\r", 
-		 is_pk(ch,victim) ? is_affected(victim, gen_diplomacy) ? "<`8PK``> " : "<`1PK``> " : "     ", 
+	  sendf( ch, "%s %-18s %-26s %s\n\r",
+		 is_pk(ch,victim) ? is_affected(victim, gen_diplomacy) ? "<`8PK``> " : "<`1PK``> " : "     ",
 		 name, buf, victim->in_room->name);
 	}
     }
@@ -4530,21 +4541,21 @@ void where( CHAR_DATA* ch, AREA_DATA* area, char* argument ){
     for ( victim = char_list; victim != NULL; victim = victim->next ){
       if ( victim->in_room != NULL && victim->in_room->area == area
 	   && victim->race != race_lookup("elf") && victim->race != race_lookup("drow")
-	   && !is_affected(victim,gsn_bat_form) 
-	   && !is_affected(victim,gsn_coffin) 
+	   && !is_affected(victim,gsn_bat_form)
+	   && !is_affected(victim,gsn_coffin)
 	   && !is_affected(victim,gsn_entomb)
 	   && !is_affected(victim,gen_conceal)
 	   && !IS_AFFECTED2(victim,AFF_CATALEPSY)
-	   && !IS_IMMORTAL(victim) 
-	   && !IS_AFFECTED2(victim,AFF_SHADOWFORM) 
+	   && !IS_IMMORTAL(victim)
+	   && !IS_AFFECTED2(victim,AFF_SHADOWFORM)
 	   && !(!IS_NPC(victim) && IS_AFFECTED(victim, AFF_SNEAK))
 	   && !IS_AFFECTED2(victim,AFF_TREEFORM)
-	   && is_name( arg, victim->name ) 
+	   && is_name( arg, victim->name )
 	   && can_see( ch, victim ) )
 	{
 	  found = TRUE;
 	  sprintf( name, "%s", PERS2(victim));
-	  
+
 	  if (IS_WANTED(victim)){
 	    sprintf(buf, "%12s", "(`!WANTED``)");
 	  }
@@ -4552,11 +4563,11 @@ void where( CHAR_DATA* ch, AREA_DATA* area, char* argument ){
 	    sprintf(buf, "%12s", "`!``");
 	  if (IS_SET(victim->in_room->area->area_flags, AREA_LAWFUL)){
 	    /* justice */
-	    if ( victim->pCabal 
+	    if ( victim->pCabal
 		 && IS_GAME(victim, GAME_SHOW_CABAL)
 		 && IS_CABAL(victim->pCabal, CABAL_JUSTICE)
 		 ){
-	      sprintf(buf + strlen(buf), "[%s]", 
+	      sprintf(buf + strlen(buf), "[%s]",
 		      get_parent(victim->pCabal)->who_name);
 	    }
 	    /* royal/nobles */
@@ -4569,8 +4580,8 @@ void where( CHAR_DATA* ch, AREA_DATA* area, char* argument ){
 	  }
 	  else
 	    sprintf(buf + strlen(buf), "`!``");
-	  sendf( ch, "%s %-12s %-26s %s\n\r", 
-		 is_pk(ch,victim) ? is_affected(victim, gen_diplomacy) ? "<`8PK``> " : "<`1PK``> " : "     ", 
+	  sendf( ch, "%s %-12s %-26s %s\n\r",
+		 is_pk(ch,victim) ? is_affected(victim, gen_diplomacy) ? "<`8PK``> " : "<`1PK``> " : "     ",
 		 name, buf, victim->in_room->name);
 	  break;
 	}
@@ -4581,7 +4592,7 @@ void where( CHAR_DATA* ch, AREA_DATA* area, char* argument ){
 }
 
 void do_where( CHAR_DATA *ch, char *argument ){
-  if(  (IS_AFFECTED(ch, AFF_BLIND) && !is_affected(ch, gsn_bat_form)) 
+  if(  (IS_AFFECTED(ch, AFF_BLIND) && !is_affected(ch, gsn_bat_form))
        || (IS_AFFECTED(ch, AFF_BLIND) && bat_blind(ch))  || bat_blind(ch) )
     {
       send_to_char( "You can't see a thing!\n\r", ch );
@@ -4644,30 +4655,30 @@ void do_consider( CHAR_DATA *ch, char *argument )
     else                    msg = "Why don't you just try to kill a god?";
     act( msg, ch, NULL, victim, TO_CHAR );
 
-if (IS_GOOD(ch)) 
-      { 
-    if (IS_GOOD(victim)) 
-        sendf(ch, "This %s greets you warmly.\n\r", race_table[victim->race].name); 
-    else if (IS_NEUTRAL(victim)) 
-        sendf(ch, "This %s looks very disinterrested.\n\r", race_table[victim->race].name); 
-    else    sendf(ch, "This %s grins at you evilly.\n\r", race_table[victim->race].name); 
-      } 
-    else if (IS_NEUTRAL(ch)) 
-    { 
-      if (IS_GOOD(victim)) 
-        sendf(ch, "This %s beams a smile at you.\n\r", race_table[victim->race].name); 
-    else if (IS_NEUTRAL(victim)) 
-        sendf(ch, "This %s looks just as disinterrested as you.\n\r", race_table[victim->race].name);    
-    else   sendf(ch, "This %s grins at you evilly.\n\r", race_table[victim->race].name); 
-    } 
-    else 
-      { 
-    if (IS_GOOD(victim)) 
-        sendf(ch, "This %s smiles, hoping you will turn from your evil path.\n\r", race_table[victim->race].name); 
-    else if (IS_NEUTRAL(victim)) 
-        sendf(ch, "This %s looks very disinterrested.\n\r", race_table[victim->race].name); 
-    else     sendf(ch, "This %s grins evilly with you.\n\r", race_table[victim->race].name); 
-      } 
+if (IS_GOOD(ch))
+      {
+    if (IS_GOOD(victim))
+        sendf(ch, "This %s greets you warmly.\n\r", race_table[victim->race].name);
+    else if (IS_NEUTRAL(victim))
+        sendf(ch, "This %s looks very disinterrested.\n\r", race_table[victim->race].name);
+    else    sendf(ch, "This %s grins at you evilly.\n\r", race_table[victim->race].name);
+      }
+    else if (IS_NEUTRAL(ch))
+    {
+      if (IS_GOOD(victim))
+        sendf(ch, "This %s beams a smile at you.\n\r", race_table[victim->race].name);
+    else if (IS_NEUTRAL(victim))
+        sendf(ch, "This %s looks just as disinterrested as you.\n\r", race_table[victim->race].name);
+    else   sendf(ch, "This %s grins at you evilly.\n\r", race_table[victim->race].name);
+    }
+    else
+      {
+    if (IS_GOOD(victim))
+        sendf(ch, "This %s smiles, hoping you will turn from your evil path.\n\r", race_table[victim->race].name);
+    else if (IS_NEUTRAL(victim))
+        sendf(ch, "This %s looks very disinterrested.\n\r", race_table[victim->race].name);
+    else     sendf(ch, "This %s grins evilly with you.\n\r", race_table[victim->race].name);
+      }
 
 
     if (ch->size == victim->size)
@@ -4800,15 +4811,15 @@ void do_report( CHAR_DATA *ch, char *argument )
     sprintf( buf,"%s while %s.",
 	     hit > 99 ? "I'm in excellent health" :
 	     hit > 90 ? "I have few scratches" :
-	     hit > 75 ? "I have small wounds" : 
-	     hit > 50 ? "I'm seriously hurt" : 
-	     hit > 30 ? "I have terrible wounds" : 
+	     hit > 75 ? "I have small wounds" :
+	     hit > 50 ? "I'm seriously hurt" :
+	     hit > 30 ? "I have terrible wounds" :
 	     hit > 15 ? "I'm hurt badly" : "Death is upon me",
 	     mana > 99 ? "my mind is perfectly clear" :
 	     mana > 90 ? "my mind is clear" :
-	     mana > 75 ? "my mind is clouded" : 
-	     mana > 50 ? "my mind is strained" : 
-	     mana > 30 ? "my mind suffers" : 
+	     mana > 75 ? "my mind is clouded" :
+	     mana > 50 ? "my mind is strained" :
+	     mana > 30 ? "my mind suffers" :
 	     mana > 15 ? "i can barely think" : "I cannot even concentrate");
     do_say(ch,buf);
 }
@@ -4844,17 +4855,17 @@ void do_practice( CHAR_DATA *ch, char *argument )
 	  learned = nsk->learned;
 	else
 	  learned = ch->pcdata->learned[sn];
-	
+
 	level = sklevel(ch,sn);
 
 	if ( learned > 0 &&  (level <= ch->level || level == CABAL_COST_FAILED)){
 	  if (ch->pcdata->to_learned[sn] != 0)
 	    sendf( ch, "%-19s `%s%3d``   ",
-		   skill_table[sn].name, 
+		   skill_table[sn].name,
 		   ch->pcdata->to_learned[sn] > 0 ? "@" : "1",
 		   URANGE(0, learned + ch->pcdata->to_learned[sn], 110));
 	  else
-	    sendf( ch, "%-19s %3d   ",skill_table[sn].name, 
+	    sendf( ch, "%-19s %3d   ",skill_table[sn].name,
 		   URANGE(0, learned + ch->pcdata->to_learned[sn], 110));
 	  if ( ++col % 3 == 0 )
 	    send_to_char( "\n\r", ch );
@@ -4863,7 +4874,7 @@ void do_practice( CHAR_DATA *ch, char *argument )
       if ( col % 3 != 0 )
 	send_to_char( "\n\r", ch );
       sendf( ch, "You have %d practice sessions left.\n\r",ch->practice );
-      
+
     }
     else{
       CHAR_DATA *mob;
@@ -4874,10 +4885,10 @@ void do_practice( CHAR_DATA *ch, char *argument )
 	return;
       }
       for ( mob = ch->in_room->people; mob != NULL; mob = mob->next_in_room ){
-	if ( ch->class == class_lookup("monk") 
-	     && IS_NPC(mob) 
+	if ( ch->class == class_lookup("monk")
+	     && IS_NPC(mob)
 	     && IS_SET(mob->act, ACT_IS_HEALER))
-	  if (mob->pIndexData->vnum == get_temple(ch) 
+	  if (mob->pIndexData->vnum == get_temple(ch)
 	      || mob->pIndexData->vnum == (get_temple(ch) + 1))
 	    break;
 	if ( IS_NPC(mob) && IS_SET(mob->act, ACT_PRACTICE) )
@@ -4909,7 +4920,7 @@ void do_practice( CHAR_DATA *ch, char *argument )
 	    return;
 	  }
 	  else{
-	    sendf(ch, "You carefully bribe %s with %d gold.\n\r", 
+	    sendf(ch, "You carefully bribe %s with %d gold.\n\r",
 		  PERS2(mob), cost);
 	    ch->gold -=  cost;
 	  }
@@ -4926,7 +4937,7 @@ void do_practice( CHAR_DATA *ch, char *argument )
 	send_to_char("You are not yet powerful enough.\n\r", ch);
 	return;
       }
-      
+
       /* get info on the skill we are going to learn */
       /* first check if we should look at dynamic skills */
       if ((nsk = nskill_find(ch->pcdata->newskills,sn)) == NULL
@@ -4948,8 +4959,8 @@ void do_practice( CHAR_DATA *ch, char *argument )
 	send_to_char( "You can't practice that.\n\r", ch );
 	return;
       }
-      
-      
+
+
       if ( *learned >= 75 )
 	{
 	  sendf( ch, "You are already learned at %s.\n\r",skill_table[sn].name );
@@ -5032,7 +5043,7 @@ void do_rehearse( CHAR_DATA *ch, char *argument )
 	    return;
 	  }
 	  else{
-	    sendf(ch, "You carefully bribe %s with %d gold.\n\r", 
+	    sendf(ch, "You carefully bribe %s with %d gold.\n\r",
 		  PERS2(mob), cost);
 	    ch->gold -=  cost;
 	  }
@@ -5196,17 +5207,17 @@ void do_hometown(CHAR_DATA *ch, char *argument)
     {
       send_to_char("The following hometowns are available to you:  ",ch);
       for ( home = 0; hometown_table[home].name && home < MAX_HOMETOWN; home++ ){
-	if (!IS_NULLSTR(hometown_table[home].race) 
+	if (!IS_NULLSTR(hometown_table[home].race)
 	    && ch->race != race_lookup( hometown_table[home].race )){
 	  continue;
 	}
 	else if (IS_EVIL(ch)){
 	  if (hometown_table[home].e_vnum < 1)
-	    continue;  
+	    continue;
 	}
 	else if (IS_GOOD(ch)){
 	  if (hometown_table[home].g_vnum < 1)
-	    continue;  
+	    continue;
 	}
 	else if (hometown_table[home].n_vnum < 1)
 	  continue;
@@ -5226,7 +5237,7 @@ void do_hometown(CHAR_DATA *ch, char *argument)
       send_to_char("Unknown hometown.\n\r", ch);
       return;
     }
-    if (!IS_NULLSTR(hometown_table[home].race) 
+    if (!IS_NULLSTR(hometown_table[home].race)
 	&& ch->race != race_lookup( hometown_table[home].race )){
       send_to_char("You cannot live there.\n\r", ch);
       return;
@@ -5415,13 +5426,13 @@ void do_proficiency( CHAR_DATA *ch, char *argument )
 	     && get_eq_char(victim,WEAR_SHIELD) == NULL
 	     &&  get_eq_char(victim,WEAR_SECONDARY) == NULL
 	     && get_eq_char(victim,WEAR_HOLD) == NULL){
-	  
+
 	  if (get_skill(ch, gsn_2hands)){
 	    sendf(victim, "%s%s skill in weapon block is: `#%d``\n\r",
 		  ch == victim ? "Your" : PERS2(ch),
 		  ch == victim ? "" : "'s",
 		  get_skill(ch, gsn_2hands));
-	  }      
+	  }
 	}
       }
       else{
@@ -5466,9 +5477,9 @@ void do_proficiency( CHAR_DATA *ch, char *argument )
       for ( sn = 0; sn < MAX_SKILL; sn++ ){
 	if ( skill_table[sn].name == NULL )
 	  break;
-	
+
 	if (skill_table[sn].skill_level[0] != 69
- 	    &&  skill_table[sn].skill_level[ch->class] > 50 
+ 	    &&  skill_table[sn].skill_level[ch->class] > 50
 	    && (nsk = nskill_find(ch->pcdata->newskills,sn)) == NULL
 	    && (csk = get_cskill(ch->pCabal, sn)) == NULL)
 	  continue;
@@ -5487,8 +5498,8 @@ void do_proficiency( CHAR_DATA *ch, char *argument )
     sn = find_spell( ch,argument );
     learned = get_skill(ch, sn);
     if ( sn < 0 || learned < 1
-	 || skill_table[sn].name == NULL 
-	 || skill_table[sn].rating[ch->class] == 0 
+	 || skill_table[sn].name == NULL
+	 || skill_table[sn].rating[ch->class] == 0
 	 || sklevel(ch,sn) > ch->level)
       {
 	send_to_char( "You are not proficient at that.\n\r", ch );
@@ -5499,7 +5510,7 @@ void do_proficiency( CHAR_DATA *ch, char *argument )
     cur = UMAX(0, max - ch->pcdata->progress[sn]);
     health_prompt( prompt, cur, max, FALSE );
     if (victim == ch)
-	sendf( ch, "Your proficiency at %s is `#%d%%``.\n\rProgress: %s\n\r", 
+	sendf( ch, "Your proficiency at %s is `#%d%%``.\n\rProgress: %s\n\r",
 	       skill_table[sn].name,
 	       learned,
 	       prompt
@@ -5509,7 +5520,7 @@ void do_proficiency( CHAR_DATA *ch, char *argument )
       sendf( ch, "You show your proficiency at %s to %s.\n\r",
 	     skill_table[sn].name,PERS(victim,ch));
       sendf( victim, "%s's proficiency at %s is `#%d%%``.\n\r",
-	       PERS(ch,victim),	      
+	       PERS(ch,victim),
 	       skill_table[sn].name,
 	       learned
 	       );
@@ -5541,4 +5552,4 @@ void do_bio( CHAR_DATA* ch, char* argument ){
   }
   show_detail_info( ch, victim );
 }
-    
+

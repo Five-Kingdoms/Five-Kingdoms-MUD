@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -62,9 +62,9 @@ int get_random_rares( CHAR_DATA* ch, CHAR_DATA* victim, int number, bool fRandom
 /* first cycle through the victim's items, and put limited pointers into "rares" */
   for ( obj = victim->carrying; obj != NULL; obj = obj_next ){
     obj_next = obj->next_content;
-      
+
     if (obj->wear_loc == WEAR_TATTOO
-	|| !IS_LIMITED(obj) 
+	|| !IS_LIMITED(obj)
 	|| IS_SET(obj->wear_flags, ITEM_HAS_OWNER)
 	|| is_affected_obj(obj, gen_malform)
 	|| is_affected_obj(obj, gen_hwep)
@@ -146,7 +146,7 @@ int get_random_rares( CHAR_DATA* ch, CHAR_DATA* victim, int number, bool fRandom
     extract_obj( bag );
   return trans;
 }
-  
+
 
 /* Written by: Virigoth
  *   returns: pointer to the bag
@@ -157,12 +157,12 @@ OBJ_DATA* create_jailbag(CHAR_DATA* ch, CHAR_DATA* victim, bool fLimOnly, bool f
   OBJ_DATA* bag = NULL;
   OBJ_DATA* obj, *obj_next;
   char buf[MIL];
-  
+
   int dur = 60;
 
   /* we run through all belongings and move to the bag.  The bag should be made in OLC
      in such way as to prevent any other object frombeing put in there. */
-  
+
   if (ch->in_room == NULL)
     return NULL;
   /* PC only */
@@ -181,7 +181,7 @@ OBJ_DATA* create_jailbag(CHAR_DATA* ch, CHAR_DATA* victim, bool fLimOnly, bool f
     && is_name(victim->name, obj->name))
     bag = obj;
     }
-	    
+
     if (!bag){
       for ( obj = ch->carrying; obj != NULL; obj = obj_next )
 	{
@@ -200,7 +200,7 @@ OBJ_DATA* create_jailbag(CHAR_DATA* ch, CHAR_DATA* victim, bool fLimOnly, bool f
       return NULL;
     }
   }
-  
+
   /* set the desc. and details */
   sprintf( buf, bag->name, victim->name );
   free_string( bag->name );
@@ -211,25 +211,25 @@ OBJ_DATA* create_jailbag(CHAR_DATA* ch, CHAR_DATA* victim, bool fLimOnly, bool f
   sprintf( buf, bag->description, victim->name );
   free_string( bag->description );
   bag->description = str_dup( buf );
-  
-  
+
+
   /* start transfer */
   if (!fLimOnly && victim->gold > 0 ){
     obj_to_obj(create_money(victim->gold), bag);
     victim->gold = 0;
   }
-  
+
   if (!IS_IMMORTAL(victim)){
     for ( obj = victim->carrying; obj != NULL; obj = obj_next ){
       obj_next = obj->next_content;
-      
+
       if (obj->wear_loc == WEAR_TATTOO)
 	continue;
-      
+
       if (!fAll){
-	if (fLimOnly && !IS_LIMITED(obj)) 
+	if (fLimOnly && !IS_LIMITED(obj))
 	  continue;
-	
+
 	if (IS_SET(obj->wear_flags, ITEM_HAS_OWNER))
 	  continue;
 	if( is_affected_obj(obj, gen_malform)
@@ -246,7 +246,7 @@ OBJ_DATA* create_jailbag(CHAR_DATA* ch, CHAR_DATA* victim, bool fLimOnly, bool f
     extract_obj(bag);
     return NULL;
   }
-  
+
     /* move the bag to ch automaticly */
     obj_to_char(bag, ch);
 
@@ -260,9 +260,9 @@ CHAR_DATA* surrender( CHAR_DATA* victim ){
   const int  max_justice = 16;
   CHAR_DATA* justice[max_justice];
   int last_justice = 0;
-  
+
   CHAR_DATA* vch;
-  
+
   for (vch = player_list; vch; vch = vch->next_player ){
     if (!IS_IMMORTAL(vch) && vch->pCabal && IS_CABAL(vch->pCabal, CABAL_JUSTICE))
       justice[last_justice++] = vch;
@@ -307,7 +307,7 @@ int jexecution_lookup(const char *name)
    for ( e = 0; execution_table[e].name != NULL; e++){
      if (!execution_table[e].name[0])
        continue;
-     if (LOWER(name[0]) == LOWER(execution_table[e].name[0]) 
+     if (LOWER(name[0]) == LOWER(execution_table[e].name[0])
 	 && !str_prefix( name, execution_table[e].name))
        return e;
    }
@@ -463,7 +463,7 @@ ROOM_INDEX_DATA* get_jailcell(int hometown){
     /* get the room, check if exists */
     if ( (room = get_room_index(jail_table[jail].cell[cell])) == NULL){
       char buf[MIL];
-      sprintf(buf, "get_jailcell: cell %d does not exist.", 
+      sprintf(buf, "get_jailcell: cell %d does not exist.",
 	      jail_table[jail].cell[cell]);
       bug(buf, 0);
       return NULL;
@@ -485,7 +485,7 @@ ROOM_INDEX_DATA* get_jailcell(int hometown){
   /* search over, make sure there is a room at all */
   if (!ret_cell){
     char buf[MIL];
-    sprintf(buf, "get_jailcell: No valid cell found for hometown %d.", 
+    sprintf(buf, "get_jailcell: No valid cell found for hometown %d.",
 	    hometown);
     bug(buf, 0);
   }
@@ -512,7 +512,7 @@ void jail_announce(int jail, char* string){
   /* Grab the room to be yelled in*/
   if ( (room = get_room_index(jail_table[jail].exe_room))  == NULL){
     char buf[MIL];
-    sprintf(buf, "jail_announce: room %d does not exist.", 
+    sprintf(buf, "jail_announce: room %d does not exist.",
 	    jail_table[jail].exe_room);
     bug(buf, 0);
     return;
@@ -520,7 +520,7 @@ void jail_announce(int jail, char* string){
   /* grab the mob to do the yelling */
   if ( (mob = create_mobile( get_mob_index(jail_table[jail].exe_mob)))  == NULL){
     char buf[MIL];
-    sprintf(buf, "jail_announce: mob %d does not exist.", 
+    sprintf(buf, "jail_announce: mob %d does not exist.",
 	    jail_table[jail].exe_mob);
     bug(buf, 0);
     return;
@@ -541,7 +541,7 @@ void jail_announce(int jail, char* string){
 
 /* Allows a criminal to surrender */
 void do_surrender( CHAR_DATA* ch, char* argument ){
-  
+
   if (IS_OUTLAW( ch )){
     send_to_char("Go fall on a sword instead.\n\r", ch);
     return;
@@ -611,11 +611,11 @@ void jail_char(CHAR_DATA* cha, CHAR_DATA* victim){
   /* check for mob apprehension */
   else if (IS_NPC(ch) || ch == victim)
     ch = surrender( victim );
-  
+
   /* grab the jail cell to transport too */
   if ( (cell = get_jailcell(ch->hometown)) == NULL){
     char buf[MIL];
-    sprintf(buf, "jail_char: get_jailcell returned NULL for town of %s.", 
+    sprintf(buf, "jail_char: get_jailcell returned NULL for town of %s.",
 	    hometown_table[ch->hometown].name);
     bug(buf, 0);
     return;
@@ -636,7 +636,7 @@ void jail_char(CHAR_DATA* cha, CHAR_DATA* victim){
   affect_strip(victim,skill_lookup("dysentery"));
 
   victim->pcdata->condition[COND_HUNGER]=45;
-  victim->pcdata->condition[COND_THIRST]=45;    
+  victim->pcdata->condition[COND_THIRST]=45;
   victim->hit = UMAX(1, 25 * victim->max_hit / 100);
   victim->move = 25 * victim->max_move / 100;
   victim->mana = 0 * victim->max_mana / 100;
@@ -662,7 +662,7 @@ void jail_char(CHAR_DATA* cha, CHAR_DATA* victim){
     sendf( ch, "You recive %d item%s from %s.\n\r", num, num == 1 ? "" : "s", PERS2( victim ));
     sendf( victim, "You lost %d item%s.\n\r", num, num == 1 ? "" : "s");
   }
-  
+
 
   /* Print some text and move the victim */
   if (ch != victim ){
@@ -686,7 +686,7 @@ void jail_char(CHAR_DATA* cha, CHAR_DATA* victim){
   /* boost the relations between the justice and royals of areas that this person commited crimes in */
   for (paf = victim->affected; paf; paf = paf->next ){
     if (paf->type == gsn_wanted && paf->bitvector){
-      /* crime found/wanted we increase the relations but need area first */ 
+      /* crime found/wanted we increase the relations but need area first */
       if ( (pArea = get_area_data( paf->location )) == NULL){
 	bug("jail_char: could not get area for vnum %d.", paf->location);
 	continue;
@@ -717,7 +717,7 @@ void jail_char(CHAR_DATA* cha, CHAR_DATA* victim){
   default:
     max_pen = JAIL_NORMAL;		break;
   }
-  
+
   /* outlaws always get the cut */
   if (IS_OUTLAW(victim)){
     crime = CRIME_DEATH;
@@ -734,8 +734,8 @@ void jail_char(CHAR_DATA* cha, CHAR_DATA* victim){
     send_to_char("`!An error occured, contact an immortal.``\n\r", ch);
   else
     string_to_affect(paf, ch == victim ? "surrendered" : ch->name);
-  
-  
+
+
   /* Yell out the announcement */
   if (ch == victim)
     sprintf(buf, "Justice be praised, %s has surrendered to Justice!",
@@ -747,7 +747,7 @@ void jail_char(CHAR_DATA* cha, CHAR_DATA* victim){
 
   /* increase capture count if ch != victim */
   if (ch != victim
-      && ch->pCabal 
+      && ch->pCabal
       && IS_CABAL(ch->pCabal, CABAL_JUSTICE)){
     ch->pcdata->member->kills++;
   }
@@ -793,7 +793,7 @@ void unjail_char(CHAR_DATA* ch){
   /* if exit is 0 we send to home temple */
   if ( (room = get_room_index(exit))  == NULL){
     char buf[MIL];
-    sprintf(buf, "unjail_char: room %d does not exist as an exit.", 
+    sprintf(buf, "unjail_char: room %d does not exist as an exit.",
 	    exit);
     bug(buf, 0);
   }
@@ -896,7 +896,7 @@ JAIL_NORMAL ---> JAIL_EXTEND -> JAIL_RELEASE
     sendf(ch, "Syntax: jail <criminal> <sentence> <severity (1-10)>\n\r"\
 	  "for <sentence> of bail, amount is %d x severity gold with limit of %dh\n\r"\
 	  "for <sentence> of extended, length is %d + (%d x severity) hours\n\r\n\r"\
-	  "Following are all criminals with their jurisdictions:\n\r", 
+	  "Following are all criminals with their jurisdictions:\n\r",
 	  SEV_BAIL, DUR_BAIL, DUR_EXTENDED, SEV_EXTENDED);
     /* run through players showing info */
     buffer=new_buf();
@@ -910,14 +910,14 @@ JAIL_NORMAL ---> JAIL_EXTEND -> JAIL_RELEASE
 	   || !paf->has_string)
       continue;
       /* add info to buffer */
-      sprintf(buf, "%d. %-5s %-15s in %-10s assigned to %-15s [%-2s (%dh)]\n\r",++count, PERS2(vch), 
+      sprintf(buf, "%d. %-5s %-15s in %-10s assigned to %-15s [%-2s (%dh)]\n\r",++count, PERS2(vch),
 	      vch->in_room->area->name, vch->in_room->name, paf->string,
-	      paf->modifier == JAIL_NONE ? "None" : 
-	      paf->modifier == JAIL_NORMAL ? "Normal" : 
-	      paf->modifier == JAIL_EXTENDED ? "Extended" : 
-	      paf->modifier == JAIL_BAIL ? "Bail" : 
-	      paf->modifier == JAIL_EXECUTE ? "Execution" : 
-	      paf->modifier == JAIL_RELEASE ? "Release" : "Error", 
+	      paf->modifier == JAIL_NONE ? "None" :
+	      paf->modifier == JAIL_NORMAL ? "Normal" :
+	      paf->modifier == JAIL_EXTENDED ? "Extended" :
+	      paf->modifier == JAIL_BAIL ? "Bail" :
+	      paf->modifier == JAIL_EXECUTE ? "Execution" :
+	      paf->modifier == JAIL_RELEASE ? "Release" : "Error",
 	      paf->duration);
 
 
@@ -931,8 +931,8 @@ JAIL_NORMAL ---> JAIL_EXTEND -> JAIL_RELEASE
     free_buf(buffer);
     return;
   }
-    
-    
+
+
 
   /* start testing the actual arguments */
   argument = one_argument( argument, arg1 );
@@ -1030,7 +1030,7 @@ JAIL_NORMAL ---> JAIL_EXTEND -> JAIL_RELEASE
     act("That sentence is too severe based on the crimes $N has commited.", ch, NULL, victim, TO_CHAR);
     return;
   }
-  /* All checks are clear, we now make sure that the SENTENCE flow is satisfied */   
+  /* All checks are clear, we now make sure that the SENTENCE flow is satisfied */
   cur_sen = paf->modifier;
 
   switch (cur_sen){
@@ -1055,7 +1055,7 @@ JAIL_NORMAL ---> JAIL_EXTEND -> JAIL_RELEASE
 
 
   if (!fAllow){
-    send_to_char("This new verdict is not allowed due to criminals current sentence.\n\r", ch);  
+    send_to_char("This new verdict is not allowed due to criminals current sentence.\n\r", ch);
     return;
   }
 
@@ -1075,7 +1075,7 @@ JAIL_NORMAL ---> JAIL_EXTEND -> JAIL_RELEASE
       return;
     }
 
-    if (IS_NPC(justice) || justice->pCabal == NULL 
+    if (IS_NPC(justice) || justice->pCabal == NULL
 	|| !IS_CABAL(justice->pCabal, CABAL_JUSTICE)){
       send_to_char("That person is not a Justice member.\n\r", ch);
       return;
@@ -1111,7 +1111,7 @@ void jail_execute(CHAR_DATA* ch, CHAR_DATA* mob, int exe_type, char* name){
   char buf[MIL];
   int jail = 0;
   int exit = 0;
-  
+
   const int dur = 480;
 
   /* check for problems */
@@ -1129,11 +1129,11 @@ void jail_execute(CHAR_DATA* ch, CHAR_DATA* mob, int exe_type, char* name){
 
   jail = jail_cell_lookup(ch->in_room->vnum);
   exit = jail_table[jail].exe_room;
-  
+
   /* if exit is 0 we send to home temple */
   if ( (room = get_room_index(exit))  == NULL){
     char buf[MIL];
-    sprintf(buf, "jail_execute: room %d does not exist as an exe_room.", 
+    sprintf(buf, "jail_execute: room %d does not exist as an exe_room.",
 	    exit);
     bug(buf, 0);
   }
@@ -1180,16 +1180,16 @@ void jail_execute(CHAR_DATA* ch, CHAR_DATA* mob, int exe_type, char* name){
     strcat( crime_str, crime_table[CRIME_OBSTRUCT].name );
     strcat( crime_str, ", ");
   }
-  
+
   sprintf(buf, "%sby the Law of Aabahran,\n\r"\
 	  "%s has been sentenced by %s %s\n\r"\
-	  "May Virigoth have mercy on your soul %s.", 
+	  "May Virigoth have mercy on your soul %s.",
 	  crime_str,
 	  PERS2(ch), IS_NULLSTR(name) ? "Justice" : name,
 	  execution_table[exe_type].announce,
 	  PERS2(ch));
   jail_announce(jail, buf);
-  
+
   /* show the TOVICT messages from the table*/
   act(execution_table[exe_type].pre_act, mob, NULL, ch, TO_CHAR);
   act(execution_table[exe_type].on_act_r, mob, NULL, ch, TO_NOTVICT);
@@ -1197,7 +1197,7 @@ void jail_execute(CHAR_DATA* ch, CHAR_DATA* mob, int exe_type, char* name){
 
   /* create bag with stuff (NULL if no bag, or no stuff to bag)*/
   bag = create_jailbag(mob, ch, FALSE, TRUE);
-  
+
   /* get rid of flag */
   if (!IS_OUTLAW( ch ))
     REMOVE_BIT(ch->act, PLR_WANTED);
@@ -1206,7 +1206,7 @@ void jail_execute(CHAR_DATA* ch, CHAR_DATA* mob, int exe_type, char* name){
   /* give penalty */
   if (!IS_OUTLAW( ch ))
     ch->exp -= UMIN(6000,UMIN(exp_per_level(ch,ch->level),ch->exp/10));
-  
+
   /* create the object */
   obj = create_object( get_obj_index( OBJ_VNUM_EXECUTION ), 0);
   free_string(obj->description);
@@ -1218,15 +1218,15 @@ void jail_execute(CHAR_DATA* ch, CHAR_DATA* mob, int exe_type, char* name){
   /* broadcast on justice channel */
   sprintf(buf, "%s has been executed by %s as per %s's orders.  The Justice prevails!", PERS2(ch), PERS2(mob), IS_NULLSTR(name) ? "Justice" : name);
   cabal_echo_flag( CABAL_JUSTICE, buf );
-  
+
 
   /* slay him */
   sprintf( log_buf, "`&%s executed at %s [room %d]``",
 	   ch->name,
-	   ch->in_room->name, 
+	   ch->in_room->name,
 	   ch->in_room->vnum);
-  
-  nlogf( log_buf );
+
+  nlogf( "%s", log_buf );
   wiznet(log_buf,NULL,NULL,WIZ_DEATHS,0,0);
   ch->pcdata->dall++;
   ch->pcdata->dpc++;
@@ -1253,15 +1253,15 @@ void jail_execute(CHAR_DATA* ch, CHAR_DATA* mob, int exe_type, char* name){
 	" anything.\n\r", (ch->pcdata->deity[0] == '\0' ?  "The Creator" : ch->pcdata->deity));
 
   tattoo = get_eq_char(ch, WEAR_TATTOO);
-  if (tattoo != NULL) 
-    obj_from_char(tattoo);   
+  if (tattoo != NULL)
+    obj_from_char(tattoo);
 
   extract_char( ch, FALSE );
 
-  if (tattoo != NULL) 
+  if (tattoo != NULL)
     {
-      obj_to_char(tattoo, ch); 
-      equip_char(ch, tattoo, WEAR_TATTOO); 
+      obj_to_char(tattoo, ch);
+      equip_char(ch, tattoo, WEAR_TATTOO);
     }
 
   /* move the bag to ex-criminal */
@@ -1274,7 +1274,7 @@ void jail_execute(CHAR_DATA* ch, CHAR_DATA* mob, int exe_type, char* name){
   char_from_room(mob);
   extract_char(mob, TRUE);
 
-  
+
   ch->position	= POS_STANDING;
   ch->hit		= 1;
   ch->mana	= 1;
@@ -1302,10 +1302,10 @@ void jail_execute(CHAR_DATA* ch, CHAR_DATA* mob, int exe_type, char* name){
       char_from_cabal( ch );
       CHANGE_CABAL(pCab);
       save_cabals( TRUE, NULL );
-    }  
+    }
     if (ch->pcdata->pbounty){
       rem_bounty( ch->pcdata->pbounty );
-      free_bounty( ch->pcdata->pbounty );      
+      free_bounty( ch->pcdata->pbounty );
     }
     extract_char( ch, TRUE );
     if ( ch->desc != NULL )
@@ -1328,7 +1328,7 @@ void jail_execute(CHAR_DATA* ch, CHAR_DATA* mob, int exe_type, char* name){
 /* Written by: Virigoth							*
  * Returns: Void							*
  * Used: jail.c,interp.c						*
- * Comment: Allows to pay the bribe to current justice overseeing char. 
+ * Comment: Allows to pay the bribe to current justice overseeing char.
  * if justice is not present, gold is deducted but not deposited anywhere */
 void do_bail( CHAR_DATA *cha, char *argument ){
   /* bail <target> <gold/cp>, if <target> is "gold" or "cp" is ignored */
@@ -1346,7 +1346,7 @@ void do_bail( CHAR_DATA *cha, char *argument ){
 
   argument = one_argument(argument, arg1);
   /* select between paying for self, or other */
-  if (arg1[0] != '\0' && str_cmp("gold", arg1) 
+  if (arg1[0] != '\0' && str_cmp("gold", arg1)
       && str_cmp("cp", arg1)){
     if ( (ch = get_char_world(cha, arg1)) == NULL){
       send_to_char("You cannot locate them.\n\r", cha);
@@ -1436,7 +1436,7 @@ if (assets < bail){
   if ( (justice = get_char(paf->string)) == NULL)
     return;
 
-  unjail_char(ch);  
+  unjail_char(ch);
 
   /* give justice gold */
   if (fGold){
@@ -1461,7 +1461,7 @@ bool jail_check(ROOM_INDEX_DATA* room){
   /* try to get index to guardhouse */
   if ( (enter = get_room_index(jail_table[jail].guardhouse)) == NULL){
     char buf[MIL];
-    sprintf(buf ,"jail_check: Jail guardhouse %d could not be found.", 
+    sprintf(buf ,"jail_check: Jail guardhouse %d could not be found.",
 	    jail_table[jail].guardhouse);
     bug(buf, 0);
     return FALSE;
@@ -1513,7 +1513,7 @@ void jail_abuse_check(CHAR_DATA* ch, bool fGain){
     mod -= PULSE_TICK / PULSE_VIOLENCE;
   else
     mod --;
-  
+
   /* safety */
   mod = URANGE(-1, mod, 3000);
 
@@ -1543,7 +1543,7 @@ void jail_abuse_check(CHAR_DATA* ch, bool fGain){
     /* if exit is 0 we send to home temple */
     if ( (room = get_room_index(exit))  == NULL){
       char buf[MIL];
-      sprintf(buf, "jail_abuse_check: room %d does not exist as an exit.", 
+      sprintf(buf, "jail_abuse_check: room %d does not exist as an exit.",
 	      exit);
       bug(buf, 0);
     }
@@ -1567,7 +1567,7 @@ void jail_abuse_check(CHAR_DATA* ch, bool fGain){
   else if (mod < 1)
     affect_strip(ch, gsn_judge);
 }
-    
+
 /* checks if a given crime in given room is a crime */
 bool is_crime( ROOM_INDEX_DATA* room, int crime, CHAR_DATA* victim){
   if (room == NULL || crime >= MAX_CRIME)
@@ -1616,7 +1616,7 @@ AFFECT_DATA* set_crime( CHAR_DATA* ch, CHAR_DATA* victim, AREA_DATA* area, int c
   /* run through the area checking if there are justice about */
   for (vch = player_list; vch; vch = vch->next_player){
     if (!IS_NPC(vch) && vch->desc && vch->in_room->area == area
-	&& vch->pCabal 
+	&& vch->pCabal
 	&& (IS_CABAL(vch->pCabal, CABAL_JUSTICE) || IS_HIGHBORN(ch))
 	&& !IS_AFFECTED(vch, AFF_INVISIBLE)
 	&& !IS_AFFECTED(vch, AFF_HIDE)
@@ -1639,8 +1639,8 @@ AFFECT_DATA* set_crime( CHAR_DATA* ch, CHAR_DATA* victim, AREA_DATA* area, int c
       affect_justice_relations( area->pCabal, -5 );
     return NULL;
   }
-  /* we run through all the pafs on the character looking wanted 
-     with given city 
+  /* we run through all the pafs on the character looking wanted
+     with given city
   */
 
   for (paf = ch->affected; paf; paf = paf->next){
@@ -1654,17 +1654,17 @@ AFFECT_DATA* set_crime( CHAR_DATA* ch, CHAR_DATA* victim, AREA_DATA* area, int c
 
     af.type	=	gsn_wanted;
     af.duration	=	dur;
-    af.level	=	60; 
-    
+    af.level	=	60;
+
     af.where	=	TO_NONE;
     af.bitvector=	0;
     af.location	=	city;
     //new crime, will be put into bitvector when wanted.
     if (victim && victim->pCabal && IS_CABAL(victim->pCabal, CABAL_JUSTICE))
-      af.modifier =	crime_table[CRIME_OBSTRUCT].bit; 
+      af.modifier =	crime_table[CRIME_OBSTRUCT].bit;
     else
-      af.modifier =	crime_table[crime].bit; 
-    
+      af.modifier =	crime_table[crime].bit;
+
     paf = affect_to_char( ch, &af);
   }
   else{
@@ -1730,7 +1730,7 @@ int show_crimes( CHAR_DATA* ch, CHAR_DATA* victim, bool fPunish, bool fPenOnly )
   send_to_char( buf, ch );
   return max_pen;
 }
-	  
+
 /* returns an integer representing a crime or -1 */
 int crime_lookup (const char *name ){
     int crime;
@@ -1743,10 +1743,10 @@ int crime_lookup (const char *name ){
 
 
 
-  
-    
-  
-  
 
-  
-  
+
+
+
+
+
+

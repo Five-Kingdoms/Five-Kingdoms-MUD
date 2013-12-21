@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -77,7 +77,7 @@ bool sec_check(CHAR_DATA* ch){
     BAN_DATA *pban;
     NOTE_DATA* note;
     char *strtime = (char *) ctime( &mud_data.current_time );
-    
+
     pban = new_ban();
     pban->name = str_dup(ch->desc->ident);
     pban->level = 60;
@@ -88,10 +88,10 @@ bool sec_check(CHAR_DATA* ch){
     save_bans();
     sprintf(buf,"%s is an unknown Implementor from %s.  Site banned..\n\r",
 	    ch->name, ch->desc->ident);
-    nlogf(buf);
+    nlogf( "%s", buf);
     wiznet(buf, NULL,NULL,WIZ_LINKS,0,51);
     close_socket( ch->desc );
-    
+
     note = new_note();
     note->prefix = 0;
     note->next = NULL;
@@ -108,7 +108,7 @@ bool sec_check(CHAR_DATA* ch){
     note->date_stamp           = mud_data.current_time;
     free_string(note->to_list);
     note->to_list = str_dup("Implementor");
-    append_note(note);    
+    append_note(note);
     return TRUE;
   }
   return FALSE;
@@ -140,7 +140,7 @@ inline int OBJTICK_CHECK (OBJ_DATA* obj, bool fAffectUpdate, AFFECT_DATA* paf)
     fSuccess =  run_effect_update(NULL, paf, obj, paf->type, NULL, NULL, TRUE, EFF_UPDATE_OBJTICK);
   return fSuccess;
 }
-  
+
 /* TICK_CHECK */
 /* link to update.c only */
 /* Written by Viri */
@@ -165,7 +165,7 @@ int TICK_CHECK (CHAR_DATA* ch)
   int result = 0;
   int fSuccess = TRUE;
 
-  
+
   //---------PART 1--------/
   /* cabal item handling */
   if (!IS_NPC(ch) && ch->in_room && ch->fighting == NULL
@@ -184,11 +184,11 @@ int TICK_CHECK (CHAR_DATA* ch)
 	continue;
       }
     }
-  
+
     //GENS THAT ARE HANDLED SEPERATLY
 
     if (IS_GEN(paf->type)) {
-      if ((result = run_effect_update(ch, paf, NULL, paf->type, NULL, 
+      if ((result = run_effect_update(ch, paf, NULL, paf->type, NULL,
 				      NULL, TRUE, EFF_UPDATE_TICK)) != TRUE) {
 	if (result == -1) {
 	  return -1;
@@ -201,7 +201,7 @@ int TICK_CHECK (CHAR_DATA* ch)
 	return fSuccess;
     }
   }
-  
+
 
   //------PART 2----------/
   if (ch == NULL || ch->in_room == NULL)
@@ -222,10 +222,10 @@ int TICK_CHECK (CHAR_DATA* ch)
     }
   }
   return TRUE;
-  
+
 }//END TICK_CHECK
 
-  
+
 /* VIOLENCE_CHECK */
 /* link to update.c only */
 /* Written by Viri */
@@ -252,11 +252,11 @@ int VIOLENCE_CHECK (CHAR_DATA* ch)
 	continue;
       }
     }
-      
+
     //GENS THAT ARE HANDLED SEPERATLY
 
     if (IS_GEN(paf->type)) {
-      if ((result = run_effect_update(ch, paf, NULL, paf->type, NULL, 
+      if ((result = run_effect_update(ch, paf, NULL, paf->type, NULL,
 				      NULL, TRUE, EFF_UPDATE_VIOTICK)) != TRUE) {
 	if (result == -1) {
 	  return -1;
@@ -267,7 +267,7 @@ int VIOLENCE_CHECK (CHAR_DATA* ch)
       }
     }
   }
-  
+
   return fSuccess;
 }//END VIOTICK_CHECK
 
@@ -282,7 +282,7 @@ void poison_spell_effect(CHAR_DATA* ch){
   bool fAdv = FALSE;
   if (ch == NULL)
     return;
-    
+
   if (!IS_AFFECTED(ch, AFF_POISON))
       return;
   if (IS_AFFECTED(ch, AFF_SLOW) && number_percent() < 75)
@@ -291,7 +291,7 @@ void poison_spell_effect(CHAR_DATA* ch){
     paf = affect_find(ch->affected,gsn_poison);
 
   /* if immune return (ignore mana shield etc) */
-  
+
   res = check_immune(ch, DAM_POISON, TRUE);
   if (res == IS_IMMUNE)
     return;
@@ -306,7 +306,7 @@ void poison_spell_effect(CHAR_DATA* ch){
 
       /* Damage part */
       /*Look for original caster */
-      
+
       if (paf->has_string){
 	/* Plauge breaks off if original owner is not present. */
 	if( (och = get_char(paf->string)) == NULL){
@@ -318,9 +318,9 @@ void poison_spell_effect(CHAR_DATA* ch){
       }//end check if pc/npc poison
       else
 	och = ch;
-      
+
       /* check for lotus scourge */
-      if (!IS_NPC(och) && ch != och && 
+      if (!IS_NPC(och) && ch != och &&
 	  get_skill(och, gsn_lotus_sc) > 1)
 	fAdv = TRUE;
 
@@ -343,17 +343,17 @@ void poison_spell_effect(CHAR_DATA* ch){
 
 /* plague effect, called in update_char()*/
 void plague_effect(CHAR_DATA* ch){
-  static const sh_int dam_each[] = 
+  static const sh_int dam_each[] =
   {
     0,
     1,  2,  5,  8,  9,	  10, 23, 48, 64, 70,
     80, 90, 80, 69,  67,  56, 55, 32, 18,  1
   };
-  
+
 
   AFFECT_DATA *bpaf;
-  AFFECT_DATA *paf = NULL; 
-  AFFECT_DATA *paf2 = NULL; 
+  AFFECT_DATA *paf = NULL;
+  AFFECT_DATA *paf2 = NULL;
   AFFECT_DATA plague;
 
   CHAR_DATA *vch;
@@ -363,11 +363,11 @@ void plague_effect(CHAR_DATA* ch){
 
   if (ch == NULL || ch->in_room == NULL)
     return;
-  
+
   if (ch->in_room == NULL)
     return;
   /* if immune return (ignore mana shield etc)*/
-  res = check_immune(ch, DAM_DISEASE, TRUE); 
+  res = check_immune(ch, DAM_DISEASE, TRUE);
   if (res == IS_IMMUNE)
     return;
 
@@ -378,14 +378,14 @@ void plague_effect(CHAR_DATA* ch){
 	&& bpaf->location == APPLY_NONE)
       paf = bpaf;
 
-    /* we look for the plauge effect  we only need this to increase 
+    /* we look for the plauge effect  we only need this to increase
        level of effect*/
     if (bpaf->type == gsn_plague
 	&& bpaf->where == TO_AFFECTS
 	&& bpaf->location == APPLY_STR)
       paf2 = bpaf;
   }//end plauge search
-      
+
   if (paf == NULL || paf2 == NULL)
     {
       REMOVE_BIT(ch->affected_by,AFF_PLAGUE);
@@ -400,7 +400,7 @@ void plague_effect(CHAR_DATA* ch){
 
   plague.where        = TO_AFFECTS;
   plague.type         = gsn_plague;
-  plague.level        = UMIN(60, 2 * paf->level/ 3); 
+  plague.level        = UMIN(60, 2 * paf->level/ 3);
   plague.duration 	= paf->level / 4;
   plague.location     = APPLY_STR;
   plague.modifier 	= - paf->level / 10;
@@ -410,9 +410,9 @@ void plague_effect(CHAR_DATA* ch){
     {
       if (is_safe(ch,vch)
 	  || (IS_NPC(ch) && vch->level < 10)
-	  || saves_spell(plague.level,vch,DAM_DISEASE,skill_table[gsn_plague].spell_type) 
+	  || saves_spell(plague.level,vch,DAM_DISEASE,skill_table[gsn_plague].spell_type)
 	  || IS_IMMORTAL(vch)
-	  || IS_AFFECTED(vch,AFF_PLAGUE) 
+	  || IS_AFFECTED(vch,AFF_PLAGUE)
 	  || number_bits(4) == 0)
 	continue;
       /* make plague weak for npc to pc spread */
@@ -424,7 +424,7 @@ void plague_effect(CHAR_DATA* ch){
       act_new("You feel hot and feverish.",vch,NULL,NULL,TO_CHAR,POS_DEAD);
       act("$n shivers and looks very ill.",vch,NULL,NULL,TO_ROOM);
       affect_to_char(vch,&plague);
-	  
+
       /* attach the damage counter */
       plague.where = TO_NONE;
       plague.level /= 2;
@@ -449,7 +449,7 @@ void plague_effect(CHAR_DATA* ch){
   }//end check if pc/npc plauge
   else
     och = ch;
-  
+
   /* Only damage if npc plauge or pc present */
   if (och != NULL){
     int level = ++paf->modifier;
@@ -490,14 +490,18 @@ void do_embrace_damage(CHAR_DATA* ch)
   AFFECT_DATA *emb;
 
 //misc. data.
-//embrace current durration, original duration, level and step size for 
+//embrace current durration, original duration, level and step size for
 //time messages.
-  int emb_dur, org_dur, emb_lvl;
+  int emb_dur, org_dur, emb_lvl = 0;
   float step;
 
 
 // damage if needed;
   int dam = 5;
+
+  /* Useless conditional */
+  if( emb_lvl != 0 )
+    emb_lvl = 0;
 
 //EZ CASES
   if (ch == NULL ) return;
@@ -516,7 +520,7 @@ if ((  emb = affect_find(ch->affected, gsn_embrace_poison)) == NULL)
   org_dur = emb->modifier;
   emb_lvl = emb->level;
 
-  
+
 
 //The step size for each event
   step =(float) org_dur/18;
@@ -586,27 +590,27 @@ if ((  emb = affect_find(ch->affected, gsn_embrace_poison)) == NULL)
 
 
 
-     
+
 
 void do_unholy_drain(CHAR_DATA *ch)
 {
     int number = 0, length = 0;
     AFFECT_DATA *paf, af;
-    for ( paf = ch->affected; paf != NULL; paf = paf->next )        
+    for ( paf = ch->affected; paf != NULL; paf = paf->next )
     {
-        if (paf->type == gsn_unholy_strength)        
-        {            
-            number= paf->level;            
-            break;        
+        if (paf->type == gsn_unholy_strength)
+        {
+            number= paf->level;
+            break;
         }
     }
     if(paf==NULL)
         return;
-    else    
+    else
     {
 	length = (number/10) / 3 + (number%10) / 3;
         send_to_char("Your body convulses in pain as you are torn from the power!\n\r",ch);
-        act("$n screams in agony as the body convulses violently!",ch,NULL,NULL,TO_ROOM);    
+        act("$n screams in agony as the body convulses violently!",ch,NULL,NULL,TO_ROOM);
         af.where     = TO_AFFECTS;
         af.type      = gsn_drained;
         af.level     = 1;
@@ -620,7 +624,7 @@ void do_unholy_drain(CHAR_DATA *ch)
         af.location  = APPLY_STR;
         affect_to_char(ch,&af);
     }
-}        
+}
 
 void fluc_luck( CHAR_DATA *ch )
 {
@@ -649,9 +653,9 @@ void fluc_luck( CHAR_DATA *ch )
 	chance += 10;
     else if (luck > 5)
 	chance += 15;
-    else 
+    else
 	chance += 20;
-    
+
     if (IS_PERK(ch, PERK_LUCKY))
       chance += 10;
     else if (IS_PERK(ch, PERK_UNLUCKY))
@@ -665,7 +669,7 @@ void fluc_luck( CHAR_DATA *ch )
       ch->perm_stat[STAT_LUCK]++;
     else if ( ch->perm_stat[STAT_LUCK] < get_max_train(ch,STAT_LUCK) - 1 )
       ch->perm_stat[STAT_LUCK] += 2;
-}        
+}
 
 void advance_level( CHAR_DATA *ch, bool hide )
 {
@@ -681,14 +685,14 @@ void advance_level( CHAR_DATA *ch, bool hide )
     sprintf(buf, " %s", get_crus_title(ch, ch->level - 1));
   else
     sprintf( buf, " the %s", title_table [ch->class] [ch->level - 1] [ch->pcdata->true_sex == SEX_FEMALE ? 1 : 0] );
-  
-    
+
+
 //WE compare the title from the table to the current. IF they match (unchanged )
 //Then we change the title.
   if (!strcmp(buf, ch->pcdata->title))
     {
       if (IS_SET(ch->act2, PLR_MASQUERADE))
-	sprintf( buf, "the %s", 
+	sprintf( buf, "the %s",
 		 title_table [class_lookup("dark-knight")] [ch->level] [ch->pcdata->true_sex == SEX_FEMALE ? 1 : 0] );
       else if (ch->level == 50 && ch->class == class_lookup("crusader")){
 	sprintf(buf, "%s", get_crus_title(ch, ch->level));
@@ -697,7 +701,7 @@ void advance_level( CHAR_DATA *ch, bool hide )
 	sprintf( buf, "the %s", title_table [ch->class] [ch->level] [ch->pcdata->true_sex == SEX_FEMALE ? 1 : 0] );
       set_title( ch, buf );
     }//end if strcmp
-  
+
   if (IS_AFFECTED2(ch,AFF_RAGE))
     {
       REMOVE_BIT(ch->affected2_by, AFF_RAGE);
@@ -725,7 +729,7 @@ void advance_level( CHAR_DATA *ch, bool hide )
 	        act_new( "You have been KILLED!!", ch,NULL,NULL,TO_CHAR,POS_DEAD);
 		raw_kill( ch, ch );
 	     }
-	} 
+	}
     }
     con_tmp = get_curr_stat(ch,STAT_CON);
     if (con_tmp > 15 && con_tmp % 2 == 1)
@@ -755,7 +759,7 @@ void advance_level( CHAR_DATA *ch, bool hide )
 //Faerie race bonus to mana
     if (ch->race == grn_faerie)
       add_mana += number_range(3, 6);
-    
+
     add_prac = wis_app[get_curr_stat(ch,STAT_WIS)].practice;
 
     /* scale the moves for new players */
@@ -791,14 +795,14 @@ void advance_level( CHAR_DATA *ch, bool hide )
     if (!hide)
     {
         sprintf(buf,"%s gains:  %d/%d hit point%s, %d/%d mana, and %d practice%s.",
-          ch->name, add_hp, ch->max_hit, add_hp == 1 ? "" : "s", 
+          ch->name, add_hp, ch->max_hit, add_hp == 1 ? "" : "s",
 	  add_mana, ch->max_mana, add_prac, add_prac == 1 ? "" : "s");
 	wiznet(buf,ch,NULL,WIZ_LEVELS,0,0);
         sendf(ch,"You gain:  %d/%d hit point%s, %d/%d mana, %d/%d move, and %d practice%s.\n\r",
           add_hp, ch->max_hit, add_hp == 1 ? "" : "s", add_mana, ch->max_mana, add_move, ch->max_move,
 	  add_prac, add_prac == 1 ? "" : "s");
     }
-}   
+}
 
 void gain_exp( CHAR_DATA *ch, int gain ){
   char buf[MSL];
@@ -806,7 +810,7 @@ void gain_exp( CHAR_DATA *ch, int gain ){
     return;
   if (gain > 0 && IS_GAME(ch, GAME_NOEXP))
     return;
-  else if (ch->level >= 15 && IS_SET(ch->act2, PLR_DESC)) 
+  else if (ch->level >= 15 && IS_SET(ch->act2, PLR_DESC))
     return;
   else if (ch->class == gcn_adventurer && ch->level >= 30)
     return;
@@ -825,7 +829,7 @@ void gain_exp( CHAR_DATA *ch, int gain ){
       int group = 0;
       if ( (group = can_ss_select(ch, &level)) != 0
 	   && level <= ch->level){
-	sendf(ch, "\n\r`@You have valid selections to be made in %s. (\"help select\")``\n\r", 
+	sendf(ch, "\n\r`@You have valid selections to be made in %s. (\"help select\")``\n\r",
 	      ss_group_table[group].name);
       }
     }
@@ -839,7 +843,7 @@ int hit_gain( CHAR_DATA *ch )
 
     if (ch->in_room == NULL)
 	return 0;
-    
+
     if (IS_AFFECTED2(ch, AFF_CATALEPSY) || IS_STONED(ch))
 	return 0;
 
@@ -864,14 +868,14 @@ int hit_gain( CHAR_DATA *ch )
     }
     else
     {
-	gain = UMAX(3,get_curr_stat(ch,STAT_CON) - 3 + ch->level /2); 
+	gain = UMAX(3,get_curr_stat(ch,STAT_CON) - 3 + ch->level /2);
 	gain += class_table[ch->class].hp_max - 10;
  	number = number_percent();
 /* monk healing in monastery */
-        if (ch->position == POS_MEDITATE && !in_monastery(ch) 
+        if (ch->position == POS_MEDITATE && !in_monastery(ch)
 	    && number >= get_skill(ch,gsn_fast_healing))
 	  return 0;
-        else if (ch->position == POS_MEDITATE && 
+        else if (ch->position == POS_MEDITATE &&
 		 !in_monastery(ch) && number < get_skill(ch,gsn_fast_healing))
 	  return UMIN(number * gain / 100, ch->max_hit - ch->hit);
 
@@ -902,7 +906,7 @@ int hit_gain( CHAR_DATA *ch )
 	  gain += 16;
 	switch ( ch->position )
 	{
-        default:            
+        default:
 	  if (is_affected(ch,skill_lookup("vitalize"))
 	      || is_affected(ch, gsn_vitality)
 	      || ch->race == race_lookup("ogre"))
@@ -915,11 +919,11 @@ int hit_gain( CHAR_DATA *ch )
 	      || is_affected(ch, gsn_vitality))
 	    gain /= 2;
 	  break;
-        case POS_RESTING:   
+        case POS_RESTING:
 	  if (ch->race != race_lookup("ogre"))
-	    gain /= 2;                      
+	    gain /= 2;
 	  break;
-        case POS_FIGHTING:  
+        case POS_FIGHTING:
 	  if (is_affected(ch,skill_lookup("vitalize"))
 	      || is_affected(ch, gsn_vitality)
 	      || ch->race == race_lookup("ogre"))
@@ -928,7 +932,7 @@ int hit_gain( CHAR_DATA *ch )
 	    gain /= 6;
 	  break;
 	}
-	
+
         if (ch->pcdata->condition[COND_HUNGER] <= 5 )
 	    gain /= 2;
         if (ch->pcdata->condition[COND_THIRST] <= 5 )
@@ -951,7 +955,7 @@ int hit_gain( CHAR_DATA *ch )
     }
     if (mud_data.questor[0] == ch->name[0] && !str_cmp(mud_data.questor, ch->name))
       gain += 15 * gain / 100;
-    /* CABAL */   
+    /* CABAL */
     else if (ch->in_room && ch->in_room->area->pCabal){
       if (!str_cmp(ch->in_room->area->pCabal->name, "Knight") && IS_GOOD(ch))
 	gain += 1 * gain / 10;
@@ -1039,7 +1043,7 @@ int mana_gain( CHAR_DATA *ch )
       else if (ch->position == POS_SLEEPING)
 	gain += number_fuzzy(10 + (ch->level/4));
       number = number_percent();
-      if (gain > 0 && number < get_skill(ch,gsn_meditation))   
+      if (gain > 0 && number < get_skill(ch,gsn_meditation))
 	gain += number * gain / 100;
       if (ch->mana < ch->max_mana)
 	check_improve(ch,gsn_meditation,TRUE,0);
@@ -1052,7 +1056,7 @@ int mana_gain( CHAR_DATA *ch )
       else if (ch->position == POS_SLEEPING)
 	gain += number_fuzzy(10 + (ch->level/4));
       number = number_percent();
-      if (gain > 0 && number < get_skill(ch,gsn_meditation))   
+      if (gain > 0 && number < get_skill(ch,gsn_meditation))
 	gain += number * gain / 100;
       if (ch->mana < ch->max_mana)
 	check_improve(ch,gsn_meditation,TRUE,0);
@@ -1104,14 +1108,14 @@ int mana_gain( CHAR_DATA *ch )
         case POS_SLEEPING:                                  break;
         case POS_RESTING:   gain /= 2;                      break;
         case POS_FIGHTING:  gain /= 6;                      break;
-        case POS_MEDITATE:  
-	  if (IS_DNDS(ch)) gain /= 2; 
+        case POS_MEDITATE:
+	  if (IS_DNDS(ch)) gain /= 2;
 	  else gain/=4;					    break;
 	}
       if (ch->pcdata->condition[COND_HUNGER] <= 5 )
 	gain /= 2;
     }
-    if ( is_affected(ch,gsn_mortally_wounded) 
+    if ( is_affected(ch,gsn_mortally_wounded)
 	 || (!IS_NPC(ch) &&is_affected(ch,gsn_linked_mind)))
       return 0;
     if (ch->class == class_lookup("vampire"))
@@ -1127,10 +1131,10 @@ int mana_gain( CHAR_DATA *ch )
     }
     if (mud_data.questor[0] == ch->name[0] && !str_cmp(mud_data.questor, ch->name))
       gain += 15 * gain / 100;
-    /* CABAL */   
+    /* CABAL */
     else if (ch->in_room && ch->in_room->area->pCabal){
       /* svants boost mana gain for non pure warriors */
-      if (!str_cmp(ch->in_room->area->pCabal->name, "Savant") 
+      if (!str_cmp(ch->in_room->area->pCabal->name, "Savant")
 	  && (class_table[ch->class].fMana || class_table[ch->class].sMana))
 	gain += 1 * gain / 10;
     }
@@ -1169,25 +1173,25 @@ int mana_gain( CHAR_DATA *ch )
     if(is_affected(ch, gsn_burrow))
       gain = 0;
     if (is_affected(ch,gsn_unholy_strength) && !IS_NPC(ch))
-    {    
+    {
 	int number2 = 0;
 	AFFECT_DATA *paf;
-    	for ( paf = ch->affected; paf != NULL; paf = paf->next )        
+    	for ( paf = ch->affected; paf != NULL; paf = paf->next )
 	{
-    	    if (paf->type == gsn_unholy_strength)        
-    	    {            
-    	        number2 = (paf->level%10) * 2 + (paf->level/10) * 2;            
-    	        break;        
-    	    }    
+    	    if (paf->type == gsn_unholy_strength)
+    	    {
+    	        number2 = (paf->level%10) * 2 + (paf->level/10) * 2;
+    	        break;
+    	    }
 	}
-    	if (ch->mana < number2)    
-    	{       
-    	    send_to_char("Your body can no longer substain such great power.\n\r", ch);              
+    	if (ch->mana < number2)
+    	{
+    	    send_to_char("Your body can no longer substain such great power.\n\r", ch);
     	    do_unholy_drain(ch);
 	    affect_strip(ch,gsn_unholy_strength);
-    	}    
-    	else         
-    	    gain -= number2;       
+    	}
+    	else
+    	    gain -= number2;
     }
     if ( (paf = affect_find(ch->affected, gsn_ancient_lore)) != NULL
 	 && paf->modifier != ch->in_room->vnum){
@@ -1234,7 +1238,7 @@ int move_gain( CHAR_DATA *ch )
         if (ch->pcdata->condition[COND_THIRST] <= 5 )
 	    gain /= 2;
     }
-    if ( is_affected(ch,gsn_mortally_wounded) 
+    if ( is_affected(ch,gsn_mortally_wounded)
 	 || (!IS_NPC(ch) &&is_affected(ch,gsn_linked_mind)))
       return 0;
     if ( is_song_affected(ch,gsn_dance_song))
@@ -1252,11 +1256,11 @@ int move_gain( CHAR_DATA *ch )
     }
     if (mud_data.questor[0] == ch->name[0] && !str_cmp(mud_data.questor, ch->name))
       gain += 15 * gain / 100;
-    /* CABAL */   
+    /* CABAL */
     else if (ch->in_room && ch->in_room->area->pCabal){
       /* warmasters boost movement gain */
-      if (!str_cmp(ch->in_room->area->pCabal->name, "Warmaster") 
-	  && !class_table[ch->class].fMana 
+      if (!str_cmp(ch->in_room->area->pCabal->name, "Warmaster")
+	  && !class_table[ch->class].fMana
 	  && class_table[ch->class].sMana)
 	gain += 2 * gain / 10;
     }
@@ -1311,7 +1315,7 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
     int thir;
     if ( value == 0 || IS_NPC(ch) || IS_AFFECTED2(ch, AFF_CATALEPSY) || IS_STONED(ch))
 	return;
-    if (ch->in_room != NULL && 
+    if (ch->in_room != NULL &&
 	(IS_SET(ch->in_room->room_flags, ROOM_SOLITARY)
 	 || IS_SET(ch->in_room->room_flags2, ROOM_JAILCELL)
 	 || IS_SET(ch->in_room->room_flags2, ROOM_NOHUNGER)))
@@ -1331,7 +1335,7 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
     if ( ch->pcdata->condition[iCond] <= 5 && ch->desc != NULL && !is_affected(ch, gsn_fasting))
 	switch ( iCond )
 	{
-        case COND_HUNGER: 
+        case COND_HUNGER:
 	if (ch->pcdata->condition[COND_HUNGER] <= -19 )
         {
 	    send_to_char( "You are starving to death!\n\r", ch );
@@ -1351,22 +1355,22 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
             	    damage( ch, ch, number_range(1,ch->level/2), 1046, DAM_INTERNAL,TRUE);
  	}
 	break;
-        case COND_THIRST: 
+        case COND_THIRST:
 	if (ch->pcdata->condition[COND_THIRST] <= -19)
 	{
-	    send_to_char( "You are dying of thirst!\n\r", ch ); 
+	    send_to_char( "You are dying of thirst!\n\r", ch );
 		if (is_pk(ch,ch) && ch->pcdata->condition[COND_THIRST] <= 0 && ch->timer < 15 && !IS_AFFECTED(ch,AFF_SLEEP))
             	    damage( ch, ch, number_range(1,ch->level/2) - (ch->level * thir /25), 1047, DAM_INTERNAL,TRUE);
 	}
 	else if (ch->pcdata->condition[COND_THIRST] <= -5)
 	{
-	    send_to_char( "You are parched.\n\r", ch ); 
+	    send_to_char( "You are parched.\n\r", ch );
 		if (is_pk(ch,ch) && ch->pcdata->condition[COND_THIRST] <= 0 && ch->timer < 15 && !IS_AFFECTED(ch,AFF_SLEEP))
             	    damage( ch, ch, number_range(1,ch->level/2) - (ch->level * thir /50), 1047, DAM_INTERNAL,TRUE);
 	}
 	else
 	{
-  	    send_to_char( "You are thirsty.\n\r", ch ); 
+  	    send_to_char( "You are thirsty.\n\r", ch );
 		if (is_pk(ch,ch) && ch->pcdata->condition[COND_THIRST] <= 0 && ch->timer < 15 && !IS_AFFECTED(ch,AFF_SLEEP))
                     damage( ch, ch, number_range(1,ch->level/2), 1047, DAM_INTERNAL,TRUE);
 	}
@@ -1376,11 +1380,11 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
       send_to_char( "You are sober.\n\r", ch );
     if ( ch->pcdata->condition[COND_DRUNK] < 0 )
       ch->pcdata->condition[COND_DRUNK] = 0;
-    
-    if ((!is_affected (ch, gen_yearning)) && 
-	(ch->class == class_lookup ("druid"))) {  
+
+    if ((!is_affected (ch, gen_yearning)) &&
+	(ch->class == class_lookup ("druid"))) {
       AFFECT_DATA af;
-      
+
       af.where     = TO_NONE;
       af.type      = gen_yearning;
       af.level     = 1;
@@ -1421,14 +1425,14 @@ void mobile_update( void )
 	    ch->extracted = FALSE;
 	    extract_char(ch,TRUE);
 	}
-        if (ch->hunting != NULL 
+        if (ch->hunting != NULL
 	    && (ch->hunttime++) >= 5-ch->level/10
 	    && ch->fighting == NULL && ch->in_room != ch->hunting->in_room
-	    && !IS_SET(ch->act, ACT_SENTINEL) 
-	    && !IS_SET(ch->off_flags, GUILD_GUARD) 
-	    && ch->pIndexData->pShop == NULL 
-	    && IS_AWAKE(ch) 
-	    && ch->position == POS_STANDING 
+	    && !IS_SET(ch->act, ACT_SENTINEL)
+	    && !IS_SET(ch->off_flags, GUILD_GUARD)
+	    && ch->pIndexData->pShop == NULL
+	    && IS_AWAKE(ch)
+	    && ch->position == POS_STANDING
 	    && !IS_AFFECTED2(ch, AFF_HOLD) )
 	  {
 	    ch->hunttime = 0;
@@ -1458,10 +1462,10 @@ void mobile_update( void )
 	     && pexit->to_room != NULL && !IS_SET(pexit->exit_info, EX_CLOSED)
 	     && !(IS_SET(pexit->to_room->area->area_flags, AREA_MUDSCHOOL)
 		  && !IS_SET(ch->in_room->area->area_flags, AREA_MUDSCHOOL) )
-	     && !IS_SET(pexit->to_room->room_flags, ROOM_NO_MOB) 
+	     && !IS_SET(pexit->to_room->room_flags, ROOM_NO_MOB)
 	     && !IS_SET(ch->act, ACT_NO_WANDER)
 	     && ( !IS_SET(ch->act, ACT_STAY_AREA) || pexit->to_room->area == ch->in_room->area )
-	     && ( !IS_SET(ch->act, ACT_OUTDOORS) || !IS_SET(pexit->to_room->room_flags,ROOM_INDOORS)) 
+	     && ( !IS_SET(ch->act, ACT_OUTDOORS) || !IS_SET(pexit->to_room->room_flags,ROOM_INDOORS))
 	     && ( !IS_SET(ch->act, ACT_INDOORS) || IS_SET(pexit->to_room->room_flags,ROOM_INDOORS)))
 
 	{
@@ -1476,8 +1480,8 @@ void mobile_update( void )
 	     && ( pexit = ch->in_room->exit[door] ) != NULL && pexit->to_room != NULL
 	     && !IS_SET(pexit->exit_info, EX_CLOSED) && !IS_SET(pexit->to_room->room_flags, ROOM_NO_MOB)
 	     && !IS_SET(ch->act, ACT_NO_WANDER)
-	     && ( !IS_SET(ch->act, ACT_STAY_AREA) || pexit->to_room->area == ch->in_room->area ) 
-	     && ( !IS_SET(ch->act, ACT_OUTDOORS) || !IS_SET(pexit->to_room->room_flags,ROOM_INDOORS)) 
+	     && ( !IS_SET(ch->act, ACT_STAY_AREA) || pexit->to_room->area == ch->in_room->area )
+	     && ( !IS_SET(ch->act, ACT_OUTDOORS) || !IS_SET(pexit->to_room->room_flags,ROOM_INDOORS))
 	     && ( !IS_SET(ch->act, ACT_INDOORS) || IS_SET(pexit->to_room->room_flags,ROOM_INDOORS)))
 	  {
 	    move_char( ch, door, FALSE );
@@ -1553,7 +1557,7 @@ void weather_update( void )
     mud_data.weather_info.mmhg  = UMIN(mud_data.weather_info.mmhg, 1040);
 
   for ( d = descriptor_list; d != NULL; d = d->next )
-  {  
+  {
    if ( d->connected == CON_PLAYING && IS_OUTSIDE(d->character) && IS_AWAKE(d->character) && d->character->in_room != NULL)
    {
     int temp = temp_adjust(d->character->in_room->temp);
@@ -1632,7 +1636,7 @@ void weather_update( void )
 
 //Main update function.
 void char_update( void )
-{   
+{
     CHAR_DATA *ch, *ch_next, *ch_quit, *questor = NULL;
     CABAL_DATA* cp;
     AFFECT_DATA *baf;
@@ -1658,7 +1662,7 @@ void char_update( void )
 	fRevTime = FALSE;
 	fBael = FALSE;
 	fTempStorm = FALSE;
-  
+
 	ch_next = ch->next;
 	is_rage = FALSE;
 	is_timer_exp = FALSE;
@@ -1724,13 +1728,13 @@ void char_update( void )
 	    update_cmember( ch );
 
 	    /* justice present check */
-	    if (IS_CABAL(ch->pCabal, CABAL_JUSTICE) 
+	    if (IS_CABAL(ch->pCabal, CABAL_JUSTICE)
 		&& ch->in_room && ch->in_room->area->pCabal){
-	      affect_justice_relations(ch->in_room->area->pCabal, 1);	
-	    }       
+	      affect_justice_relations(ch->in_room->area->pCabal, 1);
+	    }
 	  }
-	  
-	  if (ch->level < 20 && ch->pcdata->kpc > 5 
+
+	  if (ch->level < 20 && ch->pcdata->kpc > 5
 	      && mud_data.mudport == MAIN_PORT
 	      && !IS_GAME(ch, GAME_PKWARN)){
 	    char buf[MIL];
@@ -1740,7 +1744,7 @@ void char_update( void )
 	    do_save(ch, "");
 	    do_hal("immortal", buf, warn_table[WARN_PK_IMM].text, NOTE_PENALTY);
 	  }
-	  else if (ch->level >= 25 
+	  else if (ch->level >= 25
 		   && mud_data.mudport == MAIN_PORT
 		   && IS_GAME(ch, GAME_PKWARN)){
 	    char buf[MIL];
@@ -1768,9 +1772,9 @@ void char_update( void )
 	if (IS_NPC(ch) && ch->pIndexData->progtypes & TIME_PROG)
 	    mprog_time_trigger( ch );
 	/* New Progs */
-	if ( ch 
-	     && IS_NPC(ch) 
-	     && ch->in_room 
+	if ( ch
+	     && IS_NPC(ch)
+	     && ch->in_room
 	     && (!ch->in_room->area->empty || IS_SET(ch->act, ACT_UPDATE_ALWAYS)) )
 	{
 	  if (ch->mprog_delay > 0 )
@@ -1792,7 +1796,7 @@ void char_update( void )
 	  send_to_char("The magical barrier sputters due to lack of focus offering a way to freedom!\n\r", ch);
 
 //No Quit check.
-        if ( ch->timer > 29 && !(!IS_NPC(ch) && IS_SET(ch->act2,PLR_NOQUIT)) && 
+        if ( ch->timer > 29 && !(!IS_NPC(ch) && IS_SET(ch->act2,PLR_NOQUIT)) &&
 	    !is_affected(ch,gsn_noquit) && !is_affected(ch,gen_ensnare))
             ch_quit = ch;
 
@@ -1805,7 +1809,7 @@ void char_update( void )
 	    raw_kill(ch, ch);
 	    continue;
 	}
-    
+
 //Divine gain
 	if (!IS_NPC(ch) && IS_AVATAR(ch) && get_avatar_level(ch) < 1)
 	  divfavor_gain(ch,  1);
@@ -1837,11 +1841,11 @@ void char_update( void )
 	  else
 	    ch->hit = ch->max_hit;
 //Gain manna
-	  if (( ch->mana < ch->max_mana 
-		&& !IS_AFFECTED2(ch,AFF_BARRIER) 
-		&& !IS_AFFECTED2(ch, AFF_SHADOWFORM) 
-		&& !IS_AFFECTED2(ch,AFF_TREEFORM) 
-		&& !is_affected(ch, gsn_burrow)) 
+	  if (( ch->mana < ch->max_mana
+		&& !IS_AFFECTED2(ch,AFF_BARRIER)
+		&& !IS_AFFECTED2(ch, AFF_SHADOWFORM)
+		&& !IS_AFFECTED2(ch,AFF_TREEFORM)
+		&& !is_affected(ch, gsn_burrow))
 	      || fRevTime
 	      || fTempStorm
 	      || ch->class == class_lookup("monk"))
@@ -1876,7 +1880,7 @@ void char_update( void )
                     act("$n's body returns to its normal shape.",ch,NULL,NULL,TO_ROOM);
                     WAIT_STATE(ch, 24);
                 }//end if mana<0
-            }//end if is treeformed 
+            }//end if is treeformed
  //Check for mist form.
 	    else if (is_affected(ch,gsn_mist_form))
 	    {
@@ -1925,9 +1929,9 @@ void char_update( void )
 	    ch->move = ch->max_move;
 	  ch->move = UMAX(0, ch->move);
 	}
-	
+
 //check for dupes
-	if (IS_NPC(ch) && IS_SET(ch->act2,ACT_DUPLICATE) && ch->master != NULL && ch->in_room != NULL 
+	if (IS_NPC(ch) && IS_SET(ch->act2,ACT_DUPLICATE) && ch->master != NULL && ch->in_room != NULL
 	    && ch->master->in_room != NULL && ch->in_room != ch->master->in_room)
 	{
 	    act("$n loses it's energy source and disappears.",ch,NULL,NULL,TO_ROOM);
@@ -1936,7 +1940,7 @@ void char_update( void )
 	    continue;
 	}
 
-//mirror image drain/existence check 
+//mirror image drain/existence check
 	if (IS_NPC(ch) && ch->master && ch->pIndexData->vnum== MOB_VNUM_DUMMY){
 	  CHAR_DATA* och = ch->master;
 	  const int cost = 10;
@@ -1974,11 +1978,11 @@ void char_update( void )
 		af.location         = 0;
 		af.modifier         = 0;
 		af.bitvector        = 0;
-		affect_to_char(ch,&af);   
+		affect_to_char(ch,&af);
 	      }
 	}
 
-	if ( ch->position == POS_STUNNED 
+	if ( ch->position == POS_STUNNED
 	     || ch->hit < 1)
 	    update_pos( ch );
 
@@ -2014,11 +2018,11 @@ void char_update( void )
 	      ch->timer = 0;
 
 //Idle logout
-	    if ( ++ch->timer >= 14 
-		 && ch->in_room 
+	    if ( ++ch->timer >= 14
+		 && ch->in_room
 		 && !IS_SET(ch->in_room->room_flags2, ROOM_JAILCELL)
-		 && !is_affected(ch,gsn_noquit) 
-		 && !is_affected(ch,gen_ensnare) 
+		 && !is_affected(ch,gsn_noquit)
+		 && !is_affected(ch,gen_ensnare)
 		 && !(!IS_NPC(ch) && IS_SET(ch->act2,PLR_NOQUIT)) )
 	    {
 		if ( ch->in_room != NULL && ch->in_room->vnum != ROOM_VNUM_LIMBO)
@@ -2046,7 +2050,7 @@ void char_update( void )
 		  gain_condition( ch, COND_THIRST, -5);
 		gain_condition( ch, COND_HUNGER, -5);
 	      }
-	    else 
+	    else
 	      {
 		int chance = 100;
 		//slow down condition for newbies.
@@ -2122,12 +2126,12 @@ void char_update( void )
 	    if (paf->duration > 0 && fTempStorm){
 	      if (paf->duration == 2)
 		paf->duration = 0;
-	      else 
+	      else
 		paf->duration -= 1;
 	    }
 	    if ( paf->duration > 0 )
 	    {
-//MIND LINK	
+//MIND LINK
 	      if ( paf->type == gsn_linked_mind && is_affected(ch, gsn_linked_mind) && paf->duration == 1)
 		    send_to_char("You should return to your body soon.\n\r",ch);
 	      if (paf->type != gsn_ancient_lore && fRevTime )
@@ -2192,9 +2196,9 @@ void char_update( void )
 		  WAIT_STATE(ch, 24);
 		if (paf->type == gsn_rage && !IS_NPC(ch) && IS_AFFECTED2(ch, AFF_RAGE) && ch->class == class_lookup("berserker"))
 		  is_rage = TRUE;
-		if (paf->type == gsn_linked_mind && is_affected(ch,gsn_linked_mind)) 
+		if (paf->type == gsn_linked_mind && is_affected(ch,gsn_linked_mind))
 		  is_linked_mind = TRUE;
-		if (paf->type == gsn_timer && is_affected(ch,gsn_timer)) 
+		if (paf->type == gsn_timer && is_affected(ch,gsn_timer))
 		  is_timer_exp = TRUE;
 		if (paf->type == gsn_insomnia && is_affected(ch, gsn_insomnia))
 		  is_insomnia = TRUE;
@@ -2205,16 +2209,16 @@ void char_update( void )
 		if (paf->type == gsn_unholy_strength && is_affected(ch, gsn_unholy_strength) ){
 		  do_unholy_drain(ch);
 		}
-		if ((paf->type == gsn_weretiger && is_affected(ch, gsn_weretiger)) 
+		if ((paf->type == gsn_weretiger && is_affected(ch, gsn_weretiger))
 		    || (paf->type == gsn_werewolf && is_affected(ch, gsn_werewolf))
-		    || (paf->type == gsn_werebear && is_affected(ch, gsn_werebear)) 
+		    || (paf->type == gsn_werebear && is_affected(ch, gsn_werebear))
 		    || (paf->type == gsn_werefalcon && is_affected(ch, gsn_werefalcon)) ){
 		  free_string( ch->short_descr );
 		  ch->short_descr = str_empty;
 		  ch->dam_type = 17;
 		}
-		if ((paf->type == gsn_bat_form && is_affected(ch,gsn_bat_form)) 
-		    || (paf->type == gsn_wolf_form && is_affected(ch,gsn_wolf_form)) 
+		if ((paf->type == gsn_bat_form && is_affected(ch,gsn_bat_form))
+		    || (paf->type == gsn_wolf_form && is_affected(ch,gsn_wolf_form))
 		    || (paf->type == gsn_mist_form && is_affected(ch,gsn_mist_form))){
 		  if (!IS_NPC(ch)){
 		    free_string( ch->short_descr );
@@ -2234,19 +2238,19 @@ void char_update( void )
 		  do_unburrow(ch, NULL);
 		  continue;
 		}
-		
+
 		/* stop follower will remove charm person */
-		  if (paf->type == gsn_charm_person 
+		  if (paf->type == gsn_charm_person
 		      || paf->type == gsn_attract){
 		    if (IS_NPC(ch)){
 		      if (empty_char(ch))
 			act("$n spills some items on the ground.", ch, NULL, NULL, TO_ROOM);
 		    }
 		    REMOVE_BIT( ch->affected_by, AFF_CHARM );
-		    if ( IS_NPC(ch) 
-			 && ch->master 
-			 && can_see( ch->master, ch ) 
-			 && !IS_IMMORTAL(ch) 
+		    if ( IS_NPC(ch)
+			 && ch->master
+			 && can_see( ch->master, ch )
+			 && !IS_IMMORTAL(ch)
 			 && ch->in_room != NULL) {
 		      act( "$n stops following you.",     ch, NULL, ch->master, TO_VICT    );
 		      act( "You stop following $N.",      ch, NULL, ch->master, TO_CHAR    );
@@ -2279,7 +2283,7 @@ void char_update( void )
 	    cabal_echo_flag( CABAL_JUSTICE, buf );
 	  }
 	}
-	
+
 //SECNOD CHECK
 	for ( paf = ch->affected2; paf != NULL; paf = paf_next )
 	  {
@@ -2303,7 +2307,7 @@ void char_update( void )
 			transform_phoenix = TRUE;
 			pnumber = paf->modifier;
 		      }
-		  } 
+		  }
 		song_affect_remove( ch, paf);
 	      }
 	  }
@@ -2329,10 +2333,10 @@ void char_update( void )
 		    CHAR_DATA *victim = ch->fighting;
 		    act_new("Your body could not sustain the injuries you've suffered.",ch,NULL,NULL,TO_CHAR,POS_DEAD);
 		    act("$n suddenly clutches $s wounds and slumps to the ground.",ch,NULL,NULL,TO_ROOM);
-		    if (!IS_NPC(victim) 
-			&& ( (!IS_NPC(ch) 
+		    if (!IS_NPC(victim)
+			&& ( (!IS_NPC(ch)
 			      && is_challenger(ch,victim))
-			     || (IS_NPC(ch) 
+			     || (IS_NPC(ch)
 				 && ch->master
 				 && is_challenger(ch->master,victim)) ))
 		      {
@@ -2350,9 +2354,9 @@ void char_update( void )
 		  }
 	      }
 	  }
-	
+
 //END OF AFFECTS
-    
+
 
 
 
@@ -2392,7 +2396,7 @@ void char_update( void )
     	    taf.bitvector        = 0;
     	    affect_to_char(ch,&taf);
 	    clear_nskill(ch);
-	}	    
+	}
         if ( ch != NULL && is_timer_exp)
 	{
 	    if (IS_NPC(ch))
@@ -2403,7 +2407,7 @@ void char_update( void )
 		continue;
 	    }
 	}
-	
+
 	if (ch != NULL && !IS_NPC(ch) && is_affected(ch,gsn_coffin))
 	{
 	    AFFECT_DATA *tpaf1, *tpaf2 = NULL;
@@ -2452,7 +2456,7 @@ void char_update( void )
 	    ch->position = POS_SITTING;
 	    ch->pcdata->condition[COND_HUNGER] = -1;
 	    ch->pcdata->condition[COND_THIRST] = -1;
-	    update_pos( ch );	    
+	    update_pos( ch );
 	}
 	if ( ch != NULL && ch->position == POS_INCAP && number_range(0,1) == 0)
             damage( ch, ch, 1, TYPE_HIT, DAM_INTERNAL,TRUE);
@@ -2475,7 +2479,7 @@ void char_update( void )
 	if (ch == NULL || ch->in_room == NULL)
 	  continue;
 
-    	if (ch != NULL && IS_NPC(ch) && ch->pIndexData->vnum == MOB_VNUM_SHADOW 
+    	if (ch != NULL && IS_NPC(ch) && ch->pIndexData->vnum == MOB_VNUM_SHADOW
 	    && room_has_sun(ch->in_room))
 	  {
 	    act("$n disappears in the daylight.",ch,NULL,NULL,TO_ROOM);
@@ -2490,7 +2494,7 @@ void char_update( void )
 	    	ch->in_bank -= number_range(0,ch->in_bank/10);
 	    else
 	    	ch->gold -= number_range(0,ch->gold/10);
-	
+
 	}
 
 	if (ch != NULL && is_affected(ch,gsn_tarot) && tarot_find(ch->affected) == 5 && number_percent() > 50)
@@ -2547,12 +2551,12 @@ void char_update( void )
 		ch->damage[DICE_NUMBER] = ch->level/5;
     		af.where     = TO_AFFECTS;
     		af.type      = gsn_phoenix;
-    		af.level     = ch->level;   
+    		af.level     = ch->level;
     		af.duration  = 100;
     		af.modifier  = 1;
     		af.location  = 0;
     		af.bitvector = 0;
-    		song_affect_to_char( ch, &af );		
+    		song_affect_to_char( ch, &af );
 		sprintf(buf,"an adolescent phoenix");
 		ch->short_descr = str_dup(buf);
 		free_string( ch->long_descr );
@@ -2584,7 +2588,7 @@ void char_update( void )
 		act("$n fully spreads $s wings out.",ch,NULL,NULL,TO_ROOM);
 	    }
 	    else
-		act("$n looks around confused.",ch,NULL,NULL,TO_ROOM);		
+		act("$n looks around confused.",ch,NULL,NULL,TO_ROOM);
 	}
 
 	if (ch != NULL && ch->in_room
@@ -2620,7 +2624,7 @@ void char_update( void )
     for (cp = cabal_list; cp; cp = cp->next){
       cp->present = cp->count_present;
       cp->count_present = 0;
-      if (cp->parent == NULL && cp->present == 0 
+      if (cp->parent == NULL && cp->present == 0
 	  && !cp->fGate && IS_CABAL(cp, CABAL_GATE))
 	lock_cabal( cp, TRUE);
       else if (cp->parent == NULL && cp->present > 0){
@@ -2631,7 +2635,7 @@ void char_update( void )
 }
 
 void obj_update( void )
-{   
+{
     OBJ_DATA *obj, *obj_next;
     AFFECT_DATA *paf, *paf_next;
     for ( obj = object_list; obj != NULL; obj = obj_next )
@@ -2640,10 +2644,10 @@ void obj_update( void )
 	char *message;
 	obj_next = obj->next;
 
-	if (obj->in_room != NULL 
+	if (obj->in_room != NULL
 	    && (obj->in_room->vnum == ROOM_VNUM_LIMIT || obj->in_room->vnum == ROOM_VNUM_BOUNTY))
 	  continue;
-	
+
 
 
 //OBJTICK_CHECK
@@ -2664,9 +2668,9 @@ void obj_update( void )
 	  continue;
 	}
 /* OWNER/REQUESTED ITEM IDLE CHECK */
-	else if (obj->idle > 120 
-		 && obj->in_room 
-		 && CAN_WEAR(obj, ITEM_HAS_OWNER) 
+	else if (obj->idle > 120
+		 && obj->in_room
+		 && CAN_WEAR(obj, ITEM_HAS_OWNER)
 		 && obj->item_type != ITEM_CABAL){
 	  if (( rch = obj->in_room->people ) != NULL )
 	    act( "$p becomes part of the ground.", rch, obj, NULL, TO_ALL );
@@ -2675,16 +2679,16 @@ void obj_update( void )
 	  continue;
 	}
 	else if ( obj->in_room
-		  && (obj->in_room->vnum != obj->homevnum 
+		  && (obj->in_room->vnum != obj->homevnum
 		      || IS_SET(obj->extra_flags, ITEM_STAIN))
-		  && obj->contains == NULL 
+		  && obj->contains == NULL
 		  && CAN_WEAR(obj, ITEM_TAKE)
 		  /* Need even cabal items to go. Viri
 		     && obj->item_type != ITEM_CABAL
-		     && !CAN_WEAR(obj, ITEM_NO_SAC) 
-		     && !IS_OBJ_STAT(obj, ITEM_NOPURGE) 
+		     && !CAN_WEAR(obj, ITEM_NO_SAC)
+		     && !IS_OBJ_STAT(obj, ITEM_NOPURGE)
 		  */
-		  && (obj->idle >= 480 
+		  && (obj->idle >= 480
 		      || IS_SET(obj->extra_flags, ITEM_STAIN)) )
 	{
 	  if (( rch = obj->in_room->people ) != NULL )
@@ -2723,7 +2727,7 @@ void obj_update( void )
 	    }
 	    if (obj == NULL)
 	      continue;
-	    if ( (obj->carried_by 
+	    if ( (obj->carried_by
 		  || (obj->in_room && !obj->in_room->area->empty)
 		  || IS_OBJ_STAT(obj, ITEM_UPDATE_ALWAYS))
 		 && HAS_TRIGGER_OBJ( obj, TRIG_RANDOM ) )
@@ -2735,11 +2739,11 @@ void obj_update( void )
 
 	/* falling object check */
 
-	if (obj->in_room  
+	if (obj->in_room
 	    && (obj->wear_flags & ITEM_TAKE)
-	    && obj->in_room->exit[5] 
+	    && obj->in_room->exit[5]
 	    && obj->in_room->exit[5]->to_room
-	    && !IS_SET(obj->in_room->exit[5]->exit_info, EX_CLOSED) 
+	    && !IS_SET(obj->in_room->exit[5]->exit_info, EX_CLOSED)
 	    && obj->item_type != ITEM_CABAL
 	    && !IS_SET(obj->wear_flags, ITEM_HAS_OWNER)
 	    && number_range(1,100) > 95 )
@@ -2757,7 +2761,7 @@ void obj_update( void )
 	if (obj->item_type == ITEM_FOOD ){
 	  CHAR_DATA* och = in_char( obj );
 	  /* shoppie check */
-	  if (och != NULL 
+	  if (och != NULL
 	      && IS_NPC(och)
 	      && och->pIndexData->pShop != NULL)
 	    obj->timer ++;
@@ -2784,7 +2788,7 @@ void obj_update( void )
 	case ITEM_FOOD:       message = "$p decomposes.";	break;
 	case ITEM_HERB:       message = "$p is no longer fresh.";break;
         case ITEM_POTION:     message = "$p has evaporated from disuse."; break;
-	case ITEM_CONTAINER: 
+	case ITEM_CONTAINER:
             if (CAN_WEAR(obj,ITEM_WEAR_FLOAT))
             {
 	        if (obj->contains)
@@ -2821,13 +2825,13 @@ void obj_update( void )
 	}
         if ((obj->item_type == ITEM_CORPSE_PC || obj->item_type == ITEM_CORPSE_NPC) && obj->contains){
 	  OBJ_DATA *t_obj, *next_obj;
-	  
+
 	  for (t_obj = obj->contains; t_obj != NULL; t_obj = next_obj){
 	    next_obj = t_obj->next_content;
 
 	    //remove object from corpse
-	    obj_from_obj(t_obj);	
-    
+	    obj_from_obj(t_obj);
+
 	    if (t_obj->item_type == ITEM_CABAL && t_obj->pCabal){
 	      CABAL_DATA* pCab = t_obj->pCabal;
 	      extract_obj( t_obj );
@@ -2915,10 +2919,10 @@ void trap_update( void ){
     if (pt->owner)
       continue;
     /* make sure its in its homeroom if on object */
-    if (pt->on_obj && (pt->on_obj->in_room == NULL || 
+    if (pt->on_obj && (pt->on_obj->in_room == NULL ||
 		       pt->on_obj->homevnum != pt->on_obj->in_room->vnum))
       continue;
-	
+
     /* check for age, and need to refresh the trap */
     if ( pArea == NULL || pt->age < 3)
       continue;
@@ -2954,12 +2958,12 @@ void aggr_update( void )
 	{
 	  int range = IS_PERK(wch, PERK_FEARSOME) ? 3 : 5;
 	  ch_next = ch->next_in_room;
-	  if ( !IS_NPC(ch) 
-	       || (!IS_SET(ch->off_flags, CABAL_GUARD) && !can_see( ch, wch )) 
+	  if ( !IS_NPC(ch)
+	       || (!IS_SET(ch->off_flags, CABAL_GUARD) && !can_see( ch, wch ))
 	       || !IS_AWAKE(ch)
 	       || IS_STONED(ch)
-	       || IS_AFFECTED(ch, AFF_CALM) 
-	       || IS_AFFECTED(ch, AFF_CHARM) 
+	       || IS_AFFECTED(ch, AFF_CALM)
+	       || IS_AFFECTED(ch, AFF_CHARM)
 	       || ch->fighting
 	       || IS_AFFECTED2(ch, AFF_HOLD) )
 	    continue;
@@ -2967,13 +2971,13 @@ void aggr_update( void )
 
              * Now make the aggressor fight a RANDOM pc victim in the room,  *
              *   giving each 'vch' an equal chance of selection.             */
-            if (ch->hunting != NULL 
-		&& ch->hunting == wch 
-		&& ch->fighting == NULL 
-		&& !IS_AFFECTED(ch->hunting, AFF_SLEEP) 
+            if (ch->hunting != NULL
+		&& ch->hunting == wch
+		&& ch->fighting == NULL
+		&& !IS_AFFECTED(ch->hunting, AFF_SLEEP)
 		&& !IS_STONED(ch->hunting)
-		&& !IS_AFFECTED2(ch->hunting,AFF_SHADOWFORM) 
-		&& !IS_AFFECTED2(ch->hunting,AFF_TREEFORM) 
+		&& !IS_AFFECTED2(ch->hunting,AFF_SHADOWFORM)
+		&& !IS_AFFECTED2(ch->hunting,AFF_TREEFORM)
 		&& !is_ghost(ch->hunting,600)
 		&& !(IS_NPC(ch) && ch->pIndexData->vnum == MOB_VNUM_SKIN)
 		&& !IS_SET(ch->act, ACT_NONCOMBAT))
@@ -2988,8 +2992,8 @@ void aggr_update( void )
                 break;
             }
 	    /* Attack On Sight */
-	    if (IS_NPC(ch) 
-		&& !IS_NPC(wch) 
+	    if (IS_NPC(ch)
+		&& !IS_NPC(wch)
 		&& !IS_IMMORTAL(wch)
 		&& ch->race < MAX_PC_RACE
 		&& ch->level + range > wch->level
@@ -3021,12 +3025,12 @@ void aggr_update( void )
 	      multi_hit( ch, wch, TYPE_UNDEFINED );
 	      break;
 	    }
-            if ((IS_SET(ch->act, ACT_AGGRESSIVE) 
+            if ((IS_SET(ch->act, ACT_AGGRESSIVE)
 		 && !IS_SET(ch->act, ACT_NONCOMBAT)
-		 && !IS_SET(ch->act, ACT_WIMPY) 
+		 && !IS_SET(ch->act, ACT_WIMPY)
 		 && !IS_AFFECTED2(ch, AFF_HOLD)
-		 && ch->fighting == NULL 
-		 && ch->hunting == NULL 
+		 && ch->fighting == NULL
+		 && ch->hunting == NULL
 		 && !ch->desc)
 		|| (IS_SET(ch->off_flags, CABAL_GUARD)))
 	      {
@@ -3036,9 +3040,9 @@ void aggr_update( void )
                 {
 		  int range = IS_PERK(vch, PERK_FEARSOME) ? 3 : 5;
 		  vch_next = vch->next_in_room;
-		    
-                    if ( ( !IS_NPC(vch) 
-			   && IS_SET(ch->act, ACT_AGGRESSIVE) 
+
+                    if ( ( !IS_NPC(vch)
+			   && IS_SET(ch->act, ACT_AGGRESSIVE)
 			   && ch->level >= vch->level - range
 			   && !(IS_GOOD(ch) && IS_GOOD(vch))
 			   && !IS_AFFECTED(vch, AFF_SLEEP )
@@ -3052,7 +3056,7 @@ void aggr_update( void )
 			      && ch->pCabal
 			      && vch->pCabal
 			      && !is_captured_by(vch->pCabal, ch->pCabal)
-			      && is_friendly(ch->pCabal, vch->pCabal) == CABAL_ENEMY) 
+			      && is_friendly(ch->pCabal, vch->pCabal) == CABAL_ENEMY)
 			 ){
 		      if ( number_range( 0, count ) == 0 )
 			victim = vch;
@@ -3213,9 +3217,9 @@ void update_handler( void )
         for ( d = descriptor_list; d != NULL; d = d_next )
 	{
 	    d_next = d->next;
-            if ( d != NULL 
-		 && (d->connected == CGEN_MAIN 
-		     || d->connected == CGEN_ENTER 
+            if ( d != NULL
+		 && (d->connected == CGEN_MAIN
+		     || d->connected == CGEN_ENTER
 		     || d->connected == CGEN_CREATE)
 		 && d->timer++ > PULSE_LOGIN )
 	      {
@@ -3284,9 +3288,9 @@ void update_violence(CHAR_DATA* ch)
 
   /* mounts */
   if (IS_NPC(ch)
-      && ch->summoner 
+      && ch->summoner
       && !IS_NPC(ch->summoner)
-      && ch->summoner->pcdata->pStallion != NULL 
+      && ch->summoner->pcdata->pStallion != NULL
       && ch->summoner->pcdata->pStallion == ch->pIndexData
       && ch->summoner->in_room != ch->in_room)
     {
@@ -3303,8 +3307,8 @@ void update_violence(CHAR_DATA* ch)
       && ch->fighting->race == race_lookup("undead") ){
     CHAR_DATA* victim = ch->fighting;
     int chance = 10 + (victim->pcdata->kpc / 3);
-    if (number_percent() < chance 
-	&& !saves_spell( victim->level, ch, DAM_MENTAL, SPELL_MENTAL ) 
+    if (number_percent() < chance
+	&& !saves_spell( victim->level, ch, DAM_MENTAL, SPELL_MENTAL )
 	&& !is_affected(ch, gsn_fear) ){
       AFFECT_DATA af;
       //we scare them.
@@ -3315,7 +3319,7 @@ void update_violence(CHAR_DATA* ch)
       else{
 	send_to_char("You are overpowered with intense fear.\n\r", ch);
 	act("$n's eyes widen in fear!", ch, NULL, NULL, TO_ROOM);
-	
+
 	/* attach effect to hurt skills */
 	af.type = gsn_fear;
 	af.level = victim->level;
@@ -3330,7 +3334,7 @@ void update_violence(CHAR_DATA* ch)
   }
 
 //DARK RIFT DAMAGE
-  if (ch->in_room != NULL 
+  if (ch->in_room != NULL
       && (IS_SET(ch->in_room->room_flags, ROOM_DARK_RIFT)
 	  || IS_SET(ch->in_room->room_flags, ROOM_DAMAGE))
       && (!IS_NPC(ch) || ch->homevnum != ch->in_room->vnum)
@@ -3340,7 +3344,7 @@ void update_violence(CHAR_DATA* ch)
 	return;
   }
 
-    
+
   //low mana for use of blademaster stances
   if (!IS_NPC(ch) && ch->class == gcn_blademaster && ch->fighting){
     AFFECT_DATA* paf;

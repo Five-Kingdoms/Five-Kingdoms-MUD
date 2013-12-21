@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -57,7 +57,7 @@ extern          int                     top_ed;
 extern          int                     top_room;
 extern		int                     top_mprog_index;
 extern		int                     top_oprog_index;
-extern		int                     top_rprog_index; 
+extern		int                     top_rprog_index;
 extern		char			*string_space;
 extern		char			*top_string;
 PROG_CODE              *       mpcode_free;
@@ -146,17 +146,17 @@ char *olc_ed_vnum( CHAR_DATA *ch )
     case ED_AREA:   pArea = (AREA_DATA *)ch->desc->pEdit; sprintf( buf, "%d", pArea ? pArea->vnum : 0 ); break;
     case ED_ROOM:   pRoom = ch->in_room; sprintf( buf, "%d", pRoom ? pRoom->vnum : 0 ); break;
     case ED_OBJECT: pObj = (OBJ_INDEX_DATA *)ch->desc->pEdit; sprintf( buf, "%d", pObj ? pObj->vnum : 0 ); break;
-    case ED_MOBILE: 
-      pMob = (MOB_INDEX_DATA *)ch->desc->pEdit; 
-      sprintf( buf, "%d", pMob ? pMob->vnum : 0 ); 
+    case ED_MOBILE:
+      pMob = (MOB_INDEX_DATA *)ch->desc->pEdit;
+      sprintf( buf, "%d", pMob ? pMob->vnum : 0 );
       break;
-    case ED_CABAL: 
-      pCab = (CABAL_INDEX_DATA *)ch->desc->pEdit; 
-      sprintf( buf, "%d", pCab ? pCab->vnum : 0 ); 
+    case ED_CABAL:
+      pCab = (CABAL_INDEX_DATA *)ch->desc->pEdit;
+      sprintf( buf, "%d", pCab ? pCab->vnum : 0 );
       break;
-    case ED_HELP: 
-      pHelp = (HELP_DATA *)ch->desc->pEdit; 
-      sprintf( buf, "%d", pHelp ? pHelp->vnum : 0 ); 
+    case ED_HELP:
+      pHelp = (HELP_DATA *)ch->desc->pEdit;
+      sprintf( buf, "%d", pHelp ? pHelp->vnum : 0 );
       break;
     case ED_MPCODE:
     	pMprog = (PROG_CODE *)ch->desc->pEdit;
@@ -311,15 +311,15 @@ const struct olc_cmd_type oedit_table[] =
     {   "v1",		oedit_value1	},
     {   "v2",		oedit_value2	},
     {   "v3",		oedit_value3	},
-    {   "v4",           oedit_value4    },  
+    {   "v4",           oedit_value4    },
     {   "weight",	oedit_weight	},
     {   "condition",	oedit_condition	},
     {   "shots",	oedit_condition	},
     {   "material",     oedit_material  },
-    {   "extra",        oedit_extra     },  
-    {   "wear",         oedit_wear      },  
-    {   "type",         oedit_type      },  
-    {   "level",        oedit_level     },  
+    {   "extra",        oedit_extra     },
+    {   "wear",         oedit_wear      },
+    {   "type",         oedit_type      },
+    {   "level",        oedit_level     },
     {   "?",		show_help	},
     {   "version",	show_version	},
     {   "copy",		oedit_copy	},
@@ -338,7 +338,7 @@ const struct olc_cmd_type medit_table[] =
 {
 /*  {   command		function	}, */
     {   "alignment",	medit_align	},
-    {   "cabal",        medit_cabal     },  
+    {   "cabal",        medit_cabal     },
     {   "commands",	show_commands	},
     {   "create",	medit_create	},
     {   "desc",		medit_desc	},
@@ -349,24 +349,24 @@ const struct olc_cmd_type medit_table[] =
     {   "short",	medit_short	},
     {	"show",		medit_show	},
     {   "spec",		medit_spec	},
-    {   "sex",          medit_sex       },  
-    {   "act",          medit_act       },  
-    {   "act2",         medit_act2      },  
-    {   "affect2",      medit_affect2   },  
-    {   "affect1",      medit_affect    },  
-    {   "armor",        medit_ac        },  
-    {   "imm",          medit_imm       },  
-    {   "res",          medit_res       },  
-    {   "vuln",         medit_vuln      },  
-    {   "off",          medit_off       },  
-    {   "size",         medit_size      },  
-    {   "hitdice",      medit_hitdice   },  
-    {   "manadice",     medit_manadice  },  
-    {   "damdice",      medit_damdice   },  
-    {   "race",         medit_race      },  
-    {   "position",     medit_position  },  
-    {   "gold",         medit_gold      },  
-    {   "hitroll",      medit_hitroll   },  
+    {   "sex",          medit_sex       },
+    {   "act",          medit_act       },
+    {   "act2",         medit_act2      },
+    {   "affect2",      medit_affect2   },
+    {   "affect1",      medit_affect    },
+    {   "armor",        medit_ac        },
+    {   "imm",          medit_imm       },
+    {   "res",          medit_res       },
+    {   "vuln",         medit_vuln      },
+    {   "off",          medit_off       },
+    {   "size",         medit_size      },
+    {   "hitdice",      medit_hitdice   },
+    {   "manadice",     medit_manadice  },
+    {   "damdice",      medit_damdice   },
+    {   "race",         medit_race      },
+    {   "position",     medit_position  },
+    {   "gold",         medit_gold      },
+    {   "hitroll",      medit_hitroll   },
     {	"damtype",	medit_damtype	},
     {	"group",	medit_group	},
     {   "?",		show_help	},
@@ -859,7 +859,7 @@ void do_aedit( CHAR_DATA *ch, char *argument )
         }
         pArea               =   new_area();
         area_last->next     =   pArea;
-        area_last           =   pArea;      
+        area_last           =   pArea;
         SET_BIT( pArea->area_flags, AREA_ADDED );
         send_to_char("Area created.\n\r",ch);
     }
@@ -919,7 +919,7 @@ void do_redit( CHAR_DATA *ch, char *argument )
         {
             send_to_char("Insufficient security to modify room.\n\r",ch);
             return;
-        }   
+        }
     }
     if ( !IS_BUILDER( ch, pRoom->area ) )
     {
@@ -1153,17 +1153,17 @@ void do_hedit(CHAR_DATA *ch, char *argument){
 
   if( is_number(command) ){
     int vnum = atoi(command);
-    
+
     if ( (pHelp = get_help_index(vnum)) == NULL ){
       send_to_char("HEdit : That vnum does not exist.\n\r", ch);
       return;
     }
-    
+
     ch->desc->pEdit		= (void *)pHelp;
     ch->desc->editor		= ED_HELP;
     return;
   }
-  
+
   if ( !str_cmp(command, "create") ){
     hedit_create(ch, argument);
     return;
@@ -1182,17 +1182,17 @@ void do_cedit(CHAR_DATA *ch, char *argument){
 
   if( is_number(command) ){
     int vnum = atoi(command);
-    
+
     if ( (pCab = get_cabal_index(vnum)) == NULL ){
       send_to_char("CEdit : That vnum does not exist.\n\r", ch);
       return;
     }
-    
+
     ch->desc->pEdit		= (void *)pCab;
     ch->desc->editor		= ED_CABAL;
     return;
   }
-  
+
   if ( !str_cmp(command, "create") ){
     if (get_trust(ch) < IMPLEMENTOR){
       sendf(ch, "Requires level %d trust.\n\r", IMPLEMENTOR);
@@ -1220,7 +1220,7 @@ void display_resets( CHAR_DATA *ch )
     int 		iReset = 0;
     EDIT_ROOM(ch, pRoom);
     final[0]  = '\0';
-    send_to_char ( 
+    send_to_char (
       " No.  Loads    Description       Location         Vnum   Wo Ar Description\n\r"
       "==== ======== ============= =================== ======== ===== ===========\n\r", ch );
     for ( pReset = pRoom->reset_first; pReset; pReset = pReset->next )
@@ -1354,14 +1354,14 @@ void display_resets( CHAR_DATA *ch )
 	  strcat( final, buf );
 	  if (pReset->arg2 == TRAP_ON_EXIT){
 	    sprintf( buf, "on %s exit        R[%5d] lv[%2d]  %s\n\r",
-		     dir_name[pReset->arg4], pReset->arg3, 
+		     dir_name[pReset->arg4], pReset->arg3,
 		     pTrap->level,
 		     trap_table[pTrap->type].name);
 	    strcat( final, buf );
 	  }
 	  else if (pReset->arg2 == TRAP_ON_OBJ){
 	    sprintf( buf, "on previous obj     R[%5d] lv[%2d]  %s\n\r",
-		     pReset->arg3, 
+		     pReset->arg3,
 		     pTrap->level,
 		     trap_table[pTrap->type].name);
 	    strcat( final, buf );
@@ -1487,7 +1487,7 @@ void do_resets( CHAR_DATA *ch, char *argument )
 	    SET_BIT( ch->in_room->area->area_flags, AREA_CHANGED );
 	}
         else if ( (!str_cmp( arg2, "mob" ) && is_number( arg3 ))
-		  || (!str_cmp( arg2, "obj" ) && is_number( arg3 )) 
+		  || (!str_cmp( arg2, "obj" ) && is_number( arg3 ))
 		  || (!str_cmp( arg2, "trap" ) && is_number( arg3 )) )
 	  {
 	    if ( !str_cmp( arg2, "trap" ) ){
@@ -1532,9 +1532,9 @@ void do_resets( CHAR_DATA *ch, char *argument )
                 pReset = new_reset_data();
                 pReset->command = 'M';
 		pReset->arg1    = atoi( arg3 );
-                pReset->arg2    = is_number( arg4 ) ? atoi( arg4 ) : 1; 
+                pReset->arg2    = is_number( arg4 ) ? atoi( arg4 ) : 1;
 		pReset->arg3    = ch->in_room->vnum;
-                pReset->arg4    = is_number( arg5 ) ? atoi( arg5 ) : 1; 
+                pReset->arg4    = is_number( arg5 ) ? atoi( arg5 ) : 1;
 	      }
 	    else
 	      if ( !str_cmp( arg2, "obj" ) )
@@ -1618,7 +1618,7 @@ void do_resets( CHAR_DATA *ch, char *argument )
 	send_to_char( "        RESET <number> DELETE\n\r", ch );
         send_to_char( "        RESET <number> RANDOM [# exits]\n\r", ch );
 	}
-    
+
     }
     else
     {
@@ -1771,7 +1771,7 @@ void save_helps(){
 	    break;
 	  }
 	}
-	else 
+	else
 	  fprintf( fp, "%s~ ", race_table[pHelp->type].name );
 	break;
       case HELP_CLASS:
@@ -1823,21 +1823,21 @@ void save_mobile( FILE *fp, MOB_INDEX_DATA *pMobIndex )
     fprintf( fp, "%d %d\n",        pMobIndex->alignment , pMobIndex->group);
     fprintf( fp, "%d ",	          pMobIndex->level );
     fprintf( fp, "%d ",	          pMobIndex->hitroll );
-    fprintf( fp, "%dd%d+%d ",     pMobIndex->hit[DICE_NUMBER], 
-	     	     	          pMobIndex->hit[DICE_TYPE], 
+    fprintf( fp, "%dd%d+%d ",     pMobIndex->hit[DICE_NUMBER],
+	     	     	          pMobIndex->hit[DICE_TYPE],
 	     	     	          pMobIndex->hit[DICE_BONUS] );
 
-    fprintf( fp, "%dd%d+%d ",     pMobIndex->mana[DICE_NUMBER], 
-	     	     	          pMobIndex->mana[DICE_TYPE], 
+    fprintf( fp, "%dd%d+%d ",     pMobIndex->mana[DICE_NUMBER],
+	     	     	          pMobIndex->mana[DICE_TYPE],
 	     	     	          pMobIndex->mana[DICE_BONUS] );
 
-    fprintf( fp, "%dd%d+%d ",     pMobIndex->damage[DICE_NUMBER], 
-	     	     	          pMobIndex->damage[DICE_TYPE], 
+    fprintf( fp, "%dd%d+%d ",     pMobIndex->damage[DICE_NUMBER],
+	     	     	          pMobIndex->damage[DICE_TYPE],
 	     	     	          pMobIndex->damage[DICE_BONUS] );
     fprintf( fp, "%s\n",          attack_table[pMobIndex->dam_type].name );
-    fprintf( fp, "%d %d %d %d\n", pMobIndex->ac[AC_PIERCE] / 10, 
-	     	     	          pMobIndex->ac[AC_BASH]   / 10, 
-	     	     	          pMobIndex->ac[AC_SLASH]  / 10, 
+    fprintf( fp, "%d %d %d %d\n", pMobIndex->ac[AC_PIERCE] / 10,
+	     	     	          pMobIndex->ac[AC_BASH]   / 10,
+	     	     	          pMobIndex->ac[AC_SLASH]  / 10,
 	     	     	          pMobIndex->ac[AC_EXOTIC] / 10 );
     fprintf( fp, "%s ",           fwrite_flag( pMobIndex->off_flags,  buf ) );
     fprintf( fp, "%s ",	          fwrite_flag( pMobIndex->imm_flags,  buf ) );
@@ -2084,7 +2084,7 @@ void save_object( FILE *fp, OBJ_INDEX_DATA *pObjIndex )
       fprintf( fp, "%s ",  fwrite_flag( pObjIndex->value[1], buf ) );
       fprintf( fp, "%s ",  fwrite_flag( pObjIndex->value[2], buf ) );
       fprintf( fp, "%s ",  fwrite_flag( pObjIndex->value[3], buf ) );
-      fprintf( fp, "%s\n", 
+      fprintf( fp, "%s\n",
 	       fwrite_flag( IS_SOC_STAT(pObjIndex, SOCKET_WEAPON) ?
 			    pObjIndex->value[4] : 0, buf ) );
       break;
@@ -2100,9 +2100,9 @@ void save_object( FILE *fp, OBJ_INDEX_DATA *pObjIndex )
       fprintf( fp, "%d ",  pObjIndex->value[1]);
       fprintf( fp, "%d ",  pObjIndex->value[2]);
       fprintf( fp, "%s ",  attack_table[pObjIndex->value[3]].name);
-      fprintf( fp, "%s ",  fwrite_flag( pObjIndex->value[4], buf ) 
+      fprintf( fp, "%s ",  fwrite_flag( pObjIndex->value[4], buf )
 );
-      break;   
+      break;
     }
     fprintf( fp, "%d ", pObjIndex->level );
     fprintf( fp, "%d ", pObjIndex->weight );
@@ -2131,7 +2131,7 @@ void save_object( FILE *fp, OBJ_INDEX_DATA *pObjIndex )
 	pObjIndex->message->offself, pObjIndex->message->offother );
     for( pAf = pObjIndex->affected; pAf; pAf = pAf->next )
         fprintf( fp, "F\n%s %d %d %s\n",
-		 pAf->where == TO_IMMUNE ? "I" : 
+		 pAf->where == TO_IMMUNE ? "I" :
 		 pAf->where==TO_RESIST ? "R"   :
 		 pAf->where == TO_VULN ? "V"   :
 		 pAf->where == TO_SKILL ? "S"  : "A",
@@ -2159,7 +2159,7 @@ void save_objects( FILE *fp, AREA_DATA *pArea )
     fprintf( fp, "#0\n\n\n\n" );
     return;
 }
- 
+
 /* SAVE #TRAPS section of an area file	*/
 /* called save_area			*/
 /* This function is for new mobprogs only, Will MERGE them later. */
@@ -2167,21 +2167,21 @@ void save_traps( FILE *fp, AREA_DATA *pArea ){
   char buf[MIL];
   TRAP_INDEX_DATA *pTrap;
   int i;
-  
+
   fprintf(fp, "#TRAPS\n");
-  
+
   for( i = pArea->min_vnum; i <= pArea->max_vnum; i++ ){
     if ( (pTrap = get_trap_index(i)) != NULL){
       fprintf(fp, "#%d\n", i);
       /* common things */
-      fprintf( fp, "%s~\n%s~\n%s~\n%s %d %s\n", 
+      fprintf( fp, "%s~\n%s~\n%s~\n%s %d %s\n",
 	       pTrap->name,
 	       pTrap->echo,
 	       pTrap->oEcho,
-	       trap_table[pTrap->type].name, 
+	       trap_table[pTrap->type].name,
 	       pTrap->level,
 	       fwrite_flag(pTrap->flags, buf));
-      
+
       /* based on type */
       switch (pTrap->type){
       default:
@@ -2203,7 +2203,9 @@ void save_traps( FILE *fp, AREA_DATA *pArea ){
 	break;
       case TTYPE_XDAMAGE:
 	fprintf( fp, "%s~ %d %d %d %d\n",
-		 IS_GEN(pTrap->value[0]) ? effect_table[pTrap->value[0]].name :
+         /* Kaslai: I DID SOMETHING DANGEROUS - I'm subtracting MAX_SKILL from the index in effect_table
+                    to get it back in bounds.                                                                   */
+		 IS_GEN(pTrap->value[0]) ? effect_table[pTrap->value[0] - MAX_SKILL].name :
 		 skill_table[pTrap->value[0]].name,
 		 pTrap->value[1],
 		 pTrap->value[2],
@@ -2238,7 +2240,7 @@ void write_room( FILE* fp, ROOM_INDEX_DATA* pRoomIndex ){
   EXTRA_DESCR_DATA *pEd;
   EXIT_DATA *pExit;
   PROG_LIST *pRprog;
-  int door;  
+  int door;
   Double_List *tmp_list;
   char buf[MIL];
 
@@ -2275,7 +2277,7 @@ void write_room( FILE* fp, ROOM_INDEX_DATA* pRoomIndex ){
     fprintf ( fp, "T %d\n" , pRoomIndex->temp );
   tmp_list = pRoomIndex->watch_vnums;
   while (tmp_list != NULL) {
-    fprintf ( fp, "W %d\n" , (int) tmp_list->cur_entry );
+    fprintf ( fp, "W %lld\n" , (long long) tmp_list->cur_entry );
     tmp_list = tmp_list->next_node;
   }
   for (pRprog = pRoomIndex->rprogs; pRprog; pRprog = pRprog->next){
@@ -2328,10 +2330,17 @@ void save_specials( FILE *fp, AREA_DATA *pArea )
 void write_resets( FILE* fp, ROOM_INDEX_DATA* pRoom ){
   RESET_DATA *pReset;
   MOB_INDEX_DATA *pLastMob = NULL;
-  OBJ_INDEX_DATA *pLastObj;
-  TRAP_INDEX_DATA *pTrap;
+  OBJ_INDEX_DATA *pLastObj = NULL;
+  TRAP_INDEX_DATA *pTrap = NULL;
   char buf[MIL];
-  
+  /* Useless conditional */
+  if( pLastObj != NULL )
+      pLastObj = NULL;
+  /* Useless conditional */
+  if( pTrap != NULL )
+      pTrap = NULL;
+
+
   for ( pReset = pRoom->reset_first; pReset; pReset = pReset->next ){
     switch ( pReset->command ){
     default:
@@ -2340,20 +2349,20 @@ void write_resets( FILE* fp, ROOM_INDEX_DATA* pRoom ){
 #if defined( VERBOSE )
     case 'M':
       pLastMob = get_mob_index( pReset->arg1 );
-      fprintf( fp, "M 0 %d %d %d %d Load %s\n", 
+      fprintf( fp, "M 0 %d %d %d %d Load %s\n",
 	       pReset->arg1, pReset->arg2, pReset->arg3,
 	       pReset->arg4, pLastMob->short_descr );
       break;
     case 'O':
       pLastObj = get_obj_index( pReset->arg1 );
       pRoom = get_room_index( pReset->arg3 );
-      fprintf( fp, "O 0 %d 0 %d %s loaded to %s\n", 
+      fprintf( fp, "O 0 %d 0 %d %s loaded to %s\n",
 	       pReset->arg1, pReset->arg3,
 	       capitalize(pLastObj->short_descr), pRoom->name );
       break;
     case 'P':
       pLastObj = get_obj_index( pReset->arg1 );
-      fprintf( fp, "P 0 %d %d %d %d %s put inside %s\n", 
+      fprintf( fp, "P 0 %d %d %d %d %s put inside %s\n",
 	       pReset->arg1, pReset->arg2, pReset->arg3, pReset->arg4,
 	       capitalize(get_obj_index( pReset->arg1 )->short_descr),
 	       pLastObj->short_descr );
@@ -2385,7 +2394,7 @@ void write_resets( FILE* fp, ROOM_INDEX_DATA* pRoom ){
       break;
     case 'R':
       pRoom = get_room_index( pReset->arg1 );
-      fprintf( fp, "R 0 %d %d Randomize %s\n", 
+      fprintf( fp, "R 0 %d %d Randomize %s\n",
 	       pReset->arg1, pReset->arg2, pRoom->name );
       break;
 #endif
@@ -2442,7 +2451,7 @@ void save_resets( FILE *fp, AREA_DATA *pArea )
 {
   ROOM_INDEX_DATA *pRoom;
   int iHash;
-  
+
   fprintf( fp, "#RESETS\n" );
   for( iHash = 0; iHash < MAX_KEY_HASH; iHash++ ){
     for( pRoom = room_index_hash[iHash]; pRoom; pRoom = pRoom->next ){
@@ -2503,7 +2512,7 @@ void save_area( AREA_DATA *pArea )
     for (i = 0; area_flags[i].name; i ++){
       if (area_flags[i].settable == FALSE)
 	flag &= ~area_flags[i].bit;
-    }    
+    }
     fprintf( fp, "#AREADATA\n" );
     fprintf( fp, "Name %s~\n",        pArea->name );
     fprintf( fp, "Pref %s~\n",        pArea->prefix );
@@ -2550,6 +2559,11 @@ void do_asave( CHAR_DATA *ch, char *argument )
     FILE *fp;
     int value;
     fp = NULL;
+
+    /* Useless conditional */
+    if( fp != NULL )
+        fp = NULL;
+
     if ( !ch )
     {
 	save_area_list();
@@ -2604,7 +2618,7 @@ void do_asave( CHAR_DATA *ch, char *argument )
 	for( pArea = area_first; pArea; pArea = pArea->next )
 	{
 	    if ( !IS_BUILDER( ch, pArea ) )
-		continue;	  
+		continue;
 	    REMOVE_BIT( pArea->area_flags, AREA_CHANGED );
 	    save_area( pArea );
 	}
@@ -2921,7 +2935,7 @@ AREA_DATA *new_area( void )
     }
     pArea->idle             =   0;
     pArea->nplayer          =   0;
-    pArea->empty            =   TRUE;       
+    pArea->empty            =   TRUE;
     sprintf( buf, "area%d.are", pArea->vnum );
     pArea->file_name        =   str_dup( buf );
     pArea->vnum             =   top_area-1;
@@ -2953,8 +2967,8 @@ EXIT_DATA *new_exit( void )
         pExit           =   exit_free;
         exit_free       =   exit_free->next;
     }
-    pExit->to_room   =   NULL;                
-    pExit->vnum	=   0;                
+    pExit->to_room   =   NULL;
+    pExit->vnum	=   0;
     pExit->next         =   NULL;
     pExit->next_in_area =   NULL;
     pExit->traps	=   NULL;
@@ -3145,9 +3159,9 @@ OBJ_INDEX_DATA *new_obj_index( void )
     pObj->race          =    0;
     pObj->weight        =   0;
     pObj->cost          =   0;
-    pObj->material      =   str_dup( "unknown" );      
-    pObj->condition     =   100;                        
-    for ( value = 0; value < 5; value++ )            
+    pObj->material      =   str_dup( "unknown" );
+    pObj->condition     =   100;
+    for ( value = 0; value < 5; value++ )
         pObj->value[value]  =   0;
     pObj->new_format    = TRUE;
     return pObj;
@@ -3224,31 +3238,31 @@ MOB_INDEX_DATA *new_mob_index( void )
     pMob->affected_by   =   0;
     pMob->alignment     =   0;
     pMob->hitroll	=   0;
-    pMob->race          =   race_lookup( "human" ); 
-    pMob->form          =   0;           
-    pMob->parts         =   0;           
-    pMob->imm_flags     =   0;           
-    pMob->res_flags     =   0;           
-    pMob->vuln_flags    =   0;           
-    pMob->off_flags     =   0;           
-    pMob->size          =   SIZE_MEDIUM; 
-    pMob->ac[AC_PIERCE] =   0;           
-    pMob->ac[AC_BASH]   =   0;           
-    pMob->ac[AC_SLASH]  =   0;           
-    pMob->ac[AC_EXOTIC] =   0;           
-    pMob->hit[DICE_NUMBER]      =   0;   
-    pMob->hit[DICE_TYPE]        =   0;   
-    pMob->hit[DICE_BONUS]       =   0;   
-    pMob->mana[DICE_NUMBER]     =   0;   
-    pMob->mana[DICE_TYPE]       =   0;   
-    pMob->mana[DICE_BONUS]      =   0;   
-    pMob->damage[DICE_NUMBER]   =   0;   
-    pMob->damage[DICE_TYPE]     =   0;   
-    pMob->damage[DICE_NUMBER]   =   0;   
-    pMob->start_pos             =   POS_STANDING; 
-    pMob->default_pos           =   POS_STANDING; 
+    pMob->race          =   race_lookup( "human" );
+    pMob->form          =   0;
+    pMob->parts         =   0;
+    pMob->imm_flags     =   0;
+    pMob->res_flags     =   0;
+    pMob->vuln_flags    =   0;
+    pMob->off_flags     =   0;
+    pMob->size          =   SIZE_MEDIUM;
+    pMob->ac[AC_PIERCE] =   0;
+    pMob->ac[AC_BASH]   =   0;
+    pMob->ac[AC_SLASH]  =   0;
+    pMob->ac[AC_EXOTIC] =   0;
+    pMob->hit[DICE_NUMBER]      =   0;
+    pMob->hit[DICE_TYPE]        =   0;
+    pMob->hit[DICE_BONUS]       =   0;
+    pMob->mana[DICE_NUMBER]     =   0;
+    pMob->mana[DICE_TYPE]       =   0;
+    pMob->mana[DICE_BONUS]      =   0;
+    pMob->damage[DICE_NUMBER]   =   0;
+    pMob->damage[DICE_TYPE]     =   0;
+    pMob->damage[DICE_NUMBER]   =   0;
+    pMob->start_pos             =   POS_STANDING;
+    pMob->default_pos           =   POS_STANDING;
     pMob->gold                  =   0;
-    pMob->new_format            = TRUE;  
+    pMob->new_format            = TRUE;
     return pMob;
 }
 
@@ -3398,9 +3412,9 @@ void string_add( CHAR_DATA *ch, char *argument )
 	  int hash;
 	  PROG_LIST *mpl;
 	  PROG_CODE *mpc;
-	  
+
 	  EDIT_MPCODE(ch, mpc);
-	  
+
 	  if ( mpc != NULL )
 	    for ( hash = 0; hash < MAX_KEY_HASH; hash++ )
 	      for ( mob = mob_index_hash[hash]; mob; mob = mob->next )
@@ -3418,9 +3432,9 @@ void string_add( CHAR_DATA *ch, char *argument )
 	  int hash;
 	  PROG_LIST *opl;
 	  PROG_CODE *opc;
-	  
+
 	  EDIT_OPCODE(ch, opc);
-	  
+
 	  if ( opc != NULL )
 	    for ( hash = 0; hash < MAX_KEY_HASH; hash++ )
 	      for ( obj = obj_index_hash[hash]; obj; obj = obj->next )
@@ -3432,16 +3446,16 @@ void string_add( CHAR_DATA *ch, char *argument )
 		      opl->code = opc->code;
 		    }
 	}
-      
+
       if ( ch->desc->editor == ED_RPCODE ) /* for the roomprogs */
 	{
 	  ROOM_INDEX_DATA *room;
 	  int hash;
 	  PROG_LIST *rpl;
 	  PROG_CODE *rpc;
-	  
+
 	  EDIT_RPCODE(ch, rpc);
-	  
+
 	  if ( rpc != NULL )
 	    for ( hash = 0; hash < MAX_KEY_HASH; hash++ )
 	      for ( room = room_index_hash[hash]; room; room = room->next )
@@ -3453,8 +3467,8 @@ void string_add( CHAR_DATA *ch, char *argument )
 		      rpl->code = rpc->code;
 		    }
 	}
-      
-      
+
+
       ch->desc->pString = NULL;
       return;
     }
@@ -3489,7 +3503,7 @@ char *format_string( char *oldstring )
     /* New Line */
       if (*rdesc=='\n'){
 	/* check for empty seperator lines */
-	if (*(rdesc + 1) && *(rdesc + 2) && *(rdesc + 3) 
+	if (*(rdesc + 1) && *(rdesc + 2) && *(rdesc + 3)
 	    && *(rdesc + 2) == ' ' && *(rdesc + 3) == '\n'){
 	  xbuf[i++]= '\n';
 	  xbuf[i++]= '\r';
@@ -3519,7 +3533,7 @@ char *format_string( char *oldstring )
       }
     /* bracket */
       else if (*rdesc==')'){
-	if (xbuf[i-1]==' ' && xbuf[i-2]==' ' 
+	if (xbuf[i-1]==' ' && xbuf[i-2]==' '
 	    && (xbuf[i-3]=='.' || xbuf[i-3]=='?' || xbuf[i-3]=='!')){
 	  xbuf[i-2]=*rdesc;
 	  xbuf[i-1]=' ';
@@ -3532,7 +3546,7 @@ char *format_string( char *oldstring )
 	}
       }
       else if (*rdesc=='.' || *rdesc=='?' || *rdesc=='!'){
-	if (xbuf[i-1]==' ' && xbuf[i-2]==' ' 
+	if (xbuf[i-1]==' ' && xbuf[i-2]==' '
 	    && (xbuf[i-3]=='.' || xbuf[i-3]=='?' || xbuf[i-3]=='!')) {
 	  xbuf[i-2]=*rdesc;
 	  if (*(rdesc+1) != '\"'){

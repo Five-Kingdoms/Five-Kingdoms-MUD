@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -69,7 +69,7 @@ int	max_cabal_index = 0;
 int	max_cabal = 0;
 
 /* global array with letters that are universal for each rank */
-char*	const	rank_letters [RANK_MAX] = 
+char*	const	rank_letters [RANK_MAX] =
 /* [I]nitiate, [M]ember, [V]eteran, [T]rusted, [E]lder, [L]eader */
 {  "I",		"M",	  "V",	     "T",	"E",	 "L"};
 
@@ -116,7 +116,7 @@ void show_cabal_rooms(CHAR_DATA* ch, CABAL_DATA* pCabal ){
     else
       croom_unactive[pcv->level] += 1;
     tot_rooms++;
-  }   
+  }
 
   send_to_char("Active	Sup	Type	      Pow   Name\n\r", ch );
   send_to_char("---------------------------------------------\n\r", ch);
@@ -167,7 +167,7 @@ void show_cabal_rooms(CHAR_DATA* ch, CABAL_DATA* pCabal ){
     send_to_char("Your item has been CAPTURED!\n\r", ch);
 }
 
-  
+
 /* shows cabal info to a single member */
 void show_cabal_info( CHAR_DATA* ch, CABAL_DATA* pCabal ){
   CABAL_DATA* pCab = get_parent( pCabal );
@@ -186,10 +186,10 @@ void show_cabal_info( CHAR_DATA* ch, CABAL_DATA* pCabal ){
     fEld = TRUE;
 
   /* NOT NEEDED
-  health_prompt( buf, UMAX(0, ECONOMY_UPDATE - (mud_data.current_time - pCab->room_stamp)), ECONOMY_UPDATE, FALSE );  
+  health_prompt( buf, UMAX(0, ECONOMY_UPDATE - (mud_data.current_time - pCab->room_stamp)), ECONOMY_UPDATE, FALSE );
   */
   sendf( ch, "[%s]  (%d %ss at %d%%)\n\r", /* RENT: %s\n\r", */
-	 pCab->who_name, 
+	 pCab->who_name,
 	 GET_CAB_CP( pCab),
 	 pCab->currency,
 	 pCab->cp_tax);
@@ -200,7 +200,7 @@ void show_cabal_info( CHAR_DATA* ch, CABAL_DATA* pCabal ){
     if (mud_data.current_time - pCab->raid_stamp < CAB_RAID_WAIT){
       int hour = (CAB_RAID_WAIT + pCab->raid_stamp - mud_data.current_time) / 30;
       int days = hour / MAX_HOURS;
-      sendf(ch, "Next Raid: %d %s%s.\n\r", 
+      sendf(ch, "Next Raid: %d %s%s.\n\r",
 	    days > 1 ? days : hour,
 	    days > 1 ? "day" : "hour",
 	    (days  == 1 || hour == 1) ? "" : "s");
@@ -224,7 +224,7 @@ void show_cabal_info( CHAR_DATA* ch, CABAL_DATA* pCabal ){
   show_cabal_rooms(ch, pCab );
 
   if (fEld){
-    sprintf( buf, "\n\rMembers: [%d/%d] Elders: [%d/%d]  Leaders [%d/%d]\n\r", 
+    sprintf( buf, "\n\rMembers: [%d/%d] Elders: [%d/%d]  Leaders [%d/%d]\n\r",
 	     pCab->cur_member, pCab->max_member,
 	     pCab->cur_elder,  pCab->max_elder,
 	     pCab->cur_leader, pCab->max_leader);
@@ -238,8 +238,8 @@ void show_cabal_info( CHAR_DATA* ch, CABAL_DATA* pCabal ){
 	send_to_char( "Number     Name       Level   Rank   Days Ago  Cabal\n\r", ch );
 	send_to_char( "------ ------------- ------- ------- --------- ------------\n\r", ch );
       }
-      sprintf( buf, "[%4d] %-15.15s %-6d   %-5d %-5ld     %-10.10s``\n\r", 
-	       cnt, 
+      sprintf( buf, "[%4d] %-15.15s %-6d   %-5d %-5ld     %-10.10s``\n\r",
+	       cnt,
 	       cMem->name,
 	       cMem->level,
 	       cMem->rank,
@@ -253,12 +253,12 @@ void show_cabal_info( CHAR_DATA* ch, CABAL_DATA* pCabal ){
 
   /*
   sendf( ch, "ROOMS: %d/%d possible costing %d support.\n\r",
-	 pCab->cur_room, 
-	 pCab->pIndexData->max_room, 
+	 pCab->cur_room,
+	 pCab->pIndexData->max_room,
 	 pCab->support[ECO_LAST_RENT] );
   */
 
-  if (IS_CABAL(pCab, CABAL_TRADE) || IS_CABAL(pCab, CABAL_NAPACT) 
+  if (IS_CABAL(pCab, CABAL_TRADE) || IS_CABAL(pCab, CABAL_NAPACT)
       || IS_CABAL(pCab, CABAL_ALLIANCE) || IS_CABAL(pCab, CABAL_VENDETTA)){
     send_to_char("PACTS:\n\r", ch );
     show_pacts( ch, pCab );
@@ -325,7 +325,7 @@ void free_cabal( CABAL_DATA* pc ){
 
     free_cvroom( cVroom );
   }
-  
+
   if (!IS_NULLSTR(pc->name))
     free_string(pc->name );
   if (!IS_NULLSTR(pc->currency))
@@ -348,7 +348,7 @@ void add_cabal( CABAL_DATA *pc ){
 /* removes a cabal from the list */
 void rem_cabal( CABAL_DATA *pc ){
   CABAL_DATA* prev = cabal_list;
-  
+
   if (prev == NULL){
    bug("cabal.c>rem_cabal : Cannot remove cabal as non exist.", 0);
    return;
@@ -368,7 +368,7 @@ void rem_cabal( CABAL_DATA *pc ){
   }
   bug("cabal.c>rem_cabal : Cannot remove cabal as non exist.", 0);
   return;
-}  
+}
 
 /* creates a cabal based on passed index */
 CABAL_DATA* create_cabal( CABAL_INDEX_DATA* pIndex ){
@@ -383,7 +383,7 @@ CABAL_DATA* create_cabal( CABAL_INDEX_DATA* pIndex ){
 
   pc->pIndexData		= pIndex;
   pc->vnum			= pIndex->vnum;
-  pc->version			= pIndex->version; 
+  pc->version			= pIndex->version;
 
   if (pIndex->anchor_vnum){
     pc->anchor			= get_room_index( pIndex->anchor_vnum);
@@ -442,7 +442,7 @@ CABAL_DATA* create_cabal( CABAL_INDEX_DATA* pIndex ){
 CROOM_DATA *new_croom(void){
 
   CROOM_DATA *cr = malloc( sizeof( *cr ));
-  
+
 /* reset initial things */
   cr->pRoomIndex	= NULL;
   cr->level		= 0;
@@ -458,7 +458,7 @@ void free_croom( CROOM_DATA* cr ){
 CVROOM_DATA *new_cvroom(void){
 
   CVROOM_DATA *cvr = malloc( sizeof( *cvr ));
-  
+
 /* reset initial things */
   cvr->pRoom		= NULL;
   cvr->next		= NULL;
@@ -485,7 +485,7 @@ void set_cvroom_flags( CVROOM_DATA* pcv, CABAL_DATA* pc, bool fAdd ){
     return;
   if (fAdd){
     SET_BIT(pc->flags, croom_table[pcv->level].flags);
-    if (IS_SET(croom_table[pcv->level].flags2, CROOM_PITROOM) 
+    if (IS_SET(croom_table[pcv->level].flags2, CROOM_PITROOM)
 	&& pc->pitroom == NULL){
       pc->pitroom = pcv->pRoom;
     }
@@ -564,7 +564,7 @@ void cvroom_from_cabal( CVROOM_DATA* pcv, CABAL_DATA* pc ){
   }
   prev->next = pcv->next;
   pcv->next = NULL;
-  
+
   set_cvroom_flags( pcv, pc, FALSE );
   refresh_cvroom_flags( pc );
 }
@@ -608,12 +608,12 @@ void save_cvrooms( CABAL_DATA* pCab ){
     /* last thing to enter are objects if any */
     for (pObj = pcv->pRoom->contents; pObj; pObj = pObj_next ){
       pObj_next = pObj->next_content;
-      
+
       if (!IS_OBJ_STAT(pObj, ITEM_MELT_DROP)
 	  && pObj->in_room != NULL
-	  && pObj->carried_by == NULL 
-	  && (IS_LIMITED(pObj) 
-	      || pObj->homevnum != pObj->in_room->vnum 
+	  && pObj->carried_by == NULL
+	  && (IS_LIMITED(pObj)
+	      || pObj->homevnum != pObj->in_room->vnum
 	      || pObj->contains != NULL
 	      || CAN_WEAR(pObj, ITEM_HAS_OWNER)) ){
 	fwrite_obj(NULL, pObj, fp, 0, 0, FALSE);
@@ -635,15 +635,12 @@ void save_cvrooms( CABAL_DATA* pCab ){
 /* reads in resets for a single cabal virtual room */
 void read_cvresets( FILE* fp, ROOM_INDEX_DATA* pRoomIndex ){
   RESET_DATA *pReset = NULL;
-  
+
   for ( ; ; ){
     char letter = '\0';
-      
+
     letter = fread_letter (fp);
-    /* Viri: For some reason compiler thought letter could be uninitilised at this point. */
-    if (&letter == NULL)
-      letter = '\0';
-      
+
     if (letter == 'S') {
       break;
     }
@@ -692,7 +689,7 @@ void read_cvresets( FILE* fp, ROOM_INDEX_DATA* pRoomIndex ){
 }
 /* read a single cabal vroom from file */
 bool read_cvroom( FILE* fp, CVROOM_DATA* pcv ){
-  
+
   pcv->pos[P_X]		= fread_number( fp );
   pcv->pos[P_Y]		= fread_number( fp );
   pcv->pos[P_Z]		= fread_number( fp );
@@ -747,7 +744,7 @@ void save_cabal( CABAL_DATA* pCab){
 
   fprintf( fp, "CurMem %d\n", pCab->cur_member);
 
-  // Before writting the flags, we remove any flags in cabal_flag table that cannot be manualy set. 
+  // Before writting the flags, we remove any flags in cabal_flag table that cannot be manualy set.
   flag = pCab->flags;
   for (i = 0; cabal_flags[i].name; i ++){
     if (cabal_flags[i].settable == FALSE)
@@ -785,6 +782,9 @@ void save_cabals(bool fChanged, CHAR_DATA* ch){
   for(pCab = cabal_list; pCab; pCab = pCab->next){
     if (fChanged){
       bool fSaved = FALSE;
+      /* Useless conditional */
+      if( fSaved == TRUE )
+        fSaved = FALSE;
       if (IS_CABAL(pCab, CABAL_CHANGED)){
 	save_cabal( pCab );
 	fSaved = TRUE;
@@ -909,7 +909,7 @@ bool fread_cabal( FILE *fp, CABAL_DATA* pCab ){
     case 'W':
       break;
     }
-  // cheack for key match 
+  // cheack for key match
     if ( !fMatch ){
       nlogf("Fread_cabal: no match: %s", word);
       fread_to_eol(fp);
@@ -920,7 +920,7 @@ bool fread_cabal( FILE *fp, CABAL_DATA* pCab ){
 }
 
 
-  
+
 /* udpates some odd info after loading all cabals */
 void fix_cabals(){
   CABAL_INDEX_DATA* pci;
@@ -951,7 +951,7 @@ void fix_cabals(){
 	pci->crooms[i]->vnum	= ROOM_VNUM_CROOM_DUMMY;
       else if (i == 1)
 	pci->crooms[i]->vnum	= ROOM_VNUM_CROOM_GARDEN;
-      
+
       if ( pci->crooms[i]->vnum < 1){
 	nlogf("cabal.c>fix_cabals:croom with 0 room vnum in cabal %d level %d",
 	      pci->vnum,
@@ -1003,17 +1003,17 @@ void fix_cabals(){
 	  else if (pact->complete != PACT_COMPLETE){
 	    pact->complete = PACT_COMPLETE;
 	  }
-	}  
+	}
       }
     }
-    
+
     // adjust the max elder / leader
     pCab->max_elder = 1 + pCab->cur_member / 5;
     pCab->max_leader = 2 + pCab->cur_member / 25;
 
-// cabal member data 
+// cabal member data
     for (cMem = pCab->members; cMem; cMem = cMem->next){
-      // cabal 
+      // cabal
       if (cMem->vnum){
 	CABAL_DATA* pCabal = get_cabal_vnum( cMem->vnum);
 	if (pCabal == NULL){
@@ -1026,14 +1026,14 @@ void fix_cabals(){
       }
     }//END for members
 
-//CITY pointer for ROYALS 
+//CITY pointer for ROYALS
     if (IS_CABAL(pCab, CABAL_ROYAL) && pCab->city == NULL){
       bug("fix_cabal: ROYAL cabal with no city! (vnum %d)", pCab->vnum );
     }
-    
-// ANCHOR room 
+
+// ANCHOR room
     if (pCab->anchor == NULL){
-      if (pCab->pIndexData->parent_vnum == 0) 
+      if (pCab->pIndexData->parent_vnum == 0)
 	bug("fix_cabals: Cabal vnum %d has NULL anchor.", pCab->vnum );
     }
     else if (pCab->parent == NULL){
@@ -1045,11 +1045,11 @@ void fix_cabals(){
       SET_BIT(pCab->anchor->area->area_flags, AREA_CABAL);
     }
 
-// GUARD 
+// GUARD
     if (pCab->guard && pCab->anchor == NULL){
       bug("fix_cabals: WARNING: Cabal guard set with no anchor room in cabal vnum %d.", pCab->vnum );
     }
-   
+
 // VCROOM DATA
     if (pCab->cvrooms && pCab->anchor == NULL){
       bug("fix_cabals: Cabal with virtual rooms and no anchor detected! vnum %d", pCab->vnum);
@@ -1057,9 +1057,12 @@ void fix_cabals(){
     }
     else{
       RESET_DATA* pReset;
-      MOB_INDEX_DATA* temp_index_mob;
+      MOB_INDEX_DATA* temp_index_mob = NULL;
       OBJ_INDEX_DATA* temp_index;
-      
+      /* Useless conditional */
+      if( temp_index_mob != NULL )
+        temp_index_mob = NULL;
+
       for (pcv = pCab->cvrooms; pcv; pcv = pcv->next ){
 	// we update all vrooms with area
 	if (pcv->pRoom == NULL){
@@ -1128,7 +1131,7 @@ void fix_cabals(){
 }
 
 void refresh_cabal_support(){
-  CABAL_DATA* pCab; 
+  CABAL_DATA* pCab;
  /* refresh support */
   for (pCab = cabal_list ;pCab != NULL; pCab = pCab->next){
     reinforce_refresh( pCab );
@@ -1140,7 +1143,7 @@ void read_cvrooms( FILE* fp, CABAL_DATA* pCabal ){
   char letter;
   char* word;
   CVROOM_DATA* last_pcv = NULL;
-  
+
   /* begin reading the cabal cvrooms */
   for (;;){
     letter		= fread_letter( fp );
@@ -1184,7 +1187,7 @@ void load_cvrooms(){
   CABAL_DATA* pCab;
   FILE* fp;
   char path[MIL];
-  
+
   fclose( fpReserve );
   for (pCab = cabal_list; pCab; pCab = pCab->next){
     sprintf( path, "%s%s.vir", SAVECAB_DIR, capitalize(pCab->pIndexData->file_name));
@@ -1331,7 +1334,7 @@ void cmember_from_cabal(CMEMBER_DATA* cm, CABAL_DATA* cp ){
 
   if (cp->members == cm ){
     cp->members = cm->next;
-    
+
   }
   else{
     for (pPrev = cp->members; pPrev; pPrev = pPrev->next){
@@ -1372,7 +1375,7 @@ void update_cmember( CHAR_DATA* ch ){
 	sendf( ch, "Garrison now at: <%d.%d>\n\r", GARR_NOR( ch),GARR_UPG(ch));
 	ch->pcdata->member->garrison_changed = FALSE;
       }
-	       
+
       ch->pcdata->member->pCabal= ch->pCabal;
       ch->pcdata->member->cp	= GET_CP(ch);
       ch->pcdata->member->rank	= ch->pcdata->rank;
@@ -1419,7 +1422,7 @@ CMEMBER_DATA* add_cmember( CHAR_DATA* ch, CABAL_DATA* pCab ){
     cm->cp		= GET_CP(ch);
     cm->rank		= ch->pcdata->rank;
     cm->connected	= ch->desc ? ch->desc->connected == CON_PLAYING : FALSE;
-    
+
     cmember_to_cabal( cm, get_parent( pCab ) );
     ch->pcdata->member = cm;
     return cm;
@@ -1448,14 +1451,14 @@ bool char_to_cabal( CHAR_DATA* ch, CABAL_DATA* pCab ){
   if (ch->pCabal){
     char_from_cabal( ch );
   }
-  
+
   if (_char_to_cabal( ch, pCab )){
     CABAL_DATA* pPar = get_parent(pCab);
     CMEMBER_DATA* cm = get_cmember( ch->name, pPar );
-    
+
     ch->pcdata->rank = 0;
     ch->pCabal = pCab;
-    
+
     /* either the member data is fresh new, or just updated */
     if (cm == NULL)
       ch->pcdata->member = add_cmember( ch, pCab );
@@ -1470,12 +1473,12 @@ bool char_to_cabal( CHAR_DATA* ch, CABAL_DATA* pCab ){
       cm->connected	= ch->desc ? ch->desc->connected == CON_PLAYING : FALSE;
       ch->pcdata->member = cm;
     }
-    
+
     if (!IS_CABAL(pCab, CABAL_CANHIDE))
       SET_BIT(ch->game, GAME_SHOW_CABAL);
     else
       REMOVE_BIT(ch->game, GAME_SHOW_CABAL);
-    
+
     save_cabals( FALSE, NULL );
   }
   return TRUE;
@@ -1543,10 +1546,10 @@ bool purge_cabal(CMEMBER_DATA* cMem){
   // Checks for hours played per month, if not enough, purge out of cabal
   that_time = gmtime(&mud_data.current_time);
   month = that_time->tm_mon;
-  
+
   if (cMem->mhours < 0)
     cMem->mhours = 0;
-  
+
   if(cMem->level <= 50 && cMem->month >= 0 && cMem->month != month ){
     DESCRIPTOR_DATA* d;
     CHAR_DATA* ch;
@@ -1567,28 +1570,28 @@ bool purge_cabal(CMEMBER_DATA* cMem){
       }
       else if ( (ch = get_char( cMem->name )) == NULL)
 	return FALSE;
-      
-      
+
+
       /* print the messges */
       sprintf( buf, "Due to lack of presence %s has been removed from %s.", ch->name, pc->who_name );
       log_string( buf );
       wiznet(log_buf,NULL,NULL,WIZ_LOGINS,0,get_trust(ch));
       cabal_echo( pc, buf );
       do_hal( pc->name, "Automatic expulsion.", buf, NOTE_NEWS);
-      
+
       /* we set the messages for login since he was not online */
       SET_BIT(ch->pcdata->messages, MSG_CAB_TEXPEL);
-      
+
       /* remove from cabal */
       ch->pcdata->last_app = mud_data.current_time + VOTE_DAY * 7;
       update_cabal_skills(ch, cMem->pCabal, TRUE, TRUE);
       if (ch->pCabal && ch->pCabal == cMem->pCabal){
-	char_from_cabal( ch );      
+	char_from_cabal( ch );
 	save_char_obj( ch );
       }
       else
 	cmember_from_cabal( cMem, get_parent( cMem->pCabal ) );
-      
+
       if (!fCon)
 	purge( ch );
       cMem->month = month;
@@ -1643,8 +1646,8 @@ CABAL_DATA* can_select_child( CHAR_DATA* ch, char* child ){
 
   if (pChild == NULL || ch->pCabal == NULL || IS_NPC( ch ))
     return NULL;
-  else if (pChild->parent == NULL || !_is_cabal(pChild, ch->pCabal) 
-	   || ch->pcdata->rank < 1 
+  else if (pChild->parent == NULL || !_is_cabal(pChild, ch->pCabal)
+	   || ch->pcdata->rank < 1
 	   || ch->pcdata->rank < pChild->pIndexData->min_rank)
     return NULL;
   else
@@ -1682,7 +1685,7 @@ void show_child_choice( CHAR_DATA* ch, CABAL_DATA* pCab, int rank ){
     BUFFER *buffer;
     char buf[MSL];
 
-    
+
     buffer=new_buf();
     buf[0] = 0;
 
@@ -1702,13 +1705,13 @@ void show_child_choice( CHAR_DATA* ch, CABAL_DATA* pCab, int rank ){
       page_to_char(buf_string(buffer),ch);
     }
     free_buf(buffer);
-  }   
+  }
 }
-  
+
 
 char* get_crank( CHAR_DATA* ch ){
   static char* null = "";
-  
+
   if (IS_NPC(ch) || ch->pCabal == NULL)
     return null;
   else
@@ -1719,22 +1722,22 @@ char* get_crank( CHAR_DATA* ch ){
 inline char* get_crank_str( CABAL_DATA* pCabal, int sex, int rank ){
   return sex == SEX_FEMALE ? pCabal->pIndexData->franks[rank] : pCabal->pIndexData->mranks[rank];
 }
-   
-      
+
+
 /* sets a reward for all cabal membeers, applied when they log on */
 void reward( CABAL_DATA* pCab, int amount ){
   CMEMBER_DATA* cMem;
   CABAL_DATA* pPar = get_parent( pCab );
   char buf[MIL];
-  
+
   for (cMem = pPar->members; cMem; cMem = cMem->next ){
     if (_is_cabal(cMem->pCabal, pCab))
       cMem->cp_pen = amount;
   }
   if (pCab == pPar)
     CP_CAB_GAIN( pPar, amount);
-  
-  sprintf( buf, "A %s of %d %s%s has been applied to your cabal.", 
+
+  sprintf( buf, "A %s of %d %s%s has been applied to your cabal.",
 	   amount < 0 ? "penalty" : "reward",
 	   amount,
 	   pCab->currency, amount == 1 ? "" : "s");
@@ -1883,7 +1886,7 @@ void do_imm_cabal( CHAR_DATA *ch, char *argument ){
       send_to_char("They are not in any cabal.\n\r", ch);
       return;
     }
-    if (get_trust( ch ) < CREATOR 
+    if (get_trust( ch ) < CREATOR
 	&& str_cmp(get_parent(victim->pCabal)->immortal, ch->name)){
       send_to_char("You are not in charge of that cabal.\n\r", ch);
       return;
@@ -1893,7 +1896,7 @@ void do_imm_cabal( CHAR_DATA *ch, char *argument ){
     update_cabal_skills(victim, ch->pCabal, TRUE, TRUE);
     char_from_cabal( victim );
     return;
-  }  
+  }
 
 
   if ( ( victim = get_char_world( ch, arg1 ) ) == NULL ){
@@ -1909,7 +1912,7 @@ void do_imm_cabal( CHAR_DATA *ch, char *argument ){
       send_to_char("They are not in any cabal.\n\r", ch);
       return;
     }
-    if (get_trust( ch ) < CREATOR 
+    if (get_trust( ch ) < CREATOR
 	&& str_cmp(get_parent(victim->pCabal)->immortal, ch->name)){
       send_to_char("You are not in charge of that cabal.\n\r", ch);
       return;
@@ -1919,7 +1922,7 @@ void do_imm_cabal( CHAR_DATA *ch, char *argument ){
     update_cabal_skills(victim, victim->pCabal, TRUE, TRUE);
     char_from_cabal( victim );
     return;
-  }  
+  }
   else if (!str_prefix(argument,"promote")){
     CMEMBER_DATA* cm;
     if (victim->pCabal == NULL){
@@ -1962,10 +1965,10 @@ void do_imm_cabal( CHAR_DATA *ch, char *argument ){
       free_string(cm->sponsored);
       cm->sponsored = str_dup( "" );
     }
-    sendf( ch, "Promoted to rank of %s (%d)\n\r", 
+    sendf( ch, "Promoted to rank of %s (%d)\n\r",
 	   get_crank( victim ),
 	   victim->pcdata->rank);
-    sendf( victim, "You have been promoted to %s of %s.\n\r", 
+    sendf( victim, "You have been promoted to %s of %s.\n\r",
 	   get_crank( victim ),
 	   victim->pCabal->name);
     if (has_child_choice( victim->pCabal, victim->pcdata->rank )){
@@ -1984,15 +1987,15 @@ void do_imm_cabal( CHAR_DATA *ch, char *argument ){
       return;
     }
     promote( victim, victim->pCabal, -1 );
-    sendf( ch, "Demoted to rank of %s (%d)\n\r", 
+    sendf( ch, "Demoted to rank of %s (%d)\n\r",
 	   get_crank( victim ),
 	   victim->pcdata->rank);
-    sendf( victim, "You have been demoted to %s of %s.\n\r", 
+    sendf( victim, "You have been demoted to %s of %s.\n\r",
 	   get_crank( victim ),
 	   victim->pCabal->name);
     return;
   }
-  else{  
+  else{
     if ( (pCab = get_cabal(argument)) == NULL){
       send_to_char("No such cabal exists.\n\r",ch);
       return;
@@ -2069,7 +2072,7 @@ void do_cabal( CHAR_DATA *ch, char *argument ){
       sendf( ch, "You have joined the ranks of %s!\n\r", ch->pCabal->who_name);
       sprintf( buf, "%s has chosen to join the ranks of %s.", PERS2( ch ), ch->pCabal->who_name );
       cabal_echo( ch->pCabal, buf );
-      
+
     }
   }
   else if (!str_cmp(arg1, "leave")){
@@ -2128,7 +2131,7 @@ void do_cabal( CHAR_DATA *ch, char *argument ){
     }
     CP_GAIN(ch, -val, TRUE );
     CP_CAB_GAIN(pCab, val / 2 );
-    sprintf(buf, "As a result of %s's donation  the coffers are now at %d %ss.", PERS2(ch), 
+    sprintf(buf, "As a result of %s's donation  the coffers are now at %d %ss.", PERS2(ch),
 	    GET_CAB_CP(pCab), pCab->currency);
     cabal_echo(pCab, buf );
     return;
@@ -2149,7 +2152,7 @@ void do_cabal( CHAR_DATA *ch, char *argument ){
       send_to_char("You are not a member of any cabal.\n\r", ch);
       return;
     }
-    else if (!IS_NULLSTR(ch->pcdata->member->sponsored) 
+    else if (!IS_NULLSTR(ch->pcdata->member->sponsored)
 	     && get_cmember(ch->pcdata->member->sponsored, get_parent( ch->pCabal)) != NULL){
       sendf( ch, "You already have %s under your guidance.\n\r", ch->pcdata->member->sponsored);
       return;
@@ -2172,7 +2175,7 @@ void do_cabal( CHAR_DATA *ch, char *argument ){
       return;
     }
     else if (ch->pcdata->rank < 2){
-      sendf(ch, "You must hold the rank of %s before you can sponsor.\n\r", 
+      sendf(ch, "You must hold the rank of %s before you can sponsor.\n\r",
 	    get_crank_str( ch->pCabal, ch->pcdata->true_sex, 2 ));
       return;
     }
@@ -2209,7 +2212,7 @@ void do_cabal( CHAR_DATA *ch, char *argument ){
 
       /* show cabal info */
       show_cabal_info( ch, pCab );
-    }	    
+    }
     else if (!IS_CABAL(pCab, CABAL_SPIES)){
       send_to_char("Your organization has not gained trust of the crime world.\n\r", ch);
       return;
@@ -2226,7 +2229,7 @@ void do_cabal( CHAR_DATA *ch, char *argument ){
     CABAL_DATA* pCab = get_parent( ch->pCabal );
     /* show cabal info */
     show_cabal_rooms( ch, pCab );
-  }	    
+  }
   else
     do_cabal(ch, "");
 }
@@ -2240,11 +2243,11 @@ void cabal_echo_flag(int flag, char* string){
     CHAR_DATA* rch = d->character;
     bool fDemon = FALSE;
 
-    if ( d->connected != CON_PLAYING 
+    if ( d->connected != CON_PLAYING
 	 || rch == NULL
 	 || rch->pCabal == NULL
 	 || IS_AFFECTED2(rch, AFF_SILENCE)
-	 || IS_SET(rch->comm, COMM_NOCABAL) 
+	 || IS_SET(rch->comm, COMM_NOCABAL)
 	 || IS_SET(rch->comm, COMM_QUIET) ){
       continue;
     }
@@ -2257,9 +2260,9 @@ void cabal_echo_flag(int flag, char* string){
       if (!IS_NPC(rch) && rch->pcdata->eavesdropped != NULL
 	  && is_affected(rch->pcdata->eavesdropped,gsn_eavesdrop)
 	  && !fDemon){
-	
+
 	send_to_char("A faint message transmits from the parasite.\n\r",rch->pcdata->eavesdropped);
-	act_new(buf, rch, string, NULL, TO_CHAR, POS_DEAD);      
+	act_new(buf, rch, string, NULL, TO_CHAR, POS_DEAD);
       }
     }
   }
@@ -2276,12 +2279,12 @@ void cabal_echo( CABAL_DATA* pCabal, char* string){
     CHAR_DATA* rch = d->character;
     bool fDemon = FALSE;
 
-    if ( d->connected != CON_PLAYING 
+    if ( d->connected != CON_PLAYING
 	 || rch == NULL
 	 || rch->pCabal == NULL
 	 || IS_AFFECTED2(rch, AFF_SILENCE)
-	 || IS_SET(rch->comm, COMM_NOCABAL) 
-	 || IS_SET(rch->comm, COMM_QUIET) 
+	 || IS_SET(rch->comm, COMM_NOCABAL)
+	 || IS_SET(rch->comm, COMM_QUIET)
 	 || !is_same_cabal(rch->pCabal, pCabal) ){
       continue;
     }
@@ -2292,9 +2295,9 @@ void cabal_echo( CABAL_DATA* pCabal, char* string){
     if (!IS_NPC(rch) && rch->pcdata->eavesdropped != NULL
 	&& is_affected(rch->pcdata->eavesdropped,gsn_eavesdrop)
 	&& !fDemon){
-	
+
       send_to_char("A faint message transmits from the parasite.\n\r",rch->pcdata->eavesdropped);
-      act_new(buf, rch, string, NULL, TO_CHAR, POS_DEAD);      
+      act_new(buf, rch, string, NULL, TO_CHAR, POS_DEAD);
     }
   }
 }
@@ -2304,8 +2307,8 @@ void cabal_echo( CABAL_DATA* pCabal, char* string){
 void update_cabal_skills( CHAR_DATA* ch, CABAL_DATA* pCabal, bool fRemove, bool fParent ){
   CSKILL_DATA* cSkill;
   CABAL_INDEX_DATA* pIndex;
-  
-  
+
+
   if (IS_NPC( ch ))
     return;
 
@@ -2320,8 +2323,8 @@ void update_cabal_skills( CHAR_DATA* ch, CABAL_DATA* pCabal, bool fRemove, bool 
 
   /* run through all cabal skills and set or remove them */
   for( cSkill = pIndex->skills; cSkill; cSkill = cSkill->next){
-    if (fRemove 
-	&& (skill_table[cSkill->pSkill->sn].skill_level[ch->class] < 1 
+    if (fRemove
+	&& (skill_table[cSkill->pSkill->sn].skill_level[ch->class] < 1
 	    || skill_table[cSkill->pSkill->sn].skill_level[ch->class] > 50)
 	){
       ch->pcdata->learned[cSkill->pSkill->sn] = 0;
@@ -2334,7 +2337,7 @@ void update_cabal_skills( CHAR_DATA* ch, CABAL_DATA* pCabal, bool fRemove, bool 
     update_cabal_skills( ch, pCabal->parent, fRemove, fParent);
 }
 
-  
+
 /* finds a cabal skill in cabal data */
 inline CSKILL_DATA *cskill_find(CSKILL_DATA *csk, int sn){
     CSKILL_DATA *csk_find;
@@ -2370,7 +2373,7 @@ CMEMBER_DATA* sponsor_check( CABAL_DATA* pCab, char* name ){
 
   if (pCab == NULL || name == NULL)
     return NULL;
-  
+
   for (cm = get_parent(pCab)->members; cm; cm = cm->next){
     if (is_name(name, cm->sponsored))
       return cm;
@@ -2436,7 +2439,7 @@ bool check_cabal_req( CHAR_DATA* ch, CABAL_DATA* pc ){
     sendf(ch, "You cannot join as your ethos is not wanted in %s.\n\r", pc->who_name);
     return FALSE;
   }
-    
+
   /* check race */
   if (pc->race[0] >= 0
       && pc->race[ch->race] == FALSE){
@@ -2462,7 +2465,7 @@ bool check_cabal_req( CHAR_DATA* ch, CABAL_DATA* pc ){
 /* check if given character has met all promotion requirements for this cabal*/
 /* NULL ch for silent check */
 bool check_promo_req( CHAR_DATA* ch, CMEMBER_DATA* cm, int rank ){
-  CABAL_DATA* pCab; 
+  CABAL_DATA* pCab;
   DESCRIPTOR_DATA* d;
   CHAR_DATA* victim = NULL;
 
@@ -2530,10 +2533,10 @@ bool check_promo_req( CHAR_DATA* ch, CMEMBER_DATA* cm, int rank ){
       SKILL_DATA* nsk = NULL;
       CSKILL_DATA* csk = NULL;
       sh_int learned = 0;
-      
+
       if ( skill_table[sn].name == NULL )
 	break;
-      else if (skill_table[sn].skill_level[victim->class] > 50 
+      else if (skill_table[sn].skill_level[victim->class] > 50
 	       && (nsk = nskill_find(victim->pcdata->newskills,sn)) == NULL
 	       && (csk = get_cskill(get_parent(victim->pCabal), sn)) == NULL)
 	continue;
@@ -2551,7 +2554,7 @@ bool check_promo_req( CHAR_DATA* ch, CMEMBER_DATA* cm, int rank ){
       else
 	spells++;
     }
-    
+
     if (IS_SET(pCab->progress, PROGRESS_SKILL)){
       int cnt = IS_SET(pCab->progress, PROGRESS_SPELL) ? skills + spells : skills;
       if (cnt < rank * 3){
@@ -2587,19 +2590,19 @@ bool check_promo_req( CHAR_DATA* ch, CMEMBER_DATA* cm, int rank ){
     int cnt = cm->kills;
     int req  = 10 * UMIN(2, rank);
     req += 20 * UMAX(0, rank - 2);
-    
+
     if (cnt < req ){
       if (ch)
-	sendf(ch, "[%s] requries %s to have %d more challenges.\n\r", 
-	      pCab->who_name, 
-	      cm->name, 
+	sendf(ch, "[%s] requries %s to have %d more challenges.\n\r",
+	      pCab->who_name,
+	      cm->name,
 	      req - cm->kills);
       if (fPurge)
 	purge(victim);
       return FALSE;
     }
   }
-  
+
   /* All passed, purge character if we need to */
   if (fPurge)
     purge(victim);
@@ -2633,7 +2636,7 @@ void CalcAreaDistances( AREA_DATA* origin, int start_distance, int cabal ){
     }
     if (pe_back == NULL)
       continue;
-      
+
     CalcAreaDistances( pe->to_room->area, start_distance + 1, cabal );
   }
 }
@@ -2659,6 +2662,10 @@ void AreaInfluenceUpdate( AREA_DATA* area ){
 
   int high = 0, sec_high = 0, high_cab = 0, sec_high_cab = 0;
 
+  /* Useless conditional */
+  if( sec_high_cab != 0 )
+    sec_high_cab = 0;
+
   //ez cases for areas not meant to be taken over
   if (IS_AREA(area, AREA_RESTRICTED))
     return;
@@ -2680,7 +2687,7 @@ void AreaInfluenceUpdate( AREA_DATA* area ){
      PASS 2:
      - Find highest and second highest inluence
      - Change alliegence if highest is 20% > then second highest
-     
+
   */
 
   /* PASS 0 */
@@ -2731,7 +2738,7 @@ void AreaInfluenceUpdate( AREA_DATA* area ){
       continue;
     else{
       fMark = TRUE;
-      REMOVE_BIT(pe->to_room->area->area_flags, AREA_MARKED);      
+      REMOVE_BIT(pe->to_room->area->area_flags, AREA_MARKED);
     }
 
     if (IS_AREA(pe->to_room->area, AREA_RESTRICTED))
@@ -2745,7 +2752,7 @@ void AreaInfluenceUpdate( AREA_DATA* area ){
       i = (pCab->support[ECO_GAIN] - CABAL_FULL_SUPPORT_VAL) / UMAX(1, area->cabal_distance[pCab->vnum]);
       delta = i - tot_inf + (i / count);
       area->cabal_influence[pCab->vnum] = URANGE(0, area->cabal_influence[pCab->vnum] + delta, 32767);
-      
+
     }
   }
 
@@ -2761,8 +2768,8 @@ void AreaInfluenceUpdate( AREA_DATA* area ){
     }
   }
 
- 
-  //Area not held by force, we check for influence 
+
+  //Area not held by force, we check for influence
   /* PASS 2 */
   for (i = 0; i < MAX_CABAL; i++){
     if (area->cabal_influence[i] > high){
@@ -2812,7 +2819,7 @@ inline int GET_CP(CHAR_DATA* ch){
   }
   if (IS_NPC(ch) || !ch->pCabal)
     return 0;
-  
+
   return ch->pcdata->cpoints / CPTS;
 }
 
@@ -2836,15 +2843,15 @@ int SUPPORT_GAIN( CABAL_DATA* pCabal, int eco_sector, int gain ){
 
   if (pCab == NULL)
     return 0;
-  
+
   pCab->support[eco_sector] += gain;
   if (eco_sector != ECO_GAIN)
     pCab->support[ECO_GAIN] += gain;
 
   return     pCab->support[ECO_GAIN];
 }
-    
-  
+
+
 /* Written by: Virigoth							*
  * Returns: amount of cpoints's char has after update.			*
  * Used: cabal.c, act_obj.c						*
@@ -2864,21 +2871,21 @@ int CPS_GAIN(CHAR_DATA* ch, int gain, bool fshow){
   if (fshow){
     if (abs(gain)  < CPTS){//if not a whole point
       if (gain > 0)
-	sendf(ch, "You have gained some worth in service of %s.\n\r", 
+	sendf(ch, "You have gained some worth in service of %s.\n\r",
 	      ch->pCabal->who_name);
       else if (gain < 0)
-	sendf(ch, "You have lost some worth in service of %s.\n\r", 
+	sendf(ch, "You have lost some worth in service of %s.\n\r",
 	      ch->pCabal->who_name);
     }
     else{
       if (gain > 0)
-	sendf(ch, "You have gained %d %s%s in service of %s.\n\r", 
+	sendf(ch, "You have gained %d %s%s in service of %s.\n\r",
 	      gain / CPTS,
 	      ch->pCabal->currency,
 	      (abs(gain) >= 2 * CPTS ? "s" : ""),
 	      ch->pCabal->who_name);
       else if (gain < 0)
-	sendf(ch, "You have lost %d %s%s in service of %s.\n\r", 
+	sendf(ch, "You have lost %d %s%s in service of %s.\n\r",
 	      abs(gain / CPTS),
 	      ch->pCabal->currency,
 	      (abs(gain) >= 2 * CPTS ? "s" : ""),
@@ -2916,14 +2923,14 @@ int CPS_CAB_GAIN(CABAL_DATA* pc, int gain ){
   }
   else if (pCab->cp < ECONOMY_COFF_MIN )
     pCab->cp = ECONOMY_COFF_MIN;
-  
+
   return GET_CAB_CP( pCab );
 }
 
 
 /* returns cp cost of a skill when used in this room */
 inline int get_cskill_cost( CHAR_DATA* ch, ROOM_INDEX_DATA* room, CSKILL_DATA* cSkill ){
-  
+
   if (room == NULL || cSkill == NULL)
     return 1000;
   /* check here if the area belongs to the cabal of the player */
@@ -2933,7 +2940,7 @@ inline int get_cskill_cost( CHAR_DATA* ch, ROOM_INDEX_DATA* room, CSKILL_DATA* c
   else
     return cSkill->cost;
 }
-  
+
 
 /* this function handles subtraction of cps when power is used */
 void handle_skill_cost( CHAR_DATA* ch, CABAL_DATA* pCabal, int sn ){
@@ -2984,14 +2991,14 @@ void distribute_cps(CHAR_DATA* ch, CABAL_DATA* pCab, int init_gain, bool fScale)
     scaled_gain /= UMAX(1, pCabal->present);
   }
 
-/* add tax to the cabal coffers */    
+/* add tax to the cabal coffers */
   CPS_CAB_GAIN( pCabal, tax );
 
 /* if ch is passed, then ch recives full gain, and rest players according to fScale */
   for ( vch = player_list; vch != NULL; vch = vch->next_player ){
     /* if link dead omit, not in cabal, or same ch omit */
-    if (!IS_NPC(vch) && vch->desc 
-	&& vch->pCabal 
+    if (!IS_NPC(vch) && vch->desc
+	&& vch->pCabal
 	&& !IS_IMMORTAL(vch)
 	&& is_same_cabal(pCabal, vch->pCabal)){
       if (ch && ch == vch)
@@ -3114,7 +3121,7 @@ int cp_event_army( ARMY_DATA* pa, CABAL_DATA* pEn, void* vo, int event ){
       cabal_report( pEn, buf, REPORT_BAD, TRUE );
 
       /* winner report */
-      sprintf(buf, "Area gained: %s taken from [%s].", area->name, pEn->who_name );      
+      sprintf(buf, "Area gained: %s taken from [%s].", area->name, pEn->who_name );
     }
     else
       fTalk = FALSE;
@@ -3123,8 +3130,8 @@ int cp_event_army( ARMY_DATA* pa, CABAL_DATA* pEn, void* vo, int event ){
   }
 
 /* check if pEn and ch->pCabal has a vendetta, if so give +50% */
-  if (gain > 0 && pEn 
-      && IS_CABAL(pc, CABAL_VENDETTA) 
+  if (gain > 0 && pEn
+      && IS_CABAL(pc, CABAL_VENDETTA)
       && get_pact(pEn, pc, PACT_VENDETTA, FALSE) != NULL)
     gain = 3 * gain / 2;
 
@@ -3216,7 +3223,7 @@ int cp_event(CHAR_DATA* ch, CHAR_DATA* victim, OBJ_DATA* obj, int event){
       gain = CP_EVENT_LEADER_COST;
     else if (IS_ELDER(victim))
       gain = CP_EVENT_ELDER_COST;
-    else 
+    else
       gain = CP_EVENT_PC_COST;
     fTalk = TRUE;
     fScale = TRUE;
@@ -3229,7 +3236,7 @@ int cp_event(CHAR_DATA* ch, CHAR_DATA* victim, OBJ_DATA* obj, int event){
 
     if ( pEn ){
       bool fLaw = FALSE;
-      if ((IS_WANTED(victim) || IS_OUTLAW(victim)) 
+      if ((IS_WANTED(victim) || IS_OUTLAW(victim))
 	  && (ch->pCabal && IS_CABAL(ch->pCabal, CABAL_JUSTICE)) ){
 	fLaw = TRUE;
       }
@@ -3427,7 +3434,7 @@ void save_pacts( ){
 PACT_DATA *new_pact(void){
 
   PACT_DATA *pp = malloc( sizeof( *pp ));
-  
+
 /* reset initial things */
   pp->next		= NULL;
   pp->type		= PACT_TRADE;
@@ -3503,16 +3510,16 @@ void set_pact_flags( PACT_DATA* pp, bool fRemove ){
   else if (IS_SET(pp->type, PACT_NAPACT)){
     flags |= CABAL_NAPACT;
     /* check if one of the cabals was a rouge cabal, then we add the spy flag */
-    if (pp->creator 
-	&& pp->benefactor 
+    if (pp->creator
+	&& pp->benefactor
 	&& (IS_CABAL(pp->creator, CABAL_ROUGE) || IS_CABAL(pp->benefactor, CABAL_ROUGE)) )
       flags |= CABAL_SPIES;
   }
   else if (IS_SET(pp->type, PACT_ALLIANCE)){
     flags |= CABAL_ALLIANCE;
     /* check if one of the cabals was a rouge cabal, then we add the spy flag */
-    if (pp->creator 
-	&& pp->benefactor 
+    if (pp->creator
+	&& pp->benefactor
 	&& (IS_CABAL(pp->creator, CABAL_ROUGE) || IS_CABAL(pp->benefactor, CABAL_ROUGE)) )
       flags |= CABAL_SPIES;
   }
@@ -3652,11 +3659,11 @@ PACT_DATA* get_pact( CABAL_DATA* pCabal1, CABAL_DATA* pCabal2, int type, bool fT
   PACT_DATA* pp;
   CABAL_DATA* pCab1 = get_parent( pCabal1 );
   CABAL_DATA* pCab2 = get_parent( pCabal2 );
-  
+
   for (pp = pact_list; pp; pp = pp->next){
     if (pp->complete != PACT_COMPLETE)
       continue;
-    if ( (pp->type == type 
+    if ( (pp->type == type
 	  || (fTrade && pp->type >= PACT_TRADE &&  pp->type <= PACT_ALLIANCE))
 	 &&  ( (pp->benefactor == pCab1 && pp->creator == pCab2)
 	       ||  (pp->benefactor == pCab2 && pp->creator == pCab1)) ){
@@ -3671,9 +3678,9 @@ PACT_DATA* get_pact_abs( CABAL_DATA* pCabal1, CABAL_DATA* pCabal2, int type, boo
   PACT_DATA* pp;
   CABAL_DATA* pCab1 = get_parent( pCabal1 );
   CABAL_DATA* pCab2 = get_parent( pCabal2 );
-  
+
   for (pp = pact_list; pp; pp = pp->next){
-    if ( (pp->type == type 
+    if ( (pp->type == type
 	  || (fTrade && pp->type >= PACT_TRADE &&  pp->type <= PACT_ALLIANCE))
 	 &&  ( (pp->benefactor == pCab1 && pp->creator == pCab2)
 	       ||  (pp->benefactor == pCab2 && pp->creator == pCab1)) ){
@@ -3694,7 +3701,7 @@ long get_trade_bonus( PACT_DATA* pp, bool fCre, bool fCp ){
   if (pp->type == PACT_VENDETTA){
     return (long) fCre ? c_in * gain / 100 : b_in * gain / 100;
   }
-  else 
+  else
     return (long) fCre ? b_in * gain / 100 : c_in * gain / 100;
 }
 
@@ -3717,12 +3724,12 @@ void show_pacts(CHAR_DATA* ch, CABAL_DATA* pCab ){
 	     buf,
 	     flag_string( pact_flags, pp->type),
 	     get_trade_bonus(pp, pp->creator == pCab ? TRUE : FALSE, TRUE) / CPTS
-	     
+
 	     );
     }
   }
 }
-	     
+
 /* checks if cabal is hostile or friendly to a given character */
 /* return values are:
 CABAL_FRIEND
@@ -3742,10 +3749,10 @@ int is_friendly( CABAL_DATA* pCabal, CABAL_DATA* pEnemy ){
   /* check for same cabal */
   if (_is_cabal( pEne, pCab ))
     return CABAL_FRIEND;
-  else if (IS_CABAL( pCab, CABAL_ALLIANCE ) && IS_CABAL( pEne, CABAL_ALLIANCE ) 
+  else if (IS_CABAL( pCab, CABAL_ALLIANCE ) && IS_CABAL( pEne, CABAL_ALLIANCE )
 	   && get_pact(pCab, pEne, PACT_ALLIANCE, FALSE))
     return CABAL_FRIEND;
-  else if (IS_CABAL( pCab, CABAL_VENDETTA ) && IS_CABAL( pEne, CABAL_VENDETTA ) 
+  else if (IS_CABAL( pCab, CABAL_VENDETTA ) && IS_CABAL( pEne, CABAL_VENDETTA )
 	   && get_pact(pCab, pEne, PACT_VENDETTA, FALSE))
     return CABAL_ENEMY;
   else
@@ -3769,10 +3776,10 @@ void lock_cabal( CABAL_DATA* pCab, bool fON ){
     /* run through players in the game, and look for ones inside the cabal */
     for (vch = player_list; vch; vch = vch_next ){
       vch_next = vch->next_player;
-      
+
       if (!IS_IMMORTAL( vch )
-	  && vch->in_room 
-	  && vch->in_room->area == pCab->anchor->area 
+	  && vch->in_room
+	  && vch->in_room->area == pCab->anchor->area
 	  && vch->in_room != pCab->anchor ){
 	act_new("A pair of armed $t guards escort you to the entrance.", vch, pCab->who_name, NULL, TO_CHAR, POS_DEAD);
 	act("A pair of armed $t guards escort $n to the entrance.", vch, pCab->who_name, NULL, TO_ROOM);
@@ -3823,7 +3830,7 @@ CVROOM_DATA* get_cvroom_vnum( int vnum, CABAL_DATA* pCabal){
 
   if (vnum == 0 || pc == NULL)
     return NULL;
-  
+
   for (pcv = pc->cvrooms; pcv; pcv = pcv->next ){
     if (pcv->pRoom && pcv->pRoom->vnum == vnum )
       return pcv;
@@ -3835,10 +3842,10 @@ CVROOM_DATA* get_cvroom_vnum( int vnum, CABAL_DATA* pCabal){
 CVROOM_DATA* get_cvroom_xyz( int x, int y, int z, CABAL_DATA* pCabal, bool fComplete, bool fNotComplete){
   CABAL_DATA* pc = get_parent( pCabal );
   CVROOM_DATA* pcv;
-  
+
   if (pc == NULL)
     return NULL;
-  
+
   for (pcv = pc->cvrooms; pcv; pcv = pcv->next ){
     if (pcv->fComplete && !fComplete )
       continue;
@@ -3854,10 +3861,10 @@ CVROOM_DATA* get_cvroom_xyz( int x, int y, int z, CABAL_DATA* pCabal, bool fComp
 CVROOM_DATA* get_cvroom_cvvnum( int vnum, CABAL_DATA* pCabal){
   CABAL_DATA* pc = get_parent( pCabal );
   CVROOM_DATA* pcv;
-  
+
   if (vnum == 0 || pc == NULL)
     return NULL;
-  
+
   for (pcv = pc->cvrooms; pcv; pcv = pcv->next ){
     if ( pcv->vnum == vnum )
       return pcv;
@@ -3900,7 +3907,7 @@ bool get_coordinates( int* pos, ROOM_INDEX_DATA* pRoom ){
     pos[P_Z] = pcv->pos[P_Z];
     return TRUE;
   }
-  else 
+  else
     return FALSE;
 }
 
@@ -3934,12 +3941,12 @@ void fix_vir_exits( CVROOM_DATA* pcv ){
       pExit->to_room = pcv->pRoom->pCabal->anchor;
       continue;
     }
-    
+
     /* now we have an exit from cvroom to cvroom, we get that room by our position + exit direction */
     to_pos[P_X]	= pcv->pos[P_X];
     to_pos[P_Y]	= pcv->pos[P_Y];
     to_pos[P_Z]	= pcv->pos[P_Z];
-  
+
     get_new_coordinates( to_pos, door );
     if ( (to_cvroom = get_cvroom_xyz(to_pos[P_X], to_pos[P_Y], to_pos[P_Z], pcv->pRoom->pCabal, TRUE, FALSE)) == NULL){
       char buf[MIL];
@@ -3996,7 +4003,7 @@ void build_exits( CHAR_DATA* ch, CVROOM_DATA* pcvroom, ROOM_INDEX_DATA* in_room,
   /* get the direction */
   argument = one_argument( argument, arg );
   one_argument( argument, arg1 );
-  
+
   if ( (door = dir_lookup( arg )) < 0 || door >= MAX_DOOR){
     send_to_char("That is not a direction. (up, down, east, west, north, south)\n\r", ch);
     return;
@@ -4020,13 +4027,13 @@ void build_exits( CHAR_DATA* ch, CVROOM_DATA* pcvroom, ROOM_INDEX_DATA* in_room,
     else if (pcvroom->pos[P_X] != 0 || pcvroom->pos[P_Y] != 0 || pcvroom->pos[P_Z] != 0){
       int to_pos[3];
 
-      /* 
+      /*
 	 the comparison is simple, we get the 3d cords of the room we are linking to,
 	 then affect them by the direction of the new exit from the room we are linking to, towards
 	 currently edited room.
 	 If the adjusted coordinates do not match, or are already taken we cannot build the door
       */
-/* debug 
+/* debug
       sendf (ch, "%d %d %d\n\r", to_pos[P_X], to_pos[P_Y], to_pos[P_Z] );
       get_coordinates( to_pos, in_room );
       sendf (ch, "%d %d %d\n\r", to_pos[P_X], to_pos[P_Y], to_pos[P_Z] );
@@ -4045,7 +4052,7 @@ void build_exits( CHAR_DATA* ch, CVROOM_DATA* pcvroom, ROOM_INDEX_DATA* in_room,
 	      pRoom->name);
 	return;
       }
-      if (!pcvroom->fComplete 
+      if (!pcvroom->fComplete
 	  && get_cvroom_xyz( to_pos[P_X], to_pos[P_Y], to_pos[P_Z], pcvroom->pRoom->pCabal, TRUE, TRUE ) != NULL){
 	send_to_char("A room has already been built there, or awaits approval for that position.\n\r", ch);
 	return;
@@ -4083,7 +4090,7 @@ void build_exits( CHAR_DATA* ch, CVROOM_DATA* pcvroom, ROOM_INDEX_DATA* in_room,
     pExit->vnum	      = in_room->vnum;
     pExit->orig_door	      = rev;
     pRoom->exit[rev]        = pExit;
-    
+
     sendf(ch, "Exit from %s %s added.\n\rExit %s from %s will exist when room is built.\n\r",
 	  pRoom->name, dir_name[rev], dir_name[door], in_room->name);
     return;
@@ -4100,7 +4107,7 @@ void build_exits( CHAR_DATA* ch, CVROOM_DATA* pcvroom, ROOM_INDEX_DATA* in_room,
       sendf(ch, "%s has an exit leading %s.\n\r", pRoom->name, dir_name[door]);
       return;
     }
-    
+
     /* get coordinates of the room we are linking to */
     to_pos[P_X] = pcvroom->pos[P_X];
     to_pos[P_Y] = pcvroom->pos[P_Y];
@@ -4123,7 +4130,7 @@ void build_exits( CHAR_DATA* ch, CVROOM_DATA* pcvroom, ROOM_INDEX_DATA* in_room,
     pExit->vnum			= to_cvroom->pRoom->vnum;
     pExit->orig_door		= door;
     pRoom->exit[door]		= pExit;
-    
+
     sendf(ch, "Exit from %s %s added.\n\rExit %s from %s will exist when room is built.\n\r",
 	  pRoom->name, dir_name[door], dir_name[rev], to_cvroom->pRoom->name);
     return;
@@ -4273,10 +4280,10 @@ VOTE_DATA* create_build_vote( CHAR_DATA* ch, CVROOM_DATA* pcv, int cost ){
 
   /* begin filling in the text describing the room */
   sprintf( string, "%s\n\r\n\r", croom_table[pcv->level].desc );
-	   	   
+
   sprintf( buf, "Build Cost: %-3d Support: %-3d\n\r",
 	   get_croom_bcost( pcv->level ),
-	   get_croom_cost( pcv->level ) 
+	   get_croom_cost( pcv->level )
 	   );
   strcat( string, buf);
   sprintf( buf, "\n\r\n\r" );
@@ -4292,7 +4299,7 @@ VOTE_DATA* create_build_vote( CHAR_DATA* ch, CVROOM_DATA* pcv, int cost ){
     strcat( string, pcv->pRoom->description2);
   }
   strcat(string, "\n\r" );
-  
+
   /* exits */
   strcat(string,"Exits:\n\r");
   for ( door = 0; door <= 5; door++ ){
@@ -4302,9 +4309,9 @@ VOTE_DATA* create_build_vote( CHAR_DATA* ch, CVROOM_DATA* pcv, int cost ){
     pos[P_X]	=	pcv->pos[P_X];
     pos[P_Y]	=	pcv->pos[P_Y];
     pos[P_Z]	=	pcv->pos[P_Z];
-	
+
     get_new_coordinates( pos, door );
-    if ( (pexit = ch->pcdata->pcvroom->pRoom->exit[door] ) == NULL 
+    if ( (pexit = ch->pcdata->pcvroom->pRoom->exit[door] ) == NULL
 	 || pexit->to_room == NULL){
       CVROOM_DATA* adj_cvroom = get_cvroom_xyz(pos[P_X], pos[P_Y], pos[P_Z], ch->pcdata->pcvroom->pRoom->pCabal, TRUE, FALSE);
       if (IS_ORIGIN(ch->pcdata->pcvroom->pos))
@@ -4325,14 +4332,14 @@ VOTE_DATA* create_build_vote( CHAR_DATA* ch, CVROOM_DATA* pcv, int cost ){
       if (IS_SET(pexit->exit_info, EX_CLOSED))
 	paran = TRUE;
       found = TRUE;
-     
+
       if (paran)
-	sprintf( buf, "(%-5s) - %s [%-15s]\n\r", 
+	sprintf( buf, "(%-5s) - %s [%-15s]\n\r",
 		 capitalize( dir_name[door] ),
 		 pexit->to_room->name,
 		 flag_string(exit_flags, pexit->rs_flags));
       else
-	sprintf( buf, " %-5s  - %s [%-15s]\n\r", 
+	sprintf( buf, " %-5s  - %s [%-15s]\n\r",
 		 capitalize( dir_name[door] ),
 		 pexit->to_room->name,
 		 flag_string(exit_flags, pexit->rs_flags));
@@ -4342,7 +4349,7 @@ VOTE_DATA* create_build_vote( CHAR_DATA* ch, CVROOM_DATA* pcv, int cost ){
   if ( !found )
     strcat(string, "No exits.\n\r");
   /* got everything */
-  if ( (pv = create_vote(ch, owner, subj, string, VOTE_BUILD, 
+  if ( (pv = create_vote(ch, owner, subj, string, VOTE_BUILD,
 			 pcv->pRoom->pCabal->vnum,
 			 pcv->pos[P_X], pcv->pos[P_Y], pcv->pos[P_Z], cost)) == NULL){
     bug("create_build_vote: could not create a vote.", 0);
@@ -4383,7 +4390,7 @@ VOTE_DATA* create_edit_vote( CHAR_DATA* ch, CVROOM_DATA* pcv, int cost ){
 
   /* begin filling in the text describing the room */
   sprintf( string, "%s\n\r\n\r", croom_table[pcv->level].desc );
-	   	   
+
   sprintf( buf, "Change in: Support: %-3d",
 	   get_croom_cost(old->level) - get_croom_cost( pcv->level));
   strcat( string, buf);
@@ -4400,13 +4407,13 @@ VOTE_DATA* create_edit_vote( CHAR_DATA* ch, CVROOM_DATA* pcv, int cost ){
     strcat( string, pcv->pRoom->description2);
   }
   strcat(string, "\n\r" );
-  
+
   /* exits */
   strcat(string,"Exit Changes:\n\r");
   for ( door = 0; door <= 5; door++ ){
     bool paran = FALSE;
 
-    if ( (pexit = pcv->pRoom->exit[door] ) == NULL 
+    if ( (pexit = pcv->pRoom->exit[door] ) == NULL
 	 || pexit->to_room == NULL){
       if (old->pRoom->exit[door] != NULL && old->pRoom->exit[door]->to_room != NULL){
 	sprintf( buf, "Exit to %s removed.\n\r", old->pRoom->exit[door]->to_room->name);
@@ -4422,13 +4429,13 @@ VOTE_DATA* create_edit_vote( CHAR_DATA* ch, CVROOM_DATA* pcv, int cost ){
       if (old->pRoom->exit[door] == NULL || old->pRoom->exit[door]->to_room ==  NULL)
 	fAdd = TRUE;
       if (paran)
-	sprintf( buf, "(%-5s) - %s [%-15s]%s\n\r", 
+	sprintf( buf, "(%-5s) - %s [%-15s]%s\n\r",
 		 capitalize( dir_name[door] ),
 		 pexit->to_room->name,
 		 flag_string(exit_flags, pexit->rs_flags),
 		 fAdd ? " NEW" : "");
       else
-	sprintf( buf, " %-5s  - %s [%-15s]%s\n\r", 
+	sprintf( buf, " %-5s  - %s [%-15s]%s\n\r",
 		 capitalize( dir_name[door] ),
 		 pexit->to_room->name,
 		 flag_string(exit_flags, pexit->rs_flags),
@@ -4439,7 +4446,7 @@ VOTE_DATA* create_edit_vote( CHAR_DATA* ch, CVROOM_DATA* pcv, int cost ){
   if ( !found )
     strcat(string, "No exits.\n\r");
 /* at this point we make this room "incomplete", when the vote is complete the code wil check if it overlaps
-   an existing room and deal with it appropriately 
+   an existing room and deal with it appropriately
 */
   pcv->fComplete = FALSE;
   /* got everything */
@@ -4474,13 +4481,13 @@ VOTE_DATA* create_sell_vote( CHAR_DATA* ch, CVROOM_DATA* pcv, int cost ){
 
   /* begin filling in the text describing the room */
   sprintf( string, "%s\n\r\n\r", croom_table[pcv->level].desc );
-	   	   
+
 
   sprintf( buf, "Sale Profit: %-3d Support change: %-3d\n\r\n\r",
-	   pcv->vnum == ROOM_VNUM_CROOM_DUMMY   ? 0 : get_croom_bcost(pcv->level) / 2, 
+	   pcv->vnum == ROOM_VNUM_CROOM_DUMMY   ? 0 : get_croom_bcost(pcv->level) / 2,
 	   get_croom_cost(pcv->level));
   strcat( string, buf);
-	   
+
 
   /* got everything */
   if ( (pv = create_vote(ch, owner, subj, string, VOTE_BUILD, pcv->pRoom->pCabal->vnum,
@@ -4526,7 +4533,7 @@ void cabal_map(char* buffer, int buffer_size, CABAL_DATA* pCabal, int z){
   if (pCab == NULL || pCab->cvrooms == NULL){
     return;
   }
-  
+
   /* zero the map */
   for (i = 0; i < ceil_x; i++){
     for (j = 0; j < ceil_y; j++){
@@ -4537,7 +4544,7 @@ void cabal_map(char* buffer, int buffer_size, CABAL_DATA* pCabal, int z){
   /* first run through the rooms and find teh lower coordinate values */
   for (pcv = pCab->cvrooms; pcv; pcv = pcv->next ){
     int x = pcv->pos[P_X] * 4 + org_x; //*4 due one space for -[x]
-    int y = (-pcv->pos[P_Y]) * 2 + org_y; //*2 
+    int y = (-pcv->pos[P_Y]) * 2 + org_y; //*2
 
     if (!pcv->fComplete || pcv->pos[P_Z] != z)
       continue;
@@ -4615,7 +4622,7 @@ void cabal_map(char* buffer, int buffer_size, CABAL_DATA* pCabal, int z){
     ptr += 2;
   }
 }
-/* shows a map of a cabal, based on z-level that character is in 
+/* shows a map of a cabal, based on z-level that character is in
  * if forcez is != -999 we force that level
  */
 void show_cabal_map( CHAR_DATA* ch, CABAL_DATA* pCabal, int ForceZ ){
@@ -4638,9 +4645,9 @@ CABAL_DATA* pCab;
     z = 0;
   else
     z = pcv->pos[P_Z];
-  
-  sendf(ch, "Map of [%s] %s level %d.\n\r\n\r", 
-	pCab->who_name, 
+
+  sendf(ch, "Map of [%s] %s level %d.\n\r\n\r",
+	pCab->who_name,
 	z  < 0 ? "dungeon" : "floor",
 	abs(z));
 
@@ -4682,7 +4689,7 @@ void do_build( CHAR_DATA* ch, char* argument ){
   }
 /* CREATE */
   if (!str_prefix(arg, "create")){
-    CROOM_DATA* cr; 
+    CROOM_DATA* cr;
     /* check some misc. stuff */
     if (ch->pcdata->pcvroom){
       send_to_char("You are alrady working on another room.\n\r", ch);
@@ -4721,7 +4728,7 @@ void do_build( CHAR_DATA* ch, char* argument ){
       pcvroom->pos[P_Y]	=	0;
       pcvroom->pos[P_Z]	=	0;
       ch->pcdata->pcvroom = pcvroom;
-          
+
       /* we copy all the info from the skeleton room into our room */
       /* the vnum is not assigned untill we actuly post the room, then the resets are refreshed as well */
       clone_room( cr->pRoomIndex, pRoom, TRUE );
@@ -4766,7 +4773,7 @@ void do_build( CHAR_DATA* ch, char* argument ){
       pcvroom->pRoom	=	pRoom;
       pcvroom->vnum	=	pcv->vnum;
       pcvroom->fComplete=	pcv->fComplete;
-      
+
 
       pcvroom->level	=	pcv->level;
 
@@ -4806,7 +4813,7 @@ void do_build( CHAR_DATA* ch, char* argument ){
 /* REPLACE */
   else if (!str_prefix( arg, "replace")){
     CVROOM_DATA* pcv;
-    CROOM_DATA* cr; 
+    CROOM_DATA* cr;
 
     /* check some misc. stuff */
     if (ch->pcdata->pcvroom){
@@ -4871,12 +4878,12 @@ void do_build( CHAR_DATA* ch, char* argument ){
 	  pExit->orig_door	 = door;
 	  pExit->exit_info	 = pexit->rs_flags;
 	  pExit->rs_flags	 = pexit->rs_flags;
-	  
+
 	  if (!IS_NULLSTR(pexit->keyword))
 	    pExit->keyword = str_dup( pexit->keyword );
 	  if (!IS_NULLSTR(pexit->description))
 	    pExit->keyword = str_dup( pexit->description );
-	  
+
 	  pcvroom->pRoom->exit[door] = pExit;
 	}
       }
@@ -4898,7 +4905,7 @@ void do_build( CHAR_DATA* ch, char* argument ){
       return;
     }
     else if (IS_NULLSTR(argument)){
-      sendf( ch, "The room %s will be sold if this vote passes.  Use \"build sell confirm\" to confirm.\n\r", 
+      sendf( ch, "The room %s will be sold if this vote passes.  Use \"build sell confirm\" to confirm.\n\r",
 	     ch->pcdata->pcvroom->pRoom->name);
       return;
     }
@@ -4910,7 +4917,7 @@ void do_build( CHAR_DATA* ch, char* argument ){
     }
     else if ( GET_CP( ch ) < cv->cost ){
       int cost = cv->cost;
-      sendf( ch, "You require at least %d %s%s to create the vote to sell this room.\n\r", 
+      sendf( ch, "You require at least %d %s%s to create the vote to sell this room.\n\r",
 	     cost, pc->currency, cost == 1 ? "" : "s" );
       return;
     }
@@ -4949,7 +4956,7 @@ void do_build( CHAR_DATA* ch, char* argument ){
       if (IS_ORIGIN( ch->pcdata->pcvroom->pos))
 	send_to_char(" [-, -, -]", ch);
       else{
-	sendf( ch, " [%d, %d, %d]", 
+	sendf( ch, " [%d, %d, %d]",
 	       ch->pcdata->pcvroom->pos[P_X], ch->pcdata->pcvroom->pos[P_Y], ch->pcdata->pcvroom->pos[P_Z]);
       }
       send_to_char(IS_SET(in_room->room_flags, ROOM_INDOORS) ? " (indoors)" : " (outside)", ch );
@@ -4963,8 +4970,8 @@ void do_build( CHAR_DATA* ch, char* argument ){
 	send_to_char("\n\rNIGHT DESC:\n\r", ch);
 	send_to_char( in_room->description2, ch );
       }
-      send_to_char( "\n\r", ch );      
-      
+      send_to_char( "\n\r", ch );
+
       /* exits */
       sprintf(buf,"Current exits:\n\r");
 
@@ -4975,9 +4982,9 @@ void do_build( CHAR_DATA* ch, char* argument ){
 	pos[P_X]	=	ch->pcdata->pcvroom->pos[P_X];
 	pos[P_Y]	=	ch->pcdata->pcvroom->pos[P_Y];
 	pos[P_Z]	=	ch->pcdata->pcvroom->pos[P_Z];
-	
+
 	get_new_coordinates( pos, door );
-	if ( (pexit = ch->pcdata->pcvroom->pRoom->exit[door] ) == NULL 
+	if ( (pexit = ch->pcdata->pcvroom->pRoom->exit[door] ) == NULL
 	     || pexit->to_room == NULL){
 	  CVROOM_DATA* adj_cvroom = get_cvroom_xyz(pos[P_X], pos[P_Y], pos[P_Z], ch->pcdata->pcvroom->pRoom->pCabal, TRUE, FALSE);
 	  if (IS_ORIGIN(ch->pcdata->pcvroom->pos))
@@ -4998,16 +5005,16 @@ void do_build( CHAR_DATA* ch, char* argument ){
 	  found = TRUE;
 
 	  if (paran)
-	    sprintf( buf + strlen(buf), "(%-5s) - %s (%d, %d, %d) [%-15s]", 
+	    sprintf( buf + strlen(buf), "(%-5s) - %s (%d, %d, %d) [%-15s]",
 		     capitalize( dir_name[door] ),
 		     pexit->to_room->name,
-		     pos[P_X], pos[P_Y], pos[P_Z], 
+		     pos[P_X], pos[P_Y], pos[P_Z],
 		     flag_string(exit_flags, pexit->rs_flags));
 	  else
-	    sprintf( buf + strlen(buf), " %-5s  - %s (%d, %d, %d) [%-15s]", 
+	    sprintf( buf + strlen(buf), " %-5s  - %s (%d, %d, %d) [%-15s]",
 		     capitalize( dir_name[door] ),
 		     pexit->to_room->name,
-		     pos[P_X], pos[P_Y], pos[P_Z], 
+		     pos[P_X], pos[P_Y], pos[P_Z],
 		     flag_string(exit_flags, pexit->rs_flags));
 	  sprintf( buf + strlen( buf ), "  %-15s", pexit->keyword );
 	  sprintf(buf + strlen(buf), "\n\r");
@@ -5058,7 +5065,7 @@ void do_build( CHAR_DATA* ch, char* argument ){
       send_to_char("You are not working on a room.\n\r", ch);
       return;
     }
-    
+
     TOGGLE_BIT( ch->pcdata->pcvroom->pRoom->room_flags, ROOM_INDOORS);
     send_to_char("Indoor/Outdoor status toggled.\n\r", ch);
     return;
@@ -5126,16 +5133,16 @@ void do_build( CHAR_DATA* ch, char* argument ){
     }
 /* check for overlappign positions for new rooms (edited rooms skip this) */
     else if (!ch->pcdata->pcvroom->fComplete
-	     && (old_cvr = get_cvroom_xyz( ch->pcdata->pcvroom->pos[P_X], 
-				ch->pcdata->pcvroom->pos[P_Y], 
+	     && (old_cvr = get_cvroom_xyz( ch->pcdata->pcvroom->pos[P_X],
+				ch->pcdata->pcvroom->pos[P_Y],
 				ch->pcdata->pcvroom->pos[P_Z], pc, TRUE, FALSE )) != NULL){
       send_to_char("A room has already been built there, or awaits approval for that position.\n\r", ch);
       return;
     }
 /* check for overlappign positions for edited rooms (new rooms skip this) */
     else if (ch->pcdata->pcvroom->fComplete
-	     && (old_cvr = get_cvroom_xyz( ch->pcdata->pcvroom->pos[P_X], 
-				ch->pcdata->pcvroom->pos[P_Y], 
+	     && (old_cvr = get_cvroom_xyz( ch->pcdata->pcvroom->pos[P_X],
+				ch->pcdata->pcvroom->pos[P_Y],
 				ch->pcdata->pcvroom->pos[P_Z], pc, FALSE, TRUE )) != NULL){
       send_to_char("A room has already been built there, or awaits approval for that position.\n\r", ch);
       return;
@@ -5153,12 +5160,12 @@ void do_build( CHAR_DATA* ch, char* argument ){
     if (old_cvr && old_cvr->vnum != ch->pcdata->pcvroom->vnum)
       cost = UMAX(1, get_croom_bcost(ch->pcdata->pcvroom->level)) / 10;
     /* check cost (editing a room costs 1/10 its cost) */
-    else 
+    else
       cost = UMAX(1, get_croom_bcost(ch->pcdata->pcvroom->level));
 
     if (GET_CAB_CP( pc ) < cost ) {
       sendf( ch, "%s needs at least %d %s%s in its coffers to attempt to %s this room.\n\r"\
-	     "Currently you only have %d.\n\r ", 
+	     "Currently you only have %d.\n\r ",
 	     pc->who_name, cost,
 	     pc->currency, (cost) == 1 ? "" : "s",
 	     ch->pcdata->pcvroom->fComplete ? "renovate" : "construct",
@@ -5166,7 +5173,7 @@ void do_build( CHAR_DATA* ch, char* argument ){
       return;
     }
     else if ( GET_CP( ch ) < cv->cost ){
-      sendf( ch, "You require at least %d %s%s to create the vote for this room.\n\r", 
+      sendf( ch, "You require at least %d %s%s to create the vote for this room.\n\r",
 	     cost, pc->currency, cost == 1 ? "" : "s" );
       return;
     }
@@ -5178,7 +5185,7 @@ void do_build( CHAR_DATA* ch, char* argument ){
 
       CHANGE_CABAL( pc );
       VRCHANGE_CABAL( pc );
-      
+
       /* create vote here */
       if (ch->pcdata->pcvroom->fComplete )
 	create_edit_vote( ch, ch->pcdata->pcvroom, -cost );
@@ -5189,7 +5196,7 @@ void do_build( CHAR_DATA* ch, char* argument ){
       CP_CAB_GAIN( pc, -cost);
       CP_GAIN(ch, -cv->cost, TRUE );
 
-/* DEBUG: connect the room 
+/* DEBUG: connect the room
       ch->pcdata->pcvroom->fComplete = TRUE;
       load_vir_room( ch->pcdata->pcvroom->pRoom, pc->anchor->area );
 */
@@ -5214,7 +5221,7 @@ void do_build( CHAR_DATA* ch, char* argument ){
   */
 
 
-/* updates a status of a pact based on its rating , returns FALSE if pact no longer exists */    
+/* updates a status of a pact based on its rating , returns FALSE if pact no longer exists */
 bool update_pact_status( PACT_DATA* pp ){
   bool fRet = TRUE;
   char to[MIL];
@@ -5250,7 +5257,7 @@ bool update_pact_status( PACT_DATA* pp ){
       char new_pact [MIL];
       sprintf( new_pact, "%s", flag_string(pact_flags, pp->type));
       sprintf( buf, "Due to suffering relations between [%s] and [%s]\n\ryour %s has been reduced to a mere %s.\n\r",
-	       pp->creator->who_name, pp->benefactor->who_name, 
+	       pp->creator->who_name, pp->benefactor->who_name,
 	       flag_string(pact_flags, ori_type), new_pact );
       sprintf( to, "%s %s", pp->creator->name, pp->benefactor->name);
       do_hal( to, "A pact has declined.", buf, NOTE_NEWS );
@@ -5290,7 +5297,7 @@ bool update_pact_status( PACT_DATA* pp ){
   else
     return TRUE;
 }
-      
+
 
 
 /* updates a single pacts rating accorind to its type/duration */
@@ -5316,7 +5323,7 @@ void update_pact_rating( PACT_DATA* pp ){
   sec = sec * 3600;
   /* calculate amount of seconds before a single rating increase */
   sec_per_rating = UMAX(1, sec / rating );
-  
+
 /* calculate how much we gain */
   /* (current time - last time) / (time/gain) = gain */
   gain = ((mud_data.current_time - pp->time_stamp) / sec_per_rating);
@@ -5330,10 +5337,10 @@ void update_pact_rating( PACT_DATA* pp ){
   }
 }
 
-    
 
 
-  
+
+
 /* update single pacts economic benefits */
 void update_pact_economy( PACT_DATA* pp ){
   int run = PACT_MAX_RATING;
@@ -5370,7 +5377,7 @@ void update_pact_economy( PACT_DATA* pp ){
     cy_min	= TRADE_CP_WAR;
     cy_max	= TRADE_CP_WAR;
     sy_min	= TRADE_SUP_WAR;
-    sy_max	= TRADE_SUP_WAR;    
+    sy_max	= TRADE_SUP_WAR;
     break;
   }
 
@@ -5386,7 +5393,7 @@ void update_pact_economy( PACT_DATA* pp ){
     pp->c_cp = (x * (cy_max - cy_min) / run) + cy_min;
     pp->c_sup = (x * (sy_max - sy_min) / run) + sy_min;
   }
-    
+
 /* BENEFACTOR BONUS */
 /* If cabal2 is a service cabal then cabal1 gets a constant economic "cost" of service */
   if (IS_CABAL(pp->creator, CABAL_SERVICE) && pp->type != PACT_VENDETTA){
@@ -5451,17 +5458,17 @@ void affect_justice_relations( CABAL_DATA* pRoyal, int gain ){
       affect_cabal_relations( pp->benefactor, pRoyal, gain, TRUE );
   }
 }
-	
+
 /* affects relationship between two cabals by boosting or hurting their of pacts by "gain" amount */
-/* NOTE: pc1 Is the "cause" of the gain shift, and ONLY its pacts with partners of pc2 will be affected 
+/* NOTE: pc1 Is the "cause" of the gain shift, and ONLY its pacts with partners of pc2 will be affected
  * if fSelf, then the gain is also applied to the pc1 and pc2 cabal's trade or vendetta pact whichever exists */
 /* NOTICE: gain is a relative shift in cabal to cabal relations, not exact shift in pacts. + is "better relations" */
 void affect_cabal_relations( CABAL_DATA* Pc1, CABAL_DATA* Pc2, int gain, bool fSelf ){
-  
+
   /* COMMENTS:
      + pos. gain means positive shift in relations (trade increases, vendetta's decrease)
      - if either of cabals have alliances with common partners those pacts are affected by 50% of gain
-     
+
   */
   CABAL_DATA* partners[max_cabal];		//holds a list of partners of both cabals
   int data[max_cabal];				//holds data about the partners
@@ -5481,7 +5488,7 @@ void affect_cabal_relations( CABAL_DATA* Pc1, CABAL_DATA* Pc2, int gain, bool fS
   if (pc1 == NULL || pc2 == NULL || pc1 == pc2)
     return;
 
-  
+
 /* Zero the partners array */
   for (i = 0; i < max_cabal; i ++){
     partners[i] = NULL;
@@ -5509,7 +5516,7 @@ void affect_cabal_relations( CABAL_DATA* Pc1, CABAL_DATA* Pc2, int gain, bool fS
       pPartner = pp->creator;
       f1 = FALSE;
     }
-    else 
+    else
       continue;
 
     /* if we have a valid partner, we also check if the pact is trade or vendetta */
@@ -5529,12 +5536,12 @@ void affect_cabal_relations( CABAL_DATA* Pc1, CABAL_DATA* Pc2, int gain, bool fS
     }
   }//end for
 
-/* at this point the partners array has all the pact partners of either pc1 or pc2 
+/* at this point the partners array has all the pact partners of either pc1 or pc2
  * and data array has bits that can tell us if pc1 and pc2 have pacts with that partner.
  * we run over the data array, and affect the pats of pc1->partner if pc2->partner pact exists
  * (both  PC1_XX and PC2_XX bits set)
  */
-/* the pact (if any) between pc1 and pc2 exists in partner cabal as well under their vnums 
+/* the pact (if any) between pc1 and pc2 exists in partner cabal as well under their vnums
  * hence we toggle the sign on the gain due to the pact between pc2->pc1
  */
   if (IS_SET(data[pc2->vnum], CAB1_VENDETTA)){
@@ -5557,7 +5564,7 @@ void affect_cabal_relations( CABAL_DATA* Pc1, CABAL_DATA* Pc2, int gain, bool fS
     else if ( (!IS_SET(data[i], CAB1_TRADE) && !IS_SET(data[i], CAB1_VENDETTA))
 	      || (!IS_SET(data[i], CAB2_TRADE) && !IS_SET(data[i], CAB2_VENDETTA)) )
       continue;
-    /* at this point we know we have a common partner to both pc1 and pc2 cabal 
+    /* at this point we know we have a common partner to both pc1 and pc2 cabal
      * we now apply 50% +/- gain depending on trade or vendetta pacts with the partner cabal
      */
     else{
@@ -5583,16 +5590,16 @@ void affect_cabal_relations( CABAL_DATA* Pc1, CABAL_DATA* Pc2, int gain, bool fS
 	new_gain *= -1;
       }
 
-      /* at this point we now have final sign on the gain between pc1->partner 
-       * so we apply the gain 
+      /* at this point we now have final sign on the gain between pc1->partner
+       * so we apply the gain
        */
-      
+
       pact_gain( pc1, partners[i], type, new_gain );
-      /* debug 
+      /* debug
       sprintf( buf, "Gained %d rating with %s.\n\r", new_gain, partners[i]->who_name);
       cabal_echo(pc1, buf );
       */
-      
+
     }//END gain with partners
   }//end for
 }//end cabal relations
@@ -5606,7 +5613,7 @@ bool sell_room( CVROOM_DATA* pcv, CABAL_DATA* pCab, int cost ){
 
   if (pcv->pRoom->vnum != ROOM_VNUM_CROOM_DUMMY)
     CP_CAB_GAIN( pCab, cost );
-  
+
   /* we check if this room has more then 1 exit */
   for (door = 0; door  < MAX_DOOR; door ++ ){
     if ( (pexit = pcv->pRoom->exit[door]) != NULL && pexit->to_room != NULL)
@@ -5629,12 +5636,12 @@ bool sell_room( CVROOM_DATA* pcv, CABAL_DATA* pCab, int cost ){
     }
     /* we now create a new cabal room which is a clone of a skeleton room */
     pcvroom = new_cvroom();
-	  
+
     /* copy virtual room data from original */
     pcvroom->pRoom	=	new_room_index();
     pcvroom->vnum		=	ROOM_VNUM_CROOM_DUMMY;
     pcvroom->fComplete	=	TRUE;
-      
+
 
     pcvroom->level	=	0;
 
@@ -5651,7 +5658,7 @@ bool sell_room( CVROOM_DATA* pcv, CABAL_DATA* pCab, int cost ){
 	continue;
       else{
 	EXIT_DATA* pExit = new_exit();
-	
+
 	pExit->to_room	= pexit->to_room;
 	pExit->vnum	= pexit->vnum;
 	pExit->orig_door	= door;
@@ -5662,7 +5669,7 @@ bool sell_room( CVROOM_DATA* pcv, CABAL_DATA* pCab, int cost ){
 	  pExit->keyword = str_dup( pexit->keyword );
 	if (!IS_NULLSTR(pexit->description))
 	  pExit->keyword = str_dup( pexit->description );
-	
+
 	pcvroom->pRoom->exit[door] = pExit;
       }
     }
@@ -5688,7 +5695,7 @@ void sell_rooms( CABAL_DATA* pCab ){
 
   char text[MSL];
   char buf[MIL];
-  
+
   /* we first get a list of all rooms in the cabal */
   for (pcv = pCab->cvrooms; pcv; pcv = pcv->next){
     if (pcv->vnum != ROOM_VNUM_CROOM_DUMMY && get_croom_cost(pcv->level) > 1)
@@ -5703,7 +5710,7 @@ void sell_rooms( CABAL_DATA* pCab ){
     for (j = 0; j  < max_cvr - i; j ++ ){
       pcv = cvrooms[j];
       pcv_next = cvrooms[j + 1];
-      
+
       if (get_croom_cost(pcv_next->level) > get_croom_cost(pcv->level)){
 	cvrooms[j + 1] = pcv;
 	cvrooms[j] = pcv_next;
@@ -5715,7 +5722,7 @@ void sell_rooms( CABAL_DATA* pCab ){
   i = 0;
   while (pCab->cp < 0 && i < max_cvr){
     int cost = get_croom_bcost( cvrooms[i]->level );
-    sprintf( buf, "%d. %-25s sold for %-4d %s%s.\n\r", i + 1, 
+    sprintf( buf, "%d. %-25s sold for %-4d %s%s.\n\r", i + 1,
 	     cvrooms[i]->pRoom->name, cost / 2, pCab->currency, cost == 1 ? "" : "s");
     strcat( text, buf );
     sell_room( cvrooms[i], pCab, cost );
@@ -5743,7 +5750,7 @@ int get_support_cp_bonus(CABAL_DATA* pCab, int support ){
 
 //checks if cabal member has enough hours to be promoted
 bool check_promo_hours( CMEMBER_DATA* cMem, int rank ){
-  
+
   if (cMem->hours / 3600 > (rank + 1) * 10)
     return TRUE;
   else
@@ -5777,7 +5784,7 @@ void auto_promote( CMEMBER_DATA* cMem ){
       fPurge = TRUE;
     }
   }
- 
+
   /* safeties in case of duplicate entry in two cabals */
   if (!is_same_cabal(cMem->pCabal, ch->pCabal)){
     cmember_from_cabal(cMem, get_parent( cMem->pCabal ) );
@@ -5812,8 +5819,8 @@ void auto_promote( CMEMBER_DATA* cMem ){
   if (!fPurge){
     /* char is present */
     char buf[MIL];
-    sprintf( buf, "%s has been %s to the rank of %s.\n\r", 
-	     PERS2( ch ), 
+    sprintf( buf, "%s has been %s to the rank of %s.\n\r",
+	     PERS2( ch ),
 	     "promoted",
 	     get_crank( ch ));
     cabal_echo( ch->pCabal, buf );
@@ -5821,7 +5828,7 @@ void auto_promote( CMEMBER_DATA* cMem ){
       send_to_char("`2You are now able to choose further within your organization. (\"cabal join\")``\n\r", ch);
     }
   }
-  
+
   /* check if we need to purge the character */
   if (fPurge){
     update_cmember( ch );
@@ -5877,14 +5884,14 @@ bool handle_army_queue( CMEMBER_DATA* cMem ){
       return fAccess;
 
     //Check for pause->unpause
-    if (cMem->armies[TIMN] < 0){ 
-      if ( cMem->cp >= pai->cost 
+    if (cMem->armies[TIMN] < 0){
+      if ( cMem->cp >= pai->cost
 	   && (cMem->armies[OTIN] != start_dur || pCab->armies_ready > 0)
 	   && !check_army_max( cMem ))
 	cMem->armies[TIMN] = UMAX(0, cMem->armies[OTIN]);
     }
     //Check for unpause->pause
-    else if (cMem->cp < pai->cost  
+    else if (cMem->cp < pai->cost
 	     || (cMem->armies[TIMN] == start_dur && pCab->armies_ready < 1)
 	     || check_army_max( cMem )){
       cMem->armies[OTIN] = cMem->armies[TIMN];
@@ -5918,17 +5925,17 @@ bool handle_army_queue( CMEMBER_DATA* cMem ){
 
     if ( (pai = get_army_index( pCab->pIndexData->army_upgrade)) == NULL)
       return fAccess;
-    
+
     //Check for pause->unpause
-    if (cMem->armies[TIMU] < 0){ 
-      if ( cMem->cp >= pai->cost 
+    if (cMem->armies[TIMU] < 0){
+      if ( cMem->cp >= pai->cost
 	   && (cMem->armies[OTIU] != start_dur || cMem->armies[NOR] > 0)){
 	   //Viri: This should not be necessary, upgrades are limited by avaliable normals, which are limited by army max   && !check_army_max( cMem )){
 	cMem->armies[TIMU] = UMAX(0, cMem->armies[OTIU]);
       }
     }
     //Check for unpause->pause
-    else if (cMem->cp < pai->cost  
+    else if (cMem->cp < pai->cost
 	     || (cMem->armies[TIMU] == start_dur && cMem->armies[NOR] < 1)
 	     ){
       cMem->armies[OTIU] = cMem->armies[TIMU];
@@ -5965,16 +5972,16 @@ void cabal_member_update( CABAL_DATA* pCab, bool fPurge ){
   pCab->cur_elder = 0;
   pCab->cur_leader = 0;
 
-  /* 
+  /*
      we do two loops, from last_recruit to end, then from start to last_recruit
      in order to implement simple clock alg. to prevent deadlock on army queues
   */
-    
+
   /* LOOP  1, from last_recruit to end */
   if (pCab->last_recruit){
     for (cMem = pCab->last_recruit; cMem; cMem = cMem_next){
       cMem_next = cMem->next;
-      
+
       if (!member_update( cMem, fPurge ))
 	continue;
       /* check for army recruitment */
@@ -5988,7 +5995,7 @@ void cabal_member_update( CABAL_DATA* pCab, bool fPurge ){
       continue;
     /* check for army recruitment */
     handle_army_queue( cMem );
-  } 
+  }
 }
 //resets standard gaurd
 void reset_standard_guard( ROOM_INDEX_DATA* pRoom, CABAL_DATA* pCab ){
@@ -5996,7 +6003,7 @@ void reset_standard_guard( ROOM_INDEX_DATA* pRoom, CABAL_DATA* pCab ){
 
   if (pRoom == NULL || pCab == NULL || pCab->anchor == NULL || pCab->guard == NULL)
     return;
-  
+
   for (mob = pCab->anchor->people; mob != NULL; mob = mob->next_in_room){
     if (!IS_NPC(mob))
       continue;
@@ -6014,7 +6021,7 @@ void reset_standard_guard( ROOM_INDEX_DATA* pRoom, CABAL_DATA* pCab ){
 
   if ( room_is_dark( pRoom ) )
     SET_BIT(pMob->affected_by, AFF_INFRARED);
-  char_to_room( pMob, pRoom );	
+  char_to_room( pMob, pRoom );
   act("$n takes position before the entrance.", pMob, NULL, NULL, TO_ROOM);
   if (pCab->citem == NULL)
     pCab->citem = reset_cabal_item( pMob, pCab );
@@ -6064,7 +6071,7 @@ void reset_cabal_guard( ROOM_INDEX_DATA* pRoom, CABAL_DATA* pCab ){
 
   if ( room_is_dark( pRoom ) )
     SET_BIT(pMob->affected_by, AFF_INFRARED);
-  char_to_room( pMob, pRoom );	
+  char_to_room( pMob, pRoom );
   act("$n takes position before the entrance.", pMob, NULL, NULL, TO_ROOM);
 
   if (pCab->citem == NULL)
@@ -6107,7 +6114,7 @@ void cabal_update(){
 
   /* update the pacts before cabals */
   pact_update();
-  
+
   /* run through all the cabals */
   for (pCab = cabal_list; pCab; pCab = pCab->next){
     int gain = 0, item_count = 0;
@@ -6149,7 +6156,7 @@ void cabal_update(){
 	       pCab->currency,
 	       pCab->raid_sup < 0 ? "lost" : "won",
 	       abs(pCab->raid_sup));
-      if (pCab->raid_sup < 0)      
+      if (pCab->raid_sup < 0)
 	pCab->bonus_sup += pCab->raid_sup;
       CPS_CAB_GAIN( pCab, pCab->raid_cps);
       cabal_echo(pCab, buf );
@@ -6186,17 +6193,17 @@ void cabal_update(){
     // Increase recruits ready in cabal if we have our own item
     if (!is_captured( pCab )){
       pCab->ready_gain += IS_CABAL( pCab, CABAL_SWARM ) ? 6 : 3;
-      //    give more units to those without much land 
+      //    give more units to those without much land
       if (pCab->support[ECO_INCOME] < WORLD_SUPPORT_VALUE / 8)
 	pCab->ready_gain += 6 * (1 - 8 * pCab->support[ECO_INCOME] / WORLD_SUPPORT_VALUE);
       gain = pCab->ready_gain / 10;
       pCab->ready_gain -= gain * 10;
       pCab->armies_ready = URANGE(0, pCab->armies_ready + gain, 10);
     }
-    // if no item in altar, decrease the recuits 
+    // if no item in altar, decrease the recuits
     else
       pCab->armies_ready = URANGE(0, pCab->armies_ready -1, 10);
-    
+
 
     /* MEMBER update if needed */
     if (mud_data.current_time - pCab->member_stamp > CMEMBER_PULSE){
@@ -6221,7 +6228,7 @@ void cabal_update(){
 	continue;
       croom_levels[pcv->level] = pcv;
       //charge only for active rooms
-      if (croom_table[pcv->level].flags == 0 
+      if (croom_table[pcv->level].flags == 0
 	  || IS_CABAL(pCab, croom_table[pcv->level].flags))
 	pCab->support[ECO_LAST_RENT] += get_croom_cost(pcv->level);
     }
@@ -6232,7 +6239,7 @@ void cabal_update(){
 
     //support bonus for having item in altar
     if (is_in_altar( pCab )){
-      if (IS_CABAL(pCab, CABAL_ROYAL) 
+      if (IS_CABAL(pCab, CABAL_ROYAL)
 	  && pCab->city && IS_AREA(pCab->city, AREA_LAWFUL)){
 	pCab->support[ECO_INCOME]	+= 2 * CABAL_BASE_SUPPORT;//LAWFUL
       }
@@ -6254,7 +6261,7 @@ void cabal_update(){
     else if (pCab->bonus_sup < 0){
       pCab->bonus_sup += URANGE(1, abs(pCab->bonus_sup) / 100, 20);
     }
-      
+
     /* set range */
     pCab->bonus_sup = URANGE( -CABAL_FULL_SUPPORT_VAL, pCab->bonus_sup, 2 * CABAL_FULL_SUPPORT_VAL);
 
@@ -6283,14 +6290,14 @@ void cabal_update(){
     {
       int temp_level = pCab->support[ECO_GAIN];
       int percent = 100 * temp_level / (CABAL_FULL_SUPPORT * WORLD_SUPPORT_VALUE / 100);
-      char buf[MIL]; 
+      char buf[MIL];
       /* deactivate all rooms above current percent level */
-      
+
       for (i = 0; i < CROOM_LEVELS; i++ ){
 	if (croom_table[i].flags == 0)
-	  continue;	
+	  continue;
 	if (croom_table[i].percent < 1)
-	  continue;	
+	  continue;
 
 	/* activate */
 	if (percent > croom_table[i].percent && !IS_SET(pCab->flags, croom_table[i].flags)){
@@ -6306,7 +6313,7 @@ void cabal_update(){
 	else if (percent < croom_table[i].percent && IS_SET(pCab->flags, croom_table[i].flags)){
 	  REMOVE_BIT(pCab->flags, croom_table[i].flags);
 	  if (pCab->pIndexData->crooms[i]){
-	    sprintf( buf, "Not enough support to activate %s.", 
+	    sprintf( buf, "Not enough support to activate %s.",
 		     pCab->pIndexData->crooms[i]->pRoomIndex->name);
 	    cabal_echo( pCab, buf );
 	  }
@@ -6331,20 +6338,20 @@ void cabal_update(){
 	    continue;
 	  else
 	    temp_level += get_croom_cost( i );
-	  
+
 	  //turn off its bits
 	  REMOVE_BIT(pCab->flags, croom_table[i].flags);
-	  
+
 	//message
-	sprintf( buf, "Not enough support to activate %s.", 
+	sprintf( buf, "Not enough support to activate %s.",
 	croom_levels[i]->pRoom->name);
 	cabal_echo( pCab, buf );
-	
+
 	if (temp_level >= 0)
 	break;
 	}
       }
-      
+
       //POSITIVE SUPPORT LEVEL, TRY TO TURN ON ROOMS THAT ARE OFF (from cheapest to highest)
       for (i = 0; i < CROOM_LEVELS; i++ ){
 	//rooms with no cabal flags cannot be turned on
@@ -6428,7 +6435,7 @@ void show_cabal_help( CHAR_DATA* ch, char* argument, char* output ){
   sprintf( string, "You must be between %d and %d in your rank and of %s alignment.\n\r",
 	 pCab->pIndexData->min_lvl, pCab->pIndexData->max_lvl, buf );
   strcat( output, string );
-  
+
   buf[0] = '\0';
   if (IS_SET(pCab->ethos, ETHOS_LAWFUL)){
     strcat(buf, "Lawful");
@@ -6443,7 +6450,7 @@ void show_cabal_help( CHAR_DATA* ch, char* argument, char* output ){
     }
   }
   if (IS_SET(pCab->ethos, ETHOS_CHAOTIC))
-    strcat(buf, "Chaotic");  
+    strcat(buf, "Chaotic");
   sprintf( string, "Following %s races and classes will be considered:\n\r\n\r", buf );
   strcat( output, string );
 
@@ -6478,7 +6485,7 @@ void show_cabal_help( CHAR_DATA* ch, char* argument, char* output ){
     }
   }
   strcat( output, buf );
-  strcat( output, "\n\r\n\r");  
+  strcat( output, "\n\r\n\r");
 
 
   /* count application votes to this cabal */
@@ -6494,15 +6501,15 @@ void show_cabal_help( CHAR_DATA* ch, char* argument, char* output ){
 	       pPar->who_name,
 	       pCab->who_name);
     else
-      sprintf(buf, "Scribe an \"application to %s\" if you wish to be considered for membership.\n\r", 
+      sprintf(buf, "Scribe an \"application to %s\" if you wish to be considered for membership.\n\r",
 	      pCab->name);
   }
   else
-    sprintf(buf, "%s is currently NOT ACCEPTING applications.\n\r", 
+    sprintf(buf, "%s is currently NOT ACCEPTING applications.\n\r",
 	    pPar->name);
   strcat( output, buf );
   strcat( output, "\n\rSee also: HELP CABAL, CABALS\n\r");
-  
+
 }
 
 /* sets the beggining of a coup */
@@ -6511,7 +6518,7 @@ void do_coup(CHAR_DATA *ch, char *argument){
   AFFECT_DATA af, *paf;
   char arg[MIL];
   argument = one_argument( argument, arg );
-  
+
   if (ch->pCabal == NULL)
     return;
   else if (!IS_SET(ch->pCabal->progress, PROGRESS_COUP)){
@@ -6571,7 +6578,7 @@ void do_coup(CHAR_DATA *ch, char *argument){
   string_to_affect( paf, victim->name );
   sendf(ch, "You have %d hours to complete the coup.\n\r", paf->duration);
 }
-    
+
 /* calculates corruption for a cabal */
 int get_corruption_support( CABAL_DATA* pCabal, int area_support ){
   PACT_DATA* pp;
@@ -6600,7 +6607,7 @@ int get_corruption_support( CABAL_DATA* pCabal, int area_support ){
   //  return (per_loss * area_support / 100 );
   return 0;
 }
-  
+
 
 /* Written by: Virigoth							*
  * Returns: void							*
@@ -6627,19 +6634,19 @@ void cabal_requip(CHAR_DATA* ch){
 /* THIS NEEDS TO BE RE-WRITTENT! */
   return;
   if (cp >= CP_RESPAWN_1){
-    /* check for vnum 
+    /* check for vnum
     if ( !(vnum  = cabal_table[ch->cabal].respawn[0])){
       nlogf("cabal_requip: %s has no respawn[0]", cabal_table[ch->cabal].name);
       return;
     }
     */
-    /* check for item 
+    /* check for item
     if ( (obj = create_object( get_obj_index( vnum), 0)) == NULL){
       nlogf("cabal_requip: %d does not exists.", vnum);
       return;
     }
     */
-    /* move item to char, and equip it 
+    /* move item to char, and equip it
     obj_to_char(obj, ch);
     if (!CAN_WEAR(obj, ITEM_WIELD)){
       bug("cabal_requip: RESPAWN_1 is not a weapon!", 0);
@@ -6653,19 +6660,19 @@ void cabal_requip(CHAR_DATA* ch){
 
   /* TORSO */
   if (cp >= CP_RESPAWN_2){
-    /* check for vnum 
+    /* check for vnum
     if ( !(vnum  = cabal_table[ch->cabal].respawn[1])){
       nlogf("cabal_requip: %s has no respawn[1]", cabal_table[ch->cabal].name);
       return;
     }
     */
-    /* check for item 
+    /* check for item
     if ( (obj = create_object( get_obj_index( vnum), 0)) == NULL){
       nlogf("cabal_requip: %d does not exists.", vnum);
       return;
     }
     */
-    /* move item to char, and equip it 
+    /* move item to char, and equip it
     obj_to_char(obj, ch);
     if (!CAN_WEAR(obj, ITEM_WEAR_BODY)){
       bug("cabal_requip: RESPAWN_2 is not a torso!", 0);
@@ -6676,22 +6683,22 @@ void cabal_requip(CHAR_DATA* ch){
     equip_char(ch, obj, WEAR_BODY);
     */
   }
-    
+
     /* HEAD */
   if (cp >= CP_RESPAWN_3){
-    /* check for vnum 
+    /* check for vnum
     if ( !(vnum  = cabal_table[ch->cabal].respawn[2])){
       nlogf("cabal_requip: %s has no respawn[2]", cabal_table[ch->cabal].name);
       return;
     }
     */
-    /* check for item 
+    /* check for item
     if ( (obj = create_object( get_obj_index( vnum), 0)) == NULL){
       nlogf("cabal_requip: %d does not exists.", vnum);
       return;
     }
     */
-    /* move item to char, and equip it 
+    /* move item to char, and equip it
     obj_to_char(obj, ch);
     if (!CAN_WEAR(obj, ITEM_WEAR_HEAD)){
       bug("cabal_requip: RESPAWN_3 is not a helm!", 0);
@@ -6705,19 +6712,19 @@ void cabal_requip(CHAR_DATA* ch){
 
   /* ARMS */
   if (cp >= CP_RESPAWN_4){
-    /* check for vnum 
+    /* check for vnum
     if ( !(vnum  = cabal_table[ch->cabal].respawn[3])){
       nlogf("cabal_requip: %s has no respawn[3]", cabal_table[ch->cabal].name);
       return;
     }
     */
-    /* check for item 
+    /* check for item
     if ( (obj = create_object( get_obj_index( vnum), 0)) == NULL){
       nlogf("cabal_requip: %d does not exists.", vnum);
       return;
     }
     */
-    /* move item to char, and equip it 
+    /* move item to char, and equip it
     obj_to_char(obj, ch);
     if (!CAN_WEAR(obj, ITEM_WEAR_LEGS)){
       bug("cabal_requip: RESPAWN_4 is not a leg armor!", 0);
@@ -6732,19 +6739,19 @@ void cabal_requip(CHAR_DATA* ch){
   /* LIGHT */
 
   if (cp >= CP_RESPAWN_5 && ch->race != race_lookup("vampire")){
-    /* check for vnum 
+    /* check for vnum
     if ( !(vnum  = cabal_table[ch->cabal].respawn[4])){
       nlogf("cabal_requip: %s has no respawn[4]", cabal_table[ch->cabal].name);
       return;
     }
     */
-    /* check for item 
+    /* check for item
     if ( (obj = create_object( get_obj_index( vnum), 0)) == NULL){
       nlogf("cabal_requip: %d does not exists.", vnum);
       return;
     }
     */
-    /* move item to char, and equip it 
+    /* move item to char, and equip it
     obj_to_char(obj, ch);
     if (!CAN_WEAR(obj, ITEM_LIGHT)){
       bug("cabal_requip: RESPAWN_5 is not a light!", 0);
@@ -6866,12 +6873,12 @@ void fwrite_cabal_index( FILE* fp, CABAL_INDEX_DATA* pCab){
   for( cSkill = pCab->skills; cSkill; cSkill = cSkill->next){
     // regular skill data part
     fprintf( fp, "Skill '%s' %3d %3d %3d %3d\n",
-	     skill_table[cSkill->pSkill->sn].name, 
-	     cSkill->pSkill->level, 
-	     cSkill->pSkill->rating, 
-	     cSkill->pSkill->learned, 
+	     skill_table[cSkill->pSkill->sn].name,
+	     cSkill->pSkill->level,
+	     cSkill->pSkill->rating,
+	     cSkill->pSkill->learned,
 	     cSkill->pSkill->keep);
-    //cabal part 
+    //cabal part
     fprintf( fp, "%d %d %d %d %s\n",
 	     cSkill->min_rank,
 	     cSkill->max_rank,
@@ -6906,11 +6913,11 @@ void fwrite_cabal_index( FILE* fp, CABAL_INDEX_DATA* pCab){
 bool fread_cabal_index( FILE *fp, CABAL_INDEX_DATA* pCab, AREA_DATA* pArea, int vnum ){
   char *word = NULL;
   bool fMatch = FALSE;
-  
+
   for ( ; ; ){
     word   = feof( fp ) ? "End" : fread_word( fp );
     fMatch = FALSE;
-    
+
     switch ( UPPER(word[0]) ){
     case '*':
       fMatch = TRUE;
@@ -6939,7 +6946,7 @@ bool fread_cabal_index( FILE *fp, CABAL_INDEX_DATA* pCab, AREA_DATA* pArea, int 
 	pCab->crooms[i]		= new_croom();
 	pCab->crooms[i]->vnum	= fread_number( fp );
 	pCab->crooms[i]->level	= i;
- 
+
 	fMatch = TRUE;
 	break;
       }
@@ -7034,7 +7041,7 @@ bool fread_cabal_index( FILE *fp, CABAL_INDEX_DATA* pCab, AREA_DATA* pArea, int 
 	  CSKILL_DATA* cSkill = malloc( sizeof( *cSkill ) );
 	  cSkill->next = NULL;
 	  cSkill->pSkill = new_skill();
-	
+
 	  cSkill->pSkill->sn		= UMAX(0, sn);
 	  cSkill->pSkill->level		= fread_number( fp );
 	  cSkill->pSkill->rating	= fread_number( fp );
@@ -7100,7 +7107,7 @@ bool fread_cabal_index( FILE *fp, CABAL_INDEX_DATA* pCab, AREA_DATA* pArea, int 
       KEYS( "WhoName",		pCab->who_name,		fread_string( fp ) );
       break;
     }
-  // cheack for key match 
+  // cheack for key match
     if ( !fMatch ){
       bug("Fread_cabal: no match.",0);
       fread_to_eol(fp);
@@ -7113,7 +7120,7 @@ void save_cabal_indexes( FILE *fp, AREA_DATA *pArea ){
   CABAL_INDEX_DATA *pci;
 
   fprintf( fp, "#CABALS\n" );
-  
+
   for ( pci = cabal_index_list; pci; pci = pci->next ){
     if (pci->pArea == pArea)
       fwrite_cabal_index( fp, pci );
@@ -7161,7 +7168,7 @@ void justice_raid_gain( long sup, long cps ){
   CABAL_DATA* pCab;
 
   for (pCab = cabal_list; pCab; pCab = pCab->next){
-    if (pCab->parent == NULL 
+    if (pCab->parent == NULL
 	&& IS_CABAL(pCab, CABAL_JUSTICE)
 	&& pCab->present > 0){
       pCab->raid_sup += sup;
@@ -7277,7 +7284,7 @@ CHAR_DATA* reset_altar( ROOM_INDEX_DATA* room, CABAL_DATA* pCab ){
   else
     altar = pCab->altar;
   /* if this cabal's cabal item doesn't exists, reset it */
-  /* items are now reset on guards not altars 
+  /* items are now reset on guards not altars
   if (pCab->citem == NULL)
     pCab->citem = reset_cabal_item( altar, pCab );
   */
@@ -7304,7 +7311,7 @@ void show_altar( CHAR_DATA* ch, CHAR_DATA* altar ){
   if ( altar->max_hit > 0 ){
     int percent = ( 100 * altar->hit ) / altar->max_hit;
     char buf[MIL];
-    
+
     strcpy( buf, PERS(altar, ch) );
     if (percent >= 100)		strcat( buf, " is in excellent condition.\n\r");
     else if (percent >= 90)	strcat( buf, " has a few scratches.\n\r");
@@ -7357,7 +7364,7 @@ void cabal_altar_death_ch( CHAR_DATA* ch, CHAR_DATA* altar){
   bool fAllied= FALSE;
 
 
-  
+
   if (IS_NPC(ch) || ch->pCabal == NULL || altar->pCabal == NULL || is_same_cabal(ch->pCabal, altar->pCabal)){
     return;
   }
@@ -7370,12 +7377,12 @@ void cabal_altar_death_ch( CHAR_DATA* ch, CHAR_DATA* altar){
       continue;
     else if (is_same_cabal(altar->pCabal, obj->pCabal))
       citem = obj;
-    
+
     if (is_friendly(obj->pCabal, ch->pCabal) == CABAL_FRIEND){
       fAllied = TRUE;
       obj_from_char( obj );
       obj_to_ch( obj, ch );
-    
+
       act("You've retrieved $p!", ch, obj, NULL, TO_CHAR);
       act("$n retrieves $p!", ch, obj, NULL, TO_ROOM);
 
@@ -7403,22 +7410,22 @@ void cabal_altar_death_ch( CHAR_DATA* ch, CHAR_DATA* altar){
       else{
 	act("You've captured $p!", ch, citem, NULL, TO_CHAR);
 	act("$n captures $p!", ch, citem, NULL, TO_ROOM);
-	
+
 	obj_from_char( citem );
 	obj_to_ch( citem, ch );
-	
+
 	//set timer on the item
 	citem->timer = CABAL_STANDARD_TIMER;
 
 	//force a repop to replace the guard
 	ch->in_room->area->age = 31;
-	
+
 	//messages
 	sprintf( buf, "%s has captured our item!", PERS2(ch));
 	cabal_echo( citem->pCabal, buf );
 	sprintf( buf, "%s has captured %s!", PERS2(ch), citem->short_descr);
 	cabal_echo( get_parent(ch->pCabal), buf );
-	
+
       }
     }
   }
@@ -7507,19 +7514,19 @@ void handle_cabal_item_entrance( CHAR_DATA* ch, ROOM_INDEX_DATA* anchor ){
   else if (ch->fighting)
     return;
 
-  if ( (altar = anchor->pCabal->altar) == NULL 
-       || altar->in_room != anchor 
+  if ( (altar = anchor->pCabal->altar) == NULL
+       || altar->in_room != anchor
        || altar->pCabal == NULL
        || !can_see(ch, altar))
     altar = NULL;
 
-  if ( (guard = anchor->pCabal->cguard) == NULL 
-       || guard->in_room != anchor 
+  if ( (guard = anchor->pCabal->cguard) == NULL
+       || guard->in_room != anchor
        || guard->pCabal == NULL
        || !can_see(ch, guard))
     guard = NULL;
 
-  if (ch->pCabal 
+  if (ch->pCabal
       && ((altar && is_friendly(ch->pCabal, altar->pCabal) == CABAL_ENEMY) || (guard && is_friendly(ch->pCabal, guard->pCabal) == CABAL_ENEMY))
       )
     return;
@@ -7544,7 +7551,7 @@ void handle_cabal_item_entrance( CHAR_DATA* ch, ROOM_INDEX_DATA* anchor ){
 
       act("You restore $p to its rightful place.", ch, obj, guard, TO_CHAR );
       act("$N hands $p to $n.", guard, obj, ch, TO_ROOM );
-      
+
       sprintf( buf, "%s has restored our powers!", PERS2(ch));
       cabal_echo( guard->pCabal, buf );
       cp_event(ch, guard, obj, CP_EVENT_RETURN);
@@ -7558,7 +7565,7 @@ void handle_cabal_item_entrance( CHAR_DATA* ch, ROOM_INDEX_DATA* anchor ){
 
       act("You place $p on the altar.", ch, obj, altar, TO_CHAR );
       act("$N places $p on the altar.", altar, obj, ch, TO_ROOM );
-      
+
       sprintf( buf, "We have drained %s of its power.", obj->short_descr);
       cabal_echo( altar->pCabal , buf);
       sprintf( buf, "%s have drained %s of its power!", altar->pCabal->name, obj->short_descr);
@@ -7576,7 +7583,7 @@ void handle_cabal_item_entrance( CHAR_DATA* ch, ROOM_INDEX_DATA* anchor ){
 	else
 	  remove_cabalguard( obj->pCabal );
       }
-      //check that we have guard now 
+      //check that we have guard now
       if (obj->pCabal->cguard){
 	obj_from_char( obj );
 	obj_to_ch( obj, obj->pCabal->cguard );
@@ -7587,7 +7594,7 @@ void handle_cabal_item_entrance( CHAR_DATA* ch, ROOM_INDEX_DATA* anchor ){
 	obj->timer = 0;
 
 	act("An Ambassador of $t carries their item off.", altar, obj->pCabal->who_name, NULL, TO_ALL );
-	
+
 	sprintf( buf, "%s has restored our powers!", PERS2(ch));
 	cabal_echo( obj->pCabal, buf );
 	cp_event(ch, NULL, obj, CP_EVENT_RETURN);
@@ -7595,15 +7602,15 @@ void handle_cabal_item_entrance( CHAR_DATA* ch, ROOM_INDEX_DATA* anchor ){
     }
   }//END FOR
 }
-    
-	     
-  
+
+
+
 //checks if the cabal's item is captured
 bool is_captured( CABAL_DATA* pCabal ){
   CABAL_DATA* pCab = get_parent(pCabal);
   if (pCab == NULL || pCab->citem == NULL)
     return FALSE;
-  else if (pCab->citem->carried_by 
+  else if (pCab->citem->carried_by
 	   && IS_NPC(pCab->citem->carried_by )
 	   && pCab->citem->carried_by->pCabal
 	   && pCab->citem->carried_by->pCabal->altar
@@ -7618,10 +7625,10 @@ bool is_captured( CABAL_DATA* pCabal ){
 bool is_captured_by( CABAL_DATA* pCabal, CABAL_DATA* pCapturee ){
   CABAL_DATA* pCab = get_parent(pCabal);
   CABAL_DATA* pCapt = get_parent(pCapturee);
-  
+
   if (pCab == NULL || pCab->citem == NULL || pCapt == NULL)
     return FALSE;
-  else if (pCab->citem->carried_by 
+  else if (pCab->citem->carried_by
 	   && IS_NPC(pCab->citem->carried_by )
 	   && pCab->citem->carried_by->pCabal
 	   && pCab->citem->carried_by->pCabal->altar
@@ -7637,7 +7644,7 @@ bool is_captured_by( CABAL_DATA* pCabal, CABAL_DATA* pCapturee ){
 bool is_in_altar( CABAL_DATA* pCab ){
   if (pCab == NULL || pCab->citem == NULL)
     return FALSE;
-  else if (pCab->citem->carried_by 
+  else if (pCab->citem->carried_by
 	   && IS_NPC(pCab->citem->carried_by )
 	   && pCab->citem->carried_by->pCabal
 	   && pCab->citem->carried_by->pCabal->cguard
@@ -7649,7 +7656,7 @@ bool is_in_altar( CABAL_DATA* pCab ){
 }
 
 
-  
+
 //handles transfer of cabal item on a kill of another player
 void handle_ctf_kill( CHAR_DATA* tch, CHAR_DATA* victim ){
   CHAR_DATA* ch;
@@ -7671,14 +7678,14 @@ void handle_ctf_kill( CHAR_DATA* tch, CHAR_DATA* victim ){
 
     if (obj->item_type == ITEM_CABAL && obj->pCabal && is_friendly(ch->pCabal, obj->pCabal) != CABAL_NEUTRAL){
       act("You have captured $p from $N!", ch, obj, victim, TO_CHAR );
-      act("$n has captured $p from $N!", ch, obj, victim, TO_ROOM );   
+      act("$n has captured $p from $N!", ch, obj, victim, TO_ROOM );
       obj_from_char( obj );
       obj_to_ch( obj, ch );
       obj->timer = CABAL_STANDARD_TIMER;
     }
   }
 }
- 
+
 //checks if the cabal's capture item counter should be set.
 void set_capture_item_timer( CHAR_DATA* victim ){
   CABAL_DATA* pCab = get_parent( victim->pCabal );

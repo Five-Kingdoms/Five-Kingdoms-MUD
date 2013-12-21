@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -82,7 +82,7 @@ QUEST_DATA *new_quest()
   if (quest_free == NULL)
     quest = alloc_perm(sizeof(*quest));
   else
-    { 
+    {
       quest = quest_free;
       quest_free = quest_free->next;
     }
@@ -111,7 +111,7 @@ NOTE_DATA *new_note()
     if (note_free == NULL)
 	note = alloc_perm(sizeof(*note));
     else
-    { 
+    {
 	note = note_free;
 	note_free = note_free->next;
     }
@@ -259,7 +259,7 @@ void free_trap(TRAP_DATA *tr){
   if (!IS_VALID(tr))
     return;
   INVALIDATE(tr);
-    
+
   tr->owner = NULL;
   tr->on_obj = NULL;
   tr->on_exit = NULL;
@@ -271,7 +271,7 @@ void free_trap(TRAP_DATA *tr){
     free_string( tr->oEcho );
 
   tr->next = trap_free;
-  trap_free = tr;	
+  trap_free = tr;
 }
 
 TRAP_INDEX_DATA *trap_index_free;
@@ -317,23 +317,23 @@ void free_trap_index(TRAP_INDEX_DATA *tr){
   free_string( tr->oEcho );
 
 /* done */
-   
+
   tr->next = trap_index_free;
-  trap_index_free = tr;	
+  trap_index_free = tr;
   top_trap_index--;
 }
 
 CMEMBER_DATA *new_cmember(void){
 
   CMEMBER_DATA *cm = malloc( sizeof( *cm ));
-  
+
 /* reset initial things */
   memset( cm, 0, sizeof( CMEMBER_DATA ));
 
   cm->name		= str_dup("");
   cm->sponsor		= str_dup("");
   cm->sponsored		= str_dup("");
-  
+
   cm->last_update	= mud_data.current_time;
 
 
@@ -355,7 +355,7 @@ CABAL_INDEX_DATA *new_cabal_index(void)
 {
     static CABAL_INDEX_DATA ca_zero;
     CABAL_INDEX_DATA *ca;
-    
+
     if (cabal_index_free == NULL){
       ca = alloc_perm(sizeof(*ca));
     }
@@ -440,9 +440,9 @@ void free_cabal_index(CABAL_INDEX_DATA *ca){
       free_string( ca->franks[i] );
   }
 /* done */
-   
+
   ca->next = cabal_index_free;
-  cabal_index_free = ca;	
+  cabal_index_free = ca;
 }
 
 HELP_DATA *help_index_free;
@@ -471,7 +471,7 @@ void free_help_index(HELP_DATA *hp){
 
 /* done */
   hp->next = help_index_free;
-  help_index_free = hp;	
+  help_index_free = hp;
   top_help --;
 }
 
@@ -542,7 +542,7 @@ void free_obj_spell(OBJ_SPELL_DATA *sp)
 
   //save the spell.
     sp->next = objspell_free;
-    objspell_free = sp;	
+    objspell_free = sp;
 }
 
 void free_affect(AFFECT_DATA *af)
@@ -550,11 +550,11 @@ void free_affect(AFFECT_DATA *af)
     if (!IS_VALID(af))
 	return;
     INVALIDATE(af);
-    
+
     /* we free the string. */
     string_from_affect(af);
     af->next = affect_free;
-    affect_free = af;	
+    affect_free = af;
 }
 
 SKILL_DATA *skill_free;
@@ -581,7 +581,7 @@ void free_skill(SKILL_DATA *sk)
 	return;
     INVALIDATE(sk);
     sk->next = skill_free;
-    skill_free = sk->next;	
+    skill_free = sk->next;
 }
 
 OBJ_DATA *obj_free;
@@ -634,7 +634,7 @@ void free_obj(OBJ_DATA *obj)
     free_string( obj->material	  );
     INVALIDATE(obj);
     obj->next   = obj_free;
-    obj_free    = obj; 
+    obj_free    = obj;
 }
 
 CHAR_DATA *char_free;
@@ -830,7 +830,7 @@ int get_size (int val)
 BUFFER *new_buf()
 {
     BUFFER *buffer;
-    if (buf_free == NULL) 
+    if (buf_free == NULL)
 	buffer = alloc_perm(sizeof(*buffer));
     else
     {
@@ -930,7 +930,7 @@ void save_bans(void)
     BAN_DATA *pban;
     FILE *fp;
     bool found = FALSE;
-    fclose( fpReserve ); 
+    fclose( fpReserve );
     if ( ( fp = fopen( BAN_FILE, "w" ) ) == NULL )
     {
         perror( BAN_FILE );
@@ -986,7 +986,7 @@ bool check_ban(char *site,int type)
     char host[MSL];
     strcpy(host,capitalize(site));
     host[0] = LOWER(host[0]);
-    for ( pban = ban_list; pban != NULL; pban = pban->next ) 
+    for ( pban = ban_list; pban != NULL; pban = pban->next )
     {
 	if(!IS_SET(pban->ban_flags,type))
 	    continue;
@@ -1142,7 +1142,7 @@ void do_permit(CHAR_DATA *ch, char *argument)
 }
 
 
-void do_allow( CHAR_DATA *ch, char *argument )                        
+void do_allow( CHAR_DATA *ch, char *argument )
 {
     char arg[MIL];
     BAN_DATA *prev = NULL, *curr;
@@ -1176,15 +1176,15 @@ typedef struct BE BufEntry;
 
 #define intType int
 #define intTypeSize (sizeof( intType ))
-#define addrType void * 
+#define addrType void *
 #define addrTypeSize (sizeof( addrType ))
 #define addrSizeMask (sizeof( addrType ) - 1)
 
 struct BE
 {
     BufEntry	*	next;
-    intType		size;	/* size of the chunk (regardless of NULL CHAR) */ 
-    intType		usage;	/* how many pointers to the string */ 
+    intType		size;	/* size of the chunk (regardless of NULL CHAR) */
+    intType		usage;	/* how many pointers to the string */
     addrType		buf[1];	/* chunk starts here */
 };
 
@@ -1200,7 +1200,7 @@ struct TH
     char	 	*	str;
 };
 
-TempHash **temp_string_hash; 
+TempHash **temp_string_hash;
 char	str_empty[1];
 char *	string_space;
 char *	top_string;
@@ -1219,7 +1219,7 @@ char *fread_word_dup    ( FILE * );
 
 
 /* ssm_buf_head points to start of shared space, *
- * ssm_buf_free points to next free block        */ 
+ * ssm_buf_free points to next free block        */
 BufEntry *ssm_buf_head, *ssm_buf_free;
 
 long	MAX_STRING = 1024*1024*12;
@@ -1285,8 +1285,8 @@ int defrag_heap()
         {
             last_free = walk;
             if( walk > ssm_buf_free )
-                ssm_buf_free = walk; 
-            continue; 
+                ssm_buf_free = walk;
+            continue;
         }
         else
         {
@@ -1298,7 +1298,7 @@ int defrag_heap()
     if( merges )
         nlogf( "[SSM] defrag_heap : made %d block merges, Good.", merges );
     else
-      nlogf( "[SSM] defrag_heap : resulted in 0 merges. Oh well."); 
+      nlogf( "[SSM] defrag_heap : resulted in 0 merges. Oh well.");
     numFree = 0;
     return merges;
 }
@@ -1330,7 +1330,7 @@ char *str_dup( const char *str )
     /* Round up to machine dependant address size.                     *
     * Don't remove this, because when the BufEntry struct is overlaid *
     * the struct must be aligned correctly.                           */
-    if( len & addrSizeMask ) 
+    if( len & addrSizeMask )
       len += addrTypeSize - ( len & addrSizeMask );
 
     if( ssm_buf_free ){
@@ -1348,11 +1348,11 @@ char *str_dup( const char *str )
 	  merges = defrag_heap();
 	  if( merges )
 	    goto RETRY;
-	} 
+	}
 	init_malloc("str_dup part 1");
 	str_new = (char *)malloc( rlen );
 	end_malloc("str_dup part 1");
-	strcpy( str_new, str ); 
+	strcpy( str_new, str );
 	sOverFlowString += rlen;
 	nOverFlowString++;
 	return str_new;
@@ -1369,7 +1369,7 @@ char *str_dup( const char *str )
 	if( ptr == ssm_buf_free )
 	  ssm_buf_free = temp;
       }
-      /* new chunk is bigger then the first free chunk */ 
+      /* new chunk is bigger then the first free chunk */
       ptr->usage = 1;
       str_new = (char *)&ptr->buf[0];
       /* find the next "Free" string to be used */
@@ -1379,7 +1379,7 @@ char *str_dup( const char *str )
 	    break;
 	}
       }
-      strcpy( str_new, str ); 
+      strcpy( str_new, str );
       nAllocString++;
       sAllocString += len + HEADER_SIZE;
     }
@@ -1391,10 +1391,10 @@ char *str_dup( const char *str )
       init_malloc("str_dup part 2");
       str_new = (char *)malloc( rlen );
       end_malloc("str_dup part 2");
-      strcpy( str_new, str ); 
+      strcpy( str_new, str );
       sOverFlowString += rlen;
       nOverFlowString++;
-    } 
+    }
     return str_new;
 }
 
@@ -1408,7 +1408,7 @@ void free_string( char *str )
     if( !str || str == &str_empty[0] )
         return;
 
-    /* check if string is in the string heap */ 
+    /* check if string is in the string heap */
    if( str > string_space && str < top_string )
     {
         ptr = (BufEntry *)(str - HEADER_SIZE);
@@ -1427,7 +1427,7 @@ void free_string( char *str )
         if( ptr->next && ptr->next->usage <= 0 )
         {
 	  ptr->size += ptr->next->size + HEADER_SIZE;
-	  ptr->next = ptr->next->next;   
+	  ptr->next = ptr->next->next;
         }
 	/* lone free string, we increase the count */
 	else
@@ -1473,9 +1473,9 @@ char *fread_string( FILE *fp )
         case '\r': break;
         case '~':  *ptr = '\0';
 	  if( fBootDb )
-	    { 
+	    {
 	      int len = ptr-buf;
-	      ptr = temp_hash_find( buf, len ); 
+	      ptr = temp_hash_find( buf, len );
 	      if( ptr )
 		return str_dup (ptr);
 	      ptr = str_dup( buf );
@@ -1510,9 +1510,9 @@ char *fread_string_eol( FILE *fp )
         case '\n':
         case '\r': *ptr = '\0';
                    if( fBootDb )
-                   { 
+                   {
 		       int len = ptr-buf;
-		       ptr = temp_hash_find( buf, len ); 
+		       ptr = temp_hash_find( buf, len );
 		       if( ptr )
 		           return str_dup (ptr);
 		       ptr = str_dup( buf );
@@ -1536,7 +1536,7 @@ void temp_fread_string( FILE *fp, char *buf )
     }
     while ( isspace( c ) );
         if ( ( *ptr++ = c ) == '~' )
-	{   
+	{
             *buf = '\0';
             return;
 	}
@@ -1638,7 +1638,7 @@ void do_unread(CHAR_DATA *ch)
     int count;
     bool found = FALSE;
     if (IS_NPC(ch))
-	return; 
+	return;
     if ((count = count_spool(ch,news_list)) > 0)
     {
 	found = TRUE;
@@ -1712,7 +1712,7 @@ void save_notes(int type)
     default:           return;
     case NOTE_NOTE:    name = NOTE_FILE; pnote = note_list; break;
     case NOTE_IDEA:    name = IDEA_FILE; pnote = idea_list; break;
-    case NOTE_APPLICATION:  name = APPLICATION_FILE; 
+    case NOTE_APPLICATION:  name = APPLICATION_FILE;
       pnote = application_list; break;
     case NOTE_PENALTY: name = PENALTY_FILE; pnote = penalty_list; break;
     case NOTE_NEWS:    name = NEWS_FILE; pnote = news_list; break;
@@ -1830,15 +1830,20 @@ void load_thread(char *name, NOTE_DATA **list, int type, time_t free_time)
 void append_note(NOTE_DATA *pnote)
 {
 //    FILE *fp;
-    char *name;
+    char *name = NULL;
     NOTE_DATA **list;
     NOTE_DATA *last;
+
+    /* Useless conditional */
+    if( name != NULL )
+        name = NULL;
+
     switch(pnote->type)
     {
     default:           return;
     case NOTE_NOTE:    name = NOTE_FILE; list = &note_list; break;
     case NOTE_IDEA:    name = IDEA_FILE; list = &idea_list; break;
-    case NOTE_APPLICATION:  name = APPLICATION_FILE; 
+    case NOTE_APPLICATION:  name = APPLICATION_FILE;
       list = &application_list; break;
     case NOTE_PENALTY: name = PENALTY_FILE; list = &penalty_list; break;
     case NOTE_NEWS:    name = NEWS_FILE; list = &news_list; break;
@@ -1889,8 +1894,8 @@ bool is_note_to( CHAR_DATA *ch, NOTE_DATA *pnote )
     return TRUE;
   if ( !str_cmp( ch->name, pnote->sender ) )
     return TRUE;
-  if ( IS_IMMORTAL(ch) && (is_name( "immortal", pnote->to_list ) 
-			   || is_name( "immortals", pnote->to_list ) 
+  if ( IS_IMMORTAL(ch) && (is_name( "immortal", pnote->to_list )
+			   || is_name( "immortals", pnote->to_list )
 			   || is_name( "imms", pnote->to_list ) ))
     return TRUE;
   if (get_trust(ch) >= 60 && (is_name("implementor", pnote->to_list)
@@ -2391,7 +2396,7 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
     if ( arg[0] == '\0' || !str_prefix( arg, "read" ) )
     {
         bool fAll;
-        if ( (list_name == "ideas") && (!IS_TRUSTED(ch, AVATAR)) )
+        if ( (strcmp(list_name, "ideas") == 0) && (!IS_TRUSTED(ch, AVATAR)) )
         {
             send_to_char("Only immortals may read ideas.\n\r",ch);
             return;
@@ -2509,7 +2514,7 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
     if ( !str_prefix( arg, "list" ) )
     {
 	vnum = 0;
-        if ( (list_name == "ideas") && (!IS_TRUSTED(ch,ANGEL)) )
+        if ( (strcmp(list_name, "ideas") == 0) && (!IS_TRUSTED(ch,ANGEL)) )
         {
             send_to_char("Only immortals may read ideas.\n\r",ch);
             return;
@@ -2614,7 +2619,7 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
 	{
         case NOTE_NOTE:    ch->pcdata->last_note = mud_data.current_time; break;
         case NOTE_IDEA:    ch->pcdata->last_idea = mud_data.current_time; break;
-        case NOTE_APPLICATION:   ch->pcdata->last_application = mud_data.current_time; 
+        case NOTE_APPLICATION:   ch->pcdata->last_application = mud_data.current_time;
 	  break;
         case NOTE_PENALTY: ch->pcdata->last_penalty = mud_data.current_time; break;
         case NOTE_NEWS:    ch->pcdata->last_news = mud_data.current_time; break;
@@ -2706,9 +2711,9 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
     if ( !str_prefix( arg, "to" ) )
     {
 	int i;
-        if ( (!str_infix("all ",argument) || !str_infix(" all",argument) 
-	      || !str_cmp("all",argument) || is_name( "city", argument)) 
-	     && ch->level <= LEVEL_HERO 
+        if ( (!str_infix("all ",argument) || !str_infix(" all",argument)
+	      || !str_cmp("all",argument) || is_name( "city", argument))
+	     && ch->level <= LEVEL_HERO
 	     && !IS_ELDER(ch))
 
 	  {
@@ -2862,11 +2867,11 @@ void parse_note( CHAR_DATA *ch, char *argument, int type )
 	  else if (is_note_to(vch, ch->pcdata->pnote)
 	      && ch != vch)
 	    act_new("`8A messenger hands you a scroll marked $t``\n\r", vch,
-		  ch->pcdata->pnote->type == NOTE_IDEA ? "\"idea\""  : 
-		  ch->pcdata->pnote->type == NOTE_NOTE ? "\"note\""  : 
-		  ch->pcdata->pnote->type == NOTE_APPLICATION ? "\"application\""  : 
-		  ch->pcdata->pnote->type == NOTE_PENALTY ? "\"penalty\""  : 
-		  ch->pcdata->pnote->type == NOTE_NEWS ? "\"news\""  : 
+		  ch->pcdata->pnote->type == NOTE_IDEA ? "\"idea\""  :
+		  ch->pcdata->pnote->type == NOTE_NOTE ? "\"note\""  :
+		  ch->pcdata->pnote->type == NOTE_APPLICATION ? "\"application\""  :
+		  ch->pcdata->pnote->type == NOTE_PENALTY ? "\"penalty\""  :
+		  ch->pcdata->pnote->type == NOTE_NEWS ? "\"news\""  :
 		  ch->pcdata->pnote->type == NOTE_CHANGES ? "\"changes\""  : "\"note\"", NULL, TO_CHAR, IS_IMMORTAL(ch) ? POS_DEAD : POS_RESTING);
 	}
 	ch->pcdata->pnote = NULL;
@@ -2905,7 +2910,7 @@ bool check_spam(char *site)
     ban_list    = pban;
     save_bans();
     sprintf(buf,"%s has been caught hammering, site autobanned.",site);
-    nlogf(buf);
+    nlogf("%s", buf);
     wiznet(buf, NULL,NULL,WIZ_LINKS,0,51);
     for ( d = descriptor_list; d != NULL; d = d_next )
     {
@@ -2920,7 +2925,7 @@ bool check_spam(char *site)
     return TRUE;
 }
 
-void do_traceban( char *argument ) 
+void do_traceban( char *argument )
 {
     char strsave[MIL], namelist[MSL], nameread[MSL], buf[MSL];
     int times = 0;
@@ -2933,9 +2938,11 @@ void do_traceban( char *argument )
     {
         for ( ; ; )
         {
-            fscanf (fp, "%s", nameread);
+            if( fscanf (fp, "%s", nameread) < 0 ){
+                nameread[0] = '\0';
+            }
             if ( !str_cmp( nameread, "END" ) )
-                break;  
+                break;
             else
             {
 	    	times = fread_number(fp);

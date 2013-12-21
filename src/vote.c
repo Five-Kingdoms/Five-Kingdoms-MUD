@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -98,8 +98,8 @@ int vote_lookup (const char *name ){
 void show_votes( CHAR_DATA* ch ){
   int vote;
   for (vote = 1; vote_table[vote].name != NULL; vote++){
-    sendf( ch, "%-2d. %-30s [%-2d days]\n\r", 
-	   vote, 
+    sendf( ch, "%-2d. %-30s [%-2d days]\n\r",
+	   vote,
 	   vote_table[vote].name,
 	   vote_table[vote].life_time / VOTE_DAY);
   }
@@ -113,7 +113,7 @@ VOTE_DATA *new_vote()
     if (vote_free == NULL)
 	vote = alloc_perm(sizeof(*vote));
     else
-    { 
+    {
 	vote = vote_free;
 	vote_free = vote_free->next;
     }
@@ -249,11 +249,11 @@ int get_max_vote( CABAL_DATA* pc, int type ){
   CMEMBER_DATA* cm;
   int mod = 1;
   int max_vote = 0;
-  
+
   if (IS_CABAL(pc, CABAL_ROYAL) ){
     mod = 10;
 /* Viri: Not used, citizens can try to sway the royal votes
-   check if this is one of the votes that citizens vote on 
+   check if this is one of the votes that citizens vote on
     if (type == VOTE_CAB_APPLY
 	|| type == VOTE_PACT
 	|| type == VOTE_CAB_SPONS
@@ -326,7 +326,7 @@ VOTE_DATA* init_vote( int type, char* owner, char* from, char* subject, char* st
 }
 
 /* sets up the vote based on the type and info passed */
-VOTE_DATA* create_vote(CHAR_DATA* ch, char* owner, char* subject, char* string, int type, 
+VOTE_DATA* create_vote(CHAR_DATA* ch, char* owner, char* subject, char* string, int type,
 		       int v0, int v1, int v2, int v3, int v4){
   VOTE_DATA* pv = NULL;
   CABAL_DATA* pc = ch->pCabal;	//parent of cabal
@@ -348,7 +348,7 @@ VOTE_DATA* create_vote(CHAR_DATA* ch, char* owner, char* subject, char* string, 
     return pv;
   else
     sprintf(from,"%s", ch->name);
-  
+
 /* reset values */
   for (i = 0; i < VOTE_VALS; i++){
     value[i] = 0;
@@ -561,7 +561,7 @@ VOTE_DATA* create_vote(CHAR_DATA* ch, char* owner, char* subject, char* string, 
     else {
       pc2 = get_parent( po2 );
     }
-/* vendetta and embargo votes do not create a mirror vote, rather the pact is completed as soon as the vote 
+/* vendetta and embargo votes do not create a mirror vote, rather the pact is completed as soon as the vote
    in one cabal is success */
     if (!IS_SET(v4, PACT_VENDETTA) && !IS_SET(v4, PACT_BREAK)){
       /* we first create a mirror image of this vote for the benefactor cabal */
@@ -585,10 +585,10 @@ VOTE_DATA* create_vote(CHAR_DATA* ch, char* owner, char* subject, char* string, 
 	value[3] = v3;		//sup % gain for benefactor
       }
       value[4] = v4;		//type of pact
-      
+
       if (mud_data.mudport == TEST_PORT && IS_IMMORTAL(ch))
 	life_time = VOTE_MINUTE;
-      
+
       if ( (pv = init_vote( type, owner, from, v_subj, string, max_vote, life_time)) == NULL){
 	bug("create_vote: VOTE_PACT could not initialize vote.(type %d)", type);
 	return pv;
@@ -605,8 +605,8 @@ VOTE_DATA* create_vote(CHAR_DATA* ch, char* owner, char* subject, char* string, 
       }
     }//END if not vendetta
     /* do the original now */
-    
-    sprintf(v_subj, "Proposal of %s with [%s]", 
+
+    sprintf(v_subj, "Proposal of %s with [%s]",
 	    IS_SET(v4, PACT_IMPROVE) ? flag_string(pact_flags, v2) : flag_string(pact_flags, v4),
 	    pc2->who_name );
     max_vote = get_max_vote( pc, type );
@@ -615,14 +615,14 @@ VOTE_DATA* create_vote(CHAR_DATA* ch, char* owner, char* subject, char* string, 
 
     value[0] = pc->vnum;	//creator vnum
     value[1] = pc2->vnum;	//benefactor vnum
-    /* service cabals do not give the other cabal any gain, but make the area lawful 
+    /* service cabals do not give the other cabal any gain, but make the area lawful
        with exception of vendetta votes */
     if (IS_CABAL(pc2, CABAL_SERVICE) && !IS_SET(v4, PACT_VENDETTA) && !IS_SET(v4, PACT_IMPROVE) ){
       value[2] = TRADE_CP_SERVE;		//cp % gain for benefactor
       value[3] = TRADE_SUP_SERVE;		//sup % gain for benefactor
     }
     else{
-      value[2] = v2;		//cp % gain for creator 
+      value[2] = v2;		//cp % gain for creator
       value[3] = v3;		//sup % gain for creator
     }
     value[4] = v4;		//type of pact
@@ -634,7 +634,7 @@ VOTE_DATA* create_vote(CHAR_DATA* ch, char* owner, char* subject, char* string, 
     }
     pc = get_parent( po );
 
-    sprintf(v_subj, subject );
+    sprintf(v_subj, "%s", subject );
     max_vote = get_max_vote( pc, type );
     life_time = get_trust(ch) == IMPLEMENTOR ? VOTE_MINUTE : vote_table[type].life_time;
     value[0] = pc->vnum;
@@ -694,7 +694,7 @@ void list_votes( CHAR_DATA* ch){
 	      counter,
 	      pv->from,
 	      pv->subject,
-	      pv->yes, pv->no, pv->pass, pv->max_vote, 
+	      pv->yes, pv->no, pv->pass, pv->max_vote,
 	      ( pv->life_time - mud_data.current_time) / VOTE_DAY,
 	      pv->owner);
     }
@@ -704,7 +704,7 @@ void list_votes( CHAR_DATA* ch){
 	      pv->from,
 	      pv->subject,
 	      ( pv->life_time - mud_data.current_time) / VOTE_DAY );
-	      
+
     }
     add_buf(buffer,buf);
   }
@@ -722,17 +722,17 @@ CVOTE_DATA* get_cvote( CABAL_INDEX_DATA* pCabal, int type ){
   CVOTE_DATA* cVote;
   CABAL_INDEX_DATA* pCab = pCabal;
   CABAL_INDEX_DATA* pPar;
-  
+
   if (pCab == NULL)
     return NULL;
-  
+
   /* we run through the cabal and its partents looking for the vote */
   while (pCab != NULL){
     for( cVote = pCab->votes; cVote; cVote = cVote->next ){
       if (cVote->vote == type)
 	return cVote;
     }
-    if ( pCab->parent_vnum 
+    if ( pCab->parent_vnum
 	 && (pPar = get_cabal_index(pCab->parent_vnum)) != NULL)
       pCab = pPar;
     else
@@ -757,10 +757,10 @@ bool can_create_cvote( CHAR_DATA* ch, CVOTE_DATA* cVote){
 void show_cvotes( CHAR_DATA* ch, CABAL_INDEX_DATA* pCabal ){
   CVOTE_DATA* cVote;
   CABAL_INDEX_DATA* pCab = pCabal, *pPar;
-  
+
   if (pCab == NULL)
     return;
-  
+
   /* we run through the cabal and its partents looking for the vote */
   while (pCab != NULL){
     for( cVote = pCab->votes; cVote; cVote = cVote->next ){
@@ -772,7 +772,7 @@ void show_cvotes( CHAR_DATA* ch, CABAL_INDEX_DATA* pCabal ){
 	       vote_table[cVote->vote].life_time / VOTE_DAY);
       }
     }
-    if ( pCab->parent_vnum 
+    if ( pCab->parent_vnum
 	 && (pPar = get_cabal_index(pCab->parent_vnum)) != NULL)
       pCab = pPar;
     else
@@ -790,7 +790,7 @@ int get_vote_type( CHAR_DATA* ch, const char* name ){
   else
     return VOTE_UNKNOWN;
 }
-      
+
 /* attaches a few vote data to be filled in and created */
 void attach_vote( CHAR_DATA* ch, int type ){
   VOTE_DATA* pv;
@@ -799,7 +799,7 @@ void attach_vote( CHAR_DATA* ch, int type ){
 
   if (ch->pcdata->pvote != NULL)
     return;
-  
+
   pv = new_vote();
   pv->next	=	NULL;
   pv->owner	=	NULL;	//owner stays null untill valid target is assigned
@@ -855,7 +855,7 @@ bool is_duplicated( VOTE_DATA* pVote ){
 	return TRUE;
       break;
     case VOTE_PACT:
-      if ( pv->value[0] == pVote->value[0] 
+      if ( pv->value[0] == pVote->value[0]
 	   && pv->value[1] == pVote->value[1]
 	   && pv->value[4] == pVote->value[4])
 	return TRUE;
@@ -877,7 +877,7 @@ VOTE_DATA* get_vote( int type, int v0, int v1, int v2, int v3, int v4 ){
   VOTE_DATA* pv;
 
   for (pv = vote_list; pv; pv = pv->next){
-    if (pv->type == type 
+    if (pv->type == type
 	&& pv->value[0] == v0
 	&& pv->value[1] == v1
 	&& pv->value[2] == v2
@@ -940,7 +940,7 @@ void set_vote_target( CHAR_DATA* ch, VOTE_DATA* pv, char* target ){
   case VOTE_CAB_PROM:
   case VOTE_CAB_ELDER:
   case VOTE_CAB_LEADER:
-    if ( (pv->type == VOTE_CAB_PROM || pv->type == VOTE_CAB_ELDER 
+    if ( (pv->type == VOTE_CAB_PROM || pv->type == VOTE_CAB_ELDER
 	  || pv->type == VOTE_CAB_LEADER)
 	 && !IS_IMMORTAL(ch)){
       send_to_char("These votes can only be initiated by an Immortal.\n\r", ch);
@@ -961,29 +961,29 @@ void set_vote_target( CHAR_DATA* ch, VOTE_DATA* pv, char* target ){
       int rank = cMem->rank;
 
 /* first we check minimum hours for this rank */
-      if (mud_data.mudport != TEST_PORT 
-	  && pv->type != VOTE_CAB_DEMO 
-	  && pv->type != VOTE_CAB_EXPEL 
+      if (mud_data.mudport != TEST_PORT
+	  && pv->type != VOTE_CAB_DEMO
+	  && pv->type != VOTE_CAB_EXPEL
 	  && !check_promo_hours( cMem, rank )){
 	sendf(ch, "%s has not been present enough to be promoted to a new rank.\n\r", cMem->name);
 	return;
       }
-      else if (pv->type != VOTE_CAB_DEMO 
-	       && pv->type != VOTE_CAB_EXPEL 
+      else if (pv->type != VOTE_CAB_DEMO
+	       && pv->type != VOTE_CAB_EXPEL
 	       && !check_promo_req(ch, cMem, rank + 1))
 	return;
 /* check if there was a recent vote for this */
       else if (mud_data.current_time - cMem->time_stamp < VOTE_DAY){
 	send_to_char("There has already been a recent vote regarding their rank.\n\r", ch);
-	sendf(ch, "A new vote may be created in %ld hours.\n\r", 
+	sendf(ch, "A new vote may be created in %ld hours.\n\r",
 	      (VOTE_DAY - (mud_data.current_time - cMem->time_stamp)) / 3600);
 	return;
       }
 /* check if we can attempt to vote for new leader */
       else if (pv->type == VOTE_CAB_LEADER){
 	if (rank != RANK_ELDER){
-	  sendf( ch, "%s must hold the rank of %s in order to be promoted to a leader.\n\r", 
-		 cMem->name, 
+	  sendf( ch, "%s must hold the rank of %s in order to be promoted to a leader.\n\r",
+		 cMem->name,
 		 pCab->pIndexData->mranks[RANK_ELDER]);
 	  return;
 	}
@@ -994,7 +994,7 @@ void set_vote_target( CHAR_DATA* ch, VOTE_DATA* pv, char* target ){
       }
       else if (pv->type == VOTE_CAB_ELDER){
 	if (rank < RANK_ELDER - 1){
-	  sendf( ch, "%s must be at the rank of %s in order to be promoted to %s.\n\r", 
+	  sendf( ch, "%s must be at the rank of %s in order to be promoted to %s.\n\r",
 		 cMem->name, pCab->pIndexData->mranks[RANK_ELDER - 1], pCab->pIndexData->mranks[RANK_ELDER]);
 	  return;
 	}
@@ -1041,7 +1041,7 @@ void set_vote_target( CHAR_DATA* ch, VOTE_DATA* pv, char* target ){
     /* check if city is lawful */
     if ( (pArea = pPar->city) == NULL){
       bug("set_vote_target: VOTE_LAW could not find an area for cabal vnum %d.", pv->value[0]);
-      break;	
+      break;
     }
     else if (!IS_SET(pArea->area_flags, AREA_LAWFUL)){
       send_to_char("You must first forge a Trade Pact with a Justice cabal.\n\r", ch );
@@ -1189,13 +1189,13 @@ void set_vote_target( CHAR_DATA* ch, VOTE_DATA* pv, char* target ){
 	send_to_char("You cannot make peace with your mortal enemies!\n\r", ch);
 	return;
       }
-      else if ( pact == PACT_PEACE 
+      else if ( pact == PACT_PEACE
 		&& ( (pPact = get_pact(pPar, pBen, PACT_VENDETTA, FALSE)) == NULL
 		     || pPact->complete != PACT_COMPLETE) ){
 	send_to_char("You may only create a Peace Pact while a Vendetta exists.\n\r", ch );
 	return;
       }
-      else if ( pact == PACT_BREAK 
+      else if ( pact == PACT_BREAK
 		&& ( (pPact = get_pact(pPar, pBen, PACT_TRADE, TRUE)) == NULL
 		     || pPact->complete != PACT_COMPLETE) ){
 	send_to_char("There is no trade between you to stop!\n\r", ch );
@@ -1207,7 +1207,7 @@ void set_vote_target( CHAR_DATA* ch, VOTE_DATA* pv, char* target ){
 	send_to_char("There is no trade between you to improve!\n\r", ch );
 	return;
       }
-      else if (pact == PACT_IMPROVE 
+      else if (pact == PACT_IMPROVE
 	       && pPact->type == PACT_NAPACT
 	       && IS_CABAL(pPar, CABAL_ALLIANCE)){
 	send_to_char("You may only be allied with one cabal at a time.\n\r", ch);
@@ -1277,21 +1277,21 @@ void set_vote_target( CHAR_DATA* ch, VOTE_DATA* pv, char* target ){
     break;
   }
 }
-      
-      
-    
-  
 
-  
 
-  
-  
+
+
+
+
+
+
+
 /* Command used to create/setup votes, view list of votes, and vote	*
  * vote list		shows list of votes (M/IMM)			*
  * vote vote		enters the vote booth (M/IMM)			*
  * vote <vote type>	creates a given vote type			*
  */
- 
+
 void do_vote( CHAR_DATA* ch, char* argument ){
   char arg[MIL];
   argument = one_argument(argument, arg);
@@ -1336,7 +1336,7 @@ void do_vote( CHAR_DATA* ch, char* argument ){
 	send_to_char("No vote with that index.\n\r", ch);
 	return;
       }
-      
+
 /* we now nuke the vote */
       sendf( ch, "Vote \"%s\" deleted.\n\r", pv->subject);
       rem_vote( pv );
@@ -1355,13 +1355,13 @@ void do_vote( CHAR_DATA* ch, char* argument ){
   }
 /* CREATE */
   else if (!str_prefix(arg, "create")){
-    int type = 0; 
+    int type = 0;
     if (ch->pcdata->pvote != NULL){
       send_to_char("You are already working on another vote.\n\r", ch);
       return;
     }
 /* get the type of vote to create */
-    if (IS_NULLSTR( argument ) 
+    if (IS_NULLSTR( argument )
 	|| (type = get_vote_type( ch, argument)) == VOTE_UNKNOWN){
       send_to_char("Following votes are avaliable to you:\n\r", ch );
       show_cvotes( ch, ch->pCabal->pIndexData );
@@ -1402,7 +1402,7 @@ void do_vote( CHAR_DATA* ch, char* argument ){
       send_to_char("You are not working on a vote.\n\r", ch);
       return;
     }
-    ch->pcdata->pvote->string = format_string(ch->pcdata->pvote->string);    
+    ch->pcdata->pvote->string = format_string(ch->pcdata->pvote->string);
     send_to_char( "Text formatted\n\r", ch );
   }
 /* SUBJ */
@@ -1492,7 +1492,7 @@ void do_vote( CHAR_DATA* ch, char* argument ){
     }
     /* check cost */
     else if ( !IS_IMMORTAL(ch) && (cost = fUrge ? 2 * cVote->cost : cVote->cost) > GET_CP( ch)){
-      sendf( ch, "You will need at least %d %s%s to send this vote%s.\n\r", 
+      sendf( ch, "You will need at least %d %s%s to send this vote%s.\n\r",
 	     cost,
 	     ch->pCabal->currency, (cost) == 1 ? "" : "s",
 	     fUrge ? " urgently" : "");
@@ -1500,17 +1500,17 @@ void do_vote( CHAR_DATA* ch, char* argument ){
     }
     /* cabal coffers are not affected by urgency */
     else if (!IS_IMMORTAL(ch)
-	     && !IS_SET(vote_table[pv->type].flag, VOTE_NOCAB_COST) 
+	     && !IS_SET(vote_table[pv->type].flag, VOTE_NOCAB_COST)
 	     && (pc == NULL || cVote->cost > GET_CAB_CP( pc )) ){
-      sendf( ch, "[%s] will require at least %d %s%s in its coffers to send this vote.\n\r", 
+      sendf( ch, "[%s] will require at least %d %s%s in its coffers to send this vote.\n\r",
 	     pc->who_name,
 	     cVote->cost,
 	     pc->currency, (cVote->cost) == 1 ? "" : "s" );
       return;
-    }     
+    }
     /* seems everything is ok now, try to create/post the vote */
     else{
-      VOTE_DATA* pVote = create_vote( ch, pv->owner, pv->subject, pv->string, pv->type, 
+      VOTE_DATA* pVote = create_vote( ch, pv->owner, pv->subject, pv->string, pv->type,
 				      pv->value[0], pv->value[1], pv->value[2], pv->value[3], pv->value[4]);
       if (pVote == NULL){
 	bug("do_vote: create: error creating vote type %d.", pv->type);
@@ -1548,7 +1548,7 @@ bool create_app_vote( CHAR_DATA* ch, char* to, char* subject, char* text ){
 
   one_argument(to, cabal);
 
-  /* Viri: changed this to not require the subject line, check if this is a cabal app 
+  /* Viri: changed this to not require the subject line, check if this is a cabal app
   if (is_auto_name("cabal", subject) && is_auto_name("app", subject)){
 
   if ( (pc = get_cabal( cabal )) == NULL){
@@ -1572,7 +1572,7 @@ bool create_app_vote( CHAR_DATA* ch, char* to, char* subject, char* text ){
       return VOTE_ERROR;
     }
     if (ch->pcdata->last_app && ch->pcdata->last_app + VOTE_TIME_TO_REAPPLY > mud_data.current_time){
-      sendf(ch, "You will be allowed another chance to apply in %ld days.\n\r", 
+      sendf(ch, "You will be allowed another chance to apply in %ld days.\n\r",
 	    (ch->pcdata->last_app + VOTE_TIME_TO_REAPPLY - mud_data.current_time) / VOTE_DAY);
       return VOTE_ERROR;
     }
@@ -1582,12 +1582,12 @@ bool create_app_vote( CHAR_DATA* ch, char* to, char* subject, char* text ){
     }
     else if (!ClanApplicationCheck(ch, pc))
       return VOTE_ERROR;
-      
+
 
     /* we have the cabal he was applying to now, check if we can take on a new member */
     if ( !check_cabal_req( ch, pc ) )
       return VOTE_ERROR;
-    
+
     /* create the app */
     if ( (pv = create_vote(ch, ch->name, cabal, text, VOTE_CAB_APPLY, pc->vnum, 0, 0, 0, 0)) == NULL){
       send_to_char("Error creating vote.\n\r", ch);
@@ -1762,7 +1762,7 @@ bool can_veto( CHAR_DATA* ch, VOTE_DATA* pv ){
     break;
   case VOTE_CAB_APPLY:
 /* royal cabal imms can always veto on apps */
-    if (IS_IMMORTAL(ch) && ch->pCabal && IS_CABAL(ch->pCabal, CABAL_ROYAL) 
+    if (IS_IMMORTAL(ch) && ch->pCabal && IS_CABAL(ch->pCabal, CABAL_ROYAL)
 	&& !str_cmp(ch->name, (get_parent(ch->pCabal))->immortal))
       return TRUE;
   case VOTE_CAB_PROM:
@@ -1779,7 +1779,7 @@ bool can_veto( CHAR_DATA* ch, VOTE_DATA* pv ){
   case VOTE_LAW:
   case VOTE_PACT:
     pSec = get_cabal_vnum(pv->value[0]);
-    if (ch->pCabal 
+    if (ch->pCabal
 	&& pSec
 	&& IS_LEADER(ch)
 	&& is_same_cabal( ch->pCabal, pSec)){
@@ -1809,8 +1809,8 @@ void interpret_vote(CHAR_DATA* ch, char* argument ){
 
   if ( pv == NULL ){
     send_to_char("You have no remaining votes, returning to normal mode.\n\r", ch);
-    if (ch->desc->connected == CON_VOTE) 
-      ch->desc->connected = CON_PLAYING; 
+    if (ch->desc->connected == CON_VOTE)
+      ch->desc->connected = CON_PLAYING;
     else{
       connect_char( ch->desc );
       do_save( ch, "");
@@ -1868,7 +1868,7 @@ void interpret_vote(CHAR_DATA* ch, char* argument ){
 	ch->pcdata->vote_skip++;
       if (ch->desc->connected == CON_VOTE){
 	ch->desc->connected = CON_PLAYING;
-      } 
+      }
       else{
 	connect_char( ch->desc );
 	do_save( ch, "");
@@ -1892,7 +1892,7 @@ void interpret_vote(CHAR_DATA* ch, char* argument ){
   send_to_char("You may \"quit\" from this vote and come back to it at later time.\n\r", ch );
   sendf(ch, "Cmds: quit, help, yes, no, pass%s>  ", can_veto(ch, pv) ? ", veto" : "");
 
-  
+
 }
 
 /* the following functions are used to decide if the vote passed or failed	*/
@@ -2018,7 +2018,7 @@ void execute_vote( VOTE_DATA* pv, bool fPass ){
 	  free_string(ch->pcdata->member->sponsor);
 	ch->pcdata->member->sponsor = strdup( cm->name );
 	/* increase hours and promote once due to sponsorship */
-	ch->pcdata->member->hours = 36000;	
+	ch->pcdata->member->hours = 36000;
 	promote(ch, pc, 1 );
       }
       CHANGE_CABAL( pc );
@@ -2029,7 +2029,7 @@ void execute_vote( VOTE_DATA* pv, bool fPass ){
     /* char is present */
     sprintf( buf, "By your decision %s has been allowed into the ranks of %s.\n\r", PERS2( ch ), pc->who_name );
     cabal_echo( ch->pCabal, buf );
-    
+
     /* check if we need to purge the character */
     if (fPurge){
       purge( ch );
@@ -2120,11 +2120,11 @@ void execute_vote( VOTE_DATA* pv, bool fPass ){
 	  CHANGE_CABAL( pc );
 	  save_cabals( TRUE, NULL );
 	}
-     
+
 	/* remove the person */
 	ch->pcdata->last_app = mud_data.current_time + VOTE_DAY * 7;
 	update_cabal_skills(ch, ch->pCabal, TRUE, TRUE);
-	char_from_cabal( ch );      
+	char_from_cabal( ch );
 	save_char_obj( ch );
 	CHANGE_CABAL( pc );
 	save_cabals( TRUE, NULL );
@@ -2158,8 +2158,8 @@ void execute_vote( VOTE_DATA* pv, bool fPass ){
       if (!fPurge){
 	/* char is present */
 	char buf[MIL];
-	sprintf( buf, "By your decision %s has been %s to the rank of %s.\n\r", 
-		 PERS2( ch ), 
+	sprintf( buf, "By your decision %s has been %s to the rank of %s.\n\r",
+		 PERS2( ch ),
 		 pv->type == VOTE_CAB_DEMO ? "demoted" : "promoted",
 		 get_crank( ch ));
 	cabal_echo( ch->pCabal, buf );
@@ -2196,7 +2196,7 @@ void execute_vote( VOTE_DATA* pv, bool fPass ){
       /* we change the cities status */
       if ( (pArea = pc->city ) == NULL){
 	bug("execute_vote: VOTE_LAW could not find an area for cabal vnum %d.", pc->vnum);
-	break;	
+	break;
       }
       pArea->crimes[pv->value[1]] = pv->value[2];
       save_area( pArea );
@@ -2337,7 +2337,7 @@ void execute_vote( VOTE_DATA* pv, bool fPass ){
       int door = 0;
       int to_pos[3];
       bool fSell = pv->value[4] > 0;
-      
+
       sprintf( buf, "The %s of %s have %s %s.\n\rResults:\n\r"\
 	       "%d For, %d Against, %d Pass\n\r",
 	       pv->veto ? "leader" : "members",
@@ -2352,7 +2352,7 @@ void execute_vote( VOTE_DATA* pv, bool fPass ){
       if (fSell){
 	int doors = 0;
 	EXIT_DATA* pexit;
-	
+
 	if (!fPass)
 	  break;
 	/* get a complete cvroom that this vote referes to */
@@ -2375,10 +2375,10 @@ void execute_vote( VOTE_DATA* pv, bool fPass ){
 	}
 
 	sell_room( pcv, pc, pv->value[4] );
-	
+
 	VRCHANGE_CABAL( pc );
 	CHANGE_CABAL( pc );
-	save_cabals( TRUE, NULL );	  
+	save_cabals( TRUE, NULL );
 	break;
       }
       /* EDIT/BUILD */
@@ -2411,7 +2411,7 @@ void execute_vote( VOTE_DATA* pv, bool fPass ){
       pcv->fComplete = TRUE;
       fix_vir_exits( pcv );
       load_vir_room( pcv->pRoom, pc->anchor->area );
-      
+
       /* we check if we have to update exits on rooms waiting to be approved */
       for (door = 0; door < MAX_DOOR; door++){
 	if ( (pExit = pcv->pRoom->exit[door]) == NULL)
@@ -2420,12 +2420,12 @@ void execute_vote( VOTE_DATA* pv, bool fPass ){
 	/* check if this exit leads to another cvroom */
 	if (!IS_VIRVNUM(pExit->vnum))
 	  continue;
-    
+
 	/* now we have an exit from cvroom to cvroom, we get that room by our position + exit direction */
 	to_pos[P_X]	= pcv->pos[P_X];
 	to_pos[P_Y]	= pcv->pos[P_Y];
 	to_pos[P_Z]	= pcv->pos[P_Z];
-	
+
 	get_new_coordinates( to_pos, door );
 	/* we now look for INCOMPLETE room in that position */
 	if ( (to_cvroom = get_cvroom_xyz(to_pos[P_X], to_pos[P_Y], to_pos[P_Z], pcv->pRoom->pCabal, FALSE, TRUE)) == NULL
@@ -2545,7 +2545,7 @@ void execute_vote( VOTE_DATA* pv, bool fPass ){
 	    bug("execute_vote: VOTE_PACT could not create a pact type %d", pv->value[4]);
 	    break;
 	  }
-	
+
 	  /* we have an empty pact now, set the gains on it */
 	  /* SPECIAL CASES: */
 
@@ -2641,8 +2641,8 @@ void execute_vote( VOTE_DATA* pv, bool fPass ){
 	  pp->b_cp	= pv->value[2];
 	  pp->b_sup	= pv->value[3];
 	  refresh_pact_flags();
-	  
-	  /* special behavior for completion */	  
+
+	  /* special behavior for completion */
 
 	  /* improvement of trade sets the maximum of trade between cabals to its value[2] value */
 	  if (IS_SET(pv->value[4], PACT_IMPROVE)){
@@ -2726,7 +2726,7 @@ void execute_vote( VOTE_DATA* pv, bool fPass ){
 	  else if (IS_CABAL(pc2, CABAL_JUSTICE) && IS_CABAL(pc, CABAL_ROYAL)){
 	    if ( (pArea = pc->city) == NULL){
 	      bug("execute_vote: VOTE_PACT could not find an area for cabal vnum %d.", pv->value[0]);
-	      break;	
+	      break;
 	    }
 	    else{
 	      /* send a note to the area about lawfulness */
@@ -2743,7 +2743,7 @@ void execute_vote( VOTE_DATA* pv, bool fPass ){
 	  else if (IS_CABAL(pc, CABAL_JUSTICE) && IS_CABAL(pc2, CABAL_ROYAL)){
 	    if ( (pArea = pc2->city) == NULL){
 	      bug("execute_vote: VOTE_PACT could not find an area for cabal vnum %d.", pv->value[0]);
-	      break;	
+	      break;
 	    }
 	    else{
 	      /* send a note to the area about lawfulness */
@@ -2768,7 +2768,7 @@ void execute_vote( VOTE_DATA* pv, bool fPass ){
   free_vote( pv );
   save_mud();
   save_cabals( TRUE, NULL );
-}    
+}
 
 /* checks a single vote and decides if the vote should be judged for pass/fail
  * CRITERIA for vote judgement:
@@ -2792,7 +2792,7 @@ void check_vote( VOTE_DATA* pv ){
       || pv->life_time < mud_data.current_time		//vote expired
       || pv->yes > pv->no + rem_votes
       || pv->no > pv->yes + rem_votes
-      || ( (pv->yes + pv->no + pv->pass) >= 3 * pv->max_vote / 4 
+      || ( (pv->yes + pv->no + pv->pass) >= 3 * pv->max_vote / 4
 	   && (pv->time_stamp + pv->life_time) / 2 < mud_data.current_time) ){
     execute_vote( pv, judge_vote( pv ) );
   }

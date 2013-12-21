@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -34,9 +34,6 @@
 /* globals/typedefs */
 
 
-/* externs */
-extern	VOTE_DATA*			vote_list;
-extern const struct vote_type		vote_table[];
 
 /* constants */
 #define VOTE_VALS		5
@@ -86,9 +83,9 @@ extern const struct vote_type		vote_table[];
 #define VOTE_MINUTE	60
 #define VOTE_HOUR	3600
 #define VOTE_DAY	86400
-	
-#define VOTE_DUR_VSHORT	4  * VOTE_HOUR			
-#define VOTE_DUR_SHORT	     VOTE_DAY		
+
+#define VOTE_DUR_VSHORT	4  * VOTE_HOUR
+#define VOTE_DUR_SHORT	     VOTE_DAY
 #define VOTE_DUR_MED	3  * VOTE_DAY
 #define VOTE_DUR_LONG	5  * VOTE_DAY
 #define VOTE_DUR_VLONG	7  * VOTE_DAY
@@ -112,7 +109,7 @@ struct vote_data{
   int		pass;
   bool		veto;		//was the vote vetoed. (used only right after voting )
   int		max_vote;	//totaly votes after which the vote is tallied
-  
+
   time_t	time_stamp;	//time at which vote was created
   time_t	life_time;	//length after which vote is autotallied
 
@@ -122,7 +119,7 @@ struct vote_data{
   char*		subject;	//subject of the vote
   char*		string;		//misc. string if needed
 };
-  
+
 
 /* table for various votes with lengths etc. */
 struct vote_type{
@@ -132,6 +129,9 @@ struct vote_type{
 
 };
 
+/* externs */
+extern	VOTE_DATA*			vote_list;
+extern const struct vote_type		vote_table[];
 
 /* macros */
 #define IS_VALID(data)		((data) != NULL && (data)->valid)

@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -77,11 +77,11 @@ bool valid_edge( ROOM_INDEX_DATA *room, sh_int door, bool fPassDoor )
 {
     EXIT_DATA *pexit = room->exit[door];
     ROOM_INDEX_DATA *to_room;
-    if ( pexit && (to_room = pexit->to_room) != NULL 
-	 && !IS_MARKED( to_room ) 
-	 && (IS_SET(room->area->area_flags, AREA_MUDSCHOOL) 
+    if ( pexit && (to_room = pexit->to_room) != NULL
+	 && !IS_MARKED( to_room )
+	 && (IS_SET(room->area->area_flags, AREA_MUDSCHOOL)
 	     || !IS_SET(to_room->area->area_flags, AREA_MUDSCHOOL))
-	 && (fPassDoor 
+	 && (fPassDoor
 	     || (!IS_SET(pexit->exit_info, EX_CLOSED)
 		 && !IS_SET(pexit->to_room->room_flags2, ROOM_JAILCELL))) )
       return TRUE;
@@ -92,11 +92,11 @@ bool valid_edge( ROOM_INDEX_DATA *room, sh_int door, bool fPassDoor )
 bool valid_edge_path( ROOM_INDEX_DATA *room, sh_int door, bool fPassDoor ){
   EXIT_DATA *pexit = room->exit[door];
   ROOM_INDEX_DATA *to_room;
-  if ( pexit && (to_room = pexit->to_room) != NULL 
-       && !P_IS_MARKED( to_room ) 
-       && (IS_SET(room->area->area_flags, AREA_MUDSCHOOL) 
+  if ( pexit && (to_room = pexit->to_room) != NULL
+       && !P_IS_MARKED( to_room )
+       && (IS_SET(room->area->area_flags, AREA_MUDSCHOOL)
 	   || !IS_SET(to_room->area->area_flags, AREA_MUDSCHOOL))
-       && (fPassDoor 
+       && (fPassDoor
 	   || (!IS_SET(pexit->exit_info, EX_CLOSED)
 	       && !IS_SET(pexit->to_room->room_flags2, ROOM_JAILCELL))) )
     return TRUE;
@@ -135,7 +135,7 @@ void bfs_dequeue(void)
     end_malloc("free_mem bfs_dequeue");
 }
 
-void bfs_clear_queue(void) 
+void bfs_clear_queue(void)
 {
     while (queue_head)
         bfs_dequeue();
@@ -147,7 +147,7 @@ void bfs_area_enqueue(AREA_DATA *area, AREA_QUEUE* from, ROOM_INDEX_DATA* start_
   init_malloc("alloc bfs_area_enqueue");
   curr = alloc_mem( sizeof( *curr ));
   end_malloc("alloc bfs_area_enqueue");
-  
+
   curr->area = area;
   curr->start_room = start_room;
   curr->from = from;
@@ -190,7 +190,7 @@ void room_enqueue(ROOM_INDEX_DATA *room )
     room_queue = curr;
 }
 
-void clean_room_queue(void) 
+void clean_room_queue(void)
 {
     struct bfs_queue_struct *curr, *curr_next;
     for (curr = room_queue; curr; curr = curr_next )
@@ -209,7 +209,7 @@ AREA_QUEUE* area_enqueue(AREA_DATA *area, AREA_QUEUE* from, ROOM_INDEX_DATA* sta
   init_malloc("alloc area_enqueue");
   curr = alloc_mem( sizeof( *curr ));
   end_malloc("alloc area_enqueue");
-  
+
   curr->area = area;
   curr->start_room = start_room;
   SET_BIT(curr->area->area_flags, AREA_MARKED );
@@ -223,10 +223,10 @@ AREA_QUEUE* area_enqueue(AREA_DATA *area, AREA_QUEUE* from, ROOM_INDEX_DATA* sta
 
 void clean_area_queue(void){
   AREA_QUEUE *curr, *curr_next;
-  
+
   for (curr = area_head; curr; curr = curr_next ){
     curr_next = curr->next;
-    
+
     REMOVE_BIT(curr->area->area_flags, AREA_MARKED );
 
     init_malloc("free_mem clean_area_queue");
@@ -252,7 +252,7 @@ PATH_QUEUE* path_enqueue(PATH_QUEUE* head, ROOM_INDEX_DATA *room, PATH_QUEUE* fr
     return curr;
 }
 
-void clean_path_queue(PATH_QUEUE* head) 
+void clean_path_queue(PATH_QUEUE* head)
 {
     struct bfs_queue_struct *curr, *curr_next;
     for (curr = head; curr; curr = curr_next )
@@ -316,7 +316,7 @@ int find_first_step(ROOM_INDEX_DATA *src, ROOM_INDEX_DATA *target, int maxdist, 
 		{
                     MARK(toroom(queue_head->room, curr_dir));
 	            room_enqueue(toroom(queue_head->room, curr_dir) );
-	            bfs_enqueue(toroom(queue_head->room, curr_dir), 
+	            bfs_enqueue(toroom(queue_head->room, curr_dir),
 				NULL,
 				queue_head->dir, queue_head->dist + 1);
                 }
@@ -342,7 +342,7 @@ PATH_QUEUE* cat_paths( PATH_QUEUE* p1, PATH_QUEUE* p2 ){
   return (copy_list( p1, p2 ));
 }
 
-/* 
+/*
    Uses area exists to generate a bread first search work queue
    and a list of marked areas
 */
@@ -357,7 +357,7 @@ AREA_QUEUE* generate_area_list( AREA_DATA *src, ROOM_INDEX_DATA* src_room, AREA_
   clean_area_queue();
 
   //add this area onto the list of marked areas
-  
+
 
   //enqueue this area onto the search queue
   bfs_area_enqueue( src, area_enqueue( src, NULL, src_room ), NULL );
@@ -387,7 +387,7 @@ AREA_QUEUE* generate_area_list( AREA_DATA *src, ROOM_INDEX_DATA* src_room, AREA_
 	else if (pc_only && !can_reinforce(pc_only, pe->to_room->area))
 	  continue;
 	else{
-	  bfs_area_enqueue( pe->to_room->area, 
+	  bfs_area_enqueue( pe->to_room->area,
 			    area_enqueue( pe->to_room->area, curr->from, pe->to_room ),
 			    pe->to_room );
 	}
@@ -398,7 +398,7 @@ AREA_QUEUE* generate_area_list( AREA_DATA *src, ROOM_INDEX_DATA* src_room, AREA_
   //nuke the area list
   bfs_area_clear_queue();
   //clean_area_queue must be called once the area list is no longer needed
-  return NULL;  
+  return NULL;
 }
 
 /* creates a persistent path from src to target
@@ -429,10 +429,10 @@ PATH_QUEUE* generate_path( ROOM_INDEX_DATA *src, ROOM_INDEX_DATA *target, int ma
   curr_tar = target;
   for (curr_area = area_list; curr_area; curr_area = curr_area->from ){
     ldist = 0;
-    area_path = generate_path_list(curr_area->start_room, 
+    area_path = generate_path_list(curr_area->start_room,
 				   curr_tar,
-				   maxdist, 
-				   fPassDoor, 
+				   maxdist,
+				   fPassDoor,
 				   &ldist );
     //case of error
     if (area_path == NULL){
@@ -453,7 +453,7 @@ PATH_QUEUE* generate_path( ROOM_INDEX_DATA *src, ROOM_INDEX_DATA *target, int ma
   clean_area_queue();
   return final_path;
 }
-  
+
 /* Returns pointer to the list representing the path to be taken using
    room->from_room link.
    This list does not persist between calls to generate_path!
@@ -466,7 +466,7 @@ PATH_QUEUE* generate_path_list(ROOM_INDEX_DATA *src, ROOM_INDEX_DATA *target, in
     bug("Illegal value passed to generate_path_list (misc.c)", 0 );
     return NULL;
   }
- 
+
   //reset room list
   clean_path();
 
@@ -481,14 +481,14 @@ PATH_QUEUE* generate_path_list(ROOM_INDEX_DATA *src, ROOM_INDEX_DATA *target, in
   /* first, enqueue the first steps, saving which direction we're going. */
   for (curr_dir = 0; curr_dir < MAX_DOOR; curr_dir++){
     if (valid_edge_path(src, curr_dir, fPassDoor)){
-      path_queue = path_enqueue(path_queue, 
-				toroom(src, curr_dir), 
-				from, 
+      path_queue = path_enqueue(path_queue,
+				toroom(src, curr_dir),
+				from,
 				curr_dir);
       P_MARK(toroom(src, curr_dir));
-      bfs_enqueue(toroom(src, curr_dir), 
+      bfs_enqueue(toroom(src, curr_dir),
 		  path_queue,
-		  curr_dir, 
+		  curr_dir,
 		  1);
     }
   }
@@ -513,13 +513,13 @@ PATH_QUEUE* generate_path_list(ROOM_INDEX_DATA *src, ROOM_INDEX_DATA *target, in
       for (curr_dir = 0; curr_dir < MAX_DOOR; curr_dir++){
 	if (valid_edge_path(queue_head->room, curr_dir, fPassDoor)){
 	  P_MARK(toroom(queue_head->room, curr_dir));
-	  path_queue = path_enqueue(path_queue, 
-				    toroom(queue_head->room, curr_dir), 
-				    queue_head->from_path, 
+	  path_queue = path_enqueue(path_queue,
+				    toroom(queue_head->room, curr_dir),
+				    queue_head->from_path,
 				    curr_dir);
-	  bfs_enqueue(toroom(queue_head->room, curr_dir), 
+	  bfs_enqueue(toroom(queue_head->room, curr_dir),
 		      path_queue,
-		      queue_head->dir, 
+		      queue_head->dir,
 		      queue_head->dist + 1);
 	}
       }
@@ -535,17 +535,17 @@ void hunt_victim( CHAR_DATA *ch )
     extern char * const dir_name[];
     int roll, dir;
     bool found = FALSE;
-    CHAR_DATA     *tmp; 
+    CHAR_DATA     *tmp;
     if( ch == NULL || ch->in_room == NULL || ch->hunting == NULL
-	|| !IS_NPC(ch) || IS_NPC(ch->hunting) 
-	|| (ch->pIndexData->vnum >= MOB_VNUM_SERVANT_FIRE 
+	|| !IS_NPC(ch) || IS_NPC(ch->hunting)
+	|| (ch->pIndexData->vnum >= MOB_VNUM_SERVANT_FIRE
 	    && ch->pIndexData->vnum <= MOB_VNUM_SERVANT_EARTH))
       return;
     for( tmp = player_list; tmp && !found; tmp = tmp->next_player )
         if( ch->hunting == tmp )
 	  found = TRUE;
-    if( !found 
-	|| ch->hunting->in_room == NULL 
+    if( !found
+	|| ch->hunting->in_room == NULL
 	|| IS_SET(ch->in_room->room_flags2, ROOM_JAILCELL))
     {
       act( "$n says '`#Damn!  I can't find $M!``'", ch, NULL, ch->hunting, TO_ROOM );
@@ -585,7 +585,7 @@ void hunt_victim( CHAR_DATA *ch )
 	return;
       }
     }
-    if ( IS_SET( ch->in_room->exit[dir]->exit_info, EX_CLOSED ) 
+    if ( IS_SET( ch->in_room->exit[dir]->exit_info, EX_CLOSED )
 	 && !(IS_AFFECTED(ch,AFF_PASS_DOOR) && !IS_SET(ch->in_room->exit[dir]->exit_info,EX_NOPASS))){
       do_open( ch, (char *) dir_name[dir] );
       return;
@@ -594,13 +594,13 @@ void hunt_victim( CHAR_DATA *ch )
       char buf[MIL];
       sprintf( buf, "%s", ch->hunting->name );
       do_shoot( ch, buf );
-      
+
       if (ch == NULL || ch->in_room == NULL)
 	return;
     }
 
     if (!IS_SET(ch->in_room->exit[dir]->to_room->room_flags, ROOM_NO_MOB)
-	&& ( !IS_SET(ch->act, ACT_STAY_AREA) || ch->in_room->exit[dir]->to_room->area == ch->in_room->area ) )        
+	&& ( !IS_SET(ch->act, ACT_STAY_AREA) || ch->in_room->exit[dir]->to_room->area == ch->in_room->area ) )
       move_char( ch, dir, FALSE );
 }
 
@@ -609,7 +609,7 @@ void return_to_leader( CHAR_DATA *ch )
     extern char * const dir_name[];
     int dir;
     bool found = FALSE;
-    CHAR_DATA *tmp; 
+    CHAR_DATA *tmp;
     if( ch == NULL || ch->in_room == NULL || ch->leader == NULL || ch->summoner == NULL
     || !IS_NPC(ch) || IS_NPC(ch->summoner) || !IS_SET(ch->special,SPECIAL_RETURN))
         return;
@@ -637,7 +637,7 @@ void return_to_leader( CHAR_DATA *ch )
     if (IS_AFFECTED2(ch,AFF_MISDIRECTION))
     {
         do
-        { 
+        {
             dir = number_door();
         }
         while( ( ch->in_room->exit[dir] == NULL ) || ( ch->in_room->exit[dir]->to_room == NULL ) );
@@ -682,7 +682,7 @@ bool find_bank(CHAR_DATA *ch, bool fQuiet)
 {
 /* This is where you tell which rooms are banks. *
    Just keep adding to it, whatever.             */
-    if (ch->in_room->vnum != 3 
+    if (ch->in_room->vnum != 3
 	&& ch->in_room->vnum != 20793 // Val Miran
 	&& ch->in_room->vnum != 7873 // Miruvhor
         && ch->in_room->vnum != 11483 // Rheydin
@@ -700,7 +700,7 @@ bool find_bank(CHAR_DATA *ch, bool fQuiet)
 }
 
 int subtract_gold( CHAR_DATA* ch, int gold){
-  
+
   ch->gold -= gold;
   if (ch->gold < 0){
     ch->in_bank += ch->gold;
@@ -715,7 +715,7 @@ int subtract_gold( CHAR_DATA* ch, int gold){
 
 void find_money(CHAR_DATA *ch)
 {
-    if (ch->in_bank > 30000000) 
+    if (ch->in_bank > 30000000)
 	ch->in_bank = 30000000;
     if (ch->in_bank < -30000000)
         ch->in_bank = -30000000;
@@ -758,7 +758,7 @@ void do_deposit(CHAR_DATA *ch, char *argument)
       }
     }
 
-    if ((victim->in_bank + atoi(arg)) > 30000000) 
+    if ((victim->in_bank + atoi(arg)) > 30000000)
     {
         send_to_char("I'm sorry, this bank has a 30 million gold limit.\n\r", ch);
    	return;
@@ -768,7 +768,7 @@ void do_deposit(CHAR_DATA *ch, char *argument)
     if (victim == ch)
       sendf(ch, "Your balance is %d.\n\r", ch->in_bank);
     else{
-      sendf(victim, "`8A Bank squire hands you a stub and gallops away.``\n\r Deposit: %d by: [%s].  Current total: %d\n\r", 
+      sendf(victim, "`8A Bank squire hands you a stub and gallops away.``\n\r Deposit: %d by: [%s].  Current total: %d\n\r",
 	    atoi(arg), PERS2(ch), victim->in_bank);
       sendf(ch, "You transfer %d gold to %s's account.\n\r", atoi(arg), PERS2(victim));
     }
@@ -802,7 +802,7 @@ int get_locker_cost( OBJ_DATA* locker){
     return (UMAX(cost, 500));
 }
 
-  
+
 
 /*locker commands
   purchase
@@ -826,8 +826,8 @@ void do_locker(CHAR_DATA *ch, char *argument){
       return;
     }
     send_to_char("Your locker currently contains:\n\r", ch);
-    show_list_to_char( locker->contains, ch, TRUE, TRUE );  
-    sendf(ch, 
+    show_list_to_char( locker->contains, ch, TRUE, TRUE );
+    sendf(ch,
 	  "\n\rThere are %d/%d items in your locker.\n\r"\
 	  "Your locker is currently costing you: %d gold per month.\n\r",
 	  count_obj_inlist(locker->contains, 0), locker->value[3],
@@ -858,9 +858,9 @@ void do_locker(CHAR_DATA *ch, char *argument){
       send_to_char("Error loading the locker.\n\r", ch);
       return;
     }
-    
+
     obj_to_char( locker, ch );
-    
+
     send_to_char("You now posses a bank locker.  Seek \"help locker\" for details.\n\r", ch);
     return;
   }
@@ -895,7 +895,7 @@ void do_locker(CHAR_DATA *ch, char *argument){
       send_to_char("You can't seem to let go of it.\n\r", ch);
       return;
     }
-    
+
     //get per item cost
     if (!find_bank(ch, TRUE)){
       if (is_fight_delay(ch, 120)){
@@ -925,10 +925,10 @@ void do_locker(CHAR_DATA *ch, char *argument){
     }
     else
       subtract_gold( ch, cost);
-    
+
     obj_from_char( obj );
     obj_to_obj( obj, locker );
-    
+
     if (fRemote){
       act("With a flash of magic a bank servant gates in, takes $p from $n and departs.", ch, obj, NULL, TO_ROOM);
       act("With a flash of magic a bank servant gates in, takes $p from you and departs.", ch, obj, NULL, TO_CHAR);
@@ -969,7 +969,7 @@ void do_locker(CHAR_DATA *ch, char *argument){
 
     obj_from_obj( obj );
     obj_to_char(obj, ch);
-    
+
     act("$n retrieves $p in $s locker.", ch, obj, NULL, TO_ROOM);
     act("You retrieve $p in your locker.", ch, obj, NULL, TO_CHAR );
     return;
@@ -1052,7 +1052,7 @@ void bankUpdate( CHAR_DATA* ch ){
     if (locker->vnum == OBJ_VNUM_LOCKER){
       break;
     }
-  }      
+  }
 
   if (locker == NULL)
     return;
@@ -1073,16 +1073,16 @@ void bankUpdate( CHAR_DATA* ch ){
     send_to_char("You have one month to repay the balance, or your locker will be sold.\n\r", ch);
   }
 }
-  
 
-  
+
+
 void do_withdraw(CHAR_DATA *ch, char *argument)
 {
     char arg[MIL];
     int amount = 0,  fee = 0;
     if (!find_bank(ch, FALSE))
 	return;
-    one_argument(argument, arg); 
+    one_argument(argument, arg);
     if (IS_NPC(ch))
     {
         send_to_char("Mobs can't withdraw money.\n\r", ch);
@@ -1118,7 +1118,7 @@ void do_withdraw(CHAR_DATA *ch, char *argument)
 	fee = amount / 10;
       }
     }
-      
+
     ch->in_bank -= amount;
     ch->in_bank -= fee;
     ch->gold += amount;
@@ -1160,7 +1160,7 @@ void do_tempquest( CHAR_DATA *ch, char *argument ){
  * ex: permquest bob Killed All the Dragons
  * NOTE: using permquest on temporary quest simply changes it to perm. quest
  */
-/* 
+/*
    NOTE: if char is not present this tries to bring them on, set the quest
    and remove them from the game.
 */
@@ -1283,7 +1283,7 @@ void do_inviquest( CHAR_DATA *ch, char *argument ){
     free_descriptor( d );
 }
 
-/* removes a quest from character 
+/* removes a quest from character
  * Either a name, or number on list or "all" can be specified.
  * syntax: remquest <char> <quest text/quest order>
  */
@@ -1407,7 +1407,7 @@ char* short_bar( int cur, int max ){
     color = "`2";
 
   sprintf( output, "[%s", color );
-  
+
   for (i = 0; i < 6; i++){
     if (perc > (i * 16))
       strcat(output, "|");
@@ -1475,7 +1475,7 @@ void health_prompt(char* buf, int cur, int max, bool fDig){
 	*str++ = bar;
       else
 	*str++ = nobar;
-      
+
     }//END for
 
     /* end color if any */
@@ -1522,17 +1522,17 @@ void do_hal( char* to, char* subject, char* text, int type ){
   note->date                 = str_dup( strtime );
   note->date_stamp           = mud_data.current_time;
   note->to_list = str_dup(to);
-  append_note(note);    
+  append_note(note);
   /*  Let char know he/they recived a note */
   for ( vch = player_list; vch != NULL; vch = vch->next_player ){
     if (is_note_to(vch, note)){
       act_new("`8A messenger hands you a scroll marked $t``\n\r", vch,
-	      type == NOTE_IDEA ? "\"idea\""  : 
-	      type == NOTE_NOTE ? "\"note\""  : 
-	      type == NOTE_APPLICATION ? "\"application\""  : 
-	      type == NOTE_PENALTY ? "\"penalty\""  : 
-	      type == NOTE_NEWS ? "\"news\""  : 
-	      type == NOTE_CHANGES ? "\"changes\""  : "\"note\"", 
+	      type == NOTE_IDEA ? "\"idea\""  :
+	      type == NOTE_NOTE ? "\"note\""  :
+	      type == NOTE_APPLICATION ? "\"application\""  :
+	      type == NOTE_PENALTY ? "\"penalty\""  :
+	      type == NOTE_NEWS ? "\"news\""  :
+	      type == NOTE_CHANGES ? "\"changes\""  : "\"note\"",
 	      NULL, TO_CHAR, POS_DEAD);
     }
   }
@@ -1579,9 +1579,9 @@ bool dummy_trap( TRAP_DATA* pt ){
   }
   return FALSE;
 }
-	    
 
-      
+
+
 
 /* trap function for creating mobs and making them attack the victim */
 /* used for MOB trap */
@@ -1613,7 +1613,7 @@ bool mob_trap( CHAR_DATA* ch, CHAR_DATA* victim, OBJ_DATA* obj, TRAP_DATA* pt, i
   af.where	= TO_NONE;
   af.bitvector	= 0;
   af.location	= APPLY_NONE;
-  af.modifier	= 0;  
+  af.modifier	= 0;
 
   if (pt->value[0]){
     if ( (pIndex = get_mob_index( pt->value[0] )) == NULL){
@@ -1706,14 +1706,14 @@ bool spell_trap( CHAR_DATA* ch, CHAR_DATA* victim, OBJ_DATA* obj, TRAP_DATA* pt,
 /* do the spells */
   if (type == TTYPE_SPELL){
     if (skill_table[pt->value[0]].spell_fun != NULL)
-      (*skill_table[pt->value[0]].spell_fun) 
+      (*skill_table[pt->value[0]].spell_fun)
 	(pt->value[0], UMAX(0, level + pt->value[1]), ch, victim, TARGET_CHAR);
     if (victim == NULL || victim->in_room == NULL)
       return TRUE;
     /* check if we can cast again */
-    if (!is_safe_quiet(ch, victim) 
+    if (!is_safe_quiet(ch, victim)
 	&& skill_table[pt->value[2]].spell_fun != NULL)
-      (*skill_table[pt->value[2]].spell_fun) 
+      (*skill_table[pt->value[2]].spell_fun)
 	(pt->value[2], UMAX(0, level + pt->value[3]), ch, victim, TARGET_CHAR);
     return TRUE;
   }
@@ -1759,7 +1759,7 @@ bool damage_trap( CHAR_DATA* ch, CHAR_DATA* victim, OBJ_DATA* obj, TRAP_DATA* pt
     }
   }
 /* do the damage */
-  virtual_damage(ch, victim, obj, dam, dt, dam_type, hroll, pt->level, FALSE, 
+  virtual_damage(ch, victim, obj, dam, dt, dam_type, hroll, pt->level, FALSE,
 		 obj ? TRUE : FALSE, 0);
   return TRUE;
 }
@@ -1851,7 +1851,7 @@ bool trap_damage( CHAR_DATA* ch, CHAR_DATA* victim, OBJ_DATA* obj, TRAP_DATA* pt
     case TTYPE_DUMMY:
       fHit = dummy_trap(pt );				break;
     }
-    
+
 /* check if we change return value */
     if (fHit)
       fRet = TRUE;
@@ -1886,7 +1886,7 @@ bool trip_trap( CHAR_DATA* Victim, TRAP_DATA* pt){
     return FALSE;
 
 /* charmie switch */
-  if (IS_NPC(Victim) && IS_AFFECTED(Victim, AFF_CHARM) && Victim->master 
+  if (IS_NPC(Victim) && IS_AFFECTED(Victim, AFF_CHARM) && Victim->master
       && !IS_NPC(Victim->master))
     victim = Victim->master;
   else
@@ -1909,7 +1909,7 @@ bool trip_trap( CHAR_DATA* Victim, TRAP_DATA* pt){
     return FALSE;
   }
 
-/* here we test if we need to create a trap-proxy mob 
+/* here we test if we need to create a trap-proxy mob
 for cases of no-owner or trap-proxy object for nice
 looking damage messages for owner */
 /*no owner, create a mob proxy */
@@ -1989,14 +1989,14 @@ void do_mount(CHAR_DATA *ch, char *argument){
   AFFECT_DATA* paf;
 
   CHAR_DATA *victim;
-  
+
 
   if (IS_NPC(ch))
     return;
-  
+
   if (ch->pcdata->pStallion != NULL){
-    
-    sendf(ch, "You are already mounted on %s!\n\r",ch->pcdata->pStallion->short_descr); 
+
+    sendf(ch, "You are already mounted on %s!\n\r",ch->pcdata->pStallion->short_descr);
     return;
   }
   if ( IS_NULLSTR(argument)){
@@ -2132,7 +2132,7 @@ void prune_chall(){
     if ( -1 != stat( pFile, &Stat)){
       continue;
     }
-    
+
     //we have a non existant player, total up their records
     for (chal = chal_list; chal; chal = chal->next){
       if (str_cmp(curr_name, chal->name))
@@ -2148,7 +2148,7 @@ void prune_chall(){
     //remove all the challenges with curr_name
     for (chal = chal_list; chal; chal = chal_next){
       chal_next = chal->next;
-      if (str_cmp(curr_name, chal->name))    
+      if (str_cmp(curr_name, chal->name))
 	continue;
       else
 	rem_challenge( chal );
@@ -2157,7 +2157,7 @@ void prune_chall(){
     cur_chal = chal_list;
   }
 }
-    
+
 /* returns challenge data by name */
 CHALLENGE_DATA* get_chal( char* name, char* record ){
   CHALLENGE_DATA* chal = chal_list;
@@ -2194,7 +2194,7 @@ void update_challenge( CHAR_DATA* ch, char* name, char* record, int win, int los
     chal->tie = UMAX(0, chal->tie + tie);
     chal->refused = UMAX(0, chal->refused + refused);
   }
-  
+
   if (ch && !IS_NPC(ch) && ch->pCabal != NULL && IS_SET(ch->pCabal->progress, PROGRESS_CHALL)){
     ch->pcdata->member->kills += refused + UMAX(1, chal->win + chal->loss + chal->tie);
     CHANGE_CABAL( get_parent(ch->pCabal) );
@@ -2263,7 +2263,7 @@ void load_challenges(){
     perror( path );
     return;
   }
-  
+
   for (;;){
     letter		= fread_letter( fp );
     if ( letter != '#' ){
@@ -2331,7 +2331,7 @@ void do_record( CHAR_DATA* ch, char* argument ){
 }
 
 
-/* 
+/*
    creates spirit mob, and generates its path to the temple storing it
    int ->spec_data
 */
@@ -2359,7 +2359,7 @@ void create_spirit_mob( ROOM_INDEX_DATA* from, int to_room, char* name ){
 
   path = generate_path( from, to, 128, TRUE, &dist, NULL);
   clean_path();
-  
+
   if (path == NULL)
     return;
 
@@ -2423,7 +2423,7 @@ void do_reputation( CHAR_DATA* ch, char* argument ){
     sendf(ch, "%-15.15s: %s\n\r", capitalize( pc_race_table[race].name ), str );
   }
 }
-  
+
 //checks if the character's ip has voted for all choices
 bool hasVoted( DESCRIPTOR_DATA* d ){
   FILE* fp;
@@ -2439,16 +2439,19 @@ bool hasVoted( DESCRIPTOR_DATA* d ){
     return FALSE;
   else
     sprintf( path, "%s%s", VOTE_DIR, d->ident );
-  
+
   if ( (fp = fopen( path, "r")) == NULL)
     return FALSE;
 
-  fread( &b, 1, 1, fp );
-  fclose( fp );
-  
+  /* Useless conditional */
+  if( fread( &b, 1, 1, fp ) <= 0 )
+    fclose( fp );
+  else
+    fclose( fp );
+
   if (b >= 6)
     return TRUE;
   else
     return FALSE;
 }
-  
+

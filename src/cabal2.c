@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -75,7 +75,7 @@ void throatcut(CHAR_DATA* ch, CHAR_DATA* victim, bool fMantis){
     sprintf(arg1, "Die %s you bloody fool!",PERS(ch,victim));
     j_yell(victim,arg1);
   }
-  
+
   /* check for success */
   if (is_affected(victim, gen_bleed)){
     send_to_char("Their throat has already been cut open.\n\r", ch);
@@ -97,7 +97,7 @@ void throatcut(CHAR_DATA* ch, CHAR_DATA* victim, bool fMantis){
     act("$N senses $n's attack, and throws $m to the ground.",ch,NULL,victim,TO_NOTVICT);
     WAIT_STATE2(ch, URANGE(2, 1 + number_range(1, victim->size), 4) * PULSE_VIOLENCE);
     do_visible(ch, "");
-    
+
     affect_strip(victim,gsn_mantis);
     damage(victim,ch,10,gsn_mantis,DAM_BASH,TRUE);
     return;
@@ -150,7 +150,7 @@ void spell_stand_ground( int sn, int level, CHAR_DATA *ch, void *vo,int target){
     skill = gsn_dodge;
   else
     skill = gsn_parry;
-  
+
   af.type	= sn;
   af.level	= level;
   af.duration	= -1;
@@ -171,8 +171,8 @@ void spell_stand_ground( int sn, int level, CHAR_DATA *ch, void *vo,int target){
   affect_to_char( victim, &af );
 }
 
-  
-    
+
+
 void spell_holy_weapon( int sn, int level, CHAR_DATA *ch, void *vo,int target)
 {
     char buf[MSL], buf2[MSL], arg[MIL], arg2[MIL];
@@ -186,7 +186,7 @@ void spell_holy_weapon( int sn, int level, CHAR_DATA *ch, void *vo,int target)
 
 
 /* Checks to see if the caster is a mob */
-    if (IS_NPC(ch)) 
+    if (IS_NPC(ch))
         return;
     buf[0]='\0';
     buf2[0]='\0';
@@ -271,7 +271,7 @@ void spell_holy_weapon( int sn, int level, CHAR_DATA *ch, void *vo,int target)
 	obj->value[0] = WEAPON_AXE;
 	obj->value[3] = attack_lookup("cleave");
 	obj->value[4] |= (flag_value( weapon_type2, "twohands" ) != NO_FLAG
-              ? flag_value( weapon_type2, "twohands" ) : 0 ); 
+              ? flag_value( weapon_type2, "twohands" ) : 0 );
 	obj->weight = 350;
     }
     else if (!str_cmp(arg, "staff"))
@@ -287,7 +287,7 @@ void spell_holy_weapon( int sn, int level, CHAR_DATA *ch, void *vo,int target)
 	obj->value[0] = WEAPON_STAFF;
 	obj->value[3] = attack_lookup("smash");
 	obj->value[4] |= (flag_value( weapon_type2, "twohands" ) != NO_FLAG
-              ? flag_value( weapon_type2, "twohands" ) : 0 ); 
+              ? flag_value( weapon_type2, "twohands" ) : 0 );
 	obj->weight = 50;
     }
     else if (!str_cmp(arg, "polearm") || !str_cmp(arg, "glaive"))
@@ -303,7 +303,7 @@ void spell_holy_weapon( int sn, int level, CHAR_DATA *ch, void *vo,int target)
 	obj->value[0] = WEAPON_POLEARM;
 	obj->value[3] = attack_lookup("cleave");
 	obj->value[4] |= (flag_value( weapon_type2, "twohands" ) != NO_FLAG
-			  ? flag_value( weapon_type2, "twohands" ) : 0 ); 
+			  ? flag_value( weapon_type2, "twohands" ) : 0 );
 	obj->weight = 280;
     }
     else if (!str_cmp(arg, "spear"))
@@ -370,7 +370,7 @@ void spell_holy_weapon( int sn, int level, CHAR_DATA *ch, void *vo,int target)
 
       free_string( beads->description );
       beads->description = str_dup("You see gleaming steel beads here.");
-      
+
       /* add the spell */
       sp.spell	= skill_lookup("cure serious");
       sp.target = SPELL_TAR_SELF;
@@ -381,7 +381,7 @@ void spell_holy_weapon( int sn, int level, CHAR_DATA *ch, void *vo,int target)
       spb->message = str_dup("$p shine with inner light.");
       spb->message2= str_dup("$p shine with inner light.");
 
-      obj_to_char(beads, ch); 
+      obj_to_char(beads, ch);
       act( "You create $p.", ch, beads, NULL, TO_CHAR );
       act( "$n creates $p.", ch, beads, NULL, TO_ROOM );
 
@@ -568,7 +568,7 @@ void do_guard(CHAR_DATA *ch, char *argument)
 
     /* subtract cp's */
     handle_skill_cost( ch, ch->pCabal, gsn_guard );
-    
+
     act("You are now guarding $N.", ch, NULL, victim, TO_CHAR);
     act_new("You are being guarded by $n.", ch, NULL, victim, TO_VICT, POS_DEAD);
     act("$n is now guarding $N.", ch, NULL, victim, TO_NOTVICT);
@@ -589,21 +589,21 @@ void spell_vengeance( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
   af.type	= gen_vengeance;
   af.level	= level;
   af.duration	= number_fuzzy( 8 );
-  
+
   af.where	= TO_AFFECTS;
   af.bitvector	= 0;
   af.location	= APPLY_NONE;
   af.modifier	= 0;
   affect_to_char(ch, &af );
 }
-     
+
 
 void spell_sense_evil( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
     AFFECT_DATA af;
 
 /* Checks to see if the caster is a mob */
-    if (IS_NPC(ch)) 
+    if (IS_NPC(ch))
         return;
     if ( is_affected( ch, sn ) )
     {
@@ -623,13 +623,13 @@ void spell_sense_evil( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     affect_to_char( ch, &af );
     send_to_char( "You feel more aware of the evil surrounding you.\n\r", ch );
 }
- 
+
 void spell_ward_of_light( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
     AFFECT_DATA af;
 
 /* Checks to see if the caster is a mob */
-    if (IS_NPC(ch)) 
+    if (IS_NPC(ch))
         return;
     if ( is_affected( ch, sn ) )
       {
@@ -649,7 +649,7 @@ void spell_ward_of_light( int sn, int level, CHAR_DATA *ch, void *vo, int target
     affect_to_char( ch, &af );
     send_to_char( "You feel divinely blessed.\n\r", ch );
 }
- 
+
 
 /* Minor Banishment for Knights(linked in const.c & magic.h) */
 void spell_mbanish( int sn, int level, CHAR_DATA *ch, void *vo,int target )
@@ -673,7 +673,7 @@ void spell_mbanish( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     	send_to_char("Banish yourself?  What a novel idea.\n\r",ch);
 	return;
     }
-    
+
     dam = number_range(level / 2, level);
     if (ch->race == race_lookup("demon") && !IS_IMMORTAL(ch)){
       send_to_char("Something goes horribly wrong.\n\r", ch);
@@ -698,7 +698,7 @@ void spell_mbanish( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     damage(ch,victim,dam,sn,DAM_INTERNAL, TRUE);
 
     //setup hysteria and drain for one tick.
-    af.where     = TO_AFFECTS; 
+    af.where     = TO_AFFECTS;
     af.type      = gsn_hysteria;
     af.level     = level;
     af.location  = APPLY_HITROLL;
@@ -707,7 +707,7 @@ void spell_mbanish( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     af.modifier  = -2;
     if (!is_affected(victim, gsn_hysteria))
       affect_to_char(victim,&af);
-    af.where     = TO_AFFECTS; 
+    af.where     = TO_AFFECTS;
     af.type      = gsn_drained;
     af.level     = level;
     af.location  = APPLY_DAMROLL;
@@ -764,7 +764,7 @@ void spell_mbanish( int sn, int level, CHAR_DATA *ch, void *vo,int target )
 
 
 /* remove shadowdemon */
-void spell_shadowdemon( int sn, int level, CHAR_DATA *ch, void *vo, int target )   
+void spell_shadowdemon( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
     AFFECT_DATA af;
     CHAR_DATA *mob;
@@ -779,13 +779,13 @@ void spell_shadowdemon( int sn, int level, CHAR_DATA *ch, void *vo, int target )
         send_to_char("You are too weak to summon a shadowdemon.\n\r",ch);
         return;
     }
-    af.where     = TO_AFFECTS2;   
+    af.where     = TO_AFFECTS2;
     af.type      = sn;
     af.level     = level;
     af.duration  = 24;
     af.location  = 0;
     af.modifier  = 0;
-    af.bitvector = 0;  
+    af.bitvector = 0;
     affect_to_char( ch, &af );
     act ("You summon a shadowdemon from the depths of darkness!", ch, NULL, NULL, TO_CHAR);
     act ("$n summons a shadowdemon from the depths of darkness!", ch, NULL, NULL, TO_ROOM);
@@ -815,14 +815,14 @@ void spell_shadowdemon( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 /* ***** WARLORD POWERS ***** */
 bool cyclone( CHAR_DATA*ch, CHAR_DATA* victim, int skill, int sn ){
   int chance = skill;
-  
+
   chance += get_curr_stat(ch,STAT_DEX) - get_curr_stat(victim,STAT_DEX);
   chance += (ch->level - victim->level);
   chance -= get_skill(victim,gsn_dodge) / 10;
 //bigger people are easier tohit
   chance -= affect_by_size(ch,victim);
   chance += (get_curr_stat(ch,STAT_LUCK) - get_curr_stat(victim,STAT_LUCK));
-  
+
   switch(ch->in_room->sector_type){
   case(SECT_INSIDE):		chance -= 25;	break;
   case(SECT_CITY):		chance -= 15;	break;
@@ -835,30 +835,30 @@ bool cyclone( CHAR_DATA*ch, CHAR_DATA* victim, int skill, int sn ){
   case(SECT_AIR):		chance  =  0;  	break;
   case(SECT_DESERT):		chance += 25;   break;
   }
-  
+
   if (chance == 0){
     send_to_char("There isn't any dirt here.\n\r",ch);
     return FALSE;
   }
 
   chance = chance - 25 + UMIN(ch->level, 25);
-  
+
   if (is_affected(victim, gsn_mist_form)){
       act("The dirt flies right through the mist.", ch, NULL, victim, TO_CHAR);
       act("The dirt flies right through $N.", ch, NULL, victim, TO_NOTVICT);
       act("The dirt flies through your non-corporeal form.", ch, NULL, victim, TO_CHAR);
       chance = 0;
   }
-  
+
   if (number_percent() < chance){
     bool fDirtProt =  (victim->race == race_lookup("slith") && number_percent() < victim->level);
     AFFECT_DATA af;
-    
+
     act("$n is blinded by the dirt in $s eyes!",victim,NULL,NULL,TO_ROOM);
     act("$n kicks dirt in your eyes!",ch,NULL,victim,TO_VICT);
     send_to_char("You can't see a thing!\n\r",victim);
     check_improve(ch,gsn_dirt,TRUE,1);
-    
+
     if (fDirtProt){
       send_to_char("Your lizard ancestry serves you well and you easly recover.\n\r", victim);
     }
@@ -877,9 +877,9 @@ bool cyclone( CHAR_DATA*ch, CHAR_DATA* victim, int skill, int sn ){
       else
 	af.modifier      = -6;
       af.bitvector 	= AFF_BLIND;
-      
+
       affect_to_char(victim,&af);
-      
+
       af.location     = APPLY_AC;
       if (!IS_NPC(victim) && number_percent() < get_skill(victim,gsn_blind_fighting)){
       if (is_affected(victim, gsn_battletrance))
@@ -907,7 +907,7 @@ void do_cyclone(CHAR_DATA *ch, char *argument){
   CHAR_DATA *victim, *vch, *vch_next;
   AFFECT_DATA af, *paf;
   char buf[MSL];
-  
+
   const int sn = gsn_cyclone;
   const int skill = get_skill(ch, sn );
   const int lag = skill_table[sn].beats;
@@ -970,7 +970,7 @@ void do_cyclone(CHAR_DATA *ch, char *argument){
     af.location	= APPLY_NONE;
     af.modifier	= 0;
     affect_to_char( ch, &af );
-    
+
     /* maelstrom refresh */
     if ( (paf = affect_find(ch->affected, gsn_maelstrom)) != NULL)
       paf->duration = af.duration;
@@ -979,10 +979,10 @@ void do_cyclone(CHAR_DATA *ch, char *argument){
   /* we run through all the group mates kicking dirt and damaging */
   for (vch = ch->in_room->people; vch; vch = vch_next){
     vch_next = vch->next_in_room;
-    
-    if (victim == vch 
-	|| IS_AFFECTED(vch, AFF_BLIND) 
-	|| !is_same_group(vch, victim) 
+
+    if (victim == vch
+	|| IS_AFFECTED(vch, AFF_BLIND)
+	|| !is_same_group(vch, victim)
 	|| is_area_safe_quiet(ch, vch )){
       continue;
     }
@@ -1007,7 +1007,7 @@ void do_maelstrom(CHAR_DATA *ch, char *argument){
   AFFECT_DATA af, *paf;
   OBJ_DATA* wield;
   char buf[MSL];
-  
+
   const int sn = gsn_maelstrom;
   const int skill = get_skill(ch, sn );
   const int lag = skill_table[sn].beats;
@@ -1068,7 +1068,7 @@ void do_maelstrom(CHAR_DATA *ch, char *argument){
   }
   for (i = 0; i < hits; i ++){
     int dam = number_range(ch->level / 3, 3 * ch->level / 4);
-    
+
     /* occasionaly we try to disarm stuff */
     if (number_percent() < (skill - 75) || i == 2){
       if (get_eq_char(victim, WEAR_WIELD) != NULL)
@@ -1097,7 +1097,7 @@ void do_maelstrom(CHAR_DATA *ch, char *argument){
     paf->duration = af.duration;
 }
 
-/* DEATHBLOW 
+/* DEATHBLOW
    NORMAL: no gsn_cyclone, and no gsn_maelstrom
    STRIP : gsn_maelstrom present
    SPLIT : gsn_cyclone present
@@ -1159,7 +1159,7 @@ void deathblow( CHAR_DATA* ch, CHAR_DATA* victim, int type, bool fMiss ){
 	dam = 15 * dam / 100;
       else
 	dam = 40 * dam / 100;
-      
+
       /* increases the rate of losing concentration */
       dam = damage(ch, victim, dam, wield->value[3] + TYPE_HIT, dam_type, TRUE);
       if (victim->fighting == NULL)
@@ -1203,7 +1203,7 @@ void deathblow( CHAR_DATA* ch, CHAR_DATA* victim, int type, bool fMiss ){
 void do_deathblow(CHAR_DATA *ch, char *argument){
   CHAR_DATA *victim;
   AFFECT_DATA *paf;
-  
+
   const int sn = gsn_deathblow;
   const int skill = get_skill(ch, sn );
   const int cost = skill_table[sn].min_mana;
@@ -1242,7 +1242,7 @@ void do_deathblow(CHAR_DATA *ch, char *argument){
     fCyc = TRUE;
   if ( (paf = affect_find(ch->affected, gsn_maelstrom)) != NULL)
     fMae = TRUE;
-       
+
   if (fMae && fCyc)
     deathblow(ch, victim, DB_FULL, fMiss );
   else if (fMae)
@@ -1339,13 +1339,13 @@ void do_stance(CHAR_DATA *ch, char *argument){
     af.level  = ch->level;
     af.duration = number_range(3, 4);
     af.where = TO_AFFECTS;
-    af.bitvector = 0;    
+    af.bitvector = 0;
 
     if (ch->class == class_lookup("monk") && is_empowered_quiet(ch,1)){
       af.duration += 5;
       monk_def = TRUE;
     }
-    
+
     /* add the effects */
     if (monk_def){
       af.location = APPLY_SAVING_SPELL;
@@ -1389,7 +1389,7 @@ int get_wepdam( OBJ_DATA* wield, CHAR_DATA* ch, CHAR_DATA* vch, int dt, int* dam
   AFFECT_DATA* paf;
   int dam = GET_DAMROLL(ch);
   int diceroll, dam_type;
-  
+
 
   if (wield)
     dam += dice(wield->value[1], wield->value[2]);
@@ -1415,7 +1415,7 @@ int get_wepdam( OBJ_DATA* wield, CHAR_DATA* ch, CHAR_DATA* vch, int dt, int* dam
   }
   if (dam_type == -1)
     dam_type = DAM_BASH;
-  
+
 //ENHANCED DAMAGE
   if ( get_skill(ch, gsn_enhanced_damage) > 0 && !vamp_check(ch)){
     diceroll = number_percent();
@@ -1423,17 +1423,17 @@ int get_wepdam( OBJ_DATA* wield, CHAR_DATA* ch, CHAR_DATA* vch, int dt, int* dam
     if (diceroll <= get_skill(ch,gsn_enhanced_damage)){
       check_improve(ch,gsn_enhanced_damage,TRUE,0);
       dam += (dam * URANGE(20,diceroll,80)) /100;
-	    
+
       /* Extra race bonus */
       if (ch->race == race_lookup("ogre") )
 	dam += (dam * URANGE(0,diceroll,20)) /100;
-      else if ( ch->race == race_lookup("fire") && wield 
+      else if ( ch->race == race_lookup("fire") && wield
 		&& (dam_type == DAM_FIRE || !str_cmp("fire", wield->material)) )
 	dam += (dam * URANGE(0,diceroll,25)) /100;
     }
-  }    
+  }
 //DOUBLE GRIP /2handed (not staffs )
-  if  (is_affected(ch,gsn_double_grip) 
+  if  (is_affected(ch,gsn_double_grip)
        && get_skill(ch,gsn_double_grip) > 0)
     {
       diceroll = number_percent();
@@ -1443,19 +1443,19 @@ int get_wepdam( OBJ_DATA* wield, CHAR_DATA* ch, CHAR_DATA* vch, int dt, int* dam
 	check_improve(ch, gsn_double_grip, TRUE, 1);
       }
     }
-  else if ( wield 
+  else if ( wield
 	    && (IS_WEAPON_STAT(wield, WEAPON_TWO_HANDS) || is_affected(ch, gsn_double_grip))
 	    && wield->value[0] != WEAPON_STAFF)
     dam += (dam * number_range(5, 15)) /100;
-  
-    
-  //ANATOMY 
-  dam += dam * check_anatomy(ch, vch) / 100;            
+
+
+  //ANATOMY
+  dam += dam * check_anatomy(ch, vch) / 100;
 
   *dam_t = dam_type;
   return dam;
 }
-    
+
 /* FORM FUNCTIONS USED IN DO_FORMS */
 void form_sword( OBJ_DATA* obj, CHAR_DATA* ch, CHAR_DATA* vch, bool fAutoFail){
   int dam;
@@ -1493,7 +1493,7 @@ void form_mace( OBJ_DATA* obj, CHAR_DATA* ch, CHAR_DATA* vch, bool fAutoFail){
       continue;
     if (!fAutoFail){
       dam = get_wepdam( obj, ch, wch, dt + TYPE_NOBLOCKHIT, &dam_type);
-      if (!IS_NPC(wch) 
+      if (!IS_NPC(wch)
 	  && get_lagprot( wch ) == LAG_SHIELD_NONE
 	  && !saves_spell( ch->level, wch, DAM_BASH, SPELL_AFFLICTIVE )){
 	send_to_char("You've been stunned by the shockwave!\n\r", wch);
@@ -1519,7 +1519,7 @@ void form_dagger( OBJ_DATA* obj, CHAR_DATA* ch, CHAR_DATA* vch, bool fAutoFail){
     dam = 0;
   else{
     int ful_dam = get_wepdam( obj, ch, vch, dt + TYPE_HIT, &dam_type);
-    
+
     //first hit
     dam = 10 * ful_dam / 100;
     damage(ch, vch, dam, dt + TYPE_NOBLOCKHIT, dam_type, TRUE );
@@ -1591,7 +1591,7 @@ void form_axe( OBJ_DATA* obj, CHAR_DATA* ch, CHAR_DATA* vch, bool fAutoFail){
     af.type	= gsn_scourge;
     af.level	= ch->level;
     af.duration	= number_range(2, 4);
-    
+
     af.where	= TO_AFFECTS;
     af.bitvector= 0;
     af.location	= APPLY_AC;
@@ -1682,7 +1682,7 @@ void form_flail( OBJ_DATA* obj, CHAR_DATA* ch, CHAR_DATA* vch, bool fAutoFail){
     dam = get_wepdam( obj, ch, vch, dt, &dam_type);
     dam = 115 * dam / 100;
   }
-  dam = damage(ch, vch, dam,  dt + TYPE_HIT, dam_type, TRUE );  
+  dam = damage(ch, vch, dam,  dt + TYPE_HIT, dam_type, TRUE );
   if (ch->fighting && dam && !IS_AFFECTED(vch, AFF_CURSE))
     spell_curse( gsn_curse, ch->level - 3, ch, vch, TARGET_CHAR);
 
@@ -1772,7 +1772,7 @@ void form_exotic(OBJ_DATA* obj, CHAR_DATA* ch, CHAR_DATA* vch, bool fAutoFail){
       /* modifier controls duration of damage (10/tick)*/
       af.modifier = number_range(8, 15);
       paf = affect_to_char(vch, &af);
-      string_to_affect(paf, ch->name);	
+      string_to_affect(paf, ch->name);
       act("A spray of blood shoots forth from $n's belly!", vch, NULL, NULL, TO_ROOM);
       act("A spray of blood shoots forth from your stomach!", vch, NULL, NULL, TO_CHAR);
     }
@@ -1780,9 +1780,9 @@ void form_exotic(OBJ_DATA* obj, CHAR_DATA* ch, CHAR_DATA* vch, bool fAutoFail){
       act("You send some more blood flying from $n's wound!", vch, NULL, NULL, TO_ROOM);
       /* modifier controls duration of damage (10/tick)*/
       paf->modifier = number_range(10, 25);
-      string_to_affect(paf, ch->name);	
+      string_to_affect(paf, ch->name);
     }
-  }    
+  }
 }
 
 void form_hth( OBJ_DATA* obj, CHAR_DATA* ch, CHAR_DATA* vch, bool fAutoFail){
@@ -1797,7 +1797,7 @@ void form_hth( OBJ_DATA* obj, CHAR_DATA* ch, CHAR_DATA* vch, bool fAutoFail){
     af.type	= gsn_enhanced_damage;
     af.level	= ch->level;
     af.duration	= 0;
-    
+
     af.where	= TO_AFFECTS;
     af.bitvector= 0;
     af.location	= APPLY_NONE;
@@ -1818,7 +1818,7 @@ void form_hth2( OBJ_DATA* obj, CHAR_DATA* ch, CHAR_DATA* vch, bool fAutoFail){
     af.type	= gsn_invigorate;
     af.level	= ch->level;
     af.duration	= 0;
-    
+
     af.where	= TO_AFFECTS;
     af.bitvector= 0;
     af.location	= APPLY_NONE;
@@ -1853,10 +1853,10 @@ bool forms(CHAR_DATA *ch, char *argument, AFFECT_DATA* paf){
   }
   else
     wield = get_eq_char(ch, WEAR_WIELD);
-  
+
   if (wield)
     wep_type = wield->value[0];
-  
+
   if (ch->fighting == NULL){
     if (!paf)
       send_to_char("But you're not fighting!\n\r", ch);
@@ -1874,7 +1874,7 @@ bool forms(CHAR_DATA *ch, char *argument, AFFECT_DATA* paf){
   }
   else if (get_weapon_skill_obj(ch, wield) < 100){
     if (!paf)
-      sendf(ch, "You must be a master of %ss before attempting this form.\n\r", 
+      sendf(ch, "You must be a master of %ss before attempting this form.\n\r",
 	  wield ? weapon_name(wep_type) : "fist");
     return FALSE;
   }
@@ -1891,7 +1891,7 @@ bool forms(CHAR_DATA *ch, char *argument, AFFECT_DATA* paf){
 
   if (number_percent() > chance)
     fAutoFail = TRUE;
-  
+
 
   /* begin doing the forms */
   switch (wep_type){
@@ -1978,7 +1978,7 @@ void do_forms(CHAR_DATA *ch, char *argument){
   int cost = skill_table[gsn_forms].min_mana;
   int lag = skill_table[gsn_forms].beats;
   int skill = get_skill(ch, gsn_forms );
-  
+
   if (skill < 1){
     send_to_char("Huh?\n\r", ch);
     return ;
@@ -2025,13 +2025,13 @@ void spell_raise_morale( int sn, int level, CHAR_DATA *ch, void *vo, int target 
   }
 
   send_to_char("You begin to activly raise morale of your Justice troops.\n\r", ch);
-  
+
   af.type	= sn;
   af.level	= level;
   af.duration	= 24;
   af.where	= TO_AFFECTS;
   af.bitvector	= 0;
-  
+
   af.location	= APPLY_HITROLL;
   af.modifier	= number_fuzzy(level / 7);
   affect_to_char( victim, &af);
@@ -2138,7 +2138,7 @@ void do_wanted( CHAR_DATA *ch, char *argument ){
     send_to_char("You cannot do that.\n\r", ch);
     return;
   }
-  if (is_affected(victim, gen_jail) || 
+  if (is_affected(victim, gen_jail) ||
       (IS_SET(victim->in_room->room_flags2, ROOM_JAILCELL)
        && jail_check(victim->in_room)) ){
     send_to_char("Not on prisoners.\n\r", ch);
@@ -2148,11 +2148,11 @@ void do_wanted( CHAR_DATA *ch, char *argument ){
     AFFECT_DATA* paf;
     AREA_DATA* pArea;
     bool fFound = FALSE;
-      
+
     /* check if the victim is fighting a JUSTICE mob in lawful area */
     if (victim->fighting
-	&& IS_NPC(victim->fighting) && victim->fighting->pCabal 
-	&& IS_CABAL(victim->fighting->pCabal, CABAL_JUSTICE) 
+	&& IS_NPC(victim->fighting) && victim->fighting->pCabal
+	&& IS_CABAL(victim->fighting->pCabal, CABAL_JUSTICE)
 	&& IS_AREA(ch->in_room->area, AREA_LAWFUL)){
       AFFECT_DATA af;
       set_crime(victim, victim->fighting,  ch->in_room->area, CRIME_OBSTRUCT);
@@ -2183,7 +2183,7 @@ void do_wanted( CHAR_DATA *ch, char *argument ){
     }
 /* subtract cp's */
     handle_skill_cost( ch, ch->pCabal, gsn_wanted );
-    
+
 /* check if the wanted command was deserved */
     if (!fFound){
 /* Penalty for wrongful accusation */
@@ -2331,7 +2331,7 @@ void do_watchtower( CHAR_DATA *ch, char *argument ){
     ch->mana -= cost;
 
   WAIT_STATE2( ch, lag );
-    
+
 /* subtract cp's */
   handle_skill_cost( ch, ch->pCabal, sn );
 
@@ -2339,7 +2339,7 @@ void do_watchtower( CHAR_DATA *ch, char *argument ){
   af.type	= gen_watchtower;
   af.level	= ch->level;
   af.duration	= -1;
-  
+
   af.where	= TO_AFFECTS;
   af.bitvector	= AFF_SANCTUARY;
   af.location	= APPLY_NONE;
@@ -2403,7 +2403,7 @@ void do_rally_justice( CHAR_DATA *ch, char *argument ){
   af.type	= gen_mob_gen;
   af.level	= MOB_VNUM_JUSTICE_PATROL;	//mob to be spawned
   af.duration	= 4;				//how many times to spawn the mobs
-  
+
   af.where	= TO_NONE;
   af.bitvector	= IS_LEADER( ch ) ? 1 : 1;	//troops to be spawned per tick
   af.location	= ch->in_room->area->vnum;	//area to rally troops in
@@ -2469,10 +2469,10 @@ void spell_shield_justice( int sn, int level, CHAR_DATA *ch, void *vo, int targe
 void do_hunt( CHAR_DATA *ch, char *argument )
 {
     extern char * const dir_name[];
-    char arg[MSL];   
+    char arg[MSL];
     CHAR_DATA *victim;
     int direction, maxdist, roll;
-    int skill = get_skill(ch, gsn_hunt);    
+    int skill = get_skill(ch, gsn_hunt);
     const int cost = skill_table[gsn_hunt].min_mana;
 
     one_argument( argument, arg );
@@ -2559,12 +2559,12 @@ void do_hunt( CHAR_DATA *ch, char *argument )
         send_to_char("You can't sense a trail from here.\n\r", ch);
         check_improve(ch,gsn_hunt,FALSE,0);
         break;
-    default:  
+    default:
         if( ( IS_NPC (ch) && number_percent () > 75) || (!IS_NPC (ch) && number_percent () > get_skill(ch,gsn_hunt) )
         || IS_AFFECTED2(ch,AFF_MISDIRECTION))
         {
             do
-            { 
+            {
                 direction = number_door();
             }
             while( ( ch->in_room->exit[direction] == NULL ) || ( ch->in_room->exit[direction]->to_room == NULL) );
@@ -2587,7 +2587,7 @@ void do_bolo( CHAR_DATA* ch, char* argument ){
 
   const int cost = skill_table[gsn_bolo].min_mana;
   const int lag = skill_table[gsn_bolo].beats;
-  
+
   if (skill < 2){
     send_to_char("Huh?\n\r", ch);
     return;
@@ -2597,10 +2597,10 @@ void do_bolo( CHAR_DATA* ch, char* argument ){
     if (ch->fighting)
       victim = ch->fighting;
     /* check if a pet wolfhound exists (justice mob) and take its target */
-    else if (ch->pet && ch->pet->pIndexData->vnum == MOB_VNUM_HOUND 
+    else if (ch->pet && ch->pet->pIndexData->vnum == MOB_VNUM_HOUND
 	     && ch->pet->fighting
 	     && ch->pet->in_room
-	     && ch->pet->in_room == ch->in_room ){	     
+	     && ch->pet->in_room == ch->in_room ){
       victim = ch->pet->fighting;
       if (IS_WANTED( victim) && is_safe_quiet( ch, victim ))
 	fForce = TRUE;
@@ -2629,14 +2629,14 @@ void do_bolo( CHAR_DATA* ch, char* argument ){
     send_to_char("You cannot concentrate sufficiently to aim.\n\r", ch);
     return;
   }
-  else 
+  else
     ch->mana -= cost;
 
   WAIT_STATE2( ch, lag );
 
 /* subtract cp's */
   handle_skill_cost( ch, ch->pCabal, gsn_hunt );
-  
+
   /* modify chance slightly */
   chance += (get_curr_stat(ch,STAT_DEX) - get_curr_stat(victim,STAT_DEX)) * 3;
   chance += get_curr_stat(ch,STAT_LUCK) - get_curr_stat(victim,STAT_LUCK);
@@ -2653,7 +2653,7 @@ void do_bolo( CHAR_DATA* ch, char* argument ){
     j_yell(victim,buf);
     fAttack = TRUE;
   }
-  
+
   /* check if skill high enugh to throw at the neck */
   if (skill > 84 && number_percent() < neck_chance){
     if (number_percent() > chance
@@ -2672,7 +2672,7 @@ void do_bolo( CHAR_DATA* ch, char* argument ){
 	af.type		= gen_suffocate;
 	af.level	= ch->level;
 	af.duration	= 4;		//how long before person falls asleep for 1 tick
-	
+
 	af.where	= TO_AFFECTS;
 	af.bitvector	= 0;
 	af.location	= APPLY_NONE;
@@ -2696,12 +2696,12 @@ void do_bolo( CHAR_DATA* ch, char* argument ){
       if (!is_affected(victim, gsn_enfeeblement)){
 	af.type		= gsn_enfeeblement;
 	af.level	= ch->level;
-	af.duration	= 5;		
-	
+	af.duration	= 5;
+
 	af.where	= TO_AFFECTS;
 	af.bitvector	= 0;
 	af.location	= APPLY_DEX;
-	af.modifier	= -2;	
+	af.modifier	= -2;
 	affect_to_char( victim, &af );
       }
     }
@@ -2710,7 +2710,7 @@ void do_bolo( CHAR_DATA* ch, char* argument ){
     multi_hit(victim,ch,TYPE_UNDEFINED);
 }
 
-      
+
 
 /* marks a person with mark of prey */
 void spell_justice_sigil( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
@@ -2721,7 +2721,7 @@ void spell_justice_sigil( int sn, int level, CHAR_DATA *ch, void *vo, int target
     if (ch->fighting)
       victim = ch->fighting;
     /* check if a pet wolfhound exists (justice mob) and take its target */
-    else if (ch->pet && ch->pet->pIndexData->vnum == MOB_VNUM_HOUND 
+    else if (ch->pet && ch->pet->pIndexData->vnum == MOB_VNUM_HOUND
 	     && ch->pet->fighting
 	     && ch->pet->in_room
 	     && ch->pet->in_room == ch->in_room){
@@ -2746,12 +2746,12 @@ void spell_justice_sigil( int sn, int level, CHAR_DATA *ch, void *vo, int target
     if (IS_AWAKE(victim) && victim->fighting == NULL)
       multi_hit(victim,ch,TYPE_UNDEFINED);
   }
-  
+
   /* cast the actual mark of prey here */
   spell_mark_prey( sn, level, ch, victim, target );
-       
+
 }
-  
+
 /* sumons the hound used by ENFORCER justice */
 void spell_hound_call( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
     char buf[MSL];
@@ -2796,7 +2796,7 @@ void spell_hound_call( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
     SET_BIT(hound->act, ACT_PET);
 
     hound->comm = COMM_NOTELL|COMM_NOYELL|COMM_NOCHANNELS;
-    
+
     ch->pet = hound;
     add_follower(hound, ch);
     hound->leader = ch;
@@ -2863,11 +2863,11 @@ void do_hound_obey( CHAR_DATA *ch, char *argument )
 	send_to_char("No one around by that name.\n\r", ch );
 	return;
       }
-      else if( ch->in_room == victim->in_room ) 
+      else if( ch->in_room == victim->in_room )
       {
 	sendf(ch, "%s is already here!\n\r", PERS2(victim));
 	return;
-      } 
+      }
       else if (IS_NPC(victim)){
 	sendf(ch, "You cannot set your hound on mobs!\n\r");
 	return;
@@ -2886,7 +2886,7 @@ void do_hound_obey( CHAR_DATA *ch, char *argument )
       ch->pet->hunttime = 999;
       REMOVE_BIT( ch->pet->affected_by, AFF_CHARM );
       ch->pet->hunting = victim;
-      return;        
+      return;
     }
     else if (!str_cmp(arg, "coward"))
     {
@@ -2905,7 +2905,7 @@ void spell_guard_call( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     char buf[MSL];
     CHAR_DATA *guard;
     int i;
- 
+
 
     if (get_skill(ch,sn) < 2){
       send_to_char("Huh?\n\r", ch );
@@ -2934,22 +2934,22 @@ void spell_guard_call( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     guard->alignment = 0;
     guard->level = ch->level;
     guard->sex = ch->sex;
-    
+
     char_to_room(guard,ch->in_room);
 
     SET_BIT(guard->affected_by, AFF_CHARM);
     SET_BIT(guard->act, ACT_PET);
 
     guard->comm = COMM_NOTELL|COMM_NOYELL|COMM_NOCHANNELS;
-    
+
     ch->pet = guard;
     ch->summoner = ch;
- 
+
     add_follower(guard,ch);
 
     guard->leader = ch;
     guard->master = ch;
-    
+
     /* Justice cannot hide ghosted */
     ch->pcdata->ghost = (time_t)NULL;
     act("$N arrives to aid you.", ch, NULL, guard, TO_CHAR);
@@ -3040,9 +3040,9 @@ void do_ensnare(CHAR_DATA *ch, char *argument)
     af.type               = gen_ensnare;
     af.level              = ch->level;
     af.duration           = number_range(6, 12);
-    af.where		  = TO_AFFECTS; 
+    af.where		  = TO_AFFECTS;
     af.bitvector          = 0;
-    af.modifier           = 0;      
+    af.modifier           = 0;
     af.location           = 0;
     paf = affect_to_char(victim, &af);
     string_to_affect( paf, ch->name );
@@ -3077,7 +3077,7 @@ void do_spy( CHAR_DATA *ch, char *argument ){
   }
   if (!str_cmp(arg,"none")){
     if (ch->pcdata->eavesdropping != NULL){
-      act("You recall the spies from $N's location.",ch,NULL,ch->pcdata->eavesdropping,TO_CHAR); 
+      act("You recall the spies from $N's location.",ch,NULL,ch->pcdata->eavesdropping,TO_CHAR);
       affect_strip(ch,gsn_eavesdrop);
       ch->pcdata->eavesdropping->pcdata->eavesdropped = NULL;
       ch->pcdata->eavesdropping = NULL;
@@ -3116,8 +3116,8 @@ void do_spy( CHAR_DATA *ch, char *argument ){
     ch->mana -=  skill_table[gsn_eavesdrop].min_mana;
 
   WAIT_STATE(ch,skill_table[gsn_eavesdrop].beats);
- 
-  if (number_percent() > get_skill(ch,gsn_eavesdrop) 
+
+  if (number_percent() > get_skill(ch,gsn_eavesdrop)
       || victim->pcdata->eavesdropped != NULL){
     act("The spies report lack of success.", ch, NULL, victim, TO_CHAR);
     check_improve(ch, gsn_eavesdrop, 20, FALSE);
@@ -3133,7 +3133,7 @@ void do_spy( CHAR_DATA *ch, char *argument ){
   af.where     = TO_AFFECTS;
   af.type      = gsn_eavesdrop;
   af.level     = ch->level;
-  af.duration  = 24;   
+  af.duration  = 24;
   af.location  = APPLY_NONE;
   af.modifier  = 0; //timesince last report (must wait 4 ticks)
   af.bitvector = 0;
@@ -3165,14 +3165,14 @@ void spy_report( CHAR_DATA* ch ){
     return;
 
   /* location */
-  if (IS_AFFECTED2(ch,AFF_SHADOWFORM) 
+  if (IS_AFFECTED2(ch,AFF_SHADOWFORM)
       || IS_IMMORTAL(ch)
       || IS_AFFECTED2(ch,AFF_TREEFORM)
       || IS_AFFECTED2(ch,AFF_CATALEPSY)
       || IS_ROOM(ch->in_room, ROOM_NOWHERE)
       || IS_ROOM(ch->in_room, ROOM_NO_SCAN)
-      || is_affected(ch,gsn_bat_form) 
-      || is_affected(ch,gsn_coffin) 
+      || is_affected(ch,gsn_bat_form)
+      || is_affected(ch,gsn_coffin)
       || is_affected(ch,gsn_entomb)){
     return;
   }
@@ -3202,7 +3202,7 @@ void spy_report( CHAR_DATA* ch ){
   send_to_char(buf, och);
   paf->modifier = number_range(3, 5);
 }
-  
+
 void do_spyold( CHAR_DATA *ch, char *argument )
 {
     CHAR_DATA *victim;
@@ -3321,7 +3321,7 @@ void spell_gift( int sn, int level, CHAR_DATA *ch, void *vo,int target)
     }
 
 /* Check if the victim can carry more weight */
-    if (get_carry_weight (victim) + get_obj_weight_char (victim, obj) > 
+    if (get_carry_weight (victim) + get_obj_weight_char (victim, obj) >
 	can_carry_w (victim)) {
       sendf(ch, "%s can't carry that much weight.\n\r", PERS(victim,ch));
       return;
@@ -3334,9 +3334,9 @@ void spell_gift( int sn, int level, CHAR_DATA *ch, void *vo,int target)
     }
 
 /* Check if victim OR caster is in NO_SUMM or NO_GATE */
-    if (IS_SET (victim->in_room->room_flags, ROOM_NO_SUMMONIN) || 
+    if (IS_SET (victim->in_room->room_flags, ROOM_NO_SUMMONIN) ||
 	IS_SET (ch->in_room->room_flags, ROOM_NO_SUMMONOUT) ||
-	IS_SET (victim->in_room->room_flags, ROOM_NO_GATEIN) || 
+	IS_SET (victim->in_room->room_flags, ROOM_NO_GATEIN) ||
 	IS_SET (ch->in_room->room_flags, ROOM_NO_GATEOUT)) {
       send_to_char ("A magical force greater than your own prevents "\
 		    "your gift.\n\r", ch);
@@ -3344,7 +3344,7 @@ void spell_gift( int sn, int level, CHAR_DATA *ch, void *vo,int target)
     }
 
 /* Take the item from the caster */
-    if (char_has_obj == TRUE) { 
+    if (char_has_obj == TRUE) {
       obj_from_char (obj);
     }
     else {
@@ -3356,7 +3356,7 @@ void spell_gift( int sn, int level, CHAR_DATA *ch, void *vo,int target)
       sendf(ch, "The %s dissapears with a loud -pop-.\n\r", arg2);
       extract_obj (obj);
       return;
-    } 
+    }
 
 /* Random chance of going elsewhere other than victim */
     if (number_percent() + (ch->level / 5) >= 20) {
@@ -3387,7 +3387,7 @@ void spell_gift( int sn, int level, CHAR_DATA *ch, void *vo,int target)
       if (pR)
 	obj_to_room (obj, pR );
       send_to_char ("You sense a disruption in your spell.\n\r", ch);
-      send_to_char ("You feel a touch of deja-vu.\n\r", victim);      
+      send_to_char ("You feel a touch of deja-vu.\n\r", victim);
     }
 }
 
@@ -3489,7 +3489,7 @@ void do_servant_awaken_life( CHAR_DATA *ch, CHAR_DATA* servant, char *argument )
     else if (percent > 15)	hp_string = "is preatty hurt";
     else			hp_string = "is in awful condition";
 
-    sendf( ch, "%s is in %s, %sfighting and %s.\n\r", 
+    sendf( ch, "%s is in %s, %sfighting and %s.\n\r",
 	   capitalize(PERS2(servant)),
 	   servant->in_room->area->name,
 	   servant->fighting ? "" : "not ",
@@ -3510,7 +3510,7 @@ void do_servant_awaken_life( CHAR_DATA *ch, CHAR_DATA* servant, char *argument )
 }
 
 
-  
+
 //general servant commands.
 void do_servant( CHAR_DATA *ch, char *argument )
 {
@@ -3520,16 +3520,16 @@ void do_servant( CHAR_DATA *ch, char *argument )
   if (IS_NPC(ch))
     return;
 
-  
+
   if (ch->pcdata->familiar != NULL)
     servant = ch->pcdata->familiar;
-  else if (ch->pet 
+  else if (ch->pet
 	   && (ch->pet->pIndexData->vnum == MOB_VNUM_KNIGHT_1
 	       || ch->pet->pIndexData->vnum == MOB_VNUM_KNIGHT_2
 	       || ch->pet->pIndexData->vnum == MOB_VNUM_KNIGHT_3
 	       || ch->pet->pIndexData->vnum == MOB_VNUM_VANGUARD))
     servant = ch->pet;
-  
+
   if (servant == NULL){
     send_to_char("You do not have any servants.\n\r",ch);
     return;
@@ -3583,14 +3583,17 @@ void do_invoke( CHAR_DATA *ch, char *argument )
   OBJ_DATA *artifact, *obj = NULL;
   int damage = 0;
   int skill = 0;
-  
+  /* useless conditional */
+  if( skill != 0 )
+    skill = 0;
+
   if (get_skill(ch, skill_lookup("invoke artifact")) < 1){
     send_to_char("Huh?\n\r", ch);
     return;
   }
-  
+
   argument = one_argument( argument, arg1 );
-  
+
   if ( arg1[0] == '\0' )
     {
       send_to_char("Invoke what?\n\r",ch);
@@ -3622,16 +3625,16 @@ void do_invoke( CHAR_DATA *ch, char *argument )
   act( "You invoke $p.", ch, artifact, NULL, TO_CHAR );
   target_name = argument;
   WAIT_STATE(ch,12);
-  
+
   skill = get_skill(ch, gsn_invoke) + (get_curr_cond( artifact ) - 100) / 2;
-  
+
   if (number_percent() >= 10 + get_skill(ch,gsn_invoke) * 4/5)
     {
       send_to_char("The damn thing won't even produce a spark.\n\r",ch);
       check_improve(ch,gsn_invoke,FALSE,2);
     }
   else
-    {    
+    {
       obj_cast_spell( artifact->value[1], artifact->value[0], ch,victim,obj);
       obj_cast_spell( artifact->value[2], artifact->value[0], ch,victim,obj);
       obj_cast_spell( artifact->value[3], artifact->value[0], ch,victim,obj);
@@ -3644,7 +3647,7 @@ void do_invoke( CHAR_DATA *ch, char *argument )
   else
     damage = adjust_condition( artifact, 9);
   artifact->condition -= damage;
-  
+
   if (get_curr_cond( artifact ) < 5){
     act("With a loud thunderclap $p explodes into fine ash!", ch, artifact, NULL, TO_ALL);
       extract_obj( artifact );
@@ -3842,7 +3845,7 @@ bool check_ccombat_actions( CHAR_DATA* ch, CHAR_DATA* victim, int type ){
     act("You sidestep the attack.", ch, NULL, victim, TO_CHAR);
     act("$n sidesteps your attack.", ch, NULL, victim, TO_VICT);
     act("$n sidesteps $N's attack.", ch, NULL, victim, TO_NOTVICT);
-    damage(ch, victim, dam, gsn_sheath, DAM_INTERNAL, TRUE);    
+    damage(ch, victim, dam, gsn_sheath, DAM_INTERNAL, TRUE);
     ch->mana -= skill_table[sn].min_mana;
     return TRUE;
     /* we return true since this is used in check dodge and if we dodged
@@ -3850,7 +3853,7 @@ bool check_ccombat_actions( CHAR_DATA* ch, CHAR_DATA* victim, int type ){
     */
   }
 
-  return (ch->fighting == NULL);    
+  return (ch->fighting == NULL);
 }
 
 /* performs melee actions */
@@ -3891,7 +3894,7 @@ bool check_melee_actions( CHAR_DATA* ch){
 
   wield = get_eq_char(vch, WEAR_WIELD);
 
-  if (choice == 1 
+  if (choice == 1
       && (is_affected(vch, gsn_dirt)
 	  || get_skill(ch, gsn_dirt) < 2
 	  || ch->in_room->sector_type == SECT_WATER_SWIM
@@ -3946,7 +3949,7 @@ bool check_melee_actions( CHAR_DATA* ch){
     else{
       int dam = number_range(ch->level / 2, ch->level);
       dam = UMAX(5, dam * ch->size / 2);
-      
+
       if (vch->sex == SEX_MALE)
 	damage(ch, vch, dam, gsn_melee, DAM_BASH, TRUE );
       else if (vch->sex == SEX_FEMALE)
@@ -3988,17 +3991,17 @@ void do_melee(CHAR_DATA *ch, char *argument){
   af.type   = gsn_melee;
   af.level  = ch->level;
   af.duration = 12;
-  
+
   af.where  = TO_AFFECTS;
   af.bitvector = 0;
   af.location = APPLY_AC;
   af.modifier = -(10 + ch->level/2);
   affect_to_char(ch,&af);
-  
+
 
   ch->mana -= cost;
   handle_skill_cost_percent( ch, ch->pCabal, gsn_truesight, 100 );
-  
+
   act("You will now melee in combat.", ch, NULL, NULL, TO_CHAR);
   act("$n switches into a slightly different stance.",ch,NULL,NULL,TO_ROOM);
 }
@@ -4012,12 +4015,12 @@ void do_melee(CHAR_DATA *ch, char *argument){
 void do_anger(CHAR_DATA *ch, char *argument) {
 
   AFFECT_DATA af;
-  
+
   const int sn = skill_lookup("anger");
   const int lag = skill_table[sn].beats;
   const int cost = skill_table[sn].min_mana;
   int skill = get_skill(ch, sn );
-  
+
 
   if (skill < 2){
     send_to_char("Huh?\n\r", ch);
@@ -4040,7 +4043,7 @@ void do_anger(CHAR_DATA *ch, char *argument) {
   if ( ch->mana < cost) {
     send_to_char("You cannot seem to gather your ferocity.\n\r",ch);
     return;
-  }  
+  }
   else
     ch->mana -= cost;
   WAIT_STATE2( ch, lag );
@@ -4073,7 +4076,7 @@ void do_sharpen (CHAR_DATA *ch, char *argument) {
 
   int skill = get_skill(ch, gsn_sharpen );
   int wskill = 0;
-  
+
 
   char buf [MIL];
 
@@ -4144,7 +4147,7 @@ void do_sharpen (CHAR_DATA *ch, char *argument) {
   else if ( ch->mana < cost) {
     send_to_char("You cannot seem to be able to concentrate on the task.\n\r",ch);
     return;
-  }  
+  }
   else
     ch->mana -= cost;
   handle_skill_cost( ch, ch->pCabal, sn );
@@ -4200,7 +4203,7 @@ void do_sharpen (CHAR_DATA *ch, char *argument) {
   total_enchant = (tot_hit + tot_dam)/2;
 
   //we now have total enchants already on the item.
-  //start caluclating chances. 
+  //start caluclating chances.
   //the higher "fail" the smaller chance to enchant and greater risk.
 
 //level bonus
@@ -4220,7 +4223,7 @@ void do_sharpen (CHAR_DATA *ch, char *argument) {
   if (IS_OBJ_STAT(obj,ITEM_HUM))
     fail += hum_mod;
 
-  
+
 //penalty for superduper lvl enchant.
   if (total_enchant >= 5 || (tot_hit >= 5 || tot_dam >= 5))
     fail+= (total_enchant - 4) * (total_enchant - 4) * limit_mod;
@@ -4233,10 +4236,10 @@ void do_sharpen (CHAR_DATA *ch, char *argument) {
   if ((paf = affect_find(obj->affected, gen_mana_charge)) != NULL)
     blow = TRUE;
 
- 
+
 //luck bonus
   fail -= (get_curr_stat(ch,STAT_LUCK) - 16) * luck_mod;
-  
+
 //ceiling
   fail = URANGE(5,fail,90);
   chance = URANGE(0,chance,100);
@@ -4264,7 +4267,7 @@ void do_sharpen (CHAR_DATA *ch, char *argument) {
     act("$n manages to accidently removes all the improvements on $p.", ch, obj, NULL, TO_ROOM);
     obj->enchanted = TRUE;
     for (paf = obj->affected; paf != NULL; paf = paf_next){
-      paf_next = paf->next; 
+      paf_next = paf->next;
       //not the owner effect.
       if (paf->type == gen_has_owner)
 	continue;
@@ -4300,7 +4303,7 @@ void do_sharpen (CHAR_DATA *ch, char *argument) {
     //we shoot out the message.
     act(buf,ch,obj,NULL,TO_ALL);
   }//end double enchant
-//regular 1 point enchant, 
+//regular 1 point enchant,
   else if ( (chance >= fail) || lower){
     enchant_bonus = 1;
     if (lower){
@@ -4414,7 +4417,7 @@ void spell_catalyst( int sn, int level, CHAR_DATA *ch, void *vo, int target )
       gain = UMAX(0, max_gain - ch->max_hit);
     ch->hit += gain;
     af.type               = gen_sav_cata;
-    af.level              = level; 
+    af.level              = level;
     af.duration           = 24;
     af.location           = APPLY_HIT;
     af.modifier           = gain;
@@ -4431,9 +4434,9 @@ void spell_tesseract( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     const int cost = 50;
 
 
-    if( (victim = get_char_world(ch, target_name )) == NULL 
-	|| victim == ch 
-	|| victim->in_room == NULL 
+    if( (victim = get_char_world(ch, target_name )) == NULL
+	|| victim == ch
+	|| victim->in_room == NULL
 	|| ch->in_room == NULL)
     {
 	send_to_char("Your target unreachable, the spell fails.\n\r",ch);
@@ -4441,7 +4444,7 @@ void spell_tesseract( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     }
 
     if ( (is_safe_quiet(ch,victim) && IS_SET(victim->act,PLR_NOSUMMON))
-	 || victim == ch || victim->in_room == NULL || !can_see_room(ch,victim->in_room) 
+	 || victim == ch || victim->in_room == NULL || !can_see_room(ch,victim->in_room)
 	 || IS_SET(victim->in_room->room_flags, ROOM_PRIVATE)
 	 || ((IS_SET(victim->in_room->room_flags, ROOM_SAFE)
 	      || IS_SET(victim->in_room->room_flags, ROOM_SOLITARY)
@@ -4453,17 +4456,17 @@ void spell_tesseract( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	      || IS_SET(ch->in_room->area->area_flags, AREA_RESTRICTED)
 	      || IS_SET(victim->in_room->area->area_flags, AREA_RESTRICTED)
 	      || IS_SET(ch->in_room->room_flags, ROOM_NO_INOUT)
-	      || (!IS_NPC(victim) && victim->level > LEVEL_HERO) 
+	      || (!IS_NPC(victim) && victim->level > LEVEL_HERO)
 	      || (!IS_IMMORTAL(ch) && IS_IMMORTAL(victim))
-	      || (IS_NPC(victim) && (IS_AFFECTED(victim,AFF_CHARM) 
-				     && victim->master != NULL 
-				     && victim->in_room == victim->master->in_room 
+	      || (IS_NPC(victim) && (IS_AFFECTED(victim,AFF_CHARM)
+				     && victim->master != NULL
+				     && victim->in_room == victim->master->in_room
 				     && !is_pk(ch,victim->master)) )
-	      || (!IS_NPC(victim) && IS_SET(victim->act,PLR_NOSUMMON) 
+	      || (!IS_NPC(victim) && IS_SET(victim->act,PLR_NOSUMMON)
 		  && !is_pk(ch,victim))
-	      || is_affected(victim,gsn_coffin) 
+	      || is_affected(victim,gsn_coffin)
 	      || is_affected(victim,gsn_entomb)
-	      || is_affected(ch, gsn_tele_lock) 
+	      || is_affected(ch, gsn_tele_lock)
 	      || is_affected(victim,gsn_catalepsy) )
 	     && !IS_IMMORTAL(ch)) )
       {
@@ -4527,12 +4530,12 @@ void spell_tesseract( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     }
 }
 
-void spell_scourge( int sn, int level, CHAR_DATA *ch, void *vo, int target )	
+void spell_scourge( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
     CHAR_DATA *tmp_vict, *tmp_next;
     char buf[MSL];
     int dam;
-    static const sh_int dam_each[] = 
+    static const sh_int dam_each[] =
     {
 	  0,
 	  0,   0,   0,   0,   0,	  0,   0,   0,   0,   0,
@@ -4551,7 +4554,7 @@ void spell_scourge( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     {
 	tmp_next = tmp_vict->next_in_room;
 	if ( !is_area_safe(ch,tmp_vict))
-	{ 
+	{
 	    if (!IS_NPC(ch) && tmp_vict != ch && ch->fighting != tmp_vict && tmp_vict->fighting != ch
 	    && (IS_SET(tmp_vict->affected_by,AFF_CHARM) || !IS_NPC(tmp_vict)))
 	    {
@@ -4599,7 +4602,7 @@ void spell_nightwalker( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     {
 	send_to_char("Two nightwalkers are more than you can control.\n\r",ch);
 	return;
-    }   
+    }
     walker = create_mobile( get_mob_index(MOB_VNUM_NIGHTWALKER) );
     for (i=0;i < MAX_STATS; i++)
 	walker->perm_stat[i] = ch->perm_stat[i];
@@ -4621,18 +4624,18 @@ void spell_nightwalker( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     sprintf(buf, "kneel %s", ch->name);
     interpret(walker, buf);
     af.type               = sn;
-    af.level              = level; 
+    af.level              = level;
     af.duration           = 24;
     af.bitvector          = 0;
     af.modifier           = 0;
     af.location           = APPLY_NONE;
-    affect_to_char(ch, &af);  
+    affect_to_char(ch, &af);
     SET_BIT(walker->affected_by, AFF_CHARM);
     add_follower(walker,ch);
     walker->leader = ch;
     walker->summoner = ch;
 }
-  
+
 void spell_nightfall( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
     CHAR_DATA *vch;
@@ -4647,7 +4650,7 @@ void spell_nightfall( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 		if (light->value[2] != -1 || saves_spell(level, vch, DAM_LIGHT,skill_table[sn].spell_type))
 		{
 		    act("$p flickers and goes out!",ch,light,NULL,TO_ALL);
-		    light->value[2] = 0; 
+		    light->value[2] = 0;
 		    if (light->wear_loc == WEAR_LIGHT)
 			ch->in_room->light--;
 	        }
@@ -4666,8 +4669,8 @@ void spell_nightfall( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 		act("$p momentarily dims.",ch,light,NULL,TO_ALL);
 	}
 }
- 
-void spell_garble( int sn, int level, CHAR_DATA *ch, void *vo, int target )	
+
+void spell_garble( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
     CHAR_DATA *victim = (CHAR_DATA *) vo;
     AFFECT_DATA af;
@@ -4716,7 +4719,7 @@ void spell_garble( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     af.bitvector = 0;
     affect_to_char(victim,&af);
     vch = get_char_room(victim, NULL, ch->name);
-    do_kill(victim,vch->name); 
+    do_kill(victim,vch->name);
 }*/
 
 /*void spell_terangreal( int sn, int level, CHAR_DATA *ch, void *vo, int target )
@@ -4739,7 +4742,7 @@ void spell_garble( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	victim->position = POS_SLEEPING;
     }
 }*/
-    
+
 /*void spell_sedai_heal( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
     AFFECT_DATA af;
@@ -4760,13 +4763,13 @@ void spell_garble( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     act_new("A warm feeling fills your body.", ch,NULL,NULL,TO_CHAR,POS_DEAD );
     act("$n looks better.", ch,NULL,NULL,TO_ROOM);
 }*/
-  
+
 /*void spell_sedai_shield( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
     AFFECT_DATA af;
     if ( is_affected( ch, sn ) )
     {
-        send_to_char("The sa'angreal has been used for that too recently.\n\r",ch); 
+        send_to_char("The sa'angreal has been used for that too recently.\n\r",ch);
         return;
     }
     af.type      = sn;
@@ -4800,7 +4803,7 @@ void spell_garble( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     dam = dice(level, 7);
     damage(ch,victim,dam,sn,DAM_HOLY);
 }*/
-  
+
 /*void spell_amnesia( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     CHAR_DATA *victim = (CHAR_DATA *) vo;
@@ -4916,13 +4919,13 @@ void spell_shadowlife( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     char_to_room(shadow,ch->in_room);
     do_murder(shadow, victim->name);
     af.type               = sn;
-    af.level              = level; 
+    af.level              = level;
     af.duration           = 24;
     af.bitvector          = 0;
     af.modifier           = 0;
     af.location           = APPLY_NONE;
-    affect_to_char(ch, &af);  
-}  
+    affect_to_char(ch, &af);
+}
 
 /*void spell_dragon_strength(int sn, int level, CHAR_DATA *ch, void *vo, int target)
 {
@@ -4984,7 +4987,7 @@ void spell_golden_aura( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
     for (vch = ch->in_room->people; vch != NULL; vch = vch->next_in_room)
       {
-        if (!is_same_group(vch, ch)) 
+        if (!is_same_group(vch, ch))
 	  continue;
 	else if ( vch->pCabal && IS_CABAL(get_parent(vch->pCabal), CABAL_NOMAGIC))
 	  continue;
@@ -5094,7 +5097,7 @@ void knight_vanguard( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     if (get_summoned(ch, MOB_VNUM_VANGUARD) > 0)
     {
       for (vch = ch->in_room->people; vch ;vch = vch->next){
-	if (IS_NPC(vch) 
+	if (IS_NPC(vch)
 	    && vch->pIndexData->vnum == MOB_VNUM_VANGUARD
 	    && vch->master == ch){
 	  do_say(vch, "Think you need more help then I provide?");
@@ -5147,7 +5150,7 @@ void knight_vanguard( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
     sprintf( buf, squire->description, ch->name );
     free_string( squire->description );
-    squire->description = str_dup( buf ); 
+    squire->description = str_dup( buf );
 
     /* equip it */
     wield = create_object( get_obj_index(OBJ_VNUM_VANGUARD_WEP), squire->level );
@@ -5171,12 +5174,12 @@ void knight_vanguard( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     do_say(squire, buf);
 
     af.type               = sn;
-    af.level              = level; 
+    af.level              = level;
     af.duration           = 96;
     af.bitvector          = 0;
     af.modifier           = 0;
     af.location           = APPLY_NONE;
-    affect_to_char(ch, &af);  
+    affect_to_char(ch, &af);
     squire->comm = COMM_NOTELL|COMM_NOYELL|COMM_NOCHANNELS;
 
 }
@@ -5278,13 +5281,13 @@ void knight_pet_upgrade( CHAR_DATA* ch, int sn ){
 
   for (i=0;i < MAX_STATS; i++)
     mob->perm_stat[i] = ch->perm_stat[i];
-  
+
   mob->max_hit = hp_mod * ch->max_hit / 100;
   mob->hit = mob->max_hit;
-  
+
   mob->max_mana = ch->max_mana;
   mob->mana = mob->max_mana;
-  
+
   mob->hitroll    = hit;
   mob->damroll    = dam;
   mob->damage[DICE_NUMBER]	= die1;
@@ -5302,14 +5305,14 @@ void knight_pet_upgrade( CHAR_DATA* ch, int sn ){
 
   mob->short_descr = str_dup( buf );
   sprintf( buf, mob->long_descr, ch->name );
-  
+
   free_string( mob->long_descr );
   mob->long_descr = str_dup( buf );
-  
+
   sprintf( buf, mob->description, ch->name );
   free_string( mob->description );
-  
-  mob->description = str_dup( buf ); 
+
+  mob->description = str_dup( buf );
   mob->trust = 6969;
   char_to_room(mob,ch->in_room);
   mob->trust = level;;
@@ -5322,13 +5325,13 @@ void knight_pet_upgrade( CHAR_DATA* ch, int sn ){
   act("$N arrives at a galop and halts beside you!",ch, NULL, mob, TO_CHAR);
 
   af.type               = sn;
-  af.level              = level; 
+  af.level              = level;
   af.duration           = IS_ELDER(ch)? 24 : 48;
   af.bitvector          = 0;
   af.modifier           = 0;
   af.location           = APPLY_NONE;
   affect_to_char(ch, &af);
-  
+
   SET_BIT(mob->affected_by, AFF_CHARM);
   mob->comm = COMM_NOTELL|COMM_NOYELL|COMM_NOCHANNELS;
   mob->summoner = ch;
@@ -5336,16 +5339,16 @@ void knight_pet_upgrade( CHAR_DATA* ch, int sn ){
   mob->leader = ch;
   ch->pet = mob;
 }
-      
+
 void spell_squire( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
   CHAR_DATA *squire;
 //  AFFECT_DATA af;
   int i;
   char buf[MSL];
-  
+
 /* cap to ignore spell level boost */
   level = UMIN(ch->level, level);
-  
+
   if (!can_follow(ch, ch))
     return;
 
@@ -5368,7 +5371,7 @@ void spell_squire( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
     send_to_char("You cannot call onto another servant yet.\n\r", ch);
     return;
   }
-  
+
   squire = create_mobile( get_mob_index(MOB_VNUM_KNIGHT_1) );
   for (i=0;i < MAX_STATS; i++)
     squire->perm_stat[i] = ch->perm_stat[i];
@@ -5403,7 +5406,7 @@ void spell_squire( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
   sprintf( buf, squire->description, ch->name );
   free_string( squire->description );
 
-  squire->description = str_dup( buf ); 
+  squire->description = str_dup( buf );
   squire->race = ch->race;
   squire->pCabal = ch->pCabal;
 
@@ -5412,14 +5415,14 @@ void spell_squire( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
   act("$N arrives at a galop and halts beside $n!",ch, NULL, squire, TO_ROOM);
   act("$N arrives at a galop and halts beside you!",ch, NULL, squire, TO_CHAR);
 
-/* allow them to call on them right away 
+/* allow them to call on them right away
   af.type               = sn;
-  af.level              = level; 
+  af.level              = level;
   af.duration           = IS_ELDER(ch)? 12 : 24;
   af.bitvector          = 0;
   af.modifier           = 0;
   af.location           = APPLY_NONE;
-  affect_to_char(ch, &af);  
+  affect_to_char(ch, &af);
 */
   SET_BIT(squire->affected_by, AFF_CHARM);
   squire->comm = COMM_NOTELL|COMM_NOYELL|COMM_NOCHANNELS;
@@ -5487,12 +5490,12 @@ void spell_squire( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
 {
     AFFECT_DATA af;
     af.type               = sn;
-    af.level              = level; 
+    af.level              = level;
     af.duration           = 50;
     af.bitvector          = 0;
     af.modifier           = 0;
     af.location           = APPLY_NONE;
-    affect_to_char(ch, &af);  
+    affect_to_char(ch, &af);
     send_to_char("You feel like looking at people.\n\r", ch);
 }*/
 
@@ -5516,7 +5519,7 @@ void spell_disperse( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     {
         vch_next = vch->next_in_room;
 	//anti abuse check
-	if (IS_NPC(vch) && !(IS_SET(vch->act, ACT_TOO_BIG) 
+	if (IS_NPC(vch) && !(IS_SET(vch->act, ACT_TOO_BIG)
 			     || IS_SET(vch->act, ACT_PRACTICE)
 			     || IS_SET(vch->act, ACT_TRAIN)
 			     || IS_SET(vch->act, ACT_NOPURGE)
@@ -5525,10 +5528,10 @@ void spell_disperse( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 			     || IS_IMMORTAL(vch)
 			     || IS_SET(vch->act, ACT_NO_WANDER)))
 	  continue;
-        if ( vch->in_room != NULL 
+        if ( vch->in_room != NULL
 	     && !IS_SET(vch->in_room->room_flags, ROOM_NO_RECALL)
-	     && (( IS_NPC(vch) && !IS_SET(vch->act, ACT_AGGRESSIVE) ) 
-		 || (!IS_NPC(vch)  && (vch->level < level ) 
+	     && (( IS_NPC(vch) && !IS_SET(vch->act, ACT_AGGRESSIVE) )
+		 || (!IS_NPC(vch)  && (vch->level < level )
 		     && (!saves_spell(level,vch, DAM_OTHER,skill_table[sn].spell_type)
 			 || IS_SET(vch->vuln_flags,VULN_SUMMON))))
 	     && vch != ch && !IS_SET(vch->imm_flags, IMM_SUMMON))
@@ -5691,7 +5694,7 @@ void do_ram( CHAR_DATA *ch, char *argument )
 }
 
 void do_challenge( CHAR_DATA *ch, char *argument )
-{ 
+{
     char arg[MIL];
     CHAR_DATA *victim;
     AFFECT_DATA af;
@@ -5700,7 +5703,7 @@ void do_challenge( CHAR_DATA *ch, char *argument )
     one_argument(argument,arg);
     /* first part is anyone, rest is cabal only */
     if (IS_NPC(ch))
-	return;	
+	return;
 
     if (arg[0] == '\0')
     {
@@ -5725,9 +5728,11 @@ void do_challenge( CHAR_DATA *ch, char *argument )
       CHAR_DATA* och;
       /* check if any gen's set duration as those are the ones waiting to be approved */
       /* decline one at a time */
-	for (paf = ch->affected; paf; paf = paf = paf_next){
+      /* Kaslai:    This was 'for (paf = ch->affected; paf; paf = paf = paf->next)', but I removed a 'paf ='.
+                    Feel free to restore it if unintended consequences occur.                                   */
+	for (paf = ch->affected; paf; paf = paf_next){
 	  paf_next = paf->next;
-	  if (paf->type == gen_challenge && paf->duration >= 0 
+	  if (paf->type == gen_challenge && paf->duration >= 0
 	      && paf->bitvector){
 	    if ( (och = get_char(paf->string)) != NULL){
 	      act_new("`&$N has declined your challenge.``", och, NULL, ch, TO_CHAR, POS_DEAD);
@@ -5745,11 +5750,13 @@ void do_challenge( CHAR_DATA *ch, char *argument )
       CHAR_DATA* och;
       AFFECT_DATA* baf;
       /* we grab the first gen with non negative duration *
-      check if that name is around in the game, if so, we set 
+      check if that name is around in the game, if so, we set
       infinite gens on both. */
 
       /* get the gen with original challenger */
-      for (paf = ch->affected; paf; paf = paf = paf->next){
+      /* Kaslai:    This was 'for (paf = ch->affected; paf; paf = paf = paf->next)', but I removed a 'paf ='.
+                    Feel free to restore it if unintended consequences occur.                                   */
+      for (paf = ch->affected; paf; paf = paf->next){
 	if (paf->type != gen_challenge || paf->duration < 0 || !paf->bitvector)
 	  continue;
 	/* check for original challenger */
@@ -5759,7 +5766,7 @@ void do_challenge( CHAR_DATA *ch, char *argument )
 	}
 	/*  check if we have already challaned that person */
 	for (baf = ch->affected; baf; baf = baf->next){
-	  if (baf->type != gen_challenge || baf->duration >= 0 
+	  if (baf->type != gen_challenge || baf->duration >= 0
 	      || !baf->bitvector)
 	    continue;
 	  if (str_cmp(baf->string, och->name))
@@ -5789,7 +5796,7 @@ void do_challenge( CHAR_DATA *ch, char *argument )
       }
     }
 
-    /* We allowa non cabal member to challnage a cabal member but only 
+    /* We allowa non cabal member to challnage a cabal member but only
        at good oods */
 
     if ((victim = get_char_world(ch,arg)) == NULL)
@@ -5863,7 +5870,7 @@ void do_challenge( CHAR_DATA *ch, char *argument )
 
 /* smiliar to challange but gives no chance to accept and is more limited */
 void do_deathmark( CHAR_DATA *ch, char *argument )
-{ 
+{
     char arg[MIL];
     CHAR_DATA *victim;
     AFFECT_DATA af;
@@ -5872,7 +5879,7 @@ void do_deathmark( CHAR_DATA *ch, char *argument )
     one_argument(argument,arg);
     /* first part is anyone, rest is cabal only */
     if (IS_NPC(ch))
-	return;	
+	return;
 
     if (ch->pCabal == NULL || !IS_SET(ch->pCabal->progress, PROGRESS_CHALL)){
       send_to_char("You cannot deathmark!\n\r", ch);
@@ -5966,7 +5973,7 @@ void collect_trophy( CHAR_DATA *ch, CHAR_DATA* victim ){
   char buf[MSL];
 
   if (!is_affected(victim, gsn_mortally_wounded) ){
-    sendf(ch, "%s is not standing still enough!\n\r", 
+    sendf(ch, "%s is not standing still enough!\n\r",
 	  PERS2(victim));
     return;
   }
@@ -6056,7 +6063,7 @@ void collect_trophy( CHAR_DATA *ch, CHAR_DATA* victim ){
   WAIT_STATE(ch,24);
 }
 
-/* 
+/*
    Syntax: trophy <character> :extracts trophy
 	   trophy <object> <object> joings two trophies
 */
@@ -6086,7 +6093,7 @@ void do_trophy( CHAR_DATA* ch, char* argument){
   }
 
   argument = one_argument( argument, arg1 );
-  
+
   if (is_affected(ch, gsn_trophy)){
     send_to_char("But you've just made a trophy!\n\r", ch);
     return;
@@ -6156,7 +6163,7 @@ void do_trophy( CHAR_DATA* ch, char* argument){
     }
   }
   dest->timer = 32768;
-  
+
   act("You take apart $P and strengthen $p.", ch, dest, src, TO_CHAR);
   act("$n takes apart $P and strengthens $p.", ch, dest, src, TO_ROOM);
   obj_from_char( src );
@@ -6178,7 +6185,7 @@ void do_trophy( CHAR_DATA* ch, char* argument){
 void do_pixie_dust( CHAR_DATA *ch, char *argument )
 {
     CHAR_DATA *ich;
-    int chance;   
+    int chance;
 
 
     if ((chance = get_skill(ch, gsn_pixie_dust)) == 0)
@@ -6265,7 +6272,7 @@ void do_apprehend( CHAR_DATA *ch, char *argument )
     }
     if (!found)
       send_to_char("No one is here to take your command.\n\r",ch);
-}    
+}
 
 
 
@@ -6314,14 +6321,14 @@ void spell_torment_bind( int sn, int level, CHAR_DATA *ch, void *vo, int target 
   affect_to_char( ch, & af );
 }
 
-	
+
 void spell_serpent( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
   CHAR_DATA *serpent;
   AFFECT_DATA af;
   int i;
   int rank = 0;
   char buf[MSL];
-  
+
   if (IS_NPC(ch))
     return;
   if (!can_follow(ch, ch))
@@ -6329,7 +6336,7 @@ void spell_serpent( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
 
 /* cap to ignore spell level boost */
   level = UMIN(ch->level, level);
-  
+
   if (ch->pet){
     sendf(ch, "You must first get rid of %s.\n\r", PERS2(ch->pet));
     return;
@@ -6340,14 +6347,14 @@ void spell_serpent( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
   }
 
   rank = URANGE(1, ch->pcdata->rank, 3);
-  
+
   if (IS_UNDEAD(ch))
     i = UMIN(MOB_VNUM_SERPENT_U3, MOB_VNUM_SERPENT_U1 + rank - 1);
   else if (IS_DEMON(ch))
     i = UMIN(MOB_VNUM_SERPENT_D3, MOB_VNUM_SERPENT_D1 + rank - 1);
   else
     i = UMIN(MOB_VNUM_SERPENT_3,  MOB_VNUM_SERPENT_1 + rank - 1);
-  
+
   serpent = create_mobile( get_mob_index( i ) );
 
   for (i=0;i < MAX_STATS; i++)
@@ -6380,7 +6387,7 @@ void spell_serpent( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
   sprintf( buf, serpent->description, ch->name );
   free_string( serpent->description );
 
-  serpent->description = str_dup( buf ); 
+  serpent->description = str_dup( buf );
   serpent->pCabal = ch->pCabal;
 
   char_to_room(serpent,ch->in_room);
@@ -6389,12 +6396,12 @@ void spell_serpent( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
   act("$N swoops from above and halts beside you!",ch, NULL, serpent, TO_CHAR);
 
   af.type               = sn;
-  af.level              = level; 
+  af.level              = level;
   af.duration           = IS_ELDER(ch)? 12 : 24;
   af.bitvector          = 0;
   af.modifier           = 0;
   af.location           = APPLY_NONE;
-  affect_to_char(ch, &af);  
+  affect_to_char(ch, &af);
 
   SET_BIT(serpent->affected_by, AFF_CHARM);
   serpent->comm = COMM_NOTELL|COMM_NOYELL|COMM_NOCHANNELS;
@@ -6452,7 +6459,7 @@ void do_spawn_blade(CHAR_DATA *ch, char *argument){
       send_to_char("You must have a free hand to hold the larger weapon with.", ch);
       return;
     }
-      
+
     /* get new name */
     switch( blade->value[0] ){
       case WEAPON_EXOTIC:	name = "Scythe";	break;
@@ -6470,15 +6477,15 @@ void do_spawn_blade(CHAR_DATA *ch, char *argument){
 
     if (blade->value[3] == attack_lookup("spray"))	type =  "Weeping";
     else if (blade->value[3] == attack_lookup("flame")) type =  "Flaming";
-    else if (blade->value[3] == attack_lookup("chill"))	type =  "Frosted";	
+    else if (blade->value[3] == attack_lookup("chill"))	type =  "Frosted";
     else if (blade->value[3] == attack_lookup("divine"))type =  "Chaos";
     else						type =	"Chaos";
 
     act("Your pour the power of Nexus into $p and watch it grow.", ch, blade, NULL, TO_CHAR );
     act("$p begins to grow and double in size!", ch, blade, NULL, TO_ROOM );
-    
+
     blade->value[4] |= (flag_value( weapon_type2, "twohands" ) != NO_FLAG
-			? flag_value( weapon_type2, "twohands" ) : 0 ); 
+			? flag_value( weapon_type2, "twohands" ) : 0 );
     sprintf( buf, "%s chaos %s", type, name );
     free_string( blade->name );
     blade->name = str_dup( buf );
@@ -6490,10 +6497,10 @@ void do_spawn_blade(CHAR_DATA *ch, char *argument){
     sprintf( buf, "the %s %s lies on the ground.", type, name );
     free_string( blade->description );
     blade->description = str_dup( buf );
-    
+
     /* add timer */
     blade->timer += 24;
-    
+
     unequip_char( ch, blade );
     /* add +3 hit/dam */
     for (paf = blade->affected; paf; paf = paf->next ){
@@ -6526,7 +6533,7 @@ void do_spawn_blade(CHAR_DATA *ch, char *argument){
       send_to_char("You do not know how to dual wield a weapon.\n\r", ch );
       return;
     }
-    
+
     /* boost modifier */
     blade->timer += 12;
 
@@ -6565,7 +6572,7 @@ void do_spawn_blade(CHAR_DATA *ch, char *argument){
     free_string( frag->short_descr );
     frag->short_descr = str_dup( buf );
 
-    
+
     /* equip both */
     equip_char(ch, blade, WEAR_WIELD );
     equip_char(ch, frag, WEAR_SECONDARY );
@@ -6582,14 +6589,14 @@ void do_spawn_blade(CHAR_DATA *ch, char *argument){
 
     act("On your command $p splits in twain!",ch, blade, NULL, TO_CHAR );
     act("On $n's command $p splits in twain!",ch, blade, NULL, TO_ROOM );
-    
+
   }
-  
+
   ch->mana -=  cost;
   WAIT_STATE2(ch, lag );
 
 /* subtract cp's */
-  handle_skill_cost( ch, ch->pCabal, sn);    
+  handle_skill_cost( ch, ch->pCabal, sn);
 
   /* add the effect to the blade */
   af.type = sn;
@@ -6607,7 +6614,7 @@ void spell_chaos_blade( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
   OBJ_DATA *blade;
   AFFECT_DATA af;
-  
+
   static char * const material  [] = { "liquid",  "fire",    "ice",   "chaos" };
   static char * const dam_type  [] = { "spray",   "flame",   "chill", "divine" };
   static char * const spec_type [] = { "vorpal",  "sharp",    "frost", "shocking" };
@@ -6615,17 +6622,17 @@ void spell_chaos_blade( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   char *wep_name;
   char buf[MIL];
   char arg[MIL];
-  
+
   //Data
   int skill = get_skill(ch, sn);
   int type = number_range(0, 3);
-  
+
   int dice1 = 3;
   int dice2 = 4;
 
   int dam =  0;//+3 if 2h
   int hit = -3;//+3 if 2h
-  
+
   int wep_type = class_table[ch->class].weapon;
   int weight = 0;
 
@@ -6637,24 +6644,24 @@ void spell_chaos_blade( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     poisoned/disease/flesh
     icy/chill/ice
     shocking/divine/chaos
-    
+
     blade is no-rem/no-drop/no-uncurse by default, and poofs on drop.
     weight is 10 to forstall removing by dropping str
     poofs after 24 ticks
-    
+
     Elders can specify the blade, (first arg)
-    
+
     Blade created is always of the same type as newbie weapon
   */
-  
+
   if (IS_NPC(ch))
     return;
-  
+
   if (is_affected(ch, sn)){
     send_to_char("Lacking the full power of Nexus the blade crumbles to dust.\n\r",ch);
       return;
   }
-  
+
   target_name = one_argument(target_name, arg);
   if (IS_ELDER(ch) && arg[0] != '0'){
     bool fFound = FALSE;
@@ -6672,7 +6679,7 @@ void spell_chaos_blade( int sn, int level, CHAR_DATA *ch, void *vo, int target )
       return;
     }
   }
-  
+
   /* replace ice material for fire giants */
   if (ch->race == grn_fire && !str_cmp("ice",material[type]))
     type = 1;
@@ -6758,29 +6765,29 @@ void spell_chaos_blade( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     send_to_char("Your hands must be ready to wield the blade the moment it is created.\n\r", ch);
     return;
   }
-  
+
   blade = create_object( get_obj_index(OBJ_VNUM_CHAOS_BLADE),level);
-  
+
   /* Set hit /dam roll*/
   dice1 += (level > 33? 1 :0)
     + (level > 38? 2 :0) + (level > 42? 1 :0);
   dice2 += (skill > 79? 1 : 0) + (skill > 84? 1 : 0) + (skill > 99? 2 : 0);
-  
+
   dam += UMAX(1, dice1 - 1);
   hit += dice2 + (skill > 99? 2 : 0);
-  
+
   /* set timer */
   blade->timer = dur + 1;
-  
+
   /* set dice */
   blade->value[1] = dice1;
   blade->value[2] = dice2;
-  
+
   /* set level, weight, etc */
   blade->level = UMIN(60, 10 + level);
   blade->weight = weight;
   blade->cost = 0;
-  
+
   /* set evil/bless */
   if (IS_GOOD(ch))
     blade->extra_flags |= flag_value(extra_flags, "bless" );
@@ -6788,8 +6795,8 @@ void spell_chaos_blade( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     blade->extra_flags |= flag_value(extra_flags, "evil" );
   else
     blade->timer *= 2;
-  
-  
+
+
   /* set type, random material, attack, and special */
   blade->value[0] = wep_type;
   //material
@@ -6806,50 +6813,50 @@ void spell_chaos_blade( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     dam += 3;
     hit += 3;
   }
-  
-  
+
+
   /* set name, short/room desc */
-  
+
   sprintf(buf, blade->name, name[type], wep_name);
   free_string(blade->name);
   blade->name = str_dup(buf);
-  
+
   sprintf(buf, blade->short_descr, name[type], wep_name);
   free_string(blade->short_descr);
   blade->short_descr = str_dup(buf);
-  
+
   sprintf(buf, blade->description, name[type], wep_name);
   free_string(blade->description);
   blade->description = str_dup(buf);
-  
+
   /* set dam / hit */
   af.type = sn;
   af.level = level;
   af.duration = -1;
-  
+
   af.where = TO_NONE;
   af.bitvector = 0;
-  
+
   af.location = APPLY_DAMROLL;
   af.modifier = dam;
   affect_to_obj(blade, &af);
-  
+
   af.location = APPLY_HITROLL;
   af.modifier = hit;
   affect_to_obj(blade, &af);
-  
-  
+
+
   /* set effect on character */
   af.type = sn;
   af.level = level;
   af.duration = dur;
-  
+
   af.where = TO_AFFECTS;
   af.bitvector = 0;
-  
+
   af.location = APPLY_NONE;
   af.modifier = 0;
-  
+
   /* final check if we can hold the chaos blade */
   if (IS_WEAPON_STAT(blade, WEAPON_TWO_HANDS)
       && (get_eq_char(ch, WEAR_SHIELD) != NULL
@@ -6858,20 +6865,20 @@ void spell_chaos_blade( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     send_to_char("You must have both hands free to recive this weapon.\n\r", ch);
     return;
   }
-  
+
   act("You create $p!",ch,blade,NULL,TO_CHAR);
   act("$n creates $p!",ch,blade,NULL,TO_ROOM);
   obj_to_char(blade,ch);
-  
+
 /* check if it zapped and dropped */
   if (blade->carried_by != ch)
     extract_obj( blade );
   else
     equip_char(ch, blade, WEAR_WIELD);
-  
+
   if (!IS_IMMORTAL(ch))
     affect_to_char(ch, &af);
-}    
+}
 
 /* Nexus: Fixed transportation spell */
 void spell_nexus( int sn, int level, CHAR_DATA *ch,void *vo,int target)
@@ -6897,7 +6904,7 @@ void spell_nexus( int sn, int level, CHAR_DATA *ch,void *vo,int target)
     else if (is_affected(ch,gen_ensnare)){
       send_to_char("You sense a powerful magical field preventing your departure.\n\r", ch);
       return;
-    }      
+    }
     if (ch->fighting != NULL)
     {
 	send_to_char("You cannot open a vortex while fighting.\n\r",ch );
@@ -6930,7 +6937,7 @@ void spell_nexus( int sn, int level, CHAR_DATA *ch,void *vo,int target)
     /* We move the charmies/followers */
     for (vch = from_room->people; vch != NULL; vch = vch_next){
       vch_next = vch->next_in_room;
-      if ( !vch->master 
+      if ( !vch->master
 	   || !vch->leader
 	   || vch->master != ch
 	   || vch->leader != ch)
@@ -6959,7 +6966,7 @@ void spell_discord( int sn, int level, CHAR_DATA *ch,void *vo,int target){
 
   AFFECT_DATA af, *paf;
   int dur = 24;
-  
+
   if ((paf = affect_find(ch->affected, gen_discord)) != NULL){
     if (IS_ELDER(ch)){
       /* switch the protection/damage (TRUE = Protect)*/
@@ -6978,7 +6985,7 @@ void spell_discord( int sn, int level, CHAR_DATA *ch,void *vo,int target){
     send_to_char("You have already surrounded yourself with chaos.\n\r", ch);
     return;
   }
-  
+
   af.type = gen_discord;
   af.level = level;
   af.duration = dur;
@@ -7010,7 +7017,7 @@ void do_mold( CHAR_DATA *ch, char *argument )
     send_to_char("Not while in combat.\n\r", ch);
     return;
   }
-  else if (ch->in_room->pCabal == NULL 
+  else if (ch->in_room->pCabal == NULL
 	   || !is_same_cabal(ch->pCabal, ch->in_room->pCabal )
 	   || ch->in_room->pCabal->anchor == NULL
 	   || ch->in_room->pCabal->anchor->area != ch->in_room->area){
@@ -7022,7 +7029,7 @@ void do_mold( CHAR_DATA *ch, char *argument )
       send_to_char("You are not yet ready for another attempt.\n\r", ch);
       return;
     }
-  
+
   if (ch->mana < cost)
     {
       send_to_char("You lack the power to shape chaos.\n\r", ch);
@@ -7040,14 +7047,14 @@ void do_mold( CHAR_DATA *ch, char *argument )
     af.type 	= sn;
     af.level 	= ch->level;
     af.duration	= dur;
-    
+
     af.where	= TO_AFFECTS;
     af.bitvector = 0;
-    
+
     af.location	= APPLY_NONE;
     af.modifier = 0;
     affect_to_char(ch,&af);
-    
+
     /* start gen */
     af.type = gen_cspawn;
     af.where = TO_AFFECTS;
@@ -7060,14 +7067,14 @@ void do_mold( CHAR_DATA *ch, char *argument )
 }
 
 /* Offensive spell, casts powerfull area attack coupled with dispel magic. */
-void spell_void( int sn, int level, CHAR_DATA *ch, void *vo, int target )	
+void spell_void( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
   CHAR_DATA *vch, *vch_next;
   AFFECT_DATA* paf;
 
   char buf[MSL];
   int dam;
-  static const sh_int dam_each[] = 
+  static const sh_int dam_each[] =
   {
     0,
     0,   0,   0,   0,   0,	  0,   0,   0,   0,   0,
@@ -7080,16 +7087,16 @@ void spell_void( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   level = UMIN(level, sizeof(dam_each)/sizeof(dam_each[0]) - 1);
   level = UMAX(0, level);
   dam	= number_range( dam_each[level], 3 * dam_each[level] / 2 );
-  
+
   act("The very fabric of reality unravels itself as the Nexus swallows the area!", ch, NULL, NULL, TO_ALL);
 
   /* show message in the area */
-  
+
   for ( vch = char_list; vch != NULL; vch = vch->next )
     {
       if ( vch->in_room == NULL )
 	continue;
-      
+
       if ( (paf = affect_find(vch->affected, gsn_burrow)) != NULL)
 	{
 	  if (paf->modifier == ch->in_room->vnum
@@ -7099,17 +7106,17 @@ void spell_void( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	      do_unburrow(vch, "");
 	    }
 	}
-      
-      if ( vch->in_room->area == ch->in_room->area 
+
+      if ( vch->in_room->area == ch->in_room->area
 	   && ch->in_room != vch->in_room
 	   )
 	send_to_char("The ground rumbles and shakes as reality ripples around you.\n\r", vch );
     }//end if same area.
-  
+
   for (vch = ch->in_room->people; vch != NULL; vch = vch_next)
     {
       vch_next = vch->next_in_room;
-      if (is_area_safe(ch,vch) 
+      if (is_area_safe(ch,vch)
 	  || vch == ch
 	  || vch->race == race_lookup("demon")
 	  )
@@ -7167,13 +7174,13 @@ void do_conjure( CHAR_DATA* ch, char* argument ){
     send_to_char("You are not ready for another attempt.\n\r", ch);
     return;
   }
-    
+
   /* try to chose a demon */
   for (i = 0; i < max_demon; i++){
     if (ch->pcdata->rank >= ranks[i] && !str_prefix(argument, demons[i]))
       choice = i;
   }
-    
+
   if (choice < 0){
     send_to_char("You cannot call upon that ally.\n\r", ch);
     return;
@@ -7182,14 +7189,14 @@ void do_conjure( CHAR_DATA* ch, char* argument ){
     send_to_char("You cannot concentrate sufficiently to begin.\n\r", ch);
     return;
   }
-  else 
+  else
     ch->mana -= cost;
-  
+
   WAIT_STATE2( ch, lag );
 
 /* subtract cp's */
   handle_skill_cost( ch, ch->pCabal, sn);
-  
+
   act("You draw the Pentagram and begin the conjuration of $t.", ch, demons[choice], NULL, TO_CHAR );
   act("$n meticulously draws a Pentagram and begins the conjuration of $t.", ch, demons[choice], NULL, TO_ROOM);
 
@@ -7205,12 +7212,12 @@ void do_conjure( CHAR_DATA* ch, char* argument ){
   string_to_affect( paf, demons[choice]);
 
 }
-  
+
 /* places a victim in a virtual maze */
 void spell_maze( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
   CHAR_DATA* victim = (CHAR_DATA*) vo;
   AFFECT_DATA af;
-  
+
 
   if (is_affected(ch, sn)){
     send_to_char("You are not yet ready to fashion another maze.", ch );
@@ -7310,7 +7317,7 @@ void spell_orb_chaos( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
     if(!is_affected(ch, sn))
       affect_to_char(victim, &af);
   }
-  if (lvl > 2 
+  if (lvl > 2
       && check_immune(victim, DAM_DISEASE, TRUE) != IS_IMMUNE
       && !is_affected(victim, gsn_plague)){
     af.where     = TO_AFFECTS;
@@ -7318,19 +7325,19 @@ void spell_orb_chaos( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
     af.level	 = level;
     af.duration  = 6;
     af.location  = APPLY_STR;
-    af.modifier  = -(level/10); 
+    af.modifier  = -(level/10);
     af.bitvector = AFF_PLAGUE;
     affect_to_char(victim,&af);
-    
+
     /* now damage counter */
     af.where     = TO_NONE;
     af.type 	 = gsn_plague;
     af.level	 = level/2;
     af.location  = APPLY_NONE;
     if (ch->class == class_lookup("shaman"))
-      af.modifier  = 5; 
+      af.modifier  = 5;
     else
-      af.modifier  = 0; 
+      af.modifier  = 0;
     af.bitvector = 0;
     paf = affect_to_char(victim,&af);
    if (!IS_NPC(ch))
@@ -7350,7 +7357,7 @@ void do_nemesis( CHAR_DATA*ch, char* argument ){
   OBJ_DATA* wield;
   CHAR_DATA* nemesis = NULL, *vch, *victim;
   int i = 0;
-  
+
 
   if (get_skill(ch, sn) < 2 ){
     send_to_char("Huh?\n\r", ch );
@@ -7390,7 +7397,7 @@ void do_nemesis( CHAR_DATA*ch, char* argument ){
     act("$G protects $N from your servants.", ch, NULL, victim, TO_CHAR );
     return;
   }
-  
+
   if (ch->pCabal && GET_CP(ch) < cost){
     sendf( ch, "You will need at least %d %ss to command the Faceless.", cost, ch->pCabal->currency );
     return;
@@ -7410,13 +7417,13 @@ void do_nemesis( CHAR_DATA*ch, char* argument ){
   for (i=0; i < 4; i++)
     nemesis->armor[i] = victim->armor[i];
 
-  nemesis->sex = victim->sex;  
+  nemesis->sex = victim->sex;
   nemesis->gold = 0;
-    
+
 //Now we copy over little things like weapon stats.
   nemesis->damroll = UMAX(10, victim->damroll);
   nemesis->hitroll = UMAX(10, victim->hitroll);
-    
+
   if ( (wield = get_eq_char(victim,WEAR_WIELD)) != NULL){
     nemesis->damage[DICE_NUMBER] = UMAX(1, wield->value[1]);
     nemesis->damage[DICE_TYPE] = UMAX(1, wield->value[2]);
@@ -7433,19 +7440,19 @@ void do_nemesis( CHAR_DATA*ch, char* argument ){
   sprintf( buf, "Anti-%s", victim->name );
   free_string( nemesis->short_descr );
   nemesis->short_descr = str_dup( buf );
-  
+
   /* long */
   sprintf( buf, "Anti-%s is here, seeking its victim.\n\r", victim->name );
   free_string( nemesis->long_descr );
   nemesis->long_descr = str_dup( buf );
-  
+
   act("$n grins a terrible smile as $e begins to leave.", nemesis, NULL, NULL, TO_ROOM);
 
   /* flags */
   REMOVE_BIT(nemesis->act, ACT_SENTINEL );
   REMOVE_BIT(nemesis->act, ACT_NO_WANDER );
   REMOVE_BIT(nemesis->act, ACT_NONCOMBAT );
-  
+
   nemesis->size = victim->size;
 
   /* desc */
@@ -7478,7 +7485,7 @@ bool guard_fade_check(CHAR_DATA* ch){
     check_improve(ch, gsn_fade, TRUE, 1);
     return TRUE;
   }
-  
+
   check_improve(ch, gsn_fade, FALSE, 1);
   return FALSE;
 }
@@ -7503,7 +7510,7 @@ bool sneak_fade_check(CHAR_DATA* Ch){
   if (chance < 1)
     return FALSE;
   else if (IS_NPC(ch) && !IS_AFFECTED(ch, AFF_CHARM))
-    return FALSE;  
+    return FALSE;
   else if (!IS_NPC(Ch) && number_range(0, 1000) < 200)
     check_improve(Ch, gsn_fade, TRUE, 1);
   if (number_percent() < chance){
@@ -7522,7 +7529,7 @@ void spell_doppelganger( int sn, int level, CHAR_DATA *ch, void *vo, int target 
       send_to_char("They do not appear to be here.\n\r", ch);
       return;
     }
-    
+
     if ( (ch == victim) || (is_affected(ch,sn) && (ch->doppel == victim)) )
     {
 	sendf(ch, "The illusion of %s already surrounds you.\n\r", PERS2(victim));
@@ -7545,19 +7552,19 @@ void spell_doppelganger( int sn, int level, CHAR_DATA *ch, void *vo, int target 
 
     act("Shadows cloak you as $g's power meld your features into $N's.",ch,NULL,victim,TO_CHAR);
 
-    if (!IS_AFFECTED(ch, AFF_HIDE) 
+    if (!IS_AFFECTED(ch, AFF_HIDE)
 	&& !IS_AFFECTED2(ch, AFF_CAMOUFLAGE)
 	&& !is_affected(ch, gsn_death_shroud))
       act("$n's visage ripples shimmers and $e is no more.", ch, NULL, NULL, TO_ROOM);
 
     af.where		  = TO_AFFECTS;
     af.type               = gsn_doppelganger;
-    af.level              = level; 
+    af.level              = level;
     af.duration           = 72;
     af.location           = APPLY_NONE;
     af.modifier           = 0;
     af.bitvector          = 0;
-    affect_to_char(ch,&af);  
+    affect_to_char(ch,&af);
     ch->doppel = victim;
 }
 
@@ -7582,7 +7589,7 @@ void do_conceal(CHAR_DATA *ch, char *argument)
 
   if (!IS_IMMORTAL(ch))
     return;
-  
+
   if ( is_affected( ch, gen_conceal ) ){
     send_to_char("You banish the cloak concealing you.\n\r", ch);
     affect_strip(ch, gen_conceal);
@@ -7631,7 +7638,7 @@ void do_conceal(CHAR_DATA *ch, char *argument)
   af.where = TO_AFFECTS;
   af.bitvector = 0;
   affect_to_char( ch, &af );
-  
+
 }
 
 /* actual abduction function, paf holds the room/player target */
@@ -7690,7 +7697,7 @@ void abduct_char(CHAR_DATA* ch, CHAR_DATA* victim, AFFECT_DATA* paf){
     return;
   }
 
-  if ( victim->in_room == NULL 
+  if ( victim->in_room == NULL
        || is_affected(victim, gsn_tele_lock)
        || saves_spell( victim->level + save_mod, victim, DAM_OTHER,skill_table[sn].spell_type) )
     {
@@ -7700,9 +7707,9 @@ void abduct_char(CHAR_DATA* ch, CHAR_DATA* victim, AFFECT_DATA* paf){
       /* if there was diplo protection we do not set fighting */
       /* set fighting */
       if (baf == NULL && victim->fighting != ch )
-	{   
-	  if (IS_AWAKE(victim) 
-	      && !is_affected(victim,gsn_ecstacy) 
+	{
+	  if (IS_AWAKE(victim)
+	      && !is_affected(victim,gsn_ecstacy)
 	      && !is_ghost(victim,600))
 	    {
 	      set_fighting( ch, victim );
@@ -7712,13 +7719,13 @@ void abduct_char(CHAR_DATA* ch, CHAR_DATA* victim, AFFECT_DATA* paf){
 	}
       return;
     }
-  
+
   /* set fighting */
   if (victim->fighting != ch )
-    {   
+    {
       m_yell(ch,victim,FALSE);
-      if (IS_AWAKE(victim) 
-	  && !is_affected(victim,gsn_ecstacy) 
+      if (IS_AWAKE(victim)
+	  && !is_affected(victim,gsn_ecstacy)
 	  && !is_ghost(victim,600))
 	{
 	  set_fighting( ch, victim );
@@ -7726,7 +7733,7 @@ void abduct_char(CHAR_DATA* ch, CHAR_DATA* victim, AFFECT_DATA* paf){
 	  multi_hit( victim, ch, TYPE_UNDEFINED );
 	}
     }
-  
+
   /* check for paf first */
   if (paf){
 /* ROOM */
@@ -7785,7 +7792,7 @@ void abduct_char(CHAR_DATA* ch, CHAR_DATA* victim, AFFECT_DATA* paf){
 				TRUE,//exit required?
 				FALSE ,//Safe?
 				ch);	//Character for room checks
-      
+
 
   }//END if not preselect
  /* check if we have a room now */
@@ -7803,15 +7810,15 @@ void abduct_char(CHAR_DATA* ch, CHAR_DATA* victim, AFFECT_DATA* paf){
   affect_to_char( ch, &af );
 
   /* Now we have a proper destination */
-    
-  act("With crackle of dark magic $n and $N disappear!", 
+
+  act("With crackle of dark magic $n and $N disappear!",
       ch, NULL, victim, TO_NOTVICT);
-  act("You have been ABDUCTED!", 
+  act("You have been ABDUCTED!",
       ch, NULL, victim, TO_VICT);
 /* Get rid of diplomacy */
   affect_strip(victim, gen_diplomacy);
 
-  act("You feel the dark magics take hold of $N and carry you off!", 
+  act("You feel the dark magics take hold of $N and carry you off!",
       ch, NULL, victim, TO_CHAR);
   if (pRoomIndex->people)
     act("With crackle of dark magics $n and $N appear!", ch, NULL, victim, TO_ALL);
@@ -7819,7 +7826,7 @@ void abduct_char(CHAR_DATA* ch, CHAR_DATA* victim, AFFECT_DATA* paf){
 /* now move user and his charmies */
   for (vch = ch->in_room->people; vch; vch = vch_next){
     vch_next = vch->next_in_room;
-    if (IS_AFFECTED(vch, AFF_CHARM) && vch->master 
+    if (IS_AFFECTED(vch, AFF_CHARM) && vch->master
 	&& vch->master == ch){
       char_from_room( vch );
       char_to_room( vch, pRoomIndex );
@@ -7842,7 +7849,7 @@ void abduct_char(CHAR_DATA* ch, CHAR_DATA* victim, AFFECT_DATA* paf){
     check_improve(ch,sn,TRUE,-99);
   else
     check_improve(ch,sn,TRUE,5);
-  
+
   if (victim->fighting && victim->fighting != ch){
     stop_fighting(victim, TRUE);
     set_fighting(victim, ch);
@@ -7865,7 +7872,7 @@ char* abduct_info(CHAR_DATA* ch){
   if ((paf = affect_find(ch->affected, gsn_abduct)) == NULL)
     return output;
 
-  if (paf->modifier 
+  if (paf->modifier
       && (pRoomIndex = get_room_index(paf->modifier)) != NULL){
     sprintf(output, "Future abductions directed to: %s",
 	    pRoomIndex->area->name);
@@ -7894,7 +7901,7 @@ void abduct_setroom(CHAR_DATA *ch){
   int sn = gsn_abduct;	//gsn for abduction
 
   /* check for room flags */
-  if ( ch->in_room == NULL 
+  if ( ch->in_room == NULL
        || IS_SET(pRoomIndex->room_flags, ROOM_NO_INOUT)
        || IS_SET(pRoomIndex->room_flags, ROOM_NO_RECALL)
        || IS_AREA(pRoomIndex->area, AREA_RESTRICTED)
@@ -7906,7 +7913,7 @@ void abduct_setroom(CHAR_DATA *ch){
 
   /* Viri: no longer needed
   for (door = 0; door < MAX_DOOR; door++ ){
-    if (pRoomIndex->exit[door] 
+    if (pRoomIndex->exit[door]
 	&& !IS_SET(pRoomIndex->exit[door]->exit_info, EX_CLOSED))
       fNoExit = FALSE;
   }
@@ -8002,7 +8009,7 @@ void do_abduction( CHAR_DATA *ch, char *argument )
   const int skill = get_skill(ch, sn);		//skill in the spell
   const int rm_skill = 85;			//skill for room dest.
   const int plr_skill = 95;			//skill for player dest.
-  
+
   const int cost = skill_table[sn].min_mana;
   const int lag = skill_table[sn].beats;
 
@@ -8073,7 +8080,7 @@ void do_abduction( CHAR_DATA *ch, char *argument )
   else
     ch->mana -= cost;
   WAIT_STATE2(ch, lag );
-  
+
   /* subtract cp's */
   handle_skill_cost( ch, ch->pCabal, sn );
   abduct_char(ch, victim, affect_find(ch->affected, sn));
@@ -8105,8 +8112,8 @@ void do_unseen( CHAR_DATA *ch, char *argument ){
   int chance = 20;
   int percent = 0;
   int found_corpse = FALSE;
-  
-  if (!IS_IMMORTAL(ch)) 
+
+  if (!IS_IMMORTAL(ch))
     return;
 
   if (skill < 1){
@@ -8163,31 +8170,31 @@ void do_unseen( CHAR_DATA *ch, char *argument ){
     send_to_char("You sense strange reluctance from your unliving spies.\n\r", ch);
     return;
   }
-  
+
   /* saves check only if target is  higher levels then caster or undead*/
   if ( (victim->level > ch->level || IS_UNDEAD(victim))
-       && saves_spell(victim->level + save_mod, victim, 
+       && saves_spell(victim->level + save_mod, victim,
 		      DAM_OTHER,skill_table[gsn_spy].spell_type) ){
     act("You sense the unholy minions failed to reach $N.", ch, NULL, victim, TO_CHAR);
     return;
   }
-  
+
   /* we show victim room */
   send_to_char("Through the eyes of the dead, you gaze upon your victim.\n\r\n\r", ch);
-  
+
   /* ROOM NAME */
   send_to_char( in_room->name, ch );
   send_to_char("\n\r", ch);
   /* ROOM DESC */
   send_to_char( "  ",ch);
-  if ((mud_data.time_info.hour >=5 && mud_data.time_info.hour < 20) 
+  if ((mud_data.time_info.hour >=5 && mud_data.time_info.hour < 20)
       || !in_room->description2[0])
     send_to_char( in_room->description, ch );
   else
     send_to_char( in_room->description2, ch );
   send_to_char( "\n\r", ch );
-  
-  /* Contents */  
+
+  /* Contents */
   list_to_char( in_room->contents, ch, FALSE, FALSE, TRUE );
   /* people */
   for ( rch = in_room->people; rch != NULL; rch = rch->next_in_room ){
@@ -8197,45 +8204,45 @@ void do_unseen( CHAR_DATA *ch, char *argument ){
       continue;
     char_to_char( rch, ch, TRUE );
   }
-  
+
   /* health of target */
   if ( victim->max_hit > 0 )
     percent = ( 100 * victim->hit ) / victim->max_hit;
   else
     percent = -1;
   strcpy( buf, victim->name);
-  if (percent >= 100)		
+  if (percent >= 100)
     strcat( buf, " is in excellent condition.\n\r");
-  else if (percent >= 90)	
+  else if (percent >= 90)
     strcat( buf, " has a few scratches.\n\r");
-  else if (percent >= 75)	
+  else if (percent >= 75)
     strcat( buf, " has some small wounds and bruises.\n\r");
-  else if (percent >=  50)	
+  else if (percent >=  50)
     strcat( buf, " has quite a few wounds.\n\r");
-  else if (percent >= 30)	
+  else if (percent >= 30)
     strcat( buf, " has some big nasty wounds and scratches.\n\r");
-  else if (percent >= 15)	
+  else if (percent >= 15)
     strcat( buf, " looks pretty hurt.\n\r");
-  else if (percent >= 0 )	
+  else if (percent >= 0 )
     strcat( buf, " is in awful condition.\n\r");
-  else			
+  else
     strcat( buf, " is bleeding to death.\n\r");
   buf[0] = UPPER(buf[0]);
   send_to_char( buf, ch );
-  
+
   /* chance to slip */
   chance += (victim->level - ch->level) * 5;
   chance -= save_mod;
   chance += victim->level > ch->level + 4 ? 25 : 0;
-  
+
   if (number_percent() < chance){
     if (IS_UNDEAD(victim)){
       send_to_char("You sense presence of Unseen invade the area.\n\r", victim);
-      act("You feel deathly, unnatural chill pass through the area.", 
+      act("You feel deathly, unnatural chill pass through the area.",
 	  victim, NULL, NULL, TO_ROOM);
     }
     else
-      act("You feel deathly, unnatural chill pass through the area.", 
+      act("You feel deathly, unnatural chill pass through the area.",
 	  victim, NULL, NULL, TO_ALL);
   }
 }
@@ -8289,7 +8296,7 @@ void spell_holy_armor( int sn, int level, CHAR_DATA *ch, void *vo,int target)
 
     OBJ_DATA *obj;
     AFFECT_DATA af;
-    
+
     const int skill = get_skill(ch, sn);
 
 
@@ -8331,7 +8338,7 @@ void spell_holy_armor( int sn, int level, CHAR_DATA *ch, void *vo,int target)
     af.modifier = hit;
     affect_to_obj(obj, &af);
     /* make sure what we put on armor is stuck on char */
-/*modify_obj does that now    
+/*modify_obj does that now
   affect_modify(ch, &af, TRUE);
 */
     send_to_char("You are now resistant to disease.\n\r", ch);
@@ -8342,7 +8349,7 @@ void spell_holy_armor( int sn, int level, CHAR_DATA *ch, void *vo,int target)
     af.modifier = dam;
     affect_to_obj(obj, &af);
     /* make sure what we put on armor is stuck on char */
-/*modify_obj does that now    
+/*modify_obj does that now
   affect_modify(ch, &af, TRUE);
 */
     af.where = TO_OBJECT;
@@ -8360,7 +8367,7 @@ void spell_holy_armor( int sn, int level, CHAR_DATA *ch, void *vo,int target)
  * attempt a rescue on a PC which is about to die.  The leader pushes   *
  * the target out of the room (if any exits are there) and if successful*
  * takes the blow.  If Leader is at hp < 20 - 30% he is dropped to small*
- * amount of hp and stunned.	(Non-Spell only)			
+ * amount of hp and stunned.	(Non-Spell only)
  * ch is the attacker, victim is the person being rescued.  Functino	*
  * searches the room for leader.					*/
 
@@ -8483,7 +8490,7 @@ NOTE: Skill always works if conditions are met.
   /* leader is here, check if we have a door to push out of. */
   /* get all doors in aray to be picked out of. */
   for (i=0; i < MAX_DOOR; i++){
-    if ( (pexit = in_room->exit[i]) == 0 
+    if ( (pexit = in_room->exit[i]) == 0
 	 || pexit->to_room == NULL
 	 || ( IS_SET(pexit->exit_info, EX_CLOSED) && !IS_AFFECTED(victim, AFF_PASS_DOOR))
 	 || !can_see_room(victim, pexit->to_room)
@@ -8537,7 +8544,7 @@ NOTE: Skill always works if conditions are met.
     min_hp= 20;
   else if (dam > 15)
     min_hp= 15;
-  else 
+  else
     min_hp = 5;
 
   if (lch->class == class_lookup("healer"))
@@ -8608,7 +8615,7 @@ void spell_sav_ward( int sn, int level, CHAR_DATA *ch, void *vo,int target){
 /* Written by: Virigoth							*
  * Returns: void							*
  * Used: cabal.c,							*
- * Comment: Savant elder ability to summon one of 4 elemental servants  * 
+ * Comment: Savant elder ability to summon one of 4 elemental servants  *
  * each servant has differnet effects.					*/
 
 
@@ -8616,9 +8623,9 @@ void spell_servant( int sn, int level, CHAR_DATA *ch, void *vo,int target)
 {
     static char * const material  [] = { "fire",  "water",  "air", "earth" };
     /* seperate mobs as they vary considerably */
-    static int const mob_vnum  [] = { MOB_VNUM_SERVANT_FIRE,  
+    static int const mob_vnum  [] = { MOB_VNUM_SERVANT_FIRE,
 				      MOB_VNUM_SERVANT_WATER,
-				      MOB_VNUM_SERVANT_AIR, 
+				      MOB_VNUM_SERVANT_AIR,
 				      MOB_VNUM_SERVANT_EARTH };
 
     CHAR_DATA *mob;
@@ -8639,6 +8646,9 @@ void spell_servant( int sn, int level, CHAR_DATA *ch, void *vo,int target)
     if (IS_NPC(ch))
 	return;
     buf[0]='\0';
+    /* Useless contitional */
+    if( buf[0] != '\0' )
+        buf[0] = '\0';
 
     if (arg[0] == '\0')
     {
@@ -8730,7 +8740,7 @@ void spell_servant( int sn, int level, CHAR_DATA *ch, void *vo,int target)
     af.location	= APPLY_NONE;
     af.modifier	= 0;
     af.bitvector	= 0;
-    
+
     /* begin the individual differences */
     switch (type){
       /* FIRE (mana + small svs aff) */
@@ -8798,7 +8808,7 @@ void spell_servant( int sn, int level, CHAR_DATA *ch, void *vo,int target)
 
 
 
-  
+
 void spell_sentinel_call( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
     AFFECT_DATA af;
@@ -8842,7 +8852,7 @@ void spell_sentinel_call( int sn, int level, CHAR_DATA *ch, void *vo, int target
     af.type      = gsn_timer;
     af.level     = level;
     af.duration  = 72;
-    af.modifier  = 0;  
+    af.modifier  = 0;
     af.location  = 0;
     af.bitvector = 0;
     affect_to_char( guard, &af );
@@ -8859,7 +8869,7 @@ void spell_sentinel_call( int sn, int level, CHAR_DATA *ch, void *vo, int target
     act("A cloaked figure slinks into the room, ready to report to your cause.", ch, NULL, NULL, TO_CHAR);
 }
 
- 
+
 
 void do_call_roc( CHAR_DATA *ch, char *argument ){
   AFFECT_DATA af;
@@ -8867,13 +8877,13 @@ void do_call_roc( CHAR_DATA *ch, char *argument ){
   ROOM_INDEX_DATA *location;
   char buf[MSL];
   int drop_chance = 0;
-  
+
   int sn = gsn_call_roc;
   int skill = get_skill(ch, sn);
-  
+
   const int lag = skill_table[sn].beats;
   const int cost = skill_table[sn].min_mana;
-  
+
   if (skill < 2){
     send_to_char("Huh?\n\r", ch);
     return;
@@ -8892,7 +8902,7 @@ void do_call_roc( CHAR_DATA *ch, char *argument ){
   }
   else
     ch->mana -= cost;
-  WAIT_STATE2(ch, lag); 
+  WAIT_STATE2(ch, lag);
   if ((number_percent() > (skill - 55) * 2)){
     send_to_char("You cannot seem to summon a roc.\n\r",ch);
     check_improve(ch, sn, FALSE, 1);
@@ -8903,62 +8913,62 @@ void do_call_roc( CHAR_DATA *ch, char *argument ){
     return;
   }
   handle_skill_cost( ch, ch->pCabal, sn );
-  
+
   location = get_room_index(get_temple(ch));
   if (location == NULL){
     send_to_char( "You are completely lost.\n\r", ch );
     return;
   }
   if ( ch->in_room == location ){
-    send_to_char( "You are already home.\n\r", ch );  
+    send_to_char( "You are already home.\n\r", ch );
     return;
   }
   if ( ( victim = ch->fighting ) != NULL )
     {
-      send_to_char("You can't call a roc while you are fighting.\n\r", ch ); 
+      send_to_char("You can't call a roc while you are fighting.\n\r", ch );
       return;
-    }    
-  
+    }
+
   act( "$n attempts to call a roc.", ch, 0, 0, TO_ROOM );
   sprintf(buf, "From the depths of the chasms, I call thee, Giant Roc!");
-  do_yell(ch, buf);     
-  
-  if ( IS_SET(ch->in_room->room_flags, ROOM_NO_INOUT) 
+  do_yell(ch, buf);
+
+  if ( IS_SET(ch->in_room->room_flags, ROOM_NO_INOUT)
        || IS_SET(ch->in_room->room_flags, ROOM_NO_RECALL)
-       || IS_AFFECTED(ch, AFF_CURSE) || IS_SET(ch->act, PLR_DOOF) 
+       || IS_AFFECTED(ch, AFF_CURSE) || IS_SET(ch->act, PLR_DOOF)
        || is_affected(ch, gsn_damnation))
     {
       send_to_char( "The roc doesn't seem to answer your call.\n\r", ch );
       return;
     }
-  ch->move /= 2;  
-  
+  ch->move /= 2;
+
   act( "$n's voice is quieted as a giant roc appears on the horizon!",ch,NULL,NULL,TO_ROOM );
   act( "$n mounts on the back of a giant roc.", ch,NULL,NULL,TO_ROOM );
   act( "You mount on the back of a giant roc.", ch,NULL,NULL,TO_CHAR );
-  
+
   //init the chance. higher it is, the worse off you'll be
   drop_chance = 3;
-  
-  //base the chance on size of ch            
+
+  //base the chance on size of ch
   if (ch->size == SIZE_HUGE){
-    drop_chance += 5; 
-  } 
+    drop_chance += 5;
+  }
   if (ch->size == SIZE_LARGE){
     drop_chance += 2;
   }
 
   // tweak chances here based on certain spells
-  if (is_affected(ch, skill_lookup("blindness")) 
+  if (is_affected(ch, skill_lookup("blindness"))
       || is_affected(ch, skill_lookup("dirt kicking")))
     {
       drop_chance += 1;
-    }   
+    }
   if (is_affected(ch, skill_lookup("curse")))
     {
       drop_chance += 1;
     }
-  
+
   //throw in a little luck
   drop_chance -= (get_curr_stat(ch,STAT_LUCK) - 14);
 
@@ -8971,9 +8981,9 @@ void do_call_roc( CHAR_DATA *ch, char *argument ){
   af.modifier     = 0;
   af.bitvector    = 0;
   affect_to_char(ch,&af);
-  
-  check_improve(ch, sn, TRUE, 1);  
-  
+
+  check_improve(ch, sn, TRUE, 1);
+
   //first one if failed will just teleport you
   if (number_percent() < drop_chance ){
     ROOM_INDEX_DATA *pRoomIndex;
@@ -9002,24 +9012,24 @@ void do_call_roc( CHAR_DATA *ch, char *argument ){
     char_from_room( ch );
     char_to_room( ch, pRoomIndex );
     act( "$n falls from the sky and lands, with a 'thud' in the room.",ch,NULL,NULL,TO_ROOM );
-    do_look( ch, "auto" ); 
+    do_look( ch, "auto" );
     act("That fall from the roc really hurt!",ch,NULL,NULL,TO_CHAR);
     damage(ch, ch, 40, gsn_bash, DAM_BASH, TRUE);
-    broadcast(ch, "You hear a something come crashing to the ground nearby.\n\r");   
-    WAIT_STATE2(ch, lag); 
+    broadcast(ch, "You hear a something come crashing to the ground nearby.\n\r");
+    WAIT_STATE2(ch, lag);
   }
-  //otherwise your brought home safely  
+  //otherwise your brought home safely
   else{
     	char_from_room( ch );
     	char_to_room( ch, location );
         act("$n flies in on the back of a Giant Roc.",ch,NULL,NULL,TO_ROOM);
-        do_look( ch, "auto" );  
+        do_look( ch, "auto" );
     	act("You dismount from a Giant Roc as you reach your home temple.",ch,NULL,NULL,TO_CHAR);
     	act( "$n dismounts from the giant roc as it wings off back into the sky.",ch,NULL,NULL,TO_ROOM );
-        broadcast(ch, "You hear the rustling of giant wings nearby.\n\r");   
-        WAIT_STATE2(ch, PULSE_VIOLENCE * 2); 
+        broadcast(ch, "You hear the rustling of giant wings nearby.\n\r");
+        WAIT_STATE2(ch, PULSE_VIOLENCE * 2);
   }
-}         
+}
 
 
 /* ROYAL POWERS */
@@ -9033,14 +9043,14 @@ void spell_stalker( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
       send_to_char("You cannot order a new assassination yet.\n\r", ch);
       handle_skill_cost_percent( ch, ch->pCabal, sn, -100 );
       return;
-    }      
+    }
     else if (ch->class == class_lookup("healer")){
       send_to_char("Healers may not order assassinations.\n\r", ch);
       handle_skill_cost_percent( ch, ch->pCabal, sn, -100 );
       return;
     }
     else if ( ( victim = get_char_world( ch, target_name ) ) == NULL
-	      || victim == ch 
+	      || victim == ch
 	      || victim->in_room == NULL
 	      || IS_IMMORTAL(victim)
 	      || IS_NPC(victim) ){
@@ -9103,7 +9113,7 @@ void spell_stalker( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
 
 void spell_marshall( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
   OBJ_DATA *tunic;
-  char buf[MSL];  
+  char buf[MSL];
   AFFECT_DATA af, *paf;
 
   if (is_affected(ch, sn) || ch->pCabal == NULL || ch->pCabal->city == NULL){
@@ -9128,7 +9138,7 @@ void spell_marshall( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
   paf->duration   = -1;
   paf->location   = APPLY_DAMROLL;
   paf->modifier   = number_fuzzy(level / 10);
-  paf->bitvector  = 0;     
+  paf->bitvector  = 0;
   paf->next       = tunic->affected;
   tunic->affected   = paf;
   paf = new_affect();
@@ -9143,15 +9153,15 @@ void spell_marshall( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
 
   sprintf( buf, "a banner bearing the Royal Crest of %s", ch->pCabal->city->name);
   free_string( tunic->short_descr );
-  tunic->short_descr = str_dup( buf );    
+  tunic->short_descr = str_dup( buf );
   sprintf( buf, "A banner bearing the Royal Crest of %s is lying here.", ch->pCabal->city->name);
   free_string( tunic->description );
-  tunic->description = str_dup( buf );      
+  tunic->description = str_dup( buf );
 
   if (ch->alignment >= GOOD_THRESH){
-    tunic->extra_flags = ITEM_ANTI_EVIL | ITEM_ANTI_NEUTRAL; } 
+    tunic->extra_flags = ITEM_ANTI_EVIL | ITEM_ANTI_NEUTRAL; }
   else if ((ch->alignment < GOOD_THRESH) && (ch->alignment > EVIL_THRESH)){
-    tunic->extra_flags = ITEM_ANTI_GOOD | ITEM_ANTI_EVIL; }  
+    tunic->extra_flags = ITEM_ANTI_GOOD | ITEM_ANTI_EVIL; }
   else{
     tunic->extra_flags = ITEM_ANTI_GOOD | ITEM_ANTI_NEUTRAL; }
 
@@ -9165,7 +9175,7 @@ void spell_marshall( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
   af.bitvector          = 0;
   af.modifier           = 0;
   af.location           = APPLY_NONE;
-  affect_to_char(ch, &af); 
+  affect_to_char(ch, &af);
   act("You unfurl and hoist $p!",ch,tunic,NULL,TO_CHAR);
   act("You begin to marshall your troops under $p.",ch,tunic,NULL,TO_CHAR);
   act("$n unfurls and hoists $p!",ch,tunic,NULL,TO_ROOM);
@@ -9258,7 +9268,7 @@ void do_royal( CHAR_DATA *ch, char *argument ){
     send_to_char("Huh?\n\r", ch);
     return;
   }
-  else if (!IS_NULLSTR(ch->pcdata->royal_guards) 
+  else if (!IS_NULLSTR(ch->pcdata->royal_guards)
 	   && !ch->pcdata->royal_confirm){
     send_to_char("Once set, you cannot change your royal guards.", ch);
     return;
@@ -9300,10 +9310,10 @@ void do_royal( CHAR_DATA *ch, char *argument ){
 	  "A few %ss bearing the crest of %s are here.\n\r",
 	  argument,
 	  argument,
-	  capitalize(argument), 
-	  pref, argument, 
-	  pref, argument, 
-	  argument, 
+	  capitalize(argument),
+	  pref, argument,
+	  pref, argument,
+	  argument,
 	  hometown_table[ch->hometown].name);
     send_to_char("\n\rIf this is to your liking use \"royal confirm\" to set.\n\r"\
 		 "`!WARNING``: You can set your royal guards only ONCE.\n\r"\
@@ -9312,7 +9322,7 @@ void do_royal( CHAR_DATA *ch, char *argument ){
     ch->pcdata->royal_guards = str_dup( argument );
     ch->pcdata->royal_confirm = TRUE;
   }
-} 
+}
 
 void create_royal_guard( CHAR_DATA* ch, int align, int level ){
   CHAR_DATA *gch = NULL;
@@ -9360,10 +9370,10 @@ void create_royal_guard( CHAR_DATA* ch, int align, int level ){
     table += 3;
   else if (IS_EVIL(ch))
     table += 6;
-  
-  
+
+
   guard = create_mobile( get_mob_index(MOB_VNUM_ROYAL_GUARD) );
-  
+
   guard->race = UMAX(0, race_lookup(royal_guard_table[table].race));
   if (ch->pcdata->royal_guards)
     guard->dam_type = UMAX(0, attack_lookup("charge"));
@@ -9383,27 +9393,27 @@ void create_royal_guard( CHAR_DATA* ch, int align, int level ){
   for (i = 0; i < 3; i++)
     guard->armor[i] = interpolate(guard->level,100,-100);
   guard->armor[3] = interpolate(guard->level,100,0);
-  
+
   guard->hitroll    = (ch->level / 10) * 2 +  5 * level;
-  guard->damroll    = (ch->level / 10) * 2 + 10 * level;  
-  
+  guard->damroll    = (ch->level / 10) * 2 + 10 * level;
+
   guard->damage[DICE_NUMBER]  = 5;
   guard->damage[DICE_TYPE]    = 5;
-  
+
   guard->sex = ch->sex;
   guard->pCabal = ch->pCabal;
-  
+
   free_string( guard->name );
   if (ch->pcdata->royal_guards){
     sprintf( buf, "%s", ch->pcdata->royal_guards);
   }
   else
     sprintf( buf, "%ss", royal_guard_table[table].name);
-  guard->name = str_dup(  buf );  
+  guard->name = str_dup(  buf );
 
   free_string( guard->long_descr );
   if (ch->pcdata->royal_guards){
-    sprintf( buf, "A few %ss bearing the crest of %s are here.\n\r", 
+    sprintf( buf, "A few %ss bearing the crest of %s are here.\n\r",
 	     ch->pcdata->royal_guards,
 	     city->name);
   }
@@ -9428,15 +9438,15 @@ void create_royal_guard( CHAR_DATA* ch, int align, int level ){
   else
     sprintf( buf, "%s", royal_guard_table[table].short_descr);
   guard->short_descr = str_dup( buf );
-  
+
   char_to_room(guard, ch->in_room);
   SET_BIT(guard->affected_by, AFF_CHARM);
   guard->comm = COMM_NOTELL|COMM_NOYELL|COMM_NOCHANNELS;
   guard->summoner = ch;
   add_follower(guard,ch);
   guard->leader = ch;
-  
-  
+
+
   //set timer on guard according to duration of spellon user
   if ( (paf = affect_find(ch->affected, gsn_royal_call)) != NULL)
     af.duration = paf->duration;
@@ -9460,28 +9470,28 @@ void do_escort( CHAR_DATA *ch, char *argument ){
   AFFECT_DATA af;
   int rank = number_range(0, RANK_LEADER);
   const int sn = skill_lookup("royal escort");
-  
+
   if (!IS_ROYAL(ch) && !IS_NOBLE(ch)){
     send_to_char("You are not worthy of such an honor.\n\r",ch);
     return;
   }
   else if (is_affected(ch, sn)){
     send_to_char("You are already protected by loyal subjects.\n\r", ch);
-    return;  
+    return;
   }
-  
+
   af.type               = sn;
   af.level              = ch->level;
   af.duration           = 24;
   af.bitvector          = 0;
   af.modifier           = 0;
   af.location           = APPLY_NONE;
-  affect_to_char(ch, &af);       
-  
+  affect_to_char(ch, &af);
+
   send_to_char("You send an order for additional guards.\n\r",ch);
   act("$n sends for additional guards to protect $n.", ch, NULL, NULL, TO_ROOM);
   create_royal_guard( ch, ch->alignment, rank );
-}             
+}
 
 /* checks if the character has been exiled from given area */
 AFFECT_DATA* is_exiled( CHAR_DATA* ch, int vnum ){
@@ -9564,19 +9574,19 @@ void do_exile( CHAR_DATA *ch, char *argument ){
     ch->mana -= cost;
 
   WAIT_STATE2( ch, lag );
-    
+
 /* start the gen */
   af.type	= gsn_exile;
   af.level	= ch->level;
   af.duration	= 600;
-  
+
   af.where	= TO_AFFECTS;
   af.bitvector	= 0;
   af.modifier	= city->vnum;
   af.location	= APPLY_NONE;
   affect_to_char(victim, &af );
 
-  
+
   /* echo the exile message */
   sprintf(buf, "A royal page hands you a scroll:\n\r"\
 	  "By the royal order of %s, %s has been exiled from %s!\n\r",
@@ -9602,7 +9612,7 @@ void do_diplomacy( CHAR_DATA* ch, char* argument ){
   const int gsn_diplomacy = skill_lookup("diplomacy");
   const int lag = skill_table[gsn_diplomacy].beats;
   char buf[MIL];
-  
+
   if (!IS_ROYAL(ch) && !IS_NOBLE(ch) && get_skill(ch, gsn_diplomacy) < 2){
     send_to_char("Huh?\n\r", ch );
     return;
@@ -9613,14 +9623,14 @@ void do_diplomacy( CHAR_DATA* ch, char* argument ){
   }
   else if (!IS_AREA(ch->in_room->area, AREA_CITY) && !IS_AREA(ch->in_room->area, AREA_CABAL)){
     send_to_char("You may only declare diplomatic immunity in a city, or a cabal.\n\r", ch );
-    return; 
+    return;
   }
   else if (is_fight_delay(ch, 120)){
     send_to_char("There is still blood on your hands!\n\r", ch );
     return;
   }
 
-      
+
   sprintf( buf, "%s has declared Diplomatic Immunity.", PERS2(ch));
   if (pCabal){
     cabal_echo(get_parent(pCabal), buf );
@@ -9640,16 +9650,16 @@ void do_diplomacy( CHAR_DATA* ch, char* argument ){
   af.location	= APPLY_NONE;
   af.modifier	= TRUE; //turned on.
   affect_to_char( ch, &af );
-  
+
   act("A royal entourage surrounds $n, a large white flag clearly visible.", ch, NULL, NULL, TO_ROOM);
   act("A royal entourage surrounds you, a large white flag clearly visible.", ch, NULL, NULL, TO_CHAR);
 }
-  
+
 
 /* SYNDICATE POWERS */
 void do_bribe( CHAR_DATA *ch, char *argument ){
   AFFECT_DATA af;
-  
+
   int cost = skill_table[gsn_bribe].min_mana;
   int lag = skill_table[gsn_bribe].beats;
 
@@ -9665,11 +9675,11 @@ void do_bribe( CHAR_DATA *ch, char *argument ){
     ch->mana -= cost;
 
   WAIT_STATE2( ch, lag );
-    
+
 /* subtract cp's */
   handle_skill_cost( ch, ch->pCabal, gsn_bribe );
 
-  
+
   send_to_char("You send a sizable bribe for your safe passage through lawful areas.\n\r", ch);
   af.type	= gsn_bribe;
   af.level	= ch->level;
@@ -9752,18 +9762,18 @@ bool check_secart_actions( CHAR_DATA* ch){
       af.where     = TO_AFFECTS;
       af.bitvector = AFF_BLIND;
       af.location  = APPLY_HITROLL;
-      if (!IS_NPC(victim) 
+      if (!IS_NPC(victim)
 	  && number_percent() < get_skill(victim,gsn_blind_fighting))
 	af.modifier      = -5;
       else
 	af.modifier      = -10;
       affect_to_char(victim,&af);
-      af.location     = APPLY_AC;          
-      if (!IS_NPC(victim) 
+      af.location     = APPLY_AC;
+      if (!IS_NPC(victim)
 	  && number_percent() < get_skill(victim,gsn_blind_fighting))
-	af.modifier      = +15;     
-      else     
-	af.modifier      = +25;     
+	af.modifier      = +15;
+      else
+	af.modifier      = +25;
       affect_to_char(victim,&af);
       act_new( "You are blinded!", victim,NULL,NULL,TO_CHAR,POS_DEAD );
       act("$n appears to be blinded.",victim,NULL,NULL,TO_ROOM);
@@ -9792,7 +9802,7 @@ void do_secret_arts(CHAR_DATA* ch, char* argument){
   const int cost =skill_table[gsn_secarts].min_mana;
   const int lag = skill_table[gsn_secarts].beats;
   const int skill = get_skill(ch,gsn_secarts);
-  
+
   if (get_skill(ch, gsn_secarts) < 2){
     send_to_char("Huh?\n\r", ch );
     return;
@@ -9807,11 +9817,11 @@ void do_secret_arts(CHAR_DATA* ch, char* argument){
   }
   else
     ch->mana -= cost;
-  
+
 
   WAIT_STATE2( ch, lag );
-  
-/* ON FAIL */  
+
+/* ON FAIL */
   if (number_percent() > skill ){
     send_to_char("You failed to recall the ancient teachings.\n\r", ch);
     check_improve(ch, gsn_secarts, FALSE, 1 );
@@ -9819,7 +9829,7 @@ void do_secret_arts(CHAR_DATA* ch, char* argument){
   }
 /* subtract cp's */
   handle_skill_cost( ch, ch->pCabal, gsn_secarts );
-/* ON SUCCESS */   
+/* ON SUCCESS */
   send_to_char("You will now use the secret arts.\n\r", ch);
   check_improve(ch, gsn_secarts, TRUE, 1 );
 
@@ -9895,7 +9905,7 @@ void spell_asphyxiate( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
   if (!IS_AWAKE( victim ))
     mod -= 5;
 
-  if (saves_spell( level - mod, victim, DAM_DROWNING, skill_table[sn].spell_type) ){  
+  if (saves_spell( level - mod, victim, DAM_DROWNING, skill_table[sn].spell_type) ){
     send_to_char("You failed.\n\r", ch );
     return;
   }
@@ -9904,7 +9914,7 @@ void spell_asphyxiate( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
   af.type	= gen_suffocate;
   af.level	= level - mod;
   af.duration	= number_range(3, 5);		//how long before person falls asleep for 1 tick
-	
+
   af.where	= TO_AFFECTS;
   af.bitvector	= 0;
   af.location	= APPLY_NONE;
@@ -9919,7 +9929,7 @@ void spell_mark_fear( int sn, int level, CHAR_DATA *ch, void *vo,int target )
   CHAR_DATA *victim;
   AFFECT_DATA af;
   char buf[MIL];
-  
+
   if (ch->pCabal == NULL )
     return;
   if (IS_NULLSTR(target_name)){
@@ -9952,7 +9962,7 @@ void spell_mark_fear( int sn, int level, CHAR_DATA *ch, void *vo,int target )
   af.bitvector = 0;
   affect_to_char(victim, &af );
   act_new( "You sense you have been marked somehow.", victim, NULL, NULL, TO_CHAR, POS_DEAD );
-  
+
   sprintf( buf, "%s has placed the Bloodmark upon %s!", PERS2(ch), PERS2(victim));
   cabal_echo(get_parent(ch->pCabal), buf );
 }
@@ -9965,7 +9975,7 @@ void spell_rev_time( int sn, int level, CHAR_DATA *ch, void *vo,int target ){
     send_to_char("You are not ready to revrese the timestream once again!\n\r", ch );
     return;
   }
-  
+
   act("Wielding the powers of Time, you reverse its flow about yourself!", ch, NULL, NULL, TO_CHAR);
   act("You notice a piece of dirt fly up from the ground towards $n's clothes.", ch, NULL, NULL, TO_ROOM);
 
@@ -10004,13 +10014,13 @@ void spell_chrono_shield( int sn, int level, CHAR_DATA *ch, void *vo,int target 
     else
       act("$N is already protected by a Chrono Shield.", ch, NULL, victim, TO_CHAR );
   }
-  
+
   if (ch == victim)
     act("You fashion an energy conduit to yourself in near future.", ch, NULL, NULL, TO_CHAR );
   else
     act("You fashion an energy conduit to $N in near future.", ch, NULL, victim, TO_CHAR );
   act("A strange vortex of translucent bright colors flickers before $n.", victim, NULL, NULL, TO_ROOM);
-  
+
 
  if (IS_AFFECTED(ch, AFF_SLOW) || IS_AFFECTED(ch, AFF_HASTE)){
     affect_strip(ch, skill_lookup("slow") );
@@ -10028,7 +10038,7 @@ void spell_chrono_shield( int sn, int level, CHAR_DATA *ch, void *vo,int target 
 
   affect_to_char( victim, &af );
 }
-  
+
 
 void spell_temporal_storm( int sn, int level, CHAR_DATA *ch, void *vo,int target )
 {
@@ -10044,7 +10054,7 @@ void spell_temporal_storm( int sn, int level, CHAR_DATA *ch, void *vo,int target
     affect_strip(ch, skill_lookup("slow") );
     affect_strip(ch, skill_lookup("haste") );
     send_to_char("Some of your spells have been disrupted.\n\r", ch );
-    }    
+    }
   if (IS_AFFECTED(victim, AFF_SLOW)){
     int sn = skill_lookup("slow");
     act(skill_table[sn].msg_off, victim, NULL, NULL, TO_CHAR);
@@ -10076,7 +10086,7 @@ void spell_temporal_storm( int sn, int level, CHAR_DATA *ch, void *vo,int target
 /* savant wards */
 void spell_ward_faith( int sn, int level, CHAR_DATA *ch, void *vo,int target ){
   AFFECT_DATA af, *paf;
-  
+
   if (is_affected(ch, gen_ward)){
     send_to_char("You've already been warded!\n\r", ch);
     return;
@@ -10099,7 +10109,7 @@ void spell_ward_faith( int sn, int level, CHAR_DATA *ch, void *vo,int target ){
 /* savant wards */
 void spell_vocalize( int sn, int level, CHAR_DATA *ch, void *vo,int target ){
   AFFECT_DATA af, *paf;
-  
+
   if (is_affected(ch, gen_ward)){
     send_to_char("You've already been warded!\n\r", ch);
     return;
@@ -10122,7 +10132,7 @@ void spell_vocalize( int sn, int level, CHAR_DATA *ch, void *vo,int target ){
 /* savant wards */
 void spell_ward_curse( int sn, int level, CHAR_DATA *ch, void *vo,int target ){
   AFFECT_DATA af, *paf;
-  
+
   if (is_affected(ch, gen_ward)){
     send_to_char("You've already been warded!\n\r", ch);
     return;
@@ -10168,7 +10178,7 @@ void spell_paradox( int sn, int level, CHAR_DATA *ch, void *vo,int target ){
     affect_strip(ch, skill_lookup("slow") );
     affect_strip(ch, skill_lookup("haste") );
     send_to_char("Some of your spells have been disrupted.\n\r", ch );
-  }    
+  }
 
   af.type	= gen_paradox;
   af.level	= level;
@@ -10225,7 +10235,7 @@ void spell_age(int sn,int level,CHAR_DATA *ch,void *vo,int target){
     affect_strip(ch, skill_lookup("slow") );
     affect_strip(ch, skill_lookup("haste") );
     send_to_char("Some of your spells have been disrupted.\n\r", ch );
-  }    
+  }
   if (IS_AFFECTED(victim, AFF_SLOW)){
     int sn = skill_lookup("slow");
     act(skill_table[sn].msg_off, victim, NULL, NULL, TO_CHAR);
@@ -10301,7 +10311,7 @@ void spell_age(int sn,int level,CHAR_DATA *ch,void *vo,int target){
     if (paf->type == sn)
       paf->duration = last_dur + 2;
   }
-  
+
   if (skills[0]){
     sendf(ch, "%s has forgotten %s!\n\r", PERS(victim, ch), skills);
     sendf(victim, "You've forgotten %s!\n\r", skills);
@@ -10324,7 +10334,7 @@ void spell_temporal_avenger(int sn,int level,CHAR_DATA *ch,void *vo,int target){
     affect_strip(ch, skill_lookup("slow") );
     affect_strip(ch, skill_lookup("haste") );
     send_to_char("Some of your spells have been disrupted.\n\r", ch );
-  }    
+  }
   if (IS_AFFECTED(victim, AFF_SLOW)){
     int sn = skill_lookup("slow");
     act(skill_table[sn].msg_off, victim, NULL, NULL, TO_CHAR);
@@ -10352,7 +10362,7 @@ void spell_temporal_avenger(int sn,int level,CHAR_DATA *ch,void *vo,int target){
   af.duration	= number_range(6, 9);
 
   af.where	= TO_AFFECTS;
-  af.bitvector	= 0;  
+  af.bitvector	= 0;
   af.location	= APPLY_NONE;
   af.modifier	= 0;
   paf = affect_to_char( ch, &af);
@@ -10389,12 +10399,12 @@ void spell_town_gate( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
     handle_skill_cost_percent( ch, ch->pCabal, sn, 100 );
     return;
   }
-  
+
 /* can gate, try to get the hometown */
   if ( (town = hometown_lookup( target_name )) < 0){
     int hometown;
     send_to_char("You mage gate to following towns.\n\r", ch);
-    
+
     for ( hometown = 0; hometown_table[hometown].name != NULL && hometown < MAX_HOMETOWN; hometown++){
       sendf( ch, "%-2d. %s\n\r", hometown + 1, hometown_table[hometown].name);
     }
@@ -10435,8 +10445,8 @@ void spell_town_gate( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
     affect_strip(ch, skill_lookup("slow") );
     affect_strip(ch, skill_lookup("haste") );
     send_to_char("Some of your spells have been disrupted.\n\r", ch );
-  }    
- 
+  }
+
   for (vch = ch->in_room->people; vch != NULL; vch = vch_next){
     vch_next = vch->next_in_room;
 
@@ -10449,7 +10459,7 @@ void spell_town_gate( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
 	send_to_char("The teleportation lock stops you short.\n\r", vch);
 	continue;
       }
-      
+
       if (IS_AFFECTED(vch, AFF_SLOW)){
 	int sn = skill_lookup("slow");
 	act(skill_table[sn].msg_off, vch, NULL, NULL, TO_CHAR);
@@ -10517,7 +10527,7 @@ bool check_contingency( CHAR_DATA* ch, AFFECT_DATA* pCon, int flag ){
 void do_contingency( CHAR_DATA* ch, char* argument ){
   AFFECT_DATA af;
   char cond[MIL];
-  
+
   const int cost = skill_table[gsn_cont].min_mana;
   const int lag = skill_table[gsn_cont].beats;
 
@@ -10572,7 +10582,7 @@ void do_contingency( CHAR_DATA* ch, char* argument ){
     send_to_char("You cannot concentrate sufficiently.\n\r", ch );
     return;
   }
-  else 
+  else
     ch->mana -= cost;
 
   sendf(ch, "You setup a contingency for casting %s.\n\r", skill_table[spell].name);
@@ -10584,7 +10594,7 @@ void do_contingency( CHAR_DATA* ch, char* argument ){
 
   /* we have the bit and the spell form the af now */
   af.type	= gsn_cont;
-  af.level	= spell;//holds the spell vnum to cast 
+  af.level	= spell;//holds the spell vnum to cast
   af.duration	= 36;
 
   af.where	= TO_AFFECTS;
@@ -10593,9 +10603,9 @@ void do_contingency( CHAR_DATA* ch, char* argument ){
   af.modifier	= flag;//holds the condition
   affect_to_char( ch, &af );
 }
-    
-    
-    
+
+
+
 /* Written by: Virigoth							*
  * Returns: void							*
  * Used: cabal.c,							*
@@ -10620,7 +10630,7 @@ void spell_ocularis( int sn, int level, CHAR_DATA *ch, void *vo,int target){
     affect_strip(ch, skill_lookup("slow") );
     affect_strip(ch, skill_lookup("haste") );
     send_to_char("Some of your spells have been disrupted.\n\r", ch );
-  }    
+  }
   if (IS_AFFECTED(victim, AFF_SLOW)){
     int sn = skill_lookup("slow");
     act(skill_table[sn].msg_off, victim, NULL, NULL, TO_CHAR);
@@ -10672,7 +10682,7 @@ void spell_ripple( int sn, int level, CHAR_DATA *ch, void *vo,int target){
     affect_strip(ch, skill_lookup("slow") );
     affect_strip(ch, skill_lookup("haste") );
     send_to_char("Some of your spells have been disrupted.\n\r", ch );
-  }    
+  }
   if (IS_AFFECTED(victim, AFF_SLOW)){
     int sn = skill_lookup("slow");
     act(skill_table[sn].msg_off, victim, NULL, NULL, TO_CHAR);
@@ -10741,7 +10751,7 @@ void spell_recharge( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
       obj->condition -= 2 * gain;
       if (get_curr_cond( obj ) < 5){
 	act("With a loud thunderclap $p explodes into fine ash!", ch, obj, NULL, TO_ALL);
-	extract_obj( obj );	
+	extract_obj( obj );
       }
       check_improve(ch, sn, FALSE, 50);
     }
@@ -10802,8 +10812,8 @@ void spell_overload( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
   }
 }
 
-  
-      
+
+
 /* WATCHER POWERS */
 void spell_elemental_call( int sn, int level, CHAR_DATA *ch, void *vo, int target ){
   CHAR_DATA* victim = (CHAR_DATA*) vo;
@@ -10815,7 +10825,7 @@ void spell_elemental_call( int sn, int level, CHAR_DATA *ch, void *vo, int targe
     send_to_char("You are still protected by the elements.\n\r", victim);
     return;
   }
-  if (victim->in_room->sector_type == SECT_AIR 
+  if (victim->in_room->sector_type == SECT_AIR
       || victim->in_room->sector_type == SECT_MOUNTAIN
       || victim->in_room->sector_type == SECT_SNOW
       || victim->in_room->sector_type == SECT_DESERT){
@@ -11096,7 +11106,7 @@ void spell_awaken_life( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   mob->trust	= 6969;
   char_to_room( mob, to );
   mob->trust	= mob->level;
-  
+
   act("$n summons a champion of Nature to do $s bidding!", ch, NULL, NULL, TO_ROOM);
   act("You summon a champion of Nature to do your bidding!", ch, NULL, NULL, TO_ROOM);
   sprintf( buf, "The ground shaking underneath it %s enters the area.", mob->short_descr);
@@ -11113,7 +11123,7 @@ void spell_awaken_life( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     else if (vch->in_room->area != to->area)
       send_to_char( buf, vch );
   }
-  
+
 }
 
 //gives some bonuses and prot good/evil
@@ -11228,7 +11238,7 @@ void spell_dragon_blood( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     handle_skill_cost_percent( ch, ch->pCabal, sn, -100 );
     return;
   }
-  
+
   af.type	= gen_dragon_blood;
   af.level	= level;
   af.duration	= number_fuzzy( level / 8 );
@@ -11276,7 +11286,7 @@ void spell_whirlwind( int sn, int level, CHAR_DATA *ch, void *vo,int target ){
     send_to_char("They are moving about too much for you to focus the spell.\n\r", ch);
     handle_skill_cost_percent( ch, ch->pCabal, sn, -100 );
     return;
-  }    
+  }
   else if ( saves_spell( level, victim, DAM_AIR, skill_table[sn].spell_type) ){
     act("A few strong gusts of wind whip through the area.\n\r", ch, NULL, NULL, TO_ALL);
     damage( ch, victim, 0, sn, DAM_AIR, TRUE );
@@ -11290,7 +11300,7 @@ void spell_whirlwind( int sn, int level, CHAR_DATA *ch, void *vo,int target ){
     send_to_char("You may not call a whirlwind here least you damage the fauna around you.\n\r", ch);
     handle_skill_cost_percent( ch, ch->pCabal, sn, -100 );
     return;
-  }    
+  }
 
   /* try to get a non city/inside room */
   room =  get_rand_room(0,0,	//area range (0 to ignore)
@@ -11323,8 +11333,8 @@ void spell_whirlwind( int sn, int level, CHAR_DATA *ch, void *vo,int target ){
 /* now move user and his charmies */
   for (vch = ch->in_room->people; vch; vch = vch_next){
     vch_next = vch->next_in_room;
-    if (IS_AFFECTED(vch, AFF_CHARM) 
-	&& vch->master 
+    if (IS_AFFECTED(vch, AFF_CHARM)
+	&& vch->master
 	&& vch->master == ch){
       char_from_room( vch );
       char_to_room( vch, room );
@@ -11335,20 +11345,20 @@ void spell_whirlwind( int sn, int level, CHAR_DATA *ch, void *vo,int target ){
   char_to_room( ch, room );
   if (ch && ch->in_room && IS_AWAKE(ch))
     do_look( ch, "auto" );
-  
+
   char_from_room( victim );
   char_to_room( victim, room );
   if (victim && victim->in_room && IS_AWAKE(victim)){
     do_look( victim, "auto" );
     if (ch
 	&& ch->in_room
-	&& victim->fighting 
+	&& victim->fighting
 	&& victim->fighting != ch){
       stop_fighting(victim, TRUE);
       set_fighting(victim, ch);
     }
   }
-  
+
   if (ch && ch->in_room)
     damage( ch, ch, number_range(30, 130), sn, DAM_AIR, TRUE );
   if (victim && victim->in_room)
@@ -11369,7 +11379,7 @@ void spell_regenerate( int sn, int level, CHAR_DATA *ch, void *vo,int target ){
   }
 
   send_to_char("You sense your metabolism go haywire!\n\r", ch);
-  
+
   af.type	= gen_regenerate;
   af.level	= level;
   af.duration	= 3;
@@ -11423,7 +11433,7 @@ void spell_eye_of_nature( int sn, int level, CHAR_DATA *ch, void *vo,int target 
   }
   else{
     AREA_DATA* pa = get_area_data( paf->modifier );
-    
+
     if (pa == NULL)
       send_to_char("You failed.\n\r", ch);
     else{

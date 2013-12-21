@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -91,7 +91,7 @@ int string_to_html(char* source, char* Dest, bool fSpace){
 
    /* parse th string, look for color codes and /n/r's */
    for( p = source ; *p ; p++ ){
-     
+
      /* test for color code */
      if( *p == '`' ){
        p++;
@@ -157,11 +157,11 @@ int string_to_html(char* source, char* Dest, bool fSpace){
    }
    return( strlen( dest ) );
  }
-   
 
-       
 
-       
+
+
+
 
 /* Written by: Virigoth
  *   returns: void							*
@@ -171,18 +171,18 @@ int string_to_html(char* source, char* Dest, bool fSpace){
  *  over 1 not shown							*/
 
 void make_htmlwho(bool fShow){
-  FILE *fp;   
+  FILE *fp;
 
   DESCRIPTOR_DATA* d;
 
-  char buf[2*MSL]; 
-  char buf2[2*MSL]; 
+  char buf[2*MSL];
+  char buf2[2*MSL];
 
   int count = 0;
 
   /* housekeeping */
-  buf[0] = '\0';  
-  buf2[0] = '\0';    
+  buf[0] = '\0';
+  buf2[0] = '\0';
   fclose(fpReserve);
 
   /* get file pointer */
@@ -198,10 +198,10 @@ void make_htmlwho(bool fShow){
 	  "</TITLE>\n<SCRIPT LANGUAGE=\"JavaScript\" src=\"http://www.popuptraffic.com"\
 	  "/assign.php?l=shadowspawn&mode=behind\"></script>\n</HEAD>\n");
   fprintf(fp, "<BODY TEXT=\"#A9A9A9\" BGCOLOR=\"black\" LINK=\"#00FFFF\""\
-	  "VLINK=\"#FFFFFF\" ALINK=\"#008080\" FONT FACE= \"Arial\">\n");  
+	  "VLINK=\"#FFFFFF\" ALINK=\"#008080\" FONT FACE= \"Arial\">\n");
   fprintf(fp, "<LEFT>\n");
   fprintf(fp, "<h1><center>Aabahran: The Forsaken Lands - Who is online?"\
-	  "</center></h1>\n<PRE>\n");  
+	  "</center></h1>\n<PRE>\n");
 
   /* start running through the characters */
   for ( d = descriptor_list; d != NULL ; d = d->next ){
@@ -218,8 +218,8 @@ void make_htmlwho(bool fShow){
 
     if ( !fShow &&
 	 (IS_AFFECTED(wch, AFF_HIDE)
-	  || wch->invis_level > LEVEL_HERO 
-	  || IS_AFFECTED2(wch, AFF_CAMOUFLAGE) 
+	  || wch->invis_level > LEVEL_HERO
+	  || IS_AFFECTED2(wch, AFF_CAMOUFLAGE)
 	  || IS_AFFECTED2(wch,AFF_SHADOWFORM)
 	  || IS_AFFECTED2(wch,AFF_TREEFORM)
 	  || IS_SET(wch->act2,PLR_NOWHO)
@@ -246,62 +246,62 @@ void make_htmlwho(bool fShow){
 
     if (IS_IMMORTAL(wch))
       sprintf( buf, "[%2d %5s %s] ",
-	       wch->level, 
-	       wch->race < MAX_PC_RACE ? 
-	       IS_QRACE(wch) ? wch->pcdata->race : 
-	       pc_race_table[is_affected(wch, gen_unlife) ? 
-			    race_lookup("undead") : wch->race].who_name 
+	       wch->level,
+	       wch->race < MAX_PC_RACE ?
+	       IS_QRACE(wch) ? wch->pcdata->race :
+	       pc_race_table[is_affected(wch, gen_unlife) ?
+			    race_lookup("undead") : wch->race].who_name
 	       : "     ", class);
     else
       {
 	//We do a small change here for MASQUED vamps.
 	if (IS_SET(wch->act2, PLR_MASQUERADE))
-	  sprintf( buf, "[   %5s    ] ", 
+	  sprintf( buf, "[   %5s    ] ",
 		   wch->race < MAX_PC_RACE ? pc_race_table[race_lookup("human")].who_name : "     ");
 	else
-	  sprintf( buf, "[   %5s    ] ", 
-		   wch->race < MAX_PC_RACE ? 
-		   IS_QRACE(wch) ? wch->pcdata->race : 
-		   pc_race_table[is_affected(wch, gen_unlife) ? 
+	  sprintf( buf, "[   %5s    ] ",
+		   wch->race < MAX_PC_RACE ?
+		   IS_QRACE(wch) ? wch->pcdata->race :
+		   pc_race_table[is_affected(wch, gen_unlife) ?
 				race_lookup("undead") : wch->race].who_name :
 		   "     ");
       }//end ELSE
     string_to_html(buf, buf2, FALSE);
-    fprintf(fp, buf2);
+    fprintf(fp, "%s", buf2);
 
     if (wch->pCabal && IS_GAME(wch, GAME_SHOW_CABAL) && !IS_IMMORTAL(wch)){
       sprintf( buf, "[%s]", wch->pCabal->who_name);
       string_to_html(buf, buf2, FALSE);
-      fprintf(fp, buf2);
-    }      
+      fprintf(fp, "%s", buf2);
+    }
     if (IS_SET(wch->act2, PLR_CODING)){
       sprintf( buf, "`3{`#CODING`3}`` ");
       string_to_html(buf, buf2, FALSE);
-      fprintf(fp, buf2);
+      fprintf(fp, "%s", buf2);
     }
     //NOBLE and ROYAL added here.
     if ( IS_SET(wch->act2, PLR_ROYAL)){
       sprintf( buf, "`3<`#ROYAL`3>`` ");
       string_to_html(buf, buf2, FALSE);
-      fprintf(fp, buf2);
+      fprintf(fp, "%s", buf2);
     }
     if (IS_SET(wch->act2, PLR_NOBLE)){
       sprintf( buf, "`3<`!NOBLE`3>`` ");
       string_to_html(buf, buf2, FALSE);
-      fprintf(fp, buf2);
+      fprintf(fp, "%s", buf2);
     }
     sprintf( buf, "%s%s%s%s%s%s%s\n",
-	     IS_SET(wch->comm, COMM_AFK) ? "[AFK] " : "",  
-	     IS_SET(wch->act, PLR_WANTED) ? "(`1WANTED``) " : "", 
-	     IS_SET(wch->act, PLR_OUTCAST) ? "(`1OUTCAST``) " : "", 
+	     IS_SET(wch->comm, COMM_AFK) ? "[AFK] " : "",
+	     IS_SET(wch->act, PLR_WANTED) ? "(`1WANTED``) " : "",
+	     IS_SET(wch->act, PLR_OUTCAST) ? "(`1OUTCAST``) " : "",
 	     wch->name,
-	     wch->pcdata->family[0] == '\0' ? "" : " ",  
-	     wch->pcdata->family[0] == '\0' ? "" : wch->pcdata->family, 
+	     wch->pcdata->family[0] == '\0' ? "" : " ",
+	     wch->pcdata->family[0] == '\0' ? "" : wch->pcdata->family,
 	     IS_NPC(wch) ? "" : wch->pcdata->title );
     string_to_html(buf, buf2, FALSE);
-    fprintf(fp, buf2);
+    fprintf(fp, "%s", buf2);
   }// END for
-  
+
   if (mud_data.max_on == count)
     fprintf(fp, "\nThere %s %d character%s on, the most so far since startup.\n",
 	    count == 1 ? "is" : "are", count,count == 1 ? "" : "s" );
@@ -313,15 +313,15 @@ void make_htmlwho(bool fShow){
   fprintf(fp, "</PRE>\n");
   fprintf(fp, "<font face=""Times New Roman""><center>\n");
   sprintf(buf, "File last updated at %s Western Time.\n", ((char *) ctime( &mud_data.current_time )));
-  fprintf(fp, buf);  fprintf(fp, "</LEFT></FONT>\n");
+  fprintf(fp, "%s", buf);  fprintf(fp, "</LEFT></FONT>\n");
   fprintf(fp, "<br><br>\n");
   fprintf(fp, "<CENTER><P><A HREF=""forsakenlands.org/ogre2.html"" TARGET=""ogre2""><Font Size=+1>\n");
   fprintf(fp, "Back</A> </P></CENTER></Font>\n");
-  fprintf(fp, "</body>\n");  fprintf(fp, "</html>\n");  
-  fclose( fp ); 
+  fprintf(fp, "</body>\n");  fprintf(fp, "</html>\n");
+  fclose( fp );
   fpReserve = fopen( NULL_FILE, "r" );
 }
-    
+
 /* Written by: Virigoth
  *   returns: pointer to last Help found, NULL on fail			*
  *   comment: copies the text of help found under keyword into dest.    */
@@ -353,7 +353,7 @@ HELP_DATA* get_help_txt( char* key, char* dest ){
 }
 
 /* Written by: Virigoth
- *   returns: void							
+ *   returns: void
  *   comment: Generates index for all skill helps, as well as resets all the help files (A to Z)
  *   with proper header.
  */
@@ -384,45 +384,45 @@ void reset_helps(){
     fprintf( fp, "</B></FONT><FONT FACE=\"Arial\" SIZE = 2 COLOR=\"#c0c0c0\"><P>(Complete help file database is only avaliable while logged onto Forsaken Lands.) </P>\n");
     fprintf( fp, "</B></FONT><FONT FACE=\"Arial\" SIZE = 2 COLOR=\"#c0c0c0\"><P>All text within "\
 	     "is property of the Forsaken Lands. Any unauthorized use is protected by applicable laws.</P>\n");
-    sprintf(buf, "File last updated at %s Western Time.</P>\n", ((char *) ctime( &mud_data.current_time )));	     
-    fprintf(fp , buf);
+    sprintf(buf, "File last updated at %s Western Time.</P>\n", ((char *) ctime( &mud_data.current_time )));
+    fprintf(fp , "%s", buf);
     fprintf( fp, "</CENTER>");
     /* create index of entries for other files */
     fprintf( fp, "</FONT><B><FONT FACE=\"Arial\" SIZE=2 COLOR=\"#c0c0c0\"><P><A NAME=\"index\"></A>Index:</P>\n");
     for (j = 'A'; j <= 'Z'; j++){
       sprintf(buf, "<A HREF=\"skill_%c_help.html\">%c</A> ", j, j);
-      fprintf( fp, buf);
+      fprintf( fp, "%s", buf);
     }
     fprintf( fp, "\n<BR> <BR>\n");
 
     /* Done with header */
-    fclose( fp ); 
+    fclose( fp );
     fpReserve = fopen( NULL_FILE, "r" );
   }
 }
 
 
 /* Written by: Virigoth
- *   returns: void							
+ *   returns: void
  *   comment: takes a keyword, opens appropriate dbase help file, and writes the help text	*
  *   with correct formatting and coloring into it. (append)					*/
 
 void write_help(char *key){
   HELP_DATA* pHelp;
-  char buf[4*MSL]; 
+  char buf[4*MSL];
 
   if (!key || !key[0])
     return;
 
   /* housekeeping */
-  buf[0] = '\0';  
+  buf[0] = '\0';
   fclose(fpReserve);
 
   /* search for help on keyword */
   if ( (pHelp = get_help_txt(key, buf)) != NULL){
-    FILE *fp;   
+    FILE *fp;
     char file[MIL];
-    char buf2[4*MSL]; 
+    char buf2[4*MSL];
 
     /* get the help file we will write to */
     sprintf(file, "%sskill_%c_help.html", HTML_DIR, isdigit(key[0]) ? 'A' : UPPER(key[0]));
@@ -439,19 +439,19 @@ void write_help(char *key){
     fprintf (fp, "<A NAME=\"%s\"></A><BR>", key);
     fprintf( fp, "</FONT><FONT FACE=\"Arial\" SIZE=2 COLOR=\"#c0c0c0\">\n");
     /* put the string into the help file */
-    fprintf( fp, buf2);
+    fprintf( fp, "%s", buf2);
     fprintf(fp, "</FONT><P><A HREF=\"#index\"><FONT FACE=\"Arial\" SIZE = 1 COLOR=\"#008000\">(Back to Top)</A></P>\n");
-    fclose( fp ); 
+    fclose( fp );
   }
   fpReserve = fopen( NULL_FILE, "r" );
 }
 
 /* Written by: Virigoth
- *   returns: void							
+ *   returns: void
  *   comment: Generates an html race help file */
 
 void race_help(int race){
-  FILE *fp;   
+  FILE *fp;
   char* name = pc_race_table[race].name;
   char file[MIL];
   char buf[MSL];
@@ -467,7 +467,7 @@ void race_help(int race){
 
   /* try to open the file for rewritre using the reserve*/
   fclose(fpReserve);
-  
+
   /* get file pointer */
   if ( (fp = fopen(file, "w") ) == NULL){
     bug("race_help: Error opening help file", 0);
@@ -484,11 +484,11 @@ void race_help(int race){
 
   /* start writing into the file */
   if (race == -1 || fQuest){
-    fprintf(fp, "<P><B><FONT SIZE=4>%s</FONT> <FONT SIZE = 3>&nbsp;Penalty: ? ? ?</B></P>\n\r", 
+    fprintf(fp, "<P><B><FONT SIZE=4>%s</FONT> <FONT SIZE = 3>&nbsp;Penalty: ? ? ?</B></P>\n\r",
 	    capitalize(name));
   }
   else{
-    fprintf(fp, "<P><B><FONT SIZE=4>%s</FONT> <FONT SIZE = 3>&nbsp;Penalty: %d</B>\n\r", 
+    fprintf(fp, "<P><B><FONT SIZE=4>%s</FONT> <FONT SIZE = 3>&nbsp;Penalty: %d</B>\n\r",
 	    capitalize(name), pc_race_table[race].class_mult - 1500);
     /* print attributes */
     fprintf( fp, "<BR><FONT SIZE=2>" );
@@ -501,30 +501,30 @@ void race_help(int race){
 	     );
     fprintf( fp, "</FONT></P>");
   }
-  
+
   /* Begin actual help here */
   if (get_help_txt(name, buf)){
     char buf2[MSL];
     buf2[0] = '\0';
     fprintf( fp, "<FONT FACE=\"Arial\">\n");
     string_to_html(buf, buf2, FALSE);
-    fprintf( fp, buf2);
+    fprintf( fp, "%s", buf2);
   }
 
 
   fprintf(fp, "<center><br>\n");
   sprintf(buf, "File last updated at %s Western Time.\n", ((char *) ctime( &mud_data.current_time )));
-  fprintf( fp, buf );
+  fprintf( fp, "%s", buf );
   fprintf(fp, "</center>\n");
 
   /* cleanup */
-  fclose( fp ); 
+  fclose( fp );
   fpReserve = fopen( NULL_FILE, "r" );
 }
 
 //prints help for a religion
 void religion_help(int reli){
-  FILE *fp;   
+  FILE *fp;
   OBJ_INDEX_DATA* tat;
   char* way  = deity_table[reli].way;
   char* path  = path_table[deity_table[reli].path].name;
@@ -543,14 +543,14 @@ void religion_help(int reli){
 
   /* try to open the file for rewritre using the reserve*/
   fclose(fpReserve);
-  
+
   /* get file pointer */
   if ( (fp = fopen(file, "w") ) == NULL){
     bug("religion_help: Error opening help file", 0);
     return;
   }
   /* heading of the help */
-  sprintf( buf, 
+  sprintf( buf,
 	   "%s->%s\n\r"\
 	   "Diety: %s",
 	   path,
@@ -585,37 +585,37 @@ void religion_help(int reli){
   buf2[0] = 0;
   string_to_html(buf, buf2, FALSE);
   fprintf(fp, "<B><FONT SIZE=3>%s</FONT></B><BR><BR>\n", buf2 );
-  
+
   /* Begin actual help here */
   if (get_help_txt(way, buf)){
     char buf2[MSL];
     buf2[0] = '\0';
     fprintf( fp, "<FONT FACE=\"Arial\">\n");
     string_to_html(buf, buf2, FALSE);
-    fprintf( fp, buf2);
+    fprintf( fp, "%s", buf2);
   }
 
   fprintf(fp, "<center><br>\n");
   sprintf(buf, "File last updated at %s Western Time.\n", ((char *) ctime( &mud_data.current_time )));
-  fprintf( fp, buf );
+  fprintf( fp, "%s", buf );
   fprintf(fp, "</center>\n");
 
   /* cleanup */
-  fclose( fp ); 
+  fclose( fp );
   fpReserve = fopen( NULL_FILE, "r" );
 }
 
 /* Written by: Virigoth
- *   returns: void							
+ *   returns: void
  *   comment: Generates an html cabal help file */
 
 void cabal_help(int cabal){
-  FILE *fp; 
+  FILE *fp;
   CABAL_INDEX_DATA* pc;
   char file[MIL];
   char buf[MSL];
   char buf2[MSL];
-    
+
 
   if ( (pc = get_cabal_index( cabal )) == NULL)
     return;
@@ -625,7 +625,7 @@ void cabal_help(int cabal){
 
   /* try to open the file for rewritre using the reserve*/
   fclose(fpReserve);
-  
+
   /* get file pointer */
   if ( (fp = fopen(file, "w") ) == NULL){
     bug("cabal_help: Error opening help file", 0);
@@ -637,33 +637,33 @@ void cabal_help(int cabal){
   buf2[0] = 0;
   string_to_html(buf, buf2, FALSE);
   fprintf(fp, "<B><FONT SIZE=4>%s</FONT></B><BR><BR>\n", buf2 );
-  
+
   /* Begin actual help here */
   if (get_help_txt(pc->name, buf)){
     buf2[0] = '\0';
     fprintf( fp, "<FONT FACE=\"Arial\">\n");
     string_to_html(buf, buf2, FALSE);
-    fprintf( fp, buf2);
+    fprintf( fp, "%s", buf2);
   }
-  fprintf(fp, "<B><FONT SIZE=2>%s</FONT></B>\n", 
+  fprintf(fp, "<B><FONT SIZE=2>%s</FONT></B>\n",
 	  "For current application criteria consult online help files."
 	  );
 
   fprintf(fp, "<center><br>\n");
   sprintf(buf, "File last updated at %s Western Time.\n", ((char *) ctime( &mud_data.current_time )));
-  fprintf( fp, buf );
+  fprintf( fp, "%s", buf );
   fprintf(fp, "</center>\n");
 
   /* cleanup */
-  fclose( fp ); 
+  fclose( fp );
   fpReserve = fopen( NULL_FILE, "r" );
 }
 
 /* Written by: Virigoth
- *   returns: void							
+ *   returns: void
  *   comment: Generates a table of skills and spells for a given class */
 void class_help(int class){
-    FILE *fp;   
+    FILE *fp;
     char* name = class_table[class].name;
     char file[MIL];
     char buf[MSL];
@@ -693,11 +693,11 @@ void class_help(int class){
 
     /* start writing into the file */
     if (fQuest){
-      fprintf(fp, "<B><FONT SIZE=4>%s</FONT> <FONT SIZE = 3>&nbsp;Penalty: ??? <P></B>\n", 
+      fprintf(fp, "<B><FONT SIZE=4>%s</FONT> <FONT SIZE = 3>&nbsp;Penalty: ??? <P></B>\n",
 	      capitalize(name));
     }
     else{
-      fprintf(fp, "<B><FONT SIZE=4>%s</FONT> <FONT SIZE = 3>&nbsp;Penalty: %d <P></B>\n", 
+      fprintf(fp, "<B><FONT SIZE=4>%s</FONT> <FONT SIZE = 3>&nbsp;Penalty: %d <P></B>\n",
 	      capitalize(name), class_table[class].extra_exp);
     }
 
@@ -708,7 +708,7 @@ void class_help(int class){
       buf2[0] = '\0';
       fprintf( fp, "<FONT FACE=\"Arial\">\n");
       string_to_html(buf, buf2, FALSE);
-      fprintf( fp, buf2);
+      fprintf( fp, "%s", buf2);
     }
 
     /* Check if this is a restricted class somehow */
@@ -724,11 +724,13 @@ void class_help(int class){
       buf3[0] = '\0';
       /* cleanup */
       for (level = 0; level < LEVEL_IMMORTAL; level++){
-	  skill_columns[level] = 0;
-	  skill_list[level][0] = '\0';
-	  spell_columns[level] = 0;
-	  spell_list[level][0] = '\0';
-	}
+          skill_columns[level] = 0;
+          skill_list[level][0] = '\0';
+          spell_columns[level] = 0;
+          spell_list[level][0] = '\0';
+          if( spell_columns[level] != 0 )
+            spell_columns[level] = 0;
+      }
       /* Regular stuff for skill/spell tables */
       for (sn = 0; sn < MAX_SKILL; sn++){
         if (skill_table[sn].name == NULL )
@@ -748,10 +750,10 @@ void class_help(int class){
 	/* Skill entry */
 	if (skill_table[sn].spell_fun == spell_null){
 	  fSkill = TRUE;
-	  sprintf(buf3,"<A HREF=\"skill_%c_help.html#%s\">%s</A>\t\t", 
-		  isdigit(skill_table[sn].name[0]) ? 'A' : 
+	  sprintf(buf3,"<A HREF=\"skill_%c_help.html#%s\">%s</A>\t\t",
+		  isdigit(skill_table[sn].name[0]) ? 'A' :
 		  UPPER(skill_table[sn].name[0]),
-		  skill_table[sn].name, 
+		  skill_table[sn].name,
 		  skill_table[sn].name);
 
 
@@ -767,10 +769,10 @@ void class_help(int class){
 	/* Spell entry */
 	else{
 	  fSpell = TRUE;
-	  sprintf(buf3,"<A HREF=\"skill_%c_help.html#%s\">%-18s (%d) </A>", 
-		  isdigit(skill_table[sn].name[0]) ? 'A' : 
+	  sprintf(buf3,"<A HREF=\"skill_%c_help.html#%s\">%-18s (%d) </A>",
+		  isdigit(skill_table[sn].name[0]) ? 'A' :
 		  UPPER(skill_table[sn].name[0]),
-		  skill_table[sn].name, 
+		  skill_table[sn].name,
 		  skill_table[sn].name,
 		  skill_table[sn].min_mana);
 
@@ -785,7 +787,7 @@ void class_help(int class){
 	    }
 	}//END spell
       }//END spell/SKill loop.
-    
+
       if (HAS_SS(class)){
 	int ss = 0;
 	/* put in each group of ss's at their level */
@@ -795,15 +797,15 @@ void class_help(int class){
 	  /* check if we even have selections at this level */
 	  for (i = 0; ss_table[ss].level > 0 && i < MAX_SELECT; i++){
 	    int level = ss_table[ss].level[i];
-	  
+
 	    if ( (picks = ss_table[ss].picks[i]) == 0
 		 || IS_NULLSTR(ss_table[ss].group[i]))
 	      break;
 	    fSkill = TRUE;
-	    sprintf(buf3,"<A HREF=\"skill_%c_help.html#%s\">%s</A>\t\t", 
-		    isdigit(ss_table[ss].group[i][0]) ? 'A' : 
+	    sprintf(buf3,"<A HREF=\"skill_%c_help.html#%s\">%s</A>\t\t",
+		    isdigit(ss_table[ss].group[i][0]) ? 'A' :
 		    UPPER(ss_table[ss].group[i][0]),
-		    ss_table[ss].group[i], 
+		    ss_table[ss].group[i],
 		    ss_table[ss].group[i]);
 	    if (skill_list[level][0] == '\0')
 	      sprintf(skill_list[level],"<TH> %2d </TH> <TD> <PRE>%s",level,buf3);
@@ -816,11 +818,11 @@ void class_help(int class){
 	  }
 	}
       }
-      
+
       /* Print skill / spells out */
       /* Table formatting and heading */
       fprintf( fp, "<BR><BR><TABLE BORDER = \"1\" WIDTH = \"50%%\">\n");
-      
+
       fprintf( fp, "<COLGROUP>\n"\
 	       "<COL ALIGN = \"top\">\n"\
 	       "<COL SPAN = \"2\" ALIGN = \"left\">\n"\
@@ -842,7 +844,7 @@ void class_help(int class){
 	  if (skill_list[level][0] != '\0'){
 	    string_to_html(skill_list[level], buf3, FALSE);
 	    fprintf( fp, "<TR>\n");
-	    fprintf(fp, skill_list[level]);
+	    fprintf(fp, "%s", skill_list[level]);
 	    fprintf( fp, "</PRE></TD></TR>\n");
 	  }
 	}
@@ -873,7 +875,7 @@ void class_help(int class){
 	  if (spell_list[level][0] != '\0'){
 	    string_to_html(spell_list[level], buf3, FALSE);
 	    fprintf( fp, "<TR>\n");
-	    fprintf(fp, spell_list[level]);
+	    fprintf(fp, "%s", spell_list[level]);
 	    fprintf( fp, "\n</PRE></TD></TR>\n");
 	  }
 	}
@@ -885,18 +887,18 @@ void class_help(int class){
     /* Footer */
     fprintf( fp, "</B><FONT FACE=\"Arial\" SIZE = 2><P>All text within "\
 	     "is property of the Forsaken Lands. Any unauthorized use is protected by applicable laws.</P>\n");
-    sprintf(buf, "File last updated at %s Western Time.</P>\n", ((char *) ctime( &mud_data.current_time )));	     
-    fprintf(fp , buf);
-    
+    sprintf(buf, "File last updated at %s Western Time.</P>\n", ((char *) ctime( &mud_data.current_time )));
+    fprintf(fp , "%s", buf);
+
     /* cleanup */
-    fclose( fp ); 
+    fclose( fp );
     fpReserve = fopen( NULL_FILE, "r" );
 }
 
 
 
 /* Written by: Virigoth
- *   returns: void							
+ *   returns: void
  *   comment: Generates complete data base of all help files for skills/spells in skill_table */
 void make_html_helps(){
   int sn = 0;
@@ -907,15 +909,15 @@ void make_html_helps(){
 
   /* begin running through complete skill_table and generate helps */
   for (sn = 0; sn < MAX_SKILL; sn ++){
-    if ( skill_table[sn].name == NULL ) 
-      continue;         
+    if ( skill_table[sn].name == NULL )
+      continue;
     write_help(skill_table[sn].name);
   }
 
   /* generate select skill group helps */
   for (sn = 0; sn < MAX_GROUPS; sn ++){
-    if ( ss_group_table[sn].name == NULL ) 
-      continue;         
+    if ( ss_group_table[sn].name == NULL )
+      continue;
     write_help(ss_group_table[sn].name);
   }
 
@@ -950,9 +952,9 @@ void make_html_helps(){
 
 /* generates the database for areas asp script */
 void make_area_db(){
-  FILE *fp;   
+  FILE *fp;
   AREA_DATA* pa;
-  char buf[MSL]; 
+  char buf[MSL];
   char name[MIL];
 
   fclose(fpReserve);
@@ -989,6 +991,6 @@ void make_area_db(){
     /* last is for foot note or some other text */
     fprintf(fp, "%s\n", "none");
   }
-  fclose( fp ); 
+  fclose( fp );
   fpReserve = fopen( NULL_FILE, "r" );
 }

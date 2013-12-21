@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -56,10 +56,10 @@ bool test_pfile(FILE *fp ){
   while (!feof( fp )){
     char letter = fread_letter( fp );
     char* word;
-    
+
     if (letter != '#')
       continue;
-    
+
     word = fread_word( fp );
     if (word != NULL && !str_cmp("END", word)){
       rewind(fp);
@@ -70,7 +70,7 @@ bool test_pfile(FILE *fp ){
   return FALSE;
 }
 
- 
+
 char *print_flags(int flag)
 {
     int count, pos = 0;
@@ -140,8 +140,8 @@ void save_char_obj( CHAR_DATA *ch)
 	    fwrite_pet(ch->pet,fp, FALSE);
 	/* save other mobs but do not save pet twice */
         for (vch = char_list; vch; vch = vch->next){
-	  if (IS_NPC(vch) 
-	      && vch->summoner == ch 
+	  if (IS_NPC(vch)
+	      && vch->summoner == ch
 	      && vch->pIndexData->vnum != MOB_VNUM_MAGIC_EYE
 	      && (ch->pet == NULL || vch != ch->pet))
 	    fwrite_pet(vch,fp, FALSE);
@@ -242,7 +242,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
     if (ch->pcdata->birth_date == 0){
       int age = 18 + ch->played / 76000;
       age = UMIN(2000, age);
-      ch->pcdata->birth_date = mud_data.current_time - (age * MAX_MONTHS * MAX_WEEKS * MAX_DAYS * MAX_HOURS * 30); 
+      ch->pcdata->birth_date = mud_data.current_time - (age * MAX_MONTHS * MAX_WEEKS * MAX_DAYS * MAX_HOURS * 30);
     }
     fprintf( fp, "Birthdate %ld\n", ch->pcdata->birth_date );
 
@@ -279,7 +279,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 
     if (ch->pcdata->divfavor)
       fprintf( fp, "DFavor %d\n",	ch->pcdata->divfavor	);
-    if (ch->pcdata->wep_pos != WEPPOS_NORMAL 
+    if (ch->pcdata->wep_pos != WEPPOS_NORMAL
 	&& (get_skill(ch, gsn_battlestance) || get_skill(ch, gsn_2h_tactics)))
       fprintf( fp, "WPos %d\n",	ch->pcdata->wep_pos	);
     if (ch->pcdata->bat_pos != BATPOS_MIDDLE)
@@ -300,11 +300,11 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 	fprintf( fp, "Tru  %d\n",	ch->trust	);
     fprintf( fp, "Sec  %d\n",    ch->pcdata->security   );
     fprintf( fp, "Plyd %d\n", ch->played + (ch->logon == 0 ? 0 : (int) (mud_data.current_time - ch->logon)));
-    fprintf( fp, "Not  %ld %ld %ld %ld %ld %ld\n",   
-	     ch->pcdata->last_note,ch->pcdata->last_idea, 
-	     ch->pcdata->last_penalty, 
-	     ch->pcdata->last_news, 
-	     ch->pcdata->last_changes, 
+    fprintf( fp, "Not  %ld %ld %ld %ld %ld %ld\n",
+	     ch->pcdata->last_note,ch->pcdata->last_idea,
+	     ch->pcdata->last_penalty,
+	     ch->pcdata->last_news,
+	     ch->pcdata->last_changes,
 	     ch->pcdata->last_application);
     fprintf( fp, "Vote %ld\n", 	     ch->pcdata->last_vote);
     fprintf( fp, "BankStamp %ld\n",  ch->pcdata->bank_stamp);
@@ -342,7 +342,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
     if (ch->gold > 0)
         fprintf( fp, "Gold %ld\n",        ch->gold      );
     else
-        fprintf( fp, "Gold %d\n", 0                     ); 
+        fprintf( fp, "Gold %d\n", 0                     );
     fprintf( fp, "Exp  %ld\n",      ch->exp              );
     fprintf( fp, "MExp %ld\n",   ch->max_exp          );
     if (ch->act != 0)
@@ -377,23 +377,23 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 	fprintf( fp, "Hit   %d\n",	ch->hitroll	);
     if (ch->damroll != 0)
 	fprintf( fp, "Dam   %d\n",	ch->damroll	);
-    fprintf( fp, "ACs %d %d %d %d\n",	
+    fprintf( fp, "ACs %d %d %d %d\n",
 	ch->armor[0],ch->armor[1],ch->armor[2],ch->armor[3]);
     if (ch->wimpy !=0 )
 	fprintf( fp, "Wimp  %d\n",	ch->wimpy	);
     fprintf( fp, "AttrB %d %d %d %d %d %d\n",
-	     ch->perm_stat[STAT_STR], 
-	     ch->perm_stat[STAT_INT], 
-	     ch->perm_stat[STAT_WIS], 
-	     ch->perm_stat[STAT_DEX], 
-	     ch->perm_stat[STAT_CON], 
+	     ch->perm_stat[STAT_STR],
+	     ch->perm_stat[STAT_INT],
+	     ch->perm_stat[STAT_WIS],
+	     ch->perm_stat[STAT_DEX],
+	     ch->perm_stat[STAT_CON],
 	     ch->perm_stat[STAT_LUCK] );
     fprintf (fp, "AModB %d %d %d %d %d %d\n",
-	     UMIN(ch->perm_stat[STAT_STR], ch->mod_stat[STAT_STR]), 
-	     UMIN(ch->perm_stat[STAT_INT], ch->mod_stat[STAT_INT]), 
-	     UMIN(ch->perm_stat[STAT_WIS], ch->mod_stat[STAT_WIS]), 
-	     UMIN(ch->perm_stat[STAT_DEX], ch->mod_stat[STAT_DEX]), 
-	     UMIN(ch->perm_stat[STAT_CON], ch->mod_stat[STAT_CON]), 
+	     UMIN(ch->perm_stat[STAT_STR], ch->mod_stat[STAT_STR]),
+	     UMIN(ch->perm_stat[STAT_INT], ch->mod_stat[STAT_INT]),
+	     UMIN(ch->perm_stat[STAT_WIS], ch->mod_stat[STAT_WIS]),
+	     UMIN(ch->perm_stat[STAT_DEX], ch->mod_stat[STAT_DEX]),
+	     UMIN(ch->perm_stat[STAT_CON], ch->mod_stat[STAT_CON]),
 	     UMIN(ch->perm_stat[STAT_LUCK], ch->mod_stat[STAT_LUCK]));
 
 
@@ -416,7 +416,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
       fprintf( fp, "Pass %s~\n",	ch->pcdata->pwd		);
       if (!IS_NULLSTR(ch->pcdata->pwddel))
 	fprintf( fp, "PassDel %s~\n",	ch->pcdata->pwddel		);
-      if (IS_IMMORTAL(ch) && ch->pcdata->pwdimm[0] != '\0' )  
+      if (IS_IMMORTAL(ch) && ch->pcdata->pwdimm[0] != '\0' )
 	fprintf( fp, "PassImm %s~\n",	ch->pcdata->pwdimm	);
       if (ch->pcdata->bamfin[0] != '\0')
 	fprintf( fp, "Bin  %s~\n",	ch->pcdata->bamfin);
@@ -433,7 +433,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
       fprintf( fp, "Cnd  %d %d %d %d\n", ch->pcdata->condition[0],
 	       ch->pcdata->condition[1], ch->pcdata->condition[2], ch->pcdata->condition[3] );
       fprintf( fp, "Mplayed %d %d\n", ch->pcdata->month, ch->pcdata->mplayed + UMAX(0,(ch->logon == 0 ? 0 : (int) ((mud_data.current_time - ch->logon)/60))));
-      
+
 /* Quests */
       q = ch->pcdata->quests;
       while (q){
@@ -450,20 +450,20 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 	if (IS_NULLSTR(ch->pcdata->custom_aff[sn].name))
 	  continue;
 	else
-	  fprintf( fp, "CusA %d %s %s~\n", sn, 
+	  fprintf( fp, "CusA %d %s %s~\n", sn,
 		   ch->pcdata->custom_aff[sn].name,
 		   IS_GEN( ch->pcdata->custom_aff[sn].gsn) ? effect_table[GN_POS(ch->pcdata->custom_aff[sn].gsn)].name : skill_table[GN_POS(ch->pcdata->custom_aff[sn].gsn)].name );
       }
       for ( sn = 0; sn < MAX_SKILL; sn++ ){
-	if ( skill_table[sn].name != NULL 
+	if ( skill_table[sn].name != NULL
 	     && skill_table[sn].rating[ch->class] > 0
 	     && ch->pcdata->learned[sn] > 0 )
-	  fprintf( fp, "Sk %d '%s'\n", 
-		   UMIN(get_skillmax(ch, sn), ch->pcdata->learned[sn]), 
+	  fprintf( fp, "Sk %d '%s'\n",
+		   UMIN(get_skillmax(ch, sn), ch->pcdata->learned[sn]),
 		   skill_table[sn].name );
 	if ( skill_table[sn].name != NULL && ch->pcdata->progress[sn] > 0 )
-	  fprintf( fp, "Pr %d '%s'\n", 
-		   ch->pcdata->progress[sn], 
+	  fprintf( fp, "Pr %d '%s'\n",
+		   ch->pcdata->progress[sn],
 		   skill_table[sn].name );
       }
       for ( sn = 0; sn < MAX_SONG; sn++ )
@@ -479,12 +479,12 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
     }
     for ( paf = ch->affected; paf != NULL; paf = paf->next )
       {
-	
+
 	if (paf->type < 0 || (paf->type >= (MAX_SKILL + MAX_EFFECTS)) || paf->type == gsn_doppelganger)
 	  continue;
-	if (paf->type == gsn_phantasmal_griffon 
+	if (paf->type == gsn_phantasmal_griffon
 	    || paf->type == gsn_illusionary_spectre
-	    || paf->type == gsn_phantom_dragon 
+	    || paf->type == gsn_phantom_dragon
 	    || paf->type == gsn_eavesdrop)
 	    continue;
 
@@ -497,28 +497,28 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 	//GEN's
 	if (IS_GEN(paf->type))
         fprintf( fp, "Affc '%s' %3d %3d %3d %3d %3d %10d %3d %3d %3s~\n",
-	  effect_table[GN_POS(paf->type)].name, 
-	  paf->where, 
-          paf->level, 
-          paf->duration, 
-          paf->modifier, 
-          paf->location, 
-          paf->bitvector, 
-	  paf->flags,
-          (paf->has_string && paf->string != NULL ? 1 : 0),  
-          (paf->has_string && paf->string != NULL ? paf->string : "NULL"));
-	  else
-	    //GSN's
-        fprintf( fp, "Affc '%s' %3d %3d %3d %3d %3d %10d %3d %3d %3s~\n",
-	  skill_table[paf->type].name, 
-          paf->where,    
+	  effect_table[GN_POS(paf->type)].name,
+	  paf->where,
           paf->level,
           paf->duration,
           paf->modifier,
           paf->location,
           paf->bitvector,
 	  paf->flags,
-          (paf->has_string && paf->string != NULL ? 1 : 0),  
+          (paf->has_string && paf->string != NULL ? 1 : 0),
+          (paf->has_string && paf->string != NULL ? paf->string : "NULL"));
+	  else
+	    //GSN's
+        fprintf( fp, "Affc '%s' %3d %3d %3d %3d %3d %10d %3d %3d %3s~\n",
+	  skill_table[paf->type].name,
+          paf->where,
+          paf->level,
+          paf->duration,
+          paf->modifier,
+          paf->location,
+          paf->bitvector,
+	  paf->flags,
+          (paf->has_string && paf->string != NULL ? 1 : 0),
           (paf->has_string && paf->string != NULL ? paf->string : ""));
 
     }
@@ -542,7 +542,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
     }
 
     /* DNDSpells						*
-     * There are DNDS_TEMPLATES templates, and   the currently  * 
+     * There are DNDS_TEMPLATES templates, and   the currently  *
      * used one is pointed to by ->dndspells			*
      * We write the index of current template, followed by all  *
      * templates.						*/
@@ -560,7 +560,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 	fwrite_dnds_template(fp, ch->pcdata->dndtemplates[template], template);
       }
       //set the start template
-      fprintf( fp, "DndTemplate %d\n", (ch->pcdata->dndspells - ch->pcdata->dndtemplates[0]) / DNDS_MAXLEVEL);
+      fprintf( fp, "DndTemplate %ld\n", (ch->pcdata->dndspells - ch->pcdata->dndtemplates[0]) / DNDS_MAXLEVEL);
     }
     fprintf( fp, "End\n\n" );
 }
@@ -641,11 +641,11 @@ void fwrite_pet( CHAR_DATA *pet, FILE *fp, bool fArmy)
     fprintf(fp, "ACs  %d %d %d %d\n", pet->armor[0],pet->armor[1],pet->armor[2],pet->armor[3]);
     fprintf(fp, "Attr %d %d %d %d %d\n",
       pet->perm_stat[STAT_STR],pet->perm_stat[STAT_INT],pet->perm_stat[STAT_WIS],pet->perm_stat[STAT_DEX],pet->perm_stat[STAT_CON]);
-    fprintf(fp, "AMod %d %d %d %d %d\n", 
-	     UMIN(pet->perm_stat[STAT_STR], pet->mod_stat[STAT_STR]), 
-	     UMIN(pet->perm_stat[STAT_INT], pet->mod_stat[STAT_INT]), 
-	     UMIN(pet->perm_stat[STAT_WIS], pet->mod_stat[STAT_WIS]), 
-	     UMIN(pet->perm_stat[STAT_DEX], pet->mod_stat[STAT_DEX]), 
+    fprintf(fp, "AMod %d %d %d %d %d\n",
+	     UMIN(pet->perm_stat[STAT_STR], pet->mod_stat[STAT_STR]),
+	     UMIN(pet->perm_stat[STAT_INT], pet->mod_stat[STAT_INT]),
+	     UMIN(pet->perm_stat[STAT_WIS], pet->mod_stat[STAT_WIS]),
+	     UMIN(pet->perm_stat[STAT_DEX], pet->mod_stat[STAT_DEX]),
 	     UMIN(pet->perm_stat[STAT_CON], pet->mod_stat[STAT_CON]));
     fprintf( fp, "Mods %d", MAX_MODIFIER);
     for (counter = 0; counter < MAX_MODIFIER; counter++)
@@ -655,9 +655,9 @@ void fwrite_pet( CHAR_DATA *pet, FILE *fp, bool fArmy)
     {
     	if (paf->type < 0 || (paf->type >= (MAX_SKILL + MAX_EFFECTS) ) || paf->type == gsn_doppelganger)
     	    continue;
-	if (paf->type == gsn_phantasmal_griffon 
+	if (paf->type == gsn_phantasmal_griffon
 	    || paf->type == gsn_illusionary_spectre
-	    || paf->type == gsn_phantom_dragon 
+	    || paf->type == gsn_phantom_dragon
 	    || paf->type == gsn_eavesdrop)
 	    continue;
 
@@ -670,28 +670,28 @@ void fwrite_pet( CHAR_DATA *pet, FILE *fp, bool fArmy)
 	//GEN's
 	if (IS_GEN(paf->type))
         fprintf( fp, "Affc '%s' %3d %3d %3d %3d %3d %10d %3d %3d %3s~\n",
-	  effect_table[GN_POS(paf->type)].name, 
-	  paf->where, 
-          paf->level, 
-          paf->duration, 
-          paf->modifier, 
-          paf->location, 
-          paf->bitvector, 
-          paf->flags, 
-          (paf->has_string && paf->string != NULL ? 1 : 0),  
-          (paf->has_string && paf->string != NULL ? paf->string : "NULL"));
-	  else
-	    //GSN's
-        fprintf( fp, "Affc '%s' %3d %3d %3d %3d %3d %10d %3d %3d %3s~\n",
-	  skill_table[paf->type].name, 
-          paf->where,    
+	  effect_table[GN_POS(paf->type)].name,
+	  paf->where,
           paf->level,
           paf->duration,
           paf->modifier,
           paf->location,
           paf->bitvector,
           paf->flags,
-          (paf->has_string && paf->string != NULL ? 1 : 0),  
+          (paf->has_string && paf->string != NULL ? 1 : 0),
+          (paf->has_string && paf->string != NULL ? paf->string : "NULL"));
+	  else
+	    //GSN's
+        fprintf( fp, "Affc '%s' %3d %3d %3d %3d %3d %10d %3d %3d %3s~\n",
+	  skill_table[paf->type].name,
+          paf->where,
+          paf->level,
+          paf->duration,
+          paf->modifier,
+          paf->location,
+          paf->bitvector,
+          paf->flags,
+          (paf->has_string && paf->string != NULL ? 1 : 0),
           (paf->has_string && paf->string != NULL ? paf->string : ""));
     }//END FOR
     for ( paf = pet->affected2; paf != NULL; paf = paf->next )
@@ -717,13 +717,13 @@ void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest, int hold_lim
 /* check for ch being a crusader */
     bool fCrus = (ch && ch->class == class_lookup("crusader"));
 /* check if object is being counted as limited */
-    bool fLim = IS_LIMITED(obj) || IS_OBJ_STAT (obj, ITEM_HOLDS_RARE)  
+    bool fLim = IS_LIMITED(obj) || IS_OBJ_STAT (obj, ITEM_HOLDS_RARE)
       || (fCrus && obj->pCabal && (obj->level >= 30 || obj->cost >= 125));
 /* rare litmit for any character, crusaders get special treatment to double it */
     int rare_limit = ch ? fCrus ? 2 * ((ch->level / 10) - 1) : (ch->level / 10) - 1 : 0;
 
     /* if bounty reward has just been done then we allow all rares to be saved */
-    if (ch && !IS_NPC(ch) 
+    if (ch && !IS_NPC(ch)
 	&& (IS_SET(ch->pcdata->messages, MSG_BOUNTY_REWARD)
 	    || IS_SET(ch->pcdata->messages, MSG_BOUNTY_RETURN))
 	)
@@ -807,7 +807,7 @@ void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest, int hold_lim
         fprintf( fp, "Wt   %d\n",	obj->weight		     );
     if ( obj->condition != obj->pIndexData->condition)
 	fprintf( fp, "Cond %d\n",	obj->condition		     );
-    if ( obj->pCabal 
+    if ( obj->pCabal
 	 && (obj->pIndexData->pCabal == NULL || obj->pIndexData->pCabal->vnum != obj->pCabal->vnum))
       fprintf( fp, "Cabal %s~\n",	obj->pCabal->name	     );
     if ( obj->race != obj->pIndexData->race)
@@ -828,7 +828,7 @@ void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest, int hold_lim
     fprintf( fp, "Cost %d\n",	obj->cost		     );
     if (obj->value[0] != obj->pIndexData->value[0] || obj->value[1] != obj->pIndexData->value[1]
     || obj->value[2] != obj->pIndexData->value[2] || obj->value[3] != obj->pIndexData->value[3]
-    || obj->value[4] != obj->pIndexData->value[4]) 
+    || obj->value[4] != obj->pIndexData->value[4])
         fprintf( fp, "Val  %d %d %d %d %d\n", obj->value[0], obj->value[1], obj->value[2], obj->value[3], obj->value[4] );
     switch ( obj->item_type )
     {
@@ -863,28 +863,28 @@ void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest, int hold_lim
 	//GEN'S
       if (IS_GEN(paf->type))
         fprintf( fp, "Affc '%s' %3d %3d %3d %3d %3d %10d %3d %3d %3s~\n",
-		 effect_table[GN_POS(paf->type)].name, 
-		 paf->where, 
-		 paf->level, 
-		 paf->duration, 
-		 paf->modifier, 
-		 paf->location, 
-		 paf->bitvector, 
-		 paf->flags,
-		 (paf->has_string && paf->string != NULL ? 1 : 0),  
-		 (paf->has_string && paf->string != NULL ? paf->string : "NULL"));
-      else
-	//GSN's
-        fprintf( fp, "Affc '%s' %3d %3d %3d %3d %3d %10d %3d %3d %3s~\n",
-		 skill_table[paf->type].name, 
-		 paf->where,    
+		 effect_table[GN_POS(paf->type)].name,
+		 paf->where,
 		 paf->level,
 		 paf->duration,
 		 paf->modifier,
 		 paf->location,
 		 paf->bitvector,
 		 paf->flags,
-		 (paf->has_string && paf->string != NULL ? 1 : 0),  
+		 (paf->has_string && paf->string != NULL ? 1 : 0),
+		 (paf->has_string && paf->string != NULL ? paf->string : "NULL"));
+      else
+	//GSN's
+        fprintf( fp, "Affc '%s' %3d %3d %3d %3d %3d %10d %3d %3d %3s~\n",
+		 skill_table[paf->type].name,
+		 paf->where,
+		 paf->level,
+		 paf->duration,
+		 paf->modifier,
+		 paf->location,
+		 paf->bitvector,
+		 paf->flags,
+		 (paf->has_string && paf->string != NULL ? 1 : 0),
 		 (paf->has_string && paf->string != NULL ? paf->string : ""));
     }//END FOR PAF
 
@@ -894,7 +894,7 @@ void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest, int hold_lim
 	if (spell->spell < 0 || spell->spell > MAX_SKILL)
 	  continue;
 	fprintf(fp, "Affs '%s' %3d %3d\n%s~\n%s~\n",
-		skill_table[spell->spell].name, 
+		skill_table[spell->spell].name,
 		spell->target,
 		spell->percent,
 		spell->message,
@@ -906,8 +906,8 @@ void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest, int hold_lim
       int i = 0;
       if (pTrap->owner)
 	continue;
-      fprintf( fp, "Trap %d %s~\n", 
-	       pTrap->pIndexData->vnum, 
+      fprintf( fp, "Trap %d %s~\n",
+	       pTrap->pIndexData->vnum,
 	       pTrap->name);
       fprintf(fp, "%d %d %d %d %d %s\n%d",
 	      pTrap->armed,
@@ -989,7 +989,7 @@ int load_char( DESCRIPTOR_DATA *d, char *name )
     ch->pcdata->quests			= NULL;
     ch->pcdata->max_quests		= 0;
     ch->id				= get_pc_id();
-    ch->logoff				= mud_data.current_time; 
+    ch->logoff				= mud_data.current_time;
     ch->color                           = 0;
     ch->pCabal				= NULL;
     ch->pcdata->member			= NULL;
@@ -999,7 +999,7 @@ int load_char( DESCRIPTOR_DATA *d, char *name )
     ch->pcdata->ethos			= ETHOS_NEUTRAL;
     ch->act				= PLR_NOSUMMON;
     ch->act2				= 0;
-    ch->comm                            = COMM_PROMPT; 
+    ch->comm                            = COMM_PROMPT;
     ch->game				= 0;
     ch->prompt 				= str_dup("%n%P%C<%hhp %mm %vmv> ");
     ch->pcdata->messages		= MSG_NONE;
@@ -1044,7 +1044,7 @@ int load_char( DESCRIPTOR_DATA *d, char *name )
     reset_dndspells(ch->pcdata);
 
     ch->perm_stat[STAT_LUCK]		= 16;
-    ch->pcdata->condition[COND_THIRST]	= 48; 
+    ch->pcdata->condition[COND_THIRST]	= 48;
     ch->pcdata->condition[COND_FULL]	= 48;
     ch->pcdata->condition[COND_HUNGER]	= 48;
     ch->pcdata->security                = 0;
@@ -1078,7 +1078,7 @@ int load_char( DESCRIPTOR_DATA *d, char *name )
     ch->pcdata->last_app		= (time_t)NULL;
     ch->pcdata->last_bounty		= (time_t)NULL;
     ch->pcdata->last_cabal		= NULL;
-    
+
 
     found				= FALSE;
     fclose( fpReserve );
@@ -1437,8 +1437,8 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 
 	      free_string( name );
 	      free_string( skill );
-	      
-	      if (pos >= 0 && pos < MAX_AFF_DISPLAY 
+
+	      if (pos >= 0 && pos < MAX_AFF_DISPLAY
 		  && sn > 0 && sn < (MAX_SKILL + MAX_EFFECTS)){
 		strcpy(ch->pcdata->custom_aff[pos].name, buf );
 		ch->pcdata->custom_aff[pos].gsn = sn;
@@ -1450,7 +1450,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	  if (!str_cmp(word, "ClanHandle")){
 	    char* name = fread_string( fp );
 	    int handle = GetClanHandle( name );
-	    
+
 	    if (!str_cmp(name, "Sacredoak"))
 	      handle = GetClanHandle( "Sacred Oak" );
 	    if ( handle < 1){
@@ -1463,7 +1463,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	    free_string( name );
 	    fMatch = TRUE;
 	    break;
-	  } 
+	  }
 	  if (!str_cmp(word,"Cnd"))
             {
                 ch->pcdata->condition[0] = fread_number( fp );
@@ -1747,7 +1747,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	  if ( !str_cmp( word, "Pr" ) ){
 	    int value = fread_number( fp );
 	    char *temp = fread_word( fp ) ;
-	    
+
 	    int sn = skill_lookup(temp);
 	    if ( sn < 0 ){
 	      nlogf("%s, progress of: %s ",ch->name, temp);
@@ -1806,7 +1806,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	    fMatch = TRUE;
 	    break;
 	  }
-  
+
 	  KEY( "RANK",     ch->pcdata->rank,    fread_number( fp ) );
 	    if ( !str_cmp( word, "Rec" ) )
 	    {
@@ -1906,7 +1906,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
 	    {
 	      char buf[MIL];
 		ch->pcdata->title = fread_string( fp );
-    		if (ch->pcdata->title[0] != '.' && ch->pcdata->title[0] != ',' 
+    		if (ch->pcdata->title[0] != '.' && ch->pcdata->title[0] != ','
 		&&  ch->pcdata->title[0] != '!' && ch->pcdata->title[0] != '?')
 		{
 		    sprintf( buf, " %s", ch->pcdata->title );
@@ -2109,7 +2109,7 @@ CHAR_DATA* fread_pet( CHAR_DATA *ch, FILE *fp, ROOM_INDEX_DATA* room )
 		ch->pet = pet;
 	      pet->summoner = ch;
 	      lastlogoff = pet->logoff;
-	      
+
 	      percent = (mud_data.current_time - lastlogoff) * 25 / ( 2 * 60 * 60);
 	      if (percent > 0 && !IS_AFFECTED(ch,AFF_POISON) && !IS_AFFECTED(ch,AFF_PLAGUE))
 		{
@@ -2193,7 +2193,7 @@ CHAR_DATA* fread_pet( CHAR_DATA *ch, FILE *fp, ROOM_INDEX_DATA* room )
 	    }
 	    if ( !str_cmp( word, "Room" ) ){
 	      ROOM_INDEX_DATA* in_room = NULL;
-	      
+
 	      sh_int temp = fread_number( fp );
 	      in_room = get_room_index( temp );
 	      if (in_room == NULL)
@@ -2261,9 +2261,14 @@ extern OBJ_DATA        *obj_free;
 OBJ_DATA* fread_obj( CHAR_DATA *ch, FILE *fp, ROOM_INDEX_DATA* pRoom )
 {
     OBJ_DATA *obj = NULL;
-    int iNest, load_room = 0, trash, idle = 0;
+    int iNest, load_room = 0, trash = 0, idle = 0;
     bool fMatch = FALSE, fNest, fVnum = FALSE, first = TRUE, new_format = FALSE, make_new = FALSE;
     char *word = feof( fp ) ? "End" : fread_word( fp );
+
+    /* Useless conditional */
+    if( trash != 0 )
+        trash = 0;
+
     if (!str_cmp(word,"Vnum" ))
     {
         int vnum = fread_number( fp );
@@ -2404,7 +2409,7 @@ OBJ_DATA* fread_obj( CHAR_DATA *ch, FILE *fp, ROOM_INDEX_DATA* pRoom )
                 if ( !fNest || ( fVnum && obj->pIndexData == NULL ) )
                 {
 		    bug( "Fread_obj: incomplete object.", 0 );
-		    free_obj(obj);		    
+		    free_obj(obj);
 		    rgObjNest[iNest] = NULL;
                     return NULL;
 		}
@@ -2519,7 +2524,7 @@ OBJ_DATA* fread_obj( CHAR_DATA *ch, FILE *fp, ROOM_INDEX_DATA* pRoom )
 	case 'T':
 	    KEY( "Time",	obj->timer,		fread_number( fp ) );
 	    if ( !str_cmp( word, "Trap" ) ){
-	      int vnum	=	fread_number( fp ); 
+	      int vnum	=	fread_number( fp );
 	      TRAP_INDEX_DATA* pTrapIndex = get_trap_index( vnum );
 
 	      if (pTrapIndex == NULL){

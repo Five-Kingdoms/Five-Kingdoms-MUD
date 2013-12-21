@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -98,8 +98,8 @@ const   struct  spec_type    spec_table[] =
     {	"spec_breath_fire",		spec_breath_fire	},
     {	"spec_breath_frost",		spec_breath_frost	},
     {	"spec_breath_gas",		spec_breath_gas		},
-    {	"spec_breath_lightning",	spec_breath_lightning	},	
-    {	"spec_breath_death",		spec_breath_death	},	
+    {	"spec_breath_lightning",	spec_breath_lightning	},
+    {	"spec_breath_death",		spec_breath_death	},
     {	"spec_cast_adept",		spec_cast_adept		},
     {	"spec_cast_cleric",		spec_cast_cleric	},
     {	"spec_cast_mage",		spec_cast_mage		},
@@ -262,7 +262,7 @@ bool spec_breath_gas( CHAR_DATA *ch )
 	return FALSE;
     if ( ( sn = skill_lookup( "gas breath" ) ) < 0 )
 	return FALSE;
-    if (number_bits( 3 ) != 0 ) 
+    if (number_bits( 3 ) != 0 )
 	return FALSE;
     (*skill_table[sn].spell_fun) ( sn, ch->level, ch, NULL,TARGET_CHAR);
     return TRUE;
@@ -327,7 +327,7 @@ bool spec_cast_cabal_healer( CHAR_DATA *ch )
     for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
     {
 	v_next = victim->next_in_room;
-	if ( victim != ch && can_see( ch, victim ) && number_bits( 1 ) == 0 && !IS_NPC(victim) 
+	if ( victim != ch && can_see( ch, victim ) && number_bits( 1 ) == 0 && !IS_NPC(victim)
 	     && _is_cabal(victim->pCabal, ch->pCabal ))
 	  break;
     }
@@ -345,7 +345,7 @@ bool spec_cast_cabal_healer( CHAR_DATA *ch )
         spell_cure_blindness( skill_lookup( "cure blindness" ),ch->level, ch, victim,TARGET_CHAR);
 	return TRUE;
     case 1:
-	if ( !is_affected(victim, skill_lookup( "poison" )) ) 
+	if ( !is_affected(victim, skill_lookup( "poison" )) )
 	    return FALSE;
 	if ( ch->pCabal && IS_CABAL(ch->pCabal, CABAL_NOMAGIC))
 	  send_to_char( "The Medic drains the venom from your veins.\n\r", victim);
@@ -433,13 +433,13 @@ bool spec_cast_cleric( CHAR_DATA *ch )
     case  7: min_level = 30; spell = "harm";		break;
     case  8: min_level = 35; spell = "dispel magic";	break;
     case  9: min_level = 40; spell = "frenzy";		break;
-    case 10: min_level = 45; 
+    case 10: min_level = 45;
       if (number_percent() < 50)
 	spell = "spell turning";
       else
 	spell = "steel wall";
       break;
-    default: min_level = 50; 
+    default: min_level = 50;
       if (IS_GOOD(ch))	spell = "ray of truth";
       else if (IS_EVIL(ch)) spell = "path of deceit";
       else spell = "harm";
@@ -573,14 +573,14 @@ CHAR_DATA* get_criminal( ROOM_INDEX_DATA* room, CHAR_DATA* ch ){
     v_next = victim->next_in_room;
 
     //look for raiders
-    if (IS_NPC(victim) 
-	&& IS_SET(victim->act, ACT_RAIDER) 
+    if (IS_NPC(victim)
+	&& IS_SET(victim->act, ACT_RAIDER)
 	&& IS_SET(ch->in_room->area->area_flags, AREA_CITY)){
       break;
     }
     else if (is_ghost(victim, 600))
       continue;
-    else if (IS_NPC(ch) 
+    else if (IS_NPC(ch)
 	     && ch->pIndexData->vnum != MOB_VNUM_SPECIAL_GUARD
 	     && ch->pIndexData->vnum != MOB_VNUM_HOUND
 	     && is_affected(victim, gsn_bribe))
@@ -600,12 +600,12 @@ bool spec_special_guard( CHAR_DATA *ch ){
   CHAR_DATA* mob = ch;
   bool fInCombat = FALSE;
 
-  if ( !IS_AWAKE(ch) 
+  if ( !IS_AWAKE(ch)
        || !IS_NPC(ch)
        || ch->master == NULL
        || is_affected(ch, gsn_ecstacy) )
     return FALSE;
-  
+
   if (ch->pIndexData->vnum == MOB_VNUM_SPECIAL_GUARD
       && is_affected(ch->master, gsn_raise_morale)){
     SET_BIT(ch->off_flags, OFF_BASH);
@@ -632,19 +632,19 @@ bool spec_special_guard( CHAR_DATA *ch ){
     return FALSE;
   else{
     MOB_INDEX_DATA* pMobIndex;
-    
+
     int mod = 100;
     int hp_level = 0;
     int level = !IS_NPC(victim) ? ch->master->level : 55;
     int i = 0;
     int hitroll = 0;
     int damroll = 0;
-    
+
     bool fWarrior = FALSE;
     bool fHalfWar = FALSE;
     bool fRouge = FALSE;
     bool fMage = FALSE;
-    
+
     /* put lower limit on level */
     level = UMAX(21, level);
 
@@ -676,7 +676,7 @@ bool spec_special_guard( CHAR_DATA *ch ){
     else{
       int attack = 1;
       int defense = 0;
-      
+
 /* Offense */
       if (victim->pcdata->learned[gsn_second_attack])
 	attack++;
@@ -688,7 +688,7 @@ bool spec_special_guard( CHAR_DATA *ch ){
 	attack += 2;
       if (victim->pcdata->learned[gsn_dan_blade])
 	attack++;
-      
+
 /* defense */
       if (victim->pcdata->learned[gsn_parry])
 	defense++;
@@ -705,7 +705,7 @@ bool spec_special_guard( CHAR_DATA *ch ){
 	defense++;
       if (victim->pcdata->learned[skill_lookup("blur")])
 	defense++;
-      
+
 /* select which type this is */
       if (attack > 3 || defense > 3)
 	fWarrior = TRUE;
@@ -719,7 +719,7 @@ bool spec_special_guard( CHAR_DATA *ch ){
       else
 	fMage = TRUE;
     }
-  
+
 /* adjust things base on general archtype */
 /* most of this is based on special guards plus few modifications */
     if ( ( pMobIndex = get_mob_index( mob->pIndexData->vnum)) == NULL){
@@ -772,17 +772,17 @@ bool spec_special_guard( CHAR_DATA *ch ){
     }
 
     if ( !fInCombat && level != mob->level){
-      act("$n seems to change in size and shape to match yours.", 
+      act("$n seems to change in size and shape to match yours.",
 	  mob, NULL, victim, TO_VICT);
-      act("$n seems to change in size and shape to match $N's.", 
+      act("$n seems to change in size and shape to match $N's.",
 	  mob, NULL, victim, TO_NOTVICT);
     }
-    mod = 100 * level / mob->level;    
+    mod = 100 * level / mob->level;
     mob->level	    = level;
 
     if (!fInCombat){
       mob->size = victim->size;
-      for (i=0;i < MAX_STATS; i++)  
+      for (i=0;i < MAX_STATS; i++)
 	mob->perm_stat[i] = get_max_train(victim, i);
       for (i=0; i < 4; i++)
 	mob->armor[i] = pMobIndex->ac[i] * mod / 100;
@@ -796,7 +796,7 @@ bool spec_special_guard( CHAR_DATA *ch ){
     mob->hitroll    = hitroll;
     mob->damroll    = damroll;
     mob->damage[DICE_NUMBER]  = UMAX(1, mod * pMobIndex->damage[DICE_NUMBER] / 100);
-    
+
     if (!fInCombat && ch->master->fighting != victim){
       multi_hit( ch, victim, TYPE_UNDEFINED );
     }
@@ -834,15 +834,15 @@ bool spec_guard( CHAR_DATA *ch ){
   char buf[MSL];
   CHAR_DATA *victim, *v_next, *ech = NULL;
   int max_evil = 300;
-  
+
   if ( !IS_AWAKE(ch) || ch->fighting != NULL )
     return FALSE;
-  
+
   for ( victim = ch->in_room->people; victim != NULL; victim = v_next ){
     v_next = victim->next_in_room;
 
     //look for raiders
-    if (IS_NPC(victim) && IS_SET(victim->act, ACT_RAIDER) 
+    if (IS_NPC(victim) && IS_SET(victim->act, ACT_RAIDER)
 	&& IS_SET(ch->in_room->area->area_flags, AREA_CITY)){
       sprintf( buf, "For glory of %s!!", ch->in_room->area->name);
       do_yell( ch, buf );
@@ -861,7 +861,7 @@ bool spec_guard( CHAR_DATA *ch ){
     return FALSE;
   else if (ech == NULL)
     ech = victim;
-  
+
   if ( ech != NULL )
     {
       sprintf( buf, "PROTECT THE INNOCENT!!  BANZAI!!");
@@ -881,8 +881,8 @@ bool spec_executioner( CHAR_DATA *ch ){
 
   if (!ch->in_room)
     return FALSE;
-  else if ( !IS_AREA(ch->in_room->area, AREA_LAWFUL) 
-	    || !IS_AWAKE(ch) 
+  else if ( !IS_AREA(ch->in_room->area, AREA_LAWFUL)
+	    || !IS_AWAKE(ch)
 	    || ch->fighting != NULL )
     return FALSE;
   else
@@ -917,15 +917,15 @@ bool spec_executioner( CHAR_DATA *ch ){
 bool spec_gate_guard( CHAR_DATA *ch ){
   char buf[MSL];
   CHAR_DATA *victim;
-  
+
   if ( !ch->in_room || !IS_AREA(ch->in_room->area, AREA_LAWFUL) || !IS_AWAKE(ch) || ch->fighting != NULL )
     return FALSE;
   else
     SET_BIT(ch->act2, ACT_LAWFUL );
-  
+
   if ( (victim = get_criminal( ch->in_room, ch )) == NULL)
     return FALSE;
-  
+
   if (IS_NPC(victim) && IS_SET(victim->act, ACT_RAIDER))
     sprintf( buf, "For glory of %s!", ch->in_room->area->name);
   else{
@@ -936,7 +936,7 @@ bool spec_gate_guard( CHAR_DATA *ch ){
   REMOVE_BIT(ch->comm,COMM_NOYELL);
   j_yell( ch, buf );
   SET_BIT(ch->comm,COMM_NOYELL);
-  
+
   /* check of simulacra for justices */
   if (is_affected(victim, gsn_doppelganger)){
     char buf[MIL];
@@ -1011,7 +1011,7 @@ bool spec_thief( CHAR_DATA *ch )
     return FALSE;
 }
 
-/* does the cabal services 
+/* does the cabal services
  * COMMENTS:
  * The services are divided into four categories:
  *
@@ -1072,7 +1072,7 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
 	     "  restore    <none>	: Restore stamina\n\r\n\r");
     }
     if (IS_SET( flag, SERV_ITEM)){
-      sendf( ch,  
+      sendf( ch,
 	     "  identify   <item>	: Identify object\n\r"\
 	     "  bless      <item>	: Bless an item\n\r"\
 	     "  bind       <item>	: Bind an owner to item\n\r"\
@@ -1080,7 +1080,7 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
 	     "  locate     <item>	: Locate a item in the lands.\n\r\n\r");
     }
     if (IS_SET( flag, SERV_TRAIN)){
-      sendf( ch,	     
+      sendf( ch,
 	     "  advance    <number>   : Provide experience\n\r"\
 	     "  train      <stat>	: Provide physical and mental training\n\r\n\r");
     }
@@ -1094,20 +1094,20 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
       send_to_char("\n\r", ch );
     }
     if (IS_SET( flag, SERV_OTHER)){
-      sendf( ch,	     
+      sendf( ch,
 	     "  life-insurance        : Secure your items in case of demise\n\r");
     }
     send_to_char("\n\rUse: \"service <type> cost\" for detalied costs.\n\r", ch);
     return;
   }
-  
+
 /* SERV_HEAL */
   if (IS_SET( flag, SERV_HEAL)){
     if (!str_prefix(arg1, "uncurse")){
       fFound = TRUE;
       cost = unit * 60 / 100;
       if (arg2[0] != '\0' && !str_cmp("cost", arg2)){
-	sendf(ch, "Removes a curse upon a character and his items for %d %s%s per attempt.\n\r", 
+	sendf(ch, "Removes a curse upon a character and his items for %d %s%s per attempt.\n\r",
 	      cost, ch->pCabal->currency, (cost == 1? "" : "s") );
 	return;
       }
@@ -1128,7 +1128,7 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
       fFound = TRUE;
       cost = unit * 25 / 100;
       if (arg2[0] != '\0' && !str_cmp("cost", arg2)){
-	sendf(ch, "Quickly restores health for %d %s%s per application.\n\r", 
+	sendf(ch, "Quickly restores health for %d %s%s per application.\n\r",
 	      cost, ch->pCabal->currency, (cost == 1? "" : "s") );
 	return;
       }
@@ -1140,7 +1140,7 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
       fFound = TRUE;
       cost = unit * 28/ 100;
       if (arg2[0] != '\0' && !str_cmp("cost", arg2)){
-	sendf(ch, "Removes many bodly harms at %d %s%s per attempt.\n\r", 
+	sendf(ch, "Removes many bodly harms at %d %s%s per attempt.\n\r",
 	      cost, ch->pCabal->currency, (cost == 1? "" : "s") );
 	return;
       }
@@ -1152,7 +1152,7 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
       fFound = TRUE;
       cost = unit * 2 / 100;
       if (!str_cmp("cost", arg2)){
-	sendf(ch, "Restores stamina at %d %s%s per application.\n\r", 
+	sendf(ch, "Restores stamina at %d %s%s per application.\n\r",
 	      cost, ch->pCabal->currency, (cost == 1? "" : "s") );
 	return;
       }
@@ -1226,7 +1226,7 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
       AFFECT_DATA* paf;
       const int dur = 480;
       fFound = TRUE;
-      
+
       if (arg2[0] == '\0' || !str_cmp("cost", arg2)){
 	sendf(ch, "Binds the item to you, as its owner for %d days.\n\r"\
 	      "Cost is 2 times the level of item.\n\r", dur / 24);
@@ -1284,7 +1284,7 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
       fFound = TRUE;
       cost = 60;
       if (arg2[0] == '\0' || !str_cmp("cost", arg2)){
-	sendf(ch, "Locates an item, %d %s%s per attempt.\n\r", 
+	sendf(ch, "Locates an item, %d %s%s per attempt.\n\r",
 	      cost, ch->pCabal->currency, (cost == 1? "" : "s") );
 	return;
       }
@@ -1311,9 +1311,9 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
       gain = 33 * cost;
 
       fFound = TRUE;
-      
+
       if (cost < 1){
-	sendf(ch, "Grants 33 exp points per %s.\n\r", 
+	sendf(ch, "Grants 33 exp points per %s.\n\r",
 	      ch->pCabal->currency);
 	return;
       }
@@ -1326,7 +1326,7 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
 	act("$N says 'I'm sorry but there is nothing else I can teach you.'", ch,NULL,mob,TO_CHAR);
 	return;
       }
-      
+
       act = "$N begins to lecture on far away places and worldly knowledge.";
       sendf( ch, "You receive %d experience points.\n\r", gain );
       gain_exp(ch, gain);
@@ -1342,7 +1342,7 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
       fFound = TRUE;
 
       if (arg2[0] == '\0' || !str_cmp("cost", arg2)){
-	sendf(ch, "Raises a single statistic, %d %s%s per attempt.\n\r", 
+	sendf(ch, "Raises a single statistic, %d %s%s per attempt.\n\r",
 	      cost, ch->pCabal->currency, (cost == 1? "" : "s") );
 	return;
       }
@@ -1388,7 +1388,7 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
       act( "Your $T increases!", ch, NULL, pOutput, TO_CHAR );
       act( "$n's $T increases!", ch, NULL, pOutput, TO_ROOM );
       /* end training */
-      
+
       act = "$N beams with pride.";
       sn = 0;
       spell = NULL;
@@ -1408,7 +1408,7 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
 	      cost, ch->pCabal->currency, (cost == 1? "" : "s"));
 
 	if (IS_SET(flag, SERV_CABAL)){
-	  sendf(ch, "1/2 price for %s knowledge, 8 %ss for %s knowledge below average level.\n\r", 
+	  sendf(ch, "1/2 price for %s knowledge, 8 %ss for %s knowledge below average level.\n\r",
 		ch->pCabal->who_name,
 		ch->pCabal->currency,
 		ch->pCabal->who_name );
@@ -1437,7 +1437,7 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
 	}
 	if (skill < 75)
 	  cost = 8;
-	else 
+	else
 	  cost = 1 * cost / 2;
       }
       else{
@@ -1468,7 +1468,7 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
       else
 	ch->pcdata->learned[sn] ++;
       act = "$N begins to drone on about various skills.";
-      sendf( ch, "Your understanding of %s has increased.\n\r", 
+      sendf( ch, "Your understanding of %s has increased.\n\r",
 	     skill_table[sn].name );
       sn = 0;
       spell = NULL;
@@ -1478,7 +1478,7 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
     if (!str_prefix(arg1, "life-insurance")){
       AFFECT_DATA af;
       const int dur = 72;
-      
+
       cost = 5 * ch->level;
       fFound = TRUE;
 
@@ -1487,7 +1487,7 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
 	      "Cost is %d now and once more upon event of death.\n\r", dur / 24, cost);
 	return;
       }
-      
+
       if (GET_CP(ch) < cost)
 	{
 	  act("$N says 'You do not have enough coin for my services.'", ch,NULL,mob,TO_CHAR);
@@ -1527,7 +1527,7 @@ void do_service(CHAR_DATA* ch, CHAR_DATA* mob, char *argument){
     act("$n performs $s service.", mob, NULL, ch, TO_VICT);
     act(act , ch, obj, mob,TO_ALL);
   }
-  
+
   if (spell != NULL && sn > 0){
     target_name = t_name;
     spell(sn, mob->level, mob, ch, TARGET_CHAR);
@@ -1542,7 +1542,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
     char buf[MSL], arg[MIL], t_name[MIL];
     int cost, sn;
     SPELL_FUN *spell;
-    char *words;	
+    char *words;
     for ( mob = ch->in_room->people; mob; mob = mob->next_in_room )
         if ( IS_NPC(mob) && IS_SET(mob->act, ACT_IS_HEALER) )
             break;
@@ -1583,7 +1583,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
         send_to_char("  heal: healing spell           5000 + level*100 gold\n\r",ch);
         send_to_char("  blind: cure blindness         2000 + level*20 gold\n\r",ch);
         send_to_char("  disease: cure disease         1500 + level*20 gold\n\r",ch);
-        send_to_char("  poison:  cure poison          2500 + level*20 gold\n\r",ch); 
+        send_to_char("  poison:  cure poison          2500 + level*20 gold\n\r",ch);
         send_to_char("  uncurse: person or item	      5000 + level*20 gold\n\r",ch);
         send_to_char("  refresh: restore movement      500 + level*10 gold\n\r",ch);
         send_to_char("  mana:  restore mana           1000 + level*20 gold\n\r",ch);
@@ -1622,7 +1622,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
     {
 	spell = spell_cure_blindness;
 	sn    = skill_lookup("cure blindness");
-      	words = "judicandus noselacri";		
+      	words = "judicandus noselacri";
         cost  = 2000 + (ch->level*20);
     }
     else if (!str_prefix(arg,"disease"))
@@ -1641,7 +1641,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
     }
     else if (!str_prefix(arg,"uncurse") || !str_prefix(arg,"curse"))
     {
-	spell = spell_remove_curse; 
+	spell = spell_remove_curse;
 	sn    = skill_lookup("remove curse");
 	words = "candussido judifgz";
 	cost  = 5000 + (ch->level*20);
@@ -1651,7 +1651,7 @@ void do_heal(CHAR_DATA *ch, char *argument)
 	}
 	else if (IS_NULLSTR(argument)){
 	  act("$N says '`#Which of your items shall I remove the curse from?``'", ch, NULL, mob, TO_CHAR);
-	  return;	
+	  return;
 	}
 	else
 	  sprintf( t_name, "%s %s", ch->name, argument );
@@ -1667,10 +1667,10 @@ void do_heal(CHAR_DATA *ch, char *argument)
     {
 	spell =  spell_refresh;
 	sn    = skill_lookup("refresh");
-	words = "candusima"; 
+	words = "candusima";
 	cost  = 500 + (ch->level*20);
     }
-    else 
+    else
     {
         act("$N says 'Type 'heal' for a list of spells.'", ch,NULL,mob,TO_CHAR);
 	return;
@@ -1754,7 +1754,7 @@ void wound_effect(CHAR_DATA* ch, CHAR_DATA* victim,  int level, int dam){
 
   if (victim == NULL || saves_spell(level, victim, DAM_SLASH, SPELL_AFFLICTIVE))
     return;
-  
+
   if ( !is_affected(victim, gen_move_dam)){
     AFFECT_DATA af, *paf;
 
@@ -1780,7 +1780,7 @@ void fire_effect(void *vo, int level, int dam, int target)
 {
   if (target == TARGET_CHAR){
     CHAR_DATA *victim = (CHAR_DATA *) vo;
-    if (!IS_AFFECTED(victim,AFF_BLIND) 
+    if (!IS_AFFECTED(victim,AFF_BLIND)
 	&& !saves_spell(3 * level / 4 + dam / 15, victim,DAM_FIRE,SPELL_AFFLICTIVE))
       {
 	AFFECT_DATA af;
@@ -1790,7 +1790,7 @@ void fire_effect(void *vo, int level, int dam, int target)
 	af.type         = skill_lookup("fire breath");
 	af.level        = level;
 	af.duration     = 1;
-	
+
 	af.location	= APPLY_HITROLL;
 	if (!IS_NPC(victim) && number_percent() < get_skill(victim,gsn_blind_fighting)){
 	  if (is_affected(victim, gsn_battletrance))
@@ -1802,7 +1802,7 @@ void fire_effect(void *vo, int level, int dam, int target)
 	  af.modifier      = -6;
 	af.bitvector 	= AFF_BLIND;
 	affect_to_char(victim,&af);
-	
+
 	af.location     = APPLY_AC;
 	if (!IS_NPC(victim) && number_percent() < get_skill(victim,gsn_blind_fighting)){
 	  if (is_affected(victim, gsn_battletrance))
@@ -1862,7 +1862,7 @@ void  paralyze_effect(void *vo,int level, int dam, int target)
 	AFFECT_DATA af;
 	act("$n has been paralyzed!", victim, NULL, NULL, TO_ROOM);
 	act("You have been paralyzed!", victim, NULL, NULL, TO_CHAR);
-	
+
 	af.type      = gsn_paralyze;
 	af.level     = level;
 	af.duration  = 1;
@@ -1916,7 +1916,7 @@ void do_identify( CHAR_DATA *ch, char *argument )
 	do_say(ch, "Armor only socket.");
       else if (IS_SOC_STAT(obj, SOCKET_WEAPON))
 	do_say(ch, "Weapon only socket.");
-      else 
+      else
 	do_say(ch, "Weapon only socket.");
       if (obj->value[1]){
 	sprintf(buf, "Adds following to extra flags: %s",
@@ -1929,7 +1929,7 @@ void do_identify( CHAR_DATA *ch, char *argument )
 	do_say(ch, buf);
       }
     break;
-    case ITEM_SCROLL: 
+    case ITEM_SCROLL:
     case ITEM_ARTIFACT:
     case ITEM_POTION:
     case ITEM_PILL:
@@ -1943,8 +1943,8 @@ void do_identify( CHAR_DATA *ch, char *argument )
             }
 	do_say(ch,buf);
 	break;
-    case ITEM_WAND: 
-    case ITEM_STAFF: 
+    case ITEM_WAND:
+    case ITEM_STAFF:
         if (skill_table[obj->value[3]].name == NULL)
             break;
         sprintf( buf, "Has %d charges of level %d", obj->value[2], obj->value[0] );
@@ -1977,7 +1977,7 @@ void do_identify( CHAR_DATA *ch, char *argument )
 	switch (obj->value[0])
 	{
         case(WEAPON_EXOTIC) : strcat(buf,"exotic.");       break;
-        case(WEAPON_SWORD)  : strcat(buf,"sword.");        break; 
+        case(WEAPON_SWORD)  : strcat(buf,"sword.");        break;
         case(WEAPON_DAGGER) : strcat(buf,"dagger.");       break;
         case(WEAPON_SPEAR)  : strcat(buf,"spear.");        break;
         case(WEAPON_MACE)   : strcat(buf,"mace/club.");    break;
@@ -1998,7 +1998,7 @@ void do_identify( CHAR_DATA *ch, char *argument )
 	  do_say( ch, "Can be socketed.");
 	break;
     case ITEM_ARMOR:
-        sprintf( buf, "Armor class is %d pierce, %d bash, %d slash, and %d vs. magic.", 
+        sprintf( buf, "Armor class is %d pierce, %d bash, %d slash, and %d vs. magic.",
           obj->value[0], obj->value[1], obj->value[2], obj->value[3] );
 	do_say( ch,buf );
 	if ( IS_OBJ_STAT(obj, ITEM_SOCKETABLE))
@@ -2017,11 +2017,11 @@ void do_identify( CHAR_DATA *ch, char *argument )
         break;
     case ITEM_RANGED:
       if (obj->value[3] == 0)
-	sprintf(buf, "Can be used to fire: %s.", 
+	sprintf(buf, "Can be used to fire: %s.",
 		flag_string(projectile_type, obj->value[0]));
       else{
 	OBJ_INDEX_DATA* ammo = get_obj_index( obj->value[3] );
-	sprintf(buf, "Can be used to fire: %s.", 
+	sprintf(buf, "Can be used to fire: %s.",
 		ammo == NULL ? "NOT FOUND" : ammo->short_descr);
       }
       do_say(ch, buf);
@@ -2032,7 +2032,7 @@ void do_identify( CHAR_DATA *ch, char *argument )
       do_say(ch, buf);
       break;
     case ITEM_PROJECTILE:
-      sprintf(buf, "Is a projectile of type %s", 
+      sprintf(buf, "Is a projectile of type %s",
 	      flag_string(projectile_type, obj->value[0]));
       do_say(ch, buf);
       if (obj->pIndexData->new_format)
@@ -2046,12 +2046,12 @@ void do_identify( CHAR_DATA *ch, char *argument )
     if (!obj->enchanted)
       for ( paf = obj->pIndexData->affected; paf != NULL; paf = paf->next )
         {
-	    if ( paf->location != APPLY_NONE 
+	    if ( paf->location != APPLY_NONE
 		 && (paf->location < APPLY_O_COND || paf->where == TO_SKILL)
 		 && paf->modifier != 0 )
 	    {
-                sprintf( buf, "Affects %s by %d.", 
-			 (paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location )), 
+                sprintf( buf, "Affects %s by %d.",
+			 (paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location )),
 			 paf->modifier );
 	        do_say( ch,buf );
             }
@@ -2072,11 +2072,11 @@ void do_identify( CHAR_DATA *ch, char *argument )
             }
         }
     for ( paf = obj->affected; paf != NULL; paf = paf->next )
-	if ( paf->location != APPLY_NONE 
+	if ( paf->location != APPLY_NONE
 	     && (paf->location < APPLY_O_COND || paf->where == TO_SKILL)
 	     && paf->modifier != 0 )
 	{
-            sprintf( buf, "Affects %s by %d", 
+            sprintf( buf, "Affects %s by %d",
 		     (paf->where == TO_SKILL ? skill_table[paf->location].name : affect_loc_name( paf->location )),
  		     paf->modifier );
             if ( paf->duration > -1)
@@ -2104,7 +2104,7 @@ void do_identify( CHAR_DATA *ch, char *argument )
   //MANA CHARGE
     if ( (paf = affect_find(obj->affected, gen_mana_charge)) != NULL)
       {
-	
+
 	char buf [MIL];
 	if(mcharge_info(ch, buf, obj, paf, TRUE))
 	  do_say(ch, buf);
@@ -2119,7 +2119,7 @@ void do_identify( CHAR_DATA *ch, char *argument )
 	    obj->pCabal ? " ": "");
       do_say(ch, buf);
     }
-    
+
     if (CAN_WEAR(obj, ITEM_UNIQUE))
         do_say(ch,"Unique item.");
     if (CAN_WEAR(obj, ITEM_RARE))
@@ -2194,7 +2194,7 @@ void do_home( CHAR_DATA *ch, char *argument )
 
 bool spec_keeper_stay(CHAR_DATA *ch)
 {
-    if (ch->fighting != NULL)  
+    if (ch->fighting != NULL)
         return FALSE;
     if (ch->position < POS_SLEEPING)
         return FALSE;
@@ -2250,9 +2250,9 @@ bool spec_keeper_move(CHAR_DATA *ch)
 
   //  bool fReverse = (open > close);
 
-  if (ch->fighting != NULL)  
+  if (ch->fighting != NULL)
     return FALSE;
- 
+
  if (ch->position < POS_SLEEPING)
     return FALSE;
 
@@ -2308,7 +2308,7 @@ bool spec_shadowdemon(CHAR_DATA *ch)
     {
     	if (chance < 2)
     	{
-	    
+
 	    act("$n snarls and attacks you for wasting its time.",ch,NULL,victim,TO_VICT);
 	    act("$n snarls and lunges at $N.",ch,NULL,victim,TO_NOTVICT);
 	    multi_hit(ch, victim, TYPE_UNDEFINED);
@@ -2323,7 +2323,7 @@ bool spec_shadowdemon(CHAR_DATA *ch)
     }
     return FALSE;
 }
-	
+
 
 bool spec_mob_call( CHAR_DATA *ch )
 {
@@ -2336,10 +2336,10 @@ bool spec_mob_call( CHAR_DATA *ch )
     if ( is_affected(ch,gsn_mind_link) )
 	return FALSE;
 
-    if ( ch->pIndexData->vnum == MOB_VNUM_DISPLACER 
-	 && victim->in_room->sector_type != SECT_FIELD 
-	 && victim->in_room->sector_type != SECT_FOREST 
-	 && victim->in_room->sector_type != SECT_HILLS 
+    if ( ch->pIndexData->vnum == MOB_VNUM_DISPLACER
+	 && victim->in_room->sector_type != SECT_FIELD
+	 && victim->in_room->sector_type != SECT_FOREST
+	 && victim->in_room->sector_type != SECT_HILLS
 	 && victim->in_room->sector_type != SECT_MOUNTAIN )
       return FALSE;
     if ( ch->master == NULL  || (number_percent() > get_skill(ch->master,gsn_mind_link)))
@@ -2454,9 +2454,9 @@ bool vanguard_fight(CHAR_DATA* ch, CHAR_DATA* victim){
   /* first and foremost:
      - Vangaurd cannot fight mobs or lawfuls or non-evils
      - doing so results in it leaving the master.
-     
+
      combat behavior:
-     
+
  I] Health above 25%:
  - Spell (50)
  --  turn undead if undead
@@ -2471,7 +2471,7 @@ bool vanguard_fight(CHAR_DATA* ch, CHAR_DATA* victim){
  -- Bodyslam
  -- Sidestep
  -- Disarm/shielddisarm/offhand
- 
+
 - Other
  -- Rescues if master below 30
   */
@@ -2515,8 +2515,8 @@ bool vanguard_fight(CHAR_DATA* ch, CHAR_DATA* victim){
   /* Check who we are fighting */
 /* Viri: removed for now
   if ((!IS_EVIL(victim) && !victim->master)
-      || (IS_NPC(victim) 
-	  && !victim->master 
+      || (IS_NPC(victim)
+	  && !victim->master
 	  && victim->pCabal == NULL
 	  && !IS_AFFECTED(victim, AFF_CHARM))      ){
     if (!IS_IMMORTAL(ch->master)){
@@ -2524,7 +2524,7 @@ bool vanguard_fight(CHAR_DATA* ch, CHAR_DATA* victim){
       REMOVE_BIT(ch->comm, COMM_NOYELL);
       do_yell(ch, buf);
       fHasYelled = TRUE;
-      SET_BIT(ch->comm, COMM_NOYELL);      
+      SET_BIT(ch->comm, COMM_NOYELL);
       die_follower(ch, TRUE);
       return TRUE;
     }
@@ -2540,7 +2540,7 @@ bool vanguard_fight(CHAR_DATA* ch, CHAR_DATA* victim){
       check_social(ch, "snort","");
       sprintf(buf, "You seem to be in need of a rescue %s. Turning into a damsel are you?", PERS(ch->master, ch));
       do_say(ch, buf);
-      sprintf(buf, ch->master->name);
+      sprintf(buf, "%s", ch->master->name);
       do_rescue(ch, buf);
       return TRUE;
     }
@@ -2557,9 +2557,9 @@ bool vanguard_fight(CHAR_DATA* ch, CHAR_DATA* victim){
 	   && !is_affected(victim, gsn_turn_undead)
 	   )
     to_turn = 100;
-  else if ( IS_OUTSIDE(ch) 
+  else if ( IS_OUTSIDE(ch)
 	    && !IS_SET(ch->in_room->room_flags, ROOM_DARK)
-	    && mud_data.time_info.hour > 7 
+	    && mud_data.time_info.hour > 7
 	    && mud_data.time_info.hour < 18){
 
 	    if (mud_data.weather_info.sky < SKY_RAINING)
@@ -2567,7 +2567,7 @@ bool vanguard_fight(CHAR_DATA* ch, CHAR_DATA* victim){
 	    else if (mud_data.weather_info.sky < SKY_CLOUDY)
 	      to_sear = 100;
   }
-  
+
   /* test for special behavior when traget is weak. */
   if ( 100 * victim->hit  / victim->max_hit < low_health){
     /* we do not cast spells, but lag */
@@ -2615,7 +2615,7 @@ bool vanguard_fight(CHAR_DATA* ch, CHAR_DATA* victim){
 	sprintf(buf, "You seem quite hurt %s. Perhaps one more bodyslam is in order?", PERS(victim, ch));
 	break;
       case 4:
-	sprintf(buf, "If that is best you have %s, next time bring an army.", 
+	sprintf(buf, "If that is best you have %s, next time bring an army.",
 		PERS(victim, ch));
 	break;
       case 5:
@@ -2688,7 +2688,7 @@ bool vanguard_fight(CHAR_DATA* ch, CHAR_DATA* victim){
       case 4:
 	do_pmote(ch, "Straightens in obvious disdain.");
 	if (victim->master){
-	  sprintf(buf, "Are you so weak %s that you depend on %s to be your bitch?.", 
+	  sprintf(buf, "Are you so weak %s that you depend on %s to be your bitch?.",
 		  PERS(victim->master, ch),
 		  PERS(victim, ch));
 	}
@@ -2771,14 +2771,14 @@ bool vanguard_fight(CHAR_DATA* ch, CHAR_DATA* victim){
     }
     else if (chance < to_banish){
       if (!fHasYelled){
-	sprintf(buf, "%s! By %s's power I banish you from these lands!", 
+	sprintf(buf, "%s! By %s's power I banish you from these lands!",
 		PERS(victim, ch),
 		ch->master->pcdata->deity);
 	REMOVE_BIT(ch->comm, COMM_NOYELL);
 	fHasYelled = TRUE;
 	do_yell(ch, buf);
 	SET_BIT(ch->comm, COMM_NOYELL);
-      }        
+      }
       spell_mbanish(skill_lookup("minor banishment"), level, ch, (void*) victim, TARGET_CHAR);
     }
     else if (chance < to_sear){
@@ -2831,7 +2831,7 @@ bool vanguard_fight(CHAR_DATA* ch, CHAR_DATA* victim){
 	    || is_affected_obj(wield, gsn_graft_weapon)
 	    || is_affected_obj(wield, gen_dark_meta))
 	{
-	  
+
 	  if ( (wield = get_eq_char( ch, WEAR_SECONDARY )) != NULL)
 	    do_offhand_disarm(ch, "");
 	  else if ( (wield = get_eq_char( ch, WEAR_SHIELD )) != NULL)
@@ -2882,7 +2882,7 @@ bool vanguard_behave(CHAR_DATA* ch){
   }
   /* Return to master occasionly */
   if (!mch && !IS_SET(ch->special,SPECIAL_SENTINEL)
-      && ch->master 
+      && ch->master
       && ch->master->in_room
       && !IS_ROOM(ch->master->in_room, ROOM_NO_INOUT)
       && !IS_ROOM(ch->in_room, ROOM_NO_INOUT)
@@ -2939,7 +2939,7 @@ bool vanguard_behave(CHAR_DATA* ch){
 	  sprintf(buf, "Come out, come out, where ever you are!");
 	else{
 	  do_emote(ch, "slams $s gauntlet into $s armored chest making a loud clank");
-	  sprintf(buf, "Bring out yer dead! Bring out yer dead!"); 
+	  sprintf(buf, "Bring out yer dead! Bring out yer dead!");
 	}
       }
       else if (ch->in_room->pCabal && ch->in_room->pCabal == get_cabal("savant")){
@@ -2957,12 +2957,12 @@ bool vanguard_behave(CHAR_DATA* ch){
       }
       else{
 	if (mch){
-	  act("In a strange metalic voice $n belches out: `#Danger $N $t, Danger!``", 
-	      ch, 
+	  act("In a strange metalic voice $n belches out: `#Danger $N $t, Danger!``",
+	      ch,
 	      (mch->pcdata->family[0]? mch->pcdata->family : ""),
 	      mch, TO_ROOM);
-	  act("In a strange metalic voice you belche out: `#Danger $N $t, Danger!``", 
-	      ch, 
+	  act("In a strange metalic voice you belche out: `#Danger $N $t, Danger!``",
+	      ch,
 	      (mch->pcdata->family[0]? mch->pcdata->family : ""),
 	      mch, TO_CHAR);
 	}
@@ -3083,29 +3083,29 @@ bool vanguard_behave(CHAR_DATA* ch){
 	}
 	else if (rch->race == race_lookup("illithid")){
 	  fSay = TRUE;
-	  sprintf(buf, "Hope your intelligence makes up for your looks %s", 
+	  sprintf(buf, "Hope your intelligence makes up for your looks %s",
 		  PERS(rch, ch));
 	}
 	else if (rch->race == race_lookup("illithid")){
 	  fSay = TRUE;
 	  if (number_percent() < 50)
-	    sprintf(buf, "Hope your intelligence makes up for your looks %s.", 
+	    sprintf(buf, "Hope your intelligence makes up for your looks %s.",
 		    PERS(rch, ch));
 	  else{
 	    check_social(ch, "chuckle", "");
-	    sprintf(buf, "Ever seen calamari %s?", 
+	    sprintf(buf, "Ever seen calamari %s?",
 		    PERS(rch, ch));
 	  }
 	}
 	else if (rch->race == race_lookup("duergar")
 		 || rch->race == race_lookup("dwarf")){
 	  fSay = TRUE;
-	  sprintf(buf, "Watch my legplating %s, else you impale your face on a spikard.", 
+	  sprintf(buf, "Watch my legplating %s, else you impale your face on a spikard.",
 		  PERS(rch, ch));
 	}
 	else if (IS_UNDEAD(rch)){
 	  fSay = TRUE;
-	  sprintf(buf, "You look like you missed out on your last embalming session %s.", 
+	  sprintf(buf, "You look like you missed out on your last embalming session %s.",
 		  PERS(rch, ch));
 	}
 	else{
@@ -3118,7 +3118,7 @@ bool vanguard_behave(CHAR_DATA* ch){
     case 3:
       fSay = TRUE;
       if (rch)
-	  sprintf(buf, "Is there not something you need to do %s?", 
+	  sprintf(buf, "Is there not something you need to do %s?",
 		  PERS(rch, ch));
       else
 	sprintf(buf, "Is there not something we should be doing?");
@@ -3179,7 +3179,7 @@ bool spec_servant_hide(CHAR_DATA *ch){
 
 bool spec_justice_sentinel(CHAR_DATA *ch){
   /* hides and invises if not incombat,
-     scans area for visible wanted and reports to 
+     scans area for visible wanted and reports to
      master.
   */
   CHAR_DATA* victim;
@@ -3207,7 +3207,7 @@ bool spec_justice_sentinel(CHAR_DATA *ch){
   if (number_percent() > to_act)
     return FALSE;
 
-  if ( (paf = affect_find(ch->affected, gsn_timer)) != NULL 
+  if ( (paf = affect_find(ch->affected, gsn_timer)) != NULL
        && paf->duration <= 1){
     sprintf(buf, "Reporting end of duty at %s in %s.", ch->in_room->name, ch->in_room->area->name);
     cabal_echo_flag( CABAL_JUSTICE, buf );
@@ -3221,7 +3221,7 @@ bool spec_justice_sentinel(CHAR_DATA *ch){
   }
 
   /* scan area for baddies */
-    if(  (IS_AFFECTED(ch, AFF_BLIND) && !is_affected(ch, gsn_bat_form)) 
+    if(  (IS_AFFECTED(ch, AFF_BLIND) && !is_affected(ch, gsn_bat_form))
 	 || (IS_AFFECTED(ch, AFF_BLIND) && bat_blind(ch))  || bat_blind(ch) )
     {
 	send_to_char( "You can't see a thing!\n\r", ch );
@@ -3249,18 +3249,18 @@ bool spec_justice_sentinel(CHAR_DATA *ch){
     buf2[0] = '\0';
     for ( victim = player_list; victim != NULL; victim = victim->next_player ){
       if (IS_SET(victim->act, PLR_WANTED)
-	  && (!IS_AFFECTED2(victim,AFF_SHADOWFORM) 
+	  && (!IS_AFFECTED2(victim,AFF_SHADOWFORM)
 	      || IS_IMMORTAL(ch))
 	  && (!IS_AFFECTED2(victim,AFF_TREEFORM))
-	  && (!IS_NPC(victim) 
-	      || is_affected(victim,gsn_doppelganger)) 
-	  && !IS_IMMORTAL(victim) 
+	  && (!IS_NPC(victim)
+	      || is_affected(victim,gsn_doppelganger))
+	  && !IS_IMMORTAL(victim)
 	  && victim->in_room != NULL
 	  && !IS_SET(victim->in_room->room_flags,ROOM_NOWHERE)
 	  && !room_is_private(victim->in_room)
 	  && victim->in_room->area == ch->in_room->area
-	  && !is_affected(victim,gsn_bat_form) 
-	  && !is_affected(victim,gsn_coffin) 
+	  && !is_affected(victim,gsn_bat_form)
+	  && !is_affected(victim,gsn_coffin)
 	  && !is_affected(victim,gsn_entomb)
 	  && !IS_AFFECTED2(victim,AFF_CATALEPSY)
 	  && can_see( ch, victim )  )
@@ -3295,10 +3295,10 @@ bool can_meye_report(CHAR_DATA* victim, char* name, int sn){
   else
     return TRUE;
 }
-    
+
 bool spec_magic_eye(CHAR_DATA *ch){
   /* hides camoes and invises if not incombat,
-     scans area for visible pk threats of leader and reports to 
+     scans area for visible pk threats of leader and reports to
      leader.
   */
   CHAR_DATA* victim;
@@ -3331,7 +3331,7 @@ bool spec_magic_eye(CHAR_DATA *ch){
   if (number_percent() > to_act)
     return FALSE;
 
-  if ( (paf = affect_find(ch->affected, gsn_timer)) != NULL 
+  if ( (paf = affect_find(ch->affected, gsn_timer)) != NULL
        && paf->duration <= 1){
     send_to_char("Your magic eye has expired.\n\r", ch->leader);
     act("$n disappears in a flash of energy.", ch, NULL, NULL, TO_ROOM);
@@ -3363,16 +3363,16 @@ bool spec_magic_eye(CHAR_DATA *ch){
     if (!IS_NPC(victim)
 	&& !IS_AFFECTED2(victim,AFF_SHADOWFORM)
 	&& !IS_AFFECTED2(victim,AFF_TREEFORM)
-	&& !IS_IMMORTAL(victim) 
+	&& !IS_IMMORTAL(victim)
 	&& victim != ch->leader
 	&& victim->in_room != NULL
 	&& !IS_SET(victim->in_room->room_flags,ROOM_NOWHERE)
 	&& !room_is_private(victim->in_room)
 	&& victim->in_room->area == ch->in_room->area
-	&& !is_affected(victim,gsn_coffin) 
+	&& !is_affected(victim,gsn_coffin)
 	&& !is_affected(victim,gsn_entomb)
 	&& !IS_AFFECTED2(victim,AFF_CATALEPSY)
-	&& is_pk(ch->leader, victim) 
+	&& is_pk(ch->leader, victim)
 	&& can_see( ch, victim )
 	&& can_meye_report(victim, ch->leader->name, gsn_magic_eye))
 	{
@@ -3414,29 +3414,29 @@ bool spec_magic_eye(CHAR_DATA *ch){
 
    PREY_TYPE		: Selector for PREY:
    0	:	NONE
-   1	:	RACE 
+   1	:	RACE
    2	:	RACE_ONLY (HUNTS THAT RACE AND NOTHING ELSE)
    3	:	CLASS
    4	:	CLASS_ONLY (HUNTS THAT CLASS AND NOTHING ELSE)
    5	:	CABAL
    6	:	CABAL_ONLY (HUNTS THAT CABAL AND NOTHING ELSE)
 
-   PREY			: Integer reference to specific prey based on 
-			  PREY_TYPE   Should reflect xxx_lookup 
+   PREY			: Integer reference to specific prey based on
+			  PREY_TYPE   Should reflect xxx_lookup
 			  from game tables.
 
 */
-  
+
 
 CHAR_DATA* scan_for_victim(
-			   CHAR_DATA*		ch, 
-			   ROOM_INDEX_DATA*	room, 
-			   const int		max_depth, 
-			   int			depth, 
-			   int			PC_ONLY, 
-			   bool			ALIGN_CHECK, 
-			   int			CABAL, 
-			   int			PREY_TYPE, 
+			   CHAR_DATA*		ch,
+			   ROOM_INDEX_DATA*	room,
+			   const int		max_depth,
+			   int			depth,
+			   int			PC_ONLY,
+			   bool			ALIGN_CHECK,
+			   int			CABAL,
+			   int			PREY_TYPE,
 			   int			PREY
 			   ){
   CHAR_DATA* vch;
@@ -3452,7 +3452,7 @@ CHAR_DATA* scan_for_victim(
 /* check for characters in room */
   for (vch = room->people; vch; vch = vch->next_in_room){
 /* following always reject a character */
-    if (vch->level < 20 
+    if (vch->level < 20
 	|| ch == vch
 	|| (IS_NPC(vch) && ch->group == vch->group)
 	|| (fPC_ONLY && IS_NPC(vch))
@@ -3523,7 +3523,7 @@ CHAR_DATA* scan_for_victim(
 
 /* Mark the room for rejection */
     MARK( room );
-    vch = scan_for_victim(ch, pexit->to_room, max_depth, depth + 1, 
+    vch = scan_for_victim(ch, pexit->to_room, max_depth, depth + 1,
 			  PC_ONLY, ALIGN_CHECK, CABAL, PREY_TYPE, PREY);
     UNMARK( room );
     if (vch)
@@ -3534,7 +3534,7 @@ CHAR_DATA* scan_for_victim(
 
 
 
-/* function responsible for hunter killer behavior 
+/* function responsible for hunter killer behavior
    NOTE:
    THE BEHAVIOR OF THE SCAN AGAINST PC/MOBS IS DICTATED BY:
 
@@ -3545,21 +3545,21 @@ CHAR_DATA* scan_for_victim(
 
    PREY_TYPE		: Selector for PREY:
    0	:	NONE (PREY is the movement range)
-   1	:	RACE 
+   1	:	RACE
    2	:	RACE_ONLY (HUNTS THAT RACE AND NOTHING ELSE)
    3	:	CLASS
    4	:	CLASS_ONLY (HUNTS THAT CLASS AND NOTHING ELSE)
    5	:	CABAL
    6	:	CABAL_ONLY (HUNTS THAT CABAL AND NOTHING ELSE)
 
-   PREY			: Integer reference to specific prey based on 
-			  PREY_TYPE   Should reflect xxx_lookup 
+   PREY			: Integer reference to specific prey based on
+			  PREY_TYPE   Should reflect xxx_lookup
 			  from game tables.
 
 */
 bool hunter_killer(CHAR_DATA* ch, int PC_ONLY, bool fALLIED, bool fWARP, bool fCITYWARP, int CABAL, int PREY_TYPE, int PREY){
   extern char * const dir_name[];
-  ROOM_INDEX_DATA* to_room, *last_room;  
+  ROOM_INDEX_DATA* to_room, *last_room;
 
   int max_depth = PREY_TYPE == 0 ? PREY  : 15;	//Maximum rooms away that new prey will found
   const int max_hunt = 30;	//Max distance for detecting hunted
@@ -3567,19 +3567,19 @@ bool hunter_killer(CHAR_DATA* ch, int PC_ONLY, bool fALLIED, bool fWARP, bool fC
 
   int steps = 0;
   int door = 0;
-  
+
   CHAR_DATA* victim = NULL;
 
-/* 
+/*
    The function checks all rooms surrounding it up to depth of "depth"
    in recursive fashion.  If a valid target is found (ch of level > 20)
-   the mob fakes "moving" there by shoting few messages, and then teleporting 
+   the mob fakes "moving" there by shoting few messages, and then teleporting
    in.
 */
   if (ch->fighting)
     return TRUE;
 
-/* 
+/*
 all this is skipped if we are already hunting someone.
 In such case, we check if the hunted is within the max_hut range to follow him
 and if so, we follow max_fol steps.  Otherwise we stop hunting
@@ -3654,7 +3654,7 @@ and if so, we follow max_fol steps.  Otherwise we stop hunting
       }
     }
   }
-  
+
 /* If we have not warped we wander */
   if (victim == NULL && !IS_SET(ch->act, ACT_WANDER))
     return TRUE;
@@ -3685,14 +3685,14 @@ and if so, we follow max_fol steps.  Otherwise we stop hunting
 	continue;
       pre_doors[++pre_max_door] = i;
     }
-/* 
+/*
    we use status to preven doubling back to the room we came from
-   unless that is the only valid exit (only if there is more then 1 exit) 
+   unless that is the only valid exit (only if there is more then 1 exit)
 */
     last_door = rev_dir[last_door];
 
     for (i = 0; i <= pre_max_door; i++){
-      if (pre_max_door > 0 
+      if (pre_max_door > 0
 	  && pre_doors[i] == last_door)
 	continue;
       else
@@ -3717,8 +3717,8 @@ and if so, we follow max_fol steps.  Otherwise we stop hunting
       return FALSE;
     if ( ch->in_room->exit[door]
 	 && ch->in_room->exit[door]->to_room
-	 && IS_SET( ch->in_room->exit[door]->exit_info, EX_CLOSED ) 
-	 && !(IS_AFFECTED(ch,AFF_PASS_DOOR) 
+	 && IS_SET( ch->in_room->exit[door]->exit_info, EX_CLOSED )
+	 && !(IS_AFFECTED(ch,AFF_PASS_DOOR)
 	      && !IS_SET(ch->in_room->exit[door]->exit_info,EX_NOPASS)) ){
       do_open( ch, (char *) dir_name[door] );
     }
@@ -3732,7 +3732,7 @@ and if so, we follow max_fol steps.  Otherwise we stop hunting
     if (ch->in_room == last_room)
       return TRUE;
   }
-  
+
 
 /* attack if had victim */
   if (victim == NULL)
@@ -3764,11 +3764,11 @@ and if so, we follow max_fol steps.  Otherwise we stop hunting
   }
 
 
-/* 
+/*
    This is a spec function for mobs that will cause them to look
    for victims in immediate area
    NOTE:
-   THE BEHAVIOR OF THE HUNTER AGAINST PC/MOBS IS DICTATED BY MANA and GROUP 
+   THE BEHAVIOR OF THE HUNTER AGAINST PC/MOBS IS DICTATED BY MANA and GROUP
 
    GROUP		: If vnum of cabal, non of those cabal members will
 			  be hunted.
@@ -3776,14 +3776,14 @@ and if so, we follow max_fol steps.  Otherwise we stop hunting
    mana[DICE_NUMBER]	: Chance for PC ONLY
    mana[DICE_TYPE]	: Selector for DICE BONUS:
    0	:	NONE (DICE_BONUS becomes the movement range)
-   1	:	RACE 
+   1	:	RACE
    2	:	CLASS
    3	:	CABAL
    4	:	RACE _ONLY
    5	:	CLASS_ONLY
    6	:	CABAL_ONLY
-   mana[DICE_BONUS]	: Integer reference to specific prey based on 
-			  mana[DICE_TYPE].   Should reflect xxx_lookup 
+   mana[DICE_BONUS]	: Integer reference to specific prey based on
+			  mana[DICE_TYPE].   Should reflect xxx_lookup
 			  from game tables.
 
 */
@@ -3798,7 +3798,7 @@ bool spec_hunter_nonallied(CHAR_DATA *ch){
   int PREY_TYPE = ch->pIndexData->mana[DICE_TYPE];
   int PREY = ch->pIndexData->mana[DICE_BONUS];
 
-  return hunter_killer(ch, PC_ONLY, fALLIED, fWARP, 
+  return hunter_killer(ch, PC_ONLY, fALLIED, fWARP,
 		       fCITYWARP, CABAL, PREY_TYPE, PREY);
 }
 
@@ -3812,7 +3812,7 @@ bool spec_hunter_nonallied_warp(CHAR_DATA *ch){
   int PREY_TYPE = ch->pIndexData->mana[DICE_TYPE];
   int PREY = ch->pIndexData->mana[DICE_BONUS];
 
-  return hunter_killer(ch, PC_ONLY, fALLIED, fWARP, 
+  return hunter_killer(ch, PC_ONLY, fALLIED, fWARP,
 		       fCITYWARP, CABAL, PREY_TYPE, PREY);
 }
 
@@ -3826,7 +3826,7 @@ bool spec_hunter_nonallied_cwarp(CHAR_DATA *ch){
   int PREY_TYPE = ch->pIndexData->mana[DICE_TYPE];
   int PREY = ch->pIndexData->mana[DICE_BONUS];
 
-  return hunter_killer(ch, PC_ONLY, fALLIED, fWARP, 
+  return hunter_killer(ch, PC_ONLY, fALLIED, fWARP,
 		       fCITYWARP, CABAL, PREY_TYPE, PREY);
 }
 
@@ -3840,7 +3840,7 @@ bool spec_hunter_allied(CHAR_DATA *ch){
   int PREY_TYPE = ch->pIndexData->mana[DICE_TYPE];
   int PREY = ch->pIndexData->mana[DICE_BONUS];
 
-  return hunter_killer(ch, PC_ONLY, fALLIED, fWARP, 
+  return hunter_killer(ch, PC_ONLY, fALLIED, fWARP,
 		       fCITYWARP, CABAL, PREY_TYPE, PREY);
 }
 
@@ -3854,7 +3854,7 @@ bool spec_hunter_allied_warp(CHAR_DATA *ch){
   int PREY_TYPE = ch->pIndexData->mana[DICE_TYPE];
   int PREY = ch->pIndexData->mana[DICE_BONUS];
 
-  return hunter_killer(ch, PC_ONLY, fALLIED, fWARP, 
+  return hunter_killer(ch, PC_ONLY, fALLIED, fWARP,
 		       fCITYWARP, CABAL, PREY_TYPE, PREY);
 }
 
@@ -3868,7 +3868,7 @@ bool spec_hunter_allied_cwarp(CHAR_DATA *ch){
   int PREY_TYPE = ch->pIndexData->mana[DICE_TYPE];
   int PREY = ch->pIndexData->mana[DICE_BONUS];
 
-  return hunter_killer(ch, PC_ONLY, fALLIED, fWARP, 
+  return hunter_killer(ch, PC_ONLY, fALLIED, fWARP,
 		       fCITYWARP, CABAL, PREY_TYPE, PREY);
 }
 
@@ -3881,7 +3881,7 @@ bool spec_terminator(CHAR_DATA *ch){
 
   if (ch->fighting == NULL)
     return FALSE;
-  else 
+  else
     vch = ch->fighting;
   if (get_eq_char(ch,WEAR_WIELD) != NULL)
     return FALSE;
@@ -4086,7 +4086,7 @@ void do_obelisk_seer( CHAR_DATA *ch, char *argument ){
   do_say(ch, "I'm sorry child, but that is all He has shown me.");
 }
 
-/* checks if any demons, undead, or vendetta cabaled chars are in the first area 
+/* checks if any demons, undead, or vendetta cabaled chars are in the first area
 this char's cabal connects to
 */
 bool spec_knight_seer(CHAR_DATA *ch){
@@ -4141,7 +4141,7 @@ bool spec_knight_seer(CHAR_DATA *ch){
   }
   if (!fUndead && !fDemon && !fEnemy)
     return FALSE;
-    
+
 /* print the message */
   if (fEnemy)
     sprintf( buf, "[%s]: 'Beware.. An enemy draws near!'", PERS2(ch));
@@ -4206,7 +4206,7 @@ bool spec_nexus_nemesis(CHAR_DATA *ch){
       pRoom = NULL;
     else
       pRoom = exits[number_range(0, last_exit - 1)];
-    
+
     if (pRoom){
       act("$n phases out and disappears.", ch, NULL, NULL, TO_ROOM);
       char_from_room( ch );
@@ -4217,7 +4217,7 @@ bool spec_nexus_nemesis(CHAR_DATA *ch){
   }
   return FALSE;
 }
-		   
+
 void path_walk( CHAR_DATA* ch ){
   PATH_QUEUE* path, *curr, *prev = NULL;
   ROOM_INDEX_DATA* room_old;
@@ -4243,7 +4243,7 @@ void path_walk( CHAR_DATA* ch ){
     ch->trust = 6969;
     room_old = ch->in_room;
     move_char( ch, (int)curr->from_dir, TRUE );
-  
+
     if (ch->in_room == NULL)
       return;
     else if (ch->fighting)
@@ -4272,12 +4272,12 @@ void path_walk( CHAR_DATA* ch ){
   /* run spec prog if we are at end */
   if ( (ch->spec_path == NULL || ch->spec_path->room == NULL)
        && HAS_TRIGGER_MOB(ch, TRIG_SPECIAL)){
-    p_percent_trigger( ch, NULL, NULL, ch, NULL, NULL, TRIG_SPECIAL);    
+    p_percent_trigger( ch, NULL, NULL, ch, NULL, NULL, TRIG_SPECIAL);
   }
   return;
 }
-  
-/* 
+
+/*
    walk along set path in ->spec_data pointer, takes ->mana[DICE_NUMBER] steps
 */
 bool spec_path_walk(CHAR_DATA *ch){
@@ -4323,8 +4323,8 @@ bool spec_raider_actions(CHAR_DATA *ch){
 
   //check for mobs present in the room
   for (vch = ch->in_room->people; vch; vch = vch->next_in_room ){
-    if (!IS_NPC(vch) 
-	|| IS_AFFECTED(vch, AFF_CHARM) 
+    if (!IS_NPC(vch)
+	|| IS_AFFECTED(vch, AFF_CHARM)
 	|| vch == ch
 	|| IS_SET(vch->act, ACT_RAIDER)
 	|| is_same_cabal(ch->pCabal, vch->pCabal))
@@ -4351,7 +4351,7 @@ bool spec_raider_actions(CHAR_DATA *ch){
     vch = target;
   else
     vch = NULL;
-  
+
   if (vch){
     sprintf(buf, "Help! I am being attacked by %s!",PERS(ch,vch));
     REMOVE_BIT(vch->comm, COMM_NOYELL);
@@ -4365,12 +4365,12 @@ bool spec_raider_actions(CHAR_DATA *ch){
       break;
   }
   //in cabals the raiders can re-troch
-  if (obj == NULL 
+  if (obj == NULL
       || (IS_AREA(ch->in_room->area, AREA_CABAL) && obj->timer < dur - 2)){
     /* no targets to attack */
     if (number_percent() > torch_chance)
       return FALSE;
-    
+
     /* torch the place */
     if (obj != NULL){
       obj->timer = dur;
@@ -4387,25 +4387,25 @@ bool spec_raider_actions(CHAR_DATA *ch){
       affect_cabal_relations(ch->pCabal, ch->in_room->area->pCabal, -PACT_MAX_RATING / 20, TRUE );
     }
 
-    //set area flag 
+    //set area flag
     if (ch->in_room->area->raid != NULL)
       SET_BIT(ch->in_room->area->area_flags, AREA_RAID);
 
     //force npcs to die in the blaze
     for (vch = ch->in_room->people; vch; vch = vch_next){
       vch_next = vch->next_in_room ;
-      if (!IS_NPC(vch) 
-	  || IS_AFFECTED(vch, AFF_CHARM) 
+      if (!IS_NPC(vch)
+	  || IS_AFFECTED(vch, AFF_CHARM)
 	  || vch == ch
 	  || (vch->pCabal && vch->pCabal->altar == vch)
-	  || IS_SET(vch->off_flags,CABAL_GUARD) 
+	  || IS_SET(vch->off_flags,CABAL_GUARD)
 	  || IS_SET(vch->act, ACT_RAIDER)
 	  || is_same_cabal(ch->pCabal, vch->pCabal))
 	continue;
       act("$n dies, trapped in the blazing rubble!", vch, NULL, NULL, TO_ROOM);
       extract_char( vch, TRUE );
     }
-    
+
     sup_dam = number_range(1, 6 * CABAL_FULL_SUPPORT) / 6;
     cps_dam = number_range( CPTS, 2 * CPTS);
 
@@ -4415,7 +4415,7 @@ bool spec_raider_actions(CHAR_DATA *ch){
     cps_dam = number_range( CPTS, 2 * CPTS);
 
     /* LOSS-GAIN  */
-    if (ch->pCabal 
+    if (ch->pCabal
 	&& ch->in_room->area->pCabal
 	&& is_friendly(ch->pCabal, ch->in_room->area->pCabal) == CABAL_ENEMY){
 
@@ -4471,7 +4471,7 @@ bool spec_raider_actions(CHAR_DATA *ch){
       return FALSE;
     }
     else
-      clean_path();  
+      clean_path();
     ch->spec_path = path;
     return FALSE;
   }
@@ -4494,23 +4494,23 @@ bool awakenlife_roomdestroy( CHAR_DATA* ch, ROOM_INDEX_DATA* room ){
 
   //check for mobs present in the room
   for (vch = room->people; vch; vch = vch->next_in_room ){
-    if (!IS_NPC(vch) 
+    if (!IS_NPC(vch)
 	|| IS_SET(vch->act, ACT_NONCOMBAT)
-	|| IS_AFFECTED(vch, AFF_CHARM) 
+	|| IS_AFFECTED(vch, AFF_CHARM)
 	|| vch == ch
 	|| IS_SET(vch->act, ACT_RAIDER)
 	|| is_same_cabal(ch->pCabal, vch->pCabal))
       continue;
     else if (!can_see( ch, vch))
       continue;
-    else if (vch->level > 50 
+    else if (vch->level > 50
 	     || IS_SET(vch->act, ACT_NOPURGE)
 	     || IS_SET(vch->act, ACT_TOO_BIG)){
       continue;
     }
     else if (IS_SET(vch->act2, ACT_LAWFUL))
       lawful = vch;
-    else if (vch->pCabal 
+    else if (vch->pCabal
 	     && !is_same_cabal(ch->pCabal, vch->pCabal)
 	     && is_friendly(ch->pCabal, vch->pCabal) == CABAL_ENEMY)
       target = vch;
@@ -4525,7 +4525,7 @@ bool awakenlife_roomdestroy( CHAR_DATA* ch, ROOM_INDEX_DATA* room ){
     vch = target;
   else
     vch = NULL;
-  
+
   //If we have a mob to attack attack it now
   if (vch){
     sprintf(buf, "Help! I am being attacked by %s!",PERS(ch,vch));
@@ -4564,13 +4564,13 @@ bool awakenlife_roomdestroy( CHAR_DATA* ch, ROOM_INDEX_DATA* room ){
     //force npcs to die in the blaze
     for (vch = ch->in_room->people; vch; vch = vch_next){
       vch_next = vch->next_in_room ;
-      if (!IS_NPC(vch) 
+      if (!IS_NPC(vch)
 	  || (vch->pCabal && vch->pCabal->altar == vch)
 	  || IS_SET(vch->act, ACT_NONCOMBAT)
 	  || IS_SET(vch->act, ACT_IS_HEALER)
-	  || IS_AFFECTED(vch, AFF_CHARM) 
+	  || IS_AFFECTED(vch, AFF_CHARM)
 	  || vch == ch
-	  || IS_SET(vch->off_flags,CABAL_GUARD) 
+	  || IS_SET(vch->off_flags,CABAL_GUARD)
 	  || IS_SET(vch->act, ACT_RAIDER)
 	  || (vch->pCabal && is_friendly(ch->pCabal, vch->pCabal) != CABAL_ENEMY))
 	continue;
@@ -4589,7 +4589,7 @@ bool awakenlife_roomdestroy( CHAR_DATA* ch, ROOM_INDEX_DATA* room ){
       cps_dam = 0;
     }
     /* LOSS-GAIN  */
-    if (ch->pCabal 
+    if (ch->pCabal
 	&& ch->in_room->area->pCabal
 	&& is_friendly(ch->pCabal, ch->in_room->area->pCabal) == CABAL_ENEMY){
 
@@ -4624,7 +4624,7 @@ bool awakenlife_roomdestroy( CHAR_DATA* ch, ROOM_INDEX_DATA* room ){
 void awakenlife_rampage( CHAR_DATA* ch){
   ROOM_INDEX_DATA* pTo;
   ROOM_INDEX_DATA* pFrom = ch->in_room;
-  
+
   int area_pool = 10;
 
   pTo =  get_rand_room(pFrom->area->vnum, pFrom->area->vnum,//area range (0 to ignore)
@@ -4674,7 +4674,7 @@ bool spec_awakenlife_actions( CHAR_DATA *ch ){
     char_from_room( ch );
     extract_char( ch, TRUE );
     return TRUE;
-  }    
+  }
   //do nothing if we are fighting
   if (ch->fighting != NULL)
     return FALSE;
@@ -4682,7 +4682,7 @@ bool spec_awakenlife_actions( CHAR_DATA *ch ){
   else if (ch->spec_path != NULL && state != AWAKENLIFE_RAMP)
     return FALSE;
 
-  
+
   switch (state){
     //move or retreat states do nothing except move
   default:

@@ -1,0 +1,41 @@
+#!/bin/bash
+# Written by Furey.
+# With additions from Tony and Alander.
+
+# Set the port number.
+port=5500
+if (test "$1" != "" ) 
+    then port="$1"
+fi
+
+# Change to area directory.
+cd ../area
+
+# Set limits.
+if ( test -e shutdown.txt ) 
+    then rm -f shutdown.txt
+fi
+
+while [ 1 ] 
+do
+    index=1000
+    while [ 1 ]
+    do 
+	logfile=../log/$index.log
+	if (test ! -e $logfile ) 
+	    then break
+	fi
+	index=`expr $index + 1`
+    done
+
+# Run rom.
+# core dumping
+    ../src/clands $port > $logfile 2>&1
+# Restart, giving old connections a chance to die.
+    if (test -e shutdown.txt ) 
+	then rm -f shutdown.txt
+	mv shutdown.txt shutdown.old
+    fi
+
+    sleep 15
+done

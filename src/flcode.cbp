@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="flcode" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="bin/Debug/flcode" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/flcode" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Makefile" />
+		<Unit filename="act_comm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="act_info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="act_move.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="act_obj.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="act_wiz.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="alias.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="alias.h" />
+		<Unit filename="ansi.h" />
+		<Unit filename="armies.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="armies.h" />
+		<Unit filename="autoquest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="autoquest.h" />
+		<Unit filename="avatar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bounty.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bounty.h" />
+		<Unit filename="cabal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cabal.h" />
+		<Unit filename="cabal2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="clan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="clan.h" />
+		<Unit filename="comm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="comm.h" />
+		<Unit filename="const.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="copyright" />
+		<Unit filename="crypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="db.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="db.h" />
+		<Unit filename="dndspell.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dndspell.h" />
+		<Unit filename="effect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="effect.h" />
+		<Unit filename="fight.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="flcode.cbp" />
+		<Unit filename="handler.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="html.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="html.h" />
+		<Unit filename="interp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="interp.h" />
+		<Unit filename="jail.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="jail.h" />
+		<Unit filename="losereply.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="magic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="magic.h" />
+		<Unit filename="magic2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="magic3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="magic4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="merc.h" />
+		<Unit filename="misc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="misc.h" />
+		<Unit filename="mob_cmds.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mob_cmds.h" />
+		<Unit filename="mob_prog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mob_prog_new.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mob_prog_old.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="olc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="olc.h" />
+		<Unit filename="olc_act.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="olc_mpcode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="raid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="raid.h" />
+		<Unit filename="recycle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="recycle.h" />
+		<Unit filename="resolve.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="s_skill.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="s_skill.h" />
+		<Unit filename="save.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="save_mud.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="save_mud.h" />
+		<Unit filename="skills.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="skills2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="skills3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="skills4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="skills5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="song.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="song.h" />
+		<Unit filename="special.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="startup" />
+		<Unit filename="tables.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tattoo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="telnet.h" />
+		<Unit filename="tome.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tome.h" />
+		<Unit filename="update.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vote.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vote.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -32,18 +32,6 @@
 
 void char_gen( DESCRIPTOR_DATA *d, char *argument );
 
-extern struct chargen_choice_s chargen_body_table[CGEN_MAX_BODY];
-extern struct chargen_choice_s chargen_face_table[CGEN_MAX_FACE];
-extern struct chargen_choice_s chargen_skin_table[CGEN_MAX_SKIN];
-extern struct chargen_choice_s chargen_eyes_table[CGEN_MAX_EYES];
-extern struct chargen_choice_s chargen_hair_table[CGEN_MAX_HAIR];
-extern struct chargen_choice_s chargen_hairl_table[CGEN_MAX_HAIRL];
-extern struct chargen_choice_s chargen_hairt_table[CGEN_MAX_HAIRT];
-extern struct chargen_choice_s chargen_hairf_table[CGEN_MAX_HAIRF];
-extern struct chargen_choice_s chargen_perk_table[CGEN_MAX_PERK];
-
-
-
 typedef void CHARGEN_FUN	( DESCRIPTOR_DATA* d, char* argument );
 #define CHARGEN_FUN( func )	void func( DESCRIPTOR_DATA* d, char* argument )
 
@@ -59,6 +47,16 @@ struct chargen_choice_s{
   int		int1;
   sh_int*	int2;
 };
+
+extern struct chargen_choice_s chargen_body_table[CGEN_MAX_BODY];
+extern struct chargen_choice_s chargen_face_table[CGEN_MAX_FACE];
+extern struct chargen_choice_s chargen_skin_table[CGEN_MAX_SKIN];
+extern struct chargen_choice_s chargen_eyes_table[CGEN_MAX_EYES];
+extern struct chargen_choice_s chargen_hair_table[CGEN_MAX_HAIR];
+extern struct chargen_choice_s chargen_hairl_table[CGEN_MAX_HAIRL];
+extern struct chargen_choice_s chargen_hairt_table[CGEN_MAX_HAIRT];
+extern struct chargen_choice_s chargen_hairf_table[CGEN_MAX_HAIRF];
+extern struct chargen_choice_s chargen_perk_table[CGEN_MAX_PERK];
 
 CHARGEN_FUN(	chargen_null	);
 CHARGEN_FUN(	chargen_greet	);

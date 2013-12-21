@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -73,7 +73,7 @@ extern bool dprobe_check(CHAR_DATA* ch, CHAR_DATA* victim);
 
 
 /*---------------------------------------------------------------------------*/
-/*The following is the skeletion for the EFFECT_DATA cell of EFFECT_TABLE    
+/*The following is the skeletion for the EFFECT_DATA cell of EFFECT_TABLE
 structeffect_type
 {
 char* name;                 Name of skill
@@ -91,20 +91,20 @@ long flags2 Bitwise flags   (RESERVED)
 -------------------------------UPDATE FUNCTIONS-----------------------
 
     EFFECT_UPDATE_FUN effect_update_fun [MAX_EFFECT_UPDATE];
-    
+
     Function pointers (each one is NULL or points to effect_update_fun
-    declared with DECLARE_EFF_UPDATE_FUN in effect.h for updates 
+    declared with DECLARE_EFF_UPDATE_FUN in effect.h for updates
     seperated as follows:
  EFF_UPDATE_NONE          0 //Just in case we need this.
  EFF_UPDATE_INIT          1 //Called to set the effect.
  EFF_UPDATE_KILL          2 //Called when effect is stripped by handler
- EFF_UPDATE_ENTER         3 //On entering a room 
- EFF_UPDATE_LEAVE         4 //On leaving the room 
+ EFF_UPDATE_ENTER         3 //On entering a room
+ EFF_UPDATE_LEAVE         4 //On leaving the room
  EFF_UPDATE_COMBAT     5 //At the begginging of a combat round
  EFF_UPDATE_POSTCOMBAT    6 //At the end of combat round.
  EFF_UPDATE_PREATTACK     7 //Before attack
  EFF_UPDATE_POSTATTACK    8 //After attack
- EFF_UPDATE_PRESPELL      9 //Before spell is cast. 
+ EFF_UPDATE_PRESPELL      9 //Before spell is cast.
  EFF_UPDATE_POSTSPELL    10 //After spell (after spell function is run)
  EFF_UPDATE_PRECOMMAND   11 //Before any command
  EFF_UPDATE_POSTCOMMAND  12 //After any command
@@ -138,7 +138,7 @@ int value3[MAX_VALUE]    RESERVED
 
 AFFFECT_DATA* paf;       RESERVED
 
-END OF THE EFFECT_DATA description                                         
+END OF THE EFFECT_DATA description
 -----------------------------------------------------------------------------*/
 
 
@@ -147,7 +147,7 @@ END OF THE EFFECT_DATA description
 
 /////////////////////////----===BEGIN EFFECT TABLE===----////////////////
 
-const EFFECT_DATA   effect_table   [MAX_EFFECTS] = 
+const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
 {
   /* FIRST NULL CELL */
   {
@@ -856,7 +856,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     {10},                 //chance to corrupt
     {4},                  //chance to destroy item.
     NULL                  //paf pointer (RESERVED)
-  },//END hand of chaos 
+  },//END hand of chaos
 
   /*request lag effect. */
   {
@@ -960,7 +960,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     5,                     //beats (lag time inticks)
 
     //Begin the arrays of int. buffers/dummy data
-    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}, //value1 
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}, //value1
     {0},                  //value2  (mana loss per tick %)
     {0},                  //value3  (move loss per tick %)
     NULL                  //paf pointer (RESERVED)
@@ -1015,9 +1015,9 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     2 * PULSE_VIOLENCE,    //beats (lag time)
 
     //Begin the arrays of int. buffers/dummy data
-    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}, //value1 
-    {0},                  //value2  
-    {0},                  //value3 
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}, //value1
+    {0},                  //value2
+    {0},                  //value3
     NULL                  //paf pointer (RESERVED)
   }, //End seremon
 
@@ -1291,7 +1291,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     0,                     //beats (lag time inticks)
 
     //Begin the arrays of int. buffers/dummy data
-    {200,202,203,204,205,210,215,250,270,280,290,300,300,300,300,300}, //+DAM%/HIT% mult / 3% > 75 
+    {200,202,203,204,205,210,215,250,270,280,290,300,300,300,300,300}, //+DAM%/HIT% mult / 3% > 75
     {17},                  //Upkeep / tick
     {0},                  //NOT USED
     NULL                  //paf pointer (RESERVED)
@@ -1413,7 +1413,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "reflective-field",             //NAME
     &gen_ref_shield,          //Gen number pointer.
     "reflective field",                  //Damage noun.
-    "Your reflective shield shatters and expands outwards.", 
+    "Your reflective shield shatters and expands outwards.",
     "You are suddenly thrown back with huge force.",
 
     EFF_F1_NOEXTRACT,      //Bitwise flags 1 (RESERVED)
@@ -1693,8 +1693,8 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "death-shroud",    //NAME
     &gen_d_shroud,      //Gen number pointer.
     "!Shroud!",			//Damage noun
-    "The deathly chill leaves you as you return to the living.", 
-    "Pale and bleak $n appears out of vanishing shadows.", 
+    "The deathly chill leaves you as you return to the living.",
+    "Pale and bleak $n appears out of vanishing shadows.",
 
 
     EFF_F1_NOEXTRACT | EFF_F1_ALLOW_EXTEND,      //Bitwise flags 1 (RESERVED)
@@ -1863,7 +1863,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     &gen_sav_ward,          //Gen number pointer.
     "!WARD!",        //Damage noun.
 
-    "Efuzan's ward collapses.",    
+    "Efuzan's ward collapses.",
     "Strange runes flare around $n and fade.",
 
     EFF_F1_NOEXTRACT | EFF_F1_ALLOW_EXTEND,      //Bitwise flags 1 (RESERVED)
@@ -1919,7 +1919,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     &gen_sav_cata,          //Gen number pointer.
     "!CATA!",        //Damage noun.
 
-    "The arcane energy seeps from your body",    
+    "The arcane energy seeps from your body",
     "$n's skin loses its magical glow.",
 
     EFF_F1_NOEXTRACT | EFF_F1_ALLOW_EXTEND,      //Bitwise flags 1 (RESERVED)
@@ -1998,7 +1998,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       circle_of_protection_predamage,   //UPDATE_PREDAMAGE
       NULL,                     	//UPDATE_POSTDAMAGE
       NULL,                     	//UPDATE_TICK
-      NULL,                     	//UPDATE_MOBTICK  
+      NULL,                     	//UPDATE_MOBTICK
       NULL,                     	//UPDATE_PREDEATH
       NULL,                     	//UPDATE_POSTDEATH
       NULL,                     	//UPDATE_PREKILL
@@ -2031,7 +2031,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     &gen_challenge,          //Gen number pointer.
     "!CHALLANGE!",        //Damage noun.
 
-    "A challenge has ended.",    
+    "A challenge has ended.",
     "",
 
     EFF_F1_NOSAVE,      //Bitwise flags 1 (RESERVED)
@@ -2086,7 +2086,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     &gen_yearning,        //Gen number pointer.
     "yearning for the forests",           //Damage noun.
 
-    "Your yearning has been satisfied.",    
+    "Your yearning has been satisfied.",
     "",
 
     EFF_F1_NOSAVE,      //Bitwise flags 1 (RESERVED)
@@ -2160,7 +2160,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      NULL,                     //UPDATE_PREDAMAGE       
+      NULL,                     //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       ensnare_tick,           //UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -2177,7 +2177,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      NULL                     //UPDATE_VIOTICK    
+      NULL                     //UPDATE_VIOTICK
     },//End update functions.
 
     0,                     //PreBeats
@@ -2187,7 +2187,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     {0},                  //NA
     {0},                  //NA
     NULL                  //paf pointer (RESERVED)
-  }, //ENSNARE     
+  }, //ENSNARE
 
   /* RALLY */
   {
@@ -2198,7 +2198,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "",
     "",
 
-    EFF_F1_NOSAVE,      //Bitwise flags 1 (RESERVED)    
+    EFF_F1_NOSAVE,      //Bitwise flags 1 (RESERVED)
     GN_BEN,                  //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -2215,7 +2215,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      NULL,                     //UPDATE_PREDAMAGE   
+      NULL,                     //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       mob_gen_tick,           //UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -2232,7 +2232,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      NULL                     //UPDATE_VIOTICK    
+      NULL                     //UPDATE_VIOTICK
     },//End update functions.
 
     0,                     //PreBeats
@@ -2250,7 +2250,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     &gen_jail,		//Gen number pointer.
     "",			//Damage noun.
 
-    "\n\rYou leave the stink and dirt of jails behind you.",    
+    "\n\rYou leave the stink and dirt of jails behind you.",
     "",
 
     EFF_F1_NOEXTRACT,      //Bitwise flags 1 (RESERVED)
@@ -2308,7 +2308,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "$n leaves $s watchtower.",
     0,          //Bitwise flags 1(RESERVED)
     GN_STA,                     //Bitwise flags 2 (RESERVED)
-    //BEGIN UPDATE FUNTCIONS    
+    //BEGIN UPDATE FUNTCIONS
     {
       NULL,                   //UPDATE_NONE
       watch_init,             //UPDATE_INIT
@@ -2325,7 +2325,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                   //UPDATE_POSTCOMMAND
       NULL,                   //UPDATE_PREDAMAGE
       NULL,                   //UPDATE_POSTDAMAGE
-      NULL,		      //UPDATE_TICK   
+      NULL,		      //UPDATE_TICK
       NULL,                   //UPDATE_MOBTICK
       NULL,                   //UPDATE_PREDEATH
       NULL,                   //UPDATE_POSTDEATH
@@ -2341,7 +2341,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                   //UPDATE_EXPANSION
       NULL,                   //UPDATE_EXPANSION
       NULL                    //UPDATE_EXPANSION
-    },//End update functions.             
+    },//End update functions.
 
     0,                     //PreBeats
     0,                     //beats (lag time)
@@ -2362,7 +2362,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "$n stops landing staggering blows.",
     EFF_F1_NOSAVE,          //Bitwise flags 1(RESERVED)
     GN_INT,                     //Bitwise flags 2 (RESERVED)
-    //BEGIN UPDATE FUNTCIONS    
+    //BEGIN UPDATE FUNTCIONS
     {
       NULL,                   //UPDATE_NONE
       NULL,		      //UPDATE_INIT
@@ -2379,7 +2379,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                   //UPDATE_POSTCOMMAND
       batter_predamage,       //UPDATE_PREDAMAGE
       batter_postdamage,      //UPDATE_POSTDAMAGE
-      NULL,		      //UPDATE_TICK   
+      NULL,		      //UPDATE_TICK
       NULL,                   //UPDATE_MOBTICK
       NULL,                   //UPDATE_PREDEATH
       NULL,                   //UPDATE_POSTDEATH
@@ -2395,7 +2395,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                   //UPDATE_EXPANSION
       NULL,                   //UPDATE_EXPANSION
       NULL                    //UPDATE_EXPANSION
-    },//End update functions.             
+    },//End update functions.
 
     0,                     //PreBeats
     0,                     //beats (lag time)
@@ -2416,7 +2416,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "You seem to have overcome your drug addiction.",
     "",
 
-    0,				//Bitwise flags 1 (RESERVED)   
+    0,				//Bitwise flags 1 (RESERVED)
     GN_STA,                  //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -2433,7 +2433,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      NULL,                     //UPDATE_PREDAMAGE         
+      NULL,                     //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       addiction_tick,           //UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -2450,7 +2450,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      NULL                     //UPDATE_VIOTICK    
+      NULL                     //UPDATE_VIOTICK
      },//End update functions.
 
     0,                     //PreBeats
@@ -2460,7 +2460,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     {0},                  //NA
     {0},                  //NA
     NULL                  //paf pointer (RESERVED)
-  }, //addiction      
+  }, //addiction
 
   /*  LEVITATION */
   {
@@ -2488,7 +2488,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                   //UPDATE_POSTCOMMAND
       NULL,                   //UPDATE_PREDAMAGE
       NULL,                   //UPDATE_POSTDAMAGE
-      levitation_init,          //UPDATE_TICK      
+      levitation_init,          //UPDATE_TICK
       NULL,                   //UPDATE_MOBTICK
       NULL,                   //UPDATE_PREDEATH
       NULL,                   //UPDATE_POSTDEATH
@@ -2504,7 +2504,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                   //UPDATE_EXPANSION
       NULL,                   //UPDATE_EXPANSION
       NULL                    //UPDATE_EXPANSION
-    },//End update functions.   
+    },//End update functions.
 
     0,                     //PreBeats
     0,                     //beats (lag time)
@@ -2525,7 +2525,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "You disbelieve the phantasm.",
     "$n manages to disbelieve the phantasm.",
 
-    0,      //Bitwise flags 1 (RESERVED)   
+    0,      //Bitwise flags 1 (RESERVED)
     GN_STA,                  //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -2542,7 +2542,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      NULL,                     //UPDATE_PREDAMAGE     
+      NULL,                     //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       NULL,			//UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -2559,7 +2559,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      phantasm_vtick            //UPDATE_VIOTICK   
+      phantasm_vtick            //UPDATE_VIOTICK
     },//End update functions.
 
     0,                     //PreBeats
@@ -2569,7 +2569,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     {0},                  //NA
     {0},                  //NA
     NULL                  //paf pointer (RESERVED)
-  }, //SIEGE               
+  }, //SIEGE
 
   /* Photon Wall */
   {
@@ -2580,7 +2580,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "You no longer control the light around you.",
     "",
 
-    EFF_F1_NOEXTRACT,      //Bitwise flags 1 (RESERVED)   
+    EFF_F1_NOEXTRACT,      //Bitwise flags 1 (RESERVED)
     GN_BEN | GN_PSI,                  //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -2597,7 +2597,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      NULL,                     //UPDATE_PREDAMAGE     
+      NULL,                     //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       NULL,			//UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -2614,7 +2614,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      photon_init               //UPDATE_VIOTICK   
+      photon_init               //UPDATE_VIOTICK
     },//End update functions.
 
     0,                     //PreBeats
@@ -2624,7 +2624,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     {0},                  //NA
     {0},                  //NA
     NULL                  //paf pointer (RESERVED)
-  }, //photon wall               
+  }, //photon wall
 
   /* Crusade */
   {
@@ -2635,7 +2635,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "Your Crusade against $t has come to an end!",
     "",
 
-    EFF_F1_NOEXTRACT,     //Bitwise flags 1 (RESERVED)   
+    EFF_F1_NOEXTRACT,     //Bitwise flags 1 (RESERVED)
     GN_STA,                    //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -2652,7 +2652,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      NULL,                     //UPDATE_PREDAMAGE     
+      NULL,                     //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       crusade_tick,		//UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -2669,7 +2669,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      NULL                     //UPDATE_VIOTICK   
+      NULL                     //UPDATE_VIOTICK
     },//End update functions.
 
     0,                     //PreBeats
@@ -2690,7 +2690,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "Your rightous quest of retribution against $t has ended!",
     "",
 
-    EFF_F1_NOEXTRACT,     //Bitwise flags 1 (RESERVED)   
+    EFF_F1_NOEXTRACT,     //Bitwise flags 1 (RESERVED)
     GN_STA,                    //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -2707,7 +2707,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      NULL,                     //UPDATE_PREDAMAGE     
+      NULL,                     //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       NULL,		//UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -2724,7 +2724,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      NULL                     //UPDATE_VIOTICK   
+      NULL                     //UPDATE_VIOTICK
     },//End update functions.
 
     0,                     //PreBeats
@@ -2745,7 +2745,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "You manage to completely halt your bleeding.",
     "$n manages to cover $s wounds and halt the bleeding.",
 
-    EFF_F1_NOEXTRACT,     //Bitwise flags 1 (RESERVED)   
+    EFF_F1_NOEXTRACT,     //Bitwise flags 1 (RESERVED)
     GN_STA,                    //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -2762,7 +2762,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      NULL,                     //UPDATE_PREDAMAGE     
+      NULL,                     //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       bleed_init,		//UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -2779,7 +2779,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      bleed_vtick               //UPDATE_VIOTICK   
+      bleed_vtick               //UPDATE_VIOTICK
     },//End update functions.
 
     0,                     //PreBeats
@@ -2800,7 +2800,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "",
     "",
 
-    EFF_F1_NOEXTRACT,     //Bitwise flags 1 (RESERVED)   
+    EFF_F1_NOEXTRACT,     //Bitwise flags 1 (RESERVED)
     GN_STA,                    //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -2817,7 +2817,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      apierce_predamage,        //UPDATE_PREDAMAGE     
+      apierce_predamage,        //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       NULL,			//UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -2834,7 +2834,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      NULL			//UPDATE_VIOTICK   
+      NULL			//UPDATE_VIOTICK
     },//End update functions.
 
     0,                     //PreBeats
@@ -2907,7 +2907,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "The psalm of Divine Void leaves your mind.",
     "",
 
-    EFF_F1_NOEXTRACT,     //Bitwise flags 1 (RESERVED)   
+    EFF_F1_NOEXTRACT,     //Bitwise flags 1 (RESERVED)
     GN_STA,                    //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -2924,7 +2924,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      NULL,                     //UPDATE_PREDAMAGE     
+      NULL,                     //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       dvoid_tick,		//UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -2941,7 +2941,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      NULL               //UPDATE_VIOTICK   
+      NULL               //UPDATE_VIOTICK
     },//End update functions.
 
     0,                     //PreBeats
@@ -2962,7 +2962,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "The psalm of Sirant's Triumph leaves your mind.",
     "",
 
-    EFF_F1_NOEXTRACT,     //Bitwise flags 1 (RESERVED)   
+    EFF_F1_NOEXTRACT,     //Bitwise flags 1 (RESERVED)
     GN_STA,                    //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -2979,7 +2979,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      strium_predam,            //UPDATE_PREDAMAGE     
+      strium_predam,            //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       NULL,			//UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -2996,7 +2996,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      NULL               //UPDATE_VIOTICK   
+      NULL               //UPDATE_VIOTICK
     },//End update functions.
 
     0,                     //PreBeats
@@ -3017,7 +3017,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "You $t ward collapses.",
     "$n's $t ward collapses",
 
-    EFF_F1_NOEXTRACT,     //Bitwise flags 1 (RESERVED)   
+    EFF_F1_NOEXTRACT,     //Bitwise flags 1 (RESERVED)
     GN_BEN,                    //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -3034,7 +3034,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      NULL,            //UPDATE_PREDAMAGE     
+      NULL,            //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       ward_tick,			//UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -3051,7 +3051,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      NULL               //UPDATE_VIOTICK   
+      NULL               //UPDATE_VIOTICK
     },//End update functions.
 
     0,                     //PreBeats
@@ -3382,8 +3382,8 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
 
     //Begin the arrays of int. buffers/dummy data
     {0,1,3,9,12,24,36,48,64,90,100,0,0,0,0,0}, //value1 not used
-    {1},                  //value2  
-    {3},                 //value3  
+    {1},                  //value2
+    {3},                 //value3
     NULL                  //paf pointer (RESERVED)
   }, //End suffocate
 
@@ -3616,7 +3616,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "holy vengeance",             //NAME
     &gen_vengeance,          //Gen number pointer.
     "vengeance",                  //Damage noun.
-    "You are no longer shielded by Vengeance of Light.", 
+    "You are no longer shielded by Vengeance of Light.",
     "The angry white aura around $n fades.",
 
     EFF_F1_NOEXTRACT,      //Bitwise flags 1 (RESERVED)
@@ -3954,7 +3954,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "You manage to mend your wounds.",
     "",
 
-    EFF_F1_NOEXTRACT | EFF_F1_NOSAVE,     //Bitwise flags 1 (RESERVED)   
+    EFF_F1_NOEXTRACT | EFF_F1_NOSAVE,     //Bitwise flags 1 (RESERVED)
     GN_STA,                    //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -3971,7 +3971,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      NULL,                     //UPDATE_PREDAMAGE     
+      NULL,                     //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       NULL,			//UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -3988,8 +3988,8 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      NULL,			//UPDATE_VIOTICK   
-      movedam_enter		//UPDATE_MOVE  
+      NULL,			//UPDATE_VIOTICK
+      movedam_enter		//UPDATE_MOVE
     },//End update functions.
 
     0,                     //PreBeats
@@ -4010,7 +4010,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "The kinesis has been depleted.",
     "The kinesis around $n has depleted itself.",
 
-    EFF_F1_NOEXTRACT | EFF_F1_NOSAVE,     //Bitwise flags 1 (RESERVED)   
+    EFF_F1_NOEXTRACT | EFF_F1_NOSAVE,     //Bitwise flags 1 (RESERVED)
     GN_BEN | GN_PSI,                    //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -4027,7 +4027,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      NULL,                     //UPDATE_PREDAMAGE     
+      NULL,                     //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       NULL,			//UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -4044,8 +4044,8 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      kinesis_vtick,		//UPDATE_VIOTICK   
-      NULL			//UPDATE_MOVE  
+      kinesis_vtick,		//UPDATE_VIOTICK
+      NULL			//UPDATE_MOVE
     },//End update functions.
 
     0,                     //PreBeats
@@ -4174,7 +4174,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "You return from your dreamwalk.",
     "",
 
-    EFF_F1_NOEXTRACT | EFF_F1_NOSAVE,     //Bitwise flags 1 (RESERVED)   
+    EFF_F1_NOEXTRACT | EFF_F1_NOSAVE,     //Bitwise flags 1 (RESERVED)
     GN_STA,				 //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -4191,7 +4191,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      NULL,                     //UPDATE_PREDAMAGE     
+      NULL,                     //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       dreamwalk_tick,		//UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -4208,8 +4208,8 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      dreamwalk_vtick,		//UPDATE_VIOTICK   
-      NULL			//UPDATE_MOVE  
+      dreamwalk_vtick,		//UPDATE_VIOTICK
+      NULL			//UPDATE_MOVE
     },//End update functions.
 
     0,                     //PreBeats
@@ -4225,9 +4225,9 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "spellvise",		 //NAME
     &gen_svise, 	 //Gen number pointer.
     "spell vise",         //Damage noun.
-    "The pressure around your temples eases off.",   
+    "The pressure around your temples eases off.",
     "The blue ring around $n's head fades away.",
-    EFF_F1_NOEXTRACT | EFF_F1_NOSAVE,     //Bitwise flags 1 (RESERVED)   
+    EFF_F1_NOEXTRACT | EFF_F1_NOSAVE,     //Bitwise flags 1 (RESERVED)
     GN_HAR,				 //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -4244,7 +4244,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      NULL,                     //UPDATE_PREDAMAGE     
+      NULL,                     //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       NULL,			//UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -4261,8 +4261,8 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      svise_vtick,		//UPDATE_VIOTICK   
-      NULL			//UPDATE_MOVE  
+      svise_vtick,		//UPDATE_VIOTICK
+      NULL			//UPDATE_MOVE
     },//End update functions.
 
     0,                     //PreBeats
@@ -4356,7 +4356,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                   //UPDATE_POSTCOMMAND
       NULL,                   //UPDATE_PREDAMAGE
       NULL,                   //UPDATE_POSTDAMAGE
-      mboost_init,          //UPDATE_TICK      
+      mboost_init,          //UPDATE_TICK
       NULL,                   //UPDATE_MOBTICK
       NULL,                   //UPDATE_PREDEATH
       NULL,                   //UPDATE_POSTDEATH
@@ -4372,7 +4372,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                   //UPDATE_EXPANSION
       NULL,                   //UPDATE_EXPANSION
       NULL                    //UPDATE_EXPANSION
-    },//End update functions.   
+    },//End update functions.
 
     0,                     //PreBeats
     0,                     //beats (lag time)
@@ -4393,7 +4393,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "The colored taint fades from your vision.",
     "$n's eyes return to their normal color.",
 
-    0,				//Bitwise flags 1 (RESERVED)   
+    0,				//Bitwise flags 1 (RESERVED)
     GN_BEN,                  //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -4410,7 +4410,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      NULL,                     //UPDATE_PREDAMAGE     
+      NULL,                     //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       NULL,			//UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -4427,7 +4427,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      NULL,		        //UPDATE_VIOTICK   
+      NULL,		        //UPDATE_VIOTICK
     },//End update functions.
 
     0,                     //PreBeats
@@ -4437,7 +4437,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     {0},                  //NA
     {0},                  //NA
     NULL                  //paf pointer (RESERVED)
-  }, //SIEGE               
+  }, //SIEGE
 
   /* REGENERATE */
   {
@@ -4448,7 +4448,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "You stop regenerating.",
     "",
 
-    0,      //Bitwise flags 1 (RESERVED)   
+    0,      //Bitwise flags 1 (RESERVED)
     GN_BEN,                  //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -4465,7 +4465,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      NULL,                     //UPDATE_PREDAMAGE     
+      NULL,                     //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       NULL,			//UPDATE_TICK
       NULL,                     //UPDATE_MOBTICK
@@ -4482,7 +4482,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      regenerate_vtick          //UPDATE_VIOTICK   
+      regenerate_vtick          //UPDATE_VIOTICK
     },//End update functions.
 
     0,                     //PreBeats
@@ -4503,7 +4503,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     "Your temporal storm collapses.",
     "The strange vortex of energies above $n fizzles out.",
 
-    0,      //Bitwise flags 1 (RESERVED)   
+    0,      //Bitwise flags 1 (RESERVED)
     GN_BEN,                  //Bitwise flags 2 (RESERVED)
     //BEGIN UPDATE FUNTCIONS
     {
@@ -4520,7 +4520,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_POSTSPELL
       NULL,                     //UPDATE_PRECOMMAND
       NULL,                     //UPDATE_POSTCOMMAND
-      NULL,                     //UPDATE_PREDAMAGE     
+      NULL,                     //UPDATE_PREDAMAGE
       NULL,                     //UPDATE_POSTDAMAGE
       NULL,			//UPDATE_TICK
       temp_storm_tick,          //UPDATE_MOBTICK
@@ -4537,7 +4537,7 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
       NULL,                     //UPDATE_DODGE
       NULL,                     //UPDATE_PARRY
       NULL,                     //UPDATE_SHBLOCK
-      temp_storm_vupdate,       //UPDATE_VIOTICK   
+      temp_storm_vupdate,       //UPDATE_VIOTICK
     },//End update functions.
 
     0,                     //PreBeats
@@ -4547,13 +4547,13 @@ const EFFECT_DATA   effect_table   [MAX_EFFECTS] =
     {25},                  //NA
     {25},                  //NA
     NULL                  //paf pointer (RESERVED)
-  }, //temporal storm                              
+  }, //temporal storm
   /*END OF EFFECTS TABLE */
 };
 
 
 //-------------=================EFFECT RELATED FUNCTIONS===========----------//
-  
+
 /* get_gen */
 /* externed in  merc.h */
 /* This should be used for all TABLE references to gen */
@@ -4589,12 +4589,12 @@ inline int effect_lookup( const char *name )
 /* returns -1 on error */
 
 int run_effect_update
-(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag, int UPDATE_TYPE){       
+(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag, int UPDATE_TYPE){
   int table_pos;
 
 //This function calls the given EFF_UPDATE function for the gen given using the
-//EFF_UPDATE const passed into the function.  
-  
+//EFF_UPDATE const passed into the function.
+
 
 //only one quick check.
   if ((gn < MAX_SKILL) || (UPDATE_TYPE < 0 || UPDATE_TYPE > MAX_EFF_UPDATE) )
@@ -4626,7 +4626,7 @@ int general_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *
   if (!IS_NULLSTR(effect_table[GN_POS(gn)].msg_off))
     act_new(effect_table[GN_POS(gn)].msg_off,ch,NULL,NULL,TO_CHAR,POS_DEAD);
   if (!IS_NULLSTR(effect_table[GN_POS(gn)].msg_off2))
-    act(effect_table[GN_POS(gn)].msg_off2,ch,NULL,NULL,TO_ROOM);       
+    act(effect_table[GN_POS(gn)].msg_off2,ch,NULL,NULL,TO_ROOM);
 
   return TRUE;
 }//end general_kill
@@ -4637,7 +4637,7 @@ int general_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *
 /* link in effect.c only */
 /* written by viri */
 int firestorm_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
 //we only set the SPEC_UPDATE flag for the room.
 return  SET_BIT(ch->in_room->room_flags2, ROOM_SPEC_UPDATE);
 
@@ -4649,7 +4649,7 @@ return  SET_BIT(ch->in_room->room_flags2, ROOM_SPEC_UPDATE);
 /* link in effect.c only */
 /* written by viri */
 int firestorm_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   if (gn != gen_firestorm)
     return -1;
 //we run the room_sepc_update to maybe remove the SPEC_UPDATE bit.
@@ -4668,7 +4668,7 @@ int firestorm_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
 int firestorm_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
   CHAR_DATA* vch, *vch_next;
-  
+
 //This is the precombat update function called from fight.c
 //It attacks all characters inroom every round of combat.
 
@@ -4685,21 +4685,21 @@ int firestorm_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1
       act("Your firestorm spews forth a cloud of fiery brimstone!", ch, NULL, NULL, TO_CHAR);
       dam = (float) dam * 1.5;
       break;
-      
+
     case 8:
     case 9:
       act("The firestorm spills sheets of flame all around!", ch, NULL, NULL, TO_ROOM);
       act("Your firestorm sends sheets of flame flying all around!", ch, NULL, NULL, TO_CHAR);
       dam = dam * 2;
       break;
-      
+
     case 15:
     case 16:
       act("Hail of flaming rocks begins to fall setting the area aflame!", ch, NULL, NULL, TO_ROOM);
       act("The brimstone clouds begin to rain fiery hail!", ch, NULL, NULL, TO_CHAR);
       dam =  dam * 2.5;
 	break;
-      
+
     case 18:
     case 19:
       act("The raging storm of hellfire twists and sheers and then explodes in a fiery nova!", ch, NULL, NULL, TO_ROOM);
@@ -4711,7 +4711,7 @@ int firestorm_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1
   for (vch = ch->in_room->people; vch != NULL; vch = vch_next)
     {
       vch_next = vch->next_in_room;
-      if ( saves_spell( ch->level, vch, DAM_FIRE,skill_table[skill_lookup("firestorm")].spell_type) ) 
+      if ( saves_spell( ch->level, vch, DAM_FIRE,skill_table[skill_lookup("firestorm")].spell_type) )
 	dam /= 2;
 //Make sure we dont hit groupmates  charmies etc.
       if (!is_area_safe(ch,vch))
@@ -4722,7 +4722,7 @@ int firestorm_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1
     }//end for
   return TRUE;
 }//end firestorm_precombat
- 
+
 
 /* firestorm ENTER */
 /* link in effect.c only */
@@ -4746,7 +4746,7 @@ int firestorm_enter(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, in
       a_yell(ch, vch);
       sprintf(buf, "Help! I've just walked into %s's firestorm!",PERS(ch,vch));
       j_yell(vch,buf);
-      return damage(ch, vch ,number_range(ch->level, 2 * ch->level), gen_firestorm, DAM_FIRE, TRUE); 
+      return damage(ch, vch ,number_range(ch->level, 2 * ch->level), gen_firestorm, DAM_FIRE, TRUE);
     }
   return 0;
 }//end firestorm_enter
@@ -4759,7 +4759,7 @@ int firestorm_enter(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, in
 /* written by viri */
 int firestorm_leave(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
-  //called when character walks out of room with SPEC_UPDATE 
+  //called when character walks out of room with SPEC_UPDATE
   //and has gen_firestorm effect.
   //This function is meant to be quick and slim, with min saftey.
 
@@ -4769,7 +4769,7 @@ int firestorm_leave(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, in
 //affect_strip will run the update_kill_firestorm(..)for us.
   affect_strip(ch, gen_firestorm);
 
-  return TRUE; 
+  return TRUE;
 }//end firestorm_leave.
 
 
@@ -4814,7 +4814,7 @@ inline OBJ_DATA* get_mobj(CHAR_DATA* ch, int* mana, bool both)
 	  extract_obj(prim);
 	  //set the object to use the one left over.
 	  obj = sec;
-	  (int) item_mana = mana2;
+	  item_mana = (int) mana2;
 	}//and if mana1
       else
 	{
@@ -4824,16 +4824,16 @@ inline OBJ_DATA* get_mobj(CHAR_DATA* ch, int* mana, bool both)
 	  extract_obj(sec);
 	  //set the object to use the one left over.
 	  obj = prim;
-	 (int) item_mana = mana1;
+	  item_mana = (int) mana1;
 	}//end else
     }//end if mana1&&mana2
   else
     {
 //only one item was charged we check which.
       if (mana1 > 1)
-	{obj = prim; (int) item_mana = mana1;}
+	{obj = prim; item_mana = (int) mana1;}
       else
-	{obj =  sec; (int) item_mana = mana2;}
+	{obj =  sec; item_mana = (int) mana2;}
     }//end else
 
   //DEBUG
@@ -4870,7 +4870,7 @@ int mana_charge_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
 /* written by viri */
 int mana_charge_prespell(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int both)
 {
-//This is the function called after mana calculation 
+//This is the function called after mana calculation
 //and before mana is subtracted
 //Current spell level is passed through arg2
 //the curent spell cost is passed through int1 by address
@@ -4895,7 +4895,7 @@ int mana_charge_prespell(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int
   /*
 
     1) Get the charge from held item.
-    - if two items are held one blows 
+    - if two items are held one blows
     2) Check item vs caster mana
     - lower item mana if neccesary. (ch mana lower then item AFTER casting the spell)
     3) calculate reductions based on current ammount
@@ -4928,7 +4928,7 @@ if ( ( obj = get_mobj(ch, &item_mana, both)) == NULL)
       if ((paf = affect_find(obj->affected, gen_mana_charge)) != NULL)//safety
 	paf->modifier = item_mana;
       //give a message:
-      act("Unable to control $p's energy, you consume its raw resources.", ch, obj, NULL, TO_CHAR); 
+      act("Unable to control $p's energy, you consume its raw resources.", ch, obj, NULL, TO_CHAR);
     }//end item reduction.
   else
     act("You tap into $p's mana pool and reinforce your spell.", ch, obj, NULL, TO_CHAR);
@@ -4952,7 +4952,7 @@ if ( ( obj = get_mobj(ch, &item_mana, both)) == NULL)
 /* written by viri */
 int mana_charge_postspell(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int both)
 {
-  //This is the function called at the end of any spell, 
+  //This is the function called at the end of any spell,
   //it checks if caster is capable of holding back the charge.
   //character casting spell is ch.
 
@@ -5002,7 +5002,7 @@ else
 	if ( (paf = affect_find(obj->affected, gen_mana_charge)) != NULL)
 	  {
 	    item_mana =  UMAX(0, item_mana - diff - control_pen);
-	    paf->modifier = item_mana; 
+	    paf->modifier = item_mana;
 	  }
       }
 
@@ -5035,10 +5035,10 @@ bool mcharge_info(CHAR_DATA* ch, char* buf, OBJ_DATA* obj, AFFECT_DATA* paf, boo
 if ((buf == NULL) || (obj == NULL) || (paf == NULL))
   {bug("mcharge_info: invalid arg.\n\r", 0);return FALSE;}
 
- 
+
 //we get current charge.
  cur_charge = paf->modifier;
- 
+
 //and capacity
 if ((cur_cap =  get_maxmcharge(obj)) < 1)
   return FALSE;
@@ -5092,7 +5092,7 @@ if ((cur_cap =  get_maxmcharge(obj)) < 1)
    msg2_num = 8;
  else if (cur_cap < 95)
    msg2_num = 9;
- else 
+ else
    msg2_num = 10;
 
  //we start writing the stuff.
@@ -5192,7 +5192,7 @@ int gold_loss_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
 the flag fTick simply decides how much gold we spill.
   */
 
- 
+
   const int tick_mod = 8;
   const int gold_loss = number_range(ch->level / 2, ch->level);
   int todrop;
@@ -5262,9 +5262,9 @@ int guise_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *in
     delta_lvl = -1 * delta_lvl;
   //end we add them up.
   new_lvl += delta_lvl;
-  //now we have the new lvl, we select the class. 
+  //now we have the new lvl, we select the class.
   //DEBUG
-  //sendf(ch, "New class: %s, New Level: %d \n\r", class_table[new_class].name, new_lvl); 
+  //sendf(ch, "New class: %s, New Level: %d \n\r", class_table[new_class].name, new_lvl);
 //Now we have both new lvl and class so we set the title.
 
   sprintf( buf, "the %s", title_table [new_class] [new_lvl] [ch->sex == SEX_FEMALE ? 1 : 0] );
@@ -5310,7 +5310,7 @@ inline void study_memorize(CHAR_DATA* ch, AFFECT_DATA* paf)
   /*
     0)if level <1  we bleed modifier.
     1) if level > 1
-    - We rest and begin the trance, if the character get attacked, 
+    - We rest and begin the trance, if the character get attacked,
     moves etc.. level is cleared.
     2) We calculate the amount moved from level to modifier.
     3) update paf.
@@ -5334,11 +5334,11 @@ inline void study_memorize(CHAR_DATA* ch, AFFECT_DATA* paf)
 
   //ceiling for mem.
   const int max_mem = effect_table[GN_POS(gen_study)].value1[0];
-  
+
 //check if we are forgetting.
   if (paf->level < 1)
     {
-      if (ch->position != POS_MEDITATE) 
+      if (ch->position != POS_MEDITATE)
 	{
 //calculate the chance to forget
 	  chance = forget_chance;
@@ -5352,7 +5352,7 @@ inline void study_memorize(CHAR_DATA* ch, AFFECT_DATA* paf)
 	}
       return;
     }
-	  
+
   //check if we are learing.
   else if (ch->position != POS_MEDITATE) //special case where we just start.
     {
@@ -5373,12 +5373,12 @@ inline void study_memorize(CHAR_DATA* ch, AFFECT_DATA* paf)
   //now we do learing if character is in meditaing.
   if (ch->position == POS_MEDITATE)
     {
-      
+
 //Find how much we memorize
 //base amount from skill.
       amount = UMAX(1,(get_skill(ch, gsn_meditation) - skill_med) / skill_mod);
       check_improve(ch, gsn_meditation, TRUE, 15);
-      amount += UMAX(0, (get_curr_stat(ch, STAT_INT) - int_med) / int_mod); 
+      amount += UMAX(0, (get_curr_stat(ch, STAT_INT) - int_med) / int_mod);
       send_to_char("You meditate on what you have noticed and gain more insight!\n\r", ch);
 
       if (paf->level <= amount)
@@ -5392,7 +5392,7 @@ inline void study_memorize(CHAR_DATA* ch, AFFECT_DATA* paf)
 	}
       else
 	paf->level = paf->level - amount;
-      
+
 //add to total memory
       if(paf->modifier + amount > max_mem)
 	{
@@ -5409,7 +5409,7 @@ inline void study_memorize(CHAR_DATA* ch, AFFECT_DATA* paf)
 	}
       else
 	paf->modifier += amount;
-      
+
 
 //check skill.
       check_improve(ch, gsn_meditation, TRUE, 15);
@@ -5430,10 +5430,10 @@ inline void study_memorize(CHAR_DATA* ch, AFFECT_DATA* paf)
 /* calculates study range bonus, also used in skills.3 for do study */
 inline int study_range_bonus( int level ){
   int range;
-  range =  ((level > 38? 1 : 0) 
-	    + (level > 40? 1 : 0)  
-	    + (level > 45? 1 : 0) 
-	    + (level > 46? 1 : 0) 
+  range =  ((level > 38? 1 : 0)
+	    + (level > 40? 1 : 0)
+	    + (level > 45? 1 : 0)
+	    + (level > 46? 1 : 0)
 	    + (level > 49? 1 : 0));
   return (range);
 }
@@ -5532,7 +5532,7 @@ inline void study_learn(CHAR_DATA* ch, AFFECT_DATA* paf)
 //Target found, we study him.
 //calculate the fail lvl.
   fail    = (100 - get_skill(ch, gsn_study)) * fail_mod;//(50 at 75%, 0 at 100%);
-  
+
 //incliude level diff.
   fail = UMAX(0, fail + ((vch->level - ch->level) * lvl_mod));
   fail = UMAX(0, fail + ch->level - 30);
@@ -5562,7 +5562,7 @@ inline void study_learn(CHAR_DATA* ch, AFFECT_DATA* paf)
     act("You think you have just noticed something useful about $N.", ch, NULL, vch, TO_CHAR);
       else if (learned <= 15)
 	act("You notice a distinct pattern in $N's behavior.", ch, NULL, vch, TO_CHAR);
-  else 
+  else
     act("Observing $N you notice a potential weakness!.", ch, NULL, vch, TO_CHAR);
 
   //transfer what we have learned.
@@ -5727,7 +5727,7 @@ char* study_info(CHAR_DATA* ch, bool fImm, CHAR_DATA* vic)
       send_to_char("PAF NOT FOUND\n\r",ch);
     return output;
     }
-  //we get the assassinate skill for proper chance 
+  //we get the assassinate skill for proper chance
   ass_skill = get_skill(ch,gsn_assassinate);
   chance = paf->modifier;
 
@@ -5742,7 +5742,7 @@ char* study_info(CHAR_DATA* ch, bool fImm, CHAR_DATA* vic)
 	else if (ass_skill < 95) chance = 90 * chance / 100;
 	else if (ass_skill < 99) chance = 95 * chance / 100;
 	else if (ass_skill >= 100) chance = 110 * chance / 100;
-  
+
  //we select which message we are inlucding.
   if (chance < 10)
     dMsg = 0;
@@ -5776,7 +5776,7 @@ if (!fImm)
 /* insect swarm Init */
 /* called in effect.c only */
 /* Created by Viri */
-int insect_swarm_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
+int insect_swarm_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1,
 int *int2, int flag)
 {
 
@@ -5796,7 +5796,7 @@ int insect_swarm_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
     - the poison effect, otherwise none.
     - can do: none or poison or plauge or drain det. by constsnts.
   */
-  static const sh_int dam_each[] = 
+  static const sh_int dam_each[] =
   {
     0,
     0,   0,   0,   0,   0,  0,   0,   0,   0,   0,
@@ -5805,26 +5805,26 @@ int insect_swarm_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
     80,  80,  80,  80,  80, 80,  80,  80,  80,  80,
     81,  82,  83,  84,  85, 86,  87,  88,  89,  90
   };
-  
+
   AFFECT_DATA* paf;
   AFFECT_DATA af;
-  
+
   CHAR_DATA* och;
-  
+
   char buf[MIL];
-  
+
   //Const
   const int non_lvl = 20;
   const int poi_lvl = 50;
   const int pla_lvl = 90;
-  
+
   //data
   int dam = 0;
   int type = 0; //0=NONE, 1=POISON, 2=PLAUGE, 3=DRAIN.
   int chance = 0;
   int sn = 0;
   int level = 0;
-  
+
   //flags
   bool fUnlife = FALSE;
   bool fWater = FALSE;
@@ -5839,7 +5839,7 @@ int insect_swarm_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
   if ( (paf = affect_find(ch->affected, gen_insect_swarm)) == NULL)
     return FALSE;
 
-  
+
 //if original caster is not around we strip.
   if ( (och = get_char(paf->string))== NULL)
     {
@@ -5851,29 +5851,29 @@ int insect_swarm_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
   level= UMIN(och->level, sizeof(dam_each) / sizeof(dam_each[0]) - 1);
   level= UMAX(0, level);
   dam= number_range(dam_each[level] / 3, dam_each[level]);
-  
+
   //DEBUG
   //  sendf(ch, "Name: %s\n\r", och->name);
 //check for reasons not to go through.
 //Water:
-  if (ch->in_room->sector_type == SECT_WATER_SWIM 
+  if (ch->in_room->sector_type == SECT_WATER_SWIM
       || ch->in_room->sector_type == SECT_WATER_NOSWIM)
     fWater = TRUE;
 
 //Unlife
-  if (IS_SET(ch->act, ACT_UNDEAD) 
-      || ch->class == class_lookup("vampire") 
+  if (IS_SET(ch->act, ACT_UNDEAD)
+      || ch->class == class_lookup("vampire")
       || ch->race == race_lookup("demon"))
     fUnlife = TRUE;
 
 //Now we select which damage we do:
   chance = number_percent();
-  
+
   if (chance < non_lvl) type = 0;
   else if (chance < poi_lvl) type = 1;
   else if (!IS_GOOD(och) && chance < pla_lvl) type = 2;
   else type = 3;
-  
+
 //Give the message.
   act("A swarming cloud of voracious insects descends upon $n!", ch, NULL, NULL, TO_ROOM);
   act("A swarming cloud of voracious insects descends upon you!", ch, NULL, NULL, TO_CHAR);
@@ -5889,7 +5889,7 @@ int insect_swarm_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
       return TRUE;
     }
 
-  
+
 //We yell.
   switch (type)
     {
@@ -5926,7 +5926,7 @@ int insect_swarm_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
 
 
 //do the damage.
-  // Unlife kills of the swarm 
+  // Unlife kills of the swarm
   if (fUnlife)
     {
       dam /= 5;
@@ -5942,13 +5942,13 @@ int insect_swarm_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
 
   switch (type)
     {
-      // POISON 
-    case 1: 
+      // POISON
+    case 1:
       if (!is_affected(ch, gsn_poison))
 	spell_poison(sn, och->level, och, ch, TARGET_CHAR);
       break;
 // PLAUGE //
-    case 2: 
+    case 2:
       if (!is_affected(ch, gsn_plague))
 	spell_plague(gsn_plague, och->level, och, ch, TARGET_CHAR);
       break;
@@ -5970,7 +5970,7 @@ int insect_swarm_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
       act("$n suddenly looks feverish and weak.",ch,NULL,NULL,TO_ROOM);
       break;
     }//end select type.
-  
+
 //now we damage
 
    damage(ch,ch,dam,gen_insect_swarm,DAM_PIERCE,FALSE);
@@ -6010,7 +6010,7 @@ int panic_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *in
   //run during the init and only once.
   if (paf->location != APPLY_DAMROLL)
     return FALSE;
-  
+
   act("A surge of fear induced power begins coursing through your veins.",ch , NULL, NULL, TO_CHAR);
   act("$n's eyes dart madly as $e panics.", ch, NULL, NULL, TO_ROOM);
   return TRUE;
@@ -6037,9 +6037,9 @@ int panic_postcombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
      20  = 160;
      - NOTE chance is PER  round of combat.
   */
-  
+
   AFFECT_DATA af;
-  AFFECT_DATA* paf; 
+  AFFECT_DATA* paf;
 //data
   int chance = 0;
   int per_health = 0;
@@ -6103,11 +6103,11 @@ int panic_postcombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
 	  af.where = TO_AFFECTS;
 	  af.level = ch->level;
 	  af.bitvector = AFF_HASTE;
-      
+
 	  af.location = APPLY_DAMROLL;
 	  af.modifier = ch->level / 10;
 	  affect_to_char(ch, &af);
-	  
+
 	  af.location = APPLY_HITROLL;
 	  af.modifier = ch->level / 10;
 	  affect_to_char(ch, &af);
@@ -6160,7 +6160,7 @@ int panic_precommand(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
   // int1 carries the cmd.
   int cmd = (int) *int1;
 
-  if (!(strcmp("rest", cmd_table[cmd].name) 
+  if (!(strcmp("rest", cmd_table[cmd].name)
       && strcmp("sleep", cmd_table[cmd].name)
       && strcmp("sit", cmd_table[cmd].name)
       && strcmp("camp", cmd_table[cmd].name)
@@ -6209,10 +6209,10 @@ bool LivWep_level_check(OBJ_DATA* obj, int gen)
     weather the weapon should increase in rank or not.
     Everything is flexible ONLY beacuse the lvl gain/loss is run
     through the EFF_UPDATE_NONE of the gen. Hence this can be used for
-    any weapon, with exception of the set_level function which is called 
+    any weapon, with exception of the set_level function which is called
     later down the chain and is hardcoded for malform.
 
-    The level data is taken from the val1 array of the cell in 
+    The level data is taken from the val1 array of the cell in
     effect_table specifed by the gen passed into the function.
 
     Max_Level is taken from first cell of val2;
@@ -6278,7 +6278,7 @@ bool LivWep_level_check(OBJ_DATA* obj, int gen)
 
   //and as a last check we run the function over again.
 
-  
+
   return fSuccess;
 
 }
@@ -6291,10 +6291,10 @@ bool LivWep_level_check(OBJ_DATA* obj, int gen)
 /* returns FALSE on error. */
 bool LivWep_basic_modify(OBJ_DATA* obj, int die1, int die2, int Hit, int Dam)
 {
-  /* 
+  /*
 this is the workhorse level function that changes basic weapon stats
 as passed. die1/2 refers to the dice on weapon being changed.
-If the enchantements dont exist they are set rather then modified and 
+If the enchantements dont exist they are set rather then modified and
 weapon is made to be enchanted.
 -This is totaly flexile function with no hardcoded references to malform weapon.
   */
@@ -6401,14 +6401,14 @@ weapon is made to be enchanted.
   //the following effects are applied to char. automaticly.
   if (Dam  != 0 && !dam_found)
     {
-      eff_set = TRUE;   
+      eff_set = TRUE;
       af.location = APPLY_DAMROLL;
       af.modifier = Dam;
       affect_to_obj(obj, &af);
     }
   if (Hit != 0 && !hit_found)
     {
-      eff_set = TRUE;   
+      eff_set = TRUE;
       af.location = APPLY_HITROLL;
       af.modifier = Hit;
       affect_to_obj(obj, &af);
@@ -6420,7 +6420,7 @@ weapon is made to be enchanted.
 
 //MALFORM LEVEL EFFECTS BY FUNCTION:
 
-  
+
 inline bool mal_level0(OBJ_DATA* obj, AFFECT_DATA* paf, bool fClear)
 {
   /* set level 0 effects on weapon */
@@ -6436,7 +6436,7 @@ int dClear = (fClear? -1 : 1);
 
 
  if (!LivWep_basic_modify(obj, die1, die2, Hit, Dam))
-   return FALSE; 
+   return FALSE;
 return TRUE;
 }//END LEVEL0
 
@@ -6456,7 +6456,7 @@ int dClear = (fClear? -1 : 1);
 
 
  if (!LivWep_basic_modify(obj, die1, die2, Hit, Dam))
-   return FALSE; 
+   return FALSE;
 
  //Non basic Effects.
  if (fClear)
@@ -6483,7 +6483,7 @@ int dClear = (fClear? -1 : 1);
 
 
  if (!LivWep_basic_modify(obj, die1, die2, Hit, Dam))
-   return FALSE; 
+   return FALSE;
 
  //Non basic Effects.
  if (fClear)
@@ -6516,10 +6516,10 @@ val[1]    val[2]    Hit   Dam              Other
   int Dam  = +1 * dClear;
   int effect = 0;
 
-//bool 
+//bool
   bool is_worn = FALSE;
  if (!LivWep_basic_modify(obj, die1, die2, Hit, Dam))
-   return FALSE; 
+   return FALSE;
 
  //Non basic Effects.
  //we get which effect it is.
@@ -6540,7 +6540,7 @@ val[1]    val[2]    Hit   Dam              Other
  //get teh effect data.
  switch (effect)
    {
-   case 1: 
+   case 1:
      af.location = APPLY_STR;
      af.modifier = 1;
      break;
@@ -6548,11 +6548,11 @@ val[1]    val[2]    Hit   Dam              Other
      af.location = APPLY_DEX;
      af.modifier = 1;
      break;
-   case 3: 
+   case 3:
      af.location = APPLY_HIT;
      af.modifier = 5;
      break;
-   case 4: 
+   case 4:
      af.location = APPLY_SAVING_SPELL;
      af.modifier = -1;
      break;
@@ -6561,7 +6561,7 @@ val[1]    val[2]    Hit   Dam              Other
  //bonus for 2h
  if (IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS))
    af.modifier *=2;
- 
+
  //Check if worn or carried.
  if ((is_worn = (obj->wear_loc == WEAR_NONE ? FALSE : TRUE)) == TRUE)
    ch = obj->carried_by;
@@ -6591,7 +6591,7 @@ val[1]    val[2]    Hit   Dam              Other
 		 affect_modify(ch, buf, TRUE);
 	     }//end else
 	 }//end if effec it found.
-     }//end lower effect 
+     }//end lower effect
    }//end remove effects.
  else
    {
@@ -6625,7 +6625,7 @@ int dClear = (fClear? -1 : 1);
 
 
  if (!LivWep_basic_modify(obj, die1, die2, Hit, Dam))
-   return FALSE; 
+   return FALSE;
 
  //Non basic Effects.
  if (fClear)
@@ -6671,10 +6671,10 @@ val[1]    val[2]    Hit   Dam              Other
   int Dam  =  0 * dClear;
 
   int effect = 0;
-//bool 
+//bool
   //  bool is_worn = FALSE; NOT USED HERE
  if (!LivWep_basic_modify(obj, die1, die2, Hit, Dam))
-   return FALSE; 
+   return FALSE;
 
  //Non basic Effects.
  //we get which effect it is.
@@ -6693,7 +6693,7 @@ val[1]    val[2]    Hit   Dam              Other
  //get the spell data
  switch (effect)
    {
-   case 5: 
+   case 5:
      sp.spell = skill_lookup("poison");
      sp.target = SPELL_TAR_VICT;
      break;
@@ -6701,12 +6701,12 @@ val[1]    val[2]    Hit   Dam              Other
      sp.spell = skill_lookup("plague");
      sp.target = SPELL_TAR_VICT;
      break;
-   case 7: 
+   case 7:
      sp.spell = skill_lookup("faerie fire");
      sp.target = SPELL_TAR_VICT;
      break;
    }
- 
+
  //safety
  if (sp.spell < 1 || sp.spell > MAX_SKILL)
    bug("mal_level5: No spell found.", 0);
@@ -6758,7 +6758,7 @@ int dClear = (fClear? -1 : 1);
  CHAR_DATA* ch;
 
  if (!LivWep_basic_modify(obj, die1, die2, Hit, Dam))
-   return FALSE; 
+   return FALSE;
 
  //Non basic Effects.
  if (fClear)
@@ -6770,7 +6770,7 @@ int dClear = (fClear? -1 : 1);
    }
  else
    {
-     
+
      af.type = gen_has_owner;
      af.where = TO_NONE;
      af.level = obj->level;
@@ -6779,7 +6779,7 @@ int dClear = (fClear? -1 : 1);
      af.modifier = 0;
      af.bitvector = 0;
      affect_to_obj(obj, &af);
-     
+
      buf = affect_find(obj->affected, gen_has_owner);
      string_to_affect(buf, paf->string);
      SET_BIT(obj->wear_flags,ITEM_NO_SAC);
@@ -6828,11 +6828,11 @@ val[1]    val[2]    Hit   Dam              Other
   int Dam  = +2 * dClear;
 
   int effect = 0;
-  
-//bool 
+
+//bool
   //  bool is_worn = FALSE; NOT USED HERE
  if (!LivWep_basic_modify(obj, die1, die2, Hit, Dam))
-   return FALSE; 
+   return FALSE;
 
 
  //get the new damage type based on religion
@@ -6848,7 +6848,7 @@ val[1]    val[2]    Hit   Dam              Other
  //FAITH
  else
    obj->value[3] = attack_lookup("faith");
- 
+
  //Non basic Effects. (8/9 Shadow, 10/11 Viri)
  //we get which effect it is.
  if (IS_SET(paf->bitvector, WEP_EFF_8))
@@ -6868,7 +6868,7 @@ val[1]    val[2]    Hit   Dam              Other
  //get the spell data
  switch (effect)
    {
-   case 8: 
+   case 8:
      sp.spell = skill_lookup("blindness");
      sp.target = SPELL_TAR_VICT;
      break;
@@ -6876,16 +6876,16 @@ val[1]    val[2]    Hit   Dam              Other
      sp.spell = skill_lookup("weaken");
      sp.target = SPELL_TAR_VICT;
      break;
-   case 10: 
+   case 10:
      sp.spell = skill_lookup("curse");
      sp.target = SPELL_TAR_VICT;
      break;
-   case 11: 
+   case 11:
      sp.spell = skill_lookup("energy drain");
      sp.target = SPELL_TAR_VICT;
      break;
    }
- 
+
  //safety
  if (sp.spell < 1 || sp.spell > MAX_SKILL)
    bug("mal_level7: No spell found.", 0);
@@ -6916,7 +6916,7 @@ val[1]    val[2]    Hit   Dam              Other
      buf->message = str_dup(SeeMsg);
      buf->message2 = str_dup(BlindMsg);
    }//end set spell
- 
+
  return TRUE;
 }//END LEVEL7
 
@@ -6936,7 +6936,7 @@ int dClear = (fClear? -1 : 1);
 
 
  if (!LivWep_basic_modify(obj, die1, die2, Hit, Dam))
-   return FALSE; 
+   return FALSE;
 
  //Non basic Effects.
  if (fClear)
@@ -6983,10 +6983,10 @@ val[1]    val[2]    Hit   Dam              Other
   int Dam  = +1 * dClear;
 
   int effect = 0;
-//bool 
+//bool
   //  bool is_worn = FALSE; NOT USED HERE
  if (!LivWep_basic_modify(obj, die1, die2, Hit, Dam))
-   return FALSE; 
+   return FALSE;
 
  //Non basic Effects.
  //we get which effect it is.
@@ -7007,7 +7007,7 @@ val[1]    val[2]    Hit   Dam              Other
  //get the spell data
  switch (effect)
    {
-   case 12: 
+   case 12:
      sp.spell = skill_lookup("dispel magic");
      sp.target = SPELL_TAR_VICT;
      break;
@@ -7015,16 +7015,16 @@ val[1]    val[2]    Hit   Dam              Other
      sp.spell = skill_lookup("dispel good");
      sp.target = SPELL_TAR_VICT;
      break;
-   case 14: 
+   case 14:
      sp.spell = skill_lookup("blasphemy");
      sp.target = SPELL_TAR_VICT;
      break;
-   case 15: 
+   case 15:
      sp.spell = skill_lookup("vampiric touch");
      sp.target = SPELL_TAR_VICT;
      break;
    }
- 
+
  //safety
  if (sp.spell < 1 || sp.spell > MAX_SKILL)
    bug("mal_level9: No spell found.", 0);
@@ -7129,12 +7129,12 @@ void mal_high_name(OBJ_DATA* obj, int mal_type)
   //  short_buf[0] = UPPER(short_buf[0]);
   free_string(obj->short_descr);
   obj->short_descr = str_dup(short_buf);
-  
+
 //change long descr
   strcat(short_buf, long_suf);
   free_string(obj->description);
   obj->description = str_dup(short_buf);
-  
+
 //chang name
   free_string(obj->name);
   obj->name = str_dup(name_buf);
@@ -7147,8 +7147,8 @@ void mal_high_name(OBJ_DATA* obj, int mal_type)
 	  ch->pcdata->deity,
 	  obj->short_descr);
   do_yell(ch, short_buf);
-  
-  sprintf(short_buf,"With %s's guidance, $N has obtained the final malformation of his weapon: %s.", 
+
+  sprintf(short_buf,"With %s's guidance, $N has obtained the final malformation of his weapon: %s.",
 	  ch->pcdata->deity, obj->short_descr);
   wiznet(short_buf, ch, NULL,WIZ_PENALTIES,WIZ_SECURE, LEVEL_HERO);
 
@@ -7165,7 +7165,7 @@ inline bool mal_level10(OBJ_DATA* obj, AFFECT_DATA* paf, bool fClear)
   //  AFFECT_DATA* paf;
 
     //this is only run ONCE and not removed.
-  if (fClear 
+  if (fClear
       ||  affect_find(obj->affected, gen_soul_reaver) != NULL
       ||  affect_find(obj->affected, gen_handof_chaos) != NULL)
     return TRUE;
@@ -7179,7 +7179,7 @@ inline bool mal_level10(OBJ_DATA* obj, AFFECT_DATA* paf, bool fClear)
     af.type = gen_handof_chaos;
   else
     af.type = gen_soul_reaver;
-  
+
   af.where = TO_NONE;
   af.location = APPLY_NONE;
   af.duration = -1;
@@ -7210,23 +7210,23 @@ decision weather the effect is set or cleared.
 I've decided to hardcode the effects rather then use a more
 flexible table as it offers lot more flexiiblity withthe effects
 with far less work.
-As this type of object effect is not meant to be common I think 
+As this type of object effect is not meant to be common I think
 its sound decision :)
   */
 
   switch (level)
     {
-    case 0: return mal_level0(obj, paf, fClear); 
-    case 1: return mal_level1(obj, paf, fClear); 
-    case 2: return mal_level2(obj, paf, fClear); 
-    case 3: return mal_level3(obj, paf, fClear); 
-    case 4: return mal_level4(obj, paf, fClear); 
-    case 5: return mal_level5(obj, paf, fClear); 
-    case 6: return mal_level6(obj, paf, fClear); 
-    case 7: return mal_level7(obj, paf, fClear); 
-    case 8: return mal_level8(obj, paf, fClear); 
+    case 0: return mal_level0(obj, paf, fClear);
+    case 1: return mal_level1(obj, paf, fClear);
+    case 2: return mal_level2(obj, paf, fClear);
+    case 3: return mal_level3(obj, paf, fClear);
+    case 4: return mal_level4(obj, paf, fClear);
+    case 5: return mal_level5(obj, paf, fClear);
+    case 6: return mal_level6(obj, paf, fClear);
+    case 7: return mal_level7(obj, paf, fClear);
+    case 8: return mal_level8(obj, paf, fClear);
     case 9: return mal_level9(obj, paf, fClear);
-    case 10: return mal_level10(obj, paf, fClear); 
+    case 10: return mal_level10(obj, paf, fClear);
     }//end switch.
 
   bug("mal_set_level: No level matched.", 0);
@@ -7243,8 +7243,8 @@ its sound decision :)
 /* used in maleform weapon */
 /* written bu Viri */
 bool set_effects(CHAR_DATA* ch, OBJ_DATA* obj, AFFECT_DATA* paf, int path){
-  /* 
-     this is one of the smaller sub functions of maleform weapon. 
+  /*
+     this is one of the smaller sub functions of maleform weapon.
      It is responsible for initial decision / setup of the selectable
      effecs at lvls: 3, 5, 7, 9.
 
@@ -7262,14 +7262,14 @@ bool set_effects(CHAR_DATA* ch, OBJ_DATA* obj, AFFECT_DATA* paf, int path){
      ----LVL 7------------
      WEP_EFF_8  blind
      WEP_EFF_9	weaken
-     WEP_EFF_10	curse       
+     WEP_EFF_10	curse
      WEP_EFF_11	energy_drain
      ----LVL 9-----------
      WEP_EFF_12	dispel magic
-     WEP_EFF_13	dispel good 
+     WEP_EFF_13	dispel good
      WEP_EFF_14	blasphemy
      WEP_EFF_15	vamp touch
-     
+
 
 */
 
@@ -7280,14 +7280,14 @@ bool set_effects(CHAR_DATA* ch, OBJ_DATA* obj, AFFECT_DATA* paf, int path){
   int level_7 = WEP_EFF_NONE;
   int level_9 = WEP_EFF_NONE;
 
-  
+
   level_3 = number_range(1, 4);
   level_5 = number_range(5, 7);
   /* spells */
   level_7 = number_range(8, 11);
   level_9 = number_range(12, 15);
 
-  
+
 //set the flags.
 switch (level_3)
   {
@@ -7343,7 +7343,7 @@ switch (level_9)
    }
 
   return TRUE;
-}//end set_effect  
+}//end set_effect
 
 
 /* malform_name */
@@ -7375,7 +7375,7 @@ void do_brand_weapon( CHAR_DATA *ch, char *argument )
 //bool
   bool fConfirmed = FALSE;
 
-  //EZ 
+  //EZ
   if (ch == NULL)
     return;
 
@@ -7390,7 +7390,7 @@ void do_brand_weapon( CHAR_DATA *ch, char *argument )
       strcpy(arg1, arg2);
       strcpy(arg2, arg3);
     }
-  
+
   if (arg1[0] == '\0' || arg2[0] == '\0')
     {
       send_to_char("Brand Weapon:\n\rSyntax: Brand Weapon <weapon> <name>"\
@@ -7400,14 +7400,14 @@ void do_brand_weapon( CHAR_DATA *ch, char *argument )
 
 	return;
     }
-  if ( (obj = get_obj_carry(ch, arg1, ch)) == NULL)      
+  if ( (obj = get_obj_carry(ch, arg1, ch)) == NULL)
     if ( (obj = get_obj_wear(ch, arg1, ch)) == NULL)
       {
 	send_to_char("The item must be worn or carried.\n\r", ch);
 	return;
       }
 
-      
+
   //check name given.
   arg2[0] = UPPER(arg2[0]);
   if (strchr(arg2, ' ') != NULL)
@@ -7471,7 +7471,7 @@ void do_brand_weapon( CHAR_DATA *ch, char *argument )
       //FAITH
       else
 	name = MAL_FAITH;
-  
+
       if (paf->level >= max_level){
 	    sprintf(buf, "'%s' the %s", arg2, mal_name_table[name].higher);
 	    sprintf(name_buf, "%s %s ", arg2, mal_name_table[name].higher);
@@ -7498,16 +7498,16 @@ void do_brand_weapon( CHAR_DATA *ch, char *argument )
     }
 
 
-  SET_BIT(paf->bitvector, WEP_NAMED);  
+  SET_BIT(paf->bitvector, WEP_NAMED);
 //change short desc.
   free_string(obj->short_descr);
   obj->short_descr = str_dup(buf);
-  
+
 //change long descr
   strcat(buf, long_suf);
   free_string(obj->description);
   obj->description = str_dup(buf);
-  
+
 //chang name
   strcat(name_buf, obj->name);
   free_string(obj->name);
@@ -7521,7 +7521,7 @@ void do_brand_weapon( CHAR_DATA *ch, char *argument )
 	  obj->short_descr);
   do_yell(ch, buf);
 
-  sprintf(buf,"Calling on his deity %s, $N has branded his weapon: %s.", 
+  sprintf(buf,"Calling on his deity %s, $N has branded his weapon: %s.",
 	  ch->pcdata->deity, arg2);
   wiznet(buf,ch, NULL,WIZ_PENALTIES,WIZ_SECURE, LEVEL_HERO);
 
@@ -7600,7 +7600,7 @@ int malform_init(CHAR_DATA* not_used, void* arg1, void* arg2, int gn, int *int1,
   OBJ_SPELL_DATA* spell;//spells to be nuked.
 
   char buf[MSL];
-  
+
 
   //get the char.
   if ( (ch = obj->carried_by) == NULL)
@@ -7630,9 +7630,9 @@ int malform_init(CHAR_DATA* not_used, void* arg1, void* arg2, int gn, int *int1,
   //Dynamic
   for (spell = obj->spell; spell != NULL; spell = spell->next)
     free_obj_spell(spell);
-  obj->spell = NULL;  
+  obj->spell = NULL;
 
-  
+
 //Display the message.
   sprintf(buf, "A faint black figure appears in the moonlight as the very"\
 	  " essence of evil\n\rseems to swirl and condensate around $p.  "\
@@ -7677,7 +7677,7 @@ int malform_postkill(CHAR_DATA* cha, void* arg1, void* arg2, int gn, int *int1, 
 {
   /*
 This is the exp gain portion of malform weapon.
-The update cheks if exp should be granted then increaes is based on 
+The update cheks if exp should be granted then increaes is based on
 victim level.
 Finaly LivWep_levl_check is called to check for increase / decrease.
   */
@@ -7728,11 +7728,11 @@ int gain = 1;
     gain = lvl45_gain;
   else if (victim->level > 37)
     gain = lvl38_gain;
-  
+
   if (fPrim)
     paf_p = affect_find(prim->affected, gen_malform);
   if (fSec)
-    paf_s = affect_find(sec->affected, gen_malform); 
+    paf_s = affect_find(sec->affected, gen_malform);
 
 /* abuse check */
   if ( (fPrim && paf_p)
@@ -7752,9 +7752,9 @@ int gain = 1;
     {
       if (paf_p){
 	  paf_p->modifier += gain;
-	  act("As last signs of life fade from $N's body you bury $p deep in the corpse and watch it feed.", 
+	  act("As last signs of life fade from $N's body you bury $p deep in the corpse and watch it feed.",
 	      ch, prim, victim, TO_CHAR);
-	  act("As last signs of life fade from $N's body $n sinks $p into the corpse.", 
+	  act("As last signs of life fade from $N's body $n sinks $p into the corpse.",
 	      ch, prim, victim, TO_NOTVICT);
 	  act("You feel $p feeding on your very soul!", victim, prim, NULL, TO_CHAR);
 	  fSuccess = LivWep_level_check(prim, gen_malform);
@@ -7764,9 +7764,9 @@ int gain = 1;
     {
       if ( paf_s){
 	  paf_s->modifier += gain;
-	  act("As last signs of life fade from $N's body you bury $p deep in the corpse and watch it feed.", 
+	  act("As last signs of life fade from $N's body you bury $p deep in the corpse and watch it feed.",
 	      ch, sec, victim, TO_CHAR);
-	  act("As last signs of life fade from $N's body $n sinks $p into the corpse.", 
+	  act("As last signs of life fade from $N's body $n sinks $p into the corpse.",
 		ch, sec, victim, TO_NOTVICT);
 	  act("You feel $p feeding on your very soul!", victim, sec, NULL, TO_CHAR);
 	  fSuccess = LivWep_level_check(sec, gen_malform);
@@ -7851,13 +7851,13 @@ arg1 is object, arg2 is paf.
     if (strcasecmp(ch->name, paf->string))
       fCarried = FALSE;
 
-  /* 
+  /*
 The reason we dont return here is that i want the tick update
 to also check lvl of the weapon, just in case we compeup with something
 new later that will lower the exp of the weapon arbitrarly.
   */
   //items with malform = or > lvl 8 are not weakened.
-  
+
 /* malforms of level more then 3 will return to their owner if the person is in the same room as the owner */
   if (!fCarried && obj->carried_by && paf->level >= 2){
     CHAR_DATA* victim = obj->carried_by;
@@ -7974,10 +7974,10 @@ and object is moved to room.
   else
     {
       char buf[MIL];
-      sprintf(buf, "Feeling %s's eyes and anger upon your insignificant self you quickly drop $p.", 
+      sprintf(buf, "Feeling %s's eyes and anger upon your insignificant self you quickly drop $p.",
 	      deity_table[paf->modifier].god);
       act(buf, ch, obj, NULL, TO_CHAR);
-      sprintf(buf, "Aura of %s's power fills the area $n quickly drops $p before its too late.", 
+      sprintf(buf, "Aura of %s's power fills the area $n quickly drops $p before its too late.",
 	    deity_table[paf->modifier].god);
       act(buf, ch, obj, NULL, TO_ROOM);
     }
@@ -8012,9 +8012,9 @@ int has_owner_kill(CHAR_DATA* not_used, void* arg1, void* arg2, int gn, int *int
 /* link in effect.c only */
 /* written by viri */
 int dark_met_init(CHAR_DATA* not_used, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   /*
- This is passed during affect_to_obj 
+ This is passed during affect_to_obj
 - arg2 is obj, arg1 is affect.
   */
 
@@ -8094,7 +8094,7 @@ int dark_met_kill(CHAR_DATA* not_used, void* arg1, void* arg2, int gn, int *int1
     }
   else if (obj->in_room &&  (ch = obj->in_room->people) != NULL)
     {
-      act(effect_table[GN_POS(gn)].msg_off2,ch,obj,NULL,TO_ROOM);     
+      act(effect_table[GN_POS(gn)].msg_off2,ch,obj,NULL,TO_ROOM);
       act(effect_table[GN_POS(gn)].msg_off2,ch,obj,NULL,TO_CHAR);
     }
 
@@ -8125,7 +8125,7 @@ int dark_met_postdamage(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1
   int chance = 0;
 
   //  sendf(ch, "`!ch: %s, vch: %s, dam %d, dam_type %d.``\n\r", ch->name, victim->name, dam, dam_type);
-  //if not undead 
+  //if not undead
   if (IS_SET(victim->act,ACT_UNDEAD))
     return FALSE;
 
@@ -8189,9 +8189,9 @@ int dark_met_postdamage(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1
 /* link in effect.c only */
 /* written by viri */
 int soul_reaver_init(CHAR_DATA* not_used, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   /*
- This is passed during affect_to_obj 
+ This is passed during affect_to_obj
 - arg2 is obj, arg1 is affect.
   */
 
@@ -8270,7 +8270,7 @@ int soul_reaver_postdamage(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *i
       ch->mana = UMIN(ch->max_mana, ch->mana + mana_dr);
       ch->move = UMIN(ch->max_move, ch->move + move_dr);
       gain_exp(ch, exp_dr);
-      
+
       /* drain hp */
       if ( (paf = affect_find(victim->affected, sn)) == NULL
 	   || paf->modifier > -50){
@@ -8309,7 +8309,7 @@ int soul_reaver_parry(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
   int roll = number_percent();
   //  int dam_type = (int) *int1;
   int chance = effect_table[GN_POS(gn)].value3[0];
-  
+
   if (obj == vobj)
     return FALSE;
 
@@ -8339,9 +8339,9 @@ int soul_reaver_parry(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
 /* link in effect.c only */
 /* written by viri */
 int handof_chaos_init(CHAR_DATA* not_used, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   /*
- This is passed during affect_to_obj 
+ This is passed during affect_to_obj
 - arg2 is obj, arg1 is affect.
   */
 
@@ -8473,7 +8473,7 @@ int request_end(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
   OBJ_DATA* obj, *obj_next;
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   AFFECT_DATA* buf;
-  
+
   if (gn != gen_request)
     return -1;
 
@@ -8486,7 +8486,7 @@ int request_end(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
   //now we get the item.
   for (obj = ch->in_room->contents; obj; obj = obj_next){
     obj_next = obj->next_content;
-    
+
     if (is_name(paf->string, obj->name) && is_owner(obj, ch))
       break;
   }
@@ -8495,7 +8495,7 @@ int request_end(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
       send_to_char("Unfortunatley your prize seems to have disappeared.\n\r", ch);
       return FALSE;
     }
-  
+
   //reset the flags.
   if ( (buf = affect_find(obj->affected, gen_has_owner)) != NULL)
     {
@@ -8557,7 +8557,7 @@ int request_end(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
 int request_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
-  
+
   int  hit_loss = effect_table[GN_POS(gn)].value1[0];
   int mana_loss = effect_table[GN_POS(gn)].value2[0];
   int move_loss = effect_table[GN_POS(gn)].value3[0];
@@ -8687,9 +8687,9 @@ int request_precommand(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1,
        && strcmp("tome", cmd_table[cmd].name)
        && strcmp("affects", cmd_table[cmd].name)
        && strcmp("score", cmd_table[cmd].name)
-       && strcmp("who", cmd_table[cmd].name)	
-       && strcmp("bio", cmd_table[cmd].name)	
-       && strcmp("info", cmd_table[cmd].name)	
+       && strcmp("who", cmd_table[cmd].name)
+       && strcmp("bio", cmd_table[cmd].name)
+       && strcmp("info", cmd_table[cmd].name)
        && strcmp("whois", cmd_table[cmd].name)
        && strcmp("save", cmd_table[cmd].name)
        && strcmp("interrupt", cmd_table[cmd].name)
@@ -8742,7 +8742,7 @@ int unlife_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
     af.modifier  = 0;
     af.bitvector = AFF_SLEEP;
     affect_to_char( ch, &af );
-    
+
     send_to_char("You suddenly fall into a heavy dreamless slumber.\n\r", ch);
     if ( IS_AWAKE(ch) )
       {
@@ -8817,7 +8817,7 @@ int unlife_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
 	wiznet("The blood of undead purged, $N once again is a part of society.",ch,NULL,WIZ_PENALTIES,WIZ_SECURE, LEVEL_HERO);
 	REMOVE_BIT(ch->act, PLR_OUTCAST);
     }
-  
+
 //increase align.
     if (mod & 1)
     {
@@ -8858,10 +8858,10 @@ int *int2, int flag)
     return FALSE;
   if (IS_SET(ch->in_room->room_flags2,ROOM_NIGHT) )
     return FALSE;
-    
-  
-  if( mud_data.time_info.hour > 11 && mud_data.time_info.hour < 13 
-      && !IS_SET(ch->in_room->room_flags, ROOM_DARK) 
+
+
+  if( mud_data.time_info.hour > 11 && mud_data.time_info.hour < 13
+      && !IS_SET(ch->in_room->room_flags, ROOM_DARK)
       &&!IS_SET(ch->in_room->room_flags,ROOM_INDOORS))
     {
       int dam2 = ch->level/2;
@@ -8919,7 +8919,7 @@ int seremon_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *
 
 
 int seremon_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   if (gn != gen_seremon)
     return -1;
 //we run the room_sepc_update to maybe remove the SPEC_UPDATE bit.
@@ -9024,6 +9024,10 @@ inline bool holy_4(CHAR_DATA* ch, CHAR_DATA* victim, int dam, int gn)
 
       af.location = APPLY_NONE;
       af.modifier = 0;
+
+      /* Useless conditional */
+      if( af.modifier != 0 )
+        af.modifier = 0;
     }
   return TRUE;
 }//END HOLY4
@@ -9101,7 +9105,7 @@ inline bool holy_6(CHAR_DATA* ch, CHAR_DATA* victim, int dam, int gn)
 
 
 int holy_hands_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   AFFECT_DATA* paf= (AFFECT_DATA*) arg1;
   AFFECT_DATA af;
 
@@ -9131,7 +9135,7 @@ int holy_hands_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, in
 
 
 int holy_hands_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   AFFECT_DATA* paf= (AFFECT_DATA*) arg1;
 
   if (gn != gen_holy_hands)
@@ -9197,7 +9201,7 @@ int holy_hands_postdamage(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *in
 
 /* voodoo_doll_init */
 int voodoo_doll_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   //  AFFECT_DATA* paf= (AFFECT_DATA*) arg1;
 
   if (gn != gen_voodoo_doll)
@@ -9209,7 +9213,7 @@ int voodoo_doll_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
 
 /* voodoo_doll_kill */
 int voodoo_doll_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   //  AFFECT_DATA* paf= (AFFECT_DATA*) arg1;
 
   if (gn != gen_voodoo_doll)
@@ -9225,14 +9229,14 @@ int voodoo_doll_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
 
 /* pc_charm_init */
 int pc_charm_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   //  AFFECT_DATA* paf= (AFFECT_DATA*) arg1;
 
   if (gn != gen_pc_charm)
     return -1;
 
   if (IS_IMMORTAL(ch)
-      || (IS_NPC(ch) && IS_SET(ch->act,ACT_AGGRESSIVE)) 
+      || (IS_NPC(ch) && IS_SET(ch->act,ACT_AGGRESSIVE))
       || IS_SET(ch->imm_flags,IMM_CHARM)
       || IS_UNDEAD(ch)
       )
@@ -9251,7 +9255,7 @@ int pc_charm_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int 
 
 /* pc_charm_kill */
 int pc_charm_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   //  AFFECT_DATA* paf= (AFFECT_DATA*) arg1;
 
   if (gn != gen_pc_charm)
@@ -9280,7 +9284,7 @@ int pc_charm_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int 
     }
   }
   stop_follower(ch);
-  
+
   return TRUE;
 }
 
@@ -9307,7 +9311,7 @@ int pc_charm_precommand(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1
 
 /* pass the command on these actions. */
   if ( ((strcmp("get", cmd_table[cmd].name)
-	&& strcmp("drop", cmd_table[cmd].name) 
+	&& strcmp("drop", cmd_table[cmd].name)
 	&& strcmp("stand", cmd_table[cmd].name)
 	&& strcmp("wake", cmd_table[cmd].name)
 	&& strcmp("kill", cmd_table[cmd].name)
@@ -9315,7 +9319,7 @@ int pc_charm_precommand(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1
 	&& strcmp("hit", cmd_table[cmd].name)
 	&& strcmp("affects", cmd_table[cmd].name)
 	&& strcmp("score", cmd_table[cmd].name)
-	&& strcmp("who", cmd_table[cmd].name)	
+	&& strcmp("who", cmd_table[cmd].name)
         && strcmp("whois", cmd_table[cmd].name))
 	&& cmd_table[cmd].level < IM)
        || !strcmp("all", arg)
@@ -9334,7 +9338,7 @@ int pc_charm_precommand(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1
 //--------========BLADES========------//
 /* vlades_init */
 int blades_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   CHAR_DATA* vch;
 
   if (gn != gen_blades)
@@ -9358,7 +9362,7 @@ int blades_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
 
 /* blades_kill */
 int blades_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   //  AFFECT_DATA* paf= (AFFECT_DATA*) arg1;
 
   if (gn != gen_blades)
@@ -9372,7 +9376,7 @@ int blades_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
 
 /* blades_previolence */
 int blades_previo(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   CHAR_DATA* vch;
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
 
@@ -9399,7 +9403,7 @@ else
       else
 	act("A pair of giant blades phases in around $n and begin their deadly dance.", ch, NULL, vch, TO_VICT);
     }
-  
+
   //message to surronding rooms.
   broadcast(ch, "You hear a sound of large blades whistling through the air.\n\r");
 
@@ -9410,7 +9414,7 @@ else
 
 /* blades_tick */
 int blades_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   CHAR_DATA* vch;
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   int upkeep = effect_table[GN_POS(gn)].value2[0];
@@ -9438,7 +9442,7 @@ int blades_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
     paf->modifier = FALSE;
 
   send_to_char("The blades conveniently phase away from this reality.\n\r", ch);
-  
+
   //message to people
   for (vch = ch->in_room->people; vch != NULL; vch = vch->next_in_room)
     {
@@ -9468,16 +9472,16 @@ int blades_predamage(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
   //  AFFECT_DATA* paf = (AFFECT_DATA*) arg2;
   int dam_type = *int2;
   int dt = flag;
-  
+
   //data
   int chance = effect_table[GN_POS(gn)].value3[0];
- 
+
  //ez
  if (gn != gen_blades)
    return -1;
 
  //return on on damage
- if (*int1 < 1) 
+ if (*int1 < 1)
    return FALSE;
 
  //only block attacks (virtual attacks still have dt's in >= TYPE_HIT)
@@ -9486,14 +9490,14 @@ int blades_predamage(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
 
  if (number_percent() > chance)
    return FALSE;
- 
+
  //send messages out
  //Message to char.
  if (!IS_AFFECTED(victim, AFF_BLIND))
    act("The giant blade deflects $n's attack.", ch, NULL, victim, TO_VICT);
  else
    act("Something deflects $n's attack.", ch, NULL, victim, TO_VICT);
- 
+
  //message to people
  for (vch = ch->in_room->people; vch != NULL; vch = vch->next_in_room)
    {
@@ -9518,7 +9522,7 @@ int blades_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
   //  CHAR_DATA* victim = (CHAR_DATA*) arg2;
   CHAR_DATA* vch, *vch_next;
 
-  /* notice blades dont have tahc0 calc. they hit, or they are blocked */ 
+  /* notice blades dont have tahc0 calc. they hit, or they are blocked */
 
 //data
   int dam_1 = 2;
@@ -9526,7 +9530,7 @@ int blades_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
   int dam = 0;
   int h_roll = effect_table[GN_POS(gn)].value1[URANGE(0, paf->level/5, 10)] / 2;
   int d_roll = effect_table[GN_POS(gn)].value1[URANGE(0, paf->level/5, 10)];
- 
+
 //consts
  const int skill_med = 75;
  const int skill_mod = 5;
@@ -9541,7 +9545,7 @@ int blades_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
 
  const int dam_type = DAM_SLASH;
 
-/* 
+/*
    The hit is based on values from value1 (increases with level)
    and skill
    Damage on the level of the spell and
@@ -9563,18 +9567,18 @@ int blades_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
       if ( (ch->fighting && ch->fighting == vch)
 	   || (vch->fighting && vch->fighting == ch) ){
 
-	if (ch->fighting != NULL 
-	    && vch->hit > 0 
-	    && vch->position > POS_STUNNED 
+	if (ch->fighting != NULL
+	    && vch->hit > 0
+	    && vch->position > POS_STUNNED
 	    && vch->in_room == ch->in_room
 	    && !is_safe_quiet(ch, vch))
 	  virtual_damage(ch, vch, NULL, dam, dt1, dam_type, h_roll, paf->level, TRUE, TRUE, gsn_blades);
 
 	dam = dice (dam_1, dam_2) + d_roll;
-	if (ch->fighting != NULL 
-	    && vch->hit > 0 
+	if (ch->fighting != NULL
+	    && vch->hit > 0
 	    && vch->position > POS_STUNNED
-	    && vch->in_room == ch->in_room 
+	    && vch->in_room == ch->in_room
 	    && !is_safe_quiet(ch, vch))
 	  virtual_damage(ch, vch, NULL, dam, dt2, dam_type, h_roll, paf->level, TRUE, TRUE, gsn_blades);
 	check_improve(ch, gsn_blades, TRUE, 1);
@@ -9652,7 +9656,7 @@ OBJ_DATA* get_dan_blade(CHAR_DATA* ch, int key)
 
 /* dancingblade_init */
 int dan_blade_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   OBJ_DATA* obj;
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   AFFECT_DATA* opaf;
@@ -9679,7 +9683,7 @@ int dan_blade_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
 
 /* dancing_blade_kill */
 int dan_blade_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   AFFECT_DATA* paf= (AFFECT_DATA*) arg1;
   AFFECT_DATA* bpaf;
   OBJ_DATA* obj;
@@ -9739,7 +9743,7 @@ int dan_blade_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
       return FALSE;
     }
 
-  if ( (bpaf = affect_find(obj->affected, gsn_dan_blade)) != NULL) 
+  if ( (bpaf = affect_find(obj->affected, gsn_dan_blade)) != NULL)
     if (ch->fighting == NULL && !bpaf->bitvector)
       {
 	//change this first so we can se the blade.
@@ -9821,7 +9825,7 @@ int dan_blade_previo(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
 	    act("Against your best efforts $p flies out of your hands.", ch, obj, NULL, TO_CHAR);
 	  unequip_char(ch, obj);
 	}
-      
+
       act("$p bobs in the air as it heads towards $n.", victim, obj, victim, TO_ROOM);
       act("$p bobs in the air as it heads towards you.", ch, obj, victim, TO_VICT);
     }
@@ -9888,7 +9892,7 @@ int dan_blade_postvio(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
     }
 
   //check for combat.
-  //This is run before the current opponent is cleared, so we 
+  //This is run before the current opponent is cleared, so we
   //look for anyone except that oppononetn.
   for (vch = ch->in_room->people; vch != NULL; vch = vch->next_in_room)
     {
@@ -9897,7 +9901,7 @@ int dan_blade_postvio(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
     }
 
 
-  
+
   if (!in_combat)
     {
       bpaf = affect_find(obj->affected, gsn_dan_blade);
@@ -9911,12 +9915,12 @@ int dan_blade_postvio(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
 }
 
 /* special attack of dancing blade */
-void dan_blade_special(CHAR_DATA* ch, CHAR_DATA* victim, OBJ_DATA* obj, 
+void dan_blade_special(CHAR_DATA* ch, CHAR_DATA* victim, OBJ_DATA* obj,
 int spec, int dam, int dt,int dam_type, int h_roll, int level)
 {
   OBJ_DATA* wield;
   char buf[MIL];
-  int i = 0;  
+  int i = 0;
   //check which attack.
   switch (spec)
     {
@@ -9924,7 +9928,7 @@ int spec, int dam, int dt,int dam_type, int h_roll, int level)
     case 1:
       act("$p takes a vicious swipe at $N's legs!", victim, obj, victim, TO_ROOM);
       act("$p takes a vicious swipe at your legs!", victim, obj, victim, TO_CHAR);
-      if (IS_AFFECTED(victim,AFF_FLYING) 
+      if (IS_AFFECTED(victim,AFF_FLYING)
 	  && !is_affected(victim,gsn_thrash))
 	{
 	  act("$S feet aren't on the ground.",victim,NULL,victim,TO_ROOM);
@@ -9933,8 +9937,8 @@ int spec, int dam, int dt,int dam_type, int h_roll, int level)
 	}
       act( "You scream in pain and go down!",victim, NULL,victim,TO_CHAR);
       act("$n screams in pain and goes down.",victim, NULL,victim,TO_ROOM);
-      if (ch->fighting != NULL 
-	  && victim->hit > 0 
+      if (ch->fighting != NULL
+	  && victim->hit > 0
 	  && victim->position > POS_STUNNED
 	  && victim->in_room == ch->in_room
 	  && !is_safe_quiet(ch, victim))
@@ -9951,7 +9955,7 @@ int spec, int dam, int dt,int dam_type, int h_roll, int level)
       disarm(ch, victim );
       /* END DISARM */
     break;
-    
+
 /* CUSINART */
     case 3:
       sprintf(buf, "$p beings to spin in a deadly whirlwind of %s", obj->material);
@@ -9960,10 +9964,10 @@ int spec, int dam, int dt,int dam_type, int h_roll, int level)
       for (i = 0; i < 4; i++)
 	{
 	  int new_dam = number_range(dam / 4, dam / 2);
-	  if (ch->fighting != NULL 
-	      && victim->hit > 0 
+	  if (ch->fighting != NULL
+	      && victim->hit > 0
 	      && victim->in_room == ch->in_room
-	      && victim->position > POS_STUNNED 
+	      && victim->position > POS_STUNNED
 	      && !is_safe_quiet(ch, victim)
 	      )
 	      virtual_damage(ch, victim, obj, new_dam, dt, dam_type, h_roll, level, TRUE, TRUE, gsn_dan_blade);
@@ -10031,7 +10035,7 @@ III) > 99: Chopper
  int h_d_mod = effect_table[GN_POS(gn)].value1[URANGE(0, (skill - skill_med) / 2, 12)];
  int h_roll = 0 ;
  int d_roll = 0 ;
- int diceroll = 0; 
+ int diceroll = 0;
 
   if (paf->type != gen_dan_blade)
     return -1;
@@ -10104,13 +10108,13 @@ III) > 99: Chopper
     dam = 0;
 
   //and we make an attack.
-  
+
 //decloak the sword for duration of attack.
   bpaf->bitvector = TRUE;
 
-  if (ch->fighting != NULL 
-      && victim->hit > 0 
-      && victim->position > POS_STUNNED 
+  if (ch->fighting != NULL
+      && victim->hit > 0
+      && victim->position > POS_STUNNED
       && victim->in_room == ch->in_room
       && !is_safe_quiet(ch, victim))
     virtual_damage(ch, victim, obj, dam, dt, dam_type, h_roll, paf->level, TRUE, TRUE, gsn_dan_blade);
@@ -10122,10 +10126,10 @@ III) > 99: Chopper
     if ( diceroll == 0 || ( diceroll != 19 && diceroll < thac0 - ac ) )
       dam = 0;
     dam = d_roll + dice(obj->value[DICE_TYPE], obj->value[DICE_BONUS]) * h_d_mod / 200;
-    if (ch->fighting != NULL 
-	&& victim->hit > 0 
+    if (ch->fighting != NULL
+	&& victim->hit > 0
 	&& victim->in_room == ch->in_room
-	&& victim->position > POS_STUNNED 
+	&& victim->position > POS_STUNNED
 	&& !is_safe_quiet(ch, victim))
       virtual_damage(ch, victim, obj, dam, dt, dam_type, h_roll, paf->level, TRUE, TRUE, gsn_dan_blade);
     //cast spells etc.
@@ -10136,9 +10140,9 @@ III) > 99: Chopper
   //special attacks.
   chance = UMAX(0, skill - spec_mod) + (skill > 95? 5 : 1);
   if ( (roll = number_percent()) < chance
-       &&  ch->fighting != NULL 
-       && victim->hit > 0 
-       && victim->position > POS_STUNNED 
+       &&  ch->fighting != NULL
+       && victim->hit > 0
+       && victim->position > POS_STUNNED
        && !is_safe_quiet(ch, victim)
        )
        {
@@ -10157,7 +10161,7 @@ III) > 99: Chopper
 
 /* ANGER fnctions */
 int anger_search_room (CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag) {
-    
+
   CHAR_DATA *vch, *next_vch;
 
   if (gn != gen_anger) {
@@ -10167,20 +10171,20 @@ int anger_search_room (CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1,
   if (IS_IMMORTAL(ch))
     return FALSE;
 
-  if (!is_affected (ch, gen_anger) 
-      || !IS_AWAKE (ch) 
+  if (!is_affected (ch, gen_anger)
+      || !IS_AWAKE (ch)
       || IS_AFFECTED (ch, AFF_CALM)){
     return FALSE;
   }
-  
+
   if (ch->in_room == NULL) {
     return -1;
   }
-    
+
   for (vch = ch->in_room->people; vch != NULL; vch = next_vch){
     next_vch = vch->next_in_room;
-    if (is_safe_quiet_all (ch, vch) 
-	|| !can_see (ch, vch) 
+    if (is_safe_quiet_all (ch, vch)
+	|| !can_see (ch, vch)
 	|| (ch == vch)) {
       continue;
     }
@@ -10199,11 +10203,11 @@ int anger_kill (CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
   if (gn != gen_anger) {
     return -1;
   }
-  
+
   if (paf->location == APPLY_DAMROLL) {
-    act_new (effect_table [GN_POS(gn)].msg_off, ch, NULL, NULL, 
+    act_new (effect_table [GN_POS(gn)].msg_off, ch, NULL, NULL,
 	     TO_CHAR, POS_DEAD);
-    act_new (effect_table [GN_POS(gn)].msg_off2, ch, NULL, NULL, 
+    act_new (effect_table [GN_POS(gn)].msg_off2, ch, NULL, NULL,
 	     TO_ROOM, POS_DEAD);
   }
 
@@ -10226,7 +10230,7 @@ int anger_leave (CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *
 //------------------=====TERRA SHIELD===-------//
 /* terra_shieldinit */
 int terra_shield_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   int skill = get_skill(ch, gsn_terra_shield);
   if (gn != gen_terra_shield)
@@ -10238,7 +10242,7 @@ int terra_shield_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
   //we check if the shield will break if caster moves.
   if (skill * paf->level / 100 >= 30) //(75% need 40)
     {
-      act("You weave magic and power around yourself creating a true Terra Shield.", ch, NULL, NULL, TO_CHAR); 
+      act("You weave magic and power around yourself creating a true Terra Shield.", ch, NULL, NULL, TO_CHAR);
       paf->modifier = TRUE;
     }
   else
@@ -10263,7 +10267,7 @@ int terra_shield_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
     act_new("The terra shield loses its sentience.", ch, NULL, NULL, TO_CHAR, POS_DEAD);
   else
     act_new("Your attention broken, the ground grows still at your feet.", ch, NULL, NULL, TO_CHAR, POS_DEAD);
-  
+
   return TRUE;
 }
 
@@ -10319,7 +10323,7 @@ int terra_shield_predamage(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *i
   int dam = (int) *int1;
   int dam_type = (int) *int2;
   int dt = flag;
-  
+
   //data
   //shield blocks better if sentient
   int chance =  3 * victim->level/(paf->modifier? 5 : 6);
@@ -10334,13 +10338,13 @@ int terra_shield_predamage(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *i
     return -1;
 
   //dont deflect misses :)
-  if (dam < 1) 
+  if (dam < 1)
     return FALSE;
 
  //only block attacks (virtual attacks still have dt's in >= TYPE_HIT)
  if (dt < TYPE_HIT || dam_type == DAM_NONE || dam_type == DAM_INTERNAL)
    return FALSE;
- 
+
  chance += (URANGE(-10, victim->level - ch->level, 5)) * level_mod;
  chance += (get_curr_stat(victim, STAT_LUCK) - get_curr_stat(ch, STAT_LUCK)) * luck_mod;
  h_roll = URANGE(0, (GET_HITROLL(ch) - 20) / 2, chance / 2);
@@ -10388,11 +10392,11 @@ int terra_shield_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
 //----===REFLECTIVE SHIELD===-----//
 /* ref_shieldinit */
 int ref_shield_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   if (gn != gen_ref_shield)
     return -1;
-  
+
 //we set the stored damage to 30 for first time
   paf->modifier = 30;
 //all we do is show a message and based on the level
@@ -10433,7 +10437,7 @@ int ref_shield_predamage(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int
   int dt = flag;
 
   /*
-the shield collects 1/4 damage per round, then releases it at the beggining of 
+the shield collects 1/4 damage per round, then releases it at the beggining of
 combat round of character.
   */
   //data
@@ -10449,13 +10453,13 @@ combat round of character.
     return -1;
 
   //dont deflect misses :)
-  if (dam < 1) 
+  if (dam < 1)
     return FALSE;
 
  //only block attacks that are mundane and not spells.
   if (dt < TYPE_HIT || dam_type == DAM_NONE)
     return FALSE;
- 
+
   //we get dmage absorbed
   dam_abs = ref_dam * dam / 100;
   cost = 1 + dam_abs / 10;
@@ -10544,14 +10548,14 @@ int ref_shield_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int
 //----===PLUMBUM MANUS===-----//
 /* plumbum_init */
 int plumbum_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   //  AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   if (gn != gen_plumbum)
     return -1;
-  
+
   send_to_char("You place a field of increased gravity around yourself.\n\r", ch);
   act("You feel a bit heavier.", ch, NULL, NULL, TO_ROOM);
- 
+
   return TRUE;
 }//END refshield INIT
 
@@ -10627,21 +10631,21 @@ int plumbum_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
 	      af.type = gsn_plumbum;
 	      af.level = paf->level;
 	      af.duration = 0;
-	      
+
 	      af.where = TO_AFFECTS;
 	      af.bitvector = AFF_SLOW;
-	      
+
 	      af.location = APPLY_STR;
-	      af.modifier = -number_range(1, 2);		
+	      af.modifier = -number_range(1, 2);
 	      affect_to_char(vch, &af);
 	    }
 	}//end slow check
     }//end for
-  
+
   return TRUE;
 }
-  
-  
+
+
   /* plumbum_postcombat */
 int plumbum_postcombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
   {
@@ -10649,7 +10653,7 @@ int plumbum_postcombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1,
 ie: this is run only by victims of the spell.
 */
     //  AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
- 
+
   if (gn != gen_plumbum)
     return -1;
 
@@ -10663,11 +10667,11 @@ ie: this is run only by victims of the spell.
 //----===Cloak of Discord===-----//
 /* discord_init */
 int discord_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   if (gn != gen_discord)
     return -1;
-  
+
   send_to_char("You call onto forces of chaos to surround you.\n\r", ch);
   act("The space around $n bends and ripples strangley.", ch, NULL, NULL, TO_ROOM);
   broadcast(ch, "Shapes around you blur and ripple.\n\rHow strange.\n\r");
@@ -10745,11 +10749,11 @@ int discord_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *
 //----===Chaos Orb===-----//
 /* orb_init */
 int orb_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   //  AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   if (gn != gen_orb)
     return -1;
-  
+
   send_to_char("You sense a fraction of Moloch's power focus upon your actions.\n\r", ch);
   act("You sense a malvolent intelligence focus upon $n.", ch, NULL, NULL, TO_ROOM);
 
@@ -10804,13 +10808,13 @@ int orb_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int 
 //----===Conceal===-----//
 /* Conceal_init */
 int conceal_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   //  AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   if (gn != gen_conceal)
     return -1;
-  
+
   act("Dark shadows form into a thick cloak around you hiding your identity.", ch, NULL, NULL,  TO_CHAR);
-  if (!IS_AFFECTED(ch, AFF_HIDE) 
+  if (!IS_AFFECTED(ch, AFF_HIDE)
       && !IS_AFFECTED2(ch, AFF_CAMOUFLAGE)
       && !is_affected(ch, gsn_death_shroud))
     act("A thick dark cloak forms around $n and conceals $s identity.", ch, NULL, NULL, TO_ROOM);
@@ -10831,7 +10835,7 @@ int conceal_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *
     return -1;
 
   act_new(effect_table[GN_POS(gn)].msg_off,ch,NULL,NULL,TO_CHAR,POS_DEAD);
-  if (!IS_AFFECTED(ch, AFF_HIDE) 
+  if (!IS_AFFECTED(ch, AFF_HIDE)
       && !IS_AFFECTED2(ch, AFF_CAMOUFLAGE)
       && !is_affected(ch, gsn_death_shroud))
     act(effect_table[GN_POS(gn)].msg_off2,ch,NULL,NULL,TO_ROOM);
@@ -10861,13 +10865,13 @@ int conceal_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
   }
   return TRUE;
 }
- 
+
 
 
 //----===Death SHroud===-----//
 /* Shroud_init */
 int d_shroud_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   CHAR_DATA* vch;
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   if (gn != gen_d_shroud)
@@ -10903,7 +10907,7 @@ int d_shroud_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int 
   act(effect_table[GN_POS(gn)].msg_off2,ch,NULL,NULL,TO_ROOM);
   return TRUE;
 }
-  
+
 int d_shroud_precommand(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
@@ -10918,7 +10922,7 @@ int d_shroud_precommand(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1
        || cmd_table[cmd].hide
        || !strcmp("east", cmd_table[cmd].name)
        || !strcmp("west", cmd_table[cmd].name)
-       || !strcmp("north", cmd_table[cmd].name)	
+       || !strcmp("north", cmd_table[cmd].name)
        || !strcmp("south", cmd_table[cmd].name)
        || !strcmp("up", cmd_table[cmd].name)
        || !strcmp("down", cmd_table[cmd].name)
@@ -10933,14 +10937,14 @@ int d_shroud_precommand(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1
   }
 
 return FALSE;
-}  
+}
 
 //-----==CHAOS SPAWN====----//
 
 
 /* cspawn_init */
 int cspawn_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
 
   const int ini_dur = effect_table[GN_POS(gn)].value3[0];
@@ -10958,7 +10962,7 @@ int cspawn_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
 
 /* cspawn_kill */
 int cspawn_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   //  AFFECT_DATA* paf= (AFFECT_DATA*) arg1;
 
   if (gn != gen_cspawn)
@@ -10981,8 +10985,8 @@ int cspawn_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
 if in combat duration is refunded (+1)
 propabilty of extra incerase:
 chance     of +1(PC *2 chance)
-chance / 2 of +2 
-chance / 4 of +3 
+chance / 2 of +2
+chance / 4 of +3
   */
 
   if (paf->type != gen_cspawn)
@@ -11038,7 +11042,7 @@ void cspawn_special(CHAR_DATA* ch, CHAR_DATA* victim, int spec, int level)
   CHAR_DATA* mob;
 
   char* name = effect_table[GN_POS(gen_cspawn)].noun_damage;
-  int i = 0, j = 0;  
+  int i = 0, j = 0;
 
   //check which attack.
   switch (spec)
@@ -11086,7 +11090,7 @@ void cspawn_special(CHAR_DATA* ch, CHAR_DATA* victim, int spec, int level)
 	  wield->value[2]  = UMAX(1, wield->value[2] - 1);
       }
       break;
-    
+
 /* SUMMON*/
     case 3:
       act("\n\rPassage to the Nexus opens around $t.", ch, name, victim, TO_ALL);
@@ -11117,7 +11121,7 @@ void cspawn_special(CHAR_DATA* ch, CHAR_DATA* victim, int spec, int level)
 	af.type      = gsn_timer;
 	af.level     = level;
 	af.duration  = number_range(0, 1);
-	af.modifier  = 0;  
+	af.modifier  = 0;
 	af.location  = 0;
 	af.bitvector = 0;
 	affect_to_char( mob, &af );
@@ -11140,7 +11144,7 @@ int cspawn_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   CHAR_DATA* victim = (CHAR_DATA*) arg2;
 
-  /* notice blades dont have tahc0 calc. they hit, or they are blocked */ 
+  /* notice blades dont have tahc0 calc. they hit, or they are blocked */
 
 //data
   int dam_1 = 4;
@@ -11149,7 +11153,7 @@ int cspawn_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
   int h_roll = effect_table[GN_POS(gn)].value1[URANGE(0, paf->level/5, 10)];
   int d_roll = effect_table[GN_POS(gn)].value1[URANGE(0, paf->level/5, 10)];
   int roll = number_percent();
- 
+
 //consts
   const int chance = effect_table[GN_POS(gn)].value2[0];
   const int level_med = 30;
@@ -11159,16 +11163,16 @@ int cspawn_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
 
   const int dt1 = attack_lookup("corruption") + TYPE_HIT;
   const int dt2 = attack_lookup("tainted") + TYPE_HIT;
-  
+
   const int dam_type = DAM_NEGATIVE;
-  
-  /* 
+
+  /*
      The hit is based on values from value1 (increases with level)
      and skill
      Damage on the level of the spell and
      the skill of the user in the spell
   */
-  
+
   //get the damage bonus here.
   if (paf->level > 49)
     dam_1 ++;
@@ -11179,31 +11183,31 @@ int cspawn_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
 
   //bonus on hit for skill.
   h_roll += h_roll_mod * UMAX(0, dam_1- 2);
-  
+
   // sendf(ch, "d_roll: %d, dam: %d, h_roll: %d\n\r", d_roll, dam, h_roll);
   //two attack
- if (ch->fighting != NULL 
+ if (ch->fighting != NULL
      && victim->in_room == ch->in_room
-     && victim->hit > 0 
-     && victim->position > POS_STUNNED 
+     && victim->hit > 0
+     && victim->position > POS_STUNNED
      && !is_safe_quiet(ch, victim))
    virtual_damage(ch, victim, NULL, dam, dt1, dam_type, h_roll, paf->level, TRUE, TRUE, gen_cspawn);
   dam = dice (dam_1, dam_2) + d_roll;
-  if (ch->fighting != NULL 
-      && victim->hit > 0 
-      && victim->position > POS_STUNNED 
+  if (ch->fighting != NULL
+      && victim->hit > 0
+      && victim->position > POS_STUNNED
       && victim->in_room == ch->in_room
       && !is_safe_quiet(ch, victim))
     virtual_damage(ch, victim, NULL, dam, dt2, dam_type, h_roll, paf->level, TRUE, TRUE, gen_cspawn);
-  
+
   //special attacks.
 
 
   if ( number_percent() < chance
-       &&  ch->fighting != NULL 
-       && victim->hit > 0 
+       &&  ch->fighting != NULL
+       && victim->hit > 0
        && victim->in_room == ch->in_room
-       && victim->position > POS_STUNNED 
+       && victim->position > POS_STUNNED
        && !is_safe_quiet(ch, victim) ){
     int special = 0;
     /* Dissolve*/
@@ -11213,7 +11217,7 @@ int cspawn_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
     else if (roll < 65)
       special = 3;
     /* Corrupt */
-    else  
+    else
       special = 1;
     //DEBUG
     //    sendf(ch, "roll: %d, special %d\n\r", roll, special);
@@ -11225,7 +11229,7 @@ int cspawn_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
 //====--VISITATION===---//
 /* visit_init */
 int visit_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   //  AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
 
 
@@ -11239,7 +11243,7 @@ int visit_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *in
 
 /* visit_kill */
 int visit_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   //  AFFECT_DATA* paf= (AFFECT_DATA*) arg1;
 
   if (gn != gen_visit)
@@ -11262,7 +11266,7 @@ int visit_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *in
 
   if (paf->duration == 1)
     paf->modifier = 1;
-  
+
   if (paf->duration > 0){
     switch (number_range(0, 3)){
     case 0:
@@ -11289,7 +11293,7 @@ int visit_viol(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *in
   CHAR_DATA* och;
   int dam = 1;
   const int skip = effect_table[GN_POS(gn)].value2[0];
-  
+
   if (gn != gen_visit)
     return -1;
   /* this runs only if paf modifier is > 0 */
@@ -11345,16 +11349,16 @@ int visit_viol(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *in
 //====--SAVANT WARD===---//
 /* init */
 int sav_ward_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
 
 
   if (gn != gen_sav_ward)
     return -1;
 
-  act("$t runes of magical power inscribe themselves about $n.", 
+  act("$t runes of magical power inscribe themselves about $n.",
       ch, paf->modifier? "Glowing" : "Dark", NULL, TO_ROOM);
-  act("$t runes of magical power inscribe themselves about you.", 
+  act("$t runes of magical power inscribe themselves about you.",
       ch, paf->modifier? "Glowing" : "Dark", NULL, TO_CHAR);
   return TRUE;
 }
@@ -11362,7 +11366,7 @@ int sav_ward_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int 
 
 /* kill */
 int sav_ward_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   //  AFFECT_DATA* paf= (AFFECT_DATA*) arg1;
 
   if (gn != gen_sav_ward)
@@ -11391,10 +11395,10 @@ int sav_ward_predamage(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1,
   int dam_type = (int) *int2;
   int dt = flag;
 
-  const int max_dam = effect_table[GN_POS(gn)].value2[0]; 
+  const int max_dam = effect_table[GN_POS(gn)].value2[0];
   const int fail_mod = effect_table[GN_POS(gn)].value3[0]; //divisor for weakening of the ward
 
-  /* 
+  /*
 - warding blocks only weapons (dt >= TYPE_HIT)
 - depending on paf->modifier only normal (dam_type < 4 on FALSE)
 - chance to dispel warding on any damage over current ceiling (max_dam)
@@ -11448,9 +11452,9 @@ int sav_ward_predamage(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1,
 //====--SAVANT CATALYST===---//
 /* init */
 int sav_cata_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   //  AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
-  const int max_hit = effect_table[GN_POS(gn)].value2[0]; 
+  const int max_hit = effect_table[GN_POS(gn)].value2[0];
 
   if (gn != gen_sav_cata)
     return -1;
@@ -11465,7 +11469,7 @@ int sav_cata_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int 
 
 /* kill */
 int sav_cata_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   AFFECT_DATA* paf= (AFFECT_DATA*) arg1;
 
   if (gn != gen_sav_cata)
@@ -11482,7 +11486,7 @@ int sav_cata_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int 
 int sav_cata_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
   //  AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
-  int max_hit = effect_table[GN_POS(gn)].value2[0]; 
+  int max_hit = effect_table[GN_POS(gn)].value2[0];
   if (get_skill(ch, skill_lookup("catalyst")) > 100)
     max_hit += 50;
   if (ch->hit > max_hit){
@@ -11497,7 +11501,7 @@ int sav_cata_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int 
 //====--WARMASTER CHALLENGE===---//
 /* init */
 int challenge_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   //  AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
 
   if (gn != gen_challenge)
@@ -11508,7 +11512,7 @@ int challenge_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
 
 /* kill */
 int challenge_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   AFFECT_DATA* paf= (AFFECT_DATA*) arg1;
   CHAR_DATA* och;
   AFFECT_DATA* baf, *baf_next;
@@ -11527,7 +11531,7 @@ int challenge_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
 	&& !str_cmp(baf->string, ch->name))
       affect_remove(och, baf);
   }
-  
+
   /* no messages on challenges waiting to be accepted/declined */
   if (paf->duration > 0)
     return TRUE;
@@ -11541,7 +11545,7 @@ int challenge_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
 int challenge_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
-  /* of path is set we countdown till we can attack */ 
+  /* of path is set we countdown till we can attack */
   if (paf->modifier > 0){
     if (--paf->modifier < 1)
       send_to_char("`!You may now FIGHT!``", ch);
@@ -11616,7 +11620,7 @@ int circle_of_protection_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int
 */
 /* kill */
 /*
-int circle_of_protection_kill(CHAR_DATA* ch, void* arg1, void* 
+int circle_of_protection_kill(CHAR_DATA* ch, void* arg1, void*
 arg2, int gn, int *int1, int *int2, int flag)
 {
   //  AFFECT_DATA* paf= (AFFECT_DATA*) arg1;
@@ -11746,8 +11750,8 @@ int yearning_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
       paf->modifier++;
 
     // if this is an even-numbered tick out of forest, send message
-    if ((paf->modifier > 1) && (paf->modifier <=10) && 
-	(paf->modifier % 2 == 0)) { 
+    if ((paf->modifier > 1) && (paf->modifier <=10) &&
+	(paf->modifier % 2 == 0)) {
       send_to_char ("Your yearning for the warm embrace of the forest "\
                     "increases.\n\r", ch);
     }
@@ -11756,7 +11760,7 @@ int yearning_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
     // also only if over lev 10
     if ((paf->modifier > 10) && (ch->level > 10)) {
       int dam = number_range(1+ (2*(paf->modifier-10)),ch->level/2 + (5*(paf->modifier-10)));
-      
+
       //green circle
       if (fGreen)
 	dam = UMIN(1, dam / 3 );
@@ -11771,7 +11775,7 @@ int yearning_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
       send_to_char ("As you return to the warm embrace of nature, your"\
 		    " yearning is satisfied.\n\r", ch);
     }
-    
+
     // reset tick counter
     paf->modifier = 0;
   }
@@ -11786,16 +11790,16 @@ int ensnare_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *
   CHAR_DATA* victim = NULL;
 
   if (gn != gen_ensnare)
-    return -1;    
+    return -1;
 
   /* if the original creator of this ensnare is not in an area with us we strip it */
   if (IS_NULLSTR(paf->string) || (victim = get_char(paf->string)) == NULL
       || ch->in_room == NULL
-      || victim->in_room == NULL 
+      || victim->in_room == NULL
       || victim->in_room->area != ch->in_room->area)
     affect_strip( ch, gn );
   return TRUE;
-}        
+}
 
 int ensnare_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
@@ -11805,17 +11809,17 @@ int ensnare_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *
 
   act_new(effect_table[GN_POS(gn)].msg_off,ch,NULL,NULL,TO_CHAR,POS_DEAD);
   act(effect_table[GN_POS(gn)].msg_off2,ch,NULL,NULL,TO_ROOM);
-  
+
   sprintf(buf, "%s is no longer ensnared.", PERS2(ch));
   cabal_echo_flag(CABAL_HEARGUARD, buf );
   return TRUE;
 }
 
 
-//MOB GENERATOR: Generaters a mob of vnum stored in "level" in area stored in "location" 
+//MOB GENERATOR: Generaters a mob of vnum stored in "level" in area stored in "location"
 //at a rate of "modifier / duration" for "duration" ticks
 
-int mob_gen_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)  
+int mob_gen_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   AREA_DATA* pArea;
@@ -11884,17 +11888,17 @@ int mob_gen_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *
       sendf( ch, "You've caused %d %s%s to enter %s.\n\r", count, pMobIndex->short_descr, count == 1 ? "" : "s", pArea->name );
   }
   return TRUE;
-}    
+}
 
 /* ///---- JAIL----/// */
 
 bool execute_criminal( CHAR_DATA* ch, int type, char* name){
   CHAR_DATA* mob = NULL, *vch;
   ROOM_INDEX_DATA* exe_room;
-  
+
   /* get the jail this guy is from based on current room. */
   int jail = jail_cell_lookup(ch->in_room->vnum);
-  
+
   if (jail_table[jail].exe_mob == 0){
     char buf[MIL];
     send_to_char("No exe_mob found! Contact Immortal.\n\r", ch);
@@ -12006,10 +12010,10 @@ int jail_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int
   else if (paf->modifier == JAIL_EXECUTE && paf->duration == 1 ){
     CHAR_DATA* mob = NULL, *vch;
     ROOM_INDEX_DATA* exe_room;
-    
+
     /* get the jail this guy is from based on current room. */
     int jail = jail_cell_lookup(ch->in_room->vnum);
-    
+
     if (jail_table[jail].exe_mob == 0){
       char buf[MIL];
       send_to_char("No exe_mob found! Contact Immortal.\n\r", ch);
@@ -12051,7 +12055,7 @@ int jail_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int
     return TRUE;
   }
   /* we announce executions every 3 ticks */
-  else if (paf->modifier == JAIL_EXECUTE && paf->duration > 1 
+  else if (paf->modifier == JAIL_EXECUTE && paf->duration > 1
 	   && !(paf->duration % 3)){
     ROOM_INDEX_DATA* room;
     AFFECT_DATA* crime;
@@ -12091,7 +12095,7 @@ int jail_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int
       strcat( crime_str, crime_table[CRIME_MURDER].name );
       strcat( crime_str, ", ");
     }
-      
+
     sprintf(buf, "%sby the Law of Aabahran\n\r"\
 	    "%s has been sentenced by %s %s\n\rCome ye to %s `6to witness the deed in %d hours!``",
 	    crime_str,
@@ -12105,7 +12109,7 @@ int jail_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int
 }
 
 /* Watchtower INIT */
-int watch_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag) 
+int watch_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
   if (gn != gen_watchtower)
     return -1;
@@ -12141,7 +12145,7 @@ int watch_leave(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
 /*  --------====BATTER=========----- */
 /* kill */
 int batter_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   //  AFFECT_DATA* paf= (AFFECT_DATA*) arg1;
 
   if (gn != gen_batter)
@@ -12234,21 +12238,21 @@ int batter_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
   AFFECT_DATA* baf = (AFFECT_DATA*) arg2;
   AFFECT_DATA* paf;
   CHAR_DATA* victim = (CHAR_DATA*) arg1;
-  
+
   const int threshold = victim->level * 4;
-  
+
   if (gn != gen_batter)
     return -1;
-  
+
   /* check if paf exists */
   if ( (paf = affect_find(victim->affected, gsn_batter)) == NULL)
     return FALSE;
 /* now there is a chance to disarm  */
 //    sendf(ch, "Current batter: %d, threashold: %d\n\r", paf->modifier, threshold);
-  
+
 /* check if we battered him enough */
   if (paf->modifier >= threshold){
-    act("$N's eyes glaze over from the multiple concussions.", 
+    act("$N's eyes glaze over from the multiple concussions.",
 	ch, NULL, victim, TO_CHAR);
     act("Shaken with the staggering blows, you loose grip on your weapon!",
 	ch, NULL, victim, TO_VICT);
@@ -12270,12 +12274,12 @@ int batter_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
 
 /* This is what happens when you smoke too much. -Crypt */
 
-int addiction_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)  
+int addiction_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
 
   if (gn != gen_addiction)
-    return -1;    
+    return -1;
 
   //if used drugs recently nothing happends
   if (is_affected(ch, gsn_drug_use)){
@@ -12289,7 +12293,7 @@ int addiction_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
   }
 
   /* increase tick counter */
-  paf->modifier++; 
+  paf->modifier++;
 
   /* if this is an even-numbered tick, send message */
   if ((paf->modifier > 1) && (paf->modifier <= 10) &&
@@ -12304,10 +12308,10 @@ int addiction_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
     damage( ch, ch, dam, gn,DAM_INTERNAL,TRUE);
   }
   return TRUE;
-}                
+}
 
 //~~~~LEVITATION~~~~//
-int levitation_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)  
+int levitation_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
   AFFECT_DATA* orig_paf = (AFFECT_DATA*) arg1;
   CHAR_DATA* vch;
@@ -12342,22 +12346,22 @@ int levitation_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, in
     }
   }
   return TRUE;
-}//END 
+}//END
 
 /* levitation_kill */
-int levitation_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)    
+int levitation_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
 
   if (gn != gen_levitation)
     return -1;
 
-  act_new(effect_table[GN_POS(gn)].msg_off,ch,NULL,NULL,TO_CHAR,POS_DEAD);  
+  act_new(effect_table[GN_POS(gn)].msg_off,ch,NULL,NULL,TO_CHAR,POS_DEAD);
   act(effect_table[GN_POS(gn)].msg_off2,ch,NULL,NULL,TO_ROOM);
   return TRUE;
 }
 
 //--------------=============PHOTON WALL===========-----------
-int photon_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)  
+int photon_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
 
@@ -12376,14 +12380,14 @@ int photon_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
   }
 
   return TRUE;
-}//END 
+}//END
 
 /* research_kill */
-int photon_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)    
+int photon_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
   if (gn != gen_photon_wall)
     return -1;
-  act_new(effect_table[GN_POS(gn)].msg_off,ch,NULL,NULL,TO_CHAR,POS_DEAD);  
+  act_new(effect_table[GN_POS(gn)].msg_off,ch,NULL,NULL,TO_CHAR,POS_DEAD);
   act(effect_table[GN_POS(gn)].msg_off2,ch,NULL,NULL,TO_ROOM);
   return TRUE;
 }
@@ -12420,10 +12424,10 @@ void hwep_gain(CHAR_DATA* ch, CHAR_DATA* victim, int mult ){
     gain = lvl45_gain;
   else if (victim->level > 37)
     gain = lvl38_gain;
-  
+
   if (mult)
     gain = mult * gain / 100;
-  
+
   /* check for paf */
   if ((paf = affect_find(obj->affected, gen_hwep)) == NULL){
     AFFECT_DATA af;
@@ -12505,7 +12509,7 @@ int hwep_objtick(CHAR_DATA* not_used, void* arg1, void* arg2, int gn, int *int1,
     }//END IF has recall owner
   }//END If recall
 /* HEALING */
-/* 
+/*
    if modifier > 0 then we are in delay, decrease modifier by one till 0
    if modifier < 0  and less then -1 heal
    if modifier < 0 and -1 we were healing, set modifier to 12
@@ -12513,7 +12517,7 @@ int hwep_objtick(CHAR_DATA* not_used, void* arg1, void* arg2, int gn, int *int1,
 
 */
 
-  if ( obj->wear_loc != WEAR_NONE 
+  if ( obj->wear_loc != WEAR_NONE
        && (baf = affect_find(obj->affected, gsn_heal)) != NULL){
     CHAR_DATA* vch = in_char ( obj );
     if (baf->modifier > 0)
@@ -12575,7 +12579,7 @@ TRUE= INCREEASE.
   return TRUE;
 }//end NONE
 //--------------============= CRUSADE ===========-----------
-int crusade_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)  
+int crusade_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   DESCRIPTOR_DATA *d;
@@ -12599,13 +12603,13 @@ int crusade_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *
 
   /* and we create a global yell of sorts */
   sprintf(buf,"`6Hear ye! Hear ye! %s%s`6 has left on Crusade against %s!``",
-	  ch->name, 
+	  ch->name,
 	  IS_NPC(ch) ? "" : ch->pcdata->title,
 	  choice);
 
   /* now we show it to the world */
   for ( d = descriptor_list; d; d = d->next ){
-    if ( d->connected == CON_PLAYING 
+    if ( d->connected == CON_PLAYING
 	 && d->character->in_room
 	 && d->character->in_room->area != ch->in_room->area
 	 && d->character != ch){
@@ -12615,10 +12619,10 @@ int crusade_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *
     }
   }
   return TRUE;
-}//END 
+}//END
 
 /* crusade_kill */
-int crusade_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)    
+int crusade_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   DESCRIPTOR_DATA *d;
@@ -12634,7 +12638,7 @@ int crusade_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *
 
   /* we create a global yell of sorts */
   sprintf(buf,"`6Hear ye! Hear ye! %s%s`6 has ended the Crusade against %s!``",
-	  ch->name, 
+	  ch->name,
 	  IS_NPC(ch) ? "" : ch->pcdata->title,
 	  choice);
 
@@ -12647,7 +12651,7 @@ int crusade_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *
     }
   }
 
-  act_new(effect_table[GN_POS(gn)].msg_off,ch, choice,NULL,TO_CHAR,POS_DEAD);  
+  act_new(effect_table[GN_POS(gn)].msg_off,ch, choice,NULL,TO_CHAR,POS_DEAD);
   act(effect_table[GN_POS(gn)].msg_off2,ch,NULL,NULL,TO_ROOM);
   return TRUE;
 }
@@ -12665,7 +12669,7 @@ int crusade_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
   die_follower_pc(ch);
 
 /* hunger check */
-  if (IS_NPC(ch) || !IS_AWAKE(ch) || is_affected(ch, gsn_ecstacy) 
+  if (IS_NPC(ch) || !IS_AWAKE(ch) || is_affected(ch, gsn_ecstacy)
       || ch->fighting)
     return TRUE;
 
@@ -12673,7 +12677,7 @@ int crusade_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
        && (ch->pcdata->condition[COND_HUNGER] < 10
 	   || ch->pcdata->condition[COND_THIRST] < 10)){
     char* type[] = {"an elderly farmer", "a housewife", "a lanky youth",
-		    "a traveler", "a soldier", "a beautiful lady", 
+		    "a traveler", "a soldier", "a beautiful lady",
 		    "a courter", "a squire" };
     const int max = 7;
     int i = number_range(0, max);
@@ -12715,7 +12719,7 @@ int crusade_postkill(CHAR_DATA* cha, void* arg1, void* arg2, int gn, int *int1, 
       && cha->leader && !IS_NPC(cha->leader)
       && cha->in_room == cha->leader->in_room)
     ch = cha->leader;
-  
+
 /* make sure this was a crusade match */
   if (check_crusade(ch, victim) != CRUSADE_MATCH)
     return TRUE;
@@ -12725,13 +12729,13 @@ int crusade_postkill(CHAR_DATA* cha, void* arg1, void* arg2, int gn, int *int1, 
 
 /* compose the name of the party to be crusaded against */
   sprintf(choice, "%s", show_crusade( paf ));
-  
+
   /* we create a global yell of sorts */
   sprintf(buf,"`6Hear ye! Hear ye! %s has triumphed over %s in the Crusade against %s!``",
-	  PERS2(ch), 
+	  PERS2(ch),
 	  PERS2(victim),
 	  choice);
-  
+
   /* now we yell it out */
   for ( d = descriptor_list; d; d = d->next ){
     if ( d->connected == CON_PLAYING ){
@@ -12741,7 +12745,7 @@ int crusade_postkill(CHAR_DATA* cha, void* arg1, void* arg2, int gn, int *int1, 
     }
   }
   /* palisons triumph */
-  if (!IS_NPC(victim) && !IS_NPC(ch) && IS_UNDEAD(victim) 
+  if (!IS_NPC(victim) && !IS_NPC(ch) && IS_UNDEAD(victim)
       && ch->pcdata->dall > 1 && is_affected(ch, gsn_ptrium)){
     act("As you put $N down, you watch in amazement as your wounds and scars heal!",
 	ch, NULL, victim, TO_CHAR);
@@ -12753,9 +12757,9 @@ int crusade_postkill(CHAR_DATA* cha, void* arg1, void* arg2, int gn, int *int1, 
   }
 
   /* check for double reward due to undeniable order */
-  if (!IS_NPC(ch) && !IS_NPC(victim) 
+  if (!IS_NPC(ch) && !IS_NPC(victim)
       && is_affected(ch, gsn_uorder)){
-    if (IS_UNDEAD(victim) 
+    if (IS_UNDEAD(victim)
 	|| IS_DEMON(victim)
 	|| (victim->pCabal && !IS_SET(victim->pCabal->align, ALIGN_GOOD)) ){
       cpgain *= 2;
@@ -12779,7 +12783,7 @@ int crusade_postkill(CHAR_DATA* cha, void* arg1, void* arg2, int gn, int *int1, 
 
 
 //--------------============= AVENGER ===========-----------
-int avenger_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)  
+int avenger_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
 //  AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
 
@@ -12789,21 +12793,21 @@ int avenger_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *
 /* Cannot be grouped */
   stop_follower(ch);
   die_follower_pc(ch);
-  
+
   return TRUE;
-}//END 
+}//END
 
 /* avenger_kill */
-int avenger_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)    
+int avenger_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
-  
+
   if (gn != gen_avenger)
     return -1;
-  
-  act_new(effect_table[GN_POS(gn)].msg_off,ch, paf->string, NULL,TO_CHAR,POS_DEAD);  
+
+  act_new(effect_table[GN_POS(gn)].msg_off,ch, paf->string, NULL,TO_CHAR,POS_DEAD);
   act(effect_table[GN_POS(gn)].msg_off2,ch,NULL,NULL,TO_ROOM);
-  
+
   return TRUE;
 }
 
@@ -12837,9 +12841,9 @@ int avenger_postkill(CHAR_DATA* cha, void* arg1, void* arg2, int gn, int *int1, 
 
  /* we create a global yell of sorts */
   sprintf(buf,"`6Hear ye! Hear ye! In act of Holy Retribution %s has triumphed over %s!``",
-	  PERS2(ch), 
+	  PERS2(ch),
 	  PERS2(victim));
-  
+
   /* now we yell it out */
   for ( d = descriptor_list; d; d = d->next ){
     if ( d->connected == CON_PLAYING ){
@@ -12855,9 +12859,9 @@ int avenger_postkill(CHAR_DATA* cha, void* arg1, void* arg2, int gn, int *int1, 
     return TRUE;
 
   /* check for double reward due to undeniable order */
-  if (!IS_NPC(ch) && !IS_NPC(victim) 
+  if (!IS_NPC(ch) && !IS_NPC(victim)
       && is_affected(ch, gsn_uorder)){
-    if (IS_UNDEAD(victim) 
+    if (IS_UNDEAD(victim)
 	|| IS_DEMON(victim)
 	|| !IS_SET(victim->pCabal->align, ALIGN_GOOD)){
       cpgain *= 2;
@@ -12879,7 +12883,7 @@ int avenger_postkill(CHAR_DATA* cha, void* arg1, void* arg2, int gn, int *int1, 
     hwep_gain(ch, victim, mult);
 
   /* palisons triumph */
-  if (!IS_NPC(victim) && !IS_NPC(ch) && IS_UNDEAD(victim) 
+  if (!IS_NPC(victim) && !IS_NPC(ch) && IS_UNDEAD(victim)
       && ch->pcdata->dall > 1 && is_affected(ch, gsn_ptrium)){
     act("As you put $N down, you watch in amazement as your wounds and scars heal!",
 	ch, NULL, victim, TO_CHAR);
@@ -12928,12 +12932,12 @@ int bleed_vtick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
 {
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   CHAR_DATA* och;
-  
-/* 
+
+/*
    the following is run for paf->modifier times, until modifier hits below 0
    or always in case of -1
 */
-  
+
   if (gn != gen_bleed)
     return -1;
 
@@ -12982,7 +12986,7 @@ int apierce_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *
 
   if (gn != gen_apierce)
     return -1;
-  
+
   /* we just make sure paf->modifier = 0 since it checks for piercing blow */
   paf->modifier = 0;
   return TRUE;
@@ -13007,7 +13011,7 @@ int apierce_predamage(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
   int dt = flag;
   const int cost = skill_table[gsn_apierce].min_mana;
 
-  
+
 /* This returns TRUE if the piering blow is done. */
 /* dt change is done in fight.c dependnig on return value */
 
@@ -13018,21 +13022,21 @@ int apierce_predamage(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
 
   //const
   const int luck_mod = 2;
- 
+
  //ez
   if (gn != gen_apierce)
     return -1;
 
   //return only on damage
 /* run this only if paf = 1 (means piercing blow was made in fight.c */
-  if (*int1 < 1 || paf->modifier != 1) 
+  if (*int1 < 1 || paf->modifier != 1)
     return FALSE;
 
   //only block attacks (virtual attacks still have dt's in >= TYPE_HIT)
   if (dt < TYPE_HIT || dam_type == DAM_NONE || dam_type == DAM_INTERNAL)
    return FALSE;
 
- 
+
   chance += (get_curr_stat(victim, STAT_LUCK) - get_curr_stat(ch, STAT_LUCK)) * luck_mod;
   if ( (success = number_percent()) < chance){
     OBJ_DATA* pieces[1 + WEAR_SHIELD - WEAR_BODY];
@@ -13082,7 +13086,7 @@ int apierce_predamage(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
       }
     }
     obj = pieces[number_range(0, max -1)];
-    
+
     /* setup the effect */
     af.type = gsn_apierce;
     af.level = ch->level;
@@ -13155,7 +13159,7 @@ int chant_end(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int
 {
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   int sn = *psalm_table[paf->modifier].gsn;
-  
+
   if (gn != gen_chant)
     return -1;
 
@@ -13168,7 +13172,7 @@ int chant_end(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int
   act("$n ends the last verse of the psalm of $t.",
       ch, psalm_table[paf->modifier].name, NULL, TO_ROOM);
   do_stand(ch, "");
- 
+
 /* CALL THE SPELL FUNCTION HERE */
   (*skill_table[sn].spell_fun) ( sn, paf->level, ch, ch, TARGET_CHAR);
   check_improve(ch, gn, TRUE,1);
@@ -13230,13 +13234,13 @@ int chant_none(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *in
   AFFECT_DATA* paf;
   //  CHAR_DATA* victim = (CHAR_DATA*) arg1;
  //this is run whenever request is interrupted. we just show a message and kill
-  //we set duration to none 0 as to prevent the chant from happening if 
+  //we set duration to none 0 as to prevent the chant from happening if
   //distrubed on last tick
 
   send_to_char("Your chant disturbed you snap back to reality.\n\r", ch);
   if ( (paf = affect_find(ch->affected, gen_chant)) != NULL)
     paf->duration = 1;
-  
+
   affect_strip(ch, gen_chant);
   return TRUE;
 }
@@ -13441,7 +13445,7 @@ int ward_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
       sendf(ch, "Your %s ward has recharged.", paf->string);
     return FALSE;
   }
-  
+
 /* test of presence of skill that was passed */
   if ( (sn = skill_lookup(paf->string)) < 1){
     bug("ward_tick: string passed is not a skill.", 0);
@@ -13506,19 +13510,19 @@ int acraft_none(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
   AFFECT_DATA* paf;
   //  CHAR_DATA* victim = (CHAR_DATA*) arg1;
  //this is run whenever request is interrupted. we just show a message and kill
-  //we set duration to none 0 as to prevent the chant from happening if 
+  //we set duration to none 0 as to prevent the chant from happening if
   //distrubed on last tick
 
   if ( (paf = affect_find(ch->affected, gen_acraft)) != NULL)
     paf->duration = 1;
-  
+
   affect_strip(ch, gen_acraft);
   return TRUE;
 }
 
 /* Created by Viri */
-/* 
-   this is the meat and potatoes of the armocraft where all the nifty 
+/*
+   this is the meat and potatoes of the armocraft where all the nifty
    things get done.
 */
 int acraft_end(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
@@ -14107,19 +14111,19 @@ int wcraft_none(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
   AFFECT_DATA* paf;
   //  CHAR_DATA* victim = (CHAR_DATA*) arg1;
  //this is run whenever request is interrupted. we just show a message and kill
-  //we set duration to none 0 as to prevent the chant from happening if 
+  //we set duration to none 0 as to prevent the chant from happening if
   //distrubed on last tick
 
   if ( (paf = affect_find(ch->affected, gen_wcraft)) != NULL)
     paf->duration = 1;
-  
+
   affect_strip(ch, gen_wcraft);
   return TRUE;
 }
 
 /* Created by Viri */
-/* 
-   this is the meat and potatoes of the weaponcraft where all the nifty 
+/*
+   this is the meat and potatoes of the weaponcraft where all the nifty
    things get done.
 */
 int wcraft_end(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
@@ -14266,7 +14270,7 @@ int wcraft_end(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *in
       vobj->level /= 2;
       /* attatchment of a HOLY word, only if one not in a string */
       if (strstr(string, "holy"))
-	sprintf(buf, string);
+	sprintf(buf, "%s", string);
       else{
 	/* look for a spot directly behind "a" "an" or "the" */
 	/* Init */
@@ -14287,7 +14291,7 @@ int wcraft_end(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *in
 	  fFound = TRUE;
 	  break;
 	  }
-	  else if (*pstr =='a' && *(pstr + 1) != '\0' && *(pstr + 2) != '\0' 
+	  else if (*pstr =='a' && *(pstr + 1) != '\0' && *(pstr + 2) != '\0'
 		   && *(pstr + 1) == 'n' && *(pstr + 2) == ' '){
 	    *pbuf++ = *pstr++;
 	    *pbuf++ = *pstr++;
@@ -14297,8 +14301,8 @@ int wcraft_end(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *in
 	    fFound = TRUE;
 	    break;
 	  }
-	  else if (*pstr =='t'  && *(pstr + 1) != '\0' && *(pstr + 2) != '\0' 
-		   && *(pstr + 3) != '\0' && *(pstr + 1) == 'h' 
+	  else if (*pstr =='t'  && *(pstr + 1) != '\0' && *(pstr + 2) != '\0'
+		   && *(pstr + 3) != '\0' && *(pstr + 1) == 'h'
 		 && *(pstr + 2) == 'e' && *(pstr + 3) == ' '){
 	    *pbuf++ = *pstr++;
 	    *pbuf++ = *pstr++;
@@ -14397,8 +14401,8 @@ int wcraft_end(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *in
     /* LONG BLADE */
   case 13:
     af.where = TO_SKILL;
-    af.location = (obj->value[0] == WEAPON_EXOTIC ? 
-		   gsn_hand_to_hand : 
+    af.location = (obj->value[0] == WEAPON_EXOTIC ?
+		   gsn_hand_to_hand :
 		   *weapon_table[weapon_lookup(weapon_name(obj->value[0]))].gsn);
     af.modifier = 1;
     affect_join_obj(obj, &af);
@@ -14476,8 +14480,8 @@ int wcraft_end(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *in
     /* BLESSING OF ACC */
   case 22:
     af.where = TO_SKILL;
-    af.location = (obj->value[0] == WEAPON_EXOTIC ? 
-		   gsn_hand_to_hand : 
+    af.location = (obj->value[0] == WEAPON_EXOTIC ?
+		   gsn_hand_to_hand :
 		   *weapon_table[weapon_lookup(weapon_name(obj->value[0]))].gsn);
     af.modifier = 1;
     affect_join_obj(obj, &af);
@@ -14560,8 +14564,8 @@ int wcraft_end(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *in
     /* PRAYER OF ACC */
   case 33:
     af.where = TO_SKILL;
-    af.location = (obj->value[0] == WEAPON_EXOTIC ? 
-		   gsn_hand_to_hand : 
+    af.location = (obj->value[0] == WEAPON_EXOTIC ?
+		   gsn_hand_to_hand :
 		   *weapon_table[weapon_lookup(weapon_name(obj->value[0]))].gsn);
     af.modifier = 1;
     affect_join_obj(obj, &af);
@@ -14811,7 +14815,7 @@ int wcraft_end(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *in
 
 /* APPROACH */
 int approach_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   if (gn != gen_approach)
     return -1;
   return TRUE;
@@ -14819,7 +14823,7 @@ int approach_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int 
 
 
 int approach_none(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   AFFECT_DATA* paf;
   if (gn != gen_approach)
     return -1;
@@ -14857,7 +14861,7 @@ int approach_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
 
 /* SUFFOCATE */
 int suffocate_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   if (gn != gen_suffocate)
     return -1;
   if (!IS_NULLSTR(effect_table[GN_POS(gn)].msg_off))
@@ -14909,7 +14913,7 @@ int suffocate_vtick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, in
 {
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   CHAR_DATA* och;
-  
+
 /* the damage done is based on value2 and value3 of effect */
   int min = effect_table[GN_POS(gn)].value2[0];
   int max = effect_table[GN_POS(gn)].value3[0];
@@ -14924,7 +14928,7 @@ int suffocate_vtick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, in
   /* damage done ONLY if modfier == 1, 0 means no damage, 2 means delayed*/
   if (paf->modifier != 1)
     return TRUE;
-  
+
 /* check for the owner of this damage if caused by npc */
   if (paf->has_string && !IS_NULLSTR(paf->string)){
     if ( (och = get_char( paf->string)) == NULL){
@@ -14933,7 +14937,7 @@ int suffocate_vtick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, in
   }
   else
     och = ch;
-  
+
 /* we do the damage */
   damage(och, ch, number_range(min, max), gn, DAM_INTERNAL, FALSE);
   return TRUE;
@@ -14942,7 +14946,7 @@ int suffocate_vtick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, in
 
 /* CONTRACT */
 int contract_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
 
   if (gn != gen_contract)
@@ -14967,15 +14971,15 @@ int contract_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
 
   if (gn != gen_contract)
     return -1;
-  
+
   if (paf->duration == 0)
     return FALSE;
-  
+
   if ( (vch = get_char( paf->string)) == NULL){
     paf->duration = 0;
     return FALSE;
   }
-  
+
   /* check if target is still not covered by bounty */
   if (!bounty_covered(vch ) && is_pk_abs(ch, vch))
     return TRUE;
@@ -14989,7 +14993,7 @@ int contract_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
 
 
 int spirit_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   //  AFFECT_DATA* paf= (AFFECT_DATA*) arg1;
 
   if (gn != gen_spirit)
@@ -15007,16 +15011,16 @@ int spirit_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
 {
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   CHAR_DATA* victim = (CHAR_DATA*) arg2;
-  
-  /* notice blades dont have tahc0 calc. they hit, or they are blocked */ 
-  
+
+  /* notice blades dont have tahc0 calc. they hit, or they are blocked */
+
 //data
   int dam_1 = 4;
   int dam_2 = 4;
   int dam = 0;
   int h_roll = effect_table[GN_POS(gn)].value1[URANGE(0, paf->level/5, 10)];
   int d_roll = effect_table[GN_POS(gn)].value1[URANGE(0, paf->level/5, 10)];
- 
+
 //consts
   const int level_med = 30;
   const int level_mod = 5;
@@ -15024,16 +15028,16 @@ int spirit_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
   const int h_roll_mod = 0; //multiplier for skill bonus to h_roll
 
   const int dt1 = attack_lookup("drain") + TYPE_HIT;
-  
+
   const int dam_type = DAM_NEGATIVE;
-  
-  /* 
+
+  /*
      The hit is based on values from value1 (increases with level)
      and skill
      Damage on the level of the spell and
      the skill of the user in the spell
   */
-  
+
   //get the damage bonus here.
   if (paf->level > 49)
     dam_1 ++;
@@ -15044,36 +15048,36 @@ int spirit_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, i
 
   //bonus on hit for skill.
   h_roll += h_roll_mod * UMAX(0, dam_1- 2);
-  
+
   // sendf(ch, "d_roll: %d, dam: %d, h_roll: %d\n\r", d_roll, dam, h_roll);
   //two attack
- if (ch->fighting != NULL 
+ if (ch->fighting != NULL
      && victim->in_room == ch->in_room
-     && victim->hit > 0 
-     && victim->position > POS_STUNNED 
+     && victim->hit > 0
+     && victim->position > POS_STUNNED
      && !is_safe_quiet(ch, victim))
    virtual_damage(ch, victim, NULL, dam, dt1, dam_type, h_roll, paf->level, TRUE, TRUE, gsn_spirit_bind);
   dam = dice (dam_1, dam_2) + d_roll;
-  
+
  return TRUE;
 }
 
 
 /* coup_kill */
-int coup_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)    
+int coup_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
-  
+
   if (gn != gen_coup)
     return -1;
-  
+
   if (paf->modifier == 1 ){
     send_to_char("You've succeeded in your Coup!\n\r", ch );
     return TRUE;
   }
-  act_new(effect_table[GN_POS(gn)].msg_off,ch, paf->string, NULL,TO_CHAR,POS_DEAD);  
+  act_new(effect_table[GN_POS(gn)].msg_off,ch, paf->string, NULL,TO_CHAR,POS_DEAD);
   act(effect_table[GN_POS(gn)].msg_off2,ch,NULL,NULL,TO_ROOM);
-  
+
   return TRUE;
 }
 
@@ -15098,7 +15102,7 @@ int coup_postkill(CHAR_DATA* cha, void* arg1, void* arg2, int gn, int *int1, int
     ch = cha->leader;
 
 /* make sure this is PC killing PC both in same cabals */
-  if (IS_NPC(ch) || IS_NPC(victim) 
+  if (IS_NPC(ch) || IS_NPC(victim)
       || ch->pCabal == NULL || victim->pCabal == NULL
       || !is_same_cabal(ch->pCabal, victim->pCabal))
     return FALSE;
@@ -15153,7 +15157,7 @@ int coup_postdeath(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
     victim = vch->leader;
 
 /* make sure this is PC killing PC both in same cabals */
-  if (IS_NPC(ch) || IS_NPC(victim) 
+  if (IS_NPC(ch) || IS_NPC(victim)
       || ch->pCabal == NULL || victim->pCabal == NULL
       || !is_same_cabal(ch->pCabal, victim->pCabal))
     return FALSE;
@@ -15161,7 +15165,7 @@ int coup_postdeath(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
   /* check if the killer's rank is greater then characters who died*/
   if (victim->pcdata->rank <= ch->pcdata->rank)
     return FALSE;
-  
+
   /* find the paf string if any */
   if ( (paf = affect_find(ch->affected, gen_coup)) == NULL)
     return FALSE;
@@ -15186,7 +15190,7 @@ int coup_postdeath(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
   /* promote two ranks down. */
   promote(ch, ch->pCabal, -2 );
 
-  
+
 
   /* fire off the messeges */
   send_to_char("You have staved off a Coup!\n\r", victim );
@@ -15198,17 +15202,17 @@ int coup_postdeath(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
   send_to_char("You have been DEMOTED!\n\r", ch );
   return TRUE;
 }
-	  
-  
+
+
 /* diplo_kill */
-int diplo_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)    
+int diplo_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
   if (gn != gen_diplomacy)
     return -1;
-  
-  act_new(effect_table[GN_POS(gn)].msg_off,ch, NULL, NULL,TO_CHAR,POS_DEAD);  
+
+  act_new(effect_table[GN_POS(gn)].msg_off,ch, NULL, NULL,TO_CHAR,POS_DEAD);
   act(effect_table[GN_POS(gn)].msg_off2,ch,NULL,NULL,TO_ROOM);
-  
+
   return TRUE;
 }
 
@@ -15259,11 +15263,11 @@ int diplo_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
 
 
 int veng_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   if (gn != gen_vengeance)
     return -1;
-  
+
 //we set the stored damage to 0 for first time
   paf->modifier = 0;
   return TRUE;
@@ -15308,13 +15312,13 @@ in this round (resets to 0 after release) from all characters.
     return -1;
 
   //dont deflect misses :)
-  if (dam < 1) 
+  if (dam < 1)
     return FALSE;
 
  //only block attacks that not spells.
   if (dam_type == DAM_NONE || dam_type == DAM_INTERNAL || ch == victim)
     return FALSE;
- 
+
   paf->modifier += dam;
 
   return TRUE;
@@ -15333,26 +15337,26 @@ int veng_precombat(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
   //al we do is flash the capped damage back tocurrent target and reset
 
   if (dam < 10){
-    paf->modifier = 0;     
+    paf->modifier = 0;
     return FALSE;
   }
   if (ch->fighting == NULL)
     return FALSE;
-  
+
   dam = URANGE( 5, dam, max );
 
   for (victim = ch->in_room->people; victim; victim = vch_next){
     vch_next = victim->next_in_room;
 
-    if( victim->hit > 0 
+    if( victim->hit > 0
 	&& victim->fighting == ch
-	&& victim->position > POS_STUNNED 
+	&& victim->position > POS_STUNNED
 	&& !is_safe_quiet(ch, victim))
       damage(ch, victim, dam, gn, DAM_INTERNAL, TRUE);
   }
-  
+
   paf->modifier = 0;
-  
+
   return TRUE;
 }
 
@@ -15403,13 +15407,13 @@ int conjure_none(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *
   AFFECT_DATA* paf;
   //  CHAR_DATA* victim = (CHAR_DATA*) arg1;
  //this is run whenever request is interrupted. we just show a message and kill
-  //we set duration to none 0 as to prevent the chant from happening if 
+  //we set duration to none 0 as to prevent the chant from happening if
   //distrubed on last tick
 
   send_to_char("Your conjuration disturbed you snap back to reality.\n\r", ch);
   if ( (paf = affect_find(ch->affected, gen_conjure)) != NULL)
     paf->duration = 1;
-  
+
   affect_strip(ch, gen_conjure);
   return TRUE;
 }
@@ -15460,7 +15464,7 @@ int conjure_end(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
   af.location = APPLY_NONE;
   af.modifier = 0;
   affect_to_char(ch, &af );
-  
+
   act("You best $t and gain a fraction of its power.", ch, paf->string, NULL, TO_CHAR);
   act("$n bests $t and gains a fraction of its power.", ch, paf->string, NULL, TO_ROOM);
 
@@ -15549,7 +15553,7 @@ int conjure_end(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
     affect_strip( ch, af.type );
     affect_to_char( ch, &af );
     act( "You feel aligned with darkness.",ch,NULL,NULL,TO_CHAR);
-    act("$n is protected from good.",ch,NULL,NULL,TO_ROOM);    
+    act("$n is protected from good.",ch,NULL,NULL,TO_ROOM);
     break;
     /* MALIGNANT (flight) */
   case 5:
@@ -15582,7 +15586,7 @@ int maze_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int
 /* we fashion a virtual room from a skeleton, load it, make all its exits point to itself, and
    move the character there
 */
-  
+
   if ( (skeleton = get_room_index( ROOM_VNUM_MAZE)) == NULL){
     bug("maze_init: could not load the skeleton.\n\r", 0);
     return FALSE;
@@ -15597,7 +15601,7 @@ int maze_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int
   format_room_name(maze, buf);
 
 
-  
+
   load_vir_room( maze, ch->in_room->area );
 
   maze->watch_vnums = (Double_List *) malloc (sizeof (Double_List));
@@ -15606,7 +15610,7 @@ int maze_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int
   maze->watch_vnums->next_node = NULL;
 
   for (door = 0; door < MAX_DOOR; door++){
-    maze->exit[door] = new_exit(); 
+    maze->exit[door] = new_exit();
     maze->exit[door]->orig_door = door;
     maze->exit[door]->vnum	= maze->vnum;
     maze->exit[door]->to_room	= maze;
@@ -15618,7 +15622,7 @@ int maze_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int
   act("The tortured reality screams in protest as you are MAZED!", ch, NULL, NULL, TO_CHAR );
 
 
-  stop_fighting( ch, TRUE );      
+  stop_fighting( ch, TRUE );
   char_from_room( ch );
   char_to_room( ch, maze );
 
@@ -15671,7 +15675,7 @@ int chron_predamage(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, in
   const int max_hit = 1000;
   /*
 the shield collects 1/4 of all damage, up to max_hit
-back on 0th tick 
+back on 0th tick
   */
 
   //data
@@ -15682,7 +15686,7 @@ back on 0th tick
     return -1;
 
   //dont absrob misses :)
-  if (dam < 1 ) 
+  if (dam < 1 )
     return FALSE;
 
   //we get dmage absorbed
@@ -15709,7 +15713,7 @@ int chron_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
 
   if (paf->duration > 3 || paf->modifier < 1)
     return FALSE;
-  
+
   /* show some warning */
   switch(paf->duration){
   case 3:
@@ -15768,7 +15772,7 @@ int paradox_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
 
   if (paf->duration > 3 || paf->modifier < 1)
     return FALSE;
-  
+
   /* show some warning */
   switch(paf->duration){
   case 3:
@@ -15798,7 +15802,7 @@ int paradox_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
     }
     stop_fighting( ch, TRUE );
     char_from_room( ch );
-    char_to_room( ch, to_room );    
+    char_to_room( ch, to_room );
     break;
   }
   return TRUE;
@@ -15815,7 +15819,7 @@ int temp_avenger_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
     return FALSE;
   else if ( (och = get_char( paf->string)) == NULL)
     return FALSE;
-  
+
   if (IS_NPC(och) || och->in_room == NULL || och->in_room == ch->in_room || IS_SET(och->in_room->area->area_flags, AREA_RESTRICTED)){
     send_to_char("Your temporal avenger spell failed.\n\r", ch);
     return FALSE;
@@ -15835,7 +15839,7 @@ int temp_avenger_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, 
   }
   stop_fighting( ch, TRUE );
   char_from_room( ch );
-  char_to_room( ch, och->in_room );    
+  char_to_room( ch, och->in_room );
 
   say_spell(ch, skill_lookup("temporal avenger"));
   do_look( ch, "auto" );
@@ -15851,13 +15855,13 @@ int movedam_enter(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int 
   AFFECT_DATA* paf;
   CHAR_DATA* och;
   int move = 0;
-/* 
+/*
    damage done is based on move cost of the room we are in
 */
-  
+
   if (gn != gen_move_dam)
     return -1;
-  
+
   if (to_room == NULL)
     return FALSE;
   else if ( (paf = affect_find(ch->affected, gen_move_dam)) == NULL)
@@ -15879,7 +15883,7 @@ int movedam_enter(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int 
 
 //------------KINESIS------------------//
 int kinesis_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   if (gn != gen_kinesis)
     return -1;
 
@@ -15911,7 +15915,7 @@ int kinesis_vtick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int 
   if ( (och = get_char( paf->string )) == NULL)
     return FALSE;
 
-    
+
   /* get spell to cast */
   if ((sn = paf->bitvector) < 1
       || skill_table[sn].spell_fun == spell_null){
@@ -15950,7 +15954,7 @@ int create_object_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1,
   */
   if (gn != gen_create_object)
     return -1;
- 
+
   if (ch == NULL || ch->in_room == NULL)
     return -1;
   if (number_percent() > paf->bitvector)
@@ -16035,7 +16039,7 @@ int ainfect_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *
   }
   else{
     AFFECT_DATA af, *baf;
-    
+
     af.type = gn;
     af.level = paf->level;
     af.duration = -1;
@@ -16064,7 +16068,7 @@ int ainfect_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
   if (gn != gen_ainfection)
     return -1;
 
-  if (!IS_AWAKE(ch) 
+  if (!IS_AWAKE(ch)
       && (IS_AFFECTED(ch, AFF_SLEEP) || is_affected(ch, gsn_ecstacy)))
     return TRUE;
 
@@ -16073,13 +16077,13 @@ int ainfect_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
   if (ch->hit <= 150){
     paf->duration = 0;
     return TRUE;
-  }    
+  }
   //lower hp by bitvector% of max, increase by 2
   paf->bitvector += 2;
   loss = UMAX(1, paf->bitvector * ch->max_hit / 100);
 
   if (number_percent() < 30)
-    send_to_char("Your skin feels funny..\n\r", ch);  
+    send_to_char("Your skin feels funny..\n\r", ch);
 
   ch->hit -= loss;
   ch->hit = UMAX(1, ch->hit);
@@ -16089,14 +16093,14 @@ int ainfect_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
   //if host under 15% hp vacate
   if (ch->hit <= 15 * ch->max_hit / 100)
     paf->duration = 0;
-  
+
   return TRUE;
 }
 
 
 /* DREAMWALK */
 int dreamwalk_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   if (gn != gen_dreamwalk)
     return -1;
@@ -16124,7 +16128,7 @@ int dreamwalk_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
 
 
 int dreamwalk_none(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
 //  AFFECT_DATA* paf;
   if (gn != gen_dreamwalk)
     return -1;
@@ -16207,30 +16211,30 @@ int dreamwalk_vtick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, in
     affect_strip(ch, gn );
     return FALSE;
   }
- 
+
   /* do not show messages if no dream spell set */
   if (paf->modifier < 1 || paf->modifier == gsn_dreamprobe)
     return FALSE;
 
   /* show dream messages */
   switch (paf->level++){
-  case 0:	
+  case 0:
     vi_msg = "You begin to dream...";
     ch_msg = "$N begins to dream...";
     break;
-  case 1:	
+  case 1:
     vi_msg = "A cloaked figure seems to watch you from distance...";
     ch_msg = "You watch $M from distance in $S dream...";
     break;
-  case 2:	
+  case 2:
     vi_msg = "Your dreams begin to turn dark and ominous...";
     ch_msg = "$N's dreams begin to turn dark and ominous...";
     break;
-  case 3:	
+  case 3:
     vi_msg = "You try to run but you seem to be going in circles...";
     ch_msg = "$E tries to run but you are now in control of $S dream...";
     break;
-  case 4:	
+  case 4:
     vi_msg = "You find yourself in a dark room the shadows swirling about you...";
     ch_msg = "You place $N in a dark room the shadows swirling about $M...";
     break;
@@ -16254,14 +16258,14 @@ int dreamwalk_vtick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, in
     af.bitvector = AFF_SLEEP;
     affect_to_char( vch, &af );
     vch->position = POS_SLEEPING;
-  }    
+  }
   return TRUE;
 }
-    
+
 
 /* spell vise */
 int svise_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
-{       
+{
 //  AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
   if (gn != gen_svise)
     return -1;
@@ -16295,14 +16299,14 @@ int svise_vtick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
     if (!paf->has_string || IS_NULLSTR(paf->string))
       return FALSE;
     if ( (och = get_char( paf->string )) == NULL)
-      return FALSE;    
+      return FALSE;
     damage(och, ch, number_range(1, 5), gn, DAM_MENTAL, FALSE );
   }
   return TRUE;
 }
 
 //~~~~METABOLIC BOOST~~~~//
-int mboost_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)  
+int mboost_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
   AFFECT_DATA* orig_paf = (AFFECT_DATA*) arg1;
   CHAR_DATA* vch;
@@ -16337,16 +16341,16 @@ int mboost_init(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *i
     }
   }
   return TRUE;
-}//END 
+}//END
 
 /* mboost_kill */
-int mboost_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)    
+int mboost_kill(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag)
 {
 
   if (gn != gen_metabolic_boost)
     return -1;
 
-  act_new(effect_table[GN_POS(gn)].msg_off,ch,NULL,NULL,TO_CHAR,POS_DEAD);  
+  act_new(effect_table[GN_POS(gn)].msg_off,ch,NULL,NULL,TO_CHAR,POS_DEAD);
   act(effect_table[GN_POS(gn)].msg_off2,ch,NULL,NULL,TO_ROOM);
   return TRUE;
 }
@@ -16372,14 +16376,14 @@ int phantasm_vtick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int
   if ( (och = get_char( paf->string )) == NULL)
     return FALSE;
 
-    
+
 
   if (ch->fighting == och
       && !saves_spell(paf->level, ch, DAM_MENTAL, skill_table[gsn_phantasm].spell_type)){
     bool  fWield = get_eq_char( ch, WEAR_WIELD) != NULL;
     bool  fShield = get_eq_char( ch, WEAR_SHIELD) != NULL;
     bool  fFear = is_affected(ch, gsn_fear) ;
-    
+
     if (fWield || fShield || !fFear){
       act("A fearsome phantasm appears before you!", ch, NULL, NULL, TO_CHAR);
       act("$n stares in fear at something you cannot see.", ch, NULL, NULL, TO_ROOM);
@@ -16433,7 +16437,7 @@ int dragon_blood_precom(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1
   (*skill_table[dt].spell_fun) (dt, paf->level, ch, victim, TARGET_CHAR );
   return TRUE;
 }
-     
+
 
 int regenerate_vtick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int2, int flag){
   AFFECT_DATA* paf = (AFFECT_DATA*) arg1;
@@ -16504,7 +16508,7 @@ int temp_storm_vupdate(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1,
     af.location  = APPLY_NONE;
     af.modifier  = 0;
     affect_to_char( vch, &af );
-    
+
     send_to_char("The temporal storm lashes out at you!\n\r", vch);
     act("The temporal storm lashes out at $n!", vch, NULL, vch, TO_ROOM);
     damage(ch, vch, number_range(paf->level, 2 * paf->level), gsn_temp_storm, DAM_OTHER, TRUE );

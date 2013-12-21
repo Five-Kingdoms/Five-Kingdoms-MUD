@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -60,8 +60,8 @@ extern void read_mud();
 extern void save_helps();
 extern void make_htmlwho(bool fShow);
 extern void seed_objects();
-extern AREA_DATA*  get_random_area   args ( (int min_av, int max_av, 
-					     int min_rv, int max_rv, 
+extern AREA_DATA*  get_random_area   args ( (int min_av, int max_av,
+					     int min_rv, int max_rv,
 					     int* includ, int i_num,
 					     int* exclud, int e_num) );
 
@@ -142,19 +142,19 @@ void do_delete( CHAR_DATA *ch, char *argument)
 
 	if (ch->pCabal){
 	  update_cabal_skills(ch, ch->pCabal, TRUE, TRUE);
-	  char_from_cabal( ch );    
-	}  
+	  char_from_cabal( ch );
+	}
 	if (HAS_CLAN(ch))
 	  CharFromClan( ch );
 	if (ch->pcdata->pbounty){
 	  rem_bounty( ch->pcdata->pbounty );
-	  free_bounty( ch->pcdata->pbounty );      
+	  free_bounty( ch->pcdata->pbounty );
 	}
 
 	extract_char( ch, TRUE );
 	if ( ch->desc != NULL )
-	  close_socket( ch->desc );  
-	unlink(strsave); 
+	  close_socket( ch->desc );
+	unlink(strsave);
 	return;
     }
     /* check for password */
@@ -172,7 +172,7 @@ void do_delete( CHAR_DATA *ch, char *argument)
 	}
     }
 
-    
+
     if (is_fight_delay(ch,120)){
       send_to_char("At request of players this command cannot be used after recent combat or death.\n\r", ch);
       ch->pcdata->confirm_delete = FALSE;
@@ -292,7 +292,7 @@ void do_afk ( CHAR_DATA *ch, char * argument)
 {
     if (IS_SET(ch->comm,COMM_AFK))
     {
-      
+
         if (buf_string(ch->pcdata->buffer)[0] == '\0')
             send_to_char("AFK mode removed.\n\r",ch);
 	else
@@ -520,7 +520,7 @@ void do_answer( CHAR_DATA *ch, char *argument )
         }
 	return;
     }
-   
+
     strcpy(arg_buf, argument);
     if (IS_SET(ch->comm,COMM_QUIET))
     {
@@ -568,7 +568,7 @@ void do_cabaltalk( CHAR_DATA *ch, char *argument )
 {
     char buf[MSL], buf2[MSL] = "";
     char arg_buf[MIL];
-    
+
     DESCRIPTOR_DATA *d;
     const int demon_cost = 80;
     bool fDemon = IS_TELEPATH(ch);
@@ -590,7 +590,7 @@ void do_cabaltalk( CHAR_DATA *ch, char *argument )
       }
       return;
     }
-    
+
     if (!IS_NPC(ch) && !IS_IMMORTAL(ch) && !IS_CABAL(get_parent(ch->pCabal), CABAL_CHAT)){
       send_to_char("Your cabal does not posses this ability.\n\r", ch);
       return;
@@ -624,21 +624,21 @@ void do_cabaltalk( CHAR_DATA *ch, char *argument )
     }
     sprintf(buf,"[%s] %s$n: '`0$t``'", ch->pCabal->who_name, buf2);
     act_new(buf,ch,argument,NULL,TO_CHAR,POS_DEAD);
-    
+
     for ( d = descriptor_list; d != NULL; d = d->next ){
       CHAR_DATA* rch = d->character;
-      if ( d->connected != CON_PLAYING 
-	   || rch == ch 
+      if ( d->connected != CON_PLAYING
+	   || rch == ch
 	   || rch->pCabal == NULL
 	   || (IS_SET(rch->comm, COMM_NOCABAL) && !IS_NPC(ch))
 	   || IS_AFFECTED2(rch, AFF_SILENCE)
-	   || IS_SET(rch->comm, COMM_QUIET) 
+	   || IS_SET(rch->comm, COMM_QUIET)
 	   || !is_same_cabal(rch->pCabal, ch->pCabal)
 	   || is_ignore(rch, ch)){
 	continue;
       }
-      act_new(buf, ch, 
-	      (is_affected(rch, gsn_com_lan)? arg_buf : 
+      act_new(buf, ch,
+	      (is_affected(rch, gsn_com_lan)? arg_buf :
 	       IS_IMMORTAL(rch) ? arg_buf :argument),
 	      rch, TO_VICT, POS_DEAD);
       if (!IS_NPC(rch) && rch->pcdata->eavesdropped != NULL
@@ -655,8 +655,8 @@ void do_cabaltalk( CHAR_DATA *ch, char *argument )
       if (IS_NPC(rch) && rch->pIndexData->progtypes & SPEECH_PROG)
 	mprog_speech_trigger( arg_buf, ch, rch );
     }
-      
-    
+
+
     if (!IS_NPC(ch) && ch->pcdata->eavesdropped != NULL
 	&& is_affected(ch->pcdata->eavesdropped,gsn_eavesdrop)
 	&& !fDemon)
@@ -672,7 +672,7 @@ void do_clantalk( CHAR_DATA *ch, char *argument )
 {
     char buf[MSL], buf2[MSL] = "";
     char arg_buf[MIL];
-    
+
     DESCRIPTOR_DATA *d;
 //  const int demon_cost = 80;
     bool fDemon = IS_TELEPATH(ch);
@@ -723,7 +723,7 @@ void do_clantalk( CHAR_DATA *ch, char *argument )
         return;
     }
 /*
-    if (fDemon) 
+    if (fDemon)
       if (!can_demon_talk(ch, demon_cost))
 	return;
 */
@@ -735,12 +735,12 @@ void do_clantalk( CHAR_DATA *ch, char *argument )
     act_new(buf,ch,argument,NULL,TO_CHAR,POS_DEAD);
 
     for ( d = descriptor_list; d != NULL; d = d->next )
-      if ( d->connected == CON_PLAYING && d->character != ch 
+      if ( d->connected == CON_PLAYING && d->character != ch
 	   && !IS_AFFECTED2(d->character, AFF_SILENCE)
 	   && !IS_NPC(d->character)
 	   && !is_affected(d->character,gsn_silence)
-	   && !IS_SET(d->character->comm,COMM_NOCLAN) 
-	   && !IS_SET(d->character->comm,COMM_QUIET) 
+	   && !IS_SET(d->character->comm,COMM_NOCLAN)
+	   && !IS_SET(d->character->comm,COMM_QUIET)
 	   && !is_ignore(d->character,ch)){
 
 	if (GET_CLAN(ch) == GET_CLAN(d->character)){
@@ -785,15 +785,15 @@ void do_jcabaltalk( CHAR_DATA *ch, char *argument )
     sprintf(buf,"[`0JUSTICE``] $n: '`0$t``'");
     act_new(buf,ch,argument,NULL,TO_CHAR,POS_DEAD);
     for ( d = descriptor_list; d != NULL; d = d->next )
-      if ( d->connected == CON_PLAYING 
+      if ( d->connected == CON_PLAYING
 	   && ch->pCabal && IS_CABAL(ch->pCabal, CABAL_JUSTICE)
-	   && !IS_AFFECTED2(d->character, AFF_SILENCE) 
+	   && !IS_AFFECTED2(d->character, AFF_SILENCE)
 	   && !IS_SET(d->character->comm,COMM_NOCABAL)
-	   && !is_affected(d->character,gsn_silence) 
-	   && !IS_SET(d->character->comm,COMM_QUIET) 
+	   && !is_affected(d->character,gsn_silence)
+	   && !IS_SET(d->character->comm,COMM_QUIET)
 	   && !is_ignore(d->character,ch)){
 	CHAR_DATA* rch = d->character;
-	act_new(buf,ch,(is_affected(d->character, gsn_com_lan)? arg_buf : 
+	act_new(buf,ch,(is_affected(d->character, gsn_com_lan)? arg_buf :
 			IS_IMMORTAL(d->character) ? arg_buf : argument),
 		d->character,TO_VICT,POS_SLEEPING);
 	if (!IS_NPC(rch) && rch->pcdata->eavesdropped != NULL
@@ -805,12 +805,12 @@ void do_jcabaltalk( CHAR_DATA *ch, char *argument )
 	    sprintf(buf, "Someone cabaltalks '`)$t``'");
 	    act_new(buf,rch->pcdata->eavesdropped, (is_affected(rch, gsn_com_lan) ? arg_buf : IS_IMMORTAL(rch) ? arg_buf : argument),
 		    NULL,TO_CHAR, POS_DEAD);
-	  } 
+	  }
 	if (IS_NPC(rch) && rch->pIndexData->progtypes & SPEECH_PROG)
 	  mprog_speech_trigger( arg_buf, ch, rch );
       }
-    
-    
+
+
     if (!IS_NPC(ch) && ch->pcdata->eavesdropped != NULL
 	&& is_affected(ch->pcdata->eavesdropped,gsn_eavesdrop)
 	&& !fDemon)
@@ -820,7 +820,7 @@ void do_jcabaltalk( CHAR_DATA *ch, char *argument )
 	act_new(buf,ch->pcdata->eavesdropped, (is_affected(ch, gsn_com_lan) ? arg_buf : IS_IMMORTAL(ch) ? arg_buf : argument),
 		NULL,TO_CHAR, POS_DEAD);
       }
-    
+
 }
 
 void do_newbiechat( CHAR_DATA *ch, char *argument )
@@ -828,9 +828,9 @@ void do_newbiechat( CHAR_DATA *ch, char *argument )
   char buf[MSL];
   DESCRIPTOR_DATA *d;
   argument[0] = UPPER(argument[0]);
-  if (is_pk(ch,ch) 
+  if (is_pk(ch,ch)
       && (ch->pCabal == NULL || !IS_CABAL2(ch->pCabal, CABAL2_NEWBIE))
-      && !IS_IMMORTAL(ch) 
+      && !IS_IMMORTAL(ch)
       && !IS_GAME(ch, GAME_NEWBIE))
     {
       send_to_char("You're all grown up now, you can't use newbie chat anymore.\n\r",ch);
@@ -861,12 +861,12 @@ void do_newbiechat( CHAR_DATA *ch, char *argument )
   for ( d = descriptor_list; d != NULL; d = d->next )
     if ( d->connected == CON_PLAYING && d->character != ch
 	 && !IS_NPC(d->character)
-	 && (!is_pk(d->character,d->character) 
+	 && (!is_pk(d->character,d->character)
 	     || IS_IMMORTAL(d->character)
-	     || (d->character->pCabal != NULL 
+	     || (d->character->pCabal != NULL
 		 && IS_CABAL2(d->character->pCabal, CABAL2_NEWBIE))
 	     || IS_GAME(d->character, GAME_NEWBIE))
-	 && !IS_SET(d->character->comm,COMM_NONEWBIE) 
+	 && !IS_SET(d->character->comm,COMM_NONEWBIE)
 	 && !IS_SET(d->character->comm,COMM_QUIET)
 	 && !is_ignore(d->character,ch))
       act_new(buf,ch,argument,d->character,TO_VICT,POS_MEDITATE);
@@ -1026,17 +1026,17 @@ void j_yell( CHAR_DATA *ch, char *argument )
 	  continue;
 
 	if (IS_NPC(vch)
-	    && (IS_GOOD(vch) 
-		|| (vch->master && vch->master == ch) 
+	    && (IS_GOOD(vch)
+		|| (vch->master && vch->master == ch)
 		|| is_name("guard", vch->name) )
-	    && IS_SET(vch->in_room->area->area_flags,AREA_LAWFUL) 
+	    && IS_SET(vch->in_room->area->area_flags,AREA_LAWFUL)
 	    && IS_AWAKE(vch)
 	    && !is_affected(vch, gsn_ecstacy)) {
 	  char buf[MIL];
 	  if (vch->master && vch->master == ch)
 	    sprintf(buf, "Help! My master is being attacked at %s!",
 		  vch->in_room->name);
-	  else 
+	  else
 	    sprintf(buf, "Help! A crime is being commited at %s!",
 		  vch->in_room->name);
 
@@ -1088,9 +1088,9 @@ void j_yell( CHAR_DATA *ch, char *argument )
 	&& !IS_AFFECTED2(d->character, AFF_SILENCE) && !IS_SET(d->character->comm, COMM_YELLSOFF)
         && !is_affected(d->character,gsn_silence) && !IS_SET(d->character->comm, COMM_QUIET) && !is_ignore(d->character,ch))
 	{
-	  if (!d->character->pCabal 
-	      || (!IS_CABAL(d->character->pCabal, CABAL_JUSTICE) 
-		  && !IS_CABAL(d->character->pCabal, CABAL_ROYAL)) 
+	  if (!d->character->pCabal
+	      || (!IS_CABAL(d->character->pCabal, CABAL_JUSTICE)
+		  && !IS_CABAL(d->character->pCabal, CABAL_ROYAL))
 	      )
 	    act_new("$n yells '`6$t``'",ch,
 		    (is_affected(d->character, gsn_com_lan)? arg_buf : IS_IMMORTAL(d->character) ? arg_buf : argument),
@@ -1102,7 +1102,7 @@ void j_yell( CHAR_DATA *ch, char *argument )
 	    sprintf(buf, "$n (%s) yells wildly '`6$t``'",
 		    cnt <= 0 ? "`&Model``" :
 		    cnt < 3  ? "`7Abiding``" :
-		    cnt < 5  ? "`#Occasional``" : 
+		    cnt < 5  ? "`#Occasional``" :
 		    cnt < 10 ? "`8Common``" : "`!Die-Hard``");
 	    act_new(buf ,ch,
 		    (is_affected(d->character, gsn_com_lan)? arg_buf : IS_IMMORTAL(d->character) ? arg_buf : argument),
@@ -1263,7 +1263,7 @@ void do_say( CHAR_DATA *ch, char *argument )
     OBJ_DATA *obj, *obj_next;
     Double_List * tmp_list;
 
-    const int demon_cost = 30;	
+    const int demon_cost = 30;
     bool fDemon = IS_TELEPATH(ch);
 
     //for safety we copy string over as we are chaning it a bit.
@@ -1274,9 +1274,9 @@ void do_say( CHAR_DATA *ch, char *argument )
 	send_to_char( "Say what?\n\r", ch );
 	return;
     }
-    /* 
+    /*
        Theproblem here is that sometimes the mobs say
-       things that are passed as dynamic strings, and it seems to 
+       things that are passed as dynamic strings, and it seems to
        create a problem when UPPER casing it.
        So we simply stick it in array for a bit.
     */
@@ -1332,7 +1332,7 @@ void do_say( CHAR_DATA *ch, char *argument )
 	      act_new( buf, ch,  (is_affected(rch, gsn_com_lan) ? arg_buf : IS_IMMORTAL(rch) ? arg_buf : arg),
 		       rch, TO_VICT, POS_RESTING + 100 );
 	    }
-	  
+
 	  if (!IS_NPC(rch) && rch->pcdata->eavesdropped != NULL
 	      && is_affected(rch->pcdata->eavesdropped,gsn_eavesdrop)
 	      && rch != ch && rch->pcdata->eavesdropped != ch
@@ -1343,7 +1343,7 @@ void do_say( CHAR_DATA *ch, char *argument )
 	      act_new(buf,rch->pcdata->eavesdropped, (is_affected(rch, gsn_com_lan) ? arg_buf : IS_IMMORTAL(rch) ? arg_buf : arg),
 		      NULL,TO_CHAR, POS_DEAD);
 	    }
-	  
+
 	  /* OLD MPROG */
 	  if (IS_NPC(rch) && rch->pIndexData->progtypes & SPEECH_PROG
 	      &&   rch->position == rch->pIndexData->default_pos)
@@ -1352,7 +1352,7 @@ void do_say( CHAR_DATA *ch, char *argument )
 	  /* NEW PROG */
 	  if (IS_NPC(rch) && HAS_TRIGGER_MOB(rch, TRIG_SPEECH))
 	    p_act_trigger( arg_buf, rch, NULL, NULL, ch, NULL, NULL, TRIG_SPEECH );
-	    
+
 	  for ( obj = rch->carrying; obj; obj = obj_next ){
 	    obj_next = obj->next_content;
 	    if ( HAS_TRIGGER_OBJ( obj, TRIG_SPEECH ) )
@@ -1360,7 +1360,7 @@ void do_say( CHAR_DATA *ch, char *argument )
 	  }//END object check
 	}
       }
-      
+
     if (!IS_NPC(ch) && ch->pcdata->eavesdropped != NULL
 	&& is_affected(ch->pcdata->eavesdropped,gsn_eavesdrop)
 	&& !fDemon)
@@ -1385,7 +1385,7 @@ void do_say( CHAR_DATA *ch, char *argument )
     rch = NULL;
     tmp_list = ch->in_room->watch_vnums;
     while (tmp_list != NULL) {
-      rch = (get_room_index ((int)tmp_list->cur_entry))->people;
+      rch = (get_room_index ((long long)tmp_list->cur_entry))->people;
       while (rch != NULL) {
 	if ((!IS_AFFECTED2(rch,AFF_SILENCE) && !is_affected(rch,gsn_silence)) || fDemon){
 	  if (fDemon) {
@@ -1395,7 +1395,7 @@ void do_say( CHAR_DATA *ch, char *argument )
 	  }
 	  else {
 	    sprintf(buf, "[%s] $n says '`#$t``'", ch->in_room->name);
-	    act_new( buf, ch,  (is_affected(rch, gsn_com_lan) ? arg_buf : IS_IMMORTAL(rch) ? 
+	    act_new( buf, ch,  (is_affected(rch, gsn_com_lan) ? arg_buf : IS_IMMORTAL(rch) ?
 				arg_buf : arg), rch, TO_VICT, POS_RESTING + 100 );
 	  }
 	}
@@ -1479,10 +1479,10 @@ void do_tell( CHAR_DATA *ch, char *argument )
     }
     strcpy(arg_buf, argument);
     com_lan = (is_affected(victim, gsn_com_lan) || IS_IMMORTAL(victim));
-     if ( (!IS_AWAKE(victim) 
-	|| IS_AFFECTED2(victim, AFF_SILENCE) 
-	|| is_affected(victim, gsn_silence)) 
-	&& !fDemon 
+     if ( (!IS_AWAKE(victim)
+	|| IS_AFFECTED2(victim, AFF_SILENCE)
+	|| is_affected(victim, gsn_silence))
+	&& !fDemon
 	&& !IS_IMMORTAL(ch))
     {
 	sendf(ch, "They can't hear you.\n\r");
@@ -1574,12 +1574,12 @@ void do_tell( CHAR_DATA *ch, char *argument )
 
     /* NEW PROG */
     if (IS_NPC(victim) && HAS_TRIGGER_MOB(victim, TRIG_SPEECH) && (IS_NPC(ch) || victim->in_room == ch->in_room))
-      p_act_trigger( arg_buf, victim, NULL, NULL, ch, NULL, NULL, TRIG_SPEECH );    
-	
+      p_act_trigger( arg_buf, victim, NULL, NULL, ch, NULL, NULL, TRIG_SPEECH );
+
     victim->reply = ch;
 
     if (!IS_NPC(ch) && ch->pcdata->eavesdropped != NULL
-	&& is_affected(ch->pcdata->eavesdropped,gsn_eavesdrop) 
+	&& is_affected(ch->pcdata->eavesdropped,gsn_eavesdrop)
 	&& ch->pcdata->eavesdropped != victim
 	&& !fDemon)
     {
@@ -1591,7 +1591,7 @@ void do_tell( CHAR_DATA *ch, char *argument )
     }
 
     if (!IS_NPC(victim) && victim->pcdata->eavesdropped != NULL
-	&& is_affected(victim->pcdata->eavesdropped,gsn_eavesdrop) 
+	&& is_affected(victim->pcdata->eavesdropped,gsn_eavesdrop)
 	&& victim->pcdata->eavesdropped != ch
 	&& !fDemon)
     {
@@ -1703,10 +1703,10 @@ void do_reply( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-     if ( (!IS_AWAKE(victim) 
-	|| IS_AFFECTED2(victim, AFF_SILENCE) 
-	|| is_affected(victim, gsn_silence)) 
-	&& !fDemon 
+     if ( (!IS_AWAKE(victim)
+	|| IS_AFFECTED2(victim, AFF_SILENCE)
+	|| is_affected(victim, gsn_silence))
+	&& !fDemon
 	&& !IS_IMMORTAL(ch))
     {
 	sendf(ch, "They can't hear you.\n\r");
@@ -1766,11 +1766,11 @@ void do_reply( CHAR_DATA *ch, char *argument )
 	act( "You tell $N '`2$t``'", ch, argument, victim, TO_CHAR );
 	act_new("$n tells you '`2$t``'",ch, com_lan? arg_buf : argument,victim,TO_VICT,POS_DEAD);
       }
-  
+
     victim->reply = ch;
 
     if (!IS_NPC(ch) && ch->pcdata->eavesdropped != NULL
-	&& is_affected(ch->pcdata->eavesdropped,gsn_eavesdrop) 
+	&& is_affected(ch->pcdata->eavesdropped,gsn_eavesdrop)
 	&& ch->pcdata->eavesdropped != victim
 	&& !fDemon)
     {
@@ -1780,7 +1780,7 @@ void do_reply( CHAR_DATA *ch, char *argument )
     }
 
     if (!IS_NPC(victim) && victim->pcdata->eavesdropped != NULL
-	&& is_affected(victim->pcdata->eavesdropped,gsn_eavesdrop) 
+	&& is_affected(victim->pcdata->eavesdropped,gsn_eavesdrop)
 	&& victim->pcdata->eavesdropped != ch
 	&& !fDemon)
     {
@@ -1788,7 +1788,7 @@ void do_reply( CHAR_DATA *ch, char *argument )
 	sprintf(buf,"Someone tells %s '`2$t``'",PERS(victim,victim->pcdata->eavesdropped));
 	act_new(buf,victim->pcdata->eavesdropped, com_lan? arg_buf : argument,NULL,TO_CHAR, POS_DEAD);
     }
-    if (IS_NPC(victim) 
+    if (IS_NPC(victim)
 		&& victim->pIndexData->progtypes & TELL_PROG)
 	      mprog_tell_trigger( argument, victim );
 }
@@ -1818,7 +1818,7 @@ void do_emote( CHAR_DATA *ch, char *argument ){
     act("You emerge from your treeformed state.",ch,NULL,NULL,TO_CHAR);
     act("$n emerges from $s treeformed state.",ch,NULL,NULL,TO_ROOM);
   }
-  
+
   if (IS_AFFECTED(ch, AFF_HIDE)){
     affect_strip( ch, gsn_hide );
     REMOVE_BIT   ( ch->affected_by, AFF_HIDE                );
@@ -1982,10 +1982,10 @@ void do_quit( CHAR_DATA *ch, char *argument )
       send_to_char( "You can't seem to leave this room!\n\r",ch);
       return;
     }
-  if (is_affected(ch,gsn_bat_form) 
-      || is_affected(ch,gsn_wolf_form) 
+  if (is_affected(ch,gsn_bat_form)
+      || is_affected(ch,gsn_wolf_form)
       || is_affected(ch,gsn_mist_form)
-      
+
       || is_affected(ch,gsn_weretiger)
       || is_affected(ch,gsn_werewolf)
       || is_affected(ch,gsn_werebear)
@@ -1998,9 +1998,9 @@ void do_quit( CHAR_DATA *ch, char *argument )
       send_to_char("You have a note in progress, either post it or clear it before you quit out.\n\r",ch);
       return;
     }
-  
+
   //check for rares over limit
-  if (ch->class == class_lookup("crusader") 
+  if (ch->class == class_lookup("crusader")
       && !is_affected(ch, skill_lookup("undeniable order")))
     fCrus = TRUE;
 
@@ -2018,7 +2018,7 @@ void do_quit( CHAR_DATA *ch, char *argument )
   if (fCrus)
     limit *= 2;
 
-  if (!IS_NPC( ch) && !IS_IMMORTAL(ch) 
+  if (!IS_NPC( ch) && !IS_IMMORTAL(ch)
       && rare_count
       && rare_count > limit
       && !ch->pcdata->confirm_quit){
@@ -2026,7 +2026,7 @@ void do_quit( CHAR_DATA *ch, char *argument )
     ch->pcdata->confirm_quit = TRUE;
     return;
   }
-  
+
   /* Successful quit */
   for (obj = ch->carrying; obj != NULL; obj = obj_next){
     obj_next = obj->next_content;
@@ -2086,28 +2086,28 @@ void do_quit( CHAR_DATA *ch, char *argument )
     if (ch->pCabal && !IS_IMMORTAL(ch)){
       char * const his_her [] = { "its", "his", "her" };
       if (IS_CABAL(ch->pCabal, CABAL_AREA)){
-	sprintf( log_buf, "%s %s has left the fray.", 
+	sprintf( log_buf, "%s %s has left the fray.",
 		 get_crank_str( ch->pCabal, ch->pcdata->true_sex, ch->pcdata->rank ),
 		 PERS2(ch));
       }
       else if (IS_CABAL(ch->pCabal, CABAL_ROYAL)){
-	sprintf( log_buf, "%s %s has withdrawn %s presence.", 
+	sprintf( log_buf, "%s %s has withdrawn %s presence.",
 	       get_crank_str( ch->pCabal, ch->pcdata->true_sex, ch->pcdata->rank ),
 	       PERS2(ch),
 	       his_her[URANGE(0,ch->sex,2)]);
     }
     else if (IS_CABAL(ch->pCabal, CABAL_JUSTICE)){
-      sprintf( log_buf, "%s %s no longer serves the Law with us.", 
+      sprintf( log_buf, "%s %s no longer serves the Law with us.",
 	       get_crank_str( ch->pCabal, ch->pcdata->true_sex, ch->pcdata->rank ),
 	       PERS2(ch));
     }
     else if (IS_CABAL(ch->pCabal, CABAL_ROUGE)){
-      sprintf( log_buf, "%s %s has been noticed leaving the lands.", 
+      sprintf( log_buf, "%s %s has been noticed leaving the lands.",
 	       get_crank_str( ch->pCabal, ch->pcdata->true_sex, ch->pcdata->rank ),
 	       PERS2(ch));
     }
     else{
-      sprintf( log_buf, "%s %s has left our forces.", 
+      sprintf( log_buf, "%s %s has left our forces.",
 	       get_crank_str( ch->pCabal, ch->pcdata->true_sex, ch->pcdata->rank ),
 	       PERS2(ch));
     }
@@ -2120,7 +2120,7 @@ void do_quit( CHAR_DATA *ch, char *argument )
         sprintf( log_buf, "%s has disconnected.", ch->name);
     log_string( log_buf );
     wiznet(log_buf,NULL,NULL,WIZ_LOGINS,0,get_trust(ch));
-    
+
 /* After extract_char the ch is no longer valid! */
     for ( vch = char_list; vch != NULL; vch = vch_next )
     {
@@ -2149,8 +2149,8 @@ void do_quit( CHAR_DATA *ch, char *argument )
 	    continue;
 	}
 	/* save pets during quits
-	if (IS_NPC(vch) 
-	    && vch->summoner != NULL 
+	if (IS_NPC(vch)
+	    && vch->summoner != NULL
 	    && vch->summoner == ch
 	    && !IS_SET(vch->act, ACT_PET))
 	  {
@@ -2225,24 +2225,24 @@ bool can_follow(CHAR_DATA* ch, CHAR_DATA* victim){
       return FALSE;
     }
     if(IS_SET(victim->master->act,PLR_NOFOLLOW)
-       || is_affected(victim->master,gsn_heroism) 
-       || is_affected(victim->master,skill_lookup("apathey")) 
+       || is_affected(victim->master,gsn_heroism)
+       || is_affected(victim->master,skill_lookup("apathey"))
        || tarot_find(victim->master->affected) == 10){
       sendf(ch,"%s doesn't seem to want any followers.\n\r", PERS2(victim->master));
       return FALSE;
     }
   }
-  
+
   if (is_affected(victim, gen_crusade) && ch != victim){
     act("$N has set out upon a holy Crusade and cannot be aided.", ch, NULL, victim, TO_CHAR);
     return FALSE;
   }
-  else if ( ch != victim 
-	    && !IS_NPC(victim) 
-	    && (IS_SET(victim->act,PLR_NOFOLLOW) 
-		|| is_affected(victim,gsn_heroism) 
-		|| is_affected(victim,skill_lookup("apathey")) 
-		|| tarot_find(victim->affected) == 10) 
+  else if ( ch != victim
+	    && !IS_NPC(victim)
+	    && (IS_SET(victim->act,PLR_NOFOLLOW)
+		|| is_affected(victim,gsn_heroism)
+		|| is_affected(victim,skill_lookup("apathey"))
+		|| tarot_find(victim->affected) == 10)
 	    && !IS_IMMORTAL(ch))
     {
       sendf(ch,"%s doesn't seem to want any followers.\n\r", PERS2(victim));
@@ -2322,7 +2322,7 @@ void stop_follower( CHAR_DATA *ch )
     act( "You stop following $N.",      ch, NULL, ch->master, TO_CHAR    );
   }
   if (IS_NPC(ch) && ch->master && !IS_NPC(ch->master)
-      && ch->master->pcdata->pStallion 
+      && ch->master->pcdata->pStallion
       && ch->master->pcdata->pStallion == ch->pIndexData){
     do_dismount(ch->master, "");
   }
@@ -2340,7 +2340,7 @@ void stop_follower( CHAR_DATA *ch )
     ch->pcdata->guarding->pcdata->guarded_by = NULL;
     ch->pcdata->guarding = NULL;
   }
-  if (IS_NPC(ch) && ch->pIndexData->vnum == MOB_VNUM_SPECIAL_GUARD 
+  if (IS_NPC(ch) && ch->pIndexData->vnum == MOB_VNUM_SPECIAL_GUARD
       && ch->leader != NULL){
     AFFECT_DATA af;
     send_to_char("Cursing at the loss you send in a request for a new guard captain.\n\r", ch->leader);
@@ -2354,7 +2354,7 @@ void stop_follower( CHAR_DATA *ch )
     affect_to_char(ch->leader, &af);
   }
   if (ch->master && !IS_NPC(ch->master) && ch->master->pcdata->familiar) {
-    if (is_affected(ch->master,gsn_familiar_link) && ch->master->pcdata->familiar != NULL 
+    if (is_affected(ch->master,gsn_familiar_link) && ch->master->pcdata->familiar != NULL
 	&& ch->master->pcdata->familiar == ch) {
       AFFECT_DATA af;
       send_to_char("Your energy drains out as you lose link with your familiar.\n\r",ch->master);
@@ -2378,7 +2378,7 @@ void stop_follower( CHAR_DATA *ch )
   ch->leader = NULL;
   ch->summoner = NULL;
 
-  if (IS_NPC(ch) && ch->pIndexData->vnum == MOB_VNUM_DUMMY 
+  if (IS_NPC(ch) && ch->pIndexData->vnum == MOB_VNUM_DUMMY
       && is_affected(ch,gsn_mirror_image)){
     act("$n shatters into tiny fragments of glass.",ch,NULL,NULL,TO_ROOM);
     extract_char( ch, TRUE );
@@ -2407,7 +2407,7 @@ void die_follower( CHAR_DATA *ch, bool remove )
     {
         if (ch->master->pet == ch)
             ch->master->pet = NULL;
-        if (!IS_NPC(ch->master) && 
+        if (!IS_NPC(ch->master) &&
 	    ch->master->pcdata->familiar == ch)
             ch->master->pcdata->familiar = NULL;
 	if (remove)
@@ -2417,7 +2417,7 @@ void die_follower( CHAR_DATA *ch, bool remove )
     {
       if (ch->leader->pet == ch)
 	ch->leader->pet = NULL;
-      if (!IS_NPC(ch->leader) && 
+      if (!IS_NPC(ch->leader) &&
 	  ch->leader->pcdata->familiar == ch)
 	ch->leader->pcdata->familiar = NULL;
     }
@@ -2533,7 +2533,7 @@ void do_order( CHAR_DATA *ch, char *argument )
 	    sendf( och, "%s orders you to '%s'.\n\r", PERS(ch,och), argument );
 	    if ( cmd_table[cmd].order == 0 )
 		break;
-	    
+
 	    /* check for pc charm effect weakeaning */
 	    {
 	      AFFECT_DATA* paf = affect_find(och->affected, gen_pc_charm);
@@ -2576,14 +2576,14 @@ void do_group( CHAR_DATA *ch, char *argument )
 		if (gch->max_move == 0)
 		    gch->max_move++;
 		sendf( ch,"[%2d %s] %-16s %4d%% hp %4d%% mana %4d%% mv %5ld xp\n\r",
-		       gch->level, 
-		       (IS_NPC(gch) ? "Mob" : (IS_SET(gch->act2, PLR_MASQUERADE) && ch != gch ? 
-					       class_table[class_lookup("dark-knight")].who_name : 
-					       class_table[gch->class].who_name)), 
+		       gch->level,
+		       (IS_NPC(gch) ? "Mob" : (IS_SET(gch->act2, PLR_MASQUERADE) && ch != gch ?
+					       class_table[class_lookup("dark-knight")].who_name :
+					       class_table[gch->class].who_name)),
 		       capitalize( PERS(gch, ch) ),
-		       gch->hit*100/gch->max_hit, 
-		       gch->mana*100/gch->max_mana, 
-		       gch->move*100/gch->max_move, 
+		       gch->hit*100/gch->max_hit,
+		       gch->mana*100/gch->max_mana,
+		       gch->move*100/gch->max_move,
 		       gch->exp);
 	    }
 	return;
@@ -2732,7 +2732,7 @@ void do_gtell( CHAR_DATA *ch, char *argument )
     char buf[MSL];
     char arg_buf[MSL];
 
-    const int demon_cost = 30;	
+    const int demon_cost = 30;
     bool fDemon = IS_TELEPATH(ch);
 
     if ( argument[0] == '\0' )
@@ -2781,8 +2781,8 @@ void do_gtell( CHAR_DATA *ch, char *argument )
       sendf(ch, "You tell your group '`9%s``'\n\r",argument);
 
     for ( gch = char_list; gch != NULL; gch = gch->next )
-      if ( is_same_group( gch, ch ) 
-	    && ((!is_affected(gch,gsn_silence) 
+      if ( is_same_group( gch, ch )
+	    && ((!is_affected(gch,gsn_silence)
 		&& !IS_AFFECTED2(gch, AFF_SILENCE))
 		|| fDemon)
 	   )
@@ -2796,19 +2796,19 @@ void do_gtell( CHAR_DATA *ch, char *argument )
 	  else
 	    {
 	      sprintf(buf, "%s tells the group '`9$t``'", PERS(ch,gch));
-	      act_new( buf, ch, is_affected(gch, gsn_com_lan)? arg_buf : IS_IMMORTAL(gch) ? arg_buf : argument, 
+	      act_new( buf, ch, is_affected(gch, gsn_com_lan)? arg_buf : IS_IMMORTAL(gch) ? arg_buf : argument,
 		       gch, TO_VICT, POS_DEAD);
 	    }
 
 	  if (!IS_NPC(gch) && gch->pcdata->eavesdropped != NULL
 	      && is_affected(gch->pcdata->eavesdropped,gsn_eavesdrop)
-	      && gch != ch && gch->pcdata->eavesdropped != ch 
+	      && gch != ch && gch->pcdata->eavesdropped != ch
 	      && !is_same_group(gch->pcdata->eavesdropped,gch)
 	      && !fDemon)
 	    {
 	      send_to_char("A faint message transmits from the spies.\n\r",gch->pcdata->eavesdropped);
 	      sprintf(buf,"Someone tells the group '`9$t``'");
-	      act_new(buf,gch->pcdata->eavesdropped,is_affected(gch->pcdata->eavesdropped, gsn_com_lan)? arg_buf : IS_IMMORTAL(gch->pcdata->eavesdropped) ? arg_buf : argument, 
+	      act_new(buf,gch->pcdata->eavesdropped,is_affected(gch->pcdata->eavesdropped, gsn_com_lan)? arg_buf : IS_IMMORTAL(gch->pcdata->eavesdropped) ? arg_buf : argument,
 		  NULL,TO_CHAR, POS_DEAD);
 	    }
 	}
@@ -2818,7 +2818,7 @@ void do_gtell( CHAR_DATA *ch, char *argument )
       {
 	send_to_char("A faint message transmits from the spies.\n\r",ch->pcdata->eavesdropped);
 	sprintf(buf,"%s tells the group '`9$t``'",PERS(ch,ch->pcdata->eavesdropped));
-	act_new(buf,ch->pcdata->eavesdropped,is_affected(ch->pcdata->eavesdropped, gsn_com_lan)? arg_buf : IS_IMMORTAL(ch->pcdata->eavesdropped) ? arg_buf : argument, 
+	act_new(buf,ch->pcdata->eavesdropped,is_affected(ch->pcdata->eavesdropped, gsn_com_lan)? arg_buf : IS_IMMORTAL(ch->pcdata->eavesdropped) ? arg_buf : argument,
 	    NULL,TO_CHAR, POS_DEAD);
       }
 }
@@ -2870,7 +2870,7 @@ void do_release(CHAR_DATA *ch, char *argument)
     act("You send $N back home.", ch, NULL, victim, TO_CHAR);
     act("You've been released!", ch, NULL, victim, TO_VICT);
     act("$N slowly fades away.",ch,NULL,victim,TO_ALL);
-    
+
     if (is_affected(ch,gsn_familiar_link) && ch->pcdata->familiar != NULL && ch->pcdata->familiar == victim)
     {
 	AFFECT_DATA af;
@@ -2920,10 +2920,10 @@ void makedrunk (char *string, CHAR_DATA * ch){
     {2, 7,  {"z", "z", "Z", "zZ", "szz", "ZSz", "Zzz", "sZz"}}
   };
   char buf[MSL];
-  
+
   char* str;//current place in the string
   char* point;//current place inthe buffer
-  
+
   int drunklevel, randomnum, count;
 
   if (IS_TELEPATH(ch))
@@ -2941,11 +2941,11 @@ void makedrunk (char *string, CHAR_DATA * ch){
       }
   }
 
-    
+
   if (is_affected(ch,gsn_garble) || (!IS_NPC(ch) && IS_SET(ch->act2,PLR_GARBLE))){
-    
+
     str = string;
-    
+
     while (*str != '\0'){
       if ((*str >= 'A') && (*str <= 'Z'))
 	*str++ = 'A' + number_range (0,25);
@@ -2961,7 +2961,7 @@ void makedrunk (char *string, CHAR_DATA * ch){
   /*Ogres talk drunk */
   if (IS_NPC(ch))
     drunklevel = 0;
-  else if (is_affected(ch,gsn_drunken) 
+  else if (is_affected(ch,gsn_drunken)
 	   || is_affected(ch, gsn_brain_death)
 	   || ch->race == race_lookup("Ogre"))
     drunklevel = UMAX(10,ch->pcdata->condition[COND_DRUNK]);
@@ -2971,11 +2971,11 @@ void makedrunk (char *string, CHAR_DATA * ch){
   if (drunklevel > 0){
     if (drunklevel > 10)
       drunklevel = 10 + (drunklevel-10)/2;
-	
+
     //begin converting string to drunk talk.
     str = string;
     point = buf;//we need buffer as the result might be longer then original.
-	
+
     while (*str != '\0'){
       if (UPPER(*str) >= 'A' && UPPER(*str) <= 'Z'){
 	if (drunklevel > drunk[*str - 'A'].min_drunk_level){
@@ -3144,17 +3144,17 @@ void eq_purge( CHAR_DATA *ch )
 void deny_record( CHAR_DATA *ch ){
   char strsave[MIL];
   char nameread[MIL];
-  
+
   const int max_name = 512;
   char names[max_name] [MIL];
   int last_name = 0;
   int top_name = 0;
 
   FILE *fp;
-  
+
   if ( ch->desc != NULL && ch->desc->original != NULL )
     ch = ch->desc->original;
-    
+
   fclose( fpReserve );
   sprintf( strsave, "%s", ILLEGAL_NAME_FILE );
 
@@ -3165,7 +3165,8 @@ void deny_record( CHAR_DATA *ch ){
       if (last_name >= max_name)
 	last_name = 0;
 
-      fscanf (fp, "%s", nameread);
+      if( fscanf (fp, "%s", nameread) == 0 )
+        return;
       if ( !str_cmp( nameread, "END" ) )
 	break;
       else{
@@ -3179,7 +3180,7 @@ void deny_record( CHAR_DATA *ch ){
     fp = fopen( NULL_FILE, "r" );
   fclose( fp );
   fp = fopen( strsave, "w" );
-  
+
   for ( last_name = 0; last_name < top_name; last_name++){
     fprintf( fp, "%s\n", names[last_name] );
   }
@@ -3240,7 +3241,7 @@ void do_test( CHAR_DATA *ch, char *argument){
     if ( (pIndex = get_mob_index( index)) == NULL)
       continue;
     count++;
-    if (IS_SET(pIndex->act, ACT_UNDEAD) 
+    if (IS_SET(pIndex->act, ACT_UNDEAD)
 	|| pIndex->level < 50
 	|| pIndex->level > 52
 	)
@@ -3287,7 +3288,7 @@ void do_test( CHAR_DATA *ch, char *argument){
       continue;
     else if (attack_table[pIndex->value[3]].damage <= DAM_SLASH)
       continue;
-    
+
     for (paf = pIndex->affected; paf; paf = paf->next){
       if (paf->location == APPLY_HITROLL)
 	hit += paf->modifier;
@@ -3296,7 +3297,7 @@ void do_test( CHAR_DATA *ch, char *argument){
       if (paf->location == APPLY_MANA)
 	mana += paf->modifier;
     }
-    
+
     fFound = TRUE;
     sendf(ch, "%-6d %-25.25s %-5d %-15.15s %s\n",
 	    pIndex->vnum,
@@ -3341,17 +3342,17 @@ void do_test( CHAR_DATA *ch, char *argument){
     man = 50 * (min + (max - min) / 2);
     man += pc_race_table[i].mana;
     //race, int, wis, min, max, bon, min, max, avg
-    sendf( ch, "%-15.15s %4d %4d %4d %4d %4d %4d %4d %4d\n\r", 
+    sendf( ch, "%-15.15s %4d %4d %4d %4d %4d %4d %4d %4d\n\r",
 	   pc_race_table[i].name,
 	   pc_race_table[i].max_stats[STAT_INT],
 	   pc_race_table[i].max_stats[STAT_WIS],
 	   min,
-	   max, 
+	   max,
 	   min + (max - min) / 2,
 	   pc_race_table[i].mana + min * 50,
 	   pc_race_table[i].mana + max * 50,
 	   man);
-	   
+
   }
 */
 /*

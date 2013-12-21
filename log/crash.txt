@@ -1,0 +1,705 @@
+
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep  2 11:29:30 2004)
+
+
+=========================================================================
+Malloc: (Finished) free free_string (Thu Sep  2 11:29:35 2004)
+Loop: (Finished) aggr (Thu Sep  2 11:29:50 2004)
+
+
+=========================================================================
+Malloc: (Finished) free free_string (Thu Sep  2 11:29:52 2004)
+Loop: (Finished) aggr (Thu Sep  2 11:29:55 2004)
+
+
+=========================================================================
+Malloc: (Finished) free free_string (Thu Sep  2 11:29:57 2004)
+Loop: (Finished) aggr (Thu Sep  2 11:30:02 2004)
+
+
+=========================================================================
+Malloc: (Finished) free free_string (Thu Sep  2 11:30:05 2004)
+Loop: (Finished) aggr (Thu Sep  2 11:30:08 2004)
+
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep  2 11:30:24 2004)
+Loop: (Finished) aggr (Thu Sep  2 11:32:28 2004)
+Command: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: restore self (Thu Sep  2 11:30:58 2004)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep  2 11:30:58 2004)
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep  2 11:35:59 2004)
+
+
+=========================================================================
+Malloc: (Finished) free free_string (Thu Sep  2 11:36:01 2004)
+Loop: (Finished) army (Thu Sep  2 11:36:28 2004)
+Command: (Finished) [    0] Admin in [    0] (not in a room): quit (Thu Sep  2 11:36:09 2004)
+
+=========================================================================
+Malloc: (Finished) free free_string (Thu Sep  2 11:36:31 2004)
+Loop: (Finished) aggr (Thu Sep  2 11:36:35 2004)
+Command: (Finished) [    0] Admin in [    0] (not in a room): quit (Thu Sep  2 11:36:09 2004)
+
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep  2 11:50:40 2004)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Jul  5 09:56:53 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Jul  5 09:57:28 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Jul  5 10:00:28 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Jul  5 10:01:03 2006)
+
+
+=========================================================================
+
+Loop: (Finished) army (Wed Jul  5 10:02:58 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Jul  5 10:03:18 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Jul  5 10:09:55 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Jul  5 10:10:18 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Jul  5 10:16:38 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Jul  5 11:56:57 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Jul  5 12:05:11 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Jul  5 12:08:36 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Fri Sep 15 16:43:54 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Fri Sep 15 16:44:09 2006)
+
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Fri Sep 15 16:54:44 2006)
+Loop: (Finished) aggr (Fri Sep 15 18:26:55 2006)
+Command: (Finished) [    0] Brinson in [ 7700] `8The Gateway into Aabahran``: who (Fri Sep 15 17:48:14 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Fri Sep 15 16:54:44 2006)
+Loop: (Finished) aggr (Fri Sep 15 18:27:27 2006)
+Command: (Finished) [    0] Brinson in [ 7700] `8The Gateway into Aabahran``: who (Fri Sep 15 17:48:14 2006)
+
+=========================================================================
+
+Loop: (Finished) memory (Fri Sep 15 18:42:03 2006)
+Command: (Finished) [    0] Brinson in [ 7700] `8The Gateway into Aabahran``: l (Fri Sep 15 18:41:43 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Sat Sep 16 01:04:18 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Sat Sep 16 01:19:43 2006)
+Command: (Finished) [    0] Brinson in [    0] (not in a room): quit (Sat Sep 16 01:04:52 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Sat Sep 16 02:30:01 2006)
+Command: (Finished) [    0] Brinson in [ 7700] `8The Gateway into Aabahran``: who (Sat Sep 16 01:19:58 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Sat Sep 16 19:45:05 2006)
+
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Sat Sep 16 19:46:08 2006)
+Loop: (Finished) aggr (Sat Sep 16 19:56:35 2006)
+Command: (Finished) [    0] Brinson in [ 7701] `8The First Room``: l (Sat Sep 16 19:56:01 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Sat Sep 16 19:46:08 2006)
+Loop: (Finished) aggr (Sat Sep 16 19:56:42 2006)
+Command: (Finished) [    0] Brinson in [ 7701] `8The First Room``: l (Sat Sep 16 19:56:01 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Sat Sep 16 20:11:08 2006)
+Loop: (Finished) aggr (Sat Sep 16 20:23:13 2006)
+Command: (Finished) [    0] Brinson in [  201] `8The First Test``:  (Sat Sep 16 20:22:32 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Sat Sep 16 20:11:08 2006)
+Loop: (Finished) aggr (Sat Sep 16 20:23:50 2006)
+Command: (Finished) [    0] Brinson in [  201] `8The First Test``:  (Sat Sep 16 20:22:32 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Sat Sep 16 20:51:01 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Sat Sep 16 21:01:14 2006)
+Command: (Finished) [    0] Brinson in [  201] `8The First Test``: who (Sat Sep 16 21:01:04 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Sat Sep 16 22:27:05 2006)
+Command: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: restore self (Sat Sep 16 21:18:30 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Sat Sep 16 21:18:30 2006)
+=========================================================================
+
+Loop: (Finished) aggr (Sun Sep 17 00:05:03 2006)
+Command: (Finished) [    0] Brinson in [  202] `8The Second Room``: socket (Sat Sep 16 23:03:05 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Sat Sep 16 21:18:30 2006)
+=========================================================================
+
+Loop: (Finished) aggr (Sun Sep 17 04:29:16 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Sun Sep 17 10:42:02 2006)
+
+
+=========================================================================
+Malloc: (Finished) free free_string (Sun Sep 17 10:43:22 2006)
+Loop: (Finished) aggr (Sun Sep 17 11:03:08 2006)
+Command: (Finished) [    0] Bobby in [    0] (not in a room): quit (Sun Sep 17 10:43:22 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Sun Sep 17 15:21:34 2006)
+
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Sun Sep 17 15:21:39 2006)
+Loop: (Finished) aggr (Sun Sep 17 16:20:45 2006)
+Command: (Finished) [    0] Brinson in [  203] : help class (Sun Sep 17 15:25:22 2006)
+GNU gdb 6.3-debian
+Copyright 2004 Free Software Foundation, Inc.
+GDB is free software, covered by the GNU General Public License, and you are
+welcome to change it and/or distribute copies of it under certain conditions.
+Type "show copying" to see the conditions.
+There is absolutely no warranty for GDB.  Type "show warranty" for details.
+This GDB was configured as "i386-linux"...Using host libthread_db library "/lib/tls/libthread_db.so.1".
+
+Core was generated by `MUD 6668 Forsaken_Lands 4 '.
+Program terminated with signal 8, Arithmetic exception.
+#0  0x080d166d in spell_ripple (sn=136456992, level=0, ch=0x0, vo=0xbffff6b4, 
+    target=136456964) at cabal2.c:10673
+10673	    affect_strip(victim, sn );
+(gdb) Hangup detected on fd 0
+error detected on stdin
+GNU gdb 6.3-debian
+Copyright 2004 Free Software Foundation, Inc.
+GDB is free software, covered by the GNU General Public License, and you are
+welcome to change it and/or distribute copies of it under certain conditions.
+Type "show copying" to see the conditions.
+There is absolutely no warranty for GDB.  Type "show warranty" for details.
+This GDB was configured as "i386-linux"...Using host libthread_db library "/lib/tls/libthread_db.so.1".
+
+Core was generated by `MUD 6668 Forsaken_Lands 4 '.
+Program terminated with signal 8, Arithmetic exception.
+#0  0x080d166d in spell_ripple (sn=136456992, level=0, ch=0x0, vo=0xbffff6b4, 
+    target=136456964) at cabal2.c:10673
+10673	    affect_strip(victim, sn );
+(gdb) Hangup detected on fd 0
+error detected on stdin
+
+=========================================================================
+
+Loop: (Finished) aggr (Sun Sep 17 22:49:16 2006)
+
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Sun Sep 17 22:49:22 2006)
+Loop: (Finished) aggr (Sun Sep 17 23:35:23 2006)
+Command: (Finished) [    0] Brinson in [    0] (not in a room): quit (Sun Sep 17 22:52:25 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Tue Sep 19 14:51:22 2006)
+
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Tue Sep 19 15:23:10 2006)
+Loop: (Finished) aggr (Tue Sep 19 15:23:30 2006)
+Command: (Finished) [    0] Brinson in [  204] : who (Tue Sep 19 15:23:12 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Tue Sep 19 15:23:10 2006)
+Loop: (Finished) aggr (Tue Sep 19 15:23:49 2006)
+Command: (Finished) [    0] Brinson in [  204] : force warp quit (Tue Sep 19 15:23:45 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Tue Sep 19 16:19:23 2006)
+
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Tue Sep 19 16:19:30 2006)
+Loop: (Finished) aggr (Tue Sep 19 18:57:49 2006)
+Command: (Finished) [    0] Brinson in [  202] `8The Second Room``: l (Tue Sep 19 17:43:50 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Tue Sep 19 16:19:30 2006)
+Loop: (Finished) aggr (Tue Sep 19 19:14:19 2006)
+Command: (Finished) [    0] Brinson in [  200] `8Entrance to the Academy``:  (Tue Sep 19 19:14:11 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Tue Sep 19 16:19:30 2006)
+Loop: (Finished) aggr (Tue Sep 19 20:21:01 2006)
+Command: (Finished) [    0] Brinson in [  201] `8The First Test``: who (Tue Sep 19 20:07:19 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Tue Sep 19 20:21:43 2006)
+Loop: (Finished) aggr (Tue Sep 19 20:23:52 2006)
+Command: (Finished) [    0] Raki in [ 7700] `8Entrance to the Academy``: sk (Tue Sep 19 20:23:40 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Tue Sep 19 23:13:34 2006)
+Command: (Finished) [    0] Brinson in [  601] `7Kel Street``: asave changed (Tue Sep 19 22:29:13 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Sep 20 00:32:13 2006)
+Command: (Finished) [    0] Raki in [    0] (not in a room): quit (Tue Sep 19 23:31:22 2006)
+
+=========================================================================
+
+Loop: command (Wed Sep 20 00:50:58 2006)
+Command: [    0] Raki in [  504] `2Widened Path``: random (Wed Sep 20 00:50:58 2006)
+GNU gdb 6.3-debian
+Copyright 2004 Free Software Foundation, Inc.
+GDB is free software, covered by the GNU General Public License, and you are
+welcome to change it and/or distribute copies of it under certain conditions.
+Type "show copying" to see the conditions.
+There is absolutely no warranty for GDB.  Type "show warranty" for details.
+This GDB was configured as "i386-linux"...Using host libthread_db library "/lib/tls/libthread_db.so.1".
+
+Core was generated by `MUD 6668 Forsaken_Lands 4 '.
+Program terminated with signal 8, Arithmetic exception.
+#0  0x080d166d in spell_ripple (sn=136456992, level=0, ch=0x0, vo=0xbffff6b4, 
+    target=136456964) at cabal2.c:10673
+10673	    affect_strip(victim, sn );
+(gdb) Hangup detected on fd 0
+error detected on stdin
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Sep 20 01:10:41 2006)
+Command: (Finished) [    0] Raki in [  501] : asave changed (Wed Sep 20 01:09:58 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Wed Sep 20 00:54:20 2006)
+=========================================================================
+
+Loop: (Finished) aggr (Wed Sep 20 01:13:46 2006)
+Command: (Finished) [    0] Raki in [  501] `2A path in the Garden``: sockets (Wed Sep 20 01:13:41 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Wed Sep 20 00:54:20 2006)
+=========================================================================
+
+Loop: (Finished) aggr (Wed Sep 20 01:23:22 2006)
+Command: (Finished) [    0] Raki in [  501] `2A path in the Garden``: reset (Wed Sep 20 01:23:11 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Wed Sep 20 00:54:20 2006)
+=========================================================================
+
+Loop: (Finished) aggr (Wed Sep 20 01:28:13 2006)
+Command: (Finished) [    0] Brinson in [  501] `2A path in the Garden``: who (Wed Sep 20 01:28:12 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Sep 20 01:32:30 2006)
+Command: (Finished) [    0] Brinson in [  501] `2A path in the Garden``: test (Wed Sep 20 01:32:28 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Sep 20 02:11:27 2006)
+Command: (Finished) [    0] Raki in [    0] (not in a room): quit (Wed Sep 20 02:10:52 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Sep 20 02:20:22 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Sep 20 02:20:50 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Sep 20 12:03:14 2006)
+
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Wed Sep 20 12:03:16 2006)
+Loop: (Finished) aggr (Wed Sep 20 12:13:53 2006)
+Command: (Finished) [    0] Raki in [    0] (not in a room): quit (Wed Sep 20 12:13:48 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Sep 20 12:52:44 2006)
+Command: (Finished) [    0] Raki in [    0] (not in a room): quit (Wed Sep 20 12:52:05 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Sep 20 12:54:10 2006)
+Command: (Finished) [    0] Raki in [    0] (not in a room): quit (Wed Sep 20 12:52:05 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Sep 20 18:23:20 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Wed Sep 20 18:42:51 2006)
+
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Wed Sep 20 18:42:56 2006)
+Loop: (Finished) aggr (Wed Sep 20 20:17:16 2006)
+Command: (Finished) [    0] Brinson in [    0] (not in a room): quit (Wed Sep 20 18:45:38 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep 21 00:27:51 2006)
+
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 00:27:54 2006)
+Loop: (Finished) aggr (Thu Sep 21 00:50:49 2006)
+Command: (Finished) [    0] Raki in [  504] `2Around the flower bed``: set skill raki rescue 103 (Thu Sep 21 00:50:31 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 00:49:11 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 00:27:54 2006)
+Loop: command (Thu Sep 21 01:03:18 2006)
+Command: [    0] Raki in [  504] `2Around the flower bed``: c fireball (Thu Sep 21 01:03:18 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 01:02:18 2006)GNU gdb 6.3-debian
+Copyright 2004 Free Software Foundation, Inc.
+GDB is free software, covered by the GNU General Public License, and you are
+welcome to change it and/or distribute copies of it under certain conditions.
+Type "show copying" to see the conditions.
+There is absolutely no warranty for GDB.  Type "show warranty" for details.
+This GDB was configured as "i386-linux"...Using host libthread_db library "/lib/tls/libthread_db.so.1".
+
+Core was generated by `MUD 6668 Forsaken_Lands 4 '.
+Program terminated with signal 8, Arithmetic exception.
+#0  0x080d166d in spell_ripple (sn=136456992, level=0, ch=0x0, vo=0xbffff6b4, 
+    target=136456964) at cabal2.c:10673
+10673	    affect_strip(victim, sn );
+(gdb) Hangup detected on fd 0
+error detected on stdin
+
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep 21 01:31:12 2006)
+Command: (Finished) [    0] Tester in [    0] (not in a room): quit (Thu Sep 21 01:31:03 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep 21 11:05:33 2006)
+
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 11:05:35 2006)
+Loop: (Finished) aggr (Thu Sep 21 11:12:16 2006)
+Command: (Finished) [    0] Raki in [  506] `2Around the flower bed``: create obj 250 (Thu Sep 21 11:12:01 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 11:05:35 2006)
+Loop: char (Thu Sep 21 11:18:54 2006)
+Command: (Finished) [    0] Tester in [  511] `2Jumping the Hedge``: l (Thu Sep 21 11:18:51 2006)
+GNU gdb 6.3-debian
+Copyright 2004 Free Software Foundation, Inc.
+GDB is free software, covered by the GNU General Public License, and you are
+welcome to change it and/or distribute copies of it under certain conditions.
+Type "show copying" to see the conditions.
+There is absolutely no warranty for GDB.  Type "show warranty" for details.
+This GDB was configured as "i386-linux"...Using host libthread_db library "/lib/tls/libthread_db.so.1".
+
+Core was generated by `MUD 6668 Forsaken_Lands 4 '.
+Program terminated with signal 8, Arithmetic exception.
+#0  0x080d166d in spell_ripple (sn=136456992, level=0, ch=0x0, vo=0xbffff6b4, 
+    target=136456964) at cabal2.c:10673
+10673	    affect_strip(victim, sn );
+(gdb) Hangup detected on fd 0
+error detected on stdin
+
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep 21 11:35:54 2006)
+Command: (Finished) [    0] Raki in [  508] `2Around the flower bed``: l (Thu Sep 21 11:35:17 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep 21 12:31:36 2006)
+Command: (Finished) [    0] Raki in [  517] `2Closed Path``: asave changed (Thu Sep 21 12:12:53 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 12:05:10 2006)
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep 21 13:22:03 2006)
+Command: (Finished) [    0] Raki in [  506] `2Around the flower bed``: asave changed (Thu Sep 21 13:21:41 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 12:05:10 2006)
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep 21 13:35:13 2006)
+Command: (Finished) [    0] Raki in [  522] : edit mob create 101 (Thu Sep 21 13:29:53 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 12:05:10 2006)
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep 21 13:46:31 2006)
+Command: (Finished) [    0] Brinson in [  605] `7Kel Street``: l (Thu Sep 21 13:46:26 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 12:05:10 2006)
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep 21 14:55:19 2006)
+Command: (Finished) [    0] Raki in [  522] `2Midst of a treant forrest!``: asave changed (Thu Sep 21 14:54:51 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep 21 15:10:31 2006)
+Command: (Finished) [    0] Brinson in [  605] `7Kel Street``: songs (Thu Sep 21 15:10:30 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 15:14:21 2006)
+Loop: (Finished) aggr (Thu Sep 21 16:33:50 2006)
+Command: (Finished) [    0] Brinson in [    0] (not in a room): quit (Thu Sep 21 16:06:30 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 15:14:21 2006)
+Loop: (Finished) aggr (Thu Sep 21 16:39:56 2006)
+Command: (Finished) [    0] Raki in [  599] `8A temporary armory``: sk (Thu Sep 21 16:35:44 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 15:14:21 2006)
+Loop: (Finished) aggr (Thu Sep 21 16:42:26 2006)
+Command: (Finished) [    0] Raki in [  599] `8A temporary armory``: imm a ring actually (Thu Sep 21 16:42:14 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep 21 16:49:38 2006)
+Command: (Finished) [    0] Brinson in [  500] `2Entering the Forested Garden``: alist (Thu Sep 21 16:49:33 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep 21 16:56:59 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep 21 16:59:18 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep 21 17:04:31 2006)
+Command: (Finished) [    0] Brinson in [  500] `2Entering the Forested Garden``: sc (Thu Sep 21 17:00:20 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep 21 17:04:43 2006)
+Command: (Finished) [    0] Raki in [  599] `8A temporary armory``: who (Thu Sep 21 17:04:43 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 17:04:45 2006)
+Loop: (Finished) aggr (Thu Sep 21 17:11:19 2006)
+Command: (Finished) [    0] Belasrad in [ 7700] `8Entrance to the Academy``: who (Thu Sep 21 17:10:36 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 17:04:45 2006)
+Loop: (Finished) aggr (Thu Sep 21 17:12:02 2006)
+Command: (Finished) [    0] Belasrad in [ 7700] `8Entrance to the Academy``: tell brinson i am here (Thu Sep 21 17:11:46 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 17:04:45 2006)
+Loop: (Finished) aggr (Thu Sep 21 17:24:06 2006)
+Command: (Finished) [    0] Brinson in [ 7700] `8Entrance to the Academy``: l (Thu Sep 21 17:23:53 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 17:04:45 2006)
+Loop: (Finished) aggr (Thu Sep 21 17:30:44 2006)
+Command: (Finished) [    0] Belasrad in [  700] : imm ok (Thu Sep 21 17:30:43 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 17:04:45 2006)
+Loop: (Finished) aggr (Thu Sep 21 17:57:39 2006)
+Command: (Finished) [    0] Belasrad in [  700] `8Entrance to the Goblin Wood``: sc (Thu Sep 21 17:46:32 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Thu Sep 21 19:21:53 2006)
+Command: (Finished) [    0] Belasrad in [  710] `8Light vegitation``: goto 710 (Thu Sep 21 19:21:51 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 18:47:52 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 19:22:01 2006)
+Loop: (Finished) aggr (Thu Sep 21 19:35:33 2006)
+Command: (Finished) [    0] Belasrad in [  731] `8The trails end``: l (Thu Sep 21 19:34:49 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 18:47:52 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 19:22:01 2006)
+Loop: (Finished) aggr (Thu Sep 21 19:47:50 2006)
+Command: (Finished) [    0] Raki in [  599] `8A temporary armory``: edit obj create 508 (Thu Sep 21 19:46:20 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 18:47:52 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 19:22:01 2006)
+Loop: (Finished) aggr (Thu Sep 21 19:51:59 2006)
+Command: (Finished) [    0] Raki in [  599] `8A temporary armory``: imm whenever, no rush (Thu Sep 21 19:51:35 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 18:47:52 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 19:22:01 2006)
+Loop: (Finished) aggr (Thu Sep 21 19:54:52 2006)
+Command: (Finished) [    0] Raki in [  599] `8A temporary armory``: reset 10 delete (Thu Sep 21 19:54:50 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 18:47:52 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 19:22:01 2006)
+Loop: (Finished) aggr (Thu Sep 21 21:39:20 2006)
+Command: (Finished) [    0] Belasrad in [  722] `2The Goblin Wood``: who (Thu Sep 21 21:35:07 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 18:47:52 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 19:22:01 2006)
+Loop: (Finished) aggr (Thu Sep 21 21:54:18 2006)
+Command: (Finished) [  600] The Roulette Man in [  659] : say Dare to try your luck at my roulette table? (Thu Sep 21 21:53:55 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 18:47:52 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 19:22:01 2006)
+Loop: (Finished) aggr (Thu Sep 21 21:56:00 2006)
+Command: (Finished) [  600] The Roulette Man in [  659] : say Dare to try your luck at my roulette table? (Thu Sep 21 21:55:55 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 18:47:52 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 19:22:01 2006)
+Loop: (Finished) aggr (Thu Sep 21 21:56:54 2006)
+Command: (Finished) [    0] Brinson in [  627] `7Elyeo Street ``: wiznet sites (Thu Sep 21 21:56:53 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 18:47:52 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 19:22:01 2006)
+Loop: (Finished) aggr (Thu Sep 21 21:58:09 2006)
+Command: (Finished) [  600] The Roulette Man in [  659] : say Dare to try your luck at my roulette table? (Thu Sep 21 21:58:01 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 18:47:52 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 19:22:01 2006)
+Loop: (Finished) aggr (Thu Sep 21 22:18:28 2006)
+Command: (Finished) [    0] Raki in [  599] `8A temporary armory``: who (Thu Sep 21 22:17:14 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 18:47:52 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 19:22:01 2006)
+Loop: (Finished) aggr (Thu Sep 21 22:18:33 2006)
+Command: (Finished) [    0] Raki in [  599] `8A temporary armory``: who (Thu Sep 21 22:17:14 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 18:47:52 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 19:22:01 2006)
+Loop: (Finished) aggr (Thu Sep 21 22:27:05 2006)
+Command: (Finished) [  600] The Roulette Man in [  659] : say Dare to try your luck at my roulette table? (Thu Sep 21 22:26:43 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 18:47:52 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 19:22:01 2006)
+Loop: (Finished) aggr (Thu Sep 21 22:27:32 2006)
+Command: (Finished) [    0] Akara in [ 7700] `8Entrance to the Academy``: who (Thu Sep 21 22:27:30 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 18:47:52 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Thu Sep 21 19:22:01 2006)
+Loop: (Finished) aggr (Thu Sep 21 22:32:01 2006)
+Command: (Finished) [    0] Akara in [ 7700] `8Entrance to the Academy``: set char akara counter 100 (Thu Sep 21 22:31:57 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Thu Sep 21 18:47:52 2006)
+=========================================================================
+
+Loop: (Finished) aggr (Fri Sep 22 00:47:15 2006)
+Command: (Finished) [  600] The Roulette Man in [  659] : say Dare to try your luck at my roulette table? (Fri Sep 22 00:46:41 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Fri Sep 22 00:55:37 2006)
+Command: (Finished) [    0] Raki in [  599] `8A temporary armory``: wiz (Fri Sep 22 00:53:54 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Fri Sep 22 03:48:02 2006)
+Command: (Finished) [    0] Brinson in [    0] (not in a room): quit (Fri Sep 22 01:08:02 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Fri Sep 22 11:55:44 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Fri Sep 22 11:59:37 2006)
+Command: (Finished) [    0] Raki in [  599] `8A temporary armory``: eq (Fri Sep 22 11:57:57 2006)
+
+=========================================================================
+
+Loop: (Finished) aggr (Fri Sep 22 12:16:45 2006)
+Command: (Finished) [    0] Raki in [  599] `8A temporary armory``: purge (Fri Sep 22 12:16:36 2006)
+
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Fri Sep 22 12:16:49 2006)
+Loop: (Finished) aggr (Fri Sep 22 13:02:31 2006)
+Command: (Finished) [    0] Raki in [    0] (not in a room): quit (Fri Sep 22 12:51:02 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Fri Sep 22 12:34:07 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Fri Sep 22 12:16:49 2006)
+Loop: (Finished) aggr (Fri Sep 22 13:48:48 2006)
+Command: (Finished) [    0] Raki in [  533] `2Midst of a treant forrest!``: l (Fri Sep 22 13:48:33 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Fri Sep 22 12:34:07 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Fri Sep 22 12:16:49 2006)
+Loop: (Finished) aggr (Fri Sep 22 13:59:21 2006)
+Command: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: restore self (Fri Sep 22 13:58:59 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Fri Sep 22 13:58:59 2006)
+=========================================================================
+Malloc: (Finished) calloc alloc_perm (Fri Sep 22 12:16:49 2006)
+Loop: (Finished) aggr (Fri Sep 22 16:20:57 2006)
+Command: (Finished) [  600] The Roulette Man in [  659] : say Dare to try your luck at my roulette table? (Fri Sep 22 16:20:40 2006)
+Mobprog: (Finished) [   81] the Grim Reaper in [   81] `8Slow, painful death``: (Fri Sep 22 14:05:52 2006)
+=========================================================================
+
+Loop: (Finished) aggr (Fri Sep 22 17:38:34 2006)
+
+
+=========================================================================
+
+Loop: (Finished) aggr (Fri Sep 22 17:40:06 2006)
+Command: (Finished) [    0] Brinson in [    0] (not in a room): quit (Fri Sep 22 17:40:03 2006)

@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -68,7 +68,7 @@ struct olc_help_type
 
 #define MAX_PROJ_DAM 64
 int rounds_per_projectile( int projectile ){
-  
+
   switch( projectile ){
   case PROJECTILE_ARROW:	return 2;
   case PROJECTILE_BOLT:		return 1;
@@ -92,7 +92,7 @@ bool show_version( CHAR_DATA *ch, char *argument )
     send_to_char( CREDITS, ch );
     send_to_char( "\n\r", ch );
     return FALSE;
-}    
+}
 
 /* This table contains help commands and a brief description of each. */
 const struct olc_help_type help_table[] =
@@ -123,7 +123,7 @@ const struct olc_help_type help_table[] =
     {	"off",		off_flags,	 "Mobile offensive behaviour."	 },
     {	"size",		size_flags,	 "Mobile size."			 },
     {   "position",     position_flags,  "Mobile positions."             },
-    {   "wclass",       weapon_class,    "Weapon class."                 }, 
+    {   "wclass",       weapon_class,    "Weapon class."                 },
     {   "wtype",        weapon_type2,    "Special weapon type."          },
     {   "ammo",         projectile_type, "Ammo type."			 },
     {   "range_type",   ranged_type,	 "Special ranged flags."	 },
@@ -338,11 +338,11 @@ REDIT( redit_rlist )
     found   = FALSE;
     for ( vnum = pArea->min_vnum; vnum <= pArea->max_vnum; vnum++ )
       if ( ( pRoomIndex = get_room_index( vnum ) ) ){
-	if (fRprog 
+	if (fRprog
 	    && (pRoomIndex->rprogs == NULL || pRoomIndex->rprogs->vnum == 0) )
 	  continue;
 	found = TRUE;
-	sprintf( buf, "[%5d] <%d> %-17.16s``", vnum, 
+	sprintf( buf, "[%5d] <%d> %-17.16s``", vnum,
 		 pRoomIndex->rprogs ? pRoomIndex->rprogs->vnum : 0,
 		 capitalize( pRoomIndex->name ) );
 	add_buf( buf1, buf );
@@ -386,7 +386,7 @@ REDIT( redit_mlist )
     for ( vnum = pArea->min_vnum; vnum <= pArea->max_vnum; vnum++ )
       if ( ( pMobIndex = get_mob_index( vnum ) ) != NULL ){
 	if (fProg ){
-	  if (pMobIndex->mprogs == NULL 
+	  if (pMobIndex->mprogs == NULL
 	      || pMobIndex->mprogs->vnum == 0)
 	    continue;
 	}
@@ -394,7 +394,7 @@ REDIT( redit_mlist )
 	  continue;
 
 	found = TRUE;
-	sprintf( buf, "[%5d] <%d> %-17.16s", pMobIndex->vnum, 
+	sprintf( buf, "[%5d] <%d> %-17.16s", pMobIndex->vnum,
 		 pMobIndex->mprogs ? pMobIndex->mprogs->vnum : 0,
 		 capitalize( pMobIndex->short_descr ) );
 	add_buf( buf1, buf );
@@ -441,12 +441,12 @@ REDIT( redit_olist )
 	      || pObjIndex->oprogs->vnum == 0 )
 	    continue;
 	}
-	else if ( !fAll 
-		  && !is_name( arg, pObjIndex->name ) 
+	else if ( !fAll
+		  && !is_name( arg, pObjIndex->name )
 		  && flag_value( type_flags, arg ) != pObjIndex->item_type )
 	  continue;
 	found = TRUE;
-	sprintf( buf, "[%5d] <%d> %-17.16s``", pObjIndex->vnum, 
+	sprintf( buf, "[%5d] <%d> %-17.16s``", pObjIndex->vnum,
 		 pObjIndex->oprogs ? pObjIndex->oprogs->vnum : 0,
 		 capitalize( pObjIndex->short_descr ) );
 	add_buf( buf1, buf );
@@ -491,7 +491,7 @@ REDIT( redit_mshow )
     }
     medit_show( ch, argument );
     ch->desc->pEdit = (void *)ch->in_room;
-    return FALSE; 
+    return FALSE;
 }
 
 REDIT( redit_oshow )
@@ -520,7 +520,7 @@ REDIT( redit_oshow )
     }
     oedit_show( ch, argument );
     ch->desc->pEdit = (void *)ch->in_room;
-    return FALSE; 
+    return FALSE;
 }
 
 /* Ensures the range spans only one area. *
@@ -1039,7 +1039,7 @@ REDIT( redit_show )
     strcat( buf1, buf );
     tmp_list = pRoom->watch_vnums;
     while (tmp_list != NULL) {
-      sprintf( buf, " %d", (int) tmp_list->cur_entry);
+      sprintf( buf, " %lld", (long long) tmp_list->cur_entry);
       strcat( buf1, buf );
       tmp_list = tmp_list->next_node;
     }
@@ -1158,12 +1158,12 @@ REDIT( redit_show )
 	      TRAP_DATA* pTrap = pexit->traps;
 	      while(pTrap){
 		sprintf(buf, "Trap [%d]: %s%s%s %s, type: %s, lvl: %d, dur: %d, %s\n\r",
-			pTrap->vnum, 
+			pTrap->vnum,
 			pTrap->owner ? "(" : "",
 			pTrap->owner ? pTrap->owner->name : "",
 			pTrap->owner ? ")" : "",
 			pTrap->name, trap_table[pTrap->type].name,
-			pTrap->level, 
+			pTrap->level,
 			pTrap->duration, pTrap->armed ? "ARMED" :  "disarmed");
 		strcat(buf1, buf);
 		pTrap = pTrap->next_trap;
@@ -1684,7 +1684,7 @@ REDIT( redit_heal )
     }
     send_to_char ( "Syntax : heal <#xnumber>\n\r", ch);
     return FALSE;
-}       
+}
 
 REDIT( redit_mana )
 {
@@ -1698,7 +1698,7 @@ REDIT( redit_mana )
     }
     send_to_char ( "Syntax : mana <#xnumber>\n\r", ch);
     return FALSE;
-}       
+}
 
 REDIT( redit_watch )
 {
@@ -1732,7 +1732,7 @@ REDIT( redit_watch )
 
       tmp_list = pRoom->watch_vnums;
       while (tmp_list != NULL) {
-	if ( new_vnum == (int) tmp_list->cur_entry) {
+	if ( new_vnum == (long long) tmp_list->cur_entry) {
 	  if (tmp_list->prev_node == NULL) {
 	    tmp_list2 = pRoom->watch_vnums;
 	    pRoom->watch_vnums = tmp_list->next_node;
@@ -1766,7 +1766,7 @@ REDIT( redit_watch )
     }
     send_to_char ( "Toggles watched by room # on/off\n\rSyntax : watch <#xnumber>\n\r", ch);
     return FALSE;
-}       
+}
 
 REDIT( redit_temp )
 {
@@ -1780,7 +1780,7 @@ REDIT( redit_temp )
     }
     send_to_char ( "Syntax : temp <#xnumber>\n\r", ch);
     return FALSE;
-}       
+}
 
 REDIT( redit_cabal )
 {
@@ -1799,7 +1799,7 @@ REDIT( redit_cabal )
       return TRUE;
     }
 }
-      
+
 REDIT( redit_format )
 {
     ROOM_INDEX_DATA *pRoom;
@@ -1864,10 +1864,10 @@ REDIT( redit_treset ){
   char			arg [MIL];
   char			arg2[MIL];
   char			buf[MIL];
-  int			type = 0; 
+  int			type = 0;
   int			exit = 0;
   EDIT_ROOM(ch, pRoom);
- 
+
   argument = one_argument( argument, arg );
   argument = one_argument( argument, arg2 );
 
@@ -1882,7 +1882,7 @@ REDIT( redit_treset ){
     return FALSE;
   }
 /* area check */
-  if ( (ed = get_vnum_area(pTrap->vnum)) == NULL 
+  if ( (ed = get_vnum_area(pTrap->vnum)) == NULL
        || (ed != pRoom->area && get_trust(ch) < IMPLEMENTOR)){
     send_to_char( "REdit: No such trap in this area.\n\r", ch );
     return FALSE;
@@ -1890,7 +1890,7 @@ REDIT( redit_treset ){
 /* target check */
   if (!str_cmp("obj", arg2)){
     type = TRAP_ON_OBJ;
-    if ( IS_NULLSTR(argument) 
+    if ( IS_NULLSTR(argument)
 	 || (pObj = get_obj_list(ch, argument, pRoom->contents)) == NULL){
       send_to_char("Trap onto what object?\n\r", ch);
       return FALSE;
@@ -2167,8 +2167,8 @@ void show_trap_values( CHAR_DATA* ch, TRAP_INDEX_DATA* trap){
 	     "[v1] Base Damage:     [%d]\n\r"
 	     "[v2] Dice Number:     [%d] Avg [%d]\n\r"
 	     "[v3] Dice Type:       [%d]\n\r",
-	     attack_table[trap->value[0]].name, 
-	     trap->value[1], 
+	     attack_table[trap->value[0]].name,
+	     trap->value[1],
 	     trap->value[2],
 	     trap->value[1] + (1 + trap->value[3]) * (trap->value[2] / 2),
 	     trap->value[3]);
@@ -2181,8 +2181,8 @@ void show_trap_values( CHAR_DATA* ch, TRAP_INDEX_DATA* trap){
 	     "[v2] Dice Number:     [%d] Avg [%d]\n\r"
 	     "[v3] Dice Type:       [%d]\n\r"
 	     "[v4] Dam Type:        [%s]\n\r",
-	     get_vir_attack(trap->value[0]), 
-	     trap->value[1], 
+	     get_vir_attack(trap->value[0]),
+	     trap->value[1],
 	     trap->value[2],
 	     trap->value[1] + (1 + trap->value[3]) * (trap->value[2] / 2),
 	     trap->value[3],
@@ -2197,7 +2197,7 @@ void show_trap_values( CHAR_DATA* ch, TRAP_INDEX_DATA* trap){
 	     "[v3] Lvl. modifier:   [%d]\n\r"
 	     "[v4] Dam Type:        [%s]\n\r",
 	     trap->value[0] < 1 ? "none" : skill_table[trap->value[0]].name,
-	     trap->value[1], 
+	     trap->value[1],
 	     trap->value[2] < 1 ? "none" : skill_table[trap->value[2]].name,
 	     trap->value[3],
 	     damtype_table[trap->value[4]].name);
@@ -2210,9 +2210,9 @@ void show_trap_values( CHAR_DATA* ch, TRAP_INDEX_DATA* trap){
 	     "[v2] Second Mob:      [%d]\n\r"
 	     "[v3] %%Hp. modifier:  [%d]\n\r"
 	     "[v4] Duration:        [%d]\n\r",
-	     trap->value[0], 
-	     trap->value[1], 
-	     trap->value[2], 
+	     trap->value[0],
+	     trap->value[1],
+	     trap->value[2],
 	     trap->value[3],
 	     trap->value[4]);
     send_to_char( buf, ch );
@@ -2224,9 +2224,9 @@ void show_trap_values( CHAR_DATA* ch, TRAP_INDEX_DATA* trap){
 	     "[v2] Third Room :      [%d]\n\r"
 	     "[v3] Fourth Room:      [%d]\n\r"
 	     "[v4] Delay Only?:      [%s]\n\r",
-	     trap->value[0], 
-	     trap->value[1], 
-	     trap->value[2], 
+	     trap->value[0],
+	     trap->value[1],
+	     trap->value[2],
 	     trap->value[3],
 	     trap->value[4] == 0 ? "N" : "Y");
     send_to_char( buf, ch );
@@ -2267,7 +2267,7 @@ void show_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *obj )
           "[v1] Number of dice: [%d]\n\r"
           "[v2] Type of dice:   [%d]\n\r"
           "[v3] Type:           %s\n\r"
-          "[v4] Special type:   %s\n\r", 
+          "[v4] Special type:   %s\n\r",
           obj->value[0], obj->value[1], obj->value[2],attack_table[obj->value[3]].name, flag_string( weapon_type2,obj->value[4]) );
         send_to_char( buf, ch );
         break;
@@ -2380,20 +2380,20 @@ void show_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *obj )
       break;
     case ITEM_RANGED:
         sprintf( buf, "[v0] Ammo Type:   [%s]\n\r", flag_string(projectile_type, obj->value[0] ) );
-        send_to_char( buf, ch ); 
+        send_to_char( buf, ch );
 	sprintf( buf, "[v1] Accuracy:    [%d]\n\r", obj->value[1]);
-        send_to_char( buf, ch ); 
+        send_to_char( buf, ch );
 	sprintf( buf, "[v2] Shots/Max: [%d/%d]\n\r", obj->value[2], obj->value[3] < 1 ? rounds_per_projectile( obj->value[0]) : 999);
-        send_to_char( buf, ch ); 
+        send_to_char( buf, ch );
 	sprintf( buf, "[v3] Ammo (Vnum): ");
-        send_to_char( buf, ch ); 
+        send_to_char( buf, ch );
 	if (obj->value[3] > 0){
 	  sprintf( buf, "[%d]\n\r", obj->value[3]);
 	}
 	else{
 	  sprintf( buf, "Any\n\r");
 	}
-        send_to_char( buf, ch ); 
+        send_to_char( buf, ch );
 	sprintf( buf, "[v4] Flags:       [%s]\n\r", flag_string(ranged_type, obj->value[4] ) );
         send_to_char( buf, ch );
         break;
@@ -2406,9 +2406,9 @@ void show_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *obj )
         sprintf( buf, "[v2] Type of dice:   [%d]       Avg [%d]\n\r",obj->value[2], (1+obj->value[2])*obj->value[1]/2);
         send_to_char( buf, ch );
         sprintf( buf, "[v3] Type:           %s\n\r", attack_table [obj->value[3]].name );
-        send_to_char( buf, ch );  
+        send_to_char( buf, ch );
         sprintf( buf, "[v4] Special Type:   %s\n\r", flag_string( proj_spec_type, obj->value[4] ) );
-        send_to_char( buf, ch );    
+        send_to_char( buf, ch );
 	break;
     }
     return;
@@ -2461,12 +2461,12 @@ bool set_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *pObj, int value_num, char *a
       switch ( value_num ){
       default:
 	do_help( ch, "ITEM_SOCKET" );
-	return FALSE;       
+	return FALSE;
       case 0:
 	send_to_char( "SOCKET FLAG TOGGLED.\n\r\n\r", ch );
 	pObj->value[0] ^= (flag_value( socket_flags, argument ) != NO_FLAG
 			   ? flag_value( socket_flags, argument ) : 0 );
-	break; 
+	break;
       case 1:
 	send_to_char( "EXTRA FLAG TOGGLED.\n\r\n\r", ch );
 	pObj->value[1] ^= (flag_value( extra_flags, argument ) != NO_FLAG
@@ -2480,7 +2480,7 @@ bool set_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *pObj, int value_num, char *a
 	send_to_char( "WEAPON FLAG TOGGLED.\n\r\n\r", ch );
 	pObj->value[4] ^= (flag_value( weapon_type2, argument ) != NO_FLAG
 			   ? flag_value( weapon_type2, argument ) : 0 );
-	break; 
+	break;
       }
       break;
     case ITEM_SCROLL:
@@ -2622,7 +2622,7 @@ bool set_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *pObj, int value_num, char *a
             send_to_char( "SPECIAL WEAPON TYPE TOGGLED.\n\r\n\r", ch );
             pObj->value[4] ^= (flag_value( weapon_type2, argument ) != NO_FLAG
               ? flag_value( weapon_type2, argument ) : 0 );
-            break;      
+            break;
         }
         break;
     case ITEM_CONTAINER:
@@ -2778,7 +2778,7 @@ bool set_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *pObj, int value_num, char *a
       case 0:
 	send_to_char( "AMMO TYPE SET.\n\r\n\r", ch );
         pObj->value[0] ^= (flag_value( projectile_type, argument ) != NO_FLAG
-			   ? flag_value( projectile_type, argument ) : 0 ); 
+			   ? flag_value( projectile_type, argument ) : 0 );
 	if (pObj->value[3] < 1 && pObj->value[2] > rounds_per_projectile(pObj->value[0])){
 	  send_to_char("SHOTS PER ROUND LIMITED BY AMMO TYPE\n\r", ch);
 	  pObj->value[2] = rounds_per_projectile(pObj->value[0]);
@@ -2803,7 +2803,7 @@ bool set_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *pObj, int value_num, char *a
       case 4:
 	send_to_char( "RANGED FLAG SET.\n\r\n\r", ch );
         pObj->value[4] ^= (flag_value( ranged_type, argument ) != NO_FLAG
-              ? flag_value( ranged_type, argument ) : 0 ); 
+              ? flag_value( ranged_type, argument ) : 0 );
 	break;
       }
       break;
@@ -2817,7 +2817,7 @@ bool set_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *pObj, int value_num, char *a
         case 0:
 	  send_to_char( "AMMO TYPE SET.\n\r\n\r", ch );
 	  pObj->value[0] = (flag_value( projectile_type, argument ) != NO_FLAG
-			    ? flag_value( projectile_type, argument ) : 0 );  
+			    ? flag_value( projectile_type, argument ) : 0 );
 	  if (pObj->value[1] * pObj->value[2] > MAX_PROJ_DAM / rounds_per_projectile(pObj->value[0])){
 	    sendf( ch, "This projectile type can only have max damage of %d.", MAX_PROJ_DAM / rounds_per_projectile(pObj->value[0]));
 	    pObj->value[1] = (MAX_PROJ_DAM / rounds_per_projectile(pObj->value[0])) / pObj->value[2];
@@ -2840,14 +2840,14 @@ bool set_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *pObj, int value_num, char *a
 	  pObj->value[2] = atoi( argument );
 	  break;
         case 3:
-	  send_to_char( "WEAPON TYPE SET.\n\r\n\r", ch ); 
+	  send_to_char( "WEAPON TYPE SET.\n\r\n\r", ch );
 	  pObj->value[3] = attack_lookup( argument );
 	  break;
         case 4:
 	  send_to_char( "SPECIAL TYPE SET.\n\r\n\r", ch );
 	  pObj->value[4] ^= (flag_value( proj_spec_type, argument ) !=NO_FLAG
 			     ? flag_value( proj_spec_type, argument ) : 0 );
-	  break;     
+	  break;
         }
       break;
     }
@@ -2934,7 +2934,7 @@ CEDIT(cedit_create)
   CABAL_INDEX_DATA *pCab;
   AREA_DATA* pArea;
   int value = top_cabal_index + 1;
-  int i = 0; 
+  int i = 0;
 
   if ( get_cabal_index(value) ){
     send_to_char("CEdit: Code vnum already exists.\n\r",ch);
@@ -2968,7 +2968,7 @@ CEDIT(cedit_create)
 
   pCab->min_lvl		= 20;
   pCab->max_lvl		= 50;
-  
+
   pCab->max_member	= 25;
   pCab->max_room	= 50;
 
@@ -3012,7 +3012,7 @@ CEDIT( cedit_show ){
 
   pParent = get_cabal_index( pCab->parent_vnum );
 
-  sprintf( string_buf, flag_string( cabal_flags, pCab->flags ));
+  sprintf( string_buf, "%s", flag_string( cabal_flags, pCab->flags ));
   sprintf( buf, "Vnum:    [%-5d] (V.%d) Parent: [%-10s] Clan: [%-10s]\n\r"\
 	        "Name:    [%-15s]     WhoName :    [%-15s]  File: %s.cab\n\r"\
 		"Imm :    [%-15s]     Currency:    [%-15s]\n\r"\
@@ -3020,43 +3020,43 @@ CEDIT( cedit_show ){
 	        "MaxRoom: [%-5d] Enemy [%-15s]\n\r"\
 	        "Guard:   [%-5d] Pit [%-5d] Army[%-5d] Army2[%-5d] Tower[%-5d] Tower2[%-5d]\n\r"\
 	        "Flags:   [%-15s]\n\r",
-	   pCab->vnum, 
-	   pCab->version, 
-	   pParent ? pParent->name : "None", 
+	   pCab->vnum,
+	   pCab->version,
+	   pParent ? pParent->name : "None",
 	   pCab->clan ? pCab->clan : "None",
-	   pCab->name, 
-	   pCab->who_name, 
+	   pCab->name,
+	   pCab->who_name,
 	   pCab->file_name,
-	   pCab->immortal, 
+	   pCab->immortal,
 	   pCab->currency,
-	   pCab->city_name, 
+	   pCab->city_name,
 	   pCab->anchor_vnum,
-	   pCab->max_room, 
+	   pCab->max_room,
 	   IS_NULLSTR(pCab->enemy_name) ? "none" : pCab->enemy_name,
-	   pCab->guard_vnum, 
-	   pCab->pit_vnum, 
-	   pCab->army, pCab->army_upgrade, 
+	   pCab->guard_vnum,
+	   pCab->pit_vnum,
+	   pCab->army, pCab->army_upgrade,
 	   pCab->tower, pCab->tower_upgrade,
 	   string_buf );
   send_to_char( buf, ch );
-  sprintf( string_buf, flag_string( cabal_flags2, pCab->flags2 ));
+  sprintf( string_buf, "%s", flag_string( cabal_flags2, pCab->flags2 ));
   sprintf( buf, "Flags2:  [%-15s]\n\r", string_buf);
   send_to_char( buf, ch );
 
-  sendf( ch, "Prefix:  [%-10s] [%-10s] [%10s]\n\r", 
+  sendf( ch, "Prefix:  [%-10s] [%-10s] [%10s]\n\r",
 	 IS_NULLSTR(pCab->mprefix) ? "none" : pCab->mprefix,
 	 IS_NULLSTR(pCab->fprefix) ? "none" : pCab->fprefix,
 	 IS_NULLSTR(pCab->sprefix) ? "none" : pCab->sprefix);
-  
+
   if (pParent == NULL)
-    sendf( ch, "OnGate:  %s\n\rOffGate: %s\n\rMsgGate: %s\n\r\n\r", 
-	   pCab->gate_on, 
-	   pCab->gate_off, 
+    sendf( ch, "OnGate:  %s\n\rOffGate: %s\n\rMsgGate: %s\n\r\n\r",
+	   pCab->gate_on,
+	   pCab->gate_off,
 	   pCab->gate_msg );
 
   sprintf( buf,	"Level: [%d to %d] with Members: [%d]\n\r",
-	   pCab->min_lvl, 
-	   pCab->max_lvl, 
+	   pCab->min_lvl,
+	   pCab->max_lvl,
 	   pCab->max_member);
 
   send_to_char( buf, ch );
@@ -3066,7 +3066,7 @@ CEDIT( cedit_show ){
   }
   sendf( ch, "Progress requirements: %s\n\r", flag_string(cabal_progress_flags, pCab->progress));
 
-  sprintf( buf, "Align:    [%s%s%s]    Ethos:    [%s%s%s]\n\r", 
+  sprintf( buf, "Align:    [%s%s%s]    Ethos:    [%s%s%s]\n\r",
 	   IS_SET(pCab->align, ALIGN_GOOD) ? "G" : " ",
 	   IS_SET(pCab->align, ALIGN_NEUTRAL) ? "N" : " ",
 	   IS_SET(pCab->align, ALIGN_EVIL) ? "E" : " ",
@@ -3719,7 +3719,7 @@ HEDIT(hedit_create)
 {
   HELP_DATA *pHelp;
   int value = top_help + 1;
- 
+
 
   if ( get_help_index(value) ){
     send_to_char("HEdit: Code vnum already exists.\n\r",ch);
@@ -3800,7 +3800,7 @@ CEDIT( cedit_race ){
   CABAL_INDEX_DATA *pCab;
   int race = 0;
   EDIT_CABAL(ch, pCab);
-  
+
   if ( IS_NULLSTR(argument) ){
     send_to_char("Toggle what race?\n\r", ch);
     return FALSE;
@@ -3828,7 +3828,7 @@ CEDIT( cedit_class ){
   CABAL_INDEX_DATA *pCab;
   int class = 0;
   EDIT_CABAL(ch, pCab);
-  
+
   if ( IS_NULLSTR(argument) ){
     send_to_char("Toggle what class?\n\r", ch);
     return FALSE;
@@ -3882,8 +3882,8 @@ CEDIT( cedit_skill ){
 	send_to_char( "Number     Name       Level   Ranks   Skill   Rate   MinCp   Cost   Flags\n\r", ch );
 	send_to_char( "------ ------------- ------- ------- ------- ------ ------- ------ --------\n\r", ch );
       }
-      sprintf( buf, "[%4d] %-15s %-6d %d-%-6d %-8d %-6d %-6d %-6d %-15s\n\r", 
-	       cnt, 
+      sprintf( buf, "[%4d] %-15s %-6d %d-%-6d %-8d %-6d %-6d %-6d %-15s\n\r",
+	       cnt,
 	       skill_table[cSkill->pSkill->sn].name,
 	       cSkill->pSkill->level,
 	       cSkill->min_rank, cSkill->max_rank,
@@ -3951,7 +3951,7 @@ CEDIT( cedit_skill ){
     cSkill = cSkill->next;
     i++;
   }
-      
+
   if (cSkill == NULL){
     sendf(ch, "Skill #%d not found.\n\r", val);
     return FALSE;
@@ -4083,8 +4083,8 @@ CEDIT( cedit_vote ){
       send_to_char( "Number     Name                 Ranks   Cost   Dur (days)\n\r", ch );
       send_to_char( "------ ----------------------- ------- ------- ----------\n\r", ch );
       }
-      sprintf( buf, "[%4d] %-25s %d-%-6d %-8d %-6d\n\r", 
-	       cnt, 
+      sprintf( buf, "[%4d] %-25s %d-%-6d %-8d %-6d\n\r",
+	       cnt,
 	       vote_table[cVote->vote].name,
 	       cVote->min, cVote->max,
 	     cVote->cost,
@@ -4108,7 +4108,7 @@ CEDIT( cedit_vote ){
       cVote->min		= RANK_NEWBIE;
       cVote->max		= RANK_LEADER;
       cVote->cost		= 10;
-      
+
       if (pCab->votes == NULL)
 	pCab->votes = cVote;
       else{
@@ -4128,7 +4128,7 @@ CEDIT( cedit_vote ){
   }
   /* check rest of the options */
   argument = one_argument(argument, arg2);
-  
+
   /* from now on we always need a pointer to the skill we are working on */
   cVote = pCab->votes;
   cPrev = NULL;
@@ -4146,12 +4146,12 @@ CEDIT( cedit_vote ){
     cVote = cVote->next;
     i++;
   }
-  
+
   if (cVote == NULL){
     sendf(ch, "Vote #%d not found.\n\r", val);
     return FALSE;
   }
-  
+
 
   if (!str_prefix(arg2, "del")){
     /* unlink the pointers */
@@ -4162,10 +4162,10 @@ CEDIT( cedit_vote ){
       cPrev->next = cVote->next;
       cVote->next = NULL;
     }
-    
+
     /* free the data */
     free( cVote );
-    
+
     send_to_char("Vote deleted.\n\r", ch);
     return TRUE;
   }
@@ -4241,7 +4241,7 @@ CEDIT( cedit_room ){
     for ( level = 0; level < CROOM_LEVELS; level++ ){
       cRoom = pCab->crooms[level];
       sprintf( buf, " %2d   %5d %-12.12s %s\n\r",
-	       level, 
+	       level,
 	       cRoom ? cRoom->pRoomIndex->vnum : 0,
 	       croom_table[level].name,
 	       cRoom ? cRoom->pRoomIndex->name : "none");
@@ -4261,19 +4261,19 @@ CEDIT( cedit_room ){
       send_to_char("That level already has a room attached.\n\r", ch );
       return FALSE;
     }
-    else if ( (vnum = atoi( argument )) < 1 
+    else if ( (vnum = atoi( argument )) < 1
 	      || (pRoom = get_room_index(vnum)) == NULL
 	      || IS_VIRROOM(pRoom)){
       send_to_char("No such room vnum.\n\r", ch);
       return FALSE;
     }
-    pCab->crooms[val] = new_croom();    
+    pCab->crooms[val] = new_croom();
     pCab->crooms[val]->pRoomIndex = pRoom;
     pCab->crooms[val]->level = val;
 
     send_to_char("Room added.\n\r", ch);
     return TRUE;
-  }  
+  }
   else if (!str_prefix(arg2, "del")){
     if ( (cRoom = pCab->crooms[val]) == NULL){
       send_to_char("That level has no room attached.\n\r", ch );
@@ -4290,7 +4290,7 @@ CEDIT( cedit_room ){
       send_to_char("That level has no room attached.\n\r", ch );
       return FALSE;
     }
-    else if ( (vnum = atoi( argument )) < 1 
+    else if ( (vnum = atoi( argument )) < 1
 	      || (pRoom = get_room_index(vnum)) == NULL
 	      || IS_VIRROOM(pRoom)){
       send_to_char("No such room vnum.\n\r", ch);
@@ -4324,7 +4324,7 @@ CEDIT( cedit_parent ){
   EDIT_CABAL(ch, pCab);
 
   pPar = get_cabal_index( atoi(argument) );
-  
+
   if (!str_cmp("none", argument)){
     pCab->parent_vnum = 0;
     send_to_char("Parent cleared.\n\r", ch);
@@ -4342,7 +4342,7 @@ CEDIT( cedit_parent ){
     if (!IS_NULLSTR( pCab->currency))
       free_string( pCab->currency );
     pCab->currency = str_dup( pPar->currency );
-    
+
     pCab->max_member = pPar->max_member;
 
     for (i = 0; i < MAX_PC_RACE; i++){
@@ -4359,8 +4359,8 @@ CEDIT( cedit_parent ){
   return TRUE;
 }
 
-    
-    
+
+
 
 
 HEDIT( hedit_show ){
@@ -4375,7 +4375,7 @@ HEDIT( hedit_show ){
 /* rest of the info */
   sprintf( buf, "\n\rVnum:    [%-5d]\n\r"\
 	        "Keyword: [%-10s]\n\r",
-	   pHelp->vnum, 
+	   pHelp->vnum,
 	   pHelp->keyword);
   send_to_char( buf, ch );
 
@@ -4711,7 +4711,7 @@ TEDIT (tedit_create)
   TRAP_INDEX_DATA *pTrap;
   int value = atoi(argument);
   AREA_DATA *ad;
- 
+
   if (IS_NULLSTR(argument) || value < 1){
     send_to_char( "Syntax : tedit create [vnum]\n\r", ch );
     return FALSE;
@@ -4723,7 +4723,7 @@ TEDIT (tedit_create)
     send_to_char( "TEdit : Vnum is not assigned an area.\n\r", ch );
     return FALSE;
   }
-    
+
   if ( !IS_BUILDER(ch, ad) ){
     send_to_char("TEdit : Insufficient security to create MobProgs.\n\r", ch);
     return FALSE;
@@ -4761,7 +4761,7 @@ TEDIT( tedit_show ){
 	        "Type:  [%s]\n\r"\
 	        "Echo:  %s\n\r"\
 	        "oEcho:  %s\n\r",
-	   pTrap->vnum, 
+	   pTrap->vnum,
 	   pTrap->name,
 	   trap_table[pTrap->type].name,
 	   pTrap->echo,
@@ -4769,7 +4769,7 @@ TEDIT( tedit_show ){
   send_to_char( buf, ch );
   sprintf( buf, "Level: [%-5d]\n\r", pTrap->level );
   send_to_char( buf, ch );
-  sprintf( buf, "Flags: [%s]\n\r\n\r", 
+  sprintf( buf, "Flags: [%s]\n\r\n\r",
 	   flag_string( trap_flags, pTrap->flags ) );
   send_to_char( buf, ch );
   show_trap_values(ch, pTrap);
@@ -4947,10 +4947,10 @@ OEDIT( oedit_show )
     send_to_char( buf, ch );
     sprintf( buf, "Level:       [%5d]\n\r", pObj->level );
     send_to_char( buf, ch );
-    sprintf( buf, "Cabal Only:  [%5s]\n\r", 
+    sprintf( buf, "Cabal Only:  [%5s]\n\r",
 	     pObj->pCabal? pObj->pCabal->name : "None");
     send_to_char( buf, ch );
-    sprintf( buf, "Class Only:  [%5s]   Race Only:  [%5s]\n\r", 
+    sprintf( buf, "Class Only:  [%5s]   Race Only:  [%5s]\n\r",
 	     pObj->class >= 0 ? class_table[pObj->class].name : "None",
 	     pObj->race? race_table[pObj->race].name : "None");
     send_to_char( buf, ch );
@@ -4959,8 +4959,8 @@ OEDIT( oedit_show )
     sprintf( buf, "Extra flags: [%s]\n\r", flag_string( extra_flags, pObj->extra_flags ) );
     send_to_char( buf, ch );
     sprintf( buf, "Material:    [%s]\n\r", pObj->material );
-    send_to_char( buf, ch ); 
-    sprintf( buf, "Weight:      [%5d]\n\rCost:        [%5d]\n\r%s:       [%5d]\n\r", pObj->weight, pObj->cost, 
+    send_to_char( buf, ch );
+    sprintf( buf, "Weight:      [%5d]\n\rCost:        [%5d]\n\r%s:       [%5d]\n\r", pObj->weight, pObj->cost,
 	     pObj->item_type == ITEM_PROJECTILE ? "Shots" : "Cond ", pObj->condition);
     send_to_char( buf, ch );
     if ( pObj->extra_descr )
@@ -5004,9 +5004,9 @@ OEDIT( oedit_show )
 	    send_to_char( "Number Modifier Affects\n\r", ch );
 	    send_to_char( "------ -------- -------\n\r", ch );
 	}
-        sprintf( buf, "[%4d] %-8d %s\n\r", 
-		 cnt, 
-		 paf->modifier, 
+        sprintf( buf, "[%4d] %-8d %s\n\r",
+		 cnt,
+		 paf->modifier,
 		 paf->where == TO_SKILL ? skill_table[paf->location].name : flag_string( apply_flags, paf->location ));
 	send_to_char( buf, ch );
 	cnt++;
@@ -5054,9 +5054,9 @@ OEDIT( oedit_addaffect )
 		      "         addaffect [skill] [#xmod]\n\r", ch );
 	return FALSE;
     }
-    
+
     /* we select between regular affects or skills etc.*/
-    if ( ( value = flag_value( apply_flags, loc ) ) == NO_FLAG && 
+    if ( ( value = flag_value( apply_flags, loc ) ) == NO_FLAG &&
 	 (value = skill_lookup(loc)) > 0
 	 && value < MAX_SKILL){
       if (get_trust(ch) < CREATOR){
@@ -5078,7 +5078,7 @@ OEDIT( oedit_addaffect )
     }
     imod = atoi( mod );
     /* set floor on % modifiers */
-    if (value >= APPLY_WAIT_STATE && value <= APPLY_SPELL_COST 
+    if (value >= APPLY_WAIT_STATE && value <= APPLY_SPELL_COST
 	&& imod < -90){
       imod = -90;
       sendf(ch, "Limiting lower bound to: %d.\n\r", imod);
@@ -5601,6 +5601,9 @@ OEDIT( oedit_ed )
     if ( !str_cmp( command, "format" ) )
     {
 	EXTRA_DESCR_DATA *ped = NULL;
+	/* Useless conditional */
+	if( ped != NULL )
+        ped = NULL;
 	if ( keyword[0] == '\0' )
 	{
 	    send_to_char( "Syntax:  ed format [keyword]\n\r", ch );
@@ -5641,7 +5644,7 @@ OEDIT( oedit_extra )
 	      return FALSE;
 	    }
 	  }
-	    
+
 	  TOGGLE_BIT(pObj->extra_flags, value);
 	  send_to_char( "Extra flag toggled.\n\r", ch);
 	  return TRUE;
@@ -5878,7 +5881,7 @@ MEDIT( medit_create )
     pMob->vnum			= value;
     pMob->area			= pArea;
     if ( value > top_vnum_mob )
-	top_vnum_mob = value;        
+	top_vnum_mob = value;
     pMob->act			= ACT_IS_NPC;
     pMob->act2			= 0;
     iHash			= value % MAX_KEY_HASH;
@@ -6451,7 +6454,7 @@ MEDIT( medit_hitdice )
     if ( *cp != '\0' )
         *cp = '\0';
     if ( ( !is_number( num   ) || atoi( num   ) < 1 )
-    || ( !is_number( type  ) || atoi( type  ) < 1 ) 
+    || ( !is_number( type  ) || atoi( type  ) < 1 )
     || ( !is_number( bonus ) || atoi( bonus ) < 0 ) )
     {
 	send_to_char( syntax, ch );
@@ -6496,7 +6499,7 @@ MEDIT( medit_manadice )
 	return FALSE;
     }
     if ( ( !is_number( num   ) || atoi( num   ) < 0 )
-    || ( !is_number( type  ) || atoi( type  ) < 0 ) 
+    || ( !is_number( type  ) || atoi( type  ) < 0 )
     || ( !is_number( bonus ) || atoi( bonus ) < 0 ) )
     {
 	send_to_char( syntax, ch );
@@ -6541,7 +6544,7 @@ MEDIT( medit_damdice )
 	return FALSE;
     }
     if ( ( !is_number( num   ) || atoi( num   ) < 1 )
-    || ( !is_number( type  ) || atoi( type  ) < 1 ) 
+    || ( !is_number( type  ) || atoi( type  ) < 1 )
     || ( !is_number( bonus ) || atoi( bonus ) < 0 ) )
     {
 	send_to_char( syntax, ch );
@@ -7381,7 +7384,7 @@ ARMEDIT( armedit_show ){
 
   return FALSE;
 }
-  
+
 ARMEDIT( armedit_create ){
   ARMY_INDEX_DATA *pai;
   AREA_DATA *pArea;
@@ -7392,7 +7395,7 @@ ARMEDIT( armedit_create ){
     send_to_char( "Syntax:  medit create [vnum]\n\r", ch );
     return FALSE;
   }
-  
+
   pArea = get_vnum_area( value );
   if ( !pArea ){
     send_to_char( "ArmEdit:  That vnum is not assigned an area.\n\r", ch );
@@ -7489,14 +7492,14 @@ ARMEDIT( armedit_offense ){
   static char syntax[] = "Syntax:  offense die <number> d <type> + <bonus>\n\r";
   char *num, *type, *bonus, *cp;
   ARMY_INDEX_DATA *pai;
-  
+
   EDIT_ARMY( ch, pai );
-  
+
   if ( IS_NULLSTR(argument)){
     send_to_char( syntax, ch );
     return FALSE;
   }
-  
+
   num = cp = argument;
   while ( isdigit( *cp ) )
     ++cp;
@@ -7513,7 +7516,7 @@ ARMEDIT( armedit_offense ){
   if ( *cp != '\0' )
     *cp = '\0';
   if ( ( !is_number( num   ) || atoi( num   ) < 1 )
-       || ( !is_number( type  ) || atoi( type  ) < 1 ) 
+       || ( !is_number( type  ) || atoi( type  ) < 1 )
        || ( !is_number( bonus ) || atoi( bonus ) < 0 ) )
     {
 	send_to_char( syntax, ch );
@@ -7530,14 +7533,14 @@ ARMEDIT( armedit_hitpoint ){
   static char syntax[] = "Syntax:  hitpoint die <number> d <type> + <bonus>\n\r";
   char *num, *type, *bonus, *cp;
   ARMY_INDEX_DATA *pai;
-  
+
   EDIT_ARMY( ch, pai );
-  
+
   if ( IS_NULLSTR(argument)){
     send_to_char( syntax, ch );
     return FALSE;
   }
-  
+
   num = cp = argument;
   while ( isdigit( *cp ) )
     ++cp;
@@ -7554,7 +7557,7 @@ ARMEDIT( armedit_hitpoint ){
   if ( *cp != '\0' )
     *cp = '\0';
   if ( ( !is_number( num   ) || atoi( num   ) < 1 )
-       || ( !is_number( type  ) || atoi( type  ) < 1 ) 
+       || ( !is_number( type  ) || atoi( type  ) < 1 )
        || ( !is_number( bonus ) || atoi( bonus ) < 0 ) )
     {
 	send_to_char( syntax, ch );
@@ -7571,14 +7574,14 @@ ARMEDIT( armedit_armor ){
   static char syntax[] = "Syntax:  armor die <number> d <type> + <bonus>\n\r";
   char *num, *type, *bonus, *cp;
   ARMY_INDEX_DATA *pai;
-  
+
   EDIT_ARMY( ch, pai );
-  
+
   if ( IS_NULLSTR(argument)){
     send_to_char( syntax, ch );
     return FALSE;
   }
-  
+
   num = cp = argument;
   while ( isdigit( *cp ) )
     ++cp;
@@ -7595,7 +7598,7 @@ ARMEDIT( armedit_armor ){
   if ( *cp != '\0' )
     *cp = '\0';
   if ( ( !is_number( num   ) || atoi( num   ) < 1 )
-       || ( !is_number( type  ) || atoi( type  ) < 1 ) 
+       || ( !is_number( type  ) || atoi( type  ) < 1 )
        || ( !is_number( bonus ) || atoi( bonus ) < 0 ) )
     {
 	send_to_char( syntax, ch );

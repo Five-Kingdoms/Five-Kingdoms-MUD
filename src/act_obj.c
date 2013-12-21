@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -109,7 +109,7 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
         act( "$d: you can't carry that many items.",ch, NULL, obj->name, TO_CHAR );
 	return;
       }
-    if ((!obj->in_obj || obj->in_obj->carried_by != ch) 
+    if ((!obj->in_obj || obj->in_obj->carried_by != ch)
 	&& (get_carry_weight(ch) + get_obj_weight_char(ch, obj) >= can_carry_w(ch)))
       {
         act( "$d: you can't carry that much weight.",ch, NULL, obj->name, TO_CHAR );
@@ -126,7 +126,7 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
     if ( container != NULL ) {
       if (trip_traps(ch, container->traps))
 	return;
-      if ( (container->item_type == ITEM_WEAPON 
+      if ( (container->item_type == ITEM_WEAPON
 	    || container->item_type == ITEM_ARMOR)
 	   && IS_OBJ_STAT(container, ITEM_SOCKETABLE) ) {
 	if (IS_OBJ_STAT(obj, ITEM_NOREMOVE) && !IS_IMMORTAL(ch)){
@@ -135,22 +135,22 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 	}
 	obj_from_obj( obj );
 	unadorn_obj(obj, container, ch);
-	REMOVE_BIT(container->value[4],WEAPON_JEWELED); 
-	
+	REMOVE_BIT(container->value[4],WEAPON_JEWELED);
+
 	/* Put it before the detach phrase, mainly for syntax reasons.*/
 	act( "You detach $p from $P.", ch, obj, container, TO_CHAR);
 	if (!IS_AFFECTED(ch,AFF_SNEAK) ) {
           act( "$n detaches $p from $P.", ch, obj, container,TO_ROOM);
 	}
-      }    
+      }
       else {
 	if (container->pIndexData->vnum == OBJ_VNUM_PIT
-	    && !CAN_WEAR(container, ITEM_TAKE) 
-	    && !IS_OBJ_STAT(obj,ITEM_HAD_TIMER) 
+	    && !CAN_WEAR(container, ITEM_TAKE)
+	    && !IS_OBJ_STAT(obj,ITEM_HAD_TIMER)
 	    && !IS_OBJ_STAT(container, ITEM_SOCKETABLE)) {
 	  obj->timer = 0;
 	}
-        else{ 
+        else{
 	  act( "You get $p from $P.", ch, obj, container, TO_CHAR );
 	  if (!IS_AFFECTED(ch,AFF_SNEAK) )
 	    act( "$n gets $p from $P.", ch, obj, container, TO_ROOM );
@@ -188,7 +188,7 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
             obj_to_room( obj,ch->in_room);
             split = FALSE;
         }
-	else 
+	else
 	  ch->gold += obj->value[0];
         if (IS_SET(ch->act,PLR_AUTOSPLIT) && split)
         {
@@ -199,7 +199,7 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
             if ( members > 1 && obj->value[0] > 1 )
             {
                 sprintf(buffer,"%d",obj->value[0]);
-                do_split(ch,buffer); 
+                do_split(ch,buffer);
             }
         }
 	if (split)
@@ -213,13 +213,13 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
     /* OLD MPROG */
     for ( victim = ch->in_room->people; victim != NULL; victim=victim->next_in_room ){
       if (!IS_NPC(victim))
-	continue; 
+	continue;
       if (victim->pIndexData->progtypes & GET_PROG)
 	mprog_get_trigger( victim, ch, obj );
       if ( HAS_TRIGGER_MOB( victim, TRIG_GET ) )
 	p_give_trigger( victim, NULL, NULL, ch, obj, TRIG_GET );
     }
-    
+
     /* NEW PROG */
     for (vobj = ch->in_room->contents; vobj; vobj = vobj_next){
       vobj_next = vobj->next_content;
@@ -258,12 +258,12 @@ void do_get( CHAR_DATA *ch, char *argument )
 
 
 //Wolf form check
-    if (is_affected(ch, gsn_wolf_form) 
-	|| is_affected(ch, gsn_bat_form) 
+    if (is_affected(ch, gsn_wolf_form)
+	|| is_affected(ch, gsn_bat_form)
 	|| is_affected(ch,gsn_mist_form)
-	|| is_affected(ch,gsn_weretiger)	
-	|| is_affected(ch,gsn_werewolf)	
-	|| is_affected(ch,gsn_werebear)	
+	|| is_affected(ch,gsn_weretiger)
+	|| is_affected(ch,gsn_werewolf)
+	|| is_affected(ch,gsn_werebear)
 	|| is_affected(ch,gsn_werefalcon)){
       send_to_char("You have no where to put that item your current state.\n\r", ch);
       return;
@@ -301,7 +301,7 @@ void do_get( CHAR_DATA *ch, char *argument )
 		    get_obj( ch, obj, NULL );
 		}
 	    }
-	    if ( !found ) 
+	    if ( !found )
 	    {
 		if ( arg1[3] == '\0' )
 		    send_to_char( "I see nothing here.\n\r", ch );
@@ -362,13 +362,13 @@ void do_get( CHAR_DATA *ch, char *argument )
 	    break;
         }
 	if (IS_SET(container->value[1], CONT_CLOSED)
-	    && container->item_type != ITEM_WEAPON 
+	    && container->item_type != ITEM_WEAPON
 	    && container->item_type != ITEM_ARMOR){
 	    act( "The $d is closed.", ch, NULL, container->name, TO_CHAR );
 	    return;
 	}
 
-	if (IS_OBJ_STAT(container, ITEM_SOCKETABLE) && 
+	if (IS_OBJ_STAT(container, ITEM_SOCKETABLE) &&
 	    ((obj = get_obj_carry( ch, arg2, ch)) == NULL )) {
 	  send_to_char( "You can only detach sockets from items in your inventory.\n\r" ,ch);
 	  return;
@@ -441,14 +441,14 @@ void unadorn_obj (OBJ_DATA* socket, OBJ_DATA* obj, CHAR_DATA *ch) {
 	socket->pIndexData->vnum);
     return;
   }
-   
+
   if (!IS_OBJ_STAT(obj, ITEM_SOCKETABLE)){
-    bug("unadorn_obj: obj passed was not socketable.", 
+    bug("unadorn_obj: obj passed was not socketable.",
 	obj->pIndexData->vnum);
     return;
   }
 
-/* replace descriptions and names (the hard way) */ 
+/* replace descriptions and names (the hard way) */
 
   /* short descr */
   sprintf(item_buf, "%s", obj->short_descr);
@@ -456,7 +456,7 @@ void unadorn_obj (OBJ_DATA* socket, OBJ_DATA* obj, CHAR_DATA *ch) {
   if (loc)
     *(loc) = '\0';
   free_string (obj->short_descr);
-  obj->short_descr = str_dup (item_buf); 
+  obj->short_descr = str_dup (item_buf);
 
   /* long descr */
   sprintf(item_buf, "%s is lying here.", obj->short_descr);
@@ -474,11 +474,11 @@ void unadorn_obj (OBJ_DATA* socket, OBJ_DATA* obj, CHAR_DATA *ch) {
 
 /* replace descriptions and names (easy way)
     free_string (obj->short_descr);
-    obj->short_descr = str_dup( obj->pIndexData->short_descr ); 
-    free_string (obj->description); 
-    obj->description = str_dup( obj->pIndexData->description ); 
-    free_string (obj->name); 
-    obj->name = str_dup( obj->pIndexData->name ); 
+    obj->short_descr = str_dup( obj->pIndexData->short_descr );
+    free_string (obj->description);
+    obj->description = str_dup( obj->pIndexData->description );
+    free_string (obj->name);
+    obj->name = str_dup( obj->pIndexData->name );
 */
 
 /* first remove affects that are adding things to the object */
@@ -526,11 +526,11 @@ void adorn_obj (OBJ_DATA* socket, OBJ_DATA* obj, CHAR_DATA *ch)
       return;
     }
     if (!IS_OBJ_STAT(obj, ITEM_SOCKETABLE)){
-      bug("adorn_obj: obj passed was not socketable.", 
+      bug("adorn_obj: obj passed was not socketable.",
 	  obj->pIndexData->vnum);
       return;
     }
-/* change name only for non-holy weapons 
+/* change name only for non-holy weapons
     if (obj->pIndexData->vnum != OBJ_VNUM_HOLY_WEAPON
 	&& obj->pIndexData->vnum != OBJ_VNUM_HOLY_ARMOR
 	&& obj->pIndexData->vnum != OBJ_VNUM_MAL_WEAPON){
@@ -541,23 +541,23 @@ void adorn_obj (OBJ_DATA* socket, OBJ_DATA* obj, CHAR_DATA *ch)
     else{
       sprintf(item_buf, "%s", obj->short_descr);
     }
-    sprintf(socket_buf, "%s", socket->short_descr); 
-      
-    /* replace short desc */ 
+    sprintf(socket_buf, "%s", socket->short_descr);
+
+    /* replace short desc */
     free_string( obj->short_descr );
     sprintf(name, "%s adorned with %s", item_buf, socket_buf);
     obj->short_descr = str_dup(name);
-      
+
     /* replace long desc */
     free_string( obj->description );
-    sprintf(name, "%s adorned with %c%s", item_buf + 2, 
+    sprintf(name, "%s adorned with %c%s", item_buf + 2,
 	    tolower (socket->description[0]), socket->description + 1);
     obj->description = str_dup(name);
-      
+
     /* Add both object names to one object. */
-      
-    sprintf (name, "%s %s", obj->name, socket->name); 
-    obj->name = str_dup(name); 
+
+    sprintf (name, "%s %s", obj->name, socket->name);
+    obj->name = str_dup(name);
 
 /* GOAL: swap gem affects onto the weapon */
 /* if the obj had previous enchants, copy them over so we dont lose */
@@ -584,27 +584,27 @@ void adorn_obj (OBJ_DATA* socket, OBJ_DATA* obj, CHAR_DATA *ch)
 	}
       }
     }
-    
+
 /* loop over the affects on the gem to object*/
     for ( paf = socket->pIndexData->affected; paf != NULL; paf = paf->next ) {
-      
+
 /* - for each affect, apply the same affect to the weapon */
       af_new = new_affect();
       af_new->next = obj->affected;
       obj->affected = af_new;
-      
+
       af_new->type = skill_lookup ("socketed object");
       af_new->level = paf->level;
       af_new->duration = -1;
-      
-      af_new->location = paf->location;	
+
+      af_new->location = paf->location;
       af_new->modifier = paf->modifier;
       af_new->where = paf->where;
       af_new->bitvector = paf->bitvector;
 /*  	sendf( ch, "Adding affect: %s by %d, level %d.\n\r", (af_new->where == TO_SKILL ?  */
 /*  		skill_table[af_new->location].name : affect_loc_name(af_new->location )),  */
 /*  		af_new->modifier, af_new->level ); */
-      
+
 /* dont forget to set the obj enchanted! */
       obj->enchanted = TRUE;
     }
@@ -623,7 +623,7 @@ void adorn_obj (OBJ_DATA* socket, OBJ_DATA* obj, CHAR_DATA *ch)
       if (socket->value[1]){
 	for (flag = 0; extra_flags[flag].name != NULL; flag++){
 	  int bit = extra_flags[flag].bit;
-	  /* we check if the particular bit is set on the socket 
+	  /* we check if the particular bit is set on the socket
 	   * and NOT set on the object we are socketing
 	   */
 	  if (IS_SET(socket->value[1], bit) && !IS_SET(obj->extra_flags, bit)){
@@ -637,7 +637,7 @@ void adorn_obj (OBJ_DATA* socket, OBJ_DATA* obj, CHAR_DATA *ch)
 	af.where = TO_WEAPON;
 	for (flag = 0; weapon_type2[flag].name != NULL; flag++){
 	  int bit = weapon_type2[flag].bit;
-	  /* we check if the particular bit is set on the socket 
+	  /* we check if the particular bit is set on the socket
 	   * and NOT set on the object we are socketing
 	   */
 	  if (IS_SET(socket->value[4], bit) && !IS_SET(obj->value[4], bit)){
@@ -661,12 +661,12 @@ void do_put( CHAR_DATA *ch, char *argument )
     if (!str_cmp(arg2,"in") || !str_cmp(arg2,"on"))
 	argument = one_argument(argument,arg2);
 //Form check
-    if (is_affected(ch, gsn_wolf_form) 
-	|| is_affected(ch, gsn_bat_form) 
+    if (is_affected(ch, gsn_wolf_form)
+	|| is_affected(ch, gsn_bat_form)
 	|| is_affected(ch, gsn_mist_form)
-	|| is_affected(ch,gsn_weretiger)	
-	|| is_affected(ch,gsn_werewolf)	
-	|| is_affected(ch,gsn_werebear)	
+	|| is_affected(ch,gsn_weretiger)
+	|| is_affected(ch,gsn_werewolf)
+	|| is_affected(ch,gsn_werebear)
 	|| is_affected(ch,gsn_werefalcon)){
       send_to_char("Huh?\n\r", ch);
       return;
@@ -690,7 +690,7 @@ void do_put( CHAR_DATA *ch, char *argument )
     if (trip_traps(ch, container->traps))
       return;
 /* START THE SOCKET PART - Crypt */
-    if (( container->item_type == ITEM_WEAPON ) 
+    if (( container->item_type == ITEM_WEAPON )
 	|| (container->item_type == ITEM_ARMOR)){
       if ( IS_OBJ_STAT(container, ITEM_SOCKETABLE)) {
 	if ( ( obj = get_obj_carry( ch, arg1, ch ) ) == NULL )
@@ -711,9 +711,9 @@ void do_put( CHAR_DATA *ch, char *argument )
 	if ( ( container = get_obj_carry( ch, arg2, ch ) ) == NULL ) {
 	  send_to_char( "You can only socket items in your inventory.\n\r", ch);
 	  return;
-	} 
+	}
 	if ( (IS_LIMITED(obj) || obj->pIndexData->pCabal)
-	     && !IS_LIMITED(container) 
+	     && !IS_LIMITED(container)
 	     && !container->pIndexData->pCabal){
 	  act("$p seems to be far too intricate to fit properly.", ch, obj, NULL, TO_CHAR);
 	  return;
@@ -735,11 +735,11 @@ void do_put( CHAR_DATA *ch, char *argument )
 	if (!IS_AFFECTED(ch,AFF_SNEAK)) {
 	  act( "$n affixes $p to $P.", ch, obj, container, TO_ROOM );
 	}
-        adorn_obj(obj, container, ch); 
-        SET_BIT(container->value[4],WEAPON_JEWELED); 
+        adorn_obj(obj, container, ch);
+        SET_BIT(container->value[4],WEAPON_JEWELED);
 	return;
       }
-    } 
+    }
 
 /* END SOCKET PART - Crypt */
 
@@ -795,7 +795,7 @@ void do_put( CHAR_DATA *ch, char *argument )
 	    return;
 	}
 	*/
-	for ( things = container->contains; things != NULL; 
+	for ( things = container->contains; things != NULL;
 	      things = things->next_content ) {
 	  things_in_container++;
 	}
@@ -838,7 +838,7 @@ void do_put( CHAR_DATA *ch, char *argument )
 	/* NEW PROG */
 	for ( victim = ch->in_room->people; victim; victim = victim->next_in_room ){
 	  if (!IS_NPC(victim))
-	    continue; 
+	    continue;
 	  if ( HAS_TRIGGER_MOB( victim, TRIG_PUT ) )
 	    p_give_trigger( victim, NULL, NULL, ch, obj, TRIG_PUT );
 	}
@@ -858,26 +858,26 @@ void do_put( CHAR_DATA *ch, char *argument )
 /* group put */
     else{
       int count = 0;
-      for ( things = container->contains; things != NULL; 
+      for ( things = container->contains; things != NULL;
 	    things = things->next_content ) {
 	count++;
       }
       for ( obj = ch->carrying; obj != NULL; obj = obj_next ){
 	obj_next = obj->next_content;
-	if ( ( arg1[3] == '\0' 
-	       || is_name( &arg1[4], obj->name ) ) 
-	     && can_see_obj( ch, obj ) 
+	if ( ( arg1[3] == '\0'
+	       || is_name( &arg1[4], obj->name ) )
+	     && can_see_obj( ch, obj )
 	     && WEIGHT_MULT(obj) == 100
-	     && !IS_LIMITED(obj) 
+	     && !IS_LIMITED(obj)
 	     /* Changed for now: Viri
-		&& !IS_OBJ_STAT(obj,ITEM_MELT_DROP) 
+		&& !IS_OBJ_STAT(obj,ITEM_MELT_DROP)
 	     */
 	     && obj->wear_loc == WEAR_NONE
-	     && obj != container 
-	     && can_drop_obj( ch, obj ) 
+	     && obj != container
+	     && can_drop_obj( ch, obj )
 	     && get_obj_weight( container ) < (container->value[0] * 10)
 	     && str_cmp(obj->material,"warflesh")){
-	    
+
 	  if (container->pIndexData->vnum == OBJ_VNUM_PIT && !CAN_WEAR(obj, ITEM_TAKE) ){
 	    if (obj->timer)
 	      SET_BIT(obj->extra_flags,ITEM_HAD_TIMER);
@@ -903,11 +903,11 @@ void do_put( CHAR_DATA *ch, char *argument )
 	  /* NEW PROG */
 	  for ( victim = ch->in_room->people; victim; victim = victim->next_in_room ){
 	    if (!IS_NPC(victim))
-	      continue; 
+	      continue;
 	    if ( HAS_TRIGGER_MOB( victim, TRIG_PUT ) )
 	      p_give_trigger( victim, NULL, NULL, ch, obj, TRIG_PUT );
 	  }
-	  
+
 	  for (vobj = ch->in_room->contents; vobj; vobj = vobj_next){
 	    vobj_next = vobj->next_content;
 	    if (vobj == obj)
@@ -926,7 +926,7 @@ void do_put( CHAR_DATA *ch, char *argument )
 
 OBJ_DATA* get_proj(OBJ_DATA* omit, OBJ_DATA* list, int vnum, char* name, int spec){
   OBJ_DATA*  obj, *vobj;
-  
+
   if (list == NULL)
     return NULL;
 
@@ -976,7 +976,7 @@ void unload (CHAR_DATA* ch, OBJ_DATA* container){
     obj_to_ch( obj, ch );
   }
   act("You unload $p.", ch, container, NULL, TO_CHAR);
-  if (!IS_AFFECTED(ch,AFF_SNEAK) 
+  if (!IS_AFFECTED(ch,AFF_SNEAK)
       && !IS_AFFECTED(ch, AFF_HIDE)
       && !IS_AFFECTED2(ch, AFF_CAMOUFLAGE))
     act( "$n unloads $p.", ch, container, NULL, TO_ROOM );
@@ -992,12 +992,12 @@ void do_drop( CHAR_DATA *ch, char *argument )
     bool found;
     argument = one_argument( argument, arg );
 //Form check
-    if (is_affected(ch, gsn_wolf_form) 
-	|| is_affected(ch, gsn_bat_form) 
+    if (is_affected(ch, gsn_wolf_form)
+	|| is_affected(ch, gsn_bat_form)
 	|| is_affected(ch, gsn_mist_form)
-	|| is_affected(ch,gsn_weretiger)	
-	|| is_affected(ch,gsn_werewolf)	
-	|| is_affected(ch,gsn_werebear)	
+	|| is_affected(ch,gsn_weretiger)
+	|| is_affected(ch,gsn_werewolf)
+	|| is_affected(ch,gsn_werebear)
 	|| is_affected(ch,gsn_werefalcon)){
       send_to_char("Huh?\n\r", ch);
       return;
@@ -1085,14 +1085,14 @@ void do_drop( CHAR_DATA *ch, char *argument )
         if ( HAS_TRIGGER_ROOM( ch->in_room, TRIG_DROP ) )
 	  p_give_trigger( NULL, NULL, ch->in_room, ch, obj, TRIG_DROP );
 
-	if ((!str_cmp(obj->material,"glass")) 
+	if ((!str_cmp(obj->material,"glass"))
 	    || (!str_cmp(obj->material,"crystal")))
 	{
 	  act("$p shatters into a million pieces!", ch, obj, NULL,TO_ALL);
 	  extract_obj(obj);
 	  obj = create_object( get_obj_index(OBJ_VNUM_GLASS), 50);
 	  obj->timer = 3;
-	  obj_to_room(obj, ch->in_room); 
+	  obj_to_room(obj, ch->in_room);
 	}
 
 	if (IS_OBJ_STAT(obj,ITEM_MELT_DROP))
@@ -1123,9 +1123,9 @@ void do_drop( CHAR_DATA *ch, char *argument )
             	    act("$p shatters into a million pieces!",ch,obj,NULL,TO_ALL);
             	    extract_obj(obj);
 		    obj = create_object( get_obj_index(OBJ_VNUM_GLASS), obj->level);
-		    obj->timer = 3; 
-		    obj_to_room(obj,ch->in_room); 
-        	}   
+		    obj->timer = 3;
+		    obj_to_room(obj,ch->in_room);
+        	}
 	       	if (IS_OBJ_STAT(obj,ITEM_MELT_DROP))
         	{
             	    act("$p dissolves into smoke.",ch,obj,NULL,TO_ALL);
@@ -1199,7 +1199,7 @@ void do_give( CHAR_DATA *ch, char *argument )
 	  {
 	    act("The coins spill out of $n's hands.",victim, NULL, NULL, TO_ROOM);
 	    send_to_char("You cannot recive gold.\n\r", victim);
-	    obj_to_room(create_money(amount),victim->in_room); 
+	    obj_to_room(create_money(amount),victim->in_room);
 	    victim->gold -= amount;
 	  }
 
@@ -1292,8 +1292,8 @@ void do_preserve( CHAR_DATA *ch, char *argument )
         send_to_char( "What did you want to preserve?\n\r", ch );
         return;
     }
-    if ((ch->class == class_lookup("thief")) || (ch->class == class_lookup("ninja")))   
-    {   
+    if ((ch->class == class_lookup("thief")) || (ch->class == class_lookup("ninja")))
+    {
       if ( str_cmp( arg, "all" ) && str_prefix( "all.", arg ) )
     	{
 	  if ( ( obj = get_obj_carry( ch, arg, ch ) ) == NULL )
@@ -1311,7 +1311,7 @@ void do_preserve( CHAR_DATA *ch, char *argument )
 	  act( "You wrap $p carefully, preserving it.", ch, obj, NULL, TO_CHAR );
 	  obj->timer = -1;
 /* The have to have SOME lag. */
-	  WAIT_STATE2(ch, PULSE_VIOLENCE * 2); 
+	  WAIT_STATE2(ch, PULSE_VIOLENCE * 2);
     	}
     }
     else
@@ -1586,7 +1586,7 @@ void do_drink( CHAR_DATA *ch, char *argument )
 	    send_to_char("The sweetness of the water uplifts your spirits.\n\r",ch);
 	    spell_bless(skill_lookup("bless"), ch->level/2, ch, (void *) ch, TARGET_CHAR);
 	    send_to_char("You feel a little better!\n\r",ch);
-	    ch->hit = UMIN( ch->hit + ch->level/10, ch->max_hit ); 
+	    ch->hit = UMIN( ch->hit + ch->level/10, ch->max_hit );
 	}
 	if (ch->alignment == -750)
 	{
@@ -1602,7 +1602,7 @@ void do_drink( CHAR_DATA *ch, char *argument )
 	send_to_char( "You choke and gag.\n\r", ch );
 	af.where     = TO_AFFECTS;
 	af.type      = gsn_poison;
-        af.level     = number_fuzzy(amount); 
+        af.level     = number_fuzzy(amount);
 	af.duration  = UMAX(3, obj->level / 4);
 	af.location  = APPLY_NONE;
 	af.modifier  = 0;
@@ -1617,7 +1617,7 @@ void do_drink( CHAR_DATA *ch, char *argument )
     if (obj->value[0] > 0 && obj->value[0] != -1){
       obj->value[1] = UMAX(obj->value[1] - amount, 0);
     }
-	
+
 }
 
 void do_eat( CHAR_DATA *ch, char *argument )
@@ -1637,7 +1637,7 @@ void do_eat( CHAR_DATA *ch, char *argument )
       send_to_char( "You do not have that item.\n\r", ch );
       return;
     }
-  
+
   if ( !IS_IMMORTAL(ch) )
     {
       if ( obj->item_type != ITEM_FOOD && obj->item_type != ITEM_PILL )
@@ -1655,7 +1655,7 @@ void do_eat( CHAR_DATA *ch, char *argument )
 	  send_to_char("You are too full to eat more.\n\r",ch);
 	  return;
         }
-      if (IS_NPC(ch) && ch->pIndexData->vnum == MOB_VNUM_PHOENIX 
+      if (IS_NPC(ch) && ch->pIndexData->vnum == MOB_VNUM_PHOENIX
 	  && ch->practice > 20)
 	return;
       if (is_affected(ch, gsn_gag)){
@@ -1694,7 +1694,7 @@ void do_eat( CHAR_DATA *ch, char *argument )
 	  int condition;
 	  int base = obj->value[1];
 	  condition = ch->pcdata->condition[COND_HUNGER];
-	  
+
 	  /* adjust for size */
 	  base = 2 * base / UMAX(1, ch->size );
 
@@ -1742,7 +1742,7 @@ void do_eat( CHAR_DATA *ch, char *argument )
 	  ch->practice += obj->value[1];
 	  ch->train    += obj->value[1];
     	}
-      if ( obj->value[3] != 0 
+      if ( obj->value[3] != 0
 	   && (obj->pIndexData->vnum != OBJ_VNUM_BRAINS
 	       || ch->race != race_lookup("illithid")) )
 	{
@@ -1809,7 +1809,7 @@ void do_smoke( CHAR_DATA *ch, char *argument ){
 
   if ( arg[0] == '\0' ){
     send_to_char( "Smoke what?\n\r", ch );
-    return;  
+    return;
   }
   if ( ( obj = get_obj_carry( ch, arg, ch ) ) == NULL ){
     send_to_char( "You do not have that item.\n\r", ch );
@@ -1822,7 +1822,7 @@ void do_smoke( CHAR_DATA *ch, char *argument ){
 
   WAIT_STATE2(ch, PULSE_VIOLENCE / 2);
   act( "$n lights $p and smokes it.",  ch, obj, NULL, TO_ROOM );
-  act( "You light $p and begin to smoke it.", ch, obj, NULL, TO_CHAR );  
+  act( "You light $p and begin to smoke it.", ch, obj, NULL, TO_CHAR );
 
   if (IS_UNDEAD(ch)){
     send_to_char("Its tasteless.\n\r", ch);
@@ -1831,14 +1831,14 @@ void do_smoke( CHAR_DATA *ch, char *argument ){
   if (ch->pCabal && IS_CABAL(ch->pCabal, CABAL_NOMAGIC) && !str_cmp(obj->material,"warflesh"))
     level = ch->level - 3;
   else
-    level = obj->level + 10;  
+    level = obj->level + 10;
 
-  obj_cast_spell( obj->value[4], UMIN(47, level), ch, ch, NULL );   
+  obj_cast_spell( obj->value[4], UMIN(47, level), ch, ch, NULL );
 
   af.where     = TO_AFFECTS;
   af.type      = gsn_drug_use;
   af.level     = dur;
-  af.duration  = number_fuzzy(obj->value[0]);        
+  af.duration  = number_fuzzy(obj->value[0]);
   af.location  = APPLY_NONE;
   af.modifier  = 0;
   af.bitvector = 0;
@@ -1848,18 +1848,18 @@ void do_smoke( CHAR_DATA *ch, char *argument ){
 
   spell_drug_use(gsn_drug_use, ch->level, ch, (void *) ch, TARGET_CHAR);
   extract_obj( obj );
-} 
+}
 
 /* checks if class can double sheath a given object */
 bool can_doublesheath(CHAR_DATA* ch, OBJ_DATA* obj, bool fSilent ){
 
-  if(ch->class == class_lookup("thief") 
+  if(ch->class == class_lookup("thief")
      && obj->value[0] != WEAPON_DAGGER){
     if (!fSilent)
       send_to_char("You may only double sheath daggers.\n\r", ch);
     return FALSE;
   }
-  else if (ch->class == class_lookup("ninja") 
+  else if (ch->class == class_lookup("ninja")
 	   && obj->value[0] != WEAPON_EXOTIC){
     if (!fSilent)
       send_to_char("You may only double sheath exotics.\n\r", ch);
@@ -1886,8 +1886,8 @@ bool check_sheath(CHAR_DATA* ch, int iWear){
     }
   }
   /* secondary is more complicated */
-  if (iWear == WEAR_SECONDARY 
-      || iWear == WEAR_SHIELD 
+  if (iWear == WEAR_SECONDARY
+      || iWear == WEAR_SHIELD
       || iWear == WEAR_HOLD){
     /* check if we have something sheathed near secondary arm */
     if ((obj = get_eq_char(ch, WEAR_SHEATH_R)) != NULL){
@@ -1940,36 +1940,36 @@ bool check_secondary( CHAR_DATA* ch, OBJ_DATA* obj, OBJ_DATA* wield){
   int wie_w = 0;
   bool fMino = FALSE;
 
-  if (ch->race == race_lookup("minotaur") 
-      && wield->value[0] == WEAPON_AXE 
+  if (ch->race == race_lookup("minotaur")
+      && wield->value[0] == WEAPON_AXE
       && obj->value[0] == WEAPON_AXE){
     send_to_char("You managed to wield both axes in your hands.\n\r",ch);
     fMino = TRUE;
   }
-  else if ((IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS) 
-	    || obj->value[0] == WEAPON_STAFF 
-	    || obj->value[0] == WEAPON_POLEARM 
-	    || obj->item_type == ITEM_INSTRUMENT) 
-	   && (IS_WEAPON_STAT(wield,WEAPON_TWO_HANDS) 
-	       || wield->value[0] == WEAPON_STAFF 
-	       || wield->value[0] == WEAPON_POLEARM 
+  else if ((IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS)
+	    || obj->value[0] == WEAPON_STAFF
+	    || obj->value[0] == WEAPON_POLEARM
+	    || obj->item_type == ITEM_INSTRUMENT)
+	   && (IS_WEAPON_STAT(wield,WEAPON_TWO_HANDS)
+	       || wield->value[0] == WEAPON_STAFF
+	       || wield->value[0] == WEAPON_POLEARM
 	       || wield->item_type == ITEM_INSTRUMENT))
     {
       send_to_char("There's no way you can dual-wield two two-handed weapons!\n\r",ch);
       return FALSE;
     }
-  else if ((ch->size < SIZE_LARGE && 
-	    (IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS) 
+  else if ((ch->size < SIZE_LARGE &&
+	    (IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS)
 	     || IS_WEAPON_STAT(wield,WEAPON_TWO_HANDS)))
-	   || obj->value[0] == WEAPON_STAFF 
-	   || obj->item_type == ITEM_INSTRUMENT 
-	   || wield->item_type == ITEM_INSTRUMENT 
-	   || obj->value[0] == WEAPON_POLEARM 
-	   || wield->value[0] == WEAPON_STAFF 
-	   || wield->value[0] == WEAPON_POLEARM 
+	   || obj->value[0] == WEAPON_STAFF
+	   || obj->item_type == ITEM_INSTRUMENT
+	   || wield->item_type == ITEM_INSTRUMENT
+	   || obj->value[0] == WEAPON_POLEARM
+	   || wield->value[0] == WEAPON_STAFF
+	   || wield->value[0] == WEAPON_POLEARM
 	   || is_affected(ch,gsn_double_grip))
     {
-      if (wield->value[0] == WEAPON_POLEARM 
+      if (wield->value[0] == WEAPON_POLEARM
 	  || obj->value[0] == WEAPON_POLEARM )
 	send_to_char("A polearm cannot be dual wieled with any other weapon.\n\r",ch);
       else
@@ -1981,7 +1981,7 @@ bool check_secondary( CHAR_DATA* ch, OBJ_DATA* obj, OBJ_DATA* wield){
 
   //if obj is between wie_w and 0.75 wie_w and obj is light or person has bladework skill allow it.
   if (obj_w <= wie_w
-      && obj_w >= 3 * wie_w / 4 
+      && obj_w >= 3 * wie_w / 4
       && (obj_w <= 100 || get_skill(ch, gsn_bladework) > 2))
     return TRUE;
   //if obj is smaller then 0.75 wie_w allow it always
@@ -1991,20 +1991,20 @@ bool check_secondary( CHAR_DATA* ch, OBJ_DATA* obj, OBJ_DATA* wield){
     act("$p is too heavy to be used as a secondary weapon.",ch, obj, NULL, TO_CHAR);
     return FALSE;
   }
-  else 
+  else
     return TRUE;
 }
 
 void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace, bool twohands )
 {
   /* race check */
-  if (!IS_NPC(ch) 
+  if (!IS_NPC(ch)
       && obj->race && obj->race != ch->race){
     act("Its size and style make it useless to you.", ch, NULL, NULL, TO_CHAR);
     return;
   }
   /* class */
-  if (!IS_NPC(ch) 
+  if (!IS_NPC(ch)
       && obj->class >= 0 && obj->class != ch->class){
     act("Its size and style make it useless to you.", ch, NULL, NULL, TO_CHAR);
     return;
@@ -2014,12 +2014,12 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace, bool twohands )
 	act( "Only monks may hold prayer beads.",ch, NULL, NULL, TO_CHAR);
         return;
       }
-    if (is_affected(ch,gsn_tiger) 
-	|| is_affected(ch,gsn_crane) 
+    if (is_affected(ch,gsn_tiger)
+	|| is_affected(ch,gsn_crane)
 	|| is_affected(ch,gsn_monkey)
- 	|| is_affected(ch,gsn_dragon) 
-	|| is_affected(ch,gsn_horse) 
-	|| is_affected(ch,gsn_buddha) 
+ 	|| is_affected(ch,gsn_dragon)
+	|| is_affected(ch,gsn_horse)
+	|| is_affected(ch,gsn_buddha)
 	|| is_affected(ch,gsn_drunken))
       {
 	int loc = wear_loc(obj->wear_flags, 1);
@@ -2106,13 +2106,13 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace, bool twohands )
 	equip_char( ch, obj, WEAR_HEAD );
 	return;
     }
-    if ( CAN_WEAR( obj, ITEM_WEAR_FACE ) )    
+    if ( CAN_WEAR( obj, ITEM_WEAR_FACE ) )
     {
         if ( !remove_obj( ch, WEAR_FACE, fReplace ) )            return;
         act( "$n wears $p on $s face.",   ch, obj, NULL, TO_ROOM );
         act( "You wear $p on your face.", ch, obj, NULL, TO_CHAR );
-        equip_char( ch, obj, WEAR_FACE );        
-        return;    
+        equip_char( ch, obj, WEAR_FACE );
+        return;
     }
     if ( CAN_WEAR( obj, ITEM_WEAR_LEGS ) )
     {
@@ -2214,11 +2214,11 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace, bool twohands )
 	  act("You can't use a shield and two weapons.", ch, NULL, NULL, TO_CHAR);
 	  return;
 	}
-        if (weapon != NULL 
-	    && ((IS_WEAPON_STAT(weapon,WEAPON_TWO_HANDS) 
+        if (weapon != NULL
+	    && ((IS_WEAPON_STAT(weapon,WEAPON_TWO_HANDS)
 		 && (ch->size < SIZE_LARGE || obj->value[0] == WEAPON_STAFF))
-		|| weapon->value[0] == WEAPON_POLEARM 
-		|| weapon->item_type == ITEM_INSTRUMENT 
+		|| weapon->value[0] == WEAPON_POLEARM
+		|| weapon->item_type == ITEM_INSTRUMENT
 		|| is_affected(ch,gsn_double_grip)))
 	  {
 	    if (is_affected(ch, gsn_double_grip)){
@@ -2276,15 +2276,15 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace, bool twohands )
 	  return;
 	}
 	weight = (str_app[get_curr_stat(ch,STAT_STR)].wield * 10);
-        if ((IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS) 
+        if ((IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS)
 	     && (ch->size < SIZE_LARGE || obj->value[0] == WEAPON_STAFF))
-	     || obj->value[0] == WEAPON_POLEARM 
-	     || obj->item_type == ITEM_INSTRUMENT 
+	     || obj->value[0] == WEAPON_POLEARM
+	     || obj->item_type == ITEM_INSTRUMENT
 	     || twohands)
 	    weight = 3 * weight /2;
 	if (obj->item_type == ITEM_WEAPON
 	    && get_skill(ch, gsn_2h_handling) > 0
-	    && (IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS) 
+	    && (IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS)
 		|| is_affected(ch, gsn_double_grip)) )
 	weight = 3 * weight / 2;
         if ( !IS_NPC(ch) && get_obj_weight_char(ch, obj) > weight)
@@ -2292,20 +2292,20 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace, bool twohands )
 	  act( "It is too heavy for you to wield.", ch, NULL, NULL, TO_CHAR);
 	  return;
 	}
-	
-        if ( ((IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS) 
+
+        if ( ((IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS)
 	       && (ch->size < SIZE_LARGE || obj->value[0] == WEAPON_STAFF))
-	       || obj->value[0] == WEAPON_POLEARM 
-	       || obj->item_type == ITEM_INSTRUMENT) 
+	       || obj->value[0] == WEAPON_POLEARM
+	       || obj->item_type == ITEM_INSTRUMENT)
 	      && get_eq_char(ch,WEAR_SHIELD) != NULL)
 	{
 	  if ( !remove_obj( ch, WEAR_SHIELD, fReplace ) )
 	    return;
 	}
-        if (((IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS) 
+        if (((IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS)
 	      && (ch->size < SIZE_LARGE || obj->value[0] == WEAPON_STAFF))
-	      || obj->value[0] == WEAPON_POLEARM 
-	      || obj->item_type == ITEM_INSTRUMENT) 
+	      || obj->value[0] == WEAPON_POLEARM
+	      || obj->item_type == ITEM_INSTRUMENT)
 	     && get_eq_char(ch,WEAR_HOLD) != NULL)
 	{
 	  if ( !remove_obj( ch, WEAR_HOLD, fReplace ) )
@@ -2323,7 +2323,7 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace, bool twohands )
 	      && !remove_obj( ch, WEAR_SECONDARY, fReplace))
 	    return;
 //safety for no-remove seconds.
-	  if (!IS_IMMORTAL(ch) 
+	  if (!IS_IMMORTAL(ch)
 	      && IS_SET(obj->extra_flags, ITEM_NOREMOVE)){
 	    act("You need to be able to remove $p before wielding that.", ch, second, NULL, TO_CHAR);
 	    return;
@@ -2352,6 +2352,10 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace, bool twohands )
 	if (sn == gsn_hand_to_hand)
 	   return;
         skill = get_weapon_skill_obj(ch, obj);
+
+        /* Useless conditional */
+        if( skill != 0 )
+            skill *= 1;
 
 /* Viri: disabled to cut down on spam
          if (skill > 112) act("No mortal can match you with $p in your hand.",ch,obj,NULL,TO_CHAR);
@@ -2386,11 +2390,11 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace, bool twohands )
 	  act("You can't hold an item and use two weapons.", ch, NULL, NULL, TO_CHAR);
 	  return;
         }
-	if (weapon != NULL 
+	if (weapon != NULL
 	    && ((IS_WEAPON_STAT(weapon,WEAPON_TWO_HANDS)
 		 && (ch->size < SIZE_LARGE || obj->value[0] == WEAPON_STAFF))
-		|| weapon->value[0] == WEAPON_POLEARM 
-		|| weapon->item_type == ITEM_INSTRUMENT 
+		|| weapon->value[0] == WEAPON_POLEARM
+		|| weapon->item_type == ITEM_INSTRUMENT
 		|| is_affected(ch,gsn_double_grip)))
 	  {
 	    act("Your hands are tied up!", ch, NULL, NULL, TO_CHAR);
@@ -2472,13 +2476,13 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace, bool twohands )
       }
       act( "$n put $p in $s quiver.",   ch, obj, NULL, TO_ROOM );
       act( "You put $p in your quiver.", ch, obj, NULL, TO_CHAR );
-      
+
       if (obj->level > ch->level)
 	act("You're not quite sure how to handle $p properly.", ch, obj, NULL, TO_CHAR);
 
       if (obj->condition < 1)
 	extract_obj( obj );
-      
+
       return;
     }
     if ( fReplace )
@@ -2490,12 +2494,12 @@ void do_wear( CHAR_DATA *ch, char *argument )
     char arg[MIL];
     OBJ_DATA *obj;
     one_argument( argument, arg );
-    if (is_affected(ch,gsn_bat_form) 
-	|| is_affected(ch,gsn_wolf_form) 
+    if (is_affected(ch,gsn_bat_form)
+	|| is_affected(ch,gsn_wolf_form)
 	|| is_affected(ch,gsn_mist_form)
-	|| is_affected(ch,gsn_weretiger)	
-	|| is_affected(ch,gsn_werewolf)	
-	|| is_affected(ch,gsn_werebear)	
+	|| is_affected(ch,gsn_weretiger)
+	|| is_affected(ch,gsn_werewolf)
+	|| is_affected(ch,gsn_werebear)
 	|| is_affected(ch,gsn_werefalcon)){
       send_to_char("Not while you're morphed.\n\r",ch);
       return;
@@ -2532,12 +2536,12 @@ void do_remove( CHAR_DATA *ch, char *argument )
     char arg[MIL];
     OBJ_DATA *obj;
     one_argument( argument, arg );
-    if (is_affected(ch,gsn_bat_form) 
-	|| is_affected(ch,gsn_wolf_form) 
+    if (is_affected(ch,gsn_bat_form)
+	|| is_affected(ch,gsn_wolf_form)
 	|| is_affected(ch,gsn_mist_form)
-	|| is_affected(ch,gsn_weretiger)	
-	|| is_affected(ch,gsn_werewolf)	
-	|| is_affected(ch,gsn_werebear)	
+	|| is_affected(ch,gsn_weretiger)
+	|| is_affected(ch,gsn_werewolf)
+	|| is_affected(ch,gsn_werebear)
 	|| is_affected(ch,gsn_werefalcon)){
       send_to_char("Not while you're morphed.\n\r",ch);
       return;
@@ -2595,7 +2599,7 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
 	  act( "$n offers $mself to $g, who graciously declines.",ch,NULL, NULL, TO_ROOM );
 	  act( "$g appreciates your offer and may accept it later.",ch,NULL, NULL, TO_CHAR );
 	}
-      
+
       return;
     }
     obj = get_obj_list( ch, arg, ch->in_room->contents );
@@ -2615,21 +2619,21 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
     /* check for owner being ghost */
     if (IS_SET(obj->wear_flags, ITEM_HAS_OWNER)
 	&& (paf = affect_find(obj->affected, gen_has_owner)) != NULL
-	&& (paf->has_string 
+	&& (paf->has_string
 	    && (och = get_char(paf->string)) != NULL)
-	&& (is_ghost(och, 600) 
+	&& (is_ghost(och, 600)
 	    || (obj->in_obj && obj->in_obj->in_room->pCabal)
 	    || (obj->in_room->pCabal) )
 	&& !IS_IMMORTAL(ch))
       fOwnerProt = TRUE;
-	  
+
     if ( !CAN_WEAR(obj, ITEM_TAKE) || CAN_WEAR(obj, ITEM_NO_SAC) || fOwnerProt)
     {
       act( "You feel $g's anger even as you think about it.", ch, obj, 0, TO_CHAR );
       return;
     }
-    if ((obj->item_type == ITEM_CORPSE_NPC 
-	 || obj->item_type == ITEM_CONTAINER) 
+    if ((obj->item_type == ITEM_CORPSE_NPC
+	 || obj->item_type == ITEM_CONTAINER)
 	&& obj->contains)
     {
         OBJ_DATA *t_obj, *next_obj;
@@ -2691,7 +2695,7 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
         if ( members > 1 && gold > 1)
 	{
             sprintf(buffer,"%d",gold);
-	    do_split(ch,buffer);	
+	    do_split(ch,buffer);
 	}
     }
     extract_obj( obj );
@@ -2733,13 +2737,13 @@ void do_quaff( CHAR_DATA *ch, char *argument )
         return;
     }
     /* race check */
-    if (!IS_NPC(ch) 
+    if (!IS_NPC(ch)
 	&& obj->race && obj->race != ch->race){
       act("Its size and style make it useless to you.", ch, NULL, NULL, TO_CHAR);
       return;
     }
     /* class */
-    if (!IS_NPC(ch) 
+    if (!IS_NPC(ch)
 	&& obj->class >= 0 && obj->class != ch->class){
       act("Its size and style make it useless to you.", ch, NULL, NULL, TO_CHAR);
       return;
@@ -2778,7 +2782,7 @@ void do_quaff( CHAR_DATA *ch, char *argument )
 		}
 	    }
 	    else
-	    {		
+	    {
 		send_to_char( "You need to hold the potion in order to quaff it while being attacked.\n\r", ch);
 	    	return;
 	    }
@@ -2828,7 +2832,7 @@ void do_recite( CHAR_DATA *ch, char *argument )
     obj = NULL;
     if ( IS_NULLSTR(argument))
       victim = ch;
-    else if ( ( victim = get_char_room ( ch, NULL, argument ) ) == NULL 
+    else if ( ( victim = get_char_room ( ch, NULL, argument ) ) == NULL
 	      && ( obj = get_obj_here( ch, NULL, argument ) ) == NULL )
       {
         send_to_char( "You can't find it.\n\r", ch );
@@ -2968,7 +2972,7 @@ void do_brandish( CHAR_DATA *ch, char *argument )
 		return;
 	      }
 	      obj_cast_spell( staff->value[3], staff->value[0], ch, NULL, obj );
-	      check_improve(ch,gsn_staves,TRUE,5);	      
+	      check_improve(ch,gsn_staves,TRUE,5);
 	      if ( staff->value[2] != -1 && --staff->value[2] <= 0 )
 		{
 		  act( "$n's $p blazes bright and is gone.", ch, staff, NULL, TO_ROOM );
@@ -3004,7 +3008,7 @@ void do_use( CHAR_DATA *ch, char *argument ){
     - worn item
     - item in room
   */
-  if ( ( wand = get_eq_char( ch, WEAR_HOLD ) ) != NULL 
+  if ( ( wand = get_eq_char( ch, WEAR_HOLD ) ) != NULL
        && is_name(name, wand->name)){
 /* TRAP check */
     if (trip_traps(ch, wand->traps))
@@ -3119,7 +3123,7 @@ void do_zap( CHAR_DATA *ch, char *argument )
 	    act( "$n zaps $P with $p.", ch, wand, obj, TO_ROOM );
 	    act( "You zap $P with $p.", ch, wand, obj, TO_CHAR );
 	}
-        if (ch->level < wand->level || number_percent() - (get_curr_stat(ch,STAT_LUCK)-16) >= 20 + chance * 4/5) 
+        if (ch->level < wand->level || number_percent() - (get_curr_stat(ch,STAT_LUCK)-16) >= 20 + chance * 4/5)
 	{
             act( "Your efforts with $p produce only smoke and sparks.",ch,wand,NULL,TO_CHAR);
             act( "$n's efforts with $p produce only smoke and sparks.",ch,wand,NULL,TO_ROOM);
@@ -3248,7 +3252,7 @@ void do_steal( CHAR_DATA *ch, char *argument )
 	    j_yell(victim,buf);
 	    SET_BIT(victim->comm,COMM_NOYELL);
 	    SET_BIT(victim->comm,COMM_NOCHANNELS);
-	  }	    
+	  }
 	  else
 	    j_yell(victim, buf );
 	}
@@ -3316,13 +3320,13 @@ void do_request( CHAR_DATA *ch, char *argument )
     AFFECT_DATA af;
     AFFECT_DATA* paf;
 
-    /* 
+    /*
 LAG TIME:
 the const. are base amounts, beyond that we add +1 for each 3 level above ch or
 - 1 for each level below.
     */
 
-//const    
+//const
     const int reg_lag = 2;
     const int rare_lag = 4;
     const int uniq_lag = 6;
@@ -3390,12 +3394,12 @@ the const. are base amounts, beyond that we add +1 for each 3 level above ch or
 	do_say(victim, "You look a bit tired, why don't you rest for a while.");
 	return;
     }
-    if ( (ch->level + 9 < victim->level && ch->level < 50) || victim->level >= ch->level *2) 
+    if ( (ch->level + 9 < victim->level && ch->level < 50) || victim->level >= ch->level *2)
     {
 	do_say(victim, "In due time my child.");
 	return;
     }
-    //check for item on char.    
+    //check for item on char.
 
     if ( ( obj = get_obj_wear( victim, arg1, victim) ) == NULL)
     {
@@ -3403,7 +3407,7 @@ the const. are base amounts, beyond that we add +1 for each 3 level above ch or
       if   ( ( obj = get_obj_carry(victim, arg1, ch)) == NULL)
 	{
 	  do_say(victim, "Sorry, I'm afraid I don't have that item.");
-	  return; 
+	  return;
 	}
     }
     if (IS_NPC(victim) && victim->pIndexData->pShop != NULL
@@ -3507,7 +3511,7 @@ CHAR_DATA *find_keeper( CHAR_DATA *ch )
 	send_to_char( "You can't do that here.\n\r", ch );
 	return NULL;
     }
-    if ( !IS_NPC(ch) && IS_SET(ch->act, PLR_WANTED) 
+    if ( !IS_NPC(ch) && IS_SET(ch->act, PLR_WANTED)
 	 && keeper->in_room && IS_SET(keeper->in_room->area->area_flags, AREA_LAWFUL)
 	 && !is_same_cabal(keeper->pCabal, ch->pCabal))
     {
@@ -3528,7 +3532,7 @@ CHAR_DATA *find_keeper( CHAR_DATA *ch )
 	if (IS_AWAKE(keeper))
 	{
 	    sprintf(buf, "Sorry, I am closed. Come back later." );
-	    do_say( keeper,buf); 
+	    do_say( keeper,buf);
 	}
 	return NULL;
     }
@@ -3562,7 +3566,7 @@ CHAR_DATA *find_history( CHAR_DATA *ch )
 	send_to_char( "You can't do that here.\n\r", ch );
 	return NULL;
     }
-    if ( !IS_NPC(ch) && IS_SET(ch->act, PLR_WANTED) 
+    if ( !IS_NPC(ch) && IS_SET(ch->act, PLR_WANTED)
 	 && !is_same_cabal(keeper->pCabal,ch->pCabal) )
     {
       if (guard_fade_check(ch))
@@ -3629,13 +3633,13 @@ OBJ_DATA *get_obj_keeper( CHAR_DATA *ch, CHAR_DATA *keeper, char *argument)
     int number = number_argument( argument, arg ), count = 0;
 
     for ( obj = keeper->carrying; obj != NULL; obj = obj->next_content )
-        if (obj->wear_loc == WEAR_NONE 
-	    && can_see_obj( keeper, obj ) 
-	    && can_see_obj(ch,obj) 
+        if (obj->wear_loc == WEAR_NONE
+	    && can_see_obj( keeper, obj )
+	    && can_see_obj(ch,obj)
 	    && (is_name(arg, obj->name) || is_auto_name( arg, obj->name )) ){
 	  if ( ++count == number )
 	    return obj;
-	  while (obj->next_content != NULL 
+	  while (obj->next_content != NULL
 		 && obj->pIndexData == obj->next_content->pIndexData
 		 && !str_cmp(obj->short_descr,obj->next_content->short_descr))
 	    obj = obj->next_content;
@@ -3728,13 +3732,13 @@ void pet_shop(CHAR_DATA *ch, char *argument ){
       send_to_char("You already own a pet.\n\r",ch);
       return;
     }
-  
+
   if (ch->pcdata->familiar)
     {
 	act("You already have $N as a personal follower.\n\r", ch, NULL, ch->pcdata->familiar, TO_CHAR);
 	return;
     }
-  
+
     cost = 10 * pet->level * pet->level;
     if ( ch->gold < cost )
       {
@@ -3831,7 +3835,7 @@ void do_sell( CHAR_DATA *ch, char *argument ){
     roll = UMAX(1,roll);
     act( "$n sells $p.", ch, obj, NULL, TO_ROOM );
 
-    if (!IS_OBJ_STAT(obj,ITEM_SELL_EXTRACT) 
+    if (!IS_OBJ_STAT(obj,ITEM_SELL_EXTRACT)
 	&& roll < get_skill(ch,gsn_haggle)){
       send_to_char("You haggle with the shopkeeper for a better price.\n\r",ch);
       int haggle_cost = UMAX(0, roll * (obj->cost - cost) / 100);
@@ -3874,7 +3878,7 @@ void do_buy( CHAR_DATA *ch, char *argument ){
   char buf[MIL], *item, buf1[MIL], buf2[MIL];
   int cost, roll, extort_chance, i;
   int amount;
-  
+
   item = one_argument( argument, buf );
 
   if ( IS_NULLSTR(buf)){
@@ -3890,9 +3894,9 @@ void do_buy( CHAR_DATA *ch, char *argument ){
   /* get haggle roll */
   roll = number_percent();
   roll -= 2* ( get_curr_stat(ch,STAT_LUCK) - 14 );
-    
-  if (!IS_NULLSTR(mud_data.questor) 
-      && mud_data.questor[0] ==  ch->name[0] 
+
+  if (!IS_NULLSTR(mud_data.questor)
+      && mud_data.questor[0] ==  ch->name[0]
       && !str_cmp( ch->name, mud_data.questor))
     roll -= 50;
   else if(is_song_affected(ch,gsn_reputation))
@@ -3900,7 +3904,7 @@ void do_buy( CHAR_DATA *ch, char *argument ){
 
   roll = UMAX(1, roll);
 
-  /* PET SHOP */    
+  /* PET SHOP */
   if ( IS_SET(ch->in_room->room_flags, ROOM_PET_SHOP) ){
     pet_shop( ch, argument );
     return;
@@ -3965,7 +3969,7 @@ void do_buy( CHAR_DATA *ch, char *argument ){
   /* TEST FOR COST */
   else if ((obj->pIndexData->pCabal? GET_CP(ch) :  ch->gold) < cost ){
     sprintf( buf, "$n tells you '`2You can't afford %d %s%s to buy $p.``'",
-	     cost, 
+	     cost,
 	     obj->pIndexData->pCabal ? obj->pIndexData->pCabal->currency: "gold",
 	     obj->pIndexData->pCabal ? "s": "");
     act( buf, keeper, obj, ch, TO_VICT );
@@ -3982,9 +3986,9 @@ void do_buy( CHAR_DATA *ch, char *argument ){
     check_improve(ch,gsn_extort,TRUE,1);
     act( "$n extorts $p from $N.", ch, obj, keeper, TO_ROOM );
     act( "You extort $p from $N.", ch, obj, keeper, TO_CHAR );
-  }	    
+  }
   else {
-    if (!IS_OBJ_STAT(obj,ITEM_SELL_EXTRACT) 
+    if (!IS_OBJ_STAT(obj,ITEM_SELL_EXTRACT)
 	&& roll < get_skill(ch,gsn_haggle)
 	&& !obj->pCabal){
       int sell_cost = amount * get_cost(keeper, obj, FALSE);
@@ -4008,7 +4012,7 @@ void do_buy( CHAR_DATA *ch, char *argument ){
 	item = buf;
       sprintf( buf1, "You buy %d $ts.", amount );
       sprintf( buf2, "$n buys %d $ts.", amount );
-      
+
     }
     else{
       item = obj->short_descr;
@@ -4032,8 +4036,8 @@ void do_buy( CHAR_DATA *ch, char *argument ){
     else
       continue;
 
-    if (tobj->timer > 0 
-	&& !IS_OBJ_STAT(tobj,ITEM_HAD_TIMER) 
+    if (tobj->timer > 0
+	&& !IS_OBJ_STAT(tobj,ITEM_HAD_TIMER)
 	&& tobj->item_type != ITEM_FOOD)
       tobj->timer = 0;
     REMOVE_BIT(tobj->extra_flags,ITEM_HAD_TIMER);
@@ -4055,7 +4059,7 @@ void do_browse( CHAR_DATA *ch, char *argument ){
     return;
   }
 
-  /* PET SHOP */    
+  /* PET SHOP */
   if ( IS_SET(ch->in_room->room_flags, ROOM_PET_SHOP) ){
     send_to_char("There is nothing to gain by browsing pets.\n\r", ch);
     return;
@@ -4078,7 +4082,7 @@ void do_browse( CHAR_DATA *ch, char *argument ){
     ch->reply = keeper;
     return;
   }
-  
+
   obj = create_object( obj->pIndexData, obj->level);
   obj_to_ch( obj, ch );
   strcpy (buf, obj->name);
@@ -4099,7 +4103,7 @@ void do_browse( CHAR_DATA *ch, char *argument ){
       obj_from_char( obj );
       extract_obj( obj );
     }
-    
+
 }
 
 void do_list( CHAR_DATA *ch, char *argument )
@@ -4135,8 +4139,8 @@ void do_list( CHAR_DATA *ch, char *argument )
 	      send_to_char( "Pets for sale:\n\r", ch );
 	    }
 
-	    sprintf( list[last], "[%2d] %8d - %s\n\r", 
-		     pet->level, 10 * pet->level * pet->level, 
+	    sprintf( list[last], "[%2d] %8d - %s\n\r",
+		     pet->level, 10 * pet->level * pet->level,
 		     pet->short_descr );
 	    key[last++] = 10 * pet->level * pet->level;
 	    if (last >= MAX_ITEM)
@@ -4161,7 +4165,7 @@ void do_list( CHAR_DATA *ch, char *argument )
 	do_say( keeper, buf );
 	return;
       }
-      
+
       one_argument(argument,arg);
       for ( obj = keeper->carrying; obj; obj = obj->next_content ){
 	if ( obj->wear_loc == WEAR_NONE && can_see_obj( ch, obj )
@@ -4171,7 +4175,7 @@ void do_list( CHAR_DATA *ch, char *argument )
 	    sendf( ch, "[Lv Price Coin Qty] Item\n\r");
 	  }
 	  if (IS_OBJ_STAT(obj,ITEM_INVENTORY)){
-	    sprintf(list[last], "[%2d %5d %s  -- ] %s\n\r", 
+	    sprintf(list[last], "[%2d %5d %s  -- ] %s\n\r",
 		    obj->level,
 		    cost,
 		    (obj->pIndexData->pCabal? " CP" : " GO"),
@@ -4188,7 +4192,7 @@ void do_list( CHAR_DATA *ch, char *argument )
 		obj = obj->next_content;
 		count++;
 	      }
-	    sprintf(list[last], "[%2d %5d %s  %2d ] %s\n\r", 
+	    sprintf(list[last], "[%2d %5d %s  %2d ] %s\n\r",
 		    obj->level,
 		    cost,
 		    (obj->pIndexData->pCabal? " Cp" : " Go"),
@@ -4223,7 +4227,7 @@ void do_list( CHAR_DATA *ch, char *argument )
     for(i = 0; i < last; i ++){
       send_to_char(list[end_key[i]], ch);
     }
-      
+
 
 }
 
@@ -4276,21 +4280,21 @@ void secondary(CHAR_DATA* ch, OBJ_DATA* obj){
       return;
     }
   /* race check */
-  if (!IS_NPC(ch) 
+  if (!IS_NPC(ch)
       && obj->race && obj->race != ch->race){
     send_to_char("Its size and style make it useless to you.\n\r", ch);
     return;
   }
   /* class */
-  if (!IS_NPC(ch) 
+  if (!IS_NPC(ch)
       && obj->class >= 0 && obj->class != ch->class){
     send_to_char("Its size and style make it useless to you.\n\r", ch);
     return;
   }
   if (!check_sheath(ch, WEAR_SECONDARY))
     return ;
-  if ((get_eq_char(ch,WEAR_SHIELD) != NULL 
-       && !remove_obj(ch, WEAR_SHIELD, TRUE)) 
+  if ((get_eq_char(ch,WEAR_SHIELD) != NULL
+       && !remove_obj(ch, WEAR_SHIELD, TRUE))
       || (get_eq_char(ch,WEAR_HOLD) != NULL
 	  && !remove_obj(ch, WEAR_HOLD, TRUE)) )
     {
@@ -4316,6 +4320,9 @@ void secondary(CHAR_DATA* ch, OBJ_DATA* obj){
            return;
       skill = get_skill(ch,sn);
 
+      /* Useless conditional */
+      if( skill != 0 )
+        skill *= 1;
 /*
   if    (skill >= 100) act("$p feels like a part of you!",ch,obj,NULL,TO_CHAR);
   else if (skill > 85) act("You feel quite confident with $p.",ch,obj,NULL,TO_CHAR);
@@ -4335,12 +4342,12 @@ void do_second( CHAR_DATA *ch, char *argument)
 {
   OBJ_DATA *obj;
 
-  if (is_affected(ch,gsn_bat_form) 
-      || is_affected(ch,gsn_wolf_form) 
+  if (is_affected(ch,gsn_bat_form)
+      || is_affected(ch,gsn_wolf_form)
       || is_affected(ch,gsn_mist_form)
-      || is_affected(ch,gsn_weretiger)	
-      || is_affected(ch,gsn_werewolf)	
-      || is_affected(ch,gsn_werebear)	
+      || is_affected(ch,gsn_weretiger)
+      || is_affected(ch,gsn_werewolf)
+      || is_affected(ch,gsn_werebear)
       || is_affected(ch,gsn_werefalcon)){
     send_to_char("Not while you're morphed.\n\r",ch);
     return;
@@ -4399,14 +4406,14 @@ void do_outfit ( CHAR_DATA *ch, char *argument )
         obj_to_char( obj, ch );
         equip_char( ch, obj, WEAR_BODY );
     }
-    if (ch->pcdata->start_wep >= 0 
+    if (ch->pcdata->start_wep >= 0
 	&& (obj = get_eq_char(ch,WEAR_WIELD)) == NULL){
       obj = create_object( get_obj_index(weapon_table[ch->pcdata->start_wep].vnum), 0);
      	obj_to_char(obj,ch);
     	equip_char(ch,obj,WEAR_WIELD);
     }
-    if (((obj = get_eq_char(ch,WEAR_WIELD)) == NULL  
-	 || !IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS)) 
+    if (((obj = get_eq_char(ch,WEAR_WIELD)) == NULL
+	 || !IS_WEAPON_STAT(obj,WEAPON_TWO_HANDS))
     && (obj = get_eq_char( ch, WEAR_SHIELD ) ) == NULL )
     {
         obj = create_object( get_obj_index(OBJ_VNUM_SCHOOL_SHIELD), 0);
@@ -4510,7 +4517,7 @@ void vomit( CHAR_DATA *ch )
         name = str_dup(ch->short_descr);
     else
         name = str_dup(ch->name);
-    obj = create_object( get_obj_index(OBJ_VNUM_VOMIT), ch->level);  
+    obj = create_object( get_obj_index(OBJ_VNUM_VOMIT), ch->level);
     obj->level = ch->level;
     sprintf(buf, "%s %s",obj->name,name);
     free_string( obj->name );
@@ -4520,10 +4527,10 @@ void vomit( CHAR_DATA *ch )
     free_string( obj->description );
     obj->description = str_dup(buf);
     sprintf(buf, "a reeking pile of %s's vomit",name);
-    free_string( obj->short_descr ); 
+    free_string( obj->short_descr );
         obj->short_descr = str_dup(buf);
     obj_to_room(obj,ch->in_room);
-}   
+}
 
 void do_vomit( CHAR_DATA *ch, char *argument )
 {
@@ -4538,7 +4545,7 @@ void do_vomit( CHAR_DATA *ch, char *argument )
     {
         return;
     }
-    if (IS_NPC(ch))  
+    if (IS_NPC(ch))
     {
         send_to_char("You stick your finger down your throat and spew vomit everywhere!\n\r",ch);
         act("$n sticks $s finger down $n throat and vomits.",ch,NULL,NULL,TO_ROOM);
@@ -4555,7 +4562,7 @@ void do_vomit( CHAR_DATA *ch, char *argument )
         send_to_char("Not while you are fighting!\n\r",ch);
         return;
     }
-    if (ch->pcdata->condition[COND_HUNGER] < 15)  
+    if (ch->pcdata->condition[COND_HUNGER] < 15)
     {
         send_to_char("There is nothing in your stomach to vomit out.\n\r",ch);
         return;
@@ -4590,7 +4597,7 @@ void do_vomit( CHAR_DATA *ch, char *argument )
 void do_drain( CHAR_DATA *ch, char *argument )
 {
     char arg[MIL];
-    OBJ_DATA *obj; 
+    OBJ_DATA *obj;
     one_argument( argument, arg );
     if (ch->class != class_lookup("vampire"))
     {
@@ -4631,7 +4638,7 @@ void do_drain( CHAR_DATA *ch, char *argument )
     act("$n drains the blood from $p.",ch,obj,NULL,TO_ROOM);
     if ( !IS_NPC(ch) )
     {
-        int condition; 
+        int condition;
         condition = ch->pcdata->condition[COND_HUNGER];
         gain_condition( ch, COND_HUNGER,(30*obj->level)/ch->level);
         if ( condition <= 0 && ch->pcdata->condition[COND_HUNGER] > 0 )
@@ -4700,12 +4707,12 @@ bool do_combatdraw(CHAR_DATA* ch, OBJ_DATA* prim, OBJ_DATA* sec){
     slots++;
   if (get_eq_char(ch, WEAR_HOLD) != NULL)
     slots++;
-      
+
   /* two handed check */
   if ( prim){
     if ( (ch->size < SIZE_LARGE && IS_WEAPON_STAT(prim,WEAPON_TWO_HANDS))
-	 || prim->value[0] == WEAPON_STAFF 
-	 || prim->value[0] == WEAPON_POLEARM 
+	 || prim->value[0] == WEAPON_STAFF
+	 || prim->value[0] == WEAPON_POLEARM
 	 || is_affected(ch,gsn_double_grip)){
       fSec = FALSE;
     }
@@ -4821,7 +4828,7 @@ void do_draw( CHAR_DATA *ch, char *argument ){
 	&& can_doublesheath(ch, prim, FALSE)){
       sheath(ch, prim, TRUE);
     }
-    if (sec 
+    if (sec
 	&& sec->item_type == ITEM_WEAPON
 	&& get_eq_char(ch, WEAR_SHEATH_R) == NULL
 	&& can_doublesheath(ch, sec, FALSE)){
@@ -4833,7 +4840,7 @@ void do_draw( CHAR_DATA *ch, char *argument ){
 
 
 /* sheaths your weapons, or specific weapon */
-/* anyone can do nullstring part, only people 
+/* anyone can do nullstring part, only people
 skilled in sheath can select items */
 void do_sheath( CHAR_DATA *ch, char *argument ){
   OBJ_DATA* obj;
@@ -4877,7 +4884,7 @@ void do_sheath( CHAR_DATA *ch, char *argument ){
     if (w_loc == WEAR_SHEATH_L && get_eq_char(ch, WEAR_WIELD) != NULL){
       fDouble = TRUE;
     }
-    else if (w_loc == WEAR_SHEATH_R 
+    else if (w_loc == WEAR_SHEATH_R
 	     && (get_eq_char(ch, WEAR_WIELD) != NULL
 		 || get_eq_char(ch, WEAR_SHIELD) != NULL
 		 || get_eq_char(ch, WEAR_SECONDARY) != NULL)){
@@ -4912,14 +4919,14 @@ void do_sheath( CHAR_DATA *ch, char *argument ){
     }
     /* sheath it */
     if (sheath(ch, obj, w_loc == WEAR_SHEATH_L)){
-      act("You $tsheath your weapon.", 
+      act("You $tsheath your weapon.",
 	  ch, fDouble ? "double" : "", NULL, TO_CHAR);
-      act("$n $tsheathes $s weapon.", 
+      act("$n $tsheathes $s weapon.",
 	  ch, fDouble ? "double" : "", NULL, TO_ROOM);
     }
   }
 }
 
 //05-01 10:15 GO: commented out fasting
-//11-25 15:30 ATH: Added code to deal with "holdsrare" flag on containers 
+//11-25 15:30 ATH: Added code to deal with "holdsrare" flag on containers
 //01-08 15:30 ATH: Added cant put non-rare holdsrare items in sacs

@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -33,6 +33,9 @@
 /* NOT TO BE USED OR REPLICATED WITHOUT EXPLICIT PERMISSION OF AUTHOR	*/
 /* umplawny@cc.umanitoba.ca						*/
 
+#ifndef __S_SKILL_H__
+#define __S_SKILL_H__
+
 /* Following defines some data types used by the whole selectable skills*
  * system								*/
 
@@ -40,10 +43,10 @@
 #define MAX_GROUP_SKILL		16	//Max skills per group
 #define MAX_PRE			4	//Max of skills used for requirement
 #define MAX_EX			4	//Max of skills used for exclusion
-/* 
+/*
 The following three compose the main table used for reference when
 doing the selection for skills.  It is referenced by the s_select_table
-for data on each group 
+for data on each group
 */
 
 struct ss_info_type{
@@ -74,5 +77,5 @@ struct ss_type{
 };
 
 
-
+#endif
 

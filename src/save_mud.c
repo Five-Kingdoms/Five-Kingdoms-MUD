@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -72,7 +72,7 @@ void update_mud_time( long real_time ){
 
 }
 
-  
+
 /* writes the mud data into the save file passed */
 bool fwrite_mud( FILE* fp ){
   VOTE_DATA* pv;
@@ -91,14 +91,14 @@ bool fwrite_mud( FILE* fp ){
   fprintf( fp, "t_save %d\n", (int)  mud_data.save_time );
 
 /* mud time data */
-  fprintf( fp, "t_mud %d %d %d %d\n", 
+  fprintf( fp, "t_mud %d %d %d %d\n",
 	   mud_data.time_info.hour,
 	   mud_data.time_info.day,
 	   mud_data.time_info.month,
 	   mud_data.time_info.year);
 
 /* mud weather info */
-  fprintf( fp, "weather %d %d %d %d\n", 
+  fprintf( fp, "weather %d %d %d %d\n",
 	   mud_data.weather_info.mmhg,
 	   mud_data.weather_info.change,
 	   mud_data.weather_info.sky,
@@ -110,9 +110,9 @@ bool fwrite_mud( FILE* fp ){
   fprintf( fp, "pfiles %d\n", mud_data.pfiles );
   fprintf( fp, "bounties %d\n", mud_data.bounties );
   fprintf( fp, "sieges %d\n", mud_data.siege_iden );
- 
+
   fprintf( fp, "Questor %s~ %d %ld\n", mud_data.questor, UMAX(1, mud_data.max_quest), mud_data.last_questor );
-  
+
 /* votes */
   for (pv = vote_list; pv != NULL; pv = pv->next ){
     fprintf( fp, "Vote\n" );
@@ -189,15 +189,15 @@ void reset_mdata(){
   update_mud_time( mud_data.current_time );
 
   log_string("Initializing MUD weather and lightlevel...");
-  if      ( mud_data.time_info.hour <  5 ) 
+  if      ( mud_data.time_info.hour <  5 )
     mud_data.weather_info.sunlight = SUN_DARK;
-  else if ( mud_data.time_info.hour <  6 ) 
+  else if ( mud_data.time_info.hour <  6 )
     mud_data.weather_info.sunlight = SUN_RISE;
-  else if ( mud_data.time_info.hour < 19 ) 
+  else if ( mud_data.time_info.hour < 19 )
     mud_data.weather_info.sunlight = SUN_LIGHT;
-  else if ( mud_data.time_info.hour < 20 ) 
+  else if ( mud_data.time_info.hour < 20 )
     mud_data.weather_info.sunlight = SUN_SET;
-  else                            
+  else
     mud_data.weather_info.sunlight = SUN_DARK;
 
   mud_data.weather_info.change	= 0;
@@ -208,13 +208,13 @@ void reset_mdata(){
   else
     mud_data.weather_info.mmhg += number_range( 1, 80 );
 
-  if ( mud_data.weather_info.mmhg <=  980 ) 
+  if ( mud_data.weather_info.mmhg <=  980 )
     mud_data.weather_info.sky = SKY_LIGHTNING;
-  else if ( mud_data.weather_info.mmhg <= 1000 ) 
+  else if ( mud_data.weather_info.mmhg <= 1000 )
     mud_data.weather_info.sky = SKY_RAINING;
-  else if ( mud_data.weather_info.mmhg <= 1020 ) 
+  else if ( mud_data.weather_info.mmhg <= 1020 )
     mud_data.weather_info.sky = SKY_CLOUDY;
-  else                                  
+  else
     mud_data.weather_info.sky = SKY_CLOUDLESS;
 
 /* QUESTS */
@@ -233,6 +233,10 @@ bool fread_mud( FILE* fp ){
   char *word = NULL;
   bool fMatch = FALSE;
 
+  /* Useless conditional */
+  if( version != SAVEMUD_VER )
+    version = SAVEMUD_VER;
+
   for ( ; ; ){
     /* check for eof */
     word   = feof( fp ) ? "End" : fread_word( fp );
@@ -242,7 +246,7 @@ bool fread_mud( FILE* fp ){
 
     /* reset match */
     fMatch = FALSE;
-    
+
     /* match current word */
     switch ( UPPER(word[0]) ){
     case '*':
@@ -324,9 +328,9 @@ bool fread_mud( FILE* fp ){
     if ( !fMatch ){
       bugf("Fread_mud: [%s] no match.", word);
       fread_to_eol( fp );
-    }      
+    }
   }
-  return FALSE; 
+  return FALSE;
 }
 
 /* opens the SAVEMUD_FILE for read calls the read functions, */
