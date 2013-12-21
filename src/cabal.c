@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -50,7 +50,7 @@
 #include "clan.h"
 
 /***************************************************************/
-/*Following are cabal orientanted routines for Forsaken Lands  */
+/*Following are cabal orientanted routines for Age of Mirlan  */
 /*mud created by Virigoth circa 2001.  Copyrighted for Forsaken*/
 /*Lands mud Nov 1, 2001.  Do not use or copy without explicit */
 /*permisson of author. (Voytek Plawny aka Virigoth)	       */

@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -6540,7 +6540,7 @@ void questor_update( CHAR_DATA* ch ){
 
   for (vch = player_list; vch; vch = vch->next_player ){
     if (vch->desc)
-      act_new("Let it be known that $t has been granted the title of `#Master Questor`` of Aaabahran!",
+      act_new("Let it be known that $t has been granted the title of `#Master Questor`` of A-Mirlan-!",
 	      vch, ch->name, ch, TO_CHAR, POS_DEAD);
   }
 }

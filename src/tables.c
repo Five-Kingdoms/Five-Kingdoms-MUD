@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -222,52 +222,35 @@ const struct hometown_type hometown_table[MAX_HOMETOWN] =
     /*  race						*/
 
   {
-    "ValMiran",
+    "Revelsport",
     20790,    20784,	    0,
     20790,    20784,	    0,
-    20700,    20784,        0,
+    20790,    20784,        0,
     NULL
   },
 
-  {
-    "Falen_Dara",
-    9609,     9609,     9609,
-    9610,     9610,     9610,
-    9609,     9609,     9609,
-    "Slith"
-  },
-
-  { "Miruvhor",
-    0,	 7870,	   7870,
-    0,	 7870,	   7870,
-    0,	 7870,	   7870,
-    NULL,
-  },
-
-  { "Marak",
+  { "Mirlsport",
     7646,	 7646,	   7646,
     7646,	 7646,	   7646,
     7646,	 7646,	   7646,
     "Ogre"
   },
 
-
-  { "Shasarazade",
+  { "Grayldemir",
     8293,         0,     0,
     8293,         0,     0,
     8293,         0,     0,
     "Elf"
   },
 
-
-  { "Xymerria",
+  { "Dargoth",
     0,         0,     1281,
     0,         0,     1281,
     0,         0,     1281,
     "Drow"
   },
 
-  { "Rheydin",
+  { "Ulsym",
     11663,	  11667,    11665,
     11663,        11667,    11665,
     11663,        11667,    11666,
@@ -281,49 +264,34 @@ const struct hometown_type hometown_table[MAX_HOMETOWN] =
     "Illithid"
   },
 
-  { "Tarandue",
+  { "Eddeltris",
     0,          4109,     0,
     0,          4109,     0,
     0,          4109,     0,
     "Gnome"
   },
 
-  { "Shire",
-    1185,       1185,     0,
-    1185,       1185,     0,
-    1185,       1185,     0,
-  "Halfling"
+  { "Luva",
+    5820,       5817,     0,
+    5820,       5817,     0,
+    5820,       5817,     0,
+    NULL
   },
 
-  { "Gal-Ranidon",
-    0,        0,     21052,
-    0,        0,     21052,
-    0,        0,     21052,
-    "Duergar"
+  { "Emmereaux",
+    9231,       9233,     9202,
+    9231,       9233,     9202,
+    9231,       9233,     9202,
+    NULL
   },
 
-  { "Khorandain",
-    21579,        21559,     0,
-    21578,        21560,     0,
-    21510,        21511,     0,
-    "Dwarf"
+  { "Zalango",
+    0,       0,     7870,
+    0,       0,     7870,
+    0,       0,     7870,
+    NULL
   },
 
-  { "Ralardia",
-    0,        11922,     0,
-    0,        11921,     0,
-    0,        11904,     0,
-    "werebeast"
-  },
-
-  /*
-  { "Airia",
-    0,        10972,     0,
-    0,        10972,     0,
-    0,        10924,     0,
-    "avian"
-  },
-  */
   { NULL,
     0,        0,        0,
     0,        0,        0,
@@ -4670,7 +4638,7 @@ const struct warn_type warn_table[] =
 {
   {
 "Excessive PK warning for: %s.",
-"You have been noticed to engage in excessive player killing for your\r\n level.  While Forsaken Lands is a Player Killing and Role-playing MUD, \r\n our goal and mission is for all players to better themselves in both\r\n categories and enjoy themselves.\r\n\r\n Since PK combat at low ranks is only meaningful as a learning tool, and \r\n you seem to be skilled enough to kill with ease the following now applies\r\n to your character starting as of now:\r\n\r\n 1) You are to avoid any player to player combat until past the rank of 25.\r\n 2) You are advised to rank quickly and behave according to the FL rules \r\n    (\"help rules\") and hence avoid drawing negative attention to yourself .\r\n\r\n Failure to abide by these two simple rules will result in strict penalties \r\n to your character and or your site.\r\n\r\n FL Staff.\r\n"
+"You have been noticed to engage in excessive player killing for your\r\n level.  While Age of Mirlan is a Player Killing and Role-playing MUD, \r\n our goal and mission is for all players to better themselves in both\r\n categories and enjoy themselves.\r\n\r\n Since PK combat at low ranks is only meaningful as a learning tool, and \r\n you seem to be skilled enough to kill with ease the following now applies\r\n to your character starting as of now:\r\n\r\n 1) You are to avoid any player to player combat until past the rank of 25.\r\n 2) You are advised to rank quickly and behave according to the FL rules \r\n    (\"help rules\") and hence avoid drawing negative attention to yourself .\r\n\r\n Failure to abide by these two simple rules will result in strict penalties \r\n to your character and or your site.\r\n\r\n FL Staff.\r\n"
   },
   {
 "Excessive PK warning issed to: %s.",
@@ -4704,7 +4672,7 @@ const struct warn_type warn_table[] =
 
   {
     "%s:%s",
-" A new tome has been added to the world famous Library of Aabahran.\r\nOn details of how you may glean the contents of the tomes in the collection\r\nconsult \"HELP LIBRARY\".\r\n\r\nThe Library Staff.\r\n"
+" A new tome has been added to the world famous Library of -Mirlan-.\r\nOn details of how you may glean the contents of the tomes in the collection\r\nconsult \"HELP LIBRARY\".\r\n\r\nThe Library Staff.\r\n"
   }
 
 };
@@ -5728,7 +5696,7 @@ const struct chargen_type chargen_table[] =
     chargen_help				},
 
   { "Enter",
-    "\n\r([Q]uit) Enter Aabahran with which Name?> ",
+    "\n\r([Q]uit) Enter -Mirlan- with which Name?> ",
     chargen_enter				},
 
   { "Create",
@@ -5744,7 +5712,7 @@ const struct chargen_type chargen_table[] =
     chargen_immpass				},
 
   { "motd",
-    "\n\rPrepare yourself. For you are about to <Enter> the Forsaken Lands!\n\r",
+    "\n\rPrepare yourself. For you are about to <Enter> The Age of Mirlan!\n\r",
     chargen_motd				},
 
   { "ready",
@@ -5880,7 +5848,7 @@ const struct chargen_type chargen_table[] =
     "Choose your racial enemy. [1 - %d]>",
     chargen_new_enemy				},
   { "new-adve",
-    "\n\r\n\rIf you are new to Forsaken Lands and wish to initially avoid the PLAYER-KILLING.\n\r"\
+    "\n\r\n\rIf you are new to Age of Mirlan and wish to initially avoid the PLAYER-KILLING.\n\r"\
     "We suggest you play with the ADVENTURER class which is exempt from PK attacks.\n\r\n\r"\
     "Do you wish to view the Adventurer class information? [Y/N]>",
     chargen_new_adve },

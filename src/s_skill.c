@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -23,13 +23,13 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
 
 
-/* Written by Virigoth sometime circa april 2000 for FORSAKEN LANDS mud.*/
+/* Written by Virigoth sometime circa april 2000 for Age of Mirlan mud.*/
 /* This is the implementation of the selectable skills code		*/
 /* NOT TO BE USED OR REPLICATED WITHOUT EXPLICIT PERMISSION OF AUTHOR	*/
 /* umplawny@cc.umanitoba.ca						*/
@@ -56,7 +56,7 @@ in ascending order.
 End of table is signaled by NULL in name.
 */
 /* name, level, picks, group */
-const struct ss_type	ss_table [MAX_CLASS] = 
+const struct ss_type	ss_table [MAX_CLASS] =
 {
   {
   /* FALSE */
@@ -139,7 +139,7 @@ const struct ss_type	ss_table [MAX_CLASS] =
     /* number of choices per selection */
     {1,    2,   2,  1,  1,  2,  1,  1,  1,  1,  1,  2,  0,  0,  0,  0},
     /* groups to choose from */
-    {"psi focus", "3rd circle", "3rd circle", "3rd circle", "4th circle", "4th circle", "4th circle", "psi lore", "5th circle", "5th circle", "5th circle", "6th circle", NULL, NULL, NULL, NULL}, 
+    {"psi focus", "3rd circle", "3rd circle", "3rd circle", "4th circle", "4th circle", "4th circle", "psi lore", "5th circle", "5th circle", "5th circle", "6th circle", NULL, NULL, NULL, NULL},
   },
 
   /* BLADEMASTER */
@@ -162,13 +162,13 @@ const struct ss_type	ss_table [MAX_CLASS] =
 };
 
 
-/* 
+/*
 This is the table containing data to each specific group of skills.
-The single selection is made out of single group, where each skill is a 
+The single selection is made out of single group, where each skill is a
 single choice.  The choices themselfs are limited by their pre-requisite
 skills and skills which exclude them.
 
-Table can be terminated by NULL in group name 
+Table can be terminated by NULL in group name
 */
 
 /* name, skill, skill info:	-> name
@@ -178,7 +178,7 @@ Table can be terminated by NULL in group name
 				-> ex
 */
 
-const struct ss_group_type	ss_group_table [MAX_GROUPS] = 
+const struct ss_group_type	ss_group_table [MAX_GROUPS] =
 {
   /* NONE: FALSE return 0 */
   {"", 0,
@@ -190,17 +190,17 @@ const struct ss_group_type	ss_group_table [MAX_GROUPS] =
   /* CRUSADER: MINORS */
   {"minor", 6,
    {
-     {"2h handling",  1, 100,	{NULL},		
+     {"2h handling",  1, 100,	{NULL},
       {"orealts 1st"} },
-     {"2h tactics",   1, 100,	{NULL},		
+     {"2h tactics",   1, 100,	{NULL},
       {NULL} },
-     {"history of armaments",   1, 1,	{NULL},		
+     {"history of armaments",   1, 1,	{NULL},
       {NULL} },
-     {"arms maintenance",   1, 100,	{NULL},		
+     {"arms maintenance",   1, 100,	{NULL},
       {NULL} },
-     {"basic armor",   1, 100,	{NULL},		
+     {"basic armor",   1, 100,	{NULL},
       {NULL} },
-     {"orealts 1st",   1, 100,	{NULL},		
+     {"orealts 1st",   1, 100,	{NULL},
       {"2h handling"} },
 
 
@@ -209,59 +209,59 @@ const struct ss_group_type	ss_group_table [MAX_GROUPS] =
   /* CRUSADER: MAJORS */
   {"major", 8,
    {
-     {"adv. handling",  1, 1,	{"2h handling"},	
+     {"adv. handling",  1, 1,	{"2h handling"},
       {"orealts 2nd"} },
-     {"2h mastery",  1, 100,	{NULL},			
+     {"2h mastery",  1, 100,	{NULL},
       {NULL} },
-     {"orealts 2nd",  1, 1,	{"orealts 1st"},	
+     {"orealts 2nd",  1, 1,	{"orealts 1st"},
       {"adv. handling"} },
-     {"damage mastery B", 1, 1,	{NULL},			
+     {"damage mastery B", 1, 1,	{NULL},
       {"armor enhancement", "damage mastery P", "damage mastery S"}},
-     {"damage mastery P", 1, 1,	{NULL},			
+     {"damage mastery P", 1, 1,	{NULL},
       {"armor enhancement", "damage mastery B", "damage mastery S"}},
-     {"damage mastery S", 1, 1,	{NULL},			
+     {"damage mastery S", 1, 1,	{NULL},
       {"armor enhancement", "damage mastery P", "damage mastery B"}},
-     {"adv. armor",  1, 100,	{"basic armor"},	
+     {"adv. armor",  1, 100,	{"basic armor"},
       {NULL} },
-     {"armor enhancement",1, 100,{"history of armaments"}, 
+     {"armor enhancement",1, 100,{"history of armaments"},
       {"damage mastery B", "damage mastery S", "damage mastery P"} },
    }
   },
   /* CRUSADER: SPECIALTY */
   {"specialty", 7,
    {
-     {"control damage", 1, 1,	
+     {"control damage", 1, 1,
       {"damage mastery B", "damage mastery S", "damage mastery P"},
       {"armorcraft"} },
-     {"blind fighting",	5, 1,	{"orealts 2nd"},	
+     {"blind fighting",	5, 1,	{"orealts 2nd"},
       {"cusinart", "adv. handling", "2h handling"} },
-     {"cusinart",	1, 100,	{"adv. handling"},	
+     {"cusinart",	1, 100,	{"adv. handling"},
       {"blind fighting", "orealts 2nd", "orealts 1st"} },
-     {"psalm master",	1, 100,	{NULL},			
+     {"psalm master",	1, 100,	{NULL},
       {NULL} },
-     {"witch compass",	1, 1,	{NULL},			
+     {"witch compass",	1, 1,	{NULL},
       {NULL} },
-     {"weaponcraft",	1, 100,	{"arms maintenance"},	
+     {"weaponcraft",	1, 100,	{"arms maintenance"},
       {NULL} },
-     {"armorcraft",	1, 100,	{"armor enhancement"},	
+     {"armorcraft",	1, 100,	{"armor enhancement"},
       {"control damage", "damage mastery B", "damage mastery S", "damage mastery P"} }
    }
   },
   /* CRUSADER: SIGNATURE */
   {"signature", 6,
    {
-     {"fourth attack", 9, 1,	{"adv. handling"},	
+     {"fourth attack", 9, 1,	{"adv. handling"},
       {"behead", "orealts 2nd", "orealts 1st"} },
-     {"pommel smash",   1, 1,	{"2h mastery"},			
+     {"pommel smash",   1, 1,	{"2h mastery"},
       {NULL} },
-     {"behead",	       1, 1,	{"orealts 2nd"},	
+     {"behead",	       1, 1,	{"orealts 2nd"},
       {"fourth attack", "adv. handling", "2h handling" } },
-     {"armor pierce",  1, 1,	{"adv. armor"},		
+     {"armor pierce",  1, 1,	{"adv. armor"},
       {NULL} },
-     {"pious",	       1, 1,	{NULL},			
+     {"pious",	       1, 1,	{NULL},
       {NULL} },
-     {"high sight",    1, 1,	
-      {"damage mastery B", "damage mastery S", "damage mastery P"},		
+     {"high sight",    1, 1,
+      {"damage mastery B", "damage mastery S", "damage mastery P"},
       {NULL} }
    }
   },
@@ -553,7 +553,7 @@ int ss_lookup( const char *name )
 {
     int type;
     for (type = 0; ss_table[type].name != NULL; type++){
-      if (LOWER(name[0]) == LOWER(ss_table[type].name[0]) 
+      if (LOWER(name[0]) == LOWER(ss_table[type].name[0])
 	  && !str_prefix(name,ss_table[type].name))
 	return type;
     }
@@ -565,7 +565,7 @@ int ss_group_lookup( const char *name )
 {
     int type;
     for (type = 0; ss_group_table[type].name != NULL; type++){
-      if (LOWER(name[0]) == LOWER(ss_group_table[type].name[0]) 
+      if (LOWER(name[0]) == LOWER(ss_group_table[type].name[0])
 	  && !str_prefix(name,ss_group_table[type].name))
 	return type;
     }
@@ -578,7 +578,7 @@ int ss_skill_lookup( const char *name, int group)
 {
     int type;
     for (type = 0; ss_group_table[group].ss_info[type].name != NULL; type++){
-      if (LOWER(name[0]) == LOWER(ss_group_table[group].ss_info[type].name[0]) 
+      if (LOWER(name[0]) == LOWER(ss_group_table[group].ss_info[type].name[0])
 	  && !str_prefix(name, ss_group_table[group].ss_info[type].name))
 	return type;
     }
@@ -609,7 +609,7 @@ int get_selections ( char* sset, int level ){
 }
 
 
-/* 
+/*
 returns how many skills a player can select out of given group.
 if level is given, returns how many skills can be slected at
 that level.
@@ -678,7 +678,7 @@ int can_ss_select(CHAR_DATA* ch, int* lvl){
   /* start looking if player has any selections to be made */
   for (i = 0; i < MAX_SELECT; i++){
     int level = ss_table[ss].level[i];
-	  
+
     if (ss_table[ss].picks[i] == 0
 	|| IS_NULLSTR(ss_table[ss].group[i]))
       break;
@@ -696,13 +696,13 @@ int can_ss_select(CHAR_DATA* ch, int* lvl){
   return 0;
 }
 
-/* 
+/*
 Decides based on pre/ex entries in the group table if the given
 skill is selectable by character.
-RETURNS: 0 for exclusion, -1 for failed prerequiste, 1 othrwise 
+RETURNS: 0 for exclusion, -1 for failed prerequiste, 1 othrwise
 */
 int can_skill_select(CHAR_DATA* ch, int group, char* name){
-  SKILL_DATA *nsk;   
+  SKILL_DATA *nsk;
   int sn = skill_lookup(name);
   int gr_sn = 0;
   int i = 0;
@@ -736,7 +736,7 @@ int can_skill_select(CHAR_DATA* ch, int group, char* name){
     char* name = ss_group_table[group].ss_info[gr_sn].pre[i];
     /* stop on empties */
     if (IS_NULLSTR(name)){
-      if (i == 0)     
+      if (i == 0)
 	fFound = TRUE;
       break;
     }
@@ -827,7 +827,7 @@ int show_group_choice(CHAR_DATA* ch, int group, bool fShow){
 adds a given skill
 */
 void ss_add_skill(CHAR_DATA* ch, int sn, int level, int rating, int skill){
-  SKILL_DATA *psk, nsk;   
+  SKILL_DATA *psk, nsk;
 
   /* check if we have this skill */
   psk = nskill_find(ch->pcdata->newskills, sn);
@@ -869,7 +869,7 @@ void ss_select_skill(CHAR_DATA* ch, int group, int skill, int level){
 }
 
 
-/* 
+/*
 Skill Set selection command.  Checks for first avaliable skill set to
 select from and enters the proper connection state
 */
@@ -896,20 +896,20 @@ void interpret_select( CHAR_DATA *ch, char *argument )
   while ( isspace(*argument) ) {
     argument++;
   }
-  argument = one_argument(argument, arg1);  
+  argument = one_argument(argument, arg1);
   if ( IS_NULLSTR(arg1)){
     int group = 0;
     int level = 0;
     send_to_char("\n\r[Skill Set Selection]\n\r", ch);
     if ( (group = can_ss_select(ch, &level)) != 0){
       show_group_choice(ch, group, TRUE);
-      sendf(ch, "\n\rYou have %d choices remaining.\n\r", 
+      sendf(ch, "\n\rYou have %d choices remaining.\n\r",
 	    can_group_select(ch, group, level));
     }
   }
   else if (!str_cmp(arg1, "quit")){
     do_save(ch, "");
-    ch->desc->connected = CON_PLAYING; 
+    ch->desc->connected = CON_PLAYING;
     return;
   }
   else if (!str_cmp(arg1, "help")){
@@ -949,7 +949,7 @@ void interpret_select( CHAR_DATA *ch, char *argument )
 	default:
 	  ss_select_skill(ch, group, skill, level);
 	  picks = can_group_select(ch, group, level);
-	  sendf(ch, "You have selected %s, with %d choice%s remaining.\n\r", 
+	  sendf(ch, "You have selected %s, with %d choice%s remaining.\n\r",
 		ss_group_table[group].ss_info[skill].name, picks, picks == 1 ? "" : "s");
 	  if (!picks){
 	    send_to_char("You have no selections remaining, returning to normal mode.\n\r", ch);
@@ -978,7 +978,7 @@ void interpret_select( CHAR_DATA *ch, char *argument )
       ch->pcdata->ss_picked[group] += can_group_select(ch, group, level);
       send_to_char("Skipping category...\n\rReturning to normal mode...\n\r", ch);
       interpret_select(ch, "quit");
-      ch->desc->connected = CON_PLAYING; 
+      ch->desc->connected = CON_PLAYING;
       return;
     }
   }

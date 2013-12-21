@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -45,7 +45,7 @@
 #include "save_mud.h"
 
 /***************************************************************/
-/*Following are bounty orientanted routines for Forsaken Lands  */
+/*Following are bounty orientanted routines for Age of Mirlan  */
 /*mud created by Virigoth circa 2002.  Copyrighted for Forsaken*/
 /*Lands mud June 1, 2002.  Do not use or copy without explicit */
 /*permission of author. (Voytek Plawny aka Virigoth)	       */

@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -238,7 +238,7 @@ struct croom_type{
 };
 extern const struct croom_type croom_table[CROOM_LEVELS];
 
-  
+
 /* macros */
 #define CHANGE_CABAL( pCab )	(SET_BIT((pCab)->flags, CABAL_CHANGED))
 #define VRCHANGE_CABAL( pCab )	(SET_BIT((pCab)->flags, CABAL_VRCHANGED))

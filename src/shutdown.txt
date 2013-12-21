@@ -494,3 +494,18 @@
 [*****] [*****] BUG: Fread_Cabal: unknown new skill.
 [*****] [*****] BUG: Fread_cabal: no match.
 [*****] 
+[*****] 
+[*****] [*****] BUG: Fread_Cabal: unknown new skill.
+[*****] [*****] BUG: Fread_cabal: no match.
+[*****] [*****] BUG: Fread_cabal: no match.
+[*****] [*****] BUG: Fread_Cabal: unknown new skill.
+[*****] [*****] BUG: Fread_cabal: no match.
+[*****] [*****] BUG: Fread_cabal: no match.
+[*****] [*****] BUG: Fread_Cabal: unknown new skill.
+[*****] [*****] BUG: Fread_cabal: no match.
+[*****] [*****] BUG: Fread_cabal: no match.
+[*****] [*****] BUG: Fread_Cabal: unknown new skill.
+[*****] [*****] BUG: Fread_cabal: no match.
+[*****] [*****] BUG: Fread_cabal: no match.
+[*****] [*****] BUG: Fread_Cabal: unknown new skill.
+[*****] [*****] BUG: Fread_cabal: no match.

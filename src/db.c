@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -248,6 +248,8 @@ sh_int			gsn_sleep;
 sh_int			gsn_sanctuary;
 sh_int			gsn_sacred_runes;
 sh_int			gsn_fly;
+sh_int  		gsn_interrogate;
+sh_int  		gsn_kidnap;
 sh_int  		gsn_adv_handling;
 sh_int  		gsn_adrenaline_rush;
 sh_int  		gsn_apierce;

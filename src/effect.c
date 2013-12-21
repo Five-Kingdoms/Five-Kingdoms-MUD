@@ -23,11 +23,11 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
-/*Written by Virigoth sometime circa april 2000 for FORSAKEN LANDS mud.*/
+/*Written by Virigoth sometime circa april 2000 for Age of Mirlan mud.*/
 /*This is the implementation of the extended Effects code*/
 /* NOT TO BE USED OR REPLICATED WITHOUT EXPLICIT PERMISSION OF AUTHOR */
 /* NOTE: names of GEN's have to be non-conflicting with GSN's! */
@@ -12096,7 +12096,7 @@ int jail_tick(CHAR_DATA* ch, void* arg1, void* arg2, int gn, int *int1, int *int
       strcat( crime_str, ", ");
     }
 
-    sprintf(buf, "%sby the Law of Aabahran\n\r"\
+    sprintf(buf, "%sby the Law of -Mirlan-\n\r"\
 	    "%s has been sentenced by %s %s\n\rCome ye to %s `6to witness the deed in %d hours!``",
 	    crime_str,
 	    PERS2(ch), paf->has_string ? paf->string : "Justice",

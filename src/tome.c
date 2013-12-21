@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -23,12 +23,12 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
 
-/* Written by Virigoth sometime circa april 2000 for FORSAKEN LANDS mud.*/
+/* Written by Virigoth sometime circa april 2000 for Age of Mirlan mud.*/
 /* This is the implementation of the selectable skills code		*/
 /* NOT TO BE USED OR REPLICATED WITHOUT EXPLICIT PERMISSION OF AUTHOR	*/
 /* umplawny@cc.umanitoba.ca						*/
@@ -112,7 +112,7 @@ TOME_DATA* NewTome(){
     bug("tome.c:NewTome> malloc returned NULL", 0);
     return NULL;
   }
-  
+
   //reset the tome data
   memset(tome, 0, sizeof(TOME_DATA));
   tome->canFree = TRUE;
@@ -137,7 +137,7 @@ void FreeTome( TOME_DATA* tome ){
   //free the mallocated data
   free( tome );
 }
-  
+
 //Adds a new tome with given author, title, and text under given subject
 TOME_DATA* AddTome(char* subject, char* title, char* author, char* text){
   int handle = TopicHandle( subject );
@@ -161,10 +161,10 @@ TOME_DATA* AddTome(char* subject, char* title, char* author, char* text){
     bug("tome.c:AddTome> alloc_perm returned NULL", 0);
     return NULL;
   }
-  
+
   //reset the tome data
   memset(tome, 0, sizeof(TOME_DATA));
-  
+
   if (topic->tomes == NULL){
     topic->last = tome;
     topic->tomes = tome;
@@ -175,7 +175,7 @@ TOME_DATA* AddTome(char* subject, char* title, char* author, char* text){
   }
   tome->topic = topic;
   topic->topicSize++;
-  
+
   //copy stuff over
   strcpy(tome->title, title);
   strcpy(tome->author, author);
@@ -246,7 +246,7 @@ char* GetTitleList(char* subject){
   }
   else if (i % 2 != 0)
     strcat(list, "\n\r");
-  
+
   return (list);
 }
 
@@ -337,7 +337,7 @@ void ReadTopic( FILE* fp ){
   }
   free_string( buf );
 }
-  
+
 //Gets tome based on number of topic/tome
 TOME_DATA* GetTome  (int sub, int tom ){
   TOME_TOPIC* topic;
@@ -454,7 +454,7 @@ void do_read_tome( CHAR_DATA *ch, char *argument ){
 
   if (IS_NULLSTR(arg)){
     output = new_buf();
-    sprintf(buf, "The Library of Aabahran has tomes in following subjects:\n\r");
+    sprintf(buf, "The Library of -Mirlan- has tomes in following subjects:\n\r");
     add_buf(output, buf );
     add_buf(output, GetSubjectList());
 
@@ -483,7 +483,7 @@ void do_read_tome( CHAR_DATA *ch, char *argument ){
       sprintf(buf, "Following Tomes with subject \"%s\" are avaliable:\n\r", topic->subject);
       add_buf(output, buf );
       add_buf(output, GetTitleList( topic->subject ));
-      
+
       sprintf(buf, "Use \"tome <subject #> <tome #>\" to read.\n\r");
       add_buf(output, buf );
       page_to_char(buf_string(output), ch);
@@ -497,7 +497,7 @@ void do_read_tome( CHAR_DATA *ch, char *argument ){
       if (!IS_SET(ch->in_room->room_flags2, ROOM_LIBRARY)
 	  && (ch->in_room->pCabal == NULL
 	      || !IS_CABAL(ch->in_room->pCabal, CABAL_HISTORY))
-	  && (ch->pCabal == NULL 
+	  && (ch->pCabal == NULL
 	      || !IS_CABAL(ch->pCabal, CABAL_HISTORY))){
 	send_to_char("You may only read tomes in library, or Herald Cabal.\n\r", ch);
 	return;
@@ -509,21 +509,21 @@ void do_read_tome( CHAR_DATA *ch, char *argument ){
       output = new_buf();
       sprintf(buf, "[%s] : ", tome->topic->subject );
       add_buf(output, buf );
-      
+
       if (IS_NULLSTR(tome->title))
 	sprintf(buf, "%s by ", "TITLE" );
       else
 	sprintf(buf, "%s by ", tome->title );
       add_buf(output, buf );
-      
+
       sprintf(buf, "%s\n\r", tome->author );
       add_buf(output, buf );
-      
+
       if (!IS_NULLSTR(tome->text))
 	add_buf(output, tome->text );
-      
+
       page_to_char(buf_string(output), ch);
-      free_buf( output );    
+      free_buf( output );
       return;
     }
   }
@@ -534,8 +534,8 @@ void do_write_tome( CHAR_DATA *ch, char *argument ){
 
   if (ch == NULL)
     return;
-  else if (IS_NPC(ch) 
-	   || (!IS_IMMORTAL(ch) 
+  else if (IS_NPC(ch)
+	   || (!IS_IMMORTAL(ch)
 	       && get_skill(ch, skill_lookup("scribe")) < 2)
 	   ){
     send_to_char("You may not scribe Tomes.\n\r", ch);
@@ -571,7 +571,7 @@ void do_write_tome( CHAR_DATA *ch, char *argument ){
       add_buf(output, tome->text );
 
     page_to_char(buf_string(output), ch);
-    free_buf( output );    
+    free_buf( output );
     return;
   }
 /* CREATE */
@@ -589,9 +589,9 @@ void do_write_tome( CHAR_DATA *ch, char *argument ){
     TOME_DATA* tome = NULL, *prev;
     int sub = 0;
     int tom = 0;
-    
+
     argument = one_argument(argument, arg );
- 
+
     if (get_trust(ch) < CREATOR){
       send_to_char("Creator and above only.\n\r", ch);
       return;
@@ -644,9 +644,9 @@ void do_write_tome( CHAR_DATA *ch, char *argument ){
     TOME_DATA* tome = NULL;
     int sub = 0;
     int tom = 0;
-    
+
     argument = one_argument(argument, arg );
- 
+
     if (get_trust(ch) < CREATOR){
       send_to_char("Creator and above only.\n\r", ch);
       return;
@@ -667,7 +667,7 @@ void do_write_tome( CHAR_DATA *ch, char *argument ){
       sendf(ch, "That selection seems to be unavailable.\n\r");
       return;
     }
-    string_append(ch, &tome->text);   
+    string_append(ch, &tome->text);
   }
 /* CLEAR */
   else if (!str_prefix(arg, "clear") || !str_prefix(arg, "delete")){
@@ -678,7 +678,7 @@ void do_write_tome( CHAR_DATA *ch, char *argument ){
     FreeTome(ch->pcdata->ptome);
     ch->pcdata->ptome = NULL;
     send_to_char("Ok.\n\r", ch);
-    return;    
+    return;
   }
 /* TITLE */
   else if (!str_prefix(arg, "title")){
@@ -710,7 +710,7 @@ void do_write_tome( CHAR_DATA *ch, char *argument ){
     return;
   }
 /* SEND/POST/SUBJECT */
-  else if (!str_prefix(arg, "send") 
+  else if (!str_prefix(arg, "send")
 	   || !str_prefix(arg, "post")
 	   || !str_prefix(arg, "print")
 	   || !str_prefix(arg, "subject")
@@ -760,7 +760,7 @@ void do_write_tome( CHAR_DATA *ch, char *argument ){
       /*  cost first */
 
       if ( cost > GET_CP( ch)){
-	sendf( ch, "You will need at least %d %s%s to scribe this tome.\n\r", 
+	sendf( ch, "You will need at least %d %s%s to scribe this tome.\n\r",
 	       cost,
 	       ch->pCabal->currency, (cost) == 1 ? "" : "s");
 	return;
@@ -768,7 +768,7 @@ void do_write_tome( CHAR_DATA *ch, char *argument ){
       /* cabal coffers are not affected by urgency */
       else if (mud_data.mudport != TEST_PORT
 	       && (pc == NULL || cost > GET_CAB_CP( pc )) ){
-	sendf( ch, "[%s] will require at least %d %s%s in its coffers to scribe this tome.\n\r", 
+	sendf( ch, "[%s] will require at least %d %s%s in its coffers to scribe this tome.\n\r",
 	       pc->who_name,
 	       cost,
 	       pc->currency, (cost) == 1 ? "" : "s" );
@@ -787,7 +787,7 @@ void do_write_tome( CHAR_DATA *ch, char *argument ){
 	  return;
 	}
 	/* check urgent flag */
-	add_vote( pVote );	
+	add_vote( pVote );
 	save_mud();
 	//subtract the cost
 	CP_GAIN( ch, -cost, TRUE );
@@ -846,7 +846,7 @@ void do_print( CHAR_DATA* ch, char* argument ){
     do_say(mob, "I'm sorry, print which subject and tome number?");
     return;
   }
-  
+
   if ( (tome = GetTome(sub, tom)) == NULL){
     sprintf( buf, "We do not have a Tome under subject %d, index %d.", sub, tom);
     do_say(mob, buf );
@@ -887,10 +887,10 @@ void do_print( CHAR_DATA* ch, char* argument ){
   obj->extra_descr->next = NULL;
 
   obj_to_char( obj, ch );
-  
+
   act("$n quickly retrieves a copy of your request.", mob, NULL, ch, TO_VICT);
   act("$n quickly retrieves a copy of $N's request.", mob, NULL, ch, TO_NOTVICT);
   act("$n gives $p to you.", mob, obj, ch, TO_VICT );
   act("$n gives $p to $N.", mob, obj, ch, TO_NOTVICT );
-}  
-  
+}
+

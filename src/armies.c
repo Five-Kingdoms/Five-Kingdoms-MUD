@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -45,7 +45,7 @@
 #include "cabal.h"
 
 /***************************************************************/
-/*Following are army orientanted routines for Forsaken Lands  */
+/*Following are army orientanted routines for Age of Mirlan  */
 /*mud created by Virigoth circa Oct 2003.  Copyrighted for Forsaken*/
 /*Lands mud Oct 01, 2003.  Do not use or copy without explicit */
 /*permission of author. (Voytek Plawny aka Virigoth)	       */
@@ -62,7 +62,7 @@ const struct state_table_s state_table [] = {
     {  "return",	AS_RETU,			5	},
     {  "leaving",	AS_LEAV,			0	},
     //Shadow waits untill no attackers in room
-    {  "circling",	AS_SHAD,			11	}, 
+    {  "circling",	AS_SHAD,			11	},
     {  "fighting",	AS_FIGH,			0	},
     {  "disbanding",	AS_DISB,			0	},
     //Defend causes combat from defender spot to attacker
@@ -86,7 +86,7 @@ static int	free_army_ids[MAX_ARMY_ID];
 static int	last_army_id = 0;
 
 
-/* PROTOTYPES */ 
+/* PROTOTYPES */
 void show_armies( CHAR_DATA* ch, CABAL_DATA* pc, char* name );
 void show_area_armies(CHAR_DATA* ch,AREA_DATA* area, CABAL_DATA* pCabal);
 int* gen_vars( int v0, int v1, int v2 );
@@ -180,7 +180,7 @@ ARMY_DATA* new_army(){
 }
 
 void free_army( ARMY_DATA* pa ){
-  
+
   //free path if any
   if (pa->path)
     clean_path_queue( pa->path );
@@ -221,7 +221,7 @@ void rem_army( ARMY_DATA* pa ){
     top_army--;
     return;
   }
-  
+
   for (; prev->next; prev = prev->next){
     if (prev->next == pa){
       prev->next = pa->next;
@@ -241,7 +241,7 @@ ARMY_INDEX_DATA* new_army_index(){
 }
 
 void free_army_index( ARMY_INDEX_DATA* pai ){
-  
+
   if (!IS_NULLSTR(pai->noun)){
     free_string( pai->noun );
   }
@@ -290,16 +290,16 @@ void fwrite_army_index( FILE* fp, ARMY_INDEX_DATA* pai ){
   fprintf( fp, "%s\n", fwrite_flag(pai->type, buf) );
   fprintf( fp, "%d\n", pai->cost );
   fprintf( fp, "%d\n", pai->support );
-  fprintf( fp, "%s\n", fwrite_flag(pai->army_flags, buf) );  
-  fprintf( fp, "%d %d %d\n", 
+  fprintf( fp, "%s\n", fwrite_flag(pai->army_flags, buf) );
+  fprintf( fp, "%d %d %d\n",
 	   pai->off_dice[DICE_NUMBER],
 	   pai->off_dice[DICE_TYPE],
 	   pai->off_dice[DICE_BONUS]);
-  fprintf( fp, "%d %d %d\n", 
+  fprintf( fp, "%d %d %d\n",
 	   pai->hit_dice[DICE_NUMBER],
 	   pai->hit_dice[DICE_TYPE],
 	   pai->hit_dice[DICE_BONUS]);
-  fprintf( fp, "%d %d %d\n", 
+  fprintf( fp, "%d %d %d\n",
 	   pai->arm_dice[DICE_NUMBER],
 	   pai->arm_dice[DICE_TYPE],
 	   pai->arm_dice[DICE_BONUS]);
@@ -318,7 +318,7 @@ bool fread_army_index( FILE* fp, ARMY_INDEX_DATA* pai, AREA_DATA* pArea, int vnu
   pai->type			= fread_flag( fp );
   pai->cost			= fread_number( fp );
   pai->support			= fread_number( fp );
-  pai->army_flags		= fread_flag( fp );    
+  pai->army_flags		= fread_flag( fp );
 
   pai->off_dice[DICE_NUMBER]	= fread_number( fp );
   pai->off_dice[DICE_TYPE]	= fread_number( fp );
@@ -363,7 +363,7 @@ ARMY_DATA* get_army_world( word ID ){
     if (pa->ID == ID)
       return pa;
   }
-  
+
   return NULL;
 }
 
@@ -403,7 +403,7 @@ void army_to_slot( ARMY_DATA* pa, int slot, bool fSilent ){
     bug("armies.c>army_to_slot: Army not in room. (%d)", pa->ID );
     return;
   }
-  
+
   if (pa->in_slot >= 0)
     army_from_slot( pa );
 
@@ -429,8 +429,8 @@ void army_to_slot( ARMY_DATA* pa, int slot, bool fSilent ){
 
   pa->in_slot = slot;
 }
-    
-  
+
+
 //moves an army out of a room
 void army_from_room( ARMY_DATA* pa ){
   int i;
@@ -440,7 +440,7 @@ void army_from_room( ARMY_DATA* pa ){
     bug("armies.c>army_from_room: army (%u) not in room.",  pa->ID);
     return;
   }
-  
+
   stop_attacking( pa );
 
   if ( (i = pa->in_slot) >= 0)
@@ -467,7 +467,7 @@ void army_to_room( ARMY_DATA* pa, ROOM_INDEX_DATA* pRoom ){
 
 
 
-  
+
 //creates a single ready to use army based on index
 ARMY_DATA* create_army( ARMY_INDEX_DATA* pIndex, CABAL_DATA* pCabal ){
   ARMY_DATA* pa;
@@ -568,7 +568,7 @@ void start_recruitment( CHAR_DATA* ch, bool fUpgrade, int num, int cost ){
     *timer = -1;
   }
   else{
-    sendf(ch, "%d units remaining to %s.\n\r", 
+    sendf(ch, "%d units remaining to %s.\n\r",
 	  *queue,
 	  fUpgrade ? "train" : "conscript");
     if (*timer < 1)
@@ -596,7 +596,7 @@ void army_cabal_ai( ARMY_DATA* pBas){
   char buf[MIL];
   int vnum, i;
   int armies;
-  
+
   if (pBas == NULL || room == NULL)
     return;
   else if (pBas->cabal_ai_life > 0)
@@ -609,7 +609,7 @@ void army_cabal_ai( ARMY_DATA* pBas){
     return;
 
   //check if the room is being attacked and we have space to defend
-  if (room->room_armies.bastions < 1 
+  if (room->room_armies.bastions < 1
       || room->room_armies.defenders  > 1
       || room->room_armies.attackers < 1)
     return;
@@ -623,7 +623,7 @@ void army_cabal_ai( ARMY_DATA* pBas){
      4) Can defend the room
      5) We have armies to defend with
   */
-  
+
   if (room->room_armies.defenders < 1)
     armies = 2;
   else
@@ -644,7 +644,7 @@ void army_cabal_ai( ARMY_DATA* pBas){
     if ( (pa = create_army(get_army_index( vnum ), pCab)) == NULL){
       return;
     }
-  
+
     /* set commander and order */
     set_army_commander( pa, pCab->name, RANK_ELDER - 1 );
     order_army( pa, AS_DEFE, gen_vars( room->vnum, 0, 0));
@@ -654,14 +654,14 @@ void army_cabal_ai( ARMY_DATA* pBas){
     //pa->lifetime is movement length + 1 turn to enter, + 1 to make new decision
     pBas->cabal_ai_life = 2 + pa->lifetime;
 
-    sprintf( buf, "%s %s confirmed.", 
-	     capitalize(state_table[pa->order].name), 
+    sprintf( buf, "%s %s confirmed.",
+	     capitalize(state_table[pa->order].name),
 	     room->name );
     army_report( pa, buf, REPORT_NEUT, FALSE );
   }
 
 }
-  
+
 /* Main army AI function, switches states based on current state */
 void army_ai( ARMY_DATA* pa ){
   int lifetime = 0, to_vnum, from_vnum;
@@ -729,19 +729,19 @@ void army_ai( ARMY_DATA* pa ){
     /* if nothing in room to attack, check if can patrol, or return */
     else{
       if (can_patrol(NULL, pa, pa->in_room, pa->pCabal, TRUE)){
-	/* set current state to patrol, set over all order to return 
+	/* set current state to patrol, set over all order to return
 	   so we return after patrol is over
 	*/
 	pa->order = AS_RETU;
 	lifetime = state_table[AS_PATR].lifetime;
 	set_state(pa, AS_PATR, 0, gen_vars( pa->vars[0], 0, 0));
-	
+
 	sprintf(buf, "Nothing to attack in %s.", pa->in_room->name);
 	army_report( pa, buf, REPORT_NEUT, FALSE );
       }
       else{
 	lifetime = state_table[AS_RETU].lifetime;
-	set_state(pa, AS_RETU, 0, gen_vars( 0, 0, 0));      
+	set_state(pa, AS_RETU, 0, gen_vars( 0, 0, 0));
 	sprintf(buf, "No enemies in %s.", pa->in_room->name);
 	army_report( pa, buf, REPORT_NEUT, FALSE );
       }
@@ -765,18 +765,18 @@ void army_ai( ARMY_DATA* pa ){
     else{
       //if there is no space for defense, but there are attackers circle
       //If we've already circled then vars2 is TRUE
-      if (!pa->vars[2] 
+      if (!pa->vars[2]
 	  && (INROOM_ATTACKERS - 1 - count_defenders( pa->in_room, FALSE)) < 1
 	  && get_defend_target( pa->pCabal, pa->in_room )){
 	//we leave order as is, as we want to try to defend after shadowing
 	lifetime = state_table[AS_CIRC].lifetime;
 	//set v0 to updates we want to shadow for
-	set_state(pa, AS_CIRC, -1, gen_vars( 0, 0, lifetime));      
+	set_state(pa, AS_CIRC, -1, gen_vars( 0, 0, lifetime));
 	sprintf(buf, "Circling. Lacking space to defend.");
 	army_report( pa, buf, REPORT_NEUT, TRUE );
       }
       else if (can_patrol(NULL, pa, pa->in_room, pa->pCabal, TRUE)){
-	/* set current state to patrol, set over all order to return 
+	/* set current state to patrol, set over all order to return
 	   so we return after patrol is over
 	*/
 	pa->order = AS_RETU;
@@ -788,7 +788,7 @@ void army_ai( ARMY_DATA* pa ){
       //return
       else{
 	lifetime = state_table[AS_RETU].lifetime;
-	set_state(pa, AS_RETU, 0, gen_vars( 0, 0, 0));      
+	set_state(pa, AS_RETU, 0, gen_vars( 0, 0, 0));
 	sprintf(buf, "Returning. Cannot defend area.");
 	army_report( pa, buf, REPORT_NEUT, TRUE );
       }
@@ -808,15 +808,15 @@ void army_ai( ARMY_DATA* pa ){
     */
     else if (pa->vars[2] == 0 && count_attackers(pa->in_room) > 0){
       lifetime = state_table[AS_SHAD].lifetime;
-      set_state(pa, AS_SHAD, 0, gen_vars( 0, 0, lifetime));      
+      set_state(pa, AS_SHAD, 0, gen_vars( 0, 0, lifetime));
       sprintf(buf, "Circling. Can't garrison due to battle.");
       army_report( pa, buf, REPORT_BAD, TRUE );
     }
     /* if not in wrong room, check if we can bastion, if not return */
-    else if (count_attackers(pa->in_room) > 0 
+    else if (count_attackers(pa->in_room) > 0
 	     || !can_bastion( NULL, pa, pa->in_room, pa->pCabal, TRUE )){
       lifetime = state_table[AS_RETU].lifetime;
-      set_state(pa, AS_RETU, 0, gen_vars( 0, 0, 0));      
+      set_state(pa, AS_RETU, 0, gen_vars( 0, 0, 0));
       sprintf(buf, "Can't garrison %s.", pa->in_room->area->name);
       army_report( pa, buf, REPORT_NEUT, TRUE );
     }
@@ -834,7 +834,7 @@ void army_ai( ARMY_DATA* pa ){
       //can we start fortifications?
       if (!can_fortify( NULL, pa->in_room, pa->pCabal, TRUE )){
 	lifetime = state_table[AS_RETU].lifetime;
-	set_state(pa, AS_RETU, 0, gen_vars( 0, 0, 0));      
+	set_state(pa, AS_RETU, 0, gen_vars( 0, 0, 0));
 	sprintf(buf, "Unable to fortify %s.", pa->in_room->name);
 	army_report( pa, buf, REPORT_NEUT, TRUE );
       }
@@ -849,7 +849,7 @@ void army_ai( ARMY_DATA* pa ){
       /* check for not being able to build a garrison anymore */
       if (pa->vars[2] && !can_fortify( NULL, pa->in_room, pa->pCabal, TRUE )){
 	lifetime = state_table[AS_RETU].lifetime;
-	set_state(pa, AS_RETU, 0, gen_vars( 0, 0, 0));      
+	set_state(pa, AS_RETU, 0, gen_vars( 0, 0, 0));
 	sprintf(buf, "Unable to fortify %s.", pa->in_room->name);
 	army_report( pa, buf, REPORT_BAD, TRUE );
 	pa->vars[2] = 0;
@@ -860,7 +860,7 @@ void army_ai( ARMY_DATA* pa ){
       */
       else if (count_attackers(pa->in_room) > 0){
 	lifetime = state_table[AS_SHAD].lifetime;
-	set_state(pa, AS_SHAD, 0, gen_vars( 0, 0, lifetime));      
+	set_state(pa, AS_SHAD, 0, gen_vars( 0, 0, lifetime));
 	sprintf(buf, "Circling.  Fortification interrupted by battle.");
 	army_report( pa, buf, REPORT_BAD, TRUE );
       }
@@ -878,9 +878,9 @@ void army_ai( ARMY_DATA* pa ){
     /* try to get the path to the destination */
     if ( (lifetime = set_army_path( pa, from_vnum, to_vnum)) < 0){
       lifetime = state_table[AS_RETU].lifetime;
-      set_state(pa, AS_RETU, 0, gen_vars( 0, 0, 0));      
+      set_state(pa, AS_RETU, 0, gen_vars( 0, 0, 0));
       sprintf(buf, "Returning. Could not reach destination.");
-      army_report( pa, buf, REPORT_NEUT, TRUE );      
+      army_report( pa, buf, REPORT_NEUT, TRUE );
       break;
     }
     //lifetime set by set_army_path above
@@ -913,7 +913,7 @@ void army_ai( ARMY_DATA* pa ){
       if (pa->order != AS_PATR){
 	set_state(pa, pa->order, 0, pa->ovars);
 	sprintf(buf, "Commencing %s.  Finished patroling.", state_table[pa->order].name);
-	army_report( pa, buf, REPORT_NEUT, TRUE );      
+	army_report( pa, buf, REPORT_NEUT, TRUE );
       }
       else{
 	//no reason to return, reset lifetime untill next check
@@ -923,7 +923,7 @@ void army_ai( ARMY_DATA* pa ){
     /* if right room, but not in slot check if we can patrol, if not return */
     else if (!can_patrol( NULL, pa, pa->in_room, pa->pCabal, TRUE )){
       lifetime = state_table[AS_RETU].lifetime;
-      set_state(pa, AS_RETU, 0, gen_vars( 0, 0, 0));      
+      set_state(pa, AS_RETU, 0, gen_vars( 0, 0, 0));
       sprintf(buf, "Could not patrol %s.", pa->in_room->name);
       army_report( pa, buf, REPORT_NEUT, TRUE );
     }
@@ -931,8 +931,8 @@ void army_ai( ARMY_DATA* pa ){
 //SHADOW: Stay around the room untill v2 runs out
 //	  or there are no more enemies.  Then revert to order.
   case AS_SHAD:
-    if (pa->in_room == NULL 
-	|| --pa->vars[2] < 1 
+    if (pa->in_room == NULL
+	|| --pa->vars[2] < 1
 	|| count_attackers(pa->in_room) < 1){
       //revert to original order but v2 is now TRUE
       set_state(pa, pa->order, 1, gen_vars(pa->ovars[0], pa->ovars[1], 1) );
@@ -941,8 +941,8 @@ void army_ai( ARMY_DATA* pa ){
 //CIRCLE: Stay around the room untill v2 runs out
 //	  or there are empty defender slots.  Then revert to order.
   case AS_CIRC:
-    if (pa->in_room == NULL 
-	|| --pa->vars[2] < 1 
+    if (pa->in_room == NULL
+	|| --pa->vars[2] < 1
 	|| (INROOM_ATTACKERS - 1 - count_defenders(pa->in_room, FALSE) > 0)){
       //revert to original order but v2 is now TRUE
       set_state(pa, pa->order, 1, gen_vars(pa->ovars[0], pa->ovars[1], 1) );
@@ -955,7 +955,7 @@ void army_ai( ARMY_DATA* pa ){
 //This function should NEVER switch state
 void army_action( ARMY_DATA* pa ){
   int lifetime = 0;
-  
+
   switch (pa->state){
   default:
     return;
@@ -1064,7 +1064,7 @@ void army_action( ARMY_DATA* pa ){
     army_return( pa );
     break;
   }
-}  
+}
 
 /* gives an army an order.  Use this to give an army its general order */
 void order_army( ARMY_DATA* pa, sh_int state, int* vars ){
@@ -1118,7 +1118,7 @@ bool can_bastion(CHAR_DATA* ch,  ARMY_DATA* pa, ROOM_INDEX_DATA* in_room, CABAL_
     /* check money */
     if (GET_CAB_CP(pc) < pai->cost){
       if (!fQuiet){
-	sendf(ch, "[%s] coffers must hold at least %d %ss in order to construct a bastion.\n\r", 
+	sendf(ch, "[%s] coffers must hold at least %d %ss in order to construct a bastion.\n\r",
 	      pc->who_name,
 	      pai->cost,
 	      pc->currency);
@@ -1136,7 +1136,7 @@ bool can_bastion(CHAR_DATA* ch,  ARMY_DATA* pa, ROOM_INDEX_DATA* in_room, CABAL_
   else if ( in_room->area->pCabal
 	    && is_friendly( pc, in_room->area->pCabal) == CABAL_NEUTRAL){
     if (!fQuiet)
-      sendf( ch, "You will have to declare a Vendetta against %s before taking armed action against them!\n\r", 
+      sendf( ch, "You will have to declare a Vendetta against %s before taking armed action against them!\n\r",
 	     in_room->area->pCabal->who_name);
     return FALSE;
   }
@@ -1178,7 +1178,7 @@ bool can_bastion(CHAR_DATA* ch,  ARMY_DATA* pa, ROOM_INDEX_DATA* in_room, CABAL_
     if (in_room->room_armies.armies[i] == NULL)
       def++;
   }
-  /* two cases 
+  /* two cases
      1) Bastion is not there, we can garrison
      2) Bastion is there we can garrison if:
      a) bastion is friendly
@@ -1191,8 +1191,8 @@ bool can_bastion(CHAR_DATA* ch,  ARMY_DATA* pa, ROOM_INDEX_DATA* in_room, CABAL_
       return FALSE;
     }
     else if (def < 1
-	     && (pa == NULL 
-		 || pa->in_room != in_room 
+	     && (pa == NULL
+		 || pa->in_room != in_room
 		 || pa->in_slot <= INROOM_BASTION
 		 || pa->in_slot >= INROOM_ATTACKERS)
 	     ){
@@ -1201,7 +1201,7 @@ bool can_bastion(CHAR_DATA* ch,  ARMY_DATA* pa, ROOM_INDEX_DATA* in_room, CABAL_
       return FALSE;
     }
   }
-  
+
   /* all seems good */
   return TRUE;
 }
@@ -1259,7 +1259,7 @@ bool can_patrol(CHAR_DATA* ch,  ARMY_DATA* pa, ROOM_INDEX_DATA* in_room, CABAL_D
     return FALSE;
   }
 /* cannot take over cabal areas */
-  else if (in_room->area->pCabal && in_room->area->pCabal->anchor 
+  else if (in_room->area->pCabal && in_room->area->pCabal->anchor
 	   && in_room->area->pCabal->anchor->area == in_room->area){
     if (!fQuiet)
       send_to_char("You cannot patrol inside a Cabal!\n\r", ch );
@@ -1269,7 +1269,7 @@ bool can_patrol(CHAR_DATA* ch,  ARMY_DATA* pa, ROOM_INDEX_DATA* in_room, CABAL_D
   else if ( in_room->area->pCabal
 	    && is_friendly( pc, in_room->area->pCabal) == CABAL_NEUTRAL){
     if (!fQuiet)
-      sendf( ch, "You will have to declare a Vendetta against %s before taking armed action against them!\n\r", 
+      sendf( ch, "You will have to declare a Vendetta against %s before taking armed action against them!\n\r",
 	     in_room->area->pCabal->who_name);
     return FALSE;
   }
@@ -1300,7 +1300,7 @@ bool can_relocate(CHAR_DATA* ch, ARMY_DATA* pa, bool fQuiet ){
   /* safety */
   if (ch == NULL)
     fQuiet = TRUE;
-  
+
   //is army in room
   if (pa->in_room == NULL){
     if (!fQuiet)
@@ -1369,7 +1369,7 @@ bool can_return(CHAR_DATA* ch,  ROOM_INDEX_DATA* in_room, ARMY_DATA* pa, bool fQ
 //checks if army can/has anything to attack in room
 bool can_attack(CHAR_DATA* ch,  ARMY_DATA* pa, ROOM_INDEX_DATA* in_room, CABAL_DATA* pc, bool fQuiet ){
   int att = 0;
-  
+
   /* safety */
   if (ch == NULL)
     fQuiet = TRUE;
@@ -1386,7 +1386,7 @@ bool can_attack(CHAR_DATA* ch,  ARMY_DATA* pa, ROOM_INDEX_DATA* in_room, CABAL_D
     return FALSE;
   }
 /* cannot take over cabal areas */
-  else if (in_room->area->pCabal && in_room->area->pCabal->anchor 
+  else if (in_room->area->pCabal && in_room->area->pCabal->anchor
 	   && in_room->area->pCabal->anchor->area == in_room->area){
     if (!fQuiet)
       send_to_char("You cannot attack inside a Cabal!\n\r", ch );
@@ -1396,13 +1396,13 @@ bool can_attack(CHAR_DATA* ch,  ARMY_DATA* pa, ROOM_INDEX_DATA* in_room, CABAL_D
   else if ( in_room->area->pCabal
 	    && is_friendly( pc, in_room->area->pCabal) == CABAL_NEUTRAL){
     if (!fQuiet)
-      sendf( ch, "You will have to declare a Vendetta against %s before taking armed action against them!\n\r", 
+      sendf( ch, "You will have to declare a Vendetta against %s before taking armed action against them!\n\r",
 	     in_room->area->pCabal->who_name);
     return FALSE;
   }
   /* check if any attacker slots open */
-  if (pa == NULL || 
-      pa->in_room == NULL || pa->in_room != in_room 
+  if (pa == NULL ||
+      pa->in_room == NULL || pa->in_room != in_room
       || pa->in_slot < 0 || pa->in_slot < INROOM_ATTACKERS){
     att = INROOM_MAXARMIES - INROOM_ATTACKERS - count_attackers( in_room);
     if (att < 1){
@@ -1424,7 +1424,7 @@ bool can_attack(CHAR_DATA* ch,  ARMY_DATA* pa, ROOM_INDEX_DATA* in_room, CABAL_D
 //checks if army can/has anything to defend from in room
 bool can_defend(CHAR_DATA* ch,  ARMY_DATA* pa, ROOM_INDEX_DATA* in_room, CABAL_DATA* pc, bool fQuiet ){
   int def = 0;
-  
+
   /* safety */
   if (ch == NULL)
     fQuiet = TRUE;
@@ -1441,7 +1441,7 @@ bool can_defend(CHAR_DATA* ch,  ARMY_DATA* pa, ROOM_INDEX_DATA* in_room, CABAL_D
     return FALSE;
   }
 /* cannot take over cabal areas */
-  else if (in_room->area->pCabal && in_room->area->pCabal->anchor 
+  else if (in_room->area->pCabal && in_room->area->pCabal->anchor
 	   && in_room->area->pCabal->anchor->area == in_room->area){
     if (!fQuiet)
       send_to_char("You cannot attack inside a Cabal!\n\r", ch );
@@ -1451,16 +1451,16 @@ bool can_defend(CHAR_DATA* ch,  ARMY_DATA* pa, ROOM_INDEX_DATA* in_room, CABAL_D
   else if ( in_room->area->pCabal
 	    && is_friendly( pc, in_room->area->pCabal) == CABAL_NEUTRAL){
     if (!fQuiet)
-      sendf( ch, "You will have to declare a Vendetta against %s before taking armed action against them!\n\r", 
+      sendf( ch, "You will have to declare a Vendetta against %s before taking armed action against them!\n\r",
 	     in_room->area->pCabal->who_name);
     return FALSE;
   }
   /* check if any attacker slots open */
-  if (pa == NULL 
+  if (pa == NULL
       || pa->in_room == NULL || pa->in_room != in_room
       || pa->in_slot < 0 || pa->in_slot >= INROOM_ATTACKERS){
     def = INROOM_ATTACKERS - 1 - count_defenders( in_room, FALSE);
-    
+
     if (def < 1){
       if (!fQuiet)
 	send_to_char("Unable to defend due to lack of space.\n\r", ch);
@@ -1524,7 +1524,7 @@ ARMY_DATA* bastion_room( ROOM_INDEX_DATA* room, CABAL_DATA* pc, int hp){
   }
   CP_CAB_GAIN( pc, -pai->cost);
 
-  sprintf( buf, "%d %ss have been drawn from coffers to cover construction.", 
+  sprintf( buf, "%d %ss have been drawn from coffers to cover construction.",
 	   pai->cost,
 	   pc->currency);
   cabal_echo(pc, buf );
@@ -1562,16 +1562,16 @@ bool army_leave(ARMY_DATA* pa ){
   return TRUE;
 }
 
-/* moves an army to designated room vnum if possible 
- * will switch armies state if something happends along the way 
- * returns TRUE on normal uneventful move 
+/* moves an army to designated room vnum if possible
+ * will switch armies state if something happends along the way
+ * returns TRUE on normal uneventful move
  *
  * Follows the path room by room and tests for patrols
  * If hostile ungarrisoned, defender detected:
    1) If attack slots open, attack
    2) If attacks slots not open enter state untill can attack or leave
 */
-   
+
 bool army_move( ARMY_DATA* pa ){
   PATH_QUEUE* curr = pa->path;
   ROOM_INDEX_DATA* last_room = NULL;
@@ -1587,7 +1587,7 @@ bool army_move( ARMY_DATA* pa ){
     //if this is an army with attack order to this room ignore
     else if (pa->order == AS_ATTA && pa->vars[0] == curr->room->vnum)
       continue;
-    // possibility of intercept, enter rooom 
+    // possibility of intercept, enter rooom
     army_to_room( pa, curr->room );
     //check for intercept
     if (!army_intercept( pa ))
@@ -1659,14 +1659,14 @@ bool army_garrison( ARMY_DATA* pa ){
     }
     else{
       set_army_commander( pBas, pBas->pCabal->name, pa->command_rank );
-      //report in 
+      //report in
       sprintf( buf, "Constructed bastion[#%-4d] at %-20.20s``.", pBas->ID, pBas->in_room->name);
       army_report( pa, buf, REPORT_GOOD, TRUE );
       if (pa->in_room->people){
-	act("$t construct $T in the area.",  
-	    pa->in_room->people, 
-	    pa->short_desc, 
-	    pBas->short_desc, 
+	act("$t construct $T in the area.",
+	    pa->in_room->people,
+	    pa->short_desc,
+	    pBas->short_desc,
 	    TO_ALL);
       }
     }
@@ -1686,10 +1686,10 @@ bool army_garrison( ARMY_DATA* pa ){
       order_army( pa, AS_NONE, gen_vars(0, 0, 0));
 
       if (pa->in_room->people){
-	act("$t garrison $T.",  
-	    pa->in_room->people, 
-	    pa->short_desc, 
-	    pBas->short_desc, 
+	act("$t garrison $T.",
+	    pa->in_room->people,
+	    pa->short_desc,
+	    pBas->short_desc,
 	    TO_ALL);
       }
       //report in
@@ -1737,27 +1737,27 @@ bool army_fortify( ARMY_DATA* pa ){
 
   /* bastion must exists if can_fortify worked */
   if (pa->in_room->people){
-    act("$t completes the fortifications.",  
-	pa->in_room->people, 
-	pa->short_desc, 
-	NULL, 
+    act("$t completes the fortifications.",
+	pa->in_room->people,
+	pa->short_desc,
+	NULL,
 	TO_ALL);
   }
-  //report in 
-  sprintf( buf, "Fortified bastion[#%-4d] at %s.", 
+  //report in
+  sprintf( buf, "Fortified bastion[#%-4d] at %s.",
 	   room->room_armies.armies[INROOM_BASTION]->ID,
 	   room->name);
   army_report( pa, buf, REPORT_GOOD, TRUE );
 
   /* extract fortifying army */
   extract_army( pa );
-  
+
   /* store current hp */
   hit = room->room_armies.armies[INROOM_BASTION]->hit;
   /* extract old bastion */
   extract_army(room->room_armies.armies[INROOM_BASTION]);
 
-  //create an upgraded version 
+  //create an upgraded version
   if ( (pBas = create_army( get_army_index( pc->pIndexData->tower_upgrade ), pc)) == NULL){
     bug("armies.c->army_fortify: could not create bastion. (%d)", pc->pIndexData->tower_upgrade);
     return FALSE;
@@ -1767,7 +1767,7 @@ bool army_fortify( ARMY_DATA* pa ){
   //set upgrade start hp to 1/2 if not elite old bastion's hp
   if (!fElite)
     pBas->hit = 1 + pBas->hit / 2;
-  
+
   /* put it in room and into bastion slot */
   army_to_room( pBas, room );
   army_to_slot( pBas, INROOM_BASTION, FALSE );
@@ -1801,10 +1801,10 @@ bool army_patrol( ARMY_DATA* pa ){
       army_to_slot( pa, i, FALSE );
 
       if (pa->in_room->people){
-	act("$t begins to patrol the area.",  
-	    pa->in_room->people, 
-	    pa->short_desc, 
-	    NULL, 
+	act("$t begins to patrol the area.",
+	    pa->in_room->people,
+	    pa->short_desc,
+	    NULL,
 	    TO_ALL);
       }
       //report in
@@ -1833,7 +1833,7 @@ void stop_attacking( ARMY_DATA* pa ){
 	  pa->noun, pa->ID);
     for (hash = 0; hash < ARMY_HASH_SIZE; hash++){
       for (tpa = army_list[hash]; tpa; tpa = pa_next){
-	pa_next = tpa->next; 
+	pa_next = tpa->next;
 	if (tpa->attacking == pa)
 	  tpa->attacking = NULL;
       }
@@ -1887,12 +1887,12 @@ void ally_attack_check( ARMY_DATA* att, ARMY_DATA* def, bool fQuiet ){
 	  army_report( pa, buf, REPORT_GOOD, TRUE );
 	}
 	else{
-	  sprintf( buf, "Providing support to %s's %s[#%-4d].", 
+	  sprintf( buf, "Providing support to %s's %s[#%-4d].",
 		   def->pCabal->name,
 		   def->noun,
 		   def->ID);
 	  army_report( pa, buf, REPORT_GOOD, TRUE );
-	  sprintf( buf, "%s's %s[#%-4d] providing support.", 
+	  sprintf( buf, "%s's %s[#%-4d] providing support.",
 		   pa->pCabal->name,
 		   pa->noun,
 		   pa->ID);
@@ -1921,7 +1921,7 @@ bool army_attack( ARMY_DATA* pa ){
     fQuiet = FALSE;
     for (i = INROOM_ATTACKERS; i < INROOM_MAXARMIES; i++){
       if (pa->in_room->room_armies.armies[i] == NULL){
-	
+
 	/* insert into slot */
 	army_to_slot( pa, i, FALSE );
 	//report ion
@@ -1936,15 +1936,15 @@ bool army_attack( ARMY_DATA* pa ){
     return TRUE;
   }
   if (pa->in_room->people){
-    act("$t begins battle with $T.",  
-	pa->in_room->people, 
-	pa->short_desc, 
-	tar->short_desc, 
+    act("$t begins battle with $T.",
+	pa->in_room->people,
+	pa->short_desc,
+	tar->short_desc,
 	TO_ALL);
   }
   //report to enemies
-  sprintf( buf, "Attacked by %s[#%-4d] in %s.", 
-	   pa->noun, 
+  sprintf( buf, "Attacked by %s[#%-4d] in %s.",
+	   pa->noun,
 	   pa->ID,
 	   tar->in_room->area->name);
   army_report( tar, buf, REPORT_BAD, TRUE );
@@ -1989,10 +1989,10 @@ bool army_intercept( ARMY_DATA* pa ){
 	ally_attack_check(pa, pTar, TRUE );
 
 	if (pa->in_room->people){
-	  act("$T intercepts $t as it moves past.",  
-	      pa->in_room->people, 
-	      pa->short_desc, 
-	      pTar->short_desc, 
+	  act("$T intercepts $t as it moves past.",
+	      pa->in_room->people,
+	      pa->short_desc,
+	      pTar->short_desc,
 	      TO_ALL);
 	}
 	//report in
@@ -2026,7 +2026,7 @@ bool army_defend( ARMY_DATA* pa ){
     fQuiet = FALSE;
     for (i = INROOM_DEFENDERS; i < INROOM_ATTACKERS; i++){
       if (pa->in_room->room_armies.armies[i] == NULL){
-	
+
 	/* insert into slot */
 	army_to_slot( pa, i, FALSE );
 
@@ -2042,15 +2042,15 @@ bool army_defend( ARMY_DATA* pa ){
     return TRUE;
   }
   if (pa->in_room->people){
-    act("$t manouvers to defend the area.",  
-	pa->in_room->people, 
-	pa->short_desc, 
+    act("$t manouvers to defend the area.",
+	pa->in_room->people,
+	pa->short_desc,
 	NULL,
 	TO_ALL);
   }
   //report to enemies
-  sprintf( buf, "Attacked by %s[#%-4d] in %s.", 
-	   pa->noun, 
+  sprintf( buf, "Attacked by %s[#%-4d] in %s.",
+	   pa->noun,
 	   pa->ID,
 	   tar->in_room->area->name);
   army_report( tar, buf, REPORT_BAD, TRUE );
@@ -2083,7 +2083,7 @@ void init_repq( REPORT_QUEUE* q){
 
 //create a new report
 ARMY_REPORT* new_report( char* string ){
-  ARMY_REPORT* pRep = malloc( sizeof( *pRep )); 
+  ARMY_REPORT* pRep = malloc( sizeof( *pRep ));
 
   memset( pRep, 0, sizeof( ARMY_REPORT ));
 
@@ -2098,7 +2098,7 @@ void free_report( ARMY_REPORT* pRep ){
 
   if (!IS_NULLSTR( pRep->string ))
     free_string( pRep->string );
-  
+
   free( pRep );
 }
 
@@ -2123,7 +2123,7 @@ void pop_report(  REPORT_QUEUE* q ){
 void add_report( REPORT_QUEUE* q, ARMY_REPORT* pRep ){
   if (q == NULL || pRep == NULL)
     return;
-  
+
   pRep->next		= q->bot.next;
   pRep->next->prev	= pRep;
   pRep->prev		= &q->bot;
@@ -2157,12 +2157,12 @@ bool is_commander( CHAR_DATA* ch, ARMY_DATA* pa ){
   else
     return (!str_cmp(ch->name, pa->commander));
 }
-  
+
 //counts how many attackers in area
 int count_attackers( ROOM_INDEX_DATA* room ){
   int i;
   int count = 0;
-  
+
   for (i = INROOM_ATTACKERS; i < INROOM_MAXARMIES; i++){
     if (room->room_armies.armies[i] != NULL)
       count++;
@@ -2214,11 +2214,11 @@ ARMY_DATA* get_attack_target( CABAL_DATA* pc, ROOM_INDEX_DATA* pRoom ){
     }
   }
   /* get bastion from here */
-  if (low_spot == -1 
+  if (low_spot == -1
       && (pBas = get_bastion( pRoom )) != NULL
       && is_friendly( pc, pBas->pCabal) == CABAL_ENEMY)
     low_spot = pBas->in_slot;
-  
+
   if (low_spot == -1)
     return NULL;
   else
@@ -2247,7 +2247,7 @@ ARMY_DATA* get_defend_target( CABAL_DATA* pc, ROOM_INDEX_DATA* pRoom ){
       low_spot = i;
     }
   }
-  
+
   if (low_spot == -1)
     return NULL;
   else
@@ -2276,7 +2276,7 @@ void army_make_corpse( ARMY_DATA* pa, ROOM_INDEX_DATA* room ){
     obj = create_object( get_obj_index( OBJ_VNUM_ARMY_CORPSE), 60 );
   if (obj == NULL)
     return;
-  
+
 
   //set the strings
   sprintf( buf, obj->name, pa->noun );
@@ -2364,12 +2364,12 @@ void army_death( ARMY_DATA* att, ARMY_DATA* def ){
     //echo to cabal of defeated army
     sprintf(buf, "%s by %s[#%-4d].", word, att->noun, att->ID );
     army_report( def, buf, REPORT_BAD, TRUE );
-    
+
     //echo to cabal of attacking army
     if (def->pIndexData->type == ARMY_TYPE_BASTION){
       ROOM_INDEX_DATA* room = def->in_room;
       ARMY_INDEX_DATA* pai;
-      
+
       //reward
       cp_event_army( att, def->pCabal, NULL, CP_EVENT_SIEGE );
 
@@ -2380,11 +2380,11 @@ void army_death( ARMY_DATA* att, ARMY_DATA* def ){
 	extract_army( def );
 	return;
       }
-      
+
       //extract the defeated bastion, and put in a fresh one of ours
       extract_army( def );
       def = bastion( pai, room, att->pCabal,  1);
-      
+
       sprintf(buf, "Captured enemy bastion.[#%-4d].", def->ID );
       army_report( att, buf, REPORT_GOOD, TRUE );
       return;
@@ -2416,14 +2416,14 @@ void army_death( ARMY_DATA* att, ARMY_DATA* def ){
      3.1) Is enemy dead? (army_death)
      3.2) Return damage done
 */
-     
+
 int army_combat( ARMY_DATA* pa ){
   int dam, dam_splash = 0;
   //  int a_sup, d_sup;
 
   if (pa->attacking == NULL)
     return 0;
-  if (pa->pIndexData->type == ARMY_TYPE_BASTION 
+  if (pa->pIndexData->type == ARMY_TYPE_BASTION
       && pa->state != AS_FIGH)
     return 0;
   else if (pa->state != AS_FIGH)
@@ -2441,7 +2441,7 @@ int army_combat( ARMY_DATA* pa ){
 
   /* disabled as not needed
   //underdog modifier for cabals with low support.
-  if (pa->pCabal->present > 0 
+  if (pa->pCabal->present > 0
       && (a_sup = pa->pCabal->support[ECO_INCOME]) < CABAL_UNDERDOG_SUP
       && (d_sup = pa->attacking->pCabal->support[ECO_INCOME]) > CABAL_UNDERDOG_SUP){
     dam = URANGE(dam, dam * (1 + (4 * (CABAL_UNDERDOG_SUP - a_sup)) / CABAL_UNDERDOG_SUP), 5 * dam);
@@ -2451,7 +2451,7 @@ int army_combat( ARMY_DATA* pa ){
   if (pa->pCabal->present > 0 && pa->in_room){
     CHAR_DATA* ch = pa->in_room->people;
     int temp = 0, mod = 0;
-    
+
     for (; ch; ch = ch->next_in_room){
       if (ch->pCabal == NULL || IS_NPC(ch) || !IS_AWAKE(ch) || !is_same_cabal(ch->pCabal, pa->pCabal))
 	continue;
@@ -2463,7 +2463,7 @@ int army_combat( ARMY_DATA* pa ){
     if ( pa->attacking->pCabal->present > 0 )
       dam += mod * dam / 100;
   }
-    
+
   if (IS_ARMY(pa, ARMY_FLAG_FLYING))
     dam_splash = dam / 4;
 
@@ -2473,7 +2473,7 @@ int army_combat( ARMY_DATA* pa ){
   /* damage target */
   pa->attacking->hit -= dam;
 
-  /* DEBUG 
+  /* DEBUG
   if (pa->pIndexData->type == ARMY_TYPE_BASTION && pa->in_room->people){
     char buf[MIL];
     sprintf( buf, "%s did %d damage to %s(%d/%d)",
@@ -2515,7 +2515,7 @@ int army_combat( ARMY_DATA* pa ){
 void army_combat_update(){
   ARMY_DATA* pa, *pa_next;
   int hash;
-  
+
   /* to avoid problems with extraction, there are following pahses *
      - Start of loop
      1) Is this army dead? (army_death)
@@ -2530,7 +2530,7 @@ void army_combat_update(){
   for (hash = 0; hash < ARMY_HASH_SIZE; hash++){
     for (pa = army_list[hash]; pa; pa = pa_next){
       pa_next = pa->next;
-      
+
       /* if army is dead, kill it and continue */
       if (is_army_dead( pa )){
 	stop_attacking( pa );
@@ -2546,7 +2546,7 @@ void army_combat_update(){
       /* rudimentary ai for cabal with no members */
       /* called only if this is a bastion */
       /* disabled as not needed
-      if (pa->in_slot == INROOM_BASTION 
+      if (pa->in_slot == INROOM_BASTION
 	  && (pa->state == AS_FIGH || pa->state == AS_BESE))
 	army_cabal_ai( pa );
       */
@@ -2578,7 +2578,7 @@ int set_army_path( ARMY_DATA* pa, int src_vnum, int dest_vnum ){
 
   if ( (path = generate_path(src, dest, ARMY_PATH_MAX, TRUE, &dist, pa->pCabal)) == NULL)
     return -1;
-  
+
   clean_path();
   if (pa->path)
     clean_path_queue( pa->path );
@@ -2595,7 +2595,7 @@ int set_army_path( ARMY_DATA* pa, int src_vnum, int dest_vnum ){
     dur = dur / 2;
   return (UMAX(0, dur));
 }
-  
+
 /* calculates support this army uses in given area */
 int get_army_support( ARMY_DATA* pa, AREA_DATA* area ){
 
@@ -2603,7 +2603,7 @@ int get_army_support( ARMY_DATA* pa, AREA_DATA* area ){
     return 0;
   else if (!IS_ARMY(pa, ARMY_FLAG_GARRISON))
     return 0;
-  else 
+  else
     return (pa->pIndexData->support * area->support/(100 * area->bastion_max));
 }
 
@@ -2650,8 +2650,8 @@ void fwrite_army( FILE* fp, ARMY_DATA* pa ){
     fprintf( fp, "Flags %s\n",		fwrite_flag( pa->army_flags, buf ) );
   if (pa->cabal_ai_life)
     fprintf( fp, "AiLife  %d\n",		pa->cabal_ai_life);
-  
-/* loaded from indexes each time 
+
+/* loaded from indexes each time
   if (str_cmp( pa->noun, pa->pIndexData->noun))
     fprintf( fp, "Noun %s~\n",		pa->noun );
   if (str_cmp( pa->short_desc, pa->pIndexData->short_desc))
@@ -2733,7 +2733,7 @@ void fread_influence( FILE* fp, int vnum ){
       fread_number( fp );
   }
 }
-  
+
 /* read a single army from file */
 ARMY_DATA* fread_army( FILE* fp, int vnum ){
   ARMY_DATA* pa;
@@ -2820,7 +2820,7 @@ ARMY_DATA* fread_army( FILE* fp, int vnum ){
 	for (i = 0; i < max && i < DICE_BONUS; i++){
 	  pa->off_dice[i]	=	fread_number( fp );
 	}
-	
+
 	fMatch = TRUE;
 	break;
       }
@@ -2869,7 +2869,7 @@ ARMY_DATA* fread_army( FILE* fp, int vnum ){
 	  pa->ovars[i]	=	fread_number( fp );
 	  pa->vars[i]	=	fread_number( fp );
 	}
-	
+
 	fMatch = TRUE;
 	break;
       }
@@ -2966,7 +2966,7 @@ bool set_focus( CHAR_DATA* ch, ROOM_INDEX_DATA* focus ){
     SET_LASTFOCUS( ch, last );
   return TRUE;
 }
-  
+
 
 //returns focus of an army
 ROOM_INDEX_DATA* get_army_focus( CHAR_DATA* ch, int ID ){
@@ -3042,7 +3042,7 @@ void show_army_screen( CHAR_DATA* ch, ROOM_INDEX_DATA* room ){
 	 fBlind ? "???" : room->name);
   send_to_char("\n\r",ch);
   if (room->room_armies.count){
-    examine_room_armies(ch, &room->room_armies );      
+    examine_room_armies(ch, &room->room_armies );
   }
   else
     send_to_char("No units spotted.\n\r", ch);
@@ -3050,7 +3050,7 @@ void show_army_screen( CHAR_DATA* ch, ROOM_INDEX_DATA* room ){
 
 //shows report queue
 void army_order_queue( CHAR_DATA* ch ){
-  
+
   show_report_q(&get_parent(ch->pCabal)->report_q, ch );
 }
 
@@ -3058,7 +3058,7 @@ void army_order_queue( CHAR_DATA* ch ){
 void army_order_map( CHAR_DATA* ch, char* argument ){
   int vnum = atoi( argument );
   AREA_DATA* area;
-  
+
   if (IS_AFFECTED(ch, AFF_BLIND) || IS_AFFECTED2(ch, AFF_TERRAIN) || is_affected(ch, gsn_forest_mist)){
     send_to_char("You can't see the map!\n\r", ch);
     return;
@@ -3102,7 +3102,7 @@ void army_order_muster( CHAR_DATA* ch, char* argument ){
   }
   else
     cost = pai->cost;
-  
+
   /* get number to recruit */
   if(IS_NULLSTR( argument))
     val = -1;//+1 to current queue
@@ -3114,7 +3114,7 @@ void army_order_muster( CHAR_DATA* ch, char* argument ){
 //sets forcus on army or current room
 bool army_order_focus( CHAR_DATA* ch, char* argument ){
   ROOM_INDEX_DATA* focus;
-  
+
   if (IS_NULLSTR(argument)){
     set_focus( ch, ch->in_room);
     send_to_char("Focus set to current room.\n\r", ch);
@@ -3133,12 +3133,12 @@ void army_order_scrap( CHAR_DATA* ch, char* argument ){
   int tot;
   int nor;
   int upg;
-  
+
   if (IS_NULLSTR( argument ))
     tot = 1;
   else
     tot = atoi( argument );
-  
+
   /* decide how many armies of each type to disband */
   if (tot > GARR_NOR(ch)){
     nor = GARR_NOR(ch);
@@ -3155,19 +3155,19 @@ void army_order_scrap( CHAR_DATA* ch, char* argument ){
 void army_order_list( CHAR_DATA* ch ){
   show_armies( ch, ch->pCabal, ch->name );
 }
-  
+
 void army_order_upgrade( CHAR_DATA* ch, char* argument ){
   CABAL_DATA* pc = get_parent( ch->pCabal );
   ARMY_INDEX_DATA* pai;
   int cost, val;
-  
+
   if ( (pai = get_army_index( pc->pIndexData->army_upgrade)) == NULL){
     send_to_char("Your cabal has no elite armies.\n\r", ch );
     return;
   }
   else
     cost = pai->cost;
-  
+
   /* get number to recruit */
   if(IS_NULLSTR( argument))
     val = -1;
@@ -3182,7 +3182,7 @@ void army_order_attack( CHAR_DATA* ch, char* argument, bool fElite){
   ARMY_DATA* pa = NULL;
   char buf[MIL];
   int ID, vnum = 0;
-  
+
   /* find the army to be ordered to garrison */
   if (!IS_NULLSTR(argument)){
     if ( (ID = atoi( argument )) < 1){
@@ -3212,10 +3212,10 @@ void army_order_attack( CHAR_DATA* ch, char* argument, bool fElite){
       return;
     }
   }
-  
+
   if (!can_attack( ch, NULL, in_room, pc, FALSE))
     return;
-  
+
   /* check for army prototype if army not pre-selected */
   if ( !pa){
     if ( (pa = create_army(get_army_index( vnum ), pc)) == NULL){
@@ -3230,19 +3230,19 @@ void army_order_attack( CHAR_DATA* ch, char* argument, bool fElite){
 	update_garrison( ch, -1, 0 );
     }
   }
-  
+
   /* set commander and order */
   set_army_commander( pa, ch->name, ch->pcdata->rank );
   order_army( pa, AS_ATTA, gen_vars( in_room->vnum, 0, 0));
-  sprintf( buf, "%s %s confirmed.", 
-	   capitalize(state_table[pa->order].name), 
+  sprintf( buf, "%s %s confirmed.",
+	   capitalize(state_table[pa->order].name),
 	   in_room->name );
   army_report( pa, buf, REPORT_NEUT, FALSE );
-  
+
   sprintf( buf, "Spy Report: [%s`0] %s about to attack %s`0 in %s.",
 	   get_parent(ch->pCabal)->who_name,
 	   pa->noun,
-	   in_room->name, 
+	   in_room->name,
 	   in_room->area->name);
 //  cabal_echo_flag(CABAL_SPIES, buf );
 }
@@ -3253,7 +3253,7 @@ void army_order_patrol( CHAR_DATA* ch, char* argument, bool fElite){
   ARMY_DATA* pa = NULL;
   char buf[MIL];
   int ID, vnum = 0;
-  
+
   /* find the army to be ordered to garrison */
   if (!IS_NULLSTR(argument)){
     if ( (ID = atoi( argument )) < 1){
@@ -3283,10 +3283,10 @@ void army_order_patrol( CHAR_DATA* ch, char* argument, bool fElite){
       return;
     }
   }
-  
+
   if (!can_patrol( ch, pa, in_room, pc, FALSE))
     return;
-  
+
   /* check for army prototype if army not pre-selected */
   if ( !pa){
     if ( (pa = create_army(get_army_index( vnum ), pc)) == NULL){
@@ -3301,19 +3301,19 @@ void army_order_patrol( CHAR_DATA* ch, char* argument, bool fElite){
 	update_garrison( ch, -1, 0 );
     }
   }
-  
+
   /* set commander and order */
   set_army_commander( pa, ch->name, ch->pcdata->rank );
   order_army( pa, AS_PATR, gen_vars( in_room->vnum, 0, 0));
-  sprintf( buf, "%s %s confirmed.", 
-	   capitalize(state_table[pa->order].name), 
+  sprintf( buf, "%s %s confirmed.",
+	   capitalize(state_table[pa->order].name),
 	   in_room->name );
   army_report( pa, buf, REPORT_NEUT, FALSE );
-  
+
   sprintf( buf, "Spy Report: [%s`0] %s about to patrol %s`0 in %s.",
 	   get_parent(ch->pCabal)->who_name,
 	   pa->noun,
-	   in_room->name, 
+	   in_room->name,
 	   in_room->area->name);
 //  cabal_echo_flag(CABAL_SPIES, buf );
 }
@@ -3324,7 +3324,7 @@ void army_order_defend( CHAR_DATA* ch, char* argument, bool fElite){
   ARMY_DATA* pa = NULL;
   char buf[MIL];
   int ID, vnum = 0;
-  
+
   /* find the army to be ordered to garrison */
   if (!IS_NULLSTR(argument)){
     if ( (ID = atoi( argument )) < 1){
@@ -3354,10 +3354,10 @@ void army_order_defend( CHAR_DATA* ch, char* argument, bool fElite){
       return;
     }
   }
-  
+
   if (!can_defend( ch, pa, in_room, pc, FALSE))
     return;
-  
+
   /* check for army prototype if army not pre-selected */
   if ( !pa){
     if ( (pa = create_army(get_army_index( vnum ), pc)) == NULL){
@@ -3372,19 +3372,19 @@ void army_order_defend( CHAR_DATA* ch, char* argument, bool fElite){
 	update_garrison( ch, -1, 0 );
     }
   }
-  
+
   /* set commander and order */
   set_army_commander( pa, ch->name, ch->pcdata->rank );
   order_army( pa, AS_DEFE, gen_vars( in_room->vnum, 0, 0));
-  sprintf( buf, "%s %s confirmed.", 
-	   capitalize(state_table[pa->order].name), 
+  sprintf( buf, "%s %s confirmed.",
+	   capitalize(state_table[pa->order].name),
 	   in_room->name );
   army_report( pa, buf, REPORT_NEUT, FALSE );
-  
+
   sprintf( buf, "Spy Report: [%s`0] %s about to defend %s`0 in %s.",
 	   get_parent(ch->pCabal)->who_name,
 	   pa->noun,
-	   in_room->name, 
+	   in_room->name,
 	   in_room->area->name);
 //  cabal_echo_flag(CABAL_SPIES, buf );
 }
@@ -3396,7 +3396,7 @@ void army_order_garrison( CHAR_DATA* ch, char* argument, bool fElite ){
   ARMY_DATA* pa = NULL;
   ARMY_INDEX_DATA* pai;
   int ID, vnum = 0;
-  
+
   /* find the army to be ordered to garrison */
   if (!IS_NULLSTR(argument)){
     if ( (ID = atoi( argument )) < 1){
@@ -3448,19 +3448,19 @@ void army_order_garrison( CHAR_DATA* ch, char* argument, bool fElite ){
     send_to_char("Your cabal does not have a tower to build.\n\r", ch );
     return;
   }
-  
+
   /* set commander and order */
   set_army_commander( pa, ch->name, ch->pcdata->rank );
   order_army( pa, AS_GARR, gen_vars( in_room->vnum, 0, 0));
-  sprintf( buf, "%s %s confirmed.", 
-	   capitalize(state_table[pa->order].name), 
+  sprintf( buf, "%s %s confirmed.",
+	   capitalize(state_table[pa->order].name),
 	   in_room->name );
   army_report( pa, buf, REPORT_NEUT, FALSE );
-  
+
   sprintf( buf, "Spy Report: [%s`0] %s about to garrison %s`0 in %s.",
 	   get_parent(ch->pCabal)->who_name,
 	   pa->noun,
-	   in_room->name, 
+	   in_room->name,
 	   in_room->area->name);
 //  cabal_echo_flag(CABAL_SPIES, buf );
 }
@@ -3472,7 +3472,7 @@ void army_order_fortify( CHAR_DATA* ch, char* argument, bool fElite ){
   ARMY_DATA* pa = NULL;
   ARMY_INDEX_DATA* pai;
   int ID, vnum = 0;
-  
+
   /* find the army to be ordered to garrison */
   if (!IS_NULLSTR(argument)){
     if ( (ID = atoi( argument )) < 1){
@@ -3524,19 +3524,19 @@ void army_order_fortify( CHAR_DATA* ch, char* argument, bool fElite ){
     send_to_char("Your cabal does not have a fortified tower to build.\n\r", ch );
     return;
   }
-  
+
   /* set commander and order */
   set_army_commander( pa, ch->name, ch->pcdata->rank );
   order_army( pa, AS_FORT, gen_vars( in_room->vnum, 0, 0));
-  sprintf( buf, "%s %s confirmed.", 
-	   capitalize(state_table[pa->order].name), 
+  sprintf( buf, "%s %s confirmed.",
+	   capitalize(state_table[pa->order].name),
 	   in_room->name );
   army_report( pa, buf, REPORT_NEUT, FALSE );
-  
+
   sprintf( buf, "Spy Report: [%s`0] %s about to fortify %s`0 in %s.",
 	   get_parent(ch->pCabal)->who_name,
 	   pa->noun,
-	   in_room->name, 
+	   in_room->name,
 	   in_room->area->name);
 //  cabal_echo_flag(CABAL_SPIES, buf );
 }
@@ -3545,7 +3545,7 @@ void army_order_return( CHAR_DATA* ch, char* argument ){
   char buf[MIL];
   ARMY_DATA* pa = NULL;
   int tar_ID;
-  
+
   /* get target army */
   if (IS_NULLSTR(argument)){
     send_to_char("Order which army to return?\n\r", ch);
@@ -3566,12 +3566,12 @@ void army_order_return( CHAR_DATA* ch, char* argument ){
   }
   else if (!can_return( ch, pa->in_room, pa, FALSE))
     return;
-  
+
   if (pa->pIndexData->type != ARMY_TYPE_BASTION){
     sprintf( buf, "Spy Report: [%s`0] %s departing %s`0 in %s.",
 	     get_parent(ch->pCabal)->who_name,
 	     pa->noun,
-	     pa->in_room->name, 
+	     pa->in_room->name,
 	     pa->in_room->area->name);
     /* set order */
     order_army( pa, AS_RETU, gen_vars( 0, 0, 0));
@@ -3580,11 +3580,11 @@ void army_order_return( CHAR_DATA* ch, char* argument ){
     sprintf( buf, "Spy Report: [%s`0] %s disbanded in %s`0 in %s.",
 	     get_parent(ch->pCabal)->who_name,
 	     pa->noun,
-	     pa->in_room->name, 
+	     pa->in_room->name,
 	     pa->in_room->area->name);
 
-    sprintf( buf, "%s %s confirmed.", 
-	     capitalize(state_table[AS_DISB].name), 
+    sprintf( buf, "%s %s confirmed.",
+	     capitalize(state_table[AS_DISB].name),
 	     pa->in_room->name );
     /* set order */
     order_army( pa, AS_DISB, gen_vars( 0, 0, 0));
@@ -3597,7 +3597,7 @@ void army_order_return( CHAR_DATA* ch, char* argument ){
 bool army_interpret( CHAR_DATA* ch, char* argument ){
   char cmd[MIL];
   bool fMatch = FALSE;
-  
+
   /* interpret armies only if person has a focus */
   if (IS_NPC(ch) || GET_FOCUS( ch ) == NULL)
     return FALSE;
@@ -3728,7 +3728,7 @@ struct area_info_s {
   int		ubas;
   int		sup_loss;
   bool		fAtt;
-  
+
 
   int		ebas;
   int		eubas;
@@ -3790,7 +3790,7 @@ void show_world_armies( CHAR_DATA* ch, CABAL_DATA* pc ){
 
     if ( (area = ainfo[i].area) == NULL || area->pCabal == NULL || !is_same_cabal(area->pCabal, pc))
       continue;
-    
+
     if (area->pCabal == pc)
       support = 100.0 * (float)ainfo[i].sup_loss / CABAL_FULL_SUPPORT_VAL;
     else
@@ -3806,7 +3806,7 @@ void show_world_armies( CHAR_DATA* ch, CABAL_DATA* pc ){
     add_buf( output, buf );
   }
   page_to_char(buf_string(output),ch);
-  free_buf(output);  
+  free_buf(output);
 }
 
 //shows all units by room in the area
@@ -3860,7 +3860,7 @@ void show_area_armies(CHAR_DATA* ch, AREA_DATA* area, CABAL_DATA* pCabal){
       rinfo[rooms].pRoom = room;
       if (rinfo[rooms].ID < 1)
 	rinfo[rooms].ID = pa->ID;
-      
+
       /* sort data */
       if (pa->in_slot == INROOM_BASTION){
 	rinfo[rooms].pBas = pa;
@@ -3894,10 +3894,10 @@ void show_area_armies(CHAR_DATA* ch, AREA_DATA* area, CABAL_DATA* pCabal){
   for (i = 0; i < rooms; i++){
     /* GENREATE BASTION STRING*/
     if (rinfo[i].pBas){
-      sprintf( bas_buf, "[`%c%c``]", 
+      sprintf( bas_buf, "[`%c%c``]",
 	       rinfo[i].pBas->pCabal->who_name[1],
 	       GET_LETTER(rinfo[i].pBas));
-      
+
     }
     else
       sprintf( bas_buf, " `1 `` " );
@@ -3980,8 +3980,8 @@ void show_area_armies(CHAR_DATA* ch, AREA_DATA* area, CABAL_DATA* pCabal){
     support = 0;
     add_buf( output, "    " );
   }
-    
-      
+
+
   //last line has info about the area
   sprintf( buf, "\n\r%-20.20s B:%d/%d  G:%d  P:%d  S:%d(%d%%)\n\r",
 	   area->name,
@@ -3994,7 +3994,7 @@ void show_area_armies(CHAR_DATA* ch, AREA_DATA* area, CABAL_DATA* pCabal){
   add_buf( output, buf );
 
   page_to_char(buf_string(output),ch);
-  free_buf(output);    
+  free_buf(output);
 }
 
 /* shows list of armies based on owner name
@@ -4007,15 +4007,15 @@ void show_armies( CHAR_DATA* ch, CABAL_DATA* pc, char* name ){
   int cnt = 0;
 
   buffer = new_buf();
-  
+
   sprintf(buf, "   ID    Hp     State        Area       \n\r" );
   add_buf( buffer, buf );
   sprintf(buf, "------------------------------------------\n\r" );
   add_buf( buffer, buf );
-  
+
   for (hash = 0; hash < ARMY_HASH_SIZE; hash++){
     for (pa = army_list[hash]; pa; pa = pa->next){
-      if (IS_NULLSTR(pa->commander) || pa->commander[0] != name[0] 
+      if (IS_NULLSTR(pa->commander) || pa->commander[0] != name[0]
 	  || str_cmp(pa->commander, name))
 	continue;
       else
@@ -4057,7 +4057,7 @@ void army_report( ARMY_DATA* pa, char* string, int type, bool fSave ){
 	   pa->noun,
 	   string);
 
-  /* DEBUG 
+  /* DEBUG
      nlogf( "DEBUG: %s", buf );
   */
   /* echo the message */
@@ -4065,12 +4065,12 @@ void army_report( ARMY_DATA* pa, char* string, int type, bool fSave ){
     CHAR_DATA* rch = d->character;
     bool fDemon = FALSE;
 
-    if ( d->connected != CON_PLAYING 
+    if ( d->connected != CON_PLAYING
 	 || rch == NULL
 	 || rch->pCabal == NULL
 	 || IS_AFFECTED2(rch, AFF_SILENCE)
-	 || IS_SET(rch->comm, COMM_NOCABAL) 
-	 || IS_SET(rch->comm, COMM_QUIET) 
+	 || IS_SET(rch->comm, COMM_NOCABAL)
+	 || IS_SET(rch->comm, COMM_QUIET)
 	 || !is_same_cabal(rch->pCabal, pc) ){
       continue;
     }
@@ -4081,9 +4081,9 @@ void army_report( ARMY_DATA* pa, char* string, int type, bool fSave ){
     if (!IS_NPC(rch) && rch->pcdata->eavesdropped != NULL
 	&& is_affected(rch->pcdata->eavesdropped,gsn_eavesdrop)
 	&& !fDemon){
-      
+
       send_to_char("A faint message transmits from the parasite.\n\r",rch->pcdata->eavesdropped);
-      act_new(buf, rch, string, NULL, TO_CHAR, POS_DEAD);      
+      act_new(buf, rch, string, NULL, TO_CHAR, POS_DEAD);
     }
   }
 
@@ -4119,12 +4119,12 @@ void cabal_report( CABAL_DATA* pc, char* string, int type, bool fSave ){
     CHAR_DATA* rch = d->character;
     bool fDemon = FALSE;
 
-    if ( d->connected != CON_PLAYING 
+    if ( d->connected != CON_PLAYING
 	 || rch == NULL
 	 || rch->pCabal == NULL
 	 || IS_AFFECTED2(rch, AFF_SILENCE)
-	 || IS_SET(rch->comm, COMM_NOCABAL) 
-	 || IS_SET(rch->comm, COMM_QUIET) 
+	 || IS_SET(rch->comm, COMM_NOCABAL)
+	 || IS_SET(rch->comm, COMM_QUIET)
 	 || !is_same_cabal(rch->pCabal, pc) ){
       continue;
     }
@@ -4135,9 +4135,9 @@ void cabal_report( CABAL_DATA* pc, char* string, int type, bool fSave ){
     if (!IS_NPC(rch) && rch->pcdata->eavesdropped != NULL
 	&& is_affected(rch->pcdata->eavesdropped,gsn_eavesdrop)
 	&& !fDemon){
-      
+
       send_to_char("A faint message transmits from the parasite.\n\r",rch->pcdata->eavesdropped);
-      act_new(buf, rch, string, NULL, TO_CHAR, POS_DEAD);      
+      act_new(buf, rch, string, NULL, TO_CHAR, POS_DEAD);
     }
   }
 
@@ -4161,7 +4161,7 @@ void show_report_q(REPORT_QUEUE* q, CHAR_DATA* ch ){
     time_data = localtime( &pRep->time );
 
     fFound = TRUE;
-    sprintf( buf, "%2d:%02d %s", 
+    sprintf( buf, "%2d:%02d %s",
 	     time_data->tm_hour,
 	     time_data->tm_min,
 	     pRep->string);
@@ -4189,7 +4189,7 @@ int get_army_count( char* name ){
   for (hash = 0; hash < ARMY_HASH_SIZE; hash++){
     for (pa = army_list[hash]; pa; pa = pa->next){
       if (!IS_NULLSTR(pa->commander)
-	  && pa->commander[0] == name[0] 
+	  && pa->commander[0] == name[0]
 	  && !str_cmp(pa->commander, name))
 	sum++;
     }
@@ -4227,20 +4227,20 @@ void show_army_index( CHAR_DATA* ch, ARMY_INDEX_DATA* pai ){
   sprintf( buf, "%-12.12s: [%-12s]\n\r", "Flags", flag_string( army_flags, pai->army_flags ) );
   send_to_char( buf, ch );
   sprintf( buf, "%-12.12s: [%3dd%-3d+%4d] (Avg %d)\n\r", "Off Dice",
-	   pai->off_dice[DICE_NUMBER], 
-	   pai->off_dice[DICE_TYPE], 
+	   pai->off_dice[DICE_NUMBER],
+	   pai->off_dice[DICE_TYPE],
 	   pai->off_dice[DICE_BONUS],
 	   get_dice_avg(pai->off_dice[DICE_NUMBER], pai->off_dice[DICE_TYPE], pai->off_dice[DICE_BONUS]));
   send_to_char( buf, ch );
   sprintf( buf, "%-12.12s: [%3dd%-3d+%4d] (Avg %d)\n\r", "Hit Dice",
-	   pai->hit_dice[DICE_NUMBER], 
-	   pai->hit_dice[DICE_TYPE], 
-	   pai->hit_dice[DICE_BONUS], 
+	   pai->hit_dice[DICE_NUMBER],
+	   pai->hit_dice[DICE_TYPE],
+	   pai->hit_dice[DICE_BONUS],
 	   get_dice_avg(pai->hit_dice[DICE_NUMBER], pai->hit_dice[DICE_TYPE], pai->hit_dice[DICE_BONUS]));
   send_to_char( buf, ch );
   sprintf( buf, "%-12.12s: [%3dd%-3d+%4d] (Avg %d)\n\r", "Armor Dice",
-	   pai->arm_dice[DICE_NUMBER], 
-	   pai->arm_dice[DICE_TYPE], 
+	   pai->arm_dice[DICE_NUMBER],
+	   pai->arm_dice[DICE_TYPE],
 	   pai->arm_dice[DICE_BONUS],
 	   get_dice_avg(pai->arm_dice[DICE_NUMBER], pai->arm_dice[DICE_TYPE], pai->arm_dice[DICE_BONUS]) );
   send_to_char( buf, ch );
@@ -4260,7 +4260,7 @@ void save_army_indexes( FILE *fp, AREA_DATA *pArea ){
   ARMY_INDEX_DATA *pai;
 
   fprintf( fp, "#ARMIES\n" );
-  
+
   for( i = pArea->min_vnum; i <= pArea->max_vnum; i++ )
     if ( (pai = get_army_index( i )) ){
       fwrite_army_index( fp, pai );
@@ -4473,7 +4473,7 @@ void show_room_armies(CHAR_DATA* ch, ARMY_ROOM_DATA* pArd ){
 	info[j].cur = pa->hit;
 	info[j].max = pa->max_hit;
       }
-      else if (info[j].type != type 
+      else if (info[j].type != type
 	       || str_cmp(info[j].long_desc, pa->long_desc)
 	       || info[j].attacking != pa->attacking
 	       || info[j].state != pa->state
@@ -4527,7 +4527,7 @@ void show_room_armies(CHAR_DATA* ch, ARMY_ROOM_DATA* pArd ){
 
     /* compose the long desc */
     if (info[i].state == AS_BESE){
-      sprintf( lon_buf, "%s besieged by %s.", 
+      sprintf( lon_buf, "%s besieged by %s.",
 	       capitalize(info[i].short_desc),
 	       info[i].attacking ? info[i].attacking->pCabal->name :"Someone?");
     }
@@ -4541,13 +4541,13 @@ void show_room_armies(CHAR_DATA* ch, ARMY_ROOM_DATA* pArd ){
 		 capitalize(info[i].short_desc),
 		 info[i].attacking->pCabal->name);
       else
-	sprintf( lon_buf, "%s attacking %s.", 
+	sprintf( lon_buf, "%s attacking %s.",
 		 capitalize(info[i].short_desc),
 		 info[i].attacking->pCabal->name);
     }
     else
       sprintf( lon_buf, "%s", info[i].long_desc);
-    
+
     if (ch->pCabal == NULL || !IS_CABAL(ch->pCabal, CABAL_AREA)){
       sprintf(buf, "%s``\n\r",
 	      lon_buf);
@@ -4565,7 +4565,7 @@ void show_room_armies(CHAR_DATA* ch, ARMY_ROOM_DATA* pArd ){
   send_to_char(buf_string(buffer),ch);
   free_buf(buffer);
 }
-  
+
 /* updates states/combat of all armies */
 void army_update(){
   ARMY_DATA* pa, *pa_next;
@@ -4574,7 +4574,7 @@ void army_update(){
 
   army_combat_update();
 
-  
+
 
   for (pCab = cabal_list; pCab; pCab = pCab->next ){
     pCab->support[ECO_LAST_ARMY] = 0;
@@ -4590,13 +4590,13 @@ void army_update(){
 	pa->pCabal->support[ECO_LAST_ARMY] += get_army_support( pa, pa->in_room->area);
       }
       /* ROOM REQUIRED UPDATES */
-      if (pa->in_room 
+      if (pa->in_room
 	  && pa->state != AS_BESE
 	  && pa->state != AS_FIGH){
 	if (pa->state == AS_DISB)
 	  pa->hit = UMAX(0, pa->hit - pa->max_hit / 5);
 	/* hp gain */
-	else if (pa->hit < pa->max_hit 
+	else if (pa->hit < pa->max_hit
 		 && can_reinforce( pa->pCabal, pa->in_room->area )){
 	  /* bastions reinforce a bit slower */
 	  if (pa->pIndexData->type == ARMY_TYPE_BASTION)
@@ -4605,7 +4605,7 @@ void army_update(){
 	    pa->hit = UMIN(pa->max_hit, 1 + pa->hit + pa->max_hit / 10);
 	}
       }
-      
+
       /* If lifetime > 0 decrease count and do not check *
        * If lifetime == 0 check
        * If lifetime < 0 skip
@@ -4638,7 +4638,7 @@ struct battle_info{
 void army_battle_echo( ROOM_INDEX_DATA* room ){
   const int battle_max = 6;
   const int siege_max = 5;
-  char* battle_msg[] = 
+  char* battle_msg[] =
   {
     "With a thunderous roar the armies meet and clash.",
     "As $t and $T battle screams of the wounded fill the area.",
@@ -4647,7 +4647,7 @@ void army_battle_echo( ROOM_INDEX_DATA* room ){
     "$t's forces fall back before $T's offense.",
     "The clash of metal fills the air as the battle rages.",
   };
-  char* siege_msg[] = 
+  char* siege_msg[] =
   {
     "The ground shakes as $t siege engines take new position.",
     "Death errupts amidst $T's defenders as siege engines fire.",
@@ -4655,7 +4655,7 @@ void army_battle_echo( ROOM_INDEX_DATA* room ){
     "$t's armies charge at $T defenses.",
     "Battlehorns bellow as $t regroups for another attack.",
   };
-  
+
   ARMY_DATA* pa;
   char* msg;
   struct battle_info battles[INROOM_MAXARMIES];
@@ -4679,15 +4679,15 @@ void army_battle_echo( ROOM_INDEX_DATA* room ){
       if (battles[j].pAtt == NULL){
 	battles[j].pAtt = pa->pCabal;
 	battles[j].pDef = pa->attacking->pCabal;
-	if (IS_ARMY(pa->attacking, ARMY_FLAG_GARRISON) 
+	if (IS_ARMY(pa->attacking, ARMY_FLAG_GARRISON)
 	    || pa->attacking->pIndexData->type == ARMY_TYPE_BASTION)
 	  battles[j].fSiege = TRUE;
 	break;
       }
       //matching entry
-      else if (battles[j].pAtt == pa->pCabal 
+      else if (battles[j].pAtt == pa->pCabal
 	       && battles[j].pDef == pa->attacking->pCabal){
-	if (IS_ARMY(pa->attacking, ARMY_FLAG_GARRISON) 
+	if (IS_ARMY(pa->attacking, ARMY_FLAG_GARRISON)
 	    || pa->attacking->pIndexData->type == ARMY_TYPE_BASTION)
 	  battles[j].fSiege = TRUE;
 	break;
@@ -4793,7 +4793,7 @@ void add_tower( TOWER_DATA* tower, AREA_DATA* area ){
     while( ptow->next ){
       ptow = ptow->next;
     }
-    
+
     ptow->next = tower;
     tower->next = NULL;
   }
@@ -4921,7 +4921,7 @@ TOWER_DATA* tower_to_area( CABAL_DATA* pCabal, AREA_DATA* area, bool fSilent ){
   }
   else{
     ptow = new_tower();
-    
+
     ptow->pCabal	= pc;
     ptow->pArea		= area;
     ptow->towers	++;
@@ -4933,7 +4933,7 @@ TOWER_DATA* tower_to_area( CABAL_DATA* pCabal, AREA_DATA* area, bool fSilent ){
   if ( (area->bastion_max - ptow->towers) < ptow->towers ){
     area_to_cabal(area, pc, fSilent );
     //refresh global reinforcements
-    refresh_cabal_support();    
+    refresh_cabal_support();
   }
   return ptow;
 }
@@ -4952,7 +4952,7 @@ void reinforce_area( CABAL_DATA* pCabal, AREA_DATA* area ){
   }
   else{
     ptow = new_tower();
-    
+
     ptow->pCabal	= pc;
     ptow->pArea		= area;
     ptow->towers	= 0;
@@ -4964,7 +4964,7 @@ void reinforce_area( CABAL_DATA* pCabal, AREA_DATA* area ){
   SET_BIT(area->area_flags, AREA_MARKED);
 
   /* if this area is friendly reinforce connected areas */
-  if ( area->pCabal != NULL 
+  if ( area->pCabal != NULL
        && is_friendly(area->pCabal, pCabal) == CABAL_FRIEND){
     /* check each exit from this area */
     for (pe = area->exits; pe; pe = pe->next_in_area ){
@@ -4981,7 +4981,7 @@ void reinforce_area( CABAL_DATA* pCabal, AREA_DATA* area ){
       reinforce_area( pCabal, pe->to_room->area);
     }//end for
   }//END REINFORCE AREA CONNECTED TO THIS AREA
-  
+
   REMOVE_BIT(area->area_flags, AREA_MARKED);
   return;
 }
@@ -4989,15 +4989,15 @@ void reinforce_area( CABAL_DATA* pCabal, AREA_DATA* area ){
 void tower_from_area( CABAL_DATA* pCabal, AREA_DATA* area ){
   CABAL_DATA* pc = get_parent( pCabal );
   TOWER_DATA* ptow;
-  
+
   if (pc == NULL)
     return;
-  
+
   if ( (ptow = get_tower_data(pc, area)) == NULL){
     bug("tower_from_area: could not find a tower for cabal %d", pc->vnum );
     return;
   }
-  
+
   if (--ptow->towers < 0){
     ptow->towers = 0;
   }
@@ -5008,11 +5008,11 @@ void tower_from_area( CABAL_DATA* pCabal, AREA_DATA* area ){
 void reinforce_refresh( CABAL_DATA* pCabal ){
   AREA_DATA* pa;
 
-  if (pCabal == NULL 
-      || pCabal->anchor == NULL 
+  if (pCabal == NULL
+      || pCabal->anchor == NULL
       || !IS_CABAL(pCabal, CABAL_AREA))
     return;
-  
+
   /* reset this cabal's reinforcement on ALL areas */
   for (pa = area_first; pa; pa = pa->next ){
     if (pa->towers)
@@ -5033,14 +5033,14 @@ bool unreinforce_area( CABAL_DATA* pCabal, AREA_DATA* area, bool fShort ){
 
   if (pc == NULL)
     return FALSE;
-  
+
   if ( (ptow = get_tower_data(pc, area)) == NULL){
     return FALSE;
   }
   else
     ptow->fRein = FALSE;
 
-    
+
   if (fShort)
     return FALSE;
 
@@ -5106,7 +5106,7 @@ void refresh_area_support(){
 ARMY_DATA* get_army_room( CHAR_DATA* ch, ROOM_INDEX_DATA* room,char* name){
   CHAR_DATA* vch = ch;
   int i;
-  
+
   if (room->room_armies.count < 1)
     return NULL;
   for (i = INROOM_BASTION; i < INROOM_MAXARMIES; i++){
@@ -5135,8 +5135,8 @@ ARMY_DATA* get_army_room( CHAR_DATA* ch, ROOM_INDEX_DATA* room,char* name){
   }
   return NULL;
 }
-    
-/* OLD */  
+
+/* OLD */
 /* removes any pExAlly armies garrisoned in pCab's areas with pCab's bastions */
 bool break_alliance_check( CABAL_DATA* pCab, CABAL_DATA* pExAlly ){
   //  ARMY_DATA* pa;

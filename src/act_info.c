@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -846,7 +846,7 @@ void show_char_to_char_1( CHAR_DATA *victim, CHAR_DATA *ch ){
     if (!IS_NPC(tmp_vict) && !IS_IMMORTAL(victim)){
       int quest_num = tmp_vict->pcdata->max_quests;
       if (!str_cmp(tmp_vict->name, mud_data.questor)){
-	act("$N currently holds the title of `#Master Questor`` of Aabahran.", ch, NULL, tmp_vict, TO_CHAR);
+	act("$N currently holds the title of `#Master Questor`` of -Mirlan-.", ch, NULL, tmp_vict, TO_CHAR);
       }
       else if (quest_num == 0 )
 	act("$E has led a sheltered life.", ch, NULL, tmp_vict, TO_CHAR );
@@ -3483,13 +3483,13 @@ void do_time( CHAR_DATA *ch, char *argument )
     timediff = (timediff - days*60*60*24);
     hours = timediff / (60*60);
     timediff = (timediff - hours*60*60);
-    sendf( ch, "The Forsaken Lands has been up for %d day%s %d hour%s.\n\r",
+    sendf( ch, "Age of Mirlan has been up for %d day%s %d hour%s.\n\r",
 	   days, days == 1 ? "" : "s", hours, hours == 1 ? "" : "s");
 
     if (!IS_IMMORTAL(ch))
       return;
     send_to_char( "\n\r", ch);
-    sendf( ch, "The Forsaken Lands started up at %s\r",(char *) ctime(&mud_data.crash_time ) );
+    sendf( ch, "Age of Mirlan started up at %s\r",(char *) ctime(&mud_data.crash_time ) );
     sendf( ch, "Last reboot at %s\rThe system time is %s\r", mud_data.str_boot_time, (char *) ctime( &mud_data.current_time ) );
 
     if (mud_data.deaths == 0)
@@ -4255,7 +4255,7 @@ void do_who( CHAR_DATA *ch, char *argument )
       sprintf(buf,"There %s %d character%s on, the most on since startup was %d.\n\r",
 	      count == 1 ? "is" : "are", count,count == 1 ? "" : "s", mud_data.max_on );
     add_buf(output,buf);
-    sprintf( buf, "The title of `#Master Questor`` of Aabahran is currently held by %s.\n\r", mud_data.questor);
+    sprintf( buf, "The title of `#Master Questor`` of -Mirlan- is currently held by %s.\n\r", mud_data.questor);
     add_buf(output,buf);
     if (contra){
       sprintf( buf, "There are %d contracts avaliable to you.\n\r", contra);

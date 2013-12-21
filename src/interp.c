@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -88,7 +88,7 @@ const	struct	cmd_type	cmd_table	[] =
     { "cancel",         do_cancel,         POS_FIGHTING,    0,  LOG_NORMAL, 1, 1,0,0,1,0,1,0,0,0,0,1 },
 
     { "sing",           do_sing,           POS_FIGHTING,    0,  LOG_NORMAL, 1, 1,0,0,1,0,1,0,0,0,0,1 },
-    
+
     { "buy",            do_buy,            POS_RESTING,     0,  LOG_NORMAL, 1, 0,0,0,1,0,1,0,0,0,0,1 },
     { "channels",       do_channels,       POS_DEAD,        0,  LOG_NORMAL, 1, 0,0,0,0,0,0,0,0,0,0,0 },
     { "exits",          do_exits,          POS_RESTING,     0,  LOG_NORMAL, 1, 1,1,1,0,0,0,0,0,1,1,1 },
@@ -265,6 +265,7 @@ const	struct	cmd_type	cmd_table	[] =
     { "bash",           do_bash,           POS_FIGHTING,    0,  LOG_NORMAL, 0, 1,1,0,1,0,1,0,0,0,0,1 },
     { "critical",       do_critical,       POS_FIGHTING,    0,  LOG_NORMAL, 0, 1,1,0,1,0,1,0,0,0,0,1 },
     { "boulder",        do_boulder_throw,  POS_FIGHTING,    0,  LOG_NORMAL, 0, 1,1,0,1,0,1,0,0,0,0,1 },
+    { "interrogate",    do_interrogate,    POS_FIGHTING,    0,  LOG_NORMAL, 0, 1,1,0,1,0,1,0,0,0,0,1 },
     { "batter",         do_batter,         POS_FIGHTING,    0,  LOG_NORMAL, 0, 1,1,0,1,0,1,0,0,0,0,1 },
     { "rush",           do_armored_rush,   POS_FIGHTING,    0,  LOG_NORMAL, 0, 1,1,0,1,0,1,0,0,0,0,1 },
     { "execute",        do_forms,	  POS_FIGHTING,    0,  LOG_NORMAL, 0, 1,1,0,1,0,1,0,0,0,0,1 },
@@ -393,7 +394,7 @@ const	struct	cmd_type	cmd_table	[] =
     { "untransfer",     do_untransfer,     POS_DEAD,       L8,  LOG_NORMAL, 1, 1,1,1,0,0,0,0,0,0,1,0 },
     { "gecho",          do_echo,           POS_DEAD,       L5,  LOG_NORMAL, 1, 1,1,1,0,0,0,0,0,0,1,0 },
     { "holylight",      do_holylight,      POS_DEAD,       L8,  LOG_NORMAL, 1, 1,1,1,0,0,0,0,0,0,1,0 },
-    { "losereply",      do_losereply,      POS_DEAD,       L8,  LOG_NORMAL, 1, 1,1,1,0,0,0,0,0,0,1,0 },    
+    { "losereply",      do_losereply,      POS_DEAD,       L8,  LOG_NORMAL, 1, 1,1,1,0,0,0,0,0,0,1,0 },
     { "hearall",        do_hearall,        POS_DEAD,       L8,  LOG_NORMAL, 1, 1,1,1,0,0,0,0,0,0,1,0 },
     { "incognito",      do_incognito,      POS_DEAD,       L8,  LOG_NORMAL, 1, 1,1,1,0,0,0,0,0,0,1,0 },
     { "invis",          do_invis,          POS_DEAD,       L8,  LOG_NORMAL, 0, 1,1,1,0,0,0,0,0,0,1,0 },
@@ -522,7 +523,7 @@ const	struct	cmd_type	cmd_table	[] =
     { "bodyslam",       do_bodyslam,       POS_FIGHTING,    0,  LOG_NORMAL, 0, 1,1,0,0,0,0,0,0,0,0,1 },
     { "grapple",        do_grapple,        POS_FIGHTING,    0,  LOG_NORMAL, 0, 1,1,0,0,0,0,0,0,0,0,1 },
     { "charge",         do_charge,         POS_FIGHTING,    0,  LOG_NORMAL, 0, 1,1,0,1,0,1,0,0,0,0,1 },
-    { "shoot",          do_shoot,          POS_FIGHTING,    0,  LOG_NORMAL, 0, 1,1,0,1,0,1,0,0,0,0,1 }, 
+    { "shoot",          do_shoot,          POS_FIGHTING,    0,  LOG_NORMAL, 0, 1,1,0,1,0,1,0,0,0,0,1 },
     { "impale",         do_impale,         POS_FIGHTING,    0,  LOG_NORMAL, 0, 1,1,0,1,0,1,0,0,0,0,1 },
     { "ambush",         do_ambush,         POS_FIGHTING,    0,  LOG_NORMAL, 0, 1,1,0,0,0,0,0,0,0,0,1 },
     { "endure",         do_endure,         POS_STANDING,    0,  LOG_NORMAL, 0, 1,1,0,0,0,0,0,0,0,0,1 },
@@ -712,7 +713,7 @@ const	struct	cmd_type	cmd_table	[] =
     { "ram",            do_ram,            POS_STANDING,    0,  LOG_NORMAL, 1, 1,1,0,1,0,1,0,0,0,0,1 },
     { "anger",          do_anger,          POS_STANDING,    0,  LOG_NORMAL, 0, 1,1,0,1,0,1,0,0,0,0,1 },
     { "sharpen",        do_sharpen,       POS_STANDING,     0,  LOG_NORMAL, 0, 1,1,0,1,0,1,0,0,0,0,1 },
-    { "roccall",        do_call_roc,       POS_FIGHTING,     0,  LOG_NORMAL, 1, 0,1,0,1,0,1,0,0,0,1,1 },  
+    { "roccall",        do_call_roc,       POS_FIGHTING,     0,  LOG_NORMAL, 1, 0,1,0,1,0,1,0,0,0,1,1 },
     { "embrace",        do_embrace ,       POS_STANDING,    0,  LOG_NORMAL, 0, 1,0,1,0,1,1,0,1,1,1,1 },
     { "predict",        do_predict ,       POS_STANDING,    0,  LOG_NORMAL, 0, 1,0,1,0,1,1,0,1,1,1,1 },
     { "spellkill",      do_spellkiller ,   POS_STANDING,    0,  LOG_NORMAL, 0, 1,0,1,0,1,1,0,1,1,1,1 },
@@ -745,14 +746,14 @@ int PRECOMMAND_CHECK(CHAR_DATA* ch, int cmd, char* argument)
 	continue;
       }
     }
-    
+
     if (!IS_SET(effect_table[GN_POS(paf->type)].flags, EFF_F1_CMDBLOCK)) {
       continue;
     }
 
     //BLOCKING OF COMMANDS DONE HERE
     if (IS_GEN(paf->type)) {
-      if ((result = run_effect_update(ch, paf, argument, paf->type, 
+      if ((result = run_effect_update(ch, paf, argument, paf->type,
 				      &cmd, NULL, TRUE, EFF_UPDATE_PRECOMMAND)) == TRUE) {
 	return FALSE;
       }
@@ -777,7 +778,7 @@ int PRECOMMAND_CHECK(CHAR_DATA* ch, int cmd, char* argument)
 //SPECIAL GENS HERE
 
     if (IS_GEN(paf->type)) {
-      if ((result = run_effect_update(ch, paf, argument, paf->type, 
+      if ((result = run_effect_update(ch, paf, argument, paf->type,
 				      &cmd, NULL, TRUE, EFF_UPDATE_PRECOMMAND)) != TRUE) {
 	if (result == -1) {
 	  return -1;
@@ -808,11 +809,11 @@ int POSTCOMMAND_CHECK(CHAR_DATA* ch, int cmd)
 	continue;
       }
     }
-    
+
 //SPECIAL GENS HERE
 
     if (IS_GEN(paf->type)) {
-      if ((result = run_effect_update(ch, NULL, NULL, paf->type, 
+      if ((result = run_effect_update(ch, NULL, NULL, paf->type,
 				      &cmd, NULL, TRUE, EFF_UPDATE_POSTCOMMAND)) != TRUE) {
 	if (result == -1) {
 	  return -1;
@@ -842,7 +843,7 @@ void interpret( CHAR_DATA *ch, char *argument )
   int Pre_Ret = 1;//return value out of PRECOMMAND_CHECK
   bool found = FALSE;
   Double_List * tmp_list;
-  
+
   if (sec_check(ch))
     return;
 
@@ -857,11 +858,11 @@ void interpret( CHAR_DATA *ch, char *argument )
       argument = prefix;
     }
   }
-  
+
   while ( isspace(*argument) ) {
     argument++;
   }
-   
+
   if ( argument[0] == '\0' ) {
     return;
   }
@@ -874,7 +875,7 @@ void interpret( CHAR_DATA *ch, char *argument )
     send_to_char("You're too busy collecting bird droppings!\n\r", ch);
     return;
   }
-  if ( !IS_NPC(ch) && is_affected(ch,gsn_mortally_wounded) 
+  if ( !IS_NPC(ch) && is_affected(ch,gsn_mortally_wounded)
        && !IS_IMMORTAL(ch)) {
     send_to_char( "You are too hurt to do anything.\n\r",ch);
     return;
@@ -891,7 +892,7 @@ void interpret( CHAR_DATA *ch, char *argument )
     act("$n dances wildly in front of you!",ch,NULL,NULL,TO_ROOM);
     return;
   }
-  
+
   strcpy( logline, argument );
   strcpy(cmd_copy,argument);
   if ( !isalpha(argument[0]) && !isdigit(argument[0]) ) {
@@ -907,7 +908,7 @@ void interpret( CHAR_DATA *ch, char *argument )
   }
 
   /* alias check, if succesfull the input is stuffed with the alias */
-  if (!IS_GAME(ch, GAME_NOALIAS) 
+  if (!IS_GAME(ch, GAME_NOALIAS)
       && ( new_cmd = check_alias( ch, command, argument)) != NULL){
     char cmd[MIL];
     new_cmd[MIL] = 0;
@@ -919,8 +920,8 @@ void interpret( CHAR_DATA *ch, char *argument )
 
 
   for ( cmd = 0; cmd_table[cmd].name[0] != '\0'; cmd++ ) {
-    if ( command[0] == cmd_table[cmd].name[0] 
-	 && !str_prefix( command, cmd_table[cmd].name ) 
+    if ( command[0] == cmd_table[cmd].name[0]
+	 && !str_prefix( command, cmd_table[cmd].name )
 	 && cmd_table[cmd].level <= trust ) {
       found = TRUE;
       break;
@@ -928,22 +929,22 @@ void interpret( CHAR_DATA *ch, char *argument )
   }
 
   //remove quit confirm
-  if (!IS_NPC(ch) && ch->pcdata->confirm_quit 
+  if (!IS_NPC(ch) && ch->pcdata->confirm_quit
       && str_cmp(cmd_table[cmd].name, "quit")){
     ch->pcdata->confirm_quit = FALSE;
   }
 
   //this prevents commands when burrowed except revert
   if (found
-      && (is_affected(ch,gsn_burrow) 
-	  && cmd_table[cmd].meditate > 0) 
-      && ((strcmp("revert", cmd_table[cmd].name)) 
+      && (is_affected(ch,gsn_burrow)
+	  && cmd_table[cmd].meditate > 0)
+      && ((strcmp("revert", cmd_table[cmd].name))
 	  && is_affected(ch, gsn_mist_form))) {
     send_to_char( "You can't do that while underground!\n\r", ch );
     send_to_char( "Type unburrow to emerge from the gound.\n\r", ch );
     return;
   }
-  
+
   if (found
       && IS_AFFECTED2(ch, AFF_CATALEPSY) && cmd_table[cmd].meditate > 0) {
     send_to_char( "You're in a state of self-induced catalepsy.  You can't do that!\n\r", ch );
@@ -957,30 +958,30 @@ void interpret( CHAR_DATA *ch, char *argument )
     ch->position = POS_STANDING;
     dreamprobe_cast(ch, NULL );
   }
-  
+
   if (found && cmd_table[cmd].hide > 0 && IS_AFFECTED(ch, AFF_HIDE)) {
     affect_strip ( ch, gsn_hide);
     REMOVE_BIT (ch->affected_by, AFF_HIDE);
     act("You step out of the shadows.",ch,NULL,NULL,TO_CHAR);
     act("$n steps out of the shadows.",ch,NULL,NULL,TO_ROOM);
   }
-  
-  if (found && cmd_table[cmd].sneak > 0 && IS_AFFECTED(ch, AFF_SNEAK) 
-      && ch->race != race_lookup("faerie") 
-      && ch->race != race_lookup("elf") 
+
+  if (found && cmd_table[cmd].sneak > 0 && IS_AFFECTED(ch, AFF_SNEAK)
+      && ch->race != race_lookup("faerie")
+      && ch->race != race_lookup("elf")
       && ch->race != race_lookup("drow")) {
     affect_strip (ch, gsn_sneak);
     REMOVE_BIT   (ch->affected_by, AFF_SNEAK);
     send_to_char("You trample around loudly again.\n\r",ch);
   }
-  
+
   if (found && cmd_table[cmd].camo > 0 && IS_AFFECTED2(ch, AFF_CAMOUFLAGE)) {
     affect_strip ( ch, gsn_camouflage);
     REMOVE_BIT   ( ch->affected2_by, AFF_CAMOUFLAGE);
     act("You step out from your cover.",ch,NULL,NULL,TO_CHAR);
     act("$n steps out from $s cover.",ch,NULL,NULL,TO_ROOM);
   }
-  
+
   if (found && cmd_table[cmd].shadow > 0 && IS_AFFECTED2(ch, AFF_SHADOWFORM)) {
     affect_strip (ch, gsn_shadowform);
     REMOVE_BIT (ch->affected2_by, AFF_SHADOWFORM);
@@ -988,7 +989,7 @@ void interpret( CHAR_DATA *ch, char *argument )
     act("$n's body regains its substance, and $e materializes into existence.",ch,NULL,NULL,TO_ROOM);
     WAIT_STATE( ch, 24);
   }
-  
+
   if (found && cmd_table[cmd].shadow > 0 && IS_AFFECTED(ch, AFF_TREEFORM)) {
     affect_strip (ch, gsn_treeform);
     REMOVE_BIT (ch->affected_by, AFF_TREEFORM);
@@ -1006,41 +1007,41 @@ void interpret( CHAR_DATA *ch, char *argument )
     }
     return;
   }
-  
+
   if ( IS_NPC(ch) && cmd_table[cmd].mob == 0 ) {
     return;
   }
-   
+
   if ( IS_NPC(ch) && is_affected(ch,gsn_linked_mind) && cmd_table[cmd].swtch == 0 ) {
     return;
   }
-  
+
   if ( ch->race == grn_vampire && cmd_table[cmd].morph == 0 ){
-    if (is_affected(ch,gsn_bat_form) 
-	|| is_affected(ch,gsn_wolf_form) 
+    if (is_affected(ch,gsn_bat_form)
+	|| is_affected(ch,gsn_wolf_form)
 	|| is_affected(ch,gsn_mist_form)){
       send_to_char("You can't do that while morphed.\n\r", ch);
       return;
     }
   }
-  
+
   if ( IS_AFFECTED(ch, AFF_CHARM) && cmd_table[cmd].charm == 0 ) {
     send_to_char("You can't do that while charmed.\n\r",ch);
     return;
   }
-  
+
   if ( cmd_table[cmd].log == LOG_NEVER ) {
     strcpy( logline, "" );
   }
 
-  if ( ( !IS_NPC(ch) && IS_SET(ch->act, PLR_LOG) ) 
-       || ( !IS_NPC(ch) && fLogAll ) 
-       || (!IS_NPC(ch) && cmd_table[cmd].log == LOG_ALWAYS ) ) { 
+  if ( ( !IS_NPC(ch) && IS_SET(ch->act, PLR_LOG) )
+       || ( !IS_NPC(ch) && fLogAll )
+       || (!IS_NPC(ch) && cmd_table[cmd].log == LOG_ALWAYS ) ) {
     sprintf( log_buf, "[%d] Log %s: %s", ch->in_room->vnum, ch->name, logline );
     wiznet(log_buf,ch,NULL,WIZ_SECURE,0,get_trust(ch));
     log_string( log_buf );
   }
-  
+
   if ( ch->desc != NULL && ch->desc->snoop_by != NULL ) {
     tmp_list = ch->desc->snoop_by;
     while (tmp_list != NULL) {
@@ -1051,7 +1052,7 @@ void interpret( CHAR_DATA *ch, char *argument )
       tmp_list = tmp_list->next_node;
     }
   }
-  
+
   if ( !found ) {
     if ( !check_social( ch, command, argument ) ) {
       send_to_char( "Huh?\n\r", ch );
@@ -1061,7 +1062,7 @@ void interpret( CHAR_DATA *ch, char *argument )
     }
     return;
   }
-  
+
   if ( ch->position < cmd_table[cmd].position) {
 //Viri: This should have no effect, its taken care of above       && (ch->position != POS_MEDITATE) ) {
     switch( ch->position ) {
@@ -1082,10 +1083,10 @@ void interpret( CHAR_DATA *ch, char *argument )
   strtime[strlen(strtime)-1] = '\0';
   sprintf (last_command, "Command: [%5d] %s in [%5d] %s: %s (%s)",
 	   IS_NPC(ch) ? ch->pIndexData->vnum : 0, IS_NPC(ch) ? ch->short_descr : ch->name,
-	   ch->in_room ? ch->in_room->vnum : 0, 
+	   ch->in_room ? ch->in_room->vnum : 0,
 	   ch->in_room ? ch->in_room->name : "(not in a room)", logline, strtime);
 
-    
+
 //PRECOMMAND CHECK
   if ( (Pre_Ret = PRECOMMAND_CHECK(ch, cmd, argument)) == -1) {
     bug("Error at: PRECOMMAND_CHECK\n\r", 0);
@@ -1096,8 +1097,8 @@ void interpret( CHAR_DATA *ch, char *argument )
   if (Pre_Ret) {
     init_loop("command");
 
-    /*     nlogf("Char: %s , Room: %d, Cmd: %s.", 
-	   IS_NPC(ch)? ch->short_descr : ch->name, 
+    /*     nlogf("Char: %s , Room: %d, Cmd: %s.",
+	   IS_NPC(ch)? ch->short_descr : ch->name,
 	   ch->in_room->vnum,
 	   cmd_table[cmd].name); */
 
@@ -1113,13 +1114,13 @@ void interpret( CHAR_DATA *ch, char *argument )
 
   sprintf (last_command, "Command: (Finished) [%5d] %s in [%5d] %s: %s (%s)",
 	   IS_NPC(ch) ? ch->pIndexData->vnum : 0, IS_NPC(ch) ? ch->short_descr : ch->name,
-	   ch->in_room ? ch->in_room->vnum : 0, 
+	   ch->in_room ? ch->in_room->vnum : 0,
 	   ch->in_room ? ch->in_room->name : "(not in a room)", logline, strtime);
 
   if (string_count != nAllocString || perm_count < nAllocPerm ) {
     stringdif = sAllocString - string_size;
     permdif = sAllocPerm - perm_size;
-    sprintf(buf,"Memcheck: strings %d bytes : perms %d bytes : %s : %s", 
+    sprintf(buf,"Memcheck: strings %d bytes : perms %d bytes : %s : %s",
 	    stringdif, permdif, ch->name, cmd_copy);
     wiznet(buf,NULL,NULL,WIZ_MEMORY,0,0);
   }
@@ -1380,7 +1381,7 @@ void do_deity( CHAR_DATA *ch, char *argument )
       send_to_char("Religion is not something to be taken lightly,\n\ryou have made your choice already.\n\r", ch);
       return;
     }
-  
+
   if (IS_NULLSTR(arg1))
     {
       char buf[MIL];
@@ -1394,14 +1395,14 @@ void do_deity( CHAR_DATA *ch, char *argument )
 	{
 	  //print only dieties that are right for the char.
 	  if (!IS_SET(deity_table[god].align, align) || !IS_SET(deity_table[god].ethos, ethos) )
-	    continue;  
+	    continue;
 /* viri: changed thsi to be easier for newbies
-	  sprintf( buf, "%-12s: %-15s (%s)\n\r", 
-		   path_table[deity_table[god].path].name, 
+	  sprintf( buf, "%-12s: %-15s (%s)\n\r",
+		   path_table[deity_table[god].path].name,
 		   deity_table[god].way,
 		   deity_table[god].god);
 */
-	  sprintf( buf, "%-15s (%s)\n\r", 
+	  sprintf( buf, "%-15s (%s)\n\r",
 		   deity_table[god].way,
 		   deity_table[god].god);
 	  strcat(out, buf);
@@ -1411,7 +1412,7 @@ void do_deity( CHAR_DATA *ch, char *argument )
       send_to_char("\n\rConsult HELP RELIGION for more information.\n\r", ch);
       return;
     }//end show dieties.
-  
+
   //No we check for proper args.
   if (str_cmp("confirm", argument) || IS_NULLSTR(argument))
     {
@@ -1421,17 +1422,17 @@ void do_deity( CHAR_DATA *ch, char *argument )
 
   //now we can do the changing.
   if ((god = way_lookup(arg1)) == -1
-      || !IS_SET(deity_table[god].align, align) 
+      || !IS_SET(deity_table[god].align, align)
       || !IS_SET(deity_table[god].ethos, ethos) )
     {
       send_to_char("That religion is not avaliable as a choice.\n\rType: \"religion\" with no arguments for more info.\n\r", ch);
       return;
-    }    
-  
+    }
+
 //we set the deity.
   ch->pcdata->deity = deity_table[god].god;
   ch->pcdata->way = god;
-  sendf(ch, "You have decided to follow the way of %s under %s's guidance.\n\r", deity_table[ch->pcdata->way].way, 
+  sendf(ch, "You have decided to follow the way of %s under %s's guidance.\n\r", deity_table[ch->pcdata->way].way,
 	ch->pcdata->deity);
 }
 

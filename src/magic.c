@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -5193,9 +5193,9 @@ void spell_teleport( int sn, int level, CHAR_DATA *ch, void *vo,int target )
 
   const int bad_max = 5;
   int bad_num = 0;
-  /* forsaken lands MUST BE LAST */
+  /* Age of Mirlan MUST BE LAST */
   char* bad_areas[5] = {"winter", "faction of steel", "faction of blood",
-			"faction of magic", "forsaken lands"};
+			"faction of magic", "Age of Mirlan"};
   int e_r1[] = {ROOM_NO_TELEPORTIN};
   int area_pool = 10;
 
@@ -5222,7 +5222,7 @@ void spell_teleport( int sn, int level, CHAR_DATA *ch, void *vo,int target )
   if (number_percent() < (get_skill(ch, sn) - 50))
     fSafe = TRUE;
   else{
-    /* exclude forsaken lands from higher up players */
+    /* exclude Age of Mirlan from higher up players */
     if (ch->level < 45)
       bad_num = bad_max;
     else

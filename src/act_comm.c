@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -2078,7 +2078,7 @@ void do_quit( CHAR_DATA *ch, char *argument )
 	}
       }
     }
-    send_to_char( "You have escaped from the Forsaken Lands.\n\r",ch);
+    send_to_char( "You have escaped from the Age of Mirlan.\n\r",ch);
     for (rch = ch->in_room->people; rch != NULL; rch = rch->next_in_room)
         if (get_trust(rch) >= ch->invis_level && ch->desc)
             act_new( "$n has left the lands.", ch, NULL, rch, TO_VICT, POS_RESTING + 100 );

@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -23,13 +23,13 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
 
 /* Level Bonus Tables */
-  static const sh_int energy_drain_bonus[] = 
+  static const sh_int energy_drain_bonus[] =
   {
     0,
     0,   0,   0,   0,   0,	  0,   0,   0,   0,   0,//10
@@ -57,7 +57,7 @@ DECLARE_SPELL_FUN(	spell_blindness		);
 DECLARE_SPELL_FUN(	spell_blink		);
 DECLARE_SPELL_FUN(      spell_blood_gout        );
 DECLARE_SPELL_FUN(      spell_blood_vow		);
-DECLARE_SPELL_FUN(      spell_breach		); 
+DECLARE_SPELL_FUN(      spell_breach		);
 DECLARE_SPELL_FUN(	spell_burning_hands	);
 DECLARE_SPELL_FUN(	spell_call_lightning	);
 DECLARE_SPELL_FUN(      spell_calm		);
@@ -211,6 +211,7 @@ DECLARE_SPELL_FUN(	spell_restoration	);
 DECLARE_SPELL_FUN(	spell_resurrection	);
 DECLARE_SPELL_FUN(	spell_righteous		);
 DECLARE_SPELL_FUN(	spell_ripple		);
+DECLARE_SPELL_FUN(	spell_royal_call	);
 DECLARE_SPELL_FUN(	spell_dvoid		);
 DECLARE_SPELL_FUN(	spell_sanctuary		);
 DECLARE_SPELL_FUN(	spell_sav_ward		);
@@ -409,7 +410,7 @@ DECLARE_SPELL_FUN(	spell_psychic_purge	);
 DECLARE_SPELL_FUN(	spell_photon		);
 DECLARE_SPELL_FUN(	spell_photon_blast	);
 DECLARE_SPELL_FUN(	spell_flesh_armor	);
-DECLARE_SPELL_FUN(	spell_detect_aura	); 
+DECLARE_SPELL_FUN(	spell_detect_aura	);
 DECLARE_SPELL_FUN(	spell_displacement	);
 DECLARE_SPELL_FUN(	spell_awaken		);
 DECLARE_SPELL_FUN(	spell_awaken_life	);
@@ -419,7 +420,7 @@ DECLARE_SPELL_FUN(	spell_cell_adjustment	);
 DECLARE_SPELL_FUN(	spell_bio_manipulation	);
 DECLARE_SPELL_FUN(	spell_bind_spirit	);
 DECLARE_SPELL_FUN(	spell_ego_whip		);
-DECLARE_SPELL_FUN(	spell_tele_lock		); 
+DECLARE_SPELL_FUN(	spell_tele_lock		);
 DECLARE_SPELL_FUN(	spell_enhance_armor	);
 DECLARE_SPELL_FUN(	spell_there_not_there	);
 DECLARE_SPELL_FUN(	spell_blink		);
@@ -439,13 +440,13 @@ DECLARE_SPELL_FUN(	spell_tele_kinesis	);
 DECLARE_SPELL_FUN(	spell_terror		);
 DECLARE_SPELL_FUN(	spell_body_weaponry	);
 DECLARE_SPELL_FUN(	spell_ectoplasm		);
-DECLARE_SPELL_FUN(	spell_hypnosis		); 
+DECLARE_SPELL_FUN(	spell_hypnosis		);
 DECLARE_SPELL_FUN(	spell_field_of_fear	);
 DECLARE_SPELL_FUN(	spell_control_flames	);
 DECLARE_SPELL_FUN(	spell_forget		);
 DECLARE_SPELL_FUN(	spell_graft_weapon	);
 DECLARE_SPELL_FUN(	spell_ballistic_attack	);
-DECLARE_SPELL_FUN(	spell_mental_barrier	); 
+DECLARE_SPELL_FUN(	spell_mental_barrier	);
 DECLARE_SPELL_FUN(	spell_psychic_shout	);
 DECLARE_SPELL_FUN(	spell_clairvoyance	);
 DECLARE_SPELL_FUN(	spell_duplicate 	);

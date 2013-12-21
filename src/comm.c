@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -362,11 +362,11 @@ int main( int argc, char **argv )
     boot_db (fHotReboot);
     init_signals( );
     install_other_handlers( );
-    nlogf( "The Forsaken Lands is ready to rock on port %d.", mud_data.mudport );
+    nlogf( "Age of Mirlan is ready on port %d.", mud_data.mudport );
     game_loop_unix( control );
     close (control);
     /* The end. */
-    log_string( "Normal termination of The Forsaken Lands." );
+    log_string( "Normal termination of Age of Mirlan." );
     exit( 0 );
     return 0;
 }
@@ -759,7 +759,7 @@ void game_loop_unix( int control )
             else if ( check_ban(d->host,BAN_ALL) || check_ban(d->ident,BAN_ALL))
             {
 	        do_traceban(d->ident);
-            	write_to_buffer( d, "Your site has been banned from The Forsaken Lands.\n\r", 0 );
+            	write_to_buffer( d, "Your site has been banned from Age of Mirlan.\n\r", 0 );
     	    	close_socket(d);
             }
     	    else if (check_spam(d->ident))
@@ -1925,7 +1925,7 @@ CHARGEN_FUN( chargen_main ){
 	     "%-30.30s %-35.35s\n\r"\
 	     "%-30.30s %-35.35s\n\r"\
 	     "%-30.30s %-35.35s\r",
-	     "[E]nter  Aabahran",	game_status,
+	     "[E]nter  -Mirlan-",	game_status,
 	     "[C]reate Character",	site_status,
 	     "[H]elp   Files",		"     System Time",
 	     "[D]isconnect",		cur_time);
@@ -1948,12 +1948,12 @@ CHARGEN_FUN( chargen_main ){
     case 'H':	d->connected = CGEN_HELP;	break;
     case 'C':
       if (mud_data.wizlock){
-	write_to_buffer( d, "\n\rThe Forsaken Lands are Wizlocked.\n\r", 0 );
+	write_to_buffer( d, "\n\rThe Age of Mirlan is Wizlocked.\n\r", 0 );
 	chargen_main( d, "");
 	return;
       }
       if (mud_data.newlock){
-	write_to_buffer( d, "\n\rThe Forsaken Lands are newlocked.\n\r", 0 );
+	write_to_buffer( d, "\n\rThe Age of Mirlan is newlocked.\n\r", 0 );
 	chargen_main( d, "");
 	return;
       }
@@ -2099,7 +2099,7 @@ CHARGEN_FUN( chargen_enter ){
     return;
   }
   else if ( mud_data.wizlock && !IS_IMMORTAL(ch)) {
-    write_to_buffer( d, "\n\rThe Forsaken Lands are Wizlocked.\n\r", 0 );
+    write_to_buffer( d, "\n\rThe Age of Mirlan is Wizlocked.\n\r", 0 );
     close_socket( d );
     return;
   }
@@ -2562,7 +2562,7 @@ CHARGEN_FUN( chargen_new_race ){
   if (IS_NULLSTR(argument)){
     char buf[MIL], out[MSL];
     out[0] = '\0';
-    sprintf( out, "The Forsaken Lands has the following starting races:\n\r\n\r");
+    sprintf( out, "The Age of Mirlan has the following starting races:\n\r\n\r");
 
     for (i = 0; pc_race_table[i].name; i++){
       if (!pc_race_table[i].can_pick)
@@ -3671,7 +3671,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
         /* Check bans */
         if ( check_ban(d->host,BAN_ALL) || check_ban(d->ident,BAN_ALL))
         {
-            write_to_buffer( d, "Your site has been banned from The Forsaken Lands.\n\rContact Implementors if you belive you should have access.\n\r", 0 );
+            write_to_buffer( d, "Your site has been banned from The Age of Mirlan.\n\rContact Implementors if you belive you should have access.\n\r", 0 );
     	    close_socket(d);
 	    return;
         }
@@ -3727,7 +3727,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    /* New player */
 	    if (mud_data.newlock)
 	    {
-                write_to_buffer( d, "The Forsaken Lands is newlocked.\n\r",
+                write_to_buffer( d, "Age of Mirlan is newlocked.\n\r",
 0 );
 		close_socket( d );
 		return;
@@ -3769,7 +3769,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    	return;
 	    if ( check_ban(d->host,BAN_ALL) || check_ban(d->ident,BAN_ALL))
 	    {
-	        write_to_buffer( d, "Your site has been banned from The Forsaken Lands.\n\r", 0 );
+	        write_to_buffer( d, "Your site has been banned from The Age of Mirlan.\n\r", 0 );
 		close_socket(d);
 		return;
 	    }
@@ -3832,7 +3832,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    }
 	    if ( check_ban(d->host,BAN_ALL) || check_ban(d->ident,BAN_ALL))
 	    {
-	        write_to_buffer( d, "Your site has been banned from The Forsaken Lands.\n\r", 0 );
+	        write_to_buffer( d, "Your site has been banned from The Age of Mirlan.\n\r", 0 );
 		close_socket(d);
 		return;
 	    }
@@ -4361,7 +4361,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
         /* Check bans */
         if ( check_ban(d->host,BAN_ALL) || check_ban(d->ident,BAN_ALL))
         {
-            write_to_buffer( d, "Your site has been banned from The Forsaken Lands.\n\r", 0 );
+            write_to_buffer( d, "Your site has been banned from The Age of Mirlan.\n\r", 0 );
     	    close_socket(d);
 	    return;
         }
@@ -4387,7 +4387,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    write_to_buffer( d, "Please report old password with bug.\n\r",0);
             write_to_buffer( d, "Type 'password null <new password>' to fix.\n\r",0);
 	}
-        write_to_buffer( d, "\n\rWelcome to Aabahran: The Forsaken Lands.\n\r",0 );
+        write_to_buffer( d, "\n\rWelcome to -Mirlan-: The Age of Mirlan.\n\r",0 );
 	/* CHECK FOR VOTES HERE */
 	if (has_votes( ch ) > 0){
 	  char log_buf[MIL];

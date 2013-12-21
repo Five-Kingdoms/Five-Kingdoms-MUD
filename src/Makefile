@@ -12,7 +12,7 @@ LIBS =
 
 O_FILES = act_comm.o act_info.o act_move.o act_obj.o act_wiz.o alias.o\
 	  armies.o autoquest.o avatar.o bounty.o crypt.o cabal.o\
-	  cabal2.o clan.o comm.o const.o effect.o db.o dndspell.o\
+	  cabal2.o cabal3.o clan.o comm.o const.o effect.o db.o dndspell.o\
 	  fight.o handler.o\
 	  html.o interp.o jail.o losereply.o magic.o magic2.o magic3.o magic4.o misc.o\
 	  mob_prog.o\

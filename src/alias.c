@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                         *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -39,7 +39,7 @@
 #include "alias.h"
 
 /***************************************************************/
-/*Following are alias orientanted routines for Forsaken Lands  */
+/*Following are alias orientanted routines for Age of Mirlan  */
 /*mud created by Virigoth circa November 2002.  Copyrighted for Forsaken*/
 /*Lands mud November 2, 2002.  Do not use or copy without explicit */
 /*permission of author. (Voytek Plawny aka Virigoth)	       */
@@ -82,7 +82,7 @@ ALIAS_DATA* create_alias(char* name, char* content){
     bug("create_alias: Cound not create an alias", 0);
     return NULL;
   }
-  
+
   al->name = str_dup( name );
   al->content = str_dup( content );
 
@@ -130,7 +130,7 @@ void add_alias( CHAR_DATA* ch, ALIAS_DATA* newal ){
 
   }
 }
-  
+
 /* unlinkes specific alias from char */
 bool rem_alias( PC_DATA* pcdata, ALIAS_DATA* newal ){
   ALIAS_DATA* al;
@@ -202,7 +202,7 @@ ALIAS_DATA* alias_to_char( CHAR_DATA* ch, char* name, char* content){
     return al;
   }
 }
-    
+
 /* removes alias from char */
 ALIAS_DATA* alias_from_char( CHAR_DATA* ch, char* name ){
   ALIAS_DATA* al;
@@ -218,17 +218,17 @@ ALIAS_DATA* alias_from_char( CHAR_DATA* ch, char* name ){
 }
 
 
-/* manages character's aliases 
+/* manages character's aliases
    alias <key> <content>	//adds
    alias rem   <key>		//rems
    alias list			//lists
 */
 void do_alias( CHAR_DATA *ch, char *argument ){
   char arg1[MIL];
-  
+
   argument = one_argument( argument, arg1);
 
-  
+
   if ( IS_NPC(ch) )
     {
       send_to_char( "Why would you set an alias for a mob?\n\r",ch);
@@ -353,7 +353,7 @@ char* parse_alias( CHAR_DATA* ch, ALIAS_DATA* al, char* arguments ){
     case '%':	*pcmd = *(++ptr);	skip = 1;			break;
     case ';':	*pcmd = '\n';		skip = 1;
 		if (++semi_count < 2)	pfirst = pcmd + 1;		break;
-    case '$':	strcpy(pcmd, arguments);skip = strlen(arguments);	
+    case '$':	strcpy(pcmd, arguments);skip = strlen(arguments);
 		arg_count++;						break;
     default:	*pcmd = *ptr;		skip = 1;			break;
     }
@@ -377,7 +377,7 @@ char* parse_alias( CHAR_DATA* ch, ALIAS_DATA* al, char* arguments ){
 
   if (pfirst == cmd)
     pfirst = pcmd;
-  
+
   /* intput safety */
   if (start + strlen( pfirst )  > sizeof(ch->desc->inbuf) - 10){
     send_to_char("Input overflow! Alias aborted.\n\r", ch);

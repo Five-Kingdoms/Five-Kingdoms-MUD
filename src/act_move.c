@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -102,7 +102,7 @@ int MOVE_CHECK( CHAR_DATA* ch, ROOM_INDEX_DATA** to_room ){
     }
 
     if (IS_GEN(paf->type)) {
-      if ((result = run_effect_update(vch, NULL, *to_room, paf->type, NULL, 
+      if ((result = run_effect_update(vch, NULL, *to_room, paf->type, NULL,
 				      NULL, TRUE, EFF_UPDATE_MOVE)) != TRUE) {
 	if (result == -1) {
 	  return -1;
@@ -132,8 +132,8 @@ void do_out(CHAR_DATA *ch, int door)
 	  act_new( "Someone leaves $t.", ch, dir_name[door], ich, TO_VICT, POS_RESTING);
 	}
 	else if (!IS_IMMORTAL(ch)
-		 && is_affected(ich, gsn_sense_motion) 
-		 && get_skill(ich,gsn_sense_motion) 
+		 && is_affected(ich, gsn_sense_motion)
+		 && get_skill(ich,gsn_sense_motion)
 		 > number_percent() && monk_good(ch, WEAR_HEAD) )
 	  act_new( "Someone leaves the room.", ch, NULL, ich, TO_VICT, POS_RESTING + 100 );
     }
@@ -200,21 +200,21 @@ bool find_kick_exit(CHAR_DATA *ch, CHAR_DATA *victim)
 
 bool vamp_can_sneak(CHAR_DATA* ch, ROOM_INDEX_DATA* in_room)
 {
-//IF not vamp, or in mist form or bat form, cannot sneak 
+//IF not vamp, or in mist form or bat form, cannot sneak
   if (ch->class != class_lookup("vampire"))
     return FALSE;
   if ( (is_affected(ch, gsn_bat_form)) || (is_affected(ch, gsn_mist_form)) )
     return FALSE;
 
 //No we know he is a vamp, and maybe in wolf form
-//If is in wolf-form and  is in forest, hills, or 
+//If is in wolf-form and  is in forest, hills, or
 //mountain then vamp can sneak.
 
   if ( (is_affected(ch,gsn_wolf_form))
-       && (in_room->sector_type == SECT_FOREST 
-	   || in_room->sector_type == SECT_HILLS 
+       && (in_room->sector_type == SECT_FOREST
+	   || in_room->sector_type == SECT_HILLS
 	   || in_room->sector_type == SECT_SNOW
-	   || in_room->sector_type == SECT_MOUNTAIN 
+	   || in_room->sector_type == SECT_MOUNTAIN
 	   || in_room->sector_type == SECT_FIELD
 	   || in_room->sector_type == SECT_DESERT
 	   || in_room->sector_type == SECT_SWAMP))
@@ -253,7 +253,7 @@ bool disguise_check( CHAR_DATA* ch, int iClass ){
   }
   return FALSE;
 }
-	
+
 
 void move_char( CHAR_DATA *ch, int door, bool fForce )
 {
@@ -315,26 +315,26 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 /* catch death shroud move */
   i =0;
   if ( (paf = affect_find(ch->affected, gen_d_shroud)) != NULL){
-    run_effect_update(ch, paf, 0, paf->type, &i , NULL, TRUE, 
+    run_effect_update(ch, paf, 0, paf->type, &i , NULL, TRUE,
 		      EFF_UPDATE_PRECOMMAND);
   }
-  
+
   in_room = ch->in_room;
   if ( ( pexit = in_room->exit[door] ) == NULL || ( to_room = pexit->to_room ) == NULL || !can_see_room(ch,pexit->to_room))
     {
       send_to_char( "Alas, you cannot go that way.\n\r", ch );
       return;
     }
-  if (IS_SET(pexit->exit_info, EX_CLOSED) 
+  if (IS_SET(pexit->exit_info, EX_CLOSED)
       && ((!IS_AFFECTED(ch, AFF_PASS_DOOR) && !is_ghost(ch,600)) || IS_SET(pexit->exit_info,EX_NOPASS))
       && !IS_TRUSTED(ch,ANGEL))
     {
       act( "The $d is closed.", ch, NULL, pexit->keyword, TO_CHAR );
       return;
     }
-  if ( IS_AFFECTED(ch, AFF_CHARM) 
-       && ch->master != NULL 
-       && in_room == ch->master->in_room 
+  if ( IS_AFFECTED(ch, AFF_CHARM)
+       && ch->master != NULL
+       && in_room == ch->master->in_room
        && !is_affected(ch,gsn_linked_mind) && !fForce)
     {
       send_to_char( "What?  And leave your beloved master?\n\r", ch );
@@ -359,9 +359,9 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
   /* CABAL GATE */
   if (ch->incog_level == 0
       && ch->invis_level == 0
-      && ch->in_room->pCabal 
+      && ch->in_room->pCabal
       && ch->in_room->pCabal->fGate
-      && ch->in_room->pCabal->anchor 
+      && ch->in_room->pCabal->anchor
       && ch->in_room == ch->in_room->pCabal->anchor
       && to_room->pCabal){
     if (IS_NPC(ch) && IS_SET(ch->act, ACT_RAIDER)){
@@ -389,7 +389,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 
 /* move update */
   if ( MOVE_CHECK(ch, &to_room) == -1)
-    bug("Error at: MOVE_CHECK returned failure.\n\r", 0);  
+    bug("Error at: MOVE_CHECK returned failure.\n\r", 0);
 
   /* movement restrictions */
   /* Exit Triggers */
@@ -407,7 +407,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
        || (!IS_SET(to_room->room_flags2, ROOM_JAILCELL)
 	   && jail_check(in_room)
 	   && IS_SET(in_room->room_flags2, ROOM_JAILCELL)) ){
-    
+
     /* stops only Non-Justices, and any wanteds*/
     if (!IS_NPC(ch) && ch->pCabal && IS_CABAL(ch->pCabal, CABAL_JUSTICE)
 	&& !IS_IMMORTAL(ch)
@@ -431,13 +431,13 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
       return;
     }
   }
-  
+
   /* guilds and cabals (PC ONLY)*/
   if ( !IS_NPC(ch)){
       int iClass, iGuild, iJail, move;
       CHAR_DATA *mob;
       bool fbloody = FALSE, fguild = FALSE;
-      
+
       if (!IS_NPC(ch) && !IS_IMMORTAL(ch)){
 	int class = ch->class;
 	int dkClass = class_lookup("dark-knight");
@@ -452,7 +452,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 		if (disguise_check( ch, iClass )){
 		  fguild = TRUE;
 		}
-		else if ((iClass == class 
+		else if ((iClass == class
 			  || (IS_MASQUE(ch) && iClass == dkClass)
 			  || fJustice)
 			 && (!IS_SET(ch->act,PLR_OUTCAST) || fJustice))
@@ -502,7 +502,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 	      }
 	}
       }
-      
+
       if (!IS_NPC(ch))
 	climb =  get_skill(ch,gsn_climb);
       else
@@ -527,7 +527,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 		}
 		WAIT_STATE2(ch,skill_table[gsn_climb].beats);
 		ch->mana -= 4;
-		check_improve(ch, gsn_climb, TRUE, 1);		
+		check_improve(ch, gsn_climb, TRUE, 1);
 	      }
 	    else if (is_affected(ch, gsn_sretrib)){
 	      send_to_char("You attempt to climb in that direction.\n\r", ch);
@@ -578,7 +578,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 	    {
 	      for ( obj = ch->carrying; obj != NULL; obj = obj->next_content )
 		{
-		  if ( obj->item_type == ITEM_BOAT ) 
+		  if ( obj->item_type == ITEM_BOAT )
 		    {
 		      found = TRUE;
 		      break;
@@ -612,9 +612,9 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 	  send_to_char("You have been restricted to this area by your fate!\n\r",ch);
 	  return;
 	}
-      
+
       move = (movement_loss[UMIN(MAX_SECT-1, in_room->sector_type)] + movement_loss[UMIN(MAX_SECT-1, to_room->sector_type)])/2;
-      
+
       /* check for forest walk */
       if (ch->class == gcn_ranger && to_room->sector_type == SECT_FOREST){
 	if ( number_percent() < get_skill(ch, gsn_forest_walk)){
@@ -625,14 +625,14 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 
       /* if they can climb, max cost of 4, and 3 if it was 4 */
       if (move >  3 && number_percent() < climb){
-	if (move == 4) 
+	if (move == 4)
 	  move = 3;
 	else
 	  move = 4;
 	check_improve(ch, gsn_climb, TRUE, 1);
       }
       if (is_affected(ch, gsn_sretrib)){
-	if (move > 2) 
+	if (move > 2)
 	  move = 2;
       }
 
@@ -655,7 +655,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 /* fly/haste */
       if (IS_AFFECTED(ch,AFF_HASTE))
 	move /= 2;
-      else if (!IS_NPC(ch) && IS_AFFECTED(ch,AFF_FLYING) 
+      else if (!IS_NPC(ch) && IS_AFFECTED(ch,AFF_FLYING)
 	       && !is_affected(ch,gsn_thrash) ){
 	move /= 2;
       }
@@ -663,16 +663,16 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
       if (move > 3 && is_ghost(ch, 600))
 	move = 3;
 
-      /* CABAL */   
+      /* CABAL */
       if (move > 2 && ch->in_room && ch->in_room->area->pCabal){
 	/* warmaster lowers movement cost by 1 */
-	if (!str_cmp(ch->in_room->area->pCabal->name, "Warmaster") 
-	    && !class_table[ch->class].fMana 
+	if (!str_cmp(ch->in_room->area->pCabal->name, "Warmaster")
+	    && !class_table[ch->class].fMana
 	    && !class_table[ch->class].sMana)
 	  move -= 1;
       }
 
-      if (!IS_NPC(ch) && !IS_AFFECTED(ch,AFF_FLYING) 
+      if (!IS_NPC(ch) && !IS_AFFECTED(ch,AFF_FLYING)
 	  && ch->pcdata->pStallion != NULL){
 	if ( IS_SET(ch->pcdata->pStallion->affected_by, AFF_FLYING)
 	     || (ch->pet && ch->pet->pIndexData == ch->pcdata->pStallion
@@ -698,7 +698,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
       if (is_affected(ch,gsn_mist_form))
 	move *= 2;
 
-      //MOVEMEN LAG (WORST TO LEAST LAG PENALTY):	   
+      //MOVEMEN LAG (WORST TO LEAST LAG PENALTY):
       if (IS_AFFECTED2(ch, AFF_HOLD)){
 	send_to_char("You can barely move.\n\r",ch);
 	lag *=6;
@@ -726,14 +726,14 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 	ch->move -= UMAX(1, move);
       }
       WAIT_STATE( ch, lag );
-      
-      //ADDITIONAL MOVEMENT LAGS DUE TO EFFECTS 
+
+      //ADDITIONAL MOVEMENT LAGS DUE TO EFFECTS
       if (is_affected(ch,gsn_trap_silvanus))
         {
 	  send_to_char("Your trap falls apart!\n\r",ch);
 	  WAIT_STATE(ch,24);
 	  affect_strip(ch,gsn_trap_silvanus);
-        } 
+        }
       if (is_affected(ch,gsn_deadfall))
         {
           send_to_char("Your deadfall loses its potency.\n\r",ch);
@@ -768,9 +768,9 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
       obj_to_room(obj, ch->in_room);
     }
 
-  if ( IS_AFFECTED(ch, AFF_HIDE) 
+  if ( IS_AFFECTED(ch, AFF_HIDE)
        && to_room->sector_type != SECT_CITY
-       && to_room->sector_type != SECT_INSIDE 
+       && to_room->sector_type != SECT_INSIDE
        && to_room->sector_type != SECT_FIELD)
     {
       affect_strip( ch, gsn_hide );
@@ -778,10 +778,10 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
       act("You step out of the shadows.",ch,NULL,NULL,TO_CHAR);
       act("$n steps out of the shadows.",ch,NULL,NULL,TO_ROOM);
     }
-  if ( IS_AFFECTED2(ch, AFF_CAMOUFLAGE) 
-       && to_room->sector_type != SECT_FOREST 
-       && to_room->sector_type != SECT_HILLS 
-       && to_room->sector_type != SECT_SNOW 
+  if ( IS_AFFECTED2(ch, AFF_CAMOUFLAGE)
+       && to_room->sector_type != SECT_FOREST
+       && to_room->sector_type != SECT_HILLS
+       && to_room->sector_type != SECT_SNOW
        && to_room->sector_type != SECT_FIELD
        && to_room->sector_type != SECT_MOUNTAIN)
     {
@@ -819,7 +819,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
   }
   else if (!(!IS_NPC(ch) && IS_SET(ch->act2,PLR_NOWHO)) && ch->invis_level <= LEVEL_HERO)
     {
-      if (!IS_AFFECTED(ch, AFF_SNEAK) 
+      if (!IS_AFFECTED(ch, AFF_SNEAK)
 	   && IS_AFFECTED(ch, AFF_HIDE)
 	  && !sneak_fade_check(ch))
     	{
@@ -842,21 +842,21 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 	  else if (get_skill(ch,gsn_quiet_movement) != 0)
 	    check_improve(ch,gsn_quiet_movement,TRUE,0);
 	}
-    
-      
+
+
       //This bit here checks for atuo sneak for rangers.
-      if ( (to_room->sector_type != SECT_FOREST 
-	    && to_room->sector_type != SECT_HILLS 
+      if ( (to_room->sector_type != SECT_FOREST
+	    && to_room->sector_type != SECT_HILLS
 	    && to_room->sector_type != SECT_SNOW
-	    && to_room->sector_type != SECT_MOUNTAIN ) 
-	   || (chance > cskill 
-	       && !is_affected(ch,gsn_wolf_form)) 
-	   || IS_AFFECTED(ch,AFF_FAERIE_FIRE) 
+	    && to_room->sector_type != SECT_MOUNTAIN )
+	   || (chance > cskill
+	       && !is_affected(ch,gsn_wolf_form))
+	   || IS_AFFECTED(ch,AFF_FAERIE_FIRE)
 	   || IS_AFFECTED(ch,AFF_FAERIE_FOG) )
 	{
-	  //If character is not a ranger sneking, we are going to test for sneaking vamp 
-	  if(!IS_AFFECTED(ch, AFF_SNEAK) 
-	     && !vamp_can_sneak(ch, to_room) 
+	  //If character is not a ranger sneking, we are going to test for sneaking vamp
+	  if(!IS_AFFECTED(ch, AFF_SNEAK)
+	     && !vamp_can_sneak(ch, to_room)
 	     && !sneak_fade_check(ch))
 	    {
 	      //if the vamp cant sneak in here, then we show him walking out.
@@ -892,7 +892,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
       do_out(ch, door);
     }//END if NOT AFFECTED BY SNEAK
   else
-    //do_out simply sendsout message to those that can sense sneak 
+    //do_out simply sendsout message to those that can sense sneak
     do_out(ch, door);
 
 
@@ -902,7 +902,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
   if (ch == NULL || ch->extracted)
     return;
 /* ripple effect */
-  if ( !IS_NPC(ch) 
+  if ( !IS_NPC(ch)
        && (pRipple = affect_find(ch->affected, gsn_ripple)) != NULL
        && number_percent() < 50){
     to_room = in_room;
@@ -916,7 +916,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
     act(skill_table[gsn_ripple].msg_off2, ch, NULL, NULL, TO_ROOM);
     affect_strip(ch, gsn_ripple);
   }
-  
+
 /* check if any updates killed the char etc. */
   if (ch->extracted || ch->in_room == NULL)
     return;
@@ -928,18 +928,18 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
     act_new( "$n $t in.", ch, fFly ? "flies" : "rides", NULL, TO_ROOM, POS_RESTING + 100 );
   }
   else
-    { 
-      if ( !IS_AFFECTED(ch, AFF_SNEAK) 
-	   && !(!IS_NPC(ch) 
-		&& IS_SET(ch->act2,PLR_NOWHO)) 
-	   && ch->invis_level <= LEVEL_HERO 
-	   && ((to_room->sector_type != SECT_FOREST 
-		&& to_room->sector_type != SECT_HILLS 
-		&& to_room->sector_type != SECT_SNOW 
-		&& to_room->sector_type != SECT_MOUNTAIN )  
-	       || chance > cskill 
+    {
+      if ( !IS_AFFECTED(ch, AFF_SNEAK)
+	   && !(!IS_NPC(ch)
+		&& IS_SET(ch->act2,PLR_NOWHO))
+	   && ch->invis_level <= LEVEL_HERO
+	   && ((to_room->sector_type != SECT_FOREST
+		&& to_room->sector_type != SECT_HILLS
+		&& to_room->sector_type != SECT_SNOW
+		&& to_room->sector_type != SECT_MOUNTAIN )
+	       || chance > cskill
 	       || (!IS_SET(race_table[ch->race].aff,AFF_SNEAK)
-		   && (IS_AFFECTED(ch,AFF_FAERIE_FIRE) 
+		   && (IS_AFFECTED(ch,AFF_FAERIE_FIRE)
 		       || IS_AFFECTED(ch,AFF_FAERIE_FOG)) ) ))
 	{
 	  //Since he is not ranger, or cannot sneak in forest, we check for vampire sneak
@@ -987,7 +987,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
   do_look( ch, "auto" );
 
   /* tracks */
-  if (!IS_NPC(ch) 
+  if (!IS_NPC(ch)
       && to_room->sector_type != SECT_WATER_SWIM
       && to_room->sector_type != SECT_WATER_NOSWIM
       && to_room->sector_type != SECT_AIR){
@@ -1014,7 +1014,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 	  af.location         = 0;
 	  af.modifier         = 0;
 	  af.bitvector        = 0;
-	  affect_to_char(ch,&af);   
+	  affect_to_char(ch,&af);
 	}
       damage(ch,ch,ch->level/10,1052,DAM_LIGHT,TRUE);
     }
@@ -1029,9 +1029,9 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 	continue;
       if (is_affected(fch,gsn_linked_mind))
 	continue;
-      if ( fch->master == ch 
-	   && fch != ch 
-	   && fch->position == POS_STANDING 
+      if ( fch->master == ch
+	   && fch != ch
+	   && fch->position == POS_STANDING
 	   && can_see_room(fch,to_room))
 	{
 	  sendf(fch, "You follow %s.\n\r", PERS(ch,fch));
@@ -1050,7 +1050,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 	  act("$N stares at $n with a lustful grin.",ch,NULL,fch,TO_NOTVICT);
 	}
     }
-  
+
   mprog_entry_trigger( ch );
   if (ch == NULL || ch->in_room == NULL || ch->in_room != to_room )
     return;
@@ -1082,26 +1082,26 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
   QuestRoomCheck( ch, ch->in_room );
 
   /* CABAL GUARD YELLS */
-  if (!IS_IMMORTAL(ch) && !IS_NPC(ch) 
-      && ch->in_room->pCabal 
+  if (!IS_IMMORTAL(ch) && !IS_NPC(ch)
+      && ch->in_room->pCabal
       && ch->in_room->pCabal->anchor
       && ch->in_room->pCabal->anchor == ch->in_room
       && ch->in_room->pCabal->guard
       && IS_CABAL(ch->in_room->pCabal, CABAL_GUARDMOB)){
     for ( fch = ch->in_room->people; fch != NULL; fch = fch_next ){
       fch_next = fch->next_in_room;
-      if (IS_NPC(fch) && IS_AWAKE(fch) 
-	  && !IS_AFFECTED(fch,AFF_CHARM) 
+      if (IS_NPC(fch) && IS_AWAKE(fch)
+	  && !IS_AFFECTED(fch,AFF_CHARM)
 	  && !IS_AFFECTED2(fch,AFF_HOLD)
-	  && IS_SET(fch->off_flags,CABAL_GUARD) 
+	  && IS_SET(fch->off_flags,CABAL_GUARD)
 	  && fch->pCabal
 	  && fch->pCabal->guard
 	  && fch->pCabal->guard == fch->pIndexData
 	  && ch->pCabal
-	  && !is_captured_by(ch->pCabal, fch->pCabal)	  
+	  && !is_captured_by(ch->pCabal, fch->pCabal)
 	  && is_friendly( fch->pCabal, ch->pCabal ) == CABAL_ENEMY){
 	sprintf(buf, "%s: Alert! %s%s%s`$%s sighted at our gates!``",
-		PERS2( fch), 
+		PERS2( fch),
 		PERS(ch,fch),
 		ch->pCabal ? " of [" : "",
 		ch->pCabal ? ch->pCabal->who_name : "",
@@ -1119,26 +1119,26 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
       victim     = ch;
       if (ch == wch)
 	continue;
-      if ( !IS_NPC(wch) 
-	   && wch->fighting == NULL 
-	   && IS_AWAKE(wch) 
+      if ( !IS_NPC(wch)
+	   && wch->fighting == NULL
+	   && IS_AWAKE(wch)
 	   && !IS_AFFECTED(wch,AFF_CALM)
 	   && victim->position > POS_SITTING
-	   && !is_area_safe_quiet(wch,victim) 
+	   && !is_area_safe_quiet(wch,victim)
 	   && is_affected(wch,gsn_deadfall) )
-	
+
 	{
 	  AFFECT_DATA naf;
 	  if (number_percent() < get_skill(wch,gsn_deadfall)){
-	    if (!IS_AFFECTED(victim,AFF_FLYING) 
+	    if (!IS_AFFECTED(victim,AFF_FLYING)
 		|| is_affected(victim,gsn_thrash)
 		|| number_percent() < 20){
 	      sprintf(buf,"Help! I'm caught in %s's deadfall!",PERS(wch,victim));
-	      j_yell(victim,buf);          
+	      j_yell(victim,buf);
 	      act("You `1BRUTALIZE`` $N in your deadfall!",wch,NULL,victim,TO_CHAR);
 	      act("$n `1BRUTALIZES`` $N in $S deadfall!",wch,NULL,victim,TO_NOTVICT);
 	      act("You are `1BRUTALIZED`` by $n's deadfall!",wch,NULL,victim,TO_VICT);
-	      if (!IS_AFFECTED(victim,AFF_FLYING) 
+	      if (!IS_AFFECTED(victim,AFF_FLYING)
 		  || is_affected(victim,gsn_thrash)
 		  ){
 		act("You can't move an inch!",wch,NULL,victim,TO_VICT);
@@ -1173,7 +1173,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 	      }
 	  }
 	}
-      
+
       if ( !IS_NPC(wch) && is_affected(wch,gsn_trap_silvanus) && wch->fighting == NULL && IS_AWAKE(wch) &&!IS_AFFECTED(wch,AFF_CALM)
 	   && !is_area_safe_quiet(wch,victim) && !(IS_AFFECTED(victim,AFF_FLYING) && !IS_AFFECTED(victim,gsn_thrash))
 	   && victim->position > POS_SITTING)
@@ -1190,7 +1190,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 		  act("$n ensnares you in $s trap but you manage to stay balanced!",wch,NULL,victim,TO_VICT);
 		  check_improve(victim,gsn_balance,TRUE,5);
 		  victim->mana -= URANGE(0,25,victim->mana);
-		}        
+		}
 	      else
 		{
 		  act("Your trap sends $N to the ground!",wch,NULL,victim,TO_CHAR);
@@ -1207,7 +1207,7 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 	      act("$n's trap comes apart in $s face!",wch,NULL,NULL,TO_ROOM);
 	      wch->position = POS_RESTING;
 	      WAIT_STATE(wch,24);
-	    }               
+	    }
 	  affect_strip(wch,gsn_trap_silvanus);
 	  naf.where            = TO_AFFECTS;
 	  naf.type             = gsn_wire_delay;
@@ -1218,22 +1218,22 @@ void move_char( CHAR_DATA *ch, int door, bool fForce )
 	  naf.bitvector        = 0;
 	  affect_to_char(wch,&naf);
 	  break;
-	} 
+	}
     }
   }
   if (ch->in_room && IS_SET(ch->in_room->room_flags2, ROOM_PSI_FEAR))
     effect_field_of_fear(ch);
 
 /* after all that, assuming we are alive we check if we should draw weapons */
-  if (IS_GAME(ch, GAME_ASHEATH) 
-      && IS_SET(in_room->area->area_flags, AREA_LAWFUL) 
+  if (IS_GAME(ch, GAME_ASHEATH)
+      && IS_SET(in_room->area->area_flags, AREA_LAWFUL)
       && !IS_SET(to_room->area->area_flags, AREA_LAWFUL)){
     do_combatdraw(ch, get_eq_char(ch, WEAR_WIELD), get_eq_char(ch, WEAR_SECONDARY));
   }
 
 /* now check for opposite, sheathing */
-  else if (IS_GAME(ch, GAME_ASHEATH) 
-	   && IS_SET(to_room->area->area_flags, AREA_LAWFUL) 
+  else if (IS_GAME(ch, GAME_ASHEATH)
+	   && IS_SET(to_room->area->area_flags, AREA_LAWFUL)
 	   && !IS_SET(in_room->area->area_flags, AREA_LAWFUL)
 	   && get_eq_char(ch, WEAR_SHEATH_L) == NULL
 	   && get_eq_char(ch, WEAR_SHEATH_R) == NULL){
@@ -1348,7 +1348,7 @@ void do_open( CHAR_DATA *ch, char *argument )
 	send_to_char( "Open what?\n\r", ch );
 	return;
     }
-    if ( ( obj = get_obj_here( ch, NULL,  arg ) ) != NULL 
+    if ( ( obj = get_obj_here( ch, NULL,  arg ) ) != NULL
 	 && ( door = find_door_quiet( ch, arg ) ) < 0 )
     {
 	if ( obj->item_type != ITEM_CONTAINER)
@@ -1374,8 +1374,8 @@ void do_open( CHAR_DATA *ch, char *argument )
 	bool ecto = FALSE;
 	if (ch->class == class_lookup("psionicist")){
 	  for (ich = ch->in_room->people; ich; ich = ich->next_in_room){
-	    if (IS_NPC(ich) 
-		&& ich->pIndexData->vnum == MOB_VNUM_VAPOR 
+	    if (IS_NPC(ich)
+		&& ich->pIndexData->vnum == MOB_VNUM_VAPOR
 		&& ich->leader == ch){
 	      ecto = TRUE;
 	      break;
@@ -1423,7 +1423,7 @@ void do_close( CHAR_DATA *ch, char *argument )
 	send_to_char( "Close what?\n\r", ch );
 	return;
     }
-    if ( ( obj = get_obj_here( ch, NULL,  arg ) ) != NULL 
+    if ( ( obj = get_obj_here( ch, NULL,  arg ) ) != NULL
 	 && ( door = find_door_quiet( ch, arg ) ) < 0 )
     {
 	if ( obj->item_type != ITEM_CONTAINER )
@@ -1504,7 +1504,7 @@ void do_lock( CHAR_DATA *ch, char *argument )
 	send_to_char( "Lock what?\n\r", ch );
 	return;
     }
-    if ( ( obj = get_obj_here( ch, NULL,  arg ) ) != NULL 
+    if ( ( obj = get_obj_here( ch, NULL,  arg ) ) != NULL
 	 && ( door = find_door_quiet( ch, arg ) ) < 0 )
     {
 	if ( obj->item_type != ITEM_CONTAINER )
@@ -1572,7 +1572,7 @@ void do_unlock( CHAR_DATA *ch, char *argument )
 	send_to_char( "Unlock what?\n\r", ch );
 	return;
     }
-    if ( ( obj = get_obj_here( ch, NULL,  arg ) ) != NULL 
+    if ( ( obj = get_obj_here( ch, NULL,  arg ) ) != NULL
 	 && ( door = find_door_quiet( ch, arg ) ) < 0 )
     {
 	if ( obj->item_type != ITEM_CONTAINER )
@@ -1611,7 +1611,7 @@ void do_unlock( CHAR_DATA *ch, char *argument )
 	if ( pexit->key <= 0 )
 	    { send_to_char( "It can't be unlocked.\n\r",   ch ); return; }
 	if ( ( key = has_key( ch, pexit->key)) == NULL){
-	  if (!ecto 
+	  if (!ecto
 	      || IS_SET(pexit->exit_info, EX_PICKPROOF)){
 	    send_to_char( "You lack the key.\n\r",       ch ); return; }
 	}
@@ -1654,7 +1654,7 @@ void do_pick( CHAR_DATA *ch, char *argument )
     chance = get_skill(ch,gsn_pick_lock);
     if (chance > 0)
 	chance += 2*(get_curr_stat(ch,STAT_LUCK) - 16) ;
-    if ( ( obj = get_obj_here( ch, NULL,  arg ) ) != NULL 
+    if ( ( obj = get_obj_here( ch, NULL,  arg ) ) != NULL
 	 && ( door = find_door_quiet( ch, arg ) ) < 0 )
     {
 	if ( obj->item_type != ITEM_CONTAINER )
@@ -1696,7 +1696,7 @@ void do_pick( CHAR_DATA *ch, char *argument )
     	if ( !IS_SET(pexit->exit_info, EX_HARD) )
     	    chance = 2*chance/3;
     	if ( !IS_SET(pexit->exit_info, EX_INFURIATING) )
-    	    chance /= 2;    
+    	    chance /= 2;
     	if ( !IS_NPC(ch) && chance < number_percent())
     	{
 	    send_to_char( "You failed.\n\r", ch);
@@ -1741,7 +1741,7 @@ void do_stand( CHAR_DATA *ch, char *argument )
         send_to_char( "You're in a state of self-induced catalepsy.  You can't do that!\n\r", ch );
         send_to_char( "Type revive to revive yourself if you want.\n\r", ch );
         return;
-    } 
+    }
     switch ( ch->position )
     {
     case POS_MEDITATE:
@@ -1769,7 +1769,7 @@ void do_stand( CHAR_DATA *ch, char *argument )
             af.location         = APPLY_NONE;
             af.modifier         = 0;
             af.bitvector        = 0;
-            affect_to_char(ch,&af);	    
+            affect_to_char(ch,&af);
 	    affect_strip(ch,gsn_camp);
 	}
         act_new( "You wake and stand$t.", ch, buf, NULL, TO_CHAR, POS_DEAD );
@@ -1821,7 +1821,7 @@ void do_rest( CHAR_DATA *ch, char *argument )
         send_to_char( "You're already resting...as a corpse!\n\r", ch );
         send_to_char( "Type revive to revive yourself if you want.\n\r", ch );
         return;
-    } 
+    }
     else if (is_affected(ch,gen_suffocate))
     {
 	send_to_char("You cannot rest while suffocating!\n\r",ch);
@@ -1847,7 +1847,7 @@ void do_rest( CHAR_DATA *ch, char *argument )
 	if ( is_affected(ch, gsn_camp))
         {
             send_to_char( "You feel drained from deprivation of sleep.\n\r", ch);
-            if (is_affected(ch, gsn_drained))    
+            if (is_affected(ch, gsn_drained))
                 affect_strip(ch,gsn_drained);
             af.type             = gsn_drained;
             af.level            = ch->level;
@@ -1878,7 +1878,7 @@ void do_rest( CHAR_DATA *ch, char *argument )
 	ch->position = POS_RESTING;
 	break;
     }
- 
+
 }
 
 void do_sit (CHAR_DATA *ch, char *argument )
@@ -1909,7 +1909,7 @@ void do_sit (CHAR_DATA *ch, char *argument )
         send_to_char( "You're in a state of self-induced catalepsy.  You can't do that!\n\r", ch );
         send_to_char( "Type revive to revive yourself if you want.\n\r", ch );
         return;
-    } 
+    }
     if (!IS_NPC(ch) && ch->pcdata->pStallion != NULL)
     {
       sendf( ch, "You can't get into a comfortable position on the back of %s.\n\r",ch->pcdata->pStallion->short_descr);
@@ -1935,7 +1935,7 @@ void do_sit (CHAR_DATA *ch, char *argument )
 	if ( is_affected(ch, gsn_camp))
         {
             send_to_char( "You feel drained from deprivation of sleep.\n\r", ch);
-            if (is_affected(ch, gsn_drained))    
+            if (is_affected(ch, gsn_drained))
                 affect_strip(ch,gsn_drained);
             af.type             = gsn_drained;
             af.level            = ch->level;
@@ -1974,7 +1974,7 @@ void do_meditate( CHAR_DATA *ch, char *argument )
         send_to_char( "You're in a state of self-induced catalepsy.  You can't do that!\n\r", ch );
         send_to_char( "Type revive to revive yourself if you want.\n\r", ch );
         return;
-    } 
+    }
 /*    if (ch->class != class_lookup("monk"))
     {
 	send_to_char("You assume a very comfortable position and begin to meditate.\n", ch);
@@ -1985,7 +1985,7 @@ void do_meditate( CHAR_DATA *ch, char *argument )
     /* reset memorization */
     if (!IS_NPC(ch)){
       //reset memticks
-      reset_memticks( ch->pcdata );    
+      reset_memticks( ch->pcdata );
     }
 
     check_dispel(-99, ch, gsn_stance );
@@ -2012,7 +2012,7 @@ void do_meditate( CHAR_DATA *ch, char *argument )
         ch->position = POS_MEDITATE;
 	dreamprobe_cast(ch, NULL);
 	break;
-    case POS_STANDING: 
+    case POS_STANDING:
         act_new( "You sit down and begin to meditate.", ch, NULL, NULL, TO_CHAR, POS_DEAD );
 	if (!IS_AFFECTED(ch, AFF_HIDE))
 	  act( "$n sits down and begins to meditate.", ch, NULL, NULL, TO_ROOM );
@@ -2032,7 +2032,7 @@ void do_sleep( CHAR_DATA *ch, char *argument )
     bool force = FALSE;
 
     if (IS_AFFECTED(ch,AFF_SLEEP))
-	force = TRUE;	
+	force = TRUE;
 
     /* check for acting on objects */
     if (!force && argument[0] != '\0'){
@@ -2056,7 +2056,7 @@ void do_sleep( CHAR_DATA *ch, char *argument )
         send_to_char( "You're as close to sleeping as you can get!\n\r", ch );
         send_to_char( "Type revive to revive yourself if you want.\n\r", ch );
         return;
-    } 
+    }
     if (is_affected(ch,gsn_insomnia) && !force)
     {
 	send_to_char("You cannot manage to sleep due to the insomnia.\n\r",ch);
@@ -2067,7 +2067,7 @@ void do_sleep( CHAR_DATA *ch, char *argument )
 	send_to_char("You cannot sleep while suffocating!\n\r",ch);
 	return;
     }
-    if (!force && ch->class == class_lookup("vampire") 
+    if (!force && ch->class == class_lookup("vampire")
 	&& (mud_data.time_info.hour < 6 || mud_data.time_info.hour > 18))
     {
         send_to_char("Vampires do not sleep at night!\n\r",ch);
@@ -2108,7 +2108,7 @@ void do_sleep( CHAR_DATA *ch, char *argument )
 	break;
     case POS_RESTING:
     case POS_SITTING:
-    case POS_STANDING: 
+    case POS_STANDING:
         act_new( "You go to sleep$t.", ch, buf, NULL, TO_CHAR, POS_DEAD );
         act( "$n goes to sleep$t.", ch, buf, NULL, TO_ROOM );
         ch->position = POS_SLEEPING;
@@ -2172,7 +2172,7 @@ void do_sneak( CHAR_DATA *ch, char *argument )
       sendf( ch, "You can't sneak on the back of %s.\n\r",ch->pcdata->pStallion->short_descr);
       return;
     }
-    else if ( IS_AFFECTED(ch, AFF_FAERIE_FOG) 
+    else if ( IS_AFFECTED(ch, AFF_FAERIE_FOG)
 	      || IS_AFFECTED(ch, AFF_FAERIE_FIRE)){
       send_to_char( "You can't sneak while glowing.\n\r", ch);
       return;
@@ -2190,7 +2190,7 @@ void do_sneak( CHAR_DATA *ch, char *argument )
       check_improve(ch,gsn_sneak,TRUE,1);
       af.where     = TO_AFFECTS;
       af.type      = gsn_sneak;
-      af.level     = ch->level; 
+      af.level     = ch->level;
       af.duration  = ch->level;
       af.location  = APPLY_NONE;
       af.modifier  = 0;
@@ -2200,7 +2200,7 @@ void do_sneak( CHAR_DATA *ch, char *argument )
     else
       check_improve(ch,gsn_sneak,FALSE,1);
 }
-    
+
 void do_hide( CHAR_DATA *ch, char *argument ){
 
   int skill = get_skill(ch, gsn_hide);
@@ -2235,11 +2235,11 @@ void do_hide( CHAR_DATA *ch, char *argument ){
     send_to_char("There's nothing around to hide in.\n\r",ch);
     return;
   }
-  if (ch->in_room->sector_type != SECT_INSIDE 
-      && ch->in_room->sector_type != SECT_CITY 
+  if (ch->in_room->sector_type != SECT_INSIDE
+      && ch->in_room->sector_type != SECT_CITY
       && ch->in_room->sector_type != SECT_FIELD)
     {
-      if (ch->in_room->sector_type == SECT_AIR 
+      if (ch->in_room->sector_type == SECT_AIR
 	  || ch->in_room->sector_type == SECT_DESERT)
 	{
 	  send_to_char("There's nothing around to hide in.\n\r",ch);
@@ -2296,10 +2296,10 @@ void do_camouflage( CHAR_DATA *ch, char *argument )
     return;
   }
   if (!IS_NPC(ch)
-      && ch->in_room->sector_type != SECT_FOREST 
+      && ch->in_room->sector_type != SECT_FOREST
       && ch->in_room->sector_type != SECT_HILLS
       && ch->in_room->sector_type != SECT_SNOW
-      && ch->in_room->sector_type != SECT_MOUNTAIN 
+      && ch->in_room->sector_type != SECT_MOUNTAIN
       && ch->in_room->sector_type != SECT_FIELD){
     if (ch->in_room->sector_type == SECT_AIR || ch->in_room->sector_type == SECT_DESERT){
       send_to_char("There's nothing around to camouflage yourself with.\n\r",ch);
@@ -2338,7 +2338,7 @@ void do_camouflage( CHAR_DATA *ch, char *argument )
     CHAR_DATA* vch;
 
     for (vch = ch->in_room->people; vch != NULL; vch = vch->next_in_room){
-      if (IS_NPC(vch) && IS_AFFECTED(vch, AFF_CHARM) 
+      if (IS_NPC(vch) && IS_AFFECTED(vch, AFF_CHARM)
 	  && vch->master && vch->master == ch)
 	SET_BIT(vch->affected2_by, AFF_CAMOUFLAGE);
     }
@@ -2383,7 +2383,7 @@ void do_visible( CHAR_DATA *ch, char *argument )
 	act("You step out of the shadows.",ch,NULL,NULL,TO_CHAR);
 	act("$n steps out of the shadows.",ch,NULL,NULL,TO_ROOM);
     }
-    if (IS_AFFECTED(ch, AFF_SNEAK) 
+    if (IS_AFFECTED(ch, AFF_SNEAK)
 	&& ch->race != race_lookup("faerie")
 	&& ch->race != race_lookup("elf")
 	&& ch->race != race_lookup("drow"))
@@ -2402,7 +2402,7 @@ void do_visible( CHAR_DATA *ch, char *argument )
     }
     if (is_affected(ch, gen_d_shroud))
       affect_strip(ch, gen_d_shroud);
-    
+
 }
 
 void do_revert( CHAR_DATA *ch, char *argument )
@@ -2427,7 +2427,7 @@ void do_revert( CHAR_DATA *ch, char *argument )
       WAIT_STATE( ch, 12);
       return;
     }
-    else if (is_affected(ch, gsn_weretiger) || is_affected(ch, gsn_werewolf) 
+    else if (is_affected(ch, gsn_weretiger) || is_affected(ch, gsn_werewolf)
 	     || is_affected(ch, gsn_werebear) || is_affected(ch, gsn_werefalcon)){
       affect_strip(ch,gsn_weretiger);
       affect_strip(ch,gsn_werewolf);
@@ -2478,7 +2478,7 @@ void do_recall( CHAR_DATA *ch, char *argument )
     }
     if ( IS_SET(ch->in_room->room_flags, ROOM_NO_INOUT) || IS_SET(ch->in_room->room_flags, ROOM_NO_RECALL)
 	 || IS_AFFECTED(ch, AFF_CURSE) || IS_SET(ch->act, PLR_DOOF) || is_affected(ch, gsn_damnation) )
-      
+
       {
 	send_to_char( "The Gods have forsaken you.\n\r", ch );
 	return;
@@ -2504,7 +2504,7 @@ void do_recall( CHAR_DATA *ch, char *argument )
         if ( IS_NPC(ch->fighting) && !IS_SET(ch->fighting->off_flags,CABAL_GUARD))
         {
             if (!IS_NPC(ch))
-                ch->fighting->hunting = ch;   
+                ch->fighting->hunting = ch;
             else if (ch->master != NULL)
                 ch->fighting->hunting = ch->master;
             else
@@ -2600,7 +2600,7 @@ void do_train( CHAR_DATA *ch, char *argument )
       if (ch->class == gcn_adventurer){
 	send_to_char("Adventurers cannot train health.\n\r", ch);
 	return;
-      }      
+      }
       --ch->train;
       ch->pcdata->perm_hit += 10;
       ch->max_hit += 10;
@@ -2613,7 +2613,7 @@ void do_train( CHAR_DATA *ch, char *argument )
       if (ch->class == gcn_adventurer){
 	send_to_char("Adventurers cannot train their minds.\n\r", ch);
 	return;
-      }      
+      }
       --ch->train;
       ch->pcdata->perm_mana += 20;
       ch->max_mana += 20;
@@ -2626,7 +2626,7 @@ void do_train( CHAR_DATA *ch, char *argument )
       if (ch->class == gcn_adventurer){
 	send_to_char("Adventurers cannot train their stamina.\n\r", ch);
 	return;
-      }      
+      }
       --ch->train;
       ch->pcdata->perm_move += 30;
       ch->max_move += 30;
@@ -2656,16 +2656,16 @@ void scan_room (CHAR_DATA *ch, ROOM_INDEX_DATA *room, int distance, int dir)
     if (IS_SET(room->room_flags,ROOM_NO_SCAN))
       return;
 /* add light if required */
-    if ( ( obj = get_eq_char( ch, WEAR_LIGHT ) ) != NULL 
+    if ( ( obj = get_eq_char( ch, WEAR_LIGHT ) ) != NULL
 	 && obj->item_type == ITEM_LIGHT
 	 && obj->value[2] != 0){
       fLight = TRUE;
       room->light++;
     }
-    
+
     while (victim != NULL){
-      if ((can_see(ch,victim) 
-	   || (IS_AFFECTED2(ch,AFF_SENSE_EVIL) 
+      if ((can_see(ch,victim)
+	   || (IS_AFFECTED2(ch,AFF_SENSE_EVIL)
 	       && IS_EVIL(victim)
 	       && !is_affected(victim, gen_d_shroud)
 	       && (victim->invis_level < 1 || victim->incog_level < 1))) && !IS_IMMORTAL(victim))
@@ -2691,8 +2691,8 @@ void do_scan (CHAR_DATA *ch, char *argument)
     if (IS_AFFECTED2(ch,AFF_TERRAIN))
     {
       if (is_affected(ch, gsn_forest_mist)){
-	if (ch->in_room->sector_type != SECT_AIR 
-	    && ch->in_room->sector_type != SECT_DESERT 
+	if (ch->in_room->sector_type != SECT_AIR
+	    && ch->in_room->sector_type != SECT_DESERT
 	    && ch->in_room->sector_type != SECT_CITY
 	    && ch->in_room->sector_type != SECT_INSIDE){
 	  send_to_char("A thick mist prevents any observation.\n\r",ch);
@@ -2754,7 +2754,7 @@ void do_scan (CHAR_DATA *ch, char *argument)
 	}
     }
     else
-    {	
+    {
       int range = (ch->level + 10) / 10;
       if (IS_PERK(ch, PERK_EAGLEEYE))
 	range += 2;
@@ -2828,7 +2828,7 @@ void do_scout (CHAR_DATA *ch, char *argument)
     {
 
 	if (IS_PERK(ch, PERK_EAGLEEYE))
-	  extra = number_range(3,5);	 
+	  extra = number_range(3,5);
 	else
 	  extra = number_range(1,5);
    	check_improve(ch,gsn_scout,TRUE,0);
@@ -2876,7 +2876,7 @@ void do_kinetics( CHAR_DATA *ch, char *argument )
     af.where     = TO_AFFECTS;
     af.type      = gsn_kinetics;
     af.level     = ch->level;
-    af.duration  = -1;   
+    af.duration  = -1;
     af.modifier  = 0;
     af.location  = 0;
     af.bitvector = 0;
@@ -2889,7 +2889,7 @@ void do_kinetics( CHAR_DATA *ch, char *argument )
 //in vamp class.
 
 //03-25 12:00 Viri: Created bool vamp_can_sneak(CHAR_DATA*, ROOM_INDEX_DATA*)
-//the function tests if vampire can sneak in th room 
+//the function tests if vampire can sneak in th room
 //Tests for autosneak in both wolf and human form.
 
 

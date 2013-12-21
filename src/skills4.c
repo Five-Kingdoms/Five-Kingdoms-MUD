@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -87,13 +87,13 @@ void do_tune( CHAR_DATA *ch, char *argument)
 	  {
 	      send_to_char("Must be numeric.\n\r",ch);
 	      return;
-	  }	
+	  }
         stat_chg = atoi(arg2);
-        if( (stat_chg <= 0) || (stat_chg > 5) )     
+        if( (stat_chg <= 0) || (stat_chg > 5) )
         {
             send_to_char("Must be numeric 1 to 5.\n\r",ch);
             return;
-        }	
+        }
     }
     else     //checks what stat it'll change
         stat_chg = number_range(1, 5);
@@ -189,14 +189,14 @@ void do_tune( CHAR_DATA *ch, char *argument)
         return;
     }
     act("$p is more finely tuned.",ch,obj,NULL,TO_ALL);
-    SET_BIT(obj->extra_flags, ITEM_MAGIC);   
+    SET_BIT(obj->extra_flags, ITEM_MAGIC);
     if (obj->level < LEVEL_HERO - 1)
         obj->level = UMIN(LEVEL_HERO - 1,obj->level + 1);
     if (!obj->enchanted)
     {
 	AFFECT_DATA *af_new;
 	obj->enchanted = TRUE;
-	for (paf = obj->pIndexData->affected; paf != NULL; paf = paf->next) 
+	for (paf = obj->pIndexData->affected; paf != NULL; paf = paf->next)
 	{
 	    af_new = new_affect();
 	    af_new->next = obj->affected;
@@ -214,23 +214,23 @@ void do_tune( CHAR_DATA *ch, char *argument)
     switch (stat_chg)
     {
             // 1 = int, 2 = wis, 3 = dex, 4 = hp, 5 = mana
-            case (1):        
+            case (1):
  	        loc_var		= APPLY_INT;
     		added 		= 1;
                	break;
-            case (2):        
+            case (2):
 	        loc_var		= APPLY_WIS;
     		added 		= 1;
-                break;     
-            case (3):        
+                break;
+            case (3):
 	        loc_var		= APPLY_DEX;
     		added 		= 1;
-                break;        
-            case (4):        
+                break;
+            case (4):
 	        loc_var		= APPLY_HIT;
     		added 		= 5;
-                break;        
-            case (5):        
+                break;
+            case (5):
 	        loc_var		= APPLY_MANA;
     		added 		= 5;
                 break;
@@ -246,7 +246,7 @@ void do_tune( CHAR_DATA *ch, char *argument)
 	    old_found = TRUE;
 	}
     }
-//adding stats in 
+//adding stats in
     if (!old_found)
     {
 	paf = new_affect();
@@ -274,10 +274,10 @@ void do_ventriloquate( CHAR_DATA *ch, char *argument)
         send_to_char("You don't know how to throw your voice.\n\r",ch);
         return;
     }
-    if (ch->mana < 5)   
+    if (ch->mana < 5)
     {
         send_to_char("Rest up first.\n\r", ch);
-        return;     
+        return;
     }
     if (speaker[0] == '\0' || argument[0] == '\0')
     {
@@ -428,7 +428,7 @@ bool dprobe_check(CHAR_DATA* ch, CHAR_DATA* victim){
   else
     return FALSE;
 }
-  
+
 /* psi dreamwalk ability */
 void do_dreamwalk( CHAR_DATA *ch, char *argument){
   CHAR_DATA* victim;
@@ -490,8 +490,8 @@ void do_dreamwalk( CHAR_DATA *ch, char *argument){
   }
   /* SPELL CHOICE */
   sn = find_spell(ch,argument);
-  if (sn != gsn_omen 
-      && sn != gsn_deathmare 
+  if (sn != gsn_omen
+      && sn != gsn_deathmare
       && sn != gsn_mindmelt
       && sn != gsn_dreamprobe){
     send_to_char("You can only dreamwalk omen, deathmare, dreamprobe and mind melt.\n\r", ch);
@@ -631,7 +631,7 @@ void do_track( CHAR_DATA* ch, char* argument ){
   sendf( ch, "You begin to look for %s spur.\n\r", anatomy_table[anat].name );
 }
 
-  
+
 /* causes any ranger pets to return to him */
 void do_pack_call( CHAR_DATA* ch, char* argument ){
   CHAR_DATA* pet;

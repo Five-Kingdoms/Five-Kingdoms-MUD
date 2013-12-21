@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -9464,6 +9464,166 @@ void create_royal_guard( CHAR_DATA* ch, int align, int level ){
   ch->pcdata->ghost = (time_t)NULL;
   act("$t come to protect you!",ch, guard->name, NULL,TO_CHAR);
   act("A group of $t arrive at $n's side!",ch, guard->name, NULL,TO_ROOM);
+}
+
+void create_royal_guard_cabal( CHAR_DATA* ch, CABAL_DATA* pCabal, int level ){
+  CHAR_DATA *gch = NULL;
+  CHAR_DATA *guard;
+  AFFECT_DATA* paf, af;
+  char buf[MIL];
+  char* pref;
+  int i, table;
+  const int gsn_royal_call = skill_lookup("royal call");
+
+  if (pCabal == NULL
+      || !IS_CABAL(pCabal, CABAL_ROYAL)
+      || !(IS_AREA(ch->in_room->area, AREA_CITY) || IS_AREA(ch->in_room->area, AREA_CABAL))
+      || ch->in_room->area->pCabal == NULL
+      || !is_affected(ch, gsn_royal_call)
+      || is_friendly(pCabal, ch->in_room->area->pCabal) != CABAL_FRIEND){
+    return;
+  }
+
+  //check for an existing royal guard we might have
+  for (gch = char_list; gch; gch = gch->next){
+    if (IS_NPC(gch) && gch->pIndexData->vnum == MOB_VNUM_ROYAL_GUARD
+	&& gch->summoner == ch)
+      break;
+  }
+  if (gch != NULL)
+    return;
+
+  //select the level of the mob
+  level = URANGE(1, level, 3) - 1;
+  table = level;
+
+  //offset the level into the proper cabal's spot in the table
+  if (pCabal){
+    if (!str_cmp("Rheydin", ch->pCabal->name))
+      table += 3;
+    else if (!str_cmp("Miruvhor", ch->pCabal->name))
+      table += 6;
+  }
+
+  guard = create_mobile( get_mob_index(MOB_VNUM_ROYAL_GUARD) );
+
+  guard->race = UMAX(0, race_lookup(royal_guard_table[table].race));
+  if (ch->pcdata->royal_guards)
+    guard->dam_type = UMAX(0, attack_lookup("charge"));
+  else
+    guard->dam_type = UMAX(0, attack_lookup(royal_guard_table[table].attack));
+
+  //set the stats
+  for (i = 0; i < MAX_STATS; i++)
+    guard->perm_stat[i] = 20 + level * 2;
+  guard->max_hit = (15 + 15 * level)  * ch->level;
+  guard->hit = guard->max_hit;
+  guard->max_mana = (15 + 15 * level)  * ch->level;
+  guard->mana = guard->max_mana;
+  guard->alignment = ch->alignment;
+  guard->level = ch->level - 2 + (2 * level);
+
+  for (i = 0; i < 3; i++)
+    guard->armor[i] = interpolate(guard->level,100,-100);
+  guard->armor[3] = interpolate(guard->level,100,0);
+
+  guard->hitroll    = (ch->level / 10) * 2 +  5 * level;
+  guard->damroll    = (ch->level / 10) * 2 + 10 * level;
+
+  guard->damage[DICE_NUMBER]  = 5;
+  guard->damage[DICE_TYPE]    = 5;
+
+  guard->sex = ch->sex;
+  guard->pCabal = pCabal;
+
+  free_string( guard->name );
+  if (ch->pcdata->royal_guards){
+    sprintf( buf, "%ss", ch->pcdata->royal_guards);
+  }
+  else
+    sprintf( buf, "%ss", royal_guard_table[table].name);
+  guard->name = str_dup(  buf );
+
+  free_string( guard->long_descr );
+  if (ch->pcdata->royal_guards){
+    sprintf( buf, "A few %ss bearing the crest of %s are here.\n\r",
+	     ch->pcdata->royal_guards,
+	     ch->pCabal->city->name);
+  }
+  else
+    sprintf( buf, "%s", royal_guard_table[table].long_descr);
+  guard->long_descr = str_dup( buf );
+
+  sprintf( buf, "%s", ch->pcdata->royal_guards);
+  if (LOWER(buf[0]) == 'a'
+      || LOWER(buf[0]) == 'e'
+      || LOWER(buf[0]) == 'i'
+      || LOWER(buf[0]) == 'o'
+      || LOWER(buf[0]) == 'u')
+    pref = "an";
+  else
+    pref = "a";
+
+  free_string( guard->short_descr );
+  if (ch->pcdata->royal_guards){
+    sprintf( buf, "%s %s", pref, ch->pcdata->royal_guards);
+  }
+  else
+    sprintf( buf, "%s", royal_guard_table[table].short_descr);
+  guard->short_descr = str_dup( buf );
+
+  char_to_room(guard, ch->in_room);
+  SET_BIT(guard->affected_by, AFF_CHARM);
+  guard->comm = COMM_NOTELL|COMM_NOYELL|COMM_NOCHANNELS;
+  guard->summoner = ch;
+  add_follower(guard,ch);
+  guard->leader = ch;
+
+
+  //set timer on guard according to duration of spellon user
+  if ( (paf = affect_find(ch->affected, gsn_royal_call)) != NULL)
+    af.duration = paf->duration;
+  else
+    af.duration = 12;;
+  af.type = gsn_timer;
+  af.level = ch->level;
+  af.where = TO_AFFECTS;
+  af.bitvector = 0;
+  af.location = APPLY_NONE;
+  af.modifier = 0;
+  affect_to_char( guard, &af);
+
+  /* Royal cannot hide ghosted */
+  ch->pcdata->ghost = (time_t)NULL;
+  act("$t come to protect you!",ch, guard->name, NULL,TO_CHAR);
+  act("A group of $t arrive at $n's side!",ch, guard->name, NULL,TO_ROOM);
+}
+
+
+void spell_royal_call( int sn, int level, CHAR_DATA *ch, void *vo, int target){
+  AFFECT_DATA af;
+  int rank = IS_NPC(ch) ? 1 : ch->pcdata->rank;
+
+  if (ch->pCabal == NULL){
+    send_to_char("You are not in a cabal.\n\r",ch);
+    return;
+  }
+  else if (is_affected(ch, sn)){
+    send_to_char("You are already protected by loyal subjects.\n\r", ch);
+    return;
+  }
+
+  af.type               = sn;
+  af.level              = level;
+  af.duration           = 24;
+  af.bitvector          = 0;
+  af.modifier           = 0;
+  af.location           = APPLY_NONE;
+  affect_to_char(ch, &af);
+
+  send_to_char("You send an order for additional guards.\n\r",ch);
+  act("$n sends for additional guards to protect $n.", ch, NULL, NULL, TO_ROOM);
+  create_royal_guard_cabal( ch, ch->pCabal, rank );
 }
 
 void do_escort( CHAR_DATA *ch, char *argument ){

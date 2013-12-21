@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -7674,7 +7674,7 @@ void do_quest_king(CHAR_DATA *ch, char *argument ){
 
   /* set the title */
   free_string(victim->pcdata->title);
-  victim->pcdata->title = str_dup(" the King of Aabahran");
+  victim->pcdata->title = str_dup(" the King of -Mirlan-");
 
   if ( (crown = create_object( get_obj_index( OBJ_VNUM_CROWN), 50 )) != NULL){
     /* load the crown onto their head */
@@ -7688,8 +7688,8 @@ void do_quest_king(CHAR_DATA *ch, char *argument ){
   send_to_char("Your scars disappear and your body is made whole once again.\n\r", victim );
   victim->pcdata->dall = 0;
 
-  send_to_char("You have been crowned as the King of Aabahran!\n\r", victim);
-  act("$n has been crowned as the King of Aabahran.", victim, NULL, NULL, TO_ROOM );
+  send_to_char("You have been crowned as the King of -Mirlan-!\n\r", victim);
+  act("$n has been crowned as the King of -Mirlan-.", victim, NULL, NULL, TO_ROOM );
   SET_BIT(victim->act2, PLR_ROYAL );
 }
 

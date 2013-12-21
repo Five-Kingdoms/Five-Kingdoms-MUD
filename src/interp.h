@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -23,7 +23,7 @@
  *      ROM license, in the file Rom24/doc/rom.license                     *
  *                                                                         *
  * Code Adapted and Improved by Abandoned Realms Mud                       *
- * and Aabahran: The Forsaken Lands Mud by Virigoth                        *
+ * and -Mirlan-: The Age of Mirlan Mud by Virigoth                        *
  *                                                                         *
  * Continued Production of this code is available at www.flcodebase.com    *
  ***************************************************************************/
@@ -522,9 +522,9 @@ DECLARE_DO_FUN( do_guild	);
 DECLARE_DO_FUN( do_dismount	);
 DECLARE_DO_FUN( do_mount	);
 DECLARE_DO_FUN( do_spy		);
-DECLARE_DO_FUN( do_affstrip	); 
-DECLARE_DO_FUN( do_songstrip	); 
-DECLARE_DO_FUN( do_in_range	); 
+DECLARE_DO_FUN( do_affstrip	);
+DECLARE_DO_FUN( do_songstrip	);
+DECLARE_DO_FUN( do_in_range	);
 DECLARE_DO_FUN( do_relax	);
 DECLARE_DO_FUN( do_weapon_cleave);
 DECLARE_DO_FUN( do_weapon_lock);
@@ -534,8 +534,8 @@ DECLARE_DO_FUN( do_endif	);
 DECLARE_DO_FUN( do_pipe		);
 DECLARE_DO_FUN( do_doas		);
 DECLARE_DO_FUN( do_brew		);
-DECLARE_DO_FUN( do_challenge	); 
-DECLARE_DO_FUN( do_record	); 
+DECLARE_DO_FUN( do_challenge	);
+DECLARE_DO_FUN( do_record	);
 DECLARE_DO_FUN( do_contract	);
 DECLARE_DO_FUN( do_contingency	);
 DECLARE_DO_FUN( do_herblore	);
@@ -577,7 +577,7 @@ DECLARE_DO_FUN( do_permquest	);
 DECLARE_DO_FUN( do_inviquest	);
 DECLARE_DO_FUN( do_remquest	);
 DECLARE_DO_FUN( do_setquest2	);
-DECLARE_DO_FUN( do_deathmark	); 
+DECLARE_DO_FUN( do_deathmark	);
 DECLARE_DO_FUN( do_quest	);
 DECLARE_DO_FUN( do_oowner	);
 DECLARE_DO_FUN( do_pilfer	);
@@ -710,6 +710,8 @@ DECLARE_DO_FUN( do_haymaker	);
 DECLARE_DO_FUN(	do_deity	);
 DECLARE_DO_FUN(	do_brand_weapon	);
 DECLARE_DO_FUN( do_entangle     );
+DECLARE_DO_FUN( do_interrogate  );
+DECLARE_DO_FUN( do_kidnap	);
 
 void do_affects2(CHAR_DATA *ch, CHAR_DATA *victim );
 void do_dirting ( CHAR_DATA *ch, int wait, char *argument);
