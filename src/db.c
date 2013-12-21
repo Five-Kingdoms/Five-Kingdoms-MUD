@@ -3660,6 +3660,8 @@ OBJ_DATA *create_object( OBJ_INDEX_DATA *pObjIndex, int level)
     case ITEM_RANGED:
     case ITEM_PROJECTILE:
     case ITEM_JEWELRY:
+    case ITEM_FABRIC:
+
 	break;
     case ITEM_FOOD:
 	if (obj->value[4] == 0)
@@ -3898,7 +3900,18 @@ int fread_number( FILE *fp )
     }
     if ( !isdigit(c) )
     {
-	bug( "Fread_number: bad format.", 0 );
+	bug( "Fread_number: bad format. Position: %d", ftell(fp) );
+	int fno = fileno(fp);
+	char proclink[0xFF];
+	char filename[0xFF];
+
+	sprintf(proclink, "/proc/self/fd/%d", fno);
+	ssize_t r = readlink( proclink, filename, 0xFF );
+	if( r > 0 ){
+        filename[r] = '\0';
+        bug( filename, 0 );
+
+	}
 //	exit( 1 );
     }
     while ( isdigit(c) )

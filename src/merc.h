@@ -2523,6 +2523,8 @@ struct	kill_data
 #define ITEM_RESEARCH		     40
 #define ITEM_RANGED		     42
 #define ITEM_PROJECTILE		     43
+#define ITEM_FABRIC		     44
+
 
 /* Extra flags. Make sure to add in tables.c*/
 #define ITEM_GLOW		(A)

@@ -1290,6 +1290,7 @@ const struct item_type          item_table      []      =
     {   ITEM_RESEARCH,  "research"      },
     {   ITEM_RANGED,    "ranged"	},
     {   ITEM_PROJECTILE,"projectile"    },
+    {   ITEM_FABRIC,    "fabric"        },
     {   0,              NULL            }
 };
 
