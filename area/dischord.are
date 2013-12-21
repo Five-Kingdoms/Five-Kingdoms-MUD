@@ -1,0 +1,3493 @@
+#AREADATA
+Name Dischord~
+Pref ~
+Builders Crypticant~
+VNUMs 4900 4999
+Max_Bastions 9
+Credits {50 60} Chueh    Discord~
+Security 9
+Startroom 4902
+Flags 96
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#4906
+frost giant~
+a frost giant~
+A massive frost giant wanders the icefields here.
+~
+Covered in ice, this massive giant brethren is well adapted for life in
+the snowy wastes. He is huge, and covered in white fur. Large snow bear
+pelts cover his body, and his club drips with blood from a recent kill.
+~
+giant~
+AFGSd A DFJ 0 0 10300
+45 20 4d6+3000 0d0+100 5d10+30 none
+-13 -14 -19 -9
+KNU AB DI HJP
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+P GRALL 4928 100~
+#4908
+frost giant pikeman~
+a frost giant pikeman~
+A frost giant pikeman stands here, pike at bay.
+~
+Dressed in crude armor, the giant is an unmovable obstacle.  Armed with
+a monstrous looking pike, he looks menacing.  Due to all the weight he
+is carrying around, he can barely move.  But then again, who said giants
+were dexterous in the first place.
+~
+giant~
+AFGTd A DJ 0 0 5725
+40 22 4d6+1800 0d0+100 5d6+40 charge
+-8 -8 -8 -8
+CDKU 0 DHI 0
+stand stand male none~
+14
+AHMV ABCDEFGHIJK medium 0
+F vul P
+#4936
+snow bear~
+a giant snow bear~
+A giant snow bear is here, prowling for carrion.
+~
+One of the largest bears you have ever seen, this bear stands as tall
+as most giants, with long black claws, and fierce looking teeth, it does
+not look like something to be trifled with!
+~
+bear~
+ACGd A DJ 0 0 421
+40 25 5d10+4000 0d0+100 4d6+35 claw
+-9 -11 -10 -8
+DEFHKO 0 EI 0
+stand stand either none~
+21
+AG ACDEFJKU large 0
+P DEATH 4939 100~
+P GRALL 4928 100~
+P RANDOM 4933 100~
+#4938
+hare snowshow~
+a snowshoe hare~
+A snowshoe hare hides in the snow here.
+~
+A white, furry jackrabbit twitches its nose at you, and hops
+around here in the wastes. Covered in thick fur, the rabbit seems
+totally at peace here in the wastes, and has grown much larger
+than most of the rabbits you see around the lands.
+~
+rabbit~
+ACd A DFJ 0 0 0
+20 8 4d6+700 0d0+100 2d8+5 bite
+-9 -9 -9 -9
+FH AB 0 0
+stand stand either none~
+15
+AGV ACDEFHJK tiny 0
+#4959
+sav'ram'dier puppetmaster~
+the Puppetmaster~
+Sav'Ram'Dier, the Lich Puppetmaster of Dischord, looms before you.
+~
+This unholy apparition is older than time itself. Sentenced to Dischord by
+the Greater Gods of Thera, Sav'Ram'Dier was once the most powerful necromancer
+that ever existed, and is now eternally banished to this icy prison. Garbed
+in black attire which seems to billow even with no wind, his undead eyes glow
+back at you under an evil cowl.
+~
+lich~
+ACFGOTZe A BDFHJ 0 -750 238
+58 50 2d1+8000 0d0+100 5d6+85 tainted
+-5 -5 -5 -5
+ACEFJK ABLQ CI 0
+stand stand male none~
+27
+AHMV ABCDEFGHIJK giant 0
+F vul N
+P RANDOM 4957 80~
+P DEATH 4958 100~
+P FIGHT 4959 30~
+#4960
+undead minion~
+an Undead Minion~
+An undead minion prowls the halls here.
+~
+This unholy creature is certainly part of the puppetmaster's arsenal of death.
+Its skeletal body is the result of a union of mangled and decayed bodyparts,
+fused together to form a mindless killing machine.
+~
+undead~
+AFGOd A DFJ 0 -750 10800
+50 35 4d10+3500 0d0+100 4d10+50 skdrain
+-10 -10 -10 -10
+DEFHKNUX ABLQ I N
+stand stand none none~
+20
+0 ABCDEFGHIJK medium 0
+P FIGHT 4962 80~
+P GRALL 4961 100~
+P RANDOM 4960 100~
+#4965
+bellanaer dark sorceress~
+Bellanaer~
+Bellanaer the Archmage, Second Plague of Thera, stands here.
+~
+The High Sorceress of the Arcane, Bellanaer, once a beautiful lady
+who won the attention of many courtiers, is now twisted and vile from
+her years of practicing Black Magic. Now said to be the most powerful
+mage in exile, she is trapped here for eternity.
+~
+human~
+ABFGQRTZ A DFHJ 0 0 13008
+50 60 25d10+7500 0d0+100 4d8+65 magic
+-20 -20 -20 -20
+ADEFHNX AB CDIR 0
+stand stand female none~
+20
+AHMV ABCDEFGHIJK huge 0
+P DEATH 78 100~
+#4967
+traian dark knight~
+Traian~
+Traian the Dark Knight, First Plague of Thera, stands here.
+~
+The most vile of the Dark Knights, Traian's skill at both sword and
+magic landed her inside the Dark Prison for eternity. It was said that
+she once challenged the Dark God Malevolant to death, and upon her
+demise, was sentenced here for all time.
+~
+human~
+ABFGRTZ A DFHJ 0 0 13008
+50 30 25d10+6500 0d0+100 3d20+80 pierce
+-20 -20 -20 -20
+ADEFHNX AB DIR 0
+stand stand female none~
+22
+AHMV ABCDEFGHIJK huge 0
+P DEATH 78 100~
+#4968
+wind wraith~
+a wind wraith~
+A wind wraith shimmers in mid aid here.
+~
+Basically, just a long black cape with a body inside that seems to
+be invisible, this wind wraith walks the corridors of Dischord howling,
+and attempting to frighten out unwanted visitors.
+~
+unique~
+AC A D 0 0 10800
+45 40 50d10+3200 0d0+100 6d7+35 claw
+-20 -20 -20 -20
+FHKUX AB 0 0
+stand stand none none~
+22
+AHMV ABCDEFGHIJK medium 0
+#4971
+shadow gatekeeper~
+the Shadow Gatekeeper~
+A strange shadow lurks in the corners here.
+~
+You see a shadow, that appears to move, slowly. Little more is discernable.
+~
+unique~
+ABCGe A DFJT E -330 0
+45 0 4d6+3500 0d0+100 2d10+25 pain
+-20 -22 -19 -10
+EFHNUX AB 0 0
+stand stand none none~
+18
+AHMV ABCDEFGHIJK medium 0
+#4973
+nictilieus ancient warlord~
+Nictilieus~
+Nictilieus the Warlord, Third Plague of Thera, stands here.
+~
+The Ancient Warlord Nictilius was once the most powerful in his
+existence. However, the Dark Gods tainted his gift of prowess by
+allowing him to be consumed by magic. Engraged, he began an assault
+on the Heavens, and the Greater Gods banished him to this prison
+for eternity.
+~
+human~
+ABFGTZ A DFHJ 0 0 13008
+50 50 25d10+6500 0d0+100 3d20+80 pierce
+-40 -50 -45 -30
+ADEFHKNX AB DIR 0
+stand stand none none~
+17
+AHMV ABCDEFGHIJK huge 0
+P FIGHT 4973 30~
+P DEATH 78 100~
+#4979
+phillisides master cleric~
+Phillisides~
+Phillisides the Cleric, Fourth Plague of Thera, stands here.
+~
+~
+human~
+ABFGQZ A DFHJ 0 0 13008
+50 30 25d10+6500 0d0+100 3d20+40 pierce
+-20 -20 -20 -20
+AEFHKNX AB DIR 0
+stand stand none none~
+26
+AHMV ABCDEFGHIJK huge 0
+P DEATH 78 100~
+#4981
+chaos servant~
+a Servant of Chaos~
+A Servant of Chaos stands here.
+~
+You see only a reflection of yourself...
+~
+ethro~
+AGRZe A DHJ 0 0 0
+55 25 4d6+3200 0d0+100 6d8+50 divine
+-21 -20 -20 -16
+CEFHKN AB H 0
+stand stand either none~
+20
+AHMV ABCDEFGHIJK medium 0
+P GRALL 4981 100~
+#4982
+adelyn~
+Adelyn~
+Adelyn, the Fallen of Chaos, is imprisoned here.
+~
+Adelyn, once one of the most powerful female mages in existance, who
+betrayed Shadowspawn, the God of Chaos, has been imprisoned within the
+Fractal for centuries. Looking beaten, and downtrodden, she nonetheless
+remains regal looking, and beautiful. Her body has become more of an
+ethereal form, and her once bright eyes now are pale and sallow from
+years of eternal torment...
+~
+human~
+ABGQUZ A DFHJ 0 0 13008
+50 25 25d10+5000 0d0+100 3d20+30 pierce
+-20 -20 -20 -20
+AEFHKNX AB DIR 0
+stand stand none none~
+18
+AHMV ABCDEFGHIJK huge 0
+P GREET 4982 100~
+P RANDOM 4983 30~
+P DEATH 78 100~
+#4983
+Huntsman~
+a huntsman~
+A burly huntsman is here, skinning a bearhide.
+~
+Dressed in a furry jacket, he has a weather beaten look to his face.  His
+gnarled hands work expertly upon the fresh animal he has just killed.
+~
+human~
+ABGT A DJa 0 0 10300
+38 15 10d10+1600 0d0+100 4d12+15 slash
+-13 -13 -13 -13
+CIKU A A 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+P GRALL 4984 100~
+#4984
+souryth giant~
+Souryth, the Giant Priestess~
+Souryth, the Giant Priestess, stands here.
+~
+The frost sister of Daryth, the Giant Priest, Souryth is garbed as
+radiently as her brother. She has the look up unstoppable power and
+might, and seems to be issuing incantations under her breath.
+~
+unique~
+ADFGe A HJV 0 0 5715
+52 20 10d8+5000 0d0+100 3d15+20 crush
+25 25 25 25
+KU 0 DEHI JP
+stand stand female none~
+22
+AHMV ABCDEFGHIJK large 0
+P DEATH 78 100~
+#4996
+forge master~
+the Forge Master~
+The Master of this Forge is here, feeding the forge.
+~
+The master of the forge is one of the largest giants you have ever seen.
+Covered with sweat and rippling, sinewy muscles, he glares at you with
+coal red eyes. He knows you have come for the key to Dischord, and he
+is here to ensure you do not get it.
+~
+fire~
+ABFGT A DHV 0 0 0
+50 30 50d10+4500 0d0+100 6d7+30 cleave
+-20 -20 -20 -20
+CEFHKX AB CDH IP
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+P FIGHT 4996 50~
+P DEATH 78 100~
+#4997
+fire giant~
+a fire giant forge worker~
+A fire giant forge worker is here, covered in soot.
+~
+Sweaty, yet silent and powerful, this giant is here to shovel peat into
+the forge for eternity. You can see the scars of chains and whips covering
+his arms and back.
+~
+fire~
+AGTd A DF 0 -1000 0
+35 12 6d6+1250 0d0+0 6d6+15 flame
+-3 -3 -3 -3
+CEKN A DH IP
+stand stand male none~
+19
+AHMV ABCDEFGHIJK medium 0
+#4998
+skeleton minion~
+an skeleton minion~
+A skeleton minion has arisen here to serve the Puppetmaster.
+~
+This unholy creature is certainly part of the puppetmaster's arsenal of death.
+Its skeletal body is the result of a union of mangled and decayed bodyparts,
+fused together to form a mindless killing machine.
+~
+undead~
+AFGOe A DFJ 0 -750 10800
+50 35 4d10+3500 0d0+100 4d10+50 skdrain
+-10 -10 -10 -10
+DEFHKNUX ABLQ I N
+stand stand none none~
+18
+0 ABCDEFGHIJK medium 0
+P RANDOM 4960 100~
+#0
+
+
+
+#OBJECTS
+#4903
+chunk iceberg~
+a large chunk of iceberg~
+A large chunk of iceberg is lying upturned here.~
+ice~
+treasure 0 0
+0 0 0 0 0
+10 0 0 P
+#4906
+stone club~
+a club of solid ice~
+A giant chunk of ice in the shape of a club is here.~
+ice~
+weapon 0 AN
+mace 8 3 smash B
+40 400 2000 P
+F
+A 18 1 0
+F
+A 19 3 0
+#4908
+iron pike~
+a frost pike~
+A pike made of ice is resting here.~
+iron~
+weapon 0 ANX
+polearm 5 9 thrust BF
+50 220 3 P
+F
+A 2 1 0
+F
+A 19 3 0
+F
+A 18 3 0
+P USE 4908 100~
+#4909
+chunk iceberg~
+a flat chunk of iceberg~
+A flattened slab of iceberg is lying on its side here.~
+ice~
+treasure 0 0
+0 0 0 0 0
+10 0 0 P
+#4910
+chunk iceberg~
+striated iceberg~
+A piece of striated iceberg is lying here.~
+ice~
+treasure 0 0
+0 0 0 0 0
+10 0 0 P
+#4911
+no name~
+(no short description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#4914
+ice arch~
+an ice arch~
+A large ice arch is lying here, facing south.~
+ice~
+treasure 0 0
+0 0 0 0 0
+10 0 0 P
+#4922
+chunk iceberg~
+an iceberg~
+A chunk of an iceberg is lying here.~
+snow~
+throw 0 A
+0 0 0 none 0
+10 10 0 P
+P USE 4922 100~
+P DROP 4922 4922~
+#4924
+pool ice water~
+an icy pool~
+An icy pool is here, almost purple in color.~
+water~
+fountain 0 0
+-1 -1 'icewine' 0 0
+0 0 0 P
+#4925
+crack ice~
+a crack in the ice~
+A small crack is splitting an iceberg here.~
+snow~
+treasure U A
+0 0 0 0 0
+10 0 0 P
+P USE 4925 100~
+P GET 4925 4925~
+#4926
+slab ice~
+a slab of broken ice~
+A large slab of broken ice is lying here.~
+snow~
+treasure PU A
+0 0 0 0 0
+10 20 0 P
+P DROP 4927 4926~
+P GET 4926 4926~
+#4928
+large ice raft~
+a large ice raft~
+A large ice raft is lying here.~
+snow~
+food PU A
+1 0 0 0 2
+40 30 0 P
+P GET 4928 4928~
+#4939
+bearskin hide bear skin cloak~
+the skin of a snow bear~
+A large skin of a snow bear is lying here.~
+bearskin~
+armor 0 AK
+8 7 8 4 0
+40 100 5000 P
+F
+A 19 1 0
+F
+A 18 1 0
+F
+A 20 -1 0
+#4950
+shroud undeath~
+the Shroud of Undeath~
+A shroud of strange material rests on the ground here.~
+undeath~
+armor ABJ AKS
+7 4 5 8 0
+50 50 1 P
+F
+A 1 -1 0
+F
+A 19 1 0
+F
+A 18 1 0
+F
+A 24 -5 0
+P FIGHT 4950 10~
+#4951
+Mara'deth Kier~
+the Mara'deth Kier~
+A strange and unusual tome is lying here.~
+paper~
+treasure AB AQS
+0 0 0 0 0
+50 0 2 P
+E
+tome~
+The Mara'deth Kier was the ancient tome written by the Archlich
+Sav'Ram'Dier in the first century of time. It is said to contain
+forgotten secrets relating to undead, unlife, and all of his work
+in necromancy. Now long withered and unreadable, a strange glow
+still emanantes from it.
+~
+F
+A 21 -4 0
+F
+A 22 -5 0
+F
+A 24 -3 0
+F
+A 1 -2 0
+F
+A 5 -1 0
+#4952
+head of sav'ram'dier~
+the severed head of Sav'Ram'Dier~
+A severed head is lying on the ground here.~
+bone~
+food G A
+1 1 0 A 5
+50 10 0 P
+#4959
+key death~
+the Death key~
+A strange, deathly key is lying here.~
+metal~
+key 0 A
+0 0 0 0 0
+10 5 0 P
+#4960
+blood Traian~
+the blood of Traian~
+A pool of blood is lying here.~
+stone~
+socket M AX
+AB 0 0 0 E
+1 250 5 P
+F
+A 13 10 0
+#4962
+key skull~
+the Skull key~
+A key in the shape of a skull is lying here.~
+metal~
+key 0 A
+0 0 0 0 0
+10 5 0 P
+#4963
+key eye~
+the Eye key~
+A key in the shape of an eye is lying here.~
+metal~
+key 0 A
+0 0 0 0 0
+10 5 0 P
+#4965
+broken skull~
+a broken skull~
+A broken skull is lying on the ground here.~
+crystal~
+light ABJ AX
+0 0 999 0 0
+38 60 5 P
+F
+A 21 -5 0
+F
+A 22 4 0
+#4966
+circlet arcane~
+the Circlet of the Arcane~
+A beautiful ring is lying here, glowing with power.~
+gold~
+jewelry A ABX
+0 0 0 0 0
+50 5 5 P
+F
+A 12 100 0
+F
+A 1 -2 0
+#4967
+cloak moving shadows~
+the Cloak of Moving Shadows~
+A cloak that seems to writhe and move is lying here.~
+shadows~
+armor 0 ACX
+9 10 7 7 0
+50 50 5 P
+M
+$p surrounds you in darkness.~
+~
+~
+~
+F
+S 472 5 0
+F
+S 123 5 0
+F
+A 2 3 0
+F
+A 18 3 0
+#4968
+chain linked belt~
+a chain linked belt~
+A belt made of chain links is lying here.~
+chain~
+armor BJ ALS
+8 9 7 0 0
+50 50 7 P
+F
+A 5 2 0
+F
+S 14 5 0
+F
+A 13 -10 0
+F
+A 12 -20 0
+F
+A 19 3 0
+F
+A 18 1 0
+#4969
+bracers serpents~
+the Bracers of Serpents~
+A set of bracers made entirely of serpents is lying here.~
+snakes~
+armor ABJe AIX
+10 11 6 9 0
+50 80 8 P
+F
+A 5 -2 0
+F
+A 19 2 0
+#4970
+black sapphire~
+a black sapphire~
+A black sapphire gleams on the ground here.~
+stone~
+socket 0 AX
+B A 0 0 0
+1 250 5 P
+F
+S 111 5 0
+F
+A 19 -2 0
+#4971
+key cross~
+the Cross key~
+A key in the shape of a cross is lying here.~
+metal~
+key 0 A
+0 0 0 0 0
+10 5 0 P
+#4973
+armor fullplate twin sabres~
+the Fullplate of the Twin Sabres~
+A set of fullplate is lying here, adorned with crossed sabres.~
+titanium~
+armor ABG ADS
+11 10 12 8 0
+50 250 1 P
+F
+S 93 1 0
+F
+S 99 1 0
+F
+A 21 -3 0
+F
+A 24 -5 0
+F
+A 18 1 0
+F
+A 19 2 0
+#4974
+entropy polearm~
+'Hell's Fury' the Polearm of Entropy~
+A polearm as black as pitch rests on the ground.~
+steel~
+weapon MYZe ANS
+polearm 7 8 bladed F
+54 330 1 P
+F
+A 19 5 0
+F
+A 18 2 0
+F
+A 5 -2 0
+P GET 4974 4974~
+P RANDOM 4975 100~
+#4977
+key hand~
+the Hand key~
+A key in the shape of a Hand is lying here.~
+metal~
+key 0 A
+0 0 0 0 0
+10 5 0 P
+#4979
+leggings reflection~
+the leggings of reflection~
+A set of mirrored leggings is lying here.~
+steel~
+armor A AFS
+12 11 13 6 0
+50 75 2 P
+F
+S 498 5 0
+F
+S 486 5 0
+F
+S 131 5 0
+F
+S 277 5 0
+F
+A 21 -4 0
+F
+A 20 -4 0
+F
+A 24 -2 0
+F
+A 1 -1 0
+#4980
+mask dischord~
+the mask of dischord~
+A strange mask is lying on the ground here.~
+chaos~
+armor ABJMXZ ASd
+7 9 8 7 0
+0 30 1 P
+M
+With an evil hiss $p sticks to your face!~
+With an evil hiss $p sticks to $n's face!~
+~
+~
+P DELAY 4982 100~
+P USE 4981 100~
+#4981
+key chaos~
+the Chaos key~
+A strange chaotic key is lying here.~
+metal~
+key 0 A
+0 0 0 0 0
+10 5 0 P
+#4982
+amulet sanctity~
+the Amulet of Sanctity~
+The Amulet of Sanctity lies here.~
+eternity~
+jewelry ABKY ACS
+0 0 0 0 0
+50 15 2 P
+F
+A 24 -4 0
+F
+A 21 -3 0
+F
+A 20 -6 0
+F
+A 13 10 0
+F
+A 17 -5 0
+#4983
+staff retribution~
+a staff named 'Retribution'~
+A staff with words engraved on the handle is lying here.~
+steel~
+weapon BKLe ANS
+staff 6 8 crush F
+30 75 2 P
+F
+A 18 2 0
+P USE 4983 100~
+#4984
+dagger bone~
+a whale bone knife~
+A large bone knife is lying here.~
+bone~
+weapon Be AN
+dagger 5 8 pierce 0
+15 20 200 P
+E
+dagger~
+One end of the bone is carved into a sharp blade.
+~
+F
+A 19 1 0
+F
+A 18 2 0
+#4985
+ice altar~
+a magnificent ice altar~
+A large altar of ice stands here before you.~
+ice~
+furniture 0 0
+0 0 0 0 0
+10 0 0 P
+#4987
+ice amulet~
+the ice amulet~
+An amulet made of solid ice is lying here.~
+ice~
+jewelry AB ACX
+0 0 0 0 0
+50 20 5 P
+F
+A 20 -10 0
+#4994
+chipped diamond~
+a chipped diamond~
+A chipped diamond is lying on the ground here.~
+diamond~
+socket 0 AOX
+B 0 0 0 0
+15 10 3 P
+F
+S 99 2 0
+F
+S 95 2 0
+#4995
+pile coal~
+a pile of coal~
+A pile of coal is lying here, glistening.~
+coal~
+container 0 0
+1000 AC 0 1000 1000
+0 0 0 P
+#4996
+steel forge~
+a steel forge~
+A massive iron forge is here, heating the area.~
+iron~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#4997
+key dischord~
+the Key to Dischord~
+A large key bearing a gate symbol is lying here.~
+metal~
+key 0 AC
+0 0 0 0 0
+10 5 0 P
+#4998
+forgemaster's forgemaster axe~
+the Master Forgeman's Great Hammer~
+A massive axe is lying here.~
+steel~
+weapon AJKe ANS
+axe 6 8 fury F
+55 300 2 P
+F
+A 18 4 0
+F
+A 19 4 0
+#4999
+cot~
+a small, unmade cot~
+A small, unmade cot is placed here.~
+bedding~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#4900
+`8Within a snow cave``~
+You are within a small, untidy snowcave. It looks like many travelers
+have used this in the past to find temporary shelter from the winds and
+to relieve themselves of frostbite. A burned out fire circle sits in the
+center of the room here.
+~
+~
+0 8 0 0
+D4
+~
+snow~
+A 0 4935
+T 40
+S
+#4901
+`3A small drift``~
+You stand amid a small drift of snow. Bitter arctic winds bite and your
+cheeks and nose. Cresting the rise, you see the great and vast snowfields
+of the South spread out before you. From your vantage on the top of this
+small hill, the Baranof Icefields stretch for miles to the far south, where
+they eventually end at the Barren Sea.
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 4991
+D2
+~
+~
+0 0 4902
+S
+#4902
+`&The Entrance to the Baranof Icefield``~
+Miles and miles of vast ice lies all around you. Wind howls in your ears,
+as you face the unholy wrath of the Southern Poles, perhaps the coldest and
+most dismal place in all of Thera. The Baranof Icefields extend for hundreds
+more miles to the south, where they are said to eventually run into a large
+body of water called the Barren Sea.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4901
+D2
+~
+~
+0 0 4903
+T 0
+S
+#4903
+`&The Baranof Icefields``~
+You stand amid the Baranof Icefields, named after its discovered, Alexie Baranof.
+The fields consist of thousands of calved-off chunks of glacier ice, that lay 
+strewn haphazardly about, as if some great giant had tossed them in fun. The
+fields are frigid, and a southerly gale blows almost constantly, your only
+shelter comes from behind the chunks of ice, and it's not much shelter at that.
+Everything starts to look the same, and for endless miles, the icefields extend
+to the horizons. You think you can make out the glacier that spawned all of this
+ice to the southwest.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4902
+D1
+~
+~
+0 0 4905
+D2
+~
+~
+0 0 4906
+D3
+~
+~
+0 0 4904
+S
+#4904
+`&The Baranof Icefields``~
+You stand amid the Baranof Icefields, named after its discovered, Alexie Baranof.
+The fields consist of thousands of calved-off chunks of glacier ice, that lay 
+strewn haphazardly about, as if some great giant had tossed them in fun. The
+fields are frigid, and a southerly gale blows almost constantly, your only
+shelter comes from behind the chunks of ice, and it's not much shelter at that.
+Everything starts to look the same, and for endless miles, the icefields extend
+to the horizons. You think you can make out the glacier that spawned all of this
+ice to the southwest.
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 4903
+D2
+~
+~
+0 0 4908
+D3
+~
+~
+0 0 4905
+T 0
+S
+#4905
+`&The Baranof Icefields``~
+You stand amid the Baranof Icefields, named after its discovered, Alexie Baranof.
+The fields consist of thousands of calved-off chunks of glacier ice, that lay 
+strewn haphazardly about, as if some great giant had tossed them in fun. The
+fields are frigid, and a southerly gale blows almost constantly, your only
+shelter comes from behind the chunks of ice, and it's not much shelter at that.
+Everything starts to look the same, and for endless miles, the icefields extend
+to the horizons. You think you can make out the glacier that spawned all of this
+ice to the southwest.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4913
+D1
+~
+~
+0 0 4904
+D2
+~
+~
+0 0 4907
+D3
+~
+~
+0 0 4903
+T 0
+S
+#4906
+`&The Baranof Icefields``~
+You stand amid the Baranof Icefields, named after its discovered, Alexie Baranof.
+The fields consist of thousands of calved-off chunks of glacier ice, that lay 
+strewn haphazardly about, as if some great giant had tossed them in fun. The
+fields are frigid, and a southerly gale blows almost constantly, your only
+shelter comes from behind the chunks of ice, and it's not much shelter at that.
+Everything starts to look the same, and for endless miles, the icefields extend
+to the horizons. You think you can make out the glacier that spawned all of this
+ice to the southwest.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4903
+D1
+~
+~
+0 0 4907
+D2
+~
+~
+0 0 4909
+D3
+~
+~
+0 0 4908
+T 0
+S
+#4907
+`&The Baranof Icefields``~
+You stand amid the Baranof Icefields, named after its discovered, Alexie Baranof.
+The fields consist of thousands of calved-off chunks of glacier ice, that lay 
+strewn haphazardly about, as if some great giant had tossed them in fun. The
+fields are frigid, and a southerly gale blows almost constantly, your only
+shelter comes from behind the chunks of ice, and it's not much shelter at that.
+Everything starts to look the same, and for endless miles, the icefields extend
+to the horizons. You think you can make out the glacier that spawned all of this
+ice to the southwest.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4905
+D1
+~
+~
+0 0 4908
+D2
+~
+~
+0 0 4910
+D3
+~
+~
+0 0 4906
+T 0
+S
+#4908
+`&The Baranof Icefields``~
+You stand amid the Baranof Icefields, named after its discovered, Alexie Baranof.
+The fields consist of thousands of calved-off chunks of glacier ice, that lay 
+strewn haphazardly about, as if some great giant had tossed them in fun. The
+fields are frigid, and a southerly gale blows almost constantly, your only
+shelter comes from behind the chunks of ice, and it's not much shelter at that.
+Everything starts to look the same, and for endless miles, the icefields extend
+to the horizons. You think you can make out the glacier that spawned all of this
+ice to the southwest.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4904
+D1
+~
+~
+0 0 4906
+D2
+~
+~
+0 0 4911
+D3
+~
+~
+0 0 4984
+T 0
+S
+#4909
+`&The Baranof Icefields``~
+You stand amid the Baranof Icefields, named after its discovered, Alexie Baranof.
+The fields consist of thousands of calved-off chunks of glacier ice, that lay 
+strewn haphazardly about, as if some great giant had tossed them in fun. The
+fields are frigid, and a southerly gale blows almost constantly, your only
+shelter comes from behind the chunks of ice, and it's not much shelter at that.
+Everything starts to look the same, and for endless miles, the icefields extend
+to the horizons. You think you can make out the glacier that spawned all of this
+ice to the southwest.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4906
+D1
+~
+~
+0 0 4910
+D2
+~
+~
+0 0 4912
+D3
+~
+~
+0 0 4911
+T 0
+S
+#4910
+`&The Baranof Icefields``~
+You stand amid the Baranof Icefields, named after its discovered, Alexie Baranof.
+The fields consist of thousands of calved-off chunks of glacier ice, that lay 
+strewn haphazardly about, as if some great giant had tossed them in fun. The
+fields are frigid, and a southerly gale blows almost constantly, your only
+shelter comes from behind the chunks of ice, and it's not much shelter at that.
+Everything starts to look the same, and for endless miles, the icefields extend
+to the horizons. You think you can make out the glacier that spawned all of this
+ice to the southwest.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4907
+D1
+~
+~
+0 0 4911
+D2
+~
+~
+0 0 4913
+D3
+~
+~
+0 0 4909
+T 0
+S
+#4911
+`&The Baranof Icefields``~
+You stand amid the Baranof Icefields, named after its discovered, Alexie Baranof.
+The fields consist of thousands of calved-off chunks of glacier ice, that lay 
+strewn haphazardly about, as if some great giant had tossed them in fun. The
+fields are frigid, and a southerly gale blows almost constantly, your only
+shelter comes from behind the chunks of ice, and it's not much shelter at that.
+Everything starts to look the same, and for endless miles, the icefields extend
+to the horizons. You think you can make out the glacier that spawned all of this
+ice to the southwest.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4908
+D1
+~
+~
+0 0 4909
+D2
+~
+~
+0 0 4914
+D3
+~
+~
+0 0 4910
+T 0
+S
+#4912
+`&The Baranof Icefields``~
+You stand amid the Baranof Icefields, named after its discovered, Alexie Baranof.
+The fields consist of thousands of calved-off chunks of glacier ice, that lay 
+strewn haphazardly about, as if some great giant had tossed them in fun. The
+fields are frigid, and a southerly gale blows almost constantly, your only
+shelter comes from behind the chunks of ice, and it's not much shelter at that.
+Everything starts to look the same, and for endless miles, the icefields extend
+to the horizons. You think you can make out the glacier that spawned all of this
+ice to the southwest.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4909
+D1
+~
+~
+0 0 4913
+D3
+~
+~
+0 0 4914
+T 0
+S
+#4913
+`&The Baranof Icefields``~
+You stand amid the Baranof Icefields, named after its discovered, Alexie Baranof.
+The fields consist of thousands of calved-off chunks of glacier ice, that lay 
+strewn haphazardly about, as if some great giant had tossed them in fun. The
+fields are frigid, and a southerly gale blows almost constantly, your only
+shelter comes from behind the chunks of ice, and it's not much shelter at that.
+Everything starts to look the same, and for endless miles, the icefields extend
+to the horizons. You think you can make out the glacier that spawned all of this
+ice to the southwest.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4910
+D1
+~
+~
+0 0 4914
+D2
+~
+~
+0 0 4905
+D3
+~
+~
+0 0 4912
+T 0
+S
+#4914
+`&The Baranof Icefields``~
+You stand amid the Baranof Icefields, named after its discovered, Alexie Baranof.
+The fields consist of thousands of calved-off chunks of glacier ice, that lay 
+strewn haphazardly about, as if some great giant had tossed them in fun. The
+fields are frigid, and a southerly gale blows almost constantly, your only
+shelter comes from behind the chunks of ice, and it's not much shelter at that.
+Everything starts to look the same, and for endless miles, the icefields extend
+to the horizons. You think you can make out the glacier that spawned all of this
+ice to the southwest.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4911
+D1
+~
+~
+0 0 4912
+D2
+~
+~
+0 0 4915
+D3
+~
+~
+0 0 4913
+T 0
+S
+#4915
+`^Before a Glacier``~
+You find yourself on the windward side of a massive glacier. Huge spires of
+ultrablue ice rise up from the depths, and tower above you. You can hear it
+creak and move with stress and it slowly slides forward. Even with no sun
+visible, the glacier radiates a bright blue, and is an awesome spectable to
+behold.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 4914
+D3
+~
+~
+0 0 4916
+S
+#4916
+`&A snowy path around a glacier``~
+You are walking a heavily snow covered path that leads around a massive young
+glacier. You have heard it is wise not to tread above a glacier, as it tends to
+have large crevasses that you can fall into and get lost, or worse. The path is
+not even really a path, but more of a snowy curve that follows the contours of
+the glacier.
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 4915
+D2
+~
+~
+0 0 4917
+T 0
+S
+#4917
+`&A snowy path around a glacier``~
+You are walking a heavily snow covered path that leads around a massive young
+glacier. You have heard it is wise not to tread above a glacier, as it tends to
+have large crevasses that you can fall into and get lost, or worse. The path is
+not even really a path, but more of a snowy curve that follows the contours of
+the glacier.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4916
+D2
+~
+~
+0 0 4918
+T 0
+S
+#4918
+`&Sheets of Glass``~
+You now stand on giant lakebeds and large and flat as massive sheets of
+clear glass. They stretch for miles, and your footing is very unsure, as
+the slick glaze ice tends to inhibit forward movement. The wind blows very
+fiercly from the south, blasting you back a step for every two you try and
+take forward.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4917
+D2
+~
+~
+0 0 4919
+T 0
+S
+#4919
+`&Sheets of Glass``~
+You now stand on giant lakebeds and large and flat as massive sheets of
+clear glass. They stretch for miles, and your footing is very unsure, as
+the slick glaze ice tends to inhibit forward movement. The wind blows very
+fiercly from the south, blasting you back a step for every two you try and
+take forward.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4918
+D1
+~
+~
+0 0 4920
+T 0
+S
+#4920
+`&Upon a frozen riverbed``~
+You find yourself walking down what was once a riverbed. You assume
+that water still flows beneath you, but the ice and snow have long
+compacted above, making the bed a very nice place to walk. Snow as
+deep as your knees prevents quick movement, however.
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 4923
+D2
+~
+~
+0 0 4922
+D3
+~
+~
+0 0 4919
+T 0
+S
+#4921
+`8A small shelter``~
+You have entered a small hunting shelter made of large blocks of
+ice, fashioned into a round house. There is very little wind here,
+and a small fire makes smoke that trails up and out of a small hole
+in the ceiling. The smell of cooking fish fills your nose. It also
+looks like someone is home...
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 4983
+D4
+~
+iceway~
+AB 0 4936
+T 0
+S
+#4922
+`&The Salavor Ice Flows``~
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4920
+T 0
+S
+#4923
+`^Under a glacial overhang``~
+You stand underneath the overhang of a large glacier, knee deep
+in icy water. Large chunks of ultrablue ice surround you, but you
+at least have shelter from the harsh winds and snows here. Water
+seems to be continuously dripping from the ceiling here.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 4924
+D3
+~
+~
+0 0 4920
+T 0
+S
+#4924
+`^Under glacial ice``~
+You are in an ice cavern far beneath the glacier ice. While not the most
+comfortable of locales, you are certainly well shielded from the wind and
+snow, and you see a small pool here of semi fresh water that may even be
+drinkable. Water still drips incessantly from the ice above.
+~
+~
+0 0 0 6
+D2
+~
+~
+0 0 4923
+T 0
+S
+#4925
+`&A moving iceberg``~
+You are standing on an iceberg that is moving slowly downstream. A large
+fissure in the ice seems to be large enough for you to slip your fingers
+into, to break it off and move another direction. The footing here is
+quite dangerous, and unsteady.
+~
+~
+0 4 0 12
+T 0
+S
+#4926
+`&A quickly moving iceberg``~
+You stand on a quickly moving iceberg in the center of the ice flow. A
+large chunk of ice has broken off here, and seems movable. The iceberg
+begins to tilt and shudder as it runs into other bergs of the same size.
+With the slippery footing, this is not a great place to be...
+~
+~
+0 4 0 12
+T 0
+S
+#4927
+`&The Icy Shores``~
+You have made it across the ice flows onto the frozen shores. Behind you,
+large bergs continue to move with the flow of water, to the Barren Sea,
+you can only guess. The ice beach continues to the west, following the
+flow of ice, and a small snowy path leads southward, into the frozen
+wastes.
+~
+~
+0 0 0 12
+D2
+~
+~
+0 0 4928
+D3
+~
+~
+0 0 4985
+T 0
+S
+#4928
+`&A frozen gulley``~
+You are within a frozen gulley. Underfoot, the snow is soft, and fluffy,
+and seems perfect for digging. In fact, you can see where a snowshow hare
+has recently dug himself a small hole just underneath you. You seem to be
+able to hear rushing water coming from it?
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4927
+D1
+~
+~
+0 0 4929
+D5
+~
+snow~
+AB 0 4930
+T 0
+S
+#4929
+`&Across the Ice Flows``~
+You are far from the ice flows, now, yet you can still hear the cracking and
+breaking of ice as it flows down the river. It is snowing much harder here,
+and the sky still retains the slate gray appearance. Around you, you see signs
+of some life, and snow bears and hares move around, hunting and foraging for
+whatever food there may be in the dreary place.
+~
+~
+0 0 0 12
+D2
+~
+~
+0 0 4933
+D3
+~
+~
+0 0 4928
+T 0
+S
+#4930
+`&A chilly underground passage``~
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4931
+D4
+~
+snow~
+AB 0 4928
+T 0
+P GRALL 4932 100~
+S
+#4931
+`&A chilly underground passage``~
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4932
+T 0
+P GRALL 4932 100~
+S
+#4932
+`&A chilly underground passage``~
+~
+~
+0 0 0 12
+D4
+~
+snow~
+AB 0 4922
+T 0
+P GRALL 4932 100~
+S
+#4933
+`&The Frozen Wastes``~
+Vast desolation, all around you. Everything is white, and snow covered. There is
+no terrain, no landmarks to get your bearing on, and even the sun seems reluctant
+to come out of the gray slate skies. It is freezing here, and the wind howls in
+your ears relentlessly, offering little sensory use, save for your eyes, which
+are blinded by the white snow. You are cold, wet, and tired, and you can feel the
+frostbite seeping into your clothing. You are also very lost.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4929
+D1
+~
+~
+0 0 4939
+D2
+~
+~
+0 0 6350
+D3
+~
+~
+0 0 4936
+T 0
+S
+#4934
+`&The Frozen Wastes``~
+Vast desolation, all around you.  Everything is white, and snow covered. 
+There is no terrain, no landmarks to get your bearing on, and even the sun
+seems reluctant to come out of the gray slate skies.  It is freezing here,
+and the wind howls in your ears relentlessly, offering little sensory use,
+save for your eyes, which are blinded by the white snow.  You are cold, wet,
+and tired, and you can feel the frostbite seeping into your clothing.  You
+are also very lost.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4933
+D1
+~
+~
+0 0 4940
+D2
+~
+~
+0 0 4935
+D3
+~
+~
+0 0 4937
+T 0
+S
+#4935
+`&The Frozen Wastes``~
+Vast desolation, all around you.  Everything is white, and snow covered. 
+There is no terrain, no landmarks to get your bearing on, and even the sun
+seems reluctant to come out of the gray slate skies.  It is freezing here,
+and the wind howls in your ears relentlessly, offering little sensory use,
+save for your eyes, which are blinded by the white snow.  You are cold, wet,
+and tired, and you can feel the frostbite seeping into your clothing.  You
+are also very lost.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4934
+D1
+~
+~
+0 0 4941
+D2
+~
+~
+0 0 4933
+D3
+~
+~
+0 0 4938
+D5
+~
+snow~
+A 0 4900
+T 0
+S
+#4936
+`&The Frozen Wastes``~
+Vast desolation, all around you.  Everything is white, and snow covered. 
+There is no terrain, no landmarks to get your bearing on, and even the sun
+seems reluctant to come out of the gray slate skies.  It is freezing here,
+and the wind howls in your ears relentlessly, offering little sensory use,
+save for your eyes, which are blinded by the white snow.  You are cold, wet,
+and tired, and you can feel the frostbite seeping into your clothing.  You
+are also very lost.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4938
+D1
+~
+~
+0 0 4933
+D2
+~
+~
+0 0 4937
+D3
+~
+~
+0 0 4939
+D5
+~
+iceway~
+AB 0 4921
+T 0
+S
+#4937
+`&The Frozen Wastes``~
+Vast desolation, all around you.  Everything is white, and snow covered. 
+There is no terrain, no landmarks to get your bearing on, and even the sun
+seems reluctant to come out of the gray slate skies.  It is freezing here,
+and the wind howls in your ears relentlessly, offering little sensory use,
+save for your eyes, which are blinded by the white snow.  You are cold, wet,
+and tired, and you can feel the frostbite seeping into your clothing.  You
+are also very lost.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4936
+D1
+~
+~
+0 0 4934
+D2
+~
+~
+0 0 4938
+D3
+~
+~
+0 0 4940
+T 0
+S
+#4938
+`&The Frozen Wastes``~
+Vast desolation, all around you.  Everything is white, and snow covered. 
+There is no terrain, no landmarks to get your bearing on, and even the sun
+seems reluctant to come out of the gray slate skies.  It is freezing here,
+and the wind howls in your ears relentlessly, offering little sensory use,
+save for your eyes, which are blinded by the white snow.  You are cold, wet,
+and tired, and you can feel the frostbite seeping into your clothing.  You
+are also very lost.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4937
+D1
+~
+~
+0 0 4935
+D2
+~
+~
+0 0 4936
+D3
+~
+~
+0 0 4941
+T 0
+S
+#4939
+`&The Frozen Wastes``~
+Vast desolation, all around you.  Everything is white, and snow covered. 
+There is no terrain, no landmarks to get your bearing on, and even the sun
+seems reluctant to come out of the gray slate skies.  It is freezing here,
+and the wind howls in your ears relentlessly, offering little sensory use,
+save for your eyes, which are blinded by the white snow.  You are cold, wet,
+and tired, and you can feel the frostbite seeping into your clothing.  You
+are also very lost.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4941
+D1
+~
+~
+0 0 4936
+D2
+~
+~
+0 0 4940
+D3
+~
+~
+0 0 4933
+T 0
+S
+#4940
+`&The Frozen Wastes``~
+Vast desolation, all around you.  Everything is white, and snow covered. 
+There is no terrain, no landmarks to get your bearing on, and even the sun
+seems reluctant to come out of the gray slate skies.  It is freezing here,
+and the wind howls in your ears relentlessly, offering little sensory use,
+save for your eyes, which are blinded by the white snow.  You are cold, wet,
+and tired, and you can feel the frostbite seeping into your clothing.  You
+are also very lost.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4939
+D1
+~
+~
+0 0 4937
+D2
+~
+~
+0 0 4941
+D3
+~
+~
+0 0 4934
+D4
+~
+~
+0 0 4942
+T 0
+S
+#4941
+`&The Frozen Wastes``~
+Vast desolation, all around you.  Everything is white, and snow covered. 
+There is no terrain, no landmarks to get your bearing on, and even the sun
+seems reluctant to come out of the gray slate skies.  It is freezing here,
+and the wind howls in your ears relentlessly, offering little sensory use,
+save for your eyes, which are blinded by the white snow.  You are cold, wet,
+and tired, and you can feel the frostbite seeping into your clothing.  You
+are also very lost.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4940
+D1
+~
+~
+0 0 4938
+D2
+~
+~
+0 0 4939
+D3
+~
+~
+0 0 4935
+T 0
+S
+#4942
+`&Upon an icy peak``~
+You have reached a large icy peak that juts out strangely from the ice.
+Around you, frigid waters crash with turmoil as the wind whips them up
+into a frenzy. On top of this peak, the wind chill is especially bad, as
+your stand exposed to the forces of nature.
+~
+~
+0 0 0 12
+D2
+~
+~
+0 0 4943
+D5
+~
+~
+0 0 4940
+T 0
+S
+#4943
+`&A narrow pass``~
+You find yourself walking amid a tiny pass, formed between two very large
+expanses of ice. It is freezing here, deep within the shadow of these barren
+wastes, but the passage at least provides some form of protection from the
+chill winds that seem to howl incessantly.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4942
+D3
+~
+~
+0 0 4944
+T 0
+S
+#4944
+`&The Icy Reaches``~
+You have entered what lowlanders refer to as the Icy Reaches. For hundreds, 
+even thousands of miles, these icy plains extend, covering all of south Thera.
+Vast wastelands of nothing but ice and snow, dotted with very few hills, and
+no sign of any life save for you, the Reaches are perhaps the bleakest place
+in Thera.
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 4943
+D2
+~
+~
+0 0 4945
+T 0
+S
+#4945
+`&The Icy Reaches``~
+You have entered what lowlanders refer to as the Icy Reaches. For hundreds, 
+even thousands of miles, these icy plains extend, covering all of south Thera.
+Vast wastelands of nothing but ice and snow, dotted with very few hills, and
+no sign of any life save for you, the Reaches are perhaps the bleakest place
+in Thera.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4944
+D2
+~
+~
+0 0 4946
+T 0
+S
+#4946
+`&The Icy Reaches``~
+You have entered what lowlanders refer to as the Icy Reaches. For hundreds, 
+even thousands of miles, these icy plains extend, covering all of south Thera.
+Vast wastelands of nothing but ice and snow, dotted with very few hills, and
+no sign of any life save for you, the Reaches are perhaps the bleakest place
+in Thera.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4945
+D1
+~
+~
+0 0 4947
+T 0
+S
+#4947
+`&The Icy Reaches``~
+You have entered what lowlanders refer to as the Icy Reaches. For hundreds, 
+even thousands of miles, these icy plains extend, covering all of south Thera.
+Vast wastelands of nothing but ice and snow, dotted with very few hills, and
+no sign of any life save for you, the Reaches are perhaps the bleakest place
+in Thera.
+~
+~
+0 0 0 12
+D2
+~
+~
+0 0 4948
+D3
+~
+~
+0 0 4946
+T 0
+S
+#4948
+`&Desolation``~
+You stand amid a vast plain of flat ice. The winds howl here relentlessly,
+blowing dusty snow up from the cracked plains. The sky is slate gray, and
+for as far as your eye can see, endless stretches of snowy wastes extend
+in all directions. You feet make crunching sounds as you walk over miles of
+hard packed ice and snow, and you feel the cold creep into your body.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4947
+D2
+~
+~
+0 0 4949
+T 0
+S
+#4949
+`&Desolation``~
+You stand amid a vast plain of flat ice. The winds howl here relentlessly,
+blowing dusty snow up from the cracked plains. The sky is slate gray, and
+for as far as your eye can see, endless stretches of snowy wastes extend
+in all directions. You feet make crunching sounds as you walk over miles of
+hard packed ice and snow, and you feel the cold creep into your body.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4948
+D1
+~
+~
+0 0 4950
+D5
+~
+~
+0 0 4994
+T 0
+S
+#4950
+`8The Reaches of Dischord``~
+You have reached Dischord. Tall ice spires rise up from the ground all around
+you, making this into a sort of castle. Legend has it that the Gods created
+Dischord as a prison for the worst plagues of Thera, and locked them away deep
+inside these frozen walls to keep them safe from Thera. A massive icy doorway
+looms before you, creating an almost impenetrable looking guard against the
+outside elements. Wind whistles through the high spires, and a feeling of dread
+pervades your soul.
+~
+~
+0 9 0 0
+D2
+~
+icy doorway~
+ABCFG 4997 4951
+D3
+~
+~
+0 0 4949
+T 0
+S
+#4951
+`8Within Dischord``~
+You stand within the Spires of Dischord, the farthest point of life in
+Southern Thera.  The fortress is cold, and deathly still, save for the
+occasional clicking of bony feet on the icy floor.  Large walls of ice
+surround you, but despite their crystalline appearance, the halls are dark,
+and forboding, as if some unnatural presence were expecting your entrance
+here...  
+~
+~
+0 9 0 0
+D0
+~
+icy doorway~
+ABCFG 4997 4950
+D1
+~
+~
+0 0 4952
+D2
+~
+~
+0 0 4954
+D3
+~
+~
+0 0 4953
+S
+#4952
+`8The Passage of Entropy``~
+This is the small passageway which leads to Entropy, and further, to
+the icy prison of one of Thera's Plagues. You can even now hear the
+screams and wails of torment as the Plague attempts to break free from
+its icy, and eternal prison.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 4974
+D3
+~
+~
+0 0 4951
+S
+#4953
+`8The Passage of Mayhem``~
+You have entered Mayhem. Once, the religious belief that MAYHEM had
+to exist in nature to counter the laws of order, it was chosen by the
+followers of Chaos as their avatar, an excuse to create sheer terror
+or mindless destruction about the lands. The halls here are craggy,
+bearing a covering of hoar frost.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 4951
+D3
+~
+~
+0 0 4968
+S
+#4954
+`8The Halls of the Puppetmaster``~
+An arched hallway leads south here, toward something nasty. You can smell
+the stench of decay in the air, and feel the unholy energy prickly your
+skin. Large cracks and lesions lie in the ice, and red bloodstains mar
+the snowy floors here. The sound of dripping water can be heard in the
+distance.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 4951
+D2
+~
+~
+0 0 4955
+S
+#4955
+`8Amid Chains``~
+Here, large chains hang from holes dug in the ceilings. Skeletal limbs
+hang haphazardly from them, and they seem to gently sway, though there
+is no breeze in the corridor. Littered bones lie all around the ground
+here, a tribute to fallen visitors.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 4954
+D2
+~
+~
+0 0 4956
+S
+#4956
+`8Frozen Walls``~
+You stand now amid a snow cave. Large walls of white ice rise up on
+either side of you, providing an eerie echo to all of your speech. As
+you talk, you can hear your voices echo down the corridor, and bounce
+back at you, as if being reflected from beyond.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 4955
+D2
+~
+~
+0 0 4957
+P SPEECH 4956 *~
+S
+#4957
+`8Intersected Mettling``~
+You stand amid what seems to be a hurriedly carved passageway. Large
+striations line the walls, and you can see where frenzied claws have
+dug a small passage to the west. A large portal lies south of you,
+seeming to shimmer as you near it, like liquid glass.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 4956
+D2
+~
+paradox~
+ABG 0 4980
+D3
+~
+~
+0 0 4958
+S
+#4958
+`8The Backward``~
+You stand amid the Backward. This room seems to enter from where
+you just came, and leave from where you wanted to enter. Apparently
+a sort of illusion placed here to confuse and annoy visitors, or
+perhaps a clever ruse placed here by a sage, to warn you from entering
+what lies beyond.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 4957
+D2
+~
+~
+0 0 4959
+S
+#4959
+`8The Puppetmaster's Lair``~
+You are within the lair of the Puppetmaster.  The self proclaimed Arch
+Lich of Necromancy, Sav'Ram'Dier's lair is a spectacle.  Bodies lie in icy
+tombs all along the walls, apparently to preserve them from decay, so that
+he can fashion minions from their bodyparts.  Is it said that the
+destruction of the Master will lead to the destruction of the pets.  Of
+course, the Puppetmaster doesn't seem like he is planning on his own
+destruction any time soon...  
+~
+~
+0 262153 16 0
+D0
+~
+~
+0 0 4958
+D4
+~
+tunnel~
+ABCFGM 4959 4960
+S
+#4960
+`8An icy spire``~
+You stand within an icy spire, rising up from below. Around you, the
+walls are of polished ice, giving you quite a view of...nothing. Desolate
+land surrounds you on all sides, reaching as far as the eye can see. You
+can feel the wind shaking the tower as you stand inside it.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 4961
+D5
+~
+tunnel~
+ABCFGM 4959 4959
+S
+#4961
+`8The Halls of Chicanery``~
+Here, the fortress takes on a marked change. Walls of black ice rise
+up, walling you in, and the smell of burning oil, flesh, and hair fills
+your nose with an acrid stench. Around you pulses evil energy, and it
+seems as if hell itself has created this pit.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 4960
+D1
+~
+~
+0 0 4963
+D3
+~
+~
+0 0 4962
+S
+#4962
+`8The Halls of Chicanery``~
+Here, the fortress takes on a marked change. Walls of black ice rise
+up, walling you in, and the smell of burning oil, flesh, and hair fills
+your nose with an acrid stench. Around you pulses evil energy, and it
+seems as if hell itself has created this pit.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 4961
+D2
+~
+cell~
+ABCFG 4977 4964
+S
+#4963
+`8The Halls of Chicanery``~
+Here, the fortress takes on a marked change. Walls of black ice rise
+up, walling you in, and the smell of burning oil, flesh, and hair fills
+your nose with an acrid stench. Around you pulses evil energy, and it
+seems as if hell itself has created this pit.
+~
+~
+0 9 0 0
+D2
+~
+cell~
+ABCFG 4971 4966
+D3
+~
+~
+0 0 4961
+S
+#4964
+`8A Frozen Prison``~
+You stand within the Frozen Prison.  Nearby, you hear the screams and
+howls of the Imprisoned.  A strange sense of impending doom fills your very
+soul as a barrier of pure magic seems to be keeping you from going further. 
+It is almost as if the Gods themselves has warded this place against
+intruders.  Dare you defy them?  
+~
+~
+0 262153 0 0
+D0
+~
+cell~
+ABCFG 0 4962
+D2
+~
+~
+0 0 4965
+S
+#4965
+`8The Second Plague``~
+You stand within the Prison of the Second Plague of Thera. Bellanaer's
+eternal prison. The walls are chipped and cracked from years of her
+attempts at escape, but somehow, they seem to be eternally bound to
+keep her within. A strange energy field fills the room, and from here,
+you get a continual view of the desolation surrounding you.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 4964
+S
+#4966
+`8A Frozen Prison``~
+You stand within the Frozen Prison. Nearby, you hear the screams and
+howls of the Imprisoned. A strange sense of impending doom fills your
+very soul as a barrier of pure magic seems to be keeping you from going
+further. It is almost as if the Gods themselves has warded this place
+against intruders. Dare you defy them?
+~
+~
+0 262153 0 0
+D0
+~
+cell~
+ABCFG 0 4963
+D2
+~
+~
+0 0 4967
+S
+#4967
+`8The First Plague``~
+You stand within the Prison of the First Plague of Thera. Icy
+walls keep her in, and Thera, out. From here, you have quite a
+view of the utter desolation surrounding you. One would think that
+an eternity locked inside this place would tend to cause one to
+become utterly insane...
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 4966
+S
+#4968
+`8Within Mayhem``~
+Strange ice formations rise up all around you, growing in random
+sizes and thicknesses, while large spidery cracks cover the heavy
+ice walls that keep out the harshness of Desolation. It seems as if
+the crystals here were actually following the precepts of Mayhem, and
+indeed were growing in Chaotic formations.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 4953
+D2
+~
+~
+0 0 4969
+D3
+~
+ice~
+ABFG 0 5600
+S
+#4969
+`8Within Mayhem``~
+Strange ice formations rise up all around you, growing in random
+sizes and thicknesses, while large spidery cracks cover the heavy
+ice walls that keep out the harshness of Desolation. It seems as if
+the crystals here were actually following the precepts of Mayhem, and
+indeed were growing in Chaotic formations.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 4968
+D2
+~
+~
+0 0 4970
+S
+#4970
+`8Among Weeping Walls``~
+The walls here have begun to melt, and large rivulets of water seep
+from cracks within the walls, and run down to the ground, where the
+water again refreezes. It makes for a rather interesting effect, one
+that makes the walls appear to be crying.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 4969
+D2
+~
+~
+0 0 4971
+S
+#4971
+`8Amid screams``~
+Unholy cries fill the air as wails of agony, self loathing and
+terror fill your ears. It seems that the eons of solitary lockup
+have finally gotten to those who were within, and their sorrowful
+cries of remorse and loathing now reverberate around the walls.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 4970
+D3
+~
+cell~
+ABCFG 4963 4972
+S
+#4972
+`8A Frozen Cell``~
+You stand within the Frozen Cell.  Nearby, you hear the screams and howls
+of the Imprisoned.  A strange sense of impending doom fills your very soul
+as a barrier of pure magic seems to be keeping you from going further.  It
+is almost as if the Gods themselves has warded this place against intruders.
+Dare you defy them?  
+~
+~
+0 262153 0 0
+D1
+~
+cell~
+ABCFG 0 4971
+D2
+~
+~
+0 0 4973
+S
+#4973
+`8The Third Plague``~
+You are trapped within the prison of Nictilieus, the Third Plague of
+Thera. The walls of ice here are chipped and cracked from eons of
+bashing, fury, rage, and anger, though they still seem to be holding
+strong. As you set foot within this warded room, you get the idea that
+this was not such a good idea...
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 4972
+S
+#4974
+`8Within Entropy``~
+You have come across the Hall of Entropy. Entropy was once the
+fundamental belief of destruction of order through chaotic inter
+ference. However, this hall seems to defy it, as it is carved into
+immaculate structural formations of ice.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 4975
+D3
+~
+~
+0 0 4952
+S
+#4975
+`8A crystalline cavern``~
+The walls around you seem to be carved into large facets. Smooth,
+crystal-like faces reflect back your torchlight, and make strange
+shadows dance all around the room. Even the floor is a polished
+facet, and is rather slippery. Better watch your step.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 4974
+D2
+~
+~
+0 0 4976
+S
+#4976
+`8Amid icicles``~
+You stand amid a cavern filled with icicles dangling from the
+ceiling. They seem to shudder as you speak, almost as if the
+noise from your voice will cause them to fall at any time. You
+see broken pieces of ice all around the floor, some marked with
+large bloodstains in the ice.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 4975
+D2
+~
+~
+0 0 4977
+P RANDOM 4976 10~
+P SPEECH 4976 *~
+S
+#4977
+`8The Taste of Fear``~
+You stand with a terrifying place. Fear creeps into your very
+essence as wails of torment fill your ears. You seem to think
+you see shadows danc and play on the walls, but when you look,
+nothing is there. A foul smell invades your nose, causing you
+to begin to salivate with apprehension.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 4976
+D1
+~
+cell~
+ABCF 4962 4978
+S
+#4978
+`8A Frozen Cell``~
+You stand within the Frozen Cell. Nearby, you hear the screams and
+howls of the Imprisoned. A strange sense of impending doom fills your
+very soul as a barrier of pure magic seems to be keeping you from going
+further. It is almost as if the Gods themselves has warded this place
+against intruders. Dare you defy them?
+~
+~
+0 262153 0 0
+D2
+~
+~
+0 0 4979
+D3
+~
+cell~
+ABCF 0 4977
+S
+#4979
+`8The Fourth Plague``~
+You stand within the very prison of the Fourth Plague of Thera. Locked
+away in this dark, magicless cell, Phillisides faces eons of torment for
+his crimes against humanity. Sound itself seems to be hampered here by
+the heavy magic ward that surrounds the room, keeping people out, and
+keeping you in.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 4978
+S
+#4980
+`8An Icy Tomb``~
+Black ice walls encase you in a type of sepulchre. Noise seems to be
+totally absorbed by these walls, and transposed into a reflection of
+nothing. Here, nothing matters, nothing exists. Total sensory loss,
+your senses are of no use....Only your soul can guide you.
+~
+~
+0 9 0 0
+D0
+~
+paradox~
+ABG 0 4957
+D1
+~
+~
+0 0 4981
+S
+#4981
+`8Cold Decay``~
+Seeping fear and dread combine together here to form one unity,
+that unity grips you, pervades you, and becomes you. You see life
+rot, and die, and arise again, and rot and die again. A million
+images of death all at once rivet you in cold fear...
+~
+~
+0 9 0 0
+D1
+~
+fractal~
+ABCFGM 4981 4982
+D3
+~
+~
+0 0 4980
+S
+#4982
+`8The Inverse Fractal``~
+You look, and see nothing, but a reflection of the Empty. Your eyes,
+searching, only find blankness, and N*space. You suddenly feel that
+your mind is unable to comprehend the blackness. Unable to grasp the
+division by zero that would be necessary to see the Dischordant in
+true form. As futily as you attempt, you sense a presence pervade
+your soul, and your mind expands, only temporarily grasping the dark
+and total infinity which now lay before you...
+~
+~
+0 9 0 0
+D3
+~
+fractal~
+ABCFGM 0 4981
+S
+#4983
+`8The back of the shelter``~
+You stand at the back corner of the shelter. Large rows of skinned
+bearhides line the walls, and several racks of fileted fish are lying
+on a small smoking rack. Truly a humble existance, but the shelter is
+warm, and cozy, compared to the torrent outside.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 4921
+S
+#4984
+`&The Baranof Icefields``~
+You stand amid a small temple, guarded by the Baranof Giants. It is made
+almost entirely of ice and snow, and large symbols have been set into the
+ice to make this a religious place. A large altar stands before you, and
+behind, a giant priest looms, leering menacingly at you.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4904
+D1
+~
+~
+0 0 4908
+D2
+~
+~
+0 0 4911
+D3
+~
+~
+0 0 4907
+T 0
+S
+#4985
+`&Along a frozen river``~
+You find yourself meandering on the surface of a frozen riverbed. Covered
+with a layer of snow, the walking is made difficult by the slick surface.
+Oddly enough, you can only hear a tiny trickle of water, as it flows
+underneath the thick, heavy ice. The wind is not so bad here, out of the
+direct torrent of the gales.
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 4927
+D3
+~
+~
+0 0 4986
+T 0
+S
+#4986
+`&Along a frozen river``~
+You find yourself meandering on the surface of a frozen riverbed. Covered
+with a layer of snow, the walking is made difficult by the slick surface.
+Oddly enough, you can only hear a tiny trickle of water, as it flows
+underneath the thick, heavy ice. The wind is not so bad here, out of the
+direct torrent of the gales.
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 4987
+D1
+~
+~
+0 0 4985
+T 0
+S
+#4987
+`&Along a frozen river``~
+You find yourself meandering on the surface of a frozen riverbed. Covered
+with a layer of snow, the walking is made difficult by the slick surface.
+Oddly enough, you can only hear a tiny trickle of water, as it flows
+underneath the thick, heavy ice. The wind is not so bad here, out of the
+direct torrent of the gales.
+~
+~
+0 0 0 12
+D2
+~
+~
+0 0 4986
+D3
+~
+~
+0 0 4988
+T 0
+S
+#4988
+`&Along a frozen river``~
+You find yourself meandering on the surface of a frozen riverbed. Covered
+with a layer of snow, the walking is made difficult by the slick surface.
+Oddly enough, you can only hear a tiny trickle of water, as it flows
+underneath the thick, heavy ice. The wind is not so bad here, out of the
+direct torrent of the gales.
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 4987
+D3
+~
+~
+0 0 4989
+T 0
+S
+#4989
+`&A frozen delta``~
+The river branches out here, opening up into a great flat land. Before you,
+the delta combines with several larger flows, and a massive rushing or cold,
+semi-frozen water rushes out toward the mouth of the Barren Sea. Icebergs,
+and large chunks of earth flow quickly by, giving the water a silty bluish
+tinge.
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 4988
+D3
+~
+~
+0 0 4990
+T 0
+S
+#4990
+`^The shores of the Barren Sea``~
+You stand amid the barren sea. A vast expanse of salt water that circles
+the southern part of Thera, and eventually drains into the Dead Sea, far
+to the west. You can make out massive chunks of ice floating dangerously
+in the water, as a freezing gale blasts at you from the cold waters of the
+unforgiving sea.
+~
+~
+0 0 0 6
+D1
+~
+~
+0 0 4989
+P RANDOM 4990 30~
+S
+#4991
+`3The Road to the Wasteland``~
+You stand amid a small cairn, looking southward toward the frozen wastes.
+Just a few miles away, you can see where the tundra here turns into frozen
+wastes. Snow and winds whip icily around large chunks of ice south of you,
+and you think you can make out massive blue shapes moving around on the ice
+fields, even from this distance. It looks very unforgiving.
+~
+~
+0 0 16384 4
+D2
+~
+~
+0 0 4901
+D3
+~
+~
+0 0 4992
+S
+#4992
+`3The Southern Road``~
+Walking further, you come to a small bend in the path, which runs over a few
+dry rotted trees that fell several winters ago. It seems this part of the world
+is nearly always in wintertime. The smell of campfire smoke fills your nostrils
+as the smoke from the giants' nearby fires filter south with the chill breeze.
+~
+~
+0 0 8192 4
+D0
+~
+~
+0 0 4993
+D1
+~
+~
+0 0 4991
+S
+#4993
+`3The Southern Road``~
+You walk along a wide southern path leading into the far southern reaches of
+Thera...The Frozen wastes, and from what legends speak of...Dischord, the final
+resting grounds of the Four Plagues of Thera. The road here is rocky and stobby,
+alluding to the tundra all around you. You start to feel a chill wind as you
+near the icy reaches.
+~
+~
+0 0 8192 4
+D2
+~
+~
+0 0 4992
+S
+#4994
+`8Under the permafrost``~
+You have slid into a small stairwell underneath the permafrost. It looks
+as if someone cut a hole into the very earth here, and lined the wall with
+large steel plates of some sort. A small door lies closed to the south
+of you, and you can hear a clanging of somesort resounding nearby.
+~
+~
+0 8 0 0
+D2
+~
+iron door~
+AB 0 4995
+D4
+~
+~
+0 0 4949
+T 0
+P RANDOM 4994 40~
+S
+#4995
+`8Before the Furnace``~
+You stand in a small, crowded room. Waves of searing heat wash over you
+as you enter, and you see a massive iron forge in the center of the room.
+Several large men are working around it, shoveling coal into the heart of
+it, in their endless task to keep the forge burning...But why?
+~
+~
+0 8 0 0
+D0
+~
+iron door~
+AB 0 4994
+D2
+~
+~
+0 0 4996
+T 0
+P RANDOM 4994 40~
+S
+#4996
+`8The Forgeman's Chamber``~
+You stand amid a great, hot room. Sweat begins to pour down your face as
+the cold from the outside is quickly overwhelmed by the massive heat that
+is being generated by the forge. Here, large sweaty fire giants shovel
+endless amounts of peat into a massive forge, and create gems and weapons
+of considerable value. The roof here is low, by giant standards, and the
+air is musty and sweaty.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 4995
+D1
+~
+~
+0 0 4998
+D2
+~
+~
+0 0 4999
+D3
+~
+~
+0 0 4997
+T 0
+S
+#4997
+`8A sleeping chamber``~
+You stand amid a small room carved out of the permafrost. Damp soil lines
+the walls, and several small cots lie undisturbed around the wall. Must be
+some sort of sleeping room for the shifts that work on the forge.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 4996
+S
+#4998
+`8A sleeping chamber``~
+You stand amid a small room carved out of the permafrost. Damp soil lines
+the walls, and several small cots lie undisturbed around the wall. Must be
+some sort of sleeping room for the shifts that work on the forge.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 4996
+S
+#4999
+`8A sleeping chamber``~
+You stand amid a small room carved out of the permafrost. Damp soil lines
+the walls, and several small cots lie undisturbed around the wall. Must be
+some sort of sleeping room for the shifts that work on the forge.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 4996
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 4959 spec_breath_acid
+M 4965 spec_cast_adept
+M 4967 spec_breath_fire
+M 4984 spec_cast_cleric
+S
+
+
+
+#TRAPS
+#4957
+paradox~
+As you near the paradox the forces of chaos lash out at you!~
+As $n nears the paradox the forces of chaos lash out at $m!~
+xdamage 50 CFILO
+call void~ 500 20 20 25
+#4958
+rune of dischord~
+Suddenly a large rune sizzling with dark powers flashes before you!~
+Suddenly a large rune sizzling with dark powers flashes before $n!~
+mob 50 F
+4960 500 4998 500 3
+#0
+
+#RESETS
+O 0 4903 0 4903
+M 0 4906 20 4903 2
+E 0 4906 0 17
+M 0 4908 10 4904 2
+E 0 4908 0 17
+M 0 4908 10 4905 2
+E 0 4908 0 17
+M 0 4906 20 4906 2
+O 0 4909 0 4908
+M 0 4906 20 4908 2
+M 0 4908 10 4908 2
+E 0 4908 0 17
+O 0 4910 0 4910
+M 0 4906 20 4910 2
+E 0 4906 0 17
+M 0 4908 10 4910 2
+E 0 4908 0 17
+M 0 4906 20 4912 2
+O 0 4914 0 4914
+M 0 4906 20 4914 2
+E 0 4906 0 17
+M 0 4908 10 4914 2
+O 0 4922 0 4922
+O 0 4924 0 4924
+O 0 4925 0 4925
+O 0 4926 0 4926
+M 0 4936 20 4928 2
+M 0 4938 20 4933 2
+M 0 4936 20 4934 2
+M 0 4938 20 4935 2
+M 0 4936 20 4936 2
+M 0 4938 20 4936 2
+M 0 4936 20 4938 2
+M 0 4938 20 4938 2
+M 0 4936 20 4939 2
+M 0 4938 20 4939 2
+M 0 4936 20 4941 2
+T 0 4958 1 4950 2
+M 0 4960 15 4951 2
+O 0 4997 0 4951
+M 0 4968 20 4952 2
+M 0 4960 15 4952 2
+M 0 4968 20 4953 2
+M 0 4960 15 4953 2
+M 0 4960 15 4954 2
+M 0 4960 15 4955 2
+M 0 4960 15 4956 2
+M 0 4960 15 4957 2
+T 0 4957 1 4957 2
+M 0 4960 1 4958 1
+M 0 4959 1 4959 1
+G 0 4959 0
+E 0 4950 0 13
+E 0 4951 0 18
+M 0 4968 20 4961 2
+M 0 4971 4 4962 1
+G 0 4962 0
+M 0 4968 20 4962 2
+M 0 4971 4 4963 1
+G 0 4963 0
+M 0 4968 20 4963 2
+M 0 4965 1 4965 1
+E 0 4965 0 0
+E 0 4966 0 1
+M 0 4967 1 4967 1
+E 0 4967 0 3
+E 0 4968 0 14
+E 0 4969 0 11
+G 0 4960 0
+M 0 4968 20 4968 2
+M 0 4968 20 4969 2
+M 0 4968 20 4970 2
+M 0 4971 4 4971 1
+G 0 4971 0
+M 0 4973 1 4973 1
+E 0 4973 0 5
+E 0 4974 0 17
+G 0 4970 0
+M 0 4968 20 4974 2
+M 0 4968 20 4975 2
+M 0 4968 20 4976 2
+M 0 4971 4 4977 1
+G 0 4977 0
+M 0 4979 1 4979 1
+E 0 4979 0 8
+E 0 4980 0 7
+M 0 4981 1 4981 1
+M 0 4982 1 4982 1
+E 0 4982 0 3
+E 0 4983 0 17
+M 0 4983 1 4983 1
+E 0 4984 0 17
+M 0 4984 1 4984 1
+O 0 4985 0 4984
+E 0 4987 0 3
+O 0 4996 0 4996
+M 0 4996 1 4996 1
+E 0 4997 0 3
+E 0 4998 0 17
+M 0 4997 4 4996 2
+O 0 4995 0 4996
+P 0 4994 0 4995 1
+O 0 4999 0 4997
+M 0 4997 4 4997 2
+O 0 4999 0 4998
+M 0 4997 4 4998 2
+O 0 4999 0 4999
+M 0 4997 4 4999 2
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#4925
+mob echoat $n You split open a crack in the iceberg!
+mob echoaround $n $n splits open a crack in the iceberg!
+mob echoat $n You suddenly find yourself on another iceberg.
+mob echoaround $n $n begins to float away on another iceberg.
+mob force $n drop crack
+mob transfer $n 4926
+~
+#4928
+emote growls at you menacingly, and attacks!
+murder $n
+~
+#4933
+if mobhere hare
+     kill hare
+endif
+~
+#4939
+if rand 20
+     mob echo You manage to strip the hide off the snow bear.
+     mob oload 4939
+endif
+~
+#4957
+if mobhere 'minion'
+     mob echo The Puppetmaster sends an Unholy Minion back to the Underworld.
+     slay minion
+     get gold
+     mpjunk gold
+endif
+~
+#4958
+mob oload 4952
+~
+#4959
+if followers $i > 2
+  break
+endif
+say Sarguar Domine Raplictionium, Ezlu're Dofav Condonem!
+mob echo An unholy minion arises to serve the Puppetmaster!
+mob mload 4998
+mob obey 1. puppetmaster 3
+mob force minion follow puppetmaster
+group minion
+~
+#4960
+if mobexists puppetmaster
+     break
+else
+     mob echo An Undead Minion is unable to function with its master destroyed!
+     mob attrib $i timer = 0
+endif
+~
+#4961
+if carries $n 4952
+     mob echo As an Undead Minion sees the head of its master, it cowers into a corner.
+     run
+     mob purge self
+else
+     murder $n
+endif
+~
+#4962
+rescue puppetmaster
+~
+#4973
+haymaker
+~
+#4981
+if carries $n 4963
+  if carries $n 4962
+    if carries $n 4977
+      if carries $n 4971
+          say You have the keys to enter...
+          mob oload 4981
+          chown 'hand key' $n
+          chown 'skull key' $n
+          chown 'eye key' $n
+          chown 'cross key' $n
+          give chaos $n
+          mpjunk all
+        endif
+      endif
+    endif
+else
+  say Come back with the keys to the Four Plagues.
+endif
+~
+#4982
+say No, you cannot enter here!
+say I am forever damned by the Dark Lords!
+emote looks about wildly, as if blinded by pain and suffering.
+say Leave me...Leave me alone!
+scream
+cry
+~
+#4983
+if rand 50
+     emote weeps and cries pitifully.
+else
+     emote looks around, her eyes wide, and glazed over.
+     say Orealt? Is that...you?
+endif
+~
+#4984
+say What are you doing here?
+say Oh, no, you're not taking any of my food!
+murder $n
+~
+#4996
+mob force 'fire giant' murder $n
+~
+#0
+
+M 4968 1 pckill.prg NL
+M 4971 0 mahntor_gate.prg NL
+S
+
+
+
+
+#OBJPROGS
+#4908
+if cabal $n 'warmaster'
+  obj echoat $n This is not the way a Warmaster should act!
+  break
+endif
+if isdelay $i
+   obj echoat $n $I remains unchanged.
+else
+   obj echo A beam of blue light shoots forth from $I!
+   obj cast 'icicle'
+   obj delay 12
+endif
+~
+#4922
+if room $i != 4922
+  break
+endif
+obj echoat $n You manage to heave a chunk of iceberg just ahead of you.
+obj echoaround $n $n manages to heave a chunk of iceberg just ahead of $m.
+obj echoat $n You begin floating down an iceflow on an iceberg.
+obj echoaround $n $n begins floating down an iceflow on an iceberg.
+obj goto 4925
+if objhere 4925
+  obj goto 4922
+else
+  obj oload 4925
+  obj goto 4922
+endif
+obj transfer $n 4925
+~
+#4925
+if room $i != 4925
+  break
+endif
+obj echoat $n You split open a crack in the iceberg!
+obj echoaround $n $n splits open a crack in the iceberg!
+obj echoat $n You suddenly find yourself on another iceberg.
+obj echoaround $n $n begins to float away on another iceberg.
+obj goto 4926
+if objhere 4926
+  obj goto 4925
+else
+  obj oload 4926
+  obj goto 4925
+endif
+obj transfer $n 4926
+~
+#4926
+if room $i != 4926
+  break
+endif
+obj echoat $n A slab of ice in hand, you quickly jump back to the last iceberg!
+obj echoaround $n A slab of ice in hand, $n quickly jumps back to the last iceberg!
+obj transfer $n 4925
+~
+#4927
+obj echo A large slab of ice breaks into several smaller pieces!
+obj oload 4928
+obj oload 4928
+obj oload 4928
+~
+#4928
+if room $i != 4922
+and room $i != 4925
+and room $i != 4926
+  break
+endif
+obj echoat $n Armed with an ice raft, you plunge into the ice flows!
+obj echoaround $n Armed with an ice raft, $n plunges into the ice flows!
+obj echoat $n You manage to paddle your way to the far shores!
+obj transfer $n 4927
+~
+#4950
+if isdelay $i
+   break
+else
+   obj echo $I seems to emit a dark aura at $N.
+   obj cast 'enfeeblement' $n
+   obj delay 1
+endif
+~
+#4951
+obj echo The tome glows with an unholy light as it leeches the souls of the dead.
+obj force minion peace
+obj force minion follow $n
+~
+#4974
+if iscarried $i
+or isworn $i
+  if isnpc $n
+    break
+  endif
+  if isechaotic $n
+    obj echoat $n  You sense $I's power resonate with your chaotic nature.
+  else
+    obj echo Resisting $N's unchaotic nautre $I drops to the ground.
+    obj goto $n
+  endif
+endif
+~
+#4975
+if iscarried $i
+or isworn $i
+  if isnpc $n
+    break
+  endif
+  if isechaotic $n
+    break
+  else
+    obj echo Resisting $N's unchaotic nautre $I drops to the ground.
+    obj goto $n
+  endif
+endif
+~
+#4980
+if rand 80
+     obj echo A Mask of Dischord glows with energy.
+     obj cast 'haste' $n
+else
+     obj echoat $n A flare of arcane energy arcs back to you!
+     obj echoaround $n A flare of arcane energy arcs back to $n!
+     obj damage $n 100 150
+     obj echoat $n The Pain of Dischord `1*** DEMOLISHES ***`` you!
+     obj echoaround $n The Pain of Dischord `1*** DEMOLISHES ***`` $n!
+endif
+~
+#4981
+if cabal $n 'warmaster'
+  obj echoat $n This is not the way a Warmaster should act!
+  break
+endif
+if isdelay $i
+   obj echoat $n A flare of arcane energy arcs back to you!
+   obj echoaround $n A flare of arcane energy arcs back to $n!
+   obj echoat $n The Pain of Dischord `1*** DEMOLISHES ***`` you!
+   obj echoaround $n The Pain of Dischord `1*** DEMOLISHES ***`` $N!
+   obj damage $n 100 150 kill
+else
+   obj echo A Mask of Dischord glows with energy.
+   obj cast 'haste' $n
+   obj delay 6
+endif
+~
+#4982
+obj echoat $n You feel $I's energies recharge.
+~
+#4983
+if cabal $n 'warmaster'
+  obj echoat $n This is not the way a Warmaster should act!
+  break
+endif
+if isdelay $i
+   obj echoat $n Nothing happends.
+else
+   obj echo $I emits a ray of holy power.
+   obj cast 'wrath'
+   obj delay 4
+endif
+~
+#0
+
+#ROOMPROGS
+#4929
+room stop $N
+if rand 50
+     room echoat $N A massive iceberg passes by you, and you manage to make the jump!
+     room transfer $N 4926
+else
+     room echoat $N An iceberg passes by, but too far for you to make the jump.
+endif
+~
+#4932
+room echoat $n You manage to dig through the snow and ice.
+room echoaround $n $n manages to dig through the snow and ice.
+~
+#4956
+room echoat $n Your voice echoes eerily down the corridor.
+room echoaround $n $n's voice echoes eerily down the corridor.
+~
+#4976
+room echo A sharp icicle falls from the ceiling and `1pierces`` you!
+room damage $n 10 40
+~
+#4982
+~
+#4990
+if rand 50
+     room echo Icy, salt air whips at your face and clothes.
+else
+     room echo Freezing waves wash up slowly on an icy shoreline.
+endif
+~
+#4994
+if rand 50
+     room echo You hear the clanging of steel nearby.
+else
+     room echo You hear the roar of some very hot fire nearby.
+endif
+~
+#0
+
+#$

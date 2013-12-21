@@ -1,5 +1,5 @@
 >entry_prog 10~
-say I am the Enforcer of Law, Guardian of Val Miran.
+say I am the Enforcer of Law, Guardian of Revelsport.
 ~
 >rand_prog 15~
 if rand(50)

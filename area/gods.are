@@ -1,0 +1,1286 @@
+#AREADATA
+Name The Hall of Gods and Goddesses~
+Pref ~
+Builders Ankharan~
+VNUMs 1300 1399
+Max_Bastions 0
+Credits Ankharan~
+Security 9
+Startroom 0
+Flags 2
+Crimes 6 4 4 4 4 4 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#1355
+Beronor God~
+Beronor~
+Beronor, God of Sun, Sky and Weal is here.
+~
+You are in awe of his divinity.
+~
+unique~
+ABGJKZe 0 CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+0
+0 0 medium 0
+#1356
+Felana Goddess~
+Felana~
+Felana, Goddess of Air, Clouds and the Wind is here.
+~
+You are blinded by her Divine Holiness.
+~
+unique~
+ABGJKZe 0 CDEGHJ K 150 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+0
+0 0 medium 0
+#1357
+Wyihemi Goddess~
+Wyihemi~
+Wyihemi, Goddess of Fertility, Birth and the Harvest is here.
+~
+You are in awe of her Divine Holiness.
+~
+unique~
+ABGJKZe 0 CDEGHJ K 150 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+0
+0 0 medium 0
+#1358
+Arondos God~
+Arondos~
+Arondos, God of the Arts, Music and Poetry is here.
+~
+You are awed by his divine presence.
+~
+unique~
+ABGJKZe A CDEGHJ K 400 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+26
+0 0 medium 0
+#1364
+Tiradel God~
+Tiradel~
+Tiradel, God of Knighthood, Chivalry and Honor is here.
+~
+You are blinded by the divine presence of Tiradel. 
+~
+unique~
+ABGJKZbe A DEGHJ K 750 0
+60 1000 20d100+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+26
+0 0 medium 0
+#1365
+Rasazra Goddess~
+Rasazra~
+Rasazra, Goddess of Purity, Sacrifice and Virtue is here.
+~
+You are blinded by her Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 750 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+22
+0 0 medium 0
+#1366
+Moiwen Goddess ~
+The Goddess Moiwen~
+Moiwen the Goddess of Spring and Peace is here.
+~
+You are blinded by her Divine Holiness.
+ 
+~
+unique~
+ABGJKZe A CDEGHJ K 750 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+23
+0 0 medium 0
+#1367
+Madshem Goddess~
+Madshem~
+Madshem, the Goddess of Friendship, Merriment and Ale is here.
+~
+You are blinded by her Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+23
+0 0 medium 0
+#1368
+Dormicc God~
+Dormicc~
+Dormicc, the God of Travel, Adventure and Quests is here.
+~
+You are blinded by his Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 400 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+21
+0 0 medium 0
+#0
+
+
+
+#OBJECTS
+#1355
+tattoo Beronor sunburst~
+(no short description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#1356
+Tattoo Felana cloud~
+A silver cloud on a blue sky background~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+#1357
+tattoo Wyihemi sheaf grain~
+A sheaf of golden grain~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+#1358
+tattoo Arondos harp~
+A golden harp~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 22 -1 0
+F
+A 36 100 0
+#1364
+tattoo Tiradel flaming sword~
+A flaming sword~
+If you see this contact an Immortal.~
+ink~
+trash M T
+0 0 0 0 0
+50 0 0 P
+F
+A 18 1 0
+F
+A 19 1 0
+F
+A 5 1 0
+F
+A 1 1 0
+#1365
+tattoo Rasazra lock chain~
+A silver lock and chain~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 3 2 0
+F
+A 1 1 0
+#1366
+Moiwen Spring Peace Tattoo~
+A laurel wreath~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 17 -20 0
+#1367
+Madshem tattoo tankards~
+A pair of overflowing tankards of ale.~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 5 1 0
+F
+A 22 -1 0
+#1368
+tattoo Dormicc  staff boots~
+A pair of boots with a staff superimposed over them.~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 36 200 0
+#0
+
+
+
+#ROOMS
+#1300
+`@Gaemina``~
+~
+~
+0 8448 66592 3
+D0
+~
+~
+0 0 1326
+D1
+~
+~
+0 0 1346
+D2
+~
+~
+0 0 1333
+D3
+~
+~
+0 0 1303
+D4
+~
+~
+0 0 1301
+D5
+~
+~
+0 0 1302
+S
+#1301
+`8Noiriz``~
+~
+~
+0 8448 1056 0
+D5
+~
+~
+0 0 1300
+S
+#1302
+`8Krasq``~
+~
+~
+0 8448 1056 0
+D4
+~
+~
+0 0 1300
+S
+#1303
+~
+~
+~
+0 8448 1056 0
+D1
+~
+~
+0 0 1300
+D3
+~
+~
+0 0 1304
+S
+#1304
+~
+~
+~
+0 8448 1056 0
+D1
+~
+~
+0 0 1303
+D3
+~
+~
+0 0 1305
+S
+#1305
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1306
+D1
+~
+~
+0 0 1304
+D2
+~
+~
+0 0 1316
+S
+#1306
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1307
+D2
+~
+~
+0 0 1305
+D3
+~
+~
+0 0 1315
+S
+#1307
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1308
+D2
+~
+~
+0 0 1306
+D3
+~
+~
+0 0 1314
+S
+#1308
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1309
+D2
+~
+~
+0 0 1307
+D3
+~
+~
+0 0 1313
+S
+#1309
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1310
+D2
+~
+~
+0 0 1308
+D3
+~
+~
+0 0 1312
+S
+#1310
+~
+~
+~
+0 8448 1056 0
+D2
+~
+~
+0 0 1309
+D3
+~
+~
+0 0 1311
+S
+#1311
+`&Bracc``~
+~
+~
+0 8448 1056 12
+D1
+~
+~
+0 0 1310
+S
+#1312
+`7Wuzamuli``~
+~
+~
+0 8448 1056 1
+D1
+~
+~
+0 0 1309
+S
+#1313
+`!Tzaelcos``~
+~
+~
+0 8448 1056 11
+D1
+~
+~
+0 0 1308
+S
+#1314
+`!Morgorin``~
+~
+~
+0 8448 1056 11
+D1
+~
+~
+0 0 1307
+S
+#1315
+`1Ixartros``~
+~
+~
+0 8448 17440 13
+D1
+~
+~
+0 0 1306
+S
+#1316
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1305
+D2
+~
+~
+0 0 1317
+D3
+~
+~
+0 0 1325
+S
+#1317
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1316
+D2
+~
+~
+0 0 1318
+D3
+~
+~
+0 0 1324
+S
+#1318
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1317
+D2
+~
+~
+0 0 1319
+D3
+~
+~
+0 0 1323
+S
+#1319
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1318
+D2
+~
+~
+0 0 1320
+D3
+~
+~
+0 0 1322
+S
+#1320
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1319
+D3
+~
+~
+0 0 1321
+S
+#1321
+`1Zarkirond``~
+~
+~
+0 8448 33824 13
+D1
+~
+~
+0 0 1320
+S
+#1322
+`#Ulwarzi``~
+~
+~
+0 8448 1056 10
+D1
+~
+~
+0 0 1319
+S
+#1323
+`!Syithe``~
+~
+~
+0 8448 1056 11
+D1
+~
+~
+0 0 1318
+S
+#1324
+`1Jolma``~
+~
+~
+0 8448 33824 13
+D1
+~
+~
+0 0 1317
+S
+#1325
+`1Imaju``~
+~
+~
+0 8448 33824 13
+D1
+~
+~
+0 0 1316
+S
+#1326
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1327
+D2
+~
+~
+0 0 1300
+S
+#1327
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1330
+D1
+~
+~
+0 0 1328
+D2
+~
+~
+0 0 1326
+D3
+~
+~
+0 0 1332
+S
+#1328
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1329
+D3
+~
+~
+0 0 1327
+S
+#1329
+`4Lojani``~
+~
+~
+0 8448 1056 7
+D2
+~
+~
+0 0 1328
+S
+#1330
+`8Rhuma``~
+~
+~
+0 8448 1056 0
+D2
+~
+~
+0 0 1327
+S
+#1331
+`2Ejamina``~
+~
+~
+0 8448 66592 14
+D2
+~
+~
+0 0 1332
+S
+#1332
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1331
+D1
+~
+~
+0 0 1327
+S
+#1333
+~
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 1300
+D2
+~
+~
+0 0 1334
+S
+#1334
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1333
+D2
+~
+~
+0 0 1335
+D3
+~
+~
+0 0 1345
+S
+#1335
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1334
+D1
+~
+~
+0 0 1344
+D2
+~
+~
+0 0 1336
+S
+#1336
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1335
+D2
+~
+~
+0 0 1337
+D3
+~
+~
+0 0 1343
+S
+#1337
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1336
+D1
+~
+~
+0 0 1342
+D2
+~
+~
+0 0 1338
+S
+#1338
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1337
+D2
+~
+~
+0 0 1339
+D3
+~
+~
+0 0 1341
+S
+#1339
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1338
+D1
+~
+~
+0 0 1340
+S
+#1340
+`^Dabyula``~
+~
+~
+0 8448 1056 6
+D3
+~
+~
+0 0 1339
+S
+#1341
+`3Hoiwinas``~
+~
+~
+0 0 65536 4
+D1
+~
+~
+0 0 1338
+S
+#1342
+`3Sahaeyea``~
+~
+~
+0 8448 9248 5
+D3
+~
+~
+0 0 1337
+S
+#1343
+`$Veshalma``~
+~
+~
+0 8448 1056 15
+D1
+~
+~
+0 0 1336
+S
+#1344
+`6Markul``~
+~
+~
+0 8448 1056 9
+D3
+~
+~
+0 0 1335
+S
+#1345
+`3Pajumet``~
+~
+~
+0 8448 17440 4
+D1
+~
+~
+0 0 1334
+S
+#1346
+~
+~
+~
+0 8448 1056 0
+D1
+~
+~
+0 0 1347
+D3
+~
+~
+0 0 1300
+S
+#1347
+~
+~
+~
+0 8448 1056 0
+D1
+~
+~
+0 0 1348
+D3
+~
+~
+0 0 1346
+S
+#1348
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1349
+D2
+~
+~
+0 0 1359
+D3
+~
+~
+0 0 1347
+S
+#1349
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1350
+D1
+~
+~
+0 0 1358
+D2
+~
+~
+0 0 1348
+S
+#1350
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1351
+D1
+~
+~
+0 0 1357
+D2
+~
+~
+0 0 1349
+S
+#1351
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1352
+D1
+~
+~
+0 0 1356
+D2
+~
+~
+0 0 1350
+S
+#1352
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1353
+D1
+~
+~
+0 0 1355
+D2
+~
+~
+0 0 1351
+S
+#1353
+~
+~
+~
+0 8448 1056 0
+D1
+~
+~
+0 0 1354
+D2
+~
+~
+0 0 1352
+S
+#1354
+`6Amathe``~
+~
+~
+0 8448 1056 9
+D3
+~
+~
+0 0 1353
+S
+#1355
+`7Hall of Beronor``~
+You are in the Hall of Beronor, God of Sun, Sky and Weal.
+ 
+~
+~
+0 8448 1056 1
+D3
+~
+~
+0 0 1352
+S
+#1356
+`6Hall of Felana``~
+You are in the Hall of Felana, Goddess of Air, Clouds and the Wind.
+~
+~
+0 8448 1056 9
+D3
+~
+~
+0 0 1351
+S
+#1357
+`3Hall of Wyihemi``~
+You are in the Hall of Wyihemi, Goddess of Fertility, Birth and the Harvest.
+ 
+~
+~
+0 8448 33824 2
+D3
+~
+~
+0 0 1350
+S
+#1358
+`3The Hall of Arondos``~
+You are in the Hall of Arondos, God of Art, Music and Poetry.
+~
+~
+0 8448 33824 4
+D3
+~
+~
+0 0 1349
+S
+#1359
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1348
+D1
+~
+~
+0 0 1368
+D2
+~
+~
+0 0 1360
+S
+#1360
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1359
+D1
+~
+~
+0 0 1367
+D2
+~
+~
+0 0 1361
+S
+#1361
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1360
+D1
+~
+~
+0 0 1366
+D2
+~
+~
+0 0 1362
+S
+#1362
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1361
+D1
+~
+~
+0 0 1365
+D2
+~
+~
+0 0 1363
+S
+#1363
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1362
+D1
+~
+~
+0 0 1364
+S
+#1364
+`6Tiradel``~
+You are in the Hall of Tiradel the god of Knighthood, Chivalry, Honor.
+~
+~
+0 8448 1056 9
+D3
+~
+~
+0 0 1363
+M 0 H 0
+S
+#1365
+`@Hall of Rasazra``~
+The Hall of Rasazra, Goddess of Purity, Sacrifice and Virtue.
+~
+~
+0 8448 17440 3
+D3
+~
+~
+0 0 1362
+S
+#1366
+`3Hall of Moiwen``~
+You are in the Hall of Moiwen Goddess of Spring and Peace.
+~
+~
+0 8448 66592 2
+D3
+~
+~
+0 0 1361
+S
+#1367
+`3Hall of Madshem``~
+You are in the hall of Madshem, Goddess of Merriment, Friendship and Ale.
+Patron Goddess of the Fey-Gnomes.  
+
+~
+~
+0 8448 9248 5
+D3
+~
+~
+0 0 1360
+S
+#1368
+`3Hall of Dormicc``~
+You are in the Hall of Dormicc, God of Travel, Adventure and Quests.
+~
+~
+0 8448 17440 4
+D3
+~
+~
+0 0 1359
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 1355 1 1355 1
+M 0 1356 1 1356 1
+M 0 1357 1 1357 1
+M 0 1358 1 1358 1
+M 0 1364 1 1364 1
+M 0 1365 1 1365 1
+M 0 1366 1 1366 1
+M 0 1367 1 1367 1
+M 0 1368 1 1368 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

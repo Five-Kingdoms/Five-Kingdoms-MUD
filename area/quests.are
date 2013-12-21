@@ -1,0 +1,4157 @@
+#AREADATA
+Name Quests~
+Pref ~
+Builders Immortals~
+VNUMs 12100 12399
+Max_Bastions 0
+Credits { --- } Quest Subsystem~
+Security 9
+Startroom 0
+Flags 128
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#12399
+guidemob~
+a guidemob~
+A guidemob is here.
+~
+~
+human~
+ACJKe A DF 0 0 0
+0 0 4d6+100 0d0+0 0d0+0 punch
+0 0 0 1
+JZ A 0 0
+stand stand none none~
+7
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 12397 !outfit!~
+P SPEECH 12396 !gold!~
+P RANDOM 12395 25~
+P FIGHT 12394 100~
+P SPEECH 12393 !refresh!~
+P SPEECH 12392 !heal!~
+P SPEECH 12391 !water!~
+P SPEECH 12391 !food!~
+P SPEECH 12390 !heal!~
+#0
+
+
+
+#OBJECTS
+#12101
+shopping scroll~
+a shopping scroll~
+A scroll with a list of items scribed on it lies here.~
+paper~
+trash TY A
+0 0 0 0 0
+1 0 0 P
+E
+shopping~
+Scribed with haste following items are listed.
+ 
+1) a boat               (The Adventurer's Supply)
+2) lamp or light        (The Adventurer's Supply)
+3) a sack or satchel    (The Adventurer's Supply)
+4) a canteen or a jug   (The Adventurer's Supply)
+5) a bit of fresh food  (Bakery or Meatcuttery)
+ 
+Following are hasty directions that describe the location of
+The Adventurer's Supply as being a bit east and then south of
+Central Commons.  The Meatcuttery and Bakery seem to be a bit
+west and north of Central Commons.
+~
+E
+scroll~
+Scribed with haste following items are listed.
+ 
+1) a boat               (The Adventurer's Supply)
+2) lamp or light        (The Adventurer's Supply)
+3) a sack or satchel    (The Adventurer's Supply)
+4) a canteen or a jug   (The Adventurer's Supply)
+5) a bit of fresh food  (Bakery or Meatcuttery)
+ 
+Following are hasty directions that describe the location of
+The Adventurer's Supply as being a bit east and then south of
+Central Commons.  The Meatcuttery and Bakery seem to be a bit
+west and north of Central Commons.
+~
+T
+41 2 5
+The `7Skulls sockets glow `!crimson``.~
+Something gives of a foreboding glow.~
+T
+338 2 5
+The `7Skull writhes and snarls``.~
+Something snarls with anger.~
+#12102
+directions scroll~
+a scroll of directions~
+A scroll with some directions on it.~
+paper~
+trash TY A
+0 0 0 0 0
+1 0 0 P
+E
+scroll~
+On the scroll are following directions:
+ 
+ 
+Ulsym: 
+Walk thrice north from Central Commons (CC) and then twice west and north.
+ 
+ 
+Revelsport: 
+Walk thrice north from North Square and west
+ 
+ 
+Zalango: 
+Walk west twice from Central Commons.  Then twice south and then west.
+ 
+ 
+*A note is scribbled at the bottom:*
+Remember you can recall if you are lost.
+ 
+~
+E
+directions~
+On the scroll are following directions:
+ 
+ 
+Ulsym: 
+Walk thrice north from Central Commons (CC) and then twice west and north.
+ 
+ 
+Revelsport: 
+Walk thrice north from North Square and west
+ 
+ 
+Zalango: 
+Walk west twice from Central Commons.  Then twice south and then west.
+ 
+ 
+ 
+*A note is scribbled at the bottom:*
+Remember you can recall if you are lost.
+~
+T
+41 2 5
+The `7Skulls sockets glow `!crimson``.~
+Something gives of a foreboding glow.~
+T
+338 2 5
+The `7Skull writhes and snarls``.~
+Something snarls with anger.~
+#12103
+pair of glasses~
+a pair of glasses~
+A pair of very thick glasses are here.~
+glass~
+treasure GY A
+0 0 0 0 0
+50 1 100 P
+#12104
+tablet skill pillar passage !12104!~
+tablet of passage~
+A small stone tablet engraved with a image of a giant pillar~
+stone~
+key JT AO
+0 0 0 0 0
+60 0 1 P
+E
+tablet~
+It is a small stone tablet, its edges rounded out by passage to time.
+Upon its surface you see an etched image of a pillar, marked with
+miniscule pictures of skulls and bones.  With a start you notice more
+then few blood stains on its surface.
+~
+#12105
+Xavier's first x1 second scroll~
+Xavier's first scroll~
+A small scroll signed with an inscription X1 is here.~
+parchment~
+trash U A
+0 0 0 0 0
+10 0 0 P
+E
+mission1 scroll x1 xavier's first~
+Mission 1: Destroy the Dark Raiders near Goblin Village
+ 
+  You are to find and eliminate a group of Dark Raiders in Miden'nir.  My
+  contacts report that they've been seen west of the Goblin Village, near an
+  Inn of some kind.  Find them, kill them, and report back.
+ 
+  Path to Miden'nir: From Central Common walk east twice until you come to a
+  clothesline.  Travel south to Eastern Shanty Street, and then west to
+  Southern Common.  From there head south across the Southern Drawbridge and
+  follow the path south into Miden'nir.  
+ 
+The scroll is signed with a large 'X'.
+~
+#12106
+Xavier's scroll x2 second~
+Xavier's second scroll~
+A small scroll signed with an inscription X2 is here.~
+parchment~
+trash U A
+0 0 0 0 0
+10 0 0 P
+E
+xavier's scroll x2 second~
+Mission 2: Destroy the Raider Leader in South Miden'nir
+ 
+  You are to inflitrate and assassinate the Raider Leader in his HQ in 
+  Miden'nir.  My contacts report that he surrounds himself with heavy
+  guard within some sort of cave or tunnel in souther part of the forest.
+ 
+  You might need to gather a group for this task, as the raiders are 
+  fierce and in numbers.
+ 
+  Path to Miden'nir: From Central Common walk south until you come to a
+  clothesline.  Travel south to Eastern Shanty Street, and then west to
+  Southern Common.  From there head south across the Southern Drawbridge and
+  follow the path south into Miden'nir.  
+ 
+The scroll is signed with a large 'X'.
+~
+#12107
+Xavier's third x3 scroll~
+Xavier's third scroll~
+A small scroll signed with an inscription X3 is here.~
+parchment~
+trash U A
+0 0 0 0 0
+10 0 0 P
+E
+Xavier's third x3 third scroll~
+Mission 3: Weaken the Goblin Village defenses.
+ 
+  The idiotic Goblins have grown confident with the raider leader dead.
+  They've been cutting down on their 'protection' payments.  You are to
+  enter their village and take out the goblin scouts, and goblin guards.
+  DO NOT in any way make your association with me known or you will have
+  a Syndicate headhunter upon your head faster then you can say 'bounty'.
+ 
+  From the Central Common, head west until you find yourself beneath the
+  Western Ramparts.  From there, venture south, and then immediately east
+  into Zalango's Stables.  Give Visram 100 gold, and mount your new yak.
+ 
+The scroll is signed with a large 'X'.
+~
+#12108
+Xavier's fourth x4 scroll~
+Xavier's fourth scroll~
+A small scroll signed with an inscription X4 is here.~
+parchment~
+trash U A
+0 0 0 0 0
+10 0 0 P
+E
+Xavier's first x4 fourth scroll~
+Mission 4: Take care of the Goblin Council.
+ 
+  The blasted goblins have gotten a scent of my plan!  They've 
+  refused all payments and have made threats.  See to it that their
+  shaman and chieftain does not make it through this night.  My spies
+  tell me the shaman is paranoid and stays invisible at all times in
+  some cave within the village, so use the magical dust from Elemental
+  canyon I've provided.
+  
+  DON'T FAIL ME.
+ 
+The scroll is signed with a large 'X'.
+~
+#12109
+dust magic !12109!~
+some edible magical dust~
+A pile of magical dust is here.~
+dust~
+pill A A
+50 'detect invis' '' '' ''
+6 10 300 P
+#12110
+scroll directions falen dara !12110!~
+directions to Falen Dara~
+A scroll with directions to Falen Dara.~
+parchment~
+trash U A
+0 0 0 0 0
+10 0 0 P
+E
+scroll directions Falen Dara~
+To travel to Falen Dara you must leave Revelsport through the northern
+gate.  Once in the Darkling Wood, travel to the northern edge of the woods,
+then east until you come to a northern passage.  Take the northern pass
+until you reach the central square, where the fountain lies.  From there
+continue north until a fork in the road, take the west path into the palace.
+From there seek the King.  
+ 
+Good Luck,
+Himmah
+~
+#12111
+dragon dragonslayer slayer edgarweap~
+the `1Dragon Slayer``~
+The `1Dragon Slayer`` rests here in the dust.~
+dragon bone~
+weapon BH AN
+exotic 8 5 pierce D
+30 110 50000 P
+F
+A 19 4 0
+F
+A 18 3 0
+P USE 12104 100~
+#0
+
+
+
+#ROOMS
+#12101
+`8DO NOT USE, for mlist rlist olist only!``~
+-
+~
+~
+0 8192 0 0
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+S
+
+
+
+#SHOPS
+12399 0 5 9 19 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#12101
+if isnpc $n
+  break
+endif
+if isgood $n
+  'Very well, I'm sure you will change your mind later.
+  smile
+  break
+endif
+if isneutral $n
+  'As you wish.  See me again if you change your mind.
+  pmote turns away from $N.
+  break
+endif
+if isevil $n
+  grumble $n
+  'Well what are you looking at you idiot?! Get lost!
+  break
+endif
+~
+#12102
+if isdelay $i
+or isnpc $n
+or level $n < 30
+or hasquest $n 'honed your business skills.'
+  break
+endif
+if hasquest $n 'to visit Sharper for your reward.'
+  pmote takes the bag of gold from $N.
+  pmote grins broadly.
+  say Hah! I knew that sucker would cough up some gold. Heres your cut.
+  say Man this will make me popular with the widows.
+  smile self
+  mob echoat $n `@Congratulations! You have completed you quest!`
+    if level $n < 40
+    and level $n > 30
+      mob echoat $n `@You've gained 5000 gold and a sum of experience!``
+      mob gain exp pc $n 2000 5000
+      mob gain gold pc $n 5000 5000
+    else
+      mob echoat $n `@You've gained 5000 gold!``
+      mob gain gold pc $n 5000 5000
+    endif
+    mob remquest $n to visit Sharper for your reward.
+    mob remquest $n to find the Bow Drawings under Leominter for Sharper.
+    mob permquest $n honed your business skills.
+    break
+endif
+if hasquest $n 'to find the Bow Drawings under Leominter for Sharper.'
+  pmote looks up at $n.
+  if carries $n !32078!
+    say 'You got it $N! Lets have it then!
+    grin
+  endif
+  break
+endif
+mob echoat $n $I says '`#Psst $N! Wanna make some coin?``'
+mob echoat $n $I seems to await a yes or no answer.
+mob tempquest $n to answer yes or no to $I.
+break
+~
+#12103
+if hasquest $n 'to answer yes or no to Sharper.'
+  say There is a legend of a buried city that used to make the greatest of bows $N.'
+  say And I hear someone found this lost place under the Ghost City of Leominter!'
+  say Now heres the rub: No one knows where the drawings for these bows were kept.'
+  say But I heard one guy saying that it was kept in the hero.' 
+  say Find these drawings, and I can get us both a nice sum gold for it.'
+  mob echoat $n `&You have been charged with a quest!``
+  mob remquest $n to answer yes or no to Sharper.
+  mob permquest $n to find the Bow Drawings under Leominter for $I.
+endif
+~
+#12104
+if hasquest $n 'to answer yes or no to Sharper.'
+  mob echoat $n $I says 'Chicken! Get out of here!'
+  mob remquest $n to answer yes or no to Sharper.
+endif
+~
+#12105
+if isdelay $i
+or isnpc $n
+  break
+endif
+'You there! Stop!
+pmote stretches its bloody hand to $N and beckons.
+mob delay 1
+mob attrib $i timer = 0
+~
+#12106
+if isnpc $n
+or hasquest $n 'to destroy the Altar of Sands in Leominter.'
+or hasquest $n '`&Destroyed the Sand Altar of Leominter.``'
+  break
+endif
+mob echoat $n `&You have been charged with a quest!``
+mob permquest $n to destroy the Altar of Sands in Leominter.
+~
+#12107
+'I have been gravely wounded and cannot go on, but Mik must be stopped!
+'He is using the ancient Altar of Sands in Leominter to drive the Sand Golems Mad!
+'Destroy the Altar or it will d...Arrrraagggh....
+mob echo $I drops dead.
+mob pfor room $i call 12106 # null null
+~
+#12108
+if isdelay $i
+or isnpc $n
+  break
+endif
+if hasquest $n 'to find the Bow Drawings under Leominter for Sharper.'
+  say Let me take a good look at this.
+  emote reads the scroll. 
+  say Hmm... I cant make heads or tails of this. But I know who can. 
+  say Take this to the Bowyer in Ulsym. I bet he will pay you and then well both make some gold.
+  mob tempquest $n to take the scroll to Bowyer of Ulsym.
+  give !32078! $n
+  wave $n
+endif
+~
+#12109
+if isdelay $i
+or isnpc $n
+  break
+endif
+if hasquest $n 'to take the scroll to Bowyer of Ulsym.'
+  pmote doesn't take even look up from his work.
+  'What do you want $N? Speak up!
+endif
+~
+#12110
+if isdelay $i
+or isnpc $n
+or hasquest $n 'to answer yes or no to $I.'
+or hasquest $n 'helped Dadlebert the Inventor.'
+break
+endif
+mob delay 1
+pmote looks up at $N
+if hasquest $n 'to get a boat, light, sack, jug and food.'
+  mob call 12115 $n null null
+  break
+endif
+if hasquest $n 'to enter each of the Alchemist Portals.'
+or hasquest $n 'to enter each of the City Gates.'
+  mob call 12116 $n null null
+  break
+endif
+if hasquest $n 'to carry mail to the temples of Ulsym, Revelsport and Zalango.'
+  mob call 12117 $n null null
+  break
+endif
+if hasquest $n 'to find Eddeltris, a town north of Luva.'
+or hasquest $n 'to find Eddeltris, a town north of Luva.'
+  'Good gods, $N! I created you a portal to Eddeltris! Why are you still here?
+  break
+endif
+if hasquest $n 'to help Dadlebert the Inventor of Eddeltris.'
+  mob call 12120 $n null null
+  break
+endif
+if hasquest $n 'Found the six major temples of Mirlan.'
+  'Hey $N! Get your feet over here!
+  'Dadlebert the Inventor asked us to send someone to help him in matters of life and death.
+  'Interested?
+  pmote looks at $N expecting a yes or no answer.
+  mob tempquest $n to answer yes or no to $I.
+  break
+endif
+if hasquest $n 'found the Ulsym, Revelsport, and Zalango Alchemist Portals.'
+or hasquest $n 'found the Ulsym, Revelsport, and Zalango City Gates.'
+  'Aha! My favorite errand boy $N is here.
+  'I need a pair of good legs for a task that has some reward to it. Interested?
+  pmote looks at $N expecting a yes or no answer.
+  mob tempquest $n to answer yes or no to $I.
+  break
+endif
+if hasquest $n 'bought the travel supplies from the list.'
+  'Well seeing as you are here $N, and my usual errand boy is not...
+  'I need a hand with a small task.  Are you up to it?
+  pmote looks at $N expecting a yes or no answer.
+  mob tempquest $n to answer yes or no to $I.
+  break
+endif
+'You come at just the right time $N! I have an errand just for one of your ability.
+'Do you wish to run the errand?
+pmote looks at $N expecting a yes or no answer.
+mob tempquest $n to answer yes or no to $I.
+~
+#12111
+if hasquest $n 'to answer yes or no to $I.'
+  mob remquest $n to answer yes or no to $I.
+  pmote turns towards $N.
+else
+  break
+endif
+if hasquest $n 'found the six major temples of Mirlan.'
+  mob call 12119 $n null null 
+  break
+endif
+if hasquest $n 'found the Ulsym, Revelsport, and Zalango Alchemist Portals.'
+or hasquest $n 'found the Ulsym, Revelsport, and Zalango City Gates.'
+  mob call 12118 $n null null 
+  break
+endif
+if hasquest $n 'bought the travel supplies from the list.'
+  mob call 12113 $n null null 
+  break
+endif
+mob call 12114 $n null null 
+~
+#12112
+if isnpc $n
+  break
+endif
+if hasquest $n 'to answer yes or no to $I.'
+  mob call 12101 $n null null
+  mob remquest $n to answer yes or no to $I.
+  mob delay 1
+endif
+~
+#12113
+'Our guild is about to enter in a lucrative trade pact.
+'I need you to carry a small package into each of the City Gates...
+if isevil $n
+  'and see if it kills you.
+else
+  if isneutral $n
+    'and see if it will melt.
+  else
+    'and see if it will pass unharmed.
+  endif
+endif
+pmote hands $N a coin sized package.
+mob oload 12102 1
+pmote hands $N a scroll with directions and 1500 gold.
+give directions $n
+drop directions
+'Good Luck!
+mob gain gold pc $n 1500 1500
+mob echoat $n ``
+mob echoat $n `&You have been charged with a quest!``
+mob permquest $n to enter each of the City Gates.
+~
+#12114
+'I have a few items required by another errand boy, I need you to buy them.
+'Here is the list of items needed, return to me when you have all of them.
+mob oload 12101 1
+pmote hands $N a scroll with a shopping list and 2000 gold.
+give scroll $n
+drop scroll
+mob gain gold pc $n 2000 2000
+mob echoat $n ``
+mob echoat $n `&You have been charged with a quest!``
+mob permquest $n to get a boat, light, sack, jug and food.
+~
+#12115
+pmote looks at $N searching for items from the shopping list.
+if has $n boat
+  if has $n light
+    if has $n container
+      if has $n drink
+        if has $n food
+          'Excellent, you have exactly what I need.  Too bad the runner has already been sent.
+          pmote grumbles and motions for you to keep the items.
+         'Perhaps come back in a while, I might have some other things for your to do.
+          mob echoat $n ``
+          mob echoat $n `@Congratulations, you filled the shopping list!``
+          mob remquest $n to get a boat, light, sack, jug and food.
+          mob permquest $n bought the travel supplies from the list.
+          mob delay 1
+          break
+        else
+          'You are missing food from the list $N.
+        endif
+      else
+        'You are missing a jug from the list $N.
+     endif
+   else
+      'You are missing a sack from the list $N.
+    endif
+  else
+    'You are missing a light from the list $N.
+  endif
+else
+    'You are missing a boat from the list $N.
+endif
+~
+#12116
+if hasquest $n 'found the Ulsym to Revelsport Gate.'
+  if hasquest $n 'found the Revelsport to Zalango Gate.'
+    if hasquest $n 'found the Zalango to Ulsym Gate.'
+       'Well done $N...
+       if isevil $n
+         'and I see you are alive, pity...
+       else
+         if isneutral $n
+          'and just in time to received the reward!
+         else
+           'well done indeed!
+         endif
+       endif
+      'Well here is the reward.  Comeback later if you wish to stretch your legs more.
+      mob delay 1
+      mob echoat $n $I hands you a sack of 1000 gold and shares some experiences!
+      mob echoaround $n $I hands $N a sack of 1000 gold and shares some experiences!
+      mob echoat $n ``
+      mob echoat $n `@Congratulations, you've found the three City Gates!``
+      mob gain exp pc $n 800  900
+      mob gain gold pc $n 1000 1000
+      mob remquest $n to enter each of the City Gates.
+      mob remquest $n to enter each of the Alchemist Portals.
+      mob permquest $n found the Ulsym, Revelsport, and Zalango City Gates.
+      mob remquest $n found the Ulsym to Revelsport Gate.
+      mob remquest $n found the Revelsport to Zalango Gate.
+      mob remquest $n found the Zalango to Ulsym Gate.
+    else
+      '$N, Why have you not found the Zalango Gate yet?
+    endif
+  else
+    '$N, Why have you not found the Revelsport Gate yet?
+  endif
+else
+'$N, Why have you not found the Ulsym Gate yet?
+endif
+~
+#12117
+if hasquest $n 'delivered mail to Temple of Calamity.'
+and hasquest $n 'delivered mail to Temple of Atonment.'
+and hasquest $n 'delivered mail to Temple of Abstraction.'
+and hasquest $n 'delivered mail to Temple of Light.'
+and hasquest $n 'delivered mail to Temple of Neutrality.'
+and hasquest $n 'delivered mail to Altar of Sirens.'
+  'Well done, the temples have already begun sending the replies.
+  'Well the reward is in order, there you go.
+  mob delay 1
+  mob echoat $n $I hands you a sack of 5000 gold and shares some of experiences!
+  mob echoaround $n $I hands $N a large sack of gold and shares some experiences!
+  mob echoat $n ``
+  mob echoat $n `@Congratulations, you've found all the major temples!``
+  mob echoat $n `@You gain 5000 gold and 1500 experience!``
+  mob gain exp pc $n 1500 1600
+  mob gain gold pc $n 5000 5100
+  mob permquest $n found the six major temples of Mirlan.
+  mob remquest $n to carry mail to the temples of Ulsym, Revelsport and Zalango.
+  mob remquest $n delivered mail to Temple of Calamity.
+  mob remquest $n delivered mail to Temple of Atonment.
+  mob remquest $n delivered mail to Temple of Abstraction.
+  mob remquest $n delivered mail to Temple of Light.
+  mob remquest $n delivered mail to Temple of Neutrality.
+  mob remquest $n delivered mail to Altar of Sirens.
+else
+  '$N, not all six temples have responded. Are you sure you delivered the scrolls?
+endif
+~
+#12118
+'I have a vital message to be delivered to each of the major temples
+'of Ulsym, Revelsport and Zalango.  
+if isevil $n
+  pmote hands $N a set of black scrolls and a sack of coin.
+else
+  if isneutral $n
+    pmote hands $N a set of rolled scrolls and a sack of coin.
+  else
+    pmote hands $N a set of ivory white scrolls a sack of coin.
+  endif
+endif
+pmote turns away from $N.
+'Get that mail to them as soon as possbile $N!
+mob gain gold pc $n 1000 1000
+mob echoat $n ``
+mob echoat $n `&You have been charged with a quest!``
+mob permquest $n to carry mail to the temples of Ulsym, Revelsport and Zalango.
+~
+#12119
+if isevil $n
+  'We've been using Dadlebert for his devices and wealth for years...
+else
+  if isneutral $n
+  'Dadlebert has been a long standing contributor to our guild...
+  else
+  'Juding by the writing poor Dadlebert is most distressed...
+  endif
+endif
+'and he writes that it is a matter of life in death.  I need you to help him out.
+'He resides in the Eddeltris a small town directly north of Luva. Travel there
+'post haste and report when the situation has been resolved.
+'I will open this portal, which will drop you off nearby... 
+mob tell $n Type ENTER PORTAL to pass through!
+'Make haste, though, $n, for I do not know how long the portal will remain...
+mob echoat $n ``
+mob echoat $n `&You have been charged with a quest!``
+mob permquest $n to find Eddeltris, a town south of Ulsym.
+mob permquest $n to help Dadlebert the Inventor of Eddeltris.
+if mobhere 60
+    break
+else
+    mob cast 'portal' !crone!
+endif
+~
+#12120
+if hasquest $n 'found glasses for Dadlebert the Inventor.'
+  'Well done, the news of your deeds has reached us already.
+  'Well the reward is in order, there you go.
+  mob delay 1
+  mob echoat $n $I hands you a sack of gold.
+  mob echoaround $n $I hands $N a large sack of gold.
+  mob echoat $n ``
+  mob echoat $n `@Congratulations, you've helped Dadlebert the Inventor!``
+  mob echoat $n `@You gain 2000 gold and 1000 experience!``
+  mob gain exp pc $n 1000 1000
+  mob gain gold pc $n 2000 2100
+  mob permquest $n helped Dadlebert the Inventor.
+  mob remquest $n to find Eddeltris, a town north of Luva.
+  mob remquest $n to find Eddeltris, a town north of Luva.``'
+  mob remquest $n to help Dadlebert the Inventor of Eddeltris.
+  mob remquest $n found glasses for Dadlebert the Inventor.
+  'If you seek more work $N, I suggest you inquire with Tamara the Bartender.
+  'She can be usualy found in the Red Dragon Inn of Ulsym.
+  mob permquest $n to seek out Tamara of Red Dragon Inn in Ulsym.
+endif
+~
+#12121
+if isdelay $i
+  break
+endif
+if isnpc $n
+  break
+endif
+if hasquest $n 'to find glasses lost by Dadlebert.'
+  'Do you have my glasses?
+  pmote begins to walk towards $N but slams right into an anvil!
+  'I can't see a damn thing, hand them to me if you do.
+  break
+endif
+if hasquest $n 'to help Dadlebert the Inventor of Eddeltris.'
+  if hasquest $n 'found glasses for Dadlebert the Inventor.'
+  or hasquest $n 'helped Dadlebert the Inventor.'
+    'Shouldn't you be going to your guild soon?
+    'I'm sure your guild master is anxious to hear of your success..
+    break
+  endif
+  'eh?! Whois there?
+   pmote quickly walks up to $N squinting his eyes.
+  'Oh yes, you are the help! And just in time for this is matter of life and death!
+  'I lost my glasses you see, and without them I cannot test my Transpectrogrampher!
+  'For two days the GREATEST invention of Mirlan has been sitting untested.
+  'Find the glasses for without them I am hopeless.  I lost them nearby somewhere..
+   pmote scratches his nose as he waits for $N to begin your search.
+   mob tempquest $n to find glasses lost by Dadlebert.
+   mob at 4150 mob purge glasses
+   mob at 4150 mob oload 4160 1 R
+  break
+endif
+if hasquest $n  'become friends with Dadlebert the Inventor.'
+  'Have you come to witness the power of the Transpectrogrampher?
+  'If so, just give me the item in question and I'll handle it.
+  pmote walks over to the Transpectrogrampher.
+  break
+endif
+~
+#12122
+if isdelay $i
+or players < 1
+  break
+endif
+mob remember $r
+mob call 12121 $q null null
+~
+#12123
+if vnum $o == 4160
+  if hasquest $n 'found glasses for Dadlebert the Inventor.'
+  or hasquest $n 'helped Dadlebert the Inventor.'
+    'nah, these are not mine, for I already have a pair.
+    give $o $n
+    break
+  endif
+  pmote puts $O on.
+  'Aha! No.. hang on.. the focus is a bit off.
+  pmote tinkers with the glasses a bit.
+  'There! Many thanks $N, now if you could stand back...
+  'I am about to unleash the pinnacle of Gnome Engineering unto Mirlan!
+  pmote runs over to a strange machine in the corner and begins to turn various knobs.
+  mob echo Moments later he begins to read off various measurements.
+  mob echo ``
+  identify $o
+  mob pfor group $n call 12124 # null null
+  'It WORKS! It really does! I am a genius!
+  'Well listen, anytime you need me to use the Transpectrogrampher on anything
+  'just hand it to me.
+  smile
+else
+  if hasquest $n 'to find glasses lost by Dadlebert.' 
+    pmote tries to put $O on.
+    'Hey those aren't my glasses, dammit!
+    pmote throws $O at you!
+    mob otrans $o $n
+  else
+    if hasquest $n 'Become friends with Dadlebert the Inventor.'
+    if isdelay $i
+      'Sorry, but the Transpectrogrampher is still charging.
+      pmote gives $N $O.
+      mob otrans $o $n
+    else
+      pmote runs over to the Transpectrogrampher.
+      pmote grins with passion as he works the levers, dials and knobs!
+      mob echo Moments later he begins to read off various measurements.
+      mob echo ``
+      identify $o
+      pmote gives $N $O.
+      mob otrans $o $n
+      grin
+      mob delay 6
+    endif
+   else
+     'Why should I help you?! You're not my friend.
+      pmote gives $N $O.
+      mob otrans $o $n
+   endif
+  endif
+endif
+~
+#12124
+mob remquest $n to find glasses lost by Dadlebert.
+if hasquest $n 'to help Dadlebert the Inventor of Eddeltris.'
+  mob echoat $n ``
+  mob echoat $n `@Congratulations! You have helped Dadlebert the Inventor.``
+  mob echoat $n You should return to your guildmaster and tell him of what happend.
+  mob tempquest $n found glasses for Dadlebert the Inventor.
+  mob permquest $n become friends with Dadlebert the Inventor.
+endif
+~
+#12125
+if hasquest $n 'become friends with Dadlebert the Inventor.'
+  'Arrgghh you traitor....
+  mob remquest $n become friends with Dadlebert the Inventor.
+endif
+~
+#12126
+if isnpc $n
+  break
+endif
+if hasquest $n 'to buy a fair weapon at the Ulsym Weaponsmith.'
+or hasquest $n 'to buy a fair weapon at the Ulsym Weaponsmith.``'
+or hasquest $n 'to return to Tamara with the Sparkling Vial.'
+or hasquest $n 'to return to Tamara with the Sparkling Vial.``'
+or hasquest $n 'to return to Tamara with the Red Potion.'
+or hasquest $n 'to get a red potion from Lerant the Ranger.'
+or hasquest $n 'to ask Lerant the Ranger about vials.'
+or hasquest $n 'to get the gold from Mulao of Ulsym.'
+or hasquest $n 'to defend the tavern against Ohram the Brute.'
+  'Didn't I give ye a task already? 
+  break
+endif
+if level $n < 5
+  'Oh look here, babyfaced $N be wantin' a job! Change yer diapers first childe!
+  mob echo The bar errupts with laughter.
+  break
+endif
+pmote gives $N a passing glance.
+if hasquest $n 'Given Tamara the gold owned by Mulao.'
+  mob call 12157 $n null null
+  break
+endif
+if hasquest $n 'defended the Red Dragon Inn from Ohram the Brute.'
+or hasquest $n 'failed to defend Red Dragon Inn.'
+  mob call 12143 $n null null
+  break
+endif
+if hasquest $n 'gotten the sparkling vial for Tamara.'
+  mob call 12137 $n null null
+  break
+endif
+if hasquest $n 'gotten the red potion for Tamara.'
+  mob call 12134 $n null null
+  break
+endif
+if hasquest $n 'to seek out Tamara of Red Dragon Inn in Ulsym.'
+  mob call 12127 $n null null
+  break
+endif
+'Speak up there $N, I don't have time to be straining my ears!
+'No, no work yet, come back 'morrow.
+~
+#12127
+'Work?! Nah, sorry. None today.
+~
+#12128
+'Bloody weather.
+~
+#12129
+if isdelay $i
+or isnpc $n
+or hasquest $n 'been told that Himmah of Revelsport might have more work.'
+or hasquest $n 'been told that Xavier of Zalango might have more work.'
+  break
+endif
+pmote gives $N a passing glance.
+mob delay 1
+if hasquest $n 'given Tamara the gold owned by Mulao.'
+  mob call 12157 $n null null
+  break
+endif
+if hasquest $n 'to get the gold from Mulao of Ulsym.'
+  mob call 12144 $n null null
+  break
+endif
+if hasquest $n 'defended the Red Dragon Inn from Ohram the Brute.'
+  mob call 12143 $n null null
+  break
+endif
+if hasquest $n 'to defend the tavern against Ohram the Brute.'
+  mob echo $I yells `6I tell ye to guard me Inn and ye LEAVE!``
+  mob echo $I yells `6What sort of IDIOT are ye?``
+  'Get ye out $N and don't even shaw ye face here for few days!
+  pmote turns away from $N.
+  mob remquest $n to defend the tavern against Ohram the Brute.
+  mob permquest $n failed to defend Red Dragon Inn.
+  mob echoat $n ``
+  mob echoat $n `@You failed to defend Red Dragon Inn.``
+endif
+if hasquest $n 'to buy a fair weapon at the Ulsym Weaponsmith.'
+or hasquest $n 'to buy a fair weapon at the Ulsym Weaponsmith.``'
+  mob call 12138 $n null null
+  break
+endif
+if hasquest $n 'to return to Tamara with the Sparkling Vial.'
+or hasquest $n 'to return to Tamara with the Sparkling Vial.``'
+  mob call 12136 $n null null
+  break
+endif
+if hasquest $n 'to return to Tamara with the Red Potion.'
+  mob call 12133 $n null null
+  break
+endif
+~
+#12130
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'to obtain a wolfsbane potion from Saihwar.'
+  if carries $n 8926
+    pmote takes the wolfsbane potion from you and swirls it infront of his face.
+    'Aye, a wolfsbane potion all right.  Most useful in curing various types of blindness.
+    if level $n < 20
+      'My red potions are far better, but you cannot buy them yet $N.
+    else
+      'Alas my red potions tend to be far more superior.
+    endif
+    ponder
+    'Well I managed to catchup with the orders, so keep that wolfsbane for yourself.
+    'And here is the red potion for Tamara, you best carry it to her quickly.
+    pmote hands you a huge red potion.
+    tip $n
+    mob remquest $n to obtain a wolfsbane potion from Saihwar.
+    mob remquest $n to get a red potion from Lerant the Ranger.
+    mob permquest $n to return to Tamara with the Red Potion.
+    mob echoat $n ``
+    mob echoat $n `@You have obtained the Red Potion!``
+  else
+    'Remember $N, a wolfsbane potion from Saihwar the Druid.  No wolfsbane, no deal.
+  endif
+  mob delay 1
+  break
+endif
+if hasquest $n 'to get a red potion from Lerant the Ranger.'
+  mob force $n 'Hail there $I.  Tamara sent me to pickup a red potion for her.
+  'Ah yes, she did mention the need for one recently.
+  snap
+  'I'm currently all backed up with orders for Healers of Revelsport but tell you what..
+  'If you bring me a replacement in form of a wolfsbane Potion from the druid Saihwar,
+  'I will give you one of the potions I already have.
+  mob echoat $n ``
+  mob echoat $n `&You have been charged with a quest!``
+  mob tempquest $n to obtain a wolfsbane potion from Saihwar.
+  mob delay 1
+endif
+~
+#12131
+if isnpc $n
+break
+endif
+'Druid? The only druid I know of is Saihwar.
+'He can usualy be found walking about the plains.
+~
+#12132
+if hasquest $n 'to obtain a wolfsbane potion from Saihwar.'
+  if vnum $o == 314
+    pmote swirls the potion infront of his face.
+    'Aye, a wolfsbane potion all right.  Most useful in curing various types of blindness.
+    if level $n < 20
+      'My red potions are far better, but you cannot buy them yet $N.
+    else
+      'Alas my red potions tend to be far more superior.
+    endif
+    ponder
+    'Well I managed to catchup with the orders, so keep that wolfsbane for yourself.
+    give 1. $n
+    drop 1.
+    'And here is the red potion for Tamara.
+    pmote hands you a huge red potion.
+    mob remquest $n 'to obtain a wolfsbane potion from Saihwar.'
+    mob remquest $n 'to get a red potion from Lerant the Ranger.'
+    mob permquest $n 'to return to Tamara with the Red Potion.'
+    mob echoat $n ``
+    mob echoat $n `@You have obtained the Red Potion!``
+  else
+    pmote holds $O infront of him.
+    'And that is supposed to be a wolfsbane potion?!
+    snort
+    give 1. $n
+    drop 1.
+  endif
+  break
+else
+  'What would I need this for?
+  give 1. $n
+  drop 1.
+endif
+~
+#12133
+'$N git yer ass over here!  I need that potion rightly quick!
+pmote grabs the red potion glaring at $N.
+'Good werk, here ye take them gold pieces and git lost for now.
+'Comeback 'morrow and ask for werk if you want..
+pmote hands $N a small sack of gold.
+mob echoat $n ``
+mob echoat $n `@Congratulations, you've obtained the red potion!``
+mob remquest $n to return to Tamara with the Red Potion.
+mob permquest $n gotten the red potion for Tamara.
+mob gain gold pc $n 500 2000
+mob gain exp pc $n 2000 2400
+mob delay 1
+~
+#12134
+'Work?! Ye I got some odd werk to do.
+pmote gestures at a beatup man at the door.
+'I'm having problems with one of me patrons. A giant brute of an 
+'ogre he is, and damb beast keeps beating me bouncers to pulp.
+'So... I need ye to fetch me one of them vials of Sanctuary so we
+'kin deal with the ogre proper.
+'Get ye moving back to Lerant $N, and ask him of "vials" he will lead ya from there.
+nod $n
+mob permquest $n to ask Lerant the Ranger about vials.
+mob echoat $n ``
+mob echoat $n `&You have been charged with a quest!``
+~
+#12135
+if isnpc $n
+  break
+endif
+if hasquest $n 'to ask Lerant the Ranger about vials.'
+  if hasquest $n 'to look for a vial in a hole west of Lerant.'
+   pmote casts a dark glance at $N.
+   tell $n I TOLD you.  The hole west of here.
+   break
+  endif
+  'Is Tamara in trouble again?
+  pmote walks up to $N and begins to whisper.
+  tell $n All right, don't tell anyone...
+  tell $n The drow scouts west of here have a small hideout.
+  tell $n Walk west of here, and when you see a small hole open it and look for a chest within.
+  tell $n You will find the vial there.  Use it wisely for it will greatly protect you in combat!
+  'Good luck $n..
+  mob tempquest $n to look for a vial in a hole west of Lerant.
+else
+  'Vials? Oh you mean one of my red potions? "Browse" them if you wish.
+  smile $n
+endif
+~
+#12136
+mob echoat $n ``
+mob echoat $n As you enter a Cleric of Morgorin passes you by, followed by servants carrying a coffin.
+mob echoat $n ``
+pmote looks up and drags $N by the arm towards the bar whispering.
+tell $n Ye mindless idiot, ye took too long! Now poor Frakn is dead.
+tell $n The way I be seeing it, I'm short a bouncer and ye be the cause of it.
+mob echoat $N $I begins to speak in loud voice again.
+'So $N, if ye want ye reward ye better show up 'morrow and ask fer work as a bouncer.
+'Now git ye lost!
+mob echoat $n ``
+mob echoat $n `@Congratulations, you've obtained the vial of sanctuary!``
+mob remquest $n to return to Tamara with the Sparkling Vial.
+mob remquest $n to return to Tamara with the Sparkling Vial.``
+mob permquest $n gotten the sparkling vial for Tamara.
+mob delay 1
+~
+#12137
+'All right $N, glad ye showed up. Now since the bar be gettin' rougher an rougher..
+'especialy with that damb brute of an ogre, ye be needin' some weapon.
+pmote looks $N over.
+if uses $n weapon
+  ponder
+else
+  'Don't ye even have a weapon ye damn sod?
+endif
+'It be clear ye need some better weapon $N. Git ye ass to the market and buy somethin'.
+'If it not be too costly, I'll reimburse ya.
+pmote turns away to a new customer.
+mob permquest $n to buy a fair weapon at the Ulsym Weaponsmith.
+mob echoat $n ``
+mob echoat $n `&You have been charged with a quest!``
+~
+#12138
+if uses $n weapon
+or race $n illithid
+  'I see ye got some kind of weapon on ye, hopefully it will be enough.
+else
+  mob echo $I yells `6Don't ye come back $N untill ye have a weapon to work with ye dolt!``
+  break
+endif
+pmote hands you a sack of gold.
+'Here be the coin for the weapon if ye bough eny.
+mob remquest $n to buy a fair weapon at the Ulsym Weaponsmith.
+mob remquest $n to buy a fair weapon at the Ulsym Weaponsmith.``
+mob permquest $n to defend the tavern against Ohram the Brute.
+'All right ye, now stand over there, and if that brute ogre Ohram shows up, ye show him out.
+mob gain gold pc $n 500 2000
+mob echoat $n ``
+mob echoat $n `&You have been charged with a quest!``
+~
+#12139
+if getdelay > 1
+or isnpc $n
+  break
+endif
+if hasquest $n 'to defend the tavern against Ohram the Brute.'
+  'Aoh loOooOokieh hehRE, ao nEw bOouhhnzjer with aa pReaotty Fahhceh..  
+  'Ii bettehR fix that righht kuuicjk!'
+  mob delay 12
+  mob attrib $i timer = 10
+  murder $n
+endif
+~
+#12140
+if getdelay == 1
+  mob pfor room $i call 12139 # null null
+  if iscombat $i
+    cackle
+  else
+    pmote looks for a new bouncer and finding none leaves.
+    mob goto 1
+    mob attrib $i timer = 1
+  endif
+  break
+endif
+mob delay 2
+~
+#12141
+if isnpc $n
+  break
+endif
+if hasquest $n 'to defend the tavern against Ohram the Brute.'
+  mob echoat $n ``
+  mob echoat $n `@Congratulations! You've defended the Tavern and gained some experience!``
+  mob gain exp pc $n 3000 3000
+  mob remquest $n to defend the tavern against Ohram the Brute.
+  mob permquest $n defended the Red Dragon Inn from Ohram the Brute.
+endif
+~
+#12142
+mob pfor room $i call 12141 # null null
+~
+#12143
+if hasquest $n 'failed to defend Red Dragon Inn.'
+  'Ye idiot! Ye could not even best a half drunk ogre!
+  'Now listen quick here before I have ye thrown out:
+  'There be a man about Ulsym of name Mulao.  He be owin me 1000 coins.
+  'Ye git that gold, else I make sure ye hide is bruised well enough.
+  'Now git out!
+else
+  'Ha! That will show that dumb bastard!
+  'Ya gave him a fine whippin $N.
+  smile $n
+  'Here be ya reward, now listen fer I have something ye can do fer me.
+  pmote hands $N a sack of hold.
+  mob echoat $n ``
+  mob echoat $n `@Congratulations! You've gained gold and one practice session!``
+  mob echoat $n ``
+  mob gain gold pc $n 500 2000
+  mob gain prac pc $n 1 1
+  'There be a man about Ulsym of name Mulao.  He be owin me 1000 coins.
+  'Since ye have a bit of reputation now, I need ya to get that coin out of him.
+endif
+pmote nods at $N and turns away.
+mob permquest $n to get the gold from Mulao of Ulsym.
+mob echoat $n ``
+mob echoat $n `&You have been charged with a quest!``
+~
+#12144
+'If ye get that gold from Mulao, just hand it te me.
+'If not, get yer ugly face out there and get it.
+pmote taps her foot as she waits for $N to make a decision.
+~
+#12145
+if hasquest $n 'to get the gold from Mulao of Ulsym.'
+  'He be owin 1000 gold ye twerp!
+  give 1.gold $n
+else
+  'What ye think I'm a whore?!
+  'Get this shite out of me face!
+  give 1.gold $n
+endif
+~
+#12146
+if hasquest $n 'to get the gold from Mulao of Ulsym.'
+  'Aha! Good stuff $N, I knew ye could do it.
+  pmote pockets the money.
+  'I have little werk left for ye to do, but I'll ask about so comeback 'morrow.
+  mob permquest $n given Tamara the gold owned by Mulao.
+  mob remquest $n to get the gold from Mulao of Ulsym.
+  mob echoat $n ``
+  mob echoat $n `@Congratulations! You've repaid Mulao's debt!``
+else
+  'What ye think I'm a whore?!
+  'Get this shite out of me face!
+  give 1.gold $n
+endif
+~
+#12147
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'to get the gold from Mulao of Ulsym.'
+  if hasquest $n 'been given the stone of recall by Mulao.'
+    'I've given ye the stone. Now get lost before I yell for Justice.
+    break
+  endif
+  pmote cowers as he hears $N speak.
+  'Oh mighty Sire.. I be only an unfortunate soul.
+  if isevil $n
+    'Please don't kill me....
+    defecate
+  endif
+ 
+ if isgood $n
+    'Please take pity and mercy on a poor man.
+  endif
+  if isneutral $n
+    'Please do not hurt me.
+  endif
+  'I've tried really hard to win some money to pay Tamara back.
+  'But all I got is this stone.
+  mob oload 11401
+  give 1. $n
+  drop 1. $n
+  'Its worth far more then mere 1000 gold so take it and spare me...
+  pmote runs away from $N!
+  mob echoat $n         
+  mob echoat $n Congratulations! You've talked to $I about his debt.
+  mob echoat $n         
+  mob permquest $n been given the stone of recall by Mulao.
+  mob delay 1
+  mob attrib $i timer  = 1
+  mob goto 2
+else
+   mob delay 1
+  'I don't know what you are talking about $N. Get lost before I call the Guards!
+endif
+~
+#12148
+'Heh, ye vbe looaokinNng BeaTuhHp EhnnaoUhgh, ii BEh hErEh toomorrOow tO fFix yEh UhP moRe..
+pmote swaggers out.
+mob attrib $i timer = 1
+mob goto 1
+~
+#12149
+if isdelay $i
+or isnpc $n
+or hasquest $n 'obtained the Bone Bow of Anduin.'
+  break
+endif
+if hasquest $n 'to take the scroll to Bowyer of Ulsym.'
+  if carries $n !32078!
+    pmote wipes his hands off and takes the scroll from your hands and begins to read.
+    mob destroy obj $n !32078! 1
+    say Where did you...? This is.... I never even thought of that! 
+    curse
+    say Take this bag of gold to the Sharper, he deserves it.
+    say But come back and I will have some work for you to do. 
+    mob remquest $n to take the scroll to Bowyer of Ulsym.
+    mob remquest $n to find the Bow Drawings under Leominter for Sharper.
+    mob permquest $n to visit Sharper for your reward.
+  else
+    say Scroll? What scroll? You don't have it! Get the Hell out of here!
+    spit
+  endif
+endif
+~
+#12150
+if isnpc $n
+or hasquest $n 'to find Josh in the sewers of Revelsport.'
+  break
+endif
+'$N, so you are you the one Tamara told me about?!
+pmote gives $n a once over.
+'All right then.  You've come just in time.  
+'A friend of mine, Josh is missing and  was last seen two 
+'nights ago heading into the sewers of Revelsport for some
+'stupid reason, and no one seen him hence.
+'I need you to bring him back dead or alive..
+sigh
+'The sewer entrance is below Southern Square, now go and do not waste time.
+mob permquest $n to find Josh in the sewers of Revelsport.
+mob echoat $n ``
+mob echoat $n `&You have been charged with a quest!``
+if grpsize $n < 2
+   mob echoat $n ``
+  'Hey, $N! Wait a moment.  The sewers are a dangerous place.
+  'You sure you can make it alone?  Maybe you should get some group mates?
+endif
+~
+#12151
+if isdelay $i
+or isnpc $n
+or hasquest $n 'to answer the Bowyer yes or no.'
+or hasquest $n 'obtained the Bone Bow of Anduin.'
+or hasquest $n 'refused to work for Ulsym Bowyer.'
+  break
+endif
+if hasquest $n 'to find bow parts for the Bowyer of Ulsym.'
+  pmote looks up.
+  if carries $n 32050
+    if carries $n 32077
+      say Excellent! You have both the bone and the guts!
+      pmote takes the items from $N and heads for the workshop.
+      pmote returns sometime later a beautiful bone bow in hand.
+      say There were enough of the bone and the guts to make a pair, its only fair you keep one.
+      smile
+      say By the way, I sent a copy of the scroll to the Fletcher, and he wants to talk to you.
+      tip $n
+      mob remquest $n find bow parts for the Bowyer of Ulsym.
+      mob destroy ch $n 32077 1
+      mob destroy ch $n 32050 1
+      mob oload 32079
+      mob oload 32079
+      give 'bone bow' $n
+      mob echoat $n `@Congratulations! You've obtained the Bone Bow of Anduin!``
+      mob remquest $n to find bow parts for the Bowyer of Ulsym.
+      mob permquest $n obtained the Bone Bow of Anduin.
+      mob tempquest $n to speak to the Ulsym Fletcher.
+      mob delay 1
+    else
+      say Hmm, seems you have the bone, $N but not the guts.
+      break
+    endif
+  else
+    if carries $n 32077
+      say You seem to have the guts all right, but you are missing the bone $N.
+    else
+      say Didn't I send you off to get something for me $N?
+    endif
+  endif
+  break
+endif
+if hasquest $n 'honed your business skills.'
+  say Ah there you are $n.  Ready to get to work?
+  mob tempquest $n to answer the Bowyer yes or no.
+  break
+endif
+~
+#12152
+if hasquest $n 'to answer the Bowyer yes or no.'
+  say Hmm, very well then.  I didn't need your help anyway.
+  grumble
+  remquest $n to answer the Bowyer yes or no.
+  mob tempquest $n refused to work for Ulsym Bowyer.
+endif
+~
+#12153
+if isnpc $n
+or isdelay $i
+or hasquest $n 'obtained the Bone Bow of Anduin.'
+  break
+endif
+if hasquest $n 'to answer the Bowyer yes or no.'
+  nod
+  say After studying the scroll, I now know that I dont have the supplies to make the bow.
+  say I need you to go back to where you found this scroll and hunt around a bit. 
+  say I need a long piece of bone that has been exposed to lots of magic and I need the guts 
+  say of a creature that that is not just one creature. Good luck and hurry back!
+  mob echoat $n `&You have been given a quest!``
+  mob remquest $n to answer the Bowyer yes or no.
+  mob tempquest $n to find bow parts for the Bowyer of Ulsym.
+endif
+~
+#12154
+if isdelay $i
+or isnpc $n
+or hasquest $n 'to answer the Fletcher yes or no.'
+or hasquest $n 'obtained the Bone Bow and Arrows of Anduin.'
+or hasquest $n 'refused to work for Ulsym Fletcher.'
+  break
+endif
+if hasquest $n 'to find a pile of enchanted bones for the Fletcher.'
+  if carries $n 32080
+    pmote looks up at $N.
+    'AHA! You got it!
+    mob echoat $n $I quickly snatches the bones from your hands and begins to work.
+    mob echoaround $n $I quickly snatches the bones from $N's hands and begins to work.
+    mob echo Curses and bone shavings fill the room untill suddenly..
+    grin
+    'All done! Here take these for your trouble, and thank you.
+    mob echoat $n `@Congratulations! You have obtained the Anduin arrows!``
+    mob oload 32081
+    mob oload 32081
+    give !anduin! $n
+    give !anduin! $n
+    mob oload 32082
+    mob oload 32082
+    give !anduin! $n
+    give !anduin! $n
+    mob oload 32083
+    mob oload 32083
+    give !anduin! $n
+    give !anduin! $n
+    mob oload 32084
+    mob oload 32084
+    give !anduin! $n
+    give !anduin! $n
+    mob oload 32085
+    mob oload 32085
+    give !anduin! $n
+    give !anduin! $n
+    mob destroy ch $n 32080 1
+    mob remquest $n obtained the Bone Bow of Anduin.
+    mob permquest $n obtained the Bone Bow and Arrows of Anduin.
+    mob delay 1
+    break
+  else
+    'Didn't I send you away for some enchanted bones $N?
+    'THEN WHY ARE YOU STILL HERE?!!
+     mob delay 1
+  endif
+  break
+endif
+if hasquest $n 'to speak to the Ulsym Fletcher.'
+or hasquest $n 'obtained the Bone Bow of Anduin.'
+  say Howdy! You must be the one who helped the Bowyer out. Well, I need your help, too!   
+  say Are you up for it $N??
+  mob tempquest $n to answer the Fletcher yes or no.
+  break
+endif
+~
+#12155
+if isdelay $i
+or isnpc $n
+  break
+endif
+clap
+if hasquest $n 'to answer the Fletcher yes or no.'
+  say Hot damn! Heres the deal! I need bones... big piles of bones. 
+  say BUT they have to have been enchanted. If not, they wont do. 
+  say Hurry back with that stuff and Ill make it worth your while!
+  mob remquest $n to answer the Fletcher yes or no.
+  mob tempquest $n to find a pile of enchanted bones for the Fletcher.
+endif
+~
+#12156
+if isdelay $i
+or isnpc $n
+  break
+endif
+if hasquest $n 'to answer the Fletcher yes or no.'
+  'Aw shucks.
+  sigh
+  mob remquest $n to answer the Fletcher yes or no.
+  mob tempquest $n refused to work for Ulsym Fletcher.
+endif
+~
+#12157
+if hasquest $n 'been told that Himmah of Revelsport might have more work.'
+or hasquest $n 'been told that Xavier of Zalango might have more work.'
+  break
+endif
+if isgood $n
+  'I have no more werk for you there $N, but I have them contacts..
+  'And I hear Himmah the Trainer of Revelsport has some troubles.
+  'Perhaps ye should travel there and see what comes of it.
+  mob echoat $n `7You have been charged with a quest!``
+  mob permquest $n been told that Himmah of Revelsport might have more work.
+  break
+endif
+if isevil $n
+  'I have no more werk for you there $N, but I have them contacts..
+  'And I hear Xavier the Lord of Zalango has some jobs.
+  'Perhaps ye should travel there and see what comes of it.
+  mob echoat $n `7You have been charged with a quest!``
+  mob permquest $n been told that Xavier of Zalango might have more work.
+  break
+endif
+if isneutral $n
+  if rand 50
+    'I have no more werk for you there $N, but I have them contacts..
+    'And I hear Himmah the Trainer of Revelsport has some troubles.
+    'Perhaps ye should travel there and see what comes of it.
+    mob echoat $n `&You have been charged with a quest!``
+    mob permquest $n been told that Himmah of Revelsport might have more work.
+    break
+  else
+    'I have no more werk for you there $N, but I have them contacts..
+    'And I hear Xavier the Lord of Zalango has some jobs.
+    'Perhaps ye should travel there and see what comes of it.
+    mob echoat $n `7You have been charged with a quest!``
+    mob permquest $n been told that Xavier of Zalango might have more work.
+    break
+  endif
+endif
+~
+#12158
+if isnpc $n
+or isdelay $i
+or hasquest $n 'to answer Xavier yes or no.'
+or hasquest $n 'been told to seek a drow slave master in Zalango sewers.'
+or hasquest $n 'killed a pair of elven children for Reskath.'
+  break
+endif
+if hasquest $n 'to find and eliminate dark raiders south of Zalango.'
+or hasquest $n 'To find and eliminate the Raider Leader south of Zalango.'
+or hasquest $n 'to weaken Goblin defenses.'
+  mob call 12161 $n null null
+  break
+endif  
+if level $n < 5
+  'I do not hire children for grown up's work $N.
+  break
+endif
+if hasquest $n 'assassinated the Raider Leader.'
+  pmote walks up to $N.
+  'Well, you've solved my problems nicely $N.  However I still have need a hand.
+  'Interested?
+  emote awaits a yes or no answer.
+  mob tempquest $n to answer Xavier yes or no.
+  break
+endif
+if hasquest $n 'Killed the dark raiders.'
+  pmote walks up to $N.
+  'Well, you've solved a portion of the problem so far $N.
+  'I wonder however if you are up to solving rest of it...
+  emote awaits a yes or no answer.
+  mob tempquest $n to answer Xavier yes or no.
+  break
+endif
+if hasquest $n 'been told that Xavier of Zalango might have more work.'
+  pmote looks $N over and rubs his chin.
+  'You're looking for odd jobs hmm?  Tell you what, I might in fact have something.
+  'Not far south of here, lies a village of goblins who happen to pay me for protection.
+  'As it happends however, the area has been of late plagued by problems.  
+  'Do you think you could solve the problems for me perhaps?
+  emote awaits a yes or no answer.
+  mob tempquest $n to answer Xavier yes or no.
+  break
+endif
+~
+#12159
+if isdelay $i
+  break
+endif
+if ispc $n
+and hasquest $n 'to answer Xavier yes or no.'
+  spit
+  emote turns away, an angry look on his face.
+  mob remquest $n to answer Xavier yes or no.
+  mob delay 1
+endif
+~
+#12160
+if isdelay $i
+or isnpc $n
+  break
+endif
+if hasquest $n 'to answer Xavier yes or no.'
+if hasquest $n 'Assassinated the Raider Leader.'
+  mob oload 12107
+  give 1. $n
+  drop 1.  
+  'Here is what is required of you. Destroy the scroll once you read it.
+  'As usual.. We've never met $N or..
+  pmote sweeps his index finger across his throat.
+  pmote turns away.
+  mob echoat $n `&You have been charged with a quest!``
+  mob permquest $n to weaken Goblin defenses.
+  mob remquest $n to answer Xavier yes or no.
+  mob delay 1
+  break
+endif
+if hasquest $n 'Killed the dark raiders.'
+  mob oload 12106
+  give 1. $n
+  drop 1.  
+  'Here is what is required of you. Destroy the scroll once you read it.
+  'Once again.. We've never met $N or..
+  pmote sweeps his index finger across his throat.
+  pmote turns away.
+  mob echoat $n `&You have been charged with a quest!``
+  mob permquest $n to find and eliminate the Raider Leader south of Zalango.
+  mob remquest $n to answer Xavier yes or no.
+  mob delay 1
+  break
+endif
+mob oload 12105
+give 1. $n
+drop 1.  
+'Here is what is required of you. Destroy the scroll once you read it.
+'And remeber.. We've never met $N or..
+pmote sweeps his index finger across his throat.
+pmote turns away.
+mob echoat $n `&You have been charged with a quest!``
+mob permquest $n to find and eliminate dark raiders south of Zalango.
+mob remquest $n to answer Xavier yes or no.
+mob delay 1
+break
+endif
+~
+#12161
+if isnpc $n
+or isdelay $i
+or hasquest $n 'to answer Xavier yes or no.'
+  break
+endif
+if hasquest $n 'been told to seek a drow slave master in Zalango sewers.'
+or hasquest $n 'killed a pair of elven children for Reskath.'
+  break
+endif
+if hasquest $n 'to weaken Goblin defenses.'
+  pmote glances up at $N.
+  if hasquest $n 'killed the goblin scout.'
+  and hasquest $n 'killed the goblin guards.'
+  and hasquest $n 'killed the goblin shaman.'
+  and hasquest $n 'killed the goblin chieftain.'
+    pmote whispers something to $N.
+    tell $n Well done $N! I admit I had my doubts but you pulled through.
+    tell $n I must lie low after this incident, so I cannot give you more tasks.
+    tell $n However I hear a drow slavemaster needs something done in the sewers.
+    tell $n Just look for the grate in Town Square.
+    pmote throws $N a sack of gold and fades back into the crowd.
+      mob echoat $n `@Congratulations! You've weakened the Goblin Defenses!``
+    if level $n < 15
+      mob echoat $n `@You've gained 5000 gold and 3000 experience!``
+      mob gain gold pc $n 5000 5000
+      mob gain exp pc $n 3000 3000
+   else
+      mob echoat $n `@You've gained 5000 gold!``
+      mob gain gold pc $n 5000 5000
+    endif
+    mob remquest $n to weaken Goblin defenses.
+    mob remquest $n killed the goblin scout.
+    mob remquest $n killed the goblin guards.
+    mob remquest $n killed the goblin shaman.
+    mob remquest $n killed the goblin chieftain.
+    mob permquest $n weakened the Goblin Defenses.
+    mob permquest $n destroyed the Goblin Council.
+    mob permquest $n Been told to seek a drow slave master in Zalango sewers.
+  else
+     spit
+    'You have not done what I've asked $N. No deed, no pay.
+  endif
+  break
+endif
+if hasquest $n 'to find and eliminate the Raider Leader south of Zalango.'
+  pmote gives $N a questioning look.
+  if hasquest $n 'killed the Raider Leader.'
+    'I had you followed $N and know of the deed.  Here is the pay.
+    'You've proven useful, come back later if you want more work.
+    pmote throws $N a sack of gold.
+      mob echoat $n `@Congratulations! You've assassinated the Raider Leader!``
+    if level $n < 15
+      mob echoat $n `@You've gained a large sum of gold and experience!``
+      mob gain gold pc $n 1000 3000
+      mob gain exp pc $n 1500 2500
+   else
+      mob echoat $n `@You've gained a large sum of gold!``
+      mob gain gold pc $n 1000 3000
+    endif
+    mob remquest $n To find and eliminate the Raider Leader south of Zalango.
+    mob remquest $n killed the Raider Leader.
+    mob permquest $n assassinated the Raider Leader.
+  else
+    'The leader lives. No deed, no pay.
+     spit
+  endif
+  break
+endif
+if hasquest $n 'to find and eliminate dark raiders south of Zalango.'
+  pmote gives $N a hard look.
+  if hasquest $n 'killed all the dark raiders.'
+    'My sources tell me the raiders are dead.
+    'Good work, as promised here is the reward.  Come back later if you want more work.
+    pmote throws $N a sack of gold.
+    if level $n < 15
+      mob echoat $n `@Congratulations! You've killed the dark raiders!``
+      mob echoat $n `@You've gained a large sum of gold and experience!``
+      mob gain gold pc $n 1000 3000
+      mob gain exp pc $n 1500 2500
+   else
+      mob echoat $n `@Congratulations! You've killed the dark raiders!``
+      mob echoat $n `@You've gained a large sum of gold!``
+      mob gain gold pc $n 1000 3000
+    endif
+    mob remquest $n to find and eliminate dark raiders south of Zalango.
+    mob remquest $n killed all the dark raiders.
+    mob permquest $n killed the dark raiders.
+  else
+    'My sources tell me the raiders still live! Get back to Miden'nir and take care of it!
+     spit
+  endif
+  break
+endif
+~
+#12162
+mob pfor group $n call 12163 # null null 
+~
+#12163
+if isnpc $n
+or mobcount 3525 > 1
+  break
+endif
+if hasquest $n 'to find and eliminate dark raiders south of Zalango.'
+  mob tempquest $n killed all the dark raiders.
+  mob echoat $n `@You have killed all the dark raiders!``
+  break
+endif
+~
+#12164
+mob pfor group $n call 12165 # null null 
+~
+#12165
+if isnpc $n
+or mobcount 3527 > 1
+  break
+endif
+if hasquest $n 'to find and eliminate the Raider Leader south of Zalango.'
+  mob tempquest $n killed the Raider Leader.
+  mob echoat $n `@You have killed the Raider Leader!``
+  break
+endif
+~
+#12166
+mob pfor group $n call 12167 # null null 
+~
+#12167
+if isnpc $n
+  break
+endif
+if vnum $i == 9908
+  if mobcount 9908 > 1
+  or hasquest $n 'killed the goblin scout.'
+    break
+  endif
+  if hasquest $n 'to weaken Goblin defenses.'
+    mob tempquest $n killed the goblin scout.
+    mob echoat $n `@You have killed the goblin scout!``
+  endif
+endif
+if vnum $i == 9900
+  if mobcount 9900 > 1
+  or hasquest $n 'killed the goblin guards.'
+    break
+  endif
+  if hasquest $n 'to weaken Goblin defenses.'
+    mob tempquest $n killed the goblin guards.
+    mob echoat $n `@You have killed the goblin guards!``
+  endif
+endif
+if hasquest $n 'killed the goblin guards.'
+and hasquest $n 'killed the goblin scout.'
+  if hasquest $n 'to assassinate the goblin chieftain and shaman.'
+    break
+  else
+    mob echoat $n `&A black hawk drops a scroll into your hands!``
+    mob echoat $n `&You have been charged with a quest!``
+    mob oload 12108
+    mob otransfer x4 $n
+    mob oload 12109
+    mob otransfer !12109! $n
+  endif
+endif
+~
+#12168
+mob pfor group $n call 12169 # null null 
+~
+#12169
+if isnpc $n
+  break
+endif
+if vnum $i == 9903
+  if mobcount 9903 > 1
+    break
+  endif
+  if hasquest $n 'to weaken Goblin defenses.'
+    mob tempquest $n killed the goblin shaman.
+    mob echoat $n `@You have killed the goblin shaman!``
+  endif
+endif
+if vnum $i == 9901
+  if mobcount 9901 > 1
+    break
+  endif
+  if hasquest $n 'to weaken Goblin defenses.'
+    mob tempquest $n killed the goblin chieftain.
+    mob echoat $n `@You have killed the goblin chieftain!``
+  endif
+endif
+~
+#12170
+if isnpc $n 
+or isdelay $n
+or hasquest $n 'to answer yes or no to Reskath the Slave Master.'
+or hasquest $n 'refused to help Reskath the Slave Master.'
+or hasquest $n 'killed a pair of elven children for Reskath.'
+  break
+endif
+if hasquest $n 'to kill the elven children in Zalango Sewers.'
+  if mobcount 7290 > 0
+  or mobcount 7291 > 0
+    'The kids still live $N!
+    spit
+  else
+    grin $n
+    mob echoat $n `@Congratulations! You've slain the elven children!``
+    if level $n < 15
+      pmote throws you a sack of gold and shares some of his experiences.
+      mob gain gold pc $n 3000 5000
+      mob gain exp pc $n 2500 3500
+    else
+      pmote throws you a sack of gold.
+      mob gain gold pc $n 3000 5000
+    endif
+    mob remquest $n to kill the elven children in Zalango Sewers.
+    mob remquest $n been told to seek a drow slave master in Zalango sewers.
+    mob permquest $n killed a pair of elven children for Reskath.
+    'Till we meet again $N.
+    chukle
+  endif
+  mob delay 1
+  mob forget
+  break
+endif
+if hasquest $n 'Been told to seek a drow slave master in Zalango sewers.'
+  'Hey, $N! Xavior mentioned your name.  Are you looking for some coin perhaps?
+   pmote seems to be expecting a yes or no answer.
+   mob tempquest $n to answer yes or no to Reskath the Slave Master.
+   mob delay 1
+   mob forget
+endif
+~
+#12171
+if isnpc $n 
+  break
+endif
+if hasquest $n 'to answer yes or no to Reskath the Slave Master.'
+  pmote reaches back to draw his blade but then seems to relax.
+  'You best avoid Dargoth $N.
+  spit
+  mob remquest $n to answer yes or no to Reskath the Slave Master.
+  mob tempquest $n refused to help Reskath the Slave Master.
+endif
+~
+#12172
+if isnpc $n 
+  break
+endif
+if hasquest $n 'to answer yes or no to Reskath the Slave Master.'
+  grin
+  'The matter is simple $N.  
+  'A certain drow individual required a pair of slaves killed to further her agenda.
+  'However as I was about to do the deed, the bastards escaped. I have tracked them here.
+  'They are elven, skilled in stealth and guile thus they escape every time I near.
+  'But they do not know you.
+  'Kill the pair of bastards for me and rewards will be yours. 
+  'They hide somewhere about here.
+  glare
+  mob delay 1
+  mob remember $n
+  mob pfor group $n call 12173 # null null 
+endif
+~
+#12173
+if isnpc $n 
+or hasquest $n 'killed a pair of elven children for Reskath.'
+  break
+endif
+if hasquest $n 'been told to seek a drow slave master in Zalango sewers.'
+  mob tempquest $n to kill the elven children in Zalango Sewers.
+  mob remquest $n to answer yes or no to Reskath the Slave Master.
+  mob echoat $n `&You have been charged with a quest!``
+endif
+~
+#12174
+if hastarget $i
+  tell $q You might want to gather a group to help you in this task.
+  tell $q The sewers offer much learning, but also dangers.
+endif
+~
+#12175
+if isnpc $n
+or isdelay $i
+or hasquest $n 'to answer Himmah yes or no.'
+or hasquest $n 'refused to help Himmah.'
+or hasquest $n 'defeated an Ettin.'
+  break
+endif
+if hasquest $n 'to kill the Outlaw Leader in Darkling Wood for Himmah of Revelsport.'
+or hasquest $n 'to retrieve the Golden Sun from Falen Dara.'
+or hasquest $n 'to clear Drkshtyre Wood of oozes.'
+or hasquest $n 'to find the key stolen from Revelsport Palace.'
+or hasquest $n 'to defeat an Ettin.'
+  mob call 12178 $n null null
+  break
+endif  
+if level $n < 10
+  'I do not hire children for grown up's work $N.
+  break
+endif
+if hasquest $n 'found the stolen Revelsport key.'
+  'Its good to see you again $N.  
+  'I take it you seek yet another adventure?
+  mob tempquest $n to answer Himmah yes or no.
+  mob delay 1
+  break
+endif
+if hasquest $n 'destroyed the Oozes of Drkshtyre.'
+  'Well, if it isnt $N.  Looking for something to do I hope, 
+  'because I have something special for you.  Interested?
+  emote awaits a yes or no answer.
+  mob tempquest $n to answer Himmah yes or no.
+  mob delay 1
+  break
+endif
+if hasquest $n 'retrieved the Golden Sun.'
+  '$N!  I need your help immediately!  Will you help?!
+  emote awaits a yes or no answer.
+  mob tempquest $n to answer Himmah yes or no.
+  mob delay 1
+  break
+endif
+if hasquest $n 'destroyed the Outlaws of Darkling Wood.'
+  'Ah, $N, I see you have returned.
+  'Do you seek other adventures to embark upon?
+  emote awaits a yes or no answer.
+  mob tempquest $n to answer Himmah yes or no.
+  mob delay 1
+  break
+endif
+if hasquest $n 'been told that Himmah of Revelsport might have more work.'
+  pmote looks up at $N and smiles.
+  'Greetings $N, would you care to help me with something?
+  emote awaits a yes or no answer.
+  mob tempquest $n to answer Himmah yes or no.
+  mob delay 1
+  break
+endif
+~
+#12176
+if isdelay $i
+  break
+endif
+if ispc $n
+and hasquest $n 'to answer Himmah yes or no.'
+  'Ah, I see, and yet you look like one that could be counted on, truly a shame.
+  mob remquest $n to answer Himmah yes or no.
+  mob tempquest $n refused to help Himmah.
+endif
+~
+#12177
+if isnpc $n
+  break
+endif
+if hasquest $n 'to answer Himmah yes or no.'
+if hasquest $n 'found the stolen Revelsport key.'
+  'Alright then, in Drkshtyre Wood there lives a tribe of Ettins. 
+  'I challenge you to seek one out and defeat it.  This will be the best measure
+  'of your progress.  Good luck to you.
+  mob echoat $n ```
+  mob echoat $n `&You have been given a quest!``
+  mob permquest $n to defeat an Ettin.
+  mob remquest $n to answer Himmah yes or no.
+  break
+endif
+if hasquest $n 'destroyed the Oozes of Drkshtyre.'
+  'We have had some strange happenings around the palace and I need your help.  
+  'A key has turned up missing from the palace and a shadowy figure was seen running
+  'West towards the the large tree in the Haon-Dor.  Find the thief, and get back the
+  'stolen key $N!
+  mob echoat $n ```
+  mob echoat $n `&You have been given a quest!``
+  mob permquest $n to find the key stolen from Revelsport Palace.
+  mob remquest $n to answer Himmah yes or no.
+  break
+endif
+if hasquest $n 'retrieved the Golden Sun.'
+  'Drkshtyre Wood is being overrun by vile oozes!
+  pmote points south of Revelsport.
+  'Make your way there as quickly as possible and kill them all!  
+  pmote pauses a moment.
+  'You might want to gather a group to help you in this task $N.
+  mob echoat $n ```
+  mob echoat $n `&You have been given a quest!``
+  mob permquest $n to clear Drkshtyre Wood of oozes.
+  mob remquest $n to answer Himmah yes or no.
+  break
+endif
+if hasquest $n 'destroyed the Outlaws of Darkling Wood.'
+  'Good!  In the town of Falen Dara the Asp King has a medallion of the Golden Sun.  
+  'There is a young lady here that took a fancy to it, and he has promised it to her.  
+  'Go to Falen Dara and request it from him.  Return it to me and you will be rewarded.
+  mob echoat $n ```
+  mob echoat $n `&You have been given a quest!``
+  mob permquest $n to retrieve the Golden Sun from Falen Dara.
+  mob remquest $n to answer Himmah yes or no.
+  if carries $n !12110!
+    break
+  else
+   mob oload 12110
+   mob otransfer !12110! $n
+   pmote gives $N directions to Falen Dara.
+  endif
+  break
+endif
+'There is a band of Outlaws in the forest north of here.
+'They have been attacking and killing travellers that pass through the woods.  
+'Go there $N, find their leader, and kill him to end these brutal attacks.
+mob echoat $n ```
+mob echoat $n `&You have been given a quest!``
+mob permquest $n to kill the Outlaw Leader in Darkling Wood for Himmah of Revelsport.
+mob remquest $n to answer Himmah yes or no.
+endif  
+~
+#12178
+if isnpc $n
+or isdelay $i
+or hasquest $n 'to answer Himmah yes or no.'
+or hasquest $n 'defeated an Ettin.'
+  break
+endif
+if hasquest $n 'to defeat an Ettin.'
+  if hasquest $n 'killed an Ettin.'
+    'Congratulations on your victory.  As I expected, your training has gone well.  
+    'I think you are ready to seek adventures on your own and there is nothing left 
+    'for you to do for me.  
+    'Return when you need training and take this with you for your journeys.
+    mob echoat $n ```
+    mob echoat $n `@Congratulations! You've defeated an Ettin!``
+    if level $n < 15
+      pmote hands $N some gold and a free practice session at the guild.
+      mob echoat $n `@You've gained 1 practice and 3000 experience!``
+      mob gain prac pc $n 1 1
+      mob gain exp pc $n 3000 3000
+   else
+      pmote hands $N some gold.
+      mob echoat $n `@You've gained 3000 gold!``
+      mob gain gold pc $n 3000 3000
+   endif
+   mob remquest $n to defeat an Ettin.
+   mob remquest $n killed an Ettin.
+   mob permquest $n defeated an Ettin.
+  else
+    'A worthy foe it is indeed, yet still, you must be brave and seek it out.  
+    'Return to the forest and defeat the Ettin.
+  endif
+  break
+endif
+if hasquest $n 'to find the key stolen from Revelsport Palace.'
+  pmote glances up at $N.
+  if carries $n !5508!
+    'Well done yet again $N!  I knew you were the right one for the job. 
+    'I will return this to the palace as soon as I am able.  
+    'Take this gold as a reward, and know you have the thanks of the Royal House.
+    mob echoat $n ```
+    mob echoat $n `@Congratulations! You've found the Stolen Key!``
+    if level $n < 15
+      mob echoat $n `@You've gained 5000 gold and some experience!``
+      mob gain gold pc $n 5000 5000
+      mob gain exp pc $n 2000 3000
+    else
+      mob echoat $n `@You've gained 5000 gold!``
+      mob gain gold pc $n 5000 5000
+    endif
+    pmote takes the key from $N.
+    mob destroy ch $n !5508! 1
+    mob remquest $n to find the key stolen from Revelsport Palace.
+    mob permquest $n found the stolen Revelsport key.
+  else
+  '$N! The palace is in desparate need of that key!  
+  'Go west and find where the thief has gone so you can bring the key back.
+  endif
+  break
+endif
+if hasquest $n 'to clear Drkshtyre Wood of oozes.'
+  if hasquest $n 'destroyed all the oozes.'
+    'Thank the Gods $N!  I knew we could count on you!  
+    'Take this as a reward for your service.
+    pmote hands $N some gold.
+    mob echoat $n ```
+    mob echoat $n `@Congratulations! You've destroyed the Oozes of Drkshtyre!``
+    if level $n < 15
+      mob echoat $n `@You've gained some gold and experience!``
+      mob gain gold pc $n 1500 3000
+      mob gain exp pc $n 2000 2500
+   else
+      mob echoat $n `@You've gained some gold!``
+      mob gain gold pc $n 1500 3000
+   endif
+   mob remquest $n to clear Drkshtyre Wood of oozes.
+   mob remquest $n destroyed all the oozes.
+   mob permquest $n destroyed the Oozes of Drkshtyre.
+  else
+    What are you doing back here?!  
+    'Get back into the woods and destroy those oozes before the town is overrun!
+  endif
+  break
+endif
+if hasquest $n 'to retrieve the Golden Sun from Falen Dara.'
+  pmote glances up at $N.
+  if carries $n !9616!
+  or wears $n !9616!
+    '$N! I see you have the medallion!  I am ashamed to say, though that the lady
+    'I mentioned has decided that it isnt quite what she wanted.
+    'She has found another to use instead. She said to let you know that you may keep it. 
+    'Seek me out again some time if you wish more adventures.
+    mob echoat $n ```
+    mob echoat $n `@Congratulations! You've retrieved the Golden Sun!``
+    if level $n < 15
+      mob echoat $n `@You've gained some experience!``
+      mob gain exp pc $n 1500 2000
+   endif
+   mob remquest $n to retrieve the Golden Sun from Falen Dara.
+   mob permquest $n retrieved the Golden Sun.
+  else
+    '$N?  Are you lost? You promised to get a young lady a medallion, 
+    'and you need to live up to it!  Now get along and find the King of the Asps 
+    'and ask him for the medallion!
+    if carries $n !12110!
+      break
+    else
+     mob oload 12110
+     mob otransfer !12110! $n
+     pmote gives $N directions to Falen Dara.
+    endif
+  endif
+  break
+endif
+if hasquest $n 'to kill the Outlaw Leader in Darkling Wood for Himmah of Revelsport.'
+  pmote glances up at $N.
+  if hasquest $n 'killed the Outlaw Leader.'
+    'Ah, there you are $N, thank you.
+    'Should you return at a later date, I may have other things for you to do.
+    pmote hands $N some gold.
+    mob echoat $n ```
+    mob echoat $n `@Congratulations! You've destroyed the Outlaws of Darkling Wood!``
+    if level $n < 15
+      mob echoat $n `@You've gained some gold and experience!``
+      mob gain gold pc $n 1000 2000
+      mob gain exp pc $n 1500 2000
+   else
+      mob echoat $n `@You've gained some gold!``
+      mob gain gold pc $n 1000 2000
+   endif
+   mob remquest $n to kill the Outlaw Leader in Darkling Wood for Himmah of Revelsport.
+   mob remquest $n killed the Outlaw Leader.
+   mob permquest $n destroyed the Outlaws of Darkling Wood.
+  else
+    '$N!  What are you doing back here?  
+    'Find the Outlaw Leader and defeat him before others are ambushed and killed!
+  endif
+  break
+endif
+~
+#12179
+if isnpc $n
+  break
+endif
+if vnum $i == 8112
+  if hasquest $n 'to kill the Outlaw Leader in Darkling Wood for Himmah of Revelsport.'
+    mob tempquest $n killed the Outlaw Leader.
+    mob echoat $n ```
+    mob echoat $n `@You have killed the Outlaw Leader!``
+  endif
+  break
+endif
+if vnum $i == 2414
+  if hasquest $n 'killed an Ettin.'
+    break
+  endif
+  if hasquest $n 'to defeat an Ettin.'
+    mob tempquest $n killed an Ettin.
+    mob echoat $n ```
+    mob echoat $n `@You have killed an Ettin!``
+  endif
+  break
+endif
+if vnum $i == 2405
+or vnum $i == 2418
+  if mobcount 2405 > 1
+  or mobcount 2418 > 1
+    break
+  endif
+  if hasquest $n 'to clear Drkshtyre Wood of oozes.'
+    mob tempquest $n destroyed all the oozes.
+    mob echoat $n ```
+    mob echoat $n `@You have destroyed all the oozes!``
+  endif
+  break
+endif
+~
+#12180
+mob pfor group $n call 12179 # null null 
+~
+#12181
+if hasquest $n 'been granted the title of `1Dragon Slayer``.'
+  pmote smiles at $n.
+  'We meet again, Dragon Slayer $N.
+  kneel $n
+else
+  if hasquest $n 'to return to Edgar the Dragon Slayer.'
+    'I see you are a person who is true to their word!
+    'The Dragons have been slain, and the title of Dragon Slayer passed to another.
+    mob remquest $n to return to Edgar the Dragon Slayer.
+    mob permquest $n been granted the title of `1Dragon Slayer``.
+    emote sends a messenger away yelling at the top of his lungs.
+    mob gecho A messenger runs by yelling '`6Hear! Hear! $N has gained title of Dragon Slayer!``'
+    mob echoat $n As the messenger words echo in your ears, you feel mentally and physically stronger.
+    mob gain php pc $n 5 10
+    mob gain pmana pc $n 10 15
+    emote rummages around in a sack, and withdraws The Dragon Slayer.
+    mob oload 12111
+    oowner edgarweap $N
+    'This weapon will accompany you as a companion to your title.
+    mob echoat $n Edgar kneels before you, and hands you the weapon.
+    mob otrans edgarweap $n
+  else      
+    if hasquest $n 'To return to Edgar the Dragon Slayer for further instructions.'
+    or hasquest $n 'slain the Dragons of the Tower.'
+      'I see you've managed to destroy the Tower's Dragons.
+      mob remquest $n To return to Edgar the Dragon Slayer for further instructions.
+      mob permquest $n slain the Dragons of the Tower.
+      'There are mamy more that walk on Thera's surface.
+      emote points at the ground.
+      'And many more that fly in Thera's skies.
+      emote points his hands to the sky.
+      'Go and slay the Rest of The Ten, and great rewards shall be yours!
+      mob tempquest $n to track down and slay the remaining four dragons.
+    else
+      if hasquest $n 'to slay the six dragons of the Tower.'
+        pmote approaches $n with a shocked look on his face.          
+        'You there, $N!
+        'I can still smell those scaly bastards!
+        'Why haven't you slain them all yet?
+        'Go back and finish the job!
+        pmote motions towards the Dragon Tower.
+      else
+        if level $n < 30
+          emote runs around screaming.
+          'Dragons!  In the Tower!
+          'You there, $n!  Hurry and gain ranks within your guild!
+          'Once you've done so, come back and I will tell you what to do next!
+        else
+          'You there, $N!  There are dragons in the Tower that must be dealt with!
+          'Go now!  Go and slay them all, before it is too late!
+          emote motions towards the tower in the distance.
+          mob tempquest $n to slay the six dragons of the Tower.
+        endif
+      endif
+    endif
+  endif
+endif
+~
+#12200
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'to deliver the Tablet of Passage to Elysus.'
+  'I've said enough, now get out.
+  pmote turns away from $N.
+  mob delay 1
+  break
+endif
+if hasquest $n 'to seek out the shrine of Cycle of Death.'
+or hasquest $n 'to seek out the shrine of Cycle of Death.`1``'
+or hasquest $n 'to seek out the shrine of Cycle of Death.`2``'
+or hasquest $n 'to seek out the shrine of Cycle of Death.`3``'
+or hasquest $n 'to seek out the shrine of Cycle of Death.`4``'
+or hasquest $n 'to seek out the shrine of Cycle of Death.`5``'
+  peer $n
+  if level $n > 30
+    'You are too far progressed in ranks to received a tablet.
+    'begone.
+    break
+  endif
+  'Yes indeed it was I who has made the carvings upon the Shrine of Cycle.
+  'And now I witness yet another hopeless soul fall into the nets of Death.
+  pmote chuckles darkly at $N.
+  'When you have found the tablet of passage, I shall reveal more to you.
+  'If I remember correctly, last one I have made was for an owner of
+  'a mansion far south of here.  You might want to start your search there.
+  mob tempquest $n to deliver the Tablet of Passage to Elysus.
+  mob delay 1
+  break
+else
+  say "Carvings" $e says, heh! I have carved all my life, now get out of my face.
+  pmote turns away from $N.
+endif
+~
+#12201
+if isdelay $i
+  break
+endif
+if hasquest $n 'to bring a slab of meteorite to Elysus.'
+  mob echoat $n Shivers run down your spine as $I's dark eyes search you.
+  mob echoaround $n $I casts a seaching glance at $N.
+  if carries $n !141!
+  and carries $n '12104'
+    say I see you have the tablet and meteorite. Lets have it.
+    break
+  else
+    if carries |30010|
+      emote looks up as you enter, his eyes dark and evil.
+      say It is done, seek a mariner by a rotten boat in north western part of docks.
+      say Speak to him of your passage and he might take you across.
+      break
+    endif
+    'If you wish me to help you get the tablet and a meteorite, now get out.
+    break
+  endif
+  break
+endif  
+if hasquest $n 'to deliver the Tablet of Passage to Elysus.'
+  mob echoat $n Shivers run down your spine as $I's dark eyes search you.
+  mob echoaround $n $I casts a seaching glance at $N.
+  if carries $n !12104!
+    emote chuckles as his glance falls on the tablet.
+    say I see that you have that little marvel $N.
+    mob tempquest $n to bring a slab of meteorite to Elysus.
+    mob delay 10
+    mob call 12202 $n null null
+    break
+  endif
+  break  
+endif
+~
+#12202
+if players < 1
+  mob cancel
+  break
+endif
+if getdelay >= 10
+  say It would seem Morgorin's blessing is upon you, make yourself at ease for this
+  say is a long story, fear not to say 'continue' or 'go on' to move along...
+  emote leans back in the shadows and begins to weave a long and dark tale.
+  break
+endif
+if getdelay >= 9
+  mob call 12203 $n null null
+  break
+endif
+if getdelay >= 8
+  mob call 12204 $n null null
+  break
+endif
+if getdelay >= 7
+  mob call 12205 $n null null
+  break
+endif
+if getdelay >= 6
+  mob call 12206 $n null null
+  break
+endif
+if getdelay >= 5
+  mob call 12207 $n null null
+  break
+endif
+if getdelay >= 4
+  mob call 12208 $n null null
+  break
+endif
+if getdelay >= 3
+  mob call 12209 $n null null
+  break
+endif
+if getdelay >= 2
+  mob call 12210 $n null null
+  mob cancel
+  break
+endif
+~
+#12203
+pmote continues his tale.
+  echo ```
+  echo Long time ago, when the land was still untouched by likes of Ixtaros 
+  echo and Morgorin the forces of good flourished to such degree that for balance
+  echo evil to be retained a powerful new entity was spawned born of very force of
+  echo unlife. The Namless it was called, and it caused such plauges and attacks by 
+  echo undead that most of the living population at those times was all but wiped out.
+  emote pauses a moment.
+  echo ```
+~
+#12204
+pmote continues his tale.
+  echo ```
+  echo The catastrophe was averted when the Clerics of Order of Light sacrificed 
+  echo just over 100 of their own memebers to summon the Namelessand and trap him
+  echo in a giant pillar created by the most powerful mage of the times one called 
+  echo Amedus Divinity.  Held within by the power of their sacrifce, the Namless was 
+  echo imprisoned for centauries, torturing the souls of the very men and women who's 
+  echo sacrifice held him within the Pillar of Souls.
+  emote pauses a moment.
+  echo ```
+~
+#12205
+pmote continues his tale.
+  echo ```
+  echo The stone was buried in an isle just north east of this city, named Isle 
+  echo of Souls for the apparitions that haunt it at night.  Time passed and soon
+  echo the events were forgotten in the chaos of the Bloodletting.  Yet those whom
+  echo study the powers of Death still rememeber and call that time the First Manifestation,
+  echo for it was the first time the Nameless' touch was felt in this realm.
+  emote pauses a moment.
+  echo ```
+~
+#12206
+pmote continues his tale.
+  echo ```
+  echo Eventualy during the Second age when Chaos bloodied the lands, a single 
+  echo soldier of the army passing close by here found the Isle by luck or fate,
+  echo and by day descened into its bowels.  The fools stayed the night, their last.. 
+  echo And the commander of the force was taken over by the Namless, only to become 
+  echo that wich you know as Morgorin, consuming and cursing the fortress of S'handor
+  echo in the process.  If you ever wish to see Its power, venture there.  That was the
+  echo Second Manifestation of the Namless, this time in its mortal vessel Morgorin.
+  echo ```
+  emote pauses a moment.
+~
+#12207
+pmote continues his tale.
+  echo ```
+  echo Time passed and Morgorin sought in vain for a way to release its master from
+  echo within the Pillar of Souls.  The search was fruitless, and so the vast entity that
+  echo was the Namless plotted for its own release.  It was at this time that Morgorin
+  echo fell to its master's trickery and struck down an ancient god of Light Palison only
+  echo to be in turn weakened and trapped within the Nameless' power.  The god of Decay's
+  echo soul was trapped, and fueled a potent rift across which the Namless reached out
+  echo into the lands.  Few remember this time, yet it was called the War of Shades.
+  echo ```
+  emote pauses a moment.
+~
+#12208
+pmote continues his tale.
+  echo ```
+  echo As the unliving wraiths, shades and other undead stalked the living a few
+  echo heros grouped under the banner of clan known as HOPE and with great effort 
+  echo and aid of gods of light released Morgorin from the trap of its dark master.
+  echo And so ever since that time Morgorin toils to balance the forces of Death
+  echo against powers of Life, ensuring its own existance yet never allowing the
+  echo Nameless to stir in its prison once more.
+  echo ```
+  emote pauses a moment.
+~
+#12209
+pmote continues his tale.
+  echo ```
+  echo So we come full circle to the tablet... Ever since the Second Manifestion
+  echo the only way for a mortal to set a foot on the Isle of Souls at night, and 
+  echo not perish swiftly is to carry such tablet as you have found.
+  echo I have devoted my life to the Nameless, carving in his name. Shrines altars, 
+  echo even tombstones all carry my mark.  It is I who fashioned the carvings 
+  echo in the shrine for Morgorin blessed me with dark power.  And only a Tablet 
+  echo of Passage chiseled by my hand willgrant you safe passage through the Isle 
+  echo to complete your trial, for it is haunted by forces of unlife unmatched in 
+  echo the land.  You will surely perish without it.
+  echo ```
+  emote pauses a moment.
+~
+#12210
+'Yes.. I know why you are here.
+  'There were others before you, but not for a long time now....
+  emote looks at your tablet again then frowns.
+  'That tablet has lost its taint unfortunatly, for it is over a centaury old.  
+  'It will have to be retraced for it to holds its powers.
+  'Yet I lack the proper chisel, for only one made of meteorite will carry 
+  'the dark taint needed.  
+  'Find a slab of meteorite and bring a tablet to me, and I will give you what 
+  'you need to set your foot on the Isle of Souls.  
+~
+#12211
+if isdelay $i
+and ispc $n
+  mob attrib $i delay - 1
+  mob call 12202 $n null null
+endif
+~
+#12212
+if vnum $o == 12104
+or vnum $o == 141
+  echo Shadows thicken around you and you feel evil aura surronding Elysus.
+  if vnum $o == 12104
+    if carries $n !141!
+      mob chown !141! $n
+    else
+      'You lack a slab of meteorite for the chisel!
+      give $o $n
+      break
+    endif
+  endif
+  if vnum $o == 141
+    if carries $n !12104!
+      mob chown !12104! $n
+    else
+      'You lack the tablet of passage!
+      give $o $n
+      break
+    endif
+  endif
+  mob junk all
+  mob echo With crackling of dark magic $I creates a chisel from the meteorite.
+  emote begins to work on the tablet, muttering dark incanations as the
+  echo chisel etches dark oily lines in the tablet.
+  load obj 30010
+  say It is done, seek a mariner by a rotten boat in north western part of docks.
+  say Speak to him of your passage and he might take you across.
+  give |30010| $n
+  drop |30010|
+  mob remquest $n to bring a slab of meteorite to Elysus.
+else
+  if vnum $o != 12104
+  and vnum $o != 141
+    say why would I want that?
+    emote throws $O back at you.
+    give $o $n
+    drop $o
+  endif
+endif
+~
+#12300
+if isnpc $n
+or level $n < 25
+or level $n > 30
+  break
+endif
+if class $n ranger
+  say Once you have attained the title, Sword of the Forest, you can seek out Kharandor, 
+  say the Druid of the Shrine, if you wish to join his guild.
+endif
+~
+#12301
+if isdelay $i
+or isnpc $n
+  break
+endif
+if class $n ranger
+and level $n == 30
+  if race $n human
+  or race $n werebeast
+    if hasquest $n 'Converted to a Druid.'
+      break
+    endif
+    if hasquest $n 'Decided to join the family of Druids.'
+    else
+      if hasquest $n 'to answer yes or no to Kharandor.'
+        break
+      else
+        if align $n == 0
+          nod $n
+        else 
+          'I'm sorry but only those of netural path may become Druids.
+          break
+        endif
+        say Greetings $N, I am looking for souls dedicated to our Lady Gaemina. 
+	say Are you wishing to join the family of druids ?
+        peer $n
+        mob tempquest $n to answer yes or no to Kharandor.
+        break
+      endif
+    endif
+  else
+    break
+  endif
+else
+  break
+endif
+if hasquest $n 'given Kharandor his candles.'
+  mob call 12304 $n null null
+  break
+endif
+if hasquest $n 'passed the scroll on to the Master Scout.'
+  mob call 12305 $n null null
+  break
+endif
+if hasquest $n 'given the staff and magic dust to Kharandor.'
+  mob call 12306 $n null null
+  break
+endif
+if hasquest $n 'retrieved the stoneberry leaves.'
+  mob call 12314 $n null null
+  break
+endif
+if hasquest $n 'given the muddy potion to Kharandor.'
+  mob call 12315 $n null null
+  break
+endif
+if hasquest $n 'given Temor all the ingredients.'
+  mob call 12313 $n null null
+  break
+endif
+if hasquest $n 'taken the Mandrake to Kharandor.'
+  mob call 12308 $n null null
+  break
+endif
+if hasquest $n 'Spoken to Irin with regards to Kharandors ritual.'
+  mob call 12310 $n null null
+  break
+endif
+say You haven't spoken to Irin yet $N?
+sigh
+say I told you - she can be found in the Emerald Forest.
+mob tempquest $n to speak to Irin regarding a herb.
+~
+#12302
+if hasquest $n 'to answer yes or no to Kharandor.'
+  mob remquest $n to answer yes or no to Kharandor.
+  emote looks a little dejected.
+  say Ah yes, it is a hard life and not for all. Gaemina be with you.
+endif
+~
+#12303
+if hasquest $n 'to answer yes or no to Kharandor.'
+  mob remquest $n to answer yes or no to Kharandor.
+  if cabal $n *
+    say I fear you may not join the faimly of Druids while in a cabal.
+    say Come back when your mind and heart are free to concentrate upon this task.
+    break
+  endif
+  mob permquest $n decided to join the family of Druids.
+  emote smiles happily.
+  say Gaemina be praised !
+  say Because this is a hard and demanding life you seek you will be tested to ensure your abilities.
+  say I will send you on errands to find things I need for a ritual I am to perform.
+  say To begin, seek Irin in the Emerald Forest. She knows the whereabouts of a herb I need.
+  say Find her and ask her about the herb.
+  mob tempquest $n to speak to Irin regarding a herb.
+endif
+~
+#12304
+if carries $n 721
+  say Well done $N! You've done well!
+  say Let me be the first to welcome you into the Guild of Druids.
+  mob permquest $n converted to a Druid.
+  mob remquest $n To retrieve the crystal jar of lake water for Kharandor.
+  qdruid $n
+else
+  say Where is my jar of water $N? Go to the orc mountains and find me the crystal jar of lake water.
+  say This is your last test.
+  mob tempquest $n To retrieve the crystal jar of lake water for Kharandor.
+endif
+~
+#12305
+say Excellent we're almost there. I only need one last thing from you.
+say I need you to fetch a crystal jar filled with water from the crystal pool in the Orc Mountains.
+say It's waters are known for their purity.
+mob tempquest $n to retrieve the crystal jar of lake water for Kharandor.
+mob remquest $n to return to Kharandor with the candles.
+mob tempquest $n given Kharandor his candles.
+mob at 764 mob purge jar
+mob at 764 mob oload 721 1 R
+~
+#12306
+if hasquest $n 'to take the Mandrake to Temor.'
+and carries $n 289
+  mob chown mandrake $n
+  say The recipe requires another ingredient $N.
+  say Find the Giant Roc nearby and get the egg from it's nest.
+  say Bring it back so I can throw it in the pot.
+  mob remquest $n to take the Mandrake to Temor.
+  mob tempquest $n given the Mandrake to Temor.
+  mob tempquest $n to find and retrieve the Rocs egg.
+  mob at 3617 mob purge egg
+  mob at 3617 mob oload 3641 1 R
+endif
+if hasquest $n 'given the Mandrake to Temor.'
+and carries $n 3641
+  mob chown egg $n
+  say There it is! Let me whip this up real quick....
+  mob oload 3642 1 R
+  get muddy
+  give muddy $n
+  say Done! Take this back to Kharandor.
+  mob remquest $n to find and retrieve the Rocs egg.
+  mob remquest $n given the Mandrake to Temor.
+  mob tempquest $n given all ingredients to Temor.
+  mob tempquest $n to return the potion to Kharandor.
+endif
+~
+#12307
+emote squawks angrily.
+murder $n
+
+
+~
+#12308
+if hasquest $n 'to find and retrieve the Mandrake Root.'
+  say Aaaah you have the herb. Excellent !
+  say Now I need you to go to Temor in the Tainted Valley.
+  say He has a potion I need. Speak to him of it.
+  mob remquest $n to find and retrieve the Mandrake Root.
+  mob tempquest $n to speak to Temor about a potion for Kharandor.
+else
+  mob tempquest $n to speak to Temor about a potion for Kharandor.
+  say Go and speak to Temor in the Tainted Valley $N.
+  say he has a potion I need.
+endif
+~
+#12309
+if hasquest $n 'decided to join the family of Druids.'
+  if carries $n 289
+    say Eh ? Are you mad ?
+    say You already have the herb. Now move your backside to Kharandor with it!
+    mob tempquest $n to find and retrieve the Mandrake Root.
+    mob remquest $n to speak to Irin regarding a herb.
+    mob tempquest $n spoken to Irin with regards to Kharandors ritual.
+    break
+  endif
+  if hasquest $n 'to find and retrieve the Mandrake Root.'
+    say I told you once. You will find the Mandrake herb in the forest archway.
+    mob at 272 mob purge mandrake
+    mob at 272 mob oload 289 1 R
+    break
+  endif
+  if hasquest $n 'Taken the Mandrake to Kharandor.'
+    break
+  else
+    say Kharandor needs the herb for his ritual again I see.
+    say The herb he needs is a Mandrake Root and you will find it not far from here.
+    say It is in the forest archway but be wary! Stay away from the Witch Wood!.
+    mob at 272 mob purge mandrake
+    mob at 272 mob oload 289 1 R
+    mob remquest $n to speak to Irin regarding a herb.
+    mob tempquest $n to find and retrieve the Mandrake Root.
+    mob tempquest $n spoken to Irin with regards to Kharandors ritual.
+    break
+  endif
+endif
+~
+#12310
+if carries $n 289
+  mob tempquest $n taken the Mandrake to Kharandor.
+  mob call 12308 $n null null
+  break
+else
+  say You've spoken to Irin yet you haven't brought my herb !?
+  say Go back to her and get it for me.
+  mob tempquest $n to find and retrieve the Mandrake Root.
+  break
+endif
+~
+#12311
+if hasquest $n 'to speak to Temor about a potion for Kharandor.'
+  say A potion for Kharandor ? Of course.
+  say Ah. I don't have any left at the moment I shall have to brew a new one.
+  say Be a good chap $N and run along to the Giant Roc. It has an egg I need.
+  mob at 3617 mob purge egg
+  mob at 3617 mob oload 3641 1 R
+  mob tempquest $n spoken to Temor about a potion for Kharandor.
+  mob remquest $n to speak to Temor about a potion for Kharandor.
+  mob tempquest $n to get the Rocs egg for Temor.
+  break
+endif
+if hasquest $n 'given Temor all the ingredients.'
+  break
+endif  
+if hasquest $n 'spoken to Temor about a potion for Kharandor.'
+or hasquest $n 'to get the Rocs egg for Temor.'
+  say I told you once. Go to the Giant Roc's home and bring me one of it's eggs.
+  mob tempquest $n to get the Rocs egg for Temor.
+  mob at 3617 mob purge egg
+  mob at 3617 mob oload 3641 1 R
+  break
+endif
+~
+#12312
+if isnpc $n
+  break
+endif
+if carries $n 3641
+and hasquest $n 'Spoken to Temor about a potion for Kharandor.'
+  mob chown egg $n
+  emote takes the egg from you.
+  say There it is! Let me whip this up real quick for you.
+  emote creates a muddy brown potion.
+  mob oload 3642 1 R
+  get muddy
+  give muddy $n
+  say Now take that back to Kharandor.
+  mob remquest $n to get the Rocs egg for Temor.
+  mob tempquest $n Given Temor all the ingredients.
+  mob tempquest $n to deliver the potion to Kharandor.
+endif
+~
+#12313
+if hasquest $n 'Given the muddy potion to Kharandor.'
+  break
+endif
+if carries $n 3642
+  remquest $n to deliver the potion to Kharandor.
+  tempquest $n Given the muddy potion to Kharandor.
+  tempquest $n to find and retrieve the stoneberry leaves.
+  mob chown muddy $n
+  mob junk muddy
+  say Ah there you are. Thank you for the potion.
+  say Now I need you to travel to the land of the Giants. There is a bush that grows a rare leaf.
+  say It is called a stoneberry leaf. The berries are deadly but the leaves are essential.
+  mob at 5758 mob purge 5716
+  mob at 5758 mob oload 5716 1 R
+  else
+  say Where's my potion ? Go and speak to Temor about it again.
+endif
+~
+#12314
+if carries $n 8910
+and carries $n 9225
+  mob remquest $n to find and return some magic dust to Kharandor.
+  mob remquest $n to get the staff from the Hierophant.
+  say Thank you for the staff.
+  mob chown staff $n
+  say Aaah yes the dust. I see my old friend decided to make this easier for you. But you still aren't done.
+  chortle
+  say Take this scroll to Torilar, the druid in Darkling Wood. He will give you something in return that you must bring.
+  mob echoat $n $I gives you a scroll which you quickly store safely in a special pouch.
+  mob tempquest $n given the staff and magic dust to Kharandor.
+  mob tempquest $n to deliver a scroll to Torilar in Darkling Wood.
+  break
+else
+  say I thought you had been told. I need the Hierophant's staff AND some magic dust from elemental canyon.
+endif
+~
+#12315
+if carries $n 5716
+  say Those are the leaves. Now find the Old Hierophant of the Holy Grove.
+  say He holds a Staff I require. Find him and tell him I need the staff.
+  mob remquest $n to find and retrieve the stoneberry leaves.
+  mob tempquest $n retrieved the stoneberry leaves.
+  mob tempquest $n to get the staff from the Hierophant.
+  mob chown leaves $n
+  break
+else
+  say Where are my stoneberry leaves ? You will find them in the land of Giants.
+  say Now run along please.
+  mob tempquest $n to find and retrieve the stoneberry leaves.
+  mob at 5758 mob purge leaves
+  mob at 5758 mob oload 5716 1 R
+  break
+endif
+~
+#12316
+if hasquest $n 'decided to join the family of Druids.'
+and hasquest $n 'retrieved the stoneberry leaves.'
+  if hasquest $n 'given the staff and magic dust to Kharandor'
+    break
+  endif
+  if carries $n 8910
+    say Do you have something wrong with your eyes? You already have my staff.
+    break
+  endif
+  say Is it that time again already? I am a little upset that Kharandor doesn't always return my staff so
+  say I have had a couple of spares made. Here you go.
+  emote rummages about.
+  mob oload 8910 1 R
+  get staff
+  give staff $n
+  say Give that to him.
+  say Oh while I remember! You best stop by elemental canyon and get him some Magic Dust. He will be needing that.
+  mob remquest $n to get the staff from the Hierophant.
+  mob tempquest $n to find and return some magic dust to Kharandor.
+endif
+~
+#12317
+if isnpc $n
+  break
+endif
+if hasquest $n 'decided to join the family of Druids.'
+and hasquest $n 'given the staff and magic dust to Kharandor.'
+  if hasquest $n 'passed the scroll on to the Master Scout.'
+    break
+  endif
+  if hasquest $n 'passed the scroll on to Torilar.'
+    say As I said. Please take the scroll to the Master Elf Scout in the Great Elf Valley.
+    tempquest $n to deliver the scroll to the Master Elf Scout.
+    break
+  endif
+  say A note from Kharandor? It must be important. Let me see.
+  emote takes the scroll from you and reads.
+  say Um....alright, alright.
+  emote adds a few lines and hands you back the scroll.
+  say Take this to the Master Elf Scout in the Great Elf Valley. He will need to see it and give you something he has.
+  tempquest $n to deliver the scroll to the Master Elf Scout.
+  remquest $n to deliver a scroll to Torilar in Darkling Wood.
+  tempquest $n passed the scroll on to Torilar.
+endif
+~
+#12318
+if isnpc $n
+  break
+endif
+if hasquest $n 'decided to join the family of Druids.'
+and hasquest $n 'passed the scroll on to Torilar.'
+  if hasquest $n 'given Kharandor his candles.'
+    break
+  endif
+  if hasquest $n 'passed the scroll on to the Master Scout.'
+    say You need to get yourself back to Kharandor with those candles.
+    tempquest $n to return to Kharandor with the candles.
+    break
+  endif
+  say You have a note for me? Torilar eh?
+  emote takes the scroll from you and reads.
+  say Ah yes the candles. Here you go give these to Kharandor.
+  emote hands you some candles which you put away safely.
+  tempquest $n to return to Kharandor with the candles.
+  remquest $n to deliver the scroll to the Master Elf Scout.
+  tempquest $n passed the scroll on to the Master Scout.
+endif
+~
+#12319
+if isdelay $i
+or isnpc $n
+or level $n < 25
+or level $n > 30
+  break
+endif
+say If you seek to join our ranks first attain the title Sword of the Forest. 
+say Then seek out Kharandor the druid of the Shrine.
+~
+#12320
+if isnpc $n
+or hasquest $n 'embraced the undead horde.'
+or hasquest $n 'failed to satisfy the Scourge god.'
+break
+endif
+if hasquest $n 'retrieved the vial of souls.`1``'
+or hasquest $n 'retrieved the vial of souls.`2``'
+mob call 12321 $n null null
+break
+endif
+if hasquest $n 'passed the trial of knowledge.`7`0``'
+or hasquest $n 'passed the trial of knowledge.`8`0``'
+or hasquest $n 'passed the trial of knowledge.`7`1``'
+or hasquest $n 'passed the trial of knowledge.`8`1``'
+mob call 12322 $n null null
+break
+endif
+if hasquest $n 'passed the trial of combat.`1`0``'
+or hasquest $n 'passed the trial of combat.`1`1``'
+or hasquest $n 'passed the trial of combat.`2`0``'
+or hasquest $n 'passed the trial of combat.`2`1``'
+or hasquest $n 'passed the trial of combat.`3`0``'
+or hasquest $n 'passed the trial of combat.`3`1``'
+mob call 12323 $n null null
+break
+endif
+if hasquest $n 'passed the trial of wisdom.`1``'
+or hasquest $n 'passed the trial of wisdom.`2``'
+or hasquest $n 'passed the trial of wisdom.`3``'
+mob call 12324 $n null null
+break
+endif
+if hasquest $n 'made your delivery to the Death shrines.'
+or hasquest $n 'made your delivery to the Death shrines.`2``'
+or hasquest $n 'made your delivery to the Death shrines.`3``'
+mob call 12325 $n null null
+break
+endif
+if hasquest $n 'to seek out the shrine of Deaths Scourge.'
+or hasquest $n 'been accepted as an undead candidate.`1``'
+or hasquest $n 'been accepted as an undead candidate.`2``'
+or hasquest $n 'been accepted as an undead candidate.`3``'
+or hasquest $n 'been accepted as an undead candidate.`4``'
+mob call 12326 $n null null
+break
+endif
+~
+#12321
+if hasquest $n 'retrieved the vial of souls.`1``'
+  emote takes the vial of souls from you.
+  say Well you have retrieved the vial I see.
+  say However, you do not have what it takes to join the undead horde.
+  say You have much to learn.
+  emote smashes the vial on the ground.
+  say Now BEGONE!
+  mob remquest $n retrieved the vial of souls.`1``
+  mob permquest $n failed to satisfy the Scourge god.
+  break
+endif
+if hasquest $n 'retrieved the vial of souls.`2``'
+  emote takes the vial of souls from you.
+  say Well done. You have shown yourself to be ruthless enough to join the undead horde.
+  mob remquest $n retrieved the vial of souls.`2``
+  mob permquest $n embraced the undead horde.
+  qundead $N
+  break
+endif
+~
+#12322
+if hasquest $n 'passed the trial of knowledge.`2``'
+or hasquest $n 'passed the trial of knowledge.`3``'
+or hasquest $n 'passed the trial of knowledge.`4``'
+or hasquest $n 'passed the trial of knowledge.`5``'
+or hasquest $n 'passed the trial of knowledge.`6``'
+  if rand 50
+    if hasquest $n 'passed the trial of knowledge.`2``'
+    or hasquest $n 'passed the trial of knowledge.`3``'
+      mob remquest $n passed the trial of knowledge.`2``
+      mob remquest $n passed the trial of knowledge.`3``
+      mob permquest $n passed the trial of knowledge.`7`0``
+    else
+      mob remquest $n passed the trial of knowledge.`4``
+      mob remquest $n passed the trial of knowledge.`5``
+      mob remquest $n passed the trial of knowledge.`6``
+      mob permquest $n passed the trial of knowledge.`8`0``
+    endif
+  else
+    if hasquest $n 'passed the trial of knowledge.`2``'
+    or hasquest $n 'passed the trial of knowledge.`3``'
+      mob remquest $n passed the trial of knowledge.`2``
+      mob remquest $n passed the trial of knowledge.`3``
+      mob permquest $n passed the trial of knowledge.`7`1``
+    else
+      mob remquest $n passed the trial of knowledge.`4``
+      mob remquest $n passed the trial of knowledge.`5``
+      mob remquest $n passed the trial of knowledge.`6``
+      mob permquest $n passed the trial of knowledge.`8`1``
+    endif
+  endif
+endif 
+if hasquest $n 'passed the trial of knowledge.`7`0``'
+or hasquest $n 'passed the trial of knowledge.`8`0``'
+  say Now $N your final task.
+  say Decipher this and bring me the vial of souls from the person referred to.
+  say Find her and ask about the vial.
+  say Listen carefully.
+  say 'A baker here inept' does stand,
+  say Serving all but not with bread
+  say Rough sexy woman apron clad
+  say Mess with her you'd end up dead.
+  break
+endif
+if hasquest $n 'passed the trial of knowledge.`7`1``'
+or hasquest $n 'passed the trial of knowledge.`8`1``'
+  say Now $N your final task.
+  say Decipher this and bring me the vial of souls from the person referred to.
+  say Find him and ask about the vial.
+  say Listen carefully.
+  say General of an Unholy Force
+  say He patiently awaits his master
+  say So 'try hike near Rah'
+  say and find the vial you are after.
+  break
+endif
+~
+#12323
+if hasquest $n 'passed the trial of wisdom.`1``'
+or hasquest $n 'passed the trial of wisdom.`2``'
+or hasquest $n 'passed the trial of wisdom.`3``'
+  mob force minion cackle
+  mob force minion say That showed him.
+  mob force minion say Now..... another question for you.
+  if rand 50 then
+    if hasquest $n 'passed the trial of wisdom.`1``'
+      mob remquest $n passed the trial of wisdom.`1``
+      mob permquest $n passed the trial of combat.`1`0``
+    endif
+    if hasquest $n 'passed the trial of wisdom.`2``'
+      mob remquest $n passed the trial of wisdom.`2``
+      mob permquest $n passed the trial of combat.`2`0``
+    endif
+    if hasquest $n 'passed the trial of wisdom.`3``'
+      mob remquest $n passed the trial of wisdom.`3``
+      mob permquest $n passed the trial of combat.`3`0``
+    endif
+  else
+    if hasquest $n 'passed the trial of wisdom.`1``'
+      mob remquest $n passed the trial of wisdom.`1``
+      mob permquest $n passed the trial of combat.`1`1``
+    endif
+    if hasquest $n 'passed the trial of wisdom.`2``'
+      mob remquest $n passed the trial of wisdom.`2``
+      mob permquest $n passed the trial of combat.`2`1``
+    endif
+    if hasquest $n 'passed the trial of wisdom.`3``'
+      mob remquest $n passed the trial of wisdom.`3``
+      mob permquest $n passed the trial of combat.`3`1``
+    endif  
+  endif  
+endif
+if hasquest $n 'passed the trial of combat.`1`0``'
+or hasquest $n 'passed the trial of combat.`2`0``'
+or hasquest $n 'passed the trial of combat.`3`0``'
+  mob echoat $n ``A minion of Ixtaros says '`#The question.``'
+  mob echoat $n ``A minion of Ixtaros says '`#A group of three filthy lightwalkers are attacking your guild with you``'
+  mob echoat $n ``A minion of Ixtaros says '`#inside in an attempt to draw you out.``'
+  mob echoat $n ``A minion of Ixtaros says '`#Do you :``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!WAIT`# for them to slay your guildmaster before acting?``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!RUSH`# out and aid your guildmaster in his battle?``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!FLEE`# past them and hide somewhere?``'
+  break
+endif
+if hasquest $n 'passed the trial of combat.`1`1``'
+or hasquest $n 'passed the trial of combat.`2`1``'
+or hasquest $n 'passed the trial of combat.`3`1``'
+  mob echoat $n ``A minion of Ixtaros says '`#The question.``'
+  mob echoat $n ``A minion of Ixtaros says '`#After being slain by you your victim does not appear to have learned``'
+  mob echoat $n ``A minion of Ixtaros says '`#his lesson and is throwing the most horrendous insults and abuse at``'
+  mob echoat $n ``A minion of Ixtaros says '`#you while still a ghost. Eventually his time as a ghost ends and his``'
+  mob echoat $n ``A minion of Ixtaros says '`#god no longer protects him. He has no equipment as you stole it when``'
+  mob echoat $n ``A minion of Ixtaros says '`#you killed him.``'
+  mob echoat $n ``A minion of Ixtaros says '`#Do you :``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!SLAY`# him again for his insults?``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!IGNORE`# his remarks and go about your business?``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!LET`# him take time to re-equip before attacking him again?``'
+  break
+endif
+~
+#12324
+if mobhere 2719
+  say You going to kill this piece of filth or not ?
+  emote motions towards Sirant's paladin.
+else
+  mob mload 2719
+  emote throws his hands up and conjures one of Sirant's paladins.
+  spit
+  say Kill this scum of the light $N!
+endif
+~
+#12325
+if hasquest $n 'made your delivery to the Death shrines.`2``'
+  mob echoat $n ``A minion of Ixtaros says '`#I am still waiting for an answer $N. Here is the question again.``'
+  mob echoat $n ``A minion of Ixtaros says '`#You have spent many years reaching your pinnacle with a fellow``'
+  mob echoat $n ``A minion of Ixtaros says '`#walker of the dark path. You both belong to the same guild and a while``'
+  mob echoat $n ``A minion of Ixtaros says '`#later you run into him and notice he has done Ixtarosr well for himself.``'
+  mob echoat $n ``A minion of Ixtaros says '`#He has some nice rare boots that you desire greatly. You gauge that``'
+  mob echoat $n ``A minion of Ixtaros says '`#in combat you would probably gain the upper hand. Do you :``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!TELL`# him to hand over the boots on pain of death?``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!ASK`# him to help you get some boots from the creature who carries them?``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!ATTACK`# him in an attempt to gain them?``'
+  break
+endif
+if hasquest $n 'made your delivery to the Death shrines.`3``'
+  mob echoat $n ``A minion of Ixtaros says '`#I am still waiting for an answer $N. Here is the question again.``'
+  mob echoat $n ``A minion of Ixtaros says '`#You and another member of your guild are engaged in combat with a tough``'
+  mob echoat $n ``A minion of Ixtaros says '`#beast. The beast slays your associate just before you manage to kill it.``'
+  mob echoat $n ``A minion of Ixtaros says '`#Looking in your associate's corpse you notice many nice things that would``'
+  mob echoat $n ``A minion of Ixtaros says '`#look good on you. Do you :``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!TAKE`# the things from his corpse that you want and shrug it off?``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!LEAVE`# his things and wait for him to return?``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!STEAL`# the things from his corpse and claim another stole them?``'
+  break
+endif
+mob remquest $n made your delivery to the Death shrines.
+mob echoat $n ``A minion of Ixtaros says '`#Now listen to this question carefully and answer with ONE word.``'
+if rand 50
+  mob permquest $n made your delivery to the Death shrines.`2``
+  mob echoat $n ``A minion of Ixtaros says '`#You have spent many years reaching your pinnacle with a fellow``'
+  mob echoat $n ``A minion of Ixtaros says '`#walker of the dark path. You both belong to the same guild and a while``'
+  mob echoat $n ``A minion of Ixtaros says '`#later you run into him and notice he has done Ixtarosr well for himself.``'
+  mob echoat $n ``A minion of Ixtaros says '`#He has some nice rare boots that you desire greatly. You gauge that``'
+  mob echoat $n ``A minion of Ixtaros says '`#in combat you would probably gain the upper hand. Do you :``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!TELL`# him to hand over the boots on pain of death?``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!ASK`# him to help you get some boots from the creature who carries them?``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!ATTACK`# him in an attempt to gain them?``'
+  break
+else
+  mob permquest $n made your delivery to the Death shrines.`3``
+  mob echoat $n ``A minion of Ixtaros says '`#You and another member of your guild are engaged in combat with a tough``'
+  mob echoat $n ``A minion of Ixtaros says '`#beast. The beast slays your associate just before you manage to kill it.``'
+  mob echoat $n ``A minion of Ixtaros says '`#Looking in your associate's corpse you notice many nice things that would``'
+  mob echoat $n ``A minion of Ixtaros says '`#look good on you. Do you :``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!TAKE`# the things from his corpse that you want and shrug it off?``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!LEAVE`# his things and wait for him to return?``'
+  mob echoat $n ``A minion of Ixtaros says '`#`!STEAL`# the things from his corpse and claim another stole them?``'
+  break
+endif
+~
+#12326
+if hasquest $n 'been accepted as an undead candidate.`3``'
+emote glares at you angrily.
+say What are you doing here ? I told you to get yourself to the temple of Necropsy.
+say Now begone!
+emote waves you away.
+break
+endif
+if hasquest $n 'been accepted as an undead candidate.`4``'
+emote glares at you angrily.
+say Didn't an unholy voice tell you to go the the temple of Cycle ?
+peer
+say Yes I thought so.
+say Now begone!
+emote waves you away.
+break
+endif
+if hasquest $n 'been accepted as an undead candidate.`1``'
+say $N I still await the answer to my question. Here it is again.
+say What force and strength cannot get through, I with a gentle touch can do. 
+say And many in the street would stand, were I not a friend at hand. 
+say What am I?
+break
+endif
+if hasquest $n 'been accepted as an undead candidate.`2``'
+say $N I still await the answer to my question. Here it is again.
+say I can sizzle like bacon, 
+say I am made with an egg, 
+say I have plenty of backbone, but lack a good leg, 
+say I peel layers like onions, but still remain whole, 
+say I can be long, like a flagpole, yet fit in a hole, 
+say What am I?  
+break
+endif
+say Aaah $N, my Lord told me you would be coming.
+peer $n
+say To be one of the soul-less you must answer my questions and fulfil my demands.
+say Failure to do any of the tasks or to do them incorrectly will result in.....
+emote grins nastily.
+say Well you can probably guess.
+say Alright. First you must use your intelligence to answer this riddle.
+mob remquest $n to seek out the shrine of Deaths Scourge.
+if rand 50
+mob permquest $n been accepted as an undead candidate.`1``
+say What force and strength cannot get through, I with a gentle touch can do. 
+say And many in the street would stand, were I not a friend at hand. 
+say What am I?
+break
+else
+mob permquest $n been accepted as an undead candidate.`2``
+say I can sizzle like bacon, 
+say I am made with an egg, 
+say I have plenty of backbone, but lack a good leg, 
+say I peel layers like onions, but still remain whole, 
+say I can be long, like a flagpole, yet fit in a hole, 
+say What am I?
+endif
+~
+#12327
+if hasquest $n 'been accepted as an undead candidate.`1``'
+  mob remquest $n been accepted as an undead candidate.`1``
+  mob permquest $n been accepted as an undead candidate.`3``
+  emote gives a wide evil grin.
+  say That is the correct answer.
+  emote produces a small black key and hands it to you.
+  mob echoat $n You place the key carefully inside your clothing.
+  say Now take this key to the shrine of Necropsy.
+  say You will receive further instruction there.
+  emote waves you away.
+endif
+~
+#12328
+if hasquest $n 'been accepted as an undead candidate.`2``'
+  mob remquest $n been accepted as an undead candidate.`2``
+  mob permquest $n been accepted as an undead candidate.`3``
+  emote gives a wide evil grin.
+  say That is the correct answer.
+  emote produces a small dead snake and hands it to you.
+  mob echoat $n You place the snake carefully inside your clothing.
+  say Now take this snake to the shrine of Necropsy.
+  say You will receive further instruction there.
+  emote waves you away.
+endif
+~
+#12331
+if hasquest $n 'made your delivery to the Death shrines.`2``'
+  mob remquest $n made your delivery to the Death shrines.`2``
+  say Very well then.
+  mob permquest $n passed the trial of wisdom.`1``
+  mob call 12324 $n null null
+endif
+~
+#12332
+if hasquest $n 'made your delivery to the Death shrines.`2``'
+  mob remquest $n made your delivery to the Death shrines.`2``
+  say Very well then.
+  mob permquest $n passed the trial of wisdom.`2``
+  mob call 12324 $n null null
+endif
+~
+#12333
+if hasquest $n 'made your delivery to the Death shrines.`2``'
+  mob remquest $n made your delivery to the Death shrines.`2``
+  say Very well then.
+  mob permquest $n passed the trial of wisdom.`3``
+  mob call 12324 $n null null
+endif
+~
+#12334
+if hasquest $n 'made your delivery to the Death shrines.`3``'
+  mob remquest $n made your delivery to the Death shrines.`3``
+  say Very well then.
+  mob permquest $n passed the trial of wisdom.`1``
+  mob call 12324 $n null null
+endif
+~
+#12335
+if hasquest $n 'made your delivery to the Death shrines.`3``'
+  mob remquest $n made your delivery to the Death shrines.`3``
+  say Very well then.
+  mob permquest $n passed the trial of wisdom.`2``
+  mob call 12324 $n null null
+endif
+~
+#12336
+if hasquest $n 'made your delivery to the Death shrines.`3``'
+  mob remquest $n made your delivery to the Death shrines.`3``
+  say Very well then.
+  mob permquest $n passed the trial of wisdom.`3``
+  mob call 12324 $n null null
+endif
+~
+#12337
+if hasquest $n 'passed the trial of wisdom.`1``'
+or hasquest $n 'passed the trial of wisdom.`2``'
+or hasquest $n 'passed the trial of wisdom.`3``'
+  mob call 12323 $n null null 
+endif
+~
+#12338
+if hasquest $n 'passed the trial of combat.`1`0``'
+  mob remquest $n passed the trial of combat.`1`0``
+  mob permquest $n passed the trial of knowledge.`2``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+if hasquest $n 'passed the trial of combat.`2`0``'
+  mob remquest $n passed the trial of combat.`2`0``
+  mob permquest $n passed the trial of knowledge.`3``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+if hasquest $n 'passed the trial of combat.`3`0``'
+  mob remquest $n passed the trial of combat.`3`0``
+  mob permquest $n passed the trial of knowledge.`4``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+~
+#12339
+if hasquest $n 'passed the trial of combat.`1`0``'
+  mob remquest $n passed the trial of combat.`1`0``
+  mob permquest $n passed the trial of knowledge.`3``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+if hasquest $n 'passed the trial of combat.`2`0``'
+  mob remquest $n passed the trial of combat.`2`0``
+  mob permquest $n passed the trial of knowledge.`4``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+if hasquest $n 'passed the trial of combat.`3`0``'
+  mob remquest $n passed the trial of combat.`3`0``
+  mob permquest $n passed the trial of knowledge.`5``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+~
+#12340
+if hasquest $n 'passed the trial of combat.`1`0``'
+  mob remquest $n passed the trial of combat.`1`0``
+  mob permquest $n passed the trial of knowledge.`4``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+if hasquest $n 'passed the trial of combat.`2`0``'
+  mob remquest $n passed the trial of combat.`2`0``
+  mob permquest $n passed the trial of knowledge.`5``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+if hasquest $n 'passed the trial of combat.`3`0``'
+  mob remquest $n passed the trial of combat.`3`0``
+  mob permquest $n passed the trial of knowledge.`6``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+~
+#12341
+if hasquest $n 'passed the trial of combat.`1`1``'
+  mob remquest $n passed the trial of combat.`1`1``
+  mob permquest $n passed the trial of knowledge.`2``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+if hasquest $n 'passed the trial of combat.`2`1``'
+  mob remquest $n passed the trial of combat.`2`1``
+  mob permquest $n passed the trial of knowledge.`3``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+if hasquest $n 'passed the trial of combat.`3`1``'
+  mob remquest $n passed the trial of combat.`3`1``
+  mob permquest $n passed the trial of knowledge.`4``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+~
+#12342
+if hasquest $n 'passed the trial of combat.`1`1``'
+  mob remquest $n passed the trial of combat.`1`1``
+  mob permquest $n passed the trial of knowledge.`3``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+if hasquest $n 'passed the trial of combat.`2`1``'
+  mob remquest $n passed the trial of combat.`2`1``
+  mob permquest $n passed the trial of knowledge.`4``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+if hasquest $n 'passed the trial of combat.`3`1``'
+  mob remquest $n passed the trial of combat.`3`1``
+  mob permquest $n passed the trial of knowledge.`5``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+~
+#12343
+if hasquest $n 'passed the trial of combat.`1`1``'
+  mob remquest $n passed the trial of combat.`1`1``
+  mob permquest $n passed the trial of knowledge.`4``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+if hasquest $n 'passed the trial of combat.`2`1``'
+  mob remquest $n passed the trial of combat.`2`1``
+  mob permquest $n passed the trial of knowledge.`5``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+if hasquest $n 'passed the trial of combat.`3`1``'
+  mob remquest $n passed the trial of combat.`3`1``
+  mob permquest $n passed the trial of knowledge.`6``
+  say Very well.
+  mob call 12322 $n null null
+  break
+endif
+~
+#12344
+if hasquest $n 'retrieved the vial of souls.`1``'
+or hasquest $n 'retrieved the vial of souls.`2``'
+  say Quickly now. Take the vial of souls to Ixtaros's minion.
+  break
+endif
+if hasquest $n 'passed the trial of knowledge.`7`0``'
+or hasquest $n 'passed the trial of knowledge.`8`0``'
+  peer $n
+  say Ah yes the vial of souls. You have done well to find me with it.
+  emote hands you a glass vial which you quickly put under your clothes.
+  say Now take it back to Ixtaros's minion.
+  if hasquest $n 'passed the trial of knowledge.`7`0``'
+    mob remquest $n passed the trial of knowledge.`7`0``
+    mob permquest $n retrieved the vial of souls.`1``
+  endif
+  if hasquest $n 'passed the trial of knowledge.`8`0``'
+    mob remquest $n passed the trial of knowledge.`8`0``
+    mob permquest $n retrieved the vial of souls.`2``
+  endif
+endif
+~
+#12345
+if hasquest $n 'retrieved the vial of souls.`1``'
+or hasquest $n 'retrieved the vial of souls.`2``'
+  say Quickly now. Take the vial of souls to Ixtaros's minion.
+  break
+endif
+if hasquest $n 'passed the trial of knowledge.`7`1``'
+or hasquest $n 'passed the trial of knowledge.`8`1``'
+  peer $n
+  say Ah yes the vial of souls. You have done well to find me with it.
+  emote hands you a glass vial which you quickly put under your clothes.
+  say Now take it back to Ixtaros's minion.
+  if hasquest $n 'passed the trial of knowledge.`7`1``'
+    mob remquest $n passed the trial of knowledge.`7`1``
+    mob permquest $n retrieved the vial of souls.`1``
+  endif
+  if hasquest $n 'passed the trial of knowledge.`8`1``'
+    mob remquest $n passed the trial of knowledge.`8`1``
+    mob permquest $n retrieved the vial of souls.`2``
+  endif
+endif
+~
+#12390
+if level $n > 10
+    break
+else
+     mob rescue $n
+endif
+~
+#12391
+if level $n > 10
+    break
+endif
+if isdelay $I
+     say Hm, can't seem to find any around here, $n.
+     shrug
+else
+     say Yes, I think it is time for a meal...
+     mob cast 'create food'
+     mob cast 'create spring'
+     get food
+     give food $n
+     say There ya go, $n.
+     mob delay 25
+endif
+~
+#12392
+if level $n > 10
+    break
+endif
+if hpcnt $n < 5
+    say You look grave, $n. It's time for some real healing...
+    mob cast 'esuna' $n
+    break
+endif 
+if hpcnt $n < 10
+    say Oh my, you are really wounded, $n. Let me see if I can heal you up...
+    mob cast 'heal' $n
+    break
+endif 
+if hpcnt $n < 30
+    say Some deep wounds there, $n. Let me see what I can do.
+    mob cast 'cure critical' $n
+    break
+endif
+if hpcnt $n < 40
+    say This should fix those scratches and scrapes right up, $n. 
+    mob cast 'cure serious' $n
+    break
+else
+    say You're not really banged up that bad, $n.
+    smirk
+    say Best toughen up, or you in for a hard life!
+    break
+endif 
+~
+#12393
+if level $n > 10
+    break
+else
+    say Sure, $n. Let me check your feet for blisters...
+    mob cast 'refresh' $n
+    say There, all better, eh?
+    smile $n
+endif
+~
+#12394
+if hpcnt $I < 10
+     say I'm getting out of here!
+     flee
+endif
+~
+#12395
+if rand 50
+     if rand 50
+          if rand 50
+               twiddle
+          else
+               sigh
+  endif
+     else
+  if rand 50
+       stretch
+  else
+       snort
+  endif
+     endif
+else
+     if rand 50
+          if rand 50
+               yawn
+          else
+               smirk
+  endif
+     else
+  if rand 50
+       cough
+  else
+       nod
+  endif
+     endif
+endif
+~
+#12396
+if level $n > 10
+    break
+endif
+if hasquest $n 'Received some money from a University Guide'
+     say Sorry, I'm pretty much broke now, $n.
+     break
+else
+     give 500 gold $n
+     say That's all I have on me, $n. Should help you get a mount, or get through the gates.
+     shrug
+     mob permquest $n Received some money from a University Guide
+endif
+~
+#12397
+OUTFIT
+if level $n > 10
+    break
+endif
+if hasquest $n 'Been outfitted in attire by the University Guide'
+     say I'm all out of items to give you, $n.
+     break
+else
+     say Ah, yes, I suppose it is time to get you some clothing...
+     mob oload 7775
+     mob oload 7775
+     give all $n
+     mob oload 8142
+     give 1. $n
+     mob oload 8141
+     give 1. $n
+     mob cast 'continual light'
+     get ball
+     give ball $n
+     mob oload 7734
+     mob oload 7743
+     give cloak $n
+     give cloak $n
+     mob oload 7741
+     give beret $n
+     mob oload 5801
+     give boots $n
+     mob oload 5800
+     give barrel $n
+     mob oload 5805
+     give belt $n
+     mob oload 7984
+     give sack $n
+     say That should just about cover it, $n.
+     mob permquest $n Been outfitted in attire by the University Guide
+     smile $n
+endif
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#12101
+if mobhere !4111!
+  obj force !4111! pmote grins with passion as he works the levers, dials and knobs!
+  obj cast 'identify' $o
+else
+  obj echoat $n Lacking a single clue as to how $I works you fail to achive anything.
+endif
+~
+#12102
+if hasquest $n 'to look for a vial in a hole west of Lerant.'
+  obj echoat $n 
+  obj echoat $n As you enter your eyes are drawn to the chest on the ground.
+  obj echoat $n With great dexterity you grab the vial before the guards even notice!
+  obj echoaround $n With great dexterity $N grabs the vial from the chest!
+  obj oload 5212 $n
+  obj echoat $n 
+  obj echoat $n `@You have found the chest with a vial of sanctuary!.``
+  obj gain exp pc $n 500 550
+  obj remquest $n to look for a vial in a hole west of Lerant.
+  obj remquest $n to ask Lerant the Ranger about vials.
+  obj tempquest $n to return to Tamara with the Sparkling Vial.
+endif
+~
+#12103
+if isdelay $i
+  break
+endif
+if ispc $n
+and hasquest $n 'to find the Bow Drawings under Leominter for Sharper.'
+  obj echoat $n As you tinker with $I you accidently bump into its arm.
+  obj echoaround $n As $N tinkers with $I a loud creak issues from the statue.
+  obj echo A small, hidden panel on the belly of the horse opens up and scroll falls out.
+  obj oload 32078 room
+  obj delay 48
+endif
+~
+#12104
+if iscombat $n
+  if cabal $n 'warmaster'
+    obj echoat $n 'This is not the way a Warmaster should act!'
+    break
+  endif
+else
+  obj echoat $n You must be in combat first.
+  break
+endif
+if isdelay $i
+  obj echoat $n $I's powers are drained.
+  break
+endif
+if ispc $f
+  obj echoat $n $I's powers are useful only against dragons.
+  break
+endif
+if name $f dragon
+  obj echoat $n $I sings in your hand as it swings!
+  obj echoaround $n $I sings in $N's hand as it swings!
+  obj echoat $n Your swing `3>>> ANNIHILATES <<<`` $F!
+  obj echoaround $n $N's swing `3>>> ANNIHILATES <<<`` $F!
+  obj damage $f 350 500 kill
+  obj delay 4
+else 
+  obj echoat $n $F is not a dragon!
+endif
+~
+#0
+
+#ROOMPROGS
+#12101
+if ispc $n
+  if hasquest $n 'to enter each of the Alchemist Portals.'
+  or hasquest $n 'to enter each of the City Gates.'
+    if hasquest $n 'found the Ulsym to Revelsport Gate.'
+      break
+    else
+      room tempquest $n found the Ulsym to Revelsport Gate.
+      room echoat $n ``
+      room echoat $n `@You have found the Ulsym to Revelsport gate!``
+      room echoat $n Now make sure you have 200 gold to pay for travel to Revelsport.
+      room echoat $n Say the name of the city, and enter the portal when it appears!
+    endif
+  endif
+endif
+~
+#12102
+if ispc $n
+  if hasquest $n 'to enter each of the Alchemist Portals.'
+  or hasquest $n 'to enter each of the City Gates.'
+    if hasquest $n 'found the Revelsport to Zalango Gate.'
+      break
+    else
+      room tempquest $n found the Revelsport to Zalango Gate.
+      room echoat $n ``
+      room echoat $n `@You have found the Revelsport to Zalango gate!``
+      room echoat $n Now make sure you have 200 gold to pay for travel to Zalango.
+      room echoat $n Say the name of the city, and enter the portal when it appears!
+    endif
+  endif
+endif
+~
+#12103
+if ispc $n
+  if hasquest $n 'to enter each of the Alchemist Portals.'
+  or hasquest $n 'to enter each of the City Gates.'
+    if hasquest $n 'found the Zalango to Ulsym Gate.'
+      break
+    else
+      room tempquest $n found the Zalango to Ulsym Gate.
+      room echoat $n ``
+      room echoat $n `@You have found the Zalango to Ulsym gate!``
+      room echoat $n Now make sure you have 20 gold to pay for travel to Ulsym.
+      room echoat $n Say the name of the city, and enter the portal when it appears!
+    endif
+  endif
+endif
+~
+#12104
+if ispc $n
+and hasquest $n 'to carry mail to the temples of Ulsym, Revelsport and Zalango.'
+  if hasquest $n 'delivered mail to Temple of Atonment.'
+    break
+  else
+    room tempquest $n delivered mail to Temple of Atonment.
+    room echoat $n ``
+    room echoat $n `@As you enter an altar boy grabs one of the scrolls from your hands.``
+    room echoat $n An Altar boy says '`#If you require it, you may use the "heal" service here.``'
+    room echoat $n An Altar boy runs off with the scroll.
+  endif
+endif
+~
+#12105
+if ispc $n
+and hasquest $n 'to carry mail to the temples of Ulsym, Revelsport and Zalango.'
+  if hasquest $n 'delivered mail to Temple of Calamity.'
+    break
+  else
+    room tempquest $n delivered mail to Temple of Calamity.
+    room echoat $n ``
+    room echoat $n `@As you enter a cloaked man grabs one of the scrolls from your hands.``
+    room echoat $n A cloked man says '`#If you require it, you may use the "heal" service here.``'
+    room echoat $n A cloaked man walks off with the scroll.
+  endif
+endif
+~
+#12106
+if ispc $n
+and hasquest $n 'to carry mail to the temples of Ulsym, Revelsport and Zalango.'
+  if hasquest $n 'delivered mail to Temple of Abstraction.'
+    break
+  else
+    room tempquest $n delivered mail to Temple of Abstraction.
+    room echoat $n ``
+    room echoat $n `@As you enter a servant takes one of the scrolls from your hands.``
+    room echoat $n A servant says '`#If you require it, you may use the "heal" service here.``'
+    room echoat $n A servant man walks off with the scroll.
+  endif
+endif
+~
+#12107
+if ispc $n
+and hasquest $n 'to carry mail to the temples of Ulsym, Revelsport and Zalango.'
+  if hasquest $n 'delivered mail to Temple of Light.'
+    break
+  else
+    room tempquest $n delivered mail to Temple of Light.
+    room echoat $n ``
+    room echoat $n `@As you enter an armored cleric takes one of the scrolls from your hands.``
+    room echoat $n An armored cleric says '`#If you require it, you may use the "heal" service here.``'
+    room echoat $n An armored cleric carries the scroll away with his armor creaking.
+  endif
+endif
+~
+#12108
+if ispc $n
+and hasquest $n 'to carry mail to the temples of Ulsym, Revelsport and Zalango.'
+  if hasquest $n 'delivered mail to Temple of Neutrality.'
+    break
+  else
+    room tempquest $n delivered mail to Temple of Neutrality.
+    room echoat $n ``
+    room echoat $n `@As you enter a priest takes one of the scrolls from your hands.``
+    room echoat $n A priest says '`#If you require it, you may use the "heal" service here.``'
+    room echoat $n A priest carries the scroll away with his armor creaking.
+  endif
+endif
+~
+#12109
+if ispc $n
+and hasquest $n 'to carry mail to the temples of Ulsym, Revelsport and Zalango.'
+  if hasquest $n 'delivered mail to Altar of Sirens.'
+    break
+  else
+    room tempquest $n delivered mail to Altar of Sirens.
+    room echoat $n ``
+    room echoat $n `@As you enter a something hits you hard over the head..``
+    room echoat $n When you come to seconds later, you notice one of the scrolls missing.
+    room echoat $n Someone chuckles.
+  endif
+endif
+~
+#12110
+if ispc $n
+and hasquest $n 'to find Eddeltris, a town north of Luva.'
+  room echoat $n ``
+  room echoat $n `&HINT: Use "look sky" command ("help look") to see what area you are in.``
+  room remquest $n to find Eddeltris, a town south of Ulsym.
+  room tempquest $n to find Eddeltris, a town south of Ulsym.``
+endif
+~
+#12111
+if ispc $n
+  if hasquest $n 'to find Eddeltris, a town north of Luva.'
+  or hasquest $n 'to find Eddeltris, a town north of Luva.``'
+    room echoat $n ``
+    room echoat $n `@You have found Eddeltris! You've gained some experience!``
+    room echoat $n You have a feeling that Dadlebert the Inventor can't be far off.
+    room remquest $n to find Eddeltris, a town south of Ulsym.
+    room remquest $n to find Eddeltris, a town south of Ulsym.``
+    room gain exp pc $n 350 500
+  endif
+endif
+~
+#12112
+if isnpc $n
+  break
+endif
+if hasquest $n 'to find Lerant the Ranger west and south of Ulsym.`1``'
+  break
+endif
+if hasquest $n 'to find Lerant the Ranger west and south of Ulsym.'
+or hasquest $n 'to find Lerant the Ranger west and south of Ulsym.`2``'
+  room echoat $n ``
+  room echoat $n `&As you travel your eyes are drawn to a small forest south of here.``
+  room remquest $n to find Lerant the Ranger west and south of Ulsym.
+  room remquest $n to find Lerant the Ranger west and south of Ulsym.`2``
+  room tempquest $n to find Lerant the Ranger west and south of Ulsym.`1``
+endif
+~
+#12113
+if isnpc $n
+  break
+endif
+if hasquest $n 'to find Lerant the Ranger west and south of Ulsym.`2``'
+  break
+endif
+if hasquest $n 'to find Lerant the Ranger west and south of Ulsym.'
+or hasquest $n 'to find Lerant the Ranger west and south of Ulsym.`1``'
+  room echoat $n ``
+  room echoat $n `&On the east horizon you spot a large flying citidel.``
+  room remquest $n to find Lerant the Ranger west and south of Ulsym.
+  room remquest $n to find Lerant the Ranger west and south of Ulsym.`1``
+  room tempquest $n to find Lerant the Ranger west and south of Ulsym.`2``
+endif
+~
+#12114
+if isnpc $n
+  break
+endif
+if hasquest $n 'to find Lerant the Ranger west and south of Ulsym.'
+or hasquest $n 'to find Lerant the Ranger west and south of Ulsym.`1``'
+or hasquest $n 'to find Lerant the Ranger west and south of Ulsym.`2``'
+  room echoat $n ``
+  room echoat $n `@You have found Lerant! You've gained some experience!``
+  room remquest $n to find Lerant the Ranger west and south of Ulsym.
+  room remquest $n to find Lerant the Ranger west and south of Ulsym.`1``
+  room remquest $n to find Lerant the Ranger west and south of Ulsym.`2``
+  room gain exp pc $n 500 550
+endif
+~
+#12115
+if hasquest $n 'to look for a vial in a hole west of Lerant.'
+  if getdelay > 0
+    break
+  endif
+  room echoat $n ``
+  room echoat $n `&HINT: USE "open west" ("help open") command to open doors.
+  room echoat $n ``
+  room delay 1
+endif
+~
+#12116
+if hasquest $n 'to look for a vial in a hole west of Lerant.'
+  if getdelay > 0
+    break
+  endif
+  room echoat $n ``
+  room echoat $n `&HINT: USE "scan south" ("help scan") to test for danger.
+  room echoat $n ``
+  room delay 1
+endif
+~
+#12117
+if isnpc $n
+or hasquest $n 'to return to Tamara with the Sparkling Vial.``'
+  break
+endif
+if hasquest $n 'to return to Tamara with the Sparkling Vial.'
+  room echoat $n You hear someone's death cry.
+  room remquest $n to return to Tamara with the Sparkling Vial.
+  room tempquest $n to return to Tamara with the Sparkling Vial.``
+endif
+~
+#12118
+if hasquest $n 'to buy a fair weapon at the Ulsym Weaponsmith.'
+  room echoat $n ``
+  room echoat $n `&HINT: use "list", "browse", "buy" and "sell" in stores. ("help buy")``
+  room echoat $n ``
+  room remquest $n to buy a fair weapon at the Ulsym Weaponsmith.
+  room tempquest $n to buy a fair weapon at the Ulsym Weaponsmith.``
+endif
+~
+#12119
+if players < 1
+or getdelay > 0
+or mobhere !Ohram!
+  break
+endif
+room pfor room tamara call 12120 # null null  
+~
+#12120
+if hasquest $n 'to defend the tavern against Ohram the Brute.'
+  if carries $n vial
+    room echoat $n ``
+    room echoat $n `&HINT: "quaff vial" to drink the vial when Ohram enters. ("help quaff").``
+    room echoat $n ``
+  else
+    room echoat $n ``
+    room echoat $n `&HINT: if you had a vial you could "quaff" it when Ohram enters. ("help quaff")``.
+    room echoat $n ``
+  endif
+  if getdelay > 0
+    break
+  else
+    room delay 1
+    room echo From afar you hear Ohram's loud drunken yelling.
+    room echo Ohram yells '`6Hey hO, hEhy hO, too sSsmaZszh a boUNncEr intO pulP iI go!``'
+endif
+~
+#12121
+if players < 1
+or mobhere !Ohram!
+  break
+endif
+room echo Ohram swaggers in.
+room mload 11401
+room force !Ohram! glare $r
+room force !Ohram! pmote cracks his nuckles.
+~
+#12122
+if hasquest $n 'found the sewers of Revelsport.'
+  break
+endif
+if hasquest $n 'to find Josh in the sewers of Revelsport.'
+  room echoat $n ``
+  room echoat $n As you step down you hear a blood chilling scream in the distance.
+  room echoat $n `&HINT: Use "scan" and "exits" command to help you navigate.``
+  room echoat $n ``
+  room tempquest $n found the sewers of Revelsport.
+endif
+~
+#12123
+if hasquest $n 'to look for a vial in a hole west of Lerant.'
+  if getdelay > 0
+    break
+  endif
+  room echoat $n ``
+  room echoat $n `&HINT: USE "exits" ("help exits") to see adjacent rooms.
+  room echoat $n ``
+  room delay 1
+endif
+~
+#12124
+if isnpc $n
+or mobhere scout
+  break
+endif
+if hasquest $n 'to weaken Goblin defenses.'
+  if hasquest $n 'killed the goblin scout.'
+    break
+  endif
+  room mload 9908
+  room echoat $n You spot a hidden goblin scout!
+endif
+~
+#12125
+if isnpc $n
+or mobhere guard
+  break
+endif
+if hasquest $n 'to weaken Goblin defenses.'
+  if hasquest $n 'killed the goblin guards.'
+    break
+  endif
+  room mload 9900
+  room echoat $n You spot a hidden goblin guard!
+endif
+~
+#12307
+room force roc emote squawks angrily.
+room force roc murder $n
+~
+#12329
+if isnpc $n
+  break
+endif
+if hasquest $n 'been accepted as an undead candidate.`3``'
+  room echoat $n A hollow chuckle fills the air.
+  room echoat $n An unholy voice says '`#Ixtaros's minion sent you here by accident.``'
+  room echoat $n An unholy voice says '`#He should have sent you to the shrine of Cycle.``'
+  room echoat $n An unholy voice says '`#Maybe it wasn't an accident. Anyway you must journey there.``'
+  room remquest $n been accepted as an undead candidate.`3``
+  room permquest $n been accepted as an undead candidate.`4``
+  break
+endif
+if hasquest $n 'been accepted as an undead candidate.`4``'
+  room echoat $n An unholy voice says '`#Why are you here ?``'
+  room echoat $n An unholy voice says '`#I already told you. Go to the shrine of Cycle!``'
+endif
+~
+#12330
+if isnpc $n
+  break
+endif
+if hasquest $n 'been accepted as an undead candidate.`4``'
+  room echoat $n Cold invisible hands reach out from the air and grab your delivery.
+  room remquest $n been accepted as an undead candidate.`4``
+  room permquest $n made your delivery to the Death shrines.
+  room echoat $n An unholy voice says '`#Excellent. This will help us both. Now go back to Ixtaros's minion and see what he has.``'
+  break
+endif
+if hasquest $n 'made your delivery to the Death shrines.'
+  room echoat $n An unholy voice says '`#You waste valuable time here. Go back to Ixtaros's minion now!``'
+  break
+endif
+~
+#0
+
+#$

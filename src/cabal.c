@@ -6051,6 +6051,7 @@ void reset_cabal_guard( ROOM_INDEX_DATA* pRoom, CABAL_DATA* pCab ){
 
   if (pRoom == NULL || pCab == NULL || pCab->anchor == NULL || pCab->guard == NULL)
     return;
+  pRoom->pCabal = pCab;
 
   remove_standard_guard( pCab );
 

@@ -1,0 +1,2401 @@
+#AREADATA
+Name Tomb of Ancients~
+Pref ~
+Builders Chueh~
+VNUMs 5500 5599
+Max_Bastions 2
+Credits {10 35} Chueh    The Tomb of the Ancients~
+Security 9
+Startroom 5501
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#5501
+hound undead~
+An undead hound~
+An undead hound guards the passage.
+~
+Blood seeping from snarling lips, this massive beast of a hound
+guards the passage, eyeing you with murderous hate.
+~
+wolf~
+ACFGe A DFJ 0 -750 0
+12 6 4d6+160 0d0+0 4d5+11 bite
+2 2 2 2
+BCF ABLQ CL NPRS
+stand stand none none~
+8
+AHMV ABCDEFGHIJK medium 0
+#5502
+vampire thrall lowly~
+A lowly thrall~
+A lowly vampire thrall stares at you with vacant eyes.
+~
+This miserable person has just recently been taken into the tombs to
+serve, and the desolation in its vacant stare is haunting.
+~
+undead~
+ABGOe A DJ 0 -750 0
+17 5 4d6+260 0d0+0 4d5+11 claw
+-5 -5 -5 -5
+K BLQ CI N
+stand stand either none~
+11
+0 ABCDEFGHIJK medium 0
+#5503
+Deathwraith Larvae~
+a deathwraith larvae~
+A deathwraith larvae descends upon you!
+~
+~
+undead~
+ABFGHOSe A JQ 0 -750 0
+20 17 4d6+380 0d0+0 5d5+18 claw
+-4 -4 -4 -4
+AEFK CLQ I N
+stand stand none none~
+16
+0 ABCDEFGHIJK medium 0
+#5504
+Guardian Vampire~
+A Fledgling Vampire~
+A Fledgling Vampire is here, ready to practice its murder.
+~
+~
+vampire~
+ABGOe A DJPT 0 -750 0
+24 9 4d6+500 0d0+0 5d5+5 thirst
+-9 -9 -9 -9
+K BLQ I NS
+stand stand none none~
+14
+AHMV ABCDEFGHIJK medium 0
+#5505
+vampire child~
+A vampire child~
+A vampire child is here, giggling madly in its bloodlust.
+~
+A small child is here, giggling madly with drops of blood seeping from
+its small, pouted lips.  Though small in height, it appears as though it has
+been in the state of undeath for sometime, with pale, thin skin and scarlet,
+burning eyes.  
+~
+vampire~
+AGOe A DJPT 0 -750 0
+29 10 2d10+750 0d0+100 5d5+10 hunger
+-10 -10 -10 -10
+K BLQ I NS
+stand stand either none~
+13
+AHMV ABCDEFGHIJK small 0
+#5506
+Vampiric Lady~
+A vampiric lady~
+A vampiric lady stands here, eyes bright and predatory in the darkness.
+~
+Beautiful beyond mortal, this elegantly dressed woman stands before you,
+seemingly unarmed.  Dark, scarlet eyes burn with predator instinct as she
+eyes you from head to toe.  Frail, she may appear on first glance, but after
+further examination one would conclude she radiates a power both menacing
+and dangerous.  
+~
+vampire~
+AGOSe A DJ 0 -750 0
+34 10 20d10+1300 0d0+100 5d5+25 thirst
+-8 -8 -8 -8
+KN BLQ I NS
+stand stand female none~
+21
+AHMV ABCDEFGHIJK medium 0
+#5507
+Yivits Rintu~
+Yivits Rintu~
+Yivits Rintu, the Undead Bane of Paladins.
+~
+Tall and lithe, is the deadly man, or perhaps creature, that stands
+before you.  Crimson eyes blaze with a burning hatred, and long, talon like
+fingers curl and twist in a desperate fury of hunger.  Skin the color of
+pale sand, and just as gritty in texture, is thin in its make, allowing the
+weak, black veins of his arms and face to be seen.  
+~
+vampire~
+ACGOTe A DFHJU 0 -750 0
+50 20 50d10+5000 0d0+100 8d6+45 agony
+-15 -15 -18 -14
+EFHJKN ABILQ BI NS
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 12345 soul~
+P SPEECH 12345 vial~
+#5508
+scarlet phantom~
+A scarlet phantom~
+A scarlet phantom haunts the passage.
+~
+Almost translucent is the spectral apparition seen before you.  Shimmering
+with a faint, scarlet hue, it looks upon you with empty eyes.
+~
+undead~
+ABFGOTd A JV 0 -750 0
+20 3 4d6+500 0d0+0 1d6+5 agony
+0 0 0 0
+X LQ I N
+stand stand none none~
+12
+0 ABCDEFGHIJK small 0
+#5509
+a mutilated corpse~
+A mutilated corpse~
+A mutilated corpse stumbles down the hall moaning in misery.
+~
+The ghastly thing seen before you was once a man, but can no longer claim
+such a title.  Dead and decayed beyond recognition, this walking cadaver
+moans weakly in misery, obviously a toy to the Lady Visbellia, known for her
+love of necromancy.  Flesh hangs from open wounds, and naught but a a few
+rags are worn for covering, exposing the pallid and rotten form of the
+wretched creature before you.  
+~
+human~
+ABGTe A DFJPV 0 -300 0
+55 4 1d1+5250 0d0+100 5d8+33 slice
+0 0 0 0
+EFIK ABLQ BIM N
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+#5510
+High Priestess~
+A High Priestess~
+A High Priestess stands watch.
+~
+~
+unique~
+ABFOTZ A DFJ 0 0 32
+55 50 50d4+12000 0d0+100 5d5+30 skdrain
+-22 -17 -12 -8
+ENX ABR EP NSY
+stand stand female none~
+24
+0 0 huge 0
+#5511
+Seilyth Daughter~
+Seilyth, Lord Talex's daughter~
+Seilyth, Lord Talex's daughter is here.
+~
+A hauntingly beautiful and cunning woman in life, this femme fatale was
+once the Guildmistress of Thieves in Falkenstein.  She is a master of
+intrigue and deception, and awaits the day she will stand at her fathers
+side, bringing strife wherever she goes.  Truly a woman any man of darkness
+would desire, if she wasnt already dead.  
+~
+vampire~
+ABFGOSZe A DFHJ 0 -750 0
+50 30 25d10+6500 0d0+100 3d20+40 thirst
+-20 -20 -20 -20
+DEFH ABLQ DI NS
+stand stand female none~
+19
+AHMV ABCDEFGHIJK huge 0
+#5512
+Lady Vibellia~
+Lady Vibellia~
+Lady Vibellia, Mistress of Eternal Death stand before you in glory.
+~
+Cloaked in a fine satin gown of crimson, cut low in an inviting manner, is
+the erotic figure seen before you.  Soft, gentle tresses of ebony hang in
+perfect ringlets down her form, and her head is adorned with a thick crown
+of platinum, delicately worked and set with vivid rubies.  An assortment of
+rings is worn upon her long fingers, and a thick band of black velvet is
+worn tightly around her elongated neck.  Enchanting beyong comparison, she
+stands with an undeniable power, and you quickly come to realize you have
+found the Mistress of these tombs.  
+~
+vampire~
+ABFGOTe A DFHJ 0 -750 0
+50 30 25d10+6500 0d0+100 20d3+40 hunger
+-20 -20 -20 -20
+CDEFHJN ABLQ DI NS
+stand stand female none~
+23
+AHMV ABCDEFGHIJK medium 0
+#5513
+General Maerunic~
+General Maerunic~
+General Maerunic, Captain of the Undead Legion stands here.
+~
+A tall, powerfully built human, of about six and a half feet, he weighs
+nearly two hundred sixty five pounds.  The first thing you notice is his
+neatly trimmed raven-black hair, cut short, and immaculately maintained.  He
+has a tattoo of a skull sans jawbone inside a sinister red sunburst on his
+right arm.  His jaw is square, framed by a not too large nose, and a pair of
+jet black, lifeless eyes.  His face is clean shaven, and bears no scars or
+blemishes.  His lifeless form is filled with an amazing dark energy which
+seems to flow from his body like a wave of infinite evil.  He is a true
+death knight, and the aura of fear coming off of him is truly palpable.  
+~
+vampire~
+ABCFGOSTZe A DFHJUV 0 -1000 0
+60 47 4d6+9000 0d0+0 4d20+45 fury
+-40 -40 -40 -30
+ACEFHJKNOX ABLQ I NPSY
+stand stand male none~
+28
+AHMV ABCDEFGHIJK giant 0
+#0
+
+
+
+#OBJECTS
+#5500
+shield house rintu~
+a shield of House Rintu~
+A shield of House Rintu, a raven over a blood red sky, is here.~
+meteriorite~
+armor ABGHJRYZ AJS
+21 19 18 10 0
+50 100 2 P
+F
+A 2 3 0
+F
+A 13 5 0
+#5501
+Bracelet Everlasting Hatred~
+a Bracelet of Everlasting Hatred~
+A bracelet emanating with hatred rests here.~
+hatred~
+armor ABY AMS
+12 6 14 5 0
+60 10 2 P
+F
+A 18 -4 0
+F
+A 19 4 0
+#5502
+Bracelet Eternal Lies~
+a Bracelet of Eternal Lies~
+A Bracelet emanating a taint of eternal lies is laying here.~
+lies~
+armor ABJY AMX
+12 8 11 7 0
+60 10 3 P
+F
+A 24 -5 0
+F
+A 20 -8 0
+F
+A 22 -6 0
+F
+S 481 15 0
+#5503
+Annihilation Sphere~
+a sphere of annihilation~
+A sphere of infinite nothingness is here.~
+nothingness~
+jewelry BCEGHJLMYZ AQS
+0 0 0 0 0
+60 1 1 P
+F
+A 29 -1 0
+F
+A 28 1 0
+#5504
+Armplates Etched Acid~
+acid etched armplates~
+A set of acid etched armplates is here.~
+adamantite~
+armor ABCTY AIS
+19 22 23 10 0
+60 10 3 P
+F
+A 24 -2 0
+F
+A 21 -8 0
+F
+A 22 -6 0
+F
+A 26 1 0
+#5505
+reaver's necklace large~
+the Reaver's Necklace~
+A large necklace radiating a fierce aura of rage lies here.~
+silver~
+armor B ACX
+9 8 9 5 0
+60 10 5 P
+F
+A 19 3 0
+F
+S 103 10 0
+F
+S 242 5 0
+#5507
+Key Freedom Unlife~
+the Key to Unlife~
+A Key gleams with pale malevolence here.~
+unlife~
+key ABCE A
+0 0 0 0 0
+1 10 100 P
+#5508
+key stolen revelsport !5508!~
+a stolen Revelsport key~
+A stolen key from Revelsport palace is here.~
+metal~
+key 0 AO
+0 0 0 0 0
+10 0 0 P
+#5525
+well water~
+a well~
+A large well with a wooden bucket has been built here.~
+stone~
+fountain 0 0
+-1 -1 'water' 0 0
+10 -31072 1000 P
+E
+well water~
+An old cracked well stands rooted in the center of the village square.
+~
+#5526
+red triad~
+the `!red`` triad~
+A strange piece of stone carved in the shape of a triangle is here.~
+heartstone~
+treasure AT AO
+0 0 0 0 0
+50 30 1 P
+#5543
+longsword commoner~
+a commoner's longsword~
+A commoner's longsword made of adamantite has been left here.~
+adamantite~
+weapon 0 AN
+sword 2 6 slash 0
+11 20 910 P
+F
+A 19 1 0
+F
+A 18 1 0
+#0
+
+
+
+#ROOMS
+#5500
+`8Entrance to a Dank Tomb``~
+A chilling blast of icy, dank air wafts over you as you step inside this
+tomb.  The stench of death is pungent and overpowering, and you begin to
+peer around the shadows for any signs of movement.  The walls are old, hewn
+blocks of granite that seem to be quite cold to the touch.  There is a thick
+layer of lichens and moss along the walls.  Somewhere in the depths of the
+gloom you can hear water dripping slowly, but steadily.  
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 5501
+D3
+~
+vault~
+0 0 1201
+S
+#5501
+`8A Dark Guardian``~
+As you move down the tight halls, you come upon the watch dog of these
+tombs.  With feral eyes it looks to you before springing into attack, more
+than happy to maul you for his Mistress.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5500
+D3
+~
+~
+0 0 5502
+S
+#5502
+`8Before a Row of Coffins``~
+As you pass the guardian of the tomb, you can barely make out a sprawling
+room, with several smaller alcoves along each wall.  Each of the alcoves
+seems to contain a coffin of sorts.  You wonder to yourself if the residents
+of these coffins are truly dead, and you gasp in shock as you are presented
+with evidence they are not.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5501
+D2
+~
+~
+0 0 5503
+S
+#5503
+`8A large room of coffins``~
+As you pass the guardian of the tomb, you can barely make out a sprawling
+room, with several smaller alcoves along each wall.  Each of the alcoves
+seem to contain a coffin of sorts.  You wonder to yourself if the residents
+of these coffins are truly dead, and you gasp in shock as you are presented
+with evidence they are not.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5502
+D1
+~
+~
+0 0 5507
+D2
+~
+~
+0 0 5504
+D3
+~
+~
+0 0 5506
+S
+#5504
+`8A large room of coffins``~
+As you pass down the halls of this tomb, you can barely make out the
+large room which you are now standing in.  Several alcoves take up places
+along each wall, all of which hold within a coffin of some type.  You wonder
+to yourself if the residents of these coffins are truly dead, though you are
+no longer shocked to find that they are not.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5503
+D1
+~
+~
+0 0 5509
+D2
+~
+~
+0 0 5505
+D3
+~
+~
+0 0 5508
+S
+#5505
+`8A large room of coffins``~
+As you pass down the halls of this tomb, you can barely make out the
+large room in which you are now standing.  Several alcoves take up places
+along each wall, all of which hold within a coffin of some type.  You wonder
+to yourself if the residents of these coffins are truly dead, though you are
+no longer shocked to find that they are not.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5504
+D1
+~
+~
+0 0 5511
+D2
+~
+~
+0 0 5512
+D3
+~
+~
+0 0 5510
+S
+#5506
+`8A Sheltered Alcove``~
+Here, set into the ancient stone, is a small alcove which is adjacent to
+the large room alongside you.  The lid of the coffin before you is
+unfortunately open, and while you crave the smell of fresh air in this dank,
+infernal place, you realize the thirst in the eyes of the creature before
+you is quite a big stronger.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5503
+S
+#5507
+`8A Sheltered Alcove``~
+Here, set into the ancient stone, is a small alcove which is adjacent to
+the large room alongside you.  The lid of the coffin before you is
+unfortunately open, and while you crave the smell of fresh air in this dank,
+infernal place, you realize the thirst in the eyes of the creature before
+you is quite a big stronger.  
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 5503
+S
+#5508
+`8A Sheltered Alcove``~
+Here, set into the ancient stone, is a small alcove which is adjacent to
+the large room alongside you.  The lid of the coffin before you is
+unfortunately open, and while you crave the smell of fresh air in this dank,
+infernal place, you realize the thirst in the eyes of the creature before
+you is quite a big stronger.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5504
+S
+#5509
+`8A Sheltered Alcove``~
+Here, set into the ancient stone, is a small alcove which is adjacent to
+the large room alongside you.  The lid of the coffin before you is
+unfortunately open, and while you crave the smell of fresh air in this dank,
+infernal place, you realize the thirst in the eyes of the creature before
+you is quite a big stronger.  
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 5504
+S
+#5510
+`8A Sheltered Alcove``~
+Here, set into the ancient stone, is a small alcove which is adjacent to
+the large room alongside you.  The lid of the coffin before you is
+unfortunately open, and while you crave the smell of fresh air in this dank,
+infernal place, you realize the thirst in the eyes of the creature before
+you is quite a big stronger.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5505
+S
+#5511
+`8A Sheltered Alcove``~
+Here, set into the ancient stone, is a small alcove which is adjacent to
+the large room alongside you.  The lid of the coffin before you is
+unfortunately open, and while you crave the smell of fresh air in this dank,
+infernal place, you realize the thirst in the eyes of the creature before
+you is quite a big stronger.  
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 5505
+S
+#5512
+`8Turn in the Hall``~
+A sharp turns greets you at this point, the darkness almost leading you
+straight into the closest wall.  The stone beneath your feet is unevenly set
+at this juncture, and one must be cafeful not to lose their step. 
+Surprisingly, this area is vacant of any life, be it true or undead in
+nature.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5505
+D3
+~
+~
+0 0 5513
+S
+#5513
+`8A Darkened room``~
+Shadows flicker from your torchlight, the room seems to twist and call to
+you as if it is a sentient being.  The walls seem to breathe and move, and
+you look twice, confirming that yes, they are made of the same thick stone
+of ancient times.  Another row of alcoves line the walls to your east and
+west, and each contains yet another coffin, but these seem to be a bit more
+expensive, and larger as well.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5512
+D2
+~
+~
+0 0 5514
+S
+#5514
+`8A Darkened room``~
+Shadows flicker from your torchlight, the room seems to twist and call to
+you as if it is a sentient being.  The walls seem to breathe and move, and
+you look twice, confirming that yes, they are made of the same thick stone
+of ancient times.  Another row of alcoves line the walls to your east and
+west, and each contains yet another coffin, but these seem to be a bit more
+expensive, and larger as well.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5513
+D1
+~
+~
+0 0 5518
+D2
+~
+~
+0 0 5515
+D3
+~
+~
+0 0 5517
+S
+#5515
+`8A Darkened Room``~
+Shadows flicker from your torchlight, the room seems to twist and call to
+you as if it is a sentient being.  The walls seem to breathe and move, and
+you look twice, confirming that yes, they are made of the same thick stone
+of ancient times.  Another row of alcoves line the walls to your east and
+west, and each contains yet another coffin, but these seem to be a bit more
+expensive, and larger as well.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5514
+D1
+~
+~
+0 0 5520
+D2
+~
+~
+0 0 5516
+D3
+~
+~
+0 0 5519
+S
+#5516
+`8A Darkened Room``~
+Shadows flicker from your torchlight, the room seems to twist and call to
+you as if it is a sentient being.  The walls seem to breathe and move, and
+you look twice, confirming that yes, they are made of the same thick stone
+of ancient times.  Another row of alcoves line the walls to your east and
+west, and each contains yet another coffin, but these seem to be a bit more
+expensive, and larger as well.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5515
+D1
+~
+~
+0 0 5522
+D2
+~
+~
+0 0 5523
+D3
+~
+~
+0 0 5521
+S
+#5517
+`8A small alcove``~
+Another alcove is here, adjoining the darkened room and set into the
+ancient stone as all the others.  A massive, teak coffin is here, with a
+dusty silver plaque affixed to the top.  The words are hard to decipher, and
+you decide it might not be best to linger for such an attempt.  The air here
+is foul and dank, smelling of decay and death.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5514
+S
+#5518
+`8A small alcove``~
+Another alcove is here, adjoining the darkened room and set into the
+ancient stone as all the others.  A massive, teak coffin is here, with a
+dusty silver plaque affixed to the top.  The words are hard to decipher, and
+you decide it might not be the best idead to linger for such an attempt. 
+The air here is doul and dank, smelling of decay and death.  
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 5514
+S
+#5519
+`8A small alcove``~
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5515
+S
+#5520
+`8A small alcove``~
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 5515
+S
+#5521
+`8A small alcove``~
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5516
+S
+#5522
+`8A small alcove``~
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 5516
+S
+#5523
+`8A descending stairway``~
+A sloping stairwell at a relatively easy descending angle is here.  The
+stairs are wide, about ten paces across, and there are no railings.  Each
+stair is cold and damp, and leaves goosebumps on your flesh.  A rush of cold
+wind overcomes you as your foot touches the first stair, and you nearly slip
+and fall.  The stairwell slopes down and to the west, and up ahead you see a
+gloomy passageway.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5516
+D3
+~
+~
+0 0 5524
+S
+#5524
+`8The bottom of a stairway``~
+You have reached the bottom of the stairwell, and up ahead you can see
+only whispering gloom.  To your south, you can hear the sounds of dripping
+water quite loudly.  West of you lies yet another corridor hewed from the
+ancient stone.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5523
+D2
+~
+~
+0 0 5525
+D3
+~
+~
+0 0 5526
+S
+#5525
+`8A shadowy Well``~
+A seemingly bottomless well is here, with a large, iron ladle sitting in
+an old wooden bucket at its top.  The area around it is hewn from the same
+ancient rock, and the well itself is only a gaping hole in the stone, with a
+small stone ledge attached to a rusted iron chain.  If your thirst wasnt so
+unbearable, you would drink elsewhere.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5524
+S
+#5526
+`8A gloom filled passage``~
+This corridor seems to turn up ahead to your west.  Where it leads after
+that is unknown, but there are countless bugs that seem to creep in and out
+of the tiny cracks along the stone.  A strange set of runes adorn the wall
+to your north.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5527
+D1
+~
+~
+0 0 5524
+S
+#5527
+`8A turn in the passage``~
+Here the gloomy passage seems to turn, and the slope of the stones
+indicate you are descending further into the earth.  The stench of death
+once again prevails, and up ahead the passage turns once more to reveal
+another large, rectangular room to your west.  A small concealed panel is
+barely noticeable to your east.  
+~
+~
+0 8 0 0
+D1
+~
+hidden panel~
+AB 0 5528
+D2
+~
+~
+0 0 5526
+D3
+~
+~
+0 0 5529
+S
+#5528
+`8A hidden room``~
+A small nondescript room is here, with a small impression cut in the
+stone facing the passage.  You realize that you are completely concealed
+here, but you are also unable to see out.  At least the undead dont seem to
+be bothering you.  
+~
+~
+0 8 0 0
+D3
+~
+hidden panel~
+AB 0 5527
+S
+#5529
+`8Before a Rectangular Room``~
+Before you lies another large rectangular room, with numerous alcoves
+adjoining it, just as the previous rooms you have passed.  These coffins are
+jet black, and of an odd, rotting wood.  Many of the lids are overturned,
+and there is a general look of disarray in the room.  Something obviously
+set them off.  Hanging from the ceiling is the skeleton of a humanoid
+creature.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5527
+D3
+~
+~
+0 0 5530
+S
+#5530
+`8A Rectangular Room``~
+This large room literally reeks of undeath.  The stench is repugnant and
+overpowering, rotting flesh that gives off an acrid fume.  Each alcove is
+encompassed in darkness even blacker then in here, and each of the coffins
+seems to be in various stages of decay.  The skeleton overhead is not a good
+sign.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5535
+D1
+~
+~
+0 0 5529
+D2
+~
+~
+0 0 5536
+D3
+~
+~
+0 0 5531
+S
+#5531
+`8A Rectangular Room``~
+This large room literally reeks of undeath.  The stench is repugnant and
+overpowering, rotting flesh that gives off an acrid fume.  Each alcove is
+encompassed in darkness even blacker then in here, and each of the coffins
+seems to be in various stages of decay.  The skeleton overhead is not a good
+sign.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5533
+D1
+~
+~
+0 0 5530
+D2
+~
+~
+0 0 5534
+D3
+~
+~
+0 0 5532
+S
+#5532
+`8A Rectangular Room``~
+This large room literally reeks of undeath.  The stench is repugnant and
+overpowering, rotting flesh that gives off an acrid fume.  Each alcove is
+encompassed in darkness even blacker then in here, and each of the coffins
+seems to be in various stages of decay.  The skeleton overhead is not a good
+sign.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5537
+D1
+~
+~
+0 0 5531
+D2
+~
+~
+0 0 5538
+D3
+~
+~
+0 0 5539
+S
+#5533
+`8A small alcove``~
+This small alcove is home to an even smaller coffin, made of fine worked
+silver.  Obviously the coffin of a child, or perhaps even some type of
+gnome, it is tiny, and etched with a variety of angels, each looking more
+fearsome and deadly than the one before.  
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 5531
+S
+#5534
+`8A small alcove``~
+This small alcove is home to an even smaller coffin, made of a fine
+worked silver.  Obviously the coffin of a child, or perhaps even some type
+of gnome, it is tiny, and etched with a variety of angels, each looking more
+fearsome and deadly than the one before.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5531
+S
+#5535
+`8A small alcove``~
+The small alcove is home to an even smaller coffin, made of fine worked
+silver.  Obviously the coffin of a child, or perhaps even some type of
+gnome, it is tiny, and carved with a variety of angels, each looking more
+fearsome and deadly than the one before.  
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 5530
+S
+#5536
+`8A small alcove``~
+The small alcove is home to an even smaller coffin, made of fine worked
+silver.  Obviously the coffin of a child, or perhaps even some type of
+gnome, it is tiny, and carved with a variety of angels, each looking more
+fearsome and deadly than the one before.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5530
+S
+#5537
+`8A small alcove``~
+This small alcove is home to an even smaller coffin, made of a fine
+worked silver.  Obviously the coffin of a child, or perhaps even some type
+of gnome, it is tiny, and etched with a variety of angels, each looking more
+fearsome and deadly than the one before.  
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 5532
+S
+#5538
+`8A small alcove``~
+This small alcove is home to an even smaller coffin, made of fine worked
+silver.  Obviously the coffin of a child, or perhaps even some type of
+gnome, it is etched with a variety of angels, each looking more fearsome and
+deadly than the one before.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5532
+S
+#5539
+`8A sloping ramp``~
+Here a ramp of sorts slopes through the darkness.  It is more of a
+downslope then anything, but you can feel the shadows seeming to watch you. 
+A soft clicking noise can be heard around the area.  Up ahead another
+passageway seems to turn.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5540
+D1
+~
+~
+0 0 5532
+S
+#5540
+`8The bottom of a downslope``~
+The downslope levels out here, and turns to the west up ahead.  Looking
+back over your shoulder, the last room is not even visible in the thick,
+palpable darkness.  Your eyes are beginning to adjust to the gloom, but you
+are sure glad you have your light source.  Pressing on you decide it is time
+to go deeper and you begin preparing.  
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 5539
+D3
+~
+~
+0 0 5541
+S
+#5541
+`8A twisting passage``~
+The narrow stone corridor begins to twist yet again here, and the walls
+seem to be closing in on you as the passage narrows.  The stone again seems
+to slope downwards and you cant help but feel that you are descending yet
+again into the deeper bowels of the earth.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5540
+D3
+~
+~
+0 0 5542
+S
+#5542
+`8A narrow passage``~
+The passage straightens out here, and a gaping hole to your south mars
+the otherwise flawless stone which makes up the passage.  Even holding your
+torch aloft, you can see nothing inside the hole, but it looks large enough
+for even a storm giant to enter.  The passage also continues on to the west.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5541
+D2
+~
+~
+0 0 5544
+D3
+~
+~
+0 0 5543
+S
+#5543
+`8A turn in the passage``~
+Here the passage turns once more, and descends sharply into the bowels of
+the earth yet again.  Up ahead you can smell rotting flesh even stronger
+then in the rest of the Tomb.  You wonder what price you will pay for your
+curiousity, and then summon the remains of your courage to advance further
+into the Tomb.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5560
+D1
+~
+~
+0 0 5542
+S
+#5544
+`8Within a Gaping Hole``~
+As you stand within the enormous, gaping hole in the stone, you can see
+before you yet another of the large rectangular rooms.  The coffins seem to
+be in good shape in this room, but the skeletons of whatever tried to
+plunder this tomb litter the ground.  There are 12 alcoves along the walls,
+and each holds what appears to be a coffin crafted from stark white bones.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5542
+D2
+~
+~
+0 0 5545
+S
+#5545
+`8A Rectangular Room``~
+This room is a bit larger then the others, but the alcoves seem to be a
+constant.  Each coffin seems to be crafted of the bones of elves, and are
+actually closed.  There is an unnatural silence in this room, and it seems
+to permeate the very air.  The flesh on your arms seems to stand up as you
+look into the alcoves, shrouded in darkness as all the others.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5544
+D1
+~
+~
+0 0 5550
+D2
+~
+~
+0 0 5546
+D3
+~
+~
+0 0 5551
+S
+#5546
+`8A Rectangular Room``~
+This room is a bit larger then the others, but the alcoves seem to be a
+constant.  Each coffin seems to be crafted of the bones of elves, and are
+actually closed.  There is an unnatural silence in this room, and it seems
+to permeate the very air.  The flesh on your arms seems to stand up as you
+look into the alcoves, shrouded in darkness as all the others.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5545
+D1
+~
+~
+0 0 5552
+D2
+~
+~
+0 0 5547
+D3
+~
+~
+0 0 5553
+S
+#5547
+`8A Rectangular Room``~
+This room is a bit larger then the others, but the alcoves seem to be a
+constant.  Each coffin seems to be crafted of the bones of elves, and are
+actually closed.  There is an unnatural silence in this room, and it seems
+to permeate the very air.  The flesh on your arms seems to stand up as you
+look into the alcoves, shrouded in darkness as all the others.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5546
+D1
+~
+~
+0 0 5554
+D2
+~
+~
+0 0 5548
+D3
+~
+~
+0 0 5555
+S
+#5548
+`8A Rectangular Room``~
+This room is a bit larger then the others, but the alcoves seem to be a
+constant.  Each coffin seems to be crafted of the bones of elves, and are
+actually closed.  There is an unnatural silence in this room, and it seems
+to permeate the very air.  The flesh on your arms seems to stand up as you
+look into the alcoves, shrouded in darkness as all the others.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5547
+D1
+~
+~
+0 0 5556
+D2
+~
+~
+0 0 5549
+D3
+~
+~
+0 0 5557
+S
+#5549
+`8A Rectangular Room``~
+This room is a bit larger then the others, but the alcoves seem to be a
+constant.  Each coffin seems to be crafted of the bones of elves, and are
+actually closed.  There is an unnatural silence in this room, and it seems
+to permeate the very air.  The flesh on your arms seems to stand up as you
+look into the alcoves, shrouded in darkness as all the others.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5548
+D1
+~
+~
+0 0 5558
+S
+#5550
+`8A small alcove``~
+The coffin held within this alcove is made of bones, most likely elven in
+race.  The are finely woven together by threads of gleaming silver, and
+their interiors are made of a lush, crimson velvet.  Obviously the resting
+place of a lady, the area itself is spotless in its keep, the bare stones
+and high ceilins absent of dust or webs.  
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 5545
+S
+#5551
+`8A small alcove``~
+The coffin held within this alcove is made of bones, most likely elven in
+race.  They are finely woven together by threads gleaming of silver, and
+their interiors are made of a lush, crimson velvet.  Obviously the resting
+place of a lady, the area itself is spotless in its keep, the bare stones
+and high ceilings absent of dust or webs.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5545
+S
+#5552
+`8A small alcove``~
+The coffin held within this alcove is made of bones, most likely elven in
+race.  They are finely woven together by threads gleaming of silver, and
+their interiors are made of a lush, crimson velvet.  Obviously the resting
+place of a lady, the area itself is spotless in its keep, the bare stones
+and high ceilings absent of dust or webs.  
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 5546
+S
+#5553
+`8A small alcove``~
+The coffin held within this alcove is made of bones, most likely elven in
+race.  They are finely woven together by threads gleaming of silver, and
+their interiors are made of a lush, crimson velvet.  Obviously the resting
+place of a lady, the area itself is spotless in its keep, the bare stones
+and high ceilings absent of dust or webs.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5546
+S
+#5554
+`8A small alcove``~
+The coffin held within this alcove is made of bones, most likely elven in
+race.  They are finely woven together by threads gleaming of silver, and
+their interiors are made of a lush, crimson velvet.  Obviously the resting
+place of a lady, the area itself is spotless in its keep, the bare stones
+and high ceilings absent of dust or webs.  
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 5547
+S
+#5555
+`8A small alcove``~
+The coffin held within this alcove is made of bones, most likely elven in
+race.  They are finely woven together by threads gleaming of silver, and
+their interiors are made of a lush, crimson velvet.  Obviously the resting
+place of a lady, the area itself is spotless in its keep, the bare stones
+and high ceilings absent of dust or webs.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5547
+S
+#5556
+`8A small alcove``~
+The coffin held within this alcove is made of bones, most likely elven in
+race.  They are finely woven together by threads gleaming of silver, and
+their interiors are made of a lush, crimson velvet.  Obviously the resting
+place of a lady, the area itself is spotless in its keep, the bare stones
+and high ceilings absent of dust or webs.  
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 5548
+S
+#5557
+`8A small alcove``~
+The coffin held within this alcove is made of bones, most likely elven in
+race.  They are finely woven together by threads gleaming of silver, and
+their interiors are made of a lush, crimson velvet.  Obviously the resting
+place of a lady, the area itself is spotless in its keep, the bare stones
+and high ceilings absent of dust or webs.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5548
+S
+#5558
+`8A small alcove``~
+The alcove in which you stand is massive in size when conpared to the
+others, and it is lavishly furnished as well, with many chairs and a table
+taking up the center of the room.  The coffin pushed up against the wall is
+as grand as could be made, carved from solid onyx and adorned with multiple
+gemstones.  
+~
+~
+0 8 0 0
+D1
+~
+loose block~
+ABM 0 5559
+D3
+~
+~
+0 0 5549
+S
+#5559
+`8A Small Nook``~
+This small nook behind the loose block looks like a safe place to rest. 
+At least the vampires seem unwilling to enter the room, which is completely
+dust free and looks to not have been travelled much.  You take a moment to
+enjoy the respite from combat and breathe easily, if but for a moment.  
+~
+~
+0 8 0 0
+D3
+~
+loose block~
+ABM 0 5558
+S
+#5560
+`8A narrow passage``~
+You find yourself at a junction with several paths to take, though none
+of which look very inviting.  The stench of rotten flesh is strong, pungent
+and musty, at times making your eyes water.  Because of this, the spectral
+image who takes residence in this hall goes almost unnoticed.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5561
+D2
+~
+~
+0 0 5543
+D3
+~
+~
+0 0 5562
+S
+#5561
+`8A Shifting Passage``~
+This tunnel branched off to the east of the main corridor, and now seems
+to head in a northerly direction, but remains headed downwards as well.  The
+air here is quite thin, and currently is rather acrid with the stench of
+death.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5563
+D3
+~
+~
+0 0 5560
+S
+#5562
+`8A Shifting Passage``~
+This tunnel branched off to the west of the main corridor, and now seems
+to head in a northerly direction, but remains headed downwards as well.  The
+air here is quite thin, and currently is rather acrid with the stench of
+death.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5564
+D1
+~
+~
+0 0 5560
+S
+#5563
+`8Deeper into the Tomb``~
+This descending stone corridor continues ahead to what you believe to be
+your north.  No rats or vermin litter the halls here as in previous parts of
+the Tomb.  A strange darkness lingers in the air, and you get the feeling
+that up ahead you are walking into something quite bad.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5565
+D2
+~
+~
+0 0 5561
+S
+#5564
+`8Deeper into the Tomb``~
+This descending stone corridor continues ahead to what you believe to be
+your north.  No rats or vermin litter the halls here as in previous parts of
+the Tomb.  A strange darkness lingers in the air, and you get the feeling
+that up ahead you are walking into something quite bad.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5566
+D2
+~
+~
+0 0 5562
+S
+#5565
+`8Deeper into the Tomb``~
+This descending stone corridor continues ahead to what you believe to be
+your north.  No rats or vermin litter the halls here as in previous parts of
+the Tomb.  A strange darkness lingers in the air, and you get the feeling
+that up ahead you are walking into something quite bad.  
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 5563
+D3
+~
+~
+0 0 5567
+S
+#5566
+`8Deeper into the Tomb``~
+This descending stone corridor continues ahead to what you believe to be
+your north.  No rats or vermin litter the halls here as in previous parts of
+the Tomb.  A strange darkness lingers in the air, and you get the feeling
+that up ahead you are walking into something quite bad.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5567
+D2
+~
+~
+0 0 5564
+S
+#5567
+`8Dark Whispers``~
+The darkness here seems to have a life of its own, and your mind is
+assaulted with waves of terror unlike anything you have ever experienced
+before.  You seriously begin to consider dropping your weapon and running
+for your life, but you do not know why.  It is as if some insidious force
+has crept into your psyche and torn out your courage.  A small plaque sits
+here at the base of the cold stone.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5568
+D1
+~
+~
+0 0 5565
+D3
+~
+~
+0 0 5566
+S
+#5568
+`8Beyond Terrifying Thoughts``~
+The darkness here seems to have a life of its own, and your mind is
+assaulted with waves of terror unlike anything you have ever experienced
+before.  Thick cobwebs hang down from the walls and fixtures, brushing the
+top of your head, and the shadows dance in your torch light.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5569
+D2
+~
+~
+0 0 5567
+S
+#5569
+`8Further along the Passage``~
+The darkness here seems to have a life of its own, and your mind is
+assaulted with waves of terror unlike anything you have ever experienced
+before.  Thick cobwebs hang down from the walls and fixtures brushing the
+top of your head.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5570
+D2
+~
+~
+0 0 5568
+S
+#5570
+`8A Turn in the passage``~
+You come to a sharp turn in the passage, and consider turning back as the
+pungent aroma of death assaults your senses.  The ground beneath your feet
+at this point is covered in a dark, slimy substance, and you are glad not to
+know of its origin, though afraid that you will soon find out.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5571
+D2
+~
+~
+0 0 5569
+S
+#5571
+`8Entrance of the Hall``~
+A thick, sticky sunstance of a dark color covers the stone flooring in
+this area, and with one quick look at its occupants, you no longer have to
+guess on what this nasty mess has come from.  The place itself is in total
+disrepair, with chucks of stone missing from the walls, broken and smashed
+upon the floor into dust.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5574
+D1
+~
+~
+0 0 5572
+D2
+~
+~
+0 0 5576
+D3
+~
+~
+0 0 5570
+S
+#5572
+`8Within a Massive Hall``~
+A thick, sticky substance of a dark color covers the stone flooring in
+this area, and with one quick look at its occupants, you no longer have to
+guess on what this nasty mess has come from.  The place itself is in total
+disrepair, with chunks of stone missing from the walls, broken and smashed
+upon the floor into dust.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5575
+D1
+~
+~
+0 0 5573
+D2
+~
+~
+0 0 5577
+D3
+~
+~
+0 0 5571
+S
+#5573
+`8Within a Massive Hall``~
+A thick, sticky sunstance of a dark color covers the stone flooring in
+this area, and with one quick look at its occupants, you no longer have to
+guess where this nasty mess has come from.  The places itself is in total
+disrepair, with chunks of stone missing from the walls, broken and smashed
+upon the floor into dust.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5579
+D2
+~
+~
+0 0 5578
+D3
+~
+~
+0 0 5572
+S
+#5574
+`8Down the Hall``~
+A thick, sticky substance covers the ground beneath your feet, and with
+one look to the occupants of this area, you do not have to guess at its
+origin.  Cobwebs hang from the walls and lowered ceilings in this turn,
+brushing upon the top of your head as you pass within.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5575
+D2
+~
+~
+0 0 5571
+S
+#5575
+`8Down the Hall``~
+Several halls are joined at this point, none of which seem very inviting
+to wandering visitors.  Darkness is complete, and the light you carry only
+adds to the gloomy atmosphere, making the shadows flicker and dance with
+your every movement.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5579
+D2
+~
+~
+0 0 5572
+D3
+~
+~
+0 0 5574
+S
+#5576
+`8Within a Massive Hall``~
+A thick, sticky substance of a dark color covers the stone flooring in
+this are, and with one quick look at the occupants, you no longer have to
+guess from where this nasty mess has come.  The place itself is in total
+disrepair, with fallen chunks of stone from the walls smashed upon the
+ground into dust.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5571
+S
+#5577
+`8Within a Massive Hall``~
+A thick, sticky substance of a dark color covers the stone flooring in
+this area, and with one quick look at the occupants, you no longer have to
+guess where this nasty mess has come from.  The place itself is in total
+disrepair, with chunks of stone missing from the walls, broken and smashed
+upon the floor into dust.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5572
+D1
+~
+~
+0 0 5578
+S
+#5578
+`8Within a Massive Hall``~
+A thick, sticky substance of a dark color covers the stone flooring in
+this area, and with one quick look at its occupants, you no longer have to
+guess where this nasty mess has come from.  The places itself is in total
+disrepair, with chunks of stone missing from the walls, broken and smashed
+upon the floor into dust.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5573
+D3
+~
+~
+0 0 5577
+S
+#5579
+`8Before a Silver Door``~
+You stand before a massive silver door that is adnorned with a huge lock
+in its center.  A scene is etched upon this door, one of a most unpleasant
+nature involving elves and axes.  The artist of this work was most certainly
+skilled in such a form, and you cringe at the agony displayed upon the faces
+of those carved before you.  
+~
+~
+0 8201 0 0
+D0
+~
+silver gates~
+ABCF 5507 5580
+D2
+~
+~
+0 0 5573
+D3
+~
+~
+0 0 5575
+S
+#5580
+`8A Mist Filled Corridor``~
+You foolishly opened the gates, and ascended into the passage carved of
+purest ebony.  Behind you lies the great silver gates, and ahead lies either
+death or riches beyond your wildest dreams.  However two massive spectral
+beings lay just up ahead, and you do not think they are there to give you a
+warm welcome.  
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 5581
+D2
+~
+silver gates~
+ABCF 5507 5579
+S
+#5581
+`8A Mist Filled Corridor ``~
+You foolishly opened the gates, and ascended into the passage carved of
+purest ebony.  Behind you lies the great silver gates, and ahead lies either
+death or riches beyond your wildest dreams.  However two massive spectral
+beings lay just up ahead, and you do not think they are there to give you a
+warm welcome.  
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 5584
+D1
+~
+~
+0 0 5583
+D2
+~
+~
+0 0 5580
+D3
+~
+~
+0 0 5582
+S
+#5582
+`8An Alcove``~
+This alcove is small and empty, and is where the guard stands
+motionlessly and stoically awaiting any trespass.  The area is entirely
+black, and you cannot see out of it.  A small etching on the back wall of
+the alcove labels it as the "Farcherz Kilsasa", but those words mean nothing
+to you.  Back to the center of the corridor, you see the main tomb expand to
+the north.  
+~
+~
+0 8200 0 0
+D1
+~
+~
+0 0 5581
+S
+#5583
+`8An Alcove``~
+This alcove is small and empty, and is where the guard stands
+motionlessly and stoically awaiting any trespass.  The area is entirely
+black, and you cannot see out of it.  A small etching on the back wall of
+the alcove labels it as the "Farcherz Kilsasa", but those words mean nothing
+to you.  Back to the center of the corridor, you see the main tomb expand to
+the north.  
+~
+~
+0 8200 0 0
+D3
+~
+~
+0 0 5581
+S
+#5584
+`8A long corridor``~
+A long corridor extends to the east and west, and the passage you have
+been travelling continues north and south of here.  East and west along the
+corridor you can see a large steel door at the end of each hall, glaring
+ominously at you.  The raised dias north of you is carved from a massive
+dracolich skull, which is unfortunately, facing directly down the hall at
+the gates behind you.  The eyes seem to bore right into your soul, and with
+trepidation you can see the coffin up ahead to your north, a massive,
+platinum construct, that is limmed in blackfire.  
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 5591
+D1
+~
+~
+0 0 5586
+D2
+~
+~
+0 0 5581
+D3
+~
+~
+0 0 5585
+S
+#5585
+`8A Foreboding Hallway``~
+This hallway branches off, and leads to a large steel door, which is
+labeled as the resting place for Lord Talex's brother.  The walls are
+adorned with tapestries of grisly battle scenes of pillaging and looting, in
+every manner fashionable.  The door is adorned with a massive jawless skull,
+which seems to leer at you, its eyes locked upon your soul.  
+~
+~
+0 8200 0 0
+D1
+~
+~
+0 0 5584
+D3
+~
+steel door~
+AB 0 5587
+S
+#5586
+`8A Foreboding Hallway``~
+This hallway branches off, and leads to a large steel door, which is
+labeled as the resting place for Lord Talex's daughter.  The walls are
+adorned with tapestries of grisly battle scenes of pillaging and looting, in
+every manner fashionable.  The door is adorned with a massive jawless skull,
+which seems to leer at you, its eyes locked upon your soul.  
+~
+~
+0 8200 0 0
+D1
+~
+steel_door~
+AB 0 5588
+D3
+~
+~
+0 0 5584
+S
+#5587
+`8A Massive Alabaster Coffin``~
+Here you come upon the quarters of Lady Vibellia's brother, General
+Maerunic who serves his Mistress in any way she so desires.  His coffin is
+placed centrally within the shadowed room, and is carved from a deep, black
+wood, polished to a high sheen.  Set within, in a pattern of the night sky are
+countless diamonds' cut into the shapes of stars, flickering brightly in the
+low light of the few candles placed randomly about.  
+~
+~
+0 8201 0 0
+D1
+~
+steel door~
+AB 0 5585
+D3
+~
+~
+0 0 5589
+S
+#5588
+`8A Massive Obsidian Coffin``~
+This room contains the coffin of Lord Talex's daughter, which is in the
+center of the morbid cylindrical space.  This massive, open coffin, is
+bejewelled with a hundred star sapphires, and adorned with six enormous
+king's tears along each side.  The lid, which is leaning against the wall,
+is fashioned from a single slab of obsidian into the shape of a leering
+skull, with two massive yellow diamonds for eyes.  
+~
+~
+0 8200 0 0
+D1
+~
+~
+0 0 5590
+D3
+~
+steel_door~
+AB 0 5586
+S
+#5589
+`8A small closet``~
+Here is a small closet that contains many of the items the deceased
+carried in life, yet none seem to be in very fine repair.  A few books,
+several old clothes, now moldy and rotted, nothing of any real value.  It
+does look like a relatively safe place to rest however.  
+~
+~
+0 8200 0 0
+D1
+~
+~
+0 0 5587
+S
+#5590
+`8A small closet``~
+Here is a small closet that contains many of the items the deceased
+carried in life, yet none seem to be in very fine repair.  A few books,
+several old clothes, now moldy and rotted, nothing of any real value.  It
+does look like a relatively safe place to rest however.  
+~
+~
+0 8200 0 0
+D3
+~
+~
+0 0 5588
+S
+#5591
+`8Ascending a Raised Dias``~
+Thick black marble stairs, with spidery red veins through the stone
+ascend a raised dias, crafted from the skull of an ancient dracolich.  The
+stairs themselves seem to be about two feet wide, and are circular in shape,
+enabling ascent from all sides of the dias.  East and West of the dias
+ahead, you see small passages branch off, and you wonder where they might
+lead.  You decide to find out, and as your foot touches the stairs, you hear
+a gong rise out from the darkness.  
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 5592
+D2
+~
+~
+0 0 5584
+S
+#5592
+`8Lair of the Mistress``~
+A long, shimmering platinum coffin takes up the center of this candle lit
+room raised upon a large dias covered in crimson silk.  The interior of the
+coffin is a lined with soft velvet of a deep ebony.  The massive lid is
+pushed back, and beside it stands the lady who so takes her rest within.  
+~
+~
+0 8192 0 0
+D2
+~
+~
+0 0 5591
+D5
+~
+hidden panel~
+0 0 5593
+S
+#5593
+`8Falling into Darkness``~
+You opened the trapdoor below the coffin, and are now falling in what
+seems like a bottomless pit.  Darkness stretches below you endlessly, and
+you get the sense of weightlessness as time begins to ebb past.  
+~
+~
+0 8200 0 0
+D4
+~
+~
+AB 0 5592
+D5
+~
+~
+0 0 5594
+S
+#5594
+`8Falling into Darkness``~
+You opened the trapdoor below the coffin, and are now falling in what
+seems like a bottomless pit.  Darkness stretches below you endlessly, and
+you get the sense of weightlessness as time begins to ebb past.  
+~
+~
+0 8200 0 0
+D4
+~
+~
+0 0 5593
+D5
+~
+~
+0 0 5595
+S
+#5595
+`8Falling into Darkness``~
+You opened the trapdoor below the coffin, and are now falling in what
+seems like a bottomless pit.  Darkness stretches below you endlessly, and
+you get the sense of weightlessness as time begins to ebb past.  
+~
+~
+0 8200 0 0
+D4
+~
+~
+0 0 5594
+D5
+~
+~
+0 0 5596
+S
+#5596
+`8Falling into Darkness``~
+You opened the trapdoor below the coffin, and are now falling in what
+seems like a bottomless pit.  Darkness stretches below you endlessly, and
+you get the sense of weightlessness as time begins to ebb past.  
+~
+~
+0 8200 0 0
+D4
+~
+~
+0 0 5595
+D5
+~
+~
+0 0 5597
+S
+#5597
+`8Falling into Darkness``~
+You opened the trapdoor below the coffin, and are now falling in what
+seems like a bottomless pit.  Darkness stretches below you endlessly, and
+you get the sense of weightlessness as time begins to ebb past.  
+~
+~
+0 8200 0 0
+D4
+~
+~
+0 0 5596
+D5
+~
+~
+0 0 5598
+S
+#5598
+`8Falling into Darkness``~
+You opened the trapdoor below the coffin, and are now falling in what
+seems like a bottomless pit.  Darkness stretches below you endlessly, and
+you get the sense of weightlessness as time begins to ebb past.  
+~
+~
+0 8200 0 0
+D4
+~
+~
+0 0 5597
+D5
+~
+~
+0 0 5599
+S
+#5599
+`8Falling into Darkness``~
+You opened the trapdoor below the coffin, and are now falling in what
+seems like a bottomless pit.  Darkness stretches below you endlessly, and
+you get the sense of weightlessness as time begins to ebb past.  
+~
+~
+0 8200 0 0
+D0
+~
+hidden panel~
+ABM 0 11045
+D4
+~
+~
+0 0 5598
+P EXALL 5 north~
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 5501 1 5501 1
+E 0 5508 0 18
+M 0 5502 9 5503 1
+M 0 5502 9 5504 1
+M 0 5502 9 5505 1
+M 0 5502 9 5506 1
+M 0 5502 9 5507 1
+M 0 5502 9 5508 1
+M 0 5502 9 5509 1
+M 0 5502 9 5510 1
+M 0 5502 9 5511 1
+M 0 5504 9 5514 1
+M 0 5504 9 5515 1
+M 0 5504 9 5516 1
+M 0 5504 9 5517 1
+M 0 5504 9 5518 1
+M 0 5504 9 5519 1
+M 0 5504 9 5520 1
+M 0 5504 9 5521 1
+M 0 5504 9 5522 1
+O 0 5525 0 5525
+M 0 5505 12 5529 1
+M 0 5505 12 5530 1
+M 0 5505 12 5531 1
+M 0 5505 12 5532 1
+M 0 5505 12 5533 1
+M 0 5505 12 5534 1
+M 0 5505 12 5535 1
+M 0 5505 12 5536 1
+M 0 5505 12 5537 1
+M 0 5505 12 5538 1
+M 0 5505 12 5539 1
+M 0 5506 12 5545 1
+M 0 5506 12 5546 1
+M 0 5506 12 5547 1
+M 0 5506 12 5548 1
+M 0 5506 12 5550 1
+M 0 5506 12 5551 1
+M 0 5506 12 5552 1
+M 0 5506 12 5553 1
+M 0 5506 12 5554 1
+M 0 5506 12 5555 1
+M 0 5506 12 5556 1
+M 0 5506 12 5557 1
+M 0 5507 1 5558 1
+G 0 5507 0
+E 0 5500 0 12
+M 0 5508 1 5560 1
+M 0 5509 10 5571 1
+M 0 5509 10 5572 1
+M 0 5509 10 5573 1
+M 0 5509 10 5574 1
+M 0 5509 10 5575 1
+M 0 5509 10 5576 1
+M 0 5509 10 5577 1
+M 0 5509 10 5578 1
+M 0 5509 10 5579 2
+O 0 5507 0 5580
+M 0 5510 1 5584 1
+M 0 5513 1 5587 1
+M 0 5511 1 5588 1
+E 0 5501 0 16
+M 0 5512 1 5592 1
+E 0 5503 0 19
+E 0 5504 0 11
+E 0 5505 0 3
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#5543
+if rand 50
+     obj cast lightning $n
+else
+     obj cast 'flame arrow' $n
+endif
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#5543
+if rand 50
+     obj cast lightning $n
+else
+     obj cast 'flame arrow' $n
+endif
+~
+#0
+
+#ROOMPROGS
+#0
+
+#$

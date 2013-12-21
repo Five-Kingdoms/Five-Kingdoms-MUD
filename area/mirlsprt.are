@@ -1,0 +1,3199 @@
+#AREADATA
+Name Mirlsport~
+Pref ~
+Builders Crypticant~
+VNUMs 7600 7699
+Max_Bastions 3
+Credits {15 50} Cryptican    Mirlsport~
+Security 9
+Startroom 7613
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#7600
+Ogre Sentry~
+An ogre sentry~
+An ogre sentry clad in nomadic hides stands on guard.
+~
+Towering nearly 10' above the ground is a hulking creature, a ogre it
+seems.  Clad in nomadic animal skins, this ogre stands motionless guarding
+the southern gates of the city.  His skin is a dark brown, though scarred
+and worn from his eternal watch over the gates of this city.  
+~
+ogre~
+AB A 0 0 -750 0
+35 8 10d100+600 0d0+100 3d8+20 crush
+-2 -2 -2 2
+CDEJN 0 E C
+stand stand male none~
+13
+AHMV ABCDEFGHIJK large 0
+#7601
+Ogre Sentry~
+An ogre sentry~
+An armored ogre sentry stands at rest.
+~
+Towering nearly 10' above the ground is a hulking creature, a ogre it
+seems.  Clad in nomadic animal skins, this ogre stands motionless guarding
+the southern gates of the city.  His skin is a dark brown, though scarred
+and worn from his eternal watch over the gates of this city.  
+~
+ogre~
+AB A 0 0 -750 0
+35 8 10d100+600 0d0+100 3d8+20 crush
+-2 -2 -2 2
+CDEJN 0 E C
+stand stand male none~
+18
+AHMV ABCDEFGHIJK large 0
+#7602
+Ogre Commoner~
+An ogre commoner~
+An ogre commoner wanders the streets here.
+~
+Looking somewhat confused, this rather strange ogre wanders the streets
+of the city in search of something.  His clothes are little more then
+rags, and his skin is a moldy green in color, his eyes are thin and narrow,
+squinting to find something.  
+~
+ogre~
+AGd A J 0 -500 0
+34 8 10d100+500 0d0+100 4d8+8 punch
+-1 -1 -1 5
+DIJ 0 Q C
+stand stand male none~
+17
+AHMV ABCDEFGHIJK large 0
+#7603
+drow robed merchant~
+A wealthy merchant~
+A wealthy food merchant sits here shouting prices to the crowd.
+~
+Colorful red and blue silks drape about the slender figure of this
+merchant.  Raising various foods high above his head, he shouts prices to
+the vast crowd before him.  Armed with a short sword at his side, he seems
+quite content on defending himself if needed, the mark of the Val_Miran
+guard is tattooed on his neck, signifying his past service to Val_Miran.  
+~
+human~
+AB A DH 0 0 0
+45 13 10d10+3200 0d0+100 6d8+17 slice
+-11 -13 -10 -8
+FJN 0 A 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#7604
+Drow Robed Man~
+A dark robed drow~
+An ebony skinned merchant sits on the ground, holding a chain attached to the many mercenaries.
+~
+Dark black robes swirl about the frail figure of the drow like the
+shadows collecting at the end of a sunset.  Flowing forth from his head is a
+waterfall of ivory hair which rushes to the ground as it trails behind him. 
+A loose chain link is held in his left hand holding the many diseased
+mercenaries in line, while his right hand clutches a finely sharpened
+dagger.  
+~
+drow~
+ABG A DFHJP 0 0 0
+45 17 4d10+3600 0d0+100 5d9+17 pierce
+-13 -11 -12 -8
+EFIN 0 B Ya
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+#7605
+Rolcheyius Master Gladiator~
+Rolcheyius the master gladiator~
+Gripping a massive axe, Rolcheyius, the master gladiator, teaches his young students secrets of battle.
+~
+Towering nearly 12' above the ground, Rolcheyius seems much more of a
+giant then an ogre.  An ancient pitfighter from the early days of the Third
+Age, Rolcheyius is the last of the Gladiators and teaches the lost art to a
+few of the younger students.  Known as a great trainer in all aspects of
+combat, he is reknown for his skill as both a warrior and a tactiction.  
+~
+ogre~
+ABJTe A DFJ 0 0 0
+48 15 4d10+7000 0d0+100 8d6+10 slash
+-10 -11 -11 -8
+DEFIJK 0 EG C
+stand stand male none~
+22
+AHMV ABCDEFGHIJK huge 0
+#7606
+Young Gladiator~
+A young gladiator~
+A young gladiator stands in the arena, learning the secrets of warfare.
+~
+Though appearing to be a common ogre at first, this young student is
+infact a female ogre.  Many oversee this because in this city the females
+are seen as the weaker inferior race, and are forced to become handmaidens
+to the chieften, her hair is cut short, and her body is clad in thick bulky
+armor.  
+~
+ogre~
+AB A D 0 -250 0
+35 7 10d100+350 0d0+100 3d7+10 punch
+1 1 1 2
+DEHIJ 0 EQ C
+stand stand female none~
+18
+AHMV ABCDEFGHIJK large 0
+#7607
+Ogre Blacksmith~
+An ogre blacksmith~
+Sitting on a stool next to the forge, the blacksmith is hard at work, pounding on a sheet of metal with his hammer.
+~
+Sitting on a stool next to the flaming forge, a stout fat ogre grips a
+hammer in his enormous hands tightly.  He raises the hammer above his head,
+swining it and striking a sheet of metal which lays on the forge again and
+again.  Known for his crafting of various goods, this blacksmith seems to
+rarely rest as he continues to hammer the sheet of metal.  
+~
+ogre~
+ABG A DFHJ 0 0 0
+45 16 4d10+3500 0d0+100 6d9+16 none
+-11 -12 -17 -8
+DEIJ 0 E C
+stand stand male none~
+25
+AHMV ABCDEFGHIJK large 0
+#7608
+Duergar Warrior~
+A duergar warrior~
+Glaring at all the weapons and armor, a duergar grins at you broadly as he beckons you closer.
+~
+Dark like the pitch-black skies on a cold winter day, this short stout
+duergar stands in center square beckoning any potential customers to examine
+his fine wears.  Assorted weapons from all across Mirlan litter the ground,
+most elegant in fashion, he seems quite content in selling everything he
+has.  
+~
+duergar~
+ABe A DFHJ 0 0 0
+45 18 10d10+3500 0d0+100 5d9+28 pound
+-14 -11 -12 -9
+DEIJ 0 CL R
+stand stand male none~
+18
+AHMV ABCDEFGHIJK small 0
+#7609
+Old Grizzled Man~
+An old grizzled warrior~
+Muttering to himself, an old grizzled stone giant stands here looking for something.
+~
+Old tattered clothing drapes about the thin and slender figure of this
+short stone giant, standing merely 8' in height.  Frail and worn from
+ancient battle, this stone giant has come to the city to rest and retire,
+and sell the remains of all that he plundered, most of it seems like junk
+though one weapon stands out amongst the rest, a jewel-hilted rapier.  
+~
+stone~
+ABG A DJ 0 0 0
+45 17 50d20+3500 0d0+100 5d9+19 slash
+-14 -11 -10 -7
+DEJ 0 D P
+stand stand none none~
+16
+AHMV ABCDEFGHIJK large 0
+#7610
+Withered elven mage~
+A withered elven mage~
+A withered elven mage is standing here.
+~
+He looks you up and down and then begins to speak of his arcane creations
+and what they do.  Worn on his back is a light blue cape which flows down to
+his feet.  Pale withered hands glow with a bright energy as he smiles
+faintly to anyone, selling his goods to raise awarness of magic in the
+city.  
+~
+elf~
+ABGR A HJP 0 0 0
+45 14 6d6+3400 0d0+100 5d9+16 magic
+-12 -10 -11 -9
+F 0 BHI LQZ
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+#7611
+Tall Alchemist~
+The city alchemist~
+Stirring a long spoon in the large cauldron, a tall alchemist sells his fine magical brew.
+~
+Taller then the common wizard, this alchemist stands nearly 7' in height
+as he is barely able to reach above the cauldron to stir it.  Mastering the
+arts of alchemy, most of his brew is ussually dull and does little, though
+he still has some potions brewed from his early days which were reknown and
+quite popular.  
+~
+human~
+ABGRc A DFHJ 0 0 0
+45 16 10d10+3700 0d0+100 6d9+21 magic
+-15 -14 -11 -8
+0 0 KO LQ
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+P DEATH 7611 100~
+#7612
+Pale Women Scribe~
+The city scribe~
+Behind a desk, a pale woman scribbles arcane runes on tattered parchment.
+~
+Long black hair flows down from a glowing hood which rests atop her head,
+her thin hands clutch a quill tightly as she scribbles arcane runes on some
+parchment.  
+~
+human~
+ABGR A DFJ 0 0 0
+45 9 7d5+3800 0d0+100 2d3+25 magic
+-20 -20 -20 -20
+D 0 K 0
+stand stand female none~
+19
+AHMV ABCDEFGHIJK medium 0
+#7613
+Drunk Ogre Commoner~
+A drunk ogre commoner~
+A drunk ogre commoner wanders the streets blindly.
+~
+Looking somewhat confused, this rather strange ogre wanders the streets
+of the city in search of something.  His clothes are little more then
+rags, and his skin is a moldy green in color, his eyes are thin and narrow,
+squinting to find something.  
+~
+ogre~
+AGd A 0 0 -500 0
+34 8 10d100+500 0d0+100 4d8+8 punch
+-1 -1 -1 5
+DIJ 0 Q C
+stand stand male none~
+20
+AHMV ABCDEFGHIJK large 0
+#7614
+Barmaid Wench~
+A barmaid~
+A barmaid bustles through the common room here.
+~
+~
+human~
+ABG A DJ 0 0 0
+32 8 6d6+800 0d0+100 4d4+9 slap
+-10 -10 -10 5
+DE 0 0 E
+stand stand female none~
+13
+AHMV ABCDEFGHIJK medium 0
+#7615
+Barmaid Wench~
+A barmaid~
+A barmaid stands at the bar, awaiting a long list of drinks.
+~
+~
+human~
+ABG A J 0 0 0
+32 8 1d10+3500 0d0+100 4d4+22 slap
+-10 -10 -10 5
+DE 0 0 E
+stand stand female none~
+11
+AHMV ABCDEFGHIJK medium 0
+#7616
+Sramak stablemaster miruvhor~
+A hefty ogre sets here on a stool.~
+Sramak, the Mirlsport Stablemaster, is here on a stool.
+~
+A huge ogroc farmer stands here covered in bib overalls.  Below the straw
+hat he is wearing is a squat ogre face that looks as if it has been beat
+with a whip.  His large gut hangs almost over his knees as he sits on his
+large stool.  He is covered with sweat, brine, and straw from head to toe
+almost it seems.  
+~
+human~
+ABTVZ A DJ 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 punch
+-30 -30 -30 -30
+EFHJK ABH D 0
+stand stand male none~
+25
+AHMV ABCDEFGHIJK medium 0
+#7617
+Human Swordsman~
+a proud swordsman~
+A proud swordsman sits here, drinking quietly
+~
+~
+human~
+ABGT A 0 0 -500 0
+38 15 4d10+1300 0d0+100 4d4+25 slash
+-15 -15 -15 -8
+0 0 G E
+stand stand male none~
+15
+AHMV ABCDEFGHIJK medium 0
+#7618
+Infuriated Ogre~
+an infuriated ogre~
+Clad in thick hides, an infuriated ogre sits here drinking.
+~
+~
+ogre~
+ABGT A D 0 -500 0
+38 15 10d10+3800 0d0+100 4d4+31 punch
+-15 -15 -15 -8
+CD 0 EG 0
+stand stand male none~
+15
+AHMV ABCDEFGHIJK medium 0
+F vul C
+#7619
+Infuriated Ogre~
+an infuriated ogre~
+Muttering something to himself, a massive ogre sits here drinking with the others.
+~
+~
+ogre~
+ABGT A 0 0 -500 0
+38 25 10d10+3800 0d0+100 4d4+31 punch
+-15 -15 -15 -8
+CD 0 EG 0
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+F vul C
+#7620
+Fire Giant Berserker~
+a massive fire giant berserker~
+With a large axe slung over his shoulder, a fire giant glares at you.
+~
+This red skinned giant leaves little to the imagination, as all that
+covers his massive frame is a limp loincloth, he seems weaponless, though
+you can almost sense the rage which radiates from his stern glare.  
+~
+fire~
+ABGT A 0 0 -500 0
+40 25 10d10+4000 0d0+100 6d6+35 punch
+-15 -15 -15 -8
+CD 0 DEGH CIP
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#7621
+Ogre Girhlok ~
+(no short description)~
+Hunched low to the ground, a hulking ogre is before you, snorting at your presence.
+~
+This is a creature like no other, nearly 12' in height, this Ogre was
+named Girhlok and was titled the Champion Berserker for his dire efforts in
+Battle in the War against Magic, he was once a Warmaster of reknown, now he
+lives his life in this guild, mastering his arts.  
+~
+ogre~
+ABJKT A DFJ 0 -600 0
+50 36 4d4+8000 0d0+100 3d3+45 flame
+-30 -30 -30 -50
+CEFJ 0 EF C
+stand stand male none~
+21
+AHMV ABCDEFGHIJK huge 0
+#7622
+Dwarf foul commoner sickly~
+a sickly dwarf~
+Slumped into a corner, a sickly dwarf grins broadly, tapping a wooden plate for food
+~
+Green sickly skin covers this once proud dwarf, chained into the confinments
+of the Ogre Palace, he is kept in poor condition, and fed scraps, what seems
+to be a place of equality is nothing of the like, since the War of Night this
+dwarf has been locked into solatary confinement.
+~
+dwarf~
+ABG A J 0 0 0
+32 8 10d10+2200 0d0+100 4d4+9 slap
+-10 -10 -10 5
+DE 0 CL 0
+stand stand female none~
+11
+AHMV ABCDEFGHIJK small 0
+F vul R
+#7623
+Commoner Curious Ogre~
+an angered ogre~
+Tattered rags drape about a towering ogre, a curious look is upon his face.
+~
+~
+ogre~
+ABGT A 0 0 -500 0
+38 15 1d10+3200 0d0+100 6d5+30 punch
+-15 -15 -15 -8
+CD 0 EG 0
+stand stand male none~
+20
+AHMV ABCDEFGHIJK medium 0
+F vul C
+#7624
+Royal Half-Ogre Ogre~
+a royal half-ogre~
+Bright red robes adorn the massive figure of this humanoid ogre, royalty twinkles in his eyes.
+~
+Bright red robes drape about the figure of this half-ogre, he stands well
+over 7 feet, and glares at you with a sickening disgust.  Snarling in anger
+he seems of royal and noble blood, a leader in this city.  
+~
+ogre~
+ABGT A 0 0 -500 0
+45 15 10d10+4500 0d0+100 4d4+25 punch
+-15 -15 -15 -8
+CD 0 EG 0
+stand stand male none~
+25
+AHMV ABCDEFGHIJK medium 0
+F vul C
+#7625
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+A A 0 0 0 0
+0 0 0d0+0 0d0+100 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+3
+AHMV ABCDEFGHIJK medium 0
+#7626
+Kittek thief guardian~
+Kittek the Thief Guardian~
+A dark man is hidden among the shadows here.
+~
+~
+halfling~
+ABSe A DFJ 0 0 0
+35 22 10d10+4500 0d0+100 4d6+15 punch
+-5 -5 -5 -5
+FKNV AB C 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+#7627
+Herumpf healer ogre~
+Herumpf the healer~
+Herumpf the ogre healer is here communing his blessings.
+~
+~
+human~
+ABTVZa A DFHJN 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 divine
+-30 -30 -30 -30
+EFHJK AB D 0
+stand stand male none~
+29
+AHMV ABCDEFGHIJK medium 0
+#7628
+Volerek guildmaster thief~
+Volerek the Thief Guildmaster~
+Volerek, the Thief Guildmaster, rests here in thought.
+~
+~
+human~
+ABKVZ A DFJ 0 0 0
+60 20 10d10+10000 0d0+100 4d6+45 pain
+0 0 0 0
+0 AB 0 0
+stand stand male none~
+30
+AHMV ABCDEFGHIJK medium 0
+#7633
+Durak guild guard~
+Durak, the Ogroc clan guildguardian~
+Durak, the Guardian of the Ogroc clan stands here.
+~
+~
+ogre~
+ABZ A DFJ 0 0 0
+35 20 4d6+6500 0d0+100 4d6+15 beating
+-5 -5 -5 -5
+DFHKV AB 0 0
+stand stand male none~
+19
+AHMV ABCDEFGHIJK huge 0
+F vul C
+#7635
+snarling ogre guildmaster~
+A snarling ogre~
+A snarling ogre stands here, waiting to teach you.
+~
+~
+ogre~
+ABKVZ A DFJ 0 0 0
+60 40 10d10+10000 0d0+100 10d10+20 beating
+-20 -20 -20 -20
+0 AB 0 C
+stand stand male none~
+29
+AHMV ABCDEFGHIJK medium 0
+#7636
+Fire Gladrak~
+Gladrak~
+Gladrak, the Fire Giant, stands here, looking angry.
+~
+~
+fire~
+ABJVZ A 0 0 -750 0
+60 40 10d10+8000 0d0+100 4d6+40 slash
+-20 -20 -20 -20
+EFIK AB DH IP
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+#7639
+Murian guardian blue blades~
+Murian, the Guardian of the Blue Blades~
+Murian, the Guardian of the Blue Blades, stands guard here.
+~
+~
+stone~
+ABZ A DFJ 0 0 0
+35 20 10d10+6000 0d0+100 4d6+15 slash
+-5 -5 -5 -5
+DFKNV AB D 0
+stand stand male none~
+13
+AHMV ABCDEFGHIJK huge 0
+F vul P
+#7640
+Furhno guildmaster Warrior~
+Fuhrno, the Warrior Guildmaster~
+Furhno, the Warrior Guildmaster is teaching young students here.
+~
+~
+stone~
+ABKVZ A DFJ 0 0 0
+60 40 10d10+10000 0d0+100 4d6+50 beating
+-20 -20 -20 -20
+EFK AB D 0
+stand stand male none~
+27
+AHMV ABCDEFGHIJK medium 0
+F vul P
+#7688
+lord firidon~
+Lord Firidon~
+Lord Firidon stands here, pacing idly.
+~
+A massive ogre Lord stands before you, dressed very regally in flowing
+garb of ogre craftsmanship. A studded belt adorns his waist, and he looks
+at you impatiently.
+~
+ogre~
+ABZ A DFJ 0 0 0
+55 40 10d10+6800 0d0+100 4d6+60 cleave
+-18 -18 -18 -11
+DEFHJKX AB D C
+stand stand male none~
+23
+AHMV ABCDEFGHIJK huge 0
+#7691
+Dire Wolf~
+A dire wolf stands here.~
+A dire wolf stands here with saliva dripping from its gums.
+~
+A large wolf stands here covered in twigs and leaves.  Saliva drips
+freeing from its mouth as it bares long canine teeth at you.  Its body is
+covered in pus filled sacks and scars.  Danging from around its neck is a
+think leather cord that is used to guide him.  
+~
+wolf~
+AE A 0 0 0 0
+30 5 5d10+550 0d0+100 1d5+5 bite
+0 0 0 0
+0 0 0 0
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#7692
+Dire Bear~
+A dire bear stands here.~
+A dire bear stands here with twigs and sticks in its paws.
+~
+A large wolf stands here covered in twigs and leaves.  Saliva drips
+freeing from its mouth as it bares long canine teeth at you.  Its body is
+covered in pus filled sacks and scars.  Danging from around its neck is a
+think leather cord that is used to guide him.  A large bear stands here
+covered in twigs and leaves.  Saliva drips freeing from its mouth as it
+bares long canine teeth at you.  Its body is covered in pus filled sacks and
+scars.  Danging from around its neck is a think leather cord that is used to
+guide him.  
+~
+bear~
+AE A 0 0 0 0
+30 5 5d10+550 0d0+100 1d5+5 bite
+0 0 0 0
+DEO 0 EI 0
+stand stand male none~
+14
+AG ACDEFJKU medium 0
+#7693
+Wild Mustang~
+A wild mustang stands here.~
+A wild mustang stands here with a wild look in its eyes.
+~
+Standing here stamping its foot is a wild mustang.  It has a wild look in
+its eye and it whinnies and shakes it head constantly.  It is covered with
+white spots on its brown fur and has a well muscle bodied.  It does not look
+like an easily tamed animal.  
+~
+unique~
+AE A 0 0 0 0
+30 5 5d10+550 0d0+100 1d5+5 bite
+0 0 0 0
+0 0 0 0
+stand stand male none~
+12
+AGV ABCDEFHJK medium 0
+#7694
+Phoenix~
+A Phoenix hovers in the air here.~
+A Phoenix in its final stage of molt stands here brightly aglow.
+~
+A large fiery Phoenix stands here covered in flames.  Its eyes burn with
+a lust of the flight and it only needs small trust to be trained to your
+needs.  It has a large wingspan and very taloned feet that relate
+proportionately to its body.  
+~
+unique~
+AE A T 0 0 0
+30 5 5d10+550 0d0+100 1d5+5 none
+0 0 0 0
+0 0 0 0
+stand stand male none~
+17
+AGV ABCDEFHJK medium 0
+#7695
+ogre daughter~
+Smash's daughter, Madelle~
+The daughter of the Ogre, Smash, stands here.
+~
+~
+human~
+ABHe A DFJ 0 0 0
+30 90 4d6+20000 0d0+100 4d6+110 punch
+-20 -20 -20 -20
+EFHJKNX ABCDLQ 0 0
+stand stand female none~
+19
+AHMV ABCDEFGHIJK huge 0
+#7696
+warmaster ludan~
+Warmaster Ludan~
+Warmaster Ludan is here, resting in his residence.
+~
+Before you towers Warmaster Ludan, one of the greatest Warriors of
+Ogre Lore. He has long since retired from his trade of battle, but
+maintains his figure in rock shape, working out his forms nearly
+every day.
+~
+ogre~
+ABZ A DFJ 0 0 0
+55 40 10d10+7000 0d0+100 4d6+60 smash
+-14 -14 -14 -11
+EFHIJK AB D C
+stand stand male none~
+24
+AHMV ABCDEFGHIJK huge 0
+#7698
+ogre guard~
+A large ogre guard~
+A massive ogre guard stands here, protecting the chieftain.
+~
+~
+ogre~
+ABTZ A DFJ 0 0 0
+50 25 10d10+4500 0d0+100 4d6+35 beating
+-9 -9 -9 -9
+DEFHJK AB D C
+stand stand either none~
+17
+AHMV ABCDEFGHIJK huge 0
+#7699
+chieftain crunch ogre~
+Crunch, the Ogre Chieftain~
+Crunch, the Ogre Chieftain, is resting here on a throne.
+~
+A massive being looms before you. Fully a span taller than most humans,
+Crunch wield his authority in these parts with an iron fist. The father
+of Smash, and the resident lawkeeper in these parts, Crunch sits on the
+city throne, and has for several decades.
+s
+~
+ogre~
+ABTZ A DFJ 0 0 0
+60 35 10d10+8000 0d0+100 6d7+72 crush
+-11 -11 -11 -9
+ADEFHIJKNX AB D C
+stand stand male none~
+27
+AHMV ABCDEFGHIJK huge 0
+#0
+
+
+
+#OBJECTS
+#7610
+bottle liquor~
+a bottle of boiling liquor~
+A glass bottle is resting here.~
+glass~
+drink 0 A
+4 4 'firebreather' 0 0
+10 10 500 P
+#7611
+pint mead~
+a pint of mead~
+A pint of mead rests here.~
+glass~
+drink 0 A
+2 2 'mead' 0 0
+5 10 200 P
+#7612
+ogre mound brew~
+a goblet of Ogre Mound Brew~
+A large goblet is resting here.~
+glass~
+drink 0 A
+6 6 'beer' 0 0
+5 20 400 P
+#7613
+hammered platemail~
+a suit of hammered platemail~
+A large suit of armor is resting here.~
+metal~
+armor 0 AD
+6 6 6 4 0
+20 150 3000 P
+F
+A 1 2 0
+F
+A 19 1 0
+#7614
+ogre leggings~
+a set of ogre-made leggings~
+A set of leggings is resting here.~
+steel~
+armor 0 AF
+7 7 7 2 0
+20 130 3000 P
+#7616
+battleaxe ogre~
+a fine ogre battleaxe~
+A battleaxe is resting on the ground here.~
+iron~
+weapon 0 AN
+axe 4 6 cleave 0
+20 180 2500 P
+F
+A 13 5 0
+F
+A 18 1 0
+F
+A 19 1 0
+#7617
+sharp steel sword~
+a sharp steel sword~
+A sharp looking steel sword is on the ground here.~
+steel~
+weapon B AN
+sword 4 6 slash D
+20 120 2900 P
+F
+A 2 2 0
+F
+A 19 2 0
+#7618
+dirk~
+a steel dirk~
+A long steel dirk is resting here.~
+steel~
+weapon 0 AN
+dagger 4 6 pierce D
+20 70 2000 P
+F
+A 18 3 0
+#7619
+practice mace~
+a wooden mace~
+A long wooden mace is resting here.~
+wood~
+weapon 0 AN
+mace 2 2 crush 0
+20 30 6500 P
+F
+A 1 -2 0
+F
+A 19 -2 0
+F
+A 18 -2 0
+#7620
+practice sword~
+a wooden sword~
+A wooden sword is resting here.~
+wood~
+weapon 0 AN
+sword 2 2 slash 0
+20 40 6500 P
+F
+A 1 -2 0
+F
+A 19 -2 0
+F
+A 18 -2 0
+#7621
+slab beef~
+a large slab of beef~
+A large slab of beef is resting here.~
+meat~
+food 0 A
+24 24 0 0 24
+2 20 12 P
+#7622
+turkey leg~
+a large turkey leg~
+A large turkey leg is on the ground here.~
+turkey~
+food 0 A
+20 20 0 0 20
+1 0 10 P
+#7623
+fruit bowl~
+a large bowl of fruit~
+A large fruit basket is here.~
+fruit~
+food 0 A
+12 12 0 0 30
+2 30 6 P
+#7624
+blue pill~
+a blue pill~
+A large blue pill is resting here.~
+unknown~
+pill 0 A
+10 'detect invis' '' '' ''
+20 5 1000 P
+#7625
+recall potion~
+a potion of recall~
+A potion of recall is resting on the ground here.~
+liquid~
+potion 0 AO
+50 'word of recall' '' '' ''
+10 10 3000 P
+#7626
+red pill~
+a red pill~
+A red pill is resting here.~
+pill~
+pill 0 A
+20 'bless' '' '' ''
+20 5 3000 P
+#7627
+white pill~
+a white pill~
+A white pill is resting here.~
+unknown~
+pill 0 A
+25 'armor' '' '' ''
+20 0 500 P
+#7645
+fountain~
+a large granite fountain~
+A large granite fountain pours forth cool mountain water here.~
+unknown~
+fountain 0 0
+-1 -1 'water' 0 0
+0 0 0 P
+#7646
+pit of offering~
+a pit of offering~
+A pit of offering is placed here to honor the Gods.~
+unknown~
+container OT 0
+10000 0 0 10000 10000
+60 0 10000 P
+#7687
+ogre leggings~
+a set of powerful Ogre leggings~
+A large set of Ogre leggings is resting here.~
+iron~
+armor B AFX
+10 10 10 7 0
+55 250 3 P
+F
+A 19 4 0
+F
+A 18 -1 0
+F
+A 2 -2 0
+#7688
+jewel encrusted belt~
+a jewel encrusted belt~
+A long, shimmering belt is lying here.~
+jewels~
+armor AB ALS
+11 10 10 7 0
+55 100 2 P
+F
+A 27 -1 0
+F
+A 19 2 0
+F
+A 24 -3 0
+#7696
+ogre battleaxe axe~
+the Great Battleaxe of Ludan~
+A great battleaxe is lying here on the floor.~
+steel~
+weapon Ae ANX
+axe 5 9 cleave F
+55 300 2 P
+F
+A 19 1 0
+F
+A 18 1 0
+#7698
+helm skulls~
+the Helm of Skulls~
+A large helm made of skulls is resting here.~
+bone~
+armor B AEX
+9 9 9 7 0
+55 190 5 P
+F
+A 2 -3 0
+F
+S 142 15 0
+F
+A 18 1 0
+F
+A 19 3 0
+#7699
+ogre chainskirt~
+an Ogre chainskirt~
+A long skirt of chainmail rests here.~
+chain~
+armor 0 AFS
+13 12 12 10 0
+55 220 4 P
+F
+A 20 -4 0
+F
+A 21 -6 0
+F
+A 24 -2 0
+#0
+
+
+
+#ROOMS
+#7600
+`2A path through the dark forest``~
+Large trees sprawl all along the ground, uprooted and destroyed, though
+some still rest to the east and west.  It seems as if some adventurers have
+made thier way through this forest to the north, but little else can be seen
+but more of the dark forest.  The fresh scent of pine fills your nose as you
+take a deep breath.  The chirping of songbirds echoes the area, as the
+morning drizzle rests beneath your feet, along what seems to be a path in
+this forest.  
+~
+~
+0 1 32768 3
+E
+fire~
+~
+D0
+~
+~
+0 0 7601
+D2
+~
+~
+0 0 25104
+S
+#7601
+`2A dark part of the forest path``~
+You appear to be descending into some sort of a valley, as the trees grow
+considerably darker.  You hear little sounds of life, only the occasional
+grunt or scream.  To the south is the path of knocked and uprooted trees
+which you followed to get here.  Far to the north you see a break in the
+trees leading towards the end of the forest.  
+~
+~
+0 1 32768 3
+D0
+~
+~
+0 0 7602
+D2
+~
+~
+0 0 7600
+S
+#7602
+`2The end of the dark forest``~
+The dark forest runs to an abrupt end as the trail runs through some
+shrub running into a deep valley.  The valley seems to be uprooted, one dirt
+trail can be seen admist the trees which litter the valley.  The valley
+seems large, though destroyed in order to make room for the enormous city
+set at its center, which runs so far it seems a part of the mountainface. 
+Obviousley this valley was once a part of the forest to the south, though
+uprooted and destroyed by some hulking creature.  
+~
+~
+0 1 65536 3
+D0
+~
+~
+0 0 7603
+D2
+~
+~
+0 0 7601
+S
+#7603
+`3A rough dirt trail``~
+Before you a runs a straight dirt road leading to the gates of the
+city.  Many giant footprints are seen on the ground, twice the size of
+any ordinary man, some plantlife even grows in these footprints.  The path
+is short and allows simple access to the city gates, though up above your
+head, to the north you see large vultures circling the city.  
+~
+~
+0 1 32768 2
+D0
+~
+~
+0 0 7604
+D2
+~
+~
+0 0 7602
+S
+#7604
+`3A rough dirt trail``~
+The trail runs a short distance to the north and you stop for a moment,
+rubbing your eyes in disbelief.  The gates rise nearly 20' into the air, as
+his city was created by no ordinary man.  The city walls are uprooted
+trees, hammered together and set side by side as a powerful defense against
+any intruders.  Up ahead you can see two images standing next to one
+another, but what they truely are is unknown.  
+~
+~
+0 1 32768 2
+D0
+~
+~
+0 0 7605
+D1
+~
+~
+0 0 17400
+D2
+~
+~
+0 0 7603
+S
+#7605
+`2The southern gatehouse``~
+Two large wooden gates are wide open, as the dirt trail leads into
+the city, running into the market place. This is the only true
+entrance to the city, as thier are no gates to the east and west,
+and the northern gate is unseen, as it runs into the mountainface.
+This city was constructed by ogres not long ago, as a refuge from
+the cruel condition of Mirlan, many of the ogres dwell in this city
+for lack of strength to move elsewhere.
+~
+~
+0 1 65536 3
+E
+gate~
+Two large wooden gates tower high above your head, they seem poorly
+crafted as many splinters and crude markings adorn the wood.  These gates
+are always open, except in times of Warfare, but since no War has been
+signaled in the last 50 years, the gates have rusted shut, and become
+immobile.  
+~
+D0
+~
+~
+0 0 7606
+D2
+~
+~
+0 0 7604
+S
+#7606
+`7Darnak Road``~
+A wide street composed of gray stones and carefully-arranged curbs.  This
+road leads straight into the center of marketplace, its cityhall which is
+far to the north.  Darnak road was named after the ogre chieften Gruntok
+Darnak, which founded this city nearly 50 years ago, since that time a
+marketplace has opened and a trading route established with a few of the
+less civilized races.  Many unfinished houses rest to the east and west,
+thier doors boarded and locked.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7607
+D2
+~
+~
+0 0 7605
+S
+#7607
+`7Darnak Road``~
+A wide street composed of gray stones and carefully-arranged curbs, the
+road runs to the marketplace a good ways to the north.  Though to the east a
+door to one of the abandoned buildings is open, almost as if it was forced
+open.  To the south the Darnak road continues its way to the exit of the
+Mirlsport, the only exit in the Mirlsport.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7609
+D1
+~
+~
+0 0 7608
+D2
+~
+~
+0 0 7606
+S
+#7608
+`8Mirlsport Stable and Livery``~
+You are standing in a small pole barn.  The walls have all been
+white-washed at one time but now are a pugnent yellow color.  Animals graze
+freely throughout the barn and some even rest on the man sitting in the
+corner on a stool.  The floor of the room is covered in fresh straw that
+seems to be an off color of yellow and is already covered with fur and
+feathers.  
+ 
+A small sign hangs on the wall to be read.
+~
+~
+0 8 0 0
+E
+sign~
+~
+D3
+~
+~
+0 0 7607
+S
+#7609
+`7Darnak Road``~
+The wide street of Darnak road continues to snake its way north towards
+the entrance to the southern marketplace.  Many merchants from all across
+Mirlan can be seen wandering about bidding on certain goods.  Even the ogres
+seem to be trading which is quite rare, because of thier hostility towards
+that which they cannot get.  No pets can be seen wandering the marketplace
+for fear of being stolen, the houses to the east and west are all
+unfinished.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7610
+D2
+~
+~
+0 0 7607
+S
+#7610
+`7The Southern Marketplace of Mirlsport``~
+This is the most crowded part of the marketplace, a section where the
+finest foods of Mirlan are found.  Noble ogres wander these streets gazing at
+the large variety of foods, the marketplace twists to the east and west
+towards the less crowded parts, while twisting north through a large bundle
+of goods is the center of the marketplace.  South leads towards the Darnak
+road which exits out of the city.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7613
+D1
+~
+~
+0 0 7611
+D2
+~
+~
+0 0 7609
+D3
+~
+~
+0 0 7612
+S
+#7611
+`7The Southeastern Marketplace of Mirlsport``~
+Many rugged warriors stand here in a circle each of them shackeled to one
+another, one dark robed man holds a loose chain link, which holds all the
+warriors together.  Hired swords are able to be bought here, some of the
+finest have been said to be here, though anyone seeking a large sum of gold
+would spread such a rumour.  This part of the marketplace is almost deserted
+as the prices for these mercenaries is anything but cheap.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7614
+D3
+~
+~
+0 0 7610
+S
+#7612
+`7The Southwestern Marketplace of Mirlsport``~
+This was once a place of great battle, the Arena of the city once
+stood here proudly, as the finest of Ogres would test there strength.  But
+in the recent years guilds from the larger cities across Mirlan began to
+allow Ogres to learn in them.  Since that day the strongest of Ogres flocked
+away, leaving the Arena almost deserted.  A deep circle is dug into the
+ground, one Ogre stands here teaching a few younger students the arts of the
+Arena, though it is doubtful this once great place of battle will ever see
+the glorious days of the past.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7615
+D1
+~
+~
+0 0 7610
+S
+#7613
+`7The Central Marketplace of Mirlsport``~
+This part of the marketplace is crowded with warriors of all kinds, the
+center of the marketplace is known for its fine wears of armor, and its
+legendary blacksmith.  Many tools of Warfare can be found here, some lie
+still gathering rust, while others are still being mended by one blacksmith
+in the northern corner of the center.  The sharper weapons seem be quite
+elegant in style, though fetch for quite a sum on the open market.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7616
+D1
+~
+~
+0 0 7614
+D2
+~
+~
+0 0 7610
+D3
+~
+~
+0 0 7615
+D5
+~
+secret~
+ABM 0 11199
+P EXALL 5 down~
+S
+#7614
+`7The Eastern Marketplace of Mirlsport``~
+Rusted weapons litter this part of the eastern marketplace, as all of the
+warriors seem to buy thier goods from the west, in the center.  One grizzled
+old man sits here on a stool muttering to himself as a smile appears on his
+face at the sign of any customer.  The ground beneath your feet is unusually
+hard, as very few people travel through here.  Prices here are quite cheap,
+though the weapons are fashioned from old iron and cold steel, materials
+that are rarely seen in the more recent weapon styles.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7617
+D1
+~
+~
+0 0 7647
+D2
+~
+~
+0 0 7611
+D3
+~
+~
+0 0 7613
+S
+#7615
+`7The Western Marketplace of Mirlsport``~
+This part of the marketplace is the armory of the city and has a
+reputation for goods of high quality, and reasonable prices.  The blacksmith
+itself is extremely busied in his work, as the kiln is heated to
+extraordinary temperatures in order to melt the metal which he uses.  A
+large anvil stands at the center of the marketplace, and a rack of tools for
+shaping metal are laid upon the ground beside him.  Along the ground, next
+to the forge are several suits of armor, made to fit different sizes of men,
+including ogres.  
+~
+~
+0 0 4194304 1
+D0
+~
+~
+0 0 7618
+D1
+~
+~
+0 0 7613
+D2
+~
+~
+0 0 7612
+D3
+~
+~
+0 0 7619
+S
+#7616
+`7The Northern Marketplace of Mirlsport``~
+The northern marketplace looks much larger from standing at its center
+then it did from other parts.  Perhaps there is some magic being used, but
+it is difficult to say.  The apothecary is quite a site with jars containing
+necessary ingredients for the alchemists to exist.  A large cauldron can be
+seen boiling in the back steaming from the extreme heat generated by the
+strange fire.  Potion of different colors are upon the table ready for sale,
+this is known as the Arcane center of the city.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7658
+D1
+~
+~
+0 0 7617
+D2
+~
+~
+0 0 7613
+D3
+~
+~
+0 0 7618
+S
+#7617
+`7The Northeastern Marketplace of Mirlsport``~
+This small stall has been erected by the city scholar faction, both to
+raise money for their study, and to spread the perceived influence of Magic.
+Staves constructed by students of various spheres are for sale to the public
+at large, although such wonderous artifacts exact a heavy price, this part
+is less popular then the northern marketplace, though it has a steady
+buisness.  
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 7614
+D3
+~
+~
+0 0 7616
+S
+#7618
+`7The Northwestern Marketplace of Mirlsport``~
+Young scholars from all across Mirlan scribe scrolls to be sold here. 
+They practice this to further thier skills and gain a profit for
+themshelves.  Parchments, quills line the few desks that are seen here, to
+the east the northern marketplace is seen, which is far more crowded.  While
+to the south the steam of the forge is seen bellowing through the air.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7616
+D2
+~
+~
+0 0 7615
+S
+#7619
+`7Tingarol Road``~
+Tingarol Street, named after an ancient ogre from the First Age, wends
+its way west of the Marketplace.  Once a thriving part of the city known
+for its reputation as a home for men of War, it now serves as the stomping
+ground for weaker, cheaper hired swords.  To the west the Tavern of the
+Rising Sun is seen, one of the larger Taverns across all of Mirlan, known for
+its unique Ogre Mound Brew, Tingarol streets continues to the west, while
+the main drag of the marketplace opens to the east.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7615
+D3
+~
+~
+0 0 7620
+S
+#7620
+`7Tingarol Road``~
+Tingarol street grows more narrow with each passing step, untill it is a
+strain to even pass through, though it widens a fair bit around the Tavern
+of the Rising Sun which is directly to the north.  A large shield carved
+from wood shines brightly as a rising sun is engraved into its golden
+faceplate.  This Tavern is nearly 30' in height, and two floors tall. 
+Drunken men litter the streets, thrown out from the Tavern for various
+reasons.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7621
+D1
+~
+~
+0 0 7619
+D3
+~
+~
+0 0 7641
+S
+#7621
+`8The Common Room of the Rising Sun``~
+This common room is a riot of activity, barmaids and waitresses work
+their way through the crowd, stolidly ignoring the cheering of the crowd of
+rowdy men.  The room is illuminated by cast wooden torches which hang down
+from the ceiling on short chains, serving as a crude sort of light.  The
+tavern stretches out in all directions, though more people seem to be
+clustered about the bar to the north, hollering for ale.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7622
+D1
+~
+~
+0 0 7624
+D2
+~
+~
+0 0 7620
+D3
+~
+~
+0 0 7623
+S
+#7622
+`8Bar of the Rising Sun``~
+This oak-walled room houses the bar of the Rising Sun.  The high pine bar
+blocks off the southwest corner of the room and the kitchen.  Stout wood
+stools line the bar, filled with warriors come to dip their sorrows in ale. 
+A large painting on the south depicts Tingarol the first Ogre to ever walk
+the lands of Mirlan, in his hand a large wooden club is seen, while in the
+other the clubed carcass of a mage.  The common room is to the south,
+leading towards the exit of the tavern.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 7625
+D2
+~
+~
+0 0 7621
+D3
+~
+~
+0 0 7626
+S
+#7623
+`8The Quiet Room``~
+The only section of the tavern which is even remotely quiet, while filled
+with the same tables as other parts of the tavern, this corner is frequented
+with more noble warriors.  A shabby wooden stage rises up from the west wall
+for bards to weave their music, but it shows many signs of disuse.  The
+common room is to the east, while some tables are to the south.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7626
+D1
+~
+~
+0 0 7621
+S
+#7624
+`8The tables``~
+These wooden tables are filled by various warriors come to the tavern for
+its reknown Ogre Brew.  Berserkers from all across Mirlan sit here, some
+famous ones sit in circular tables whispering stories of great battle to the
+younger warriors, as they listen in anticipation.  To the west the common
+room can be seen, while north a large wooden playing table can be seen,
+smoke bellows through the room from the north, as it fills the air with a
+dull stingy gray.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7625
+D3
+~
+~
+0 0 7621
+S
+#7625
+`8A circular playing table``~
+A large circular table fills most of this room, filled by a handful of
+rowdy berserkers, gravitating here from all parts of Mirlan.  Pitchers of ale
+and mead sit all over the center of the table, as the berserkers whisper
+great stories of battle to one another.  Wenches pass toward this section in
+a nervious panic, drawn by the shouts of the berserkers for more ale.  Some
+tables are to the south, while the bar is to the west.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7629
+D2
+~
+~
+0 0 7624
+D3
+~
+~
+0 0 7622
+S
+#7626
+`8A deserted corner``~
+Wooden stools line the center of this room, as to the northern corner a
+empty bar can be seen.  This part of the Bar seems deserted from most
+people, though a small wooden plank seems quite loose behind the bar, almost
+as if it can be moved.  Torches are lined along the walls of this room,
+while to the east the main bar is seen, to the south a quiet and low roar
+can be heard.  
+~
+~
+0 8 0 0
+D0
+~
+~
+ABM 0 7627
+D1
+~
+~
+0 0 7622
+D2
+~
+~
+0 0 7623
+S
+#7627
+`8The secret entrance``~
+This part of the tavern and city is unknown to many, except the
+thieves which are taught and trained here.  Few goods stolen from the
+marketplace can be seen along the walls, with very low prices set next to
+them.  One hooded rogue stands at the eastern corner of this room, blocking
+the entrance to his guild.  Cobwebs litter the ground and ceiling, while
+lined up on the wall are many odd-shaped torches, illuminating the dark
+hallway.  
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 7628
+D2
+~
+~
+ABM 0 7626
+S
+#7628
+`8A dark room``~
+This room is almost pitch-black in color, even the walls are painted in a
+dark black.  Flipping a finely polished dagger into the air, one man stands
+here clad in dark silk grinning as he teaches some of the younger rogues the
+art of theft.  This part of the bar is known by its owner, but ignored for
+fear of death, many sacks of gold are sprawled along the ground, though the
+dark figure seems to eye it carefully against any that dare try anything.  
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 7627
+S
+#7629
+`8The old staircase``~
+This old staircase twists its way up towards the second floor of the
+tavern a place where only warriors and berserkers dare travel.  The old
+staircase is made from pine, though the handle is oak.  Dented and worn the
+walls on the sides of the staircase are battered from the anger of the
+Ogres.  To the south a rowdy crowd can be heard chattering, on the second
+floor not even a whisper is sound.  
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 7625
+D4
+~
+~
+0 0 7630
+S
+#7630
+`8A dark hallway``~
+Very little light illuminates here, one large Ogre can be seen to the
+south as he stands motionless as a statue.  Wooden walls are to both your
+sides, the carved names of a few scoundrels engraved along the sides, some
+with hearts around the names of maidens.  Much of this bar is unused, to the
+west you see a closed door.  While down below you the staircase twists its
+way towards the main area of the tavern.  
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 7632
+D3
+~
+~
+AB 0 7631
+D5
+~
+~
+0 0 7629
+S
+#7631
+`8A Guest Room``~
+You stand before a comfortable bed, outlined around it are various wooden
+planks of pine, oak, and even maple wood.  At the center of the room a small
+wooden desk is seen, some pen quills and and papers are littered on its
+surface.  The bed has a flat pillow, along with a poor matress, though the
+bed seems unused for quite some time.  Small windows are lined along the
+western side of the wall, as you pe er outside of them you see a large
+watchtower, and the many drunken citizen which litter Tingarol road.  
+~
+~
+0 0 0 0
+D1
+~
+~
+AB 0 7630
+S
+#7632
+`8A dark hallway``~
+This dark hallway continues to the north and south, while to the east a
+stern red-faced Ogre stands, his bestial roar can be heard as it echoes
+across the entire hallway.  The wood planks are finer along this part, as
+few dare to make any noise near the berserkers, fearing the rage which may
+be expressed through any anger triggered.  The pattern along the planks is
+almost confusing as they are each of a different texture and shade.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7630
+D1
+~
+~
+0 0 7633
+D2
+~
+~
+0 0 7637
+S
+#7633
+`8Entrance to the Orgoc Clan``~
+The patterns flow into this room, though shift from shades of brown into
+a dark crimson in color.  One stern looking Ogre bellows a roar as you enter
+the room glaring at you as he snorts to himself.  Only those trained in the
+arts of rage and war are to enter the guild, warriors of the common flock
+are frowned on while any mage is completely shunned.  The Orgoc clan was
+founded by the Ogre Orgoc, who was once a Warmaster back in the third age of
+Mirlan, though he still lives he bares the burdain of forcing his kin to take
+up the War against the Mages.  
+~
+~
+0 8 4096 0
+D1
+~
+~
+0 0 7634
+D3
+~
+~
+0 0 7632
+S
+#7634
+`8A torch-lit room``~
+Torches run on each side of the hallway, as the hallways shifts to the
+north and south.  At the center of this hallway one Ogre stands tall
+grinning at any man that passes in here, raising his axe high above his head
+he nods as he whispers the Warmaster Code.  Fire blazes next to him as he
+glares towards two large torches, melding the fire into one snake.  To the
+north a small dwarf can be seen awaiting any foolish creature to enter,
+while to the south a massive fire giant can be seen bellowing blasts of
+flame from his mouth.  
+~
+~
+0 8 4096 0
+D0
+~
+~
+0 0 7635
+D2
+~
+~
+0 0 7636
+D3
+~
+~
+0 0 7633
+S
+#7635
+`8The berserker hut``~
+Thin straw outlines this room, as a barbaric nomad stands at the center
+of this room glaring at anyone.  Obviousley insane, this berserker seems to
+call this room a 'hut' as he snarls at anyone that enters.  Skulls outline a
+throne which sits at the center of this 'hut.  ' He seems to snarl at anyone
+that enters as he shows you the battered skull of a mage 
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 7634
+S
+#7636
+`8A charred room``~
+You stand before a charred black room, a thick cloud of ash litters the
+ground beneath your feet.  Standing infront of you is a massive giant,
+bellowing large blasts of flame from his mouth, as he grins his black,
+tarred teeth at you.  Red eyes, this giant seems crazed for battle, though
+he seems to be searching for something, along his arm is the tattoo of a
+inverted cross, that same symbol is hung on the southern corner of this
+room, it glows brightly, illuminating the room with light.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7634
+S
+#7637
+`8A dark hallway``~
+This dark hallway continues to the north and south, twisting its way to a
+more narrow part of the hallway.  To the south a dark shadow can be seen in
+the light, that of a massive giant.  The wood planks are of very fine
+quality and set with a confusing pattern.  The planks are set with a strange
+pattern as they are each of a different texture and shade.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7632
+D2
+~
+~
+0 0 7638
+S
+#7638
+`8End of the dark hallway``~
+Ending here at an abrupt stop, the planks along this side of the hallway
+vary from a light blue in color to a deep purple.  The mark of the Blue
+Blades is engraved on a large plank above a small wooden door.  To the south
+the noise of sword clashing against sword is heard, along with the
+occasional stop.  The ground beneath your feet is quite unstable and should
+not be stood on for too long.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7637
+D2
+~
+~
+AB 0 7639
+S
+#7639
+`8Entrance to the Blue Blades``~
+The entrance to the Blue Blades is a elegant and noble one, jewels
+glitter and sparkle along the metal entrance of the guild.  A noble warrior
+is seen clutching a fine rapier in hand as he points to the door for any
+that does not study the art of the Sword.  The ground is hardened by
+reinforced steel bars, and the sound of sword clashing against sword grows
+louder from the room to the south.  
+~
+~
+0 8 0 0
+D0
+~
+~
+AB 0 7638
+D2
+~
+~
+0 0 7640
+S
+#7640
+`8The Battleground of the Blue Blades``~
+Many young students stand here in a circle, as they gaze towards a old
+withered man who wields a sword.  Not a day under 80 this man seems to have
+the grace and agility of a young hearted adventurer, and the strength of a
+giant.  He is proof that the soul conquers all, having the spirit of battle
+breathed into him, the students watch patientally asking at time to time for
+assistance.  
+~
+~
+0 8 4096 0
+D0
+~
+~
+0 0 7639
+S
+#7641
+`7Tingarol Road``~
+Tingarol road become wide and vast, as the drunken mess of the tavern is
+behind you.  This path seems to lead a good ways towards the western gate of
+the city, though it is barred and locked, near it a tower rises high into
+the air.  A few faces can be seen surveying the outside lands of the city
+from the tower.  Gazing east you see the marketplace from where you came,
+bustling with activity.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7620
+D3
+~
+~
+0 0 7642
+S
+#7642
+`7Tingarol Road``~
+The road twists and turns a short distance to the west, nearing the
+western gatehouse.  To the north a tower can be seen which rises high into
+the air, a few figures can be seen gazing into the vast valley.  Much of
+this road is deserted and empty, only the local commoner passes by, and
+stays to himself ignoring you.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7641
+D3
+~
+~
+0 0 7643
+S
+#7643
+`7The Western Gatehouse``~
+The western gatehouse of the city is barred before you, the towering
+walls of the city rising to the north and south.  A close watch is being
+kept on the travelers entering and leaving the city, and a roster of those
+banned from the area is kept nearby, in a watchtower.  To the east, the
+Tingarol road runs to the heart of the city, the marketplace, while to
+the north is the watchtower.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7644
+D1
+~
+~
+0 0 7642
+S
+#7644
+`7Tingarol Road``~
+Tingarol road runs deep into the outskirts of the main path of the
+city, leading towards what seems to be the one and only watchtower, set
+at the western side of the city.  The doors to the watchtower are open
+wide, as at all times their are a few soldiers surveying the valley.  The
+gray stones have turned a pale white in color, as this part of the street in
+unused and unkempt, dirt litters the ground, tossed from the watchtower.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7645
+D2
+~
+~
+0 0 7643
+S
+#7645
+`8The Temple Square``~
+You are with the Temple Square of the city. Called 'Mirlsport' by the resident
+Ogre population, Mirlsport is the last remaining bastion of the Ogres, and has for
+years remained well hidden within the Raider Gap. The square leads southward
+to Tingarol Road, or northward to the Altar of the Ogres. A large fountain is
+here gushing forth cool water.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 7644
+D4
+~
+~
+0 0 7646
+S
+#7646
+`8Before the Temple of the Ogres``~
+You stand atop a large platform. Shielded from weather by large, stone
+columns, this temple seems to be placed up high to gain the favor
+of the patron Gods of the Ogres. It is well crafted in true ogre form,
+with heavy granite walls and detailed carvings of game animals, and
+images of great battles.
+~
+~
+0 8 0 0
+D4
+~
+~
+0 0 7701
+D5
+~
+~
+0 0 7645
+S
+#7647
+`7Firidon Street``~
+Firidon street is in a working class part of the city, and is far from
+being one of the nicer areas.  Ogres walk about along the street going about
+thier buisness, heading to and from the marketplace.  Some large, cramped
+houses line the streets between empty clearings, and dark alleys.  Some
+children wearing nomadic skins can be seen playing outdoors.  The people
+here do not seem as happy as those at the marketplace, a faint air of
+oppression hangs over the crowded parts of Firidon street.  To the west is
+the Marketplace.  
+~
+~
+0 0 0 1
+D0
+~
+~
+AB 0 7648
+D1
+~
+~
+0 0 7650
+D2
+~
+~
+AB 0 7649
+D3
+~
+~
+0 0 7614
+S
+#7648
+`8A large house``~
+You are inside the house of what would appear to be one of the typical
+ogre dwellings found along Firidon street.  The house itself is rather
+large, with many animal skins on the ground, although it appears fairly
+sturdy in its construction, it still bares a strange smell.  Inside, there
+is some furniture, though none a ordinary human would be seen with, and it
+looks quite old.  
+~
+~
+0 8 0 0
+D2
+~
+~
+AB 0 7647
+S
+#7649
+`8A large house``~
+You are inside the house of what would appear to be one of the typical
+ogre dwellings found along Firidon street.  The house itself is rather
+large, with many animal skins on the ground, although it appears fairly
+sturdy in its construction, it still bares a strange smell.  Inside, there
+is some furniture, though none a ordinary human would be seen with, and it
+looks quite old.  
+~
+~
+0 8 0 0
+D0
+~
+~
+AB 0 7647
+S
+#7650
+`7Firidon Street``~
+Firidon street continues here as it makes its way towards the less noble
+parts of this city, where the commoners call home.  Many tired workers
+can be seen trudging past you, making their way towards home.  To the south
+a narrow alley can be seen, though it is dark and little detail can be
+noticed.  Firidon street continues a fair distance to the east, before
+ending at the barred and closed gatehouse.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7654
+D2
+~
+~
+0 0 7651
+D3
+~
+~
+0 0 7647
+S
+#7651
+`7A narrow alley``~
+The narrow alley is filled with garbage and half-eaten food, a few stray
+cats wander this alley, though giant in size.  Dark with little light
+illuminating in the alley, it makes its way south towards an abrupt end and
+turns west flowing deeper into the alley.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7650
+D2
+~
+~
+0 0 7652
+S
+#7652
+`7A turn in the narrow alley``~
+The narrow alley turns to an end, though is filled with garbage, a few
+shady figures can be seen lingering deep in the alley to the west.  Massive
+houses are lined along the sides of the alley, to the north is the exit out
+of the alley, while to the west is a darker, even less travelled part.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7651
+D3
+~
+~
+0 0 7653
+S
+#7653
+`7The end of the narrow alley``~
+Nothing but darkness can be seen in this part of the alley, as it turns
+to an abrupt end.  A few rogues can be seen hiding in the shadows snickering
+to one another.  Nothing but garbage litters the ground, the sound of
+crackling fire can be heard in the distance.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7652
+S
+#7654
+`7Firidon Street``~
+Firidon street continues here as it makes its way towards the less noble
+parts of this city, where the commoners call home.  Many tired workers
+cane be seen trudging past you, making their way towards home.  To the south
+and north large ogre dwellings are seen, the doors shut tightly.  Firidon
+streets continues a fair distance to the east, before ending at the barred
+and closed gatehouse 
+~
+~
+0 0 0 1
+D0
+~
+~
+AB 0 7655
+D1
+~
+~
+0 0 7657
+D2
+~
+~
+AB 0 7656
+D3
+~
+~
+0 0 7650
+S
+#7655
+`8A large house``~
+You are inside a house of what would appear to be one of the typical ogre
+dwellings found along Firidon street.  The house itself is rather large,
+with many animal skins on the ground, although it appears fairly strudy in
+its construction, it still bares a strange smell.  Inside, there is some
+furniture, though none a ordinary human would be seen with, and it looks
+quite old.  
+~
+~
+0 8 0 0
+D2
+~
+~
+AB 0 7654
+S
+#7656
+`8A large house``~
+You are inside a house of what would appear to be one of the typical ogre
+dwellings found along Firidon street.  The house itself is rather large,
+with many animal skins on the ground, although it appears fairly strudy in
+its construction, it still bares a strange smell.  Inside, there is some
+furniture, though none a ordinary human would be seen with, and it looks
+quite old.  
+~
+~
+0 8 0 0
+D0
+~
+~
+AB 0 7654
+S
+#7657
+`7The Eastern Gatehouse``~
+The eastern gatehouse of the city is closed and barred, the towering
+walls of the city rising to the north and south.  Little else goes on
+here except for the occasional guard passing by.  To the west the Firidon
+street runs to the heart of the city, its marketplace.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 200
+D3
+~
+~
+0 0 7654
+S
+#7658
+`7A granite street``~
+Surrounded by newly constructed dwellings, this street winds through the
+noble quarter of the city.  All around are signs of great wealth, the
+gold that flows from the prosperous trade evident in the buildings, though
+all are locked from the public, the clothing of the citizens, and the
+condition of the streets is superb.  To the north is the cityhall, the
+center of this city.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7659
+D2
+~
+~
+0 0 7616
+S
+#7659
+`7A granite street``~
+Surrounded by newly constructed dwellings, this street winds through the
+noble quarter of the city.  All around are signs of great wealth, the
+gold that flows from the prosperous trade evident in the buildings, though
+all are locked from the public, the clothing of the citizens, and the
+condition of the streets is superb.  To the north is the cityhall, the
+center of this city.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7660
+D2
+~
+~
+0 0 7658
+S
+#7660
+`8Inside the Gates of City Hall``~
+The sturdy, iron-bound gates of Cityhall open into an entry hall.  The
+walls and floors are constructed of thick wooden planks, polished to a
+bright color by thousands of strangers.  The entry hall is lit by oil
+torches hanging on the walls.  To the north, the hall continues into
+cityhall.  Rising nearly 20' in height, the entrance can fit even the
+largest of giants into its entrance.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 7661
+D2
+~
+~
+0 0 7659
+S
+#7661
+`8Granite Hall``~
+The wide main entry known as Granite Hall is named after the granite
+paved ground which flows beneath your feet.  To the west is Ogroc Hall named
+after the great Ogre Ogroc, while to the east runs the Inferis Hall, named
+after Inferis Ol'Duc the Warlord which lead the berserker clans from the
+northern mountains into this valley.  The broadly built passage is lit by
+flickering oil torches, as the Hall stops here, twisting into a fork.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 7662
+D2
+~
+~
+0 0 7660
+D3
+~
+~
+0 0 7671
+S
+#7662
+`8Inferis Hall``~
+The wide hallway known as Inferis Hall runs the length of Cityhall's east
+side.  The wooden walls are lined with oak doors, which lead into the living
+chambers of the noble folk.  Oil torches hanging on the walls give the hall
+a dim light which bounces off the finely polished wood.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7664
+D1
+~
+~
+AB 0 7663
+D3
+~
+~
+0 0 7661
+S
+#7663
+`8A hall residence``~
+This small room with wooden walls evidently serves as a home to the
+smaller races.  A large oak bed sits at the center of the room, a finely
+polished set of dishes laid on the ground.  Although cluttered, the
+residence is generally clean and reasonably comfortable-looking.  
+~
+~
+0 8 0 0
+D3
+~
+~
+AB 0 7662
+S
+#7664
+`8Inferis Hall``~
+The wide hallway known as Inferis Hall runs the length of Cityhall's east
+side.  The wooden walls are lined with oak doors, which lead into the living
+chambers of the noble folk.  Oil torches hanging on the walls give the hall
+a dim light which bounces off the polished wood.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7665
+D1
+~
+~
+AB 0 7667
+D2
+~
+~
+0 0 7662
+S
+#7665
+`8Inferis Hall``~
+The wide hallway known as Inferis Hall runs the length of Cityhall's east
+side.  The wooden walls are lined with oak doors, which lead into the living
+chambers of the noble folk.  Oil torches hanging on the walls give the hall
+a dim light which bounces off the polished wood.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7666
+D1
+~
+~
+AB 0 7668
+D2
+~
+~
+0 0 7664
+S
+#7666
+`8Inferis Hall``~
+The wide hallway known as Inferis Hall runs the length of Cityhall's east
+side.  The wooden walls are lined with oak doors, which lead into the living
+chambers of the noble folk.  Oil torches hanging on the walls give the hall
+a dim light which bounces off the polished wood.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7670
+D1
+~
+~
+AB 0 7669
+D2
+~
+~
+0 0 7665
+S
+#7667
+`8A hall residence``~
+This small room with wooden walls evidently serves as a home to the
+smaller races.  A large oak bed sits at the center of the room, a finely
+polished set of dishes laid on the ground.  Although cluttered, the
+residence is generally clean and reasonably comfortable-looking.  
+~
+~
+0 8 0 0
+D3
+~
+~
+AB 0 7664
+S
+#7668
+`8A hall residence``~
+This small room with wooden walls evidently serves as a home to the
+smaller races.  A large oak bed sits at the center of the room, a finely
+polished set of dishes laid on the ground.  Although cluttered, the
+residence is generally clean and reasonably comfortable-looking.  
+~
+~
+0 8 0 0
+D3
+~
+~
+AB 0 7665
+S
+#7669
+`8A hall residence``~
+This small room with wooden walls evidently serves as a home to the
+smaller races.  A large oak bed sits at the center of the room, a finely
+polished set of dishes laid on the ground.  Although cluttered, the
+residence is generally clean and reasonably comfortable-looking.  
+~
+~
+0 8 0 0
+D3
+~
+~
+AB 0 7666
+S
+#7670
+`8End of Inferis Hall``~
+The wide hallway runs to a narrow and abrupt end, a large staircase rises
+up high before you.  This section leads into the main part of Cityhall,
+where the Chieften and the High lords of this city gather and plot its
+future.  The torches seem brighter at this part, to light the staircase, up
+ahead the chatter of mixed voices can be heard, and one deep voice speaking
+above the chattering.  
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 7666
+D4
+~
+~
+0 0 7686
+S
+#7671
+`8Ogroc Hall``~
+The narrow hallway known as Ogroc Hall runs the length of Cityhall's west
+side.  The wooden walls are lined with oak doors, which lead into the living
+chambers of the noble folk of the keep.  Oil torches hanging low on the
+walls give the hall a dim light which radiates against the polished wood.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7672
+D1
+~
+~
+0 0 7661
+D3
+~
+~
+AB 0 7676
+S
+#7672
+`8Ogroc Hall``~
+The narrow hallway known as Ogroc Hall runs the length of Cityhall's west
+side.  The wooden walls are lined with oak doors, which lead into the living
+chambers of the noble folk of the keep.  Oil torches hanging low on the
+walls give the hall a dim light which radiates against the polished wood.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7673
+D2
+~
+~
+0 0 7671
+D3
+~
+~
+AB 0 7677
+S
+#7673
+`8Ogroc Hall``~
+The narrow hallway known as Ogroc Hall runs the length of Cityhall's west
+side.  The wooden walls are lined with oak doors, which lead into the living
+chambers of the noble folk of the keep.  Oil torches hanging low on the
+walls give the hall a dim light which radiates against the polished wood.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7674
+D2
+~
+~
+0 0 7672
+D3
+~
+~
+AB 0 7678
+S
+#7674
+`8Ogroc Hall``~
+The narrow hallway known as Ogroc Hall runs the length of Cityhall's west
+side.  The wooden walls are lined with oak doors, which lead into the living
+chambers of the noble folk of the keep.  Oil torches hanging low on the
+walls give the hall a dim light which radiates against the polished wood.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7675
+D2
+~
+~
+0 0 7673
+D3
+~
+~
+AB 0 7679
+S
+#7675
+`8The End of Ogroc Hall``~
+The wide hallway runs to a wide and abrupt end, a large staircase rises
+up high before you.  This section leads into the main part of Cityhall,
+where the Chieften and the High lords of this city gather and plot its
+future.  The torches seem brighter at this part, to light the staircase, up
+ahead the chatter of mixed voices can be heard, and one deep voice speaking
+above the chattering.  
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 7674
+D4
+~
+~
+0 0 7680
+S
+#7676
+`8A hall residence``~
+This small room with wooden walls evidently serves as a home to the
+smaller races.  A large oak bed sits at the center of the room, a finely
+polished set of dishes laid on the ground.  Although cluttered, the
+residence is generally clean and reasonably comfortable-looking.  
+~
+~
+0 8 0 0
+D1
+~
+~
+AB 0 7671
+S
+#7677
+`8A hall residence``~
+This small room with wooden walls evidently serves as a home to the
+smaller races.  A large oak bed sits at the center of the room, a finely
+polished set of dishes laid on the ground.  Although cluttered, the
+residence is generally clean and reasonably comfortable-looking.  
+~
+~
+0 8 0 0
+D1
+~
+~
+AB 0 7672
+S
+#7678
+`8A hall residence``~
+This small room with wooden walls evidently serves as a home to the
+smaller races.  A large oak bed sits at the center of the room, a finely
+polished set of dishes laid on the ground.  Although cluttered, the
+residence is generally clean and reasonably comfortable-looking.  
+~
+~
+0 8 0 0
+D1
+~
+~
+AB 0 7673
+S
+#7679
+`8A hall residence``~
+This small room with wooden walls evidently serves as a home to the
+smaller races.  A large oak bed sits at the center of the room, a finely
+polished set of dishes laid on the ground.  Although cluttered, the
+residence is generally clean and reasonably comfortable-looking.  
+~
+~
+0 8 0 0
+D1
+~
+~
+AB 0 7674
+S
+#7680
+`8The northern stairs``~
+The wooden stairs under your feet give solid purchase for your boots,
+with no creaking or signs of weakness.  They seem of very fine quality, and
+the wood is brightly polished.  As you walk them, you notice very little by
+way of carvings or marks on the stairs, no rugs, or stonework.  At the
+bottom is the end of Ogroc Hallway, and to the east is the Royal Hall.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 7681
+D5
+~
+~
+0 0 7675
+S
+#7681
+`8Royal Hall``~
+The spacious corridor known as Royal Hall runs the length of the main
+section on the second floor of Cityhall.  The hall is lined with richly
+polished oak doors, behind which dwell leaders and royal councilmen of this
+city.  Well furnished habitation is to the north, while to the south is
+Lord Firidons chamber, the Hall continues to the east, while a staircase
+lies west.  
+~
+~
+0 8 0 0
+D0
+~
+~
+AB 0 7687
+D1
+~
+~
+0 0 7682
+D2
+~
+~
+AB 0 7688
+D3
+~
+~
+0 0 7680
+S
+#7682
+`8Royal Hall``~
+The spacious corridor known as Royal Hall runs the length of the main
+section on the second floor of Cityhall.  The hall is lined with richly
+polished oak doors, behind which dwell leaders and royal councilmen of this
+city.  Well furnished habitation is to the north and south, Royal Hall
+continues to the east and west.  
+~
+~
+0 8 0 0
+D0
+~
+~
+AB 0 7689
+D1
+~
+~
+0 0 7683
+D2
+~
+~
+AB 0 7690
+D3
+~
+~
+0 0 7681
+S
+#7683
+`8An intersection in Royal Hall``~
+The spacious corridor splits into a large wide circular intersection as
+it twists its way towards the noble parts of Cityhall, where the future
+plans of the city are decided.  A red carpet stretches its way along a
+marble path which leads its way north, Royal Hall continues to the east and
+west, while to the south is a well furnished chamber.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7691
+D1
+~
+~
+0 0 7684
+D2
+~
+~
+AB 0 7692
+D3
+~
+~
+0 0 7682
+S
+#7684
+`8Royal Hall``~
+The spacious corridor known as Royal Hall runs the length of the main
+section on the second floor of Cityhall.  The hall is lined with richly
+polished oak doors, behind which dwell leaders and royal councilmen of this
+city.  Well furnished habitation is to the north and south, Royal Hall
+continues to the east and west.  
+~
+~
+0 8 0 0
+D0
+~
+~
+AB 0 7693
+D1
+~
+~
+0 0 7685
+D2
+~
+~
+AB 0 7694
+D3
+~
+~
+0 0 7683
+S
+#7685
+`8Royal Hall``~
+The spacious corridor known as Royal Hall runs the length of the main
+section on the second floor of Cityhall.  The hall is lined with richly
+polished oak doors, behind which dwell leaders and royal councilmen of this
+city.  Well furnished habitation is to the north, while to the south is
+one of the Warlords of this city, the Hall continues to the west, while a
+staircase lies east.  
+~
+~
+0 8 0 0
+D0
+~
+~
+AB 0 7695
+D1
+~
+~
+0 0 7686
+D2
+~
+ornate door~
+AB 0 7696
+D3
+~
+~
+0 0 7684
+S
+#7686
+`8The northern stairs``~
+The wooden stairs under your feet give solid purchase for your boots,
+with no creaking or other signs of ewakness.  They seem to be of very fine
+quality, and the wood is brightly polished.  As you walk them, you notice
+very little by way of carving or marks on the stairs, no rugs, or stonework.
+At the bottom is another hallway, and west is the Royal Hall.  
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 7685
+D5
+~
+~
+0 0 7670
+S
+#7687
+`8A royal residence``~
+A large room with finely polished wooden palls and floor, a member of the
+city's upper class resides here.  The furniture is well constructed and
+comfortable, a large bed rests against the northern part of the chamber. 
+Various gold and silver decorations adorn the walls, while the ground is
+covered with a sturdy bear hide.  
+~
+~
+0 8 0 0
+D2
+~
+~
+AB 0 7681
+S
+#7688
+`8Lord Firidons chamber``~
+A spacious chamber furnished with a elegant bed, a large table with gold
+chairs set around it.  Lord Firidon's personal quarters are rich but simple.
+The commander of the Highland Armies has decorated walls with a few basic
+adornments, including some depictating the rise of Shadowspawn.  A large
+wooden wardrobe rests against the eastern wall reveals his past uniforms,
+including rank and command.  
+~
+~
+0 8 0 0
+D0
+~
+~
+AB 0 7681
+S
+#7689
+`8A royal residence``~
+A large room with finely polished wooden palls and floor, a member of the
+city's upper class resides here.  The furniture is well constructed and
+comfortable, a large bed rests against the northern part of the chamber. 
+Various gold and silver decorations adorn the walls, while the ground is
+covered with a sturdy bear hide.  
+~
+~
+0 8 0 0
+D2
+~
+~
+AB 0 7682
+S
+#7690
+`8A royal residence``~
+A large room with finely polished wooden palls and floor, a member of the
+city's upper class resides here.  The furniture is well constructed and
+comfortable, a large bed rests against the southern part of the chamber. 
+Various gold and silver decorations adorn the walls, while the ground is
+covered with a sturdy bear hide.  
+~
+~
+0 8 0 0
+D0
+~
+~
+AB 0 7682
+S
+#7691
+`8The marble pathway``~
+The wide hallway of the marble pathway borders the north second floor of
+Cityhall.  Oil torches lining the wall produce a dim but warm light, and the
+perfectly fitted marble tiles are polished to perfection, the Royal
+Intersection is to the south, while the marble pathway continues north.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7697
+D2
+~
+~
+0 0 7683
+S
+#7692
+`8A royal residence``~
+A large room with finely polished wooden palls and floor, a member of the
+city's upper class resides here.  The furniture is well constructed and
+comfortable, a large bed rests against the southern part of the chamber. 
+Various gold and silver decorations adorn the walls, while the ground is
+covered with a sturdy bear hide.  
+~
+~
+0 8 0 0
+D0
+~
+~
+AB 0 7683
+S
+#7693
+`8A royal residence``~
+A large room with finely polished wooden palls and floor, a member of the
+city's upper class resides here.  The furniture is well constructed and
+comfortable, a large bed rests against the northern part of the chamber. 
+Various gold and silver decorations adorn the walls, while the ground is
+covered with a sturdy bear hide.  
+~
+~
+0 8 0 0
+D2
+~
+~
+AB 0 7684
+S
+#7694
+`8A royal residence``~
+A large room with finely polished wooden palls and floor, a member of the
+city's upper class resides here.  The furniture is well constructed and
+comfortable, a large bed rests against the southern part of the chamber. 
+Various gold and silver decorations adorn the walls, while the ground is
+covered with a sturdy bear hide.  
+~
+~
+0 8 0 0
+D0
+~
+~
+AB 0 7684
+S
+#7695
+`8A royal residence``~
+A large room with finely polished wooden palls and floor, a member of the
+city's upper class resides here.  The furniture is well constructed and
+comfortable, a large bed rests against the northern part of the chamber. 
+Various gold and silver decorations adorn the walls, while the ground is
+covered with a sturdy bear hide.  
+~
+~
+0 8 0 0
+D2
+~
+~
+AB 0 7685
+S
+#7696
+`8Warmaster Ludan's chamber``~
+Large wooden racks are set at the eastern corner of this room, tattered
+and old maps set in them.  One large circular board is placed at the center
+of his chamber, before a large comfortable bed, fit for a giant.  This table
+seems to be a tactical one, small figures are placed all about in
+formations, each are carved from a fine ivory.  All about this room are holy
+icons of the Ogre Lords, from the first heroes to those that dawned in the
+fourth age.  Beneath your feet is a bear hide like no other, a ebony black
+in color, and thrice the size of any other you have ever seen.  
+~
+~
+0 8 0 0
+D0
+~
+ornate door~
+AB 0 7685
+S
+#7697
+`8The marble pathway``~
+The wide hallway of the marble pathway borders the north second floor of
+Cityhall.  Oil torches lining the wall produce a dim but warm light, and the
+perfectly fitted marble tiles are polished to perfection, the marble pathway
+continues to the north and south.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7698
+D2
+~
+~
+0 0 7691
+S
+#7698
+`8End of the marble pathway``~
+The wide hallway runs to an end before a oak staircase.  The marble
+pathway was once the only pathway in Cityhall untill the city became
+prosperous from Warfare and decided to expand.  Loud shouts and screams can
+be heard from the room above the staircase, while it seems empty except for
+one screaming ogre.  
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 7697
+D4
+~
+~
+0 0 7699
+S
+#7699
+`8The Throne of Bone``~
+In truth their is only one creature that decides the future of the Ogre
+city and that is the chieftain.  Before you sits a massive throne of
+well-placed skulls, some battered, some cracked, some even still bloody, as
+a fat ogre sits atop this throne, a large hammer clutched in his filthy
+hands.  This room is large with the portraits of the chieften all about the
+room, to the north it shows his childhood, to the east his first War, to the
+west his first Victory, and to the south the creation of the city.  
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 7698
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 7600 spec_executioner
+M 7601 spec_executioner
+M 7616 spec_keeper_stay
+M 7627 spec_cast_adept
+M 7636 spec_breath_fire
+M 7698 spec_executioner
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 7600 1 7605 1
+M 0 7601 1 7605 1
+M 0 7602 1 7607 5
+M 0 7616 1 7608 1
+M 0 7603 1 7610 1
+G 0 7621 0
+G 0 7622 0
+G 0 7623 0
+M 0 7604 1 7611 1
+M 0 7605 1 7612 1
+M 0 7606 1 7612 1
+M 0 7608 1 7613 1
+G 0 7616 0
+G 0 7617 0
+G 0 7618 0
+M 0 7609 1 7614 1
+G 0 7619 0
+G 0 7620 0
+M 0 7607 1 7615 1
+G 0 7613 0
+G 0 7614 0
+M 0 7611 1 7616 1
+G 0 7627 0
+G 0 7624 0
+G 0 7625 0
+G 0 7626 0
+M 0 7610 1 7617 1
+M 0 7612 1 7618 1
+M 0 7613 1 7620 1
+M 0 7614 1 7621 1
+M 0 7615 1 7622 1
+G 0 7610 0
+G 0 7611 0
+G 0 7612 0
+M 0 7617 2 7623 2
+M 0 7618 1 7624 1
+M 0 7619 1 7624 1
+M 0 7620 1 7625 1
+M 0 7626 1 7626 1
+M 0 7628 1 7628 1
+M 0 7633 1 7633 1
+M 0 7635 1 7635 1
+M 0 7636 1 7636 1
+M 0 7639 1 7639 1
+M 0 7640 1 7640 1
+O 0 7645 0 7645
+M 0 7627 1 7645 1
+O 0 7646 0 7646
+M 0 7623 12 7648 1
+M 0 7623 12 7649 1
+M 0 7623 12 7655 1
+M 0 7623 12 7656 1
+M 0 7622 25 7663 1
+M 0 7622 25 7667 1
+M 0 7622 25 7668 1
+M 0 7622 25 7669 1
+M 0 7622 25 7676 1
+M 0 7622 25 7677 1
+M 0 7622 25 7678 1
+M 0 7622 25 7679 1
+M 0 7624 15 7687 1
+M 0 7688 1 7688 1
+E 0 7688 0 14
+E 0 7687 0 8
+M 0 7624 15 7689 1
+M 0 7624 15 7690 1
+M 0 7624 15 7692 1
+M 0 7624 15 7693 1
+M 0 7624 15 7695 1
+M 0 7696 1 7696 1
+E 0 7696 0 17
+M 0 7695 1 7696 1
+M 0 7699 1 7699 1
+E 0 7699 0 5
+E 0 7698 0 6
+M 0 7698 1 7699 1
+S
+
+
+
+#SHOPS
+7603 0 0 0 0 0 100 50 0 23
+7607 0 0 0 0 0 100 50 0 23
+7608 0 0 0 0 0 100 50 0 23
+7609 0 0 0 0 0 100 50 0 23
+7611 0 0 0 0 0 100 50 0 23
+7615 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#7611
+set char self gold 0
+~
+#0
+
+M 7626 1 serin_guild.prg NL
+M 7626 1 serin_thief.prg NL
+M 7633 1 serin_guild.prg NL
+M 7633 1 serin_berserker.prg NL
+M 7639 1 serin_guild.prg NL
+M 7639 1 serin_warrior.prg NL
+M 7688 0 firidon_ogre.prg NL
+M 7691 1 serin_mercenary.prg NL
+M 7692 1 serin_mercenary.prg NL
+M 7693 1 serin_mercenary.prg NL
+M 7694 1 serin_mercenary.prg NL
+M 7696 0 firidon_ogre.prg NL
+M 7699 1 eitan_ogre.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

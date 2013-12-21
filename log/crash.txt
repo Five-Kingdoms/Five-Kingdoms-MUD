@@ -703,3 +703,24 @@ Loop: (Finished) aggr (Fri Sep 22 17:38:34 2006)
 
 Loop: (Finished) aggr (Fri Sep 22 17:40:06 2006)
 Command: (Finished) [    0] Brinson in [    0] (not in a room): quit (Fri Sep 22 17:40:03 2006)
+
+=========================================================================
+Malloc: (Finished) free_mem clean_room_queue (Sat Dec 21 04:24:21 2013)
+Loop: (Finished) aggr (Sat Dec 21 04:24:23 2013)
+Command: (Finished) [ 7803] Darden in [ 7803] `7Western Plaza``: endif (Sat Dec 21 04:24:21 2013)
+Mobprog: (Finished) [ 7803] Darden in [ 7803] `7Western Plaza``: (Sat Dec 21 04:24:21 2013)
+=========================================================================
+Malloc: (Finished) free_mem clean_room_queue (Sat Dec 21 04:36:31 2013)
+Loop: (Finished) aggr (Sat Dec 21 04:36:32 2013)
+Command: (Finished) [ 7803] Darden in [ 7803] `7Western Plaza``: endif (Sat Dec 21 04:36:31 2013)
+Mobprog: (Finished) [ 7803] Darden in [ 7803] `7Western Plaza``: (Sat Dec 21 04:36:31 2013)
+=========================================================================
+Malloc: (Finished) free_mem clean_room_queue (Sat Dec 21 04:42:33 2013)
+Loop: (Finished) aggr (Sat Dec 21 04:42:33 2013)
+Command: (Finished) [20791] Himmah, the trainer in [20791] `8The Eastern Training Arena``: say I am willing to convert your practice sessions into training sessions. (Sat Dec 21 04:42:33 2013)
+Mobprog: (Finished) [20791] Himmah, the trainer in [20791] `8The Eastern Training Arena``: (Sat Dec 21 04:42:33 2013)
+=========================================================================
+Malloc: (Finished) free_mem clean_room_queue (Sat Dec 21 04:50:50 2013)
+Loop: (Finished) aggr (Sat Dec 21 04:50:50 2013)
+Command: (Finished) [ 4008] Krasq's Spirit in [ 4054] `#The Tainted Sands``: emote seems to grow weaker as its soul is bled of energy. (Sat Dec 21 04:50:40 2013)
+Mobprog: (Finished) [11051] a hooded viper in [11051] `8A snake pit``: (Sat Dec 21 04:50:40 2013)

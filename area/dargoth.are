@@ -1,0 +1,3548 @@
+#AREADATA
+Name Dargoth~
+Pref ~
+Builders Crypticant Ihlxhul~
+VNUMs 1200 1299
+Max_Bastions 3
+Credits Crypticant Ihlxhul~
+Security 9
+Startroom 1216
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#1201
+Vhellis guildguard craft Dargoth~
+Vhellis~
+Vhellis, the craft guildguard, stands watch.
+~
+~
+drow~
+ABCKZce A DEJNP 0 500 0
+60 12 10d200+1000 0d0+100 5d20+50 none
+-27 -27 -27 -27
+EFHVX ABCD B Ya
+stand stand female none~
+29
+AHMV ABCDEFGHIJK medium 0
+#1213
+citizen Dargoth drow~
+a citizen of Dargoth~
+A citizen of Dargoth goes about their business here.
+~
+A rather ordinary looking person. He goes about his daily
+business in a somber manner, pausing only to nod at you,
+and continue on.
+~
+drow~
+AGd AC JP 0 0 0
+15 2 2d4+120 0d0+100 5d6+5 none
+0 0 0 0
+0 0 B Ya
+stand stand either none~
+13
+AHMV ABCDEFGHIJK medium 0
+#1216
+Teyrril~
+Teyrril, Captain of the Dargoth guards~
+Teyrril, Captain of the Dargoth guard is here.
+~
+A massive drow clad in jet black scalemail, he bears a proud and regal
+look to him.  
+~
+drow~
+AGZd A JP 0 0 0
+60 10 50d10+7000 0d0+100 2d40+10 beating
+3 3 3 2
+AFHKX AB B Ya
+stand stand male none~
+26
+AHMV ABCDEFGHIJK huge 0
+#1221
+Dargoth Gate Guard~
+a Dargothan Gate Guard~
+A Dargothan Gate Guard stands here on guard.
+~
+~
+drow~
+ABGTe AC JP 0 -750 0
+35 5 10d5+480 0d0+100 5d6+15 pierce
+0 0 0 0
+EFKNTU 0 B Ya
+stand stand male none~
+20
+AHMV ABCDEFGHIJK medium 0
+#1227
+Khyilis psionicist guildmaster Dargoth~
+Khyilis~
+Khyilis the Psion guildmaster meditates here.
+~
+~
+drow~
+ABKVZ AC JP 0 0 0
+60 0 50d10+10000 0d0+100 4d40+20 telekinesis
+2 2 2 2
+K AB B Ya
+stand stand male none~
+29
+AHMV ABCDEFGHIJK medium 0
+#1230
+Dargothan city guard~
+an Dargothan City Guard~
+An Dargothan City Guard patrols the city here.
+~
+A drow gaurd sneaks carefully along the city streets here,
+in search of criminals. Dargothan guards are often known
+for their brutal ruthlessness.
+~
+drow~
+AGd AC JP 0 0 0
+35 7 10d5+450 0d0+100 5d6+15 slash
+1 1 1 0
+FKTU B B Ya
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+#1241
+Yllainin map shopkeeper Dargoth~
+Yllainin~
+Yllainin, the mapmaker, stands here.
+~
+~
+drow~
+ABZ AC JP 0 0 0
+60 0 50d10+7000 0d0+100 3d80+20 cleave
+-30 -30 -30 -30
+EFHJK AB BD Ya
+stand stand male none~
+25
+AHMV ABCDEFGHIJK medium 0
+#1242
+Vhlanin wizard shopkeeper Dargoth~
+Vhlanin~
+Vhlanin, the Wizard, is here brewing.
+~
+~
+drow~
+ABTVZ AD JP 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 punch
+-30 -30 -30 -30
+EFHJK AB BD Ya
+stand stand female none~
+28
+AHMV ABCDEFGHIJK medium 0
+#1243
+Khauulx butcher Dargoth~
+Khauulx~
+Khauulx is here, butchering meat.
+~
+~
+drow~
+ABTVZ A JP 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 cleave
+-30 -30 -30 -30
+EFHJK AB BD Ya
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+#1247
+Ihllaniz weaponsmith Dargoth~
+Ihllaniz~
+Ihllaniz, the drow blademaster, is here selling weapons.
+~
+~
+drow~
+ABTVZ AC JP 0 -750 0
+60 0 50d10+7000 0d0+100 3d80+20 punch
+-30 -30 -30 -30
+EFHJK AB BD Ya
+stand stand male none~
+30
+AHMV ABCDEFGHIJK medium 0
+#1249
+Chaunnin drow armorer Dargoth~
+Chaunnin~
+Chaunnin, the drow armorer, stands here.
+~
+~
+drow~
+ABTVZ A JP 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 punch
+-30 -30 -30 -30
+EFHJK AB BD Ya
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+#1251
+Sarhiz boatmaster Dargoth~
+Sarhiz~
+Sarhiz, the drow boatmaster, is here carving a boat.
+~
+~
+drow~
+ABVZ A JP 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 punch
+-30 -30 -30 -30
+FHJK AB BD Ya
+stand stand male none~
+29
+AHMV ABCDEFGHIJK medium 0
+#1257
+dreaded assassin~
+a Drow assassin~
+A drow assassin lurks in the shadows here.
+~
+~
+drow~
+ABGHe A JP 0 -750 0
+20 5 4d6+350 0d0+100 4d6+5 slash
+0 0 0 0
+FHJNUX AB B Ya
+stand stand either none~
+8
+AHMV ABCDEFGHIJK medium 0
+#1258
+wandering thief~
+a thief~
+A thief lies hidden in the dark alleyway here.
+~
+Lurking around the corner a grim looking man stands.  His eyes are 
+closed by the sun.  He has the look of both predator and prey.  He is 
+peering about looking for the next victim.  Greed is his motivation, fear 
+is his weapon, and he seeks only to please himself.
+~
+drow~
+ABHSe A JPQ 0 -750 0
+35 8 4d6+850 0d0+100 4d6+15 punch
+-2 -2 -2 -2
+IKN 0 B Ya
+stand stand either none~
+13
+AHMV ABCDEFGHIJK medium 0
+#1259
+Vklauth cleric guildguard Dargoth~
+Vklauth~
+Vklauth, the cleric guildguard, stands here menacingly.
+~
+~
+drow~
+ABZ AC JP 0 0 0
+35 5 55d10+3000 0d0+100 6d6+10 punch
+-1 -1 -1 -1
+KV AB B Ya
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#1260
+Jyslin cleric guildmistress Dargoth~
+Jyslin~
+Jyslin, the cleric guildmistress, stands here ready to instruct.
+~
+~
+drow~
+ABKVZ AC JP 0 -750 0
+60 0 50d10+7000 0d0+100 2d40+30 divine
+-2 -2 -2 -2
+FHKX AB BCD Ya
+stand stand female none~
+25
+AHMV ABCDEFGHIJK medium 0
+#1261
+Biianh battlemage dargoth~
+Biianh~
+Biianh, the battlemage guildguard, stands watch.
+~
+~
+drow~
+ABRZ AC JP 0 0 0
+35 5 55d10+6000 0d0+100 6d6+10 slash
+-1 -1 -1 -1
+KV AB B Ya
+stand stand none none~
+15
+AHMV ABCDEFGHIJK large 0
+#1262
+Zaen battlemage guildmaster dargoth~
+Zaen~
+Zaen, the battlemage Guildmaster, stands here.
+~
+~
+drow~
+ABKVZ AC JP 0 -750 0
+60 44 50d10+14000 0d0+100 3d60+10 slash
+-2 -2 -2 -2
+K ABC B Ya
+stand stand male none~
+29
+AHMV ABCDEFGHIJK medium 0
+#1263
+Neghyl shaman guildguard Dargoth~
+Neghyl~
+Neghyl, the shaman guildguard, stands here with his eyes narrowed.
+~
+~
+drow~
+ABZ AC JP 0 -750 0
+35 5 55d10+3000 0d0+100 6d6+10 punch
+-1 -1 -1 -1
+KV AB B Ya
+stand stand male none~
+20
+AHMV ABCDEFGHIJK medium 0
+#1264
+Maleki guildmaster Dargoth shaman~
+Maleki~
+Maleki, the shaman guildmaster, stands here torturing an enemy.
+~
+~
+drow~
+ABKVZ AC HJP 0 -750 0
+60 44 50d10+7000 0d0+100 3d60+20 tainted
+-2 -2 -2 -2
+FHKX AB BCD Ya
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+#1265
+Riszhol invoker guildguard Dargoth~
+Riszhol~
+Riszhol, the invoker guildguard, stands watch here.
+~
+~
+drow~
+ABZ AC JP 0 0 0
+35 5 25d10+2500 0d0+100 6d6+10 punch
+1 1 1 0
+KV AB B Ya
+stand stand female none~
+16
+AHMV ABCDEFGHIJK medium 0
+#1266
+majkin invoker guildmaster Dargoth~
+Majkin~
+Majkin, the Invoker Guildmaster, stands here to instruct.
+~
+~
+drow~
+ABKVZ AC JP 0 0 0
+60 0 50d10+6000 0d0+100 4d40+0 magic
+2 2 2 2
+K ABC B Ya
+stand stand male none~
+28
+AHMV ABCDEFGHIJK medium 0
+#1267
+hergard thief guildguard Dargoth~
+Hergard~
+Hergard, the Thief Guildguard, stands here on watch.
+~
+~
+drow~
+ABCSZ AC JP 0 0 0
+35 5 25d10+6000 0d0+100 6d6+10 pierce
+1 1 1 0
+FHKV AB B Ya
+stand stand male none~
+16
+AHMV ABCDEFGHIJK medium 0
+#1268
+Dralith Guildmaster thief Dargoth~
+Dralith~
+Dralith, the Hand of the Unseen, stands here ready to teach you.
+~
+~
+drow~
+ABCKVZ AC DFJPQ 0 0 0
+60 0 50d10+14000 0d0+100 3d60+20 stab
+2 2 2 2
+FHK AB B Ya
+stand stand male none~
+28
+AHMV ABCDEFGHIJK medium 0
+#1269
+Muannin guildguard necromancer dargoth~
+Muannin~
+Muannin, the necromancer guildguard, stands here holding an eyeball.
+~
+~
+drow~
+ABZ AC JP 0 -750 0
+35 5 25d10+6000 0d0+100 6d6+0 punch
+1 1 1 0
+KV AB BQ Ya
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#1270
+Jhalruun necromancer guildmaster Dargoth~
+Jhalruun~
+Jhalruun, the necromancer guildmaster, is here glaring at you.
+~
+~
+drow~
+ABKRVZ AC JP 0 -750 0
+60 0 50d10+12000 0d0+100 2d40+0 drain
+2 2 2 2
+FHK AB B Ya
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+#1271
+Nuulasi warrior guildguard Dargoth~
+Nuulasi~
+Nuulasi, the warrior guildguard, stands here stoically.
+~
+~
+drow~
+ABTZ AC JP 0 0 0
+35 5 25d10+6000 0d0+100 6d6+10 beating
+1 1 1 0
+FHKVX AB B Ya
+stand stand male none~
+14
+AHMV ABCDEFGHIJK medium 0
+#1272
+Dagghiz warrior guildmaster Dargoth~
+Dagghiz~
+Dagghiz, the warrior guildmaster, stands here ready to teach you.
+~
+~
+drow~
+ABKVZ AC JP 0 0 0
+60 0 50d10+8000 0d0+100 2d40+10 punch
+2 2 2 2
+FHKX AB B Ya
+stand stand female none~
+26
+AHMV ABCDEFGHIJK medium 0
+#1273
+Marzhun dark-knight guildguard Dargoth~
+Marzhun~
+Marzhun, the dark-knight guildguard, stands guard.
+~
+~
+drow~
+ABTZ AC JP 0 -750 0
+35 15 25d10+6000 0d0+100 6d6+10 beating
+1 1 1 0
+CFHKV AB B Ya
+stand stand male none~
+19
+AHMV ABCDEFGHIJK medium 0
+#1274
+Xiquazizouk dark-knight guildmistress Dargoth~
+Xiquazizouk~
+Xiquazizouk, the dark-knight guildmistress, looks at you with contempt.
+~
+~
+human~
+ABKVZ AC 0 0 -750 0
+60 0 50d10+14000 0d0+100 2d40+10 slash
+2 2 2 2
+FHK AB 0 0
+stand stand female none~
+29
+AHMV ABCDEFGHIJK medium 0
+#1275
+Etarekoth ninja guildguard Dargoth~
+Etarekoth~
+Etarekoth, the ninja guildguard, lurks within the shadows.
+~
+~
+drow~
+ABSZ AC FJPQ 0 0 0
+35 5 25d10+5000 0d0+100 6d6+10 pierce
+1 1 1 0
+FHKV AB BC Ya
+stand stand male none~
+16
+AHMV ABCDEFGHIJK medium 0
+#1276
+Ihllien guildmaster ninja Dargoth~
+Ihllien~
+Ihllien, the ninja guildmaster, sits in the lotus position.
+~
+~
+drow~
+ABKVZ AC FJPQ 0 0 0
+60 0 50d10+14000 0d0+100 2d40+10 punch
+2 2 2 2
+FHK AB B Ya
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+#1278
+Dehrunas psionicist guildguard Dargoth~
+Dehrunas~
+Dehrunas, the psionicist guildguard, watches you intently.
+~
+~
+drow~
+ABTZ A JP 0 0 10045
+35 10 25d10+3000 0d0+100 8d3+10 magic
+-10 -10 -10 -10
+KNV AB B Ya
+stand stand none none~
+21
+AHMV ABCDEFGHIJK medium 0
+#1281
+Vhulill healer Ixtaros priest~
+Vhullill, the healer of Ixtaros~
+Vhulill, the healer of Dargoth is here.
+~
+~
+drow~
+ABTVZa A JP 0 -750 0
+60 0 50d10+7000 0d0+100 3d80+20 drain
+-30 -30 -30 -30
+EFHJK AB BD Ya
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+#1284
+Shizarli secretary Dargoth~
+Shizarli~
+Shizarli, the dargothian secretary, is here processing paperwork.
+~
+~
+drow~
+ABVZ AC JP 0 750 4457
+50 5 50d10+7000 0d0+100 2d40+10 slap
+2 2 2 1
+0 AB B Ya
+stand stand female none~
+22
+AHMV ABCDEFGHIJK medium 0
+#1285
+Ihlnios trainer Dargoth~
+Ihlnios, the trainer of Dargoth~
+Ihlnios, the trainer, stands here to teach you.
+~
+~
+human~
+AGJTZbe AC 0 0 0 0
+60 35 10d6+6000 0d0+100 6d8+40 slash
+3 3 3 3
+0 AB 0 0
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+#1286
+Ehlunan hunter bookkeeper~
+Ehlunan~
+Ehlunan, the bounty assigner, is here writing notes.
+~
+~
+human~
+ABe AC 0 0 0 0
+60 50 4d6+5000 0d0+100 10d10+100 none
+-20 -20 -20 -20
+CEFKN AB 0 0
+stand stand male none~
+30
+AHMV ABCDEFGHIJK medium 0
+#1287
+Ghuulizza matron mother Dargoth House Kolszin~
+Ghuulizza Kolszin~
+Ghuulizza Kolszin, Matron Mother of Dargoth growls at your intrusion.
+~
+An aging, decrepit looking drow, she fairly pulses with magickal power. 
+Insidious and macabre in ways that would make an orc blush, this woman has
+grown strong despite living in a dangerous society.  She is sharp-tongued,
+and even more sharp-witted.  You get the feeling you shouldn't even be in
+her presence.  
+~
+drow~
+AFGRTe A JPU 0 -750 1364
+50 20 50d10+4000 0d0+100 6d6+17 pierce
+-30 -30 -30 -20
+AEFHKU AB D Ya
+stand stand female none~
+23
+AHMV ABCDEFGHIJK medium 0
+F res B
+#1288
+golem gate city~
+gate golem~
+A gate golem stands motionless, awaiting your decision.
+~
+Motionless, silent, the giant mechanical being stands before you
+with its unblinking eyes awaiting your decision.  Its metalic surface
+covered with humming runes, it awaits your payment to active the gate
+and send you on your way.
+~
+human~
+ABLZe A DFJ 0 0 0
+60 50 100d50+12000 0d0+100 6d8+70 pound
+-20 -20 -20 -20
+FK 0 D 0
+stand stand none none~
+24
+AHMV ABCDEFGHIJK large 0
+#1289
+cashier Vhilit thin~
+Vhilit the cashier~
+Vhilit the cashier eyes you up and down.
+~
+~
+drow~
+ATYe AC HJPV 0 0 0
+58 116 1d10+9000 0d0+100 1d10+55 beating
+-27 -27 -27 -9
+EFKNX ABLQ B Ya
+stand stand male none~
+25
+AHMV ABCDEFGHIJK medium 0
+#1290
+xyrxisa stablemistress Dargothan~
+Xyrxisa~
+Xyrxisa the Dargothan Stablemistress is here, wielding a cruel looking lash.
+~
+Clad in tight leather clothing, this ebon skinned, alabaster haired
+mistress holds a coiled leather whip in one hand, coiling it's cruel tip
+around her index finger.  She smiles coyly as you enter, and motions to the
+sign on the far wall.  
+~
+drow~
+ABTVZe A DJP 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 whip
+-30 -30 -30 -30
+EFHJK ABH BD Ya
+stand stand female none~
+23
+AHMV ABCDEFGHIJK medium 0
+P BRIBE 1290 100~
+P BRIBE 1291 250~
+P BRIBE 1292 1000~
+P BRIBE 1293 15000~
+P SPEECH 1294 bat~
+P SPEECH 1295 hydra~
+P SPEECH 1296 lizard~
+P SPEECH 1297 spider~
+#1291
+cave spider~
+a cave spider~
+A cave spider stands here with all eight legs.
+~
+Covered in filth and grime a albino cave spider sits here with a leather
+saddle upon his back.  With beady eyes the spider seems to stare you down
+and then ruefully accept you.  The eyes of the spider are wild and untamed
+but calmed by sedatives.  
+~
+unique~
+AE A 0 0 0 0
+30 5 5d10+550 0d0+100 1d5+5 blast
+0 0 0 0
+0 0 0 0
+stand stand male none~
+18
+AGV ABCDEFHJK medium 0
+#1292
+Hydra~
+a large hydra~
+A large hydra sits here in a puddle of water.
+~
+Surrounded by every flowing puddles of water is a large hydra.  It gleams
+with a black shine that seems to reflect what little light is in the room. 
+Attached to it's back is a large saddle with accompanying reigns.  It sits
+patiently waiting for a rider to direct it where to go.  
+~
+unique~
+AE A 0 0 0 0
+30 5 5d10+550 0d0+100 1d5+5 suction
+0 0 0 0
+0 0 0 0
+stand stand female none~
+16
+AGV ABCDEFHJK medium 0
+#1293
+riding lizard~
+a riding lizard~
+A disgusting lizard with a saddle is here.
+~
+A large head sits atop a non-existant neck and a massive body covered in
+whith a thick leathery hide.  Four longs legs end in wickedly sharp talons
+that grip the surface of the ground unerringly.  
+~
+lizardman~
+AEI A J 0 0 0
+5 5 5d10+550 0d0+100 1d5+5 charge
+0 0 0 0
+0 0 L I
+stand stand either none~
+2
+0 ABCDEFGHIJKLQXc medium 0
+#1294
+giant bat~
+a giant bat~
+A giant bat is here, rigged with an odd harness.
+~
+Covered in coarse, wiry hairs, this huge bat is a horror to behold. 
+Tiny, beady eyes dart erratically around the area and a flattened, wrinkled
+nose twitches spasmically.  It's body is large and rotund, and it's wings
+spanned by flaps of leathery hide.  
+~
+bat~
+AEI A T 0 0 0
+30 5 5d10+550 0d0+100 1d5+5 bite
+0 0 0 0
+FH 0 0 S
+stand stand male none~
+15
+AGW ACDEFJKPU medium 0
+#1295
+gnome alchemist !dargothportal!~
+a Mar'Kyer Alchemist~
+A Mar'Kyer Alchemist is here, selling trips through his portals.
+~
+This short, fat, stubby little gnome is a member of the elite Mar'Kyer
+Guild of Alchemy. They first discovered the methods of portal travel
+years ago, and keep their secret closely guarded from others outside
+of their own guild. They seem to run quite a racket here, with shops set
+in nearly every city around Mirlan.
+~
+gnome~
+ABe A DFHJ 0 0 0
+60 45 4d6+5000 0d0+0 4d6+65 magic
+-21 -21 -19 -28
+0 AB 0 BP
+stand stand either none~
+25
+AHMV ABCDEFGHIJK tiny 0
+P DELAY 9 100~
+P RANDOM 25 50~
+P SPEECH 3 ulsym~
+P GRALL 2 100~
+P SPEECH 4 luva~
+P SPEECH 5 emmereaux~
+P SPEECH 6 revelsport~
+P SPEECH 7 zalango~
+#0
+
+
+
+#OBJECTS
+#1200
+altar shrine Zarkirond~
+an altar~
+A shrine made seemingly of gold of a pair of gloves holding a single gold coin is here.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#1201
+three headed flail~
+a three-headed flail~
+A three headed-flail is here.~
+iron~
+weapon e AN
+flail 6 5 pound 0
+30 250 12000 P
+F
+A 17 -5 0
+F
+A 19 2 0
+#1202
+war axe~
+a war axe~
+A sharp, short bedded axe rests here.~
+steel~
+weapon B AN
+axe 6 5 chop 0
+30 400 11000 P
+F
+A 19 2 0
+F
+A 3 -1 0
+#1203
+leather bullwhip whip~
+a leather bullwhip~
+A long coiled whip rests here.~
+leather~
+weapon 0 AN
+whip 4 7 beating 0
+25 10 6500 P
+F
+A 19 1 0
+F
+A 2 2 0
+#1204
+morning star~
+a morning star~
+A chained morning star is lying here.~
+steel~
+weapon B AN
+mace 4 6 crush 0
+15 200 5000 P
+F
+A 1 2 0
+#1205
+long spear~
+a long, steel spear~
+A long, steel spear rests here on the ground.~
+steel~
+weapon 0 AN
+spear 4 6 thrust F
+10 300 2200 P
+F
+A 18 1 0
+F
+A 19 1 0
+#1206
+glaive~
+a heavy glaive~
+A long heavy glaive rests here.~
+wood~
+weapon 0 AN
+polearm 5 5 cleave F
+5 200 950 P
+F
+A 19 2 0
+F
+A 18 1 0
+#1207
+curved cutlass~
+a curved cutlass~
+A curved cutlass is lying here.~
+steel~
+weapon B AN
+sword 4 6 slash D
+5 150 1750 P
+F
+A 2 1 0
+#1208
+slim steel dagger~
+a slim steel dagger~
+A slim steel dagger rests in the ground here.~
+steel~
+weapon 0 AN
+dagger 5 3 pierce 0
+1 10 750 P
+F
+A 2 2 0
+#1209
+shivering scimitar~
+a shivering scimitar~
+A wicked scimitar is lying here.~
+onyx~
+weapon A AN
+sword 5 6 slash 0
+30 3 3000 P
+#1210
+steel breastplate~
+a dark steel breastplate~
+A dark steel breastplate is resting here.~
+steel~
+armor 0 AD
+8 6 6 0 0
+15 20 2000 P
+#1211
+guardplate armor~
+a set of guardplate~
+A large set of guardplate is here.~
+adamantite~
+armor 0 AD
+8 8 7 4 0
+30 50 3000 P
+F
+A 19 1 0
+F
+A 18 1 0
+#1212
+heavy steel leggings~
+heavy steel leggings~
+A set of heavy steel leggings is here.~
+steel~
+armor 0 AF
+7 9 11 0 0
+35 180 5000 P
+F
+A 2 -1 0
+F
+A 18 1 0
+#1213
+iron armguards~
+heavy iron armguards~
+A set of heavy iron armguards is here.~
+iron~
+armor Ae AI
+9 11 10 8 0
+30 150 8000 P
+F
+A 2 -1 0
+F
+A 1 2 0
+#1214
+steel faceplate~
+a thick steel faceplate~
+A thick steel faceplate rests here.~
+steel~
+armor 0 Ad
+4 7 5 0 0
+20 30 3500 P
+F
+A 2 -1 0
+F
+A 19 1 0
+#1215
+teardrop shield~
+a teardrop shield~
+A shield in the shape of a teardrop is lying here.~
+steel~
+armor 0 AJ
+3 4 6 0 0
+25 20 5500 P
+F
+A 1 1 0
+#1216
+fountain~
+an old fountain~
+A fountain area inlaid with black marble fills the square here.~
+stone~
+fountain G 0
+-1 -1 'water' 0 0
+0 5000 5 P
+#1221
+no name~
+(no short description)~
+(no description)~
+unknown~
+container 0 0
+0 0 0 0 0
+0 0 0 P
+#1230
+fountain~
+an old fountain~
+A massuive onyx statue of Vaeregh is here, spouting water.~
+stone~
+fountain G 0
+-1 -1 'water' 0 0
+0 5000 5 P
+#1240
+fountain~
+an old fountain~
+A large stone fountain flows forth with clear, pure water here.~
+stone~
+fountain G 0
+-1 -1 'water' 0 0
+0 5000 5 P
+#1241
+potion fly flight~
+a potion of flight~
+A potion with a set of wings engraved on the bottle is here.~
+magic~
+potion 0 AO
+0 'fly' '' 'reserved' 'reserved'
+5 1 2500 P
+#1242
+recall potion~
+a potion of recall~
+A potion of recall is resting on the ground here.~
+liquid~
+potion 0 AO
+50 'word of recall' '' '' ''
+10 10 3000 P
+#1243
+white pill~
+a white pill~
+A white pill is resting here.~
+unknown~
+pill 0 A
+25 'armor' '' '' ''
+20 0 500 P
+#1244
+potion misty~
+a misty potion~
+A small misty potion rests here.~
+liquid~
+potion AGN AO
+11 'cure light' '' '' ''
+11 30 800 P
+#1245
+scroll identify~
+a scroll of identify~
+A paper scroll rests here, unopened.~
+paper~
+scroll 0 AO
+25 'identify' 'reserved' 'reserved' 'reserved'
+0 0 3500 P
+#1246
+dusty stone scroll~
+a dusty scroll~
+A dusty scroll is lying here.~
+paper~
+scroll AGS A
+15 'stone golem' '' '' ''
+5 10 10000 P
+#1247
+potion detect invis~
+a potion of detect-invisibility~
+A potion of detect-invisibility is here.~
+liquid~
+potion 0 AO
+10 'detect invis' 'reserved' 'reserved' 'reserved'
+20 0 2000 P
+#1248
+bed~
+a bed~
+A large wooden bed is here, lying unmade.~
+wood~
+furniture 0 0
+0 0 0 0 0
+50 0 100 P
+#1249
+potion invisibility~
+a potion of invisibility~
+A potion of invisiblity rests here.~
+liquid~
+potion 0 AO
+10 'invisibility' 'reserved' 'reserved' 'reserved'
+5 1 1500 P
+#1250
+slab beef~
+a large slab of beef~
+A large slab of beef is resting here.~
+meat~
+food 0 A
+24 24 0 0 24
+2 20 12 P
+#1251
+chicken roasted duck~
+a roasted duck~
+A whole roasted duck is here.~
+chicken~
+food 0 A
+24 24 0 0 72
+0 0 12 P
+#1252
+lamb~
+a side of lamb~
+A tasty looking side of lamb is here.~
+meat~
+food 0 A
+32 10 0 0 10
+0 1 5 P
+#1253
+cheese~
+a hunk of cheese~
+A hunk of cheese lies here.~
+dairy~
+food 0 A
+5 5 0 0 96
+0 10 2 P
+#1254
+turkey leg~
+a large turkey leg~
+A large turkey leg is on the ground here.~
+turkey~
+food 0 A
+20 20 0 0 20
+1 0 10 P
+#1255
+large canoe~
+a large, light canoe~
+A large, light canoe is resting here.~
+wood~
+boat 0 A
+0 0 0 0 0
+0 1 3500 P
+#1256
+raft~
+a large raft~
+A large raft made of wood is lies here on the ground.~
+wood~
+boat 0 A
+0 0 0 0 0
+0 300 300 P
+#1257
+a small dinghy~
+a small dinghy~
+A small dinghy is here, waiting to be used in the water.~
+wood~
+boat 0 A
+0 0 0 0 0
+0 4 1000 P
+#1258
+map eastern Mirlan~
+a map of Eastern Mirlan~
+A map of Eastern Mirlan lies here on the ground.~
+paper~
+map 0 A
+0 0 0 0 0
+0 10 0 P
+E
+eastern map~
+|-------------------------------The Map of Eastern Mirlan------------------------------|
+| /\  -- Highlands --- Winter                                                            |
+|/\/\                                                   |-S'handar                       |
+| /\/\                                                  | Fortress                    -  |
+|/\/\                                             /-----|                           ---  |
+|/\/\/\                                          /      |                         --- -  |
+|/\/\                                         Streyb   /  Mt. Rainer            - -  --- |
+| /\/\ Orcs                  Pyramid                  /                      -- -- - -   |
+|/\/\   |                      |                     /                    --- -  --  --  |
+|/\     |                      |                    |                     --  - ----     |
+|/\/\   \   The Forsaken Lands |                    |                     --- - --  --   |
+|/\/\/\  |                     |                    |<MIRUVHOR           The --  - Isle  |
+|/\/\----|-----------------------------------------[|]---------------- - Dragon -- Of    |
+| /\     |                |                         |                    Sea   --  Exile |
+|/\/\    /    The Forsaken|Lands                    |                   --- ---- --  -   |
+|/\/\/\  |                |                         |                   --- - ---- ----  |
+|/\      |                |        Emerald Forest___|---------Goblins  --- ---- - - ---  |
+|/\/\    /                Caranduin                 |                    --- -- -- ---   |
+| /\/\  |                                           | The                ----  --  ---   |
+|/\/\    \                                          | Shadow                --  - -      |
+| /\/\/\  | Giants                               |--|-Grove                   -- - ---   |
+|/\/\    /                         Fortress------|                           - --- -     |
+|/\/\    |                                       |-Drows                      -- - -     |
+| /\/\   |                                      /                              - -- -    |
+|/\      ?                                     /                                ----     |
+| /\/\                                     Myran Dammel                           -      |
+|________________________________________________________________________________________|
+|                                  Map by Shadowspawn                                    |
+|________________________________________________________________________________________|
+~
+#1259
+map western Mirlan~
+a map of Western Mirlan~
+A map of Western Mirlan lies here on the ground.~
+paper~
+map 0 A
+0 0 0 0 0
+0 10 0 P
+E
+western map~
+|-------------------------------The Map of Western Mirlan--------------------------|
+|                                                                          /----/\/\ |
+| -                                                              Mahn-Tor /    /\/\/\|
+| ---       Solace                      Falen Dara       Marak           /       /\/\|
+|-            |                              |            |              |      /\/\ |
+| -           |                              |         Canyon   Fortress-|      /\/\/|
+|--      Crystalmir                          |            |              |       /\/\|
+| --          |                              |       Valley   (Fortress) |      /\/\ |
+| -           |                              |            |   |          |       /\/\|
+| - --        |                              |        Banor   |    Kamir-|      /\/\ |
+| The --      |                 The Shire    |            |   |          |-Elves /\/\|
+| Dragon  The River                 |        |<VAL MIRAN  |   |          |     /\/\/\|
+| Sea  --    Wood------ Haon Dor ---|-------[|]-----------|-------------[|]------/\/\|
+| -  --       |                              |                    Rheydin|      /\/\ |
+| ---         |                              | Drkshtyre Wood            |       /\/\|
+|--           |                              |                           |      /\/\/|
+| -           |                              |              Dwarves     /|       /\/\|
+| ---         /                             /\                 |-------/ |      /\/\ |
+| -          /                             /  \                          |       /\/\|
+| ---       /                             /    \-Ecsismir E'gal       Gnomes    /\/\ |
+|  -   The Marsh                       Ofcol    \                        |       /\/\|
+|- --    |                                       \___ Forest Fare Way    |       /\/\|
+|-       |                                                               |           |
+|       Trolls                                                      Plains--Olympus  |
+|                                                                                    |
+|____________________________________________________________________________________|
+|                                   Map by Shadowspawn                               |
+|____________________________________________________________________________________|
+~
+#1265
+none~
+none~
+If you see this contact an Immortal~
+ink~
+trash 0 0
+0 0 0 0 0
+50 0 0 P
+#1279
+fountain~
+an old fountain~
+A smoked glass fountain spouts forth clear water here.~
+stone~
+fountain G 0
+-1 -1 'water' 0 0
+0 5000 5 P
+#1280
+altar Ixatros~
+an altar~
+A polished obsidian altar is here for you to worship Ixatros.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#1281
+pit of offering~
+a pit of offering~
+A pit of offering is here for mortals to store gifts for the gods.~
+unknown~
+container OT 0
+10000 0 0 10000 100
+60 0 10000 P
+#1282
+key west gate~
+the Western Gate Key~
+A key marked with the western sector of Dargoth is here.~
+steel~
+key 0 A
+0 0 0 0 0
+40 1 100 P
+#1284
+ruby key~
+a ruby key~
+A ruby key lies on the ground here.~
+ruby~
+key 0 AO
+0 0 0 0 0
+50 5 100 P
+#1287
+Crown Dark Dargoth~
+the dark crown of Dargoth~
+A dark crown glows with malevolent power.~
+adamantite~
+armor CEJ AEX
+1 4 3 9 0
+50 20 3 P
+F
+A 18 1 0
+F
+A 19 2 0
+F
+A 13 30 0
+F
+A 24 -2 0
+#0
+
+
+
+#ROOMS
+#1200
+`7The Tunnel Entrance``~
+You are within a long tunnel system that links the underground city of
+Dargoth to the shadow grove.  It is rumored that the Drow and the Duergar
+races have dug thousands of underground tunnels that all lead from Dargoth,
+and travel to all sorts of different places around Mirlan.  The air here is
+very stagnant but a cool breeze blows through a grate overhead.  
+~
+~
+0 13 0 1
+D0
+~
+~
+0 0 1201
+D4
+~
+~
+0 0 2046
+P GRALL 1201 100~
+P SPEECH 1200 worship~
+S
+#1201
+`7A winding tunnel``~
+The tunnel winds along here. Seeming hand hewn from a rock
+face, the walls of the tunnel are slick with slime and who
+knows what else. Your torch flickers here, as you enter damp
+air.
+~
+~
+0 9 0 1
+D1
+~
+~
+0 0 5500
+D2
+~
+~
+0 0 1200
+D3
+~
+~
+0 0 1202
+S
+#1202
+`7A curve in the tunnel``~
+You have some to a small curve in the tunnel. The same hand
+hewn rock surrounds you on all sides, and you find yourself
+having to duck to walk within this passage.
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1203
+D1
+~
+~
+0 0 1201
+S
+#1203
+`7Among echoes``~
+You've come to a wider expanse of the tunnel, and you
+can make out faint echoes in the distance. They almost
+sound like speech, but you cannot make out any actual
+words.
+~
+~
+0 9 0 1
+D2
+~
+~
+0 0 1202
+D3
+~
+~
+0 0 1204
+S
+#1204
+`7A shift in the tunnel``~
+The tunnel begins a slow decline here, heading deeper and
+deeper into the recesses of darkness. The echoes have stopped,
+but the air here is even thicker, and a sheen of sweat covers
+you here.
+~
+~
+0 9 0 1
+D1
+~
+~
+0 0 1203
+D5
+~
+~
+0 0 1205
+S
+#1205
+`7Deeper into the tunnel``~
+You're in a very deep section of the tunnel now. You are sure
+that Dargoth lies just to the north, but even now, amid all of
+this darkness, you can't be absolutely certain.
+~
+~
+0 13 0 1
+D0
+~
+~
+0 0 1206
+D4
+~
+~
+0 0 1204
+S
+#1206
+`7Deep within the tunnel``~
+You're in a very deep section of the tunnel now. You are sure
+that Dargoth lies just to the north, but even now, amid all of
+this darkness, you can't be absolutely certain.
+~
+~
+0 13 0 1
+D2
+~
+~
+0 0 1205
+D3
+~
+~
+0 0 1207
+S
+#1207
+`7Slimy walls``~
+The walls here are now covered with a greenish, glowing moss
+that radiates light as you pass your torch near it. The heavy
+dark granite around the tunnel has now turned into grassy moss,
+muffling any sound.
+~
+~
+0 13 0 1
+D1
+~
+~
+0 0 1206
+D5
+~
+~
+0 0 1208
+S
+#1208
+`7In total darkness``~
+You can't even see you hand in front of your face!
+~
+~
+0 13 0 1
+D0
+~
+~
+0 0 1209
+D4
+~
+~
+0 0 1207
+S
+#1209
+`7The sound of civilization``~
+You can finally see the gates of Dargoth just ahead. Sounds
+of beings fill your ears loudly, echoing all around you in this
+tunnel. Southward, the tunnel only gets deeper, and darker.
+~
+~
+0 13 0 1
+D0
+~
+~
+0 0 1210
+D2
+~
+~
+0 0 1208
+S
+#1210
+`7Before a Grand Gate``~
+You stand before the Grand South Gate of the drow city of Dargoth.  Large
+arches expand to extremes above you, and are all well carved of strange
+creatures all looming before some sort of dark, feminine Goddess.  The gates
+themself seem to be unmanned, as you now are entering the Har-Oloth, the
+dark, vicious southern district of Dargoth.  
+ 
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1211
+D1
+~
+~
+0 0 1253
+D2
+~
+~
+0 0 1209
+D3
+~
+~
+0 0 1256
+S
+#1211
+`7Nighteye Road``~
+You are strolling down Nighteye Road, the main north and south
+thoroughfare of Dargoth.  The streets here are very narrow, and on either
+side of you stand large grey stone walls that obscure vision in either
+direction.  The city seems to be perpetually rainy, and the cobbled streets
+are slick with the rain of the day, adding to the dismal look of this dark
+city.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1212
+D2
+~
+~
+0 0 1210
+S
+#1212
+`7Nighteye Road``~
+You are strolling down Nighteye Road, the main north and south
+thoroughfare of Dargoth.  The streets here are very narrow, and on either
+side of you stand large grey stone walls that obscure vision in either
+direction.  The city seems to be perpetually rainy, and the cobbled streets
+are slick with the rain of the day, adding to the dismal look of this dark
+city.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1213
+D2
+~
+~
+0 0 1211
+S
+#1213
+`7Nighteye Road``~
+You are strolling down Nighteye Road, the main north and south
+thoroughfare of Dargoth.  The streets here are very narrow, and on either
+side of you stand large grey stone walls that obscure vision in either
+direction.  The city seems to be perpetually rainy, and the cobbled streets
+are slick with the rain of the day, adding to the dismal look of this dark
+city.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1214
+D2
+~
+~
+0 0 1212
+S
+#1214
+`7Nighteye Road``~
+You are strolling down Nighteye Road, the main north and south
+thoroughfare of Dargoth.  The streets here are very narrow, and on either
+side of you stand large grey stone walls that obscure vision in either
+direction.  The city seems to be perpetually rainy, and the cobbled streets
+are slick with the rain of the day, adding to the dismal look of this dark
+city.  A badly-lit sign proclaims miserably that a bank is to your east.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1215
+D1
+~
+~
+0 0 1299
+D2
+~
+~
+0 0 1213
+S
+#1215
+`7Nighteye Road``~
+You are strolling down Nighteye Road, the main north and south
+thoroughfare of Dargoth.  The streets here are very narrow, and on either
+side of you stand large grey stone walls that obscure vision in either
+direction.  The city seems to be perpetually rainy, and the cobbled streets
+are slick with the rain of the day, adding to the dismal look of this dark
+city.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1216
+D2
+~
+~
+0 0 1214
+S
+#1216
+`7The Grand Square``~
+You find yourself within the Grand Square of Dargoth. What is so
+grand about it, you cannot be certain. It is dingy grey, and seems
+to be constantly covered in wet, evening dew. You wonder if the sun
+ever shines on this city. Roads run in all cardinal direction, and
+seem to lead into the Guilds District of Dargoth.
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1227
+D1
+~
+~
+0 0 1222
+D2
+~
+~
+0 0 1215
+D3
+~
+~
+0 0 1217
+D5
+~
+~
+0 0 1288
+S
+#1217
+`7Delfiel Street``~
+Delfiel Street is located within the Guilds District of the city of
+Dargoth.  Along these roads, all guildmembers walk to and fro to their
+guilds, to learn the tricks of the trade from their wise guildmasters. 
+Large, dark buildings rise on either side of you, all with small, oval
+windows that peek out onto Delfiel Street.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1259
+D1
+~
+~
+0 0 1216
+D3
+~
+~
+0 0 1218
+S
+#1218
+`7Delfiel Street``~
+Delfiel Street is located within the Guilds District of the city of
+Dargoth.  Along these roads, all guildmembers walk to and fro to their
+guilds, to learn the tricks of the trade from their wise guildmasters. 
+Large, dark buildings rise on either side of you, all with small, oval
+windows that peek out onto Delfiel Street.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1261
+D1
+~
+~
+0 0 1217
+D2
+~
+~
+0 0 1277
+D3
+~
+~
+0 0 1219
+S
+#1219
+`7Delfiel Street``~
+Delfiel Street is located within the Guilds District of the city of
+Dargoth.  Along these roads, all guildmembers walk to and fro to their
+guilds, to learn the tricks of the trade from their wise guildmasters. 
+Large, dark buildings rise on either side of you, all with small, oval
+windows that peek out onto Delfiel Street.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1263
+D1
+~
+~
+0 0 1218
+D3
+~
+~
+0 0 1220
+S
+#1220
+`7Delfiel Street``~
+Delfiel Street is located within the Guilds District of the city of
+Dargoth.  Along these roads, all guildmembers walk to and fro to their
+guilds, to learn the tricks of the trade from their wise guildmasters. 
+Large, dark buildings rise on either side of you, all with small, oval
+windows that peek out onto Delfiel Street.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1265
+D1
+~
+~
+0 0 1219
+D3
+~
+~
+0 0 1221
+S
+#1221
+`7The Western Gate of Dargoth``~
+You stand at the Western Gate of Dargoth. The gates are generally closed,
+to keep out unwanted visitors from Dargoth. Dargoth, the lead city of the
+Underdark, is the starting point for all of the drow tunnels that lead all
+over Mirlan, and likewise, they are closely guarded to ensure that outsiders
+do not enter.
+~
+~
+0 9 0 1
+D1
+~
+~
+0 0 1220
+D3
+~
+gate~
+AB 0 8000
+S
+#1222
+`7Delfiel Street``~
+Delfiel Street is located within the Guilds District of the city of
+Dargoth.  Along these roads, all guildmembers walk to and fro to their
+guilds, to learn the tricks of the trade from their wise guildmasters. 
+Large, dark buildings rise on either side of you, all with small, oval
+windows that peek out onto Delfiel Street.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1267
+D1
+~
+~
+0 0 1223
+D3
+~
+~
+0 0 1216
+S
+#1223
+`7Delfiel Street``~
+Delfiel Street is located within the Guilds District of the city of
+Dargoth.  Along these roads, all guildmembers walk to and fro to their
+guilds, to learn the tricks of the trade from their wise guildmasters. 
+Large, dark buildings rise on either side of you, all with small, oval
+windows that peek out onto Delfiel Street.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1269
+D1
+~
+~
+0 0 1224
+D3
+~
+~
+0 0 1222
+S
+#1224
+`7Delfiel Street``~
+Delfiel Street is located within the Guilds District of the city of
+Dargoth.  Along these roads, all guildmembers walk to and fro to their
+guilds, to learn the tricks of the trade from their wise guildmasters. 
+Large, dark buildings rise on either side of you, all with small, oval
+windows that peek out onto Delfiel Street.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1271
+D1
+~
+~
+0 0 1225
+D2
+~
+~
+0 0 1275
+D3
+~
+~
+0 0 1223
+S
+#1225
+`7Delfiel Street``~
+Delfiel Street is located within the Guilds District of the city of
+Dargoth.  Along these roads, all guildmembers walk to and fro to their
+guilds, to learn the tricks of the trade from their wise guildmasters. 
+Large, dark buildings rise on either side of you, all with small, oval
+windows that peek out onto Delfiel Street.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1273
+D1
+~
+~
+0 0 1226
+D3
+~
+~
+0 0 1224
+S
+#1226
+`7The Eastern Gate of Dargoth``~
+You stand at the Eastern Gate of Dargoth. The gates are generally closed,
+to keep out unwanted visitors from Dargoth. Dargoth, the lead city of the
+Underdark, is the starting point for all of the drow tunnels that lead all
+over Mirlan, and likewise, they are closely guarded to ensure that outsiders
+do not enter.
+~
+~
+0 9 0 1
+D3
+~
+~
+0 0 1225
+S
+#1227
+`7Nighteye Road``~
+You are strolling down Nighteye Road, the main north and south
+thoroughfare of Dargoth.  The streets here are very narrow, and on either
+side of you stand large grey stone walls that obscure vision in either
+direction.  The city seems to be perpetually rainy, and the cobbled streets
+are slick with the rain of the day, adding to the dismal look of this dark
+city.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1228
+D2
+~
+~
+0 0 1216
+S
+#1228
+`7Nighteye Road``~
+You are strolling down Nighteye Road, the main north and south
+thoroughfare of Dargoth.  The streets here are very narrow, and on either
+side of you stand large grey stone walls that obscure vision in either
+direction.  The city seems to be perpetually rainy, and the cobbled streets
+are slick with the rain of the day, adding to the dismal look of this dark
+city.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1229
+D2
+~
+~
+0 0 1227
+D3
+~
+~
+0 0 1286
+S
+#1229
+`7Nighteye Road``~
+You are strolling down Nighteye Road, the main north and south
+thoroughfare of Dargoth.  The streets here are very narrow, and on either
+side of you stand large grey stone walls that obscure vision in either
+direction.  The city seems to be perpetually rainy, and the cobbled streets
+are slick with the rain of the day, adding to the dismal look of this dark
+city.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1230
+D1
+~
+~
+0 0 1285
+D2
+~
+~
+0 0 1228
+S
+#1230
+`7Before the Kolszin House``~
+The Kolszin House is the ruling House of Dargoth.  Large gates lead into
+the entrance of this place, the home of the ruling Matron of the city.  For
+over eighty years, offspring of the Kolszin House have been the leading
+authorities in Dargoth, and the surrounding cities that pledge loyalty to
+the Dargothan Banner.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1279
+D1
+~
+~
+0 0 1231
+D2
+~
+~
+0 0 1229
+D3
+~
+~
+0 0 1235
+S
+#1231
+`7Darkfist Place``~
+Darkfist Place is the locale of all of the commerce districts of Dargoth.
+Each end is located with a Center, where all of the Drow business is
+conducted.  The road here is quite well traveled, yet the buildings around
+you and the stree itself are all grey, and wet with rain and dew.  
+~
+~
+0 9 0 1
+D1
+~
+~
+0 0 1232
+D3
+~
+~
+0 0 1230
+S
+#1232
+`7Darkfist Place``~
+Darkfist Place is the locale of all of the commerce districts of Dargoth.
+Each end is located with a Center, where all of the Drow business is
+conducted.  The road here is quite well traveled, yet the buildings around
+you and the stree itself are all grey, and wet with rain and dew.  
+~
+~
+0 9 0 1
+D1
+~
+~
+0 0 1233
+D3
+~
+~
+0 0 1231
+S
+#1233
+`7Darkfist Place``~
+Darkfist Place is the locale of all of the commerce districts of Dargoth.
+Each end is located with a Center, where all of the Drow business is
+conducted.  The road here is quite well traveled, yet the buildings around
+you and the street itself are all grey, and wet with rain and dew.  
+~
+~
+0 9 0 1
+D1
+~
+~
+0 0 1234
+D3
+~
+~
+0 0 1232
+S
+#1234
+`7Darkfist Place``~
+Darkfist Place is the locale of all of the commerce districts of Dargoth.
+Each end is located with a Center, where all of the Drow business is
+conducted.  The road here is quite well traveled, yet the buildings around
+you and the stree itself are all grey, and wet with rain and dew.  
+~
+~
+0 9 0 1
+D1
+~
+~
+0 0 1240
+D3
+~
+~
+0 0 1233
+S
+#1235
+`7Darkfist Place``~
+Darkfist Place is the locale of all of the commerce districts of Dargoth.
+Each end is located with a Center, where all of the Drow business is
+conducted.  The road here is quite well traveled, yet the buildings around
+you and the stree itself are all grey, and wet with rain and dew.  
+~
+~
+0 9 0 1
+D1
+~
+~
+0 0 1230
+D3
+~
+~
+0 0 1236
+S
+#1236
+`7Darkfist Place``~
+Darkfist Place is the locale of all of the commerce districts of Dargoth.
+Each end is located with a Center, where all of the Drow business is
+conducted.  The road here is quite well traveled, yet the buildings around
+you and the stree itself are all grey, and wet with rain and dew.  
+~
+~
+0 9 0 1
+D1
+~
+~
+0 0 1235
+D3
+~
+~
+0 0 1237
+S
+#1237
+`7Darkfist Place``~
+Darkfist Place is the locale of all of the commerce districts of Dargoth.
+Each end is located with a Center, where all of the Drow business is
+conducted.  The road here is quite well traveled, yet the buildings around
+you and the stree itself are all grey, and wet with rain and dew.  
+~
+~
+0 9 0 1
+D1
+~
+~
+0 0 1236
+D3
+~
+~
+0 0 1238
+S
+#1238
+`7Darkfist Place``~
+Darkfist Place is the locale of all of the commerce districts of Dargoth.
+Each end is located with a Center, where all of the Drow business is
+conducted.  The road here is quite well traveled, yet the buildings around
+you and the stree itself are all grey, and wet with rain and dew.  
+~
+~
+0 9 0 1
+D1
+~
+~
+0 0 1237
+D3
+~
+~
+0 0 1239
+S
+#1239
+`7The Western Center``~
+You stand within the Western Center of Dargoth. The same cobbled ground
+is inherent here as elsewhere in the squares of the city, and seems to be
+some sort of marking that you stand in the commerce section. Several large
+buildings lie in the cardinal directions, all leading to shops and stores
+that offer goods to aid any traveler.
+~
+~
+0 9 0 1
+D0
+To the north you see the Map Store's door.
+~
+~
+AB 0 1241
+D1
+~
+~
+0 0 1238
+D2
+To the south you see the Alchemy Shop.
+~
+~
+AB 0 1242
+D3
+To the west you see the Butcher's door.
+~
+~
+AB 0 1243
+S
+#1240
+`7The Eastern Center``~
+You stand within the Eastern Center of Dargoth. The area is rather
+squarish, and the street is made up of circular bricks inlaid with
+mortar. Several large buildings lie in the cardinal directions, and
+this seems to be one of the busier sections of the town, as it is the
+main commerce district for the dark city.
+~
+~
+0 9 0 1
+D0
+The the north you see the Boatmaster's door.
+~
+~
+AB 0 1251
+D1
+To the east you see the Blademaster's door.
+~
+~
+AB 0 1247
+D2
+To the south you see the Armory Door.
+~
+~
+AB 0 1249
+D3
+Ghourden Place runs westward.
+~
+~
+0 0 1234
+D4
+~
+~
+0 0 17000
+S
+#1241
+`7The Map Store``~
+You enter a musty, cloistered room filled with hundreds, perhaps even
+thousands of rolled maps. The Mapmaker, or, Cartographer, as he likes
+to call himself, is sitting at a desk, covered in ink spots. It seems
+that he entertains the idea of mapping all of the western world. The
+maps he offers to sell you, however, are mainly local maps.
+~
+~
+0 9 0 1
+D2
+~
+~
+AB 0 1239
+D4
+~
+~
+0 0 1245
+S
+#1242
+`7The Alchemy Shop``~
+You are within the Alchemy Shop. What looks like a chemist's office,
+large pots, vials, glass beakers, and test tubes lie all around, many
+filled with strange colored liquids and bubbling brews. A strange,
+frangrant incense fills the air, and you can choose from a very large
+variety of potions and scrolls that lie behind the counter.
+~
+~
+0 9 0 1
+D0
+~
+~
+AB 0 1239
+D4
+~
+~
+0 0 1246
+S
+#1243
+`7The Butcher``~
+You stand within a large room. The walls are all heavy granite, and
+there is a large opening in the back, where you can see the bodies
+of many animals, skinned, and hung from hooks in the ceiling. A large
+man bearing a cleaver stands here. His apron is bloodstained, and a
+large scale and wrapping paper stand is here to help preserve the food.
+~
+~
+0 9 0 1
+D1
+~
+~
+AB 0 1239
+D4
+~
+~
+0 0 1244
+S
+#1244
+`7Above the Butcher's``~
+You are standing in a small room seemingly used for sleeping.
+A small cot and bedroll are in the corner, amid a hand carved
+bookshelf, and some small drawers. Stairs lead back downward
+to the store.
+~
+~
+0 9 0 1
+D5
+~
+~
+0 0 1243
+S
+#1245
+`7Above the Map Store``~
+You are standing in a small room seemingly used for sleeping.
+A small cot and bedroll are in the corner, amid a hand carved
+bookshelf, and some small drawers. Stairs lead back downward
+to the store.
+~
+~
+0 9 0 1
+D5
+~
+~
+0 0 1241
+S
+#1246
+`7Above the Alchemy Shop``~
+You are standing in a small room seemingly used for sleeping.
+A small cot and bedroll are in the corner, amid a hand carved
+bookshelf, and some small drawers. Stairs lead back downward
+to the store.
+~
+~
+0 9 0 1
+D5
+~
+~
+0 0 1242
+S
+#1247
+`7The Blade``~
+You are within a quiet office. The walls around you are filled with
+various tools of slaying. It seems that Kherek obtains his items from
+the nearby armory, and displays them for sale here in his store. Many
+large swords, and other wicked looking weapons hang on display behind
+the shopkeeper.
+~
+~
+0 9 0 1
+D3
+~
+~
+AB 0 1240
+D4
+~
+~
+0 0 1248
+S
+#1248
+`7Above the Weapon Store``~
+You are standing in a small room seemingly used for sleeping.
+A small cot and bedroll are in the corner, amid a hand carved
+bookshelf, and some small drawers. Stairs lead back downward
+to the store.
+~
+~
+0 9 0 1
+D5
+~
+~
+0 0 1247
+S
+#1249
+`7The Armory``~
+You stand within a hot forge. The clang of metal on an anvil
+can be heard ringing from the back of the room. The air here is
+dense, and filled with the smell of smolting steel and iron.
+A large display of hand forged weaponry is hanging on the back
+wall.
+~
+~
+0 9 0 1
+D0
+~
+~
+AB 0 1240
+D4
+~
+~
+0 0 1250
+S
+#1250
+`7Above the Armory``~
+You are standing in a small room seemingly used for sleeping.
+A small cot and bedroll are in the corner, amid a hand carved
+bookshelf, and some small drawers. Stairs lead back downward
+to the store.
+~
+~
+0 9 0 1
+D5
+~
+~
+0 0 1249
+S
+#1251
+`7The Tanner's``~
+You stand within the Tanner's Store. Large hides of beasts lie on the
+wallks, and it looks as if many of them have been stretched, and made
+into boats and canoes. The air in the office is dank, and smells of the
+hide curing liquid used to preserve animal skins.
+~
+~
+0 9 0 1
+D2
+~
+~
+AB 0 1240
+D4
+~
+~
+0 0 1252
+S
+#1252
+`7Above the Tanner's``~
+You are standing in a small room seemingly used for sleeping.
+A small cot and bedroll are in the corner, amid a hand carved
+bookshelf, and some small drawers. Stairs lead back downward
+to the store.
+~
+~
+0 9 0 1
+D5
+~
+~
+0 0 1251
+S
+#1253
+`7Spiderskull Road``~
+Spiderskull road runs through the heart of Har-Oloth, the dangerous
+business district of Dargoth.  Even the drow themselves move quickly and
+without pause.  You can hear movement at the edges of your hearing, and you
+feel unseen eyes upon you.  The looks you do get from passer-by are ones of
+lust for your belongings.  
+~
+~
+0 9 0 1
+E
+sign~
+North to the Mar'Kyer Portals
+Travel to anywhere in Mirlan for 200 gold!
+~
+D0
+~
+~
+AB 0 1295
+D1
+~
+~
+0 0 1254
+D2
+~
+~
+AB 0 1296
+D3
+~
+~
+0 0 1210
+S
+#1254
+`7Spiderskull Road``~
+Spiderskull road runs through the heart of Har-Oloth, the dangerous
+business district of Dargoth.  Even the drow themselves move quickly and
+without pause.  You can hear movement at the edges of your hearing, and you
+feel unseen eyes upon you.  The looks you do get from passer-by are ones of
+lust for your belongings.  
+~
+~
+0 9 0 1
+D0
+~
+~
+AB 0 1297
+D1
+~
+~
+0 0 1255
+D2
+~
+~
+AB 0 1298
+D3
+~
+~
+0 0 1253
+S
+#1255
+`7Spiderskull Road``~
+Spiderskull road runs through the heart of Har-Oloth, the dangerous
+business district of Dargoth.  Even the drow themselves move quickly and
+without pause.  You can hear movement at the edges of your hearing, and you
+feel unseen eyes upon you.  The looks you do get from passer-by are ones of
+lust for your belongings.  
+~
+~
+0 9 0 1
+D3
+~
+~
+0 0 1254
+S
+#1256
+`7Spiderskull Road``~
+Spiderskull road runs through the heart of Har-Oloth, the dangerous
+business district of Dargoth.  Even the drow themselves move quickly and
+without pause.  You can hear movement at the edges of your hearing, and you
+feel unseen eyes upon you.  The looks you do get from passer-by are ones of
+lust for your belongings.  
+~
+~
+0 9 0 1
+D0
+~
+~
+AB 0 1289
+D1
+~
+~
+0 0 1210
+D2
+~
+~
+AB 0 1290
+D3
+~
+~
+0 0 1257
+S
+#1257
+`7Spiderskull Road``~
+Spiderskull road runs through the heart of Har-Oloth, the dangerous
+business district of Dargoth.  Even the drow themselves move quickly and
+without pause.  You can hear movement at the edges of your hearing, and you
+feel unseen eyes upon you.  The looks you do get from passer-by are ones of
+lust for your belongings.  
+~
+~
+0 9 0 1
+D0
+~
+~
+AB 0 1291
+D1
+~
+~
+0 0 1256
+D2
+~
+~
+AB 0 1292
+D3
+~
+~
+0 0 1258
+S
+#1258
+`7Spiderskull Road``~
+Spiderskull road runs through the heart of Har-Oloth, the dangerous
+business district of Dargoth.  Even the drow themselves move quickly and
+without pause.  You can hear movement at the edges of your hearing, and you
+feel unseen eyes upon you.  The looks you do get from passer-by are ones of
+lust for your belongings.  
+~
+~
+0 9 0 1
+D0
+~
+~
+AB 0 1293
+D1
+~
+~
+0 0 1257
+D2
+~
+~
+AB 0 1294
+S
+#1259
+`7Before the Cleric Guild``~
+You stand before the entrance to the Guild of Clerics. The
+portal is rather small to accomodate the generally small drow
+form. The building itself is very old, and made from the same
+dark granite that the rest of the city seems to be forged from.
+~
+~
+0 9 0 1
+D2
+~
+~
+0 0 1217
+D3
+~
+~
+0 0 1260
+S
+#1260
+`7The Room of Cleansing``~
+You are deep within the Guild of Clerics. Your Guildmaster stands
+here silently in prayer. Around you are sigils of the Cleric way of
+life, and a small shrine to the Dark Gods. The room carries a scent
+of pine incense and candlewax.
+~
+~
+0 295698440 4096 1
+D1
+~
+~
+0 0 1259
+S
+#1261
+`7Before the Battlemage Guild``~
+You stand now before the Battlemage Guild. The sound of steel
+blades whistling though the air can be heard to your west, but
+the guard here seems very serious about only letting those of
+the Guild pass. Southward lies Ziddik Street.
+~
+~
+0 9 0 1
+D2
+~
+~
+0 0 1218
+D3
+~
+~
+0 0 1262
+S
+#1262
+`7The Hall of Scythes``~
+You stand within the Guildhall of the Battlemages. A guildmaster
+is here, with a set of blades whirling about him. The room is very
+deeply scored with slashmarks from stray blades of students. A
+large training dummy is set in the far wall.
+~
+~
+0 295698440 4096 1
+D1
+~
+~
+0 0 1261
+S
+#1263
+`7Before the Shaman Guild``~
+You stand before a large gate leading into the Guildhall of
+the Shamans. Cries of agony and torture come from within, and
+the guildguard bears a cruel smile of pleasure as each scream
+comes forth from the Guild.
+~
+~
+0 9 0 1
+D2
+~
+~
+0 0 1219
+D3
+~
+~
+0 0 1264
+S
+#1264
+`7The Hall of Inquisition``~
+You are within the hall of the Shamans. The room is very bleak,
+and desolate looking. Around you are large chairs with straps that
+are fastened to them. Several hapless victims lie within them, most
+covered in plague sores, with tiny, shriveled legs, and cloudy,
+blinded eyes.
+~
+~
+0 295698440 4096 1
+D1
+~
+~
+0 0 1263
+S
+#1265
+`7Before the Invoker Guild``~
+The entrance to the Invoker Guild is a strange one, indeed. From
+deep within the guild, you can see flashes of light, and smell the
+acrid fumes of fire. But, at the same time, water seems to almost
+continuously trickle out of the main entryway.
+~
+~
+0 9 0 1
+D2
+~
+~
+0 0 1220
+D3
+~
+~
+0 0 1266
+S
+#1266
+`7The Hall of the Elements``~
+You stand within the Hall of the Elements. The walls here are all
+heavily scorched, and the acrid odor of brimstone fills the air. The
+floor remains wet, and you can see where several errant bolts of light
+and lightning have seared the walls and floor.
+~
+~
+0 295698440 4096 1
+D1
+~
+~
+0 0 1265
+S
+#1267
+`7Before the Guild of Thieves``~
+Before you, a small door lies. You stand now at the entrance of the
+Guild of Thieves. A man dressed in dark cloaks blocks your passage
+here, without the 'secret password'. The Thief Guild has long been
+known for it's conspiring nature, and it's doubtful you'll get in
+without some sort of password, or permission.
+~
+~
+0 9 0 1
+D1
+~
+~
+0 0 1268
+D2
+~
+~
+0 0 1222
+S
+#1268
+`7A Silent Room``~
+The room you now stand in is within the Guildhall of the Thieves.
+A silent man with a dark, mysterious look is here, training young
+thieves on their silent arts. The room is very nondescript otherwise,
+save for the deep dark green carpet on the floor.
+~
+~
+0 295698432 4096 1
+D3
+~
+~
+0 0 1267
+S
+#1269
+`7Before the Guild of Necromancers``~
+You stand before the entrance to the Guild of the Necromancers.
+A stench of death and decay emanates from the small entrance,
+and within, you can hear the groans of the dead, and the dying
+as they succumb to the powers of the darkness.
+~
+~
+0 9 0 1
+D1
+~
+~
+0 0 1270
+D2
+~
+~
+0 0 1223
+S
+#1270
+`7The Chamber of the Dead``~
+You are within a damned chamber. Dark runes line the walls, and
+along the far wall, a row of chipped open coffins lie. Several
+large, and rotting zombies stand amid this foulness, and the
+room reeks of the stench of decaying flesh.
+~
+~
+0 295698440 0 1
+D3
+~
+~
+0 0 1269
+S
+#1271
+`7Before the Warrior Guild``~
+You stand before a large, obelisk-type structure. Made of dark stone
+and carved with two crossed swords, this guild is old, and very dusty.
+The guardian before it looks almost bored, as if he sees few who come
+and go from this guild in recent years.
+~
+~
+0 9 0 1
+D1
+~
+~
+0 0 1272
+D2
+~
+~
+0 0 1224
+S
+#1272
+`7The Hall of Blades``~
+You stand within a practice hall for Drow Warriors. Several large practice
+dummies are set up against walls, and various practice swords, spears, and
+staffs are lying haphazardly on the floor. A guildmaster stands here with a
+very bored look in his eye. He perks up as you walk in.
+~
+~
+0 295698440 4096 1
+D3
+~
+~
+0 0 1271
+S
+#1273
+`7Before the Dark Knight Guild``~
+You stand before a very dark, and shadowy building. Donned with large
+steel spikes placed to keep out unwanted visitors, these gates hold within
+the Guild of the Dark Knights, a place where few of the outside dare to
+tread. A large guardian stands before you, his face a mask of hate, and
+evil.
+~
+~
+0 9 0 1
+D1
+~
+~
+0 0 1274
+D2
+~
+~
+0 0 1225
+S
+#1274
+`7The Hall of Torture``~
+You are within the darkness of the Dark Knight Guild. Several large racks
+are here, all designed with torture in mind. The Guildmaster stands here,
+keen and bent on teaching you the best, and most efficient ways to torture
+and extort information from your foes.
+~
+~
+0 295698440 4096 1
+D3
+~
+~
+0 0 1273
+S
+#1275
+`7Before the Guild of Ninjas``~
+You stand before a small building, with two small lanterns in the window.
+A scent of burning incense wafts from within, and you can see several
+mats have been lay down at the doorstep. The guardian stands silently in
+the shadows, and observes you keenly.
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1224
+D1
+~
+~
+0 0 1276
+S
+#1276
+`7The Hall of Meditation``~
+The Hall of Meditation is the home to the Ninja Guildmaster of Dargoth.
+The room is smoky, and filled with the smell of eastern incense. Large
+straw mats are all around here, and several padded bags, and practice
+armor is here to be used by students.
+~
+~
+0 295698440 4096 1
+D3
+~
+~
+0 0 1275
+S
+#1277
+`7Before the Craft Guildhall``~
+The Guild is rather nondescript.  A man garbed in long flowing robes
+blocks your entrance, and you cannot see further inside.  Very little sound
+comes from the Guildhall itself, but you can feel the hairs on the back of
+your neck prickle as you near.  
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 1218
+D3
+~
+~
+0 0 1278
+S
+#1278
+`7The Empty Chamber``~
+You stand within the empty Guildhall.  Several large tables are resting
+here, with various pieces of twisted metal upon them, and many large tomes
+of knowledge lie in shelves behind you.  On the wall is a picture of what
+looks like a large inkspot.  
+~
+~
+0 295698440 0 1
+D1
+~
+~
+0 0 1277
+S
+#1279
+`7Within the Courtyard``~
+You stand in the Courtyard of Dargoth, a resting place for church-goers
+who come downstairs from the Temple of Ixtaros, which lies above. The yard
+is decorated in dark stones from all over the lands, and it quite ornate,
+considering that it lies almost a thousand feet below the surface of Mirlan.
+~
+~
+0 13 0 1
+D0
+~
+~
+0 0 1282
+D2
+~
+~
+0 0 1230
+D4
+~
+~
+0 0 1280
+S
+#1280
+`7Before the Temple of Ixtaros``~
+You stand before the Temple of Ixtaros.  Carved from pure onyx, it looks
+as if the pillars and stairs were carved outside of the Underdark, and
+brought in many hundreds of years ago.  It is rumored that Ixtaros communes
+his dark plans to slaughter all from this dark temple of war and vengeance
+upon those who dwell above.  
+~
+~
+0 13 0 1
+D0
+~
+~
+0 0 1281
+D2
+~
+~
+0 0 17500
+D5
+~
+~
+0 0 1279
+S
+#1281
+`7The Temple of Ixtaros``~
+You stand underneath the Great Temple of Ixtaros.  Around you, dark,
+carved onyx and obsidian from underground deposits are standing, carved and
+polished to a mirror sheen.  A pit is here in the room for mortals to offer
+gifts to Ixtaros.  A dark priest stands here, communing any blessings to
+those who sit and listen to his preaching.  
+~
+~
+0 13 0 1
+D2
+~
+~
+0 0 1280
+P GRALL 1280 100~
+P SPEECH 1281 worship~
+S
+#1282
+`7The House of Kolszin``~
+You stand within the House of Kolszin, the home of the Matron Mother,
+Ghuulizza.  The city registry is located upstairs, as well as the chamber of
+the Matron herself, who, rumor has it, is very unkind to any visitors who
+may be passing through.  The House itself is splendidly decorated with
+tapestries and rare artifacts from around the world.  
+~
+~
+0 13 0 1
+D2
+~
+~
+0 0 1279
+D4
+~
+~
+0 0 1283
+S
+#1283
+`7The Grand Foyer of the Monarchy``~
+You are within the Second Floor of the Kolszin House.  This is very near
+the Matron Mother's Chamber, as well as the city registry's office, a place
+where most people go to conduct any business.  The Matron herself has not
+been seen in public for many years, after her husband died a very untimely
+death.  
+~
+~
+0 13 0 1
+D0
+~
+~
+0 0 1284
+D5
+~
+~
+0 0 1282
+S
+#1284
+`7The Grand Palace of Kolszin``~
+You stand in the main offices of the Grand Palace of Kolszin.  A
+secretary is here, keeping track of the population of Dargoth, as well as
+assisting travelers in changing their hometowns.  As you enter, she looks
+up, nods, and returns to her work.  A large set of locked doors lead north
+into the Matron's Chamber.  
+~
+~
+0 1048585 0 1
+D0
+~
+palisade~
+ABCF 1284 1287
+D2
+~
+~
+0 0 1283
+S
+#1285
+`7The Training Offices``~
+You stand within the training offices of Dargoth. This is where
+all fledgeling drow, as well as old, and traveled drow come to train
+their mind and body. A trainer stands here helping you apply all of
+your hard earned knowledge.
+~
+~
+0 13 0 1
+D3
+~
+~
+0 0 1229
+S
+#1286
+`7A small book shop``~
+You stand in a small, clustered room in the city of Dargoth.
+All around you, large shelves hold stacks of paper and several
+files, each overflowing. A man rests behind the counter with a
+book before him, in which he seems to be recording things.
+~
+~
+0 13 0 1
+D1
+~
+~
+0 0 1228
+S
+#1287
+`7The Chamber of the Matron Mother``~
+You stand within a grand audience chamber, held by the Matron Mother of
+house Kolszin.  Considering that she never wants to be disturbed, she glares
+as you angrily, and attacks!  
+~
+~
+0 13 0 1
+D2
+~
+palisade~
+ABCF 0 1284
+S
+#1288
+`7Dargothan Slaver``~
+As you climb down a rot ridden ladder you enter the middle of a small
+shop.  All around you are cages filled with various animals that are stuffed
+in recesses dug into the walls.  Roaming aimlessly about are a few smaller
+and more domicile animals that seem to be more placid then the caged
+animals.  Standing behind a filth ridden counter is a young man covered in
+animal feed and feces.  He stares at you with dull eyes and waits for you to
+make your choice so he may return to his work.  
+ 
+A small sign hangs on the wall, waiting to be read.
+~
+~
+0 8205 0 1
+E
+sign~
+_____________________________________________
+(_____________________________________________)
+ |                                           |
+ |           The Dargothan Stables           |
+ |      ---------------------------------    |
+ |                                           |
+ |  1. Cave Spider              100 Gold     |
+ |  2. Riding Lizard            250 Gold     |
+ |  3. Hydra                   1000 Gold     |
+ |  4. Giant Bat              15000 Gold     |
+ |                                           |
+ | To order a mount simply say its type,     |
+ | or pay the fee to the Stablemistress.     |
+ |                                           |
+ +===========================================+
+~
+D4
+~
+~
+0 0 1216
+S
+#1289
+`8A Har-oloth shanty``~
+You have entered a shady shanty in Har-Oloth, the business district of
+Dargoth.  The walls all around you appear to be of poor quality but you get
+the sense that all is not what it seems.  There is no light within the room,
+but you do feel quite uncomfortable in the heavy darkness.  
+~
+~
+0 13 0 0
+D2
+~
+~
+AB 0 1256
+S
+#1290
+`8A Har-oloth shanty``~
+You have entered a shady shanty in Har-Oloth, the business district of
+Dargoth.  The walls all around you appear to be of poor quality but you get
+the sense that all is not what it seems.  There is no light within the room,
+but you do feel quite uncomfortable in the heavy darkness.  
+~
+~
+0 13 0 0
+D0
+~
+~
+AB 0 1256
+S
+#1291
+`8A Har-oloth shanty``~
+You have entered a shady shanty in Har-Oloth, the business district of
+Dargoth.  The walls all around you appear to be of poor quality but you get
+the sense that all is not what it seems.  There is no light within the room,
+but you do feel quite uncomfortable in the heavy darkness.  
+~
+~
+0 9 0 0
+D2
+~
+~
+AB 0 1257
+S
+#1292
+`8A Har-oloth shanty``~
+You have entered a shady shanty in Har-Oloth, the business district of
+Dargoth.  The walls all around you appear to be of poor quality but you get
+the sense that all is not what it seems.  There is no light within the room,
+but you do feel quite uncomfortable in the heavy darkness.  
+~
+~
+0 9 0 0
+D0
+~
+~
+AB 0 1257
+S
+#1293
+`8A Har-oloth shanty``~
+You have entered a shady shanty in Har-Oloth, the business district of
+Dargoth.  The walls all around you appear to be of poor quality but you get
+the sense that all is not what it seems.  There is no light within the room,
+but you do feel quite uncomfortable in the heavy darkness.  
+~
+~
+0 16777225 0 0
+D2
+~
+~
+AB 0 1258
+S
+#1294
+`8A Har-oloth shanty``~
+You have entered a shady shanty in Har-Oloth, the business district of
+Dargoth.  The walls all around you appear to be of poor quality but you get
+the sense that all is not what it seems.  There is no light within the room,
+but you do feel quite uncomfortable in the heavy darkness.  
+~
+~
+0 9 0 0
+D0
+~
+~
+AB 0 1258
+S
+#1295
+`8The Portal Room``~
+You stand inside the Portal Room of the Mar'Kyer Alchemists.
+The rooms around the realm all look pretty much the same,
+as these little crafty gnomes have setup quite a business
+for themselves. The room is rounded, with a small hexagram
+inset into the floor in the center of the room. The rest of
+the room is entirely empty except for a small chair where
+the alchemist sits, and a small sign on the wall, with some
+trade common writing on it.
+~
+~
+0 9 0 0
+E
+sign~
+`%---=== THE MAR'KYER PORTAL SYSTEM ===---``
+--
+If you'd like to travel somewhere, we're the best! Once the 
+portal is created, just "enter portal" to be transported to your
+location. Items can be passed as well through the portals. Just
+give the item to the portal. Remember, they only stay open for 
+a short time. Only one portal may be opened at a time. We 
+serve the following locales:
+--
+`^DARGOTH, ZALANGO, REVELSPORT, ULSYM, LUVA, and EMMEREAUX``
+--
+Just `#SAY`` the location you wish to portal to, and your monies
+will be taken by the Alchemist.
+--
+Thank you for using the Mar'Kyer Portal System!
+~
+D2
+~
+~
+AB 0 1253
+S
+#1296
+`8A Har-oloth shanty``~
+You have entered a shady shanty in Har-Oloth, the business district of
+Dargoth.  The walls all around you appear to be of poor quality but you get
+the sense that all is not what it seems.  There is no light within the room,
+but you do feel quite uncomfortable in the heavy darkness.  
+~
+~
+0 9 0 0
+D0
+~
+~
+AB 0 1253
+S
+#1297
+`8A Har-oloth shanty``~
+You have entered a shady shanty in Har-Oloth, the business district of
+Dargoth.  The walls all around you appear to be of poor quality but you get
+the sense that all is not what it seems.  There is no light within the room,
+but you do feel quite uncomfortable in the heavy darkness.  
+~
+~
+0 9 0 0
+D2
+~
+~
+AB 0 1254
+S
+#1298
+`8A Har-oloth shanty``~
+You have entered a shady shanty in Har-Oloth, the business district of
+Dargoth.  The walls all around you appear to be of poor quality but you get
+the sense that all is not what it seems.  There is no light within the room,
+but you do feel quite uncomfortable in the heavy darkness.  
+~
+~
+0 9 0 0
+D0
+~
+~
+AB 0 1254
+S
+#1299
+`8The K'Dan Bank``~
+This more closely resembles a hole in the wall rather than a major bank. 
+The place is cluttered with desks and papers but amongst the disorder there
+is much gem trading and gold exchanging taking place.  Drow tellers bustle
+about almost as if in a trance and there is the unmistakable smell of
+opportunity, optimism, and gold in the air.  
+~
+~
+0 1048585 0 0
+D3
+~
+~
+0 0 1214
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 1201 spec_cast_adept
+M 1216 spec_executioner
+M 1221 spec_executioner
+M 1230 spec_executioner
+M 1241 spec_keeper_move
+M 1242 spec_keeper_move
+M 1243 spec_keeper_move
+M 1247 spec_keeper_move
+M 1249 spec_keeper_move
+M 1251 spec_keeper_move
+M 1258 spec_thief
+M 1264 spec_cast_cleric
+M 1281 spec_cast_adept
+M 1287 spec_cast_mage
+M 1290 spec_keeper_stay
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+O 0 1200 0 1200
+M 0 1230 20 1210 2
+M 0 1213 30 1210 2
+M 0 1221 8 1210 4
+M 0 1213 30 1211 2
+M 0 1213 30 1213 2
+M 0 1213 30 1215 2
+O 0 1216 0 1216
+M 0 1216 1 1216 1
+M 0 1230 20 1216 2
+M 0 1230 2 1217 20
+M 0 1230 2 1219 20
+M 0 1230 2 1221 20
+M 0 1221 4 1221 8
+G 0 1282 0
+M 0 1230 2 1223 20
+M 0 1230 2 1226 20
+M 0 1221 4 1226 8
+M 0 1213 30 1228 2
+M 0 1230 20 1230 2
+M 0 1230 2 1230 20
+M 0 1213 2 1230 30
+M 0 1213 2 1233 30
+M 0 1213 2 1236 30
+M 0 1213 2 1238 30
+O 0 1240 0 1239
+M 0 1230 2 1239 20
+M 0 1213 2 1239 30
+O 0 1240 0 1240
+M 0 1230 2 1240 20
+M 0 1213 2 1240 30
+M 0 1241 1 1241 1
+G 0 1258 0
+G 0 1259 0
+M 0 1242 1 1242 1
+G 0 1242 0
+G 0 1241 0
+G 0 1243 0
+G 0 1244 0
+G 0 1245 0
+G 0 1246 0
+G 0 1247 0
+G 0 1249 0
+M 0 1243 1 1243 1
+G 0 1250 0
+G 0 1251 0
+G 0 1252 0
+G 0 1253 0
+G 0 1254 0
+O 0 1248 0 1244
+O 0 1248 0 1245
+O 0 1248 0 1246
+M 0 1247 1 1247 1
+G 0 1201 0
+G 0 1202 0
+G 0 1203 0
+G 0 1204 0
+G 0 1205 0
+G 0 1206 0
+G 0 1207 0
+G 0 1208 0
+G 0 1209 0
+O 0 1248 0 1248
+M 0 1249 1 1249 1
+G 0 1210 0
+G 0 1211 0
+G 0 1212 0
+G 0 1213 0
+G 0 1214 0
+G 0 1215 0
+O 0 1248 0 1250
+M 0 1251 1 1251 1
+G 0 1255 0
+G 0 1256 0
+G 0 1257 0
+O 0 1248 0 1252
+M 0 1258 5 1254 1
+M 0 1213 30 1255 2
+M 0 1257 5 1255 1
+M 0 1258 5 1255 1
+M 0 1258 5 1256 1
+M 0 1258 5 1257 1
+M 0 1257 5 1257 1
+M 0 1257 5 1258 1
+M 0 1258 5 1258 1
+M 0 1259 1 1259 1
+M 0 1260 1 1260 1
+M 0 1261 1 1261 1
+M 0 1262 1 1262 1
+M 0 1263 1 1263 1
+M 0 1264 1 1264 1
+M 0 1265 1 1265 1
+M 0 1266 1 1266 1
+M 0 1267 1 1267 1
+M 0 1268 1 1268 1
+M 0 1269 1 1269 1
+M 0 1270 1 1270 1
+M 0 1271 1 1271 1
+M 0 1272 1 1272 1
+M 0 1273 1 1273 1
+M 0 1274 1 1274 1
+M 0 1275 1 1275 1
+M 0 1276 1 1276 1
+M 0 1201 1 1277 1
+O 0 1279 0 1279
+O 0 1281 0 1281
+M 0 1281 1 1281 1
+O 0 1280 0 1281
+M 0 1284 1 1284 1
+G 0 1284 0
+M 0 1285 1 1285 1
+M 0 1286 1 1286 1
+M 0 1287 1 1287 1
+M 0 1290 1 1288 1
+M 0 1295 1 1295 1
+M 0 1289 1 1299 1
+S
+
+
+
+#SHOPS
+1241 0 0 0 0 0 100 50 0 23
+1242 0 0 0 0 0 100 50 0 23
+1243 0 0 0 0 0 100 50 0 23
+1247 0 0 0 0 0 100 50 0 23
+1249 0 0 0 0 0 100 50 0 23
+1251 0 0 0 0 0 100 50 0 23
+0
+
+
+
+#MOBPROGS
+#1201
+~
+#1277
+if isclass $n == 'miner'
+'Welcome to the Craft Guildhall, $n.
+else
+'Only craft classes may enter here, $n.
+mob stop $n
+endif
+~
+#1288
+if isnpc $n
+break
+endif
+if affspell $n mounted
+mob echoat $n $I exchanges your mounts.
+endif
+'Ah yes...I have just the beast for you.
+pmote leads a large caver spider to $N.
+'Don't let it bite you.
+snicker
+mob junk 1.gold
+mob mount 1291 24 $n
+~
+#1290
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+'Ah yes...I have just the animal for you.
+pmote leads a sedated cave spider to $N.
+'Enjoy.
+snicker
+mob junk 1.gold
+mob mount 1291 24 $n
+~
+#1291
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+'A riding lizard?  Interesting choice.
+'You know what they say about men who choose lizards?'
+pmote leads a fearsome looking riding lizard to $N.
+wink $n
+snicker self
+mob junk 1.gold
+mob mount 1293 36 $n
+~
+#1292
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+'Ah, yes. I have a fine beast for you.
+pmote leads a hideous hydra to $N.
+'He's the best I have in my stock.
+'Enjoy.
+mob junk 1.gold
+mob mount 1292 72 $n
+~
+#1293
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+'Ah, into the sky you go? Very good.
+pmote leads a harnessed giant bat to $N.
+'Hope you don't fall.
+mob junk 1.gold
+mob mount 1294 72 $n
+~
+#1294
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 15000
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -15000 -15000
+endif
+'Ah, into the sky you go? Very good.
+pmote leads a harnessed giant bat to $N.
+'Hope you don't fall.
+mob junk 1.gold
+mob mount 1294 72 $n
+~
+#1295
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 1000
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -1000 -1000
+endif
+'Ah, yes. I have a fine beast for you.
+pmote leads a hideous hydra to $N.
+'He's the best I have in my stock.
+'Enjoy.
+mob junk 1.gold
+mob mount 1292 72 $n
+~
+#1296
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 250
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -250 -250
+endif
+'A riding lizard?  Interesting choice.
+'You know what they say about men who choose lizards?'
+pmote leads a fearsome looking riding lizard to $N.
+wink $n
+snicker self
+mob junk 1.gold
+mob mount 1293 36 $n
+~
+#1297
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 100
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -100 -100
+endif
+'Ah yes...I have just the animal for you.
+pmote leads a sedated cave spider to $N.
+'Enjoy.
+snicker
+mob junk 1.gold
+mob mount 1291 24 $n
+~
+#0
+
+M 1213 0 xymerria_citizen.prg NL
+M 1216 1 xymerria_enforcer.prg NL
+M 1221 0 xymerria_guard.prg NL
+M 1227 0 serin_psionicist.prg NL
+M 1230 0 xymerria_gateguard.prg NL
+M 1257 1 pckill.prg NL
+M 1258 1 xymerria_thief.prg NL
+M 1259 0 serin_shaman.prg NL
+M 1259 0 serin_guild.prg NL
+M 1260 0 serin_shaman.prg NL
+M 1261 0 serin_guild.prg NL
+M 1261 0 valmiran_bmg.prg NL
+M 1262 0 serin_shaman.prg NL
+M 1263 0 serin_shaman.prg NL
+M 1263 0 serin_guild.prg NL
+M 1264 0 serin_shaman.prg NL
+M 1265 0 serin_invoker.prg NL
+M 1265 0 serin_guild.prg NL
+M 1266 0 serin_invoker.prg NL
+M 1267 0 serin_thief.prg NL
+M 1267 0 serin_guild.prg NL
+M 1268 0 serin_thief.prg NL
+M 1269 0 serin_necromancer.prg NL
+M 1269 0 serin_guild.prg NL
+M 1270 0 serin_necromancer.prg NL
+M 1271 0 serin_warrior.prg NL
+M 1271 0 serin_guild.prg NL
+M 1272 0 serin_warrior.prg NL
+M 1273 0 serin_dark-knight.prg NL
+M 1273 0 serin_guild.prg NL
+M 1274 0 serin_dark-knight.prg NL
+M 1275 0 serin_ninja.prg NL
+M 1275 0 serin_guild.prg NL
+M 1276 0 serin_ninja.prg NL
+M 1278 0 guildguard.prg NL
+M 1284 0 serin_secretary.prg NL
+M 1285 0 serin_trainer.prg NL
+M 1287 1 hitower_mistress.prg NL
+M 1288 1 miruvhor_gate.prg NL
+M 1291 1 serin_mercenary.prg NL
+M 1292 1 serin_mercenary.prg NL
+M 1293 1 serin_mercenary.prg NL
+M 1294 1 serin_mercenary.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#1200
+room echoat $n Your prayers to Zarkirond have been received as you see a flash of dark light before your eyes.
+~
+#1201
+if hasquest $n 'Discovered the Shrine to Zarkirond in Dargoth'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Zarkirond!``
+    room permquest $n Discovered the Shrine to Zarkirond in Dargoth
+endif
+~
+#1280
+if hasquest $n 'Discovered the Shrine to Ixtaros in Dargoth'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Ixtaros!``
+    room permquest $n Discovered the Shrine to Ixtaros in Dargoth
+endif
+~
+#1281
+room echoat $n A welling inside you begins to overflow.
+room echoat $n Vengeance for any and all wrongs done to you flash before your eyes.
+room echoat $n You feel the raw power of Ixatros as he engulfs your essence.
+room echoat $n Tears fill your eyes as visions of slaughter and war over power your senses.
+room force $n sob
+room force $n shudder
+room echoat $n You feel empty and void after Ixatros leaves you barren of his presence.
+~
+#0
+
+#$

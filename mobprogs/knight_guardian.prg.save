@@ -1,0 +1,10 @@
+>greet_prog 100~
+if iscabal($t) == 1
+	if rand(50)
+		say Greetings Lightwalker, welcome back.
+	else
+		say Greetings $r,  carefully.
+	endif
+endif
+~
+|

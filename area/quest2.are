@@ -1,0 +1,194 @@
+#AREADATA
+Name Quests2~
+Pref ~
+Builders Immortals~
+VNUMs 2200 2299
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 2
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#2200
+Zharth bodyguard ~
+Zharth's bodyguard~
+Zharth's bodyguard stands here, with his arms folded.
+~
+~
+human~
+A A 0 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+10
+AHMV ABCDEFGHIJK medium 0
+#2202
+Centaur~
+a centaur~
+A centaur is here.
+~
+A half human torso with the lower body of a horse stands here guarding
+the forest.  The size of this creature is that of a large warhorse.  The
+hoofs look chipped and well worn from travel.  A half human torso with the
+lower body of a horse stands here guarding the forest.  The size of this
+creature is that of a large warhorse.  The hoofs look chipped and well worn
+from travel.  Its long brown mane runs from its noble head down its back
+with occasional red ties holding some of it in braids.  
+~
+centaur~
+ACTWZd A 0 JK 0 0
+35 7 10d85+600 0d0+0 5d6+12 pound
+-15 -15 -15 -3
+EFIJRU 0 BLQ M
+stand stand none none~
+13
+AHNV ACDEFHJKQ large 0
+#0
+
+
+
+#OBJECTS
+#2200
+mace zharth~
+zharth's mace~
+The mace of Zharth~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+P GET 2200 mace~
+#2202
+rod of haste~
+a Rod of Haste~
+A long, black rod is lying here.~
+steel~
+staff X AO
+0 0 0 '(null)' 0
+40 15 12500 P
+P USE 2202 100~
+#0
+
+
+
+#ROOMS
+#2200
+~
+~
+~
+0 0 0 0
+P GRALL 2200 100~
+S
+#2201
+`8Kys Rprog Test``~
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 2202
+P GRALL 2201 50~
+S
+#2202
+`8Test Program Room``~
+You're in a testing room. Strange shit is likely to happen here.
+~
+~
+0 8192 0 0
+D3
+~
+~
+0 0 2201
+P RANDOM 2202 25~
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 2202 1 2202 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#2200
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#2200
+if isimmort $n
+echoat $n You feel empowered with the wrath of Zharth.
+endif
+~
+#2202
+if rand 10
+    obj echoat $n Yeah right!
+else
+    obj echoat $n A rod of haste malfunctions!
+    obj case 'slow' $n
+endif
+~
+#0
+
+#ROOMPROGS
+#2200
+if rand 50
+echoat $n You feel an overcoming sense of ease at you enter this place.
+else
+echoat $n You feel the wrath of Zharth enter your brain. Perhaps you should leave.
+endif
+~
+#2201
+if rand 50
+room cast 'bless' $n
+else
+room cast 'curse' $n
+endif
+ 
+~
+#2202
+if rand 50
+     room echo `3The scent of fresh hay fills your nostrils.``
+else
+    room echo `6A cool breeze blows across your face.``
+endif
+~
+#0
+
+#$

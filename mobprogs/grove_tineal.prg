@@ -1,11 +1,11 @@
 >rand_prog 5~
 if rand(5)
         pmote breathes a heavy sigh.
-	say We are taking heavy losses in Val Miran, General.
+	say We are taking heavy losses in Revelsport, General.
 else
 if rand(5)
         salute general
-	say Our forces hold Val Miran, General Reyton.
+	say Our forces hold Revelsport, General Reyton.
 else
 if rand(5)
 	salute general
@@ -58,9 +58,9 @@ say Excellent, General. We look forward to crushing the factions of Chaos.
 salute general
 ~
 
->speech_prog p Excellent. Keep the guards posted in Val Miran. We need to keep with that objective.~
+>speech_prog p Excellent. Keep the guards posted in Revelsport. We need to keep with that objective.~
 nod general
-say Aye, General. Guards are holding Val Miran as we speak.
+say Aye, General. Guards are holding Revelsport as we speak.
 bow general
 ~
 

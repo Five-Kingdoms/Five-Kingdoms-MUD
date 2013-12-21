@@ -1,0 +1,1030 @@
+#AREADATA
+Name [MUSE]~
+Pref ~
+Builders None~
+VNUMs 16600 16699
+Max_Bastions 0
+Credits { ALL } Staff    [MUSE] ~
+Security 9
+Startroom 16600
+Flags 0
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#16601
+gnomish alchemist~
+A gnomish alchemist~
+A gnomish alchemist stands here, teaching a class.
+~
+A squat little man, with bedraggled hair, and sporting a pair of thick
+glasses is here, teaching a number of students sitting at desks.  His skin
+has been stained by countless years of contact with odd chemicals, and an
+odd odor seems to emenate from him.  In the faint light of the lab, you
+realize that this poor soul actually seems to glow in the dark.  He is
+living proof of the dangers of alchemy.  Every so often, a small seizure
+overtakes his body momentarily.  
+~
+gnome~
+ABLa A DFHIJ 0 0 0
+50 10 1000d2+3000 34d1+99 2d10+10 steam
+-30 -30 -30 -30
+EFKN AB 0 BEP
+stand stand male none~
+22
+AHMV ABCDEFGHIJK small 0
+P RANDOM 16601 20~
+#16602
+young elven elf caretaker~
+An elven caretaker~
+A young elf stands here, maintaining the tomes.
+~
+This young elf is probably older than you, but has been cooped up in this
+library since before he could walk.  He carries an armload of books and a
+feather duster, occasionally pausing for a moment to organize a shelf, or
+brush the dust of another.  
+~
+elf~
+AB A JP 0 0 0
+10 10 10d5+100 10d1+10 0d0+0 punch
+-1 -1 -1 -1
+FKN AB B Z
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#16603
+librarian~
+A grumpy librarian~
+A grumpy librarian sits at a desk, adjacent to a sign reading 'No Talking'.
+~
+The librarian sits at her desk, casting a perpetual scowl at everyone who
+walks by.  Her hair is pulled back and bound into a tight bun, giving her
+eyes a horrifying appearance.  A loose woolen shawl is drawn about her
+shoulders, and she smells vaugely of mothballs.  It is probably best not to
+get too loud in here.  Not while she's present, at least.  
+~
+human~
+ABL A DFHJ 0 0 0
+50 10 1000d2+3000 64d1+99 2d10+10 thwack
+-30 -30 -30 -30
+EFKN AB 0 E
+stand stand female none~
+21
+AHMV ABCDEFGHIJK small 0
+P RANDOM 16602 20~
+P SPEECH 16603 *~
+#16604
+nymph herbalist~
+A nymph herbalist~
+Concealed among the trees, a nymph is here, meditating silently.
+~
+Her eyes are closed in quiet meditation, and she radiates an almost
+tangible aura of peace.  She is clad rather scantily, wearing little more
+than a strategically wrapped cloth.  It is made of a thin, gauzy material,
+and doesn't seem to serve any sort of purpose except to conserve her
+modesty.  She notices your presence and opens her eyes.  
+~
+faerie~
+ABLa A DFHJPT 0 0 0
+50 10 1000d2+3000 5d1+99 2d10+10 steam
+-30 -30 -30 -30
+EFKN AB 0 E
+stand stand female none~
+17
+AHMV ABCDEFGHIJK small 0
+P RANDOM 16604 20~
+#16605
+Master Thespian~
+The master thespian~
+The master thespian is here, surrounded by adoring fans.
+~
+He is dressed exquisitely in crushed velvet and the softest of cotton.  A
+flowing cape hangs loosely from his shoulders.  He is rather handsome, and
+his wide smile exposes a set of perfectly straight and glistening white
+teeth.  His hands are raised over his head in a signal for praise, and young
+women clamor about him, clutching at his clothes, and thrusting pieces of
+paper into his face, hoping for an autograph.
+~
+elf~
+ABJKab A DFHJP 0 0 0
+50 10 1000d2+3000 24d1+99 2d10+10 slap
+-30 -30 -30 -30
+EFKN AB B Z
+stand stand male none~
+25
+AHMV ABCDEFGHIJK small 0
+P RANDOM 16605 20~
+#16606
+adoring fan young woman~
+an adoring fan~
+A young woman is here, clutching at the master thespian.
+~
+Wearing a tunic embroidered with the words "Master Thespian", this young
+woman lets out a shrill scream when he walks into the room.  She would be
+attractive save for the fact that she is crying and shaking uncontrollably. 
+She rudely pushes you out of the way, a piece of parchment and a quill held
+before her like a jousting lance.  
+~
+human~
+AB A JP 0 0 0
+10 10 10d5+100 10d1+10 0d0+0 slap
+-1 -1 -1 -1
+FKN AB B Z
+stand stand female none~
+9
+AHMV ABCDEFGHIJK medium 0
+#16607
+halfling bartender Ginder~
+Ginder~
+Partially hidden behind the bar, a halfling sells his goods.
+~
+You catch a glimpse of movement behind the bar, and as you lean over to
+investigate, a diminutive halfling jumps up on the bar, sending glasses and
+mugs clattering to the floor.  He is dressed simply, and his dark brown hair
+is rather unkempt.  He wears only a shoe on his left foot, the other one is
+bare and curiously missing it's big toe. 
+~
+halfling~
+ABL A DFHJ 0 0 0
+50 10 1000d2+3000 100d2+1000 2d10+10 beating
+-30 -30 -30 -30
+EFKN AB C E
+stand stand male none~
+23
+AHMV ABCDEFGHIJK small 0
+P RANDOM 16607 20~
+#16608
+tavern patron~
+a tavern patron~
+A tavern patron is here, partaking of the entertainment.
+~
+Sitting at one of the many tables, the patron orders a drink, and quaffs
+it in one go.  They are dressed well enough to meet the rather strict dress
+requirements placed by Ginder.  Some are just waiting for the next show to
+begin in the auditorium, while others are here to drown their sorrows.  
+~
+human~
+AB A JP 0 0 0
+10 10 10d5+100 10d1+10 0d0+0 punch
+-1 -1 -1 -1
+FKN AB B Z
+stand stand either none~
+6
+AHMV ABCDEFGHIJK medium 0
+#16609
+big burly feminine bouncer man~
+a feminine bouncer~
+A big, burly man stands here, preventing passage down the hallway beyond.
+~
+His arms are folded across his chest, and despite his large size, he
+doesn't seem too intimidating.  He speaks with a very noticeable lisp, and
+his choice in clothes is rather....  Feminine.  He is dressed in silk
+fineries, cut and sewn strategically to reveal a muscular physique.  
+~
+human~
+ABVZ A DFHJNO 0 0 0
+40 20 1d1+5000 0d0+100 6d4+40 slap
+-20 -20 -20 -20
+ADEFKW AB C 0
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+P GRALL 26 100~
+P FIGHT 16606 100~
+P EXALL 16600 down~
+P EXALL 16600 up~
+P EXALL 16600 west~
+P EXALL 16600 east~
+P EXALL 16600 north~
+#16610
+clerical worker~
+a clerical worker~
+A young clerical worker is here, filing papers.
+~
+He trudges about the room carrying large sheafs of paper to different
+sections of the room.  Occasionally he bends down to pick a scrap of rubbish
+off of the floor, or file a folder into one of the many file cabinets in the
+room, but mostly he just trudges.  
+~
+elf~
+AB A JP 0 0 0
+10 10 10d5+100 10d1+10 0d0+0 punch
+-1 -1 -1 -1
+FKN AB B Z
+stand stand male none~
+9
+AHMV ABCDEFGHIJK medium 0
+#16611
+old man Thalwin~
+Thalwin~
+A old man is here, dozing quietly, knee deep in rubbish.
+~
+He snores softly, gently rocking in his wooden chair.  Every so often, an
+object falls from a shelf, causing a loud crash, and sending the man falling
+from his chair.  His hair is a mess, and his robes are untidy and tattered
+in bits.  Nailed to the wall next to him is a small sign reading, 'Never
+trust a neat freak'.  
+~
+human~
+AL A DFHJ 0 0 0
+50 10 1000d2+3000 100d2+1000 2d10+10 punch
+-30 -30 -30 -30
+EFKN AB 0 E
+stand stand male none~
+25
+AHMV ABCDEFGHIJK small 0
+P RANDOM 16611 20~
+#16612
+young Museric student~
+a young Museric student~
+A young Museric student is here, partaking of a lecture.
+~
+This young Muse seems dedicated to his learning, focused intently on
+the lecture that the alchemist provides.  He holds a quill in hand, and jots
+down fervently on a pad of spiral-bound parchment on the table before him.  
+~
+human~
+A A JP 0 0 0
+10 10 10d5+100 10d1+10 0d0+0 punch
+-1 -1 -1 -1
+FKN AB B Z
+stand stand male none~
+8
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#16600
+wand wind's wings~
+a wand of the wind's wings~
+A wand made of a single white feather lies here.~
+feathers~
+wand B AO
+5 10 10 'fly' 0
+10 2 25 P
+#16601
+embossed leather sack~
+an embossed leather sack~
+An embossed leather sack~
+leather~
+container HU AO
+350 A 0 80 90
+10 20 12 P
+#16602
+elven quith-pa rations~
+a small bag of elven quith-pa rations~
+A small bag of elven quith-pa rations is here.~
+food~
+food U A
+48 48 0 0 360
+10 20 24 P
+#16603
+small creek~
+a small creek~
+A small creek trickles amoung the rocks, collecting into a small pool.~
+water~
+fountain 0 0
+-1 -1 'water' 0 0
+1 0 0 P
+#16604
+wand invigorating wind~
+a wand of invigorating wind~
+A wind of invigorating wind is here, gathering dust.~
+yew~
+wand A AO
+10 10 10 'invigorate' 0
+10 10 18 P
+#16605
+elven waterskin~
+an elven waterskin~
+A suede leather waterskin adorned with wildlife depictions is here.~
+tin~
+drink PU AO
+240 240 'water' 0 0
+10 50 11 P
+#16606
+orb protection sphere~
+the Orb of Protection~
+A large white orb sparkling with inner light.~
+glass~
+staff G AO
+10 10 10 'sanctuary' 0
+40 50 25 P
+#16607
+wand protection~
+the Wand of Protection~
+A small white wand sparkling with inner light.~
+glass~
+wand G AO
+15 5 5 'sanctuary' 0
+40 50 18 P
+#16608
+frantic fiddle~
+the frantic fiddle~
+A fiddle adorned with curious carvings lies here.~
+wood~
+instrument AB AN
+0 0 0 0 0
+30 50 25 P
+F
+A 19 2 0
+F
+A 18 2 0
+#16609
+brass harmonica~
+a brass harmonica~
+A brass harmonica emblazoned with flames lies here.~
+brass~
+instrument AB AN
+0 0 0 0 0
+40 50 250 P
+F
+A 24 -1 0
+F
+A 22 -5 0
+F
+A 13 50 0
+F
+A 12 50 0
+#16610
+gilded bagpipes~
+a set of gilded bagpipes~
+A set of bagpipes, gilded with gold and platinum lay here.~
+wool~
+instrument AB AN
+0 0 0 0 A
+50 100 500 P
+F
+A 13 50 0
+F
+A 12 50 0
+F
+A 20 -10 0
+F
+A 21 -5 0
+F
+A 24 -3 0
+#16611
+plush velvet chair~
+a plush velvet chair~
+Rows of plush velvet chairs are here, waiting to be sat in.~
+velvet~
+furniture 0 0
+0 0 0 0 0
+1 3000 0 P
+#16612
+scroll bounty~
+a scroll of bounty~
+A scroll adorned with a cornacopia is here.~
+vellum~
+scroll AN AO
+40 'create food' 'create food' 'create food' ''
+30 10 5 P
+#16613
+brightly colored velvet cape quills~
+a Cape of Quills~
+A brightly colored pile of velvet, adorned with feathers is here.~
+velvet~
+armor 0 AK
+10 10 10 5 0
+30 100 50 P
+F
+A 24 -2 0
+#16614
+ancient silk kimono embroidered~
+an Ancient Silk Kimono~
+A pile of old silk is here, heavily embroidered.~
+silk~
+armor AB AD
+12 9 9 9 0
+30 100 20 P
+F
+A 12 25 0
+#16615
+suede boots light feet~
+the Boots of Light Feet~
+A pair of suede boots are here, worn from travel.~
+leather~
+armor AB AG
+10 10 10 5 0
+45 50 75 P
+F
+A 14 50 0
+F
+S 106 5 0
+#16616
+leggings wayfayer leather~
+the Leggings of The Wayfarer~
+A set of leggings made of soft, supple leather is here.~
+leather~
+armor AB AF
+10 9 9 9 0
+30 50 75 P
+F
+A 24 -1 0
+F
+A 13 25 0
+F
+A 14 50 0
+#16617
+hat disguise nondescript~
+a Hat of Disguise~
+A hat is here, looking somewhat nondescript.~
+satin~
+armor 0 AE
+10 9 9 5 0
+30 50 100 P
+F
+S 246 5 0
+F
+S 118 5 0
+F
+S 472 5 0
+#16618
+wrappings cotton swathe~
+the Wrappings of Contemplation~
+A long swathe of cotton is here.~
+cotton~
+armor AB AD
+10 10 10 12 0
+45 50 75 P
+F
+S 344 5 0
+F
+S 343 5 0
+#16619
+amulet comeliness diamond~
+an Amulet of Comeliness~
+A glittering diamond amulet draws your attention.~
+diamond~
+armor AB AC
+9 9 9 9 0
+30 20 75 P
+F
+A 24 -1 0
+F
+S 448 5 0
+F
+A 12 25 0
+#16620
+quill platinum gold~
+a `&platinum`` and `#gold`` gilded quill pen~
+A quill gilded in platinum and gold is here.~
+feather~
+weapon ABH AN
+exotic 5 6 stab 0
+30 20 100 P
+F
+A 19 3 0
+F
+A 18 3 0
+#16621
+pit offering~
+a pit of offering~
+A large pit of offering has been built here.~
+unknown~
+container OT 0
+10000 0 0 10000 100
+60 0 10000 P
+#16622
+potion detect invis~
+a potion of detect-invisibility~
+A potion of detect-invisibility is here.~
+liquid~
+potion 0 AO
+10 'detect invis' 'reserved' 'reserved' 'reserved'
+20 0 5 P
+#0
+
+
+
+#ROOMS
+#16600
+`3Before the Great Library``~
+You find yourself beginning the ascent of a series of tall, white steps. 
+Atop them is a low-profiled building, of white marble and stone bricks of a
+matching hue.  It is nestled in a sparsely wooded area, causing the
+surrounding flora to appear to embrace the building lovingly.  Though the
+building stands in stark contrast to its surrounding environment, it seems
+as if the building itself compliments the land, rather than insult it.  A
+faint whisp of smoke can be seen rising from the building ahead of you.  
+~
+Through the night's stifling embrace, you leave the valley below and in
+the distance, and you find yourself at the base of a series of tall, white
+steps.  Lights burn within numerous windows, and the sound of life can be
+heard faintly from inside.  It is nestled in a sparsely wooded area, causing
+the surrounding flora to appear to embrace the building lovingly.  Though
+the building stands in stark contrast to its surrounding environment, it
+seems as if the building itself compliments the land, rather than insult it.
+A faint whisp of smoke can be seen rising from the building ahead of you. 
+~
+0 295698440 16400 4
+D2
+~
+~
+0 0 327
+S
+#16601
+`8Alchemical Laboratory``~
+High vaulted ceilings of this room are filled with gray smoke shifting
+lazily through the oak rafters.  The smell of burned wood and candle wax
+permeates the entire span of this long rectangular room.  Spaced evenly
+apart are several tall tables.  One table is lined with books and scrolls
+while others hold glass beakers, tubes and other tools of alchemy and
+sorcery.  Occasionally in the windowless room a bright flash inevitably
+highlights a young Muse blowing on burned fingers.  Centered in the room
+is a platform with a large chalkboard surrounded by several students
+awaiting a lecture.  
+~
+~
+0 295698444 2 0
+S
+#16602
+`8The Eternal Library``~
+This room is taller than the ones you have seen so far, nearly five time
+the height of an average man.  But the bookshelves that line it's walls are
+just as tall.  No space is wasted, and it would seem that every available
+inch is packed tightly.  Tall slender ladders of sturdy, steel-gilded oak
+slide on wheeled runners, enabling people to retrieve the tomes at the
+highest portions of the room.  A number of long wooden desks are arranged
+about the room, each lit with a simple wooden candelabra to aid in study.  A
+score of young elves walk about the room, arranging books properly, and
+dusting the less than popular sections.  
+~
+~
+0 295698444 2 0
+S
+#16603
+`2Garden of Contemplation``~
+Leaving the bustle of the civilized world behind, you find yourself in a
+tiny pocket of life.  There are no worked stone floors, no carved marble
+pillars here; only soft, untrimmed grass, and beautiful, flowering flora.  A
+small stream of crystal clear water trickles quietly through the room,
+collecting in a small pool at the far end.  Animals of every sort can be
+seen crawling, climbing, or flying about the area, sending a cacophany of
+noises into your ears.  The only item of unnatural origins that you can see
+is a small wooden stool, intricately carved.  Sitting upon the stool is a
+youthful looking nymph; her eyes closed in silent meditation.  
+~
+~
+0 295698436 65538 3
+S
+#16604
+`8The Grand Auditorium``~
+An amazing display of affluence, it would appear that no expense was
+spared in the construction and decoration of this grand theatre.  The walls
+have been hung with thick, plush, velvet, on top of which exquisite
+tapestries have been hung.  Long rows of comfortable seats extend from the
+walls, and face a raised stage on the far side of the room.  Heavy curtains
+of maroon velvet hang at its sides, and large oil lamps can be seen in
+semi-concealed alcoves along it's front edge.  A number of candelabras stand
+in the background, casting a warm light on the wooden floor.  
+~
+~
+0 295698444 2 0
+S
+#16605
+`8The Halflings's Toe``~
+Upon entering this room, you are assailed by a torrent of smoke, the
+smell of food, and the sound of many people having the time of their lives. 
+It is a relatively small room, but it's wooden floor has been packed to
+capacity with a great number of tables and chairs.  The walls of this room
+are of wooden panneling and decorated with tapestries, paintings, and
+curiousities from locations that span Thera.  A highly polished bar extends
+the width of the room, mounted by a gleaming brass rail running down it's
+length.  A number of stools are placed along the bar, behind which a large
+display case is mounted, holding a assortment of odd instruments.  
+~
+~
+0 295698444 2 0
+S
+#16606
+`8The Administrative Court``~
+This building is little more than a mass of heavy oaken desks, arranged
+in neat, orderly rows.  They seem to be organized into small groups of three
+to four desks, each with a small sign above them, labeled as such things as
+"Emissary", "Treasury", and "Security", among other things.  Each desk is
+occupied, and a stack of paperwork burdens each.  The room is a bustle of
+activity, and people walk to and fro carrying some matter of import.  
+~
+~
+0 295698444 2 0
+S
+#16607
+`8A Cluttered Storeroom``~
+The best way to describe this room is untidy at best.  Rows of shelves
+line the walls of this cramped room, each overburdened to bulging with
+trinkets of every sort.  Books, vials, sacks, and other miscellaneous items
+of no apparent value are scattered about the tiny room.  Occasionally, a
+loud jarring crash is heard, as a shelf finally submits to it's load, and
+sends its contents clattering to the floor.  A old man sits in a wooden
+chair, leaning back against the wall, and snoring quite loudly.  
+~
+~
+0 295698444 2 0
+S
+#16608
+`6Pitfall``~
+You stand before a large empty space with nothing but dusty air filling
+the void before you.  As you gaze down into the murky depths of the opening
+only the echos of small pebbles falling answers you.  
+~
+~
+0 362807304 2 9
+S
+#16609
+`2An Empty Garden``~
+You find yourself in an unattended garden its ground long overgrown with
+various species of weeds.  The growth reaches up to your waist and sways
+lightly with your passage.  
+~
+~
+0 362807304 32770 3
+S
+#16610
+`8Hall of Couriers``~
+This room is a behive of activity.  Numerous young men and women run
+around clutching important documents in their hands, and grabbing others
+from nearby desks.  Along a nearby wall is a rack of shelves, each labeled
+with it's owner's name and position.  The messengers toss scrolls into the
+shelves as they pass.  
+~
+~
+0 0 0 0
+S
+#16611
+`8A Guardhouse``~
+This small room houses a tiny desk and a small chair.  On the wall is
+hung a small charicature of someone of no significant hostorical importance,
+most likely someone who the occupant fancies.  It has been signed at the
+bottom in some curious blue-green ink.  A tinky oak music box rests upon the
+desk, and emits a pleasant tune.  
+~
+~
+0 0 0 0
+S
+#16612
+`8A Foyer``~
+This large chamber is dwarfed only by the one beyond.  Large vaulted
+ceilings and a large recess on either side house and give free movement to
+the immense oak doors that occupy them.  Bound in steel, it would appear
+that anyone attempting to open these doors without the permission of the
+guard would have a difficult time indeed.  
+~
+~
+0 0 0 0
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 16601 spec_keeper_stay
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 16612 1 16601 1
+M 0 16601 1 16601 1
+G 0 16622 0
+G 0 16604 0
+G 0 16606 0
+G 0 16607 0
+G 0 16600 0
+G 0 16612 0
+M 0 16602 1 16602 1
+M 0 16603 1 16602 1
+M 0 16604 1 16603 1
+O 0 16603 0 16603
+O 0 16611 0 16604
+M 0 16605 1 16604 1
+M 0 16606 1 16604 1
+M 0 16608 2 16605 2
+M 0 16607 1 16605 1
+G 0 16601 0
+G 0 16602 0
+G 0 16605 0
+G 0 16608 0
+G 0 16609 0
+G 0 16610 0
+O 0 16621 0 16605
+M 0 16610 1 16606 1
+M 0 16611 1 16607 1
+G 0 16613 0
+G 0 16614 0
+G 0 16615 0
+G 0 16616 0
+G 0 16617 0
+G 0 16618 0
+G 0 16619 0
+G 0 16620 0
+M 0 16609 1 16611 1
+S
+
+
+
+#SHOPS
+16601 36 3 2 4 10 100 100 0 23
+16607 0 0 0 0 0 100 100 0 23
+16611 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#16600
+if room $i != 16600
+or isimmort $n
+  break
+endif
+if cabally $n Muse
+  if isbloody $n
+    if affspell $n 'blindness'
+    or affspell $n 'death grasp'
+    or affspell $n 'plague'
+    or affspell $n 'poison'
+    or affspell $n 'dysentery'
+    or affspell $n 'enfeeblement'
+    or affspell $n 'vampire bite'
+      pmote glances at $N noticing the sickness.
+    else
+      'You're a mess!  Come back when you've cleaned yourself up, $N.
+      mob stop $n
+      break
+    endif
+  endif
+  if isdelay $i
+    break
+  else
+    mob delay 1
+    pmote looks at $N for a moment then bows slightly at the knees.
+    'Come in, Master Muse.  Welcome back.
+    break
+  endif
+else
+  pmote steps in front of $N.
+  say I don't think you belong in there, $N.
+  mob stop $n
+endif
+~
+#16601
+if rand 50
+  if rand 50
+    emote begins to twitch violently.
+    emote screams in agony as a large melon-sized boil emerges on his neck.
+    sa Well, poo.
+  else
+    smote Halfway through his lecture, a gnomish alchemist suddenly realizes he has grown a third arm.
+    emote stops talking and looks down at his new appendage.
+    sa Well, poo.
+  endif
+else
+  if rand 50
+    mob force young emote pauses from his studies for a moment, and looks up.
+    mob force young gasp
+    mob force young sa Um...Professor?
+    eyebr
+    emote looks down to find his hand has fallen off.
+    mob echo A gnomish alchemist's hand is now floating about, writing on the chalkboard autonomously.
+    sa Well, poo.
+  else
+    mob echo A loud "`8PHOOM``!" is heard and a bright flash of light blinds you temporarily.
+    mob echo The smoke dissipates, and the gnomish alchemist is no where to be seen.
+    mob echo A voice from among the rafters says '`#Well, poo.``'
+  endif
+endif
+~
+#16602
+if mobhere 16602
+  if rand 50
+    mob force caretaker emote climbs a steel-gilded ladder, his arms laden with books.
+    mob force caretaker emote screams loudly, and falls onto the ground, hard.
+    mob force caretaker emote shakes his head clear and looks up, just as a thick book hits him in the face.
+    mob force caretaker wince
+    pmote scowls at a young caretaker and throws an index finger to her lips.
+    sa SHHHHHHHHHHH!
+  else
+    mob force caretaker emote enters, carrying an heavy load of books.
+    mob force caretaker emote sighs loudly, and sets his burden on a nearby table.
+    mob force caretaker emote begins to place the books on the shelves.
+    emote looks up from her work.
+    sa Don't forget to file them away according to Lord Dewey's System.
+    mob force caretaker sigh
+  endif
+endif
+~
+#16603
+if isnpc $n
+  break
+endif
+if rand 30
+  pmote scowls at $n and throws an index finger to her lips.
+  sa SHHHHHHHHHHH!
+endif
+~
+#16604
+if rand 50
+  if rand 50
+    emote glances at you, a coy smile flashing across her face.
+    sa You have come for my healing touch?
+    emote runs a hand across her thigh.
+    sa No?  
+    sigh
+    sa Pity...
+  else
+    emote notices your presence and gasps in astonishment.
+    sa Oh!  My goodness.  You have caught me bathing...
+    sa Let me slip into something a little more appropriate.
+    mob echo You can faintly discern her dressing through the concealing brush.
+    sa That is, of course, unless you have objections to that?
+  endif
+else
+  if rand 50
+    emote looks around, and sighs softly to herself.
+    sa Alas, no one but Rotarx's beasts to keep me company.
+    emote notices your presence, and smiles.
+    sa Would you like to be my friend?
+    echo A wry smile crosses a nymph herbalist's face.
+  else
+    mob echo You can faintly hear a humming sound coming through the concealing brush.
+    sa Oh!  My goodness, you surprised me.
+    sa What am I doing?  Umm...erm...Nothing?
+    mob echo A nymph herbalist jumps up and comes into the clearing, her face flushed red.
+    emote fidgets with her hands uncomfortably.
+  endif
+endif
+~
+#16605
+if rand 50
+  if rand 50
+    emote struts about the room, a sly grin on his face.
+    mob force fan scream
+    mob echo An adoring fan yells '`6Thespian!  We love you!``'
+    sa Yes, yes...  I know.
+    emote cuffs an adoring fan on the chin.
+  else
+    emote struts about the room, a sly grin on his face.
+    mob force fan clutches at the master thespian, and her eyes roll back into her head.
+    mob force fan emote screams at the sight of her hero and faints.
+    emote sighs, and snaps his fingers.
+    mob echo A large man enters the room.
+    mob echo A large man hoists the adoring fan over his shoulders.
+    mob echo A large man opens a nearby door and carries the fan out of the room.
+  endif
+else
+  if rand 50
+    emote struts about the room, a sly grin on his face.
+    mob echo A legion of adoring fans burst into the auditorium.
+    mob echo Screams of '`6I love you``!' fill the air.
+    mob force fan emote clutches at a master thespian.
+    sigh
+    sa Who doesn't?
+    emote chuckles quietly to himself.
+  else
+    mob echo An obsessed fan bursts into the room.
+    mob echo An obsessed fan drives a dagger into the master thespian.
+    emote collapses to the ground in a bleeding pile.
+    mob force fan sa NOOOO!
+    emote stands up, a victorious smile on his face.
+    sa Do not fret!  I was not dead, I was merely...Acting!
+  endif
+endif
+~
+#16606
+if act $n raider
+and rand 10
+  mob echo A large boulder drops on $N from above.
+  qslay $n
+endif
+if isdelay $i
+  break
+else
+  cb $N is trying to break into the Great Library!
+  mob delay 1
+endif
+~
+#16607
+if rand 50
+  if rand 50
+    mob force tavern say Oi, Ginder!  Wot have ye got *toe* eat?'
+    mob force tavern emote falls off his chair and rolls around on the floor, laughing hysterically.
+    glare tavern
+    emote snaps his fingers and a large man enters the room.
+    mob echo The large man grabs the patron and escorts him outside.
+    mob echo You can faintly discern muffled slaps.
+  else
+    mob echo A rather rotund barmaid approaches one of the tavern patrons.
+    mob echo A rotund barmaid says '`#What can I get ya, hun?``'
+    mob force tavern sa Oi, Flo!    
+    mob force tavern sa Get me some toasted pumpernikel with butter, and kiss my grits.
+    mob force tavern emote slaps a rotund barmaid on her posterior as she leaves.
+  endif
+else
+  if rand 50
+    emote cleans a glass mug with a grubby dishrag.
+    mob force tavern sa Oi, Ginder!  No shoe, no service!
+    mob force tavern emote falls off his chair and rolls around on the floor, laughing hysterically.
+    emote trots up behind the tavern patron and shatters the mug over his head.
+    mob echo Ginder's smash `1devastates`` a tavern patron!
+    mob force tavern emote falls to the ground unconscious.
+  else
+    mob force tavern laugh ginder
+    emote digs behind a bar and retrieves a slender wand.
+    emote brandishes a slender wand at a tavern patron.
+    mob echo The smell of brimstone fills the air, and the tavern patron turns into a frog.
+    mob echo A rotund barmaid says '`#A Frog Prince!  He's mine!``'
+    mob echo A frog hops from the bar stool, and out the door, the rotund barmaid in close pursuit.
+  endif
+endif
+~
+#16609
+if rand 50
+  if rand 50
+    mob force worker emote trips over a desk leg, spilling his burden on the floor.
+    mob force worker emote gets up slowly, sighing to himself.
+    mob force worker emote stands up fully, and picks up the papers scattered on the floor.
+    mob force worker sa I hate this job.
+    mob force worker emote begins to trudge once more.
+  else
+    emote shifts his weight, a grimace of pain flashing across his face.
+    sa I don't know what it is about tights, and why they have to chaffe me so.
+    sigh
+    sa What I do to look good.
+    sa Sometimes I think it just isn't worth it.
+  endif
+else
+  if rand 50
+    look worker
+    sa What are you doing?
+    mob force worker boggle
+    mob force worker sa What does it look like I'm doing?!  I'm trudging!
+    sa Well, whatever it is you're doing, don't stop.
+    wink worker
+  else
+    mob force worker sigh
+    mob force worker emote pulls up a chair and sits down in it, tossing his burden onto the desk.
+    sa Shouldn't you be doing something right now?
+    mob force worker sa Hey...  Trudging is hard work.  Give me a break.
+  endif
+endif
+~
+#16611
+if rand 50
+  if rand 50
+    snore
+    emote leans back a little too far in his chair.
+    emote shouts in surprise as he topples over, and is buried under a pile of rubbish.
+    mob echo A muffled voice says '`#Umm...Give an old man a hand?``'
+  else
+    emote begins to talk to himself.
+    sa Damn.  Where has that damned thing gone?
+    emote rubs his chin thoughtfully.
+    sa Let's see...  I saw it while I was looking for the Holy Toothpicks of Bathador...
+    emote dives into a nearby pile of refuse, tossing things into the air behind him.
+  endif
+else
+  if rand 50
+    mob echo A loud crash erupts from the far side of the room.
+    emote stops snoring for a moment, and opens one eye.
+    emote glances casually around himself, and goes back to sleep.
+    emote mutters quietly to himself.
+  else
+    emote wakes up.
+    emote looks at you, a mischevious grin crossing his face.
+    say Sorry, I am closed.  Come back later.
+    grumble
+  endif
+endif
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

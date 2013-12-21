@@ -1,0 +1,2240 @@
+#AREADATA
+Name Frostwood Forest~
+Pref ~
+Builders Crypticant~
+VNUMs 6300 6399
+Max_Bastions 3
+Credits {20 30} Cryptica The Frostwood Forest~
+Security 9
+Startroom 6394
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#6305
+black reaper~
+A black reaper~
+A black reaper is here turning the forest into warzone.
+~
+You can see very little of this creature, not even enough to tell of its
+gender.  Fully cloaked in shifting ebony garments, this being travels
+through the forest with nothing but destruction on its mind.  Sent by an
+unknown force, its primary task is to slaughter the wildlife and flora of
+this ancient wood.  
+~
+undead~
+AGOd A JT 0 -400 0
+10 5 3d22+95 0d0+0 2d5+5 wrath
+6 6 6 8
+FN LQ I N
+stand stand none none~
+8
+0 ABCDEFGHIJK medium 0
+#6314
+chickadee~
+a chickadee~
+A pretty bird is perched on a limb here.
+~
+~
+human~
+A A T 0 0 0
+8 5 4d6+110 0d0+100 2d4+10 peck
+0 0 0 0
+F 0 0 0
+stand stand either none~
+7
+AHMV ABCDEFGHIJK medium 0
+#6320
+deer~
+a deer~
+A deer stands here, partially obscured by the forest.
+~
+~
+unique~
+Ad A 0 0 0 0
+10 10 4d6+370 0d0+100 4d6+10 slash
+0 0 0 0
+FI 0 0 0
+stand stand either none~
+10
+0 0 medium 0
+#6321
+stag~
+a stag~
+A stag stands here, grazing on shrubbery.
+~
+~
+unique~
+A A 0 0 0 0
+10 10 4d6+370 0d0+100 4d6+10 slash
+0 0 0 0
+FI 0 0 0
+stand stand either none~
+9
+0 0 medium 0
+#6324
+squirrel~
+a squirrel~
+A squirrel hops around from tree to tree here.
+~
+~
+unique~
+Ad A 0 0 0 0
+5 8 4d6+200 0d0+100 4d6+10 bite
+0 0 0 0
+F 0 0 0
+stand stand either none~
+8
+0 0 medium 0
+#6330
+A minor fade~
+A minor fade~
+A minor fade is here in service to the reapers.
+~
+~
+undead~
+ABGOe A JT 0 -100 0
+20 4 7d40+225 0d0+0 4d5+10 punch
+-2 -2 -2 4
+EFJ LQ I N
+stand stand none none~
+13
+0 ABCDEFGHIJK medium 0
+#6332
+cliff racer~
+A cliff racer~
+A massive cliff racer blocks out the sky with its manta wings.
+~
+~
+wyvern~
+ABGe 0 DFT 0 -100 0
+23 5 7d41+230 0d0+0 4d6+11 bite
+-3 -3 -3 1
+CFH L 0 S
+stand stand none none~
+0
+0 0 large 0
+#6341
+antelope~
+an antelope~
+An antelope rests in the grasses here.
+~
+~
+unique~
+Ad A 0 0 0 0
+20 10 2d7+71 0d0+100 2d4+20 stab
+0 0 0 0
+FH 0 0 0
+stand stand either none~
+16
+0 0 medium 0
+#6375
+Scarlet Reaper~
+A scarlet reaper~
+A scarlet reaper stands here its his pet.
+~
+Second in command to the High Reaper, this brand of wickedness has a
+particular job and postion within these dark forces, being the keepers of
+the spectral hounds.  Cloaked entirely in a red robe with a hood, you can
+see very little of this beings features, a fact which you are glad of.  
+~
+undead~
+ABGOe A DFJT 0 -300 0
+35 6 10d70+500 0d0+0 5d7+19 pain
+-12 -12 -12 -1
+HJ ABLQ I N
+stand stand none none~
+12
+0 ABCDEFGHIJK medium 0
+#6376
+spectral hound~
+A spectral hound~
+A spectral hound is here on a leash.
+~
+The thing you seen before you is the shape of a large blood-hound, though
+it obviously lacks the blood part of its name.  Almost opaque in appearance,
+it glimmers and flickers from one place to another, though always within the
+area of the chain connected to its collar.  
+~
+unique~
+ABGOe A DFJT E -200 0
+30 4 10d61+416 0d0+0 5d6+15 bite
+-9 -9 -9 -9
+HQ ALQ I N
+stand stand none none~
+14
+0 0 medium 0
+#6395
+clan guard guardian Frostwood ent~
+an Ent~
+A massive Ent guards the entrance to Sacred Oak Hall.
+~
+A gnarled tree is before you, its twisted trunk and branches giving it a
+more then coincidental similarity to a giant human.  A pair of green eyes
+hooded with thick eyebrows of bark studies you without a pause.  
+~
+human~
+ABCLTZ AC DFJ 0 0 0
+35 5 25d10+6000 0d0+100 6d6+10 pierce
+1 1 1 0
+FHKV AB 0 0
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+P BRIBE 6397 30000~
+P GRALL 6396 100~
+P EXALL 6395 east~
+#6397
+High Reaper Commander~
+The Reaper Commander~
+The High Reaper is here, commanding its troops from within the hut.
+~
+The massive creature before you is entirely covered in black robes of a
+shifting material.  Still, and silent, it is, boney arms crossed over its
+shallow chest, and head bowed beneath a hood.  Though no sound issues forth,
+you can sense the telepathic energy in the air around you, making it obvious
+that this thing commands its forces with its mind.  
+~
+undead~
+ABCGOZe A DFHJTV E -400 0
+45 10 10d125+751 0d0+0 5d8+18 none
+-17 -17 -17 -5
+0 ABLQ I N
+stand stand none none~
+22
+0 ABCDEFGHIJK medium 0
+#6398
+Silieus druid guildguard~
+Silieus the druid guild guardian~
+Silieus, the Druid Guildguard stands here, idly.
+~
+~
+human~
+ABZ A DHJ 0 0 0
+35 5 55d10+3000 0d0+100 6d6+10 punch
+-1 -1 -1 -1
+KV AB 0 0
+stand stand male none~
+16
+AHMV ABCDEFGHIJK medium 0
+P GRALL 12319 100~
+#6399
+Valoren druid guildmaster~
+Valoren~
+Valoren the Druid Guildmaster stands here in thought.
+~
+~
+human~
+ABJKZbe A DFJ 0 0 0
+60 45 100d1+2000 0d0+100 4d6+50 wrath
+-10 -10 -10 -10
+EFHJK AB 0 0
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#6304
+shrine Bracc altar~
+a shrine~
+A shrine in the shape of a snowflake has been placed here.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#6330
+Blood Stained Flail~
+a blood stained flail~
+A blood stained flail sits here on the ground.~
+iron~
+weapon 0 0
+flail 5 4 smash 0
+15 6 0 P
+#6341
+antelope meat~
+a slab of antelope meat~
+A slab of antelop meat.~
+meat~
+food 0 A
+10 10 0 0 20
+2 2 5 P
+#6350
+spring~
+a bubbling spring~
+A bubbling spring flows up from the earth here.~
+water~
+fountain 0 0
+-1 -1 'water' 0 0
+0 0 0 P
+#6360
+spring~
+a sink basin~
+A spring runs into a sink basin here.~
+iron~
+fountain 0 0
+-1 -1 'water' 0 0
+0 0 0 P
+#6362
+table~
+a dining table~
+A long, hand carved dining table is here, set for ten.~
+pine~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#6363
+headstone~
+the grave of Corrin~
+(`&Bright Aura``) A cross shaped headstone is here.~
+stone~
+furniture 0 0
+0 0 0 0 0
+50 0 5 P
+E
+headstone~
+"Here lies the tomb of Corrin, the Blessed of Tiradel, Leader
+of Templars. His death was a victory for Mirlan, and the light
+now forever holds this valiant elf in its arms. Rest well,
+Corrin, and sleep in peace."
+ 
+-= The Age of Kings =-
+~
+#6364
+bed~
+a bed~
+A bed and a dresser rest side by side here.~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#6365
+red raspberry~
+a red raspberry~
+A red raspberry is here on the ground.~
+unknown~
+food Sc 0
+6 0 0 0 0
+1 0 0 P
+#6368
+bed~
+a bed~
+A huge feather bed rests here against the wall.~
+geese~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#6370
+bed~
+a bed~
+A gigantic four poster bed is resting here, overstuffed with goose down.~
+duck~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#6391
+druid robe~
+(`2Green Aura``) The Robe of the Emerald Sect~
+A beautiful green robe in lying on the ground here.~
+cloth~
+armor 0 AD
+10 11 11 15 0
+0 50 100 P
+#6392
+white beard~
+a long white beard~
+Pray to an Immortal if you see this.~
+unknown~
+armor HMUZ Ad
+1 1 1 1 0
+0 5 100 P
+F
+A 4 3 0
+#6393
+Wild Raspberry Bush~
+a wild raspberry bush~
+A wild raspberry bush is growing at the edge of the clearing.~
+plant~
+container MTc P
+6 0 0 10 0
+1 0 0 P
+#6394
+oak tree~
+a massive oak tree~
+(`2Green Aura``) A massive oak tree is here.~
+wood~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#6395
+circle of runestones~
+a circle of runestones~
+A circle of basalt runestones is placed here.~
+basalt~
+furniture B 0
+0 0 0 0 0
+0 0 0 P
+#6397
+hearth~
+a hearth~
+(`!Crackling``) A hearth is here, burning with a merry flame.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+0 0 500 P
+#6398
+rocking chair~
+an aspen rocking chair~
+An aspen rocking chair is resting here.~
+wood~
+trash 0 0
+0 0 0 0 0
+0 0 500 P
+#6399
+Shroud Reaper~
+shroud of the Reaper~
+The Shroud of the Reaper sits here gathering dust.~
+wool~
+armor BGJSY AE
+10 8 10 10 0
+35 1 25 P
+#0
+
+
+
+#ROOMS
+#6300
+`3A beach along the Chill``~
+There is room enough here to step off the river and into the
+beginnings of the Frostwood Forest. A small path leads through
+a muddy beach into reeds and cress, that seems to snake further
+into the forest. The Frostwood looks as black as night from
+this vantage.
+~
+~
+0 0 8192 4
+D0
+~
+~
+0 0 6301
+D2
+~
+~
+0 0 3320
+D3
+~
+~
+0 0 6200
+S
+#6301
+`3A narrow, winding path in the hills``~
+You find yourself walking down a narrow path that leads into
+rolling, grassy hills. The breeze whistles through the tall
+grasses here, and the waves of grain arch with the wind. A
+fresh smell of pine and grass is in the air, and the sky is a
+deep, clear blue with few clouds. Sun warmed fields lie all
+around you.
+~
+~
+0 0 8192 4
+D1
+~
+~
+0 0 6302
+D2
+~
+~
+0 0 6300
+S
+#6302
+`3A narrow, winding path in the hills``~
+You find yourself walking down a narrow path that leads into
+rolling, grassy hills. The breeze whistles through the tall
+grasses here, and the waves of grain arch with the wind. A
+fresh smell of pine and grass is in the air, and the sky is a
+deep, clear blue with few clouds. Sun warmed fields lie all
+around you.
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 6303
+D3
+~
+~
+0 0 6301
+S
+#6303
+`3A path to the forest``~
+You are now walking down a small, but usable path that leads
+into a nearby forest. Tall pines and leavy green trees make a
+thick barrier to the forest, but the path leads true, and skirts
+the edge of the forest to enter somewhere else a bit deeper.
+Grasslands lie far behind you, and the air is clean and cool.
+~
+~
+0 0 32768 4
+D0
+~
+~
+0 0 6304
+D2
+~
+~
+0 0 6302
+S
+#6304
+`2The Edge of the Frostwood Forest``~
+You stand on the edge of a great forest. It reaches as far
+as the eye can see to the east and west, but seem to be mostly
+impassable in those directions. The trail leads on to the west,
+skirting the thickest looking parts of the trees, and seems
+to disappear further down the way.
+~
+~
+0 0 8192 3
+D2
+~
+~
+0 0 6303
+D3
+~
+~
+0 0 6305
+P GRALL 6303 100~
+P SPEECH 6304 worship~
+S
+#6305
+`2Skirting the Edge of the Frostwood Forest``~
+You stand on the edge of a great forest.  It reaches as far as the eye
+can see to the east and west, but seem to be mostly impassable in those
+directions.  The trail leads on to the east, skirting the thickest looking
+parts of the trees, and seems to disappear further down the way.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6306
+D1
+~
+~
+0 0 6304
+S
+#6306
+`2Within the Frostwood Forest``~
+The trail turns inward here, and you are now within the forest.
+Thick pine trees stand, hundreds of years old, and reach toward
+the deep sky above. Mainly a coniferous forest, the trees are
+well spaced, and the ground is thick with a carpet of fragrant
+pine needles that crunch as you walk on them.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6307
+D2
+~
+~
+0 0 6305
+S
+#6307
+`2Within the Frostwood Forest``~
+The trail turns inward here, and you are now within the forest.
+Thick pine trees stand, hundreds of years old, and reach toward
+the deep sky above. Mainly a coniferous forest, the trees are
+well spaced, and the ground is thick with a carpet of fragrant
+pine needles that crunch as you walk on them.
+~
+~
+0 0 16384 3
+D2
+~
+~
+0 0 6306
+D4
+~
+~
+0 0 6308
+S
+#6308
+`3A steep rock face``~
+You find yourself climbing upward on a steep rock face. The footing
+here is sure, and the climb is not as difficult as expected. The cool
+mountain air feels nice in comparison with the hot sun that beats
+down on you at this elevation. Above lies more rock face, and further
+up seems to be some sort of ledge.
+~
+~
+0 0 65536 5
+D4
+~
+~
+0 0 6309
+D5
+~
+~
+0 0 6307
+S
+#6309
+`3A steep rock face``~
+You find yourself climbing upward on a steep rock face. The footing
+here is sure, and the climb is not as difficult as expected. The cool
+mountain air feels nice in comparison with the hot sun that beats
+down on you at this elevation. Above lies more rock face, and further
+up seems to be some sort of ledge.
+~
+~
+0 0 16384 5
+D4
+~
+~
+0 0 6310
+D5
+~
+~
+0 0 6308
+S
+#6310
+`3The top of a steep rock face``~
+You stand at the top of a steep rock face. Below you a small portion
+of the Frostwood Forest lies, tall pine trees solid in the wind, and
+a thick carpet of pine needles greeting you. A fall from here would
+be fatal, you're pretty sure. North of you lies more alpine forest,
+and the scent of fragrant pine continues.
+~
+~
+0 0 8192 5
+D4
+~
+~
+0 0 6311
+D5
+~
+~
+0 0 6309
+S
+#6311
+`3At the edge of a great view``~
+You stand at a steep cornice that looks down on the beginnings of the
+Frostwood Forest. To your west lies a great valley that can be seen in
+the distance. Alpine peaks surround this vantage, and the mountain 
+air is cool and refreshing. The smell of fresh snow and pine fill
+your nostrils, and the hard granite underfoot crunches as you walk
+on it.
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 6312
+D5
+~
+~
+0 0 6310
+S
+#6312
+`2The Frostwood Forest``~
+You stand within the upper Frostwood Forest. This forest is perhaps one
+of the oldest forests in the lands, and a sect of druids once used
+to inhabit these lands, now long since departed. The Book of Damnil
+was actually unearthed in this very forest, kept in a hidden ruins
+somewhere in here, but which is now long since ruined from disuse.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 6314
+D2
+~
+~
+0 0 6311
+S
+#6313
+`8``~
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 6312
+S
+#6314
+`2The Frostwood Forest``~
+You stand within the upper Frostwood Forest. This forest is perhaps one
+of the oldest forests in the lands, and a sect of druids once used
+to inhabit these lands, now long since departed. The Book of Damnil
+was actually unearthed in this very forest, kept in a hidden ruins
+somewhere in here, but which is now long since ruined from disuse.
+~
+~
+0 0 16384 3
+D2
+~
+~
+0 0 6312
+D3
+~
+~
+0 0 6315
+S
+#6315
+`2The Frostwood Forest``~
+You stand within the upper Frostwood Forest. This forest is perhaps one
+of the oldest forests in the lands, and a sect of druids once used
+to inhabit these lands, now long since departed. The Book of Damnil
+was actually unearthed in this very forest, kept in a hidden ruins
+somewhere in here, but which is now long since ruined from disuse.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 6316
+D1
+~
+~
+0 0 6314
+S
+#6316
+`2The Frostwood Forest``~
+You are deep within the Frostwood Forest. Birds sing all around you,
+and the general feeling is that this forest is one long forgotten over
+time. It is peaceful here, and the sound of animals and bubbling water
+fill your ears as much as the scent of pine does. Trees here are thick
+and tall, and look easily hundreds of years old.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6319
+D1
+~
+~
+0 0 6317
+D2
+~
+~
+0 0 6315
+D3
+~
+~
+0 0 6318
+S
+#6317
+`2The Frostwood Forest``~
+You are deep within the Frostwood Forest. Birds sing all around you,
+and the general feeling is that this forest is one long forgotten over
+time. It is peaceful here, and the sound of animals and bubbling water
+fill your ears as much as the scent of pine does. Trees here are thick
+and tall, and look easily hundreds of years old.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6321
+D3
+~
+~
+0 0 6316
+S
+#6318
+`2The Frostwood Forest``~
+You are deep within the Frostwood Forest. Birds sing all around you,
+and the general feeling is that this forest is one long forgotten over
+time. It is peaceful here, and the sound of animals and bubbling water
+fill your ears as much as the scent of pine does. Trees here are thick
+and tall, and look easily hundreds of years old.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6320
+D1
+~
+~
+0 0 6316
+S
+#6319
+`2The Frostwood Forest``~
+You are deep within the Frostwood Forest. Birds sing all around you,
+and the general feeling is that this forest is one long forgotten over
+time. It is peaceful here, and the sound of animals and bubbling water
+fill your ears as much as the scent of pine does. Trees here are thick
+and tall, and look easily hundreds of years old.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6322
+D1
+~
+~
+0 0 6321
+D2
+~
+~
+0 0 6316
+D3
+~
+~
+0 0 6320
+S
+#6320
+`2The Frostwood Forest``~
+You are deep within the Frostwood Forest. Birds sing all around you,
+and the general feeling is that this forest is one long forgotten over
+time. It is peaceful here, and the sound of animals and bubbling water
+fill your ears as much as the scent of pine does. Trees here are thick
+and tall, and look easily hundreds of years old.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 6323
+D1
+~
+~
+0 0 6319
+D2
+~
+~
+0 0 6318
+S
+#6321
+`2The Frostwood Forest``~
+You are deep within the Frostwood Forest. Birds sing all around you,
+and the general feeling is that this forest is one long forgotten over
+time. It is peaceful here, and the sound of animals and bubbling water
+fill your ears as much as the scent of pine does. Trees here are thick
+and tall, and look easily hundreds of years old.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 6324
+D2
+~
+~
+0 0 6317
+D3
+~
+~
+0 0 6319
+S
+#6322
+`2The Frostwood Forest``~
+You are deep within the Frostwood Forest. Birds sing all around you,
+and the general feeling is that this forest is one long forgotten over
+time. It is peaceful here, and the sound of animals and bubbling water
+fill your ears as much as the scent of pine does. Trees here are thick
+and tall, and look easily hundreds of years old.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 6325
+D1
+~
+~
+0 0 6323
+D2
+~
+~
+0 0 6319
+D3
+~
+~
+0 0 6324
+S
+#6323
+`2The Frostwood Forest``~
+You are deep within the Frostwood Forest. Birds sing all around you,
+and the general feeling is that this forest is one long forgotten over
+time. It is peaceful here, and the sound of animals and bubbling water
+fill your ears as much as the scent of pine does. Trees here are thick
+and tall, and look easily hundreds of years old.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 6333
+D2
+~
+~
+0 0 6320
+D3
+~
+~
+0 0 6322
+S
+#6324
+`2The Frostwood Forest``~
+You are deep within the Frostwood Forest. Birds sing all around you,
+and the general feeling is that this forest is one long forgotten over
+time. It is peaceful here, and the sound of animals and bubbling water
+fill your ears as much as the scent of pine does. Trees here are thick
+and tall, and look easily hundreds of years old.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6399
+D1
+~
+~
+0 0 6322
+D2
+~
+~
+0 0 6321
+D3
+~
+~
+0 0 6363
+S
+#6325
+`2A small forest trail``~
+You are walking down a small forest trail leading out, or into, the
+Frostwood Forest. The trees seem to clear a bit here, and thin out into
+smaller, less grown pines. Grass is growing on the trail, and it looks
+very unused. It seems to lead downward to the north into a grassy
+alpine valley.
+~
+~
+0 0 65536 3
+D2
+~
+~
+0 0 6322
+D3
+~
+~
+0 0 6326
+S
+#6326
+`2A small forest trail``~
+You are walking down a small forest trail leading out, or into, the
+Frostwood Forest. The trees seem to clear a bit here, and thin out into
+smaller, less grown pines. Grass is growing on the trail, and it looks
+very unused. It seems to lead downward to the north into a grassy
+alpine valley.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 6327
+D1
+~
+~
+0 0 6325
+S
+#6327
+`2A small forest trail``~
+You are walking down a small forest trail leading out, or into, the
+Frostwood Forest. The trees seem to clear a bit here, and thin out into
+smaller, less grown pines. Grass is growing on the trail, and it looks
+very unused. It seems to lead downward to the north into a grassy
+alpine valley.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 6328
+D2
+~
+~
+0 0 6326
+S
+#6328
+`2A small forest trail``~
+You are walking down a small forest trail leading out, or into, the
+Frostwood Forest. The trees seem to clear a bit here, and thin out into
+smaller, less grown pines. Grass is growing on the trail, and it looks
+very unused. It seems to lead downward to the north into a grassy
+alpine valley.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6329
+D2
+~
+~
+0 0 6327
+S
+#6329
+`2A small forest trail``~
+You are walking down a small forest trail leading out, or into, the
+Frostwood Forest. The trees seem to clear a bit here, and thin out into
+smaller, less grown pines. Grass is growing on the trail, and it looks
+very unused. It seems to lead downward to the north into a grassy
+alpine valley.
+~
+~
+0 0 16384 3
+D2
+~
+~
+0 0 6328
+D3
+~
+~
+0 0 6330
+S
+#6330
+`2Before a clearing in the forest``~
+You stand before a small forest clearing. Large stones are resting in
+a circular array, cracked and broken with time. The trees have been
+trimmed back to form the clearing from the forest. The trees here are
+smaller, and the ground is thick with a carpet of grass and gravel rock
+that feel comfortable under your feet.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 6331
+D1
+~
+~
+0 0 6329
+S
+#6331
+`3A forest clearing``~
+You are within a forest clearing. The forest here was once cut back to
+allow placement of several large slabs of stone, perhaps used for druidic
+rituals. The are long since destroyed by wind and time, but the clearing
+maintains a feeling of sanctity and peace. Little more can be seen here,
+but the trail continues northward and southward.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 6332
+D2
+~
+~
+0 0 6330
+S
+#6332
+`3Before a grand valley``~
+You stand at the apex of a great valley. Thick, lush alpine meadows blanket
+the valley with beautiful tiny red and yellow flowers, and the chill wind
+gives you a feeling of freshness and peace. The valley leads downward over
+many rolling hills, and you do not see where the trail ends. The footing
+here is sure and safe, and the weather is so nice, you feel like relaxing
+for a peaceful afternoon nap.
+~
+~
+0 0 16384 5
+D2
+~
+~
+0 0 6331
+D5
+~
+~
+0 0 6341
+S
+#6333
+`2A broad path``~
+You are walking down a wide path toward a rising cliff. The path here has
+been carefully cleared out, and is very wide. It is well used, and the
+footsteps here seem like that of an ogre or giant. Very large, and very
+far apart. Sounds of the forest can still be heard all around you, and the
+sense is still of peace and nature.
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 6334
+D2
+~
+~
+0 0 6323
+S
+#6334
+`2A broad path``~
+You are walking down a wide path toward a rising cliff. The path here has
+been carefully cleared out, and is very wide. It is well used, and the
+footsteps here seem like that of an ogre or giant. Very large, and very
+far apart. Sounds of the forest can still be heard all around you, and the
+sense is still of peace and nature.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6335
+D1
+~
+~
+0 0 6390
+D3
+~
+~
+0 0 6333
+S
+#6335
+`3Before a sheer rock face``~
+You stand before a steep rock face. It only rises up a few spans, but high
+enough for the fall to be dangerous. The forest is thinner here, and the path
+behind you wide enough for a horse drawn carriage to pass through. The air here
+is still cool and clean with the smell of pine and sap.
+~
+~
+0 0 32768 5
+D2
+~
+~
+0 0 6334
+D4
+~
+~
+0 0 6336
+S
+#6336
+`3Upon a sheer rock face``~
+You stand amid a sheer rock face. It drops deep down into the forest area
+below. Northward is a grassy ledge that looks like a nice resting place.
+Birds fly here overhead, more curious that angry. The sense you get from this
+place is of peace and nature, far away from the rigors of civilization.
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 6337
+D5
+~
+~
+0 0 6335
+S
+#6337
+`3A wide, grassy ledge``~
+You are on a wide, grassy ledge large enough for you to lie down
+on. It seems like a resting point for climbers. The grass under you
+is soft and downy, and the ledge runs perhaps two spans east and west.
+The view from up here is nice, and a cool breeze ruffles your hair as
+you rest. The Frostwood Forest lies below.
+~
+~
+0 0 8192 5
+D0
+~
+~
+0 0 6338
+D2
+~
+~
+0 0 6336
+S
+#6338
+`3A wide, grassy ledge``~
+You are on a wide, grassy ledge large enough for you to lie down
+on. It seems like a resting point for climbers. The grass under you
+is soft and downy, and the ledge runs perhaps two spans east and west.
+The view from up here is nice, and a cool breeze ruffles your hair as
+you rest. The Frostwood Forest lies below.
+~
+~
+0 0 16384 5
+D2
+~
+~
+0 0 6337
+D4
+~
+~
+0 0 6339
+S
+#6339
+`3At the top of the rock face``~
+You stand at the top of a steep rock face. Deep handholds have been
+set into the rock large enough for a giant to use, and climbing was
+made easy. A large path lies north leading to a set of gates just
+beyond.
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 6340
+D5
+~
+~
+0 0 6338
+S
+#6340
+`3A wide path to a Manor``~
+You stand on a wide path that leads to a large manor just beyond a
+set of spiked iron gates. The path can easily fit a horse and carriage,
+but the forest you just came through would never allow it. The view
+from here is very beautiful, and you can see the expanses of the Raider
+Gap running from this vantage.
+~
+~
+0 0 8192 4
+D0
+~
+~
+0 0 6351
+D2
+~
+~
+0 0 6339
+S
+#6341
+`3Within a grassy valley``~
+You are walking down a steep grassy valley. Tiny alpine flowers are all
+around you. The air is rich with the fragrances of deer musk and the pine
+that still lingers from the forest. The grass here is thick and rich green
+from the amounts of sunlight and rain this place receives. A breeze blows
+up from the valley below, cooling you as you stand.
+~
+~
+0 0 65536 4
+D4
+~
+~
+0 0 6332
+D5
+~
+~
+0 0 6342
+S
+#6342
+`3Within a grassy valley``~
+You are walking down a steep grassy valley. Tiny alpine flowers are all
+around you. The air is rich with the fragrances of deer musk and the pine
+that still lingers from the forest. The grass here is thick and rich green
+from the amounts of sunlight and rain this place receives. A breeze blows
+up from the valley below, cooling you as you stand.
+~
+~
+0 0 32768 4
+D0
+~
+~
+0 0 6343
+D4
+~
+~
+0 0 6341
+S
+#6343
+`3Within a grassy valley``~
+You are walking down a steep grassy valley. Tiny alpine flowers are all
+around you. The air is rich with the fragrances of deer musk and the pine
+that still lingers from the forest. The grass here is thick and rich green
+from the amounts of sunlight and rain this place receives. A breeze blows
+up from the valley below, cooling you as you stand.
+~
+~
+0 0 8192 4
+D2
+~
+~
+0 0 6342
+D5
+~
+~
+0 0 6344
+S
+#6344
+`3Within a grassy valley``~
+You are walking down a steep grassy valley. Tiny alpine flowers are all
+around you. The air is rich with the fragrances of deer musk and the pine
+that still lingers from the forest. The grass here is thick and rich green
+from the amounts of sunlight and rain this place receives. A breeze blows
+up from the valley below, cooling you as you stand.
+~
+~
+0 0 16384 4
+D1
+~
+~
+0 0 6345
+D4
+~
+~
+0 0 6343
+S
+#6345
+`3A narrow trail in the center of the valley``~
+You catch up to the lost trail again. It's more of a game trail than
+anything else. Barely visible even from above, the trail winds and
+wanders about aimlessly, leading only deeper into the grassy valley.
+Antelope and deer are everywhere around here, grazing on the lush
+valley grasses and drinking from the fresh mountain water.
+~
+~
+0 0 8192 4
+D3
+~
+~
+0 0 6344
+D5
+~
+~
+0 0 6346
+S
+#6346
+`3A narrow trail in the center of the valley``~
+You catch up to the lost trail again. It's more of a game trail than
+anything else. Barely visible even from above, the trail winds and
+wanders about aimlessly, leading only deeper into the grassy valley.
+Antelope and deer are everywhere around here, grazing on the lush
+valley grasses and drinking from the fresh mountain water.
+~
+~
+0 0 65536 4
+D0
+~
+~
+0 0 6347
+D4
+~
+~
+0 0 6345
+S
+#6347
+`3Approaching the Raider Gap``~
+You are walking within the very bottom of the valley. It makes a direct
+course now, and the footing is soft due to a number of drainage streams
+that flow from the mountains. You walk with a careful squishing sound
+as the cold mountain water fills your boots. The wind here has died down
+a bit, though the mountain air is still cool and clean.
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 6348
+D2
+~
+~
+0 0 6346
+S
+#6348
+`3Approaching the Raider Gap``~
+You are walking within the very bottom of the valley. It makes a direct
+course now, and the footing is soft due to a number of drainage streams
+that flow from the mountains. You walk with a careful squishing sound
+as the cold mountain water fills your boots. The wind here has died down
+a bit, though the mountain air is still cool and clean.
+~
+~
+0 0 8192 4
+D1
+~
+~
+0 0 6349
+D2
+~
+~
+0 0 6347
+S
+#6349
+`3A breathtaking vantage``~
+You stand just off of the Raider Gap, a large rift that divides a good
+section of Thera. You can only see the far side of the chasm, a jutting
+canyon that slices down thousands of feet into the earth. It runs east
+and west as far as you can see, and is a rich red in color, making this
+a marvelous sight. Water still trickles underfoot, and seems to be coming
+from a spring just ahead.
+~
+~
+0 0 65536 4
+D1
+~
+~
+0 0 6350
+D3
+~
+~
+0 0 6348
+S
+#6350
+`3A Canyon Thoroughfare``~
+You stand before the Raider Gap. Looking below you see the ground fall
+away thousands of feet. A river runs in the bottom of the Chasm, and
+heads eastward at a good pace. There seems to be no feasible way of
+entering the canyon from here, anyway. A large spring bubbles up from
+the ground here, and pours over the edge of the Chasm with a liquid
+splatter. It runs clean and clear like any mountain spring.
+Northward, another large canyon, what must be an extension off of
+the Raider Gap, is chiseled into the earth.
+~
+~
+0 0 65536 4
+D0
+~
+~
+0 0 4933
+D3
+~
+~
+0 0 6349
+S
+#6351
+`3Before the Manor of the Ogre``~
+You stand before a large stone edifice. Rising up two floors, four, if you
+are a human, this manor seems to be placed in the middle of nowhere. It
+is ogre-made with hand hewn rocks and stones, and extremely well crafted.
+A large hand designed walkway leads to a door over twice the height of a
+human, and made from solid heart pine.
+~
+~
+0 0 8192 4
+D0
+~
+~
+0 0 6352
+D2
+~
+~
+0 0 6340
+S
+#6352
+`8The Front Walk``~
+You stand before a massive heart pine door. It is hewn with iron rods,
+and seems nearly impenetrable. The handle is solid wrought iron, and
+a large knocker of a lion with a ring in its mouth is placed in the
+center of the door. Do you knock? Or just try the handle?
+~
+~
+0 8 0 0
+D0
+~
+massive pine door~
+AB 0 6353
+D2
+~
+~
+0 0 6351
+S
+#6353
+`8Inside Smash's Manor``~
+You stand within a small room in the entrance to the Manor. The floors
+here are solid granite, smoothed from years of usage. The ceilings rise
+up several spans, and are all abeam with solid logs of pine, still knotty
+from their cut. The house is, however, cozy, if not a bit large. A long
+red runner of carpet leads down the hallway.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 6354
+D2
+~
+massive pine door~
+AB 0 6352
+S
+#6354
+`8The Audience Chamber``~
+You stand in a broad audience chamber. Several chairs of different sizes
+sit about the room, and heavy tapestries decorate the walls, nearly all
+murals of great battles lead by ogres. The smell of fresh cut pine fills
+the air, and while the place is large, and seemingly hand hewn, it is very
+neat and organized. Unusual for an ogre, indeed.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 6357
+D1
+~
+~
+0 0 6355
+D2
+~
+~
+0 0 6353
+D3
+~
+~
+0 0 6356
+S
+#6355
+`8An Art Room``~
+Murals! Tapestries! All of these things adorn the walls here, and cover the
+thick stone walls. They are rich gold and red colors, and all of the same
+artist, it seems. They are hung with care, and eye level to any giant or
+ogre who happens by. A small resting chair sits in the center of the room,
+dusty from disuse.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 6354
+S
+#6356
+`8A Practice Chamber``~
+This room is rather bare, save for a large rack of practice weaponry set
+against the far wall. Large hanging bags of sand are set on chains that
+hang from the ceiling, and all are beaten to a pulp. This seems to be some
+sort of practice room for the resident Ogre.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 6354
+S
+#6357
+`8Before a grand stairwell``~
+You stand at the foot of a solid rock staircase that leads up to the second
+floor of this manor. A thick wooden bannister, sturdy in its build, rests
+against the stairs. The place is well-lit by torches hung in wall sconces
+all up the stairs. They have been recently lit, and fill the house with the
+smell of burning wax.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 6359
+D1
+~
+~
+AB 0 6364
+D2
+~
+~
+0 0 6354
+D3
+~
+~
+AB 0 6365
+D4
+~
+~
+0 0 6358
+S
+#6358
+`8At the top of the Manor``~
+You stand at the top of the stairs. The rooms up here are much the same
+as below, only the ceilings here are apexed, in a deep 'V' design. All, of
+course, handmade. North and south is a long, wide hallway, and the runner
+under you is a thick black bearhide patched to several others.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 6366
+D1
+~
+~
+AB 0 6368
+D2
+~
+~
+0 0 6367
+D3
+~
+~
+AB 0 6369
+D5
+~
+~
+0 0 6357
+S
+#6359
+`8A wide hallway``~
+You are walking down a hallway wider than two human lengths. The ceilings
+rise up at least that high. The halls are well-lit by torches along the
+walls, and the place seems cozy...for an Ogre. Here, the walls are more
+of a white stone, hand carved, again, and placed to last the ages. No
+pictures or murals of any sort adorn the walls.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 6362
+D1
+~
+~
+0 0 6360
+D2
+~
+~
+0 0 6357
+D3
+~
+meat locker~
+ABM 0 6361
+S
+#6360
+`8The Kitchen``~
+You could call it a kitchen. A large butcher's table sits in the center
+of the room, bloody from recent use. A set of massive cutting knives and
+butcher's knives are resting against the walls on racks, and a bubbling
+spring provides clean water in a basin. The place is a mess, and reeks
+of fresh blood.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 6359
+S
+#6361
+`8A meatlocker``~
+You stand in an ice cold room! Thick blocks of ice are all around you,
+insulated with hay to keep them from melting. The corpses of several deer
+and antelope hang from thick hooks in the ceiling, all skinned, and waiting
+to be eaten. The place smells clean, and you shiver under your clothes.
+~
+~
+0 8 0 0
+D1
+~
+meat locker~
+ABM 0 6359
+S
+#6362
+`8The Dining Room``~
+You stand inside Smash's dining room. A long, hand carved wooden table spans
+the length of the room. Ten plates are set out on the table, all made of a thick
+pewter. Heavy forks and knives adorn the plates. A large ceiling chandelier made
+of elk horns hangs from the ceiling, and is lit by burning candles.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 6359
+S
+#6363
+`2A small grave``~
+You stand in a small forest clearing. Many lilac bushes have been
+purposefully planted here around a small fenced grave. A large head
+stone in the shape of a cross is set here, and the grounds are well
+kept and tended from falling leaves. An aura of peace surrounds this
+place.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 6324
+M 150 H 150
+S
+#6364
+`8A guest room``~
+You stand inside a humble guest room. Not nearly as spectacular as the
+rooms above you, but decent enough. The floors here are hardwood, and hand
+crafted by Smash himself. A few trophy heads of his kills from his hunts
+adorn the walls here, and several crossed swords and shields are bolted
+into the walls. A large bed and dresser is set against the far wall.
+~
+~
+0 8 0 0
+D3
+~
+~
+AB 0 6357
+S
+#6365
+`8A guest room``~
+You stand inside a humble guest room. Not nearly as spectacular as the
+rooms above you, but decent enough. The floors here are hardwood, and hand
+crafted by Smash himself. A few trophy heads of his kills from his hunts
+adorn the walls here, and several crossed swords and shields are bolted
+into the walls. A large bed and dresser is set against the far wall.
+~
+~
+0 8 0 0
+D1
+~
+~
+AB 0 6357
+S
+#6366
+`8A wide hallway``~
+You are walking down an upper hallway in the Manor. The stone here is
+the same white stone used below you, and hand hewn. The room is bright, and
+oddly, adorned with several growing plants on either side of the wall. They
+all seem healthy enough, and are blooming in various colored blossoms. South
+lies a small balcony, and the hallway continues to the north.
+~
+~
+0 8 0 0
+D0
+~
+~
+AB 0 6370
+D2
+~
+~
+0 0 6358
+S
+#6367
+`8A wide hallway``~
+You are walking down an upper hallway in the Manor. The stone here is
+the same white stone used below you, and hand hewn. The room is bright, and
+oddly, adorned with several growing plants on either side of the wall. They
+all seem healthy enough, and are blooming in various colored blossoms. South
+lies a small balcony, and the hallway continues to the north.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 6358
+D2
+~
+~
+0 0 6371
+S
+#6368
+`8A guest room``~
+You are inside a grand room, indeed. The ceilings here are high, and hand
+painted by some artisan to depict an ancient Ogre ritual of The Hunt. The floors
+here are covered with thick, warm hides, and a bed large enough for a giant,
+and stuffed with goosedown, rests against the far wall. A large picture window
+is set against the south wall, and provides a beautiful view.
+~
+~
+0 8 0 0
+D3
+~
+~
+AB 0 6358
+S
+#6369
+`8A guest room``~
+You are inside a grand room, indeed. The ceilings here are high, and hand
+painted by some artisan to depict an ancient Ogre ritual of The Hunt. The floors
+here are covered with thick, warm hides, and a bed large enough for a giant,
+and stuffed with goosedown, rests against the far wall. A large picture window
+is set against the south wall, and provides a beautiful view.
+~
+~
+0 8 0 0
+D1
+~
+~
+AB 0 6358
+S
+#6370
+`8Smash's Room``~
+You stand amid the largest room in the household. Towering pillars meet the
+ceiling here, and all are hand carved from whitestone. Large trophy mounts of
+wild animals adorn the walls, and the floors are decorated with hides of all
+sorts of wildlife. Lions, tigers, antelope, deer, elk. There is a gigantic
+four poster bed resting against the back wall, and a great picture window
+to the south overlooks the Grand Chasm, and the valley.
+~
+~
+0 8 0 0
+D2
+~
+~
+AB 0 6366
+S
+#6371
+`8A wide hallway``~
+You are walking down an upper hallway in the Manor. The stone here is
+the same white stone used below you, and hand hewn. The room is bright, and
+oddly, adorned with several growing plants on either side of the wall. They
+all seem healthy enough, and are blooming in various colored blossoms. South
+lies a small balcony, and the hallway continues to the north.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 6367
+D2
+~
+~
+0 0 6372
+S
+#6372
+`8A scenic balcony``~
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 6371
+S
+#6374
+~
+This side room of the hut is rather small, and the company found within
+less than pleasant.  Tattered curtains cover the only windows in the room,
+blocking out all forms of natural light.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 6397
+S
+#6375
+`8Within the hut``~
+This side room of the hut is rather small, and the company found within
+less than pleasant.  Tattered curtains cover the only windows in the room,
+blocking out all forms of natural light.  
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 6397
+S
+#6390
+`2A meandering path``~
+You find yourself walking down a grassy, meandering path within the forest
+of Frostwood. Birds sing pleasant lullabies in the trees, and forest larks dance
+with abandon among the boughs of the oak and maple trees. A true feeling of
+peace and serenity fills the air, and the smell of woodsmoke fills your
+nostrils from nearby.
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 6391
+D3
+~
+~
+0 0 6334
+S
+#6391
+`2A meandering path``~
+You find yourself walking down a grassy, meandering path within the
+forest of Frostwood.  Birds sing pleasant lullabies in the trees, and forest
+larks dance with abandon among the boughs of the oak and maple trees.  A
+true feeling of peace and serenity fills the air, and the smell of woodsmoke
+fills your nostrils from nearby.  
+~
+~
+0 0 65536 3
+D2
+~
+~
+0 0 6392
+D3
+~
+~
+0 0 6390
+S
+#6392
+`8A meandering path``~
+You find yourself walking down a grassy, meandering path within the
+forest of Frostwood.  Birds sing pleasant lullabies in the trees, and forest
+larks dance with abandon among the boughs of the oak and maple trees.  A
+true feeling of peace and serenity fills the air, and the smell of woodsmoke
+fills your nostrils from nearby.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 6391
+D1
+~
+~
+0 0 6393
+S
+#6393
+`2A forest clearing``~
+You stand within a clearing in the forest. It is not as if the trees have
+actually been cut from here, but more as if they have shied away in reverence
+to the grand oak tree that stands in the center of the grove. The massive
+tree glows with natural reverence, and the room exudes a feeling of natural
+peace and harmony in nature. You feel much healthier.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 6394
+D3
+~
+~
+0 0 6392
+S
+#6394
+`2The Grove``~
+You stand now in the center of the Ancient Grove. A colossal oak trees is
+deeply rooted here in the center of the clearing, its branches reaching far
+out to the edges of the giant grove. Larks and chickadees fill the air around
+the tree, basking in the warmth of the forest sun, and the peace that is
+quite evident around here. The scent of woodsmoke has grown much stronger.
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 6395
+D3
+~
+~
+0 0 6393
+M 120 H 120
+S
+#6395
+`2Among Runestones``~
+You stand at the edge of the grove, where fifteen large basalt runestones
+have been placed at angles. The seem to be built in coordination with the
+sun, so that during Equinox, the Runestones reflect the sun, and give an
+exact reading of the time. The have been carefully carved from rich black
+basalt, and placed here with definite purpose.
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 6396
+D3
+~
+~
+0 0 6394
+S
+#6396
+`2Before a Hut``~
+You have found the source of the woodsmoke scent. A small thatched hut is
+built here. Rather humble, it is made of thin wood, and reinforced with a
+thick grass and mud. A small brick chimney sprouts from its roof, and grey
+smoke issues out from a fire burning inside.
+~
+~
+0 0 16384 3
+D1
+~
+thatch~
+AB 0 6397
+D3
+~
+~
+0 0 6395
+S
+#6397
+`8Within a Hut``~
+Though a fire is lit for warmth, it does little to actually provide heat
+against the chilling company found lurking in this hut.  The shadows flicker
+and dance upon the walls around you, giving the place an even more sinister
+appearance.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 6398
+D1
+~
+~
+0 0 6375
+D2
+~
+~
+0 0 6374
+D3
+~
+~
+AB 0 6396
+S
+#6398
+`8Within a hut``~
+This side room of the hut is rather small, and the company found within
+less than pleasant.  Tattered curtains cover the only windows in the room,
+blocking out all forms of natural light.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 6397
+S
+#6399
+`2Before the Grove``~
+You stand within a lovely, and peaceful druid grove. All around you large
+oak trees flourish in the warmth of the sunlight that pours in. A feeling
+of natural peace overwhelms you here, and you feel as if you are one with
+nature. In that light, it seems that your health and mana increase at a
+rapid rate here in the Grove.
+~
+~
+0 362807296 69632 3
+D2
+~
+~
+0 0 6324
+M 150 H 150
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+O 0 6304 0 6304
+M 0 6305 12 6305 1
+M 0 6314 2 6306 12
+M 0 6314 2 6311 12
+M 0 6305 12 6312 1
+M 0 6320 2 6316 8
+M 0 6320 2 6317 8
+M 0 6314 2 6317 12
+M 0 6305 12 6317 1
+M 0 6320 2 6318 8
+M 0 6324 2 6319 10
+M 0 6330 16 6319 1
+M 0 6320 2 6320 8
+M 0 6320 2 6321 8
+M 0 6324 2 6321 10
+M 0 6314 2 6321 12
+M 0 6330 16 6321 1
+M 0 6305 12 6321 1
+M 0 6330 16 6322 1
+M 0 6330 16 6323 1
+M 0 6320 2 6324 8
+M 0 6324 2 6324 10
+M 0 6398 1 6324 1
+M 0 6305 12 6324 2
+M 0 6330 16 6324 1
+M 0 6305 12 6325 2
+M 0 6330 16 6325 1
+M 0 6330 16 6326 1
+M 0 6330 16 6327 1
+M 0 6330 16 6328 1
+M 0 6330 16 6329 1
+M 0 6330 16 6330 1
+E 0 6330 0 17
+M 0 6332 14 6331 1
+M 0 6332 14 6332 1
+M 0 6330 16 6333 1
+M 0 6330 16 6334 1
+M 0 6332 14 6341 1
+M 0 6341 2 6341 10
+G 0 6341 0
+M 0 6332 14 6342 1
+M 0 6341 2 6342 10
+G 0 6341 0
+M 0 6332 14 6343 1
+M 0 6341 2 6343 10
+G 0 6341 0
+M 0 6332 14 6344 1
+M 0 6341 2 6344 10
+G 0 6341 0
+M 0 6332 14 6345 1
+M 0 6332 14 6346 1
+M 0 6332 14 6347 1
+M 0 6332 14 6348 1
+M 0 6332 14 6349 1
+M 0 6332 14 6350 1
+O 0 6350 0 6350
+M 0 6321 1 6350 1
+O 0 6360 0 6360
+O 0 6362 0 6362
+O 0 6363 0 6363
+O 0 6364 0 6364
+O 0 6364 0 6365
+O 0 6368 0 6368
+O 0 6368 0 6369
+O 0 6370 0 6370
+M 0 6375 6 6374 1
+M 0 6376 6 6374 1
+M 0 6375 6 6375 1
+M 0 6376 6 6375 1
+M 0 6330 16 6390 1
+M 0 6330 16 6391 1
+M 0 6330 16 6392 1
+O 0 6393 0 6393
+P 0 6365 6 6393 6
+M 0 6375 6 6394 1
+M 0 6376 6 6394 1
+O 0 6394 0 6394
+M 0 6375 6 6395 1
+M 0 6376 6 6395 1
+O 0 6395 0 6395
+M 0 6375 6 6396 1
+M 0 6376 6 6396 1
+M 0 6397 1 6397 1
+E 0 6399 0 6
+M 0 6375 6 6398 1
+M 0 6376 6 6398 1
+M 0 6399 1 6399 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#6303
+~
+#6395
+if isnpc $n
+  break
+endif
+if isbloody $n
+  'You cannot enter with blood still upon you $N!
+  mob stop $n
+  break
+endif
+if clan $n 'sacred oak'
+  salute $n
+else
+  mob stop $n
+  pmote stands before $n barring the way.
+  'Over my dead body $N.
+endif
+~
+#6396
+if isnpc
+or clan $n 'sacred oak'
+  break
+endif
+if isneutral $n
+  tell $n If you seek to join Sacred Oak the cost is 30000 gold.
+endif
+~
+#6397
+if isnpc
+or clan $n 'sacred oak'
+  give 1.gold $n
+  'You're already a member $N.
+  break
+endif
+if isneutral $n
+  clan draft $n Sacred Oak
+  'Welcome to the halls of Sacred Oak $N.
+  mob junk all
+else
+  'You are not welcome in Sacred Oak $N.
+  give 1.gold $n
+endif
+~
+#0
+
+M 6314 0 chickadee.prg NL
+M 6320 1 banor_deer.prg NL
+M 6321 1 banor_deer.prg NL
+M 6324 1 banor_squirrel.prg NL
+M 6341 1 antelope.prg NL
+M 6398 0 serin_shaman.prg NL
+M 6398 0 serin_guild.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#6303
+if hasquest $n 'Discovered the Shrine to Bracc in the Frostwood Forest'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Bracc!``
+    room permquest $n Discovered the Shrine to Bracc in the Frostwood Forest
+endif
+~
+#6304
+room echoat $n The frozen hands of Bracc pass over you and you sense his presence for a moment as you worship at his altar.
+~
+#0
+
+#$

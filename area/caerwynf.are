@@ -1,0 +1,3408 @@
+#AREADATA
+Name Fortress of Caerwyn~
+Pref ~
+Builders Crypticant~
+VNUMs 2600 2799
+Max_Bastions 2
+Credits {20 50} Crypticant Fortress of Caerwyn~
+Security 9
+Startroom 2600
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#2600
+djinni statue~
+a djinni statue~
+A djinni statue stands guard here.
+~
+From the elemental plane of magic, the djinni phases.  One moment it blinks
+into existence and at another it disappears.  It stands guard here, guarding
+against any possible intruders.
+~
+human~
+AGSe A DFJ 0 0 2600
+20 0 10d3+333 0d0+100 5d5+0 none
+-4 -4 -4 -4
+KN 0 0 0
+stand stand none none~
+11
+AHMV ABCDEFGHIJK medium 0
+#2601
+guard Crimson Horde Crimson Horde~
+a guard of the Crimson Horde~
+A guard of the Crimson Horde stands ready for action.
+~
+A muscular guard with huge fists stands before you.  Upon his right cheek is
+tattooed with a Crimson Cross  indicating that he is one of the elite 
+guards that watch Caerwyn and its nasty inhabitants.  He seems battle
+weary and tired as the black blood on his armor would further indicate.
+However, you notice that his eyes are extremely funny looking ..as if
+they aren't really his.  Something about him makes you wary.
+~
+human~
+AGHS A DFJ 0 -750 2601
+20 10 3d9+333 0d0+100 5d5+0 slash
+-6 -6 -6 -6
+CEKU A 0 0
+stand stand male none~
+15
+AHMV ABCDEFGHIJK medium 0
+#2602
+shadow gorgon~
+a shadow gorgon~
+A figment of your worst nightmare is here.
+~
+Barely detectable, when you get up close you realize that this thing is
+as ugly as anything you ever imagined.  It resembles more of a shadow 
+than anything else - nothing physical.
+~
+human~
+AGTe A DFJ 0 -750 2602
+25 20 10d5+950 0d0+100 3d9+8 claw
+-10 -10 -10 -10
+DFN AB 0 0
+stand stand female none~
+18
+AHMV ABCDEFGHIJK medium 0
+#2603
+crazed battle dwarf~
+a crazed battle dwarf~
+A dwarf is here with feverish eyes.
+~
+With a glimmer of yellow in his eyes, you notice that there is little or no
+sanity left on this poor dwarf.  His beared is unkept and very dirty as his
+gnarled hands are brown.
+~
+human~
+AGTe A DFHJ 0 0 2603
+30 20 6d12+853 0d0+100 3d10+10 none
+-9 -9 -9 -9
+CK 0 C R
+stand stand male none~
+16
+AHMV ABCDEFGHIJK medium 0
+#2604
+Cirluin white ~
+Cirluin the Mooncaster~
+Cirluin, dressed all in white stands heavily upon her staff.
+~
+You can barely see her face though you can tell that she has smooth skin 
+and an ageless look about her.  Upon her sleeve she has the symbol of the 
+Conclave of the High Moons which is made up of the good wizards in the
+land. She has traveled here for a very important reason though it remains
+to be seen what.
+~
+human~
+AG A DHJNUV 0 750 2604
+44 30 25d10+2750 0d0+100 6d8+40 magic
+-15 -15 -15 -15
+K A B E
+stand stand female none~
+20
+AHMV ABCDEFGHIJK small 0
+#2605
+groundsmaster~
+the Groundskeeper~
+The Groundskeeper is here keeping watch.
+~
+A retired dwarven soldier is here watching the surrounding area for anything
+suspicious. Once a champion of the axe, he now uses his trained and 
+experience eye to detect danger.
+~
+human~
+AGSe A DFJ 0 0 2605
+23 10 5d10+450 0d0+100 0d0+0 wrath
+-6 -6 -6 -6
+KN 0 0 0
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#2606
+fire drake~
+a fire drake~
+A Fire Drake flies about here with flames spewing from its nostrils.
+~
+A miniature version of a dragon, it flies about spouting fire and making 
+an awful raucus with its screaming.  Its fiery red eyes seem to course in
+anger and hatred as it glares at passerbyes.
+~
+unique~
+AGTe A DFJT 0 0 2606
+28 10 6d12+703 0d0+100 6d5+10 bite
+-8 -8 -8 -8
+DF 0 H I
+stand stand none none~
+15
+B ABCDEF medium 0
+#2607
+justicier~
+A Justicier~
+A Justicier dressed in red armor defends against evil.
+~
+Dressed in crimson armor tinged with a slight trace of gold, he is here for
+the protection of Caerwyn and the good of the people.  Blessed by the
+good King Mearasom, he as been chosen to be among the elite ... masters
+of weaponry and the art of war.  
+~
+human~
+AGHT A DFJ 0 0 2607
+33 15 10d10+1100 0d0+100 3d11+10 slash
+-10 -10 -10 -10
+CDEKU 0 0 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#2608
+mist wraith~
+a mist wraith~
+A mist wraith stands here fading in and out of sight.
+~
+Cursed to live for all eternity, this shadow of an evil soul continually
+searches for others to feed on.  A magical aura surrounds it, as you edge
+nearer you feel as your life is being drained from you.
+~
+human~
+AFGORd A BDFJU 0 -750 2607
+13 10 6d2+120 0d0+100 2d8+0 drain
+0 0 0 0
+FIK 0 ACILQ N
+stand stand none none~
+9
+AHMV ABCDEFGHIJK medium 0
+#2609
+Caerwyn armored statue~
+an armored statue~
+An armored statue stands here
+~
+Made of shiny steel armor, it seems impervious to any form of physical 
+attack. It stands here unmoving - almost dead.
+~
+human~
+AGTe A DFHJV 0 0 2608
+37 20 10d10+1500 0d0+100 4d10+10 blast
+-15 -15 -15 -15
+CDEJKN A 0 0
+stand stand none none~
+14
+AHMV ABCDEFGHIJK large 0
+#2610
+anti-paladin legion leader~
+the leader of the anti-paladin legion~
+A highly decorated anti-paladin is here with his arms and legs in chains.
+~
+Dressed in blackened armor, the skull-like face of this fearless hero of
+anti-paladins brings fear to all who oppose or look upon him.  He was 
+accountable for countless death's in the dwarven battle of Hoborden and
+the elvish war in Lenrathil.  Seemingly invincible, he was finally defeated
+and captured by the young elven warrior Menthalas.
+~
+human~
+AGTe A DHJO 0 -750 2610
+42 20 10d10+3200 0d0+100 5d12+15 slash
+-5 -5 -5 -5
+CFJKN A 0 0
+stand stand male none~
+15
+AHMV ABCDEFGHIJK medium 0
+#2611
+Drstam~
+Drstam~
+A powerful man in chains is seen here.
+~
+A powerfully built man, he deemed a threat to the world when he lead a 
+crusade of evil warrior against the humans of the north east mountains. 
+During that time, he worshiped the Dark Lord where he gained greater
+power. Under his direction, he commanded the 7 Shadow-winged Steeds of the
+Nameless and slew the good wizard Faedran.
+~
+human~
+AGTe A DFHJ 0 0 2611
+48 30 25d10+3750 0d0+100 4d15+60 beating
+-10 -10 -10 -10
+CDEKX AB 0 0
+stand stand male none~
+19
+AHMV ABCDEFGHIJK medium 0
+#2612
+shadow wraith~
+a shadow wraith~
+A formless shape is kneeling here, serving its dark master.
+~
+Taking on a surreal translucent form, it is in no way a physical being of 
+this realm.  Once a servant, it now is a rider of the dreaded shadow steeds
+upon which grim tidings bring.  Imprisoned by arcane runes of power it is
+imprisoned for all eternity.  
+~
+human~
+AGOe A DFHJV 0 -750 2611
+43 20 25d10+2500 0d0+100 5d8+30 pierce
+-15 -15 -15 -15
+EFK AB ILQ N
+stand stand none none~
+21
+AHMV ABCDEFGHIJK medium 0
+#2613
+Brenhwyvar cleric~
+Brenhwyvar~
+A huge cleric is here, surrounded by an arcane forcefield.
+~
+The darkest cleric of the ages sits here before you.  Being part of the
+clan Trenden'Ayila, he was born into the darkness.  Right away, he was His
+favorite disciple and was favored and given unimagineable power by any
+mortal standard.  Guilds upon guilds of goodly clerics fell before His name.
+~
+human~
+AGe A DFHJOTV 0 -750 2613
+46 25 10d25+3250 0d0+100 6d8+30 crush
+-16 -16 -16 -16
+DK AB 0 0
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+#2614
+Ammodean elf~
+Ammodean the Elf Hero~
+Ammodean the Elf Hero is here, investigating the area.
+~
+Although young for a man of his stature in elven history, he seems to have
+a wisdom far beyond his years.  His talent has already made him a feared
+soldier and is beginning to associate into the tasks of the great Wizards.
+He is here with Cirluin of the great conclaves to investigate the situation
+at hand.
+~
+elf~
+AGTd A HJP 0 750 2614
+40 20 15d10+2250 0d0+100 4d12+10 flbite
+-12 -12 -12 -12
+DEFKN A ABC Z
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+#2615
+avatar ancient~
+an avatar~
+An ancient looking avatar is here, waiting for the awakening.
+~
+He looks extremely tired - as if he has been here for ages doing the
+exact same thing.  He is dressed in a complete wardrobe of ....black.
+~
+human~
+AGRe A DFJ 0 0 0
+45 0 1d1+1000 0d0+100 1d20+10 none
+0 0 0 0
+0 ABM 0 0
+stand stand none none~
+23
+AHMV ABCDEFGHIJK medium 0
+#2663
+golem gate city !gategolem!~
+gate golem~
+A gate golem stands motionless, awaiting your decision.
+~
+Motionless, silent, the giant mechanical being stands before you
+with its unblinking eyes awaiting your decision.  Its metalic surface
+covered with humming runes, it awaits your payment to active the gate
+and send you on your way.
+~
+human~
+ABLZe A DFJ 0 0 0
+60 50 100d50+12000 0d0+100 6d8+70 pound
+-20 -20 -20 -20
+FK 0 D 0
+stand stand none none~
+24
+AHMV ABCDEFGHIJK large 0
+#2718
+rathe's minion~
+Rathe's minion~
+A minion of Rathe stands here rotting slowly.
+~
+Already in the later stages of decay this zombie stands festering. 
+Staring at you through hollow eyes you get the distinct feeling that someone
+is using those eyes for their own gain.  Ragged and maggot-ridden you would
+expect nothing less gross from a servant of the Scourge god.  
+~
+human~
+Ae A D K -750 0
+60 0 50d10+4000 0d0+0 2d40+10 beating
+3 3 3 2
+FIJKN ABJL 0 0
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 12343 slay~
+P SPEECH 12342 ignore~
+P SPEECH 12341 let~
+P SPEECH 12340 flee~
+P SPEECH 12339 wait~
+P SPEECH 12338 rush~
+P SPEECH 12336 steal~
+P SPEECH 12335 take~
+P SPEECH 12334 leave~
+P SPEECH 12333 attack~
+P SPEECH 12332 tell~
+P SPEECH 12331 ask~
+P GREET 12320 100~
+P SPEECH 12327 key~
+P SPEECH 12328 snake~
+#2719
+paladin~
+Tiradel's paladin~
+One of Tiradel's little paladins stands here looking self-righteous.
+~
+This little man stands here looking a little confused.  The sword he
+carries is nearly as big as him.  
+~
+human~
+AB A DH 0 1000 0
+30 0 6d12+853 0d0+100 4d6+8 none
+-9 -9 -9 6
+EFNU 0 0 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+P DEATH 12337 100~
+#0
+
+
+
+#OBJECTS
+#2600
+small stone key~
+a small stone key~
+A small stone key lies here.~
+stone~
+key 0 A
+0 0 0 0 0
+1 50 1 P
+#2601
+helm fist black Crimson Horde~
+a helm of the Crimson Horde~
+A helm stands here with a large Crimson Cross  inscribed on it.~
+steel~
+armor J AE
+6 7 7 2 0
+20 80 200 P
+F
+A 13 10 0
+F
+A 5 1 0
+F
+A 21 -4 0
+#2602
+black iron boots~
+a pair of black iron boots~
+A pair of black iron boots is here.~
+iron~
+armor J AG
+6 5 8 0 0
+20 80 100 P
+F
+A 20 -3 0
+#2603
+black laminated armor~
+black laminated armor~
+A set of armor that gives off the glaze of glass os here.~
+adamantium~
+armor J AD
+7 6 6 1 0
+20 90 300 P
+F
+A 21 -2 0
+#2604
+fear~
+one's fear~
+One's fear trembles here.~
+ethereal~
+key 0 A
+0 0 0 0 0
+0 50 10 P
+#2605
+ebony arm guards~
+a pair of ebony arm guards~
+A pair of arm guards that are made of a very black and strong material lie here.~
+ebony~
+armor B AI
+8 7 8 0 0
+30 200 235 P
+F
+A 19 1 0
+F
+A 1 1 0
+#2606
+runed white hat~
+a runed white hat~
+A white hat is here with very strange inscription on it.~
+leather~
+armor A AEX
+8 9 6 4 0
+44 80 20 P
+F
+A 13 15 0
+F
+A 12 15 0
+F
+A 3 1 0
+F
+A 22 -3 0
+#2607
+runed white robe~
+a runed white robe~
+A white robe is here with strange inscriptions.~
+leather~
+armor B ADX
+9 10 8 0 0
+44 100 8 P
+F
+S 39 5 0
+F
+A 17 -8 0
+F
+A 20 -8 0
+F
+A 22 -5 0
+#2608
+elfwood knot~
+a swirled elfwood knot~
+A piece of wood is here that seems live to the touch.~
+wood~
+staff ABK AOX
+10 4 4 'sanctuary' 0
+38 40 20 P
+#2609
+runed white belt~
+a runed white belt~
+A runed white belt is here.~
+leather~
+armor B AL
+5 6 0 5 0
+44 30 464 P
+F
+A 13 5 0
+F
+A 12 10 0
+#2610
+chained torch~
+a charred chained torch~
+One's biggest fears lie here.~
+wood~
+light AB A
+0 0 999 0 0
+1 80 10 P
+F
+A 13 -10 0
+F
+A 14 -30 0
+F
+A 5 -1 0
+#2611
+melded ring~
+a melded ring~
+A ring that seems to be almost a molten liquid is here.~
+steel~
+jewelry 0 AB
+0 0 0 0 0
+28 20 1000 P
+F
+A 19 1 0
+F
+A 18 1 0
+#2612
+guardian cloak~
+a guardian's cloak~
+An elite looking cloak is thrown here.~
+cloth~
+armor B AK
+6 7 7 0 0
+33 40 100 P
+F
+A 1 1 0
+F
+A 20 -5 0
+F
+A 21 -1 0
+#2613
+shiny steel boots~
+shiny steel boots~
+Some shiny steel boots lie here.~
+steel~
+armor 0 AG
+7 8 8 0 0
+33 70 146 P
+F
+A 18 1 0
+F
+A 13 15 0
+F
+A 20 -3 0
+#2614
+magic multi-plated girdle~
+a magic multi-plated girdle~
+A glowing piece of metal is here.~
+ethereal~
+armor AB ALX
+9 10 10 0 0
+37 80 6 P
+F
+A 18 3 0
+F
+A 1 -1 0
+#2615
+marble statue ximeria~
+a marble statue~
+A marble statue of Xymerria, Dark Queen of the Abyss stands here.~
+marble~
+treasure 0 P
+0 0 0 0 0
+1 0 0 P
+E
+statue~
+She has a lethal beauty unlike none you have every seen before.  It strikes 
+a blow to your heart like a dagger into flesh.  Her hands are outstretched
+with her palms up - as if waiting for something.  At the base is written:
+ 
+The key is to be a part of all mortal life.
+Those that are cannot be rid of it.
+The key is to differ heroes from that of footsoldiers.
+That which can be controlled but never removed.
+The key is to make a Man into but a helpless child.
+That which comes and goes with situation.
+The key is to make mortals tremble and sweat.
+That which is as ageless an entity as I.
+~
+#2616
+frozen potion~
+a frozen swirled potion~
+A frozen swirled potion is here trying to thaw out.~
+liquid~
+potion AB AO
+10 'blindness' 'plague' '' ''
+10 90 50 P
+#2617
+cape dwarven hides~
+a cape of dwarven hides~
+A gruesome cape made from flesh is here.~
+meat~
+armor 0 AKX
+5 8 7 0 0
+42 40 15 P
+F
+A 19 2 0
+#2618
+blackened crystal rose~
+a blackened crystal rose~
+A blacked crystal rose is tossed here.~
+crystal~
+light ABJL AX
+0 0 999 0 0
+38 60 10 P
+F
+A 19 3 0
+F
+A 5 1 0
+#2619
+mighty tentacle cthulhu~
+the Mighty Tentacle of Cthulhu~
+A long serpentine like strip stands here squirming.~
+meat~
+weapon ABEHJMe ANX
+flail 10 4 beating 0
+49 100 3 P
+#2620
+icy blue dagger~
+an icy blue dagger~
+An icy blue dagger is here.~
+ice~
+weapon A ANS
+dagger 8 5 frbite 0
+43 30 4 P
+F
+A 1 -1 0
+#2621
+translucent cloak~
+a translucent cloak~
+A cloak is sitting here, almost invisible.~
+glass~
+armor BHM ACS
+7 10 10 0 0
+40 40 1 P
+F
+A 1 -4 0
+F
+A 0 0 U
+F
+A 5 -2 0
+F
+A 21 -5 0
+F
+A 22 -5 0
+#2622
+nightfall mace oath-breaker~
+'Nightfall', the Oath-breaker~
+A huge mace with a jewelled handle and a crimson hue is here.~
+steel~
+weapon ABJe ANX
+mace 5 9 crush 0
+46 240 8 P
+F
+A 19 2 0
+F
+A 18 1 0
+#2623
+boots protection~
+boots of protection~
+A pair of thick steel boots is here.~
+steel~
+armor A AGX
+6 3 8 4 0
+46 50 10 P
+F
+A 21 -5 0
+F
+A 20 -5 0
+F
+A 17 -10 0
+#2624
+rotting living corpse flesh~
+a rotting living corpse~
+A piece of flesh is here, twitching and writhing in agony.~
+meat~
+container 0 P
+40 0 0 40 100
+1 0 0 P
+E
+corpse~
+It's eyes turn to face you.  You feel like gagging as you notice a bucket 
+full of maggots slowly eating away at this poor individual.  Possessed, 
+physically dead but mentally alive ....it suffers here in torment until the
+end of eternity.  
+~
+#2625
+Durindel sword flame~
+'Durindel' the Sword of Flame~
+A long sword with a torch ingrained on its hilt is here.~
+fire~
+weapon ABGHKe ANS
+sword 8 5 flbite A
+40 180 3 P
+#2626
+fine elven leggings~
+fine elven leggings~
+A piece of cloth that seems to be of elvish make is here.~
+mithril~
+armor BK AFX
+6 8 7 9 0
+40 50 6 P
+F
+A 21 -2 0
+F
+A 18 2 0
+F
+A 2 2 0
+F
+S 104 5 0
+#2627
+One's love~
+one's love~
+One's love is here.~
+ethereal~
+key 0 A
+0 0 0 0 0
+1 1 1 P
+#2628
+One's envy~
+one's envy~
+One's envy is here.~
+ethereal~
+key 0 A
+0 0 0 0 0
+1 1 1 P
+#2629
+small skeleton key~
+a small skeleton key~
+A small skeleton key is here.~
+metal~
+key HNZ A
+0 0 0 0 0
+1 0 0 P
+#2630
+white relic sanctuary~
+a white relic~
+A white relic is here.~
+unknown~
+relic 0 A
+12 'sanctuary' 'reserved' 'reserved' 'reserved'
+10 10 2000 P
+#2631
+destroyed shrine altar~
+the Shrine of Chaos~
+An altar stands here, slowly shifting it's shape before you.~
+unknown~
+furniture ABT P
+0 0 0 0 0
+1 10000 1 P
+#2632
+Horns Cthulhu~
+the Horns of Cthulhu~
+The Horns of Cthulhu lie here.~
+flesh~
+armor JY AEX
+8 7 11 2 0
+45 120 10 P
+F
+A 24 -1 0
+F
+A 21 -8 0
+F
+A 22 -6 0
+F
+A 19 1 0
+F
+S 238 1 0
+#2633
+white pill~
+a sickly looking white pill~
+A sickly white pill rests on the ground here.~
+unknown~
+pill 0 AO
+25 'sanctuary' 'dysentery' '' ''
+25 0 4000 P
+#2718
+shrine scourge death~
+the Shrine of Scourge~
+A large shrine covered in flesh and dried blood pulsates here.~
+unknown~
+trash BT P
+0 0 0 0 0
+30 5000 0 P
+#0
+
+
+
+#ROOMS
+#2600
+`3A stone path``~
+A field of grain lies all around you as the wind blows incessantly causing
+it to ripple into waves.  A few vultures circle high above looking for a
+possible meal.  The path upon which you stand is made of a fine type stone
+making it seem made of a large single piece of slate.  To the sides, stone
+railings are present for decoration.  Masonry is masterfully done here
+and the path seems to originate back to ancient times.  
+~
+~
+0 0 16384 2
+D0
+~
+boulder~
+AB 0 2041
+D2
+~
+~
+0 0 2601
+S
+#2601
+`3A stone path``~
+A field of grain lies all around you as the wind blows incessantly causing
+it to ripple into waves.  A few vultures circle high above looking for a
+possible meal.  The path upon which you stand is made of a fine type stone
+making it seem made of a large single piece of slate.  To the sides, stone
+railings are present for decoration.  Masonry is masterfully done here
+and the path seems to originate back to ancient times.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 2600
+D1
+~
+~
+0 0 2602
+S
+#2602
+`8Among tinder walls and stone``~
+You are in a tunnel completely made of stone with ancient runes inscripted
+on either side.  The tunnel is extremely elegantly done with numerous 
+decorations carved into the stone with loving care.  Only a dwarf could 
+create such wonders.  Your own footsteps carries loudly, echoing into
+the seemingly endless tunnel.  Everything is completely dark save for
+the torches on each side lighting your way.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 2603
+D3
+~
+~
+0 0 2601
+S
+#2603
+`8Among tinder walls and stone``~
+You are in a tunnel completely made of stone with ancient runes inscripted
+on either side.  The tunnel is extremely elegantly done with numerous
+decorations carved into the stone with loving care.  Only a dwarf could
+create such wonders.  Your own footsteps carries loudly, echoing into
+the seemingly endless tunnel.  Everything is completely dark save for
+the torches on each side lighting your way.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 2604
+D3
+~
+~
+0 0 2602
+S
+#2604
+`8A Black Obelisk``~
+Before you stands a huge, shiny obelisk of a nightmarish black color.  
+Upon its base is a light brown pillar made of marble.  It is questionable
+as to its purpose but it is evident that it was not created by any physical
+means. The same rune pattern is inscripted over and over again on the 
+stone walls.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2605
+D1
+~
+~
+0 0 2606
+D2
+~
+stone door~
+ABC 2600 2607
+D3
+~
+~
+0 0 2603
+S
+#2605
+`8A side room``~
+Completely encased in stone, this rectangular room is rather small and
+seemingly empty at first glance.  Upon further inspection, you notice
+very small knob like structures protruding through the ground of the
+stone floor.  The walls are bare - save for the lone torch on the far end.
+It is extremely hot here.  Some kind of furnace seems to be running extremely
+close to this room. 
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 2604
+S
+#2606
+`8A side room``~
+Completely encased in stone, this rectangular room is rather small and
+seemingly empty at first glance.  Upon further inspection, you notice
+very small knob like structures protruding through the ground of the
+stone floor.  The walls are bare - save for the lone torch on the far end.
+It is extremely cold here - so cold that it seems to feel like its in the
+middle of winter.  A tall obelisk can be seen in the distance to the west
+and is the exit to this room.
+~
+~
+0 12 0 0
+D3
+~
+~
+0 0 2604
+S
+#2607
+`8At the Gate``~
+Before you is a small iron gate almost rusted away with age.  You could 
+easily break it down with a single kick.  Stone walls still surround you
+at every angle creating an echo prone environment upon which you walk. 
+The only sounds that can be heard are distant murmurs and the sound of 
+your feet pounding against the floor.  Torches surround you giving ample
+light for clear vision, though many darkened areas of the underground 
+tunnel still remain black.
+~
+~
+0 8 0 0
+D0
+~
+stone door~
+ABC 2600 2604
+D2
+~
+secret door~
+ABM 0 2608
+S
+#2608
+`8The main entranceway``~
+Stonework of dwarven make surround you as the underground hallway grows
+gradually wider.  Hot oil lamps are ingrained into the walls on either
+side of you giving light for extreme amounts of time.  Magic runes are 
+inscripted on the walls giving them and the surrounding area a strong 
+magical protection against evil.  This directly contradicts the fact that 
+the tunnels themselves feel mysterious and have evil radiating from them.
+Murmurs in the distance grow louder as you progress further into the 
+hallway.  The entrance gate is back north and the hallway continues south.
+~
+~
+0 8 0 0
+D0
+~
+~
+ABM 0 2607
+D2
+~
+~
+0 0 2609
+S
+#2609
+`8The main entranceway``~
+Stonework of dwarven make surround you as the underground hallway grows
+gradually wider.  Hot oil lamps are ingrained into the walls on either
+side of you giving light for extreme amounts of time.  Magic runes are
+inscripted on the walls giving them and the surrounding area a strong
+magical protection against evil.  This directly contradicts the fact that
+the tunnels themselves feel mysterious and have evil radiating from them.
+Murmurs in the distance grow louder as you progress further into the
+hallway.  The entrance gate is back north and the hallway continues south.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2608
+D2
+~
+~
+0 0 2610
+S
+#2610
+`8The main entranceway``~
+Stonework of dwarven make surround you as the underground hallway grows
+gradually wider.  Hot oil lamps are ingrained into the walls on either
+side of you giving light for extreme amounts of time.  Magic runes are
+inscripted on the walls giving them and the surrounding area a strong
+magical protection against evil.  This directly contradicts the fact that
+the tunnels themselves feel mysterious and have evil radiating from them.
+Murmurs in the distance grow louder as you progress further into the 
+hallway. The entrance gate is back north and the hallway continues south.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2609
+D1
+~
+~
+0 0 2611
+S
+#2611
+`8The main entranceway``~
+Stonework of dwarven make surround you as the underground hallway grows
+gradually wider.  Hot oil lamps are ingrained into the walls on either
+side of you giving light for extreme amounts of time.  Magic runes are 
+inscripted on the walls giving them and the surrounding area a strong
+magical protection against evil.  This directly contradicts the fact that
+the tunnels themselves feel mysterious and have evil radiating from them.
+Murmurs in the distance grow louder as you progress further into the
+hallway. The entrance gate is back to the north and the hallway continues
+east.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2612
+D3
+~
+~
+0 0 2610
+S
+#2612
+`8At the Main Gate``~
+A grand gateway lies before you.  Made of cold black steel, it is reinforced
+by an extremely strong gelatinous green substance.  The double-gated doors
+look extremely old but yet menacing.  This room is void of almost all light
+giving it an extremely evil feel and appearance.  Upon the gates is a
+symbol of an fist  - the symbol of the ancient Lord of Darkness that 
+was heard to have been defeated ages ago.  Rasping noises are now very 
+close by which sends chills down your spine.
+~
+~
+0 8 0 0
+D1
+~
+~
+AB 0 2613
+D3
+~
+~
+0 0 2611
+S
+#2613
+`8In the inner tunnels``~
+The halls become extremely wide - this must be the main hallway of the 
+stronghold. The walls here are not as decorative, but take on a more bland
+type of appearance.  It seems that here, the walls are built for strength
+instead of beauty.  At the center of the floor is an extremely lengthy
+bluish rug that runs the span of the hallway.  Red banners stand on tall
+posts on either side of you.  Portraits are displayed of unknown humanoids
+dressed in battle armor.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 2614
+D3
+~
+~
+AB 0 2612
+S
+#2614
+`8In the inner tunnels``~
+The halls become extremely wide - this must be the main hallway of the
+stronghold. The walls here are not as decorative, but take on a more bland
+type of appearance.  It seems that here, the walls are built for strength
+instead of beauty.  At the center of the floor is an extremely lengthy
+bluish rug that runs the span of the hallway.  Red banners stand on tall
+posts on either side of you.  Portraits are displayed of unknown humanoids
+dressed in battle armor.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 2615
+D3
+~
+~
+0 0 2613
+S
+#2615
+`8A small junction``~
+Pillars with golden spheres at their peaks stand at all four corners of the
+junction. The spheres give off a magical type of light that seems to make
+your armor glow in a strange way.  The runes on the walls begin to glow
+as well resulting from the golden spheres.  Jagged stones jut through
+randomly from the walls and the floor is also extremely rough.  Several
+fresh blood stains indicate that a battle was just recently fought here.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2616
+D2
+~
+~
+0 0 2621
+D3
+~
+~
+0 0 2614
+S
+#2616
+`8The War Room``~
+Armored statues line the walls before you bearing ancient weapons from an
+age long ago.  Black-tipped halberds, rose-colored short swords, and runed
+spears are seen as their weaponry.  A long rectangular table sits in the
+center. This is where the leaders of war met and discussed their strategies
+for the upcoming or future melees.  The stone walls are decorated the most
+extravagantly, having creatures intricately interweaved with ancient runes
+of defilement.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2654
+D1
+~
+~
+0 0 2617
+D3
+~
+~
+0 0 2615
+S
+#2617
+`8A hallway``~
+Narrowing down, the cavernous hallway extends to the east and west.  Gold
+plaques are seen on the walls commemorating the day when the Dark Lord was
+defeated. Light and darkness seem to flicker as the torches seem to dance
+in the dim light. You feel a windy draft blowing toward you causing you to
+shiver with cold.  A blue rug continues to run the length of the hallway as
+do the runes of evil protection.  Not too far down you can see the end
+of the underground halls or you can return from whence you came to the 
+west.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2618
+D3
+~
+~
+0 0 2616
+S
+#2618
+`8Within 3 Chambers``~
+Before you know, it you step within a rather large cubicle made of three
+seperate chambers that you cannot access.  From the outside, the chambers
+are in the shape of a skull bearing down at you.  From the inside, it seems
+nothing more than a place of worship.  Evil is apparently felt here, so strong
+that you feel an urge to leave.  A brimstone altar stands at the far end
+holding a glowing chalice filled with a strange black liquid that bubbles
+constantly. As you approach only then do you notice the skeleton of a 
+human soldier crunched over on its stomach.  Spooked, you whirl around 
+thinking you heard rasping voices behind you - but nothing is there.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2619
+D2
+~
+~
+0 0 2644
+D3
+~
+~
+0 0 2617
+S
+#2619
+`8A hallway``~
+Narrowing down, the cavernous hallway extends to the east and west.  Gold
+plaques are seen on the walls commemorating the day when the Dark Lord was
+defeated. Light and darkness seem to flicker as the torches dance in the 
+dim light.  You feel a windy draft blowing toward you causing you to shiver
+with cold.  A blue rug continue sto run the length of the hallway as do the
+runes of evil protection.  Not too far down you can see the end of the 
+underground halls.  You can return from whence you came to the west.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2620
+D3
+~
+~
+0 0 2618
+S
+#2620
+`8In between quarters``~
+Between you lie 2 rooms of equal size and make to the north and south.  
+On each door is written something in an unknown language, similar to an
+old elvish script.  The underground halls come to an abrupt halt as a
+torch flickers at the far end.  A statue of a revoltingly evil creature
+with great wings stands at the center.  Red gem stones are in place of its
+eyes as it seems to glare down at you in hate.  The far wall is red with 
+inner heat coming from an unknown source.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 2619
+S
+#2621
+`8A hallway``~
+The cavernous hallway extends to the north and south.  Death black bladed
+daggers are displayed on the walls with each giving off an unholy light. 
+An inner heat comes blowing at you causing your face and your body to 
+succumb to minor burns.  You notice that the extent of your light is gradually
+growing smaller and smaller as if something or some force is slowly absorbing
+the energy.  Beneath your feet is a black brick floor which does not 
+resonate any sound whatso ever.  Consequently, echos are scarce and sounds
+are very dull.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2615
+D2
+~
+~
+0 0 2622
+S
+#2622
+`8A hallway``~
+The cavernous hallway extends to the north and west.  Death black bladed
+daggers are displayed on the walls with each giving off an unholy light.
+An inner heat comes blowing at you causing your face and your body to
+succumb to minor burns.  You notice that the extent of your light is gradually
+growing smaller and smaller as if something or some force is slowly absorbing
+the energy.  Beneath your feet is a black brick floor which does not 
+resonate any sound what so ever.  Consequently, echos are scarce and sounds
+are very dull.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2621
+D3
+~
+~
+0 0 2623
+S
+#2623
+`8The outer caverns``~
+Hot! Hot! Hot!  Beads of sweat drop relentlessly down your face as the heat
+is almost unbearable.  The heat seems to come from some place underground
+and is created by no ordinary means.  The daggers displayed on the wall
+begin to hum and shine in this type of heat which is undoubtedly evil.  
+Torches and any other form of physical energy are immediately extinguished
+and are rendered useless.  The black runed floor upon which you stand begins
+to pulsate with life and energy.  Chaos is at life here.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2622
+D3
+~
+~
+0 0 2624
+S
+#2624
+`8The outer caverns``~
+Hot! Hot! Hot!  Beads of sweat drop relentlessly down your face as the heat
+is almost unbearable.  The heat seems to come from some place underground
+and is created by no ordinary means.  The daggers displayed on the wall
+begin to hum and shine in this type of heat which is undoubtedly evil.
+Torches and any other form of physical energy are immediately extinguished
+and are rendered useless.  The black runed floor upon which you stand begins
+to pulsate with life and energy.  Chaos is at large here.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2623
+D3
+~
+~
+0 0 2625
+S
+#2625
+`8The outer caverns``~
+Hot! Hot! Hot!  Beads of sweat drop relentlessly down your face as the heat
+is almost unbearable.  The heat seems to come from some place underground
+and is created by no ordinary means.  The daggers displayed on the wall
+begin to hum and shine in this type of heat which is undoubtedly evil.
+Torches and any other form of physcial energy are immediately extinguished
+and are rendered useless.  The black runed floor upon which you stand begins
+to pulsate with life and energy.  Chaos is at large here.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2624
+D2
+~
+~
+0 0 2628
+D3
+~
+~
+0 0 2626
+S
+#2626
+`8Near a dead-end``~
+When you look west you see the end of this fiery hallway.  Looking for some
+respite, this portion is a lot cooler.  Large wooden barrels filled with 
+ale are stacked on top of each other.  Picks and shovels are thrown about
+to the side as you notice a newly formed tunnel beginning to take shape
+to your right.  The entire tunnel occassionaly shakes vehemently as if
+trying to shake free of some great burden.  Torches are aflame to both 
+sides of you and squeaks of some small hidden creatures are heard.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2625
+D3
+~
+~
+0 0 2627
+S
+#2627
+`8A dead-end``~
+You are at the end of the hallway.  Looking for some respite this part of
+the hallway is a lot cooler.  Empty wooden barrels once filled with ale are
+thrown about.  It is covered in cobwebs in dust - guess no one has gone here
+for quite some time.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2626
+S
+#2628
+`8A Bridge of Fire``~
+A stone bridge spans out before you, void of any side rails preventing you
+from falling out.  It resembles more like a giant slate of stone.  Underneath
+is a molten pool of lava, spewing vertical jets of fire in random fashion.
+The sound of steam being spewed is constant as the hissing fills your
+ears causing you to feel disoriented and dizzy.  Loud shouts from within
+more distant tunnels are muffled with each blast.  It is extremely hot here.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2625
+D2
+~
+~
+0 0 2629
+S
+#2629
+`8A Bridge of Fire``~
+A stone bridge spans out before you, void of any side rails preventing you
+from falling out.  It resembles more like a giant slate of stone.  Underneath
+is a molten pool of lava, spewing vertical jets of fire in random fashion.
+The sound of steam being spewed is constant as the hissing fills your ears
+causing you to feel disoriented and dizzy.  Loud shouts from within more 
+distant tunnels are muffled with each blast.  It is extremely hot here.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2628
+D1
+~
+~
+0 0 2630
+S
+#2630
+`8A winding hallway``~
+You stagger to gain your balance as the ground begins to tremble violently.
+Crashing from wall to wall, you focus on leaving this uncomfortable 
+predicament. The stone walls are cool to your touch but yet it must be
+closed to ninety degrees in here.  The sound of a large chain being grinded
+across some sort of large object can be heard distinctly through the rumbling
+of the earth.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2631
+D3
+~
+~
+0 0 2629
+S
+#2631
+`8A winding hallway``~
+You stagger to regain your balance as the ground begins to tremble violently.
+Crashing from wall to wall, you focus on leaving this uncomfortable
+predicament. The stone walls are cool to your touch but yet it must be 
+close to ninety degrees in here.  The sound of a large chain being grinded
+across some sort of large object can be heard distinctly through the rumbling
+of the earth.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2632
+D3
+~
+~
+0 0 2630
+S
+#2632
+`8A winding hallway``~
+You stagger to regain your balance as the ground begins to tremble violently.
+Crashing from wall to wall, you focus on leaving this uncomfortable
+predicament. The stone walls are cool to your touch but yet it must be
+close to ninety degrees in here.  The sound of a large chain being grinded
+across some sort of large object can be heard distinctly through the rumbling
+of the earth.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 2633
+D3
+~
+~
+0 0 2631
+S
+#2633
+`8A fiery path``~
+You are nearly encompassed by flames as you walk into this hallway.  Fires
+from the nearby walls lick neatly at your heels from within the walls.
+Within the center of it all is a giant chain which is constantly moving 
+though you know not to what end or what purpose.  A neat set of brass
+rings decorate the walls and square patterns made of light brown stone
+make up the floor.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2632
+D1
+~
+~
+0 0 2640
+D2
+~
+~
+0 0 2634
+S
+#2634
+`8A fiery path``~
+You are nearly encompassed by flames as you walk into this hallway.  Fires
+from the nearby wall lick neatly at your heels from within the stone.  
+In the center of it all is a giant chain which is constantly moving though
+you know not to what end or what purpose.  A neat set of brass rings 
+decorate the walls and square patterns made of light brown stone make up the 
+floor.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2633
+D2
+~
+~
+0 0 2635
+S
+#2635
+`8A fiery path``~
+You are nearly encompassed by flames as you walk into the hallway.  Fires
+from the nearby lick neatly at your heels from within the stone.  In the 
+center of it all is a giant chain which is constantly moving though you
+know not to what end or what purpose.  A neat set of brass rings decorate 
+the walls and square patterns made of light brown stone makes up the floor.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2634
+D3
+~
+~
+0 0 2636
+S
+#2636
+`8A reinforced tunnel``~
+Thick, black iron bars surround the entire tunnel forming somewhat like 
+a web.  At the ends, the bars are pointed into a jagged edge.  Torches 
+line the walls every ten feet or so as do portraits of underground scenary
+a few ages ago.  This tunnel was meant to impede movement by whatever
+was walking through.  Long ago, a battle was fought here underground leaving
+traces of it here and there.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2635
+D3
+~
+~
+0 0 2637
+S
+#2637
+`8A reinforced tunnel``~
+Thick, black iron bars surround the entire tunnel forming somewhat like
+a web.  At the ends, the bars are pointed into a jagged edge.  Torches
+line the walls every ten feet or so as do portraits of underground scenary
+a few ages ago.  This tunnel was meant to impede movement by whatever 
+was walking through.  Long ago, a battle was fought here underground leaving
+traces of it here and there.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2636
+D3
+~
+~
+0 0 2638
+S
+#2638
+`8In front of a prison gate``~
+Before you lies a prison gate made of chromium light bars.  Light but strong,
+it could hold under the greatest stress.  The bars are stained everywhere with
+a strange black blood.  No normal creature was confined here, but one of 
+extraordinary origins.  It brings you back to a time, a time when a battle
+held in this stronghold - a fight for its position and power.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2637
+D3
+~
+~
+0 0 2639
+S
+#2639
+`8A cubicle``~
+You are in a very, very, very small room.  It has nothing in it and you
+have no idea what its purpose is.  A lone torch is on the walls giving it 
+ample light.  Boring.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2638
+D4
+~
+~
+ABM 0 2719
+S
+#2640
+`8Along the side``~
+Long, deep hissing sounds are heard as steam rises all agove you - creating
+a giant cloud of mist from which you cannot see.  A constant source of water
+must be beneath something extremely large and hot to create such an 
+effect.  The atmosphere is very humid and hot - somewhat like an elvish
+summer.  To the west you see the bubbling of a giant lava pool as jets
+of fire shoot out in front of you in the distance.  The path is treacherous
+here.  As you edge closer to the edge, you notice a large pool of boiling 
+water beneath you.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2641
+D3
+~
+~
+0 0 2633
+S
+#2641
+`8Along the side``~
+Long, deep hissing sounds are heard as steam rises all above you - creating
+a giant cloud of mist from which you cannot see.  A constant source of water
+must be beneath something extremely large and hot to create such an
+effect.  The atmosphere is very humid and hot - somewhat like an elvish
+summer.  To the west you see the bubbling of a giant lava pool as jets
+of fire shoot out in front of you in the distance.  The path is treacherous
+here.  As you edge closer, you notice beneath the path is a large pool
+of boiling water.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2642
+D3
+~
+~
+0 0 2640
+S
+#2642
+`8Along the side``~
+Long, deep hissing sounds are heard as steam rises all above you - creating
+a giant cloud of mist from which you cannot see.  A constant source of water
+must be beneath something extremely large and hot to create such an 
+effect.  The atmosphere is very humid and hot - somewhat like an elvish
+summer.  To the west you see the bubbling of a giant lava pool as jets
+of fire shoot out in front of you oin the distance.  The path is treacherous
+here.  As you edge closer, you notice beneath the path is a large pool
+of boiling water.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2643
+D3
+~
+~
+0 0 2641
+S
+#2643
+`8Regal round room``~
+Many chairs are lined around a large round table.  Gold trimmings shine
+from the edge of the walls.  Brass lamps line the edge of the walls giving 
+ample reading light to the entire room.  At the far end of the room is a well
+filled with a blue liquid.  Armored statues armed with pikes stand at the
+corners.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2649
+D2
+~
+~
+0 0 2642
+D3
+~
+~
+0 0 2650
+S
+#2644
+`8Cool stone corridor``~
+Cool marble walls glisten as you walk down the wide hallway.  A cool draft
+gently blows against your face causing your cloak to flutter.  As beautiful
+as it is, this place gives you the creeps.  Iron shackles hang empty on 
+the walls giving an impression of violence, torture, and death.  Rasping
+sounds grow in volume and intensity as you continue to walk.  Magical
+dwarven runes of an unknown type are inscripted here.  You feel as if you 
+have trodden upon something filled with hate, waiting to be freed from
+its restraints.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2618
+D2
+~
+~
+0 0 2645
+S
+#2645
+`8Cool stone corridor``~
+Cool marble walls glisten as you walk down the wide hallway.  A cool draft
+gently blows against your face causing your cloak to flutter.  As beautiful
+as it is, this place gives you the creeps.  Iron shackles hang empty on
+the walls giving an impression of violence, torture, and death.  Rasping
+sounds grow in volume and intensity as you continue to walk.  Magical
+dwarven runes of an unknown type are inscripted here.  You feel as if you
+have trodden upon something filled with hate, waiting to be freed from
+its restraints.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2644
+D1
+~
+~
+0 0 2646
+S
+#2646
+`8Cool stone corridor``~
+Cool marble walls glisten as you walk down the wide hallway.  A cool draft
+gently blows against your face causing your cloak to flutter.  As beautiful
+as it is, this place gives you the creeps.  Iron shackles hang empty on
+the walls giving an impression of violence, torture, and death.  Rasping
+sounds grow in volume and intensity as you continue to walk.  Magical
+dwarven runes of an unknown type are inscripted here.  You feel as if you
+have trodden upon something filled with hate, waiting to be freed from
+its restraints.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 2647
+D3
+~
+~
+0 0 2645
+S
+#2647
+`8Cool stone corridor``~
+Cool marble walls glisten as you walk down the wide hallway.  A cool draft
+gently blows against your face causing your cloak to flutter.  As beautiful
+as it is, this place gives you the creeps.  Iron shackles hang empty on
+the walls giving an impression of violence, torture, and death.  Rasping
+sounds grow in volume and intensity as you continue to walk.  Magical
+dwarven runes of an unknown type are inscripted here.  You feel as if you
+have trodden upon something filled with hate, waiting to be freed from
+its restraints.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2646
+D2
+~
+~
+0 0 2648
+S
+#2648
+`8Cool stone corridor``~
+Cool marble walls glisten as you walk down the wide hallway.  A cool draft
+gently blows against your face causing your cloak to flutter.  As beautiful
+as it is, this place gives you the creeps.  Iron shackles hang empty on
+the walls giving an impression of violence, torture, and death.  Rasping
+sounds grow in volume and intensity as you continue to walk.  Magical
+dwarven runes of an unknown type are inscripted here.  You feel as if you
+have trodden upon something filled with hate, waiting to be freed from
+its restraints.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2647
+D3
+~
+~
+0 0 2649
+S
+#2649
+`8Transitions``~
+This hallway is particularly wide.  To the west is an ornate room with many
+chairs and a large table.  The marble walls glisten as you walk.  The air is 
+unmoving and stale here giving off a stench of death.  The torches flicker
+as if some force is constantly passing them by.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2648
+D3
+~
+~
+0 0 2643
+S
+#2650
+`8The Warding Barrows``~
+Skeletons lie all around you as do cobwebs.  The cobwebs are so thick you
+can barely see the floor you are walking on.  It is indeed an eerie sight.
+Rusted armor and swords are scattered about and the skulls on the skeletons
+are faced up ... their mouths open wide.  These men have died with the 
+look of terror on their faces.  Something is not right here.  The slain 
+have neither weapon nor a magical wound.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2643
+D3
+~
+~
+0 0 2651
+S
+#2651
+`8The Warding Barrows``~
+Skeletons lie all around you as do cobwebs.  The cobwebs are so thick you
+can barely see the floor you are walking on.  It is indeed an eerie sight.
+Rusted armor and swords are scattered about and the skulls on the skeletons
+are faced up ...their mouths open wide.  These men have died with the 
+look of terror on their faces.  Something is not right here.  The slain 
+have neither a weapon wound nor any would of any kind.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2652
+D1
+~
+~
+0 0 2650
+S
+#2652
+`8The Warding Barrows``~
+Skeletons lie all around you as do cobwebs.  The cobwebs are so thick you
+can barely see the floor you are walking on.  It is indeed an eerie sight.
+Rusted armor and swords are scattered about and the skulls on the skeletons
+are faced up ...their mouths open wide.  These men have died with the 
+look of terror on their faces.  Something is not right here.  The slain
+have neither a weapon wound nor any wound of any kind.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 2651
+D3
+~
+~
+0 0 2653
+S
+#2653
+`8Dungeon's Keep``~
+Skeletons lie all around you as do cobwebs.  The cobwebs are so thick you
+can barely see the floor you are walking on.  It is indeed an eerie sight.
+Rusted armor and swords are scattered about and the skulls on the skeletons
+are faced up ..their mouths open wide.  These men have died with the 
+look of terror on their faces.  Something is not right here.  The slain 
+have neither a weapon wound nor any wound of any kind.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2652
+D5
+~
+~
+ABCFG 2629 2677
+S
+#2654
+`8The Barracks``~
+Large wooden planks are drawn on either side of you providing a cozy 
+protection against any possible intruders.  Small arrow sized holes are 
+lined at the center of the planks for easy and clear bow shots.  The
+ground is covered with a particularly grainy sand making you slide about.
+Blood stains are numerous here as are broken arrows and weapons lying
+to the side.  The stronghold is guarding against someone or something.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2655
+D2
+~
+~
+0 0 2616
+S
+#2655
+`8At an intersection``~
+Narrowing down, the cavernous hallway extends in all direction.  Gold
+plaques are seen on the walls commemorating the day when the Dark Lord 
+was defeated.  Light and darkness seem to flicker as the torches seem to 
+dance in the dim light.  You feel a windy draft blowing toward you causing
+you to shiver with cold.  A blue rug runs the length of the hallway as do
+the runes of evil protection.  To the south is some kind of room of war
+and the hallway continues north.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2656
+D1
+~
+~
+0 0 2659
+D2
+~
+~
+0 0 2654
+D3
+~
+~
+0 0 2662
+S
+#2656
+`8A hallway``~
+Narrowing down, the cavernous hallway extends in to the north and south.
+Gold plaques that are smashed into pieces are on the walls that previously
+commemorated the day when the Dark Lord was defeated.  Light and darkness
+seem to flicker as the torches seem to dance in the dim light.  You feel
+a small draft blowing toward you causing you to shiver with cold.  A blue
+rug runs the length of the hallway as do the runes of evil protection. To
+the south is some kind of room of war.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2657
+D2
+~
+~
+0 0 2655
+S
+#2657
+`8A dark down slope``~
+The hallway suddenly slopes down as darkness and cold air envelop you.
+The walls are coated with a thick green slime like substance which seems
+to be particularly inclined to grasp to your skin.  It pulsates, almost 
+as if it was alive.  Continual rasping sounds can be heard beneath your 
+feet and you wonder - what the hell is wrong with this place?  The rank
+air seems to prickle your skin and make your hairs stand on end.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2658
+D1
+~
+~
+0 0 2666
+D2
+~
+~
+0 0 2656
+S
+#2658
+`8A small room``~
+This room is very small and contains nothing in it.  The air is stale and
+rank whereas the temperature is rather hot.  Rasping sounds can be heard
+in the far distance.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 2657
+S
+#2659
+`8Among gems and metals``~
+The entire room seems brighter with the constant glittering and 
+glistening of the many gemstones and metal ore in the torchlight.  Piles
+upon piles of ore are stacked many feet high in the air.  These resources
+are used to create many different kinds of tools and weapons as well as
+ornamentation on the walls.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2660
+D3
+~
+~
+0 0 2655
+S
+#2660
+`8Among gems and metals``~
+The entire room seems brighter with the constant glittering and 
+glistening of the many gemstones and metal ore in the torchlight.  Piles
+upon piles of ore are stacked many feet high in the air.  These resources
+are used to create many different kinds of tools and weapons as well as
+ornamentation on the walls.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2661
+D3
+~
+~
+0 0 2659
+S
+#2661
+`8Among gems and metals``~
+The entire room seems brighter with the constant glittering and
+glistening of the many gemstones and metal ore in the torchlight.  Piles
+upon piles of ore are stacked many feet high in the air.  These resources
+are used to create many different kinds of tools and weapons as well as
+ornamentation on the walls.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 2660
+S
+#2662
+`8An empty hall``~
+The hall is void of any ornamentation whatsoever.  The ground is made of
+a solid grey stone.  Light and darkness seem to flicker as the torches seem
+to dance in the dim light.  The air is not moving and very stale smelling
+here. The only sound is of your feet hitting the stone floor, echoing in
+the darkness.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 2655
+D3
+~
+~
+0 0 2663
+S
+#2663
+`8An empty hall``~
+The hall is void of any ornamentation whatsoever.  The ground is made of
+a solid grey stone.  Light and darkness seem to flicker as the torches seem
+to dance in the dim light.  The air is not moving and very stale smelling
+here. The only sound is of your feet hitting the stone floor, echoing in
+the darkness.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2662
+D3
+~
+~
+0 0 2664
+S
+#2664
+`8An empty hall``~
+The hall is void of any ornamentation whatsoever.  The ground is made of
+a solid grey stone.  Light and darkness seem to flicker as the torches seem
+to dance in the dim light.  THe air is not moving and very stale smelling
+here. The only sound is of your feet hitting the stone floor, echoing in
+the darkness.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2665
+D1
+~
+~
+0 0 2663
+S
+#2665
+`8An Overlook``~
+Beneath you is a sharp drop off in which a fall would be deadly.  In the 
+distance you look out and you see the blue sky of the outside and the many
+birds flying and soaring about.  The cove is very crudely built and was
+once used as a look out for oncoming intruders.  Fresh air, drains into
+this area of the cavern leaving traces of frances from flowers and other
+plants.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 2664
+S
+#2666
+`8A dark down slope``~
+The hallway suddenly slopes down as darkness and cold air envelop you.
+The walls are coated with a thick green slime like substance which seems
+to be particularly inclined to grasp to  your skin.  It pulsates, almost as if
+it was alive.  Continual rasping sounds can be heard beneath your feet and 
+you wonder - what the hell is wrong with this place?  The rank air seems to 
+prickle your skin and make your hairs stand on end.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 2667
+D3
+~
+~
+0 0 2657
+S
+#2667
+`8A dark down slope``~
+The hallway suddenly slopes down as darkness and cold air envelop you.
+The walls are coated with a thick green slime like substance which seems
+to be particularly inclined to grasp to your skin.  It pulsates, almost as 
+if it was alive.  Continual rasping sounds can be heard beneath your feet
+and you wonder - what the hell is wrong with this place?
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2676
+D1
+~
+~
+0 0 2668
+D3
+~
+~
+0 0 2666
+S
+#2668
+`8A dark down slope``~
+The hallway suddenly slopes down as darkness and cold air envelop you.
+The walls are coated with a thick green slime like substance which seems
+to be particularly inclined to grasp to your skin.  It pulsates, almost as
+if it was alive.  Continual rasping sounds can be heard beneath your feet
+and you wonder - what the hell is wrong with this place anyway?
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 2669
+D3
+~
+~
+0 0 2667
+S
+#2669
+`8A dark down slope``~
+The hallway suddenly slopes down as darknesse and cold air envelop you.
+The walls are coated with a thick green slime like substance which seems
+to be particularly inclined to grasping to your skin.  It pulsates, almost as
+if it was alive.  Continual rasping sounds can be heard beneath your feet
+and you wonder - what the hell is wrong with this place anyway?
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2670
+D3
+~
+~
+0 0 2668
+S
+#2670
+`8A wide hallway``~
+This is probably one of the widest hallways you have seen yet.  It 
+resembles more of an extremely large room than anything else.  Light and
+darkness seem to flicker as the torches dance in the dim light.  You 
+feel a windy draft toward you as your cloak flutters uncontrollably.  Runes
+of evil protection line the entire walls making them give off an eerie
+aura. The sound of water dripping from the ceiling in the distance echos
+in this voluminous chamber.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2671
+D2
+~
+~
+0 0 2669
+S
+#2671
+`8A wide hallway``~
+This is probably one of the widest hallways you have seen yet.  It
+resembles more of an extremely large room than anything else.  Light and
+darkness seem to flicker as the torches dance in the dim light.  You
+feel a windy draft toward you as your cloak flutters uncontrollably.  Runes
+of evil protection line the entire walls making them give off an eerie
+aura. The sound of water dripping from the ceiling in the distance echos
+in this voluminous chamber.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2672
+D2
+~
+~
+0 0 2670
+S
+#2672
+`8A wide hallway``~
+This is probably one of the widest hallways you have seen yet.  It
+resembles more of an extremely large room than anything else.  Light and
+darkness seem to flicker as the torches dance in the dim light.  You
+feel a windy draft toward you as your cloak flutters uncontrollably.  Runes
+of evil protection line the entire walls making them give off an eerie
+aura. The sound of water dripping from the ceiling in the distance echos
+in this voluminous chamber.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 2671
+D3
+~
+~
+0 0 2673
+S
+#2673
+`8Iron Barges``~
+Everything here is made of iron.  Iron casing surrounds the walls as do
+iron rings for decoration.  In the far end, an iron statue looks to stand 
+vigilantly as if it had a mind of its own and was about to get up and 
+walk away any minute.  The peculiar thing is that you FEEL as if you are
+being watched by someone or something.  A second force that is beyond the
+comprehension of any mortal is at play here.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2672
+D3
+~
+~
+0 0 2674
+S
+#2674
+`8Iron Barges``~
+Everything here is made of iron.  Iron casing surrounds the walls as do
+iron rings for decoration.  In the far end, an iron statue looks to stand
+vigilantly as if it had a mind of its own and was about to get up and
+walk away any minute.  The peculiar thing is that you FEEL as if you are
+being watched by someone or something.  A second force that is beyond the
+comprehension of any mortal is at play here.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2673
+D2
+~
+~
+0 0 2675
+S
+#2675
+`8A hallway``~
+Narrowing down, the cavernous hallway extends to the north and south.  Gold
+plaques are seen on the walls commemorating the day when the Dark Lord was
+defeated. Light and darkness seem to flicker as the torches dance in the
+dim light.  you feel a windy draft blowing toward you causing you to shiver
+with cold.  A red rug continues to run the length of the hallway as do the
+runes of evil protection.  Not too far down you can see the end of the
+underground halls.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2674
+D2
+~
+~
+0 0 2676
+S
+#2676
+`8A hallway``~
+Narrowing down, the cavernous hallway extends to the north and south.  Gold
+plaques are seen on the walls commemorating the day when the Dark Lord was
+defeated. Light and darkness seem to flicker as the torches dance in the
+dim light.  You feel a windy draft blowing toward you causing you to shiver
+with cold.  A red rug continues to run the length of the hallway as do the
+runes of evil protection.  Not too far down you can see the end of the 
+underground halls.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2675
+D2
+~
+~
+0 0 2667
+S
+#2677
+`8Among the shadows``~
+A very unnatural darkness engulfs you as you stand here shivering with cold.
+No mortal creature can stay in this place for long for your limbs are already
+numb and frostbitten.  A strange liquid is frozen in a very strange way -
+with the surface a jelly and the bottom frozen solid.  Fleeting shadows
+can be seen darting from side to side within the range of the torch light.
+Traces of human passing cannot be found for at least several hundred years.
+It was as if this place has been forgotten - purposely.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2678
+D4
+~
+~
+ABCFG 2629 2653
+S
+#2678
+`8Among the shadows``~
+A very unnatural darkness engulfs you as you stand here shivering with cold.
+No mortal creature can stay in this place for long for your limbs are already
+numb and frostbitten.  A strange liquid is frozen in a very strange way - 
+with the surface a jelly and the bottom frozen solid.  Fleeting shadows
+can be seen darting from side to side within the range of the torch light.
+Traces of human passing cannot be found for at least several hundred years.
+It was as if this place has been forgotten - purposely.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2679
+D2
+~
+~
+0 0 2677
+S
+#2679
+`8Among the shadows``~
+A very annatural darkness engulfs you as you stand here shivering with cold.
+No mortal creature can stay in this place for long for your limbs are already
+numb and frostbitten.  A strange liquid is frozen in a very strange way - 
+with the surface a jelly and the bottom frozen solid.  Fleeting shadows
+can be seen darting from side to side within the range of the torch light.
+Traces of human passing cannot be found for at least several hundred years.
+It was as if this place has been forgotten - purposely.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2680
+D2
+~
+~
+0 0 2678
+S
+#2680
+`8Hall of Intervention``~
+Four giant pillars stand here with each bearing a golden orb which hums and
+shakes violently.  The hall is enormous - both in size and the feel of 
+sheer malevolent power.  In the far corner, you see a set of red plush seats
+that once seated an entranced sorceress now freed from her prison.  At the 
+center is an altar upon which an alabaster pedastal sits.  As you near the
+center, you feel as if another set of eyes are suddenly set upon you.  A
+powerful feeling of unworthiness envelops you as you realize that the being
+present may not at all be mortal or within human comprehension.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 2681
+D2
+~
+~
+0 0 2679
+S
+#2681
+`8Hall of Intervention``~
+Four giant pillars stand here with each bearing a golden orb which hums
+and shakes violently.  The hall is enormous -both in size and the feel of 
+sheer malevelent power.  In the far corner, you see a set of red plush seats
+that once seated an entranced sorceress now freed from her prison.  At the
+center is an altar upon which an alabaster pedastal sits.  As you near the
+center, you feel as if another set of eyes are suddenly set upon you.  A
+powerful feeling of unworthiness envelops you as you realize that the being
+preent may not at all be mortal or within human comprehension.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 2682
+D3
+~
+~
+0 0 2680
+S
+#2682
+`8Hordes of Defilement``~
+You enter one of the most nauseating rooms you have ever seen and witnessed.
+The putrid smell of rotting flesh and fresh blood reaches your nostrils
+as you hear anguished cries in the distance.  Before you stand rows upon
+rows of rotting corpses which seem to twitch and writhe as if they were
+alive. Edging closer you are startled as you notice a pair of living
+eyes within each corpse.  This is the price of treason, of crossing your 
+bounds, and of beytraying Him that they swore to serve until death.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2683
+D2
+~
+~
+0 0 2709
+D3
+~
+~
+0 0 2681
+S
+#2683
+`8Hordes of Defilement``~
+You enter one of the most nauseating rooms you have ever seen or witnessed.
+The putrid smell of rotting flesh and fresh blood reaches your nostrils
+as you hear anguished cries in the distance.  Before you, stand rows upon
+rows or rotting corpses which seem to twitch and writhe as if they were
+alive. Edging closer, you are startled as you notice a living pair of
+eyes within each corpse.  This is the price of treason, of crossing your
+bounds, and or betraying Him that they swore to serve until death.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2684
+D2
+~
+~
+0 0 2682
+S
+#2684
+`8A pitch-black corridor``~
+Narrowing down, the cavernous hallway extends to the north and south.  On
+the walls are written in a beautiful script something that you cannot 
+translate. From far away, you can hear blasts of steam blowing from the
+ground and the roar of an open furnace.  Spiritual but eerie chanting can be
+heard that is being ingrained into your head.  
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2685
+D1
+~
+~
+0 0 2687
+D2
+~
+~
+0 0 2683
+S
+#2685
+`8A pitch-black corridor``~
+Narrowing down, the cavernous hallway extends to the south.  A door is to 
+the north.  On the walls are written in a beautiful script something that 
+you cannot translate.  From far away, you can hear blasts of steam blowing
+from the ground and the roar of an open furnace.  Spiritual but eerie 
+chanting can be heard that is slowly being ingrained into your head.
+~
+~
+0 9 0 0
+D0
+~
+~
+ABCM 2627 2686
+D2
+~
+~
+0 0 2684
+S
+#2686
+`8Behind enclosed bars``~
+This room is bare with very little or no furnishings.  The bare stone
+floor is extremely cold, almost freezing.  Bones of some kind of rodent
+type animal are scattered all over the floor as the torches within keep
+some kind of light - though none you have ever seen.  A faint green glow
+comes from an unrecognizeable source.  A small stool is seen here.
+~
+~
+0 8 0 0
+D2
+~
+~
+ABCM 2627 2685
+D5
+~
+~
+0 0 2715
+S
+#2687
+`8The path of treason``~
+You enter one of the most nauseating rooms you have ever seen and witnessed.
+The putrid smell of rotting flesh and fresh blood reaches your nostrils
+as you hear anguished cries in the distance.  Before you stand rows upon
+rows of rotting corpses which seem to twitch and writhe as if they were
+alive. Edging closer, you are startled as you notice a pair of living eyes
+within each corpse.  Such is the price of treason, of crossing your bounds,
+and of betraying Him that you swore to serve until death.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 2688
+D3
+~
+~
+0 0 2684
+S
+#2688
+`8The path of treason``~
+You enter one of the most nauseating rooms you have ever seen and witnessed.
+The putrid smell of rotting flesh and fresh blood reaches your nostrils
+as you hear anguished cries in the distance.  Before you stand rows upon
+rows of rotting corpses which seem to twitch and writhe as if they were
+alive. Edging closer, you are startled as you notice a pair of living eyes
+within each corpse. Such is the price of treason, of crossing your bounds,
+and of betraying Him that you swore to serve until death.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 2689
+D3
+~
+~
+0 0 2687
+S
+#2689
+`8The path of treason``~
+You enter one of the most nauseating rooms you have ever seen and witnessed.
+The putrid smell of rotting flesh and fresh blood reaches your nostrils
+as you hear anguished cries in the distnace.  Before you stand rows upon
+rows of rotting corpses which seem to twitch and writhe as if they were
+alive. Edging closer, you are startled as you notice a pair of living eyes
+within each corpse.  Such is the price of treason, of crossing your bounds,
+and of betraying Him that you swore to serve until death.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 2690
+D3
+~
+~
+0 0 2688
+S
+#2690
+`8A corridor``~
+The corridor is void of any ornamentation whatsoever.  The ground is made of
+a solid grey stone.  Light and darkness seem to flicker as the torches seem
+to dance in the dim light.  The air is not moving and very stale smelling
+here. The only sound is of your feet hitting the stone floor, echoing in
+the darkness.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2689
+D2
+~
+~
+0 0 2691
+S
+#2691
+`8A corridor``~
+It is freezing cold here as a strong gale blows across your face.  The 
+corridor is void of any ornamentation whatsoever.  The ground is made of
+a solid grey stone.  Light and darkness seem to flicker as the torches seem
+to dance in the dim light.  The air is not moving and is very stale smelling
+here. Distant sounds of steam being expelled from the ground can be heard along
+with an open roar of a huge fire.  The corridor continues north and east.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2690
+D1
+~
+~
+0 0 2692
+S
+#2692
+`8A corridor``~
+It is freezing cold here as a strong gale blows across your face.  You take
+note that it does not seem like the cold is being generated by any natural
+force. The ground is made of a solid grey stone.  Light and darkness seem
+to flicker as the torches seem to dance in the dim light.  The air is not
+moving and is very stale smelling here.  Distant sounds of steam being
+expelled from the ground can be heard along with an open roar of a huge fire.
+The corridor continues east and west.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 2693
+D3
+~
+~
+0 0 2691
+S
+#2693
+`8A corridor``~
+It is freezing cold here as a strong gale blows across your face.  You take
+note that it does not seem like the cold is being generated by any natural
+force. The ground is made of a solid grey stone.  Light and darkness seem
+to flicker as the torches seem to dance in the dim light.  The air is not
+moving and is very stale smelling here.  Distant sounds of steam being
+expelled from the ground can be heard along with an open roar of a huge fire.
+The corridor continues east and west.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 2694
+D3
+~
+~
+0 0 2692
+S
+#2694
+`8The dungeon cells``~
+Columns of rather large prison cells line each side of you.  These cells
+are not ordinary by any means.  The bars are made of a strange metal which
+shines even through the darkness.  Runes of evil_banishment line the walls
+of each cell.  The cells must have been built to hold the most evil and most
+powerful of a myriad of entities.  Torches or lamps no longer light the way
+but instead magical glowing orbs line the walls in between the cells.  
+Something within this dungeon must be absorbing the heat energy or any 
+form of physical energy making them useless.
+~
+~
+0 9 0 0
+D0
+~
+~
+ABCM 2627 2712
+D2
+~
+~
+0 0 2695
+D3
+~
+~
+0 0 2693
+S
+#2695
+`8The dungeon cells``~
+Columns of rather large prison cells line each side of you.  These cells
+are not ordinary by any means.  The bars are made of a strange metal which
+shines even through the darkness.  Runes of evil banishment line the walls
+of each cell.  The cells must have been built to hold the most evil and most
+powerful of a myriad of entities.  Torches or lamps no longer light the way
+but instead magical glowing orbs line the walls in between the cells.
+Something within this dungeon must be absorbing the heat energy or any
+form of physical energy making them useless.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2694
+D2
+~
+~
+0 0 2696
+S
+#2696
+`8The dungeon cells``~
+Columns of rather large prison cells line each side of you.  These cells
+are not ordinary by any means.  The bars are made of a strange metal which
+shines even through the darkness.  Runes of evil banishment line the walls
+of each cell.  The cells must have been built to hold the most evil and most
+powerful of a myriad of entities.  Torches or lamps no longer light the way
+but instead magical glowing orbs line the walls in between the cells.
+Someting within this dungeon must be absorbing the heat energy or any 
+form of physical energy making them useless.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2695
+D2
+~
+~
+0 0 2697
+S
+#2697
+`8An intersection``~
+Pillars with golden spheres at their peaks stand at all four corners of the
+junction. The spheres give off a magical type of light that seems to make
+your armor glow in a strange way.  The runes on the walls begin to glow
+as well resulting from the golden sphers.  Jagged stones jut through
+randomly from the walls and the floor is also extremely rough.  Several
+fresh tracks in the dust indicates that something has moved recently.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2696
+D1
+~
+~
+0 0 2699
+D3
+~
+~
+0 0 2698
+S
+#2698
+`8Among shimmering gates``~
+Colors of all different shades, varieties, and types surround you blinking
+on and off and moving around all at the same time.  Several surreal gateways
+to unknown planes are here.  Within the gateways is a dull-black color ..
+seemingly sealed off forever as the Gorgon heads upon the gates have their 
+eyes closed - resting.  When the time comes that an intruder tries to
+tresspass, they will once again awaken.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 2697
+D3
+~
+~
+0 0 2701
+S
+#2699
+`8Among shimmering gates``~
+Colors of all different shades, varieties, and types surround you blinking
+on and off and moving around all at the same time.  Several suureal gateways
+to unknown planes are here.  Within the gateways is a dull-black color ..
+seemingly sealed off forever as the Gorgon heads upon the gates have their 
+eyes closed - resting.  When the time comes that an intruder tries to
+tresspass, they will once again awaken.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 2700
+D3
+~
+~
+0 0 2697
+S
+#2700
+`8Among shimmering gates``~
+Colors of all different shades, varieties, and types surround you blinking
+on and off and moving around all at the same time.  Several surreal gateways
+to unknown planes are here.  Within the gateways is a dull-black color ..
+seemingly sealed off forever as the Gorgon heads upon the gates have their
+eyes closed - resting.  When the time comes that an intruder tries to 
+tresspass, they will once again awaken.  
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 2699
+S
+#2701
+`8Spiraled tunnels``~
+The tunnel here is extremely crudely cut.  Edges are no longer smooth, but
+ now are jagged as if just a primitive cave.  Glowing runes of banishment
+ are etched in a spiral fashion along the circumference of the cave surface.
+ Along the runes are located protective force shields built to deflect any
+ethereal substance.  At anyrate, the cave looks very peculiar - but yet at
+the same time ...mysterious.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2704
+D1
+~
+~
+0 0 2698
+D2
+~
+~
+0 0 2702
+S
+#2702
+`8Spiraled tunnels``~
+The tunnel here is extremely crudely cut.  Edges are no longer smooth, but
+now are jagged as if just a primitive cave.  Glowing runes of banishment
+are etched in a spiral fashion along the circumference of the cave surface.
+Along the runes are located protective force shields built to defelct any
+ethereal substance.  At anyrate, the cave looks very peculiar - but yet at
+the same time ...mysterious.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2701
+D2
+~
+~
+0 0 2703
+S
+#2703
+`8Spiraled tunnels``~
+The tunnel here is extremely crudely cut.  Edges are no longer smooth, but
+now are jagged as if just a primitive cave.  Glowing runes of banishment
+are etched in a spiral fashion along the circumference of the cave surface.
+Along the runes are located protective force shields built to deflect any
+ethereal substance.  At anyrate, the cave looks very peculiar - but yet at
+the same time ...mysterious.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2702
+D2
+~
+~
+ABCM 2627 2711
+S
+#2704
+`8Spiraled tunnels``~
+The tunnel here is extremely crudely cut.  Edges are no longer smooth, but
+now are jagged as if just a primitive cave.  Glowing runes of banishment
+are etched in a spiral fashion along the circumference of the cave surface.
+Along the runes are located protective force shields built to deflect any
+ethereal substance.  At anyrate, the cave looks very peculiar - but yet at
+the same time ...mysterious.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 2701
+D3
+~
+~
+0 0 2705
+S
+#2705
+`8A corridor``~
+The corridor is void of any ornamentation whatsoever.  The ground is made of
+a solid grey stone.  Light and darkness seem to flicker as the torches seem
+to dance in the dim light.  The air is not moving and very stale smelling
+here. The only sound is of your feet hitting the stone floor, echoing in
+the darkness.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 2704
+D3
+~
+~
+0 0 2706
+S
+#2706
+`8A corridor``~
+The corridor is void of any ornamentation whatsoever.  The ground is made of
+a solid grey stone.  Light and darkness seem to flicker as the torches seem
+to dance in the dim light.  The air is not moving and very stale smelling
+here. The only sound is of your feet hitting the stone floor, echoing in
+the darkness.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 2705
+D3
+~
+~
+0 0 2707
+S
+#2707
+`8A corridor``~
+The corridor is void of any ornamentation whatsoever.  The ground is made of
+a solid grey stone.  Light and darkness seem to flicker as the torches seem
+to dance in the dim light.  The air is not moving and very stale smelling
+here. The only sound is of your feet hitting the stone floor, echoing in
+the darkness.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 2706
+D2
+~
+~
+ABCM 2627 2710
+D3
+~
+~
+0 0 2708
+S
+#2708
+`8A corridor``~
+The corridor is void of any ornamentation whatsoever.  The ground is made of
+a solid grey stone.  Light and darkness seem to flicker as the torches seem
+to dance in the dim light.  The air is not moving and very stale smelling
+here. The only sound is of your feet hitting the stone floor, echoing in
+the darkness.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2709
+D1
+~
+~
+0 0 2707
+S
+#2709
+`8A corridor``~
+The corridor is void of any ornamentation whatsoever.  The ground is made of
+a solid grey stone.  Light and darkness seem to flicker as the torches seem
+to dance in the dim light.  The air is not moving and very stale smelling
+here. The only sound is of your feet hitting the stone floor, echoing in
+the darkness.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 2682
+D2
+~
+~
+0 0 2708
+S
+#2710
+`8Behind enclosed bars``~
+This room is bare with very little or no furnishings.  The bare stone
+floor is extremely cold, almost freezing.  Bones of some kind of rodent
+type animal are scattered all over the floor as the torches within keep
+some kind of light - though none you have ever seen.  A faint green glow
+comes from an unrecognizeable source.  A small stool is seen here.
+~
+~
+0 9 0 0
+D0
+~
+~
+ABCM 2627 2707
+D2
+~
+portal~
+ABM 0 2718
+D5
+~
+~
+0 0 2717
+S
+#2711
+`8Behind enclosed bars``~
+This room is bare with very little or no furnishings.  The bare stone
+floor is extremely cold almost freezing.  Bones of some kind from a rodent
+type animal are scattered all over the floor as the torches within keep
+some kind of light - though none you have ever seen.  A faint green glow
+comes from an unrecognizable source.  A small stool is seen here.
+~
+~
+0 9 0 0
+D0
+~
+~
+ABCM 2627 2703
+D2
+~
+~
+0 0 2716
+S
+#2712
+`8Behind enclosed bars``~
+This room is bare with very little or no furnishings.  The bare stone
+floor is extremely cold, almost freezing.  Bones of some kind of rodent
+type animal are scattered all over the floor as the torches within keep
+some kind of light - though none you have ever seen.  A faint green glow
+comes from an unrecognizeable source.  A small stool is seen here.
+~
+~
+0 9 0 0
+D2
+~
+~
+ABCM 2627 2694
+D5
+~
+~
+0 0 2714
+S
+#2713
+`8The Room of the Hidden Mob``~
+If you are in this room and you are not a god, then you are in a place
+that you shouldn't be in.  It would be in your best interest to pray
+to a god if you get stuck in here.  
+~
+~
+0 32772 0 0
+S
+#2714
+`8A crack in the ground``~
+The darkness is suffocating here.  All you can hear are the squeaks of 
+rats and other rodents.  Your feet rattle against a metal object.  Could
+it be a bucket?
+~
+~
+0 1 0 0
+D4
+~
+~
+0 0 2712
+S
+#2715
+`8A hole in the ground``~
+Nothing but a hole in the ground that is dark and clammy.  In the 
+distance you can hear the dripping of water.
+~
+~
+0 0 0 0
+D4
+~
+~
+0 0 2686
+S
+#2716
+`8Encrypted Power Runes``~
+Some very strange runes have been etched into the walls here.  They
+a strange eerie light as if stimulated by something nearby.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 2711
+S
+#2717
+`8A hole in the ground``~
+You are in the dark confines of a narrow hole.  The air around you is damp and 
+cold.  You seem to wait for the hole to give way and collapse upon your tiny
+head.
+~
+~
+0 9 0 0
+D4
+~
+~
+0 0 2710
+S
+#2718
+`8The Shrine of Death's Scourge``~
+You are standing within a small room covered from wall to wall with blood
+and gore.  In the center of the room stands a small shrine covered in equal
+gore.  Surrounding this shrine are pale men in black wool robes worshipping
+upon the ground.  Behind the altar is a fragile old man wearing the frock of
+a priest who seems to have collapsed upon the shrine.  
+~
+~
+0 8204 0 0
+D0
+~
+~
+ABM 0 2710
+P GRALL 10 100~
+S
+#2719
+`8The Shrine of Chaos``~
+As you look around you, your vision is clouded by a scintilating display
+of colors.  Vivid blues, reds, yellows and nearly every other color
+imaginable swirls in a hypnotic, random pattern.  A sense of unease fills
+your soul as you wander about, slowly adjusting to your surroundings.  As
+your mind clears, you are able to make the outline of a pedestal.  Or is it
+a pillar?  You come to the realization that the object before you hold no
+true form, rather shifting unpredictably through a variety of different
+shapes.  
+~
+~
+0 343932953 0 0
+D5
+~
+~
+ABM 0 2639
+T 65
+P GRALL 18 100~
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 2604 spec_cast_mage
+M 2606 spec_breath_fire
+M 2612 spec_cast_undead
+M 2613 spec_cast_cleric
+M 2615 spec_cast_mage
+S
+
+
+
+#TRAPS
+#2685
+an unholy blight~
+You hear the distant chantings of a thousand unholy priests.~
+You hear the distant chantings of a thousand unholy priests.~
+spell 36 DI
+curse~ 1 plague~ -6 13
+#2694
+a demonic hex~
+You hear the distant chantings of a demonic voice.~
+You hear the distant chantings of a demonic voice.~
+spell 40 DI
+blindness~ 1 hex~ 1 16
+#0
+
+#RESETS
+M 0 2600 1 2604 1
+G 0 2600 0
+O 0 2600 0 2607
+M 0 2601 12 2609 1
+E 0 2603 0 5
+E 0 2602 0 9
+E 0 2601 0 6
+M 0 2601 12 2611 1
+E 0 2603 0 5
+E 0 2602 0 9
+E 0 2601 0 6
+O 0 2610 0 2611
+M 0 2607 8 2614 1
+E 0 2613 0 9
+E 0 2612 0 13
+M 0 2601 12 2615 1
+E 0 2603 0 5
+E 0 2602 0 9
+E 0 2601 0 6
+M 0 2608 2 2618 1
+M 0 2601 1 2619 1
+M 0 2607 8 2620 1
+E 0 2613 0 9
+E 0 2612 0 13
+M 0 2601 12 2624 1
+E 0 2603 0 5
+E 0 2602 0 9
+E 0 2601 0 6
+M 0 2609 1 2627 1
+E 0 2614 0 13
+M 0 2606 1 2629 1
+E 0 2611 0 1
+M 0 2607 8 2631 1
+E 0 2612 0 13
+E 0 2613 0 9
+M 0 2601 12 2633 1
+E 0 2603 0 5
+E 0 2602 0 9
+E 0 2601 0 6
+M 0 2608 2 2636 1
+M 0 2603 1 2638 1
+E 0 2605 0 11
+M 0 2607 8 2642 1
+E 0 2612 0 13
+E 0 2613 0 9
+M 0 2607 8 2645 1
+E 0 2612 0 13
+E 0 2613 0 9
+G 0 2630 0
+M 0 2604 1 2649 1
+E 0 2606 0 6
+E 0 2607 0 5
+E 0 2608 0 18
+E 0 2609 0 14
+M 0 2601 12 2650 1
+E 0 2603 0 5
+E 0 2602 0 9
+E 0 2601 0 6
+O 0 2615 0 2653
+O 0 2615 0 2653
+M 0 2615 1 2653 1
+G 0 2629 0
+M 0 2605 1 2654 1
+M 0 2607 8 2659 1
+E 0 2612 0 13
+E 0 2613 0 9
+G 0 2630 0
+M 0 2601 12 2660 1
+E 0 2603 0 5
+E 0 2602 0 9
+E 0 2601 0 6
+M 0 2607 8 2663 1
+E 0 2612 0 13
+E 0 2613 0 9
+G 0 2630 0
+M 0 2601 12 2664 1
+E 0 2603 0 5
+E 0 2602 0 9
+E 0 2601 0 6
+O 0 2628 0 2667
+M 0 2601 12 2670 1
+E 0 2603 0 5
+E 0 2602 0 9
+E 0 2601 0 6
+O 0 2627 0 2671
+M 0 2602 1 2674 1
+G 0 2604 0
+M 0 2601 12 2676 1
+E 0 2603 0 5
+E 0 2602 0 9
+E 0 2601 0 6
+O 0 2616 0 2679
+O 0 2624 0 2683
+P 0 2629 0 2624 1
+T 0 2685 1 2685 0
+M 0 2610 1 2686 1
+E 0 2617 0 13
+E 0 2618 0 0
+O 0 2627 0 2686
+T 0 2694 1 2694 0
+M 0 2614 1 2699 1
+E 0 2626 0 8
+E 0 2625 0 17
+M 0 2611 1 2710 1
+E 0 2619 0 17
+E 0 2632 0 6
+O 0 2627 0 2710
+M 0 2612 1 2711 1
+E 0 2621 0 3
+E 0 2620 0 17
+O 0 2627 0 2711
+G 0 2633 0
+M 0 2613 1 2712 1
+E 0 2622 0 17
+E 0 2623 0 9
+O 0 2627 0 2712
+O 0 2718 0 2718
+M 0 2718 1 2718 1
+O 0 2631 0 2719
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+M 2614 1 Menthalas.prg NL
+M 2615 1 avatar.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

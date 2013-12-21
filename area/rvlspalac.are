@@ -1,0 +1,1666 @@
+#AREADATA
+Name Revelsport Palace~
+Pref ~
+Builders Crypticant~
+VNUMs 21000 21050
+Max_Bastions 0
+Credits {10  30} Crypticant Revelsport Palace~
+Security 9
+Startroom 0
+Flags 128
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#21001
+captain Revelsport guard~
+the Captain~
+The Captain of the Revelsport Guards is here, standing watch.
+~
+~
+human~
+ABZe A DFHJ 0 750 0
+40 25 10d10+4500 0d0+100 4d6+25 slash
+-2 -2 -2 -2
+CEFJKN AB C 0
+stand stand male none~
+200
+AHMV ABCDEFGHIJK medium 0
+P EXIT 21001 east~
+P EXIT 21001 north~
+P GIVE 21002 21041~
+#21002
+golem gate city~
+gate golem~
+A gate golem stands motionless, awaiting your decision.
+~
+Motionless, silent, the giant mechanical being stands before you
+with its unblinking eyes awaiting your decision.  Its metalic surface
+covered with humming runes, it awaits your payment to active the gate
+and send you on your way.
+~
+human~
+ABZe A DHJ 0 0 0
+60 50 100d50+12000 0d0+100 6d8+70 pound
+-20 -20 -20 -30
+FK 0 D 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK large 0
+#21003
+prostitute town ~
+The town prostitute~
+The town prostitute takes refuge here.
+~
+It looks as though she was ridden hard, and put away wet.  
+~
+human~
+Ae A H 0 40 0
+23 10 1d5+350 0d0+100 3d3+4 slap
+3 3 3 3
+0 AB D 0
+stand stand female none~
+400
+AHMV ABCDEFGHIJK medium 0
+#21004
+king fat regal~
+The King of Revelsport~
+Garbed in red regal robes, the king sits quietly here.
+~
+His large stomach protrudes from beneath his dark red robe, hanging over
+the huge golden belt that he wears around his waist.  A large diamond
+studded crown covers his head, glimmering brightly in the sunlight.  It is
+obvious where Revelsport' tax coins are going.  
+~
+human~
+A A DFHV 0 200 0
+53 39 1d1+7000 0d0+100 9d6+30 slice
+39 39 39 40
+EFK AB C 0
+stand stand male none~
+1000
+AHMV ABCDEFGHIJK medium 0
+#21005
+armed palace guard~
+an armed palace guard~
+A heavily armed palace guard walks a patrol here.
+~
+Armor covers his entire body from head to toe, revealing not the least
+bit of skin.  Soft clanks echo throughout the hallways as he walks the
+corridors.  
+~
+human~
+AGd A DFJ 0 0 0
+45 7 10d5+3400 0d0+100 8d6+14 slash
+12 12 12 12
+EFK A BC 0
+stand stand male none~
+250
+AHMV ABCDEFGHIJK medium 0
+#21006
+visiting guest~
+a visiting Noble~
+A visting Noble goes about their business within the palace.
+~
+~
+human~
+AGd A DFJ 0 0 0
+30 20 4d6+1200 0d0+100 4d6+25 slash
+0 0 0 0
+FKN 0 0 0
+stand stand either none~
+250
+AHMV ABCDEFGHIJK medium 0
+#21007
+prince deceptive human~
+The prince of Revelsport~
+The prince of Revelsport stands here with a deceptive look.
+~
+A look of deception upon his face, the prince stands here stroking his
+chin slowly.  The area around his eyes are darkened, as if he has been
+staying up for days.  He seems to stare out into nowhere, contemplating
+something.  
+~
+human~
+ATe A DFHV 0 -1000 0
+46 25 1d1+7400 0d0+100 8d7+20 agony
+30 30 29 20
+CEFHJKN AB D F
+stand stand male none~
+993
+AHMV ABCDEFGHIJK medium 0
+#21008
+princess Revelsport woman lady~
+The princess~
+The princess of Revelsport fills the air around you with her beauty.
+~
+A stunning white dress covers her beautiful lithe body.  Dark brown locks
+of hair fall down upon her shoulders, pushed behind her ears.  Her eyes
+match the color of her hair, and seem to glimmer with a unique sense of
+beauty not found in any other women you have ever seen.  
+ 
+~
+human~
+AR A DFH 0 200 0
+40 30 2d2+5000 0d0+100 5d5+20 slap
+20 40 30 20
+EKN AB C 0
+stand stand female none~
+200
+AHMV ABCDEFGHIJK medium 0
+#21010
+palace servant~
+a palance servant~
+A palace servant is here, scurrying about their duites.
+~
+~
+human~
+AGd A 0 0 0 0
+10 5 4d6+450 0d0+100 2d4+8 punch
+0 0 0 0
+FK AB 0 0
+stand stand either none~
+10
+AHMV ABCDEFGHIJK medium 0
+#21011
+maiden young beautiful~
+A beautiful maiden~
+A beautiful maiden looks over the balcony.
+~
+Long straight black hair falls slightly into her visage, near her
+beautiful face.  Slightly pointed ears poke out, indicative of an elf.  Her
+piercing blue eyes gaze dreamily into the distance, overlooking Revelsport. 
+A thin white dress covers her well shaped elven body, revealing much of her
+beautiful figure.  
+~
+human~
+AQ A DH 0 200 0
+30 20 1d1+2000 0d0+100 4d5+15 slap
+20 20 20 20
+EK AB D 0
+stand stand female none~
+300
+AHMV ABCDEFGHIJK medium 0
+#21014
+librarian savant~
+a Savant Librarian~
+A Savant Librarian is here, reading.
+~
+A woman clad in a white tunic marked with a red quill pen on
+the front rests here reading. She is obviously the resident
+librarian here, and ensures the relics of Revelsport are kept
+within the confines of the Archives. She does, however, seem to
+sell a few books. Perhaps if you ask her nicely, she will let
+you see what she has to sell.
+~
+human~
+ABGRe A DFHJ 0 0 0
+60 30 4d6+6120 0d0+100 5d6+35 grep
+-16 -16 -16 -16
+FKN AB C 0
+stand stand female none~
+2500
+AHMV ABCDEFGHIJK medium 0
+#21033
+priest mage scribe wizard~
+the priest-mage~
+An ancient priest-mage turned scribe is resting here.
+~
+~
+human~
+ABGRe A DFHJ 0 1000 0
+45 9 7d5+3800 0d0+100 2d3+25 magic
+-20 -20 -20 -20
+DHX AB K 0
+stand stand male none~
+350
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 21033 invitation~
+#21038
+palace servant~
+a palace servant~
+A palace servant is here, resting from a long day.
+~
+~
+human~
+AB A DFJ 0 0 0
+25 10 4d6+1000 0d0+100 4d6+10 punch
+0 0 0 0
+F AB 0 0
+stand stand either none~
+25
+AHMV ABCDEFGHIJK medium 0
+#21045
+palace guard~
+a palace guard~
+A Palace Guard of Revelsport is here.
+~
+~
+human~
+ABT A DFJ 0 0 0
+35 15 4d6+1800 0d0+100 4d6+20 slash
+0 0 0 0
+EFHN 0 C 0
+rest rest male none~
+50
+AHMV ABCDEFGHIJK medium 0
+#21046
+ghrrenin master sage mage~
+The master sage, Ghrrenin~
+Ghrrenin the master sage scowls at your intrusion.
+~
+His dark heavy eyebrows are now bent inwards in anger as he spys your
+intrusion into his dark study.  Black midnight eyes pierce furiously in your
+direction, indicating intense displeasure.  His body is covered in a dark
+runed robe, adorned with several smaller drawings.  His body appears quite
+frail, though the way he gazes at you tells you otherwise.  The air around
+you seems to heat and twist violently, displaying only but a tiny fraction
+of the master sage's supreme power.  
+~
+human~
+ABRe A HTUV 0 -500 0
+55 40 1d1+5000 0d0+100 10d6+70 rays
+30 25 25 29
+IK AB CE 0
+stand stand male none~
+400
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#21000
+royal seal~
+the royal seal of Revelsport~
+A large, ivory seal is here on the ground.~
+ivory~
+key A ABS
+0 0 0 0 0
+55 20 1 P
+F
+A 13 25 0
+F
+A 24 -3 0
+#21001
+elite armor breastplate~
+an Elite Guard breastplate~
+A shiny black breastplate with a Royal insignia is here on the ground.~
+steel~
+armor BK ADX
+4 8 6 6 0
+55 100 2 P
+F
+A 19 1 0
+F
+A 18 2 0
+#21002
+corpse drenaar~
+the corpse of Drenaar~
+A mangled corpse is here, hung from the archway.~
+unknown~
+trash ABG P
+0 0 0 0 0
+58 10000 0 P
+E
+corpse~
+Tattered clothes hang off a battered, bruised, and broken female body. 
+Golden locks of hair, drenched with blood, hang over her torn face.  Dark
+bruises are littered throughout her abused flesh.  The condition of the body
+leads you to believe that torture was a big part of the victims demise.  
+~
+#21003
+robe master sage dark intricate~
+a Master Sage Robe ~
+A dark robe covered in tiny intricate runes is upon the floor.~
+Cloth~
+armor CFLM AKS
+6 6 6 10 0
+50 70 1 P
+#21004
+king crown Revelsport~
+the `#Crown`` of `8Revelsport``~
+A diamond studded golden crown lies upon the floor.~
+Gold~
+armor B AES
+3 2 2 2 0
+50 40 1 P
+F
+A 18 2 0
+F
+A 19 2 0
+F
+A 17 -5 0
+#21005
+throne~
+a massive throne~
+The Throne of Roses rests here in the center of the room.~
+gold~
+furniture A 0
+0 0 0 0 0
+0 0 1 P
+#21006
+fruit juice cocktail~
+a glass of fruit juice cocktail~
+A glass of fruit juice rests here.~
+glass~
+drink 0 A
+4 4 'cranberry juice' 0 0
+0 0 10 P
+#21007
+wine glass~
+a glass of icewine~
+A goblet of icewine is chilling here.~
+glass~
+drink 0 A
+3 3 'icewine' 0 0
+0 0 10 P
+#21008
+caviar~
+a small plate of caviar and crackers~
+A small plate of caviar and crackers rests here.~
+fish eggs~
+food 0 A
+5 5 0 0 2
+0 0 10 P
+#21009
+grapes~
+a bushel of grapes~
+A bushel of grapes rests here on the ground.~
+grapes~
+food 0 A
+2 2 0 0 2
+0 0 10 P
+#21012
+red cape regal robe~
+a Regal Red Robe~
+A regal looking red robe lies upon the floor.~
+Cloth~
+armor 0 AKX
+3 2 3 13 0
+50 15 2 P
+F
+A 12 30 0
+F
+A 24 -3 0
+#21013
+prince ring prince's~
+a Dark Prince's Ring~
+A small ring indicative of royalty lies here.~
+Darken~
+armor BCFJLMZ ABS
+1 2 2 4 0
+50 1 1 P
+F
+A 18 4 0
+F
+A 26 -2 0
+#21014
+dress stunning white~
+a Stunning White Elven Dress~
+A beautiful white dress lies upon the floor.~
+Cloth~
+armor 0 ADX
+5 9 10 6 0
+40 15 5 P
+F
+A 18 3 0
+#21016
+throne~
+a gilded throne~
+The Throne of Storms rests here in the center of the room.~
+gold~
+furniture A 0
+0 0 0 0 0
+0 0 1 P
+#21020
+horrible scar~
+a `!red`` `3festering scar``~
+A piece of flesh is here, rotting.~
+flesh~
+armor ACEHJMOTU ACS
+3 2 2 1 0
+50 0 5 P
+F
+A 19 1 0
+F
+A 2 -1 0
+F
+A 18 2 0
+#21021
+horrible scar~
+a `!red scar`` over one eye~
+A rotting piece of flesh is here.~
+flesh~
+armor EHMOTU AESc
+3 2 2 1 0
+50 0 10 P
+F
+A 26 -2 0
+F
+A 2 2 0
+#21023
+wedding dress~
+a stunning, white strapless wedding dress~
+A stunning white wedding dress is lying, discarded, here.~
+satin~
+clothing A AD
+0 0 0 0 0
+50 10 100 P
+#21024
+satin slippers~
+a pair of white satin slippers~
+A pair of white satin slippers is lying on the ground here.~
+satin~
+clothing A AG
+0 0 0 0 0
+50 10 100 P
+#21025
+sheer white veil~
+a sheer white veil~
+A gauzy white veil rustles in the wind here.~
+sheer~
+clothing A Ad
+0 0 0 0 0
+50 10 100 P
+#21026
+diamond tiara~
+a glittering diamond tiara~
+A glittering diamond tiara is lying on the ground here.~
+gold~
+clothing A AE
+0 0 0 0 0
+50 10 100000 P
+#21027
+wedding bouquet~
+a bouquet of fragrant white gardenias~
+A bundle of some white flowers is lying on the ground here.~
+unknown~
+trash A AO
+0 0 0 0 0
+50 10 100 P
+#21028
+black petticoats~
+a set of long, black petticoats~
+A set of black jackets are lying on the ground here.~
+wool~
+clothing B AK
+0 0 0 0 0
+50 10 100 P
+#21029
+billowing white shirt~
+a billowing white silk shirt~
+A white shirt made of some airy fabric is lying here.~
+silk~
+clothing B AD
+0 0 0 0 0
+50 5 100 P
+#21030
+black trousers~
+some black trousers~
+A pair of black trousers is lying here.~
+cloth~
+clothing B AF
+0 0 0 0 0
+50 10 100 P
+#21031
+ring wedding~
+a `#golden`` ring engraved with `2entwined`` `!roses``~
+A lovely golden ring lies glittering on the ground here.~
+gold~
+jewelry AB AB
+0 0 0 0 0
+50 10 100000 P
+#21032
+ring wedding mens~
+a `#golden`` ring engraved with `8silver`` `3ships``~
+A lovely golden ring lies glittering on the ground here.~
+gold~
+jewelry AB AB
+0 0 0 0 0
+50 10 100000 P
+F
+A 18 1 0
+F
+A 19 1 0
+F
+A 5 1 0
+#21033
+family crest~
+the `8Coat`` of `#Arms`` of the Drynne Family~
+A long slip of velvet is lying on the ground here.~
+velvet~
+clothing 0 AC
+0 0 0 0 0
+50 10 100 P
+#21040
+bed~
+a bed~
+A lovely four poster bed is set here in the center of the room.~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 0 25 P
+#21041
+formal invitation Revelsport val_miran Revelsport !VMINV!~
+a formal invitation~
+A formal invitation from the Revelsport Palace is lying here.~
+paper~
+herb PU A
+24 '' 'reserved' 'reserved' ''
+50 10 10 P
+#210210
+bed~
+a bed~
+A neatly made bed is here in the corner.~
+bedding~
+furniture 0 0
+0 0 0 0 0
+0 0 25 P
+#0
+
+
+
+#ROOMS
+#21000
+`7A grand staircase``~
+You are climbing a grand staircase that leads upward into the
+Palace of Revelsport. It is covered in gold gilt, and seems to
+be crafted of heavy mahogany. Rich red carpet runs down the
+stairs, and it is well lit by several oil lanters in place on
+the walls. Upward lies the palace, and below is the courtyard.
+ 
+A heavy door lies before you. You think it perhaps best to
+leave the King and Queen to their business. The Guards around
+here are not generally kind to unwelcome visitors.
+~
+~
+0 0 0 1
+D0
+~
+palisade~
+ABG 0 21001
+D3
+~
+~
+0 0 21014
+S
+#21001
+`7The Grand Foyer``~
+You are in the grand foyer of Revelsport Palace, the upstairs
+section. A broad picture window rests behind you, and overlooks
+Calidor Terrace. The ceilings are vast and arched, and covered
+with lovely paintings of the era. Ornate furniture decorates
+this waiting room, and several armed guards see that access to
+the King and Queen's private chambers is restricted.
+~
+~
+0 8200 0 1
+D0
+~
+~
+0 0 21002
+D1
+~
+~
+0 0 21006
+D2
+~
+palisade~
+ABG 0 21000
+S
+#21002
+`8Within the Grand Hallway``~
+You are walking down the main hallway of the palace. Hard marble
+floors lit with cornice torchiers add to the splendor of the palace.
+Large oil paintings centuries old don the walls of this great place,
+and it seems no expense was spared in its building.
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 21003
+D2
+~
+~
+0 0 21001
+S
+#21003
+`8The North End of the Grand Hallway``~
+You stand at the Northern End of the Hallway. A lovely foyer is
+just north of you, and south, beyond the marbled hallway is the
+main entrance, where several heavily armed guards stand watch.
+Nobles and servants are all around you scurrying about their
+daily duties.
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 21004
+D2
+~
+~
+0 0 21002
+S
+#21004
+`8A Splendid Waiting Chamber``~
+You find yourself in an arched waiting room. The cieling rises
+upward, and is painted with gold leafwork in various signets of
+the royal families. North is a large glassed entryway that leads
+into the Queen of Revelsport's personal throneroom. Southward is
+the end of the northern hallway.
+~
+~
+0 8200 0 0
+D0
+~
+porticullis~
+AB 0 21005
+D2
+~
+~
+0 0 21003
+S
+#21005
+`8The Queen's Throneroom``~
+You stand amid a grand throneroom. Large stone pillars rise up in
+all corners to meet a vaulted cieling several spans high. Brazen
+torches line the walls, and massive red tapestries are hung on the
+walls between the pillars. The floor is stone, save for the long
+red carpet that leads to a beautiful throne set up on a pedestal.
+~
+~
+0 8200 0 0
+D2
+~
+~
+AB 0 21004
+S
+#21006
+`8The Eastern Hallway``~
+You are walking down a busy eastern hallway. Servants and nobles
+use this hall expressly to present business to the King and Queen.
+Doors line the walls north and south of you, and beyond lie the
+quarters of the palace guards. The hall continues eastward, where
+it ends in a staircase.
+~
+~
+0 8200 0 0
+D0
+~
+~
+AB 0 210210
+D1
+~
+~
+0 0 21007
+D2
+~
+~
+AB 0 210210
+D3
+~
+~
+0 0 21001
+S
+#21007
+`8The Eastern Hallway``~
+You are walking down a busy eastern hallway. Servants and nobles
+use this hall expressly to present business to the King and Queen.
+Doors line the walls north and south of you, and beyond lie the
+quarters of the palace guards. The hall continues eastward, where
+it ends in a staircase.
+~
+~
+0 8200 0 0
+D0
+~
+~
+AB 0 21045
+D1
+~
+~
+0 0 21008
+D2
+~
+~
+AB 0 21046
+D3
+~
+~
+0 0 21006
+S
+#21008
+`8At the Foot of a Grand Staircase``~
+You stand at the terminus of a massive staircase that spirals upward
+to the second floor of the Palace. It is cut from solid marble, and is
+lined with thick, plush red carpet that is kept immaculate. Oil lamps
+line the walls, and keep a soft glow on the stairs.
+~
+~
+0 8200 0 0
+D3
+~
+~
+0 0 21007
+D4
+~
+~
+0 0 21009
+S
+#21009
+`8Climbing the Grand Staircase``~
+You are within the grand staircase, in the eastern tower of the palace.
+Thick carpet runners line the floors, and the stairs spiral upward to
+the second floor, or downward to the main level of the palace. You can
+see light coming from a hallway just above you.
+~
+~
+0 8200 0 0
+D4
+~
+~
+0 0 21010
+D5
+~
+~
+0 0 21008
+S
+#21010
+`8At the Top of the Grand Staircase``~
+You stand at the top of a great spiral staircase. Westward, a long
+hallway lined with deep blue carpet runs to a foyer at the end. The
+stairs continue upward, and are not as well lit as the rest of the
+stairs.
+~
+~
+0 8200 0 0
+D3
+~
+~
+0 0 21011
+D4
+~
+~
+0 0 21021
+D5
+~
+~
+0 0 21009
+S
+#21011
+`8The Main Hallway``~
+You are in the main hall of the second floor of the palace. This is the
+King's Hall, and security is tigher up here. Large armed guards patrol
+the halls here, and look at you with a frown. Few are allowed into this
+section of the palace, save for visiting dignitaries and city nobles
+here on political business,.
+~
+~
+0 8200 0 0
+D0
+~
+~
+AB 0 21040
+D1
+~
+~
+0 0 21010
+D2
+~
+~
+AB 0 21041
+D3
+~
+~
+0 0 21012
+S
+#21012
+`8The Main Hallway``~
+You are in the main hall of the second floor of the palace. This is the
+King's Hall, and security is tigher up here. Large armed guards patrol
+the halls here, and look at you with a frown. Few are allowed into this
+section of the palace, save for visiting dignitaries and city nobles
+here on political business.
+~
+~
+0 8200 0 0
+D0
+~
+~
+AB 0 21042
+D1
+~
+~
+0 0 21011
+D2
+~
+~
+AB 0 21043
+D3
+~
+~
+0 0 21013
+S
+#21013
+`8A Beautiful Foyer``~
+You stand amid the terminus of the hallway, which is a lovely foyer
+lined with flowering plants and beautiful paintings. The cieling here
+arches skyward, and ends in a great glass skylight that allows in rays
+of sunshine and warmth. A large glass door lies to the south, and another
+hallway stretches northward.
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 21015
+D1
+~
+~
+0 0 21012
+D2
+~
+~
+0 0 21018
+D3
+~
+closet~
+AB 0 21017
+S
+#21014
+`8The Entrance to the Revelsport Library``~
+You stand before a large porticullis that leads into a large,
+and seemingly expansive library. A librarian stands here, all
+dressed in white garments marked with a red quill pen that seem
+to denote a position of authority in the Savant cabal. The floors
+are all made of hard, polished marble, and the vaulted ceilings
+are well painted, and covered in fabulous paintings.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 21000
+D3
+~
+~
+0 0 21044
+S
+#21015
+`8A Great Archway``~
+You stand before a great archway made of ivory. Thick carvings of lions
+are etched into the ivory. The walls here are white and lovely, and
+decorated with paintings and artifacts from the First Age of Mirlan.
+Northward is a set of heavy doors, and the terminus of the blue plush
+carpet.
+~
+~
+0 8200 0 0
+D0
+~
+entrance~
+AB 0 21016
+D2
+~
+~
+0 0 21013
+S
+#21016
+`8The King's Throneroom``~
+Here rests the greatest throne room in Mirlan. The King of Revelsport, the
+ruler of the largest, and most powerful city in the lands, makes his abode
+here. The room is very massive and tall, with dark granite floors and heavy
+stone pillars at intervals along the walls. A red carpet runner trails
+the full length of the mighty room, where it ends at a massive throne set
+on a pedestal of steps. High above in the arched room a vaulted skylight
+allows the sun to penetrate the room.
+~
+~
+0 8200 0 0
+D2
+~
+~
+AB 0 21015
+S
+#21017
+`8A Coat Closet``~
+You are in a closet. It is dark. Enough said.
+~
+~
+0 8201 0 0
+D1
+~
+~
+AB 0 21013
+S
+#21018
+`8A Smaller Archway``~
+You walk through a smaller archway that leads to a south facing
+balcony overlooking Calidor Terrace of Revelsport. From three floors
+up, this balcony provides a good place to address crowds of the
+city. 
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 21013
+D2
+~
+~
+0 0 21019
+S
+#21019
+`8Before a Set of Glass Doors``~
+You stand before a heavy set of glass doors leading out to a patio
+that overlooks the city of Revelsport. Sunlight shines in through the
+panes of glass that radiate warmth even in winter. Rich green plants
+line the halls here, and flower beautifully.
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 21018
+D2
+~
+glass~
+AB 0 21020
+S
+#21020
+`8A Marble Balcony``~
+You stand on a balcony wrought with lovely ironwork lattice. Below
+you, Calidor Terrace lies, three stories down. Quite a fall! The city
+of Revelsport stretches out before you, and you can even seen the forest
+to the south from this vantage point.
+~
+~
+0 8192 0 0
+D0
+~
+~
+AB 0 21019
+S
+#21021
+`8Another Staircase``~
+You find yourself walking further upward, into a darker tower. Above
+lies the third floor of the palace, and the final level. Nobles and
+servants are not as visible here, but you can hear murmuring voices
+coming from a hallway above you.
+~
+~
+0 8200 0 0
+D4
+~
+~
+0 0 21022
+D5
+~
+~
+0 0 21010
+S
+#21022
+`8At the Top of the Secondary Staircase``~
+You are at the top of the staircase that leads to the third floor of
+the palace. In this floor reside the quarters of the palace servants,
+as well as the private rooms of the Prince and Princess. The halls are
+humble, and not nearly as well decorated as the rest of the Palace. But,
+the green plush carpet still allows some elegance.
+~
+~
+0 8200 0 0
+D3
+~
+~
+0 0 21023
+D5
+~
+~
+0 0 21021
+S
+#21023
+`8The Upper Hallway``~
+You stand in the upper hallway of the Palace. Soft green carpet is
+under your feet, and the halls are well-lit by brass lamps that are
+set and regular intervals along the walls. It is pretty, and very well
+kept, but humble in its outward appearance, in comparison with the
+rest of the palance, anyway.
+~
+~
+0 8200 0 0
+D0
+~
+~
+AB 0 21038
+D1
+~
+~
+0 0 21022
+D2
+~
+~
+AB 0 21039
+D3
+~
+~
+0 0 21024
+S
+#21024
+`8The Upper Hallway``~
+You stand in the upper hallway of the Palace. Soft green carpet is
+under your feet, and the halls are well-lit by brass lamps that are
+set at regular intervals along the walls. It is pretty, and very well
+kept, but humble in its outward appearance, in comparison with the
+rest of the palance, anyway.
+~
+~
+0 8200 0 0
+D0
+~
+~
+AB 0 21036
+D1
+~
+~
+0 0 21023
+D2
+~
+~
+AB 0 21037
+D3
+~
+~
+0 0 21025
+S
+#21025
+`8The Upper Hallway``~
+You stand in the upper hallway of the Palace. Soft green carpet is
+under your feet, and the halls are well-lit by brass lamps that are
+set at regular intervals along the walls. It is pretty, and very well
+kept, but humble in its outward appearance, in comparison with the
+rest of the palance, anyway.
+~
+~
+0 8200 0 0
+D0
+~
+~
+AB 0 21034
+D1
+~
+~
+0 0 21024
+D2
+~
+~
+AB 0 21035
+D3
+~
+~
+0 0 21026
+S
+#21026
+`8A Lovely Foyer``~
+You stand at the end of the Upper Hallway in a lovely foyer. Small
+antique chairs are set along the walls, and the room is bright with
+light from mirrored torches. A small runner leads north and south
+to the rooms of the Prince and Princess, and a small, narrow hall
+lies just off this room.
+~
+~
+0 8200 0 0
+D0
+~
+entryway~
+AB 0 21027
+D1
+~
+~
+0 0 21025
+D2
+~
+entryway~
+AB 0 21028
+D3
+~
+~
+0 0 21029
+S
+#21027
+`8The Prince's Room``~
+Blue everywhere! The carpet of the room is a thick blue plush,
+and even the curtains of the room are a rich royal blue satin.
+They rest against a large window facing northward, and overlooking
+the great Northern Desert. A warm breeze rustles in though the
+open window.
+~
+~
+0 8200 0 0
+D2
+~
+~
+AB 0 21026
+S
+#21028
+`8The Princess's Room``~
+You are within the Princess's Room. It is adorned with lavendar paint,
+and set with lacey hues befitting the princess. The carpet is a rich
+milky white, and a massive picture window rests against the far wall,
+also set with lace curtains.
+~
+~
+0 8200 0 0
+D0
+~
+~
+AB 0 21026
+S
+#21029
+`8A Rickety Staircase``~
+You stand at the foot of an unused staircase. This leads upward into
+the western tower of the palace, and home to the resident crazy wizard.
+A rusty sign on the door warns people not to intrude on his studies,
+for he is known to be a cranky, and aggressive old man.
+~
+~
+0 8200 0 0
+D1
+~
+~
+0 0 21026
+D4
+~
+~
+0 0 21030
+S
+#21030
+`8Upon a Rickety Staircase``~
+You've decided to climb the steps into the tower anyway. The walls
+here are musty, even though the palace itself is brand new! The steps
+creak under your weight, and you can hear the wind howl outside the
+tower. It must be a great view from the top!
+~
+~
+0 8200 0 0
+D4
+~
+~
+0 0 21031
+D5
+~
+~
+0 0 21029
+S
+#21031
+`8Near the Top of the Wizard's Tower``~
+You've reached the top of the tower. Wind is howling outside of the
+tower, but above you the floor sets, a small hatchway cut into it.
+There is one last sign here warning travelers not to enter.
+~
+~
+0 8200 0 0
+D4
+~
+portal~
+AB 0 21032
+D5
+~
+~
+0 0 21030
+S
+#21032
+`8The Wizard's Tower``~
+You are inside the Wizard's Tower. It is very cramped in here, but clean.
+Workbenches lie all around, donned with assorted bottles, tools, and books.
+The resident of this tower seems to be an avid reader, as the walls are
+filled with stacks of books and half-burned candles.
+~
+~
+0 8200 0 0
+D1
+~
+~
+0 0 21033
+D5
+~
+~
+AB 0 21031
+S
+#21033
+`8The Alchemy Room``~
+This is the practice room of the Wizard. Stuffed dummies lie against the
+walls with scorched marks on them from various spells and potions used
+on them. Several copies of magical books lie around the room, with dog-
+eared tabs keeping the pages on certain spells. The room smells of burning
+hay and leaves.
+~
+~
+0 8200 0 0
+D3
+~
+~
+0 0 21032
+S
+#21034
+`8A Servant's Quarters``~
+You stand inside a very humble apartment. A wash basin, a bed, 
+and a small bureau are the only real furnishings inside. The carpet
+is a dark brown in color, but the room does have a window, with
+a set of cute curtains covering it.
+~
+~
+0 8200 0 0
+D2
+~
+~
+AB 0 21025
+S
+#21035
+`8A Servant's Quarters``~
+You stand inside a very humble apartment. A wash basin, a bed, 
+and a small bureau are the only real furnishings inside. The carpet
+is a dark brown in color, but the room does have a window, with
+a set of cute curtains covering it.
+~
+~
+0 8200 0 0
+D0
+~
+~
+AB 0 21025
+S
+#21036
+`8A Servant's Quarters``~
+You stand inside a very humble apartment. A wash basin, a bed, 
+and a small bureau are the only real furnishings inside. The carpet
+is a dark brown in color, but the room does have a window, with
+a set of cute curtains covering it.
+~
+~
+0 8192 0 0
+D2
+~
+~
+AB 0 21024
+S
+#21037
+`8A Servant's Quarters``~
+You stand inside a very humble apartment. A wash basin, a bed, 
+and a small bureau are the only real furnishings inside. The carpet
+is a dark brown in color, but the room does have a window, with
+a set of cute curtains covering it.
+~
+~
+0 8200 0 0
+D0
+~
+~
+AB 0 21024
+S
+#21038
+`8A Servant's Quarters``~
+You stand inside a very humble apartment. A wash basin, a bed, 
+and a small bureau are the only real furnishings inside. The carpet
+is a dark brown in color, but the room does have a window, with
+a set of cute curtains covering it.
+~
+~
+0 8200 0 0
+D2
+~
+~
+AB 0 21023
+S
+#21039
+`8A Servant's Quarters``~
+You stand inside a very humble apartment. A wash basin, a bed, 
+and a small bureau are the only real furnishings inside. The carpet
+is a dark brown in color, but the room does have a window, with
+a set of cute curtains covering it.
+~
+~
+0 8200 0 0
+D0
+~
+~
+AB 0 21023
+S
+#21040
+`8A Guest's Chamber``~
+You stand inside a guest room within the Palace of Revelsport. It is
+painted in white, with gilted coverings on the walls. Plush blue carpet
+rests on the floors, and, though humble, the room is very elegant. A
+large picture window stands by the bed, and heavy satin curtains are set
+at the top, which drape down to the floor.
+~
+~
+0 8200 0 0
+D2
+~
+~
+AB 0 21011
+S
+#21041
+`8A Guest's Quarters``~
+You stand inside a guest room within the Palace of Revelsport. It is
+painted in white, with gilted coverings on the walls. Plush blue carpet
+rests on the floors, and, though humble, the room is very elegant. A
+large picture window stands by the bed, and heavy satin curtains are set
+at the top, which drape down to the floor.
+~
+~
+0 8200 0 0
+D0
+~
+~
+AB 0 21011
+S
+#21042
+`8A Guest's Quarters``~
+You stand inside a guest room within the Palace of Revelsport. It is
+painted in white, with gilted coverings on the walls. Plush blue carpet
+rests on the floors, and, though humble, the room is very elegant. A
+large picture window stands by the bed, and heavy satin curtains are set
+at the top, which drape down to the floor.
+~
+~
+0 8200 0 0
+D2
+~
+~
+AB 0 21012
+S
+#21043
+`8A Guest's Quarters``~
+You stand inside a guest room within the Palace of Revelsport. It is
+painted in white, with gilted coverings on the walls. Plush blue carpet
+rests on the floors, and, though humble, the room is very elegant. A
+large picture window stands by the bed, and heavy satin curtains are set
+at the top, which drape down to the floor.
+~
+~
+0 8200 0 0
+D0
+~
+~
+AB 0 21012
+S
+#21044
+`8The Revelsport Library``~
+You stand within the Revelsport Library. Tall shelves that are
+filled to the brim with books are here for your perusal. All
+books are kept within the library to be read while you are here.
+The librarian at the front ensures none of these precious relics
+are removed from the library. The room is huge, with brightly
+burning oil lamps that provide ample reading light, and large
+stone pillars that support a vaulted ceiling high above you.
+A small door is to the south.
+~
+~
+0 5536210136 0 0
+D1
+~
+~
+0 0 21014
+D2
+~
+~
+AB 0 21049
+S
+#21045
+`8Guard's Quarters``~
+~
+~
+0 8200 0 0
+D2
+~
+~
+AB 0 21007
+S
+#21046
+`8Guard's Quarters``~
+~
+~
+0 8200 0 0
+D0
+~
+~
+AB 0 21007
+S
+#210210
+`8Guard's Quarters``~
+~
+~
+0 8200 0 0
+D2
+~
+~
+AB 0 21006
+S
+#210210
+`8Guard's Quarters``~
+~
+~
+0 8200 0 0
+D0
+~
+~
+AB 0 21006
+S
+#21049
+`8The Library Archives``~
+You are in a small, musty room. It is lit only by small oil lamps,
+and contains various relics from time past, as well as hundreds of
+books in boxes all around the room. It does not look as if many people
+visit this section of the library at all, for the books around here
+are all covered with dust and cobwebs.
+~
+~
+0 5536210136 0 0
+D0
+~
+~
+AB 0 21044
+S
+#21050
+`8unused``~
+unused
+~
+~
+0 8204 0 0
+M 0 H 0
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 21005 spec_gate_guard
+M 21014 spec_cast_mage
+M 21033 spec_cast_mage
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 21001 1 21001 1
+M 0 21005 4 21003 1
+M 0 21005 4 21004 1
+O 0 21005 0 21005
+M 0 21010 2 21006 10
+M 0 21006 2 21006 15
+M 0 21005 4 21006 1
+M 0 21010 2 21007 10
+M 0 21006 2 21007 15
+M 0 21006 2 21008 15
+M 0 21005 16 21008 2
+M 0 21005 4 21011 1
+M 0 21010 6 21011 1
+M 0 21010 2 21012 10
+M 0 21006 2 21012 15
+M 0 21005 4 21012 1
+M 0 21010 2 21013 10
+M 0 21006 2 21013 15
+M 0 21005 4 21013 1
+M 0 21014 1 21014 1
+M 0 21006 2 21015 15
+M 0 21005 4 21015 1
+O 0 21016 0 21016
+M 0 21011 1 21020 1
+M 0 21005 4 21021 4
+M 0 21010 2 21023 10
+M 0 21010 2 21025 10
+M 0 21010 2 21026 10
+M 0 21005 4 21029 4
+M 0 21005 4 21030 4
+M 0 21033 1 21033 1
+M 0 21038 1 21034 8
+M 0 21038 1 21035 8
+M 0 21038 1 21036 8
+M 0 21038 1 21037 8
+M 0 21038 1 21038 8
+M 0 21038 1 21039 8
+O 0 21040 0 21040
+O 0 21040 0 21041
+O 0 21040 0 21042
+O 0 21040 0 21043
+O 0 21044 0 21044
+O 0 21049 0 21044
+O 0 21010 0 21044
+O 0 21011 0 21044
+M 0 21045 1 21045 8
+O 0 210210 0 21045
+M 0 21045 1 21046 8
+O 0 210210 0 21046
+M 0 21045 1 210210 8
+O 0 210210 0 210210
+M 0 21045 1 210210 8
+O 0 210210 0 210210
+S
+
+
+
+#SHOPS
+21014 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#21001
+if isbloody $n
+  say You are too bloody to enter, $n.
+  emote blocks the entrance to the Palace.
+  mob stop $n
+endif
+if isroyal $n
+  if isevil $n
+   if carries $n 21041
+     emote looks closely at an invitation.
+     say Welcome to Revelsport Palace.
+     pmote bows briskly to $n.
+   else
+    say You are not welcome here, without formal invitation.
+    emote extends $s gloved hand impatiently.
+    mob stop $n
+   endif
+  endif
+  if isneutral $n
+   if carries $n 21041
+     emote looks closely at an invitation.
+     say Welcome to Revelsport Palace.
+     pmote bows briskly to $n.
+   else
+    say I cannot allow you passage without formal invitation, $n.
+    emote extends $s gloved hand.
+    mob stop $n
+   endif
+  endif
+  if isgood $n
+     emote raises $s halberd, and allows $n to pass.
+     emote bows deeply before $n.
+  endif
+else
+     say Only Royalty is allowed beyond this foyer, $n.
+     mob echoat $n $I lowers $s halberd, and prevents you from entering.
+     mob echoaround $n $I lowers $s halberd to prevent $n from entering.
+     mob stop $n
+endif
+~
+#21002
+mpjunk all
+say I will lead you to the waiting chamber.
+emote escorts you to the waiting chamber.
+mob transfer $n 21004
+mob at 21004 say Someone will be with you shortly. Wait here.
+mob at 21004 nod $n
+mob at 21004 emote leaves the room briskly.
+~
+#21033
+if isnpc $n
+ break
+endif
+if isroyal $n
+ if isgood $n
+  if hometown $n 'Val_Miran'
+   say Yes, of course, $n.
+   emote quickly pens a formal invitation to the Palace.
+   load obj 21041
+   give !VMINV! $n
+   smile $n
+  else
+   say You are a guest, $n. I cannot scrbe for you.
+  endif
+ else
+  emote arches a brow at you in a quizzical way, then returns to his work.
+ endif
+else
+  say Shoo, shoo, begone with you!
+  emote brushes you away with his hand.
+endif
+~
+#21041
+~
+#0
+
+M 21001 1 royal_guardian.prg NL
+M 21002 1 valmiran_gate.prg NL
+M 21005 1 vmpalace_guard.prg NL
+M 21010 1 vmpalace_servant.prg NL
+M 21014 0 palace_librarian.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

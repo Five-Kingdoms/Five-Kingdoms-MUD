@@ -1,0 +1,1425 @@
+#AREADATA
+Name [LAW]~
+Pref ~
+Builders Crypticant~
+VNUMs 16700 16799
+Max_Bastions 0
+Credits { ALL } Crypticant [LAW] ~
+Security 9
+Startroom 16700
+Flags 32
+Crimes 6 4 4 4 4 4 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#16700
+Law perimiter guards~
+Perimeter guard~
+One of the Law perimeter guards patrols the area.
+~
+Walking with the measured stride of a seasoned soldier the guard patrols
+the entrance and surrounding area.  He wears spotless armor and at his side
+gleams a sheathed longsword.  Your gaze travels upwards past the full helm
+with its visor closed and into the nearby watchtower with its complement of
+archers and crossbowmen.  You decided that diplomacy should take precedence
+here.  
+~
+human~
+ABVZ A DFHJNO 0 0 0
+40 20 1d1+5000 0d0+100 8d5+60 arrows
+-20 -20 -20 -20
+ADEFKW AB C 0
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+P GRALL 26 100~
+P EXALL 16700 down~
+P EXALL 16700 up~
+P EXALL 16700 east~
+P EXALL 16700 west~
+P EXALL 16700 north~
+P FIGHT 16701 100~
+#16701
+fergrun Law merchant~
+Fergrun the Merchant~
+Fergrun a local merchant is here tending his store.
+~
+He does not look like a wealthy man, nor like a poor merchant.  His
+clothes are of average quality and he bustles around his stall hawking the
+wares and proclaiming their usefulness.  Casting a glance past his sweaty
+face you see a fairly large stall with various useful items magical and
+mundane laid out for all to see.  
+~
+human~
+ABZ AC J 0 1000 0
+60 50 50d10+7000 0d0+100 3d80+20 cleave
+-30 -30 -30 -30
+EFHJK ABC D 0
+stand stand male none~
+30
+AHMV ABCDEFGHIJK medium 0
+#16702
+leslie teacher~
+Leslie~
+Leslie is here teaching the intricacies of Law.
+~
+Her face bears the fine lines of strength and intellect that give her
+breathtaking beauty.  A large tome is in her hand and she lectures the newer
+members of Law with a stern voice unused to being interrupted.  Without
+pausing she passes a brief glance and a smile in your direction
+acknowledging your presence.  
+~
+human~
+ABJKab A DFHJN 0 1000 0
+60 25 9999d1+1 24d1+99 6d4+30 divine
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand female none~
+29
+AHMV ABCDEFGHIJK medium 0
+#16703
+Grummen healer~
+Grummen~
+Grummen the High Cleric of Law stands here muttering something.
+~
+Before you stands what must be the largest and widest of all storm giants
+of Aabahran.  His height of upwards from three meters is matched only by
+circumference of his weight which fills the thick brown robe to a breaking
+point.  A heavy double belt of tanned leather holds the avalanche of fat in
+check yet the folds of lard still bulge out over the top giving this giant a
+double set of breasts of enormous proportions.  His fat sausage fingers wipe
+remains of the last meal off his chin as he spots you.  
+~
+human~
+ABJab A DFHJN 0 1000 0
+60 25 9999d1+1 5d1+99 6d4+30 divine
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male none~
+29
+AHMV ABCDEFGHIJK medium 0
+P GREET 16703 50~
+#16704
+fat curator~
+a fat curator~
+A rapidly balding and overweight curator glares at you.
+~
+With his hands on his waist, a short plump man lowers his eyebrows and
+stares in your direction.  His head bears a couple strips of hair, though
+most of his head reflects the light into your eyes.  His stomach protrudes a
+great amount, hanging over his belt and sagging down.  Despite his
+disgusting appearance, you sense a strange radiance of power from him. 
+Perhaps its best you buy what you need and leave.  
+~
+human~
+ABZ A DFHV 0 1000 15700
+70 15 1000d1+1 0d0+100 10d20+45 digestion
+20 20 20 20
+CEIJN ABCD 0 0
+stand stand male none~
+33
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 16704 *~
+#16705
+Francis taskmaster~
+Francis~
+Francis the Taskmaster watches over the barracks.
+~
+His annoyed face betrays the no-nonsense approach to life, and his very
+short temper.  His eye twitches as you enter and a grim scowl settles on his
+face as you near him.  Even from this distance the stink of sweat is
+overpowering.  
+~
+human~
+ABJKab A DFHJN 0 750 0
+60 25 9999d1+1 8d1+99 6d4+30 slash
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male none~
+25
+AHMV ABCDEFGHIJK medium 0
+P GREET 16705 50~
+#16706
+Duzzerdan smith dwarven~
+Duzzerdan~
+Duzzerdan the Smith pounds away with his hammer here.
+~
+Measuring no more then 3 feet this stout dwarven smith pounds away
+relentlessly at the anvil.  Various works of his manufacture line the walls,
+all of superb skill and craftsmanship.  Occasionly he glances up from below
+his bushy eyebrows and casts a cheerful gaze about.  
+~
+dwarf~
+ABJab A DFHJN 0 750 0
+60 25 9999d1+1 34d1+99 6d4+30 slash
+-30 -30 -30 -30
+EHK AB CL R
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16706 30~
+#16707
+Law observer~
+a Law observer~
+A Law observer hides here while keeping watch.
+~
+~
+human~
+ABe A BDFJQ 0 0 0
+50 20 50d10+200 0d0+100 5d6+25 slash
+0 0 0 0
+0 B 0 0
+stand stand none none~
+22
+AHMV ABCDEFGHIJK medium 0
+#16708
+Law trainee~
+a Law trainee~
+A Law trainee stands here looking about the courtroom.
+~
+Dressed in a drab uniform with only the Law Sigil to identify his powers, 
+or lack there of, a tall man stands.  He scurries about the courtroom making 
+sure everyone is quiet, while listening to the proceedings of the court.  
+~
+human~
+AGe A 0 0 0 0
+5 0 10d5+5 0d0+100 1d5+5 smash
+7 7 7 7
+EFN AB 0 0
+stand stand male none~
+3
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 16702 *~
+#16709
+Law magistrate ~
+a magistrate~
+A magistrate sits behind a cluttered desk looking busy.
+~
+Dressed in long robes with the Law Sigil embroidered on it, a man
+sits behind a cluttered desk.  He is very clean-shaven, yet his hair is
+nappy and unkempt.  His dark eyes reveal only one thing, boredom.  
+~
+human~
+AGe A 0 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB 0 0
+rest rest male none~
+2
+AHMV ABCDEFGHIJK medium 0
+#16710
+gnome man~
+a gnome man~
+A gnome man is here making a complaint to the magistrate.
+~
+Dressed in faded clothes, torn in several places, a short man angrily
+stands.  A look of disgust is expressed on his face, while his head bobs,
+and his tiny arms flail about his head.  
+~
+gnome~
+AGe AC J 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 claw
+6 6 6 9
+EFN AB 0 BEP
+stand stand male none~
+5
+AHMV ABCDEFGHIJK medium 0
+#16711
+Law judge Forthlon~
+Judge Forthlon~
+Judge Forthlon, the presiding official is here, trying to look important.
+~
+A man stands here, wearing flowing robes emblazoned with the Sigil of
+Law.  In his hand, he holds a small oaken gavel, his symbol of office. 
+He notices your intrusion into his domain, and continues with his work.  
+~
+dwarf~
+ABJab A DFHJN 0 750 0
+60 25 9999d1+1 64d1+99 6d4+30 slash
+-30 -30 -30 -30
+EHK AB CL R
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16707 20~
+#16712
+young Law page~
+A Law page~
+A young Law page is here, shopping for school supplies.
+~
+~
+human~
+AG AC 0 0 0 0
+5 0 10d5+5 0d0+100 1d5+5 smash
+7 7 7 7
+EFN AB 0 0
+stand stand male none~
+8
+AHMV ABCDEFGHIJK medium 0
+#16713
+student attentive~
+An attentive student~
+An attentive student sits at a desk, frevently writing into a notebook.
+~
+His eyes are locked ahead, and he writes rapidly into a small notepad on
+his desk before him.  He has a sign on his back that reads, 'Teacher's Pet'.
+~
+human~
+AGe AC 0 0 0 0
+5 0 10d5+5 0d0+100 1d5+5 smash
+7 7 7 7
+EFN AB 0 0
+stand stand male none~
+4
+AHMV ABCDEFGHIJK medium 0
+#16714
+sleeping student~
+A sleepy student~
+A sleeping student sits at his desk, snoring loudly.
+~
+He snores quite loudly, but none of the other students seem to notice
+him.  A thin line of drool flows from his mouth, pooling on the desk's
+surface.  It would be best not to disturb him.  
+~
+human~
+AGe AC 0 0 0 0
+5 0 10d5+5 0d0+100 1d5+5 smash
+7 7 7 7
+EFN AB 0 0
+sleep sleep male none~
+7
+AHMV ABCDEFGHIJK medium 0
+#16715
+custodian Law pasty~
+The evidence custodian~
+A thin, pale man stands here, tending the shelves.
+~
+He no doubt spends quite a bit of time in this room.  The lack of natural
+light has taken its toll upon this hapless soul.  He wears thick lensed
+glasses and his skin is pale.  He mutters softly to himself and he dusts the
+shelves.  
+~
+human~
+AGe AC 0 0 0 0
+15 5 10d15+5 0d0+100 1d15+5 smash
+0 0 0 0
+EFN AB 0 0
+stand stand none none~
+12
+AHMV ABCDEFGHIJK medium 0
+#16716
+wounded guard~
+A wounded Law guard~
+A wounded guard rests on a cot.
+~
+He isn't looking too good.  Bloodied bandages are wrapped around nearly
+every bit of his body, and his arm is in a cast.  He was no doubt injured
+while defending the grounds.  
+~
+human~
+AGe AC 0 0 0 0
+5 0 1d1+5 0d0+100 1d5+0 none
+7 7 7 7
+EFN AB 0 0
+rest rest male none~
+5
+AHMV ABCDEFGHIJK medium 0
+#16717
+burly guard~
+A burly guard~
+A burly guard stands here, his arms folded over his chest.
+~
+He obviously doesn't enjoy his job.  He grumbles and curses everytime
+someone passes by.  He stands within the large vault, making sure noone
+touches the treasures within.  
+~
+human~
+AGe A 0 0 0 0
+5 0 10d5+5 0d0+100 1d5+5 slash
+7 7 7 7
+EFN AB 0 0
+stand stand male none~
+2
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16708 20~
+#16718
+perimeter guard~
+A perimeter guard~
+A perimeter guard is here, pacing the wall nervously.
+~
+He stands holding a long spear, gazing out upon the horizon for signs of
+trouble.  This is his watch, and he is determined to do his job.  
+~
+human~
+AGcd AC 0 0 0 0
+5 0 1d5+5 0d0+100 1d10+5 slash
+7 7 7 7
+EFN AB 0 0
+stand stand male none~
+7
+AHMV ABCDEFGHIJK medium 0
+#16719
+young patron~
+A young patron~
+A young museum patron is looking at the displays with interest.
+~
+He strolls casually about the room stopping to look at each displayed
+item.  Occasionally, he makes a small note in a notepad, then continues on. 
+~
+human~
+AGe AC 0 0 0 0
+1 0 1d5+5 0d0+100 1d5+1 punch
+10 10 10 10
+EFN AB 0 0
+stand stand male none~
+3
+AHMV ABCDEFGHIJK medium 0
+#16720
+gate guard~
+An off-duty guard~
+An off-duty guard is here, resting after a long shift.
+~
+Resting heavily on a bench, this guard has removed his helmet.  He has
+evidentally been on duty for some time, as you can see sweat dripping down
+his weathered face.  He notices you looking at him, then goes back to sleep.
+~
+human~
+AGe AC 0 0 0 0
+5 0 10d5+5 0d0+100 1d5+5 slash
+7 7 7 7
+EFN AB 0 0
+sleep sleep male none~
+11
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16711 100~
+#16721
+shifty intelligence officer~
+An intelligence officer~
+A shifty eyed intelligence officer leans over a large table.
+~
+He is thin and wiry, but his eyes sparkle with intelligence.  He has most
+likely seen things that would make you cringe, and bore it all with grin on
+his face.  
+~
+human~
+AGe AC 0 0 0 0
+5 0 10d5+5 0d0+100 1d5+5 none
+7 7 7 7
+EFN AB 0 0
+stand stand male none~
+6
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16714 20~
+#16722
+bruiser fat~
+A big bruiser~
+A big bruiser with a taped nose stands here, looking quite menacing.
+~
+His nose has been taped, most likely because it has been broken recently.
+He wears a tight black tunic, and his huge arms are folded menacingly on
+his chest.  He nods, and grunts everytime his companion speaks. 
+~
+human~
+A A 0 0 0 0
+10 5 20d10+100 0d0+10 2d8+5 crush
+3 3 3 3
+0 0 0 0
+stand stand male none~
+10
+AHMV ABCDEFGHIJK medium 0
+#16723
+sleeping soldier female~
+A sleepy soldier~
+A female soldier lies here, sleeping after a hard day's work.
+~
+She was so tired, she didn't even take off her armor.
+~
+human~
+AGe AC 0 0 0 0
+5 0 10d5+5 0d0+100 1d5+5 punch
+7 7 7 7
+EFN AB 0 0
+sleep sleep female none~
+10
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16711 100~
+#16724
+sleeping soldier male~
+A sleepy male soldier~
+A male soldier lies here, sleeping after a hard day's work.
+~
+He was so tired, he didn't bother to take off his armor.
+~
+human~
+AGe A 0 0 0 0
+5 0 10d5+5 0d0+100 1d5+5 punch
+7 7 7 7
+EFN AB 0 0
+sleep sleep male none~
+4
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16711 100~
+#16725
+Observer soldier~
+The tower observer~
+The tower observer sit in a small chair, gazing intently at the horizon.
+~
+He appears to be dedicated to his job.  At his side is a small telescope.
+He wear no armor, but a longsword is sheathed on his belt.  As you inspect
+him closer, you realize he is asleep at his post.  
+~
+human~
+AGe AC 0 0 0 0
+5 0 10d5+10 0d0+100 1d5+5 slash
+7 7 7 7
+EFN AB 0 0
+sleep sleep male none~
+4
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#16700
+pit storage~
+a storage pit~
+A large storage pit has been built here.~
+stone~
+container OT 0
+10000 0 0 10000 100
+60 0 10000 P
+#16701
+potion recall~
+a potion of recall~
+A potion of recall is here, coveted by all.~
+liquid~
+potion U AO
+10 'word of recall' '' '' ''
+10 30 4 P
+#16702
+potion law empowerment~
+a potion of law's empowerment~
+A large potion bearing the crest of Law on its surface lies on the floor here.~
+Liquid~
+potion B AO
+0 'fly' '' '' ''
+10 2 5 P
+#16703
+belted sack~
+a belted sack~
+A large sack with a heavy belt attached lies here.~
+leather~
+container HU AO
+350 A 0 80 90
+10 20 12 P
+#16704
+iron ration rations~
+a pack of iron rations~
+A dented tin can with the words RATIONS written on it.~
+food~
+food U A
+48 48 0 0 360
+10 20 24 P
+#16705
+scroll law empowerment~
+a scroll of law's empowerment~
+A large scroll bearing the crest of Law on its surface lies on the floor here.~
+papyrus~
+scroll A AO
+15 'fly' '' '' ''
+10 2 10 P
+#16706
+scroll vigor~
+a scroll of vigor~
+A small scroll inscribed with runes of vigor.~
+papyrus~
+scroll A AO
+15 'refresh' '' '' ''
+30 2 1 P
+#16707
+canteen~
+a tin canteen~
+A round piece of tin used to store water.~
+tin~
+drink PU AO
+240 240 'water' 0 0
+10 50 11 P
+#16708
+orb protection sphere~
+the Orb of Protection~
+A large white orb sparkling with inner light.~
+glass~
+staff G AO
+10 10 10 'sanctuary' 0
+40 50 25 P
+#16709
+wand protection~
+the Wand of Protection~
+A small white wand sparkling with inner light.~
+glass~
+wand G AO
+0 0 0 'reserved' 0
+40 50 18 P
+#16710
+evidence locker~
+the evidence locker~
+The massive evidence locker is here.~
+iron~
+container 0 P
+1000 AC 0 200 100
+60 100 0 P
+E
+evidence~
+Its an iron chest the size of a full grown giant with a massive lock upon
+its lid clearly of dwarven manufacture.  Potent runes of protection riddle
+the locker's surface makeing it all but impervious against any mundane assault.
+~
+E
+locker~
+Its an iron chest the size of a full grown giant with a massive lock upon
+its lid clearly of dwarven manufacture.  Potent runes of protection riddle
+the locker's surface making it all but impervious against any mundane assault.
+~
+P USE 16710 100~
+#16711
+ancient looking glass~
+Gorthae's Looking Glass~
+A small bronze looking glass marked with Gorthae's personal insignia.~
+bronze~
+staff AX AO
+50 -1 -1 'reveal hidden' 0
+45 15 1000 P
+E
+looking~
+The strange looking glass has been a mystery to Law wise man for many
+years, until a recent Alliance with the forces of Savants allowed the relic
+to be studied by the Chronmasters of Arcanum.  To great surprise of both the
+Savant's and Law the relic seemed to have been forged and imbued with
+its power before the Infinity Sequence by the Psion Dreadlord Gorthae
+himself!  To this day the powerful psychic enchantments allow the user to
+see things normally shrouded from normal sight.  
+~
+E
+glass~
+The strange looking glass has been a mystery to Law wise man for many
+years, until a recent Alliance with the forces of Savants allowed the relic
+to be studied by the Chronmasters of Arcanum.  To great surprise of both the
+Savant's and Law the relic seemed to have been forged and imbued with
+its power before the Infinity Sequence by the Psion Dreadlord Gorthae
+himself!  To this day the powerful psychic enchantments allow the user to
+see things normally shrouded from normal sight.  
+~
+E
+gorthae's~
+The strange looking glass has been a mystery to Law wise man for many
+years, until a recent Alliance with the forces of Savants allowed the relic
+to be studied by the Chronmasters of Arcanum.  To great surprise of both the
+Savant's and Law the relic seemed to have been forged and imbued with
+its power before the Infinity Sequence by the Psion Dreadlord Gorthae
+himself!  To this day the powerful psychic enchantments allow the user to
+see things normally shrouded from normal sight.  
+~
+#16712
+Law shield~
+the Shield of Law~
+A huge shield with the mark of Law lies here.~
+magic~
+armor GHZ AJ
+9 14 15 12 0
+50 35 1200 P
+E
+shield~
+A mighty shield marked with the brilliant insignia of Law.  It is
+said that it was a gift from the Royal Duke Stalatharata given when the
+forces of Law aided the town of Shasarazade in its time of need.  The
+great kite shield has been known not only to enhance its user's aim but also
+posses potent healing powers.  
+~
+E
+Law~
+A mighty shield marked with the brilliant insignia of Law.  It is
+said that it was a gift from the Royal Duke Stalatharata given when the
+forces of Law aided the town of Shasarazade in its time of need.  The
+great kite shield has been known not only to enhance its user's aim but also
+posses potent healing powers.  
+~
+T
+27 1 30
+$p shines with righeous glow.~
+$p shines with righeous glow.~
+F
+A 18 3 0
+F
+A 13 5 0
+F
+A 12 10 0
+#16713
+truncheon hinderance~
+the Truncheon of Hinderance~
+The massive Truncheon of Hinderance rests on the ground.~
+steel~
+weapon Me AN
+exotic 9 5 smash J
+50 180 1500 P
+E
+truncheon~
+This truncheon is surprisingly heavy considering it's compact size.  The
+thick steel comprising it is bevelled at one end to fit comfortably in your
+hand.  It was crafted in honor of the mighty Law giant Dedric.  His
+ability to stop criminals dead in their tracks was legendary and for this
+reason the weapon is infused with some kind of magical energy which has been
+known to temporarily stun a criminal.  
+~
+E
+hinderance~
+This truncheon is surprisingly heavy considering it's compact size.  The
+thick steel comprising it is bevelled at one end to fit comfortably in your
+hand.  It was crafted in honor of the mighty Law giant Dedric.  His
+ability to stop criminals dead in their tracks was legendary and for this
+reason the weapon is infused with some kind of magical energy which has been
+known to temporarily stun a criminal.  
+~
+F
+A 18 2 0
+P FIGHT 16713 20~
+#16714
+Law Codex~
+the Law Codex~
+Cast in solid iron the Law Codex awaits your eyes.~
+Iron~
+trash T P
+0 0 0 0 0
+0 750 0 P
+E
+Law codex~
+Cut out of pure iron, yet unmarked by any sign of rust or decay
+the Justce Codex lies before your eyes.
+
+
+	"read page1"............ Scripture of Laws
+	"read page2"............ Scripture of Laws
+	"read page3"............ Scripture of Conduct
+	"read page4"............ Scripture of Conduct
+	"read page5"............ Scripture of Judgement
+~
+E
+page1~
+This guide is to explain several common crimes and aid Law's in
+determining what they should do in some given situations. To see
+wether the area you are in is protected by the law or not use the
+"law" command.
+ 
+Sheathing,
+When in protected areas citizens are required to have all weapons
+sheathed, up to two warnings should be given before issuing a
+fine. Laws or Royals MUST look at the individual and only when 
+weapons are noticed to be DRAWM a fine or wanted flag may be issued. 
+Failure to obey this procdure will result in penalties agains the Law.
+NOTE: Criminals cannot be wanted for this offense.
+  
+Looting,
+The taking of items from the corpse of anyone other than an outlaw
+in protected cities is against the law. When Law or Royal sees
+a person loot another's corpse within the town the offender MUST 
+first be given opportunity to return the belongings to the rightful
+owner.  If they do not comply in timly manner they are to be marked 
+a criminal.
+ 
+"read page2" for more..
+~
+E
+page2~
+Theft,
+The stealing of items from anyone other than an outlaw within a
+protected city is against the law, this includes weapons and shields
+that are disarmed during the course of a battle. 
+ 
+Assault,
+Attacking any creature within a protected city is against the
+law be it a guard, guild servant, bystander, or an animal.
+Any spells causing a yell and spells of summon, faerie fog, and gate 
+like spells are subject to this law.  This includes, but is not
+limited to attacking or provoking the LAW cabal guard or the
+jail guards.  Any who are witnessed in person to be in combat with
+any LAW guard is to be found in violation of the law.
+ 
+Murder,
+Killing, or attempting to kill a non outlaw within a protected city
+is against the law. Any spells causing a yell and spells of summon,
+faerie fog, and gate like spells are subject to this law.
+ 
+"read page3" for more.
+~
+E
+page3~
+General information,
+
+I. 
+No criminal who's deeds have been abdicated by Judgement or Time
+may be treated as if they were a criminal.  The Law is blind
+to those whom are aquited of their crimes.
+ 
+II.
+All Law members will follow orders from those above them in the 
+hall of Law, Members will follow the orders of elders, elders 
+will follow the orders of the leader, and the leader will get his 
+orders directly from Law Immortal.
+ 
+III.
+Under no circumstances will a bribes be accepted.
+ 
+IV.
+A Law or Royal must be fully visible to the criminal during the crime
+in order to flag him without penalty.  The Law and Royal MUST remain 
+visible at all times when in the city. The Law who flags a criminal 
+must first tell them what crime they are charged with, and why before they 
+begin pursuit. To see if your current location is protected under the law 
+use the "law" command.
+ 
+"read page4" for more.
+~
+E
+page4~
+V.
+No Law shall remove a wanted flag placed by another Law member 
+without the original Law's permission.
+  
+VI.
+If a criminal is visible to a Law in their immediate area, the 
+Law MUST attempt to apprehend the criminal. It is the duty of the 
+Law and should take priority over anything not related to Law.
+ 
+VII.
+Laws are not allowed to group with, or in any way aid a known criminal.
+ 
+VIII.
+When more then one Sentinel is present, the Laws must attempt to
+staff each lawful city that holds trade with Law cabal.
+ 
+IX.
+In the event of a raid upon the city, those people aiding in defense of
+said city, are exempt from sheathing laws while defending and are permitted
+to attack raiders without fear of aprehension.
+ 
+"Read page5" for more.
+~
+E
+page5~
+Judgement Guidelines,
+
+I.
+When about to pass judgement upon a captured criminal, Law is to
+use the "judge" command to weight the crimes commited by the criminal.
+
+II.
+The judgement handed out must be of no greater penalty then as indicated
+by the "judge" command, as to be in accordance with the laws set upon
+Royals of the city in which the deed was done.
+
+III.
+Any items transfered to Law upon capture are theirs to keep or
+return as seen fit.  In case of Outlaws, any item upon their corpse
+may be taken or destroyed as per Law judgement.
+ 
+~
+#16715
+roll call rollcall~
+the Law Roll Call~
+The official Law Roll Call has been posted here.~
+wood~
+trash 0 P
+0 0 0 0 0
+0 0 0 P
+P LOOK 16715 100~
+#16716
+potion detect invis~
+a potion of detect-invisibility~
+A potion of detect-invisibility is here.~
+liquid~
+potion 0 AO
+10 'detect invis' 'reserved' 'reserved' 'reserved'
+20 0 5 P
+#0
+
+
+
+#ROOMS
+#16700
+`8Before the Law Cabal``~
+Before you are huge pillars of stone that span high into the air,
+embracing the entrance to the Law Cabal.  Tiny etchings are carved in
+each pillar, with each carving being unique from the others.  A thumping
+sound can be heard from inside, that reminds you of a wardrum, only more
+hollow.  
+~
+~
+0 295698440 16 0
+D3
+~
+~
+0 0 9088
+M 0 H 0
+S
+#16701
+`8Storage Room``~
+You find yourself standing within a large warehouse, it's walls lined
+with shelves weighed down with creates and barrels.  The plethora of
+containers have been labeled with black stenciled lettering detailing their
+origin and destination.  A large number of people can be seen milling about,
+jotting things down on pieces of parchment and moving the packages around. 
+It is quite busy here.  
+~
+The warehouse you are in, while normally bustling, is silent.  The
+workers have all gone home and it seems as though they dropped whatever it
+was they were carrying where they stood.  The once orderly rows are little
+more than piles of crates and barrels.  Lit torches line the walls providing
+just enough light to see by.  
+~
+0 295698444 2 0
+E
+containers~
+These barrels and boxes have all been sealed to prevent unauthorized
+access.  Thick wax seals close the barrels while thin metal bands are
+tightly wound about the numerous boxes.  
+~
+S
+#16702
+`8Court Room``~
+As you walk into this room, the silence is almost deafening.  A long
+aisle parts through a sea of fine oaken chairs and leads to a small swinging
+gate.  Beyond this, the room is primarily empty save two long stone tables
+and a tall elevated bench.  An immense sigil of Law adorns the wall
+behind the bench, seemingly surveying all before it.  A matching symbol is
+embossed upon the marble floor.  
+~
+The room is cast into darkness, shafts of silver moonlight pour through
+the large windows illuminating the sigil on the floor in an eerie light. 
+The room has been cleaned immaculately, leaving no trace of an previous
+occupation.  
+~
+0 295698444 2 0
+S
+#16703
+`8General Store``~
+A long counter is just inside this room, behind which is an aging balding
+man wearing a leather apron.  On the wall behind him, countless shelves hold
+several different items, as do the boxes set on the floor underneath them.  
+~
+The room is cast into darkness, shafts of silver moonlight pour through
+the large windows illuminating the sigil on the floor in an eerie light. 
+The room has been cleaned immaculately, leaving no trace of an previous
+occupation.  The only light available is from a window on a nearby wall.  
+~
+0 295698444 2 0
+S
+#16704
+`8The Magistrate``~
+This room is rather small and unimpressive.  On the far wall, a single
+window permits light to enter, and a tapestry depicting the history of
+Law hangs from the wall beside it.  There is a single oaken desk with a
+small, uncomfortable looking chair.  A stack of paperwork sits on the desk
+on the far corner, as though whoever works here really doesn't want to deal
+with it.  
+~
+If this room appears somber and dull in during the daylight hours, then
+it looks even more so during the night.  The placement of the window
+prevents light from entering and it is somewhat difficult to maneuver in the
+darkness.  The stack of documents does not seem to have been touched, but
+the chair is pushed neatly under the desk.  
+~
+0 295698444 2 0
+E
+paperwork~
+This stack of paper towers nearly a foot and a half high.  It is mostly
+composed of complaints, and their contents are rather boring.  
+~
+S
+#16705
+`8Academy of Law``~
+A large number of desks are here, arranged in neat rows.  Each has a
+small inkwell carved into it's surface, and the chairs show a surprisingly
+high amount of wear.  At the head of the room is a large oaken desk, behind
+which is a large slate board.  To the left of the desk, numerous bookshelves
+are lined with countless legal texts and reference books.  Framed upon the
+wall are characitures of past Laws.  The room is silent as it's
+inhabitants are in deep study.  
+~
+The once silent academy is still silent, and if there were light here,
+you would not be surprised to see it's students still here, pouring over
+some random tome catching up on the day's lessons.  At each occupied desk, a
+small candle provides enough light for it's owner to read by.  It would
+probably be best if you didn't disturb them.  
+~
+0 295698444 2 0
+S
+#16706
+`8Evidence Room``~
+This long, narrow room is filled with shelves.  Each shelf holds a large
+number of labeled burlap bags, each with a tiny label.  The room is lit by a
+series of torches along the wall, as there are no windows here to maintain
+security.  At the end of the room is a tall evidence locker, made of thick
+polished steel.  
+~
+~
+0 295698444 2 0
+S
+#16707
+`8Healer's Quarters``~
+This room seems to be fashioned from a single piece of flawless granite. 
+A simple steel examination table lies on one side of the room, and oaken
+cabinets line the walls, no doubt full of medical equipment.  Along the
+opposing side of the room, a series of wood and canvas cots are set.  The
+strong odor of rubbing alcohol assaults your senses.  
+~
+~
+0 295698444 2 0
+S
+#16708
+`8Treasury``~
+This room has thick steel walls painted a drab tope color.  Within this
+vault, shelves hang from the walls, piled high with neat stacks of gold,
+silver, and copper coins.  In a few chests, trade bars of precious metals
+lay beneath translucent sheets of white cotton, seemingly to prevent damage.
+The only light here is that which you brought in.  
+~
+~
+0 295698444 2 0
+S
+#16709
+`8Perimeter Guard``~
+You stand on a wooden walkway atop a tall, thick stone wall.  Below you
+lay the open courtyard of the compound and beyond the wall, a vast expanse. 
+A contingent of guards patrols the wall here, intent on detering anyone that
+would feel the need to assault it.  
+~
+Although night has descended, the sentrys patrol their post fervently.  A
+series of torches now light the walkway, casting eerie shadows upon the
+deathly silent courtyard below.  In the distance, the lights of the cities
+can just barely be made out.  
+~
+0 295698444 2 0
+S
+#16710
+`8Museum of Law``~
+This pristine room has exquisite marble floors, and white-washed walls,
+lined with countless tapestries and portaits.  Elaborate charactitures of
+past Laws hang from the wall, each with a name and a brief history, and
+mounted within glass display cases are items of interest, each possessing
+it's own unique story.  
+~
+The room, though within nights embrace, is still lit as though it were
+high noon.  Hundreds of candles cast their light upon the area, the white
+walls reflecting their ambience throughout.  On either side of each of the
+fine paintings burns a single torch.  
+~
+0 295698444 2 0
+S
+#16711
+`8Guardhouse``~
+You stand beneath an immense granite archway.  The standard of the
+Law cabal hangs on either side of the opening.  Above you, you can see a
+portcullis pulled into the high ceiling overhead.  The stone wall that this
+gate permits passage through extands to either side as far as you can see.  
+~
+The gate before you is illuminated by a single torch on either side of
+it's gaping maw.  Their light is cast upon the standards hanging proudly at
+either side.  The gate's sentry stands without concern, as though he guards
+not only the interior of the compound, but his purpose for life as well.  
+~
+0 295698444 2 0
+S
+#16712
+`8Barracks``~
+This large hall is of mortared granite bricks with thick, wooden trusses
+overhead.  Numerous bunks line the walls, each having a large steel
+footlocker at it's foot.  Some of the bunks are occupied, their owner most
+likely having recently completed a late shift of patrolling the compound. 
+Their snores echo loudly off of the hard walls.  A number of torches light
+the room, as there is a lack of windows.  
+~
+~
+0 295698444 2 0
+S
+#16713
+`8Watchtower``~
+You finally make it up all the stairs.  And for what?  This room is the
+definition of small.  There is only a small chair and a desk within it's
+walls.  Though the room is small, the view is unlike anywhere you're ever
+seen.  You can literally see for miles in every direction.  Without a doubt,
+if someone advances upon the compound, they will not evade being noticed.  
+~
+~
+0 295698444 2 0
+S
+#16714
+`8Spy Network``~
+This room is rather dark.  Torches provide only a small amount of light,
+revealing hewn stone walls and a plain earthen floor.  A large round table
+sits in the center, on which is a perfect map of Thera.  A small contingent
+of experts push small wooden figures around the map, most likely planning
+movement of forces.  A large slate board mounted on the wall bears a long
+list of names, each with little side-notes.  
+~
+~
+0 295698444 2 0
+E
+table~
+The table is covered entirely by a map of Thera.  It is acurate in every
+detail.  Small miniature representations of armed forces are placed
+strategically about the map.  
+~
+S
+#16715
+`8The Iron Fist``~
+This room is hot beyond hot.  A forge lay on the far wall, red hot coals
+radiate an almost unbearable heat.  Next to the forge is a trough filled
+with water, and beside that, a heavy iron anvil.  The anvil is dented and
+scored, and it has without a doubt seen it's share of use.  Racks of weapons
+and armor line the walls, waiting for an owner.  The sound of steel on steel
+echoes off of the walls.  A large, cast-iron sculpture of an immense fist
+stands in the middle of the room, drawing your attention.  
+~
+While the coals within the forge are now dark and unlit, the room is
+still sweltering.  The trough is dry, most likely from evaporation.  The
+armor and weapons now are covered with burlap, and the room is silent.  
+~
+0 295698444 2 0
+S
+#16716
+`2An Empty Garden``~
+You find yourself in an unattended garden its ground long overgrown with
+various species of weeds.  The growth reaches up to your waist and sways
+lightly with your passage.  
+~
+~
+0 362807304 65538 3
+S
+#16717
+`6Pitfall``~
+You stand before a large empty space with nothing but dusty air filling
+the void before you.  As you gaze down into the murky depths of the opening
+only the echos of small pebbles falling answers you.  
+~
+~
+0 362807304 2 9
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 16703 spec_cast_cabal_healer
+M 16707 spec_justice_sentinel
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+O 0 16714 0 16700
+O 0 16715 0 16700
+O 0 16700 0 16701
+M 0 16708 1 16702 1
+M 0 16711 1 16702 1
+M 0 16701 1 16703 1
+G 0 16716 0
+G 0 16701 0
+G 0 16702 0
+G 0 16703 0
+G 0 16704 0
+G 0 16705 0
+G 0 16706 0
+G 0 16707 0
+G 0 16709 0
+G 0 16708 0
+M 0 16712 1 16703 1
+O 0 16700 0 16703
+M 0 16710 1 16704 1
+M 0 16709 1 16704 1
+M 0 16702 1 16705 1
+M 0 16713 1 16705 1
+M 0 16714 1 16705 1
+O 0 16710 0 16706
+M 0 16715 1 16706 1
+M 0 16703 1 16707 1
+M 0 16716 1 16707 1
+M 0 16717 1 16708 1
+M 0 16718 4 16709 1
+M 0 16704 1 16710 1
+G 0 16711 0
+G 0 16712 0
+G 0 16713 0
+M 0 16719 3 16710 3
+M 0 16720 1 16711 1
+M 0 16705 1 16712 1
+M 0 16723 1 16712 1
+M 0 16724 1 16712 1
+M 0 16725 1 16713 1
+M 0 16707 1 16714 1
+M 0 16721 1 16714 1
+M 0 16722 1 16714 1
+M 0 16706 1 16715 1
+S
+
+
+
+#SHOPS
+16701 0 0 0 0 0 100 50 0 24
+16704 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#16700
+if room $i != 16700
+or isimmort $n
+  break
+endif
+if cabally $n Law
+  if isbloody $n
+    if affspell $n 'blindness'
+    or affspell $n 'death grasp'
+    or affspell $n 'plague'
+    or affspell $n 'poison'
+    or affspell $n 'dysentery'
+    or affspell $n 'enfeeblement'
+    or affspell $n 'vampire bite'
+      pmote glances at $N noticing the sickness.
+    else
+      'Come back when you have no blood upon you $N.
+      mob stop $n
+      break
+    endif
+  endif
+  if isdelay $i
+    break
+  else
+    mob delay 1
+    pmote stands aside and lets $N pass.
+    'The halls of Law welcome you $N.
+    break
+  endif
+else
+  pmote signals to the archers above and stops $N.
+  say Halt! Only members of Law and their allies may proceed.
+  mob stop $n
+endif
+~
+#16701
+if act $n raider
+and rand 10
+  if name $n watchermonster
+    break
+  else 
+    mob echo Archers riddle $N with arrows.
+    qslay $n
+  endif
+endif
+if isdelay $i
+  break
+else
+  cb We are under attack by $N!
+  mob delay 6
+endif
+~
+#16702
+if isnpc $n
+  break
+endif
+if rand 20
+  say SHHHH ! Quiet in the courtroom !
+  if rand 66
+    if money $n > 499 
+      say Right $N. That's a 500 gold fine for all your noise !
+      mob gain gold pc $n -500 -500
+      mob echoat $n Some guards pin you down whilst you are relieved of 500 gold pieces.
+      mob echoaround $n Some guards pin $N down and take some of his gold.
+    end if
+   end if
+end if
+~
+#16703
+if isdelay $i
+or isnpc $n
+  break
+endif
+if rand 50
+  'Ye did not pass by them kitchens $N have you?  My second luncheon is late.
+  grumble
+else
+  pmote wipes some grease from his huge chin and turns away from his meal.
+  'Now what kin me do for ye?
+endif
+mob delay 1
+~
+#16704
+if isnpc $n
+  break
+endif
+if isdelay $i
+  'I warned you!
+  mob echo $I utters the words, 'grzzs'.
+  mob cast sleep $n
+  mob goto $n
+else
+  'If I have to tell you ONCE more to keep damn quiet in the Museum there will be trouble.
+  mob delay 1
+endif
+~
+#16705
+if isnpc $n
+or isdelay $i
+  break
+endif
+mob delay 2
+curse
+if rand 30
+  'What is it now $N?
+  break
+endif
+if rand 50
+  'For Law's sake can't I get any bloody time to finish the count?!
+  break
+else
+  glare $n
+  'YES $N?
+endif
+~
+#16706
+if rand 50
+  pmote grins to himself as he begins to pound away at a new bar of metal.
+  mob asound You hear a loud cheerful laugh followed by furious hammering.
+  break
+endif
+if rand 30
+  pmote works the bellows a bit his beard flying in the heated air.
+  'Arr, this will be a fine piece now.
+  beam
+else
+  pmote works furiously at the anvil.
+  mob asound A sound of steady hammering echoes from somewher nearby.
+endif
+~
+#16707
+if rand 50
+  emote angrily bangs his gavel hard on his bench.
+else
+  emote looks up suddenly.
+  emote yells 'Eh ? Kill them all. Execute the lot of them.'
+  emote returns to his work.
+end if
+~
+#16708
+if players == 0
+  break
+endif
+if rand 50
+  if rand 50
+    emote peers at you angrily.
+    say Go cram a turnip up yer...
+    mob echo A sudden noise attracts the guard's attention.
+  else
+    emote peers at you suspiciously.
+    say Bugger off!
+  endif
+else
+  if rand 50
+    emote thinks you're going for some of the gold.
+    emote smacks your hand with his stick.
+    say Oi! 'ands off the treasure you!
+  else
+    emote sighs sadly.
+    say I never wanted to be a guard you know.
+    say I always wanted to be.....
+    say A lumberjack!
+  endif
+endif
+~
+#16711
+if isactive $i
+  emote stretches lazily and peers round.
+  say it's not time to get up yet.
+  sleep
+endif
+~
+#16714
+if players == 0
+  break
+endif
+if rand 50
+  emote rubs his chin.
+  say All is going according to plan.
+  cackle
+  if mobhere 16722
+    mob echo A big bruiser says 'Yeah!'
+  endif
+else
+  emote glares at you intently.
+  say You thought you could outsmart me ?
+  cackle
+  if mobhere 16722
+    mob echo A big bruiser says 'Yeah!'
+  endif  
+endif
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#16710
+if cabal $n Law
+  if objval1 $i > 7
+    obj echoat $n You unlock and open $I.
+    obj echoaround $n $N unlocks and opens $I.
+    obj attrib none v1 = 1
+  else
+    obj echoat $n You close and lock $I.
+    obj echoaround $n $N closes and locks $I.
+    obj attrib none v1 = 15
+  endif
+else
+  obj echoat $n You don't know the combination.
+endif
+~
+#16713
+if isdelay $i
+  break
+endif
+if affspell $n wanted
+  obj echoat $f You swing $I across $N's kneecaps.
+  obj echoat $n $F swings $I across your kneecaps.
+  obj cast 'enfeeblement' 
+  obj delay 1
+endif
+~
+#16715
+obj echoat $n ``
+obj echoat $n Law Roll Call
+obj scoreboard Law $n
+~
+#0
+
+#ROOMPROGS
+#0
+
+#$

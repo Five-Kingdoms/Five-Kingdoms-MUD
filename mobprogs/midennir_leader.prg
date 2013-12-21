@@ -2,7 +2,7 @@
 if rand(50)
 	say Ok, here's the plan...
 else
-	say We attack Val Miran at dawn.
+	say We attack Revelsport at dawn.
 endif
 ~
 >greet_prog 100~

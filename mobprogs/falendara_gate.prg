@@ -2,7 +2,7 @@
 if isnpc($n)
   break
 endif
-tell $n For a small price of 300 gold I will provide magical transport to Miruvhor.
+tell $n For a small price of 300 gold I will provide magical transport to Zalango.
 ~
 
 >bribe_prog 300~

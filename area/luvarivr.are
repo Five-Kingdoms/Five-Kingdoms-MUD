@@ -1,0 +1,438 @@
+#AREADATA
+Name the River Luva~
+Pref ~
+Builders Crypticant~
+VNUMs 3321 3340
+Max_Bastions 1
+Credits { ALL } Cryptica The River Luva~
+Security 9
+Startroom 3327
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#3321
+`4the River Luva``~
+The Luva has quickened here, speeding up at it approaches the
+city. Now moving much more quickly, ahead, there seem to be
+very few convenient places to moor your raft. Forest still is all
+around you, and the haunt of the Talquin Marsh makes your hairs prickle.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7287
+D1
+~
+~
+0 0 3322
+S
+#3322
+`4The River Luva``~
+The Luva has quickened here, speeding up at it approaches the
+city. Now moving much more quickly, ahead, there seem to be
+very few convenient places to moor your raft. Forest still is all
+around you, and the haunt of the Talquin Marsh makes your hairs prickle.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3323
+D3
+~
+~
+0 0 3321
+S
+#3323
+`4The River Luva``~
+The Luva has quickened here, speeding up at it approaches the
+city. Now moving much more quickly, ahead, there seem to be
+very few convenient places to moor your raft. Forest still is all
+around you, and the haunt of the Talquin Marsh makes your hairs prickle.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3324
+D3
+~
+~
+0 0 3322
+S
+#3324
+`4The River Luva``~
+The Luva has quickened here, speeding up at it approaches the
+city. Now moving much more quickly, ahead, there seem to be
+very few convenient places to moor your raft. Forest still is all
+around you, and the haunt of the Talquin Marsh makes your hairs prickle.
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 3325
+D3
+~
+~
+0 0 3323
+S
+#3325
+`4The River Luva``~
+The Luva has quickened here, speeding up at it approaches the
+city. Now moving much more quickly, ahead, there seem to be
+very few convenient places to moor your raft. Forest still is all
+around you, and the haunt of the Talquin Marsh makes your hairs prickle.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 3324
+D1
+~
+~
+0 0 3326
+S
+#3326
+`4The River Luva``~
+The Luva has quickened here, speeding up at it approaches the
+city. Now moving much more quickly, ahead, there seem to be
+very few convenient places to moor your raft. Forest still is all
+around you, and the haunt of the Talquin Marsh makes your hairs prickle.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3327
+D3
+~
+~
+0 0 3325
+S
+#3327
+`4The River Luva``~
+The Luva has quickened here, speeding up at it approaches the
+city. Now moving much more quickly, ahead, there seem to be
+very few convenient places to moor your raft. Forest still is all
+around you, and the haunt of the Talquin Marsh makes your hairs prickle.
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 3328
+D3
+~
+~
+0 0 3326
+S
+#3328
+`4The River Luva``~
+The Luva has quickened here, speeding up at it approaches the
+city. Now moving much more quickly, ahead, there seem to be
+very few convenient places to moor your raft. Forest still is all
+around you, and the haunt of the Talquin Marsh makes your hairs prickle.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 3327
+D1
+~
+~
+0 0 3329
+S
+#3329
+`4The River Luva``~
+The Luva has quickened here, speeding up at it approaches the
+city. Now moving much more quickly, ahead, there seem to be
+very few convenient places to moor your raft. Forest still is all
+around you, and the haunt of the Talquin Marsh makes your hairs prickle.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3330
+D3
+~
+~
+0 0 3328
+S
+#3330
+`4The River Luva``~
+You are floating down the mighty River Luva, heading eastward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Luvan Wood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 3331
+D3
+~
+~
+0 0 3329
+S
+#3331
+`4The River Luva``~
+You are floating down the mighty River Luva, heading eastward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Luvan Wood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 3330
+D1
+~
+~
+0 0 3332
+S
+#3332
+`4The River Luva``~
+You are floating down the mighty River Luva, heading eastward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Luvan Wood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3333
+D3
+~
+~
+0 0 3331
+S
+#3333
+`4The River Luva``~
+You are floating down the mighty River Luva, heading eastward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Luvan Wood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3334
+D3
+~
+~
+0 0 3332
+S
+#3334
+`4The River Luva``~
+You are floating down the mighty River Luva, heading eastward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Luvan Wood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 3335
+D3
+~
+~
+0 0 3333
+S
+#3335
+`4The River Luva``~
+You are floating down the mighty River Luva, heading eastward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Luvan Wood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 3334
+D1
+~
+~
+0 0 3336
+S
+#3336
+`4The River Luva``~
+You are floating down the mighty River Luva, heading eastward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Luvan Wood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3337
+D3
+~
+~
+0 0 3335
+S
+#3337
+`4The River Luva``~
+You are floating down the mighty River Luva, heading eastward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Luvan Wood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 3338
+D3
+~
+~
+0 0 3336
+S
+#3338
+`4The River Luva``~
+You are floating down the mighty River Luva, heading eastward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Luvan Wood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 3337
+D1
+~
+~
+0 0 3339
+S
+#3339
+`^The Headwaters of the Luva``~
+You are entering the mighty River Luva. Water and vast expanses
+of wetlands are all around you, and tidal marshes and grasses rise
+up so that any view of the horizon is obscured. The river is starting
+to widen here, and is flowing much more quickly.
+~
+~
+0 0 0 6
+D1
+~
+~
+0 0 3340
+D3
+~
+~
+0 0 3338
+S
+#3340
+`^The Mouth of the Luva``~
+You are at the mouth of the River Luva. The river is very small here,
+and seems to stem from a large waterfall that lies north of here. While
+the river is not very wide at this point, the waters are moving very
+rapidly. Fortunately, there is ample space for you to moor your boat.
+~
+~
+0 0 0 6
+D3
+~
+~
+0 0 3339
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

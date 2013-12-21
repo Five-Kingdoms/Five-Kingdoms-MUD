@@ -1,0 +1,4417 @@
+#AREADATA
+Name the Lesser Raiders~
+Pref ~
+Builders Crypticant~
+VNUMs 700 799
+Max_Bastions 3
+Credits { 1 25} Crypticant   Lesser Raiders~
+Security 9
+Startroom 700
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#700
+gnat bug insect~
+the gnat~
+An annoying gnat buzzes in your ear.
+~
+Puny little thing, waiting to suck your blood while you're not paying 
+attention.  Circling above your head, it waits to make it's move.
+~
+fly~
+AGH A JT 0 0 700
+5 1 1d1+59 0d0+100 1d3+1 sting
+5 6 5 15
+F 0 0 J
+stand stand none none~
+6
+AGOc ACDEFHP tiny 0
+#701
+squirrel~
+the squirrel~
+A squirrel runs about, hoarding nuts.
+~
+Brown fuzzy little fella.  His cheek pouches hang to the side. Looks like 
+He's been eating a bit too much.  He looks at you curiously while still 
+collecting the nuts on the ground. 
+~
+rabbit~
+AGH A 0 0 750 701
+7 2 1d10+80 0d0+100 2d3+1 bite
+3 4 3 10
+FH 0 0 H
+stand stand none none~
+3
+AGV ACDEFHJK small 0
+#702
+vulture bird~
+the vulture~
+A vulture circles over you, waiting to swoop down to their meal.
+~
+Glaring at you with dark menacing eyes, you have this feeling this bald 
+vulture was determined to have you for his next meal. 
+~
+song bird~
+AG A T 0 -750 702
+12 2 2d10+150 0d0+100 2d5+2 slash
+-1 -1 -1 10
+FH 0 0 H
+stand stand male none~
+9
+AGW ACDEFHKP small 0
+#703
+elf~
+the forest elf~
+A forest elf hides behind the trees, watching your every move.
+~
+One of the few scattered elves remaining after the Great War.  He does 
+not admit defeat, and stays in these woods to one day, reclaim it for 
+the elves once more. 
+~
+elf~
+AGe A CDFJNP 0 1000 703
+15 3 4d8+250 0d0+100 2d6+4 pierce
+-2 -1 -1 -3
+EFJKN 0 ABC Z
+stand stand male none~
+6
+AHMV ABCDEFGHIJK medium 0
+#704
+bear~
+the brown bear~
+A hulking bear stumble slowly through the woods.
+~
+Covered with brown fur, this hulking form weighs over six-hundred 
+pounds.  It does not look interested in you, perhaps it had just ate.  
+Giving you one last look, she heads off in the other direction. 
+~
+bear~
+AG A 0 0 0 704
+16 1 5d3+290 0d0+100 3d6+2 slash
+-3 -4 -3 -2
+CDEF 0 EI H
+stand stand female none~
+8
+AG ACDEFJKU large 0
+F off O
+#705
+wolf~
+the grey wolf~
+A grey wolf stares blankly at you.
+~
+Grinning widely with his tongue sticking out, a grey wolf pants heavily 
+as he decides what to do with you.  Circling around you within a certain 
+distance, he seems to be observing your actions and determining your 
+weaknesses.  His long shaggy hair is spotted with blood, dried and 
+crusted since the last kill.  His yellow eyes follow you as you move. 
+~
+wolf~
+AG A DFJPVZ 0 -250 705
+9 2 4d3+130 0d0+100 2d5+2 slash
+-3 -1 -2 8
+FH 0 I H
+stand stand male none~
+4
+AHMV ABCDEFGHIJK medium 0
+#706
+human traveler adventurer~
+the traveler~
+A traveler is here, adventuring through the woods.
+~
+Another brave and stupid soul is here, daring to explore the orc 
+infested woods.  Carrying a large backpack on his shoulders, his goal is 
+to climb to the highest point on the mountain ranges.  He glances over 
+briefly, and smiles at you as he continues on his way.
+~
+human~
+AG A 0 0 750 706
+20 4 10d5+450 0d0+100 4d3+12 slash
+-4 -4 -4 0
+EFIJN 0 0 0
+stand stand male none~
+8
+AHMV ABCDEFGHIJK medium 0
+#707
+orc warrior~
+the orcish warrior~
+An orcish warrior is here hunting the weak.
+~
+Clad loosely in animal skin, he moves quietly through the thickets, 
+trying to hide his presence.  He lives for the thrill of the hunt, 
+thirsting to satisfying his need to kill.  With a crude throwing axe 
+held skillfully in one hand, he seeks out his next prey.
+~
+orc~
+AGe A J 0 -750 707
+20 4 10d5+470 0d0+100 9d3+4 slash
+-4 -5 -4 0
+DEIJKN 0 Q S
+stand stand male none~
+8
+AHMV ABCDEFGHIJK medium 0
+#708
+shadowstalker shadow stalker~
+the shadowstalker~
+Two glaring eyes stalks you from the shadows.
+~
+A dark shadow materializes before your eyes.  These mist-like creatures 
+have a hatred against all living beings.  The sole purpose of their 
+existence is to drain the life force of others.  Yet, it is strange that 
+they do not attack until aggravated.  They could only survive in 
+darkness, it is best to leave before it notices you. 
+~
+unique~
+AGOe A BDFIJOPTUVZ 0 -1000 708
+25 7 5d10+820 0d0+100 5d4+23 drain
+-6 -6 -6 -6
+EF AB IL NS
+stand stand none none~
+12
+ABHIKM 0 medium 0
+#709
+bat vampire~
+the vampire bat~
+A large bat hangs from the ceiling.
+~
+Blood drips from long sharp fangs protruding from its mouth.  It seems 
+to have just ate, so it won't bother you as long as you don't get near it.  
+~
+bat~
+AGHe A DFJT 0 -800 709
+8 1 2d10+100 0d0+100 1d7+2 pierce
+2 1 2 10
+FH 0 0 HS
+stand stand none none~
+4
+AGW ACDEFJKPU small 0
+#710
+orc scout~
+an orcish scout~
+An orcish scout looks for intruders into the mountains.
+~
+Clad in loose animal skin, this vigilant scout keeps an eye on all that goes
+on in the mountains.  He wears a worn out headband right above his brows,
+and hides under a green tarp.  Sneaking about, he searches out the elves
+in the area
+~
+orc~
+AGH A J 0 -750 710
+10 2 40d2+200 0d0+100 2d4+2 pierce
+0 0 0 0
+0 0 Q S
+stand stand male none~
+8
+AHMV ABCDEFGHIJK medium 0
+#750
+hermit old diviner Shubak man~
+Shubak~
+An old man huddles by the campfire here, muttering to himself.
+~
+Witha long, coarse grey beard and his wrinked, tan skin this appears to
+be a very old man.  He stands shorter than the average human, accentuated by
+the slight hunch in his back.  One lazy eye stares off into the distance as
+the other wavers about your general direction.  His fingernails are dirty
+and his stubby fingers are covered in soot.  A simple loincloth is the only
+covering he has, and a skimpy one at that.  
+~
+human~
+ABGZe A 0 0 0 0
+60 100 1d1+19999 1d1+999 2d40+10 pain
+-30 -30 -30 -30
+CHKN AB 0 0
+stand stand male none~
+30
+AHMV ABCDEFGHIJK medium 0
+P GREET 770 100~
+P RANDOM 771 20~
+P SPEECH 772 yes~
+#751
+cabal police~
+the cabal police~
+The cabal police is here patrolling the grounds.
+~
+~
+human~
+A A DFJUV 0 0 0
+60 100 1d1+19999 0d0+100 1d1+999 slash
+-50 -50 -50 -50
+CEFHKN 0 0 0
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+#752
+saber toothed tiger~
+a saber toothed tiger~
+A massive catlike form with two long glistening fangs.
+~
+A cat of enormous strength with two piercing black eyes and long dagger like 
+teeth.
+~
+elf~
+ABI A DJP 0 750 0
+30 20 1d1+999 0d0+100 5d5+15 bite
+-10 -10 -10 -5
+FH 0 B Z
+stand stand female none~
+11
+AHMV ABCDEFGHIJK medium 0
+#753
+ghost curu~
+the ghost of Curu~
+The Ghost of Curu lingers to follow after his desires.
+~
+He once died for what he cannot get his hands on.  He has now returned to seek
+his love once again, and he shall not rest until he has done so.
+~
+human~
+ABOTZ AC DFHJU 0 0 0
+60 20 1d1+3999 0d0+100 5d4+25 drain
+-30 -30 -30 -30
+CEFHIJKN 0 0 N
+stand stand male none~
+25
+AHMV ABCDEFGHIJK large 0
+#754
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+A A 0 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+6
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#700
+boots hiking~
+a pair of forest boots~
+A pair of worn-in forest boots is discarded on the floor.~
+leather~
+armor 0 AGX
+7 6 7 4 0
+20 30 10 P
+E
+boots~
+You see a pair of worn-out leather boots.
+~
+F
+A 14 40 0
+F
+S 247 3 0
+F
+A 2 1 0
+#701
+axe throwing~
+throwing axe~
+A light but sharp axe catches your eyes.~
+steel~
+weapon 0 AN
+axe 4 6 slice 0
+6 50 700 P
+E
+axe~
+a crudely-made but effective axe made of steel.
+~
+F
+A 19 3 0
+F
+A 18 1 0
+#702
+bracelet silver~
+silver bracelet~
+An elven charm is on the ground.~
+silver~
+jewelry AGK AM
+0 0 0 0 0
+15 20 1500 P
+E
+bracelet~
+A beautiful well-crafted charm made from silver.
+~
+F
+A 3 1 0
+F
+A 12 5 0
+#703
+gem blue~
+a blue gem~
+A dark-blue gemstone emits a faint glow.~
+gem~
+gem AG AQ
+0 0 0 0 0
+15 10 2000 P
+E
+gem~
+The gem glows with an unearthly light.
+~
+F
+A 1 -1 0
+F
+A 3 1 0
+F
+A 4 1 0
+F
+A 17 -7 0
+#704
+branch tree-branch~
+a long tree branch~
+A tree branch has broken off a limb.~
+wood~
+staff 0 AO
+5 3 3 'earthquake' 0
+10 100 200 P
+E
+branch~
+A tree branch has been fashioned into a walking staff.
+~
+F
+A 18 -2 0
+F
+A 2 1 0
+#705
+torch~
+a torch~
+A torch sits on the ground.~
+wood~
+light A A
+0 0 150 0 0
+15 30 250 P
+E
+torch~
+A wooden stick with an oily ragged tied to one side.
+~
+#706
+gloves leather~
+a pair of leather gloves~
+A pair of leather gloves is on the ground.~
+leather~
+armor 0 AH
+5 5 6 0 0
+20 20 500 P
+E
+gloves~
+A comfortable looking glove made of soft leather.
+~
+F
+A 18 1 0
+#707
+jacket fur~
+a fur jacket~
+A pile of fur is piled on the ground.~
+fur~
+armor 0 AD
+7 7 8 0 0
+20 30 2000 P
+E
+jacket~
+A jacket made from animal fur.
+~
+F
+A 13 20 0
+#708
+necklace teeth~
+a teeth necklace~
+A string of teeth is on the ground.~
+bone~
+armor 0 AC
+5 4 4 0 0
+20 20 1800 P
+E
+necklace~
+A long strand of wolf fangs carefully strung together.
+~
+F
+A 18 2 0
+#709
+shadowlife shadow orb~
+a pitch-black orb~
+A dark glossy orbs sits in the center of the room.~
+obsidian~
+treasure BCGJ AO
+0 0 0 0 0
+25 50 5000 P
+E
+shadowlife~
+The orb seems to absorb the light around it.
+~
+F
+A 5 1 0
+F
+A 13 5 0
+F
+A 3 1 0
+F
+A 12 10 0
+#710
+cloak bear skin~
+a bear-skin cloak~
+A large bear skin covers the ground.~
+fur~
+armor 0 AK
+6 7 6 0 0
+20 30 3500 P
+E
+cloak~
+A brown fur coat made of bear-skin.
+~
+F
+A 1 2 0
+#711
+ring silver~
+a silver ring~
+A small hoop of silver catches your eyes.~
+silver~
+jewelry BGK AB
+0 0 0 0 0
+15 20 3800 P
+E
+ring~
+A silver ring of great craftsmanship.
+~
+F
+A 18 1 0
+F
+A 17 -5 0
+#712
+dagger bone~
+a bone-dagger~
+A long sharp piece of bone is stuck into the ground.~
+bone~
+weapon BEJe AN
+dagger 3 8 pierce 0
+15 20 200 P
+E
+dagger~
+One end of the bone is carved into a sharp blade.
+~
+F
+A 18 2 0
+F
+A 19 1 0
+#713
+campfire ashes rocks~
+an old campfire~
+A pile of ashes surrounded by a circle of rocks.~
+earth~
+container 0 0
+0 0 0 0 0
+1 200 0 P
+E
+campfire ashes rocks~
+The fire has long died out, only ashes remain.
+~
+#714
+elbow pads arm~
+elbow pads~
+A large round pad with straps stitched to the sides.~
+leather~
+armor 0 AI
+5 6 5 1 0
+18 50 500 P
+F
+A 5 1 0
+#715
+raw hide leggings~
+a pair of raw hide leggings~
+Pieces of animal skin have been sewen together into a pair of leggings.~
+leather~
+armor 0 AF
+6 7 6 1 0
+18 60 800 P
+F
+A 2 1 0
+#716
+hood~
+a traveler's hood~
+A discarded dark grey hood lies on the ground.~
+cloth~
+armor 0 AE
+6 4 5 1 0
+18 30 500 P
+F
+A 4 1 0
+#717
+camouflage tarp~
+a camouflage tarp~
+A large cloak blends in with its surroundings.~
+cloth~
+armor 0 AK
+5 4 4 1 0
+10 30 600 P
+F
+A 2 1 0
+#718
+headband head band~
+a cloth headband~
+A worn out ring of cloth with stains of blood on it.~
+cloth~
+armor 0 AE
+4 5 4 2 0
+10 20 300 P
+F
+A 5 1 0
+#719
+ring dark darkness~
+the ring of darkness~
+An iron ring set with a large black opal covered with runes.~
+iron~
+jewelry BCGJMZ ABX
+0 0 0 0 0
+25 10 8 P
+F
+A 4 1 0
+F
+A 21 -2 0
+F
+A 22 -2 0
+#720
+campfire ashes rocks~
+an old campfire~
+A pile of ashes surrounded by a circle of black rocks smolders here.~
+earth~
+container 0 0
+0 0 0 0 0
+1 200 0 P
+#721
+crystal jar~
+a crystal jar filled with water~
+A crystal jar containing water from the pool stands here.~
+unknown~
+treasure 0 A
+0 0 0 0 0
+0 0 0 P
+#740
+sign~
+a sign that reads, 'Available, please hit on me'~
+A sign is here.~
+paper~
+trash T AE
+0 0 0 0 0
+60 0 0 P
+#741
+sword~
+a sword named 'one hit kill'~
+A big sword is here.~
+metal~
+weapon T AN
+sword 100 100 slash 0
+60 0 0 P
+F
+A 19 100 0
+F
+A 18 100 0
+#742
+fountain~
+a fountain of fire~
+A red liquid is flowing from a golden fountain.~
+gold~
+fountain T 0
+-1 -1 'firebreather' 0 0
+60 0 0 P
+#743
+tag~
+wulfgar's lass...handle with extreme caution~
+A tag is here.~
+tag~
+trash T AC
+0 0 0 0 0
+60 0 0 P
+#744
+nipple clamps~
+nipple clamps~
+A chain with a clip on it.~
+metal~
+trash Ta AD
+0 0 0 0 0
+60 0 0 P
+#745
+no name~
+(no short description)~
+(no description)~
+unknown~
+container 0 0
+0 C 0 0 0
+0 0 0 P
+#746
+edible panty panties~
+`5a lacey edible panties``~
+A lacey edible panties is here.~
+food~
+trash Ta AL
+0 0 0 0 0
+60 0 0 P
+F
+A 6 2 0
+#750
+ring~
+the Ring of Power~
+A shiny ring has been left in the dirt.~
+gold~
+jewelry ABO AB
+0 0 0 0 0
+50 50 5000 P
+#751
+light judgment torch~
+light of Judgment~
+A eternal burning torch lights the vague.~
+fire~
+light ABT AS
+0 0 999 0 0
+51 50 1 P
+F
+A 3 2 0
+F
+A 4 2 0
+F
+A 17 -20 0
+F
+A 13 20 0
+#752
+sword~
+a sword named 'Domoin Killer'~
+Don't pick this up!~
+energy~
+weapon M AN
+exotic 200 10 pain 0
+60 10 0 P
+T
+135 2 50
+The Defiler Painkiller cries out in pain!~
+Something happens.~
+F
+A 18 100 0
+F
+A 19 100 0
+#753
+sword power~
+power~
+Don't pick this up!~
+Power~
+weapon AT AN
+sword 20 20 slash 0
+60 30 0 P
+#754
+sword might~
+might~
+Don't pick this up!~
+Might~
+weapon AT AN
+sword 20 20 slash 0
+60 30 0 P
+#755
+diamond ring~
+a big fucking diamond ring~
+A big fucking diamond ring is here.~
+diamond~
+jewelry AT AB
+0 0 0 0 0
+60 200 200000 P
+#756
+sign~
+a sign that reads 'please do not feed me'~
+A sign is here.~
+paper~
+trash 0 AD
+0 0 0 0 0
+60 0 0 P
+#757
+sign~
+a sign that reads, 'Please kick me, I'm a frat boy'~
+A sign is here.~
+paper~
+trash T AC
+0 0 0 0 0
+60 0 0 P
+#758
+sticker~
+a sticker that reads 'Useless'~
+A sticker is on the ground.~
+paper~
+trash T AE
+0 0 0 0 0
+60 0 0 P
+#759
+sticker~
+a sticker that reads 'Worthless'~
+A sticker is here.~
+paper~
+trash T AE
+0 0 0 0 0
+60 0 0 P
+#760
+tag~
+a black nametag~
+A tag is here.~
+tag~
+trash T AC
+0 0 0 0 0
+60 0 0 P
+#761
+edible panties~
+a pair of edible panties~
+A piece of "cloth" is on the ground.~
+food~
+food T AL
+20 20 0 0 999
+60 10 10 P
+#762
+award~
+an award that reads, 'Congrats to 50'~
+An award lies here.~
+paper~
+trash PTU A
+0 0 0 0 0
+60 10 0 P
+#763
+whip tail manticore~
+the whipping tail of a manticore~
+A chitinous chain of black plates with a whipping end.~
+iron~
+weapon G ANX
+whip 8 6 sting 0
+50 70 5 P
+E
+whip tail manticore~
+This exotic instrument of death is the massive tail of a manticore.
+The severed end has been cauterized and bound with magic to a 
+greaved haft of black iron.  
+~
+F
+A 18 3 0
+F
+A 19 3 0
+#764
+source river pool~
+the source of the river~
+A crystal clear pool of water reflects a blue hue from the sky.~
+water~
+fountain 0 P
+0 0 'water' 0 0
+0 0 0 P
+#765
+portrait~
+a portrait of Stryth for you to idolize~
+A portrait of Stryth lies here, unworshipped.~
+gold~
+gem ABG AQ
+0 0 0 0 0
+50 10 10 P
+F
+A 14 500 0
+F
+A 12 100 0
+F
+A 13 50 0
+F
+A 19 10 0
+F
+A 18 10 0
+F
+A 17 -100 0
+F
+A 26 25 0
+#766
+candy cane~
+a striped candy cane~
+A striped candy cane is here.~
+sugar~
+pill 0 AO
+50 'heal' 'reserved' 'reserved' 'reserved'
+60 10 0 P
+#767
+fruit cake~
+super fruit cake~
+A nasty looking fruit cake lies here.~
+fruit~
+pill 0 AO
+50 'armor' 'shield' 'stone skin' 'bless'
+60 50 0 P
+#768
+milk cookies~
+milk and cookies~
+A cup of milk next to a pile of cookies sit here.~
+dairy~
+pill 0 A
+50 'sanctuary' 'change sex' 'enlarge' 'reserved'
+60 100 0 P
+#769
+test~
+test~
+Test~
+food~
+instrument 0 AN
+0 0 0 0 0
+1 10 10 P
+#770
+clue #1~
+clue #1~
+Clue #1~
+paper~
+food T A
+5 5 0 0 250
+60 0 2 P
+#771
+Clue #2~
+clue #2~
+Clue #2~
+paper~
+food T A
+5 5 0 0 250
+60 0 2 P
+#772
+Clue #3~
+clue #3~
+Clue #3~
+paper~
+food T A
+5 5 0 0 250
+60 0 2 P
+#773
+Clue #4~
+clue #4~
+Clue #4~
+paper~
+food T A
+5 5 0 0 250
+60 0 2 P
+#774
+Clue #5~
+clue #5~
+Clue #5~
+paper~
+food T A
+5 5 0 0 250
+60 0 2 P
+#775
+Clue #6~
+clue #6~
+Clue #6~
+paper~
+food T A
+5 5 0 0 250
+60 0 2 P
+#776
+Clue #7~
+clue #7~
+Clue #7~
+paper~
+food T A
+5 5 0 0 250
+60 0 2 P
+#777
+Clue #8~
+clue #8~
+Clue #8~
+paper~
+food T A
+5 5 0 0 250
+60 0 2 P
+#778
+Clue #9~
+clue #9~
+Clue #9~
+paper~
+food T A
+5 5 0 0 250
+60 0 2 P
+#779
+Clue #10~
+clue #10~
+Clue #10~
+paper~
+food T A
+5 5 0 0 250
+60 0 2 P
+#780
+Clue #11~
+clue #11~
+Clue #11~
+paper~
+food T A
+5 5 0 0 250
+60 0 2 P
+#781
+Clue #12~
+clue #12~
+Clue #12~
+paper~
+food T A
+5 5 0 0 250
+60 0 2 P
+#782
+Clue #13~
+clue #13~
+Clue #13~
+paper~
+food T A
+5 5 0 0 250
+60 0 2 P
+#783
+Clue #14~
+clue #14~
+Clue #14~
+paper~
+food T A
+5 5 0 0 250
+60 0 2 P
+#784
+Clue #15~
+clue #15~
+Clue #15~
+paper~
+food T A
+5 5 0 0 250
+60 0 2 P
+#785
+Clue #16~
+clue #16~
+Clue #16~
+paper~
+food T A
+5 5 0 0 250
+60 0 2 P
+#786
+Clue #17~
+clue #17~
+Clue #17~
+paper~
+food T A
+5 5 0 0 250
+60 0 2 P
+#0
+
+
+
+#ROOMS
+#700
+`3Path to the Lesser Raiderss``~
+You see a mountain range to the north.  The higher up the mountain, the 
+steeper it gets.  Sharp, ragged rocks line the crest, making it impossible 
+to reach the top safely.  You stand amongst loose rocks and pebbles that
+have fallen off during recent landslides.  A stone paved slope takes you 
+directly to the base of the mountains.  The ground is a little muddy due
+to the pool just south of here.  As you get near the mountain, the wind
+begins to pick up a bit. 
+~
+A mountain range is to the north.  You stand amongst loose rocks and 
+pebbles that have fallen off during recent landslides.  A stone paved
+slope takes you directly to the base of the mountains.  The ground is a
+little muddy due to the pool just south of here.  As you get near the
+mountain, the wind begins to pick up a bit, making it a chilly night.
+~
+0 0 8192 4
+D0
+The rocky path winds toward the mountains.
+~
+~
+0 0 701
+D2
+~
+~
+0 0 6919
+T 60
+S
+#701
+`3Base of the Lesser Raiderss``~
+You stand at the base of a steep mountain range.  Dark ominous clouds loom
+overhead in a menacing way.  Large boulders are parted to the side, 
+clearing a path that allows you a passage into the mountains.  You spot 
+some vultures circling overhead, waiting to descend to a meal of an 
+unfortunate traveler.  A sign to your left warns hikers to not stray off 
+the trail, perhaps you should heed it. 
+~
+You stand at the base of a steep mountain range.  Dark ominous clouds loom
+overhead in a menacing way, blocking out the moonlight.  Large boulders
+are parted to the side, clearing a path that allows you a passage into the
+mountains.  You spot some vultures circling overhead, waiting to descend
+to a meal of an unfortunate traveler.  A hidden sign to your left warns
+hikers to not stray off the trail, perhaps you should heed it. 
+~
+0 0 65536 4
+E
+sign~
+.		To all adventurers:
+
+.		     STAY ON THE PATH!!!!
+
+.				The Mayor,	
+~
+D2
+A stony trail leads away from the mountains.
+~
+~
+0 0 700
+D4
+A soft slope takes you up the mountain.
+~
+~
+0 0 702
+T 60
+S
+#702
+`3Beginning of the Rocky Slope``~
+A soft slope stretches toward the mountain peaks, inclining steeper 
+steadily.  Most of the rocks have already slid to the base of the 
+mountain, leaving less debris blocking the way.  Small bushes grow in 
+clumps, sheltering some animals from the piercing wind.  You notice a path 
+to your west, long covered by dirt and rubble.  You can barely make out
+the faint outlines of the trail, which leads you around the mountain along
+it's base.  There is another trail leading north, which would take you
+straight toward the mountain peaks.  You can also choose to leave the
+mountains right now if you don't have the guts. 
+~
+A soft slope stretches toward the mountain peaks, inclining steeper 
+steadily.  Most of the rocks have already slid to the base of the 
+mountain, eaving less debris blocking the way.  Small bushes grow in 
+clumps, sheltering some animals for the windy night.  You notice a path to
+your west, long covered by dirt and rubbles.  You can barely make out the
+faint outlines of the trail in this darkness, which leads you around the
+mountain along it's base.  There is another trail leading north, which
+would take you straight toward the mountain peaks.  You can also choose to
+leave the mountains right now if you don't have the guts.  Perhaps you
+should wait until daybreak to trek the mountain.
+~
+0 0 16384 4
+D3
+The slope continues to the west.
+~
+~
+0 0 742
+D4
+The slope steadily continues upward.
+~
+~
+0 0 703
+D5
+You can see the base of the mountain.
+~
+~
+0 0 701
+T 59
+S
+#703
+`8A Split in the Path``~
+Time to make a decision.  The road splits in two ahead of you.  There are 
+no visible signs indicating where the trail will lead you.  Footsteps 
+cover the trails, both used recently.  There is a hiking trail to your 
+north that many have used, trying to reach the mountain top.  Or you can 
+go east, a much easier path that would take you around the mountain, but 
+would probably take longer.  A dead tree stump stands between the two 
+trails.  What's it gonna be?  North, east, or back down?  
+~
+Time to make a decision.  The road splits in two ahead of you.  You have 
+no idea where the trail will lead you.  There is a hiking trail to your 
+north that many have used, trying to reach the mountain top.  Or you can 
+go east, a much easier path that would take you around the mountain, but 
+would probably take longer.  A dead tree stump stands between the two 
+trails.  What's it gonna be?  North, east, or back down?  
+~
+0 0 0 0
+D0
+A hiking trail leads up into the mountains.
+~
+~
+0 0 761
+D1
+This path leads around the mountain.
+~
+~
+0 0 704
+D5
+Back toward the slopes.
+~
+~
+0 0 702
+T 59
+S
+#704
+`3Path Around the Lesser Raiders``~
+You stand on a dirt trail alongside the mountain.  On one side the 
+mountain continues up, too steep to climb up.  On the other side, the land
+drops from beneath your feet, too steep to climb down without falling.  
+You can peer over into the base of the mountain from here. There are many
+plant life present, ranging from large pines to small bushes.  All sorts 
+of animals run about.  They do not seem frightened by your presence. 
+Instead, they run up to you and hope for some food.  The trail runs from 
+east to west, leaving you with little choice where to go. You also
+notice a small path leading to the north.
+~
+You stand on a dirt trail alongside the mountain.  On one side the 
+mountain continues up, too steep to climb up.  On the other side, the land
+drops from beneath your feet, too steep to climb down without falling.  
+The trail runs from east to west, leaving you with little choice where to
+go.
+~
+0 0 16384 5
+D1
+The trail continues around the mountain.
+~
+~
+0 0 705
+D3
+Leading back toward the base.
+~
+~
+0 0 703
+T 59
+S
+#705
+`3A Turn in the Path``~
+The trail makes an abrupt turn in your path.  Large footprints suggest 
+that someone passed by recently, perhaps not human.  A couple trees are 
+knocked down around the turn.  Wonder what could've caused it.  You begin 
+to feel uneasy as you become aware that eyes are staring at you from 
+behind the trees.  Hoping that they will not bother you, you quicken your 
+footsteps and hurry along.  You can either go either north or west. 
+~
+The trail makes an abrupt turn in your path.  A couple trees are knocked
+down around the turn.  Wonder what could've caused it.  You begin to feel
+uneasy as you become aware that eyes are staring at you in the darkness.
+Hoping that they will not bother you, you quicken your footsteps and hurry
+along.  You can either go either north or west. 
+~
+0 0 16384 5
+D0
+The trail continues around the mountain.
+~
+~
+0 0 706
+D3
+The trail continues around the mountain.
+~
+~
+0 0 704
+T 58
+S
+#706
+`3Path Around the Lesser Raiders``~
+You stand on a dirt trail alongside the mountain.  On one side the 
+mountain continues up, too steep to climb up.  On the other side, the land
+drops from beneath your feet, too steep to climb down without falling.
+You can peer over into the base of the mountain from here.  There are many
+plant life present, ranging from large pines to small bushes.  All sorts
+of animals run about.  They do not seem frightened by your presence. 
+Instead, they run up to you and hope for some food.  The trail runs up and
+south, leaving you with little choice where to go.
+~
+You stand on a dirt trail alongside the mountain.  On one side the 
+mountain continues up, too steep to climb up.  On the other side, the land
+drops from beneath your feet, too steep to climb down without falling.  
+The trail runs up and south, leaving you with little choice where to go.
+~
+0 0 16384 5
+D2
+The trail continues around the mountain.
+~
+~
+0 0 705
+D4
+There seems to be a clearing up ahead.
+~
+~
+0 0 707
+T 58
+S
+#707
+`3An Abandoned Campsite``~
+You stand in a clearing in the forest.  Trees have been cleared out a 
+while ago, so travelers can rest up before continuing their journey.  A
+campfire had been set up in the middle of the clearing.  All that's left 
+in it are ashes and some bone remains.  Two logs have been pulled up to 
+the campfire to be used as chairs.  Now fungus cover the logs, and the 
+wood decays away.  The campsite is next to a flowing river to the west.
+Judging from the rapid movement of the water, there might be a waterfall
+nearby.  At the edge of the campsite, the trail runs down and to the east. 
+~
+You stand in a clearing in the forest.  Trees have been cleared out a 
+while ago, so travelers can rest up before continuing their journey.  A
+campfire had been set up in the middle of the clearing.  All that's left 
+in it are ashes and some bone remains.  Two logs have been pulled up to 
+the campfire to be used as chairs.  Now fungus cover the logs, and the 
+wood decays away.  The campsite is next to a flowing river to the west.
+Judging from the rushing sound of the water, there might be a waterfall
+nearby.  At the edge of the campsite, the trail runs down and to the east. 
+~
+0 0 32768 5
+D1
+The trail continues around the mountain.
+~
+~
+0 0 708
+D5
+The trail continues around the mountain.
+~
+~
+0 0 706
+T 56
+S
+#708
+`3Path Around the Lesser Raiders``~
+You stand on a dirt trail alongside the mountain.  On one side the 
+mountain continues up, too steep to climb up.  On the other side, the land
+drops from beneath your feet, too steep to climb down without falling.
+You can peer over into the base of the mountain from here.  There are many
+plant life present, ranging from large pines to small bushes.  All sorts
+of animals run about.  They do not seem frightened by your presence.
+Instead, they run up to you and hope for some food.  The trail runs from
+east to west, leaving you with little choice where to go.
+~
+You stand on a dirt trail alongside the mountain.  On one side the 
+mountain continues up, too steep to climb up.  On the other side, the land
+drops from beneath your feet, too steep to climb down without falling.
+The trail runs from east to west, leaving you with little choice where to
+go.
+~
+0 0 65536 5
+D1
+The trail continues around the mountain.
+~
+~
+0 0 709
+D3
+There seems to be a clearing up ahead.
+~
+~
+0 0 707
+T 57
+S
+#709
+`3A Turn in the Path``~
+The trail makes an abrupt turn in your path.  Large footprints suggest 
+that someone passed by recently, perhaps not human.  A couple trees are 
+knocked down around the turn.  Wonder what could've caused it.  You begin 
+to feel uneasy as you become aware that eyes are staring at you from 
+behind the trees.  Hoping that they will not bother you, you quicken your 
+footsteps and hurry along.  You can either go either north or west. 
+~
+The trail makes an abrupt turn in your path.  A couple trees are knocked
+down around the turn.  Wonder what could've caused it.  You begin to feel
+uneasy as you become aware that eyes are staring at you in the darkness.
+Hoping that they will not bother you, you quicken your footsteps and hurry
+along.  You can either go either north or west. 
+~
+0 0 65536 5
+D0
+The trail continues around the mountain.
+~
+~
+0 0 710
+D3
+The trail continues around the mountain.
+~
+~
+0 0 708
+T 57
+S
+#710
+`3Path Around the Lesser Raiders``~
+You stand on a dirt trail alongside the mountain.  On one side the 
+mountain continues up, too steep to climb up.  On the other side, the land
+drops from beneath your feet, too steep to climb down without falling.
+You can peer over into the base of the mountain from here.  There are many
+plant life present, ranging from large pines to small bushes.  All sorts
+of animals run about.  They do not seem frightened by your presence. 
+Instead, they run up to you and hope for some food.  The trail runs up and
+south, leaving you with little choice where to go.
+~
+You stand on a dirt trail alongside the mountain.  On one side the 
+mountain continues up, too steep to climb up.  On the other side, the land
+drops from beneath your feet, too steep to climb down without falling.  
+The trail runs up and south, leaving you with little choice where to go.
+~
+0 0 32768 5
+D2
+The trail continues around the mountain.
+~
+~
+0 0 709
+D4
+A steep incline.
+~
+~
+0 0 711
+T 57
+S
+#711
+`3A Steep Incline``~
+The soft slopes have given away to much steeper and harsher slopes.  You 
+almost have to get on your hands and knees to continue upward.  Few trees 
+manage to find a foothold on this steep slope, and few animals could be 
+seen.  The clouds up above seems to be storming up a bit, and the winds 
+now blow fiercely in your face.  The steep incline takes you up, or you 
+can follow the trail south.
+~
+The soft slopes have given away to much steeper and harsher slopes.  You 
+almost have to get on your hands and knees to continue upward.  Few trees 
+manage to find a foothold on this steep slope, and few animals could be 
+seen.  The clouds up above quickly block out the moon, and the winds now
+blow fiercely in your face.  The steep incline takes you up, or you can 
+follow the trail south.
+~
+0 0 16384 5
+D4
+The steep incline continues.
+~
+~
+0 0 712
+D5
+You see a path that takes you to the bottom.
+~
+~
+0 0 710
+T 56
+S
+#712
+`3On the Mountainside``~
+You stand precariously on the side of the mountain.  Only a little ledge 
+protrudes from the mountain wall, allowing little room to move about.  The 
+ledge winds along the side of the mountain like a snake, following every 
+bump, and every crevice.  The wind is almost strong enough to blow you off 
+if you're not careful.  Most of the vegetation here are ferns and pines. 
+The pines stands more than fifty feet tall and points toward the heaven 
+itself.  The trail runs north and down.
+~
+You stand precariously on the side of the mountain.  Only a little ledge 
+protrudes from the mountain wall, allowing little room to move about.  The 
+ledge winds along the side of the mountain like a snake, following every 
+bump, and every crevice.  The chilly evening wind is almost strong enough
+to blow you off if you're not careful.  Most of the vegetation here are
+ferns and pines.  The trail runs north and down.
+~
+0 0 16384 5
+D0
+The trail continues around the mountain.
+~
+~
+0 0 713
+D5
+A steep decline.
+~
+~
+0 0 711
+T 56
+S
+#713
+`3Amongst Sliding Rocks``~
+Large boulders have fallen from above, and collected down here.  The rocks
+pile up in such a way that you can jump from one to the other, using them
+as stairs.  The boulders are loosely fit in space, so you should watch
+your step if you decide to climb up.  They might come loose at any second,
+causing another landslide.  Few shrubs grow between the cracks in the
+large boulders.  Most of the green you see are a special breed of moss
+that
+only grows in these parts.  You can climb up the boulders to the top, or 
+you can follow the trail south.
+~
+Large boulders have fallen from above, and collected down here.  The rocks
+pile up in such a way that you can jump from one to the other, using them
+as stairs.  The boulders are loosely fit in space, so you should watch
+your step if you decide to climb up, especially in this darkness.  They
+might come loose at any second, causing another landslide.  Few shrubs
+grow between the cracks in the large boulders.  You can climb up the
+boulders to the top, or you can follow the trail south.
+~
+0 0 65536 5
+D2
+The trail continues around the mountain.
+~
+~
+0 0 712
+D4
+Large boulders pave your way up.  They look unsteady.
+~
+~
+0 0 714
+T 55
+S
+#714
+`3On Top of the Landslide``~
+Large boulders lean over the side of the slope.  Most of the loose rocks
+have already slid down the last landslide, since the earth around here
+moves constantly.  Plants have found it impossible to grow in this area, 
+so it is mostly barren with only some insects and spiders.  The trees
+continue growing your north, and a trail could be seen leading into the
+woods.  Buried under some rocks, you find another trail leading off to the
+east, continuing the path around the mountain.  Or you can choose to
+tumble off the landslide, curled in a ball.
+~
+Large boulders lean over the side of the slope.  Most of the loose rocks
+have already slid down the last landslide, since the earth around here
+moves constantly.  Plants have found it impossible to grow in this area,
+so it is mostly barren with only some insects and spiders.  The trees
+continue growing your north, and a trail leads into the woods.  Buried
+under some rocks, you find another trail leading off to the east, 
+continuing the path around the mountain.  Or you can choose to tumble off
+the landslide, curled in a ball.
+~
+0 0 16384 5
+D0
+You see a path into the woods.
+~
+~
+0 0 771
+D1
+You find a trail buried under the rocks.
+~
+~
+0 0 715
+D5
+You see a landslide that occurred recently.
+~
+~
+0 0 713
+T 55
+S
+#715
+`3On the Mountainside``~
+You stand precariously on the side of the mountain.  Only a little ledge 
+protrudes from the mountain wall, allowing little room to move about.  The 
+ledge winds along the side of the mountain like a snake, following every 
+bump, and every crevice.  The wind is almost strong enough to blow you off 
+if you're not careful.  Most of the vegetation here are ferns and pines. 
+The pines stands more than fifty feet tall and points toward the heaven 
+itself.  The trail runs from east to west.
+~
+You stand precariously on the side of the mountain.  Only a little ledge
+protrudes from the mountain wall, allowing little room to move about.  The
+ledge winds along the side of the mountain like a snake, following every
+bump, and every crevice.  The wind is almost strong enough to blow you off
+if you're not careful.  Most of the vegetation here are ferns and pines. 
+The trail runs from east to west.
+~
+0 0 65536 5
+D1
+The trail continues around the mountain.
+~
+~
+0 0 716
+D3
+The trail leads to a pile of rocks.
+~
+~
+0 0 714
+T 56
+S
+#716
+`3Between Two Peaks``~
+Another mountain range rises to your east.  There is no visible trail that
+would lead you up the next mountain here.  Perhaps you can find a way up
+further north.  Tall pines flourish across the next mountain range, all
+the way up to the peak.  You can see a cap of snow on the highest peak.  A
+rare sight for the city-folk.  The path you are currently on takes you up
+between the two mountains.  There is another path west that seems to lead
+down around the mountain to your west. 
+~
+Another mountain range rises to your east.  You cannot find a trail
+that would lead you up the next mountain here.  Perhaps you can find a way
+up further north.  Tall pines flourish across the next mountain range, all
+the way up to the peak.  A cap of snow covers the highest peak.  The path
+you are currently on takes you up between the two mountains.  There is 
+another path west that seems to lead down around the mountain to your
+west. 
+~
+0 0 16384 5
+D3
+The trail continues around the mountain.
+~
+~
+0 0 715
+D4
+The trail winds upward.
+~
+~
+0 0 717
+T 57
+S
+#717
+`3Between The Peaks``~
+Another mountain range rises to your east.  There is no visible trail that
+would lead you up the next mountain here.  Perhaps you can find a way up
+further north.  Tall pines flourish across the next mountain range, all
+the way up to the peak.  You can see a cap of snow on the highest peak.  A
+rare sight for the city-folk.  The path you are currently on takes you up
+between the two mountains.  There is another path west that seems to lead
+down around the mountain to your west. 
+~
+Another mountain range rises to your east.  You cannot find a trail
+that would lead you up the next mountain here.  Perhaps you can find a way
+up further north.  Tall pines flourish across the next mountain range, all
+the way up to the peak.  A cap of snow covers the highest peak.  The path
+you are currently on takes you up between the two mountains.  There is 
+another path west that seems to lead down around the mountain to your
+west. 
+~
+0 0 16384 5
+D0
+The trail continues around the mountain.
+~
+~
+0 0 718
+D5
+A trail leading back down.
+~
+~
+0 0 716
+T 54
+S
+#718
+`3A Fork Between the Lesser Raiders``~
+You stand at a three-way intersection right at the middle of the two 
+mountains.  There is a trail going up, the first trail you've found that 
+would lead you up the mountain to the east.  Seems like there hasn't been 
+many people using this trail, you can only make out a couple footsteps 
+leading off in that direction.  There is a trail going down, which would 
+probably lead you into the valley ahead.  Most of the footprints lead off 
+in this direction, and to the south.  To the south, the trail seems to
+take you around the mountain to the west.
+~
+You stand at a three-way intersection right at the middle of the two 
+mountains.  There is a trail going up, the first trail you've found that 
+would lead you up the mountain to the east.  There is a trail going down,
+which would probably lead you into the valley ahead.  To the south, the
+trail seems to take you around the mountain to the west.
+~
+0 0 16384 5
+D2
+The trail continues around the mountain.
+~
+~
+0 0 717
+D4
+You see another mountain rising to your east.
+~
+~
+0 0 734
+D5
+You see a trail descending into the valley.
+~
+~
+0 0 719
+T 56
+S
+#719
+`3A Steep Slope``~
+No more than three people can stand side-by-side on this steep trail.  You
+have to take careful steps or you might lose your footing and fall into 
+the ravine below.  You notice that the number of trees decrease as the
+slope nears the bottom.  You remember that down this trail leads to what
+the others call the 'Scarlet Death.'  You can follow this trail down, or you
+can climb out the other direction. 
+~
+No more than three people can stand side-by-side on this steep trail.  You
+have to take careful steps or you might lose your footing and fall into 
+the ravine below.  You peer down but can only see darkness.  You notice
+that the number of trees decrease as the slope nears the bottom.  You
+remember that down this trail leads to what the others call the 'Grey
+Death.'  You can follow this trail down, or you can climb out the other
+direction. 
+~
+0 0 8192 5
+D4
+This path takes you up the mountain.
+~
+~
+0 0 718
+D5
+The slope continues downward.
+~
+~
+0 0 720
+T 57
+S
+#720
+`3Entrance to the Barrows``~
+Now you know why they call this place the 'Scarlet Death.'  Thousands of dead
+trees decorate the landscape, not a single living one in sight.  The bark
+of the dead trees are deformed, and bare a deathly grey texture.  Their 
+branches are twisted and gnarled, snaking toward you as if they're alive.
+This place is littered with bones and rotted armor.  There is a deathly
+aura as far as the eye can see.
+  Close to fifty years ago, this is where the final confrontation was
+raged during the Great War between the orcs and the elves.  The blood of
+the orcs was so poisonous, that it killed all the trees it contaminated, 
+leading to the scene you see now.  The barrow continues to the north, or
+you can take the trail leading up out of the barrows.
+~
+Now you know why they call this place the 'Scarlet Death.'  Thousands of dead
+trees fill the landscape, not a single living still alive.  The bark of
+the dead trees are deformed, and bare a deathly grey texture.  Their 
+branches are twisted and gnarled, snaking toward you as if they're alive.
+This place is littered with bones and rotted armor.  You can sense a 
+deathly aura in the air.
+  Close to fifty years ago, this is where the final confrontation was
+raged during the Great War between the orcs and the elves.  The blood of
+the orcs was so poisonous, that it killed all the trees it contaminated, 
+leading to the scene you see now.  The barrow continues to the north, or
+you can take the trail leading up out of the barrows.
+~
+0 0 16384 5
+D0
+A barren valley opens before you.
+~
+~
+0 0 721
+D4
+A slope takes you up the mountain.
+~
+~
+0 0 719
+T 56
+S
+#721
+`3The Barren Barrows``~
+Grey stretches as far the eye can see.  Strangely, the ground also bares a 
+grey texture, probably just a reflection from the trees.  Yet you can't 
+help but notice the strange feel to the earth as you walk across it.  Only
+vultures dare to venture in this dead land.  They circle above you, as if
+you were to die soon... 
+~
+Strangely, the ground bares a grey texture, just like the trees.  Yet you
+can't help but notice the strange feel to the earth as you walk across it.
+Only vultures dare to venture in this dead land.  You can hear them
+circling above you, as if you were to die soon... 
+~
+0 0 8192 4
+D0
+The trail of dead trees continue.
+~
+~
+0 0 722
+D2
+The trail of dead trees continue.
+~
+~
+0 0 720
+T 56
+S
+#722
+`3The Barren Barrows``~
+Grey stretches as far the eye can see.  Strangely, the ground also bares a 
+grey texture, probably just a reflection from the trees.  Yet you can't 
+help but notice the strange feel to the earth as you walk across it.  Only
+vultures dare to venture in this dead land.  They circle above you, as if
+you were to die soon... 
+~
+Strangely, the ground bares a grey texture, just like the trees.  Yet you
+can't help but notice the strange feel to the earth as you walk across it.
+Only vultures dare to venture in this dead land.  You can hear them
+circling above you, as if you were to die soon... 
+~
+0 0 16384 4
+D2
+The trail of dead trees continue.
+~
+~
+0 0 721
+D3
+The trail of dead trees continue.
+~
+~
+0 0 723
+T 57
+S
+#723
+`3The Barren Barrows``~
+Grey stretches as far the eye can see.  Strangely, the ground also bares a 
+grey texture, probably just a reflection from the trees.  Yet you can't 
+help but notice the strange feel to the earth as you walk across it.  Only
+vultures dare to venture in this dead land.  They circle above you, as if
+you were to die soon...  Below you is the Valley of Wind.
+~
+Strangely, the ground bares a grey texture, just like the trees.  Yet you
+can't help but notice the strange feel to the earth as you walk across it.
+Only vultures dare to venture in this dead land.  You can hear them
+circling above you, as if you were to die soon...  Below you is the Valley
+of Wind.
+~
+0 0 32768 4
+D1
+The trail of dead trees continue.
+~
+~
+0 0 722
+D5
+Path into the Valley.
+~
+~
+0 0 724
+T 55
+S
+#724
+`3Entrance to the Valley``~
+You stand right in the center of the mountain range.  The mountains have 
+formed a circle around you, isolating you off from the rest of the world. 
+The wind starts to pick up a bit.  Strange.  You wonder why the wind
+wasn't blocked by the mountain ranges.  The wind feels unnatural, as it
+bites your face.  There is a strange howling caused by the wind blowing
+through the dead hollow trees.  It almost sound like voices crying out for
+help.  While trying not to let the voices bother you, you can make out a
+path continuing into the valley to the west.  Going up takes you out of
+the valley.
+~
+You stand right in the center of the mountain range.  The mountains have 
+formed a circle around you, isolating you off from the rest of the world. 
+The wind starts to pick up a bit.  Strange.  You wonder why the wind
+wasn't blocked by the mountain ranges.  The wind feels unnatural, as it
+bites your face.  The darkness also feels unnatural, for it is darker than
+pure black.  There is a strange howling caused by the wind blowing through
+the dead hollow trees.  It almost sound like voices crying out for help.
+While trying not to let the voices bother you, you can make out a path
+continuing into the valley to the west.  Going up takes you out of the
+valley.
+~
+0 0 32768 4
+D3
+The valley opens ahead of you.
+~
+~
+0 0 725
+D4
+Dead trees mark the beginning of the path.
+~
+~
+0 0 723
+T 57
+S
+#725
+`3Valley of Wind``~
+You stand right in the center of the mountain range.  The mountains have 
+formed a circle around you, isolating you off from the rest of the world. 
+The wind starts to pick up a bit.  Strange.  You wonder why the wind
+wasn't blocked by the mountain ranges.  The wind feels unnatural, as it
+bites your face.  There is a strange howling caused by the wind blowing
+through the dead hollow trees.  It almost sound like voices crying out for
+help.  While trying not to let the voices bother you, you can make out a
+path continuing into the valley to the north and to the east.
+~
+You stand right in the center of the mountain range.  The mountains have 
+formed a circle around you, isolating you off from the rest of the world. 
+The wind starts to pick up a bit.  Strange.  You wonder why the wind
+wasn't blocked by the mountain ranges.  The wind feels unnatural, as it
+bites your face.  The darkness also feels unnatural, for it is darker than
+pure black.  There is a strange howling caused by the wind blowing through
+the dead hollow trees.  It almost sound like voices crying out for help.
+While trying not to let the voices bother you, you can make out a path
+continuing into the valley to the north and to the east.
+~
+0 0 65536 4
+D0
+The valley continues on.
+~
+~
+0 0 726
+D1
+The valley continues on.
+~
+~
+0 0 724
+T 53
+S
+#726
+`3Valley of Wind``~
+You stand right in the center of the mountain range.  The mountains have 
+formed a circle around you, isolating you off from the rest of the world. 
+The wind starts to pick up a bit.  Strange.  You wonder why the wind
+wasn't blocked by the mountain ranges.  The wind feels unnatural, as it
+bites your face.  There is a strange howling caused by the wind blowing
+through the dead hollow trees.  It almost sound like voices crying out for
+help.  While trying not to let the voices bother you, you can make out a
+path continuing into the valley to the north and south.
+~
+You stand right in the center of the mountain range.  The mountains have 
+formed a circle around you, isolating you off from the rest of the world. 
+The wind starts to pick up a bit.  Strange.  You wonder why the wind
+wasn't blocked by the mountain ranges.  The wind feels unnatural, as it
+bites your face.  The darkness also feels unnatural, for it is darker than
+pure black.  There is a strange howling caused by the wind blowing through
+the dead hollow trees.  It almost sound like voices crying out for help.
+While trying not to let the voices bother you, you can make out a path
+continuing into the valley to the north and south.
+~
+0 0 65536 4
+D0
+The valley continues on.
+~
+~
+0 0 727
+D2
+The valley continues on.
+~
+~
+0 0 725
+T 52
+S
+#727
+`3Valley of Wind``~
+You stand right in the center of the mountain range.  The mountains have 
+formed a circle around you, isolating you off from the rest of the world. 
+The wind starts to pick up a bit.  Strange.  You wonder why the wind
+wasn't blocked by the mountain ranges.  The wind feels unnatural, as it
+bites your face.  There is a strange howling caused by the wind blowing
+through the dead hollow trees.  It almost sound like voices crying out for
+help.  While trying not to let the voices bother you, you can make out a
+path continuing into the valley to the south.  Below you, the valley takes
+a dive down. 
+~
+You stand right in the center of the mountain range.  The mountains have 
+formed a circle around you, isolating you off from the rest of the world. 
+The wind starts to pick up a bit.  Strange.  You wonder why the wind
+wasn't blocked by the mountain ranges.  The wind feels unnatural, as it
+bites your face.  The darkness also feels unnatural, for it is darker than
+pure black.  There is a strange howling caused by the wind blowing through
+the dead hollow trees.  It almost sound like voices crying out for help.
+While trying not to let the voices bother you, you can make out a path
+continuing into the valley to the south.  Below you, the valley takes a 
+dive down. 
+~
+0 0 16384 4
+D2
+The valley continues on.
+~
+~
+0 0 726
+D5
+Eerie sounds echo from that direction.
+~
+~
+0 0 728
+T 53
+S
+#728
+`3Deeper into the Valley``~
+You stand right in the center of the mountain range.  The mountains have 
+formed a circle around you, isolating you off from the rest of the world. 
+You have wandered into the depths of the valley.  Most of natural light 
+have been blocked off.  The wind is now brewing up a storm.  Strange.  You
+wonder why the wind wasn't blocked by the mountain ranges.  The wind feels
+unnatural, as it bites your face.
+  There is a strange howling caused by the wind blowing through the dead 
+hollow trees.  It almost sound like voices crying out for help.  While 
+trying not to let the voices bother you, you can make out a path 
+continuing into the valley to the north.  Going up takes you up to 
+higher grounds. 
+~
+You stand right in the center of the mountain range.  The mountains have 
+formed a circle around you, isolating you off from the rest of the world. 
+You have wandered into the depths of the valley.  It is darker than pure
+black.  The wind is now brewing up a storm.  Strange.  You wonder why the
+wind wasn't blocked by the mountain ranges.  The wind feels unnatural, as
+it bites your face.
+  There is a strange howling caused by the wind blowing through the dead 
+hollow trees.  It almost sound like voices crying out for help.  While 
+trying not to let the voices bother you, you can make out a path 
+continuing into the valley to the north.  Going up takes you up to 
+higher grounds. 
+~
+0 1 65536 4
+D0
+Eerie sounds echo from that direction.
+~
+~
+0 0 729
+D4
+A brighter light can be seen from above.
+~
+~
+0 0 727
+T 49
+S
+#729
+`3Deeper into the Valley``~
+You stand right in the center of the mountain range.  The mountains have 
+formed a circle around you, isolating you off from the rest of the world. 
+You have wandered into the depths of the valley.  Most of natural light 
+have been blocked off.  The wind is now brewing up a storm.  Strange.  You
+wonder why the wind wasn't blocked by the mountain ranges.  The wind feels
+unnatural, as it bites your face.
+  There is a strange howling caused by the wind blowing through the dead 
+hollow trees.  It almost sound like voices crying out for help.  While 
+trying not to let the voices bother you, you can make out a path  
+continuing into the valley to the west and to the south. 
+~
+You stand right in the center of the mountain range.  The mountains have 
+formed a circle around you, isolating you off from the rest of the world. 
+You have wandered into the depths of the valley.  It is darker than pure
+black.  The wind is now brewing up a storm.  Strange.  You wonder why the
+wind wasn't blocked by the mountain ranges.  The wind feels unnatural, as
+it bites your face.
+  There is a strange howling caused by the wind blowing through the dead 
+hollow trees.  It almost sound like voices crying out for help.  While 
+trying not to let the voices bother you, you can make out a path  
+continuing into the valley to the west and to the south. 
+~
+0 1 65536 4
+D2
+Eerie sounds echo from that direction.
+~
+~
+0 0 728
+D3
+Eerie sounds echo from that direction.
+~
+~
+0 0 730
+T 47
+S
+#730
+`3Deeper into the Valley``~
+You stand right in the center of the mountain range.  The mountains have 
+formed a circle around you, isolating you off from the rest of the world. 
+You have wandered into the depths of the valley.  Most of natural light 
+have been blocked off.  The wind is now brewing up a storm.  Strange.  You
+wonder why the wind wasn't blocked by the mountain ranges.  The wind feels
+unnatural, as it bites your face.
+  There is a strange howling caused by the wind blowing through the dead 
+hollow trees.  It almost sound like voices crying out for help.  While 
+trying not to let the voices bother you, you can make out a path  
+continuing into the valley to the east.  There is a trail going down, 
+which would lead you to the bottom of the valley. 
+~
+You stand right in the center of the mountain range.  The mountains have 
+formed a circle around you, isolating you off from the rest of the world. 
+You have wandered into the depths of the valley.  It is darker than pure
+black.  The wind is now brewing up a storm.  Strange.  You wonder why the
+wind wasn't blocked by the mountain ranges.  The wind feels unnatural, as
+it bites your face.
+  There is a strange howling caused by the wind blowing through the dead 
+hollow trees.  It almost sound like voices crying out for help.  While 
+trying not to let the voices bother you, you can make out a path  
+continuing into the valley to the east.  There is a trail going down, 
+which would lead you to the bottom of the valley. 
+~
+0 1 32768 4
+D1
+Eerie Sounds echo from that direction.
+~
+~
+0 0 729
+D5
+A well-used trail leads down.
+~
+~
+0 0 731
+T 46
+S
+#731
+`3Trail to the Bottom``~
+There are many footsteps leading down into the darkness and up to the 
+light up above.  This trail seems to be used frequently for some bizarre 
+reason.  You wonder who would want to travel to such depth and darkness.  
+There is no visible plant life.  The bare ground is soiled red with blood.
+Down takes you to the bottom of the valley.  The only other choice is to
+climb up to higher ground above. 
+~
+There are many footsteps leading down into the darkness and up to even
+more darkness.  This trail seems to be used frequently for some bizarre 
+reason.  You wonder who would want to travel to such depth and darkness.  
+There is no visible plant life.  The bare ground is soiled with blood. 
+Down takes you to the bottom of the valley.  The only other choice is to
+climb up to higher ground above. 
+~
+0 1 16384 4
+D4
+A trail leads you to the light up above.
+~
+~
+0 0 730
+D5
+The trail continues downward.
+~
+~
+0 0 732
+T 44
+S
+#732
+`3Bottom of the Valley``~
+You are at the bottom-most of the Valley.  Never did sunlight manage to
+penetrate the darkness to reach the floor of this part of the valley.  No
+life form would survive here for long.  The ground has been contaminated
+by poison and blood.  You can feel the acidity of the soil eat right
+through your boots.  The air carries a pungent smell, you can wonder why.
+Half-rotted corpses are dumped in a pile.  You can see two torches lit to
+the far north.  There is a trail that takes you higher up the valley.
+~
+You are at the bottom-most of the Valley.  Never did moonlight manage to
+penetrate the darkness to reach the floor of this part of the valley.  No
+life form would survive here for long.  The ground has been contaminated
+by poison and blood.  You can feel the acidity of the soil eat right
+through your boots.  The air carries a pungent smell, you can wonder why.
+Half-rotted corpses are dumped in a pile.  You can see two torches lit to
+the far north.  There is a trail that takes you higher up the valley.
+~
+0 1 32768 4
+D0
+You see two torches up ahead.
+~
+~
+0 0 733
+D4
+A trail leads you to the light up above.
+~
+~
+0 0 731
+T 43
+S
+#733
+`3At the Mouth of a Cave``~
+There is a wide opening on the wall of the mountain.  Two torches are lit 
+on either side of the cave.  There is something scribbled on the wall 
+beside the mouth of the cave.  The writing is indiscernible to you.  There
+are holes on the side of the mountain.  Air seems to be sucked from the
+holes deeper into the mountain.  There is a sign posted to your right.
+~
+~
+0 1 8192 4
+E
+sign~
+An arrow points north.
+
+City of Shasarazade.
+~
+D0
+You peer into the darkness shadows but see nothing.
+~
+~
+0 0 784
+D2
+A trail leads away from the cave.
+~
+~
+0 0 732
+T 45
+S
+#734
+`3On Another Peak``~
+You are now on the eastern mountain range.  This mountain is not as steep 
+as the south mountain range.  The trees are dense, making travel tough. 
+You can see the valley from here, known as the valley of wind.  You see a 
+trail heading off to your east, leading further up the mountain.  Going 
+down will take you between the mountain ranges.
+~
+You are now on the eastern mountain range.  This mountain is not as steep 
+as the south mountain range.  The trees are dense, making travel tough.  A
+trail heads off to your east, leading further up the mountain.  Going down
+will take you between the mountain ranges.
+~
+0 0 16384 5
+D1
+The path veers further up the mountain.
+~
+~
+0 0 735
+D5
+A trail winds down.
+~
+~
+0 0 718
+T 46
+S
+#735
+`3A Turn in the Trail``~
+The trail makes an abrupt turn in your path.  Large footprints suggest 
+that someone passed by recently, perhaps not human.  A couple trees are
+knocked down around the turn.  Wonder what could've caused it.  You begin
+to feel uneasy as you become aware that eyes are staring at you from 
+behind the trees.  Hoping that they will not bother you, you quicken your
+footsteps and hurry along.  You can either go either north or west.
+~
+The trail makes an abrupt turn in your path.  A couple trees are knocked
+down around the turn.  Wonder what could've caused it.  You begin to feel
+uneasy as you become aware that eyes are staring at you in the darkness.
+Hoping that they will not bother you, you quicken your footsteps and hurry
+along.  You can either go either north or west.
+~
+0 0 16384 5
+D0
+The path wanders off further into the mountains.
+~
+~
+0 0 736
+D3
+The path wanders off toward the valley.
+~
+~
+0 0 734
+T 46
+S
+#736
+`3On the Mountain-side``~
+You stand precariously on the side of the mountain.  Only a little ledge
+protrudes from the mountain wall, allowing little room to move about.  The
+ledge winds along the side of the mountain like a snake, following every
+bump, and every crevice.  The wind is almost strong enough to blow you off
+if you're not careful.  Most of the vegetation here are ferns and pines.
+The pines stands more than fifty feet tall and points toward the heaven
+itself.  The trail runs north and south.
+~
+You stand precariously on the side of the mountain.  Only a little ledge
+protrudes from the mountain wall, allowing little room to move about.  The
+ledge winds along the side of the mountain like a snake, following every
+bump, and every crevice.  The chilly evening wind is almost strong enough
+to blow you off if you're not careful.  Most of the vegetation here are
+ferns and pines.  The trail runs north and south.
+~
+0 0 16384 5
+D2
+The path wanders off between some boulders.
+~
+~
+0 0 735
+D4
+You can barely make out the mountain top.
+~
+~
+0 0 737
+T 47
+S
+#737
+`3End of the Trail``~
+The trail ends here.  Trees block your path in all directions.  To your 
+north, the woods seem to be not as dense.  It would be possible to travel 
+in that direction.  Your only other option would be the trail leading down 
+the mountain.  
+~
+~
+0 0 65536 5
+D0
+You see a slight opening in the woods up ahead.
+~
+~
+0 0 738
+D5
+This leads you down the mountain.
+~
+~
+0 0 736
+T 45
+S
+#738
+`2Within the Woods``~
+Trees brush against your side as you try to move across.  There is barely 
+enough room for you to move through.  The ground is a bit muddy.  There is 
+constant rain in this part of the mountain.  The air is cool and humid. 
+Insects fly all over the place.  You think you can squeeze between the 
+trees to your east.  To your south, you can see the edge of the woods and 
+a trail leading off the mountain.
+~
+Trees brush against your side as you try to move across.  There is barely 
+enough room for you to move through.  The ground is a bit muddy.  There is 
+constant rain in this part of the mountain.  The evening air is cool and
+humid.  Insects fly into you in the darkness.  You think you can squeeze
+between the  trees to your east.  To your south, you can see the edge of
+the woods and a trail leading off the mountain.
+~
+0 0 32768 3
+D1
+Your view is blocked by trees.
+~
+~
+0 0 739
+D2
+You see a trail beyond the trees.
+~
+~
+0 0 737
+T 48
+S
+#739
+`2Within the Woods``~
+Trees brush against your side as you try to move across.  There is barely 
+enough room for you to move through.  The ground is a bit muddy.  There is 
+constant rain in this part of the mountain.  The air is cool and humid. 
+Insects fly all over the place.  You think you can squeeze between the 
+trees to your east and to your west.  The trees are too dense to travel in
+any other direction.
+~
+Trees brush against your side as you try to move across.  There is barely 
+enough room for you to move through.  The ground is a bit muddy.  There is 
+constant rain in this part of the mountain.  The evening air is cool and
+humid.  Insects fly into you in the darkness.  You think you can squeeze
+between the trees to your east and to your west.  The trees are too dense
+to travel in any other direction.
+~
+0 0 32768 3
+D1
+Your view is blocked by trees.
+~
+~
+0 0 740
+D3
+Your view is blocked by trees.
+~
+~
+0 0 738
+T 50
+S
+#740
+`2Within the Woods``~
+Trees brush against your side as you try to move across.  There is barely 
+enough room for you to move through.  The ground is a bit muddy.  There is 
+constant rain in this part of the mountain.  The air is cool and humid. 
+Insects fly all over the place.  You think you can squeeze between the 
+trees to your east and to your west.  To your north, you can see a
+clearing in the woods.
+~
+Trees brush against your side as you try to move across.  There is barely 
+enough room for you to move through.  The ground is a bit muddy.  There is 
+constant rain in this part of the mountain.  The evening air is cool and
+humid.  Insects fly into you in the darkness.  You think you can squeeze
+between the trees to your east and to your west.  To your north, you can
+see a clearing in the woods.
+~
+0 0 65536 3
+D3
+Your view is blocked by trees.
+~
+~
+0 0 739
+D4
+You see a clearing up above.
+~
+~
+0 0 741
+T 50
+S
+#741
+`3An Abandoned Outlook``~
+Two spy towers stand alone in this clearing.  It was built during the 
+Great War that occurred ten years ago.  The towers were built on this
+high-point to keep posted on the enemies' advancement.  A pile of ashes
+within a circle of rocks indicate that it was once a campfire.  Several
+human bones protrude from the ashes, along with other animal remains.
+This outlook probably belonged to the Orcs deep inside the mountains.  The
+towers have been abandoned long since the end of the war.  Little animals
+now take refuge in the crudely built huts, since no one use it anymore.
+The slopes are too steep to continue further up the mountain.  The only
+way left is back down the mountain. 
+~
+Two spy towers stand alone in this clearing, silhouetting sharply against 
+the moon.  It was built during the Great War that occurred ten years ago.
+The towers were built on this high-point to keep posted on the enemies'
+advancement.  A pile of ashes within a circle of rocks indicate that it
+was once a campfire.  Several unidentified objects protrude from the.  
+This outlook probably belonged to the Orcs deep inside the mountains.  The
+towers have been abandoned long since the end of the war.  Little animals
+now take refuge in the crudely built huts, since no one use it anymore.
+The slopes are too steep to continue further up the mountain.  The only
+way left is back down the mountain. 
+~
+0 0 32768 2
+D5
+Your view is blocked by trees.
+~
+~
+0 0 740
+T 35
+S
+#742
+`3A Forgotten Trail``~
+This used to be a shortcut to the City of Leominter before the Great War.
+It was widely used at the time.  Now that the city has been destroyed, and
+no one has rebuilt it, this path has been forgotten by everyone.  The
+trail is covered by weeds and dust.  The trail continues along the base of
+the mountain to your west.  East takes you to the mountain slopes. 
+~
+This used to be a shortcut to the City of Leominter before the Great War.
+It was widely used at the time.  Now that the city has been destroyed, and
+no one has rebuilt it, this path has been forgotten by everyone.  It seems
+especially eerie at night.  The trail is covered by weeds and dust.  The
+trail continues along the base of the mountain to your west.  East takes
+you to the mountain slopes. 
+~
+0 0 65536 4
+D1
+You see a slope that can take you down the mountain.
+~
+~
+0 0 702
+D3
+The trail continues around the mountain.
+~
+~
+0 0 743
+T 49
+S
+#743
+`3A Forgotten Trail``~
+This used to be a shortcut to the City of Leominter before the Great War.
+It was widely used at the time.  Now that the city has been destroyed, and
+no one has rebuilt it, this path has been forgotten by everyone.  The
+trail is covered by weeds and dust.  The trail continues along the base of
+the mountain to your west.  The trail east takes you to the mountain
+slopes. 
+~
+This used to be a shortcut to the City of Leominter before the Great War.
+It was widely used at the time.  Now that the city has been destroyed, and
+no one has rebuilt it, this path has been forgotten by everyone.  It seems
+especially eerie at night.  The trail is covered by weeds and dust.  The 
+trail continues along the base of the mountain to your west.  The trail
+east takes you to the mountain slopes.
+~
+0 0 65536 4
+D1
+The trail continues around the mountain.
+~
+~
+0 0 742
+D3
+The trail continues around the mountain.
+~
+~
+0 0 744
+T 50
+S
+#744
+`3A Turn in the Old Trail``~
+This used to be a shortcut to the City of Leominter before the Great War.
+It was widely used at the time.  Now that the city has been destroyed, and
+no one has rebuilt it, this path has been forgotten by everyone.  The
+trail is covered by weeds and dust.  The trail continues along the base of
+the mountain to the east and to the north. 
+~
+This used to be a shortcut to the City of Leominter before the Great War.
+It was widely used at the time.  Now that the city has been destroyed, and
+no one has rebuilt it, this path has been forgotten by everyone.  It seems
+especially eerie at night.  The trail is covered by weeds and dust.  The 
+trail continues along the base of the mountain to the east and to the
+north.
+~
+0 0 8192 4
+D0
+The trail continues around the mountain.
+~
+~
+0 0 745
+D1
+The trail continues around the mountain.
+~
+~
+0 0 743
+T 49
+S
+#745
+`3A Turn in the Old Trail``~
+This used to be a shortcut to the City of Leominter before the Great War.
+It was widely used at the time.  Now that the city has been destroyed, and
+no one has rebuilt it, this path has been forgotten by everyone.  The
+trail is covered by weeds and dust.  The trail continues along the base of
+the mountain to the west and to the south. 
+~
+This used to be a shortcut to the City of Leominter before the Great War.
+It was widely used at the time.  Now that the city has been destroyed, and
+no one has rebuilt it, this path has been forgotten by everyone.  It seems
+especially eerie at night.  The trail is covered by weeds and dust.  The 
+trail continues along the base of the mountain to the west and to the
+east.
+~
+0 0 65536 4
+D0
+~
+~
+0 0 15000
+D2
+The trail continues around the mountain.
+~
+~
+0 0 744
+D3
+The trail continues around the mountain.
+~
+~
+0 0 746
+T 49
+S
+#746
+`3A Forgotten Trail``~
+This used to be a short-cut to the city of Leominter before the Great
+War. It was widely used at the time.  Now that the city has been
+destroyed, and no one has rebuilt it, this path has been forgotten by
+everyone. The trail is covered with weeds and dust.  The trail continues
+along the base of the mountain to the west and to the east.
+~
+This used to be a shortcut to the City of Leominter before the Great War.
+It was widely used at the time.  Now that the city has been destroyed, and
+no one has rebuilt it, this path has been forgotten by everyone.  It seems
+especially eerie at night.  The trail is covered by weeds and dust.  The 
+trail continues along the base of the mountain to the west and to the
+east.
+~
+0 0 16384 4
+D1
+The trail continues around the mountain.
+~
+~
+0 0 745
+D3
+You see a mountain cliff in the distance.
+~
+~
+0 0 747
+T 48
+S
+#747
+`3Bottom of the Cliff``~
+You stand at the bottom of a sheer cliff, standing two-hundred feet tall, 
+completely vertical.  You can't find any footholds to start climbing.  
+There is a broken elevator to your right, built long ago by the elves.  It 
+used to transport travelers up to the top.  It has not been working for a
+while. Unless you can fly, there's no other way up.  The only other way to
+go is back around the mountain to your east.
+~
+You stand at the bottom of a sheer cliff, standing two-hundred feet tall, 
+completely vertical.  You can't find any footholds in the dark to start
+climbing.  There is a broken elevator to your right, built long ago by the
+elves.  It used to transport travelers up to the top.  It has not been
+working for a while. Unless you can fly, there's no other way up.  The
+only other way to go is back around the mountain to your east.
+~
+0 0 16384 4
+D1
+A trail begins around the mountain.
+~
+~
+0 0 746
+D4
+A steep mountain wall.
+~
+~
+0 0 748
+T 46
+S
+#748
+`6Hanging on the Cliff``~
+You are floating in the air, right along the side of the cliff.  The wall 
+of the cliff is flat, with little cracks and crevices.  Climbing it would 
+be impossible.  Everything below you looks so small from here.  You can
+see the miniature animals running in the miniature forest.  There's still
+a way up to the top.
+~
+You are floating in darkness, right along the side of the cliff.  The wall 
+of the cliff is flat, with little cracks and crevices.  Climbing it would 
+be impossible.  There's still a way up to the top.
+~
+0 0 0 9
+D4
+You can see the top of the cliff.
+~
+~
+0 0 749
+D5
+You can see the bottom of the cliff.
+~
+~
+0 0 747
+T 48
+S
+#749
+`6Off the Edge of the Cliff``~
+You are floating in the air, right along the side of the cliff.  The wall
+of the cliff is flat, with little cracks and crevices.  Climbing it would
+be impossible.  Everything below you looks so small from here.  You can see
+the miniature animals running in the miniature forest.  The edge of the 
+cliff is directly north of you.  
+~
+You are floating in darkness, right along the side of the cliff.  The wall 
+of the cliff is flat, with little cracks and crevices.  Climbing it would 
+be impossible.  The edge of the cliff is directly north of you.  
+~
+0 0 0 9
+D0
+You can almost reach the edge of the cliff.
+~
+~
+0 0 750
+D5
+You see miniature trees.
+~
+~
+0 0 748
+T 49
+S
+#750
+`3Edge of the Cliff``~
+The ground disappears before you.  The wall of the cliff is flat, with 
+little cracks and crevices.  Climbing it would be impossible.  Everything 
+below you looks so small from here.  You can see the miniature animals 
+running in the miniature forest.  To your south, you can see an old 
+trail that leads to the City of Leominter. 
+~
+The ground has long since disappeared in the darkness.  The wall of the
+cliff is flat, with little cracks and crevices.  Climbing it would be
+impossible.  To your south, is an old trail that leads to the City of
+Leominter. 
+~
+0 0 32768 5
+D0
+You see an old trail up ahead.
+~
+~
+0 0 751
+D2
+You peer off the edge of the cliff, and see the little trees below.
+~
+~
+0 0 749
+T 52
+S
+#751
+`3An Old Trail``~
+You stand on a trail in the midst of the mountains.  Trees surround you
+from every direction.  It might just be the shadows, but the trees almost
+look alive.  This trail was widely used by travelers to reach the City
+of Leominter.  It also leads you to various other parts of the mountains.
+The trail continues to the east.  Down takes you to the edge of the woods.
+~
+You stand on a trail in the midst of the mountains.  Trees surround you
+from every direction.  It might just be the shadows and the pale glow of
+the moon, but the trees almost look alive.  This trail was widely used by
+travelers to reach the City of Leominter.  It also leads you to various
+other parts of the mountains.  The trail continues to the east.  Down
+takes you to the edge of the woods.
+~
+0 0 32768 5
+D1
+The old trail leads you further into the mountain.
+~
+~
+0 0 752
+D2
+You see the edge of the cliff.
+~
+~
+0 0 750
+D5
+You see the edge of the woods.
+~
+~
+0 0 774
+T 51
+S
+#752
+`3An Old Trail``~
+You stand on a trail in the midst of the mountains.  Trees surround you
+from every direction.  It might just be the shadows, but the trees almost
+look alive.  This trail was widely used by travelers to reach the City
+of Leominter.  It also leads you to various other parts of the mountains.
+The trail continues to the west and takes you up to higher grounds.
+~
+You stand on a trail in the midst of the mountains.  Trees surround you
+from every direction.  It might just be the shadows and the pale glow of
+the moon, but the trees almost look alive.  This trail was widely used by
+travelers to reach the City of Leominter.  It also leads you to various
+other parts of the mountains.  The trail continues to the west and takes
+you up to higher grounds.
+~
+0 0 65536 5
+D3
+The old trail leads you away from the mountain.
+~
+~
+0 0 751
+D4
+The old trail leads you further up into the mountain.
+~
+~
+0 0 753
+T 51
+S
+#753
+`3An Old Trail``~
+You stand on a trail in the midst of the mountains.  Trees surround you
+from every direction.  It might just be the shadows, but the trees almost
+look alive.  This trail was widely used by travelers to reach the City
+of Leominter.  It also leads you to various other parts of the mountains. 
+The trail continues to the east and takes you to lower grounds.
+~
+You stand on a trail in the midst of the mountains.  Trees surround you
+from every direction.  It might just be the shadows and the pale glow of
+the moon, but the trees almost look alive.  This trail was widely used by
+travelers to reach the City of Leominter.  It also leads you to various
+other parts of the mountains.  The trail continues to the east and takes
+you to lower grounds.
+~
+0 0 16384 5
+D1
+The old trail leads you further into the mountain.
+~
+~
+0 0 754
+D5
+The old trail leads you away from the mountain.
+~
+~
+0 0 752
+T 52
+S
+#754
+`3An Old Trail``~
+You stand on a trail in the midst of the mountains.  Trees surround you
+from every direction.  It might just be the shadows, but the trees almost
+look alive.  This trail was widely used by travelers to reach the City
+of Leominter.  It also leads you to various other parts of the mountains.
+The trail continues to the east and to the west.
+~
+You stand on a trail in the midst of the mountains.  Trees surround you
+from every direction.  It might just be the shadows and the pale glow of
+the moon, but the trees almost look alive.  This trail was widely used by
+travelers to reach the City of Leominter.  It also leads you to various
+other parts of the mountains.  The trail continues to the east and to the
+west.
+~
+0 0 8192 5
+D1
+The old trail continues.
+~
+~
+0 0 755
+D3
+The old trail continues.
+~
+~
+0 0 753
+T 50
+S
+#755
+`3An Old Trail``~
+You stand on a trail in the midst of the mountains.  Trees surround you
+from every direction.  It might just be the shadows, but the trees almost
+look alive.  This trail was widely used by travelers to reach the City
+of Leominter.  It also leads you to various other parts of the mountains.
+The trail continues to the south and to the west.  To the north you see a 
+path overgrown with weeds.
+~
+You stand on a trail in the midst of the mountains.  Trees surround you
+from every direction.  It might just be the shadows and the pale glow of
+the moon, but the trees almost look alive.  This trail was widely used by
+travelers to reach the City of Leominter.  It also leads you to various
+other parts of the mountains.  The trail continues to the south and to the
+west.  To the north is a path overgrown with weeds.
+~
+0 0 65536 5
+D0
+You see an path overgrown with weeds.
+~
+~
+0 0 765
+D2
+The old trail continues.
+~
+~
+0 0 756
+D3
+The old trail continues.
+~
+~
+0 0 754
+T 53
+S
+#756
+`3An Old Trail``~
+You stand on a trail in the midst of the mountains.  Trees surround you
+from every direction.  It might just be the shadows, but the trees almost
+look alive.  This trail was widely used by travelers to reach the City
+of Leominter.  It also leads you to various other parts of the mountains.
+The trail continues to the east and to the north.
+~
+You stand on a trail in the midst of the mountains.  Trees surround you
+from every direction.  It might just be the shadows and the pale glow of
+the moon, but the trees almost look alive.  This trail was widely used by
+travelers to reach the City of Leominter.  It also leads you to various
+other parts of the mountains.  The trail continues to the east and to the
+north.
+~
+0 0 8192 5
+D0
+The old trail continues.
+~
+~
+0 0 755
+D1
+The old trail continues.
+~
+~
+0 0 757
+T 53
+S
+#757
+`3An Old Trail``~
+You stand on a trail in the midst of the mountains.  Trees surround you
+from every direction.  It might just be the shadows, but the trees almost
+look alive.  This trail was widely used by travelers to reach the City
+of Leominter.  It also leads you to various other parts of the mountains.
+The trail continues to the east and to the west.  You can see a waterfall
+to the east.
+~
+You stand on a trail in the midst of the mountains.  Trees surround you
+from every direction.  It might just be the shadows and the pale glow of
+the moon, but the trees almost look alive.  This trail was widely used by
+travelers to reach the City of Leominter.  It also leads you to various
+other parts of the mountains.  The trail continues to the east and to the
+west.  You can hear the splash of water to the east.
+~
+0 0 16384 5
+D1
+You see a waterfall.
+~
+~
+0 0 758
+D3
+The old trail continues.
+~
+~
+0 0 756
+T 52
+S
+#758
+`3Before the Waterfall``~
+The water falls from a height of eighty feet, splashing off the rocks into
+your face.  A rainbow has formed from the mist caused by the splash.  It
+is strangely tranquil and peaceful around here.  The only sound you can
+hear is the roar of the water as it falls off the mountain and crashing 
+onto the rocks.  Stranger, the clouds have parted an opening above you,
+allowing sunshine to shine directly at the water.  There is a path up the
+waterfall.  You see an old trail to the south and to the west. 
+~
+The water falls from high above, splashing off the rocks into your face.
+It is strangely tranquil and peaceful around here.  The only sound you can
+hear is the roar of the water as it falls off the mountain and crashing 
+onto the rocks.  Stranger, the clouds have parted an opening above you,
+allowing the moonlight to cast its reflection in the water.  There is a
+path up the waterfall.  You see an an old trail to the south and to the
+west. 
+~
+0 0 16384 5
+D2
+The old trail continues.
+~
+~
+0 0 759
+D3
+The old trail continues.
+~
+~
+0 0 757
+D4
+You see the water showering down.
+~
+~
+0 0 762
+T 52
+S
+#759
+`3Beginning of the Trail``~
+You stand on a trail in the midst of the mountains.  Trees surround you 
+from every direction.  It might just be the shadows, but the trees almost 
+look alive.  This trail was widely used by travelers to reach the City of
+Leominter.  It also leads you to various other parts of the mountains. 
+The trail starts to the north.  Below you a path takes you down the 
+mountain.  You can see a waterfall to your north.
+~
+You stand on a trail in the midst of the mountains.  Trees surround you 
+from every direction.  It might just be the shadows and the pale glow of
+the moon, but the trees almost  look alive.  This trail was widely used by
+travelers to reach the City of Leominter.  It also leads you to various
+other parts of the mountains.  The trail starts to the north.  Below you a
+path takes you down the mountain.  You can hear the splash of water to
+your north.
+~
+0 0 65536 5
+D0
+You see a waterfall.
+~
+~
+0 0 758
+D5
+You see a hiking trail.
+~
+~
+0 0 760
+T 54
+S
+#760
+`3A Hiking Trail``~
+Many adventures have used this trail to climb up the mountain.  The trail 
+was made by humans that lived in the elven city of Leominter for a 
+conventional way down the mountain.  Large spider webs blocking your path 
+have be spun by, obviously, large spiders.  You brush the web aside,
+hoping the arachnids won't come bugging you.  The hiking trail starts
+below you, and leads toward the mountain.
+~
+Many adventures have used this trail to climb up the mountain.  The trail 
+was made by humans that lived in the elven city of Leominter for a 
+conventional way down the mountain.  Large spider webs come out of nowhere 
+and cling to your face.  You brush the web aside, hoping the arachnids
+won't come bugging you.  The hiking trail starts below you, and leads
+toward the mountain.
+~
+0 0 16384 5
+D4
+The hiking trail continues.
+~
+~
+0 0 759
+D5
+The hiking trail continues.
+~
+~
+0 0 761
+T 55
+S
+#761
+`3A Hiking Trail``~
+Many adventures have used this trail to climb up the mountain.  The trail
+was made by humans that lived in the elven city of Leominter for a
+conventional way down the mountain.  Large spider webs blocking your path
+have be spun by, obviously, large spiders.  You brush the web aside, hoping
+the arachnids won't come bugging you.  The hiking trail starts here, and 
+leads toward the mountain.
+~
+Many adventures have used this trail to climb up the mountain.  The trail
+was made by humans that lived in the elven city of Leominter for a
+conventional way down the mountain.  Large spider webs come out of nowhere
+and cling to your face.  You brush the web aside, hoping the arachnids 
+won't come bugging you.  The hiking trail starts below you, and leads
+toward the mountain.
+~
+0 0 65536 5
+D2
+You see a split in the path.
+~
+~
+0 0 703
+D4
+The hiking trail continues.
+~
+~
+0 0 760
+T 55
+S
+#762
+`3Climbing the Waterfall``~
+You are half-way up the waterfall.  The rocks are slippery and difficult 
+to climb.  You are soaking wet from just the mist alone.  You can see the 
+pool of water below you, flowing off in a river to your south.  The top is 
+not far off, only a little bit further up.  Going down would be a little 
+more dangerous.  The rocks are a lot more slippery, making your travel
+down tricky.
+~
+You are half-way up the waterfall.  The rocks are slippery and difficult 
+to climb.  You are soaking wet from just the mist alone.  You can see
+the reflection of the moon in the pool of water below you.  The top is 
+not far off, only a little bit further up.  Going down would be a little 
+more dangerous.  The rocks are a lot more slippery, making your travel
+down tricky.
+~
+0 0 65536 5
+D4
+You see the top of the waterfall.
+~
+~
+0 0 763
+D5
+You see a pool of water.
+~
+~
+0 0 758
+T 53
+S
+#763
+`3Top of the Waterfall``~
+The river pours down the side in a raging current.  You peer over and see 
+the white foam caused by the water splashing onto the rocks below.  You
+can see the opening in the clouds clearly from here.  This is the only
+part of the mountain where there is continuous sunshine.  The river flows
+from the north, falling to the rocks down below.
+~
+The river pours down the side in a raging current.  You lean over and hear 
+the roar caused by the water splashing onto the rocks below.  You can see
+the moon through an opening in the clouds from here.  This is the only
+part of the mountain where there is moonlight.  The river flows from the
+north, falling to the rocks down below.
+~
+0 0 32768 5
+D0
+You see the river source.
+~
+~
+0 0 764
+D5
+The waters pour down steadily.
+~
+~
+0 0 762
+T 50
+S
+#764
+`3Source of the River``~
+Deep within the mountains, the water surges up from the depth, pouring out
+from a crack in the riverbed.  The silver stream follows the riverbed to
+the south, where it falls off a cliff, forming a waterfall.  The river 
+moves rapidly along, clear and unpolluted.  The mountain wall ahead is too
+steep to climb.  The only way to go is south, along the riverbanks.
+~
+Deep within the mountains, the water surges up from the depth, pouring out
+from a crack in the riverbed.  The stream follows the riverbed to the
+south, where it falls off a cliff, forming a waterfall.  The river moves
+rapidly along.  The mountain wall ahead is too steep to climb.  The only
+way to go is south, along the riverbanks.
+~
+0 0 16384 5
+D2
+You see the river ending abruptly.
+~
+~
+0 0 763
+T 48
+S
+#765
+`3An Overgrown Path``~
+You find a path hidden in the forest, that hasn't been used for ages.  It 
+is overgrown with weeds and shrubs.  You can barely make the outlines of 
+the trail, leading up higher the mountain.  The trail continues above you,
+leading to some secret in the mountains.  You can see an old trail to your
+south, which is used by travelers to reach the city of Leominter.
+~
+You find a path hidden in the forest, that hasn't been used for ages.  It 
+is overgrown with weeds and shrubs.  You can barely make the outlines of 
+the trail in this darkness, leading up higher the mountain.  The trail
+continues above you, leading to some secret in the mountains.  To your
+south is an old trail, which is used by travelers to reach the city of
+Leominter.
+~
+0 0 16384 5
+D2
+You see an old dirt trail.
+~
+~
+0 0 755
+D4
+You barely make out a forest trail.
+~
+~
+0 0 766
+T 53
+S
+#766
+`3A Unused Forest Trail``~
+This trail lies hidden in the mountains.  It has been unused since the 
+Great War fifty years ago.  No one travels up this part of the mountain 
+anymore, unless they want an adventure.  Other than following the trail, 
+there is nowhere else to go.  The trail leads to the north.  You can see 
+an overgrown trail below you, taking you down the mountain.
+~
+~
+0 0 16384 5
+D0
+The forest trail continues.
+~
+~
+0 0 767
+D5
+You see a trail overgrown with weeds.
+~
+~
+0 0 765
+T 54
+S
+#767
+`3An Unused Forest Trail``~
+This trail lies hidden in the mountains.  It has been unused since the
+Great War fifty years ago.  No one travels up this part of the mountain
+anymore, unless they want an adventure.  Other than following the trail,
+there is nowhere else to go.  The trail continuous above you and to the 
+south.
+~
+~
+0 0 8192 5
+D2
+The forest trail continues.
+~
+~
+0 0 766
+D4
+The forest trail continues.
+~
+~
+0 0 768
+T 54
+S
+#768
+`3An Unused Forest Trail``~
+This trail lies hidden in the mountains.  It has been unused since the
+Great War fifty years ago.  No one travels up this part of the mountain
+anymore, unless they want an adventure.  Other than following the trail,
+there is nowhere else to go.  The trail leads to the east.  You can see
+an overgrown trail below you, taking you down the mountain.
+~
+~
+0 0 32768 5
+D1
+The forest trail continues.
+~
+~
+0 0 769
+D5
+The forest trail continues.
+~
+~
+0 0 767
+T 55
+S
+#769
+`3An Unused Forest Trail``~
+This trail lies hidden in the mountains.  It has been unused since the
+Great War fifty years ago.  No one travels up this part of the mountain
+anymore, unless they want an adventure.  Other than following the trail,
+there is nowhere else to go.  The trail leads to the west.  You can see
+a clearing above you.
+~
+~
+0 0 8192 5
+D3
+The forest trail continues.
+~
+~
+0 0 768
+D4
+You see a clearing in the forest.
+~
+~
+0 0 770
+T 54
+S
+#770
+`3A Craggy Overlook``~
+You find yourself overlooking a vast mountain valley. Around you, the
+craggy peaks of the Lesser Raider mountains crest, and remain donned
+in white snowy caps nearly year round. Within this small clearing that
+rests only slightly below treeline amid stunted trees and bushes, a
+small campfire circle has been made, which smokes merrily. The chill
+wind of the mountains seems to whistle through the canyons and spires
+around you, but seems to strangely keep this clearing safe from the
+treacherous mountain weather.
+~
+~
+0 0 16384 5
+D5
+You see the beginnings of a forest trail.
+~
+~
+0 0 769
+T 50
+P RANDOM 770 20~
+S
+#771
+`2Path in the Woods``~
+The trees here grow in a queer way.  The shadows that they cast seems to
+move toward you.  The barks are twisted and gnarled, weathered by the
+wind.  The trees loom above you, on both side of the trail.  Eyes watch
+you from the shadows, monitoring your every move.  The trail continues to
+the west.  You can see another trail to the south leading around the
+mountain.
+~
+The trees here grow in a queer way.  The shadows that they cast in the 
+moonlight seems to move toward you.  The barks are twisted and gnarled,
+weathered by the wind.  The trees loom above you, on both side of the
+trail.  Eyes watch you from the darkness, monitoring your every move.  The
+trail continues to the west.  You can see another trail to the south
+leading around the mountain.
+~
+0 0 32768 3
+D2
+You see some loose rocks hanging precariously.
+~
+~
+0 0 714
+D3
+The woods continue.
+~
+~
+0 0 772
+T 55
+S
+#772
+`2Path in the Woods``~
+The trees here grow in a queer way.  The shadows that they cast seems to
+move toward you.  The barks are twisted and gnarled, weathered by the wind.
+The trees loom above you, on both side of the trail.  Eyes watch you from 
+the shadows, monitoring your every move.  The trail continues to the east.
+You can see the end of the trail above you.
+~
+The trees here grow in a queer way.  The shadows that they cast in the 
+moonlight seems to move toward you.  The barks are twisted and gnarled,
+weathered by the wind.  The trees loom above you, on both side of the
+trail.  Eyes watch you from the darkness, monitoring your every move.  The
+trail continues to the east.  You can see the end of the trail above you.
+~
+0 0 8192 3
+D1
+The woods continue.
+~
+~
+0 0 771
+D4
+Trees block your path.
+~
+~
+0 0 773
+T 55
+S
+#773
+`3Before a Shrine``~
+The trail ends here abruptly. It is rather steep here, and very moutainous.
+Above you, carved into the very moutainside, is a large gate that shines
+golden in the sun. A large holy cross is above it, and it seems to lead
+into the moutain Temple of Light. The only other way off this place is
+down.
+~
+The trail ends here abruptly.  It is too steep to continue north.  Trees
+covered with thorns prevent you from traveling neither east nor west.
+Blood stains soil the mountain walls to your north.  You feel uneasy
+spending the night here.  The only way you can go is down.
+~
+0 0 8192 5
+D5
+The only way you can go.
+~
+~
+0 0 772
+T 56
+S
+#774
+`2Among withered trees``~
+You stand on a slope leading up into the mountain.  To the west, are some 
+woods between the southern mountain ranges and the western mountain 
+ranges.  You stand right at the edge of woods.  You see a trail leading 
+west.  There is a sign right next to the trail.  Up takes you toward the 
+southern mountain ranges.  
+~
+You stand on a slope leading up into the mountain.  To the west, are some 
+woods between the southern mountain ranges and the western mountain 
+ranges.  You stand right at the edge of woods.  You see a trail leading 
+west.  You can barely see a sign next to the trail.  Up takes you toward
+the southern mountain ranges.  
+~
+0 0 32768 3
+E
+sign~
+The signs are fading, you can made out an arrow pointing to the west and 
+the following words:
+
+City of Leominter
+
+~
+D3
+The woods continue.
+~
+~
+0 0 775
+D4
+You see an old trail.
+~
+~
+0 0 751
+T 54
+S
+#775
+`2Among withered trees``~
+You stand on a trail leading deeper into the woods.  Trees brush against
+your side as you move across.  The ground is a bit muddy.  The air is cool
+and humid.  Insects fly all over the place.  To your west, you can see a
+clearing in the woods.
+~
+You stand on a trail leading deeper into the woods.  Trees brush against
+your side as you move across.  The ground is a bit muddy.  The air is cool
+and humid.  Insects fly into you in the darkness.  To your west, you can
+see a clearing in the woods.
+~
+0 0 32768 3
+D1
+You see the edge of the woods.
+~
+~
+0 0 774
+D3
+You see a clearing in the woods.
+~
+~
+0 0 776
+T 57
+S
+#776
+`3A rocky clearing``~
+You stand at the edge of a large clearing in the middle of the woods.  A
+small pond lies to your left, and some fallen logs are stacked beside it. 
+You can see both the western and the southern mountain ranges from here.
+To your west, an iron gate stands alone in a rubble.  There is another 
+trail to the east back into the woods. 
+~
+You stand at the edge of a large clearing in the middle of the woods.  A
+small pond lies to your left, and some fallen logs are stacked beside it. 
+To your west, an iron gate stands alone in a rubble.  There is another 
+trail to the east back into the woods. 
+~
+0 0 32768 2
+D1
+You see a path in the woods.
+~
+~
+0 0 775
+D3
+You see a large iron gate.
+~
+~
+0 0 777
+T 58
+S
+#777
+`7The East Gate of Leominter``~
+Alas, you have reached the once great elven city.  This is only thing that
+is left standing, the rest of the city is in ruins.  It was pillaged by 
+the orc hordes fifty years ago during the Great War.  It was the struggle
+between good and evil, and evil prevailed.  The elves were driven back,
+after losing the final war right before the valley of wind.  The elves
+retreated further west, now known as the valley of the elves.  The horde
+no longer exists, their headquarters is now a major city inside the
+mountain to the west.  The entrance is deep down the valley of wind.  West
+takes you toward the ruins. 
+~
+Alas, you have reached the once great elven city.  This is only thing that
+is left standing, the rest of the city is in ruins.  It was pillaged by 
+the orc hordes fifty years ago during the Great War.  It was the struggle
+between good and evil, and evil prevailed.  The elves were driven back,
+after losing the final war right before the valley of wind.  The elves
+retreated further west, now known as the valley of the elves.  The horde
+no longer exists, their headquarters is now a major city inside the
+mountain to the west.  The entrance is deep down the valley of wind.  West
+takes you toward the ruins.  You hear howling in the night.
+~
+0 0 0 1
+D1
+You see a clearing.
+~
+~
+0 0 776
+D3
+You see collapsed buildings beyond the gates.
+~
+~
+0 0 778
+T 58
+S
+#778
+`7The Ruins of Leominter``~
+There is no buildings left standing.  They have either collapsed or have
+been burned to ashes.  All that is left are rubbles.  The orcs showed no
+mercy, destroying everything in their path.  The trail of destruction
+continues to the west.  You see the city gates to the east.
+~
+There is no buildings left standing.  They have either collapsed or have
+been burned to ashes.  All that is left are rubbles.  The orcs showed no
+mercy, destroying everything in their path.  The trail of destruction
+continues to the west.  You see the city gates to the east and hear
+howling in the night.
+~
+0 0 0 1
+D1
+You see the gates of the city.
+~
+~
+0 0 777
+D3
+You see collapsed buildings and burnt homes.
+~
+~
+0 0 779
+T 60
+S
+#779
+`7The Ruins of Leominter``~
+There is no buildings left standing.  They have either collapsed or have
+been burned to ashes.  All that is left are rubbles.  The orcs showed no
+mercy, destroying everything in their path.  The trail of destruction
+continues to the west and to the east.  You can see a statue to your west,
+where the market square used to be. 
+~
+There is no buildings left standing.  They have either collapsed or have
+been burned to ashes.  All that is left are rubbles.  The orcs showed no
+mercy, destroying everything in their path.  The trail of destruction
+continues to the west and to the east.  You can see a large object to your
+west, where the market square used to be.  Howling can be hear in the
+night.
+~
+0 0 0 1
+D1
+You see collapsed buildings and burnt homes.
+~
+~
+0 0 778
+D3
+You see a statue of a lion.
+~
+~
+0 0 780
+T 60
+S
+#780
+`7Before the Statue``~
+There is no buildings left standing.  They have either collapsed or have
+been burned to ashes.  All that is left are rubbles.  The orcs showed no
+mercy, destroying everything in their path.  A bronze lion statue rest in
+the center of what used to be the market square.  There is a man-hole
+cover right in front of it, leading to the sewers.  You notice there are
+footprints indicating a large group of people exiting the sewers.  The
+orcs have dug a tunnel from their city into the elves sewer system.  They
+ambushed the elves from the sewers during the war, and drove the elves out
+of the city.  The trail of destruction continues to the east. 
+~
+There is no buildings left standing.  They have either collapsed or have
+been burned to ashes.  All that is left are rubbles.  The orcs showed no
+mercy, destroying everything in their path.  A bronze lion statue rest in
+the center of what used to be the market square.  There is a man-hole
+cover right in front of it, leading to the sewers.  The orcs have dug a
+tunnel from their city into the elves sewer system.  They ambushed the
+elves from the sewers during the war, and drove the elves out of the city.
+The trail of destruction continues to the east.  You hear howling in the
+night.
+~
+0 0 0 1
+D1
+You see collapsed buildings and burnt homes.
+~
+~
+0 0 779
+D5
+You see a trap door leading into the sewers.
+~
+trap door cover~
+AB -1 781
+T 62
+S
+#781
+`8A Vertical Tunnel``~
+A long cylindrical shaft descends to the dark sewers below.  A putrid 
+smell rises from sewage wastes.  A metal ladder is built into the side of
+the shaft, leading up to the fresh air above, or down into the wastes 
+below. 
+~
+~
+0 9 0 0
+D4
+You see light from above.
+~
+trap door cover~
+AB -1 780
+D5
+You see sewer water underneath.
+~
+~
+0 0 782
+T 55
+S
+#782
+`8In the Sewers``~
+This place really reeks.  Even after fifty years, the garbage wastes have
+not decomposed completely, and rots slowly on the bottom of the sewers.
+Large rats run rampant around your feet.  The walls have caved in to your
+south, making it impossible to continue in that direction.
+~
+~
+0 9 0 0
+D0
+The sewer continues.
+~
+~
+0 0 783
+D4
+You see a vertical shaft.
+~
+~
+0 0 781
+T 53
+S
+#783
+`8A Damp Tunnel``~
+Droplets of water fall from the ceiling, and lands at your feet.  A small
+puddle have gathered slowly, seeping into your boots.  The tunnel is dark,
+and the walls are rough.  Square wooden posts hold up the ceiling of the
+tunnel, preventing it from collapsing inward.  Dug by the orcs, there's
+not much to praise about these tunnels.  The tunnel continues to your
+north.  South takes you to the sewers.
+~
+~
+0 9 0 0
+D0
+The tunnel continues north.
+~
+~
+0 0 791
+D2
+You see raw sewege up ahead.
+~
+~
+0 0 782
+T 52
+S
+#784
+`3Inside the Cave``~
+You see a flickering light coming from the south, from the torches that
+light the opening of the cave.  The ground and the walls feel damp.  You
+can hear the water droplets splashing into a little puddle to the north.
+There is a tunnel leading north, into the darkness.  South takes you
+outside the cave.
+~
+~
+0 9 65536 4
+D0
+The tunnel continues north.
+~
+~
+0 0 785
+D2
+You see the mouth of the cave.
+~
+~
+0 0 733
+T 53
+S
+#785
+`3A Damp Tunnel``~
+Droplets of water fall from the ceiling, and lands at your feet.  A small
+puddle have gathered slowly, seeping into your boots.  The tunnel is dark,
+and the walls are rough.  Square wooden posts hold up the ceiling of the
+tunnel, preventing it from collapsing inward.  Dug by the orcs, there's
+not much to praise about these tunnels.  The tunnel continues to the north
+and to the south. 
+~
+~
+0 9 16384 4
+D0
+The tunnel continues north.
+~
+~
+0 0 786
+D2
+Light emits from that end of the tunnel.
+~
+~
+0 0 784
+T 52
+S
+#786
+`3A Damp Tunnel``~
+Droplets of water fall from the ceiling, and lands at your feet.  A small
+puddle have gathered slowly, seeping into your boots.  The tunnel is dark,
+and the walls are rough.  Square wooden posts hold up the ceiling of the
+tunnel, preventing it from collapsing inward.  Dug by the orcs, there's
+not much to praise about these tunnels.  You can feel a slight breeze from
+the south.  Just north of you, the tunnel enter into darkness.  The tunnel
+continues to the north and to the south.
+~
+~
+0 9 65536 4
+D0
+The tunnel continues into the darkness.
+~
+~
+0 0 787
+D2
+The tunnel continues south.
+~
+~
+0 0 785
+T 54
+S
+#787
+`3A Dark Tunnel``~
+It is almost pitch-black here.  Droplets of water fall from the ceiling,
+and lands at your feet.  A small puddle have gathered slowly, seeping into
+your boots.  The tunnel is dark, and the walls are rough.  Square wooden
+posts hold up the ceiling of the tunnel, preventing it from collapsing
+inward.  Dug by the orcs, there's not much to praise about these tunnels.
+It is completely pitch-black just south of you.  The tunnel continues to
+the north and to the south.
+~
+~
+0 9 16384 4
+D0
+You can barely make out the shape of the tunnel.
+~
+~
+0 0 788
+D2
+The tunnel continues south.
+~
+~
+0 0 786
+T 51
+S
+#788
+`3A Pitch Dark Tunnel``~
+It is completely pitch-black here.  Droplets of water fall from the 
+ceiling, and lands at your feet.  A small puddle have gathered slowly, 
+seeping into your boots.  The tunnel is dark, and the walls are rough.  
+Square wooden posts hold up the ceiling of the tunnel, preventing it 
+from collapsing inward.  Dug by the orcs, there's not much to praise 
+about these tunnels.  The tunnel continues to the north and to the south.
+~
+~
+0 9 8192 4
+D0
+The tunnel continues into darkness.
+~
+~
+0 0 789
+D2
+The tunnel continues into darkness.
+~
+~
+0 0 787
+T 52
+S
+#789
+`3A Dark Tunnel``~
+It is almost pitch-black here.  Droplets of water fall from the ceiling,
+and lands at your feet.  A small puddle have gathered slowly, seeping into
+your boots.  The tunnel is dark, and the walls are rough.  Square wooden
+posts hold up the ceiling of the tunnel, preventing it from collapsing
+inward.  Dug by the orcs, there's not much to praise about these tunnels.
+It is completely pitch-black just north of you.  The tunnel continues to
+the north and to the south.
+~
+~
+0 9 8192 4
+D0
+The tunnel continues north.
+~
+~
+0 0 790
+D2
+You can barely make out the shape of the tunnel.
+~
+~
+0 0 788
+T 53
+S
+#790
+`3Outside the South Gate``~
+You stand just south of the grand gates of Leominter.  The ground is 
+drier to the north.  You can almost taste the scent of blood in the air.
+Loud noises and shouting can be heard in the distance.  A tunnel to the
+south leads you outside the mountain.
+~
+~
+0 8 32768 4
+D1
+~
+~
+0 0 4400
+D2
+A tunnel leads away from the gates.
+~
+~
+0 0 789
+T 57
+S
+#791
+`8A Damp Tunnel``~
+Droplets of water fall from the ceiling, and lands at your feet.  A small
+puddle have gathered slowly, seeping into your boots.  The tunnel is dark,
+and the walls are rough.  Square wooden posts hold up the ceiling of the
+tunnel, preventing it from collapsing inward.  Dug by the orcs, there's
+not much to praise about these tunnels.  The tunnel continues to the
+north.  You can smell the sewers to the south. 
+~
+~
+0 9 0 0
+D0
+The tunnel continues.
+~
+~
+0 0 792
+D2
+The tunnel leads toward the sewers.
+~
+~
+0 0 783
+T 53
+S
+#792
+`8A Damp Tunnel``~
+Droplets of water fall from the ceiling, and lands at your feet.  A small
+puddle have gathered slowly, seeping into your boots.  The tunnel is dark,
+and the walls are rough.  Square wooden posts hold up the ceiling of the
+tunnel, preventing it from collapsing inward.  Dug by the orcs, there's
+not much to praise about these tunnels.  The tunnel continues to the
+north.  You can smell the sewers to the south. 
+~
+~
+0 9 0 0
+D0
+The tunnel continues.
+~
+~
+0 0 793
+D2
+The tunnel continues.
+~
+~
+0 0 791
+T 54
+S
+#793
+`8A Damp Tunnel``~
+Droplets of water fall from the ceiling, and lands at your feet.  A small
+puddle have gathered slowly, seeping into your boots.  The tunnel is dark,
+and the walls are rough.  Square wooden posts hold up the ceiling of the
+tunnel, preventing it from collapsing inward.  Dug by the orcs, there's
+not much to praise about these tunnels.  The tunnel continues to the north
+and to the south.
+~
+~
+0 9 0 0
+D0
+You see a turn up ahead.
+~
+~
+0 0 794
+D2
+The tunnel continues.
+~
+~
+0 0 792
+T 54
+S
+#794
+`8A Bend in the Tunnel``~
+Droplets of water fall from the ceiling, and lands at your feet.  A small
+puddle have gathered slowly, seeping into your boots.  The tunnel is dark,
+and the walls are rough.  Square wooden posts hold up the ceiling of the
+tunnel, preventing it from collapsing inward.  Dug by the orcs, there's
+not much to praise about these tunnels.  The tunnel continues to the east
+and to the south. 
+~
+~
+0 9 0 0
+D1
+The tunnel continues.
+~
+~
+0 0 795
+D2
+The tunnel continues.
+~
+~
+0 0 793
+T 55
+S
+#795
+`8A Damp Tunnel``~
+Droplets of water fall from the ceiling, and lands at your feet.  A small
+puddle have gathered slowly, seeping into your boots.  The tunnel is dark,
+and the walls are rough.  Square wooden posts hold up the ceiling of the
+tunnel, preventing it from collapsing inward.  Dug by the orcs, there's
+not much to praise about these tunnels.  The tunnel continues to the east
+and to the west. 
+~
+~
+0 9 0 0
+D1
+The tunnel continues.
+~
+~
+0 0 796
+D3
+You see a turn up ahead.
+~
+~
+0 0 794
+T 54
+S
+#796
+`8A Damp Tunnel``~
+Droplets of water fall from the ceiling, and lands at your feet.  A small
+puddle have gathered slowly, seeping into your boots.  The tunnel is dark,
+and the walls are rough.  Square wooden posts hold up the ceiling of the
+tunnel, preventing it from collapsing inward.  Dug by the orcs, there's
+not much to praise about these tunnels.  The tunnel continues to the east
+and to the west. 
+~
+~
+0 9 0 0
+D1
+You see a turn up ahead.
+~
+~
+0 0 797
+D3
+The tunnel continues.
+~
+~
+0 0 795
+T 56
+S
+#797
+`8A Bend in the Tunnel``~
+Droplets of water fall from the ceiling, and lands at your feet.  A small
+puddle have gathered slowly, seeping into your boots.  The tunnel is dark,
+and the walls are rough.  Square wooden posts hold up the ceiling of the
+tunnel, preventing it from collapsing inward.  Dug by the orcs, there's
+not much to praise about these tunnels.  The tunnel continues to the north
+and to the west.
+~
+~
+0 9 0 0
+D0
+The tunnel continues.
+~
+~
+0 0 798
+D3
+The tunnel continues.
+~
+~
+0 0 796
+T 54
+S
+#798
+`8A Damp Tunnel``~
+Droplets of water fall from the ceiling, and lands at your feet.  A small
+puddle have gathered slowly, seeping into your boots.  The tunnel is dark,
+and the walls are rough.  Square wooden posts hold up the ceiling of the
+tunnel, preventing it from collapsing inward.  Dug by the orcs, there's
+not much to praise about these tunnels.  The tunnel continues to the north
+and to the south. 
+~
+~
+0 9 0 0
+D0
+The tunnel continues.
+~
+~
+0 0 799
+D2
+You see a turn up ahead.
+~
+~
+0 0 797
+T 55
+S
+#799
+`8A Damp Tunnel``~
+Droplets of water fall from the ceiling, and lands at your feet.  A small
+puddle have gathered slowly, seeping into your boots.  The tunnel is dark,
+and the walls are rough.  Square wooden posts hold up the ceiling of the
+tunnel, preventing it from collapsing inward.  Dug by the orcs, there's
+not much to praise about these tunnels.  The tunnel ends abruptly. A man-
+hole cover above you would probably lead you to the surface.  Cries of
+despair echoes from the iron grates beneath your feet.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 798
+T 54
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 702 17 700 2
+M 0 702 17 700 1
+M 0 706 10 701 1
+E 0 700 0 9
+E 0 704 0 18
+M 0 702 19 701 2
+M 0 702 19 701 1
+M 0 702 19 701 1
+M 0 700 19 703 1
+M 0 705 16 703 1
+M 0 707 15 703 1
+E 0 707 0 5
+E 0 701 0 17
+E 0 715 0 8
+M 0 703 10 704 1
+E 0 702 0 16
+M 0 704 8 704 1
+M 0 710 15 704 1
+E 0 717 0 5
+M 0 700 19 705 1
+M 0 701 20 706 1
+M 0 707 15 706 1
+E 0 712 0 17
+E 0 710 0 13
+E 0 715 0 8
+M 0 704 8 707 1
+M 0 705 16 707 1
+M 0 706 10 707 1
+E 0 716 0 6
+E 0 714 0 11
+M 0 710 15 707 1
+E 0 718 0 6
+M 0 701 20 708 1
+M 0 707 15 708 1
+E 0 701 0 17
+E 0 707 0 5
+E 0 715 0 8
+M 0 700 19 709 1
+M 0 702 17 709 1
+M 0 703 10 710 1
+M 0 710 15 710 1
+E 0 718 0 6
+M 0 701 20 711 1
+M 0 706 10 711 1
+E 0 705 0 18
+E 0 714 0 11
+M 0 705 16 712 1
+M 0 710 15 712 1
+E 0 717 0 5
+M 0 700 19 713 1
+M 0 701 20 713 1
+M 0 707 15 713 1
+E 0 712 0 17
+E 0 710 0 13
+M 0 702 17 715 1
+M 0 706 10 715 1
+E 0 706 0 10
+E 0 714 0 11
+M 0 707 15 715 1
+E 0 707 0 5
+E 0 708 0 3
+E 0 715 0 8
+M 0 707 15 715 1
+E 0 707 0 5
+E 0 708 0 3
+M 0 703 10 716 1
+M 0 710 15 716 1
+E 0 718 0 6
+M 0 700 19 717 1
+M 0 705 16 717 1
+M 0 706 10 717 1
+E 0 705 0 18
+E 0 714 0 11
+M 0 701 20 718 1
+M 0 703 10 718 1
+M 0 710 15 719 1
+E 0 717 0 5
+M 0 702 17 721 1
+M 0 707 15 722 1
+E 0 707 0 5
+E 0 701 0 17
+E 0 715 0 8
+M 0 702 17 723 1
+M 0 702 17 725 1
+M 0 707 15 725 1
+E 0 712 0 17
+E 0 710 0 13
+M 0 708 7 726 1
+E 0 709 0 18
+M 0 702 17 727 1
+M 0 708 7 728 1
+M 0 708 7 730 1
+E 0 709 0 18
+M 0 708 7 731 1
+M 0 702 17 734 1
+M 0 707 15 734 1
+E 0 710 0 13
+E 0 708 0 3
+E 0 715 0 8
+M 0 702 17 735 1
+M 0 704 8 735 1
+M 0 705 16 735 1
+M 0 701 20 736 1
+M 0 703 10 736 1
+E 0 711 0 1
+M 0 706 10 736 1
+E 0 706 0 10
+M 0 700 19 737 1
+M 0 705 16 737 1
+M 0 707 15 737 1
+E 0 712 0 17
+E 0 710 0 13
+M 0 701 20 739 1
+M 0 703 8 739 1
+M 0 705 16 739 1
+M 0 707 15 739 1
+E 0 707 0 5
+E 0 701 0 17
+M 0 701 20 740 1
+M 0 704 8 740 1
+M 0 700 19 741 1
+M 0 701 20 741 1
+M 0 705 16 741 1
+O 0 713 0 741
+P 0 703 0 713 1
+M 0 700 19 742 1
+M 0 710 15 742 1
+E 0 718 0 6
+M 0 701 20 743 1
+M 0 705 16 743 1
+M 0 701 20 744 1
+M 0 710 15 744 1
+E 0 717 0 5
+M 0 700 19 745 1
+M 0 701 20 746 1
+M 0 705 16 746 1
+M 0 710 15 747 1
+E 0 718 0 6
+M 0 702 17 749 1
+M 0 710 15 750 1
+E 0 717 0 5
+M 0 703 10 751 1
+M 0 706 10 751 1
+E 0 706 0 10
+E 0 716 0 6
+M 0 700 19 752 1
+M 0 705 16 752 1
+M 0 701 20 753 1
+M 0 702 17 753 1
+M 0 703 10 753 1
+E 0 711 0 1
+M 0 704 8 753 1
+M 0 710 15 753 1
+E 0 718 0 6
+M 0 705 16 755 1
+M 0 700 19 756 1
+M 0 706 10 756 1
+E 0 705 0 18
+E 0 716 0 6
+M 0 707 15 756 1
+E 0 701 0 17
+E 0 707 0 5
+E 0 715 0 8
+M 0 701 20 757 1
+M 0 703 10 757 1
+E 0 702 0 16
+M 0 700 19 758 2
+M 0 700 19 758 1
+M 0 707 15 759 1
+E 0 712 0 17
+E 0 710 0 13
+M 0 706 10 760 1
+M 0 701 20 761 1
+M 0 703 10 761 1
+M 0 706 10 761 1
+E 0 706 0 10
+E 0 714 0 11
+M 0 700 19 763 1
+M 0 700 19 764 2
+O 0 764 0 764
+M 0 710 15 765 1
+E 0 717 0 5
+M 0 700 19 766 1
+M 0 701 20 766 1
+M 0 704 8 766 1
+M 0 700 19 767 1
+M 0 701 20 767 1
+M 0 705 16 767 1
+M 0 707 15 767 1
+E 0 707 0 5
+E 0 710 0 13
+E 0 715 0 8
+M 0 700 19 769 1
+M 0 701 20 769 1
+M 0 704 8 769 1
+M 0 707 15 769 1
+E 0 712 0 17
+E 0 710 0 13
+M 0 710 15 769 1
+E 0 717 0 5
+M 0 750 1 770 1
+M 0 702 17 770 1
+M 0 705 16 770 1
+O 0 720 0 770
+M 0 701 20 771 1
+M 0 701 20 772 1
+M 0 703 10 772 1
+E 0 711 0 1
+M 0 704 8 772 1
+M 0 702 17 773 1
+M 0 705 16 773 1
+M 0 705 16 774 1
+M 0 702 17 777 1
+M 0 702 17 779 1
+M 0 709 22 784 1
+M 0 709 22 785 2
+M 0 709 22 785 1
+M 0 709 22 786 2
+M 0 708 7 786 1
+E 0 709 0 17
+E 0 719 0 2
+M 0 709 22 787 2
+M 0 709 22 787 1
+M 0 708 7 787 1
+E 0 709 0 17
+M 0 709 22 788 2
+M 0 708 10 788 1
+M 0 709 22 789 1
+M 0 709 22 791 2
+M 0 709 22 793 1
+M 0 709 22 794 2
+M 0 709 22 794 1
+M 0 709 22 796 2
+M 0 709 22 797 1
+M 0 709 22 798 2
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#765
+{ "[ None ]" }, (#1)
+    { "[ Fool ]" },
+    { "[ Magician ]" },
+    { "[ High Priestess ]" },
+    { "[ Empress ]" },
+    { "[ Emperor ]" },
+    { "[ Hierophant ]" },
+    { "[ Lovers ]" }, 
+    { "[ Chariot ]" },
+    { "[ Strength ]" },
+    { "[ Hermit ]" },
+    { "[ Wheel of Fortune ]" },
+    { "[ Justice ]" },
+    { "[ Hanged Man ]" },
+    { "[ Death ]" },
+    { "[ Temperance ]" },
+    { "[ Devil ]" },
+    { "[ Tower ]" },
+    { "[ Star ]" },
+    { "[ Moon ]" },
+    { "[ Sun ]" },
+    { "[ Judgement ]" },
+    { "[ World ]" } 
+~
+#767
+if rand 50
+ if rand 50
+  emote pulls out a small flask of blood and drinks it.
+  emote stands up and looks around with darting eyes.
+  yell Waaaaaaaaaaaai!
+  say Oh, he is the one, he is the one.
+  emote jumps around in a small circle.
+  emote takes a step closer.
+  say You are indeed strong inside and out.
+  say You will be hated by some.
+  emote licks his lips.
+  say Some may even grow to love you.
+  say But respect you will have.
+  say Take this.
+  tarot $q 22
+ 
+ else
+  say You ask so much from this world.
+  say But you do not see that the path runs two ways.
+  emote bites his lip.
+  say You are cunning, but you fail to see what your fellow man does.
+  emote draws closer.
+  say Take this and learn.
+  tarot $q 12
+  say It hurts me more than it hurts you.
+  wink
+ 
+ endif
+else
+ if rand 50
+  say I bet you think it's all fun and games being a fortune teller
+  say You just walk up to me and expect you to hand you some mystical advice.
+  say Well, I think you're ungrateful.
+  say Did you offer me a drink?
+  say Did you ask about the putrid smell emanating from me?
+  say This is the sort of thing you are prone to do.
+  say Why don't you take this and tell me how it feels in fifty years.
+  tarot $q 10
+ 
+ else
+  say "It draws near.
+  say That which you fear.
+  say The path is clear."
+  say So says the seer.
+  emote takes a breath.
+  say "I think not.
+  say Put these words to thought.
+  say This is the fate YOU have brought."
+  emote takes a breath.
+  shrug
+  say Now you die.
+  tarot $q 14
+ endif
+endif
+mob permquest $q Had your fortune read.
+~
+#768
+if rand 50
+ if rand 50
+  emote makes a small mound of dirt and closes his eyes.
+  say Well, you seem to have a decent head on your shoulders.
+  emote crushes the dirt mound with his fist.
+  say But you fail to see what's right in front of your eyes.
+  say You will deny this, but remember my words on your dying day.
+  emote turns around laughing...then suddenly...
+  tarot $q 1
+ else
+  emote quickly runs up and yanks off a lock of hair.
+  emote jumps up and down, cackling to himself.
+  say Don't be afraid now kiddie, let papa Shubak work his magic.
+  emote licks the lock of hair and closes his eyes.
+  say Yes yes yes, it's all clear now.
+  say Inside you I see raw power you are holding back.
+  say But the ways of lady love seem to evade you.
+  say Tell me, honestly- You look this way because of some accident, right?
+  emote mockingly forces a sympathetic face.
+  say You need this more than I can say...
+  tarot $q 7
+ 
+ endif
+else
+ if rand 50
+  say Stares deeply into his pile of dirt.
+  emote wrinkles his forehead.
+  emote sits down and goes about his business.
+  say Oh yes, the fortune.
+  say I know you serve a delicate balance.
+  emote tilts his head.
+  say It's all crazy talk to me, but I think you do it well.
+  say You will make an impact and your common sense is impecable.
+  say But it pays to admit you are wrong once in a while.
+  tarot $q 13
+  emote snickers softly.  
+ else
+  emote takes a handfull of rocks and tosses them towards a hole in the ground.
+  echo Three rocks fall in the hole and four miss.
+  say I see.
+  emote look at the sky.
+  say The stars are definently not aligned in your favor today.
+  emote looks down.
+  say Mi'lady has dealt you a harsh hand. Let's watch how you play it, kid.
+  tarot $q 14
+ endif
+endif
+mob permquest $q Had your fortune read.
+~
+#769
+if rand 50
+ if rand 50
+  emote spits in a small circle of ash, and traces a line with his finger.
+  emote murmurs '`6Hm, hm, yes, yes...``'
+  say Indeed, you follow the light, $q.
+  say Your fortune would be well advised by me...
+  say Beware the strength of the serpent's eye.
+  say I will give you this, to bid you on your merry way.
+  tarot $q 9
+ else
+  emote shakes some strange, tiny bones in his cupped hands.
+  echo With a toss, $I tosses the bones into a small ash circle.
+  say Hm, indeed, lightwalker. You are brave, but unwise of the world.
+  say Beware the intemperance clocktower in the fishing village.
+  say I will give you this, to prepare you for your trials.
+  tarot $q 15
+ endif
+else
+ if rand 50
+  echo With a gnarled finger, $I traces the palm of you hand.
+  emote looks into you eyes with his one seeing eye.
+  say Lightwalker, many storms lurk on your horizon.
+  say Take the path of purity, and your fate shall never be tainted.
+  say I will give you this, to ensure your Godspeed.  
+  tarot $q 19
+ else
+  echo $I rolls some stone dice on the hard packed earth.
+  echo $I rolls snake eyes!
+  say Lightwalker, only death lurks on the path which you walk.
+  say Your time is short, and I will seal your first fate.
+  tarot $q 14
+ endif
+endif
+mob permquest $q Had your fortune read.
+~
+#770
+if isnpc $n
+   break
+   else
+      emote quickly throws something behind him and stands up.
+      say Well I expected to see you days ago. Why are you late?
+      say Bah, I don't even know if I can still read your fortune.
+      emote scratches his head.
+endif
+~
+#771
+if getdelay > 0
+  break
+endif
+if people > 0
+  emote looks up from staring at the ground blankly.
+  say Well, I suppose I can give it a try.
+  say Do you want me to read your fortune?
+  mob delay 10
+else
+  break
+endif
+~
+#772
+if isnpc $n
+  break
+endif
+if hasquest $n 'Had your fortune read.'
+ say Your fate is already told! Begone with you!
+ emote waves you away with his gnarled hand.
+ break
+endif
+if isgood $n
+  mob remember $n
+  mob call 769
+endif
+if isneutral $n
+  mob remember $n
+  mob call 768
+endif
+if isevil $n
+  mob remember $n
+  mob call 767
+endif
+~
+#773
+if getdelay > 0
+  break
+endif
+if carries $n 5526
+ if carries $n 12019
+  if carries $n 1403
+   if carries $n 287
+    if isgood $n
+     say You found the triads!
+     chown 'red triad' $n
+     chown 'blue triad' $n
+     chown 'green triad' $n
+     chown 'yellow triad' $n
+     mpjunk all
+     say You found the triads!
+     say Quickly, you must find Tiradel's corpse, and meet me at the monolithe!
+     say Hurry, we only have 24 hours to prepare!
+     mob remquest $n To gather the four triads.
+     mob tempquest $n To gather the body of Tiradel.
+     emote ushers you on your way.
+     goto 5879
+     mob remember $n
+    endif
+   endif
+  endif
+ endif
+else
+  if isgood $n
+   if hasquest $n 'To gather the four triads.'
+    say What are you doing here, $n? Hurry and gather the triads!
+   else
+    say Welcome, $n..
+    say Gather around, and I shall tell you what facts I know about the Ivory Monolithe.
+    mob tempquest $n To gather the four triads.
+    mob delay 5
+  else
+    say Begone with you, heathen.
+    emote brushes you away with a motion of his hand.
+  endif
+endif
+~
+#774
+if getdelay == 1
+  say Those triads have long since been scattered about the lands. But...
+  say They still exist. Find them, and you will have the key to the Ivory Monolithe.
+  say Find those, and bring them to me, and I will travel with you to the tower.
+  say And we shall see if the magics of the Ancients still works...
+  emote falls silent again.
+  mob echo `@You have recieved a quest!``
+  mob delay 0
+endif
+if getdelay == 2
+  say The Ancient Magi created this Ivory Monolithe, and built it within those mountains.
+  say Not far from the ruins of the ancient city of Leominter.
+  say The Magi, though, created four triads. Each of a different color.
+  say Once invoked, they formed a perfect triangle, activating the monolithe.
+endif
+if getdelay == 3
+  say You see, King Brerand was a hurt and devastated man. He had lost his wife...
+  say Queen Amryene, to the plague, several years earlier.
+  say So he sought to create a beacon to Heaven, which would capture a fallen soul...
+  say And bring them back to this plane, within their body...
+endif
+if getdelay == 4
+  say Thousands of years ago, when the Ancients walked the lands of Mirlan.
+  say A comission was put forth by King Brerand. He was the monarch of Leominter, at the time.
+  say This comission involved several of the most powerful magi in the lands...
+  say All who followed the light...
+endif
+~
+#775
+say Test.
+~
+#0
+
+M 700 1 mosquito.prg NL
+M 701 1 squirrel.prg NL
+M 702 1 vulture.prg NL
+M 703 1 mountrail_elf.prg NL
+M 704 1 bear.prg NL
+M 705 1 fox.prg NL
+M 706 1 mountrail_traveler.prg NL
+M 707 1 mountrail_orc.prg NL
+M 708 1 shadow.prg NL
+M 709 1 bat.prg NL
+M 710 1 mountrail_orc.prg NL
+M 752 1 tiger2.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#770
+if rand 50
+  room echo The wind howls eerily through the canyons below you.
+else
+  room echo Some errant gusts of wind rustle through the stunted trees.
+endif
+~
+#0
+
+#$

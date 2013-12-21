@@ -1,0 +1,1260 @@
+#AREADATA
+Name [SAINT]~
+Pref ~
+Builders None~
+VNUMs 17800 17899
+Max_Bastions 0
+Credits { ALL } Rotarx   [SAINT]~
+Security 9
+Startroom 17800
+Flags 0
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#17800
+treant guard guardian~
+a treant~
+A massive treant stands guard in the clearing.
+~
+Standing motionless in a clearing is a massive treant.  Thick branches
+sway lightly in the gentle breeze causing the leaves to rustle softly. 
+Thick roots act like feet, allowing it to move when needed.  Dark, thick
+bark covers the wide trunk, encasing it with natural armor.  
+~
+unique~
+ABVZ A DFHJNO 0 0 0
+40 20 1d1+5000 0d0+100 8d5+60 arrows
+-20 -20 -20 -20
+ADEFKW AB C 0
+stand stand either none~
+21
+AHMV ABCDEFGHIJK medium 0
+P FIGHT 17802 100~
+P EXALL 17800 north~
+P EXALL 17800 west~
+P EXALL 17800 east~
+P EXALL 17800 up~
+P EXALL 17800 down~
+#17801
+group roc rocs~
+a group of rocs~
+A group of rocs fly through the skies.
+~
+A small group of rocs fly through the sky in a loose formation.  They are
+massive beasts with enormous talons and beaks that can make easy work of an
+unsuspecting foe.  
+~
+unique~
+ABLVZe AK T 0 0 0
+50 1000 1500d1+0 0d0+0 0d0+0 none
+0 0 0 0
+0 AB 0 0
+stand stand none none~
+26
+AHMV ABCDEFGHIJK large 0
+#17802
+green dragon~
+a dragon~
+An ancient green dragon flies high in the air.
+~
+High in the sky an ancient green dragon soars, floating on currents of
+air.  It is a magnificent creature, both fascinating and terrifying.  It is
+large even at this distance, its scales glistening and gleaming when
+sunlight hits it.  Now and then a mighty roar splits the skiy as it bellows
+a challenge to any that would dare face it.  
+~
+unique~
+ABLVZe AK T 0 0 0
+50 1500 1800d1+1 0d0+0 1d1+0 none
+0 0 0 0
+0 CD 0 0
+stand stand none none~
+23
+AHMV ABCDEFGHIJK medium 0
+#17803
+tree fort fortress Saint~
+a Saint Tree Fort~
+A massive fortress flying banners of [`6KNIGHT``] watches over the area.
+~
+Set high atop a large tree is a massive fort apparently made of thatch
+and deadfall.  Branches and foilage act as camofalge and concealment for
+those that reside within.  Here and there archers can be seen surveying the
+area around it.  There is no apparent stairway allowing access to the fort. 
+~
+unique~
+ABLVZe AJ 0 0 0 0
+50 1500 2000d1+0 0d0+0 0d0+0 none
+0 0 0 0
+0 CD 0 0
+stand stand none none~
+20
+AHMV ABCDEFGHIJK giant 0
+#17804
+glade attendant~
+A glade attendant~
+An attendant is here seeing to the needs of those visiting the glade.
+~
+A young attendant wanders the glade seeing to the needs of those here. 
+He is wearing green tousers of homespun wool and a brown vest covering a
+white collared shirt.  On his feet are soft leather boots that tie up at the
+knee.  
+~
+human~
+AGe A J 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 pound
+6 6 6 9
+EFN AB CHIL JPR
+stand stand male none~
+4
+AHMV ABCDEFGHIJK medium 0
+#17805
+forager~
+the forager~
+The forager stands here selling wares for travellers.
+~
+A tall, thin elf stands behind a counter waiting for those needing
+assistance.  He is a handsome man with golden skin and the typical angular
+features of his race.  He wears plain, simple clothes mixed with browns and
+greens, and atop his head is a tall, pointed, dark brown wide-brimmed hat.  
+~
+human~
+AGe A DFJ K 0 0
+60 0 1d1+10000 0d0+100 5d5+80 pound
+6 6 6 9
+EFN AB CHIL 0
+stand stand male none~
+28
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17803 20~
+P GREET 17804 100~
+P SPEECH 17805 cockcatrice~
+P SPEECH 17806 blink~
+P SPEECH 17807 cave~
+P SPEECH 17808 unicorn~
+P SPEECH 17809 green~
+#17806
+large hawk~
+a hawk~
+A large hawk sits perched on a branch along the wall.
+~
+A large hawk is perched here.  Its black eyes peer unblinking at all in
+the room, as if watching for something out of the ordinary.  Great talons
+grip the branch it sits on, leaving deep gashes in it.  
+~
+unique~
+ABGe A JP 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB BQ CEYZa
+stand stand either none~
+4
+AHMV ABCDEFGHIJK tiny 0
+#17807
+tanner~
+The fletcher~
+The fletcher stands here repairing weapons.
+~
+A short halfling stands behind a counter selling items for travellers. 
+His head is decorated with a wide straw hat with long brown hair flowwing
+from under it.  He wears a light brown vest with no shirt under it and dark
+green pants.  No shoes cover his hairy feet.  In his mouth is a stalk of
+wheat.  
+~
+human~
+AGe A J 0 0 0
+60 0 1d1+10000 34d1+99 5d5+80 pound
+6 6 6 9
+EFN AB CHIL 0
+stand stand male none~
+28
+AHMV ABCDEFGHIJK medium 0
+#17808
+master tamer~
+the tamer~
+The master tamer wanders the room tending to his pets.
+~
+A stout human man walks around the room here tending to various animals. 
+He seems quite at ease around some of the the rarest, and deadliest, beasts
+in the lands.  His skin is tanned and leathery, like one that spends a lot
+of time outdoors.  His clothing is very primitive, consisting completely of
+animal skins and furs.  
+~
+human~
+AGe A J 0 0 0
+60 0 1d1+10000 0d0+100 5d5+80 pound
+6 6 6 9
+EFN AB CHIL 0
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+#17809
+huntsmaster~
+the huntsmaster~
+The huntsmaster is here rocking in his chair.
+~
+A tall, lean man is sitting here in a wooden rocking chair.  His brown
+skin is leathered and worn, as if he has spent so much time in the sun that
+it has baked it dry.  On his head is a rough straw hat, and in his mouth is
+a corn cobb pipe, the embers inside burning slightly, causing a small stream
+of smoke to rise off of it.  
+~
+human~
+ABJKb A DFHJN 0 0 0
+60 25 9999d1+1 96d1+1 6d4+30 slash
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17812 20~
+#17810
+herbalist~
+the herbalist~
+Sitting here on the floor, deep in meditation, is the herbalist.
+~
+Sitting here is a rough looking man wearing a long brown robe.  His legs
+are bent and his head is bowed in meditation.  His hand are tucked into the
+sleeves of his robe and his feet are covered with soft leather shoes.  
+~
+human~
+ABJKab A DFHJN 0 0 0
+60 25 9999d1+1 5d1+99 6d4+30 divine
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17810 20~
+#17811
+wind whisperer~
+the whisperer~
+Sitting in the middle of the bare floor is the whisperer.
+~
+A thin man sits in the middle of a bare floor.  His only adornment is a
+soft white gown that flutters in the breeze.  His face is old, set with
+wrinkles and lines.  His mouth is constantly in motion, though his words are
+near impossible to hear.  
+~
+human~
+ABJKab A DFHJN 0 0 0
+60 25 9999d1+1 28d1+1 6d4+30 slash
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17811 20~
+#17812
+adventurer~
+An adventurer~
+An adventurer down on his luck sorts through various items.
+~
+A young man hardly dressed at all stands here looking through the items
+left by others.  What he does wear seems to be rather stained and soiled, as
+if he had spilled an entire meal on them then slept in a puddle of mud.  As
+he picks through the pile he mutters something about women and never
+trusting them again.  
+~
+human~
+AGe A J 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 pound
+6 6 6 9
+EFN AB CHIL JPR
+stand stand male none~
+3
+AHMV ABCDEFGHIJK medium 0
+#17813
+sarcastic man~
+A sarcastic man~
+A man with a sarcastic sneer leans against a wall.
+~
+A man clad in fine clothing stands here with his hands on his hips.  He
+has a shiny silk jerkin colored a soft brown, like a leaf in the fall.  His
+trousers are a dark, deep brown, like fertile soil.  His vest is a light
+green, his boots soft leather.  He has a sly, sarcastic look on his face,
+and he makes odd, rather unkind remarks to his less fortunate friend as he
+digs through piles of leftover wares.  
+~
+human~
+AGe A J 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 pound
+6 6 6 9
+EFN AB CHIL JPR
+stand stand male none~
+11
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17801 20~
+#17814
+cockatrice~
+a cockatrice~
+A fierce cockatrice gares about itself.
+~
+A strange creature about the size of a large turkey is here.  It has the
+head and body of a rooster, the wings of a bat, and the tail of a lizard. 
+The feathers covering the head and body are a golden brown, the wings black
+and leathery.  The whip-like tail is scaly and bare.  It stares around
+itself with bright red eyes.  
+~
+unique~
+AI A DJT 0 0 0
+25 0 5d10+350 0d0+100 2d10+5 shock
+0 0 0 0
+0 0 0 0
+stand stand none none~
+10
+0 0 small 0
+#17815
+blink dog~
+a blink dog~
+A large dog blinks from one place to another.
+~
+A massive brown dog stands here glaring around itself.  Its head and body
+are larger than that of a hunting dog, and its body is covered in deep,
+thick fur.  Despite its size it is lean and muscular, and looks ferocious. 
+Now and then it disappears only to reappear in another spot.  
+~
+dog~
+AI A DJT 0 0 0
+20 0 5d10+450 0d0+100 2d10+8 bite
+0 0 0 0
+0 0 B 0
+stand stand either none~
+16
+AGV ACDEFHJKUV medium 0
+F off H
+#17816
+Cave Bear~
+a cave bear~
+A large cave bear lumbers along.
+~
+A massive brown bear lumbers along here.  It is well over twelve feet
+tall and has a thick coat of course brown fur that shines when the sun
+touches it.  Its head is wide, with a long snout full of powerful teeth.  It
+trods along on enormous paws with razor-sharp claws that dig in deep as it
+walks.  
+~
+bear~
+AI A DJ 0 0 0
+20 0 5d10+450 0d0+100 2d10+8 slash
+0 0 0 0
+DO 0 EI 0
+stand stand either none~
+15
+AG ACDEFJKU large 0
+F off E
+#17817
+Unicorn~
+a unicorn~
+An elegant white unicorn prances here.
+~
+A large white unicorn prances here, its white coat gleaming elegantly in
+the sunlight.  It holds its head high and proud as it scans around itself. 
+From its forehead a three foot long ivory horn protrudes.  
+~
+unique~
+AEI A DJP 0 0 0
+25 0 5d10+550 0d0+100 2d10+10 pierce
+0 0 0 0
+I 0 BC 0
+stand stand either none~
+11
+0 0 medium 0
+#17818
+Green Dragon~
+a green dragon~
+A massive green dragon is here.
+~
+A massive green dragon is here, its scales glistening in the sun.  Its
+huge head is the size of a wagon, its neck long and sleek.  Its large
+leathery wings are folded along its sides.  Its long tail moves slowly back
+and forth.  It peers around itself arrogantly, as if all it sees is
+insignificant.  
+~
+dragon~
+AEI A DJT 0 0 0
+30 5 5d10+550 0d0+100 2d10+10 slash
+-5 -5 -5 -5
+C 0 BE 0
+stand stand either none~
+11
+AHZ ACDEFGHIJKLPQUVX giant 0
+F res H
+F vul FI
+#17820
+Lorithone~
+Lorithone the Priestess~
+Lorithone the Priestess is here.
+~
+This regal looking elf is clad in earth-tone robes, and holds a long,
+slender staff at her side.  Her long, brown hair is unkempt, and twigs and
+briars are entwined within.  She paces casually about the pillars, running
+her hands over them carefully, searching for markings and blemishes.  Though
+she does not look at you, it is obvious she is aware of your presence.  
+~
+elf~
+ABZ A DFHJPV 0 1000 15700
+70 15 1000d1+1 0d0+100 10d20+45 slap
+20 20 20 20
+CEIJN ABCD B Z
+stand stand male none~
+30
+AHMV ABCDEFGHIJK medium 0
+#17821
+will wisp ball light~
+A Will o' Wisp~
+A floating ball of light whizzes and bobs around you.
+~
+This curious being is little more than a floating ball of light.  Known
+as manifestations of the Spirit of Nature, Will o' Wisps hold the powers of
+life at their command.  This odd creature floats around, emitting strange,
+incomprehensible sounds and flashes of pure white light.  
+~
+unique~
+ABJab A DFHJN 0 0 0
+60 25 9999d1+1 64d1+99 6d4+30 slash
+-30 -30 -30 -30
+EHK AB CL R
+stand stand none none~
+26
+AHMV ABCDEFGHIJK medium 0
+#17822
+Bottomdown halfling white~
+Bottomdown the Miller~
+A short halfling covered in flour stands here.
+~
+This wee fellow is covered head to foot in white flour.  Despite numerous
+attempts to brush it off, it would seem as though his fate is inescapable. 
+His smiles widely, his big eyes and gaping smile looking rather odd
+considering his apparently dismal situation.  
+~
+halfling~
+AGe A J 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 pound
+6 6 6 9
+EFN AB CHIL JPR
+stand stand male none~
+6
+AHMV ABCDEFGHIJK small 0
+P RANDOM 17822 20~
+#0
+
+
+
+#OBJECTS
+#17800
+glowing moss~
+glowing moss~
+A large clump of glowing moss.~
+light~
+light AU AO
+0 0 999 0 0
+30 10 10 P
+F
+A 12 30 0
+F
+A 24 -2 0
+#17801
+sturdy leather vest~
+a sturdy leather vest~
+A sturdy reinforced vest made of leather.~
+leather~
+armor U AD
+9 9 9 10 0
+30 70 0 P
+F
+A 18 2 0
+F
+A 2 2 0
+#17802
+belt vines~
+a belt of vines~
+A long belt made of woven vines.~
+plant~
+armor U AL
+9 9 9 8 0
+30 30 0 P
+F
+A 18 2 0
+F
+A 26 3 0
+#17803
+soft padded boots~
+soft padded boots~
+Soft padded boots made of leather.~
+leather~
+armor U AG
+9 9 9 9 0
+30 50 0 P
+F
+A 18 2 0
+F
+A 12 30 0
+#17804
+water pack~
+a water pack~
+A long leather pack filled with liquid.~
+leather~
+drink PU AO
+240 240 'water' 0 0
+10 50 11 P
+#17805
+travel pack~
+a travel pack~
+A large leather travel pack.~
+leather~
+container HU ADO
+350 A 0 80 90
+10 20 12 P
+#17806
+divining rod forked stick~
+a divining rod~
+A long, forked stick.~
+wood~
+staff X AO
+5 5 5 'create spring' 0
+20 10 10 P
+#17807
+rod truth thin~
+the rod of truth~
+A long thin rod with mystic carvings.~
+stone~
+staff X AO
+50 5 5 'ray of truth' 0
+40 50 25 P
+#17808
+potion hawk~
+a potion of the hawk~
+A small potion with a hawk embossed on the jar.~
+Liquid~
+potion B AO
+0 'fly' '' '' ''
+10 2 5 P
+#17809
+pit storage~
+a storage pit~
+A large storage pit has been built here.~
+stone~
+container OT 0
+10000 0 0 10000 100
+60 0 10000 P
+#17810
+dried venison strip~
+a dried strip of venison~
+A long strip of dried venison.~
+food~
+food U A
+48 48 0 0 360
+10 20 24 P
+#17811
+potion recall~
+a potion of recall~
+A potion of recall is here, coveted by all.~
+liquid~
+potion U AO
+10 'word of recall' '' '' ''
+10 30 3 P
+#17812
+staff sanctuary~
+the staff of sanctuary~
+A small staff pulsates with an inner light.~
+wood~
+staff G AO
+15 5 5 'sanctuary' 0
+40 50 18 P
+#17813
+potion detect invis~
+a potion of detect-invisibility~
+A potion of detect-invisibility is here.~
+liquid~
+potion 0 AO
+10 'detect invis' 'reserved' 'reserved' 'reserved'
+20 0 5 P
+#0
+
+
+
+#ROOMS
+#17800
+`2Before the Glade``~
+You stand before a grove of massive ancient trees.  All around you is
+thick woods, yet nothing compared to the enormous behemoths viewed in the
+distance.  Branches sprawl from tree to tree as large as roads,
+intertwining, connecting to form bridges and thoroughfares from trunk to
+trunk.  Soft glowing lights can be seen emanating from recesses within the
+trees themselves, and glowing globes can be seen hanging from ropes along
+the branches.  
+~
+~
+0 295698440 16400 3
+D1
+~
+~
+0 0 11414
+S
+#17801
+`2The Alcove``~
+A high, wide, arc opens into a deep recess in a large tree here.  Inside
+hang globe lamps that glow softly, forcing away the shadows from the smooth
+walls.  The floor is earthen, and patches of softer soil surround a hollow
+set into the floor.  A few items can be seen in the large niche, testaments
+of the generosity of the order for those in need.  On the far wall is a
+large, reed tapestry depicting a woodland scene with various creatures
+surrounding a large yew tree.  The tapetry is framed on either side by the
+same globe lamps that illuminate the inside of the tree.  
+~
+~
+0 0 65538 3
+S
+#17802
+`2The Gathering Hall``~
+A billowy canopy covers the entirety of this area, so thick and dense not
+even sunlight or rain can penetrate it.  Soft glowing lights hang from
+branches high in the air, making it look as if stars were illuminating the
+glade.  Thick branches worn smooth with the ages and intertwined so closely
+they appear seamless make the floor of this large grove set high atop the
+tallest trees.  Throughout the glade tables and chairs stand to accommodate
+those that visit the hall.  
+~
+~
+0 0 65538 3
+S
+#17803
+`2The Forager's``~
+As you walk into the hollowed out oak, you can see a tall, thin Elf
+standing behind a long counter.  Along the walls hang all manner of useful
+items such as clothing, herbs, and bandages.  Along the inside of the room
+lie racks of shelves containing various other wares to be bought.  Perched
+upon a large branch running along the wall behind the Elf is a large hawk.  
+~
+~
+0 0 16386 3
+S
+#17804
+`2The Fletchery``~
+The smell of wood and natural oils is strong here.  Racks of raw timber
+line the walls and neat coils of twine rest on brass hooks behind a long
+workdesk.  Small containers of feathers are placed about the desk along with
+a large vice and spools of string.  Neat piles of premade arrow shafts rest
+against the wall in bound bundles.  The sound of snipping and cutting fill
+the air.  
+~
+~
+0 0 65538 3
+S
+#17805
+`2The Wind Whisperer``~
+This landing is a unique one, its border being devoid of walls, yet
+somehow supporting a roof of delicate wood.  Long thin branches glide in on
+unseen wings and curl around the trusses of the overhanging roof.  The room
+is large, almost ridiculously so, and seated in the middle of it is a man. 
+He sits, eyes closed, and seemingly talking to himself.  You are unable to
+discern words, but he appears to be holding quite an intimate conversation. 
+~
+~
+0 0 16386 3
+S
+#17806
+`2The Tablets of Stone``~
+Mounted high atop a marble pillar rest four tablets, placed each against
+the other for balance, back-to-back..  Encasing the tablets is a pulsing
+light with a slight green tinge that forms a globe around the top of the
+pillar.  The pillar itself stands over thirty feet tall, with intricate
+carvings all along its length.  The words written on the tablets are foreign
+to all, and are rumored to be in the language of the Gods themselves.  
+~
+~
+0 0 65538 3
+S
+#17807
+`2A Tranquil Alcove``~
+A small brook slowly meanders through here, fed by a low waterfall off in
+the distance.  The soft lapping of the flowing water makes an almost
+hypnotic sound, calming the senses and giving a peaceful feel to the alcove.
+Small stone benches line each side of the brooks shore, wide enough for only
+one person to sit comfortably.  
+~
+~
+0 0 8194 3
+S
+#17808
+`2The Wild Wood``~
+All around you is forest as old as time itself.  Thick and tangled, it is
+hard to even move through the brambles and shrubs.  The overhead canopy
+allows almots no light through making it near black all around you.  The
+sounds of animals and more can be heard throughout the woods, barking,
+roars, and more reverberate around you, causing even the most hardened to
+wonder for their safety.  
+~
+~
+0 0 8194 3
+P RANDOM 17808 20~
+S
+#17809
+`2Pillars of Faith``~
+Set in an open glade are eight stone pillars.  Square shaped at the base
+and roughly three feet thick, they rise over thirty feet into the air and
+end in a sharp point.  There are engravings along each facet of the pillars,
+each describing in detail rituals to perform for each cycle of the seasons. 
+You get the feeling that each pillar is set at a navigational point.  
+~
+~
+0 0 16386 3
+S
+#17810
+`2The Tree of Life``~
+Set all alone in a quiet clearing is a tree so massive it causes the mind
+to balk at it's very existence.  Standing hundreds of feet tall it is every
+inch as large as a city castle.  Its branches extend for miles in every
+direction and seem to always have leaves the deepest green on them,
+regardless of the season.  The entire tree pulses with a soft green light,
+beating a rhythm almost like a heartbeat.  
+~
+~
+0 0 16384 3
+S
+#17811
+`2The Huntmaster's Den``~
+Soft light plays across the smooth walls of the small, warm room.  A tiny
+hearth glows with gentle light, illuminating the few trophies of great
+beasts felled in battle that adorn the walls.  Some are simply heads stuffed
+in fierce poses, others mounted with razor sharp claws and arms still
+attached.  Sitting in a sturdy wood rocking chair is a lean, leather-skinned
+man with a wide brimmed straw hat.  Lying at his feet is a dog the size of a
+full grown bear.  
+~
+~
+0 0 8194 3
+S
+#17812
+`8The Grainery``~
+The smell of food fills your nose as you enter this room.  Being one of
+the few actual areas with a fashioned floor, the polished wood of this room
+is coated in a light dusting of what appears to be flour.  Numerous sacks of
+grain have been stacked neatly along the walls, each stored according to
+content, size and weight.  A small, yet efficient mill is against the far
+wall.  The only occupant of this room is a rather small halfling, covered
+from head to toe in white flour.  
+~
+~
+0 0 2 0
+S
+#17813
+`2The Herbalist``~
+Ascending a small flight of stairs you reach the sanctum of the
+herbalist.  It is a small room filled with the pungent odors of incense and
+boiling herbs.  Along the walls hang dried roots, leaves, and branches.  On
+the floor lie two beds for those in need of care.  
+~
+~
+0 0 8194 3
+S
+#17814
+`2A Massive Barricade``~
+This path would otherwise lead directly into the heart of the glade, but
+at either side lay half of a large barricade of huge wooden poles.  They
+have been covered in briars many of which are covered in dried blood.  A
+single man stands behind each read to slam it shut in an moment's notice.  
+~
+~
+0 0 65538 3
+S
+#17815
+`8Saints Pets``~
+~
+~
+0 0 2 0
+S
+#17816
+`2Earth Temple``~
+Large pillars of granite support a high ceiling in this temple.  Carved
+into the pillars are intricate patterns of ivy and vines.  In the back of
+the room sits a altar with two sconces placed beside it.  Upon the altar
+rests a gold platter filled with fruits and water in a large pewter bowl. 
+Behind the altar is a statue of Gaia seated on a large dais.  
+
+~
+~
+0 0 65538 3
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 17808 spec_keeper_stay
+M 17810 spec_cast_cabal_healer
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+O 0 17809 0 17801
+M 0 17813 1 17801 1
+M 0 17812 1 17801 1
+M 0 17804 1 17802 1
+M 0 17805 1 17803 1
+G 0 17813 0
+G 0 17812 0
+G 0 17811 0
+G 0 17810 0
+G 0 17808 0
+G 0 17807 0
+G 0 17806 0
+G 0 17805 0
+G 0 17804 0
+M 0 17806 1 17803 1
+O 0 17809 0 17803
+M 0 17807 1 17804 1
+M 0 17811 1 17805 1
+M 0 17820 1 17809 1
+M 0 17821 1 17810 1
+M 0 17809 1 17811 1
+M 0 17822 1 17812 1
+M 0 17810 1 17813 1
+M 0 17814 1 17815 1
+M 0 17815 1 17815 1
+M 0 17816 1 17815 1
+M 0 17817 1 17815 1
+M 0 17818 1 17815 1
+S
+
+
+
+#SHOPS
+17805 0 0 0 0 0 100 100 0 23
+17808 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#17800
+if room $i != 17800
+or isimmort $n
+break
+endif
+if cabally $n Saint
+if isbloody $n
+if affspell $n 'blindness'
+or affspell $n 'death grasp'
+or affspell $n 'plague'
+or affspell $n 'poison'
+or affspell $n 'dysentery'
+    or affspell $n 'enfeeblement'
+or affspell $n 'vampire bite'
+pmote glances at $N noticing the sickness.
+else
+'Come back when you have no blood upon you $N.
+mob stop $n
+break
+endif
+endif
+if isdelay $i
+break
+else
+mob delay 1
+pmote stands aside and lets $N pass.
+'The Saints welcome you $N.
+break
+endif
+else
+pmote extends a branch and bars $N from entering.
+say You shall not pass!
+mob stop $n
+endif
+~
+#17801
+if rand 50
+  if rand 50
+    pmote snickers at an adventurer.
+    sa Hey!  Can you spare me a copper piece?
+    sa Oh wait.  You can't.
+    laugh adventurer
+    mob force adventurer emote gets a thick oaken bat from an offering pit.
+    mob force adventurer emote whaps a sarcastic man over the head with the bat.
+    mob echo An adventurer's thwack `1***OBLITERATES***`` a sarcastic man.
+    emote collapses into a pile.
+  else
+    mob force adventurer emote rummages through an offering pit.
+    emote looks over the adventurer's shoulder.
+    sa You see that offering pit?  You see the rubbish contained within?
+    sa You see how it is old and tattered?
+    mob force adventurer sa I notice the general disrepair of the items mentioned, yes.
+    sa Those are your fancy digs those are.
+    laugh adventurer
+    mob force adventurer emote gets a thick oaken bat from an offering pit.
+    mob force adventurer emote whaps a sarcastic man over the head with the bat.
+    mob echo An adventurer's thwack `1***OBLITERATES***`` a sarcastic man.
+    emote collapses into a pile.
+  endif
+else
+  if rand 50
+    sa Hehe...  Having fun?
+    poke adventurer
+    mob force adventurer mutter
+    sa Hehe...  Having fun?
+    poke adventurer
+    mob force adventurer mutter
+    sa Hehe...  Having fu....
+    mob force adventurer emote gets a thick oaken bat from an offering pit.
+    mob force adventurer emote whaps a sarcastic man over the head with the bat.
+    mob echo An adventurer's thwack `1***OBLITERATES***`` a sarcastic man.
+    emote collapses into a pile.
+  else
+    emote stares at an adventurer.
+    mob force adventurer boggle
+    mob force adventurer sa What!?!
+    chuckle
+    sa Oh, nothing, just want to see what destitution looks like.
+    laugh adventurer
+    mob force adventurer emote gets a thick oaken bat from an offering pit.
+    mob force adventurer emote whaps a sarcastic man over the head with the bat.
+    mob echo An adventurer's thwack `1***OBLITERATES***`` a sarcastic man.
+    emote collapses into a pile.
+  endif
+endif
+~
+#17802
+if act $n raider
+and rand 10
+  if name $n Saintmonster
+    break
+  else 
+    mob echo The ground splits open under $N's feet!
+    qslay $n
+  endif
+endif
+if isdelay $i
+  break
+else
+  cb $N is attacking our home!
+  mob delay 6
+endif
+~
+#17803
+if rand 50
+  if rand 50
+    emote dangles a small bit of meat in front of a large hawk.
+    sa Come on...  You can say it...
+    sa Cyril want a tidbit?
+    mob force hawk sigh
+    mob force hawk sa Oh, just give me the damned meat and bugger off.
+  else
+    mob force hawk sa So anyway, I told her that I wouldn't be coming home unti...
+    emote notices your presence, and nudges the hawk with his elbow.    
+    mob force hawk eyebrow
+    mob force hawk emote looks at you.
+    mob force hawk sigh
+    mob force hawk sa Ahem...  ::squawk::  Cyril wants a tidbit.  ::squawk::
+  endif
+else
+  if rand 50
+    mob force hawk emote taps on a forager's shoulder with a feathered wing.
+    mob force hawk sa Ahem...  Pardon me good sir.
+    mob force hawk sa Could you by chance inform me of the evening's meal choices?
+    mob force hawk runs a wing over his head, smoothing his feathers.
+    eyebr
+    sa Umm...  Indeed.  We've got an outstanding selection of morsels and delights this evening...
+    sa Tidbit Flambe...  Tidbit Al'Orange...  Tidbit Fricasee...  And our chef's favorite...
+    sa Eat the damned tidbit or I'll cram it down your throat.
+  else
+    mob force hawk emote flips through a small book, scanning it's pages furiously.
+    mob force hawk sa Aha!  I told you!  Hawks eat rabbit!  Not scant little tidbits!
+    mob force hawk emote brandishes the book and shoves the mentioned pages in a forager's face.
+    emote looks at the book for a moment.
+    sa Ah...  But that is the Shasarazadian Whooping Hawk.
+    emote returns to his work.
+    mob force hawk eyebrow
+    mob force hawk emote looks at a forager, at the small book, and then back again.
+    mob force hawk sa Well, what the hell am I?!
+    sigh
+    sa You're a Miruvhorian Stroppy Hawk.  Here's your damned tidbit.
+    emote flings a bit of meat over his shoulder, hitting the hawk above the eye.
+    mob force hawk emote stares at a forager dumbfounded.
+  endif
+endif
+~
+#17804
+if isdelay $i
+  break
+endif
+if cabal $n Saint
+  bow $n
+  sa Hello, $n.  We've also trained some of the beasts from the area.
+  sa A cockatrice, blink dog, cave bear, unicorn, and a green dragon to be exact.
+  sa If you're interested, just say which beast you wish, and I shall fetch it for you.
+  sa The prices are on the wall.
+  mob delay 2
+else
+  sa Piss off.  Saints only.
+endif
+~
+#17805
+if isnpc $n
+  break
+endif
+if cabal $n Saint
+  if getdelay > 2
+    eyebrow $n
+    sa It takes time and patience to train an animal, $n.
+    sa Come back in a little while.
+    break
+  else
+    if followers $n > 0
+     'It seems you already own a companion.
+     break
+    else
+      emote blows into a small, steel whistle.
+      mob echo With a shriek, a cockatrice flaps through an open window.
+      bow $n
+      mob mload 17814
+      mob obey 1. $n pet
+      mob force 1. pmote now follows $n.
+      mob delay 24
+      break
+    endif
+  endif
+else
+  sa Piss off.  Saints only.
+endif
+~
+#17806
+if isnpc $n
+  break
+endif
+if cabal $n Saint
+  if getdelay > 2
+    eyebrow $n
+    sa It takes time and patience to train an animal, $n.
+    sa Come back in a little while.
+    break
+  else
+    if followers $n > 0
+     'It seems you already own a companion.
+     break
+    else
+      emote blows into a small steel whistle.
+      mob echo You hear the sound of faint barking as a blink dog bounds into the room.
+      bow $n
+      mob mload 17815
+      mob obey 1. $n pet
+      mob force 1. pmote now follows $n.
+      mob delay 24
+      break
+    endif
+  endif
+else
+  sa Piss off.  Saints only.
+endif 
+~
+#17807
+if isnpc $n
+  break
+endif
+if cabal $n Saint
+  if getdelay > 2
+    eyebrow $n
+    sa It takes time and patience to train an animal, $n.
+    sa Come back in a little while.
+    break
+  else
+    if followers $n > 0
+     'It seems you already own a companion.
+     break
+    else
+      emote blows into a steel whistle.
+      mob echo A loud roar shakes the room as a cave bear lumbers in.
+      bow $n
+      mob mload 17816
+      mob obey 1. $n pet
+      mob force 1. pmote now follows $n.
+      mob delay 24
+      break
+    endif
+  endif
+else
+  sa Piss off.  Saints only.
+endif
+~
+#17808
+if isnpc $n
+  break
+endif
+if cabal $n Saint
+  if getdelay > 2
+    eyebrow $n
+    sa It takes time and patience to train an animal, $n.
+    sa Come back in a little while.
+    break
+  else
+    if followers $n > 0
+     'It seems you already own a companion.
+     break
+    else
+      emote blows into a steel whistle.
+      mob echo Peace fills your heart as a unicorn trots majestically into the room.
+      bow $n
+      mob mload 17817
+      mob obey 1. $n pet
+      mob force 1. pmote now follows $n.
+      mob delay 24
+      break
+    endif
+  endif
+else
+  sa Piss off.  Saints only.
+endif
+~
+#17809
+if isnpc $n
+  break
+endif
+if cabal $n Saint
+  if getdelay > 2
+    eyebrow $n
+    sa It takes time and patience to train an animal, $n.
+    sa Come back in a little while.
+    break
+  else
+    if followers $n > 0
+     'It seems you already own a companion.
+     break
+    else
+      emote blows into a steel whistle.
+      mob echo The stench of acid fills your nose as a small green dragon enters.
+      bow $n
+      mob mload 17818
+      mob obey 1. $n pet
+      mob force 1. pmote now follows $n.
+      mob delay 24
+      break
+    endif
+  endif
+else
+  sa Piss off.  Saints only.
+endif
+~
+#17810
+if rand 30
+  emote stands in a daze, a thick plume of smoke haloing his head.
+  sa Man...I'm so glad I went to 'erbalist school, man.
+  emote smiles lazily to himself.
+  emote waves an open hand in front of his face.
+  sa Far out...
+  giggle
+else
+  if rand 50  
+    emote stands in a daze, a thick plume of smoke haloing his head.
+    mob echo You hear a faint grumbling.
+    peer
+    mob echo You hear another grumbling sound.
+    emote looks at his stomach and snicker.
+    sa Man...  I'm just hungry.
+    giggle
+  else
+    emote stands in a daze, a thick plume of smoke haloing his head.
+    emote sips from a cup of heavy cream, and nibbles on a piece of yellow cake.
+    emote wobbles for a moment, and stumbles to the ground.
+    emote stands to find a large dollop of cream inside his cake.
+    emote stares at the confectionary for a moment, and smiles.
+    sa Well, hullo, man.
+    giggle
+  endif
+endif
+~
+#17811
+if rand 30
+  emote sways slightly, whispering quietly to himself.
+  sa I know why you are here...  You seek answers.
+  emote chuckles quietly to himself.
+  sa Alas, I do not help people.  Only horses.
+  emote resumes his whispering.
+else
+  if rand 50
+    emote sways slightly, whispering quietly to himself.
+    emote whispers '`6Milk...eggs...Damnit....``'
+    emote opens his eyes, and looks at a scrap of paper he is holding.
+    emote whispers '`6Damn...  Milk, eggs, and the *laundry*.``'
+    emote resumes his whispering.
+  else
+    emote sways slightly, whispering quietly to himself.
+    emote whispers '`6Why is it I always get the crap jobs.``'
+    emote whispers '`6I can hunt.  I can fish.  NoooOoOOoo...``'
+    emote whispers '`6You're the best at whispering they say.``'
+    mutter
+  endif
+endif
+~
+#17812
+if rand 50
+  emote rocks quietly back and forth in his chair, smoking his pipe.
+  emote sniffs at the air for a moment, and jumps up.
+  emote kicks the dog laying at his feet.
+  sa Bad dog!  Now look what I have to clean up!
+  grumble
+else
+  emote rocks quietly back and forth in his chair, smoking his pipe.
+  sa And that, spike is how I tracked and killed the horrible, vic...  Whoa!
+  emote rocks too far and falls backwards, landing in a heap.
+endif
+~
+#17813
+~
+#17822
+if rand 30
+  emote rubs his eyes furiously, trying to get the flour out.
+  sa Damned, blasted flour.
+  emote finally manages to rub two circles free of the flour.
+  emote looks up and sighs as a huge avalanche of flour crashes on top of him.
+  sa Damned, blasted flour.
+  sigh
+else
+  if rand 50
+    emote jumps out from behind a barrel of flour.
+    yell Boo!
+    emote notices that he didn't frighten you and hangs his head.
+    sa Damned, blasted flour.
+    sigh
+  else
+    emote looks around at the endless amounts of flour surrounding him.
+    ponder
+    emote smells the flour deeply.
+    mob echo Bottomdown's eyes snap wide open.
+    sa Question!?  You have a question?!  Yes?!  How much flour do you want?!
+    emote runs around counting sacks of flour.
+  endif
+endif
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#17808
+room echo You look down at your feet, and realize you've just trod in some plop.
+~
+#0
+
+#$

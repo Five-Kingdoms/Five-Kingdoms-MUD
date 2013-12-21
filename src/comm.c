@@ -279,6 +279,11 @@ int main( int argc, char **argv )
 #if defined(MALLOC_DEBUG)
     malloc_debug( 2 );
 #endif
+    /*char buf[100];
+    if( fgets( buf, 100, stdin ) != buf )
+        return 0;*/
+
+
     /* Init time. */
     gettimeofday( &now_time, NULL );
     mud_data.current_time = (time_t) now_time.tv_sec;

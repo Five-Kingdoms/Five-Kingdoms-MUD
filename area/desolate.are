@@ -1,0 +1,3096 @@
+#AREADATA
+Name Desolation~
+Pref ~
+Builders Eitreach~
+VNUMs 5600 5699
+Max_Bastions 12
+Credits {50 60} Chueh    Desolation~
+Security 9
+Startroom 5600
+Flags 96
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#5600
+Zergunt hired guard~
+Zergunt the Mercenery~
+A hired guard stands here and watches over the area.
+~
+A well built man, in fair armors he stands here guarding the area. 
+Juding from his looks, demeanor and a lazy stance, you can be fairly certain
+he has been hired to watch over the passage.  
+~
+human~
+ABZ A DJ 0 0 0
+35 5 25d10+3500 0d0+100 6d6+10 thwack
+1 1 1 0
+FHKVX AB 0 0
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#5601
+guardian desolation icy~
+A Guardian of Desolation~
+An Icy Guardian of Desolation is here.
+~
+~
+unique~
+ABCFGTe A DFH 0 0 0
+51 40 50d10+3600 0d0+100 6d7+35 frbite
+-20 -20 -20 -20
+CFHKUX ABI R H
+stand stand none none~
+23
+AHMV ABCDEFGHIJK giant 0
+#5602
+Winterwolf Female~
+a Female Winterwolf~
+A female winterwolf prowls the snowy wastes of desolation.
+~
+A hulking wolf, twice the size of a human, it has powerful hind and fore
+legs with wicked claws, and stark white fur, with deep blue patches.  Its
+muzzle is caked with bright red blood and its jet black eyes glare hungrily
+at you as it attacks.  
+~
+wolf~
+ACFGZd A DFJP 0 0 0
+51 20 50d10+3000 0d0+100 4d5+30 frbite
+-15 -10 -20 -10
+DEFHNUX ABI 0 0
+stand stand female none~
+26
+AHMV ABCDEFGHIJK medium 0
+#5603
+Winterwolf Male~
+a Male Winterwolf~
+A Male winterwolf prowls the snowy wastes of desolation.
+~
+A hulking wolf, twice the size of a human, it has powerful hind and fore
+legs with wicked claws, and stark white fur, with deep blue patches.  Its
+muzzle is caked with bright red blood and its jet black eyes glare hungrily
+at you as it attacks.  
+~
+wolf~
+ACFGZ A DFJP 0 0 0
+51 20 50d10+3500 0d0+100 4d5+30 frbite
+-15 -10 -20 -10
+DMNX ABI 0 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+#5604
+Winterwolf Female~
+a Female Winterwolf~
+A female winterwolf prowls the snowy wastes of desolation.
+~
+A hulking wolf, twice the size of a human, it has powerful hind and fore
+legs with wicked claws, and stark white fur, with deep blue patches.  Its
+muzzle is caked with bright red blood and its jet black eyes glare hungrily
+at you as it attacks.  
+~
+wolf~
+ACFGHZ A DFJP 0 0 10800
+51 43 50d10+3000 0d0+100 4d10+50 claw
+-15 -10 -20 -10
+DEFHNUX ABI 0 0
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+#5605
+Bjarne Frost Giant Chieftain~
+Bjarne, the frost giant chieftain~
+Bjarne, the Frost Giant Chieftain is here.
+~
+A hulk of a giant, Bjarne stands well over twenty feet high, and is
+cloaked in thick skins of winterwolves, with a pair of Yetifur boots.  His
+thick beard is stark white, as are his bushy eyebrows and hair, which
+contrast his deep blue skin well.  His massive form is rimmed with muscles
+and in his hands is his mighty weapon, Icebite.  Not to be trifled with, he
+turns upon you with fury.  
+~
+unique~
+ABCFGTZe A DFHJV 0 0 0
+58 40 4d6+9000 0d0+0 5d9+50 frsmash
+-40 -40 -40 -30
+ACDEFHJKNX ABI R HP
+stand stand male none~
+24
+HIMVc ABCDEFGHIJK giant 0
+P DEATH 78 100~
+#5606
+Frostmaw Winterwolf Father~
+Frostmaw, the Father of Winterwolves~
+Frostmaw, the Father of Winterwolves is here.
+~
+A wolf that very nearly reaches the top of the ceiling, he is by no means
+fat or sloppy.  He is in all actuality, a perfect example of what a flawless
+winterwolf would look like.  Only he is three to four times their already
+large size, and is quite imposing.  His fur is the purest white, with white
+stripes across his back like a tiger.  His claws are long and sharp, but his
+wicked bite is truly a terrifying force to behold.  
+~
+unique~
+ABCFGZe A DFPV 0 0 0
+58 83 50d10+6000 0d0+0 2d20+45 frbite
+-20 -11 -32 -14
+AF I R H
+stand stand none none~
+26
+0 0 giant 0
+P DEATH 78 100~
+#5607
+Traven Desolation Chieftain~
+Traven, the Chieftain of Desolation~
+Traven, the Chieftain of Desolation stands proudly.
+~
+A towering, bearded human, Traven stands about seven foot from head to
+toe, and sports thick matted dreadlocks and a bushy, bristly brown beard. 
+His brows knit in consternation as he looks around the area, and he is
+clearly not a man of hate or greed.  He seeks only for his people to live in
+peace, and without fear of the frost giants and winterwolves which travel
+the streets and assault all who they see.  
+~
+unique~
+ABGQTZe A DFHTV K 750 0
+52 28 4d6+5500 0d0+0 9d6+75 crush
+-40 -40 -40 -40
+ACDEFHJKNOX ABNSYa ILPQ MP
+stand stand none none~
+18
+0 0 large 0
+P DEATH 78 100~
+#5608
+Desolation Tribesman~
+A Desolation Tribesman~
+A Desolation Tribesman is here.
+~
+A large human cloaked in animal skins and furs of many sorts.  He looks
+rather pissed to see you, and quickly moves to defend himself.  His grim
+countenance gives the impression of a grizzled, veteran warrior.  
+~
+human~
+ACFT A D 0 0 0
+50 40 50d10+2500 0d0+100 6d7+35 punch
+-20 -20 -20 -20
+CFHKUX AB I 0
+stand stand male none~
+25
+AHMV ABCDEFGHIJK large 0
+#5609
+Dragon Skeletal Unlife~
+The Dragon of Unlife~
+A skeletal dragon of unlife descends slowly from the shadows.
+~
+A towering mass of withered bones, this dragon has sustained its
+existence by feeding off its own physical body to fuel its magics.  After
+Desolation fell to the frost giants, this once mighty dragon was left in the
+dragonhold to die, but its hatred of the frost giants for imprisoning it has
+lived on.  Truly a mighty symbol of magic, this dragon is unique in all of
+Mirlan.  
+~
+dragon~
+ABFGOQRTZe A DFHJU 0 -1000 0
+55 68 5d10+5000 50d10+100 4d20+60 skdrain
+-50 -15 -50 -32
+ACDFHMNO ABLQ CDIJP N
+stand stand none none~
+23
+AHZ ACDEFGHIJKLPQUVX giant 0
+F aff T
+F res BEH
+F vul FI
+P DEATH 78 100~
+P FIGHT 5609 80~
+#5610
+Lurker Spectral~
+A Spectral Lurker~
+A Spectral Lurker wavers in the darkness.
+~
+A shadow as dark as the purest blackness, the lurker floats around in a
+malevolant state.  Its very presence is disturbing, and you feel the room
+cool with its lightless soulles self.  Yellow eyes look upon you with fury
+as it turns and strikes with amazing swiftness and fury.  
+~
+unique~
+ACDFGORSZ A DFHJNOTUV 0 -1000 0
+60 45 10d20+8500 0d0+100 1d1+84 skdrain
+-30 -30 -30 -10
+AEFHKN ABCILPQ D 0
+stand stand none none~
+26
+ABHMV ABCDEFGHIJK huge 0
+P DEATH 78 100~
+#5611
+death knight lesser~
+a Lesser Death Knight~
+A Lesser Death Knight awaits his release.
+~
+A knight composed of pure hatred and darkness, the death knights are
+created from the blackest of the undead souls to serve Virigoth on this
+plane.  This lesser one is not as powerful as Lord Talex, but still holds a
+great deal of might.  He turns hate filled red orbs upon you as he swivels
+to attack.  
+~
+undead~
+ABCFGOSTZe A DFHJU 0 -1000 0
+58 25 4d6+7500 0d0+0 5d6+45 kiss
+-30 -30 -30 -10
+ACEFJKNX ABLQ I NSY
+stand stand male none~
+21
+0 ABCDEFGHIJK giant 0
+P DEATH 78 100~
+#5612
+Deathwraith Mature~
+A Mature Deathwraith ~
+A Mature Deathwraith lurks here.
+~
+Only a mature member of its ill-bred ilk, this being holds only a
+fraction of the power of an elder deathwraith, and is known to be magic
+reflective as well as others of its kind.  Slitted yellow eyes turn upon you
+with only one purpose, your death.  
+~
+unique~
+ABCFGOZe A DFJP 0 0 0
+51 47 50d10+3500 0d0+100 4d10+50 drain
+-15 -10 -20 -10
+DN ABC 0 NSY
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+#5613
+Ritual Killer Elthizil~
+Elthizil, the Ritual Killer~
+Elthizil, the Ritual Killer is here preparing his victim.
+~
+A beast faced demon, Elthizil is the Ritual Killer, the tormentor of
+fallen daemons and those who have run afoul of the gods of darkness.  He is
+milennia old, and was rumored to have been born before Mirlan itself.  He is
+approximately 12 feet tall, with sickly looking strength, and undoubtedly
+hellish speed.  A sacrifical dagger is in his right hand and a strange
+instrument is in his left hand.  His dark red robes glimmer in the shadows
+as he turns to you.  
+~
+demon~
+ACFGSTZ A DFHJPTa 0 -1000 0
+60 77 50d10+5000 0d0+0 5d18+30 corruption
+-12 -30 -20 0
+AEFHJKNX ABLQ I 0
+stand stand none none~
+21
+AHMV ABCDEFGHIJK medium 0
+F vul A
+P DEATH 78 100~
+#5614
+Golem Blood~
+A Blood Golem~
+A Blood Golem stands guard here.
+~
+Crystallized blood erupts in a formless pillar of blood that moves at the
+command of it's demonic master.  It shifts about like watery death and
+reaches for you with its formless body.  
+~
+unique~
+ACFTc A DF 0 0 0
+45 40 50d10+3500 0d0+100 6d7+35 spray
+-20 -20 -20 -20
+AFHUX 0 ABCD H
+stand stand none none~
+18
+AHMV ABCDEFGHIJK giant 0
+P RANDOM 5673 100~
+P DEATH 5672 100~
+#5615
+Wereshark Decaying~
+A decaying wereshark~
+A decaying wereshark circles you dangerously.
+~
+A massive, hideously malevolant version of a shark, this is one of the
+dread weresharks long rumored to swim the murky wastes of the river
+Obilivion.  Sadly enough you have found the rumors are indeed true, and this
+thirtyfive foot long fish has a mouth the size of a giant's waist, with a
+row of daggerlike teeth perfect for rending your flesh.  It circles for a
+moment then makes it's attack on you.  
+~
+unique~
+ABGZe A DFJP 0 -1000 0
+52 35 50d10+3000 0d0+100 4d10+50 chomp
+-10 -10 -10 -10
+ADFHMOUX ABR DIK NY
+stand stand male none~
+23
+AHMV ABCDEFGHIJK giant 0
+#5616
+Horror Refracted~
+The refracted horror~
+The refracted horror lurks like a small castle below the waves here.
+~
+Like a heat mirage, this "thing" is neither here nor there, yet exists
+undoubtedly in your immediate reality.  It is perhaps two hundred feet wide,
+with an amorphous, amoeba-like form, forever shifting and blurring like it
+isn't reall there.  But it most assuredly is here.  The refracted horror was
+banished to Mirlan before the gods themselves were born, and so it has lurked
+in the outlet of the river Oblivion for eons untold.  Like something out of
+the nightmare of a dreadlord, the refracted horror has never felt pain, let
+alone defeat.  Truly you will forever be known as a legend if somehow you
+can defeat this shimmering, shifting mass of silvery nothingness.  
+~
+unique~
+ABFGZe A BDFHPTUd E -1000 0
+60 50 50d10+15000 0d0+0 20d3+100 hunger
+-10 -20 -10 0
+A ABLQ CDHIK 0
+stand stand none none~
+27
+0 0 giant 0
+P DEATH 78 100~
+P FIGHT 5688 35~
+P GREET 5687 100~
+#5617
+Giant Frost Soldier~
+A frost giant soldier~
+A frost giant soldier lumbers through the snow.
+~
+Covered with matted, white hair thickened with blood, his bestial eyes
+rage in battle fury and the heat of the fight.  His fetid breath stinks
+heavily upon your face.  He stands well over 18 feet tall and seems quite
+impervious to the weather.  
+~
+human~
+ABCFGTe A DFP 0 0 0
+50 40 50d10+2500 0d0+100 6d7+35 crush
+-20 -20 -20 -20
+CFHKUX ABI R H
+stand stand none none~
+21
+AHMV ABCDEFGHIJK medium 0
+#5618
+Golem Blood~
+A Blood Golem~
+A Blood Golem stands guard here.
+~
+Crystallized blood erupts in a formless pillar of blood that moves at the
+command of it's demonic master.  It shifts about like watery death and
+reaches for you with its formless body.  
+~
+unique~
+ACFTc A DF 0 0 0
+45 40 50d10+3500 0d0+100 6d7+35 spray
+-20 -20 -20 -20
+AFHUX 0 ABCD H
+stand stand none none~
+21
+AHMV ABCDEFGHIJK giant 0
+P RANDOM 5673 100~
+#5666
+winter wolf huge~
+A huge winter wolf~
+A huge winter wolf stands here, its eyes lit like a pair of lanterns.
+~
+The wolf is big, almost as big as a small horse, it looks menacing and 
+fierce.
+~
+unique~
+ACG A 0 0 0 424
+30 5 5d10+500 0d0+100 5d5+10 bite
+0 0 0 0
+HK 0 0 0
+stand stand none none~
+16
+0 0 medium 0
+#0
+
+
+
+#OBJECTS
+#5605
+key icy~
+an icy key~
+An icy key~
+ice~
+key Y A
+0 0 0 0 0
+50 10 1000 P
+#5606
+Pelt Leopard Snow~
+a Snow Leopard Pelt~
+A pelt of amazingly soft snow leopard fur is here.~
+snow leopard fur~
+armor AKRS AKX
+10 6 11 7 0
+50 300 2 P
+E
+pelt~
+A pile of snow leopard fur treasure by Frostmaw for some reason.  He slew
+the snow leopards that once roamed the areas around Desolation and had their
+pelts stitched to fit his large frame.  
+~
+F
+A 30 -1 0
+F
+A 17 -10 0
+F
+A 18 3 0
+F
+A 2 2 0
+F
+A 19 1 0
+#5607
+Claws Winterwolf Pair~
+(no short description)~
+(no description)~
+unknown~
+trash 0 AH
+0 0 0 0 0
+0 0 0 P
+#5608
+no name~
+(no short description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#5609
+bone dragon eye~
+the Bonedragon Eye~
+A large decomposed eye lies here.~
+imprisoned souls~
+treasure BCEFGJLMSYZ ABS
+0 0 0 0 0
+50 1 1 P
+E
+eternal~
+A band of writhing, moving blackness, this ring is composed of shifting souls imprisoned by the dragon of skeletal unlife.
+~
+F
+A 29 1 0
+F
+A 36 -15 0
+#5611
+Soulblight Sword Darkness Bringer~
+"Soulblight" the Bringer of Darkness~
+A sword named "Soulblight" the Bringer of Darkness is here.~
+malformed adamantite~
+weapon ABFGJLe ANS
+sword 3 20 drain CF
+58 450 2 P
+F
+A 4 -1 0
+F
+A 26 -1 0
+F
+A 12 -20 0
+F
+A 14 -10 0
+F
+A 18 3 0
+F
+A 19 5 0
+#5612
+Boots Burnished Adamantite~
+some Burnished Adamantite Boots~
+Some Burnished Adamantite Boots have been left here.~
+malformed adamantite~
+armor AC AGX
+8 6 9 1 0
+50 300 3 P
+F
+A 5 -1 0
+F
+A 19 3 0
+F
+A 18 2 0
+#5613
+Dagger Sacrificial Godforged~
+a Godforged Sacrificial Dagger~
+A dagger splatter with blood is here~
+godforged adamant~
+weapon BMYZ ANRS
+dagger 4 14 drain H
+54 10 1 P
+E
+sacrificial~
+A serpent hilted dagger in the traditional "Kris" shape, this dagger was
+forged by the gods of Darkness for Elthizil to torment the living and the
+unliving with.  It radiates intense magic and is quite potent.  
+~
+E
+sacrificial~
+This is the true tormenter of souls, the dagger forged for Elthizil by
+the gods of darkness that he might bring misery to those who had betrayed
+them or their trust.  Jet black adamant, with a snake headed hilt, this
+dagger is in the ancient kris style, or wavy bladed.  It has seen horrors
+and atrocities untold and you can be certain it shall see more.  
+~
+M
+You feel $g compel you to commit acts of murder with it at the slightest touch.~
+$n begins to look rather psychotic and dangerous.~
+Your mind screams at the atrocities you have commited with $p.~
+$n sags to the ground as they are overcome with anguish at the horrors caused by $p.~
+F
+A 3 -4 0
+F
+A 4 -4 0
+F
+S 225 5 0
+F
+A 18 1 0
+F
+A 19 1 0
+#5614
+boots spell absorption~
+The Boots of Spell Absorption~
+The Boots of Spell Absorption are here.~
+black dragonhide~
+armor BFS AGS
+3 4 2 21 0
+55 20 2 P
+M
+For some reason words "addendus" and "neuro" float by in your memory.~
+~
+~
+~
+F
+S 497 25 0
+F
+S 277 25 0
+F
+A 22 -3 0
+F
+A 21 -4 0
+F
+A 24 -5 0
+P SPEECH 5614 neuro addendus~
+#5616
+Skin Horrific Refracted~
+some Horrific Refracted Skin~
+Some Horrific Refracted Skin is piled here in a shimmering heap.~
+refracted horror skin~
+armor ABMRSTY ADS
+24 17 26 18 0
+60 5 2 P
+E
+skin~
+The shimmering quicksilver skin of the horror is light and moves like liquid mercury when touched.
+~
+F
+A 2 1 0
+F
+A 22 -15 0
+#5617
+Radiance Ethereal~
+the Ethereal Radiance~
+The Ethereal Radiance casts a pale gray light here.~
+weavebound radiance~
+light ABGMSTY AOX
+0 0 999 0 0
+60 1 3 P
+F
+A 30 1 0
+F
+A 17 -10 0
+#5618
+ring abyss dark~
+the Ring of Abyss~
+A giant dark ring hewn from the rock of ages past lies here.~
+rock~
+trash TY ABS
+0 0 0 0 0
+60 220 2 P
+F
+A 17 -30 0
+F
+R 24 -5 P
+#5642
+Warpaint Chieftain's~
+some Chieftain's Warpaint~
+A puddle of chieftain's warpaint is here.~
+paint~
+armor BMSTY ASd
+6 11 2 1 0
+52 1 2 P
+F
+A 21 -6 0
+F
+A 22 -1 0
+F
+A 24 -3 0
+#5643
+Hair Maiden Chaste~
+the hair of a chaste maiden~
+A small braid of a chaste maiden's hair is here.~
+hair~
+armor BFGIKLS AES
+3 2 3 0 0
+52 1 2 P
+E
+hair~
+A small braid of hair from Traven's fiance, who was slain brutally when
+the frost giants first attacked.  
+~
+F
+A 18 2 0
+F
+A 19 2 N
+#5644
+Belt Dragonhide White~
+a belt of white dragonhide~
+A belt of gleaming white dragonhide lays here.~
+dragonhide~
+armor BGIKRSY ALS
+15 17 20 10 0
+52 140 3 P
+F
+A 17 -10 0
+F
+A 18 1 0
+F
+A 24 -5 0
+#5659
+A Key of Darkness~
+a key of darkness~
+A key of darkness is here.~
+glass~
+key B A
+0 0 0 0 0
+50 10 1000 P
+#5664
+Icebite Bane Fire~
+"Icebite", the Bane of Fire~
+"Icebite", the Bane of Fire radiates a frozen aura.~
+ice~
+weapon AST ANS
+mace 6 8 frsmash BF
+58 300 3 P
+F
+A 18 1 0
+F
+A 19 2 0
+F
+A 5 -1 0
+F
+S 501 5 0
+F
+S 97 -15 0
+#5665
+boots yetifur pair~
+a set of yetifur leggings~
+A pair of leggings made of stitched yetifur is lying here.~
+yetifur~
+armor BSY AFX
+12 11 10 3 0
+50 180 2 P
+F
+A 19 4 0
+F
+A 1 1 0
+F
+A 26 -1 0
+F
+A 12 -20 0
+F
+A 13 10 0
+#5666
+Cloak Winterwolf~
+a Winterwolf Cloak~
+A cloak of patched winterwolf furs is here in a pile.~
+winterwolf fur~
+armor AS ACS
+8 7 9 4 0
+58 300 3 P
+F
+A 4 -3 0
+F
+A 2 -1 0
+F
+A 18 2 0
+F
+A 19 2 0
+P USE 5666 100~
+#5688
+Key Horrific~
+a horrific key~
+A horrific key shimmers quietly.~
+horrific illusion~
+key ABQY A
+0 0 0 0 0
+60 1 2 P
+#5698
+Unholy shadow velphane~
+the Unholy Shadow of Velphane~
+The Unholy Shadow of Velphane casts a pall here.~
+shadows~
+armor ACEFSY AFS
+9 11 16 14 0
+60 1 2 P
+F
+A 21 -7 0
+F
+A 24 -5 0
+F
+A 22 -4 0
+F
+A 20 -7 0
+#5699
+Darkness Glyph Ancient~
+a Glyph of Ancient Darkness~
+A Glyph of Ancient Darkness has been cast down.~
+blood~
+armor BCEFGMSYZ AES
+1 1 1 20 0
+60 1 2 P
+F
+A 24 -4 0
+F
+A 21 -10 0
+F
+A 22 -5 0
+F
+A 20 -8 0
+F
+A 12 25 0
+#0
+
+
+
+#ROOMS
+#5600
+`&An ice tunnel``~
+Your breath mists in the cold air, and snow and ice, darker then night
+surround you.  A hand-hewn tunnel has been cut from the ice itself here, and
+you cannot help but shiver uncontrollably in the icy gloom.  
+~
+~
+0 262152 16 12
+D1
+~
+ice~
+AB 0 4968
+D3
+~
+~
+0 0 5601
+T 0
+P RANDOM 5600 5~
+S
+#5601
+`&An ice tunnel``~
+The tunnel continues here, its icy walls like a frozen tomb around you. 
+Your flesh is beginning to crawl and your bones ache from the small amounts
+of oxygen present.  You cannot help but wonder who, or what carved this
+tunnel.  You are fairly certain you will find out soon enough.  
+~
+~
+0 8 0 12
+D1
+~
+~
+0 0 5600
+D2
+~
+~
+0 0 5602
+T 0
+P RANDOM 5600 5~
+S
+#5602
+`&Below the tundra``~
+The tunnel broadens out here, giving you a broad view as you stand
+shivering beneath the tundra.  If nothing else you have escaped the horrid
+winds of the surface, but it is undoubtedly much colder here then anywhere
+else you have ever been.  Opened before you is open, white sky, and a
+snowstorm of epic proportions.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5601
+D3
+~
+~
+0 0 5603
+T 0
+S
+#5603
+`&Howling winds``~
+Wicked, icy and biting winds hit you, chilling you to the bone.  The
+source of these winds is unknown, but their sound is akin to a banshee's
+wail.  The dark blue ice surrounding you looks especially forlorn, and you
+cannot help but huddle inside the warmth of your clothing as yet another icy
+blast of arctic air buffets you about.  Truly a bleak landscape.  
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 5602
+D3
+~
+~
+0 0 5604
+T 0
+P RANDOM 5600 20~
+S
+#5604
+`&Silence``~
+All sound quiets, and an eerie calm passes over the immediate area as you
+pause to get your bearings.  Like the eye of the storm, you are in a
+proverbial oasis, albeit one of peace in an icy tomb of a region.  You look
+about as you ponder your course during the first quiet moment you have had
+in ages.  
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 5603
+D3
+~
+~
+0 0 5605
+T 0
+S
+#5605
+`&The Frozen Gates``~
+Gates of hardened and shaped ice rise up like a row of teeth before you,
+a massive arch of cold blue extends like a frozen half moon to form the
+framework of a this work of diabolical art.  Who or what created this is
+beyond you, and you are far from sure if you even want to find out.  A pair
+of icy guardians advance to meet you as you ponder the history of this
+place.  
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 5604
+D3
+~
+frozen gates~
+ABC 5605 5606
+T 0
+S
+#5606
+`&The Eastern Square``~
+Sprawling, snow covered streets spread out in every direction here, each
+point of the compass beckoning like a quiet, insidious sound in your mind. 
+As you gaze in each direction, crumbled, collapsed and frozen waste is
+evident in the form of abandoned and wasted buildings that may or may not
+have residents...  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5607
+D1
+~
+frozen gates~
+ABC 0 5605
+D2
+~
+~
+0 0 5610
+D3
+~
+~
+0 0 5628
+T 0
+S
+#5607
+`&Danarak Street``~
+Drifts of snow as high as two frost giants tower on either side of this
+smallish street.  The snow beneath your feet is strangely untrodden, lacking
+footprints, and you can hear the sound of your boots crunching quietly as
+you walk.  What else lurks in these strange buildings surrounding you, and
+what force or forces created this place, let alone brought about it's
+downfall?  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5608
+D2
+~
+~
+0 0 5606
+T 0
+S
+#5608
+`&Danarak Street``~
+Drifts of snow as high as two frost giants tower on either side of this
+smallish street.  The snow beneath your feet is strangely untrodden, lacking
+footprints, and you can hear the sound of your boots crunching quietly as
+you walk.  What else lurks in these strange buildings surrounding you, and
+what force or forces created this place, let alone brought about it's
+downfall?  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5609
+D2
+~
+~
+0 0 5607
+T 0
+S
+#5609
+`&The Northeastern Watchtower``~
+A gleaming tower of a strange, frozen blue stone extends upwards like an
+icy dagger.  Like the rest of the city thus far, everywhere you look drifts
+of snow pile up around your feet.  The stairs that extend up to the tower
+are capped with perhaps two feet of snow on each singular step and you
+wonder how long it has been since they were manned for anything.  
+~
+~
+0 0 0 12
+D2
+~
+~
+0 0 5608
+D3
+~
+~
+0 0 5613
+D4
+~
+~
+0 0 5636
+T 0
+S
+#5610
+`&Danarak Street``~
+Drifts of snow as high as two frost giants tower on either side of this
+smallish street.  The snow beneath your feet is strangely untrodden, lacking
+footprints, and you can hear the sound of your boots crunching quietly as
+you walk.  What else lurks in these strange buildings surrounding you, and
+what force or forces created this place, let alone brought about it's
+downfall?  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5606
+D2
+~
+~
+0 0 5611
+T 0
+S
+#5611
+`&Danarak Street``~
+Drifts of snow as high as two frost giants tower on either side of this
+smallish street.  The snow beneath your feet is strangely untrodden, lacking
+footprints, and you can hear the sound of your boots crunching quietly as
+you walk.  What else lurks in these strange buildings surrounding you, and
+what force or forces created this place, let alone brought about it's
+downfall?  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5610
+D2
+~
+~
+0 0 5612
+T 0
+S
+#5612
+`&The Southeastern Watchtower``~
+A gleaming tower of a strange, frozen blue stone extends upwards like an
+icy dagger.  Like the rest of the city thus far, everywhere you look drifts
+of snow pile up around your feet.  The stairs that extend up to the tower
+are capped with perhaps two feet of snow on each singular step and you
+wonder how long it has been since they were manned for anything.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5611
+D3
+~
+~
+0 0 5627
+D4
+~
+~
+0 0 5637
+T 0
+S
+#5613
+`&Northern Semmir Street``~
+This darkened street gives you more then chills, as you feel the soulless
+eyes of something, or someone, upon you.  Whispers are faintly heard along
+the icy winds, or are they?  You cannot be certain, but something in the
+back of your mind is nagging at you, calling out to you that something,
+someone, some force, is stalking you like silent death.  
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 5609
+D3
+~
+~
+0 0 5614
+T 0
+S
+#5614
+`&The Northern Square``~
+This large crossroads extends south as well as east and west, and is once
+more shrouded in the swirling mire of an icy storm.  Deathly, unnatural
+howling can be heard to your west and south, like the baying of some strange
+and deadly wolf.  You decide that anything that has survived this frozen
+waste is not something you desire to meet in this icy square.  
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 5613
+D2
+~
+~
+0 0 5633
+D3
+~
+~
+0 0 5615
+T 0
+S
+#5615
+`&Northern Semmir Street``~
+This darkened street gives you more then chills, as you feel the
+soulless eyes of something, or someone, upon you.  Whispers are faintly
+heard along the icy winds, or are they?  You cannot be certain, but
+something in the back of your mind is nagging at you, calling out to you
+that something, someone, some force, is stalking you like silent death.  A
+strange partially collapsed building is evident to the south, and appears
+that it might offer shelter from the storm.  
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 5614
+D2
+~
+steel door~
+AB 0 5640
+D3
+~
+~
+0 0 5616
+T 0
+S
+#5616
+`&Northern Semmir Street``~
+This darkened street gives you more then chills, as you feel the
+soulless eyes of something, or someone, upon you.  Whispers are faintly
+heard along the icy winds, or are they?  You cannot be certain, but
+something in the back of your mind is nagging at you, calling out to you
+that something, someone, some force, is stalking you like silent death.  
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 5615
+D3
+~
+~
+0 0 5617
+T 0
+S
+#5617
+`&The Northwestern Watchtower``~
+A gleaming tower of a strange, frozen blue stone extends upwards like an
+icy dagger.  Like the rest of the city thus far, everywhere you look drifts
+of snow pile up around your feet.  The stairs that extend up to the tower
+are capped with perhaps two feet of snow on each singular step and you
+wonder how long it has been since they were manned for anything.  
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 5616
+D2
+~
+~
+0 0 5618
+D4
+~
+~
+0 0 5639
+T 0
+S
+#5618
+`&Adrakk Street``~
+This narrow street extends north and south and is surrounded by the grand
+wall of the town on the west and the skeletons of shattered and collapsed
+buildings along the east.  Ten foot drifts of snow line the sides of the
+street, and you cannot see any sort of footprints other then your own on the
+stiff, firm snowy street.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5617
+D2
+~
+~
+0 0 5619
+T 0
+S
+#5619
+`&Adrakk Street``~
+This narrow street extends north and south and is surrounded by the
+grand wall of the town on the west and the skeletons of shattered and
+collapsed buildings along the east.  Ten foot drifts of snow line the sides
+of the street, and you cannot see any sort of footprints other then your own
+on the stiff, firm snowy street.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5618
+D2
+~
+~
+0 0 5620
+T 0
+S
+#5620
+`&The Western Square``~
+Once mighty gates have collapsed into the square here, barring further
+passage west.  A faint fluttering of snow is falling here, and you gaze
+around warily at the massive drifts of snow, curious as to what they could
+be hiding.  East of you is a building that seems oddly undamaged, unlike the
+others in this town.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5619
+D1
+~
+~
+0 0 5631
+D2
+~
+~
+0 0 5621
+T 0
+S
+#5621
+`&Adrakk Street``~
+South of you, a cone of icy destruction seems to be pouring out of the
+very wall of the city.  You can feel the temperature beginning to drop the
+closer you get to it, and you are unsure if you wish to venture into that
+storm.  North of you is more of the same, ruined, collapsed buildings, and
+huge drifts of powdery snow.  Once more you can hear the baying of the
+wolves echoing in your ears.  You sense you can travel a short ways to the
+south before encountering the icy blasts, but dare you risk it?  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5620
+D2
+~
+~
+0 0 5622
+T 0
+S
+#5622
+`&Adrakk Street``~
+South of you, a cone of icy destruction seems to be pouring out of the
+very wall of the city.  You can feel the temperature beginning to drop the
+closer you get to it, and you are unsure if you wish to venture into that
+storm.  North of you is more of the same, ruined, collapsed buildings, and
+huge drifts of powdery snow.  Once more you can hear the baying of the
+wolves echoing in your ears.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5621
+D2
+~
+~
+0 0 5623
+T 0
+S
+#5623
+`&The Southwestern Watchtower``~
+You cannot tell, but it appears the source of the furious gusts of
+stinging snow and ice are coming from what appears to be a gaping rift in
+the exterior wall of the town.  Only inky blackness even distinguishes its
+misshapen form, but it can be the only source of the withering rage of this
+chilling wind.  North of you appears to be completely free of this evil, icy
+devastation.  The outline of a tower is visible somewhat above you as well,
+but finding the entrance might prove difficult.  West of you, extending out
+from the hole is what appears to be a swirling quagmire of white.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5622
+D1
+~
+~
+0 0 5624
+D3
+~
+~
+0 0 5662
+D4
+~
+~
+0 0 5638
+T -40
+S
+#5624
+`&Southern Semmir Street``~
+A truly frozen waste, you do not recall ever being so cold in your life. 
+The vortex of snow coming from your west is nearly unbearable, and you
+cannot believe the might of the wind, it is as strong as frost giant pushing
+on your chest.  West of you the wind rages like a scorned fury, and you are
+unsure if you can continue.  East of you things seem to be not quite as bad,
+that is, if you are eyes are not deceiving you.  
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 5625
+D3
+~
+~
+0 0 5623
+T -40
+S
+#5625
+`&Southern Semmir Street``~
+The wind and snow is more pronounced here, as the swirling winds travel
+in from the west at a breakneck rate, and you are unsure what has allowed
+the protection of the walls to fall.  The icy snows begin to grow in size as
+you continue west, and to the east is a mire of whited out snow.  You can
+barely move to the west here, as truly unbelievable winds are hitting you
+with the strength of a dozen gales.  Snow beats down upon you, and it takes
+all of your resolve to continue on.  
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 5626
+D3
+~
+~
+0 0 5624
+T -30
+S
+#5626
+`&The Southern Square``~
+The wind and snow is more pronounced here, as the swirling winds travel
+in from the west at a breakneck rate, and you are unsure what has allowed
+the protection of the walls to fall.  The icy snows begin to grow in size as
+the blizzard becomes a full on white out, and you can barely see your hand
+in front of your face.  You are unsure as to even what direction's you can
+move, but the harsh and howling wind is definitely blowing from your west.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5635
+D1
+~
+~
+0 0 5627
+D3
+~
+~
+0 0 5625
+T -20
+S
+#5627
+`&Southern Semmir Street``~
+The wind travels ferociously down this street, and you can sense it
+growing stronger the further west you head, and it is obvious the snows are
+falling much harder here.  You can barely make out a vortex of snow ahead to
+your west, though it is difficult to tell just where it begins.  East of you
+it appears the area is significantly more sheltered.  
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 5612
+D3
+~
+~
+0 0 5626
+T 0
+S
+#5628
+`&Khorm Street``~
+The street narrows as the building north of you has collapsed into the
+street like an icy carcass.  The wind has picked up somewhat as it travels
+from the east, blowing towards the square west of you.  A wicked howl
+penetrates the air, like a wolf of legendary size and stature, and you feel
+the blood in your veins begin to grow as cool as the surrounding air.  
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 5606
+D3
+~
+~
+0 0 5629
+T 0
+S
+#5629
+`&The Central Square``~
+A vast square opens up here, with a frozen over set of benches placed in
+the center around what was once an enormous firepit.  The shattered bones
+and gristle of the last fire's remnants are frozen in place like a distorted
+tableau of the past.  Whatever left the last fire here burning, wasnt
+worried about keeping an eye on it.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5632
+D1
+~
+~
+0 0 5628
+D2
+~
+~
+0 0 5634
+D3
+~
+~
+0 0 5630
+T 0
+S
+#5630
+`&Khorm Street``~
+The street continues east and west here, but there seems to be some sort
+of black taint hanging over the half-destroyed building north of you even
+the snow itself seems to avoid this blackened glow, and piles up in drifts
+to either side of it.  South of you there appears to be yet another entrance
+to the crumbling building.  
+~
+~
+0 0 0 12
+D0
+~
+~
+AB 0 5643
+D1
+~
+~
+0 0 5629
+D2
+~
+~
+AB 0 5645
+D3
+~
+~
+0 0 5631
+T 0
+S
+#5631
+`&Khorm Street``~
+The street narrows as the building south of you has collapsed into the
+street like an icy carcass.  The wind has picked up somewhat as it travels
+from the east, blowing towards the square west of you.  A wicked howl
+penetrates the air, like a wolf of legendary size and stature, and you feel
+the blood in your veins begin to grow as cool as the surrounding air.  
+~
+~
+0 0 0 12
+D0
+~
+~
+AB 0 5642
+D1
+~
+~
+0 0 5630
+D2
+~
+~
+AB 0 5644
+D3
+~
+~
+0 0 5620
+T 0
+S
+#5632
+`&Kavrik Street``~
+This wide street runs north and south of the massive pit to your south,
+and seems to be somewhat sheltered from the icy winds, but not from the
+bitter cold.  The snow alongside the streets that has piled up has frozen
+over, as has the path you are walking, making your movements a real labor. 
+Once more the baying of the wolves echoes all around you like a sickening
+symphony of anguish and disilliusion.  You tense in anticipation, but see no
+signs of life, let alone movement.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5633
+D2
+~
+~
+0 0 5629
+T 0
+S
+#5633
+`&Kavrik Street``~
+This wide street runs north and south of the massive pit to your south,
+and seems to be somewhat sheltered from the icy winds, but not from the
+bitter cold.  The snow alongside the streets that has piled up has frozen
+over, as has the path you are walking, making your movements a real labor. 
+Once more the baying of the wolves echoes all around you like a sickening
+symphony of anguish and disilliusion.  You tense in anticipation, but see no
+signs of life, let alone movement.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5614
+D2
+~
+~
+0 0 5632
+T 0
+S
+#5634
+`&Kavrik Street``~
+This wide street runs north and south of the massive pit to your north,
+and seems to be somewhat sheltered from the icy winds , but not from the
+bitter cold.  The snow alongside the streets that has piled up has frozen
+over, as has the path you are walking, making your movements a real labor. 
+Once more the baying of the wolves echoes all around you like a sickening
+symphony of anguish and disilliusion.  You tense in anticipation, but see no
+signs of life, let alone movement.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5629
+D2
+~
+~
+0 0 5635
+T 0
+S
+#5635
+`&Kavrik Street``~
+This wide street runs north and south of the massive pit to your north,
+and seems to be somewhat sheltered from the icy winds , but not from the
+bitter cold.  The snow alongside the streets that has piled up has frozen
+over, as has the path you are walking, making your movements a real labor. 
+Once more the baying of the wolves echoes all around you like a sickening
+symphony of anguish and disilliusion.  You tense in anticipation, but see no
+signs of life, let alone movement.  
+~
+~
+0 0 0 12
+D0
+~
+~
+0 0 5634
+D2
+~
+~
+0 0 5626
+T 0
+S
+#5636
+`&Atop the Northeastern Watchtower``~
+As you exit the narrow staircase of the tower, it flattens out to a
+wide, sprawling roof, with square blocked bricks of the same strange stone
+bordering it.  Just as in the other towers, your vision is obscured by the
+infinite swirling mass of snow surrounding the city.  It is obvious nothing
+could survive in a storm like that, and you ponder how you will leave town
+once you complete your business, whatever it may be.  
+~
+~
+0 0 0 12
+D5
+~
+~
+0 0 5609
+T 0
+S
+#5637
+`&Atop the Southeastern Watchtower``~
+As you exit the narrow staircase of the tower, it flattens out to a wide,
+sprawling roof, with square blocked bricks of the same strange stone
+bordering it.  You can see nothing but about 10 feet in front of your face
+due to the swirling snowstorm that rages outside of town like a living
+entity.  Shivering you decide it best to get down from this unsheltered
+spot.  
+~
+~
+0 0 0 12
+D5
+~
+~
+0 0 5612
+T 0
+S
+#5638
+`&Atop the Southwestern Watchtower``~
+As you exit the narrow staircase of the tower, it flattens out to a
+wide, sprawling roof, with square blocked bricks of the same strange stone
+bordering it.  You can see nothing but about 10 feet in front of your face
+due to the swirling snowstorm that rages outside of town like a living
+entity.  Shivering you decide it best to get down from this unsheltered
+spot.  
+~
+~
+0 0 0 12
+D5
+~
+~
+0 0 5623
+T 0
+S
+#5639
+`&Atop the Northwestern Watchtower``~
+As you exit the narrow staircase of the tower, it flattens out to a
+wide, sprawling roof, with square blocked bricks of the same strange stone
+bordering it.  Just as in the other towers, your vision is obscured by the
+infinite swirling mass of snow surrounding the city.  It is obvious nothing
+could survive in a storm like that, and you ponder how you will leave town
+once you complete your business, whatever it may be.  Out to the west of
+town, you cannot be certain but you may have noticed a blur of bluish-white
+moving in the mire of the storm.  
+~
+~
+0 0 0 12
+D5
+~
+~
+0 0 5617
+T 0
+S
+#5640
+`8The Dragonhold``~
+This building is deceptively enormous.  From the outside it appeared as
+little more then a partially collapsed building, but now you can see before
+you a grand courtyard, bordered by a high butressed ceiling above of the
+same strange frozen blue stone.  The effects of the storm and icy winds are
+not even remotely present here, and a faint thrumming sound can be heard as
+the courtyard opens up to the west.  
+~
+~
+0 8 0 0
+D0
+~
+steel door~
+AB 0 5615
+D3
+~
+~
+0 0 5641
+T 20
+S
+#5641
+`8The Dragonhold``~
+Mounds of massive giant bones are scattered about what appears to be a
+makeshift lair of sorts.  The faint thrumming you heard east of you is
+louder here, and seems to be coming from a massive glowing black diamond,
+the size of a titan's head.  This diamond is held up by the massive claw of
+a dragon, carved from pure gold.  It is only when you can pull your eyes
+from the stone that you notice the dark shadow fall across you as a skeletal
+dragon settles into view.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5640
+T 20
+S
+#5642
+`8A massive gathering room``~
+Quite possibly the only standing building without structural damage, this
+was once the town hall, now converted to a large gathering room.  An epic
+fire roars a good twelve feet into the air, surrounded by a pit of blackened
+stones that appear to be cut from the very floor itself.  Surrounding the
+fire are a number of broad benches, and stout mahogany tables are scattered
+about the room.  Rising thirty feet the ceiling of this building has a
+slender hole in it for the smoke to escape.  It appears there was once a
+panel of glass there, but no longer.  
+~
+~
+0 8 0 0
+D2
+~
+~
+AB 0 5631
+T 85
+S
+#5643
+`8A small, square room``~
+A pall of darkness surrounds this room, formed into a perfect square as
+if the building that once contained it merely fell apart around this
+portion.  The walls and ceiling are smallish, of a strange black rock, which
+is intricately and ornately engraved with runes and glyphs of a malevolent
+nature.  You cannot imagine what created this.  But a small depression in
+the floor reveals what appears to be a hidden door of sorts, carefully
+concealed by the glyphs, yet oddly left partially open.  
+~
+~
+0 8 0 0
+D2
+~
+~
+AB 0 5630
+D5
+~
+depression~
+ABM 0 5646
+S
+#5644
+`8Supply storage``~
+This smallish room seems to be in decent shape considering it was
+partially collapsed.  A door to the outside is still on it's hinges and the
+interior seems to have be being used for storage.  Racks of winterwolf pelts
+line the walls and the skull of some form of dragon adorns the wall.  Bone
+clubs and Spears of sharpened wood hang on neat racks for easy access.  You
+get the feeling you shouldnt be in here, but at least it seems somewhat
+warmer then outside.  
+~
+~
+0 8 0 0
+D0
+~
+~
+AB 0 5631
+D1
+~
+~
+AB 0 5645
+T 30
+S
+#5645
+`8Sleeping Quarters``~
+Bunks of hastily crafted wood line the walls here, stacked so close
+together they look like shelves.  It is a bit warmer in here then outside,
+but still far from comfortable.  Blankets of winterwolf fur adorn each of
+the bunks and a group of chests in the corner house the clothing articles of
+the people who reside here.  The bunks number approximately 12, with one of
+those being set apart from all the others, and a bit larger too.  Perhaps it
+belongs to a chieftain.  
+~
+~
+0 8 0 0
+D0
+~
+~
+AB 0 5630
+D3
+~
+~
+AB 0 5644
+T 50
+S
+#5646
+`8A frozen tunnel``~
+Lifting the black stone trapdoor, you descended into another tunnel lined
+with icy.  It appears to have been bored into the frozen earth of the city,
+and extends to your west into gods know what.  It is markedly colder in here
+then in the room you just came from, and your breath once more frosts in
+front of your face.  
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 5647
+D4
+~
+depression~
+ABM 0 5643
+T 0
+S
+#5647
+`8A frozen tunnel``~
+The circular tunnel travels east and west, and is about as wide as two
+giants.  Carved of bluish ice, you can see your breath misting in front of
+your face as you peer about warily in search of signs of danger.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5646
+D3
+~
+~
+0 0 5648
+T 0
+S
+#5648
+`8A descending slope``~
+The tunnel begins to slope sharply downwards here, as if daring you to go
+further.  It remains the same width and of the same circular shape as
+before.  The air remains as cool as before, and once more you cannot help
+but wonder what in the nine hells would be going into this frozen earth.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5647
+D5
+~
+~
+0 0 5649
+T 0
+S
+#5649
+`8Below the permafrost``~
+As the tunnel descended further, you began to notice a marked line of
+deep blue ice, darker then anywhere else you have seen it.  This is the
+permafrost, the layer of ice on top of the earth itself that NEVER melts. 
+Truly you have journeyed farther then most mortals to have made it this far.
+The tunnel ascends upwards here back towards the surface.  
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 5650
+D4
+~
+~
+0 0 5648
+T 0
+S
+#5650
+`8Below the permafrost``~
+As the tunnel descended further, you began to notice a marked line of
+deep blue ice, darker then anywhere else you have seen it.  This is the
+permafrost, the layer of ice on top of the earth itself that NEVER melts. 
+Truly you have journeyed farther then most mortals to have made it this far.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5649
+D2
+~
+~
+0 0 5651
+T 0
+S
+#5651
+`8Below the permafrost``~
+As the tunnel descended further, you began to notice a marked line of
+deep blue ice, darker then anywhere else you have seen it.  This is the
+permafrost, the layer of ice on top of the earth itself that NEVER melts. 
+Truly you have journeyed farther then most mortals to have made it this far.
+The tunnel descends even further into the very bowels of the frozen earth
+here, and stranger markings then you encountered above adorn the icy walls
+here.  An icy impass blocks the tunnel heading downwards, but you may be
+able to move it.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5650
+D5
+~
+icy impass~
+AB 0 5652
+S
+#5652
+`8A hollowed out cavern``~
+The tunnel opened out into a massive cavern here, which seems more like a
+fold in the earth then anything else.  It is more then 500 across in any
+direction, and seems to be populated with a mountain of bones in one corner.
+Just what kind of bones they are is as yet undetermined.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5656
+D2
+~
+~
+0 0 5653
+D3
+~
+~
+0 0 5655
+D4
+~
+icy impass~
+AB 0 5651
+T 0
+S
+#5653
+`8A hollowed out cavern``~
+The tunnels walls are evident here, and have odd scratches cut into the
+walls.  The wolves that populate the cavern do not look pleased at all to
+see you, and they look rather hungry and vicious.  Yet another group of them
+has conglomerated here, and this time one of them is a larger female it
+seems.  To your west is the most enormous wolf on Mirlan, and your knees
+begin to grow weak.  A large hole in the rock is visible below you here,
+descending into the gloom.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5652
+D1
+~
+~
+0 0 5657
+D3
+~
+~
+0 0 5654
+D5
+~
+~
+0 0 5658
+T 0
+S
+#5654
+`8A hollowed out cavern``~
+A wolf the size of a small mountain dominates this portion of the cavern,
+truly if you werent so freaking scared you would be in awe of this beast. 
+Behind it appears to be three female wolves, all appearing to be bedded down
+on what appears to be a portion of bare earth.  They see you and move to aid
+their mate.  You are pretty sure you are in trouble now.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5655
+D1
+~
+~
+0 0 5653
+T 0
+S
+#5655
+`8A hollowed out cavern``~
+The cavern extends here to the south and east, but this portion is
+dominated by a pile of bones of various and assorted creatures that
+stretches a good twenty feet in the air and ten feet across.  As you begin
+to examine the bones, two wolves amble towards you with low and spiteful
+growls.  Looking south you see what appears to be a giant among wolves. 
+What have you stumbled into?  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5652
+D2
+~
+~
+0 0 5654
+T 0
+S
+#5656
+`8A hollowed out cavern``~
+The tunnels walls are evident here, and have odd scratches cut into the
+walls.  The wolves that populate the cavern do not look pleased at all to
+see you, and they look rather hungry and mean.  Their whitish blue fur
+begins to stand on end as two of them approach you menacingly.  
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 5657
+D3
+~
+~
+0 0 5652
+T 0
+S
+#5657
+`8A hollowed out cavern``~
+The tunnels walls are evident here, and have odd scratches cut into the
+walls.  The wolves that populate the cavern do not look pleased at all to
+see you, and they look rather hungry and vicious.  A pack of four of them
+has conglomerated here, and they begin to snarl as they prepare to attack. 
+West of you appears to be a wolf the size of a house and you know you are
+undoubtedly in trouble.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5656
+D3
+~
+~
+0 0 5653
+T 0
+S
+#5658
+`8A broken passage``~
+A hole in the cavern above revealed a passage carved from the rock itself
+that travels west into further gloom.  Each of the walls is marked with
+symbols of the Decay Manifested, the God of Unlife as well as marked in many
+languages.  
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 5659
+D4
+~
+~
+0 0 5653
+T 0
+S
+#5659
+`8The Catacombs``~
+Each of the walls is marked with symbols of the Decay Manifested, the God
+of Unlife as well as marked in many languages.  Quietness surrounds you as
+the darkness of the catacombs begins to tense about your body.  Death is in
+the air.  
+~
+~
+0 9 0 0
+D0
+~
+catacomb~
+ABCGM 5659 5698
+D1
+~
+~
+0 0 5658
+D3
+~
+~
+0 0 5660
+T 20
+S
+#5660
+`8The Catacombs``~
+Each of the walls is marked with symbols of the Decay Manifested, the
+God of Unlife as well as marked in many languages.  Quietness surrounds you
+as the darkness of the catacombs begins to tense about your body.  Death is
+in the air.  
+~
+~
+0 9 0 0
+D0
+~
+hidden panel~
+ABM 0 5697
+D1
+~
+~
+0 0 5659
+D3
+~
+~
+0 0 5661
+S
+#5661
+`8Rubble``~
+A cave in has collapsed part of the tunnel here with rubble, but you
+believe you might be able to penetrate further downwards if you are careful.
+A narrow pit seems to be only partially blocked by the cave-in.  
+~
+~
+0 134217737 0 0
+D1
+~
+~
+0 0 5660
+D5
+~
+~
+0 0 5665
+T 20
+S
+#5662
+`&Within the storm``~
+Infinite whiteness overtakes you as the storm outside the walls rages
+like a hurricane of frozen biting winds and icy blasts of snow.  Your eyes
+sting from the cold and you blunder about, trying to find your way.  
+~
+~
+0 134217728 0 12
+D0
+~
+~
+0 0 5662
+D1
+~
+~
+0 0 5623
+D2
+~
+~
+0 0 5663
+D3
+~
+~
+0 0 5663
+T -50
+S
+#5663
+`&Within the Storm``~
+Infinite whiteness overtakes you as the storm outside the walls rages
+like a hurricane of frozen biting winds and icy blasts of snow.  Your eyes
+sting from the cold and you blunder about, trying to find your way.  
+~
+~
+0 134217728 0 12
+D0
+~
+~
+0 0 5663
+D1
+~
+~
+0 0 5662
+D2
+~
+~
+0 0 5663
+D5
+~
+icy carapace~
+ABM 0 5664
+T -50
+S
+#5664
+`8A Lair of Shimmering Ice``~
+Like something out of the ancient texts, this lair is a flawless display
+of icy, deathly beauty.  Rivulets of frozen water hang from the ceiling,
+which has a gaping hole just large enough for a dragon to descend into or
+ascend out of.  Mounds of hoarded treasure gleam eerily in the faint light
+in the northwest corner of the lair, and you cannot help but wonder how you
+are going to defeat the massive Frost Giant in front of you.  
+~
+~
+0 8 0 0
+D4
+~
+icy carapace~
+ABM 0 5663
+T -30
+S
+#5665
+`8A gloomy pit``~
+A gaping pit has formed here, as if the cave in has opened something
+deeper, darker and more foreboding then most.  Above you can see the
+remnants of light barely entering the gloom you now find yourself in.  South
+of you appears to be a narrow crevice in the cave wall of the pit.  It is
+difficult to tell but you may be able to squeeze through.  The walls
+themselves seem ancient beyond even time itself.  
+~
+~
+0 134217737 0 0
+D2
+~
+~
+0 0 5666
+D4
+~
+~
+0 0 5661
+T 25
+S
+#5666
+`8A Narrow Crevice``~
+The crack in the pit wall is narrow and dark, and is quite a tight fit. 
+You find yourself wondering what possibly could have been created by the
+cave in, then you notice a faint flicker of light from south of you, and
+what appears to be a faded symbol at the edge of the crevice, as if a wall
+had folded in upon itself.  
+~
+~
+0 134217737 0 0
+D0
+~
+~
+0 0 5665
+D2
+~
+~
+0 0 5667
+T 40
+S
+#5667
+`8A Hidden Cavern``~
+The crevice opened into a cavern of sorts, approximately 70 feet wide by
+200 feet long.  The ceiling extends irregularly a good 30 feet above you. 
+This area is truly ancient.  Symbols of gods never before seen, and villians
+long forgotten by time, this is truly an amazing place you have stumbled
+into.  Across the cavern what appears to be a dark, rapidly flowing river
+extends under a rocky overhang into what may well be the abyss.  You might
+be able to dislodge a few of the rocks and enter the water if you are brave.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 5666
+D2
+~
+rocky overhang~
+AB 0 5668
+T 60
+S
+#5668
+`^Waist Deep in Darkened Waters``~
+Stepping into the swiftly moving water you are amazed at how warm it is,
+yet you have to duck your head to walk properly under the rock.  To the
+south you can feel the current begin to grow stronger, but its even lower
+ceiling makes it treacherous and not very wise.  It is possible however.  As
+you are debating your course, something small and icy cold brushes over your
+boot.  
+~
+~
+0 9 0 6
+D0
+~
+rocky overhang~
+AB 0 5667
+D2
+~
+~
+0 0 5669
+P RANDOM 5670 10~
+S
+#5669
+`^Continuing in the Darkened Waters``~
+The water begins to flow around you in torrents, and you are unsure if
+you can continue much further along the waters.  The small things that
+brushed over your boot are no longer evident, but it does seem that there is
+a nook of sorts in the cavern ceiling a bit further south.  The water is
+darker, and is growing deeper as you continue however.  
+~
+~
+0 9 0 6
+D0
+~
+~
+0 0 5668
+D2
+~
+~
+0 0 5670
+P RANDOM 5670 10~
+S
+#5670
+`^Chest Deep in a Gloomy River``~
+The current is nearly overpowering here, and it takes all your strength
+to keep from being sucked further to the south.  The depth of the water
+south appears to be quite deep, and you are unsure if you could keep your
+head above water, as the rocky ceiling is only inches above the water. 
+Looking above you, a narrow ledge is evident, and what appears to be a
+portion of a sickly white Rune is evident from where you are upon the back
+wall of the ledge.  South is only darkness and rushing water.  
+~
+~
+0 9 0 6
+D0
+~
+~
+0 0 5669
+D1
+~
+~
+0 0 5674
+D4
+~
+~
+0 0 5671
+P RANDOM 5670 10~
+S
+#5671
+`8A Narrow Ledge``~
+A narrow rocky ledge is only about two or three feet long, and below you
+is the inky black depths of the water you ascended from.  A passage seems to
+extend east of you here, and a door of pure obsidian which truly basks in
+dark magic is evident at the end of the passage east.  Prudence dictates you
+turn around now, but the beck and call of the insidiant doorway east of you
+is drawing at your curiousity like nothing you have encountered before.  
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 5672
+D5
+~
+~
+0 0 5670
+S
+#5672
+`8Before the Obsidian Door``~
+The door before you breathes with a dark life of it's own, and seems to
+call at your soul, beckoning you inside like a psychic pull.  The ledge is a
+mere afterthough, and back west of you is the gaping hole in the rock that
+descends to the water below.  Inside the door could be your greatest desire,
+or your downfall.  Only your courage or stupidity shall allow you to find
+out.  The throbbing of the black magic around the door begins to pulse, then
+fades with no sound at all, as the edge cracks open to allow you entrance.  
+~
+~
+0 134217737 0 0
+D1
+~
+obsidian door~
+AB 0 5673
+D3
+~
+~
+0 0 5671
+S
+#5673
+`8Within a Sacrificial Chamber``~
+The skulls of each of the beings of Mirlan adorn the walls of this
+circular room of polished obsidian.  The very taint of this room eats at
+your soul, making you ill as you look upon a massive altar to a long dead
+god.  Blood centuries old covers the floor in a sticky film and a pair of
+evil looking things composed of what appears to be crystallized blood move
+to greet you, and not cheerfully.  As you gasp in revulsion, a priest with a
+hideous, beast like face turns to look upon you, brandishing a wicked
+looking instrument of death.  
+~
+~
+0 134479881 0 0
+D3
+~
+obsidian door~
+AB 0 5672
+S
+#5674
+`^Beneath the Black Waters of Oblivion``~
+The water has overwhelmed you and has sucked you under it in the powerful
+current.  The ceiling of rock above you is no longer visible, and the depth
+and grit within the water makes it difficult to see.  A hole below you in
+the cavern floor is the source of the wicked current sucking you beneath the
+water, and you realize you have no choice but to swim into it.  The current
+against you makes returning west impossible.  
+~
+~
+0 134217737 0 6
+D5
+~
+~
+0 0 5675
+P RANDOM 5670 10~
+S
+#5675
+`^A Watery Chute``~
+The water has pulled you into a gaping hole in the cavern floor and into
+a watery chute that travels approximately two hundred feet downwards.  You
+can barely see anything other then the rushing water as your lungs scream
+for air.  You pray to your gods as you are sucked into the unknown.  
+~
+~
+0 134217729 0 6
+D5
+~
+~
+0 0 5676
+S
+#5676
+`^A Massive Underground Lake``~
+A massive waterfall extends into the ceiling of the cavern which
+contained the chute, and water is gushing out at an amazing rate.  The lake
+itself extends a good half a mile to the south and at least a quarter mile
+east.  A good many fins of some sort of aquatic life split the mirrorlike
+surface of the lake, and along the eastern shores a radiant lichen is giving
+the cavern a soft red glow.  A dark shape or shadow of sorts mars the
+southwest corner of the lake.  
+~
+~
+0 8 0 6
+D1
+~
+~
+0 0 5677
+D2
+~
+~
+0 0 5679
+S
+#5677
+`^An Underground Lake``~
+The lake extends here, with more of the fins present above the surface of
+the lake.  The creatures do not seem to like you, and are advancing at a
+rapid rate.  The shoreline east of you seems to be the only acceptable place
+to escape this lake, as the southern edge of the lake extends to a sheer
+cavern wall.  
+~
+~
+0 8 0 6
+D1
+~
+~
+0 0 5684
+D2
+~
+~
+0 0 5678
+D3
+~
+~
+0 0 5676
+S
+#5678
+`^A Massive Underground Lake``~
+The lake extends here, with more of the fins present above the surface
+of the lake.  The creatures do not seem to like you, and are advancing at a
+rapid rate.  The shoreline east of you seems to be the only acceptable place
+to escape this lake, as the southern edge of the lake extends to a sheer
+cavern wall.  
+~
+~
+0 8 0 6
+D0
+~
+~
+0 0 5677
+D1
+~
+~
+0 0 5685
+D2
+~
+~
+0 0 5681
+D3
+~
+~
+0 0 5679
+S
+#5679
+`^A Massive Underground Lake``~
+The lake extends here, with more of the fins present above the surface
+of the lake.  The creatures do not seem to like you, and are advancing at a
+rapid rate.  The shoreline east of you seems to be the only acceptable place
+to escape this lake, as the southern edge of the lake extends to a sheer
+cavern wall.  
+~
+~
+0 8 0 6
+D0
+~
+~
+0 0 5676
+D1
+~
+~
+0 0 5678
+D2
+~
+~
+0 0 5680
+S
+#5680
+`^A Massive Underground Lake``~
+The lake extends here, with more of the fins present above the surface
+of the lake.  The creatures do not seem to like you, and are advancing at a
+rapid rate.  The shoreline east of you seems to be the only acceptable place
+to escape this lake, as the southern edge of the lake extends to a sheer
+cavern wall.  
+~
+~
+0 8 0 6
+D0
+~
+~
+0 0 5679
+D1
+~
+~
+0 0 5681
+D2
+~
+~
+0 0 5683
+S
+#5681
+`^A Massive Underground Lake``~
+The lake extends here, with more of the fins present above the surface
+of the lake.  The creatures do not seem to like you, and are advancing at a
+rapid rate.  The shoreline east of you seems to be the only acceptable place
+to escape this lake, as the southern edge of the lake extends to a sheer
+cavern wall.  
+~
+~
+0 8 0 6
+D0
+~
+~
+0 0 5678
+D1
+~
+~
+0 0 5687
+D2
+~
+~
+0 0 5682
+D3
+~
+~
+0 0 5680
+S
+#5682
+`^A Massive Underground Lake``~
+The lake extends here, with more of the fins present above the surface
+of the lake.  The creatures do not seem to like you, and are advancing at a
+rapid rate.  The shoreline east of you seems to be the only acceptable place
+to escape this lake, as the southern edge of the lake extends to a sheer
+cavern wall.  West of you a dark shadow looms large in your sights, and the
+water seems to still and lack fins of the aquatic life of any sort.  
+~
+~
+0 8 0 6
+D0
+~
+~
+0 0 5681
+D3
+~
+~
+0 0 5683
+S
+#5683
+`^Dead Water``~
+The water is deathly still here, and looking around the lake you notice
+there are no fins along the surface of this section.  The very water itself
+is darker then night, and you cannot see the bottom of the lake here as you
+could in the rest of the area.  You get the feeling of something walking
+over your grave just as you are pulled under by an unknown force.  
+~
+~
+0 8 0 6
+D5
+~
+~
+0 0 5686
+S
+#5684
+`^A Massive Underground Lake``~
+The lake extends here, with more of the fins present above the surface
+of the lake.  The creatures do not seem to like you, and are advancing at a
+rapid rate.  The shoreline east of you seems to be the only acceptable place
+to escape this lake, as the southern edge of the lake extends to a sheer
+cavern wall.  
+~
+~
+0 8 0 6
+D2
+~
+~
+0 0 5685
+D3
+~
+~
+0 0 5677
+S
+#5685
+`^A Massive Underground Lake``~
+The lake extends here, with more of the fins present above the surface
+of the lake.  The creatures do not seem to like you, and are advancing at a
+rapid rate.  The shoreline east of you seems to be the only acceptable place
+to escape this lake, as the southern edge of the lake extends to a sheer
+cavern wall.  
+~
+~
+0 8 0 6
+D0
+~
+~
+0 0 5684
+D2
+~
+~
+0 0 5687
+D3
+~
+~
+0 0 5678
+S
+#5686
+`^Depths of an Underground Lake``~
+The water here is jet black and icy cold, like no other place on the
+lake.  As you wonder what sucked you down into the inky darkness, you look
+down at quite possibly the most amazing sight you have ever seen.  
+~
+~
+0 8200 0 6
+D5
+~
+~
+0 0 5688
+S
+#5687
+`^A Massive Underground Lake``~
+The lake extends here, with more of the fins present above the surface
+of the lake.  The creatures do not seem to like you, and are advancing at a
+rapid rate.  The shoreline east of you seems to be the only acceptable place
+to escape this lake, as the southern edge of the lake extends to a sheer
+cavern wall.  
+~
+~
+0 8 0 6
+D0
+~
+~
+0 0 5685
+D3
+~
+~
+0 0 5681
+S
+#5688
+`^An Underwater Graveyard``~
+The water here at the bottom of the lake is choppy and mired in grit. 
+The bottom of the lake is a swirling morass of crushed bones and the
+carcasses of dead were-sharks.  Truly the sight before you is a creature out
+of legend.  A massive behemoth at least the size of a castle blots out the
+rest of the lake like a swollen worm of sorts.  You wish you could escape
+somehow.  What appears to be a grated tunnel of sorts is barely visible
+below you, but getting passed this creature is necessary just to reach it.  
+~
+~
+0 8200 0 6
+D4
+~
+~
+0 0 5686
+D5
+~
+underwater tunnel~
+ABCG 5688 5689
+S
+#5689
+`^An Underwater Tunnel``~
+The tunnel in the southern wall of the cavern was well below the surface
+and not noticeable from the lake above.  You can see it extends at least
+five hundred meters to the west of you.  Above you can still see the cloudy
+and swirling waters of the depths of the lake, but you realize ascent back
+the way you came is impossible.  You can only hope your air does not run out
+before you reach the surface.  
+~
+~
+0 8 0 6
+D3
+~
+~
+0 0 5690
+S
+#5690
+`^An Underwater Tunnel``~
+The tunnel is narrow and filled with icy cold water.  You struggle for
+breath as you attempt to reach some pocket of air.  West it appears a mote
+of light is visible of some sort.  You can only pray to your gods that you
+have the strength to make it that far.  
+~
+~
+0 8 0 6
+D3
+~
+~
+0 0 5691
+S
+#5691
+`^An Underwater Tunnel``~
+The tunnel is narrow and filled with icy cold water.  You struggle for
+breath as you attempt to reach some pocket of air.  West it appears a mote
+of light is visible of some sort.  You can only pray to your gods that you
+have the strength to make it that far.  
+~
+~
+0 8 0 6
+D1
+~
+~
+0 0 5690
+D3
+~
+~
+0 0 5692
+S
+#5692
+`^An Underwater Tunnel``~
+The tunnel is narrow and filled with icy cold water.  You struggle for
+breath as you attempt to reach some pocket of air.  West it appears a mote
+of light is visible of some sort.  You can only pray to your gods that you
+have the strength to make it that far.  
+~
+~
+0 8 0 6
+D1
+~
+~
+0 0 5691
+D3
+~
+~
+0 0 5693
+S
+#5693
+`^An Underwater Tunnel``~
+The tunnel begins to narrow here as the light west of you begins to grow
+and become more visible.  It is obvious there is a way out, you just have to
+make it there.  The jet black rock surrounding you is like a prison of
+sorts, and claustrophobia begins to set in.  
+~
+~
+0 8 0 6
+D1
+~
+~
+0 0 5692
+D3
+~
+~
+0 0 5694
+S
+#5694
+`^An Underwater Tunnel``~
+The light is nearly upon you.  Freedom!  Air is visible as the tunnel
+swings upwards as it continues west.  Just a little longer and you will be
+free of this hellish underwater prison!  
+~
+~
+0 8 0 6
+D1
+~
+~
+0 0 5693
+D3
+~
+~
+0 0 5695
+S
+#5695
+`^Before the Elemental Plane of Water``~
+As you approach the light the water around you shrivels to nothing and
+you find yourself on a patch of dry ground approximately five hundred feet
+wide by three hundred feet long.  Looming large directly north of you is a
+shimmering portal of aqua colored liquid that extends into the unknown.  Off
+to the west a glowing gate of white colored magic gleams like a wizardly
+door into even more unknown.  Where you go from here is into mystery and
+beyond.  
+~
+~
+0 8 0 6
+D3
+~
+~
+0 0 5696
+S
+#5696
+`8A Magical Walkway``~
+You are within the magical gate which extends along a golden path
+directly upwards.  Time, space, and reality shear around you as magical
+might unconjured since the beginnings of time hurtles you forward into a
+realm you cannot be sure of.  
+~
+~
+0 8 0 0
+D4
+~
+~
+0 0 5699
+S
+#5697
+`8A Hidden Tomb``~
+This small tomb is home to a being of darkness and hatred, a minor death
+knight.  The chamber itself is adorned with hundreds of symbols and glyphs
+to the Decay Manifested, Virigoth, Lord of Unlife, and is tainted with a
+sphere of blackest magic throughout the room.  Your entrance has freed this
+evil, and now it turns upon you, ready to attack.  
+~
+~
+0 262152 0 0
+D2
+~
+hidden panel~
+ABM 0 5660
+S
+#5698
+`8A Hidden Tomb``~
+This tomb you opened is home to a gaunt being of darkness, a Spectral
+Lurker, a beast of legend long thought to be only a myth.  The walls once
+more are adorned with runes of power and black magic long thought lost to
+Mirlan, and a glowing, magnificent grimoire is visible upon a podium crafted
+of the bones of elves.  The spectral lurker, Velphane by name, has been
+awakened by you.  
+~
+~
+0 262153 0 0
+D2
+~
+catacomb~
+ABCGM 0 5659
+S
+#5699
+`8A Magical Walkway``~
+You are within the magical gate which extends along a golden path
+directly upwards.  Time, space, and reality shear around you as magical
+might unconjured since the beginnings of time hurtles you forward into a
+realm you cannot be sure of.  
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 11500
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 5606 spec_breath_frost
+M 5609 spec_cast_undead
+M 5610 spec_cast_mage
+M 5611 spec_cast_undead
+M 5613 spec_thief
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 5601 2 5605 2
+G 0 5605 0
+M 0 5602 25 5608 1
+M 0 5617 20 5609 4
+M 0 5602 25 5614 1
+M 0 5602 25 5615 4
+M 0 5617 20 5616 1
+M 0 5617 20 5617 2
+M 0 5617 20 5619 2
+M 0 5602 25 5620 1
+M 0 5602 25 5622 1
+M 0 5617 20 5622 2
+M 0 5602 25 5626 1
+M 0 5602 25 5627 1
+M 0 5602 25 5628 1
+M 0 5602 25 5630 1
+M 0 5602 25 5632 1
+M 0 5602 25 5639 1
+M 0 5617 20 5640 3
+M 0 5609 1 5641 1
+E 0 5609 0 2
+M 0 5608 10 5642 3
+M 0 5607 1 5642 1
+E 0 5642 0 7
+E 0 5644 0 14
+E 0 5643 0 6
+M 0 5608 10 5644 2
+M 0 5608 10 5645 5
+M 0 5603 10 5652 2
+M 0 5604 5 5653 2
+M 0 5604 5 5654 3
+M 0 5606 1 5654 1
+E 0 5606 0 13
+G 0 5659 0
+M 0 5603 10 5655 2
+M 0 5603 10 5656 2
+M 0 5603 10 5657 4
+M 0 5612 10 5658 1
+M 0 5612 10 5659 1
+M 0 5612 10 5660 1
+M 0 5612 10 5661 1
+M 0 5617 20 5662 3
+M 0 5617 20 5663 3
+M 0 5605 1 5664 1
+E 0 5664 0 17
+E 0 5666 0 3
+E 0 5665 0 8
+M 0 5612 10 5665 3
+M 0 5612 10 5667 3
+M 0 5614 2 5673 2
+M 0 5614 2 5673 2
+M 0 5613 1 5673 1
+E 0 5613 0 17
+E 0 5614 0 9
+M 0 5615 16 5676 2
+M 0 5615 16 5677 2
+M 0 5615 16 5678 2
+M 0 5615 16 5679 2
+M 0 5615 16 5680 2
+M 0 5615 16 5681 2
+M 0 5615 16 5684 2
+M 0 5615 16 5685 2
+M 0 5615 16 5687 2
+M 0 5616 1 5688 1
+E 0 5618 0 18
+E 0 5616 0 5
+E 0 5617 0 0
+G 0 5688 0
+M 0 5611 1 5697 1
+E 0 5611 0 17
+E 0 5612 0 9
+M 0 5610 1 5698 1
+E 0 5698 0 8
+E 0 5699 0 6
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#5600
+if room $i != 5601
+|| isimmort $n
+  break
+endif
+if isbloody $n
+  say Ya too bloody to enter $N.  I kin net let you pass!
+  say Get ye lost till later time.
+  pmote blocks $n from entering the guild.
+  mob stop $n
+  break
+endif
+if class $n 'crusader'
+  'Lats me see here.. Ya, you kin pass.
+  break
+else
+  say Ya lack the seal of the Order $N.
+  say I kin net let ye pass!
+  pmote blocks $n from entering the guild.
+endif
+~
+#5609
+if hpcnt $i < 50
+and rand 50
+    mob echo `8In horror you see the bones you have hacked off meld themselfs back to $I!``
+    mob gain hp mob $i 600 800    
+endif
+if isdelay $i
+  break
+endif
+mob delay 1
+if rand 50
+  mob echo `8$I rears and breathes a cloud of poisonous fumes!``
+  mob cast 'gas breath'
+else
+  mob echo `8$I rears and breathes a cloud of black fumes!``
+  mob pfor fight $i call 5610 # null null
+endif
+~
+#5610
+mob cast 'plague' $n
+~
+#5672
+mob echo As you hack apart a Blood Golem, it suddenly splits into two parts!
+mob echo `!Two new Blood Golems arise from the body of one!``
+mob mload 5618
+mob mload 5618
+~
+#5673
+if mobexists elthizil
+     break
+else
+     mob echo A blood golem collapses into a sickening pile of goo.
+     mob attrib $i timer = 0
+endif
+~
+#5687
+echo You are suddenly assaulted by an unholy scream!
+force $n yell Yaaaaaaaaaaiiiiiiiiiiiiieeeeeeeeee!!!
+murder $n
+~
+#5688
+if rand 50
+     mob echo You are suddenly consumed by immense fear!
+     mob cast 'terror'
+else
+     mob echo You see something blur around $I.
+     mob cast 'blades'
+endif
+~
+#0
+
+M 5600 0 serin_warrior.prg NL
+M 5600 0 serin_guild.prg NL
+M 5601 1 pckill.prg NL
+M 5602 1 pckill.prg NL
+M 5603 1 pckill.prg NL
+M 5604 1 pckill.prg NL
+M 5608 1 pckill.prg NL
+M 5610 1 keep_xanthak.prg NL
+M 5612 1 pckill.prg NL
+M 5614 1 pckill.prg NL
+M 5615 1 pckill.prg NL
+M 5617 1 pckill.prg NL
+M 5618 1 pckill.prg NL
+S
+
+
+
+
+#OBJPROGS
+#5614
+if cabal $n 'warmaster'
+  obj echoat $n This is not the way a Warmaster should act!
+  break
+endif
+if isdelay $i
+  obj echoat $n $I have not absorbed enough spell fallout.
+  break
+endif
+if wears $n 5614
+  obj echoat $n $I release the stored spell power.
+  obj echoaround $n $I flare with magical power.
+  obj gain mana pc $n 80 120
+  obj delay 24
+endif
+~
+#5666
+if isdelay $i
+  obj echoat $n You sense $I is drained of its powers.
+  break
+endif
+if followers $n > 0
+  obj echoat $n You spot a huge winter wolf come nearby then seeing your followers it departs.
+  break
+else
+  obj echoaround $n With a low snarl a huge winter wolf joins $N!
+  obj echoat $n With a low snarl a huge winter wolf joins you!
+  obj mload 5666
+  obj obey 1. $n pet
+  obj force 1. pmote now follows $n.
+  obj delay 24
+endif
+~
+#0
+
+#ROOMPROGS
+#5600
+room echo Wind howls outside with increasing fervor.
+~
+#5670
+if rand 50
+     room echo `^The icy cold water of the river chills you to the bone!``
+else
+     room echo `^You shiver and shudder under the freezing cold!``
+endif
+~
+#0
+
+#$

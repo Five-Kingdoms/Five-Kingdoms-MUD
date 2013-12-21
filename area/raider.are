@@ -1,0 +1,1791 @@
+#AREADATA
+Name Raider's Gap~
+Pref ~
+Builders Alathar~
+VNUMs 4700 4799
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 0
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#4702
+bandit scout~
+a bandit scout~
+A bandit scout charges towards you, mounted on his horse!
+~
+These are the vanguard, as well as the eyes and ears of
+what is commonly called the 'raider army.'  The mounted
+cavalry, so to speak, of their organization, their job is not
+only to provide information to the main raider camp, but also
+to get rid of any lone travellers that might stumble upon their
+base.  That seems to be you.
+~
+human~
+AFGe A 0 0 -500 201
+24 8 2d10+500 0d0+100 6d6+5 slash
+-7 -7 -7 -7
+K 0 0 0
+stand stand male none~
+15
+AHMV ABCDEFGHIJK medium 0
+#4703
+bandit leader~
+the bandit leader~
+The leader of the bandits stands here, a wicked gleam in his eyes.
+~
+~
+human~
+AGS A F 0 -600 0
+27 15 9d55+400 0d0+0 4d5+13 slice
+-7 -7 -7 3
+BFNQ 0 0 0
+stand stand male none~
+16
+AHMV ABCDEFGHIJK medium 0
+#4704
+small magic rockling rock~
+A small rockling~
+One of the rocks along the pathway here looks rather strange..
+~
+This small boulder seems to blend in with its surroundings, but when you look
+closer, you can see tiny beadlike eyes and hundreds of little feet along its
+bottom.  A strange little creature this is..
+~
+golem~
+AH A 0 0 0 0
+20 10 5d30+100 0d0+0 3d5+6 none
+-3 -3 -3 -3
+0 LPQ 0 R
+stand stand none none~
+10
+HJc ABCHIJK small 0
+#4705
+angelic creature light angel avatar~
+An angelic figure~
+Wreathed in light, an angelic avatar is here.
+~
+A man, surrounded by blinding light, hovers in the air here.  Great
+white wings stretch out from his back, keeping him afloat with steady
+thrusts.  His face is wreathed in an ambience of such intensity that
+features can not be discerned.  Silvery chainmail covers his form,
+and grasped within his hands is a massive, glowing glaive.
+~
+unique~
+ABGTe A DFHNT 0 800 0
+40 30 10d100+650 0d0+0 5d8+20 none
+-13 -13 -13 -8
+EFKLQSX ABNS LQ M
+stand stand male none~
+23
+0 0 medium 0
+P GRALL 4705 100~
+#4721
+cow~
+a cow~
+A cow is here, chewing her cud.
+~
+The cow is complacently standing here, chewing the cud left
+for it by the Raider's.  It looks at you languidly, and moo's a
+few times.
+~
+horse~
+AGI A 0 0 0 1105
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN 0 0 0
+rest rest none none~
+4
+AGV ABCDEFHJK medium 0
+#4722
+gap bandit~
+A Gap bandit~
+A gap bandit is sleeping here.
+~
+The raider is a tall, swarthy man who is equipped with several pieces
+of piecemail equipment, in fairly poor condition.  Like the scouts, he is
+wielding but a rather rusty short sword which is normally tucked in his
+belt, but which he now draws forth to do battle with you.
+~
+human~
+AGe A 0 0 -500 201
+24 8 2d10+500 0d0+100 6d6+5 slash
+-7 -7 -7 -7
+K 0 0 0
+sleep sleep male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#4723
+gap bandit~
+A Gap bandit~
+A Gap bandit is standing here, mean gleam in his eyes.
+~
+The raider is a tall, swarthy man who is equipped with several pieces
+of piecemail equipment, in fairly poor condition.  Like the scouts, he is
+wielding but a rather rusty short sword which is normally tucked in his
+belt, but which he now draws forth to do battle with you.
+~
+human~
+AGd A 0 0 -500 201
+24 8 2d10+500 0d0+100 6d6+5 slash
+-7 -7 -7 -7
+K 0 0 0
+stand stand male none~
+15
+AHMV ABCDEFGHIJK medium 0
+#4724
+bandit torturer~
+a bandit torturer~
+A bandit torturer is here, cracking his whip at the prisoners.
+~
+This cruel person is standing here, brutally beating the cowering 
+prisoners with his whip.  Each time it connects with bare flesh, he grins,
+delighting in the screams of his 'wards.'
+~
+human~
+AFG A 0 0 -500 201
+24 8 2d10+500 0d0+100 6d6+5 punch
+-7 -7 -7 -7
+K 0 0 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+#4725
+prisoner man~
+A prisoner~
+A filthy manacled prisoner, trying to avoid the blows.
+~
+A fairly middle-aged man trembles here, cowering slightly as
+he tries to avoid the cracking whip wielded by the torturer with
+an expertise born of long practice and experience.  His clothing
+ragged and with blood streaming down his body, he seems you
+come in and cries at you for help.
+~
+human~
+A A 0 0 500 0
+10 5 5d5+100 0d0+100 2d2+10 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+12
+AHMV ABCDEFGHIJK medium 0
+#4726
+gap bandit~
+A Gap bandit~
+A Gap bandit, angry at your intrusion, screams and attacks!
+~
+The raider is a tall, swarthy man who is equipped with several pieces
+of piecemail equipment, in fairly poor condition.  Like the scouts, he is
+wielding but a rather rusty short sword which is normally tucked in his
+belt, but which he now draws forth to do battle with you.
+~
+human~
+AFG A 0 0 -500 201
+24 8 2d10+500 0d0+100 6d6+5 slash
+-7 -7 -7 -7
+K 0 0 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+#4731
+rat rats pack~
+a rat pack~
+A rat pack is here, gnawing viciously at the corpse.
+~
+A pack of rats are gnawing viciously at the corpse of some poor
+dead soul.  They seem to stare at you with hard, white eyes as they
+slowly rip the thing to shreds.
+~
+human~
+ACGe A 0 0 0 0
+10 20 5d5+100 0d0+100 4d4+5 pierce
+0 0 0 0
+0 0 0 0
+stand stand none none~
+9
+AHMV ABCDEFGHIJK small 0
+#4742
+ghost apparition spirit~
+A ghost~
+An apparition of some sort is here, floating listlessly.
+~
+Wanderingly aimlessly, a hazy apparition of what appears to be
+a merchant is here.  Staring straight ahead, he floats past you
+in a way as if he doesn't see you at all.
+~
+undead~
+AGHOe A HJT 0 0 0
+5 5 5d5+50 0d0+100 1d1+10 pain
+-1 -1 -1 -1
+K LQ I N
+stand stand male none~
+10
+0 ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#4700
+huge black sword malevolance death thanatos~
+the Thanatos, Blade of Eternal Night~
+A simply huge black sword is here, radiating malevolance and death.~
+souls~
+weapon BEGHIJLMRTY ANP
+sword 50 2 kiss ABCDEGHI
+60 20 0 P
+L
+0
+F
+A 18 50 0
+F
+A 19 50 0
+#4701
+Entropy pool chaos~
+the Entropy, the Bane of Order~
+A strange, sickening pool of raw chaos.~
+souls~
+armor ABCEHIJLMNORSTY ADP
+1000 1000 1000 1000 0
+60 50 0 P
+L
+0
+#4702
+short sword~
+a short sword~
+A dull short sword is lying here.~
+steel~
+weapon 0 AN
+sword 4 5 slash 0
+24 50 0 P
+L
+0
+E
+sword~
+The sword is rather rusty and unpolished, in seemingly
+poor condition.  Obviously the previous owners of it hadn't
+been treating it well.
+~
+#4703
+pile piles coin gold coins~
+pile of coins~
+A pile of purloined coins.~
+gold~
+money N 0
+10 0 0 0 0
+0 0 10 P
+L
+0
+#4704
+silver chainmail silvery armor~
+some silvery chainmail~
+A suit of silvery chainmail is here, glowing softly.~
+silver~
+armor ABGIKY ADX
+20 20 20 10 0
+45 15 5 P
+#4705
+massive glaive glowing blade~
+a huge glowing glaive~
+An enormous glowing polearm is here, bathed in its own radiance.~
+silver~
+weapon AHKY ANX
+polearm 8 6 faith DF
+42 15 20 P
+#4713
+stream~
+small stream~
+A small stream is here, bubbling quietly.~
+water~
+fountain O P
+0 0 'water' 0 0
+0 0 0 P
+L
+0
+#4723
+camp fire~
+a large campfire, blazing merrily away.~
+A large campfire, blazing merrily away.~
+wood~
+furniture AO P
+0 0 0 0 0
+0 0 0 P
+L
+0
+#4728
+crates box~
+a number of empty wooden crates and boxes lie here.~
+A number of empty wooden crates and boxes lie here.~
+wood~
+furniture 0 P
+0 0 0 0 0
+0 0 0 P
+L
+0
+#4731
+skeleton corpse~
+a skeleton~
+A rotting corpse is here, flesh slowly being stripped away.~
+flesh~
+npc_corpse 0 P
+0 0 0 0 0
+0 0 0 P
+L
+0
+#4739
+Shrine Felana~
+a shrine~
+A shrine dedicated to the lady of the wind, Felana, has been built here for her followers to worship at.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#4770
+bent key~
+a bent iron key~
+An old, bent iron key is here, lying in the dust.~
+iron~
+key 0 A
+0 0 0 0 0
+5 1 1 P
+L
+0
+#0
+
+
+
+#ROOMS
+#4700
+`3Entrance to the Gap``~
+You stand at the entrance to a large chasm.  The land around you
+is rather bleak, with little sign of life.  To both sides, the Lesser Raider
+Mountains rise, tall and majestic.  The Gap itself stretches far off into
+the distance, snaking a way through the mountains.  The path is marked
+with many footsteps in the dust, despite the lack of life, all of them north.
+~
+~
+0 0 16384 5
+D0
+~
+boulder~
+A 0 4701
+D2
+~
+~
+0 0 15042
+T 50
+S
+#4701
+`3Entering the Gap. ``~
+The sun beats down on you, with no cover or shade in sight.  The land
+around you is dry, with little or no vegetation to be seen.  A somewhat
+bedraggled bush with drooping leaves is the only living thing in sight.
+To both sides, steep mountain walls loom.  The only ways for you to go
+is southwards towards the Lowlands, or north towards the heart of
+Raider's Gap.
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 4702
+D2
+~
+boulder~
+A 0 4700
+T 50
+S
+#4702
+`3A Small Outpost ``~
+A small group of Raiders have been set here, apparently to act as scouts
+for anything entering the Raider's Gap from the Lowlands to the south.
+Seeing you headed towards them, two of them immediately charge
+towards you, while a third gallops northwards, probably hoping to 
+report your presence to main force.
+ 
+To the east, there seems to be a small door, almost hidden by a giant
+boulder.
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 4704
+D1
+~
+boulder~
+A 0 4703
+D2
+~
+~
+0 0 4701
+T 50
+S
+#4703
+`8A Small Cache ``~
+Inside the cave is a small cache of weapons and gold, mounded off to the
+side.  This seems to be the private hoard of the three raiders you saw
+earlier.  It appears as if they had been skimming some of the earnings from
+recently captured caravans.
+~
+~
+0 8 0 0
+D3
+~
+boulder~
+A 0 4702
+T 45
+S
+#4704
+`3Within Raider's Gap ``~
+The trail here is stark and bare.  ¿ A few pebbles and stones lie by the
+roadside, but little else.  You can distantly hear the sound of the Esterian
+Raiders laughing loudly far, far off in the distance, accompanied by
+screams.  
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 4705
+D2
+~
+~
+0 0 4702
+T 50
+S
+#4705
+`3Within Raider's Gap ``~
+The land here is dry and cracked.  A breeze blows gently across this
+place, whipping up small clouds of dust everywhere.  There is no
+living thing in sight, be it flora or fauna.  The path continues to the
+south or northwards.
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 4706
+D2
+~
+~
+0 0 4704
+T 50
+S
+#4706
+`3A Branching``~
+The trail splits into two directions here, one to the east, and one to the
+west.  Many footprints seem to be headed westward, from where you
+can hear screams.  The path eastward seems, in contrast, more peaceful
+for some reason, and you get the feeling that no one would bother you
+there.
+~
+~
+0 0 16384 5
+D1
+~
+~
+0 0 4707
+D2
+~
+~
+0 0 4705
+D3
+~
+~
+0 0 4708
+T 50
+S
+#4707
+`3To A Peak ``~
+The trail of footsteps which you have seen on the trail for so long does
+not seem to have passed by in this direction.  It appears that, for some
+reason, the raiders do not often visit this area.  Glancing upwards at the
+mountain, you see why.  Even though strategically, this may be a good
+place to lay an ambush, practically, it's too hard to move a large group
+of people on horseback here.  The path is too narrow and restricting, not
+to mention the fact that it is extremely sheer in some areas.
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 4709
+D3
+~
+~
+0 0 4706
+T 50
+S
+#4708
+`3Remains of a Caravan ``~
+As you continue to travel westward through the Gap, you come face to
+face with a horrifying sight.  In front of you, lies the remains of a
+completely destroyed caravan.  The wagons are still smoldering slightly,
+having been fired after all the valuables and horses were removed.  A few
+dead bodies lie on the ground, seemingly hacked in several different places
+by Raider blades.  The rest of them have been, no doubt, captured and taken
+northwards to serve both as hostages as well as slaves.
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 4718
+D1
+~
+~
+0 0 4706
+T 50
+S
+#4709
+`3The Base of an Upwards Trail ``~
+The trail here takes a sharp upward swing, going straight up for a
+considerable distance.  Far upwards, a hint of green can be seen, in contrast
+to the stark, bare Gap road to the west which you just left.  There's actually
+some plants and other shrubs in this area, it seems.  But in order to get to
+it, if that's your intention, it looks like there's a long, long climb ahead of you.
+~
+~
+0 0 16384 5
+D2
+~
+~
+0 0 4707
+D4
+~
+~
+0 0 4710
+T 50
+S
+#4710
+`3An Upwards Trail ``~
+As you begin your climb up the mountain, you can't help but notice the
+clean, crisp atmosphere around you.  The air blows gently on your face,
+and it feels nice and cool, unlike the rest of the Gap.  Some few plants can
+be seen around you for a change, adding a welcome bit of green color to the
+surrounding area.  Far away, upwards and to the north, you can see the
+summit, to where you are considering hiking to.
+~
+~
+0 0 65536 5
+D4
+~
+~
+0 0 4711
+D5
+~
+~
+0 0 4709
+T 50
+S
+#4711
+`3On the Side of a Mountain ``~
+This trail is so steep that calling it a trail at all would be a complete
+joke.  It is more like a sheer wall, standing tall and ominously before you,
+almost daring you to try and climb it.  At first glance, it seems to be almost
+impassable.  Upon closer examination, however, a gridline of cracks and
+indentations can be seen, which would allow a persistent, dedicated climber
+to slowly crawl his way up the cliff.
+ 
+You seem to see a slight crack in the face of the wall.  Perhaps there's
+something behind it.
+~
+~
+0 0 65536 5
+D0
+~
+opening~
+A 0 4717
+D4
+~
+~
+0 0 4712
+D5
+~
+~
+0 0 4710
+T 50
+S
+#4712
+`3Nearing the Peak ``~
+As you finally manage to scramble over the edge of the sheer wall face, you
+note with growing despair that the climb still is not over.  To the north, yet
+another mountainside looms before the pinnacle is reached.  This one, however,
+seems to be somewhat less steep, you notice with a sigh of relief.  Far to the
+north, the sounds of flowing water can be heard as well.  Perhaps it would be a
+good place to rest.
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 4713
+D5
+~
+~
+0 0 4711
+T 50
+S
+#4713
+`2Small Trees ``~
+Unlike the rest of the area around you, this area seems to be surprisingly
+fertile, due no doubt to the stream of water running by it.  The crystal clear
+water gently gurgles, providing vital nourishment for a few small trees which
+have managed to survive here.  This seems a nice, peaceful place.
+~
+~
+0 0 8192 13
+D2
+~
+~
+0 0 4712
+D4
+~
+~
+0 0 4714
+T 50
+S
+#4714
+`3Nearing the Summit ``~
+Pant, pant.  This hiking trail is certainly long enough!  The road you travel
+is rather slippery, with small pebbles and dust underfoot.  Only with the
+most diligent of efforts do you manage to keep your footing, and continue
+to hike upwards.  As you continue walking upwards, you seem to see the
+end of the trail close by.
+~
+~
+0 0 65536 5
+D4
+~
+~
+0 0 4715
+D5
+~
+~
+0 0 4713
+S
+#4715
+`3Top of the Mountain ``~
+The trail is almost ended now, with the summit being clearly visible to
+the north.  This area is surprisingly lush and verdant with life, with trees
+everywhere, as well as many small animals.  This looks like a nice place
+to rest, before hiking those final few steps to the overlook northwards.
+~
+~
+0 0 65536 5
+D0
+~
+~
+0 0 4716
+D5
+~
+~
+0 0 4714
+S
+#4716
+`3The Overlook ``~
+Finally!  You've reached the top of this climb, from where you can see the
+surrounding lands.  Far north are the Esterian Highlands, a grassy, rather
+undeveloped place.  Back south, you can see the Griffon and Sword Castle
+in the Lowlands, and just barely make out Pinebluff and Emmeraux.  Off to
+the side and downwards, a large encampment can be seen hazily through
+the clouds.  The view is beautiful, but there is nowhere to go but down.
+~
+~
+0 0 16384 5
+D1
+~
+~
+0 0 12000
+D2
+~
+~
+0 0 4715
+T 60
+S
+#4717
+`8A Resting Zone ``~
+A small niche has been carved out of the rock here, no doubt by a group
+of travelers who had crossed this path as well in the past.  The room is
+very small, and would barely fit in a small group of people.  It's very
+stark and bare, and the stone isn't exactly the most comfortable of
+materials to recline upon.  Still, for one who is exhausted after the mad
+scramble up the sheer cliff, a resting zone like this is probably a Godsend.
+~
+~
+0 8 0 0
+D2
+~
+opening~
+A 0 4711
+T 40
+S
+#4718
+`3A Bloody Pathway ``~
+The steps continue to the north, this time with blood stains of the captives
+mixed in as well.  The dust no longer blows so freely here, with the red
+liquid mixing in and forming a muddy cake of dirt, of sorts.  The ground
+itself is littered with discarded items that the Raiders deemed useless.
+Farther to the north, you seem to hear the sounds of celebrating raiders,
+getting closer and closer.
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 4719
+D2
+~
+~
+0 0 4708
+S
+#4719
+`3Before a Minor Camp ``~
+You are now very close to one of the Esterian Raider's minor camps.
+Directly north of you, you can see a large group of raiders, laughing
+at their conquests, prodding and poking their new steeds and livestock.
+The present area has several large boulders, behind which you can
+hide from their eyes.  Several lookouts can be seen, scouring the area.
+There is no way to sneak by them.  It seems you'll have to fight your
+way past.
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 4720
+D2
+~
+~
+0 0 4718
+S
+#4720
+`3A Guardpost ``~
+The Raider encampment ahead of you seems to be guarded by a
+tall watchtower, from whence several guards seem to be looking
+down upon you.  They seem to be prepared for your arrival; no
+doubt the Raider who escaped earlier had come here and
+forewarned them.  Spilling out of the watchtower, they raise a
+cry and hue, alerting the entire camp of your presence.
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 4723
+D1
+~
+stockade~
+A 0 4721
+D2
+~
+~
+0 0 4719
+D3
+~
+~
+0 0 4722
+S
+#4721
+`3Livestock Pen ``~
+Moo!  Moo!  All around you, you are surrounded by livestock of
+all shapes and sizes.  Although there seems to be a predominance
+of cows (hence the rather annoying moo sounds), there are animals
+of many types here, ranging from horses to pigs.  This must be where
+the Raider's keep their livestock.
+~
+~
+0 0 8192 2
+D0
+~
+padlock~
+A 0 4724
+D3
+~
+stockade~
+A 0 4720
+S
+#4722
+`8Living Quarters ``~
+This is the third room for the Raider's to sleep in when they
+are tired or fatigued.  Several of them lie sleeping right now,
+snoring away loudly.  The area is very messy, with left over
+food and bottles of stolen wine littering the area.
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 4720
+S
+#4723
+`8Center of the Camp ``~
+You have entered the center of the Raider camp.  It is here that
+Raider's come to rest and relax, boasting of their varied feats
+of valor in the raids.  As they see you, however, all conversation
+ceases, as they look at you uneasily, wondering how you managed
+to get past the guards.  They seem unnerved enough that you just
+might be able to walk past them without any trouble.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 4727
+D1
+~
+padlock~
+A 0 4724
+D2
+~
+~
+0 0 4720
+D3
+~
+~
+0 0 4725
+S
+#4724
+`8Amongst Prisoners ``~
+So this is where all the moaning and groaning that you heard
+was coming from.  Hidden in this room is a number of prisoners
+captured from various raids, huddled together while being whipped
+by a raider.  Laughing maniacally with each crack of the whip, he
+turns, startled to see someone interrupting his fun.  Livid with rage,
+he attacks.
+~
+~
+0 0 0 0
+D0
+~
+padlock~
+A 0 4728
+D2
+~
+padlock~
+A 0 4721
+D3
+~
+padlock~
+A 0 4723
+S
+#4725
+`8Living Quarters ``~
+This is the second room for the Raider's to sleep in when they
+are tired or fatigued.  Several of them lie sleeping right now, 
+snoring away loudly.  The area is very messy, with left over
+food and bottles of stolen wine littering the area.
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 4723
+S
+#4726
+`8Living Quarters ``~
+This is the main room for the Raider's to sleep in when they
+are fatigued.  Unlike the other two rooms, a large group of
+raiders are here, laughing and talking to each other.  As you
+intrude upon their sleeping halls, they immediately cease 
+their conversation, and rush towards you en masse.
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 4727
+S
+#4727
+`3A Guardpost ``~
+The Raider encampment south of you seems to be guarded by a
+tall watchtower, from whence several guards seem to be looking
+down upon you.  They seem to be prepared for your arrival; no
+doubt a scout had come here and forewarned them.  Spilling
+out of the watchtower, they raise a cry and hue, alerting the entire
+camp of your presence.
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 4729
+D1
+~
+~
+A 0 4728
+D2
+~
+~
+0 0 4723
+D3
+~
+~
+0 0 4726
+S
+#4728
+`8Loot Warehouse ``~
+Several large crates and boxes are stacked on top of each
+other here, although unfortunately they are empty inside.  This
+appears to be the private storeroom of the Raiders, used to 
+temporarily hold goods that they garnered from their captured
+caravans, as well as from their raiding parties.  Right now, though,
+it's rather empty, with the booty having been moved to the main
+camp northwards.
+~
+~
+0 0 0 0
+D2
+~
+padlock~
+A 0 4724
+D3
+~
+~
+A 0 4727
+S
+#4729
+`3Past the Encampment ``~
+The trail through the Raider Mountains continue, with the path
+continuing northwards to the Highlands, or southwards, where
+you can see a minor Raider outpost.  It seems to be guarded
+by a watchtower.  If you want to get by, it seems you'll have to
+fight your way through.
+~
+~
+0 0 8192 5
+D0
+~
+~
+0 0 4730
+D2
+~
+~
+0 0 4727
+S
+#4730
+`3Trail Through the Gap ``~
+The trail ahead of you snakes sinuously like a serpent, weaving
+from up to down, left to right.  To the east and north there is a
+small hill, through which the path runs.  Caravan tracks mark the
+dry earth, headed eastwards, even more deeply within the Raider
+Mountains.
+~
+~
+0 0 65536 5
+D1
+~
+~
+0 0 4731
+D2
+~
+~
+0 0 4729
+S
+#4731
+`3Trail Through the Gap ``~
+The path through the Gap continues, as the unforgiving sun beats
+down upon you mercilessly.  Off to the side, you can see a few
+starved rats of some sort chewing hungrily on the corpse of some
+poor animal which has died here, from either the sun or of thirst.
+They turn and look at you, ready to fight for their food if needed.
+~
+~
+0 0 65536 5
+D1
+~
+~
+0 0 4732
+D3
+~
+~
+0 0 4730
+S
+#4732
+`3Trail Through the Gap ``~
+The mountains loom down upon you from this point, almost as if
+they are frowning down at you.  No living thing is in sight, and the
+sun is unbearable, even though the mountain air itself is rather chill.
+Although you are high up in the mountains, it feels almost as if you
+are traversing a wide desert, with no end in sight.
+~
+~
+0 0 65536 5
+D0
+~
+~
+0 0 4733
+D3
+~
+~
+0 0 4731
+S
+#4733
+`3Approaching Another Hill ``~
+You are standing at the base of a particularly high hill, which
+is covered with a strange sort of dry grass along it's entire side.
+The ground here is cracked and broken, much like the grass which
+it nourishes, and a hot wind blows across from the summit.
+~
+~
+0 0 65536 5
+D2
+~
+~
+0 0 4732
+D4
+~
+~
+0 0 4734
+S
+#4734
+`3Crest of a Hill ``~
+At the top of this hill, the scenery is much the same as from
+the bottom.  A strange sort of dry grass still covers the entire
+floor, although it seems to be somewhat even more yellow and
+sickly than that in other places.  The wind blows across the flat,
+featureless landscape, and there is nothing to hide behind.
+~
+~
+0 0 65536 5
+D0
+~
+~
+0 0 4735
+D5
+~
+~
+0 0 4733
+S
+#4735
+`3A Narrow Trail ``~
+This trail leads along the crest of the hill, dry grass crinkling
+beneath your footsteps.  The wind picks up further here, whipping
+across the hill.  The landscape within your vision is bland and
+unremarkable, and there are no landmarks to make it of any more
+significance.
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 4736
+D2
+~
+~
+0 0 4734
+S
+#4736
+`3On the Downhill Slope ``~
+The trail continues on a downward slope, dry grass crinkling beneath
+your footsteps.  The wind picks up further here, whipping across
+the hill.  The landscape within your vision is bland and unremarkable
+and there are no landmarks to make it of any more significance.
+~
+~
+0 0 65536 5
+D2
+~
+~
+0 0 4735
+D5
+~
+~
+0 0 4737
+S
+#4737
+`3A Small Intersection ``~
+~
+~
+0 0 65536 5
+D0
+~
+~
+0 0 4741
+D3
+~
+~
+0 0 4738
+D4
+~
+~
+0 0 4736
+S
+#4738
+`3Path Leading Outwards ``~
+~
+~
+0 0 65536 5
+D1
+~
+~
+0 0 4737
+D3
+~
+~
+0 0 4739
+S
+#4739
+`3A Shrine to Felana``~
+Up in these hills someone has build a marvelous shrine to the goddess
+Felana, lady of the Air, Winds and Cloud so that they may be closer to their
+patron deity and honor her with devotions and prayers.
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 4740
+D1
+~
+~
+0 0 4738
+P GRALL 4738 100~
+P SPEECH 4739 worship~
+S
+#4740
+`3Entrance to the Highlands ``~
+~
+~
+0 0 65536 5
+D0
+~
+~
+0 0 8500
+D2
+~
+~
+0 0 4739
+S
+#4741
+`3A Gloomy Path ``~
+As you leave the main path and venture this way, the sun slowly
+begins to stop beating down on you so forcefully.  Here, there is
+actually some trees and other forms of vegetation, which provide
+some shelter from the blisteringly hot sun, as well as the glacially
+chill wind.
+~
+~
+0 0 32768 5
+D1
+~
+~
+0 0 4742
+D2
+~
+~
+0 0 4737
+S
+#4742
+`2A Darkening Path ``~
+There's a great deal of shade here, as tall, leafy trees form the
+beginnings of an impassable jungle.  Despite the relative comfort
+compared to the rest of the Gap, however, for some reason, this area
+gives off an aura of sadness and misery.  Flickering lights can be seen
+out of the corner of your eye.  Indeed, this entire area resembles
+nothing so much as a swamp...a haunted one.
+~
+~
+0 0 65536 13
+D1
+~
+~
+0 0 4743
+D3
+~
+~
+0 0 4741
+S
+#4743
+`2A Small Cave ``~
+All around you, the marshy land has grown deep and impenetrable.
+The land is soft, and makes sucking sounds towards your feet.
+There is nowhere to go from here except to a small cove, where
+the ground is much firmer, and where you might rest for a time from
+the swampy lands.  As you enter the cave, however, you notice that
+there are a great deal of scratch marks on the floor...almost as if
+stone had, many times in the past, grated on stone in a sliding motion.
+~
+~
+0 8 32768 13
+D3
+~
+~
+0 0 4742
+D5
+~
+slab~
+A 0 4744
+S
+#4744
+`8A Short Tunnel ``~
+A small, dimly let path through the darkness is here.  The tunnel
+is cramped and small, and some strange form of moss glows on
+the walls.  They give off a rather strange, pungent odor, as well,
+reminiscent of some of the nastier forms of medication you have
+taken in your life.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 4745
+D4
+~
+slab~
+A 0 4743
+S
+#4745
+`3Exiting The Tunnel ``~
+The ground here is solid, and a warm breeze blows through.
+Have finally managed to leave the smelly damp tunnel, you
+take a deep breath, and notice that the air here is fresh and
+clear, unlike the rest of the chasm.  This place, unlike the rest
+of the chasm, seems to be brimming with life.
+~
+~
+0 0 32768 4
+D1
+~
+~
+0 0 4746
+D3
+~
+~
+0 0 4744
+S
+#4746
+`2Within A Deep Forest ``~
+Coming out of the chasm you have wandered into a dense forest full of
+life.  The trees are tall and thin due to the altitude and not so fertile
+ground.
+~
+~
+0 0 16384 14
+D1
+~
+~
+A 0 4747
+D3
+~
+~
+0 0 4745
+S
+#4747
+`8A Heavily Fortified Gate ``~
+You are at the front of a heavy gate.  Its massive wooden walls are made
+of thick tree trunks that have been sharpened.  At the sides of the gate are
+watch towers guarded by some very unsavory looking characters.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 4748
+D1
+~
+~
+0 0 4761
+D2
+~
+~
+0 0 4760
+D3
+~
+~
+A 0 4746
+S
+#4748
+`8Path Around The Encampment ``~
+You are on a path that runs parallel to a massive wooden gate.  The path
+appears to go all the way around this fortified encampment.  The area has
+been cleared of most trees and shrubs to prevent sneaking up on the
+encampment.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 4749
+D2
+~
+~
+0 0 4747
+S
+#4749
+`8A North-Western Lookout ``~
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 4750
+D2
+~
+~
+0 0 4748
+S
+#4750
+`8Path Around The Encampment ``~
+~
+~
+0 4 0 1
+D1
+~
+~
+0 0 4751
+D3
+~
+~
+0 0 4749
+S
+#4751
+`8Path Around The Encampment ``~
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 4752
+D3
+~
+~
+0 0 4750
+S
+#4752
+`8A North-Eastern Lookout ``~
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 4753
+D3
+~
+~
+0 0 4751
+S
+#4753
+`8Path Around The Encampment ``~
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 4752
+D2
+~
+~
+0 0 4754
+S
+#4754
+`8Path Around The Encampment ``~
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 4753
+D1
+~
+~
+0 0 4772
+D2
+~
+~
+0 0 4755
+S
+#4755
+`8Path Around The Encampment ``~
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 4754
+D2
+~
+~
+0 0 4756
+S
+#4756
+`8A South-Eastern Lookout ``~
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 4755
+D3
+~
+~
+0 0 4757
+S
+#4757
+`8Path Around The Encampment ``~
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 4756
+D3
+~
+~
+0 0 4758
+S
+#4758
+`8Path Around The Encampment ``~
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 4757
+D3
+~
+~
+0 0 4759
+S
+#4759
+`8A South-Western Lookout ``~
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 4760
+D1
+~
+~
+0 0 4758
+S
+#4760
+`8Path Around The Encampment ``~
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 4747
+D2
+~
+~
+0 0 4759
+S
+#4761
+`8Inside The Main Camp ``~
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 4762
+D1
+~
+~
+0 0 4769
+D2
+~
+~
+0 0 4768
+D3
+~
+~
+0 0 4747
+S
+#4762
+`8A Junction Within The Camp ``~
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 4765
+D1
+~
+~
+0 0 4763
+D2
+~
+~
+0 0 4761
+D3
+~
+~
+0 0 4773
+S
+#4763
+`8The Quartermaster's ``~
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 4764
+D3
+~
+~
+0 0 4762
+S
+#4764
+`8The Raider's Cookery ``~
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 4763
+S
+#4765
+`8An Ill-Kept Armory ``~
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 4762
+S
+#4766
+`8A Giant Junkpile ``~
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 4767
+S
+#4767
+`8A Horrible Smell ``~
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 4766
+D3
+~
+~
+0 0 4768
+S
+#4768
+`8A Noisy Bar ``~
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 4761
+D1
+~
+~
+0 0 4767
+S
+#4769
+`2The Central Campfire ``~
+~
+~
+0 0 65536 13
+D3
+~
+~
+0 0 4761
+D5
+~
+~
+A 0 4770
+S
+#4770
+`8Before An Iron Door ``~
+~
+~
+0 8 0 0
+D1
+~
+~
+AG 4770 4771
+D4
+~
+~
+A 0 4769
+S
+#4771
+`8A Gigantic Storehouse ``~
+~
+~
+0 8 0 0
+D3
+~
+~
+AG 4770 4770
+S
+#4772
+`8The Bandit Lord's Camp ``~
+~
+~
+0 0 0 1
+D3
+~
+~
+0 0 4754
+S
+#4773
+`8A Crude Infirmary ``~
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 4762
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 4705 spec_cast_cleric
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 4704 1 4700 1
+M 0 4702 20 4702 2
+E 0 4702 0 16
+M 0 4703 1 4702 1
+M 0 4703 1 4702 1
+M 0 4703 1 4702 1
+M 0 4703 1 4702 1
+M 0 4704 1 4702 1
+O 0 4703 0 4703
+M 0 4704 1 4703 1
+M 0 4704 1 4704 1
+M 0 4704 1 4705 1
+M 0 4704 1 4707 1
+M 0 4704 1 4708 1
+M 0 4704 1 4711 1
+O 0 4713 0 4713
+M 0 4705 1 4716 1
+E 0 4704 0 5
+E 0 4705 0 17
+M 0 4702 20 4720 2
+E 0 4702 0 16
+M 0 4721 2 4721 2
+M 0 4722 3 4722 1
+O 0 4723 0 4723
+M 0 4723 20 4723 2
+E 0 4702 0 16
+M 0 4724 1 4724 1
+M 0 4725 1 4724 1
+M 0 4722 1 4725 1
+M 0 4722 3 4725 1
+M 0 4726 2 4726 2
+E 0 4702 0 16
+M 0 4702 20 4727 2
+E 0 4702 0 16
+O 0 4728 0 4728
+O 0 4731 0 4731
+M 0 4731 1 4731 1
+O 0 4739 0 4739
+M 0 4742 1 4742 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#4705
+if level $n ( 34
+            say Leave, you are not strong enough to traverse this path you are on.
+    else 
+            say Travel carefully for while you are strong enough, dangerous roads lay ahead.
+endif
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#4738
+if hasquest $n 'Discovered the Shrine to Felana in the Raiders Gap'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Felana!``
+    room permquest $n Discovered the Shrine to Felana in the Raiders Gap
+endif
+~
+#4739
+room echoat $n The wind speaks to you as Felana answers your prayers.
+~
+#0
+
+#$

@@ -2261,6 +2261,7 @@ void load_challenges(){
     fp = fopen( NULL_FILE, "r" );
     fclose (fp);
     perror( path );
+    fpReserve = fopen( NULL_FILE, "r" );
     return;
   }
 

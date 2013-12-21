@@ -1,0 +1,3083 @@
+#AREADATA
+Name the Erythane Forest~
+Pref ~
+Builders Ihlxhul~
+VNUMs 6700 6799
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 0
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#6701
+Druid Young Elf~
+A young elven druid~
+A young elven druid is here.
+~
+A slender elf is here, clad in druids robes of a dark green hue.  He has
+a leather satchel bound around his waist with a braid of hemp.  He seems to
+notice your look and scrutinizes you in return.  
+~
+elf~
+ACGe A JP 0 0 0
+0 6 2d20+150 0d0+100 4d5+14 slash
+0 0 0 0
+FN AB BCL Z
+stand stand none none~
+7
+AHMV ABCDEFGHIJK medium 0
+#6702
+elf girl elven~
+An elven girl~
+An elven girl walks through the forest.
+~
+A beautiful little girl stands expectingly underneath some trees.  A thin
+cloth headband holds back the blond locks that fall over her face, allwoing
+you to see the distress upon her face.  Her wide green eyes dart around, as
+she mumbles some incoherant elven words.  Her light blue dress seems rumpled
+and creased, and she constantly tugs at the ends of it.  She wears a pair of
+elk-leather moccasins upon her tiny feet, and while they are somewhat muddy,
+they seem well-kept.  
+~
+elf~
+AGe A JP 0 750 0
+17 5 2d20+250 0d0+100 4d5+11 punch
+-5 -5 -5 -5
+K 0 B Z
+stand stand none none~
+12
+AHMV ABCDEFGHIJK medium 0
+#6703
+elf boy elven~
+An elven boy~
+An elven boy walks through the wood.
+~
+A slender elven boy stands here, his hands balled into tight fists. 
+Unruly auburn hair hangs down past his jawline in tangled curls.  A light
+brown vest rests gently over a shirt of woven silk, nicely blanketing his
+torso and upperbody.  A thick brown belt holds up a pair of leather trousers
+that cover his legs, neatly tucked into a pair of soft, lambskin boots.  He
+seems to be waiting for something, as his green eyes constantly look into
+different parts of the forest.  
+~
+elf~
+AGe A DJP 0 750 0
+24 9 3d5+500 0d0+100 5d5+10 punch
+-9 -9 -9 -9
+K 0 B Z
+stand stand none none~
+18
+AHMV ABCDEFGHIJK medium 0
+#6704
+Assassin Half-orc orc half~
+A half-orc assassin~
+A half-orc assassin is hidden here.
+~
+This dusky-skinned humanoid has a set of small tusks protruding from the
+sides of his mouth, and his nose is flat and splayed.  It is obvious he has
+both human and orc ancestry.  His eyes are a lifeless black and his strong
+and thick body is quite hirsute.  He is clad in a dark brown tunic and
+leggings.  
+~
+unique~
+ACGHTe A DFHJPQ 0 0 0
+20 17 6d10+375 0d0+100 5d5+18 punch
+-4 -4 -4 -4
+CFK 0 L N
+stand stand none none~
+16
+AHMV ABCDEFGHIJK large 0
+#6705
+elf elven warrior young~
+A young elven warrior~
+A young elven warrior keeps watch over the wood.
+~
+This warrior is tall and slender, and not nearly of mature age.  Yet it
+is obvious he has had some training and seems to be guarding the forest with
+a watchful eye.  
+~
+elf~
+AGe A DJP 0 750 0
+29 12 6d10+625 0d0+100 5d5+10 punch
+-13 -13 -13 -13
+K 0 B Z
+stand stand none none~
+16
+AHMV ABCDEFGHIJK medium 0
+#6706
+elven elf warrior forest~
+An elven warrior of the forest~
+An elf warrior stands here, guarding the forest.
+~
+This elf is more mature, and seems to carry himself with some stature and
+confidence.  He seems ready for combat and his wary eyes seem alert as well
+as sharp.  
+~
+elf~
+AGTe A DFJP 0 750 0
+34 16 10d10+1300 0d0+100 5d5+32 punch
+-15 -15 -15 -15
+EHKN 0 B Z
+stand stand none none~
+13
+AHMV ABCDEFGHIJK medium 0
+P GRALL 6768 50~
+#6707
+Knight Elf Elven~
+An elven knight~
+An elven knight stands at attention.
+~
+This elf is clad in gleaming mithril mail and has the practiced grace of
+a skilled swordsman.  He has a proud look and yet seems quite alert.  
+~
+elf~
+AGTZe A DHJP 0 750 0
+37 25 10d10+1500 0d0+100 5d6+40 punch
+0 0 0 0
+EHKN 0 B Z
+stand stand none none~
+20
+AHMV ABCDEFGHIJK medium 0
+#6708
+Archer Elf Elven Elite~
+An elite elven archer~
+An elite elven archer keeps watch over the forest.
+~
+This elf is clad in a tunic and soft leather armor.  He has a large bow
+slung over his back and he intently watches the forest below for any sign of
+movement.  He looks somewhat wiry.  
+~
+elf~
+AGTe A DFHJP 0 750 0
+35 45 20d10+1600 0d0+100 6d6+35 punch
+-15 -15 -15 -15
+EFHJKNR 0 B Z
+stand stand none none~
+17
+AHMV ABCDEFGHIJK medium 0
+#6709
+Elf elven watch lieutenant Sylvosilin~
+Sylvosilin, the elven watch lieutenant~
+Sylvosilin, the elven watch lieutenant stands at attention.
+~
+This slender elf is clad in a set of shining mithril chainmail, and bears
+a fine blade etched with runes.  About his waist is a thin loop of toughened
+leather from which hangs a scabbard, encrusted with finely cut sapphires. 
+His boots are made of a soft, supple appearing form of chainmail, and his
+appearance is one of alert readiness.  His night-blue hair hangs down to his
+waist and is looped with a thin piece of adamantite.  
+~
+elf~
+ACGTZe A DFHJP 0 750 0
+40 60 2d20+1500 0d0+100 5d6+40 none
+-20 -20 -20 -20
+EHJKNR 0 B Z
+stand stand none none~
+15
+AHMV ABCDEFGHIJK medium 0
+#6710
+Elf Elven Watch Commander Yllinilen~
+Yllinilen the Elven Watch Commander~
+Yllinilen the Elven Watch Commander waits here.
+~
+This elf has a proud, regal bearing, with a square set jaw and a mane of
+long golden blond hair.  His eyes are a silvery shade, almost gray.  He is
+clad in a fine set of platemail, and carries a shield and mace at his side. 
+He appears to be the commander of the elven contingent here and his
+breastplate bears a marking unlike any other you have seen in the wood.  
+~
+elf~
+AGTe A DFHJPV 0 750 0
+43 60 4d50+1500 0d0+100 5d6+45 none
+-22 -22 -22 -22
+DEFHKNRX 0 B Z
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+#6733
+elf eiilinthywil defender~
+Eiilinthywil, the Defender of the Wood~
+An elf clad in radiant mail is here.
+~
+A slender, poised gold elf, his hair is midnight black, which accentuates
+his lightly tanned fair elven skin well.  He has an angular face, and a pair
+of piercing silver eyes, flecked with gold.  He is clad in a set of gleaming
+chainmail, and wrapped in a loose green hooded tunic.  His hands are forever
+near the pair of swords sheathed about his braided belt.  
+~
+elf~
+ABGTZe A DFHJPV 0 750 0
+50 85 4d100+5000 0d0+100 9d6+65 punch
+-2 -2 -2 0
+AEFHJKNQR AB B Z
+stand stand male none~
+25
+AHMV ABCDEFGHIJK medium 0
+#6751
+Prisoner elf mage Aryylinil~
+Aryylinil, an elf mage~
+The elf mage Aryylinil is held captive here.
+~
+A slender elven female is here, bound in iron chains and locked to a
+post.  By the looks of her, you get the feeling she is a mage of some sort,
+though she is quite bloody and covered with bruises about her face and arms.
+Her long white dress is covered in blood and grime and is in tatters at the
+very bottom, near her ankles.  The only way you can tell she is still alive
+is by the faint spark that you see flickering within her eyes.  
+~
+human~
+ABGQRe A DFHJP 0 0 0
+49 1 1d1+2000 0d0+100 1d1+10 punch
+-20 -20 -20 -20
+F ABN BD 0
+stand stand female none~
+23
+AHMV ABCDEFGHIJK small 0
+#6752
+Orc Massive Stalker Orcish~
+A massive Orc stalker~
+A massive orc stalks through the forest.
+~
+This orc prowls through the forest with a look of sheer fury upon his
+canine-esque maw.  He is clad in a blood-stained set of darkened iron
+chainmail, and carries an axe that looks quite deadly.  His eyes are a
+glowing red and his skin is a shade of black similar to coal.  On his left
+wrist is a strange bracer of skin.  
+~
+orc~
+ACFGSZe A DFHJQV 0 -750 0
+50 47 4d100+3500 0d0+100 7d6+50 punch
+-10 -10 -10 -10
+ABCDFJKOX AB FQ NS
+stand stand male none~
+24
+AHMV ABCDEFGHIJK large 0
+#6799
+Entrahti Assassin Death Hand~
+Entrahti, the Hand of Death~
+Entrahti the Master Assassin and Hand of Death lurks here.
+~
+A sinister looking being is here, swaddled in
+shadows. He is clad in a concealing hooded
+black robe and an ancient vest that is caked
+in blood. At his waist is a thin loop of black
+velvet with a long scabbard attached. He seems
+to emanate an aura of despair and decay.
+ 
+~
+unique~
+A A BDFHPQTUV 0 -750 0
+60 100 1d1+10000 0d0+100 9d6+80 claw
+-50 -50 -50 -50
+AEFHKNX AB CD NS
+stand stand none none~
+21
+0 0 medium 0
+#0
+
+
+
+#OBJECTS
+#6701
+Soft Leather Bracer~
+a soft leather bracer~
+A soft leather bracer seems perfect in it's craftsmanship.~
+leather~
+armor S AM
+1 2 1 0 0
+20 30 400 P
+F
+A 18 1 0
+F
+A 19 1 0
+#6702
+Cloak Soft Elven Gray~
+a soft grey cloak~
+A soft grey cloak is here.~
+cloth~
+armor S AC
+3 1 2 0 0
+20 20 400 P
+F
+A 13 10 0
+F
+A 18 1 0
+#6703
+Boots Soft Leather~
+soft leather boots~
+Soft leather boots are well stitched and look quite comfortable.~
+leather~
+armor IKS AG
+5 4 6 2 0
+22 40 400 P
+F
+A 24 -1 0
+F
+A 2 1 0
+#6704
+Leggings Soft Leather~
+soft leather leggings~
+Soft leather leggings with a tied waist are here.~
+leather~
+armor KS AF
+2 3 1 1 0
+25 30 400 P
+F
+A 18 1 0
+F
+A 19 1 0
+#6705
+Gleaming Symbol Faith~
+a gleaming symbol of faith~
+A gleaming symbol of faith is here.~
+steel~
+armor IKLS AC
+1 2 5 3 0
+25 10 300 P
+F
+A 13 10 0
+F
+A 19 1 0
+#6706
+Plain Helm Steel~
+a plain steel helm~
+A plain steel helm is here.~
+steel~
+armor 0 AE
+1 7 5 1 0
+35 200 200 P
+F
+A 19 2 0
+F
+A 18 1 0
+#6707
+Armguards Plain Steel~
+plain steel armguards~
+Plain steel armguards are here.~
+steel~
+armor B AI
+4 4 7 1 0
+35 110 300 P
+F
+A 18 2 0
+F
+A 19 1 0
+#6708
+Ring Virtue~
+a ring of virtue~
+A ring shining with virtue is here.~
+Adamantite~
+armor BGIKL ABX
+0 0 0 5 0
+43 10 12 P
+F
+A 1 2 0
+F
+A 19 3 0
+#6709
+Belt Thick Leather Pouches~
+a thick leather belt with pouches~
+You open the belt and see that...~
+leather~
+container S AL
+200 A 0 30 100
+35 100 100 P
+F
+A 18 1 0
+F
+A 2 -1 0
+#6710
+Helmet Shining Mithril~
+a Shining Mithril Helmet~
+A shining mithril helmet lies here.~
+mithril~
+armor AGK AEX
+4 6 3 5 0
+43 150 12 P
+F
+A 13 20 0
+F
+A 24 -1 0
+F
+A 18 1 0
+#6711
+Shield Steel Elven~
+an elven steel shield~
+An elven steel shield is lying here.~
+Elven Steel~
+armor AG AJX
+5 12 8 1 0
+40 90 20 P
+L
+0
+F
+A 18 3 0
+F
+A 17 -20 0
+#6712
+Platemail Gleaming Silver~
+gleaming silver platemail~
+A set of gleaming silver platemail is piled here.~
+silver~
+armor AG AKX
+12 14 11 3 0
+43 100 5 P
+F
+A 22 -5 0
+F
+A 21 -5 0
+F
+A 1 1 0
+F
+A 12 25 0
+#6733
+Tunic Green Hooded~
+a hooded green tunic~
+A hooded green tunic is piled here.~
+cloth~
+armor GS ACX
+6 10 1 0 0
+50 20 5 P
+F
+A 19 -2 0
+F
+A 1 -1 0
+F
+A 13 40 0
+#6734
+Bracer Shining Steel Elven~
+a bracer of shining elven steel~
+A bracer of shining elven steel is here.~
+elven steel~
+armor AGK AMX
+1 2 1 5 0
+50 30 3 P
+F
+A 2 1 0
+F
+A 18 3 0
+#6735
+Longsword Steel Fine Elven~
+a longsword of fine elven steel~
+A longsword of fine elven steel is left here.~
+elven steel~
+weapon AIKLM ANX
+sword 10 4 slash 0
+50 110 12 P
+F
+A 13 25 0
+F
+A 2 2 0
+F
+A 18 2 0
+F
+A 19 3 0
+#6740
+Flask Sludgy Black~
+a sludgy black flask~
+A sludgy black flask has been left here.~
+glass~
+potion ACEG AO
+25 'enlarge' '' '' ''
+25 10 20 P
+#6741
+Sword Iron Nasty~
+a nasty iron sword~
+A Nasty Iron Sword lies here, covered in blood.~
+iron~
+weapon 0 AN
+sword 4 6 slash 0
+20 60 200 P
+F
+A 18 1 0
+F
+A 19 3 0
+#6752
+Chainmail Darkened Bloody Iron~
+darkened iron chainmail~
+A shirt of darkened iron chainmail is here, covered in blood.~
+iron~
+armor CEJL AKX
+15 7 16 1 0
+50 350 3 P
+F
+A 19 3 0
+F
+A 18 1 0
+#6753
+Axe Iron Lightbane~
+an iron axe named 'Lightbane'~
+An iron axe named 'Lightbane' glows with unholy malice.~
+iron~
+weapon ABCEGJL ANS
+axe 9 5 drain 0
+50 240 2 P
+F
+A 2 -3 0
+F
+A 24 2 0
+#6754
+Bracer Elf Skin Elven~
+a blackened iron bracer~
+Bracer Iron Blackened~
+iron~
+armor CEJL AMX
+4 2 1 7 0
+50 130 5 P
+F
+A 1 3 0
+F
+A 19 3 0
+#6756
+Thin Black Vial~
+a thin black vial~
+A thin black vial gleams in the darkness.~
+glass~
+potion ABCEFG AOX
+40 'haste' 'curse' '' ''
+50 10 7 P
+#6757
+Manacles Iron Chained~
+chained iron manacles~
+A pile of chains that appear to be manacles is here.~
+iron~
+armor M AH
+0 0 0 0 0
+25 500 1000 P
+F
+A 1 -10 0
+F
+A 19 -25 0
+F
+A 18 -10 0
+F
+A 2 -1 0
+#6758
+wand slim platinum~
+a slim platinum wand~
+A slim platinum wand is here.~
+platinum~
+wand ABFGTY AOS
+50 1 1 'hold undead' 0
+49 10 2 P
+#6787
+Slender Silver Sword~
+a slender silver sword~
+A slender silver sword is propped up here.~
+silver~
+weapon A ANX
+sword 6 6 slice 0
+37 30 30 P
+#6788
+Stream Erythane Winding~
+a stream winds through the Erythane~
+A stream winds through the Erythane here.~
+water~
+fountain O P
+-1 -1 'water' 0 0
+51 10000 200 P
+#6790
+Ihlxhul Kris Ancient Twilight~
+the ancient kris 'Twilight'~
+IF YOU SEE THIS PRAY TO AN IMMORTAL~
+unknown~
+weapon 0 ANRY
+dagger 20 20 stab JK
+60 1 4 P
+#6795
+Scroll Defense Elven~
+an Elven Scroll of Defense~
+An Elven Scroll of Defense is tightly rolled up here.~
+papyrus~
+scroll KLSTY AOX
+40 'blur' 'protection evil' '' ''
+40 10 6 P
+#6796
+Soft Leather Gloves~
+soft leather gloves~
+Soft leather gloves are left here.~
+leather~
+armor S AH
+1 2 1 0 0
+20 10 400 P
+F
+A 18 2 0
+#6797
+Earring Mithril~
+a mithril earring~
+A mithril earring is here.~
+sapphire~
+armor 0 AZ
+0 0 0 1 0
+35 10 200 P
+F
+A 18 2 0
+#6798
+Tunic Forest Green~
+a forest green tunic~
+A tunic the color of the forest is piled here.~
+cloth~
+armor KS ACX
+1 7 3 6 0
+35 40 35 P
+F
+A 18 3 0
+F
+A 24 -1 0
+F
+A 21 -3 0
+#6799
+blade dark strange grey~
+a dark, strange grey blade~
+Dark strange grey blade~
+meteorite~
+weapon CEHMTY AN
+sword 20 20 corruption L
+60 110 4 P
+F
+A 10 1 0
+F
+A 26 10 0
+F
+A 18 10 0
+F
+A 19 10 0
+#0
+
+
+
+#ROOMS
+#6700
+`@A Forested Trail ``~
+A short trail breaks through the canopy here, and seems to lead into the
+dark, ancient forest ahead.   Faint sounds surround your senses, as if the
+minions of the forest are watching your every move.  The ground beneath your
+feet is thick and pulpy with the decaying remains of the trees, plants, and
+animals before them slowly ground into the trail before you.  
+~
+~
+0 1 65536 3
+D0
+~
+~
+0 0 6701
+S
+#6701
+`@A thinning trail``~
+A thinning trail leads off into the forest, heading north.  Back to your
+south you can see the entrance to the forest, though it is getting harder to
+see.  To your west the Erythane forest looms large and looks passable. 
+Strange sounds you hear make the forest seem to teem with life.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 6702
+D2
+~
+~
+0 0 6700
+D3
+~
+~
+0 0 6707
+S
+#6702
+`@A thinning trail``~
+A thinning trail leads off into the forest, heading north.  Back to your
+south you can see the entrance to the forest, though it is getting harder to
+see.  To your west the Erythane forest looms large and looks passable. 
+Strange sounds you hear make the forest seem to teem with life.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 6703
+D2
+~
+~
+0 0 6701
+D3
+~
+~
+0 0 6708
+S
+#6703
+`@The End of a Trail``~
+A thinning trail leads off into the forest, heading north.  Back to your
+south you can see the entrance to the forest, though it is getting harder to
+see.  To your west the Erythane forest looms large and looks passable. 
+Strange sounds you hear make the forest seem to teem with life.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 6704
+D1
+~
+~
+0 0 7243
+D2
+~
+~
+0 0 6702
+D3
+~
+~
+0 0 6709
+S
+#6704
+`@Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+short coating of light green grass.  You see very few shrubs or fallen logs,
+and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 6706
+D2
+~
+~
+0 0 6703
+D3
+~
+~
+0 0 6710
+S
+#6705
+`@Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 65536 3
+D2
+~
+~
+0 0 6704
+S
+#6706
+`@Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 32768 3
+D2
+~
+~
+0 0 6704
+D3
+~
+~
+0 0 6711
+S
+#6707
+`@Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6708
+D1
+~
+~
+0 0 6701
+D3
+~
+~
+0 0 6713
+S
+#6708
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6709
+D1
+~
+~
+0 0 6702
+D2
+~
+~
+0 0 6707
+D3
+~
+~
+0 0 6714
+S
+#6709
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6710
+D1
+~
+~
+0 0 6703
+D2
+~
+~
+0 0 6708
+D3
+~
+~
+0 0 6715
+S
+#6710
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 6711
+D1
+~
+~
+0 0 6704
+D2
+~
+~
+0 0 6709
+D3
+~
+~
+0 0 6716
+S
+#6711
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6712
+D1
+~
+~
+0 0 6706
+D2
+~
+~
+0 0 6710
+D3
+~
+~
+0 0 6717
+S
+#6712
+`@Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 8192 3
+D2
+~
+~
+0 0 6711
+D3
+~
+~
+0 0 6718
+S
+#6713
+`@Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 6714
+D1
+~
+~
+0 0 6707
+D3
+~
+~
+0 0 6725
+S
+#6714
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 6715
+D1
+~
+~
+0 0 6708
+D2
+~
+~
+0 0 6713
+D3
+~
+~
+0 0 6724
+S
+#6715
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 6716
+D1
+~
+~
+0 0 6709
+D2
+~
+~
+0 0 6714
+D3
+~
+~
+0 0 6723
+S
+#6716
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 6717
+D1
+~
+~
+0 0 6710
+D2
+~
+~
+0 0 6715
+D3
+~
+~
+0 0 6722
+S
+#6717
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 6718
+D1
+~
+~
+0 0 6711
+D2
+~
+~
+0 0 6716
+D3
+~
+~
+0 0 6721
+S
+#6718
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 6719
+D1
+~
+~
+0 0 6712
+D2
+~
+~
+0 0 6717
+D3
+~
+~
+0 0 6720
+S
+#6719
+`@Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 27001
+D2
+~
+~
+0 0 6718
+S
+#6720
+`@Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 6718
+D2
+~
+~
+0 0 6721
+D3
+~
+~
+0 0 6731
+S
+#6721
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 6720
+D1
+~
+~
+0 0 6717
+D2
+~
+~
+0 0 6722
+D3
+~
+~
+0 0 6730
+S
+#6722
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 6721
+D1
+~
+~
+0 0 6716
+D2
+~
+~
+0 0 6723
+D3
+~
+~
+0 0 6729
+S
+#6723
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 6722
+D1
+~
+~
+0 0 6715
+D2
+~
+~
+0 0 6724
+D3
+~
+~
+0 0 6728
+S
+#6724
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6723
+D1
+~
+~
+0 0 6714
+D2
+~
+~
+0 0 6725
+D3
+~
+~
+0 0 6727
+S
+#6725
+`@Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 6724
+D1
+~
+~
+0 0 6713
+D3
+~
+~
+0 0 6726
+S
+#6726
+`@Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 6727
+D1
+~
+~
+0 0 6725
+D3
+~
+~
+0 0 6734
+S
+#6727
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with spare
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 6728
+D1
+~
+~
+0 0 6724
+D2
+~
+~
+0 0 6726
+D3
+~
+~
+0 0 6735
+S
+#6728
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with spare
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 6729
+D1
+~
+~
+0 0 6723
+D2
+~
+~
+0 0 6727
+D3
+~
+~
+0 0 6736
+S
+#6729
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with spare
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6730
+D1
+~
+~
+0 0 6722
+D2
+~
+~
+0 0 6728
+D3
+~
+~
+0 0 6737
+S
+#6730
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6731
+D1
+~
+~
+0 0 6721
+D2
+~
+~
+0 0 6729
+D3
+~
+~
+0 0 6738
+S
+#6731
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 6732
+D1
+~
+~
+0 0 6720
+D2
+~
+~
+0 0 6730
+D3
+~
+~
+0 0 6739
+S
+#6732
+A Concealed Path~
+A path extends to the north and south here, cutting through the forest
+and extending to a clearing north of you.  Back to the south you can see the
+forest looming as large as ever, and to the sides of you rise impenetrable
+walls of trees.  The forest is alive with sound and movement.  
+~
+~
+0 0 32768 13
+D0
+~
+~
+0 0 6733
+D2
+~
+~
+0 0 6731
+S
+#6733
+A Calm Spot in the Forest~
+The small path opens into a large, calm clearing, rimmed with a ring of
+trees to either side of you.  Sunlight seems to pour into the clearing from
+a break in the canopy above,illuminating the entire clearing and causing a
+glowing figure before you to shine with some unknown quality.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 365
+D2
+~
+~
+0 0 6732
+S
+#6734
+`@Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 6735
+D1
+~
+~
+0 0 6726
+D3
+~
+~
+0 0 6745
+S
+#6735
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 6736
+D1
+~
+~
+0 0 6727
+D2
+~
+~
+0 0 6734
+D3
+~
+~
+0 0 6744
+S
+#6736
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 6737
+D1
+~
+~
+0 0 6728
+D2
+~
+~
+0 0 6735
+D3
+~
+~
+0 0 6743
+S
+#6737
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6738
+D1
+~
+~
+0 0 6729
+D2
+~
+~
+0 0 6736
+D3
+~
+~
+0 0 6742
+S
+#6738
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 6739
+D1
+~
+~
+0 0 6730
+D2
+~
+~
+0 0 6737
+D3
+~
+~
+0 0 6741
+S
+#6739
+`@Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 6731
+D2
+~
+~
+0 0 6738
+D3
+~
+~
+0 0 6740
+S
+#6740
+`@Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 6739
+D2
+~
+~
+0 0 6741
+S
+#6741
+`@Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 6740
+D1
+~
+~
+0 0 6738
+D2
+~
+~
+0 0 6742
+S
+#6742
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 6741
+D1
+~
+~
+0 0 6737
+D2
+~
+~
+0 0 6743
+D3
+~
+~
+0 0 6758
+S
+#6743
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6742
+D1
+~
+~
+0 0 6736
+D2
+~
+~
+0 0 6744
+D3
+~
+~
+0 0 6757
+S
+#6744
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 6743
+D1
+~
+~
+0 0 6735
+D2
+~
+~
+0 0 6745
+D3
+~
+~
+0 0 6756
+S
+#6745
+`@Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 6744
+D1
+~
+~
+0 0 6734
+D2
+~
+~
+0 0 6746
+D3
+~
+~
+0 0 6755
+S
+#6746
+`@Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 6745
+D3
+~
+~
+0 0 6747
+S
+#6747
+`@Deep in Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 6755
+D1
+~
+~
+0 0 6746
+D2
+~
+trees~
+0 0 6749
+D3
+~
+~
+0 0 6748
+S
+#6748
+`@Deep in Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 6747
+S
+#6749
+`3A Bloodied Trail``~
+A trail has been cut here, through the forest, with rough, wide chop
+marks in the felled trees.  A trail of blood leads from north to south, and
+extends further along the hewn wood.  The air has a foul, stale smell to it,
+and you feel as if you should be alert.  
+~
+~
+0 0 65536 4
+D0
+~
+trees~
+0 0 6747
+D3
+~
+~
+0 0 6750
+S
+#6750
+`3A Bloodied Trail``~
+A trail has been cut here, through the forest, with rough, wide chop
+marks in the felled trees.  A trail of blood leads from east to west, and
+extends further along the hewn wood.  The air has a foul, stale smell to it,
+and you feel as if you should be alert.  
+~
+~
+0 0 65536 4
+D1
+~
+~
+0 0 6749
+D3
+~
+~
+0 0 6751
+S
+#6751
+`3A Bloodied Trail``~
+A trail has been cut here, through the forest, with rough, wide chop
+marks in the felled trees.  A trail of blood leads from east to south, and
+extends further along the hewn wood.  The air has a foul, stale smell to it,
+and you feel as if you should be alert.  
+~
+~
+0 0 8192 4
+D1
+~
+~
+0 0 6750
+D2
+~
+branches~
+0 0 6754
+D3
+~
+~
+0 0 6753
+S
+#6752
+`7A Makeshift Camp``~
+A ragtag group of tents has been formed here, surrounding a large fire
+pit in the center.  Dead animal carcasses hang outside each of the tents,
+and the smell of blood and death taint the air.  There is an iron post
+driven next to one tent, and it appears to be where they hold prisoners. 
+Lesser orcs scatter for cover upon your arrival.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 6754
+S
+#6753
+`3A Sheer Clifface``~
+A sheer clifface extends into a ravine perhaps thirty feet below you, in
+a field of boulders.  Behind you to your east, the rough hewn trail extends
+back the way you came.  You can see no safe way to get to the boulder strewn
+field below.  
+~
+~
+0 0 65536 5
+D1
+~
+~
+0 0 6751
+S
+#6754
+`3A Concealed Trail``~
+A trail has been cunningly cut off from the main branch of the rough hewn
+path to your north, and been concealed with dead trees.  Thick black pools
+of blood stain the ground beneath your feet, as does a pile of bones at your
+feet.  
+~
+~
+0 0 16384 4
+D0
+~
+branches~
+0 0 6751
+D3
+~
+~
+0 0 6752
+S
+#6755
+`@Deep in Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 4 32768 3
+D0
+~
+~
+0 0 6756
+D1
+~
+~
+0 0 6745
+D2
+~
+~
+0 0 6747
+D3
+~
+~
+0 0 6767
+S
+#6756
+`@Deep in Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 4 32768 3
+D0
+~
+~
+0 0 6757
+D1
+~
+~
+0 0 6744
+D2
+~
+~
+0 0 6755
+D3
+~
+~
+0 0 6766
+S
+#6757
+`@Deep in Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 4 32768 3
+D0
+~
+~
+0 0 6758
+D2
+~
+~
+0 0 6756
+D3
+~
+~
+0 0 6765
+S
+#6758
+`@Deep in Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6759
+D1
+~
+~
+0 0 6742
+D2
+~
+~
+0 0 6757
+D3
+~
+~
+0 0 6764
+S
+#6759
+`@Deep in Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 6760
+D2
+~
+~
+0 0 6758
+S
+#6760
+`@Deep in Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 6761
+D2
+~
+~
+0 0 6759
+S
+#6761
+`@Deep in Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 6762
+D2
+~
+~
+0 0 6760
+S
+#6762
+`@Deep in Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 6763
+D2
+~
+~
+0 0 6761
+S
+#6763
+`@Deep in Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 0 32768 3
+D2
+~
+~
+0 0 6762
+S
+#6764
+`@Deep in Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 4 16384 3
+D1
+~
+~
+0 0 6758
+D2
+~
+~
+0 0 6765
+D3
+~
+~
+0 0 6771
+S
+#6765
+`@Deep in Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 4 32768 3
+D0
+~
+~
+0 0 6764
+D1
+~
+~
+0 0 6757
+D2
+~
+~
+0 0 6766
+D3
+~
+~
+0 0 6770
+S
+#6766
+`@Deep in Erythane Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 4 32768 3
+D0
+~
+~
+0 0 6765
+D1
+~
+~
+0 0 6756
+D2
+~
+~
+0 0 6767
+D3
+~
+~
+0 0 6769
+S
+#6767
+`@Deep in Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 4 32768 3
+D0
+~
+~
+0 0 6766
+D1
+~
+~
+0 0 6755
+D3
+~
+~
+0 0 6768
+S
+#6768
+`@Deep in Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 4 8192 3
+D0
+~
+~
+0 0 6769
+D1
+~
+~
+0 0 6767
+D3
+~
+~
+0 0 21000
+S
+#6769
+`@Deep in Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 4 8192 3
+D0
+~
+~
+0 0 6770
+D1
+~
+~
+0 0 6766
+D2
+~
+~
+0 0 6768
+S
+#6770
+`@Deep in Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 4 16384 3
+D0
+~
+~
+0 0 6771
+D1
+~
+~
+0 0 6765
+D2
+~
+~
+0 0 6769
+S
+#6771
+`@Deep in Erythane Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 4 32768 3
+D0
+~
+~
+0 0 6772
+D1
+~
+~
+0 0 6764
+D2
+~
+~
+0 0 6770
+S
+#6772
+`@Quiet Part of the Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 4 32768 3
+D0
+~
+~
+0 0 6774
+D2
+~
+~
+0 0 6771
+D3
+~
+~
+0 0 6773
+S
+#6773
+`@Quiet Part of the Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 4 65536 3
+D0
+~
+~
+0 0 6775
+D1
+~
+~
+0 0 6772
+D3
+~
+~
+0 0 6776
+S
+#6774
+`@Quiet Part of the Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 4 65536 3
+D2
+~
+~
+0 0 6772
+S
+#6775
+`@Quiet Part of the Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 4 32768 3
+D2
+~
+~
+0 0 6773
+S
+#6776
+`2Quiet Part of the Forest``~
+The Erythane forest looms all around you, in every direction.  Thick pine
+trees stretch skyward, with dark, thick needles littering the forest floor. 
+Large oak trees mingle amidst the pines in their climb to the light and
+canopy above, some fifty to sixty feet.  You are able to continue in every
+direction, but everywhere you look, trees dominate the forest, with sparse
+shrubs and a few fallen logs breaking the open ground.  
+~
+~
+0 4 65536 14
+D0
+~
+~
+0 0 6777
+D1
+~
+~
+0 0 6773
+D2
+~
+~
+0 0 6780
+D3
+~
+~
+0 0 6778
+S
+#6777
+`@Quiet Part of the Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 4 8192 3
+D2
+~
+~
+0 0 6776
+S
+#6778
+`@Quiet Part of the Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 4 32768 3
+D0
+~
+~
+0 0 6779
+D1
+~
+~
+0 0 6776
+S
+#6779
+`@Quiet Part of the Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 4 65536 3
+D2
+~
+~
+0 0 6778
+S
+#6780
+`@Quiet Part of the Forest``~
+The Erythane forest surrounds you, and you can feel unseen eyes upon you.
+The faint chirping of birds disturbs the still beneath the canopy, some
+sixty feet above you.  Thick hardwoods, yews, pine and other trees are
+intermingled with one another, and the floor is covered in pine needles, and
+a short coating of light green grass.  You see very few shrubs or fallen
+logs, and have yet to see a weed anywhere in the wood.  
+~
+~
+0 4 16384 3
+D0
+~
+~
+0 0 6776
+D2
+~
+~
+0 0 6781
+S
+#6781
+`@Beginnings of a Guarded Trail``~
+A trail cuts through the forest here, well maintained and wide enough for
+a few people to pass.  The trail slinks into the woods to the south, and
+north of you you can see the rest of Erythane looming large.  The forest
+seems quiet here, and you can feel eyes watching your every move.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6780
+D2
+~
+~
+0 0 6783
+D3
+~
+~
+0 0 6782
+S
+#6782
+`@A Guarded Trail``~
+A trail cuts through the forest here, well maintained and wide enough for
+a few people to pass.  The trail slinks into the woods to the west, and
+north of you you can see the rest of Erythane looming large.  The forest
+seems quiet here, and you can feel eyes watching your every move.  The trail
+extends back to the east as well.  
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 6781
+D3
+~
+~
+0 0 6784
+S
+#6783
+`@A Small Guard Post``~
+A makeshift guard post has been set up here, with a large tent dominating
+the small clearing.  In front of the tent are a few barricades, which seem
+set up for defense.  Elven writing adorns a few crates piled near the tent
+and you can see elves in armor milling around in the immediate vicinity. 
+The forest opens up to your north along a well maintained trail, but to your
+east and south the impenetrable trees of the Erythane prevent movement.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 6781
+S
+#6784
+`@A Guarded Trail``~
+A trail cuts through the forest here, well maintained and wide enough for
+a few people to pass.  The trail slinks into the woods to the south, and
+north of you you can see the rest of Erythane looming large.  The forest
+seems quiet here, and you can feel eyes watching your every move.  The trail
+extends back into the forest to the east.  
+~
+~
+0 4 32768 3
+D1
+~
+~
+0 0 6782
+D2
+~
+~
+0 0 6785
+S
+#6785
+`@Before the Watch Tower``~
+The trail seems to come to an abrupt end in front of a large wooden
+structure extending into the canopy above you.  You can see light glinting
+off armor above you in Watch Tower, and to the north the trail extends back
+into the Erythane.  South is what appears to be a way into the Tower.  You
+feel as if you are being watched.  
+~
+~
+0 4 8192 3
+D0
+~
+~
+0 0 6784
+D2
+~
+~
+0 0 6786
+S
+#6786
+`@Before the Watch Tower``~
+The trail seems to come to an abrupt end in front of a large wooden
+structure extending into the canopy above you.  You can see light glinting
+off armor above you in Watch Tower, and to the north the trail extends back
+into the Erythane.  East is what appears to be a way into the Tower.  
+~
+~
+0 4 8192 3
+D0
+~
+~
+0 0 6785
+D1
+~
+~
+0 0 6787
+S
+#6787
+`8Base of the Watch Tower``~
+A massive wooden tower extends into the canopy above you.  Support beams
+line the four corners of your vision, and seem well wrought.  A short ladder
+allows you to climb into the tower itself, and the Erythane looms large all
+around you.  The ground beneath your feet has changed from trampled grass to
+wood.  You can see a small place behind the tower to your east.  West lies
+the trail back into the Erythane.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 6788
+D3
+~
+~
+0 0 6786
+D4
+~
+~
+0 0 6789
+S
+#6788
+`@Behind the Watch Tower``~
+A large wooden structure is to your west, and this appears to be a small
+spot in the forest behind it.  A small stream about ten feet wide winds
+through the forest here, and your ears come alive as you realize you can
+hear the forest far better from this vantage point.  Looking down at the
+base of the stream you can see the tracks of many animals.  
+~
+~
+0 0 32768 3
+D3
+~
+~
+0 0 6787
+S
+#6789
+`8The Watch Tower``~
+The watch tower extends in all directions of wooden walkways.  Below you
+you can see the ladder extending back to the forest, and above you it
+continues it's climb.  Platforms surround the tower, and seem to be well
+travelled.  The wooden structure has railings to allow ease of movement,
+though the walkways themselves seem narrow.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 6792
+D1
+~
+~
+0 0 6791
+D2
+~
+~
+0 0 6793
+D3
+~
+~
+0 0 6790
+D4
+~
+~
+0 0 6794
+D5
+~
+~
+0 0 6787
+S
+#6790
+`8The Watch Tower``~
+A platform extends off of the walkway to your east to allow easy viewing
+of the forest to your north, west, and south.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 6789
+S
+#6791
+`8The Watch Tower``~
+A platform extends off of the walkway to your west to allow easy viewing
+of the forest to your north, south, and east.  
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 6789
+S
+#6792
+`8The Watch Tower``~
+A platform extends off of the walkway to your south to allow easy viewing
+of the forest to your north, west, and east.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 6789
+S
+#6793
+`8The Watch Tower``~
+A platform extends off of the walkway to your north to allow easy viewing
+of the forest to your east, west, and south.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 6789
+S
+#6794
+`8The Watch Tower``~
+The watch tower extends in all directions of wooden walkways.  Below you
+you can see the ladder extending back to the forest beneath your feet. 
+Platforms surround the tower, and seem to be well travelled.  The wooden
+structure has railings to allow ease of movement, though the walkways
+themselves seem narrow.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 6796
+D1
+~
+~
+0 0 6797
+D2
+~
+~
+0 0 6795
+D3
+~
+~
+0 0 6798
+D5
+~
+~
+0 0 6789
+S
+#6795
+`8The Watch Tower``~
+An additional platform disrupts the symmetry of the Watch tower here. 
+You can see it is what appears to be a command post of sorts, as it is
+larger then the other platforms.  There are a variety of tables, chairs and
+small chests surrounding the platform, and it is obviously well travelled. 
+To your north the walkway leads back to the ladder, and to the south you can
+see yet another platform towering over the forest.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 6794
+D2
+~
+~
+0 0 6799
+S
+#6796
+`8The Watch Tower``~
+A platform extends off of the walkway to your south to allow easy viewing
+of the forest to your north, west, and east.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 6794
+S
+#6797
+`8The Watch Tower``~
+A platform extends off of the walkway to your west to allow easy viewing
+of the forest to your north, south, and east.  
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 6794
+S
+#6798
+`8The Watch Tower``~
+A platform extends off of the walkway to your east to allow easy viewing
+of the forest to your north, south, and west.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 6794
+S
+#6799
+The Watch Tower~
+A platform extends off of the walkway to your north to allow easy viewing
+of the forest to your west, south, and east.  A small additional platform
+can be seen to your north.  
+~
+~
+0 4 0 9
+D0
+~
+~
+0 0 6795
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 6733 spec_cast_mage
+M 6751 spec_cast_adept
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 6701 1 6701 1
+M 0 6702 24 6708 1
+M 0 6702 24 6709 1
+M 0 6702 24 6710 1
+M 0 6702 24 6711 1
+M 0 6702 24 6713 1
+M 0 6702 24 6714 1
+M 0 6702 24 6715 1
+M 0 6702 24 6716 1
+M 0 6702 24 6717 1
+M 0 6702 24 6720 1
+M 0 6702 24 6721 1
+M 0 6702 24 6722 1
+M 0 6702 24 6723 1
+M 0 6702 24 6724 1
+M 0 6702 24 6725 1
+M 0 6702 24 6726 1
+M 0 6703 12 6726 1
+M 0 6702 24 6727 1
+M 0 6703 12 6727 1
+M 0 6702 24 6728 1
+M 0 6703 12 6728 1
+M 0 6702 24 6729 1
+M 0 6703 12 6729 1
+M 0 6702 24 6730 1
+M 0 6703 12 6730 1
+M 0 6702 24 6731 1
+M 0 6703 12 6731 1
+M 0 6733 1 6733 1
+E 0 6734 0 15
+E 0 6733 0 4
+E 0 6735 0 17
+M 0 6703 12 6734 1
+M 0 6703 12 6735 1
+M 0 6703 12 6736 1
+M 0 6703 12 6737 1
+M 0 6703 12 6738 1
+M 0 6703 12 6739 1
+M 0 6704 1 6740 1
+G 0 6740 0
+E 0 6741 0 16
+M 0 6705 8 6742 1
+M 0 6705 8 6743 1
+M 0 6705 8 6744 1
+M 0 6705 8 6745 1
+M 0 6705 8 6747 1
+E 0 6796 0 10
+M 0 6751 1 6752 1
+E 0 6757 0 9
+G 0 6758 0
+M 0 6752 1 6754 1
+E 0 6752 0 12
+E 0 6754 0 15
+E 0 6753 0 16
+G 0 6756 0
+M 0 6705 8 6755 1
+E 0 6702 0 3
+E 0 6702 0 4
+E 0 6709 0 14
+M 0 6705 8 6756 1
+E 0 6703 0 9
+E 0 6704 0 8
+M 0 6705 8 6757 1
+E 0 6701 0 15
+E 0 6701 0 16
+M 0 6705 8 6758 1
+M 0 6706 16 6764 1
+M 0 6706 16 6765 1
+M 0 6706 16 6766 1
+M 0 6706 16 6767 1
+M 0 6706 16 6768 1
+M 0 6706 16 6769 1
+M 0 6706 16 6770 1
+M 0 6706 16 6771 1
+M 0 6706 16 6772 1
+M 0 6706 16 6773 1
+M 0 6706 16 6774 1
+M 0 6706 16 6776 1
+M 0 6706 16 6778 1
+M 0 6706 16 6779 1
+M 0 6706 16 6781 2
+M 0 6707 4 6784 1
+E 0 6787 0 16
+E 0 6797 0 23
+E 0 6705 0 3
+E 0 6706 0 6
+E 0 6707 0 11
+M 0 6707 4 6786 1
+E 0 6787 0 16
+M 0 6707 4 6787 2
+E 0 6787 0 16
+O 0 6788 0 6788
+M 0 6708 8 6790 1
+M 0 6708 8 6791 1
+M 0 6708 8 6792 1
+M 0 6708 8 6793 1
+M 0 6710 1 6795 1
+M 0 6709 1 6795 1
+E 0 6710 0 6
+G 0 6795 0
+E 0 6708 0 2
+E 0 6711 0 12
+E 0 6712 0 13
+M 0 6708 8 6796 1
+E 0 6798 0 3
+M 0 6708 8 6797 1
+E 0 6798 0 3
+M 0 6708 8 6798 1
+E 0 6798 0 3
+M 0 6708 8 6799 1
+E 0 6798 0 3
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#6768
+if isgood $n
+     say You can help us, $n! A horde of goblins is invading Ulsym!
+     say I think the drow might be behind it...
+endif
+if isneutral $n
+     emote looks at you, and sighs sadly.
+endif
+if isevil $n
+     say YOU! Your kind is behind the slaughter of Ulsym! Why? Why!
+     sob
+endif
+~
+#0
+
+M 6710 1 erythane1.prg NL
+M 6752 1 orcstalker1.prg NL
+M 6752 1 orcstalker2.prg NL
+M 6799 1 entrahti2.prg NL
+M 6799 1 entrahti1.prg NL
+M 6799 1 entrahti3.prg NL
+M 6799 1 entrahti4.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

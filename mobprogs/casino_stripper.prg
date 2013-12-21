@@ -64,19 +64,19 @@ say Well, what exactly do you want to know, $n?
 ~
 
 >speech_prog p Where are you from?~
-say Originally, I'm from here, in Val Miran.
-say But I used to live in Miruvhor.
+say Originally, I'm from here, in Revelsport.
+say But I used to live in Zalango.
 shiver
 ~
 
 >speech_prog p Why did you leave?~
-say No real work in Miruvhor.
+say No real work in Zalango.
 say And the place is a slum.
 chuckle
 ~
 
 >speech_prog p Why did you move?~
-say No real work in Miruvhor.
+say No real work in Zalango.
 say And the place is a slum.
 chuckle
 ~   

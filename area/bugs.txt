@@ -1,0 +1,5 @@
+
+[11482] Llynia: Doesn't like it when I try to bio you, Crypt ;)
+[ 5500] Maelduin: There is a problem with the exit to the west in room 5500.
+[11695] Ghar: Firugg in the Hall of Rage Within Ulsym:  Some sayings are entered incorrectly.  It goes like this:  Firugg says "Say <>"
+[ 8108] Callis: comprehend languages doesn't affect tells in another language.

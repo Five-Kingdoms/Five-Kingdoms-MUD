@@ -1,0 +1,1200 @@
+#AREADATA
+Name Order of Crusades~
+Pref ~
+Builders ~
+VNUMs 6400 6499
+Max_Bastions 0
+Credits { ALL } Virigoth The Order of Crusades~
+Security 9
+Startroom 6406
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#6400
+Tungerz guard~
+Tungerz~
+Tungerz the Hierarch of the Crusades is here.
+~
+~
+human~
+ABZc A DHJ 0 750 0
+35 5 25d10+3500 0d0+100 6d6+10 thwack
+1 1 1 0
+FHKVX AB 0 0
+stand stand male none~
+175
+AHMV ABCDEFGHIJK medium 0
+P EXALL 6400 north~
+P FIGHT 6406 30~
+#6401
+Ontius guild master guildmaster~
+Ontius the Hermit~
+Ontius the Hermit is here bent over a holy tome.
+~
+He looks a hundred years old, his human face wrinkled and his bald head
+marked with scars.  He chants a holy psalm as his almost blind eyes trace
+over yet another page of a holy tome.  
+~
+human~
+ABKVZ A DHJ 0 1000 0
+60 0 50d10+8000 0d0+100 2d40+10 punch
+2 2 2 2
+FHKX AB 0 0
+stand stand male none~
+300
+AHMV ABCDEFGHIJK medium 0
+P GRALL 6407 100~
+P SPEECH 12112 no~
+P SPEECH 12111 yes~
+P GRALL 12110 100~
+#6402
+Nessly sister seer~
+Nessly the Simple~
+Sister Nessly the Simple rests between a prayer.
+~
+~
+human~
+ABVZ A DHJ 0 1000 0
+60 0 50d10+8000 0d0+100 2d40+10 punch
+2 2 2 2
+FHKX AB 0 0
+stand stand female none~
+300
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 6405 obelisk~
+P GRALL 6401 30~
+P RANDOM 6401 50~
+P SPEECH 6402 starstone~
+#6403
+Jon Vicar~
+Jon the Vicar~
+Father Jon the Vicar sits at the confessional.
+~
+A simple priest of the One God, he wears white robes as it is the custom
+of his order.  He awaits here patiently any of those in need of confession
+or his skills as a healer and mentor.  
+~
+human~
+ABVZa A DHJ 0 1000 0
+60 0 50d10+8000 0d0+100 2d40+10 punch
+2 2 2 2
+FHKX AB 0 0
+stand stand male none~
+300
+AHMV ABCDEFGHIJK medium 0
+P ACT 6403 kneels~
+#6404
+matilda cook~
+Matilda the Cook~
+Matilda the Cook stands here keeping the kitchen spotless.
+~
+A huge storm giant woman towers over you, her hands and belly jiggling
+with heavy rolls of fat.  Her wide face is split with a great smile as
+unconsciously wipes the kitchen tables clean and picks up almost invisible
+crumbs off of the floor.  
+~
+storm~
+ABVZa A DHJ 0 1000 0
+60 0 50d10+8000 0d0+100 2d40+10 punch
+2 2 2 2
+FHKX AB DJ PX
+stand stand female none~
+300
+AHMV ABCDEFGHIJK medium 0
+P GREET 6404 20~
+#6405
+crusader guard~
+a crusader~
+A Crusader stands on guard his eyes trained south.
+~
+A tall armored figure fully clad in formidable armor.  A single awe
+inspiring greatsword lies in his hands.  
+~
+human~
+AGTZcd A DJ 0 1000 0
+35 5 25d10+3500 0d0+100 6d6+10 cleave
+1 1 1 0
+FKX AB 0 0
+stand stand male none~
+175
+AHMV ABCDEFGHIJK medium 0
+P FIGHT 6406 30~
+#0
+
+
+
+#OBJECTS
+#6400
+large meal~
+a large meal~
+A large meal from the Order's kitchen.~
+food~
+food 0 A
+40 40 0 0 120
+1 30 50 P
+#6401
+small meal~
+small meal~
+A small meal from the Order's kitchen.~
+food~
+food 0 A
+20 20 0 0 100
+1 20 20 P
+#6402
+keg mead~
+a keg of mead~
+A hefty keg of some liquid is here.~
+porceline~
+drink 0 A
+150 150 'mead' 0 0
+1 20 15 P
+L
+18
+#6403
+huge pot warm mead~
+the pot of warm mead~
+A huge pot of warm mead stands over the fire.~
+milk~
+fountain 0 P
+-1 -1 'mead' 0 0
+1 10000 0 P
+#6404
+huge chest junk~
+the junk chest~
+A huge old junk chest waits here to be filled with useless items.~
+wood~
+container 0 P
+10000 0 0 10000 0
+1 1000 0 P
+#6420
+incense brazier bronze~
+a bronze brazier~
+A small incense brazier cast of bronze rests on the ground.~
+bronze~
+trash A P
+0 0 0 0 0
+0 0 0 P
+P USE 6420 100~
+#6421
+incense brazier bronze~
+a bronze brazier~
+A small incense brazier cast of bronze rests on the ground.~
+bronze~
+trash A P
+0 0 0 0 0
+0 0 0 P
+P SPEECH 6426 argue~
+P SPEECH 6425 question~
+P SPEECH 6424 listen~
+#6422
+incense brazier bronze~
+a bronze brazier~
+A small incense brazier cast of bronze rests on the ground.~
+bronze~
+trash A P
+0 0 0 0 0
+0 0 0 P
+P SPEECH 6425 tried~
+P SPEECH 6424 talked~
+P SPEECH 6426 reported~
+#6423
+incense brazier bronze~
+a bronze brazier~
+A small incense brazier cast of bronze rests on the ground.~
+bronze~
+trash A P
+0 0 0 0 0
+0 0 0 P
+P SPEECH 6424 choose~
+P SPEECH 6424 walk~
+P SPEECH 6426 continue~
+#6424
+incense brazier bronze~
+a bronze brazier~
+A small incense brazier cast of bronze rests on the ground.~
+bronze~
+trash A P
+0 0 0 0 0
+0 0 0 P
+P SPEECH 6429 pair~
+P SPEECH 6427 ruby~
+P SPEECH 6428 travelling~
+#6425
+incense brazier bronze~
+a bronze brazier~
+A small incense brazier cast of bronze rests on the ground.~
+bronze~
+trash A P
+0 0 0 0 0
+0 0 0 P
+P SPEECH 6429 stables~
+P SPEECH 6428 standard~
+P SPEECH 6427 noble~
+#6426
+incense brazier bronze~
+a bronze brazier~
+A small incense brazier cast of bronze rests on the ground.~
+bronze~
+trash A P
+0 0 0 0 0
+0 0 0 P
+P SPEECH 6429 bless~
+P SPEECH 6427 give~
+P SPEECH 6428 provide~
+#6427
+incense brazier bronze~
+a bronze brazier~
+A small incense brazier cast of bronze rests on the ground.~
+bronze~
+trash A P
+0 0 0 0 0
+0 0 0 P
+P SPEECH 6431 understood~
+P SPEECH 6430 announced~
+P SPEECH 6432 declared~
+#6428
+incense brazier bronze~
+a bronze brazier~
+A small incense brazier cast of bronze rests on the ground.~
+bronze~
+trash A P
+0 0 0 0 0
+0 0 0 P
+P SPEECH 6430 circle~
+P SPEECH 6431 stay~
+P SPEECH 6432 ride~
+#6429
+incense brazier bronze~
+a bronze brazier~
+A small incense brazier cast of bronze rests on the ground.~
+bronze~
+trash A P
+0 0 0 0 0
+0 0 0 P
+P SPEECH 6432 stepped~
+P SPEECH 6431 waited~
+P SPEECH 6430 pointed~
+#6430
+incense brazier bronze~
+a bronze brazier~
+A small incense brazier cast of bronze rests on the ground.~
+bronze~
+trash A P
+0 0 0 0 0
+0 0 0 P
+P SPEECH 6433 ride~
+P SPEECH 6434 gallop~
+P SPEECH 6435 travel~
+#6431
+incense brazier bronze~
+a bronze brazier~
+A small incense brazier cast of bronze rests on the ground.~
+bronze~
+trash A P
+0 0 0 0 0
+0 0 0 P
+P SPEECH 6434 pointed~
+P SPEECH 6433 kept~
+P SPEECH 6435 gave~
+#6432
+incense brazier bronze~
+a bronze brazier~
+A small incense brazier cast of bronze rests on the ground.~
+bronze~
+trash A P
+0 0 0 0 0
+0 0 0 P
+P SPEECH 6435 meet~
+P SPEECH 6433 go~
+P SPEECH 6434 send~
+#6433
+incense brazier bronze~
+a bronze brazier~
+A small incense brazier cast of bronze rests on the ground.~
+bronze~
+trash A P
+0 0 0 0 0
+0 0 0 P
+#6434
+embers glowing~
+an ember~
+A small glowing emeber has fallen on the ground here.~
+coal~
+light A A
+0 0 48 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#6400
+`8Before the Main Altar``~
+You stand at the north section of the Cathedral, an old altar of One God 
+before you. The area is filled with various holy tomes and artifacts that
+should never have been placed in such precarious environment.  Small alcoves
+lie east and west with the cathedral's main area being south of here.
+~
+~
+0 295698440 0 0
+D1
+~
+~
+0 0 6403
+D2
+~
+~
+0 0 6413
+D3
+A small alcove shrouded in half light.
+~
+~
+0 0 6402
+P GRALL 2 100~
+S
+#6401
+`3Before a Church Fortress``~
+You stand on a small stony plateau with a sizable fortress cradling a
+large cathedral north of your position.  On the cathedral's copper roof
+which has long time past taken a green dirty hue a symbol of the One God has
+been setup.  It sparkles brightly regardless of light or lack there of, like
+a beacon of faith and hope surrouned by massive walls and fortifications
+protecting it.  
+~
+~
+0 0 0 2
+D0
+Surrounded by massive walls and fortifications the Cathedral of the Order
+lies northwards.  
+~
+~
+0 0 6406
+S
+#6402
+`8A Dark Alcove``~
+You stand in a small smokey alcove clouds of sweet incense floating up
+from brass burners up towards the ceiling.  A long row of tall candles burns
+on the far wall before a small altar dedicated to virtues of modesty.  A
+single small table with an old wooden chair is setup here.  
+Small steps lead down into the kitchen.
+~
+~
+0 295698440 0 0
+D1
+You see a small altar and an old hermit reading a holy tome.
+~
+~
+0 0 6400
+D5
+~
+~
+0 0 6404
+S
+#6403
+`8The Confessional``~
+You stand in a small alcove surrounded by various holy scriptures of One
+God which have been hanged on the walls about you.  A small wooden
+confessional smelling of oak and incense is mounted on the far wall.  Small
+steps lead down into the darkness.  
+~
+~
+0 295698440 0 0
+D3
+~
+~
+0 0 6400
+D5
+~
+~
+0 0 6405
+S
+#6404
+`8A Small Kitchen``~
+You stand at an entrance to a small kitchen, clean and spotless as
+if it has never been used.  Various spices and ingredients fill
+the air with their aroma mixed with the holy smell of incense.
+~
+~
+0 295698440 0 0
+D4
+~
+~
+0 0 6402
+S
+#6405
+`8The Store Room``~
+Dust gathers upon shelves and shelves of various tomes, scriptures as
+well as a shelf of holy wine, and three shelves of various jams and
+milk cookies baked by Matilda.
+~
+~
+0 295698440 0 0
+D4
+~
+~
+0 0 6403
+S
+#6406
+`3Before the Fortress Gate``~
+You are directly before the massive gates of the Fortress which stands
+upon a small rocky plateau with bottomless depths surrounding its walls. 
+Only a small path leads southwards from here, well covered by eyes of
+numerous guards upon the battlements and their weapons of war trained on
+this very spot.  A massive gate of some strange sparkling stone or metal is
+directly north of you.  
+~
+~
+0 8 0 2
+D0
+~
+~
+0 0 6407
+D2
+A small path weaves south back into the mountain paths.
+~
+~
+0 0 6401
+P GRALL 6400 100~
+S
+#6407
+`8The Portcullis``~
+You are surrounded by strange glow of the walls in which this portcullis
+has been mounted.  Dozens upon dozens of small holes line the walls to
+either side of you with large openings crafted far above you.  Small sooted
+nozzles' of unknown purpose line each corners of the gateway staring at you
+with their dark mysterious maws.  South is the way back into the mountains,
+north of you is the courtyard.  
+~
+~
+0 12 0 0
+D0
+~
+~
+0 0 6408
+D2
+Directly south lies the entrance to the gate and further the path back
+into the mountains.  
+~
+~
+0 0 6406
+S
+#6408
+`8Before the Cathedral``~
+You stand in a small courtyard created by the space between the massive
+battlements and the Cathedral of the Order of Crusades.  Its tall jagged
+spires rise far above you, with the snarling gargoyle statues sneering at
+you from their edges.  The battlements lead east and west with the
+portcullis south of here and the Cathedral entrance north of you.  
+~
+~
+0 295698432 0 0
+D0
+The entrance to the Cathedral lies there.
+~
+~
+0 0 6413
+D1
+~
+~
+0 0 6412
+D2
+The giant portcullies lies that way.
+~
+~
+0 0 6407
+D3
+You see the path leading around the Cathedral.
+~
+~
+0 0 6409
+S
+#6409
+`8West Turret``~
+You are directly below a tall round turret its circumfrence lined with
+various openings filled with gleaming weapons of war.  You hear the steps of
+sizable guard patroling the perimiter their weapons and armor creaking
+occasionly.  
+~
+~
+0 295698432 0 0
+D0
+You see the path leading around the Cathedral.
+~
+~
+0 0 6410
+D1
+You see the path leading around the Cathedral.
+~
+~
+0 0 6408
+S
+#6410
+`8North West Turret``~
+You are directly below a tall round turret its circumfrence lined with
+various openings filled with gleaming weapons of war.  You hear the steps of
+sizable guard patroling the perimiter their weapons and armor creaking
+occasionly.  
+~
+~
+0 295698432 0 0
+D1
+You see the path leading around the Cathedral.
+~
+~
+0 0 6411
+D2
+You see the path leading around the Cathedral.
+~
+~
+0 0 6409
+S
+#6411
+`8North East Turret``~
+You are directly below a tall round turret its circumfrence lined with
+various openings filled with gleaming weapons of war.  You hear the steps of
+sizable guard patroling the perimiter their weapons and armor creaking
+occasionly.  
+~
+~
+0 295698432 0 0
+D2
+You see the path leading around the Cathedral.
+~
+~
+0 0 6412
+D3
+You see the path leading around the Cathedral.
+~
+~
+0 0 6410
+S
+#6412
+`8East Turret``~
+You are directly below a tall round turret its circumfrence lined with
+various openings filled with gleaming weapons of war.  You hear the steps of
+sizable guard patroling the perimiter their weapons and armor creaking
+occasionly.  
+~
+~
+0 295698432 0 0
+D0
+You see the path leading around the Cathedral.
+~
+~
+0 0 6411
+D3
+You see the path leading around the Cathedral.
+~
+~
+0 0 6408
+S
+#6413
+`8The Order of Crusades``~
+You stand amidst the great Cathedral of the Order of Crusades, surrounded
+by various holy relics and tomes of the One God.  The walls and floors are
+covered in various painted motives, with one dedicated to the battle of
+Auric, Garamand and Verusitus and their triumph over the Hooded servants of
+Virigoth.  South is the exit from the cathedral, while north lies the main
+altar.  
+~
+~
+0 295698444 0 0
+D0
+You see a few figures in the half light.
+~
+~
+0 0 6400
+D2
+The exit from the cathedral lies south.
+~
+~
+0 0 6408
+S
+#6420
+`8The Four Trials``~
+You stand in a small cramped room a large altar dedicated to the One God
+before you.  The walls and floor are covered in various scriptures dedicated
+to the principles and workings of the order and more then one mention of the
+scroll of "help order of crusades" is visible.  
+~
+~
+0 8460 0 0
+S
+#6421
+`8The First Trial``~
+A vision comes upon you...  You see yourself as a young student of you
+guild, in a room with your guildmaster lecturing on a principle of combat
+you do not agree with, in fact you are more then certain by theory and
+practice it is incorrect.  Do you...  
+ 
+LISTEN   intently trying to learn as much about the subject as possible.
+QUESTION the guild master's stand point and agree or disagree based
+``         on the arguments he presents.
+ARGUE    with the guild master refusing to believe his obvious fallacy.
+~
+~
+0 8460 0 0
+S
+#6422
+`8The First Trial``~
+A vision comes upon you...  You recall the time when your favorite
+friend has stolen some gold to purchase healing herbs for his sick brother. 
+He later confided in you about his wrong doings and you remember strongly
+detesting what he has done.  You...  
+ 
+TRIED    to replace the gold he stole covering for him through a good
+         deed.
+TALKED   to him trying to get him to return the gold before he spent it.
+REPORTED his theft to the authorities.
+~
+~
+0 8460 0 0
+S
+#6423
+`8The First Trial``~
+A vision comes upon you...  You see yourself on a way to deliver an
+urgent scroll for your guild.  Passing through a small town you cross
+a marker market and spot a weapon and armor shops on either side.  
+You...  
+ 
+CHOOSE    the weapon store knowing you will be safer well armed.
+WALK      to the armor store knowing you will be safer well protected.
+CONTINUE  on your way without stopping.
+~
+~
+0 8460 0 0
+S
+#6424
+`8The Second Trial``~
+A vision comes upon you...  You see yourself during a guild ceremony
+marking the achievement of your 15th rank.  In a sign of approval of greater
+responsibility the guild master hands you a...  
+ 
+TRAVELLING cloak of padded crimson satin.
+RUBY       hilted blade from overseas.
+PAIR       of comfortable leather gloves.
+~
+~
+0 8460 0 0
+S
+#6425
+`8The Second Trial``~
+A vision comes upon you...  You see yourself nearing the end of a long
+tedious journey from Miruvhor to Val Miran.  You enter the city of Rheydin
+and head for the Red Dragon Inn where you pay for..  
+ 
+NOBLE    suite knowing the money is well spent for the rest you and your 
+         mount will get.
+STANDARD room saving your hard earned gold while still getting good rest.
+STABLES  in which you brush your mount and then lie to rest in hay with it.
+~
+~
+0 8460 0 0
+S
+#6426
+`8The Second Trial``~
+A vision comes upon you...  You see yourself travel and through sheer
+luck meet up with a friar on a way to the local shrine of the One.  He asks
+you to..  
+ 
+PROVIDE him protection for his travels.
+GIVE    him some coin to aid him in his travels.
+BLESS   him on his way and go your way.
+~
+~
+0 8460 0 0
+S
+#6427
+`8The Third Trial``~
+A vision comes upon you...  You remember your early days when you tried
+to sneak a fairly rare item past your guildmaster's back knowing you should
+have given the item to him.  You got caught and..  
+ 
+DECLARED   the item is yours to keep as you found it, and the guildmaster
+           can go to Tower of Winds before he gets it.
+ANNOUNCED  you were trying to sneak it in as a surprise for your guild mate.
+UNDERSTOOD that the item is useless to you for now, and gave it up for
+           the guild to use as it sees fit.
+~
+~
+0 8460 0 0
+S
+#6428
+`8The Third Trial``~
+A vision comes upon you...  You see yourself on one of your many travels
+as you crest a hill and spot a large merchant carvan heading your way. 
+You..  
+ 
+RIDE   forward and meet them.
+STAY   your ground and watch them approach.
+CIRCLE about them observing them to make a better decision.
+~
+~
+0 8460 0 0
+S
+#6429
+`8The Third Trial``~
+A vision comes upon you...  You remember the time your friend's sister
+fell sick and to obtain the healing herb your friend stole from the guild
+coffers.  The next day the guild master ordered the thief to step forth or
+all members would suffer.  You..  
+ 
+POINTED your friend out knowing he was the wrong doer.
+STEPPED forth yourself taking the blame upon yourself.
+WAITED  for someone else to step forth then stepped forth yourself.
+~
+~
+0 8460 0 0
+S
+#6430
+`8The Fourth Trial``~
+A vision comes upon you...  You recall a time when as a young child you
+belonged to a clan of youths with similar interests and goals.  In childish
+yet grown act all members of the clan swore to always aid each other.  Many
+years later as an adult you receive a scroll from you old clan mate asking
+for aid, yet your guild has just sent you forth on a mission of aid to a
+nearby plagued village.  Knowing you cannot reach both the friend and the
+village you..  
+ 
+RIDE   to the village and aid it.
+TRAVEL to the friend and aid him.
+GALLOP back to the guild and try to send someone to the village while
+       you ride to your friend.
+~
+~
+0 8460 0 0
+S
+#6431
+`8The Fourth Trial``~
+A vision comes upon you...  You recall a certain archery test you took in
+your early days, and remember one of your rivals overstring his cross bow in
+an attempt to give himself a better chance, not knowing that this maneuver
+harmed the crossbows aim greatly.  Knowing this you..  
+ 
+POINTED this out to him so he could compensate with his aim.
+KEPT    quiet, his mistakes were his to make.
+GAVE    him your own cross bow when his turn to shoot came.
+~
+~
+0 8460 0 0
+S
+#6432
+`8The Fourth Trial``~
+A vision comes upon you...  You see yourself giving your friend a word to
+help him with his swordplay.  Moments later your guildmaster calls for you
+and sends you on an urgent quest to deliver a message to a guild in
+Miruvhor.  Knowing that you can only meet your friend or perform the quest
+you..  
+ 
+MEET your friend on time and help him with his swordplay.
+GO   to the guild in Miruvhor and deliver the vital message.
+SEND a unreliable messenger to your friend and go deliver the message.
+~
+~
+0 8460 0 0
+S
+#6433
+`8The Four Trials``~
+You stand in a small cramped room a large altar dedicated to the One God
+before you.  The walls and floor are covered in various scriptures dedicated
+to the principles and workings of the order and more then one mention of the
+scroll of "help order of crusades" is visible.  
+~
+~
+0 8456 0 0
+D4
+~
+~
+0 0 6400
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 6403 spec_cast_cabal_healer
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 6401 1 6400 1
+M 0 6402 1 6402 1
+M 0 6403 1 6403 1
+M 0 6404 1 6404 1
+G 0 6400 0
+G 0 6401 0
+G 0 6402 0
+O 0 6403 0 6404
+O 0 6404 0 6405
+M 0 6400 1 6407 1
+M 0 6405 2 6409 1
+M 0 6405 1 6411 2
+M 0 6405 2 6411 1
+O 0 6420 0 6420
+O 0 6421 0 6421
+O 0 6422 0 6422
+O 0 6423 0 6423
+O 0 6424 0 6424
+O 0 6425 0 6425
+O 0 6426 0 6426
+O 0 6427 0 6427
+O 0 6428 0 6428
+O 0 6429 0 6429
+O 0 6430 0 6430
+O 0 6431 0 6431
+O 0 6432 0 6432
+O 0 6433 0 6433
+S
+
+
+
+#SHOPS
+6404 19 0 0 0 0 100 100 0 24
+0
+
+
+
+#MOBPROGS
+#6400
+if room $i != 6407
+or isimmort $n
+  break
+endif
+if isbloody $n
+  say You will not be allowed to pass with blood upon you $N.
+  pmote steps infront of $N his massive armor creaking.
+  mob stop $n
+  break
+endif
+if class $n crusader
+  'May the One guide you $n.
+  break
+else
+  pmote levels a massive halberd at $N, its serrated edge gleaming.
+  say None shall pass.
+  mob stop $n
+endif
+~
+#6401
+if isdelay $i
+  break
+endif
+if affspell $i 'locate object'
+  break
+endif
+pmote turns her blind stare towards $R.
+'If you seek my help child, ask me of obelisks or starstones.
+pmote returns to her prayers.
+mob delay 2
+~
+#6402
+if isnpc $n
+  break
+endif
+star_seer
+~
+#6403
+if isnpc $n
+  break
+endif
+pmote listens carefully to $N and gives a hard but worthy penance.
+mob echoat $n You feel as if a great weight has lifted off your shoulders.
+~
+#6404
+if isnpc $n
+  break
+endif
+if race $n 'storm'
+or race $n 'stone'
+or race $n 'fire'
+or race $n 'ogre'
+  'There ya big boy, ye need some mead fer ye size!
+else
+  'Oy oy little one, ye be needin some mead fer ye little muscle.
+endif
+~
+#6405
+if isnpc $n
+  break
+endif
+ 
+obelisk_seer
+~
+#6406
+shoulder
+~
+#6407
+if class $n crusader
+  break
+endif
+if hasquest $n '`&Passed the Four Trials of the Order of Crusades.``'
+  say Congratulations $N!  You have shown yourself worthy of the Order's teachings.
+  mob echoat $n You are led away into a secret chamber where you are swear your oaths.
+  qcrus $n
+  break
+endif
+if hasquest $n '`&Passed the Trials of the Order of Crusades.``'
+  mob remquest $n `&Passed the Trials of the Order of Crusades.``
+  mob permquest $n `&Passed the Four Trials of the Order of Crusades.``
+  glare $n
+  say I fear the Trials have tested your merit and you were found wanting.
+  say The Order of Crusades rejects you as its pupil $N.  Im sorry.
+  pmote turns away from $N.
+  break
+endif
+~
+#0
+
+M 6401 0 serin_warrior.prg NL
+M 6402 0 serin_warrior.prg NL
+M 6403 0 serin_warrior.prg NL
+M 6404 0 serin_warrior.prg NL
+S
+
+
+
+
+#OBJPROGS
+#6420
+obj echo ``
+obj echo Thick clouds of incense bellow forth from $I making your head swim.
+obj echo ``
+if rand 30
+  obj gtransfer $n 6421
+  break
+endif
+if rand 50
+  obj gtransfer $n 6422
+else
+  obj gtransfer $n 6423
+endif
+~
+#6421
+obj echo ``
+obj echo Thick clouds of incense bellow forth from $I making your head swim.
+obj echo ``
+if rand 30
+  obj gtransfer $n 6424
+  break
+endif
+if rand 50
+  obj gtransfer $n 6425
+else
+  obj gtransfer $n 6426
+endif
+~
+#6422
+obj echo ``
+obj echo Thick clouds of incense bellow forth from $I making your head swim.
+obj echo ``
+if rand 30
+  obj gtransfer $n 6427
+  break
+endif
+if rand 50
+  obj gtransfer $n 6428
+else
+  obj gtransfer $n 6429
+endif
+~
+#6423
+obj echo ``
+obj echo Thick clouds of incense bellow forth from $I making your head swim.
+obj echo ``
+if rand 30
+  obj gtransfer $n 6430
+  break
+endif
+if rand 50
+  obj gtransfer $n 6431
+else
+  obj gtransfer $n 6432
+endif
+~
+#6424
+if isnpc $n
+  break
+endif
+obj tempquest $n taken the First trial.`0``
+obj call 6421 $n null null
+~
+#6425
+if isnpc $n
+  break
+endif
+obj tempquest $n taken the First trial.`1``
+obj call 6421 $n null null
+~
+#6426
+if isnpc $n
+  break
+endif
+obj tempquest $n taken the First trial.`2``
+obj call 6421 $n null null
+~
+#6427
+if isnpc $n
+  break
+endif
+obj tempquest $n taken the Second trial.`0``
+obj call 6422 $n null null
+~
+#6428
+if isnpc $n
+  break
+endif
+obj tempquest $n taken the Second trial.`1``
+obj call 6422 $n null null
+~
+#6429
+if isnpc $n
+  break
+endif
+obj tempquest $n taken the Second trial.`2``
+obj call 6422 $n null null
+~
+#6430
+if isnpc $n
+  break
+endif
+obj tempquest $n taken the Third trial.`0``
+obj call 6423 $n null null
+~
+#6431
+if isnpc $n
+  break
+endif
+obj tempquest $n taken the Third trial.`1``
+obj call 6423 $n null null
+~
+#6432
+if isnpc $n
+  break
+endif
+obj tempquest $n taken the Third trial.`2``
+obj call 6423 $n null null
+~
+#6433
+if isnpc $n
+  break
+endif
+obj tempquest $n taken the Fourth trial.`0``
+obj echo ``
+obj echo The embers in $I slowly die out and incense clears.
+obj echo ``
+obj call 6436 $n null null
+obj gtransfer $n 6433
+~
+#6434
+if isnpc $n
+  break
+endif
+obj tempquest $n taken the Fourth trial.`1``
+obj echo ``
+obj echo The embers in $I slowly die out and incense clears.
+obj echo ``
+obj call 6436 $n null null
+obj gtransfer $n 6433
+~
+#6435
+if isnpc $n
+  break
+endif
+obj tempquest $n taken the Fourth trial.`2``
+obj echo ``
+obj echo The embers in $I slowly die out and incense clears.
+obj echo ``
+obj call 6436 $n null null
+obj gtransfer $n 6433
+~
+#6436
+if isnpc $n
+  break
+endif
+if hasquest $n 'to seek out the Cathedral of the Order of Crusades.'
+  obj attrib $i cost = 0
+  if hasquest $n 'taken the First trial.`1``'
+      obj attrib $i cost + 1
+  else
+    if hasquest $n 'taken the First trial.`2``'
+        obj attrib $i cost + 2
+    endif
+  endif
+  if hasquest $n 'taken the Second trial.`1``'
+      obj attrib $i cost + 1
+  else
+    if hasquest $n 'taken the Second trial.`2``'
+        obj attrib $i cost + 2
+    endif
+  endif
+  if hasquest $n 'taken the Third trial.`1``'
+      obj attrib $i cost + 1
+  else
+    if hasquest $n 'taken the Third trial.`2``'
+        obj attrib $i cost + 2
+    endif
+  endif
+  if hasquest $n 'taken the Fourth trial.`1``'
+      obj attrib $i cost + 1
+  else
+    if hasquest $n 'taken the Fourth trial.`2``'
+        obj attrib $i cost + 2
+    endif
+  endif
+  if objcost $i > 3 
+    obj permquest $n `&Passed the Four Trials of the Order of Crusades.``
+  else
+    obj permquest $n `&Passed the Trials of the Order of Crusades.``
+  endif
+  obj remquest $n taken the First trial.`0``
+  obj remquest $n taken the First trial.`1``
+  obj remquest $n taken the First trial.`2``
+  obj remquest $n taken the Second trial.`0``
+  obj remquest $n taken the Second trial.`1``
+  obj remquest $n taken the Second trial.`2``
+  obj remquest $n taken the Third trial.`0``
+  obj remquest $n taken the Third trial.`1``
+  obj remquest $n taken the Third trial.`2``
+  obj remquest $n taken the Fourth trial.`0``
+  obj remquest $n taken the Fourth trial.`1``
+  obj remquest $n taken the Fourth trial.`2``
+  obj remquest $n to seek out the Cathedral of the Order of Crusades.
+endif
+~
+#0
+
+#ROOMPROGS
+#6400
+if hasquest $n 'to seek out the Cathedral of the Order of Crusades.'
+  room echoat $n As you near, a monk clad only in a brown robe approaches.
+  room echoaround $n As $N nears the gate, a monk clad only in a brown robe approaches.
+  room echo A monk says '`#Hail there $N, the Order of Crusades has been expecting you.``'
+  room echo A monk says '`#Follow me at once.``'
+  room echoaround $n The monk leads $N away. 
+  room echoat $n The monk leads you through many passages of the fortress and the church.
+  room echoat $n You are finaly led into a small room where the door slams shut behind you.
+  room echoat $n ``
+  room trans $n 6420
+endif
+~
+#0
+
+#$

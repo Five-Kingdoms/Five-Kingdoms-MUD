@@ -1,0 +1,1380 @@
+#AREADATA
+Name [SAGE]~
+Pref ~
+Builders Crypticant~
+VNUMs 17200 17299
+Max_Bastions 0
+Credits { ALL } Crypticant    [SAGE] ~
+Security 9
+Startroom 17200
+Flags 0
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#17200
+air elemental~
+an Air Elemental~
+Slightly out of your vision stands a blurry form.
+~
+Most odd.  You know someone or something is present but when you try to
+look at it there is nothing.  Instead the image seems to move out of your
+vision again and when you turn your attention to it's new position it is
+gone.  It would seem to be composed entirely of air yet have a form.  
+~
+unique~
+ABVZ A BDFHJNOU 0 0 0
+50 40 1d1+5000 0d0+0 8d5+60 magic
+-20 -20 -20 -20
+ADEFKW AB C 0
+stand stand none none~
+26
+AHMV ABCDEFGHIJK medium 0
+P EXALL 17200 down~
+P EXALL 17200 up~
+P EXALL 17200 west~
+P EXALL 17200 east~
+P FIGHT 17201 100~
+P EXALL 17200 south~
+P GRALL 26 100~
+#17201
+ethereal servants~
+a group of ethereal servants~
+A group of ethereal servants to Sage floats far above you.
+~
+Their translucent forms shimmer in an out of existance, as the roughly humanoid
+shapes float above the ground with effortless ease.  Not a single sound comes forth
+from the strange begins, their silent demeanor unsettling and ominous.
+~
+human~
+ABLVZe AK T E 0 0
+50 1000 1500d1+0 0d0+0 0d0+0 none
+0 0 0 0
+0 AB 0 0
+stand stand none none~
+22
+AHMV ABCDEFGHIJK medium 0
+#17202
+time elemental~
+the Time Elemental~
+Sizzling fragments of time form a blurred translucent entity.
+~
+The very fabric of time around the area seems strained to the limit as strange
+and unexplainable energies sizzle and ground out into the land below the entity.
+Its size seems at once enourmous and small, far and close, and its passage
+though all but unseen except for the ripples left in reality and time, forshadows
+great pain and misery elsewhere.
+~
+human~
+ABLVZe AK TU 0 0 0
+50 1500 1800d1+1 0d0+0 1d1+0 none
+0 0 0 0
+0 CD 0 0
+stand stand none none~
+25
+AHMV ABCDEFGHIJK medium 0
+#17203
+bastion mana sphere~
+the Mana Sphere~
+The [`4SAGE``] Mana Sphere floats far above, humming with foreign energies.
+~
+There is not much to see, but rather to sense as your mind instinctivly detects
+the gathering of enourmous forces far above you.  Once in a long while the
+translucent outline of a giant sphere winks into existance as arcs of brilliant
+energy strike down towards the ground.
+~
+human~
+ABLVZe AJ TU 0 0 0
+50 1000 1000d1+0 0d0+0 1d1+0 none
+0 0 0 0
+0 AB 0 0
+stand stand none none~
+24
+AHMV ABCDEFGHIJK huge 0
+#17204
+bastion time sphere~
+the Time Sphere~
+The [`4SAGE``] Time Sphere ripples the reality far above you.
+~
+Your gaze towards the sphere seems to look into distance which your instinct
+tells you to be infinitely greater then it seems.  Strange ripples thwart your
+vision, their source the large translucent sphere from which howls of energies
+beyond mortal imagining escape forth occasionly.
+~
+human~
+ABLVZe AJ TU 0 0 0
+50 1500 2000d1+0 0d0+0 1d1+0 none
+0 0 0 0
+0 AB 0 0
+stand stand none none~
+26
+AHMV ABCDEFGHIJK huge 0
+#17205
+fragment temporal energy~
+A Temporal Fragment~
+A fragment of temporal energy buzzes softly here.
+~
+A deep blue, with bolts of eldritch lightning arcing across it's surface,
+this ball of energy encompasses everything within the room.  Object of
+interest float aimlessly within it, yet you cannot seem to grasp any of
+them.  They appear tangible, but are most certainly incorpreal.  A faint
+chorus of whispered thoughts enter your mind as you look around yourself
+in awe.  
+~
+unique~
+ABLZ A DFHTUV E 1000 15700
+70 15 1000d1+1 0d0+100 10d20+45 digestion
+20 20 20 20
+CEIJN AB 0 0
+stand stand none none~
+31
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17205 20~
+#17210
+blind drow man~
+a blind drow man~
+A drow man is here talking to the walls and listening to the echoes.
+~
+Before you is a tiny drow man darting back and forth, looking at the
+walls.  He appears lost and confused.  You look at his face and notice both
+his eyes are damaged and it appears he may be blind.  That would explain his
+choice of attire, emerald green robes accented with a blue shoe on one foot
+and a white shoe on the other.  
+~
+drow~
+ABGe A JP 0 -750 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB B Ya
+stand stand male none~
+10
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17210 25~
+#17211
+small bent goblin~
+a small bent goblin~
+A small bent goblin is here winding clocks.
+~
+This gnarled old goblin looks as if he is as old as time itself.  He is
+bent over with a large hump on his back and has limbs as twisted as
+saplings.  His face is like wrinkled leather dyed green and his clothes are
+in tattered ruins.  He wears thin wire-rimmed glasses that always seem about
+to fall off of his long sharp nose.  He mutters absently to himself as he
+scurries around, placing a key in clock after clock to wind them.  
+~
+goblin~
+ABGJKabe A JP 0 0 0
+60 0 2d7+46 32d1+1 1d5+1 smash
+6 6 6 9
+EFN AB BQ CYa
+stand stand male none~
+28
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17211 20~
+#17212
+a small gnome man~
+a small gnome~
+A small gnome man is here carrying a small box.
+~
+A small gnome man wearing the most absurd clothing walks around the room
+carrying a small box.  His floppy stocking cap is a deep purple, his shirt
+is a yellow as bright as the sun with ocean blue polka dots covering it. 
+His red trousers tuck nicely into high laced green leather boots.  The small
+box he carries seems to be covered in magical runes.  
+~
+gnome~
+ABGe A JP 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB BQ BCEPYa
+stand stand male none~
+9
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17212 20~
+#17213
+a small gnome man~
+a small gnome~
+A small gnome man is here carrying a small box.
+~
+A small gnome man wearing the most absurd clothing walks around the room
+carrying a small box.  His floppy stocking cap is a deep purple, his shirt
+is a yellow as bright as the sun with ocean blue polka dots covering it. 
+His red trousers tuck nicely into high laced green leather boots.  The small
+box he carries seems to be covered in magical runes.  
+~
+gnome~
+ABGe A JP 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB BQ BCEPYa
+stand stand male none~
+6
+AHMV ABCDEFGHIJK medium 0
+#17214
+man two-headed~
+a two-headed man~
+A two-headed man stands here arguing with...himself.
+~
+Before you is a tiny man...  Or is it tiny men.  This man has two heads
+that are shaking from side to side as frustration over takes thier
+expressions.  They argue back and forth, and using the one body they share
+to whap each other in the head for being an idiot.  
+~
+human~
+ABGJKabe A JP 0 0 0
+60 45 6d6+60 34d1+99 500d1+35 smash
+6 6 6 9
+EFN AB B Ya
+stand stand male none~
+27
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17214 20~
+#17215
+a Sage teacher~
+a Sage teacher~
+A Sage teacher is here giving instructions to his class.
+~
+Standing in front of his class holding a wand in one hand, and an old
+book in the other, is a wisened man in long flowing robes.  His hair is an
+even mix of black and gray, that flows freely down his back.  Now and then
+he gets a look of irritation on his face, followed by a flick of his wrist
+and a muttered word.  This seems to always be followed by a scream of
+surprise and pain from a student.  
+~
+human~
+ABGae A JP 0 0 0
+4 0 2d7+46 16d1+1 1d5+1 smash
+6 6 6 9
+EFN AB BQ CEYa
+stand stand male none~
+5
+AHMV ABCDEFGHIJK medium 0
+#17216
+elf student~
+an elvish student~
+An elvish student sits at his desk attempting spells.
+~
+A young elf sits at a desk looking at the wand in his hand in
+frustration.  There seems to be soot covering large portions of his hands
+and face, and the sleeves and hem of his robes are singed and frayed. 
+Littered around him are glass beakers and jars, most have fallen over and
+are broken, their contents spilled on the desktop.  
+~
+elf~
+ABGe A JP 0 750 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB BQ CEYZa
+stand stand male none~
+3
+AHMV ABCDEFGHIJK medium 0
+#17217
+drow student~
+a drow student~
+A drow student sits grinning evilly behind his desk.
+~
+A young drow sits behind his desk peering now and then at the elf sitting
+at the desk near him.  Now and then a sly grin crosses his face and he
+mutters something under his breath.  After hearing glass break and a cry of
+alarm, he gives a chuckle and continues reading his book.  
+~
+drow~
+ABGe A JP 0 -750 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB BQ CEYZa
+stand stand male none~
+11
+AHMV ABCDEFGHIJK medium 0
+#17218
+field rat~
+a field rat~
+A small brown field rat is here swinging a pick at the side of a pool.
+~
+Short brown fur covers the small rat standing next to the pool near you. 
+He wields a tiny pick, its ends sharpened to a needlepoint.  He stands on
+his hind feet and swings at the side of the pool, breaking away the dirt
+that holds the water in.  With each blow, more and more water drains away.  
+~
+unique~
+ABGe A JP 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB BQ CEYZa
+stand stand male none~
+9
+AHMV ABCDEFGHIJK small 0
+#17219
+field rat~
+a field rat~
+A black field rat is here stabbing at the side of a pool with a knife.
+~
+Long black fur covers the small rat standing at the pool near you.  She
+stabs furiously at the side of the pool, allowing more and more water to
+drain away.  Once it drains low enough, she stands up to take a break, only
+to have the water rush back up to the top.  
+~
+unique~
+ABGe A JP 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB BQ CEYZa
+stand stand female none~
+11
+AHMV ABCDEFGHIJK small 0
+#17220
+bullfrog~
+a bullfrog~
+A huge bullfrog with pale eyes sits on a lily pad.
+~
+A bullfrog the size of an elephant sits on a lily pad in the middle of a
+large pool.  The bright pink skin on its back is covered with warts and
+slick slime, its underbelly a soft blue with yellow spots.  Its eyes are so
+pale they are almost white, and the intelligence they convey is most
+unnerving.  
+~
+unique~
+ABGae A JP 0 0 0
+60 0 1d9999+1 5d1+99 6d4+30 smash
+6 6 6 9
+EFN AB BQ 0
+stand stand male none~
+28
+AHMV ABCDEFGHIJK huge 0
+#17221
+pixie~
+a pixie~
+A pixie flutters near the mist.
+~
+A tiny pixie flutters on mosquito-like wings near the mist.  He seems
+fascinated with the ebb and flow of the mist as it pulsates around the coil.
+Every now and then he tentatively reaches out towards the mist, only to
+suddenly pull it back.  
+~
+unique~
+ABGe A JP 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB BQ CEYZa
+stand stand male none~
+4
+AHMV ABCDEFGHIJK tiny 0
+#17222
+pixie~
+a pixie~
+A pixie with an uncertain look on its face hovers away from the coil and mist.
+~
+With a mixed look of uncertainty and fear on his face, a pixie floats
+back away from the coil and mist.  He stares constantly at a pixie that
+seems too close to the mist for his comfort, and yells at him to get away.  
+~
+unique~
+ABGe A JP 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB BQ CEYZa
+stand stand male none~
+7
+AHMV ABCDEFGHIJK tiny 0
+#17223
+technician~
+a technician~
+A technician runs around changing settings on control panels.
+~
+A technician with short, slicked back hair runs around making changes to
+a control panel.  He wears a full-length black plastic cloak and shiny black
+rubber gloves.  On his face are thick plastic goggles.  
+~
+human~
+ABGe A JP 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB BQ CEYa
+stand stand male none~
+9
+AHMV ABCDEFGHIJK medium 0
+#17224
+technician~
+a technician~
+A wild looking technician runs around yelling about time.
+~
+A wild looking man with white hair runs all over the place, arms
+flailing, yelling at other technicians about dates and times.  He wears a
+long white cotton coat, brown pants, and has thin wire-rimmed glasses on his
+face.  
+~
+human~
+ABGe A JP 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB BQ CEYa
+stand stand male none~
+8
+AHMV ABCDEFGHIJK medium 0
+#17225
+midget dragon~
+a midget dragon~
+A midget dragon stands here with a look of irritation on its face.
+~
+A bright green dragon with pink stripes stands here.  It looks exactly
+like a full grown, mature dragon, except that its much smaller.  It stands
+about the size of a hippopotamus, with short legs, and a stumpy tail.  Where
+the wings would be there are simply nubs.  On its face is a look of
+irritation bordering on hatred.  
+~
+dragon~
+ABGe A JPT 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB BEHQ CEFIYZa
+stand stand male none~
+7
+AHZ ACDEFGHIJKLPQUVX huge 0
+#17226
+gnome small man~
+Efuzan~
+A small man walks around muttering to himself.
+~
+A comical little man walks continuously around the room.  He wears a
+simple tunic and trousers with sandals on his feet.  He also wears a huge
+metal contraption on his head that swirls and pings.  It seems to be made
+out of springs, levers, and bearings, all resting on a sort of metal bowl. 
+He seems to constantly mutter to himself about what he needs to get done.  
+~
+gnome~
+ABGe A JP 0 0 0
+60 1000 1d1+1000 0d0+1200 1d10+500 smash
+6 6 6 9
+EFN ABCD BQ P
+stand stand male none~
+27
+AHMV ABCDEFGHIJK small 0
+F vul B
+#17227
+old mage~
+an old mage~
+An old mage is here looking through the shelves.
+~
+A wrinkled old man with a beard nearly to the floor slowly walks down the
+shelves looking at the contents.  He wears a bright blue conical hat that
+shoots up about two feet over his head.  His long flowing robes are of a
+matching color and reach all the way to the floor.  
+~
+human~
+ABGRe A JP 0 0 0
+38 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB 0 0
+stand stand male none~
+19
+AHMV ABCDEFGHIJK medium 0
+#17228
+caretaker~
+a caretaker~
+A caretaker walks back and forth, taunting heads in jars.
+~
+A hunched man in a long heavy black cloak paces about the room.  He has
+eyes that look as if they are about to jump from his head.  As he walks, his
+right leg drags behind him causing him to limp.  As he passes heads in jars
+he turns to look at them and tells them he is going to throw them against
+the wall if they dont pipe down.  
+~
+human~
+ABGe A JP 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB BQ CEYa
+stand stand male none~
+3
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17206 25~
+P RANDOM 17207 20~
+#17229
+insurance salesman~
+an insurance salesman~
+An insurance salesman stands here holding a briefcase.
+~
+A short, pudgy man with oily black hair stands here holding a briefcase. 
+He has thick black-rimmed glasses on his face with small bandages wrapped
+around the joints on the side.  He wears a tan corduroy suit with a yellow
+tie hanging from around a white shirt that bulges greatly from his belly. 
+He beams a smile as he sees you coming and walks toward you.  
+~
+unique~
+ABGae A JP 0 0 0
+4 0 2d7+46 64d1+1 1d5+1 smash
+6 6 6 9
+EFN AB BQ CEYZa
+stand stand male none~
+5
+AHMV ABCDEFGHIJK tiny 0
+P RANDOM 17229 20~
+#17230
+putrid head jar~
+Harishin's putrid head~
+The putrid stinking head of Harishin stares at you from inside a jar.
+~
+The head floats in a jar of icky brown liquid.  Badly decomposed and
+rotting it is fixed in a horrid grin.  
+~
+unique~
+Aa A D 0 0 0
+55 0 1000d1+1 12d1+100 10d20+45 bite
+0 0 0 0
+0 AB 0 0
+stand stand none none~
+19
+0 0 small 0
+#0
+
+
+
+#OBJECTS
+#17200
+pit storage~
+a storage pit~
+A large storage pit has been built here.~
+stone~
+container OT 0
+10000 0 0 10000 100
+60 0 10000 P
+#17201
+potion recall~
+a potion of recall~
+A potion of recall is here, coveted by all.~
+liquid~
+potion U AO
+10 'word of recall' '' '' ''
+10 30 3 P
+#17202
+potion flight~
+a potion of flight~
+A potion hovers gently here.~
+Liquid~
+potion B AO
+0 'fly' '' '' ''
+10 2 5 P
+#17203
+belted sack~
+a belted sack~
+A large sack with a heavy belt attached lies here.~
+leather~
+container HU AO
+350 A 0 80 90
+10 20 12 P
+#17204
+magic rations~
+a pack of magic rations~
+Some glowing rations hum quietly to themselves.~
+food~
+food U A
+48 48 0 0 360
+10 20 24 P
+#17205
+flying scroll~
+a scroll of flying~
+A flying scroll hovers here.~
+papyrus~
+scroll A AO
+15 'fly' '' '' ''
+10 2 10 P
+#17206
+scroll vigor~
+a scroll of vigor~
+A small scroll inscribed with runes of vigor.~
+papyrus~
+scroll A AO
+15 'refresh' '' '' ''
+30 2 1 P
+#17207
+magical flask~
+a magical flask~
+A magical flask used to store water is here.~
+tin~
+drink PU AO
+240 240 'water' 0 0
+10 50 11 P
+#17208
+orb protection sphere~
+the Orb of Protection~
+A large white orb sparkling with inner light.~
+glass~
+staff G AO
+10 10 10 'sanctuary' 0
+40 50 25 P
+#17209
+wand protection~
+the Wand of Protection~
+A small white wand sparkling with inner light.~
+glass~
+wand G AO
+10 10 10 'sanctuary' 0
+40 50 18 P
+#17210
+efuzan's light sword lightsword~
+Efuzan's `&Light`` Sword~
+Efuzan's `&Light`` Sword lies on the ground.~
+???~
+treasure B AO
+0 0 0 0 0
+50 12 1500 P
+E
+efuzan's   light sword lightsword~
+It appears to be a short cylinder about a third of a meter in length
+and as thick as an average spear.  Halfway down its length a large 
+red button draws your attention, yet beyond that particular detail
+its silver surface is unremarkable.  Someone scratched a small 
+inscription on one of its ends:
+ 
+ 
+            ^
+            |
+      
+  THIS END AWAY FROM YOU
+~
+M
+With a soft 'pssft' a three foot beam of green light slides out from the handle.~
+With a soft 'pssft' $p emits a three feet long beam of green light.~
+With a soft 'pssft' the green beam disappears.~
+With a soft 'pssft' the green beam disappears from $p.~
+P FIGHT 17210 100~
+#17211
+clock enigma clockword efuzan's~
+Efuzan's Clockwork Enigma~
+A large clock lies here in the dust.~
+?clock parts?~
+armor H AJ
+13 14 16 12 0
+50 180 1500 P
+E
+clockwork enigma efuzan's~
+The shield is round and upon its outer edge a myriad of strange
+symbols have been inscribed in concentric circles.  At its center
+what seems to be no other then a pair of clock hands slowly make
+their way counterclockwise around the circumference.  An occasional
+'tick' can be heard from within.
+~
+F
+S 701 50 0
+F
+S 505 30 0
+F
+S 696 10 0
+F
+S 97 3 0
+F
+A 18 2 0
+P DELAY 17213 100~
+P RANDOM 17212 50~
+P USE 17211 100~
+#17212
+efuzan's blinking ball~
+Efuzan's Blinking Ball~
+A strange blinking sphere floats before your face.~
+?clock parts?~
+treasure AMZ AQ
+0 0 0 0 0
+50 0 620 P
+E
+efuzan's blinking ball~
+It seems to be a small sphere about the size of your fist which
+slowly blinks rotating through five different colors.  Occasionly
+it fades transpartent and makes a strange 'beep' sound.
+~
+F
+A 24 -3 0
+F
+S 703 25 0
+F
+A 9 15 0
+F
+S 697 10 0
+F
+S 82 10 0
+P USE 17215 100~
+P DELAY 17214 100~
+#17213
+Sage battlerod battle rod~
+Sage Battlerod~
+A Sage battlerod lies here.~
+steel~
+weapon Be AN
+exotic 11 4 magic G
+50 120 500 P
+F
+A 13 15 0
+F
+A 12 30 0
+F
+S 111 5 0
+P FIGHT 17217 25~
+#0
+
+
+
+#ROOMS
+#17200
+`3Before the Sage Cabal``~
+The stairs end right before your nose, surrounded by a large meadow all
+about.  The unknown material or metal below your feet hums and vibrates as
+strange powers of unknown and potent origins rush underneath your feet.
+~
+~
+0 295698440 8208 2
+D2
+~
+~
+0 0 8206
+S
+#17201
+`8The Stasis Field``~
+You seem to float, yet you do not sense any movement. The air around
+you sizzles and small bolts of raw energy bolt all around you. Phasing
+in and out of time and existence, strange constructs of various shape,
+material and realities claim their blurred impression all around you.
+~
+~
+0 295698444 2 0
+S
+#17202
+`8Storage Room``~
+As you look around at the rows upon rows of shelves covering the walls of
+this enormous room, you can't help but notice that everything on the shelves
+is a miniature replica.  Tiny beakers, miniscule weapons and armor, even
+shrunken staves and wands lie in neat order.  As an old mage on the other
+side of the room takes a staff off of a shelf, you see it flare brightly,
+then regain its normal size.
+~
+~
+0 295698444 2 0
+E
+containers~
+These barrels and boxes have all been sealed to prevent unauthorized
+access.  Thick wax seals close the barrels while thin metal bands are
+tightly wound about the numerous boxes.  
+~
+S
+#17203
+`8Hall of Echoes``~
+As you enter this small hallway you are assaulted by dozens of voices and
+thousands of languages.  All around you sound seems to travel through this
+space as though it were being delievered to the minds of the desired
+recipients.  Dozens of torches line the walls and make it seem as though you
+can see the sound pass through this room on its magical journey.  
+~
+~
+0 295698444 2 0
+E
+containers~
+These barrels and boxes have all been sealed to prevent unauthorized
+access.  Thick wax seals close the barrels while thin metal bands are
+tightly wound about the numerous boxes.  
+~
+S
+#17204
+`8The Metronome``~
+TICK!  TOCK!  Is the only sound you hear reverberated over and over as
+you enter this small study.  Lining the walls are clocks of all sizes that
+seem to be dwarfed by one large metronome.  Winding through the endless time
+is a small bent goblin with a key in one hand and a small handwatch in the
+other.  As you watch he endlessly moves from clock to clock giving each one
+a small winding of the coils.  
+~
+~
+0 27262989 2 0
+E
+containers~
+These barrels and boxes have all been sealed to prevent unauthorized
+access.  Thick wax seals close the barrels while thin metal bands are
+tightly wound about the numerous boxes.  
+~
+S
+#17205
+`8Eternal Well``~
+Strung around the room in small strands are lots of little light bulbs. 
+Small gnome men walk into and out of a gate clearly cut within the wall that
+shimmers with a dull reflection of the same room.  Each man enters the wall
+dimension carrying a small box of an absurd color and immediately after
+another exits with a dull gray box.  Surrounding the entrance to this portal
+is a fine layer of dust and piles of small ash everywhere.  
+~
+~
+0 295698444 2 0
+E
+containers~
+These barrels and boxes have all been sealed to prevent unauthorized
+access.  Thick wax seals close the barrels while thin metal bands are
+tightly wound about the numerous boxes.  
+~
+S
+#17206
+`8Larder``~
+Lining the walls are shelf upon shelf of filled glass bottles.  Sitting
+upon stands covered with soft folds of cloth are four unique jars.  Each jar
+has in it a small shrunken head and is labeled very clearly: "Harishin",
+"Clariana", "Llyros", and "Allicain".  Beneath and around these bottles are
+other common food wares and supplies.  
+~
+~
+0 295698444 2 0
+E
+containers~
+These barrels and boxes have all been sealed to prevent unauthorized
+access.  Thick wax seals close the barrels while thin metal bands are
+tightly wound about the numerous boxes.  
+~
+S
+#17207
+`8Chronoswing``~
+Chiseled into the walls of this room are two giant hooks upon which a
+huge swing seems to rock back and forth.  The swing is decorated in many
+mystic symbols and various items and craftbooks lay upon it.  As the swing
+continues it's course the items seem to grow older and younger at the same
+time with each continual pass of the swing.  At the base of the swing is a
+small clock which seems to hold no time at all but looks very important to
+the room.
+~
+~
+0 295698444 2 0
+E
+containers~
+These barrels and boxes have all been sealed to prevent unauthorized
+access.  Thick wax seals close the barrels while thin metal bands are
+tightly wound about the numerous boxes.  
+~
+S
+#17208
+`8The Academy``~
+You have just entered the classroom of the Sages.  Lab tables, desks,
+and teachers scurry about everywhere giving help and aid to the newly
+recruited students.  At the head of the class is a grizzly old grey-bearded
+man who seems to be in charge of this Academy.  Around him lay various books
+and scrolls of knowledge and he seems to be knowledgable in the ways of the
+Mystic.  
+~
+~
+0 295698444 2 0
+E
+containers~
+These barrels and boxes have all been sealed to prevent unauthorized
+access.  Thick wax seals close the barrels while thin metal bands are
+tightly wound about the numerous boxes.  
+~
+S
+#17209
+`8The Pinnacle's Edge``~
+A sense of confusion washes over you, or does it?  After a single step
+into this room, you fall.  But as you look around, you notice something is
+not quite right.  The door that you have just come through is gone, and you
+are outside.  The pale blue sky ripples and buckles, fat drops of azure
+drip slowly, falling upwards into a river whose waters flow in a circle. 
+Are you sure this is where you would like to be?
+~
+~
+0 295698444 2 0
+E
+containers~
+These barrels and boxes have all been sealed to prevent unauthorized
+access.  Thick wax seals close the barrels while thin metal bands are
+tightly wound about the numerous boxes.  
+~
+S
+#17210
+`8Eye of Time``~
+Staring into a huge eye you see the past, present and future swirl within
+the boundaries of the pupil.  Wars ravage the lands and then are
+mysteriously gone.  Warriors fall to death from battle only to be seen
+standing again moments later.  Thick tentacles of color move throughout the
+pupil changing the very after everything they pass over.  Sometimes you will
+be confronted with your own death while other times you may see your birth. 
+Everything seems to be moving at an incredible pace that matches time
+itself.  
+~
+~
+0 295698444 2 0
+E
+containers~
+These barrels and boxes have all been sealed to prevent unauthorized
+access.  Thick wax seals close the barrels while thin metal bands are
+tightly wound about the numerous boxes.  
+~
+S
+#17211
+`8Mana Pools``~
+You have entered a large series of pools covered with fauna and insects. 
+Each pool sits seperate from the rest and seems to be made of different
+types of water.  A small pool steams gently while another pool must be
+constantly broken open by small field rats armed with picks and knives. 
+Sitting upon a small lily pad in the biggest of the pools is a bullfrog
+with the palest eyes you have ever seen.
+~
+~
+0 295698444 2 0
+E
+containers~
+These barrels and boxes have all been sealed to prevent unauthorized
+access.  Thick wax seals close the barrels while thin metal bands are
+tightly wound about the numerous boxes.  
+~
+S
+#17212
+`8Time Vault``~
+Spiraling up and through the ceiling a large metal coil of spring is
+here.  Surrounded by millions and millions of small pixies the very essence
+of time swirls into and out of the coils.  Wherever the mist seems to touch
+that part will disappear and reappear almost instantly only seeming ravaged
+by time.  Whenever a pixie flutters accidently into the mist it is gone
+forever.  At the base of the coil is a large cylinder which seems to float
+the length of the coil every day.  
+~
+~
+0 295698444 2 0
+E
+containers~
+These barrels and boxes have all been sealed to prevent unauthorized
+access.  Thick wax seals close the barrels while thin metal bands are
+tightly wound about the numerous boxes.  
+~
+S
+#17213
+`8Control Room``~
+You have entered the Control Room.  Lights of all colors and sizes flash
+and beep as many technicians bustle around changing settings and time
+alignments on the tower.  The main control panel sits right before you
+filled with a strange writing and it seems to have a shield of some kind
+around it to keep all but the most precious of hands from touching it.  In
+the distance you can see a small, dark forest and further off a city comes
+into your view.  
+~
+~
+0 295698444 2 0
+E
+containers~
+These barrels and boxes have all been sealed to prevent unauthorized
+access.  Thick wax seals close the barrels while thin metal bands are
+tightly wound about the numerous boxes.  
+~
+S
+#17214
+`8Air Portal``~
+As you step off the final ledge of the tower you find yourself upon a
+small entryway of clouds leading into a dark cumulus castle.  Patroling the
+edge of the castle are elementals and dragons who look bred to fight.  Next
+to you is a small warning sign that reads "Beware of Dragons" and to prove
+it's point are a few skulls lying upon the cloud.  Further up you see a
+midget of a dragon standing beside the road offering to give you a ride to
+the castle.  
+~
+~
+0 295698444 2 0
+E
+containers~
+These barrels and boxes have all been sealed to prevent unauthorized
+access.  Thick wax seals close the barrels while thin metal bands are
+tightly wound about the numerous boxes.  
+~
+S
+#17215
+`8Efuzan's Workshop``~
+Workbench after workbench rests here filled with clutter.  Upon the main
+table is a large shield filled with various pieces of an old grandfather
+clock.  Around the clock shield sit many shiny tools of craftsmanship not of
+this earth.  A small man walks around wearing a huge contraption on his head
+and muttering to himself about various pieces in progress of repair.  
+~
+~
+0 295698444 2 0
+E
+containers~
+These barrels and boxes have all been sealed to prevent unauthorized
+access.  Thick wax seals close the barrels while thin metal bands are
+tightly wound about the numerous boxes.  
+~
+S
+#17216
+`2An Empty Garden``~
+You find yourself in an unattended garden its ground long overgrown with
+various species of weeds.  The growth reaches up to your waist and sways
+lightly with your passage.  
+~
+~
+0 362807304 16386 3
+S
+#17217
+`6Pitfall``~
+You stand before a large empty space with nothing but dusty air filling
+the void before you.  As you gaze down into the murky depths of the opening
+only the echos of small pebbles falling answers you.  
+~
+~
+0 362807308 2 9
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 17220 spec_cast_cabal_healer
+M 17227 spec_cast_mage
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 17205 1 17201 1
+G 0 17201 0
+G 0 17202 0
+G 0 17203 0
+G 0 17204 0
+G 0 17205 0
+G 0 17206 0
+G 0 17207 0
+G 0 17208 0
+G 0 17209 0
+O 0 17200 0 17201
+M 0 17227 1 17202 1
+O 0 17200 0 17202
+M 0 17210 1 17203 1
+M 0 17211 1 17204 1
+M 0 17213 1 17205 1
+M 0 17212 1 17205 1
+M 0 17228 1 17206 1
+M 0 17230 1 17206 1
+M 0 17214 1 17207 1
+M 0 17217 1 17208 1
+M 0 17216 1 17208 1
+M 0 17215 1 17208 1
+M 0 17229 1 17210 1
+M 0 17220 1 17211 1
+M 0 17219 1 17211 1
+M 0 17218 1 17211 1
+M 0 17222 1 17212 1
+M 0 17221 1 17212 1
+M 0 17224 1 17213 1
+M 0 17223 1 17213 1
+M 0 17225 1 17214 1
+M 0 17226 1 17215 1
+G 0 17212 0
+G 0 17211 0
+G 0 17210 0
+G 0 17213 0
+E 0 17213 0 17
+E 0 17211 0 12
+E 0 17210 0 18
+S
+
+
+
+#SHOPS
+17205 0 0 0 0 0 100 100 0 23
+17226 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#17200
+if room $i != 17200
+or isimmort $n
+  break
+endif
+if cabally $n Sage
+  if isbloody $n
+    if affspell $n 'blindness'
+    or affspell $n 'death grasp'
+    or affspell $n 'plague'
+    or affspell $n 'poison'
+    or affspell $n 'dysentery'
+    or affspell $n 'enfeeblement'
+    or affspell $n 'vampire bite'
+      pmote glances at $N noticing the sickness.
+    else
+      mob echoaround $n The air thickens about $N's bloody form.
+      mob echoat $n The air thickens about your bloody form and halts your passage.    
+      mob stop $n
+      break
+    endif
+  endif
+  if isdelay $i
+    break
+  else
+    mob delay 1
+    mob echoaround $n The around splits around $N and, slipping behind almost pushes $N in.
+    mob echoat $n The around splits around you and, slipping behind almost pushes you in.
+    break
+  endif
+else
+  mob echoaround $n The air thickens about $N and prevents any passage.
+  mob echoat $n The air thickens about you and prevents any passage.
+  mob stop $n
+endif
+
+~
+#17201
+if act $n raider
+and rand 10
+  if name $n watchermonster
+    break
+  else 
+    mob echo A flash of energy lights up the tip of the Tower.
+    qslay $n
+  endif
+endif
+if isdelay $i
+  break
+else
+  cb $N is attacking our home!
+  mob delay 6
+endif
+~
+#17205
+if rand 50
+  emote bad-temperedly attempts temporary temporal travel.
+else
+  emote temporarily attempts temporal travel.
+endif
+~
+#17206
+echo The head in the jar mutates into another.
+if rand 50
+  if rand 50
+    set string mob head short Harishin's putrid head
+    set string mob head long The putrid stinking head of Harishin stares at you from inside a jar.
+  else
+    set string mob head short Clariana's putrid head
+    set string mob head long The putrid stinking head of Clariana stares at you from inside a jar.
+  endif
+else
+  if rand 50
+    set string mob head short Allicain's putrid head
+    set string mob head long The putrid stinking head of Allicain stares at you from inside a jar.
+  else
+    set string mob head short Llyros's putrid head
+    set string mob head long The putrid stinking head of Llyros stares at you from inside a jar.
+endif
+~
+#17207
+if rand 50 then
+  mob force head say I'm lonely in here.
+  say Is that because you've got nobody ?
+  rofl
+  mob force head growl
+  mob force head say You just wait. I'll get out of here and bite your legs off!
+else
+  emote taps on the jar.
+  say Things are looking up for you. You're head of Sage.
+  rofl
+  mob force head say You'll be sorry you hunchback git. I'll headbutt you to death.
+endif
+~
+#17210
+if rand 33
+  emote turns his head upward.
+  say I do not know.
+  emote turns towards the wall.
+  say Look, just tell him you are tired of reading all those books.
+  emote turns his head towards the doorway.
+  say I am only one person. One at a time, one at a time!
+mutter
+else
+if RAND 50
+  emote turns towards the wall.
+  say I am keeping my eyes on you?
+else
+  emote turns his head towards you.
+  say LOOK! I understand you like to talk and ask me questions but, do you ever stop talking?   
+  emote turns and walks into the wall.
+  say Can't you say excuse me?
+  grumble
+endif
+endif
+~
+#17211
+if rand 50
+  emote stops suddenly and listens intently.
+  emote runs over to a clock on the far side in a panic.
+  emote frantically winds it up.
+  say Phew that was close!
+else
+  emote winds a clock absentmindedly.
+  echo There is a sharp SNAP from inside!
+  emote starts to sweat as he frantically takes the clock apart.
+  echo Springs, cogs, and metal flies out in all directions.
+  cry
+endif
+ 
+~
+#17212
+if rand 50 then
+  say Oi! Grimpole. Seen inside my box.
+  emote holds his box open as the other gnome peers inside.
+  rofl
+  say Good eh ?
+else
+  say Oi! Grimpole. Lets have a look in your box.
+  emote peers inside as the other gnome opens his box.
+  rofl
+  say PURPLE!! Excellent.
+endif
+~
+#17214
+if rand 33
+  mob echo The tiny head turns to the larger head with a sigh.
+  mob echo The tiny head says '`#I feel tired.``'
+  emote jumps up and down.
+  mob echo The large head turns to the tiny head with a stupid grin.
+  mob echo The large head says '`#Funny, I do not feel tired.``'
+else
+  if rand 50
+    emote turns and begins to walk.
+    mob echo The tiny head says '`#Hey! Wait! We are supposed to wait here.  Besides my feet hurt.``'
+    mob echo The large head turns to the tiny head with a scowl.
+    mob echo The large head says '`#Don't you think I know your feet hurt...THEY ARE MY FEET TOO!``'
+    mob echo The tiny head mutters.
+  else
+    mob echo The large head turns to the tiny head angrily.
+    mob echo The large head says '`#Go ahead...  Look at me one more damn time.``'
+    mob echo The tiny head turns to the larger head.
+    mob echo The tiny head says '`#Or what? You gonna pound me?``'
+    mob echo The tiny head says '`#I am so scared...besides you are the COWARD among us.``'
+  endif
+endif
+~
+#17229
+if rand 50 
+  emote peers around nervously.
+  say most odd! One moment I'm sitting in a board meeting......
+  say the next I seem to have accidentally traversed space and time.
+  say Funny how these things happen.
+else
+  grumble
+  say well that's just typical!!
+  say Getting ready to go home to my wife's lovely home-made pie.....
+  say and I accidentally portal to another time and dimension.
+  say How annoying.
+endif
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#17210
+obj cast 'light sword'
+~
+#17211
+if cabal $n 'warmaster'
+  obj echoat $n This is not the way a Warmaster should act!
+  break
+endif
+if isdelay $i
+   obj echoat $n Funny, your hands pass right through it.
+else
+   obj echo $I emits a loud 'Zggrrt' and its arms begin to spin widly!
+   obj zecho The world around you seems to stop for a second.
+   obj attrib none level = 0
+   obj cast 'haste'
+   obj attrib none level = 50
+   obj delay 8
+endif
+~
+#17212
+if isdelay $i
+  obj echoat $n $I emits a loud 'tick'.
+  obj echoaround $n You hear a loud 'tick'.
+endif
+~
+#17213
+obj echoat $n You feel $I gain weight and substance.
+~
+#17214
+obj echoat $n You may once again use $I.
+~
+#17215
+if cabal $n 'warmaster'
+  obj echoat $n This is not the way a Warmaster should act!
+  break
+endif
+if isworn $i
+  if isdelay $i
+   obj echoat $n $I makes an insolent loud 'BEEP'!
+  else
+     obj call 17216 $n $i null
+     obj delay 6
+  endif
+else
+   obj echoat $n $I makes an insolent loud 'BEEP'!
+endif
+~
+#17216
+if ncarries $n 5 17212
+  obj echo Five $Is rise into the air and quickly rotate through their colors.
+  obj cast 'armor'
+  obj cast 'flesh armor'
+  obj cast 'mass invis'
+  obj cast 'mass healing'
+  obj attrib none level = 1
+  obj pfor group $n cast 'sanctuary' #
+  obj attrib none level = 50
+  break
+endif
+if ncarries $n 4 17212
+  obj echo Four $Is rise into the air and quickly rotate through their colors.
+  obj cast 'armor'
+  obj cast 'flesh armor'
+  obj cast 'mass invis'
+  obj cast 'mass healing'
+  break
+endif
+if ncarries $n 3 17212
+  obj echo Three $Is rise into the air and quickly rotate through their colors.
+  obj cast 'armor'
+  obj cast 'flesh armor'
+  obj cast 'mass invis'
+  break
+endif
+if ncarries $n 2 17212
+  obj echo Two $Is rise into the air and quickly rotate through their colors.
+  obj cast 'armor'
+  obj cast 'flesh armor'
+  break
+endif
+obj echo $I rises into the air and quickly rotates through its colors.
+obj cast 'armor'
+break
+~
+#17217
+if cabal $n 'warmaster'
+  break
+endif
+if isdelay $i
+  break
+endif
+obj echo $F's $I fires with a loud retort!
+obj cast 'magic missile'
+obj delay 1
+~
+#0
+
+#ROOMPROGS
+#0
+
+#$

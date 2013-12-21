@@ -1,0 +1,1469 @@
+#AREADATA
+Name the Illithid Hive~
+Pref ~
+Builders Crypticant~
+VNUMs 8000 8049
+Max_Bastions 3
+Credits { ALL } Cryptica The Illithid Hive~
+Security 9
+Startroom 8013
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#8013
+illithid hive resident~
+a resident of the Illithid Hive~
+A resident of the Illithid Hive is here.
+~
+A citizen of the Illithid Hive patrols the streets here, moving
+and peering about with evil, jet black eyes.
+~
+illithid~
+AGd A J 0 -750 0
+20 5 4d6+210 0d0+0 4d6+10 telekinesis
+-2 -2 -1 -7
+FK 0 JP S
+stand stand none none~
+12
+AHMV ABCDEFGHIJKN medium 0
+P GREET 8013 65~
+P RANDOM 8014 20~
+#8021
+brain psionicist guildguard~
+a massive brain~
+A large segment of a brain is floating here.
+~
+~
+illithid~
+ABTZ A JP 0 0 10045
+35 10 25d10+3000 0d0+100 8d3+10 telekinesis
+-10 -10 -10 -10
+KNV AB BJP SYa
+stand stand none none~
+12
+AHMV ABCDEFGHIJKN medium 0
+#8022
+neural fluid~
+neural fluid~
+A large column of neural fluid rises up in the center of the room here.
+~
+~
+illithid~
+ABKVZ AC JP 0 0 0
+60 0 50d10+10000 0d0+100 4d40+20 telekinesis
+2 2 2 2
+K AB BJP SYa
+stand stand male none~
+28
+AHMV ABCDEFGHIJKN medium 0
+#8023
+decaying tumor~
+a decaying tumor~
+A decaying tumor has attached itself to the room here.
+~
+~
+drow~
+ABZ AC JP 0 -750 0
+35 5 25d10+6000 0d0+100 6d6+0 disease
+1 1 1 0
+KV AB BQ Ya
+stand stand male none~
+15
+AHMV ABCDEFGHIJK medium 0
+#8024
+dark malignancy guildmaster necromancer~
+a dark malignancy~
+A dark malignancy is prevalent within these walls.
+~
+~
+unique~
+ABKRVZ AC DJ 0 -750 0
+60 0 50d10+12000 0d0+100 2d40+0 drain
+2 2 2 2
+FHK AB 0 0
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+#8027
+karacch hunter bookkeeper~
+Karacch~
+Karacch the Hunter Bookkeeper is standing here.
+~
+An old man, with frazzled gray hair running off in streaks around
+his head, deep set blue eyes, and a gnarled complexion with various
+scars about it alludes to the fact that he was once a Hunter, and
+now seems to have sought retirement from the fray. He nods at you,
+and continues reading.
+~
+human~
+ABDe AC 0 0 0 0
+60 50 4d6+5000 0d0+100 10d10+100 none
+-20 -20 -20 -20
+CEFKN AB 0 0
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+#8028
+golem gate city~
+gate golem~
+A gate golem stands motionless, awaiting your decision.
+~
+Motionless, silent, the giant mechanical being stands before you
+with its unblinking eyes awaiting your decision.  Its metalic surface
+covered with humming runes, it awaits your payment to active the gate
+and send you on your way.
+~
+human~
+ABLZe A DFJ 0 0 0
+60 50 100d50+12000 0d0+100 6d8+70 pound
+-20 -20 -20 -30
+FK 0 D 0
+stand stand none none~
+26
+AHMV ABCDEFGHIJK large 0
+#8029
+illithid donor~
+an Illithid donor~
+A large Illithid stands here, holding goods from about the lands.
+~
+~
+illithid~
+ABTVZ A DFJ 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 telekinesis
+-30 -30 -30 -30
+EFHJK AB DJP S
+stand stand male none~
+25
+AHMV ABCDEFGHIJKN medium 0
+#8030
+lesser mind flayer~
+a lesser mind flayer~
+A lesser mind flayer stands here, selling you brains.
+~
+~
+illithid~
+ABTVZ A DFJ 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 telekinesis
+-30 -30 -30 -30
+EFHJK AB DJP S
+stand stand male none~
+23
+AHMV ABCDEFGHIJKN medium 0
+#8031
+mahieri dan illithid~
+a Mahieri Dan Illithid~
+A Mahieri Dan Illithid stands here, offering traveling devices.
+~
+~
+illithid~
+ABTVZ A DFJ 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 telekinesis
+-30 -30 -30 -30
+EFHJK AB DJP S
+stand stand male none~
+30
+AHMV ABCDEFGHIJKN medium 0
+#8032
+ciper parasite~
+a cipher parasite~
+A cipher parasite is here, selling odd armors.
+~
+~
+illithid~
+ABTVZ A DFJ 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 telekinesis
+-30 -30 -30 -30
+EFHJK AB DJP S
+stand stand male none~
+22
+AHMV ABCDEFGHIJKN medium 0
+#8036
+mind flayer master illithid~
+the Mind Flayer~
+The Mind Flayer stands here, encased in a strange field.
+~
+~
+illithid~
+ABTVZa A DFHJO 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 telekinesis
+-30 -30 -30 -30
+EFHJK AB DJP S
+stand stand male none~
+21
+AHMV ABCDEFGHIJKN medium 0
+#8038
+nucleus caudal~
+the caudal nucleus~
+A large gray nucleus is here, pulsating.
+~
+~
+demon~
+ABJTZb A DHJT 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 punch
+-30 -30 -30 -30
+EFHJK AB D A
+stand stand male none~
+30
+AHMV ABCDEFGHIJK medium 0
+#8041
+illithid larva~
+an illithid larva~
+An illithid larva is hibernated here.
+~
+This larva resembles more of a huge thick skinned in animate tube than
+any sort of creature. Eventually, it will form into the squid-like
+body of a normal illithid.
+~
+illithid~
+Ae A DJ 0 -750 10800
+5 0 1d1+50 0d0+100 1d1+1 slime
+2 2 3 1
+U AB JP S
+stand stand none none~
+3
+AHMV ABCDEFGHIJKN huge 0
+#8048
+illithid caretaker~
+an illithid caretaker~
+An illithid caretaker keeps track of the larvae here.
+~
+And older illithid, recently emerged from its chrysalis is here,
+tending after the larvae.
+~
+illithid~
+AG A J 0 -750 0
+8 0 4d6+80 0d0+0 0d0+0 telekinesis
+0 0 0 0
+K 0 JP S
+stand stand none none~
+9
+AHMV ABCDEFGHIJKN medium 0
+P GREET 8048 100~
+#0
+
+
+
+#OBJECTS
+#8013
+liquid capillary~
+a liquid capillary~
+A large capillary flows forth here with fresh water.~
+bone~
+fountain 0 P
+-1 -1 'water' 0 0
+55 100 100 P
+#8024
+skin sack~
+a skin sack~
+A sack made of skin is lying here.~
+leather~
+container 0 AL
+400 A 0 200 120
+10 20 1000 P
+#8025
+fleshy sac water~
+a fleshy sac~
+A fleshy sac made for holding water is resting here.~
+steel~
+drink 0 A
+100 100 'water' 0 0
+5 1 800 P
+#8026
+glowing neuron~
+a glowing neuron~
+A strange piece of brain is twitching here.~
+flesh~
+light A A
+0 0 200 0 0
+5 2 500 P
+#8027
+shimmering black disc~
+a shimmering black disc~
+A shimmering black disc is here, hovering slightly.~
+obsidian~
+boat 0 A
+0 0 0 0 0
+0 300 300 P
+#8028
+mana elixir~
+a mana elixir~
+A shimmering elixir is here.~
+liquid~
+potion 0 AO
+5 'heal mana' '' '' ''
+15 10 2000 P
+#8029
+potion fly flight~
+a potion of flight~
+A potion with a set of wings engraved on the bottle is here.~
+magic~
+potion 0 AO
+0 'fly' '' 'reserved' 'reserved'
+5 1 2500 P
+#8030
+human brain~
+a human brain~
+The brain of some human is lying on the ground here.~
+brains~
+food 0 A
+10 10 0 0 10
+0 20 5 D
+#8031
+drow brain~
+a drow brain~
+The brain of some drow is lying on the ground here.~
+brains~
+food 0 A
+10 12 0 0 8
+0 20 6 D
+#8032
+ogre brain~
+an ogre brain~
+The tiny brain of an ogre is lying on the ground here.~
+brains~
+food 0 A
+8 8 0 0 14
+0 20 4 D
+#8033
+potion recall~
+a potion of recall~
+A potion of recall rests here.~
+liquid~
+potion 0 AO
+30 'word of recall' 'shield' 'reserved' 'reserved'
+1 1 3500 P
+#8040
+deep purple velvet cloak~
+a deep purple velvet cloak~
+A cloak made a rich purple velvet is lying here.~
+cloth~
+armor C AC
+7 4 4 0 0
+10 10 1000 P
+F
+A 23 -2 0
+#8041
+sterling brooch~
+a sterling brooch~
+A small ivory brooch lies here.~
+silver~
+jewelry AG AC
+0 0 0 0 0
+30 50 1750 P
+F
+A 13 5 0
+#8042
+cape indigo silk~
+a cape of indigo silk~
+A cape made of rich, deep indigo silk is lying here.~
+silk~
+armor 0 AC
+1 2 14 2 0
+35 40 5500 P
+F
+A 18 2 0
+#8049
+tentacled pit~
+a tentacled pit~
+A strange tentacled pit has been created here.~
+unknown~
+container OT 0
+10000 0 0 10000 100
+60 0 10000 P
+#0
+
+
+
+#ROOMS
+#8000
+`8A slimy passage``~
+The tunnels around you have become much more humid. Layers of thick
+green slime coat the entire wall of the tunnels, and your footing has
+become increasingly slippery. Within this pitch black darkness comes
+a sort of dull beating, almost as if you could hear your own heartbeat
+echoing in your ears.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 8001
+D1
+~
+gate~
+AB 0 1221
+S
+#8001
+`8A slimy passage``~
+The tunnels around you have become much more humid. Layers of thick
+green slime coat the entire wall of the tunnels, and your footing has
+become increasingly slippery. Within this pitch black darkness comes
+a sort of dull beating, almost as if you could hear your own heartbeat
+echoing in your ears.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 8002
+D2
+~
+~
+0 0 8000
+S
+#8002
+`8Pulsating walls``~
+The walls around you have become much thicker, as if the slime that had
+coated them before had thickened, and become some sort of rich, thick
+green mucus substance. Your footing here softens, as if you were walking
+on soft sponge, and the area around you seems to slowly pulsate with
+each passing step.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 8003
+D2
+~
+~
+0 0 8001
+S
+#8003
+`8Pulsating walls``~
+The walls around you have become much thicker, as if the slime that had
+coated them before had thickened, and become some sort of rich, thick
+green mucus substance. Your footing here softens, as if you were walking
+on soft sponge, and the area around you seems to slowly pulsate with
+each passing step.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 8004
+D3
+~
+~
+0 0 8002
+S
+#8004
+`8Pulsating walls``~
+The walls around you have become much thicker, as if the slime that had
+coated them before had thickened, and become some sort of rich, thick
+green mucus substance. Your footing here softens, as if you were walking
+on soft sponge, and the area around you seems to slowly pulsate with
+each passing step.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 8005
+D2
+~
+~
+0 0 8003
+S
+#8005
+`8Outside the Hive``~
+You are near the entrance, or, more appropriately, the 'maw' of the
+Illithid Hive. Around you, thick, veinlike walls encase the the area
+where the tunnel used to be, and you find yourself walking on soft,
+pink fleshy material. It is very humid here, and the dull thud of a
+heartbeat can be heard in the distance.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 8004
+D3
+~
+~
+0 0 8006
+S
+#8006
+`8Outside the Hive``~
+You are near the entrance, or, more appropriately, the 'maw' of the
+Illithid Hive. Around you, thick, veinlike walls encase the the area
+where the tunnel used to be, and you find yourself walking on soft,
+pink fleshy material. It is very humid here, and the dull thud of a
+heartbeat can be heard in the distance.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 8007
+D1
+~
+~
+0 0 8005
+S
+#8007
+`8A widening thoroughfare``~
+You find yourself walking through a section of tunnel that seems to
+be a strange meshing of organic material. The mosses on the walls have
+become more like strange fungi, and the sides of the tunnels are much
+more smooth, and lined with a thick mucus like substance.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 8008
+D2
+~
+~
+0 0 8006
+S
+#8008
+`8A widening thoroughfare``~
+You find yourself walking through a section of tunnel that seems to
+be a strange meshing of organic material. The mosses on the walls have
+become more like strange fungi, and the sides of the tunnels are much
+more smooth, and lined with a thick mucus like substance.
+~
+~
+0 9 0 0
+D0
+~
+valve~
+AB 0 8009
+D2
+~
+~
+0 0 8007
+S
+#8009
+`8The Entrance to the Hive``~
+You stand before a large gaping maw. The walls around you have changed
+into a sort of vein-like substance, meshing almost perfectly with all
+of the rock and stone about you. The air here suddenly becomes far more
+humid, and you feel almost as if you are entering the body of some very
+large creature. The air around you crackles with a strange energy, making
+your skin prickle.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 8010
+D2
+~
+valve~
+AB 0 8008
+S
+#8010
+`8A vessel junction``~
+You stand amid a small junction. Here, the vessel you were in seems to
+seamlessly branch off to the east. You can hear a strange sort of humming
+coming from the east. Nortward, a dull throbbing can be heard, as if
+some sort of heartbeat were ever present.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 8011
+D1
+~
+~
+0 0 8039
+D2
+~
+~
+0 0 8009
+S
+#8011
+`8The main capillary``~
+You walk within a large, wide tunnel of sorts. It seems to be
+more like some massive vein, as the walls around you are all
+covered with small, fingerlike branches that seem to give a
+sort of strength and support to the tunnel. All of the walls
+are coated with a thick, slippery mucous, and nearby, you can
+hear the soft drumming of a pulse of some kind.
+~
+~
+0 13 0 0
+D0
+~
+~
+0 0 8012
+D2
+~
+~
+0 0 8010
+S
+#8012
+`8The main capillary``~
+You walk within a large, wide tunnel of sorts. It seems to be
+more like some massive vein, as the walls around you are all
+covered with small, fingerlike branches that seem to give a
+sort of strength and support to the tunnel. All of the walls
+are coated with a thick, slippery mucous, and nearby, you can
+hear the soft drumming of a pulse of some kind.
+~
+~
+0 13 0 0
+D0
+~
+~
+0 0 8013
+D2
+~
+~
+0 0 8011
+S
+#8013
+`8The Heart of the Hive``~
+You stand within the very center of this hive. Around you,
+thick membraneous walls pulsate with energy, as if the whole
+area about you was actually alive itself. In the center here,
+you see a large capillary which gushes forth clean, clear
+water. Several smaller passages run north and south from
+here, leading further into the hive.
+~
+~
+0 13 0 0
+D0
+~
+~
+0 0 8014
+D1
+~
+~
+0 0 8016
+D2
+~
+~
+0 0 8012
+D3
+~
+~
+0 0 8015
+S
+#8014
+`8The main capillary``~
+You walk within a large, wide tunnel of sorts. It seems to be
+more like some massive vein, as the walls around you are all
+covered with small, fingerlike branches that seem to give a
+sort of strength and support to the tunnel. All of the walls
+are coated with a thick, slippery mucous, and nearby, you can
+hear the soft drumming of a pulse of some kind.
+~
+~
+0 13 0 0
+D0
+~
+~
+0 0 8025
+D2
+~
+~
+0 0 8013
+S
+#8015
+`8A cortical pathway``~
+You stand within a narrow, rounded passageway. It is almost as
+if you were walking through a vein, as the dark walls that are
+surrounding you are rigid, yet slick with a mucous like material.
+Distantly, you can hear a soft, dull heartbeat, and the energy
+in the air here makes your skin prickle.
+~
+~
+0 13 0 0
+D0
+~
+~
+0 0 8029
+D1
+~
+~
+0 0 8013
+D2
+~
+~
+0 0 8030
+D3
+~
+~
+0 0 8019
+S
+#8016
+`8A cortical pathway``~
+You stand within a narrow, rounded passageway. It is almost as
+if you were walking through a vein, as the dark walls that are
+surrounding you are rigid, yet slick with a mucous like material.
+Distantly, you can hear a soft, dull heartbeat, and the energy
+in the air here makes your skin prickle.
+~
+~
+0 13 0 0
+D0
+~
+~
+0 0 8031
+D1
+~
+~
+0 0 8017
+D2
+~
+~
+0 0 8032
+D3
+~
+~
+0 0 8013
+S
+#8017
+`8A cortical pathway``~
+You stand within a narrow, rounded passageway. It is almost as
+if you were walking through a vein, as the dark walls that are
+surrounding you are rigid, yet slick with a mucous like material.
+Distantly, you can hear a soft, dull heartbeat, and the energy
+in the air here makes your skin prickle.
+~
+~
+0 13 0 0
+D1
+~
+~
+0 0 8018
+D3
+~
+~
+0 0 8016
+S
+#8018
+`8The Eastern Cortex``~
+You stand within a large chamber. Around you, the walls are coated
+with strange, deep ripples that are cut deep within this gray matter.
+A strange sense of electricty fills the air as you walk, as if a very
+powerful energy source were located nearby.
+~
+~
+0 13 0 0
+D0
+~
+~
+0 0 8038
+D2
+~
+~
+0 0 8023
+D3
+~
+~
+0 0 8017
+S
+#8019
+`8A cortical pathway``~
+You stand within a narrow, rounded passageway. It is almost as
+if you were walking through a vein, as the dark walls that are
+surrounding you are rigid, yet slick with a mucous like material.
+Distantly, you can hear a soft, dull heartbeat, and the energy
+in the air here makes your skin prickle.
+~
+~
+0 13 0 0
+D1
+~
+~
+0 0 8015
+D3
+~
+~
+0 0 8020
+S
+#8020
+`8The Western Cortex``~
+You stand within a large chamber. Around you, the walls are coated
+with strange, deep ripples that are cut deep within this gray matter.
+A strange sense of electricty fills the air as you walk, as if a very
+powerful energy source were located nearby.
+~
+~
+0 13 0 0
+D0
+~
+~
+0 0 8037
+D1
+~
+~
+0 0 8019
+D2
+~
+~
+0 0 8021
+S
+#8021
+`8The Psionic Hemisphere``~
+You stand before a large valve. Here, a massive brain guards a passage
+that leads deep into this hemisphere, or lobe. Your head begins to ache
+here as the assault of training from the nearby rooms reaches its apex.
+Around you small specks of light can be seen traveling neural passages
+back to the Cortices.
+~
+~
+0 13 0 0
+D0
+~
+~
+0 0 8020
+D4
+~
+~
+0 0 8022
+S
+#8022
+`8A pulsating aneurism``~
+You stand within a large section of the Psionic Hemisphere that has been
+severed by some sort of physical trauma. Strange clear fluid leads from
+a gaping hole that has been ripped into the soft tissues of this room.
+From the fluid, you feel a massive sense of knowledge invade your mind.
+~
+~
+0 836763661 0 0
+D5
+~
+~
+0 0 8021
+S
+#8023
+`8The Necromatic Hemisphere``~
+The stench of rotting matter creeps into your nose here. A large,
+atrophied entrance lies just south of you, as if the invasion of
+death and decay had made this severance within the Hive walls. A
+large tumor guards the gate here, malformed and disfigured from
+constant exposure to decay.
+~
+~
+0 13 0 0
+D0
+~
+~
+0 0 8018
+D4
+~
+~
+0 0 8024
+S
+#8024
+`8A dark malignancy``~
+You stand within the dark malignancy. Thick, rough walls surround
+this section of the Hive, as if the Hive itself fought back to keep
+the invasion of death and decay from creeping deeper into the hive.
+The malignancy has done well to keep all light from penetrating this
+dark, and rotten chamber.
+~
+~
+0 836763661 0 0
+D5
+~
+~
+0 0 8023
+S
+#8025
+`8The main capillary``~
+You walk within a large, wide tunnel of sorts. It seems to be
+more like some massive vein, as the walls around you are all
+covered with small, fingerlike branches that seem to give a
+sort of strength and support to the tunnel. All of the walls
+are coated with a thick, slippery mucous, and nearby, you can
+hear the soft drumming of a pulse of some kind.
+~
+~
+0 13 0 0
+D0
+~
+~
+0 0 8026
+D2
+~
+~
+0 0 8014
+S
+#8026
+`8The Cerebrum``~
+You stand within a very large, dome shaped structure. The walls around
+you are made of rigid, fibrous material that begins at the ceiling, and
+leads all the way to the soft, fleshy flooring. You seem small bolts of
+electricty zap and move about the dome of the room, hopping from one
+strand to another in an almost random pattern.
+~
+~
+0 13 0 0
+D0
+~
+~
+0 0 8033
+D1
+~
+~
+0 0 8027
+D2
+~
+~
+0 0 8025
+S
+#8027
+`8A small atrium``~
+You stand within a smaller, squarish room. It is almost as if you
+are standing within a sponge. Large porous surfaces cover the walls,
+killing any echo within the room. A human man stands here, looking
+very haunted, behind a large mass of reddish organic matter.
+~
+~
+0 13 0 0
+D3
+~
+~
+0 0 8026
+S
+#8028
+`8Unused``~
+You stand in a small unused room.  Dust covers the floor without a single
+step disturbing its surface.  
+~
+~
+0 8205 0 0
+S
+#8029
+`8The Sulci``~
+You stand within a large valved chamber. Around you, large plasma
+walls pulsate with energy, and you can almost make outh the pathway
+that is just near you. All else is total darkness. Here, a strange
+cellular structure lurks before you, carrying inside it oddities that
+is has surrounded with mucus to protect from abrasions.
+~
+~
+0 13 0 0
+D2
+~
+~
+0 0 8015
+S
+#8030
+`8The Gyri``~
+You stand within a large valved chamber. Around you, large plasma
+walls pulsate with energy, and you can almost make outh the pathway
+that is just near you. All else is total darkness. Here, a strange
+cellular structure lurks before you, carrying inside it oddities that
+is has surrounded with mucus to protect from abrasions.
+~
+~
+0 13 0 0
+D0
+~
+~
+0 0 8015
+S
+#8031
+`8The Chiasma``~
+You stand within a large valved chamber. Around you, large plasma
+walls pulsate with energy, and you can almost make outh the pathway
+that is just near you. All else is total darkness. Here, a strange
+cellular structure lurks before you, carrying inside it oddities that
+is has surrounded with mucus to protect from abrasions.
+~
+~
+0 13 0 0
+D2
+~
+~
+0 0 8016
+S
+#8032
+`8The Ganglia``~
+You stand within a large valved chamber. Around you, large plasma
+walls pulsate with energy, and you can almost make outh the pathway
+that is just near you. All else is total darkness. Here, a strange
+cellular structure lurks before you, carrying inside it oddities that
+is has surrounded with mucus to protect from abrasions.
+~
+~
+0 13 0 0
+D0
+~
+~
+0 0 8016
+S
+#8033
+`8A small umbilical``~
+You stand within a very strange, windy passageway. The walls here are
+not smooth, but covered in thick coagulations with lumpy, fatty types
+of deposits. Still slick and slimy, the the pathway ahead of you is
+rather dark, and the scents of sulphur and iron fill the air.
+~
+~
+0 13 0 0
+D2
+~
+~
+0 0 8026
+D3
+~
+~
+0 0 8034
+S
+#8034
+`8A small umbilical``~
+You stand within a very strange, windy passageway. The walls here are
+not smooth, but covered in thick coagulations with lumpy, fatty types
+of deposits. Still slick and slimy, the the pathway ahead of you is
+rather dark, and the scents of sulphur and iron fill the air.
+~
+~
+0 13 0 0
+D0
+~
+~
+0 0 8035
+D1
+~
+~
+0 0 8033
+S
+#8035
+`8A small umbilical``~
+You stand within a very strange, windy passageway. The walls here are
+not smooth, but covered in thick coagulations with lumpy, fatty types
+of deposits. Still slick and slimy, the the pathway ahead of you is
+rather dark, and the scents of sulphur and iron fill the air.
+~
+~
+0 13 0 0
+D2
+~
+~
+0 0 8034
+D3
+~
+~
+0 0 8036
+S
+#8036
+`8The Cerebellum``~
+Around you, taut walls of thick skin line the walls. Rows of strange
+striated muscle periodically contract, causing the room to shrink and
+grow at uneven intervals. Here, the power of the mind now achieves its
+central foci, harnessing the dark powers of all illithids into a slow,
+steady vibration.
+~
+~
+0 13 0 0
+D0
+~
+~
+0 0 8049
+D1
+~
+~
+0 0 8035
+S
+#8037
+`8The Choroid Fissure``~
+You stand with a large antechamber. Around you, strange vessicles
+move to and fro. Large sickly tentacles emerge from strange little
+mouths in the walls, as if waiting to take something from you. This
+seems to be a bank, of some sort.
+~
+~
+0 13 0 0
+D2
+~
+~
+0 0 8020
+S
+#8038
+`8The Caudal Nucleus``~
+You stand within a large, circular cell. In the center of the cell,
+a large gray mass is twitching slowly. The walls around you are made
+of a sort of plasm, that vibrates with strange pulsations. As you watch,
+the nucleus quivers slowly, and seems to relay an odd message to you.
+~
+~
+0 13 0 0
+D2
+~
+~
+0 0 8018
+S
+#8039
+`8A small vessel``~
+You stand within a small passageway off of the main capillary.
+Around you, thick blue walls which are flexible, yet rather
+rigid in structure surround you. A thick, clear liquid runs
+around your feet, deeper into the chamber. It is dark here,
+and very, very humid.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 8040
+D3
+~
+~
+0 0 8010
+S
+#8040
+`8A small vessel``~
+You stand within a small passageway off of the main capillary.
+Around you, thick blue walls which are flexible, yet rather
+rigid in structure surround you. A thick, clear liquid runs
+around your feet, deeper into the chamber. It is dark here,
+and very, very humid.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 8041
+D3
+~
+~
+0 0 8039
+S
+#8041
+`8The larval chamber``~
+You stand amid what seems to be a massive birthing room. Large
+catacombs made of some strange hardened substance are all around
+you. Within, you can see what looks like some sort of larve, a
+large white, sickly looking creature. A small, thin paperlike
+wall protects these slith infants from outside attacks, and you
+see caretakers walking all about, feeding them from time to time.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 8040
+D1
+~
+~
+0 0 8044
+D2
+~
+~
+0 0 8042
+S
+#8042
+`8The larval chamber``~
+You stand amid what seems to be a massive birthing room. Large
+catacombs made of some strange hardened substance are all around
+you. Within, you can see what looks like some sort of larve, a
+large white, sickly looking creature. A small, thin paperlike
+wall protects these slith infants from outside attacks, and you
+see caretakers walking all about, feeding them from time to time.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 8041
+D1
+~
+~
+0 0 8043
+S
+#8043
+`8The larval chamber``~
+You stand amid what seems to be a massive birthing room. Large
+catacombs made of some strange hardened substance are all around
+you. Within, you can see what looks like some sort of larve, a
+large white, sickly looking creature. A small, thin paperlike
+wall protects these slith infants from outside attacks, and you
+see caretakers walking all about, feeding them from time to time.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 8044
+D1
+~
+~
+0 0 8046
+D3
+~
+~
+0 0 8042
+S
+#8044
+`8The larval chamber``~
+You stand amid what seems to be a massive birthing room. Large
+catacombs made of some strange hardened substance are all around
+you. Within, you can see what looks like some sort of larve, a
+large white, sickly looking creature. A small, thin paperlike
+wall protects these slith infants from outside attacks, and you
+see caretakers walking all about, feeding them from time to time.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 8045
+D2
+~
+~
+0 0 8043
+D3
+~
+~
+0 0 8041
+S
+#8045
+`8The larval chamber``~
+You stand amid what seems to be a massive birthing room. Large
+catacombs made of some strange hardened substance are all around
+you. Within, you can see what looks like some sort of larve, a
+large white, sickly looking creature. A small, thin paperlike
+wall protects these slith infants from outside attacks, and you
+see caretakers walking all about, feeding them from time to time.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 8047
+D2
+~
+~
+0 0 8046
+D3
+~
+~
+0 0 8044
+S
+#8046
+`8The larval chamber``~
+You stand amid what seems to be a massive birthing room. Large
+catacombs made of some strange hardened substance are all around
+you. Within, you can see what looks like some sort of larve, a
+large white, sickly looking creature. A small, thin paperlike
+wall protects these slith infants from outside attacks, and you
+see caretakers walking all about, feeding them from time to time.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 8045
+D1
+~
+~
+0 0 8048
+D3
+~
+~
+0 0 8043
+S
+#8047
+`8The larval chamber``~
+You stand amid what seems to be a massive birthing room. Large
+catacombs made of some strange hardened substance are all around
+you. Within, you can see what looks like some sort of larve, a
+large white, sickly looking creature. A small, thin paperlike
+wall protects these slith infants from outside attacks, and you
+see caretakers walking all about, feeding them from time to time.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 8048
+D3
+~
+~
+0 0 8045
+S
+#8048
+`8The larval chamber``~
+You stand amid what seems to be a massive birthing room. Large
+catacombs made of some strange hardened substance are all around
+you. Within, you can see what looks like some sort of larve, a
+large white, sickly looking creature. A small, thin paperlike
+wall protects these slith infants from outside attacks, and you
+see caretakers walking all about, feeding them from time to time.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 8047
+D3
+~
+~
+0 0 8046
+S
+#8049
+`8The Cerebral Cortex``~
+You stand within the very nerve center of the Hive. Around you, large
+translucent walls rise up, made of rigid plasma. In the plasma, small
+bloody lines can be seen which carry nourishment to the Cortex. Here,
+the Illithids come to heal their own weary minds, and harness the great
+strength of the Cortex surrounding them.
+~
+~
+0 13 0 0
+D2
+~
+~
+0 0 8036
+D5
+~
+~
+0 0 7701
+M 150 H 100
+P RANDOM 8049 10~
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 8029 spec_keeper_stay
+M 8030 spec_keeper_stay
+M 8031 spec_keeper_stay
+M 8032 spec_keeper_stay
+M 8036 spec_cast_adept
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 8013 10 8012 2
+O 0 8013 0 8013
+M 0 8013 10 8013 2
+M 0 8013 10 8014 2
+M 0 8013 10 8015 2
+M 0 8013 10 8016 2
+M 0 8023 1 8023 1
+M 0 8024 1 8024 1
+M 0 8027 1 8027 1
+M 0 8029 1 8029 1
+G 0 8033 0
+G 0 8029 0
+G 0 8028 0
+M 0 8030 1 8030 1
+G 0 8030 0
+G 0 8031 0
+G 0 8032 0
+M 0 8031 1 8031 1
+G 0 8027 0
+G 0 8026 0
+G 0 8025 0
+G 0 8024 0
+M 0 8032 1 8032 1
+G 0 8040 0
+G 0 8041 0
+G 0 8042 0
+M 0 8036 1 8036 1
+M 0 8038 1 8038 1
+M 0 8041 16 8041 2
+M 0 8041 16 8042 2
+M 0 8048 6 8042 1
+M 0 8041 16 8043 2
+M 0 8041 16 8044 2
+M 0 8048 6 8044 1
+M 0 8041 16 8045 2
+M 0 8041 16 8046 2
+M 0 8048 6 8046 1
+M 0 8041 16 8047 2
+M 0 8041 16 8048 2
+M 0 8048 6 8048 2
+O 0 8049 0 8049
+S
+
+
+
+#SHOPS
+8029 0 0 0 0 0 100 50 0 23
+8030 0 0 0 0 0 100 50 0 23
+8031 0 0 0 0 0 100 50 0 23
+8032 0 0 0 0 0 100 50 0 23
+0
+
+
+
+#MOBPROGS
+#8013
+if rand 50
+     mob echo [`8An Illithid``] `#Jandiiri quoie, mandier vela, $n.``
+else
+     mob echo [`8An Illithid``] `#Mhoabadar kand'irio miriekkh, $n. Yi tavrem duum.``
+endif
+~
+#8014
+if rand 50
+     mob echo A resident illithid seems to concentrate deeply.
+else
+     mob echo A resident illithid taps into the power source of the Hive.
+endif
+~
+#8048
+echo [`8An Illithid Caretaker``] `#Leave this place at once!``
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#8049
+if rand 50
+     room zecho You hear a dull 'thump-thump' echo throught.
+else
+     room zecho The sound of a soft heartbeat fills your thoughts.
+endif
+~
+#0
+
+#$

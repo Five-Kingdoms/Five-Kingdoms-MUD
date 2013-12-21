@@ -1,0 +1,73 @@
+#AREADATA
+Name the Heldamue Forest~
+Pref ~
+Builders None~
+VNUMs 6200 6299
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 0
+Crimes 6 0 0 0 0 0 0 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

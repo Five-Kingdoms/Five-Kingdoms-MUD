@@ -1,0 +1,481 @@
+#AREADATA
+Name City of Shar' Goth~
+Pref ~
+Builders Lerntu~
+VNUMs 1100 1199
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 2
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#1104
+Terilan the Rat Prince~
+Terilan~
+A large, ugly rat looms before you.
+~
+Oh, by the gods, what have you gotten yourself into this time.  This
+thing is HUGE.  It towers about 10 feet tall, and almost just as wide. 
+Dried black blood stick to it's long, sharp claws.  Bugs squiggle in and out
+of it's fur, and worms enter and exit through each of it's nostrils. 
+Roaches crawl in and out of it's mouth, laying eggs and biting at it's
+tongue.  It growls at you, brown colored slobber and breath that makes you
+gag, flowing out of what you think is it's mouth.  
+~
+undead~
+AFGOe AC J I -2 0
+34 20 4d5+3125 0d0+0 3d4+2 tainted
+-9 -9 -9 0
+EFIK LQ I N
+stand stand male none~
+18
+0 ABCDEFGHIJK huge 0
+#0
+
+
+
+#OBJECTS
+#1102
+A winding stream~
+a winding stream~
+A stream winds southward trough a crack in the wall.~
+water~
+fountain 0 0
+0 0 'water' 0 0
+60 0 0 P
+#1104
+the Claws of Terilan~
+the Claws of Terilan~
+A sharp set of claws lay here, darkened with black blood.~
+flesh~
+weapon EJP AN
+exotic 4 9 tainted 0
+30 7 12 P
+#1115
+flowing stream~
+a flowing stream~
+A stream flows quietly from out of the bushes north.~
+water~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 P
+#1116
+hard steel truss~
+a hard steel truss~
+A truss humming at your feet, rests here.~
+steel~
+armor BY AM
+-10 -10 -11 -8 0
+40 20 15000 P
+F
+A 19 2 0
+F
+A 18 1 0
+#1117
+ragged chest~
+a ragged chest~
+A small, old chest with a keyhole on the front, sits here glowing.~
+wood~
+container AY 0
+10 ACD 1118 2 100
+0 0 0 P
+#1118
+light steel key~
+a light steel key~
+A light steel key sits here in the dust.~
+steel~
+key 0 0
+0 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#1100
+`8Western Gate of Shar' Goth``~
+A distant smell of burned, rotting flesh reaches your nostrils.  You
+quickly cover your nose, and gag.  Several blocks of decomposed wood lay
+scattered around here.  Broken stone and clay lay to your north, and fresh
+green plants grow to your south.  You can see several shadows moving about
+east of you, and you can hear slight whispering.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 1101
+S
+#1101
+`8Western Alley``~
+Large buildings lie still east of you, crumbling with age.  The smell of
+burned, rotting flesh is stronger here, making you gag profusely.  You
+quickly search around for a cloth to put over your face, and notice several
+shadows moving about you.  They seem to be whispering something, but you
+can't quite make it out.  The noises they make are eerie, and make you
+shiver.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 1102
+D3
+~
+~
+0 0 1100
+S
+#1102
+`8Western Ally Way``~
+Blocks and large pieces of wood litter the way north of you, allowing for
+little passage.  A small stream of water quickly flows through here, further
+more breaking down the foundation to the wall south of you.  Strange birds
+fly overhead, featherless, but not flightless.  The shadows seem to have
+followed you from your entry way west, and again, you hear their silent,
+solace whispers.  
+~
+~
+0 0 0 0
+D0
+~
+~
+ABM 0 1103
+D1
+~
+~
+0 0 1105
+D3
+~
+~
+0 0 1101
+S
+#1103
+`8Utter Darkness``~
+You can't see even one foot in front of you.  The darkness seems to
+swirl around you, trying to blind or disable you.  A faint sound of
+squeeking can be heard north of you, and trickling water moving south of
+you.  A wooden door hidden in between to large stacks of wood lays south of
+you.  Faint light pours through several cracks, and whispers can be heard
+beyond it.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 1104
+D2
+~
+~
+ABM 0 1102
+S
+#1104
+`5Terilan's Lair``~
+It's a bit lighter within this room, a small lantern lit to your left,
+and several shelves to your east.  The whispers have disappeared, and you
+feel utterly alone, except for one, significant presence that you can feel. 
+It spills fear into your heart, as you come face to face with a giant rat.  
+~
+~
+0 0 0 8
+D2
+~
+~
+0 0 1103
+S
+#1105
+`8Central Trispace``~
+Surprisingly the smell of rotting, burning flesh has receded a bit, or
+you've just gotten used to it.  To your north you see several blackened
+buildings, probably burned by some fire centuries ago.  Several sticks
+litter the 'triangle'.  You'd otherwise call it the square of the city,
+except you see no way of passage to the south of you, and the only exits are
+north and east.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 1106
+D1
+~
+~
+0 0 1107
+D3
+~
+~
+0 0 1102
+S
+#1106
+`8Northern Alley``~
+The stench of rotting, burning flesh becomes more immense here.  Your
+mind clouds, and you can't concentrate.  Your head spins round and round as
+you breathe in the horrible fumes.  You cough slightly, but keep your
+stature.  
+~
+~
+0 549453824 0 0
+D0
+~
+~
+0 0 1109
+D2
+~
+~
+0 0 1105
+D3
+~
+~
+AB 0 1108
+S
+#1107
+`8Eastern Alley``~
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 1105
+S
+#1108
+`8Residential House``~
+The stench is horrid!  You can't stand it in here.  You cough and choke,
+and gag, and your lungs revolt.  You start to cough up blood as the horrible
+stench cuts into your throat.  You think it better to get out of here,
+quickly.  
+~
+~
+0 16 0 0
+D1
+~
+~
+AB 0 1106
+S
+#1109
+`8Northern Alley``~
+The stench seems more out of the way now.  Clear, fresh air flows into
+your lungs as you breathe in.  To your south lay large burnt buildings, and
+to your north lays a huge forest, probably a park centuries ago.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 1110
+D2
+~
+~
+0 0 1106
+S
+#1110
+`3Outskirts``~
+Ah, finally.  Fresh air, no more stenches, no more whispers.  Nothing. 
+Peace, and quiet.  You look around and decide you're just north of the City
+Shar' Goth, and you sigh with relief.  
+~
+~
+0 0 8192 4
+D0
+~
+~
+0 0 1111
+D2
+~
+~
+0 0 1109
+S
+#1111
+`2The Forest of Shar' Goth``~
+Dark green leaves grow on shrubs, bushes, and trees.  Grey blocks of
+granite and burnt coal litter the ground for miles around you, feeding the
+forest with nutrients.  Flies and mosquito's buzz around at your face, and
+annoy you.  You swat at them, and playfully run around.  
+~
+~
+0 0 16384 14
+D0
+~
+~
+0 0 1113
+D1
+~
+~
+0 0 1112
+D2
+~
+~
+0 0 1110
+D3
+~
+~
+ABM 0 1115
+S
+#1112
+`2The Forest of Shar' Goth``~
+The forest is starting to get dense, as you try to make your way through
+it.  Bugs constantly attack you in hopes of bringing you down to the ground
+to eat you alive.  Fallen trees lay acrossed what looks like used to be a
+path, and large sink holes scatter about on the side of the path.  
+~
+~
+0 0 65536 14
+D1
+~
+~
+0 0 1114
+D3
+~
+~
+0 0 1111
+S
+#1113
+`2The Cliffs of Shar' Goth``~
+You're stopped suddenly by a 500 foot drop.  You peer over the edge and
+locate a few house roof tops, holes scattered all about.  The sky to the
+north is a dark dark blue, not a cloud in sight.  To your south east the sky
+is a darkened red.  It looks like it's almost moving from the constant
+flicker of bright red, to a dark eerie red.  
+~
+~
+0 0 16384 14
+D2
+~
+~
+0 0 1111
+S
+#1114
+`2Eastern Walkway of Shar' Goth Forest``~
+It seems the trail has come to an abrupt stop..  before tons and tons of
+rubble.  Rocks are strewn all over the place, decayed papers, bashed up
+metal, brimstone, silver, and gold.  To your knowledge, you find you can't
+go any further east, and decide to turn around.  
+~
+~
+0 0 16384 14
+D3
+~
+~
+0 0 1112
+S
+#1115
+`2A small cove``~
+As the bushes to your east close back to their originaly position, making
+it look as if there is no door, again, you begin to peer around a small,
+oddly set cove.  A stream flows from almost out of nowhere, into a grate
+below you.  You can hear trickling water hit wet stone below you, and you
+begin to peer below you.  
+~
+~
+0 0 16384 14
+D1
+~
+~
+ABM 0 1111
+D5
+~
+~
+AB 0 1116
+S
+#1116
+`8A small entrance``~
+It got real damp, and quite chilly, fairly quickly.  A low gust blows
+through and out of the grate above you, from the south.  To the east is utter
+darkness, and to the west is a storage room of some kind.  A fast stream of
+dripping water falls through the grate above you and onto the slick wet
+ground.  Moss covers the walls and the floor, making it hard to keep your
+balance, better not slip.  
+~
+~
+0 0 0 0
+D1
+~
+~
+J 0 1117
+D4
+~
+~
+AB 0 1115
+S
+#1117
+`8A dark hole``~
+You can hardly see two feet in front of you.  Though you CAN see, you
+have a hard time feeling your way around.  After a brief inspection, you
+finally decide there's nothing useful here, except for the chest set
+directly in the middle of the room.  You try and shake it open, but with no
+obvious luck.  You hear something moving around inside of it, and it sounds
+expensive.  
+~
+~
+0 0 0 0
+D3
+~
+~
+J 0 1116
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+O 0 1102 0 1102
+O 0 1102 0 1102
+M 0 1104 1 1104 1
+E 0 1104 0 17
+E 0 1118 0 18
+M 0 700 1 1111 1
+M 0 700 4 1111 2
+O 0 1115 0 1115
+O 0 1117 0 1117
+P 0 1116 0 1117 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

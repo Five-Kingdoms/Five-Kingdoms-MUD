@@ -1,1 +1,2096 @@
+#O
+Vnum 3
+SaveVer 2018
+Room 30300
+Idle 15
+Home 0
+Nest 0
+ShD  24 gold coins~
+Wear -1
+Cost 24
+Val  24 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 8500
+Idle 12
+Home 0
+Nest 0
+ShD  32 gold coins~
+Wear -1
+Cost 32
+Val  32 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 9153
+Idle 15
+Home 0
+Nest 0
+ShD  12 gold coins~
+Wear -1
+Cost 12
+Val  12 0 0 0 0
+End
+
+#O
+Vnum 6393
+SaveVer 2018
+Room 6393
+Idle 18
+Home 6393
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6365
+SaveVer 2018
+Home 6393
+Nest 1
+Wear -1
+Time 150
+Cost 0
+Val  6 0 0 0 168
+End
+
+#O
+Vnum 6365
+SaveVer 2018
+Home 6393
+Nest 1
+Wear -1
+Time 150
+Cost 0
+Val  6 0 0 0 168
+End
+
+#O
+Vnum 6365
+SaveVer 2018
+Home 6393
+Nest 1
+Wear -1
+Time 150
+Cost 0
+Val  6 0 0 0 168
+End
+
+#O
+Vnum 6365
+SaveVer 2018
+Home 6393
+Nest 1
+Wear -1
+Time 150
+Cost 0
+Val  6 0 0 0 168
+End
+
+#O
+Vnum 6365
+SaveVer 2018
+Home 6393
+Nest 1
+Wear -1
+Time 150
+Cost 0
+Val  6 0 0 0 168
+End
+
+#O
+Vnum 6365
+SaveVer 2018
+Home 6393
+Nest 1
+Wear -1
+Time 150
+Cost 0
+Val  6 0 0 0 168
+End
+
+#O
+Vnum 4365
+SaveVer 2018
+Room 4365
+Idle 18
+Home 4365
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 4366
+SaveVer 2018
+Home 4365
+Nest 1
+Wear -1
+Time 150
+Cost 12
+Val  24 24 0 0 168
+End
+
+#O
+Vnum 4160
+SaveVer 2018
+Room 4109
+Idle 10
+Home 4150
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 11163
+SaveVer 2018
+Room 11034
+Idle 15
+Home 11033
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8222
+Idle 6
+Home 8269
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8267
+Idle 11
+Home 8268
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8251
+Idle 8
+Home 8253
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 141
+SaveVer 2018
+Room 772
+Idle 5
+Home 773
+Nest 0
+Mate copper~
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 141
+SaveVer 2018
+Room 732
+Home 731
+Nest 0
+Mate silver~
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 4039
+Idle 376
+Home 0
+Nest 0
+ShD  3 gold coins~
+Wear -1
+Cost 3
+Val  3 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 4054
+Idle 384
+Home 0
+Nest 0
+ShD  13 gold coins~
+Wear -1
+Cost 13
+Val  13 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 4060
+Idle 385
+Home 0
+Nest 0
+ShD  21 gold coins~
+Wear -1
+Cost 21
+Val  21 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30300
+Idle 389
+Home 0
+Nest 0
+ShD  16 gold coins~
+Wear -1
+Cost 16
+Val  16 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 8500
+Idle 389
+Home 0
+Nest 0
+ShD  14 gold coins~
+Wear -1
+Cost 14
+Val  14 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 9153
+Idle 386
+Home 0
+Nest 0
+ShD  9 gold coins~
+Wear -1
+Cost 9
+Val  9 0 0 0 0
+End
+
+#O
+Vnum 4160
+SaveVer 2018
+Room 7701
+Idle 382
+Home 4150
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8222
+Idle 365
+Home 8269
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8266
+Idle 384
+Home 8268
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30300
+Idle 395
+Home 0
+Nest 0
+ShD  27 gold coins~
+Wear -1
+Cost 27
+Val  27 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 8500
+Idle 396
+Home 0
+Nest 0
+ShD  26 gold coins~
+Wear -1
+Cost 26
+Val  26 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 9153
+Idle 395
+Home 0
+Nest 0
+ShD  13 gold coins~
+Wear -1
+Cost 13
+Val  13 0 0 0 0
+End
+
+#O
+Vnum 2
+SaveVer 2018
+Room 30200
+Idle 413
+Home 0
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30300
+Idle 413
+Home 0
+Nest 0
+ShD  14 gold coins~
+Wear -1
+Cost 14
+Val  14 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 8500
+Idle 413
+Home 0
+Nest 0
+ShD  12 gold coins~
+Wear -1
+Cost 12
+Val  12 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 9153
+Idle 411
+Home 0
+Nest 0
+ShD  8 gold coins~
+Wear -1
+Cost 8
+Val  8 0 0 0 0
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8222
+Idle 368
+Home 8269
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8266
+Idle 404
+Home 8268
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8251
+Idle 383
+Home 8253
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 141
+SaveVer 2018
+Room 413
+Idle 413
+Home 412
+Nest 0
+Mate iron~
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30300
+Idle 463
+Home 0
+Nest 0
+ShD  13 gold coins~
+Wear -1
+Cost 13
+Val  13 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 8500
+Idle 463
+Home 0
+Nest 0
+ShD  13 gold coins~
+Wear -1
+Cost 13
+Val  13 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 9153
+Idle 463
+Home 0
+Nest 0
+ShD  15 gold coins~
+Wear -1
+Cost 15
+Val  15 0 0 0 0
+End
+
+#O
+Vnum 4160
+SaveVer 2018
+Room 7701
+Idle 447
+Home 4150
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8251
+Idle 428
+Home 8253
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 37
+SaveVer 2018
+Room 17800
+Home 17800
+Nest 0
+Name cabal item standard Saint~
+ShD  the Standard of Saint~
+Desc A standard with the crest of Saint has been left here.~
+Cabal Saint~
+Wear 18
+Cost 1
+End
+
+#O
+Vnum 37
+SaveVer 2018
+Room 16600
+Home 16600
+Nest 0
+Name cabal item standard Muse~
+ShD  the Standard of Muse~
+Desc A standard with the crest of Muse has been left here.~
+Cabal Muse~
+Wear 18
+Cost 1
+End
+
+#O
+Vnum 37
+SaveVer 2018
+Room 17400
+Home 17400
+Nest 0
+Name cabal item standard Battle~
+ShD  the Standard of Battle~
+Desc A standard with the crest of Battle has been left here.~
+Cabal Battle~
+Wear 18
+Cost 1
+End
+
+#O
+Vnum 37
+SaveVer 2018
+Room 17200
+Home 17200
+Nest 0
+Name cabal item standard Sage~
+ShD  the Standard of Sage~
+Desc A standard with the crest of Sage has been left here.~
+Cabal Sage~
+Wear 18
+Cost 1
+End
+
+#O
+Vnum 37
+SaveVer 2018
+Room 17000
+Home 17000
+Nest 0
+Name cabal item standard Empire~
+ShD  the Standard of Empire~
+Desc A standard with the crest of Empire has been left here.~
+Cabal Empire~
+Wear 18
+Cost 1
+End
+
+#O
+Vnum 37
+SaveVer 2018
+Room 16800
+Home 16800
+Nest 0
+Name cabal item standard Templar~
+ShD  the Standard of Templar~
+Desc A standard with the crest of Templar has been left here.~
+Cabal Templar~
+Wear 18
+Cost 1
+End
+
+#O
+Vnum 37
+SaveVer 2018
+Room 16900
+Home 16900
+Nest 0
+Name cabal item standard Cartel~
+ShD  the Standard of Cartel~
+Desc A standard with the crest of Cartel has been left here.~
+Cabal Cartel~
+Wear 18
+Cost 1
+End
+
+#O
+Vnum 37
+SaveVer 2018
+Room 17500
+Home 17500
+Nest 0
+Name cabal item standard Zalango~
+ShD  the Standard of Zalango~
+Desc A standard with the crest of Zalango has been left here.~
+Cabal Zalango~
+Wear 18
+Cost 1
+End
+
+#O
+Vnum 37
+SaveVer 2018
+Room 17100
+Home 17100
+Nest 0
+Name cabal item standard Revelsport~
+ShD  the Standard of Revelsport~
+Desc A standard with the crest of Revelsport has been left here.~
+Cabal Revelsport~
+Wear 18
+Cost 1
+End
+
+#O
+Vnum 37
+SaveVer 2018
+Room 17300
+Home 17300
+Nest 0
+Name cabal item standard Ulsym~
+ShD  the Standard of Ulsym~
+Desc A standard with the crest of Ulsym has been left here.~
+Cabal Ulsym~
+Wear 18
+Cost 1
+End
+
+#O
+Vnum 37
+SaveVer 2018
+Room 16700
+Home 16700
+Nest 0
+Name cabal item standard Pillar of Law~
+ShD  the Standard of Pillar of Law~
+Desc A standard with the crest of Pillar of Law has been left here.~
+Cabal Pillar of Law~
+Wear 18
+Cost 1
+End
+
+#O
+Vnum 1117
+SaveVer 2018
+Room 1117
+Idle 590
+Home 1117
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1116
+SaveVer 2018
+Home 1117
+Nest 1
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 713
+SaveVer 2018
+Room 741
+Idle 590
+Home 741
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 703
+SaveVer 2018
+Home 741
+Nest 1
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 8193
+SaveVer 2018
+Room 8193
+Idle 590
+Home 8193
+Nest 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 8195
+SaveVer 2018
+Home 8193
+Nest 1
+Wear -1
+Time -1
+Cost 0
+End
+
+#O
+Vnum 8121
+SaveVer 2018
+Room 8109
+Idle 590
+Home 8109
+Nest 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 8122
+SaveVer 2018
+Home 8109
+Nest 1
+Wear -1
+Time -1
+Cost 12
+End
+
+#O
+Vnum 20747
+SaveVer 2018
+Room 20747
+Idle 590
+Home 20747
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 20746
+SaveVer 2018
+Home 20747
+Nest 1
+Wear -1
+Cost 1
+End
+
+#O
+Vnum 20726
+SaveVer 2018
+Room 20692
+Idle 590
+Home 20692
+Nest 0
+Wear -1
+Cost 5
+Trap 20692 a falling axe trap~
+1 2 1 40 -1 EFH
+5 3 450 10 10 1
+End
+
+#O
+Vnum 20619
+SaveVer 2018
+Home 20692
+Nest 1
+Wear -1
+Cost 3
+Limited 20619
+End
+
+#O
+Vnum 5221
+SaveVer 2018
+Room 5297
+Idle 590
+Home 5297
+Nest 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 5222
+SaveVer 2018
+Home 5297
+Nest 1
+Wear -1
+Cost 4
+Spell 3 'force field'
+Limited 5222
+End
+
+#O
+Vnum 5998
+SaveVer 2018
+Room 5998
+Idle 590
+Home 5998
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5997
+SaveVer 2018
+Home 5998
+Nest 1
+Wear -1
+Cost 4
+Spell 1 'cure light'
+End
+
+#O
+Vnum 1518
+SaveVer 2018
+Room 1519
+Idle 590
+Home 1519
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 1504
+SaveVer 2018
+Home 1519
+Nest 1
+Wear -1
+Cost 40
+End
+
+#O
+Vnum 1520
+SaveVer 2018
+Room 1519
+Idle 590
+Home 1519
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 1519
+SaveVer 2018
+Room 1519
+Idle 590
+Home 1519
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 1502
+SaveVer 2018
+Home 1519
+Nest 1
+Wear -1
+Cost 20000
+End
+
+#O
+Vnum 1500
+SaveVer 2018
+Room 1512
+Idle 590
+Home 1512
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 1501
+SaveVer 2018
+Home 1512
+Nest 1
+Wear -1
+Cost 690
+End
+
+#O
+Vnum 1511
+SaveVer 2018
+Room 1511
+Idle 590
+Home 1511
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 1510
+SaveVer 2018
+Room 1510
+Idle 590
+Home 1510
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 1509
+SaveVer 2018
+Home 1510
+Nest 1
+Wear -1
+Cost 45
+End
+
+#O
+Vnum 4995
+SaveVer 2018
+Room 4996
+Idle 590
+Home 4996
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4994
+SaveVer 2018
+Home 4996
+Nest 1
+Wear -1
+Cost 3
+Limited 4994
+End
+
+#O
+Vnum 11045
+SaveVer 2018
+Room 11045
+Idle 590
+Home 11045
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 11046
+SaveVer 2018
+Home 11045
+Nest 1
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 7777
+SaveVer 2018
+Room 7777
+Idle 590
+Home 7777
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 7778
+SaveVer 2018
+Home 7777
+Nest 1
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 7775
+SaveVer 2018
+Home 7777
+Nest 1
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 15076
+SaveVer 2018
+Room 15088
+Idle 590
+Home 15088
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2130
+SaveVer 2018
+Room 2130
+Idle 590
+Home 2130
+Nest 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 2131
+SaveVer 2018
+Home 2130
+Nest 1
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 20011
+SaveVer 2018
+Room 20017
+Idle 590
+Home 20017
+Nest 0
+Wear -1
+Cost 10
+Limited 20011
+End
+
+#O
+Vnum 20008
+SaveVer 2018
+Home 20017
+Nest 1
+Wear -1
+Cost 10
+Spell 1 'esuna'
+Spell 2 'stone skin'
+Spell 3 'sanctuary'
+Limited 20008
+End
+
+#O
+Vnum 20010
+SaveVer 2018
+Room 20017
+Idle 590
+Home 20017
+Nest 0
+Wear -1
+Cost 100
+Limited 20010
+End
+
+#O
+Vnum 20009
+SaveVer 2018
+Home 20017
+Nest 1
+Wear -1
+Cost 5
+Spell 3 'silence'
+Limited 20009
+End
+
+#O
+Vnum 20002
+SaveVer 2018
+Room 20005
+Idle 590
+Home 20005
+Nest 0
+Wear -1
+Cost 5
+Limited 20002
+End
+
+#O
+Vnum 20003
+SaveVer 2018
+Home 20005
+Nest 1
+Wear -1
+Cost 4
+Limited 20003
+End
+
+#O
+Vnum 20000
+SaveVer 2018
+Room 20000
+Idle 590
+Home 20000
+Nest 0
+Wear -1
+Cost 3
+Limited 20000
+End
+
+#O
+Vnum 20001
+SaveVer 2018
+Home 20000
+Nest 1
+Wear -1
+Cost 10
+Limited 20001
+End
+
+#O
+Vnum 2624
+SaveVer 2018
+Room 2683
+Idle 590
+Home 2683
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9911
+SaveVer 2018
+Room 9912
+Idle 590
+Home 9912
+Nest 0
+Wear -1
+Cost 20
+Trap 9912 a poison dart trap~
+1 2 3 5 -1 CI
+5 65 1 307 5 1
+End
+
+#O
+Vnum 9910
+SaveVer 2018
+Home 9912
+Nest 1
+Wear -1
+Cost 10
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 30363
+SaveVer 2018
+Room 30360
+Idle 590
+Home 30360
+Nest 0
+Wear -1
+Cost 20
+Limited 30363
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8266
+Idle 438
+Home 8268
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 4160
+SaveVer 2018
+Room 7701
+Idle 476
+Home 4150
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8266
+Idle 471
+Home 8268
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8251
+Idle 434
+Home 8253
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8266
+Idle 399
+Home 8268
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 11163
+SaveVer 2018
+Room 11034
+Idle 442
+Home 11033
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4160
+SaveVer 2018
+Room 7701
+Idle 409
+Home 4150
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 9153
+Idle 445
+Home 0
+Nest 0
+ShD  15 gold coins~
+Wear -1
+Cost 15
+Val  15 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 8500
+Idle 446
+Home 0
+Nest 0
+ShD  33 gold coins~
+Wear -1
+Cost 33
+Val  33 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30300
+Idle 446
+Home 0
+Nest 0
+ShD  19 gold coins~
+Wear -1
+Cost 19
+Val  19 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 9153
+Idle 401
+Home 0
+Nest 0
+ShD  10 gold coins~
+Wear -1
+Cost 10
+Val  10 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 8500
+Idle 401
+Home 0
+Nest 0
+ShD  28 gold coins~
+Wear -1
+Cost 28
+Val  28 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30300
+Idle 399
+Home 0
+Nest 0
+ShD  13 gold coins~
+Wear -1
+Cost 13
+Val  13 0 0 0 0
+End
+
+#O
+Vnum 2
+SaveVer 2018
+Room 30200
+Idle 401
+Home 0
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8251
+Idle 394
+Home 8253
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 9153
+Idle 392
+Home 0
+Nest 0
+ShD  11 gold coins~
+Wear -1
+Cost 11
+Val  11 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 8500
+Idle 395
+Home 0
+Nest 0
+ShD  13 gold coins~
+Wear -1
+Cost 13
+Val  13 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30300
+Idle 394
+Home 0
+Nest 0
+ShD  26 gold coins~
+Wear -1
+Cost 26
+Val  26 0 0 0 0
+End
+
+#O
+Vnum 2
+SaveVer 2018
+Room 30200
+Idle 393
+Home 0
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8251
+Idle 356
+Home 8253
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8266
+Idle 332
+Home 8268
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8222
+Idle 295
+Home 8269
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 11163
+SaveVer 2018
+Room 11034
+Idle 346
+Home 11033
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4160
+SaveVer 2018
+Room 7701
+Idle 338
+Home 4150
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 9153
+Idle 357
+Home 0
+Nest 0
+ShD  10 gold coins~
+Wear -1
+Cost 10
+Val  10 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 8500
+Idle 356
+Home 0
+Nest 0
+ShD  31 gold coins~
+Wear -1
+Cost 31
+Val  31 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30300
+Idle 354
+Home 0
+Nest 0
+ShD  15 gold coins~
+Wear -1
+Cost 15
+Val  15 0 0 0 0
+End
+
+#O
+Vnum 2
+SaveVer 2018
+Room 30200
+Idle 357
+Home 0
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8251
+Idle 338
+Home 8253
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 8500
+Idle 309
+Home 0
+Nest 0
+ShD  21 gold coins~
+Wear -1
+Cost 21
+Val  21 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30300
+Idle 309
+Home 0
+Nest 0
+ShD  19 gold coins~
+Wear -1
+Cost 19
+Val  19 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30200
+Idle 310
+Home 0
+Nest 0
+ShD  7 gold coins~
+Wear -1
+Cost 7
+Val  7 0 0 0 0
+End
+
+#O
+Vnum 4160
+SaveVer 2018
+Room 7701
+Idle 281
+Home 4150
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 11163
+SaveVer 2018
+Room 11034
+Idle 261
+Home 11033
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 9153
+Idle 302
+Home 0
+Nest 0
+ShD  5 gold coins~
+Wear -1
+Cost 5
+Val  5 0 0 0 0
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8251
+Idle 273
+Home 8253
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8266
+Idle 261
+Home 8268
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8222
+Idle 220
+Home 8269
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 8500
+Idle 254
+Home 0
+Nest 0
+ShD  10 gold coins~
+Wear -1
+Cost 10
+Val  10 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30300
+Idle 252
+Home 0
+Nest 0
+ShD  11 gold coins~
+Wear -1
+Cost 11
+Val  11 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30200
+Idle 253
+Home 0
+Nest 0
+ShD  8 gold coins~
+Wear -1
+Cost 8
+Val  8 0 0 0 0
+End
+
+#O
+Vnum 11163
+SaveVer 2018
+Room 11034
+Idle 251
+Home 11033
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4160
+SaveVer 2018
+Room 7701
+Idle 219
+Home 4150
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 9153
+Idle 248
+Home 0
+Nest 0
+ShD  8 gold coins~
+Wear -1
+Cost 8
+Val  8 0 0 0 0
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8251
+Idle 213
+Home 8253
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8266
+Idle 175
+Home 8268
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30300
+Idle 203
+Home 0
+Nest 0
+ShD  13 gold coins~
+Wear -1
+Cost 13
+Val  13 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30200
+Idle 202
+Home 0
+Nest 0
+ShD  5 gold coins~
+Wear -1
+Cost 5
+Val  5 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 8500
+Idle 201
+Home 0
+Nest 0
+ShD  9 gold coins~
+Wear -1
+Cost 9
+Val  9 0 0 0 0
+End
+
+#O
+Vnum 4160
+SaveVer 2018
+Room 7701
+Idle 177
+Home 4150
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 9153
+Idle 197
+Home 0
+Nest 0
+ShD  13 gold coins~
+Wear -1
+Cost 13
+Val  13 0 0 0 0
+End
+
+#O
+Vnum 11163
+SaveVer 2018
+Room 11034
+Idle 162
+Home 11033
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8251
+Idle 99
+Home 8253
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8266
+Idle 170
+Home 8268
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8222
+Idle 134
+Home 8269
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 8500
+Idle 150
+Home 0
+Nest 0
+ShD  11 gold coins~
+Wear -1
+Cost 11
+Val  11 0 0 0 0
+End
+
+#O
+Vnum 11163
+SaveVer 2018
+Room 11034
+Idle 103
+Home 11033
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30300
+Idle 142
+Home 0
+Nest 0
+ShD  13 gold coins~
+Wear -1
+Cost 13
+Val  13 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30200
+Idle 145
+Home 0
+Nest 0
+ShD  9 gold coins~
+Wear -1
+Cost 9
+Val  9 0 0 0 0
+End
+
+#O
+Vnum 4160
+SaveVer 2018
+Room 7701
+Idle 105
+Home 4150
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 9153
+Idle 139
+Home 0
+Nest 0
+ShD  7 gold coins~
+Wear -1
+Cost 7
+Val  7 0 0 0 0
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8251
+Idle 100
+Home 8253
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8266
+Idle 105
+Home 8268
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8222
+Idle 63
+Home 8269
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 8500
+Idle 100
+Home 0
+Nest 0
+ShD  23 gold coins~
+Wear -1
+Cost 23
+Val  23 0 0 0 0
+End
+
+#O
+Vnum 11163
+SaveVer 2018
+Room 11034
+Idle 96
+Home 11033
+Nest 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 9153
+Idle 89
+Home 0
+Nest 0
+ShD  11 gold coins~
+Wear -1
+Cost 11
+Val  11 0 0 0 0
+End
+
+#O
+Vnum 4160
+SaveVer 2018
+Room 7701
+Idle 73
+Home 4150
+Nest 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30300
+Idle 87
+Home 0
+Nest 0
+ShD  10 gold coins~
+Wear -1
+Cost 10
+Val  10 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30200
+Idle 87
+Home 0
+Nest 0
+ShD  5 gold coins~
+Wear -1
+Cost 5
+Val  5 0 0 0 0
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8251
+Idle 55
+Home 8253
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 8248
+SaveVer 2018
+Room 8266
+Idle 40
+Home 8268
+Nest 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 8500
+Idle 55
+Home 0
+Nest 0
+ShD  22 gold coins~
+Wear -1
+Cost 22
+Val  22 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30300
+Idle 36
+Home 0
+Nest 0
+ShD  14 gold coins~
+Wear -1
+Cost 14
+Val  14 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 30200
+Idle 36
+Home 0
+Nest 0
+ShD  5 gold coins~
+Wear -1
+Cost 5
+Val  5 0 0 0 0
+End
+
+#O
+Vnum 3
+SaveVer 2018
+Room 9153
+Idle 30
+Home 0
+Nest 0
+ShD  7 gold coins~
+Wear -1
+Cost 7
+Val  7 0 0 0 0
+End
+
 #END

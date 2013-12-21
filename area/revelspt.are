@@ -1,0 +1,8127 @@
+#AREADATA
+Name Revelsport~
+Pref ~
+Builders None~
+VNUMs 20601 20999
+Max_Bastions 8
+Credits { ALL } Crypticant Revelsport~
+Security 9
+Startroom 20605
+Flags 8
+Crimes 6 1 2 2 3 2 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#20601
+Marcher watchtower guard~
+A Marcher Lord Watchtower Guard~
+A Marcher Lord Watchtower guard stands here stolidly.
+~
+Wearing sleek black armor and looking like a fierce warrior,
+the Guards of the Marcher Lord are Revelsport's finest fighters.
+Deemed the protectors of Revelsport, they take their jobs
+very seriously.
+~
+human~
+ABGTe ACG D 0 0 0
+50 0 6d10+750 0d0+100 5d6+10 pierce
+0 0 0 0
+TU AB 0 0
+stand stand male none~
+19
+AHMV ABCDEFGHIJK medium 0
+#20602
+Marcher city guard~
+A Guard of the Marcher Lord~
+A Guard of the Marcher Lord walks a patrol here.
+~
+A Guard dressed in shiny black armor walks a solemn patrol
+of the streets. His face is obscured behind a dark helmet,
+though you can tell his demeanor is very powerful. Not
+even seeming to acknowledge you as he passes, you none-
+theless feel as if he's very aware of your presence.
+~
+human~
+AGd ACG D 0 0 0
+50 0 6d10+750 0d0+100 5d6+10 slash
+1 1 1 1
+TU AB 0 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+#20603
+denizen Revelsport~
+a denizen of Revelsport~
+A denizen of Revelsport is here.
+~
+A rather ordinary looking person. He goes about his daily
+business in a somber manner, pausing only to nod at you,
+and continue on.
+~
+human~
+AGd AC 0 0 0 0
+15 2 2d4+120 0d0+100 5d6+5 none
+0 0 0 0
+0 0 0 0
+stand stand male none~
+9
+AHMV ABCDEFGHIJK medium 0
+#20604
+wealthy denizen~
+a Revelsport noble~
+A wealthy looking denizen is here.
+~
+You see a well dressed lady here. She looks as if she's part of
+Revelsport's upper class of nobles. Her attire is well kept, and
+she nods at you politely as she notices you looking at her.
+~
+human~
+AGd AC 0 0 0 0
+25 4 5d6+250 0d0+100 5d6+10 none
+1 1 1 0
+0 0 0 0
+stand stand female none~
+12
+AHMV ABCDEFGHIJK medium 0
+#20605
+urchin~
+a urchin~
+A urchin sits here selling his wares.
+~
+This man is a rather bedraggled looking one. He wears rags
+and his clothing hangs loosely about his body. He's a scammer,
+but not a very good one, so it looks.
+~
+human~
+AGd AC 0 0 0 0
+10 8 2d2+70 0d0+100 5d6+10 none
+-1 -2 -1 0
+0 0 0 0
+stand stand male none~
+9
+AHMV ABCDEFGHIJK medium 0
+#20606
+Hagan cleric guildmaster~
+Hagan the cleric guildmaster~
+Hagan the cleric guildmaster stands here ready to instruct.
+~
+~
+human~
+ABKVZ AC DHJ 0 -750 0
+60 0 50d10+7000 0d0+100 2d40+30 divine
+-2 -2 -2 -2
+FHKX AB CD 0
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+#20607
+fuzban Sorcerer guildmaster~
+Fuzban the Sorcerer guildmaster~
+Fuzban, the Sorcerer guildmaster, stands guard here.
+~
+~
+human~
+ABKVZ AC DJ 0 -750 0
+60 0 50d10+14000 0d0+100 2d40+10 slash
+-2 -2 -2 -2
+K ABC 0 0
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+#20608
+Drend warrior guildmaster~
+Drend the warrior guildmistress~
+Drend the warrior guildmistress is here in place of Curu.
+~
+The sister of Curu, who is taking the place of her brother after he had
+committed suicide due to a love he can never have.
+~
+human~
+ABKVZ AC DJ 0 0 0
+60 0 50d10+8000 0d0+100 2d40+10 punch
+2 2 2 2
+FHKX AB 0 0
+stand stand female none~
+29
+AHMV ABCDEFGHIJK medium 0
+#20609
+higdon shaman guild guard guardian~
+Higdon the shaman guild guardian~
+Higdon, the Dark Cleric guildguard stand here, menacingly.
+~
+~
+human~
+ABQZ AC DHJ 0 -750 0
+35 5 25d10+3000 0d0+100 6d6+10 beating
+-1 -1 -1 -1
+KV AB 0 0
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#20610
+Madrugar berserker guild_guard guardian~
+Madrugar the berserker guild guardian~
+Madrugar the berserker guild guardian is here watching over his guild.
+~
+~
+human~
+ABZ AC DJa 0 0 0
+35 5 25d10+7000 0d0+100 5d5+30 beating
+1 1 1 0
+AHKV AB 0 0
+stand stand male none~
+16
+AHMV ABCDEFGHIJK medium 0
+#20611
+Sogrind berserker guildmaster~
+Sogrind the berserker guildmaster~
+Sogrind the berserker guildmaster is here steamed in anger.
+~
+~
+human~
+ABKVZ AC 0 0 0 0
+60 0 50d10+9500 0d0+100 2d40+40 beating
+2 2 2 2
+AHK AB 0 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#20612
+Morde cleric guildguard~
+Morde~
+Morde, the Cleric guildguard stands here, silently.
+~
+~
+human~
+ABZ AC DHJ 0 0 0
+35 5 55d10+3000 0d0+100 6d6+10 punch
+-1 -1 -1 -1
+KV AB 0 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#20613
+Caran necromancer guild_guard guardian~
+Caran the necromancer guild guardian~
+Caran the necromancer guild guardian is here guarding his guild.
+~
+~
+human~
+ABZ AC DJ 0 -750 0
+35 5 25d10+6000 0d0+100 6d6+0 punch
+1 1 1 0
+KV AB Q 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#20614
+Londe necromancer trainee Revelsport~
+Londe the trainee~
+Londe the trainee is here practicing his black magic upon a corpse.
+~
+~
+human~
+ABZ AC 0 0 -750 0
+35 0 10d10+1750 0d0+100 6d6+0 beating
+1 1 1 1
+K AB 0 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#20615
+Madilek necromancer guildmaster Revelsport~
+Madilek the necromancer guildmaster~
+Madilek the necromancer guildmaster is here manipulating the deceased.
+~
+~
+human~
+ABKRVZ AC DJ 0 -750 0
+60 0 50d10+12000 0d0+100 2d40+0 drain
+2 2 2 2
+FHK AB 0 0
+stand stand male none~
+29
+AHMV ABCDEFGHIJK medium 0
+#20616
+Dimitri dark-knight guild_guard guardian~
+Dimitri the dark-knight guild guardian~
+Dimitri the dark-knight guild guardian stands on guard here.
+~
+~
+human~
+ABTZ AC DJ 0 -750 0
+35 15 25d10+6000 0d0+100 6d6+10 beating
+1 1 1 0
+CFHKV AB 0 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#20617
+Alexei dark-knight trainee Revelsport~
+Alexei the trainee~
+Alexei the trainee is here mastering ways to torture his victims.
+~
+~
+human~
+ABZ AC 0 0 -750 0
+35 0 10d10+1750 0d0+100 6d6+10 beating
+1 1 1 1
+FHK AB 0 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#20618
+Orcrist dark-knight guildmaster Revelsport~
+Orcrist the dark-knight guildmaster~
+Orcrist the dark-knight guildmaster is here torturing his prisoners.
+~
+~
+human~
+ABKVZ AC DJ 0 -750 0
+60 0 50d10+14000 0d0+100 2d40+10 slash
+2 2 2 2
+FHK AB 0 0
+stand stand male none~
+29
+AHMV ABCDEFGHIJK medium 0
+#20619
+Fendri vampire guild_guard guardian~
+Fendri the vampire guild guardian~
+Fendri the vampire guild guardian is here guarding the crypt.
+~
+~
+undead~
+ABOZ AC DJ 0 -750 0
+35 5 25d10+4000 0d0+100 6d6+10 drain
+1 1 1 0
+FHKV ABLQ I NS
+stand stand male none~
+14
+0 ABCDEFGHIJK medium 0
+#20620
+Mikka vampire trainee Revelsport~
+Mikka the trainee~
+Mikka the trainee is here learning the various forms of the vampires.
+~
+~
+undead~
+ABZ AC 0 0 -750 0
+35 0 10d10+1750 0d0+100 6d6+10 bite
+1 1 1 1
+FHK ABLQ I NS
+stand stand male none~
+20
+0 ABCDEFGHIJK medium 0
+F act O
+F aff J
+#20621
+Toroth~
+Toroth the ancient vampire guildmaster~
+Toroth the ancient vampire guildmaster stands here watching over the new breed.
+~
+~
+undead~
+ABKOTVZ AC DFJV 0 -750 0
+60 42 50d10+15000 0d0+100 2d40+10 drain
+-20 -20 -20 -15
+FHKRX ABLQ I NS
+stand stand male none~
+21
+0 ABCDEFGHIJK medium 0
+#20622
+Isamu ninja guild_guard guardian~
+Isamu the ninja guild guardian~
+Isamu the ninja guild guardian is here guarding his guild.
+~
+~
+human~
+ABSZ AC DFJ 0 0 0
+35 5 25d10+5000 0d0+100 6d6+10 pierce
+1 1 1 0
+FHKV AB C 0
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#20623
+Kenjii ninja trainee Revelsport~
+Kenjii the trainee~
+Kenjii the trainee meditates here ready to strike a fatal blow.
+~
+~
+human~
+ABZ AC 0 0 0 0
+35 0 10d10+1750 0d0+100 6d6+10 beating
+1 1 1 1
+FHK AB C 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#20624
+Ichiko sensei guildmaster Revelsport~
+Ichiko the elder sensei~
+Ichiko the elder sensei is here training his inexperienced students.
+~
+~
+human~
+ABKVZ AC 0 0 0 0
+60 0 50d10+14000 0d0+100 2d40+10 punch
+2 2 2 2
+FHK AB 0 0
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+#20625
+Dakken warrior trainee Revelsport~
+Dakken the trainee~
+Dakken the trainee is here mastering his weapon skills.
+~
+~
+human~
+ABZ AC 0 0 0 0
+35 0 10d10+2000 0d0+100 6d6+10 beating
+1 1 1 1
+FHKX AB 0 0
+stand stand male none~
+14
+AHMV ABCDEFGHIJK medium 0
+#20626
+taemir warrior guild guard gaurdian valmiran~
+Taemir the warrior guild guardian~
+Taemir the warrior guild guardian stands here guarding his guild.
+~
+~
+human~
+ABTZ AC DJ 0 0 0
+35 5 25d10+6000 0d0+100 6d6+10 beating
+1 1 1 0
+FHKVX AB 0 0
+stand stand male none~
+19
+AHMV ABCDEFGHIJK medium 0
+#20627
+thief guild guard guardian valmiran locke~
+Locke the thief guild guardian~
+Locke the thief guild guardian is here watching over his guild.
+~
+~
+human~
+ABCSZ AC DFJ 0 0 0
+35 5 25d10+6000 0d0+100 6d6+10 pierce
+1 1 1 0
+FHKV AB 0 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#20628
+Larsen thief trainee Revelsport~
+Larsen the trainee~
+Larsen the trainee hides here waiting to steal from the unsuspected.
+~
+~
+human~
+ABCZ AC 0 0 0 0
+35 0 10d10+1750 0d0+100 6d6+10 beating
+1 1 1 1
+FHK AB 0 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+#20629
+Kendrik grandmaster guildmaster Revelsport~
+Kendrik the grandmaster of thieves~
+Kendrik the grandmaster of thieves is here peering intensely at you.
+~
+~
+human~
+ABCKVZ AC DFJ 0 0 0
+60 0 50d10+14000 0d0+100 2d40+10 stab
+2 2 2 2
+FHK AB 0 0
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+#20630
+dorien monk guild guard guardian valmiran~
+Dorien~
+Dorien the monk monastery guardian stands on guard here.
+~
+~
+human~
+ABZ AC DJ 0 0 0
+35 5 25d10+6000 0d0+100 6d6+10 palmstrike
+1 1 1 0
+FHKV AB 0 0
+stand stand male none~
+14
+AHMV ABCDEFGHIJK medium 0
+#20631
+Golod monk trainee Revelsport~
+Golod the trainee~
+Golod the trainee meditates here concentrating on his art.
+~
+~
+human~
+ABZ AC 0 0 0 0
+35 0 10d10+1750 0d0+100 6d6+0 jab
+1 1 1 1
+FHKX AB 0 0
+stand stand male none~
+15
+AHMV ABCDEFGHIJK medium 0
+#20632
+Bortak monk guildmaster Revelsport~
+Bortak the monastery guildmaster~
+Bortak the monastery guildmaster is here teaching the young monks.
+~
+~
+human~
+ABKVZ AC DJ 0 0 0
+60 15 50d10+7000 0d0+100 2d40+0 none
+2 2 2 2
+FHKX AB 0 0
+stand stand male none~
+25
+AHMV ABCDEFGHIJK medium 0
+#20633
+stavros thaumaturgist guild guard~
+Stavros the thaumaturgist guild guardian~
+Stavros the thaumaturgist guild guardian is here guarding her guild.
+~
+~
+human~
+ABZ AC DHJ 0 0 0
+35 5 25d10+2500 0d0+100 6d6+10 punch
+1 1 1 0
+KV AB 0 0
+stand stand female none~
+16
+AHMV ABCDEFGHIJK medium 0
+#20634
+Voilki invoker trainee Revelsport~
+Voilki the trainee~
+Voilki the trainee is here perfecting his incantations.
+~
+~
+human~
+ABZ AC 0 0 0 0
+35 0 10d10+1500 0d0+100 6d6+0 beating
+1 1 1 1
+K AB 0 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#20635
+Kaine thaumanturgist guildmaster~
+Kaine the thaumaturgist guildmaster~
+Kaine the thaumaturgist guildmaster is here giving instruction.
+~
+~
+human~
+ABKVZ AC DHJ 0 0 0
+60 0 50d10+6000 0d0+100 4d40+0 magic
+2 2 2 2
+K ABC 0 0
+stand stand male none~
+27
+AHMV ABCDEFGHIJK medium 0
+#20636
+grahmul Sorcerer trainee valmiran~
+Grahmul the trainee~
+Grahmul the Sorcerer trainee practices his deadly arts.
+~
+~
+human~
+ABZ AC 0 0 0 0
+35 0 10d10+1750 0d0+100 6d6+10 beating
+1 1 1 1
+FHK AB C 0
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#20637
+Belen paladin guild_guard guardian Revelsport~
+Belen the paladin guild guardian~
+Belen the paladin guild guardian is here guarding his guild.
+~
+~
+human~
+ABZ AC DHJ 0 750 0
+35 5 25d10+3000 0d0+100 6d6+10 beating
+1 1 1 0
+FHKV AB 0 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#20638
+Kendi paladin trainee Revelsport~
+Kendi the trainee~
+Kendi the trainee trains here in preparation to go on a quest.
+~
+~
+human~
+ABZ AC J 0 750 0
+35 0 10d10+1500 0d0+100 6d6+10 beating
+1 1 1 1
+FHK AB 0 0
+stand stand male none~
+16
+AHMV ABCDEFGHIJK medium 0
+#20639
+Lorien paladin guildmaster Revelsport~
+Lorien the paladin guildmaster~
+Lorien the paladin guildmaster is here encouraging the questors.
+~
+~
+human~
+ABKVZ ACD DHJ 0 750 0
+60 0 50d10+7000 0d0+100 2d40+10 slash
+2 2 2 2
+FHKQ AB 0 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#20640
+Kelley healer guildmaster Revelsport~
+Kelley the healer guildmaster~
+Kelley the healer guildmaster is here teaching the young priests.
+~
+~
+human~
+ABKVZ AC DHJ 0 750 0
+60 0 50d10+7000 0d0+100 2d40+0 divine
+-2 -2 -2 -2
+K AB 0 0
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+#20641
+Tramdh healer trainee Revelsport~
+Tramdh the trainee~
+Tramdh the trainee is here rehearsing his communes.
+~
+~
+human~
+ABZ AC J 0 750 0
+35 0 10d10+1750 0d0+100 6d6+0 divine
+1 1 1 1
+K AB 0 0
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#20642
+Andri healer guild_guard guardian Revelsport~
+Andri the healer guild guardian~
+Andri the healer guild guardian stands here on guard.
+~
+~
+human~
+ABQZ AC DHJ 0 750 0
+35 5 25d10+2500 0d0+100 6d6+0 divine
+-1 -1 -1 -1
+KV AB 0 0
+stand stand female none~
+14
+AHMV ABCDEFGHIJK medium 0
+#20643
+prostitute village town~
+(no short description)~
+(no long description)
+~
+~
+human~
+A A 0 0 0 0
+0 0 0d0+0 0d0+100 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+4
+AHMV ABCDEFGHIJK medium 0
+#20644
+!valmiran caravan! valmiran caravan~
+A Caravan~
+A Caravan bearing crests of Revelsport is here.
+~
+Composed of few wagons and bunch of guards it bears crests of Revelsport.
+~
+human~
+ALc A 0 0 0 0
+10 0 10d10+1000 3d1+1 5d5+30 defense
+0 0 0 0
+0 0 0 0
+stand stand none none~
+11
+AHMV ABCDEFGHIJK medium 0
+P SPECIAL 20644 100~
+#20645
+Seandre psion trainee Revelsport~
+Seandre the trainee~
+Seandre the trainee is here focused on mastering her spells.
+~
+~
+human~
+ABZ AC 0 0 0 0
+35 0 10d10+1500 0d0+100 6d6+30 telekinesis
+1 1 1 1
+K AB 0 0
+stand stand female none~
+21
+AHMV ABCDEFGHIJK medium 0
+#20646
+vargas psion guild guard Revelsport guardian~
+Vargas the psion guild guardian~
+Vargas the psion guild guardian stands guard here.
+~
+~
+human~
+ABZ AC DJO 0 0 0
+35 5 25d10+5000 0d0+100 6d6+30 telekinesis
+1 1 1 0
+KV AB 0 0
+stand stand none none~
+20
+AHMV ABCDEFGHIJK medium 0
+#20648
+Millia psion guildmaster Revelsport~
+Millia the psion guildmaster~
+Millia the psion guildmaster is here teaching the young one to focus.
+~
+~
+human~
+ABKVZ AC DJ 0 0 0
+60 0 50d10+10000 0d0+100 4d40+20 telekinesis
+2 2 2 2
+K AB 0 0
+stand stand male none~
+25
+AHMV ABCDEFGHIJK medium 0
+#20650
+James berserker trainee~
+James the trainee~
+James the trainee is here practicing smashing things in rage.
+~
+~
+human~
+ABZ AC 0 0 -750 0
+35 0 10d10+1750 0d0+100 6d6+0 beating
+1 1 1 1
+K AB 0 0
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#20651
+evil trainee cleric  Mordur~
+Mordur the trainee~
+Mordur the trainee is here mastering the ways of the evil cleric.
+~
+~
+human~
+ABZ AC 0 0 -750 0
+35 0 10d10+1750 0d0+100 6d6+10 beating
+1 1 1 1
+FHK AB 0 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#20652
+Johnathan good trainee cleric~
+Johnathan the trainee~
+Johnathan the trainee is mastering the ways of the good cleric.
+~
+~
+human~
+ABZ AC J 0 750 0
+35 0 10d10+1750 0d0+100 6d6+10 beating
+1 1 1 1
+FHK AB 0 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#20653
+adrien ranger guild guard guardian Revelsport~
+Adrien the ranger glade guardian~
+Adrien the ranger glade guardian is here watching over her glade.
+~
+~
+human~
+ABZ AC DJ 0 0 0
+35 5 25d10+6000 0d0+100 6d6+10 beating
+1 1 1 0
+FHKVX AB 0 0
+stand stand female none~
+13
+AHMV ABCDEFGHIJK medium 0
+#20654
+Lasik ranger trainee~
+Lasik the trainee~
+Lasik the trainee is here practicing his camouflage skill.
+~
+~
+human~
+ABZ AC 0 0 0 0
+35 0 10d10+1750 0d0+100 6d6+15 beating
+1 1 1 1
+FHK AB 0 0
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#20655
+Galad ranger glademaster guildmaster~
+Galad the ranger glademaster~
+Galad the ranger glademaster is here watching over this camp.
+~
+~
+human~
+ABKVZ AC DF 0 0 0
+60 0 50d10+12000 0d0+100 2d40+10 punch
+2 2 2 2
+FHK AB 0 0
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+P GRALL 12300 100~
+#20656
+Meeka weaponsmith shopkeeper Revelsport~
+Meeka the weaponsmith~
+Meeka the weaponsmith is here sharpening his collection of weapons.
+~
+~
+human~
+ABTVZ AC DFJ 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 punch
+-30 -30 -30 -30
+EFHJK AB D 0
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+#20657
+Sorcerer denethri guild guard Revelsport~
+Denethri~
+Denethri, the Sorcerer guildguard, stands here on watch.
+~
+~
+human~
+ABRZ AC DFVZ 0 0 0
+35 5 55d10+6000 0d0+100 6d6+10 slash
+-1 -1 -1 -1
+KV AB 0 0
+stand stand none none~
+16
+AHMV ABCDEFGHIJK large 0
+#20660
+Tinklyn guildmaster shaman Revelsport~
+Tinklyn the shaman guildmaster~
+Tinklyn, the shaman guildmaster, is here teaching young shamans the dark art. 
+~
+~
+human~
+ABKVZ AC DHJ 0 -750 0
+60 0 50d10+7000 0d0+100 2d40+30 tainted
+-2 -2 -2 -2
+FHKX AB CD 0
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+#20661
+Layne shaman guildgaurd~
+Layne~
+Layne, the Shaman guildguard stands here overcome with evil.
+~
+~
+human~
+ABZ AC 0 0 -750 0
+35 5 55d10+3000 0d0+100 6d6+10 punch
+-1 -1 -1 -1
+KV AB 0 0
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#20662
+Orlandus shaman trainee~
+Orlandus the shaman trainee~
+Orlandus the trainee is mastering the ways of evil.
+~
+~
+human~
+ABZ AC 0 0 -750 0
+35 0 10d10+1750 0d0+100 6d6+10 beating
+1 1 1 1
+FHK AB 0 0
+stand stand male none~
+20
+AHMV ABCDEFGHIJK medium 0
+#20663
+gnome alchemist !revelsportportal!~
+a Mar'Kyer Alchemist~
+A Mar'Kyer Alchemist is here, selling trips through his portals.
+~
+This short, fat, stubby little gnome is a member of the elite Mar'Kyer
+Guild of Alchemy. They first discovered the methods of portal travel
+years ago, and keep their secret closely guarded from others outside
+of their own guild. They seem to run quite a racket here, with shops set
+in nearly every city around Mirlan.
+~
+gnome~
+ABe A DFHJ 0 0 0
+60 45 4d6+5000 0d0+0 4d6+65 magic
+-21 -21 -19 -28
+0 AB 0 BP
+stand stand either none~
+25
+AHMV ABCDEFGHIJK tiny 0
+P SPEECH 8 dargoth~
+P SPEECH 7 zalango~
+P SPEECH 5 emmereaux~
+P SPEECH 4 luva~
+P GRALL 2 100~
+P SPEECH 3 ulsym~
+P RANDOM 25 50~
+P DELAY 9 100~
+#20664
+onx city gateguard~
+The Gateguard of the Marcher Lord~
+A Gateguard of the Marcher Lords guards the gates.
+~
+A Guard dressed in shiny black armor walks a solemn patrol
+of the streets. His face is obscured behind a dark helmet,
+though you can tell his demeanor is very powerful. Not
+even seeming to acknowledge you as he passes, you none-
+theless feel as if he's very aware of your presence.
+~
+human~
+ABGe ACG DH 0 0 0
+50 0 10d6+1500 0d0+100 5d6+30 slash
+1 1 1 0
+U AB 0 0
+stand stand male none~
+25
+AHMV ABCDEFGHIJK medium 0
+P GRALL 26 100~
+#20665
+giant terrible turkey~
+`3A giant, terrible turkey.``~
+`3A giant, terrible turkey stands here, clucking.``
+~
+~
+unique~
+ABZ AC DFHJ 0 0 0
+60 30 4d6+3500 0d0+100 4d6+25 peck
+-20 -20 -20 -20
+CEJN AB 0 H
+stand stand either none~
+29
+0 0 huge 0
+#20666
+royal stablemaster~
+the Stablemaster~
+The Royal Stablemaster stands here beaming with pride.
+~
+Short and of stocky build, he leans on a large sign.
+~
+human~
+ABTVZ A DJ 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 punch
+-30 -30 -30 -30
+EFHJK ABH D 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 20609 charger~
+P SPEECH 20611 elephant~
+P BRIBE 20610 2000~
+P BRIBE 20608 1000~
+P SPEECH 20607 stallion~
+P BRIBE 20606 500~
+P SPEECH 20605 pony~
+P BRIBE 20604 200~
+P SPEECH 20603 mule~
+P BRIBE 20602 100~
+P GREET 20601 100~
+#20667
+mule~
+a mule~
+A small fat mule stands here.
+~
+Its a small fat mule, there is really nothing remarkable about it!
+~
+horse~
+AEI A 0 0 0 0
+5 5 5d10+550 0d0+100 1d5+5 charge
+0 0 0 0
+0 0 0 0
+stand stand male none~
+2
+AGV ABCDEFHJK medium 0
+#20668
+pony~
+a pony~
+A mature pony stands here patiently.
+~
+Its a perfect example of its fine species, with a brown coat that
+sparkles in the light.  
+~
+horse~
+AEI A 0 0 0 0
+10 5 5d10+550 0d0+100 1d5+5 charge
+0 0 0 0
+0 0 0 0
+stand stand male none~
+10
+AGV ABCDEFHJK medium 0
+#20669
+stallion~
+a horse~
+A tall lean stallion stands here reigned in.
+~
+Its white coat glistening with sweat, this well tended mount stands here
+twitching its ears and occasionly lashing its tail.  
+~
+horse~
+AEI A 0 0 0 0
+20 5 5d10+550 0d0+100 1d5+5 charge
+0 0 0 0
+0 0 0 0
+stand stand male none~
+14
+AGV ABCDEFHJK medium 0
+#20670
+white charger~
+a white charger~
+A beautiful white charger is reigned here.
+~
+Its icy white coat is covered in beautiful mane which falls upon to pair
+of eyes that sparkle like sapphires.  Intelligent and fast as the wind
+itself this stallion is obviously a prized possession. 
+~
+horse~
+AEI A 0 0 0 0
+30 5 5d10+550 0d0+100 1d5+5 charge
+0 0 0 0
+0 0 0 0
+stand stand male none~
+20
+AGV ABCDEFHJK medium 0
+#20671
+elephant~
+an elephant~
+A small elephant awaits here patiently.
+~
+Easly dwarfing most giants, this small elephant waits patienly here
+for its master to beckon it.
+~
+horse~
+AEI A 0 0 0 0
+35 5 5d10+550 0d0+100 1d5+5 charge
+0 0 0 0
+0 0 0 0
+stand stand male none~
+14
+AGV ABCDEFHJK large 0
+#20699
+The Law Protects~
+The Law Protects~
+Law Protection.
+~
+~
+human~
+ABGe AC 0 0 0 0
+0 0 0d0+0 0d0+100 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+9
+AHMV ABCDEFGHIJK medium 0
+#20705
+Testguy guild-guard dark-knight~
+Guildguard~
+Guildguard is here.
+~
+~
+human~
+ABZ AC 0 0 -750 0
+35 20 10d15+1300 0d0+100 4d8+20 slash
+2 2 2 2
+EJV 0 0 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#20716
+Order clan guard guardian Revelsport Krith~
+Krith the Law Clanguard~
+Krith the Law Clanguard stands here keeping watch.
+~
+This hulk of a man wears a suit of flawless platemail, emblazoned with
+the sigil of Law upon its breastplate.  A gleaming chain skirt covers his
+muscular legs, and gauntleted hands hold a rather large axe.  Noticing your
+presence, he turns his attention to you waiting for you to explain yourself.
+~
+human~
+ABCLTZ AC DFJ 0 0 0
+35 5 25d10+6000 0d0+100 6d6+10 pierce
+1 1 1 0
+FHKV AB 0 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+P BRIBE 20718 30000~
+P GRALL 20717 100~
+P EXALL 20716 north~
+#20724
+guard obsidian~
+An Obsidian Guard~
+A Queen's Obsidian Guard stands guard here.
+~
+~
+human~
+AB AC D 0 0 0
+40 0 6d10+750 0d0+100 5d6+10 slash
+-1 -1 -1 -1
+TU 0 HS 0
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+#20735
+gordon bouncer man bald~
+Gordon~
+Gordon the bald bouncer is standing on guard here.
+~
+~
+human~
+AZe AC DFJ 0 0 0
+55 15 10d10+5500 0d0+100 6d6+10 punch
+0 0 0 0
+EHIJNX AB CDP 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK huge 0
+P SPEECH 12150 tamara~
+#20736
+laura tavern owner~
+Laura~
+Laura the tavern owner is here, smiling at her patrons.
+~
+~
+human~
+AB AC DFJ 0 0 0
+51 0 4d6+8000 0d0+100 0d0+0 slap
+-10 -10 -10 -10
+CEN AB 0 0
+stand stand none none~
+23
+AHMV ABCDEFGHIJK medium 0
+#20752
+Meldhur~
+Meldhur~
+Meldhur, the Balance House Guardian, stands here on guard.
+~
+~
+human~
+ABGTZ AC DFJ 0 0 0
+30 18 4d6+1200 0d0+100 4d6+8 slash
+0 0 0 0
+FJKN AB 0 0
+stand stand male none~
+11
+AHMV ABCDEFGHIJK medium 0
+#20764
+Wilson map shopkeeper mapmaker~
+Wilson the mapmaker~
+Wilson the mapmaker is here selling maps for the traveler.
+~
+~
+human~
+ABZ AC J 0 0 0
+60 0 50d10+7000 0d0+100 3d80+20 cleave
+-30 -30 -30 -30
+EFHJK AB D 0
+stand stand male none~
+28
+AHMV ABCDEFGHIJK medium 0
+#20765
+Miri jeweler shopkeeper Revelsport~
+Miri the jeweler~
+Miri the jeweler is here polishing her display of exotic treasures.
+~
+~
+human~
+ABTVZ AC 0 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 punch
+-30 -30 -30 -30
+EFHJK AB D 0
+stand stand female none~
+21
+AHMV ABCDEFGHIJK medium 0
+#20781
+hope clan guard guardian Revelsport gregan~
+Gregan the Hope Clanguard~
+Gregan the Hope Clanguard stands here keeping watch.
+~
+This hulk of a man wears a suit of flawless platemail, emblazoned with
+the sigil of Hope upon its breastplate.  A gleaming chain skirt covers his
+muscular legs, and gauntleted hands hold a rather large axe.  Noticing your
+presence, he turns his attention to you waiting for you to explain yourself.
+~
+human~
+ABCLTZ AC DFJ 0 0 0
+35 5 25d10+6000 0d0+100 6d6+10 pierce
+1 1 1 0
+FHKV AB 0 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+P BRIBE 20783 30000~
+P GRALL 20782 100~
+P EXALL 20781 north~
+#20791
+himmah trainer Revelsport~
+Himmah, the trainer~
+Himmah, the trainer, is here to help you train.
+~
+~
+human~
+AGJLTZbce AC H 0 0 0
+60 35 10d6+6000 0d0+100 6d8+40 slash
+3 3 3 3
+0 AB 0 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+P GREET 12178 100~
+P SPEECH 12177 yes~
+P SPEECH 12176 no~
+P SPEECH 12175 work~
+P SPEECH 12175 quest~
+#20795
+Morien~
+Morien~
+Morien, the Keeper of the Flame, is here, lighting lanterns.
+~
+A very tall, well dressed woman stands before you. She is uniformed
+in the garb of the Revelsport Guards, and her mission is to keep the
+city lamps lit at darkness, to keep criminals at bay.
+~
+human~
+AGe AC DFH 0 0 0
+60 25 10d20+5000 0d0+100 5d10+35 slash
+2 2 2 2
+EFHIKTUX AB DH 0
+stand stand female none~
+26
+AHMV ABCDEFGHIJK large 0
+#20799
+knight templar commander~
+a Knight Templar Commander~
+(`#Golden Aura``) A Knight Templar Commander observes his troops here.
+~
+You have found what seems to be some sort of commander for these
+Templars. Long thought dead, it seems their army is very far from
+such. They are everywhere! It seems they have taken Revelsport into
+protection, and now walk the streets, purifying any evil doers. The
+man before you is highly decorated, with gleaming golden armor, and
+several red aguilettes around his arm, denoting his authority.
+~
+human~
+AGTe A DFHJ 0 750 0
+50 28 4d6+2000 0d0+100 4d6+25 wrath
+-16 -16 -16 -11
+EFJKN AB D 0
+stand stand male none~
+19
+AHMV ABCDEFGHIJK medium 0
+#20800
+knight templar~
+a Knight Templar~
+(`#Golden Aura``) A Knight Templar patrols the city streets here.
+~
+A large man clad in white garb stands guard here, patrolling the
+city streets. Their army resides to the east, and he is but a small
+force that walks the streets to purify evil in the name of Palison.
+Long flowing hair, piercing blue eyes, and a solid, fearsome look
+don his head and face, and his shiny, chromed armor gleams in the
+hot sun. He is a member of the Templars, a fierce army lead by the
+Battlefield Commander Reyton with one mission...Keep the peace of
+Revelsport.
+~
+human~
+AGTe A DFH 0 750 0
+40 19 4d6+1000 0d0+100 4d7+18 slash
+-13 -13 -13 -7
+FJKN B L 0
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+#20802
+Law~
+The Law Protects~
+The Law is here
+~
+~
+human~
+A AC 0 0 0 0
+0 0 0d0+0 0d0+100 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+10
+AHMV ABCDEFGHIJK medium 0
+#20879
+Volr the Sewmaster~
+Volr~
+Volr the Sewmaster stands here looking perturbed.
+~
+An young man, with greasy brown hair running off in streaks around his
+head, deep set blue eyes, and a pale complexion with various scars about his
+eyes.  Heavyset and sweating constantly, Volr looks very out of place in
+this shop.  As you look at him, his eyes keep veering to a small book on the
+desk.  
+~
+human~
+ABDe AC 0 0 0 0
+60 50 4d6+5000 0d0+100 10d10+100 none
+-20 -20 -20 -20
+CEFKN AB 0 0
+stand stand male none~
+25
+AHMV ABCDEFGHIJK medium 0
+#20880
+bar regular dannil~
+Dannil, the bar regular~
+Dannil, the bar regular, rests at a table here.
+~
+~
+human~
+AB AC DFJ 0 0 0
+60 0 10d20+4500 0d0+100 1d1+5 punch
+-2 -2 -2 -2
+EFKS AB 0 0
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+#20881
+bar regular tredium~
+Tredium~
+Tredium, a large, husky bouncer, rests at a nearby table.
+~
+~
+human~
+AB AC DF 0 0 0
+60 0 10d20+4500 0d0+100 1d1+5 punch
+-2 -2 -2 -2
+ET AB 0 0
+stand stand male none~
+28
+AHMV ABCDEFGHIJK medium 0
+#20882
+bar regular Corrine~
+Corrine~
+Corrine, a lovely barmaid, rests here at a nearby table.
+~
+~
+human~
+AB AC 0 0 0 0
+60 20 10d10+4500 0d0+100 10d5+30 none
+-2 -2 -2 -2
+EFKT AB 0 0
+stand stand female none~
+28
+AHMV ABCDEFGHIJK medium 0
+#20883
+hall guardian Modiera~
+Modiera~
+The housemistress, Modiera, stands guard here.
+~
+~
+human~
+AB AC DF 0 0 0
+60 0 10d10+5500 0d0+100 1d1+5 punch
+-2 -2 -2 -2
+EFKT AB CD 0
+stand stand female none~
+23
+AHMV ABCDEFGHIJK medium 0
+#20884
+bar regular Mikhelm~
+Mikhelm~
+Mikhelm, a master dart player, rests here at a table.
+~
+~
+human~
+AB AC DF 0 0 0
+60 0 10d10+5500 0d0+100 1d1+5 punch
+-2 -2 -2 -2
+EFJKT AB 0 0
+stand stand male none~
+30
+AHMV ABCDEFGHIJK medium 0
+#20885
+bar regular Vamira~
+Vamira~
+Vamira, a dark seductress, is resting here at the bar.
+~
+~
+human~
+AB AC DF 0 0 0
+60 0 10d10+5600 0d0+100 1d1+5 slap
+-3 -3 -3 -2
+EFJKT AB CD 0
+stand stand female none~
+26
+AHMV ABCDEFGHIJK medium 0
+#20895
+vannen dungeon guardian~
+Vannen, the Dungeon Guardian~
+Vannen, the Dungeon Guardian rests here.
+~
+~
+human~
+AB AC DF 0 0 0
+60 50 10d10+7500 0d0+100 10d10+40 none
+-4 -4 -3 -3
+EFJKN AB CD 0
+stand stand none none~
+27
+AHMV ABCDEFGHIJK medium 0
+#20896
+Alcedor~
+Alcedor~
+Alcedor the Caravan Master is here.
+~
+~
+human~
+ATYce AC HV 0 0 0
+58 116 1d10+9000 0d0+100 1d10+55 beating
+-27 -27 -27 -9
+EFKNX ABLQ 0 0
+stand stand male none~
+29
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 20896 10~
+#20897
+volr bookkeeper syndicate~
+The Dungeon Guardian~
+The Dungeon Guardian is here to keep the prisoners healthy.
+~
+This large man stands watch over the inmates. He is very large, and
+very burly. It is said he can be bribed to open the gates for a certain
+sum of money, but none know that for sure. He seems to enjoy watching
+the inmates fight, but takes little abuse from the others.
+~
+human~
+AB ACD DF 0 0 0
+60 40 10d10+9000 0d0+100 10d4+10 punch
+-5 -5 -5 -5
+EFJKN AB CD 0
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+#20898
+The Law Protects~
+The Law Protects~
+The Law Protects
+~
+~
+human~
+A AC 0 0 0 0
+0 0 0d0+0 0d0+100 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+8
+AHMV ABCDEFGHIJK medium 0
+#20899
+Nogrim secretary Revelsport~
+Nogrim the city secretary~
+Nogrim the city secretary is here processing a pile of paper work.
+~
+~
+human~
+ABVZ AC 0 0 750 4457
+50 5 50d10+7000 0d0+100 2d40+10 slap
+2 2 2 1
+0 AB 0 0
+stand stand female none~
+19
+AHMV ABCDEFGHIJK medium 0
+#20900
+jail guardian guard~
+the Jail Guardian~
+The faithful guardian of Revelsport jails stands ground here.
+~
+Standing in a poised position, is a middle aged warrior guarding the
+entrance of the Jail.  Do not let his age fool you, his eyes displays 
+the wisdom and experience he has gathered in his years of training.
+His mind is they very focus of the magical fields that bar the jail
+cells, and as long as he exists, no criminal will leave the Jails
+without premission.
+~
+human~
+ABVZ AC 0 0 0 15700
+40 20 4999d1+1 0d0+100 6d3+30 slash
+-20 -20 -20 -20
+AKV AB 0 0
+stand stand male none~
+20
+AHMV ABCDEFGHIJK medium 0
+P EXALL 20900 south~
+#20901
+executioner~
+the Executioner~
+The Executioner of Revelsport stands here looking very invincible.
+~
+He has been hired to sit watch and guard against those that may tresspass.
+Patience is his virtue for in time, his blade will surely sink into your
+unarmored hide.
+~
+human~
+ABGT AC 0 0 -750 10300
+50 50 25d10+3000 0d0+100 6d1+10 slash
+-20 -20 -20 -20
+IKU ACD 0 0
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+#20902
+human builder foreman~
+a human builder~
+A human builder stands here, plumb bob in hand.
+~
+~
+human~
+AI A 0 0 0 0
+25 5 5d10+550 0d0+100 2d10+7 beating
+0 0 0 0
+C 0 D P
+stand stand male none~
+13
+AHMV ABCDEFGHIJK large 0
+#20903
+heavy cavalry~
+a division of heavy cavalry~
+A large division of heavy mounted cavalry is reigned here.
+~
+~
+human~
+AGIZe A DFJVa 0 0 0
+50 30 4d6+6000 0d0+0 4d6+20 mcharge
+-20 -21 -19 -12
+FHJKNX AB 0 0
+stand stand none none~
+25
+AHMV ABCDEFGHIJK large 0
+#0
+
+
+
+#OBJECTS
+#20601
+Marcher staff~
+a Marcher Lord Staff~
+A long dark staff made from shiny material lies here.~
+steel~
+weapon B AN
+staff 5 6 pierce F
+35 200 500 P
+#20602
+Marcher Lord scimitar~
+a Marcher Lord scimitar~
+A long wicked blade of steel lies here.~
+steel~
+weapon A AN
+sword 5 7 slash 0
+35 1 50 P
+#20603
+dark torch~
+a torch~
+A small extinguished torch is here.~
+wood~
+light 0 A
+0 0 25 0 0
+1 10 0 P
+#20604
+dark black altar~
+a black altar~
+A massive black altar is here.~
+stone~
+furniture 0 P
+0 0 0 0 0
+0 30000 1 P
+E
+altar~
+Seemingly carved out of a single stone it could easly serve
+as a massive desk for whoever call this room as his or hers.
+You notice more then a few blood stains on its surface.
+~
+E
+black~
+Seemingly carved out of a single stone it could easly serve
+as a massive desk for whoever call this room as his or hers.
+You notice more then a few blood stains on its surface.
+~
+#20605
+fountain~
+a granite water fountain~
+A large granite fountain gushes clear water here.~
+granite~
+fountain 0 0
+-1 -1 'water' 0 0
+60 0 50 P
+#20606
+corpse Winsfield brother~
+the corpse of Winsfield's brother~
+The horribly lacerated corpse of Winsfield's brother is lying here.~
+flesh~
+trash 0 0
+0 0 0 0 0
+60 0 5 P
+E
+corpse~
+You see a mangled, bloody corpse resting here. The skin is tight and
+drawn around once beautiful elfin features. Torn strips of flesh lay
+draped off the body of the corpse, where he was obviously whipped to
+death, only recently. He lies here naked, and bloody, and a dark power
+prohibits any being from getting to near the body, much less picking
+it up. It seems to have been placed here as a warning to Knights, by
+the dark, demonic forces, for a large pentacle has been branded on the
+chest of the corpse, and two fingers have been removed from each hand.
+~
+#20607
+corpse aegir sister remains~
+a horribly mangled corpse~
+The horribly mangled corpse of Aegir's sister is lying on the ground here.~
+flesh~
+trash O 0
+0 0 0 0 0
+60 0 0 P
+E
+corpse~
+The body of a large storm giant is lying here. She was one a fairly
+attractive lass, but her eyes have been removed, and her lips sewn
+shut by black threads. Her body is mangled and rended by what looks
+like claws, of some sort, and her forehead has been branded by a
+large inverted cross. Two fingers have again been removed from each
+hand, and another dark force prevents anyone from nearing the
+corpse.
+~
+#20608
+blood puddle gore guts~
+pools of blood~
+The ground and the surrounding area is stained in blood and covered in gore.~
+blood~
+drink P P
+16 16 'blood' 0 0
+0 0 0 P
+E
+blood~
+The ground and the area surrounding you is bathed in crimson as 
+if a geyser of blood exploded here.  
+~
+E
+pools~
+The ground and the area surrounding you is bathed in crimson as 
+if a geyser of blood exploded here.  
+~
+E
+gore~
+The ground and the area surrounding you is bathed in crimson as 
+if a geyser of blood exploded here.  
+~
+#20609
+key blood circlet~
+a dark red key~
+A dark blood soaked steel circlet lies here.~
+blood~
+key H A
+0 0 0 0 0
+1 20 0 P
+#20610
+blue leaves dried herb~
+blue dried leaves~
+Some blue dried leaves lie here.~
+Herbs~
+herb 0 A
+60 'poison' 'shield' 'shield' 'vitalize'
+45 0 0 P
+#20616
+beef~
+a cut of beef~
+A large cut of meat rests here.~
+meat~
+food 0 A
+12 12 0 0 40
+0 1 6 P
+#20617
+chicken roasted duck~
+a roasted duck~
+A whole roasted duck is here.~
+chicken~
+food 0 A
+24 24 0 0 72
+0 0 12 P
+#20618
+lamb~
+a side of lamb~
+A tasty looking side of lamb is here.~
+meat~
+food 0 A
+32 10 0 0 10
+0 1 5 P
+#20619
+bloody vigo cleaver~
+the Bloody Cleaver of Vigo~
+An extremely bloody cleaver lies here.~
+Steel~
+weapon 0 ANS
+axe 10 4 cleave F
+50 300 3 P
+E
+cleaver~
+An axe bloodied with the souls of a thousand victims.  The work of a
+chaotic butcherer, Vigo.  It's edge, forever stained crimson red with the
+blood of those who have met their fate upon it.  It appears very sharp, and
+looks as though it could cleave quite well 
+~
+F
+S 223 35 0
+#20620
+decaying corpse rapidly~
+a severely decayed corpse~
+A rapidly decaying corpse lies here.~
+unknown~
+container 0 0
+3000 0 0 333 2
+0 30 0 P
+#20621
+sign~
+a sign~
+A large sign has been hanged on the stable wall.~
+wood~
+trash 0 P
+0 0 0 0 0
+50 0 0 P
+E
+sign~
+ROYAL STABLE RATES
+ 
+  MOUNT     COST
+Mule	    100
+Pony        200
+Stallion    500
+Charger     1000
+Elephant    2000
+ 
+ 
+To order a mount simply say its type,
+or hand over the gold.
+~
+#20665
+gizzard~
+a large gizzard~
+A large turkey gizzard is lying on the ground here.~
+meat~
+armor AM AEX
+12 13 11 9 0
+60 100 5 P
+F
+A 19 3 0
+F
+A 18 3 0
+F
+A 26 2 0
+F
+A 17 -10 0
+F
+A 22 -5 0
+F
+A 20 -3 0
+F
+A 5 -2 0
+#20670
+morning star~
+a morning star~
+A wicked morning star is resting here.~
+steel~
+weapon 0 AN
+flail 4 4 smash 0
+5 0 1000 P
+#20672
+butterfly knife~
+a butterfly knife~
+A butterfly knife is here, folded up.~
+steel~
+weapon 0 AN
+dagger 4 4 pierce 0
+1 10 800 P
+F
+A 18 1 0
+#20673
+short katana~
+a short katana~
+A short katana is sheathed here.~
+steel~
+weapon B AN
+sword 4 6 slash D
+5 150 1750 P
+F
+A 2 1 0
+#20674
+glaive~
+a heavy glaive~
+A long heavy glaive rests here.~
+wood~
+weapon 0 AN
+polearm 5 4 cleave F
+5 200 950 P
+F
+A 19 2 0
+F
+A 18 1 0
+#20675
+dragons tongue dagger~
+a dragon's tongue dagger~
+A sharp dagger in the shape of a dragon's tongue is resting here.~
+iron~
+weapon A ANS
+dagger 5 7 pain 0
+32 10 5 P
+#20680
+translucent potion~
+a translucent potion~
+A translucent potion rests here on the ground.~
+magic~
+potion A AO
+15 'pass door' '' '' ''
+15 10 2500 P
+#20700
+pit of offering~
+a pit of offering~
+A pit of offering is here for mortals to store gifts for the gods.~
+unknown~
+container OT 0
+10000 0 0 10000 100
+60 0 10000 P
+#20701
+love letter~
+a rolled up letter~
+A rolled up letter is discarded here.~
+paper~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+E
+letter~
+My Dear Zenja,
+     It has been ages since we've spoken. So much time has
+passed. I have found myself stranded in the ruined town of
+Revelsport. I am well, and my faith in Drenaar has grown
+much stronger from my solitude. 
+      But not a day has passed that I have not thought about
+you, your sweet smile, your kind heart.
+      The bearer of this message has traveled long and far to
+see that it is delivered to you. I am sure you will treat them
+accordingly.
+     Know that I miss and love you.
+ 
+Always,
+      Lorien
+~
+#20709
+map Revelsport~
+a map of Revelsport~
+A map of Revelsport is folded here on the ground.~
+paper~
+map 0 A
+0 0 0 0 0
+1 10 25 P
+E
+map Revelsport Revelsport~
+`1------------------```#The City of Revelsport```1-----------------|``
+`3|                                                        |``
+`3|``                         | |`8North Gate``              `3    |``
+`3|``                         | |(Palace)                `3    |``
+`3|``             [B][P][I][H]| |_[W]_________           `3    |``
+`3|``            |  _  _______   _  ________  |          `3    |``
+`3|``            | | [C]      | | [Be]      | |          `3    |``
+`3|``            | |          | |           | |          `3    |``
+`3|``            | |     [`8ToN``]| |     [`&ToL``] | |          `3    |``
+`3|``           _| |______X_X_\ |_X_X__||___| |_         `3    |``
+`3|`` `8West Gate`` _   __  ______ x_______  ____  _  `8East Gate`` `3 |``
+`3|``            | |  ||  X X | | X X  ||   | |          `3    |``
+`3|``            | |          | |      __   | |          `3    |``
+`3|``            | | [`2Park``]   | |      ||[T]| |          `3    |``
+`3|``            | |__ ||_____| |______||___| |          `3    |``
+`3|``            |_____  _____   _________ ___|          `3    |``
+`3|``                  ||     | |        [Ni]            `3    |``
+`3|``                [`6Tavern``] | |                        `3    |``
+`3|``                      `8South Gate``                    `3    |``
+`3|``                                                    `3    |``
+`3|``                                                    `3    |``
+`3|`` `1Legend:`` [B] - Sorcerer Guild  [I] - Invoker Guild `3   |``
+`3|``         [P] - Paladin Guild     [H] - Healer Guild     `3|``
+`3|``         [C] - Cleric Guild      [Be] - Berserker Guild `3|``
+`3|``         [T] - Thief Guild       [Ni] - Ninja Guild     `3|``
+`3|``         [ToN] - Neutral Temple  [ToL] - Light Temple   `3|``
+`3|``         [X] - Denotes a store or shop.                 `3|``
+`3|``                                                        `3|``
+`3|`` `# * - The Tavern and the Park house the guilds of the``   `3|``
+`3|`` `#     Bards, Rangers, and Monks, respectively.``          `3|``
+`3|``                                                        `3|``
+`3|``              `!<<<This Map not to Scale>>>``               `3|``
+`3|``                                                        `3|``
+`3----------------------------------------------------------``
+~
+#20710
+a black shaman's staff~
+a black shaman's staff~
+A long black staff is resting here. ~
+magic~
+wand BC AO
+35 2 2 'damnation' 0
+35 1 10000 P
+#20711
+white cleric staff~
+a white cleric's staff~
+A white cleric's staff rests here.~
+magic~
+wand A AO
+35 2 2 'blasphemy' 0
+35 0 12000 P
+#20712
+mischief wand~
+a wand of mischief~
+A long odd looking wand rests here.~
+magic~
+wand 0 AO
+35 4 4 'change sex' 0
+28 1 15000 P
+#20713
+map northern Mirlan~
+a map of Northern Mirlan~
+A map of Northern Mirlan lies here on the ground.~
+paper~
+map 0 A
+0 0 0 0 0
+0 10 25 P
+E
+northern map~
+~
+#20714
+map Southern Mirlan~
+a map of Southern Mirlan~
+A map of Southern Mirlan lies here on the ground.~
+paper~
+map 0 A
+0 0 0 0 0
+0 10 25 P
+E
+southern map~
+~
+#20715
+heavy steel leggings~
+heavy steel leggings~
+A set of heavy steel leggings is here.~
+steel~
+armor 0 AF
+7 9 11 0 0
+35 180 5000 P
+F
+A 18 2 0
+F
+A 2 -1 0
+#20716
+iron armguards~
+heavy iron armguards~
+A set of heavy iron armguards is here.~
+iron~
+armor A AI
+9 11 10 8 0
+30 150 8000 P
+F
+A 1 2 0
+F
+A 2 -1 0
+#20717
+steel faceplate~
+a thick steel faceplate~
+A thick steel faceplate rests here.~
+steel~
+armor 0 Ad
+4 7 5 0 0
+20 30 3500 P
+F
+A 19 1 0
+F
+A 2 -1 0
+#20718
+a painted kite shield~
+a painted kite shield~
+A large painted shield rests here.~
+steel~
+armor 0 AJ
+3 4 6 0 0
+25 20 5500 P
+F
+A 19 1 0
+F
+A 1 1 0
+#20720
+a wicked mace~
+a wicked mace~
+A wicked looking mace rests here.~
+steel~
+weapon B AN
+mace 4 6 crush 0
+15 200 5000 P
+F
+A 1 2 0
+#20721
+leather bullwhip whip~
+a leather bullwhip~
+A long coiled whip rests here.~
+leather~
+weapon 0 AN
+whip 4 7 beating 0
+25 10 6500 P
+F
+A 19 1 0
+F
+A 2 2 0
+#20722
+footmans flail~
+a footman's flail~
+A wicked, three chained flail rests here.~
+iron~
+weapon 0 AN
+flail 6 5 pound 0
+30 250 12000 P
+F
+A 17 -5 0
+F
+A 19 2 0
+#20723
+a demolition axe~
+a demolition axe~
+A sharp, short bedded axe rests here.~
+steel~
+weapon B AN
+axe 6 5 chop 0
+30 400 11000 P
+F
+A 19 2 0
+F
+A 3 -1 0
+#20724
+long spear~
+a long, steel spear~
+A long, steel spear rests here on the ground.~
+steel~
+weapon 0 AN
+spear 4 6 thrust F
+10 300 2200 P
+F
+A 18 1 0
+F
+A 19 1 0
+#20725
+steel sabre~
+a steel sabre~
+A long, curved sabre rests here.~
+steel~
+weapon A AN
+sword 5 7 slash 0
+40 100 20000 P
+F
+A 19 2 0
+F
+A 18 1 0
+#20726
+box hidden~
+a hidden box~
+```~
+rust~
+container TY P
+0 AC 0 0 0
+50 5 5 P
+E
+box~
+A small box is hidden in side the pools, its edges rusted with age.
+~
+#20730
+golden chain belt~
+a golden chain belt~
+A golden belt made of fine interlocking links is here.~
+gold~
+armor 0 AL
+3 3 3 1 0
+5 20 500 P
+F
+A 26 1 0
+F
+A 5 1 0
+#20731
+Leather Vambraces~
+a pair of leather vambraces~
+A pair of finely tailored leather vambraces lies here.~
+leather~
+armor S AI
+3 2 2 1 0
+3 10 50 P
+F
+A 18 1 0
+#20732
+titanium vambraces~
+a pair of titanium vambraces~
+A pair of strong titanium vambraces.~
+titanium~
+armor 0 AI
+11 11 11 6 0
+40 30 32767 P
+F
+A 19 2 0
+F
+A 24 -2 0
+#20733
+long spear firebrand~
+firebrand spear~
+A long deadly spear radiating searing heat.~
+fire~
+weapon A ANX
+spear 8 4 pierce F
+30 10 5 P
+F
+A 19 1 0
+F
+A 18 3 0
+F
+S 44 5 0
+#20735
+sign skull~
+the "sewing" sign~
+A large sign etched with a rusted needle on it points east.~
+wood~
+furniture 0 P
+0 0 0 0 0
+50 10000 0 P
+E
+sign~
+Composed of simple wood it bears a crimson picture of a rusted needle and
+points towards the east.  
+~
+E
+needle~
+Composed of simple wood it bears a crimson picture of a rusted needle and
+points towards the east.  
+~
+P RANDOM 20603 5~
+#20736
+bottle of wine~
+a bottle of chardonnay~
+A bottle of white wine is resting here.~
+glass~
+drink 0 A
+10 10 'white wine' 0 0
+0 1 1000 P
+#20737
+roll call rollcall~
+the Order Roll Call~
+The official Order Roll Call has been posted here.~
+wood~
+trash 0 P
+0 0 0 0 0
+0 0 0 P
+P LOOK 16715 100~
+#20746
+The Key to Winsfield's Manor~
+a key to Winsfield's Manor~
+A bright brass key rests here, glowing.~
+brass~
+gem AHKLTY AO
+0 0 0 0 0
+50 0 1 P
+#20747
+treasure chest~
+a treasure chest~
+A large vaulted chest is here, glimmering in gold inlay.~
+steel~
+container KT 0
+1000 ACD 20746 1000 10
+50 0 0 P
+#20750
+pit of offering~
+a pit of offering~
+A pit of offering is here for mortals to store gifts for the gods.~
+unknown~
+container OT 0
+10000 0 0 10000 100
+60 0 10000 P
+#20751
+Glass harp~
+a Glass Harp~
+A translucent glass harp lies on the ground, silver strings flashing brightly.~
+glass~
+instrument BGK AN
+0 0 0 0 0
+10 15 2500 P
+F
+A 18 2 0
+#20752
+Runed lute~
+a Runed Lute~
+A lute is here, pulsating softly.~
+unknown~
+instrument 0 AOS
+0 0 0 0 0
+25 5 5 P
+F
+A 24 -2 0
+F
+A 18 1 0
+F
+S 451 5 0
+#20753
+gate key~
+a decorated golden key~
+A bright golden key is resting here.~
+gold~
+key APU AO
+0 0 0 0 0
+30 0 10 P
+#20754
+Godly Trombone~
+'Kraedarus' the Trombone of the Heavens~
+A musical spectre flickers in and out of your reality, shining brightly.~
+liquid~
+instrument ABFHM AN
+0 0 0 0 G
+35 15 50000 P
+F
+A 18 3 0
+F
+A 19 2 0
+#20760
+potion recall~
+a potion of recall~
+A potion of recall rests here.~
+liquid~
+potion 0 AO
+30 'word of recall' 'shield' 'reserved' 'reserved'
+1 1 3500 P
+#20761
+potion detect invis~
+a potion of detect-invisibility~
+A potion of detect-invisibility is here.~
+liquid~
+potion 0 AO
+10 'detect invis' 'reserved' 'reserved' 'reserved'
+20 0 2000 P
+#20762
+potion invisibility~
+a potion of invisibility~
+A potion of invisiblity rests here.~
+liquid~
+potion 0 AO
+10 'invisibility' 'reserved' 'reserved' 'reserved'
+5 1 1500 P
+#20763
+potion fly flight~
+a potion of flight~
+A potion with a set of wings engraved on the bottle is here.~
+magic~
+potion 0 AO
+0 'fly' '' 'reserved' 'reserved'
+5 1 2500 P
+#20764
+teleport pill~
+a black pill of teleport~
+A black pill rests here.~
+dust~
+pill 0 AO
+25 'teleport' '' '' ''
+15 1 3300 P
+#20765
+white pill~
+a sickly looking white pill~
+A sickly white pill rests on the ground here.~
+unknown~
+pill 0 AO
+25 'sanctuary' 'dysentery' '' ''
+25 0 4000 P
+#20770
+scroll identify~
+a scroll of identify~
+A paper scroll rests here, unopened.~
+paper~
+scroll 0 AO
+25 'identify' 'reserved' 'reserved' 'reserved'
+0 0 3500 P
+#20771
+scroll invulnerability~
+a scroll of invulnerability~
+A powerful looking scroll rests here, unopened.~
+paper~
+scroll A AO
+35 'stone skin' 'armor' 'shield' 'reserved'
+20 0 20000 P
+#20772
+scroll enchant~
+a scroll of weapon enchantment~
+A scroll is here, humming with energy.~
+paper~
+scroll B AO
+30 'enchant weapon' 'reserved' 'reserved' 'reserved'
+20 1 5500 P
+#20773
+scroll rejuvenation~
+a scroll of rejuvenation~
+A magical scroll rests here, looking very pure.~
+paper~
+scroll 0 AO
+15 'refresh' 'cure critical' 'bless' 'reserved'
+10 1 8000 P
+#20774
+the wand of pain~
+a wand of pain~
+A wicked looking wand is resting here.~
+magic~
+wand E AO
+20 2 2 'hellstream' 0
+40 1 30000 P
+#20775
+staff of purity~
+a staff of purity~
+A lovely white staff is here.~
+glass~
+staff AK AO
+5 4 4 'sanctuary' 0
+35 10 10000 P
+#20776
+a loaf of bread~
+a loaf of bread~
+A fresh loaf of bread is resting here.~
+bread~
+food 0 A
+4 4 0 0 24
+0 1 2 P
+#20777
+a sheet cake~
+a sheet cake~
+A long, flat cake is resting here.~
+cake~
+food 0 A
+5 6 0 0 18
+0 1 3 P
+#20778
+a birthday cake~
+a birthday cake~
+A festive cake is here.~
+cake~
+food 0 A
+8 24 0 0 10
+0 1 12 P
+#20779
+altar markul~
+an altar~
+An altar of Markul's is here for your devotions.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#20780
+standard sword~
+a standard steel sword~
+A shiny steel sword rests on the ground here.~
+steel~
+weapon 0 AN
+sword 4 6 slash 0
+20 2 1000 P
+#20781
+steel sword~
+a sword of the Marcher Lords~
+A long, shiny steel battle sword rests here.~
+steel~
+weapon A AN
+sword 5 6 slash 0
+30 3 3000 P
+#20782
+slim steel dagger~
+a slim steel dagger~
+A slim steel dagger rests in the ground here.~
+steel~
+weapon 0 AN
+dagger 5 3 pierce 0
+1 10 750 P
+F
+A 2 2 0
+#20783
+necklace gold~
+a glittering gold necklace~
+A golden herringbone necklace is cast aside here.~
+gold~
+jewelry A AC
+0 0 0 0 0
+0 1 95000 P
+F
+A 4 4 0
+#20784
+pit of offering~
+a pit of offering~
+A pit of offering is here to store mortal gifts to the gods.~
+unknown~
+container OT 0
+10000 0 0 10000 100
+60 1 10000 P
+#20785
+Marcher breastplate~
+a Marcher Lord breastplate~
+A shiny Marcher Lord breastplate rests here.~
+steel~
+armor 0 AD
+8 8 7 4 0
+30 50 3000 P
+#20787
+diamond engagement ring~
+a diamond engagement ring~
+A glittering ring rests here on the ground.~
+gold~
+jewelry 0 AB
+0 0 0 0 0
+0 1 100000 P
+F
+A 5 2 0
+F
+A 5 4 0
+#20788
+female's wedding band~
+a female's gold wedding band~
+A feminine looking wedding ring rests here.~
+gold~
+jewelry AHMPZ AB
+0 0 0 0 0
+0 1 180000 P
+F
+A 1 -1 0
+F
+A 2 -1 0
+F
+A 18 3 0
+#20789
+men's wedding band~
+a men's gold wedding band~
+A manly looking wedding ring is resting here.~
+gold~
+jewelry AHMPZ AB
+0 0 0 0 0
+0 1 180000 P
+F
+A 1 -1 0
+F
+A 2 -1 0
+F
+A 19 3 0
+#20790
+steel breastplate~
+a steel breastplate~
+A shiny steel breastplate is resting here.~
+steel~
+armor 0 AD
+8 6 6 0 0
+15 20 2000 P
+#20791
+altar Arondos~
+an altar~
+An ornately painted altar is here for followers of Arondos to pray.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#20795
+Marcher battleaxe~
+the Marcher Lord Battleaxe of Revelsport~
+A great black battleaxe is resting against the wall here.~
+steel~
+weapon 0 ANX
+axe 6 6 smash 0
+50 260 2 P
+F
+A 19 3 0
+F
+A 1 3 0
+#20796
+water jug~
+a water jug~
+A light water jug is resting here.~
+steel~
+drink 0 A
+100 100 'water' 0 0
+5 1 800 P
+#20797
+oil lantern lamp brass~
+a brass oil lamp~
+A shiny brass oil lamp flickers here.~
+brass~
+light A A
+0 0 200 0 0
+5 2 500 P
+#20798
+large canoe~
+a large, light canoe~
+A large, light canoe is resting here.~
+wood~
+boat 0 A
+0 0 0 0 0
+0 1 3500 P
+#20799
+a small dinghy~
+a small dinghy~
+A small dinghy is here, waiting to be used in the water.~
+wood~
+boat 0 A
+0 0 0 0 0
+0 4 1000 P
+#20800
+level 50 set ~
+a level 50 set of equipment~
+A level 50 set of equipment lies here on the ground.~
+unknown~
+armor 0 AD
+75 75 75 30 0
+0 0 0 P
+F
+A 18 25 0
+F
+A 19 30 0
+F
+A 24 -15 0
+#20801
+crystal clear nectar~
+a crystal clear potion~
+A crystal clear potion in a fancy vial rests here.~
+liquid~
+potion AB AOX
+50 'cure critical' 'heal' 'sanctuary' ''
+30 0 1 P
+#20802
+shrine church faith one god~
+the Shrine of the Church~
+A golden altar with silver crosses is here.~
+unknown~
+trash O 0
+0 0 0 0 0
+50 5000 0 P
+E
+altar~
+This golden altar has silver crosses enlayed on each outward facing side.
+Across its top lies a white linen cloth threaded finely with gold and
+silver.  In the center of the cloth a simple chalice of bronze stands
+half-filled with a clear liquid.  
+~
+#20803
+dark tower bell~
+the dark temple bell~
+A giant bronze bell hangs from the ceiling.~
+bronze~
+furniture B P
+0 0 0 0 0
+60 10000 0 P
+P RANDOM 20601 100~
+#20804
+light tower bell~
+the temple of light bell~
+A giant bronze bell hangs from the ceiling.~
+bronze~
+furniture A P
+0 0 0 0 0
+60 10000 0 P
+P RANDOM 20602 100~
+#20850
+the dungeon key~
+a key to the Dungeon~
+A glowing brass key rests here.~
+brass~
+key AP A
+0 0 0 0 0
+0 0 1 P
+#20851
+prison slop~
+some prison slop~
+A plate of grey food is sitting here.~
+unknown~
+food 0 A
+2 12 0 0 4
+0 0 6 P
+#20880
+bar~
+a long, copper bar~
+A copper plated bar counter is here, lined with various drinks.~
+copper~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#20881
+bottle of whiskey~
+a bottle of whiskey~
+A bottle filled with brown liquid is here.~
+glass~
+drink 0 AO
+6 6 'whisky' 0 0
+0 0 1000 P
+#20882
+bottle of vodka~
+a bottle of vodka~
+A bottle filled with clear alcohol is here.~
+glass~
+drink 0 AO
+6 6 'water' 0 0
+0 0 800 P
+#20883
+a bottle of schnapps~
+a bottle of mint schnapps~
+A bottle filled with a minty liquid is here.~
+glass~
+drink 0 AO
+6 6 'schnapps' 0 0
+0 0 750 P
+#20884
+a bottle of champagne~
+a bottle of D'Renault Reserve Champagne~
+A beautiful bottle of champagne is discarded here.~
+glass~
+drink 0 AO
+10 10 'champagne' 0 0
+0 0 5000 P
+F
+A 26 2 0
+#20885
+glass mead~
+a pint of mead~
+A pint of thick beer is here.~
+glass~
+drink 0 AO
+2 2 'mead' 0 0
+0 0 200 P
+#20886
+table~
+a bar table~
+A bar table and several stools are here for bar occupants.~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#20890
+key queens room~
+a key to the Queen's Room~
+A shiny brass key is lying on the ground here.~
+brass~
+key P A
+0 0 0 0 0
+0 0 10000 P
+#20891
+key hero room~
+a key to the Hero's Room~
+A shiny brass key is laying on the ground here.~
+brass~
+key P A
+0 0 0 0 0
+0 0 10000 P
+#20892
+key prince room~
+a key to the Prince's Room~
+A shiny brass key is lying here on the ground.~
+brass~
+key P A
+0 0 0 0 0
+0 0 10000 P
+#20893
+key knights room~
+a key to the Knight's Room~
+A shiny brass key is lying here on the ground.~
+brass~
+key P A
+0 0 0 0 0
+0 0 10000 P
+#20894
+crucifix andres cross~
+a large cross with a body nailed to it~
+(`8Black Aura``) A large crucifix is here, with a corpse nailed to it, and a small placard below.~
+wood~
+furniture GOT 0
+0 0 0 0 0
+50 5000 0 P
+E
+andres~
+You see the torn body of Andres, a former Order of Mirlan. This cross
+seems to have been erected recently, for Andres' decomposition is not
+yet complete. Flies buzz around his once youthful features, and his face
+is a mask of pain and agony. Large steel nails inscribed with an inverted
+cross are nailed into his hands and feet, and dried blood runs down his
+arms. He is nearly naked, save for a dirty white sheet covering his waist.
+A large inverted cross has been burned into his forehead, and it is now
+black with age. The crucifix seems to be protected from removal by some
+dark force.
+~
+E
+crucifix~
+You see the torn body of Andres, a former Order of Mirlan. This cross
+seems to have been erected recently, for Andres' decomposition is not
+yet complete. Flies buzz around his once youthful features, and his face
+is a mask of pain and agony. Large steel nails inscribed with an inverted
+cross are nailed into his hands and feet, and dried blood runs down his
+arms. He is nearly naked, save for a dirty white sheet covering his waist.
+A large inverted cross has been burned into his forehead, and it is now
+black with age. The crucifix seems to be protected from removal by some
+dark force.
+~
+E
+placard~
+"Non dominus...Exitialis Carnifex...Mortum" is inscribed here, followed
+by a demonic Glyph, and the name "Malevolant".
+~
+E
+cross~
+You see the torn body of Andres, a former Order of Mirlan. This cross
+seems to have been erected recently, for Andres' decomposition is not
+yet complete. Flies buzz around his once youthful features, and his face
+is a mask of pain and agony. Large steel nails inscribed with an inverted
+cross are nailed into his hands and feet, and dried blood runs down his
+arms. He is nearly naked, save for a dirty white sheet covering his waist.
+A large inverted cross has been burned into his forehead, and it is now
+black with age. The crucifix seems to be protected from removal by some
+dark force.
+~
+#20895
+bed~
+a lovely four poster canopy bed~
+A lovely four-poster canopy bed is made here for you.~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 0 1 P
+#20896
+bed~
+a sleigh bed~
+A wooden sleigh bed is here, made with thick quilts.~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#20897
+bed~
+a gilded bed~
+A lovely gilded bed made with a down comforter is here for you.~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#20898
+bed~
+an antique bed~
+A beautiful carved antique bed is made here for you.~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#20899
+A filthy water spigot~
+a filthy spigot~
+A filthy water spigot gushes water here.~
+steel~
+fountain 0 0
+-1 -1 'water' 0 0
+0 0 0 P
+#20900
+Well Souls Rift~
+The Well of Souls~
+The Well of Souls fill the air before you.~
+souls?~
+furniture c P
+0 0 0 0 0
+50 10000 0 P
+P RANDOM 20900 50~
+#20901
+crucifix vigo cross bloody~
+the crucified remnants of vigo~
+A large crucifix is implanted into the stone, the corpse of Vigo nailed into its center.~
+wood~
+furniture GO 0
+0 0 0 0 0
+35 0 0 P
+#20902
+runya crucifix bloody cross~
+the crucifix of runya~
+A bloody crucifix bears witness to the slow decay of traitorous Runya.~
+wood~
+furniture GO 0
+0 0 0 0 0
+35 0 0 P
+#20903
+huge rusty sword Carnifex Pax~
+the `&Carnifex Pax``, blade of `8Executioners``~
+`&The Carnifex Pax``, blade of `8Executioners`` is stuck in the ground here.~
+rust~
+furniture CGHJLMTY P
+0 0 0 0 0
+60 10000 0 P
+T
+466 2 60
+`&Carnifex Pax`` sings its deadly note!~
+You head a sound of a watermelon being cut in half.~
+#20904
+pouch green hemp~
+some green hemp~
+A pouch of green hemp is lying here.~
+herb~
+herb 0 A
+8 'dysentery' 'reserved' 'reserved' 'calm'
+35 5 5000 P
+#20905
+broken fountain~
+a broken fountain~
+A broken fountain bubbles up water here.~
+gold~
+fountain T 0
+40 40 'water' 0 0
+60 10000 10000 P
+#20906
+flying fly scroll~
+a flying scroll~
+A flying scroll drifts in the breeze.~
+paper~
+scroll 0 A
+15 'fly' '' '' ''
+25 1 3500 P
+#20995
+wool fabric~
+four yards of woolen fabric~
+Four yards of woolen fabric are lying here.~
+woolen~
+fabric 0 A
+0 0 0 0 0
+10 40 4 P
+#20996
+velvet fabric~
+four yards of velvet fabric~
+Four yards of velvet fabric are lying here.~
+velvet~
+fabric 0 A
+0 0 0 0 0
+10 40 4 P
+#20997
+silk fabric~
+four yards of silk fabric~
+Four yards of silk fabric are lying here.~
+silk~
+fabric 0 A
+0 0 0 0 0
+10 20 4 P
+#20998
+cotton fabric~
+four yards of cotton fabric~
+Four yards of cotton fabric are lying here.~
+cotton~
+fabric 0 A
+0 0 0 0 0
+10 20 4 P
+#20999
+flannel fabric~
+four yards of flannel fabric~
+Four yards of flannel fabric are lying here.~
+flannel~
+fabric 0 A
+0 0 0 0 0
+10 20 4 P
+#0
+
+
+
+#ROOMS
+#20601
+`7The Northern Square of Revelsport``~
+You stand in the Northern Square of Revelsport. This area is
+the entrance way to Revelsport Palace, home of the King and
+Queen of Revelsport. It is heavily guarded by the Guards of
+the Marcher Lord. East and west lies Horde of Flames Terrace.
+ 
+A large marble statue stands here in the center of the square.
+~
+~
+0 0 0 1
+E
+statue~
+A large statue of Corrin is erected here. It is made
+of finely polished marble, and is thought to be a relic of
+the Age of Kings. It seems to be well taken care of, and
+shows Corrin in a very kingly pose.
+~
+D0
+~
+~
+0 0 20671
+D1
+~
+~
+0 0 20653
+D2
+~
+~
+0 0 20602
+D3
+~
+~
+0 0 20654
+S
+#20602
+`7Saint Romni Way``~
+You stand amid the main street of Revelsport, Saint Romni way.
+Saint Romni was one of the saviors of the Survivors in the
+great battle of the Scarlet Horde. The street is lined with tall
+buildings and grandiose white arches that were handcrafted
+by the Stone Giants after the Age of Kings nearly destroyed
+Mirlan. South leads to the Central Square, and north leads
+to the North Square, and a grand palance entrance.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20601
+D2
+~
+~
+0 0 20603
+S
+#20603
+`7Saint Romni Way``~
+You stand amid the main street of Revelsport, Saint Romni way.
+Saint Romni was one of the saviors of the Survivors in the
+great battle of the Scarlet Horde. The street is lined with tall
+buildings and grandiose white arches that were handcrafted
+by the Stone Giants after the Age of Kings nearly destroyed
+Mirlan. South leads to the Central Square, and north leads
+to the North Square, and a grand palance entrance.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20602
+D2
+~
+~
+0 0 20604
+D3
+~
+~
+0 0 20807
+S
+#20604
+`7Saint Romni Way``~
+You stand amid the main street of Revelsport, Saint Romni way.
+Saint Romni was one of the saviors of the Survivors in the
+great battle of the Scarlet Horde. The street is lined with tall
+buildings and grandiose white arches that were handcrafted
+by the Stone Giants after the Age of Kings nearly destroyed
+Mirlan. South leads to the Central Square, and north leads
+to the North Square, and a grand palance entrance.
+~
+~
+0 0 0 1
+E
+sign~
+Composed of simple wood it bears a crimson picture of a skull and needle and
+points towards east. 
+~
+D0
+~
+~
+0 0 20603
+D1
+~
+~
+0 0 20879
+D2
+~
+~
+0 0 20605
+S
+#20605
+`7The Central Square of Revelsport``~
+You stand amid the central square of Revelsport.  All around you colossal
+buildings rise up.  The smell of commerce is in the air and the denizens of
+Revelsport bustle with activity.  Horse carts haul trade items for sale in
+the Eastern and Western districts, and travelers and adventurers alike walk
+the streets in search of new challenges.  
+~
+~
+0 0 0 1
+E
+statue~
+A large statue of the Gods of Chaos and Death are here, being
+vanquished by the forces of the Golden Griffons. The statue is very
+large, spanning the entire city block, and seems to be made from
+basalt, or another dark stone. It is believed to be a relic from
+the Age of Empires.
+~
+D0
+~
+~
+0 0 20604
+D1
+~
+~
+0 0 20610
+D2
+~
+~
+0 0 20606
+D3
+~
+~
+0 0 20614
+D4
+~
+~
+0 0 20783
+S
+#20606
+`7Saint Romni Way``~
+You stand amid the main street of Revelsport, Saint Romni way.
+Saint Romni was one of the saviors of the Survivors in the
+great battle of the Scarlet Horde. The street is lined with tall
+buildings and grandiose white arches that were handcrafted
+by the Stone Giants after the Age of Kings nearly destroyed
+Mirlan. South leads to the Southern Square, and north leads
+to the Central Square.
+ 
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20605
+D2
+~
+~
+0 0 20607
+S
+#20607
+`7Saint Romni Way``~
+You stand amid the main street of Revelsport, Saint Romni way.
+Saint Romni was one of the saviors of the Survivors in the
+great battle of the Scarlet Horde. The street is lined with tall
+buildings and grandiose white arches that were handcrafted
+by the Stone Giants after the Age of Kings nearly destroyed
+Mirlan. South leads to the Southern Square, and north leads
+to the Central Square.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20606
+D2
+~
+~
+0 0 20608
+S
+#20608
+`7Saint Romni Way``~
+You stand amid the main street of Revelsport, Saint Romni way.
+Saint Romni was one of the saviors of the Survivors in the
+great battle of the Scarlet Horde. The street is lined with tall
+buildings and grandiose white arches that were handcrafted
+by the Stone Giants after the Age of Kings nearly destroyed
+Mirlan. South leads to the Southern Square, and north leads
+to the Central Square.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20607
+D2
+~
+~
+0 0 20609
+S
+#20609
+`7The Southern Square of Revelsport``~
+You stand in the Southern Square of Revelsport.  This area was a rallying
+point for the Survivors in the Horde of Flames invasion where the heros
+of the Age of Darkness turned the Horde's troops away, and
+defeated the last front of the Chaos Demons.  Lord Welty Street runs to the
+east and west, into a darker and seedier district of Revelsport.  A large
+shimmering statue rests in the center of the square.  
+~
+~
+0 0 0 1
+E
+statue~
+A large cobalt statue of Athaekeetha is erected here. It is
+weather worn and eroded, and thought to be Revelsport's oldest
+relic. It is well cared for and guarded, however, and shows
+the God facing south, as if warning off invaders.
+~
+D0
+~
+~
+0 0 20608
+D1
+~
+~
+0 0 20634
+D2
+~
+~
+0 0 20740
+D3
+~
+~
+0 0 20632
+D4
+~
+~
+0 0 20667
+S
+#20610
+`7King's Crown Avenue``~
+You walk along the cobbled walk of King's Crown Way. This is the
+commercial district of Revelsport, and shops litter the buildings
+around you hawkers cry their auctions, and proffer goods to you.
+To the east lies the Eastern Square of Revelsport, where all of
+the Lightwalkers generally gather.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20760
+D1
+~
+~
+0 0 20611
+D2
+~
+~
+0 0 20799
+D3
+~
+~
+0 0 20605
+S
+#20611
+`7King's Crown Avenue``~
+You walk along the cobbled walk of King's Crown Way. This is the
+commercial district of Revelsport, and shops litter the buildings
+around you hawkers cry their auctions, and proffer goods to you.
+To the east lies the Eastern Square of Revelsport, where all of
+the Lightwalkers generally gather.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20762
+D1
+~
+~
+0 0 20612
+D2
+~
+~
+0 0 20778
+D3
+~
+~
+0 0 20610
+S
+#20612
+`7King's Crown Avenue``~
+You walk along the cobbled walk of King's Crown Way. This is the
+commercial district of Revelsport, and shops litter the buildings
+around you hawkers cry their auctions, and proffer goods to you.
+To the east lies the Eastern Square of Revelsport, where all of
+the Lightwalkers generally gather.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20774
+D1
+~
+~
+0 0 20613
+D2
+~
+~
+0 0 20776
+D3
+~
+~
+0 0 20611
+S
+#20613
+`7The Eastern Square of Revelsport``~
+You stand amid the Eastern Square of Revelsport. North of you is
+the Temple of Light, where all of those who follow the path of
+the righteous can offer sacrifices. South is the eastern train-
+ing ground, and further to the east you see the massive battle-
+ments of Revelsport.
+ 
+A tall marble statue rests in the center of the square.
+~
+~
+0 0 0 1
+E
+statue~
+A massive marble statue of Helamann rests here amid the pleasant
+sunny area of the Eastern Square. It is well polished, and looks
+newly hewn. It is a relic of this Age, but reflects a God known
+for his impact on the last several ages.
+~
+E
+desc~
+~
+D0
+~
+~
+0 0 20780
+D1
+~
+~
+0 0 20618
+D2
+~
+~
+0 0 20791
+D3
+~
+~
+0 0 20612
+S
+#20614
+`7King's Crown Way``~
+You walk along the cobbled walk of King's Crown Way. This is the
+commercial district of Revelsport, and shops litter the buildings
+around you hawkers cry their auctions, and proffer goods to you.
+To the west lies the Western Square of Revelsport, where all of
+the Shadowwalkers once gathered.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20785
+D1
+~
+~
+0 0 20605
+D2
+~
+~
+0 0 20769
+D3
+~
+~
+0 0 20615
+S
+#20615
+`7King's Crown Way``~
+You walk along the cobbled walk of King's Crown Way. This is the
+commercial district of Revelsport, and shops litter the buildings
+around you hawkers cry their auctions, and proffer goods to you.
+To the west lies the Western Square of Revelsport, where all of
+the Shadowwalkers once gathered.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20787
+D1
+~
+~
+0 0 20614
+D2
+~
+~
+0 0 20690
+D3
+~
+~
+0 0 20616
+S
+#20616
+`7King's Crown Way``~
+You walk along the cobbled walk of King's Crown Way. This is the
+commercial district of Revelsport, and shops litter the buildings
+around you hawkers cry their auctions, and proffer goods to you.
+To the west lies the Western Square of Revelsport, where all of
+the Shadowwalkers once gathered.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20793
+D1
+~
+~
+0 0 20615
+D2
+~
+~
+0 0 20794
+D3
+~
+~
+0 0 20617
+S
+#20617
+`7The Western Square of Revelsport``~
+You stand amid the Western Square of Revelsport. North of you is
+the Temple of Darkness, where all of those who follow the path
+of the unholy can offer sacrifices. South is the western train-
+ing ground, and further to the west you see the massive battle-
+ments of Revelsport.
+ 
+ 
+A massive basalt statue stands in the center of the square.
+~
+~
+0 0 0 1
+E
+statue~
+A massive basalt statue of the Lord of Chaos, Crypticant,
+and the God of Undead, Morgorin, adorn this shadowy square.
+While it is neat, the horrific image of these two powerful
+deities send shivers down your spine. The statue is said to
+be a relic from the Age of Empires.
+~
+D0
+~
+~
+0 0 20781
+D1
+~
+~
+0 0 20616
+D2
+~
+~
+0 0 20792
+D3
+~
+~
+0 0 20621
+S
+#20618
+`7King's Crown Avenue``~
+You walk along the cobbled walk of King's Crown Way. This is the
+commercial district of Revelsport, and shops litter the buildings
+around you hawkers cry their auctions, and proffer goods to you.
+To the west lies the Eastern Square of Revelsport, where all of
+the Lightwalkers generally gather.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 20619
+D3
+~
+~
+0 0 20613
+S
+#20619
+`7King's Crown Avenue``~
+You walk along the cobbled walk of King's Crown Way. This is the
+commercial district of Revelsport, and shops litter the buildings
+around you hawkers cry their auctions, and proffer goods to you.
+To the west lies the Eastern Square of Revelsport, where all of
+the Lightwalkers generally gather.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 20620
+D3
+~
+~
+0 0 20618
+S
+#20620
+`7The Eastern Gate of Revelsport``~
+You stand amid the Eastern Rampart of Revelsport.
+A thick ladder leads up to the watchtower where Guards of
+the Marcher Lord keep lookout on the horizon for signs of
+intruders. To the north and south is Mirlsport St., 
+and a gate opens to the east.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20644
+D1
+~
+~
+0 0 2052
+D2
+~
+~
+0 0 20643
+D3
+~
+~
+0 0 20619
+D4
+~
+~
+0 0 20669
+S
+#20621
+`7King's Crown Way``~
+You walk along the cobbled walk of King's Crown Way. This is the
+commercial district of Revelsport, and shops litter the buildings
+around you hawkers cry their auctions, and proffer goods to you.
+To the east lies the Western Square of Revelsport, where all of
+the Shadowwalkers once gathered.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 20617
+D3
+~
+~
+0 0 20622
+S
+#20622
+`7King's Crown Way``~
+You walk along the cobbled walk of King's Crown Way. This is the
+commercial district of Revelsport, and shops litter the buildings
+around you hawkers cry their auctions, and proffer goods to you.
+To the east lies the Western Square of Revelsport, where all of
+the Shadowwalkers once gathered.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 8700
+D1
+~
+~
+0 0 20621
+D3
+~
+~
+0 0 20623
+S
+#20623
+`7Before the Western Wall of Revelsport``~
+You stand amid the Western Rampart of Revelsport.
+A thick ladder leads up to the watchtower where Guards of
+the Marcher Lord keep lookout on the horizon for signs of
+intruders. To the north and south is Alduir the Conqueror 
+Road.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20661
+D1
+~
+~
+0 0 20622
+D2
+~
+~
+0 0 20624
+D3
+~
+~
+0 0 6923
+D4
+~
+~
+0 0 20665
+S
+#20624
+`7Alduir the Conqueror Road``~
+You are walking on Alduir the Conqueror Road. Alduir was
+one of the heros of the Second Crusade of Darhelm. Slain in battle by the
+Wind's Wave in the Horde of Flames invasion, Alduir
+was credited with some of the greatest acts of bravery
+Mirlan has ever seen. The road is rather bare, containing
+only a few houses. The district seems to lighten the more
+northward you walk. 
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20623
+D2
+~
+~
+0 0 20625
+S
+#20625
+`7Alduir the Conqueror Road``~
+You are walking on Alduir the Conqueror Road. Alduir was
+one of the heros of the Second Crusade of Darhelm. Slain in battle by the
+Wind's Wave in the Horde of Flames invasion, Alduir
+was credited with some of the greatest acts of bravery
+Mirlan has ever seen. The road is rather bare, containing
+only a few houses. The district seems to lighten the more
+northward you walk. 
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20624
+D1
+~
+~
+AB 0 20756
+D2
+~
+~
+0 0 20626
+S
+#20626
+`7Alduir the Conqueror Road``~
+You are walking on Alduir the Conqueror Road. Alduir was
+one of the heros of the Second Crusade of Darhelm. Slain in battle by the
+Wind's Wave in the Horde of Flames invasion, Alduir
+was credited with some of the greatest acts of bravery
+Mirlan has ever seen. The road is rather bare, containing
+only a few houses. The district seems to lighten the more
+northward you walk. 
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20625
+D1
+~
+~
+AB 0 20757
+D2
+~
+~
+0 0 20627
+S
+#20627
+`7In the Southwestern Corner of the Ramparts``~
+You stand amid the Southwestern Rampart of Revelsport.
+A thick ladder leads up to the watchtower where Guards of
+the Marcher Lord keep lookout on the horizon for signs of
+intruders. To the north lies Alduir the Conqueror Road,
+and Lord Welty Street runs eastward.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20626
+D1
+~
+~
+0 0 20628
+D4
+~
+~
+0 0 20666
+S
+#20628
+`7Lord Welty Street``~
+You are walking along the Western Welty District, on Lord
+Welty Street. Tall buildings still line the streets, but
+the taint that the attacks of the Chaos Demons left mars
+the buildings with an eternal grey hue. You see the great
+ramparts of Revelsport further to the west.
+~
+~
+0 0 0 1
+D0
+~
+~
+AB 0 20759
+D1
+~
+~
+0 0 20629
+D3
+~
+~
+0 0 20627
+S
+#20629
+`7Lord Welty Street``~
+You are walking along the Western Welty District, on Lord
+Welty Street. Tall buildings still line the streets, but
+the taint that the attacks of the Chaos Demons left mars
+the buildings with an eternal grey hue. You see the great
+ramparts of Revelsport further to the west.
+~
+~
+0 0 0 1
+D0
+~
+~
+AB 0 20758
+D1
+~
+~
+0 0 20630
+D3
+~
+~
+0 0 20628
+S
+#20630
+`7Lord Welty Street``~
+You are walking along the Western Welty District, on Lord
+Welty Street. Tall buildings still line the streets, but
+the taint that the attacks of the Chaos Demons left mars
+the buildings with an eternal grey hue. You see the great
+ramparts of Revelsport further to the west.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20724
+D1
+~
+~
+0 0 20631
+D2
+~
+~
+0 0 20735
+D3
+~
+~
+0 0 20629
+S
+#20631
+`7Lord Welty Street``~
+You are walking along the Western Welty District, on Lord
+Welty Street. Tall buildings still line the streets, but
+the taint that the attacks of the Chaos Demons left mars
+the buildings with an eternal grey hue. You see the great
+ramparts of Revelsport further to the west.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 20633
+D3
+~
+~
+0 0 20630
+S
+#20632
+`7Lord Welty Street``~
+You are walking along the Western Welty District, on Lord
+Welty Street. Tall buildings still line the streets, but
+the taint that the attacks of the Chaos Demons left mars
+the buildings with an eternal grey hue. You see the great
+ramparts of Revelsport further to the west.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 20609
+D3
+~
+~
+0 0 20633
+S
+#20633
+`7Lord Welty Street``~
+You are walking along the Western Welty District, on Lord
+Welty Street. Tall buildings still line the streets, but
+the taint that the attacks of the Chaos Demons left mars
+the buildings with an eternal grey hue. You see the great
+ramparts of Revelsport further to the west.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 20632
+D3
+~
+~
+0 0 20631
+S
+#20634
+`7Lord Welty Street``~
+You are walking along the Eastern Welty District, on Lord
+Welty Street. Tall buildings still line the streets, but
+the taint that the attacks of the Chaos Demons left mars
+the buildings with an eternal grey hue. You see the great
+ramparts of Revelsport further to the east.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 20635
+D3
+~
+~
+0 0 20609
+S
+#20635
+`7Lord Welty Street``~
+You are walking along the Eastern Welty District, on Lord
+Welty Street. Tall buildings still line the streets, but
+the taint that the attacks of the Chaos Demons left mars
+the buildings with an eternal grey hue. You see the great
+ramparts of Revelsport further to the east.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20702
+D1
+~
+~
+0 0 20636
+D2
+~
+~
+0 0 20705
+D3
+~
+~
+0 0 20634
+S
+#20636
+`7Lord Welty Street``~
+You are walking along the Eastern Welty District, on Lord
+Welty Street. Tall buildings still line the streets, but
+the taint that the attacks of the Chaos Demons left mars
+the buildings with an eternal grey hue. You see the great
+ramparts of Revelsport further to the east.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20708
+D1
+~
+~
+0 0 20637
+D2
+~
+~
+0 0 20711
+D3
+~
+~
+0 0 20635
+S
+#20637
+`7Lord Welty Street``~
+You are walking along the Eastern Welty District, on Lord
+Welty Street. Tall buildings still line the streets, but
+the taint that the attacks of the Chaos Demons left mars
+the buildings with an eternal grey hue. You see the great
+ramparts of Revelsport further to the east.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20714
+D1
+~
+~
+0 0 20638
+D3
+~
+~
+0 0 20636
+S
+#20638
+`7Lord Welty Street``~
+You are walking along the Eastern Welty District, on Lord
+Welty Street. Tall buildings still line the streets, but
+the taint that the attacks of the Chaos Demons left mars
+the buildings with an eternal grey hue. You see the great
+ramparts of Revelsport further to the east.
+~
+~
+0 0 0 1
+D0
+~
+~
+AB 0 20743
+D1
+~
+~
+0 0 20639
+D2
+~
+~
+0 0 20721
+D3
+~
+~
+0 0 20637
+S
+#20639
+`7Lord Welty Street``~
+You are walking along the Eastern Welty District, on Lord
+Welty Street. Tall buildings still line the streets, but
+the taint that the attacks of the Chaos Demons left mars
+the buildings with an eternal grey hue. You see the great
+ramparts of Revelsport further to the east.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 20640
+D3
+~
+~
+0 0 20638
+S
+#20640
+`7The Southeastern Corner of the Ramparts``~
+You stand amid the Southeastern Rampart of Revelsport.
+A thick ladder leads up to the watchtower where Guards of
+the Marcher Lord keep lookout on the horizon for signs of
+intruders. To the north lies Mirlsport way, and Lord
+Welty Street runs westward.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20641
+D3
+~
+~
+0 0 20639
+D4
+~
+~
+0 0 20668
+S
+#20641
+`7Mirlsport Way``~
+You walk down the wide street known as Mirlsport Way.
+Before it was sacked, Mirlaport was the even greater than
+Revelsport, and one of the most thriving cities in the Border
+Marches. It was a city of legends during the Age of Empires
+before it was burned to the ground by Darhelmish invaders. 
+The street runs north and south along the ramparts.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20642
+D2
+~
+~
+0 0 20640
+S
+#20642
+`7Mirlsport Way``~
+You walk down the wide street known as Mirlsport Way.
+Before it was sacked, Mirlaport was the even greater than
+Revelsport, and one of the most thriving cities in the Border
+Marches. It was a city of legends during the Age of Empires
+before it was burned to the ground by Darhelmish invaders. 
+The street runs north and south along the ramparts.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20643
+D2
+~
+~
+0 0 20641
+D3
+~
+~
+AB 0 20744
+S
+#20643
+`7Mirlsport Way``~
+You walk down the wide street known as Mirlsport Way.
+Before it was sacked, Mirlaport was the even greater than
+Revelsport, and one of the most thriving cities in the Border
+Marches. It was a city of legends during the Age of Empires
+before it was burned to the ground by Darhelmish invaders. 
+The street runs north and south along the ramparts.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20620
+D2
+~
+~
+0 0 20642
+S
+#20644
+`7Mirlsport Way``~
+You walk down the wide street known as Mirlsport Way.
+Before it was sacked, Mirlaport was the even greater than
+Revelsport, and one of the most thriving cities in the Border
+Marches. It was a city of legends during the Age of Empires
+before it was burned to the ground by Darhelmish invaders. 
+The street runs north and south along the ramparts.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20645
+D2
+~
+~
+0 0 20620
+S
+#20645
+`7Mirlsport Way``~
+You walk down the wide street known as Mirlsport Way.
+Before it was sacked, Mirlaport was the even greater than
+Revelsport, and one of the most thriving cities in the Border
+Marches. It was a city of legends during the Age of Empires
+before it was burned to the ground by Darhelmish invaders. 
+The street runs north and south along the ramparts.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20646
+D2
+~
+~
+0 0 20644
+D3
+~
+~
+AB 0 20745
+S
+#20646
+`7Mirlsport Way``~
+You walk down the wide street known as Mirlsport Way.
+Before it was sacked, Mirlaport was the even greater than
+Revelsport, and one of the most thriving cities in the Border
+Marches. It was a city of legends during the Age of Empires
+before it was burned to the ground by Darhelmish invaders. 
+The street runs north and south along the ramparts.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20648
+D2
+~
+~
+0 0 20645
+S
+#20647
+`7Horde of Flames Terrace``~
+You are on Horde of Flames Terrace, the northernmost road of Val
+Miran. Named in honor of Silas Myrne, a Border Marcher hero who was
+involved in the formation of the Sage cabal, as well 
+as the chaining of the Four Plagues, the road contains
+most of the mage guilds of Revelsport.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 20648
+D3
+~
+~
+0 0 20649
+S
+#20648
+`7The Northeastern Corner of the Ramparts``~
+You stand amid the Northeastern Rampart of Revelsport.
+A thick ladder leads up to the watchtower where Guards of
+the Marcher Lord keep lookout on the horizon for signs of
+intruders. To the south is Mirlsport Street, and the
+the ivory archways of Horde of Flames Terrace lie westward.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 20646
+D3
+~
+~
+0 0 20647
+D4
+~
+~
+0 0 20670
+S
+#20649
+`7Horde of Flames Terrace``~
+You are on Horde of Flames Terrace, the northernmost road of Val
+Miran. Named in honor of Silas Myrne, a Border Marcher hero who was
+involved in the formation of the Sage cabal, as well 
+as the chaining of the Four Plagues, the road contains
+most of the mage guilds of Revelsport.
+ 
+A lovely manor rests south of you.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 20647
+D2
+~
+~
+ABCF 20746 20746
+D3
+~
+~
+0 0 20650
+S
+#20650
+`7Horde of Flames Terrace``~
+You are on Horde of Flames Terrace, the northernmost road of Val
+Miran. Named in honor of Silas Myrne, a Border Marcher hero who was
+involved in the formation of the Sage cabal, as well 
+as the chaining of the Four Plagues, the road contains
+most of the mage guilds of Revelsport.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 20649
+D3
+~
+~
+0 0 20651
+S
+#20651
+`7Horde of Flames Terrace``~
+You are on Horde of Flames Terrace, the northernmost road of Val
+Miran. Named in honor of Silas Myrne, a Border Marcher hero who was
+involved in the formation of the Sage cabal, as well 
+as the chaining of the Four Plagues, the road contains
+most of the mage guilds of Revelsport.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 20650
+D3
+~
+~
+0 0 20652
+S
+#20652
+`7Horde of Flames Terrace``~
+You are on Horde of Flames Terrace, the northernmost road of Val
+Miran. Named in honor of Silas Myrne, a Border Marcher hero who was
+involved in the formation of the Sage cabal, as well 
+as the chaining of the Four Plagues, the road contains
+most of the mage guilds of Revelsport.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20693
+D1
+~
+~
+0 0 20651
+D2
+~
+~
+0 0 20696
+D3
+~
+~
+0 0 20653
+S
+#20653
+`7Horde of Flames Terrace``~
+You are on Horde of Flames Terrace, the northernmost road of Val
+Miran. Named in honor of Silas Myrne, a Border Marcher hero who was
+involved in the formation of the Sage cabal, as well 
+as the chaining of the Four Plagues, the road contains
+most of the mage guilds of Revelsport.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 20652
+D3
+~
+~
+0 0 20601
+S
+#20654
+`7Horde of Flames Terrace``~
+You are on Horde of Flames Terrace, the northernmost road of Val
+Miran. Named in honor of Silas Myrne, a Border Marcher hero who was
+involved in the formation of the Sage cabal, as well 
+as the chaining of the Four Plagues, the road contains
+most of the mage guilds of Revelsport.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20684
+D1
+~
+~
+0 0 20601
+D2
+~
+~
+0 0 20687
+D3
+~
+~
+0 0 20655
+S
+#20655
+`7Horde of Flames Terrace``~
+You are on Horde of Flames Terrace, the northernmost road of Val
+Miran. Named in honor of Silas Myrne, a Border Marcher hero who was
+involved in the formation of the Sage cabal, as well 
+as the chaining of the Four Plagues, the road contains
+most of the mage guilds of Revelsport.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20678
+D1
+~
+~
+0 0 20654
+D3
+~
+~
+0 0 20656
+S
+#20656
+`7Horde of Flames Terrace``~
+You are on Horde of Flames Terrace, the northernmost road of Val
+Miran. Named in honor of Silas Myrne, a Border Marcher hero who was
+involved in the formation of the Sage cabal, as well 
+as the chaining of the Four Plagues, the road contains
+most of the mage guilds of Revelsport.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20699
+D1
+~
+~
+0 0 20655
+D3
+~
+~
+0 0 20657
+S
+#20657
+`7Horde of Flames Terrace``~
+You are on Horde of Flames Terrace, the northernmost road of Val
+Miran. Named in honor of Silas Myrne, a Border Marcher hero who was
+involved in the formation of the Sage cabal, as well 
+as the chaining of the Four Plagues, the road contains
+most of the mage guilds of Revelsport.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20681
+D1
+~
+~
+0 0 20656
+D3
+~
+~
+0 0 20658
+S
+#20658
+`7Horde of Flames Terrace``~
+You are on Horde of Flames Terrace, the northernmost road of Val
+Miran. Named in honor of Silas Myrne, a Border Marcher hero who was
+involved in the formation of the Sage cabal, as well 
+as the chaining of the Four Plagues, the road contains
+most of the mage guilds of Revelsport.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 20657
+D2
+~
+~
+0 0 20750
+D3
+~
+~
+0 0 20659
+S
+#20659
+`7Horde of Flames Terrace``~
+You are on Horde of Flames Terrace, the northernmost road of Val
+Miran. Named in honor of Silas Myrne, a Border Marcher hero who was
+involved in the formation of the Sage cabal, as well 
+as the chaining of the Four Plagues, the road contains
+most of the mage guilds of Revelsport.
+ 
+A beautiful mansion lies just south of you, behind a
+small fence.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 20658
+D2
+~
+~
+AB 0 20752
+D3
+~
+~
+0 0 20660
+S
+#20660
+`7The Northwestern Corner of the Ramparts``~
+You stand amid the Northwestern Rampart of Revelsport.
+A thick ladder leads up to the watchtower where Guards of
+the Marcher Lord keep lookout on the horizon for signs of
+intruders. To the south is Alduir the Conqueror Road, and
+the ivory archways of Horde of Flames Terrace lie eastward.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 20659
+D2
+~
+~
+0 0 20663
+D4
+~
+~
+0 0 20664
+S
+#20661
+`7Alduir the Conqueror Road``~
+You are walking on Alduir the Conqueror Road. Alduir was
+one of the heros of the Second Crusade of Darhelm. Slain in battle by the
+Wind's Wave in the Horde of Flames invasion, Alduir
+was credited with some of the greatest acts of bravery
+Mirlan has ever seen. The road is rather bare, containing
+only a few houses. The district seems to lighten the more
+northward you walk. 
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20662
+D2
+~
+~
+0 0 20623
+S
+#20662
+`7Alduir the Conqueror Road``~
+You are walking on Alduir the Conqueror Road. Alduir was
+one of the heros of the Second Crusade of Darhelm. Slain in battle by the
+Wind's Wave in the Horde of Flames invasion, Alduir
+was credited with some of the greatest acts of bravery
+Mirlan has ever seen. The road is rather bare, containing
+only a few houses. The district seems to lighten the more
+northward you walk. 
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20663
+D1
+~
+~
+AB 0 20755
+D2
+~
+~
+0 0 20661
+S
+#20663
+`7Alduir the Conqueror Road``~
+You are walking on Alduir the Conqueror Road. Alduir was
+one of the heros of the Second Crusade of Darhelm. Slain in battle by the
+Wind's Wave in the Horde of Flames invasion, Alduir
+was credited with some of the greatest acts of bravery
+Mirlan has ever seen. The road is rather bare, containing
+only a few houses. The district seems to lighten the more
+northward you walk. 
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20660
+D1
+~
+~
+AB 0 20754
+D2
+~
+~
+0 0 20662
+S
+#20664
+`7In the Northwestern Watchtower``~
+You stand high above Revelsport in a watchtower. The view
+from here is spectacular! You can scan the horizon as far
+as the eye can see, or look below you at the hustle and
+bustle of activity in Revelsport. A few of the Guards of
+the Marcher Lord are here, and look at you warningly. You'd
+better be on your way.
+~
+~
+0 9 0 1
+D5
+~
+~
+0 0 20660
+S
+#20665
+`8In the Western Watchtower``~
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 20623
+S
+#20666
+`7In the Southwestern Watchtower``~
+You stand high above Revelsport in a watchtower. The view
+from here is spectacular! You can scan the horizon as far
+as the eye can see, or look below you at the hustle and
+bustle of activity in Revelsport. A few of the Guards of
+the Marcher Lord are here, and look at you warningly. You'd
+better be on your way.
+~
+~
+0 9 0 1
+D5
+~
+~
+0 0 20627
+S
+#20667
+`8In the Southern Watchtower``~
+You stand high above Revelsport in a watchtower. The view
+from here is spectacular! You can scan the horizon as far
+as the eye can see, or look below you at the hustle and
+bustle of activity in Revelsport. A few of the Guards of
+the Marcher Lord are here, and look at you warningly. You'd
+better be on your way.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 20609
+S
+#20668
+`7In the Southeastern Watchtower``~
+You stand high above Revelsport in a watchtower. The view
+from here is spectacular! You can scan the horizon as far
+as the eye can see, or look below you at the hustle and
+bustle of activity in Revelsport. A few of the Guards of
+the Marcher Lord are here, and look at you warningly. You'd
+better be on your way.
+~
+~
+0 9 0 1
+D5
+~
+~
+0 0 20640
+S
+#20669
+`8In the Eastern Watchtower``~
+You stand high above Revelsport in a watchtower. The view
+from here is spectacular! You can scan the horizon as far
+as the eye can see, or look below you at the hustle and
+bustle of activity in Revelsport. A few of the Guards of
+the Marcher Lord are here, and look at you warningly. You'd
+better be on your way.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 20620
+S
+#20670
+`7In the Northeastern Watchtower``~
+You stand high above Revelsport in a watchtower. The view
+from here is spectacular! You can scan the horizon as far
+as the eye can see, or look below you at the hustle and
+bustle of activity in Revelsport. A few of the Guards of
+the Marcher Lord are here, and look at you warningly. You'd
+better be on your way.
+~
+~
+0 9 0 1
+D5
+~
+~
+0 0 20648
+S
+#20671
+`7Before the Main Palace of Revelsport``~
+You stand before the massive surly walls of the Revelsport
+Palace. It was once the greatest structure in the known
+lands during the Age of Kings, but consequent wars
+destroyed much of it. It is being rebuilt under the Queen's
+commission to restore the palace to it's original splendor.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20672
+D2
+~
+~
+0 0 20601
+D4
+~
+~
+0 0 17100
+S
+#20672
+`8Inside the Main Gates of Revelsport Palace``~
+You are under a large catwalk of stone and masonry. Perched
+high atop are several workers who are finishing two of the
+presently closed towers...The Hawk Tower and the Bull Tower.
+The Lion tower is further to the north, just before the last
+gate.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 20675
+D1
+~
+~
+0 0 20673
+D2
+~
+~
+0 0 20671
+D3
+~
+~
+0 0 20674
+S
+#20673
+`8The Eastern Corridor of Revelsport Palace``~
+You are walking down the eastern hallway of Revelsport Palace.
+It is roped off here, and you can go no further as large and
+heavy beams and granite block your way into the eastern halls.
+The workers seem to be busy trying to work. Best let them.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 20672
+S
+#20674
+`8The Western Corridor of Revelsport Palace``~
+You are walking down the western hallway of Revelsport Palace.
+It is roped off here, and you can go no further as large and
+heavy beams and granite block your way into the eastern halls.
+The workers seem to be busy trying to work. Best let them.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 20672
+D4
+~
+~
+ABM 0 20800
+S
+#20675
+`8In the Grand Foyer of Revelsport Palace``~
+You are in the Grand Foyer of the Palace. Walls are covered
+in heavy sheets to avoid rockdust that is being stirred up
+by the workers. The main area of the palace is offlimits to
+the general public, but is above this hall. The stairs must be
+around here somewhere...
+ 
+A large sign levitates midair.
+~
+~
+0 8 0 0
+E
+sign~
+<=== Mar'Kyer Portals
+Travel to anywhere in Mirlan for 200 gold!
+~
+D0
+~
+~
+0 0 20676
+D2
+~
+~
+0 0 20672
+D3
+~
+~
+0 0 20806
+S
+#20676
+`8In the Grand Courtyard of Revelsport Palace``~
+You've left the sanctity of the foyer, and are now in the courtyard.
+It is covered in thick green grass, and looks well taken care of. 
+High above and behind you are the observatory walls, where the royals
+can watch the knights of Revelsport battle and joust. Northward lie
+the gates.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 20677
+D2
+~
+~
+0 0 20675
+S
+#20677
+`8Before the Northern Gate of Revelsport``~
+You stand amid the northern gates of Revelsport, the only gates with no
+watchtower.  There would be no point having such a structure here as a dense
+forest lies northwards and the great trees encompassed within would dwarf
+any building.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 20676
+S
+#20678
+`7Entrance to the Tower of the Thaumaturgist ``~
+You stand before the Tower of the Invokers. A large stone spiral
+extends far upward where it pinnacles at a small observatory. Arcane
+runes and symbols cover the walls of the tower, and an occasional
+flash of fire or lightning comes from the upper stantions of the
+edifice. A young guard stands before you on the steps.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 20655
+D3
+~
+~
+0 0 20679
+S
+#20679
+`8The Thaumaturgist Tower``~
+You climb a small flight of steps and find yourself in a well
+lit guildhall. The room is circular, and the floors are a hard
+marble finish, inlaid with arcane runes and markings. Scorched
+walls and zapped tapestries allude to the elemental work done in
+this tower. Upward lies the room of the guildmaster.
+~
+~
+0 295698440 4096 0
+D1
+~
+~
+0 0 20678
+D4
+~
+~
+0 0 20680
+S
+#20680
+`8The Chamber of the Five Elements``~
+You are at the top of the Invoker's Tower. The room has a splendid
+view of the city below! This tiny alcove is home to one of the last
+wizards of the Five Elements, powerful magic these days. Books are
+piled up to the ceiling in each corner, and candles burn unchecked
+all over the room. This is a very sage place of learning.
+~
+~
+0 295698440 0 0
+D5
+~
+~
+0 0 20679
+S
+#20681
+`7The Entrance to the Hall of the Sorcerers``~
+You stand before a large stone struction just off the main terrace.
+Decorated with long trailing red and blue banners, the hall of the
+Sorcerers is a long standing tribute to power and alchemy, and a
+center of knowledge for all mages in Mirlan. A powerful looking man
+guards the front entrance to the inner keep.
+~
+~
+0 268435456 0 1
+D1
+~
+~
+0 0 20682
+D2
+~
+~
+0 0 20657
+S
+#20682
+`8The Guildhall of the Sorcerers``~
+You are within the depths of the Sorcerer guildhall. All about
+you are kept immaculate records and files, as well as myriad books
+on magic, the arcane, and the occult. Sorcerers are well honed
+in many of the arcane arts, and lend to their profession knowledge
+on all the other magics in Mirlan, besides simple battlefield magic.
+~
+~
+0 295698440 4096 0
+D0
+~
+~
+0 0 20683
+D3
+~
+~
+0 0 20681
+S
+#20683
+`8The Chamber of Alchemy``~
+You are in a small foyer off the main guild. In here the walls
+are lines with potions, scrolls, and wands, all tucked neatly
+away into tiny alcoves. The place is well kept, but the aura of
+magic in the room makes your hair tingle, and your skin prick.
+~
+~
+0 295698440 0 0
+D2
+~
+~
+0 0 20682
+S
+#20684
+`7The Entrance to the Medici of the Healers``~
+You stand before a humble white edifice along the main street.
+A large painted wooden sign with the universal symbol for the
+guild of the Medici, the Healers of Mirlan, hangs from two small
+metal posts, and swings in the light breeze. This is where the
+sick of Revelsport go to be cured of their ailments, and receive
+the blessings of the Gods of the Light.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 20654
+D3
+~
+~
+0 0 20685
+S
+#20685
+`8The Guildhall of the Medici Healers``~
+You are in a healing room. Rows of humble cots line the walls,
+and the young healer trainees are here helping heal the sick
+with their divine communing. The air smells of disease, but the
+room is a place of uplifted hope and spiritual satisfaction.
+~
+~
+0 295698440 4096 0
+D0
+~
+~
+0 0 20686
+D1
+~
+~
+0 0 20684
+S
+#20686
+`8The Hall of the Medici``~
+You are in the training hall of the Medici Healers. This
+room, another white, sterile looking room, is off the main
+hall, and contains the training materials for new healers.
+Books and boxes of medicine lay in neat stacks and piles,
+and the kind guildmistress rests behind a desk.
+~
+~
+0 295698440 0 0
+D2
+~
+~
+0 0 20685
+S
+#20687
+`7Before an Empty Guild``~
+You stand before a small, ruddy building just off the Terrace.
+While neat, it has darkened windows and shutters. The door is
+marked with three odd glyphs, and guarded by a man wearing no
+armor or weapons, yet looking rather imposing.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20654
+D1
+~
+~
+0 0 20688
+S
+#20688
+`8The Empty Guildhall``~
+You are in a small reception room amid some guild of Mirlan.  The room is
+small, and littered with odd ends and puzzles, bent objects, blocks, and
+sheets of paper and pens.  There is an electric feel to the room, but also a
+sinister feeling.  
+~
+~
+0 295698440 0 0
+D2
+~
+~
+0 0 20689
+D3
+~
+~
+0 0 20687
+S
+#20689
+`8The Foyer of the Mind``~
+You are in a small room off the reception area. It is made up
+of heavy, smoked glass, and a kind, grandmotherly looking woman
+rests behind a small desk. Books and papers are piled on her
+desk, and she looks at you quizzlically. You feel a bit dizzy,
+and are overcome with a sense of deja vu'. Where have you seen
+this place before?
+~
+~
+0 295698440 0 0
+D0
+~
+~
+0 0 20688
+S
+#20690
+`8The Butcher's Shop``~
+You are in a large, white shop. Sides of beef hang about the room
+from various spikes in the cieling, and a rotund man behind the
+counter wearing and apron and wielding a large cleaver is busy
+slicing chops of meat on a thick block. The smell of blood and
+food fills your nose. A small staircase leads up.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 20615
+D4
+~
+~
+0 0 20691
+S
+#20691
+`8Above the Butchery``~
+You are in a small room above the butchery. It is neat and
+tidy, and filled with a bed, a dresser, and a few pictures
+on the wooden walls. This is the butcher's private room,
+and from the look of him, you'd best be on your way.
+~
+~
+0 8 0 0
+D2
+~
+wall~
+ABCM 20609 20692
+D5
+~
+~
+0 0 20690
+S
+#20692
+`8The Fountains of Fayette``~
+Once a fortress of the sadist vigo, times have changed.  The beautiful
+Fayette has used her magic to create a hanging gardens and fountain
+emporium.  Silver streams trickle down the sparkling granite walls and end
+in small golden pools where tiny fish swim at incredible speeds.  The smell
+of cinnamon and nectar fills your senses, and you feel calm.  By day a meat
+cutter, a feeder of the poor.  By night a flowering magician and disciple of
+creation.  The sparkling walls give the impression of sunlight streaming in
+this magical abode.  As you bend to drink from the enticing pools, they
+dissapear.  
+~
+~
+0 262153 16 0
+E
+pools~
+The pools ripple as you gaze in and catch an outline of a small box.
+ 
+~
+E
+box~
+A small box is hidden in side the pools, its edges rusted with age.
+~
+E
+pool~
+The pools ripple as you gaze in and catch an outline of a small box.
+~
+D0
+~
+wall~
+ABCM 20609 20691
+S
+#20693
+`7Before the Arena of War``~
+You stand before the Great Guild of War. A pair of heavy steel
+doors lead north into a massive arena. A very large warrior stands
+before you, his face a dark shadow of fury. The Arena looks well
+guarded, and impenetrable.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20694
+D2
+~
+~
+0 0 20652
+S
+#20694
+`8The Guildhall of the Warriors``~
+You stand amid a large battle arena. Training utensils and dummies
+lie all around you, and the sound of battle and war fill your ears
+with clamor. East is a smaller training room, and south is the main
+gate of the Arena.
+~
+~
+0 295698440 4096 0
+D1
+~
+~
+0 0 20695
+D2
+~
+~
+0 0 20693
+S
+#20695
+`8The Arena of Battle``~
+You are in a smaller room off the main Arena. Your guildmaster is
+here to train and teach younger students, and perfect the arts and
+skill of the older ones. West leads back into the main arena.
+~
+~
+0 295698440 0 0
+D3
+~
+~
+0 0 20694
+S
+#20696
+`7Before the Citadel of Rage``~
+You stand before a heavily guarded citadel. Large iron and wood pilings
+line the walls of this place, and all look to have been hand hewn by a
+group of large creatures. From beyond the walls come yells and cries of
+struggle and rage. To the south you can make out a large practice arena.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20652
+D2
+~
+~
+0 0 20697
+S
+#20697
+`8The Guildhall of the Berserkers``~
+You are in a large, bashed room. All around you trainees work to
+master their rage and frenzy into harnessed attacks of skill. Broken
+practice weapons and tattered and torn dummies lie strewn about the
+room, and many large logs and trees lie in splinters about the room.
+The stench of sweat and beer fills the air.
+~
+~
+0 295698440 4096 0
+D0
+~
+~
+0 0 20696
+D3
+~
+~
+0 0 20698
+S
+#20698
+`8The Citadel of Rage``~
+You stand inside the Citadel of Rage. The Guildmaster of the Berserkers,
+a massive creature named Sogrind, stands before you to train and to help
+you master your skills as a Berserker. The room is covered in dents and
+broken things, and the dirt floor is hard packed...perfect for scrapping.
+~
+~
+0 295698440 0 0
+D1
+~
+~
+0 0 20697
+S
+#20699
+`7Before the Grand Hall of the Paladins``~
+You stand before a large fortress. Made entirely of white marble and
+stone, a long staircase leads upward into a deeper chamber. Long white
+flags with bright golden suns emblazoned in the center hang from the
+tall pillars and flutter in the breeze. The building exudes a feeling
+of power and purity.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 20656
+D4
+~
+~
+0 0 20700
+S
+#20700
+`8The Guildhall of the Paladins``~
+You are in the center of the Paladin Guildhall. It is a large white
+room that is paved with beautiful white marble, and adorned with
+dozens of large stone pillars. Expensive tapestries recovered in
+crusades hang on the walls, and a large room to the north is where
+the master of this guild resides.
+~
+~
+0 295698440 4096 0
+D0
+~
+~
+0 0 20701
+D5
+~
+~
+0 0 20699
+S
+#20701
+`8The Palace of Chivalry``~
+You find yourself in the Palace of Chivarly. A temple is erected
+here, and a divine leader of the Paladin guild rests here, to
+teach the young and brash paladins discipline and honor in their
+path to glory and purity. The room is boldly decorated in vases,
+stained glass, and gold.
+~
+~
+0 295698440 0 0
+D2
+~
+~
+0 0 20700
+S
+#20702
+`7Before a crumbling building``~
+You stand before the remains of a large building. Once the
+thriving guild of the Necromancers, now, all that is left is
+a charred, burned out husk of a building, as if the city here
+left this section here as a landmark and warning to others
+who would dare disrupt the peace of the city.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 20635
+D4
+~
+~
+0 0 20703
+S
+#20703
+`8Within the Guildhall of the Necromancers``~
+You stand within piles of crumbled remains. Large wooden boards
+have fallen from the ceiling, as if the evil that was inherent
+here cleared out quickly.
+~
+~
+0 295698440 0 0
+D4
+~
+~
+0 0 20704
+D5
+~
+~
+0 0 20702
+S
+#20704
+`8The Top of the Tower of Decay``~
+You stand within piles of crumbled remains. Large wooden boards
+have fallen from the ceiling, as if the evil that was inherent
+here cleared out quickly.
+~
+~
+0 295698440 0 0
+D5
+~
+~
+0 0 20703
+S
+#20705
+`7Before a crumbling building``~
+You stand before the remains of a large building. Once the
+thriving guild of the Dark Knights, now, all that is left is
+a charred, burned out husk of a building, as if the city here
+left this section here as a landmark and warning to others
+who would dare disrupt the peace of the city.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20635
+D2
+~
+~
+0 0 20706
+S
+#20706
+`8Within the Guildhall of the Dark Knights``~
+You stand within piles of crumbles remains. Large wooden boards
+have fallen from the ceiling, as if the evil that was inherent
+here cleared out quickly.
+~
+~
+0 295698440 4096 0
+D0
+~
+~
+0 0 20705
+D1
+~
+~
+0 0 20707
+S
+#20707
+`8The Halls of Agony``~
+You stand within piles of crumbles remains. Large wooden boards
+have fallen from the ceiling, as if the evil that was inherent
+here cleared out quickly.
+~
+~
+0 295698440 0 0
+D3
+~
+~
+0 0 20706
+S
+#20708
+`7The Entrance to the Guild of the Liches``~
+You stand before an eerie entrance. A small hole has been chipped
+in the ground below you, and leads somewhere deep down. The stench
+of death and decay here far outpower that of the necromancers, and
+a strange force seems to hold you from entrance beyond.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 20636
+D5
+~
+~
+0 0 20709
+S
+#20709
+`8The Guildhall of the Liches``~
+You've entered the guildhall of the Liches. Dark walls
+oozing with slime surround you, and the smell of rotten
+decay fills the air. Magic makes your skin tingle, and
+the chant of witchery from below you resounds in the tiny
+cavern.
+~
+~
+0 295698440 0 0
+D4
+~
+~
+0 0 20708
+D5
+~
+~
+0 0 20710
+S
+#20710
+`8The Stench of Death``~
+You find yourself deep below the city streets. The stench
+of decay and death are all around, and the room in which you
+stand seems to be on unholy ground, as if some rift were torn
+in space and time, and the magics from another realm surge
+through the tiny, dank brick room.
+~
+~
+0 295698440 0 0
+D4
+~
+~
+0 0 20709
+S
+#20711
+`7Before a crumbling building``~
+ou stand before the remains of a large building. Once the
+thriving guild of the Vampires, now, all that is left is
+a charred, burned out husk of a building, as if the city here
+left this section here as a landmark and warning to others
+who would dare disrupt the peace of the city.
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 20636
+D1
+~
+~
+0 0 20712
+S
+#20712
+`8Within the Guildhall of the Vampires``~
+You stand within piles of crumbled remains. Large wooden boards
+have fallen from the ceiling, as if the evil that was inherent
+here cleared out quickly.
+~
+~
+0 295698441 0 0
+D2
+~
+~
+0 0 20713
+D3
+~
+~
+0 0 20711
+S
+#20713
+`8Within a Shadowy Crypt``~
+You stand within piles of crumbled remains. Large wooden boards
+have fallen from the ceiling, as if the evil that was inherent
+here cleared out quickly.
+~
+~
+0 295698441 0 0
+D0
+~
+~
+0 0 20712
+S
+#20714
+`7Malfisence Routh Court``~
+You are on a small alleyway off the Welty. This is a
+very bad part of the city, and you feel the need to
+hustle as murderers and thieves peer at your person,
+trying to determine if you're worth their time.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20715
+D2
+~
+~
+0 0 20637
+S
+#20715
+`7Malfisence Routh Court``~
+You are on a small alleyway off the Welty. This is a
+very bad part of the city, and you feel the need to
+hustle as murderers and thieves peer at your person,
+trying to determine if you're worth their time.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20716
+D1
+~
+~
+0 0 20717
+D2
+~
+~
+0 0 20714
+S
+#20716
+`7Before the Law Clan Hall``~
+You are on a small alleyway off the Welty.  This is a very bad part of
+the city, and you feel the need to hustle as murderers and thieves peer at
+your person, trying to determine if you're worth their time.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20808
+D2
+~
+~
+0 0 20715
+S
+#20717
+`7The Entrance to the Guildhall of the Thieves``~
+You are on a small alleyway off of the Routh. A small opening,
+a door, lies in the slimy brick wall just before you, and the
+iron door, obscured by garbage cans and other pieces of litter,
+is guarded by a shifty looking man flipping a small, thin
+stiletto dagger.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 20718
+D3
+~
+~
+0 0 20715
+S
+#20718
+`8The Guildhall of the Thieves``~
+You find yourself in a room lit only by a single oil lamp. The
+room stinks of sweat and body odor, but a table before you is
+littered with gold and items of value, along with a few of
+the tools of the trade; blackjack, dagger, wire...all marred with
+bits of blood and hair.
+~
+~
+0 295698440 4096 0
+D2
+~
+~
+0 0 20719
+D3
+~
+~
+0 0 20717
+S
+#20719
+`8The Room of Treachery``~
+You are in the guildmaster's room of the Thief Guild. A dark
+man in the corner at a grand mahogany desk rests back in his
+chair and peers at you over steepled fingers. The room is the
+only part of this guild decorated extravagantly, and the man
+behind the desk oozes silent power and portent.
+~
+~
+0 295698440 0 0
+D0
+~
+~
+0 0 20718
+S
+#20720
+`4Under the Drawbridge``~
+You are under a steep drawbridge. A large iron ladder is here, alone
+with several iron cleats to moor your boat to. Above you the massive
+bridge looms several hundred feet over the Sabre River. The chilly
+water makes for a colder wind to sweep across it, and the rate of the
+river's flow makes mooring here unsteady.
+~
+~
+0 268435456 0 7
+D1
+~
+~
+0 0 20764
+D3
+~
+~
+0 0 20770
+D4
+~
+~
+0 0 20741
+S
+#20721
+`7Before the Guildhall of the Ninjas``~
+You stand before a tall temple. The roof is covered with small
+sculptures of birds and dragons. The cieling is painted red,
+and the doors to the front are obscured by large, odd shaped
+plants with spikes. A man dressed in black is guarding the
+front entrance.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20638
+D2
+~
+~
+0 0 20722
+S
+#20722
+`8Within the Guildhall of the Ninjas``~
+You are in a training room. Dummies lay about the room, some
+hacked into tiny bits, some still standing. Rows of weapons
+line the walls; katanas, sais, nunchaku...all silent weapons
+of a silent killer. You smell incense coming from a door to
+the east.
+~
+~
+0 295698440 4096 0
+D0
+~
+~
+0 0 20721
+D1
+~
+~
+0 0 20723
+S
+#20723
+`8A Spiritual Place``~
+You are in a sacred area of the Ninja temple. Incense burns here,
+and straw mats are laid about the floor. Rice paper dividers help
+to separate this room from the next, and the walls here are decor-
+ated with painted cranes and dragons, denoting wisdom and power, two
+traits ninjas hold very dear.
+~
+~
+0 295698440 0 0
+D3
+~
+~
+0 0 20722
+S
+#20724
+`2The Entrance to Blackwater Park``~
+You are standing amid a large, peaceful park within the confines
+of Revelsport. Around you large poplar and oak trees rise up and
+shimmer as the wind blows through their leaves. You are on a small
+path leading deeper into the woods, and lush green grass comes up
+all around you.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 20725
+D1
+~
+~
+0 0 20727
+D2
+~
+~
+0 0 20630
+S
+#20725
+`2Blackwater Park``~
+You are standing amid a large, peaceful park within the confines
+of Revelsport. Around you large poplar and oak trees rise up and
+shimmer as the wind blows through their leaves. You are on a small
+path leading deeper into the woods, and lush green grass comes up
+all around you.
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 20726
+D2
+~
+~
+0 0 20724
+S
+#20726
+`2Blackwater Park``~
+You stand amid Blackwater Park. The peace of nature surrounds you,
+and the scent of freshly cut grass fills your nose with a light,
+fresh smell. Oak trees surround you, and shade you from the
+hot sun.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 20732
+D2
+~
+~
+0 0 20727
+D3
+~
+~
+0 0 20725
+S
+#20727
+`2Blackwater Park``~
+You stand amid Blackwater Park. The peace of nature surrounds you,
+and the scent of freshly cut grass fills your nose with a light,
+fresh smell. Oak trees surround you, and shade you from the
+hot sun.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 20726
+D1
+~
+~
+0 0 20728
+D3
+~
+~
+0 0 20724
+S
+#20728
+`2A small path in the woods``~
+You are wandering along a small path through Helaman park. All
+around you is the chirping of birds, and the play of the small
+woodland creatures. This park feels warm, and friendly, even
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 20729
+D3
+~
+~
+0 0 20727
+S
+#20729
+`2A Wooded Clearing``~
+You find yourself before a young ranger lass. Beyond here
+is an entrance to a narrow group of oak trees. You can make
+out just barely what is beyond, but not well. The air is
+filled with chirping birds and the peaceful sounds of nature.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 20730
+D3
+~
+~
+0 0 20728
+S
+#20730
+`2Within the Guildhall of the Rangers``~
+You stand within a small field, before a circle of oak trees.
+This park, planted in memory of Helaman the Warder of Light,
+is filled with wildlife, and enough grass and land for any
+young ranger in training to practice and feel comfortable.
+~
+~
+0 295698432 20480 3
+D2
+~
+~
+0 0 20729
+D3
+~
+~
+0 0 20731
+S
+#20731
+`2A Sacred Oak Keep``~
+You find yourself amid a small circle of oak trees, the sacred
+symbol of wisdom and power for both rangers and druids. Druids
+have been known to use this park as a solace from the city streets,
+though it is the rangers who call it home. The air is silent, and
+a flow of lifeforce seems all around you in this quiet wood.
+~
+~
+0 295698432 65536 3
+D1
+~
+~
+0 0 20730
+S
+#20732
+`2The Entrance to a Monastery``~
+You find yourself among a great forest, and standing before
+a large walkway. The path leads upward into a small hillside,
+where the stairs end at a small, yet humble place. The path is
+lit with torches along the way, and the air feels peaceful,
+and quiet.
+~
+~
+0 0 32768 3
+D2
+~
+~
+0 0 20726
+D4
+~
+~
+0 0 20733
+S
+#20733
+`8Within the Guild of the Monks``~
+You are on a small platform high about the forest. The fortress
+about you is set into a rock formation that leads high above the
+city, giving you an excellent view of below. Above you is a large
+tower of knowlege, and below you lies the entrance to the guild.
+~
+~
+0 295698432 4096 0
+D4
+~
+~
+0 0 20734
+D5
+~
+~
+0 0 20732
+S
+#20734
+`8The Library of Wisdom``~
+You are atop a large library. The stairs below you extend for
+several hundred feet to the bottom of the tower. All around you
+large bookshelves hold ancient texts on power and focus, as well
+as religion and philosophy. Your guildmaster sits here in deep
+meditation over a massive tome.
+~
+~
+0 295698440 0 0
+D5
+~
+~
+0 0 20733
+S
+#20735
+`7The Entrance to the Lusty Wench``~
+You are before the entrance to a well lit and boisterous
+tavern. The Lusty Wench, the only tavern allowed within the
+city walls, is a merry place, and closely watched by guards
+and bouncers. Warm light comes from the open doors in front
+of you, but a large man stands between you and inside. Better
+not piss him off.
+~
+~
+0 9 0 1
+D0
+~
+~
+0 0 20630
+D3
+~
+~
+0 0 20736
+S
+#20736
+`7Inside the Lusty Wench``~
+You are inside a festive tavern. Oil lamps all around you cast
+a warm, comfortable image in the tavern. A lovely woman stands
+behind the bar counter, vending a large assortment of drinks,
+and the tables are a great place to catch up on local gossip,
+as well as listen to the entertainment of the bards.
+~
+~
+0 9 0 1
+D1
+~
+~
+0 0 20735
+D2
+~
+~
+0 0 20737
+D3
+~
+~
+0 0 20880
+S
+#20737
+`7A Narrow Hallway``~
+You find yourself in the far corner of the tavern. A narrow
+staircase leads upward into the second floor, and a large man
+with a mean stare is guarding the landing. Sounds of music and
+twanging of strings can be heard from above.
+~
+~
+0 8 0 1
+D0
+~
+~
+0 0 20736
+D4
+~
+~
+0 0 20738
+S
+#20738
+`8Within the Guildhall of the Bards``~
+You are in the festive guildhall of the Mirlani Bards. These
+men occupy a small room in the Tavern for the purposes of
+honing their entertaining skills and gifts of song for the
+pleasure of the audiences below. Westward lies the hall of
+the Songmaster.
+~
+~
+0 295698440 4096 0
+D3
+~
+~
+0 0 20739
+D5
+~
+~
+0 0 20737
+S
+#20739
+`8A Rehearsal Room``~
+You are in the Songmaster's room. All around you various
+guitars, harps, and flutes lie, some used, some battered,
+and some gleamingly new, in a haphazard array all about
+the room. Sheets of music litter the hardwood floor, and
+the Songmaster seems busy scribing new songs.
+~
+~
+0 295698440 0 0
+D1
+~
+~
+0 0 20738
+S
+#20740
+`7Before the Great Southern Gate of Revelsport``~
+You are crossing the great southern threshold of Revelsport.
+To your south is a massive moat. This entire stretch of road
+is heavily guarded with Revelsport Watchers, and the whole area
+is worn and damaged from war and battle. Southward lies a large
+stretch of forest.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20609
+D2
+~
+~
+0 0 20741
+S
+#20741
+`7Crossing a Massive Moat``~
+You stand amid a wide stone bridge that leads south and north.
+South stand the final ramparts of Revelsport before the entrance
+to a large, dark forest. North is the second rampart of the
+city, and the southern district. Guards are posted everywhere
+here to keep lookout.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20740
+D2
+~
+~
+0 0 20742
+D5
+~
+~
+0 0 20720
+S
+#20742
+`7Before the Main Gates of Revelsport``~
+You are at the final rampart of Revelsport. There is light
+traffic here, and the guards keep a close watch on all who
+enter and leave this way. Years ago the worst of Mirlan's
+foes entered Revelsport from the south, and the keepers of
+Revelsport have been wary ever since.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 20741
+D2
+~
+~
+0 0 215
+S
+#20743
+`8A Small House in the Welty District``~
+You stand in a tiny house on Lord Welty Street. This is
+definitely the poorer section of town. The house, while
+not in ruins, is definitely in need of repairs. Those
+who live here seem to be rather poor.
+~
+~
+0 9 0 0
+D2
+~
+~
+AB 0 20638
+S
+#20744
+`8A Small House in the Alexander District``~
+You stand in a modest house in the Alexander District. 
+It is decently furnished and cozy. While small, the people
+who live here seem to have some money.
+~
+~
+0 9 0 0
+D1
+~
+~
+AB 0 20642
+S
+#20745
+`8A Small House in the Northern Alexander District``~
+You stand in a modest house in the Alexander District. 
+It is decently furnished and cozy. While small, the people
+who live here seem to have some money.
+~
+~
+0 9 0 0
+D1
+~
+~
+AB 0 20645
+S
+#20746
+`8The Manor of Winsfield``~
+You stand within a large open breezeway of Winsfield Manor.
+Large white pillars rise up at four corners of the room, and the
+walls are tiled in white marble. The house is kept very neat and
+clean, and the far walls are each decorated with an original oil
+painting that is accented with brass torches. A spiral stairway
+lies in the rear of the house, leading up to the second floor.
+~
+~
+0 278921225 16 0
+E
+painting~
+You look upon a brilliant painting by Millad, the Keeper of the
+Third Seal, a famous artist of the Age of Empires. It portrays
+the legendary forces of the Golden Griffons rising in challenge to
+an army of Undead below.
+~
+D0
+~
+~
+ABCF 20746 20649
+D4
+~
+~
+0 0 20747
+S
+#20747
+`8The Second Floor of Winsfield's Manor``~
+You stand on the second floor of Winsfield. A large
+arched ceiling decorated with carved doves and set with a glass
+skylight is directly overhead. The floors here are polished white
+marble as well, and the airy, windowed room brings a soft breeze
+in which billows out sets of white, gauzy curtains. A large balcony
+rests at one end, overlooking Horde of Flames Terrace.
+~
+~
+0 278921225 16 0
+D5
+~
+~
+0 0 20746
+S
+#20748
+`8The Hall of the Black Robe``~
+You are in a black room. Everything around you is painted in the
+fashion of the Dark Clerics. The guildmaster, a wise but very
+hertic sage sits before you, his face a mask of rage and torment,
+and his body gnarled, even mangled, oozing with weeping sores
+and puss. This is dark, unholy room, filled with negative energy.
+~
+~
+0 295698441 0 0
+D1
+~
+~
+0 0 20751
+S
+#20749
+`8The Hall of the White Robe``~
+You are in a well-lit chamber, filled with hanging white
+sheets. The air in here is light, and airy, and the room
+is filled with a sense of peace and purity. Books set on
+large mantles, opened to pages discussing religion and
+philosophy. You feel pure, and holy when you stand here,
+even amid the screams from across the hall.
+~
+~
+0 295698441 0 0
+D3
+~
+~
+0 0 20751
+S
+#20750
+`7The Entrance to the Guild of Clerics``~
+You stand before the guild of the clerics.  A large
+guards watches over the cleric home.  It is obvious
+he is focused on his duty and does not want to be 
+bothered.
+~
+~
+0 8 0 1
+D0
+~
+~
+0 0 20658
+D2
+~
+~
+0 0 20751
+S
+#20751
+`8The Guildhall of the Clerics``~
+You are in the main hall of the Cleric Guild. To the east is the
+hall of the Lightwalker Clerics, whose beliefs contradict those
+whose hall lies to the west, the Shadowwalker Clerics. Each has
+chosen the path of the cleric, but their gods seem to greatly
+differ in their philosophies.
+~
+~
+0 295698441 4096 0
+D0
+~
+~
+0 0 20750
+D1
+~
+~
+0 0 20749
+D3
+~
+~
+0 0 20748
+S
+#20752
+`8The Entrance to the House of Aldur``~
+You stand before a grant manor in one of the finest districts
+in the city of Revelsport. Large white palisades of marble are
+supporting an upper tier that overlooks the wide cobbled street
+of Horde of Flames Terrace. A broad set of steps lead toward a set of
+doors that are made of opaque glass. A large set of scales made
+of goldwork adorn the mantle above the door.
+~
+~
+0 0 0 0
+D0
+~
+fence~
+AB 0 20659
+D4
+~
+~
+ABCF 20753 20753
+S
+#20753
+`8Within the House of Aldur``~
+You stand amid a beautiful room. Thick red plush carpets line
+the halls around you, and the arched ceiling is inlaid with
+many rich oil paintings of ancient heroes. Wall sconces set
+with silver and golden artifacts are set within, and are all
+lit with dim candle light. A broad chandelier made of finely
+cut crystal rests overhead, providing the room with lovely
+candle light.
+ 
+~
+~
+0 9 0 0
+D5
+~
+~
+0 0 20659
+S
+#20754
+`8A House in the Northern Alduir District``~
+You are in a small house in the Alduir District. It's
+small, but cozy. The residents are middleclass, and
+seem to be well fed, if nothing else.
+~
+~
+0 9 0 0
+D3
+~
+~
+AB 0 20663
+S
+#20755
+`8A House in the Northern Alduir District``~
+You are in a small house in the Alduir District.  It's small, but cozy. 
+The residents are middleclass, and seem to be well fed, if nothing else. 
+Strange moisture unlike the other smalls homes seems build up in the center
+of the room, causing strange plant like growth to accumulate in here.  
+~
+~
+0 9 0 0
+D3
+~
+~
+AB 0 20662
+D5
+~
+trapdoor~
+ABM 0 20895
+S
+#20756
+`8A House in the Southern Alduir District``~
+You are in a small house in the Alduir District. It's
+small, but cozy. The residents are middleclass, and
+seem to be well fed, if nothing else.
+~
+~
+0 8 0 0
+D3
+~
+~
+AB 0 20625
+S
+#20757
+`8A House in the Southern Alduir District``~
+You are in a small house in the Alduir District. It's
+small, but cozy. The residents are middleclass, and
+seem to be well fed, if nothing else.
+~
+~
+0 8 0 0
+D3
+~
+~
+AB 0 20626
+S
+#20758
+`8A Shanty in the Welty District``~
+You are in a small house in the Alduir District. It's
+small, but cozy. The residents are middleclass, and
+seem to be well fed, if nothing else.
+~
+~
+0 8 0 0
+D2
+~
+~
+AB 0 20629
+S
+#20759
+`8A Shanty in the Welty District``~
+You are in a small house in the Alduir District. It's
+small, but cozy. The residents are middleclass, and
+seem to be well fed, if nothing else.
+~
+~
+0 8 0 0
+D2
+~
+~
+AB 0 20628
+S
+#20760
+`8The Alchemy Shoppe``~
+You are in a tiny shop off the main street. Potions and other
+sundries line the walls, giving off an odd hue. A small counter
+is before you, and a small sign is nailed to the wall before you.
+~
+~
+0 8 0 0
+E
+sign~
+-The Potion Shop - 
+Hours: 7 days a week, sunrise to sunset.
+ 
+Type LIST to see what there is to offer, BUY to purchase,
+or SELL to sell items.
+~
+D2
+~
+~
+0 0 20610
+D4
+~
+~
+0 0 20761
+S
+#20761
+`8The Witch's Bedroom``~
+This is a small bedroom above the Potion Shop. A small
+alchemy table is here, and some odd concotions are on
+the settee. This is obviously a private chamber, and you
+would be well advised to keep it so.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 20760
+S
+#20762
+`8The Scroll Shop``~
+You are in a cloistered office just off the main street. It smells
+like a library, and dozens of small candles are lit and burning
+all around the room, dripping large formations of wax on the tables.
+Hundreds of small rolled scrolls are here, and seemingly ready to
+sell. The shopkeeper knows his wares are costly, but he also knows
+their power.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 20611
+D4
+~
+~
+0 0 20763
+S
+#20763
+`8A Room above the Scroll Shop``~
+You are in a small office above the scroll shop. A tiny
+bed is set aside for the elderly scribe below, and many
+ancient texts lay scattered about the room, opened to
+various pages, and copying paper and ink is on a far table
+in to corner.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 20762
+S
+#20764
+`4The Sabre River``~
+You stand amid a vast river running east and west through the
+city of Revelsport. It is wide, spanning over ten boatlengths,
+and it runs rapidly. The walls on either side are made of high
+stone blocks to keep out anyone who would attempt to seige the
+city of Revelsport, and your only option is to travel eastward
+or westward, or find the base of the drawbridge.
+~
+~
+0 268435456 0 7
+D1
+~
+~
+0 0 20773
+D3
+~
+~
+0 0 20720
+S
+#20765
+`8Shadowy Stairway``~
+You are on a dark, foreboding stairway leading down into the 
+darkness.  Shadows seem to shiver slightly, and almost audible
+whispers reach your ears.  A single torch on the wall provides
+some light, just enough to disperse the dangerous darkness.
+~
+~
+0 8 0 0
+S
+#20766
+`8The Chapel``~
+This small room is most likely dedicated to prayer.  A small wooden altar
+rests against one wall, laden with thick perfumed candles, and large brass
+braziers burn fine insence in each corner.  Two small pews face the altar,
+each with a folding humility bench resting before it.  
+~
+~
+0 295698440 0 0
+D3
+~
+oak door~
+AB 0 20804
+S
+#20767
+`8The Quartermaster``~
+In this large room, lay the clan's supply of arms.  Numerous racks of
+assorted weapons line the hewn stone walls and a small forge lay in the far
+northern corner.  An iron anvil rests on the ground beside a trough of cool
+water and a rack of tools that have seen quite a lot of use.  
+~
+~
+0 295698440 0 0
+D1
+~
+oak door~
+AB 0 20804
+S
+#20768
+`8The Eye of Darkness``~
+You stand within piles of crumbled remains. Large wooden boards
+have fallen from the ceiling, as if the evil that was inherent
+here cleared out quickly.
+~
+~
+0 836763656 0 0
+E
+eye~
+The bloody strokes that compose this awful masterpice seem to
+change colors as different victims gave their blood to the
+sinister artists.  The pupil dark like an neverending abbyss
+seems to draw you in into its darkness.  You take your gaze
+as ominous feeling creeps over you.
+~
+S
+#20769
+`8The Travelers Map Store``~
+Large stacks of paper pile high inside this cramped room.  Unfinshed
+sketches of nearby places lay about the room collecting dust.  You
+look around the room to find the map you seek, but it is so cluttered
+you need the assistance of the skilled map maker that works here.
+~
+~
+0 268435464 0 0
+D0
+~
+~
+0 0 20614
+S
+#20770
+`4The Sabre River``~
+You stand amid a vast river running east and west through the
+city of Revelsport. It is wide, spanning over ten boatlengths,
+and it runs rapidly. The walls on either side are made of high
+stone blocks to keep out anyone who would attempt to seige the
+city of Revelsport, and your only option is to travel eastward
+or westward, or find the base of the drawbridge.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 20720
+D3
+~
+~
+0 0 20771
+S
+#20771
+`4The Sabre River``~
+You stand amid a vast river running east and west through the
+city of Revelsport. It is wide, spanning over ten boatlengths,
+and it runs rapidly. The walls on either side are made of high
+stone blocks to keep out anyone who would attempt to seige the
+city of Revelsport, and your only option is to travel eastward
+or westward, or find the base of the drawbridge.
+~
+~
+0 268435456 0 7
+D1
+~
+~
+0 0 20770
+D3
+~
+~
+0 0 20772
+S
+#20772
+`4The Sabre River``~
+You stand amid a vast river running east and west through the
+city of Revelsport. It is wide, spanning over ten boatlengths,
+and it runs rapidly. The walls on either side are made of high
+stone blocks to keep out anyone who would attempt to seige the
+city of Revelsport, and your only option is to travel eastward
+or westward, or find the base of the drawbridge.
+~
+~
+0 268435456 0 7
+D1
+~
+~
+0 0 20771
+D3
+~
+~
+0 0 20894
+S
+#20773
+`4The Sabre River``~
+You stand amid a vast river running east and west through the
+city of Revelsport. It is wide, spanning over ten boatlengths,
+and it runs rapidly. The walls on either side are made of high
+stone blocks to keep out anyone who would attempt to seige the
+city of Revelsport, and your only option is to travel eastward
+or westward, or find the base of the drawbridge.
+~
+~
+0 268435456 0 7
+D1
+~
+~
+0 0 20788
+D3
+~
+~
+0 0 20764
+S
+#20774
+`8The Shop of Staves and Wands``~
+You've taken a turn into a darker shop. Entering through a
+doorway of clattery glass beads, you first gaze on a wall
+that is covered with long staves and wands, glimmering in the
+candlelight. The sorceress behind the counter peers you over,
+a wealthly looking woman, and grins at you.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 20612
+D4
+~
+~
+0 0 20775
+S
+#20775
+`8Above the Stave Shop``~
+You are in a tiny room above the wand and stave shop. Strange
+magic is at work here, and a cold wind blows through cracks
+in the wall. Ancient texts lay haphazardly about the room, and
+candles flicker and shudder under the cold wind.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 20774
+S
+#20776
+`8The Bakery``~
+You follow your nose down the cobbled streets to the marketplace
+of Runya, the Baker. The smells of fresh cooked bread and the
+delight of cakes and icings in the windows draw you into the store.
+The woman behind the counter is a plump, rose-hued woman, who
+greets you with a smile, and some fresh cookies.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 20612
+D4
+~
+~
+0 0 20777
+S
+#20777
+`8Above the Bakery``~
+You are in a small, humble room above the bakery. It is very
+warm up here, as the heat from the baking ovens below wafts
+upward through the rafters. The bed is neat, and the room smells
+of potpourri and fresh bread.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 20776
+S
+#20778
+`8The Armory``~
+You are in a large room that seems very sturdy. A large forge and
+anvil are in the back area, and the room is very hot from all of
+the burning forgefires. Two brothers run this operation, one is
+a fine weaponsmith, the other a skilled armorer. A hefty desk is
+in front of you, and the men behind it are both massive bulls of
+men, turned hard from years of forging steel.
+~
+~
+0 8 4194304 0
+D0
+~
+~
+0 0 20611
+D2
+~
+~
+0 0 20797
+D4
+~
+~
+0 0 20779
+S
+#20779
+`8Above the Armory``~
+You are in a sleeping room above the armory. It is HOT up here
+from the forges, but somehow Meeka manages to sleep here. In the
+back of the house is his brother, Pelz's, room, and below lies
+the large Armory and forge.
+~
+~
+0 9 0 0
+D2
+~
+~
+AB 0 20796
+D5
+~
+~
+0 0 20778
+S
+#20780
+`8Before the Temple of Arondos``~
+You stand before the entrance to the Temple of Arondos god of the Arts.
+A large white marble fountain is here spilling cold water, and a feeling of
+peace overcomes you. The temple before you is a massive thing,
+rising up over fifty spans, and is ornately carved with works of beautiful
+sculptures, paintings and prose.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 20790
+D2
+~
+~
+0 0 20613
+S
+#20781
+`7Before the Hope Clan Hall``~
+You stand before what is an obvious stronghold.  A heavy stone arch
+limits the movement farther up north and a heavy metal gate is visible
+beyond the narrow passageway lines with firing holes.  A perfectly designed
+killing ground if you ever saw one.  
+~
+~
+0 8 0 1
+D0
+~
+iron gate~
+AB 0 20782
+D2
+~
+~
+0 0 20617
+S
+#20782
+`8The Stables``~
+Though the stables are well kempt and the many horses present, well
+groomed, the stables could definitely smell better than they do.  Piles of
+straw line the far wall, and numerous stalls are set into he eastern and
+western walls.  The middle of the room is devoid of straw, and cobbled in
+large, grey stones, so well hewn that they fit together almost seamlessly. 
+Many squires and grooms tend to mounts and aid the steady influx of Knights
+to mount and dismount the animals.  
+~
+~
+0 293601293 0 0
+D2
+~
+iron gate~
+AB 0 20781
+D4
+~
+~
+0 0 20804
+S
+#20783
+`8Before the Temple of Markul``~
+You stand before the entrance to the Temple of Markul.
+It is an impressive edifice, built on large stone arches that
+actually rest above the Central Square of Revelsport. Large
+valuted ceilings rise up and are adorned with intricately carved
+birds and figures. North lies the offering chamber.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 20784
+D5
+~
+~
+0 0 20605
+S
+#20784
+`8Before the Temple of Markul``~
+You stand at the apex of the Temple of Markul, god of Time, Justice and
+Truth.  His high priest stand here, granting divinations and healing to
+those who are sick or needy.  A large vault rests in the center of the room
+to place offerings.  
+~
+~
+0 12 0 0
+D2
+~
+~
+0 0 20783
+P GRALL 20783 100~
+P GRALL 12108 100~
+P SPEECH 20784 worship~
+S
+#20785
+`7The Slave Shop``~
+You stand amid a sweaty slave block. A very large man holding a thick
+ring with steel and iron keys dangling about it stands before you. 
+Behind him, a large block holds five mercenaries of different races,
+all waiting to serve you, for a time, to the death, for a cost.
+The slavekeeper looks at you warningly.
+~
+~
+0 268439560 0 1
+D2
+~
+~
+0 0 20614
+S
+#20786
+`8Above the Slave Shop``~
+~
+~
+0 278929412 0 0
+S
+#20787
+`8The Jewelry Store``~
+You are in a very luxurious place. White walls and lovely arched
+cielings are lit with a soft candle light, and the sound of a
+violin seems to emanate around you. The aroma of incense fills
+your nose with a bite, and a large iron display case lays before
+you, treasures glittering in the light.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 20615
+D4
+~
+~
+0 0 20789
+S
+#20788
+`4The Sabre River``~
+You stand amid a vast river running east and west through the
+city of Revelsport. It is wide, spanning over ten boatlengths,
+and it runs rapidly. The walls on either side are made of high
+stone blocks to keep out anyone who would attempt to seige the
+city of Revelsport, and your only option is to travel eastward
+or westward, or find the base of the drawbridge.
+~
+~
+0 8 0 7
+D1
+~
+~
+0 0 20801
+D3
+~
+~
+0 0 20773
+S
+#20789
+`8Above the Jewelry Store``~
+You are in a small waiting room. It is very quaint and comfortable,
+and seems to be a place where Miri takes young couples to consult
+on their wedding plans. Red velvet seats lay about the room, and
+the air is one of confort and peace.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 20787
+S
+#20790
+`8Before the Altar of the Poet Lords``~
+You are before a beautiful altar. The high walls and columns
+rise up to the heavens, carved and painted with wonderful scenes.
+A priest dressed in flowing white robes adorned with the symbols of
+his office is here for people to offer sacrifices to Arondos.
+~
+~
+0 12 0 0
+D2
+~
+~
+0 0 20780
+D4
+~
+~
+0 0 20805
+P GRALL 20789 100~
+P GRALL 12107 100~
+P SPEECH 20790 worship~
+S
+#20791
+`8The Eastern Training Arena``~
+You are inside a great training room where many come to advance thier abilities.
+You look around and notice only one attendant, looking after the needs of all
+who come in.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 20613
+S
+#20792
+`8The Western Training Arena``~
+You are inside a great training room where many come to advance thier abilities.
+You look around and notice only one attendant, looking after the needs of all
+who come in.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 20617
+S
+#20793
+`8The Bank of Revelsport``~
+You are in a large marbled room. Desks rest about everywhere, 
+and merchants and denizens are about trading gold for diamonds,
+and other precious gems. This is the bank of Revelsport, and it
+is one of the life bloods of Revelsport.
+ 
+A large black sign is on the far wall.
+~
+~
+0 269484040 0 0
+E
+sign~
+CLOSED FOR RENOVATION --- Reopening Soon.
+ 
+                  -Venni
+~
+D2
+~
+~
+0 0 20616
+S
+#20794
+`8The Entrance to the Obsidian Crest of Revelsport``~
+You find yourself in a large building just off the main road.
+Soldiers come and go from this office like ants. It is the
+center for the Marcher Brigade, the Guardians of Revelsport. The
+black glossy walls and floor are polished to a high sheen, and
+the air reeks of honor and valor.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 20616
+D1
+~
+~
+0 0 20795
+D2
+~
+~
+0 0 20900
+S
+#20795
+`8The Hall of the Obsidian Crest of Revelsport``~
+You are in the Grand Hall of the Obsidian Crest. It is a
+large meeting chamber for all Marcher Guards and officials, 
+and where the guards come to be informed of new policies
+that affect the townspeople and the laws.
+a large 'sign' is here mentioning something about HOMETOWN
+~
+~
+0 1048584 0 0
+E
+sign~
+Please calmly wait in line and use "hometown" to change your current 
+residence.  The secretary will record your changes.
+~
+D3
+~
+~
+0 0 20794
+S
+#20796
+`8Above the Forge``~
+You are in a small room above the forge. The heat is almost
+unbearable here, but it seems Pelz can stand it. The armorer
+usually works below, where he shares the space with his brother,
+Meeka, the weaponsmith. North is a small door into Meeka's room.
+~
+~
+0 9 0 0
+D0
+~
+~
+AB 0 20779
+D5
+~
+~
+0 0 20797
+S
+#20797
+`8The Back Room of the Armory``~
+You are in the forge room of the Armory. Here, Pelz, the
+armorer, works and forges steel and iron into useful armor.
+North leads back to the front counter, where Meeka sells
+weapons. Pelz seems to be a very large man, who doesn't
+fancy disturbances. Best do business quick.
+~
+~
+0 8 4194304 0
+D0
+~
+~
+0 0 20778
+D4
+~
+~
+0 0 20796
+S
+#20798
+`8Above the Sundry Shop``~
+You are in a tiny bedroom above the Sundry Shop. This rat's
+nest is obviously where Vanduel sleeps, though how, you cannot
+imagine. It's cramped, and cluttered. A narrow, rickety flight
+of stairs leads down back into the shop. The room is lit by a
+small brass lantern, as the shutters are drawn shut.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 20799
+S
+#20799
+`8The Sundry Shop``~
+You are in a small dusty shop. Boats, lamps, and various other
+items hang from netting nailed to the cieling. A dirty man with
+a patch over his eye sits behind the counter waiting for you to
+order something. The room smells like old books and fish, and you
+feel the need to leave...soon.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 20610
+D4
+~
+~
+0 0 20798
+S
+#20800
+`8The Shrine of Blind Faith``~
+A golden dome glows above you, lit by the hundreds of small candles
+lining the white marble walls, While pungent incense billows around you from
+small braziers tucked into tiny alcoves.  The floor is a matching white
+marble with various icons drawn with small bits of colored tile.  In front
+of you a gold altar rises with a single bronze chalice upon it.  On the back
+wall, a massive cross the size of several men hangs, its dark wood beams are
+capped with smaller golden crosses branching out.  On each side of the cross
+an arrangements of fresh flowers has been layed.  
+~
+~
+0 33562632 0 0
+D5
+~
+~
+ABM 0 20674
+P GRALL 22 100~
+S
+#20801
+`4The Sabre River``~
+You stand amid a vast river running east and west through the
+city of Revelsport. It is wide, spanning over ten boatlengths,
+and it runs rapidly. The walls on either side are made of high
+stone blocks to keep out anyone who would attempt to seige the
+city of Revelsport, and your only option is to travel eastward
+or westward, or find the base of the drawbridge.
+~
+~
+0 8 0 7
+D3
+~
+~
+0 0 20788
+S
+#20802
+`8The Town of Revelsport``~
+~
+~
+0 8196 0 0
+S
+#20803
+`8A Hidden Chamber``~
+Huge stone pillars rise from the ground into the air, maintaining the
+structure of this large domain.  A small sacrificial altar stands ominously
+in the corner of the room, its surface bloodied from countless corpses. 
+What exactly is Vigo doing back here?  A huge vortex of blue ethreal swirls
+violently near the southern wall.  
+~
+~
+0 8205 0 0
+S
+#20804
+`8The Hall of Hope``~
+This chamber is replete with vaulted ceilings, connected to thick pillars
+of marble lining each side wall.  The floor is mostly stone, save for a
+broad carpet lain in the middle of the hall.  A large council table is set
+at the far end of the hall, with numerous, tall-backed chairs behind it and
+the sigil of The Knights of the Crown hanging on the wall behind them.  A
+single large door of oak is set into the eastern and western wall.  
+~
+~
+0 295698440 0 0
+D1
+~
+oak door~
+AB 0 20766
+D3
+~
+oak door~
+AB 0 20767
+D5
+~
+~
+0 0 20782
+S
+#20805
+`8Temple of the Arts``~
+Rising tall above the city of Revelsport its stairs coil above and below
+you in almost never ending spiral.  The walls are smooth, adorned with
+torches in well timed intervals.  Somewhere far above you the faint ring of
+the tower bell whispers in the wind.  
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 20790
+S
+#20806
+`7The Portal Room``~
+You stand inside the Portal Room of the Mar'Kyer Alchemists.
+The rooms around the realm all look pretty much the same,
+as these little crafty gnomes have setup quite a business
+for themselves. The room is rounded, with a small hexagram
+inset into the floor in the center of the room. The rest of
+the room is entirely empty except for a small chair where
+the alchemist sits, and a small sign on the wall, with some
+trade common writing on it.
+~
+~
+0 346030084 0 1
+E
+sign~
+`%---=== THE MAR'KYER PORTAL SYSTEM ===---``
+--
+If you'd like to travel somewhere, we're the best! Once the 
+portal is created, just "enter portal" to be transported to your
+location. Items can be passed as well through the portals. Just
+give the item to the portal. Remember, they only stay open for 
+a short time. Only one portal may be opened at a time. We 
+serve the following locales:
+--
+`^DARGOTH, ZALANGO, REVELSPORT, ULSYM, LUVA, and EMMEREAUX``
+--
+Just `#SAY`` the location you wish to portal to, and your monies
+will be taken by the Alchemist.
+--
+Thank you for using the Mar'Kyer Portal System!
+~
+D1
+~
+~
+0 0 20675
+P GRALL 12102 100~
+S
+#20807
+`8The Royal Stables``~
+Strong smell of hay and horse manure assails your nose as you enter the
+huge stables.  Row upon row of stalls are all filled with various mounts
+from lowly asses to mighty warhorses.  A single enourmous stall has been
+devoted to what seems to be an elephant.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 20603
+S
+#20808
+`7Below the City Watchtower``~
+You are directly at the entrance to a tall watchtower rising far above
+the roofs of Revelsport.  A winding spiral of stairs leads up to the top of
+the tower.  
+~
+~
+0 295698440 0 1
+D2
+~
+~
+0 0 20716
+D4
+~
+hatch~
+AB 0 20809
+S
+#20809
+`7City Watchtower``~
+This large room is beset on all sides by large windows.  To the north,
+east, south and west open observatories extend from the tower's walls, and
+are able to view most, if not all of Revelsport.  A long bench lines each of
+the walls, resting on a thick carpet of grey wool, embroidered with
+intricate scenes of daily life in the city.  A large brass bell hangs from
+the center of the central chamber, next to which hangs a large steel mallet.
+~
+~
+0 295698440 0 1
+D0
+~
+~
+0 0 20812
+D1
+~
+~
+0 0 20811
+D2
+~
+~
+0 0 20813
+D3
+~
+~
+0 0 20810
+D5
+~
+hatch~
+AB 0 20808
+S
+#20810
+`7City Watchtower``~
+This relatively small observation post enables its occupant to see most,
+if not all of the city of Revelsport.  A few deputies hustle about scanning
+the surrounds for wrong-doings and alerting the present members of the Clan
+in the event of an emergency.  To the far east, north and south, thick
+forests can be seen ending at the city's walls.  
+~
+~
+0 295698440 0 1
+D1
+~
+~
+0 0 20809
+S
+#20811
+`7City Watchtower``~
+This relatively small observation post enables its occupant to see most,
+if not all of the city of Revelsport.  A few deputies hustle about scanning
+the surrounds for wrong-doings and alerting the present members of the Clan
+in the event of an emergency.  To the far north, east and south, thick
+forests can be seen ending at the city's walls, and the lights and smoke
+from Ulsym can be faintly seen on the distant horizon.  
+~
+~
+0 295698440 0 1
+D3
+~
+~
+0 0 20809
+S
+#20812
+`7City Watchtower``~
+This relatively small observation post enables its occupant to see most,
+if not all of the city of Revelsport.  A few deputies hustle about scanning
+the surrounds for wrong-doings and alerting the present members of the Clan
+in the event of an emergency.  To the far west, north and east, thick
+forests can be seen ending at the city's walls.  
+~
+~
+0 295698440 0 1
+D2
+~
+~
+0 0 20809
+S
+#20813
+`7City Watchtower``~
+This relatively small observation post enables its occupant to see most,
+if not all of the city of Revelsport.  A few deputies hustle about scanning
+the surrounds for wrong-doings and alerting the present members of the Clan
+in the event of an emergency.  To the far west, south and east, thick
+forests can be seen ending at the city's walls.  
+~
+~
+0 295698440 0 1
+D0
+~
+~
+0 0 20809
+S
+#20879
+`8A small, dusty shop``~
+You are standing within a dimly lit shop.  Upon the walls of the shop are
+various articles of clothing and sewing tools.  Covering the tools and
+clothes is a thick layer of dust, as though nothing has been moved for
+years.  Sitting behind a large oaken desk is a burly man with a scruffy
+beard and beady eyes.  As you enter the room all his attention is directed
+at you, and his hand slowly slips beneath the counter.  A small sign sits
+upon the ground half covered by trash.  
+~
+~
+0 0 0 0
+E
+sign~
+The following is a list of the Sewmasters "adjusted" prices:
+ 
+To place a bounty:
+      Syntax: bounty <name> <amount>
+ 
+To inquire about a bounty:
+        Syntax: inquire <name>
+ 
+All sales are final. No refunds. No exceptions.
+~
+D3
+~
+~
+0 0 20604
+S
+#20880
+`8Within the Lusty Wench Tavern``~
+You are inside a well-lit tavern. Regulars stand or sit at bartables
+placed around the bar. It is a warm, comfortable environment. Two
+staircases lead upward from the back of the bar, on to the upper
+rooms in the inn, the other to the guild of the Bards. Regulars
+sit at tables all around, and several large bouncers wander about,
+keeping the peace within the bar.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 20736
+D2
+~
+~
+0 0 20881
+D3
+~
+~
+0 0 20885
+S
+#20881
+`8Within the Lusty Wench Tavern``~
+You are inside a well-lit tavern. Regulars stand or sit at bartables
+placed around the bar. It is a warm, comfortable environment. Two
+staircases lead upward from the back of the bar, on to the upper
+rooms in the inn, the other to the guild of the Bards. Regulars
+sit at tables all around, and several large bouncers wander about,
+keeping the peace within the bar.
+~
+~
+0 2097161 0 0
+D0
+~
+~
+0 0 20880
+D2
+~
+~
+0 0 20882
+D3
+~
+~
+0 0 20884
+S
+#20882
+`8The Back Wall of the Lusty Wench Tavern``~
+You are inside a well-lit tavern. Regulars stand or sit at bartables
+placed around the bar. It is a warm, comfortable environment. Two
+staircases lead upward from the back of the bar, on to the upper
+rooms in the inn, the other to the guild of the Bards. Regulars
+sit at tables all around, and several large bouncers wander about,
+keeping the peace within the bar.
+~
+~
+0 2097161 0 0
+D0
+~
+~
+0 0 20881
+D3
+~
+~
+0 0 20883
+S
+#20883
+`8A Hallway in the Lusty Wench Tavern``~
+You are in a broad hallway that leads to a flight of stairs going
+into the second floor of the Inn. Rooms are available from Laurea
+the bartender for a nightly fee. The rooms are accessible in no
+other way, and security maintains a tight grip on its patrons.
+~
+~
+0 2097161 0 0
+D0
+~
+~
+0 0 20884
+D1
+~
+~
+0 0 20882
+D3
+~
+~
+0 0 20886
+S
+#20884
+`8Within the Lusty Wench Tavern``~
+You are inside a well-lit tavern. Regulars stand or sit at bartables
+placed around the bar. It is a warm, comfortable environment. Two
+staircases lead upward from the back of the bar, on to the upper
+rooms in the inn, the other to the guild of the Bards. Regulars
+sit at tables all around, and several large bouncers wander about,
+keeping the peace within the bar.
+~
+~
+0 20971529 0 0
+D0
+~
+~
+0 0 20885
+D1
+~
+~
+0 0 20881
+D2
+~
+~
+0 0 20883
+S
+#20885
+`8Within the Lusty Wench Tavern``~
+You are inside a well-lit tavern. Regulars stand or sit at bartables
+placed around the bar. It is a warm, comfortable environment. Two
+staircases lead upward from the back of the bar, on to the upper
+rooms in the inn, the other to the guild of the Bards. Regulars
+sit at tables all around, and several large bouncers wander about,
+keeping the peace within the bar.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 20880
+D2
+~
+~
+0 0 20884
+S
+#20886
+`8A broad staircase``~
+You find yourself at the foot of a broad staircase leading upward
+into the tavern. Bright torchiers light the hallway, and a thick,
+plush red carpet lines the floor. The rooms above you are for rent
+from Laurea, the tavern owner, for a nightly fee. The noise from
+the rest of the tavern seems much quieter in here.
+~
+~
+0 2097161 0 0
+D1
+~
+~
+0 0 20883
+D4
+~
+~
+0 0 20887
+S
+#20887
+`8A Hallway in the Inn``~
+You are at the top of the staircase. Bright lamps make the hallway
+a warm and friendly place, and pictures and paintings from all around
+Mirlan don the walls here. Locked doors are to your east and your
+west, and the hallway continues further to the north.
+~
+~
+0 2097160 0 0
+D0
+~
+~
+0 0 20888
+D1
+~
+~
+ABCF 20892 20892
+D3
+~
+~
+ABCF 20893 20893
+D5
+~
+~
+0 0 20886
+S
+#20888
+`8A Hallway in the Inn``~
+You are meandering down a short hallway above the tavern. The walls
+are covered in beautiful oil paintings from all around Mirlan. Several
+rooms are set into the walls to your east and west, and can be rented
+nightly from Laurea, the bartender down below.
+~
+~
+0 2097160 0 0
+D0
+~
+~
+0 0 20889
+D1
+~
+~
+ABCF 20890 20890
+D2
+~
+~
+0 0 20887
+D3
+~
+~
+ABCF 20891 20891
+S
+#20889
+`8An Alcove in the Inn``~
+You are in a small alcove in the Hallway. Set into the wall here is
+a lovely mural of the map of Mirlan, set in a large gilt frame. The
+air here smells of orange honey incense, and it seems Laurea is a
+very apt housekeeper. The place is clean, warm, and homey.
+~
+~
+0 2097160 0 0
+D2
+~
+~
+0 0 20888
+S
+#20890
+`8The Queen's Room``~
+You are in the Queen's Room, named for the Queen of Revelsport. A
+large canopy bed is set in the center of the room, and a small
+window overlooks Lord Gilliam Street below. The room is very well
+furnished, clean, and cozy. A small fire burns in the hearth
+set into the far wall.
+~
+~
+0 2097160 0 0
+D3
+~
+~
+ABCF 20890 20888
+S
+#20891
+`8The Hero's Room``~
+You are in the Hero's Room. Large paintings of Warmaster Heros and
+famous legends of the past adorn the walls here. A tall stone hearth
+is set into the far wall, and a large picture window overlooks Lord
+Gilliam Street below. The carpet is a plush grey, and a heavy sleigh
+bed is set in the center of the room.
+~
+~
+0 2097160 0 0
+D1
+~
+~
+ABCF 20891 20888
+S
+#20892
+`8The Prince's Room``~
+You are in the Prince's Room. It is a smaller room, but well decorated
+in thick fabrics of rich colors, obviously imported from Falen Dara.
+The room smells of orange spice incense, and is furnished in antiques
+from all around Mirlan. Light comes in from a stained glass window set
+into the far wall.
+~
+~
+0 2097160 0 0
+D3
+~
+~
+ABCF 20892 20887
+S
+#20893
+`8The Knight's Room``~
+You are in the Knight's Room. It is furnished well with white drapes,
+and thick plaster furnishings, giving the impression of a large palace. 
+A heavy bed covered in shining gilt is resting in the center of the
+room, and is made with a heavy white goose down comforter.
+~
+~
+0 2097160 0 0
+D1
+~
+~
+ABCF 20893 20887
+S
+#20894
+`4The Sabre River``~
+You stand amid a vast river running east and west through the
+city of Revelsport. It is wide, spanning over ten boatlengths,
+and it runs rapidly. The walls on either side are made of high
+stone blocks to keep out anyone who would attempt to seige the
+city of Revelsport, and your only option is to travel eastward
+or westward, or find the base of the drawbridge.
+~
+~
+0 8192 0 7
+D1
+~
+~
+0 0 20772
+S
+#20895
+`8Below the Home``~
+Green vines intertwine around one another and completely cover the walls
+in this damp basement.  The ground below you is wet and shrouded in
+thousands of tiny green leaves.  It smells of nature, though you are clearly
+not in the wilderness.  
+~
+~
+0 819986441 0 0
+D4
+~
+~
+ABM 0 20755
+S
+#20900
+`8The Guardhouse``~
+You stand before a massive guardhouse. A large stone edifice rises up before
+you, made entirely of iron-wrought stone. Small portholes are in the upper
+windows, to allow archers to raid down arrows on those who stand below.
+Several brightly burning torches line the walls of the guardhouse, and burn
+with a tarry smoke.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 20794
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 20601 spec_executioner
+M 20602 spec_executioner
+M 20656 spec_keeper_move
+M 20664 spec_gate_guard
+M 20666 spec_keeper_stay
+M 20724 spec_guard
+M 20764 spec_keeper_stay
+M 20765 spec_keeper_move
+M 20795 spec_executioner
+M 20800 spec_executioner
+M 20882 spec_guard
+M 20885 spec_guard
+S
+
+
+
+#TRAPS
+#20692
+a falling axe trap~
+You hear a swish of air as an axe drops from a panel above you.~
+You hear a swish of air as an axe drops from a panel above $n.~
+damage 40 EFH
+slash 450 10 10 1
+#0
+
+#RESETS
+O 0 20605 0 20601
+M 0 20603 25 20601 2
+M 0 20604 20 20601 1
+M 0 20602 12 20603 1
+O 0 20735 0 20604
+O 0 20605 0 20605
+M 0 4699 1 20605 1
+M 0 20604 20 20605 1
+M 0 20603 25 20605 2
+M 0 20602 12 20605 2
+O 0 20737 0 20605
+M 0 20602 12 20608 1
+O 0 20605 0 20609
+M 0 20605 8 20609 1
+M 0 20602 12 20610 1
+O 0 20605 0 20613
+O 0 20902 0 20613
+M 0 20602 12 20613 2
+M 0 20602 12 20616 1
+O 0 20605 0 20617
+O 0 20901 0 20617
+M 0 20602 12 20618 1
+M 0 20664 2 20620 1
+M 0 20602 12 20621 1
+M 0 20664 2 20623 1
+M 0 20602 12 20627 2
+M 0 20605 8 20636 1
+M 0 20605 8 20639 1
+M 0 20601 12 20664 1
+M 0 20601 12 20665 1
+M 0 20601 12 20666 1
+M 0 20601 12 20667 1
+M 0 20601 12 20668 1
+M 0 20601 12 20669 1
+M 0 20601 12 20670 1
+E 0 20601 0 17
+M 0 20602 12 20672 1
+M 0 20664 30 20677 2
+M 0 20633 1 20678 1
+M 0 20634 1 20679 1
+M 0 20635 1 20680 1
+M 0 20657 1 20681 1
+M 0 20636 1 20682 1
+M 0 20607 1 20683 1
+M 0 20642 1 20684 1
+M 0 20641 1 20685 1
+M 0 20640 1 20686 1
+M 0 4516 1 20690 1
+G 0 20616 0
+G 0 20617 0
+G 0 20618 0
+E 0 20609 0 14
+O 0 20726 0 20692
+T 0 20692 0 20692 0
+P 0 20619 0 20726 1
+P 0 20609 0 20726 1
+M 0 20626 1 20693 1
+M 0 20625 1 20694 1
+M 0 20608 1 20695 1
+M 0 20610 1 20696 1
+M 0 20650 1 20697 1
+M 0 20611 1 20698 1
+M 0 20637 1 20699 1
+M 0 20638 1 20700 1
+M 0 20639 1 20701 1
+M 0 20716 1 20716 1
+M 0 20627 1 20717 1
+M 0 20628 1 20718 1
+M 0 20629 1 20719 1
+M 0 20622 1 20721 1
+M 0 20623 1 20722 1
+M 0 20624 1 20723 1
+M 0 20653 1 20729 1
+M 0 20654 1 20730 1
+M 0 20655 1 20731 1
+M 0 20630 1 20732 1
+M 0 20631 1 20733 1
+M 0 20632 1 20734 1
+M 0 20735 1 20735 1
+O 0 20880 0 20736
+M 0 20736 1 20736 1
+G 0 20736 0
+G 0 20890 0
+G 0 20891 0
+G 0 20892 0
+G 0 20893 0
+G 0 20881 0
+G 0 20882 0
+G 0 20883 0
+G 0 20884 0
+G 0 20885 0
+M 0 4647 1 20737 1
+M 0 4646 1 20738 1
+M 0 4648 1 20739 1
+M 0 20664 30 20740 2
+M 0 20602 12 20741 1
+M 0 20601 35 20742 2
+O 0 20747 0 20747
+P 0 20746 0 20747 1
+M 0 20651 1 20748 1
+M 0 20652 1 20749 1
+M 0 20612 1 20750 1
+M 0 20606 1 20751 1
+M 0 20752 1 20752 1
+E 0 20753 0 18
+E 0 20733 0 17
+M 0 4508 1 20760 1
+G 0 20760 0
+G 0 20762 0
+G 0 20763 0
+G 0 20764 0
+G 0 20761 0
+G 0 20680 0
+G 0 20904 0
+M 0 4506 1 20762 1
+G 0 20770 0
+G 0 20771 0
+G 0 20772 0
+G 0 20773 0
+G 0 20906 0
+O 0 20603 0 20766
+O 0 20604 0 20768
+M 0 20764 1 20769 1
+G 0 20714 0
+G 0 20709 0
+G 0 20713 0
+M 0 4504 1 20774 1
+G 0 20774 0
+G 0 20775 0
+G 0 20712 0
+M 0 4518 1 20776 1
+G 0 20776 0
+G 0 20777 0
+G 0 20778 0
+M 0 20656 1 20778 1
+G 0 20725 0
+G 0 20781 0
+G 0 20722 0
+G 0 20723 0
+G 0 20721 0
+G 0 20780 0
+G 0 20720 0
+G 0 20724 0
+G 0 20674 0
+G 0 20673 0
+G 0 20672 0
+G 0 20782 0
+G 0 20754 0
+G 0 20751 0
+G 0 20752 0
+M 0 20781 1 20781 1
+M 0 4492 1 20784 1
+M 0 4492 1 20784 1
+O 0 20784 0 20784
+O 0 20779 0 20784
+M 0 4523 1 20785 1
+M 0 4591 1 20786 1
+M 0 4592 1 20786 1
+M 0 4593 1 20786 1
+M 0 4594 1 20786 1
+M 0 4595 1 20786 1
+M 0 20765 1 20787 1
+G 0 20789 0
+G 0 20788 0
+G 0 20787 0
+G 0 20783 0
+M 0 4467 1 20790 1
+O 0 20700 0 20790
+O 0 20791 0 20790
+M 0 20791 1 20791 1
+M 0 4461 1 20792 1
+M 0 4581 1 20793 1
+M 0 20896 1 20793 1
+M 0 20644 1 20793 1
+M 0 20795 1 20795 1
+E 0 20795 0 17
+M 0 20899 1 20795 1
+M 0 4525 1 20797 1
+G 0 20790 0
+G 0 20785 0
+G 0 20715 0
+G 0 20716 0
+G 0 20717 0
+G 0 20718 0
+M 0 4553 1 20799 1
+G 0 20799 0
+G 0 20798 0
+G 0 20797 0
+G 0 20796 0
+G 0 20995 0
+G 0 20996 0
+G 0 20997 0
+G 0 20998 0
+G 0 20999 0
+O 0 20802 0 20800
+O 0 20804 0 20805
+M 0 20663 1 20806 1
+M 0 20666 1 20807 1
+O 0 20621 0 20807
+M 0 20879 1 20879 1
+O 0 20886 0 20880
+M 0 20880 1 20880 1
+O 0 20886 0 20881
+M 0 20881 1 20881 1
+O 0 20886 0 20882
+M 0 20882 1 20882 1
+M 0 20883 1 20883 1
+O 0 20886 0 20884
+M 0 20884 1 20884 1
+O 0 20886 0 20885
+M 0 20885 1 20885 1
+O 0 20895 0 20890
+O 0 20896 0 20891
+O 0 20898 0 20892
+O 0 20897 0 20893
+O 0 20610 0 20895
+M 0 20900 1 20900 1
+S
+
+
+
+#SHOPS
+20605 0 0 0 0 0 100 100 0 23
+20656 5 0 0 0 0 125 75 7 17
+20736 0 0 0 0 0 100 100 0 23
+20764 0 0 0 0 0 100 50 0 23
+20765 33 0 0 0 0 100 50 5 22
+0
+
+
+
+#MOBPROGS
+#20601
+if isdelay $i
+  break
+endif
+'Greetings $N.  Welcome to the Revelsport Stables!
+pmote gestures at the sign.
+'Those are our current rates, please look at them and let me know what you wish.
+mob delay 1
+~
+#20602
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+'Ah yes.. A mmm.. hmm.. fine choice indeed.
+pmote leads the steed towards $N.
+'Enjoy.
+mob junk 1.gold
+mob mount 20667 24 $n
+~
+#20603
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 100
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -100 -100
+endif
+'Ah yes.. A mmm.. hmm.. fine choice indeed.
+pmote leads the steed towards $N.
+'Enjoy.
+mob junk 1.gold
+mob mount 20667 24 $n
+~
+#20604
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+'Ah yes.. An efficient choice indeed.
+pmote leads the steed towards $N.
+'Enjoy.
+mob junk 1.gold
+mob mount 20668 48 $n
+~
+#20605
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 200
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -200 -200
+endif
+'Ah yes.. An efficient choice indeed.
+pmote leads the steed towards $N.
+'Enjoy.
+mob junk 1.gold
+mob mount 20668 48 $n
+~
+#20606
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+'Ah yes.. A fine choice indeed.
+pmote leads the steed towards $N.
+'Enjoy.
+mob junk 1.gold
+mob mount 20669 72 $n
+~
+#20607
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 500
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -500 -500
+endif
+'Ah yes.. A choice indeed.
+pmote leads the steed towards $N.
+'Enjoy.
+mob junk 1.gold
+mob mount 20669 72 $n
+~
+#20608
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+'Ah yes.. An excellent choice indeed.
+pmote leads the steed towards $N.
+'Enjoy.
+mob junk 1.gold
+mob mount 20670 144 $n
+~
+#20609
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 1000
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -1000 -1000
+endif
+'Ah yes.. An excellent choice indeed.
+pmote leads the steed towards $N.
+'Enjoy.
+mob junk 1.gold
+mob mount 20670 144 $n
+~
+#20610
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+'Ah yes.. An excellent choice indeed.
+pmote leads the steed towards $N.
+'Enjoy.
+mob junk 1.gold
+mob mount 20671 144 $n
+~
+#20611
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 2000
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -2000 -2000
+endif
+'Ah yes.. An excellent choice indeed.
+pmote leads the steed towards $N.
+'Enjoy.
+mob junk 1.gold
+mob mount 20671 144 $n
+~
+#20644
+mob echo A group of laborers quickly unload the caravan.
+mob attrib self timer = 0
+~
+#20716
+if isnpc $n
+  break
+endif
+if isbloody $n
+  'You cannot enter with blood still upon you $N!
+  mob stop $n
+  break
+endif
+if clan $n 'law'
+  salute $n
+else
+  mob stop $n
+  pmote stands before $n barring the way.
+  'Over my dead body $N.
+endif
+~
+#20717
+if isnpc
+or clan $n 'law'
+  break
+endif
+if isgood $n
+or isneutral $n
+  if iselawful $n
+    tell $n If you seek to join Law the cost is 30000 gold.
+  else
+    break
+endif
+~
+#20718
+if isnpc
+or clan $n 'law'
+  give 1.gold $n
+  'You're already a member $N.
+  break
+endif
+if isgood $n
+or isneutral $n
+  if iselawful $n
+    clan draft $n Law
+    'Welcome to the halls of Law $N.
+    mob junk all
+  else
+    'You are not welcome in Law $N.
+    give 1.gold $n
+  endif
+else
+  'You are not welcome in Law $N.
+  give 1.gold $n
+endif
+~
+#20781
+if isnpc $n
+  break
+endif
+if isbloody $n
+  'You cannot enter with blood still upon you $N!
+  mob stop $n
+  break
+endif
+if clan $n 'hope'
+  salute $n
+else
+  mob stop $n
+  pmote stands before $n barring the way.
+  'Over my dead body $N.
+endif
+~
+#20782
+if isnpc
+or clan $n 'hope'
+  break
+endif
+if isgood $n
+  if iselawful $n
+    break
+  else
+    tell $n If you seek to join Hope the cost is 30000 gold.
+    break
+endif
+~
+#20783
+if isnpc
+or clan $n 'hope'
+  give 1.gold $n
+  'You're already a member $N.
+  break
+endif
+if isgood $n
+  if iselawful $n
+    'You are not welcome in Hope $N.
+    give 1.gold $n
+  else
+    clan draft $n Hope
+    'Welcome to the halls of Hope $N.
+    mob junk all
+  endif
+else
+  'You are not welcome in Hope $N.
+  give 1.gold $n
+endif
+~
+#20896
+if isdelay $i
+  break
+endif
+if mobhere !Revelsport caravan!
+  yell Caravan for Ulsym now departing! All whom wish to, best follow it now.
+  mob path 11500 !Revelsport caravan!
+  mob delay 24
+endif
+~
+#20900
+if isnpc $n
+break
+endif
+if cabal $n 'Order'
+say Welcome $N, Upholder of the Laws of Mirlan.
+say Execute one of those bastards for me eh?
+pmote steps aside and allows $n to pass.
+else
+if isdelay $i
+mob stop $n
+else
+say HALT! Only Order may pass beyond this point $N!
+pmote blocks $n's way into the jail.    
+mob stop $n
+endif
+mob delay 1
+endif
+~
+#0
+
+M 20601 0 newthalo_guard.prg NL
+M 20602 0 seringale_gateguard.prg NL
+M 20603 0 valmiran_citizen.prg NL
+M 20604 0 valmiran_noble.prg NL
+M 20605 0 seringale_beggar.prg NL
+M 20606 0 serin_shaman.prg NL
+M 20607 0 serin_shaman.prg NL
+M 20608 0 serin_warrior.prg NL
+M 20609 0 serin_shaman.prg NL
+M 20609 0 serin_guild.prg NL
+M 20610 0 serin_berserker.prg NL
+M 20610 0 serin_guild.prg NL
+M 20611 0 serin_berserker.prg NL
+M 20612 0 serin_shaman.prg NL
+M 20612 0 serin_guild.prg NL
+M 20613 0 serin_necromancer.prg NL
+M 20613 0 serin_guild.prg NL
+M 20614 0 serin_necromancer.prg NL
+M 20615 0 serin_necromancer.prg NL
+M 20616 0 serin_dark-knight.prg NL
+M 20616 0 serin_guild.prg NL
+M 20617 0 serin_dark-knight.prg NL
+M 20618 0 serin_dark-knight.prg NL
+M 20619 0 serin_vampire.prg NL
+M 20619 0 serin_guild.prg NL
+M 20620 0 serin_vampire.prg NL
+M 20621 0 serin_vampire.prg NL
+M 20622 0 serin_ninja.prg NL
+M 20622 0 serin_guild.prg NL
+M 20623 0 serin_ninja.prg NL
+M 20624 0 serin_ninja.prg NL
+M 20625 0 serin_warrior.prg NL
+M 20626 0 serin_warrior.prg NL
+M 20626 0 serin_guild.prg NL
+M 20627 0 serin_thief.prg NL
+M 20627 0 serin_guild.prg NL
+M 20628 0 serin_thief.prg NL
+M 20629 0 serin_thief.prg NL
+M 20630 0 serin_monk.prg NL
+M 20630 0 serin_guild.prg NL
+M 20631 0 serin_monk.prg NL
+M 20632 0 serin_monk.prg NL
+M 20633 0 serin_invoker.prg NL
+M 20633 0 serin_guild.prg NL
+M 20634 0 serin_invoker.prg NL
+M 20635 0 serin_invoker.prg NL
+M 20636 0 serin_ninja.prg NL
+M 20637 0 serin_paladin.prg NL
+M 20637 0 serin_guild.prg NL
+M 20638 0 serin_paladin.prg NL
+M 20639 0 serin_paladin.prg NL
+M 20640 0 serin_healer.prg NL
+M 20641 0 serin_healer.prg NL
+M 20642 0 serin_healer.prg NL
+M 20642 0 serin_guild.prg NL
+M 20645 0 serin_psionicist.prg NL
+M 20646 0 serin_psionicist.prg NL
+M 20646 0 serin_guild.prg NL
+M 20648 0 serin_psionicist.prg NL
+M 20650 0 serin_berserker.prg NL
+M 20651 0 serin_shaman.prg NL
+M 20652 0 serin_shaman.prg NL
+M 20653 0 serin_ranger.prg NL
+M 20653 0 serin_guild.prg NL
+M 20654 0 serin_ranger.prg NL
+M 20655 0 serin_ranger.prg NL
+M 20657 0 serin_guild.prg NL
+M 20657 0 valmiran_bmg.prg NL
+M 20660 0 serin_shaman.prg NL
+M 20661 0 serin_shaman.prg NL
+M 20661 0 serin_guild.prg NL
+M 20662 0 serin_shaman.prg NL
+M 20664 0 seringale_gateguard.prg NL
+M 20667 1 serin_mercenary.prg NL
+M 20668 1 serin_mercenary.prg NL
+M 20669 1 serin_mercenary.prg NL
+M 20670 1 serin_mercenary.prg NL
+M 20671 1 serin_mercenary.prg NL
+M 20705 0 serin_dark-knight.prg NL
+M 20705 0 serin_guild.prg NL
+M 20724 0 valmiran_obsidian.prg NL
+M 20752 1 balance_guard.prg NL
+M 20791 0 serin_trainer.prg NL
+M 20795 0 seringale_captain.prg NL
+M 20799 1 valmiran_templar.prg NL
+M 20800 1 valmiran_templar.prg NL
+M 20895 1 vannen_guard.prg NL
+M 20897 1 dungeon_guard.prg NL
+M 20899 0 serin_secretary.prg NL
+M 20900 0 jailval_guard.prg NL
+M 20902 1 serin_mercenary.prg NL
+S
+
+
+
+
+#OBJPROGS
+#20601
+if hour == 18
+obj echo Guided by unseen hands $I begins to sway.
+obj zecho The deep mournful notes of $I announce coming of night.
+endif
+if hour == 0
+obj echo Guided by unseen hands $I begins to sway.
+obj zecho The deep foreboding notes of $I announce midnight.
+endif
+~
+#20602
+if hour == 6
+obj echo Glowing with peacfull aura $I begins to sway.
+obj zecho The cheerful notes of $I announce sunrise.
+endif
+if hour == 12
+obj echo Glowing with peacfull aura $I begins to sway.
+obj zecho Ringing with holy fervor $I announces high noon.
+endif
+~
+#20603
+obj echo $I creaks and sways in a gust of wind.
+~
+#20900
+obj echo With a terrifying scream a Shade arrives through $I.
+if rand 70
+  obj mload 30002
+else
+  obj mload 30004
+endif
+~
+#0
+
+#ROOMPROGS
+#20783
+if hasquest $n 'Discovered the Shrine to Markul in Revelsport'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Markul!``
+    room permquest $n Discovered the Shrine to Markul in Revelsport
+endif
+~
+#20784
+room echoat $n Markul looks into your soul and judges you while you offer your worship.
+~
+#20789
+if hasquest $n 'Discovered the Shrine to Arondos in Revelsport'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Arondos!``
+    room permquest $n Discovered the Shrine to Arondos in Revelsport
+endif
+~
+#20790
+room echoat $n You feel the warmth and beauty of sweet poetic words fill your mind as Arondos blesses you for your worship.
+~
+#20906
+room echo You feel the well of soul's negate your vitality and regeneration.
+~
+#0
+
+#$

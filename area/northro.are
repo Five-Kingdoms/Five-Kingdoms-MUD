@@ -1,0 +1,680 @@
+#AREADATA
+Name The North Road~
+Pref ~
+Builders ~
+VNUMs 6500 6599
+Max_Bastions 2
+Credits { ALL } Cryptica The Northern Road~
+Security 9
+Startroom 6567
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#6567
+guard minotaur~
+the Minotaur Guard~
+A minotaur guard catches you trespassing and attacks!
+~
+The minotaur is clad in heavy furs. Beneath these furs, you see the gleam of
+his armor.
+~
+minotaur~
+ABCFG A 0 0 -330 0
+22 0 5d10+400 0d0+100 4d4+6 none
+-5 -5 -5 7
+EFNU 0 0 0
+stand stand male none~
+154
+AHMV ABCDEFGHIJKWY medium 0
+#0
+
+
+
+#OBJECTS
+#6567
+vambraces steel~
+a pair of steel vambraces~
+A gleaming pair of vambraces lies here.~
+steel~
+armor 0 AI
+6 6 6 0 0
+15 0 1050 P
+F
+A 20 -2 0
+#6568
+greaves steel~
+a pair of steel greaves~
+A gleaming pair of greaves lie here.~
+steel~
+armor 0 AF
+6 6 6 0 0
+15 70 1050 P
+F
+A 20 -2 0
+#6569
+axe battle battleaxe~
+a battle axe~
+A dangerous looking battle axe rests here.~
+steel~
+weapon 0 AN
+axe 4 4 slash 0
+17 180 1310 P
+#0
+
+
+
+#ROOMS
+#6550
+`3The Northern Road``~
+You find yourself walking on a wide mountain path, cut deep by wagon
+tracks. Soutward, the massive gates of Rheydin loom in nearby, and
+northward, the trail seems to thin out as it leads upward into the
+sharp reaches of the Dragon's Teeth mountains, and ultimately, into
+the plains of Winter.
+~
+~
+0 0 0 2
+D0
+~
+~
+0 0 6951
+D2
+~
+~
+0 0 11603
+S
+#6551
+`3The Northern Road``~
+Hiking north, you head deeper into the steeper parts of the Dragon's
+Teeth. Mountains rise up all around you, but one in particular rises
+up, seeming to scratch the horizon. You are already very high in this
+range, but before you looms much more technical climbing.
+~
+~
+0 0 0 2
+D0
+~
+~
+0 0 6952
+D2
+~
+~
+0 0 6950
+D3
+~
+~
+0 0 1500
+T 40
+S
+#6552
+`3The Northern Road``~
+You are on a path leading upward into the mountains. Wind whistles
+down to you from the peaks, cooling you. Ahead in the distance looms
+another great fortress. It is set into a high cliff face, as if to
+observe the travelers of the Dragon Road, or to prepare for an
+invasion fron the East.
+~
+~
+0 0 0 4
+D0
+~
+~
+0 0 6953
+D1
+~
+~
+0 0 4300
+D2
+~
+~
+0 0 6951
+T 35
+S
+#6553
+`3A Fork in the Road``~
+The path splits off into two here.  To the west a cobblestone path
+continues the trail through the mountains.  East of you a huge structure
+looms ominously on the horizon.  Even from this distance you can make out
+it's enormous metal gates and it's impressive battlements.  
+~
+~
+0 0 0 4
+D1
+~
+~
+0 0 4800
+D2
+~
+~
+0 0 6952
+D3
+~
+~
+0 0 6954
+S
+#6554
+`3The Northern Road``~
+You are on a small path leading around a massive fortress. To the
+north, the rocky peaks rise up in the distance. Southward, the Dragon
+Road extends east and west as far as the eyes can see. IT begins to
+get cold as you walk further north...
+~
+~
+0 0 0 4
+D0
+~
+~
+0 0 6955
+D1
+~
+~
+0 0 6953
+S
+#6555
+`3The Northern Road``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. To the south you see a large cliff, with
+what looks to be an impressive edifice built into the side
+of it. Northward lie more mountain peaks, and the great
+expanses of the Arctic Wastelands.
+~
+~
+0 0 0 4
+D2
+~
+~
+0 0 6954
+D3
+~
+~
+0 0 6956
+S
+#6556
+`3The Northern Road``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. To the south you see a large cliff, with
+what looks to be an impressive edifice built into the side
+of it. Northward lie more mountain peaks, and the great
+expanses of the Arctic Wastelands.
+~
+~
+0 0 0 5
+D0
+~
+~
+0 0 6957
+D1
+~
+~
+0 0 6955
+S
+#6557
+`3The Northern Road``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. To the south you see a large cliff, with
+what looks to be an impressive edifice built into the side
+of it. Northward lie more mountain peaks, and the great
+expanses of the Arctic Wastelands.
+~
+~
+0 0 0 5
+D0
+~
+~
+0 0 6958
+D2
+~
+~
+0 0 6956
+S
+#6558
+`3The Northern Path``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. To the south you see a large cliff, with
+what looks to be an impressive edifice built into the side
+of it. Northward lie more mountain peaks, and the great
+expanses of the Arctic Wastelands.
+~
+~
+0 0 0 5
+D0
+~
+~
+0 0 6959
+D2
+~
+~
+0 0 6957
+S
+#6559
+`3The Northern Path``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. To the south you see a large cliff, with
+what looks to be an impressive edifice built into the side
+of it. Northward lie more mountain peaks, and the great
+expanses of the Arctic Wastelands.
+~
+~
+0 0 0 5
+D0
+~
+~
+0 0 6960
+D2
+~
+~
+0 0 6958
+S
+#6560
+`3The Northern Path``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. To the south you see a large cliff, with
+what looks to be an impressive edifice built into the side
+of it. Northward lie more mountain peaks, and the great
+expanses of the Arctic Wastelands.
+~
+~
+0 0 0 5
+D2
+~
+~
+0 0 6959
+D4
+~
+~
+0 0 6961
+S
+#6561
+`3The Northern Path``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. Northward lie only steep, craggy mountains
+covered in thick snow. The path descends slightly to the 
+south, going through a region of canyons.
+~
+~
+0 0 0 5
+D0
+~
+~
+0 0 6962
+D5
+~
+~
+0 0 6960
+S
+#6562
+`3The Northern Path``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. Northward lie only steep, craggy mountains
+covered in thick snow. The path descends slightly to the 
+south, going through a region of canyons.
+~
+~
+0 0 0 5
+D0
+~
+~
+0 0 6963
+D2
+~
+~
+0 0 6961
+S
+#6563
+`3The Northern Path``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. Northward lie only steep, craggy mountains
+covered in thick snow. The path descends slightly to the 
+south, going through a region of canyons.
+~
+~
+0 0 0 5
+D0
+~
+~
+0 0 6964
+D2
+~
+~
+0 0 6962
+S
+#6564
+`3The Northern Path``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. Northward lie only steep, craggy mountains
+covered in thick snow. The path descends slightly to the 
+south, going through a region of canyons.
+~
+~
+0 0 0 5
+D0
+~
+~
+0 0 6965
+D2
+~
+~
+0 0 6963
+S
+#6565
+`3A Path near Mahn-Tor``~
+You stand at the base of a steep rocky cliff. To the north, a vast arctic
+wasteland stretches out. The snow falls lightly here and the wind is not very
+fierce. You can climb up the rocky cliff or head south towards the city.
+~
+~
+0 0 0 5
+D2
+~
+~
+0 0 6964
+D4
+~
+~
+0 0 6966
+S
+#6566
+`3A Path near Mahn-Tor``~
+You cling to the side of the cliff. Looking down, you are terrified by the
+sheer distance to the ground below. You can climb up higher into the cliffs,
+but the area above is obscured by clouds and you cannot tell what lies waiting
+above.
+~
+You cling to the side of the cliff. You look down, but cannot the ground below
+you. You can climb up higher into the cliffs, but the area above is obscured
+by clouds and you cannot tell what lies waiting above.
+~
+0 0 0 5
+D4
+~
+~
+0 0 6967
+D5
+~
+~
+0 0 6965
+S
+#6567
+`3A Path near Mahn-Tor``~
+You stand at a three way intersection.  Southwards the great minotaur
+city of Mahn-Tor rises above the peaks.  The air here is much cooler and a
+cold wind blows from the north where the lands of the Arctic wastelands
+begin.  
+~
+You stand at the edge of a high cliff.  Directly south, set back off the
+cliff's edge, are a huge pair of gates.  These gates appear to be carved
+almost completely out of ice.  A huge city and keep appear to be on the
+other side of these gates.  There is also a possibility of climbing down the
+cliff face.  
+
+~
+0 0 0 5
+E
+gate gates ice huge~
+The gates to the city are made almost completely of ice. Looking closely, you
+can see intricate carvings in the gates. They appear to be of creatures that
+are half man and half bull.
+~
+D0
+~
+~
+0 0 6968
+D2
+~
+~
+0 0 2362
+D5
+~
+~
+0 0 6966
+S
+#6568
+`3A Path near Mahn-Tor``~
+You are on a small path. Nearby, the great minotaur city of Mahn-Tor rises
+from the peaks in the distance. The mountain range here is colder, but
+begins to flatten out a bit to the north, where the lands of the Arctic
+Wastelands begin.
+~
+~
+0 0 0 5
+D0
+~
+~
+0 0 6969
+D2
+~
+~
+0 0 6967
+S
+#6569
+`3A Path near Mahn-Tor``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. Northward lie only steep, craggy mountains
+covered in thick snow. The footing is difficult, and the icy
+conditions make it even more so. You are cold to the bone,
+and all around you are more desolate mountains.
+~
+~
+0 0 0 5
+D1
+~
+~
+0 0 6970
+D2
+~
+~
+0 0 6968
+T 40
+S
+#6570
+`3A Path near Mahn-Tor``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. Northward lie only steep, craggy mountains
+covered in thick snow. The footing is difficult, and the icy
+conditions make it even more so. You are cold to the bone,
+and all around you are more desolate mountains.
+~
+~
+0 0 0 5
+D0
+~
+~
+0 0 6971
+D3
+~
+~
+0 0 6969
+T 40
+S
+#6571
+`3The Alpine``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. Northward lie only steep, craggy mountains
+covered in thick snow. The footing is difficult, and the icy
+conditions make it even more so. You are cold to the bone,
+and all around you are more desolate mountains.
+~
+~
+0 0 0 5
+D0
+~
+~
+0 0 6972
+D2
+~
+~
+0 0 6970
+T 40
+S
+#6572
+`3The Alpine``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. Northward lie only steep, craggy mountains
+covered in thick snow. The footing is difficult, and the icy
+conditions make it even more so. You are cold to the bone,
+and all around you are more desolate mountains.
+~
+~
+0 0 0 5
+D1
+~
+~
+0 0 6973
+D2
+~
+~
+0 0 6971
+T 40
+S
+#6573
+`3The Alpine``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. Northward lie only steep, craggy mountains
+covered in thick snow. The footing is difficult, and the icy
+conditions make it even more so. You are cold to the bone,
+and all around you are more desolate mountains.
+~
+~
+0 0 0 5
+D0
+~
+~
+0 0 6974
+D3
+~
+~
+0 0 6972
+T 40
+S
+#6574
+`3The Alpine``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. Northward lie only steep, craggy mountains
+covered in thick snow. The footing is difficult, and the icy
+conditions make it even more so. You are cold to the bone,
+and all around you are more desolate mountains.
+~
+~
+0 0 0 5
+D0
+~
+~
+0 0 6975
+D2
+~
+~
+0 0 6973
+T 40
+S
+#6575
+`3The Alpine``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. Northward lie only steep, craggy mountains
+covered in thick snow. The footing is difficult, and the icy
+conditions make it even more so. You are cold to the bone,
+and all around you are more desolate mountains.
+~
+~
+0 0 0 5
+D1
+~
+~
+0 0 6976
+D2
+~
+~
+0 0 6974
+T 40
+S
+#6576
+`3The Alpine``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. Northward lie only steep, craggy mountains
+covered in thick snow. The footing is difficult, and the icy
+conditions make it even more so. You are cold to the bone,
+and all around you are more desolate mountains.
+~
+~
+0 0 0 5
+D0
+~
+~
+0 0 6977
+D3
+~
+~
+0 0 6975
+T 40
+S
+#6577
+`3The Alpine``~
+You are on a rocky path heading north and south through the
+Dragon's Teeth. Northward lie only steep, craggy mountains
+covered in thick snow. The footing is difficult, and the icy
+conditions make it even more so. You are cold to the bone,
+and all around you are more desolate mountains.
+~
+~
+0 0 0 5
+D2
+~
+~
+0 0 6976
+D5
+~
+~
+0 0 1965
+T 40
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+M 6967 1 mahntor_guard.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

@@ -14,6 +14,1119 @@ End
 
 
 #CABALS
+#1
+VERSION 1000
+FileName justice~
+Name Pillar of Law~
+WhoName `&LAW``~
+Imm Markul~
+Currency dinar~
+OnGate A group of heavily armed guards close the entrance to the Pillar of Law.~
+OffGate A group of heavily armed guards open the entrance to the Pillar of Law.~
+MsgGate As you approach the locked gate, a score of crossbows aimed at your heart stop your feet.~
+Anchor 16700
+Guard 16700
+MaxRoom 50
+MinRank 1
+MaxMem 15
+MinLvl 15 MaxLvl 50
+Flags EFH
+Flags2 0
+Align ABC
+Ethos A
+Progress 0
+MRanks 6 Cadet~ Deputy~ Sergeant~ Lieutenant~ Captain~ Commandant~ 
+FRanks 6 Cadet~ Deputy~ Sergeant~ Lieutenant~ Captain~ Commandant~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Avatar 1
+Class 25 1 1 1 1 0 0 0 1 1 1 1 0 1 1 0 0 1 0 1 0 0 0 0 0 0 
+Skill 'third eye'  20   1   1   0
+1 5 0 2 0
+Skill 'wanted'  15   1 100   0
+0 5 0 0 0
+Skill 'judge'  10   1 100   0
+0 5 0 0 0
+Skill 'raise morale'  30   1   2   0
+2 5 0 25 0
+Vote cabal tax~ 4 5 75
+Vote pact~ 4 5 60
+Vote poll~ 0 5 25
+Vote demotion~ 0 5 50
+Vote promotion~ 5 5 50
+Vote leadership~ 5 5 250
+Vote eldership~ 5 5 150
+Vote build~ 4 5 5
+Vote tithe~ 4 5 50
+Vote expel~ 4 5 75
+Vote sponsorship~ 4 5 500
+CRoom 0 5
+CRoom 1 8
+CRoom 2 16704
+CRoom 3 16703
+CRoom 4 16707
+CRoom 5 16708
+CRoom 6 16705
+CRoom 7 16709
+CRoom 8 16715
+CRoom 9 16711
+CRoom 10 16710
+CRoom 11 16702
+End
+#2
+VERSION 1000
+FileName sentinel~
+Name Enforcer~
+WhoName `&ENFORCER``~
+Imm Tiradel~
+Currency dinar~
+OnGate A group of armed guards close the gates of Justice.~
+OffGate A group of armed guards open the gates of Justice.~
+MsgGate As you approach the locked gate, a score of crossbows aimed at your heart stop your feet.~
+Parent 1
+Anchor 16700
+Guard 16700
+MinRank 1
+MaxMem 25
+MinLvl 25 MaxLvl 50
+Flags EFH
+Flags2 0
+Align ABC
+Ethos A
+Progress 0
+MRanks 6 Cadet~ Deputy~ Sergeant~ Lieutenant~ Captain~ Commandant~ 
+FRanks 6 Cadet~ Deputy~ Sergeant~ Lieutenant~ Captain~ Commandant~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Avatar 1
+Class 25 1 1 0 1 0 0 0 1 1 1 1 0 1 1 0 0 1 0 1 0 0 0 0 0 0 
+Skill 'rally call'  50   1 100   0
+4 5 150 5 0
+Skill 'watchtower'  44   1 100   0
+3 5 0 10 0
+Skill 'ensnare'  35   2   1   0
+3 5 0 4 0
+Skill 'guard captain'  25   1   1   0
+1 5 0 20 0
+End
+#3
+VERSION 1000
+FileName Enforcer~
+Name Magistrate~
+WhoName `&MAGISTRATE``~
+Imm Moiwen~
+Currency dinar~
+Parent 1
+MinRank 1
+MaxMem 25
+MinLvl 25 MaxLvl 50
+Flags EFH
+Flags2 0
+Align ABC
+Ethos A
+Progress 0
+MRanks 6 Cadet~ Deputy~ Tracker~ Enforcer~ Executioner~ Commandant~ 
+FRanks 6 Cadet~ Deputy~ Sergeant~ Lieutenant~ Captain~ Commandant~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Avatar 1
+Class 25 1 1 1 1 0 0 0 1 1 1 1 0 1 0 0 0 0 0 1 0 0 0 0 0 0 
+Skill 'hound call'  25   1   1   0
+1 5 0 4 0
+Skill 'bolo'  35   2   1   0
+2 5 0 2 0
+Skill 'hunt'  44   3   1   0
+3 5 0 5 0
+Skill 'observer call'  50   1   1   0
+4 5 0 10 0
+Skill 'justice sigil'  50   2   1   0
+5 5 150 5 0
+End
+#4
+VERSION 1000
+FileName Rheydin~
+Name Ulsym~
+WhoName `%ULSYM``~
+Imm Rhuma~
+Currency suekli~
+City Ulsym~
+OnGate With a shout of warning the guards lower the porticullis.~
+OffGate With creak of rusted iron the porticullis is raised.~
+MsgGate The porticullis is closed, there is no way to enter.~
+Anchor 17300
+Guard 17300
+Army 5
+Army2 6
+Tower 7
+Tower2 8
+MaxRoom 50
+MinRank 0
+MaxMem 25
+MinLvl 15 MaxLvl 50
+Flags EGIT
+Flags2 B
+Align C
+Ethos AB
+Progress 0
+MRanks 6 Consort~ Delegate~ Advisor~ Emissary~ Councilor~ Patriarch~ 
+FRanks 6 Consort~ Delegate~ Advisor~ Emissary~ Councilor~ Matriarch~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Class 25 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Skill 'marshall'  40   1   2   0
+2 5 0 10 0
+Skill 'royal call'  25   2   2   0
+1 5 0 25 0
+Skill 'diplomacy'  15   1 100   0
+3 5 30 30 0
+Skill 'exile'  15   1 100   0
+2 5 0 150 0
+Skill 'judge'  15   1 100   0
+1 5 0 0 0
+Skill 'assassin call'  50   1   2   0
+3 5 500 15 0
+Skill 'leadership'  15   9   2   0
+1 5 0 0 0
+Vote laws~ 4 5 250
+Vote pact~ 4 5 60
+Vote cabal tax~ 4 5 75
+Vote poll~ 0 5 25
+Vote demotion~ 0 5 50
+Vote promotion~ 5 5 50
+Vote leadership~ 5 5 250
+Vote eldership~ 5 5 150
+Vote build~ 4 5 5
+Vote tithe~ 4 5 50
+Vote expel~ 4 5 75
+Vote sponsorship~ 5 5 500
+CRoom 0 5
+CRoom 1 8
+CRoom 2 17303
+CRoom 3 17308
+CRoom 4 17312
+CRoom 5 17313
+CRoom 6 17309
+CRoom 7 17310
+CRoom 8 17307
+CRoom 9 17314
+CRoom 10 17315
+CRoom 11 17305
+End
+#5
+VERSION 1000
+FileName Val_Mira~
+Name Revelsport~
+WhoName `%REVELSPORT``~
+Imm Veshalma~
+Currency crown~
+City Revelsport~
+OnGate With a shout of warning the guards lower the porticullis.~
+OffGate With creak of rusted iron the porticullis is raised.~
+MsgGate The porticullis is closed, there is no way to enter.~
+Anchor 17100
+Guard 17100
+Army 1
+Army2 2
+Tower 3
+Tower2 4
+MaxRoom 50
+MinRank 0
+MaxMem 25
+MinLvl 15 MaxLvl 50
+Flags EGI
+Flags2 B
+Align B
+Ethos AB
+Progress 0
+MRanks 6 Consort~ Lord~ Earl~ Baron~ Duke~ Prime Minister~ 
+FRanks 6 Consort~ Lady~ Earless~ Baroness~ Duchess~ Prime Minister~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Class 25 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Skill 'leadership'  15   9   2   0
+1 5 0 0 0
+Skill 'marshall'  40   1   2   0
+2 5 0 10 0
+Skill 'royal call'  25   2   2   0
+1 5 0 25 0
+Skill 'judge'  15   1 100   0
+1 5 0 0 0
+Skill 'exile'  15   1 100   0
+2 5 0 150 0
+Skill 'diplomacy'  15   1 100   0
+3 5 30 30 0
+Skill 'assassin call'  50   1   2   0
+3 5 500 15 0
+Vote laws~ 4 5 250
+Vote pact~ 4 5 60
+Vote cabal tax~ 4 5 75
+Vote poll~ 0 5 25
+Vote demotion~ 0 5 50
+Vote promotion~ 5 5 50
+Vote leadership~ 5 5 250
+Vote eldership~ 5 5 150
+Vote build~ 4 5 5
+Vote tithe~ 4 5 50
+Vote expel~ 4 5 75
+Vote sponsorship~ 5 5 500
+CRoom 0 5
+CRoom 1 8
+CRoom 2 17103
+CRoom 3 17108
+CRoom 4 17112
+CRoom 5 17113
+CRoom 6 17109
+CRoom 7 17110
+CRoom 8 17107
+CRoom 9 17114
+CRoom 10 17115
+CRoom 11 17105
+End
+#6
+VERSION 1000
+FileName miruvhor~
+Name Zalango~
+WhoName `%ZALANGO``~
+Imm Pajumet~
+Currency zanj~
+City Zalango~
+OnGate With a shout of warning the guards lower the porticullis.~
+OffGate With creak of rusted iron the porticullis is raised.~
+MsgGate The porticullis is closed, there is no way to enter.~
+Anchor 17500
+Guard 17500
+Army 13
+Army2 14
+Tower 15
+Tower2 16
+MaxRoom 50
+MinRank 0
+MaxMem 25
+MinLvl 15 MaxLvl 50
+Flags EGI
+Flags2 B
+Align A
+Ethos AB
+Progress 0
+MRanks 6 Malik~ Sheikh~ Amir~ Caliph~ Shah~ Padishah~ 
+FRanks 6 Malik~ Sheikh~ Amir~ Caliph~ Shah~ Padishah~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Class 25 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Skill 'leadership'  15   9   2   0
+1 5 0 0 0
+Skill 'marshall'  40   1   2   0
+2 5 0 10 0
+Skill 'royal call'  25   2   2   0
+1 5 0 25 0
+Skill 'diplomacy'  15   1 100   0
+3 5 30 30 0
+Skill 'exile'  15   1 100   0
+2 5 0 150 0
+Skill 'judge'  15   1 100   0
+1 5 0 0 0
+Skill 'assassin call'  50   1   2   0
+3 5 500 15 0
+Vote laws~ 4 5 250
+Vote build~ 4 5 60
+Vote cabal tax~ 4 5 75
+Vote poll~ 0 5 25
+Vote demotion~ 0 5 50
+Vote promotion~ 5 5 50
+Vote leadership~ 5 5 250
+Vote eldership~ 5 5 150
+Vote build~ 4 5 5
+Vote tithe~ 4 5 50
+Vote expel~ 4 5 75
+Vote sponsorship~ 5 5 500
+Vote pact~ 4 5 60
+CRoom 0 5
+CRoom 1 8
+CRoom 2 17503
+CRoom 3 17508
+CRoom 4 17512
+CRoom 5 17513
+CRoom 6 17509
+CRoom 7 17510
+CRoom 8 17507
+CRoom 9 17514
+CRoom 10 17515
+CRoom 11 17505
+End
+#7
+VERSION 1000
+FileName syndicat~
+Name Cartel~
+WhoName `@CARTEL``~
+Imm Zarkirond~
+Currency coin~
+OnGate Almost without a sound the entrance is locked from within.~
+OffGate With a creak of a lock the entrance is unlocked.~
+MsgGate There looks to be no way past the locked entrance.~
+Anchor 16900
+Guard 16900
+MaxRoom 50
+MinRank 0
+MaxMem 15
+MinLvl 25 MaxLvl 50
+Flags DEHIWZ
+Flags2 0
+Align AC
+Ethos BC
+Progress E
+MRanks 6 Thug~ Mademan~ Hustler~ Wiseguy~ Boss~ Godfather~ 
+FRanks 6 Thug~ Madewoman~ Hustler~ Wisegirl~ Boss~ Godmother~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Class 25 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 
+Skill 'kidnap'  25   1   2   0
+0 5 0 5 0
+Skill 'interrogate'  25   1   2   0
+0 5 0 2 0
+Skill 'bribe'  25   1 100   0
+1 5 0 25 0
+Skill 'secret arts'  38   2   1   0
+3 5 0 15 0
+Skill 'throat cut'  35   2   1   0
+2 5 0 5 0
+Skill 'asphyxiate'  40   2   1   0
+3 5 0 8 0
+Skill 'abduct'  25   1   1   0
+1 5 0 4 0
+Skill 'shadowmaster'  50   1 100   0
+4 5 500 0 0
+Skill 'bloodmark'  50   1 100   0
+5 5 600 15 0
+Skill 'spy'  44   1   2   0
+3 5 0 20 0
+Skill 'fade'  30   2   2   0
+2 5 100 0 0
+Vote poll~ 1 5 25
+Vote demotion~ 0 5 50
+Vote promotion~ 5 5 50
+Vote eldership~ 5 5 150
+Vote leadership~ 5 5 250
+Vote expel~ 4 5 75
+Vote tithe~ 4 5 25
+Vote pact~ 4 5 60
+Vote cabal tax~ 4 5 150
+Vote build~ 4 5 5
+Vote sponsorship~ 4 5 500
+CRoom 0 5
+CRoom 1 8
+CRoom 2 16903
+CRoom 3 16911
+CRoom 4 16914
+CRoom 5 16912
+CRoom 6 16905
+CRoom 7 16913
+CRoom 8 16904
+CRoom 9 16915
+CRoom 10 16910
+CRoom 11 16907
+End
+#8
+VERSION 1000
+FileName Knight~
+Name Templar~
+WhoName `#TEMPLAR``~
+Imm Tiradel~
+Currency talon~
+OnGate With a thunderous noise the drawbridge is raised.~
+OffGate With a mighty clap the drawbridge hits ground.~
+MsgGate The drawbridge is raised and the gates locked.~
+PrefixM Sir~
+PrefixF Lady~
+PrefixS Squire~
+Anchor 16800
+Guard 16800
+Army 9
+Army2 10
+Tower 11
+Tower2 12
+MaxRoom 50
+MinRank 0
+MaxMem 15
+MinLvl 25 MaxLvl 50
+Flags DEIT
+Flags2 0
+Align B
+Ethos BC
+Progress BC
+MRanks 6 Squire~ Plebian~ Page~ Knight~ Templar~ Gryphon~ 
+FRanks 6 Squire~ Plebian~ Page~ Knight~ Templar~ Gryphon~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Avatar 1
+Class 25 1 1 1 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 1 0 0 0 0 0 0 
+Skill 'leadership'  15   9   2   0
+1 5 0 0 0
+Skill 'inquisitor'  25   2   1   0
+1 5 0 25 0
+Vote poll~ 1 5 25
+Vote demotion~ 0 5 50
+Vote promotion~ 5 5 50
+Vote eldership~ 5 5 150
+Vote expel~ 4 5 75
+Vote tithe~ 4 5 25
+Vote pact~ 4 5 60
+Vote cabal tax~ 4 5 150
+Vote build~ 4 5 5
+Vote leadership~ 5 5 250
+CRoom 0 5
+CRoom 1 8
+CRoom 2 16802
+CRoom 3 16806
+CRoom 4 16810
+CRoom 5 16811
+CRoom 6 16805
+CRoom 7 16813
+CRoom 8 16801
+CRoom 9 16812
+CRoom 10 16814
+CRoom 11 16808
+End
+#9
+VERSION 1000
+FileName nexus~
+Name Empire~
+WhoName `8EMPIRE``~
+Imm Bracc~
+Currency credit~
+OnGate The massive black gates close before you with a crack of stone.~
+OffGate The massive black gates creak open with a blast of icy air.~
+MsgGate The black gates are very large, and seemingly impenetrable.~
+Anchor 17000
+Guard 17000
+Army 17
+Army2 18
+Tower 19
+Tower2 20
+MaxRoom 50
+MinRank 0
+MaxMem 15
+MinLvl 25 MaxLvl 50
+Flags DEI
+Flags2 0
+Align A
+Ethos BC
+Progress BCE
+MRanks 6 Sergeant~ Major~ Colonel~ General~ Overlord~ Emperor~ 
+FRanks 6 Sergeant~ Major~ Colonel~ General~ Overlord~ Emperor~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Class 25 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Skill 'leadership'  15   9   2   0
+1 5 0 0 0
+Skill 'serpent call'  25   1   1   0
+1 5 0 15 0
+Vote poll~ 1 5 25
+Vote demotion~ 0 5 50
+Vote promotion~ 5 5 50
+Vote eldership~ 5 5 150
+Vote leadership~ 5 5 250
+Vote expel~ 4 5 75
+Vote tithe~ 4 5 25
+Vote pact~ 4 5 60
+Vote cabal tax~ 4 5 150
+Vote build~ 4 5 5
+Vote sponsorship~ 4 5 500
+CRoom 0 5
+CRoom 1 8
+CRoom 2 17001
+CRoom 3 17006
+CRoom 4 17011
+CRoom 5 17012
+CRoom 6 17007
+CRoom 7 17013
+CRoom 8 17008
+CRoom 9 17014
+CRoom 10 17015
+CRoom 11 17010
+End
+#10
+VERSION 1000
+FileName savant~
+Name Sage~
+WhoName `$SAGE``~
+Imm Dabyula~
+Currency disc~
+OnGate With thunderclap, a bridge of pure energy congeals.~
+OffGate With flash of brimstone fire, a bridge of pure energy is opened.~
+MsgGate You are unable to penetrate this vast field of energy.~
+PrefixS Student~
+Anchor 17200
+Guard 17200
+Army 21
+Army2 22
+Tower 23
+Tower2 24
+MaxRoom 50
+MinRank 0
+MaxMem 15
+MinLvl 25 MaxLvl 50
+Flags EIT
+Flags2 0
+Align ABC
+Ethos ABC
+Progress CD
+MRanks 6 Dilettante ~ Oracle ~ Warlock ~ Spellbinder~ Mystic~ Archmage~ 
+FRanks 6 Dilettante ~ Oracle ~ Witch ~ Spellbinder~ Mystic~ Archmage~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Avatar 1
+Class 25 0 0 0 0 0 0 0 1 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 
+Skill 'leadership'  15   9   2   0
+1 5 0 0 0
+Skill 'reverse time'  35   1   1   0
+2 5 0 12 0
+Skill 'vortex tap'  25  10   2   0
+1 5 0 0 0
+Vote poll~ 1 5 25
+Vote demotion~ 0 5 50
+Vote promotion~ 5 5 50
+Vote eldership~ 5 5 150
+Vote leadership~ 5 5 250
+Vote expel~ 4 5 75
+Vote tithe~ 4 5 25
+Vote pact~ 4 5 60
+Vote cabal tax~ 4 5 150
+Vote build~ 4 5 5
+Vote sponsorship~ 4 5 500
+CRoom 0 5
+CRoom 1 8
+CRoom 2 17203
+CRoom 3 17201
+CRoom 4 17211
+CRoom 5 17212
+CRoom 6 17204
+CRoom 7 17214
+CRoom 8 17207
+CRoom 9 17213
+CRoom 10 17215
+CRoom 11 17210
+End
+#11
+VERSION 1000
+FileName Warmast~
+Name Battle~
+WhoName `3BATTLE``~
+Imm Ixtaros~
+Currency hide~
+OnGate A group of vicious looking warriors surrounds the area.~
+OffGate The vicious warriors enter the fortress cheering loudly.~
+MsgGate Noticing the small army of warriors camped before the gate you wisely stop.~
+PrefixS Khan~
+Anchor 17400
+Guard 17400
+Army 25
+Army2 26
+Tower 27
+Tower2 28
+MaxRoom 50
+MinRank 0
+MaxMem 15
+MinLvl 25 MaxLvl 50
+Flags DEIbd
+Flags2 0
+Align ABC
+Ethos ABC
+Progress BF
+MRanks 6 Soldier~ Grunt~ Disciple~ Warlord~ Blademaster~ Battlelord~ 
+FRanks 6 Soldier~ Grunt~ Disciple~ Warlord~ Blademaster~ Battlemistress~ 
+Race 34 0 1 1 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 
+Class 25 1 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+Skill 'leadership'  15   9   2   0
+1 5 0 0 0
+Skill 'retreat'  35   1   2   0
+1 5 100 0 0
+Skill 'pathfinding'  30   1   2   0
+1 5 250 0 0
+Skill 'roc call'  25   1   2   0
+1 5 0 25 0
+Vote poll~ 1 5 25
+Vote demotion~ 0 5 50
+Vote promotion~ 5 5 50
+Vote eldership~ 5 5 150
+Vote leadership~ 5 5 250
+Vote expel~ 4 5 75
+Vote tithe~ 4 5 25
+Vote pact~ 4 5 60
+Vote cabal tax~ 4 5 150
+Vote build~ 4 5 5
+Vote sponsorship~ 4 5 500
+CRoom 0 5
+CRoom 1 8
+CRoom 2 17405
+CRoom 3 17413
+CRoom 4 17408
+CRoom 5 17407
+CRoom 6 17406
+CRoom 7 17403
+CRoom 8 17414
+CRoom 9 17410
+CRoom 10 17401
+CRoom 11 17416
+End
+#12
+VERSION 1000
+FileName praetor~
+Name Griffon~
+WhoName `#GRIFFON``~
+Imm Tiradel~
+Currency talon~
+PrefixM Sir~
+PrefixF Lady~
+PrefixS Squire~
+Parent 8
+MinRank 2
+MaxMem 25
+MinLvl 25 MaxLvl 50
+Flags EI
+Flags2 0
+Align B
+Ethos A
+Progress BC
+MRanks 6 Squire~ Plebian~ Page~ Knight~ Templar~ Gryphon~ 
+FRanks 6 Squire~ Plebian~ Page~ Knight~ Templar~ Gryphon~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Avatar 1
+Class 25 1 1 1 1 0 0 0 0 1 1 1 0 1 0 0 0 0 0 1 0 0 0 0 0 0 
+Skill 'stand ground'  25   1   1   0
+3 5 0 10 0
+Skill 'guard'  30   1 100   0
+2 5 0 0 0
+Skill 'chaosbane'  38   2   1   0
+2 5 0 6 0
+Skill 'minor banishment'  44   1   1   0
+3 5 0 4 0
+Skill 'holy armor'  50   2   1   0
+3 5 50 15 0
+Skill 'diplomacy'  50   1 100   0
+5 5 250 250 0
+End
+#13
+VERSION 1000
+FileName sigil~
+Name Esterian~
+WhoName `#ESTERIAN``~
+Imm Beronor~
+Currency talon~
+PrefixM Sir~
+PrefixF Lady~
+PrefixS Squire~
+Parent 8
+MinRank 2
+MaxMem 25
+MinLvl 25 MaxLvl 50
+Flags EI
+Flags2 0
+Align B
+Ethos BC
+Progress BC
+MRanks 6 Squire~ Plebian~ Page~ Knight~ Templar~ Gryphon~ 
+FRanks 6 Squire~ Plebian~ Page~ Knight~ Templar~ Gryphon~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Avatar 1
+Class 25 0 0 1 1 0 1 1 1 1 1 1 0 1 1 0 0 1 0 0 0 0 0 0 0 0 
+Skill 'diplomacy'  50   1 100   0
+5 5 250 50 0
+Skill 'vengeance'  48   2   1   0
+3 5 50 10 0
+Skill 'golden aura'  42   1   1   0
+3 5 0 5 0
+Skill 'sense evil'  33   1   1   0
+2 5 0 8 0
+Skill 'ward of the crown'  28   1   1   0
+2 5 0 0 0
+End
+#14
+VERSION 1000
+FileName reaver~
+Name Inquisition~
+WhoName `8INQUISITION``~
+Imm Ulwarze~
+Currency credit~
+Parent 9
+MinRank 2
+MaxMem 25
+MinLvl 25 MaxLvl 50
+Flags DEI
+Flags2 0
+Align A
+Ethos A
+Progress BCE
+MRanks 6 Arbiter~ Purifier~ Purgator~ Cardinal~ Inquisitor~ Emperor~ 
+FRanks 6 Arbiter~ Purifier~ Purgator~ Cardinal~ Inquisitor~ Emperor~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Class 25 1 1 1 0 1 0 0 1 1 1 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 
+Skill 'chaos blade'  25   1   1   0
+2 5 0 0 0
+Skill 'call void'  25   1   1   0
+2 5 0 3 0
+Skill 'torment bind'  25   2   1   0
+3 5 0 5 0
+Skill 'spawn blade'  25   2   1   0
+3 5 0 12 0
+Skill 'mold chaos'  25   3   1   0
+4 5 250 15 0
+Skill 'nemesis'  25   1 100   0
+5 5 500 25 0
+End
+#15
+VERSION 1000
+FileName Pandemon~
+Name Wrath~
+WhoName `8WRATH``~
+Imm Jolma~
+Currency credit~
+Parent 9
+MinRank 2
+MaxMem 25
+MinLvl 25 MaxLvl 50
+Flags DEI
+Flags2 0
+Align A
+Ethos BC
+Progress BCE
+MRanks 6 Sadist~ Torturer~ Legionnaire~ Deviant~ Aberrant~ Emperor~ 
+FRanks 6 Sadist~ Torturer~ Legionnaire~ Deviant~ Aberrant~ Emperor~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Class 25 0 0 0 0 0 1 1 1 1 1 1 1 1 0 1 0 1 0 0 0 0 0 0 0 0 
+Skill 'nemesis'  25   1 100   0
+5 5 500 25 0
+Skill 'simulacra'  25   3   1   0
+4 5 250 20 0
+Skill 'eye of moloch'  25   2   1   0
+3 5 0 6 0
+Skill 'maze'  25   2   1   0
+3 5 0 3 0
+Skill 'shroud of discord'  25   1   1   0
+2 5 0 0 0
+Skill 'conjuration'  25   1   1   0
+2 5 0 15 0
+End
+#16
+VERSION 1000
+FileName Mysterum~
+Name Scholar~
+WhoName `$SCHOLAR``~
+Imm Dormicc~
+Currency disc~
+PrefixS Acolyte~
+Parent 10
+MinRank 2
+MaxMem 25
+MinLvl 25 MaxLvl 50
+Flags EI
+Flags2 0
+Align ABC
+Ethos ABC
+Progress CD
+MRanks 6 Academician~ Student~ Professor~ Doctor~ Pedagogue~ Archmage~ 
+FRanks 6 Academician~ Student~ Professor~ Doctor~ Pedagogue~ Archmage~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Avatar 1
+Class 25 0 0 0 0 0 0 0 1 0 1 1 0 1 1 1 0 0 1 0 0 0 0 0 0 0 
+Skill 'ocularis arcanum'  50   2   2   0
+4 5 0 12 0
+Skill 'town gate'  50   2   2   0
+3 5 0 10 0
+Skill 'chrono shield'  36   1   2   0
+2 5 0 20 0
+Skill 'faith ward'  46   2   2   0
+3 5 0 30 0
+Skill 'curse ward'  44   2   2   0
+3 5 0 30 0
+Skill 'vocalize'  48   2   2   0
+3 5 0 30 0
+Skill 'paradox'  40   1   2   0
+2 5 0 18 0
+Skill 'contingency'  50   2   2   0
+5 5 0 55 0
+End
+#17
+VERSION 1000
+FileName Temporum~
+Name Arcane~
+WhoName `$ARCANE``~
+Imm Dabyula~
+Currency disc~
+Parent 10
+MinRank 2
+MaxMem 25
+MinLvl 25 MaxLvl 50
+Flags EI
+Flags2 0
+Align ABC
+Ethos ABC
+Progress CD
+MRanks 6 Magus~ Occultist~ Enigma~ Archon~ Catalyst~ Archmage~ 
+FRanks 6 Magus~ Occultist~ Enigma~ Archon~ Catalyst~ Archmage~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Avatar 1
+Class 25 0 0 0 0 1 0 0 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+Skill 'temporal avenger'  46   2   2   0
+3 5 0 25 0
+Skill 'age'  43   1   2   0
+3 5 0 10 0
+Skill 'temporal storm'  37   1   2   0
+2 5 0 8 0
+Skill 'ripple'  50   1   2   0
+4 5 0 12 0
+Skill 'contingency'  50   2   2   0
+5 5 0 55 0
+End
+#18
+VERSION 1000
+FileName Barbaria~
+Name Savage~
+WhoName `3SAVAGE``~
+Imm Tzaelcos~
+Currency hide~
+PrefixS Pupil~
+Parent 11
+MaxRoom 50
+MinRank 2
+MaxMem 25
+MinLvl 25 MaxLvl 50
+Flags DEI
+Flags2 0
+Align ABC
+Ethos ABC
+Progress BF
+MRanks 6 ~ Reaper~ Dreadnought~ Barbarian~ Juggernaut~ Battlelord~ 
+FRanks 6 ~ Reaper~ Dreadnought~ Barbarian~ Juggernaut~ Battlemistress~ 
+Race 34 0 1 1 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 
+Class 25 1 1 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Skill 'adrenaline rush'  50   1 100   0
+5 5 500 0 0
+Skill 'anger'  50   1   2   0
+4 5 0 25 0
+Skill 'trample'  33   1 100   0
+2 5 300 0 0
+Skill 'trophy'  36   1 100   0
+2 5 0 30 0
+Skill 'cyclone'  40   2   2   0
+2 5 0 4 0
+Skill 'maelstrom'  43   2   2   0
+3 5 0 4 0
+Skill 'deathblow'  46   2   2   0
+3 5 0 6 0
+End
+#19
+VERSION 1000
+FileName Gladiato~
+Name General~
+WhoName `3GENERAL``~
+Imm Sahaeyeh~
+Currency hide~
+PrefixS Pupil~
+Parent 11
+MaxRoom 50
+MinRank 2
+MaxMem 25
+MinLvl 25 MaxLvl 50
+Flags DEIbd
+Flags2 0
+Align ABC
+Ethos ABC
+Progress BF
+MRanks 6 Footsoldier~ Infantryman~ Quartermaster~ Czar~ Field Marshal~ Battlelord~ 
+FRanks 6 Footsoldier~ Infantrywoman~ Quartermistress~ Czar~ Field Marshal~ Battlelord~ 
+Race 34 0 1 1 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 
+Class 25 1 1 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 
+Skill 'forms'  50   4   2   0
+3 5 0 8 0
+Skill 'melee'  46   2   2   0
+3 5 0 25 0
+Skill 'close combat'  35   2   2   0
+2 5 400 0 0
+Skill 'truesight'  38   2   2   0
+1 5 0 15 0
+Skill 'stance'  38   2   2   0
+1 5 0 4 0
+Skill 'sharpen'  50   1 100   0
+4 5 0 10 0
+Skill 'form mastery'  50   1 100   0
+5 5 500 0 0
+End
+#20
+VERSION 1000
+FileName herald~
+Name Muse~
+WhoName `@MUSE``~
+Imm Arondos~
+Currency lyre~
+OnGate With a dull thud the great doors leading inside close and lock.~
+OffGate With a dull thud the great doors leading inside unlock and open up.~
+MsgGate The massive doors leading inside seem to be locked up.~
+PrefixS Apprentice~
+Anchor 16600
+Guard 16609
+MaxRoom 50
+MinRank 0
+MaxMem 15
+MinLvl 25 MaxLvl 50
+Flags DEHbe
+Flags2 AB
+Align ABC
+Ethos ABC
+Progress 0
+MRanks 6 Laureate~ Artisan~ Lyricist~ Evocator~ Maven~ Headmaster~ 
+FRanks 6 Laureate~ Artisan~ Lyricist~ Evocator~ Maven~ Headmistress~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Avatar 1
+Class 25 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Skill 'scribe'  25   1 100   0
+1 5 0 0 0
+Skill 'act'  25   1 100   0
+4 5 0 0 0
+Skill 'diplomacy'  25   1 100   0
+1 5 0 25 0
+Skill 'scrolls'  25   1   2   0
+0 5 0 0 0
+Skill 'wands'  25   1   2   0
+0 5 0 0 0
+Skill 'staves'  25   1   2   0
+0 5 0 0 0
+Skill 'recharge'  25   1   2   0
+2 5 0 15 0
+Skill 'overload'  25   1   2   0
+2 5 0 20 0
+Skill 'create artifact'  25   1   2   0
+3 5 0 25 0
+Skill 'invoke artifact'  25   1   2   0
+3 5 0 0 0
+Vote poll~ 1 5 25
+Vote demotion~ 0 5 50
+Vote promotion~ 5 5 50
+Vote eldership~ 5 5 150
+Vote leadership~ 5 5 250
+Vote expel~ 4 5 75
+Vote tithe~ 4 5 25
+Vote pact~ 4 5 60
+Vote cabal tax~ 4 5 150
+Vote build~ 4 5 5
+Vote sponsorship~ 4 5 500
+CRoom 0 5
+CRoom 1 8
+CRoom 2 16610
+CRoom 3 16605
+CRoom 4 16603
+CRoom 5 16606
+CRoom 6 16604
+CRoom 7 16611
+CRoom 8 16601
+CRoom 9 16612
+CRoom 10 16607
+CRoom 11 16602
+End
+#21
+VERSION 1000
+FileName Watcher~
+Name Saint~
+WhoName `6SAINT``~
+Imm All~
+Currency prayer~
+OnGate Massive wooden barricades slam together, and then everything is silent.~
+OffGate The wooden gates creak open, and the sounds of life fill the camp.~
+MsgGate A massive wooden barricade is in your way, and you are unable to pass.~
+Anchor 17800
+Guard 17800
+Army 29
+Army2 30
+Tower 31
+Tower2 32
+MaxRoom 50
+MinRank 0
+MaxMem 15
+MinLvl 25 MaxLvl 50
+Flags DEW
+Flags2 0
+Align C
+Ethos BC
+Progress AD
+MRanks 6 Father~ Abbott~ Cardinal~ Evangelist~ Archbishop~ Bishop~ 
+FRanks 6 Mother~ Abbott~ Cardinal~ Evangelist~ Archlady~ Mother Superior~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Class 25 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Skill 'elemental call'  25   1   2   0
+1 5 0 0 0
+Vote poll~ 1 5 25
+Vote demotion~ 0 5 50
+Vote promotion~ 5 5 50
+Vote eldership~ 5 5 150
+Vote leadership~ 5 5 250
+Vote expel~ 4 5 75
+Vote tithe~ 4 5 25
+Vote pact~ 4 5 60
+Vote cabal tax~ 4 5 150
+Vote build~ 4 5 5
+Vote sponsorship~ 4 5 500
+CRoom 0 5
+CRoom 1 8
+CRoom 2 17805
+CRoom 3 17803
+CRoom 4 17813
+CRoom 5 17812
+CRoom 6 17811
+CRoom 7 17808
+CRoom 8 17804
+CRoom 9 17814
+CRoom 10 17809
+CRoom 11 17810
+End
+#23
+VERSION 1000
+FileName Warder~
+Name Warder~
+WhoName `@WARDER``~
+Imm Kalug~
+Currency pelt~
+Parent 21
+MaxRoom 50
+MinRank 2
+MaxMem 25
+MinLvl 25 MaxLvl 50
+Flags DEW
+Flags2 0
+Align C
+Ethos BC
+Progress BD
+MRanks 6 Inductee~ Tracker~ Protector~ Warder~ Tree Lord~ High Guardian~ 
+FRanks 6 Inductee~ Tracker~ Protector~ Warder~ Tree Lady~ High Guardian~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Class 25 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Skill 'whirlwind'  45   2   2   0
+3 5 0 4 0
+Skill 'dragon blood'  40   2   2   0
+3 5 0 15 0
+Skill 'awaken life'  33   1   2   0
+2 5 0 125 0
+Skill 'webbing'  28   1   2   0
+2 5 0 2 0
+End
+#22
+VERSION 1000
+FileName stalker~
+Name Stalker~
+WhoName `@STALKER``~
+Imm Kalug~
+Currency pelt~
+Parent 21
+MaxRoom 50
+MinRank 2
+MaxMem 25
+MinLvl 25 MaxLvl 50
+Flags DEW
+Flags2 0
+Align C
+Ethos BC
+Progress BD
+MRanks 6 Inductee~ Scout~ Hunter~ Stalker~ Slayer~ High Guardian~ 
+FRanks 6 Inductee~ Scout~ Hunter~ Stalker~ Slayer~ High Guardian~ 
+Race 34 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Class 25 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Skill 'witch compass'  39   2   2   0
+3 5 0 5 0
+Skill 'planar seal'  44   2   2   0
+3 5 0 14 0
+Skill 'greenheart'  33   1   2   0
+2 5 0 10 0
+Skill 'fasting'  28   1   2   0
+2 5 0 4 0
+End
 #0
 
 
@@ -31,7 +1144,7 @@ AO AF DFJ 0 -1000 1000
 0 0 0 0
 FKN Q 0 0
 stand stand none none~
-65
+15
 AHMV ABCDEFGHIJK medium 0
 #2
 stone golem~
@@ -45,7 +1158,7 @@ AO AF DFJ 0 -1000 1000
 -30 -30 -30 30
 KN Q D C
 stand stand none none~
-0
+14
 AHMV ABCDEFGHIJK medium 0
 #3
 zombie~
@@ -61,7 +1174,7 @@ AO AF DFJ 0 -1000 1000
 0 0 0 0
 KN LQ I N
 stand stand none none~
-125
+16
 0 ABCDEFGHIJK medium 0
 #4
 large mammoth~
@@ -70,12 +1183,12 @@ A large, shaggy mammoth is here.
 ~
 ~
 human~
-AET AF J 0 0 1000
-30 1 1d1+499 3d1+1 5d8+0 crush
+AE AF J 0 0 1000
+30 1 1d1+499 0d0+100 5d8+0 crush
 0 0 0 0
 DN B EI F
 stand stand none none~
-125
+12
 AHMV ABCDEFGHIJK large 0
 #5
 chaos demon chaosdemon~
@@ -95,7 +1208,7 @@ A A DFJ 0 -1000 1000
 -1 -1 -1 0
 KNX 0 0 0
 stand stand none none~
-0
+16
 AHMV ABCDEFGHIJK medium 0
 #6
 large leopard~
@@ -104,12 +1217,12 @@ A large spotted leopard sits here.
 ~
 ~
 human~
-AETe AF JP 0 0 0
-30 1 1d1+400 3d1+1 5d8+0 claw
+AEe AF JP 0 0 0
+30 1 1d1+400 0d0+100 5d8+0 claw
 0 0 0 0
 DHNX B I E
 stand stand none none~
-125
+18
 AHMV ABCDEFGHIJK medium 0
 #7
 large wyvern~
@@ -122,12 +1235,12 @@ daggerish fangs dripping with poison. Its large leathery wings look as
 if they could easily fly this massive reptile about.
 ~
 human~
-AET AF JT 0 0 0
-30 1 1d1+400 3d1+1 5d6+0 psbite
+AE AF JT 0 0 0
+30 1 1d1+400 0d0+100 5d6+0 psbite
 0 0 0 0
 FHN BL I G
 stand stand none none~
-125
+11
 AHMV ABCDEFGHIJK medium 0
 #8
 displacer beast~
@@ -142,11 +1255,11 @@ existence appearing in a different location every time you look.
 ~
 human~
 AET AF DJ 0 0 0
-30 1 1d1+300 3d1+1 3d6+0 claw
+30 1 1d1+300 0d0+100 3d6+0 claw
 0 0 0 0
 FN B 0 M
 stand stand none none~
-125
+16
 AHMV ABCDEFGHIJK large 0
 #9
 %s's inquisitor~
@@ -162,7 +1275,7 @@ ACITe AF DHJ 0 1000 1000
 0 0 0 0
 L 0 0 0
 stand stand none none~
-0
+18
 AHMV ABCDEFGHIJK medium 0
 #10
 Trap-Proxy~
@@ -178,11 +1291,11 @@ AZ A 0 0 0 0
 -20 -20 -20 -20
 0 ABCDM 0 0
 stand stand none none~
-0
+17
 AHMV ABCDEFGHIJK medium 0
 #11
 large raven~
-a large raven~
+a large black raven~
 A large, black raven perches here.
 ~
 Deep, black eyes stare out from the bluish tinged black feathers of 
@@ -192,11 +1305,11 @@ claws of its talons.
 ~
 human~
 A AF JT 0 0 0
-20 1 1d1+100 3d1+1 3d5+0 scratch
+20 1 1d1+100 0d0+100 3d5+0 scratch
 0 0 0 0
-FNX B 0 EH
+FX B 0 EH
 stand stand none none~
-65
+11
 AHMV ABCDEFGHIJK tiny 0
 #12
 fiery demon~
@@ -210,7 +1323,7 @@ AR AI DJTV 0 0 0
 -20 -20 -20 -10
 F B 0 A
 stand stand none none~
-260
+24
 AHMV ABCDEFGHIJK large 0
 #13
 guard captain~
@@ -224,7 +1337,7 @@ AT ACF DFHJ K 0 0
 -15 -15 -15 -5
 KX B 0 0
 stand stand none none~
-260
+21
 AHMV ABCDEFGHIJK medium 0
 #14
 shadow~
@@ -240,7 +1353,7 @@ AOTc A BDFJOPQV 0 -750 0
 0 0 0 0
 FHIK BLQ CD N
 stand stand none none~
-260
+25
 AHMV ABCDEFGHIJK medium 0
 F res B
 F vul Z
@@ -256,7 +1369,7 @@ A A DFJV 0 -750 0
 0 0 0 0
 FHIKN BLQ M N
 stand stand none none~
-260
+20
 AHMV ABCDEFGHIJK medium 0
 #16
 goliath white stallion~
@@ -270,7 +1383,7 @@ ABE A 0 0 750 0
 0 0 0 0
 IJ AB 0 0
 stand stand either none~
-0
+7
 AGV ABCDEFHJK large 0
 #17
 familiar striped cat kitten~
@@ -292,7 +1405,7 @@ AB A DJP 0 0 0
 0 0 0 0
 K AB 0 0
 stand stand none none~
-0
+6
 0 0 medium 0
 #18
 hound dog wolfhound~
@@ -311,7 +1424,7 @@ AETc AC DFHP K 0 0
 0 0 0 0
 EHNX AB 0 0
 stand stand none none~
-0
+16
 AGV ACDEFHJKUV medium 0
 #19
 %s's demon hunter~
@@ -327,7 +1440,7 @@ ACITe AF DHJ 0 1000 1000
 0 0 0 0
 EL 0 0 0
 stand stand none none~
-0
+20
 AHMV ABCDEFGHIJK medium 0
 P FIGHT 17 100~
 P RANDOM 18 50~
@@ -346,7 +1459,7 @@ ACITe AF DHJ 0 1000 1000
 0 0 0 0
 ELN B 0 0
 stand stand none none~
-0
+15
 AHMV ABCDEFGHIJK medium 0
 P FIGHT 17 100~
 P RANDOM 18 50~
@@ -368,7 +1481,7 @@ ABCOTc ACH DFJU K -1000 1000
 0 0 0 0
 AFK AB 0 0
 stand stand none none~
-0
+15
 AHMV ABCDEFGHIJK medium 0
 P DEATH 20 100~
 P KILL 21 100~
@@ -385,7 +1498,7 @@ ABe AC BDFJQ JK 0 0
 0 0 0 0
 0 AB 0 0
 stand stand none none~
-0
+8
 AHMV ABCDEFGHIJK medium 0
 #23
 dummy~
@@ -402,7 +1515,7 @@ AUe A P 0 0 0
 10 10 10 10
 0 0 0 0
 stand stand either none~
-0
+8
 AGQc ADEFGKM medium 0
 #24
 ectoplasm vapor~
@@ -420,7 +1533,7 @@ AB A DJU 0 0 0
 -10 -10 -10 -10
 0 AB D 0
 stand stand none none~
-0
+3
 AGV ABCDEFHJK medium 0
 #25
 ectoplasm solid~
@@ -438,7 +1551,7 @@ AB A DJ 0 0 0
 -5 -5 -5 -5
 0 AB 0 0
 stand stand none none~
-0
+5
 AGV ABCDEFHJK medium 0
 #26
 duplicate~
@@ -453,7 +1566,7 @@ A A 0 0 0 0
 0 0 0 0
 0 0 P 0
 stand stand none none~
-0
+7
 AHMV ABCDEFGHIJK medium 0
 #27
 skin~
@@ -462,13 +1575,13 @@ Skin
 ~
 An old cast off skin is here.
 ~
-slith~
+unique~
 A A J 0 0 0
 1 -100 1d1+199 0d0+100 0d0+0 punch
 0 0 0 0
 0 0 0 0
 stand stand none none~
-0
+4
 0 ABCDEFGHIJKLQXc medium 0
 #28
 decoy~
@@ -483,7 +1596,7 @@ ABO A 0 0 0 0
 0 0 0 0
 0 0 0 0
 stand stand male none~
-0
+3
 AHMV ABCDEFGHIJK medium 0
 #29
 elven elf valkyre desc description~
@@ -516,7 +1629,7 @@ A AI 0 0 0 0
 0 0 0 0
 EFHJ CD 0 0
 stand stand female none~
-0
+25
 AHMV ABCDEFGHIJK medium 0
 #30
 black widow spider~
@@ -531,7 +1644,7 @@ A AC 0 0 0 30
 0 0 0 0
 0 0 0 0
 stand stand none none~
-0
+10
 AHMV ABCDEFGHIJK small 0
 #31
 phoenix~
@@ -549,7 +1662,7 @@ A AC 0 0 0 0
 0 0 0 0
 0 0 0 0
 stand stand none none~
-0
+8
 AHMV ABCDEFGHIJK medium 0
 #32
 djinn trainer~
@@ -565,7 +1678,7 @@ ABGJKTZbe AC D 0 0 0
 3 3 3 3
 0 ABCD 0 0
 stand stand male none~
-600
+21
 AHMV ABCDEFGHIJK medium 0
 #33
 spirit pcspirit spirit%s~
@@ -576,12 +1689,12 @@ The grey blurred form has no detail that you can notice.  Almost like a
 mist , yet with a definite purpose in its steadfast movement somewhere..  
 ~
 unique~
-ALOc A U 0 0 0
+ALO A U 0 0 0
 5 0 10d10+100 1d1+1 1d1+5 none
 0 0 0 0
 0 AB 0 0
 stand stand none none~
-0
+9
 0 0 medium 0
 P SPECIAL 33 100~
 #34
@@ -602,7 +1715,7 @@ ABCITe AF DHJN 0 1000 0
 0 0 0 0
 FK 0 0 0
 stand stand none none~
-0
+13
 AHMV ABCDEFGHIJK large 0
 P FIGHT 17 100~
 P RANDOM 18 50~
@@ -619,7 +1732,7 @@ ASTc AH BDFJPQV K 0 0
 0 0 0 0
 FHIK AB CD 0
 stand stand none none~
-260
+26
 AHMV ABCDEFGHIJK medium 0
 P RANDOM 35 100~
 P KILL 36 100~
@@ -635,7 +1748,7 @@ Ae AF DJ 0 0 0
 0 0 0 0
 F B HO 0
 stand stand none none~
-0
+2
 0 0 medium 0
 #37
 servant elemental water~
@@ -652,7 +1765,7 @@ Ae AF DJU 0 0 0
 0 0 0 0
 F B KR 0
 stand stand none none~
-0
+10
 0 0 medium 0
 #38
 servant air elemental djinni~
@@ -670,7 +1783,7 @@ Ae AF 0 0 0 0
 0 0 0 0
 F B DJ 0
 stand stand none none~
-0
+3
 0 0 medium 0
 #39
 servant elemental earth~
@@ -689,7 +1802,7 @@ ATe AF DJ 0 0 0
 0 0 0 0
 A B 0 C
 stand stand none none~
-0
+7
 AHMV ABCDEFGHIJK large 0
 F res D
 F vul P
@@ -705,7 +1818,7 @@ ABe A BDFJQ K 0 0
 0 0 0 0
 0 B 0 0
 stand stand none none~
-260
+22
 AHMV ABCDEFGHIJK medium 0
 #41
 royal guard~
@@ -719,7 +1832,7 @@ AT AF J 0 0 0
 0 0 0 0
 K B 0 0
 stand stand none none~
-260
+23
 AHMV ABCDEFGHIJK medium 0
 P SPEECH 41 fuck~
 #42
@@ -737,7 +1850,7 @@ AGTd ACG DFJU K -1000 1000
 -10 -10 -10 0
 H AB 0 0
 stand stand either none~
-0
+23
 AHMV ABCDEFGHIJK medium 0
 P RANDOM 42 100~
 #43
@@ -749,14 +1862,14 @@ It is a large winged serpent graced with a large saddle between its
 wings.  Its scales are of dark green pigment, and the wings composed of
 thick corse skin.  
 ~
-lizard~
+lizardman~
 AEIe AF DJT 0 -1000 1000
 30 1 1d1+299 0d0+100 5d4+20 bite
 0 0 0 0
 L 0 L I
 stand stand none none~
-0
-AGXc ACDEFHKLQ large 0
+17
+0 ABCDEFGHIJKLQXc large 0
 #44
 %s's black drake~
 a black drake~
@@ -773,7 +1886,7 @@ AEIe AF DJT 0 -1000 1000
 0 0 0 0
 L 0 BEH FI
 stand stand none none~
-0
+20
 AHZ ACDEFGHIJKLPQUVX large 0
 #45
 %s's black dragon~
@@ -791,7 +1904,7 @@ AEIe AF DJT 0 -1000 1000
 0 0 0 0
 AL 0 BEH FI
 stand stand none none~
-0
+11
 AHZ ACDEFGHIJKLPQUVX huge 0
 P FIGHT 12 20~
 #46
@@ -810,7 +1923,7 @@ AEIe AF DJT 0 -1000 1000
 0 0 0 0
 L 0 0 A
 stand stand none none~
-0
+19
 AHMV ABCDEFGHIJK large 0
 #47
 %s's gargoyle~
@@ -827,7 +1940,7 @@ AEIe AF DJT 0 -1000 1000
 0 0 0 0
 L 0 CD 0
 stand stand none none~
-0
+17
 AHMV ABCDEFGHIJK large 0
 F vul A
 #48
@@ -848,7 +1961,7 @@ AEIe AF DJT 0 -1000 1000
 0 0 0 0
 L 0 DH I
 stand stand none none~
-0
+18
 AHMV ABCDEFGHIJK huge 0
 F vul A
 P FIGHT 15 20~
@@ -867,7 +1980,7 @@ AEIOe AF DJT 0 -1000 1000
 0 0 0 0
 L 0 H I
 stand stand none none~
-0
+14
 AGV ABCDEFHJK large 0
 #50
 swamp drake~
@@ -886,7 +1999,7 @@ AEIOe AF DJT 0 -1000 1000
 0 0 0 0
 L LQ I N
 stand stand none none~
-0
+17
 0 ABCDEFGHIJK large 0
 P FIGHT 13 10~
 #51
@@ -904,7 +2017,7 @@ AEIOe AF DJT 0 -1000 1000
 0 0 0 0
 L LQ I N
 stand stand none none~
-0
+13
 0 ABCDEFGHIJK huge 0
 P FIGHT 13 10~
 #52
@@ -922,8 +2035,10 @@ ATZce AGI HJ 0 0 0
 -5 -5 -5 -5
 0 AB 0 0
 stand stand none none~
-0
+21
 AHMV ABCDEFGHIJK medium 0
+F res Q
+F vul C
 #53
 orc raider~
 an orc raider~
@@ -939,7 +2054,7 @@ ATZce AGI HJ 0 0 0
 -12 -12 -12 -12
 0 AB 0 0
 stand stand none none~
-0
+17
 AHMV ABCDEFGHIJK medium 0
 F res Q
 F vul S
@@ -958,7 +2073,7 @@ ATZce AGI HJ 0 0 0
 -17 -17 -17 -17
 0 AB 0 0
 stand stand none none~
-0
+24
 AHMV ABCDEFGHIJK medium 0
 #55
 rebel warlord~
@@ -975,7 +2090,7 @@ ATZce AGI HJ 0 0 0
 -25 -25 -25 -25
 0 AB CD 0
 stand stand none none~
-0
+20
 AHMV ABCDEFGHIJK medium 0
 #56
 monster skeleton~
@@ -989,7 +2104,7 @@ ATVZce ACHI DFV 0 0 0
 -20 -20 -20 -10
 ACEFKN AB CD 0
 stand stand none none~
-0
+25
 AHMV ABCDEFGHIJK huge 0
 P FIGHT 56 8~
 #57
@@ -1007,7 +2122,7 @@ ABVZ A 0 0 0 0
 0 0 0 0
 FK AB 0 0
 stand stand none none~
-0
+19
 0 0 medium 0
 P FIGHT 63 30~
 #58
@@ -1026,9 +2141,27 @@ ABVZ A DFHJNO 0 0 0
 -20 -20 -20 -20
 AFKW AB 0 0
 stand stand none none~
-400
+16
 AHMV ABCDEFGHIJK medium 0
 P FIGHT 55 20~
+#60
+portal~
+a shimmering portal~
+(`$Shimmering``) A magical portal hovers here.
+~
+Before you, a shimmering magical portal seems to beckon to you
+to enter. Through the transparent surface that ripples as the
+weaves of time and space contort to keep it semi-solid, you
+seem to be able to see...something.
+~
+unique~
+ABe A T 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 disrupt
+0 0 0 0
+0 0 0 0
+stand stand none none~
+8
+0 0 medium 0
 #81
 grim reaper~
 the Grim Reaper~
@@ -1044,7 +2177,7 @@ ABOTZ AC DFHJ 0 0 0
 -30 -30 -30 -30
 FGHKNX ABCDGHJLMNPQRZa I N
 stand stand none none~
-0
+29
 0 ABCDEFGHIJK huge 0
 P ACT 81 kneels~
 #0
@@ -1067,7 +2200,7 @@ A 12 20 0
 #2
 coin gold gcash~
 a gold coin~
-One valuable gold coin.~
+A gold coin glimmers on the ground here.~
 gold~
 money 0 A
 0 1 0 0 0
@@ -1089,11 +2222,11 @@ weapon AG AN
 staff 1 1 smash F
 1 180 0 G
 #5
-%s%ss~
-%s%ss~
-A bundle of %s%ss lies here.~
+%s%s~
+a %s%s~
+A %s%s lies here.~
 wood~
-projectile 0 Aa
+projectile 0 AT
 A 1 1 pierce 0 1 2 0 P
 #6
 halberd giant~
@@ -1123,7 +2256,7 @@ A 18 25 0
 trap proxy~
 a trap proxy~
 ERROR, contact immortal.~
-Virigoth's Sweat~
+Morgorin's Sweat~
 trash 0 c
 0 0 0 0 0
 50 0 0 P
@@ -1174,7 +2307,7 @@ The torn-out heart of %s is lying here.~
 meat~
 food 0 A
 16 16 0 0 0
-0 20 0 D
+0 20 8 D
 #14
 arm~
 the arm of %s~
@@ -1182,7 +2315,7 @@ The sliced-off arm of %s is lying here.~
 meat~
 food 0 A
 20 20 0 0 0
-0 50 0 D
+0 50 10 D
 P RANDOM 1 10~
 #15
 leg~
@@ -1191,7 +2324,7 @@ The sliced-off leg of %s is lying here.~
 meat~
 food 0 A
 20 20 0 0 0
-0 50 0 D
+0 50 10 D
 P RANDOM 1 10~
 #16
 guts entrails~
@@ -1200,7 +2333,7 @@ A steaming pile of %s's entrails is lying here.~
 meat~
 food 0 A
 5 5 0 A 0
-0 20 0 D
+0 20 2 D
 #17
 brains brain~
 the brains of %s~
@@ -1208,7 +2341,7 @@ The splattered brains of %s are lying here.~
 brains~
 food 0 A
 10 10 0 0 0
-0 20 0 D
+0 20 5 D
 #18
 ranger %s %s~
 %s's %s~
@@ -1234,7 +2367,7 @@ A delicious magic %s is here.~
 food~
 food 0 A
 8 8 0 0 0
-0 10 0 P
+0 10 4 P
 #21
 ball light~
 a bright ball of light~
@@ -1264,15 +2397,15 @@ scroll~
 On the scroll are following directions:
  
  
-Rhedin: 
+Ulsym: 
 Walk thrice north from Central Commons (CC) and then twice west and north.
  
  
-Val Miran: 
+Revelsport: 
 Walk thrice north from North Square and west
  
  
-Miruvhor: 
+Zalango: 
 Walk west from Eastern Gate to Town Square.  Then four south and once west.
  
  
@@ -1310,7 +2443,7 @@ A steak lies here.~
 food~
 food 0 A
 20 20 0 0 0
-0 20 0 P
+0 20 10 P
 #28
 poncho~
 a poncho made from ~
@@ -1416,36 +2549,14 @@ unknown~
 container 0 0
 50 0 0 20 100
 0 0 0 P
-#39
-one crown aabahran~
-the`# One Crown`` of the `^Aabahran``~
-A `#Golden Crown`` glimmers majestically, awaiting the `^One King``.~
-godforged gold~
-armor ABMOTYZ AEP
-8 8 8 6 0
-60 50 1 P
-F
-A 13 150 0
-F
-A 12 200 0
-F
-A 24 -15 0
-#40
-locker object~
-locker (Contact an Immortal)~
-If you see this contact an Immortal.~
-unknown~
-container 0 0
-9999 0 0 50 0
-60 0 10000 P
 #42
-uber-test eq~
-uber-test eq~
-Uber-Test eq is here.~
+Armor Battle Titanium~
+some `8Titanium`` `#Battle Armor``~
+Some battle armor made out of titanium is lying on the ground.~
 imagination~
 armor 0 AD
-70 70 70 30 0
-0 0 0 P
+100 100 100 100 0
+50 100 0 P
 F
 A 24 -30 0
 F
@@ -1641,7 +2752,7 @@ A small piece of parchment paper is resting on the ground here.~
 paper~
 food 0 AO
 20 20 0 0 0
-0 0 0 P
+0 0 10 P
 #69
 book research~
 research~
@@ -1657,7 +2768,7 @@ The sliced-off hand of %s is lying here.~
 meat~
 food 0 A
 10 10 0 0 0
-0 20 0 D
+0 20 5 D
 #71
 foot~
 the foot of %s~
@@ -1665,7 +2776,7 @@ The sliced-off foot of %s is lying here.~
 meat~
 food 0 A
 10 10 0 0 0
-0 20 0 D
+0 20 5 D
 #72
 finger fingers~
 the fingers of %s~
@@ -1673,7 +2784,7 @@ The sliced-off fingers of %s are lying here.~
 meat~
 food 0 AM
 5 5 0 0 0
-0 10 0 D
+0 10 2 D
 P RANDOM 1 15~
 #73
 ear~
@@ -1682,7 +2793,7 @@ The ripped-off ear of %s is lying here.~
 meat~
 food 0 AC
 5 5 0 0 0
-0 10 0 D
+0 10 2 D
 F
 A 4 2 0
 #74
@@ -1692,7 +2803,7 @@ The pulled-out eyes of %s are lying here.~
 meat~
 food 0 AOZ
 5 5 0 0 0
-0 10 0 D
+0 10 2 D
 F
 A 3 2 0
 #75
@@ -1702,7 +2813,7 @@ The pulled-out tongue of %s is lying here.~
 meat~
 food 0 AC
 5 5 0 0 0
-0 10 0 D
+0 10 2 D
 P RANDOM 1 10~
 #76
 fins fin~
@@ -2546,30 +3657,26 @@ E
 obelisk~
 ~
 #141
-slab starstone !141!~
-a slab of starstone~
-A small slab of strange glittering stone lies here.~
+meteor meteorite !141! slab starstone~
+a meteorite~
+A chunk of meteorite is embedded in the ground here.~
 starstone~
 treasure AT AO
 0 0 0 0 0
 61 0 0 P
 E
-slab~
-Its a small rectangular slab of a strange metal of stone twinkling
-and glowing with inner power.  You easily pick it up in your hand, 
-its mass seemingly weightless.  Yet when you move your arm about, 
-your muscles tense at the effort of putting the strange stone or 
-metal in motion.  You wonder at the sheer possibilities of using 
-such wondrous material for armor or weapons.
+meteorite~
+Its a small hunk of solid metal, seeming fused together of some
+conglomerate of metals. It appears to be pockmarked and covered
+in small craters. Though certainly astral in origin, it doesn't
+look too far different from that of commonly mined ores.
 ~
 E
-starstone~
-Its a small rectangular slab of a strange metal of stone twinkling
-and glowing with inner power.  You easily pick it up in your hand, 
-its mass seemingly weightless.  Yet when you move your arm about, 
-your muscles tense at the effort of putting the strange stone or 
-metal in motion.  You wonder at the sheer possibilities of using 
-such wondrous material for armor or weapons.
+meteor~
+Its a small hunk of solid metal, seeming fused together of some
+conglomerate of metals. It appears to be pockmarked and covered
+in small craters. Though certainly astral in origin, it doesn't
+look too far different from that of commonly mined ores.
 ~
 #142
 armorcraft skeleton~
@@ -2601,6 +3708,38 @@ weaponcraft skeleton~
 Contant Immortal. (weaponcraft skeleton)~
 unknown~
 trash KL 0
+0 0 0 0 0
+0 0 0 P
+#145
+no name~
+(no short description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 10 P
+#146
+no name~
+It goes BOOM!~
+BOOM BOOM BOOM, I want you in my room.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#150
+ingot~
+Ingot~
+(no description)~
+none~
+treasure 0 AO
+0 0 0 0 0
+0 0 1 P
+#151
+armor~
+armor~
+Armorshell~
+unknown~
+armor 0 A
 0 0 0 0 0
 0 0 0 P
 #180
@@ -2668,7 +3807,7 @@ armor HMTYZ 0
 0 0 0 0 0
 0 0 0 P
 #188
-Tattoo Discord ~
+Tattoo Discord Crypticant~
 the `&Infinite`` `$+/-`` `8Fractal``~
 Contact an Immortal if you see this.~
 ink~
@@ -2739,6 +3878,30 @@ ink~
 armor HMTYZ T
 0 0 0 0 0
 0 0 0 P
+#197
+seed~
+a seed~
+A small seed is lying on the ground here.~
+wood~
+food U A
+1 1 0 0 -1
+10 10 0 P
+#198
+plant~
+a plant~
+A plant is lying here.~
+unknown~
+food 0 A
+0 0 0 0 0
+0 10 0 P
+#199
+clothing~
+clothing shell~
+A piece of cloth is lying here.~
+cloth~
+clothing 0 A
+0 0 0 0 0
+0 0 0 P
 #0
 
 
@@ -2767,7 +3930,7 @@ darkness around you without any trace of edges or shadow.
 D4
 ~
 ~
-0 0 7700
+0 0 20783
 S
 #3
 `8Storage room``~
@@ -2791,16 +3954,16 @@ allow quitting, during a world shift.
 D4
 ~
 ~
-0 0 7700
+0 0 20783
 S
 #5
-`#An Empty Hallway``~
+`8An Empty Hallway``~
 You find yourself in a strange dusty hallway, its walls empty
 and its floor dusty.  A single torch provides just enough light
 to bring out its depressing features.
 ~
 ~
-0 362807304 514 10
+0 362807304 2 0
 S
 #6
 `8Bounty Storage``~
@@ -2811,7 +3974,7 @@ pray if you see this.
 0 16396 0 0
 S
 #7
-`8%s's maze``~
+`3Crypticant's Lair``~
 All about you strange shimmering surfaces reflect your image a thousand
 fold.  The area seems bent and twisted as if the fabric of space itself has
 been put through some terrible wringer.  The exits lead everywhere and
@@ -2819,7 +3982,7 @@ nowhere at once, and your mind struggles to comprehend the paradox
 surrounding you.  
 ~
 ~
-0 8457 1 0
+0 8448 4228097 2
 D0
 ~
 ~
@@ -2853,15 +4016,58 @@ various species of weeds.  The growth reaches up to your waist and sways
 lightly with your passage.  
 ~
 ~
-0 362807304 2 3
+0 362807304 32770 3
+S
+#9
+`1Ankharan's Lair``~
+You are in a empty underground vault of solid earthen material without
+exits.  Stalagmites and stalactites run the chamber all through out.  The
+sound of relentless dripping of condensation falls from the heights above. 
+An eerie electric bluish light emits from veins of magical material within
+the walls and flooring.  Twisting and turning like some sort of marbleized
+energy.  Lore has it that these veins are the very essence of magic captured
+within this vault, deep beneath some unknown world.
+~
+~
+0 58728712 4203520 13
+M 0 H 0
+T 0
 S
 #13
-`8``~
+`5The Goddess Chambers``~
+Half naked pool boys stand about with glasses of wine on silvered trays
+wearing nothing but black thongs with a fabulous bikini wax.  Pink, purple
+and blue feathers float about on the lavendar scented air.  Chocolate
+bonbons are readily available from the poolboys upon request as are
+massages.  A large couch sits in the center of the room before a large T. 
+V.  Stocked full of Beaches, The Sweetest Thing, The First Wive's Club and
+other various chick flicks.  In the bathroom is a small wicker basket with
+free tampons and pads for all and the toilet paperholders fill themselves.  
 ~
 ~
-0 0 0 0
+0 33562880 1025 8
+T 100
 S
-#26
+#14
+`6The V.I.P Lounge``~
+WOW!  You must be someone pretty cool to have entered into this room. 
+The floor here is covered with a black shaggy carpet, it has been well
+vacuumed and sprinkled with a most pleasant fragrance.  Several couches are
+in this room, they all appear extremely comfortable.  All around the room,
+women with varying amounts of clothing are loitering, waiting for your
+request.  A few of the couches already have occupants, receiving some very
+sensual lap dances and....  Other things.  In the far back of the room there
+is a small cocktail bar.  The topless bartender eyes you, waiting for your
+order.  Also in the back of the room there are a few private booths, with
+thick drapes, blanketing them in mystery.  From the various moans and
+squeals, you can only guess what is going on behind Door Number One.  You
+feel welcomed in this place, you begin to think of what it would be like to
+have five minutes alone with one of the beautiful, busy women.  
+~
+~
+0 0 0 9
+S
+#17
 ~
 ~
 ~
@@ -2883,7 +4089,7 @@ not one you wish echoed throughout the land.  Pray to the gods an acceptable
 name, and such shall be whispered throughout the lands forever.  
 ~
 ~
-0 889728012 1024 3
+0 889728012 66560 3
 M 0 H 0
 S
 #73
@@ -2923,7 +4129,7 @@ When you are done your description and it has been `!formatted`` and
 done.
 ~
 ~
-0 268971020 1024 3
+0 268971020 66560 3
 S
 #74
 `8Role-Playing Room``~
@@ -2970,6 +4176,509 @@ S
 
 
 #ARMIES
+#1
+0
+0
+15
+0
+8 4 20
+20 10 1500
+0 0 0
+Whiteguards~
+a unit of Whiteguards~
+A unit of Whiteguards is camped here.~
+Proudly displaying the banners of Revelsport, this Border Marcher appears to
+be somewhat trained.  Most of the soldiers follow their superior's commands,
+creating a competent unit of warriors.  
+~
+#2
+0
+5
+25
+0
+8 9 20
+20 10 1500
+0 0 0
+Paladins~
+a column of Paladins~
+A column of Paladins is camped here.~
+Mithril armor covers all the Paladins in this column, the crest of Val
+Miran etched onto the breastplates.  With swords drawn and steadily
+wielded, they appear to be ready for any and all opponents.
+~
+#3
+A
+50
+0
+0
+10 2 5
+1 1 1999
+1 1 49
+Tower~
+a Tower~
+A Tower watches over the area.~
+Revelsport's flags have been planted upon this Tower's peak, clearly
+denoting the loyalty of the men within.  Numerous guards have been
+posted; only a determined force will be able to overtake it.
+~
+#4
+A
+50
+0
+0
+10 2 15
+1 1 2999
+1 1 66
+Spire~
+Ivory Spire~
+An Ivory Spire reaches for the heavens.~
+Extending high above you is one of Revelsport's Ivory Spires.  Protected
+and reinforced by many enchantments, one will need more than a rag-tag
+army to overcome it.
+~
+#5
+0
+0
+15
+B
+9 5 30
+20 10 1700
+0 0 0
+Dirigibles~
+Gnome Dirigibles~
+A bunch of gnomish Dirigibles hover above the area.~
+Engineered and crewed by the brightest of Grayldemir, these dirigibles are
+the clearest proof of Grayldemir's loyalty to Ulsym.  While a few arrows can
+down one of these rickety contraptions, the ability to be produced in a
+short period of time make these the backbone of Ulsym's forces.  
+~
+#6
+0
+5
+25
+0
+9 9 30
+20 20 1700
+0 0 0
+Juggernaut~
+Dwarven Juggernaut~
+A Dwarven Juggernaut towers over the area.~
+Powered by steam and dwarves on treadmills, a thick layer of titanium
+safeguards all that is in its bowels.  The only weaknesses are holes through
+which things called "cannons" can fire through.  Thousands of spikes lining
+its outer hull makes it even more dangerous.
+~
+#7
+A
+50
+0
+B
+9 5 30
+1 1 1999
+1 1 49
+Observatory~
+Gnomish Observatory~
+A Gnomish Observatory floats above the area.~
+A particularly large dirigible, this one seems to be operating on its
+own.  From your position you can see small figures running back and forth;
+most of their work seems to be concentrated on an enormous telescope.
+~
+#8
+A
+50
+0
+0
+9 6 30
+1 1 3999
+1 1 66
+Bunker~
+Dwarven Bunker~
+A Dwarven Bunker has been raised here.~
+What appears to be a barren hill rises in front of you.  Closer
+inspection reveals narrow, horizontal slits through which you can see
+figures milling about.  A flag planted on top of the Bunker clearly
+indicates that this one's allegiance is owed to Ulsym.  
+~
+#9
+0
+0
+15
+0
+8 4 20
+20 10 1500
+0 0 0
+Pikeman~
+a unit of Pikeman~
+A unit of Pikeman stands in formation.~
+With pikes by their sides, this company of pikemen stand in battle
+formation.  Well-armed, well-trained, and most importantly determined,
+they wait for orders from their Knight general.
+~
+#10
+0
+5
+25
+0
+8 9 20
+20 10 1500
+0 0 0
+Crusaders~
+a column of Crusaders~
+A column of Crusaders is camped here.~
+Trained to perfection and armed to the teeth, a column of crusaders
+survey the surroundings.  Hungry for the chance to battle the enemies
+of Knight, their immense swords are raised expectantly.
+~
+#11
+A
+50
+0
+0
+10 2 5
+1 1 1999
+1 1 54
+Castle~
+a Castle~
+A Castle towers over the area.~
+Its tall walls have been built with quality betraying phenomenal skill
+and expertise in matters of fortification.  The tall smooth walls rise high
+up to the parapet bristling with weapons and restless eyes.  
+~
+#12
+A
+75
+0
+0
+10 2 15
+10 50 2999
+1 1 71
+Fortress~
+Knight Fortress~
+A mighty Fortress looms over the area.~
+Immense in size and mass its tall turreted walls bristle with various
+catapults, ballistas and men.  Built with near perfect strategic planning
+its defenders seem to have a clear field of fire in every direction.  A
+massive gate bars the entrance with hundreds of armored figures pacing the
+battlements above.  
+~
+#13
+0
+0
+15
+0
+8 4 20
+20 10 1700
+0 0 0
+Warlocks~
+a group of Warlocks~
+A group of drow Warlocks occupies the area.~
+Clad in black robes with their platinum hair in a wild disarray of static
+discharge, these drow Warlocks are a sight to behold.  Strange,
+nearly-transparent shapes flutter about them and the very air around their
+forms shimmers with malignant energies.
+~
+#14
+0
+5
+25
+0
+8 9 20
+20 10 1700
+0 0 0
+Liches~
+a pair of Liches~
+A legion of lower undead surrounds a pair of Liches.~
+A thick stink of death and decay suffocates the area around the pair of
+Liches.  Their bodies lack flesh, the organs and muscles having withered
+away long ago.  In their crimson sockets burn an unholy power, obviously
+great enough to control the legion of shambling zombies, skeletons, and
+ghouls.
+~
+#15
+A
+50
+0
+0
+10 2 5
+1 1 1999
+1 1 49
+Dungeon~
+a Dungeon~
+Cries of agony reach yours ears from within a Dungeon.~
+Not much can be seen of it, as the heart of this structure is always
+built far below the ground.  Only the fortified entrance can be spotted, its
+massive wrought gates worked with motives of twisted and tortured faces.  
+~
+#16
+A
+50
+0
+0
+10 2 15
+1 1 2999
+1 1 66
+Palace~
+Black Palace~
+A Palace built of completely black stone dominates the area.~
+Built of completely black stone, this Palace is as beautiful as it is
+defendable.  Gargoyles snarl at you from the tall parapets bristling with
+both weapons and the watchful eyes of the Zalango Admiralty.
+~
+#17
+0
+0
+15
+0
+8 4 20
+20 10 1500
+0 0 0
+Spawns~
+a pack of Spawns~
+A pack of twisted Spawns of Nexus slither about.~
+Quivering and changing without pause, these misshapen forms are composed
+of brown-green flesh corrupted by the forces of Nexus.  Eyes filled with
+hate and unquenchabed anger lock with yours as a legion of voices hurls
+threats and promises of damnation aimed at no one in particular.  
+~
+#18
+0
+5
+25
+B
+8 9 20
+20 10 1500
+0 0 0
+Demons~
+a Demon Horde~
+A horde of Demons hovers overhead, their talons dripping blood.~
+Soaring above on giant, leathery wings these demons pay no heed to your
+presence.  Their large forms cast shapeless shadows all around, reminding
+everyone here of their restless passage.  But what is most disturbing is the
+utter silence that one does not normally expect from a force bent on
+destruction.
+~
+#19
+A
+50
+0
+0
+10 2 5
+1 1 1999
+1 1 49
+Altar~
+an Unholy Altar~
+An Altar of Nexus has been raised here.~
+Unnatural shadows dance around the massive Altar, its surface stained
+with the blood of countless sacrifices.  The air about it shimmers with
+power, occasionally taking on a blue or red tint as alien sounds pierce the
+air.
+~
+#20
+A
+50
+0
+0
+10 2 15
+1 1 2999
+1 1 66
+Gateway~
+the Nexus Gateway~
+A Nexus Gateway crackles with hellish heat and unholy magics.~
+Sending occasional arcs of black energies towards the heavens this tall,
+flaming gate has but one purpose: to support the infernal spells of
+Pandemonium conjurers.  The added benefit of keeping the portals between
+Mirlan and Nexus open for demon and hell-spawn armies completes the
+threatening nature of this Gateway.
+~
+#21
+0
+2
+20
+B
+8 4 25
+20 10 1500
+0 0 0
+Phantoms~
+a group of Phantoms~
+Winking in and out of existence a group of Phantoms is here.~
+Their translucent forms shimmer in and out of existence as the roughly
+humanoid shapes float above the ground with effortless ease.  Not a single
+sound comes forth from the strange beings, their silent demeanor ominous
+and unsettling.
+~
+#22
+0
+8
+30
+B
+8 9 25
+20 10 1500
+0 0 0
+Elemental~
+the Time Elemental~
+Sizzling fragments of time form a blurred translucent entity.~
+The very fabric of time here seems strained to the limit as strange,
+unexplainable energies dive and sizzle into the land below this entity.  Its
+size seems at once enormous and small, far and close, its passage all but
+unseen except for the ripples left in this reality.
+~
+#23
+A
+50
+0
+B
+10 2 5
+1 1 1999
+1 1 49
+Sphere~
+the Mana Sphere~
+The Mana Sphere floats far above, humming with weird energies.~
+There is not much to see, but rather to sense as your mind instinctively
+detects the enormous forces above you.  Once in a long while the transparent
+outline of a giant sphere winks into existence as arcs of sparking energy
+strike the ground.
+~
+#24
+A
+50
+0
+B
+10 2 15
+1 1 2999
+1 1 66
+Vortex~
+the Time Vortex~
+The Time Vortex plays with the reality far above you.~
+Your gaze towards the Vortex is as if looking into a distance, your
+instinct telling you that it's infinitely greater than it seems.  Strange
+ripples thwart your vision, their source the large whirlpool of power from
+which howls the energies beyond mortal imagining.  
+~
+#25
+0
+0
+15
+0
+8 4 20
+20 10 1500
+0 0 0
+Blademasters~
+a company of Blademasters~
+A company of Blademasters stand ready for battle.~
+A company of vicious swordsmen stand in loose formation, awaiting orders.
+Their armors are varied but all wear signs of many battles.  Only one thing
+relates them to each other: the particular look one has when one has seen
+death many times and bested it.  
+~
+#26
+0
+5
+25
+0
+8 9 20
+20 10 1500
+0 0 0
+Warlords~
+a group of Warlords~
+A small group of Warlords stands here proudly.~
+Clad in fantastic armors and weapons they proudly bear the trophies of
+past victories.  Their faces are grim, but their eyes sparkle as the
+promises of battle and spilt blood ring in their minds.  
+~
+#27
+A
+50
+0
+0
+10 2 5
+1 1 1999
+1 1 49
+Fort~
+a Fort~
+A Fort flying the banners of Warmaster watches over the area.~
+It is a sturdy fort constructed in a hurry but with great experience. 
+The pallisade of sharpened logs provide good defense and a few squat
+watchtowers have been built for advanced warning.  
+~
+#28
+A
+50
+0
+0
+10 2 15
+1 1 2999
+1 1 66
+Camp~
+a Staging Camp~
+An army Staging Camp has been built here.~
+A huge camp made of many tents surrounded by latched logs stands in the
+immediate area.  There is a single, tall tower flying the banner of
+Warmaster from which sentries watch the surrounding land.  An enormous
+wooden gate stands in the centre of the massive wall allowing access for
+those who are loyal.
+~
+#29
+0
+0
+15
+0
+8 4 20
+20 10 1500
+0 0 0
+Longbows~
+a group of Elf Longbows~
+A group of Elven Longbowmen hides in the area.~
+Only the occasional creak of a bow or the rustle of cloaks betrays their
+presence.  Silent and flawless in their deadly accuracy these bowmen are
+masters of camouflage and, most importantly, ambush.
+~
+#30
+0
+5
+25
+0
+8 9 20
+20 10 1500
+0 0 0
+Warders~
+a unit of Warders~
+A unit of Warders hides in the area.~
+Though you can barely spot them, the faint whispers of blades being drawn
+and the occasional song of a non-existence bird betray their deadly
+presence.  Their exact numbers are, however, uncountable to your eyes.  
+~
+#31
+A
+50
+0
+0
+10 2 5
+1 1 1999
+1 1 49
+Glyph~
+a Forest Glyph~
+A massive Forest Glyph has been raised here.~
+Its surface crawling with druidic runes this giant glyph emanates an aura
+of peace and tranquility.  But the amount of charred corpses about its
+perimeter and the perpetual boil of dark clouds above indicates that its
+purposes are far from peaceful.
+~
+#32
+A
+50
+0
+0
+10 2 15
+1 1 2999
+1 1 66
+Obelisk~
+the Earth Obelisk~
+A massive Earth Obelisk has been erected here.~
+Rising far above the ground a mighty obelisk of earth and stone shoots
+towards the sky.  Its surface covered by druidic runes, the area about it
+shimmers with magical power.  It would be foolish to cross any follower of
+Watcher within the protective aura of this mighty Obelisk.
+~
 #0
 
 
@@ -3099,11 +4808,11 @@ chestbuster~
 xdamage 50 AFKO
 chestbuster~ 149 1 1 25
 #17
-the brambus needler~
+the dadlebert needler~
 ~
 ~
 xdamage 50 EKLN
-brambus needler~ 150 10 6 2
+acid blast~ 150 10 6 2
 #18
 the devil's wheel~
 ~
@@ -3143,100 +4852,146 @@ endif
 ~
 #2
 if ispc $n
-  mob tempquest $n paid for use of the City Gate.
-  tell $n The gate is currently charging, please stand by.
-end
+  tell $n Welcome to the Portals of the Mar'Kyer!
+  tell $n Just LOOK SIGN to see how we work.
+endif
 ~
 #3
-mob junk 1.
-mob pfor group $n call 2 # null null
+if isnpc $n
+  break
+endif
+if mobhere 60
+   'There is already a portal here, $N. It should vanish shortly.
+   break
+endif
+if money $n < 200
+  'I'm terribly sorry, $N, but the price is 200 gold coins.
+  'Please come back and see us when your finances are in order.
+   break
+else
+  mob gain gold pc $n -200 -200
+endif
+'Very good, $N. Stand back, and allow me to do my magic!
+pmote rises from a chair, and walks to the center of the room.
+mob junk 1.gold
+mob cast 'portal' !ulsymportal!
+'You're all set, $N. Just "enter portal" and you're off.
+mob delay 2
 ~
 #4
-if ispc $n
-  mob remquest $n paid for use of the City Gate.
+if isnpc $n
+  break
 endif
+if mobhere 60
+   'There is already a portal here, $N. It should vanish shortly.
+   break
+endif
+if money $n < 200
+  'I'm terribly sorry, $N, but the price is 200 gold coins.
+  'Please come back and see us when your finances are in order.
+   break
+else
+  mob gain gold pc $n -200 -200
+endif
+'Very good, $N. Stand back, and allow me to do my magic!
+pmote rises from a chair, and walks to the center of the room.
+mob junk 1.gold
+mob cast 'portal' !luvaportal!
+'You're all set, $N. Just "enter portal" and you're off.
+mob delay 2
 ~
 #5
-if ispc $n
-and hasquest $n 'paid for use of the City Gate.'
-  mob remquest $n paid for use of the City Gate.
-  if affspell $n 'ensnare'
-    mob echoat $n You cannot leave the area until the ensnare wears off.
-    break
-  endif
-  mob echoaround $n $N disappears!
-  gtransfer $n 20601
+if isnpc $n
+  break
 endif
+if mobhere 60
+   'There is already a portal here, $N. It should vanish shortly.
+   break
+endif
+if money $n < 200
+  'I'm terribly sorry, $N, but the price is 200 gold coins.
+  'Please come back and see us when your finances are in order.
+   break
+else
+  mob gain gold pc $n -200 -200
+endif
+'Very good, $N. Stand back, and allow me to do my magic!
+pmote rises from a chair, and walks to the center of the room.
+mob junk 1.gold
+mob cast 'portal' !emmereauxportal!
+'You're all set, $N. Just "enter portal" and you're off.
+mob delay 2
 ~
 #6
-if isdelay $i
+if isnpc $n
   break
 endif
-mob attrib !11483! level = 50
-mob pfor exc !11483! call 7 # null null
-if players > 0
-and level $i > 50
-  if rand 30
-    '$R, please stand within the circle of runes to avoid loss of limbs. 
-  endif
-  'Gate to Val Miran now commencing. Please stay calm.
-  mob echo The City Gate flares with arcane power!
-  mob echo ``
-  mob at 20601 echo Amidst a crackle of energy, the gate from Rheydin opens!
-  mob pfor exc !11483! call 5 # null null
+if mobhere 60
+   'There is already a portal here, $N. It should vanish shortly.
+   break
 endif
-if rand 40
-  mob delay 2
+if money $n < 200
+  'I'm terribly sorry, $N, but the price is 200 gold coins.
+  'Please come back and see us when your finances are in order.
+   break
 else
-  mob delay 3
+  mob gain gold pc $n -200 -200
 endif
+'Very good, $N. Stand back, and allow me to do my magic!
+pmote rises from a chair, and walks to the center of the room.
+mob junk 1.gold
+mob cast 'portal' !revelsportportal!
+'You're all set, $N. Just "enter portal" and you're off.
+mob delay 2
 ~
 #7
-if iscombat $n
-  if rand 20
-    'Stop this foolishness $N. You might damage the Gate!
-  endif
-  mob remquest $n paid for use of the City Gate.
+if isnpc $n
   break
 endif
-if ispc $n
-and hasquest $n 'paid for use of the City Gate.'
-  mob attrib self level = 60
+if mobhere 60
+   'There is already a portal here, $N. It should vanish shortly.
+   break
 endif
+if money $n < 200
+  'I'm terribly sorry, $N, but the price is 200 gold coins.
+  'Please come back and see us when your finances are in order.
+   break
+else
+  mob gain gold pc $n -200 -200
+endif
+'Very good, $N. Stand back, and allow me to do my magic!
+pmote rises from a chair, and walks to the center of the room.
+mob junk 1.gold
+mob cast 'portal' !zalangoportal!
+'You're all set, $N. Just "enter portal" and you're off.
+mob delay 2
 ~
 #8
-if isdelay $i
+if isnpc $n
   break
 endif
-mob attrib !20663! level = 50
-mob pfor exc !20663! call 7 # null null
-if players > 0
-and level $i > 50
-  if rand 30
-    '$R, please stand within the circle of runes to avoid loss of limbs. 
-  endif
-  'Gate to the stinking Miruvhor now commencing. Hope you like the filthy town.
-  mob echo The City Gate flares with arcane power!
-  mob echo ``
-  mob at 7800 echo Happy voices spilling from within, gate from Val Miran opens!
-  mob pfor exc !20663! call 9 # null null
+if mobhere 60
+   'There is already a portal here, $N. It should vanish shortly.
+   break
 endif
-if rand 40
-  mob delay 2
+if money $n < 200
+  'I'm terribly sorry, $N, but the price is 200 gold coins.
+  'Please come back and see us when your finances are in order.
+   break
 else
-  mob delay 3
+  mob gain gold pc $n -200 -200
 endif
+'Very good, $N. Stand back, and allow me to do my magic!
+pmote rises from a chair, and walks to the center of the room.
+mob junk 1.gold
+mob cast 'portal' !dargothportal!
+'You're all set, $N. Just "enter portal" and you're off.
+mob delay 2
 ~
 #9
-if ispc $n
-and hasquest $n 'paid for use of the City Gate.'
-  mob remquest $n paid for use of the City Gate.
-  if affspell $n 'ensnare'
-    mob echoat $n You cannot leave the area until the ensnare wears off.
-    break
-  endif
-  mob echoaround $n $N disappears!
-  gtransfer $n 7800
+if mobhere 60
+    mob purge portal
+    mob echo A shimmering portal vanishes from existence.
 endif
 ~
 #10
@@ -3393,34 +5148,6 @@ and isnpc $n
   endif
   dirt $n
 endif
-~
-#27
-if isnpc $n
-or level $n > 20
-  break
-endif
-if rand 75
-  break
-endif
-mob echoat $n $I says '`#Greetings $N.  Do you come seeking a QUEST?``'
-~
-#28
-mob echoat $n $I says '`#Would you like an EASY, MEDIUM or HARD task $N?``'
-~
-#29
-mob echoat $n $I rummages through a pile of requests and maps.
-mob echoat $n $I says '`#Hmm yes... I think this one should be easy enough.``'
-mob aquest easy $n
-~
-#30
-mob echoat $n $I rummages through a pile letters and scrolls.
-mob echoat $n $I says '`#Hmm yes... I think this one should be perfect for you.``'
-mob aquest medium $n
-~
-#31
-mob echoat $n $I checks a short list with a few small notes on its marigins.
-mob echoat $n $I says '`#Indeed I have a few urgent tasks $N. Let me see..``'
-mob aquest hard $n
 ~
 #33
 mob echo $I begins to fade and disappear as it enters the temple.
@@ -4011,23 +5738,23 @@ endif
 
 #ROOMPROGS
 #1
-if hasquest $n 'Been charged with finding your guild in Rheydin.'
+if hasquest $n 'Been charged with finding your guild in Ulsym.'
   break
 endif
-if hasquest $n 'Discovered your Rheydin guildhouse.'
+if hasquest $n 'Discovered your Ulsym guildhouse.'
   break
 endif
 room echoat $n ``
 room echoat $n `&You have been charged with a quest!``
 room echoat $n Type "help quest" to for information on how to keep tabs on quests.
-room permquest $n Been charged with finding your guild in Rheydin.
+room permquest $n Been charged with finding your guild in Ulsym.
 ~
 #2
-if hasquest $n 'Discovered your Rheydin guildhouse.'
+if hasquest $n 'Discovered your Ulsym guildhouse.'
   break
 endif
-room permquest $n Discovered your Rheydin guildhouse.
-room remquest $n Been charged with finding your guild in Rheydin.
+room permquest $n Discovered your Ulsym guildhouse.
+room remquest $n Been charged with finding your guild in Ulsym.
 room echoat $n ``
 room echoat $n `@Congratulations, you have found your guild!``
 room echoat $n `@You have gained some experience points and gold!``

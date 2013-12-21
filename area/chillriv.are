@@ -1,0 +1,464 @@
+#AREADATA
+Name the Chill River~
+Pref ~
+Builders Crypticant~
+VNUMs 3300 3320
+Max_Bastions 1
+Credits { ALL } Shadowsp The Eastern Chill~
+Security 9
+Startroom 3304
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#3300
+`4The Chill River``~
+You stand amid a vast river running east and west into the
+city of Emmereaux. It is wide, spanning over ten boatlengths,
+and it runs rapidly. The walls on either side are made of high
+stone blocks to keep out anyone who would attempt to seige the
+city of Emmereaux, and your only option is to travel eastward
+or westward, or find the base of the drawbridge.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 9108
+D1
+~
+~
+0 0 9107
+D3
+~
+~
+0 0 3301
+S
+#3301
+`4The Chill River``~
+You are floating down the mighty Chill river, heading westward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Frostwood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3300
+D3
+~
+~
+0 0 3302
+S
+#3302
+`4The Chill River``~
+You are floating down the mighty Chill river, heading westward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Frostwood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3301
+D3
+~
+~
+0 0 3303
+S
+#3303
+`4The Chill River``~
+You are floating down the mighty Chill river, heading westward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Frostwood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3302
+D3
+~
+~
+0 0 3304
+S
+#3304
+`4The Chill River``~
+You are floating down the mighty Chill river, heading westward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Frostwood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3303
+D2
+~
+~
+0 0 3305
+D5
+~
+manhole~
+ABM 0 11118
+P EXALL 5 down~
+S
+#3305
+`4The Chill River``~
+You are floating down the mighty Chill river, heading westward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Frostwood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 3304
+D3
+~
+~
+0 0 3306
+S
+#3306
+`4The Chill River``~
+You are floating down the mighty Chill river, heading westward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Frostwood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3305
+D3
+~
+~
+0 0 3307
+S
+#3307
+`4The Chill River``~
+You are floating down the mighty Chill river, heading westward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Frostwood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3306
+D3
+~
+~
+0 0 3308
+S
+#3308
+`4The Chill River``~
+You are floating down the mighty Chill river, heading westward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Frostwood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3307
+D2
+~
+~
+0 0 3309
+S
+#3309
+`4The Chill River``~
+You are floating down the mighty Chill river, heading westward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Frostwood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 3308
+D3
+~
+~
+0 0 3310
+S
+#3310
+`4The Chill River``~
+You are floating down the mighty Chill river, heading westward.
+Tidal flows cause your raft to sway and surge. The forest looms
+all around you, and the wide river winds its way deeper into the
+forests of the Frostwood. The river is still very wide here, and moving
+at a very swift rate.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3309
+D3
+~
+~
+0 0 3311
+S
+#3311
+`4The Chill River``~
+The Chill has slowed here, backing up at it approaches the tidal
+flats. Now meandering much more slowly, ahead, there seem to be
+many more convenient places to moor your raft. Forest still is all
+around you, and the haunt of the Frostwood makes your hairs prickle.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 3312
+D1
+~
+~
+0 0 3310
+S
+#3312
+`4The Chill River``~
+The Chill has slowed here, backing up at it approaches the tidal
+flats. Now meandering much more slowly, ahead, there seem to be
+many more convenient places to moor your raft. Forest still is all
+around you, and the haunt of the Frostwood makes your hairs prickle.
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 3311
+D3
+~
+~
+0 0 3313
+S
+#3313
+`4The Chill River``~
+The Chill has slowed here, backing up at it approaches the tidal
+flats. Now meandering much more slowly, ahead, there seem to be
+many more convenient places to moor your raft. Forest still is all
+around you, and the haunt of the Frostwood makes your hairs prickle.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3312
+D3
+~
+~
+0 0 3314
+S
+#3314
+`4The Chill River``~
+The Chill has slowed here, backing up at it approaches the tidal
+flats. Now meandering much more slowly, ahead, there seem to be
+many more convenient places to moor your raft. Forest still is all
+around you, and the haunt of the Frostwood makes your hairs prickle.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 3316
+D1
+~
+~
+0 0 3313
+D3
+~
+~
+0 0 3315
+S
+#3315
+`4A small jetty``~
+You are at a deadend at the river. The small ebb tide has brought
+you into a small jetty, and the water here is still and calm. While
+still very deep, the Chill is much slower here, and you almost feel
+as if you are on a sort of a lake.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3314
+S
+#3316
+`4The Chill River``~
+The Chill has slowed here, backing up at it approaches the tidal
+flats. Now meandering much more slowly, ahead, there seem to be
+many more convenient places to moor your raft. Forest still is all
+around you, and the haunt of the Frostwood makes your hairs prickle.
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 3314
+D3
+~
+~
+0 0 3317
+S
+#3317
+`4The Chill River``~
+The Chill has slowed here, backing up at it approaches the tidal
+flats. Now meandering much more slowly, ahead, there seem to be
+many more convenient places to moor your raft. Forest still is all
+around you, and the haunt of the Frostwood makes your hairs prickle.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 3316
+D3
+~
+~
+0 0 3318
+S
+#3318
+`^The Tidewaters of the Chill``~
+The Chill slows now as it approaches the tidal flats. Forest has
+given way to tall grasslands, and all around you marsh rats and
+birds fly and play. The river lazily winds its way still westward,
+where it will eventually runoff into the Venpal Ocean.
+~
+~
+0 0 0 6
+D1
+~
+~
+0 0 3317
+D3
+~
+~
+0 0 3320
+S
+#3319
+`8``~
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 3318
+S
+#3320
+`^The Tidewaters of the Chill``~
+The Chill slows now as it approaches the tidal flats. Forest has
+given way to tall grasslands, and all around you marsh rats and
+birds fly and play. The river lazily winds its way still westward,
+where it will eventually runoff into the Venpal Ocean.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 6300
+D1
+~
+~
+0 0 3318
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

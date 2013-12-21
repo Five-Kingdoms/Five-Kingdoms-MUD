@@ -1,0 +1,2095 @@
+#AREADATA
+Name The Outer Planes~
+Pref ~
+Builders Ankharan~
+VNUMs 1300 1499
+Max_Bastions 0
+Credits Ankharan~
+Security 5
+Startroom 0
+Flags 2
+Crimes 6 4 4 4 4 4 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#1300
+Gaemina Mother Goddess~
+Gaemina~
+Gaemina, Mother of Mirlan, Goddess of Life, Being and Nature.
+~
+The Primal One, Mother of Mirlan.  Goddess of Life, Nature and Being. 
+You are in utter awe and revernece in her Divine Presence.  
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+26
+0 0 medium 0
+#1301
+Noirlz Primal One~
+Noirlz~
+Noirlz, The Primal One, Order, Structure and Form.
+~
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand none none~
+29
+0 0 medium 0
+#1302
+Krasq Primal One~
+Krasq~
+Krasq, The Primal One, Chaos, Destruction and Ruin.
+~
+Your senses are rendered from your body.  Your body is being torn to
+shreads, twisted and malformed, ruined and forever lost.  
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand none none~
+26
+0 0 medium 0
+#1311
+Bracc God~
+Bracc~
+Bracc, God of Winter and Ice, is here.
+~
+You are frozen in place by his Divine Power.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+26
+0 0 medium 0
+#1312
+Wuzamuli Goddess~
+Wuzamuli~
+Wuzamuli, Goddess of Disease, Pestilence and Famine, is here.
+~
+You are rendered senseless by her Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+30
+0 0 medium 0
+#1313
+Tzaelcos God~
+Tzaelcos~
+Tzaelcos, God of Fire, Destruction and Malice, is here.
+~
+You are burned by the gaze of Tzaelcos.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+27
+0 0 medium 0
+#1314
+Morgorin God~
+Morgorin~
+Morgorin, God of Death, the Underworld and Woe, is here.
+~
+Your soul is chilled to the core from the gaze of his Divine Holiness.  
+~
+unique~
+ABGJKZe A CDEGHJ K -500 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+21
+0 0 medium 0
+#1315
+Ixatros God~
+Ixatros~
+Ixatros, God of War, Slaughter and Vengence, is here.
+~
+Your mind is flailed with the images of war and slaughter as Ixatros
+looks upon you.  
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+30
+0 0 medium 0
+#1321
+Zarkirond God~
+Zarkirond~
+Zarkirond, God of Greed, Avarice and Thieves.
+~
+You tremble at the sight of his vile Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+23
+0 0 medium 0
+#1322
+Zarkirond God~
+Ulwarzi~
+Ulwarzi, God of Plots, Assassinations and Treachery, is here.
+~
+You have to avert your eyes from his Divine Power.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+21
+0 0 medium 0
+#1323
+Syithe Goddess~
+Syithe~
+Syithe, Goddess of the Night, Shadows and Secrets, is here.
+~
+You tremble in fear from her Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+23
+0 0 medium 0
+#1324
+Jolma Goddess~
+Jolma~
+Jolma, Goddess of Pain, Suffering and Torture, is here.
+~
+Pain, shear, utter and complete pain fills your senses.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+27
+0 0 medium 0
+#1325
+Imaju Goddess~
+Imaju~
+Imaju, Goddess of Jealousy, Lies, and Deception is here.
+~
+You are blinded by her divine light.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+24
+0 0 medium 0
+#1329
+Lojani Goddess~
+Lojani~
+Lojani, Goddess of Water, Rain and Rivers.  
+~
+You feel a calm wash over you as you gaze upon the beauty of Lojani.  Calm swirls of
+water form the shape of a human from her feet to her slender waist.  Pale smooth skin
+meets the water forming the upper half of her naked torso.  She is exquisite to the
+eyes of all mortals with her youthful vitality and firm body.  Long shimmering green
+hair floats weightlessly about her, sliding over the gentle curves of her body.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+24
+0 0 medium 0
+#1330
+Rhuma God~
+Rhuma~
+Rhuma, God of wealth, Trade and Merchants.
+~
+You are in awe of his Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+23
+0 0 medium 0
+#1331
+Ejamina Goddess~
+Ejamina~
+Ejamina, Goddess of Forests, Hunting and Animals, is here.
+~
+You are transfixed by her Holy Divinity.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+29
+0 0 medium 0
+#1340
+Dabyula God~
+Dabyula~
+Dabyula, God of Magic, Foresight and Dreams, is here.
+~
+You are awestruck by his Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+30
+0 0 medium 0
+#1341
+Hoiwinas God~
+Hoiwinas~
+Hoiwinas, God of Wine Revelry and Lust, is here.
+~
+You are completely awe struck by his Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+24
+0 0 medium 0
+#1342
+Sahaeyea God~
+Sahaeyea~
+Sahaeyea, God of Earth, Craftsmen and Smiths, is here.
+~
+You are blinded by his Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+29
+0 0 medium 0
+#1343
+Veshalma Goddess~
+Veshalma~
+Veshalma, Goddess of Oceans, Storms and the Weather, is here.
+~
+You are awe struck by her Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+21
+0 0 medium 0
+#1344
+Markul God~
+Markul~
+Markul, God of Time, Truth and Law, is here.
+~
+You are humbled by his Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+26
+0 0 medium 0
+#1345
+Pajumet Goddess~
+Pajumet~
+Pajumet, Goddess of Luck, Fate and Misfortune, is here.
+~
+You must avert your eyes to look upon such pure divine power.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+26
+0 0 medium 0
+#1354
+Amathe Goddess~
+Amathe~
+Amathe, Goddess of Love, Healing and Hearth.  Patron Goddess to the Halflings.
+~
+You are transfixed by her Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 400 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+29
+0 0 medium 0
+#1355
+Beronor God~
+Beronor~
+Beronor, God of Sun, Sky and Weal is here.
+~
+You are in awe of his divinity.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+28
+0 0 medium 0
+#1356
+Felana Goddess~
+Felana~
+Felana, Goddess of Air, Clouds and the Wind is here.
+~
+You are blinded by her Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 150 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+25
+0 0 medium 0
+#1357
+Wyihemi Goddess~
+Wyihemi~
+Wyihemi, Goddess of Fertility, Birth and the Harvest is here.
+~
+You are in awe of her Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 150 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+26
+0 0 medium 0
+#1358
+Arondos God~
+Arondos~
+Arondos, God of the Arts, Music and Poetry is here.
+~
+You are awed by his divine presence.
+~
+unique~
+ABGJKZe A CDEGHJ K 400 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+27
+0 0 medium 0
+#1364
+Tiradel God~
+Tiradel~
+Tiradel, God of Knighthood, Chivalry and Honor is here.
+~
+You are blinded by the divine presence of Tiradel. 
+~
+unique~
+ABGJKZbe A DEGHJ K 750 0
+60 1000 20d100+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+24
+0 0 medium 0
+#1365
+Rasazra Goddess~
+Rasazra~
+Rasazra, Goddess of Purity, Sacrifice and Virtue is here.
+~
+You are blinded by her Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 750 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+30
+0 0 medium 0
+#1366
+Moiwen Goddess ~
+The Goddess Moiwen~
+Moiwen the Goddess of Spring and Peace is here.
+~
+You are blinded by her Divine Holiness.
+ 
+~
+unique~
+ABGJKZe A CDEGHJ K 750 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+26
+0 0 medium 0
+#1367
+Madshem Goddess~
+Madshem~
+Madshem, the Goddess of Friendship, Merriment and Ale is here.
+~
+You are blinded by her Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand female none~
+21
+0 0 medium 0
+#1368
+Dormicc God~
+Dormicc~
+Dormicc, the God of Travel, Adventure and Quests is here.
+~
+You are blinded by his Divine Holiness.
+~
+unique~
+ABGJKZe A CDEGHJ K 400 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand male none~
+26
+0 0 medium 0
+#0
+
+
+
+#OBJECTS
+#1300
+tattoo Gaemina tree~
+the tree of life~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+S 246 100 0
+F
+A 4 3 0
+#1301
+tattoo Noirlz triangle black field~
+a white triangle on a field of black~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 17 100 0
+F
+A 18 -20 0
+F
+A 19 -20 0
+F
+A 22 10 0
+F
+A 23 10 0
+F
+A 20 10 0
+F
+A 24 10 0
+F
+A 21 10 0
+F
+A 1 -15 0
+F
+A 2 -15 0
+F
+A 5 -15 0
+F
+A 4 -15 0
+F
+A 3 -15 0
+#1302
+tattoo Krasq circle~
+a black circle~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 26 -10 0
+F
+A 8 -20 0
+F
+A 15 -1000 0
+F
+A 19 -20 0
+F
+A 18 -20 0
+F
+A 20 50 0
+F
+A 23 50 0
+F
+A 22 50 0
+F
+A 21 50 0
+F
+A 24 50 0
+#1311
+tattoo Bracc snowflake~
+a snowflake~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 1 1 0
+F
+A 22 -1 0
+F
+A 5 3 0
+#1312
+tattoo Wuzamuli rat~
+a rat~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 19 1 0
+F
+A 13 -5 0
+F
+A 20 -2 0
+F
+A 21 -2 0
+F
+A 21 2 0
+#1313
+tattoo Tzaelcos fireball~
+a fireball centered in a triangle~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 24 -1 0
+F
+A 23 -1 0
+F
+A 1 1 0
+F
+A 4 -1 0
+#1314
+tattoo Morgorin skull~
+a skull~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 18 3 0
+F
+A 19 3 0
+#1315
+The Hall of Wuzamuli~
+crossed spears dripping with blood~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 13 50 0
+F
+A 19 3 0
+F
+A 18 3 0
+#1321
+tattoo Zarkirond golved glove coin~
+a gloved hand holding a coin~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 2 3 0
+F
+A 3 2 0
+F
+S 101 20 0
+#1322
+tattoo Ulwarzi scroll knife~
+a half rolled parchement scroll superimposed with a bloodied knife~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 3 3 0
+F
+A 2 3 0
+F
+A 4 3 0
+F
+S 118 35 0
+#1323
+tattoo Syithe eye~
+a buring open eye stares at you~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 18 1 0
+F
+A 2 3 0
+#1324
+tattoo Jolma coiled whip~
+a coiled whip~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 22 -2 0
+F
+A 20 -2 0
+F
+A 21 -2 0
+F
+A 13 -10 0
+#1325
+tattoo Imaju adder adders head~
+a black adders head~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 4 1 0
+F
+A 3 1 0
+F
+A 2 1 0
+#1329
+tattoo Lojani waterfall~
+A waterfall~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 4 2 0
+F
+A 35 100 0
+#1330
+tattoo Rhuma Gold Coin~
+a golden coin~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 26 2 0
+F
+A 3 2 0
+#1331
+tattoo Ejamina drawn bow~
+a drawn bow with arrow nocked~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 2 3 0
+F
+A 18 2 0
+#1340
+tattoo Dabyula Hexagram~
+a glowing hexagram~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 24 -4 0
+F
+A 3 1 0
+F
+A 27 1 0
+#1341
+tattoo Hoiwinas grape vine~
+a bunch of purplish grapes on a leafy vine~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 1 3 0
+F
+A 5 3 0
+F
+A 3 -1 0
+F
+A 4 -1 0
+#1342
+tattoo Sahaeyea hammer anvil~
+a hammer and anvil inset upon a triangle~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 4 -2 0
+F
+A 5 1 0
+F
+A 1 1 0
+F
+S 802 110 0
+#1343
+tattoo Veshalma storm cloud wave~
+a storm cloud and wave~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 4 -1 0
+F
+A 3 -1 0
+F
+A 2 1 0
+F
+A 1 1 0
+F
+S 103 50 0
+#1344
+tattoo Markul scales hourglass~
+golden scales over a silver hourglass~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 3 2 0
+F
+A 4 2 0
+F
+A 22 -10 0
+F
+A 21 -10 0
+F
+A 24 -10 0
+#1345
+tattoo Pajument dice cup~
+golden die against a black dice cup~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 26 5 0
+#1354
+tattoo Amathe hearth fire~
+a hearth with a fire burning~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 20 -2 0
+F
+A 22 -2 0
+F
+A 24 -2 0
+F
+A 21 -2 0
+F
+A 36 25 0
+F
+A 35 200 0
+F
+A 17 -10 0
+F
+A 4 2 0
+F
+A 19 -4 0
+F
+A 18 -4 0
+F
+A 13 200 0
+#1355
+tattoo Beronor sunburst~
+a radiant sunburst~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 13 50 0
+F
+A 20 -2 0
+F
+A 1 1 0
+F
+A 24 -2 0
+#1356
+Tattoo Felana cloud~
+A silver cloud on a blue sky background~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 23 -3 0
+#1357
+tattoo Wyihemi sheaf grain~
+A sheaf of golden grain~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+#1358
+tattoo Arondos harp~
+A golden harp~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 36 100 0
+F
+A 22 -1 0
+#1364
+tattoo Tiradel flaming sword~
+A flaming sword~
+If you see this contact an Immortal.~
+ink~
+trash M T
+0 0 0 0 0
+50 0 0 P
+F
+A 1 1 0
+F
+A 5 1 0
+F
+A 19 1 0
+F
+A 18 1 0
+#1365
+tattoo Rasazra lock chain~
+A silver lock and chain~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 1 1 0
+F
+A 3 2 0
+#1366
+Moiwen Spring Peace Tattoo~
+A laurel wreath~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+S 106 50 0
+F
+A 17 -20 0
+#1367
+Madshem tattoo tankards~
+A pair of overflowing tankards of ale.~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 22 -1 0
+F
+A 5 1 0
+#1368
+tattoo Dormicc  staff boots~
+A pair of boots with a staff superimposed over them.~
+If you see this contact an Immortal~
+Ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+A 36 200 0
+#0
+
+
+
+#ROOMS
+#1300
+`@The Hall of Gaemina``~
+You are in the Hall of Gaemina, Mother of Mirlan, Goddess of LIfe, Being and Nature.
+~
+~
+0 8448 9248 3
+D0
+~
+~
+0 0 1326
+D1
+~
+~
+0 0 1346
+D2
+~
+~
+0 0 1333
+D3
+~
+~
+0 0 1303
+D4
+~
+~
+0 0 1301
+D5
+~
+~
+0 0 1302
+S
+#1301
+`8The Plane of Structure and Form``~
+You are on the plane of structure and form.  The abode of Noirlz.  The Primal one.
+~
+~
+0 8448 1056 0
+D5
+~
+~
+0 0 1300
+S
+#1302
+`8The Void of Krasq``~
+You are in total Chaos.  Your mind and body are rendered completely.
+~
+~
+0 8448 1056 0
+D4
+~
+~
+0 0 1300
+S
+#1303
+~
+~
+~
+0 8448 1056 0
+D1
+~
+~
+0 0 1300
+D3
+~
+~
+0 0 1304
+S
+#1304
+~
+~
+~
+0 8448 1056 0
+D1
+~
+~
+0 0 1303
+D3
+~
+~
+0 0 1305
+S
+#1305
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1306
+D1
+~
+~
+0 0 1304
+D2
+~
+~
+0 0 1316
+S
+#1306
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1307
+D2
+~
+~
+0 0 1305
+D3
+~
+~
+0 0 1315
+S
+#1307
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1308
+D2
+~
+~
+0 0 1306
+D3
+~
+~
+0 0 1314
+S
+#1308
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1309
+D2
+~
+~
+0 0 1307
+D3
+~
+~
+0 0 1313
+S
+#1309
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1310
+D2
+~
+~
+0 0 1308
+D3
+~
+~
+0 0 1312
+S
+#1310
+~
+~
+~
+0 8448 1056 0
+D2
+~
+~
+0 0 1309
+D3
+~
+~
+0 0 1311
+S
+#1311
+`&The Hall of Bracc``~
+You are in the freezing wasteland known as the Hall of Bracc.  
+~
+~
+0 8448 1056 12
+D1
+~
+~
+0 0 1310
+S
+#1312
+`7The Hall of Wuzamuli``~
+You are in the Hall of Wuzamuli.
+~
+~
+0 8448 1056 1
+D1
+~
+~
+0 0 1309
+S
+#1313
+`!Hall of Tzaelcos``~
+You are in the Hall of Tzaelcos.
+~
+~
+0 8448 1056 11
+D1
+~
+~
+0 0 1308
+S
+#1314
+`!Hall of Morgorin``~
+You are in the Hall of Morgorin.
+~
+~
+0 8448 1056 11
+D1
+~
+~
+0 0 1307
+S
+#1315
+`1The Hall of Ixatros``~
+You are in the Hall of Ixatros.
+~
+~
+0 8448 9248 13
+D1
+~
+~
+0 0 1306
+S
+#1316
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1305
+D2
+~
+~
+0 0 1317
+D3
+~
+~
+0 0 1325
+S
+#1317
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1316
+D2
+~
+~
+0 0 1318
+D3
+~
+~
+0 0 1324
+S
+#1318
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1317
+D2
+~
+~
+0 0 1319
+D3
+~
+~
+0 0 1323
+S
+#1319
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1318
+D2
+~
+~
+0 0 1320
+D3
+~
+~
+0 0 1322
+S
+#1320
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1319
+D3
+~
+~
+0 0 1321
+S
+#1321
+`1Hall of Zarkirond``~
+You are in the Hall of Zarkirond.
+~
+~
+0 8448 17408 13
+D1
+~
+~
+0 0 1320
+S
+#1322
+`#Hall of Ulwarzi``~
+You are in the Hall of Ulwarzi.
+~
+~
+0 8448 1056 10
+D1
+~
+~
+0 0 1319
+S
+#1323
+`!Hall of Syithe``~
+You are in the Grand Hall of Syithe.
+~
+~
+0 8448 1056 11
+D1
+~
+~
+0 0 1318
+S
+#1324
+`1Hall of Jolma``~
+You are in the Hall of Jolma, Goddess of Pain.
+~
+~
+0 8448 17440 13
+D1
+~
+~
+0 0 1317
+S
+#1325
+`1The Hall of Imaju``~
+You are in the Hall of Imaju.
+~
+~
+0 8448 66560 13
+D1
+~
+~
+0 0 1316
+S
+#1326
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1327
+D2
+~
+~
+0 0 1300
+S
+#1327
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1330
+D1
+~
+~
+0 0 1328
+D2
+~
+~
+0 0 1326
+D3
+~
+~
+0 0 1332
+S
+#1328
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1329
+D3
+~
+~
+0 0 1327
+S
+#1329
+`4Hall of Lojani``~
+You are in the Hall of Lojani, Goddess of Water, Rain and Rivers.  A vast
+room of marble stretches before you, waterfalls trickling down the walls and
+small streams weave intricate mazes under your feet.  You are to be stripped
+down naked before entering this room, but you do not feel ashamed of your
+nudity, but rather at peace with it.  Large statues of blue and green fish
+adorn the room.  Before you is an altar of glass with water flowing
+underneath it.  
+~
+~
+0 8448 1056 7
+D2
+~
+~
+0 0 1328
+S
+#1330
+`8Hall of Rhuma``~
+You are in the Hall of Rhuma, God of Merchants, Wealth and Trade.
+~
+~
+0 8448 1056 0
+D2
+~
+~
+0 0 1327
+S
+#1331
+`2Hall of Ejamina``~
+You are in the Hall of Ejamina, Goddess of Forests, Hunting and Animals.
+~
+~
+0 8448 9248 14
+D2
+~
+~
+0 0 1332
+S
+#1332
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1331
+D1
+~
+~
+0 0 1327
+S
+#1333
+~
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 1300
+D2
+~
+~
+0 0 1334
+S
+#1334
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1333
+D2
+~
+~
+0 0 1335
+D3
+~
+~
+0 0 1345
+S
+#1335
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1334
+D1
+~
+~
+0 0 1344
+D2
+~
+~
+0 0 1336
+S
+#1336
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1335
+D2
+~
+~
+0 0 1337
+D3
+~
+~
+0 0 1343
+S
+#1337
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1336
+D1
+~
+~
+0 0 1342
+D2
+~
+~
+0 0 1338
+S
+#1338
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1337
+D2
+~
+~
+0 0 1339
+D3
+~
+~
+0 0 1341
+S
+#1339
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1338
+D1
+~
+~
+0 0 1340
+S
+#1340
+`^Hall of Dabyula``~
+You are in the Hall of Dabyula, God of Magic, Foresight and Dreams.  
+~
+~
+0 8448 1056 6
+D3
+~
+~
+0 0 1339
+S
+#1341
+`3Hall of Hoiwinas``~
+You are in the Hall of Hoiwinas, Goddess of Wine, Revelry and Lust.
+~
+~
+0 0 65536 4
+D1
+~
+~
+0 0 1338
+S
+#1342
+`1Sahaeyea``~
+You are in the Hall of Sahaeyea, God of Earth, Craftsmen and Smiths. 
+Patron Father to Dwarves and Miners.  
+~
+~
+0 8448 66592 13
+D3
+~
+~
+0 0 1337
+S
+#1343
+`$Hall of Veshalma``~
+You are in the Hall of Veshalma, Goddess of Oceans, Storms and the
+Weather.  
+~
+~
+0 8448 1056 15
+D1
+~
+~
+0 0 1336
+S
+#1344
+`7Hall of Markul``~
+You are in a crossed shaped temple.  Purple and Copper colors fill just
+about every nook and cranny of this place.  Above there us a copper shaped
+dome with murals of some of Markul's best and most loved followers.  Clerics
+and Cavaliers, Paladins and Warriors.  Most, decorated in the uniforms of
+LAW
+~
+~
+0 8448 1056 1
+D3
+~
+~
+0 0 1335
+S
+#1345
+`3Hall of Pajumet``~
+You are in the Hall of Pajumet.
+~
+~
+0 8448 66592 4
+D1
+~
+~
+0 0 1334
+S
+#1346
+~
+~
+~
+0 8448 1056 0
+D1
+~
+~
+0 0 1347
+D3
+~
+~
+0 0 1300
+S
+#1347
+~
+~
+~
+0 8448 1056 0
+D1
+~
+~
+0 0 1348
+D3
+~
+~
+0 0 1346
+S
+#1348
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1349
+D2
+~
+~
+0 0 1359
+D3
+~
+~
+0 0 1347
+S
+#1349
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1350
+D1
+~
+~
+0 0 1358
+D2
+~
+~
+0 0 1348
+S
+#1350
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1351
+D1
+~
+~
+0 0 1357
+D2
+~
+~
+0 0 1349
+S
+#1351
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1352
+D1
+~
+~
+0 0 1356
+D2
+~
+~
+0 0 1350
+S
+#1352
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1353
+D1
+~
+~
+0 0 1355
+D2
+~
+~
+0 0 1351
+S
+#1353
+~
+~
+~
+0 8448 1056 0
+D1
+~
+~
+0 0 1354
+D2
+~
+~
+0 0 1352
+S
+#1354
+`6Hall of Amathe``~
+You are in the Hall of Amathe, Goddess of Love, Healing and Hearth. 
+Patron Goddess to the Halflings.  
+~
+~
+0 8448 1056 9
+D3
+~
+~
+0 0 1353
+S
+#1355
+`7Hall of Beronor``~
+You are in the Hall of Beronor, God of Sun, Sky and Weal.
+ 
+~
+~
+0 8448 1056 1
+D3
+~
+~
+0 0 1352
+S
+#1356
+`6Hall of Felana``~
+You are in the Hall of Felana, Goddess of Air, Clouds and the Wind.
+~
+~
+0 8448 1056 9
+D3
+~
+~
+0 0 1351
+S
+#1357
+`3Hall of Wyihemi``~
+You are in the Hall of Wyihemi, Goddess of Fertility, Birth and the Harvest.
+ 
+~
+~
+0 8448 9248 2
+D3
+~
+~
+0 0 1350
+S
+#1358
+`3The Hall of Arondos``~
+You are in the Hall of Arondos, God of Art, Music and Poetry.
+~
+~
+0 8448 33824 4
+D3
+~
+~
+0 0 1349
+S
+#1359
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1348
+D1
+~
+~
+0 0 1368
+D2
+~
+~
+0 0 1360
+S
+#1360
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1359
+D1
+~
+~
+0 0 1367
+D2
+~
+~
+0 0 1361
+S
+#1361
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1360
+D1
+~
+~
+0 0 1366
+D2
+~
+~
+0 0 1362
+S
+#1362
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1361
+D1
+~
+~
+0 0 1365
+D2
+~
+~
+0 0 1363
+S
+#1363
+~
+~
+~
+0 8448 1056 0
+D0
+~
+~
+0 0 1362
+D1
+~
+~
+0 0 1364
+S
+#1364
+`6Tiradel``~
+You are in the Hall of Tiradel the god of Knighthood, Chivalry, Honor.
+~
+~
+0 8448 1056 9
+D3
+~
+~
+0 0 1363
+M 0 H 0
+S
+#1365
+`@Hall of Rasazra``~
+The Hall of Rasazra, Goddess of Purity, Sacrifice and Virtue.
+~
+~
+0 8448 33824 3
+D3
+~
+~
+0 0 1362
+S
+#1366
+`3Hall of Moiwen``~
+You are in the Hall of Moiwen Goddess of Spring and Peace.
+~
+~
+0 8448 9248 2
+D3
+~
+~
+0 0 1361
+S
+#1367
+`3Hall of Madshem``~
+You are in the hall of Madshem, Goddess of Merriment, Friendship and Ale.
+Patron Goddess of the Fey-Gnomes.  
+
+~
+~
+0 8448 33824 5
+D3
+~
+~
+0 0 1360
+S
+#1368
+`3Hall of Dormicc``~
+You are in the Hall of Dormicc, God of Travel, Adventure and Quests.
+~
+~
+0 8448 17440 4
+D3
+~
+~
+0 0 1359
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 1300 1 1300 1
+M 0 1301 1 1301 1
+M 0 1302 1 1302 1
+M 0 1311 1 1311 1
+M 0 1312 1 1312 1
+M 0 1313 1 1313 1
+M 0 1314 1 1314 1
+M 0 1315 1 1315 1
+M 0 1321 1 1321 1
+M 0 1322 1 1322 1
+M 0 1323 1 1323 1
+M 0 1324 1 1324 1
+M 0 1325 1 1325 1
+M 0 1329 1 1329 1
+M 0 1330 1 1330 1
+M 0 1331 1 1331 1
+M 0 1340 1 1340 1
+M 0 1341 1 1341 1
+M 0 1342 1 1342 1
+M 0 1343 1 1343 1
+M 0 1344 1 1344 1
+M 0 1345 1 1345 1
+M 0 1354 1 1354 1
+M 0 1355 1 1355 1
+M 0 1356 1 1356 1
+M 0 1357 1 1357 1
+M 0 1358 1 1358 1
+M 0 1364 1 1364 1
+M 0 1365 1 1365 1
+M 0 1366 1 1366 1
+M 0 1367 1 1367 1
+M 0 1368 1 1368 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#1344
+if isimmort $n
+           room echoat $n `!Greetings Immortal, How may I be of service to you?``
+    else
+           room echoat $n As you look on his divine being you feel you must.
+           room force $n kneel Markul
+           room force $n worship Markul
+endif
+~
+#0
+
+#$

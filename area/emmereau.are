@@ -1,0 +1,9168 @@
+#AREADATA
+Name Emmereaux~
+Pref ~
+Builders Crypticant Reaus~
+VNUMs 9000 9299
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 0
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#9001
+eel~
+a black eel~
+A black eel slithers among the waters here.
+~
+A long sleek and slimy eel swims about here.
+~
+unique~
+AGWd A 0 0 0 0
+7 1 3d15+75 0d0+0 2d3+3 sting
+4 4 4 7
+0 R 0 H
+stand stand none none~
+8
+0 0 medium 0
+#9006
+rainbow trout~
+the trout~
+A rainbow trout is swimming here.
+~
+A stripped colorful trout swims by looking for some food.
+~
+unique~
+AGWd A 0 0 0 0
+3 0 3d4+25 0d0+0 1d4+3 bite
+9 9 9 9
+0 R 0 0
+stand stand none none~
+4
+0 0 medium 0
+#9010
+city guard emmereaux~
+a city guard~
+A city guard of Emmereaux patrols the streets here.
+~
+Donned with bright silver scale mail, this guard is one of the Order of the
+Watch of Emmereaux. Loyal to the King himself, his armor bears the crest of
+Palinor, a blue field with a golden sword under a golden crown. On either
+side, raised in relief, is an attacking lion. The man also wears a coif with
+scarf marked with ermine.
+~
+human~
+AGd A 0 0 0 4400
+15 0 3d9+233 0d0+100 2d6+4 slash
+0 0 0 0
+HU 0 0 0
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#9015
+paige page boy lad young~
+the paige~
+A paige boy is hussling along on his way to run his errands.
+~
+This young lad has the sigil of the Emmereaux royals embroidered upon his
+tunic.  Not more than 13 years of age, he looks fairly strapping for all his
+youth.  While not overtly outfitted with upper class clothing he is none the
+less well dressed in his neatly donned tunic and pants.  
+~
+human~
+AGHSd A 0 0 450 0
+5 2 1d17+50 0d0+0 2d4+1 punch
+7 7 7 7
+H 0 0 0
+stand stand male none~
+6
+AHMV ABCDEFGHIJK medium 0
+#9017
+hunter lady woman huntress~
+A huntress~
+A huntress looks to be getting ready to head out into the woods to practice her profession.
+~
+This plain looking lady looks like she is preparing herself to go out
+into the forest and apply her trade.  She is weaving her hair up into a long
+pony tailed braid.  She is dressed in mostly green and browns with boots of
+black that have copious amounts of mud and road dust collected upon them. 
+She looks like she has a lot of elfiness in her although her general overall
+appearance seems to be that of a human.  
+~
+half-elf~
+ACGTWd A DJNOPV K 0 0
+13 5 5d30+150 0d0+0 3d5+7 arrows
+0 0 0 4
+EFHJNX 0 BC 0
+stand stand female none~
+12
+AHMV ABCDEFGHIJK medium 0
+#9019
+man lapidary jeweler~
+the lapidary~
+A lapidary is going about his business here.
+~
+The youthful looking late 30s to early 40s man seems to be checking him
+self over as he moves about his business.  Occasionally patting his pockets
+and running his fingers though his hair as he walks along.  
+~
+human~
+A A 0 0 0 0
+1 1 1d20+34 0d0+0 1d2+3 punch
+9 9 9 9
+H 0 0 0
+stand stand none none~
+10
+AHMV ABCDEFGHIJK medium 0
+#9035
+potter woman~
+a woman~
+A woman holding a clay pottery mold is here.
+~
+~
+human~
+AGHd A 0 0 350 0
+1 0 1d30+3 0d0+0 1d2+1 slap
+8 8 8 8
+0 0 0 0
+stand stand female none~
+10
+AHMV ABCDEFGHIJK medium 0
+#9038
+insane babbler babbling man~
+an insane babbler~
+A crazed looking insane-eyed babbling half-naked man is running about in circles here.
+~
+This guy looks like he has utterly lost his mind.  Babbling incoherently,
+running in circles with nothing on but a pair of cut off shorts.  He is
+covered from head to toe in dirt streaked sweat, matted hair and scapes and
+bruises that cover nearly every bit of exposed skin.  
+~
+human~
+AGd A a 0 0 0
+30 0 10d61+425 0d0+0 5d6+15 bite
+-10 -10 -10 -2
+CDFHIJNQX BPT 0 A
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#9043
+rat~
+a rat~
+A small brown rat is here looking a little aggitated.
+~
+~
+unique~
+AFGd A DJ 0 0 0
+1 0 1d5+1 0d0+0 1d3+0 bite
+9 9 9 9
+H 0 0 0
+stand stand none none~
+1
+0 0 tiny 0
+P GRALL 9043 75~
+#9044
+street walker hooker slut~
+a street walker~
+A street walker is peddling her wares.
+~
+Not one of the prettiest women in Emmereaux, but still, this
+middle-twenties-something female is dressed to attract paying customers. 
+Short-short leather skirt, barefoot, and a face painted in some of the most
+exotic colors one can imagine.  
+~
+human~
+AGHd A 0 0 -50 0
+5 2 1d15+50 0d0+0 2d3+1 slap
+0 0 0 0
+0 0 0 0
+stand stand male none~
+8
+AHMV ABCDEFGHIJK medium 0
+P GRALL 9044 100~
+#9045
+street cleaner~
+a street sweeper~
+A middle-aged man is here cleaning and sweeping up the streets.
+~
+~
+human~
+AGHd A 0 0 400 0
+5 1 1d20+50 0d0+0 2d3+2 none
+0 0 0 0
+0 0 0 0
+stand stand male none~
+2
+AHMV ABCDEFGHIJK medium 0
+#9051
+peasant girl woman~
+the peasant girl~
+A sandy brown hair peasant girl wanders around here.
+~
+Slight of build and just a little shy of average height this young lass
+looks rather plain and unremarkable.  
+~
+human~
+ACGHd A 0 0 650 0
+5 1 1d16+40 0d0+0 2d3+2 slap
+7 7 7 7
+0 0 B 0
+stand stand female none~
+3
+AHMV ABCDEFGHIJK medium 0
+#9054
+sleeping bum~
+the bum~
+A sleeping bum is here laying up against the sea wall.
+~
+Filthy and smelly this gentleman seems to be sleeping a hard night of
+drinking off next to the sea wall.  He looks to have a permanent spot picked
+out for just this occasion.  
+~
+human~
+ABGHe A ARd 0 0 0
+1 0 1d2+10 0d0+0 1d5+0 jab
+9 9 9 9
+D ABLPQR 0 0
+stand stand male none~
+3
+AHMV ABCDEFGHIJK medium 0
+#9055
+elderly woman hag~
+the hag~
+An elderly hag is wobbling through the area.
+~
+Looking well into her late 80's this woman looks pretty angry at just
+about everything.  Occasionally she stops and shakes her fist in the air,
+muttlering a bit too loudly the injustices of the youth.  
+~
+human~
+ACHSd A 0 0 0 0
+5 1 1d15+40 0d0+0 2d3+2 slap
+0 0 0 0
+0 0 B 0
+stand stand female none~
+10
+AHMV ABCDEFGHIJK medium 0
+P GRALL 9055 100~
+#9057
+salty sailor~
+the salty sailor~
+A salty looking sailor is staggering through the area.
+~
+You are looking at a middle aged man who appears to be of the sailing
+trade.  His leathery skin and wrinkled face signs of a life at sea.  
+~
+human~
+AGTd A 0 0 -100 0
+10 2 3d25+100 0d0+0 3d5+9 pound
+0 0 0 4
+0 0 B 0
+stand stand male none~
+11
+AHMV ABCDEFGHIJK medium 0
+P GRALL 9057 100~
+#9060
+solider guard Emmereaux sargent sgt~
+the Sargent~
+A massive ogre wearing the office of sargent in the Emmereaux military is here.
+~
+One of the largest ogres you have ever seen.  His entire body is a temple
+to strength and power.  Rippled cuts of muscle and intense hard eyes reflect
+this ogres dedication to perfecting his profession.  
+~
+ogre~
+AGTZd A J 0 450 0
+15 6 5d30+200 0d0+0 3d5+10 chop
+0 0 0 1
+0 0 0 C
+stand stand male none~
+7
+AHMV ABCDEFGHIJK medium 0
+#9065
+linkboy~
+the linkboy~
+A linkboy is here lighting and inspecting the city lights.
+~
+A young lad in his teens is walking around inspecting the lamps and
+lighting them when needed.  He looks to be well groomed but in peasant
+clothing.  His shoulder length hair is cut pageboy style. 
+~
+human~
+ACGHd A 0 0 0 0
+5 1 1d17+45 0d0+0 2d3+2 punch
+7 7 7 8
+HX 0 0 0
+stand stand male none~
+9
+AHMV ABCDEFGHIJK medium 0
+#9066
+Major Guard Quinn~
+the Major Quinn~
+Major Quinn the head of the southern tower Emmereaux guards is here.
+~
+You are looking at an imposing man.  He stands close to seven feet tall. 
+Extremely tall for a human.  His bronze skin and dark eyes are indicators
+that he is not native to Palinor.  
+~
+human~
+ACGJTZd A DJP 0 750 0
+15 5 5d30+161 0d0+0 3d5+8 pound
+0 0 0 5
+0 0 0 0
+stand stand male none~
+6
+AHMV ABCDEFGHIJK medium 0
+#9068
+acolyte tiradel cleric~
+the acolyte~
+An acolyte wearing blue and gold trimmed robes is here.
+~
+You see a pretty stout looking man wearing the tell-tale robes of
+Tiradel.  The bright blue and gold trimmed robes are immaculately clean.  On
+his chest is the holy symbol of Tiradel embroidered upon these heavy robes. 
+He seems to be intent on where ever it is that he is traveling.  
+~
+human~
+AGQd A DEFHJN 0 750 0
+20 4 7d40+225 0d0+0 4d5+10 none
+-2 -2 -2 4
+0 0 0 0
+stand stand male none~
+8
+AHMV ABCDEFGHIJK medium 0
+#9072
+street urchin beggar~
+the street urchin~
+A street urchin is here begging.
+~
+This street urchin is sitting here begging for coin.  He is extremely
+filthy.  His broken toe nails are caked with road filth.  His torn and
+tattered cloths are only more depressing than his shirtless back due to
+their condition.  
+~
+human~
+AGSd A 0 0 -100 0
+5 1 1d17+45 0d0+0 2d3+2 none
+7 7 7 8
+0 0 0 0
+stand stand male none~
+8
+AHMV ABCDEFGHIJK small 0
+#9075
+sausage lady~
+the sausage lady~
+A lady selling sausages is here hawking her wares.
+~
+~
+human~
+AGHd A 0 0 0 0
+25 5 9d60+375 0d0+0 4d6+11 slap
+-5 -5 -5 0
+DFX 0 0 0
+stand stand female none~
+15
+AHMV ABCDEFGHIJK medium 0
+#9078
+Jez hooker street walker~
+the hooker~
+A scantly dressed voluptuous woman is lounging around here.
+~
+Dressed in the barest of minimums to be considered covered.  This lady,
+if you can call her that, eyes you up and down as perhaps would someone who
+is wondering if you have money to spend.  She has long silvery hair that has
+a thin braid that runs the left side of her beautifully half-elven face. 
+She seems to have an infectious smile about her and a walk that is alluring
+to the eyes.  
+~
+half-elf~
+AGSd A JP 0 0 0
+20 8 7d40+225 0d0+0 4d5+10 slap
+-2 -2 -2 3
+EHX 0 B 0
+stand stand female none~
+15
+AHMV ABCDEFGHIJK medium 0
+P GRALL 9078 100~
+#9079
+merchant man old~
+the merchant~
+A merchant is pulling his empty cart along the street on his way to work.
+~
+~
+human~
+AGHd A 0 0 400 0
+15 4 5d30+75 0d0+0 3d5+10 beating
+0 0 0 1
+HIX 0 0 0
+stand stand male none~
+14
+AHMV ABCDEFGHIJK medium 0
+#9081
+thug young ~
+a thug~
+A young thug eyes you up and down.
+~
+This bent nose freak of a young man looks you over to see if you are an
+easy mark.  His ratty cloths and lack of shoes say "not very good thug."  
+~
+human~
+AGd A 0 0 -250 0
+10 2 3d25+125 0d0+0 2d6+6 punch
+3 3 3 5
+FHNX 0 0 0
+stand stand male none~
+6
+AHMV ABCDEFGHIJK medium 0
+#9084
+young man~
+the young man~
+There is a young man here looking around, searching for something.
+~
+You are looking upon a strapping young lad.  His auburn hair and hazel
+eyes seem to grab your attention.  His smooth baby face does not really
+reveal much about how old he is but his tall six foot stature might.  He
+looks to have large calloused hands, perhaps, those of a skilled
+trades-apprentice.  
+~
+human~
+AGHd A 0 0 406 0
+5 3 1d18+45 0d0+0 2d3+4 punch
+7 7 7 7
+HX 0 0 0
+stand stand male none~
+11
+AHMV ABCDEFGHIJK medium 0
+#9085
+stray cat~
+the cat~
+A calico stray cat is busy grooming istelf.
+~
+This feline has the multicolored trademark of a calico.  It seems to be
+searching for a meal.  
+~
+cat~
+AGHd A DJP 0 0 0
+10 4 3d15+100 0d0+0 2d3+2 scratch
+0 0 0 0
+FH 0 0 0
+stand stand none none~
+7
+AGV ACDEFHJKQUV small 0
+P GREET 9085 100~
+#9086
+Emmereaux citizen female~
+a female citizen~
+A female citizen of Emmereaux is here going about her business.
+~
+You are looking at an average if not homely looking lady.  She is dressed
+in a peasants dress with her hair braided in a pony tail, tied off with a
+green ribbon.  She is unremarkable in almost every way except that she has
+very striking blue eyes.  
+~
+human~
+AGHd A 0 0 750 0
+9 1 3d20+90 0d0+0 2d4+4 none
+4 4 4 7
+0 0 0 0
+stand stand female none~
+5
+AHMV ABCDEFGHIJK medium 0
+#9108
+travelling farmer~
+the farmer~
+A travelling farmer is on the road.
+~
+An elderly man in his late to mid 50's is here.  He looks much like the
+local citizen farmers of the area.  Haggard beard, slumped over a wee bit
+from the type of work he does day in and day out.  A little road dust puffs
+off of him as he strides forward. 
+~
+human~
+ACHd A 0 0 375 0
+8 1 1d20+50 0d0+0 2d5+5 slap
+4 4 4 7
+FJ 0 0 0
+stand stand male none~
+5
+AHMV ABCDEFGHIJK medium 0
+#9111
+boy fisher fishing lad~
+a boy~
+A young boy is here with his fishing pole on his way to snag some fish.
+~
+A young 10 or 11ish year old, blonde hair blue eyed slight of build is
+skipping along the road looking for a decent fishing hole to toss in a line.
+ 
+~
+human~
+ACHd A 0 0 500 0
+5 1 1d20+45 0d0+0 2d3+3 bite
+7 7 7 7
+HI B 0 0
+stand stand male none~
+2
+AHMV ABCDEFGHIJK medium 0
+#9112
+haggard traveler~
+a haggard traveler~
+A haggard traveler is here, moving goods along the Imperial Road.
+~
+This short person, of middle age, is covered head to toe in road dust.
+They are packed with several leather bags, as if carrying goods either
+to Emmereaux, or from to their homes in the Palinor.
+~
+human~
+ACEGSd A 0 0 200 0
+15 0 5d30+1000 0d0+100 3d8+15 punch
+-2 -2 -2 0
+HQTU LPR 0 B
+stand stand either none~
+8
+AHMV ABCDEFGHIJK medium 0
+#9114
+lady woman teenager~
+a young lady~
+A young woman is walking along the road, basket in hand, off to do her chores.
+~
+A red haired young woman of about 19 is walking along with basket in
+hand.  She seems to be intent on getting there with as few distractions as
+possible.  
+~
+human~
+ACHd A 0 0 750 0
+7 2 1d20+55 0d0+0 2d4+4 slap
+6 6 6 6
+HIX 0 B 0
+stand stand none none~
+5
+AHMV ABCDEFGHIJK medium 0
+P GRALL 9114 60~
+#9116
+dog wild~
+the wild dog~
+A mangy wild dog is scrounging around here.
+~
+~
+dog~
+AHd A EP 0 0 0
+10 2 3d20+100 0d0+0 2d5+5 bite
+4 4 4 5
+HX 0 0 B
+stand stand female none~
+10
+AGV ACDEFHJKUV small 0
+#9118
+eldery woodsman~
+the elderly woodsman~
+An elderly woodsman is going about his buisness here.
+~
+Along the road is this gruff looking wiry beared man who looks like he
+has seen a few too many winters.  Yet for all his numbered years, there
+seems to be stil a hint of youth and sparkle in his graying eyes.  
+~
+human~
+ACJd A P K 375 0
+15 5 5d30+160 0d0+0 3d5+20 pound
+0 0 0 4
+EHJKNQ B 0 0
+stand stand male none~
+14
+AHMV ABCDEFGHIJK medium 0
+#9119
+wandering Minstrel Emmereaux~
+the minstrel~
+A wandering minstrel is strumming her guitar and humming a melody.
+~
+~
+human~
+ASd A 0 0 500 0
+6 1 1d20+50 0d0+0 3d6+1 punch
+0 0 0 0
+0 0 B 0
+stand stand female none~
+7
+AHMV ABCDEFGHIJK medium 0
+#9120
+crippled cripple girl halfling~
+the cripple girl~
+A little crippled halfling girl is sitting here begging for change.
+~
+Here sits a little halfling girl.  She appears to be crippled from some
+childhood disease that has left her one leg shorter than the other
+significantly enough so that she cannot walk properly.  She is filthy from
+sitting in the dirty road, dried mud caked streaks run down her cheeks where
+it appears she has been crying.  
+~
+halfling~
+Ae A 0 0 600 0
+3 0 5d22+96 0d0+0 1d4+1 slap
+0 0 0 0
+H 0 C D
+stand stand female none~
+10
+AHMV ABCDEFGHIJK medium 0
+P GRALL 9120 35~
+#9121
+Palinese soldier~
+a Palinese soldier~
+A Palinese soldier is here, checking passers by.
+~
+Attired in bright steel armor, this Palinese soldier is
+directly related to the Emmereaux City Guard. He stands as
+a forewarning to would-be outlaws and heathens who would
+dare enter the city just to the south. His armor is quite
+characteristic of the local city's militia.
+~
+human~
+ABT A D 0 0 0
+25 6 4d6+500 0d0+100 4d6+9 slash
+-5 -5 -4 -1
+FJKT 0 D 0
+stand stand either none~
+9
+AHMV ABCDEFGHIJK medium 0
+#9122
+Palinese Gate Captain~
+Palinese Gate Captain~
+The North Gate Palinese Gate Captain is here inspecting his troops and the post.
+~
+~
+human~
+ABT A CDJN 0 600 0
+35 8 10d85+550 0d0+0 5d8+18 slash
+-12 -12 -12 -1
+EFHIJNTX A 0 0
+stand stand male none~
+19
+AHMV ABCDEFGHIJK medium 0
+#9123
+Palinese gate guard solider~
+Palinese gate guard~
+A Palinese gate guard stands their post here.
+~
+A buff stern looking guard is standing here wearing the sentry colors of
+Palinor.  His intense scrutiny is directed at the incoming and outgoing
+people through this gate.  
+~
+human~
+ABTe A DN 0 650 0
+30 7 10d65+420 0d0+0 5d6+16 none
+-9 -9 -9 0
+EFHTUX A 0 0
+stand stand male none~
+11
+AHMV ABCDEFGHIJK medium 0
+#9124
+citizen Emmereaux~
+a citizen of Emmereaux~
+A citizen of Emmereaux is walking the streets here.
+~
+This Palinese citizen is going about their everyday business
+in a rather ordinary way. In fact, most things about Palinor
+seem rather ordinary, and bleak, from the lack of color in the
+common clothing, to the lack of expression on the faces of the
+citizenry.
+~
+human~
+AGd AC 0 0 0 0
+15 2 2d4+120 0d0+100 5d6+5 punch
+0 0 0 0
+0 0 0 0
+stand stand male none~
+8
+AHMV ABCDEFGHIJK medium 0
+#9125
+foreign dignitary visiting Darhelm half-drow drow half~
+a half-drow dignitary~
+A half-drow dignitary is wandering the streets here.
+~
+By the dress of this unusual person it is plain to see that they are from
+Darhelm, the evil Empire to the north east.  By this half-drows dress and
+demeanor it is reasonable to assume that he is a dignitary from this far off
+land.  Although a handsome man in his own right this fellow has the look of
+someone who is up to no good as most drow are prone to be.
+~
+drow~
+AHQZd A JP 0 -350 0
+40 10 10d100+610 0d0+0 5d8+20 faith
+0 0 0 0
+FQX 0 BPQ 0
+stand stand male none~
+15
+AHMV ABCDEFGHIJK medium 0
+F vul Ya
+#9128
+woodworker carver man worker~
+a woodcarver~
+A man is sitting here carving slivers of wood.
+~
+This older man looks to be early 60s.  He has a long wiry salt and pepper
+beard that is tobacco stained from years of chewing tobacco.  His weathered
+eyes and slouched sitting seem contradictory to the steady strokes of his
+carving knife on the wood chips he holds.  
+~
+human~
+ACHTe A 0 0 100 0
+1 0 1d4+5 0d0+0 1d1+0 none
+10 10 10 10
+0 0 0 0
+stand stand none none~
+2
+AHMV ABCDEFGHIJK medium 0
+#9151
+executioner~
+the Executioner~
+The Executioner of Emmereaux stands here, looking grim.
+~
+He has been hired to sit watch and guard against those that may tresspass.
+Patience is his virtue for in time, his blade will surely sink into your
+unarmored hide.
+~
+human~
+ABGT AC 0 0 -750 10300
+50 50 25d10+3000 0d0+100 6d1+10 slash
+-20 -20 -20 -20
+IKU ACD 0 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+#9153
+farm lady~
+farmer lady~
+A farmer lady looks to be on her way to the market.
+~
+A middle-aged lady dressed in peasant clothing with the distinctive air
+of being a farmer or farmers wife is going about her daily business.  
+~
+human~
+AGHd A 0 0 0 0
+5 1 0d0+0 0d0+0 1d20+45 none
+7 7 7 7
+0 0 0 0
+stand stand none none~
+11
+AHMV ABCDEFGHIJK medium 0
+#9169
+squire boy lad ~
+a squire~
+A young squire boy meanders along.
+~
+A young lad about 18 or 19, fair of skin and short cropped hair tends to
+his liege's business.  Dressed in plain brown clothing and soft leather
+shoes, this boy seems pretty nondescript other than his youthful appearance.
+~
+human~
+AGd A 0 0 500 0
+10 2 3d25+100 0d0+0 2d5+6 slice
+4 4 4 6
+EHX 0 0 0
+stand stand male none~
+9
+AHMV ABCDEFGHIJK medium 0
+#9171
+noble minor lady~
+noble lady~
+A lady of some lower nobility comes though here at a steady gait.
+~
+She looks pissed.  It doesn't even look at though she sees you even while
+she looks at you it is as if she glares right through you like you were
+beneath her station.  You can almost here her think the words "peasant scum"
+as she breezes by you.  
+~
+human~
+A A 0 0 350 0
+20 4 7d40+225 0d0+0 4d5+10 none
+-2 -2 -2 4
+0 0 0 0
+stand stand female none~
+10
+AHMV ABCDEFGHIJK medium 0
+#9173
+beggar homeless~
+a homeless beggar~
+A homeless beggar rests in the corner.
+~
+Reeking of urine and booze this beggar nurses a cracked bottle
+of wine while issuing out swears and curses at all those who
+pass him by without leaving a cent. He is shabby, dressed in
+filthy rags and sporting a month's growth of a beard.
+~
+human~
+ACGHe A J 0 750 0
+10 0 2d7+121 0d0+100 2d4+2 punch
+1 1 1 8
+EFNU 0 0 0
+rest rest male none~
+6
+AHMV ABCDEFGHIJK medium 0
+#9181
+boy~
+a little boy~
+A little boy about six or seven is here playing in the sand.
+~
+A little boy is playing in the sand here building sand castles and having
+a good old time.  He giggles from time to time and goes about playing like
+he hasn't a care in the world.  
+~
+human~
+Ae A 0 0 450 0
+1 0 1d20+0 0d0+0 1d2+0 punch
+9 9 9 0
+0 0 0 0
+stand stand male none~
+2
+AHMV ABCDEFGHIJK medium 0
+#9185
+spider crab~
+a spider crab~
+A spider crab is here getting ready to re-enter the water.
+~
+~
+unique~
+AFGUW A 0 0 0 0
+1 10 1d6+0 0d0+0 1d1+0 claw
+0 0 0 0
+U R 0 H
+stand stand none none~
+2
+0 0 tiny 0
+#9189
+shrimper man ~
+a shrimper~
+A man casting his shrimp net out is wading the shallows here.
+~
+The shrimper is knee deep in water with his pant legs rolled up tossing
+out his shrimp net in hopes of a fresh catch of shrimp.  He looks well
+tanned from his days in the sun and fairly muscular from the hard work
+involved.  
+~
+human~
+AGHe A 0 0 400 0
+5 1 1d20+50 0d0+0 2d4+3 none
+6 6 6 6
+0 0 0 0
+stand stand male none~
+9
+AHMV ABCDEFGHIJK medium 0
+#9193
+west tower guard~
+the Emmereaux guard~
+A western tower guard of Emmeraux is standing his post here.
+~
+~
+human~
+AGd A 0 0 600 0
+10 0 3d22+96 0d0+0 2d5+5 punch
+4 4 4 7
+0 0 0 0
+stand stand male none~
+8
+AHMV ABCDEFGHIJK medium 0
+#9195
+male citizen Emmereaux~
+a male citizen~
+A male citizen of Emmereaux is walking the street.
+~
+This man seems to be unremarkable for the most part aside from that he is
+neatly dressed eve if so in peasant garb.  He doesn't look like he has a
+copper piece to his name but he looks somewhat pleased about his day.  
+~
+human~
+AGHd A P 0 600 0
+10 2 3d22+100 0d0+0 2d5+6 punch
+4 4 4 7
+FX 0 0 0
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#9196
+Sentinel Golem~
+the watch golem~
+A sentinel golem has been placed here to watch over the south western wall of Emmereaux.
+~
+Standing nearly 15 feet tall this golem appears to be made of a
+stone-like substance that has been so expertly carved that it nearly seems
+to be living stone.  It stands here near motionless save for its always
+scanning eyes, looking off to west and south ever vigilant attending to its
+charge. 
+~
+golem~
+ABGTZ A DEFJ A 0 0
+45 9 10d125+795 0d0+0 5d9+20 pound
+-18 -18 -18 -4
+CEFHNUX ABLNPQS CD K
+stand stand none none~
+24
+HJc ABCHIJK huge 0
+#9202
+acolyte healer~
+an acolyte of Morgorin~
+An acolyte of Morgorin is here, uttering curses.
+~
+Bedecked with black and gray robes, this wicked, tormented looking
+acolyte seems to utter curses at you and everything around him in
+a twisted, vile tongue. He is gaunt, almost skeletal in appearance,
+and bears the marking of a large skull on the front of his raiment.
+~
+human~
+ABGQVa A 0 0 1000 0
+60 0 10d10+3000 0d0+100 1d1+100 divine
+-20 -20 -20 -20
+FHK ABCD 0 0
+stand stand male none~
+28
+AHMV ABCDEFGHIJK medium 0
+#9231
+healer acolyte tiradel~
+an acolyte of Tiradel~
+An acolyte of Tiradel is here, communing his blessings.
+~
+~
+human~
+ABGQVa A 0 0 1000 0
+60 0 10d10+3000 0d0+100 1d1+100 divine
+-20 -20 -20 -20
+FHK ABCD 0 0
+stand stand none none~
+24
+AHMV ABCDEFGHIJK medium 0
+#9232
+acolyte markul healer~
+an acolyte of Markul~
+An acolyte of Markul is here, communing blessings.
+~
+Beset with heavy purple robes edged with a bright copper, this acolyte
+bears a richly embroidered rendering of an hourglass on the front of
+his tunic. On his shoulder is a merrily chirping Tarquin bird, which
+seems to eye you with an almost sentient look.
+~
+human~
+ABGQVa A 0 0 1000 0
+60 0 10d10+3000 0d0+100 1d1+100 divine
+-20 -20 -20 -20
+FHK ABCD 0 0
+stand stand male none~
+27
+AHMV ABCDEFGHIJK medium 0
+#9233
+healer acolyte rhuma~
+an acolyte of Rhuma~
+An acolyte of Rhuma is here, communing his blessings.
+~
+~
+human~
+ABGQVa A 0 0 1000 0
+60 0 10d10+3000 0d0+100 1d1+100 divine
+-20 -20 -20 -20
+FHK ABCD 0 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#9236
+leupold trainer Emmereaux~
+Leupold~
+Leupold, the trainer, is leaning idly by.
+~
+~
+human~
+AGJTUZbce AC H 0 0 0
+60 35 10d6+6000 0d0+100 6d8+40 slash
+3 3 3 3
+0 AB 0 0
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+P GRALL 9236 100~
+#9242
+lighthouse attender man~
+a lighthouse attender~
+THe lighthouse attender is here going about his business.
+~
+~
+human~
+ACGYZd A 0 0 375 0
+50 12 10d175+1000 0d0+0 5d10+25 pound
+-21 -2 -21 -21
+0 AB R 0
+stand stand male none~
+20
+AHMV ABCDEFGHIJK medium 0
+#9244
+Sanders~
+Sanders~
+Sanders the supply merchant is here waiting to take your order.
+~
+~
+human~
+ABCGTZe A CDEFGJ 0 0 0
+50 20 10d1000+5000 0d0+0 10d50+300 none
+-40 -40 -40 -40
+CEFHINX ABCD 0 0
+stand stand none none~
+23
+AHMV ABCDEFGHIJK medium 0
+#9245
+Yeeves Shop Keeper Shopkeeper~
+Yeeves the meat merchant~
+Yeeves the meat merchant is here tending his business.
+~
+Yeeves looks to be about in his late 20s to early 30s.  His strong hands
+and forearms look like they could choke a ox bare handed.  He has a fire pit
+going in the back where he roasts his meats as well as does his own
+butchering.  His messy long mane has been tied back but it partially has
+fallen out with the exertion of cutting meat and working over the pit. 
+Occasionally he emits a sigh as he goes about his daily chores.  
+~
+human~
+ABCGTZe A CDEFGJ 0 0 0
+50 20 10d1000+5000 0d0+0 10d50+300 none
+-40 -40 -40 -40
+CEFHINX ABCD 0 0
+stand stand none none~
+24
+AHMV ABCDEFGHIJK medium 0
+P TELL 9249 discuss selling~
+P RANDOM 9245 5~
+#9246
+Jubert blacksmith shopkeeper~
+Jubert~
+Jubert the blacksmith stands here working over her forge.
+~
+A robustly full figured middle aged female with rosy cheeks and pleasant
+smile bustles about as she tends to her store.  She is wearing a light blue
+dress with a white apron tied around back.  Her perky smile lifts her mother
+like dimples which highlights the twinkle in her blue eyes.  She reaches
+down into her apron and fiddles within the pockets.  
+~
+human~
+ABCce A DEJN 0 500 0
+50 12 10d200+1000 0d0+100 5d20+50 slap
+-27 -27 -27 -27
+EFHX ABCD 0 0
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+P GREET 5802 65~
+P TELL 9251 knock knock knock~
+#9247
+Saxon merchant~
+Saxon~
+Saxon, the wandering merchant, is here peddling his wares.
+~
+Saxon seems to be a rather large man.  His girth is mostly around his
+mid-section as it appears he has a fondness for food.  There is a slight
+hint of ale that is more like a calling card 20 paces before actually
+meeting or seeing him.  His balding head and crows feet are the really only
+true signs of his age although, it looks like he isn't all that old.  He
+wears a constant smile upon his face and often times his mirth and good
+cheer are evident by his occasional smirk or giggle even at what seems to be
+nothing at all.  
+~
+human~
+ABCGTZe A CDEFGJ 0 0 0
+50 20 10d1000+5000 0d0+0 10d50+300 none
+-40 -40 -40 -40
+CEFHINX ABCD 0 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#9250
+Leupold trainer Emmereaux~
+Leupold~
+Leupold, the trainer, is here showing off his skills.
+~
+~
+human~
+AGJTUZbce AC H 0 0 0
+60 35 10d6+6000 0d0+100 6d8+40 slash
+-40 -40 -40 -40
+Z AB 0 0
+stand stand male none~
+29
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 7803 10~
+#9252
+large brown sewer rat~
+a plague rat~
+A festering sore ridden plague rat slinks along the ground here.
+~
+This is one huge rat!  Its nasty looking gnashing teeth could be
+a significant problem to the careless.  Its brown with black streaked
+fur looks permanently stained from its life of squeezing in and out of
+very tight spaces.  Its crazed yellow eyes look square at you with defiance.
+~
+unique~
+AGH A X 0 -100 0
+3 5 4d6+10 0d0+100 5d6+10 bite
+-6 -6 -6 3
+0 0 LPQR ABH
+stand stand none none~
+4
+0 0 small 0
+#9253
+Hinua Warrior Guild Guard~
+Hinua, the Warrior Guild Guard~
+Hinua, the Warrior Guild Guard stands here with arms folded over her chest.
+~
+The woman seen before you is perhaps larger than most men of her age and
+profession, with huge bulking muscles and broad, square shouders.  She is
+scantly dressed, and wears little armor, though it appears she needs little
+protection from your every day troublemaker.  
+~
+human~
+ABGe A DFJ 0 0 0
+35 18 10d85+485 0d0+0 5d8+18 pound
+0 0 0 0
+CJV AB 0 0
+stand stand female none~
+20
+AHMV ABCDEFGHIJK medium 0
+#9254
+Borris Warrior Guildmaster~
+Borris, the Warrior Guildmaster~
+Borris, the Warrior Guildmaster stands here watching in silence.
+~
+Borris stands here in silence watching his pupils practice, a look of
+deep concentration marking his scarred face.  Tall and lean, he is nothing
+if not muscular, and he emits a powerful aura of strength.  
+~
+human~
+ABKT A DFH 0 0 0
+60 25 10d100+600 0d0+0 5d15+30 pound
+-29 -29 -29 -20
+CJN AB 0 0
+stand stand male none~
+29
+AHMV ABCDEFGHIJK medium 0
+#9255
+Udwubo Berserker Guild Guard~
+Udwubo, the Berserker Guild Guard~
+Udwubo, the Berserker Guild Guard stands here blocking the guild.
+~
+The bulging man seen before you is huge in size, and twisted in feature. 
+Scars cover his entire form, and he bares them with pride, guarding the
+entrance way into his guild.  
+~
+human~
+ABGZe A DFJa 0 0 0
+35 12 10d65+450 0d0+0 5d6+20 none
+-9 -9 -9 0
+EJNV ABLQ 0 0
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#9256
+Wavagu Berserker Guildmaster~
+Wavagu, the Berserker Guildmaster~
+Wavagu, the Berserker Guildmaster stands here.
+~
+The large man before you seems somewhat unstable in his dispostion, with
+twitching eyes and a constant frown of disapproval.  Large beyong belief for
+a human, he stands with bulking arms crossed over his massive chest.  
+~
+human~
+ABGKTe A DFHJa 0 0 0
+60 20 10d200+950 0d0+0 5d15+50 pound
+-29 -29 -29 -20
+EJX ABLQ 0 0
+stand stand male none~
+22
+AHMV ABCDEFGHIJK large 0
+#9257
+Rulid Ranger Guild Guard~
+Rulid, the Ranger Guild Guard~
+Rulid, the Ranger Guild Guard stands before the entrance.
+~
+A tall man cloaked in sandy brown robes stands here blocking the entrance
+to this guild, head bowed and features hidden beneath his hood.  
+~
+human~
+ABGe A DFJ 0 0 0
+35 10 10d82+520 0d0+0 5d7+18 none
+0 0 0 0
+JKNV ABLQ 0 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#9258
+Shuni Ranger Guildmistress~
+Shuni, the Ranger Guildmistress~
+Shuni, the Ranger Guildmistress is here making arrows.
+~
+A firey haired woman sits crossed legged in the center of the room, form
+cloaked in a deep green robe.  Head down, she works hard at the arrow in her
+hands, making sure of its quality.  
+~
+human~
+ABGKZce A DFHJ 0 0 0
+60 20 10d185+995 0d0+0 5d10+30 pound
+-27 -27 -27 -14
+EHJNX ABLQ 0 0
+stand stand female none~
+30
+AHMV ABCDEFGHIJK medium 0
+#9261
+Anilea Healer Guild Guard~
+Anilea, the Healer Guild Guard~
+Anilea, the Healer Guild Guard smiles as you approach.
+~
+A beautiful human woman stands here, smiling to you as you near her
+guild.  Though kind she does seem, she still will not let you pass.  
+~
+human~
+ABGe A DFJ 0 0 0
+40 12 10d9+580 0d0+0 5d10+25 slap
+-9 -9 -9 -1
+FHV ABLQ 0 0
+stand stand female none~
+19
+AHMV ABCDEFGHIJK medium 0
+#9262
+Janice Guildmistress Healer~
+Janice, the Healer Guildmistress~
+Janice, the Healer Guildmistress is here smiling softly.
+~
+The older lady seen before you emits both an aura of serenity and an
+essence of wisdom.  Her face is creased with lines from smiling and
+laughing, though her eyes of a gray sea color show that she has been witness
+to many days of sorrow as well as joy.  Hands folded gracefully over each
+other, she offers you a faint bow in greeting as she smiles.  
+~
+human~
+ABGKZe A DFHJ 0 400 0
+0 20 10d20+980 0d0+0 5d12+30 slap
+-30 -30 -30 -20
+FH ABLQ 0 0
+stand stand female none~
+1
+AHMV ABCDEFGHIJK medium 0
+#9263
+Hamus Paladin Guild Guard~
+Hamus, the Paladin Guild Guard~
+Hamus, the Paladin Guild Guard stands here before the doorway.
+~
+Covered from head to toe in gleaming mithril armor, the man who you see
+before you has the eyes of a fanatic, and the glow of one touched by a holy
+presence.  
+~
+human~
+ABGe A DFJ 0 200 0
+35 15 10d80+520 0d0+0 5d8+20 pound
+-8 -8 -8 0
+FV ABLQ 0 0
+stand stand male none~
+14
+AHMV ABCDEFGHIJK medium 0
+#9264
+Salaen Paladin Guildmaster~
+Salaen, the Paladin Guildmaster~
+Salaen, the Paladin Guildmaster stands here praying.
+~
+The man before you is covered from head to toe in simple white robes of a
+wool material.  Soft blonde hair covers his head in gentle curls that flow
+down to the nape of his neck.  Head bowed in prayer, he seems to be
+perfectly serene at the moment, though his blue eyes glimmer with the sheen
+of a dangerous fanatic.  
+~
+human~
+ABGKZe A DFHJ 0 300 0
+60 20 10d20+980 0d0+0 5d12+30 pound
+-29 -29 -29 -20
+FHI ABLQ 0 0
+stand stand male none~
+27
+AHMV ABCDEFGHIJK medium 0
+#9265
+Rolind Cavalier Guild Guard~
+Rolind, the Cavalier Guild Guard~
+Rolind, the Cavalier Guild Guard leans against the doorframe of the guild.
+~
+Rolind stands here, eyes half shut and leaning casually against the
+doorframe to the guild entrance.  Even in a resting position he is, he looks
+poised for any type of threat, like a snake coiling before it strikes.  
+~
+human~
+ABGe A DFJ 0 0 0
+35 18 10d80+500 0d0+0 5d8+20 pound
+-9 -9 -9 0
+FJV ABLQ 0 0
+stand stand male none~
+20
+AHMV ABCDEFGHIJK medium 0
+#9266
+Tailan Guildmaster Cavalier~
+Tailan, the Cavalier Guildmaster~
+Tailan, the Cavalier Guildmaster stands here admiring his pupils.
+~
+Tailan, the guildmaster to the association of Cavaliers stands here
+admiring the work and dillegence of his pupils.  A large, round brimmed hat
+sits askew over the top of his ashe blonde hair, and he wears clothes made
+entirely of tanned leather.  
+~
+human~
+ABGKZe A DFH 0 0 0
+60 20 10d200+980 0d0+0 5d12+30 pound
+0 0 0 0
+HIJ ABLQ N 0
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+#9267
+Mifar Cleric Guild Guard~
+Mifar, the Cleric Guild Guard~
+Mifar, the Cleric Guild Guard stands here blocking the entrance.
+~
+A tall, rather old man stands before you, wearing nothing other than a
+thick woolen robe of a white and green pattern.  His eyes are a strange,
+deep color, almost black which flicker like emeralds in the light.  You can
+see a small tattoo on the back of his left hand, perhaps some type of snake,
+though you dare not get close enough to inspect.  
+~
+human~
+ABGZce A DFJ 0 -100 0
+35 12 10d80+520 0d0+0 5d8+20 none
+-9 -9 -9 -1
+FV AB 0 0
+stand stand male none~
+16
+AHMV ABCDEFGHIJK medium 0
+#9268
+Jini Cleric Guildmaster~
+Jini, the Cleric Guildmaster~
+Jini, the Cleric Guildmaster stands here instructing.
+~
+The man seen before you is both elderly and frail, though carries himself
+and moves with the quickness of youth.  His short frame is covered in old,
+simple robes of a deep gray wool, and his head is practically bare, with
+little wisps of white sticking out from behind his unusually big ears.  
+~
+human~
+ABK A DFH 0 0 0
+60 20 10d20+980 0d0+0 5d12+30 pound
+-29 -29 -29 -20
+FH AB 0 0
+stand stand male none~
+29
+AHMV ABCDEFGHIJK medium 0
+#9271
+gnome alchemist !emmereauxportal!~
+a Mar'Kyer Alchemist~
+A Mar'Kyer Alchemist is here, selling trips through his portals.
+~
+This short, fat, stubby little gnome is a member of the elite Mar'Kyer
+Guild of Alchemy. They first discovered the methods of portal travel
+years ago, and keep their secret closely guarded from others outside
+of their own guild. They seem to run quite a racket here, with shops set
+in nearly every city around Mirlan.
+~
+gnome~
+ABe A DFHJ 0 0 0
+60 45 4d6+5000 10d10+9000 4d6+65 magic
+-21 -21 -19 -28
+0 AB 0 BP
+stand stand either none~
+25
+AHMV ABCDEFGHIJK tiny 0
+P DELAY 9 100~
+P RANDOM 25 50~
+P SPEECH 3 ulsym~
+P GRALL 2 100~
+P SPEECH 4 luva~
+P SPEECH 6 revelsport~
+P SPEECH 7 zalango~
+P SPEECH 8 dargoth~
+#9272
+Alchemist trainer Xvarious~
+Xvarious~
+Xvarious is here mumbling something about having to train youngsters.
+~
+A gnarled old gnome is pacing back and forth here mumbling under his
+breath.  His leathery face and potbelly are near comical.  He occasionally
+stops and scribbles something down on some parchment.
+~
+gnome~
+ABGJKZbce A DEFHJ 0 0 0
+60 20 10d600+2000 0d0+0 8d8+45 magic
+-40 -40 -40 -40
+EFHIXZ AB LQ 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+F vul BP
+#9273
+Yernal tailor trainer seam mistress~
+Seam Mistress Yernal~
+Seam Mistress Yernl is here guiding those that need training.
+~
+This lovely half-elf is here busy expertly measuring and cutting material.
+Unusable remnants are tossed all about the area where she has simply flung
+them in her haste to create.
+~
+half-elf~
+ABGJKZbce A DEFHJ 0 0 0
+60 15 10d600+2000 0d0+0 8d8+45 none
+-40 -40 -40 -40
+EFHIXZ AB BLQ 0
+stand stand female none~
+27
+AHMV ABCDEFGHIJK medium 0
+#9274
+miner guildmaster~
+the Guildmaster of the Miners~
+The Guildmaster of the Miners reclines here with a pipe.
+~
+Fat and jolly with a massive white beard, this long retired miner
+seems to take joy in teaching young miners the arts of rock hunting.
+He is dressed comfortably in a plaid shirt with leather pants and
+a set of worn out leather boots. A strange hat rests cockeyed on his
+slightly balding head.
+~
+elf~
+ABJKTVZb A 0 0 -100 0
+40 15 1d1+30000 0d0+100 1d4+10 slash
+-15 -15 -15 -15
+BEFHJKNZ ABCD B Z
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+F aff JP
+#9275
+thief guildmaster~
+the Thief Guildmaster~
+The Thief Guildmaster is here, observing you with interest.
+~
+~
+elf~
+ABJKTVZb A 0 0 -100 0
+60 15 1d1+30000 0d0+100 5d11+45 slash
+-40 -40 -40 -40
+BEFHJKN ABCD B Z
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+F aff JP
+#9277
+Sasha Thaumaturgist Guild Guard  Guildguard~
+Sasha, the Guild Guard~
+Sasha, the Thaumaturgist Guild Guard stands ready to defend her guild.
+~
+A woman cloaked in silver robes lined with a blue hems stands before
+you blocking the entrance to her guild.
+~
+human~
+ABGRe A DFJ 0 0 0
+35 15 10d80+520 0d0+0 5d8+20 magic
+-9 -9 -9 -1
+HKVX ABLQ 0 0
+stand stand female none~
+19
+AHMV ABCDEFGHIJK medium 0
+#9278
+Koiher Guildmaster Thaumaturgist~
+Koiher, the Master of Thaumaturgist Guild~
+Koiher, the Master of Thaumaturgist Guild stands here in thought.
+~
+The man seen before you is old beyond compare, yet it is still hard to
+put an exact age to him.  Vibrant crystal eyes burn with an inner light of
+one possessed, electic in the quality and unnerving in their brightness.  He
+stands tall, for age has not yet bent his bones, nor do you expect it to in
+your lifetime.  
+~
+human~
+ABKR A DFHJ 0 0 0
+60 25 10d20+980 0d0+0 4d12+35 magic
+-29 -29 -29 -20
+0 ABLQ 0 0
+stand stand male none~
+29
+AHMV ABCDEFGHIJK medium 0
+#9279
+Guild Guard Sorcerer Uli~
+Uli~
+The sorcerer Uli stands here guarding the guild entrance.
+~
+This strapping fellow is wearing a long flowing silver robe.  He looks to
+be rather young for one charged with such responsibility of guardian of this
+guild.  He eyes tell you that he has studied much and has the wisdom to
+handle his position with diligence and skill.  
+~
+human~
+ABGZce A DEFHJ 0 400 0
+35 9 10d135+900 0d0+0 5d8+20 magic
+-18 -18 -18 -20
+EFHIVX AB LQ 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+#9280
+Demetri guild trainer sorcerer~
+Demetri~
+Demetri, the Lady Trainer of the Sorcerers Guild is here.
+~
+This vision of loveliness radiates pure beauty with her warm greeting
+smile and twinkling eyes.  Her full lips and sharp features mark her as a
+half breed human-elf with much of the elven features over powering the human
+ones.  She is thin and dainty but the look in her eyes holds a danger not
+many are willing to ignite.  
+~
+half-elf~
+ABGJKZbce A DEFHJ 0 0 0
+60 15 10d600+2000 0d0+0 8d8+45 magic
+-40 -40 -40 -40
+EFHIX AB BLQ 0
+stand stand female none~
+22
+AHMV ABCDEFGHIJK medium 0
+#9281
+thief guildguard~
+the thief guildguard~
+A man hidden amid the shadows is here, guarding a door.
+~
+~
+human~
+ABSZ A 0 0 0 0
+35 7 25d10+3333 0d0+100 8d3+10 peck
+-12 -12 -12 -1
+FV 0 CD 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK tiny 0
+#9282
+dungeonmaster~
+the Dungeonmaster~
+A large, heavy set man guards the dungeon here.
+~
+This fat, disgusting man stands guard over the dungeon of Emmereaux.
+His unshaven face is streaked with sweat and grime, and his black,
+beady little eyes are set far back in his head. A cauliflower nose
+juts out protuberantly, while thick, meaty fingers toy with a heavy
+chain filled with keys that hangs from his ratty belt.
+~
+human~
+ABSZ A 0 0 0 0
+35 7 25d10+3333 0d0+100 8d3+10 beating
+-5 -5 -5 7
+EKb 0 CD 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK large 0
+#9284
+Lillian tavern wench~
+Lillian the tavern wench~
+Lillian, the Tavern Wench, is here, serving drinks.
+~
+This busty broad is the ideal candidate for the Maiden and the Sword.
+Indeed, she may even be the 'maiden' in question, though she looks anything
+but chaste and virtuous. She is human, for certain, with long black tresses
+braided on either side, trailing down to her elbows. Her proud nose only
+seems to accentuate her birdlike face with rosy, cherub cheeks, and the crow's
+feet around her bright, twinkling blue eyes show a life of happiness, but
+hard work. She is clad in a white blouse, cut low as to reveal her generous
+bosom, with a light blue silk petticoat trailing from her waist to the floor.
+A leather apron adorns the front of the petticoat.
+~
+human~
+ABE A D 0 0 0
+60 45 4d6+9000 0d0+100 4d6+45 slap
+-25 -23 -22 -18
+FHKNX AB 0 0
+stand stand female none~
+25
+AHMV ABCDEFGHIJK medium 0
+#9286
+Ardin stablemaster emmereaux~
+Ardin~
+Ardin, the Stablemaster of the Maiden and the Sword is here, tending his animals.
+~
+This rather young stablemaster is selling a wide variety of fine looking
+animals. The Palinese are renowned for their fine horses and excellent
+breeding, and Ardin's stock certainly reflects that.
+~
+human~
+ABTVZ A DJ 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 punch
+-30 -30 -30 -30
+EFHJK ABH D 0
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+P BRIBE 9290 500~
+P BRIBE 9289 250~
+P SPEECH 9288 warhorse~
+P SPEECH 9287 colt~
+#9287
+Palinese colt~
+a Palinese colt~
+A Palinese colt is reigned here.
+~
+Rich and muscular this quarterhorse, though young, looks like a powerful
+animal. His mane is a deep gloss black while his hide is a rich chestnut
+brown. His eyes are willful and wild, yet refined as if sentient. He is
+obviously of good stock.
+~
+horse~
+AEI A 0 0 0 0
+30 5 5d10+550 0d0+100 1d5+5 charge
+0 0 0 0
+0 0 0 0
+stand stand male none~
+14
+AGV ABCDEFHJK medium 0
+#9288
+warhorse palinese~
+a colossal Palinese warhorse~
+This massive Palinese warhorse is reigned here, covered in barding.
+~
+Covered in mighty plates padded with an intricate coat of arms a mighty
+stallion paws the ground here lashing its tail in anger.  Its eyes are
+ablaze with battle lust and it occasionally whinnies with anger.  
+~
+horse~
+AEI A 0 0 0 0
+35 5 5d10+550 0d0+100 1d5+5 charge
+0 0 0 0
+0 0 0 0
+stand stand male none~
+20
+AGV ABCDEFHJK large 0
+#9296
+Javiks Guildmaster Necromancer~
+Javiks, the Necromancer Guildmaster~
+Javiks, the Necromancer Guildmaster stands here in shadows.
+~
+Phasing in and out of view this thing that stands here is morbidly gross
+to gaze upon.  Festering and rotting flesh hangs off of its body.  The odor
+that emanates from its person is as foul as one can imagine.
+~
+lich~
+ABGJKOZbce A DEFHJ 0 -1000 0
+60 15 10d600+2000 0d0+0 8d8+45 pound
+-40 -40 -40 -40
+EFHIX ABLQ ILQ 0
+stand stand male none~
+27
+AHMV ABCDEFGHIJK medium 0
+F vul N
+#9297
+guild guard Yugoul necromancer~
+Yugoul, the Necromancer Guild Guard~
+Yugoul, the Necromancer Guild Guard is here blocking the entrance.
+~
+Clothed in a old tattered maroon robe this figure is hidden by the
+ancient garb.  Skeletal hands hang down below the cuffs of the robe
+revealing that perhaps, this thing is undead.  
+
+~
+undead~
+ABGOZce A DEFJ 0 0 0
+35 9 10d135+900 0d0+0 5d8+20 claw
+-18 -18 -18 -20
+EFHIVX ABLQ ILQ 0
+stand stand male none~
+15
+0 ABCDEFGHIJK medium 0
+F vul N
+#9298
+Horik, the Dark Knight Guildmaster~
+Horik, the Dark Knight Guildmaster ~
+Horik, the Dark Knight Guildmaster looks at you with scorn.
+~
+The man seen before you is massive in height, and broad of shoulder. 
+Fulled decked in a shimmering suit of onyx armor, he practically glows with
+an evil aura, and his face is in constant shadow, hiding his features.  A
+powerful essence emits from his person, and you quickly decide he is not a
+man to trifle with.  
+~
+human~
+ABGKRZe A DFHJ 0 -400 0
+60 12 10d168+929 0d0+0 5d10+25 pound
+-21 -21 -21 -6
+FJN ABLQ 0 0
+stand stand male none~
+24
+AHMV ABCDEFGHIJK large 0
+#9299
+Jesaen, the Dark Knight Guild Guardian~
+Jesaen~
+Jesaen, the Dark Knight Guild Guardian stands here.
+~
+The man before you is both tall and lean, with a face only a mother could
+love.  
+~
+human~
+ABGe A DFJ 0 -400 0
+30 10 10d61+416 0d0+0 5d6+15 pound
+-9 -9 -9 0
+HJNV ABLQ 0 0
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#9000
+Sign~
+a sign post~
+A signpost with its sign ripped off is here.~
+Wood~
+furniture 0 P
+0 0 0 0 0
+0 0 0 P
+#9001
+loaf bread~
+loaf bread~
+A loaf of bread is here.~
+grain~
+food 0 A
+12 4 0 0 12
+1 10 2 P
+#9002
+twist bread loaf~
+twist loaf bread~
+A loaf of twisty bread is here.~
+grain~
+food 0 A
+12 4 0 0 12
+1 10 2 P
+#9004
+Shrine of Lojani~
+A statue of Lojani~
+A statue of the goddess Lojani is here for her worshipers to pay homage.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#9005
+stale bread~
+stale bread~
+A loaf of day old hard, stale, bread is here.~
+grain~
+food 0 A
+24 2 0 0 24
+1 10 1 P
+#9006
+marble loaf bread~
+marble loaf~
+A loaf of marbled bread is here.~
+grain~
+food 0 A
+24 6 0 0 24
+1 10 3 P
+#9007
+chocolate donuts~
+chocolate donuts~
+A batch of fresh baked chocolate donuts is here.~
+grain~
+food 0 A
+12 6 0 0 12
+1 10 3 P
+#9008
+sand bar sandbar~
+a sand bar~
+A sand bar sits center of the river here.~
+dirt~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#9009
+smoked turkey leg~
+a smoked turkey leg~
+A smoked turkey leg is here.~
+flesh~
+food 0 A
+8 4 0 0 8
+1 10 2 P
+#9010
+fried gizzards~
+fried gizzards~
+Some fried gizzards are here.~
+flesh~
+food 0 A
+4 4 0 0 4
+1 10 2 P
+#9011
+fried fatback~
+fried fatback~
+Some fried fatback is here.~
+flesh~
+food 0 A
+4 4 0 0 4
+1 10 2 P
+#9012
+veal strips~
+veal strips~
+Some breaded veal strips are here.~
+flesh~
+food 0 A
+8 8 0 0 8
+1 10 4 P
+#9013
+smoked turkey necks~
+smoked turkey necks~
+Some smoked turkey necks are here.~
+flesh~
+food 0 A
+4 4 0 0 8
+1 10 2 P
+#9014
+filet chicken breast~
+chicken breast filet~
+A chicken breast filet is here.~
+flesh~
+food 0 A
+4 6 0 0 8
+1 10 3 P
+#9015
+smoked perch filet~
+smoked perch filet~
+A smoked perch filet is here.~
+flesh~
+food 0 A
+2 6 0 0 8
+1 10 3 P
+#9016
+pepper jack rolled chicken~
+pepper jack rolled chicken~
+Some pepper jack rolled chicken~
+flesh~
+food 0 A
+2 6 0 0 8
+1 10 3 P
+#9017
+meat stick~
+meat on a stick~
+Some meat on a stick is here.~
+cat~
+food 0 A
+2 2 0 0 8
+1 10 1 P
+#9018
+meat surprise~
+meat surprise~
+A hunk of meat surprise is here.~
+rat~
+food 0 A
+2 2 0 0 8
+1 10 1 P
+#9019
+backpack pack~
+a backpack~
+A burlap backpack is here.~
+burlap~
+container 0 AO
+30 AC 0 0 0
+1 30 10 P
+#9020
+canteen~
+a canteen~
+A silver canteen is here.~
+metal~
+drink 0 AO
+5 5 'water' 0 0
+1 20 5 P
+#9021
+large sack~
+a large sack~
+A large burlap sack is here.~
+burlap~
+container 0 AO
+0 0 0 0 0
+1 50 5 P
+#9022
+small sack~
+a small sack~
+A small leather sack is here~
+leather~
+container Y AO
+30 AC 0 0 0
+1 30 10 P
+#9023
+satchel~
+a satchel~
+A well oiled leather satchel is here.~
+leather~
+container 0 AO
+50 0 0 0 0
+5 20 15 P
+#9024
+hair piece~
+a hair piece~
+A bad immitation, black, human hair, piece is here.~
+hair~
+clothing 0 AE
+0 0 0 0 0
+10 1 10 P
+F
+A 1 2 0
+F
+A 3 -2 0
+F
+A 4 -2 0
+#9025
+purple felt boots~
+purple felt boots with rhinestones~
+A pair of purple felt boots with rhinestones is here.~
+felt~
+clothing 0 AG
+0 0 0 0 0
+1 50 10 P
+F
+A 14 15 0
+#9028
+kelp seaweed~
+a clump of kelp~
+A clump of kelp is floating along here.~
+unknown~
+trash 0 ANO
+0 0 0 0 0
+0 1 0 P
+#9038
+cut-off shorts~
+cut-off shorts~
+A pair of cut-off shorts are here.~
+unknown~
+clothing HMYc AL
+0 0 0 0 0
+30 0 0 P
+F
+A 12 -200 0
+#9039
+shard glass~
+a shard of glass~
+A long shard of brown glass is here.~
+glass~
+weapon 0 AN
+dagger 1 20 slash D
+10 2 0 P
+F
+A 19 2 0
+#9060
+spiked gauntlets~
+gauntlets~
+A pair of spiked gauntlets are here.~
+steel~
+armor Y AH
+3 5 5 3 0
+25 4 0 P
+F
+A 2 2 0
+F
+A 1 2 0
+#9068
+blue robe~
+a blue robe~
+A blue and gold trimmed robe with a symbol embroidered upon it.~
+cloth~
+clothing KLY AD
+0 0 0 0 0
+20 40 0 P
+L
+7
+E
+symbol~
+You are looking at the divine holy symbol of Tiradel.
+~
+F
+A 18 3 0
+F
+A 19 3 0
+#9069
+sword bastard~
+a sword~
+A well crafted bastard sword is here.~
+unknown~
+weapon 0 ANO
+sword 5 5 slash 0
+20 50 0 P
+#9070
+cart~
+a small cart~
+A small cart is here.~
+unknown~
+container 0 AO
+200 0 0 0 0
+15 300 0 P
+#9072
+tin cup~
+tin cup~
+A dented tin cup is here.~
+unknown~
+drink 0 AO
+1 0 'water' 0 0
+5 2 0 P
+#9074
+longsword sword~
+a sword~
+An iron long sword is here.~
+iron~
+weapon 0 AN
+sword 4 5 slash 0
+10 50 0 P
+#9075
+sausage~
+link sausage with hot mustard~
+A thick link sausage is here with hot mustard.~
+flesh~
+food 0 AO
+24 24 0 0 72
+1 2 12 P
+#9076
+hot mustard~
+hot mustard~
+Some hot mustard is here.~
+food~
+food 0 A
+2 2 0 0 2
+1 2 1 P
+#9077
+bun buns~
+some buns~
+Some fresh buns are here.~
+bread~
+food 0 A
+4 4 0 0 4
+1 0 2 P
+#9101
+hardtack~
+hardtack~
+A strip of hardtack is here.~
+unknown~
+food 0 A
+72 4 0 0 72
+1 10 2 P
+#9111
+fishing pole~
+a fishing pole~
+A fishing pole is here.~
+wood~
+trash 0 AO
+0 0 0 0 0
+5 40 0 P
+#9114
+basket~
+a wicker basket~
+A wicker woven basket is here.~
+wood~
+container 0 AO
+30 AC 0 0 0
+10 40 0 P
+#9116
+tree~
+a large tree~
+An absolutely stunning birch tree is here.~
+wood~
+trash 0 0
+0 0 0 0 0
+60 0 0 P
+#9118
+walking staff~
+a walking staff~
+A nicely polished walking staff with ornately carved dragons on it is here~
+wood~
+weapon Y ANO
+staff 5 5 smash 0
+15 20 0 P
+#9119
+guitar~
+a guitar~
+A seven stringed guitar is here.~
+wood~
+instrument 0 AO
+0 0 0 0 F
+0 70 0 P
+#9120
+gem~
+a gem~
+A gem is here.~
+gem~
+socket 0 A
+A ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef A ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0
+0 0 0 P
+L
+0
+#9121
+steel breastplate~
+a steel breastplate~
+A steel breastplate is lying on the ground here.~
+steel~
+armor 0 AD
+3 5 4 1 0
+10 20 5 P
+L
+0
+#9122
+halberd~
+a halberd~
+A heavy halberd is lying on the ground here.~
+steel~
+weapon 0 AN
+polearm 3 6 slash 0
+10 30 10 P
+L
+0
+#9123
+steel lance~
+a steel lance~
+A steel lance is lying on the ground here.~
+steel~
+weapon 0 AN
+lance 3 8 charge 0
+24 100 500 P
+#9124
+military fork~
+a military fork~
+A military fork is here.~
+steel~
+weapon 0 ANO
+polearm 5 9 pierce F
+30 0 0 P
+#9125
+breast plate~
+a breast plate~
+A polished steel breast plate with a lions head embossed in it is here.~
+steel~
+armor 0 AD
+5 5 5 3 0
+30 100 3 P
+#9126
+captains captain cloak red~
+a red cloak~
+A fine red silken cloak with silver trim is here.~
+unknown~
+clothing Y AC
+0 0 0 0 0
+35 20 0 P
+F
+A 24 5 0
+F
+A 1 2 0
+#9127
+lion bracers~
+bracers~
+A pair of ornate tan hide leather bracers are here~
+unknown~
+armor 0 AI
+1 1 1 5 0
+35 1 0 P
+F
+A 2 4 0
+#9128
+black gray robe morgorin~
+a robe~
+A fine black and gray robe.~
+ethreal~
+clothing GRTY AKO
+0 0 0 0 0
+0 1 1 P
+E
+robe~
+You are looking at one of the finest robes you may have ever seen.  It is
+made out of some kind of material that seems to be smoother than silk and
+lighter than air.  Its blackness is blacker than the night and the gray trim
+seems to glisten silver.  At the center of this marvelous robe is a gray
+skull embroidered with what looks to be actual silver threading.  Some
+strange symbols also accompany this symbol, that seem to translate in your
+mind without your understanding.  
+ 
+The words resonate `!First Order of Morgorin``
+~
+E
+symbol~
+`!     _-==-_  
+   x'      'x
+  Y          Y
+  |'._    _,'|
+  ( (_)  (_) )
+   \"  00  "/ 
+   '| #### |
+     \_.._/``
+~
+E
+skull~
+`!     _-==-_  
+   x'      'x
+  Y          Y
+  |'._    _,'|
+  ( (_)  (_) )
+   \"  00  "/ 
+   '| #### |
+     \_.._/``
+~
+#9129
+carving knife~
+a carving knife~
+A wood carving knife is here.~
+unknown~
+weapon 0 ANO
+dagger 1 4 pierce DE
+60 1 0 P
+#9164
+large sausage~
+a large sausage~
+A large thick hearty sausage is here.~
+flesh~
+food 0 A
+2 2 0 0 2
+1 2 1 P
+#9178
+marble bench~
+a bench~
+A hand crafted carved green marble bench is here.~
+marble~
+furniture 0 0
+0 0 0 0 0
+0 32000 0 P
+F
+A 12 100 0
+#9179
+driftwood~
+driftwood~
+A piece of driftwood is laying here.~
+wood~
+weapon 0 AO
+mace 3 3 pound 0
+0 3 0 P
+#9185
+crab spider~
+a spider crab~
+A spider crab is resting here.~
+flesh~
+food 0 AO
+72 6 0 0 72
+5 0 3 P
+#9186
+clam~
+a clam~
+A clam sits here.~
+unknown~
+food 0 AO
+12 4 0 0 12
+1 1 2 P
+#9190
+shrimp~
+a shrimp~
+A shrimp is here, swimming.~
+flesh~
+food 0 AO
+4 4 0 0 4
+1 0 2 P
+#9193
+soldiers cot~
+a cot~
+A soliders straw lined cot is here.~
+wood~
+furniture 0 AO
+0 0 0 0 0
+0 50 0 P
+#9196
+twohanded mithril maul~
+a maul~
+A giant maul made of mithtril is here.~
+mithril~
+weapon GHY AN
+mace 5 11 pound F
+50 100 0 P
+F
+A 18 5 0
+F
+A 1 5 0
+#9197
+cots~
+cots~
+Cots are here for the guards to take turns using on their off duty time.~
+wood~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#9199
+forge~
+a forge~
+A rusting and long forgotten forge has been left here decaying.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 32000 0 P
+#9200
+altar Syithe~
+an altar~
+An altar with an open eye engraved into it is here seemingly out of place.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#9231
+pit sacrifice~
+a sacrificial pit~
+A sacrificial pit lies here in waiting.~
+earth~
+container 0 0
+0 0 0 1000 100
+1 0 0 P
+L
+0
+#9232
+altar Tiradel~
+an altar~
+An altar to Tiradel is here for you to bend your knee to.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#9233
+altar Markul~
+an altar~
+An altar in the shape of an hourglass is here for you to worship of Markul.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#9234
+altar Rhuma~
+a altar~
+An altar to the god of merchants and tradesmen, Rhuma, is here for your worshiping needs.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#9236
+comfy straw bed~
+a bed~
+A comfy looking well made straw bed is here.~
+straw~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#9237
+forge~
+a forge~
+A forge rests here for blacksmiths to practice their art.~
+drop forge steel~
+furniture 0 0
+0 0 0 0 0
+100 32000 32000 P
+#9238
+practice sword twohanded~
+a wooden twohanded sword~
+A practice twohanded sword is here.~
+wood~
+weapon 0 AN
+sword 2 2 slash F
+1 40 200 P
+#9239
+practice axe twohanded~
+a wooden twohanded axe~
+A practice twohanded axe is here.~
+wood~
+weapon 0 AN
+axe 2 2 chop F
+1 40 200 P
+#9240
+practice glaive polearm~
+a wooden glaive~
+A wooden practice glaive is here.~
+wood~
+weapon 0 AN
+polearm 2 2 slash 0
+1 40 100 P
+#9241
+beds~
+beds~
+Beds are here for the lighthouse crew to use.~
+cloth~
+furniture 0 0
+0 0 0 0 0
+60 32000 0 P
+F
+S 3 2 0
+#9242
+light ~
+the light~
+The light house light.~
+light~
+light 0 0
+0 0 999 0 0
+60 32000 0 P
+#9243
+practice mace~
+a wooden mace~
+A wooden mace rests here.~
+wood~
+weapon 0 AN
+mace 2 2 smash 0
+1 40 100 P
+#9244
+practice staff~
+a wooden staff~
+A wooden practice staff is here.~
+wood~
+weapon 0 AN
+staff 2 2 smash 0
+1 40 100 P
+#9245
+practice whip~
+a practice whip~
+A oil stiffened practice whip is here.~
+cloth~
+weapon 0 AN
+whip 2 2 whip 0
+1 40 100 P
+#9246
+practice flail~
+a practice flail~
+A wooden practice flail is here.~
+wood~
+weapon 0 AN
+flail 2 2 smash 0
+1 40 100 P
+#9247
+practice lance~
+a wooden lance~
+A wooden practice lance is resting here.~
+wood~
+weapon 0 AN
+lance 2 2 charge 0
+1 40 100 P
+#9248
+practice sword~
+a practice sword~
+A wooden practice sword is here.~
+wood~
+weapon 0 AN
+sword 2 2 slash 0
+1 40 100 P
+#9249
+practice dagger~
+a wooden dagger~
+A wooden dagger is here.~
+wood~
+weapon 0 AN
+dagger 2 2 pierce 0
+1 40 100 P
+#9250
+practice axe~
+a wooden axe~
+A wooden practice axe is here.~
+wood~
+weapon 0 AN
+axe 2 2 pierce 0
+1 40 100 P
+#9251
+practice spear~
+a wooden spear~
+A wooden practice spear is resting here.~
+wood~
+weapon 0 AN
+spear 2 2 pierce 0
+1 40 100 P
+#9252
+cracked well~
+a cracked well~
+A cracked well is here, half filled with murky liquid.~
+stone~
+fountain 0 0
+-1 -1 'water' 0 0
+1 10000 0 P
+L
+0
+#9282
+dungeon key~
+a brass skeleton key~
+A tarnished brass key is lying here.~
+brass~
+key AG AL
+0 0 0 0 0
+30 10 2 P
+L
+0
+#0
+
+
+
+#ROOMS
+#9216
+`@The Temple Square ``~
+You stand within the Temple Square of Emmereaux. This well groomed
+section of lush greenery is immaculately kept by the royalty of the
+city. Large cobblestones are set into the lawn like grass which
+lead to all of the major temples in this square. The square itself
+is a hubbub of activity, ranging from passing commoners cutting
+through the quad on their way to work to devout worshippers and
+clergy coming and going from the shrines.
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 9217
+D3
+~
+~
+0 0 9215
+S
+#9217
+`@The Temple Square ``~
+You stand within the Temple Square of Emmereaux. This well groomed
+section of lush greenery is immaculately kept by the royalty of the
+city. Large cobblestones are set into the lawn like grass which
+lead to all of the major temples in this square. The square itself
+is a hubbub of activity, ranging from passing commoners cutting
+through the quad on their way to work to devout worshippers and
+clergy coming and going from the shrines.
+ 
+Eastward lies the Temple of Rhuma.
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 9233
+D3
+~
+~
+0 0 9216
+S
+#9218
+`@The Temple Square ``~
+You stand within the Temple Square of Emmereaux. This well groomed
+section of lush greenery is immaculately kept by the royalty of the
+city. Large cobblestones are set into the lawn like grass which
+lead to all of the major temples in this square. The square itself
+is a hubbub of activity, ranging from passing commoners cutting
+through the quad on their way to work to devout worshippers and
+clergy coming and going from the shrines.
+ 
+Southward lies the Temple of Rhuma.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 9219
+D2
+~
+~
+0 0 9233
+S
+#9219
+`@The Temple Square ``~
+You stand within the Temple Square of Emmereaux. This well groomed
+section of lush greenery is immaculately kept by the royalty of the
+city. Large cobblestones are set into the lawn like grass which
+lead to all of the major temples in this square. The square itself
+is a hubbub of activity, ranging from passing commoners cutting
+through the quad on their way to work to devout worshippers and
+clergy coming and going from the shrines.
+ 
+Northward lies the Temple of Markul.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 9232
+D2
+~
+~
+0 0 9218
+S
+#9220
+`@Northern Temple Square ``~
+You stand within the Temple Square of Emmereaux. This well groomed
+section of lush greenery is immaculately kept by the royalty of the
+city. Large cobblestones are set into the lawn like grass which
+lead to all of the major temples in this square. The square itself
+is a hubbub of activity, ranging from passing commoners cutting
+through the quad on their way to work to devout worshippers and
+clergy coming and going from the shrines.
+ 
+Eastward lies the Temple of Markul.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 9232
+D3
+~
+~
+0 0 9221
+S
+#9221
+`@Northern Temple Square ``~
+You stand within the Temple Square of Emmereaux. This well groomed
+section of lush greenery is immaculately kept by the royalty of the
+city. Large cobblestones are set into the lawn like grass which
+lead to all of the major temples in this square. The square itself
+is a hubbub of activity, ranging from passing commoners cutting
+through the quad on their way to work to devout worshippers and
+clergy coming and going from the shrines.
+ 
+Westward lies the Temple of Tiradel.
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 9220
+D3
+~
+~
+0 0 9231
+S
+#9222
+`@The Temple Square ``~
+You stand within the Temple Square of Emmereaux. This well groomed
+section of lush greenery is immaculately kept by the royalty of the
+city. Large cobblestones are set into the lawn like grass which
+lead to all of the major temples in this square. The square itself
+is a hubbub of activity, ranging from passing commoners cutting
+through the quad on their way to work to devout worshippers and
+clergy coming and going from the shrines.
+ 
+Northward lies the Temple of Tiradel.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 9231
+D2
+~
+~
+0 0 9223
+S
+#9223
+`@The Temple Square ``~
+You stand within the Temple Square of Emmereaux. This well groomed
+section of lush greenery is immaculately kept by the royalty of the
+city. Large cobblestones are set into the lawn like grass which
+lead to all of the major temples in this square. The square itself
+is a hubbub of activity, ranging from passing commoners cutting
+through the quad on their way to work to devout worshippers and
+clergy coming and going from the shrines.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 9222
+D2
+~
+~
+0 0 9215
+S
+#9224
+`8A wide alley ``~
+You find yourself walking along a narrow, cramped alleyway. The
+alley runs between several taller structures, most likely living
+quarters. It reeks of urine and dung, most likely from horses who
+use these alleys as shortcuts between the districts. Sword Street
+lies just east of you.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9236
+D3
+~
+~
+0 0 9132
+S
+#9225
+`8A wide alley ``~
+You find yourself walking along a narrow, cramped alleyway. The
+alley runs between several taller structures, most likely living
+quarters. It reeks of urine and dung, most likely from horses who
+use these alleys as shortcuts between the districts. Sword Street
+lies just east of you.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9235
+D3
+~
+~
+0 0 9135
+S
+#9226
+`8A wide alley ``~
+You find yourself walking along a narrow, cramped alleyway. The
+alley runs between several taller structures, most likely living
+quarters. It reeks of urine and dung, most likely from horses who
+use these alleys as shortcuts between the districts. Southward,
+a small door is open, with a man standing before it.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9173
+D2
+~
+~
+0 0 9281
+D3
+~
+~
+0 0 9236
+S
+#9227
+`8A wide alley ``~
+You find yourself walking along a narrow, cramped alleyway. The
+alley runs between several taller structures, most likely living
+quarters. It reeks of urine and dung, most likely from horses who
+use these alleys as shortcuts between the districts. Sword Street
+lies just east of you.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9176
+D3
+~
+~
+0 0 9235
+S
+#9228
+`8Rhuma Road ``~
+You stand on Rhuma Road, a small, narrow packed dirt road that 
+leads north and south, through Emmereaux. Because of the fog, rain, 
+and generally damp conditions, Rhuma seems to be in a perpetual 
+state of muddiness, and such clings to nearly everything around you. 
+To your immediate south lies a training area.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9229
+D2
+~
+~
+0 0 9235
+S
+#9229
+`8Rhuma Road ``~
+You stand on Rhuma Road, a small, narrow packed dirt road that 
+leads north and south, through Emmereaux. Because of the fog, rain, 
+and generally damp conditions, Rhuma seems to be in a perpetual 
+state of muddiness, and such clings to nearly everything around you. 
+To your immediate north lies a training area.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9236
+D2
+~
+~
+0 0 9228
+S
+#9230
+`8Rhuma Road ``~
+You stand on Rhuma Road, a small, narrow packed dirt road that 
+leads north and south, through Emmereaux. Because of the fog, rain, 
+and generally damp conditions, Rhuma seems to be in a perpetual 
+state of muddiness, and such clings to nearly everything around you. 
+To your immediate south lies a training area.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9138
+D2
+~
+~
+0 0 9236
+S
+#9231
+`8The Temple of Tiradel ``~
+You stand within a rising, cross-shaped hall that has exits on
+all four sides. The southernmost portion of the hall extends a
+bit further, giving you the impression of a sword. Indeed, above
+you etched into the rafters are the relief sculptures of several
+swords, crosses, and mounted above them, a myriad of stone carvings
+resembling weather-worn griffons. In several alcoves around the
+room are mounted raiments of combat, including helms and mail.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 9209
+D1
+~
+~
+0 0 9221
+D2
+~
+~
+0 0 9222
+D3
+~
+~
+0 0 9210
+D5
+~
+~
+0 0 7701
+P GRALL 9232 100~
+P SPEECH 9231 worship~
+S
+#9232
+`8The Temple of Markul ``~
+You stand within a large cross-shaped room with symmetrical
+risers that ascend to support a massive copper dome roughtly
+fifty feet overhead. The stone rafters are open to the outside
+air and are decorated heavily with geometric designs which are
+picked out in relief along them. Several Tarquin birds can be
+seen perched on the rafters overhead of this cross-shaped
+edifice.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 9213
+D1
+~
+~
+0 0 9214
+D2
+~
+~
+0 0 9219
+D3
+~
+~
+0 0 9220
+D5
+~
+~
+0 0 7701
+S
+#9233
+`8The Temple of Rhuma ``~
+You stand in the very center of a structure that closely
+resembles a wheel-like structure. Well over fifty feet overhead
+a large spire juts skyward, shining in the light from several
+small bird windows opened inside it. Exits lead in all of the
+cardinal directions from this hub of sanctuary outward toward
+the commercial districts of the city.
+~
+~
+0 8 0 1
+D0
+~
+~
+0 0 9218
+D1
+~
+~
+0 0 9212
+D2
+~
+~
+0 0 9211
+D3
+~
+~
+0 0 9217
+D5
+~
+~
+0 0 7701
+S
+#9234
+`8Rhuma Road ``~
+You stand on Rhuma Road, a small, narrow packed dirt road that leads
+north and south, through Emmereaux. Because of the fog, rain, and
+generally damp conditions, Rhuma seems to be in a perpetual state
+of muddiness, and such clings to nearly everything around you. To
+your immediate north lies a training area.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9235
+D2
+~
+~
+0 0 9053
+S
+#9235
+`3The Training Quadrangle ``~
+You are standing in the center of a wide, dirt field. Set into the
+ground with stakes are several practice dummies which are weather
+worn and beaten up, all caked with the yellow mud that is so ever
+present along Rhuma Road. A man stands in the center of the field,
+looking quite like the weather worn soldier he most certainly is.
+A narrow alleyway runs off to your east and west.
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 9228
+D1
+~
+~
+0 0 9227
+D2
+~
+~
+0 0 9234
+D3
+~
+~
+0 0 9225
+S
+#9236
+`3The Training Quadrangle ``~
+You are standing in the center of a wide, dirt field. Set into the
+ground with stakes are several practice dummies which are weather
+worn and beaten up, all caked with the yellow mud that is so ever
+present along Rhuma Road. A man stands in the center of the field,
+looking quite like the weather worn soldier he most certainly is.
+A narrow alleyway runs off to your east and west.
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 9230
+D1
+~
+~
+0 0 9226
+D2
+~
+~
+0 0 9229
+D3
+~
+~
+0 0 9224
+S
+#9237
+`3A shady path ``~
+You are walking along a shady, overgrown pathway. Dead weeds and
+bits of broken stone and trash lie all around you, while run down
+buildings with broken fences lie on either side of you. To the east
+lies the entrance to Lighthouse Square, while the path continues
+further to the west.
+~
+~
+0 0 8192 2
+D1
+~
+~
+0 0 9151
+D3
+~
+~
+0 0 9238
+S
+#9238
+`3An overgrown path ``~
+You are walking along a shady, overgrown pathway. Dead weeds and
+bits of broken stone and trash lie all around you, while run down
+buildings with broken fences lie on either side of you. To the east
+lies the entrance to Lighthouse Square, while the path continues
+further to the west.
+~
+~
+0 0 32768 2
+D1
+~
+~
+0 0 9237
+D3
+~
+~
+0 0 9240
+S
+#9239
+`3A shady path ``~
+You are walking down a narrow, weeded path that seems to lead from
+Camden Avenue to the north to a small clearing just to your south.
+You are definitely among the seedier districts of town as is evident
+by the run down shacks and trash that don either side of the path.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 9019
+D2
+~
+~
+0 0 9240
+S
+#9240
+`8Before a massive vault ``~
+You stand before a massive cryptlike vault. A heavy stone door
+is set into the ground here, and bears a large embossed skull
+on the front, which has been painted silver. Remnants of melted
+wax candles lie scattered about the yard. In each direction save
+west, a narrow, weeded path leads into various sections of the
+city.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9239
+D1
+~
+~
+0 0 9238
+D2
+~
+~
+0 0 9208
+D5
+~
+vault~
+A 0 9201
+S
+#9241
+`8Ascending the Lighthouse ``~
+~
+~
+0 8 0 0
+D4
+~
+~
+AB 0 9242
+D5
+~
+~
+AB 0 9033
+S
+#9242
+`8Atop the Lighthouse ``~
+You are at the top of the lighthouse.  The view is beautiful most of the
+time when the fog burns off from the morning sun.  Nearly as tall as the
+guard towers, this building is not near as old.  A huge steel forged cage
+with sliders sits dead center of the room upon a circular track which is
+turned but the large attached wooden handle wheel.  
+~
+You are in a very intensely lit room.  The bright light seems to be coming
+from the center of the room and is near impossible to look at directly. 
+~
+0 8 0 0
+D5
+~
+~
+AB 0 9241
+S
+#9243
+`8The Alchemist's Stave ``~
+A sign reads in trade common above the door.
+The shop is closed for repairs.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 9150
+D4
+~
+~
+0 0 9248
+S
+#9244
+`8Sanders Supply House``~
+You are in Sanders Supply House.  This mercantile is a wooden building
+that looks to be newly built.  The smell of charred wood is pretty strong
+and there are places in the corners where it appears the place was rebuilt
+from a damaging fire.  
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 9145
+D4
+~
+~
+0 0 9249
+S
+#9245
+`8The City Mercantile ``~
+This small mercantile smells of raw and cooked meats.  Hanging from the
+rafters are hooks where raw meat is hung, awaiting the cooking pit.  Slabs
+of all kinds of meat products are being made by Yeeves, the meat man.  
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 9146
+D4
+~
+~
+0 0 9250
+S
+#9246
+`8The Smith and Forge ``~
+The blazing heat of the forge keeps this small, rectangular room quite
+hot in temperature, and you can not imagine staying within for long.  The
+lack of ventilation makes the air you breath stifling, and your eyes water
+from the fumes.  
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 9147
+D4
+~
+~
+0 0 9251
+S
+#9247
+`8The Wandering Mercenary ``~
+You are in the store and home of Saxon the merchant.  As you can see by
+the clutter that he does most of his selling on the fly.  A straw bed and a
+cloths peg that sticks out of the western wall are all the real signs that
+this place is even used as a home.  
+~
+~
+0 8 0 0
+E
+wall~
+A clothing peg is protruding from the wall here.
+~
+E
+western~
+A clothing peg is protruding from the wall here.
+~
+E
+peg~
+A clothing peg is protruding from the wall here.
+~
+D3
+~
+~
+0 0 9148
+S
+#9248
+`8A small bedroom ``~
+The bedroom is vacant awaiting repairs.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 9243
+S
+#9249
+`8A small bedroom ``~
+You are in an empty room above Sanders Supply House.  This place looks
+like it was once used for a warehouse of supplies but those have long been
+cleared out.  Cobwebs grow in the upper reaches of the four corners where
+the walls meet the ceiling.  
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 9244
+S
+#9250
+`8A small bedroom ``~
+You are in the upper room of Yeeves the meat preparer.  This room is
+fairly well kept.  Neat, clean and very sparse.  It has a bed and that is
+just about it.  The worst part of this room is the smell of the mingled
+cooked and raw meats that waifs up from the lower prep area.  
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 9245
+S
+#9251
+`8 A small bedroom ``~
+This is the upper level of Juberts forge and mercantile.  The place is
+rather warm due to the heat generated from a days work in the forges below. 
+The room is in some disarray as Jubert works most of the time and does not
+seem to care to clean much.  The floor needs to be sweep, the whole place
+needs to be dusted down and there is a moldy and musty smell that seems to
+emanate from the old wood that this house is made of.  
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 9246
+S
+#9252
+`1The Dungeon of Emmereaux ``~
+You stand within the dark, dank confines of the Emmereaux dungeon.
+Large, heavy stone walls line the room around you, and from the heavy
+overbearing scent of earth, you can tell you are somewhere underground.
+Rows of benches line the walls, and just above, large shackles hang
+from inset rivets in the wall. Many are filled with remains; bones,
+clothing, and even bits of skin and tissue hang from the old, rusty
+chains. This is a very bleak setting indeed.
+~
+~
+0 9189 129 12
+D4
+~
+grate~
+AFG 0 9282
+M 0 H 0
+S
+#9253
+`8The Entrance to the Warrior Guildhall ``~
+You stand at the grand entrance of the Warrior guild, and marvel at the
+supreme art of the building before you.  Well kept and cleaned, a series of
+paintings adorn the space above the large door, each depicting a certain
+aspect of battle, from glory in triumph to the misery of defeat.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9131
+D3
+~
+~
+0 0 9254
+S
+#9254
+`8The Warrior Guildhall ``~
+Long tables made of a polished oak line the walls of the large room, and
+the center of the area is completely clear, marked with a large circle of
+red.  Obviously a training cirlce, it takes up most of the room, and faint
+stains of a dark red substance can be seen within it.  A large man stands
+with a stick in hand near the farthest wall, watching his pupils anxiously. 
+~
+~
+0 8200 4096 1
+D1
+~
+~
+0 0 9253
+S
+#9255
+`8The Entrance to the Berserker Guildhall ``~
+The entrance to this guild is in quite a state if disarray, with random
+objects and debris littering the ground around you.  An old mural has been
+painted on the far wall, though little can be seen of what it once depicted.
+Chipped paint flakes from this mural, and actual pieces of the walls are
+missing in large chunks, leading you to believe someone had a bad case of
+fury while inhabiting this room.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9132
+D3
+~
+~
+0 0 9256
+S
+#9256
+`8The Berserker Guildhall ``~
+The main room of this guild looks no better than its entrance, and
+perhaps even worse.  The remains of a large oak table are tossed about the
+room, most likely smashed in rage or disgust.  Pieces of broken weapons and
+armor lay about the area, making any movements hard to accomplish without
+pain.  The man who inhabits this room is obviously one which you would not
+like to see angry, for anyone of such a size and disposition could do
+copious amounts of harm.  
+~
+~
+0 845152264 4096 1
+D1
+~
+~
+0 0 9255
+S
+#9257
+`8The Entrance to the Ranger Guildhall ``~
+The entrance way to this guild is made of an open arch, allowing the
+elements and winds to pass through unhindered.  Upon this arch a scene is
+depicted, representing the different seasons and their importance to the
+realm.  Beyond the entrance is a shadowed passage, and little to nothing can
+be seen within.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9133
+D3
+~
+~
+0 0 9258
+S
+#9258
+`@The Ranger Guildhall``~
+As you pass through what appeared to be a shadowy passage, you enter a
+large, open room packed with random flora.  The high, arched dome above your
+head that acts as a ceiling is made of glass, allowing the natural light of
+the sky to blaze upon the plants and shrubs growing around you.  Though the
+landscape is lush and healthy, it lacks organization, much like a normal
+forest or wood.  A sense of serenity overtakes your spirit in this place,
+and your mind tells you to linger and stay.  
+~
+~
+0 845152264 69632 3
+D1
+~
+~
+0 0 9257
+S
+#9261
+`8The Entrance to the Healer Guildhall ``~
+The building seen before you is made entirely of a white stone, well kept
+and worn through the ages it has seen.  Looking more like a temple than a
+guild, it has a high, golden topped tower reaching high into the air above,
+and a large bell can been seen within.  Large doorways always remain open,
+their gold painted gates of wood carved with a variety of races depicting a
+peaceful celebration of life and goodwill.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9128
+D3
+~
+~
+0 0 9262
+S
+#9262
+`8The Healer Guildhall ``~
+The room in which you know stand is decorated in completely neutral and
+serene colors, with long white cloths hanging over the tables, and pale blue
+curtains covering the windows.  Many candles keep the room bright and warm,
+and there is a small fireplace near the back wall, adding comfort to the
+most chilly nights.  Several vases of wildflowers sit about the room,
+putting a sweet, herbal scent into the air.  
+~
+~
+0 8200 4096 1
+D1
+~
+~
+0 0 9261
+S
+#9263
+`8The Entrance to the Paladin Guildhall ``~
+The building before you is made completely of large, white stones with a
+large steeple protruding from the center of the roof.  The roof itself is
+plated in a shining silver metal with gleams brightly under the blaze of the
+sun.  The doors are quite large, and made of the same silver metal that
+covers the roof.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9127
+D3
+~
+~
+0 0 9264
+S
+#9264
+`8The Paladin Guildhall ``~
+You find yourself in a large, shadowed room filled with white candles and
+seemingly holy objects.  A large shrine takes up the entire back wall of
+this rectangular area, though you can easily see that it is not devoted to
+any god in particular, but is used for mass worship to a variety of deities.
+The man who stands before this shrine seems to practically glow with an
+inner light.  
+~
+~
+0 8200 4096 1
+D1
+~
+~
+0 0 9263
+S
+#9265
+`8The Entrance to the Cavalier Guildhall ``~
+A large hitching post is the most prominent aspect of the entrance to
+this guild, well worn and carefully used, is has obviously been the resting
+point for many a mount in its time.  The doorway to the place is an oddity
+among most guilds, being perfectly circlular in form, and closed by large,
+swinging doors carved with horse figures into the wood.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9129
+D3
+~
+~
+0 0 9266
+S
+#9266
+`8The Cavalier Guildhall ``~
+A long, rectangular table with a variety of tall backed chairs takes up
+the center of this massive room, and is surrounded by shelves holding a
+random assortment of weapons and armor.  Large tapestries cover the
+noramally bare walls, each depiction a different scene, though all contain
+at least a few horse figures within.  
+~
+~
+0 8200 4096 1
+D1
+~
+~
+0 0 9265
+S
+#9267
+`8The Entrance to the Cleric Guild ``~
+You stand before what appears to be a large church, made entirely out of
+large pieces of gray stone.  Multiple symbols are etched into the stone
+around the arched doorframe, from the adder of Imaju to the doves of Moiwen.
+From such things you can easily conclude this is the guildhouse of the
+cleric profession, serving priests from all cornors of the world.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9126
+D3
+~
+~
+0 0 9268
+S
+#9268
+`7The Cleric Guildhall``~
+Unlike any other profession in the lands, the guildhall of the clerics
+welcome anyone from any religious background.  This is easy to see as you
+look about this room and its occupants, with shadowy figures practicing on
+one side, and clerics in white on the other.  The room itself has no
+markings of an distinct deity, though there is a small gray shrine located
+against the back wall where everyone can make their offerings.  
+~
+~
+0 8200 4096 1
+D1
+~
+~
+0 0 9267
+S
+#9271
+`8The Portal Room``~
+You stand inside the Portal Room of the Mar'Kyer Alchemists.
+The rooms around the realm all look pretty much the same,
+as these little crafty gnomes have setup quite a business
+for themselves. The room is rounded, with a small hexagram
+inset into the floor in the center of the room. The rest of
+the room is entirely empty except for a small chair where
+the alchemist sits, and a small sign on the wall, with some
+trade common writing on it.
+~
+~
+0 8 0 0
+E
+sign~
+`%---=== THE MAR'KYER PORTAL SYSTEM ===---``
+--
+If you'd like to travel somewhere, we're the best! Once the 
+portal is created, just "enter portal" to be transported to your
+location. Items can be passed as well through the portals. Just
+give the item to the portal. Remember, they only stay open for 
+a short time. Only one portal may be opened at a time. We 
+serve the following locales:
+--
+`^DARGOTH, ZALANGO, REVELSPORT, ULSYM, LUVA, and EMMEREAUX``
+--
+Just `#SAY`` the location you wish to portal to, and your monies
+will be taken by the Alchemist.
+--
+Thank you for using the Mar'Kyer Portal System!
+~
+D3
+~
+~
+0 0 9166
+S
+#9272
+`8The Alchemist's Guildhall ``~
+You are in the infamously notorious guild house of the Alchemist. 
+Beakers, chemical projects, arcane material lay strewn all about a table
+that is in the center of the room.  Most alchemist are no nonsense kinds of
+people and it is reflected in the sparse furnishings of just the centered
+table.  There are some scrap pieces of paper, bits and pieces of formulas
+long since used or discarded that have been toss all around piled high in
+corners of the house.  
+~
+~
+0 8 4096 0
+D3
+~
+~
+0 0 9164
+S
+#9273
+`8The Tailor's Guildhall ``~
+The smell of tanned leather and dyed cloth permeate the air here.  Pieces
+of waste material litter the floor from the clothing and armor that is made
+here.  Bits of raw material are brought in and out continually as the demand
+increases or wanes through the day.
+~
+~
+0 8 4096 0
+D3
+~
+~
+0 0 9165
+S
+#9274
+`8The Miner's Guildhall ``~
+Bits of broken rock and raw earth are stacked along the walls here.  The
+dust seems to gather of its own accord as miners come and go knocking it off
+of their boots and clothing from the shafts and digging that is required in
+their profession.
+~
+~
+0 8 4096 0
+D3
+~
+~
+0 0 9155
+S
+#9275
+`8The Thieves Guild ``~
+Hidden behind the obscure and tangled streets of Emmereaux is this out of
+the way building.  This place is kept relatively non-identifying for a
+reason.  Closer inspection reveals that there are blood stains on the floor
+as well as large chunks of missing wood flooring.  Where it appears weapons
+have hit with a goodly amount of force.
+~
+~
+0 8200 4096 0
+D1
+~
+~
+0 0 9281
+S
+#9277
+`8The Entrance to the Thaumaturgist Guildhall ``~
+The building before you is hexagonal in shape, with a sharp, pointed roof
+towering high above you.  A large, stained-glass window of the same shape is
+above the rune marked entry way, shimmering scarlet in the sunlight and
+marked with a bright purple star of six points.  
+~
+The building before you is hexagonal in shape, with a high pointed roof
+towering high above you.  A large, stained-glass window of the same shape is
+above the rune marked entry way, shimmering scarlet in the starlight and
+marked with a bright purple star of six points.  
+~
+0 0 0 1
+D1
+~
+~
+0 0 9125
+D3
+~
+~
+0 0 9278
+S
+#9278
+`8The Thaumaturgist Guildhall ``~
+The room around you is lavish in its design, though has obviously seen
+better days.  The fine, silken curtains of a deep purple hue are burnt in
+several places, and marked with black soot.  The ebony marble flooring has
+several large cracks, as though it had been struck with pure arcane energy. 
+Broken chairs and the remains of a few random tables lay scattered about the
+area, adding more to the atmosphere of disarray.  
+~
+~
+0 8200 4096 1
+D1
+~
+~
+0 0 9277
+S
+#9279
+`8The Entrance to the Sorcerer Guildhall ``~
+Ancient script fills the walls and ceiling of this magnificent hall.  It
+looks to have been written sporadically but over the years the randomness of
+it has turned the script into a wonderful mural of surreal beauty.  The
+script is written with some form of ink that as light hits it the script
+shimmers the colors of the rainbow or like light traveling through a prism. 
+~
+~
+0 8 0 1
+D1
+~
+~
+0 0 9124
+D3
+~
+~
+0 0 9280
+S
+#9280
+`8The Sorcerer Guildhall ``~
+The spiraling surreal script continues on into this room.  The script
+seems to dance and play along the walls as if it were alive.  The floor is
+that of a polished white marble that reflects the scripts aura well.  All
+about are various flickering lights like tiny sparks that randomly flicker. 
+~
+~
+0 8200 4096 1
+D1
+~
+~
+0 0 9279
+S
+#9281
+`8A Hidden Alcove ``~
+You have stumbled upon an empty hall.  The only thing within here is the
+stranger in the corner.  Clean except for the road travel that clutters the
+whole of the floor.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 9226
+D3
+~
+~
+0 0 9275
+S
+#9282
+`8The Dungeonmaster's Office ``~
+You stand within a musty, dank office. The heavy slate walls 
+seem to be forever soaked with a greasy sheen, and the air is heavy 
+with the smell of body odor. A large, steel grating lies on the 
+floor, near the eastern wall, while a heavy, stone desk is set up 
+against the western wall. The light in here is dim and very oppressive, 
+fitting for a place where oppression reigns king. Cries of agony and 
+despair seem to resonate from deep underground, and waft up through 
+the grate.
+~
+~
+0 9184 0 0
+D1
+~
+~
+0 0 9072
+D5
+~
+grate~
+AFG 9282 9252
+S
+#9283
+`8The Maiden and the Sword Tavern ``~
+You stand within the Common Area of the Maiden and the Sword
+Tavern. The room is large, and hewn of rough-cut lumber. Thick
+beams run across the rather low ceiling, while heavy, round
+poles support said beams. A large bar is across the room, and
+several small tables are set around the tavern floor. Sawdust
+litters the floor in thick bunches, and the room smells of
+woodsmoke, ale, and sweat. The atmosphere of the tavern is warm
+and inviting, and several patrons can be seen gathered around
+the tables in discussion. A small stage is set into the far
+corner of the tavern.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 9284
+D2
+~
+~
+0 0 9138
+S
+#9284
+`8The Maiden and the Sword Tavern ``~
+You stand before the bar of the Maiden and the Sword Tavern.
+Behind you, the Common Area spreads out to accomodate tables
+and a small stage. The bar itself is made of rough hewn lumber,
+with several backless chairs pushed up to it. Several large
+kegs are set into the back wall, and seem to release from them
+the endless flow of ale that powers this place. A small flight
+of stairs leads upward here, while a small opening to the right
+of the bar leads into the kitchen.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 9285
+D2
+~
+~
+0 0 9283
+D4
+~
+~
+0 0 9287
+S
+#9285
+`8The Kitchen of the Maiden and the Sword ``~
+You stand within the kitchen of the Maiden and the Sword Tavern.
+Several large cookfires blaze merrily in the hearths here, while
+heavy iron kettles hang from spits, bubbling some sort of stew.
+On some of the other hearths, large spits are being turned by the
+scullery maids, and are featuring what looks like duck or quail.
+A wide door leads west out of the kitchen to the stables.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 9284
+D3
+~
+~
+0 0 9286
+S
+#9286
+`3The Stables of the Maiden and the Sword ``~
+You stand within the stables of the Maiden and the Sword Tavern.
+Several large stalls are here, most filled with various horses
+from patrons within the inn. From a door to the east, the smell
+of roasted duck greets your nose invitingly. Eastward, the stables
+lead out to Sword Street. Hay mixed with the aroma of equine
+dung and urine are very pungent here.
+~
+~
+0 0 8192 2
+E
+sign~
+`3 ___________________________________________
+/                                           \
+|           The Emmereaux Stables            |
+|       of the Maiden and the Sword Inn      |
+|                                            |
+|  Palinese colt ("`#COLT`3") = 250 gold         |
+|  Palinese warhorse ("`#WARHORSE`3") = 500 gold |
+|                                            |
+\___________________________________________/``
+~
+D1
+~
+~
+0 0 9285
+D3
+~
+~
+0 0 9127
+S
+#9287
+`8The Second Floor of the Inn ``~
+You are atop a long wooden staircase that leads down into the
+Common Area of the Maiden and the Sword Tavern. To your west, a
+small, narrow hallway leads to a few of the bedrooms in the
+Inn part of the tavern. Raucous noise and music emanates from
+the tavern below.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 9288
+D5
+~
+~
+0 0 9284
+S
+#9288
+`8The hallway ``~
+You stand an the end of the small hallway in the inn. North
+and south of you are wooden doors, leading to the two guest
+rooms of the Maiden and the Sword. The doors look fairly heavy,
+and feature carved symbols of historic figures of Emmereaux.
+Eastward, the hallway leads downward to the common area.
+~
+~
+0 8 0 0
+D0
+~
+~
+A 0 9289
+D1
+~
+~
+0 0 9287
+D2
+~
+~
+A 0 9290
+S
+#9289
+`8A bedroom ``~
+You stand within a small, cramped bedroom atop the Maiden and
+the Sword Tavern. The room is neat, and clean, but certainly
+not very roomy. Two small beds make up most of the room, while
+a small washbasin and a chest of drawers are the only other
+furniture in the room. A woven throw rug has been placed on
+the floor to add a little bit of color to the otherwise drab
+room.
+~
+~
+0 8 0 0
+D2
+~
+~
+A 0 9288
+S
+#9290
+`8A bedroom ``~
+You stand within a small, cramped bedroom atop the Maiden and
+the Sword Tavern. The room is neat, and clean, but certainly
+not very roomy. Two small beds make up most of the room, while
+a small washbasin and a chest of drawers are the only other
+furniture in the room. A woven throw rug has been placed on
+the floor to add a little bit of color to the otherwise drab
+room.
+~
+~
+0 8 0 0
+D0
+~
+~
+A 0 9288
+S
+#9296
+`8The Necromancer Guildhall ``~
+You have come into a ominous room.  Oppressive with the heaviness of
+death and decay this room is sparely lit.  Darkness extends almost as if it
+is reaching out to the graves beyond the world of the living.
+~
+~
+0 8200 4096 1
+D1
+~
+~
+0 0 9297
+S
+#9297
+`8The Entrance to the Necromancer Guildhall ``~
+You have stepped up to the threshold of the Guild of Necromancers,
+workers of dark and arcane magic.  Some people call them the soulless ones
+because of their inclinations to raise the dead.  
+~
+~
+0 8 0 1
+D1
+~
+~
+0 0 9135
+D3
+~
+~
+0 0 9296
+S
+#9298
+`8The Dark Knight Guildhall ``~
+As you enter this sprawling room, the man who stands within grabs your
+immediate attention.  Surrounded by random debris and trash, he is dark
+glory in mortal flesh, making even the shadowed room around him seem bright.
+Weak candle flames flicker in the darkness, making the faint light dance
+around the room like a spectral illusion, offering no comfort or warmth. 
+The place is most certainly unpleasant and uninviting, though a wicked
+curiousity into what is done here enters your thoughts.  
+~
+~
+0 845152256 4096 1
+D1
+~
+~
+0 0 9299
+S
+#9299
+`8The Entrance to the Dark Knight Guildhall ``~
+Wicked implements of destruction and pain adorn the walls to the entrance
+of this guild, and look as though they have seen many years of use.  Dark,
+this place is, with but one candle giving off a faint illumination, causing
+the shadows to dance and flicker around you.  
+~
+~
+0 8200 0 1
+D1
+~
+~
+0 0 9134
+D3
+~
+~
+0 0 9298
+S
+#9000
+`$The Serpentine River ``~
+You are on the river.  Choppy waters and swift currents are what are
+readily seen.  The banks of this vast river look far off in the distance.  
+The occasional log speeds by on the current bobbing up and down.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 9020
+D3
+~
+~
+0 0 9001
+S
+#9001
+`$The Serpentine River ``~
+The murky bluish green waters move swiftly by in this massive river
+threatening to take boats and those that dare enter these deep river waters
+under to a watery tomb.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 9002
+D1
+~
+~
+0 0 9000
+S
+#9002
+`$The Serpentine River ``~
+The rushing waters of the Serpentine have stirred up mud from the bottom
+of the river bed which turns this area of the river a nasty brownish color
+difficult to look too deeply into the depths.  
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 9001
+D3
+~
+~
+0 0 9003
+S
+#9003
+`$The Serpentine River ``~
+The river becomes a bit more shallow here as you can see the smooth river
+rocks that have settled on the bottom of the river.  Still running too swift
+to swim its current remains a driving and deadly force of thousands of
+gallons of water.  
+ 
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 9002
+D3
+~
+~
+0 0 9004
+S
+#9004
+`$The Serpentine River ``~
+In the middle of this fast paced rivers currents someone has erected a
+shrine to the goddess Lojani.  This beautiful figure of a statue is poised
+with her urns with what looks like her pouring water into the river which
+give the illusion that she is actually creating the Serpentine River via her
+Urn. 
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 9005
+D1
+~
+~
+0 0 9003
+P GRALL 9003 100~
+P SPEECH 9004 worship~
+S
+#9005
+`$The Serpentine River ``~
+As the river widens here the current appears to slow some.  Experienced
+sailors will note that the current does not become less dangerous but more. 
+The undercurrent of this vast expanse can be seen by the eddies on the
+banks and the near reverse look of the flow of water.  Tide pools quickly
+engulf all floating objects here.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 9006
+D2
+~
+~
+0 0 9004
+S
+#9006
+`$The Serpentine River ``~
+Another steep twist in this river.  It is easy to see why this river is
+named the Serpentine with all the turns and twists.  Like its namesake the
+river continues to make its way through the countryside seemingly of its own
+volition.  
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 9005
+D3
+~
+~
+0 0 9007
+S
+#9007
+`$The Serpentine River ``~
+You are in deep swift running water.  The current looks to be dragging
+along with it bits of driftwood and particles of trash.  
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 9006
+D3
+~
+~
+0 0 9008
+S
+#9008
+`$The Serpentine River ``~
+The river narrows here a bit condensing the flow of water which makes it
+more perilous.  There is a small sand bar nearly dead center of the river
+here where all manner of birds have gathered eating shell fish and other
+delicate morsels. 
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 9009
+D1
+~
+~
+0 0 9007
+S
+#9009
+`$The Serpentine River ``~
+The murky waters turn a little clearer here where the silt and muck of
+the river seem to settle along the banks in high mudy wastes.  
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 9008
+D3
+~
+~
+0 0 9091
+S
+#9010
+`8The Northern Gate of Emmereaux ``~
+You are before the massive Northern Gate of Emmereaux. Often just
+referred to as "lordsgate", this marks the main defensive bastion
+of Emmereaux, and is definitely the largest gate in the city. It
+can easily hold four horse drawn carriages abreast, with room to
+move. Dozens of guards patroll these gates, checking the endless
+stream of travelers who enter and leave the gates for any would-
+be criminals or outlaws. Camden Avenue runs east from here, while
+to the west, the gates turn into Chevalier road.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9123
+D1
+~
+~
+0 0 9011
+D2
+~
+~
+0 0 9124
+D3
+~
+~
+0 0 9090
+S
+#9011
+`8Beneath the Northern Watchtower ``~
+You stand beneath one of two of the northern watchtowers that peer
+over the massive North Gate. Rising over a hundred spans above the
+street level, they are manned all hours of the day by the local city
+guards, who keep vigilant watch over their beloved Emmereaux. To the
+east, Camden Avenue begins, while westward lies the main northern
+gate of Emmereaux, or "lordsgate".
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9012
+D3
+~
+~
+0 0 9010
+D4
+~
+~
+AB 0 9197
+S
+#9012
+`8Camden Avenue ``~
+You find yourself walking along Camden Avenue, the long,
+windy road that snakes along Emmereaux's northernmost bastions.
+It is well kempt and swept, and winds lazily along the shadow
+of the great north wall of Emmereaux, a massive foundation that
+rises up over fifty feet, doing a marvelous job of keeping 
+any invaders at bay.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 9013
+D3
+~
+~
+0 0 9011
+S
+#9013
+`8Camden Avenue ``~
+You find yourself walking along Camden Avenue, the long,
+windy road that snakes along Emmereaux's northernmost bastions.
+It is well kempt and swept, and winds lazily along the shadow
+of the great north wall of Emmereaux, a massive foundation that
+rises up over fifty feet, doing a marvelous job of keeping 
+any invaders at bay.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9012
+D2
+~
+~
+0 0 9014
+S
+#9014
+`8Camden Avenue ``~
+You find yourself walking along Camden Avenue, the long,
+windy road that snakes along Emmereaux's northernmost bastions.
+It is well kempt and swept, and winds lazily along the shadow
+of the great north wall of Emmereaux, a massive foundation that
+rises up over fifty feet, doing a marvelous job of keeping 
+any invaders at bay.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9013
+D1
+~
+~
+0 0 9015
+S
+#9015
+`8Camden Avenue ``~
+You find yourself walking along Camden Avenue, the long,
+windy road that snakes along Emmereaux's northernmost bastions.
+It is well kempt and swept, and winds lazily along the shadow
+of the great north wall of Emmereaux, a massive foundation that
+rises up over fifty feet, doing a marvelous job of keeping 
+any invaders at bay.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9016
+D3
+~
+~
+0 0 9014
+S
+#9016
+`8Camden Avenue ``~
+You find yourself walking along Camden Avenue, the long,
+windy road that snakes along Emmereaux's northernmost bastions.
+It is well kempt and swept, and winds lazily along the shadow
+of the great north wall of Emmereaux, a massive foundation that
+rises up over fifty feet, doing a marvelous job of keeping 
+any invaders at bay.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 9017
+D3
+~
+~
+0 0 9015
+S
+#9017
+`8Camden Avenue ``~
+You find yourself walking along Camden Avenue, the long,
+windy road that snakes along Emmereaux's northernmost bastions.
+It is well kempt and swept, and winds lazily along the shadow
+of the great north wall of Emmereaux, a massive foundation that
+rises up over fifty feet, doing a marvelous job of keeping 
+any invaders at bay.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9016
+D1
+~
+~
+0 0 9018
+S
+#9018
+`8Camden Avenue ``~
+You find yourself walking along Camden Avenue, the long,
+windy road that snakes along Emmereaux's northernmost bastions.
+It is well kempt and swept, and winds lazily along the shadow
+of the great north wall of Emmereaux, a massive foundation that
+rises up over fifty feet, doing a marvelous job of keeping 
+any invaders at bay.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9019
+D3
+~
+~
+0 0 9017
+S
+#9019
+`8Camden Avenue ``~
+Camden Avenue continues here to the east and west, seeming to
+begin to enter a poorer district of Emmereaux. The shadow of
+the great northern wall still lies near you, imposing and very
+impressive. You can start to make out a lighthouse further off
+to the east. A small shaded path leads southward here.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9029
+D2
+~
+~
+0 0 9239
+D3
+~
+~
+0 0 9018
+S
+#9020
+`$The Serpentine River ``~
+The choppy surface of the river rushes past you, littered with debris
+from trees and other various wildlife.  Shadows of small fish can be seen
+below the surface of the river, darting about back and forth.  
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 9021
+D3
+~
+~
+0 0 9000
+S
+#9021
+`$The Serpentine River ``~
+Water curls all around you rushing with the current in a swirl of
+greenish blue.  Small fish dart about here and there below the surface.  The
+water looks so cool and refreshing, but would probably not be a good idea to
+swim in.  
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 9022
+D3
+~
+~
+0 0 9020
+S
+#9022
+`$The Serpentine River ``~
+The current quickens here, pushing your boat more and more quickly down
+the river.  The water angrily churns around you in frothy bubbles and the
+crashing and roaring of water is all that can be heard.  
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 9023
+D3
+~
+~
+0 0 9021
+S
+#9023
+`$The Serpentine River ``~
+You are surrounded by water, it's depths black with the unknown though
+slim long black lines slither beneath the surface.  An oily film coats parts
+of the water, holding some of the smaller waves down.  
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 9024
+D3
+~
+~
+0 0 9022
+S
+#9024
+`$The Serpentine River Delta ``~
+Choppy water rushes past you as the breeze picks up, spraying you with
+the cool fresh water from the river.  Small fish trail behind your boat
+hoping for bread crumbs.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 9023
+D1
+~
+~
+0 0 9025
+S
+#9025
+`$The Serpentine River Delta ``~
+Coils of frothy foam churns around on the crests of the small waves all
+around you.  Water splashes over the edge of your boat from time to time,
+soaking you with the fishy smell of the river.  
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 9026
+D3
+~
+~
+0 0 9024
+S
+#9026
+`$The Serpentine River Delta ``~
+The current pushes your boat with more force and the pattern of the fish
+swimming suggests heavy undertow.  The waves have calmed a little, but the
+force is still strong.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 9025
+D1
+~
+~
+0 0 9027
+S
+#9027
+`$The  Mouth of the Serpentine River ``~
+In the distance you see the shore and on the horizon, the towers and
+walls of a great city.  The water is more calm here and the current is
+almost helpful as it pushes you along at a soothing pace.  
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 9028
+D3
+~
+~
+0 0 9026
+S
+#9028
+`6The Shallows of the Sea of Palinor ``~
+You are just within in the shallows of the Sea of Palinor. A
+brisk wind blows in your face from the east. The water is very
+chilly, and appears to have sharp undercurrents judging from the
+prevalence of torn and tattered seaweed that rises to the surface. 
+Further to the east, the water looks colder, deeper, and much more
+rough, while to the west lie the beaches of Emmereaux.
+~
+~
+0 0 0 6
+D1
+~
+~
+0 0 25120
+D2
+~
+~
+0 0 9191
+D3
+~
+~
+0 0 9027
+S
+#9029
+`8Camden Avenue ``~
+Camden Avenue continues here to the east and west, seeming to
+begin to enter a poorer district of Emmereaux. The shadow of
+the great northern wall still lies near you, imposing and very
+impressive. You can start to make out a lighthouse further off
+to the east. The smell of the sea starts to become much more
+clear, and you can hear gulls and terns crying from afar.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9030
+D3
+~
+~
+0 0 9019
+S
+#9030
+`8Camden Avenue ``~
+Camden Avenue continues here to the east and west, seeming to
+begin to enter a poorer district of Emmereaux. The shadow of
+the great northern wall still lies near you, imposing and very
+impressive. You can start to make out a lighthouse further off
+to the east. The smell of the sea starts to become much more
+clear, and you can hear gulls and terns crying from afar.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9031
+D3
+~
+~
+0 0 9029
+S
+#9031
+`8Camden Avenue ``~
+Camden Avenue continues here to the east and west, seeming to
+begin to enter a poorer district of Emmereaux. The shadow of
+the great northern wall still lies near you, imposing and very
+impressive. You can start to make out a lighthouse further off
+to the east. The smell of the sea starts to become much more
+clear, and you can hear gulls and terns crying from afar.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 9032
+D3
+~
+~
+0 0 9030
+S
+#9032
+`8The Lighthouse Square ``~
+You are within the Lighthouse Square of Emmereaux. To your east,
+the colossal lighthouse stands overlooking the Sea of Palinor.
+Northward, Camden Avenue runs westward through the city, while
+the square continues to your south.
+~
+~
+0 0 256 1
+D0
+~
+~
+0 0 9031
+D1
+~
+~
+0 0 9033
+D2
+~
+~
+0 0 9151
+S
+#9033
+`8The Lighthouse Square ``~
+You stand at the base of the Emmereaux Lighthouse. Rising up
+well over two hundred feet, the lighthouse is possibly the 
+tallest structure in Emmereaux. Made of smooth stone, the top
+is donned by a bright beam, which is magically powered. A set
+of spiral stairs leads upward into the lighthouse.
+ 
+(`#Glowing``) The Lighthouse of Emmereaux has been built here.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 9034
+D3
+~
+~
+0 0 9032
+D4
+~
+~
+AB 0 9241
+S
+#9034
+`8The Lighthouse Square ``~
+You stand amid a massive square in the far northeastern section
+of Emmereaux. The cobbled square is made up of hundreds of stones
+and arranged in geometric patters. North of you, the massive light-
+house rises up to overlook the whole city. Eastward lies Seawall
+Road, while the square continues westward.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9033
+D1
+~
+~
+0 0 9035
+D3
+~
+~
+0 0 9151
+S
+#9035
+`8Seawall Road ``~
+You stand at the northernmost end of Seawall Road. Eastward, a
+small stair cut into the wall leads to the beaches, while to your
+immediate west lies the Lighthouse Square, home of the massive
+Emmereaux Lighthouse. You can see its imposing form rise up here,
+where an intensely bright beam sweeps out over the Sea of Palinor.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9179
+D2
+~
+~
+0 0 9036
+D3
+~
+~
+0 0 9034
+S
+#9036
+`8Seawall Road ``~
+You stand along the southeastermost portion of Seawall Road. To
+your near north stands a great lighthouse, its heavy, magically
+powered beam sweeping deep into the Sea of Palinor. A small stair 
+cut in the eastern wall allows access to the beaches of Emmereaux. 
+Northward, Seawall Road continues to wrap its way around Emmereaux, 
+keeping the high seas at bay.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9035
+D1
+~
+~
+0 0 9180
+D2
+~
+~
+0 0 9037
+S
+#9037
+`8Seawall Road ``~
+You stand along the southeastermost portion of Seawall Road. To
+your far north stands a great lighthouse, its heavy, magically
+powered beam sweeping deep into the Sea of Palinor. A small stair 
+cut in the eastern wall allows access to the beaches of Emmereaux. 
+Northward, Seawall Road continues to wrap its way around Emmereaux, 
+keeping the high seas at bay.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9036
+D1
+~
+~
+0 0 9181
+D2
+~
+~
+0 0 9038
+S
+#9038
+`8Seawall Road ``~
+You stand along the southeastermost portion of Seawall Road. To
+your far north stands a great lighthouse, its heavy, magically
+powered beam sweeping deep into the Sea of Palinor. A small stair 
+cut in the eastern wall allows access to the beaches of Emmereaux. 
+Northward, Seawall Road continues to wrap its way around Emmereaux, 
+keeping the high seas at bay.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9037
+D1
+~
+~
+0 0 9182
+D2
+~
+~
+0 0 9039
+S
+#9039
+`8Seawall Road ``~
+You stand along the southeastermost portion of Seawall Road. To
+your near south lies one of the great watchtowers of Emmereaux,
+while a small stair cut in the eastern wall allows access to the
+beaches of Emmereaux. Northward, Seawall Road continues to wrap
+its way around Emmereaux, keeping the high seas at bay.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9038
+D1
+~
+~
+0 0 9183
+D2
+~
+~
+0 0 9040
+S
+#9040
+`8Seawall Road ``~
+You stand along the southeastermost portion of Seawall Road. To
+your near south lies one of the great watchtowers of Emmereaux,
+while a small stair cut in the eastern wall allows access to the
+beaches of Emmereaux. Northward, Seawall Road continues to wrap
+its way around Emmereaux, keeping the high seas at bay.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9039
+D1
+~
+~
+0 0 9184
+D2
+~
+~
+0 0 9041
+S
+#9041
+`8Seawall Road ``~
+You stand along the southeastermost portion of Seawall Road. To
+your near south lies one of the great watchtowers of Emmereaux,
+while a small stair cut in the eastern wall allows access to the
+beaches of Emmereaux. Northward, Seawall Road continues to wrap
+its way around Emmereaux, keeping the high seas at bay.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9040
+D1
+~
+~
+0 0 9185
+D3
+~
+~
+0 0 9042
+S
+#9042
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears. To your south stands the Southeastern Watch-
+tower of Emmereaux, denoting that you are in the furthers southeastern
+portion of the massive city.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9041
+D2
+~
+~
+0 0 9043
+S
+#9043
+`8Beneath the Southeastern Watchtower ``~
+You are standing beneath the southern watch tower in Emmereaux.  The
+tower walls, built for the defense of the city reach high.  Most of the
+stone is pretty old with patches of newer stone work where repairs have been
+made over the years. 
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9042
+D3
+~
+~
+0 0 9044
+D4
+~
+~
+AB 0 9200
+S
+#9044
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears. North of you is Trade Road, one of the main
+importing sectors of Emmereaux, and notably, the delimiter for the
+poorer districts of Emmereaux.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9149
+D1
+~
+~
+0 0 9043
+D3
+~
+~
+0 0 9045
+S
+#9045
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9044
+D2
+~
+~
+0 0 9046
+S
+#9046
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9045
+D3
+~
+~
+0 0 9047
+S
+#9047
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9046
+D3
+~
+~
+0 0 9048
+S
+#9048
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears. South of you stands one of the Southern Watch-
+towers of Emmereaux, keeping a close eye over the Sea of Palinor.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9047
+D2
+~
+~
+0 0 9049
+S
+#9049
+`8Beneath the Southern Watchtower ``~
+Much like its sister tower this one is built very solidly.  Thicker than
+most of the other Emmereaux towers yet not as tall.  To the west you can see
+that the road continues on for quite a distance along the sea wall.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9048
+D3
+~
+~
+0 0 9050
+D4
+~
+~
+AB 0 9199
+S
+#9050
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9049
+D3
+~
+~
+0 0 9051
+S
+#9051
+`8The Intersection of Seawall and Beacon Point ``~
+You stand at the intersection of Seawall Road and Beacon Point. The
+theme of the road changes significantly here, switching from gray
+cobblestones to a sheer white pavement, looking much like ivory.
+Each stone is inlaid with the insignia of a golden sword beneath 
+a golden crown. Northward, you can see a massive structure rise up, 
+while Seawall Road continues east and west.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9177
+D1
+~
+~
+0 0 9050
+D3
+~
+~
+0 0 9052
+S
+#9052
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9051
+D3
+~
+~
+0 0 9053
+S
+#9053
+`8The Intersection of Seawall and Rhuma ``~
+You stand at the intersection of Seawall Road and Rhuma Road. The
+condition of Rhuma Road, despite its connotations, is fairly poor.
+The road is packed earth, and the yellowish soil seems to be in an
+ever-present mud state, caking itself onto anything that moves through
+it. Rhuma leads northward to a training area, while Seawall continues
+east and west.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9234
+D1
+~
+~
+0 0 9052
+D3
+~
+~
+0 0 9054
+S
+#9054
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9053
+D3
+~
+~
+0 0 9055
+S
+#9055
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears. North of you lies Sword Street, leading into
+the various tradehalls of Emmereaux.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9136
+D1
+~
+~
+0 0 9054
+D3
+~
+~
+0 0 9056
+S
+#9056
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears. 
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9055
+D3
+~
+~
+0 0 9057
+S
+#9057
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears. 
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9058
+D1
+~
+~
+0 0 9056
+S
+#9058
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears. 
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 9057
+D3
+~
+~
+0 0 9059
+S
+#9059
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears. North of you lies Griffon Street, leading
+into the commerce districts of Emmereaux.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9171
+D1
+~
+~
+0 0 9058
+D3
+~
+~
+0 0 9060
+S
+#9060
+`8Beneath the Southwestern Watchtower ``~
+You are under one of the shorter Emmereaux towers.  While not as tall as
+many of the other surrounding towers, the southern ones are very well built.
+Thicker than the others, these towers were designed as a last defense for
+the armies of Emmereaux.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9061
+D1
+~
+~
+0 0 9059
+D4
+~
+~
+AB 0 9198
+S
+#9061
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears. To the south of you lies the Southern Watch-
+tower of Emmereaux, an imposing bastion overlooking the Sea of Palinor.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9171
+D2
+~
+~
+0 0 9060
+D3
+~
+~
+0 0 9062
+S
+#9062
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears. A small path to the north leads into the 
+Temple Square of Emmereaux.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9211
+D1
+~
+~
+0 0 9061
+D3
+~
+~
+0 0 9063
+S
+#9063
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9062
+D3
+~
+~
+0 0 9064
+S
+#9064
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears. To the west lies the Southwestern Watchtower,
+observation point over the Sea of Palinor.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9063
+D3
+~
+~
+0 0 9065
+S
+#9065
+`8Seawall Road ``~
+You stand along Seawall Road, the southernmost point of Emmereaux.
+Named for the massive stone seawall that rises just to the south
+of you, obscuring your view of the Sea of Palinor, Seawall Road has
+been carefully designed to keep rising tides and bad weather from
+flooding Emmereaux. It is very foggy here, and the sound of crashing
+waves fills your ears. To the west lies the Southwestern Watchtower,
+observation point over the Sea of Palinor.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9064
+D3
+~
+~
+0 0 9066
+S
+#9066
+`8Beneath the Southwestern Watchtower ``~
+You are beneath the south western watch tower of Emmereaux.  Heavily
+fortified and continually manned this tower rises high above the city walls.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9067
+D1
+~
+~
+0 0 9065
+D4
+~
+~
+AB 0 9196
+S
+#9067
+`8Barrister Avenue ``~
+To the north the street dead ends and "T's" off of that dead end.  To the
+south the street runs under the south western tower.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9068
+D2
+~
+~
+0 0 9066
+S
+#9068
+`8Barrister Avenue ``~
+The road "T's" off here and heads south a little ways.  The east and west
+seem to still be Barrister Ave.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9215
+D2
+~
+~
+0 0 9067
+D3
+~
+~
+0 0 9069
+S
+#9069
+`8Barrister Avenue ``~
+The street takes a sharp turn to the east and north here.  To the north
+the road continues along the western wall of Emmereaux and to the east it
+heads into the busy sections of town.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9070
+D1
+~
+~
+0 0 9068
+S
+#9070
+`8Barrister Avenue ``~
+You are traveling along a cobbled road.  It runs the length of the
+western wall of Emmereaux.  To the north the cobbled road continues on and
+to the south it turns to the east.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9071
+D2
+~
+~
+0 0 9069
+S
+#9071
+`8Barrister Avenue ``~
+You are traveling along a cobbled road.  It runs the length of the
+western wall of Emmereaux.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9072
+D2
+~
+~
+0 0 9070
+S
+#9072
+`8Barrister Avenue ``~
+You are on Barrister Ave.  To the west of this intersection is an office
+building.  The sign above it reads "Emmereaux Dungeons."  To the east, you
+can see temple square and as well as the entrance to one of the large
+temples of Emmereaux.  To the south and north the Barrister Ave.  Continues
+on.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9073
+D1
+~
+~
+0 0 9210
+D2
+~
+~
+0 0 9071
+D3
+~
+~
+0 0 9282
+S
+#9073
+`8Barrister Avenue ``~
+You are at the northern most end of Barrister Ave.  To the west is the
+western watch tower.  The smell of dampness and fish seem to fill the air
+here.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9163
+D2
+~
+~
+0 0 9072
+D3
+~
+~
+0 0 9074
+S
+#9074
+`8Beneath the Western Watchtower ``~
+You are standing under the Western most watch tower of Emmereaux.  Its
+ancient walls show signs of wear and repair.  History has it that this is
+the oldest tower in Emmereaux.  
+~
+~
+0 8 0 1
+D0
+~
+~
+0 0 9075
+D1
+~
+~
+0 0 9073
+D4
+~
+~
+AB 0 9193
+S
+#9075
+`8The Western Gate of Emmereaux ``~
+You stand before the massive western gates of Emmereaux. Palinor
+Road continues westward here, snaking its way through miles of
+hilly terain. The gates themselves are massive edifices that arch
+over the wide road imposingly. Large porticullises remain raised
+allowing travelers and citizens to pass through in times of peace.
+Several heavily armed guards patrol the watchtowers above.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9076
+D1
+~
+~
+0 0 9163
+D2
+~
+~
+0 0 9074
+S
+#9076
+`8Chevalier Road ``~
+You are walking along Chevalier Road. Once just a service road for
+the Emmereaux Army, it is now open to the public for travel beneath
+the city's several watchtowers. It winds and zigzags its way from
+the northern gate all the way to the west gate. The road below you
+is well worn hard packed earth, and though it is open to the public,
+a strong military presence is still here, keeping watch over the
+walls. South of you lie the massive western gates.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9077
+D2
+~
+~
+0 0 9075
+S
+#9077
+`8Beneath the Western Watchtower ``~
+You stand along Chevalier Road, an old miliary service road used
+during times of war to shuttle supplies to and casualties from the
+city walls. Above you looms the western watchtower, a bastion of
+observation that overlooks the rugged terrain and hills off to
+the west. Chevalier road continues south and east.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9078
+D2
+~
+~
+0 0 9076
+D4
+~
+~
+0 0 9192
+S
+#9078
+`8Chevalier Road ``~
+You are walking along Chevalier Road. Once just a service road for
+the Emmereaux Army, it is now open to the public for travel beneath
+the city's several watchtowers. It winds and zigzags its way from
+the northern gate all the way to the west gate. The road below you
+is well worn hard packed earth, and though it is open to the public,
+a strong military presence is still here, keeping watch over the
+walls. To your west lies the base of the western watchtower.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9079
+D3
+~
+~
+0 0 9077
+S
+#9079
+`8Chevalier Road ``~
+You are walking along Chevalier Road. Once just a service road for
+the Emmereaux Army, it is now open to the public for travel beneath
+the city's several watchtowers. It winds and zigzags its way from
+the northern gate all the way to the west gate. The road below you
+is well worn hard packed earth, and though it is open to the public,
+a strong military presence is still maintained.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9080
+D3
+~
+~
+0 0 9078
+S
+#9080
+`8Chevalier Road ``~
+You are walking along Chevalier Road. Once just a service road for
+the Emmereaux Army, it is now open to the public for travel beneath
+the city's several watchtowers. It winds and zigzags its way from
+the northern gate all the way to the west gate. The road below you
+is well worn hard packed earth, and though it is open to the public,
+a strong military presence is maintained.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9081
+D3
+~
+~
+0 0 9079
+S
+#9081
+`8Chevalier Road ``~
+You are walking along Chevalier Road. Once just a service road for
+the Emmereaux Army, it is now open to the public for travel beneath
+the city's several watchtowers. It winds and zigzags its way from
+the northern gate all the way to the west gate. The road below you
+is well worn hard packed earth, and though it is open to the public,
+a strong military presence is still maintained.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9082
+D2
+~
+~
+0 0 9080
+S
+#9082
+`8Chevalier Road ``~
+You are walking along Chevalier Road. Once just a service road for
+the Emmereaux Army, it is now open to the public for travel beneath
+the city's several watchtowers. It winds and zigzags its way from
+the northern gate all the way to the west gate. The road below you
+is well worn hard packed earth, and though it is open to the public,
+a strong military presence is still maintained.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9083
+D3
+~
+~
+0 0 9081
+S
+#9083
+`7Chevalier Road``~
+You are walking along Chevalier Road. Once just a service road for
+the Emmereaux Army, it is now open to the public for travel beneath
+the city's several watchtowers. It winds and zigzags its way from
+the northern gate all the way to the west gate. The road below you
+is well worn hard packed earth, and though it is open to the public,
+a strong military presence is constantly maintained.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9084
+D3
+~
+~
+0 0 9082
+S
+#9084
+`8Chevalier Road ``~
+You are walking along Chevalier Road. Once just a service road for
+the Emmereaux Army, it is now open to the public for travel beneath
+the city's several watchtowers. It winds and zigzags its way from
+the northern gate all the way to the west gate. The road below you
+is well worn hard packed earth, and though it is open to the public,
+a strong military presence is heavily maintained.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9085
+D3
+~
+~
+0 0 9083
+S
+#9085
+`8Chevalier Road ``~
+You are walking along Chevalier Road. Once just a service road for
+the Emmereaux Army, it is now open to the public for travel beneath
+the city's several watchtowers. It winds and zigzags its way from
+the northern gate all the way to the west gate. The road below you
+is well worn hard packed earth, and though it is open to the public,
+a strong military presence is maintained. To your north lies another
+tall watchtower.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9086
+D3
+~
+~
+0 0 9084
+S
+#9086
+`8Beneath the Northeastern Watchtower ``~
+You stand along Chevalier Road, an old miliary service road used
+during times of war to shuttle supplies to and casualties from the
+city walls. Above you looms the northeastern watchtower, a bastion 
+of observation that overlooks the avenues of the city, as well as
+keeps a check on any would-be invaders from the west. Chevalier road 
+continues eastward.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9087
+D2
+~
+~
+0 0 9085
+D4
+~
+~
+0 0 9195
+S
+#9087
+`8Chevalier Road ``~
+You are walking along Chevalier Road. Once just a service road for
+the Emmereaux Army, it is now open to the public for travel beneath
+the city's several watchtowers. It winds and zigzags its way from
+the northern gate all the way to the west gate. The road below you
+is well worn hard packed earth. Just to your south, Griffon Street,
+home to the crafthalls of Emmereaux, begins.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9088
+D2
+~
+~
+0 0 9166
+D3
+~
+~
+0 0 9086
+S
+#9088
+`8Chevalier Road ``~
+You are walking along Chevalier Road.  Once just a service road for the
+Emmereaux Army, it is now open to the public for travel beneath the city's
+several watchtowers.  It winds and zigzags its way from the northern gate
+all the way to the west gate.  The road below you is well worn hard packed
+earth.  Despite all the foot traffic from the public, a strong military
+presence is maintained.  Someone has painted a symbol on the ground here.  
+~
+~
+0 0 0 1
+E
+skull~
+`!                 .......
+             ...............
+          .....................
+         .......................
+        .........................
+       ...........................
+       ...........................
+       ........   .....   ........
+       ......      ...       .....
+        ....       ...       ....
+        ....      .....      ....
+         ..........   ..........
+           ........   ........
+            .................
+             ...............
+              ...        ...       
+    ...       .............      ... 
+  .......      ...........     ........
+ ...      ............... ......
+  ..............           ..............
+   .......                      ........``
+~
+E
+symbol~
+`!                 .......
+             ...............
+          .....................
+         .......................
+        .........................
+       ...........................
+       ...........................
+       ........   .....   ........
+       ......      ...       .....
+        ....       ...       ....
+        ....      .....      ....
+         ..........   ..........
+           ........   ........
+            .................
+             ...............
+              ...        ...       
+    ...       .............      ... 
+  .......      ...........     ........
+ ...      ............... ......
+  ..............           ..............
+   .......                      ........``
+~
+D0
+~
+~
+0 0 9089
+D1
+~
+~
+0 0 16700
+D3
+~
+~
+0 0 9087
+S
+#9089
+`8Chevalier Road ``~
+You are walking along Chevalier Road. Once just a service road for
+the Emmereaux Army, it is now open to the public for travel beneath
+the city's several watchtowers. It winds and zigzags its way from
+the northern gate all the way to the west gate. The road below you
+is well worn hard packed earth. Eastward lies one of the two northern
+watchtower of Emmereaux, while the road winds south.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9090
+D2
+~
+~
+0 0 9088
+S
+#9090
+`8Beneath the Northern Watchtower ``~
+You stand beneath one of two of the northern watchtowers that peer
+over the massive North Gate. Rising over a hundred spans above the
+street level, they are manned all hours of the day by the local city
+guards, who keep vigilant watch over their beloved Emmereaux. To the
+west, Chevalier road begins, while eastward lies the main northern
+gate of Emmereaux, or "lordsgate".
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9010
+D3
+~
+~
+0 0 9089
+D4
+~
+~
+0 0 9194
+S
+#9091
+`$The Serpentine River ``~
+Brackish water seems to have settles along the banks here.  The smell of
+dead and decaying fish permeates the air.  Bloated dead fish seem to brush
+up against the bank with the wake of the rivers waves. 
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 9009
+D3
+~
+~
+0 0 9092
+S
+#9092
+`$The Serpentine River ``~
+Brackish water seems to have settles along the banks here.  The smell of
+dead and decaying fish permeates the air.  Bloated dead fish seem to brush
+up against the bank with the wake of the rivers waves.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 9091
+D3
+~
+~
+0 0 9093
+S
+#9093
+`$The Serpentine River ``~
+You are on the river.  Choppy waters and swift currents are what are
+readily seen.  The banks of this vast river look far off in the distance.  
+The occasional log speeds by on the current bobbing up and down.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 9092
+D3
+~
+~
+0 0 9094
+S
+#9094
+`$The Serpentine River ``~
+The rushing waters of the Serpentine have stirred up mud from the bottom
+of the river bed which turns this area of the river a nasty brownish color
+difficult to look too deeply into the depths.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 9093
+D3
+~
+~
+0 0 9095
+S
+#9095
+`$The Serpentine River ``~
+Soft eddies and slowing waters becalm this section of the river.  On the
+banks there looks to be what used to be a bridge that spanned the river
+which has long fallen into disrepair.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 9096
+D1
+~
+~
+0 0 9094
+S
+#9096
+`$The Serpentine River ``~
+The river opens up here nearly looking like a large lake instead of a
+river.  The water looks to be at a near stand still but by the waves that
+press up against the soft sandy banks you can tell that it still moves at a
+good clip. 
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 9095
+D3
+~
+~
+0 0 9097
+S
+#9097
+`$The Serpentine River ``~
+The river opens up here nearly looking like a large lake instead of a
+river.  The water looks to be at a near stand still but by the waves that
+press up against the soft sandy banks you can tell that it still moves at a
+good clip. 
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 9098
+D1
+~
+~
+0 0 9096
+S
+#9098
+`$The Serpentine River ``~
+As the river widens here the current appears to slow some.  Experienced
+sailors will note that the current does not become less dangerous but more. 
+The undercurrent of this vast expanse can be seen by the eddies on the
+banks and the near reverse look of the flow of water.  Tide pools quickly
+engulf all floating objects here.
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 9097
+D3
+~
+~
+0 0 9099
+S
+#9099
+`$The Serpentine River ``~
+The rushing waters of the Serpentine have stirred up mud from the bottom
+of the river bed which turns this area of the river a nasty brownish color
+difficult to look too deeply into the depths.  
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 9098
+D3
+~
+~
+0 0 9100
+S
+#9100
+`$The Serpentine River ``~
+The rushing waters of the Serpentine have stirred up mud from the bottom
+of the river bed which turns this area of the river a nasty brownish color
+difficult to look too deeply into the depths.  
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 9099
+D3
+~
+~
+0 0 9101
+S
+#9101
+`$The Serpentine River ``~
+Another steep twist in this river.  It is easy to see why this river is
+named the Serpentine with all the turns and twists.  Like its namesake the
+river continues to make its way through the countryside seemingly of its own
+volition. 
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 9100
+D3
+~
+~
+0 0 9102
+S
+#9102
+`$The Serpentine River ``~
+You are in deep swift running water.  The current looks to be dragging
+along with it bits of driftwood and particles of trash.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 9103
+D1
+~
+~
+0 0 9101
+S
+#9103
+`$The Serpentine River ``~
+You are in deep swift running water.  The current looks to be dragging
+along with it bits of driftwood and particles of trash.  
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 9102
+D3
+~
+~
+0 0 9104
+S
+#9104
+`$The Serpentine River ``~
+Brackish water seems to have settles along the banks here.  The smell of
+dead and decaying fish permeates the air.  Bloated dead fish seem to brush
+up against the bank with the wake of the rivers waves. 
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 9103
+D3
+~
+~
+0 0 9105
+S
+#9105
+`$The Serpentine River ``~
+The river becomes a bit more shallow here as you can see the smooth river
+rocks that have settled on the bottom of the river.  Still running too swift
+to swim its current remains a driving and deadly force of thousands of
+gallons of water.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 9104
+D3
+~
+~
+0 0 9106
+S
+#9106
+`$The Serpentine River ``~
+Swirls of quick moving water spin the dirt into the center of the river
+which outlines the dangerous current that tempts to drag boats down. 
+Certain death for those that feel the need for a little dip or swim.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 9107
+D1
+~
+~
+0 0 9105
+S
+#9107
+`$The Serpentine River ``~
+You are on the river.  Choppy waters and swift currents are what are
+readily seen.  The banks of this vast river look far off in the distance.  
+The occasional log speeds by on the current bobbing up and down.
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 9106
+D3
+~
+~
+0 0 3300
+S
+#9108
+`3The Imperial Road ``~
+The Imperial Road dwindles to a path here, then finally little more
+than a faded trail as it disappears westward into thickets, and ultimately
+the Yarlwood. Just south of you, the Chill and Serpentine rivers unite,
+and run westward until they drain into the Venpal Ocean. Here among
+the lands of Palinor, you feel very alone, as rolling hills of this
+tundra are all you can make out for miles.
+~
+~
+0 0 65536 2
+D1
+~
+~
+0 0 9109
+D2
+~
+~
+0 0 3300
+S
+#9109
+`3The Imperial Road ``~
+The stones creating this Imperial Road are scattered in an even pattern.
+Each rock seems to fit smoothly with its cousins in which are embedded into
+the ground. Traces of foot steps imply that this road is used more often
+than thought. The Imperial Road leads West and East. West to Yarlwood and
+east to The Palinese Checkpoint.
+~
+~
+0 0 65536 2
+D1
+~
+~
+0 0 9110
+D3
+~
+~
+0 0 9108
+S
+#9110
+`3The Imperial Road ``~
+The grass on either side of the Imperial Road shines a healthy green. 
+Untainted, this grass surely would be beneficial to any animal who wishes
+for a meal.  The combination of the road and grass seem to intensify the
+beauty of this land.  Only good can come of traveling West revealing more of
+the path.  There is a small turn in the road before continuing West.  
+~
+~
+0 0 8192 2
+D2
+~
+~
+0 0 9111
+D3
+~
+~
+0 0 9109
+S
+#9111
+`3The Imperial Road ``~
+Following through the short turn, the cobble stone road carries East,
+towards The Palinese Checkpoint.  Travel will not be dull as many small
+animals inhabit the thickining brush.  
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 9110
+D1
+~
+~
+0 0 9112
+S
+#9112
+`3The Imperial Road ``~
+The grass begins to die off as the scrubland grows larger.  It seems
+possible to think that the animals are moving Eastwards.  To the west the
+grass is short, eaten up by animals.  And now, towards The Northern Gate of
+Emmereaux, the brush is larger and untroubled.  
+~
+~
+0 0 8192 2
+D1
+~
+~
+0 0 9113
+D3
+~
+~
+0 0 9111
+S
+#9113
+`3The Imperial Road ``~
+The grass begins to die off as the scrubland grows larger.  It seems
+possible to think that the animals are moving Eastwards.  To the west the
+grass is short, eaten up by animals.  And now, towards The Northern Gate of
+Emmereaux, the brush is larger and untroubled.
+~
+~
+0 0 32768 2
+D1
+~
+~
+0 0 9114
+D3
+~
+~
+0 0 9112
+S
+#9114
+`3The Imperial Road ``~
+The grass begins to die off as the scrubland grows larger.  It seems
+possible to think that the animals are moving Eastwards.  To the west the
+grass is short, eaten up by animals.  And now, towards The Northern Gate of
+Emmereaux, the brush is larger and untroubled.
+~
+~
+0 0 32768 2
+D1
+~
+~
+0 0 9115
+D3
+~
+~
+0 0 9113
+S
+#9115
+`3The Imperial Road ``~
+Coming to the end of east travel, there are a few turns in sight from this point.
+They are small turns, forcing you to adventure Southeast. The brush is knee high at
+this point, luckily, it only grows on the outside of the path. The brush does not
+affect your travel much. But because of the healthy soil to the side, you can spot
+a few insects crawling around in the pattern of the stone path.
+~
+~
+0 0 8192 2
+D2
+~
+~
+0 0 9116
+D3
+~
+~
+0 0 9114
+S
+#9116
+`3The Imperial Road ``~
+There is a large tree here.  The tree is absolutely stunning, in a
+delicate way.  It must be standing at about thirty feet tall.  Its leaves
+luscious and juicy.  This tree adds to the completion of this attractive
+area.  
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 9115
+D1
+~
+~
+0 0 9117
+S
+#9117
+`3The Imperial Road ``~
+Almost at the end of the curved path, the cobble stone starts to widen. The path
+is becoming slightly larger, able to accommodate more men and women, or even
+horses and wagons.
+~
+~
+0 0 16384 2
+D2
+~
+~
+0 0 9118
+D3
+~
+~
+0 0 9116
+S
+#9118
+`3The Imperial Road ``~
+Finally at the end of the curves, you have a clear and wide path headed east.
+In far sight, there seems to be someone standing. East of here, two people and
+a large gate of somesort. The path continues to widen.
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 9117
+D1
+~
+~
+0 0 9119
+S
+#9119
+`3The Imperial Road ``~
+Finally at the end of the curves, you have a clear and wide path headed east.
+In far sight, there seems to be someone standing. East of here, two people and
+a large gate of somesort. The path continues to widen.
+~
+~
+0 0 32768 2
+D1
+~
+~
+0 0 9120
+D3
+~
+~
+0 0 9118
+S
+#9120
+`3The Imperial Road ``~
+You are a bodies walk away from The Palinese Checkpoint, to the east. Beyond that
+there is a large gate. Possibly the enterpoint of a city? The guards to the east
+stand ready for any trouble that may come this way, protecting their station.
+~
+~
+0 0 32768 2
+D1
+~
+~
+0 0 9121
+D3
+~
+~
+0 0 9119
+S
+#9121
+`3The Palinese Checkpoint ``~
+Two large and honorably armored men stand here eyeballing you.  Without
+trouble, any person would be allowed to continue East towards the Gates. 
+Surely if there were trouble, the gate guards would finish off an intruder. 
+The men standing here must be only looking for common intruders or knowen
+rivals.  
+~
+~
+0 0 32768 2
+D1
+~
+~
+A 0 9122
+D3
+~
+~
+0 0 9120
+S
+#9122
+`3The Imperial Road ``~
+The road here is now as wide as it seems to become.  Expanded to its
+full size, five horses side by side would be able to walk with comfort. 
+Probably this way to aid travel around the gate that near.  
+~
+~
+0 0 32768 2
+D1
+~
+~
+0 0 9123
+D3
+~
+~
+A 0 9121
+S
+#9123
+`3The Outskirts of Emmereaux ``~
+Three guards stand south, one, respectfully larger then the other two. 
+There is a sign posted here.  
+~
+~
+0 0 16384 2
+E
+sign~
+EAST -The Eastern Imperial Road
+WEST - The Imperial Road
+SOUTH -Emmereaux
+NORTH - Darkling Wood
+ 
+~
+D0
+~
+~
+0 0 8190
+D1
+~
+~
+0 0 6900
+D2
+~
+~
+0 0 9010
+D3
+~
+~
+0 0 9122
+S
+#9124
+`8Sword Street ``~
+You stand along Sword Street, the main thoroughfare in the trade
+district of Emmereaux. Made of rough hewn cobbled granite, Sword
+Street is the lifeblood of Emmereaux, lending itself to the homes
+of the various guilds of the region, including Cavaliers, Warriors,
+and more. The entrance to the Guild of Sorcerers lies to your west.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9010
+D2
+~
+~
+0 0 9125
+D3
+~
+~
+0 0 9279
+S
+#9125
+`8Sword Street ``~
+You stand along Sword Street, the main thoroughfare in the trade
+district of Emmereaux. Made of rough hewn cobbled granite, Sword
+Street is the lifeblood of Emmereaux, lending itself to the homes
+of the various guilds of the region, including Cavaliers, Warriors,
+and more. The entrance to the Thaumaturgist's Guildhall lies to
+your west.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9124
+D2
+~
+~
+0 0 9126
+D3
+~
+~
+0 0 9277
+S
+#9126
+`8Sword Street ``~
+You stand along Sword Street, the main thoroughfare in the trade
+district of Emmereaux. Made of rough hewn cobbled granite, Sword
+Street is the lifeblood of Emmereaux, lending itself to the homes
+of the various guilds of the region, including Cavaliers, Warriors,
+and more. The entrance to the Guildhall of the Clerics lies to
+your west.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9125
+D2
+~
+~
+0 0 9127
+D3
+~
+~
+0 0 9267
+S
+#9127
+`8Sword Street ``~
+You stand along Sword Street, the main thoroughfare in the trade
+district of Emmereaux. Made of rough hewn cobbled granite, Sword
+Street is the lifeblood of Emmereaux, lending itself to the homes
+of the various guilds of the region, including Cavaliers, Warriors,
+and more. To the west, the Paladin Guildhall stands proudly. The
+road continues to the north and south. Eastward lie the stables of
+the Maiden and the Sword Tavern.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9126
+D1
+~
+~
+0 0 9286
+D2
+~
+~
+0 0 9128
+D3
+~
+~
+0 0 9263
+S
+#9128
+`8Sword Street ``~
+You stand along Sword Street, the main thoroughfare in the trade
+district of Emmereaux. Made of rough hewn cobbled granite, Sword
+Street is the lifeblood of Emmereaux, lending itself to the homes
+of the various guilds of the region, including Cavaliers, Warriors,
+and more. To the west, the home of the Healers can be seen. The
+road continues to the north and south.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9127
+D2
+~
+~
+0 0 9129
+D3
+~
+~
+0 0 9261
+S
+#9129
+`8Sword Street ``~
+You stand along Sword Street, the main thoroughfare in the trade
+district of Emmereaux. Made of rough hewn cobbled granite, Sword
+Street is the lifeblood of Emmereaux, lending itself to the homes
+of the various guilds of the region, including Cavaliers, Warriors,
+and more. To the west, the Cavalier Guildhall stands proudly. The
+road continues to the north and south.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9128
+D2
+~
+~
+0 0 9130
+D3
+~
+~
+0 0 9265
+S
+#9130
+`8The Intersection of Sword and Esteri ``~
+You stand in the center of a four way intersection between Esteri
+Road and Sword Street. Sword leads north and south into the trade
+halls of Emmereaux, home of such people as Paladins, Cavaliers, and
+Clerics, while Esteri runs eastward into the housing areas, and
+westward toward the commerce district and craft halls.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9129
+D1
+~
+~
+0 0 9137
+D2
+~
+~
+0 0 9131
+D3
+~
+~
+0 0 9152
+S
+#9131
+`8Sword Street ``~
+You stand along Sword Street, the main thoroughfare in the trade
+district of Emmereaux. Made of rough hewn cobbled granite, Sword
+Street is the lifeblood of Emmereaux, lending itself to the homes
+of the various guilds of the region, including Cavaliers, Warriors,
+and more. To the west, the Warrior Guildhall stands proudly. The
+road continues to the north and south.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9130
+D2
+~
+~
+0 0 9132
+D3
+~
+~
+0 0 9253
+S
+#9132
+`8Sword Street ``~
+You stand along Sword Street, the main thoroughfare in the trade
+district of Emmereaux. Made of rough hewn cobbled granite, Sword
+Street is the lifeblood of Emmereaux, lending itself to the homes
+of the various guilds of the region, including Cavaliers, Warriors,
+and more. To the west stands the Berserker Guildhall. A narrow alley
+runs off to the east while Sword Street continues to the north and 
+south.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9131
+D1
+~
+~
+0 0 9224
+D2
+~
+~
+0 0 9133
+D3
+~
+~
+0 0 9255
+S
+#9133
+`8Sword Street ``~
+You stand along Sword Street, the main thoroughfare in the trade
+district of Emmereaux. Made of rough hewn cobbled granite, Sword
+Street is the lifeblood of Emmereaux, lending itself to the homes
+of the various guilds of the region, including Cavaliers, Warriors,
+and more. To the west stands the Hall of the Rangers.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9132
+D2
+~
+~
+0 0 9134
+D3
+~
+~
+0 0 9257
+S
+#9134
+`8Sword Street ``~
+You stand along Sword Street, the main thoroughfare in the trade
+district of Emmereaux. Made of rough hewn cobbled granite, Sword
+Street is the lifeblood of Emmereaux, lending itself to the homes
+of the various guilds of the region, including Cavaliers, Warriors,
+and more. To the west stands the Hall of the Dark Knights.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9133
+D2
+~
+~
+0 0 9135
+D3
+~
+~
+0 0 9299
+S
+#9135
+`8Sword Street ``~
+You stand along Sword Street, the main thoroughfare in the trade
+district of Emmereaux. Made of rough hewn cobbled granite, Sword
+Street is the lifeblood of Emmereaux, lending itself to the homes
+of the various guilds of the region, including Cavaliers, Warriors,
+and more. To the west stands the Hall of the Necromancers while a
+small alleyway runs off to the east.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9134
+D1
+~
+~
+0 0 9225
+D2
+~
+~
+0 0 9136
+D3
+~
+~
+0 0 9297
+S
+#9136
+`8Sword Street ``~
+You stand along Sword Street, the main thoroughfare in the trade
+district of Emmereaux. Made of rough hewn cobbled granite, Sword
+Street is the lifeblood of Emmereaux, lending itself to the homes
+of the various guilds of the region, including Cavaliers, Warriors,
+and more. Southward lies Seawall Road, the southernmost road in
+Emmereaux, while Sword Street continues on toward the north.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9135
+D2
+~
+~
+0 0 9055
+S
+#9137
+`8Esteri Road ``~
+You stand along Esteri Road, one of the more southern roads within
+Emmereaux. It is well made of cobbled granite, though rather sandy
+and dirty from years of wear and use. Its purpose is more as a sort
+of linking road between the commerce and trade districts to the
+various housing districts within Emmereaux.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9138
+D3
+~
+~
+0 0 9130
+S
+#9138
+`8The Intersection of Esteri and Rhuma ``~
+You are walking along Esteri Road, which leads east and west through
+Emmereaux. To the south, the yellow-mud Rhuma Road leads into the
+training areas, and finally to Seawall Road. To your immediate north,
+a large, well-lit tavern is here, and sounds of loud, jovial laughter
+and music emanate from within.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9283
+D1
+~
+~
+0 0 9139
+D2
+~
+~
+0 0 9230
+D3
+~
+~
+0 0 9137
+S
+#9139
+`8Esteri Road ``~
+You stand along Esteri Road, one of the more southern roads within
+Emmereaux. It is well made of cobbled granite, though rather sandy
+and dirty from years of wear and use. Its purpose is more as a sort
+of linking road between the commerce and trade districts to the
+various housing districts within Emmereaux.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9140
+D3
+~
+~
+0 0 9138
+S
+#9140
+`8The Intersection of Esteri and Beacon Point ``~
+You stand at the intersection of Esteri Road and Beacon Point. The
+theme of the road changes significantly here, switching from gray
+cobblestones to a sheer white pavement, looking much like ivory.
+Each stone is inlaid with the insignia of a golden sword beneath 
+a golden crown. Southward, you can see a massive structure rise up, 
+while Esteri continues east and west.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9141
+D2
+~
+~
+0 0 9172
+D3
+~
+~
+0 0 9139
+S
+#9141
+`8Esteri Road ``~
+You stand along Esteri Road, one of the more southern roads within
+Emmereaux. It is well made of cobbled granite, though rather sandy
+and dirty from years of wear and use. Its purpose is more as a sort
+of linking road between the commerce and trade districts to the
+various housing districts within Emmereaux.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9142
+D3
+~
+~
+0 0 9140
+S
+#9142
+`8Esteri Road ``~
+You stand along Esteri Road, one of the more southern roads within
+Emmereaux. It is well made of cobbled granite, though rather sandy
+and dirty from years of wear and use. Its purpose is more as a sort
+of linking road between the commerce and trade districts to the
+various housing districts within Emmereaux. North of you, a narrow,
+overgrown path leads toward a clearing.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9208
+D1
+~
+~
+0 0 9143
+D3
+~
+~
+0 0 9141
+S
+#9143
+`8Esteri Road ``~
+You stand along Esteri Road, one of the more southern roads within
+Emmereaux. It is well made of cobbled granite, though rather sandy
+and dirty from years of wear and use. Its purpose is more as a sort
+of linking road between the commerce and trade districts to the
+various housing districts within Emmereaux.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9144
+D3
+~
+~
+0 0 9142
+S
+#9144
+`8Esteri Road ``~
+You stand along Esteri Road, one of the more southern roads within
+Emmereaux. It is well made of cobbled granite, though rather sandy
+and dirty from years of wear and use. Its purpose is more as a sort
+of linking road between the commerce and trade districts to the
+various housing districts within Emmereaux.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9145
+D3
+~
+~
+0 0 9143
+S
+#9145
+`8The Intersection of Esteri and Trade ``~
+You stand amid a four way intersection here between Trade and
+Esteri. Trade Road continues north and south here, a long, muddy
+road filled with various shops hawking trinkets and gadgets, while
+Esteri continues east and west through town.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9150
+D1
+~
+~
+0 0 9244
+D2
+~
+~
+0 0 9146
+D3
+~
+~
+0 0 9144
+S
+#9146
+`8Trade Road ``~
+You are walking along Trade Road, aptly named so because of the
+myriad of shops that hawk wares here. You are most definitely in
+the poorer district of Emmereaux, as can be judged by the paupers
+and beggars that are either panhandling wares here, or begging
+for alms. The road below you is made of packed dirt, made into
+mud by the sea air. A mercantile is located to your east.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9145
+D1
+~
+~
+0 0 9245
+D2
+~
+~
+0 0 9147
+S
+#9147
+`8Trade Road ``~
+You are walking along Trade Road, aptly named so because of the
+myriad of shops that hawk wares here. You are most definitely in
+the poorer district of Emmereaux, as can be judged by the paupers
+and beggars that are either panhandling wares here, or begging
+for alms. The road below you is made of packed dirt, made into
+mud by the sea air. A blacksmith is located to your east.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9146
+D1
+~
+~
+0 0 9246
+D2
+~
+~
+0 0 9148
+S
+#9148
+`8Trade Road ``~
+You are walking along Trade Road, aptly named so because of the
+myriad of shops that hawk wares here. You are most definitely in
+the poorer district of Emmereaux, as can be judged by the paupers
+and beggars that are either panhandling wares here, or begging
+for alms. The road below you is made of packed dirt, made into
+mud by the sea air. A mercenary block is located to your east.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9147
+D1
+~
+~
+0 0 9247
+D2
+~
+~
+0 0 9149
+S
+#9149
+`8Trade Road ``~
+You are walking along Trade Road, aptly named so because of the
+myriad of shops that hawk wares here. You are most definitely in
+the poorer district of Emmereaux, as can be judged by the paupers
+and beggars that are either panhandling wares here, or begging
+for alms. The road below you is made of packed dirt, made into
+mud by the sea air. Seawall Road lies to your south.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9148
+D2
+~
+~
+0 0 9044
+S
+#9150
+`8Trade Road ``~
+You are walking along Trade Road, aptly named so because of the
+myriad of shops that hawk wares here. You are most definitely in
+the poorer district of Emmereaux, as can be judged by the paupers
+and beggars that are either panhandling wares here, or begging
+for alms. The road below you is made of packed dirt, made into
+mud by the sea air. An alchemy shoppe is located to your east.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9151
+D1
+~
+~
+0 0 9243
+D2
+~
+~
+0 0 9145
+S
+#9151
+`8The Lighthouse Square ``~
+You stand in the southwestern corner of the Lighthouse square.
+To your northeast, the lighthouse rises up, while south of you
+looms a small arched gate leading to Trade Road, and the poorer
+districts to Emmereaux. Westward, an overgrown and shady path
+leads through some ruined buildings.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9032
+D1
+~
+~
+0 0 9034
+D2
+~
+~
+0 0 9150
+D3
+~
+~
+0 0 9237
+S
+#9152
+`8Esteri Road ``~
+You stand along Esteri Road, one of the more southern roads within
+Emmereaux. It is well made of cobbled granite, though rather sandy
+and dirty from years of wear and use. Its purpose is more as a sort
+of linking road between the commerce and trade districts to the
+various housing districts within Emmereaux.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9130
+D3
+~
+~
+0 0 9153
+S
+#9153
+`8Esteri Road ``~
+You stand along Esteri Road, one of the more southern roads within
+Emmereaux. It is well made of cobbled granite, though rather sandy
+and dirty from years of wear and use. Its purpose is more as a sort
+of linking road between the commerce and trade districts to the
+various housing districts within Emmereaux.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9152
+D3
+~
+~
+0 0 9154
+S
+#9154
+`8The Intersection of Griffon and Esteri ``~
+You stand amid a four way intersection, linking Griffon Street
+with Esteri Street, which runs east and west. Esteri links the
+commerce district of the craft guilds to the trade district,
+where the tradehalls of various people can be found. Eastward
+lies the Temple Square, while Griffon Street continues south
+ward toward the Seawall.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9155
+D1
+~
+~
+0 0 9153
+D2
+~
+~
+0 0 9167
+D3
+~
+~
+0 0 9214
+S
+#9155
+`8Griffon Street ``~
+You are walking along Griffon Street, the main commerce section
+for Emmereaux. The road is in overall good condition and easily
+wide enough for two horse drawn carriages to pass abreast. Several
+large signs jut from the fronts of two to three story buildings
+here, each with insignia alluding to the craft guilds. Eastward
+lies the entrance to the Guildhall of the Miners.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9156
+D1
+~
+~
+0 0 9274
+D2
+~
+~
+0 0 9154
+S
+#9156
+`8The Intersection of Griffon and Palinor ``~
+You stand amid a three way intersection. Palinor road, which
+leads westward through the gates and out of the city deadends
+here, and turns into Griffon Street, which runs north and
+south. The beginning of the commerce district lies along this
+road, as is apparent by the swinging signs of the craft guilds
+that dot Griffon Street.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9164
+D2
+~
+~
+0 0 9155
+D3
+~
+~
+0 0 9157
+S
+#9157
+`8Palinor Road ``~
+You are standing along Palinor road, named for the province in
+which Emmereaux is the capital. The road is broad enough for
+several horse carriages to pass by each other unhindered. The
+road itself is made entirely of gray granite slabs mortared
+into place, creating a smooth, hard road. Just east of you lies
+a large three way intersection. The road seems to end at a large
+stone wall.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9156
+D3
+~
+~
+0 0 9158
+S
+#9158
+`8Palinor Road ``~
+You are standing along Palinor road, named for the province in
+which Emmereaux is the capital. The road is broad enough for
+several horse carriages to pass by each other unhindered. The
+road itself is made entirely of gray granite slabs mortared
+into place, creating a smooth, hard road. A large, grassy lawn
+lies southward, where several large steeples from the various
+temples rise skyward.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9157
+D2
+~
+~
+0 0 9213
+D3
+~
+~
+0 0 9159
+S
+#9159
+`8Palinor Road ``~
+You are standing along Palinor road, named for the province in
+which Emmereaux is the capital. The road is broad enough for
+several horse carriages to pass by each other unhindered. The
+road itself is made entirely of gray granite slabs mortared
+into place, creating a smooth, hard road. The massive walls
+to the south and north of you prevent you from seeing into the
+inner districts of Emmereaux.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9158
+D3
+~
+~
+0 0 9160
+S
+#9160
+`8Palinor Road ``~
+You are standing along Palinor road, named for the province in
+which Emmereaux is the capital. The road is broad enough for
+several horse carriages to pass by each other unhindered. The
+road itself is made entirely of gray granite slabs mortared
+into place, creating a smooth, hard road. The massive walls
+to the south and north of you prevent you from seeing into the
+inner districts of Emmereaux.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9159
+D3
+~
+~
+0 0 9161
+S
+#9161
+`8Palinor Road ``~
+You are standing along Palinor road, named for the province in
+which Emmereaux is the capital. The road is broad enough for
+several horse carriages to pass by each other unhindered. The
+road itself is made entirely of gray granite slabs mortared
+into place, creating a smooth, hard road. A large, grassy lawn
+lies southward, where several large steeples from the various
+temples rise skyward.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9160
+D2
+~
+~
+0 0 9209
+D3
+~
+~
+0 0 9162
+S
+#9162
+`8Palinor Road ``~
+You are standing along Palinor road, named for the province in
+which Emmereaux is the capital. The road is broad enough for
+several horse carriages to pass by each other unhindered. The
+road itself is made entirely of gray granite slabs mortared
+into place, creating a smooth, hard road. Further to the west
+the massive gates of Emmereaux can be seen.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9161
+D3
+~
+~
+0 0 9163
+S
+#9163
+`8Palinor Road ``~
+You are standing along Palinor road, named for the province in
+which Emmereaux is the capital. The road is broad enough for
+several horse carriages to pass by each other unhindered. The
+road itself is made entirely of gray granite slabs mortared
+into place, creating a smooth, hard road. South of you lies
+Barrister Road, and westard stand the massive city gates.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9162
+D2
+~
+~
+0 0 9073
+D3
+~
+~
+0 0 9075
+S
+#9164
+`8Griffon Street ``~
+You are walking along Griffon Street, the main commerce section
+for Emmereaux. The road is in overall good condition and easily
+wide enough for two horse drawn carriages to pass abreast. Several
+large signs jut from the fronts of two to three story buildings
+here, each with insignia alluding to the craft guilds. Eastward
+lies the entrance to the Guildhall of the Alchemists.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9165
+D1
+~
+~
+0 0 9272
+D2
+~
+~
+0 0 9156
+S
+#9165
+`8Griffon Street ``~
+You are walking along Griffon Street, the main commerce section
+for Emmereaux. The road is in overall good condition and easily
+wide enough for two horse drawn carriages to pass abreast. Several
+large signs jut from the fronts of two to three story buildings
+here, each with insignia alluding to the craft guilds. Eastward
+lies the entrance to the Guildhall of the Tailors.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9166
+D1
+~
+~
+0 0 9273
+D2
+~
+~
+0 0 9164
+S
+#9166
+`8Griffon Street ``~
+You are walking along Griffon Street, the main commerce section
+for Emmereaux. The road is in overall good condition and easily
+wide enough for two horse drawn carriages to pass abreast. Several
+large signs jut from the fronts of two to three story buildings
+here, each with insignia alluding to the craft guilds. Eastward
+lies the entrance to the Portal.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9087
+D1
+~
+~
+0 0 9271
+D2
+~
+~
+0 0 9165
+S
+#9167
+`8Griffon Street ``~
+As you wind yourself along Griffon Road, the smell of sea salt
+and the cries of seagulls begin to fill your senses from afar.
+Southward lies the Seawall Road, named after the massive seawall
+that keeps the Sea of Palinor from flooding the city. Northward
+lies the four way intersection of Griffon and Esteri, while even
+further to the north lie the crafthalls of Emmereaux.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9154
+D2
+~
+~
+0 0 9168
+S
+#9168
+`8Griffon Street ``~
+As you wind yourself along Griffon Road, the smell of sea salt
+and the cries of seagulls begin to fill your senses from afar.
+Southward lies the Seawall Road, named after the massive seawall
+that keeps the Sea of Palinor from flooding the city. Northward
+lies the four way intersection of Griffon and Esteri, while even
+further to the north lie the crafthalls of Emmereaux.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9167
+D2
+~
+~
+0 0 9169
+S
+#9169
+`8Griffon Street ``~
+The sound of crashing surf fills your ears as you stand very
+near Seawall Road, the southernmost road of Emmereaux. To the
+west, a small path leads into the Southeastern Temple Square,
+while Griffon Road continues northward toward Esteri Street.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9168
+D2
+~
+~
+0 0 9170
+D3
+~
+~
+0 0 9212
+S
+#9170
+`8Griffon Street ``~
+Walking along Griffon Street, you find yourself almost oppressed
+by the smell of the sea, the cries of gulls and terns, and the
+overwhelming smell of fish. Southward, Griffon Street makes a
+jaunt into Seawall Road, while to the north you can find the
+commerce district of Emmereaux, and the Temples, which you can
+see outline the skyline of Emmereaux.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9169
+D2
+~
+~
+0 0 9171
+S
+#9171
+`8Griffon Street ``~
+Walking along Griffon Street, you find yourself almost oppressed
+by the smell of the sea, the cries of gulls and terns, and the
+overwhelming smell of fish. Southward and westward, Griffon 
+Street makes a jaunt into Seawall Road, while to the north you 
+can find the commerce district of Emmereaux, and the Temples, 
+which you can see outline the skyline of Emmereaux.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9170
+D2
+~
+~
+0 0 9059
+D3
+~
+~
+0 0 9061
+S
+#9172
+`8Beacon Point Road ``~
+You stand amid Beacon Point Road. Beneath your feet lies a sheer 
+white pavement, looking much like ivory. Inlaid on each stone is 
+the insignia of a golden sword beneath a golden crown. Southward, 
+and a bit to the east, you can see a massive structure rise up,
+flying several large garrison flags.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9140
+D2
+~
+~
+0 0 9173
+S
+#9173
+`8Beacon Point Road ``~
+You stand amid Beacon Point Road. Beneath your feet lies a sheer 
+white pavement, looking much like ivory. Inlaid on each stone is 
+the insignia of a golden sword beneath a golden crown. Southward, 
+and a bit to the east, you can see a massive structure rise up,
+flying several large garrison flags. Westward, a small alleyway
+runs from Beacon Point Road deeper into the residential districts.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9172
+D2
+~
+~
+0 0 9174
+D3
+~
+~
+0 0 9226
+S
+#9174
+`8Beacon Point Road ``~
+You stand amid Beacon Point Road. Beneath your feet lies a sheer 
+white pavement, looking much like ivory. Inlaid on each stone is 
+the insignia of a golden sword beneath a golden crown. Directly to
+your east looms the massive Palace of Emmereaux, home to the Monarchy
+of Emmereaux. Massive white stone gates block much of your view,
+as throngs of guards keep close watch over the front gate.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9173
+D1
+~
+~
+0 0 9178
+D2
+~
+~
+0 0 9175
+S
+#9175
+`8Beacon Point Road ``~
+You stand amid Beacon Point Road. Beneath your feet lies a sheer 
+white pavement, looking much like ivory. Inlaid on each stone is 
+the insignia of a golden sword beneath a golden crown. Northward, 
+and a bit to the east, you can see a massive structure rise up,
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9174
+D2
+~
+~
+0 0 9176
+S
+#9176
+`8Beacon Point Road ``~
+You stand amid Beacon Point Road. Beneath your feet lies a sheer 
+white pavement, looking much like ivory. Inlaid on each stone is 
+the insignia of a golden sword beneath a golden crown. Northward, 
+and a bit to the east, you can see a massive structure rise up,
+flying several large garrison flags. Westward, a small alley seems
+to lead into some sort of a training area, while south of you the
+massive seawall of Emmereaux looms.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9175
+D2
+~
+~
+0 0 9177
+D3
+~
+~
+0 0 9227
+S
+#9177
+`8Beacon Point Road ``~
+You stand amid Beacon Point Road. Beneath your feet lies a sheer 
+white pavement, looking much like ivory. Inlaid on each stone is 
+the insignia of a golden sword beneath a golden crown. Northward, 
+and a bit to the east, you can see a massive structure rise up,
+flying several large garrison flags.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 9176
+D2
+~
+~
+0 0 9051
+S
+#9178
+`8The Entrance to Emmereaux Palace ``~
+You have just stepped upon flag stoned marble that has been culled to
+form a solid walkway that leads to the palace up ahead.  The sides of the
+walkway are trimmed out with exotic plant life that seems to be in perpetual
+bloom.  Reds.  Blues, purples all radiantly show off their petals.  The
+greens of the bushes are a deep wide leaf type.  There is a arbor just
+before the entrance of the palace that has some yellow jasmine growing up on
+it.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 9204
+D3
+~
+~
+0 0 9174
+S
+#9179
+`#The Beaches of Emmereaux ``~
+You are walking along the Emmereaux Beaches. This strip of sand
+leads north and south along the coastline of Palinor, home of the
+city of Emmereaux. Eastward, the shallows of the Sea of Palinor
+are roiled and choppy, whipped up by the chilly wind that seems
+to always be present in Emmereaux. Westward lies a small set of
+stairs the leads back to Seawall Road.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 9191
+D2
+~
+~
+0 0 9180
+D3
+~
+~
+0 0 9035
+S
+#9180
+`#The Beaches of Emmereaux ``~
+You are walking along the Emmereaux Beaches. This strip of sand
+leads north and south along the coastline of Palinor, home of the
+city of Emmereaux. Eastward, the shallows of the Sea of Palinor
+are roiled and choppy, whipped up by the chilly wind that seems
+to always be present in Emmereaux. Westward lies a small set of
+stairs the leads back to Seawall Road.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 9179
+D1
+~
+~
+0 0 9190
+D2
+~
+~
+0 0 9181
+D3
+~
+~
+0 0 9036
+S
+#9181
+`#The Beaches of Emmereaux ``~
+You are walking along the Emmereaux Beaches. This strip of sand
+leads north and south along the coastline of Palinor, home of the
+city of Emmereaux. Eastward, the shallows of the Sea of Palinor
+are roiled and choppy, whipped up by the chilly wind that seems
+to always be present in Emmereaux. Westward lies a small set of
+stairs the leads back to Seawall Road.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 9180
+D1
+~
+~
+0 0 9189
+D2
+~
+~
+0 0 9182
+D3
+~
+~
+0 0 9037
+S
+#9182
+`#The Beaches of Emmereaux ``~
+You are walking along the Emmereaux Beaches. This strip of sand
+leads north and south along the coastline of Palinor, home of the
+city of Emmereaux. Eastward, the shallows of the Sea of Palinor
+are roiled and choppy, whipped up by the chilly wind that seems
+to always be present in Emmereaux. Westward lies a small set of
+stairs the leads back to Seawall Road.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 9181
+D1
+~
+~
+0 0 9188
+D2
+~
+~
+0 0 9183
+D3
+~
+~
+0 0 9038
+S
+#9183
+`#The Beaches of Emmereaux ``~
+You are walking along the Emmereaux Beaches. This strip of sand
+leads north and south along the coastline of Palinor, home of the
+city of Emmereaux. Eastward, the shallows of the Sea of Palinor
+are roiled and choppy, whipped up by the chilly wind that seems
+to always be present in Emmereaux. Westward lies a small set of
+stairs the leads back to Seawall Road.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 9182
+D1
+~
+~
+0 0 9187
+D2
+~
+~
+0 0 9184
+D3
+~
+~
+0 0 9039
+S
+#9184
+`#The Beaches of Emmereaux ``~
+You are walking along the Emmereaux Beaches. This strip of sand
+leads north and south along the coastline of Palinor, home of the
+city of Emmereaux. Eastward, the shallows of the Sea of Palinor
+are roiled and choppy, whipped up by the chilly wind that seems
+to always be present in Emmereaux. Westward lies a small set of
+stairs the leads back to Seawall Road.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 9183
+D1
+~
+~
+0 0 9186
+D2
+~
+~
+0 0 9185
+D3
+~
+~
+0 0 9040
+S
+#9185
+`#The Beaches of Emmereaux ``~
+You are walking along the Emmereaux Beaches. This strip of sand
+leads north and south along the coastline of Palinor, home of the
+city of Emmereaux. Eastward, the shallows of the Sea of Palinor
+are roiled and choppy, whipped up by the chilly wind that seems
+to always be present in Emmereaux. The beach ends here in a rocky
+jetty that looks rather treacherous.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 9184
+D3
+~
+~
+0 0 9041
+S
+#9186
+`6The Shallows of the Sea of Palinor ``~
+You are just within in the shallows of the Sea of Palinor. A
+brisk wind blows in your face from the east. The water is very
+chilly, and appears to have sharp undercurrents judging from the
+prevalence of torn and tattered seaweed that rises to the surface. 
+Further to the east, the water looks colder, deeper, and much more
+rough, while to the west lie the beaches of Emmereaux.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 9187
+D1
+~
+~
+0 0 25120
+D3
+~
+~
+0 0 9184
+S
+#9187
+`6The Shallows of the Sea of Palinor ``~
+You are just within in the shallows of the Sea of Palinor. A
+brisk wind blows in your face from the east. The water is very
+chilly, and appears to have sharp undercurrents judging from the
+prevalence of torn and tattered seaweed that rises to the surface. 
+Further to the east, the water looks colder, deeper, and much more
+rough, while to the west lie the beaches of Emmereaux.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 9188
+D1
+~
+~
+0 0 25120
+D2
+~
+~
+0 0 9186
+D3
+~
+~
+0 0 9183
+S
+#9188
+`6The Shallows of the Sea of Palinor ``~
+You are just within in the shallows of the Sea of Palinor. A
+brisk wind blows in your face from the east. The water is very
+chilly, and appears to have sharp undercurrents judging from the
+prevalence of torn and tattered seaweed that rises to the surface. 
+Further to the east, the water looks colder, deeper, and much more
+rough, while to the west lie the beaches of Emmereaux.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 9189
+D1
+~
+~
+0 0 25120
+D2
+~
+~
+0 0 9187
+D3
+~
+~
+0 0 9182
+S
+#9189
+`6The Shallows of the Sea of Palinor ``~
+You are just within in the shallows of the Sea of Palinor. A
+brisk wind blows in your face from the east. The water is very
+chilly, and appears to have sharp undercurrents judging from the
+prevalence of torn and tattered seaweed that rises to the surface. 
+Further to the east, the water looks colder, deeper, and much more
+rough, while to the west lie the beaches of Emmereaux.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 9190
+D1
+~
+~
+0 0 25120
+D2
+~
+~
+0 0 9188
+D3
+~
+~
+0 0 9181
+S
+#9190
+`6The Shallows of the Sea of Palinor ``~
+You are just within in the shallows of the Sea of Palinor. A
+brisk wind blows in your face from the east. The water is very
+chilly, and appears to have sharp undercurrents judging from the
+prevalence of torn and tattered seaweed that rises to the surface. 
+Further to the east, the water looks colder, deeper, and much more
+rough, while to the west lie the beaches of Emmereaux.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 9191
+D1
+~
+~
+0 0 25120
+D2
+~
+~
+0 0 9189
+D3
+~
+~
+0 0 9180
+S
+#9191
+`6The Shallows of the Sea of Palinor ``~
+You are just within in the shallows of the Sea of Palinor. A
+brisk wind blows in your face from the east. The water is very
+chilly, and appears to have sharp undercurrents judging from the
+prevalence of torn and tattered seaweed that rises to the surface. 
+Further to the east, the water looks colder, deeper, and much more
+rough, while to the west lie the beaches of Emmereaux.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 9028
+D1
+~
+~
+0 0 25120
+D2
+~
+~
+0 0 9190
+D3
+~
+~
+0 0 9179
+S
+#9192
+`8The Western Watchtower ``~
+You are in the upper reaches of the western watch tower.  This tower
+overlooks the Chill and Serpentine rivers making sure advancing armies do
+not assault the city uncontested.
+~
+~
+0 0 0 1
+D5
+~
+~
+0 0 9077
+S
+#9193
+`8The Western Watchtower ``~
+~
+~
+0 0 0 1
+D5
+~
+~
+AB 0 9074
+S
+#9194
+`8The Northern Watchtower ``~
+You are in one of the Northern Watch Towers.  It looks as though this
+place is used to garrison the North Guard, Emmereaux's northern city guard
+force.  
+~
+~
+0 0 1024 1
+D5
+~
+~
+0 0 9090
+S
+#9195
+`8The Northeastern Watchtower ``~
+You are in the north eastern watch tower affectionately known to the
+locals as Sinners Tower.  This watch tower over the years has become a haven
+for those that are seeking a little "privacy" to come to and get away from
+it all.  Most of the time this place is fairly empty.  While the guards use
+it as a base station, they do not usually man it heavily.  Sometimes not at
+all as the guards stationed here are those that walk the city and keep the
+city safe from rift-raft.  
+~
+~
+0 0 0 1
+D5
+~
+~
+0 0 9086
+S
+#9196
+`8The Southeastern Watchtower ``~
+You are in the upper reaches of the south western tower.  This tower is
+heavily guarded by two stone like golem figures.  They stand the watch on
+this section of the city stoicly and reverently watching.
+~
+~
+0 8 0 1
+D5
+~
+~
+AB 0 9066
+S
+#9197
+`8The Northern Watchtower ``~
+You are in one of the Northern Watch Towers.  It looks as though this
+place is used to garrison the North Guard, Emmereaux's northern city guard
+force.  
+~
+~
+0 0 0 1
+D5
+~
+~
+AB 0 9011
+S
+#9198
+`8The Southwestern Watchtower ``~
+You are in one of the smaller towers of the Emmereaux watch towers. 
+Designed for strength this is also one of the thickest built towers.  A safe
+haven for the armies of Emmereaux in times of need.  
+~
+~
+0 8 0 1
+D5
+~
+~
+AB 0 9060
+S
+#9199
+`8The Southern Watchtower ``~
+Much like its sister tower this one is built very solidly.  Thicker than
+most of the other Emmereaux towers yet not as tall.  Looking around you can
+see signs that this was once a place where smiths worked long ago for the
+city.  
+~
+~
+0 8 4194304 1
+D5
+~
+~
+AB 0 9049
+S
+#9200
+`8The Southeastern Watchtower ``~
+You have climbed up into the southern watch tower.  Where windows once
+were the masons have patched them over with new stone work.  It looks as
+though they have been preparing this tower for some other purpose and by the
+looks of the holes in the floor, newly placed metal work, perhaps a new
+dungeon is being built here.  
+
+Strangely enough it looks at though this room has recently been used as an
+altar room.  
+~
+~
+0 8 0 1
+D5
+~
+~
+AB 0 9043
+P GRALL 9201 100~
+P SPEECH 9200 worship~
+S
+#9201
+`1An underground passage ``~
+You find yourself standing within a small underground passage. A
+large carved portal to your west leads to...something, while a
+set of carved stairs lead upward, out of this room. You can see
+an eerie red glow coming from your west, and the whole area reeks
+of death and decay.
+~
+~
+0 8 0 12
+D3
+~
+~
+0 0 9202
+D4
+~
+vault~
+A 0 9240
+S
+#9202
+`1The Entrance to the Temple of Morgorin ``~
+You stand amid the entrance to a great underground hall. Around you,
+large basalt-black pillars rise up against the surrounding rough
+hewn bedrock to support a vaulted ceiling several spans above you.
+The air down here is cool, yet stagnant, reeking of decay and death.
+The drip of water can be heard in the distance. To your east, a
+small underground passage carved with stairs seems to lead upward.
+Westward lie a set of massive stone doors marked with an embossed
+skull.
+~
+~
+0 8 0 12
+D1
+~
+~
+0 0 9201
+P SPEECH 9202 worship~
+P ACT 9203 worship~
+S
+#9204
+`8The Grand Hall of the Emmereaux Palace ``~
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 9205
+D3
+~
+~
+0 0 9178
+S
+#9205
+`8The Grand Hall of the Emmereaux Palace ``~
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 9207
+D1
+~
+portal~
+A 0 9206
+D3
+~
+~
+0 0 9204
+S
+#9206
+`8The Throne Room of the Emmereaux Palace ``~
+~
+~
+0 8 0 0
+D3
+~
+~
+A 0 9205
+S
+#9207
+`8The Ballroom of the Emmereaux Palace ``~
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 9205
+S
+#9208
+`3A shady path ``~
+You are walking down a narrow, weeded path that seems to lead from
+Esteri Road to the sorth to a small clearing just to your north.
+You are definitely among the seedier districts of town as is evident
+by the run down shacks and trash that don either side of the path.
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 9240
+D2
+~
+~
+0 0 9142
+S
+#9209
+`@Northwest Temple Square ``~
+You stand within the Temple Square of Emmereaux. This well groomed
+section of lush greenery is immaculately kept by the royalty of the
+city. Large cobblestones are set into the lawn like grass which
+lead to all of the major temples in this square. The square itself
+is a hubbub of activity, ranging from passing commoners cutting
+through the quad on their way to work to devout worshippers and
+clergy coming and going from the shrines.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 9161
+D2
+~
+~
+0 0 9231
+S
+#9210
+`@Northwest Temple Square ``~
+You stand within the Temple Square of Emmereaux. This well groomed
+section of lush greenery is immaculately kept by the royalty of the
+city. Large cobblestones are set into the lawn like grass which
+lead to all of the major temples in this square. The square itself
+is a hubbub of activity, ranging from passing commoners cutting
+through the quad on their way to work to devout worshippers and
+clergy coming and going from the shrines.
+ 
+Eastward lies the Temple of Tiradel.
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 9231
+D3
+~
+~
+0 0 9072
+S
+#9211
+`@Southeast Temple Square ``~
+You stand within the Temple Square of Emmereaux. This well groomed
+section of lush greenery is immaculately kept by the royalty of the
+city. Large cobblestones are set into the lawn like grass which
+lead to all of the major temples in this square. The square itself
+is a hubbub of activity, ranging from passing commoners cutting
+through the quad on their way to work to devout worshippers and
+clergy coming and going from the shrines.
+ 
+Northward lies the Temple of Rhuma.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 9233
+D2
+~
+~
+0 0 9062
+S
+#9212
+`@Southeast Temple Square ``~
+You stand within the Temple Square of Emmereaux. This well groomed
+section of lush greenery is immaculately kept by the royalty of the
+city. Large cobblestones are set into the lawn like grass which
+lead to all of the major temples in this square. The square itself
+is a hubbub of activity, ranging from passing commoners cutting
+through the quad on their way to work to devout worshippers and
+clergy coming and going from the shrines.
+ 
+Westward lies the Temple of Rhuma.
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 9169
+D3
+~
+~
+0 0 9233
+S
+#9213
+`@Northeast Temple Square ``~
+You stand within the Temple Square of Emmereaux. This well groomed
+section of lush greenery is immaculately kept by the royalty of the
+city. Large cobblestones are set into the lawn like grass which
+lead to all of the major temples in this square. The square itself
+is a hubbub of activity, ranging from passing commoners cutting
+through the quad on their way to work to devout worshippers and
+clergy coming and going from the shrines.
+ 
+Southward lies the Temple of Markul.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 9158
+D2
+~
+~
+0 0 9232
+S
+#9214
+`@Northeast Temple Square ``~
+You stand within the Temple Square of Emmereaux. This well groomed
+section of lush greenery is immaculately kept by the royalty of the
+city. Large cobblestones are set into the lawn like grass which
+lead to all of the major temples in this square. The square itself
+is a hubbub of activity, ranging from passing commoners cutting
+through the quad on their way to work to devout worshippers and
+clergy coming and going from the shrines.
+ 
+Westward lies the Temple of Markul.
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 9154
+D3
+~
+~
+0 0 9232
+S
+#9215
+`@Southwest Temple Square ``~
+You stand within the Temple Square of Emmereaux. This well groomed
+section of lush greenery is immaculately kept by the royalty of the
+city. Large cobblestones are set into the lawn like grass which
+lead to all of the major temples in this square. The square itself
+is a hubbub of activity, ranging from passing commoners cutting
+through the quad on their way to work to devout worshippers and
+clergy coming and going from the shrines.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 9223
+D1
+~
+~
+0 0 9216
+D3
+~
+~
+0 0 9068
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 9231 spec_cast_cleric
+M 9232 spec_cast_cleric
+M 9233 spec_cast_cleric
+M 9244 spec_keeper_move
+M 9245 spec_keeper_move
+M 9246 spec_keeper_move
+M 9247 spec_keeper_move
+M 9252 spec_poison
+M 9277 spec_cast_mage
+M 9280 spec_cast_mage
+M 9286 spec_keeper_stay
+M 9296 spec_cast_undead
+M 9121 spec_executioner
+M 9122 spec_gate_guard
+M 9123 spec_gate_guard
+M 9125 spec_nasty
+M 9202 spec_cast_cleric
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 9010 2 9217 50
+M 0 9231 1 9231 1
+O 0 9231 0 9231
+O 0 9232 0 9231
+O 0 9232 0 9232
+O 0 9231 0 9232
+O 0 9233 0 9232
+M 0 9233 1 9233 1
+O 0 9231 0 9233
+O 0 9234 0 9233
+M 0 9124 1 9236 1
+M 0 9236 1 9236 1
+O 0 9241 0 9241
+O 0 9241 0 9241
+M 0 9242 1 9242 1
+O 0 9242 0 9242
+M 0 9244 1 9244 1
+G 0 9019 0
+G 0 9020 0
+G 0 9021 0
+G 0 9022 0
+G 0 9023 0
+G 0 9025 0
+M 0 9245 1 9245 1
+G 0 9009 0
+G 0 9010 0
+G 0 9011 0
+G 0 9012 0
+G 0 9013 0
+G 0 9014 0
+G 0 9015 0
+G 0 9015 0
+G 0 9016 0
+G 0 9017 0
+G 0 9018 0
+M 0 9246 1 9246 1
+G 0 9247 0
+G 0 9248 0
+G 0 9249 0
+G 0 9250 0
+G 0 9251 0
+G 0 9246 0
+G 0 9245 0
+G 0 9244 0
+G 0 9243 0
+G 0 9240 0
+G 0 9239 0
+G 0 9238 0
+O 0 9237 0 9246
+M 0 9247 1 9247 1
+G 0 9101 0
+G 0 9001 0
+G 0 9002 0
+G 0 9005 0
+G 0 9006 0
+G 0 9007 0
+O 0 9236 0 9247
+G 0 9009 0
+G 0 9010 0
+G 0 9011 0
+G 0 9012 0
+G 0 9013 0
+G 0 9014 0
+G 0 9015 0
+G 0 9016 0
+G 0 9017 0
+G 0 9018 0
+O 0 9236 0 9250
+O 0 9236 0 9251
+O 0 9252 0 9252
+M 0 9252 4 9252 20
+M 0 9253 1 9253 1
+M 0 9254 1 9254 1
+M 0 9255 1 9255 1
+M 0 9256 1 9256 1
+M 0 9257 1 9257 1
+M 0 9258 1 9258 1
+M 0 9261 1 9261 1
+M 0 9262 1 9262 1
+M 0 9263 1 9263 1
+M 0 9264 1 9264 1
+M 0 9265 1 9265 1
+M 0 9266 1 9266 1
+M 0 9267 1 9267 1
+M 0 9268 1 9268 1
+M 0 9271 1 9271 1
+M 0 9272 1 9272 1
+M 0 9273 1 9273 1
+M 0 9274 1 9274 1
+M 0 9275 1 9275 1
+M 0 9277 1 9277 1
+M 0 9278 1 9278 1
+M 0 9279 1 9279 1
+M 0 9280 1 9280 1
+M 0 9281 1 9281 1
+M 0 9282 1 9282 1
+E 0 9282 0 14
+M 0 9284 1 9284 1
+M 0 9286 1 9286 1
+M 0 9296 1 9296 1
+M 0 9297 1 9297 1
+M 0 9298 1 9298 1
+M 0 9299 1 9299 1
+M 0 9001 3 9001 8
+O 0 9004 0 9004
+M 0 9006 10 9006 10
+O 0 9008 0 9008
+M 0 9010 2 9010 50
+M 0 9010 2 9013 50
+M 0 9015 1 9015 1
+M 0 9010 2 9017 50
+M 0 9017 1 9017 1
+M 0 9019 1 9019 1
+O 0 9028 0 9028
+M 0 9010 2 9029 5
+M 0 9079 1 9031 1
+M 0 9078 1 9031 1
+E 0 9070 0 18
+M 0 9010 25 9032 2
+M 0 9035 1 9034 1
+M 0 9038 1 9038 1
+E 0 9038 0 14
+O 0 9039 0 9039
+M 0 9043 25 9043 5
+M 0 9044 1 9044 1
+M 0 9010 10 9044 3
+M 0 9045 1 9045 1
+M 0 9010 2 9048 50
+M 0 9051 2 9051 1
+M 0 9010 2 9052 50
+M 0 9054 1 9054 1
+M 0 9055 1 9055 1
+M 0 9057 1 9057 1
+M 0 9010 2 9059 50
+M 0 9060 1 9060 1
+E 0 9060 0 10
+M 0 9065 5 9062 1
+M 0 9010 2 9063 50
+M 0 9066 1 9066 1
+M 0 9010 2 9067 50
+M 0 9068 1 9068 1
+E 0 9068 0 5
+E 0 9069 0 17
+M 0 9010 2 9071 50
+M 0 9072 1 9072 1
+E 0 9072 0 18
+E 0 9074 0 17
+M 0 9075 1 9075 1
+G 0 9075 0
+G 0 9164 0
+G 0 9076 0
+G 0 9077 0
+M 0 9078 1 9078 1
+M 0 9079 1 9079 1
+E 0 9070 0 18
+M 0 9081 2 9081 1
+M 0 9084 3 9084 1
+M 0 9085 1 9085 1
+M 0 9086 1 9086 1
+M 0 9195 1 9086 1
+M 0 9010 2 9088 50
+M 0 9108 1 9108 1
+M 0 9111 1 9111 1
+E 0 9111 0 18
+M 0 9112 1 9112 1
+M 0 9112 1 9114 1
+M 0 9114 1 9114 1
+E 0 9114 0 18
+O 0 9116 0 9116
+M 0 9116 3 9116 1
+M 0 9112 1 9117 1
+M 0 9118 1 9118 1
+E 0 9118 0 17
+M 0 9120 1 9120 1
+M 0 9121 1 9121 1
+E 0 9121 0 5
+E 0 9122 0 16
+M 0 9121 1 9121 1
+E 0 9121 0 5
+E 0 9122 0 16
+E 0 9123 0 17
+M 0 9112 1 9122 1
+M 0 9124 2 9122 3
+M 0 9119 1 9123 1
+E 0 9119 0 18
+M 0 9124 1 9124 1
+M 0 9122 1 9124 1
+M 0 9123 2 9124 2
+E 0 9124 0 17
+E 0 9125 0 5
+E 0 9124 0 17
+E 0 9126 0 3
+E 0 9127 0 11
+M 0 9125 1 9125 1
+E 0 9128 0 13
+M 0 9010 2 9126 50
+M 0 9124 1 9126 1
+M 0 9128 1 9128 1
+E 0 9129 0 18
+M 0 9124 2 9129 1
+M 0 9010 2 9130 10
+M 0 9124 2 9132 1
+M 0 9072 1 9133 1
+M 0 9010 2 9135 50
+M 0 9124 3 9138 1
+M 0 9173 1 9141 1
+M 0 9173 1 9143 1
+M 0 9010 2 9145 50
+M 0 9173 1 9145 1
+M 0 9010 2 9147 10
+M 0 9153 3 9153 1
+M 0 9010 2 9155 50
+M 0 9010 2 9156 50
+M 0 9010 2 9158 50
+M 0 9010 2 9161 50
+M 0 9010 2 9163 50
+M 0 9010 2 9164 50
+M 0 9010 2 9166 50
+M 0 9010 2 9168 50
+M 0 9169 2 9169 1
+M 0 9173 1 9173 1
+O 0 9178 0 9178
+M 0 9181 1 9181 1
+M 0 9185 5 9185 1
+M 0 9185 5 9185 1
+M 0 9185 5 9185 1
+M 0 9185 5 9185 1
+M 0 9185 5 9185 1
+O 0 9186 0 9186
+O 0 9186 0 9186
+O 0 9185 0 9186
+O 0 9186 0 9187
+O 0 9185 0 9187
+O 0 9028 0 9188
+M 0 9189 1 9189 1
+O 0 9190 0 9190
+O 0 9190 0 9190
+O 0 9190 0 9190
+O 0 9190 0 9190
+O 0 9190 0 9190
+M 0 9189 1 9191 1
+M 0 9010 25 9192 5
+O 0 9193 0 9193
+O 0 9193 0 9193
+O 0 9193 0 9193
+O 0 9193 0 9193
+O 0 9193 0 9193
+M 0 9193 1 9193 1
+M 0 9193 25 9193 5
+E 0 9074 0 17
+M 0 9010 25 9194 5
+M 0 9196 2 9196 2
+E 0 9196 0 17
+M 0 9010 25 9197 5
+O 0 9197 0 9197
+O 0 9197 0 9197
+M 0 9196 1 9198 1
+E 0 9196 0 17
+O 0 9199 0 9199
+O 0 9200 0 9200
+M 0 9202 1 9202 1
+O 0 9231 0 9202
+M 0 9010 2 9215 50
+S
+
+
+
+#SHOPS
+9244 0 0 0 0 0 100 100 6 20
+9245 0 0 0 0 0 100 100 6 20
+9246 0 0 0 0 0 100 100 5 20
+9247 0 0 0 0 0 100 100 6 20
+9284 0 0 0 0 0 100 100 0 23
+9075 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#9038
+if sex 0
+       wink $n
+       say My name is Jez, would you like a date?
+   endif
+if sex 1 
+        say Don't you try and work your booty round my corner.
+        say So just step off somewhere else ya hussie.
+        emote flips a finger at $n
+   endif
+if sex 2
+      say Sorry about your luck.
+   endif
+~
+#9043
+emote tiwtches a little and bites at some of its open festering sores.
+~
+#9044
+if mobhere 9078
+     Say Get off of my street bitch!
+     murder $n
+     kill $n
+endif 
+~
+#9055
+if ispc $n
+        emote shakes her fist into the air.
+        say Bloody kids, no respect for anyone.
+    else
+       curse
+endif
+~
+#9057
+if rand 50
+        curse $n
+        spit $n
+   else
+         threaten $n
+         emote flips off $n
+endif
+~
+#9078
+if sex 0
+       wink $n
+       say My name is Jez, would you like a date?
+   endif
+if sex 1 
+        say Don't you try and work your booty round my corner.
+        say So just step off somewhere else ya hussie.
+        emote flips a finger at $n
+   endif
+if sex 2
+      say Sorry about your luck.
+   endif
+~
+#9079
+Say Would you like a date?
+Say I can be very pleasing for the right price.
+wink
+~
+#9080
+Say That all depends on what it is that you want.
+~
+#9081
+Say Well a blowjob will only cost you 25 gold pieces, but you look like you can afford it.
+Say Say the word and I'll be happy to oblige.
+Say well that can be arranged.
+emote gets on her knees and unbuckles your pants.
+emote whips it out and begins to pleasure you.
+say ooohhhhh yes.
+~
+#9082
+Say Well, I've got a fine ass for just that, but it will cost you 100 gold.
+Say I garuntee though that I will make it worth every coin.
+~
+#9083
+if sex $n == 1
+Say Ummm you like the standard fair. 
+Well, I suppose I can give it to you all for a little less than 75 gold.
+emote bends over and lifts her short skirt.
+Say You like?
+emote wiggles her bare smooth bottom.
+say Anytime you are ready big boy, slip it in.
+wiggle
+endif
+ if sex $n == 0
+Say sure honey, I'll swing that way too.  No extra charge.
+emote gets on her knees
+emote gains access to your crotch.
+emote begins licking and tasting you.
+Say My, what a lovely taste you have.
+emote services you fully.
+endif
+if sex $n == 2
+Say I don't know what you want me to do...
+Say You don't seem to have the equipment for my services.
+endif
+~
+#9085
+if rand 95
+          say Meeeooowwww.
+          emote twitches its tail
+    else
+         emotes licks its paw.
+         emote circles once.
+         emote circles twice.
+         emote lays down
+         sleep
+endif 
+~
+#9114
+if sex $I == 0
+say G'day m'lord.
+else
+say G'day m'lady.
+endif
+~
+#9115
+if race $n dragon
+say 'Oh my! A dragon!
+yell Run for your lives!  A dragon cometh!
+endif
+if race $n demon
+scream
+point $n
+Yell M'Lords a fould demon approaches the city!
+east
+north
+west
+south
+endif
+if race $n elf
+bow
+endif
+if race $n drow
+say Bloody drow.  Good for nothing murdering foulness of the underdark.
+spit $n
+endif
+if race $n dwarf
+smile $n
+endif
+if race $n duergar
+spit $n
+glare $n
+say Stinking duegar.  The lot of you to Morgorin.
+endif
+ 
+if race $n halfling
+giggle
+say Ahhh I love the wee folk.
+endif
+if race $n gnome
+stare $n
+say Are you really a gnome?
+endif
+if race $n lich
+emote faints at the sight of the unholy.
+sleep
+endif
+if race $n undead
+emote faints at the smell of the foul undead creature.
+sleep
+endif
+~
+#9120
+cry
+   say I am so hungry.  I haven't eaten in so long.
+     sob
+   collapse
+sleep
+~
+#9121
+if rand 75
+nod $n
+else stare $n
+endif
+~
+#9185
+emote lunges at you and tries to pinch you with its claws.
+murder $n
+~
+#9202
+obj echoat $n You feel the cold hand of Morgorin upon your soul. 
+obj echoat $n The air seems to instantly chill as his gaze falls upon your being.
+obj echoat $n Soon it passes but it feels like an eternity as you feel what it is like to be dead.
+~
+#9203
+room echoat $n You feel the cold hand of Morgorin upon your soul. 
+room echoat $n The air seems to instantly chill as his gaze falls upon your being.
+room echoat $n Soon it passes but it feels like an eternity as you feel what it is like to be dead.
+~
+#9236
+if rand 50
+     emote idly swings his sword in figure eights.
+else
+     say I offer my training services, free of charge to residents!
+endif
+~
+#9245
+emote pounds on the southern wall.
+Yell Hey Jubert, sold anything yet?
+tell Jubert Knock Knock Knock
+snicker
+~
+#9249
+Yell Yeah, you are such a badass you over the hill junkie.
+Cackle
+yell Dry up you drunkard.
+~
+#9251
+Yell Shut up you sorry bastard!
+Say Smart assed kids, what do they know of selling!
+emote flips a finger off to the northern wall.
+Yell Come over here and we'll discuss selling over me kicking your sorry meat cooking ass!
+tell Yeeves discuss selling
+laugh
+~
+#9287
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 250
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -250 -250
+endif
+'Ah yes...I have just the animal for you.
+pmote leads a young Palinese colt to $N.
+'Take good care, now.
+mob junk 1.gold
+mob mount 9287 80 $n
+~
+#9288
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 500
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -500 -500
+endif
+'As you wish!
+pmote leads colossal Palinese warhorse to $N.
+'Good luck, he's a lot of animal!
+mob junk 1.gold
+mob mount 9288 160 $n
+~
+#9289
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+'Ah, into battle ye go, aye? Very good.
+pmote leads a young Palinese colt to $N.
+'He's got a lot of spirit. Treat him well, and he'll do the same!
+mob junk 1.gold
+mob mount 9287 80 $n
+~
+#9290
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+'Ah, into battle ye go, aye? Very good.
+pmote leads a colossal Palinese warhorse to $N.
+'Combat trained and all. Take care, now.
+'He'll die for you, you know.
+mob junk 1.gold
+mob mount 9288 160 $n
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#9185
+emote snaps at you with its claws.
+~
+#0
+
+#ROOMPROGS
+#9003
+if hasquest $n 'Discovered the Shrine to Lojani on the Serpentine River'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Lojani!``
+    room permquest $n Discovered the Shrine to Lojani on the Serpentine River
+endif
+~
+#9004
+room echoat $n Lojani looks upon you kindly for your dedicated worship.
+~
+#9193
+force guard sleep
+force guard sleep
+force guard sleep
+~
+#9200
+room echoat $n You feel the eye of Syithe upon you as you worship at his altar.
+room echoat $n The chill of the coldest night runs through you as if examining every inch of your being.
+room echoat $n You hear the hushed unintelligible whispers of the secrets of the night as they fade into oblivion.
+~
+#9201
+if hasquest $n 'Discovered the Shrine to Syithe in Emmereaux'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Syithe!``
+    room permquest $n Discovered the Shrine to Syithe in Emmereaux
+endif
+~
+#9202
+room echoat $n You feel the cold hand of Morgorin upon your soul. 
+room echoat $n The air seems to instantly chill as his gaze falls upon your being.
+room echoat $n Soon it passes but it feels like an eternity as you feel what it is like to be dead.
+~
+#9203
+room echoat $n You feel the cold hand of Morgorin upon your soul. 
+room echoat $n The air seems to instantly chill as his gaze falls upon your being.
+room echoat $n Soon it passes but it feels like an eternity as you feel what it is like to be dead.
+~
+#9231
+room echoat $n Tiradel's blessing leaves you feeling honorable and just
+~
+#9232
+if hasquest $n 'Discovered the Shrine to Tiradel in Emmereaux'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Tiradel!``
+    room permquest $n Discovered the Shrine to Tiradel in Emmereaux
+endif
+~
+#0
+
+#$

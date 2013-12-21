@@ -1,0 +1,2746 @@
+#AREADATA
+Name the Great Raider Gap~
+Pref ~
+Builders Crypticant~
+VNUMs 15000 15199
+Max_Bastions 5
+Credits {20 45} Shadowsp The Great Raider Gap ~
+Security 9
+Startroom 15040
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#15013
+faun~
+a canyon faun~
+A canyon faun lurks behind the rocks here.
+~
+A small creature with goat-like feet, a human torso, and small
+sharp horns protruding from his forehead hides behind some rock
+here. He seems to be very protective of the resident Oreads and
+Naiads of this region.
+~
+human~
+AGd A DJ 0 0 0
+29 12 4d6+720 0d0+100 2d4+8 charge
+-13 -13 -13 -13
+KO B N 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK small 0
+#15020
+naiad~
+a naiad~
+A beautiful Naiad hides in the rocks here.
+~
+Hidden in the rocks is a beautiful girl. Flame red hair falls
+in oceanic tresses to her waist, and she is completely nude.
+She looks at you quizzically, and with a giggle, disappears
+again behind the rocks.
+~
+human~
+ACGd A DJ 0 0 0
+34 16 4d6+1400 0d0+100 4d6+20 slap
+-15 -15 -15 -15
+KN BL N 0
+stand stand female none~
+13
+AHMV ABCDEFGHIJK medium 0
+#15024
+oread~
+an Oread~
+Something seems to be hiding from you here.
+~
+You can barely make her out hidden well among thr rocks. Then,
+all of a sudden, you see her. She is a female in perfect form,
+and completely nude. Shimmering red hair falls to her waist, and
+a perfect, voluptuous form with perky breasts and slender curves
+greets your eye. She looks at you inquisitively.
+~
+unique~
+AGHSd A DFJT 0 0 0
+30 22 4d8+1350 0d0+100 4d6+20 slap
+-1 -1 -1 -1
+FHKN 0 0 0
+stand stand female none~
+15
+0 0 medium 0
+#15081
+gap dragon~
+the Raider Gap Dragon~
+The Great Raider Gap Dragon is resting here.
+~
+The haunt of the Raider Gap rests here before you. Covered in thick
+tan colored scales, this beast is responsible for the death of
+hundreds of the Raider Gap denizens. Large golden eyes open slowly
+as you watch, just before he snarls, and pounces!
+~
+dragon~
+ABFUZ A DFJT 0 -750 0
+45 28 4d6+3500 0d0+100 5d6+30 slash
+-2 -2 -2 -1
+EFHJKN AB BEH FI
+stand stand male none~
+18
+AHZ ACDEFGHIJKLPQUVX medium 0
+#15094
+hutch~
+Hutch~
+Hutch, the elder fisherman is here.
+~
+~
+human~
+ABG A DFJ 0 0 0
+50 45 4d6+3900 0d0+100 6d8+30 punch
+-11 -11 -11 -11
+CEFJKN 0 C D
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#15095
+hobart fisherman~
+Hobart~
+Hobart, an older fisherman, rests here, selling his wares.
+~
+~
+human~
+ABG A DFJ 0 0 0
+60 45 4d6+6500 0d0+100 4d6+45 punch
+-20 -20 -20 -20
+EFKN AB 0 0
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+#15096
+Lugard~
+Lugard~
+Lugard, the smithy, stands over an anvil here.
+~
+~
+human~
+ABGZ A DFJ 0 0 0
+60 35 4d6+8500 0d0+100 10d10+50 punch
+-15 -15 -15 -15
+0 AB 0 0
+stand stand male none~
+27
+AHMV ABCDEFGHIJK medium 0
+#15099
+ruddy mariner~
+a ruddy mariner~
+A ruddy looking mariner stands here.
+~
+~
+human~
+ABGe A DFJ 0 0 0
+40 18 4d6+3900 0d0+100 4d6+35 slash
+-4 -4 -4 -4
+0 0 0 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#15104
+oread~
+an Oread~
+An Oread is splashing in the hotsprings here.
+~
+You see a lovely, if not idiotic, woman splashing idly in the
+hotsprings here. She stands totally nude, and seems to care less
+if you were even here. With a mischievous wink, she dances away
+from you in complete bliss.
+~
+human~
+AGe A DJ 0 0 0
+24 9 4d6+480 0d0+100 2d4+5 slap
+-9 -9 -9 -9
+K B N 0
+stand stand female none~
+13
+AHMV ABCDEFGHIJK medium 0
+#15105
+naiad~
+a Naiad~
+A Naiad is frolicking in the hotsprings here.
+~
+A long, red haired nymph-relative is here, playing in the hotsprings.
+Careless, naked, and none-too-bright, she giggles at you coyly before
+dancing away in her own silly revelations.
+~
+human~
+AGe A DJT 0 0 0
+29 12 4d6+750 0d0+100 2d4+9 none
+-13 -13 -13 -13
+K B N 0
+stand stand female none~
+10
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#15070
+torso gap dragon~
+the Raider Gap Dragon torso~
+A pile of tan dragonscales rests here.~
+scales~
+armor GKL AD
+9 9 9 4 0
+30 100 6400 P
+F
+A 2 -1 0
+F
+A 18 2 0
+F
+A 21 -1 0
+#15071
+leggings gap dragon~
+the Raider Gap Dragon leggings~
+A pile of scales is resting here.~
+scales~
+armor GKL AF
+9 9 9 4 0
+30 90 3700 P
+F
+A 21 -1 0
+F
+A 2 -1 0
+F
+A 19 2 0
+#15072
+gap dragon shield~
+the shield of the Raider Gap Dragon~
+A tan, scaled shield rests here.~
+scales~
+armor GKL AJ
+10 10 10 5 0
+30 70 6900 P
+F
+A 21 -1 0
+F
+A 18 2 0
+#15073
+armguards gap dragon~
+the Raider Gap Dragon armguards~
+A pile of dragon scales rests here.~
+scales~
+armor GKL AI
+9 9 9 4 0
+30 90 3700 P
+F
+A 13 5 0
+F
+A 19 2 0
+F
+A 2 -1 0
+#15074
+gap dragon skull helm~
+the Raider Gap Dragonhelm~
+A dragon's skull rests here.~
+scales~
+armor GKL AE
+9 9 9 4 0
+30 50 7000 P
+F
+A 4 1 0
+F
+A 2 -1 0
+F
+A 18 1 0
+F
+A 19 1 0
+#15075
+sand colored leaves herb !15075!~
+some sand colored leaves~
+Some sand colored leaves lie upon the ground.~
+Herb~
+herb 0 A
+60 'curse' 'haste' 'haste' 'stone skin'
+15 0 0 P
+#15076
+box~
+a small wooden box~
+A small wooden box lies unopened here.~
+wood~
+container 0 0
+100 AC 0 44 4
+53 0 0 P
+#15079
+fungus~
+a green fungus~
+A large green fungus grows on the walls here.~
+fungus~
+food 0 A
+12 12 0 0 24
+10 2 6 P
+#15080
+bubbling spring~
+a mineral spring~
+A spring is here, bubbling out pure mineral water into the lake.~
+water~
+fountain GT 0
+-1 -1 'water' 0 0
+0 0 0 P
+#15081
+claws gap dragon~
+the Raider Gap Dragon claws~
+A pair of white claws is resting here.~
+scales~
+armor GKL AH
+9 9 9 4 0
+30 40 3700 P
+F
+A 19 2 0
+#15082
+gap dragon scales~
+the Raider Gap Dragon scales~
+A long sheet of scales lie here.~
+scales~
+armor GKL AK
+11 9 12 6 0
+30 40 3700 P
+F
+A 19 2 0
+F
+A 21 -1 0
+F
+A 2 -1 0
+#15083
+gap dragon bone~
+the Raider Gap Dragon bone~
+A large bone of pure white color lies here.~
+bone~
+weapon KLQe AN
+mace 6 6 smash F
+40 120 3000 P
+F
+A 18 1 0
+F
+A 19 2 0
+#15084
+gap tooth~
+a gap tooth~
+A large white tooth.~
+bone~
+socket KL AX
+A 0 0 0 0
+40 1 5 P
+F
+S 109 4 0
+F
+A 13 5 0
+#15093
+carved iron gauntlets~
+a set of carved iron gauntlets~
+A set of fancy looking bracers rests here.~
+iron~
+armor B AH
+9 9 9 4 0
+30 25 5900 P
+F
+A 19 1 0
+F
+A 18 1 0
+#15094
+steel cuffed bracer~
+a steel, cuffed bracer~
+A steel, cuffed bracer rests on the ground here.~
+steel~
+armor A AMX
+6 6 6 2 0
+30 20 3 P
+F
+A 1 1 0
+F
+A 18 3 0
+#15095
+smoked fish~
+a filet of smoked fish~
+A long filet of smoked fish is here.~
+meat~
+food 0 A
+16 16 0 0 16
+5 0 8 P
+#15096
+rations sea~
+some sea rations~
+A pouch of sea rations is resting here.~
+meat~
+food 0 A
+24 24 0 0 24
+5 2 12 P
+#15097
+water flask~
+a water flask~
+A water flask rests on the ground here.~
+steel~
+drink 0 A
+100 100 'water' 0 0
+2 3 450 P
+#15098
+foul weather poncho~
+a foul weather poncho~
+A large hide poncho rests on the ground here.~
+hide~
+armor 0 AK
+9 9 9 5 0
+30 30 4000 P
+F
+A 18 2 0
+#0
+
+
+
+#ROOMS
+#15000
+`3A Descent into the Raider Gap``~
+You are walking along a steep, rocky ledge that leads down into the
+massive gap below. As far as your eyes can see, the gap slices
+the landscape to the north, running for hundreds of miles before it
+runs into the sea. The air around you is hot and dry, and the red
+rock of the gap's landscape makes for rough climbing.
+ 
+A large sign is posted to a withered tree here.
+~
+~
+0 0 65536 5
+E
+sign~
+This area created by Shadowspawn (c) 2000. Intended as a linking
+area for Northwestern Mirlan. Most levels welcome here, but watch
+out for the Raider Gap Dragon!
+~
+D0
+~
+~
+0 0 15001
+D2
+~
+~
+0 0 745
+S
+#15001
+`3A Descent into the Raider Gap``~
+You are walking along a steep, rocky ledge that leads down into the
+massive gap below. As far as your eyes can see, the gap slices
+the landscape to the north, running for hundreds of miles before it
+runs into the sea. The air around you is hot and dry, and the red
+rock of the gap's landscape makes for rough climbing.
+~
+~
+0 0 32768 5
+D2
+~
+~
+0 0 15000
+D5
+~
+~
+0 0 15002
+S
+#15002
+`3A Descent into the Raider Gap``~
+You are walking along a steep, rocky ledge that leads down into the
+massive gap below. As far as your eyes can see, the chams slices
+the landscape to the north, running for hundreds of miles before it
+runs into the sea. The air around you is hot and dry, and the red
+rock of the gap's landscape makes for rough climbing.
+~
+~
+0 0 8192 5
+D0
+~
+~
+0 0 15003
+D4
+~
+~
+0 0 15001
+S
+#15003
+`3A Descent into the Raider Gap``~
+You are walking along a steep, rocky ledge that leads down into the
+massive gap below. As far as your eyes can see, the gap slices
+the landscape to the north, running for hundreds of miles before it
+runs into the sea. The air around you is hot and dry, and the red
+rock of the gap's landscape makes for rough climbing.
+~
+~
+0 0 32768 5
+D2
+~
+~
+0 0 15002
+D5
+~
+~
+0 0 15004
+S
+#15004
+`3A rocky landscape``~
+Crumbling gravel and sandstone makes your footing on this descent
+rather precarious. The mountainside is covered with the stuff, and
+just your footsteps make you slide down a bit further, causing small
+rockslides in their stead. The floor of the Raider Gap can be seen below,
+a very long fall from this location.
+~
+~
+0 0 32768 5
+D4
+~
+~
+0 0 15003
+D5
+~
+~
+0 0 15005
+S
+#15005
+`3Fields of Talus``~
+You've emerged from the trail unscathed, and into several large fields
+of talus, or rock shards. Hundreds of feet of boulders lie below you,
+making progress upward or downward very difficult. The floor of the
+gap is several hundred feet blow, and the wind through the canyon
+floor has picked up.
+~
+~
+0 0 32768 5
+D4
+~
+~
+0 0 15004
+D5
+~
+~
+0 0 15006
+S
+#15006
+`3Fields of Talus``~
+Fields of boulders surround you, some anchored firmly into the ground,
+and some unsteady and precariously placed. The hot wind from the gap
+is making your footing unsteady, though there is ample place to rest.
+The altitude causes for hot sun to beat down upon you, soaking you with
+sweat as you climb deeper.
+~
+~
+0 0 16384 5
+D4
+~
+~
+0 0 15005
+D5
+~
+~
+0 0 15007
+S
+#15007
+`3The Base of a Rockslide``~
+You're at the foot of a long fall of talus. Hulks of broken, knotted
+trees lie around you everywhere. The gap's floor is not far below you,
+though an unsteady descent would prove very dangerous. The wind seems
+to have subsided a bit, making travel a bit more comfortable, but several
+hundred feet of broken rock and gravel lie between you and the floor,
+or the edge of the valley.
+~
+~
+0 0 32768 5
+D4
+~
+~
+0 0 15006
+D5
+~
+~
+0 0 15008
+S
+#15008
+`3Within the Great Raider Gap``~
+You are now within the Great Raider Gap. The floor of the canyon extends
+northward for several hundred miles before it runs into the ocean. The
+floor here is a hard packed mud, which is baked and dry from the hot
+sun. The walls of the gap rise up hundreds of feet, all thick with
+red rock, but the footing from this vantage is firm, and easy.
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 15009
+D4
+~
+~
+0 0 15007
+S
+#15009
+`3The Base of the Great Raider Gap``~
+You are at the main starting point of the Grean Raider Gap. Behind you, a
+sheer rock face rises up to a valley, allowing no further passage. Footing
+below you is firm with cracked, dry mud, and the gap runs far north of
+you for several leagues. It is very dry and desolate here, and the canyon
+walls make you feel uneasy, as if someone or something were watching you
+as you traveled.
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 15010
+D2
+~
+~
+0 0 15008
+S
+#15010
+`3Inside the Great Raider Gap``~
+You are standing now within the Great Raider Gap. From the look of things,
+the only way out of here is back up the cliff, or far to the north, where
+this gap allegedly runs into the ocean. Great tales have been told of odd
+races coming from somewhere around here, but that is only rumor, and you
+see nothing out of sort so far in your journey here.
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 15011
+D2
+~
+~
+0 0 15009
+S
+#15011
+`3Inside the Great Raider Gap``~
+You are standing now within the Great Raider Gap. From the look of things,
+the only way out of here is back up the cliff, or far to the north, where
+this gap allegedly runs into the ocean. Great tales have been told of odd
+races coming from somewhere around here, but that is only rumor, and you
+see nothing out of sort so far in your journey here.
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 15012
+D2
+~
+~
+0 0 15010
+S
+#15012
+`3Inside the Great Raider Gap``~
+You are standing now within the Great Raider Gap. From the look of things,
+the only way out of here is back up the cliff, or far to the north, where
+this gap allegedly runs into the ocean. Great tales have been told of odd
+races coming from somewhere around here, but that is only rumor, and you
+see nothing out of sort so far in your journey here.
+~
+~
+0 0 16384 5
+D1
+~
+~
+0 0 15013
+D2
+~
+~
+0 0 15011
+S
+#15013
+`3A wide, rocky path``~
+The gap floor changes here from hard packed mud to more gravel. It
+looks as if much of the rock from the cliff walls has fallen here, and
+over the years been crushed into a fine gravel. The gap continues
+far to the north, and a light breeze blows through the canyon here,
+cooling you from the hot sun which beats down overhead.
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 15014
+D3
+~
+~
+0 0 15012
+S
+#15014
+`3A wide, rocky path``~
+The gap floor changes here from hard packed mud to more gravel. It
+looks as if much of the rock from the cliff walls has fallen here, and
+over the years been crushed into a fine gravel. The gap continues
+far to the north, and a light breeze blows through the canyon here,
+cooling you from the hot sun which beats down overhead.
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 15015
+D2
+~
+~
+0 0 15013
+S
+#15015
+`3A wide, rocky path``~
+The gap floor changes here from hard packed mud to more gravel. It
+looks as if much of the rock from the cliff walls has fallen here, and
+over the years been crushed into a fine gravel. The gap continues
+far to the north, and a light breeze blows through the canyon here,
+cooling you from the hot sun which beats down overhead.
+~
+~
+0 0 8192 5
+D0
+~
+~
+0 0 15016
+D1
+~
+~
+0 0 15100
+D2
+~
+~
+0 0 15014
+S
+#15016
+`3A breathtaking sight``~
+You stand over a small decline in the gap. Before you lies the great
+expanse of the gap, a deep jagged wound which slices into the countryside
+for hundreds of miles north and west. The path leads westward and southward,
+further into the gap, or back towards the Yarlwood. The ground
+below you is still rocky gravel, and footing is sure, but slippery.
+~
+~
+0 0 32768 5
+D2
+~
+~
+0 0 15015
+D3
+~
+~
+0 0 15017
+S
+#15017
+`3Deep within the Raider Gap``~
+You're several miles into the Raider Gap from the forest, which can now not even
+be seen behind you. Steep, rocky walls rise up all around you, and obscure
+your view of any terrain above you. A climb up from here would be impossible,
+for the sandstone rock which forged this canyon is slick and subject to easy
+breakage.
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 15018
+D1
+~
+~
+0 0 15016
+S
+#15018
+`3Deep within the Raider Gap``~
+You're several miles into the Raider Gap from the forest, which can now not even
+be seen behind you. Steep, rocky walls rise up all around you, and obscure
+your view of any terrain above you. A climb up from here would be impossible,
+for the sandstone rock which forged this canyon is slick and subject to easy
+breakage.
+~
+~
+0 0 8192 4
+D0
+~
+~
+0 0 15019
+D2
+~
+~
+0 0 15017
+S
+#15019
+`3A windy byway``~
+The gap has narrowed here, and the wind picks up drastically. As the
+wind passes through the gap, it makes a very peculiar sound, as if someone
+were howling or moaning. Dust particles from broken rocks fly in the air,
+blasting any unexposed skin as they fly with the wind. The gap winds east
+and south here, and you feel in a hurry to get out of this windy tunnel.
+~
+~
+0 0 16384 4
+D1
+~
+~
+0 0 15020
+D2
+~
+~
+0 0 15018
+S
+#15020
+`3Further into the Raider Gap``~
+You are now deep within the gap. Huge walls of red rock rise up around
+you, obscuring any vision. Only at high noon does the sun reach into the
+gap, making for a shadowy passage more often than not. The wind through
+the gap has died down quite a bit, and the stillness of the air is a bit
+eerie. You feel very alone in here, and very far from any sort of human
+civilization.
+~
+~
+0 0 32768 4
+D0
+~
+~
+0 0 15021
+D3
+~
+~
+0 0 15019
+S
+#15021
+`3Further into the Raider Gap``~
+You are now deep within the gap. Huge walls of red rock rise up around
+you, obscuring any vision. Only at high noon does the sun reach into the
+gap, making for a shadowy passage more often than not. The wind through
+the gap has died down quite a bit, and the stillness of the air is a bit
+eerie. You feel very alone in here, and very far from any sort of human
+civilization.
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 15022
+D2
+~
+~
+0 0 15020
+S
+#15022
+`3The sound of water``~
+Walking further, you hear the steady trickle of water coming from your right.
+A mountain stream runs from far above the gap into the canyons below, and
+as you near it, the sound increases to that of bubbling spring water. The hot
+air here makes you thirst, and you think you'd best refill your canteen
+before any further trekking into the canyon.
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 15024
+D1
+~
+~
+0 0 15023
+D2
+~
+~
+0 0 15021
+S
+#15023
+`3Before a bubbling spring``~
+Here, a mountain stream runoff from above pools into a small, bubbling
+spring of cool, clear water. The pool is deep, and you can see many
+small fish swimming deep below. This place is obscured from passerby
+view in the canyon, and makes an apt resting spot, or campground, save
+for the possibilty of rain. The hot, dry walls of the canyon seem to
+destroy any visions of immediate precipitation, however.
+~
+~
+0 0 8192 2
+D3
+~
+~
+0 0 15022
+S
+#15024
+`3A wide, rocky path``~
+The gap steepens here, into a wide, rocky, talus covered path. Footing
+here is loose, and you seem to slide back for every step you walk forward.
+The gap has opened up significantly into a broad pathway, and small,
+stunted trees grow all over each side of the gap. The thick tertiary
+rock here is swirled in waves of red and white, making for an extremely
+beautiful contrast.
+~
+~
+0 0 32768 4
+D0
+~
+~
+0 0 15025
+D2
+~
+~
+0 0 15022
+S
+#15025
+`3A wide, rocky path``~
+The gap steepens here, into a wide, rocky, talus covered path. Footing
+here is loose, and you seem to slide back for every step you walk forward.
+The gap has opened up significantly into a broad pathway, and small,
+stunted trees grow all over each side of the gap. The thick tertiary
+rock here is swirled in waves of red and white, making for an extremely
+beautiful contrast.
+~
+~
+0 0 16384 4
+D1
+~
+~
+0 0 15026
+D2
+~
+~
+0 0 15024
+S
+#15026
+`3Treacherous terrain``~
+The footing here has only become more difficult. Large plates of shale
+rock intermingled with loose sandstone makes walking hazardous. The
+going is very slow here, and you have to be very wary where you place
+each foot. Large fields of talus and broken rockslides are all over
+here, where the gap has widened and eroded over the years. It does
+not look as if anyone has traveled this path for many years.
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 15027
+D3
+~
+~
+0 0 15025
+S
+#15027
+`3A windy passage``~
+The gap narrows again, and you feel as if your again walking though
+a wind tunnel. The steep rock faces on either side conduce the speed
+of the wind, and dust and sand tear at your face and clothes as they're
+carried on the high winds. You travel quickly over this place, trying
+to find some shelter from the nasty, hot wind.
+~
+~
+0 0 65536 4
+D0
+~
+~
+0 0 15028
+D2
+~
+~
+0 0 15026
+S
+#15028
+`3A windy passage``~
+The gap narrows again, and you feel as if your again walking though
+a wind tunnel. The steep rock faces on either side conduce the speed
+of the wind, and dust and sand tear at your face and clothes as they're
+carried on the high winds. You travel quickly over this place, trying
+to find some shelter from the nasty, hot wind.
+ 
+A large boulder rests to your east, seeming to cover a small opening.
+~
+~
+0 0 16384 4
+D1
+~
+boulder~
+AB 0 15073
+D2
+~
+~
+0 0 15027
+D3
+~
+~
+0 0 15029
+S
+#15029
+`3A wide, rocky path``~
+The pathway has again opened up into a broad path. The footing here
+is much nicer as broken rock gives way again to long mud flats that
+are covered with heavy, cracked dry mud. The wind has ceased, and
+travel is much quicker now as you follow the winding, yet thick path
+deeper and deeper into the Great Raider Gap.
+~
+~
+0 0 32768 4
+D0
+~
+~
+0 0 15030
+D1
+~
+~
+0 0 15028
+S
+#15030
+`3A wide, rocky path``~
+The pathway has again opened up into a broad path. The footing here
+is much nicer as broken rock gives way again to long mud flats that
+are covered with heavy, cracked dry mud. The wind has ceased, and
+travel is much quicker now as you follow the winding, yet thick path
+deeper and deeper into the Great Raider Gap.
+~
+~
+0 0 32768 4
+D0
+~
+~
+0 0 15031
+D2
+~
+~
+0 0 15029
+S
+#15031
+`3The northern end of the Great Raider Gap``~
+After walking for what seems like days, you've finally reached the
+far northern end of the Raider Gap. The air here is much more balmy, and
+the heavy red sandstone has given way to thick, gray granite. The
+floor of the gap is still smooth, and easy to travel, yet, oddly,
+you can make out very old footprints, large ones, at that, set deep
+within the canyon mud.
+~
+~
+0 0 65536 4
+D0
+~
+~
+0 0 15032
+D2
+~
+~
+0 0 15030
+S
+#15032
+`3A deadfall``~
+Careful! The end of the gap drops off here into a steep decline.
+The face of the decline falls away several hundred feet to a field
+of sharp rocks below. You think you can make out what look like
+crushed bones far below, but from this height, it's really hard to
+tell. They could be trees. Hopefully.
+~
+~
+0 0 65536 4
+D1
+~
+~
+0 0 15033
+D2
+~
+~
+0 0 15031
+S
+#15033
+`3A rising face``~
+The path narrows here, and begins a small incline to the north. Massive
+formations of granite are all around you, worn smooth over time by wind
+and water. It is really quite beautiful the way the layers of rock lie
+on top of veins of white quartz rock. Several small bushes grow now in
+the floor of the gap, meaning that this part must get some sort of
+rain once in a while.
+~
+~
+0 0 32768 4
+D0
+~
+~
+0 0 15034
+D3
+~
+~
+0 0 15032
+S
+#15034
+`3A wide, rocky path``~
+The path widens greatly here, with miscellaneous rocks thrown here and
+there. The footing is smooth, round granite gravel, and small trees and
+shrubs have sprouted up on either side of the canyon. The walls of the
+Raider Gap still rise up hundreds of feet to your right and left, but seem to
+be diminishing in height slowly.
+~
+~
+0 0 8192 4
+D0
+~
+~
+0 0 15035
+D2
+~
+~
+0 0 15033
+S
+#15035
+`3A massive rock face``~
+Northward progress is halted here as a massive rock face rises up from
+the ground and blocks passage. A smaller, winding trail leads westward
+around the monolithe, but your vision of the regions beyond is obscured
+for the rock. The air smells more fresh and clean, and less hot then
+further southward.
+~
+~
+0 0 8192 4
+D0
+~
+boulder~
+ABM 0 15081
+D2
+~
+~
+0 0 15034
+D3
+~
+~
+0 0 15036
+S
+#15036
+`3A smaller gap``~
+Here the main gap has diminished, and yet another gap has opened up
+leading east and west. The footing below you is fresh mud, not nearly
+as hard packed as the main canyon, alluding to the fact that a river
+probably once flowed through these regions. Steppe grasses grow from the
+small cracks in the earth.
+~
+~
+0 0 16384 4
+D1
+~
+~
+0 0 15035
+D3
+~
+~
+0 0 15037
+S
+#15037
+`3A smaller gap``~
+Here the main gap has diminished, and yet another gap has opened up
+leading east and west. The footing below you is fresh mud, not nearly
+as hard packed as the main canyon, alluding to the fact that a river
+probably once flowed through these regions. Steppe grasses grow from the
+small cracks in the earth.
+~
+~
+0 0 16384 4
+D1
+~
+~
+0 0 15036
+D3
+~
+~
+0 0 15038
+S
+#15038
+`3Rising cliffs``~
+You walk now on higher ground. The gap has given way to steep, sharp
+cliffs that rise all around you. The trail seems to lead upward, above
+the cliffs, to some sort of grassy region above. The air here smells
+balmy, with a light mingling of salt. Much more vegetation grows around
+here now, and birds are seen singing in the trees.
+~
+~
+0 0 65536 4
+D1
+~
+~
+0 0 15037
+D3
+~
+~
+0 0 15039
+S
+#15039
+`3Rising cliffs``~
+You walk now on higher ground. The gap has given way to steep, sharp
+cliffs that rise all around you. The trail seems to lead upward, above
+the cliffs, to some sort of grassy region above. The air here smells
+balmy, with a light mingling of salt. Much more vegetation grows around
+here now, and birds are seen singing in the trees.
+~
+~
+0 0 32768 4
+D0
+~
+~
+0 0 15040
+D1
+~
+~
+0 0 15038
+S
+#15040
+`3A rocky trail inside the Raider Gap``~
+You are now walking along a wide trail that steadily inclined to the
+west. More white cliffs rise around you, but the warm sunshine that now
+breaches the shallow canyon is a welcome change to the darkness below.
+Thick fields of grasses are all around you now, and a balmy seabreeze
+ruffles your hair as you walk.
+~
+~
+0 0 32768 4
+D0
+~
+~
+0 0 15108
+D2
+~
+~
+0 0 15039
+D3
+~
+~
+0 0 15041
+S
+#15041
+`3A rocky trail inside the Raider Gap``~
+You are now walking along a wide trail that steadily inclines to the
+west. More white cliffs rise all around you, and the rocky terrain has
+given way to more grasslands. The air carries with it a soft, warm sea
+breeze that causes the tall grasses to sway in the wind. A very gentle,
+peaceful feeling fills the air.
+~
+~
+0 0 16384 4
+D1
+~
+~
+0 0 15040
+D3
+~
+~
+0 0 15042
+S
+#15042
+`3A rocky trail inside the Raider Gap``~
+You are now walking along a wide trail that steadily inclines to the
+west. More white cliffs rise all around you, and the rocky terrain has
+given way to more grasslands. The air carries with it a soft, warm sea
+breeze that causes the tall grasses to sway in the wind. A very gentle,
+peaceful feeling fills the air.
+~
+~
+0 0 65536 4
+D0
+~
+~
+0 0 4700
+D1
+~
+~
+0 0 15041
+D3
+~
+~
+0 0 15043
+S
+#15043
+`3A rocky trail inside the Raider Gap``~
+You are now walking along a wide trail that steadily inclines to the
+west. More white cliffs rise all around you, and the rocky terrain has
+given way to more grasslands. The air carries with it a soft, warm sea
+breeze that causes the tall grasses to sway in the wind. A very gentle,
+peaceful feeling fills the air.
+~
+~
+0 0 65536 4
+D1
+~
+~
+0 0 15042
+D3
+~
+~
+0 0 15044
+S
+#15044
+`3Lower elevations``~
+The incline has ended, and you are now walking among the lowlands. Lush
+grass is everywhere here, as far as the eye can see. You still get the
+impression your not too far from water, but the grasslands extend as
+far as you can see, giving no clue of what lies beyond. Bugs and birds
+play idly in the warm sun.
+~
+~
+0 0 8192 4
+D1
+~
+~
+0 0 15043
+D3
+~
+~
+0 0 15045
+S
+#15045
+`2Greener landscape``~
+The incline has ended, and you are now walking among the lowlands. Lush
+grass is everywhere here, as far as the eye can see. You still get the
+impression you're not too far from water, but the grasslands extend as
+far as you can see, giving no clue of what lies beyond. Bugs and birds
+play idly in the warm sun.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 15046
+D1
+~
+~
+0 0 15044
+S
+#15046
+`2Greener landscape``~
+You are deep within the grasslands now. Tall, reedy grasses rise to your
+chest here, and obscure far vision. The travel is not too hard, but you
+have to keep hacking down grasses to move at all. The footing below you
+is soft, muddy soil which is deep black in color. Obviously rich in
+nutrients, for the vegetation around here is very healthy.
+~
+~
+0 0 65536 3
+D2
+~
+~
+0 0 15045
+D3
+~
+~
+0 0 15047
+S
+#15047
+`2The Arid Lowlands``~
+You are deep within the grasslands now. Tall, reedy grasses rise to your
+chest here, and obscure far vision. The travel is not too hard, but you
+have to keep hacking down grasses to move at all. The footing below you
+is soft, muddy soil which is deep black in color. Obviously rich in
+nutrients, for the vegetation around here is very healthy.
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 15046
+D3
+~
+~
+0 0 15048
+S
+#15048
+`2The Arid Lowlands``~
+You are deep within the grasslands now. Tall, reedy grasses rise to your
+chest here, and obscure far vision. The travel is not too hard, but you
+have to keep hacking down grasses to move at all. The footing below you
+is soft, muddy soil which is deep black in color. Obviously rich in
+nutrients, for the vegetation around here is very healthy.
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 15047
+D3
+~
+~
+0 0 15049
+S
+#15049
+`2The Arid Lowlands``~
+You are deep within the grasslands now. Tall, reedy grasses rise to your
+chest here, and obscure far vision. The travel is not too hard, but you
+have to keep hacking down grasses to move at all. The footing below you
+is soft, muddy soil which is deep black in color. Obviously rich in
+nutrients, for the vegetation around here is very healthy.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 15048
+D3
+~
+~
+0 0 15050
+S
+#15050
+`2The Arid Lowlands``~
+You are deep within the grasslands now. Tall, reedy grasses rise to your
+chest here, and obscure far vision. The travel is not too hard, but you
+have to keep hacking down grasses to move at all. The footing below you
+is soft, muddy soil which is deep black in color. Obviously rich in
+nutrients, for the vegetation around here is very healthy.
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 15049
+D3
+~
+~
+0 0 15051
+S
+#15051
+`2The Arid Lowlands``~
+You are deep within the grasslands now. Tall, reedy grasses rise to your
+chest here, and obscure far vision. The travel is not too hard, but you
+have to keep hacking down grasses to move at all. The footing below you
+is soft, muddy soil which is deep black in color. Obviously rich in
+nutrients, for the vegetation around here is very healthy.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 15052
+D1
+~
+~
+0 0 15050
+S
+#15052
+`2A grassy pasture``~
+You stand amid a wide, green field. The grasses here are shorter,
+and more lush green. The air is filled with freshness and the ripe
+scent of fresh greens and water. The skies above you are rich and
+clear, and it seems this part of the world has remained untouched
+over the centuries by man and his creations. Thunder clouds roil on
+the far horizon...over a body of water, perhaps?
+~
+~
+0 0 32768 3
+D2
+~
+~
+0 0 15051
+D3
+~
+~
+0 0 15053
+S
+#15053
+`2A grassy pasture``~
+You stand amid a wide, green field. The grasses here are shorter,
+and more lush green. The air is filled with freshness and the ripe
+scent of fresh greens and water. The skies above you are rich and
+clear, and it seems this part of the world has remained untouched
+over the centuries by man and his creations. Thunder clouds roil on
+the far horizon...over a body of water, perhaps?
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 15052
+D3
+~
+~
+0 0 15054
+S
+#15054
+`2A grassy pasture``~
+You stand amid a wide, green field. The grasses here are shorter,
+and more lush green. The air is filled with freshness and the ripe
+scent of fresh greens and water. The skies above you are rich and
+clear, and it seems this part of the world has remained untouched
+over the centuries by man and his creations. Thunder clouds roil on
+the far horizon...over a body of water, perhaps?
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 15053
+D3
+~
+~
+0 0 15055
+S
+#15055
+`3Before a crystal lake``~
+The grassy pasture you were in abruptly ends, and overlooks a bright,
+shimmering lake. The deep alpine blue is enticing, and a small weeded
+path seems to lead around the lakeside. The lake is surrounded, still,
+by rolling green hills, which frame the picturesque lake in a wreath
+of fresh greenery.
+~
+~
+0 0 32768 4
+D0
+~
+~
+0 0 15057
+D1
+~
+~
+0 0 15054
+D3
+~
+~
+0 0 15056
+S
+#15056
+`^A small marsh``~
+You've stumbled upon a small marsh that leads into the lake. There
+is no further going here, as the water rises up deeply, surrounded
+in a reedy bog that is filled with a black, soft mud. Movement further
+would be very hazardous, and you feel it best to turn back and skirt
+the lake.
+~
+~
+0 134750217 0 6
+D1
+~
+~
+0 0 15055
+S
+#15057
+`3Skirting the lake``~
+You are following a reed covered path that leads around the alpine
+lake. Thick fog rolls off the lake, covering the luch green grass
+around it in a surreal haze. As the sun moves intermittently through
+the clouds, rays of light permeate the haze, and reflect back a very
+intense crystal blue shine. The path leads westward.
+~
+~
+0 0 16384 4
+D2
+~
+~
+0 0 15055
+D3
+~
+~
+0 0 15058
+S
+#15058
+`3Skirting the lake``~
+You are following a reed covered path that leads around the alpine
+lake. Thick fog rolls off the lake, covering the luch green grass
+around it in a surreal haze. As the sun moves intermittently through
+the clouds, rays of light permeate the haze, and reflect back a very
+intense crystal blue shine. The path leads westward.
+~
+~
+0 0 8192 4
+D1
+~
+~
+0 0 15057
+D3
+~
+~
+0 0 15059
+S
+#15059
+`3Alpine flatlands``~
+The grassy meadows retreat into large flatlands. This tundra type
+of terrain is almost unfamiliar. Spongy mosses and lichens grow in
+myriad colors all around you, and you feel as if you're walking with
+a spring in your step as you move over the lands. The flatlands seem
+to spread for quite a ways.
+~
+~
+0 0 32768 4
+D1
+~
+~
+0 0 15058
+D3
+~
+~
+0 0 15060
+S
+#15060
+`3Alpine flatlands``~
+The grassy meadows retreat into large flatlands. This tundra type
+of terrain is almost unfamiliar. Spongy mosses and lichens grow in
+myriad colors all around you, and you feel as if you're walking with
+a spring in your step as you move over the lands. The flatlands seem
+to spread for quite a ways.
+~
+~
+0 0 32768 4
+D1
+~
+~
+0 0 15059
+D3
+~
+~
+0 0 15061
+S
+#15061
+`2Alpine flatlands``~
+The grassy meadows retreat into large flatlands. This tundra type
+of terrain is almost unfamiliar. Spongy mosses and lichens grow in
+myriad colors all around you, and you feel as if you're walking with
+a spring in your step as you move over the lands. The flatlands seem
+to spread for quite a ways.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 15062
+D1
+~
+~
+0 0 15060
+S
+#15062
+`2A grass covered plateau``~
+The tundra flatlands end here, on a small plateau. This could very
+well be a groomed King's playing field for the lush, short grass here.
+The plateau extends for some distance, and it perfectly flat and
+devoid of any rocks or shrubs. Warm sun bathes the plateau, and the
+fresh dew glistens on your boots as you walk.
+~
+~
+0 0 16384 3
+D2
+~
+~
+0 0 15061
+D3
+~
+~
+0 0 15063
+S
+#15063
+`2A grass covered plateau``~
+The tundra flatlands end here, on a small plateau. This could very
+well be a groomed King's playing field for the lush, short grass here.
+The plateau extends for some distance, and it perfectly flat and
+devoid of any rocks or shrubs. Warm sun bathes the plateau, and the
+fresh dew glistens on your boots as you walk.
+ 
+A small path leads northward, into a stand of trees. It looks very
+heavily traveled.
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 15062
+D3
+~
+~
+0 0 15064
+S
+#15064
+`2A grass covered plateau``~
+The tundra flatlands end here, on a small plateau. This could very
+well be a groomed King's playing field for the lush, short grass here.
+The plateau extends for some distance, and it perfectly flat and
+devoid of any rocks or shrubs. Warm sun bathes the plateau, and the
+fresh dew glistens on your boots as you walk.
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 15063
+D3
+~
+~
+0 0 15065
+S
+#15065
+`3Open countryside``~
+The plateau gives way here, opening into a vast countryside. Rolling
+hills surround you, and the travel here is relaxing as you walk over
+grassy flats and small, round hills. This place seems to be an area
+of peace, long forgotten by time. The smell of seabreeze still fills
+the air.
+~
+~
+0 0 16384 4
+D1
+~
+~
+0 0 15064
+D3
+~
+~
+0 0 15066
+S
+#15066
+`3Open countryside``~
+The plateau gives way here, opening into a vast countryside. Rolling
+hills surround you, and the travel here is relaxing as you walk over
+grassy flats and small, round hills. This place seems to be an area
+of peace, long forgotten by time. The smell of seabreeze still fills
+the air.
+~
+~
+0 0 65536 4
+D1
+~
+~
+0 0 15065
+D3
+~
+~
+0 0 15067
+S
+#15067
+`3Open countryside``~
+The plateau gives way here, opening into a vast countryside. Rolling
+hills surround you, and the travel here is relaxing as you walk over
+grassy flats and small, round hills. This place seems to be an area
+of peace, long forgotten by time. The smell of seabreeze still fills
+the air.
+~
+~
+0 0 8192 2
+D1
+~
+~
+0 0 15066
+D3
+~
+~
+0 0 15068
+S
+#15068
+`3Open countryside``~
+The plateau gives way here, opening into a vast countryside. Rolling
+hills surround you, and the travel here is relaxing as you walk over
+grassy flats and small, round hills. This place seems to be an area
+of peace, long forgotten by time. The smell of seabreeze still fills
+the air.
+~
+~
+0 0 65536 4
+D1
+~
+~
+0 0 15067
+D3
+~
+~
+0 0 15069
+S
+#15069
+`3Open countryside``~
+The plateau gives way here, opening into a vast countryside. Rolling
+hills surround you, and the travel here is relaxing as you walk over
+grassy flats and small, round hills. This place seems to be an area
+of peace, long forgotten by time. The smell of seabreeze still fills
+the air.
+~
+~
+0 0 8192 4
+D0
+~
+~
+0 0 15070
+D1
+~
+~
+0 0 15068
+S
+#15070
+`3A glacial cirque``~
+Still high in the alpine, you enter a large glacial cirque. This is
+a large bowl shaped depression in the landscape, formed hundreds of
+years ago when these lands were still covered with ice. Now, soft
+tundra grasses grow here and thousands of tiny alpine flowers dot
+the cirque.
+~
+~
+0 0 65536 5
+D2
+~
+~
+0 0 15069
+D3
+~
+~
+0 0 15071
+S
+#15071
+`3A glacial cirque``~
+Still high in the alpine, you enter a large glacial cirque. This is
+a large bowl shaped depression in the landscape, formed hundreds of
+years ago when these lands were still covered with ice. Now, soft
+tundra grasses grow here and thousands of tiny alpine flowers dot
+the cirque.
+~
+~
+0 0 65536 5
+D1
+~
+~
+0 0 15070
+D3
+~
+~
+0 0 15072
+S
+#15072
+`3A great white cliff``~
+You stand before a giant white cliff. The face of the cliff drops
+several hundred feet below into...the sea! Wild, turgid waters crash
+below in fury, a sea you never even knew existed lies below, deep and
+dark. This may well be the rumored Lost Sea, once thought to exist far
+to the north of Thera, and which was as well rumored to run into the
+Dune Sea, far to the east. There is little else for you to do here.
+~
+~
+0 0 65536 4
+D1
+~
+~
+0 0 15071
+D5
+~
+~
+0 0 15082
+S
+#15073
+`8A dark cavern``~
+You stand within a cramped cavern. Some light still permeates from the
+entranceway, showing that the tunnel leads off further eastward into
+total darkness. Heat rises up here, and the air is humid, and smells
+of heated sulfur. Moisture condenses on the walls here, and long stal-
+actites hang from the ceiling.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 15074
+D3
+~
+boulder~
+AB 0 15028
+S
+#15074
+`8Within the Cavern``~
+Traveling further into the cavern, you find the tunnel widens. It looks
+mostly hand hewn, as if someone or something years ago cut this out by
+themself. The air has grown increasingly hot here, and the air is still
+filled with moisture and humidity. The tunnel begins to descend a bit.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 15073
+D5
+~
+~
+0 0 15075
+S
+#15075
+`8Inside the Cavern``~
+The tunnel, now perfectly rounded, begins to descent toward the heat
+source. More moisture has condensed on the walls, causing it to seem
+like it is raining within the tunnel. Long quartzite rock has formed
+toothlike stalactites and stalagmites here, but the footing remains
+solid.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 15076
+D4
+~
+~
+0 0 15074
+S
+#15076
+`8Inside the Cavern``~
+The tunnel, now perfectly rounded, begins to descent toward the heat
+source. More moisture has condensed on the walls, causing it to seem
+like it is raining within the tunnel. Long quartzite rock has formed
+toothlike stalactites and stalagmites here, but the footing remains
+solid.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 15077
+D3
+~
+~
+0 0 15075
+S
+#15077
+`8Inside the Cavern``~
+The tunnel, now perfectly rounded, begins to descent toward the heat
+source. More moisture has condensed on the walls, causing it to seem
+like it is raining within the tunnel. Long quartzite rock has formed
+toothlike stalactites and stalagmites here, but the footing remains
+solid.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 15076
+D5
+~
+~
+0 0 15078
+S
+#15078
+`8A crystal room``~
+The tunnel opens here into a room covered with assorted crystals. They
+shine from the glow of your torchlight, and cover the room, well over two
+spans in height. Long pillars of crystalline structures, radient in reds,
+pinks, purples, and whites are all around you. The room exits to the
+east, where more tunnel seems to lie.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 15079
+D4
+~
+~
+0 0 15077
+S
+#15079
+`8The Deadend``~
+You seem to have reached a deadend in the tunnel. Large slabs of rock
+cover the walls, and make an egress seemingly impossible. It is VERY
+hot here, and the air is thick with haze and steam. The floor below
+you is a slick, red mud. Oddly, the tunnel does not seem like it should
+end here...
+~
+~
+0 9 0 0
+D0
+~
+slab~
+ABM 0 15080
+D3
+~
+~
+0 0 15078
+S
+#15080
+`^The Hotsprings``~
+Now you see what was being hidden! A large lake is here, completely
+covered by a crystal ceiling. A sort of eerie photoluminescence comes
+from deep below the lake, lighting the room in a beautiful green glow.
+The lake steams invitingly with warm, refreshing mineral water, and
+is well over three hundred feet wide, and probably even deeper that
+that in the center. Bubbling mud and water springs run from all over,
+and large edible mushrooms grow on all the walls.
+~
+~
+0 16777216 0 6
+D2
+~
+slab~
+ABM 0 15079
+S
+#15081
+`8The Lair of the Raider Gap Dragon``~
+You are within a deep, rocky lair. Piles of bones from dead Oreads
+are all around you, and the place reeks of carrion from this hunter.
+Scraps of trash, clothing, and broken weapon lie haphazardly around
+you. The keeper of this den seems to care little for its appearance.
+~
+~
+0 8388617 0 0
+D2
+~
+boulder~
+ABM 0 15035
+S
+#15082
+`3Descending a great cliff``~
+You find a narrow trail that leads down the great white cliffs.
+Far below you see the crashing surf of the sea meeting a wide,
+sandy beach. The air here is balmy, and smells of warm summer
+sea, and acrid salt. The cliffs here are so white, you almost
+have to avert your eyes to look at them.
+~
+~
+0 0 8192 5
+D4
+~
+~
+0 0 15072
+D5
+~
+~
+0 0 15083
+S
+#15083
+`3Descending a great cliff``~
+You find a narrow trail that leads down the great white cliffs.
+Far below you see the crashing surf of the sea meeting a wide,
+sandy beach. The air here is balmy, and smells of warm summer
+sea, and acrid salt. The cliffs here are so white, you almost
+have to avert your eyes to look at them.
+~
+~
+0 0 8192 5
+D3
+~
+~
+0 0 15084
+D4
+~
+~
+0 0 15082
+S
+#15084
+`3A cliff ledge``~
+You are on a narrow ledge that gradually leads downward from the
+cliff face. You are getting closer to the seashore, and the great
+gap that has lead to it has all but ended here at the cliffs. 
+Several gulls cry at you in the air, as if warning you to stay
+away from their nests, built into the cliff walls.
+~
+~
+0 0 32768 5
+D1
+~
+~
+0 0 15083
+D5
+~
+~
+0 0 15085
+S
+#15085
+`3Approaching the shoreline``~
+You stand at the base of some large white cliffs. A narrow path
+leads back up the cliffs, and westward, through a narrow trail
+that winds through several large dunes and seagrasses, lies the
+seashore. You can hear the muffled crash of the surf over the
+wind that whistles though the sea oats.
+~
+~
+0 0 16384 2
+D3
+~
+~
+0 0 15086
+D4
+~
+~
+0 0 15084
+S
+#15086
+`3A narrow path``~
+You're on a narrow path leading to, or from, the seashore. Large
+white sand dunes rise up around you, and tall sea grasses grow
+in proliferation around you. The air is warm, almost hot, and the
+sand squeaks under your feet. It is quite beautiful here, and
+very tropical, as compared with the chilly fields far to the
+east.
+~
+~
+0 0 32768 2
+D1
+~
+~
+0 0 15085
+D3
+~
+~
+0 0 15087
+S
+#15087
+`#Crashing surf``~
+You stand atop a set of large white sand dunes that barrier
+the seashore from the white cliffs. The surf is loud here, and
+you can hear it crashing against the seashore with vigor. Wind
+whistles through the air here, and causes the pretty sea oats
+to bend in the breeze.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 15086
+D5
+~
+~
+0 0 15088
+S
+#15088
+`#A sandy seashore``~
+You are just before a broad seashore. Westward lies the ocean,
+and you can run out to greet it, or turn back eastward to the great
+white cliffs. The sand seems to stretch for miles to the north and
+south, and you think you can make out some sort of fishing village
+far to the north.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 15089
+D4
+~
+~
+0 0 15087
+S
+#15089
+`3A small road``~
+You are on a narrow path that leads into Mendar, a small fishing
+village that works the coasts of the Dead Sea. The road is wide
+enough for horsecart, and deeply rutted from years of travel. The
+smell of decaying fish fills your nose, and you are almost rel-
+uctant to enter the village.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 15090
+D2
+~
+~
+0 0 15088
+S
+#15090
+`7Korden Road``~
+You stand on Korden Road, the main street leading into the
+tiny fishing village of Mendar. The air is thick with the
+smell of fish, and several rough looking mariners walk around
+you, carrying nets, poles, and other supplies for their boats
+which lie moored at the village docks.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 15091
+D2
+~
+~
+0 0 15089
+S
+#15091
+`7Korden Road``~
+You stand on Korden Road, the main street leading into the
+tiny fishing village of Mendar. The air is thick with the
+smell of fish, and several rough looking mariners walk around
+you, carrying nets, poles, and other supplies for their boats
+which lie moored at the village docks.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 15090
+D3
+~
+~
+0 0 15092
+S
+#15092
+`7Korden Road``~
+You stand on Korden Road, the main street leading into the
+tiny fishing village of Mendar. The air is thick with the
+smell of fish, and several rough looking mariners walk around
+you, carrying nets, poles, and other supplies for their boats
+which lie moored at the village docks.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 15094
+D1
+~
+~
+0 0 15091
+D3
+~
+~
+0 0 15093
+S
+#15093
+`7Korden Road``~
+You stand on Korden Road, the main street leading into the
+tiny fishing village of Mendar. The air is thick with the
+smell of fish, and several rough looking mariners walk around
+you, carrying nets, poles, and other supplies for their boats
+which lie moored at the village docks.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 15095
+D1
+~
+~
+0 0 15092
+S
+#15094
+`7A Fishing Hut``~
+You stand in a small fishing hut. A few men are gathered around
+a small table drinking of mead, and a few others are comparing
+nautical charts in the corner. A thick haze of smoke fills the
+wooden hut, and a roasted pig is cooking on the spit. Despite
+the roasting pig, the air still smells of fish.
+~
+~
+0 8 0 1
+D2
+~
+~
+0 0 15092
+D3
+~
+~
+0 0 15095
+S
+#15095
+`7The Southern Village Square``~
+You are in the Southern Square of Mendar, a very remote fishing
+village. It has to be the further eastward human habitation in
+these lands, and the villagers look at you warily. Several hawkers
+stand around the square, selling their catches. You see little
+sign of any real habitation around here. You assume most of the
+folks in the town must live aboard ships.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 15096
+D1
+~
+~
+0 0 15094
+D2
+~
+~
+0 0 15093
+S
+#15096
+`7The Northern Village Square``~
+You are in the Northern Square of Mendar, a very remote fishing
+village. It has to be the further eastward human habitation in
+these lands, and the villagers look at you warily. Several hawkers
+stand around the square, selling their catches. You see little
+sign of any real habitation around here. You assume most of the
+folks in the town must live aboard ships.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 15098
+D2
+~
+~
+0 0 15095
+D3
+~
+~
+0 0 15097
+S
+#15097
+`7The Village Docks``~
+You stand on a long, wooden dock that runs directly into
+the Dead Sea. Several large fishing trawlers are here, and,
+from the way it looks, are used mainly for gathering fish,
+although there seem to be several large warships moored just
+off the docks here, though the village locals seem reluctant
+to speak about them.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 15099
+D1
+~
+~
+0 0 15096
+S
+#15098
+`8Dock Road``~
+You are on a small road that runs from the Village Square of
+Mendar to the Docks. The road is well used by horsecart, and
+reeks of rotting fish, the primary source of income for the
+dwellers of this small fishing village. It seems rather odd
+to find habitation this far away from real civilization.
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 15096
+D3
+~
+~
+0 0 15099
+S
+#15099
+`7The Village Docks``~
+You stand on a long, wooden dock that runs directly into
+the Dead Sea. Several large fishing trawlers are here, and,
+from the way it looks, are used mainly for gathering fish,
+although there seem to be several large warships moored just
+off the docks here, though the village locals seem reluctant
+to speak about them.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 15098
+D2
+~
+~
+0 0 15097
+S
+#15100
+`3A small trail``~
+You find yourself strolling down a small trail within the Raider Gap.
+The smell of pungent sulphur fills your air, and a thick mist has
+formed before you on the trail. It is rather dry here, so the
+presence of water is quite a bit strange to find here.
+~
+~
+0 0 32768 2
+D1
+~
+~
+0 0 15101
+D3
+~
+~
+0 0 15015
+S
+#15101
+`3A small, narrow trail``~
+You are still following the narrow trail. Now the thick mist is
+surrounding you. It seems to be very warm, like steam, coming from
+something nearby. The scent of sulphur is only growing stronger as
+you walk further, and all of the rocks here have taken on a yellow
+tinge from the mineral.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 15102
+D3
+~
+~
+0 0 15100
+S
+#15102
+`3The sound of water``~
+You now can hear the sound of bubbling water. The steam has lifted,
+and just to the east you can see the hotsprings! Warm, inviting steam
+comes from them. It seems this area is very geothermally active, for
+there are many different springs bubbling up all around you. The air
+here feels like a sauna, and you begin to sweat under your armor.
+~
+~
+0 0 8192 2
+D1
+~
+~
+0 0 15103
+D2
+~
+~
+0 0 15101
+S
+#15103
+`8The hotsprings``~
+You stand knee-deep in hotsprings. The water, while very hot, is not
+so much to burn your skin. It feels like hot bathwater, and is very
+soothing to your tired feet. It seems there are many other creature
+who enjoy basking in these springs. Oreads, Naiads, and fauns are all
+at play around you.
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 15104
+D3
+~
+~
+0 0 15102
+S
+#15104
+`^The hotsprings``~
+You stand knee-deep in hotsprings. The water, while very hot, is not
+so much to burn your skin. It feels like hot bathwater, and is very
+soothing to your tired feet. It seems there are many other creature
+who enjoy basking in these springs. Oreads, Naiads, and fauns are all
+at play around you.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 15105
+D1
+~
+~
+0 0 15107
+D3
+~
+~
+0 0 15103
+S
+#15105
+`^The hotsprings``~
+You stand knee-deep in hotsprings. The water, while very hot, is not
+so much to burn your skin. It feels like hot bathwater, and is very
+soothing to your tired feet. It seems there are many other creature
+who enjoy basking in these springs. Oreads, Naiads, and fauns are all
+at play around you.
+~
+~
+0 0 0 6
+D1
+~
+~
+0 0 15106
+D2
+~
+~
+0 0 15104
+S
+#15106
+`^The hotsprings``~
+You stand knee-deep in hotsprings. The water, while very hot, is not
+so much to burn your skin. It feels like hot bathwater, and is very
+soothing to your tired feet. It seems there are many other creature
+who enjoy basking in these springs. Oreads, Naiads, and fauns are all
+at play around you.
+~
+~
+0 0 0 6
+D2
+~
+~
+0 0 15107
+D3
+~
+~
+0 0 15105
+S
+#15107
+`^The hotsprings``~
+You stand knee-deep in hotsprings. The water, while very hot, is not
+so much to burn your skin. It feels like hot bathwater, and is very
+soothing to your tired feet. It seems there are many other creature
+who enjoy basking in these springs. Oreads, Naiads, and fauns are all
+at play around you.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 15106
+D3
+~
+~
+0 0 15104
+S
+#15108
+`3A stairway in the Raider Gap``~
+The trail ends abruptly here against high white sandstone cliffs.  Small, 
+stunted bushes grow out from small crevices and rustle in the warm
+breeze, wafting a slight smell of sage.  You can see rough-hewn steps
+carved into the rock itself crisscrossing upward.
+~
+~
+0 0 65536 4
+D2
+~
+~
+0 0 15040
+D4
+~
+~
+0 0 15109
+S
+#15109
+`3A stairway below a Castle``~
+Long, thick steps cut into the gap wall lead up toward the castle above
+you.  The walls are stark, with naught but scrub brush covering them.  There
+is nothing around that could provide protection from those above you, or
+from the elements around you.  The wind howls as it runs through the gap,
+whipping at your clothes and equipment.  
+~
+~
+0 0 16384 4
+D4
+~
+~
+0 0 15110
+D5
+~
+~
+0 0 15108
+S
+#15110
+`3A stairway below a Castle``~
+Long, thick steps cut into the gap wall lead up toward the castle above
+you.  The walls are stark, with naught but scrub brush covering them.  There
+is nothing around that could provide protection from those above you, or
+from the elements around you.  The wind howls as it runs through the gap,
+whipping at your clothes and equipment.  
+~
+~
+0 0 32768 4
+D4
+~
+~
+0 0 15111
+D5
+~
+~
+0 0 15109
+S
+#15111
+`3A stairway below a Castle``~
+Long, thick steps cut into the gap wall lead up toward the castle above
+you.  The walls are stark, with naught but scrub brush covering them.  There
+is nothing around that could provide protection from those above you, or
+from the elements around you.  The wind howls as it runs through the gap,
+whipping at your clothes and equipment.  
+~
+~
+0 0 16384 4
+D4
+~
+~
+0 0 15112
+D5
+~
+~
+0 0 15110
+S
+#15112
+`3A stairway below a Castle``~
+Long, thick steps cut into the gap wall lead up toward the castle above
+you.  The walls are stark, with naught but scrub brush covering them.  There
+is nothing around that could provide protection from those above you, or
+from the elements around you.  The wind howls as it runs through the gap,
+whipping at your clothes and equipment.  
+~
+~
+0 0 8192 4
+D0
+~
+~
+0 0 15113
+D5
+~
+~
+0 0 15111
+S
+#15113
+`3Nearing the Castle``~
+As you step away from the gap steps you see a stark stone castle off in
+the distance.  Grey and imposing it sits atop a small rise, seemingly
+inpenetrable from the outside.  Great walls rise with towers above them,
+allow those inside to see all that approach.  There is single path leading
+to the large drawbridge.  
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 15114
+D2
+~
+~
+0 0 15112
+S
+#15114
+`3Before the Castle``~
+The path you have been following straightens and in the distance you are
+able to see the alabaster walls of a fortress glinting in like a beacon. 
+The hedges around you are well-trimmed, and the path has been cleared of
+obstacles.  It is scarred with the prints of countless horses and masses of
+cobbled feet.  Tall, unlit torches line the path as you draw near.  
+~
+~
+0 0 65536 4
+D0
+~
+~
+0 0 16800
+D2
+~
+~
+0 0 15113
+S
+#15115
+`8``~
+~
+~
+0 4 0 0
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 15081 spec_breath_fire
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 15013 4 15008 20
+M 0 15013 4 15009 20
+M 0 15013 4 15010 20
+M 0 15013 4 15011 20
+M 0 15013 4 15012 20
+M 0 15020 4 15013 20
+M 0 15024 3 15015 1
+M 0 15020 4 15015 20
+M 0 15024 3 15017 1
+M 0 15020 4 15018 20
+M 0 15024 3 15019 1
+M 0 15020 4 15020 20
+M 0 15024 3 15021 1
+M 0 15024 1 15024 1
+O 0 15080 0 15080
+O 0 15079 0 15080
+O 0 15079 0 15080
+O 0 15079 0 15080
+M 0 15081 1 15081 1
+E 0 15070 0 5
+E 0 15071 0 8
+E 0 15072 0 12
+E 0 15073 0 11
+E 0 15074 0 6
+E 0 15081 0 10
+E 0 15082 0 13
+G 0 15083 0
+G 0 15084 0
+O 0 15076 0 15088
+P 0 15075 0 15076 1
+M 0 15094 1 15094 1
+M 0 15095 1 15095 1
+G 0 15095 0
+G 0 15096 0
+G 0 15097 0
+M 0 15096 1 15096 1
+E 0 15094 0 15
+G 0 15098 0
+G 0 15093 0
+M 0 15099 1 15099 1
+M 0 15104 3 15104 10
+M 0 15105 3 15104 10
+M 0 15104 3 15105 10
+M 0 15105 3 15105 10
+M 0 15104 3 15106 10
+M 0 15105 3 15106 10
+M 0 15104 3 15107 10
+M 0 15105 3 15107 10
+S
+
+
+
+#SHOPS
+15095 0 0 0 0 0 100 100 0 23
+15096 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#0
+
+M 15099 0 chasm_mariner.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

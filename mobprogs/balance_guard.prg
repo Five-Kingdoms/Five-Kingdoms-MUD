@@ -3,7 +3,7 @@ if rand (10)
 	say Greetings, $N. Welcome to House Aldur.
 endif
 if rand (33)
-	say Welcome to the Balance House of Val Miran, $N.
+	say Welcome to the Balance House of Revelsport, $N.
 endif
 if charobj (8)
 	bow $n

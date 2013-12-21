@@ -1,0 +1,4092 @@
+#AREADATA
+Name Malag's Crossing~
+Pref ~
+Builders Ankharan~
+VNUMs 7200 7299
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 0
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#7201
+pilgrim~
+a pilgrim~
+A pilgrim is here
+~
+You are looking at a traveler along the road.  He is wearing high-top
+black dusty boots, red tunic and brown britches.  He is carrying a walking
+staff that looks like it has been around some.  He has a brown belt pouch
+that hangs loosely at his side.
+~
+human~
+AEHd A 0 0 300 0
+10 2 3d23+97 0d0+100 2d5+7 smash
+4 4 4 7
+0 0 0 0
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#7202
+Malag's descendant~
+the descendant of Malag~
+A descendant of Malag is skulking along in the shadows here.
+~
+Skulking along the shadows is a vile smelling creature.
+Its blazing red eyes pierce the darkness and stare into your being.
+Thier pale blue skin is marred by patches of missing flesh revealing
+bone fragments and decaying muscle.
+~
+undead~
+AEFGOSYe A JO 0 -1000 0
+35 7 10d70+500 0d0+100 6d6+20 none
+0 0 0 0
+FUX LPQR I N
+stand stand none none~
+12
+0 ABCDEFGHIJK medium 0
+#7205
+Malag citizen~
+a Malag citizen~
+A Malag's Crossing citizen is here.
+~
+A commoner is before you going about their business. They are
+dressed in drab colors and nothing about them reflects finery.
+It is difficult to discern what it is that they do as there
+are no outward signs of what they do for a living.
+~
+human~
+AEGS A a 0 -100 0
+15 3 5d31+161 0d0+100 3d5+8 punch
+0 0 0 5
+BFIJNTUX 0 0 0
+stand stand either none~
+13
+AHMV ABCDEFGHIJK medium 0
+#7210
+priestess healer of Pajumet~
+a priestess of Pajumet~
+An priestess of Pajumet is here, conferring blessings.
+~
+Adorned with red flowing robes with a interlocking key trim,
+this lovely priestess tends to her duties and the people.
+She smiles mischievously and kind at the same time with a
+twinkle in her eye.  She bears the holy symbol of Pajumet around
+her neck and often rubs it as she utters her prayers and blessings.
+~
+human~
+ABEGQVae A 0 0 0 0
+60 15 10d10+4000 0d0+100 1d1+200 none
+-30 -30 -30 -30
+FHK ABCD 0 0
+stand stand female none~
+29
+AHMV ABCDEFGHIJK medium 0
+#7213
+Cindy the tawdry looking half-elf street walker~
+street walker Cindy~
+A tawdry looking half-elf street walker is here.
+~
+You see a voluptuous half-elf female with way too much red lipstick
+eye shadow and high thigh, high heeled black leather boots that have
+been polished to a bright sheen.  She is leaning up against a wall with
+a knee bent looking over the customers that she might earn a living from.
+She his wearing tiger striped shirt with a short black leather skirt that
+comes just below the mid-thigh region.  She smiles at you and whispers
+"My name is Cindy, what's yours?"
+~
+half-elf~
+ACEHS A J 0 0 0
+20 4 8d44+250 0d0+100 4d5+11 punch
+-2 -2 -2 3
+0 0 BP 0
+stand stand female none~
+11
+AHMV ABCDEFGHIJK medium 0
+#7214
+Heather the Happy Hooker~
+hooker Heather~
+Heather the happy hooker is here beconing to you.
+~
+You are looking at a mildly attractive human female.  She is
+wearing a short fur lined mini and a faded red blouse.  She has
+her hair done up in a pony tail that has been braided.  She isn't
+wearing much in the way of cosmetic alterations but does have
+blushed cheeks.  She is about 5 feet 7 inches tall.  Blonde hair
+and long painted fingernails.
+ 
+She says to you "hey, wanna have some fun?"
+ 
+~
+human~
+AEGHb A 0 0 150 0
+22 4 7d56+300 0d0+100 5d5+13 punch
+-4 -4 -4 -3
+BFHITU B PQ A
+stand stand female none~
+13
+AHMV ABCDEFGHIJK medium 0
+#7215
+large brown sewer rat~
+a large brown sewer rat~
+A large brown sewar rat is scurrying about here.
+~
+This is one huge rat!  Its nasty looking gnashing teeth could be
+a significant problem to the careless.  Its brown with black streaked
+fur looks permanently stained from its life of squeezing in and out of
+very tight spaces.  Its crazed yellow eyes look square at you with defiance.
+~
+unique~
+AGH A FPV 0 -100 0
+25 5 8d55+200 0d0+100 5d6+10 bite
+-6 -6 -6 3
+0 0 LPQR ABH
+stand stand none none~
+11
+0 0 small 0
+#7218
+Jacque the warf boss~
+Jacque the wharf boss~
+The wharf boss Jacque is standing here.
+~
+Before you is an 8 foot ogre with massive arms and thighs.  He is
+scarred and marred from his many years of working the docks and
+scrapes and scuffles that he has engaged in.  He has a twisted smile
+and is balding.  He wears a golden earring in his left ear and a tattoo
+of a sea dragon ion his right shoulder.  He is wearing a leather vest with
+no shirt.  He is not wearing any foot gear but by looking at his feet one
+can see that the callouses built there replace the need for shoes or boots.
+His gnarled salty skin is indicative of sea faring people.
+~
+ogre~
+ACEGTZe A CEGJ 0 0 0
+30 6 12d61+500 0d0+100 6d6+20 punch
+-9 -9 -9 1
+EFHIJNTX A EQ CP
+stand stand male none~
+12
+AHMV ABCDEFGHIJK large 0
+#7225
+peasant girl~
+the peasant girl~
+A peasant girl is standing here.
+~
+Before you is a peasant girl.  It is difficult to tell how old
+she is but she looks to be somewhere in her mid to late twenties.
+She is wearing a very plain brown dress with whitish apron.  While
+her cloths are not much to remark they are at least in good condition.
+She has flaxen hair which is pulled back underneath her bonnet.  Her
+fingers look as though she has been working in the fields for a long
+period of time.  Broken and stained nails.  None the less she looks up
+and gives you a curtsey and a smile.
+~
+human~
+ACEGHd A 0 0 200 0
+10 2 3d22+96 0d0+100 2d5+5 none
+4 4 4 7
+FHQTU 0 0 0
+stand stand female none~
+13
+AHMV ABCDEFGHIJK medium 0
+#7229
+east toll guard~
+the east toll guard~
+A very large human toll guard is standing here.
+~
+Before you is a very large for a human guard wearing chain mail and
+he carries a large sword.  His blonde hair sticks out from under his
+helm and his bulging muscles ripple as he grips the pommel of his sword.
+He has a short cut beard that is a little darker than the blonde hair on his
+head.
+~
+human~
+ABEGTWe A DEHJ 0 -200 0
+60 12 15d200+1000 0d0+100 6d13+30 punch
+-30 -30 -30 -10
+EFHINX 0 ACDLQ 0
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+#7233
+osprey~
+the osprey~
+A black and white osprey is flying above.
+~
+High above this majestic avian flies.  Their keen eyes and sharp
+talons mean they rarely go hungry.  They soar above with ease and
+grace.  Their tell-tale black and white feathers with black speckled
+crest off sets them in the sky above.
+~
+unique~
+AHId A DFJPT 0 0 0
+20 7 8d50+375 0d0+100 4d5+9 claw
+-2 -2 -2 6
+FHLRSUX PT 0 HLQ
+stand stand either none~
+8
+0 0 medium 0
+#7235
+citizen fishing~
+the fishing citizen~
+A citizen is fishing here.
+~
+Before you is a human wearing what looks like fishing equipment.
+A tackle basket hangs from their shoulder and a string of fish from
+their hip.  They have a waist pouch with what looks like juicy fat
+nightcrawlers trying to escape through the cracks of that pouch in an
+attempt to avoid their fate in the mouth of a river fish.  They are wearing
+a tan vest, brimmed hat, and brown shirt with brown pants.  They appear
+to be shoeless as well.
+~
+human~
+ACEGSWd A 0 0 200 0
+15 0 5d30+1000 0d0+100 3d8+15 bite
+-2 -2 -2 0
+HQTU LPR 0 B
+stand stand either none~
+11
+AHMV ABCDEFGHIJK medium 0
+#7238
+west toll guard~
+the west toll guard~
+The west toll guard is standing here.
+~
+Before you is a large human.  Standing 6 feet 5 inches he is an imposing
+figure for a human.  Solid muscle and stern look on his face.  He stands
+his post with diligence.  He is wearing plate armor and wields a shield.
+He blocks your path with his glaive and says...
+ 
+"You must pay the toll to cross the bridge."
+~
+human~
+ABCETWe A DHJ 0 0 0
+60 12 13d200+1000 0d0+100 6d12+35 punch
+-29 -29 -29 -10
+EHIJKX A ACDLQ 0
+stand stand male none~
+25
+AHMV ABCDEFGHIJK medium 0
+#7244
+Balrog Hornswaggle~
+Balrog Hornswaggle~
+Balrog Hornswaggle is standing here.
+~
+A short man with balding hair and pot belly dressed in overalls is here.
+He has a wheat stalk sticking out of his mouth and his left hand is in his
+pocket.  He has a sort of wry grin on his face and his face is marred with
+mud of some sort.  He generally overall smells like pigs.
+~
+human~
+ABGe A 0 0 -200 0
+60 12 15d200+1000 0d0+100 7d10+50 punch
+-27 -27 -27 -10
+DEHN AB 0 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#7249
+Shasharra Singleton~
+Shasharra Singelton~
+The owner of the tavern "The Lusty Lady" Shasharra Singelton is here.
+~
+The lady before you is a middle-aged human female with long
+raven black hair and streaks of gray.  She is wearing an ankle length
+green dress with a white blouse.  Her hair is swept back and drapes
+over her shoulders like a water fall.  She is about five feet seven inches
+tall and her stature is that of pride and confidence.  Her narrow eyes
+seem to capture everything that goes on around her as she goes about
+her work.  She is wearing soft leather black low-cut shoes and has an
+apron which is stained and long over due for a cleaning.  Although she
+looks to be a frail woman one look at the way she handles those pints of
+ale reveals a strength that comes from hours long hard work over a
+lifetime.  She has a disarming smile and nods as she greets her customers.
+ 
+She says in trade common  "How may I serve you?"
+~
+human~
+ABGHe A 0 0 -100 0
+60 12 15d200+1000 0d0+100 5d15+30 slap
+-27 -27 -27 -9
+FIX ABCLQ D 0
+stand stand female none~
+26
+AHMV ABCDEFGHIJK medium 0
+#7251
+Malag's Crossing Guard~
+a Malag's Crossing guard~
+A Malag's Crossing guard is here.
+~
+~
+human~
+AEGTcd A DFJ 0 0 0
+30 6 10d70+450 0d0+100 5d6+30 none
+-9 -9 -9 0
+EHKNTUX 0 B 0
+stand stand male none~
+15
+AHMV ABCDEFGHIJK medium 0
+#7252
+Y'vonne De Vincortho Captian of the Guard~
+the capitan of the guard~
+Y'vonne De Vincortho Captian of the Guard is here.
+~
+~
+human~
+AEGTd A 0 0 300 0
+45 9 10d145+875 0d0+100 5d8+20 none
+-18 -18 -18 -4
+FHIJNQSX A 0 0
+stand stand female none~
+16
+AHMV ABCDEFGHIJK medium 0
+#7253
+fisherman from Malag's Crossing~
+a fisherman~
+A fisherman from Malag's Crossing is here.
+~
+Before you is a scruffy unshaven leathery skinned male.  His uncombed and
+shoulder lengthen black hair peeks out from his black skull rag that is loosely
+tied at the back of his head with what looks like some sort of feather clip.  
+His aged eyes tell of a hard life on the docks.  His cloths speak little of his
+success.  He is wearing brown cotton britches and an orange short tattered
+shirt that reveals a tattoo just under the sleeve of his biceps that resembles
+a faded skull and cross bones on the left and a heart with an arrow through it
+on the left.  He has on worn black low cut shoes made for life on a boat.  He
+has a large buckled belt with a dagger that looks well used over the years. 
+~
+human~
+AEGHTd A 0 0 100 0
+20 4 7d45+65 0d0+100 4d5+12 slap
+-2 -2 -2 2
+FHX 0 0 0
+stand stand male none~
+9
+AHMV ABCDEFGHIJK medium 0
+#7254
+old man~
+the old man~
+A hunched over old man is here.
+~
+You are looking at an ancient elderly man.  He is hunched over with
+age and brittle bones.  He is using a cane to steady himself as his
+beard dangles near to his knees.  He is wearing a grungy old gray robe
+that looks like it may have been white at one time.  Yellow tobacco stains
+run down midpoint of his snow white beard.  His hair long left him years
+ago by the looks of his dirty but polished cranium.  He has brown buckskin
+shoes that have fallen in to such disrepair that he has them tied to his
+feet with a bit of fishing string.  His robe is closed with a bit of old
+burlap cord.
+ 
+ 
+He strains to look up and smile at you.  With a wry grin and twinkle in his
+wise old eyes says in trade common "Hello."
+~
+human~
+AEHb A Ad 0 400 0
+5 0 10d70+142 0d0+100 1d3+2 slap
+0 0 0 0
+0 0 0 0
+stand stand none none~
+5
+AHMV ABCDEFGHIJK medium 0
+#7255
+little boy with a fishing pole~
+the little boy~
+A little boy with a fishing pole is here, fishing.
+~
+Before you is a little sandy blonde haired boy with a fishing pole
+and a string of fish.  He has freckles all over his face and an impish
+little smile.  His pants are stained with the remains of the red worms
+that he has been using for bait.  His feet are mud caked and crusty
+from digging around looking for those scrumptious little bait worms.
+~
+human~
+AEGHS A 0 0 300 0
+15 2 5d30+161 0d0+100 3d5+9 bite
+1 1 1 4
+FH 0 R ABLQ
+sit sit male none~
+15
+AHMV ABCDEFGHIJK medium 0
+#7256
+Lord Asturala Malag IIIV~
+the Lord Asturala Malag the IIIV~
+The Lord Asturala Malag the IIIV is standing here.
+~
+Before you is a sturdy looking chap.  He is finely dressed in
+bright silks and the latest fashion of the big cities.  He definately
+stands out here in this seedy little villa.  His bright green eyes and
+disarming smile go along with his smooth lotioned hands.  He looks to be
+about 35ish but the eyes hint at an older age.  Try as he might he finds
+it hard to hide the curl of his lipps as he smiles which turns into a sneer.
+He stands about 6 feet tall and has very broad shoulders for a banker.
+~
+human~
+ABEGe A DEH 0 -250 0
+60 20 20d300+1840 0d0+100 10d20+50 punch
+-40 -40 -40 -25
+EFHINX ABCLMPQ RT 0
+stand stand none none~
+23
+AHMV ABCDEFGHIJK medium 0
+#7258
+Jessip Darrengold~
+the arms dealer Jessip Darrengold~
+The arms dealer Jessip Darrengold is here.
+~
+Before you is a short, slightly balding human male.  He is wearing a
+leather apron and thick brown dungarees.  His once white shirt is sweat
+stained and small tears are visible at the elbows.  He has a wrinkled yet
+soft face and a whimsical smile.
+ 
+He asks you  "How may I be of service to you?"
+~
+human~
+AGHJY A H 0 200 0
+60 12 15d200+1000 0d0+100 6d15+30 punch
+-27 -27 -27 -9
+EFHNX C D 0
+stand stand male none~
+28
+AHMV ABCDEFGHIJK medium 0
+#7260
+Sven Polgarthor~
+the armorer Sven~
+The master dwarven armorer Sven Polgarthor is here.
+~
+You can see a short robust dwarf before you.  He has a long
+black beard with graying streaks in it.  His arms are nearly as
+thick as his legs and his girth is a bit wide around the belly.
+One hand on a chicken leg and the other working with a strap
+on a piece of his armor for sale.  Bright red and green tunic with
+olive drab britches and gaudy fur trimmed boots. He has a serious
+looking war hammer that hangs by his side.
+He looks up and asks "What can I sell you today?"
+~
+dwarf~
+ABGTYe A J 0 0 0
+60 12 13d200+1050 0d0+100 6d12+30 punch
+-27 -27 -27 -10
+DEFNX AB CLQ R
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#7262
+Taryn Wycliff~
+the general store owner of Malag's Crossing~
+Taryn Wycliff the general store owner of Malag's Crossing is standing here.
+~
+Before you is a thin gaunt looking human male wearing a
+yellowish robe with black trim that goes to about his knees.
+The robe is cinched at the waist by a black silken cord belt.
+He is also wearing aqua blue britches and thigh high black boots
+that are scuffed at the tips.  At his hip there is an ornate dagger
+with a black hilt. He winces at the sound of the creaking door.
+Looks up and says...
+ 
+"How may I be of service to you?"
+~
+human~
+ABGRYe A H 0 75 0
+60 13 15d200+950 0d0+100 5d10+50 none
+-27 -27 -27 -10
+FHINX A 0 0
+stand stand male none~
+27
+AHMV ABCDEFGHIJK medium 0
+#7266
+forge master~
+the Forge Master~
+The Forge Master is here giving aid to forgers.
+~
+A short grimy dwarf is here helping those forgers that are in need.
+His beard and hair are full of metal flakes and metal dust from long
+hours at the forge himself.  Brawny and serious looking this dwarf looks
+like one should never trifle with him or his skills.
+~
+dwarf~
+ABEGJKZbce A DEFH 0 0 0
+60 30 10d600+2000 0d0+100 10d20+100 smash
+-40 -40 -40 -40
+EFHIX AB CQ R
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+F aff J
+F res L
+#7269
+road beggar~
+a road beggar~
+A road beggar is here.
+~
+Scruffy and unkempt a beggar sits and hassles travelers.  Near
+toothless and smelling of horrific body odor he fiddles with his
+torn and tattered clothing.  His cloths look moth-eaten and his
+shoeless feet are black with caked dirt that looks as if it has
+been there on his feet for years.
+~
+human~
+AESd A 0 0 -200 0
+15 3 5d30+161 0d0+100 3d5+8 punch
+0 0 0 6
+FJU 0 Q 0
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#7274
+small mouth bass~
+the small mouth bass~
+A small mouth speckled black bass is swimming here.
+~
+You can see a black speckled fish.  Looks like a small mouth bass, swimming
+here.
+~
+unique~
+AGHe A 0 0 0 0
+1 0 1d4+4 0d0+100 1d2+0 none
+9 9 9 9
+0 P 0 H
+stand stand none none~
+8
+0 0 small 0
+#7275
+sunfish~
+the sunfish~
+A sunfish is swimming here.
+~
+You see a gray and black fish with small black dots swimming along
+the river here.
+~
+unique~
+AGe A 0 0 0 0
+2 0 2d4+50 0d0+100 1d2+0 none
+9 9 9 9
+0 PR 0 H
+stand stand none none~
+2
+0 0 medium 0
+#7276
+rainbow trout~
+the rainbow trout~
+A rainbow trout is swimming here.
+~
+You can see the bright colors of this rainbow trout through the
+surface of the water.  It is resting here waiting for a tasty snack.
+~
+unique~
+AGWe A 0 0 0 0
+5 0 1d3+15 0d0+100 1d4+0 bite
+9 9 9 10
+FHRU PR 0 H
+sleep rest none none~
+5
+0 0 small 0
+#7293
+servant to lord Malrag~
+the servant~
+A servant of Lord Malag is going about their duties here.
+~
+A servant of Lord Malag is going about their duties here.
+~
+human~
+AEGTYe A 0 0 0 0
+35 6 5d6+50 0d0+100 6d6+20 punch
+-9 -9 -9 0
+FHX 0 0 0
+stand stand none none~
+19
+AHMV ABCDEFGHIJK medium 0
+#7297
+priest of Pajumet~
+a priest of Pajumet~
+A priest of Pajumet is milling about here.
+~
+A hooded red robed priest of Pajumet goes about their
+priestly duties.
+~
+human~
+AEQ A H 0 0 0
+25 5 6d40+250 0d0+100 5d6+12 magic
+0 0 0 0
+AFHUX 0 A 0
+stand stand none none~
+16
+AHMV ABCDEFGHIJK medium 0
+#7299
+J'hall High Priest of Pajumet~
+J'hall High Priest of Pajumet~
+J'hall High Priest of Pajumet is meditating here.
+~
+Before you is an ancient human male.  He is wearing what looks
+like fine silken red robes with silver trim.  He is wearing a holy
+symbol of Pajumet that is made of a silvery looking metal.  It gleams
+of its own accord.  J'hall has a short cropped silverish beard that is
+neatly trimmed.  He wears a signet ring of his office.  His eyes are a
+dull black that reflect a wisdom only gained through years of living and
+experience.
+~
+human~
+ABCEJKQYace A H 0 0 0
+50 10 10d169+1000 0d0+100 10d10+50 punch
+-25 -25 -25 -25
+AFHX A 0 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#7200
+pilgrim's red shirt~
+a pilgrim's red shirt~
+A pilgrim's red shirt is here.~
+cloth~
+clothing Y AD
+0 0 0 0 0
+5 30 3 P
+L
+0
+F
+A 2 1 0
+F
+A 26 1 0
+#7201
+pilgrim's staff~
+a pilgrim's staff~
+A pilgrim's staff is here.~
+wood~
+weapon 0 AN
+staff 4 5 smash 0
+10 100 5 P
+L
+0
+#7202
+wheat germ~
+a bag of wheat germ~
+A bag of yummie looking wheat germ is here.~
+wheat~
+food N AO
+12 12 0 0 48
+5 10 6 P
+L
+0
+#7203
+pilgrim's belt pouch~
+a pilgrim's belt pouch~
+A pilgrim's brown leather belt poch is here.~
+unknown~
+container 0 ALO
+10 A 0 10 0
+7 20 5 P
+L
+0
+#7204
+pickled pigs feet~
+a pair of pickled pigs feet~
+A pair of pickled pigs feet is here.~
+pig~
+food N AO
+48 48 0 0 96
+7 20 24 P
+L
+0
+#7205
+pork chops~
+pork chops~
+A bunch of pork chops are here.~
+unknown~
+food 0 A
+12 12 0 0 24
+5 50 6 P
+L
+0
+#7206
+torch~
+torch~
+A torch is here.~
+unknown~
+light 0 AO
+0 0 24 0 0
+5 50 2 P
+L
+0
+#7207
+ivory swept hilt rapier~
+a ivory swept hilt rapier~
+A ivory swept hilt rapier polished and gleeming is here.~
+steel~
+weapon 0 AN
+sword 4 6 pierce 0
+15 50 4 P
+L
+0
+#7208
+comfortable looking leather chair~
+a comfortable looking leather chair~
+A comfortable looking leather chair sits here.~
+leather~
+furniture 0 0
+0 0 0 0 0
+50 2000 0 P
+L
+0
+#7209
+pit sacrifice~
+a sacrifical pit of Pajumet~
+A sacrifical pit of Pajumet sits here.~
+earth~
+container 0 0
+1000 0 0 2000 0
+0 0 0 P
+L
+0
+#7210
+holy symbol of Pajumet~
+a holy symbol of Pajumet~
+A holy symbol of Pajumet is here.~
+gold~
+jewelry Y AC
+0 0 0 0 0
+60 1 5 P
+L
+0
+F
+A 4 2 0
+#7211
+altar Pajument~
+an altar~
+An altar in the shape of a huge golden coin is here for you to worship Pajument.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#7212
+altar of Pajumet~
+altar of Pajumet~
+An altar of Pajumet made of pure of silver is resting here.~
+silver~
+furniture AGMOY 0
+0 0 0 0 0
+0 10000 0 P
+L
+0
+#7213
+black handled stiletto~
+a black handled stiletto~
+A black handled stiletto is here.~
+steel~
+weapon 0 AN
+dagger 5 5 pierce 0
+20 10 5 P
+L
+0
+#7214
+engraved bracer~
+an engraved bracer~
+An engraved bracer is here.~
+steel~
+armor 0 AM
+2 2 3 0 0
+22 50 5 P
+L
+0
+#7215
+copper earring~
+a golden earring~
+A golden earring is here.~
+copper~
+treasure 0 AZ
+0 0 0 0 0
+20 1 3 P
+L
+0
+F
+A 3 2 0
+#7216
+brass knuckles~
+brass knuckles~
+A set of brass knuckles are here.~
+brass~
+weapon 0 AB
+exotic 5 8 smash 0
+15 10 5 P
+L
+0
+F
+A 18 2 0
+#7217
+seaman's leather vest~
+a seaman's leather vest~
+A seaman's brown leather vest.~
+leather~
+armor 0 AD
+3 0 3 1 0
+30 20 8 P
+L
+0
+F
+A 2 1 0
+#7218
+seaman's cutlass with star sapphire~
+a seaman's cutlass~
+A long and curved seman's cutlass with a star sapphire in the hilt is here.~
+steel~
+weapon 0 AN
+sword 5 8 slash 0
+30 50 9 P
+L
+0
+#7219
+trident~
+trident~
+A trident is here.~
+steel~
+weapon 0 AO
+polearm 4 5 pierce F
+7 100 4 P
+L
+0
+#7220
+peasant girl bonnet~
+a white bonnet~
+A white peasant girls bonnet.~
+cloth~
+clothing 0 AE
+0 0 0 0 0
+5 10 1 P
+L
+0
+F
+A 3 1 0
+#7221
+brown peasant dress~
+a brown peasant dress~
+A brown peasant dress is lying here.~
+cloth~
+clothing 0 AD
+0 0 0 0 0
+5 50 1 P
+L
+0
+#7222
+shrine altar Wyihemi~
+a shrine to Wyihemi~
+A shrine to Wyihemi has been built out of the cobblestones here.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#7223
+fountain of Malag~
+the fountain~
+A fountain of water is here.~
+stone~
+fountain 0 0
+-1 -1 'water' 0 0
+1 10000 0 P
+L
+0
+#7224
+steel great helm~
+a steel great helm~
+A steel great helm is here.~
+steel~
+armor 0 AE
+2 2 2 0 0
+30 400 10 P
+L
+0
+#7225
+steel greaves~
+steel greaves~
+A pair of steel greaves are here.~
+steel~
+armor 0 AF
+2 2 2 0 0
+32 30 9 P
+L
+0
+#7227
+steel vambraces~
+steel vambraces~
+A set of steel vambraces are here.~
+steel~
+armor 0 AI
+3 3 3 0 0
+32 30 10 P
+L
+0
+#7228
+breast plate~
+a steel breast plate~
+A steel breast plate with a lion etched in it is here.~
+steel~
+armor 0 AD
+3 3 3 0 0
+35 300 10 P
+L
+0
+#7229
+golden twohanded sword~
+a golden twohanded sword~
+a short bow~
+gold~
+weapon 0 AN
+sword 5 10 slash F
+50 500 0 P
+L
+0
+#7230
+padded leather vest~
+a padded leather vest~
+A padded leather vest is here.~
+leather~
+armor 0 AD
+2 1 2 0 0
+15 100 3 P
+L
+0
+#7231
+troll slayer dwarven war hammer~
+troll slayer the dwarven war hammer~
+The war hammer Troll Slayer is lying here.~
+mithril~
+weapon 0 AN
+mace 5 10 crush I
+50 100 0 P
+L
+0
+#7232
+long sword~
+long sword~
+A long sword is here.~
+metal~
+weapon 0 AN
+sword 4 6 slice 0
+10 60 2 P
+L
+0
+#7233
+short sword~
+a short sword~
+a short sword~
+metal~
+weapon 0 AN
+sword 4 4 slash 0
+5 30 2 P
+L
+0
+#7235
+oaken staff~
+staff~
+An oaken staff is here.~
+wood~
+weapon 0 AN
+staff 2 4 smash 0
+5 50 1 P
+L
+0
+#7236
+black leather whip~
+black leather whip~
+A black leather whip is coiled here.~
+leather~
+weapon 0 AN
+whip 2 4 bite 0
+6 9 1 P
+L
+0
+#7237
+breast plate~
+a breast plate~
+A polished mithril breast plate is here.~
+mithril~
+armor Y AD
+10 10 10 10 0
+60 500 0 P
+L
+0
+F
+A 23 1 0
+F
+A 21 1 0
+F
+A 24 1 0
+#7238
+toll guard glaive~
+a silver glaive~
+A silver glaive glaive is here.~
+silver~
+weapon G AN
+polearm 5 9 slash F
+45 100 25 P
+L
+0
+#7239
+diamond ring~
+diamond ring~
+A diamond ring~
+diamond~
+jewelry 0 AB
+0 0 0 0 0
+30 1 10 P
+L
+0
+F
+A 14 20 0
+#7240
+exotic silver helm gold etching~
+a silver helm~
+An exotic silver helm with gold leaf etching is here.~
+silver~
+armor 0 AE
+2 2 2 1 0
+35 100 15 P
+L
+0
+#7241
+string of river fish~
+a string of river fish~
+A string of fresh and tasty looking river fish are here.~
+fish~
+food 0 AO
+24 24 0 0 72
+10 30 12 P
+L
+0
+#7242
+shrine Moiwen~
+a shrine~
+A shrine to Moiwen has been erected here by her faithful clerics.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#7243
+altar Imaju~
+an altar~
+A carved adders head altar is here for people to worship at.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#7244
+smoked beef jerky~
+smoked beef jerky~
+A strip of smoked jerky is here.~
+unknown~
+food N AO
+24 12 0 0 48
+5 10 6 P
+L
+0
+#7245
+Balrog's Key~
+room key for Balrog~
+A key to Balrog's bedroom is here.~
+iron~
+key 0 AO
+0 0 0 0 0
+10 1 0 P
+L
+0
+#7246
+shot of whisky~
+a shot of whisky~
+A shot of whisky is here.~
+liquid~
+drink 0 AO
+1 1 'whisky' 0 0
+1 10 2 P
+L
+0
+#7247
+pint of honey colored mead~
+a pint of mead~
+A honey colored pint of mead is here.~
+liquid~
+drink 0 AO
+1 1 'mead' 0 0
+1 10 2 P
+L
+0
+#7248
+shot of rum~
+a shot of rum~
+A shot of rum is here.~
+liquid~
+drink 0 AO
+1 1 'rum' 0 0
+1 10 2 P
+L
+0
+#7249
+pint of red ale~
+a pint of red ale~
+A pint of red ale is here.~
+liquid~
+drink 0 AO
+1 1 'ale' 0 0
+1 10 2 P
+L
+0
+#7250
+bottle of whisky~
+a bottle of whisky~
+A bottle of whisky is here.~
+liquid~
+drink 0 AO
+5 5 'whisky' 0 0
+1 30 8 P
+L
+0
+#7251
+bottle of rum~
+a bottle of dark rum~
+A bottle of dark rum is here.~
+liquid~
+drink 0 AO
+7 7 'rum' 0 0
+1 30 8 P
+L
+0
+#7252
+mahogany desk~
+a mahogany desk~
+A mahogany desk polished to a high gloss is here in the room.~
+wood~
+furniture MY P
+0 0 0 0 0
+0 9000 1 P
+L
+0
+#7253
+black skull rag~
+a black skull rag~
+A black skull rag is here.~
+cloth~
+armor 0 AE
+0 3 0 0 0
+20 1 4 P
+L
+0
+#7254
+walking cane~
+a cane~
+A walking cane is here.~
+wood~
+clothing K ANO
+0 0 0 0 0
+5 50 1 P
+L
+0
+#7255
+awl pike~
+an awl pike~
+An awl pike is here.~
+metal~
+weapon 0 AN
+polearm 5 5 pierce F
+20 100 5 P
+L
+0
+#7256
+chain mail shirt~
+a chain mail shirt~
+A dull chain mail shirt in good condition is here.~
+steel~
+armor 0 AD
+1 1 3 0 0
+25 450 5 P
+L
+0
+#7257
+lamp~
+a lamp that is aglow~
+A very fine gold leaf lamp is here aglow.~
+gold~
+light 0 0
+0 0 999 0 0
+0 200 10 P
+L
+0
+#7258
+blackend short sword~
+a blackend short sword~
+A blackend short sword with fine etching is here.~
+metal~
+weapon 0 AN
+sword 4 6 slash 0
+15 50 4 P
+L
+0
+#7259
+camail ~
+chain mail camail~
+A chain mail camail is here.~
+unknown~
+armor 0 AE
+1 1 1 0 0
+25 300 5 P
+L
+0
+#7260
+altar Sahaeyeh~
+an altar~
+An altar to Sahaeyeh is here for craftsmen to worship.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#7261
+chain mail gauntlets~
+chain mail gauntlets~
+A pair of chain mail gauntlets are here.~
+steel~
+armor 0 AH
+1 1 2 0 0
+20 50 3 P
+L
+0
+#7262
+kriss dagger of death~
+the amber kriss dagger~
+An amber kriss dagger of death is here.~
+amber~
+weapon 0 AN
+dagger 5 10 sting H
+50 20 20 P
+L
+0
+#7263
+double headed battle axe~
+a double headed battle axe~
+A double headed mithral battle axe is here.~
+mithril~
+weapon H AN
+axe 5 9 chop F
+45 300 10 P
+L
+0
+#7264
+golden breast plate~
+a golden breast plate~
+A golden breast plate with a silver griffen etched into it is here.~
+gold~
+armor Y AD
+3 3 3 4 0
+45 500 25 P
+L
+0
+#7265
+golden great helm~
+a golden great helm~
+A golden great helm with silver trim is here.~
+gold~
+armor 0 AE
+2 2 2 3 0
+45 200 20 P
+L
+0
+#7266
+golden girdle~
+a golden girdle~
+A golden girdle with silver trim is here.~
+gold~
+armor 0 AL
+5 2 5 5 0
+45 200 20 P
+L
+0
+#7267
+red cloak~
+a red cloak~
+A flaming red cloak is here.~
+magic~
+clothing Y AC
+0 0 0 0 0
+45 10 10 P
+L
+0
+F
+A 21 2 0
+F
+A 20 2 0
+F
+A 24 2 0
+F
+A 23 2 0
+F
+A 22 2 0
+#7268
+sweet daddy sugar pill~
+the sweet daddy sugar pill~
+A sweet daddy sugar pill of extrodinary powers and awesome abilities is here.~
+pill~
+food 0 AO
+6 6 0 0 60
+10 1 3 P
+L
+0
+#7269
+string of fresh rainbow trout~
+a string of rainbow trout~
+A string of fresh rainbow trout is here.~
+fish~
+food 0 AO
+24 24 0 0 24
+10 50 12 P
+L
+0
+#7270
+bamboo fishing pole~
+a bamboo fishing pole~
+A six foot bamboo fishing pole is here.~
+wood~
+weapon 0 ANO
+whip 5 5 bite 0
+20 30 5 P
+L
+0
+#7271
+wide leather belt~
+a wide leather belt~
+A wide black leather belt with a silver buckle is here.~
+leather~
+clothing 0 AL
+0 0 0 0 0
+20 20 6 P
+L
+0
+F
+A 1 1 0
+#7272
+black soft low-cut shoes~
+a pair of black low-cut shoes~
+A pair of black low-cut fisherman's shoes are here.~
+leather~
+clothing 0 AG
+0 0 0 0 0
+20 50 5 P
+L
+0
+F
+A 14 100 0
+F
+A 26 1 0
+#7275
+burlap sack~
+a burlap sack~
+A large burlap sack is here.~
+cloth~
+container S AO
+100 A 0 50 0
+5 30 1 P
+L
+0
+#7276
+bullseye lantern~
+a bullseye lantern~
+A bullseye lantern is here.~
+metal~
+light Y AO
+0 0 60 0 0
+5 50 2 P
+L
+0
+#7277
+traveling backpack~
+a leather backpack~
+A leather traveling backpack is here.~
+leather~
+container 0 AO
+50 A 0 15 0
+5 20 1 P
+L
+0
+#7278
+water jug~
+a water jug~
+A glass water jug is here.~
+glass~
+drink 0 AO
+5 5 'water' 0 0
+5 20 1 P
+L
+0
+#7279
+wine skin~
+a leather wine skin~
+A leather wine skin is here~
+leather~
+drink 0 AO
+3 3 'red wine' 0 0
+5 10 2 P
+L
+0
+#7280
+leather tunic~
+leather tunic~
+A leather tunic is here.~
+leather~
+armor 0 AD
+1 1 1 0 0
+10 200 2 P
+L
+0
+#7281
+leather leggins~
+leather leggins~
+A pair of leather leggins are here.~
+leather~
+armor 0 AF
+1 1 1 0 0
+10 20 2 P
+L
+0
+#7282
+rusty chain mail shirt~
+chain mail shirt~
+A rusty chain mail shirt is here.  ~
+metal~
+armor 0 AD
+1 1 1 1 0
+10 300 2 P
+L
+0
+#7283
+hide shield~
+hide shield~
+A taught hide shield is here.  ~
+hide~
+armor 0 AJ
+1 1 1 1 0
+5 30 1 P
+L
+0
+#7284
+wooden iron banded shield~
+wooden and iron banded shield~
+A wooden and iron banded shield is here.  ~
+wood~
+armor 0 AJ
+1 1 1 1 0
+10 35 2 P
+L
+0
+#7288
+shrine hoiwinas altar~
+a shrine~
+An honorary shrine to his holiness Hoiwinas is here.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#7293
+signet ring of J'hall~
+signet ring~
+A signet ring of J'hall is here.~
+gold~
+jewelry 0 AB
+0 0 0 0 0
+50 1 20 P
+L
+0
+F
+A 12 100 0
+#7295
+rod of Pajumet~
+a polished rod~
+A highly polished rod with runes etched into it is lying here.~
+ruby~
+weapon Y AN
+staff 8 10 smash A
+50 10 20 P
+L
+0
+#7296
+High Priest of Pajumet's Robe of office~
+red silken robe~
+A red silken robe with silver trim is here.~
+silk~
+clothing 0 AD
+0 0 0 0 0
+50 10 100 P
+L
+0
+#7297
+oil lamp~
+an oil lamp~
+An oil lamp sits here.~
+glass~
+light 0 0
+0 0 999 0 0
+0 10 5 P
+L
+0
+#7298
+night stand~
+a night stand~
+A night stand sits here.~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+L
+0
+#7299
+fine rug~
+a fine red rug~
+A fine silken red rug is lying here.~
+silk~
+furniture 0 A
+0 0 0 0 0
+10 2000 10 P
+L
+0
+E
+design~
+This fine looking red rug is trimmed with silver and has a silver threaded
+dice and dice cup embroidered into its center.  The edges of the rug are a 
+knotted and frayed design with silver tassels.  The rug is about 10' x 15'.
+~
+#0
+
+
+
+#ROOMS
+#7200
+`3The road to Malag's Crossing ``~
+You are on the road to Malag's crossing.  To the south you can see
+off in the distance the Luvan forest.  To the north the road is long
+and cuts through many fields.
+~
+~
+0 4 32768 2
+D0
+~
+~
+0 0 7201
+D2
+~
+~
+0 0 5926
+S
+#7201
+`3a long road ``~
+You are on a long road with deep cuts in it from wagon travel.
+High grasses and open fields as far as the eye can see.  Open
+sky and fresh air are in abundance here.
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 7203
+D2
+~
+~
+0 0 7200
+S
+#7202
+`8Malag's Sepulchre ``~
+The smell of rotting flesh permeates the air about.  The
+staleness hangs heavily and feels like it sticks to your skin here.
+~
+~
+0 8 0 0
+D5
+~
+~
+A 0 7257
+M 100 H 50
+S
+#7203
+`3a long road ``~
+The long road between Malag's Crossing and the Luvan forest
+continues  Vast open spaces and fields of high growing grass
+are all  around.  Vast open spaces and expansive tall grass
+fields are what comprise most of the area.
+~
+~
+0 0 8192 2
+D2
+~
+~
+0 0 7201
+D3
+~
+~
+0 0 7204
+S
+#7204
+`3a sign in the road ``~
+There is a small house here.  The sign says Balrog's Trading Post.
+The road continues on towards Malag's Crossing and to the Luvan wood.
+There is a small hitching post outside the trading post.
+~
+~
+0 0 16384 2
+D1
+~
+~
+0 0 7203
+D2
+~
+~
+A 0 7244
+D3
+~
+~
+0 0 7205
+S
+#7205
+`8entering Malag's Crossing ``~
+You see a sign.  You are on a path and up ahead you can see homes, shops
+and people all about.  The path starts to widen out to about the width of two
+carriages.  The ground is hard packed with the years of travelers making their
+way along the road.
+~
+~
+0 0 0 1
+E
+sign~
+Now entering Malag's Crossing.
+~
+D1
+~
+~
+0 0 7204
+D3
+~
+~
+0 0 7206
+S
+#7206
+`8a cobbled stone road ``~
+You are traversing a cobbled stone road down the streets of
+Malag's Crossing.  Not a very large place but sounds of commerce
+are all around.  The road seems generally busy for such a small place.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7205
+D3
+~
+~
+0 0 7207
+S
+#7207
+`8a cobbled road ``~
+You are on a road inside the villa of Malag's Crossing.
+It is cobbled and makes for easy travel. The streets look
+dirty and trash accumulates on the sides of the road from
+careless citizens and visitors.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7206
+D3
+~
+~
+0 0 7208
+S
+#7208
+`8temple crossing ``~
+The road you are upon is cobbled with grayish stone that looks
+well set and traveled. To the south you can see a temple that looks
+very much used and supported,  to the west the inner villa and to
+the east the Luvan wood.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7207
+D2
+~
+~
+A 0 7209
+D3
+~
+~
+0 0 7213
+S
+#7209
+`8Great Hall of Pajumet ``~
+You have entered a the great hall in the temple of Pajument.
+The walls are made of rose red marble with streaks of silver.
+There are murals of people from all races in various forms of
+gambling and games of chance.  Above the entrance there is a
+large carved plaque of silver of a set of dice and dice cup with
+the inscription "Fortune smiles upon the brave."
+ 
+On the east wall there are a list of parables in honor of Pajument.
+They are listed from one to ten.  To read them type "look parable1" 
+"look parable2" et cetera.
+~
+~
+0 8 0 0
+E
+parable1~
+He is richest who is content with the least, for content is the 
+   wealth of nature.
+~
+E
+parable2~
+Wealth consists not in having great possessions, but in having 
+   few wants.
+~
+E
+parable3~
+If you do not desire much, little will seem much to you, for 
+   small wants give poverty the power of wealth.
+~
+E
+parable4~
+Money may buy a fine dog but only kindness will make him wag 
+   his tail. 
+~
+E
+parable5~
+Folks with good habits also seem to have most of the good luck.
+~
+E
+parable9~
+Depend on the rabbit's foot if you will, 
+but remember it didn't work for the rabbit.
+~
+E
+parable10~
+The only sure thing about luck is that it will change.
+~
+E
+parable8~
+When Pajumet throws the dice, they are loaded.
+~
+E
+parable7~
+Luck never gives, it only lends.
+~
+E
+parable6~
+Better an ounce of luck than a pound of gold.
+~
+D0
+~
+~
+A 0 7208
+D2
+~
+~
+0 0 7210
+S
+#7210
+`8Pajumet's sacrifical altar ``~
+You are in the sacrificial altar room of Pajumet within
+the temple walls.  To the north the great hall and out
+into the streets.  To the west and east deeper into the temple.
+The walls are a beautiful rose marble with murals covering most
+of the surface of them.
+~
+~
+0 8 0 0
+E
+murals~
+The murals depict many forms of gambling and games of chance.
+~
+D0
+~
+~
+0 0 7209
+D1
+~
+~
+A 0 7212
+D3
+~
+~
+A 0 7211
+P SPEECH 7210 worship~
+P GRALL 7211 100~
+S
+#7211
+`8Hall of Honor ``~
+You have entered the east wing of the temple of Pajumet.
+This is a hall dedicate to the great warriors and priests
+of Pajumet.  Their effigies have been carved into the walls in
+splendid grandeur of reverence depicting their great deeds in
+the name of Pajumet.
+~
+~
+0 8 0 0
+D1
+~
+~
+A 0 7210
+D3
+~
+~
+A 0 7296
+S
+#7212
+`8prayer room ``~
+You have entered the holy prayer room of the temple of Pajumet.
+The walls are a beautiful mix of rose marble and rose quartz with
+silver trim.  In the center of the room is an altar made of silver with
+a dice cup and dice etched into it and painted red.  The walls have
+columns every ten feet that spiral upward to the arched ceiling.
+There are torch holders made of silver that resemble a hand turned
+upward gripping a soft glowing ball of light that falls gently onto the
+room giving it a peaceful and serene feel.
+~
+~
+0 1000349704 0 0
+D3
+~
+~
+A 0 7210
+S
+#7213
+`8a cobbled road ``~
+The cobbled road you are on is a bit broken up here as
+it turns to the north and east.  Large amounts of trash have
+been swept into the corner of the road.  Mangy cats and dogs
+huddle in the area looking for scrapes of food.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7214
+D1
+~
+~
+0 0 7208
+S
+#7214
+`8a cobbled road ``~
+You are at a curve in the cobbled road.  Repairs to the road are
+long since overdue and there are pits and potholes all along this
+section of road.  There is trash and junk piled near knee deep along
+the edges of buildings here.  Rats and all kinds of vermin scatter about
+here and there.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 7213
+D3
+~
+~
+0 0 7215
+S
+#7215
+`8alley way ``~
+You are in an alley way just off of the main street.  Loads of trash
+and other garbage seems to fill the alley.  The smell of bums and
+dead animals as well as spilled stagnant ale wafts through this place.
+Its potent aroma is near gut wrenching for all but the staunchest stomachs.
+ 
+There is a sign hanging over the door of the building to the north of you.
+~
+~
+0 0 0 1
+E
+door~
+Above the door is a sign that reads in trade common "The Lusty Lady Tavern."
+~
+E
+sign~
+The sign reads in trade common "The Lusty Lady Tavern."
+~
+E
+trash~
+Most of the trash you see is broken mugs, fecal waste
+and nasty useless clothing.
+~
+E
+clothing~
+The clothing is not much better than bits and pieces of waste cloth.
+Not suitable for anything, not even wiping ones bum.
+However just below a bit of clothing something sparkled for a split second.
+~
+E
+sparkle~
+The sparkle appears to be a small shard of glass that caught the
+light just right as you glanced over for a closer inspection.
+~
+E
+sparkled~
+The sparkle appears to be a small shard of glass that caught the
+light just right as you glanced over for a closer inspection.
+~
+E
+glass~
+The sparkle appears to be a small shard of glass that caught the
+light just right as you glanced over for a closer inspection.
+~
+D0
+~
+~
+A 0 7246
+D1
+~
+~
+0 0 7214
+D3
+~
+~
+0 0 7216
+S
+#7216
+`8south end of Malag street ``~
+You are just off the main street that heads north through
+Malag's Crossing. The streets are pretty well kept here, but
+to the east you can see that they are not as well kept up with.
+To the north you can see the street runs pretty much straight
+through the villa.  There are various shops and things to peruse
+the interest of people passing through this seedy little villa.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7217
+D1
+~
+~
+0 0 7215
+S
+#7217
+`8Malag's street ``~
+You are standing at an interesection.  To the west the docks.
+To the north, shops and into the heart of the villa.  To the south
+a bend in the road.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7219
+D2
+~
+~
+0 0 7216
+D3
+~
+~
+0 0 7218
+S
+#7218
+`8pathway to the wharf ``~
+You are standing on the pathway that leads to the docks.  You can see
+in front of you the docks and a few small fishing boats.  There are a fair
+amount of people coming and leaving this area going about their business
+loading and unloading boats with fish, trade and other objects of interest
+to the community.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7217
+D2
+~
+~
+0 0 7251
+D3
+~
+~
+0 0 7253
+S
+#7219
+`8a cobbled road ``~
+You are on a cobbled street that runs through the middle of the villa
+of Malag's Crossing.  To the west there is an entrance way that has a sign
+above it with a painted picture.  To the north and south the street continues
+on.  The street is in excellent condition here.  Well set gray stones make up
+the bulk of the street with the odd here and there newer stone that can be seen
+as a patchwork of where the street at one time may have been repaired.
+To the east you see a plaque plastered into the wall by the door.
+~
+~
+0 0 0 1
+E
+plaque~
+In trade common the plaque reads "The Lusty Lady Tavern."
+~
+E
+sign~
+Bank of Malag's Crossing
+~
+D0
+~
+~
+0 0 7220
+D1
+~
+~
+A 0 7247
+D2
+~
+~
+0 0 7217
+D3
+~
+~
+A 0 7256
+S
+#7220
+`8a cobbled road ``~
+You are walking along a cobbled road.  To the north it continues on
+down through the main street of Malag's Crossing.  To the east there is
+an entrance way with a sign overhead.  The sign has a painting of a pair
+of crossed swords.  The sign is weathered and worn with faded paint
+chipping off at the edges.  To the west the side of a building.  To the
+south the cobbled road continues.
+~
+~
+0 0 0 1
+E
+building~
+You can see the side of a wooded plank building.
+~
+E
+sign~
+Below the painted buxom lady are the words in trade common.
+ 
+"The Beaver Tail Tavern"
+~
+D0
+~
+~
+0 0 7221
+D1
+~
+~
+A 0 7258
+D2
+~
+~
+0 0 7219
+S
+#7221
+`8along the cobbled way ``~
+To the east a sign over the doorway of this little
+shop.  To the south the main street and to the north
+the main street in Malag's Crossing.
+~
+~
+0 0 0 1
+E
+sign~
+In trade common the sign reads "Mandrakes Potions"
+~
+D0
+~
+~
+0 0 7222
+D1
+~
+~
+A 0 7260
+D2
+~
+~
+0 0 7220
+S
+#7222
+`8along the cobbled streets ``~
+You are near the north end of Malag's Crossing.  To the east
+there is a shop with a sign on the wall just outside the door.
+To the north the cobbled way continues and to the south the same.
+~
+~
+0 0 0 1
+E
+sign~
+In trade common the sign reads "Misty's General"
+~
+E
+sign~
+You are looking at a picture with a rope, water jug and backpack.
+Under the picture you can see the words in trade common "General Store."
+~
+D0
+~
+~
+0 0 7223
+D1
+~
+~
+A 0 7262
+D2
+~
+~
+0 0 7221
+S
+#7223
+`8north end of cobbled road ``~
+You are at the north end of Malag's Crossing's cobbled
+road.  To the south is the main thoroughfare and to the north
+the road leads to the road that will take you over the stone
+bridge.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7224
+D2
+~
+~
+0 0 7222
+D3
+~
+~
+0 0 7227
+P SPEECH 7223 worship~
+P GRALL 7222 100~
+S
+#7224
+`8corner ``~
+You are at the north end of the cobbled road that runs through
+Malag's Crossing.  The cobbled road seems to taper off here to
+the east and run up to an old building.  To the west the road melds
+into a solid piece of stone work that is part of the immense bridge
+work that crosses the Luva river.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7225
+D2
+~
+~
+0 0 7223
+D3
+~
+~
+0 0 7226
+S
+#7225
+`8a dirt pathway ``~
+You are at a dirt pathway just off of the main cobbled road.
+To the west you can see the Malag's crossing bridge rise up
+over the west Luva river from its banks.  To the south, the villa
+of Malag's Crossing.  To the east you can see fields and a small
+wooden fence that surrounds them.
+~
+~
+0 0 0 1
+D0
+~
+~
+A 0 7266
+D3
+~
+~
+0 0 7224
+S
+#7226
+`8on the road over the west Luva Bridge ``~
+You are at the path way that leads to the bridge over the west
+Luva river.  Here it can be seen to raise up at an arc as it spans the
+river.  To the south of you there is a shop and just around the corner
+to the south is the central Malag's Crossing road.  To the east the
+cobbled road turns into more of a dirt pathway that leads to an old
+building.  To the north a short dirt path that leads to the river banks
+where many fishers cast their lines.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7228
+D1
+~
+~
+0 0 7224
+D2
+~
+~
+0 0 7227
+D3
+~
+~
+0 0 7229
+S
+#7227
+`8edge of river ``~
+To the west you can see the Luva river and to the north west
+the massive and ancient stone bridge that spans that river.
+To the south, there is an entry way with a sign over the door.
+~
+~
+0 0 0 1
+E
+sign~
+The sign in trade common reads "Hanwi's House of Ill repute."
+~
+D0
+~
+~
+0 0 7226
+D1
+~
+~
+0 0 7223
+D2
+~
+~
+A 0 7264
+D3
+~
+~
+0 0 7278
+S
+#7228
+`3dirt pathway ``~
+You are on a dirt path that runs to the banks of the Luva
+river.  There is an opening just to the west where it has been
+cleared away from the banks where locals go to swim, fish and draw
+free water.
+~
+~
+0 0 32768 2
+D2
+~
+~
+0 0 7226
+D3
+~
+~
+0 0 7277
+S
+#7229
+`7A Bridge over the Luva River``~
+You are at the base of the bridge.  To the north and south
+an easy fall into the river as the bridge does not have sides.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7277
+D1
+~
+~
+0 0 7226
+D2
+~
+~
+0 0 7278
+D3
+~
+~
+0 0 7230
+S
+#7230
+`7A Bridge over the Luva River``~
+You are standing on an ancient stone bridge that has spanned the
+River Luva for centuries. It arcs over the wide span of the dark
+water, creating a passage from Malag's Crossing into the various
+lands nearby. The stone is aged and cracked, but still appears
+very strong, as if built by dwarven stonesmiths. It's well wide
+enough to pass a horsecart, and looks to be the entry point for
+all trade coming in and out of Malag's Crossing.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7280
+D1
+~
+~
+0 0 7229
+D2
+~
+~
+0 0 7279
+D3
+~
+~
+0 0 7231
+S
+#7231
+`7A Bridge over the Luva River``~
+You are standing on an ancient stone bridge that has spanned the
+River Luva for centuries. It arcs over the wide span of the dark
+water, creating a passage from Malag's Crossing into the various
+lands nearby. The stone is aged and cracked, but still appears
+very strong, as if built by dwarven stonesmiths. It's well wide
+enough to pass a horsecart, and looks to be the entry point for
+all trade coming in and out of Malag's Crossing.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7281
+D1
+~
+~
+0 0 7230
+D2
+~
+~
+0 0 7282
+D3
+~
+~
+0 0 7232
+S
+#7232
+`7A Bridge over the Luva River``~
+You are standing on an ancient stone bridge that has spanned the
+River Luva for centuries. It arcs over the wide span of the dark
+water, creating a passage from Malag's Crossing into the various
+lands nearby. The stone is aged and cracked, but still appears
+very strong, as if built by dwarven stonesmiths. It's well wide
+enough to pass a horsecart, and looks to be the entry point for
+all trade coming in and out of Malag's Crossing.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7284
+D1
+~
+~
+0 0 7231
+D2
+~
+~
+0 0 7283
+D3
+~
+~
+0 0 7233
+S
+#7233
+`7The Center of the Bridge``~
+You are standing on an ancient stone bridge that has spanned the
+River Luva for centuries. It arcs over the wide span of the dark
+water, creating a passage from Malag's Crossing into the various
+lands nearby. The stone is aged and cracked, but still appears
+very strong, as if built by dwarven stonesmiths. It's well wide
+enough to pass a horsecart, and looks to be the entry point for
+all trade coming in and out of Malag's Crossing.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7286
+D1
+~
+~
+0 0 7232
+D2
+~
+~
+0 0 7285
+D3
+~
+~
+0 0 7234
+S
+#7234
+`7A Bridge over the Luva River``~
+You are standing on an ancient stone bridge that has spanned the
+River Luva for centuries. It arcs over the wide span of the dark
+water, creating a passage from Malag's Crossing into the various
+lands nearby. The stone is aged and cracked, but still appears
+very strong, as if built by dwarven stonesmiths. It's well wide
+enough to pass a horsecart, and looks to be the entry point for
+all trade coming in and out of Malag's Crossing.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7288
+D1
+~
+~
+0 0 7233
+D2
+~
+~
+0 0 7287
+D3
+~
+~
+0 0 7235
+S
+#7235
+`7A Bridge over the Luva River``~
+You are standing on an ancient stone bridge that has spanned the
+River Luva for centuries. It arcs over the wide span of the dark
+water, creating a passage from Malag's Crossing into the various
+lands nearby. The stone is aged and cracked, but still appears
+very strong, as if built by dwarven stonesmiths. It's well wide
+enough to pass a horsecart, and looks to be the entry point for
+all trade coming in and out of Malag's Crossing.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7290
+D1
+~
+~
+0 0 7234
+D2
+~
+~
+0 0 7289
+D3
+~
+~
+0 0 7236
+S
+#7236
+`7A Bridge over the Luva River``~
+You are standing on an ancient stone bridge that has spanned the
+River Luva for centuries. It arcs over the wide span of the dark
+water, creating a passage from Malag's Crossing into the various
+lands nearby. The stone is aged and cracked, but still appears
+very strong, as if built by dwarven stonesmiths. It's well wide
+enough to pass a horsecart, and looks to be the entry point for
+all trade coming in and out of Malag's Crossing.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7292
+D1
+~
+~
+0 0 7235
+D2
+~
+~
+0 0 7291
+D3
+~
+~
+0 0 7237
+S
+#7237
+`7A Bridge over the Luva River``~
+You are standing on an ancient stone bridge that has spanned the
+River Luva for centuries. It arcs over the wide span of the dark
+water, creating a passage from Malag's Crossing into the various
+lands nearby. The stone is aged and cracked, but still appears
+very strong, as if built by dwarven stonesmiths. It's well wide
+enough to pass a horsecart, and looks to be the entry point for
+all trade coming in and out of Malag's Crossing.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7294
+D1
+~
+~
+0 0 7236
+D2
+~
+~
+0 0 7293
+D3
+~
+~
+0 0 7238
+S
+#7238
+`3west side of the Luva river ``~
+You are on the west side of the Luva river from Malag's Crossing.
+Across the bridge you can see a small community that has grown up
+around the bridge.  The bridge looks like it is made out of a single
+piece of stone that spans the river.  
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 7239
+D1
+~
+~
+0 0 7237
+D2
+~
+~
+0 0 7240
+D3
+~
+~
+0 0 7242
+S
+#7239
+`3edge of the west bank of the Luva river ``~
+You are on the banks of the west Luva river on its western most side.
+There is a road to the south of you and the river to the east of you.
+The small path you are on is muddy and smells of decayed fish.
+~
+~
+0 0 32768 2
+D1
+~
+~
+0 0 7294
+D2
+~
+~
+0 0 7238
+S
+#7240
+`3west bank of the Luva river ``~
+You are on the western side of the Luva river.  To the east across
+the river you can see the community of Malag's Crossing.  There is
+a large stone bridge that reaches across the two banks.  To the west
+there appears to be a road.
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 7238
+D1
+~
+~
+0 0 7293
+D2
+~
+~
+0 0 7241
+S
+#7241
+`3along the Luva river ``~
+You find yourself along the banks of the Luva river.  The mud
+and sludge from the river is build up here.  There is a small
+path that winds through the reeds along the bank to a road to
+the north.  You can see across the river to the east where the
+small community of Malag's Crossing is.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 7240
+D1
+~
+~
+0 0 7295
+P SPEECH 7241 worship~
+P GRALL 7239 100~
+S
+#7242
+`3before the bridge ``~
+You are at the base of a cobbled road that runs to the east.
+It heads off in the direction of that large bridge you see to
+the east.  To the west it looks like farming communities.
+~
+~
+0 0 8192 2
+D1
+~
+~
+0 0 7238
+D2
+~
+~
+0 0 7269
+D3
+~
+~
+0 0 7243
+S
+#7243
+`3well traveled road ``~
+You are on a road that runs through a farming community.  The road runs
+east to west.  There is a sign up ahead.  The road is firm and hard packed
+with the occasional deep rut that still holds a bit of water that has turned
+into a muddy substance.  
+~
+~
+0 0 16384 2
+E
+sign~
+The sign has painted on it "Malag's Crossing" east.
+Eyrthane Forest West (Danger)
+~
+D1
+~
+~
+0 0 7242
+D3
+~
+~
+0 0 6703
+S
+#7244
+`8Balrog's Trading Post and General Store. `` ``~
+You have entered a house that has been converted into a store.  All
+around you can see many different pelts, furs, and items for sale.  
+Most of the items for sale appear to be food stuff.  The place
+smells dingy, old and musty.
+~
+~
+0 0 0 0
+D0
+~
+~
+A 0 7204
+D4
+~
+~
+0 0 7245
+S
+#7245
+`8Balrog's back room ``~
+You have entered the back room of Balrog's place.  All around are
+cloths on the floor, unmade bed, cracked table and chairs and a water
+pitcher that looks full of some liquid that may or may not be water. There
+are cobwebs and roaches all over the place.  A very dismal looking place
+to say the least.
+~
+~
+0 0 0 0
+D5
+~
+~
+0 0 7244
+M 200 H 200
+S
+#7246
+`8Lusty Lady Tavern `` ``~
+You are in the south west corner of the Lusty Lady Tavern. Worn,
+carved in tables and chairs.  A few benches along the walls note
+that this place is set up for maximum patronage.  A single server
+walks the place.  This place is usually crowed with the local farmers.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7247
+D1
+~
+~
+0 0 7249
+D2
+~
+~
+A 0 7215
+S
+#7247
+`8Lusty Lady Tavern `` ``~
+You are in the north west corner of the Lusty Lady Tavern.
+This is a semi-private area of the tavern.  A single table with
+only two chairs.  The table is near the exit and a window.  The
+table has some words etched in it.
+~
+~
+0 8 0 0
+E
+words~
+The words read in trade common "Kilroy was here."
+~
+D1
+~
+~
+0 0 7248
+D2
+~
+~
+0 0 7246
+D3
+~
+~
+A 0 7219
+S
+#7248
+`8Lusty Lady Tavern `` ``~
+You are in the north east corner of the Lusty Lady Tavern.
+This area of the tavern looks to be where empty barrels of
+wine and spirits are kept.  Along with cleaning supplies kept
+at the ready.  There is a rack which holds most of the clean
+mugs and a wooden crate that looks to hold the dirtied ones.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 7249
+D3
+~
+~
+0 0 7247
+D4
+~
+~
+0 0 7250
+S
+#7249
+`8Lusty Lady Tavern `` ``~
+You are in the south east corner of the Lusty Lady Tavern.
+Plenty of tables and chairs to go around here.  The place gets a
+lot of business and the floors tend to show it.  Lots of waste product
+left uncleaned and chairs and tables that have signs of extreme wear
+from over use and abuse.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7248
+D3
+~
+~
+0 0 7246
+P GRALL 7248 100~
+P SPEECH 7249 worship~
+S
+#7250
+`8Lusty Lady Tavern `` ``~
+You are in the upstairs room of the Lusty Lady Tavern.  It is a sparse
+room with nothing much more than a bed and a armoire.  There is a shag
+type blue rug before the bed and a blue comforter on the bed itself. The
+armoire and the bed look in sore need of repair.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 7248
+S
+#7251
+`8Malag's Crossing guard shack ``~
+You have entered a small building that appears to be some
+sort of guard house.  There are people milling about doing
+their business as it pertains to them.  The building is fairly
+spartan in furnishings and the most notable thing is the desk in
+which a guard sits behind.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 7218
+D2
+~
+~
+0 0 7252
+S
+#7252
+`8Capt. of the Guard's office ``~
+You are in the office of the Capt. of the Guard for
+Malag's Crossing.  This room is very utilitarian.  A few
+chairs and a table are all that is in here.  A small window
+with a view of the docks can also be noted.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7251
+S
+#7253
+`8the docks ``~
+You have stepped onto the docks.  To the west is the Luva
+river.  To the east back to the villa streets.  To the north
+and south you have more dock area.  There are a few boats and such
+here for hire as well as a few fishing boats that appear to be owned
+by the local fishing guild.  There is a sign just up a head.
+~
+~
+0 0 0 1
+E
+sign~
+All boats docking are subject to search by the High Counsel of
+Malag's Crossing.  Dock fees are 1 gold per week.  Unsecured
+untethered dingy's will be confiscated and sold or taxed.  Use of
+the dock for fishing costs 1 gp per week.
+ 
+and "NO SWIMMING OFF OF THE DOCKS!"
+~
+D0
+~
+~
+0 0 7255
+D1
+~
+~
+0 0 7218
+D2
+~
+~
+0 0 7254
+S
+#7254
+`8south side of the docks ``~
+You are on the south side of the docks.  
+To the south Luvan river.
+To the west, the Luvan river.  
+To the north, docks.
+ 
+The water looks cold and uninviting.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7253
+D2
+~
+~
+0 0 7276
+D3
+~
+~
+0 0 7274
+S
+#7255
+`8north end of the docks ``~
+You are at the north end of the docks.
+To the north the Luva river.
+To the south the docks.
+To the west the Luva river.
+To the east a building wall.
+The water looks very uninviting over the edge of the docks.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7270
+D2
+~
+~
+0 0 7253
+D3
+~
+~
+0 0 7272
+S
+#7256
+`8House of Lord Malag ``~
+You are in the front room of Lord Malag's home.
+~
+~
+0 8 0 0
+D1
+~
+~
+A 0 7219
+D4
+~
+~
+A 0 7257
+S
+#7257
+`8Lord Malag's room ``~
+You have come upstairs into a very nicely furnished room.  Outside
+the window is a view of the Luva river and beyond.  The drapes are
+heavy velvet, the bed is oak with oak leaf trim.  There is finery and
+extravagance all over the room.  Most definitely a person of means
+lives here.
+~
+~
+0 8192 0 0
+D4
+~
+~
+A 0 7202
+D5
+~
+~
+A 0 7256
+S
+#7258
+`8Sword and Scabbard ``~
+You have entered the Sword and Scabbard.  A weapons dealers shop.
+Some items hang on the side walls but most are kept behind the counter
+up against the wall.  The place is a bit dusty from the many travelers
+that frequent this place.
+~
+~
+0 8 0 0
+D3
+~
+~
+A 0 7220
+D4
+~
+~
+0 0 7259
+S
+#7259
+`8Sword and Scabbard utility room ``~
+You are in the Sword and Scabbards back room.  There are brooms
+mop and mop bucket as well as other cleaning supplies laying about.
+Most look old and mostly unusable.  The walls have plenty of hooks to
+hang things from and there appears to be a rat skeleton in the corner
+collecting cobwebs.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 7258
+S
+#7260
+`8Sven's Armor ``~
+You have entered an armory.  The smell of oil and leather
+permeate the air.  A small counter runs midway through the room.  
+Behind it on its back wall the inventory of Sven the Armorer.
+~
+~
+0 8 0 0
+D3
+~
+~
+A 0 7221
+D4
+~
+~
+0 0 7261
+S
+#7261
+`8Back room of Sven's Armory ``~
+You are in the back room of Sven's Armory.  Bits and pieces
+of collected broken armor lay about.  Collectibles to Sven it
+it would appear.  There is a straw matted bed with a wool blanket.
+Feather pillow and a small chest of drawers.  Not much in the way
+of personal effects.  There is a ceramic water jug and pewter mug
+on the chest of drawers.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 7260
+S
+#7262
+`8Malag's Crossing General Store ``~
+You have come into a wood plank building with what looks like
+a bunch of second hand items for sale.  Nothing much looks new
+in here.  There are a few items hanging on the back wall that do
+not look like they are for the local farmers.  Perhaps, adventuring
+tools and things.  There is a counter with bits and pieces of the
+shop owners latest and greatest acquisitions.
+~
+~
+0 8 0 0
+D3
+~
+~
+A 0 7222
+D4
+~
+~
+0 0 7263
+S
+#7263
+`8Taryn's bedroom ``~
+On the floor there is a straw mat.  The room is otherwise bare
+and void of any objects, comforts, or items of interest except perhaps
+if you have a fancy for dust bunnies and cobwebs. There is a wool,
+moth-eaten blanket on the straw mat to use as a cover.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 7262
+M 10 H 10
+T 90
+S
+#7264
+`8farm house ``~
+You are in a tattered and broken down farm house.  This is no ordinary
+farm house though.  There are signs of dried blood and gore all over the
+place.  Dead and dried snake skins have been left to rot and are strewn all
+over the floor.  It is reminiscent of a dark and evil ritual that recently
+took place here behind the walls of this out of the way shack.  
+~
+~
+0 8 0 0
+E
+adders~
+All about the floor are the carcases of dead snakes.
+~
+E
+blood ~
+The blood looks to be in the shape of a little human.  Bits of bone fragments mix with the muck.
+~
+D0
+~
+~
+A 0 7227
+D4
+~
+~
+0 0 7265
+P SPEECH 7264 worship~
+P GRALL 7263 100~
+S
+#7265
+`8upstairs of a farm house ``~
+You are in the upstairs room of a farm house.  There are body parts
+rotting here.  The stench is near unbearable.  Magots swim in and out of the
+parts as flies buzz happily at their great feast.  
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 7264
+S
+#7266
+`8The Forge``~
+You have entered a forging room.  There is a huge iron anvil
+centered in the room here.  There is a bellows and coal box here
+as well.  There is a metal piping that runs to the window from the
+bellows for smoke venting.  There are forging tools hanging from
+the walls for the smithies to work their trade.
+~
+~
+0 8 0 0
+D0
+~
+~
+A 0 7267
+D2
+~
+~
+A 0 7225
+P SPEECH 7266 worship~
+P GRALL 7265 100~
+S
+#7267
+`8forge back room ``~
+This is the back room of the forge of Malag's Crossing.
+Some bits and pieces of over worked metal and some pig iron
+lay about here.  The coal dust is heavy on the floor making
+the room appear very dirty.
+~
+~
+0 8 0 0
+D2
+~
+~
+A 0 7266
+D5
+~
+~
+A 0 7268
+S
+#7268
+`8coal storage room ``~
+There is a pile of coal here with a shovel sticking out of it.
+~
+~
+0 8 0 0
+D4
+~
+~
+A 0 7267
+S
+#7269
+`3before the bridge ``~
+You are on a pathway just south of the road that leads across the
+Luva river.  This place looks like many have camped here before.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 7242
+S
+#7270
+`6Luva river ``~
+You stand in the midsts of the River Luva. Canals, streams, and
+all sorts of veins of water snake and zigzag throughout what looks
+like a primordial forest here. You are within a sort of forest-
+swamp, where trees rise up from out of the brackish water, and
+every path seems to lead you to nowhere.
+~
+~
+0 0 0 6
+D2
+~
+~
+0 0 7255
+D3
+~
+~
+0 0 7271
+S
+#7271
+`6Luva river ``~
+You stand in the midsts of the River Luva. Canals, streams, and
+all sorts of veins of water snake and zigzag throughout what looks
+like a primordial forest here. You are within a sort of forest-
+swamp, where trees rise up from out of the brackish water, and
+every path seems to lead you to nowhere.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 7279
+D1
+~
+~
+0 0 7270
+D2
+~
+~
+0 0 7272
+S
+#7272
+`6Luva river ``~
+You can see signs of civilization surrounding you here. Several small
+huts are on the banks nearby, and quite a few old docks span out into
+the River Luva, with small fishing dinghys attached to them. Fish are
+prevalent here, jumping with vigor, and the nearby ospreys have most
+definitely taken notice.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 7271
+D1
+~
+~
+0 0 7255
+D2
+~
+~
+0 0 7273
+S
+#7273
+`6Luva river ``~
+The River Luva is a tangle of trees and waterways here, which run
+off in hundreds of different directions. It is cool, and calm here
+and the river snakes lazily southward, slowly drawing you away from
+Malag's Crossing. Several fishing boats can be see in the area,
+pulling fish from the waters for the people of Malag's Crossing.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 7272
+D2
+~
+~
+0 0 7274
+S
+#7274
+`6Luva river ``~
+You can see signs of civilization surrounding you here. Several small
+huts are on the banks nearby, and quite a few old docks span out into
+the River Luva, with small fishing dinghys attached to them. Fish are
+prevalent here, jumping with vigor, and the nearby ospreys have most
+definitely taken notice.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 7273
+D1
+~
+~
+0 0 7254
+D2
+~
+~
+0 0 7275
+S
+#7275
+`6Luvan river ``~
+Low lying fog banks and haze over the water seems to obscure your
+views. Not that it would help, any, considering the vast number of
+passages leading off in every direction in this forest-come-swamp
+which is the River Luva.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 7274
+D1
+~
+~
+0 0 7276
+S
+#7276
+`6Luvan river ``~
+Low lying fog banks and haze over the water seems to obscure your
+views. Not that it would help, any, considering the vast number of
+passages leading off in every direction in this forest-come-swamp
+which is the River Luva.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 7254
+D3
+~
+~
+0 0 7275
+S
+#7277
+`$Luva river ``~
+You stand in the midsts of the River Luva. Canals, streams, and
+all sorts of veins of water snake and zigzag throughout what looks
+like a primordial forest here. You are within a sort of forest-
+swamp, where trees rise up from out of the brackish water, and
+every path seems to lead you to nowhere.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7280
+D1
+~
+~
+0 0 7228
+D2
+~
+~
+0 0 7229
+D3
+~
+~
+0 0 7280
+S
+#7278
+`$ Luva river ``~
+You are in the Luva river! 
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7229
+D1
+~
+~
+0 0 7227
+D3
+~
+~
+0 0 7279
+S
+#7279
+`6Luva river ``~
+You are in the Luva river! 
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 7230
+D1
+~
+~
+0 0 7278
+D2
+~
+~
+0 0 7271
+D3
+~
+~
+0 0 7281
+S
+#7280
+`$Luva river ``~
+You stand in the midsts of the River Luva. Canals, streams, and
+all sorts of veins of water snake and zigzag throughout what looks
+like a primordial forest here. You are within a sort of forest-
+swamp, where trees rise up from out of the brackish water, and
+every path seems to lead you to nowhere.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7282
+D1
+~
+~
+0 0 7277
+D2
+~
+~
+0 0 7230
+D3
+~
+~
+0 0 7282
+S
+#7281
+`$Luva river ``~
+You are in the Luva river! 
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 7279
+D2
+~
+~
+0 0 7231
+D3
+~
+~
+0 0 7283
+S
+#7282
+`$Luva river ``~
+Low lying fog banks and haze over the water seems to obscure your
+views. Not that it would help, any, considering the vast number of
+passages leading off in every direction in this forest-come-swamp
+which is the River Luva.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7284
+D1
+~
+~
+0 0 7280
+D3
+~
+~
+0 0 7284
+S
+#7283
+`$Luva river ``~
+You are in the Luva river! 
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7232
+D2
+~
+~
+0 0 7281
+D3
+~
+~
+0 0 7285
+S
+#7284
+`$Luva river ``~
+You are floating in a maze of rivers. The River Luva, one of the
+most ancient rivers in all of Mirlan, fingers out into hundreds
+of different confusing inlets. All around you come the sounds of
+birds of prey, and you see several fishermen from nearby Malag's
+Crossing from time to time pass by.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7286
+D1
+~
+~
+0 0 7282
+D2
+~
+~
+0 0 7232
+D3
+~
+~
+0 0 7286
+S
+#7285
+`$Luva river ``~
+You are in the Luva river! 
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7233
+D1
+~
+~
+0 0 7283
+D2
+~
+~
+0 0 7283
+D3
+~
+~
+0 0 7287
+S
+#7286
+`$Luva river ``~
+It becomes very difficult to determine the direction you are
+heading from the great mass of tangled channels that seem to run
+off in every direction. The distinct smell of woodsmoke is in the
+air, presumably from the village of Malag's Crossing nearby.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7288
+D1
+~
+~
+0 0 7284
+D2
+~
+~
+0 0 7233
+D3
+~
+~
+0 0 7288
+S
+#7287
+`$Luva river ``~
+You are in the Luva river! 
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 7285
+D2
+~
+~
+0 0 3321
+D3
+~
+~
+0 0 7289
+S
+#7288
+`$Luva river ``~
+It becomes very difficult to determine the direction you are
+heading from the great mass of tangled channels that seem to run
+off in every direction. The distinct smell of woodsmoke is in the
+air, presumably from the village of Malag's Crossing nearby.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7290
+D1
+~
+~
+0 0 7286
+D2
+~
+~
+0 0 7234
+D3
+~
+~
+0 0 7290
+S
+#7289
+`$Luva river ``~
+The River Luva is a tangle of trees and waterways here, which run
+off in hundreds of different directions. It is cool, and calm here
+and the river snakes lazily southward, slowly drawing you away from
+Malag's Crossing. Several fishing boats can be see in the area,
+pulling fish from the waters for the people of Malag's Crossing.
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 7288
+D3
+~
+~
+0 0 7291
+S
+#7290
+`$Luva river ``~
+You are in the Luva river! 
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7289
+D1
+~
+~
+0 0 7288
+D2
+~
+~
+0 0 7235
+D3
+~
+~
+0 0 7292
+S
+#7291
+`$Luva river ``~
+The River Luva is a tangle of trees and waterways here, which run
+off in hundreds of different directions. It is cool, and calm here
+and the river snakes lazily southward, slowly drawing you away from
+Malag's Crossing. Several fishing boats can be see in the area,
+pulling fish from the waters for the people of Malag's Crossing.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7236
+D2
+~
+~
+0 0 7289
+D3
+~
+~
+0 0 7293
+S
+#7292
+`$Luva river ``~
+You are in the Luva river! 
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7294
+D1
+~
+~
+0 0 7290
+D2
+~
+~
+0 0 7236
+D3
+~
+~
+0 0 7294
+S
+#7293
+`$Luva river ``~
+The River Luva is a tangle of trees and waterways here, which run
+off in hundreds of different directions. It is cool, and calm here
+and the river snakes lazily southward, slowly drawing you away from
+Malag's Crossing. Several fishing boats can be see in the area,
+pulling fish from the waters for the people of Malag's Crossing.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7237
+D1
+~
+~
+0 0 7291
+D2
+~
+~
+0 0 7295
+D3
+~
+~
+0 0 7240
+S
+#7294
+`$Luva river ``~
+You are in the Luva river! 
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7292
+D1
+~
+~
+0 0 7292
+D2
+~
+~
+0 0 7237
+D3
+~
+~
+0 0 7239
+S
+#7295
+`$Luva river ``~
+You can see signs of civilization surrounding you here. Several small
+huts are on the banks nearby, and quite a few old docks span out into
+the River Luva, with small fishing dinghys attached to them. Fish are
+prevalent here, jumping with vigor, and the nearby ospreys have most
+definitely taken notice.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7293
+D2
+~
+~
+0 0 7291
+D3
+~
+~
+0 0 7241
+S
+#7296
+`8Hall in the temple of Pajument ``~
+You are in a hallway of the temple of Pajumet.  A juncture in the hall in
+which stairs lead up and down throught these hallowed halls of fortune.  
+~
+~
+0 8 0 0
+D1
+~
+~
+A 0 7211
+D4
+~
+~
+0 0 7298
+D5
+~
+~
+A 0 7297
+S
+#7297
+`8resting room ``~
+You have come down the stairs into a room filled with straw lined
+beds.  This looks like a dorm room for weary travelers and followers
+of the great god Pajumet to lay their heads free of their worries for a
+night or two.  By the looks of the beds perhaps not the most comfortable
+place to rest but dry and free of the weather.
+~
+~
+0 8 0 0
+D4
+~
+~
+A 0 7296
+S
+#7298
+`8spiraling stairway ``~
+You are in a spiraling stairway that leads further up
+into the higher reaches of the temple.  There is a small
+window here where you can look out over the villa of Malag's
+Crossing.  It faces the west and gives a spectacular view of
+the bridge and the west Luva river.  On clear days one could see
+for miles from here.
+~
+~
+0 0 0 0
+D4
+~
+~
+A 0 7299
+D5
+~
+~
+0 0 7296
+S
+#7299
+`8Acolyte of Pajument ``~
+This appears to be the room of one of Pajumet's higher
+priests or priestess' room.  Not much in the way of finery
+here.  Mostly a comfortable looking bed, night stand and table
+lamp filled with oil.  There is a fine looking red rug with the
+symbol of a silver set of dice.
+~
+~
+0 8 0 0
+E
+rug~
+The deep red rug has a fine embroidery of a set of dice
+with the pips showing the numbers five and two. The
+embroidery looks as if it is done of silver threading.
+~
+D5
+~
+~
+A 0 7298
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 7210 spec_cast_cleric
+M 7213 spec_thief
+M 7215 spec_poison
+M 7244 spec_keeper_move
+M 7249 spec_keeper_move
+M 7258 spec_keeper_move
+M 7260 spec_keeper_move
+M 7262 spec_keeper_move
+M 7297 spec_cast_cleric
+M 7299 spec_cast_cleric
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 7201 2 7201 1
+E 0 7201 0 16
+E 0 7200 0 5
+E 0 7203 0 13
+M 0 7202 5 7202 5
+M 0 7205 2 7205 1
+E 0 7207 0 16
+M 0 7205 2 7207 1
+E 0 7207 0 16
+M 0 7297 1 7209 1
+M 0 7210 1 7210 1
+O 0 7209 0 7210
+O 0 7211 0 7210
+M 0 7297 2 7211 1
+O 0 7212 0 7212
+M 0 7297 3 7212 3
+M 0 7213 1 7213 1
+E 0 7213 0 16
+M 0 7214 1 7214 1
+E 0 7214 0 15
+M 0 7215 5 7215 1
+M 0 7205 3 7216 1
+M 0 7218 1 7218 1
+E 0 7218 0 16
+E 0 7217 0 5
+E 0 7215 0 22
+O 0 7223 0 7223
+O 0 7222 0 7223
+M 0 7225 2 7225 1
+E 0 7221 0 5
+E 0 7220 0 6
+M 0 7229 1 7229 1
+E 0 7229 0 16
+E 0 7228 0 5
+E 0 7227 0 10
+E 0 7225 0 7
+E 0 7224 0 6
+M 0 7233 5 7233 5
+M 0 7235 5 7235 3
+E 0 7241 0 17
+M 0 7238 1 7238 1
+E 0 7238 0 16
+E 0 7240 0 6
+E 0 7237 0 5
+O 0 7242 0 7241
+M 0 7269 2 7243 1
+M 0 7244 1 7244 1
+G 0 7202 0
+G 0 7204 0
+G 0 7205 0
+G 0 7206 0
+G 0 7244 0
+M 0 7249 1 7248 1
+G 0 7249 0
+G 0 7246 0
+G 0 7247 0
+G 0 7250 0
+G 0 7251 0
+O 0 7288 0 7249
+O 0 7252 0 7251
+M 0 7251 10 7251 3
+E 0 7256 0 5
+E 0 7259 0 6
+E 0 7261 0 9
+M 0 7252 1 7252 1
+E 0 7263 0 16
+E 0 7264 0 5
+E 0 7265 0 6
+E 0 7266 0 13
+E 0 7267 0 3
+M 0 7253 1 7253 1
+E 0 7253 0 6
+E 0 7272 0 8
+E 0 7271 0 13
+E 0 7270 0 17
+M 0 7254 1 7254 1
+E 0 7254 0 17
+M 0 7255 1 7255 1
+E 0 7270 0 16
+E 0 7269 0 17
+M 0 7256 1 7256 1
+M 0 7293 2 7256 1
+O 0 7257 0 7257
+M 0 7293 2 7257 2
+M 0 7258 1 7258 1
+G 0 7232 0
+G 0 7233 0
+G 0 7219 0
+G 0 7235 0
+G 0 7236 0
+M 0 7260 1 7260 1
+G 0 7280 0
+G 0 7281 0
+G 0 7282 0
+G 0 7283 0
+G 0 7284 0
+M 0 7262 1 7262 1
+E 0 7262 0 16
+G 0 7277 0
+G 0 7278 0
+G 0 7279 0
+G 0 7276 0
+G 0 7275 0
+G 0 7268 0
+O 0 7243 0 7264
+M 0 7266 1 7266 1
+O 0 7260 0 7266
+M 0 7269 2 7269 1
+M 0 7276 1 7270 1
+M 0 7274 1 7271 1
+M 0 7274 1 7272 1
+M 0 7275 1 7273 1
+M 0 7274 1 7274 1
+M 0 7276 1 7275 1
+M 0 7276 2 7276 2
+M 0 7297 3 7297 3
+S
+
+
+
+#SHOPS
+7244 0 5 0 0 0 110 70 0 23
+7249 19 19 0 0 0 100 100 0 23
+7258 0 5 0 0 0 100 100 6 22
+7260 0 9 0 0 0 100 100 6 22
+7262 0 0 0 0 0 100 100 6 20
+0
+
+
+
+#MOBPROGS
+#7249
+room echoat $n The spirit of Hoiwinas passes through you.
+room echoat $n For a split second you are filled with over powering lust.
+room echoat $n The lustiness passes leaving you slightly drained.
+room echoat $n The divine presence of Hoiwinas passes.
+~
+#0
+
+M 7205 1 citizen1.prg NL
+M 7205 1 citizen2.prg NL
+M 7210 1 hpriestess.prg NL
+M 7210 1 hpriestess2.prg NL
+M 7213 1 street1.prg NL
+M 7213 1 sacrifice.prg NL
+M 7214 1 hooker1.prg NL
+M 7249 1 tavern.prg NL
+M 7256 1 malag1.prg NL
+M 7256 1 malagfight.prg NL
+M 7266 1 masterforger.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#7210
+room echoat $n You are left wondering if Pajument has heard your prayers.  Only the fates know.
+~
+#7211
+if hasquest $n 'Discovered the Shrine to Pajumet in Malags Crossing'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Pajumet!``
+    room permquest $n Discovered the Shrine to Pajumet in Malags Crossing
+endif
+~
+#7222
+if hasquest $n 'Discovered the Shrine to Wyihemi in Malags Crossing'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Wyihemi!``
+    room permquest $n Discovered the Shrine to Wyihemi in Malags Crossing
+endif
+~
+#7223
+room echoat $n Wyihemi's regards you as she receives your prayers.
+~
+#7239
+if hasquest $n 'Discovered the Shrine to Moiwen in Malags Crossing'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Moiwen!``
+    room permquest $n Discovered the Shrine to Moiwen in Malags Crossing
+endif
+~
+#7241
+room echoat $n You feel the peace and newness of Moiwen's gaze upon you as you worship her.
+~
+#7248
+if hasquest $n 'Discovered the Shrine to Hoiwinas in Malags Crossing'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Hoiwinas!``
+    room permquest $n Discovered the Shrine to Hoiwinas in Malags Crossing
+endif
+~
+#7249
+room echoat $n The spirit of Hoiwinas passes through you.
+room echoat $n For a split second you are filled with over powering lust.
+room echoat $n The lustiness passes leaving you slightly drained.
+room echoat $n The divine presence of Hoiwinas passes.
+~
+#7263
+if hasquest $n 'Discovered the Shrine to Imaju in Malags Crossing'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Imaju!``
+    room permquest $n Discovered the Shrine to Imaju in Malags Crossing
+endif
+~
+#7264
+room echoat $n You hear the faint rumbling laughter as you feel Imaju's touch upon your soul!
+room echoat $n Darnkess fills the room and takes over your senses for a moment, then releases you.
+~
+#7265
+if hasquest $n 'Discovered the Shrine to Sahaeyeh in Malags Crossing'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Sahaeyeh!``
+    room permquest $n Discovered the Shrine to Sahaeyeh in Malags Crossing
+endif
+~
+#7266
+room echoat $n You hear the divine hammering of Sahaeyeh as he acknowledges your prayers.
+~
+#0
+
+#$

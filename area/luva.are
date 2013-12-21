@@ -1,0 +1,6852 @@
+#AREADATA
+Name Luva~
+Pref ~
+Builders Ankharan~
+VNUMs 5700 5899
+Max_Bastions 0
+Credits Ankharan~
+Security 8
+Startroom 0
+Flags 0
+Crimes 6 1 2 2 0 4 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#5701
+Peasant traveler~
+a peasant traveler~
+A peasant is here minding his own business.
+~
+Not much about this man is noticeable except perhaps that he is a
+half-elf.  Typical of most half-elves this one shows much of his human
+traits versus the elven ones.  This gentle peasant is walking along here
+minding his own business.  
+~
+half-elf~
+AGHWd A J 0 300 0
+4 0 1d13+35 0d0+0 1d3+3 none
+7 7 7 9
+R 0 B 0
+stand stand male none~
+11
+AHMV ABCDEFGHIJK medium 0
+#5702
+field rat~
+field rat~
+A little brown field rat is foraging for food here.
+~
+~
+unique~
+AGHWd A 0 0 0 0
+2 0 1d2+8 0d0+0 1d2+1 bite
+9 9 9 9
+H 0 0 0
+stand stand none none~
+6
+0 0 medium 0
+#5703
+City Guard Luva~
+Luvan city guard~
+A Luvan City guard is here tending to his post.
+~
+A city guard is here.  The crest of an osprey on a field of blue
+grasping a scroll in one set of talons and a war hammer in the other.
+He is about 5 feet 8 inches tall with blonde hair and blue eyes, atypical
+of the men of the area.  He is carrying a small belt leather belt pouch at
+his side and a dagger shoved into its hilt on the other side.
+~
+human~
+ABGTce A CDN 0 750 0
+20 5 5d40+300 0d0+100 4d5+15 smash
+-2 -2 -2 0
+FHNQX 0 AB 0
+stand stand male none~
+16
+AHMV ABCDEFGHIJK medium 0
+P GREET 5704 100~
+#5704
+old lady~
+the old lady~
+An old lady is here making her way along slowly but steadily.
+~
+This ancient lady is remarkable for her silvery whitish hair tied up into a bun
+and eyes that have seen a lot of years.  Her dress and demeanor are that of
+the local farming community.  Her wrinkled hands shake a little but they
+look rather strong for one so old. 
+~
+human~
+AGd A d 0 400 0
+1 0 1d2+6 0d0+0 1d2+0 none
+9 9 9 6
+0 0 0 0
+stand stand female none~
+3
+AHMV ABCDEFGHIJK medium 0
+P GREET 5703 80~
+#5705
+Val traveling hawker merchant~
+Val the wandering merchant~
+A merchant is walking around hawking his inventory.
+~
+This middle-aged man is walking around hawking his wares.  Dressed in
+worn leather boots, brown tunic and brown pants, this man doesn't look like
+he does too bad for himself.  
+~
+human~
+AGd A 0 0 300 0
+50 3 10d169+950 0d0+0 5d10+25 pound
+-21 -21 -21 -21
+0 AB 0 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#5706
+scruffy little boy~
+a scruffy little half-orc~
+A scruffy little half-orc is here getting into trouble.
+~
+This adolescent half-orc is here just being a pest to everyone in
+general.  He looks like a grown man size-wise but the youth shows through in
+his childish actions.  Averaging around 5 feet 8 inches, this teen seems to
+bully other children that pass by.  
+~
+unique~
+AGHd A J 0 -100 0
+5 1 1d20+50 0d0+0 12d3+4 punch
+7 7 7 7
+0 0 B 0
+stand stand male none~
+2
+0 0 medium 0
+P GRALL 5706 60~
+#5708
+Halfling Chadar merchant~
+Chadar~
+Chadar, a halfling street trader, is hawking his inventory.
+~
+This sickly looking halfling is walking around peddling his wares.  He
+has a small corn cob pipe sticking out of his mouth.  He has a farmers tan
+from being out in the sun all day long.  Fairly neatly combed hair, sullen
+sunken eyes and a tremor that makes his head twitch from time to time.  
+~
+halfling~
+AGd A 0 0 300 0
+50 2 10d175+1000 0d0+0 5d10+25 punch
+-30 -30 -30 -30
+0 0 CLQ 0
+stand stand male none~
+25
+AHMV ABCDEFGHIJK small 0
+#5711
+Janus trader elf~
+Janus~
+Janus, a Luvan trader and merchant, is here peddling his wares.
+~
+This guy is flamboyant.  Bright pastels and dainty clothing mark him as a
+well dresser it not a bit effeminate.  
+~
+elf~
+Ad A JP 0 0 0
+12 3 3d25+100 0d0+0 2d6+7 punch
+3 3 3 3
+0 0 B Z
+stand stand male none~
+5
+AHMV ABCDEFGHIJK medium 0
+#5716
+male citizen half-elf luvan luva~
+a Luva citizen~
+A male half-elf Luva citizen is here.
+~
+A male half-elf is here, going about his business.  He is wearing peasant
+clothing and is barefooted.  His clothing is more that of tattered but still
+useful cloth.  He has long black hair pulled back into a pony tail, the style of
+the men in Luva these days.  He is dirty from working in the fields but in general
+rather handsome to look at for a half-elf.
+~
+half-elf~
+AEHTd A J 0 300 0
+5 1 1d17+50 0d0+100 2d4+1 none
+7 7 7 8
+FU 0 BP 0
+stand stand male none~
+7
+AHMV ABCDEFGHIJK medium 0
+#5717
+Jason the Trainer~
+Jason the Trainer~
+Jason the freelance trainer is here.
+~
+~
+human~
+ABGJKZbe 0 CDEGHJ K 0 0
+60 1000 20d1000+5000 0d0+0 100d100+100 magic
+-100 -100 -100 -100
+CEHIJKNRX ABCDEGHILMNOPQRXYab 0 0
+stand stand none none~
+0
+0 0 medium 0
+#5720
+female half-elf luva luvan citizen~
+a female half-elf~
+A female citizen of Luva is here.
+~
+A female half-elf citizen of Luva is here.  She looks like she is headed to
+the fountain with a bucket to refill.  She has her hair tied back with a hair
+piece of cloth.  She is wearing a once white but now brown stained apron over
+a grayish full length dress.  She is barefooted and although a little dirty from
+the days work, a more than average looking female.  She has hazel eyes that are
+highlighted by high arch thin eye brows.  She has a full lip smile that greets you.
+~
+half-elf~
+AHd A J 0 300 0
+6 1 1d20+52 0d0+100 1d4+2 slap
+7 7 7 8
+FHU 0 ABLPQ 0
+stand stand female none~
+4
+AHMV ABCDEFGHIJK medium 0
+#5723
+executioner~
+the Executioner~
+The Executioner of Luva stands here, looking grim.
+~
+He has been hired to sit watch and guard against those that may tresspass.
+Patience is his virtue for in time, his blade will surely sink into your
+unarmored hide.
+~
+human~
+ABGT AC 0 0 -750 10300
+50 50 25d10+3000 0d0+100 6d1+10 slash
+-20 -20 -20 -20
+IKU ACD 0 0
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+#5734
+Justina cleric Syithe drow~
+the drow cleric~
+A cleric wearing dark garb is here.
+~
+This cleric is wearing raiment of black and purple.  Around her drow neck
+is the silver chain with the symbol an open eye hanging from it.  She has
+her hands folded up into her sleeves and has her head cast down as if
+searching for something.  
+~
+drow~
+AGQd A JP 0 -500 0
+3 0 1d6+24 0d0+0 1d3+1 faith
+8 8 8 9
+0 0 B Ya
+stand stand female none~
+2
+AHMV ABCDEFGHIJK medium 0
+#5735
+Razuer father ~
+Razuer~
+Razuer is here looking for someone.
+~
+This fellow looks mildly disheveled.  His hair looks a mess and he hasn't
+shaven in quite a few days.  His five or six day old beard is peppered with
+spots of gray.  His eyes look sullen and as if he is staring off into the
+distance, dazed, confused and somewhat lost.  Occasionally he shouts out,
+calling for his little girl, Megan.  
+~
+human~
+AGd A 0 0 400 0
+10 1 3d22+100 0d0+0 2d5+5 punch
+4 4 4 7
+0 0 0 0
+stand stand male none~
+4
+AHMV ABCDEFGHIJK medium 0
+P GREET 5736 65~
+#5737
+City Guard Luva~
+the city guard~
+A City Guard of Luva is on patrol here.
+~
+One of Luva's finest it here patrolling the area.  He is about 6 feet tall
+with brown hair and brown eyes.  Typical of the men and women of the area.
+He is lean and baby faced.  Clean shaven and all smiles.  He is wearing the
+crest of Luva upon his armor and sword arm shoulder.
+~
+human~
+AEGTcd A 0 0 750 0
+20 5 5d40+300 0d0+100 4d5+15 smash
+-2 -2 -2 0
+FHNQX 0 AB 0
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#5739
+prestidigitator lady female citizen half elf half-elf~
+the prestidigitator~
+A prestidigitator is walking around trying to impress people into offering coin for her performing act.
+~
+~
+half-elf~
+AGHRd A J 0 600 0
+15 2 5d30+165 0d0+0 3d5+8 none
+0 0 0 4
+FH 0 B 0
+stand stand female none~
+10
+AHMV ABCDEFGHIJK medium 0
+#5740
+citizen luva farmer~
+a farmer~
+A Luvan farmer is going about his daily work.
+~
+~
+half-elf~
+AGHd A 0 0 200 0
+5 0 1d20+45 0d0+0 2d3+3 pound
+7 7 7 8
+0 0 B 0
+stand stand male none~
+7
+AHMV ABCDEFGHIJK medium 0
+F aff J
+#5747
+Traveler~
+the road dusty traveler~
+A road dusty and scrappy looking traveler is standing here picking his fingernails.
+~
+This traveler is wearing a brown leather vest over a aqua blue
+poofy shirt and wide brimmed hat.  He is also wearing brown high-top
+hard leather boots with straps.  Strung over his shoulder is a large
+shoulder bag and bedroll.  His facial features remind you of an elf
+but he is more human looking than anything.  Perhaps, a mix breed.
+Regardless of that, he does have a sour look scrawled over his face
+as if he was severely displeased with something.
+~
+half-elf~
+AEHSd A JP 0 0 0
+10 2 3d25+100 0d0+100 2d4+6 punch
+4 4 4 7
+FHJU 0 ABP 0
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#5756
+Ulhavintarri elf citizen~
+a female elf~
+A female elven citizen of Luva is going about her business.
+~
+This elven lady looks to be of lower middle class.  Her dress and
+demeanor as such that she could possibly be a merchant or merchants wife. 
+She looks a little frustrated and in a hurry to get where she is going.  
+~
+elf~
+Ad A JP 0 275 0
+10 4 3d22+100 0d0+0 2d5+6 none
+4 4 4 7
+0 P B Z
+stand stand female none~
+12
+AHMV ABCDEFGHIJK medium 0
+#5764
+field rat~
+the field rat~
+A brown field rat is here sniffing the air.
+~
+A brown rodent.
+~
+unique~
+AWcd A DFJP 0 0 0
+7 2 3d15+60 0d0+100 2d4+3 bite
+7 7 7 7
+HUX 0 0 E
+stand stand none none~
+5
+0 0 small 0
+#5774
+Megan beggar girl~
+the little beggar girl~
+A little beggar girl is wandering around here.
+~
+A dirty, tear streaked faced little girl wearing torn and
+tattered rags is wandering about here.  Shoeless and grubby
+fingers this little girl looks a little lost.  Her hair is matted with
+some sort of greasy oil but she has the most vibrant sky blue
+eyes ever seen.
+~
+human~
+ACGd A 0 0 400 0
+10 1 3d22+96 0d0+100 2d5+5 slap
+0 0 0 0
+0 0 A 0
+stand stand female none~
+13
+AHMV ABCDEFGHIJK small 0
+P GREET 5735 65~
+#5775
+undeal little beggar girl~
+the dead little beggar girl of Luva~
+A horrid undead little girl of Luva is here hunting her killers!
+~
+A vacant eyed scrawy and bloody little girl is here wailing while she seeks
+her murderer!
+~
+undead~
+AFGOTd A J 0 0 0
+25 3 5d30+160 0d0+100 5d6+15 claw
+0 0 0 0
+FHX LQ I N
+stand stand female none~
+18
+0 ABCDEFGHIJK small 0
+#5787
+Esylui merchant~
+the elven merchant~
+Esylui, the well known local merchant wanders the streets selling her wares.
+~
+This seemingly frail lady is out selling items of interest.  She opens up
+her cloak to reveal many delicately made pieces of jewelry.  While not
+extravagantly expensive, she does well with out competing from the local
+jewelers.  Sometimes, she even help sell their wares for a small commission.
+Local lore has it that this fine lady was once a renowned warrior of
+significant skill and fame.  
+~
+elf~
+AGd A DEFJP 0 0 0
+35 9 10d135+900 0d0+0 5d8+20 slap
+-18 -18 -18 -20
+EFHIX AB BLQ Z
+stand stand female none~
+13
+AHMV ABCDEFGHIJK medium 0
+P GREET 5787 75~
+#5796
+guard royal human man~
+the royal guard~
+The royal guard of the house of Luva stands here preventing access.
+~
+Teetering nearly seven and a half feet tall, this humongous man stands
+here grim faced and stoic.  His menacing eyes challenge any and all that come
+too close.  With arms the size of an oak tree he looks like he could back up
+any threat or defend any challenge. 
+~
+human~
+ABGZce A DEFJ 0 500 0
+35 9 10d135+900 0d0+0 5d8+20 none
+-18 -18 -18 -20
+EFHIX AB LQ 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+#5800
+Brandon Shopkeeper clerk ~
+Brandon the shopkeeper~
+Brandon the market clerk is here waiting for your order.
+~
+An elderly gentleman sits behind his tables hawking food.  His thinning
+white hair does not cover up his skull and one can see the brown age spots
+upon his head.  His hands and neck shake a bit but his eyes look like they
+still have some fight left in him.  He is wearing brown britches and a
+tobacco stained graying tunic.  
+~
+human~
+ABCEe A DEF 0 350 0
+50 50 1d10+6000 0d0+100 1d4+100 slap
+-30 -30 -30 -30
+FHJX ABCD LQ 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+P GREET 5800 45~
+#5802
+shopkeeper Sherri~
+Sherri the shopkeeper~
+Sherri the General Store shopkeeper is here.
+~
+A robustly full figured middle aged female with rosy cheeks and pleasant
+smile bustles about as she tends to her store.  She is wearing a light blue
+dress with a white apron tied around back.  Her perky smile lifts her mother
+like dimples which highlights the twinkle in her blue eyes.  She reaches
+down into her apron and fiddles within the pockets.  
+~
+human~
+ACce A DEJN 0 500 0
+60 12 10d200+1000 0d0+100 5d20+50 none
+-27 -27 -27 -27
+EFHX ABCD 0 0
+stand stand female none~
+24
+AHMV ABCDEFGHIJK medium 0
+P GREET 5802 65~
+#5804
+Druid druidic trainer elf~
+The druid trainer~
+A druidic trainer is here waiting to help you practice and train your skills.
+~
+A brown robed male stands here like a statue.  His sandaled feet and
+folded arms reflect his nature.  Uninterested in normal endeavors of the
+worldly he does however enjoy seeing the advancement of his fellow druids. 
+Thusly through his unique experience and talents he does better than almost
+all except others of the same skill and knowledge.  
+~
+elf~
+ABEGJKZce A DEFHJP 0 0 0
+60 20 10d300+2000 0d0+100 10d50+100 magic
+-18 -18 -18 -20
+EFHIX ABD BLQ Z
+stand stand male none~
+27
+AHMV ABCDEFGHIJK medium 0
+#5806
+druid druidic guardian guard lady protector guild~
+the Druid Guild Guard~
+The Lady Protector of the Druids is standing here guarding the passage to the Guild.
+~
+She stands here outfitted in her plain brown druidic robes, stoicly
+guarding the Grove.  Long years of adventuring and living in the forest show
+upon her aged and weathered face.  Though elderly, she looks far from
+fragile.  Resolute and determined to protect her orders sacred grounds.  
+~
+human~
+ABGZce A DEFJ 0 0 0
+35 9 10d135+900 0d0+100 5d8+20 magic
+-18 -18 -18 -20
+EFHIVX AB LQ 0
+stand stand female none~
+17
+AHMV ABCDEFGHIJK medium 0
+#5808
+common commoners commoner's guild guard guildguard human~
+the Commoners Guild Guard~
+The Commoner's Guild guardian stands solidy here.
+~
+This gentleman is wearing a white cloth shirt with brown trousers.
+On his feet are a pair of mid-length black boots.  About his waist is a 
+very thick black leather belt which is one of two ornate items on him, a gold
+pirate style buckle and the other is a large gold hoop earring.  He stands
+here, arms folded, eyeing the incoming for any who do not belong to
+his fraternity of brothers and sisters.
+~
+human~
+ABGZce A DEFJ 0 0 0
+35 13 10d135+900 0d0+100 5d8+20 pound
+-18 -18 -18 -20
+EFHIVX AB LQ 0
+stand stand male none~
+20
+AHMV ABCDEFGHIJK medium 0
+#5809
+Commoner commoners commoner's trainer brev~
+the Commoners Guild Trainer~
+Brev, the Commoners Guild Trainer leans up against the wall waiting to be needed.
+~
+Short haired, bare chested, muscle bound Brev, leans up against
+the wall waiting to have his services needed.  A smile to nearly all
+shows his pearly whites which reflect a genuine kindness.  He appears
+to be in his late 20's to early 30's and in excellent shape.
+~
+human~
+ABJKZbce A DFZ 0 0 0
+60 30 10d250+2000 0d0+100 5d20+50 crush
+0 0 0 0
+EFHNOX ABC DLQ 0
+stand stand male none~
+28
+AHMV ABCDEFGHIJK medium 0
+#5810
+ogre warrior guild guard master guardian~
+the warrior~
+A powerful ogre warrior blocks the entrance to the Warriors Guild.
+~
+A larger than normal ogre stands here blocking the
+entrance to those that do not belong here.  Scars cover
+nearly every inch of this powerful monsters body from wars,
+fights, battles, beatings and training.
+
+~
+ogre~
+ABGTZce A DEFJ 0 0 0
+35 12 10d135+900 0d0+100 5d8+20 none
+-20 -20 -20 -15
+EFHIVX AB ELQ C
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+#5811
+Hogu trainer warrior~
+the trainer~
+Hogu, the Trainer to Warriors is here exercising.
+~
+Hogu, the Trainer to Warriors is here exercising.
+~
+unique~
+ABJKTZbc A DJV 0 0 0
+90 50 10d300+3000 0d0+100 5d20+30 slap
+-30 -30 -30 -30
+EFGHIKNX AB DI 0
+stand stand male none~
+32
+AHMV ABCDEFGHIJK large 0
+#5812
+jeweler guild guard Gnashki~
+Gnashki the Jeweler's Guild guard~
+Gnashki stands here protecting the Jewelers Guild house.
+~
+Gnarled and wrinkled from age this little man stands here guarding
+the guild of the jewelers and the brethren within.
+~
+gnome~
+ABGZce A DEFJ 0 0 0
+35 9 10d135+900 0d0+100 5d8+20 smash
+-18 -18 -18 -20
+EFHIVX AB LQ BP
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#5813
+Jewelers Trainer and Master Creator~
+the jewelers trainer~
+The Master Creator of Jewelry and Trainer is here working.
+~
+A short gnarled gnome sits before you.  He is intent on attending to his
+gems and jewelry.  So focused is he that he doesn't seem to take your
+notice.  
+~
+gnome~
+AJSZbe A DEJNO 0 0 0
+60 30 1d100+6000 0d0+100 5d20+35 pierce
+0 0 0 0
+FHX ABCD LQ BP
+stand stand male none~
+29
+AHMV ABCDEFGHIJK medium 0
+#5817
+Healer of Rhuma~
+the Healer of Rhuma~
+A Healer of the Temple of Rhuma stands here awaiting your request.
+~
+Standing here in their golden vestments, this healer remains to do the work
+of Rhuma for Rhuma's faithful followers.  They are adorned with a single large
+golden coin attached to a gold necklace that hangs around their neck. With their
+robe hood pulled up, their gold eyes stare back out through the shaded coverage.
+~
+unique~
+ABGZace A DFH 0 0 0
+55 15 10d200+1000 0d0+100 5d10+30 magic
+-25 -25 -25 -25
+FH AB LQ 0
+stand stand none none~
+19
+0 0 medium 0
+#5820
+Healer of Amathe~
+the healer of Amathe~
+A healer of Amathe stands here smiling with open arms waiting to help you.
+~
+A short and plump lady with rosy cheeks stands here smiling.  Her
+entire demeanor is one of love and kindness, it exudes from every single
+pour of her body.  The embodiment of peace, giving and helpfulness.  She
+is wearing blood red robes that look like perhaps they need some mending
+here and there but none the less serviceable.  She is wearing around here
+neck a silver crescent moon.
+~
+halfling~
+ABGZace A DFHJ 0 300 0
+60 50 10d200+2000 0d0+100 1d10+40 magic
+-50 -50 -50 -50
+EFHL ABLQ CD 0
+stand stand female none~
+29
+AHMV ABCDEFGHIJK medium 0
+#5821
+priestess of amathe~
+the priestess of Amathe~
+A priestess of Amathe is here helping with your prayers.
+~
+A human female wearing blood red robes is standing here helping people
+with their prayers and donations.  She is adorned with a moon pedant and
+a silver looking wrist bracelet with charms hanging off of it.  Her hair is a
+chocolate brown and her eyes are a soft hazel.  She tends to smile a lot at
+passer bys.
+~
+human~
+AGHQce A DFHJ 0 375 0
+15 5 8d40+350 0d0+100 5d4+13 magic
+0 0 0 0
+0 A BC 0
+stand stand female none~
+11
+AHMV ABCDEFGHIJK medium 0
+#5822
+priestess amathe~
+the priestess of Amathe~
+A priestess of Amathe is here helping with your prayers.
+~
+A human female wearing blood red robes is standing here helping people
+with their prayers and donations.  She is adorned with a moon pedant and a
+silver looking wrist bracelet with charms hanging off of it.  Her hair is a
+chocolate brown and her eyes are a soft hazel.  She tends to smile a lot at
+passer bys.  
+ 
+~
+elf~
+ABGQe A CEFGHJP A 450 0
+20 0 10d61+400 0d0+0 2d5+6 magic
+-5 -5 -5 0
+0 0 BN 0
+stand stand female none~
+9
+AHMV ABCDEFGHIJK medium 0
+F vul Z
+P BRIBE 5821 1~
+#5825
+grim reaper statue~
+the statue of the grim reaper~
+A statue of a grim reaper is here beside the coffin pointing to the south.
+~
+Before you is the statuesque image of the grim reaper.  Its spectral hand
+points to the south as if directing you.  Draped atop this statue is a ragged
+black hooded robe with many tears and rips in it.  Its eyes glow a sinister
+yellowish color from behind the shaded interior of its hood.
+~
+undead~
+ABGOZae A DFJ 0 -400 0
+55 15 10d200+1000 0d0+100 5d10+35 magic
+-25 -25 -25 -25
+0 ABLQ I 0
+stand stand none none~
+19
+0 ABCDEFGHIJK medium 0
+F vul N
+P GRALL 5825 100~
+#5830
+Cavalier Cavalier's guild guardian~
+the Cavalier's Guild guardian~
+A staunch cavalier stands poised at his assigned post.
+~
+A giant of a man stand here bedecked in his finest golden armor.
+The pennant of his family and order proudly displayed upon his chest plate.
+Two griffins facing each other with blazing fire denote this man is of the
+order of the Double Griffins. His huge broad sword hangs by his side
+ready for the need to protect his charges within the house.
+~
+human~
+ABGZce A DEFJ 0 350 0
+40 12 10d135+900 0d0+100 6d10+30 slash
+-20 -20 -20 -20
+EFHIVX AB LQ 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+#5831
+Hinfel cavalier trainer human~
+the trainer~
+Hinfel, the Paladin Trainer is here ready to help the young paladins.
+~
+Before you is Hinfel destroyer of evil.  His broad shoulders and gorilla-sized
+hands seem aptly ideal for combat and enforcing his will.  He seems content and
+at peace though he has obviously seen many battles by the swagger in his walk and
+scars on his body.  By his side is his trusted mace and long sword.
+~
+human~
+ABGJKZbce A DEFHJ 0 750 0
+60 15 10d600+2000 0d0+100 8d8+45 cleave
+-40 -40 -40 -40
+EFHIX AB LQ 0
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+#5832
+paladin guild guardian guard~
+a paladin~
+The Paladin's Guild guard stands here at ease looking over her guild.
+~
+A female elf stands here, decked out in full plate mail, polished to a high sheen.
+The symbol of Tiradel has been embossed in what looks like parade armor.  Functional,
+but gives little in the way of real protection.  Her long golden locks hang oddly out
+of her helm.  Her violet eyes, scan the area for intruders through the slits in her visor.
+~
+elf~
+ABGZce A DEFP 0 700 0
+35 15 10d135+900 0d0+100 5d8+20 slash
+-18 -18 -18 -20
+EFHIVX AB BLQ 0
+stand stand female none~
+12
+AHMV ABCDEFGHIJK medium 0
+F aff J
+F vul Z
+#5833
+Olin trainer paladin human~
+the paladin trainer~
+The Trainer to the Paladins stands here waiting to help his brethren.
+~
+Sedgewick the Brave is here waiting to help those of his house train and practice
+in their efforts to defet evil.  A thin smile upon his knowing face is a tell tale sign
+that he too has done his share of sending the evil minons back the the breasts of their
+mothers.
+~
+human~
+ABGJKZbce A DEFHJ 0 750 0
+60 30 10d600+2000 0d0+100 8d10+45 slash
+-45 -45 -45 -45
+EFHIX AB LQ 0
+stand stand male none~
+25
+AHMV ABCDEFGHIJK medium 0
+#5834
+berserker berserker's guild guard guardian hill giant Ollie~
+a hill giant~
+A mean looking hill giant guards the door of the Berserker Guild.
+~
+Half crazed look in his eyes, Ollie the Berserker, goes about his duties as the
+guardian to the Berserkers Guild House.  He may look a little displaced, but by his
+stance and in general great physical shape most assuredly a formidable opponent to
+contend with should he get miffed or irritated.
+~
+unique~
+ABGZce A DEFJ 0 0 0
+40 15 10d135+900 0d0+100 5d8+20 punch
+-18 -18 -18 -20
+EFHIVX AB DHLQ 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#5836
+blacksmith blacksmith's guild guardian Kilsarak dwarf~
+the blacksmith guild guard~
+Kilsarak, stands here preventing entrance to those not of the guild.
+~
+A short, stocky and leathery gnarled faced dwarf stands here crossed armed to
+protect the smith guild.  His massive arms are folded in a mater of fact manner
+as he stares out blank faced with a scowl characteristic of the dwarven race.  He
+has at his side a serious looking hammer that appears to have a dual use.  War and
+forging items.  
+~
+dwarf~
+ABGZce A DEFJ 0 0 0
+35 9 10d135+900 0d0+100 5d8+20 smash
+-18 -18 -18 -20
+EFHIVX AB CLQ 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+F vul R
+#5837
+Blacksmith guild trainer Master Smith~
+the master blacksmith~
+The Master Blacksmith is here training his students.
+~
+~
+dwarf~
+ABGJKZbce A DEFHJ 0 0 0
+60 15 10d600+2000 0d0+0 8d8+45 pound
+-40 -40 -40 -40
+EFHIXZ AB CLQ R
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+#5838
+black cat~
+the black cat~
+A mangey looking black cat is prowling around here.
+~
+A black cat.
+~
+cat~
+Ad A JP 0 0 0
+5 1 1d20+45 0d0+100 1d4+1 none
+0 0 0 0
+FHX 0 B 0
+stand stand none none~
+6
+AGV ACDEFHJKQUV small 0
+#5839
+Vagabond~
+the vagabond~
+A nasty looking vagabond is here rumaging through the garbage.
+~
+Dirty from head to toe.  Rags for clothing one wonders how a
+person can come to such dire straights.  They are missing teeth
+and the ones they do have are black with decay.  The stench of
+unwashed flesh fills the air with an offensive odor.
+~
+human~
+AESc A JP 0 -100 0
+20 2 8d45+250 0d0+100 4d5+10 bite
+-2 -2 -2 7
+FIU 0 LQ P
+stand stand male none~
+14
+AHMV ABCDEFGHIJK medium 0
+#5840
+fairy tailor tailor's guard guardian~
+the fairy~
+A fairy is here guarding the house of Tailors.
+~
+A tiny winged female flies about here keeping an eye on things.  Occasionally she
+barks out an order to someone and they hop to it.  He is wearing a yellowish thigh
+skirt, brown slippers and a brown rope belt.  The skirt seems to shimmer as if it were
+set with micro-gems that catch the light and make the dress sparkle.
+~
+unique~
+ABGZce A DEFJT 0 0 0
+35 9 10d135+900 0d0+100 5d8+20 none
+-18 -18 -18 -20
+EFHIVX AB LQ 0
+stand stand female none~
+16
+AHMVW ACDEFHKP medium 0
+#5841
+Tailor trainer~
+the tailor trainer~
+The trainer for the tailers guild is here.
+~
+~
+human~
+ABGJKZbce A DEFHJ 0 0 0
+60 15 10d600+2000 0d0+0 8d8+45 none
+-40 -40 -40 -40
+EFHIXZ AB LQ 0
+stand stand female none~
+22
+AHMV ABCDEFGHIJK medium 0
+#5842
+Merchant trainer~
+the merchant trainer~
+The merchant trainer is here.
+~
+~
+human~
+ABGJKZbce A DEFHJ 0 0 0
+60 15 10d600+2000 0d0+0 8d8+45 none
+-40 -40 -40 -40
+EFHIXZ AB LQ 0
+stand stand male none~
+29
+AHMV ABCDEFGHIJK medium 0
+#5843
+merchant merchant's guild guardian guard Hynock~
+a merchant~
+Hynock, the Merchant Guild Guard stands here protecting the entrance to the guild.
+~
+A short, wrinkled faced gnome is standing here wearing some pretty gaudy clothing.
+Adorned in mauve and bright green vest, orange pants and a purple silk shirt this
+guy stands out in a crowd for certain.  He looks pretty stout though, stocky and
+muscular for his size he no doubt by the look in his eye has seen his share of scuffles.
+~
+gnome~
+ABGZce A DEFJ 0 0 0
+35 9 10d135+900 0d0+100 5d8+20 pound
+-18 -18 -18 -20
+EFHIVX AB LQ BP
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#5844
+noble noble's royal royal's guild guard guardian elf~
+the young elf~
+A young elf outfitted in heraldry attire stands here announcing incoming members of the guild.
+~
+A young elf lad stands here at the entrance to this great mansion.  Wise beyond his 
+years he calls out the names of the members that enter the great house of the royals.
+By his side a rapier that looks to be well used.  Occasionally the young lad will step in
+front of a person entering and eye them up and disallow entrance to the hall.  He takes
+his duties seriously and from his eyes and expressionless looks like he handles them well.
+~
+elf~
+ABGZce A DEFJP 0 200 0
+35 15 10d135+900 0d0+100 5d8+20 punch
+-18 -18 -18 -20
+EFHIVX AB BLQ 0
+stand stand male none~
+19
+AHMV ABCDEFGHIJK medium 0
+F vul Z
+#5845
+noble trainer~
+an elven female~
+An elfin female in a forest green, silver trimmed, slender gown is here waiting to train the young nobles.
+~
+Long silvery white hair that is in a triple braid hangs off the left side of this near perfect
+elfish lady.  Her soft milky white skin is framed by her sharp facial lines that mark her as
+pure elf.  She has a thin smile with violet eyes that radiate kindness and an unusual wisdom.
+She is wearing A sky blue gown with aqua faded trim that looks like blue flames at the hem of her gown.
+~
+elf~
+ABGJKZbce A DEFHJP 0 0 0
+60 15 10d600+2000 0d0+100 8d8+45 slap
+-40 -40 -40 -40
+EFHIX AB BLQ 0
+stand stand female none~
+27
+AHMV ABCDEFGHIJK medium 0
+F vul Z
+#5846
+ranger ranger's guild guardian guard lady~
+a ranger~
+A lady ranger stands her post doing her duties for her guild.
+~
+Brown booted, green tights and tunic adorn this lady.  She is traditionally
+outfitted as a ranger and looks every bit the part.  She nods and says a kind
+word to the rangers that are passing in over the threshold to the guild of the
+rangers and politely bars the way for those that are not guild members of
+the rangers.  The sword at her left side looks well used and is a sign that
+perhaps, it may best to not tempt her good temperament too much.
+~
+half-elf~
+ABGZce A DEFJ 0 0 0
+35 9 10d135+900 0d0+100 5d8+20 kiss
+-18 -18 -18 -20
+EFHIVX AB BLPQ 0
+stand stand female none~
+17
+AHMV ABCDEFGHIJK medium 0
+#5850
+Ranger Trainer~
+the Master Ranger Trainer~
+The Master Ranger Trainer is here waiting to help his young rangers train.
+~
+~
+human~
+ABGJKZbce A DEFHJ 0 0 0
+60 15 10d600+2000 0d0+0 8d8+45 none
+-40 -40 -40 -40
+EFHIX AB LQ 0
+stand stand female none~
+25
+AHMV ABCDEFGHIJK medium 0
+#5852
+Miner Guild Guardian Guard~
+the miner's guild guardian~
+The Miner's Guild guardian stands here stern faced and resolute.
+~
+You are looking at a stout dwarf with a long black braided beard.
+He is covered head to toe in dirt, mining dust and muck.  The sweat
+from the heat of the days work has matted his hair in tangled knots.
+Looking a bit tired and wrung out from the days work, still he stands
+at his post doing his job for the guild.
+~
+dwarf~
+ABGZce A DEFJN 0 700 0
+35 9 10d135+900 0d0+100 5d8+20 punch
+-18 -18 -18 -20
+EFHIVX AB CLQ 0
+stand stand male none~
+16
+AHMV ABCDEFGHIJK medium 0
+F vul R
+#5853
+Xilopheri trainer miner~
+Xilopheri~
+Xilopheri is here, waiting to train.
+~
+Xilopheri stands here waiting to train some of his
+brethren in the arts and skills of mining.  Ripped muscles
+large hands and stocky.  This guy looks like he could rip
+your head off with a thought.
+~
+gnome~
+ABGJKZce A DEFHJ 0 500 0
+50 50 10d500+1000 0d0+100 8d10+40 pound
+-40 -40 -40 -40
+EFHIVX AB LQ BP
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+#5855
+drider~
+the drider~
+A drider stands here guarding his post, venom drips from his fangs as he awaits his prey!
+~
+The body of a large black widow spider and the torso, head
+and arms of a drow, this creature is a sight to see.  He has
+a twisted wry smile upon his face with two very large fangs
+that drip with a opaque venom down his cheeks.  Red arched
+eyes peer our from the cover of his long platinum hair that
+drapes down the sides of his head.  In an odd, funny gesture,
+there is a white feather that is attached to his hair as decoration.
+It looks to be like a giant eagle feather with red string holding it
+in place.
+~
+unique~
+ACEFRTYZcd A DFOPQ 0 -700 0
+50 10 10d175+1000 0d0+100 10d6+30 magic
+-15 -15 -15 -30
+BEFHJKNRUX BR AILPQ H
+stand stand male none~
+24
+0 0 large 0
+P GREET 5855 50~
+#5859
+Jailer Luva City~
+the Luva City Jailer~
+The Luva City Jailer stands here, arms crossed minding the jail.
+~
+Standing over nine feet tall this mass of moving muscle is an intimidating
+sight to those that would break the law.  Mean, white orbs for eyes stare out
+with a discriminating look upon all those that enter the premises.  What stands
+out most are his club-like fists that have gauntlets over them with spikes
+protruding from the knuckles.
+~
+ogre~
+AGTZe A DFJ 0 750 0
+45 20 10d150+900 0d0+100 5d10+25 smash
+-20 -20 -20 -20
+EFHIJNQX AB E CP
+stand stand male none~
+16
+AHMV ABCDEFGHIJK large 0
+#5861
+alcehmist guild guardian guard old man eldery bearded~
+an old man~
+A gray bearded elderly male in faded gray robes is here.
+~
+An elderly human male wearing a faded grayish robe fiddles about with
+some small item in his aged hands.  His long flowing beard has grown to
+about waist level.  His wrinkled face and thick brows do not cover up the
+still strong gleam in his eyes as they dart from place to place watching the
+entrance of people into the guild.
+~
+human~
+ABGJKZce A DEFJ 0 0 0
+35 9 10d135+900 0d0+100 5d8+20 none
+-18 -18 -18 -20
+EFHIVX AB LQ 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#5862
+Alchemist trainer~
+the alchemist trainer~
+The Alchemist trainer is her mixing potions and waiting to train someone.
+~
+~
+human~
+ABGJKZbce A DEFHJ 0 0 0
+60 15 10d600+2000 0d0+0 8d8+45 magic
+-40 -40 -40 -40
+EFHIX AB LQ 0
+stand stand none none~
+25
+AHMV ABCDEFGHIJK medium 0
+#5863
+dark knight guild guardian guard ~
+the dread knight~
+A dread knight peers with a reddishly haunting glare at you.
+~
+Blackened full plate armor seems to stand by itself between the entrance
+and the hall beyond.  The only signs of life are the reddish eerie eyes that
+penetrate the darkness.  Near motionless the occasional sounds of an otherworldly
+haunted echo seem to come from the knight as he allows or bars entrance to this
+sacred place.
+~
+undead~
+ABGOZce A DEFJ 0 -500 0
+35 9 10d135+900 0d0+100 5d8+20 wrath
+-18 -18 -18 -20
+EFHIVX ABLQ ILQ 0
+stand stand male none~
+16
+0 ABCDEFGHIJK medium 0
+F vul N
+#5864
+Trainer DarkKnight Dark-Knight Dark Knght~
+the Dark-Knight trainer~
+A dark-Knight trainer is here ready to train you.
+~
+~
+human~
+ABGJKZbce A DEFHJ 0 0 0
+60 15 10d600+2000 0d0+0 8d8+45 magic
+-40 -40 -40 -40
+EFHIX AB LQ 0
+stand stand male none~
+25
+AHMV ABCDEFGHIJK medium 0
+#5865
+shaman guild guardian guard drow skeletal bony~
+a bony figure~
+A skeletal drow stands here guarding and almost daring any to enter who do not belong.
+~
+A skeletal form dressed in skins and leathers stands here with twisted
+staff guarding the entrance of her brethren.  She appears to have once
+been either drow but those features have long been lost as she has practiced
+her arts.  Her milky whit eyes seem to look through and beyond as she scans the
+room for intruders.
+~
+drow~
+ABGZce A DEFJP 0 -350 0
+35 9 10d135+900 0d0+100 5d8+20 none
+-18 -18 -18 -20
+EFHIVX AB BLQ 0
+stand stand female none~
+14
+AHMV ABCDEFGHIJK medium 0
+F vul Ya
+#5866
+Shaman trainer~
+the shaman trainer~
+The Shaman trainer is here waiting to help train you.
+~
+~
+human~
+ABGJKZbce A DEFHJ 0 0 0
+60 15 10d600+2000 0d0+0 8d8+45 faith
+-40 -40 -40 -40
+EFHIX AB LQ 0
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+#5867
+necromancer necromancer's guild guardian garbed figure spectral black~
+a black garbed figure~
+A black garbed figure with a spectral hands stands here guarding the entrance.
+~
+Just visible behind the tattered hood an eyeless skull pierces the
+darkness.  Its skeletal hands gripping a scythe holding it stiffly at
+the ready.  With an unnatural knowing this guardian to the death
+halls prevents or allows egress into this dismal place of rot and decay.
+~
+undead~
+ABGOZce A DEFJ 0 -750 0
+35 9 10d135+900 0d0+100 5d8+20 none
+-20 -20 -20 -40
+EFHIVX ABLQ ILQ 0
+stand stand none none~
+19
+0 ABCDEFGHIJK medium 0
+F vul N
+#5868
+Necromancer trainer Nikki~
+Nikki~
+A black robed trainer stands here ready to teach necromancer's the death arts.
+~
+Pail putrid skin with depressions of guantness outline her cheeks. 
+Sunken milky white eyes reflect even the dimist of lighting which makes them
+appear to glow.  
+~
+unique~
+ABGJOZbce A DEFHJ 0 -750 0
+50 9 10d135+900 0d0+100 5d8+20 magic
+-40 -40 -40 -40
+EFHIVX ABCLQ ILQ 0
+stand stand female none~
+19
+AHMV ABCDEFGHIJK medium 0
+#5869
+Bixbie shopkeeper~
+Bixbie~
+Bixbie, the gnome, is here looking for customers.
+~
+A kindly looking elderly gnome is here.  He looks to be well-lived
+with his pot-belly and overly plump featured.  His bulbous nose and
+gray brow are a near comical sight to see especially when his toothless
+smile greets you a warm welcome.
+~
+gnome~
+ABTcde A DFJN 0 275 0
+60 45 10d200+1500 0d0+100 5d12+35 slap
+-40 -40 -40 -40
+FHX AB CD BP
+stand stand male none~
+30
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 5870 no.~
+P GREET 5869 100~
+P SPEECH 5871 yes.~
+#5871
+Fairy Healer Protector Healer Guardian Gwen~
+the fairy~
+Gwen, the Healers Guild Guardian, is here standing her post.
+~
+A golden haired female of the fae-folk floats here
+hummingbird-like watching the entrance of this guild.
+Her soft fair features are dimly outlined in a soft white
+luminescent aura.  Her golden curly locks fall just shy of her
+mid-back region.  Her almond eyes look innocent enough as
+she smiles a greeting to you.
+~
+unique~
+ABGZce A DEFHJT 0 300 0
+35 13 10d135+900 0d0+100 5d8+20 magic
+-18 -18 -18 -20
+EFHIVX ABC LQ 0
+stand stand female none~
+16
+AHMVW ACDEFHKP medium 0
+#5873
+adventurer adventurer's guild guardian guard humble man ~
+a humble guard~
+A humble looking man stands here guarding the Adventurer's Guild House.
+~
+A middle aged man is standing here preventing access to the guild
+to nonmembers. He has a wry grin on his face that seems to disarm
+even the coldest of heart. His salt and pepper colored hair belies his age.
+His moderately powerfully looking forearms are enhanced by his strong
+and calloused hands, which grapple the occasional trespasser with a
+strength that one would not expect from him.
+~
+human~
+ABGZce A DEFJ 0 0 0
+35 9 10d135+900 0d0+100 5d8+20 pound
+-18 -18 -18 -20
+EFHIVX AB LQ 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#5875
+guild guardian guard cleric divine~
+his divine holiness~
+The cleric guild guard stands here protecting The Order of Divinity.
+~
+Standing here adorned with the garb of his office the guild guardian looks
+sternly at all who pass to ensure that they are of the order.  His stance is
+that of a seasoned warrior and his demeanor is that of one who surely can do
+the job assigned to him.  Large calloused hands, deep set green eyes and a
+chronic frown upon his face indicates that he is willing to defend his guild to
+the death if need be.
+~
+human~
+ABGZce A DEFHJ 0 0 0
+37 11 10d200+900 0d0+100 5d8+23 none
+-20 -20 -20 -25
+EFHIVX AB LQ 0
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#5876
+cleric trainer~
+the cleric trainer~
+A trainer to the clerics is here waiting to aid you.
+~
+~
+human~
+ABGJKZbce A DEFHJ 0 0 0
+60 15 10d600+2000 0d0+0 8d8+45 faith
+-40 -40 -40 -40
+EFHIX AB LQ 0
+stand stand female none~
+25
+AHMV ABCDEFGHIJK medium 0
+#5877
+guild guard thief guardian~
+the thief~
+The thieves guild guardian is here.
+~
+Narrow eyes come to bear upon you as you enter this place.  She gives the
+stare that seems to penetrate right through your body, looking, searching,
+and sizing you up.  She occasionally steps up and prevents entrance to those
+that do not belong here and those that are persistent in their efforts to gain
+unwelcomed access she is a little more forceful with.  Her long slender hands
+nimbly dance upon her leg as she flips a coin over her knuckles in the other.
+~
+human~
+ABGZce A DEFJ 0 0 0
+35 9 10d135+900 0d0+100 5d8+20 none
+-18 -18 -18 -20
+EFHIVX AB LQ 0
+stand stand female none~
+14
+AHMV ABCDEFGHIJK medium 0
+#5878
+trainer skilled thief~
+a skilled trainer~
+A skilled trainer is here.
+~
+~
+human~
+ABGJKZbce A DEFHJ 0 0 0
+60 15 10d600+2000 0d0+0 8d8+45 stab
+-40 -40 -40 -40
+EFHIX AB LQ 0
+stand stand male none~
+28
+AHMV ABCDEFGHIJK medium 0
+#5879
+Trainer Sorcerer~
+the sorcerer trainer~
+A trainer for the sorcerers is here.
+~
+~
+human~
+ABGJKZbce A DEFHJ 0 0 0
+60 15 10d600+2000 0d0+0 8d8+45 magic
+-40 -40 -40 -40
+EFHIX AB LQ 0
+stand stand female none~
+29
+AHMV ABCDEFGHIJK medium 0
+#5880
+sorcerer guild guard guardian~
+the sorcerer~
+A sorcerer guards the entrance to the guild.
+~
+An mysterious figure stands here, arms folded, evaluating the
+area with a scrutinizing glare.  Behind the hooded robe two soft
+eyes can be detected darting about as people come and go.
+A faint wheezing can be heard coming from the depths of the robe.
+~
+human~
+ABGZce A DEFJ 0 0 0
+35 9 10d135+900 0d0+100 5d8+20 magic
+-17 -17 -17 -30
+EFHIVX AB LQ 0
+stand stand none none~
+15
+AHMV ABCDEFGHIJK medium 0
+#5881
+thaumaturgist guild guardian thaumaturgist's~
+the thaumaturgist~
+The thaumaturgist's guild guardian is here.
+~
+You are looking upon a fair elven lady with long flowing silvery
+hair.  Her almond eyes seem to catch everything that passes before her
+as she keeps watch upon the entrance to the guild house.  Her long slender
+fingers rest easily upon her narrow hips.  She stands unwaveringly at her post.
+~
+elf~
+ABGZce A DEFJP 0 0 0
+35 9 10d135+900 0d0+100 5d8+20 magic
+-17 -17 -17 -25
+EFHIVX AB BLQ 0
+stand stand female none~
+17
+AHMV ABCDEFGHIJK medium 0
+F vul Z
+#5882
+Thaumaturgist trainer~
+the Master Thaumaturgist~
+The Master Thaumaturgist is here ready to train his apprentices. 
+~
+~
+human~
+ABGJKZbce A DEFHJ 0 0 0
+60 15 10d600+2000 0d0+0 8d8+45 magic
+-40 -40 -40 -40
+EFHIX AB LQ 0
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+#5886
+skeleton ancient ancients~
+an ancient skeleton~
+An ancient skeleton rests here.
+~
+An ancient skeleton lay here resting in its eternal state.  Something
+glistens in one of its eye sockets.  
+~
+undead~
+ABOTU A DFJPQ 0 0 0
+45 0 5d10+200 0d0+0 1d4+25 none
+0 0 0 0
+RUX LQ I N
+stand rest none none~
+21
+0 ABCDEFGHIJK medium 0
+P ACT 5886 get~
+P DEATH 5887 100~
+P DEATH 5885 80~
+#5888
+shadow minion~
+a shadow~
+A shadow minion haunts this place.
+~
+Blacker than black this yellow eyed devil skulks the deep caverns looking
+for life to prey upon.  Its cold hatred for life radiates its loathsomeness
+so strongly it is all you can do to not puke in disgust.  
+~
+undead~
+AOTd A BJPQ G -300 0
+35 6 10d75+550 0d0+0 5d7+17 drain
+-15 -15 -15 -5
+FUX LQ I 0
+stand stand none none~
+15
+0 ABCDEFGHIJK medium 0
+F vul N
+#5889
+shadowbeast shadow void~
+the shadowbeast~
+A shadowbeast is here, shifting between the planes of shade and the prime material.
+~
+A void in the blackness, darker than the natural blackness that
+encompasses this creatures domain, waivers here as if attempting to maintain
+a balance between the netherworld from which it spawned from and this one
+for some nefarious reason.  
+~
+undead~
+ACGOTY A CDFGJOPV AH -700 0
+49 0 10d144+900 0d0+0 5d10+20 none
+-50 -50 -50 -30
+HU LQ I N
+stand stand none none~
+19
+0 ABCDEFGHIJK medium 0
+#5899
+gnome alchemist !luvaportal!~
+a Mar'Kyer Alchemist~
+A Mar'Kyer Alchemist is here, selling trips through his portals.
+~
+This short, fat, stubby little gnome is a member of the elite Mar'Kyer
+Guild of Alchemy. They first discovered the methods of portal travel
+years ago, and keep their secret closely guarded from others outside
+of their own guild. They seem to run quite a racket here, with shops set
+in nearly every city around Mirlan.
+~
+gnome~
+ABe A DFHJ 0 0 0
+60 45 4d6+5000 0d0+0 4d6+65 magic
+-21 -21 -19 -28
+0 AB 0 BP
+stand stand either none~
+25
+AHMV ABCDEFGHIJK tiny 0
+P SPEECH 8 dargoth~
+P SPEECH 7 zalango~
+P SPEECH 6 revelsport~
+P SPEECH 5 emmereaux~
+P GRALL 2 100~
+P SPEECH 3 ulsym~
+P RANDOM 25 50~
+P DELAY 9 100~
+#0
+
+
+
+#OBJECTS
+#5700
+backpack pack~
+backpack~
+A worn leather backpack is here.~
+leather~
+container 0 AO
+30 AC 0 0 0
+1 50 0 P
+#5701
+helm~
+steel helm~
+A black steel helm is here.~
+metal~
+armor 0 AE
+3 3 3 3 0
+20 50 5 P
+#5702
+studded leather bracers~
+studded leather bracers~
+A pair of studded leather bracers is here.~
+leather~
+armor 0 AI
+1 1 1 0 0
+20 20 15 P
+#5703
+halberd~
+a halberd~
+An eight foot halberd is here.~
+steel~
+weapon 0 AN
+polearm 5 8 none F
+20 200 10 P
+#5704
+chain mail~
+chain mail~
+Chain mail with the City of Luva's Crest on the right shoulder is here.~
+metal~
+armor 0 AD
+3 3 3 3 0
+20 450 10 P
+#5705
+pork haunch~
+a pork haunch~
+A smoked pork haunch is here.~
+flesh~
+food 0 AO
+24 24 0 0 76
+1 0 12 P
+#5706
+pork jerky~
+pork jerky~
+Strips of spiced pork jerky are here.~
+flesh~
+food 0 A
+12 24 0 0 152
+5 10 12 P
+#5707
+pork ribs~
+pork ribs~
+A rack of smoked pork ribs is here.~
+flesh~
+food 0 A
+24 24 0 0 48
+5 10 12 P
+#5708
+deep fried pork rinds~
+pork rinds~
+A bag of pork rinds is here.~
+cholesterol~
+food 0 A
+6 6 0 0 80
+5 10 3 P
+#5709
+pickled pigs feet~
+pickled pigs feet~
+A pair of pickled pigs feet is here.~
+flesh~
+food 0 A
+72 12 0 0 154
+0 10 6 P
+#5710
+pipe~
+corn cob pipe~
+A corn cob pipe is here.~
+wood~
+trash Y AOd
+0 0 0 0 0
+5 10 0 P
+#5711
+pearl earring earrings~
+a pearl earring~
+A small pearl earring is here.~
+pearl~
+trash 0 AZ
+0 0 0 0 0
+1 1 0 P
+F
+A 3 1 0
+#5712
+silver bracelet~
+a silver bracelet~
+A snake link silver bracelet is here.~
+silver~
+trash 0 AM
+0 0 0 0 0
+1 2 0 P
+E
+bracelet~
+This sparkling bracelet is snake linked.  Its clasps are that of a snake head biting its tail.
+asave changed
+~
+F
+A 2 1 0
+#5713
+gold ring~
+a golden ring~
+A golden band ring is here.~
+gold~
+trash 0 AB
+0 0 0 0 0
+1 1 0 P
+F
+A 4 1 0
+#5714
+marble bench~
+a marble bench~
+A marble bench is here.~
+marble~
+furniture 0 0
+0 0 0 0 0
+60 32000 0 P
+#5716
+South Square Luva Water Supply~
+the south square fountain~
+A beautiful marble fountain is here.~
+unknown~
+fountain 0 0
+-1 -1 'water' 0 0
+1 0 0 P
+#5717
+hoe~
+a hoe~
+A farmers hoe is here.~
+wood~
+weapon 0 AN
+polearm 2 5 smash F
+5 30 2 P
+#5720
+bucket~
+a wooden bucket~
+A wooden water bucket is here.~
+wood~
+drink 0 AO
+10 10 'water' 0 0
+5 50 2 P
+#5730
+chain necklace holy symbol Syithe~
+a silvery necklace~
+A Silvery necklace with a holy symbol hanging from it is here.~
+steel~
+treasure E AC
+0 0 0 0 0
+5 2 0 P
+E
+holy~
+The symbol is that of an open eye.
+~
+E
+symbol~
+The symbol is that of an open eye.
+~
+E
+chain~
+The symbol is that of an open eye.
+~
+F
+A 4 1 0
+#5731
+steel vambraces~
+a pair of steel vambraces~
+A pair of steel vambraces with a snake embossed in them is here.~
+steel~
+armor 0 AI
+1 1 1 1 0
+20 75 7 P
+L
+0
+#5732
+steel greaves~
+a pair of greaves~
+A pair of steel greaves with lions embossed in them are here.~
+steel~
+armor 0 AF
+1 1 1 1 0
+20 75 7 P
+F
+A 1 1 0
+#5733
+kite shield~
+a kite shield~
+A kite shield is here.~
+steel~
+armor 0 AJ
+2 5 5 1 0
+20 100 5 P
+#5734
+spiked helm~
+a spiked helm~
+A spiked steel helm with visor is here.~
+steel~
+armor 0 AE
+2 2 2 1 0
+25 50 5 P
+#5735
+brigadine chest plate~
+a chest piece of brigadine armor~
+The chest piece of brigadine armor is here.~
+steel~
+armor 0 AD
+3 2 3 1 0
+25 100 10 P
+#5736
+footman's mace~
+a mace~
+A footman's mace is here.~
+unknown~
+weapon 0 AN
+mace 5 5 smash 0
+20 50 5 P
+#5737
+North Plaza Water Supply~
+north plaza fountain~
+A well sculpted fountain with water retainer is here.~
+marble~
+fountain 0 0
+-1 -1 'water' 0 0
+0 0 0 P
+#5738
+mace~
+a mace~
+A stout wood handled mace with a metal cylinder styled head.~
+steel~
+weapon 0 AN
+mace 2 6 pound 0
+5 30 0 P
+#5739
+robe~
+a robe~
+A black robe with purple trim is here.~
+cloth~
+clothing 0 AD
+0 0 0 0 0
+5 50 0 P
+F
+A 12 10 0
+#5746
+brown hard leather boots~
+a pair of brown hard leather boots~
+A pair of brown hard leather boots is here.~
+leather~
+armor 0 AG
+1 1 1 0 0
+10 50 5 P
+F
+A 14 10 0
+#5747
+brown leather vest~
+a brown leather vest~
+A brown leather vest is here.~
+leather~
+armor 0 AD
+0 0 3 0 0
+10 50 5 P
+#5748
+wide brimmed hat with feather plume~
+a wide brimmed hat with feather plume~
+A wide brimmed black hat with a white feather plume is here.~
+canvas~
+armor Y AE
+0 0 0 1 0
+20 20 5 P
+F
+A 4 -1 0
+F
+A 3 1 0
+#5749
+iron banded staff~
+an iron banded staff~
+An iron banded staff rests here.~
+wood~
+weapon 0 AN
+staff 4 6 beating F
+15 100 5 P
+#5787
+belt semiprescious~
+a belt with semiprecious stones~
+A belt with semiprecious stones in it is here.~
+stone~
+treasure 0 AL
+0 0 0 0 0
+1 50 0 P
+E
+stone~
+The stones of this belt are mostly that of the ornamental type. 
+Azurites, agates, lapis lazuli, malachite and tiger eyes have been polished
+and placed all around this belt.  
+~
+E
+stones~
+The stones of this belt are mostly that of the ornamental type. 
+Azurites, agates, lapis lazuli, malachite and tiger eyes have been polished
+and placed all around this belt.  
+~
+E
+stones~
+The stones of this belt are mostly that of the ornamental type. 
+Azurites, agates, lapis lazuli, malachite and tiger eyes have been polished
+and placed all around this belt.  
+~
+F
+A 14 10 0
+#5794
+cheese wheel~
+yellow cheese~
+A yellow brick of cheese is here.~
+food~
+food 0 AO
+12 12 0 0 72
+5 50 6 P
+#5795
+loaf bread~
+a loaf of bread~
+A loaf of wheat bread is here.~
+food~
+food 0 AO
+12 12 0 0 12
+5 20 6 P
+#5796
+deer jerky~
+deer jerky~
+Some deer jerky is here.~
+food~
+food 0 AO
+18 18 0 0 96
+5 50 9 P
+#5797
+hamhock~
+a hamhock~
+A smoked hamhock is here.~
+flesh~
+food 0 AO
+24 24 0 0 24
+10 50 12 P
+#5798
+dried fruit~
+dried fruit~
+Some dried apples, pears, pineapples, bananas and papaya is here.~
+food~
+food 0 AO
+6 6 0 0 100
+15 10 3 P
+#5799
+large sack~
+large sack~
+A large brown sack is here.~
+cloth~
+container 0 AO
+50 A 0 50 0
+5 30 5 P
+#5800
+barrel~
+a barrel~
+A wood iron banded barrel is here.~
+wood~
+drink 0 AO
+75 75 'milk' 0 0
+10 500 10 P
+#5801
+black hard leather boots~
+leather boots~
+A pair of hard leather black boots is here.~
+leather~
+clothing 0 AG
+0 0 0 0 0
+10 100 10 P
+F
+A 14 10 0
+#5802
+cloak~
+cloak~
+A black cloak is here.~
+cloth~
+clothing 0 AK
+0 0 0 0 0
+10 50 10 P
+F
+A 14 15 0
+#5803
+tunic~
+a tunic~
+A red long sleeved tunic is here.~
+unknown~
+clothing 0 AD
+0 0 0 0 0
+5 10 5 P
+F
+A 12 10 0
+#5804
+gloves~
+leather gloves~
+A pair of one size fits all gloves are here.~
+leather~
+clothing 0 AH
+0 0 0 0 0
+5 10 5 P
+F
+A 2 1 0
+#5805
+belt~
+a belt~
+A thick black leather belt is here.~
+leather~
+clothing 0 AL
+0 0 0 0 0
+10 10 10 P
+F
+A 1 1 0
+#5807
+gold hoop earring~
+a gold hoop earring~
+A gold hoop earring is here gleaming.~
+gold~
+treasure Y AZ
+0 0 0 0 0
+35 1 20 P
+F
+A 4 1 0
+#5808
+firepit~
+a fire pit~
+A small crackeling fire is here.~
+unknown~
+light Y 0
+0 0 999 0 0
+0 0 0 P
+#5809
+chandelier~
+a chandelier~
+An ever-burning chandelier hangs from the rafters here shedding light to the room.~
+metal~
+light 0 0
+0 0 999 0 0
+0 0 0 P
+#5810
+scepter of light~
+a scepter~
+A scepter made of unknown material lay here glowing.~
+magic~
+light 0 ANO
+0 0 999 0 0
+20 50 20 P
+F
+A 19 2 0
+F
+A 18 2 0
+#5811
+punching bag~
+a punching bag~
+A punching bag hangs here from the ceiling for practicing and working out.~
+unknown~
+furniture MY P
+0 0 0 0 0
+0 0 0 P
+#5815
+altar of Rhuma~
+an altar~
+An altar of Rhuma has been erected here for your worship.~
+unknown~
+furniture Y 0
+0 0 0 0 0
+60 0 0 P
+#5816
+torch~
+the wall torch~
+A torch emitting a golden light is embedded here in the wall.~
+wood~
+light Y AO
+0 0 999 0 0
+0 10 0 P
+#5817
+pit Rhuma~
+the pit~
+A sacrifical pit to Rhuma is embedded into the ground here.~
+stone~
+container AY 0
+9999 0 0 9999 0
+0 0 0 P
+#5818
+altar of Amathe~
+an altar~
+An altar of Amathe has lovingly been created here for your worshiping needs.~
+unknown~
+furniture Y 0
+0 0 0 0 0
+0 0 0 P
+#5819
+Globe of Light~
+the globe of light~
+A globe of light floats here providing light.~
+magic~
+light 0 0
+0 0 999 0 0
+0 0 0 P
+#5820
+hearth pit~
+the hearth~
+A red brick hearth is here for donations and retrival of items.~
+unknown~
+container Y 0
+9999 0 0 9999 0
+0 0 0 P
+#5821
+offering bucket~
+the offering bucket~
+An offering bucket sits here waiting for your donation.~
+wood~
+container AGIKY 0
+100 0 0 1000 0
+0 0 0 P
+#5823
+floor~
+the floor~
+The glowing blue-black floor emits its faint eerie light here.~
+etheral~
+light BEG 0
+0 0 999 0 0
+0 32500 0 P
+#5824
+altar of Morgorin~
+an altar~
+An altar of Morgornin is here for you to worship and sacrifice to him.~
+unknown~
+furniture Y 0
+0 0 0 0 0
+0 0 0 P
+#5825
+coffin~
+the coffin~
+A large black coffin that glows an eerie blue-black light is here.~
+unknown~
+container Y 0
+9999 0 0 9999 0
+0 0 0 P
+#5827
+straw bed~
+the straw bed~
+A bed with a straw matress, blanket and pillow is here.~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#5836
+hammer~
+a hammer~
+A forging hammer is here.~
+unknown~
+weapon Y AN
+mace 6 8 smash 0
+45 100 10 P
+#5837
+forge~
+a large steel forge~
+A large steel forge has been placed here.~
+steel~
+furniture MY 0
+0 0 0 0 0
+0 0 0 P
+#5845
+floor lamp~
+an wrought iron floor lamp~
+A wrought iron floor lamp sits here in the corner eminating light throughout the room.~
+iron~
+light X 0
+0 0 999 0 0
+1 100 0 P
+#5846
+ranger sword~
+a silver sword~
+A silver sword lay here.~
+silver~
+weapon 0 AN
+sword 5 10 slash D
+35 100 100 P
+#5849
+small camp fire~
+a small camp fire~
+A small low-set campfire burns here.~
+fire~
+light 0 0
+0 0 999 0 0
+0 0 0 P
+#5855
+flame tounge sword long longsword~
+long sword~
+A flaming blade is here crackling.~
+fire~
+weapon H AN
+sword 10 5 flame A
+50 1 50 P
+#5857
+adamantine great helm~
+a great helm~
+An adamantine great helm with ivory horns is here.~
+unknown~
+armor Y AE
+3 3 3 3 0
+45 500 20 P
+#5858
+chest plate~
+an adamantine chest plate~
+An adamantine chest plate is here.~
+adamantine~
+armor Y AD
+1 1 1 1 0
+45 750 30 P
+F
+A 5 2 0
+#5859
+key Jail Luva~
+the Luva City Jail Key~
+The Luva City Jail key is here, glowing a fluorescent green.~
+diamond~
+key AHY AOP
+0 0 0 0 0
+0 1 0 P
+#5860
+adamatite spiked gauntlets~
+a pair of spiked gauntlets~
+A pair of gruesome looking spiked gauntlets are here.~
+adamantine~
+weapon AHY AH
+exotic 5 9 punch DI
+45 50 20 P
+#5867
+death scythe~
+a scythe~
+A black handled iron scythe lay here.~
+iron~
+weapon EPY AN
+sword 5 8 slash 0
+35 50 5 P
+#5868
+torch~
+a torch~
+A torch is laying here.~
+wood~
+light 0 AO
+0 0 12 0 0
+1 20 3 P
+#5869
+backpack~
+leather backpack~
+A leather backpack is laying here.~
+unknown~
+container 0 AKO
+50 AC 0 50 0
+1 30 3 P
+#5870
+leather helm~
+a leather helm~
+A stiff leather helm is laying here.~
+leather~
+armor 0 AE
+1 1 1 0 0
+5 20 5 P
+#5872
+studded leather bracers~
+studded leather bracers~
+A pair of studded leather bracers are resting here.~
+leather~
+armor 0 AI
+1 1 1 0 0
+7 10 10 P
+#5873
+bedroll~
+a bedroll~
+A fluffy looking bedroll is here.~
+cloth~
+furniture 0 AO
+0 0 0 0 0
+0 50 0 P
+#5874
+cot~
+a cot~
+A wooden cot is here.~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#5875
+canteen~
+canteen~
+A leather canteen is resting here.~
+leather~
+drink 0 AO
+6 6 'water' 0 0
+5 50 50 P
+#5877
+wall torch~
+a wall torch~
+A wall torch radiates it orangish light here.~
+fire~
+light 0 0
+0 0 999 0 0
+0 10 1 P
+#5879
+hookah~
+a hookah~
+A bronze and glass water hookah is here.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#5880
+wool fabric~
+four yards of woolen fabric~
+Four yards of woolen fabric are lying here.~
+woolen~
+fabric 0 A
+0 0 0 0 0
+10 40 4 P
+#5881
+silk fabric~
+four yards of silk fabric~
+Four yards of silk fabric are lying here.~
+silk~
+fabric 0 A
+0 0 0 0 0
+10 20 4 P
+#5882
+cotton fabric~
+four yards of cotton fabric~
+Four yards of cotton fabric are lying here.~
+cotton~
+fabric 0 A
+0 0 0 0 0
+10 20 4 P
+#5883
+linen fabric~
+four yards of linen fabric~
+Four yards of linen fabric are lying here.~
+linen~
+fabric 0 A
+0 0 0 0 0
+10 20 4 P
+#5884
+plaid fabric~
+four yards of plaid fabric~
+Four yards of plaid fabric are lying here.~
+plaid~
+fabric 0 A
+0 0 0 0 0
+10 40 4 P
+#5885
+star ruby~
+a star ruby~
+A glistening deep red ruby is here.~
+ruby~
+treasure H AO
+0 0 0 0 0
+45 2 100 P
+#5888
+shadowcloak cloak~
+thin black material~
+A thin black piece of material is here.~
+shadow~
+clothing ER AK
+0 0 0 0 0
+49 1 3 P
+F
+A 17 -5 0
+#5889
+shadow mace shadowmace~
+A blackened mace~
+A blackend mace with a spiked head is here.~
+diamond~
+weapon E AN
+mace 5 10 smash J
+49 50 2 P
+#5899
+scimitar sword~
+a scimitar~
+A well cared for scimitar is here.~
+steel~
+weapon H AN
+sword 5 9 slash F
+35 70 0 P
+F
+A 19 2 0
+F
+A 18 2 0
+#0
+
+
+
+#ROOMS
+#5700
+`5The Headwaters of the River Luva``~
+You stand on marshy soil as a wide, slow moving river carves its
+way lazily around you, spanning north and south. While slow, the
+water is deep blue, denoting its extreme depth, and it is well wide
+enough to support the movement of tallships running routes between
+Luva and the Sultanate of Jambool to the south.
+~
+~
+0 0 0 8
+D1
+~
+~
+0 0 5701
+S
+#5701
+`@A Bend in the Road``~
+You have come into a small forested area just south of Luva.  The road
+seemed to bend and curve to avoid a nearby swamp pushing the road
+through this brief and sparse sector of forested area.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 5702
+D3
+~
+~
+0 0 5700
+S
+#5702
+`@The edge of a Glen``~
+You are at the edge of a small glen.  The road travels south ward here through
+it as well as northward to Luva.  Up to the north the road curves and winds a little
+going around small marshy areas.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 5703
+D2
+~
+~
+0 0 5701
+S
+#5703
+`3A Twist in the Road``~
+The road turns yet again.  To the east the gates of Luva.  To the south
+a beaten well traveled path.  Gutter ruts from carriages and wagons have
+marred up the road.  Due to the nearby swampy areas, the ruts tend to stay
+constantly murky and muddy.  The center of the road seems to be nice and well
+packed but the occasional mud splash from horses and wagons can make this
+road a little more of a pain to travel than normal.
+~
+~
+0 0 65536 4
+E
+door~
+A sewer cover is here in the center of the road.
+It appears to be chained and locked.
+ 
+~
+E
+down~
+A sewer cover is here, chained and locked.  The occasional rat squeeking
+can be heard from below.  
+~
+D1
+~
+~
+0 0 5704
+D2
+~
+~
+0 0 5702
+D5
+~
+~
+ABCIM 0 5854
+S
+#5704
+`8South Gate of Luva ``~
+You have come to the south end of the City of Luva.  The road continues
+onward to the west and out of the city limits and northward down the main
+street of Luva.  There is a small guard house and wall here where the city
+guards maintain their post.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5705
+D2
+~
+~
+0 0 5200
+D3
+~
+~
+0 0 5703
+S
+#5705
+`8South Main Street ``~
+You are at the south end of main street in Luva. The road, hard
+packed and well traveled runs north to south. To the east and west
+of here you can see farm fields and farm houses.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5706
+D2
+~
+~
+0 0 5704
+S
+#5706
+`8South Main Street ``~
+You are at the south end of main street in Luva. The road, hard
+packed and well traveled runs north to south. To the east and west
+of here you can see farm fields and farm houses.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5707
+D2
+~
+~
+0 0 5705
+S
+#5707
+`8Main Street ``~
+There is a sign posted here mid-way between the two buildings to the east
+and west.  Main street continues on south and north.  
+~
+~
+0 0 0 1
+E
+sign~
+East ---->> Brandon's Market
+West <<------ Sherri's General Store
+~
+D0
+~
+~
+0 0 5708
+D1
+~
+~
+0 0 5800
+D2
+~
+~
+0 0 5706
+D3
+~
+~
+0 0 5802
+S
+#5708
+`8Main Street ``~
+To the west and east are some city gardens that are maintained by
+the city.  A sign posted saying keep off the flower beds rests just in front
+of the rose bushes that are thick against the road. Main street continues
+on north and south along this flagstone paved road.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5709
+D2
+~
+~
+0 0 5707
+S
+#5709
+`8Cross Roads of Main Street and 1st Street ``~
+You are at the intersection of Main street and 1st street.
+Main street continues north and south, 1st street runs east and west.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5710
+D1
+~
+~
+0 0 5755
+D2
+~
+~
+0 0 5708
+D3
+~
+~
+0 0 5751
+S
+#5710
+`8Nearing South Square ``~
+You are nearing the south square of Luva.  You are on
+main street south. The city streets look to be cobbled and
+taken care of very well.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5711
+D2
+~
+~
+0 0 5709
+S
+#5711
+`8South Main Street ``~
+You are within a stride of the south square of Luva.  To the west and
+east there are gardens tended by the locals here.  All manner of veggies
+are growing in them.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5712
+D2
+~
+~
+0 0 5710
+S
+#5712
+`8South Side ``~
+You are on the south side of the southern fountain in Luva.
+The mosaic tiles laid around the fountain glisten from the
+sprayed water giving the tiles a deeper hue to their many colors.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5716
+D1
+~
+~
+0 0 5713
+D2
+~
+~
+0 0 5711
+D3
+~
+~
+0 0 5714
+S
+#5713
+`8South East Side ``~
+This is the south east side of a fountain in Luva.
+The fountain is surrounded by a circular mosaic of
+bright colors.  The colors bounce off the dampness of
+them making the tiles color spring to life with vibrance.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5717
+D3
+~
+~
+0 0 5712
+S
+#5714
+`8South West Side ``~
+You are on the south west side of the souther city fountain of Luva.
+The many different mosaic tiles inlaid around this beautiful fountain
+are a bit damp from the splash outs of water that hit the inner ring of
+its marble rim marble.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5715
+D1
+~
+~
+0 0 5712
+S
+#5715
+`8West Side ``~
+You are on the western most side of the South Luva fountain.  
+There is a road that leads off to the west deeper into the cities
+many buildings.  There are thousands of neatly arranged multi-colored
+tiles arranged around the fountain that are a little damp from the spray
+of the water that gushes forth out of the mouth of the fountain.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5718
+D1
+~
+~
+0 0 5716
+D2
+~
+~
+0 0 5714
+D3
+~
+~
+0 0 5797
+S
+#5716
+`8South Fountain ``~
+You are at the center of the South Square in Luva.  Herringbone
+alternating black alabaster and white marble have been laid out
+around the fountain to accent it.  Out side of the alabaster and white
+marble is what appears to be a jade like stone set in as trim.  There
+are potted plants and flowers all around to give the fountain a serene
+and peaceful feel to it.
+~
+~
+0 0 0 1
+E
+fountain~
+The fountain is shaped of a white marble into the form of a beautiful
+elvish lady with long flowing robes.  She is pouring water from a large
+containter.
+~
+D0
+~
+~
+0 0 5719
+D1
+~
+~
+0 0 5717
+D2
+~
+~
+0 0 5712
+D3
+~
+~
+0 0 5715
+S
+#5717
+`8East Side ``~
+You are on the east side of the southern square.  To
+the east a road leads up to a temple.  The ground has
+been tiled with bright colored tiles that are a little
+damp from the fountains misty spray.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5720
+D1
+~
+~
+0 0 5799
+D2
+~
+~
+0 0 5713
+D3
+~
+~
+0 0 5716
+S
+#5718
+`8North West Side ``~
+You are on the north west side of a fountain in Luva.
+There is a little debris from litter bugs strewn about here
+but for the most part rather a clean place to sit and enjoy
+the marvelous park-like area of this southern luva square.
+The tiles that are laid here are mildly damp and just a little
+slick from the dew that is constantly there.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5719
+D2
+~
+~
+0 0 5715
+S
+#5719
+`8North Side ``~
+You are on the north side of the south fountain in Luva.  To the
+north is main street.  To the south a fountain and further south
+main street continues on.  Just to the east of the South Fountain
+are temples.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5721
+D1
+~
+~
+0 0 5720
+D2
+~
+~
+0 0 5716
+D3
+~
+~
+0 0 5718
+S
+#5720
+`8North East side of the fountain ``~
+You are on the north east side of a lovely fountain that
+was build in this southern square of Luva.  The ground has
+been inlaid with small tiles to form a mosaic.  There are
+semi-circled benches here for patrons to sit on and relax.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 5717
+D3
+~
+~
+0 0 5719
+S
+#5721
+`8Main Street ``~
+You are on the main street in Luva.  To the north, the street
+continues on for some ways.  To the south, you can see a
+large fountain spewing water for the citizens to drink and pull
+from.  To the east, there is a store entrance and to the west,
+open farm fields.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5722
+D1
+~
+~
+A 0 5829
+D2
+~
+~
+0 0 5719
+S
+#5722
+`8Main Street ``~
+You are on the main street in Luva.  To the north, the street
+continues on for some ways.  To the south, you can see a
+large fountain spewing water for the citizens to drink and pull
+from.  To the east, there is a store entrance and to the west,
+open farm fields.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5723
+D1
+~
+~
+A 0 5826
+D2
+~
+~
+0 0 5721
+S
+#5723
+`8City Central ``~
+You are standing at the intersection of main street and 3rd street.
+Just off of the street are inner cultivated gardens that are kept up
+by the royal families of Luva.  To the east and west, 3rd street runs.
+To the north and south, main street continues on.  There is a large
+gallows directly centered in the street.  It looks like it is used often
+as the dark brown dried blood stains seem to cover the whole of it.
+~
+~
+0 0 256 1
+D0
+~
+~
+0 0 5724
+D1
+~
+~
+0 0 5767
+D2
+~
+~
+0 0 5722
+D3
+~
+~
+0 0 5760
+S
+#5724
+`8Main Street ``~
+You are on main street.  There is a building to your east and 
+Main Street continues on north and south.  To the south is the cities
+central square.  A place designed for public gatherings.  There is a sign
+hanging over the door of the building on the east.  The building itself is a
+massive stone structure.  Solidly built and the windows have bars inset in
+them.
+~
+~
+0 0 0 1
+E
+sign~
+`!Luva City Jail``
+~
+D0
+~
+~
+0 0 5725
+D1
+~
+~
+A 0 5859
+D2
+~
+~
+0 0 5723
+S
+#5725
+`8Main Street ``~
+You are on Main Street about centered.  To the north there
+are a couple of buildings on the east and west sides of the road.
+To the south City Central and a gray stone building just to the east
+side of the road.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5726
+D2
+~
+~
+0 0 5724
+S
+#5726
+`8Main Street ``~
+You are on the main street in Luva.  To the west
+and east are shops and stores.  Up ahead to the north
+the road continues on as well as to the south.  The
+streets are kept rather clean and free of litter.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5727
+D1
+~
+~
+A 0 5838
+D2
+~
+~
+0 0 5725
+D3
+~
+~
+0 0 5869
+S
+#5727
+`8Main Street ``~
+You are along the main street in the city of Luva.  The road is
+cobbled with a grayish stone that looks well kept.  Buildings surround
+the streets.  Many shops and homes of the residents of this lovely town.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5728
+D2
+~
+~
+0 0 5726
+S
+#5728
+`8Intersection of Main and 4th Streets ``~
+You are at the intersection of Main Street which runs north
+and south and Fourth Street which runs east and west.  The street
+appears to be in good condition and repair.  Off in the distance
+to the north you can see a fountain.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5729
+D1
+~
+~
+0 0 5778
+D2
+~
+~
+0 0 5727
+D3
+~
+~
+0 0 5774
+S
+#5729
+`8North Main Street ``~
+You are along the north section of Main street in Luva.  The long
+straight road looks to run all the way through the main section of town.
+Most of the buildings throughout the town along this street are made
+of wood and are single storied.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5730
+D2
+~
+~
+0 0 5728
+S
+#5730
+`8North Main Street ``~
+You are on a street that runs north and south through Luva.
+The street is a gray cobbled road that looks well maintained
+even though the layout looks like it has been here for a very
+long time.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5731
+D2
+~
+~
+0 0 5729
+S
+#5731
+`8North Main Street ``~
+You are on a street that runs north and south through Luva.
+The street is a gray cobbled road that looks well maintained
+even though the layout looks like it has been here for a very
+long time.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5732
+D2
+~
+~
+0 0 5730
+S
+#5732
+`8North Main Street ``~
+You are on a street that runs north and south through Luva.
+The street is a gray cobbled road that looks well maintained
+even though the layout looks like it has been here for a very
+long time.
+ 
+To the north there is a beautiful central square with a fountain.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5733
+D2
+~
+~
+0 0 5731
+S
+#5733
+`8North Plaza ``~
+You are in the north plaza square.  There is a fountain centered
+among these cobbled stones.  Main street continues onwards south and north
+and just to the north there is another street.
+~
+~
+0 0 0 1
+E
+fountain~
+The fountain sits in the center of North Plaza.  It is a sculpture of
+A handsome male elf with his right hand holding a sword which is pointed to
+the ground and his left, where the water sprays out from into the retainer, is
+raised to the sky.  There is a bronze plaque that is embedded just below the feet
+of the statue.
+~
+E
+fountain~
+The fountain sits in the center of North Plaza.  It is a sculpture of
+A handsome male elf with his right hand holding a sword which is pointed to
+the ground and his left, where the water sprays out from into the retainer, is
+raised to the sky.  There is a bronze plaque that is embedded just below the feet
+of the statue.
+~
+D0
+~
+~
+0 0 5737
+D1
+~
+~
+0 0 5735
+D2
+~
+~
+0 0 5732
+D3
+~
+~
+0 0 5734
+S
+#5734
+`8South West Section of North Plaza ``~
+You are in the south west corner of north plaza.
+There is a fountain to the center of the plaza.
+Benches of stone have been placed here for the convinence
+of the citizens of Luva and travelers to rest on their
+journeys.
+~
+~
+0 0 0 1
+E
+fountain~
+The fountain sits in the center of North Plaza.  It is a sculpture of
+A handsome male elf with his right hand holding a sword which is pointed to
+the ground and his left, where the water sprays out from into the retainer, is
+raised to the sky.  There is a bronze plaque that is embedded just below the feet
+of the statue.
+~
+D0
+~
+~
+0 0 5738
+D1
+~
+~
+0 0 5733
+S
+#5735
+`8South East Section of North Plaza ``~
+You are in the south west corner of North Plaza
+There is a small sculpted garden that looks very well maintained
+here.  Along the walls of the garden that are about two to three
+feet in height are seats formed from rock that sit on the walls edge.
+~
+~
+0 0 0 1
+E
+fountain~
+The fountain sits in the center of North Plaza.  It is a sculpture of
+A handsome male elf with his right hand holding a sword which is pointed to
+the ground and his left, where the water sprays out from into the retainer, is
+raised to the sky.  There is a bronze plaque that is embedded just below the feet
+of the statue.
+~
+D0
+~
+~
+0 0 5736
+D3
+~
+~
+0 0 5733
+S
+#5736
+`8East Side of North Plaza ``~
+You are on the east side of the North Plaza.  To the east is East 5th street.
+The road appears to be well traveled and well kept up.  There are a couple of
+buildings close by down that street.
+~
+~
+0 0 0 1
+E
+fountain~
+The fountain sits in the center of North Plaza.  It is a sculpture of
+A handsome male elf with his right hand holding a sword which is pointed to
+the ground and his left, where the water sprays out from into the retainer, is
+raised to the sky.  There is a bronze plaque that is embedded just below the feet
+of the statue.
+~
+D0
+~
+~
+0 0 5741
+D1
+~
+~
+0 0 5787
+D2
+~
+~
+0 0 5735
+D3
+~
+~
+0 0 5737
+S
+#5737
+`8North Plaza Square ``~
+You are at the North Fountain.  Stone benches surround the
+fountain here about 20 feet away from it for sitting, talking and
+relaxation.  To the side of each of the benches is a large potted
+tree recessed into the red brick paving stones that make up the
+ground work here.  The red stones are trimmed with a lighter
+tannish colored stone that resembles desert sand.
+~
+~
+0 0 0 1
+E
+fountain~
+The fountain sits in the center of North Plaza.  It is a sculpture of
+A handsome male elf with his right hand holding a sword which is pointed to
+the ground and his left, where the water sprays out from into the retainer, is
+raised to the sky.  There is a bronze plaque that is embedded just below the feet
+of the statue.
+~
+E
+plaque~
+In dedication to his loyal service to the royal family of Luva
+we honor his deeds, his life, and his untimely death.  A sacrifice
+that will always be remembered.  Thank you Lord Vey Orthlonious
+You are always in our thoughts and prayers.  Peace be yours as you
+rest eternal.
+~
+D0
+~
+~
+0 0 5740
+D1
+~
+~
+0 0 5736
+D2
+~
+~
+0 0 5733
+D3
+~
+~
+0 0 5738
+S
+#5738
+`8West Side of the North Plaza ``~
+You are on the west side of the North Plaza fountain.  To the
+west is a street that looks fairly narrow and uninviting. To the east
+is the fountain and another street.  North and South Main streets continue.
+~
+~
+0 0 0 1
+E
+fountain~
+The fountain sits in the center of North Plaza.  It is a sculpture of
+A handsome male elf with his right hand holding a sword which is pointed to
+the ground and his left, where the water sprays out from into the retainer, is
+raised to the sky.  There is a bronze plaque that is embedded just below the feet
+of the statue.
+~
+D0
+~
+~
+0 0 5739
+D1
+~
+~
+0 0 5737
+D2
+~
+~
+0 0 5734
+D3
+~
+~
+0 0 5782
+S
+#5739
+`8North West side of North Plaza fountain. ``~
+You are on the north west side of the North Plaza fountain.
+There is beautiful marble fountain at the center of this awesome
+central plaza.
+~
+~
+0 0 0 1
+E
+fountain~
+The fountain sits in the center of North Plaza.  It is a sculpture of
+A handsome male elf with his right hand holding a sword which is pointed to
+the ground and his left, where the water sprays out from into the retainer, is
+raised to the sky.  There is a bronze plaque that is embedded just below the feet
+of the statue.
+~
+D1
+~
+~
+0 0 5740
+D2
+~
+~
+0 0 5738
+S
+#5740
+`8North Side of North Plaza Fountain ``~
+You are on the north side of the North Plaza fountain.  Main
+Street runs north and south here.  Just to the south, the fountain
+spits out water for public use.
+~
+~
+0 0 0 1
+E
+fountain~
+The fountain sits in the center of North Plaza.  It is a sculpture of
+A handsome male elf with his right hand holding a sword which is pointed to
+the ground and his left, where the water sprays out from into the retainer, is
+raised to the sky.  There is a bronze plaque that is embedded just below the feet
+of the statue.
+~
+D0
+~
+~
+0 0 5742
+D1
+~
+~
+0 0 5741
+D2
+~
+~
+0 0 5737
+D3
+~
+~
+0 0 5739
+S
+#5741
+`8North East Side of North Plaza ``~
+You are on the north east side of the North Plaza fountain.
+To the center of the plaza there is a huge magnificently
+scuplted fountain for all to enjoy.
+~
+~
+0 0 0 1
+E
+fountain~
+The fountain sits in the center of North Plaza.  It is a sculpture of
+A handsome male elf with his right hand holding a sword which is pointed to
+the ground and his left, where the water sprays out from into the retainer, is
+raised to the sky.  There is a bronze plaque that is embedded just below the feet
+of the statue.
+~
+D2
+~
+~
+0 0 5736
+D3
+~
+~
+0 0 5740
+S
+#5742
+`8North Main Street ``~
+You are on North Main Street.  To the north, the road continues on out of the
+city.  To the south, North Plaza and Main Street continues on through the length
+of the city.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5743
+D1
+~
+~
+0 0 16800
+D2
+~
+~
+0 0 5740
+S
+#5743
+`8North Main Street ``~
+You are on North Main Street, to the south, North Plaza.
+To the east and west of you are farmer's fields.  Hay, corn, greens
+and all manner of veggies are being grown here along with feed crops.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5744
+D2
+~
+~
+0 0 5742
+S
+#5744
+`8North Main Street ``~
+You are on North Main Street which runs north and south here.
+The gates to the city are just up north a ways.  To the west and east,
+are crops of all kinds.
+ 
+A small wooden sign is placed on the street here.
+~
+~
+0 0 0 1
+E
+sign~
+The Mar'Kyer Portals ===>
+Travel to anywhere in Mirlan for 200 gold!
+~
+D0
+~
+~
+0 0 5745
+D1
+~
+~
+0 0 5899
+D2
+~
+~
+0 0 5743
+S
+#5745
+`8North Luva Gates ``~
+You are at the city gates of Luva.  There is a posted guard here
+minding the traffic to and from the city.  Advising those that would
+break the law that the Justice Keepers are welcome and enforce the law here.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5746
+D2
+~
+~
+0 0 5744
+S
+#5746
+`3North Pass to Luvan Wood ``~
+You are outside the city limits of Luva.  To the north the path
+continues for quite some ways.  To the south, the city of Luva.
+to the east and west, the farmers fields grow larger and larger.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 5747
+D2
+~
+~
+0 0 5745
+S
+#5747
+`3North Pass ``~
+You are on the North Pass to the Luvan wood.  To the south you can see
+a city gates.  The road is hard packed and well traveled.  To the east and
+west are farms and open fields.  The northward trail seems to get a little
+hilly up ahead.
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 5748
+D2
+~
+~
+0 0 5746
+S
+#5748
+`3North Pass ``~
+You are on a trail that runs through some small hills.  Trees are
+starting to dot the area and fill in the open fields.  To the south a
+small valley and the smoke from fires indicate perhaps a sizable city
+not too far off in the distance.  To the north, a forest covers the horizon.
+~
+~
+0 0 16384 4
+D1
+~
+~
+0 0 5749
+D2
+~
+~
+0 0 5747
+S
+#5749
+`3North Pass Bend ``~
+You are at a bend in the trail.  The region is very hilly and semi
+forested.  To the north a large forest.  To the east the trail continues on.
+~
+~
+0 0 8192 4
+D0
+~
+~
+0 0 5750
+D3
+~
+~
+0 0 5748
+S
+#5750
+`3A Small Clearing ``~
+You are at the base of a larger hill.  To the north a very large wooded area.
+To the south the trail continues on through the hilly region.  To the east and
+west hills covered with numerous trees and vegetation making travel through
+them next to impossible.
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 5900
+D2
+~
+~
+0 0 5749
+S
+#5751
+`8West 1st Street ``~
+You are coming down a narrow alley heading west down
+1st street.  Further to the west you can see a couple of buildings.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5709
+D3
+~
+~
+0 0 5752
+S
+#5752
+`8West 1st Street ``~
+You are coming down a narrow alley heading west down
+1st street.  Further to the west you can see a couple of buildings.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5751
+D3
+~
+~
+0 0 5753
+S
+#5753
+`8West 1st Street ``~
+You are on West First Street.  The road runs east and west.  To the west
+there is a building on the north side of the street and a make shift archway
+on its southern side.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5752
+D3
+~
+~
+0 0 5754
+S
+#5754
+`8West End of 1st Street ``~
+You are at the west end of First Street.  There is an open field to the south
+that hangs from a make shift archway of antlers and animal bones.  There is a
+plaque that hangs on the building to the north's wall to the right of its door.
+~
+~
+0 0 0 1
+E
+sign~
+`2Druids Grove``
+~
+E
+plaque~
+`5Commoner's Guild House and Meeting Hall``
+~
+D0
+~
+~
+0 0 5808
+D1
+~
+~
+0 0 5753
+D2
+~
+~
+0 0 5806
+S
+#5755
+`8East 1st Street ``~
+You are at the beginning of the east end of 1st street. This is a
+narrow alley way more than a street and even in the day the alley
+is darkened a bit by the shrubs and trees to the north and south.
+The street continues on towards the east a little ways ending at what
+looks to be a temple.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5756
+D3
+~
+~
+0 0 5709
+S
+#5756
+`8East 1st Street ``~
+You are on an east and west running narrow street.  To the east
+a temple can be seen and two other buildings. The street is paved
+with gray flagstones.  Most places these stones are cracked and
+small bits of weeds have sprouted up through them.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5757
+D3
+~
+~
+0 0 5755
+S
+#5757
+`8East 1st Street ``~
+There is a slight dip in the road here where water collects into
+puddles.  Due to the flagstone paving the puddles tend to stay
+for long periods of time, making the street a little slippery. There
+appears to be a carved section of wall on the north building which
+has been scripted in the common tongue, outlined in gold, to form
+a very beautiful sign.
+~
+~
+0 0 0 1
+E
+sign~
+`3Brotherhood of the Miners Guild Hall``
+~
+D0
+~
+~
+0 0 5852
+D1
+~
+~
+0 0 5758
+D3
+~
+~
+0 0 5756
+S
+#5758
+`8East 1st Street ``~
+You are coming down a narrow alley heading west down First Street.
+To the immediate south a buildings entrance as well as to the north.
+There is a sign on the building to the north and an ornate plaque on
+the door of the south building.
+~
+~
+0 0 0 1
+E
+sign~
+`0Jewlers Guild House``
+~
+E
+plaque~
+`!Warriors Guild Hall``
+~
+D0
+~
+~
+0 0 5812
+D1
+~
+~
+0 0 5759
+D2
+~
+~
+0 0 5810
+D3
+~
+~
+0 0 5757
+S
+#5759
+`8East End of 1st Street ``~
+You are at the east end of 1st street right at the steps of a temple.
+To the north and south is a well manicured lawn with a few bushes
+growing up against the temple walls.  There is a huge vine that has
+coursed its way up the stone walls and has been so for many years
+now covering nearly the entire wall and up to the roof.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5814
+D3
+~
+~
+0 0 5758
+S
+#5760
+`8Third Street ``~
+You are on the west side of Third Street.  To the east
+the Cities Central Square.  You can see a gallows centered
+there.  To the west the road continues on and looks like it
+may curve to the north a little ways down.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5723
+D3
+~
+~
+0 0 5761
+S
+#5761
+`8Third Street ``~
+You are on the west side of Third Street.  To the north
+and south are open gardens that the locals use to grow small
+crops.  To the east the road continues on towards Main Street.
+To the west Third Street continues on and appears to turn
+northward after a bit.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5760
+D3
+~
+~
+0 0 5762
+S
+#5762
+`8Third Street ``~
+You are nearing the west end of Third Street.  To the east
+the road continues on.  Just up ahead to the west Third Street
+takes a sharp turn to the north.  Looking to the north from here
+you can see small local gardens and to the south there is a building
+entrance that looks guarded.  There is a sign above the doorway.
+~
+~
+0 0 0 1
+E
+sign~
+`%Alchemist Guild``
+~
+D1
+~
+~
+0 0 5761
+D2
+~
+~
+0 0 5861
+D3
+~
+~
+0 0 5763
+S
+#5763
+`8Dark Alley ``~
+You are at a sharp turn in the road where Third Street turns into
+a dark alley.  To the west is a building entrance and to the north
+the road continues on.  There are two more structures to the north on
+the west side of the road.  To the east from here Third Street continues.
+There is a sign on the right side of the entrance of the building to the west.
+~
+~
+0 0 0 1
+E
+sign~
+`@Guild of the Dark-Knights enter at your own peril!``
+~
+D0
+~
+~
+0 0 5764
+D1
+~
+~
+0 0 5762
+D3
+~
+~
+0 0 5863
+S
+#5764
+`8A Darkened Alleyway ``~
+You are on a darkened alleyway just off of Third Street which
+is to the south of you.  To the north dark foreboding buildings loom
+at the end of the street and just up ahead to the west of you.  The
+street does not look like it gets much attention as the cobbles are
+cracked and falling apart.  Directly to the east and west of you are
+barren fields where it looks like crops once grew.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5765
+D2
+~
+~
+0 0 5763
+S
+#5765
+`8A Dark Street ``~
+You are on a dark narrow street.  The cobbles used to pave it
+are nearly completely crumbled into a dirt.  To the west is a large
+building that has weirdly painted symbols and sigils all over it.
+There is a sign which looks like it was written in blood and then
+varnished which hangs precariously by some rusted chains over
+the iron gate entrance.
+~
+~
+0 0 0 1
+E
+sign~
+`3Guild of the Shaman egress upon our holy grounds at your own risk!``
+~
+D0
+~
+~
+0 0 5766
+D2
+~
+~
+0 0 5764
+D3
+~
+~
+0 0 5865
+S
+#5766
+`8A Dirth Path in the City ``~
+The road has completely diminished into nothing more than a dirt
+pathway.  Small weeds which have avoided being trampled upon grow up
+in the dirt here.  There is a disturbing looking building to the north.
+There is a glowing ethereal sign that seems to float over its deep grained
+iron banded wooden doors.
+~
+~
+0 0 0 1
+E
+sign~
+`5 Guild of the Necromancers.  Enter at the risk of your demise.``
+~
+D0
+~
+~
+0 0 5867
+D2
+~
+~
+0 0 5765
+S
+#5767
+`8Third Street ``~
+You are on the east side of Third Street.  The street looks very well
+maintained here.  The cobbles look like they have been replaced with a
+different stone that resembles an opaque white much like that of a pearl.
+To the west you can see the cities Central Square.  To the east the road
+continues onward.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5768
+D3
+~
+~
+0 0 5723
+S
+#5768
+`8Third Street ``~
+You are on east Third Street.  To the north and south the sides
+of some buildings.  To the east, the road appears to sharply turn
+north bound and to the west, Main Street.  The roads been paved with
+an opaque white stone that resembles the color of pearls.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5769
+D3
+~
+~
+0 0 5767
+S
+#5769
+`8Third Street ``~
+You are nearing the end of Third Street.  To the west the opaque
+white stone road continues on and to the east a buildings entrance with
+the road making a drastic turn north. There is a white stone building to
+the south with its entrance surrounded by white marble columns.  There
+is a sign that looks to have been made of copper and the letters painted
+a royal blue written in trade common.
+~
+~
+0 0 0 1
+E
+sign~
+`4Order of Cavaliers, guild members only!``
+~
+D1
+~
+~
+0 0 5770
+D2
+~
+~
+0 0 5830
+D3
+~
+~
+0 0 5768
+S
+#5770
+`8A Sharp Turn North ``~
+Third Street turns sharply to the north here and continues on to
+the north.  There is a building entrance directly to your east and
+Third Street also continues to the west of here. There is a amazingly
+ornate sign on the door of the entrance to the east.
+~
+~
+0 0 0 1
+E
+sign~
+`6Holy Order of Paladins Guild House``
+~
+E
+door~
+`6Holy Order of Paladins Guild House``
+~
+D0
+~
+~
+0 0 5771
+D1
+~
+~
+0 0 5832
+D3
+~
+~
+0 0 5769
+S
+#5771
+`8North Third Street ``~
+Third Street has taken a turn to the north.  At the end of the street
+to the north is a building and about halfway down on the east side of the street
+is another building.  The road is cobbled with an opaque white stone resembling
+a polished pearl.  To the west, there are some shrubs and bushes that have been
+planted by the royals of Luva to increase the beauty of the city.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5772
+D2
+~
+~
+0 0 5770
+S
+#5772
+`8North Third Street ``~
+North Third Street runs of course north and south here.  To the
+south however the street appears to take a right turn and continues on.
+There is a wooden buildings entrance here to the east with an animal skull
+hanging over its arches with a rope run through the fangs of the skull which
+is attached to a sign.
+~
+~
+0 0 0 1
+E
+sign~
+`8Berserkers Guild House``
+~
+D0
+~
+~
+0 0 5773
+D1
+~
+~
+0 0 5834
+D2
+~
+~
+0 0 5771
+S
+#5773
+`8North End Third Street ``~
+You are at the very reaches of North Third Street.  The street does
+run to the south here, to the south however, its paved white stone road turns
+drastically to the right.  There is a building entrance here made of a solid
+piece of iron with iron rings set about halfway up the door.  About midway 
+southwards there is a building to the east and at the end of North Third Streets
+southern end is another building.  There is a sign which looks to be hammered
+out of iron and is a little rusty from being out in the weather.
+~
+~
+0 0 0 1
+E
+sign~
+`1Blacksmith Guild House and Forge``
+~
+D0
+~
+~
+0 0 5836
+D2
+~
+~
+0 0 5772
+S
+#5774
+`8Fourth Street ``~
+You are on the west side of fourth street.  The street to the
+east crosses Main street.  To the west, the road takes a sharp
+turn to the north.  This portion of the road seems to be in a mild
+state of disrepair.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5728
+D3
+~
+~
+0 0 5775
+S
+#5775
+`8Bend in West Fourth Street ``~
+You are at a north and east turn on Fourth Street.  To the north
+there are a couple of buildings.  One is off to the west side of the
+road and the other is directly to the north some ways up.  Just south
+of you are where local farmers have planted a few crops.  Area being
+sparse in the city it seems like every square inch of useful land is used
+to support the citizens.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5776
+D1
+~
+~
+0 0 5774
+S
+#5776
+`8North Fourth Street West Side ``~
+You are on Fourth Streets north west side.  To the immediate
+west are more small crops farmers and citizens have planted to
+sustain themselves.  To the north there is a building and to the
+north west, another.  Both buildings look to be made of a sandy
+beige stone.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5777
+D2
+~
+~
+0 0 5775
+S
+#5777
+`8North End of West Fourth Street ``~
+You are at the very north end of west Fourth Street.  To the 
+south Fourth Street continues on and then takes a sharp turn to
+the left.  To the direct west there is a building entrance as well as
+to your direct north.  There is a post with words carved into them
+at the north entrance and a sign made of what looks to be gold with
+words embossed into it.
+~
+~
+0 0 0 1
+E
+sign~
+`#Healers Guild House and Training Center``
+~
+E
+post~
+`5Adventurers Guild Hall and Gathering``
+~
+D0
+~
+~
+0 0 5873
+D2
+~
+~
+0 0 5776
+D3
+~
+~
+0 0 5871
+S
+#5778
+`8Fourth Street ``~
+You are on Fourth Streets east side.  To the west, Main Street.
+To the east Fourth Street continues and then takes a sharp turn
+north.  The road is well maintained here as the cobbles are still
+looking solid and in place.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5779
+D3
+~
+~
+0 0 5728
+S
+#5779
+`8Turn North ``~
+You are on Fourth Street at a bend in the road that heads north and
+west.  To the north the road is short but does continue on.  There is a
+decent sized stone building on the east side of the road just north of here.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5780
+D3
+~
+~
+0 0 5778
+S
+#5780
+`8North Fourth Street ``~
+You are about midway on North Fourth Street.  To the east and west
+are a bit of high grass and weeds.  Further to the west there is a small
+retention pond.  To the north the road continues and ends at the door of a
+building.  There is also a building on the east side of this road.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5781
+D2
+~
+~
+0 0 5779
+S
+#5781
+`8North End of Fourth Street ``~
+You are at Fourth Streets most northern end.  There are building
+entrances to the north and to the east.  From the east there is a stench
+of boiling leather.  There is a sign posted in front of the north building
+and a painted words on the door of the east building.
+~
+~
+0 0 0 1
+E
+words~
+`1Tailor and Leather Workers Guild Hall``
+~
+E
+sign~
+`^Merchants Guild House and Meeting Hall``
+~
+D0
+~
+~
+0 0 5843
+D1
+~
+~
+0 0 5840
+D2
+~
+~
+0 0 5780
+S
+#5782
+`8West 5th Street ``~
+You are on a west running street.  To the east the North Plaza and fountain.
+The street runs quite a ways down ending in some buildings with two buildings
+about halfway down.  Between the structures are city planted foliage and some
+intermittent gardens where locals grow crops for food.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5738
+D3
+~
+~
+0 0 5783
+S
+#5783
+`8West 5th Street ``~
+The street you are on runs to the east and to the west.  Directly to the north
+there is a building entrance.  To the south, gardens where the city of Luva has
+planted flowers and shrubs to beautify the city a little.  There is a brightly
+glowing red sign just to the right of the door entrance that begs to be read.
+~
+~
+0 0 0 1
+E
+sign~
+`!Guild House of the Mighty Thaumaturgist``
+~
+D0
+~
+~
+0 0 5881
+D1
+~
+~
+0 0 5782
+D3
+~
+~
+0 0 5784
+S
+#5784
+`8West 5th Street ``~
+You are on an east and west running street.  To the immediate south
+there is a building entrance.  To the immediate north, open farmland.
+Above the arched doorway are huge letters that look to be made of brass
+that have been polished to a high sheen.
+~
+~
+0 0 0 1
+E
+arch~
+`*Guild House and Hall of Clerical Arts``
+~
+E
+archway~
+`*Guild House and Hall of Clerical Arts``
+~
+E
+door~
+`*Guild House and Hall of Clerical Arts``
+~
+E
+doorway~
+`*Guild House and Hall of Clerical Arts``
+~
+E
+entrance~
+`*Guild House and Hall of Clerical Arts``
+~
+E
+letters~
+`*Guild House and Hall of Clerical Arts``
+~
+D1
+~
+~
+0 0 5783
+D2
+~
+~
+0 0 5875
+D3
+~
+~
+0 0 5785
+S
+#5785
+`8West 5th Street ``~
+You are on a street that runs east and west.  Just to the west there is a
+building entrance and the north another building, guilds perhaps.  To the
+east a bit and south another building and just past that, another.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5784
+D3
+~
+~
+0 0 5786
+S
+#5786
+`8End of West 5th Street ``~
+You are at the end of west fifth Street.  There are buildings to the west
+and north of here that look well guarded.  To the south, mini city gardens
+that the locals tend to.  To the east, Fifth Street continues on.  There is
+a plaque on the north building just right of the entrance and a sign laid up
+against the west building that looks to be in the process of being painted. 
+~
+~
+0 0 0 1
+E
+sign~
+`@Thieves Guild``
+~
+E
+plaque~
+`&Guild Hall of the Sorcerers``
+~
+D0
+~
+~
+0 0 5880
+D1
+~
+~
+0 0 5785
+D3
+~
+~
+0 0 5877
+S
+#5787
+`8East 5th Street ``~
+You are on East 5th Street.  A few more steps and you will be between
+two buildings to the north and south.  They look busy and guarded.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5788
+D3
+~
+~
+0 0 5736
+S
+#5788
+`8East 5th Street ``~
+You are on East 5th Street.  There are two building entrances here.
+One to the north, one to the south, that both look guarded as well as often
+used.  They are stone buildings well made and sturdy looking.  To the north
+there is a wooden doorway that has a small sign posted on it.  To the south,
+there is an enormously ornate silver plaque with bronze leaf lettering.
+~
+~
+0 0 0 1
+E
+plaque~
+`*House of Nobles, Guild and Gathering Hall``  There is the royal
+crest to the left of the nobles crest here as a sign of allegiance to
+the city of Luva's Royal Family.
+~
+E
+sign~
+`%Ranger's Guild and Training Grounds``
+~
+D0
+~
+~
+0 0 5846
+D1
+~
+~
+0 0 5789
+D2
+~
+~
+0 0 5844
+D3
+~
+~
+0 0 5787
+S
+#5789
+`8East 5th Street ``~
+You are on East 5th Street.  To the west, the North Plaza fountain.
+To the east the road continues on and bends to the south just up ahead.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5790
+D3
+~
+~
+0 0 5788
+S
+#5790
+`8East 5th Street ``~
+You are on East 5th Street.  To the north and west are open fields where
+the local farmers plant and plow crops.  To the west and east, 5th street
+continues onward.  There is a turn up ahead to the east.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5791
+D3
+~
+~
+0 0 5789
+S
+#5791
+`8Corner of East 5th Street and Royal Ave ``~
+You are at the corner of 5th and Royal.  To the west, 5th street continues.
+To the south begins Royal Ave.  From here you can see the well maintained gardens
+and stratigically places flowering trees to give this area a nicely sulptured look.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 5792
+D3
+~
+~
+0 0 5790
+S
+#5792
+`8Royal Ave ``~
+You are at the north end of Royal Ave.  The road curves eastwards to the south
+and westwards to the north.  It is a very well maintained road with bushes
+and cultivated flower trees such as the ancient magnolia trees a few feet off of 
+the road here to the east and west.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5791
+D2
+~
+~
+0 0 5793
+S
+#5793
+`8South Royal Ave. ``~
+You are at the south end of Royal Ave.  Placed beside the road are
+trimmed and sculptured bushes and trees that are obviously well taken
+care of by someone.  The road begins to turn a bit eastwards in just a few steps
+to the south.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5792
+D2
+~
+~
+0 0 5794
+S
+#5794
+`8East Royal Ave. ``~
+You are at the corner of Royal Ave where it begins to head eastward and
+turns sharply to the north.  To the north, Royal Ave.  Continues on.  To the
+east, it appears to end at some wrought iron, spiked and guarded gates.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 5793
+D1
+~
+~
+0 0 5795
+S
+#5795
+`8Royal Ave East ``~
+You are on East Royal Ave.  Just up ahead is a gate.  Behind it an area
+under construction.  Huge piles of materials lay behind the gate, covered to
+protect them from the elements.  A mean looking guard stands post just
+outside of the gate.  To the west, Royal ave turns sharply to the north.  On
+the sides of the road are gardens of many variety of flowers and bushes
+neatly trimmed and shaped.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5796
+D3
+~
+~
+0 0 5794
+S
+#5796
+`8Awning of the Royal Mansion ``~
+You are standing in front of a lot that is under construction.  It
+appears that the Royals of Luva have been focusing their efforts in building
+a grand mansion.  The area has been blocked off by a massive gate that
+appears to have no way of opening it.  In front of the gate is one of the
+largest humans seen in these parts.  He is wearing the garb and colors of
+the Royal House of Luva.  
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 5795
+S
+#5797
+`8West 2nd Street ``~
+You are on 2nd streets west side.  There is a temple further west, a
+fountain to the east.  
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5715
+D3
+~
+~
+0 0 5798
+S
+#5798
+`8West 2nd Street End ``~
+You are at the west end of 2nd street.  There is a temple
+here to the west.  To the east, the South Square Main Street
+fountain. To the west there is a large carved sign in the shape
+of a skull with reddish eyes that seem to glow.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 5797
+D3
+~
+~
+0 0 5822
+S
+#5799
+`8East 2nd Street ``~
+East 2nd Street is a short street.  It ends here at a temple entrance.
+To the east, a temple, to the west, the south square fountain.
+There is a large sign posted above the east entrance here.
+~
+~
+0 0 0 1
+E
+sign~
+All are welcome to our holy temple in honor of her gracious lady, Amathe.
+~
+D1
+~
+~
+0 0 5818
+D3
+~
+~
+0 0 5717
+S
+#5800
+`8Brandon's Market `` ``~
+You are standing at the front porch of a market.  Tables have been set up
+here for the selling of wares.  
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 5707
+D4
+~
+~
+0 0 5801
+S
+#5801
+`8Brandon's Home ``~
+You are in the single room house of Brandon the Market Clerk.
+Not much to look at here, a bed, a lamp, a clay pitcher and water basin
+and a pair of slippers tucked neatly under the bed.  A rod that holds an
+extra set of cloths hangs in the corner by the window, drying.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 5800
+S
+#5802
+`8Sherri's General ``~
+You are in Sherri's General Store.  Items of interest to the
+adventurer can be found here in bins and hanging from pegs on the wall.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5707
+D4
+~
+~
+0 0 5803
+S
+#5803
+`8Sherri's Bedroom ``~
+You are in the back room of Sherri's General store.  A bed night
+stand and small oil lamp can be seen here along with a small trunk
+hat is half open with ladies clothing and an extra pair of shoes.  The
+place is clean but sparse.  There is a small cooking stove to the back
+wall with a small bucket of coal.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 5802
+S
+#5804
+`@Shrine of the Order ``~
+You have come to a small shrine to Gaemina, Lojani
+and Ejamina. Three of the most popular goddess of the
+forest people.  There is a cleared out area just before
+the altar for rituals and the area has been kept free of
+offending debris. There is a druidic instructor here,
+ready to help you train.
+~
+~
+0 8192 8192 3
+D0
+~
+~
+0 0 5807
+D3
+~
+~
+0 0 5805
+S
+#5805
+`3Grotto Opening ``~
+The path has opened up into a small opening.  There are old
+dead trees laying about here that have been carved into sort of
+seats.  There is a fire pit here for evenings camp fires to warm
+and light the area.
+~
+~
+0 8192 12288 2
+D0
+~
+~
+0 0 5806
+D1
+~
+~
+0 0 5804
+S
+#5806
+`@Druids Guild Grove  ``~
+You are on a dirt path that has been made through this section of
+old forest growth.  Left here and maintained by the Druids request the
+royals of Luva have seen fit to allow the normally peaceful druids their 
+place in the city to come together and gather for druidic purposes that
+only they are aware of.
+~
+~
+0 8192 16384 3
+D0
+~
+~
+0 0 5754
+D2
+~
+~
+0 0 5805
+S
+#5807
+`2Deeper into the Grotto ``~
+The grotto here has been left to be attended by nature itself.  Dense and
+thick with trees, fauna and all kinds of forest life this is the true
+testament of the druids and their charges.  
+ 
+ 
+    There is a `!sign`` posted here written in trade common.
+~
+~
+0 8192 16384 13
+E
+sign~
+Our order has created a special escape route through the realm.
+If you go `!NORTH`` from this area you will find yourself outside
+of the City of Luva.  Past the city gates.  This is a `!ONE WAY`` exit.
+Which does not allow you to come back the same way.  But, coming back here
+will allow you to pass back through the enchanted door.
+Peace and Dormicc be with you in your travels.
+~
+D0
+~
+~
+0 0 5748
+D2
+~
+~
+0 0 5804
+S
+#5808
+`8Commoners Guild House ``~
+You are in the common room entry way to the Commoners Guild.
+A pretty sterile environment save for the Guild Guard and the others
+that traverse in and out on a regular basis here.  The room is spotlessly
+cleaned.  The floors a thick planked hardwood much like the walls.  The
+ceiling is raised to a 30 foot level with I beams that run the length of the
+room.  There is a low hanging chandelier which provides light.
+~
+~
+0 8200 0 0
+D2
+~
+~
+0 0 5754
+D5
+~
+~
+0 0 5809
+S
+#5809
+`8The Commons ``~
+You are in a fairly large basement-like room.  In the center of the
+room is a nice looking mahogany rectangular table and chairs.  The
+table is about 20 feet long and 8 feet wide.  It is set up for gatherings.
+There is room for about 40 people at the table.  There are four
+candelabras  placed on it for special occasions.  There is someone
+standing at the back of the room here.
+~
+~
+0 8192 4096 0
+D4
+~
+~
+0 0 5808
+S
+#5810
+`8Blood Hall ``~
+You are in the Warriors Hall, Guild to Warriors.  The words
+"Hard" and "Cold" describe this place better than any other.
+No frills or luxuries to speak of this place has been set up to
+train the body and mind without any room to spare for anything else.
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 5758
+D2
+~
+~
+0 0 5811
+S
+#5811
+`8The Training Room ``~
+The air is filled with the smell of fresh blood and sweat from the
+intense training and exercises that take place here.  Circles of
+different sizes have been pained on the hardwood floors.  Battle
+circles for hand to hand distant and closing drills.  This room like
+all rooms here are made explicitly for training warriors and practicing
+their skills to hone them to make themselves deadly combatants.
+~
+~
+0 8200 4096 0
+D0
+~
+~
+0 0 5810
+S
+#5812
+`8Jewelers Guild "The House of Fortuitous Creation" ``~
+There is all kinds of dusty floating around here.  One might think
+they have ended up in the miners guild if one were not sure of themselves.
+Tools of the trade lay all about as well as broken bits and pieces of junk
+jewelry and gemstones as well as pieces of precious metal strands used
+to make jewelry from.  Not enough to make it worthwhile to collect but
+defiantly noticeable.
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 5813
+D2
+~
+~
+0 0 5758
+S
+#5813
+`8Jewel of the House ``~
+There are many work stations around here for the jewelers
+to work at.  Very few home comforts, but the necessities for
+production and advancing the livelihood of the guild can be
+found here.  As well as the short person sitting at one of the
+work stations who is known to be the guild trainer and practice
+extraordinaire.
+~
+~
+0 8200 4096 0
+D2
+~
+~
+0 0 5812
+S
+#5814
+`8Temple of Rhuma ``~
+You are in a great domed hall of gold and gray.  Upwards, there is a giant
+golden spoked wheel hanging by golden chains from the dome above.  Large gray
+tiles form the flooring to this temple and murals of commerce are painted upon the
+walls in vibrant colors mostly of a middle aged fat man dressed in golden garments
+with a large smile as he makes his deals to merchants, common folk and royals.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5817
+D1
+~
+~
+0 0 5815
+D2
+~
+~
+0 0 5816
+D3
+~
+~
+0 0 5759
+S
+#5815
+`8Annex ``~
+Here loyal followers of Rhuma come to talk of trade and commerce,
+adventures and acquisition of their wealth.  There are desks and chairs set
+up for the comfort of those that come to visit, draw up legal documents and
+or discuss treaties.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 5814
+P SPEECH 5815 worship~
+P GRALL 5814 100~
+S
+#5816
+`8The Commons ``~
+There are makeshift cots attached to the wall here where loyal
+followers of Rhuma come to rest in relative safty.  Each wall has three
+rows of five cots going up the 20 foot high room.  There is a soft golden
+light provided by the temple for those who come here to rest to see by.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5814
+S
+#5817
+`8Place of Position ``~
+This place in the temple of Rhuma is bland.  Its starkness is neither joyous
+nor depressing.  Solid gray walls with not much to mark anything of note except
+the large hole in the center of the room.  At the bottom of the hole is a painting
+of a gold coin.  The coin is a sculptured raise relief with gold paint atop it which
+gives it its beauty for what it is, an icon, a symbol of Rhuma's greatness.
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 5814
+S
+#5818
+`8Temple of Amathe ``~
+You are in a sparse room with red walls and brownish trim.  Many
+acts of goodness and healing are captured in the tapestries and paintings
+that hang here on its walls.  Revered images of those healers of the past
+are embodied in the many statues that sit atop pedestals pushed up against
+the walls.  These are about the only finery that can be found in this holy place.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5820
+D1
+~
+~
+0 0 5819
+D2
+~
+~
+0 0 5821
+D3
+~
+~
+0 0 5799
+S
+#5819
+`8Resting Room ``~
+Some cots and benches have been placed in this enormous room.
+Many of the priests and clerics of Amathe come here to rest and relax
+after their daily chores and pilgrimages.  Offered to all who are in need
+of a good nights sleep or just a place to sit for a moment or two.
+~
+~
+0 8 0 0
+E
+cot~
+Staw lined cots are here for the priests and clerics as well as travelers.
+~
+E
+cots~
+Staw lined cots are here for the priests and clerics as well as travelers.
+~
+E
+benches~
+There are some simple wooden benches here to sit on
+~
+E
+bench~
+There are some simple wooden benches here to sit on
+~
+D3
+~
+~
+0 0 5818
+P SPEECH 5819 worship~
+P GRALL 5818 100~
+S
+#5820
+`8Room of Love, Healing and Sacrifice ``~
+You are in a shrine room where a good sized hearth is used for donations.
+There is scroll work along the upper and lower edges of the walls done in
+a bright red paint trimmed with brown to give a raised effect.  The floors
+are hard wood stained to a light red.  There is a hearth here with gifts of
+love place upon it.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 5818
+S
+#5821
+`8Prayer Room ``~
+Knee pillows are lined up here next to a small altar dedicated
+to her lady Amathe.  There is a reddish-brown, nearly rust in color,
+rug that extends from the doorway to the altar area.  There is a small
+offering bucket with the words in trade common "Please help the children"
+inscribed upon it.
+~
+~
+0 8 0 0
+E
+altar~
+A small table about knee high sits here with a red velvet table runner on
+top of it.  There is a three stick candle holder centered with two incense
+burners to either side of the candle holder.  There is a small statue of a white
+dog that sits behind the altar table between the wall and the table.
+~
+D0
+~
+~
+0 0 5818
+S
+#5822
+`8Temple of Morgorin ``~
+Dark and gloomy are the halls of this temple.  Images of death
+encompass the walls and pilars that hold this dread place up.  There
+is a sign just above the entrance to this dark hall.
+~
+~
+0 8 0 0
+E
+sign~
+All who come to the lands will feel Morgorin's touch.
+~
+D0
+~
+~
+0 0 5825
+D1
+~
+~
+0 0 5798
+D2
+~
+~
+0 0 5824
+D3
+~
+~
+0 0 5823
+S
+#5823
+`8A Void ``~
+This area is void of all material things.  The walls are as dark as
+if someone had bespelled them to be this way.  The one thing that
+stands out are the floor tiles that radiate a blue-black light which
+barely gives off enough light to see by.  This room is known to the
+temple priests as the prayer room.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5822
+P SPEECH 5823 worship~
+P GRALL 5822 100~
+S
+#5824
+`8Dead Zone ``~
+Lavish items have been placed in here, objects of art, statues, tapestries
+and the like. Items for that long trip to the nether world and your final resting
+place to which all eventually come to have been placed here as a reminder that
+the mortal world is fleeting and though you hold onto these things in life, in death
+they are but trinkets.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5822
+S
+#5825
+`8The Crypt ``~
+You are in a room that has heavy black curtains that descend the length
+of the walls.  There is a huge coffin that sits up against the northern
+wall.  There is a statue of the grim reaper, hand extended and pointing
+towards the south to the left of that coffin.  The floors are of a dull
+black stone that seems to absorb all light.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 5822
+P SPEECH 5825 worship~
+P ACT 5825 worship~
+S
+#5826
+`8Peasants House ``~
+Wooden plank flooring and walls are the style here.
+There is a window on the west wall that looks out to
+Third Street.  To the east there is a back room.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5827
+D2
+~
+~
+0 0 5829
+D3
+~
+~
+A 0 5722
+S
+#5827
+`8Bedroom `` ``~
+You are in the back room of a peasants house.  A bed, torch and
+a few dirty articles of clothing are tossed about on the floor with a
+pair of muddy worn out shoes.  There is a broken hoe sticking out
+from under the bed.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 5828
+D3
+~
+~
+0 0 5826
+S
+#5828
+`8Loft ``~
+You are at the top of a hay loft.  Hay is strewn about in broken bails.
+There is a pitch fork and a hail bailing hook hanging from a peg nailed
+into the rafters.  Possibly an excellent place to hide from prying eyes.
+~
+~
+0 134742025 0 0
+D0
+~
+~
+0 0 5827
+D5
+~
+~
+0 0 5829
+S
+#5829
+`8Farm House ``~
+You have entered the front room of a peasants wooden 
+farm house.  There is not much in here except a table, two chairs
+and some plowing equipment.  The floors are a little dirty from lack
+of cleaning, tossed hay and wear.  There are cobwebs in the corners
+where the walls meet the ceiling. There is a latter leading up to a loft.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5826
+D3
+~
+~
+A 0 5721
+D4
+~
+~
+0 0 5828
+S
+#5830
+`8The House of Honor and Glory ``~
+You have come into one of the finest displays of weapon and armor collections
+known to exist in Luva.  If it has been tried and tested in the heat of battle it
+hangs here as a testament to the brave men and women who have taken it to
+its limits for honor and glory.  With small brass plaques dedicated to those that
+made best use of weapons and armor with short notes of the items qualities
+embossed with raised relief letters.  The entire hall seems to be made around
+these items. Just above them, hanging at angles are the pennants of all the
+Cavaliers of the lands of Mirlan to glorify their family names and personal deeds.
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 5769
+D2
+~
+~
+0 0 5831
+S
+#5831
+`8The Hall of Honor ``~
+Suits of armor that have been ornately stood upon pedestals with hands atop
+swords pointing downwards in front of the statuesque plate armor are placed along
+the walls.  So closely situated they are the wall between them can barely be seen.
+At the base of each of the suits of armor are high polished wood plaques with the names
+of the fallen Cavaliers who attained the greatest glory in battles of the past.
+~
+~
+0 8200 4096 0
+D0
+~
+~
+0 0 5830
+S
+#5832
+`8Guild of Paladins ``~
+Upon crossing the threshold attention is immediately drawn to the sterile
+feel of this hall.  White marble tiling overlaid and trimmed with gold leaf.
+Grand and colorful paintings of the great paladins of the past line the walls.
+There are long marble benches that are placed up against the east and west
+walls.  That have been molded with fantastic creatures found throughout the
+lands.
+~
+~
+0 8200 0 0
+D2
+~
+~
+0 0 5833
+D3
+~
+~
+0 0 5770
+S
+#5833
+`8Training and Prayer Room ``~
+You are in a training room with a small marble altar at the south wall.
+A small section of this room, dedicated to the piety of the paladins.  The rest
+of the room fully functional training area to hone skills and train hard in the
+never ending battle against evil.
+~
+~
+0 8200 4096 0
+D0
+~
+~
+0 0 5832
+S
+#5834
+`8Berserker Guild ``~
+You are in the guild hall of the Berserker's.  As expected.  Broken furniture strewn
+about the room gives this place a less than desirable look about it.  There are several
+tables and chairs that seem to be bolted to the floor, made of a petrified wood to resist
+breakage and damage by the normally ill-tempered Berserkers.
+~
+~
+0 8200 0 0
+D1
+~
+~
+0 0 5835
+D3
+~
+~
+0 0 5772
+S
+#5835
+`8a back room ``~
+You are in the back room of the infamous berserker guild.  While the
+front room is in disarray, one gets the impression by the finer things well
+placed and polished that it is for appearances only.  Only by actually seeing
+the immaculate cleanliness of this halls back area does one understand that
+the Berserkers are well adapted at keeping secrets and not at all as they
+portray themselves to the outside world as they too indeed enjoy the finer
+things in life and by the looks of the tapestries, carvings and furniture,
+most definitely have an appreciation for them as well.
+~
+~
+0 8200 4096 0
+D3
+~
+~
+0 0 5834
+S
+#5836
+`8House of the Smithies ``~
+You have stumbled into the House of the Blacksmiths.  This place is
+Abnormally hot and humid from the forge.  The floor is covered in a
+black dust from the errant embers from banged out iron that have flown
+landed on the ground from many strikes of a hammer in the creation of
+weapons and armor.  There are scraps of pig iron laying about too small
+to be of much use to anyone, remnants of the smithies hard work.
+~
+~
+0 8200 4194304 0
+D1
+~
+~
+0 0 5837
+D2
+~
+~
+0 0 5773
+S
+#5837
+`8The Forge ``~
+You are in the Forging room of the blacksmith guild.  Empty save the
+tools of the trade.  Centered is a huge tempered steel forge used for
+the creation of items by the masters of the trade.
+~
+~
+0 8200 4198400 0
+D3
+~
+~
+0 0 5836
+T 90
+S
+#5838
+`8Warehouse and Storage ``~
+You are in a large empty room that appears to be used for storage
+by the broken and empty boxes and containers all about.  Packing
+materials and broken tools can be found through the garbage left
+behind by transients that seem to have found this nice safe haven
+from rainy days.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5839
+D3
+~
+~
+A 0 5726
+S
+#5839
+`8Garbage Heap `` ``~
+This building should be condemned.  The wooden walls are
+coming down around the ceiling, garbage piled high to about
+waste level has been dumped here.  Some torn and ripped
+blankets and soft materials have been laid out in cleared areas
+where it appears to be used as a vagabond resting place.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 5838
+S
+#5840
+`8Tailor Guild ``~
+You are within the Tailor Guild.  Leathers and bolts of cloth along with shearing
+are stacked neatly and orderly along the walls for easy access.  The simple layout
+of the building is designed for production and not much else.  The finery that can be
+found in most Guild halls is surprisingly absent here.
+~
+~
+0 8200 0 0
+D1
+~
+~
+0 0 5841
+D3
+~
+~
+0 0 5781
+S
+#5841
+`8A resting room ``~
+You are in the eastern room of the Guild of Tailors.  A few well hand crafted
+sofas and hairs are scattered about the room with end tables and a small bookshelf.
+The books appear to be on the art of tailoring and things associated with the mundane
+aspects of the day to day needs of a tailor.
+~
+~
+0 8200 4096 0
+D3
+~
+~
+0 0 5840
+S
+#5842
+`8Lounge ``~
+You are in the back room of the merchants guild house.  A phenomenal amount of
+"stuff" is in here.  Things from all corners of Mirlan.  Nick naks of various kinds
+are situated on high shelving units, odd tribal chairs and tables surround the great hall
+of this place as well as many different kinds of fabrics, stone statues and arts work.  None
+of which seems to match but together they meld into a melody of flow and overall depiction
+of life in Mirlan.
+~
+~
+0 8200 0 0
+D1
+~
+~
+0 0 5843
+S
+#5843
+`8Merchant's Guild House ``~
+You are in a narrow corridor that leads to the main room of the merchants guild.
+The walls are covered with maps of travel routes throughout the realms.  A simple
+design with not much in the way of decor but this place is clean and well kept.  
+Orderly arrangement of the tables and chairs for maximum use of the small house.
+~
+~
+0 8200 0 0
+D2
+~
+~
+0 0 5781
+D3
+~
+~
+0 0 5842
+S
+#5844
+`8Guild House to the Nobles ``~
+Lavish, the one word that can really and truly describe the contents of this guild house.
+More of a mansion with its 15 foot high ceilings and hard marble floors.  Columns spiral up
+the walls with intricately carved depictions of the gods and other mythical beasts of Mirlan.
+You are in the central hall of this great mansion, a near sterile, museum-like environment.
+Tapestries and paintings cover the high walls, most are family crests of the nobles of the
+lands.  A purple and golden runner runs from the main entrance to the south archway and
+beyond.
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 5788
+D2
+~
+~
+0 0 5845
+S
+#5845
+`8Great Hall of the Nobles ``~
+A long table capable of seating perhaps 50 people runs the length of this hall.
+Huge white marble columns with a swirl design hold the marble appearing ceiling
+in place.  At the center of the hall there is a dome with stained glass murals of the
+great kings, winged beings, and surreal depictions of maidens and beautiful diva's
+prancing about.  Just enough light escapes through the glass to illuminate this dome
+and give it a seemingly unnatural quality about it.  The floor center has a runner of
+purple and gold, the colors of royalty.  The walls have pictures of natural settings such
+as the woods, the beaches, mountains and other natural wonders all exquisitely done
+by the great masters of brush and oil.
+~
+~
+0 8200 4096 0
+D0
+~
+~
+0 0 5844
+S
+#5846
+`@Ranger's Guild ``~
+You have crossed the threshold of a wooden arbor that has led you into a well
+maintained park area.  The path you are on is surrounded by many varieties of
+fauna and fruit bearing plants that seem to perpetually be in season.  The path
+is lined by tall pole pines that are closely cropped together as if they have been
+purposely grown that was to hide the path from prying eyes.
+~
+~
+0 8192 8192 3
+D0
+~
+~
+0 0 5847
+D2
+~
+~
+0 0 5788
+S
+#5847
+`@a Rangers Path ``~
+You are on a long and narrow path within the Rangers guild.  The trees
+have purposely been cultivated to grow thickest along the rim of the path
+to keep it obscure from prying eyes.  As dense as deep forest the trees
+make it near impossible to discover what lay beyond its wall.
+~
+~
+0 8192 12288 3
+D1
+~
+~
+0 0 5848
+D2
+~
+~
+0 0 5846
+S
+#5848
+`@An Opening in the Path ``~
+You are at an opening in the forest of the Rangers Guild.  To the east the
+cultivated trees seem to open up into a circular clearing with trees that surround
+the whole of it.  To the west a pathway that curves slightly to the south.  The sounds
+of metal on metal ring out occasionally.  The occasional "Thwwap" of an arrow striking
+a bale of hay can also be heard from time to time.
+~
+~
+0 8192 8192 3
+D0
+~
+~
+0 0 5851
+D1
+~
+~
+0 0 5849
+D3
+~
+~
+0 0 5847
+S
+#5849
+`@Gathering Circle ``~
+Among the clearing of the guild the ground here has been worn and hardened by
+the many years of foot falls and use.  Scattered about are twigs and branches
+used for firewood.  Some of the branches have been purposefully left behind as
+the size of them permits the use of them as comfortable seating which have been
+arranged around the center pit of this secluded gathering place.
+~
+~
+0 8192 16384 3
+D0
+~
+~
+0 0 5850
+D3
+~
+~
+0 0 5848
+S
+#5850
+`@North East Corner of Ranger Guild ``~
+You are in an untended thicket of briars and vegetation within the
+Ranger Guild.  There are a few tracks upon the ground which look
+like rodent or rabbit tracks.  To the south and west the area opens
+up into a clearing.
+~
+~
+0 8192 8192 3
+D2
+~
+~
+0 0 5849
+D3
+~
+~
+0 0 5851
+S
+#5851
+`@A Soft Meadow ``~
+You are in a cleared meadow within a copse of trees.  Grass and
+wild flowers are in an abundance here giving the place a soft serene
+feel to it.  This may be a grand place for quit mediation, quite conversation
+and even resting under the blanket of the sky.
+~
+~
+0 8192 16384 3
+D1
+~
+~
+0 0 5850
+D2
+~
+~
+0 0 5848
+S
+#5852
+`8Miners Guild Hall `` ``~
+Green tile has been plastered on the walls here with a darker
+green, near malachite, base board.  A low hanging chandelier
+ornately made of some leaded crystal, hangs here from the
+ceiling, with its lowering and raising gold chain hooked to the
+west wall.  There is an exit to the south which leads to the street
+and a second exit to the north which leads to a second room of
+the Guild.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 5853
+D2
+~
+~
+0 0 5757
+S
+#5853
+`8Gathering Hall ``~
+Gold trimmed jet stone are supported by rose crystal columns
+with intricate reliefs carved into them.  There are lounging chairs,
+small knee tables and other nick-knacks randomly placed throughout
+the small room.  There is a huge raised relief image carved out of a heavy
+20 x 30 foot piece of onyx on the south wall. 
+~
+~
+0 8 0 0
+E
+image~
+The onyx relief is a depiction of miners doing their daily
+thing.  Iron-ore carts coming out of a mountain side with
+miners going to and fro throughout the panorama.  A piece
+of skilled work made of an impressively well polished and
+huge chunk of this onyx stone.
+~
+E
+relief~
+The onyx relief is a depiction of miners doing their daily
+thing.  Iron-ore carts coming out of a mountain side with
+miners going to and fro throughout the panorama.  A piece
+of skilled work made of an impressively well polished and
+huge chunk of this onyx stone.
+~
+D2
+~
+~
+0 0 5852
+S
+#5854
+`1A hiding spot ``~
+You are in a deep dark pit below the main thoroughfare of Luva.  There is
+a dank and damp musty odor to this place.  There is a huge sign obilisk here
+glowing begging to be read.  
+~
+~
+0 135012613 65552 13
+E
+obilisk~
+Death and pain.  Jolma's minions below.  S'argoth warns thee.  Though
+shalt not be of poor strength if thy enter further.  Go back.  Save
+yourself!  
+~
+E
+up~
+A drain cover looms above.
+~
+D4
+~
+~
+ABCIM 0 5703
+D5
+~
+~
+ABM 0 5855
+S
+#5855
+`1Deeper into the Hole``~
+The tunnel you are on seems to be getting more narrow.  There are only
+two escapes from this underground grave.  
+~
+~
+0 168558857 32768 13
+D0
+~
+~
+A 0 5856
+D4
+~
+~
+ABM 0 5854
+S
+#5856
+`1Deep underground``~
+The dampness of this underground tunnel is all about.  The walls of this
+earthen passage seep with a sulfuric heavy water which makes the tunnel reek
+of a strong rotting egg-like aroma.  
+~
+~
+0 135004425 16384 13
+D2
+~
+~
+A 0 5855
+D5
+~
+~
+A 0 5857
+S
+#5857
+`1A dark cavern``~
+You are in a very dark cavern, under ground, somewhere.  Strange
+noises echo off of the walls in this hollowed area.  Stalagmites and
+stalactites twist and turn from ground to ceiling and ceiling to ground
+in a grotesque horrifying manner.
+~
+~
+0 134742281 16384 13
+D4
+~
+~
+A 0 5856
+D5
+~
+~
+A 0 5858
+S
+#5858
+`1An underground tunnel``~
+You are at the entrance to a tunnel.  Looking ahead is impossible
+due to the unnatural dark that permeates the area.  A slight breeze
+from the tunnel brushes by with a cold chill that makes you shiver a
+little.
+~
+~
+0 135004169 65536 13
+D0
+~
+~
+0 0 5883
+D4
+~
+~
+A 0 5857
+S
+#5859
+`8Luva City Detention Center ``~
+You are in a bland gray stone building.  The walls are made of solid
+slabs of mountain.  There is a single window on the west wall that has bars
+inset in it.  There is an exit to the west and a doorway with a gate to the
+east.  The gate has a massive looking lock, definitely meant to keep people
+in and out unless they have the key to it.
+~
+~
+0 135012352 128 1
+D1
+~
+~
+AF 5859 5860
+D3
+~
+~
+A 0 5724
+S
+#5860
+`8Luva City Holding Cell ``~
+You are in a damp cell.  To the west there is a cell gate with a jailer
+just on the other side.  There is condensation that has stained the walls
+a rust color from the heavy concentration of iron-ore in the water here.
+There is a green moss that is growing at the bottom edges of the cells
+walls.  A dark and dreary place for sure.
+~
+~
+0 135012352 128 0
+D3
+~
+~
+AF 0 5859
+M 5 H 5
+S
+#5861
+`8Alchemist Laboratory ``~
+You are at the threshold of the Alchemist Guild.  All about the room there are
+shelves and shelves of tomes and manuscripts on huge inset wall units that are
+made of a light wood.  The flooring is matt polished granite that gives it very
+little reflective qualities.  Here and there stains from some unknown potion or
+experiment that spilled can be spotted.
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 5762
+D2
+~
+~
+0 0 5862
+S
+#5862
+`8The Lab ``~
+You have stepped into the world of vials, flasks, tables and a multitude
+of experiments.  This room is one large laboratory for most all of an
+Alchemist needs.  The walls have been re-enforced with thick polished
+granite for the occasional error in a potions mix to prevent damaging too
+much of the structure or outer city.
+~
+~
+0 8200 4096 0
+D0
+~
+~
+0 0 5861
+S
+#5863
+`8Guild of the Dark Knights ``~
+You are at the entrance of a grand hall ornately decorated
+with black onyx walls, floor and ceiling trimmed out with gold.
+The room has a sterile appearance to it, museum-like and very
+clean.  This place has a cold and dismal feel to it as the evil
+seems to emanate from the air.
+~
+~
+0 8200 0 0
+D1
+~
+~
+0 0 5763
+D2
+~
+~
+0 0 5864
+S
+#5864
+`8The Chamber of Horrors ``~
+Crushed black velvet curtains hung high on the walls encircle the
+table that is centered here.  Chairs that resemble thrones are set up
+to the table for the use of those that meet here.  Horrific embroidered
+scenes dot the curtains.  A record of the carnage and history of the
+more successful knights.  Deeds of pure twisted evil that most eyes
+would avert away from lend a surrealistic beauty to the room.
+~
+~
+0 8200 4096 0
+D0
+~
+~
+0 0 5863
+S
+#5865
+`8House of the Shaman ``~
+You have stepped into a chamber of oddness.  Skulls, skins, tribal
+paintings, et cetera cover the walls.  If one did not know any better
+one might think they have entered a hunters lodgings.  The chanting,
+praying and crackle of magic tend to give this illusion away.
+~
+~
+0 8200 0 0
+D1
+~
+~
+0 0 5765
+D3
+~
+~
+0 0 5866
+S
+#5866
+`8Unholy Ground ``~
+Unholy items of many different gods and goddesses adorn
+these earthen walls and floor.  made of what seems to be the
+very essence of Mirlan, its naturalistic setting blends nicely
+with the totems and holy relics of the Shaman that worship,
+train and call this place home.
+~
+~
+0 8200 4096 0
+D1
+~
+~
+0 0 5865
+S
+#5867
+`8Necromancer's Hall of Death ``~
+You have stepped into a dire and dark building.  The entrance guarded
+by a dark and looming figure that peers out from their hooded cloak.  Faint
+wisps of decay fill the air and rake at the senses.  Those not accustomed to
+the dead are all to often rooted to the spot at such a vile corruption of the
+natural.
+~
+~
+0 8200 0 0
+D2
+~
+~
+0 0 5766
+D3
+~
+~
+0 0 5868
+S
+#5868
+`8Hall of Death ``~
+Death and decay permeate the gloomy air of this Hall.  Rotting flesh
+and post morbid carnage is the scene that fills the senses.  The halls
+are plastered with homage paintings of the great Necromancers of the
+past.  Screams and wailing of pain in low waved whispers as if the walls
+themselves are alive and in the grips of Morgorin's painful grip.
+~
+~
+0 8200 4096 0
+D1
+~
+~
+0 0 5867
+S
+#5869
+`8Ye Olde Shope ``~
+You have stepped inside a general store full of different items
+apparently for sale.  The wooden walls and floor look decrepit
+and worn from age and use.  The musty smell seems to be coming
+from some place upstairs as it drifts down unceremoniously to offend
+the more sensitive noses.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 5726
+D4
+~
+~
+0 0 5870
+S
+#5870
+`8a bedroom ``~
+You are in the upper room of the shopkeeper Bixbie's shop.
+A bed, dresser and empty clothing chest are pretty much the only
+furnishings here.  A small painting of Bixbie and some other gnome
+hangs on the wall.
+~
+~
+0 8200 0 0
+E
+picture~
+A painting of Bixbie and another gnome hangs here.  Two gnomes
+holding a rather large fish above their heads.
+~
+E
+painting~
+A painting of Bixbie and another gnome hangs here.  Two gnomes
+holding a rather large fish above their heads.
+~
+D5
+~
+~
+0 0 5869
+S
+#5871
+`8Grand Healers Hospice and Guild Hall ``~
+One of the more unusual buildings and guild halls of Luva this one
+sports many windows which have all types of healing herbs growing
+in the sill of the windows.  The light seems to have been directed to
+give the maximum needed for good hearty growth.  The walls are
+scripted with many different formulas and healing remedies passed
+down from the ancients.  The floors of this ancient hall are a mix of
+many different marbles set in intricate designs and mosaics.
+~
+~
+0 8200 0 0
+D1
+~
+~
+0 0 5777
+D3
+~
+~
+0 0 5872
+S
+#5872
+`8Amathe's Chosen ``~
+A holy light seems to fill this vast hall.  Amathe herself seems to have
+blessed this place with good and safe tidings.  Although a humble room
+it does have its vanities such as the beautiful artistically style chairs and
+sofas.  A few rugs and marble toped end tables arranged for functionality
+can be seen in here as well.
+ 
+An inscription is painted just above the door way.
+~
+~
+0 8204 4096 0
+E
+door~
+Praises to those who dedicate their lives to the arts of healing.  Peace be with you always.
+~
+E
+inscription~
+Praises to those who dedicate their lives to the arts of healing.  Peace be with you always.
+~
+D1
+~
+~
+0 0 5871
+S
+#5873
+`8Adventurer's Guild House ``~
+You are in a sparsely lit room.  The wooden walls and
+flooring depict a humble yet sturdy building.  There are
+wall benches that have been secured to the floors and
+walls which have been engraved upon by some obscure
+forgotten person.
+~
+~
+0 8200 0 0
+D1
+~
+~
+0 0 5874
+D2
+~
+~
+0 0 5777
+S
+#5874
+`8Dankra's Lounge ``~
+Lounging chairs, sofas and the occasional wooden chair fill
+this room with comfortable seating.  There are several cots and
+bedrolls that seem to be permenetly placed here for the weary
+adventurer to lay their tired bodies.
+~
+~
+0 8200 4096 0
+D3
+~
+~
+0 0 5873
+S
+#5875
+`8The Holy Order of Divinity ``~
+You have entered into a shrine of the gods.  One surely knows that
+the divine of Mirlan have sanctified this as holy ground to the gods.  All
+deities are represented here.  Including the primordial gods.  A huge tree
+relief depicting the gods and their relationship to each other as well as to
+the mortals themselves.  The relief is made of leafed platinum and has
+been etched with such artistic work that looking at it is awe-inspiring for
+all clerics of all religions.
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 5784
+D2
+~
+~
+0 0 5876
+S
+#5876
+`8The prayer room ``~
+Upon the south wall is a huge altar with the icons off all the 
+deities of Mirlan.  Knee pillows lay strewn before the altar for those
+wishing to give homage to their particular god.  The room is filled with
+the smell of various incenses which have been burning in the recent past.
+The whole room gives off the aura of being close to ones god.
+~
+~
+0 8200 4096 0
+D0
+~
+~
+0 0 5875
+S
+#5877
+`8House of Zarkirond ``~
+It is obvious to the senses that upon entering this house that it is
+dedicated more to the followers of Zarkirond.  Thieves.  While not what
+one would expect off-hand the guild is ordered and structured.  Very well
+kept without overt wealth.  The walls are cedar lined with hardwood flooring.
+The occasional torch gives this place plenty of light to maneuver as well as
+little enough light to allow shadows to dance along the walls making it difficult
+to tell what is shadow and what is person.
+~
+~
+0 8200 0 0
+D1
+~
+~
+0 0 5786
+D5
+~
+~
+0 0 5878
+S
+#5878
+`1a basement below ``~
+You have entered a dark and dank room underground.  The granite walls
+are damp with condensation.  The whole of the room gives an oppressive
+and heavy sense about it.  Old dried blood stains and sings of struggle are
+present upon the floor area in the south corner where shackles are secured
+to the wall.  Dimly lit and sparsely furnished, this place gives the appearance
+of being more than just a hideaway for thieves.
+~
+~
+0 8200 69632 13
+D4
+~
+~
+0 0 5877
+S
+#5879
+`8a tower above ``~
+You have come up into a room above the sorcerers guild house.
+The glass-steel windows allow for a gainful view of the outside but
+its hardness and thickness prevent access through.  The room is well
+lit and rather large with big relaxing chairs and sitting pillows arranged
+neatly around a centered hookah which stands upon a bronze pillar. 
+~
+~
+0 8200 4096 0
+D5
+~
+~
+0 0 5880
+S
+#5880
+`8Sorcerers Guild ``~
+The crackle of magic and the feel of arcane energy abounds
+here.  The inner walls and ceiling appear to be made of solid
+ivory with floors tiled in a spectacular display of mosaics of a
+myriad of colors.
+~
+~
+0 8200 0 0
+D2
+~
+~
+0 0 5786
+D4
+~
+~
+0 0 5879
+S
+#5881
+`8The Thaumaturgist's Guild House ``~
+You have entered a long hall.  Soft pale colored curtains
+cover the whole of the walls.  Arcane symbols, embroidered
+in a golden thread, what seem to be chaotic yet somehow
+orderly. The floors appear to be made of a jade colored stone
+which has been polished to a high sheen.  The high vaulted
+ceilings painted with many inspirational creatures and scenes.
+~
+~
+0 8200 0 0
+D2
+~
+~
+0 0 5783
+D4
+~
+~
+0 0 5882
+S
+#5882
+`8a common room ``~
+You have entered a large commons room above the main hall
+of the thaumaturgist guild house.  Wall benches line the west
+and east walls and a large stack of bunk beds line the north.
+Six stacks six high give plenty of resting room to those that are
+in need of some rest.  
+ 
+There is a table with a dozen or so chairs which look rather
+old but in very good condition.
+~
+~
+0 8200 4096 0
+D5
+~
+~
+0 0 5881
+S
+#5883
+`1An underground passageway``~
+A passage running north and south, slippery and littered with
+sharp rocks.  Dangerous to traverse even by the surest of foot.
+The cavern walls have a sickly yellowish-white lichen growing
+upon them that move slightly towards you as you pass.
+~
+~
+0 8 8192 13
+D2
+~
+~
+0 0 5858
+D3
+~
+~
+0 0 5884
+S
+#5884
+`1An underground twist``~
+The rocky underground path twists and turns here mostly to
+the east.  Odd formations of rocks pop up here and there as if
+at one time this used to be an underground river bed and the
+rocks have been molded and shaped by flowing water.
+~
+~
+0 134742025 65536 13
+D0
+~
+~
+0 0 5885
+D1
+~
+~
+0 0 5883
+S
+#5885
+`1A large opening``~
+The passage has opened up into a massive cavern. This place
+looks like it has actually been carved by the hands of humans,
+demi-humans, or some other intelligent creatures with a need for
+the comforts and luxuries.
+~
+~
+0 134742024 32768 13
+D1
+~
+~
+0 0 5886
+D2
+~
+~
+0 0 5884
+S
+#5886
+`1A small crawl space``~
+You have to squeeze tight here as the tunnel is very narrow.
+Fecal matter from some unknown creature is splattered all over
+the tunnels walls and stinks as if freshly done.
+~
+~
+0 134742024 32768 13
+D0
+~
+~
+0 0 5887
+D3
+~
+~
+0 0 5885
+S
+#5887
+`1A tight fit``~
+The passage has narrowed to its thinnest point yet.  It is
+a struggle to make it through, squirming and re-arranging gear
+to make it is needed.  The oppressive feel of the ground above
+is enough to drive many insane.
+~
+~
+0 8 16384 13
+D0
+~
+~
+0 0 5888
+D2
+~
+~
+0 0 5886
+S
+#5888
+`1A widening tunnel``~
+The tunnel is widening here enough to see that to the
+north it opens up into a vast recessed niche.  To the south,
+the tunnel narrows down to barely able to get through but
+just enough to do so.
+~
+~
+0 8 32768 13
+D0
+~
+~
+0 0 5889
+D2
+~
+~
+0 0 5887
+S
+#5889
+`1A dead end``~
+You are at a dead end of the tunnel you have been traveling
+through.  Bones and rotting flesh are scattered around here as 
+if some wild animal had been feasting a kings feast.
+~
+~
+0 8 65536 13
+D2
+~
+~
+0 0 5888
+S
+#5899
+`7The Portal Room``~
+You stand inside the Portal Room of the Mar'Kyer Alchemists.
+The rooms around the realm all look pretty much the same,
+as these little crafty gnomes have setup quite a business
+for themselves. The room is rounded, with a small hexagram
+inset into the floor in the center of the room. The rest of
+the room is entirely empty except for a small chair where
+the alchemist sits, and a small sign on the wall, with some
+trade common writing on it.
+~
+~
+0 8 0 1
+E
+sign~
+`%---=== THE MAR'KYER PORTAL SYSTEM ===---``
+--
+If you'd like to travel somewhere, we're the best! Once the 
+portal is created, just "enter portal" to be transported to your
+location. Items can be passed as well through the portals. Just
+give the item to the portal. Remember, they only stay open for 
+a short time. Only one portal may be opened at a time. We 
+serve the following locales:
+--
+`^DARGOTH, ZALANGO, REVELSPORT, ULSYM, LUVA, and EMMEREAUX``
+--
+Just `#SAY`` the location you wish to portal to, and your monies
+will be taken by the Alchemist.
+--
+Thank you for using the Mar'Kyer Portal System!
+~
+D3
+~
+~
+0 0 5744
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 5703 spec_gate_guard
+M 5734 spec_cast_cleric
+M 5737 spec_gate_guard
+M 5764 spec_nasty
+M 5800 spec_keeper_move
+M 5802 spec_keeper_move
+M 5804 spec_cast_cleric
+M 5806 spec_cast_cleric
+M 5809 spec_nasty
+M 5811 spec_nasty
+M 5813 spec_nasty
+M 5817 spec_cast_cleric
+M 5820 spec_cast_cleric
+M 5825 spec_cast_cleric
+M 5855 spec_cast_mage
+M 5869 spec_keeper_move
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 5701 3 5701 1
+E 0 5700 0 18
+M 0 5702 10 5702 2
+M 0 5704 2 5703 1
+M 0 5703 1 5704 1
+E 0 5703 0 16
+E 0 5704 0 5
+E 0 5702 0 10
+E 0 5701 0 6
+M 0 5705 1 5705 1
+G 0 5705 0
+G 0 5706 0
+G 0 5707 0
+G 0 5708 0
+G 0 5709 0
+M 0 5706 1 5706 1
+M 0 5711 1 5706 1
+M 0 5708 1 5706 1
+G 0 5711 0
+G 0 5712 0
+G 0 5713 0
+G 0 5717 0
+G 0 5712 0
+G 0 5702 0
+G 0 5736 0
+G 0 5733 0
+G 0 5899 0
+G 0 5899 0
+M 0 5711 1 5711 1
+O 0 5714 0 5713
+O 0 5714 0 5714
+O 0 5716 0 5716
+M 0 5716 2 5716 1
+E 0 5717 0 16
+O 0 5714 0 5718
+M 0 5720 2 5720 1
+E 0 5720 0 17
+O 0 5714 0 5720
+M 0 5734 1 5734 1
+E 0 5738 0 17
+E 0 5739 0 5
+E 0 5730 0 3
+O 0 5714 0 5734
+M 0 5735 1 5735 1
+O 0 5714 0 5735
+O 0 5737 0 5737
+M 0 5737 2 5737 2
+E 0 5736 0 16
+E 0 5735 0 5
+E 0 5734 0 6
+E 0 5733 0 11
+E 0 5732 0 7
+E 0 5731 0 10
+O 0 5714 0 5739
+M 0 5739 1 5739 1
+M 0 5740 10 5739 2
+O 0 5714 0 5741
+M 0 5703 2 5745 2
+E 0 5703 0 16
+E 0 5704 0 5
+E 0 5702 0 10
+E 0 5701 0 6
+M 0 5747 1 5747 1
+E 0 5749 0 16
+E 0 5748 0 6
+E 0 5747 0 5
+E 0 5746 0 8
+M 0 5756 2 5756 3
+M 0 5764 5 5764 5
+M 0 5774 1 5774 1
+M 0 5787 1 5787 1
+G 0 5711 0
+G 0 5712 0
+G 0 5713 0
+G 0 5787 0
+M 0 5796 1 5796 1
+E 0 5899 0 17
+M 0 5800 1 5800 1
+G 0 5794 0
+G 0 5795 0
+G 0 5796 0
+G 0 5797 0
+G 0 5798 0
+M 0 5802 1 5802 1
+G 0 5799 0
+G 0 5802 0
+G 0 5801 0
+G 0 5800 0
+G 0 5805 0
+G 0 5803 0
+G 0 5804 0
+G 0 5880 0
+G 0 5881 0
+G 0 5882 0
+G 0 5883 0
+G 0 5884 0
+M 0 5804 1 5804 1
+O 0 5808 0 5804
+O 0 5808 0 5805
+M 0 5806 1 5806 1
+M 0 5808 1 5808 1
+O 0 5809 0 5808
+E 0 5807 0 22
+O 0 5809 0 5809
+M 0 5809 1 5809 1
+M 0 5810 1 5810 1
+E 0 5810 0 17
+M 0 5811 1 5811 1
+O 0 5811 0 5811
+O 0 5811 0 5811
+M 0 5812 1 5812 1
+M 0 5813 1 5813 1
+O 0 5845 0 5813
+O 0 5816 0 5815
+O 0 5815 0 5815
+O 0 5816 0 5816
+O 0 5817 0 5817
+M 0 5817 1 5817 1
+O 0 5816 0 5817
+O 0 5819 0 5818
+O 0 5819 0 5819
+O 0 5818 0 5819
+O 0 5820 0 5820
+M 0 5820 1 5820 1
+O 0 5819 0 5820
+O 0 5819 0 5821
+O 0 5821 0 5821
+M 0 5822 1 5821 1
+O 0 5823 0 5823
+O 0 5824 0 5823
+O 0 5825 0 5825
+M 0 5825 1 5825 1
+O 0 5827 0 5827
+O 0 5816 0 5827
+M 0 5839 1 5827 1
+M 0 5830 1 5830 1
+O 0 5816 0 5830
+M 0 5831 1 5831 1
+O 0 5816 0 5831
+O 0 5816 0 5832
+M 0 5832 1 5832 1
+M 0 5833 1 5833 1
+O 0 5816 0 5833
+M 0 5834 1 5834 1
+O 0 5816 0 5834
+O 0 5816 0 5835
+O 0 5816 0 5836
+M 0 5836 1 5836 1
+E 0 5836 0 16
+O 0 5837 0 5837
+O 0 5816 0 5837
+M 0 5837 1 5837 1
+M 0 5838 2 5838 1
+M 0 5839 4 5839 4
+M 0 5840 1 5840 1
+O 0 5816 0 5840
+O 0 5816 0 5841
+M 0 5841 1 5841 1
+O 0 5816 0 5842
+M 0 5842 1 5842 1
+M 0 5843 1 5843 1
+O 0 5816 0 5843
+O 0 5845 0 5844
+M 0 5844 1 5844 1
+M 0 5845 1 5845 1
+O 0 5845 0 5845
+M 0 5846 1 5846 1
+E 0 5846 0 16
+O 0 5849 0 5849
+M 0 5850 1 5850 1
+M 0 5852 1 5852 1
+M 0 5853 1 5853 1
+O 0 5845 0 5853
+M 0 5855 1 5855 1
+E 0 5855 0 16
+M 0 5855 2 5856 2
+M 0 5855 1 5857 1
+M 0 5859 1 5859 1
+E 0 5859 0 17
+E 0 5860 0 9
+E 0 5858 0 5
+E 0 5857 0 6
+M 0 5861 1 5861 1
+O 0 5819 0 5861
+O 0 5819 0 5862
+M 0 5862 1 5862 1
+M 0 5863 1 5863 1
+O 0 5819 0 5864
+M 0 5864 1 5864 1
+M 0 5865 1 5865 1
+O 0 5819 0 5866
+M 0 5866 1 5866 1
+M 0 5867 1 5867 1
+E 0 5867 0 16
+M 0 5868 1 5868 1
+O 0 5845 0 5868
+M 0 5869 1 5869 1
+G 0 5869 0
+G 0 5868 0
+G 0 5870 0
+G 0 5872 0
+G 0 5875 0
+O 0 5819 0 5871
+M 0 5871 1 5871 1
+O 0 5845 0 5872
+M 0 5873 1 5873 1
+O 0 5845 0 5873
+O 0 5845 0 5874
+O 0 5873 0 5874
+O 0 5873 0 5874
+O 0 5873 0 5874
+O 0 5874 0 5874
+O 0 5874 0 5874
+O 0 5874 0 5874
+M 0 5875 1 5875 1
+O 0 5819 0 5875
+O 0 5819 0 5876
+M 0 5876 1 5876 1
+M 0 5876 1 5876 1
+O 0 5877 0 5877
+M 0 5877 1 5877 1
+M 0 5878 1 5878 1
+O 0 5845 0 5878
+O 0 5879 0 5879
+O 0 5819 0 5879
+M 0 5879 1 5879 1
+M 0 5880 1 5880 1
+O 0 5819 0 5880
+M 0 5881 1 5881 1
+O 0 5819 0 5881
+M 0 5882 1 5882 1
+O 0 5845 0 5882
+M 0 5886 1 5886 1
+M 0 5888 2 5888 5
+M 0 5889 1 5889 2
+E 0 5889 0 17
+E 0 5888 0 13
+M 0 5899 1 5899 1
+S
+
+
+
+#SHOPS
+5705 0 0 0 0 0 100 100 0 23
+5708 0 0 0 0 0 100 100 0 23
+5711 0 0 0 0 0 100 100 0 23
+5787 0 0 0 0 0 100 100 0 23
+5800 0 19 15 17 0 100 100 8 18
+5802 0 12 15 28 11 100 100 6 18
+5869 0 0 0 0 0 100 100 8 18
+0
+
+
+
+#MOBPROGS
+#5703
+if ispc $n
+        Nod $n
+        Say These old bones just don't seem to move as fast as they used to.
+    else
+        say More and more the creatures of the woodlands move into the area.
+        say Makes an old lady want to embrace Morgorins final touch.
+endif
+~
+#5704
+if rand = 50
+say Greetings traveler.
+   else
+nod
+say Well met.
+endif
+~
+#5705
+Yell Get yer' eaten' needs at Val's traveling bistro.
+Yell Great prices, better grub!
+Yell Get yer' needs at Val's.  Can't go wrong with Val's smoked products.
+~
+#5706
+if isfollow $n 
+        say What is the matter $n, can't find your way through an open door.
+        say Why you gotta follow people around.
+        say I'll bet your mommy is missing you.
+  else
+        pinch $n
+        say What you gonna do about it sucker?
+       say I'll kick your ass from here to Fireday.
+   cackle
+endif
+~
+#5735
+if ispc $n
+Say Have you seen my daddy?
+     else
+Say I want my daddy.
+endif
+~
+#5736
+if ispc $n
+Say Have you seen my little girl Megan?
+She wandered off and I cannot seem to find her.
+     else
+Say Megan, Megan, where are you girl?
+Say I'm over here Megan, come to father.
+endif
+~
+#5787
+if rand 51
+say Would you care to buy a trinket?
+       else
+say My name is Esylui I sell trinkets, care to purchase one or two?
+endif
+~
+#5800
+if rand 50
+     Yell BREAD, get your freshly baked bread here at Brandons Market.
+ else 
+     Yell Jerky, Cheese, Meat all here at Brandon's Market South entrance of Luva!
+endif
+~
+#5802
+if rand 50
+emote looks at you.
+emote smiles at you
+say would you like to sample my wears?
+  else
+frown
+say What a day.  Care to buy something?
+endif
+~
+#5821
+emote concentrates and closes her eyes for a moment.
+say Thank you for your kind donation.
+if isgood $n
+   smile $n
+   Say May the many blessings of Amathe be with you my child.
+endif
+if isevil $n
+    sigh $n
+    Say You should turn from your path of evil and reconsider your destiny.
+    Say Should you have a change of heart I would be more than happy to pray for your deliverance.
+    Say Perhaps you should seek out a Cleric and ask their guidance.
+    Say  Our great mothers priests and priestess are all around.
+endif
+drop gold
+sacrifice gold
+~
+#5825
+if isgood $n
+cackle
+endif
+if isevil $n
+grin
+endif
+if isneutral $n
+nod
+endif
+~
+#5826
+~
+#5855
+Say You have seen me, now you must DIE!
+murder $n
+~
+#5859
+say Daddy help me, help me.
+say the bad person is hurting me!
+say $n please, stop hurting me.
+force jailer $murder $n
+~
+#5869
+say Can I help you?
+~
+#5870
+say Then what in the name of Morgorin are you doing in my SHOP!
+say Leave or I'll call the guard for loitering.
+grumble
+YELL GUARDS, GUARDS $n is loitering in my shop.
+smile $n
+~
+#5871
+say Okay, well if you want to see my inventory ask me to "list". 
+~
+#5883
+~
+#5885
+load obj 5885
+~
+#5886
+say You dare disturb the resting place of G'thara Ancient Shadow Mage of the UnderDark?
+Yell Ye shall die $n for disturbing the rest of the dead!
+murder $n
+~
+#5887
+load mob 5888
+force shadow murder $n
+Say You have disturbed the dead.  Now you must pay!
+load mob 5888
+load mob 5888
+load mob 5888
+~
+#0
+
+M 5703 1 luvaguard.prg NL
+M 5737 1 cityguard.prg NL
+M 5747 1 luvatraveler.prg NL
+M 5764 1 fieldrat.prg NL
+M 5774 1 littlegirl.prg NL
+M 5775 1 undeadgirl.prg NL
+M 5802 1 sherri.prg NL
+M 5806 1 druid.prg NL
+M 5806 1 bloody.prg NL
+M 5808 1 commoner.prg NL
+M 5808 1 bloody.prg NL
+M 5810 1 warrior.prg NL
+M 5810 1 bloody.prg NL
+M 5812 1 jeweler.prg NL
+M 5812 1 bloody.prg NL
+M 5821 1 amathe1.prg NL
+M 5821 1 amathe2.prg NL
+M 5830 1 cavalier.prg NL
+M 5830 1 bloody.prg NL
+M 5832 1 paladin.prg NL
+M 5832 1 bloody.prg NL
+M 5834 1 berserker.prg NL
+M 5834 1 bloody.prg NL
+M 5836 1 blacksmith.prg NL
+M 5836 1 bloody.prg NL
+M 5838 1 hairball.prg NL
+M 5839 1 vagabond.prg NL
+M 5840 1 tailor.prg NL
+M 5840 1 bloody.prg NL
+M 5843 1 merchant.prg NL
+M 5843 1 bloody.prg NL
+M 5844 1 noble.prg NL
+M 5844 1 bloody.prg NL
+M 5846 1 ranger.prg NL
+M 5846 1 bloody.prg NL
+M 5852 1 miner.prg NL
+M 5852 1 bloody.prg NL
+M 5861 1 alchemist.prg NL
+M 5861 1 bloody.prg NL
+M 5863 1 darkknight.prg NL
+M 5863 1 bloody.prg NL
+M 5865 1 shaman.prg NL
+M 5865 1 bloody.prg NL
+M 5867 1 necromancer.prg NL
+M 5867 1 bloody.prg NL
+M 5871 1 healer.prg NL
+M 5871 1 bloody.prg NL
+M 5873 1 adventurer.prg NL
+M 5873 1 bloody.prg NL
+M 5875 1 cleric.prg NL
+M 5875 1 bloody.prg NL
+M 5877 1 thief.prg NL
+M 5877 1 bloody.prg NL
+M 5880 1 sorcerer.prg NL
+M 5880 1 bloody.prg NL
+M 5881 1 thaumaturg.prg NL
+M 5881 1 bloody.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#5814
+if hasquest $n 'Discovered the Shrine to Rhuma in Luva'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Rhuma!``
+    room permquest $n Discovered the Shrine to Rhuma in Luva
+endif
+~
+#5815
+room echoat $n Rhuma looks warmly upon you for your worship.
+~
+#5818
+if hasquest $n 'Discovered the Shrine to Amathe in Luva'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Amathe!``
+    room permquest $n Discovered the Shrine to Amathe in Luva
+endif
+~
+#5819
+room echoat $n You feel the loving gaze of Amathe's love upon your heart and soul.
+~
+#5822
+if hasquest $n 'Discovered the Shrine to Morgorin in Luva'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Morgorin!``
+    room permquest $n Discovered the Shrine to Morgorin in Luva
+endif
+~
+#5823
+room echoat $n Morgorin takes a hard look into your soul.
+room echoat $n You feel Morgorin's icy touch upon your heart.
+~
+#5825
+room echoat $n Morgorin hears you and accepts your prayers.
+room echoat $n You feel the gaze of Morgorins touch upon your heart.
+room echoat $n A flush of sweat runs down the side of your face as you feel Morgorin remove his touch from you.
+~
+#5844
+if rand 50
+        room echoat $n turns lamp on.
+     else
+          room echoat $n turns light off.
+endif
+~
+#0
+
+#$

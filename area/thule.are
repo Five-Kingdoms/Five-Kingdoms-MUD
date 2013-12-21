@@ -1,0 +1,3405 @@
+#AREADATA
+Name Great Wastes of Thule~
+Pref ~
+Builders Crypticant~
+VNUMs 4000 4099
+Max_Bastions 6
+Credits {30 50} Cryptican The Great Wastes of Thule~
+Security 9
+Startroom 4013
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#4000
+sand golem~
+a sand golem~
+A sand golem awaits its prey.
+~
+Lacking any definite shape it resembles a large dune more then anything
+else.  Its kind often remains motionless for hours or days in wait for an
+unwary traveler to step upon its surface and be swallowed in an instant.  
+~
+golem~
+AGTe A DJK J -1000 4000
+28 0 10d20+500 0d0+0 4d9+15 blast
+-12 -12 -28 0
+CHJ AB D 0
+stand stand none none~
+12
+HJc ABCHIJK large 0
+P RANDOM 4002 100~
+P ACT 4000 pops into existence.~
+P GREET 4000 100~
+#4001
+scorpion mutated chaos~
+a chaos scorpion~
+A scorpion mutated by influence of chaos.
+~
+That this creature used to be a scorpion is more then clear.  Yet its
+form and body has been long corrupted by the proximity of chaotic energies. 
+As large as an average human with blood red speckles bright upon its black
+carapace it waves its poisonous tail as its claws dart towards you.  
+~
+insect~
+AGScd A DFJ K -1000 4001
+35 15 6d15+800 0d0+0 5d5+25 psbite
+-20 -18 -21 5
+EFHN AB FG E
+stand stand none none~
+17
+AGOc ACDEFHK medium 0
+P ENTRY 4003 100~
+P GREET 4001 100~
+P ACT 4001 pops into existence.~
+#4003
+black scorpion~
+a black scorpion~
+A small black scorpion runs away from your feet.
+~
+Its a small black scorpion which sensing your presence scuttles away.
+~
+insect~
+AGd A 0 0 0 0
+5 0 5d5+75 0d0+0 1d5+1 psbite
+0 0 0 0
+0 AB 0 0
+stand stand none none~
+7
+AGOc ACDEFHK medium 0
+#4004
+black scorpion~
+a black scorpion~
+A small black scorpion runs away from your feet.
+~
+Its a small black scorpion which sensing your presence scuttles away.
+~
+insect~
+ABG AC 0 J 0 0
+5 0 1d1+1 0d0+0 1d5+1 psbite
+0 0 0 0
+0 AB 0 0
+stand stand none none~
+8
+AGOc ACDEFHK medium 0
+P GRALL 4004 100~
+#4005
+tainted sand~
+the tainted sand~
+A small lump of black sand seems to be slowly moving towards you.
+~
+It seems to be nothing more then a small puddle of tar or oil upon the
+surface of the desert sand, yet the way its surface ripples and moves
+betrays its evil intent.  Slowly it moves ever closer towards you, a slight
+moan or wail barely reaching your ears from its direction.  
+~
+undead~
+AGOcd A DFJ K -1000 4001
+30 15 6d15+500 0d0+0 5d5+12 drain
+-5 -3 -4 -10
+H AB C N
+stand stand none none~
+15
+0 ABCDEFGHIJK medium 0
+F imm LQ
+F res I
+P GREET 4005 100~
+P ACT 4005 pops into existence.~
+P ENTRY 4006 100~
+#4006
+wraith~
+a wraith~
+A pair of bleak white eyes glaring a Wraith lurks here.
+~
+A mere humanoid shape of darkness, it would be invisible in the night if
+not for pair of livid white eyes which burn with unholy intensity.  It opens
+its dark maw to emit a bone chilling scream and looks at you hungrily.  
+~
+undead~
+AOTcd AGH DFJ EK -1000 15500
+50 30 10d40+2000 100d0+5 5d5+50 drain
+-5 -5 -5 0
+N ABLQ I N
+stand stand none none~
+18
+0 ABCDEFGHIJK medium 0
+P SPECIAL 4008 100~
+P RANDOM 4007 100~
+#4007
+torment~
+a torment~
+Its eyes ablaze with fires of hell a torment stands here.
+~
+A huge hulking shape stand before you, a pair of coarse leathery wings
+extended at its back.  Two muscular arms hang from its sides armed with
+gleaming black claws that extend out of its fingers.  Bone spurs dig into
+the ground as it contemplates your existence.  
+~
+demon~
+AOTcd AGH DFJKT K -1000 15500
+50 30 10d40+2000 100d0+5 5d5+50 drain
+-5 -5 -5 0
+CFKN AB I 0
+stand stand none none~
+21
+AHMV ABCDEFGHIJK medium 0
+F vul A
+P RANDOM 4009 100~
+P SPECIAL 4010 100~
+#4008
+Krasq Krasq's spirit~
+Krasq's Spirit~
+Krasq's spirit hovers here, bound to fuel the tainted sands.
+~
+The Primal One, giver of life to the world of Mirlan, it's soul has been 
+captured by a rift in time and bound to this plane in order to insure its 
+temporal stability.  Now chained by forces of the chaos it is bound 
+to this place and slowly bled of its immortal lifeforce.  
+~
+undead~
+ABGO A DJU E -750 0
+35 35 10d50+1500 0d0+0 5d5+25 none
+-10 -15 -12 0
+E ABLQ I N
+stand stand none none~
+15
+0 ABCDEFGHIJK medium 0
+P DEATH 4013 100~
+P GRALL 4011 100~
+#4009
+Norlz Norlz's spirit~
+Norlz's Spirit~
+Norlz's spirit hovers here, bound to fuel the `$Ether``.
+~
+The second Primal One, as powerful as Krasq and Gaemina, it's spirit,
+once thought lost forever, has been chained here by the power of the
+Ether, and forced to provide Mirlan with magical energies as its spirit
+body slowly decays.
+~
+undead~
+ABGO A DJU E -750 0
+35 35 10d50+1500 0d0+0 5d5+25 none
+-10 -15 -12 0
+E ABLQ I N
+stand stand none none~
+16
+0 ABCDEFGHIJK medium 0
+P DEATH 4015 100~
+P GRALL 4020 100~
+#4010
+mik mad human crazy~
+Mik the Mad~
+A giggling crazy human rolls in the dirt cackling.
+~
+His eyes dart back and forth only to roll back a second later as his
+throat strains to produce notes you have never expected to hear from a
+human's throat.  He rolls in the dirt giggling madly oblivious to your
+presence.  
+~
+human~
+AB A DFJ K 0 0
+15 0 10d10+200 0d0+0 1d1+1 none
+0 0 0 0
+0 AB 0 0
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+P GRALL 4016 100~
+P BRIBE 4017 1~
+P DEATH 4019 100~
+P BRIBE 4018 2000~
+#4011
+desert shaman~
+a desert shaman~
+A desert shaman is bleeding to death here.
+~
+He is a small nodescript man dressed in a desert attire .
+A score of serious wounds cover his flesh, though he seems 
+to be controlling the bleeding.
+~
+human~
+AB A 0 0 -750 0
+15 0 10d10+300 0d0+0 5d5+20 magic
+0 0 0 0
+0 AB 0 0
+rest rest none none~
+9
+AHMV ABCDEFGHIJK medium 0
+P GRALL 12105 100~
+P DELAY 12107 100~
+#4012
+torment~
+a torment~
+Its eyes ablaze with fires of hell a torment stands here.
+~
+A huge hulking shape stand before you, a pair of coarse leathery wings
+extended at its back.  Two muscular arms hang from its sides armed with
+gleaming black claws that extend out of its fingers.  Bone spurs dig into
+the ground as it contemplates your existence.  
+~
+demon~
+AOTcd AGH DFJKT K -1000 15500
+50 30 10d40+2000 100d0+5 5d5+50 drain
+-5 -5 -5 0
+CFKN AB I 0
+stand stand none none~
+22
+AHMV ABCDEFGHIJK medium 0
+F vul A
+P SPECIAL 4010 100~
+#4013
+titan huge towering~
+A huge titan~
+A humongous titan stands here, waiting to give you a lift.
+~
+Standing about 25 feet tall, and spanning many men wide, this titan is
+not one to be trifled with.  His muscles ripple with the strength of a
+million men, a force capable of crushing you with only a fraction of effort.
+His body is adorned in only a simple loincloth, revealing much of his well
+built body.  He stares eagerly at you, awaiting your request.  
+~
+giant~
+ABe A DFVa 0 0 4013
+51 1000 100d100+10000 0d0+100 50d2+10 torrent
+40 40 40 40
+CEJN ABCD DHI 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK giant 0
+F vul P
+#4025
+lost soul~
+a lost soul~
+A lost soul is here, trying to find its way.
+~
+Resembling a formless mass, it floats here wailing a pathetic cry of
+despair. It is a life-form in forever search of something that can 
+never be obtained.... life.
+~
+human~
+AG A 0 0 0 0
+5 0 1d8+70 0d0+100 1d8+8 grep
+5 5 5 5
+KN 0 0 0
+stand stand none none~
+10
+AHMV ABCDEFGHIJK medium 0
+#4070
+sand wyrm~
+The Sand Wyrm~
+An immense wyrm, made of living sand is here, writhing and squirming.
+~
+Measuring nearly forty feet in length, this huge wyrm writhes and coils
+among the dunes.  It's head is an immense, gaping hole lined with hundreds
+of razor-sharp teeth.  Two tiny eyes peer out from beneath large, bony
+ridges edged with small spikes.  It notices your presence, and attacks.  
+~
+snake~
+ABGTe A DFH 0 0 1
+50 15 1d1+4700 0d0+100 5d8+35 crush
+-19 -19 -19 -19
+FJ AB L I
+stand stand none none~
+26
+AGXYc ADEFKLQVX medium 0
+#0
+
+
+
+#OBJECTS
+#4000
+ancient sign~
+an ancient sign~
+An ancient crumbling sign has been stuck in the sand.~
+wood~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+BEWARE for you are near the City of the Dead which
+stands in these accursed sands.
+Few who venture these lands ever come ou-
+                                         -
+                                          _- _
+~
+#4001
+rift nexus !4001!~
+the Nexus Rift~
+Pulsating with wild energies the `!Nexus Rift`` is here.~
+vellum~
+trash BO P
+0 0 0 0 0
+60 0 0 P
+P RANDOM 4001 100~
+#4002
+sands tainted !4002!~
+the `8tainted sands``~
+The `8tainted sands`` send chills down your spine.~
+sand~
+trash CEOc P
+0 0 0 0 0
+60 0 0 P
+P RANDOM 4000 100~
+#4003
+chaos scropion claw~
+a scorpion claw~
+A black scorpion claw marked with bright red speckles.~
+flesh~
+weapon P AN
+dagger 5 3 psbite H
+30 5 10 P
+R
+57
+#4004
+remains~
+a fresh corpse~
+A fresh corpse lies in the sand few meters away from the road.~
+flesh~
+trash 0 P
+0 0 0 0 0
+0 0 0 P
+E
+corpse~
+These remains have been cut in half, and only the torso and the chest
+remains.  The innards have been gutted and the head bitten off.  You notice
+one of the mangled arms is reaching for the safety of the road.  
+~
+#4005
+ethereal blade planar~
+the `6Planar Blade``~
+A large ethereal blade phases in and out of existance.~
+limbo~
+weapon ATYe ANX
+exotic 6 6 pain D
+35 0 4 P
+F
+A 19 3 0
+F
+A 18 2 0
+P DELAY 4002 100~
+P RANDOM 4003 30~
+#4006
+demon horns~
+the `!Demon Horns``~
+A pair of large demon horns sizzling with the heat of hell.~
+flesh~
+armor CEY AEX
+8 9 6 16 0
+35 230 4 P
+F
+A 2 -2 0
+F
+A 19 2 0
+F
+A 18 1 0
+#4007
+sand repellant !4007!~
+the sand repellant~
+A small bottle of white liquid with label 'Sand Repellant'.~
+puss~
+trash 0 A
+0 0 0 0 0
+30 1 0 P
+#4008
+demon tongue~
+a demon tongue~
+A large red tongue lies in the dust.~
+flesh~
+socket S AX
+AB Y 0 0 0
+35 15 3 P
+F
+A 18 1 0
+F
+A 19 1 0
+F
+A 24 -1 0
+#4009
+old stone fountain~
+an old stone fountain~
+An old stone fountain sits here, giving water to parched travelers.~
+stone~
+fountain 0 P
+-1 -1 'water' 0 0
+0 100 0 P
+#4010
+altar shrine Tzaelcos~
+an altar~
+A great tirangle with a carved fireball in the shape of an altar sits here.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#4025
+potion bottle swirly clouds cloudy~
+a cloudy potion~
+A large bottle that seems to contain swirly clouds is here.~
+glass~
+potion B AO
+15 'pass door' '' '' ''
+0 15 300 P
+#4070
+sandstone key~
+a sandstone key~
+A key fashioned from sandstone is here, threaded with a delicate elven chain.~
+sand~
+key S AO
+0 0 0 0 0
+50 10 0 P
+#4099
+Shrine Tzaelcos altar~
+a shrine~
+A shrine in the shape of a large fireball is here.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#0
+
+
+
+#ROOMS
+#4096
+`#A Distant Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4095
+D1
+~
+~
+0 0 4097
+T 100
+S
+#4097
+`#A Distant Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 8388608 0 10
+D2
+~
+~
+0 0 4098
+D3
+~
+~
+0 0 4096
+T 100
+S
+#4098
+`#A Distant Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4097
+D2
+~
+~
+0 0 4099
+T 100
+S
+#4099
+`#Nearing the Wungari Plains``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4098
+T 100
+S
+#4000
+`3At the Foot of Silver Mountains``~
+A gaping mouth opens to the west, as you leave the vast desert expanse of
+all other directions.  The road is more defined now, and civilization seems
+much closer.  The sounds of life echo through the upcoming mountains.  
+~
+~
+0 5 16384 4
+D1
+~
+~
+0 0 4001
+D2
+~
+~
+0 0 2959
+T 100
+P GRALL 4002 100~
+P SPEECH 4001 worship~
+S
+#4001
+`3Nearing the Silver``~
+A gaping mouth opens to the west, as you leave the vast desert expanse of
+all other directions.  The road is more defined now, and civilization seems
+much closer.  The sounds of life echo through the upcoming mountains.  
+~
+~
+0 4 65536 4
+D0
+~
+~
+0 0 4027
+D1
+~
+~
+0 0 4005
+D2
+~
+~
+0 0 4036
+D3
+~
+~
+0 0 4000
+T 100
+S
+#4002
+`#Unused``~
+~
+~
+0 8196 0 10
+T 100
+S
+#4003
+`#Unused``~
+~
+~
+0 8196 0 10
+T 100
+S
+#4004
+`#Unused``~
+~
+~
+0 8196 0 10
+T 100
+S
+#4005
+`3Nearing the Silver``~
+A gaping mouth opens to the west, as you leave the vast desert expanse of
+all other directions.  The road is more defined now, and civilization seems
+much closer.  The sounds of life echo through the upcoming mountains.  
+~
+~
+0 4 16384 4
+D0
+~
+~
+0 0 4006
+D1
+~
+~
+0 0 4026
+D2
+~
+~
+0 0 4040
+D3
+~
+~
+0 0 4001
+T 100
+S
+#4006
+`3A desolate road``~
+Desert surrounds the north and the south, and you feel alone and tired. 
+The sun beats down on this ground relentlessly, and the air has no moisture.
+Dry, cracked mud is beneath you, and the wind kicks dust clouds into your
+face.  It is very quiet here, and you feel alone.  
+~
+~
+0 4 32768 4
+D0
+~
+~
+0 0 4041
+D1
+~
+~
+0 0 4007
+D2
+~
+~
+0 0 4005
+D3
+~
+~
+0 0 4027
+T 100
+S
+#4007
+`3A desolate road``~
+Desert surrounds the north and the south, and you feel alone and tired. 
+The sun beats down on this ground relentlessly, and the air has no moisture.
+Dry, cracked mud is beneath you, and the wind kicks dust clouds into your
+face.  It is very quiet here, and you feel alone.  
+~
+~
+0 4 16384 4
+D0
+~
+~
+0 0 4008
+D1
+~
+~
+0 0 4014
+D2
+~
+~
+0 0 4026
+D3
+~
+~
+0 0 4006
+T 100
+S
+#4008
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8650752 0 10
+D0
+~
+~
+0 0 4043
+D1
+~
+~
+0 0 4010
+D2
+~
+~
+0 0 4007
+D3
+~
+~
+0 0 4041
+T 100
+S
+#4009
+`#A Distant Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4073
+D2
+~
+~
+0 0 4012
+D3
+~
+~
+0 0 4012
+T 100
+S
+#4010
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8650752 0 10
+D0
+~
+~
+0 0 4042
+D1
+~
+~
+0 0 4037
+D2
+~
+~
+0 0 4014
+D3
+~
+~
+0 0 4008
+T 100
+S
+#4011
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8650752 0 10
+D0
+~
+~
+0 0 4014
+D1
+~
+~
+0 0 4016
+D2
+~
+~
+0 0 4049
+D3
+~
+~
+0 0 4026
+T 100
+S
+#4012
+`#A Distant Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4009
+D1
+~
+~
+0 0 4009
+D2
+~
+~
+0 0 4085
+T 100
+S
+#4013
+`3A Small Clearing``~
+You enter a rather strange area, contrasting greatly with that of the
+desert. A small clearing, showing signs of life and vegetation. Patches of
+green plantlife seem to litter several sections of the otherwise yellowish
+soil. A small well sits idly near the center of this clearing, its water
+no doubt a welcome sight to the travelers of this harsh region.
+~
+~
+0 4 32768 4
+D0
+~
+~
+0 0 4000
+S
+#4014
+`3A desolate road``~
+Desert surrounds the north and the south, and you feel alone and tired. 
+The sun beats down on this ground relentlessly, and the air has no moisture.
+Dry, cracked mud is beneath you, and the wind kicks dust clouds into your
+face.  It is very quiet here, and you feel alone.  
+~
+~
+0 4 8192 4
+D0
+~
+~
+0 0 4010
+D1
+~
+~
+0 0 4015
+D2
+~
+~
+0 0 4011
+D3
+~
+~
+0 0 4007
+T 100
+S
+#4015
+`3A desolate road``~
+Desert surrounds the north and the south, and you feel alone and tired. 
+The sun beats down on this ground relentlessly, and the air has no moisture.
+Dry, cracked mud is beneath you, and the wind kicks dust clouds into your
+face.  It is very quiet here, and you feel alone.  
+~
+~
+0 4 8192 4
+D0
+~
+~
+0 0 4037
+D2
+~
+~
+0 0 4016
+D3
+~
+~
+0 0 4014
+T 100
+S
+#4016
+`3A desolate road``~
+Desert surrounds the north and the south, and you feel alone and tired. 
+The sun beats down on this ground relentlessly, and the air has no moisture.
+Dry, cracked mud is beneath you, and the wind kicks dust clouds into your
+face.  It is very quiet here, and you feel alone.  
+~
+~
+0 4 16384 4
+D0
+~
+~
+0 0 4015
+D1
+~
+~
+0 0 4017
+D2
+~
+~
+0 0 4050
+D3
+~
+~
+0 0 4011
+T 100
+S
+#4017
+`3Nearing a Vast Desert``~
+To your west is nothing but desert, as far as you can see.  To the east
+is the rise of the Silver Mountains, beyond that, safety, lakes, land.
+~
+~
+0 0 8192 4
+D0
+~
+~
+0 0 4020
+D3
+~
+~
+0 0 4016
+T 100
+S
+#4018
+`#unused``~
+~
+~
+0 8196 0 10
+T 100
+S
+#4019
+`#unused``~
+~
+~
+0 8196 0 10
+T 100
+S
+#4020
+`3Along the Thule Road``~
+You stumble out of the Great Wastes of Thule choking on the rotten air. The
+haze seems to have penetrated your lungs, but you find yourself now
+on sure ground. You are on a long road leading east. You can make out,
+through the thick haze, the startings of a city just in the distance.
+As howls come nearby from the Light-knows-what, you feel you'd better
+make your way quickly.
+~
+~
+0 0 16384 4
+D1
+~
+~
+0 0 4021
+D2
+~
+~
+0 0 4017
+S
+#4021
+`3Along the Thule Road``~
+You are walking along a well traveled road that leads westward from
+the Silver Mountains into the Wastes of Thule. Craggy peaks rise up
+in the distance, just off the horizon. A good days travel away, you're 
+not sure it's worth the walk.
+~
+~
+0 0 16384 2
+D1
+~
+~
+0 0 4022
+D3
+~
+~
+0 0 4020
+S
+#4022
+`3Along the Thule Road``~
+You are walking along a well traveled road that leads westward from
+the Silver Mountains into the Wastes of Thule. Craggy peaks rise up
+in the distance, just off the horizon. A good days travel away, you're 
+not sure it's worth the walk.
+~
+~
+0 0 32768 2
+D1
+~
+~
+0 0 4023
+D3
+~
+~
+0 0 4021
+S
+#4023
+`3Along the Thule Road``~
+You are walking along a well traveled road that leads westward from
+the Silver Mountains into the Wastes of Thule. Craggy peaks rise up
+in the distance, just off the horizon. A good days travel away, you're 
+not sure it's worth the walk.  
+~
+~
+0 0 16384 2
+D1
+~
+~
+0 0 4024
+D3
+~
+~
+0 0 4022
+S
+#4024
+`3Along the Thule Road``~
+You are walking along a well traveled road that leads westward from
+the Silver Mountains into the Wastes of Thule. Craggy peaks rise up
+in the distance, just off the horizon. A good days travel away, you're 
+not sure it's worth the walk.
+~
+~
+0 0 65536 2
+D2
+~
+~
+0 0 4025
+D3
+~
+~
+0 0 4023
+S
+#4025
+`3Along the Thule Road``~
+You are walking along a well traveled road that leads westward from
+the Silver Mountains into the Wastes of Thule. Craggy peaks rise up
+in the distance, just off the horizon. A good days travel away, you're 
+not sure it's worth the walk. 
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 4024
+S
+#4026
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8650752 0 10
+D0
+~
+~
+0 0 4007
+D1
+~
+~
+0 0 4011
+D2
+~
+~
+0 0 4048
+D3
+~
+~
+0 0 4005
+T 100
+S
+#4027
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8650752 0 10
+D0
+~
+~
+0 0 4028
+D1
+~
+~
+0 0 4006
+D2
+~
+~
+0 0 4001
+T 100
+S
+#4028
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4029
+D1
+~
+~
+0 0 4041
+D2
+~
+~
+0 0 4027
+T 100
+S
+#4029
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4030
+D1
+~
+~
+0 0 4044
+D2
+~
+~
+0 0 4028
+T 100
+S
+#4030
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4031
+D1
+~
+~
+0 0 4047
+D2
+~
+~
+0 0 4029
+T 100
+S
+#4031
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D1
+~
+~
+0 0 4032
+D2
+~
+~
+0 0 4030
+T 100
+S
+#4032
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D1
+~
+~
+0 0 4033
+D2
+~
+~
+0 0 4047
+D3
+~
+~
+0 0 4031
+T 100
+S
+#4033
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D1
+~
+~
+0 0 4034
+D2
+~
+~
+0 0 4046
+D3
+~
+~
+0 0 4032
+T 100
+S
+#4034
+`#A Distant Glow``~
+In the far distance something sparkles brightly, piercing the heavy haze
+of Great Wastes of Thule.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+A distant, powerful glow pierces the strange unnatural fogs that surround
+the area.  The far glow seems to set the night sky alight yet for all this
+illumination you are still unsure as to the direction to take.  A chilling
+wind howls through the night mixed with low snarls and grunts of things
+beyond your circle of vision.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4074
+D1
+~
+~
+0 0 4035
+D2
+~
+~
+0 0 4045
+D3
+~
+~
+0 0 4033
+T 100
+S
+#4035
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D2
+~
+~
+0 0 4039
+D3
+~
+~
+0 0 4034
+T 100
+S
+#4036
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8650752 0 10
+D0
+~
+~
+0 0 4001
+D1
+~
+~
+0 0 4040
+D2
+~
+~
+0 0 4051
+T 100
+S
+#4037
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8650752 0 10
+D0
+~
+~
+0 0 4038
+D2
+~
+~
+0 0 4015
+D3
+~
+~
+0 0 4010
+T 100
+S
+#4038
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4039
+D2
+~
+~
+0 0 4037
+D3
+~
+~
+0 0 4042
+T 100
+S
+#4039
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4035
+D2
+~
+~
+0 0 4038
+D3
+~
+~
+0 0 4045
+T 100
+S
+#4040
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8650752 0 10
+D0
+~
+~
+0 0 4005
+D1
+~
+~
+0 0 4048
+D2
+~
+~
+0 0 4052
+D3
+~
+~
+0 0 4036
+T 100
+S
+#4041
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8650752 0 10
+D0
+~
+~
+0 0 4044
+D1
+~
+~
+0 0 4008
+D2
+~
+~
+0 0 4006
+D3
+~
+~
+0 0 4028
+T 100
+S
+#4042
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4045
+D1
+~
+~
+0 0 4038
+D2
+~
+~
+0 0 4010
+D3
+~
+~
+0 0 4043
+T 100
+S
+#4043
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4046
+D1
+~
+~
+0 0 4042
+D2
+~
+~
+0 0 4008
+D3
+~
+~
+0 0 4044
+T 100
+S
+#4044
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4047
+D1
+~
+~
+0 0 4043
+D2
+~
+~
+0 0 4041
+D3
+~
+~
+0 0 4029
+T 100
+S
+#4045
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4034
+D1
+~
+~
+0 0 4039
+D2
+~
+~
+0 0 4042
+D3
+~
+~
+0 0 4046
+T 100
+S
+#4046
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4033
+D1
+~
+~
+0 0 4045
+D2
+~
+~
+0 0 4043
+D3
+~
+~
+0 0 4047
+T 100
+S
+#4047
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4032
+D1
+~
+~
+0 0 4046
+D2
+~
+~
+0 0 4044
+D3
+~
+~
+0 0 4030
+T 100
+S
+#4048
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4026
+D1
+~
+~
+0 0 4049
+D2
+~
+~
+0 0 4053
+D3
+~
+~
+0 0 4040
+T 100
+S
+#4049
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4011
+D1
+~
+~
+0 0 4050
+D2
+~
+~
+0 0 4054
+D3
+~
+~
+0 0 4048
+T 100
+S
+#4050
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8650752 0 10
+D0
+~
+~
+0 0 4016
+D2
+~
+~
+0 0 4055
+D3
+~
+~
+0 0 4049
+T 100
+S
+#4051
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4036
+D1
+~
+~
+0 0 4052
+D2
+~
+~
+0 0 4060
+T 100
+S
+#4052
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4040
+D1
+~
+~
+0 0 4053
+D2
+~
+~
+0 0 4059
+D3
+~
+~
+0 0 4051
+T 100
+S
+#4053
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4048
+D1
+~
+~
+0 0 4054
+D2
+~
+~
+0 0 4058
+D3
+~
+~
+0 0 4052
+T 100
+S
+#4054
+`#The Tainted Sands``~
+Amidst the sweltering haze you come upon a strange circle of black sand. 
+Dark as the blackest tar, the sands stretch for some distance about here, a
+heavy fog and stink of death raising above it.  A supernatural presence
+seems to prevail the area, and you find yourself not minding the heavy sun
+for once.  
+~
+With the protective rays of the sun gone, the area about you reeks of
+potent evil and undead.  A mysterious black circle of sand darker then night
+its self seems to shift under your feet as ghostly specters and shrill moans
+escape through it to the surface.  Menacing shapes form momentarily upon the
+black sand, claws and fangs extended towards you.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4049
+D1
+~
+~
+0 0 4055
+D2
+~
+~
+0 0 4057
+D3
+~
+~
+0 0 4053
+T 100
+S
+#4055
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4050
+D2
+~
+~
+0 0 4056
+D3
+~
+~
+0 0 4054
+T 100
+S
+#4056
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4055
+D2
+~
+~
+0 0 4065
+D3
+~
+~
+0 0 4057
+T 100
+S
+#4057
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4054
+D1
+~
+~
+0 0 4056
+D2
+~
+~
+0 0 4064
+D3
+~
+~
+0 0 4058
+T 100
+S
+#4058
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4053
+D1
+~
+~
+0 0 4057
+D2
+~
+~
+0 0 4063
+D3
+~
+~
+0 0 4059
+T 100
+S
+#4059
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4052
+D1
+~
+~
+0 0 4058
+D2
+~
+~
+0 0 4062
+D3
+~
+~
+0 0 4060
+T 100
+S
+#4060
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4051
+D1
+~
+~
+0 0 4059
+D2
+~
+~
+0 0 4061
+T 100
+S
+#4061
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4060
+D1
+~
+~
+0 0 4062
+D2
+~
+~
+0 0 4070
+T 100
+S
+#4062
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4059
+D1
+~
+~
+0 0 4063
+D2
+~
+~
+0 0 4069
+D3
+~
+~
+0 0 4061
+T 100
+S
+#4063
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4058
+D1
+~
+~
+0 0 4064
+D2
+~
+~
+0 0 4068
+D3
+~
+~
+0 0 4062
+T 100
+S
+#4064
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4057
+D1
+~
+~
+0 0 4065
+D2
+~
+~
+0 0 4067
+D3
+~
+~
+0 0 4063
+T 100
+S
+#4065
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4056
+D2
+~
+~
+0 0 4066
+D3
+~
+~
+0 0 4064
+T 100
+S
+#4066
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4065
+D3
+~
+~
+0 0 4067
+T 100
+S
+#4067
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4064
+D1
+~
+~
+0 0 4066
+D3
+~
+~
+0 0 4068
+T 100
+S
+#4068
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4063
+D1
+~
+~
+0 0 4067
+D2
+~
+~
+0 0 4071
+D3
+~
+~
+0 0 4069
+T 100
+S
+#4069
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4062
+D1
+~
+~
+0 0 4068
+D3
+~
+~
+0 0 4070
+T 100
+S
+#4070
+`#Wandering the Great Wastes of Thule``~
+You stand amid the great desert, bearing southward, or so you think.  The
+Easterners call the desert 'The Great Wastes of Thule', while to the west they
+refer to them as 'The Blasted Lands'.  The ground below you is parched and
+cracked dry mud, that is a dark gray in color.  A heavy haze mars the
+horizon all around you, making navigation impossible.  Large hulks of burned
+trees lie, gnarled, all around you.  You are finding it very difficult to
+maintain your senses here.  
+~
+Night blankets the land and your ears cannot ignore the angry snarls,
+growl and unnatural chills that reach you from somewhere beyond your circle
+of vision.  Easterners call this place 'The Great Wastes of Thule', while to the
+west they refer to them as 'The Blasted Lands'.  Large hulks of burned trees
+lie, gnarled, all around you their shapes menacing in the darkness.  You
+find it most difficult to maintain sense of direction here.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4061
+D1
+~
+~
+0 0 4069
+T 100
+S
+#4071
+`#A Distant Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4068
+D2
+~
+~
+0 0 4072
+T 100
+S
+#4072
+`#A Distant Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4071
+D3
+~
+~
+0 0 4073
+T 100
+S
+#4073
+`#A Distant Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 8388608 0 10
+D1
+~
+~
+0 0 4072
+D2
+~
+~
+0 0 4009
+T 100
+S
+#4074
+`#A Distant Glow``~
+In the far distance something sparkles brightly, piercing the heavy haze
+of Great Wastes of Thule.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+A distant, powerful glow pierces the strange unnatural fogs that surround
+the area.  The far glow seems to set the night sky alight yet for all this
+illumination you are still unsure as to the direction to take.  A chilling
+wind howls through the night mixed with low snarls and grunts of things
+beyond your circle of vision.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4075
+D2
+~
+~
+0 0 4034
+T 100
+S
+#4075
+`#A Distant Glow``~
+In the far distance something sparkles brightly, piercing the heavy haze
+of Great Wastes of Thule.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+A distant, powerful glow pierces the strange unnatural fogs that surround
+the area.  The far glow seems to set the night sky alight yet for all this
+illumination you are still unsure as to the direction to take.  A chilling
+wind howls through the night mixed with low snarls and grunts of things
+beyond your circle of vision.  
+~
+0 8388608 0 10
+D2
+~
+~
+0 0 4074
+D3
+~
+~
+0 0 4076
+T 100
+S
+#4076
+`#A Distant Glow``~
+In the far distance something sparkles brightly, piercing the heavy haze
+of Great Wastes of Thule.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+A distant, powerful glow pierces the strange unnatural fogs that surround
+the area.  The far glow seems to set the night sky alight yet for all this
+illumination you are still unsure as to the direction to take.  A chilling
+wind howls through the night mixed with low snarls and grunts of things
+beyond your circle of vision.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 1700
+D1
+~
+~
+0 0 4075
+T 100
+S
+#4085
+`#A Distant Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4012
+D1
+~
+~
+0 0 4086
+D2
+~
+~
+0 0 4089
+D3
+~
+~
+0 0 4008
+T 100
+S
+#4086
+`#A Distant Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 0 0 10
+D2
+~
+~
+0 0 4087
+D3
+~
+~
+0 0 4085
+T 100
+S
+#4087
+`#A Distant Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 0 0 10
+D0
+~
+~
+0 0 4086
+D2
+~
+~
+0 0 4088
+T 100
+S
+#4088
+`#A Distant Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 0 0 10
+E
+sign~
+BEWARE for you are near the City of the Dead which
+stands in these accursed sands.
+Few who venture these lands ever come ou-
+                                         -
+                                          _- _
+~
+D0
+~
+~
+0 0 4087
+D1
+~
+~
+0 0 4089
+D2
+~
+~
+0 0 4090
+T 100
+S
+#4089
+`#A Distant Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4096
+D1
+~
+~
+0 0 4090
+D2
+~
+~
+0 0 4090
+D3
+~
+~
+0 0 4088
+T 100
+S
+#4090
+`#A Distant Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4094
+D1
+~
+~
+0 0 4086
+D2
+~
+~
+0 0 4091
+D3
+~
+~
+0 0 4089
+T 100
+S
+#4091
+`#A Distant Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4090
+D2
+~
+~
+0 0 4092
+T 100
+S
+#4092
+`#Nearing the City of the Dead``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4091
+D2
+~
+~
+0 0 4093
+T 100
+S
+#4093
+`#A Distant Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4092
+D3
+~
+~
+0 0 4094
+T 100
+S
+#4094
+`#A Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 8388608 0 10
+D1
+~
+~
+0 0 4093
+D2
+~
+~
+0 0 4095
+T 100
+S
+#4095
+`#A Distant Mirage``~
+In the far distance you spot a silhouette of a large city, its details
+vibrating in the hot sun.  Huge sand dunes obstruct your sight and you find
+yourself unsure as to which direction to take.  As you take your eyes off of
+the distant vision it seems to waver only to reappear in a new confusing
+direction.  
+~
+The sand creaks under your feet as your eyes vainly try to pick out any
+distant landmarks hidden by the strange unnatural fogs that surround the
+area.  A chilling wind howls through the night mixed with low snarls and
+grunts of things beyond your circle of vision.  
+~
+0 8388608 0 10
+D0
+~
+~
+0 0 4094
+D2
+~
+~
+0 0 4096
+T 100
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 4001 spec_poison
+M 4005 spec_cast_undead
+M 4006 spec_hunter_allied
+M 4007 spec_hunter_allied
+M 4012 spec_hunter_allied
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+O 0 4099 0 4000
+M 0 4004 2 4001 1
+O 0 100 0 4005
+O 0 111 0 4006
+O 0 111 0 4007
+M 0 4000 25 4008 1
+O 0 4009 0 4013
+O 0 4004 0 4015
+M 0 4010 1 4017 1
+M 0 4025 1 4025 1
+E 0 4025 0 18
+M 0 4000 25 4027 1
+M 0 4003 10 4030 1
+M 0 4003 10 4032 1
+M 0 4000 25 4033 1
+M 0 4003 10 4035 1
+M 0 4000 25 4037 1
+M 0 4001 6 4038 1
+E 0 4003 0 17
+M 0 4003 10 4038 1
+M 0 4000 25 4039 1
+O 0 4001 0 4042
+M 0 4001 6 4042 1
+E 0 4003 0 17
+M 0 4009 1 4042 1
+E 0 4006 0 6
+E 0 4008 0 7
+M 0 4001 6 4043 1
+E 0 4003 0 17
+M 0 4000 25 4044 1
+M 0 4001 6 4045 1
+E 0 4003 0 17
+M 0 4003 10 4046 1
+M 0 4005 10 4049 1
+M 0 4000 25 4052 1
+O 0 4002 0 4054
+M 0 4005 10 4054 1
+M 0 4008 1 4054 1
+E 0 4005 0 17
+M 0 4000 25 4055 1
+M 0 4000 25 4056 1
+M 0 4005 10 4061 1
+M 0 4000 25 4062 1
+M 0 4005 10 4064 1
+M 0 4011 1 4072 1
+O 0 4000 0 4073
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#4000
+if carries $n !4007!
+  mob echoat $n The sand under your feet seems to move away from you!
+  mob echoaround $n The sand under $N's feet seems to move away from $M!
+  mob chown !4007! $n
+  mob junk !4007!
+  mob delay 1
+  if carries $n !4007!
+    break
+  else
+    mob echoat $n You've run out of the Sand Repellant!
+  endif
+  break
+endif
+if isdelay $i
+  break
+endif
+mob echoat $n $I comes alive under your feet and attacks!
+mob echoaround $n $I comes alive under $N's feet and attacks!
+bash $n
+dirt $n
+~
+#4001
+if ispc $n
+  mob echo Its tail raised $I attacks!
+  backstab $n
+  mob cast 'poison' $n
+endif
+~
+#4002
+if iscombat $i
+  break
+endif
+if affected2 $i camouflage
+  mob forget
+  mob remember $a
+  if hastarget $i
+  else
+    mob remember $r
+  endif
+  if hastarget $i
+    if level $q < 20
+    or ispc $q
+      mob call 4000 $q null null
+    endif
+  endif
+  break
+else
+  mob echo $I takes on an appearance of an innocent dune.
+  camouflage
+endif
+~
+#4003
+if iscombat $i
+  break
+else
+  mob forget
+  mob remember $r
+  if hastarget $i
+     mob call 4001 $q null null
+  endif
+endif
+~
+#4004
+if getdelay > 0
+  break
+endif
+mob echo Spooked by your passage $I darts into the sands!
+north
+~
+#4005
+if ispc $n
+  mob echo $I leaps towards you!
+  lifedrain $n
+  mob cast 'plague' $n
+  mob cast 'enfeeble' $n
+endif
+~
+#4006
+if iscombat $i
+  break
+else
+  mob forget
+  mob remember $r
+  if hastarget $i
+     mob call 4005 $q null null
+  endif
+endif
+~
+#4007
+if rand 5
+  mob echo $I emits a blood curdling scream.
+  mob zecho A chilling scream echoes through the area!
+endif
+if hour < 19
+and hour > 7
+  mob echo $I snarls at the sun!
+  if iscombat $i
+    'We shall meet again! 
+  endif
+  mob attrib $i timer = 0
+endif
+~
+#4008
+mob echoat $n $I emits a blood chilling scream and attacks you!
+mob echoaround $n $I emits a blood chilling scream and attacks $N!
+murder $n
+~
+#4009
+if hour < 19
+and hour > 7
+  mob echo $I snarls at the sun!
+  if iscombat $i
+    'We shall meet again!
+  endif
+  mob attrib $i timer = 0
+endif
+~
+#4010
+snarl $n
+corrupt $n
+~
+#4011
+if isdelay $i
+  break
+else
+  mob echoat $n [`8Krasq``] 'Please $N... Free me..  Please!'
+  mob delay 1
+endif
+~
+#4012
+mob echoat $n [`8Krasq``] 'Thank you $N.....'
+if hasquest $n 'freed Krasq from its torment.'
+  break
+else
+  mob echoat $n `@Congratulations! You have freed Krasq from its torment!``
+  mob echoat $n `@You've gained 1hp and 2000 exp!``
+  mob gain php pc $n 1 1
+  mob gain exp pc $n 2000 2000
+  mob permquest $n freed Krasq from its torment.
+endif
+~
+#4013
+mob pfor group $n call 4014 # null null
+mob echo With a chilling moan the `8tainted sands`` retreat temporarly!
+mob purge !4002!
+~
+#4014
+mob echoat $n [`8Krasq``] 'Thank you $N.....'
+if hasquest $n 'freed Krasq from its torment.'
+  break
+else
+  mob echoat $n `@Congratulations! You have freed Krasq from its torment!``
+  mob echoat $n `@You've gained 1hp and 2000 exp!``
+  mob gain php pc $n 1 1
+  mob gain exp pc $n 2000 2000
+  mob permquest $n freed Krasq from its torment.
+endif
+~
+#4015
+mob pfor group $n call 4021 # null null
+mob echo With a thunderous hiss and crackle the Nexus Rift closes temporarly!
+mob purge !4001!
+~
+#4016
+if isdelay $i
+  break
+endif
+giggle $i
+'I got sand repelant, it repels dunes it does! Only 2'000 gold!
+emote goes back to rolling in the dirt.
+mob delay 1
+~
+#4017
+'Thanks $N you got any more?!
+cackle
+mob junk gold
+~
+#4018
+'Yup, repels sand, especialy dunes! But not night and hunger. No siirrie, not hunger.
+slap self
+cry
+mob junk gold
+mob oload 4007 30
+give !4007! $n
+drop !4007!
+~
+#4019
+if isnpc $n
+break
+endif
+mob echo $I Screams in agony as his eyes bulge out and his flesh is ripped apart.
+mob echo You have released the Torment trapped within $I!
+mob mload 4007
+mob force 1. say FOOLISH MORTAL, THIS ACT SHALL BE YOUR UNDOING!
+mob force 1. murder $n
+~
+#4020
+mob echoat $n [`8Malignant``] 'Please $N... Free me..  Please!'
+~
+#4021
+mob echoat $n [`8Malignant``] 'Thank you $N.....'
+if hasquest $n 'freed Malignant from its torment.'
+  break
+else
+  mob echoat $n `@Congratulations! You have freed Malignant from its torment!``
+  mob echoat $n `@You've gained 1hp and 2000 exp!``
+  mob gain php pc $n 1 1
+  mob gain exp pc $n 2000 2000
+  mob permquest $n freed Malignant from its torment.
+endif
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#4000
+if isdelay $i
+  break
+endif
+if hour >= 19
+or hour <= 7
+  if mobhere Krasq
+    obj force Krasq emote seems to grow weaker as its soul is bled of energy.
+  endif
+  obj echo Black mists errupt from with $I as a wraith steps forth!
+  obj zecho A blood chilling scream pierces the desert!
+  obj mload 4006
+  obj delay 3
+endif
+~
+#4001
+if isdelay $i
+  break
+endif
+if hour >= 18
+or hour <= 6
+  obj echo Black lighting crackles about $I as a torment steps forth!
+  obj zecho An ominous crackling of dark energies echos through the night!
+  obj mload 4007
+  obj delay 3
+endif
+~
+#4002
+obj echo $I returns into this dimension.
+~
+#4003
+if affected $n pass_door
+or isdelay $i
+  break
+else
+  if isworn $i
+    obj echo $I moves into another dimension.
+    obj cast 'pass door' $n
+    obj delay 24
+  endif
+endif
+~
+#0
+
+#ROOMPROGS
+#4000
+if getdelay > 0
+  break
+endif
+Spooked by your passage a small black scorpion darts into the sands!
+room echo A black scorpion walks north.
+room echo You hear something's death cry.
+~
+#4001
+room echoat $n The heat of Tzaelcos fury sears through you.
+room echoat $n Tzaelcos gaze falls upon you.
+room echoat $n Tzaelcos leaves your senses.
+~
+#4002
+if hasquest $n 'Discovered the Shrine to Tzaelcos in the Great Wastes'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Tzaelcos!``
+    room permquest $n Discovered the Shrine to Tzaelcos in the Great Wastes
+endif
+~
+#0
+
+#$

@@ -1,0 +1,3225 @@
+#AREADATA
+Name the Luvan Wood~
+Pref ~
+Builders Ankharan Valdaric~
+VNUMs 5900 5999
+Max_Bastions 0
+Credits { All }~
+Security 2
+Startroom 0
+Flags 0
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#5902
+forest bandit~
+a forest bandit~
+A forest bandit lurks about here, keeping an eye out for prospective prey.
+~
+A forest bandit is wearing olive jerkin and brown dusty boots.  They look
+as though they have seen better fortunes and perhaps are looking to enhance them
+yet again as they meander about the area.
+~
+half-elf~
+AGSd A 0 0 0 0
+10 2 3d25+100 0d0+100 2d5+5 pierce
+4 4 4 7
+0 0 BP 0
+stand stand either none~
+5
+AHMV ABCDEFGHIJK medium 0
+F aff J
+#5905
+elf scout~
+a elf scout~
+An elf scout is here.
+~
+An elven scout stands guardingly minding their post.  Their spear looks 
+sharp and menacing.  Fine earth-toned clothing seems to hang gracefully 
+off of their slender body.
+~
+elf~
+AGTd A JP 0 100 0
+8 1 2d19+90 0d0+100 2d5+3 pierce
+5 5 6 7
+0 0 B Z
+stand stand either none~
+6
+AHMV ABCDEFGHIJK medium 0
+#5908
+forest bandit~
+a forest bandit~
+A forest bandit lingers here amongst the trees.
+~
+~
+half-elf~
+AGSd A J 0 0 0
+7 3 4d6+150 0d0+100 2d4+0 pierce
+5 7 6 7
+0 0 BP 0
+stand stand either none~
+3
+AHMV ABCDEFGHIJK medium 0
+#5909
+goblin~
+a goblin~
+A goblin is here.
+~
+The goblins puke green skin and scaley looking hide makes for a revolting
+looking creature.  Its huge vacant stare and yellowish stained fanges give him 
+a dangerous appearance.  His long crusty claws drip with fresh spilled blood
+of his latest victim.
+~
+goblin~
+ACGSd A J 0 -500 0
+9 2 3d22+96 0d0+100 2d4+4 punch
+4 4 4 6
+0 0 Q C
+stand stand male none~
+10
+AHMV ABCDEFGHIJK medium 0
+#5910
+forest owl~
+a forest owl~
+A large brown forest owl is here.
+~
+A large brown forest owl scans the area for its next meal.
+Its sharp claws and hooked beak make formidable weapons.
+~
+unique~
+AGIWd A T 0 0 0
+5 1 1d18+50 0d0+100 2d3+4 claw
+2 2 2 4
+0 T 0 H
+stand stand none none~
+6
+0 0 small 0
+#5912
+dire wolf~
+a dire wolf~
+A dire wolf is sitting here.
+~
+A dire wolf is here sitting and resting from a long days hunt.
+His matted fur and chipped claws warn of an excellent hunter.
+His large size may be an indicator of his durability.
+ 
+~
+wolf~
+AGWd A P 0 -300 0
+10 2 3d25+100 0d0+100 2d5+5 bite
+4 4 4 7
+F P 0 H
+sit sit either none~
+4
+AHMV ABCDEFGHIJK large 0
+#5913
+rat snake~
+a rat snake~
+A rat snake is resting here.
+~
+A small black rat snake is resting here.  Its scales glisten with
+a sheen.  Its scales keep it well hiden in the underbrush
+awaiting prey and attempting to stay concealed from predators.
+~
+snake~
+AGWd A 0 0 0 0
+8 1 2d19+80 0d0+100 2d4+4 bite
+3 8 7 8
+FHX L L I
+rest rest none none~
+12
+AGXYc ADEFKLQVX small 0
+#5914
+luvan dryad~
+a luvan dryad~
+A luvan dryad is here.
+~
+A luvan dryad is busily tending to the forest.  She has a radiant
+silvery glow about her that shimmers and twinkles with luminescent
+beauty.  Her fair skin and chiseled features reminds one of the elven
+folk.
+~
+unique~
+ACGQWd A EJN 0 50 0
+9 2 3d25+100 0d0+100 2d5+5 punch
+4 4 4 7
+FHQRU 0 BX Z
+stand stand female none~
+11
+0 0 small 0
+#5916
+badger~
+a badger~
+A badger is scurrying about here.
+~
+Before you is a long-haired badger.  He is scurrying about in search of
+some scrumptious berries and grubs.  His claws are long and sharp, made 
+for digging.  He looks like he has been well fed and content in his rummaging 
+through the forest underbrush.
+~
+unique~
+AGWd A F 0 0 0
+7 1 2d13+51 0d0+100 2d4+4 bite
+6 6 6 9
+RU 0 E 0
+stand stand male none~
+7
+0 0 large 0
+#5917
+black bear~
+a black bear~
+A black bear is foraging here.
+~
+A black bear is foraging here for some succulent berries and fruits.  He looks
+quite content to go about his business.  He has a thick black coat that looks
+comfy and warm.  His claws look as though they may inflict some serious pain
+should they  find their target.
+~
+bear~
+AGWd A 0 0 0 0
+8 2 3d20+100 0d0+100 2d4+4 claw
+5 5 5 7
+DORX 0 EI H
+stand stand none none~
+3
+AG ACDEFJKU medium 0
+F off E
+#5918
+lynx~
+a short tailed lynx~
+A short tailed lynx is here.
+~
+A short tailed lynx is here resting in the trees.  Their
+grayish and black striped coat of fur blends nicely with the
+foliage above.
+~
+cat~
+AGHId A 0 0 0 0
+5 1 1d16+51 0d0+100 1d4+3 claw
+7 7 7 6
+FH 0 0 0
+stand stand none none~
+2
+AGV ACDEFHJKQUV medium 0
+#5919
+raccoon~
+a raccoon~
+A small raccoon is wandering about here.
+~
+A small thick haired raccoon is wandering about here searching for something.
+His coat is matted and full of burrs.  His black rimmed eyes look up at you as
+if to acknowledge your presence.
+~
+unique~
+AGHId A 0 0 0 0
+5 1 1d18+43 0d0+100 2d3+2 bite
+8 8 8 8
+H 0 0 H
+stand stand male none~
+2
+0 0 small 0
+#5921
+forest bandit~
+a forest bandit~
+A forest bandit lingers here amongst the trees.
+~
+A forest bandit is lurking about here.  Hunched down as if trying to conceal themselves
+from prying eyes.  They are wearing a black cloak and black tunic with brownish trousers.
+They appear to have some sort of markings on their face which resembles a small skull
+tattoo.
+~
+human~
+ACGHSd A 0 0 -100 0
+7 1 3d15+100 0d0+100 3d3+3 punch
+5 7 6 7
+F 0 P 0
+stand stand male none~
+6
+AHMV ABCDEFGHIJK medium 0
+#5925
+rattle snake~
+a rattle snake~
+A diamond back rattle snake is here.
+~
+A coiled diamond back rattle snkae is here resting.  Occasionally
+flicking its tongue to sense the area around hoping for a field mouse to
+graciously pass by close enough for a quick meal.
+ 
+~
+snake~
+AGWd A 0 0 0 0
+6 1 1d19+44 0d0+100 2d4+3 bite
+7 7 7 9
+DHU 0 L I
+stand stand none none~
+7
+AGXYc ADEFKLQVX small 0
+#5927
+southern Luvan elf~
+a southern elf~
+A southern Luvan elf is standing here.
+~
+A southern Luvan elf is standing here minding their own business.  They
+are adorned with camouflaged tunic and jerkin with soft brown leather boots.
+Their long black hair cascades around the shoulders and silvery eyes stare
+off into the forest as if they are searching.
+~
+elf~
+ACGTWd A JP 0 300 0
+9 2 3d25+100 0d0+100 2d5+5 pierce
+4 4 4 7
+EFINQRX 0 B Z
+stand stand either none~
+5
+AHMV ABCDEFGHIJK medium 0
+#5928
+white tail deer~
+a white tail deer~
+A white tail deer is grazing here.
+~
+A white tail deer is grazing here.  It lifts its head for a moment 
+to look  around the area then goes back to grazing.  Its beautiful brown 
+coat and majestic stance makes it look very at home in the forest.
+~
+deer~
+AGHWd A 0 0 0 0
+5 0 1d17+42 0d0+100 2d3+4 charge
+7 6 6 8
+C 0 0 FG
+stand stand none none~
+3
+AGV ACDEFJKQ large 0
+#5929
+rabbit furry bunny ~
+a furry bunny rabbit~
+A furry bunny rabbit hustles around here.
+~
+A furry bunny rabbit hustles around here.  Shivering and affraid
+it tries to run from your approach.  Its cotton tail and floppy
+ears look so sweet and innocent.
+~
+rabbit~
+AGHWd A 0 0 0 0
+5 0 1d4+1500 0d0+100 1d2+1 bite
+8 8 8 8
+FH 0 0 CDEFGP
+stand stand none none~
+9
+AGV ACDEFHJK small 0
+#5930
+rock hounds~
+a rock hound~
+A rock hound stands here.
+~
+A large rock hound is standing here with fangs bared and head lowered.
+His raised fur along his spine and offensive posture denotes his desire
+to defend his territory.  His coat is grey with darker grey streaks.
+~
+dog~
+AGWd A V 0 0 0
+7 1 2d19+85 0d0+100 2d4+3 none
+5 5 5 6
+FHRX B 0 0
+stand stand none none~
+5
+AGV ACDEFHJKUV medium 0
+#5945
+hobgoblin~
+a hobgoblin~
+A hobgoblin is here.
+~
+You are looking at a yellowish skinned orange faced humanoid.
+Their bright reddish-orange tunics are only slightly less gaudy than
+their pea green trousers.  They are wearing brownish gloves and have a
+less than pleased look upon their twisted facial features.
+~
+hobgoblin~
+ACGHd A J 0 -400 0
+5 1 1d17+50 0d0+100 2d4+3 punch
+7 7 7 9
+FHJQRU 0 LQ 0
+stand stand none none~
+4
+AHMV ABCDEFGHIJKY medium 0
+#5947
+fayekin~
+a fayekin~
+A fayekin is here.
+~
+A small creature with what looks like dragonfly wings with sharp elfish
+features darts here and there tending to the many plants in the area.  They are
+adorned with near transparent skirts and a golden rope belt.  Her small size and
+quickness is a wonder to behold.  Some sort of twinkling dust cascades about her.
+~
+unique~
+ACGHd A CJT 0 250 0
+3 0 1d6+25 0d0+100 1d3+2 punch
+8 8 8 5
+FHQRSU 0 C MZ
+stand stand none none~
+3
+0 0 small 0
+#5953
+weary traveler~
+a weary traveler~
+A weary traveler is here resting.
+~
+A traveler is here resting.  They are commonly dressed in a gray jerkin
+brownish pants that look dusty with road dirt and soft brown leather boots.
+They have a thin black belt on them that holds a small travel pack.
+They look as if they could be a farmer or pilgrim of some sort.
+~
+human~
+ABCGHd A 0 0 0 0
+5 0 1d20+45 0d0+100 2d3+2 punch
+7 7 7 8
+FU 0 0 0
+stand sit none none~
+7
+AHMV ABCDEFGHIJK medium 0
+#5958
+river troll~
+a river troll~
+A river troll is here.
+~
+A huge grotesquely misshapen beast of a two legger stands here grinning
+with its awful yellowed maw agape.  Its long claws and putrid greenish blue
+hide are not near as disgusting as the stench of rotting fish.  Its large feet
+and lanky limbs give an uncanny agility to it.
+~
+troll~
+ABCTWe A DGJa 0 -750 0
+10 2 3d22+100 0d0+100 2d5+5 claw
+0 0 0 0
+0 IJL 0 HK
+stand stand none none~
+10
+ABHMV ABCDEFGHIJK huge 0
+#5972
+Glaseria Aelfana~
+a female elf~
+A beautiful female elf is here.
+~
+You are gazing upon a beautiful female wood elf.  Her almond eyes are
+highlighted by her thin silvery brows.  Her chiseled facial features
+classical of the elven people are aglow with a soft pale blue aura.
+She is adorned in a faded green fine silken gown.  She has a long ivory
+handled dagger that hangs by her side that is bejeweled with large emeralds.
+Her long silvery hair cascades down her slender frame.  She has a perpetual
+thin cherry red smile.
+~
+elf~
+ABa A CDHJNP 0 600 0
+60 20 20d169+920 0d0+100 2d8+50 faith
+-40 -40 -40 -40
+DFJNX ABQ B Z
+stand stand female none~
+24
+AHMV ABCDEFGHIJK medium 0
+#5975
+forest giant~
+a forest giant~
+A green skined forest giant stomps through this area.
+~
+Looking much like the fire giants except for the deep greenish skin and
+yellowish eyes this one seems to be a little bigger than his fire giant
+cousins.  Long dark green close grown beard and brown ties that keep his
+hair out of his face he seems to stick out even though he tends to blend a
+little with the surrounding trees.  He has massively large hands and his
+head seems a little too big for his thick stump-like neck.  
+~
+giant~
+AGTd 0 J 0 -400 0
+10 3 3d30+100 0d0+0 3d5+5 punch
+4 4 4 7
+X 0 D 0
+stand stand male none~
+0
+0 0 giant 0
+F vul P
+#5982
+Luvan nymph~
+a Luvan nymph~
+A Luvan nymph is here.
+~
+Before you is a small faye creature of the Luvan wood.  She is aglow
+with a radiant soft blue light that surrounds her.  Her butterfly-like wings
+flutter as she gracefully tends the forest.  She has large almond shaped eyes
+and small pursed lips.  Her pointed ears hint at her part elven heritage.
+~
+unique~
+AGHd A EJNT 0 0 0
+5 1 1d17+49 0d0+100 2d3+3 punch
+7 7 7 6
+FQRU BL 0 Z
+stand stand female none~
+10
+0 0 small 0
+#5996
+black panther~
+a black panther~
+A black panther is here stalking about.
+~
+You are face to face with an enormous black cat.  Paws the size of a
+humans head and fangs dripping with saliva.  This yellow eyed beast looks
+dangerous and very, very, hungry.  
+~
+cat~
+AGd A J 0 0 0
+15 3 3d30+200 0d0+100 3d4+6 claw
+0 0 0 5
+FHUX 0 0 0
+stand stand none none~
+15
+AGV ACDEFHJKQUV medium 0
+#5997
+Hellina Luvan wood elf~
+a beautiful female wood elf~
+A beautiful female wood elf is here tending to her flowers.
+~
+~
+elf~
+ABCEJKQUac A DEFJP 0 0 0
+59 11 13d175+975 0d0+100 6d12+30 punch
+-27 -27 -27 -10
+AEFJX ABHQX B Z
+stand stand female none~
+28
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#5900
+boots~
+leather boots~
+A pair of black leather boots is here.~
+leather~
+clothing 0 AG
+0 0 0 0 0
+5 0 20 P
+F
+A 36 15 0
+#5901
+A forest path~
+leather armor~
+Black leather body armor is here.~
+leather~
+armor 0 AD
+-1 0 -2 -1 0
+7 100 0 P
+F
+A 2 1 0
+F
+A 5 1 0
+F
+A 1 -1 0
+#5902
+short sword~
+a short sword~
+A rusty short sword is lying here.~
+steel~
+weapon 0 AN
+sword 4 6 slash 0
+10 5 10 P
+#5903
+axe~
+an axe~
+An axe is here.~
+steel~
+throw 0 ANO
+1 4 4 pierce 0
+0 20 0 P
+#5904
+bracers metal~
+a pair of metal bracers~
+A pair of metal bracers with a lion etched in them is here.~
+steel~
+armor Y AI
+-1 -1 -1 0 0
+10 50 20 P
+F
+A 1 1 0
+#5905
+long spear~
+a long spear~
+A long spear with a gleaming tip is here.~
+wood~
+weapon 0 AN
+spear 5 8 thrust F
+7 70 10 P
+#5906
+fur cloak~
+a pelt cloak~
+A cloak made of deer skin is here.~
+fur~
+armor 0 AC
+0 0 -3 -1 0
+0 60 20 P
+F
+A 14 -10 0
+#5907
+wooden shield~
+a wooden shield~
+A wooden shield is here.~
+wood~
+armor 0 AJ
+-3 -1 -3 -1 0
+5 100 10 P
+#5908
+water fall~
+a water fall~
+A water fall splashes into a pool below.~
+unknown~
+furniture Y 0
+0 0 0 0 0
+60 0 0 P
+#5909
+steel shield~
+a rusting steel shield~
+A rusting steel shield is here.~
+steel~
+armor A AJ
+-2 -2 -2 -2 0
+9 100 15 P
+#5910
+owl feather~
+a brown owl feather~
+A brown forest owl feather is here.~
+owl feather~
+armor G AO
+-1 -1 -1 -1 0
+5 1 10 P
+#5911
+pool water~
+a pool of fresh water~
+A pool of fresh water is here~
+water~
+fountain 0 0
+-1 0 'water' 0 0
+60 0 0 P
+#5912
+chain mail jacket~
+a chain mail jacket~
+A chain mail jacket is here.~
+steel~
+armor Y AD
+-2 -2 -2 2 0
+10 0 0 P
+#5913
+firewood~
+firewood~
+A pile of firewood is here.~
+wood~
+trash 0 AO
+0 0 0 0 0
+1 50 0 P
+#5914
+dryad dagger~
+a dryads dagger~
+A dryad's silvery dagger is here.~
+silver~
+weapon K AN
+dagger 2 6 pierce 0
+9 20 0 P
+#5915
+flail~
+a flail~
+A flail is here~
+metal~
+weapon 0 AN
+flail 4 5 whip 0
+10 50 0 P
+#5916
+badger hide~
+a badger hide~
+A badger hide is here.~
+skin~
+armor 0 AK
+-1 -1 -1 0 0
+8 30 0 P
+#5917
+bear claw~
+a bear claw~
+A bear claw is lying here.~
+claw~
+weapon 0 AN
+dagger 1 6 slash 0
+8 10 0 P
+F
+A 19 2 0
+F
+A 18 2 0
+#5918
+staff~
+a staff~
+A hardwood staff with metal bindings is here.~
+hardwood~
+weapon 0 AN
+staff 3 6 pound 0
+9 70 0 P
+#5919
+elf stone~
+a glowing stone~
+A glowiong stone is here radiating a soft light.~
+stone~
+light 0 AO
+0 0 999 0 0
+10 20 1 P
+#5920
+red white spotted mushroom mushrooms~
+a patch of mushrooms~
+A bunch of red and white spotted mushrooms~
+mushroom~
+food G A
+12 6 0 0 24
+5 10 3 P
+#5921
+kukri~
+a kukri~
+A kurkri is here.~
+copper~
+weapon 0 AN
+dagger 4 6 slash 0
+10 30 20 P
+#5922
+Ankh's Ring~
+ankhs test ring~
+(no description)~
+mithral~
+armor H AB
+666 666 666 666 0
+59 0 0 P
+L
+0
+#5923
+bastard sword~
+a bastard sword~
+A two handed bastard sword is here.~
+unknown~
+weapon 0 AN
+sword 6 6 slash F
+11 100 100 P
+#5924
+brass helm~
+a brass helm~
+A brass open faced helm is here.~
+unknown~
+armor 0 AE
+-2 -2 -2 -1 0
+11 200 100 P
+#5925
+pike polearm~
+a pike~
+A long steel pike is here.~
+steel~
+weapon 0 AN
+polearm 5 5 pierce 0
+15 150 500 P
+#5927
+long sword longsword~
+a shiny long sword~
+A shiny long sword is here.~
+steel~
+weapon B AN
+sword 4 8 slash 0
+10 60 15 P
+#5928
+pelt deer white tail~
+a white tail deer pelt~
+A white tail deer pelt is lying here.~
+skin~
+armor 0 AK
+-1 -1 -1 -2 0
+5 50 10 P
+#5929
+rabbit fur rabbits furry bunny~
+a rabbit pelt~
+A furry little bunny rabbits pelt is lying here.~
+fur~
+treasure 0 AC
+0 0 0 0 0
+10 10 25 P
+F
+A 3 2 0
+F
+A 4 2 0
+#5930
+rock hound shank~
+the shank of a rock hound~
+A rock hound shank is here.~
+flesh~
+food 0 AD
+6 12 0 0 12
+7 30 6 P
+#5945
+gloves leather brown~
+brown leather gloves~
+A pair of brown leather gloves are here.~
+leather~
+armor 0 AH
+-1 -1 -2 -1 0
+10 10 10 P
+#5947
+fayekin rubbish~
+fayekin dust~
+A pile of fayekin dust is here.~
+dust~
+treasure 0 AO
+0 0 0 0 0
+1 1 100 P
+#5953
+hobo sack~
+a plaid hobo sack~
+A tartan plaid traveling hobo sack is here.~
+cloth~
+container 0 AO
+100 AC 0 10 0
+10 20 10 P
+#5960
+spiked gauntlets~
+a pair of spiked gauntlets~
+A pair of gruesome looking spiked gauntlets are here.~
+adamantine~
+weapon AHY AH
+exotic 3 10 punch DI
+15 150 200 P
+#5971
+boulder~
+a large boulder~
+A large boulder is here.~
+rock~
+throw 0 AO
+1 3 8 smash 0
+5 2000 0 P
+#5972
+Glaseria emerald ring~
+the emerald ring of Glaseria~
+A beautiful platinum ring with a large princess cut emerald is here.~
+emerald~
+treasure IK ABOX
+0 0 0 0 0
+40 5 500 P
+F
+A 2 3 0
+F
+A 1 3 0
+F
+A 3 3 0
+#5978
+altar Gaemina~
+an altar~
+An altar of Gaemina is placed here for her followers to worship at.~
+unknown~
+furniture AG 0
+0 0 0 0 0
+60 0 0 P
+#5980
+Ankh's Test Weapon~
+a ruby blade~
+A ruby blade is here~
+ruby~
+weapon HIY ANY
+sword 100 100 slash ACDEKL
+59 2 0 P
+L
+0
+F
+A 19 200 0
+F
+A 18 200 0
+#5996
+slim steel dagger~
+a slim steel dagger~
+A slim steel dagger is lying here.~
+steel~
+weapon 0 ANR
+dagger 4 4 pierce 0
+8 2 3 P
+#5997
+oak sap yellow golden~
+some yellow sap~
+There is some yellowish-golden sap from the elder oak tree here.  ~
+sap~
+potion 0 AO
+10 'cure light' 'reserved' 'reserved' 'reserved'
+5 30 4 P
+#5998
+elder oak tree~
+an elder oak tree~
+Before you reaching up into the sky is a gnarled massive oak.~
+wood~
+container TYc 0
+2000 0 0 0 0
+60 32000 0 P
+#0
+
+
+
+#ROOMS
+#5900
+`@Luvan Path ``~
+You find yourself on a path that leads north and south.  To the north lay
+the Luvan wood.  To the south, the city of Luva.  The path you are upon
+is a once  paved but now broken cobble stone path that is in dire need of
+repair.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 5901
+D2
+~
+~
+0 0 5750
+T 75
+S
+#5901
+`@Luvan path ``~
+To the west running northward the Luvan river runs.  Just up ahead you can
+see the river split and move a bit more to the northwest creating a fork in the
+river.  The river appears to be fairly clear and there are a few large mature
+oaks that seem to be a timeless reminder of the age of this forest.
+~
+~
+0 0 8192 3
+E
+river~
+The Luvan river splits here and runs north east and north west.
+It is fast running and deep in most places.
+~
+D0
+~
+~
+0 0 5902
+D2
+~
+~
+0 0 5900
+T 75
+S
+#5902
+`@Luvan Ruins ``~
+All around  you can see the ruins of a once large stone work building.  
+It appears as though it has been laid to rubble some hundreds of years ago.  
+Many vines and underbrush now seem to nearly cover the ruins and the path 
+that runs through them.
+~
+~
+0 0 16384 3
+E
+ruins~
+This place looks at though at one time it was a large building of stone. 
+~
+D0
+~
+~
+0 0 4300
+D2
+~
+~
+0 0 5901
+D3
+~
+~
+0 0 5903
+T 75
+S
+#5903
+`@Clearing `` ``~
+The path you are on broadens out to about two carriages wide.  Before you a
+large clearing in the forest opens up to a glen that looks peaceful and serene.
+Large redwoods surround the clearing that reach mightily into the sky.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 5904
+D1
+~
+~
+0 0 5902
+S
+#5904
+`@A forest path``~
+The path you are on appears to have gone from a hard dirt to a softer
+sand with weeds and small thorny vines.  There are sandbur weeds
+along this part of the path that tend to stick to just about everything
+and everyone.  Fur being a more problematic situation.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 5905
+D2
+~
+~
+0 0 5903
+S
+#5905
+`@Elven Out Post ``~
+The path you are on narrows a bit.  There is a small campfire pit here with
+remnants of a fire.  This area seems to be over run with some underbrush
+and thorny vines. The forest floor is covered with pine needles that have
+fallen over the years.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 5906
+D2
+~
+~
+0 0 5904
+T 75
+S
+#5906
+`@Toll Bridge ``~
+Up ahead there is a small creek surrounded by a thick marshy
+area.  A small stone bridge with moss and fungus grows on the
+smooth gray surface.  The smell of bog and wet ground permeates
+the air about. Strange unidentifiable sounds drift on the breeze.
+~
+~
+0 0 65536 3
+E
+marsh~
+The marsh looks nasty with slime clinging to just about everything in it.
+~
+E
+bridge~
+The stone bridge looks ancient and weather worn.
+~
+D0
+~
+~
+0 0 5907
+D2
+~
+~
+0 0 5905
+S
+#5907
+`@A cross roads ``~
+A cross roads.  A small weathered wooden sign is posted here
+which has painted wording.  To the west the path widens a little
+and looks to be well traveled.  To the east,  little more than a
+deer trail.  To the north the path looks of packed earth. To the
+south the path looks as though it had once been a paved road
+now fallen into disrepair.
+~
+~
+0 0 65536 3
+E
+sign~
+West Giantspine Mountains
+East elder Oak
+North-east Godswall Mountains
+South Luva
+North-west Malag's Crossing
+~
+D0
+~
+~
+0 0 5970
+D1
+~
+~
+0 0 5977
+D2
+~
+~
+0 0 5906
+D3
+~
+~
+0 0 5908
+S
+#5908
+`@Long Narrow Pathway ``~
+The path you are traveling on has narrowed to not much more than that of a
+beaten foot path.  Much of the forest underbrush encroaches upon the path.
+The you can see for quite a distance ahead.
+ 
+You see a wooden sign planted in the ground here.
+~
+~
+0 0 8192 3
+E
+sign~
+The sign reads:
+============================================
+Malag's Crossing : Northwest
+============================================
+~
+D1
+~
+~
+0 0 5907
+D3
+~
+~
+0 0 5909
+S
+#5909
+`@Long Narrow Pathway ``~
+The path you are traveling on has narrowed to not much more than that of a
+beaten foot path.  Much of the forest underbrush encroaches upon the path.
+The you can see for quite a distance ahead
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 5908
+D3
+~
+~
+0 0 5910
+S
+#5910
+`@Long Narrow Pathway ``~
+The path you are on winds and turns so much that the path
+ahead cannot be seen for more than a few yards at a time.
+Underbrush here is thin and sparsely dots the forest floor.
+This area of the forest gives one a sense that this place is
+robust and diverse in forest beings.
+~
+~
+0 0 32768 3
+E
+owl~
+An owl sits upon a branch and looks for its next meal.
+~
+D1
+~
+~
+0 0 5909
+D3
+~
+~
+0 0 5911
+T 75
+S
+#5911
+`@Long Narrow Pathway ``~
+You are traversing a long and extremely narrowed path.  The
+trees are barely far enough apart to allow single wagon passage
+and then, only at the hands of an experienced wagon master.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 5910
+D3
+~
+~
+0 0 5912
+S
+#5912
+`@Long Narrow Pathway ``~
+The path you are on winds and turns so much that the path ahead
+cannot be seen for more than a few yards at a time.  Underbrush
+here sparsely dots the forest floor.  This area of the forest gives
+one a sense that this place is robust and diverse in forest beings.
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 5911
+D3
+~
+~
+0 0 5913
+S
+#5913
+`@Luvan Fork ``~
+The road widens.  Up ahead you can see a fork in the road.  The forest
+crown opens up enough to see the evening sky.  The path seems to have
+some tracks in it.  Many of the tress in this area have a greenish moss
+growing thick on their massive trunks.
+ 
+You see a wooden sign planted in the ground here.
+~
+~
+0 0 65536 3
+E
+tracks~
+A closer inspection reveals that the tracks appear to be
+some sort of snake trails.
+~
+E
+sign~
+The sign reads:
+============================================
+Malag's Crossing : North
+============================================
+~
+D0
+~
+~
+0 0 5914
+D1
+~
+~
+0 0 5912
+D3
+~
+~
+0 0 5927
+T 75
+S
+#5914
+`@Live Oak ``~
+You have come into a large copse of oaks.  Knotted with age and
+weather.  They stand like a testament to the many long years of growth.
+There is a large number of fallen oaks that have returned much of their
+substance back to Mirlan.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 5915
+D2
+~
+~
+0 0 5913
+S
+#5915
+`2Beggers Cove ``~
+You have entered the deep Luvan forest.  Vines hang from the dense forest
+foliage.  Strange and eerie sounds emit from behind and above as you tread
+through vast thickets of low-growing vegetation.  Movement is slow and tedious.
+~
+~
+0 33554432 32768 13
+D2
+~
+~
+0 0 5914
+D3
+~
+~
+0 0 5916
+T 75
+S
+#5916
+`@North Luvan Path `` ``~
+You have entered the deep Luvan forest.  Vines hang from the dense forest
+foliage.  Strange and eerie sounds emit from behind and above as you tread
+through vast thickets of low-growing vegetation.  Movement is slow and tedious.
+ 
+You see a wooden sign planted in the ground here.
+~
+~
+0 0 8192 13
+E
+sign~
+The sign reads:
+============================================
+Malag's Crossing : North
+============================================
+~
+D0
+~
+~
+0 0 5917
+D1
+~
+~
+0 0 5915
+M 80 H 80
+T 80
+S
+#5917
+`@North Luvan Path `` ``~
+You have entered the deep Luvan forest.  Vines hang from the dense forest
+foliage.  Strange and eerie sounds emit from behind and above as you tread
+through vast thickets of low-growing vegetation.  Movement is slow and tedious.
+~
+~
+0 0 8192 13
+D0
+~
+~
+0 0 5918
+D2
+~
+~
+0 0 5916
+T 80
+S
+#5918
+`@North Luvan Path `` ``~
+You have entered the deep Luvan forest.  Vines hang from the dense forest
+foliage.  Strange and eerie sounds emit from behind and above as you tread
+through vast thickets of low-growing vegetation.  Movement is slow and tedious.
+~
+~
+0 0 16384 13
+D1
+~
+~
+0 0 5919
+D2
+~
+~
+0 0 5917
+T 80
+S
+#5919
+`@Menycs Bend ``~
+You have come to a bend in the forest.  There are fallen trees and uprooted
+brush all over.  Most of the trees in the area are of the pine and oak with a
+few magnolias here and there.  Up above you can see a birds nest.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 5920
+D3
+~
+~
+0 0 5918
+T 75
+S
+#5920
+`@Luvan Tea ``~
+You have come to a "T" in the path.  There is a sign hanging from
+one of the thin pines.  The path looks fairly well traveled such that
+it is a hard packed dirt which makes travel quick and easy.  There
+are some brightly colored red and white spotted mushrooms all about.
+ 
+You see a wooden sign planted in the ground here.
+~
+~
+0 0 16384 3
+E
+sign~
+The sign reads:
+============================================
+Malag's Crossing : North
+============================================
+~
+D0
+~
+~
+0 0 5921
+D1
+~
+~
+0 0 5931
+D2
+~
+~
+0 0 5919
+S
+#5921
+`@Bandit Haven ``~
+You have wandered into what looks like a very used place in the forest. 
+Among the trees are the telling signs of activity.  He underbrush looks as
+if it has been hollowed out some and a poor attempt to conceal the make
+shift hovels.  The ground has been heavily compacted to hide tracks and
+passage.  
+~
+~
+0 0 16384 3
+E
+sign~
+The sign reads:
+===========================================
+Malag's Crossing : West  then north
+===========================================
+~
+E
+sign~
+~
+E
+sign~
+The sign reads:
+===========================================
+Malag's Crossing : West 100 yards, North 500 yards
+===========================================
+~
+E
+sign~
+The sign reads:
+============================================
+Malag's Crossing : North west
+============================================
+~
+E
+sign~
+The sign reads:
+============================================
+Malag's Crossing : Northwest
+============================================
+~
+D2
+~
+~
+0 0 5920
+D3
+~
+~
+0 0 5922
+S
+#5922
+`@Silent Retreat ``~
+The forest has grown oddly silent here.  The usual sounds of the forest
+have quieted to next to nothing.  The only sounds that can be heard are
+the buzzing of the mosquitoes.  Gnats gather round is massive swarms. The
+forest floor is damp and slippery to tread upon here.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 5923
+D1
+~
+~
+0 0 5921
+S
+#5923
+`@Along the northern pass``~
+Much of the wonders and beauty of the woodland areas can be seen here.
+The fresh smell of clean brisk air is brought along the soft whisper of
+wind through the fragrant cedars.  A wood pecker hammers against a tree
+in an attempt to dig out a fresh meal to quench their appetite.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 5924
+D2
+~
+~
+0 0 5922
+S
+#5924
+`@Broad Path ``~
+You are on a broad path that goes north and south in the Luvan forest.
+The path is a well traveled hard-packed route that has been used for
+centuries by the denizens of the forest and merchants looking for a way
+to speed their journey to Luva.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 5925
+D2
+~
+~
+0 0 5923
+S
+#5925
+`@Broad Path ``~
+The pathway seems a bit wider than in most places.  By the looks of it
+people camp here on their long journey to and from Luva.  Old campfire pits
+can be seen scarring the paths edge.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 5926
+D2
+~
+~
+0 0 5924
+S
+#5926
+`@North Forest Edge ``~
+You are standing in the edge of the north west portion of the Luvan forest.
+Ahead lay a dark path into the wilds some call "elfwood" or "bandits delight."
+Many go in and some, never make it out.  The forest looks peaceful with its
+many different variety of trees and wildlife. To the south the path runs into
+the wooded area.  To the north out to Malag's crossing.
+ 
+You see a wooden sign planted in the ground here.
+~
+~
+0 0 16384 3
+E
+sign~
+~
+E
+sign~
+The sign reads: North to Malag's Crossin.
+~
+E
+sign~
+~
+E
+sign~
+The sign reads:
+===========================================
+Malag's Crossing : North, 100 yards
+===========================================
+~
+E
+sign~
+The sign reads:
+============================================
+Malag's Crossing : North
+============================================
+~
+D0
+~
+~
+0 0 7200
+D2
+~
+~
+0 0 5925
+S
+#5927
+`@South Luvan Forest ``~
+A bend in the road.  The pathway leads south.  All around the forest
+is teaming with life.  The tree canopy thins a bit some allowing the sky
+to peek through its broad branches and hanging vines.
+A bend in the road.  The pathway leads south.  All around the
+forest is teaming with life.  The tree canopy thins a bit some allowing
+the sky to peek through its broad branches and hanging vines.
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 5913
+D2
+~
+~
+0 0 5928
+S
+#5928
+`@River crossing ``~
+You come to the west Luva river banks.  The river looks shallow here
+allowing for easy crossing.  The banks of the river are muddy and appear
+to be slippery on both sides.  There are some old decaying branches sticking
+through the rivers surface.
+~
+~
+0 0 16384 3
+E
+river~
+The south west Luvan river turns and flows north and south here.
+Its waters glisten with the sound of the river rushing by.
+The river looks like it is less than 3 feet deep here.
+~
+E
+river~
+The south west Luvan river turns and flows north and south here.
+Its waters glisten with the sound of the river rushing by.
+~
+D0
+~
+~
+0 0 5927
+D2
+~
+~
+0 0 5929
+S
+#5929
+`@South Forest Edge ``~
+You are standing at the edge of the southern Luvan forest.  To the
+north you can hear the Luva river rush by.  To the south you can see
+the forest opening up and thinning out some.  The sparseness of the
+trees is more prevalent farther south.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 5928
+D3
+~
+~
+0 0 5930
+S
+#5930
+`@Rocky Path ``~
+The path is rocky here.  You can see the path leads to the Luvan
+forest and to the Giantspine mountains.  There is a plaque set into a
+a large boulder here.  It is made of bronze and has raised relief writing
+etched into it.
+~
+~
+0 0 16384 3
+E
+boulder~
+The boulder is oddly shaped which resembles that of a face.
+~
+E
+plaque~
+In common the plaque reads "Traverse into the Giantspine mountains at
+your own peril.  This path is not for the light of heart or the weak of
+will.  So it has been written, so you have been warned."
+~
+D1
+~
+~
+0 0 5929
+S
+#5931
+`@Green Gully ``~
+You are standing in a copse of pines and oaks.  Moss ridden
+ancient trees encircle this old forest.  Fungus grows on much of
+the lower trunks of these trees. The path is compacted and hard
+from use by travelers.  Deep ruts outline where wagons have passed.
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 5932
+D3
+~
+~
+0 0 5920
+S
+#5932
+`@Sharra Roe ``~
+You are standing at a bend in the forest path.  The path skirts a large
+ancient oak that hangs over the route.  Huge branches make this oak able
+to be walked up with a little effort.  The branches brush the ground in many
+places for easy access up onto it.  The bark of this tree is greying with age.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 5933
+D3
+~
+~
+0 0 5931
+S
+#5933
+`@Fairialis Reprise ``~
+Confers cover this area nearly exclusively.  Their awl-like leaves
+line the forest floor with scattered cones dotting the land. Twigs and
+dry brush litter the area from the windblown trees.  Some shrubs have
+gathered in some small bunched areas.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 5934
+D2
+~
+~
+0 0 5932
+S
+#5934
+`@West Luvan Way ``~
+This long and narrow passageway rides the banks of a small ravine. The
+ravine reeks of stagnant water and decomposition here.  One can only guess
+at the depths this murky sludge reaches.  Bullfrogs and mosquitoes have invaded
+this area.
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 5935
+D3
+~
+~
+0 0 5933
+S
+#5935
+`@West Luvan Pass ``~
+This long and narrow passageway rides the banks of a small ravine.
+Dips and lulls in the pathway reveal roots that intrude upon the roads compact
+firmness.  There are squirrels scavenging the trees for food, shelter and play.
+Romping from tree to tree with agility and surefooted leaps.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 5936
+D3
+~
+~
+0 0 5934
+S
+#5936
+`@West Luvan Path ``~
+This is a long and narrow passageway which rides the banks of a
+small ravine.  To the north and south of the path the banks severely
+slope downwards.  The depth appears to be a good 70 to 100 feet
+down with loose dirt and some sort of brownish muck at the bottom.
+Very little vegetation grows on these slopes.
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 5937
+D3
+~
+~
+0 0 5935
+S
+#5937
+`@Malag's Choice ``~
+You are at an opening in the trees where there is a considerable area
+that looks as if it had been fire-scorched at some not to time in the distant. 
+Small saplings and new growth have over taken the brunt of the near tree
+barren area.  Many of the tall pole pines still stand with blackened trunks
+and missing foliage.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 5938
+D1
+~
+~
+0 0 5946
+D3
+~
+~
+0 0 5936
+S
+#5938
+`@Wide Path ``~
+You have come across a patch of mostly dead, decayed wood strewn
+all about.  Fungi and mushrooms grow heavily upon the decomposing
+limbs and uprooted trunks.  A scenic multitude of rich colored flora
+and fauna blankets with radiant beauty the forest.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 5939
+D2
+~
+~
+0 0 5937
+S
+#5939
+`@Wide Path ``~
+The path is surefooted and well traveled here.  Trees sway in the slight
+breeze with pine needles dropping occasionally falling softly on a blanket
+of browned needles that have long since lost their greenish color.  There
+are tracks that lead off into the forest giving hints of the passage of
+forest animals.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 5940
+D2
+~
+~
+0 0 5938
+S
+#5940
+`@Wide Path ``~
+The path hedges around a copse of oaks twisting the path, hiding what lay
+may lay behind the next bend.  A small burrow can be seen under some fallen
+trees.  Rough claw marks can be found surrounding the opening to the tiny hole.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 5941
+D2
+~
+~
+0 0 5939
+S
+#5941
+`@Jasmine Falls ``~
+The ruins of some long forgotten structure lay all about here with
+nothing more than a few bits and pieces of vaguely familiar pieces
+of masonry.  The defining corner stones are all that is left of what
+was once a large structure of some sort.
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 5942
+D3
+~
+~
+0 0 5940
+S
+#5942
+`@Harpy Song ``~
+To the west a more traveled pathway leads off into the trees.  The
+eastward path looks less traveled and narrows sharply as it fades out
+down a ways.  The southern route looks pretty well used as well.  The
+ground is hard packed to the west and south. The east path looks soft
+and sandy.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 5947
+D2
+~
+~
+0 0 5943
+D3
+~
+~
+0 0 5941
+S
+#5943
+`@Heyoka Springs ``~
+A few stumps break up the otherwise uniformness of the oddly bilinear tree
+line along this pathway.  It looks as though they have been purposely planted
+to form near perfect straight lines to outline the path a few yards out.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 5942
+D2
+~
+~
+0 0 5944
+S
+#5944
+`@Dense Forest ``~
+This alcove is set back off of the main path just a tad.  You can see
+a small shrine here atop a marble base.  The area around the shrine has
+been cobbled a bit with stones of various colors.  It looks well kept and
+tended to.  There is a small marble bowl attached to the base of the shrine.
+~
+~
+0 0 32768 3
+E
+plaque~
+In honor of her divine greatness, Ejamina, lady huntress of the woodlands.
+Protector of woodlands and her creatures.
+~
+E
+shrine~
+The shrine is shaped in the form of a beautiful elven woman holding a bow
+and arrow drawn back.  The shrine appears to be made of a high polished
+green vein marble.
+~
+E
+statue~
+The statue is shaped in the form of a beautiful elven woman holding a bow and
+arrow drawn back.  The shrine appears to be made of a high polished green vein
+marble.  There is a plaque just below the foot of the shrine.
+~
+D0
+~
+~
+0 0 5943
+D2
+~
+~
+0 0 5945
+S
+#5945
+`@Ta'ryns Glade ``~
+A small creek passes through here.  The water looks refreshing and cool.
+You can see the sparkles of the suns reflection off the tiny current as it
+flows by.  Below the surface you can make out little fish swimming along.
+Glistening river rocks of various colors line the river bed.
+~
+~
+0 0 65536 3
+E
+fish~
+Small silvery fish with black spots swim by occasionally jumping out and landing
+back into the water with a splash.
+~
+D0
+~
+~
+0 0 5944
+D3
+~
+~
+0 0 5946
+S
+#5946
+`@A campsite``~
+A small camp fire was recently set here.  Small encircled stones
+and charred wood can be seen here. A small stack of fresh kindling
+bundled up by the rocks can also be noted.
+~
+~
+0 0 32768 3
+E
+rocks~
+Charred rocks about fist to head sized have been arranged
+in a circle here.
+~
+E
+kindling~
+A small stack of thin dried wood sticks is here.
+~
+D1
+~
+~
+0 0 5945
+D3
+~
+~
+0 0 5937
+S
+#5947
+`@Heartwood ``~
+The forest has thinned out quite a bit here and there is a soft
+blanket of perennials that give this place a colorful warm feeling
+there are soft mounds of grasses and mosses that look extremely comfortable
+to lay or sit on.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 5948
+D3
+~
+~
+0 0 5942
+M 200 H 200
+S
+#5948
+`@Blackwood ``~
+The bark of the trees here have some sort of blackish coating on them
+making looking too far into the wooded area off the path not easily done.
+Even the broad leafed oaks have this sooty covering on them which makes this
+section of the forest depressing and daunting to the light-walkers.
+~
+~
+0 0 16384 3
+E
+area~
+A black sooty like dust lightly covers the area here.
+ 
+~
+E
+tree~
+A black sooty like dust lightly covers the trees here.
+~
+E
+leaf~
+A black sooty like dust lightly covers the leaves here.
+~
+D2
+~
+~
+0 0 5949
+D3
+~
+~
+0 0 5947
+S
+#5949
+`@Darkwood `` ``~
+You are now deep in the heart of the Luvan forest.  The trees are
+extremely thick and close.  Passing though is difficult as the path
+narrows quite a bit.  The passage of a few keeps the passageway
+mostly clear but the vines and briars grow back extremely fast here.
+~
+~
+0 686292992 8192 13
+D0
+~
+~
+0 0 5948
+D2
+~
+~
+0 0 5950
+M 50 H 50
+S
+#5950
+`@ Deep within the forest `` ``~
+The forest becomes suddenly more dense here.  The closeness of the
+trees makes it near impossible to pass through.  Thick underbrush
+encloses the path scraping those that pass by it they wander too much
+off of the center of the path.
+~
+~
+0 0 8192 13
+E
+thorns~
+Close inspection of the thorns of these bushes reveals about one inch
+reddish green hooked needle-like projections.
+~
+E
+thorn~
+Close inspection of the thorns of these bushes reveals about one inch
+reddish green hooked needle-like projections.
+~
+D0
+~
+~
+0 0 5949
+D1
+~
+~
+0 0 5951
+S
+#5951
+`@Menniharr Junction ``~
+The path splits here.  The road looks much more traveled to the west
+than to the east.  There are  low lying bushes all about here.  Many
+appear to be of the holly type with their evergreen leaves and reddish
+berries.  Some greyish stringy moss hangs down from a few of the trees.
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 5952
+D2
+~
+~
+0 0 5960
+D3
+~
+~
+0 0 5950
+S
+#5952
+`@Yarrow Bark ``~
+A compact parcel of field fungus grows here.  With its shades of
+brown and yellows it neatly blends in with the surrounding areas
+foliage and fauna.  Much of it grows on old rotting tree pieces that
+have over the years found their way to the ground providing cover
+and nourishment for them.
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 5953
+D3
+~
+~
+0 0 5951
+S
+#5953
+`@Path Curve ``~
+The path turns a bit here with a spot that has been cleared
+and patted down.  Remnants of old pits and fire places are
+strategically placed about the area to give some room for small
+tents and gatherings.  Old bits of dead wood are lying all about.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 5954
+D3
+~
+~
+0 0 5952
+S
+#5954
+`@GodsWall Road ``~
+The path has started to gently slope upwards.  The path itself has
+become slightly more rocky as it continues up.  The trees are mostly
+pole pines here.  Small brownish gray boulders seem to sprout up here
+and there.  The skyline is a little clearer as well as the trees pull
+back from the path making visibility better.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 5955
+D2
+~
+~
+0 0 5953
+S
+#5955
+`@GodsWall Gate ``~
+You have come upon a large obelisk that stands about 40 feet high and
+is around 40 feet in diameter.  It is chipped and worn with time and the
+elements that have touched its once polished surface.  There is a small
+embossed area that looks much like a plaque three feet from the base.
+~
+~
+0 0 32768 3
+E
+plaque~
+You are now entering the Godswall.  Beyond are perils not lightly taken
+by those not familiar with the dangers of a young painful death.  Enter at
+your own risk.
+~
+D1
+~
+~
+0 0 5956
+D2
+~
+~
+0 0 5954
+S
+#5956
+`@Elf Stone ``~
+You have come to a place where a 20 foot statue of some humanoid.
+The area around the statue has been cleared and marble set for the
+statues foundation.  There is a small bronze memorial inscribed upon
+the base of this incredible monument.
+~
+~
+0 0 8192 3
+E
+bronze~
+Here the greatest sin to the elfkin.  King Gylthial Tayn Shadu
+lord protector of elfkind, seeker of truth and beauty, poet-king
+and friend to Luva, befell an evil betrayer to the elfkin.  Long
+live his memory and may this monument serve as a reminder to all of
+his greatness and love of the people of Luva.
+~
+D1
+~
+~
+0 0 5957
+D3
+~
+~
+0 0 5955
+S
+#5957
+`@Craggy Step ``~
+The path seems to come out of the ground and shaped from the mountain
+rock that seems to be aplenty here.  The brownish rock feels solid under
+footfall.  The trees rise even higher  as they continue up the slope that
+is rising ever more steeply.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 5958
+D3
+~
+~
+0 0 5956
+S
+#5958
+`@Luva River Bridge ``~
+You have come to the banks of the eastern Luvan river.  A long
+bridge spans this vast river.  The bridge itself can easily support
+the width of two carriages.  It is made of what looks like a solid
+piece of gray stone. Multicolored river pebbles line the banks on
+both sides.
+~
+~
+0 0 65536 3
+E
+river~
+The East Luvan river is about 1/4 of a mile in width here.  Crossing against the
+extremely swift current looks dangerous and perhaps, even foolish.  There are a
+few dead skeletons of fish and other creatures that may have met their fate at the
+hunger of another creature.
+~
+E
+bridge~
+The bridge looks like it has been carved of one piece.  Its gray stone is
+covered with old green moss and river weeds at the bases.  There is a five foot
+carved railing that runs the span of the bridge ensuring hapless travelers a safer
+passage across.
+~
+D1
+~
+~
+0 0 5959
+D3
+~
+~
+0 0 5957
+S
+#5959
+`@Forests Edge ``~
+You have come to the edge of the east Luvan forest.  To the east lay the
+greatly feared Godswall mountains and to the west the Luvan forest.  The
+path leads to a bridge a few hundred yards to the east which leads to the
+forest.  The path west is rocky and continues to slope up into the mountains.
+~
+~
+0 0 65536 3
+D3
+~
+~
+0 0 5958
+S
+#5960
+`@Menniharr Way ``~
+The path seems to be smoothing out some here.  A harder pack than that
+of the southern portion of this pathway in the woods has eased the travel
+of those passing along this way.  The trees leaves open the sky and over
+head birds can be seen passing by and landing in a tree here and there.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 5951
+D2
+~
+~
+0 0 5961
+S
+#5961
+`@Pine Knot ``~
+The path stretches north and south for as far as the eyes can see.
+Soft dirt and tangle vines make walking this path a bit more difficult
+than most other places on the path.  Here and there birds flit in and
+out of the tree line foraging for food and nesting.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 5960
+D2
+~
+~
+0 0 5962
+S
+#5962
+`@North Road ``~
+The path turns northwards and eastward.  Ahead to the north
+you can see a good stretch as the path remains relatively straight
+and the tree canopy does not cover the path overhead.  Loose keeps
+most of the forests fauna from growing into the pathway.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 5961
+D3
+~
+~
+0 0 5963
+S
+#5963
+`@Nevons Doom ``~
+The path remains soft and unsteady beneath the foot.  There is
+what looks like the outline of a body in the pathway.  Vines and
+underbrush have almost totally covered it.  It looks to have been
+here for quit some time.
+~
+~
+0 0 65536 3
+E
+body~
+Closer looking reveals that the body is that of a long dead humanoid
+type creature.  Foot bones stick through the rotted boots and a grossly
+twisted skeletal hand can be seen poking through the bushes.
+~
+D1
+~
+~
+0 0 5962
+D3
+~
+~
+0 0 5964
+S
+#5964
+`@Narrow Path ``~
+The path slims down some here and the dirt packed road becomes
+more loose and difficult to tread upon.  The trees come closer and
+closer to the path making wagon and carriage travel near impossible.
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 5963
+D3
+~
+~
+0 0 5965
+S
+#5965
+`@Satyr's Song ``~
+A circle of tracks can been seen here beaten into the ground. The
+tracks appear to be some sort of cloven hoof marks.  The usually tall
+grasses in the area appear to have been trampled into the dirt in the
+area of the circle. 
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 5964
+D2
+~
+~
+0 0 5973
+D3
+~
+~
+0 0 5966
+S
+#5966
+`@Deadwood ``~
+The trees in this area are dead.  They all stand as if they once
+majestically touched the sky with beautiful colors and the life.
+No forest sounds aside from the wind that cuts through this dead
+area are to be heard.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 5965
+D3
+~
+~
+0 0 5967
+S
+#5967
+`@Fox Crossing ``~
+The path bends here leading south and east.  There is a small wooden
+sign post here that apparently has had its sign ripped off of it sometime
+ago.  Broken and chopped up pieces of wood lay all around the post.  A
+small fragment still has enough wording on it to make out in trade common.
+~
+~
+0 0 32768 3
+E
+fragment~
+beware of the
+~
+D1
+~
+~
+0 0 5966
+D2
+~
+~
+0 0 5968
+S
+#5968
+`@Fox Pass ``~
+The trees retreat from each others grasps and allow the light of
+day to come through once again.  You can see there are several
+knitted hollows all throughout the underbrush.  Small tracks can be
+seen just out side of the holes.
+~
+~
+0 0 16384 3
+E
+tracks~
+Small paw prints that resemble that of a dog can be seen leading
+to and from the little holes.
+~
+E
+eyes~
+Small low to the ground eyes can be seen moving quickly just out
+of visual range.  They seem to be reflecting the light of the nights sky.
+~
+D0
+~
+~
+0 0 5967
+D2
+~
+~
+0 0 5969
+S
+#5969
+`@Fox Hollow ``~
+You have entered a cove of sorts.  The trees bend over the path
+and form a sort of tunnel as their branches entwine with each others.
+Forest animals can be heard scurrying though the upper canopy as
+they rustle the leaves.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 5968
+D2
+~
+~
+0 0 5970
+D3
+~
+~
+0 0 5971
+S
+#5970
+`@Jasmine pass ``~
+You have wandered into a virtual jasmine garden.  Heavy vines
+hang from nearly every tree which give off a fragrant aroma that
+tantalizes the senses and evokes a images of spring flowers
+blooming and  newness.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 5969
+D2
+~
+~
+0 0 5907
+M 50 H 50
+S
+#5971
+`@Faye Ring ``~
+You have entered a lichen rich area where the soft mosses
+cover just about everything.  Large boulders are half covered with the
+green mosses.  The trees have fungi growing in flat step-like tiers
+up the trunks.  There is a circle of multicolored mushrooms that have grown
+to enormous sizes.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 5969
+D3
+~
+~
+0 0 5972
+S
+#5972
+`@Glaseria's Oak ``~
+The path has led you to a large fallen oak.  There is a knot hole
+the size of a small woodland creature about midway up the dead
+oaks trunk.  Some small and faint tracks lead to the hole.  The area
+is surrounded by trees and kudzu vines blanket nearly everything in sight.
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 5971
+S
+#5973
+`@Hidden Vale ``~
+The path winds around a little and you come into a heavily tree
+harvested place.  It appears that loggers have come in and stripped
+the area near bare.  Some new growth has sprouted but not much.
+Giving this place an empty feel to it.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 5965
+D2
+~
+~
+0 0 5974
+S
+#5974
+`@Off the Beaten Path ``~
+The main path stops and a smaller less traveled one jets off of
+it going around a small area that is devoid of plant life.  The bare
+area has a slight covering of dead oak leaves and pine needles.
+Tracks lead up to the barren area but not from it.  A small branch
+that sits embedded in the center of the bare area.
+~
+~
+0 0 32768 3
+E
+branch~
+Closer inspection of the branch shows that it appears to be sinking in a
+pool of quicksand.
+~
+E
+area~
+A closer inspection of the ground ahead the main path shows it to be
+a large pool of quicksand.
+~
+E
+leaves~
+The leaves appear to be softly lying atop a large area of quicksand.
+~
+D0
+~
+~
+0 0 5973
+D2
+~
+~
+0 0 5975
+S
+#5975
+`@Yew's Repast ``~
+You have come to a large grove of many different kinds of trees.
+There are an abundance of yew, ash, cedar mixed with tall pole pines.
+The path looks well traveled.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 5974
+D2
+~
+~
+0 0 5976
+S
+#5976
+`@White Tail  ``~
+You have come to a section of the forest that has many animal
+trails crisscrossing the paths.  By the looks of them they appear
+to be deer, raccoon and other small forest creatures tracks.  The
+area is thinly covered in pines, scrub oak and live oaks.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 5975
+D1
+~
+~
+0 0 5978
+D3
+~
+~
+0 0 5977
+S
+#5977
+`@Deeper into Luvan Wood ``~
+The forest has thickened quite a bit.  The darkness of the night
+makes this place even more difficult to see in as the sky is
+completely obscure with the canopy of the trees.  Ancient oaks,
+redwoods and firs give this place a old heavy unnatural feeling.
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 5976
+D3
+~
+~
+0 0 5907
+S
+#5978
+`@Shrine to Gaemina``~
+You have come across a holy shrine to Gaemina.  Goddess of nature, life
+and being.  Here the area has been cleared and an altar placed for those
+that wish to worship in her temple.  Like all of the temples to this
+goddess this shrine temple is outside. 
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 5979
+D3
+~
+~
+0 0 5976
+P SPEECH 5978 worship~
+P GRALL 5977 100~
+S
+#5979
+`@Fork in Road ``~
+Many spruce and softwood trees grow here. An occasional scrub oak
+can be seen but for the most part jack pine, white pines and hemlock.
+A lot of travel comes this way as the path here had been beaten down,
+hard-packed by the many footfalls.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 5980
+D2
+~
+~
+0 0 5994
+D3
+~
+~
+0 0 5978
+S
+#5980
+`@ Twisting Path ``~
+The route twists some here making for forward or backwards observations
+difficult to say the least.  The wooded area has a huge mix of old and new
+growth.  Squirrels can be caught romping through the trees and scampering
+about trying to avoid contact with passing traffic.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 5981
+D3
+~
+~
+0 0 5979
+S
+#5981
+`@Twisted Path ``~
+A series of medium sized logs have been placed over the path here.
+These logs make for a rough bridge across a short ravine that cuts
+through the forest.  The area looks well used and relatively safe for
+crossing the logs in a timely fashion.
+~
+~
+0 0 65536 3
+E
+log~
+The logs look fresh cut and of the same type of pole pine that
+can be seen throughout most of the Luvan wood.
+~
+E
+logs~
+The logs look fresh cut and of the same type of pole pine that
+can be seen throughout most of the Luvan wood.
+~
+E
+ravine~
+The ravine looks deep but not too wide.  There are logs here that
+span the ravine and are secured by ropes.
+~
+D1
+~
+~
+0 0 5982
+D2
+~
+~
+0 0 5980
+S
+#5982
+`@Nymphs Glory ``~
+There appears to be a good sized circle of babies breath flowers
+in full bloom with their tiny white blossoms and fragrant aroma
+contrasting the deep reds and white colors of the bleeding hearts that
+wind up the trees in an awesome display of natural beauty.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 5983
+D3
+~
+~
+0 0 5981
+S
+#5983
+`@Pixies Treat `` ``~
+You can see a beautiful copse of trees that are surrounded by flora
+of all kinds.  Deep red petals with lime green stems seem to fill
+this area.  Huge green and broad leafed plants help to cover the forest
+floor.  The occasional dark green stemmed with white lily-like flower pokes
+through the brownish blanket of pine straw.
+~
+~
+0 134742016 32768 13
+D1
+~
+~
+0 0 5984
+D2
+~
+~
+0 0 5982
+S
+#5984
+`@Small Path ``~
+The main trail ends here and a smaller less traveled one shoots off
+to the east.  It nearly disappears from sight as it winds its way through
+the dense woods.  A large yew tree stands out against the rest of the pines
+that stand stoically here.
+~
+~
+0 0 65536 3
+E
+yew~
+~
+D1
+~
+~
+0 0 5985
+D3
+~
+~
+0 0 5983
+S
+#5985
+`@Small Path ``~
+The path becomes even more narrow here.  Low bushes and briar patches
+encompass the whole of this area with patches of various pines that have
+sprouted up over the many years.  Burrows and birds nests seem to spring
+up everywhere.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 5996
+D2
+~
+~
+0 0 5986
+D3
+~
+~
+0 0 5984
+S
+#5986
+`@East Luva River Forge ``~
+The area clears out and you can see the east Luvan river.  The
+trees ride the river bank real closely here.  The water looks deep and
+moves swiftly along.
+ 
+A massive stone bridge is here, spanning across the River Luva.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 5985
+D2
+~
+~
+0 0 5987
+S
+#5987
+`@Luvan Glen ``~
+You have come to a small glen that is green with many different
+trees and grasses.  To the east there is a small hut.  Outside the hut
+there is a small sign.  The hut looks old and not very well built as the
+graying planks seem to pull at the studs that hold them in place.
+~
+~
+0 0 65536 3
+E
+sign~
+Quinthous' Abode
+~
+D0
+~
+~
+0 0 5986
+D1
+~
+~
+0 0 5995
+D2
+~
+~
+0 0 5988
+S
+#5988
+`@Luvan forest ``~
+The pathway opens up into what looks like a rest area for some
+of the forest peoples.  Patted down areas of some of the taller grasses
+indicates that this place is widely used for a pause as they seek their
+way through the forest.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 5987
+D2
+~
+~
+0 0 5989
+M 200 H 200
+S
+#5989
+`@Luvan forest ``~
+The path again passes through a sampling of many different types of pines.
+Many different forms of oaks mix freely giving the area a richly natural
+coloring of elder forests.  Deer tracks can been seen along the path as well
+crossing in places where the lower briars have not taken over.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 5988
+D3
+~
+~
+0 0 5990
+S
+#5990
+`@Luvan forest ``~
+The path cuts through heavy pines and low lying junipers.  Broaching the path
+some evergreen manzanita bushes rise up and greet the path as well.  Exfoliated
+bark from the much-branched, viscid, aging manzanitas litter the area. 
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 5989
+D3
+~
+~
+0 0 5991
+S
+#5991
+`@Luvan forest ``~
+You have come out into a wide opening in the forest.  Above you can see
+the tree line cuts the skyline nicely with dense forestry.  The area seems to
+have been taken over by switch grasses and weeping love grasses.  It looks
+like excellent ground cover for rodents and land nesting birds.  It comes
+to about waist high to a human nearly throughout the open area here.  Thee
+are a few parts in the grasses where medium sized animals have cut a path
+through.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 5990
+D3
+~
+~
+0 0 5992
+S
+#5992
+`@Luvan forest ``~
+This area expresses damper ground than most of the Luvan wood.
+With the east Luva river just off in the distance, many poplars and
+willows have sprung up here and seem to do very well.  There is an
+occasional bitternut hickory fighting for some sun here and there.
+Broad leaf trees seem to outnumber the pines here.
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 5991
+D3
+~
+~
+0 0 5993
+S
+#5993
+`@Luvan forest ``~
+You have come to an area that is predominately overrun by birch trees.
+Most are split truck with narrowed crowns that reach some 70 to 80 feet
+above the forest floor.  There are a few younger reddish-brown saplings
+but for the most part the area is dominated by their adult counterparts
+with their silvery white bark that looks as though it is peeling off of the
+tree in sheets of paper.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 5994
+D1
+~
+~
+0 0 5992
+S
+#5994
+`@Southern Way ``~
+The path comes into a woodlet of sycamores, grey pines and cottonwoods.
+The broad leafs of the sycamores nearly covers the fallen needles of the pines
+with the smaller cottonwood leaves mixing which covers all but the worn path.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 5979
+D2
+~
+~
+0 0 5993
+S
+#5995
+`8Quinthous' Abode ``~
+You have entered a tiny hut that is in some disarray.  The tables
+and chairs seem to have been smashed, pots and pans old and rusted through
+and the once hay bed broken and missing some railings.  However, the ceiling
+looks intact and might keep the rain off of a tired traveler.  But.... where is
+the owner of the place?
+~
+~
+0 8 0 0
+E
+pots~
+The pots look to be 100 years olf if they are a day.  The only
+thing that has kept these rusty kitchen utensils from complete
+decay is the fact they are inside.
+~
+E
+bed~
+The bed looks as though it has recently been destroyed as the wood
+looks pretty new compared to the rest of the house. 
+~
+E
+walls~
+The walls of the hut have some fairly good sized fist holes in them.
+~
+E
+ceiling~
+The ceiling of this abode is old, but still in decent condition.
+~
+E
+floor~
+The floor looks tattered and worn from many years of use.
+~
+E
+table~
+The table and chairs look like they have been broken apart and are
+missing some key elements to make them usable.  Perhaps, for firewood.
+~
+E
+chairs~
+The chairs are missing legs and backing but still recognizable as such.
+~
+D3
+~
+~
+0 0 5987
+S
+#5996
+`@Small Path ``~
+Concealed behind some brush the path winds its way north and west.
+Smaller than most paths in the forest it looks as though it has fallen
+from general use.  There are a few oaks that have been uprooted and
+have crashed into each other only standing due to them supporting
+each other like a tripod.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 5997
+D3
+~
+~
+0 0 5985
+S
+#5997
+`@Hellinas Vale ``~
+You have entered a flowery, aromatic break in the forest.
+Unnaturally the flowers seem alive and vibrant with bright
+colors.  Many different kinds of flowers can be seen here from
+roses to daisies to babies breath.  The grass here looks neatly
+trimmed and manicured to perfection.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 5998
+D2
+~
+~
+0 0 5996
+S
+#5998
+`@Elder Oak ``~
+There is a large circle of ancient oaks.  One stands out from the
+rest as it clearly dominates the sky and area with its massive branches
+and trunk.  It is most likely the oldest oak in the forest.
+~
+~
+0 0 65536 3
+D2
+~
+~
+0 0 5997
+D3
+~
+~
+0 0 5999
+S
+#5999
+`@End Path ``~
+The path comes to an abrupt halt here.  The thicket ahead is too dense
+and high to make passage through.  Some smaller foot paths lead off in
+an attempt to get around but are also short and abruptly end just a few
+feet after they begin.
+The only way out of here is back.... the way you came.
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 5998
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 5925 spec_poison
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 5902 10 5900 3
+E 0 5902 0 16
+M 0 5902 10 5902 3
+E 0 5902 0 17
+E 0 5900 0 9
+E 0 5901 0 5
+M 0 5927 10 5904 3
+E 0 5903 0 17
+E 0 5904 0 11
+M 0 5905 5 5905 2
+E 0 5905 0 16
+M 0 5917 5 5906 3
+M 0 5908 10 5908 3
+E 0 5996 0 17
+E 0 5906 0 3
+M 0 5909 15 5909 5
+E 0 5909 0 12
+M 0 5910 5 5910 1
+E 0 5910 0 17
+M 0 5912 15 5912 2
+M 0 5912 10 5912 3
+M 0 5913 15 5913 5
+M 0 5913 15 5913 2
+M 0 5914 15 5914 4
+E 0 5914 0 17
+M 0 5916 1 5916 1
+M 0 5916 10 5916 3
+E 0 5916 0 13
+M 0 5917 10 5917 5
+E 0 5917 0 16
+M 0 5918 10 5918 4
+M 0 5919 3 5919 1
+M 0 5919 20 5919 5
+O 0 5920 0 5920
+O 0 5920 0 5920
+O 0 5920 0 5920
+M 0 5921 10 5921 5
+E 0 5921 0 16
+M 0 5947 10 5923 4
+M 0 5925 10 5925 4
+M 0 5927 10 5927 4
+E 0 5927 0 17
+E 0 5907 0 12
+M 0 5928 10 5928 1
+E 0 5928 0 12
+M 0 5929 20 5929 5
+E 0 5929 0 3
+M 0 5930 20 5930 5
+E 0 5930 0 5
+M 0 5914 10 5934 4
+M 0 5916 5 5935 3
+M 0 5945 1 5937 1
+M 0 5945 1 5937 1
+M 0 5945 1 5937 1
+M 0 5945 1 5937 1
+M 0 5945 1 5937 1
+M 0 5910 5 5939 2
+M 0 5918 10 5941 4
+O 0 5908 0 5941
+O 0 5911 0 5941
+M 0 5916 5 5943 3
+M 0 5945 10 5945 4
+E 0 5912 0 5
+O 0 5913 0 5946
+M 0 5947 5 5947 2
+M 0 5945 5 5948 2
+E 0 5945 0 9
+E 0 5915 0 17
+M 0 5912 10 5952 5
+M 0 5953 2 5953 1
+E 0 5953 0 18
+M 0 5927 10 5954 3
+E 0 5918 0 17
+O 0 5919 0 5956
+M 0 5909 10 5957 4
+M 0 5958 5 5958 3
+M 0 5927 5 5960 2
+E 0 5923 0 17
+E 0 5924 0 6
+M 0 5996 10 5963 4
+M 0 5997 1 5966 1
+M 0 5945 20 5967 5
+M 0 5925 5 5970 3
+O 0 5971 0 5971
+O 0 5919 0 5971
+M 0 5972 1 5972 1
+E 0 5972 0 2
+M 0 5905 15 5974 3
+E 0 5902 0 16
+M 0 5975 15 5975 7
+E 0 5925 0 17
+M 0 5958 3 5977 2
+E 0 5925 0 17
+O 0 5978 0 5978
+M 0 5975 5 5980 3
+E 0 5925 0 17
+M 0 5982 20 5982 7
+M 0 5982 15 5984 5
+M 0 5905 20 5986 5
+E 0 5905 0 17
+M 0 5953 2 5988 1
+E 0 5953 0 17
+M 0 5975 3 5990 3
+E 0 5909 0 12
+E 0 5921 0 17
+M 0 5927 2 5991 1
+E 0 5996 0 16
+M 0 5902 10 5994 4
+E 0 5902 0 17
+M 0 5914 10 5997 4
+E 0 5914 0 17
+O 0 5998 0 5998
+P 0 5997 0 5998 1
+P 0 5997 0 5998 1
+P 0 5997 0 5998 1
+M 0 5927 10 5999 4
+E 0 5905 0 17
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#5978
+cast bless $n
+~
+#0
+
+#ROOMPROGS
+#5977
+if hasquest $n 'Discovered the Shrine to Gaemina in the Luvan Wood'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Gaemina!``
+    room permquest $n Discovered the Shrine to Gaemina in the Luvan Wood
+endif
+~
+#5978
+room echoat $n Gaemina has blesses you for your worship.
+room echoat $n You feel a Gaemina's eyes upon you.
+~
+#0
+
+#$

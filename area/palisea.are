@@ -1,0 +1,2222 @@
+#AREADATA
+Name the Sea of Palinor~
+Pref ~
+Builders Crypticant~
+VNUMs 25100 25299
+Max_Bastions 1
+Credits {5  40} Shadowsp The Sea of Palinor~
+Security 9
+Startroom 25100
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#25139
+ship tallship~
+a large tallship~
+A large tallship is floating here, sails slack from the lack of wind.
+~
+You peer at a large sailing ship floating in the midsts of the Sea of Palinor.
+Two tall masts rise up, and are covered in white rectangular sails. The
+ship is made entirely of wood, and you can see a small crew standing on
+her railings. It looks to be a warship of sorts, for she is covered with
+long spikes, and painted in fierce colors.
+~
+unique~
+AGZd A DFJ 0 0 0
+40 25 10d10+6500 0d0+100 4d6+40 blast
+-17 -17 -17 -17
+AHOX ABR 0 H
+stand stand none none~
+18
+0 0 huge 0
+#25155
+hermit crab~
+a hermit crab~
+A tiny hermit crab wanders the beach aimlessly here.
+~
+~
+unique~
+AB A J 0 0 0
+5 2 4d6+100 0d0+100 2d4+4 claw
+0 0 0 0
+0 0 0 0
+stand stand either none~
+2
+0 0 tiny 0
+#25158
+bright feathered bird~
+a bright, feathered bird~
+A bright, vividly colored bird is perched here.
+~
+The plumage of this creature is spectacular! Large red and
+green feathers cover its body, while long, thin yellow feathers
+stick out like a strange wig from its head. It peers at you with
+glossy eyes, and chirrups.
+~
+avian~
+AB A JT 0 0 0
+15 8 4d6+390 0d0+100 4d6+2 peck
+0 0 0 0
+0 0 0 Qb
+stand stand either none~
+7
+AHMVW ABCDEFGHIJKP tiny 0
+#25169
+silverfish~
+a bright silverfish~
+A bright silverfish darts along the reefs here.
+~
+~
+unique~
+AB A J 0 0 0
+15 8 4d6+450 0d0+100 4d6+5 bite
+0 0 0 0
+N A 0 0
+stand stand either none~
+13
+0 0 medium 0
+#25174
+trader ship~
+a Mhara'Dan trader ship~
+A large, sleek looking trader ship is sailing here.
+~
+Before you looms one of the sleek trader ships of the Mhara'Dan.
+Rumor has it that these people have existed since the dawn of time
+in a lost continent somewhere west of the Sea of Palinor. The ship is
+painted in bright, warlike colors, and large, odd looking protrusions
+jut from the sides of the ship.
+~
+unique~
+AGZd A DFJ 0 0 0
+40 25 4d8+5500 0d0+100 4d6+35 blast
+-17 -17 -17 -17
+AHOX ABR 0 H
+stand stand none none~
+16
+0 0 huge 0
+#0
+
+
+
+#OBJECTS
+#25112
+Shrine of Veshalma~
+a shrine of Veshalma~
+A shrine of Veshalma is here for your worship.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#25130
+food keg~
+a sealed food keg~
+A large keg is here, with markings on it.~
+wood~
+container 0 AO
+350 A 0 200 100
+5 30 500 P
+E
+keg~
+A large wooden keg wrapped with steel bands, and
+sealed with wax is here, marked 'Food'.
+~
+#25131
+water keg~
+a water keg~
+A sealed water keg is here.~
+wood~
+drink 0 AO
+100 100 'water' 0 0
+1 20 30 P
+E
+keg~
+A sealed water keg is here, covered in steel straps.
+~
+#25132
+dark black leaves herb herbs~
+some dark black leaves~
+Some dark black leaves lie here.~
+plant~
+herb 0 A
+60 'dysentery' 'enlarge' 'enlarge' 'sanctuary'
+15 0 0 P
+#25133
+no name~
+(no short description)~
+Before you is an obelisk carved of the purest of crystal.  Within ~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 100 0 P
+#25149
+wrecked ship shipwreck~
+a wrecked ship~
+Huge, skeletal remains of a wrecked tallship rest here.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+ship~
+Remains of what once used to be a proud sailing vessel are now smashed
+to bits here on the beach head. Water soaked wooden planks litter the
+beach, and three tall, snapped masts dangle idly in the water. A large
+nameplate reading 'Castillans' is nailed to the stern.
+~
+#25163
+spring waterfall~
+a beautiful waterfall~
+A crystal clear waterfall cascades down the mountainside here.~
+water~
+fountain AOT 0
+-1 -1 'water' 0 0
+0 0 0 P
+#25165
+crystal obelisk monument~
+the crystal obelisk~
+A crystal obelisk is here radiating a faint, blue glow.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 1000 0 P
+E
+obelisk~
+The obelisk's surface is devoid of decoration, save a simple golden
+plaque that is fastened to the base, two feet off of the ground.  Laying at
+the base of the pillar in the grass is a battered, pewter mug.  
+ 
+ 
+                       Shandronas Tholsanist
+ 
+ You, the brave and wise, walking alone in thy race's final steps,
+   Who will carry on thine work, when your final tears are wept?  
+  Sightless eyes that see the heart,  within all who stand before
+               Lives enriched by thy words of grace,
+              Yet leaves us wanting to hear you more.
+      I think your bleeding feet shall find the rainbow's end,
+                      And you will be content.
+             For having followed beauty all your days,
+             I think you'll count your life well spent
+ 
+        His life is an example to us all, and his sacrifice
+         Has given us the greatest treasure of them all...
+ 
+                     A future for our children
+~
+E
+crystal~
+The obelisk's surface is devoid of decoration, save a simple golden
+plaque that is fastened to the base, two feet off of the ground.  Laying at
+the base of the pillar in the grass is a battered, pewter mug.  
+ 
+ 
+                       Shandronas Tholsanist
+ 
+ You, the brave and wise, walking alone in thy race's final steps,
+   Who will carry on thine work, when your final tears are wept?  
+  Sightless eyes that see the heart,  within all who stand before
+               Lives enriched by thy words of grace,
+              Yet leaves us wanting to hear you more.
+      I think your bleeding feet shall find the rainbow's end,
+                      And you will be content.
+             For having followed beauty all your days,
+             I think you'll count your life well spent
+ 
+        His life is an example to us all, and his sacrifice
+         Has given us the greatest treasure of them all...
+ 
+                     A future for our children
+~
+E
+monument~
+The obelisk's surface is devoid of decoration, save a simple golden
+plaque that is fastened to the base, two feet off of the ground.  Laying at
+the base of the pillar in the grass is a battered, pewter mug.  
+ 
+ 
+                       Shandronas Tholsanist
+ 
+ You, the brave and wise, walking alone in thy race's final steps,
+   Who will carry on thine work, when your final tears are wept?  
+  Sightless eyes that see the heart,  within all who stand before
+               Lives enriched by thy words of grace,
+              Yet leaves us wanting to hear you more.
+      I think your bleeding feet shall find the rainbow's end,
+                      And you will be content.
+             For having followed beauty all your days,
+             I think you'll count your life well spent
+ 
+        His life is an example to us all, and his sacrifice
+         Has given us the greatest treasure of them all...
+ 
+                     A future for our children
+~
+#25174
+finely cut opium~
+some finely cut opium~
+A pack of finely cut opium is lying here.~
+poppy~
+herb 0 A
+15 'poison' 'reserved' 'reserved' 'frenzy'
+25 10 10000 P
+E
+opium~
+From the color, this looks to be a fine grade of opium.
+~
+#0
+
+
+
+#ROOMS
+#25100
+`#A wide, sandy beach``~
+You are standing at the head of a broad, sandy beach. Behind you,
+canyon walls rise up starkly, sheer white in color. Before you,
+the great expanse of the Sea of Palinor looms. Small waves lap at the
+seashore here, and the thick smell of brine salt fills your nose
+with an acrid odor.
+~
+~
+0 0 0 10
+D3
+~
+~
+0 0 25102
+S
+#25101
+`8unused``~
+~
+~
+0 4 0 0
+S
+#25102
+`#A wide, sandy beach``~
+You are standing on a broad, sandy beach. Miles of pure yellow
+sand stretch out for miles on either side of you, running along
+the Palinese coastline. From here, the Sea of Palinor, a warm water sea,
+runs for miles to the horizon. Oddly, beyond the endless stretch
+of water, you think you can make out what seems to be land, many
+miles away, and shrouded in the distance.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 25103
+D1
+~
+~
+0 0 25100
+D2
+~
+~
+0 0 25105
+D3
+~
+~
+0 0 25109
+S
+#25103
+`#A wide, sandy beach``~
+You are standing on a broad, sandy beach. Miles of pure yellow
+sand stretch out for miles on either side of you, running along
+the Palinese coastline. From here, the Sea of Palinor, a warm water sea,
+runs for miles to the horizon. Oddly, beyond the endless stretch
+of water, you think you can make out what seems to be land, many
+miles away, and shrouded in the distance.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 25104
+D2
+~
+~
+0 0 25102
+D3
+~
+~
+0 0 25110
+S
+#25104
+`#A wide, sandy beach``~
+You are standing on a broad, sandy beach. Miles of pure yellow
+sand stretch out for miles on either side of you, running along
+the Palinese coastline. From here, the Sea of Palinor, a warm water sea,
+runs for miles to the horizon. Oddly, beyond the endless stretch
+of water, you think you can make out what seems to be land, many
+miles away, and shrouded in the distance.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 7600
+D2
+~
+~
+0 0 25103
+S
+#25105
+`#A wide, sandy beach``~
+You are standing on a broad, sandy beach. Miles of pure yellow
+sand stretch out for miles on either side of you, running along
+the Palinese coastline. From here, the Sea of Palinor, a warm water sea,
+runs for miles to the horizon. Oddly, beyond the endless stretch
+of water, you think you can make out what seems to be land, many
+miles away, and shrouded in the distance.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 25102
+D2
+~
+~
+0 0 25106
+D3
+~
+~
+0 0 25108
+S
+#25106
+`#A wide, sandy beach``~
+You are standing on a broad, sandy beach. Miles of pure yellow
+sand stretch out for miles on either side of you, running along
+the Palinese coastline. From here, the Sea of Palinor, a warm water sea,
+runs for miles to the horizon. Oddly, beyond the endless stretch
+of water, you think you can make out what seems to be land, many
+miles away, and shrouded in the distance.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 25105
+D2
+~
+~
+0 0 323
+D3
+~
+~
+0 0 25107
+S
+#25107
+`^The Sea of Palinor``~
+You stand in the shallow tidewaters of the Sea of Palinor. As forboding
+as the name sounds, the sea is warm, and pleasant. Soft waves lap
+at your feet, and a warm breeze whistles through your hair. The
+sun is warm on your face, and the sound of gulls in the air gives
+you a feeling that summer is in the air.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 25108
+D1
+~
+~
+0 0 25106
+S
+#25108
+`^The Sea of Palinor``~
+You stand in the shallow tidewaters of the Sea of Palinor. As forboding
+as the name sounds, the sea is warm, and pleasant. Soft waves lap
+at your feet, and a warm breeze whistles through your hair. The
+sun is warm on your face, and the sound of gulls in the air gives
+you a feeling that summer is in the air.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 25109
+D1
+~
+~
+0 0 25105
+D2
+~
+~
+0 0 25107
+D3
+~
+~
+0 0 25113
+S
+#25109
+`^The Sea of Palinor``~
+You stand in the shallow tidewaters of the Sea of Palinor. As forboding
+as the name sounds, the sea is warm, and pleasant. Soft waves lap
+at your feet, and a warm breeze whistles through your hair. The
+sun is warm on your face, and the sound of gulls in the air gives
+you a feeling that summer is in the air.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 25110
+D1
+~
+~
+0 0 25102
+D2
+~
+~
+0 0 25108
+D3
+~
+~
+0 0 25112
+S
+#25110
+`^The Sea of Palinor``~
+You stand in the shallow tidewaters of the Sea of Palinor. As forboding
+as the name sounds, the sea is warm, and pleasant. Soft waves lap
+at your feet, and a warm breeze whistles through your hair. The
+sun is warm on your face, and the sound of gulls in the air gives
+you a feeling that summer is in the air.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 25190
+D1
+~
+~
+0 0 25103
+D2
+~
+~
+0 0 25109
+D3
+~
+~
+0 0 25111
+S
+#25111
+`4The Sea of Palinor``~
+You now sit deep within the Sea of Palinor. A familiar rhyme comes to
+mind: Water water everywhere, but nary a drop to drink! The Dead
+Sea is named such because of the extremely high salt content in
+it, causing there to be a severe lack of fish within it. Water
+stretches everywhere. To the east the coastline of Mirlan fades
+away, and westward...there seems to be land.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25110
+D2
+~
+~
+0 0 25112
+S
+#25112
+`4The Sea of Palinor``~
+You are deep within the Sea of Palinor. Strangely, rising from the
+depths here, a large column of stone seems to have been magically
+erected. Though aged and weathered from the constant lashings from
+the sea, you can certainly see that it is a shrine of sorts, or
+perhaps some ancient ward for the mariners of these coasts.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25111
+D1
+~
+~
+0 0 25109
+D2
+~
+~
+0 0 25113
+P GRALL 25113 100~
+P SPEECH 25112 worship~
+S
+#25113
+`4The Sea of Palinor``~
+You now sit deep within the Sea of Palinor. A familiar rhyme comes to
+mind: Water water everywhere, but nary a drop to drink! The Dead
+Sea is named such because of the extremely high salt content in
+it, causing there to be a severe lack of fish within it. Water
+stretches everywhere. To the east the coastline of Mirlan fades
+away, and westward...there seems to be land.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25112
+D1
+~
+~
+0 0 25108
+D2
+~
+~
+0 0 25114
+S
+#25114
+`4The Sea of Palinor``~
+You now sit deep within the Sea of Palinor. A familiar rhyme comes to
+mind: Water water everywhere, but nary a drop to drink! The Dead
+Sea is named such because of the extremely high salt content in
+it, causing there to be a severe lack of fish within it. Water
+stretches everywhere. To the east the coastline of Mirlan fades
+away, and westward...there seems to be land.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25113
+D3
+~
+~
+0 0 25115
+S
+#25115
+`4The Sea of Palinor``~
+You float amid the deeper tides of the Sea of Palinor. Water is every
+where around you. Land cannot be seen from any vantage here. The
+salt air is thick around you, and the hot sun beats down on you.
+Very little wind provides succor from the heat here, and you feel
+like you're going to melt inside your armor.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25114
+D2
+~
+~
+0 0 25116
+D3
+~
+~
+0 0 25117
+S
+#25116
+`4The Sea of Palinor``~
+You float amid the deeper tides of the Sea of Palinor. Water is every
+where around you. Land cannot be seen from any vantage here. The
+salt air is thick around you, and the hot sun beats down on you.
+Very little wind provides succor from the heat here, and you feel
+like you're going to melt inside your armor.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25115
+D2
+~
+~
+0 0 25121
+D3
+~
+~
+0 0 25122
+S
+#25117
+`4The Sea of Palinor``~
+You float amid the deeper tides of the Sea of Palinor. Water is every
+where around you. Land cannot be seen from any vantage here. The
+salt air is thick around you, and the hot sun beats down on you.
+Very little wind provides succor from the heat here, and you feel
+like you're going to melt inside your armor.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25115
+D3
+~
+~
+0 0 25118
+S
+#25118
+`4The Sea of Palinor``~
+You find yourself floating down a small tidal eddy leading away
+from the main landmass of Mirlan. Water is still all around you,
+but you hardly have to move for the tidewaters that carry you
+away, and toward the horizon. Low clouds rest on the horizon
+far from here, and you think you can make out land. 
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25119
+D1
+~
+~
+0 0 25117
+S
+#25119
+`4The Sea of Palinor``~
+You find yourself floating down a small tidal eddy leading away
+from the main landmass of Mirlan. Water is still all around you,
+but you hardly have to move for the tidewaters that carry you
+away, and toward the horizon. Low clouds rest on the horizon
+far from here, and you think you can make out land. 
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 25118
+D3
+~
+~
+0 0 25120
+S
+#25120
+`4Warmer Currents``~
+You are in the deeper waters of the Sea of Palinor. Here, currents from
+the Venpal Ocean and the Bay of Astrelas merge, causing warmer waters
+to rise to the surface. The water is almost balmy in contrast with
+the icy chill of the outside air.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25119
+D3
+~
+~
+0 0 9028
+S
+#25121
+`4The Sea of Palinor``~
+You float amid the deeper tides of the Sea of Palinor. Water is every
+where around you. Land cannot be seen from any vantage here. The
+salt air is thick around you, and the hot sun beats down on you.
+Very little wind provides succor from the heat here, and you feel
+like you're going to melt inside your armor.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25116
+D3
+~
+~
+0 0 25123
+S
+#25122
+`4The Sea of Palinor``~
+You float amid the deeper tides of the Sea of Palinor. Water is every
+where around you. Land cannot be seen from any vantage here. The
+salt air is thick around you, and the hot sun beats down on you.
+Very little wind provides succor from the heat here, and you feel
+like you're going to melt inside your armor.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25116
+D2
+~
+~
+0 0 25123
+S
+#25123
+`4The Sea of Palinor``~
+You float amid the deeper tides of the Sea of Palinor. Water is every
+where around you. Land cannot be seen from any vantage here. The
+salt air is thick around you, and the hot sun beats down on you.
+Very little wind provides succor from the heat here, and you feel
+like you're going to melt inside your armor.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25122
+D1
+~
+~
+0 0 25121
+D3
+~
+~
+0 0 25124
+S
+#25124
+`4The Sea of Palinor``~
+You float amid the deeper tides of the Sea of Palinor. Water is every
+where around you. Land cannot be seen from any vantage here. The
+salt air is thick around you, and the hot sun beats down on you.
+Very little wind provides succor from the heat here, and you feel
+like you're going to melt inside your armor.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25123
+D2
+~
+~
+0 0 25125
+S
+#25125
+`4The Sea of Palinor``~
+You float amid the deeper tides of the Sea of Palinor. Water is every
+where around you. Land cannot be seen from any vantage here. The
+salt air is thick around you, and the hot sun beats down on you.
+Very little wind provides succor from the heat here, and you feel
+like you're going to melt inside your armor.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25124
+D3
+~
+~
+0 0 25126
+S
+#25126
+`4The Sea of Palinor``~
+You float amid the deeper tides of the Sea of Palinor. Water is every
+where around you. Land cannot be seen from any vantage here. The
+salt air is thick around you, and the hot sun beats down on you.
+Very little wind provides succor from the heat here, and you feel
+like you're going to melt inside your armor.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25125
+D2
+~
+~
+0 0 25127
+D3
+~
+~
+0 0 25127
+S
+#25127
+`4The Sea of Palinor``~
+The sea seems to never end. Swells rise up now from some unseen
+wind far, far away. The only moving air around here is from your
+own breath as you pant under the hot sun. You see now how the
+Sea of Palinor is aptly named. There is nothing here but hot, salty
+water, and endless miles of ocean.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25126
+D1
+~
+~
+0 0 25126
+D3
+~
+~
+0 0 25128
+S
+#25128
+`4The Sea of Palinor``~
+The sea seems to never end. Swells rise up now from some unseen
+wind far, far away. The only moving air around here is from your
+own breath as you pant under the hot sun. You see now how the
+Sea of Palinor is aptly named. There is nothing here but hot, salty
+water, and endless miles of ocean.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25127
+D2
+~
+~
+0 0 25129
+S
+#25129
+`4The Sea of Palinor``~
+The sea seems to never end. Swells rise up now from some unseen
+wind far, far away. The only moving air around here is from your
+own breath as you pant under the hot sun. You see now how the
+Sea of Palinor is aptly named. There is nothing here but hot, salty
+water, and endless miles of ocean.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25128
+D3
+~
+~
+0 0 25130
+S
+#25130
+`4The Sea of Palinor``~
+The sea seems to never end. Swells rise up now from some unseen
+wind far, far away. The only moving air around here is from your
+own breath as you pant under the hot sun. You see now how the
+Sea of Palinor is aptly named. There is nothing here but hot, salty
+water, and endless miles of ocean.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25129
+D2
+~
+~
+0 0 25131
+S
+#25131
+`4The Sea of Palinor``~
+You finally find yourself moving steadily southeastward. The
+air cools a bit, but remains warm under your clothing. Far
+to the south there seems to be a small bit of land. The water
+seems to be shallowing a bit, and some whitecaps can be seen
+farther to the soutthwest.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25130
+D3
+~
+~
+0 0 25132
+S
+#25132
+`4The Sea of Palinor``~
+You finally find yourself moving steadily southeastward. The
+air cools a bit, but remains warm under your clothing. Far
+to the south there seems to be a small bit of land. The water
+seems to be shallowing a bit, and some whitecaps can be seen
+farther to the soutthwest.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25131
+D2
+~
+~
+0 0 25133
+D3
+~
+~
+0 0 25135
+S
+#25133
+`4The Sea of Palinor``~
+You finally find yourself moving steadily southeastward. The
+air cools a bit, but remains warm under your clothing. Far
+to the south there seems to be a small bit of land. The water
+seems to be shallowing a bit, and some whitecaps can be seen
+farther to the soutthwest.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25132
+D3
+~
+~
+0 0 25134
+S
+#25134
+`4The Sea of Palinor``~
+You finally find yourself moving steadily southeastward. The
+air cools a bit, but remains warm under your clothing. Far
+to the south there seems to be a small bit of land. The water
+seems to be shallowing a bit, and some whitecaps can be seen
+farther to the soutthwest.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25135
+D1
+~
+~
+0 0 25133
+D3
+~
+~
+0 0 25136
+S
+#25135
+`4The Sea of Palinor``~
+You finally find yourself moving steadily southeastward. The
+air cools a bit, but remains warm under your clothing. Far
+to the south there seems to be a small bit of land. The water
+seems to be shallowing a bit, and some whitecaps can be seen
+farther to the soutthwest.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25132
+D2
+~
+~
+0 0 25134
+S
+#25136
+`4The Sea of Palinor``~
+Stillness. Eerie silence. There are no birds singing here, no
+gulls at play in the sea. Not even a single fish jumping. This
+is truly a desolate desert of an sea. The water is hardly moving,
+and the salt makes it completely undrinkable. The water is almost
+black in color, and very, very deep. You feel misery setting in.
+Are you lost? Will you ever find land?
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25134
+D2
+~
+~
+0 0 25137
+S
+#25137
+`4The Sea of Palinor``~
+Stillness. Eerie silence. There are no birds singing here, no
+gulls at play in the sea. Not even a single fish jumping. This
+is truly a desolate desert of an sea. The water is hardly moving,
+and the salt makes it completely undrinkable. The water is almost
+black in color, and very, very deep. You feel misery setting in.
+Are you lost? Will you ever find land?
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25136
+D3
+~
+~
+0 0 25138
+S
+#25138
+`4The Sea of Palinor``~
+Stillness. Eerie silence. There are no birds singing here, no
+gulls at play in the sea. Not even a single fish jumping. This
+is truly a desolate desert of an sea. The water is hardly moving,
+and the salt makes it completely undrinkable. The water is almost
+black in color, and very, very deep. You feel misery setting in.
+Are you lost? Will you ever find land?
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25137
+D3
+~
+~
+0 0 25139
+S
+#25139
+`4The Sea of Palinor``~
+Stillness. Eerie silence. There are no birds singing here, no
+gulls at play in the sea. Not even a single fish jumping. This
+is truly a desolate desert of an sea. The water is hardly moving,
+and the salt makes it completely undrinkable. The water is almost
+black in color, and very, very deep. You feel misery setting in.
+Are you lost? Will you ever find land?
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25138
+D2
+~
+~
+0 0 25140
+S
+#25140
+`4The Sea of Palinor``~
+Stillness. Eerie silence. There are no birds singing here, no
+gulls at play in the sea. Not even a single fish jumping. This
+is truly a desolate desert of an sea. The water is hardly moving,
+and the salt makes it completely undrinkable. The water is almost
+black in color, and very, very deep. You feel misery setting in.
+Are you lost? Will you ever find land?
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25139
+D3
+~
+~
+0 0 25141
+S
+#25141
+`4The Sea of Palinor``~
+Stillness. Eerie silence. There are no birds singing here, no
+gulls at play in the sea. Not even a single fish jumping. This
+is truly a desolate desert of an sea. The water is hardly moving,
+and the salt makes it completely undrinkable. The water is almost
+black in color, and very, very deep. You feel misery setting in.
+Are you lost? Will you ever find land?
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25140
+D2
+~
+~
+0 0 25142
+S
+#25142
+`4The Sea of Palinor``~
+Stillness. Eerie silence. There are no birds singing here, no
+gulls at play in the sea. Not even a single fish jumping. This
+is truly a desolate desert of an sea. The water is hardly moving,
+and the salt makes it completely undrinkable. The water is almost
+black in color, and very, very deep. You feel misery setting in.
+Are you lost? Will you ever find land?
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25141
+D3
+~
+~
+0 0 25143
+S
+#25143
+`4The Sea of Palinor``~
+Finally the sea seems to be shallowing. The blackish waters have
+now turned a deeper blue, and a bit more wind blows. Swells rise
+up once again from out of nowhere, tossing you about. You feel
+sick to your stomach, as there is no land, no stable objects to
+fix your searching gaze on. You feel like you've been on this sea
+for years and years.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25142
+D2
+~
+~
+0 0 25144
+D3
+~
+~
+0 0 25145
+S
+#25144
+`4The Sea of Palinor``~
+Finally the sea seems to be shallowing. The blackish waters have
+now turned a deeper blue, and a bit more wind blows. Swells rise
+up once again from out of nowhere, tossing you about. You feel
+sick to your stomach, as there is no land, no stable objects to
+fix your searching gaze on. You feel like you've been on this sea
+for years and years.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25143
+D3
+~
+~
+0 0 25146
+S
+#25145
+`4The Sea of Palinor``~
+Finally the sea seems to be shallowing. The blackish waters have
+now turned a deeper blue, and a bit more wind blows. Swells rise
+up once again from out of nowhere, tossing you about. You feel
+sick to your stomach, as there is no land, no stable objects to
+fix your searching gaze on. You feel like you've been on this sea
+for years and years.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25143
+D2
+~
+~
+0 0 25146
+S
+#25146
+`4The Sea of Palinor``~
+Finally the sea seems to be shallowing. The blackish waters have
+now turned a deeper blue, and a bit more wind blows. Swells rise
+up once again from out of nowhere, tossing you about. You feel
+sick to your stomach, as there is no land, no stable objects to
+fix your searching gaze on. You feel like you've been on this sea
+for years and years.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25145
+D1
+~
+~
+0 0 25144
+D2
+~
+~
+0 0 25147
+S
+#25147
+`^A long peninsula``~
+Land, finally! A large peninsula rises up from out of the depths
+of the Sea of Palinor. It is shallow enough here to wade, and the water
+laps at your feet softly. Small waves rise from the surrounding
+reefs, and a beautiful atoll stands here, shimmering in the day's
+radiant sunlight.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 25146
+D3
+~
+~
+0 0 25148
+S
+#25148
+`^A long peninsula``~
+Land, finally! A large peninsula rises up from out of the depths
+of the Sea of Palinor. It is shallow enough here to wade, and the water
+laps at your feet softly. Small waves rise from the surrounding
+reefs, and a beautiful atoll stands here, shimmering in the day's
+radiant sunlight.
+~
+~
+0 0 0 6
+D1
+~
+~
+0 0 25147
+D3
+~
+~
+0 0 25149
+S
+#25149
+`#A beachhead``~
+You stand on a sandy beach head, just off the peninsula. This seems
+to be the beginning of a small atoll that rises up in the center of
+the Sea of Palinor. Green jungle lures you from the island, and while the
+sun still beats down on you and makes you sweat, the island is very
+comforting.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 25148
+D2
+~
+~
+0 0 25150
+S
+#25150
+`#A snow white beach``~
+Sand as pure white as driven snow lies all around you. This
+beach reflects the sun so brightly, you have to avert your
+eyes to walk. As you move, the fine quartzite sand squeaks
+under your boots. Crystal blue water laps at the shore in
+soft crashes. It is very beautiful here.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 25149
+D2
+~
+~
+0 0 25152
+D3
+~
+~
+0 0 25151
+S
+#25151
+`#Wandering a snow white beach``~
+The sand still glows brightly here as you walk further
+down the snowy white beach. You can see the Sea of Palinor
+continues far to the north and south of this atoll, and
+a tiny jungle rises up in the center. The air is pure
+with the scent of salt air and tropical flowers.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 25150
+D2
+~
+~
+0 0 25154
+S
+#25152
+`#Wandering a snow white beach``~
+The sand still glows brightly here as you walk further
+down the snowy white beach. You can see the Sea of Palinor
+continues far to the north and south of this atoll, and
+a tiny jungle rises up in the center. The air is pure
+with the scent of salt air and tropical flowers.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 25150
+D2
+~
+~
+0 0 25153
+D3
+~
+~
+0 0 25154
+S
+#25153
+`#On a tropical island``~
+You are on a splendid desert island. Everything here is as it
+should be. There seems to be a plentiful water source toward
+the center of the island, as the jungle is a deep green. The
+sand all around you is fine, and clean, with seashells all
+around you. For miles to the east you can see the Sea of Palinor.
+You feel very alone here, but very at peace.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 25152
+D2
+~
+~
+0 0 25164
+D3
+~
+~
+0 0 25155
+S
+#25154
+`#On a tropical island``~
+You are on a splendid desert island. Everything here is as it
+should be. There seems to be a plentiful water source toward
+the center of the island, as the jungle is a deep green. The
+sand all around you is fine, and clean, with seashells all
+around you. For miles to the east you can see the Sea of Palinor.
+You feel very alone here, but very at peace.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 25151
+D1
+~
+~
+0 0 25152
+D2
+~
+~
+0 0 25155
+S
+#25155
+`#On a tropical island``~
+You are on a splendid desert island. Everything here is as it
+should be. There seems to be a plentiful water source toward
+the center of the island, as the jungle is a deep green. The
+sand all around you is fine, and clean, with seashells all
+around you. For miles to the east you can see the Sea of Palinor.
+You feel very alone here, but very at peace.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 25154
+D1
+~
+~
+0 0 25153
+D3
+~
+~
+0 0 25156
+S
+#25156
+`#A sandy path``~
+You find yourself walking down a small, narrow sandy
+path that leads toward the small jungle in the center
+of the atoll. Insects buzz around you, and the sweet
+smell of nectar is in the air. Large leafy plants rise
+up before you, and the path seems to lead farther into
+the mass of vines.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 25155
+D3
+~
+~
+0 0 25157
+S
+#25157
+`#A sandy path``~
+You find yourself walking down a small, narrow sandy
+path that leads toward the small jungle in the center
+of the atoll. Insects buzz around you, and the sweet
+smell of nectar is in the air. Large leafy plants rise
+up before you, and the path seems to lead farther into
+the mass of vines.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 25156
+D2
+~
+~
+0 0 25158
+D5
+~
+sand~
+ABM 0 11194
+P EXALL 5 down~
+S
+#25158
+`2The edge of the jungle``~
+You're walking in thick viney jungle now. Broad leafy plants are
+all around you, and tropical fruit trees rise up into the canopy
+overhead. Large, exotic birds perch on the limbs of thick banyan
+trees. This seems to be some sort of sanctuary or oasis for any
+creature who finds themself lost within the Sea of Palinor.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 25157
+D3
+~
+~
+0 0 25159
+S
+#25159
+`2A path in the jungle``~
+There is a definite path here, leading up a rocky face on the atoll.
+While thick plants and vines still hang all around you, the path is
+not obscured much, and travel is rather swift. There is a break just
+ahead, and sunlight is streaming onto the path just a few yards before
+you. It is quite lovely here.
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 25158
+D4
+~
+~
+0 0 25160
+S
+#25160
+`2A small path in the jungle``~
+The path winds and crawls up the foliage and rocky slope. It seems
+to level out here a bit, and winds now westward. You can hear the
+fall of water somewhere near here, and the air is misty, and smells
+of sweet flowers and tropical fruit. It is much cooler here, out of
+the hot tropical sun.
+~
+~
+0 0 16384 3
+D3
+~
+~
+0 0 25161
+D5
+~
+~
+0 0 25159
+S
+#25161
+`2A rising pathway in the jungle``~
+Once again the path continues upward into more jungle. Just
+ahead there seems to be a large break in the foliage as the
+rock face opens up. Birds and bright, beautiful flowers surround
+you as you walk, making you feel like you are being watched by
+the denizens of the tropical isle.
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 25160
+D4
+~
+~
+0 0 25162
+S
+#25162
+`2An overlook``~
+The rock face has opened up here, allowing you a view of the atoll.
+Below you, the sandy beaches for a near perfect circle around the
+tiny jungle area. For miles and miles deep blue sea surrounds the
+atoll, as far as you can see. You all of a sudden feel very alone,
+and very distant from the world.
+~
+~
+0 0 32768 3
+D3
+~
+~
+0 0 25163
+D5
+~
+~
+0 0 25161
+S
+#25163
+`^Before a Waterfall``~
+You've found the source of life on this atoll! A crystal blue
+waterfall cascades down the rocks into a deep blue pool below.
+The water source seems to come from a blue spring bubbling around
+you. Thick clouds of spray and mist rise up from the waterfall,
+giving the scene a very eerie, yet romantic look. The spring and
+waterfall are surrounded by large banana trees, and several large
+plants that bear bright, colored flowers. It is spectacular here.
+~
+~
+0 0 0 6
+D1
+~
+~
+0 0 25162
+S
+#25164
+`#On a tropical island``~
+You are on a splendid desert island. Everything here is as it
+should be. There seems to be a plentiful water source toward
+the center of the island, as the jungle is a deep green. The
+sand all around you is fine, and clean, with seashells all
+around you. For miles to the east you can see the Sea of Palinor.
+You feel very alone here, but very at peace.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 25153
+D2
+~
+~
+0 0 25165
+S
+#25165
+`#A sandy beach``~
+You find yourself wandering down a sandy, white beach. To the
+northwest you see a small jungle rise up from this atoll you are
+on. Eastward lies only miles and miles of more sea. Waves lap at
+the white shore, lulling you. The air is very warm here, but there
+is a distinct lack of wind.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 25164
+D2
+~
+~
+0 0 25166
+S
+#25166
+`^The shoreline``~
+You are knee-deep in crystal blue water. To your near north, a pure
+white sand beach beckons to you. After several miles of travel on the
+Sea of Palinor, the island seems to be a sort of oasis in a water desert.
+A small hilltop covered in lush green foliage can be seen from here,
+with a wide beach that runs around the island.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 25165
+D3
+~
+~
+0 0 25167
+S
+#25167
+`^Shallow water``~
+You stand in very shallow water. Under your feet you can see several
+tiny fish at play, meaning there must be fresh water around here to
+dilute the briny waters of the Sea of Palinor. This is the first sign of real
+life you've seen since your travels began on the Sea of Palinor. A small atoll
+lies just to your north, beckoning to you. This is the land you saw miles
+out.
+~
+~
+0 0 0 6
+D1
+~
+~
+0 0 25166
+D2
+~
+~
+0 0 25168
+S
+#25168
+`^Warm currents``~
+The water here shallows drastically, and a small tidal current pushes
+you southward. It seems there must be a source of freshwater nearby,
+as you can see fish and crabs swimming below you. The water here is
+rather choppy as the currents collide, but the salty water remains
+warm, almost like bathwater.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 25167
+D2
+~
+~
+0 0 25169
+S
+#25169
+`^A circular reef``~
+You are moving over a circular reef that surrounds the atoll just
+to the north of you. Below you bright silverfish and hundreds of
+different varieties of coral and sealife live on this barrier reef.
+It looks as if fishing would be very good here due to the sheer
+amount of large fish you see swimming below. There must be fresh
+water nearby.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 25168
+D2
+~
+~
+0 0 25170
+S
+#25170
+`^The edge of the Atoll``~
+You are nearing the mass of land you saw for miles out. A large
+barrier reef surrounds the atoll, and you can see the atoll just
+in the distance. It looks as if a small jungle is within the isle.
+After the dreadful voyage, a little land is very comforting to see.
+The reef seems to be teeming with life, and for the first time in
+leagues you can see fish jumping.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 25169
+D2
+~
+~
+0 0 25172
+D3
+~
+~
+0 0 25171
+S
+#25171
+`4The Sea of Palinor``~
+You continue within the Sea of Palinor. It seems like you've never
+left, or perhaps, never begun. Hundreds of miles of deep blue
+sea are all around you. You think you can make out some sort
+of island rising up to the north, but, of course, it could be
+clouds, or a mirage, fooling your sea-weary mind.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25170
+D2
+~
+~
+0 0 25173
+S
+#25172
+`4The Sea of Palinor``~
+You continue within the Sea of Palinor. It seems like you've never
+left, or perhaps, never begun. Hundreds of miles of deep blue
+sea are all around you. You think you can make out some sort
+of island rising up to the north, but, of course, it could be
+clouds, or a mirage, fooling your sea-weary mind.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25170
+D3
+~
+~
+0 0 25173
+S
+#25173
+`4The Sea of Palinor``~
+You continue within the Sea of Palinor. It seems like you've never
+left, or perhaps, never begun. Hundreds of miles of deep blue
+sea are all around you. You think you can make out some sort
+of island rising up to the north, but, of course, it could be
+clouds, or a mirage, fooling your sea-weary mind.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25171
+D1
+~
+~
+0 0 25172
+D2
+~
+~
+0 0 25174
+S
+#25174
+`4The Sea of Palinor``~
+You continue within the Sea of Palinor. It seems like you've never
+left, or perhaps, never begun. Hundreds of miles of deep blue
+sea are all around you. You think you can make out some sort
+of island rising up to the north, but, of course, it could be
+clouds, or a mirage, fooling your sea-weary mind.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25173
+D2
+~
+~
+0 0 25175
+S
+#25175
+`4The Sea of Palinor``~
+Insanity! There is NOTHING here! Hundreds of miles of deep
+blue water surround you. There is very little wave motion,
+and travel is slow, and monotonous. You rise and fall with
+the gentle motion of the swells, and it is enough to make
+you feel like you're losing your mind. Water water every-
+where, but nary a drop to drink!
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25174
+D2
+~
+~
+0 0 25178
+D3
+~
+~
+0 0 25176
+S
+#25176
+`4The Sea of Palinor``~
+Insanity! There is NOTHING here! Hundreds of miles of deep
+blue water surround you. There is very little wave motion,
+and travel is slow, and monotonous. You rise and fall with
+the gentle motion of the swells, and it is enough to make
+you feel like you're losing your mind. Water water every-
+where, but nary a drop to drink!
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25175
+D2
+~
+~
+0 0 25177
+S
+#25177
+`4The Sea of Palinor``~
+Insanity! There is NOTHING here! Hundreds of miles of deep
+blue water surround you. There is very little wave motion,
+and travel is slow, and monotonous. You rise and fall with
+the gentle motion of the swells, and it is enough to make
+you feel like you're losing your mind. Water water every-
+where, but nary a drop to drink!
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25176
+D1
+~
+~
+0 0 25178
+S
+#25178
+`4The Sea of Palinor``~
+Insanity! There is NOTHING here! Hundreds of miles of deep
+blue water surround you. There is very little wave motion,
+and travel is slow, and monotonous. You rise and fall with
+the gentle motion of the swells, and it is enough to make
+you feel like you're losing your mind. Water water every-
+where, but nary a drop to drink!
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25175
+D2
+~
+~
+0 0 25179
+D3
+~
+~
+0 0 25177
+S
+#25179
+`4Tidal Flows``~
+You are deep within the Sea of Palinor. Water surrounds you as far
+as your eyes can see. The large swells of water gently rise
+and fall, and you can make out no distinguishing landmarks
+of any kind. Only the sun guides your path of travel, or the
+stars, at night. It is very hot here.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25178
+D2
+~
+~
+0 0 25180
+D3
+~
+~
+0 0 25181
+S
+#25180
+`3Sharp Rocks``~
+You come dangerously close to a large set of steep rocks that
+rise up out of the water from nowhere. They are jagged as razor
+knives, and are littered with ship wreckage and torn cloth. As
+you steer away, you can see that they look much like sharp dragon
+teeth sticking out of the water.
+~
+~
+0 0 65536 5
+D0
+~
+~
+0 0 25179
+S
+#25181
+`4Tidal Flows``~
+You are deep within the Sea of Palinor. Water surrounds you as far
+as your eyes can see. The large swells of water gently rise
+and fall, and you can make out no distinguishing landmarks
+of any kind. Only the sun guides your path of travel, or the
+stars, at night. It is very hot here.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 25179
+D2
+~
+~
+0 0 25182
+S
+#25182
+`4Tropical waters``~
+The chill waters of the West Dune Sea have given way to deeper,
+warmer waters. You have crossed the Temeperate Zone, and have
+entered the Sea of Palinor, a sea that stretches for miles to the far
+north before running into the Frozen Wastes, far to the north.
+The waters here are warm, and very briny.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25181
+D2
+~
+~
+0 0 25183
+S
+#25183
+`4Tropical waters``~
+The chill waters of the West Dune Sea have given way to deeper,
+warmer waters. You have crossed the Temeperate Zone, and have
+entered the Sea of Palinor, a sea that stretches for miles to the far
+north before running into the Frozen Wastes, far to the north.
+The waters here are warm, and very briny.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25182
+D2
+~
+~
+0 0 25184
+S
+#25184
+`4Tropical waters``~
+The chill waters of the West Dune Sea have given way to deeper,
+warmer waters. You have crossed the Temeperate Zone, and have
+entered the Sea of Palinor, a sea that stretches for miles to the far
+north before running into the Frozen Wastes, far to the north.
+The waters here are warm, and very briny.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25183
+D2
+~
+~
+0 0 25185
+S
+#25185
+`4Deeper waters``~
+The waters here seem to deepen, shifting colors from deep green
+to a dark, deep blue in color. You feel as if you may have just
+left the Dune Sea, and are traveling into more unfamiliar waters.
+The air here is thick with salt, and the wind has died down very
+drastically.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25184
+D2
+~
+~
+0 0 6230
+S
+#25186
+`8``~
+~
+~
+0 4 0 0
+S
+#25187
+`8``~
+~
+~
+0 4 0 0
+S
+#25188
+`8``~
+~
+~
+0 270540804 0 0
+S
+#25189
+`8``~
+~
+~
+0 4 0 0
+S
+#25190
+`^The Sea of Palinor``~
+~
+~
+0 0 0 6
+D2
+~
+~
+0 0 25110
+S
+#25191
+`8``~
+~
+~
+0 4 0 0
+S
+#25192
+`8``~
+~
+~
+0 4 0 0
+S
+#25193
+`8``~
+~
+~
+0 4 0 0
+S
+#25194
+`8``~
+~
+~
+0 4 0 0
+S
+#25195
+`8``~
+~
+~
+0 4 0 0
+S
+#25196
+`8``~
+~
+~
+0 4 0 0
+S
+#25197
+`8``~
+~
+~
+0 4 0 0
+S
+#25198
+`8``~
+~
+~
+0 4 0 0
+S
+#25199
+`8``~
+~
+~
+0 4 0 0
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+O 0 25112 0 25112
+M 0 25139 1 25139 1
+O 0 25149 0 25149
+M 0 25155 2 25151 1
+M 0 25155 2 25152 1
+M 0 25155 2 25154 1
+M 0 25155 2 25155 1
+M 0 25158 2 25158 1
+M 0 25158 2 25160 1
+O 0 25132 0 25162
+O 0 25163 0 25163
+O 0 25165 0 25163
+M 0 25169 3 25167 1
+M 0 25169 3 25168 1
+M 0 25169 3 25169 1
+M 0 25174 1 25174 1
+G 0 25131 0
+G 0 25130 0
+G 0 25174 0
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+M 25139 0 tallship.prg NL
+M 25139 0 tallship2.prg NL
+M 25155 0 hermcrab.prg NL
+M 25158 0 exotic.prg NL
+M 25174 0 tallship.prg NL
+M 25174 0 tallship2.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#25112
+room echoat $n Veshalma smiles upon your dedication to brave the ocean for her pleasure.
+~
+#25113
+if hasquest $n 'Discovered the Shrine to Veshalma in the Sea of Palinor'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Veshalma!``
+    room permquest $n Discovered the Shrine to Veshalma in the Sea of Palinor
+endif
+~
+#0
+
+#$

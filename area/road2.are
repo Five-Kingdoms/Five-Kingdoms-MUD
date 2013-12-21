@@ -1,0 +1,1074 @@
+#AREADATA
+Name the Northern Passage~
+Pref ~
+Builders Crypticant~
+VNUMs 2100 2199
+Max_Bastions 1
+Credits {10 35} Shadowsp The Northern Passage~
+Security 9
+Startroom 2126
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#2100
+lost goblin~
+a lost goblin~
+A goblin is here looking lost.
+~
+Armed with a spear and shield, he glares at you boldly.
+ 
+~
+goblin~
+AB A 0 0 -1000 9900
+8 10 2d7+96 0d0+100 1d7+4 pierce
+3 3 3 3
+JKNU 0 Q C
+stand stand male none~
+5
+AHMV ABCDEFGHIJK medium 0
+F aff J
+#2117
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+A A 0 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+8
+AHMV ABCDEFGHIJK medium 0
+#2128
+goblin scout~
+a goblin scout~
+A goblin scout on a lookout.
+~
+Armed with a spear and shield, he glares at you boldly.
+ 
+~
+goblin~
+AB A 0 0 -1000 9900
+8 10 2d7+96 0d0+100 1d7+4 pierce
+3 3 3 3
+JKNU 0 Q C
+stand stand male none~
+10
+AHMV ABCDEFGHIJK medium 0
+F aff J
+#2131
+elf lord~
+an elf lord~
+An elf lord dressed in regal clothes is here.
+~
+Filled with the infinite wisdom and intelligence gathered from the ages,
+he is one of the most sageous of all elf lords and is highly respected among
+elven kind.  Despite this, his face is worn with worry and regrets.  
+~
+elf~
+ABT A BCDFHJP 0 1000 2131
+53 20 10d50+5000 0d0+100 11d8+30 slash
+-20 -20 -20 -20
+FKNQR AB B Z
+stand stand male none~
+20
+AHMV ABCDEFGHIJK medium 0
+#2132
+elf elven companion~
+an elven companion~
+An elven companion is here with a grim look on his face.
+~
+A traveling guard, he is the lord's personal bodyguard.  About him he wears
+a cloak which has been worn from travel.  Facial features are hard and 
+chiseled.
+~
+human~
+ABIT A DFJP 0 1000 2131
+45 24 25d10+3000 0d0+100 9d10+28 slash
+-15 -15 -15 -15
+FKNQU 0 CM Z
+stand stand male none~
+19
+AHMV ABCDEFGHIJK medium 0
+#2133
+elf elven sharpshooter~
+an elven sharpshooter~
+An elven sharpshooter is here, an arrow nocked in his bow.
+~
+As part of the lord's personal guard, he maintains a silent unseen vigil
+from the shadows.  He wears dark clothing and an elven longbow is strung
+across his back.  His face, or what you can see of it, rather is grim and
+gaunt, as though time has taken its toll upon him.  
+~
+human~
+ABT A DFJPQ 0 1000 0
+45 24 25d10+3000 0d0+100 9d10+28 pierce
+-15 -15 -15 -15
+EFKNQU 0 CM Z
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 2132 50~
+P RANDOM 2131 10~
+#2135
+sand wyrm~
+The Sand Wyrm~
+An immense wyrm, made of living sand is here, writhing and squirming.
+~
+Measuring nearly forty feet in length, this huge wyrm writhes and coils
+among the dunes.  It's head is an immense, gaping hole lined with hundreds
+of razor-sharp teeth.  Two tiny eyes peer out from beneath large, bony
+ridges edged with small spikes.  It notices your presence, and attacks.  
+~
+snake~
+ABGTe A DFH 0 0 1
+50 15 1d1+4700 0d0+100 5d8+35 crush
+-19 -19 -19 -19
+FJ AB L I
+stand stand none none~
+26
+AGXYc ADEFKLQVX medium 0
+#0
+
+
+
+#OBJECTS
+#2100
+Sparkling vial~
+a vial of sparkling liquid~
+A vial is here sparkling.~
+liquid~
+potion 0 AO
+15 'sanctuary' '' '' ''
+15 10 10 P
+#2130
+lock~
+an intriguing lock~
+~
+iron~
+container 0 0
+100 0 0 100 100
+35 -31072 1000 P
+#2131
+tiny note~
+a tiny note~
+A tiny note is here, crumpled into a ball, and covered in sand.~
+paper~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+E
+tiny note~
+As you unfurl this note, you can faintly make out the words...
+ 
+Hug....S..nd....Wy..m...  The.. key...is..his!
+ 
+What this can possibly mean, you can only guess.
+~
+#2132
+ring fire~
+a Ring of Fire~
+A ring is enclosed by a circle of fire flares against the ground.~
+adamantite~
+jewelry AB ABX
+0 0 0 0 0
+50 20 4 P
+F
+A 20 -7 0
+F
+A 22 -3 0
+F
+A 12 35 0
+F
+A 3 2 0
+#2133
+whip fire~
+a deadly whip of bluish fire~
+A lengthy line of fire is here.~
+fire~
+weapon AB ANX
+whip 7 6 whip 0
+48 30 3 P
+F
+S 163 25 0
+F
+A 19 -1 0
+F
+A 18 4 0
+#2134
+travelers cloak~
+a traveler's cloak~
+A worn dark grey cloak is here waiting to be picked up.~
+fur~
+armor 0 AKX
+9 9 9 2 0
+48 20 10 P
+F
+A 14 100 0
+F
+A 5 -2 0
+F
+A 2 3 0
+#2135
+elven globe light~
+an elven globe of light~
+A small bauble shines brightly here.~
+energy~
+light AK AX
+0 0 999 0 0
+50 10 15 P
+F
+A 2 2 0
+F
+A 18 2 0
+F
+A 17 -10 0
+#2136
+elven hunting arrow~
+elven hunting arrow~
+A slender hunting arrow lies here.~
+holy wood~
+projectile 0 AX
+0 7 5 magic AE 50 0 6 P
+F
+A 18 6 0
+#2137
+elven hunting bow~
+an elven hunting bow~
+A beautiful elven hunting bow is here.~
+holy wood~
+ranged Y ASe
+0 3 3 10062 A
+50 11 1 P
+F
+A 18 9 0
+#2138
+sandstone key~
+a sandstone key~
+A key fashioned from sandstone is here, threaded with a delicate elven chain.~
+sand~
+key S AO
+0 0 0 0 0
+50 10 0 P
+#0
+
+
+
+#ROOMS
+#2100
+`3A twisted path to the north``~
+You find yourself walking a meandering path just to the north of
+Zalango. Wind howls at your ears, a hot wind, the reeks of burnt
+leaves and grass, and decay. The ground is the same hard packed
+mud that seems to plague the grounds.
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 2101
+D2
+~
+~
+0 0 2129
+S
+#2101
+`3A desolate plain``~
+You stand on a desolate plain overlooking a barren desert. It seems
+that all that surrounds Zalango is blasted, cursed desert lands.
+The wind picks up here, carrying with it the fragrance of burnt
+wood and leaves. Northward lies only desert.
+~
+~
+0 0 32768 2
+D2
+~
+~
+0 0 2100
+S
+#2102
+`#A desolate plain``~
+You stand on a desolate plain overlooking a barren desert. It seems
+that all that surrounds Zalango is blasted, cursed desert lands.
+The wind picks up here, carrying with it the fragrance of burnt
+wood and leaves. Northward lies only desert.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 2103
+S
+#2103
+`#The Great Wastes of Thule``~
+You stand in a broad, vast desertland. These are the Great Wastes of Thule,
+grounds covered in thick, cracked grey mud. Withered trees and
+burned out weedbeds obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. It is hot, and hazy.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 2104
+D2
+~
+~
+0 0 2102
+T 110
+S
+#2104
+`#The Great Wastes of Thule``~
+You stand in a broad, vast desertland. These are the Great Wastes of Thule,
+grounds covered in thick, cracked grey mud. Withered trees and
+burned out weedbeds obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. It is hot, and hazy.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 2149
+D2
+~
+~
+0 0 2103
+D3
+~
+~
+0 0 2105
+T 110
+S
+#2105
+`#The Great Wastes of Thule``~
+You stand in a broad, vast desertland. These are the Great Wastes of Thule,
+grounds covered in thick, cracked grey mud. Withered trees and
+burned out weedbeds obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. It is hot, and hazy.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 2106
+D1
+~
+~
+0 0 2104
+T 110
+S
+#2106
+`#The Great Wastes of Thule``~
+You stand in a broad, vast desertland. These are the Great Wastes of Thule,
+grounds covered in thick, cracked grey mud. Withered trees and
+burned out weedbeds obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. It is hot, and hazy.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 2107
+D2
+~
+~
+0 0 2105
+T 110
+S
+#2107
+`#The Great Wastes of Thule``~
+You stand in a broad, vast desertland. These are the Great Wastes of Thule,
+grounds covered in thick, cracked grey mud. Withered trees and
+burned out weedbeds obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. It is hot, and hazy.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 2108
+D2
+~
+~
+0 0 2106
+D3
+~
+~
+0 0 2132
+T 110
+S
+#2108
+`#The Great Wastes of Thule``~
+You stand in a broad, vast desertland. These are the Great Wastes of Thule,
+grounds covered in thick, cracked grey mud. Withered trees and
+burned out weedbeds obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. It is hot, and hazy.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 2109
+D3
+~
+~
+0 0 2107
+T 110
+S
+#2109
+`#The Great Wastes of Thule``~
+You stand in a broad, vast desertland. These are the Great Wastes of Thule,
+grounds covered in thick, cracked grey mud. Withered trees and
+burned out weedbeds obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. The air is becoming gradually cooler as
+you move northward.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 2110
+D2
+~
+~
+0 0 2108
+T 70
+S
+#2110
+`#The Great Wastes of Thule``~
+You stand in a broad, vast desertland. These are the Great Wastes of Thule,
+grounds covered in thick, cracked grey mud. Withered trees and
+burned out weedbeds obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. The air is becoming gradually cooler as
+you move northward.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 2111
+D2
+~
+~
+0 0 2109
+T 70
+S
+#2111
+`#The Great Wastes of Thule``~
+You stand in a broad, vast desertland. These are the Great Wastes of Thule,
+grounds covered in thick, cracked grey mud. Withered trees and
+burned out weedbeds obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. The air is becoming gradually cooler as
+you move northward.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 2112
+D2
+~
+~
+0 0 2110
+T 70
+S
+#2112
+`#The Great Wastes of Thule``~
+You stand in a broad, vast desertland. These are the Great Wastes of Thule,
+grounds covered in thick, cracked grey mud. Withered trees and
+burned out weedbeds obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. The air is becoming gradually cooler as
+you move northward.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 2113
+D3
+~
+~
+0 0 2111
+T 70
+S
+#2113
+`#The Great Wastes of Thule``~
+You stand in a broad, vast desertland. These are the Great Wastes of Thule,
+grounds covered in thick, cracked grey mud. Withered trees and
+burned out weedbeds obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. The air is becoming gradually cooler as
+you move northward.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 2114
+D3
+~
+~
+0 0 2112
+T 70
+S
+#2114
+`#The Great Wastes of Thule``~
+You stand in a broad, vast desertland. These are the Great Wastes of Thule,
+grounds covered in thick, cracked grey mud. Withered trees and
+burned out weedbeds obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. The air is becoming gradually cooler as
+you move northward.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 2115
+D2
+~
+~
+0 0 2113
+T 70
+S
+#2115
+`#The Great Wastes of Thule``~
+You stand in a broad, vast desertland. These are the Great Wastes of Thule,
+grounds covered in thick, cracked grey mud. Withered trees and
+burned out weedbeds obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. The air is becoming gradually cooler as
+you move northward.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 2116
+D2
+~
+~
+0 0 2114
+T 70
+S
+#2116
+`#The Great Wastes of Thule``~
+You stand in a broad, vast desertland. These are the Great Wastes of Thule,
+grounds covered in thick, cracked grey mud. Withered trees and
+burned out weedbeds obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. Icy winds now whip at your clothing, and
+bits of acidic snow tear and your face and skin. The air is
+freezing!
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 2117
+D2
+~
+~
+0 0 2115
+T 30
+S
+#2117
+`3The Thule Wastes``~
+You stand in a broad, vast desertland. These are the Arctic
+Wastes. They are covered in thick, patchy snow. Withered trees 
+and snowdrifts obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. Icy winds now whip at your clothing, and
+bits of acidic snow tear and your face and skin. The air is
+freezing!
+~
+~
+0 0 8192 5
+D0
+~
+~
+0 0 2119
+D3
+~
+~
+0 0 2116
+T 30
+S
+#2118
+`8unused``~
+~
+~
+0 335544324 0 0
+S
+#2119
+`3The Thule Wastes``~
+You stand in a broad, vast desertland. These are the Arctic
+Wastes. They are covered in thick, patchy snow. Withered trees 
+and snowdrifts obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. Icy winds now whip at your clothing, and
+bits of acidic snow tear and your face and skin. The air is
+freezing!
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 2120
+D2
+~
+~
+0 0 2117
+T 30
+S
+#2120
+`3The Thule Wastes``~
+You stand in a broad, vast desertland. These are the Arctic
+Wastes. They are covered in thick, patchy snow. Withered trees 
+and snowdrifts obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. Icy winds now whip at your clothing, and
+bits of acidic snow tear and your face and skin. The air is
+freezing!
+~
+~
+0 0 8192 5
+D2
+~
+~
+0 0 2119
+D3
+~
+~
+0 0 2121
+T 30
+S
+#2121
+`3The Thule Wastes``~
+You stand in a broad, vast desertland. These are the Arctic
+Wastes. They are covered in thick, patchy snow. Withered trees 
+and snowdrifts obscure direct views. It looks as if a massive
+plague destroyed these lands many years ago, and they've never
+been able to recover. Icy winds now whip at your clothing, and
+bits of acidic snow tear and your face and skin. The air is
+freezing!
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 2122
+D1
+~
+~
+0 0 2120
+T 30
+S
+#2122
+`3Dwindling desert``~
+You are at the edge of the Thule Wastes. To your south lies nothing
+but open desert and wastelands, but to the north, you think you can
+make out the entrance to what seems to be a rather large city. The
+taint of death rests in the air, and danger seems to loom all around
+you.
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 2123
+D2
+~
+~
+0 0 2121
+S
+#2123
+`3Dwindling desert``~
+You are at the edge of the Thule Wastes. To your south lies nothing
+but open desert and wastelands, but to the north, you think you can
+make out the entrance to what seems to be a rather large city. The
+taint of death rests in the air, and danger seems to loom all around
+you.
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 2124
+D2
+~
+~
+0 0 2122
+S
+#2124
+`3A dark and dangerous trail``~
+You are walking down a small trail that you've come across, leading
+from the Thule Wastes. You can't be sure where it leads exactly,
+but you've heard rumors of an evil city that lies in the far northern
+reaches of the Thule Wastes.
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 2125
+D2
+~
+~
+0 0 2123
+S
+#2125
+`3A dark and dangerous trail``~
+You are walking down a small trail that you've come across, leading
+from the Thule Wastes. You can't be sure where it leads exactly,
+but you've heard rumors of an evil city that lies in the far northern
+reaches of the Thule Wastes.
+~
+~
+0 0 65536 5
+D1
+~
+~
+0 0 2993
+D2
+~
+~
+0 0 2124
+S
+#2126
+`7Outside the Gates``~
+You are completely lost in this insane fog.  You know that there is a city 
+somewhere.  You can hear it.  You can smell it.  You can taste the salt in
+the air.  But where is it?  You begin to wonder, is this fog entirely 
+natural?
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2127
+D2
+~
+~
+0 0 7876
+S
+#2127
+`7Beyond the Gates``~
+You are completely lost in this insane fog.  You know that there is a city 
+somewhere.  You can hear it.  You can smell it.  You can taste the salt in
+the air.  But where is it?  You begin to wonder, is this fog entirely 
+natural?
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2128
+D2
+~
+~
+0 0 2126
+S
+#2128
+`3Haze in the distance``~
+Gray fog seems to lift from nowhere in particular totally obscuring 
+the view in front of you.  The noses of what would be a city seems to
+come from within.  You can go back from where the path came from or you
+can continue.
+~
+~
+0 0 8192 4
+D0
+~
+~
+0 0 2129
+D2
+~
+~
+0 0 2127
+S
+#2129
+`2Lush, Green Grass``~
+A worn gravel path is here, that seems to have been at one point widely 
+traveled.  Now it seems all, but abandoned.  Run down buildings stand
+as best they can on either side of you and you see the occasional 
+wanderings of a wild boar here and there.  The road is very mountainous
+but maintains the grassy terrain. 
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 2100
+D2
+~
+~
+0 0 2128
+S
+#2130
+`7Before an Iron Building``~
+This large iron building is devoid of features save for an immense door
+on it's eastern face.  The door is obviously locked, and a tiny keyhole has
+been fashioned into the door about a yard from the ground.  The keyhole is
+intriguing and draws your attention closer.  
+~
+~
+0 0 0 1
+E
+key hole keyhole~
+The keyhole is non-descript, yet something about it draws your attention.
+You can faintly discern falling from the keyhole fine grains of sand.  A
+tiny note has been crammed into the lock.  
+~
+D1
+~
+heavy iron door~
+ABC 2138 2131
+D3
+~
+~
+0 0 2149
+T 110
+P RANDOM 2130 50~
+S
+#2131
+`8An Ancient Cell``~
+This cell is ancient beyond measure, and probably outdates the
+destruction and death that surrounds it outside.  Thick runes of arcane
+power have been engraved on every available inch of the wall's surface and
+it is lit by a single glowing stone hanging in a bronze sconce on the
+ceiling.  
+~
+~
+0 8200 0 0
+D3
+~
+heavy iron door~
+ABC 2138 2130
+S
+#2132
+`#The Great Wastes of Thule``~
+You stand in a broad, vast desertland.  These are the Great Wastes of Thule,
+grounds covered in thick, cracked grey mud.  Withered trees and burned out
+weedbeds obscure direct views.  It looks as if a massive plague destroyed
+these lands many years ago, and they've never been able to recover.  It is
+hot, and hazy.  
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 2107
+D3
+~
+~
+0 0 2133
+S
+#2133
+`#The Great Wastes of Thule``~
+You stand in a broad, vast desertland.  These are the Great Wastes of Thule,
+grounds covered in thick, cracked grey mud.  Withered trees and burned out
+weedbeds obscure direct views.  It looks as if a massive plague destroyed
+these lands many years ago, and they've never been able to recover.  It is
+hot, and hazy.  
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 2132
+D2
+~
+~
+0 0 2134
+S
+#2134
+`8Entering Darkness``~
+You finally leave the sweltering heat of the desert and find yourself in
+cooler surrounds.  Though the air is still rather hot, it is noticably more
+humid.  The air is thick and the smooth stone walls glisten with moisture. 
+Thick growths of moss and other fungi blanket the lower sections of the
+naturally worked stone.  The floor is earthen and pools of stagnant water
+lie here and there.  The air in this cavern seems to move, drawing in and
+out, as though you lay in the maw of some huge beast.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 2133
+D2
+~
+~
+0 0 2135
+S
+#2135
+`8Dark Despair``~
+You have found the source of the turbulent air.  You find yourself in
+what appears to be the lair of some large beast.  Large, deep groves have
+been carved into the dirt floor by something that can be best described as
+massive.  Loose scales can be seen scattered about the room and bones,
+gnawed bare, have been tossed wontonly about the cavern.  The same thick
+growth of fungus can be seen in the sparse light.  
+~
+~
+0 134225921 0 0
+D0
+~
+~
+0 0 2134
+S
+#2149
+`8Off the Beaten Path``~
+You stand in a broad, vast desertland.  These are the Great Wastes of Thule,
+grounds covered in thick, cracked grey mud.  Withered trees and burned out
+weedbeds obscure direct views.  It looks as if a massive plague destroyed
+these lands many years ago, and they've never been able to recover.  As you
+leave the main thoroughfare, the terrain becomes visibly more rugged.  In
+the distance you can faintly discern some sort of structure.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 2130
+D3
+~
+~
+0 0 2104
+T 110
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 2100 1 2100 1
+E 0 2100 0 18
+O 0 2130 0 2130
+P 0 2131 0 2130 1
+M 0 2131 1 2131 1
+E 0 2132 0 2
+E 0 2135 0 0
+M 0 2132 1 2131 1
+E 0 2134 0 13
+E 0 2133 0 17
+M 0 2133 1 2131 1
+G 0 2136 0
+E 0 2137 0 24
+M 0 2135 1 2135 1
+E 0 2138 0 18
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#2131
+if rand 50
+  emote draws an arrow from his quiver and nocks it in his bow.
+  emote silently scans the area for danger.
+  hide
+else 
+  emote shifts his weight, and casts his gaze about the chamber.
+  emote runs a hand over the pommel of a dagger at his hip.
+  hide
+endif
+~
+#2132
+if affected $i hide
+  break
+else
+  hide
+endif
+~
+#0
+
+M 2100 1 gobvil_guard.prg NL
+M 2128 1 gobvil_guard.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#2130
+if isnpc $n
+  break
+else
+  room echo You can discern pounding fists on the other side of the heavy iron door.
+  room echo A faint voice from beyond the iron door says '`#Help!  The key is in the hands of the Desert Snake!``'
+endif
+~
+#0
+
+#$

@@ -1,0 +1,1554 @@
+#HELPS
+
+-1 WIZLIST~
+The Age of Mirlan was created and is operated by:
+
+[60] Crypticant - Head Coder
+[60] Ihlxhul    - Room Boss
+[60] Meridian   - Headmistress
+[60] Zanzabar   - Head Honcho
+[60] Morgorin   - Creater of the world "Mirlan'
+[60] Ankharan   - Player Services
+[59] Maelduin   - Builder
+
+
+For information on deities, see HELP DEITY.
+~
+
+-50 WIZCOMMANDS~
+Commands available to Immortals.  *  No help file written yet.  ** Do NOT USE.  Head Coder ONLY!  
+
+at		goto        	leader      	sockets     	wizhelp     	for         
+herblore    	imotd      	afk         	advance     	trust   	violate     
+allow      	ban        	plag    	deny        	disconnect      colors
+flag     	freeze      	permban     	protect     	reboot      	set         
+shutdown    	wizlock     	force       	load        	newlock     	nochannels 
+noemote     	noyell      	notell      	pardon      	purge       	restore     
+slay        	teleport    	transfer    	untransfer 	poofin      	poofout     
+gecho       	holylight   	hearall 	incognito   	log         	memory      
+mwhere      	owhere     	peace       	penalty     	echo        	return      
+snoop       	stat        	string      	switch      	wizinvis    	vnum        
+clone       	wiznet        	: (IMMtalk)	immtalk     	smote       	prefix *
+mlevel    	olevel        	[ (IMPtalk)     imptalk     	mpstat   	bringon 
+progfind 	cwhere    	chown   	rename   	last    	nukerep *
+repop       	noxlist 	vlist * 	tattoo      	edit        	asave       
+psave   	alist       	resets      	smite       	tick        	anum 
+crashus **	freezeus **	interest 	affstrip 	inrange 	identify    
+random  	home    	permit  	pipe *  	doas *  	qslay 
+qvamp   	badname  	favor   	outcast    	test *  	racenum
+classnumb       ' {say)
+~
+
+-50 FLAG~
+Syntax:
+  flag mob  <name> <field> <flags>
+  flag char <name> <field> <flags>
+  mob  flags: act,aff,off,imm,res,vuln,form,part
+  char flags: plr,comm,aff,imm,res,vuln,
+  +: add flag, -: remove flag, = set equal to
+  otherwise flag toggles the flags listed.
+
+~
+
+-50 PROGFIND~
+Syntax:  progfind (programname.prg)
+
+This commands will see if a program exists.  Useful for finding out before you name a program and
+overwritinga previous program.
+~
+
+
+-50 INTEREST~
+Syntax: interest <lump sum> <premium> <rate> <years>.
+
+This command calculates interest on money.
+~
+
+
+-50 FAVOR~
+Syntax:  favor <char> <add/subtract> <amount>
+
+This command adds or takes away divine favor.
+~
+
+
+-50 FREEZEUS~
+Syntax:  freezeus
+
+For Head Coder ONLY!  Do not use.
+~
+
+
+-50 LAST~
+Syntax:  last <last name>
+
+This will give a last name.
+~
+
+
+-50 RENAME~
+Syntax: rename <old_name> <new_name>.
+
+This command renames a character.
+~
+
+
+-50 BADNAME~
+Syntax:  badname (name).
+
+This will add a name to the bad name file to prevent usage of the name.
+
+Example:  badname shithead.
+
+That would disallow the name shithead from being used as a character name.
+~
+
+
+-50 UNTRANSFER~
+Syntax:  untransfer "target"
+
+This commans will transfer back a character that has been previously transfered.
+~
+
+
+-50 AFFSTRIP~
+Syntax: affstrip <char> <affect>.
+
+This command will strip the affects of spells from characters.
+~
+
+
+-50 RANDOM~
+Syntax:  random
+
+This command will transport you to a random destination.
+~
+
+
+-50 PLAG~
+Syntax:  plag <char> <(optional) seconds>
+
+This command lags a player.
+~
+
+
+-50 QSLAY~
+Syntax:  qslay "target"
+
+This command slays are target quietly.
+~
+
+
+
+-50 BRINGON~
+
+Syntax:  bringon "target"
+
+This command will bring on a nonlogged on character.
+~
+
+-50 ANUM~
+Syntax:
+  anum obj
+  anum mob
+  anum room
+
+This command will list objects, rooms or mobs in an area.
+~
+
+-50 INRANGE~
+Syntax: inrange <character1> <character2>.
+
+This command compares the range of two characters to see if they are within PK range of each other.
+~
+
+
+
+-50  PERMIT~
+Syntax:  permit "target"
+
+This cammand allows someone to log on to the mUD through a ban.
+
+BE CAREFUL USING THIS.
+~
+
+
+
+-50 CHOWN~
+Syntax:  chown "target"  "item"
+
+This command takes items from others.
+~
+
+
+-50 MLEVEL~
+Syntax:  mlevel "level"
+
+This finds mobs in the world of the level requested.
+~
+
+-50 HEARALL~
+Syntax:  hearall
+
+This toggles the hearall to hear all channels.  If already toggled retyping it will untoggle.
+the hearall.
+~
+
+
+-50 QVAMP~
+Syntax;  qvamp "character"
+
+This command changes a charcter to undead status.
+~
+
+
+-50 REPOP~
+Syntax:  repop
+
+This command repopulates an area.
+~
+
+
+
+-50 CWHERE~
+Syntax: cwhere
+
+This command shows where characters are in Mirlan.
+~
+
+-50 HOME~
+Syntax: home
+
+This command takes you to your recall point.
+~
+
+
+-50 PSAVE~
+Syntax: psave program
+
+When editing/creating mobprograms upon finish you need to save the program.  This command does this.
+~
+
+
+
+-50 CRASHUS~
+Syntax:  crashus
+
+DO NOT USE!  This is for the head coder ONLY!  This command crashes the MUD.
+~
+
+
+
+-50 NOXLIST~
+Syntax:  noxlist
+
+When editing an area sometimes it is necessary to see if you have any rooms that have no exits.  This
+command will show you how many rooms if any have no exits.
+~
+
+
+
+-50 MPSTAT~
+Syntax:  mpstat "mob name or vnum"
+
+This command will give you the mobprograms in the program fields of the mob in question.
+~
+
+
+
+
+
+
+-1 IMMORTAL IMMORTALS IMM GOD ~
+IMMORTAL IMMORTALS IMM GOD
+
+'Immortals' (often, simply, 'imms') refers to players who have reached
+the highest attainable levels in the game.  Here at the Age of 
+Mirlan, anyone of level 51 or higher is an 'immortal.'  Immortals are 
+here to facilitate the flow of the game, generally by answering 
+questions from mortals or enforcing the rules of the realm.
+
+Since immortals can wreak havoc with game balance, we here at The Age of 
+Mirlan choose our immortals very carefully.  An absolute rule 
+of immortal behavior is that no immortal can aid or assist any player 
+without explicit permission from the higher ranks; in other words, 
+please don't ask an immortal to help you kill a mob, gather EQ, etc, or
+you'll likely be either politely or rudely refused, or referred to
+this file.
+~
+
+-1 SOCIALS~
+This is a complete list of socials for The Age of Mirlan:
+
+accuse       adjust      air          apologize     applaud     babble
+bark         bcatch      beckon       beer          bearhug     beg
+bird         bkiss       bleed        blink         blush       boast
+boggle       bonk        bounce       bow           brb         burp
+cackle       caress      dismay       cheer         chuckle     clap
+claw         collapse    comfort      comb          cough       cover
+cower        cringe      criticize    cry           cuddle      curse
+curtsey      dance       daydream     drool         duck        embrace
+explode      eyebrow     faint        fart          flare       flash
+flex         flinch      flip         flirt         flutter     fondle
+french       frown       fume         gasp          giggle      glare
+goose        grimace     grin         groan         grope       grovel
+growl        grumble     hand         head          hiccup      highfive
+hop          howl        hug          hush          ignore      innocent
+insane       judge       kiss         knee          laugh       lick
+love         lust        massage      meditate      moan        moon
+mosh         mutter      nibble       nod           nudge       nuzzle
+pant         passout     pat          peck          pie         pinch
+pissed       plead       point        poke          ponder      pout
+pray         propose     puke         punch         purr        ramble
+raspberry    rofl        roll         rub           ruffle      run
+scratch      scream      serenade     shake         shiver      shrug
+sigh         sing        slap         slobber       smile       smirk
+snap         snarl       sneeze       snicker       sniff       snore
+snort        snowball    snuggle      sob           spam        spank
+spit         squeal      squeeze      squirm        stare       stretch
+strip        stroke      strut        sulk          swoon       tackle
+tease        thank       threaten     tickle        tip         tongue
+twiddle      type        undress      view          wave        whine
+whistle      wiggle      wince        wink          wonder      worry
+worship      yawn        yeehaw       yodel         rose        laces
+tank         starve      aargh        homework      puff        differ
+yae          lightbulb   voodoo       ogg           confused    beam
+bite         discodance  scuff        whap          lag         chortle
+zerbert      twitch      wiggleit     scoot         
+ 
+~
+
+-1 GREETING~
+.
+    __    __    __               __    __    __    __   __   __        
+   /\:\  /\:\  /\:\             /\:\  /\:\  /\:\  /\_\ /\:\ /\:\       
+  /  \:\/  \:\/  \:\  _  _     /  |_|_\ \:\/  \:\/ /://  \:\ |:|_      
+ / /\ \:\/\ \:\/\/_/ /\\/\\   /     \:\  \:\/\ |:|/:// /\ \:\|/\:\    
+/  \/ /:/ _\/_/\_\  //\\\\\\ / /|_  /://\/_/\//_//_//  \/ /:/| /:/    
+\/\  /:/\/\_\/\/_/  \\///\\/ \/_// /://_/ /  |:| \:\\/\  /:/  /:/    
+  / /:/\  /:/\:\     \///       / /:/ \:\//| |:|\ \:\ / /:/| /:/      
+  \/_/  \/_/\/_/                \/_/ \/_/  |/_/  \/_/ \/_/ \/_/        
+                                                      ____________         
+                                (`-..________....---''  ____..._.-`       
+   Founded by Crypticant         \\`._______.._,.---'''     ,'            
+  based on the world created      ; )`.      __..-'`-.      /              
+         by Morgorin             / /     _.-' _,.;;._ `-._,'               
+            ------              / /   ,-' _.-'  //   ``--._``._           
+             MMII             ,','_.-' ,-' _.- (( =-    -. `-._`-._____   
+                            ,;.''__..-'   _..--.\\.--'````--.._``-.`-._`.  
+             _          |\,' .-''        ```-'`---'`-...__,._  ``-.`-.`-.`.
+  _     _.-,'(__)\__)\-'' `     ___  .          `     \      `--._         
+,',)---' /<>)        `     `      ``-.   `     /     /     `     `-.      
+\_____--.  '`  `               __..-.  \     . (   < _...-----..._   `.   
+ \_,--..__. \\ .-`.\----'';``,..-.__ \  \      ,`_. `.,-'`--'`---''`.  )   
+           `.\`.\  `_.-..' ,'   _,-..'  /..,-''(, ,' ; ( _______`___..'__  
+                   ((,(,__(    ((,(,__,'  ``'-- `'`.(\  `.,..______   -```
+                                           --------..._``--.__             
+                                                                           
+                                 The Age of Mirlan                         
+                                                                           
+                  Original DikuMUD by Hans Staerfeldt, Katja Nyboe,       
+                  Tom Madsen, Michael Seifert, and Sebastian Hammer       
+                      MERC 2.1 code by Hatchet, Furey, and Kahn            
+             ROM Version 2.4 beta 4a copyright (c) 1993-1996 Russ Taylor  
+             ROM OLC 1.71 by Jason Dinkel, Hans Birkeland, Ivan Toledo    
+
+By what name shall you be hailed? ~
+ 
+-1 MOTD~ 
+
+3/19/03 - Welcome to the Age of Mirlan v1.0 Beta. We are currently up and
+          running solely for test purposes. If you would like to volunteer
+          to help test Age of Mirlan and have experience as a muddder,
+          builder, or coder, please contact Crypticant online, or at
+          Usualdosage@hotmail.com.
+
+3/17/03 - Recent changes completed: 
+
+	  * Nanny function should now properly set alignment based on 
+            race and choice, as well as handle the appropriate rolling/
+            allocation functions. Please test these thoroughly and 
+            inform me if you see anything wierd.
+
+          * The four holding classes for startup are Commoner, Adventurer,
+            Merchant, and Noble. I need you guys to be sure the transition
+            from base classes to PK classes goes smooth. The basic skills
+            for each class should be about done.
+
+3/11/03 - I need brief helps written for all races and classes. The should
+          bet 2-3 paragraphs long, and fairly detailed.
+
+~ 
+ 
+51 IMOTD~
+
+Welcome Immortal!
+
+* The code is running smoothly with 0 warnings and 0 errors!
+
+* SO get to building! We need to get this puppy running!
+
+[Hit Return to continue]
+~
+
+51 JOBS~
+This is a partial list of what a god of any given level should be doing. 
+It is not complete yet.
+
+Angels:(52-54)
+Angels and higher level gods may not assist mortals directly in any way.  
+An Angel's main job is to help with quests (via switch), or possibly run
+small quest of their own -- but the rewards should be minimal.
+
+Deities:(55-56)
+Deities have two main roles: reimbursement and quest running.  Be 
+skeptical on reimburses, don't just hand out every piece of gear.  We
+suggest limiting reimbursements to 10 items at a time, and make sure that 
+you do not load things at too high a level (new format items have 
+hard-coded levels, so are not a problem).  vnum and stat are useful for 
+this.  You can draft Angels to help you run a quest, and please note that 
+quests should NOT have huge rewards -- the main point should be to have 
+fun.  Deities have no business trying to enforce rules -- the most you 
+should do to a player is a NOCHANNEL or similar light punishment.
+
+Gods:(57-59)
+Gods can run quests just like Deities, and it's nice to do reimbursements 
+too.  However, the main role of a God is keeping the peace.  Gods can 
+enforce (but not create rules), using the various NOTELL-class commands, 
+as well as deny, purge, freeze, and ban (but be careful with these 
+commands!)  Gods are expected to help make the mud run more smoothly, 
+power trips are strictly verbotten.
+
+Not fufilling the roles of your office can result in demotion or 
+deletion.
+~
+
+51 HERO 'LEVEL 51' HEROS~
+Welcome Immortal and congratulations on reaching the apex of power in
+Mirlan.  Your ability to role-play and your proven track record as a
+mortal has taken you where few will reach.  
+
+Once again, you are starting over and at the bottom of the pecking order.
+You were once a mighty mortal that ruled the realms, but now you are the
+lowest immortal amoung the heavens.  This last point is something you need
+to realize if you want your stay as an immortal to be enjoyable.  
+
+Hero's main responsibilties:
+Get to 52 and become an avatar by doing the following:
+- Write an area.  Submit your idea for an area, get it approved and start
+  working on the area.  Make sure you only use OLC on the test mud.  Do
+  NOT use OLC on the main MUD.
+
+- Help out newbies.  Try to answer their questions to the best of your
+  ability.  Do not answer questions that newbies can find out themselves.
+  i.e. What is the stat of this eq, where is Emerald Forest.  Try to be
+  IC at all times with mortals if possible.    
+
+- Do whatever is asked of you.
+~
+
+51 AVATAR AVATARS 'LEVEL 52'~
+With greater powers come greater responsibilities.  Avatars assume all the
+responsibilities of a Hero in addition to:
+
+- Help out newbies and with administration.
+- Watch and guide any new Heros.  Help them with OLC and show them the
+  ropes.
+- Assist higher Gods with quest or projects.
+
+~
+
+
+51 COMMANDMENTS 'GOD RULES' GODS~
+.
+                       *************************
+                       ** The Rules of Mirlan **
+                       *************************
+ 
+1)  Do not kill mortals, do not kill mortals, do not kill mortals.
+    This includes transferring/summoning them to aggressive mobs.
+ 
+2)  Do not cheat for ANY mortal in ANY way, especially your own. 
+    Unless of course you LIKE deletion. Yes this includes tanking,
+    healing/restoring, casting protection spells <armor, sanct>,    
+    and softening up or altering mobs.
+ 
+3)  Do not transfer or summon mobs to mortals or mortals to mobs.
+    They have legs, if they want to kill a mob, they can easilly
+    go there themselves.
+ 
+4)  DO NOT kill the shopkeepers for any reason at ALL.
+ 
+5)  DO NOT use reboot.  <--- Note, simple English.
+ 
+6)  Do not give out free equipment.  You don't need to win brownie
+    points with the mortals.  Quest are fine but handing out items
+    isn't.
+ 
+7)  A note on quests: Quests are a good thing, more or less, BUT 
+    do not give out overly extravagant prizes.  Exercise some 
+    common sense here folks.  Do not load items more than 4 levels
+    below their normal level (i.e. no level 5 ogre gauntlets).
+ 
+8)  Do not undermine the authority of a higher level god.  If you 
+    see that someone has been frozen or nochannelled do not restore
+    their priveleges.  They are being punished for a reason.
+ 
+9)  Do not try to overrule each other.  
+
+10) Do not modify any aspect of the mud without permission.  This
+    includes modifying other people's area, mobs, eq and so on.    
+
+11) The rules that applied to mortals are still applied to you.  What is
+    given can be taken away.  >>>DO NOT MULTI<<< 
+
+12) Do not ask for promotions or advancements.  Just do your part and we
+    will be more than happy to reward you and give you more 
+    responsibilities and power.  
+
+~
+
+-1 RULE RULES~
+RULE RULES
+
+These are the tenative rules of Mirlan. They are enforced strictly by the
+overseers of the realms, and are here to ensure fair play.
+
+* Player stealing and player killing is encouraged here among lethal classes.
+
+* Your presence here is a privilege not a right. Obey any orders from gods, 
+  and you will be fine.  Deletion does not require a reason, appeals are to 
+  be sent to the implementors.
+ 
+* NO multiple logins, multiple playing, or multi-char'ing.  (For more 
+  information, read 'help MULTI'.)
+
+* DO NOT exploit a bug in any way, shape or form.  If you see a bug or have
+  knowledge of a bug, report it to the immortals.	 
+
+* DO NOT SPAM.  Spamming is filling up someone's screen with things.  For
+  example, send a tell, do a say or emote over and over just to annoy 
+  someone.  You will be warned once and then action will be taken after
+  that.
+
+* ADVERTISING IS NOT ALLOWED.  If it comes up in a conversation, keep it
+  short.
+
+* Useless characters will not be tolerated.  They include people who just 
+  log on to advertise other muds, yell obscenties or just hold equipment 
+  and gold.  A warning will be given, after that, the character will be
+  deleted.  
+
+* ALL forms of sexual harassment are not allowed here.  Those who harass 
+  others will be dealt with harshly.
+
+* Do not help in a pk if you are not in the pk range.  This includes no
+  healing, spelling up, giving them eq, etc. Because this is mud is a
+  limited range PK mud it detracts from the fairness of play.
+
+* These rules are simple, and clear, if you violate them, it will be  
+  considered cheating.  Cheating will not be tolerated.  If you are caught 
+  violating these rules you will be punished according, depending on the 
+  situation and previous offenses.  
+
+* The Overseers made the rules, they reserve the right to add or change
+  any of the rules as they see fit.  So when they tell you not to do something,
+  don't do it.
+
+~
+
+-1 DIKU~
+DIKU
+.                    Original game idea, concept, and design:
+
+          Katja Nyboe               [Superwoman] (katz@freja.diku.dk)
+          Tom Madsen              [Stormbringer] (noop@freja.diku.dk)
+          Hans Henrik Staerfeldt           [God] (bombman@freja.diku.dk)
+          Michael Seifert                 [Papi] (seifert@freja.diku.dk)
+          Sebastian Hammer               [Quinn] (quinn@freja.diku.dk)
+
+
+Developed at: DIKU -- The Department of Computer Science
+                      at the University of Copenhagen.
+~
+
+-1 MAP MAPS~
+MAP MAPS
+
+Thanks to Ezra for drawing the originals of several maps on ROM.
+~
+
+-1 MERC~
+MERC
+
+This mud is based on Merc 2.1, created by Furey, Hatchet, and Kahn.  
+Merc 2.1 is available as Merc_21.tar.gz from ftp.tcp.com and 
+ftp.math.okstate.edu.
+E-mail to 'majordomo@webnexus.com' to join the merc mailing list.
+
+Thanks to ...
+  ... Diku Mud for starting it all.
+  ... The Free Software Foundation and DJ Delorie for kick-ass tools.
+  ... Copper Mud and Alfa Mud for releasing their code and worlds.
+  ... Aod of Generic for ... well, everything.  You're a hoopy frood, Aod.
+  ... Alander for many ideas and contributions.
+  ... John Brothers of Silly for permission to use Silly code and worlds.
+  ... Zrin for administering the mailing list.
+  ... Abaddon for proofreading our comm.c.
+  ... Hind, Quin, Vic, Diavolo, Oleg, Trienne, and others for porting help.
+  ... Diavolo, Grodyn, Morgenes, and others for code and bug fixes.
+  ... Raff, Doctor, VampLestat, Nirrad, Tyrst, PinkF, Chris, Glop for worlds.
+  ... the players and imps of Mud Dome, Final Mud, Mud Lite, Vego Mud, Rivers
+      of Mud, Ruhr Mud, and Mystic Realms for bug reports, ideas, new code,
+      and hours of enjoyment.
+
+Also see "help ROM" for information about the Rivers of Mud code base.
+~
+
+-1 ROM~
+ROM
+
+ROM started in early February 1993, using Merc 1.0 code. In July of 1993,  
+ROM II was started, eventually replacing the original ROM.  ROM was up for
+a little over a year, after which the code (version 2.3) was released,
+and various other ROM muds were started, including Rivers of Mud under
+a new management (Zump's ROM), at rom.org 9000.
+
+Alander's current project is Athen, the sequel to the ROM code.
+It will be found at hypercube.org 6666, when it is opened.
+
+The following people contributed to the ROM flavor of the merc base code:
+
+Socials --
+    Kelsey and Liralen
+
+New, Improved Valhalla --
+    Liralen
+
+Puff's new special proc and improved poofin/poofout code --
+    Seth
+
+Maps and map shop --
+    Ezra, Regnan (Olympus)
+
+Nirvana zone --
+    Forstall (mobiles rewritten by Alander)
+
+Mob Factory --
+    Pinkfloyd (originally written for ROM, mobiles rewritten by Alander)
+
+Geographically correct Midgaard (tm) --
+    Alander
+
+Ideas and playtesting --
+    Thousands of dedicated mudders around the world
+
+Beta testing --
+    Ken Blosser, Doug Araya, and Sherene Neil all helped with bug reports
+    and suggestions, saving a lot of headaches
+
+New Thalos area was donated by Onivel of Jedi, who was also the originator
+of the ASCII flags used in the zone files
+
+ROM 2.4 was developed during my time with Moosehead mud, and the release
+shares many of the features I wrote while I was there.  Additional code
+was written by Seth Scott (enchant armor, the new poofin/poofout), and many
+contributions and ideas from the Merc list were used.  Portions of Rusty's
+code from Moosehead also remain.
+
+The new features of 2.4 were largely produced in bull sessions with
+Gabrielle Taylor and Brian Moore, without whom this release wouldn't
+have happened.  In particular, the new privacy code, furniture, and
+wiznet are largely the results of Gabrielle's ideas.
+
+Changes to the standard diku mob and object format, as well as the changes
+to Merc 2.1 source code, were done by Alander over many a late night of
+hair-pulling. Hope you enjoy it.
+
+(my apologies if anyone was forgotten in this list)
+~
+
+52 HERO 'LEVEL 51' HEROS~
+
+Welcome Immortal and congratulations on reaching the apex of power in
+Mirlan.  Your ability to role-play and your proven track record as a
+mortal has taken you where few will reach.  
+
+Once again, you are starting over and at the bottom of the pecking order.
+You were once a mighty mortal that ruled the realms, but now you are the
+lowest immortal amoung the heavens.  This last point is something you need
+to realize if you want your stay as an immortal to be enjoyable.  
+As a newly raise imm your primary concerns is to prove to us that we are 
+able to trust you.  Being in a position of power, there will be times when
+you will be tempted to misuse that power.  Thus you must have the will to 
+control your temptations and prove that you really are a step above 
+mortals.  The most common misuse of power usually stems from gaining 
+knowledge and using it to benfiet your mortal character.  This 
+could range from finding out where a particular item is, checking out 
+the competetion of your mortal character, and other indirect acts of 
+multi-ing.  Any leakage of information that is discussed in the Heavens
+will also be considered an abuse of power.  One of the other misuses of 
+power is direct multi-ing, if you have reached this rank you should have 
+a good idea what direct multi-ing is, and know that it will be dealt with 
+severely and promptly.  You have been raise from the mortal realm and our
+expection of you is also higher.  Do not test how far you can go!!  Pushing
+your luck will not be tolerated. (Remember what is give can also be taken away)
+
+Hero's main responsibilties:
+
+
+- Write an area that contains little or no eq.  Submit the theme and idea for 
+the area  which should include:  the level of mobs, estimated # of rooms, 
+and how it will fit into what we have created here.  When your idea has been 
+approved, you will be required to sumbit 11 room description along with a few
+mob descriptions at which time you will be allowed access on the test sit to 
+build your area.  The area should be completed promptly and be of high quality.
+
+- Help out newbies.  Level 51 immortals should always stay visible to mortals
+(ie do not wizi and incog).  You are not to hide yourself unless a good reason
+is at hand.  The purpose of staying visible is to help out newcommers to the 
+mud.  Try to answer their questions to the best of your ability.  Do not answer 
+questions that newbies can find out themselves.  (i.e. What is the stat of 
+this eq, where is Luvan Wood, Pyall Mountaint, et cetera).  Mostly question
+will be regarding gameplay and rules which you should answer to the extent of
+your knowledge.  If you are unsure about something ask a higher imm or write a
+note to us.  Try to stay in character as much as possible unless there is no
+other way around it, such as discussion of pfile problems.
+
+- Listen and Obey You must do what the higher imms tell you to do, unless it 
+seems extremely unreasonable.  At which point an imp will step in and decided.
+~
+
+-1 MIRLAN WORLD~
+ABOUT MIRLAN
+
+Mirlan (MEER-lahn) is the name given to the known world, a great sphere 
+some 15,300 miles in circumference.    Civilization on this globe is 
+mainly found on one great continent, Darengal, located in the northern 
+hemisphere.  Within this landmass, the majority of people there have 
+settled along its western edge and so the nations and states found there 
+are collectively known as the Western Realms.
+	Celestially, Mirlan occupies the third orbit out from its sun Ber 
+(though the belief is that the Sun circles Mirlan) and circles that body 
+every 360 days.  Mirlan itself is orbited by three satellites, the closest 
+of which is Maete (MY-tay).  Maete, called the Mother, is a white body 
+that appears to be the size of a disc of 25 mm (quarter) viewed from an 
+outstretched arm, and completes an orbit around Mirlan every 30 days: its 
+fullness marks the end of each month of the year.  The next moon is Ixtare 
+(icks-TAHR-ray), the Blood Moon.  This red body appears the size of a disc 
+20 mm (nickel) extended arms length and orbits Mirlan four times a year on 
+a 90-day cycle coinciding with the end of the seasons.  The last satellite 
+is the elusive Yulate (YOOL-luh-tay), the Secret One, which shows its pale 
+blue fullness only once on the final night of the year.  Yulate appears in 
+the night sky to be the size of a 15 mm disc held at arms length (penny).  
+The cycles of the moons determine the timing of the major festivals of the 
+Western Realms.
+	The moons of Mirlan share the night sky with six planets, each 
+thought to be sacred to a god or goddess.  They are the green Jamate the 
+Huntress, the yellow Rondate the Bard, the copper hued Markate, the fiery 
+red Warzate and larger Jumate, and the blue Saete.  These bodies wander 
+through the heavens and are much used in the science of astrology.
+~
+
+-1 BORDER MARCHES BORDERMARCHES~
+THE BORDER MARCHES
+
+Capital(s):  
+
+Lemminter
+Rocksbay
+Myrlsport
+Revelsport 
+
+
+The lands between the Lesser Raider Mountains and the Sabre River were 
+first settled by tribes of Paylens fleeing their Esterian conquerors 
+around 350 MZ.  Most of the tribes attempted to rebuild the life they had 
+known in their old lands, building villages and growing food.  However, 
+several others banded together and came to dwell within the reaches of the 
+Roenawoed Forest.  Over time they became uncivilized and reverted to a 
+primitive way of life.  Their descendants today are the barbarians known 
+as the Woedmen or Wildmen.
+	For the vast majority of the refuges life soon returned to its 
+normal pace in their new country.  But there was to be little peace for 
+the Paylens.  Sixty years after the conquest of the Paylens homeland, the 
+Kingdom of Paleganor was founded (YK 1).  Over the next hundred years 
+raids from the new kingdom increased until they became armies of conquest 
+once again.  By YK 119, history had repeated itself and once more the 
+Paylens were under a foreign yoke.
+	This time fleeing the lands was not an option.  For in the east 
+100 years earlier the Kingdom of Grayldemir had begun expansion beyond the 
+Narryl River.  By the time Paleganese troops reached the Sabre River, its 
+eastern banks were firmly settled and what had once been the Kingdom of 
+Greldymir was now the mighty Eastern Empire.  The stage was now set for 
+the First War of the Empires.
+	Over the next 600 years armies marches across the plains as the 
+Empires clashed, rested, and clashed again.  The Border Marches kept their 
+racial identity and saw both empires as invaders into their country.  
+Constant war, along with a host of other problems, had weakened both 
+powers sufficiently that in YK 720, the various lords on the area rose up 
+in rebellion.  For two years Western Imperial troops battled with the 
+rebels, who received much support from the Eastern Empire.  Finally, 
+exhausted and collapsing under its own weight, the Western Empire ceded 
+all land east of the Raider Mountains.  With this action, the empire 
+ceased to be and the remaining lands were called the Kingdom of Palinor.  
+However, freedom was gained at such a price that no rebel lord would 
+surrender his authority to another.  And so the major cities of the 
+marches became Free Cities, each alternately trading and making war 
+against the others.
+	The fledgling states gained a new enemy in YK 913 when the once 
+mighty Theocracy of Darhelm turned to evil.  Aided by both its former 
+enemies, the Border Marches funded two crusades against Darhelm.  Owing in 
+large part to ancient grudges between the three and poor organization of 
+their vastly differing army structures, both actions were a dismal 
+failure.  The only lasting effect they were to achieve was to turn the 
+once fertile lands between the Narryl and Shade Rivers into a wasteland 
+still known as the Scarred Lands.  In YK 1030 Darhelm unleashed the 
+Scarlet Horde into the Marches and great suffering and loss of life and 
+property ensued before the host finally retreated back across the Saber.  
+A second invasion, the Horde of Flames, attacked in YK 1167 and yielded 
+equally devastating results.
+	Currently, the March Lords vie against one another through various 
+means both military and economic.  Faced with constant internal strife and 
+fear of another invasion, the Marches are a chaotic and unpredictable 
+place.
+~
+
+-1 DARHELM~
+DARHELM
+
+Once Darhelm was a country of goodness and enlightenment.  For reasons 
+that still remain unclear, the country slowly slid into anarchy and 
+revolt, resulting in evil coming to power.  Now the nation is populated by 
+humanoids and evil men and seeks to dominate its neighbors to the west, 
+sending numerous raids into the Border Marches. These have increased in 
+recent years, culminating in the sack of Lemminter in YK 1171.  Palinor 
+responds in kind by sponsoring crusades against the evil denezins of 
+Darhelm, though its concerns in Fraisea prevent a full response, due to 
+the drain on its resources and worsening diplomatic ties with its crusader 
+ally, Restolynd.
+~
+
+-1 FRESIA~
+FRESIA
+
+The Fresian Peninsula has been claimed throughout the years by Palinor and 
+Restolynd as well as the halflings and gnomes that dwelled there.  After 
+having won rights to the region from Palinor, Restolynd allowed it to keep 
+its independent status and it became a city-state around YK 900.  Palinor, 
+always seeking to control the Straights of Somerden, conquered the city in 
+YK 1086.  Attempts to pacify the region have failed, resulting in numerous 
+uprisings and revolts.  The most recent began in YK 1165 and continues 
+through the present day in the countryside despite ever increasing 
+brutality amongst the Palinese.  These efforts seem certain to draw 
+Restolynd into the conflict.
+~
+
+-1 MEGIUS ISLE ISLEOFMEGIUS~
+THE ISLE OF MEGIUS
+
+	The Isle of Megius was founded in IY 43 (YK 812) by a pilgrimage 
+of expatriot mages from the Eastern Empire primarily but with members from 
+almost every other country as well.  According to legend, the shade of 
+Tormaq had appeared to them on Midsummer's Eve four years earlier and bade 
+them to establish a realm of magic-users so that they might study in peace 
+without forever being burdened by their rulers into doing affairs of the 
+state.  The band traveled the length and breadth of Darengal for four 
+years before Tormaq, seeing that they were worthy, rose a portion of the 
+sea floor in the Sea of Daegen, thus creating the Isle.
+	The history of the Isle of Megius has little to do with the 
+affairs of the other northern states.  Following a policy of isolationism 
+and neutrality, she has grown incredibly wealthy, thus assuring her 
+continued sovereignty.  Though weak in man-power, her capital city Megius 
+boasts some of the strongest defenses seen anywhere in Darengal and her 
+militia has the support of numerous magics, both spells and items.  During 
+the First and Second Crusades against Darhelm, Megius was used as a 
+staging area for incoming Palinese and Restolyndian troops.  The last 
+significant attack on Magius was in IY 261 when the Scarlet Horde invaded 
+the Border Marches.  Taking to their fleet, the Darhelmish Navy attempted 
+to seize Megius and thus block the Marcher Straits to enemy shipping.  The 
+attack was two-prong, the first a naval landing in the Bay of Megius, the 
+second an overland assault from the hinterlands northeast of the city.  
+The naval assault was fairly successful, landing a number of troops in the 
+un-walled portion of the city.  Their success was achieved only by the 
+skill of their marines, who scaled the 300-foot cliffs that guard the 
+mouth of the bay and destroyed the watchers and defenses there before the 
+alarm could be sounded.  The second attack was annihilated before they 
+ever drew near the city, powerful magics and strange and hideous creatures 
+rending the army and sending them scurrying back to their ships before 
+they ever caught sight of the spires of Megius.  A concerted attack was 
+mounted by the remaining force, simultaneous attacking the Harbor Gate, 
+Lower Wharf Gate, and the south wall west of Fire Keep.  The main thrust 
+was at the Harbor Gate and there the attack was most successful; the ships 
+ferrying troops to the piers of the Lower Wharf were sunk by spells and 
+missiles hurled from the battlements of Dragon Castle and three charges 
+were made at the south wall before the morale of the soldiers there broke 
+and they routed.  However, the Harbor Gate suffered badly, as did both the 
+attackers and defenders there, for so much energy was used in the attack 
+the very rock caught fire.  The remaining Darhelmish forces fled soon 
+thereafter, leaving the northern portion of the Foreign Quarter and the 
+entire un-walled areas of the city in flame.
+~
+
+-1 ASTRELAS~
+ASTRELAS
+
+	 Situated between the expansive northern realms and the secretive 
+southern ones, Astrelas is a by-product of both.  The lands that comprise 
+Astrelas have been ignored by its neighbors for centuries.  During those 
+years the region was populated by nomads in the southern reaches who 
+traded gold and gems gathered from the Silbern Hills to the northerners.  
+Gradually the north became populated with trading stations that rapidly 
+grew into cities and towns.  Numerous tiny states emerged and rapidly 
+devoured each other as gradually the state that would become Astrelas 
+coalesced.  By 2995 (SY) the nation state was recognizable as modern day 
+Astrelas.
+	Astrelas has generally had good relations with its neighbors, 
+despite Restolynds claim to the Waterford Marches, which has sparked 
+numerous small conflicts.  The greatest danger to Astrelas comes from 
+within, in the form of the age-old differences between north and south.  
+Rebellion is an ever-present danger and animosities are increasing as 
+trade brings more wealth into the north.
+~
+
+-1 RESTOLYND~
+RESTOLYND
+
+	The formal history of Restolynd begins with its recognition as a 
+soveriegn state in YK 461.  It was in this year that a Eastern Empire 
+force, while skirmishing against the plains barbarians, attempted a forced 
+resupply at the hands of the Restolysh.  Thwarted, the commander turned 
+his troops against them, fording the Amarill River just west of the Sunken 
+Lands and instigated the Battle of the Gyreen River.  The crossing was a 
+complete failure; the water was wide and mucky, and the bogged-down troops 
+were easy targets for the skilled Restolysh crossbowmen.  Cavalry forded 
+easier and tried to clear the missiliers but heavy cavalry intercepted and 
+crushed the lighter, less armored Eastern horses.  Beaten, the commander 
+returned to Brightmoor, only to suffer the wrath of the Emperor, both from 
+the loss of his army and the gain of a new enemy.  Gifts and tributes were 
+sent to Restolynd, along with the general's head, and an alliance was 
+quickly sealed, for the Restolysh had no desire for a protracted war with 
+the greater power.
+	Though the route between the two nations was arduous and long, 
+still Restolynd and the Eastern Empire grew closer, both through trade and 
+political alliances.  When the Eastern Empire took the field against 
+Palinor again in YK 548, the backbone of its cavalry was Restolysh heavy 
+horse.  At the end of the hostilites, Restolynd had gained lands north of 
+the Moichen Hills, wealth, and the everlasting emnity of Palinor, for the 
+might of the Restolysh knights prevented a Palinese victory, as happened 
+in the first war.
+	Throughout the rest of the Age of Kings, Restolynd followed 
+Imperial policy and foreign relations, but by the 10th century YK, she had 
+begun her own path.  Trade and alliances flourished, both with the 
+demi-human kingdoms in the realm as well as the newly emerging states to 
+the south.  By YK 999, friendship with Palinor was sufficient to allow 
+both nations to send soldiers to fight the First Crusade against Darhelm.  
+Problems and old hatreds re-arose, however, leading to the ineffieciency 
+and subsequent defeat of both Crusades.
+	During the 900's, Restolynd followed a generous policy of aid and 
+kindness to its non-human neighbors.  Thus, Fraiscea was born, the lands 
+around the city given back to its former halfling tenants for use and 
+maintenance of the sea-port.  Soon, even this was changed, giving Fraiscea 
+city-state status in return for nearly exclusive trading and harbor rights 
+for Restolynd and her allies.  This put a strain on the old port of 
+prominence, Somerden.  This, coupled with the thought of a Restolysh navy 
+in the Sea of Palinor and loss of commerce stemming from the growing 
+Eastern Imperial trade routes to the Southern Kingdoms (which were being 
+rerouted to Fraiscea), was too much.  Palinor attacked the city in YK 
+1086, prompting the War of the Kings.  Even with years of civil war and 
+plague, the Palinese still managed to hold Fraiscea against the Restolysh, 
+though the could not penetrate far into her realm, being stopped time and 
+again in the Moichen Highlands.  Restolynd, crippled by lack of ships and 
+no way of entering the Sea of Palinor, could not launch a decent attack on 
+the mainland, having to attack the sparsely-settled southern coast.  Open 
+hostilities ended around YK 1150, though it is no secret both countries 
+are simply waiting for an advantage to reassume the fighting.
+~
+
+-1 PUNT 'PUNT EMIRATE` 'THE EMIRATE OF PUNT`~
+THE EMIRATE OF PUNT
+
+	The area along the mighty El Sehha river was first settled by 
+waves of Zambuli tribesmen emigrating from the southern jungles about 2 
+millennia ago.  After a period of organization and conquest, the First 
+Kingdom came into being in the Southern Year 1450.  Isolationists by 
+nature, the Zambulis did little to encourage trade with the neighboring 
+tribesmen, the Wungari.  Instead they turned their attention to building 
+great cities and monuments and many towns and shrines flourished along the 
+river bank for the next 350 years.
+	The first raid by the migrating Estarians was recorded in SY 1729.  
+From their island bases they raided up the El Sehha year after year, 
+plundering and looting the holy shrines and carrying off vast amounts of 
+gold reliquary.  Despite their attempts, the Zambuli were not nearly 
+skilled enough to fight the Estarians on the water.  The wars ceased after 
+a while, but for nearly three hundred years, the raids continued, 
+interspersed with bouts of trading and the establishment of Estarian towns 
+along the Teznadi Sea.
+	By 2013 SY, the Estarians were more or less a civilized nation but 
+loosely organized along tribal lines.  With the lessening of their warlike 
+barbarism, they lost the indelible edge which had kept the more powerful 
+nation of the Zambuli at bay for over three centuries.  Their armies 
+marched along the coast towards the cities of the Estarians and by 2015 
+SY, they were firmly in the hands of the Zambuli.  Only the small town of 
+Corsair, on the marshy islands to the north, was left unconquered, it 
+being of no importance to the Zambuli.
+	Having acquired an empire de facto the Zambuli set about running 
+it.  Caravans soon began crossing the Great Wastes of Thule to the east, 
+carrying gold and copper to their cousins in Zalango.  The native 
+plainsmen the Wungari found opportunity in both guarding and raiding the 
+caravans.  Slowly but inevitably, the Wungari dwelling along the western 
+edge of the Wastes were absorbed into the kingdom.
+	Ruling this rapidly homogenizing empire were the original leaders 
+of the Great Migration, a rigid caste of pure-blooded Zambuli.  The influx 
+of many gods and cultures strained the archaic ones in place in the 
+kingdom for nearly a millennia.  Although many minor revolts erupted 
+between the years 2359-2373 SY, it was in 2373 SY that the first 
+successful uprising took place, led by the Prophet of the Sun Muaj ibn 
+Saeid.  The demonic idols were toppled, the priests slaughtered in their 
+temples, which were torn down around them.  Most of the pure-blooded 
+Zambuli were caught and slain, only a few escaping the carnage to flee to 
+Zalango and Jambool to the west.
+	Thus in 2274 SY, the Emirate of Punt was formed with ibn Saeid on 
+the ancient throne.  The next 50 years or so were spent consolidating and 
+repairing the damage of the civil war.  Trade resumed and, despite the 
+occasional raid by the Wungari, the nation flourished.  In 2879 SY, 
+however, the peace was shattered when the death of the Emir left two 
+candidates for the Sun Throne.  The nation was thrown into another civil 
+war and, using this as an excuse, the Teznadi states rebelled as well, 
+setting up their Caliphs as rulers and declaring independence from Punt.  
+Simultaneously, three great raids by the Wungari devastated the southern 
+reaches of the emirate, adding to the chaos.  A period of anarchy followed 
+as here, too, the Age of Darkness came upon men.
+	The last hundred years have been spent in isolation.  Few 
+foreigners are welcome in Punt, though several nations have trading houses 
+in Nabuma, Punt's only port city.  Rumors of treason and rebel are rife 
+within the country and civil war looms again as Wungari and Zambuli 
+fanatics both scheme for power.
+~
+
+-1 RIVERS RIVER~
+RIVERS RIVER
+
+Rivers
+	Blackwater River
+	Blood River
+	Chill River
+	Dark River
+	Deleraj Stream
+	Ellyff River
+	Greater Caerwyn River
+	Gyreen River
+	Lesser Caerwyn River
+	Luva, River
+	Najish River
+	Narryl River
+	Patamba River
+	Saber River
+	Seha River
+
+~
+
+-1 WATER BODIES BAY OCEAN SEA~
+NOTABLE BODIES OF WATER
+
+Astrelas, Bay of:  A broad shallow bay notorious for its mist and storms.  
+These are caused by warm air from the southwest winds colliding with the 
+cold Viyyk current.  This bay is a favorite spot for pirates and other 
+creatures that prey upon shipping.
+
+	Bymal Lake
+	Caerwyn, Lake
+	Croizan Sea
+	Daegen, Sea of
+	Night, Lake of 
+	Palinor, Sea of
+	Smaraged, Lake
+	Southern Sea
+	Teznadi Bay
+	Venpal Ocean
+~
+
+-1 FORESTS TIMBERLANDS~
+NOTABLE TIMBERLANDS
+
+Darkling Wood:  This pine forest, comprised mostly of black pines, sits in 
+a bowl of the Lesser Raider Mountains.  A thick and dismal growth, the 
+light of the sun never penetrates far into the forest, even at noon.  The 
+forest is claimed by five clans of sylvan elves (the Blacktree clans) and 
+death is the penalty for entering their forest unbidden.  Owing to the 
+elves few numbers and the gloom of the place, it is a breeding ground for 
+many fierce monsters and humanoids, most notably goblins.
+
+	Ellyfane Forest, The
+	Fenwood Forest
+	Frostwood Forest
+	Glaemarg Forest
+	Green Hearth Forest
+	Heldamar Forest
+	Luvan Wood
+	Navell Forest
+	Rethawetar Jungle
+
+Luvan Wood:  This expansive forest lay north of the city of Luva.  A light
+wooded forest with tall pines and thick oaks.  A haven for bandits and elven
+folk.  Mysterious and ancient there are elder denizens that inhabit and protect
+this ancient land.
+
+Roenawoed Forest:  This large hardwood of gums and beeches is largely 
+untouched by foresters, save the indigenous barbarian men, the Woedmen.  
+Bands of unorganized hobgoblins and goblins dwell within the wilder 
+northern confines of the forest.
+
+	Shadowfir Forest
+
+Tsembe Jungle:  This small rainforest is marked in its center by a ridge 
+of volcanos.  Lush and verdant, the Tsembe is home to many creatures that 
+raid into the civilized lands beyond its boundaries.  Primitive natives 
+descended from the ancient Tzabuli people live within the jungle and have 
+proven fierce foes to anyone seeking the ruins of the cities their 
+ancestors once dwelled in.
+
+
+	Tzoltican Jungle
+	Yarlwood Forest
+~
+
+-1 WASTELANDS DESERTS~
+WASTELANDS
+
+	Dal Teznad Desert
+	Great Wastes of Thule
+	Lost Desert, The
+	Plains of the Wungari
+	Scarred Lands, The
+	Shining Sands, The
+~
+
+-1 VENPAL PENAL COLONY~
+VENPAL PENAL COLONY
+    
+    The Venpal Penal colony is where the large majority of outlaws get sent to
+by the law for breaking the laws of Mirlan.  Sentencing, Executions and Serving
+Time are all carried out here in this maximum security prison.  If you wind up
+here there is a good chance you will not get out.... Alive.... 
+
+~
+
+51 GUILD GUARD~
+GUILD GUARD MOB PROGRAMMING
+
+  Several mobprograms have been created to help facilitate the way guild guards
+act and behave.  The first one is the prog1 slot which will be the name of the
+guild being set up i.e. if you are setting up the rangers guild in a city then
+you would use this syntax while in medit:
+
+prog1 ranger.prg
+
+All of the classes have a mobprogram created for them, adventurer.prg, commoner.prg,
+sorcerer.prg, et cetera.  The only one that is different is the thaumaturgist guild.
+Too many letters so it was changed to be thaumat.prg.
+
+Secondly, the bloody program needs to be in prog2 slot.  This disallows characters
+that are too bloody to enter a guild.  They must wait a little while before entering
+a guild if they are too bloody (recently have been in a fight).
+
+SEE ALSO: 
+MOBPROG PROG MOBPROGS PROGRAMS MOB  
+
+PLEASE DO NOT CREATE NEW MOB PROGRAMS NAMED AFTER CLASSES!
+
+~
+
+
+-1 EMMEREAUX~
+EMMEREAUX
+
+Emmereaux is the crown jewel of the Palinese Empire. While not 
+the largest city in the western world with regard to population, 
+it is certainly the most magnificent. It lies on the eastern
+border of expansive Palinor, in perfect location for trade from
+the Border Marches to the north, and Restolynd to the south.
+It butts up against the Sea of Palinor, and has chilly to
+temperate climates year round. The city tends towards cold winters 
+and dry, with winds sheering off the Raider Mountains while the 
+southern agriculture land tends to be wetter.  Strong cool winds 
+blow from the southwest throughout most of the year due to the 
+Viyyk current just off the western shore and bring much precip-
+itation to the coastal plains.
+
+Economy:
+
+Emmereaux is the breadbasket of the northern realms, exporting much 
+grain and other foodstuffs.  Timber is harvested only from the 
+Yarlwood; the demi-human denezins of the other forests forbid lumber-
+ing and the Darkling Wood is closed to all humans. Great amounts of 
+copper are mined from the headwaters of the Blood River and the 
+dwarves of the Raider Mountains engage with their neighbors in a 
+brisk gold trade, which is sold to poorer areas such as Restolynd 
+and Astrelas.
+
+Government:
+
+Emmereaux houses the palace of the King, who serves a supreme
+ruler over the lands and holdings. He is served, in turn, by a
+detailed network of Dukes, Barons, Earls, and Marquises. He holds
+sway over the Council, consisting of most of the lesser nobles,
+and Viziers of the local temples, and a single member of each of
+the Knightly Orders.
+
+Architecture:
+
+Emmereaux consists mostly of stonewalled dwellings, and is a victim
+of urban sprawl, consistently growing upward instead of outward. The
+city itself is filled with towering bastions and edifices, and is
+well fortified and defended by thick, stone walls, and a natural
+moat, the Serpentine River. Emmereaux is in an extremely defensive,
+and easily defendable geographical location.
+
+~
+
+-1 LUVA~
+LUVA
+
+The City of Luva, aptly named for its location just on the outskirts
+of the Luvan Wood, was created primarily as home for many elven and
+half-elf people. Its relative proximity to the Pyall and Godswall
+Mountain ranges make it a distinctly chilly environment, with four
+definitive seasons, and a marked winter. Situated in the lowland
+foothills, Luva is one of the furthest east settlements in the land.
+It is nestled at the conjoinment of several rivers, giving it fertile
+farmlands. The nearby marshes provide excellent growing conditions
+for rice and tea, Luva's primary exports. While a good source of timber
+is nearby in the Luvan Wood, the reigning elf monarchy in power in
+Luva has long since declared the Wood to be sacred ground. Luva has
+significant strategic locations as a crossroads between the kingdoms
+to the north and south, and as such, many items of interesting and
+often questionable background can usually be found being smuggled
+through Luva.
+
+Economy:
+
+Luva owes much of its financial boon to land lending to the dwarves
+in exchange for premium price on stone and precious metals and gems
+dug from the surrounding mountains. Its wealth is considerable due
+in no small part to its role as a gateway between traderoutes in
+the south channeling exotic goods into Astrelas and the Eastern
+Empire.
+
+Government:
+
+While Luva maintains its independence as a city-state, it owes much
+of its land holdings to Astrelas, and often times, the reigning emperor
+and empress of Luva are considered little more than puppets to the
+dominance of the Astrelans. 
+
+Architecture:
+
+As Luva was originally crafted by elves, much of their buildings,
+while typically not of great height, are ornately decorated with
+carvings and inset with intriguing art pieces. Most of the commoner
+housing consists of board houses with thatched rooves, as well as
+numerous sod dwellings. The nobility typically tend to live within
+the confines of the city.
+~
+
+
+-1 PALINOR~
+PALINOR
+
+Capital: Emmereaux
+
+Overview:
+
+Palinor is divided into two distinct geographical regions.  The 
+lands north of the Serpentine are hilly and wooded, poor for 
+agriculture but rich in timber and animal resources.  South of 
+the Serpentine, the land is flat and rich, prime for agriculture, 
+and the vast majority of Palinese dwell there.  The north tends 
+towards cold winters and dry, with winds sheering off the Raider 
+Mountains while the south tends to be wetter.  Strong cool winds 
+blow from the southwest throughout most of the year due to the 
+Viyyk current just off the western shore and bring much precip-
+itation to the coastal plains.
+
+Religion:
+
+No one deity holds more sway over any other in Palinor; all receive 
+equal accord.  Although temples to the Dark Deities abound, no such 
+structures are allowed with regards to demons and their ilk.  The 
+Order of the Griffon and Sword keep the faith of Tiradel and while 
+their numbers are few, are frequency encountered as pilgrims and 
+travellers.  In the north, the Old Religion keeps many adherents.
+
+Architecture:
+
+The typical dwelling in the country is a house made of a wood frame, 
+wattle-and-daub walls, with a thatched roof.  The floor is of hard-
+packed earth and usually strewn with rushes or straw.  In the city, 
+houses of are wood or rarely, stone, and of three stories in height.
+Nobles are housed in castles or towers situated to defend their hold-
+ings; few have unfortified dwellings.  Cities are walled and cramped, 
+growing up instead of out, and crisscrossed with dirt roads that turn 
+to mud in the winter rains.  Fire is a constant danger as precious 
+few of the structures are of stone.
+
+Military:
+
+The army is formed around heavy cavalry, provided from the various 
+orders of knighthood and noblemen and their retainers.  Lesser cavalry 
+is of trained soldiers and mercenaries, but the heavy is reserved for 
+those adhering to chivalry alone.  Supplementing this powerful force are 
+footmen, mostly pole-arms and longbows.  Each knight and nobleman owes 
+40 days of service to the king and this can be forcibly extended, if need 
+be. Navywise, the Palinese maintain few ships and fewer mariners of skill, 
+though more than any other nation bordering their waters with the obvious 
+exception of the Eastern Empire.  Ships are either cog-types or warships 
+of similar construction, all square-rigged and uncomfortable in the open 
+sea.
+~
+
+
+-1 'LESSER RAIDER MOUNTAINS' 'LESSER RAIDER'~
+LESSER RAIDER MOUNTAINS
+
+Part of the same chain of mountains as the Greater Raiders, 
+these peaks are not quite as high or daunting.  Numerous alpine 
+lakes dot its upper valleys, the largest being the Lake of Night
+As with its sister range, there are many rich deposits of gems 
+and gold in these mountains, making them a veritable playground
+of mining activity.
+~
+
+
+-1 'THE GREATER RAIDER MOUNTAINS' 'GREATER RAIDER MOUNTAINS'~
+GREATER RAIDER MOUNTAINS
+
+These sharp peaks form the northern border of Palinor as well 
+as the Western Realms.  Ages ago the dwarven kingdom of Muzara 
+lay somewhere within its range though the location has been 
+forgotten by men.  Muzara grew wealthy on the large deposits of 
+gold and gemstones they found under the mountains and numerous 
+dwarven clans still work mines here today.  The Greater Raiders 
+stretch on to the north for hundreds of miles and link up with 
+the Lesser Raiders, fencing a great bay that is the home of the 
+Esterians. 
+~
+
+ 
+-1 'THE SERPENTINE' 'THE SERPENTINE RIVER'~
+THE SERPENTINE RIVER SERPENTINE RIVER
+
+This river is the second longest river in the Western Realms.  
+It runs through the heart of Palinor and most of that nation's 
+people dwell within its valley.  Broad and calm, the river sees
+much mercantile traffic in the form of animal drawn barges. The
+delta ends at the city of Emmereaux, where the waters of the
+Serpentine spill into the Sea of Palinor.
+~
+
+
+-1 'DARKLING WOOD' 'THE DARKLING WOOD' 'DARKLING'~
+THE DARKLING WOOD DARKLING WOOD DARKLING
+
+This pine forest, comprised mostly of black pines, sits in a 
+bowl of the Lesser Raider Mountains.  A thick and dismal growth, 
+the light of the sun never penetrates far into the forest, even 
+at noon.  The forest is claimed by five clans of sylvan elves 
+(the Blacktree clans) and death is the penalty for entering their 
+forest unbidden.  Owing to the elves' few numbers and the gloom 
+of the place, it is a breeding ground for many fierce monsters 
+and humanoids, most notably goblins.
+~
+
+-1 CALENDAR MONTH WEEK YEAR DAYS DAY SEASON SEASONS~
+CALENDAR MONTH WEEK YEAR DAY DAYS SEASON SEASONS
+
+Days and Months of the Year
+
+The standard week, in use in most of the civilized nations of the
+Western Realms, is comprised of six days.
+
+In order, they are:
+
+Airday     --- Work
+Fireday    --- Work
+Godsday    --- Worship
+Waterday   --- Work
+Earthday   --- Work
+Sixthday   --- Rest and Worship
+
+The year is made up of 12 months, each being 30 days in length.
+
+Starting with the first month, they are:
+
+Month		Season
+
+Jaminatine	Spring
+Lojanitine	Spring
+Amathetine	Spring
+Wynnatine       Low Summer
+Rhumatine       Summer
+Beronitine      High Summer
+Arondatine      Autumn
+Hametine        Autumn
+Shalmatine      Autumn
+Lanatine        Winter
+Sythetine       Winter
+Rasazratine     Winter
+~
+
+-1 QREF QUICKREF~
+QREF QUCICKREF
+
+SEE ALSO:
+DEITIES
+
+                      QUICK REFERENCE
+
+              AL    Spheres of Control               Colors        Symbol          
+PRIMAL ONES:
+Noirlz        L     Order,Structure,Form             White         Triangle on black field           
+Krasq         C     Chaos,Destruction,Ruin           Black         Sold black circle             
+Gaemina       N     Nature,Life,Being                Green         Great tree
+
+GREATER DEITIES:
+Amathe        NG    Love,Hearth,Healing (Halflings)  Red/Brown     Hearth and fire             
+Beronor       NG    Sun,Sky,Weal                     White/Gold    Sunburst
+Ejamina       N     Forests,Hunting,Animals          Green/Silver  Drawn bow    
+Felana        CG    Air,Clouds,Wind                  White/Blue    Silver cloud against blue         
+Ixtaros       CE    War,Slaughter,Vengeance          Red/Bronze    Crossed spears       
+Lojani        N     Water,Rain,Rivers                Blue/Green    Waterfall    
+Markul        LN    Time,Truth,Justice               Purple/Copper Scales/ hourglass    
+Morgorin      NE    Death,Underworld,Woe             Black/Grey    Deaths head (skull)      
+Pajumet       CN    Luck,Fate,Misfortune             Red/Silver    Dice and cup         
+Sahaeyeh      LN    Earth,Craftsmen,Smithin(Dwarves) Brown/Gold    Hammer/anvil in triangle      
+Tzaelcos      CE    Fire,Destruction,Malice          Red/Yellow    Fireball in triangle                
+Veshalma      CN    Oceans,Storms,Weather            Blue/Black    Storm cloud & wave             
+Wuzamuli      NE    Disease,Pestilence,Famine        Black/Green   Rat       
+Wyihemi       NG    Fertility,Birth,Harvest          Green/Brown   Sheaf of grain     
+
+LESSER DEITIES:
+Arondos       CG    Arts,Music,Poetry (Elves)        Yellow/Green  Harp or lyre   
+Bracc         LE    Winter,Ice                       Blue/Silver   Snowflake                    
+Dabyula       LN    Magic,Dreams,Foresight           Red/Purple    Hexagram       
+Dormicc       CG    Travels,Adventures ,Quests       Brown/Blue    Staff or boots         
+Hoiwinas      CN    Wine,Revelry,Lust                Purple/Silver Grape vine
+Imaju         CE    Jealousy,Lies,Deception          Green/White   Adders head      
+Jolma         LE    Pain,Suffering,Torture           Grey/Purple   Coiled whip                          
+Madshem       NG    Merriment,Friendship,Ale(Gnomes) Yellow/Purple Two tankards     
+Moiwen        LG    Spring, Peace                    White/Brown   Laurel wreath       
+Rasazra       LG    Purity,Virtue,Sacrifice          White/Silver  Lock and chain                    
+Rhuma         N     Trade,Wealth,Merchants           Gold/Grey     Gold wheel or coin               
+Syithe        NE    Night,Shadows,Secrets            Black/Purple  Eye open or closed       
+Tiradel       LG    Knighthood,Chivalry,Honor        Blue/Gold     Sword          
+Ulwarzi       LE    Plots,Assasination,Treachery     Red/Grey      Scroll and knife                
+Zarkirond     NE    Greed,Avarice,Thieves            Black/Gold    Gloved hand & coin
+~
+
+
+-1 FESTIVALS FESTIVAL HOLIDAYS HOLYDAYS HOLIDAY HOLYDAYS CELEBRATIONS CELEBRATION~
+   FESTIVALS FESTIVAL HOLIDAYS HOLYDAYS HOLIDAY HOLIDAYS CELEBRATIONS CELEBRATION
+
+
+SEE ALSO: DEITIES QREF QUICKREF
+
+MAJOR FESTIVALS AND HOLIDAYS OF MIRLAN
+
+The Western Realms have a plethora of holidays, most of them based on moon phases
+and the seasons.  The major festivals are celebrated, at least in some degree, by
+every civilized nation known as well as by numerous demi-human and primitive communities.
+A list of the major festivals and their dates is shown below, listed chronologically.
+
+New Year's Day                      Jaminatine 1
+Spring Equinox                      Jaminatine 20
+First Night of Goodwill             Lojanitine 15
+First Night of the Three Lamps      Amathetine 30
+Summer Solstice                     Wynnatine 20
+Midsummer's Eve                     Wynnatine 30
+Midsummer's Day                     Rhumatine 1
+First Night of the One Lamp         Rhumatine 15
+Night of Sorrow                     Beronitine 30
+Autumnal Equinox                    Arondatine 20
+Second Night of the One Lamp        Hametine 15
+Second Night of the Three Lamps     Shalmatine 30
+Winter Solstice                     Lanatine 20
+Second Night of Goodwill            Sythetine 15
+Festival of Lights                  Rasazratine 30
+
+Description of Events
+
+  New Year's Day.  This festival, coming on the morning after the Festival of Lights,
+is a peaceful and introspective one.  Celebrations begin soon after dawn and last until
+nightfall.  Prayers are offered to many deities, notably Wyhame and Dormicc, for a good
+year to come.  Most shops are closed for the day but inns and taverns remain open and are
+usually filled with patrons.  Small tokens of affection are given to close friends.
+
+  Spring Equinox.  Celebrated mostly in rural areas, the spring equinox is sacred to Gaemena,
+Ejamena, Wyhame, and Lojani.  It is held as a time of growth, prosperity, and abundance.
+Religious observations differ according to region and the deities being worshipped.
+
+  Night of Goodwill.  The Nights of Goodwill occur when Aeete is three-quarters full.  On this
+nights, friends and comrades gather about to drink, eat, and remember old times.  Gifts are
+bestowed between good friends and families.  The night is holy to Amathe, Arondos, and Moiwen. 
+
+  Night of the Three Lamps.  The two Three Lamp festivals occur on the second brightest nights of
+the year.mmOn these two evenings, both Haeya, the pale moon also called "the Mother" and Ixtare,
+the red moon known as "the Blood Moon," are full.  Adding further to the lunar illumination is
+Aeete, which is also referred to as "the Hidden One," which is at its half waning stage for the
+first festival and its half waxing stage for the second.  This festival is the rowdiest and most
+boisterous one celebrated in the world.  For various reasons, it is a religious day of significance
+to Ixtaros, Arondos, Madshem, Rhuma, and Hoiwynnas.  The celebrations begin at dusk and last deep into
+the night, often until dawn in most urban areas.  Feasting and drinking occur with great gustom, along
+with other vices such as gambling, seduction, and contests and bets of all manners.  Most rulers give
+some gifts to their subjects, such as food, a few coins, or pardons for offenses.  Most rulers also
+sumbit to "Fool's Folly," the ancient tradition of appearing in public at midnight and enduring all
+manner of insults throughout the next hour. 
+
+  Summer Solstice.  Like the other solstices and equinoxes, the Summer Solstice is celebrated
+primarily in rural communities.  This day is holy to Gaemena, Ejamena, Lojani, Wyhame, and Beronor. 
+During this festival, the joy of life and thanks for prosperity are given to Nature and the other
+deities.  Again, specific rituals vary with the regions and faiths followed. 
+
+  Midsummer's Fest (Eve and Day).  Rather akin to the Summer Solstice in spirit, these two days
+are celebrated by most everyone, urban and rural alike.  It is a holy event for Arondos and Dabuyla;
+magic is at its highest potency on this night.  Celebrations are usually in the open air and take the
+form of dances, balls, and gaity.  The next day, Midsummer's Day, is a time of picnics, romance, and love.
+The day is holy to Amathe.  Traditionally, arranged marriages are made on this day, and in rural communties,
+women are given total control and no one may refuse their wishes.
+
+  Nights of the One Lamp.  The two darkest nights of the year are designated One Lamp festivals, for
+only a quarter crescent of Aeete casts light of this black time.  It is a time of death and evil, a
+festival rather forgotten.  Many deities hold this night sacred: Noyrlz, Morgorin, Sythe, and Ulwarzi.
+During the day, songs are sung of old heroes, bygone times, and legends.  Gifts are placed on the graves
+of the deceased and prayers offered for their place in the afterlife.  At sundown, this ceases and most
+people seek shelter, for, with the setting sun, the dead arise.  
+
+  Night of Sorrow.  When Haeya and Ixtare are both full but Aeete shrouded, then it is time for the
+Night of Sorrow. This night is holy to Markyl, Moiwen, and Rasazra.  It is a time of confession and
+absolution, a time to make peace with enemies and ask forgiveness for all transgressions.  Most all
+facilities are closed on this night; it is spent in prayer and solitude for the most part.  Most rulers
+allow generous pardons of this night.
+
+  Autumnal Equinox.  This day honors the harvest of crops and abundance.  It is sacred to Wyhame,
+Madshem, and Rhuma.  It otherwise corresponds to other solstices and equinoxes. 
+
+  Winter Solstice.  A time of dark and suffering.  This night is holy to Morgorin and Sythe.
+It celebrates the death of the year and the dark of the winter night.  See the other equinoxes
+and solstices for details. 
+
+  Festival of Lights.  Only once per year do all three moons become full at the same time.
+On this day, the most sacred festival occurs, the Festival of Lights.  Usually business is not 
+conducted this day; it is spent in play and frivolity.  The day is full of joy and mischief but
+at nightfall, the air becomes solemn.  Then it is time to honor any and all deities for their
+guidance and intercession into mankind's affairs.  It is traditional to visit as many temples
+as possible before dawn, thanking each deity.  For example, thanking Morgorin for not taking
+the soul of a sick child, thanking Wyhame for the birth of a baby, etc.  At dawn, this festival
+becomes New Year's Day and the year repeats itself.
+~
+
+
+
+
+0 $~
+#$
+

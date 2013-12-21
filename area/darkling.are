@@ -1,0 +1,3494 @@
+#AREADATA
+Name Darkling Wood~
+Pref ~
+Builders Crypticant Kysammie~
+VNUMs 8100 8199
+Max_Bastions 2
+Credits {10 40} Staff    The Darkling Wood~
+Security 1
+Startroom 8154
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#8100
+forest darkling~
+a forest darkling~
+A forest darkling wanders the forest here.
+~
+Small, short, and very ugly, this little bald thing is clad in dark
+green tunics, and sets about in a frenzy to destroy the nature within
+the forest.
+~
+unique~
+AG A DJT 0 -1000 201
+24 8 2d10+500 0d0+100 5d5+5 punch
+-7 -7 -7 -7
+K B NQ C
+stand stand male none~
+10
+AHMV ABCDEFGHIJK small 0
+#8101
+Garmex fire foreman~
+Garmex~
+Garmex the Flaming Foreman is here, relegating the harvest.
+~
+Towering above the other giants, Garmex is truly a scary sight.  He
+watches over his kind, keeping order among the easily distracted workers.  
+~
+fire~
+ABG AC DFH 0 -1000 0
+30 2 10d50+1800 0d0+100 5d6+20 punch
+-20 -20 -20 -15
+DEFHKN AB DH P
+stand stand male none~
+15
+AHMV ABCDEFGHIJK giant 0
+F vul I
+#8102
+sylvan elf~
+a Sylvan elf~
+A Sylvan elf is here, stalking in the shadows.
+~
+Blending into the trees, this Sylvan elf holds the mark of the Black Tree
+clans upon its face.  It spots for trespassers into its dark realm that it
+cares for less, as of late.  
+~
+treant~
+ABG A DPT 0 -1000 202
+29 10 2d10+750 0d0+100 5d5+10 thorns
+-10 -10 -10 -10
+K B 0 H
+stand stand either none~
+14
+AHMV ABCDEFGHIJK small 0
+#8103
+fire giant logger~
+a fire giant logger~
+A fire giant logger is here, cutting down the forest.
+~
+Covered in searing heat, this fire giant is working to rid the forest
+of all lumber, and in the process, destroy the last bits of magic that
+live within Darkling Wood.
+~
+fire~
+Ae A D 0 -1000 206
+40 12 20d10+1800 0d0+100 6d6+30 none
+-10 -10 -10 -10
+KN BJL DHN IP
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+#8104
+fire giant laborer~
+a fire giant laborer~
+A fire giant laborer is here, hauling logs.
+~
+With a mean look in his eye, he glares at you.  Hatred fills the air around
+him as sniffs the air carefully, as if in search of something.  His brown 
+leather armor is worn, but his bulging physique makes him an imposing
+sight.
+~
+fire~
+AGT A 0 0 -1000 2416
+22 5 10d10+370 0d0+100 4d5+10 none
+-4 -4 -4 0
+FN 0 DH IP
+stand stand male none~
+12
+AHMV ABCDEFGHIJK large 0
+#8105
+nature spirit~
+a nature spirit~
+A nature spirit moans loudly here, lamenting the destruction of the forest.
+~
+The spirit is composed of nothing but a swirling mass of leaves and
+twigs.  It moves about like a tiny tornado, circling the area as if it was
+bound by some invisible force.  
+~
+human~
+Ae A BDIPT K 0 0
+32 0 1d1+1 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+11
+AHMV ABCDEFGHIJK medium 0
+#8106
+vine monster~
+a vine monster~
+A mass of writhing vines squirms on the ground here.
+~
+Merely a large sentient mass of prickly thorns and other poisoned
+barbes, this vine plant seems to have been placed here by the loggers
+to ensure their work on the deforestation can be completed.
+~
+unique~
+AGe A D 0 -350 204
+20 7 2d1+350 0d0+100 4d5+12 thorns
+-5 -5 -5 -5
+F B N 0
+stand stand male none~
+14
+AHMV ABCDEFGHIJK small 0
+#8107
+devious troll~
+a devious troll~
+A squat, devious troll lurks in the woods here.
+~
+A horrible squatting thing, this troll prowls the woods in search of
+forage, fallen animals...Anything dead it can sink it's carrion claws
+into and rend for sustenance.
+~
+troll~
+AGTd A DFJ 0 -750 402
+50 14 1d1+5100 0d0+100 5d8+35 charge
+-19 -11 -13 -8
+CDEJK ABLQ IM N
+stand stand none none~
+17
+ABHMV ABCDEFGHIJK medium 0
+#8109
+Torilar~
+Torilar~
+Torilar, the Elder Druid of Darkling Wood, is here in distress.
+~
+Older than time, or so it seems, Torilar has called Darkling Wood his home
+for many, many centuries now, and looks utterly horrified at the armies of
+creatures working to destroy his sacred grounds.
+~
+human~
+AGHQe A DFJN 0 0 0
+50 25 40d50+3000 0d0+100 4d6+50 pound
+-10 -10 -10 -10
+EIJKU 0 0 0
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+P GREET 12317 100~
+P GRALL 8109 90~
+#8110
+elf ranger~
+an elven ranger~
+An elven ranger sneaks along in the trees here.
+~
+Obviously sent here for some reason, he stands within the shadows taking
+note of the forest growth.  He seems to slowly but silently move from place
+to place, jotting down on a notepad any progression made by the evil race. 
+Most likely a more experienced spy, he has yet to be touched by any torch
+light and seems to worry very little of detection.  
+~
+elf~
+AGd A DFJP J 1000 0
+30 40 7d7+3506 0d0+0 5d5+35 punch
+-20 -30 -10 -3
+CEFJKN AB B Z
+stand stand male none~
+14
+AHMV ABCDEFGHIJK medium 0
+#8111
+dark forest imp~
+a dark forest imp~
+A dark forest imp flits about here, on small, tattered wings.
+~
+Related to the fae kin, this Imp serves only evil, and works to
+aid the fire giants in clearing out all of Darkling Wood, and
+helping to reduce it to a barren wasteland. Small, agile, and
+quick, the imp grins evilly at you, and buzzes about.
+~
+faerie~
+AGd A DPT 0 -750 205
+17 5 2d1+280 0d0+100 4d5+9 magic
+-4 -4 -4 -4
+K B CN 0
+stand stand either none~
+14
+AHMV ABCDEFGHIJK small 0
+#8112
+forest outlaw leader~
+the leader of the forest outlaws~
+The forest outlaw leader eyes you suspiciously.
+~
+Clad from head to toe in camel hide the leader of the forest outlaws
+steals from the rich.....  And keeps it all.  
+~
+human~
+AGTc A 0 0 0 0
+8 -1 4d5+120 0d0+100 2d4+1 charge
+4 6 4 9
+KR 0 Q C
+stand stand male none~
+9
+AHMV ABCDEFGHIJK small 0
+P DEATH 12180 100~
+#8113
+forest outlaw~
+a forest outlaw~
+A forest outlaw shuffles about in the bushes.
+~
+He looks utterly miserable.
+~
+human~
+AGT A 0 0 0 0
+6 -1 4d4+65 0d0+100 2d4+1 charge
+4 6 4 9
+KR 0 Q C
+stand stand male none~
+6
+AHMV ABCDEFGHIJK small 0
+#8191
+imp scout~
+an imp scout~
+An imp scout flits about the branches here.
+~
+Tiny, and carrying a tiny bag of vials, this dark faerie
+glares at you menacingly.
+~
+faerie~
+AB A PT 0 -1000 9900
+8 10 2d7+96 0d0+100 1d7+4 magic
+3 3 3 3
+JKNU 0 Q C
+stand stand male none~
+11
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#8100
+a thorny blade~
+a thorny blade~
+A small sword covered with rose thorns is here.~
+wood~
+weapon JS AN
+sword 5 4 thorns D
+20 120 500 P
+F
+A 18 3 0
+#8101
+thorny club~
+a thorny club~
+A club covered in thorns is here.~
+wood~
+weapon J AN
+mace 2 12 thorns D
+20 200 500 P
+F
+A 19 3 0
+#8102
+inferno axe cleaver~
+'Inferno' the Bane of Trees~
+A giant axe engulfed in flame smokes violently on the ground.~
+fire~
+weapon ABEJ ANX
+axe 6 6 flbite 0
+55 360 3 P
+F
+A 18 -2 0
+F
+A 34 10 0
+F
+A 19 2 0
+#8103
+The Florist~
+an oaken torch~
+A giant piece of tree trunk is here, burning slowly.~
+fire~
+light JY A
+0 0 30 0 0
+55 40 1000 P
+F
+A 19 1 0
+F
+A 18 1 0
+#8104
+staff nature spirits~
+a staff of nature's spirits~
+A long wooden staff lies here, illuminating the area in a soft green glow.~
+wood~
+weapon ABHJKSXZe ANSX
+staff 6 8 smash F
+50 80 4 P
+P USE 8104 100~
+#8105
+strong oak chest plate~
+a strong oak chest plate~
+A large chest plate carved out of a strong oak tree is here.~
+wood~
+armor B AD
+5 4 4 2 0
+35 20 200 P
+F
+A 18 1 0
+F
+A 19 1 0
+#8106
+strong oak helm~
+a strong oak helm~
+A helm crafted of beautiful oak lies here.~
+wood~
+armor B AE
+5 6 5 3 0
+35 20 200 P
+F
+A 19 1 0
+#8107
+strong oak arm plates~
+some strong oak arm plates~
+A pair of arm plates carved from an old oak tree are here.~
+wood~
+armor B AI
+5 4 4 3 0
+35 20 200 P
+F
+A 18 1 0
+F
+A 19 1 0
+#8108
+strong oak leg plates~
+some strong oak leg plates~
+Leg plates crafted from oak lay here.~
+wood~
+armor 0 AF
+6 3 6 3 0
+35 20 200 P
+F
+A 19 1 0
+F
+A 2 1 0
+#8109
+oaken faceplate~
+an oaken faceplate~
+A small oaken faceplate rests on the ground.~
+wood~
+armor Be Ad
+1 6 7 1 0
+35 20 100 P
+F
+A 2 -2 0
+F
+A 19 1 0
+F
+A 18 1 0
+#8110
+small oaken ring~
+a small oaken ring~
+A tiny ring formed of the purest oak is here.~
+wood~
+armor B AB
+4 6 7 7 0
+35 5 50 P
+F
+A 1 -4 0
+F
+A 18 -5 0
+#8111
+boots oak~
+some giant oak boots~
+Some large oak boots are here, unclaimed.~
+wood~
+armor B AGX
+3 3 2 4 0
+35 40 5 P
+F
+S 106 3 0
+F
+A 2 1 0
+#8112
+strong oaken gauntlets~
+some strong oaken gauntlets~
+Two large gauntlets carved from oak rest on the ground.~
+wood~
+armor 0 AH
+5 5 3 4 0
+35 200 80 P
+F
+A 18 1 0
+F
+A 1 -1 0
+#8113
+strong oak shield~
+a strong shield of oak~
+A massive shield crafted of fine oak is here.~
+wood~
+armor B AJ
+2 4 5 6 0
+35 100 450 P
+F
+A 1 -1 0
+F
+A 18 1 0
+F
+A 14 10 0
+#8114
+oak girdle~
+a soft oak girdle~
+A girdle carved from soft oak rests on the ground.~
+wood~
+armor B AL
+0 1 0 2 0
+35 20 500 P
+F
+A 2 -1 0
+F
+A 1 -1 0
+F
+A 18 1 0
+F
+A 20 -2 0
+#8115
+oaken wristguard~
+an oaken wristguard~
+A wristguard crafted from oak rests on the ground.~
+wood~
+armor B AM
+1 3 0 3 0
+35 15 50 P
+F
+A 18 2 0
+#8116
+long oaken pole~
+a ridiculously long oaken pole~
+A long thin pole crafted of strong, sturdy oak is here.~
+wood~
+weapon B AN
+polearm 4 9 thwack F
+35 220 750 P
+R
+2
+F
+A 2 -1 0
+F
+A 1 -1 0
+F
+A 18 1 0
+F
+A 19 1 0
+F
+A 20 -5 0
+#8117
+double bedded axe~
+a double bedded axe~
+A heavy, double bedded axe is lying here.~
+steel~
+weapon A AN
+axe 6 5 chop 0
+30 400 11000 P
+F
+A 3 -1 0
+F
+A 19 2 0
+#8119
+spotted mushroom~
+a spotted mushroom~
+A patch of spotted mushrooms has sprouted up here.~
+plant~
+herb G A
+0 'dysentery' 'reserved' 'reserved' 'insomnia'
+20 30 100 P
+E
+mushroom~
+A small blue-capped mushroom lies uprooted, resting on its side.
+~
+#8120
+pool water~
+a pool of springwater~
+A pool of springwater is gathered here.~
+mud~
+fountain 0 0
+-1 -1 'water' 0 0
+60 0 100 P
+#8121
+big waist sack~
+a hanging sack~
+A sack of food is hanging in a tree here.~
+leather~
+container 0 0
+400 AC 0 200 0
+20 20 3000 P
+#8122
+slab beef~
+a large slab of beef~
+A large slab of beef is resting here.~
+meat~
+food 0 A
+24 24 0 0 -1
+2 20 12 P
+#8123
+tree stump~
+a tree stump~
+A tree stump of a very old tree is here.~
+wood~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+logs~
+A large stack of logs made from the trees of this area
+have been piled here by the loggers.
+~
+#8128
+no name~
+(no short description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#8131
+stack logs~
+a large stack of logs~
+A massive stack of logs is lying here.~
+wood~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+logs~
+A large stack of logs made from the trees of this area
+have been piled here by the loggers.
+~
+#8141
+camel hide boots~
+a pair of camel hide boots~
+A pair of boots made from the hide of a camel is here.~
+leather~
+armor 0 AG
+4 3 4 4 0
+5 100 10 P
+F
+A 2 2 0
+#8142
+camel hide leggings~
+camel hide leggings~
+A pair of leggings made of camel hide is here.~
+leather~
+armor 0 AF
+5 5 5 4 0
+5 100 10 P
+F
+A 5 2 0
+#8143
+camel hide gloves~
+camel hide gloves~
+A pair of gloves made from the hide of a camel is here.~
+leather~
+armor 0 AH
+3 4 4 4 0
+5 50 10 P
+F
+A 1 1 0
+#8145
+jade bracer~
+a jade bracer~
+A jade bracer twinkles in the light here.~
+jade~
+armor 0 AM
+0 0 0 0 0
+5 70 23 P
+F
+A 18 1 0
+#8146
+cloth hat~
+a cloth hat~
+A cloth hat covered in dust is here.~
+cotton~
+armor 0 AE
+4 3 3 4 0
+5 30 10 P
+F
+A 3 1 0
+F
+A 4 1 0
+#8147
+clay shield~
+a clay shield~
+A clay shield lies here, ready to fall apart.~
+clay~
+armor 0 AJ
+5 3 4 5 0
+5 200 20 P
+F
+A 19 1 0
+#8148
+dented mace~
+a dented mace~
+A mace with large dents lies here.~
+brass~
+weapon 0 AN
+mace 5 4 smash 0
+7 250 20 P
+F
+A 18 1 0
+F
+A 12 5 0
+F
+A 13 5 0
+#8149
+long black spear~
+a long black spear~
+A long spear with a black blade lies here.~
+iron~
+weapon 0 AN
+spear 3 9 tainted F
+6 80 100 A
+E
+spear~
+This used to be a boar spear, but it has been used for more dangerous game.
+~
+F
+A 18 1 0
+F
+A 19 2 0
+F
+A 17 2 0
+#8191
+bottle elixir~
+a bottle of clear elixir~
+A bottle of clear elixir is hanging here.~
+liquid~
+potion 0 AO
+15 'sanctuary' '' '' ''
+15 10 10 P
+#8193
+footlocker~
+a wooden footlocker~
+A wooden footlocker is resting on the ground here.~
+wood~
+container 0 0
+350 AC 0 200 100
+1 20 500 P
+E
+sack~
+A brownish leather-like sack rests here.
+~
+#8194
+bed~
+a bed~
+A large wooden bed is here, covered with a green wool comforter.~
+wood~
+furniture 0 0
+0 0 0 0 0
+50 0 100 P
+#8195
+oatmeal cookie~
+an oatmeal cookie~
+An oatmeal cookie is lying here.~
+flour~
+food 0 A
+7 0 0 0 -1
+0 10 0 P
+#8196
+black herbs bowl~
+a bowl of herbs~
+A small bowl of black herbs is here.~
+plant~
+herb 0 A
+60 'dysentery' 'enlarge' 'enlarge' 'sanctuary'
+15 0 0 P
+#8197
+blood puddle gore guts~
+a pool of blood~
+Several large pools of blood cover the ground here.~
+blood~
+trash 0 P
+0 0 0 0 0
+0 0 0 P
+E
+blood~
+The ground and the area surrounding you is bathed in crimson as 
+if a geyser of blood exploded here.  
+~
+E
+pools~
+The ground and the area surrounding you is bathed in crimson as 
+if a geyser of blood exploded here.  
+~
+E
+gore~
+The ground and the area surrounding you is bathed in crimson as 
+if a geyser of blood exploded here.  
+~
+#0
+
+
+
+#ROOMS
+#8192
+`2Climbing a sturdy tree``~
+You find yourself climbing up a heavy oak tree, that leads far upward
+into the canopy above. A heavy rope ladder has been constructed here,
+and enables you to go from limb to limb with relative ease. You see a
+small platform above you.
+~
+~
+0 4 65536 3
+D4
+~
+hatch~
+AB 0 8193
+D5
+~
+~
+0 0 8154
+S
+#8193
+`8Torilar's Treehouse``~
+You stand within a large, octagonal treehouse. Made of thatched wood,
+the oak tree in which it is built seems almost to hug the tiny house,
+holding it safe and secure without any nails needed. The place is tidy,
+and well kept, with a small door leading back into what seems to be
+some sort of a study.
+~
+~
+0 5 0 0
+D3
+~
+~
+0 0 8194
+D5
+~
+hatch~
+AB 0 8192
+S
+#8194
+`8Torilar's Study``~
+You stand within the treehouse, inside a small druidic study. Several
+small desks are setup here, with heavy tomes opened on top. Most seem
+to be very old, and covered with ancient scribings. A small cot with a
+humble wool blanket is set up nearby, and the room smells of candlewax.
+~
+~
+0 12 0 0
+D1
+~
+~
+0 0 8193
+D4
+~
+roof~
+AB 0 8195
+S
+#8195
+`2Further up the tree``~
+You are now above Torilar's treehouse, and below you, the forest floor
+falls away several hundred meters. From here, a fall would certainly kill
+you. Above, the oak tree branches out into a broad canopy, and the foliage
+above seems to become much less dense.
+~
+~
+0 4 8192 3
+D4
+~
+~
+0 0 8196
+D5
+~
+roof~
+AB 0 8194
+S
+#8196
+`2Atop the canopy``~
+You are on top of the canopy of Darkling Wood, now. Bright sun beats
+down on you, and you can see the desert which surrounds Darkling Wood in all
+its splendor. There really is nothing else in these deserts. Far off
+to the west, you can make out heavy storm clouds, where there must be
+ocean.
+ 
+The branches of the canopy seem to thin out a bit to the west. Best
+watch your step.
+~
+~
+0 4 16384 3
+D3
+~
+~
+0 0 8191
+D5
+~
+~
+0 0 8195
+S
+#8197
+`2In a thick and unruly forest``~
+Sunlight is an unwanted guest in this part of the forest.  The beams that
+do make it past the network of leaves and branches are filtered by air until
+there is no light left to hit the forest floor.  Crawlers creep across the
+forest floor, strangling anything in their path.  
+~
+The forest is eerily dark at this time of night.  Black is the color the
+forest is painted.  No shadows bounce around the woods, for no light from
+the moons can shine through the canopy.  Crawlers creep across the forest
+floor, strangling anything in their path.  
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8187
+D1
+~
+~
+0 0 8198
+S
+#8198
+`2In a thick and unruly forest``~
+Sunlight is an unwanted guest in this part of the forest.  The beams that
+do make it past the network of leaves and branches are filtered by air until
+there is no light left to hit the forest floor.  Crawlers creep across the
+forest floor, strangling anything in their path.  
+~
+The forest is eerily dark at this time of night.  Black is the color the
+forest is painted.  No shadows bounce around the woods, for no light from
+the moons can shine through the canopy.  Crawlers creep across the forest
+floor, strangling anything in their path.  
+~
+0 1 65536 3
+D0
+~
+~
+0 0 8188
+D3
+~
+~
+0 0 8197
+S
+#8199
+`2A forest pathway``~
+This pathway really is not what you imagine pathways to be like.  It
+consists of a tiny little worn trail wedged between two inconsiderate walls
+of undergrowth and foliage.  You can squeeze your way southwards into the
+forest or you can admit defeat and extract yourself north to the safety of
+Emmereaux.  
+~
+~
+0 1 8192 3
+D0
+~
+~
+0 0 8189
+D2
+~
+~
+0 0 8104
+S
+#8100
+`2At the forests edge``~
+New grass grows on the ground here, thin, short, and fragile.  This area
+has been long since cleared of trees, and no new saplings have started
+growing yet.  The ground is littered with animal tracks, and you notice that
+most of them seem to be heading northwards, away from the foreboding dark
+mass that is Darkling Wood.  
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 8101
+D2
+~
+~
+0 0 8110
+S
+#8101
+`2At the forests edge``~
+The flourishing trees here are safe for now, but none of them may ever
+reach full maturity.  Slim oaks and white birch both grow here, and there
+are signs of animal life as well.  How long this will remain, however, is
+unknown.  
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 8102
+D2
+~
+~
+0 0 8111
+D3
+~
+~
+0 0 8100
+S
+#8102
+`2At the forests edge``~
+Small saplings dot the landscape here, growing between the stumps of
+older trees that have already met thier demise.  Chopped off branches and
+strips of bark litter the ground, occasionally tangling around your feet as
+you traverse through the forest.  
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 8103
+D2
+~
+~
+0 0 8112
+D3
+~
+~
+0 0 8101
+S
+#8103
+`2At the forests edge``~
+Loggers have been cutting down trees in this area for many years now, and
+the result is clear before your eyes.  Large burn marks scar the ground,
+occasionally dotted by the sun bleached remains of some helpless animal that
+was caught in the fire.  Though the winds and time have long since carried
+the smell of death away, it has yet to erase the sight.  
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 8104
+D2
+~
+~
+0 0 8113
+D3
+~
+~
+0 0 8102
+S
+#8104
+`2At the forests edge``~
+The ash covered ground here is void of any visible forms of life.  Small
+animal tracks occasionally mark the surface of the blackened ground, most of
+them heading away from the dark forest to the south.  Northwards the sprawl
+of Emmereaux silhouettes the horizon.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8199
+D1
+~
+~
+0 0 8105
+D2
+~
+~
+0 0 8114
+D3
+~
+~
+0 0 8103
+S
+#8105
+`2At the forests edge``~
+Thin stands of scraggly grasses grow in clumps along the fallow colored
+ground here, blanketed by a thin layer of ash.  A few thin saplings have
+sprouted here as well, though the heavy ash laden air will make it near
+impossible for them to ever grow fully.  
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 8106
+D2
+~
+~
+0 0 8115
+D3
+~
+~
+0 0 8104
+S
+#8106
+`2At the forests edge``~
+The trees here are small, not yet reaching the years of growth that will
+mark them a true part of Darkling Wood.  They may not ever get a chance to
+fully grow, since civilization has come to the edge of this great forest
+with axes ready in hand to harvest its lumber.  
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 8107
+D2
+~
+~
+0 0 8116
+D3
+~
+~
+0 0 8105
+S
+#8107
+`2On a tract of clearcut forest``~
+Roughly hewn stumps litter the ground here, tangling with the sparse
+underbrush and thin grass.  A thick layer of ash has been carried here by
+the wind, blanketing everything in a dull grey.  A temporary wooden house is
+constructed here, as a resting place for the loggers after they have
+finished their daily toil.  
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 8108
+D2
+~
+~
+0 0 8117
+D3
+~
+~
+0 0 8106
+S
+#8108
+`2A well used trackway``~
+This trackway runs through the forest, and this part looks to have been
+used recently, perhaps by loggers and foresters.  The hard packed dirt has
+been trampled clear of weeds and grasses, though the ruts left by countless
+wagons are quite deep.  To the east and west, miles of clearcut forest
+spreads before your eyes, the landscape ocassionaly dotted by a willowy
+sapling.  
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 8109
+D2
+~
+~
+0 0 8118
+D3
+~
+~
+0 0 8107
+S
+#8109
+`2A clearcut tract``~
+You stand within a small clearing. Large saplings rise up from the grounds
+here, while tree stumps litter the ground, and wood shavings lie all around
+in the grass which already grows wild here. You can hear no birds here, only
+the sound of logging, and men yelling.
+~
+~
+0 0 16384 3
+D2
+~
+~
+0 0 8119
+D3
+~
+~
+0 0 8108
+P RANDOM 8109 10~
+S
+#8110
+`2In a thinning forest``~
+Stumps of trees can be found in the open spaces between parts of a forest
+that seems to have existed as long as time itself.  Foresters and loggers
+have penetrated the edge of this place, this enigma called Darkling Wood, in
+order to feed the outcry for lumber from nearby cities.  The forest is huge,
+however, and only its outer limits have been scratched; something which has
+already taken a handful of years to accomplish.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8100
+D1
+~
+~
+0 0 8111
+D2
+~
+~
+0 0 8120
+S
+#8111
+`2In a thinning forest``~
+Between roughly hewn stumps sit huge stands of thick forest, with oaks,
+maples, elm, and birch all vying for dominance.  Tracks and signs of man
+abound here, but there are hardly any signs of wildlife.  This part of
+Darkling Wood Forest seems all but deserted, except by the intrusion of man.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8101
+D1
+~
+~
+0 0 8112
+D2
+~
+~
+0 0 8121
+D3
+~
+~
+0 0 8110
+S
+#8112
+`2In a thinning forest``~
+Stumps of trees can be found in the open spaces between parts of a forest
+that seems to have existed as long as time itself.  Foresters and loggers
+have penetrated the edge of this place, this enigma called Darkling Wood, in
+order to feed the outcry for lumber from nearby cities.  The forest is huge,
+however, and only its outer limits have been scratched; something which has
+already taken a handful of years to accomplish.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8102
+D1
+~
+~
+0 0 8113
+D2
+~
+~
+0 0 8122
+D3
+~
+~
+0 0 8111
+S
+#8113
+`2In a thinning forest``~
+Between roughly hewn stumps sit huge stands of thick forest, with oaks,
+maples, elm, and birch all vying for dominance.  Tracks and signs of man
+abound here, but there are hardly any signs of wildlife.  This part of
+Darkling Wood Forest seems all but deserted, except by the intrusion of man.
+
+
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8103
+D1
+~
+~
+0 0 8114
+D2
+~
+~
+0 0 8123
+D3
+~
+~
+0 0 8112
+S
+#8114
+`2In a thinning forest``~
+Stumps of trees can be found in the open spaces between parts of a forest
+that seems to have existed as long as time itself.  Foresters and loggers
+have penetrated the edge of this place, this enigma called Darkling Wood, in
+order to feed the outcry for lumber from nearby cities.  The forest is huge,
+however, and only its outer limits have been scratched; something which has
+already taken a handful of years to accomplish.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8104
+D1
+~
+~
+0 0 8115
+D2
+~
+~
+0 0 8124
+D3
+~
+~
+0 0 8113
+S
+#8115
+`2In a thinning forest``~
+Between roughly hewn stumps sit huge stands of thick forest, with oaks,
+maples, elm, and birch all vying for dominance.  Tracks and signs of man
+abound here, but there are hardly any signs of wildlife.  This part of
+Darkling Wood seems all but deserted, except by the intrusion of man.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8105
+D1
+~
+~
+0 0 8116
+D2
+~
+~
+0 0 8125
+D3
+~
+~
+0 0 8114
+S
+#8116
+`2In a thinning forest``~
+Stumps of trees can be found in the open spaces between parts of a forest
+that seems to have existed as long as time itself.  Foresters and loggers
+have penetrated the edge of this place, this enigma called Darkling Wood, in
+order to feed the outcry for lumber from nearby cities.  The forest is huge,
+however, and only its outer limits have been scratched; something which has
+already taken a handful of years to accomplish.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8106
+D1
+~
+~
+0 0 8117
+D2
+~
+~
+0 0 8126
+D3
+~
+~
+0 0 8115
+S
+#8117
+`2In a thinning forest``~
+Between roughly hewn stumps sit huge stands of thick forest, with oaks,
+maples, elm, and birch all vying for dominance.  Tracks and signs of man
+abound here, but there are hardly any signs of wildlife.  This part of
+Darkling Wood Forest seems all but deserted, except by the intrusion of man.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8107
+D1
+~
+~
+0 0 8118
+D2
+~
+~
+0 0 8127
+D3
+~
+~
+0 0 8116
+S
+#8118
+`2A well used trackway``~
+This trackway runs through the forest, and this part looks to have been
+used recently, perhaps by loggers and foresters.  The hard packed dirt has
+been trampled clear of weeds and grasses, though the ruts left by countless
+wagons are quite deep.  A young forest springs up around you, ocassionaly
+giving sway to a larger maple.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8108
+D1
+~
+~
+0 0 8119
+D2
+~
+~
+0 0 8128
+D3
+~
+~
+0 0 8117
+S
+#8119
+`2In a thinning forest``~
+Stumps of trees can be found in the open spaces between parts of a forest
+that seems to have existed as long as time itself.  Foresters and loggers
+have penetrated the edge of this place, this enigma called Darkling Wood, in
+order to feed the outcry for lumber from nearby cities.  The forest is huge,
+however, and only its outer limits have been scratched; something which has
+already taken a handful of years to accomplish.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8109
+D2
+~
+~
+0 0 8129
+D3
+~
+~
+0 0 8118
+S
+#8120
+`2In a thinning forest``~
+You stand within a thick area of the forest, with oaks, maples and
+anceint elms all around you, competing for dominace.  Tracks and signs of
+man can be seen around the area, but strangly enough, there is little sign
+of any wildlife.  This part of the forest seems all but deserted, except by
+the intrusion of man.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8110
+D1
+~
+~
+0 0 8121
+D2
+~
+~
+0 0 8130
+S
+#8121
+`2In a thinning forest``~
+Stumps of trees can be found in the open spaces between parts of a forest
+that seems to have existed as long as time itself.  Foresters and loggers
+have penetrated the edge of this place, this enigma called Darkling Wood, in
+order to feed the outcry for lumber from nearby cities.  The forest is huge,
+however, and only its outer limits have been scratched; something which has
+already taken a handful of years to accomplish.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8111
+D1
+~
+~
+0 0 8122
+D2
+~
+~
+0 0 8131
+D3
+~
+~
+0 0 8120
+S
+#8122
+`2In a thinning forest``~
+Between roughly hewn stumps sit huge stands of thick forest, with oaks,
+maples, elm, and birch all vying for dominance.  Tracks and signs of man
+abound here, but there are hardly any signs of wildlife.  This part of
+Darkling Wood Forest seems all but deserted, except by the intrusion of man.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8112
+D1
+~
+~
+0 0 8123
+D2
+~
+~
+0 0 8132
+D3
+~
+~
+0 0 8121
+S
+#8123
+`2In a thinning forest``~
+Stumps of trees can be found in the open spaces between parts of a forest
+that seems to have existed as long as time itself.  Foresters and loggers
+have penetrated the edge of this place, this enigma called Darkling Wood, in
+order to feed the outcry for lumber from nearby cities.  The forest is huge,
+however, and only its outer limits have been scratched; something which has
+already taken a handful of years to accomplish.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8113
+D1
+~
+~
+0 0 8124
+D2
+~
+~
+0 0 8133
+D3
+~
+~
+0 0 8122
+S
+#8124
+`2In a thinning forest``~
+Between roughly hewn stumps sit huge stands of thick forest, with oaks,
+maples, elm, and birch all vying for dominance.  Tracks and signs of man
+abound here, but there are hardly any signs of wildlife.  This part of
+Darkling Wood Forest seems all but deserted, except by the intrusion of man.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8114
+D1
+~
+~
+0 0 8125
+D2
+~
+~
+0 0 8134
+D3
+~
+~
+0 0 8123
+S
+#8125
+`2In a thinning forest``~
+Stumps of trees can be found in the open spaces between parts of a forest
+that seems to have existed as long as time itself.  Foresters and loggers
+have penetrated the edge of this place, this enigma called Darkling Wood, in
+order to feed the outcry for lumber from nearby cities.  The forest is huge,
+however, and only its outer limits have been scratched; something which has
+already taken a handful of years to accomplish.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8115
+D1
+~
+~
+0 0 8126
+D2
+~
+~
+0 0 8135
+D3
+~
+~
+0 0 8124
+S
+#8126
+`2In a thinning forest``~
+Between roughly hewn stumps sit huge stands of thick forest, with oaks,
+maples, elm, and birch all vying for dominance.  Tracks and signs of man
+abound here, but there are hardly any signs of wildlife.  This part of
+Darkling Wood Forest seems all but deserted, except by the intrusion of man.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8116
+D1
+~
+~
+0 0 8127
+D2
+~
+~
+0 0 8136
+D3
+~
+~
+0 0 8125
+S
+#8127
+`2In a thinning forest``~
+Stumps of trees can be found in the open spaces between parts of a forest
+that seems to have existed as long as time itself.  Foresters and loggers
+have penetrated the edge of this place, this enigma called Darkling Wood, in
+order to feed the outcry for lumber from nearby cities.  The forest is huge,
+however, and only its outer limits have been scratched; something which has
+already taken a handful of years to accomplish.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8117
+D1
+~
+~
+0 0 8128
+D2
+~
+~
+0 0 8137
+D3
+~
+~
+0 0 8126
+S
+#8128
+`2An overgrown trackway``~
+This trackway runs through the forest, and this part of it looks to have
+been used recently, perhaps by loggers or foresters.  The weeds and grasses
+that have grown up on the track over the years have been trampled into the
+deep ruts left by countless wagons.  Most of the trees have been cleared
+along the side of the track to allow headway, but every once in a while you
+still have to duck under an errant branch.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8118
+D1
+~
+~
+0 0 8129
+D2
+~
+~
+0 0 8138
+D3
+~
+~
+0 0 8127
+S
+#8129
+`2In a thinning forest``~
+Between roughly hewn stumps sit huge stands of thick forest, with oaks,
+maples, elm, and birch all vying for dominance.  Tracks and signs of man
+abound here, but there are hardly any signs of wildlife.  This part of
+Darkling Wood Forest seems all but deserted, except by the intrusion of man.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8119
+D2
+~
+~
+0 0 8139
+D3
+~
+~
+0 0 8128
+S
+#8130
+`2A darkly lush forest``~
+Faint light filters through the thick canopy high overhead, reflecting
+off of the dew laden vegetation and casting much of the leaf covered forest
+carpet in deep shadows.  Massive trees, mainly oak, rise up around you,
+filling your view with thier majestic age.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8120
+D1
+~
+~
+0 0 8131
+D2
+~
+~
+0 0 8140
+S
+#8131
+`2A darkly lush forest``~
+Faint light filters through the thick canopy high overhead, reflecting
+off of the dew laden vegetation and casting much of the leaf covered forest
+carpet in deep shadows.  Massive trees, mainly oak, rise up around you,
+filling your view with thier majestic age.  
+~
+~
+0 8 8192 3
+D0
+~
+~
+0 0 8121
+D1
+~
+~
+0 0 8132
+D2
+~
+~
+0 0 8141
+D3
+~
+~
+0 0 8130
+T 75
+S
+#8132
+`2A darkly lush forest``~
+Faint light filters through the thick canopy high overhead, reflecting
+off of the dew laden vegetation and casting much of the leaf covered forest
+carpet in deep shadows.  Massive trees, mainly oak, rise up around you,
+filling your view the thier majestic age.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8122
+D1
+~
+~
+0 0 8133
+D2
+~
+~
+0 0 8142
+D3
+~
+~
+0 0 8131
+S
+#8133
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to their survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8123
+D1
+~
+~
+0 0 8134
+D2
+~
+~
+0 0 8143
+D3
+~
+~
+0 0 8132
+S
+#8134
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8124
+D1
+~
+~
+0 0 8135
+D2
+~
+~
+0 0 8144
+D3
+~
+~
+0 0 8133
+S
+#8135
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8125
+D1
+~
+~
+0 0 8136
+D2
+~
+~
+0 0 8145
+D3
+~
+~
+0 0 8134
+S
+#8136
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8126
+D1
+~
+~
+0 0 8137
+D2
+~
+~
+0 0 8146
+D3
+~
+~
+0 0 8135
+S
+#8137
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8127
+D1
+~
+~
+0 0 8138
+D2
+~
+~
+0 0 8147
+D3
+~
+~
+0 0 8136
+S
+#8138
+`2An overgrown trackway``~
+This trackway runs through the forest, and this part of it looks to have
+been used recently, perhaps by loggers or foresters.  The weeds and grasses
+that have grown up on the track over the years have been trampled into the
+deep ruts left by countless wagons.  Most of the trees have been cleared
+along the side of the track to allow headway, but every once in a while you
+still have to duck under an errant branch.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8128
+D1
+~
+~
+0 0 8139
+D2
+~
+~
+0 0 8148
+D3
+~
+~
+0 0 8137
+S
+#8139
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8129
+D2
+~
+~
+0 0 8149
+D3
+~
+~
+0 0 8138
+S
+#8140
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8130
+D1
+~
+~
+0 0 8141
+D2
+~
+~
+0 0 8150
+S
+#8141
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8131
+D1
+~
+~
+0 0 8142
+D2
+~
+~
+0 0 8151
+D3
+~
+~
+0 0 8140
+S
+#8142
+`2An old grove of oak``~
+It is easy to imagine that the enormous trees in this part of the forest
+have existed for as long as time itself, and it probably wouldn't be much of
+an exaggeration.  The oaks are broad and tall, and it would take about one
+hundred men standing on each others shoulders to poke through the
+intertwined and leafy canopy of their tops.  Each trunk is about thirty feet
+around in diameter, and huge branches both point into the air, as well as
+hang down to the ground.  The effect is that of a two-tiered roof of broad
+leaves, buttressed by many interlocking branches, making this part of the
+forest feel very safe and secure.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8132
+D1
+~
+~
+0 0 8143
+D2
+~
+~
+0 0 8152
+D3
+~
+~
+0 0 8141
+S
+#8143
+`2An old grove of oak``~
+It is easy to imagine that the enormous trees in this part of the forest
+have existed for as long as time itself, and it probably wouldn't be much of
+an exaggeration.  The oaks are broad and tall, and it would take about one
+hundred men standing on each others shoulders to poke through the
+intertwined and leafy canopy of thier tops.  Each trunk is about thirty feet
+around in diameter, and huge branches both point into the air, as well as
+hang down to the ground.  The effect is that of a two-tiered roof of broad
+leaves, buttressed by many interlocking branches, making this part of the
+forest feel very safe and secure.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8133
+D1
+~
+~
+0 0 8144
+D2
+~
+~
+0 0 8153
+D3
+~
+~
+0 0 8142
+S
+#8144
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8134
+D1
+~
+~
+0 0 8145
+D2
+~
+~
+0 0 8154
+D3
+~
+~
+0 0 8143
+S
+#8145
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8135
+D1
+~
+~
+0 0 8146
+D2
+~
+~
+0 0 8155
+D3
+~
+~
+0 0 8144
+S
+#8146
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8136
+D1
+~
+~
+0 0 8147
+D2
+~
+~
+0 0 8156
+D3
+~
+~
+0 0 8145
+S
+#8147
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8137
+D1
+~
+~
+0 0 8148
+D2
+~
+~
+0 0 8157
+D3
+~
+~
+0 0 8146
+S
+#8148
+`2An overgrown trackway``~
+This trackway runs through the forest, and this part of it looks to have
+been used recently, perhaps by loggers or foresters.  The weeds and grasses
+that have grown up on the track over the years have been trampled into the
+deep ruts left by countless wagons.  Most of the trees have been cleared
+along the side of the track to allow headway, but every once in a while you
+still have to duck under an errant branch.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8138
+D1
+~
+~
+0 0 8149
+D2
+~
+~
+0 0 8158
+D3
+~
+~
+0 0 8147
+S
+#8149
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8139
+D2
+~
+~
+0 0 8159
+D3
+~
+~
+0 0 8148
+S
+#8150
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8140
+D1
+~
+~
+0 0 8151
+D2
+~
+~
+0 0 8160
+S
+#8151
+`2An old grove of oak``~
+It is easy to imagine that the enormous trees in this part of the forest
+have existed for as long as time itself, and it probably wouldn't be much of
+an exaggeration.  The oaks are broad and tall, and it would take about one
+hundred men standing on each others shoulders to poke through the
+intertwined and leafy canopy of thier tops.  Each trunks is about thirty
+feet around in diameter, and huge branches both point into the air, as well
+as hang down to the ground.  The effect is that of a two-tiered roof of
+broad leaves, buttressed by many interlocking branches, making this part of
+the forest feel very safe and secure.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8141
+D1
+~
+~
+0 0 8152
+D2
+~
+~
+0 0 8161
+D3
+~
+~
+0 0 8150
+S
+#8152
+`2An old grove of oak``~
+It is easy to imagine that the enormous trees in this part of the forest
+have existed for as long as time itself, and it probably wouldn't be much of
+an exaggeration.  The oaks are broad and tall, and it would take about one
+hundred men standing on each others shoulders to poke through the
+intertwined and leafy canopy of thier tops.  Each trunk is about thirty feet
+around in diameter, and huge branches both point into the air, as well as
+hang down to the ground.  The effect is that of a two-tiered roof of broad
+leaves, buttressed by many interlocking branches, making this part of the
+forest feel very safe and secure.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8142
+D1
+~
+~
+0 0 8153
+D2
+~
+~
+0 0 8162
+D3
+~
+~
+0 0 8151
+S
+#8153
+`2An old grove of oak``~
+It is easy to imagine that the enormous trees in this part of the forest
+have existed for as long as time itself, and it probably wouldn't be much of
+an exaggeration.  The oaks are broad and tall, and it would take about one
+hundred men standing on each others shoulders to poke through the
+intertwined and leafy canopy of thier tops.  Each trunk is about thirty feet
+around in diameter, and huge branches both point into the air, as well as
+hang down to the ground.  The effect is that of a two-tiered roof of broad
+leaves, buttressed by many interlocking branches, making this part of the
+forest feel very safe and secure.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8143
+D1
+~
+~
+0 0 8154
+D2
+~
+~
+0 0 8163
+D3
+~
+~
+0 0 8152
+S
+#8154
+`2An old grove of oak``~
+It is easy to imagine that the enormous trees in this part of the forest
+have existed for as long as time itself, and it probably wouldn't be much of
+an exaggeration.  The oaks are broad and tall, and it would take about one
+hundred men standing on each others shoulders to poke through the
+intertwined and leafy canopy of thier tops.  Each trunk is about thirty feet
+around in diameter, and huge branches both point into the air, as well as
+hang down to the ground.  The effect is that of a two-tiered roof of broad
+leaves, buttressed by many interlocking branches, making this part of the
+forest feel very safe and secure.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8144
+D1
+~
+~
+0 0 8155
+D2
+~
+~
+0 0 8164
+D3
+~
+~
+0 0 8153
+D4
+~
+~
+0 0 8192
+S
+#8155
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8145
+D1
+~
+~
+0 0 8156
+D2
+~
+~
+0 0 8165
+D3
+~
+~
+0 0 8154
+S
+#8156
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8146
+D1
+~
+~
+0 0 8157
+D2
+~
+~
+0 0 8166
+D3
+~
+~
+0 0 8155
+S
+#8157
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8147
+D1
+~
+~
+0 0 8158
+D2
+~
+~
+0 0 8167
+D3
+~
+~
+0 0 8156
+S
+#8158
+`2An overgrown trackway``~
+This trackway runs through the forest, and this part of it looks to have
+been used recently, perhaps by loggers or foresters.  The weeds and grasses
+that have grown up on the track over the years have been trampled into the
+deep ruts left by countless wagons.  Most of the trees have been cleared
+along the side of the track to allow headway, but every once in a while you
+still have to duck under an errant branch.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8148
+D1
+~
+~
+0 0 8159
+D2
+~
+~
+0 0 8168
+D3
+~
+~
+0 0 8157
+S
+#8159
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8149
+D2
+~
+~
+0 0 8169
+D3
+~
+~
+0 0 8158
+S
+#8160
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8150
+D1
+~
+~
+0 0 8161
+D2
+~
+~
+0 0 8170
+S
+#8161
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8151
+D1
+~
+~
+0 0 8162
+D2
+~
+~
+0 0 8171
+D3
+~
+~
+0 0 8160
+S
+#8162
+`2An old grove of oak``~
+It is easy to imagine that the enormous trees in this part of the forest
+have existed for as long as time itself, and it probably wouldn't be much of
+an exaggeration.  The oaks are broad and tall, and it would take about one
+hundred men standing on each others shoulders to poke through the
+intertwined and leafy canopy of thier tops.  Each trunk is about thirty feet
+around in diameter, and huge branches both point into the air, as well as
+hang down to the ground.  The effect is that of a two-tiered roof of broad
+leaves, buttressed by many interlocking branches, making this part of the
+forest feel very safe and secure.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8152
+D1
+~
+~
+0 0 8163
+D2
+~
+~
+0 0 8172
+D3
+~
+~
+0 0 8161
+S
+#8163
+`2An old grove of oak``~
+It is easy to imagine that the enormous trees in this part of the forest
+have existed for as long as time itself, and it probably wouldn't be much of
+an exaggeration.  The oaks are broad and tall, and it would take about one
+hundred men standing on each others shoulders to poke through the
+intertwined and leafy canopy of thier tops.  Each trunk is about thirty feet
+around in diameter, and huge branches both point into the air, as well as
+hang down to the ground.  The effect is that of a two-tiered roof of broad
+leaves, buttressed by many interlocking branches, making this part of the
+forest feel very safe and secure.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8153
+D1
+~
+~
+0 0 8164
+D2
+~
+~
+0 0 8173
+D3
+~
+~
+0 0 8162
+S
+#8164
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8154
+D1
+~
+~
+0 0 8165
+D2
+~
+~
+0 0 8174
+D3
+~
+~
+0 0 8163
+S
+#8165
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8155
+D1
+~
+~
+0 0 8166
+D2
+~
+~
+0 0 8175
+D3
+~
+~
+0 0 8164
+S
+#8166
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8156
+D1
+~
+~
+0 0 8167
+D2
+~
+~
+0 0 8176
+D3
+~
+~
+0 0 8165
+S
+#8167
+`2An overgrown trackway``~
+This trackway runs through the forest, and this part of it looks to have
+been used recently, perhaps by loggers or foresters.  The weeds and grasses
+that have grown up on the track over the years have been trampled into the
+deep ruts left by countless wagons.  Most of the trees have been cleared
+along the side of the track to allow headway, but every once in a while you
+still have to duck under an errant branch.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8157
+D1
+~
+~
+0 0 8168
+D2
+~
+~
+0 0 8177
+D3
+~
+~
+0 0 8166
+S
+#8168
+`2An overgrown trackway``~
+This trackway runs through the forest, and this part of it looks to have
+been used recently, perhaps by loggers or foresters.  The weeds and grasses
+that have grown up on the track over the years have been trampled into the
+deep ruts left by countless wagons.  Most of the trees have been cleared
+along the side of the track to allow headway, but every once in a while you
+still have to duck under an errant branch.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8158
+D1
+~
+~
+0 0 8169
+D2
+~
+~
+0 0 8178
+D3
+~
+~
+0 0 8167
+S
+#8169
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8159
+D2
+~
+~
+0 0 8179
+D3
+~
+~
+0 0 8168
+S
+#8170
+`2In a thick and unruly forest``~
+This part of the woods is the true heart of Darkling Wood.  Huge oaks
+tower far overhead, blocking out the sun with their massive branches. 
+Birch, elm, and maple all grow here as well, helping to make the folliage
+thick and virtually impassable in some places.  When the wind blows, there
+is a deep and angry rustling sound throughout the forest, almost as if it
+was aware of your presence, and didn't approve.  
+~
+~
+0 1 8192 3
+D0
+~
+~
+0 0 8160
+D1
+~
+~
+0 0 8171
+D2
+~
+~
+0 0 8180
+S
+#8171
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8161
+D1
+~
+~
+0 0 8172
+D2
+~
+~
+0 0 8181
+D3
+~
+~
+0 0 8170
+S
+#8172
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8162
+D1
+~
+~
+0 0 8173
+D2
+~
+~
+0 0 8182
+D3
+~
+~
+0 0 8171
+S
+#8173
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8163
+D1
+~
+~
+0 0 8174
+D2
+~
+~
+0 0 8183
+D3
+~
+~
+0 0 8172
+S
+#8174
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8164
+D1
+~
+~
+0 0 8175
+D2
+~
+~
+0 0 8184
+D3
+~
+~
+0 0 8173
+S
+#8175
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8165
+D1
+~
+~
+0 0 8176
+D2
+~
+~
+0 0 8185
+D3
+~
+~
+0 0 8174
+S
+#8176
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8166
+D1
+~
+~
+0 0 8177
+D2
+~
+~
+0 0 8186
+D3
+~
+~
+0 0 8175
+S
+#8177
+`2An overgrown trackway``~
+This trackway runs through the forest, and this part of it looks to have
+been used recently, perhaps by loggers or foresters.  The weeds and grasses
+that have grown up on the track over the years have been trampled into the
+deep ruts left by countless wagons.  Most of the trees have been cleared
+along the side of the track to allow headway, but every once in a while you
+still have to duck under an errant branch.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 8167
+D1
+~
+~
+0 0 8178
+D2
+~
+~
+0 0 8187
+D3
+~
+~
+0 0 8176
+S
+#8178
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8168
+D1
+~
+~
+0 0 8179
+D2
+~
+~
+0 0 8188
+D3
+~
+~
+0 0 8177
+S
+#8179
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  One particulary large tree seems to lead up through the forest
+canopy and into the clouds.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8169
+D3
+~
+~
+0 0 8178
+D4
+~
+~
+0 0 9101
+S
+#8180
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 8170
+D1
+~
+~
+0 0 8181
+D2
+~
+~
+0 0 8190
+S
+#8181
+`2In a thick and unruly forest``~
+Sunlight is an unwanted guest in this part of the forest.  The beams that
+do make it past the network of leaves and branches are filtered by air until
+there is no light left to hit the forest floor.  Crawlers creep across the
+forest floor, strangling anything in their path.  
+~
+The forest is eerily dark at this time of night.  Black is the color the
+forest is painted.  No shadows bounce around the woods, for no light from
+the moons can shine through the canopy.  Crawlers creep across the forest
+floor, strangling anything in their path.  
+~
+0 1 16384 3
+D0
+~
+~
+0 0 8171
+D1
+~
+~
+0 0 8182
+D3
+~
+~
+0 0 8180
+S
+#8182
+`2In a thick and unruly forest``~
+The trees intertwine with one another's branches.  Each tree joining with
+the one beside it, creating a labyrinth in the forest.  The fauna that grows
+beneath the canopy is thick, suffocating the air and making it near
+impossible to move.  Muffled sounds push their way through the forest,
+disturbing the peace.  
+~
+~
+0 1 16384 3
+D0
+~
+~
+0 0 8172
+D1
+~
+~
+0 0 8183
+D3
+~
+~
+0 0 8181
+S
+#8183
+`2In a thick and unruly forest``~
+Trails are sparse in this section of the Darkling Woods.  The trees grow
+to close and the underbrush is not forgiving against a mammals travels.  The
+trees creak and groan to each other, mimicking the sounds of a gathering. 
+Their whispers, either induced by the wind...  Or something else.  
+~
+~
+0 1 16384 3
+D0
+~
+~
+0 0 8173
+D1
+~
+~
+0 0 8184
+D3
+~
+~
+0 0 8182
+S
+#8184
+`2In a thick and unruly forest``~
+The trees intertwine with one another's branches.  Each tree joining with
+the one beside it, creating a labyrinth in the forest.  The fauna that grows
+beneath the canopy is thick, suffocating the air and making it near
+impossible to move.  Muffled sounds push their way through the forest,
+disturbing the peace.  
+~
+~
+0 1 32768 3
+D0
+~
+~
+0 0 8174
+D1
+~
+~
+0 0 8185
+D3
+~
+~
+0 0 8183
+S
+#8185
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8175
+D1
+~
+~
+0 0 8186
+D3
+~
+~
+0 0 8184
+S
+#8186
+`2An overgrown trackway``~
+You walk down a long trackway cut into the forest, made by the
+loggers to haul wood out of Darkling Wood. Large score marks are visible
+in the soft ground, and the nearby trees are wilted, and dying
+from the heat that the giants tend to put off.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8176
+D1
+~
+~
+0 0 8187
+D3
+~
+~
+0 0 8185
+S
+#8187
+`2An overgrown trackway``~
+This trackway runs through the forest, and this part of it looks to have
+been used recently, perhaps by loggers or foresters.  The weeds and grasses
+that have grown up on the track over the years have been trampled into the
+deep ruts left by countless wagons.  Most of the trees have been cleared
+along the side of the track to allow headway, but every once in a while you
+still have to duck under an errant branch.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8177
+D1
+~
+~
+0 0 8188
+D2
+~
+~
+0 0 8197
+D3
+~
+~
+0 0 8186
+S
+#8188
+`2A darkly lush forest``~
+Trees battle with the thick, lush vegetation, vying for the sunlight and
+nutrients that are so vital to thier survival.  The way through this thick
+forest is mostly passable, with the exception of where the trees and
+vegetation tangle closely, thier vines and trunks locked in an endless
+struggle.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 8178
+D2
+~
+~
+0 0 8198
+D3
+~
+~
+0 0 8187
+S
+#8189
+`3Outside the North Gate of Emmereaux``~
+A narrow path northward swiftly disappears into undergrowth and is soon
+swallowed by Darkling Wood.  Southward the large gates of the massive city of
+Emmereaux greet you like a distant family member who you have heard about but
+never bothered to visit.  
+~
+~
+0 1 65536 2
+D2
+~
+~
+0 0 8199
+S
+#8190
+`2The forest wall``~
+You stand at the great entrance to the Darkling Wood, one of the oldest
+forests in Palinese existance.  Deep black timber looms before you for as far
+as you can see, and you can hear strange sounds and noises emanating from
+deep within.  To your back, the sounds of Emmereaux seem more inviting than
+the path ahead of you.  
+~
+~
+0 1 32768 3
+D0
+~
+~
+0 0 8180
+D2
+~
+~
+0 0 9123
+S
+#8191
+`2A hole in the canopy``~
+As you walk on branches that are too thin, you suddenly
+lose your footing! As you flail to grab for tree limbs,
+only leaves are torn off in your hands, leaving you to fall
+all the way to the forest floor!
+~
+~
+0 278921220 65536 3
+D1
+~
+~
+0 0 8196
+D5
+~
+~
+0 0 8153
+P GRALL 8191 100~
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 8109 spec_cast_cleric
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+O 0 8193 0 8193
+P 0 8195 0 8193 1
+P 0 8196 0 8193 1
+O 0 8194 0 8194
+M 0 8106 10 8197 10
+M 0 8110 10 8197 2
+E 0 8116 0 17
+M 0 8106 10 8198 10
+M 0 8113 20 8198 2
+E 0 8143 0 10
+M 0 8106 10 8199 10
+M 0 8100 40 8100 3
+M 0 8100 40 8100 3
+E 0 8100 0 17
+M 0 8100 40 8101 1
+M 0 8100 40 8102 2
+M 0 8102 20 8102 2
+M 0 8102 20 8103 3
+M 0 8102 20 8103 2
+M 0 8100 40 8103 2
+E 0 8101 0 17
+M 0 8100 40 8104 1
+M 0 8102 20 8104 1
+M 0 8102 20 8105 2
+M 0 8102 20 8106 1
+M 0 8100 40 8107 2
+M 0 8100 40 8107 2
+E 0 8100 0 17
+M 0 8100 40 8108 3
+M 0 8100 40 8108 3
+E 0 8101 0 17
+M 0 8102 20 8108 1
+E 0 8111 0 9
+M 0 8101 1 8108 1
+G 0 8102 0
+E 0 8105 0 5
+E 0 8106 0 6
+E 0 8107 0 11
+E 0 8108 0 8
+E 0 8109 0 7
+E 0 8110 0 1
+E 0 8113 0 12
+E 0 8115 0 15
+M 0 8103 15 8108 1
+E 0 8117 0 17
+O 0 8131 0 8108
+M 0 8107 1 8109 1
+O 0 8121 0 8109
+P 0 8122 0 8121 1
+P 0 8122 0 8121 1
+P 0 8122 0 8121 1
+O 0 8119 0 8112
+M 0 8104 15 8115 3
+M 0 8103 15 8116 3
+M 0 8103 15 8117 3
+O 0 8131 0 8119
+M 0 8103 15 8119 2
+M 0 8104 15 8119 3
+M 0 8104 15 8125 3
+M 0 8104 15 8126 3
+M 0 8104 15 8127 3
+O 0 8120 0 8128
+O 0 8131 0 8129
+M 0 8103 15 8129 2
+E 0 8117 0 17
+M 0 8104 15 8129 3
+O 0 8123 0 8130
+O 0 8119 0 8131
+M 0 8103 15 8138 15
+M 0 8104 30 8138 30
+M 0 8104 30 8138 30
+M 0 8111 20 8140 2
+M 0 8111 20 8141 2
+O 0 8119 0 8142
+M 0 8102 40 8143 3
+E 0 8112 0 10
+O 0 8123 0 8150
+M 0 8111 20 8150 2
+M 0 8111 20 8151 2
+M 0 8111 20 8152 2
+O 0 8120 0 8153
+M 0 8109 1 8154 1
+E 0 8104 0 17
+M 0 8102 30 8155 30
+M 0 8106 15 8156 2
+M 0 8111 20 8161 2
+M 0 8102 40 8163 3
+E 0 8114 0 14
+M 0 8113 20 8165 2
+E 0 8148 0 17
+M 0 8100 40 8166 3
+M 0 8102 40 8167 3
+M 0 8110 10 8167 2
+E 0 8116 0 17
+M 0 8113 20 8169 1
+E 0 8148 0 17
+M 0 8111 20 8170 2
+M 0 8100 40 8171 3
+M 0 8111 20 8171 2
+M 0 8102 40 8172 3
+M 0 8106 35 8174 2
+M 0 8100 40 8175 3
+M 0 8110 10 8176 2
+E 0 8116 0 17
+M 0 8113 20 8178 2
+E 0 8146 0 6
+M 0 8112 1 8179 1
+E 0 8142 0 8
+E 0 8141 0 9
+E 0 8149 0 17
+M 0 8111 20 8180 2
+M 0 8100 40 8182 3
+M 0 8106 35 8183 2
+M 0 8100 40 8184 3
+M 0 8110 10 8186 2
+E 0 8116 0 17
+M 0 8113 20 8187 2
+E 0 8145 0 15
+E 0 8147 0 12
+M 0 8113 20 8188 1
+M 0 8191 1 8191 1
+G 0 8191 0
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#8109
+if isgood $n
+     say Thank Gaia you have come, $n. The fire giants...
+     say They are destroying my forest!
+     say Please help me!
+     emote wrings his hands in despair.
+endif
+if isevil $n
+     glare $n
+     say You have come to destroy my forest...
+     say Out with you!
+endif
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#8104
+if cabal $n 'warmaster'
+  obj echoat $n This is not the way a Warmaster should act!
+  break
+endif
+if isworn $i  
+  if isdelay $i
+    obj echoat $n $I has been tapped of its mana.
+  else
+    obj echo $I glows with a soft, green aura.
+     obj cast 'cure critical' $n
+    obj delay 5
+  endif
+else
+  obj echoat $n  You must be wearing this object to manipulate it.
+endif
+~
+#0
+
+#ROOMPROGS
+#8109
+if rand 50
+     room zecho You hear the sound of sawing logs nearby.
+else
+     room zecho You hear another tree fall in the distance.
+endif
+~
+#8191
+if players > 1
+  break
+endif
+if affected $n flying
+          room echoat $n As your footing slips, you take flight, and all is well.
+     room echoaround $n As $n's footing slips, $n takes flight, and all is well.
+     break
+endif
+if affspell $n 'fly'
+     room echoat $n As your footing slips, you take flight, and all is well.
+     room echoaround $n As $n's footing slips, $n takes flight, and all is well.
+else
+     room echoat $n You suddenly feel the branches beneath you give way!
+     room echoaround $n The branches beneath $n suddenly give way!
+     room echoaround $n $n begins to flail his arms wildly!
+     room force $n yell Aaaaaaaaahhhhhhhhhhh!!!!!
+     room echoaround $n $n falls toward the forest floor, striking branches on $s way down!
+     room echoaround $n $n lands with a 'thud' on the floor of the forest.  
+     room echoat $n You strike a branch!
+     room echoat $n A branch strike `1MANGLES`` you!
+     room damage $n 30 50
+     room echoat $n You strike another branch!
+     room echoat $n A branch strike `1maims`` you!
+     room damage $n 10 20
+     room echoat $n You are twisted about, and strike a large limb!
+     room echoat $n A limb strike `1DISMEMBERS`` you!
+     room damage $n 30 50
+     room echoat $n You continue to fall out of control!
+     room echoat $n ...
+     room echoat $n ...
+     room echoat $n ...
+     room echoat $n ...
+     room echoat $n ...
+     room echoat $n You land feet first on the ground....HARD.
+     room echoat $n Your contact with the ground `1=== DISINTEGRATES ===`` you!
+     room damage $n 150 250
+     room echoat $n You manage to slowly regain consciousness...
+     room transfer $n 8153
+endif
+~
+#0
+
+#$

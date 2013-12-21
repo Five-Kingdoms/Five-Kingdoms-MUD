@@ -1,0 +1,4674 @@
+#AREADATA
+Name Limbo~
+Pref ~
+Builders Yeralon Rotarx~
+VNUMs 1 199
+Max_Bastions 0
+Credits { --- } System~
+Security 9
+Startroom 0
+Flags 160
+Crimes 6 1 0 0 0 0 3 
+End
+
+
+
+#CABALS
+#1
+VERSION 1000
+FileName justice~
+WhoName `&JUSTICE``~
+Imm Thoclya~
+Currency scalp~
+OnGate A group of armed guards close the gates of Justice.~
+OffGate A group of armed guards open the gates of Justice.~
+MsgGate As you approach the locked gate, a score of crossbows aimed at your heart stop your feet.~
+Anchor 16700
+Guard 16700
+MaxRoom 50
+MinRank 1
+MaxMem 25
+MinLvl 15 MaxLvl 50
+Flags EFH
+Flags2 0
+Align BC
+Ethos A
+Progress 0
+MRanks 6 Inductee~ Observer~ Deputy~ Justice~ Magistrate~ Arbiter~ 
+FRanks 6 Inductee~ Observer~ Deputy~ Justice~ Magistrate~ Arbiter~ 
+Race 32 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Avatar 1
+Class 20 1 1 1 1 0 0 0 1 1 1 1 0 1 1 0 0 1 0 1 0 
+End
+#2
+VERSION 1000
+FileName sentinel~
+WhoName `&SENTINEL``~
+Imm Thoclya~
+Currency scalp~
+OnGate A group of armed guards close the gates of Justice.~
+OffGate A group of armed guards open the gates of Justice.~
+MsgGate As you approach the locked gate, a score of crossbows aimed at your heart stop your feet.~
+Anchor 16700
+Guard 16700
+MaxRoom 50
+MinRank 1
+MaxMem 25
+MinLvl 15 MaxLvl 50
+Flags EFH
+Flags2 0
+Align BC
+Ethos A
+Progress 0
+MRanks 6 Inductee~ Observer~ Deputy~ Justice~ Magistrate~ Arbiter~ 
+FRanks 6 Inductee~ Observer~ Deputy~ Justice~ Magistrate~ Arbiter~ 
+Race 32 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Avatar 1
+Class 20 1 1 1 1 0 0 0 1 1 1 1 0 1 1 0 0 1 0 1 0 
+End
+#3
+VERSION 1000
+FileName Enforcer~
+WhoName `&ENFORCER``~
+Imm Thoclya~
+Currency scalp~
+MaxRoom 50
+MinRank 0
+MaxMem 25
+MinLvl 25 MaxLvl 50
+Flags EFH
+Flags2 0
+Align BC
+Ethos A
+Progress 0
+MRanks 6 Inductee~ Observer~ Tracker~ Enforcer~ Executioner~ Arbiter~ 
+FRanks 6 Inductee~ Observer~ Tracker~ Enforcer~ Executioner~ Arbiter~ 
+Race 32 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Avatar 1
+Class 20 1 1 1 1 0 0 0 1 1 1 1 0 1 1 0 0 1 0 1 0 
+End
+#4
+VERSION 1000
+FileName cabal~
+WhoName WHO NAME~
+Imm Virigoth~
+Currency coin~
+MaxRoom 50
+MinRank 0
+MaxMem 25
+MinLvl 20 MaxLvl 50
+Flags 0
+Flags2 0
+Align ABC
+Ethos ABC
+Progress 0
+MRanks 6 Inductee~ Member~ Veteran~ Trusted~ Elder~ Leader~ 
+FRanks 6 Inductee~ Member~ Veteran~ Trusted~ Elder~ Leader~ 
+Race 32 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Avatar 1
+Class 20 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+End
+#0
+
+
+
+#MOBILES
+#1
+flesh golem~
+a flesh golem~
+A flesh golem stands here to do his master's bidding.
+~
+~
+unique~
+AO AF DFJ 0 -1000 1000
+20 1 1d1+299 0d0+100 5d4+20 slash
+0 0 0 0
+FKN Q 0 0
+stand stand none none~
+65
+AHMV ABCDEFGHIJK medium 0
+#2
+stone golem~
+a stone golem~
+A stone golem stands here to do his master's bidding.
+~
+~
+unique~
+AO AF DFJ 0 -1000 1000
+30 1 1d1+499 0d0+100 9d5+20 pierce
+-30 -30 -30 30
+KN Q D C
+stand stand none none~
+0
+AHMV ABCDEFGHIJK medium 0
+#3
+zombie~
+a zombie~
+A zombie stands here to do his master's bidding.
+~
+A pale reminder of the once living, a zombie awaits to do whatever its
+master demands. 
+~
+undead~
+AO AF DFJ 0 -1000 1000
+30 1 1d1+499 0d0+100 5d4+60 pierce
+0 0 0 0
+KN LQ I N
+stand stand none none~
+125
+0 ABCDEFGHIJK medium 0
+#4
+large mammoth~
+a large mammoth~
+A large, shaggy mammoth is here.
+~
+~
+human~
+AE AF J 0 0 1000
+30 1 1d1+499 0d0+100 5d8+0 crush
+0 0 0 0
+DN B EI F
+stand stand none none~
+125
+AHMV ABCDEFGHIJK large 0
+#5
+chaos demon chaosdemon~
+a chaosdemon~
+A Chaosdemon stands here.
+~
+Before you stands a demonic aberration, stemmed directly from the ethereal
+nexus. This is unlike a Chaos Demon, who lives in these planes. This demoic
+minion lives only to kill and rend flesh, and seems much less sentient than
+his Chaotic counterparts. Large claws to tear skin and huge, twisted muscles
+are set in its body to snap bone. Fear grips you as you look into its eyeless
+face, and it flicks its long, serpentine black tongue at you.
+~
+unique~
+A A DFJ 0 -1000 1000
+20 1 1d1+299 0d0+100 5d4+20 slash
+-1 -1 -1 0
+KNX 0 0 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK medium 0
+#6
+large leopard~
+a large spotted leopard~
+A large spotted leopard sits here.
+~
+~
+human~
+AEe AF JP 0 0 0
+30 1 1d1+400 0d0+100 5d8+0 claw
+0 0 0 0
+DHNX B I E
+stand stand none none~
+125
+AHMV ABCDEFGHIJK medium 0
+#7
+large wyvern~
+a large wyvern~
+A large, menacing wyvern perches here.
+~
+Sandy brown overlapping scales cover this large, 2 legged dragon-like 
+creature. Its maw lined with rows of large razor sharp teeth and two
+daggerish fangs dripping with poison. Its large leathery wings look as
+if they could easily fly this massive reptile about.
+~
+human~
+AE AF JT 0 0 0
+30 1 1d1+400 0d0+100 5d6+0 psbite
+0 0 0 0
+FHN BL I G
+stand stand none none~
+125
+AHMV ABCDEFGHIJK medium 0
+#8
+displacer beast~
+a displacer beast~
+A displacer beast snarls here.
+~
+Glossy black coat shines off the light as this menacing cat glares at you
+with glowing yellow eyes.  Roughly the size of a small horse, this large 
+cat-like creature has two long tentacles that sprout out from the fore
+shoulders and end in wicked spikes.  It seems to shimmer in and out of 
+existence appearing in a different location every time you look.
+~
+human~
+AET AF DJ 0 0 0
+30 1 1d1+300 0d0+100 3d6+0 claw
+0 0 0 0
+FN B 0 M
+stand stand none none~
+125
+AHMV ABCDEFGHIJK large 0
+#9
+%s's inquisitor~
+%s's Inquisitor~
+%s's Knightly Inquisitor stands here.
+~
+Clad in heavy armor and hefting a potent looking mace, the Inquisitor
+of the Knights of the Crown stands here.
+~
+human~
+ACITe AF DHJ 0 1000 1000
+30 1 1d1+299 0d0+100 5d4+20 smash
+0 0 0 0
+L 0 0 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK medium 0
+#10
+Trap-Proxy~
+a trap proxy~
+ERROR, contact immortal.
+~
+This is a trap proxy, it is used to allow traps to cause damaeg and and
+cast spells.  
+~
+human~
+AZ A 0 0 0 0
+50 0 20000d1+1 0d0+100 1d1+1 pierce
+-20 -20 -20 -20
+0 ABCDM 0 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK medium 0
+#11
+large raven~
+a large black raven~
+A large, black raven perches here.
+~
+Deep, black eyes stare out from the bluish tinged black feathers of 
+this larger than normal bird.  A sharp beak that seems like it could 
+pluck out your eyes in an instant, matches the wiry but cruelly sharp 
+claws of its talons.
+~
+human~
+A AF JT 0 0 0
+20 1 1d1+100 0d0+100 3d5+0 scratch
+0 0 0 0
+FX B 0 EH
+stand stand none none~
+65
+AHMV ABCDEFGHIJK tiny 0
+#12
+fiery demon~
+a fiery demon~
+A fiery demon from the underworld hovers here.
+~
+~
+demon~
+AR A DJTV 0 0 0
+50 10 50d10+800 0d0+100 5d8+25 pierce
+-20 -20 -20 -10
+F B 0 A
+stand stand none none~
+260
+AHMV ABCDEFGHIJK large 0
+#13
+guard captain~
+the Guard Captain~
+The Justice Guard Captain oversees the area.
+~
+~
+human~
+AT ACF DFHJ K 0 0
+50 18 1d1+1999 0d0+100 5d6+30 slash
+-15 -15 -15 -5
+KX B 0 0
+stand stand none none~
+260
+AHMV ABCDEFGHIJK medium 0
+#14
+shadow~
+a shadow~
+A shadow is lurking here waiting for its victim.
+~
+A human shaped shadow.  It wavers slightly and silently
+continues on its way.
+~
+elf~
+AOT A BDFJOPQV 0 -750 0
+50 10 3000d1+1 0d0+100 5d6+26 none
+0 0 0 0
+FHIK BLQ CD N
+stand stand none none~
+260
+AHMV ABCDEFGHIJK medium 0
+F res B
+F vul Z
+#15
+nightwalker~
+a nightwalker~
+A nightwalker breathes heavily in the shadows.
+~
+~
+human~
+A A DFJV 0 -750 0
+50 10 20d50+100 0d0+100 0d0+0 none
+0 0 0 0
+FHIKN BLQ M N
+stand stand none none~
+260
+AHMV ABCDEFGHIJK medium 0
+#16
+goliath white stallion~
+the Goliath~
+A large white stallion is reigned here.
+~
+~
+horse~
+ABE A 0 0 750 0
+10 0 1d1+499 0d0+100 1d1+9 charge
+0 0 0 0
+IJ AB 0 0
+stand stand either none~
+0
+AGV ABCDEFHJK large 0
+#17
+familiar striped cat kitten~
+a striped kitten~
+A small, cute kitten with stripes purrs here.
+~
+Soft and furry, a pink-nosed kitten glances innocently about with big, 
+golden eyes, its tail sticking into the air with the tip slightly bent to 
+the side.  Yellow and orange stripes coat its body from nose to tail to 
+ever-so-delicate paws that are supported by supple, pink pads.
+He looks far too intelligent to be your average cat.  As you look closer
+into his eyes you find that there is some other spiritual force driving
+this cat to another.  Other than that he is a cute kitty, who likes
+warm milk and lots and lots of kitty snacks.
+~
+unique~
+AB A DJP 0 0 0
+0 0 0d0+0 0d0+100 0d0+0 none
+0 0 0 0
+K AB 0 0
+stand stand none none~
+0
+0 0 medium 0
+#18
+hound dog wolfhound~
+a large brown wolf hound~
+A large brown wolf hound is pawing the ground here.
+~
+You see before you a massive wolfhound. With a sleek brown coat, the
+dog looks fast, and ornery. Around his neck he wears a spiked collar,
+with several lengths of steel chain attached. He seems pleasant enough
+now, but you have heard tales of the ferocity of the Great Hounds of
+Justice.
+~
+dog~
+AETc AC DFHP K 0 0
+30 22 10d10+300 0d0+100 5d5+20 bite
+0 0 0 0
+EHNX AB 0 0
+stand stand none none~
+0
+AGV ACDEFHJKUV medium 0
+#19
+%s's demon hunter~
+%s's Demon Hunter~
+%s's Demon Hunter stands here.
+~
+Bristling from foot to toe in exotic weaponry the man casts a dark
+depressing look about the area and fingers his weapons.
+~
+human~
+ACITe AF DHJ 0 1000 1000
+30 1 1d1+299 0d0+100 5d4+20 slash
+0 0 0 0
+EL 0 0 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK medium 0
+P FIGHT 17 100~
+P RANDOM 18 50~
+#20
+%s's avatar~
+%s's Knight Avatar~
+%s's Knight Avatar stands here.
+~
+Clad in shiny armor that glares from the slightest of light the
+humanoid armored figure hides all of its details behind its splendid armor.
+A single broadsword of magnificent quality rests at its side.
+~
+human~
+ACITe AF DHJ 0 1000 1000
+30 1 1d1+299 0d0+100 5d4+20 bladed
+0 0 0 0
+ELN B 0 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK medium 0
+P FIGHT 17 100~
+P RANDOM 18 50~
+#21
+nemesis creature nameless~
+The Nameless~
+A featureless, faceless creature is here, caged and chained.
+~
+Grey skin is stretched tightly over a man-sized frame.  This odd
+creature's head is devoid of feature, a blank sheet of flesh composing it's
+face.  Thin arms are pulled to the side of it's body as thick iron chains,
+covered in runes, bind it to the sides of the cage.  As you gaze at it, it
+makes no movement or action to otherwise signal sentience.  How is this
+creature a threat?  None can know.  
+~
+unique~
+ABCOTc ACH DFJU K -1000 1000
+30 1 1d1+30000 0d0+100 5d5+50 smash
+0 0 0 0
+AFK AB 0 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK medium 0
+P DEATH 20 100~
+P KILL 21 100~
+#22
+magic eye~
+A magic eye~
+A strange floating eye is here.
+~
+About the size of a dwarf, a large eye floats some distance from the ground.
+~
+human~
+ABe AC BDFJQ JK 0 0
+5 0 50d10+200 0d0+100 5d1+5 magic
+0 0 0 0
+0 AB 0 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK medium 0
+#23
+dummy~
+a dummy~
+A dummy is here.
+~
+A smokey, translucent image that seems to blur only to waver
+and sharpen into a perfect replica of its master when you begin
+to near it.
+~
+unique~
+AUe A P 0 0 0
+0 0 1d1+0 0d0+100 1d1+0 punch
+10 10 10 10
+0 0 0 0
+stand stand either none~
+0
+AGQc ADEFGKM medium 0
+#24
+ectoplasm vapor~
+some ectoplasm vapor~
+A mist of ectoplasm vapor fills the air.
+~
+Before you stands a large formation of a mucus-like substance.
+It seems to be opalescent, and opaque, for the moment, but its
+constant shifting and moving makes it quite difficult to observe.
+It fills the room with a mystical vapor.
+~
+unique~
+AB A DJU 0 0 0
+1 0 1d1+99 0d0+100 1d1+9 chill
+-10 -10 -10 -10
+0 AB D 0
+stand stand none none~
+0
+AGV ABCDEFHJK medium 0
+#25
+ectoplasm solid~
+some ectoplasm solid~
+A blob of ectoplasm slides around on the ground.
+~
+A large, solid mass of ectoplasm stands before you. It is
+rigid enough to propel itself using a sort of sliding motion,
+and it coalesces as it moves over the ground, leaving a slimy
+trail of itself as it moves.
+~
+unique~
+AB A DJ 0 0 0
+1 0 1d1+99 0d0+100 1d1+9 slime
+-5 -5 -5 -5
+0 AB 0 0
+stand stand none none~
+0
+AGV ABCDEFHJK medium 0
+#26
+duplicate~
+a duplicate~
+(no long description)
+~
+It's an illusion!
+~
+human~
+A A 0 0 0 0
+0 0 1d1+99 0d0+100 1d1+1 punch
+0 0 0 0
+0 0 P 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK medium 0
+#27
+skin~
+skin~
+Skin
+~
+An old cast off skin is here.
+~
+slith~
+A A J 0 0 0
+1 -100 1d1+199 0d0+100 0d0+0 punch
+0 0 0 0
+0 0 0 0
+stand stand none none~
+0
+0 ABCDEFGHIJKLQXc medium 0
+#28
+decoy~
+a decoy of %s~
+$S is here.
+~
+Hmmm, there's something funny about this person.
+~
+human~
+ABO A 0 0 0 0
+1 0 1d1+0 0d0+100 1d1+0 none
+0 0 0 0
+0 0 0 0
+stand stand male none~
+0
+AHMV ABCDEFGHIJK medium 0
+#29
+elven elf valkyre desc description~
+an elven valykre~
+An elven Valkyre stand here waiting for you to look at her.
+~
+A tall, lean elven lady stands before you, clad in a heavy suit of
+brilliant gleaming armor kept in top condition.  Her arm, decorated on the
+forearm with a silver blazing torch, tightly graps a gigantic mithril
+polearm with an enchanted silvery blade that you can see your reflection in.
+She has a lean, nimble figure as do most elves, her muscles are noticeably
+larger and more definded than those of her fellow elves.  
+
+Her face is simply beautiful, as if god had spent a great amount of time
+perfecting every feature of it.  Her light tan skin complexion perfeclty
+agrees with her light golden hair and deep blue eyes.  Her face is
+practically perfect, without any unsightly scars or blemishes detract from
+her appearance.  What is most captivating about her face though, is her
+eyes.  Her large, dark blue irises are filled with a look of curiosity mixed
+with intelligence, and seem full of vigor.  Her facial expression is calm
+and contemplative, yet displays a sense of confidence.  Her body is relaxed,
+and legs positioned in a natural fighting stance that would allow her to
+move with the speed needed to fight and defend herself effectively.  Her
+confidence and superior physical condition suggest she is indeed a heavily
+trained veteran of the battlefield.  
+~
+human~
+A AI 0 0 0 0
+60 100 100d10+1000 0d0+100 100d10+100 none
+0 0 0 0
+EFHJ CD 0 0
+stand stand female none~
+0
+AHMV ABCDEFGHIJK medium 0
+#30
+black widow spider~
+a black widow~
+A poisonous black widow lurks here.
+~
+A small but poisonous breed.
+~
+human~
+A AC 0 0 0 30
+1 30 1d1+99 0d0+100 2d5+10 sting
+0 0 0 0
+0 0 0 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK small 0
+#31
+phoenix~
+a baby phoenix~
+A baby phoenix toddles after its master.
+~
+Sizzling crimson and flagrant orange colide on the brilliant plumage
+of a graceful bird-creature, wings smoldering with the color of red
+hot embers.  Extra long tail feathers sweep back in a gust of flame, a
+nimble airborn conflageration flitting through the air.
+~
+human~
+A AC 0 0 0 0
+1 0 1d1+99 0d0+100 1d1+5 peck
+0 0 0 0
+0 0 0 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK medium 0
+#32
+djinn trainer~
+Djinn trainer~
+A Djinn trainer floats before you.
+~
+He bears all the traits of a Djinn down to the bluish skin and rather excessive
+use of golden ornaments.
+~
+unique~
+ABGJKTZbe AC D 0 0 0
+60 35 10d6+6000 0d0+100 6d8+40 slash
+3 3 3 3
+0 ABCD 0 0
+stand stand male none~
+600
+AHMV ABCDEFGHIJK medium 0
+#33
+spirit pcspirit spirit%s~
+%s's spirit~
+%s's spirit is here, on its way somewhere.
+~
+The grey blurred form has no detail that you can notice.  Almost like a
+mist , yet with a definite purpose in its steadfast movement somewhere..  
+~
+unique~
+ALO A U 0 0 0
+5 0 10d10+100 1d1+1 1d1+5 none
+0 0 0 0
+0 AB 0 0
+stand stand none none~
+0
+0 0 medium 0
+P SPECIAL 33 100~
+#34
+giant figure %s's vanguard~
+the Vanguard~
+A giant figure wholly covered in incandescent armor.
+~
+Standing well above 3 meters tall, with not even a hint of unarmored flesh 
+showing through. The holy warrior of %s stands solemnly on guard its helm
+fully enclosed with not even a visor to show its eyes.  The armor which  protects
+it sizzles with heat and power, with an occasional crackle of energy emitting
+from the air around it.  A giant halberd at its side, this supernatural warrior
+of gods is a sight that often fills with awe or fear. 
+~
+human~
+ABCITe AF DHJN 0 1000 0
+20 10 1d1+5000 0d0+100 0d0+0 none
+0 0 0 0
+FK 0 0 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK large 0
+P FIGHT 17 100~
+P RANDOM 18 50~
+#36
+servant elemental fire efreet~
+an Efreet~
+Surrounded by fire an Efreet guards its master.
+~
+~
+unique~
+Ae AF DJ 0 0 0
+0 0 0d0+0 0d0+100 0d0+0 flame
+0 0 0 0
+F B HO 0
+stand stand none none~
+0
+0 0 medium 0
+#37
+servant elemental water~
+a water elemental~
+Translucent and ever changing, a water elemental is here.
+~
+A semi-humanoid form composed of colorless liquid stand before you, its
+feautres rippling slowly.  It has not feet, yet stands upon a pillar
+of water, calmly awaiting its masters orders.
+~
+unique~
+Ae AF DJU 0 0 0
+0 0 0d0+0 0d0+100 0d0+0 torrent
+0 0 0 0
+F B KR 0
+stand stand none none~
+0
+0 0 medium 0
+#38
+servant air elemental djinni~
+a Djinni~
+Floating upon air a Djinni is here.
+~
+Floating upon a cushion of air, its skin almost transparent to the eye
+the Djinni brings a serene peace to the area.  The blazing eyes slowly 
+open, white discs of searing lighting that look upon you. It floats here
+waiting its masters commands.
+~
+unique~
+Ae AF 0 0 0 0
+0 0 0d0+0 0d0+100 0d0+0 blast
+0 0 0 0
+F B DJ 0
+stand stand none none~
+0
+0 0 medium 0
+#39
+servant elemental earth~
+an earth golem~
+An earth golem stands motionless here.
+~
+Piled together are granite stones, massive in size and weight, but somehow
+forming a creature of tall stature and immense strength. Two out of 
+proportion hands lumber at the end of thick, stone arms, never reaching up
+to the eyes that never itch, or the nose that never sneezes, or the mouth 
+that rarely speaks.
+~
+stone~
+ATe AF DJ 0 0 0
+0 0 0d0+0 0d0+100 1d1+1 crush
+0 0 0 0
+A B 0 C
+stand stand none none~
+0
+AHMV ABCDEFGHIJK large 0
+F res D
+F vul P
+#40
+justice observer~
+a justice observer~
+A justice observer hides here while keeping watch.
+~
+~
+human~
+ABe A BDFJQ K 0 0
+50 20 50d10+200 0d0+100 5d6+25 slash
+0 0 0 0
+0 B 0 0
+stand stand none none~
+260
+AHMV ABCDEFGHIJK medium 0
+#41
+royal guard~
+a Royal Palace guard~
+A Royal Palace Guard stands here, on guard.
+~
+A man clad in the royal robes of the house of the holder stands here.
+Ready with his sword and tunic, bearing the colors of the house which
+he protects, this royal guard is sworn to give his life for his master.
+The guard looks solemn, and noble, and one who would willingly place his
+life before that of his master's to ensure peace is kept in the realm.
+~
+human~
+AT AF J 0 0 0
+50 20 50d10+200 0d0+100 5d6+25 slash
+0 0 0 0
+FK B 0 0
+stand stand none none~
+260
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 41 fuck~
+#42
+city patrol~
+city patrol~
+Walking at a brisk pace one of the city patrol moves through the area.
+~
+Wearing light armor and light weapons these man and women have been trained
+to spot the best of rouges and thieves in the city.  They travel at
+brisk, steady pace their eyes trained for any criminals hiding in the area.
+~
+human~
+AGTd ACG DFJU K -1000 1000
+50 5 1d1+400 0d0+100 5d5+15 slash
+-10 -10 -10 0
+H AB 0 0
+stand stand either none~
+0
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 42 100~
+#43
+%s's dark serpent~
+a dark serpent~
+%s's dark serpent stretches its wings ready for flight.
+~
+It is a large winged serpent graced with a large saddle between its
+wings.  Its scales are of dark green pigment, and the wings composed of
+thick corse skin.  
+~
+lizard~
+AEIe AF DJT 0 -1000 1000
+30 1 1d1+299 0d0+100 5d4+20 bite
+0 0 0 0
+L 0 L I
+stand stand none none~
+0
+AGXc ACDEFHKLQ large 0
+#44
+%s's black drake~
+a black drake~
+%s's black drake, its wings ready for flight.
+~
+It is a beast larger then common wyverns but much smaller then average
+dragon, its wings and scales covered in scales of pure black.  A single
+streak of white scales marks the vulnerable underbelly, protected by its
+claws, and fanged maw.  
+~
+dragon~
+AEIe AF DJT 0 -1000 1000
+30 1 1d1+299 0d0+100 5d4+20 psbite
+0 0 0 0
+L 0 BEH FI
+stand stand none none~
+0
+AHZ ACDEFGHIJKLPQUVX large 0
+#45
+%s's black dragon~
+a black dragon~
+A young black dragon belonging to %s is here.
+~
+Captured and enslaved by dark magics before its intelligence was fully
+developed, this speciment of a black dragon now serves its master as a loyal
+mount.  Its black scales gleam in the light contrasted by many rows of
+gleaming white teeth which it proudly displays.  
+~
+dragon~
+AEIe AF DJT 0 -1000 1000
+30 1 1d1+299 0d0+100 5d4+20 psbite
+0 0 0 0
+AL 0 BEH FI
+stand stand none none~
+0
+AHZ ACDEFGHIJKLPQUVX huge 0
+P FIGHT 12 20~
+#46
+%s's fiend~
+a fiend~
+%s's fiend slobers awaiting the next battle.
+~
+Its form is a horrid mutation of various animals and you can recognize
+traits of lizard, tiger and bat in various parts of this being.  The roughly
+humanoid head held is held near the ground as it rests on all fours
+stretching its wings.  
+~
+demon~
+AEIe AF DJT 0 -1000 1000
+30 1 1d1+299 0d0+100 5d4+20 tainted
+0 0 0 0
+L 0 0 A
+stand stand none none~
+0
+AHMV ABCDEFGHIJK large 0
+#47
+%s's gargoyle~
+a gargoyle~
+%s's gargoyle awaits its master's orders.
+~
+Jet black in color, its skin gleams oily in the light.  A pair of eyes
+like two pools of lava cast an evil glow upon its face.  A pair of long arms
+armed with talons and stony spurs hang at its sides.  
+~
+demon~
+AEIe AF DJT 0 -1000 1000
+30 1 1d1+299 0d0+100 5d4+20 claw
+0 0 0 0
+L 0 CD 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK large 0
+F vul A
+#48
+%s's terror~
+the Terror~
+%s's Terror smokes and seethes with heat.
+~
+The air dances around its seething figure formed from infernal fires off
+Hell.  A maw of pure white heat opens to emit of blast of tortured air which
+screams its way out mixed with smoke and ashes.  A pair of eyes like windows
+into hell itself burn with everlasting hatred as the Terror of Hell
+brandishes its fiery blade.  
+ 
+~
+demon~
+AEIe AF DJT 0 -1000 1000
+30 1 1d1+299 0d0+100 5d4+20 flame
+0 0 0 0
+L 0 DH I
+stand stand none none~
+0
+AHMV ABCDEFGHIJK huge 0
+F vul A
+P FIGHT 15 20~
+#49
+%s's nightmare~
+a nightmare~
+%s's nightmare stands here it wings crackling with heat.
+~
+Its flaming wings spread wide, the jet black nightmare snarls as it's
+hoofs dig into the ground uneasly.  The black eyes set into its face speak
+of uncanny intelligence as they search for its unliving master.  
+~
+horse~
+AEIOe AF DJT 0 -1000 1000
+30 1 1d1+299 0d0+100 5d4+20 flame
+0 0 0 0
+L 0 H I
+stand stand none none~
+0
+AGV ABCDEFHJK large 0
+#50
+swamp drake~
+%s's swamp drake~
+%s's swamp drake is here, stretching its slimy wings.
+~
+A freak of evolution, the swap dragons have been first seen around the
+cursed S'handor Fortress.  Living in an area lacking any living things, they
+are the only undead creature in the lands that is created naturally.  When a
+swamp dragon reaches maturity it dies only to rise again days after
+unchanged, yet dependant solely upon powers of death.  
+~
+undead~
+AEIOe AF DJT 0 -1000 1000
+30 1 1d1+299 0d0+100 5d4+20 disease
+0 0 0 0
+L LQ I N
+stand stand none none~
+0
+0 ABCDEFGHIJK large 0
+P FIGHT 13 10~
+#51
+%s's dracolich~
+the Dracolich~
+%s's dracolich stands here reeking of death.
+~
+It once might have been a young dragon or the weaker, less intelligent
+drake.  Yet now bound by powers of death to its master, its lifeless flesh
+and wings move only at his command.  
+~
+undead~
+AEIOe AF DJT 0 -1000 1000
+30 1 1d1+299 0d0+100 5d4+20 skdrain
+0 0 0 0
+L LQ I N
+stand stand none none~
+0
+0 ABCDEFGHIJK huge 0
+P FIGHT 13 10~
+#81
+grim reaper~
+the Grim Reaper~
+(`8Black Aura``) The Grim Reaper stands here to take your life.
+~
+A large cloaked, hooded figure stands here to await your choice.
+Speaking the words death around him is widely rumored to cause
+just that...death.
+~
+undead~
+ABOTZ AC DFHJ 0 0 0
+60 90 10d10+10000 0d0+100 10d10+80 none
+-30 -30 -30 -30
+FGHKNX ABCDGHJLMNPQRZa I N
+stand stand none none~
+0
+0 ABCDEFGHIJK huge 0
+P ACT 81 kneels~
+#0
+
+
+
+#OBJECTS
+#1
+soul~
+soul~
+soul.~
+energy~
+armor GP AU
+0 0 0 0 0
+0 0 0 P
+F
+A 13 20 0
+F
+A 12 20 0
+#2
+coin gold gcash~
+a gold coin~
+One valuable gold coin.~
+gold~
+money 0 A
+0 1 0 0 0
+0 10 0 P
+#3
+coins gold gcash~
+%d gold coins~
+A pile of gold coins.~
+gold~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#4
+ranger staff~
+a ranger's staff~
+A ranger's staff pulses on the ground.~
+wood~
+weapon AG AN
+staff 1 1 smash F
+1 180 0 G
+#5
+%s%s~
+a %s%s~
+A %s%s lies here.~
+wood~
+projectile 0 AT
+A 1 1 pierce 0 1 2 0 P
+#6
+halberd giant~
+a gleaming halberd~
+A giant gleaming halberd.~
+steel~
+weapon HMPTUYZ N
+polearm 4 10 pierce DFG
+60 1000 0 P
+R
+61
+#7
+test eq~
+test eq~
+Test eq is here.~
+unknown~
+armor 0 AD
+70 70 70 30 0
+0 0 0 P
+F
+A 19 25 0
+F
+A 18 25 0
+#8
+trap proxy~
+a trap proxy~
+ERROR, contact immortal.~
+Virigoth's Sweat~
+trash 0 c
+0 0 0 0 0
+50 0 0 P
+T
+35 2 7
+The Yin-Yang turns white and shoots out a beam!~
+Something shoots out a beam of light!~
+T
+36 2 7
+The Yin-Yang turns dark and shoots out a beam!~
+Something shoots out a beam of darkness!~
+#9
+%s ruins~
+ruins of %s~
+Ruins of %s litter the area.~
+ruins~
+trash 0 P
+0 0 0 0 0
+0 0 0 P
+#10
+corpse~
+the corpse of %s~
+The corpse of %s is lying here.~
+meat~
+npc_corpse 0 A
+0 0 0 A 0
+0 1000 0 D
+#11
+corpse pccorpse~
+the corpse of %s~
+The corpse of %s is lying here.~
+meat~
+pc_corpse O 0
+0 0 0 A 0
+0 1000 0 D
+#12
+head~
+the head of %s~
+The severed head of %s is lying here.~
+meat~
+trash 0 AEO
+0 0 0 0 0
+0 50 0 D
+#13
+heart~
+the heart of %s~
+The torn-out heart of %s is lying here.~
+meat~
+food 0 A
+16 16 0 0 0
+0 20 0 D
+#14
+arm~
+the arm of %s~
+The sliced-off arm of %s is lying here.~
+meat~
+food 0 A
+20 20 0 0 0
+0 50 0 D
+P RANDOM 1 10~
+#15
+leg~
+the leg of %s~
+The sliced-off leg of %s is lying here.~
+meat~
+food 0 A
+20 20 0 0 0
+0 50 0 D
+P RANDOM 1 10~
+#16
+guts entrails~
+the guts of %s~
+A steaming pile of %s's entrails is lying here.~
+meat~
+food 0 A
+5 5 0 A 0
+0 20 0 D
+#17
+brains brain~
+the brains of %s~
+The splattered brains of %s are lying here.~
+brains~
+food 0 A
+10 10 0 0 0
+0 20 0 D
+#18
+ranger %s %s~
+%s's %s~
+%s's %s is lies in the dust.~
+wood~
+ranged 0 Ae
+0 0 0 0 0
+0 80 0 P
+L
+2
+#19
+tome %s~
+%s by %s~
+A tome %s by %s.~
+papyrus~
+treasure 0 AO
+0 0 0 0 0
+50 0 0 P
+#20
+food magic %s~
+a magic %s~
+A delicious magic %s is here.~
+food~
+food 0 A
+8 8 0 0 0
+0 10 0 P
+#21
+ball light~
+a bright ball of light~
+A bright ball of light shimmers in the air.~
+energy~
+light A A
+0 0 999 0 0
+0 0 0 P
+#22
+spring~
+a magical spring~
+A magical spring flows from the ground here.~
+water~
+fountain G 0
+100000 100000 'water' 0 0
+0 0 0 P
+#23
+directions scroll~
+a scroll of directions~
+A scroll with some directions on it.~
+paper~
+trash TY A
+0 0 0 0 0
+1 0 0 P
+E
+scroll~
+On the scroll are following directions:
+ 
+ 
+Rhedin: 
+Walk thrice north from Central Commons (CC) and then twice west and north.
+ 
+ 
+Val Miran: 
+Walk thrice north from North Square and west
+ 
+ 
+Miruvhor: 
+Walk west from Eastern Gate to Town Square.  Then four south and once west.
+ 
+ 
+*A note is scribbled at the bottom:*
+Remeber you can recall if you are lost.
+ 
+~
+E
+shopping~
+~
+#25
+golden plate platemail mail suit~
+a suit of golden platemail~
+A pile of golden plates overlap to form a suit here.~
+energy~
+armor AGIKLP ADW
+0 0 0 0 0
+0 0 0 P
+#26
+chaosbane chaos bane~
+a holy weapon~
+_~
+energy~
+weapon AGHIKLPZ AN
+exotic 1 1 divine 0
+0 10 0 G
+T
+27 1 30
+$p shines with inner light.~
+$p shines with inner light.~
+#27
+steak~
+a steak~
+A steak lies here.~
+food~
+food 0 A
+20 20 0 0 0
+0 20 0 P
+#28
+poncho~
+a poncho made from ~
+A poncho made from ~
+flesh~
+clothing P AK
+0 0 0 0 0
+0 10 0 P
+F
+A 13 35 0
+F
+A 19 6 0
+F
+A 18 6 0
+#29
+justice shield~
+a Justice's Kite Shield~
+A large kite shield is lying on the ground.~
+magic~
+armor GP AJ
+10 10 10 10 0
+50 50 0 P
+#30
+deputy badge~
+a shiny deputy's badge~
+A shiny star symbolizing the local law is here.~
+magic~
+armor HMPZ AC
+0 0 0 0 0
+0 0 0 P
+#31
+potion~
+a potion~
+A potion~
+magic~
+potion A AO
+0 'poison' '' '' ''
+0 20 0 P
+#32
+%s chaos %s~
+the %s %s~
+The %s %s lies on the ground.~
+unknown~
+weapon GHMPUZ AN
+exotic 5 9 blast 0
+50 50 0 P
+#33
+justice shield~
+a Justice's Kite Shield~
+A large kite shield is lying on the ground.~
+magic~
+armor GP AJ
+10 10 10 10 0
+50 50 0 P
+T
+27 1 30
+$p shines with righeous glow.~
+$p shines with righeous glow.~
+#34
+toxic sludge~
+toxic sludge~
+(`%Pink Aura``) A pool of toxic sludge.~
+toxins~
+trash P P
+0 0 0 0 0
+0 0 0 P
+E
+toxic sludge~
+A small pool of glowing sludge.
+~
+#35
+planar rift blade~
+the Planar Rift~
+The planar rift cuts the space apart.~
+unknown~
+weapon GHMPUZ AN
+exotic 5 5 rift 0
+50 0 0 P
+L
+12
+#42
+uber-test eq~
+uber-test eq~
+Uber-Test eq is here.~
+imagination~
+armor 0 AD
+70 70 70 30 0
+0 0 0 P
+F
+A 24 -30 0
+F
+A 19 45 0
+F
+A 18 45 0
+#43
+replace me~
+the magic carpet~
+A small woven carpet lies under your feet.~
+cloth~
+furniture 0 P
+0 0 0 0 0
+50 0 0 P
+P USE 8706 100~
+#46
+severed arms~
+the severed arms of %s~
+The severed arms of %s are lying here on the floor in a bloody heap.~
+meat~
+weapon PQU AN
+exotic 4 8 beating 0
+30 100 0 P
+T
+73 1 5
+The eyes of the white dove glow with a soft blue light.~
+Something glows softly.~
+#50
+%s spine belt~
+the spine of %s~
+The spine of %s is lying here.~
+bone~
+armor 0 AL
+8 7 9 12 0
+0 10 0 P
+F
+A 18 1 0
+F
+A 19 1 0
+F
+A 13 10 0
+#51
+%s earrings eyes~
+the eyes of %s~
+The eyes of %s are lying here.~
+bone~
+armor 0 AZ
+7 6 7 12 0
+0 10 0 P
+F
+A 18 1 0
+F
+A 19 1 0
+F
+A 13 10 0
+#52
+%s skin poncho~
+the skin of %s~
+A poncho made of %s's lies here.~
+bone~
+armor 0 AK
+7 6 7 12 0
+0 10 0 P
+F
+A 18 1 0
+F
+A 19 1 0
+F
+A 13 10 0
+F
+A 2 2 0
+#53
+%s jacket~
+the skull of %s~
+The skull of %s is lying here.~
+bone~
+armor 0 AE
+7 6 7 12 0
+0 10 0 P
+F
+A 18 1 0
+F
+A 19 1 0
+F
+A 13 10 0
+F
+A 24 -3 0
+#54
+%s hair torch~
+the hair of %s~
+A torch made of %s's hair is here.~
+flesh~
+light 0 A
+0 0 999 0 0
+0 10 0 P
+F
+A 18 1 0
+F
+A 19 1 0
+F
+A 13 10 0
+#55
+%s~
+%s~
+A handful of %s lay on the ground.~
+steel~
+throw 0 AO
+0 5 10 pierce 0
+0 10 0 P
+#56
+trash clone~
+(no short description)~
+(no description)~
+unknown~
+trash P A
+0 0 0 0 0
+0 10 0 P
+#57
+tag~
+(no short description)~
+A collar with a tag is on the ground.~
+metal~
+jewelry AHMPTU C
+0 0 0 0 0
+0 10 0 P
+#59
+feces dung~
+dung~
+Dung~
+dung~
+food 0 AO
+0 0 0 A 0
+0 10 0 P
+#60
+broken glass~
+some broken glass~
+Some broken glass litters the ground here.~
+junk~
+trash 0 A
+0 0 0 0 0
+0 10 0 P
+P GET 60 100~
+#61
+royal banner~
+a royal banner~
+A royal banner is lying here.~
+cloth~
+treasure AHMY AO
+0 0 0 0 0
+52 10 1000 P
+#62
+%s army corpses~
+remains of %s~
+Vultures pick at remains of %s.~
+corpses~
+trash 0 0
+0 0 0 0 0
+52 10 0 P
+P RANDOM 62 10~
+#63
+puke vomit pile~
+vomit~
+Vomit~
+vomit~
+food 0 A
+0 0 0 A 0
+52 1 0 P
+#65
+torch~
+a brightly burning torch~
+A smoldering torch is on the ground here.~
+twigs~
+light AB AO
+0 0 999 0 0
+52 10 0 P
+F
+A 12 10 0
+#66
+druid staff~
+a druid staff~
+A long oaken staff is resting here.~
+unknown~
+weapon ABHMOY AN
+staff 6 8 thwack 0
+50 100 150 P
+F
+A 24 -5 0
+F
+A 18 5 0
+#67
+parchment paper note~
+a small piece of parchment paper~
+A small piece of parchment paper is resting on the ground here.~
+paper~
+food 0 AO
+20 20 0 0 0
+0 0 0 P
+#69
+book research~
+research~
+Research~
+none~
+research 0 A
+0 0 0 0 0
+10 10 5000 P
+#70
+hand~
+the hand of %s~
+The sliced-off hand of %s is lying here.~
+meat~
+food 0 A
+10 10 0 0 0
+0 20 0 D
+#71
+foot~
+the foot of %s~
+The sliced-off foot of %s is lying here.~
+meat~
+food 0 A
+10 10 0 0 0
+0 20 0 D
+#72
+finger fingers~
+the fingers of %s~
+The sliced-off fingers of %s are lying here.~
+meat~
+food 0 AM
+5 5 0 0 0
+0 10 0 D
+P RANDOM 1 15~
+#73
+ear~
+the ear of %s~
+The ripped-off ear of %s is lying here.~
+meat~
+food 0 AC
+5 5 0 0 0
+0 10 0 D
+F
+A 4 2 0
+#74
+eye eyes~
+the eyes of %s~
+The pulled-out eyes of %s are lying here.~
+meat~
+food 0 AOZ
+5 5 0 0 0
+0 10 0 D
+F
+A 3 2 0
+#75
+tongue~
+the tongue of %s~
+The pulled-out tongue of %s is lying here.~
+meat~
+food 0 AC
+5 5 0 0 0
+0 10 0 D
+P RANDOM 1 10~
+#76
+fins fin~
+the fins of %s~
+The ripped-off fins of %s are lying here.~
+meat~
+boat 0 A
+0 0 0 0 0
+0 20 0 D
+#77
+wings wing~
+the wings of %s~
+The ripped-off wings of %s are lying here.~
+meat~
+armor 0 AK
+0 0 0 0 0
+0 20 0 D
+F
+A 0 0 T
+#78
+tail~
+the tail of %s~
+The sliced-off tail of %s is lying here.~
+meat~
+weapon 0 AN
+mace 0 0 beating G
+0 20 0 P
+#79
+claws claw~
+the claws of %s~
+The dismembered claws of %s are lying here.~
+meat~
+armor 0 AH
+1 1 1 1 0
+0 20 0 D
+#80
+fangs fang~
+the fangs of %s~
+The extracted fangs of %s are lying here.~
+meat~
+weapon 0 AN
+dagger 0 0 bite C
+0 20 0 P
+#81
+horn~
+the horn of %s~
+The extracted horn of %s is lying here.~
+meat~
+weapon 0 AN
+sword 0 0 charge D
+0 20 0 P
+#82
+tusk~
+the tusk of %s~
+The extracted tusk of %s is lying here.~
+meat~
+weapon 0 AN
+sword 0 0 charge D
+0 20 0 P
+#83
+Grum U'dal book tattered withered~
+ancient book of knowledge, Grum U'dal~
+A tattered withered book lays here.~
+knowledge~
+treasure AHYZ AOPX
+0 0 0 0 0
+55 50 1 P
+E
+verses~
+Three lines written on the book.
+'children of the sky'
+'shield of words'
+'ancient relics mind and body'
+~
+#84
+healer staff~
+a staff of healing~
+A long gnarled staff lay unused.~
+energy~
+weapon AB AN
+staff 0 0 smash 0
+0 180 0 P
+T
+25 1 15
+A staff of healing glows blue.~
+Something glows blue.~
+#85
+milk fountain~
+a fountain of milk~
+A small fountain sits here gushing milk.~
+unknown~
+fountain 0 0
+0 0 'milk' 0 0
+0 0 0 P
+#90
+foot step footstep footsteps pixie dust~
+a trail of pixie dust~
+A trail of pixie dust leading to the %s.~
+dust~
+trash A 0
+0 0 0 0 0
+0 0 0 P
+#91
+prayer beads~
+prayer beads~
+You see a monk's prayer beads here.~
+beads~
+jewelry GHUZ AO
+0 0 0 0 0
+0 10 0 P
+#92
+corpse pccorpse %sisdabomb~
+the corpse of %s~
+The corpse of %s is lying here.~
+meat~
+pc_corpse O 0
+0 0 0 A 0
+0 1000 0 D
+#100
+blood puddle gore guts~
+pools of blood~
+The ground and the surrounding area is stained in blood and covered in gore.~
+blood~
+drink P P
+16 16 'blood' 0 0
+0 0 0 P
+E
+blood~
+The ground and the area surrounding you is bathed in crimson as 
+if a geyser of blood exploded here.  
+~
+E
+pools~
+The ground and the area surrounding you is bathed in crimson as 
+if a geyser of blood exploded here.  
+~
+E
+gore~
+The ground and the area surrounding you is bathed in crimson as 
+if a geyser of blood exploded here.  
+~
+#101
+Malform Weapon~
+(no short description)~
+(no description)~
+souls~
+weapon 0 ANS
+exotic 0 0 none 0
+0 0 1000 P
+#102
+doll~
+a voodoo doll~
+A voodoo doll is here.~
+wood~
+trash CEGU AS
+0 0 0 0 0
+0 10 5 P
+#103
+dummy cabal item~
+dummy cabal item~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#104
+remains execution prop~
+remains of a criminal~
+ERROR Contact an Immortal~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#105
+%s jailbag bag~
+a little bag marked '%s'~
+A little bag marked '%s' lies here.~
+leather~
+container 0 A
+0 0 0 0 0
+0 10 0 P
+#111
+blood spots~
+a blood spot~
+You notice a few spots of blood on the ground.~
+blood~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#113
+blood pool~
+a small blood pool~
+A bit of blood has pooled at your feet.~
+blood~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#114
+crusader_obelisk obelisk obelisk1~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of  Righteousness.
+
+Following is a long and involved holy scripture about the Order of 
+Crusades divine right to carry forth its missions, and its origins.  
+various bits of  high minded propaganda are intertwined with very
+advanced combat techniques that would give any well trained warrior
+edge in combat.  You gather that this psalm will not only increase the
+sheer damage the warrior causes, but also allow keen aim and precision.
+ 
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+~
+P USE 114 100~
+#115
+crusader_obelisk obelisk obelisk2~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+
+Psalm of  Divine Void.
+
+Following is a long and involved holy scripture about the virtues of
+meditation and benefits of clear and focused mind on resisting effects
+of various spells and maladies.  Throughout the long psalm are woven 
+techniques and chants that could easily be found in a secret manual
+of a monk monastery.  It is obvious that when properly used the psalm
+would bring great mental strength to the user.
+
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+~
+P USE 115 100~
+#116
+crusader_obelisk obelisk obelisk3~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Insight.
+ 
+Within are inscribed strange glyphs and runes that seem to portray
+the effect of such meditation to further enhance the senses of a
+person, and to better allow them to see with more clear sight and
+vision than ever before. Intertwined within the glyphs are two
+recurring runes, one for observing the moral traits of people, and
+one for finding truth within what is ordinarily invisible.
+ 
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+ 
+~
+P USE 116 100~
+#117
+crusader_obelisk obelisk obelisk4~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Divine Wrath.
+ 
+Detailed within this psalm within archaic runes and glyphs, the writing
+seems to instruct a being of whole body and mind on the arts of adorning
+weaponry with the strange serums and powders to further enhance the
+fighters ability to enhance weaponry designed to invoke the Wrath of 
+God upon the nonbelievers.
+ 
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+ 
+~
+P USE 117 100~
+#118
+crusader_obelisk obelisk obelisk5~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Shadowbane.
+ 
+Chiseled within this great obelisk are detailed instructions for those
+of the Order of the Crusades on adorning a weapon with certain bases
+and stringents that allow the weapon to be imbued with light, and thus
+create brilliant light flashes upon each blow of the weapon.
+ 
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+ 
+~
+P USE 118 100~
+#119
+crusader_obelisk obelisk obelisk6~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Purewater.
+ 
+Recurring within the mystical glyphs and runes is the symbol for 'hydris',
+or water. These runes seem to demonstrate how one who basks in the aura
+of divine righteousness can adorn a weapon with purewater, and thus bring
+forth this reagent during battle.
+ 
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+ 
+~
+P USE 119 100~
+#120
+crusader_obelisk obelisk obelisk7~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Icefire.
+ 
+Two intertwined glyphs, one representing ice, and one representing battle
+are scored over a crossed blade here. It seems to be some representation
+of how ice can be forged to steel to invoke its elemental properties from
+a single weapon in combat.
+ 
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+ 
+~
+P USE 120 100~
+#121
+crusader_obelisk obelisk obelisk8~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Searing Might.
+ 
+The rune of fire here is interchanged freely with smoke and blood, and
+the psalm seems to dictate to the user some way to forge fire to any
+weapon, and invoke its elemental wrath in combat. The blinding forces
+of smoke seem to be recurrent within the runes.
+ 
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+ 
+~
+P USE 121 100~
+#122
+crusader_obelisk obelisk obelisk9~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Divine Might.
+ 
+A virtuous cross here is adorned with a black Ankh, denoting the glyph
+for spiritual paralysis. Several elemental runes, mostly expressing the
+powers of lightning, are intertwined within the runes, as if showing a
+devout student the technique of adorning lightning to forged objects.
+ 
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+ 
+~
+P USE 122 100~
+#123
+crusader_obelisk obelisk obelisk10~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Vitality.
+ 
+The recurring theme of the glyphs seem to indicate some sort of rapid
+healing ability. Several smaller healing runes interlace with runes that
+denote an increase in ability, and a marked increase in the stamina of
+the user.
+ 
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+~
+P USE 123 100~
+#124
+crusader_obelisk obelisk obelisk11~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Swift Retribution.
+ 
+The fleetfoot rune is primary here, as is the glyph belonging to the
+elements. It seems to portray a being passing swiftly through hill and
+stream alike completely unhindered by any of the terrestrial forces.
+ 
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+~
+P USE 124 100~
+#125
+crusader_obelisk obelisk obelisk12~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Virtue.
+ 
+These weather worn glyphs seem to represent a sort of prayer symbolism
+that would allow the virtuous one to recite prayers at a much greater
+rate. Several runes show men kneeled before large holy symbols, with a
+small rune above them denoting some sort of ritual.
+ 
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+~
+P USE 125 100~
+#126
+crusader_obelisk obelisk obelisk13~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Purity.
+ 
+The rune of the serpent is denoted here, being cast back by the healing
+hands of a virtuous one. An aura of protection surrounds the being, as
+if the poison of the venomous serpent were being deflected from harming
+the devout.
+ 
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+~
+P USE 126 100~
+#127
+crusader_obelisk obelisk obelisk14~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Constitution.
+ 
+The rune of the plague rat is denoted here, being cast back by the 
+healing hands of a virtuous one. An aura of protection surrounds the 
+being, as if the disease of the infested rat were being deflected 
+from harming the devout.
+ 
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+~
+P USE 127 100~
+#128
+crusader_obelisk obelisk obelisk15~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Palison's Eye.
+ 
+The ocular rune is significant in this text, as it shows a large needle
+near the eye, which seems to be being repelled by some divine force that
+keeps the needle from harming the eye rune of the devout.
+  
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+ 
+~
+P USE 128 100~
+#129
+crusader_obelisk obelisk obelisk16~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Feasting.
+ 
+The rune of sustenance is inherent here, as it seems to depict large
+numbers of people consuming some sort of bounty, which seems to fill
+their hungers with only half the normal requirement. A glyph of the
+infinite seems to surround much of the glyphs of repast.
+  
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+~
+P USE 129 100~
+#130
+crusader_obelisk obelisk obelisk17~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Final Parting.
+ 
+This series of glyphs depicts the Evil Ones battling the devout. As they
+are felled one by one, the last remains to battle the virtuous one, and
+chooses instead to flee. As he does so, the devout appears to deal the
+Wrath of God upon the fleeing Evil One.
+  
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+~
+P USE 130 100~
+#131
+crusader_obelisk obelisk obelisk18~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Divine Health.
+ 
+The rune of health is inherent here, as it seems to portray a devout one
+within breaths of death suddenly awaken renewed and healthy in a very
+rapid amount of time. The runes of blood are suddenly washed away by the
+healing powers of the runes.
+  
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+~
+P USE 131 100~
+#132
+crusader_obelisk obelisk obelisk19~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Vicarious Redemption.
+ 
+The runes of death here are primary. They seem to surround what appears to
+be a dying virtuous one, but, as he nears his final demise, he is suddenly
+pulled to health and safety by a mass of worshippers, denoted by the star
+glyphs.
+  
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+~
+P USE 132 100~
+#133
+crusader_obelisk obelisk obelisk20~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+60 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of The One God's Triumph.
+ 
+Large runes of safety and protection adorn this obelisk. Primary runes
+are heroism and the guardian glyph, denoting the safety and concern for
+all involved in a devout one's traveling party. It also seems to portay
+a virtuous one kneeling over the body of a fallen ally, as their life
+essence is restored.
+  
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+~
+P USE 133 100~
+#134
+crusader_obelisk obelisk obelisk21~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Sirant's Triumph.
+ 
+Depicted within these glyphs is a scene, showing a truly devout student
+battling a horde of foes. Greatly outnumbered, the rune of power comes
+into play, and the devout one lays waste to countless numbers of Evil
+Ones. However, the negatory rune is visible above the devout, proving
+evidence that this psalm cannot be used in conjunction with others.
+  
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+ 
+~
+P USE 134 100~
+#135
+crusader_obelisk obelisk obelisk22~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Palison's Triumph.
+ 
+Evidence of the Lord Palison's holy war against the minions of the damned,
+this psalm depicts a holy warrior battling hordes of undead creatures.
+As each one is lain to waste, the devout is overcome with the life rune,
+as his body's condition is made anew. The negatory rune is also evident
+here, providing proof that this psalm cannot be used with others.
+  
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+~
+P USE 135 100~
+#136
+crusader_obelisk obelisk obelisk23~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Undeniable Order.
+ 
+A glyph showing a devout one lavished in rare and unique adornments, this
+psalm has three major runes: The vengeance rune, the mission rune, and the 
+capital rune, denoting removal of the foe's head. The glyphs further show 
+one under the influence of the psalm laying waste to the corrupt and damned, 
+and in turn receiving incredible power from doing so.
+  
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+~
+P USE 136 100~
+#137
+crusader_obelisk obelisk obelisk24~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Inner Strength.
+ 
+The fist rune, showing in conjunction with the sword rune depict one
+of the virtuous ones gripping a weapon of immense power with both hands
+as his arms and body surge with inner strength. The negatory run is also
+evident here, proving that this psalm cannot be used in conjuction with
+others.
+  
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+~
+P USE 137 100~
+#138
+crusader_obelisk obelisk obelisk25~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Baptism.
+ 
+The runes within depict a virtuous one immersed within cleansing water,
+and awaking renewed and refreshed with little memory of past deeds,
+psalms, or acts.
+  
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+~
+P USE 138 100~
+#139
+crusader_obelisk obelisk obelisk26~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+A tall marble obelisk rises from the ground here, its surface showing 
+signs of  years of erosion. At its midpoint surrounded by runes  of  
+preservation a following inscription has been etched in delicate writing.
+ 
+Psalm of Inner Peace.
+ 
+The runes within depict a virtuous one immersed in prayer before an
+altar.  Runes depicting passage of days and nights circle the rune
+of the holy one, and a single mark of glowing blade floats below the
+depiction.
+  
+A huge sigil of the Order of Crusades has been stamped at the bottom.
+~
+P USE 139 100~
+#140
+crusader_obelisk obelisk obelisk27~
+the marble obelisk~
+A tall marble obelisk seems to have been placed here.~
+marble~
+furniture TU P
+0 0 0 0 0
+61 10000 0 W
+E
+obelisk~
+~
+#141
+slab starstone !141!~
+a slab of starstone~
+A small slab of strange glittering stone lies here.~
+starstone~
+treasure AT AO
+0 0 0 0 0
+61 0 0 P
+E
+slab~
+Its a small rectangular slab of a strange metal of stone twinkling
+and glowing with inner power.  You easily pick it up in your hand, 
+its mass seemingly weightless.  Yet when you move your arm about, 
+your muscles tense at the effort of putting the strange stone or 
+metal in motion.  You wonder at the sheer possibilities of using 
+such wondrous material for armor or weapons.
+~
+E
+starstone~
+Its a small rectangular slab of a strange metal of stone twinkling
+and glowing with inner power.  You easily pick it up in your hand, 
+its mass seemingly weightless.  Yet when you move your arm about, 
+your muscles tense at the effort of putting the strange stone or 
+metal in motion.  You wonder at the sheer possibilities of using 
+such wondrous material for armor or weapons.
+~
+#142
+armorcraft skeleton~
+armorcraft skeleton~
+Contant Immortal. (armorcraft skeleton)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#143
+Juggernaut plate spiked~
+the Juggernaut Plate~
+The Juggernaut Plate, hallmark of Order of Crusades is here.~
+starstone~
+armor AY AD
+22 24 23 25 0
+60 150 0 P
+F
+R 1 1 J
+F
+A 13 40 0
+F
+A 18 4 0
+F
+A 19 3 0
+#144
+weaponcraft skeleton~
+weaponcraft skeleton~
+Contant Immortal. (weaponcraft skeleton)~
+unknown~
+trash KL 0
+0 0 0 0 0
+0 0 0 P
+#180
+tattoo Compassion~
+the `&Glowing`` `1Heart``~
+Contact an Immortal if you see this.~
+ink~
+armor TY T
+0 0 0 0 0
+0 0 0 P
+#181
+tattoo Purity~
+the `!Bleeding`` Fist~
+Contact an Immortal if you see this~
+ink~
+armor TY T
+0 0 0 0 0
+0 0 0 P
+#182
+tattoo Tranquility~
+a `&Dove Wing``~
+Contact an Immortal if you see this.~
+ink~
+armor TY T
+0 0 0 0 0
+0 0 0 P
+#183
+tattoo Order~
+an `8Iron`` `&Fist``~
+Contact an Immortal if you see this.~
+ink~
+armor TY T
+0 0 0 0 0
+0 0 0 P
+#184
+tattoo Chaos~
+the `1Crimson`` `!S```!p```*i```8r```7a```&l``~
+Contact an Immortal if you see this.~
+ink~
+armor TY T
+0 0 0 0 0
+0 0 0 P
+#185
+tattoo Neutrality~
+the Scales of `8Bal``a`&nce``~
+Contact an Immortal if you see this.~
+ink~
+armor TY T
+0 0 0 0 0
+0 0 0 P
+#186
+tattoo Mystic~
+a Floating `4Sphere``~
+Contact an Immortal if you see this.~
+ink~
+armor TY T
+0 0 0 0 0
+0 0 0 P
+#187
+tattoo Combat~
+the `3Lion's`` `&Mane``~
+Contact an Immortal if you see this.~
+ink~
+armor TY 0
+0 0 0 0 0
+0 0 0 P
+#188
+Tattoo Discord Crypticant~
+the `&Infinite`` `$+/-`` `8Fractal``~
+Contact an Immortal if you see this.~
+ink~
+armor TY T
+0 0 0 0 0
+0 0 0 P
+#189
+Tattoo Greed~
+a `#Golden`` `3Coin``~
+Contact an Immortal if you see this.~
+ink~
+armor TY T
+0 0 0 0 0
+0 0 0 P
+#190
+Tattoo Guile~
+a `8Black`` Mask~
+Contact an Immortal if you see this.~
+ink~
+armor TY T
+0 0 0 0 0
+0 0 0 P
+#191
+Tattoo Scourge~
+`8Writhing`` `1Souls``~
+Contact an Immortal if you see this.~
+ink~
+armor TY T
+0 0 0 0 0
+0 0 0 P
+#192
+Tattoo Necropsy~
+a `!Dead`` `8Crow``~
+Contact an Immortal if you see this.~
+ink~
+armor TY T
+0 0 0 0 0
+0 0 0 P
+#193
+Tattoo Church~
+a `&Blazing`` `#Sun``~
+Contact an Immortal if you see this.~
+ink~
+armor TY T
+0 0 0 0 0
+0 0 0 P
+#194
+Tattoo Agnostic~
+Agnostic Symbol~
+Contact an Immortal if you see this.~
+ink~
+armor TY T
+0 0 0 0 0
+0 0 0 P
+#195
+Tattoo Atheism~
+Atheism Symbol~
+Contact an Immortal if you see this.~
+ink~
+armor TY T
+0 0 0 0 0
+0 0 0 P
+#196
+tattoo Nature~
+an Oak `2Leaf``~
+Contact an Immortal if you see this.~
+ink~
+armor TY T
+0 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#1
+`7The Void``~
+You are floating in nothing.
+~
+~
+0 132653068 0 1
+D4
+~
+~
+0 -1 2
+S
+#2
+`7Limbo``~
+You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+~
+0 67641356 0 1
+D4
+~
+~
+0 0 20783
+S
+#3
+`8Storage room``~
+This is the limited eq. room.
+If you are mortal 'pray' for help and mercy.
+~
+~
+0 24580 0 0
+S
+#4
+`8Limbo``~
+You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+ 
+If you are here, it is most likely beacuse you were in a room that did not
+allow quitting, during a world shift.
+~
+~
+0 67643404 1 0
+D4
+~
+~
+0 0 20783
+S
+#5
+`8An Empty Hallway``~
+You find yourself in a strange dusty hallway, its walls empty
+and its floor dusty.  A single torch provides just enough light
+to bring out its depressing features.
+~
+~
+0 362807304 2 0
+S
+#6
+`8Bounty Storage``~
+This is used for storing bountied eq.
+pray if you see this.
+~
+~
+0 16396 0 0
+S
+#7
+`8%s's maze``~
+All about you strange shimmering surfaces reflect your image a thousand
+fold.  The area seems bent and twisted as if the fabric of space itself has
+been put through some terrible wringer.  The exits lead everywhere and
+nowhere at once, and your mind struggles to comprehend the paradox
+surrounding you.  
+~
+~
+0 8457 1 0
+D0
+~
+~
+0 0 7
+D1
+~
+~
+0 0 7
+D2
+~
+~
+0 0 7
+D3
+~
+~
+0 0 7
+D4
+~
+~
+0 0 7
+D5
+~
+~
+0 0 7
+M 0 H 0
+S
+#13
+`8``~
+~
+~
+0 0 0 0
+S
+#29
+`8``~
+~
+~
+0 0 0 0
+S
+#72
+`2Hall of Echoes``~
+This tight confined room, echoes voices from the heavens.  Any sound you
+make is amplified a hundred times before is swirled back to nothing.  Upon
+your ears, the sound of your name, rings over and over.  Upon listening to
+it in a loud repetitive manner, you conclude the name you are known by is
+not one you wish echoed throughout the land.  Pray to the gods an acceptable
+name, and such shall be whispered throughout the lands forever.  
+~
+~
+0 889728012 1024 3
+M 0 H 0
+S
+#73
+`2Before a Mirror``~
+`&READ ALL WHAT FOLLOWS:``
+ 
+  You have been placed here because your description ("help description")
+did not meet with approval of the Immortal that moved you here.  Before
+you are able to play once again, you will have to compose a better one
+keeping following rules in mind:
+ 
+1)  `!YOUR DESCRIPTION SHOULD BE FORMATTED TO AT MOST 70 LETTERS PER LINE.``
+Use word processor to write/format/spell check your description, then paste
+it into the mud's description editor. ("help editor")
+ 
+2)  `&Your description should be like a picture frozen in time.``
+There should be no actions being performed, only descriptions of what
+the character looks like, or looks like he is doing.
+ 
+3)  `&You should NEVER force the looker to do, feel or think anything.``
+The looker should make up their own minds about who you are, and what
+you might be doing.
+ 
+4)  `&The description should describe you, not your history.``
+Concentrate on describing your characters stance, face, body, and their
+equipment.  Not who they are, and where they came from.
+ 
+5)  `&Do NOT say how powerful, fearful, or deadly you are.``
+The description is not the place to "stroke your ego" by saying how
+powerful you are and how fearful you look.  
+ 
+6)  You may include descriptions of equipment that you would like your
+character to wear (family crested shields, particular sword etc.) since
+it is understood that the actual game equipment changes too often.
+When you are done your description and it has been `!formatted`` and 
+`!spell checked`` pray ONCE per approximately 10 minutes that you are 
+done.
+~
+~
+0 268971020 1024 3
+S
+#74
+`8Role-Playing Room``~
+From Shadowspawn,
+ 
+If you see this room then it most likely means you did something we don't
+approve of.  Word of advice, instead of giving bullshit excuses
+or trying to talk back to the imms, shut up, listen, and most importantly
+agree.  Because if you choose to ignore our warnings, don't expect to go
+too far.
+~
+~
+0 83897356 1 0
+S
+#78
+`8Mob Load rooms! Mortals get out!``~
+~
+~
+0 76292108 0 0
+S
+#81
+`8Slow, painful death``~
+Yes, you have been sentenced to death. The Gods have found your actions
+punishable by death, and so you sit in a fiery inferno, devoid of any
+exit, to await your last mortal breath. If you believe you have been
+wrongfully sent here to die, now would be a nice time to write the Gods
+a scribe, and plead your case. But, chances are, you'll be dead long
+ they before they read it. If you want a quick death, just say 'Death',
+and the Executioner will see to it.
+~
+~
+0 88615196 1 0
+M 0 H 0
+S
+#101
+`86 feet under.``~
+If you see this, contact an IMM.
+~
+~
+0 9229 0 0
+S
+#0
+
+
+
+#ARMIES
+#1
+0
+0
+15
+0
+8 4 20
+20 10 1000
+0 0 0
+Whiteguards~
+a unit of Whiteguards~
+A unit of Whiteguards is camped here.~
+You see nothing special about them.~
+#2
+0
+5
+25
+0
+8 9 20
+20 10 1500
+0 0 0
+Paladins~
+a column of Paladins~
+A column of Paladins is camped here.~
+You see nothing special about them.~
+#3
+A
+50
+0
+0
+10 2 5
+1 1 1999
+1 1 49
+Tower~
+a Tower~
+A Tower watches over the area.~
+You see nothing special about them.~
+#4
+A
+50
+0
+0
+10 2 15
+1 1 2999
+1 1 66
+Spire~
+Ivory Spire~
+An ivory Spire reaches for the heavens.~
+You see nothing special about them.~
+#5
+0
+0
+15
+B
+8 4 20
+20 10 1000
+0 0 0
+Dirigibles~
+Gnome Dirigibles~
+A bunch of gnomish dirigibles hover above the area.~
+You see nothing special about them.~
+#6
+0
+5
+25
+0
+8 9 20
+20 10 1500
+0 0 0
+Juggernaut~
+Dwarven Juggernaut~
+A Dwarven Juggernaut towers over the area.~
+You see nothing special about them.~
+#7
+A
+50
+0
+B
+10 2 5
+1 1 1999
+1 1 49
+Observatory~
+Gnomish Observatory~
+A Gnomish Observatory floats above the area.~
+You see nothing special about them.~
+#8
+A
+50
+0
+0
+10 2 15
+1 1 3499
+1 1 66
+Bunker~
+Dwarven Bunker~
+A Dwarven Bunker has been raised here.~
+You see nothing special about them.~
+#9
+0
+0
+15
+0
+8 4 20
+20 10 1000
+0 0 0
+Pikeman~
+a unit of Pikeman~
+A unit of Pikeman stands in formation.~
+With pikes by their sides the company of pikeman stand in battle
+formation.  Well-armed and well trained they wait for their orders.  
+~
+#10
+0
+5
+25
+0
+8 9 20
+20 10 1500
+0 0 0
+Crusaders~
+a column of Crusaders~
+A column of Crusaders is camped here.~
+Trained to perfection and armed to the high teeth a column of crusaders
+survey the surroundings.  Hungry for battle their large swords are raised
+expectantly.  
+~
+#11
+A
+50
+0
+0
+10 2 5
+1 1 1999
+1 1 54
+Castle~
+a Castle~
+A Castle towers over the area.~
+Its tall walls have been built with quality betraying phenomenal skill
+and expertise in matters of fortification.  The tall smooth walls rise high
+up to the parapet bristling with weapons and restless eyes.  
+~
+#12
+A
+75
+0
+0
+10 2 15
+10 50 2999
+1 1 71
+Fortress~
+Knight Fortress~
+A mighty Fortress looms over the area.~
+Immense in size and mass its tall turreted walls bristle with various
+catapults, ballistas and men.  Built with near perfect strategic planning
+its defenders seem to have a clear field of fire in every direction.  A
+massive gate bars the entrance with hundreds of armored figures pacing the
+battlements above.  
+~
+#13
+0
+0
+15
+0
+8 4 20
+20 10 1000
+0 0 0
+Warlocks~
+a group of Warlocks~
+A group of drow Warlocks occupies the area.~
+Clad in black robes, their platinum hair in wild disarray of static
+discharge the drow Warlocks are a sight to behold.  Strange shapes flutter
+about them and the very air around their forms shimmers with malignant
+energies.  
+~
+#14
+0
+5
+25
+0
+8 9 20
+20 10 1500
+0 0 0
+Liches~
+a pair of Liches~
+A legion of lower undead surrounds a pair of Liches.~
+A thick stink of death and decay suffocates the area around the Liches. 
+Their bodies lack an ounce of flesh, and their crimson sockets burn with
+unholy power.  A legion of shambling zombies, skeletons and ghouls surrounds
+the unholy pair.  
+~
+#15
+A
+50
+0
+0
+10 2 5
+1 1 1999
+1 1 49
+Dungeon~
+a Dungeon~
+Cries of agony reach yours ears from within a Dungeon.~
+Not much can be seen of it, as the heart of this structure is always
+built far below the ground.  Only the fortified entrance can be spotted, its
+massive wrought gates worked with motives of twisted and tortured faces.  
+~
+#16
+A
+50
+0
+0
+10 2 15
+1 1 2999
+1 1 66
+Palace~
+Black Palace~
+A Palace built of completely black stone dominates the area.~
+Built of completely black stone the Palace is as beautiful as it is
+defensible.  Gargoyles snarl at you from the tall parapets bristling with
+weapons and watchful eyes of the Miruvhor Blackguards.  
+~
+#17
+0
+0
+15
+0
+8 4 20
+20 10 1000
+0 0 0
+Spawns~
+a pack of Spawns~
+A pack of twisted Spawns of Nexus slither about.~
+Their misshapen forms composed of flesh corrupted by the forces of Nexus
+quiver and change without a pause.  Eyes filled with hate and unquenched
+anger lock with yours as a legion of voices hurls threats and promises of
+damnation aimed at no one in particular.  
+~
+#18
+0
+5
+25
+B
+8 9 20
+20 10 1500
+0 0 0
+Demons~
+a Demon Horde~
+A horse of Demons hovers overhead, their talons dripping blood.~
+Soaring above on giant leathery wings they pay no heed to your presence.
+Their large forms cast shapeless shadows marking their restless passage
+overhead, as their unnatural silence suffocates the air.  
+~
+#19
+A
+50
+0
+0
+10 2 5
+1 1 1999
+1 1 49
+Altar~
+an Unholy Altar~
+An Altar of Nexus has been raised here.~
+Unnatural shadows dance around the massive altar, its surface stained in
+blood of countless sacrifices.  The air about it shimmers with power
+occasionly taking on a blue or red tint as sounds too alien for a mortal ear
+to fully hear pierce the air.  
+~
+#20
+A
+50
+0
+0
+10 2 15
+1 1 2999
+1 1 66
+Gateway~
+the Nexus Gateway~
+A Nexus Gateway crackles with hellish heat and unholy magics.~
+Sending an occasional arc of black energies towards the heavens this tall
+flaming gate has but one purpose.  To support the infernal spells of
+Pandemonium conjurers and keep the portals between Aabahran and Nexus open
+for the armies of Demons and other Hell Spawns.  
+~
+#21
+0
+2
+20
+B
+8 4 30
+20 10 1200
+0 0 0
+Phantoms~
+a group of Phantoms~
+Winking in and out of existance a group of Phantoms is here.~
+Their translucent forms shimmer in an out of existance, as the roughly
+humanoid shapes float above the ground with effortless ease.  Not a single
+sound comes forth from the strange begins, their silent demeanor unsettling
+and ominous.  
+~
+#22
+0
+8
+30
+B
+8 9 30
+20 10 1800
+0 0 0
+Elemental~
+the Time Elemental~
+Sizzling fragments of time form a blurred translucent entity.~
+The very fabric of time around the area seems strained to the limit as
+strange and unexplainable energies sizzle and ground out into the land below
+the entity.  Its size seems at once enourmous and small, far and close, and
+its passage though all but unseen except for the ripples left in reality and
+time, forshadows great pain and misery elsewhere.  
+~
+#23
+A
+50
+0
+B
+10 2 5
+1 1 1999
+1 1 49
+Sphere~
+the Mana Sphere~
+The Mana Sphere floats far above, humming with wierd energies.~
+There is not much to see, but rather to sense as your mind instinctivly
+detects the gathering of enourmous forces far above you.  Once in a long
+while the translucent outline of a giant sphere winks into existance as arcs
+of brilliant energy strike down towards the ground.  
+~
+#24
+A
+50
+0
+B
+10 2 15
+1 1 2999
+1 1 66
+Vortex~
+the Time Vortex~
+The Time Vortex playes with the reality far above you.~
+Your gaze towards the vortex seems to look into distance which your
+instinct tells you to be infinitely greater then it seems.  Strange ripples
+thwart your vision, their source the large translucent whirlpool from which
+howls of energies beyond mortal imagining escape forth occasionly.  
+~
+#25
+0
+0
+15
+0
+8 4 20
+20 10 1000
+0 0 0
+Blademasters~
+a company of Blademasters~
+A company of blademasters stand ready for battle.~
+A company of vicious swordsman stand in loose formation awaiting orders. 
+Their weapons and armors are varied but all wear signs of many battles and
+the particular look of man whom have seen death many times and bested it.  
+~
+#26
+0
+5
+25
+0
+8 9 20
+20 10 1500
+0 0 0
+Warlords~
+a group of Warlords~
+A small group of Warlords stands here proudly.~
+Clad in fantastic armors and weapons they bear proudly trophies of past
+victories.  The faces are grim, but their eyes sparkle as promises of battle
+and blood to be shed still ring in their ears.  
+~
+#27
+A
+50
+0
+0
+10 2 5
+1 1 1999
+1 1 49
+Fort~
+a Fort~
+A fort flying banners of Warmasters watches over the area.~
+It is a sturdy fort constructed in a hurry but with great experience. 
+The pallisade of sharpened logs provide good defense and a few squat
+watchtowers have been built for advanced warning.  
+~
+#28
+A
+50
+0
+0
+10 2 15
+1 1 2999
+1 1 66
+Camp~
+a Staging Camp~
+An army staging camp has been built here.~
+A huge camp made of many tents surrounded by latched logs stands in the
+area.  It has a single, tall tower flying the banner of the Warmasters where
+sentries watch the surrounding area.  A large wooden gate stands in the
+center of the massive wall allowing access in and out of the camp.  
+~
+#29
+0
+0
+15
+0
+8 4 20
+20 10 1000
+0 0 0
+Longbows~
+a group of Elf Longbows~
+A group of Elven Longbowmen hides in the area.~
+Only an occasional creak of a bow or rustle of cloaks betrays their
+presence.  Silent and flawless in their deadly accuracy these bowmen are
+masters of ambush and camouflage.  
+~
+#30
+0
+5
+25
+0
+8 9 20
+20 10 1500
+0 0 0
+Warders~
+a unit of Warders~
+A unit of Warders hides in the area.~
+Though you can barely spot them the faint whispers of blades being drawn
+and an occasional song of a non-existent bird betray their deadly presence. 
+~
+#31
+A
+50
+0
+0
+10 2 5
+1 1 1999
+1 1 49
+Glyph~
+a Forest Glyph~
+A massive Forest Glyph has been raised here.~
+Its surface crawling with druidic runes the giant glyph emanates an aura
+of peace and tranquility.  Yet judging from the charred corpses about its
+perimeter and the perpetual boil of dark clouds above, forces of far from
+peaceful character reside within 
+~
+#32
+A
+50
+0
+0
+10 2 15
+1 1 2999
+1 1 66
+Obelisk~
+the Earth Obelisk~
+A massive Earth Obelisk has been errected here.~
+Rising far above the area a mighty obelisk of earth and stone shoots
+towards the sky.  Its surface has been scribed in druidic runes and the area
+about it shimmers with magical power.  It would be most foolish to cross any
+follower of Watcher within the protective aura of this mighty Obelisk.  
+~
+#0
+
+
+
+#SPECIALS
+M 5 spec_poison
+M 7 spec_poison
+M 8 spec_displacer_beast
+M 13 spec_special_guard
+M 15 spec_poison
+M 18 spec_special_guard
+M 21 spec_nexus_nemesis
+M 22 spec_magic_eye
+M 25 spec_poison
+M 30 spec_poison
+M 34 spec_vanguard
+M 38 spec_servant_hide
+M 40 spec_justice_sentinel
+M 42 spec_hunt_wanted
+M 44 spec_poison
+M 45 spec_poison
+S
+
+
+
+#TRAPS
+#1
+an alarm~
+~
+~
+dummy 50 EFKLMN
+0 0 0 0 1
+#2
+a simple trap~
+~
+~
+damage 50 BCI
+thwack 25 10 3 1
+#3
+a poison needle~
+~
+~
+spell 50 DF
+poison~ 3 poison~ 3 8
+#4
+the enfeebler~
+~
+~
+spell 50 DFGK
+enfeeblement~ 3 drained~ 5 9
+#5
+a jagged snare~
+~
+~
+xdamage 50 DI
+snares~ 50 20 5 22
+#6
+a silver snare~
+~
+~
+xdamage 50 DI
+snares~ 50 20 5 20
+#7
+a bramble snare~
+~
+~
+xdamage 50 DI
+shield of thorns~ 50 20 5 21
+#8
+a blue rune~
+~
+~
+xdamage 50 G
+ice storm~ 50 20 5 5
+#9
+a white rune~
+~
+~
+xdamage 50 G
+wrath~ 50 20 5 10
+#10
+a green rune~
+~
+~
+xdamage 50 G
+deluge water~ 50 20 5 14
+#11
+the eyeduster~
+~
+~
+spell 50 DGK
+blindness~ 1 reserved~ 0 16
+#12
+the antimagic~
+~
+~
+spell 50 DFGK
+dispel magic~ 2 reserved~ 0 12
+#13
+the amnesia charm~
+~
+~
+spell 50 DFGK
+isolate~ 3 forget~ 0 12
+#14
+the blackspore~
+~
+~
+spell 50 EFHJKM
+plague~ 5 reserved~ 0 13
+#15
+a fireseed~
+~
+~
+xdamage 50 AG
+fireseed~ 99 8 20 4
+#16
+chestbuster~
+~
+~
+xdamage 50 AFKO
+chestbuster~ 149 1 1 25
+#17
+the brambus needler~
+~
+~
+xdamage 50 EKLN
+brambus needler~ 150 10 6 2
+#18
+the devil's wheel~
+~
+~
+mob 50 EFK
+12 120 0 0 4
+#19
+the webcaster~
+~
+~
+spell 50 EFGK
+magic web~ 3 reserved~ 0 16
+#0
+
+#RESETS
+O 0 22 0 1
+M 0 29 1 73 1
+O 0 85 0 73
+E 0 65 0 0
+M 0 22 1 78 1
+M 0 81 1 81 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#1
+if ispc $n
+  tell $n The cost per use of City Gate is 300 gold.
+  mob remquest $n 'paid for use of the City Gate'
+endif
+~
+#2
+if ispc $n
+  mob tempquest $n paid for use of the City Gate.
+  tell $n The gate is currently charging, please stand by.
+end
+~
+#3
+mob junk 1.
+mob pfor group $n call 2 # null null
+~
+#4
+if ispc $n
+  mob remquest $n paid for use of the City Gate.
+endif
+~
+#5
+if ispc $n
+and hasquest $n 'paid for use of the City Gate.'
+  mob remquest $n paid for use of the City Gate.
+  if affspell $n 'ensnare'
+    mob echoat $n You cannot leave the area until the ensnare wears off.
+    break
+  endif
+  mob echoaround $n $N disappears!
+  gtransfer $n 20601
+endif
+~
+#6
+if isdelay $i
+  break
+endif
+mob attrib !11483! level = 50
+mob pfor exc !11483! call 7 # null null
+if players > 0
+and level $i > 50
+  if rand 30
+    '$R, please stand within the circle of runes to avoid loss of limbs. 
+  endif
+  'Gate to Val Miran now commencing. Please stay calm.
+  mob echo The City Gate flares with arcane power!
+  mob echo ``
+  mob at 20601 echo Amidst a crackle of energy, the gate from Rheydin opens!
+  mob pfor exc !11483! call 5 # null null
+endif
+if rand 40
+  mob delay 2
+else
+  mob delay 3
+endif
+~
+#7
+if iscombat $n
+  if rand 20
+    'Stop this foolishness $N. You might damage the Gate!
+  endif
+  mob remquest $n paid for use of the City Gate.
+  break
+endif
+if ispc $n
+and hasquest $n 'paid for use of the City Gate.'
+  mob attrib $i level = 60
+endif
+~
+#8
+if isdelay $i
+  break
+endif
+mob attrib !20663! level = 50
+mob pfor exc !20663! call 7 # null null
+if players > 0
+and level $i > 50
+  if rand 30
+    '$R, please stand within the circle of runes to avoid loss of limbs. 
+  endif
+  'Gate to the stinking Miruvhor now commencing. Hope you like the filthy town.
+  mob echo The City Gate flares with arcane power!
+  mob echo ``
+  mob at 7800 echo Happy voices spilling from within, gate from Val Miran opens!
+  mob pfor exc !20663! call 9 # null null
+endif
+if rand 40
+  mob delay 2
+else
+  mob delay 3
+endif
+~
+#9
+if ispc $n
+and hasquest $n 'paid for use of the City Gate.'
+  mob remquest $n paid for use of the City Gate.
+  if affspell $n 'ensnare'
+    mob echoat $n You cannot leave the area until the ensnare wears off.
+    break
+  endif
+  mob echoaround $n $N disappears!
+  gtransfer $n 7800
+endif
+~
+#10
+if isdelay $i
+  break
+endif
+mob attrib !10257! level = 50
+mob pfor exc !10257! call 7 # null null
+if players > 0
+and level $i > 50
+  if rand 30
+    '$R, please stand within the circle of runes to avoid loss of limbs. 
+  endif
+  'Gate to ripe town of Rheydin commencing.  May the Dark Lords bring you luck.
+  mob echo The City Gate flares with arcane power!
+  mob echo ``
+  mob at 11500 echo Miruvhor gate opens spilling forth dark swirls of mist and fog.
+  mob pfor exc !10257! call 11 # null null
+endif
+if rand 40
+  mob delay 2
+else
+  mob delay 3
+endif
+~
+#11
+if ispc $n
+and hasquest $n 'paid for use of the City Gate.'
+  mob remquest $n paid for use of the City Gate.
+  if affspell $n 'ensnare'
+    mob echoat $n You cannot leave the area until the ensnare wears off.
+    break
+  endif
+  mob echoaround $n $N disappears!
+  gtransfer $n 11500
+endif
+~
+#12
+if isdelay $i
+  break
+else
+  mob echo $I rears and breathes a cloud of poisonous fumes!
+  mob pfor fight $i call 13 # null null
+  mob delay 1
+endif
+~
+#13
+if isdelay $i
+  break
+else
+  mob cast poison $n
+endif
+~
+#14
+if isdelay $i
+  break
+else
+  mob cast plague $n
+mob delay 1
+endif
+~
+#15
+if isdelay $i
+  break
+else
+  mob echo Flames and ashes pour forth as $I roars!
+  mob pfor fight $i call 16 # null null
+  mob delay 1
+endif
+~
+#16
+mob cast 'flamestrike' $n
+~
+#17
+mob delay 6
+~
+#18
+if isdelay $i
+  break
+else 
+  if hpcnt $i < 75
+    mob echo $I cures himself with a prayer.
+    mob cast 'cure critical' $i
+  endif
+endif
+~
+#19
+if hasquest $n 'been granted the title of `1Dragon Slayer``.'
+  break
+endif
+if hasquest $n 'Slain the Dragons of the Tower.'
+and hasquest $n 'To track down and slay the remaining four dragons.'
+and hasquest $n 'Slain the huge, green dragon.'
+and hasquest $n 'Slain the red dragon.'
+and hasquest $n 'Slain the brass dragon.'
+and hasquest $n 'Slain The Ancient Gold Dragon.'
+  mob echoat $n `@You have slain the ten minor dragons``!
+  mob echoat $n `@Return to Edgar, and bring news of your success``!
+  mob remquest $n To track down and slay the remaining four dragons.
+  mob remquest $n Slain the huge, green dragon.
+  mob remquest $n Slain the red dragon.
+  mob remquest $n Slain the brass dragon.
+  mob remquest $n Slain The Ancient Gold Dragon.
+  mob permquest $n to return to Edgar the Dragon Slayer.
+endif
+~
+#20
+mob echo $I's features change to that of a Knight clad in white, its face marked with sadness.
+~
+#21
+cb $N lies dead.. Master.
+~
+#22
+mob pfor group $n call 23 # null null
+~
+#23
+if hasquest $n 'been granted the title of `1Dragon Slayer``.'
+  break
+endif
+if hasquest $n 'to track down and slay the remaining four dragons.'
+  if hasquest $n 'You have slain $I.'
+    break
+  else
+    mob echoat $n `@You have slain $I.``
+    mob tempquest $n slain $I.
+    mob call 19 $n null null
+  endif
+if hasquest $n 'Return to Edgar, and bring news of your success!'
+  break
+else
+  mob echoat $n You have slain one of the minor dragons but you have not slain them all.
+  break
+endif
+~
+#24
+if isbloody $n
+and cabally $n warmaster
+  'Come back when you have no blood upon you $N.
+  mob stop $n
+endif
+~
+#25
+vis
+~
+#33
+mob echo $I begins to fade and disappear as it enters the temple.
+mob attrib self timer = 0
+~
+#41
+emote growls with outrage!
+say You watch your mouth around royalty, $n!
+mob echoat $n $I slaps you to the ground with a heavy steel gauntlet!
+com garble $n
+mob echoat $n Your jaw is broken!
+mob echoaround $n $I slaps $n to the ground with a heavy steel gauntlet!
+~
+#42
+if affspell $i 'timer'
+  break
+else
+ mob attrib $i timer = 24
+endif    
+~
+#62
+if rand 50
+     mob echo Flies buzz incessantly around piles of decaying corpses.
+else
+     mob echo You see vultures wheel and cry overhead.
+endif
+if rand 50
+    mob echo Flies buzz incessantly around $I.
+else
+     mob echo A vulture picks gingerly at $I.
+endif
+~
+#78
+at 78 mob mload $V
+~
+#81
+say So be it.
+pray $n has been given judgement, Lord. He has found only death.
+slay $n
+~
+#0
+
+M 14 1 limbo_shadow.prg NL
+M 21 1 limbo_shadow.prg NL
+M 32 0 serin_trainer.prg NL
+M 81 0 limbo_reaper.prg NL
+S
+
+
+
+
+#OBJPROGS
+#1
+obj echo $I twitches slightly.
+~
+#2
+obj attrib none cost + 1
+if objcost $i > 11
+obj attrib none cost = 0
+endif
+~
+#3
+obj echoat $n ``
+if objcost $i == 11
+  obj echoat $n The hour hand points to eleven.
+  break
+endif
+if objcost $i == 10
+  obj echoat $n The hour hand points to ten.
+  break
+endif
+if objcost $i == 9
+  obj echoat $n The hour hand points to nine.
+  break
+endif
+if objcost $i == 8
+  obj echoat $n The hour hand points to eight.
+  break
+endif
+if objcost $i == 7
+  obj echoat $n The hour hand points to seven.
+  break
+endif
+if objcost $i == 6
+  obj echoat $n The hour hand points to six.
+  break
+endif
+if objcost $i == 5
+  obj echoat $n The hour hand points to five.
+  break
+endif
+if objcost $i == 4
+  obj echoat $n The hour hand points to four.
+  break
+endif
+if objcost $i == 3
+  obj echoat $n The hour hand points to three.
+  break
+endif
+if objcost $i == 2
+  obj echoat $n The hour hand points to two.
+  break
+endif
+if objcost $i == 1
+  obj echoat $n The hour hand points to one.
+  break
+endif
+if objcost $i == 0
+  obj echoat $n The hour hand points to twelve.
+  break
+endif
+obj echo The hour hand is in a really wierd position..
+~
+#6
+obj echoat $n As you peer directly into the Ethereal Nexus, your retinas are seared from the power!
+obj echoaround $n As $n peers into the Ethereal Nexus, $s retinas are seared from the power!
+obj cast 'blindness' $n
+obj echoat $n The searing pain of the Nexus `1=== OBLITERATES ===`` you!
+obj echoaround $n The searing pain of the Nexus `1=== OBLITERATES ===`` $n!
+obj damage $n 150 200
+~
+#8
+obj echoat $n Your soul enters the `8Etheral Nexus``...
+obj echoaround $n $n attempts to enter the Ethereal Nexus...
+obj echoat $n You feel your `@lifesource`` slip away, as you descend back into the mortal reaches.
+if rand 25
+     obj echoat $n Unable to sustain the immense forces, your body is `!DISINTEGRATED``!
+     obj echoaround $n Unable to sustain the immense forces, $n body `!DISINTEGRATES``!
+     obj damage $n 1500 2000 kill
+else
+     obj echoaround $n $n enters the `8Ethereal Nexus``, and vanishes from sight!
+     obj echoat $n You fall for what seems like hours, and find yourself overcome with ecstasy.
+     obj echoat $n Finally, as your journey ends, you find yourself amid familiar grounds.
+     obj permquest $n Gained a new awareness about `8True Chaos.``
+     obj cast 'sanctuary' $n
+     obj transfer $n 11500
+endif
+~
+#9
+if mobhere 12
+     obj echo You feel a fiery demon's anger even as you try to summon another.
+     break
+endif
+obj echoat $n $I flares with unholy energy!
+obj echoat $n A tear in the nexus is sheared open!
+obj echoaround $n $I flares with unholy energy!
+obj echoaround $n A tear is opened in the nexus!
+obj cast 'demon summon'
+obj echoat $n The energy from the nexus `1MUTILATES`` you!
+obj echoaround $n The energy from the nexus `1MUTILATES`` $n!
+obj damage $n 20 40
+~
+#41
+if isdelay $i
+  break
+endif
+if rand 50
+  if affspell $n 'faerie fire'
+    break
+  else
+    obj echo $I flares blindingly!
+    obj cast 'faerie fire'
+    obj delay 1
+  endif
+else
+  if affspell $n 'enfeeblement'
+    break
+  else
+    obj echoat $n $I's power saps at your legs!
+    obj echoaround $n $I's power saps at $N's legs!
+    obj cast 'enfeeblement'
+    obj delay 1
+  endif
+endif
+~
+#44
+if rand 50
+     obj echoat $n A horde of demons fill the room, and carry you into darkness!
+     obj echoaround $n A horde of demons fills the room, and carry off $n!
+     obj cast 'teleport' $n
+     obj cast 'sacred' $n
+     obj echoat $n The devils exact their unholy price...
+     obj echoat $n The devils' toll `1DISMEMBERS`` you!
+     obj damage $n 20 30
+else
+     obj echoat $n The staff flares, but you fail to summon the devils.
+     obj echoat $n The flare of the staff `1maims`` you!
+     obj damage $n 10 15
+endif
+~
+#60
+obj echoat $n Some broken glass `1slices`` you.
+obj echoaround $n Some broken glass `1slices`` $N.
+obj damage $n 5 15
+obj force $n drop $i
+~
+#61
+if rand 80
+     obj echo A withered bough weeps and mourns.
+     obj cast 'curse'
+else
+     obj echo A withered bough seems to slowly sag.
+     obj cast 'weaken'
+endif
+~
+#62
+if rand 50
+     obj echo You see vultures wheel and cry overhead.
+else
+     obj echo Flies buzz incessantly around piles of decaying corpses.
+endif
+~
+#89
+if isdelay $i
+  obj echoat $n $I seems devoid of any power.
+  break
+else 
+  obj delay 3
+endif
+if rand 50
+     obj echo The Infinite Fractal seems to suddenly change shapes.
+     obj cast 'haste' $n
+else
+     obj echo The Infinite Fractal seems to stop all movement.
+     obj cast 'slow' $n
+endif
+~
+#90
+if rand 50
+     obj echo The Infinite Fractal works to sustain the inverse parabola!
+     obj cast 'dispel good'
+else
+     obj echo The Infinite Fractal works to extract paradox!
+     obj cast 'dispel evil'
+endif
+~
+#114
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n righteousness
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#115
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n divine void
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#116
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n insight
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#117
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n divine wrath
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#118
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n shadow bane
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#119
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n purewater
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#120
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n icefire
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#121
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n searing might
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#122
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n divine might
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#123
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n vitality
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#124
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n swift retribution
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#125
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n virtue
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#126
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n purity
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#127
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n constitution
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#128
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n the eye of palison
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#129
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n preservation
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#130
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n final parting
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#131
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n divine health
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#132
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n vicarious redemption
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#133
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n the triumph of one god
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#134
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n the triumph of sirant
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#135
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n the triumph of palison
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#136
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n undeniable order
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#137
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n inner strength
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#138
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n baptism
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#139
+if class $n 'crusader'
+  obj echoat $n You begin to study $I and burn the psalm into memory.
+  obj echoaround $n $N studies $i closely and chants softly.
+  obj addpsalm $n inner peace
+else
+  obj echoat $n You rub your hand agains the cool marble.
+  obj echoaround $n $N rubs $S hand agains the cool marble.
+endif
+~
+#0
+
+#ROOMPROGS
+#1
+if hasquest $n 'Been charged with finding your guild in Rheydin.'
+  break
+endif
+if hasquest $n 'Discovered your Rheydin guildhouse.'
+  break
+endif
+room echoat $n ``
+room echoat $n `&You have been charged with a quest!``
+room echoat $n Type "help quest" to for information on how to keep tabs on quests.
+room permquest $n Been charged with finding your guild in Rheydin.
+~
+#2
+if hasquest $n 'Discovered your Rheydin guildhouse.'
+  break
+endif
+room permquest $n Discovered your Rheydin guildhouse.
+room remquest $n Been charged with finding your guild in Rheydin.
+room echoat $n ``
+room echoat $n `@Congratulations, you have found your guild!``
+room echoat $n `@You have gained some experience points and gold!``
+room gain exp pc $n 500 650
+room gain gold pc $n 1000 1200
+~
+#5
+if isbloody $n
+  room echoat $n You are too excited with recent combat to concentrate on spotting the tunnel.
+  room stop $n
+  break
+endif
+if race $n drow
+or race $n duergar
+or race $n dwarf
+     room echoat $n You manage to dig your way back into the tunnel.
+     room echoaround $n $n digs $s way back into a small tunnel.
+     break
+else
+     room stop $n
+     room echoat $n You have no idea how to dig into that tunnel.
+endif
+~
+#6
+if isnpc $n
+  break
+endif
+if hasquest $n 'found the Shrine of Compassion.'
+or hasquest $n 'found the three shrines of `&LIFE``.'
+  break
+else
+  room echoat $n `@Congratulations, you have found the Shrine of Compassion!``
+  room tempquest $n found the Shrine of Compassion.
+endif
+if hasquest $n 'found the Shrine of Compassion.'
+and hasquest $n 'found the Shrine of Purity.'
+and hasquest $n 'found the Shrine of Tranquility.'
+  room echoat $n `@Congratulations, you have found the three shrines of `&LIFE```@!``
+  room echoat $n `@You've gained 1 practice and 10000 gold!``
+  room gain gold pc $n 10000 10000
+  room gain prac pc $n 1 1
+  room permquest $n found the three shrines of `&LIFE``.
+  room remquest $n found the Shrine of Compassion.
+  room remquest $n found the Shrine of Purity.
+  room remquest $n found the Shrine of Tranquility.
+endif
+~
+#7
+if rand 50
+     room echo A comet flies nearby you, leaving behind it a trail of stardust.
+else
+     room echo You see a flash in the far distance as a star supernovas.
+endif
+~
+#8
+if isnpc $n
+break
+endif
+if hasquest $n 'found the Shrine of Purity.'
+or hasquest $n 'found the three shrines of `&LIFE``.'
+break
+else
+room echoat $n `@Congratulations, you have found the Shrine of Purity!``
+room tempquest $n found the Shrine of Purity.
+endif
+if hasquest $n 'found the Shrine of Compassion.'
+and hasquest $n 'found the Shrine of Purity.'
+and hasquest $n 'found the Shrine of Tranquility.'
+room echoat $n `@Congratulations, you have found the three shrines of `&LIFE!``
+room echoat $n `@You've gained 1 practice and 10000 gold!``
+room gain gold pc $n 10000 10000
+room gain prac pc $n 1 1
+room permquest $n found the three shrines of `&LIFE``.
+room remquest $n found the Shrine of Compassion.
+room remquest $n found the Shrine of Purity.
+room remquest $n found the Shrine of Tranquility.
+endif
+~
+#9
+if isnpc $n
+break
+endif
+if hasquest $n 'found the Shrine of Tranquility.'
+or hasquest $n 'found the three shrines of `&LIFE``.'
+break
+else
+room echoat $n `@Congratulations, you have found the Shrine of Tranquility!``
+room tempquest $n found the Shrine of Tranquility.
+endif
+if hasquest $n 'found the Shrine of Compassion.'
+and hasquest $n 'found the Shrine of Purity.'
+and hasquest $n 'found the Shrine of Tranquility.'
+room echoat $n `@Congratulations, you have found the three shrines of `&LIFE!``
+room echoat $n `@You've gained 1 practice and 10000 gold!``
+room gain gold pc $n 10000 10000
+room gain prac pc $n 1 1
+room permquest $n found the three shrines of `&LIFE``.
+room remquest $n found the Shrine of Compassion.
+room remquest $n found the Shrine of Purity.
+room remquest $n found the Shrine of Tranquility.
+endif
+~
+#10
+if isnpc $n
+break
+endif
+if hasquest $n 'found the Shrine of Scourge.'
+or hasquest $n 'found the three shrines of `*DEATH``.'
+break
+else
+room echoat $n `@Congratulations, you have found the Shrine of Scourge!``
+room tempquest $n found the Shrine of Scourge.
+endif
+if hasquest $n 'found the Shrine of Scourge.'
+and hasquest $n 'found the Shrine of Cycle.'
+and hasquest $n 'found the Shrine of Necropsy.'
+room echoat $n `@Congratulations, you have found the three shrines of `*DEATH!``
+room echoat $n `@You've gained 1 practice and 10000 gold!``
+room gain gold pc $n 10000 10000
+room gain prac pc $n 1 1
+room permquest $n found the three shrines of `*DEATH``.
+room remquest $n found the Shrine of Scourge.
+room remquest $n found the Shrine of Cycle.
+room remquest $n found the Shrine of Necropsy.
+endif
+~
+#11
+if isnpc $n
+break
+endif
+if hasquest $n 'found the Shrine of Cycle.'
+or hasquest $n 'found the three shrines of `*DEATH``.'
+break
+else
+room echoat $n `@Congratulations, you have found the Shrine of Cycle!``
+room tempquest $n found the Shrine of Cycle.
+endif
+if hasquest $n 'found the Shrine of Scourge.'
+and hasquest $n 'found the Shrine of Cycle.'
+and hasquest $n 'found the Shrine of Necropsy.'
+room echoat $n `@Congratulations, you have found the three shrines of `*DEATH!``
+room echoat $n `@You've gained 1 practice and 10000 gold!``
+room gain gold pc $n 10000 10000
+room gain prac pc $n 1 1
+room permquest $n found the three shrines of `*DEATH``.
+room remquest $n found the Shrine of Scourge.
+room remquest $n found the Shrine of Cycle.
+room remquest $n found the Shrine of Necropsy.
+endif
+~
+#12
+if isnpc $n
+break
+endif
+if hasquest $n 'found the Shrine of Necropsy.'
+or hasquest $n 'found the three shrines of `*DEATH``.'
+break
+else
+room echoat $n `@Congratulations, you have found the Shrine of Necropsy!``
+room tempquest $n found the Shrine of Necropsy.
+endif
+if hasquest $n 'found the Shrine of Scourge.'
+and hasquest $n 'found the Shrine of Cycle.'
+and hasquest $n 'found the Shrine of Necropsy.'
+room echoat $n `@Congratulations, you have found the three shrines of `*DEATH!``
+room echoat $n `@You've gained 1 practice and 10000 gold!``
+room gain gold pc $n 10000 10000
+room gain prac pc $n 1 1
+room permquest $n found the three shrines of `*DEATH``.
+room remquest $n found the Shrine of Scourge.
+room remquest $n found the Shrine of Cycle.
+room remquest $n found the Shrine of Necropsy.
+endif
+~
+#13
+if isnpc $n
+break
+endif
+if hasquest $n 'found the Shrine of Dischord.'
+or hasquest $n 'found the three shrines of `!CHANCE``.'
+break
+else
+room echoat $n `@Congratulations, you have found the Shrine of Dischord!``
+room tempquest $n found the Shrine of Dischord.
+endif
+if hasquest $n 'found the Shrine of Dischord.'
+and hasquest $n 'found the Shrine of Greed.'
+and hasquest $n 'found the Shrine of Guile.'
+room echoat $n `@Congratulations, you have found the three shrines of `!CHANCE!``
+room echoat $n `@You've gained 1 practice and 10000 gold!``
+room gain gold pc $n 10000 10000
+room gain prac pc $n 1 1
+room permquest $n found the three shrines of `!CHANCE``.
+room remquest $n found the Shrine of Dischord.
+room remquest $n found the Shrine of Greed.
+room remquest $n found the Shrine of Guile.
+endif
+~
+#14
+if isnpc $n
+break
+endif
+if hasquest $n 'found the Shrine of Greed.'
+or hasquest $n 'found the three shrines of `!CHANCE``.'
+break
+else
+room echoat $n `@Congratulations, you have found the Shrine of Greed!``
+room tempquest $n found the Shrine of Greed.
+endif
+if hasquest $n 'found the Shrine of Dischord.'
+and hasquest $n 'found the Shrine of Greed.'
+and hasquest $n 'found the Shrine of Guile.'
+room echoat $n `@Congratulations, you have found the three shrines of `!CHANCE!``
+room echoat $n `@You've gained 1 practice and 10000 gold!``
+room gain gold pc $n 10000 10000
+room gain prac pc $n 1 1
+room permquest $n found the three shrines of `!CHANCE``.
+room remquest $n found the Shrine of Dischord.
+room remquest $n found the Shrine of Greed.
+room remquest $n found the Shrine of Guile.
+endif
+~
+#15
+if isnpc $n
+break
+endif
+if hasquest $n 'found the Shrine of Guile.'
+or hasquest $n 'found the three shrines of `!CHANCE``.'
+break
+else
+room echoat $n `@Congratulations, you have found the Shrine of Guile!``
+room tempquest $n found the Shrine of Guile.
+endif
+if hasquest $n 'found the Shrine of Dischord.'
+and hasquest $n 'found the Shrine of Greed.'
+and hasquest $n 'found the Shrine of Guile.'
+room echoat $n `@Congratulations, you have found the three shrines of `!CHANCE!``
+room echoat $n `@You've gained 1 practice and 10000 gold!``
+room gain gold pc $n 10000 10000
+room gain prac pc $n 1 1
+room permquest $n found the three shrines of `!CHANCE``.
+room remquest $n found the Shrine of Dischord.
+room remquest $n found the Shrine of Greed.
+room remquest $n found the Shrine of Guile.
+endif
+~
+#16
+if isnpc $n
+break
+endif
+if hasquest $n 'found the Shrine of Order.'
+or hasquest $n 'found the three shrines of `@EQUILIBRIUM``.'
+break
+else
+room echoat $n `@Congratulations, you have found the Shrine of Order!``
+room tempquest $n found the Shrine of Order.
+endif
+if hasquest $n 'found the Shrine of Order.'
+and hasquest $n 'found the Shrine of Neutrality.'
+and hasquest $n 'found the Shrine of Chaos.'
+room echoat $n `@Congratulations, you have found the three shrines of `@EQUILIBRIUM!``
+room echoat $n `@You've gained 1 practice and 10000 gold!``
+room gain gold pc $n 10000 10000
+room gain prac pc $n 1 1
+room permquest $n found the three shrines of `@EQUILIBRIUM``.
+room remquest $n found the Shrine of Order.
+room remquest $n found the Shrine of Neutrality.
+room remquest $n found the Shrine of Chaos.
+endif
+~
+#17
+if isnpc $n
+break
+endif
+if hasquest $n 'found the Shrine of Neutrality.'
+or hasquest $n 'found the three shrines of `@EQUILIBRIUM``.'
+break
+else
+room echoat $n `@Congratulations, you have found the Shrine of Neutrality!``
+room tempquest $n found the Shrine of Neutrality.
+endif
+if hasquest $n 'found the Shrine of Order.'
+and hasquest $n 'found the Shrine of Neutrality.'
+and hasquest $n 'found the Shrine of Chaos.'
+room echoat $n `@Congratulations, you have found the three shrines of `@EQUILIBRIUM!``
+room echoat $n `@You've gained 1 practice and 10000 gold!``
+room gain gold pc $n 10000 10000
+room gain prac pc $n 1 1
+room permquest $n found the three shrines of `@EQUILIBRIUM``.
+room remquest $n found the Shrine of Order.
+room remquest $n found the Shrine of Neutrality.
+room remquest $n found the Shrine of Chaos.
+endif
+~
+#18
+if isnpc $n
+break
+endif
+if hasquest $n 'found the Shrine of Chaos.'
+or hasquest $n 'found the three shrines of `@EQUILIBRIUM``.'
+break
+else
+room echoat $n `@Congratulations, you have found the Shrine of Chaos!``
+room tempquest $n found the Shrine of Chaos.
+endif
+if hasquest $n 'found the Shrine of Order.'
+and hasquest $n 'found the Shrine of Neutrality.'
+and hasquest $n 'found the Shrine of Chaos.'
+room echoat $n `@Congratulations, you have found the three shrines of `@EQUILIBRIUM!``
+room echoat $n `@You've gained 1 practice and 10000 gold!``
+room gain gold pc $n 10000 10000
+room gain prac pc $n 1 1
+room permquest $n found the three shrines of `@EQUILIBRIUM``.
+room remquest $n found the Shrine of Order.
+room remquest $n found the Shrine of Neutrality.
+room remquest $n found the Shrine of Chaos.
+endif
+~
+#19
+if isnpc $n
+break
+endif
+if hasquest $n 'found the Shrine of Mystic.'
+or hasquest $n 'found the three shrines of `4KNOWLEDGE``.'
+break
+else
+room echoat $n `@Congratulations, you have found the Shrine of Mystic!``
+room tempquest $n found the Shrine of Mystic.
+endif
+if hasquest $n 'found the Shrine of Mystic.'
+and hasquest $n 'found the Shrine of Combat.'
+and hasquest $n 'found the Shrine of Nature.'
+room echoat $n `@Congratulations, you have found the three shrines of `4KNOWLEDGE!``
+room echoat $n `@You've gained 1 practice and 10000 gold!``
+room gain gold pc $n 10000 10000
+room gain prac pc $n 1 1
+room permquest $n found the three shrines of `4KNOWLEDGE``.
+room remquest $n found the Shrine of Mystic.
+room remquest $n found the Shrine of Combat.
+room remquest $n found the Shrine of Nature.
+endif
+~
+#20
+if isnpc $n
+break
+endif
+if hasquest $n 'found the Shrine of Combat.'
+or hasquest $n 'found the three shrines of `4KNOWLEDGE``.'
+break
+else
+room echoat $n `@Congratulations, you have found the Shrine of Combat!``
+room tempquest $n found the Shrine of Combat.
+endif
+if hasquest $n 'found the Shrine of Mystic.'
+and hasquest $n 'found the Shrine of Combat.'
+and hasquest $n 'found the Shrine of Nature.'
+room echoat $n `@Congratulations, you have found the three shrines of `4KNOWLEDGE!``
+room echoat $n `@You've gained 1 practice and 10000 gold!``
+room gain gold pc $n 10000 10000
+room gain prac pc $n 1 1
+room permquest $n found the three shrines of `4KNOWLEDGE``.
+room remquest $n found the Shrine of Mystic.
+room remquest $n found the Shrine of Combat.
+room remquest $n found the Shrine of Nature.
+endif
+~
+#21
+if isnpc $n
+break
+endif
+if hasquest $n 'found the Shrine of Nature.'
+or hasquest $n 'found the three shrines of `4KNOWLEDGE``.'
+break
+else
+room echoat $n `@Congratulations, you have found the Shrine of Nature!``
+room tempquest $n found the Shrine of Nature.
+endif
+if hasquest $n 'found the Shrine of Mystic.'
+and hasquest $n 'found the Shrine of Combat.'
+and hasquest $n 'found the Shrine of Nature.'
+room echoat $n `@Congratulations, you have found the three shrines of `4KNOWLEDGE!``
+room echoat $n `@You've gained 1 practice and 10000 gold!``
+room gain gold pc $n 10000 10000
+room gain prac pc $n 1 1
+room permquest $n found the three shrines of `4KNOWLEDGE``.
+room remquest $n found the Shrine of Mystic.
+room remquest $n found the Shrine of Combat.
+room remquest $n found the Shrine of Nature.
+endif
+~
+#22
+if isnpc $n
+break
+endif
+if hasquest $n 'have found the shrine of `%FAITH``.'
+break
+else
+room echoat $n `@Congratulations, you have found the shrine of Faith!``
+room permquest $n have found the shrine of `%FAITH``.
+room echoat $n `@You've gained 1 practice and 10000 gold!``
+room gain gold pc $n 10000 10000
+room gain prac pc $n 1 1
+endif
+~
+#0
+
+#$

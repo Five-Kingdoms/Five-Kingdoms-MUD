@@ -1,6 +1,6 @@
 >rand_prog 3~
 if rand (50)
-	say Val Miran will fall!
+	say Revelsport will fall!
 else
 	grin $r
 endif

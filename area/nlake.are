@@ -1,0 +1,2370 @@
+#AREADATA
+Name Northlake~
+Pref ~
+Builders Telufial Valdaric~
+VNUMs 8600 8699
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 0
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#8600
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+A A 0 0 0 0
+0 0 0d0+0 0d0+100 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+3
+AHMV ABCDEFGHIJK medium 0
+#8601
+fish dull~
+A dull colored fish~
+A dull colored fish swims about here.
+~
+A fish which appears dull grey in color is here.  It has a stripe of
+bright silver moving across it's sides and appears to have sharp spines upon
+it's fin.  
+~
+unique~
+AGWd A 0 0 0 0
+5 10 5d3+50 0d0+0 0d0+0 slap
+0 0 0 0
+FH R I J
+stand stand either none~
+3
+0 0 medium 0
+#8672
+frost worm~
+A giant frost worm~
+A massive frost worm is burrowed here, waiting for it's next victim.
+~
+An enormous beast with massive amounts of pure white fur is here.  Two
+large mandibles protrude from its gigantic mouth, each near twelve feet in
+length.  Its entire body spans to a length of around two hundred feet,
+making this creature a fearsome foe.  It has six pairs of dark red eyes that
+move back on its head in a straight line.  Finally upon its tail is a large
+mass of spines which could easily rip even a man to shreds quite easily.  
+~
+snake~
+AGWd A DFPQV BIJ -500 0
+55 50 20d10+8000 0d0+0 0d0+0 frbite
+-24 -24 -24 -7
+CDEFHNX ABILR CNb IJ
+stand stand male none~
+19
+AGXYc ADEFKLQVX giant 0
+F res L
+#8684
+giant frost Llyrothan~
+Llyrothan~
+Llyrothan resides here, offering praise to his god.
+~
+Here stands the cleric of this temple, a large giant with mist emanating
+from his body.  He wears large robes of blue and silver along with a pair of
+leather sandals.  His face is sullen for it appears he has been here many
+years.  His hair is long and gray, reaching down to his shoulders.  
+~
+giant~
+AGe A DFH KMO -500 0
+45 43 12d3+4000 0d0+0 0d0+0 wrath
+-18 -18 -18 -4
+DEFIJKNX ABCIKLQSZ DNOS P
+stand stand male none~
+20
+AHMV ABCDEFGHIJK huge 0
+#8699
+gargoyle stone~
+A stone gargoyle~
+A stone gargoyle resides here.
+~
+A large gargoyle stands before you.  It's eyes stare blankly ahead making
+it appear lifeless.  It has a pair of stone wings upon its back and some
+rather sharp claws upon its hands and feet.  It's mouth holds a nice sized
+pair of fangs that look like they could pierce flesh by even touching them. 
+~
+stone~
+AGe A DFH K 0 0
+40 38 10d3+3000 0d0+0 0d0+0 chomp
+-15 -15 -15 -2
+FJX ABJLQ DHN PST
+stand stand none none~
+23
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#8600
+campfire~
+a frozen campfire~
+An abandoned campfire centers this village, covered in snow.~
+ashes~
+trash 0 P
+0 0 0 0 0
+0 200 0 P
+L
+0
+#8601
+old paddle boat~
+an old paddle boat~
+An old paddle boat sways with the tide here, in complete ruins.~
+wood~
+trash 0 P
+0 0 0 0 0
+0 50 0 P
+L
+0
+#8602
+puddle rain water~
+a puddle of rain water~
+A generous puddle of rain water has formed here.~
+ice water~
+fountain 0 P
+-1 -1 'water' 0 0
+0 0 0 P
+L
+0
+#0
+
+
+
+#ROOMS
+#8600
+`6In Shallow Water ``~
+You stand knee-deep in the beginnings of a very cold lake.  Miles upon
+miles of dark blue water have unveiled before you.  Although frigid, the
+water here is very calm, very peaceful.  Many varieties of wildlife can be
+heard chirping or grunting from all sides.  The lake deepens further to your
+west, while a small path of dirt is hardly visible through the trees to your
+east.  
+~
+~
+0 0 0 6
+D2
+~
+~
+0 0 8553
+D3
+~
+~
+0 0 8601
+S
+#8601
+`4Rapidly Deepening Waters ``~
+The water here has deepened exponentially and has become impossible to swim
+in considering the low temperatures. You have been forced to slowly resume
+your journey in a boat. Looking over the edges of the boat, you stare straight
+into water so deep it has become a night black. This black water continues 
+on all sides excluding the east, where the lake seems to converge to a path.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8602
+D1
+~
+~
+0 0 8600
+D2
+~
+~
+0 0 8603
+D3
+~
+~
+0 0 8606
+S
+#8602
+`4The Lake's Edge ``~
+Although cold, the black water here is rather calm, and easy to navigate 
+through. You often come across several schools of fish and watch them scatter 
+in fear as you come near them. To your north and east lies a spectacular 
+unscalable mountain range, largely blanketed by white powdered snow. Not a 
+single sign of danger in sight, you feel as though you could rest here forever.
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 8601
+D3
+~
+~
+0 0 8605
+S
+#8603
+`4The Lake's Edge ``~
+Although cold, the black water here is rather calm, and easy to navigate 
+through. You often come across several schools of fish and watch them scatter 
+in fear as you come near them. To your south and east lies a spectacular 
+unscalable mountain range, largely blanketed by white powdered snow. Not a 
+single sign of danger in sight, you feel as though you could rest here forever.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8601
+D3
+~
+~
+0 0 8607
+S
+#8604
+`4Amidst Ice Sheets``~
+Slowly large masses of cracked ice sheets come into view.  Their sharp
+edges crash along eachother, causing others to crack apart and continue
+their endless drift.  The chilling air turns your breath to mist right
+before your eyes and seems to dry your throat.  Luckily the ice is in thin
+sheets, allowing easy passage.  
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 8605
+D3
+~
+~
+0 0 8609
+S
+#8605
+`4Lost in Water ``~
+Everything around you looks the same. Endless black stretches out to the 
+horizons on all sides. Now that you are so fargone in the lake, the 
+temperature has dropped considerably, and you feel that if you do not find a
+section of land soon, you will die here. Yet, being the sturdy adventurer that
+you think you are, you do not give up hope.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8604
+D1
+~
+~
+0 0 8602
+D2
+~
+~
+0 0 8606
+D3
+~
+~
+0 0 8610
+S
+#8606
+`4Lost in Water ``~
+Everything around you looks the same. Endless black stretches out to the 
+horizons on all sides. Now that you are so fargone in the lake, the 
+temperature has dropped considerably, and you feel that if you do not find a
+section of land soon, you will die here. Yet, being the sturdy adventurer that
+you think you are, you do not give up hope.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8605
+D1
+~
+~
+0 0 8601
+D2
+~
+~
+0 0 8607
+D3
+~
+~
+0 0 8611
+S
+#8607
+`4Lost in Water ``~
+Everything around you looks the same. Endless black stretches out to the 
+horizons on all sides. Now that you are so fargone in the lake, the 
+temperature has dropped considerably, and you feel that if you do not find a
+section of land soon, you will die here. Yet, being the sturdy adventurer that
+you think you are, you do not give up hope.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8606
+D1
+~
+~
+0 0 8603
+D2
+~
+~
+0 0 8608
+D3
+~
+~
+0 0 8612
+S
+#8608
+`4Nearing Land``~
+The water here has turned into a paler shade of blue, compared to the
+night black found in the deeper sections of the lake.  The water currents
+have also begun to carry you on their own, a clear sign that a shore is
+near.  Perhaps you will find signs of life nearby in this frozen hell.  Who
+is to know?  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8607
+D3
+~
+~
+0 0 8613
+S
+#8609
+`4Amidst Ice Sheets``~
+Slowly large masses of cracked ice sheets come into view.  Their sharp
+edges crash along eachother, causing others to crack apart and continue
+their endless drift.  The chilling air turns your breath to mist right
+before your eyes and seems to dry your throat.  Luckily the ice is in thin
+sheets, allowing easy passage.  
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 8604
+D2
+~
+~
+0 0 8610
+D3
+~
+~
+0 0 8614
+S
+#8610
+`4Lost in Water ``~
+Everything around you looks the same. Endless black stretches out to the 
+horizons on all sides. Now that you are so fargone in the lake, the 
+temperature has dropped considerably, and you feel that if you do not find a
+section of land soon, you will die here. Yet, being the sturdy adventurer that
+you think you are, you do not give up hope.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8609
+D1
+~
+~
+0 0 8605
+D2
+~
+~
+0 0 8611
+D3
+~
+~
+0 0 8615
+S
+#8611
+`4Lost in Water ``~
+Everything around you looks the same. Endless black stretches out to the 
+horizons on all sides. Now that you are so fargone in the lake, the 
+temperature has dropped considerably, and you feel that if you do not find a
+section of land soon, you will die here. Yet, being the sturdy adventurer that
+you think you are, you do not give up hope.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8610
+D1
+~
+~
+0 0 8606
+D2
+~
+~
+0 0 8612
+D3
+~
+~
+0 0 8616
+S
+#8612
+`4Nearing Land ``~
+The water here has turned into a paler shade of blue, compared to the night
+black found in the deeper sections of the lake. The water currents have also
+begun to carry you on their own, a clear sign that a shore is near. Perhaps
+you will find signs of life nearby in this frozen hell. Who is to know?
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8611
+D1
+~
+~
+0 0 8607
+D2
+~
+~
+0 0 8613
+D3
+~
+~
+0 0 8617
+S
+#8613
+`4Nearing Land``~
+The water here has turned into a paler shade of blue, compared to the
+night black found in the deeper sections of the lake.  The water currents
+have also begun to carry you on their own, a clear sign that a shore is
+near.  Perhaps you will find signs of life nearby in this frozen hell.  Who
+is to know?  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8612
+D1
+~
+~
+0 0 8608
+D3
+~
+~
+0 0 8618
+S
+#8614
+`4Amidst Ice Sheets``~
+Slowly large masses of cracked ice sheets come into view.  Their sharp
+edges crash along eachother, causing others to crack apart and continue
+their endless drift.  The chilling air turns your breath to mist right
+before your eyes and seems to dry your throat.  Luckily the ice is in thin
+sheets, allowing easy passage.  
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 8609
+D2
+~
+~
+0 0 8615
+D3
+~
+~
+0 0 8619
+S
+#8615
+`4Lost in Water ``~
+Everything around you looks the same. Endless black stretches out to the 
+horizons on all sides. Now that you are so fargone in the lake, the 
+temperature has dropped considerably, and you feel that if you do not find a
+section of land soon, you will die here. Yet, being the sturdy adventurer that
+you think you are, you do not give up hope.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8614
+D1
+~
+~
+0 0 8610
+D2
+~
+~
+0 0 8616
+D3
+~
+~
+0 0 8620
+S
+#8616
+`4Nearing Land ``~
+The water here has turned into a paler shade of blue, compared to the night
+black found in the deeper sections of the lake. The water currents have also
+begun to carry you on their own, a clear sign that a shore is near. Perhaps
+you will find signs of life nearby in this frozen hell. Who is to know?
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8615
+D1
+~
+~
+0 0 8611
+D2
+~
+~
+0 0 8617
+S
+#8617
+`8A Small Island Shore ``~
+You stand on the outskirts of a tiny island. The ground below is completely
+frozen, still eminating a light yellowish hue. Perhaps this section of the
+island was a sandy beach many years ago. Regardless, it has become a frozen 
+wasteland. You still feel much warmer here than you did in the middle of the 
+lake, physically, and perhaps mentally as well, with the comfort of standing 
+on solid ground. 
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8616
+D1
+~
+~
+0 0 8612
+D2
+~
+~
+0 0 8618
+D3
+~
+~
+0 0 8622
+S
+#8618
+`4Nearing Land ``~
+The water here has turned into a paler shade of blue, compared to the night
+black found in the deeper sections of the lake. The water currents have also
+begun to carry you on their own, a clear sign that a shore is near. Perhaps
+you will find signs of life nearby in this frozen hell. Who is to know?
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8617
+D1
+~
+~
+0 0 8613
+D3
+~
+~
+0 0 8623
+S
+#8619
+`4Amidst Ice Sheets``~
+Slowly large masses of cracked ice sheets come into view.  Their sharp
+edges crash along eachother, causing others to crack apart and continue
+their endless drift.  The chilling air turns your breath to mist right
+before your eyes and seems to dry your throat.  Luckily the ice is in thin
+sheets, allowing easy passage.  
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 8614
+D2
+~
+~
+0 0 8620
+D3
+~
+~
+0 0 8624
+S
+#8620
+`4Nearing Brisk Waters``~
+The water here seems to get quite chilly, taking the feeling from your
+flesh.  As you move further into this arctic climate your body begins to
+feel it's icy bite.  Everything seems dark and gloomy, though beautiful snow
+flakes drift aimlessly from the sky.  The freezing weather seems to go on,
+only getting worse as you go.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8619
+D1
+~
+~
+0 0 8615
+S
+#8621
+`3Huge Wooden Stakes ``~
+Dozens of spiked wooden poles surround you, battered and bloodied. Each 
+measuring a height of several meters, they are decorated by the skeletal 
+remains of man and beast alike. Perhaps serving as a sacraficial site, or
+simply to kill for food, such savagery could only symbolize one thing, to warn 
+wandering travelers against trespassing. 
+~
+~
+0 0 16384 2
+D2
+~
+~
+0 0 8622
+D3
+~
+~
+0 0 8626
+S
+#8622
+`3A Bending Trail ``~
+You walk on a thin path of frozen soil. The path twists and turns on all
+angles, making it very confusing to remember which way you are facing. Bent 
+and warped trees hang over and around you, while many others have been 
+sloppily chopped down. Dead vegetation lies everywhere, not very surprising
+seeing as how nothing could live here for a prolonged length of time. Yet, the
+fact that they once existed would indicate that it was not always so.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 8621
+D1
+~
+~
+0 0 8617
+S
+#8623
+`4Among Thin Ice ``~
+You now find yourself in a narrow section of the lake, sandwiched between two
+sections of land. To your south towers an immense unclimbable mountain range,
+and to your north lies a small island populated largely by dead or dying 
+plantlife. The water here is covered by a thin sheet of ice, too fragile to
+walk on, yet still impossible to swim through. Therefore, breaking whatever
+ice you can, you slowly move forward.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 8618
+D3
+~
+~
+0 0 8628
+S
+#8624
+`4Icy Passage``~
+The ice splits slightly here, allowing enough room for a small boat to
+pass.  When looking closer the crack seems to be filling with slushy water,
+giving you the sense that this area will soon become another sheet of ice. 
+You had best continue on before you are stranded within this artic tomb.  
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 8619
+D3
+~
+~
+0 0 8629
+S
+#8625
+`8A Rickety Hut ``~
+Upon entering this dark hut, dozens of vermin scatter away from you towards
+the corners of the room. The hut is completely bare, all the belongings that
+once were here are now gone. The walls are fashioned of thick trunk-like beams
+of wood, which support the roof consisting of smaller branches and twigs. 
+Water leaks through this roof, and while this dusty hut is warm, it is also 
+very damp.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 8626
+S
+#8626
+`3An Abandoned Campsite ``~
+You have come across what looks to be the center of a discarded tribal 
+village. A black firepit rests in the middle of this area, now mostly covered 
+in snow and ice. Surrounding it are a small number of bench-like wooden logs, 
+presumably where the inhabitants would converge. Around you lie the remains
+of several old wooden huts, now collapsed. There is still one intact, however,
+to your north. What appear to be exits from this village are to your east and 
+south.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 8625
+D1
+~
+~
+0 0 8621
+D2
+~
+~
+0 0 8627
+S
+#8627
+`3Deserted Remains ``~
+Although long dead, the trees surrounding you have not been cut down as seen
+in other sections of this small island. Hanging from these limber tree 
+branches are a large number of wooden cages. The cages sway in the cold wind, 
+and emit haunting cracks. Each cage is stuffed with decomposed corpses of man 
+and beast. Decayed limbs have detached themselves from their corresponding 
+bodies, and have settled themselves at your feet.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 8626
+D3
+~
+~
+0 0 8632
+S
+#8628
+`4Among Thin Ice ``~
+You now find yourself in a narrow section of the lake, sandwiched between two
+sections of land. To your south towers an immense unclimbable mountain range,
+and to your north lies a small island populated largely by dead or dying 
+plantlife. The water here is covered by a thin sheet of ice, too fragile to
+walk on, yet still impossible to swim through. Therefore, breaking whatever
+ice you can, you slowly move forward.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 8623
+D3
+~
+~
+0 0 8633
+S
+#8629
+`4Deepening Waters``~
+The thin sheets of ice seem to break apart and begin forming small waves.
+The remaining shards soon crack apart and are tossed carelessly about by the
+treacherous waters.  The color darkens as you can see the water is now
+deeper than it was even before.  
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 8624
+D2
+~
+~
+0 0 8630
+D3
+~
+~
+0 0 8634
+S
+#8630
+`4Deepening Waters``~
+The thin sheets of ice seem to break apart and begin forming small waves.
+The remaining shards soon crack apart and are tossed carelessly about by the
+treacherous waters.  The color darkens as you can see the water is now
+deeper than it was even before.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8629
+D2
+~
+~
+0 0 8631
+D3
+~
+~
+0 0 8635
+S
+#8631
+`4Deepening Waters``~
+The thin sheets of ice seem to break apart and begin forming small waves.
+The remaining shards soon crack apart and are tossed carelessly about by the
+treacherous waters.  The color darkens as you can see the water is now
+deeper than it was even before.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8630
+D3
+~
+~
+0 0 8636
+S
+#8632
+`8The Western Shore ``~
+You have reached the western-most section on this island. The wind is
+cold and rather windy, pushing the lake water higher onto the icy 
+shore. The ground is hard, a mixture of frozen dirt and sand. The 
+vegetation is rather scarce, yet there seems to be plenty towards the
+center of the island, to your east. A few wooden planks have washed 
+themselves up to shore, possibly belonging to one or more boats.
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 8627
+D3
+~
+~
+0 0 8637
+S
+#8633
+`4Among Thin Ice ``~
+You now find yourself in a narrow section of the lake, sandwiched between two
+sections of land. To your south towers an immense unclimbable mountain range,
+and to your north lies a small island populated largely by dead or dying 
+plantlife. The water here is covered by a thin sheet of ice, too fragile to
+walk on, yet still impossible to swim through. Therefore, breaking whatever
+ice you can, you slowly move forward.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 8628
+D3
+~
+~
+0 0 8638
+S
+#8634
+`4On Choppy Waters``~
+Dozens of small waves clash about the icy lake.  Cold water sprays about,
+making the environment even more unbearable than it already was.  You feel
+you should get out of here quickly, seeing as the ice seems to be slowly
+blocking up passages.  
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 8629
+D2
+~
+~
+0 0 8635
+D3
+~
+~
+0 0 8641
+S
+#8635
+`4On Choppy Waters ``~
+Dozens of small waves clash about the icy lake.  Cold water sprays about,
+making the environment even more unbearable than it already was.  You feel
+you should get out of here quickly, seeing as the ice seems to be slowly
+blocking up passages.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8634
+D1
+~
+~
+0 0 8630
+D2
+~
+~
+0 0 8636
+D3
+~
+~
+0 0 8642
+S
+#8636
+`4On Choppy Waters ``~
+Dozens of small waves clash about the icy lake.  Cold water sprays about,
+making the environment even more unbearable than it already was.  You feel
+you should get out of here quickly, seeing as the ice seems to be slowly
+blocking up passages.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8635
+D1
+~
+~
+0 0 8631
+D2
+~
+~
+0 0 8637
+D3
+~
+~
+0 0 8643
+S
+#8637
+`4Skirting the Coast ``~
+The waves have become more aggitated, and you find it more and more
+difficult to travel against them. A few small fragments of ice float
+here and there, but what really catches your eye is the high number of 
+wooden strips that float alongside you. You, along with the wood, are 
+slowly being taken towards the island shore to your east, should you 
+not decide to force yourself to your north or south.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8636
+D1
+~
+~
+0 0 8632
+D2
+~
+~
+0 0 8638
+S
+#8638
+`4Among Thin Ice ``~
+You now find yourself in a narrow section of the lake, sandwiched between two
+sections of land. To your south towers an immense unclimbable mountain range,
+and to your northeast lies a small island populated largely by dead or dying 
+plantlife. The water here is covered by a thin sheet of ice, too fragile to
+walk on, yet still impossible to swim through. Therefore, breaking whatever
+ice you can, you slowly move forward.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8637
+D1
+~
+~
+0 0 8633
+S
+#8639
+`&Nearing the Iceberg``~
+The waters here seem rather cold and end abruptly.  Ice has taken over
+the treacherous waters that control most of this area.  Upon examination it
+appears that this ice sheet is sturdy enough to walk upon.  As you move
+further to the west the ice turns white, giving an improving sense of
+safety.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8644
+D2
+~
+~
+0 0 8640
+D3
+~
+~
+0 0 8646
+S
+#8640
+`4Icy Sheets``~
+The waters here become thick with ice as though leading up to a large
+formation.  Quickly it gets to the point where you expect land to be close
+by.  To your west lies a path between a large glacier and to the north a
+constantly thickening sheet of ice.  Seems like your luck may be changing,
+solid land at last .  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8639
+D2
+~
+~
+0 0 8641
+D3
+~
+~
+0 0 8647
+S
+#8641
+`4On Choppy Waters``~
+Dozens of small waves clash about the icy lake.  Cold water sprays about,
+making the environment even more unbearable than it already was.  You feel
+you should get out of here quickly, seeing as the ice seems to be slowly
+blocking up passages.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8640
+D1
+~
+~
+0 0 8634
+D2
+~
+~
+0 0 8642
+D3
+~
+~
+0 0 8648
+S
+#8642
+`4On Choppy Waters ``~
+Dozens of small waves clash about the icy lake.  Cold water sprays about,
+making the environment even more unbearable than it already was.  You feel
+you should get out of here quickly, seeing as the ice seems to be slowly
+blocking up passages.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8641
+D1
+~
+~
+0 0 8635
+D2
+~
+~
+0 0 8643
+D3
+~
+~
+0 0 8649
+S
+#8643
+`4On Choppy Waters``~
+Dozens of small waves clash about the icy lake.  Cold water sprays about,
+making the environment even more unbearable than it already was.  You feel
+you should get out of here quickly, seeing as the ice seems to be slowly
+blocking up passages.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8642
+D1
+~
+~
+0 0 8636
+D3
+~
+~
+0 0 8650
+S
+#8644
+`4A Numbing Deluge ``~
+Stinging torrential rains clatter against your eyes and face. The water
+around you has transformed into a tempest of wind and water, 
+threatening to down you with its strength. Loud roars of thunder and
+sharp explosions of lightning have taken over your senses. Barely 
+visible to your north, the mountain range has decreased it size.
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 8639
+D3
+~
+~
+0 0 8645
+S
+#8645
+`4A Numbing Deluge ``~
+Stinging torrential rains clatter against your eyes and face. The water
+around you has transformed into a tempest of wind and water, 
+threatening to down you with its strength. Loud roars of thunder and
+sharp explosions of lightning have taken over your senses. Barely 
+visible to your north, the mountain range has decreased it size.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 8644
+D2
+~
+~
+0 0 8646
+D3
+~
+~
+0 0 8653
+S
+#8646
+`&A Smooth Chunk of Ice ``~
+You stand on one of the few accessible points of the iceberg which would
+lead you inside of it. The splashing waters have covered this section of ice,
+and have made it very challenging for you to keep your proper footing. This 
+ramp of ice continues to your west, and another can somewhat be identified
+to your south. 
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8645
+D1
+~
+~
+0 0 8639
+D2
+~
+~
+0 0 8647
+D3
+~
+~
+0 0 8654
+S
+#8647
+`4Between Inclinations of Ice ``~
+You find yourself directly east of a surmounting iceberg. To your north and
+south, large inclined ramps of ice lead westward to two giant openings in the 
+iceberg. Occasionally, large hunks of ice detach themselves from the main body
+and crash into the water before you, adding to the already large waves.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8646
+D1
+~
+~
+0 0 8640
+D2
+~
+~
+0 0 8648
+D3
+~
+~
+0 0 8655
+S
+#8648
+`&A Large Ice Ramp ``~
+You have actually found a section of this iceberg that would allow you to
+embark and disembark with ease. A combination of crashing waves and violent
+winds dare you to stay on your feet. Unending waters lie to your north, east, 
+and south, while the naturally formed ramp of ice thickens and ascends to 
+your west.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8647
+D1
+~
+~
+0 0 8641
+D2
+~
+~
+0 0 8649
+D3
+~
+~
+0 0 8656
+S
+#8649
+`4On Choppy Waters ``~
+Dozens of small waves clash about the icy lake.  Cold water sprays about,
+making the environment even more unbearable than it already was.  You feel
+you should get out of here quickly, seeing as the ice seems to be slowly
+blocking up passages.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8648
+D1
+~
+~
+0 0 8642
+D2
+~
+~
+0 0 8650
+D3
+~
+~
+0 0 8657
+S
+#8650
+`4Shrouded Mists ``~
+The air around you becomes thick with an icy mist.  It seems difficult to
+see more than a few feet before you.  Still the clashing of the waves
+blended with broken shards of ice can be heard below.  This eerie mist seems
+to carry on further and further with no sign of escape.  Hopefully this
+darkness will lift soon, before you collide with something.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8649
+D1
+~
+~
+0 0 8643
+D2
+~
+~
+0 0 8651
+D3
+~
+~
+0 0 8679
+S
+#8651
+`4Nearing a Vortex``~
+The water here seems calm though a slight current seems to pull you
+southward.  Ice sheets move in a circular motion slowly due to the weak pull
+of the waters.  You had best move out of here before you are draw into the
+vortex southward.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8650
+D2
+~
+~
+0 0 8652
+D3
+~
+~
+0 0 8658
+S
+#8652
+`$Swirling Vortex``~
+The water here seems to have formed into a large whirlpool.  What is
+rather peculiar about the vortex; however, is its odd tendency to swirl
+about in a convex fashion.  The water doesnt appear to move much though
+because its mostly ice.  Geysers that once stood here have frozen and left
+behind a beautiful tower of ice.  It seems like even the heat from within
+the earth has been overcome by this overwhelming cold.  
+~
+~
+0 0 0 15
+D0
+~
+~
+0 0 8651
+S
+#8653
+`4The Northern Outlet ``~
+To your north lies the unthinkable, an exit to these horizons upon
+horizons of water. The mountain range that largely surrounds this
+gargantuan lake has somehow been split, forming a path. An unseen force
+seem to not want you there, however, as stiff winds and rains push 
+you away.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8680
+D1
+~
+~
+0 0 8645
+D3
+~
+~
+0 0 8659
+S
+#8654
+`&A Slippery Path ``~
+The ice here is so slick that you have almost been rendered to a crawl. A 
+slip here along this dangerously narrow sheet of ice would definitely send
+you crashing down dozens of feet into the frigid waters below, something you
+would want to avoid. An opening to the mountain of ice lies to your west, and
+from here, it gives away the impression of a large mouth riddled with jagged 
+teeth.
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 8646
+D3
+~
+~
+0 0 8660
+S
+#8655
+`4Violent Tides ``~
+Conditions like these illustrate Nature at its most dangerous. The winds and 
+water currents are extremely strong here. You find yourself being forced wave
+by wave into the towering wall of ice to your west. Such a collision would 
+surely mean disaster, and in this cold, certain death. Thick inclined blocks 
+of ice soar to your north and south.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 8647
+S
+#8656
+`&Further Along the Ramp ``~
+Standing on this slanted beam of ice, you now find yourself dozens of meters
+above sea level. Yet, the raging tides seem to unrelentless in their quest to
+sweep you away, forcing you to stay cautious. The farther up the iceberg you
+climb, the harsher the conditions are. An opening in the ice can barely be
+made out to your west, and you hope that perhaps you will find shelter in
+there.
+~
+~
+0 0 0 12
+D1
+~
+~
+0 0 8648
+D3
+~
+~
+0 0 8662
+S
+#8657
+`4Amidst Clashing Waves``~
+Large waves clash violently against one another with little care for what
+they destroy.  Small slabs of ice are tossed carelessly about, though one
+quick thrust from these could mean certain death.  There appears to be no
+end to these enormous waves and you feel if you dont leave soon you may be
+overturned.  
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 8649
+D2
+~
+~
+0 0 8679
+D3
+~
+~
+0 0 8663
+S
+#8658
+`8Abandoned Hut``~
+This appears to be an old hut that was used by whichever farmer had a
+field to the west of here.  There is little left to find for it seems
+someone cleared out quickly.  It seems that there my have been recent
+travelers here based on the cinders left in the fireplace.  Various broken
+objects lay about, though there appears to be nothing worth salvaging here. 
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8679
+D1
+~
+~
+0 0 8651
+D3
+~
+~
+0 0 8664
+S
+#8659
+`4A Numbing Deluge ``~
+Stinging torrential rains clatter against your eyes and face. The water
+around you has transformed into a tempest of wind and water, 
+threatening to down you with its strength. Loud roars of thunder and
+sharp explosions of lightning have taken over your senses. Barely 
+visible to your north, the mountain range has decreased it size.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 8653
+D3
+~
+~
+0 0 8665
+S
+#8660
+`&The Cave Mouth ``~
+Dozens of stalactitic icicles hang from the mouth of the icy cavern before
+you, certainly formed by the harsh cold rains of this land. Several of them 
+are so large in fact that you need to duck your head to prevent yourself from
+being impaled. The inside of the cave looks so much more inviting than the 
+unrelenting storms on the outside.
+~
+~
+0 8 0 11
+D1
+~
+~
+0 0 8654
+D2
+~
+~
+0 0 8661
+S
+#8661
+`& A Bitter Gust ``~
+You now find yourself deep within this frozen cavern of ice. The walls around
+you glint and glisten, creating a very peacful ambiance. Everything is very
+calm, not including the harsh, wintry gusts of wind seeping through the
+gigantic crack in the ice above you. Reaching up at far as you can, you can
+actually grab onto a pertruding chunk of ice in the fissure, realizing you 
+could scale it if you wanted to.
+~
+~
+0 8 0 12
+D0
+~
+~
+0 0 8660
+D2
+~
+~
+0 0 8662
+D4
+~
+~
+0 0 8681
+S
+#8662
+`&An Icy Cavern ``~
+Having momentarily escaped from the howling winds outside, you feel that you
+can take a few seconds to relax. The walls, ceiling, and floor are a perfect
+white, and soft sounds of dripping water echo throughout the hollow in the 
+ice. The water has rendered your surroundings very slick, and slipping here
+would surely make you feel like a fool.
+~
+~
+0 8 0 12
+D0
+~
+~
+0 0 8661
+D1
+~
+~
+0 0 8656
+S
+#8663
+`4Amidst Clashing Waves``~
+Large waves clash violently against one another with little care for what
+they destroy.  Small slabs of ice are tossed carelessly about, though one
+quick thrust from these could mean certain death.  There appears to be no
+end to these enormous waves and you feel if you dont leave soon you may be
+overturned.  
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 8657
+D2
+~
+~
+0 0 8678
+D3
+~
+~
+0 0 8669
+S
+#8664
+`3A field ``~
+This old abandoned field seems to be frozen over, not allowing much
+growth.  Thick sheets of ice cover the ground preventing any planting or
+growing.  It seems this field may have been prosperous long ago but now it
+is little more than a icy plot of solid ground.  At least this will suit as
+a resting place since land seems to be a rarity in these parts.  
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 8678
+D1
+~
+~
+0 0 8658
+D3
+~
+~
+0 0 8671
+S
+#8665
+`4A Numbing Deluge ``~
+Stinging torrential rains clatter against your eyes and face. The water
+around you has transformed into a tempest of wind and water, 
+threatening to down you with its strength. Loud roars of thunder and
+sharp explosions of lightning have taken over your senses. Barely 
+visible to your north, the mountain range has decreased it size.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 8659
+D2
+~
+~
+0 0 8666
+S
+#8666
+`4Nearing the Torrent``~
+The icy rains increase in intensity as they whip against your face.  You
+feel if you press on north the weather will only deteriorate.  The waves
+begin to toss your boat about and give you little control over your own fate
+it seems.  This sense of insecurity can give one the feel of mother natures
+true strength 
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8665
+D2
+~
+~
+0 0 8667
+S
+#8667
+`4On Choppy Waters``~
+Dozens of small waves clash about the icy lake.  Cold water sprays about,
+making the environment even more unbearable than it already was.  You feel
+you should get out of here quickly, seeing as the ice seems to be slowly
+blocking up passages.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8666
+D2
+~
+~
+0 0 8668
+D3
+~
+~
+0 0 8673
+S
+#8668
+`4On Choppy Waters``~
+Dozens of small waves clash about the icy lake.  Cold water sprays about,
+making the environment even more unbearable than it already was.  You feel
+you should get out of here quickly, seeing as the ice seems to be slowly
+blocking up passages.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8667
+D2
+~
+~
+0 0 8669
+D3
+~
+~
+0 0 8674
+S
+#8669
+`4On Choppy Waters ``~
+Dozens of small waves clash about the icy lake.  Cold water sprays about,
+making the environment even more unbearable than it already was.  You feel
+you should get out of here quickly, seeing as the ice seems to be slowly
+blocking up passages.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8668
+D1
+~
+~
+0 0 8663
+D2
+~
+~
+0 0 8670
+D3
+~
+~
+0 0 8675
+S
+#8670
+`4Darkened Skies``~
+Waves crash against you as you struggle to stay above the water. 
+Terrible winds of ice have summoned the water to try and take you under. 
+The swirling clouds are dark, and make it difficult to see.  It is times
+like these that you feel that people take walking on solid ground for
+granted.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8669
+D1
+~
+~
+0 0 8678
+D2
+~
+~
+0 0 8671
+D3
+~
+~
+0 0 8676
+S
+#8671
+`4Nearing a Vortex``~
+The water here seems calm though a slight current seems to pull you
+southward.  Ice sheets move in a circular motion slowly due to the weak pull
+of the waters.  You had best move out of here before you are draw into the
+vortex southward.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8670
+D1
+~
+~
+0 0 8664
+D2
+~
+~
+0 0 8672
+D3
+~
+~
+0 0 8677
+S
+#8672
+`$Swirling Vortex``~
+The water here seems to have formed into a large whirlpool.  What is
+rather peculiar about the vortex; however, is its odd tendency to swirl
+about in a convex fashion.  The water doesnt appear to move much though
+because its mostly ice.  Geysers that once stood here have frozen and left
+behind a beautiful tower of ice.  It seems like even the heat from within
+the earth has been overcome by this overwhelming cold.  
+~
+~
+0 0 0 15
+D0
+~
+~
+0 0 8671
+S
+#8673
+`4Edge of the Lake``~
+The edge of the lake comes quickly due to large jagged masses of ice
+protruding from the water.  The waters here are calm, which is a good
+because one quick thrust against the edge would surely send you and your
+boat down into the icy depths.  Small chunks of ice float aimlessly about,
+moving aside to allow easy passage.  
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 8667
+D2
+~
+~
+0 0 8674
+S
+#8674
+`4Edge of the Lake``~
+The edge of the lake come quickly due to large jagged masses of ice
+protruding from the water.  The waters here are calm, which is a good
+because one quick thrust against the edge would surely send you and your
+boat down into the icy depths.  Small chunks of ice float aimlessly about,
+moving aside to allow easy passage.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8673
+D1
+~
+~
+0 0 8668
+D2
+~
+~
+0 0 8675
+S
+#8675
+`4Edge of the Lake``~
+The edge of the lake come quickly due to large jagged masses of ice
+protruding from the water.  The waters here are calm, which is a good
+because one quick thrust against the edge would surely send you and your
+boat down into the icy depths.  Small chunks of ice float aimlessly about,
+moving aside to allow easy passage.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8674
+D1
+~
+~
+0 0 8669
+D2
+~
+~
+0 0 8676
+S
+#8676
+`4Edge of the Lake``~
+The edge of the lake come quickly due to large jagged masses of ice
+protruding from the water.  The waters here are calm, which is a good
+because one quick thrust against the edge would surely send you and your
+boat down into the icy depths.  Small chunks of ice float aimlessly about,
+moving aside to allow easy passage.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8675
+D1
+~
+~
+0 0 8670
+D2
+~
+~
+0 0 8677
+S
+#8677
+`4Edge of the Lake``~
+The edge of the lake comes quickly due to large jagged masses of ice
+protruding from the water.  The waters here are calm, which is a very
+favorable, because one quick thrust against the edge would surely send you
+and your boat down into the icy depths.  Small chunks of ice float aimlessly
+about, moving aside to allow easy passage.  
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8676
+D1
+~
+~
+0 0 8671
+S
+#8678
+`4Darkened Skies ``~
+Waves crash against you as you struggle to stay above the water. Terrible
+winds of ice have summoned the water to try and take you under. The swirling
+clouds are dark, and make it difficult to see. It is times like these that you
+feel that people take walking on solid ground for granted.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8663
+D1
+~
+~
+0 0 8679
+D2
+~
+~
+0 0 8664
+D3
+~
+~
+0 0 8670
+S
+#8679
+`4Pitch Black... ``~
+The clouds above you are midnight black, not even allowing the smallest ray
+of light to penetrate it. Your personal light is the only such source here, so
+you should cherish the fact that you have it. There is not even the slightest
+moment for rest, as the violent waves urge you to stay alert.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8657
+D1
+~
+~
+0 0 8650
+D2
+~
+~
+0 0 8658
+D3
+~
+~
+0 0 8678
+S
+#8680
+`&A Path to Winter ``~
+The black clouds above you have completely blanketed the sky, making
+you unsure whether it is night or day. They swirl above you with 
+frightening energy, often creating thin cyclones which can be made out
+across the mountains to your west and east. It is very cold here, and
+you must keep moving to keep yourself from freezing to death. Deep 
+crashing waters stretch out to your south.
+~
+~
+0 0 0 12
+D2
+~
+~
+0 0 8653
+S
+#8681
+`&Climbing a Glacial Fissure ``~
+Scaling this immense crack in the ice is proving to be exceedingly 
+challenging. The ice is very slick and finding your proper footing seems to
+be near impossible. What's more, frigid gusts howl down from above you,
+forcing you to keep your eyes squinted, impairing your eyesight. Despite all
+of these elements against you, you force yourself to go on.
+~
+~
+0 8 0 11
+D4
+~
+~
+0 0 8682
+D5
+~
+~
+0 0 8661
+S
+#8682
+`&The Frigid Summit ``~
+The apex of the fissure has revealed the summit of this gargantuan chunk of
+solid ice. The wind is severely colder and much more violent at this altitude.
+Thick drops of rain and even small bits of ice shower overhead, making your
+trek very hazardous. The glassy summit inclines to your east.
+~
+~
+0 0 0 11
+D1
+~
+~
+0 0 8683
+D5
+~
+~
+0 0 8681
+S
+#8683
+`&The Numbing Edge  ``~
+You have now reached the highest point on this glacier.  The wind is so
+bitterly cold that many of your extremities have completely gone numb.  The
+footing is extremely perilous due to the ice, and a fall off of this cliff
+would surely mean your death.  When painfully opening your eyes, you can see
+endless water on all sides.  There is, however, a light blue sheet of ice
+that appears to your south.  
+~
+~
+0 0 0 12
+D2
+~
+~
+ABM 0 8699
+D3
+~
+~
+0 0 8682
+S
+#8684
+`8The Temple of Bracc``~
+This is the large entryway to the temple of the God of Winter, Bracc.  It
+is much more pleasant in here than outside in the freezing winds.  There are
+torches lining the stone walls of the corridor, giving a nice cheerful glow
+to the statues and other ornate objects lining the walls.  To the east lies
+the entrance to the Great Hall of the temple and north lies the biting cold
+outside.  
+~
+~
+0 0 0 0
+D0
+~
+~
+AB 0 8699
+D1
+~
+~
+0 0 8685
+S
+#8685
+`8Before the Great Hall``~
+This is the entrance to the Great Hall which lies just east of here,
+through the large oak doors.  They appear to be the same as the large ones
+in the archway before the temple.  Large wolf statues stand to the edge of
+the doors as if guarding them with ever watchful eyes.  Warmth fills the air
+from the torches burning brightly along the stone walls.  
+~
+~
+0 0 0 0
+D1
+~
+~
+AB 0 8686
+D3
+~
+~
+0 0 8684
+S
+#8686
+`8Great Hall``~
+The Great Hall is a breathtaking sight, large pillars reach to the
+ceiling forming beautiful arches of stone.  Along the walls are various blue
+and silver carvings, the same two wolves seen throughout the temple.  There
+is a torch protruding from each pillar along this marvelous hall, and the
+smell of incense emanates from the candles which burn along the walls.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8687
+D1
+~
+~
+0 0 8689
+D2
+~
+~
+0 0 8688
+D3
+~
+~
+AB 0 8685
+S
+#8687
+`8Prayer Alcove``~
+This appears to be an alcove for those who wish to show their respects to
+the God of Winter.  Along the walls are symbols of wolves howling up at the
+night sky.  Various silver and blue designs also line the walls, originating
+from a solitary torch above the mass of armor.  It seems quiet and peaceful
+here, allowing those to worship as the wish.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 8686
+S
+#8688
+`8Prayer Alcove``~
+This appears to be an alcove for those who wish to show their respects to
+the God of Winter.  Along the walls are symbols of wolves howling up at the
+night sky.  Various silver and blue designs also line the walls, originating
+from a solitary torch above the mass of armor.  It seems quiet and peaceful
+here, allowing those to worship as the wish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8686
+S
+#8689
+`8Great Hall``~
+The Great Hall is a breathtaking sight, large pillars reach to the
+ceiling forming beautiful arches of stone.  Along the walls are various blue
+and silver carvings, the same two wolves seen throughout the temple.  There
+is a torch protruding from each pillar along this marvelous hall, and the
+smell of incense emanates from the candles which burn along the walls.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8690
+D1
+~
+~
+0 0 8692
+D2
+~
+~
+0 0 8691
+D3
+~
+~
+0 0 8686
+S
+#8690
+`8Prayer Alcove``~
+This appears to be an alcove for those who wish to show their respects to
+the God of Winter.  Along the walls are symbols of wolves howling up at the
+night sky.  Various silver and blue designs also line the walls, originating
+from a solitary torch above the mass of armor.  It seems quiet and peaceful
+here, allowing those to worship as the wish.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 8689
+S
+#8691
+`8Prayer Alcove``~
+This appears to be an alcove for those who wish to show their respects to
+the God of Winter.  Along the walls are symbols of wolves howling up at the
+night sky.  Various silver and blue designs also line the walls, originating
+from a solitary torch above the mass of armor.  It seems quiet and peaceful
+here, allowing those to worship as the wish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8689
+S
+#8692
+`8Great Hall``~
+The Great Hall is a breathtaking sight, large pillars reach to the
+ceiling forming beautiful arches of stone.  Along the walls are various blue
+and silver carvings, the same two wolves seen throughout the temple.  There
+is a torch protruding from each pillar along this marvelous hall, and the
+smell of incense emanates from the candles which burn along the walls.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8693
+D1
+~
+~
+0 0 8695
+D2
+~
+~
+0 0 8694
+D3
+~
+~
+0 0 8689
+S
+#8693
+`8Prayer Alcove``~
+This appears to be an alcove for those who wish to show their respects to
+the God of Winter.  Along the walls are symbols of wolves howling up at the
+night sky.  Various silver and blue designs also line the walls, originating
+from a solitary torch above the mass of armor.  It seems quiet and peaceful
+here, allowing those to worship as the wish.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 8692
+S
+#8694
+`8Prayer Alcove``~
+This appears to be an alcove for those who wish to show their respects to
+the God of Winter.  Along the walls are symbols of wolves howling up at the
+night sky.  Various silver and blue designs also line the walls, originating
+from a solitary torch above the mass of armor.  It seems quiet and peaceful
+here, allowing those to worship as the wish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8692
+S
+#8695
+`8Great Hall``~
+The Great Hall is a breathtaking sight, large pillars reach to the
+ceiling forming beautiful arches of stone.  Along the walls are various blue
+and silver carvings, the same two wolves seen throughout the temple.  There
+is a torch protruding from each pillar along this marvelous hall, and the
+smell of incense emanates from the candles which burn along the walls.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8696
+D1
+~
+~
+0 0 8698
+D2
+~
+~
+0 0 8697
+D3
+~
+~
+0 0 8692
+S
+#8696
+`8Prayer Alcove``~
+This appears to be an alcove for those who wish to show their respects to
+the God of Winter.  Along the walls are symbols of wolves howling up at the
+night sky.  Various silver and blue designs also line the walls, originating
+from a solitary torch above the mass of armor.  It seems quiet and peaceful
+here, allowing those to worship as the wish.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 8695
+S
+#8697
+`8Prayer Alcove``~
+This appears to be an alcove for those who wish to show their respects to
+the God of Winter.  Along the walls are symbols of wolves howling up at the
+night sky.  Various silver and blue designs also line the walls, originating
+from a solitary torch above the mass of armor.  It seems quiet and peaceful
+here, allowing those to worship as the wish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8695
+S
+#8698
+`8Temple Altar``~
+The altar of the temple resides here, it is a large oaken table with
+silver engravings about the wood and various candles burning brightly upon
+it.  The legs of the giant table consist of four wolves standing upon their
+hind legs, their muzzle upon the base of the upper part of the altar, their
+paws touching the stone floor below.  Behind the altar dual axes hang,
+crossing each other as a long silk banner hangs upon each side, one of
+silver and the other blue.  
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 8695
+S
+#8699
+`8Temple Archway``~
+Behind the large sheet of ice lies what appears to be a hidden temple. 
+There is a large ornate archway lined with beautiful silver and blue
+symbols, adding to the decorative appearance.  To the south is another large
+wooden door marked with symbols of a giant wielding a large axe and two
+wolves at his side.  
+~
+~
+0 0 0 0
+D0
+~
+~
+ABM 0 8683
+D2
+~
+~
+AB 0 8684
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 8601 20 8601 2
+M 0 8601 20 8605 2
+M 0 8601 20 8615 2
+M 0 8601 20 8618 2
+M 0 8601 20 8620 2
+O 0 8600 0 8626
+O 0 8601 0 8632
+M 0 8672 1 8635 1
+O 0 8602 0 8661
+M 0 8684 1 8698 1
+M 0 8699 2 8699 2
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

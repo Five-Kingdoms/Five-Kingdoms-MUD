@@ -1,0 +1,897 @@
+#AREADATA
+Name Balnost~
+Pref ~
+Builders Crypticant~
+VNUMs 9900 9924
+Max_Bastions 3
+Credits { 5 10} Cryptica Balnost~
+Security 9
+Startroom 9900
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#9900
+goblin guard~
+a goblin guard~
+A goblin guard stands boldly in front of you.
+~
+~
+goblin~
+AB A J 0 -1000 9900
+8 10 2d7+96 0d0+100 1d7+4 slash
+3 3 3 3
+JKNU 0 Q C
+stand stand male none~
+7
+AHMV ABCDEFGHIJK medium 0
+P DEATH 12166 100~
+#9901
+goblin elder~
+a goblin elder~
+A rather large goblin sits on a small throne made of wood.
+~
+The wisest and strongest of Balnost, he looks down at you with 
+contempt.
+~
+goblin~
+AB A J 0 -1000 400
+10 10 2d7+121 0d0+100 1d10+3 crush
+1 1 1 1
+JKN 0 Q C
+stand stand male none~
+4
+AHMV ABCDEFGHIJK medium 0
+P DEATH 12168 100~
+#9902
+goblin citizen~
+a goblin~
+A goblin is here, running about.
+~
+He has an innocent look on his face as he asks you for food and money.
+~
+goblin~
+AB A J 0 -1000 9902
+5 10 2d6+60 0d0+100 1d6+1 punch
+5 5 5 5
+JKN 0 Q C
+stand stand male none~
+6
+AHMV ABCDEFGHIJK medium 0
+#9903
+goblin sorcerer~
+A goblin sorcerer~
+A goblin is here, doing a magical incantation.
+~
+One of the strangest goblins you have every seen.  His body is covered with 
+various burn marks - probably a result of one of his spells gone awry.
+~
+goblin~
+ABF A BJ 0 -1000 400
+9 10 2d6+110 0d0+100 1d8+4 magic
+2 2 2 2
+JKN 0 Q C
+stand stand male none~
+8
+AHMV ABCDEFGHIJK medium 0
+P DEATH 12168 100~
+#9904
+imprisoned elf~
+an imprisoned elf~
+An imprisoned elf is here, looking for a way out.
+~
+Bruises everywhere, he has been badly beaten.  To each passerby, he gives a 
+look of defeat.
+~
+elf~
+AB A JP 0 1000 9904
+6 10 2d7+71 0d0+100 1d7+1 slap
+4 4 4 4
+FN 0 B Z
+stand stand male none~
+7
+AHMV ABCDEFGHIJK medium 0
+#9905
+imprisoned dwarf~
+an imprisoned dwarf~
+An imprisoned dwarf is here, smiling sadly.
+~
+A gruff looking dwarf pleads for your forgiveness.  His beard is unkept
+and messy.
+~
+dwarf~
+AB A J 0 1000 9905
+6 10 2d7+71 0d0+100 1d8+2 scratch
+4 4 4 4
+CDEF 0 CL R
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#9907
+messenger~
+A messenger~
+A rough looking messenger is here.
+~
+It has rough skin - weathered with the days of endless travel.  
+However, his eyes remain clear, blue, and sharp.
+~
+goblin~
+AGd A J 0 0 0
+5 0 7d3+50 0d0+100 1d6+4 punch
+5 5 5 5
+F 0 Q C
+stand stand none none~
+6
+AHMV ABCDEFGHIJK medium 0
+#9908
+goblin scout~
+a goblin scout~
+A goblin scout on a lookout.
+~
+Armed with a spear and shield, he glares at you boldly.
+ 
+~
+goblin~
+AB A 0 0 -1000 9900
+8 10 2d7+96 0d0+100 1d7+4 pierce
+3 3 3 3
+JKNU 0 Q C
+stand stand male none~
+5
+AHMV ABCDEFGHIJK medium 0
+F aff J
+P DEATH 12166 100~
+#0
+
+
+
+#OBJECTS
+#9900
+curved long sword~
+a curved long sword~
+A curved long sword is here.~
+steel~
+weapon 0 AN
+sword 6 3 slash 0
+5 90 100 P
+E
+curved long sword~
+It is crudely made - forged from a seemingly flimsy sheet of steel.  It is 
+dented and rusted in numerous places.  The hilt is a pale gold color.
+~
+F
+A 18 1 0
+F
+A 19 1 0
+#9901
+goblin leggings~
+some goblin leggings~
+A pair of crudely made leggings is here.~
+leather~
+armor 0 AF
+4 4 4 4 0
+5 50 50 P
+E
+goblin leggings~
+These brown leather leggings are made of a tough crude leather - overlapping
+in several places.  
+~
+F
+A 2 1 0
+#9902
+elder's sceptre~
+a elder's sceptre~
+A elder's sceptre is here.~
+adamantite~
+weapon BG AN
+mace 6 3 crush 0
+5 50 100 P
+E
+sceptre~
+This sceptre is ornamented with several sparse jewels of blue and green 
+color.  Its head is studded with numerous small bumps.  
+~
+F
+A 19 3 0
+#9903
+steel belt~
+a steel belt~
+A steel belt is here.~
+steel~
+armor 0 AL
+5 5 5 5 0
+7 30 67 P
+E
+belt steel~
+The leather belt is very old and is rimmed with traces of a steel lining.
+~
+F
+A 5 2 0
+#9904
+sorcerer's robe~
+a sorcerer's robe~
+A robe with arcane runes on it lies crumpled about.~
+cloth~
+armor 0 AK
+3 3 3 3 0
+10 30 80 P
+E
+robe~
+The robe is made of a fine cloth.  Arcane symbols are stitched everywhere on
+its surface.
+~
+F
+A 3 2 0
+#9905
+small buckler~
+a small buckler~
+A small, round shield is here.~
+wood~
+armor 0 AJ
+4 4 4 4 0
+6 40 10 P
+E
+small buckler~
+It looks more like a round piece of wood than a shield.
+~
+#9906
+sorcerer's staff~
+sorcerer's staff~
+A plain staff made of wood is here.~
+wood~
+light A A
+0 0 999 0 0
+9 20 20 P
+E
+staff~
+It is made of a solid piece of wood which inherently glows.   
+~
+#9907
+pearl necklace~
+a pearl necklace~
+A few crude pearls lie on the ground.~
+pearl~
+armor A AC
+3 3 3 3 0
+7 20 15 P
+E
+necklace~
+A few pearls are strung hastily together.  The string is aged brown with 
+time.
+~
+F
+A 4 1 0
+#9908
+dirty parchment~
+a bound page of parchment~
+A dirt smeared sheet of paper is here.~
+paper~
+trash 0 A
+0 0 0 0 0
+1 10 1 W
+#9909
+relic detect good a broken staff~
+a broken staff~
+A broken staff is here.~
+unknown~
+relic 0 A
+20 'detect good' 'detect magic' 'reserved' 'reserved'
+5 10 10 P
+#9910
+Sparklig vial~
+a vial of sparkling liquid~
+A vial is here, sparkling.~
+lizuid~
+potion 0 AO
+15 'sanctuary' '' '' ''
+15 10 10 P
+#9911
+Chest~
+a warped wooden chest~
+Old planks of wood have been used to make a chest.~
+wood~
+container 0 P
+100 AC 0 4 1
+15 350 20 P
+#9920
+shrine Dormicc~
+a shrine~
+A huge bronze shrine of a pair of boots is here, a dedication to Dormicc.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#0
+
+
+
+#ROOMS
+#9900
+`3A worn path``~
+A breeze blows lightly against your forehead as you walk.  Pine and Fir 
+trees stand majestically on either side.  The path is covered with small 
+pebbles and occassional boulders that you must climb over.
+~
+A breeze blows lightly against your forehead as you walk.  Pine and Fir 
+trees stand majestically on either side, blocking out the moon.  The path
+is covered with small pebbles and occassional boulders that you must climb
+over.
+~
+0 0 32768 4
+D1
+~
+~
+0 -1 9901
+P GRALL 12125 100~
+S
+#9901
+`3A worn path``~
+Pine trees surround the path on either side.  Hawks, sparrows and a variety 
+of birds fly above creating a raucus.  On the dirt path, you see the imprints 
+of many booted feet.
+~
+Pine trees surround the path on either side, blocking out the moon.
+Owls, bats and a variety of nocturnal birds fly above creating a raucus.
+~
+0 0 32768 2
+D2
+~
+~
+0 -1 9902
+D3
+~
+~
+0 -1 9900
+P GRALL 12124 100~
+S
+#9902
+`3A worn path``~
+Pine trees surround the path on either side.  Hawks, sparrows and a variety 
+of birds fly above creating a raucus.  On the dirt path, you see the imprints 
+of many booted feet.
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 -1 9901
+D1
+~
+~
+0 -1 9903
+P GRALL 9901 100~
+P SPEECH 9902 worship~
+S
+#9903
+`3A worn path``~
+Pine trees surround the path on either side.  Hawks, sparrows and a variety 
+of birds fly above creating a raucus.  On the dirt path, you see the imprints 
+of many booted feet.
+~
+Pine trees surround the path on either side, blocking out the moon.
+Owls, bats and a variety of nocturnal birds fly above creating a raucus.
+~
+0 0 32768 2
+D1
+~
+~
+0 -1 9904
+D3
+~
+~
+0 -1 9902
+S
+#9904
+`3A small gate``~
+A gate is here which is broken on its hinges.  In the distance you can see 
+faint outlines of small huts made of clay.  There is much tension in the
+air, as if an attack was inevitable.
+~
+A gate is here which is broken on its hinges.  In the distance you can see 
+a faint glow emanating from several small huts made of clay.  There is 
+much tension in the air, as if an attack was inevitable.
+~
+0 0 32768 2
+D1
+~
+~
+0 -1 9905
+D3
+~
+~
+0 -1 9903
+S
+#9905
+`3A path through the town``~
+In the distance you can see faint outlines of small huts made of clay.  
+Gutteral cries are heard here and there as a raunchy odor of some foreign
+substance being cooked reaches your nostrils.  There is much tension in
+the air, as if an attack was inevitable.
+~
+In the distance you can see a faint glow emanating from several small huts
+made of clay.  Gutteral cries are heard here and there as a raunchy odor 
+of some foreign substance being cooked reaches your nostrils.  There is
+much tension in the air, as if an attack was inevitable.
+~
+0 0 32768 2
+D1
+~
+~
+0 -1 9906
+D3
+~
+~
+0 -1 9904
+S
+#9906
+`3A path through the town``~
+In the distance you can see faint outlines of small huts made of clay.  
+Gutteral cries are heard here and there as a raunchy odor of some foreign
+substance being cooked reaches your nostrils.  There is much tension in
+the air, as if an attack was inevitable.
+~
+In the distance you can see a faint glow emanating from several small huts
+made of clay.  Gutteral cries are heard here and there as a raunchy odor 
+of some foreign substance being cooked reaches your nostrils.  There is
+much tension in the air, as if an attack was inevitable.
+~
+0 0 8192 2
+D0
+~
+~
+0 -1 9920
+D1
+~
+~
+0 -1 9907
+D3
+~
+~
+0 -1 9905
+S
+#9907
+`3A path through the town``~
+In the distance you can see faint outlines of small huts made of clay.  
+Gutteral cries are heard here and there as a raunchy odor of some foreign
+substance being cooked reaches your nostrils.  There is much tension in
+the air, as if an attack was inevitable.
+~
+In the distance you can see a faint glow emanating from several small huts
+made of clay.  Gutteral cries are heard here and there as a raunchy odor 
+of some foreign substance being cooked reaches your nostrils.  There is
+much tension in the air, as if an attack was inevitable.
+~
+0 0 32768 2
+D0
+~
+~
+0 -1 9921
+D1
+~
+~
+0 -1 9908
+D3
+~
+~
+0 -1 9906
+S
+#9908
+`3A path through the town``~
+In the distance you can see faint outlines of small huts made of clay.  
+Gutteral cries are heard here and there as a raunchy odor of some foreign
+substance being cooked reaches your nostrils.  There is much tension in
+the air, as if an attack was inevitable.
+~
+In the distance you can see a faint glow emanating from several small huts
+made of clay.  Gutteral cries are heard here and there as a raunchy odor 
+of some foreign substance being cooked reaches your nostrils.  There is
+much tension in the air, as if an attack was inevitable.
+~
+0 0 8192 2
+D0
+~
+~
+0 -1 9922
+D1
+~
+~
+0 -1 9909
+D2
+~
+~
+0 -1 9913
+D3
+~
+~
+0 -1 9907
+S
+#9909
+`3A path through the town``~
+In the distance you can see faint outlines of small huts made of clay.  
+Gutteral cries are heard here and there as a raunchy odor of some foreign
+substance being cooked reaches your nostrils.  There is much tension in
+the air, as if an attack was inevitable.
+~
+In the distance you can see a faint glow emanating from several small huts
+made of clay.  Gutteral cries are heard here and there as a raunchy odor 
+of some foreign substance being cooked reaches your nostrils.  There is
+much tension in the air, as if an attack was inevitable.
+~
+0 0 8192 2
+D0
+~
+~
+0 -1 9923
+D1
+~
+~
+0 -1 9910
+D3
+~
+~
+0 -1 9908
+S
+#9910
+`3A path through the town``~
+In the distance you can see faint outlines of small huts made of clay.  
+Gutteral cries are heard here and there as a raunchy odor of some foreign
+substance being cooked reaches your nostrils.  There is much tension in
+the air, as if an attack was inevitable.
+~
+In the distance you can see a faint glow emanating from several small huts
+made of clay.  Gutteral cries are heard here and there as a raunchy odor 
+of some foreign substance being cooked reaches your nostrils.  There is
+much tension in the air, as if an attack was inevitable.
+~
+0 0 32768 2
+D1
+~
+~
+0 -1 9911
+D3
+~
+~
+0 -1 9909
+S
+#9911
+`3A path through the town``~
+In the distance you can see faint outlines of small huts made of clay.  
+Gutteral cries are heard here and there as a raunchy odor of some foreign
+substance being cooked reaches your nostrils.  There is much tension in
+the air, as if an attack was inevitable.
+~
+In the distance you can see a faint glow emanating from several small huts
+made of clay.  Gutteral cries are heard here and there as a raunchy odor 
+of some foreign substance being cooked reaches your nostrils.  There is
+much tension in the air, as if an attack was inevitable.
+~
+0 0 65536 2
+D1
+~
+~
+0 -1 9912
+D3
+~
+~
+0 -1 9910
+S
+#9912
+`3Edge of the town``~
+The wilderness spans before you.  Ahead, lies a forest so thick you cannot 
+see more than a few meters within.  Around you, abandoned buildings ruined 
+with time are here.
+~
+~
+0 0 65536 2
+D3
+~
+~
+0 -1 9911
+S
+#9913
+`3A wide dirt path``~
+A wide dirt road spans before you.  Dust is constantly being kicked in the 
+air as you travel.  Huts can be seen in the near distance - spanning the
+horizon.  Ahead of you, you see a couple of grand entrances with strange
+symbols above them.
+~
+A wide dirt road spans before you.  Dust is constantly being kicked in the 
+air as you travel.  Glowing huts can be seen in the near distance - 
+spanning the horizon.  Ahead of you, you see a couple of grand entrances.
+~
+0 0 32768 2
+D0
+~
+~
+0 -1 9908
+D2
+~
+~
+0 -1 9914
+S
+#9914
+`3A wide dirt path``~
+A wide dirt road spans before you.  Dust is constantly being kicked in the 
+air as you travel.  Huts can be seen in the near distance - spanning the
+horizon.  Ahead of you, you see a couple of grand entrances with strange
+symbols above them.
+~
+A wide dirt road spans before you.  Dust is constantly being kicked in the 
+air as you travel.  Glowing huts can be seen in the near distance - 
+spanning the horizon.  Ahead of you, you see a couple of grand entrances.
+~
+0 0 8192 2
+D0
+~
+~
+0 -1 9913
+D2
+~
+~
+0 -1 9915
+S
+#9915
+`3A wide dirt path``~
+A wide dirt road spans before you.  Dust is constantly being kicked in the 
+air as you travel.  Huts can be seen in the near distance - spanning the
+horizon.  Ahead of you, you see a couple of grand entrances with strange
+symbols above them.
+~
+A wide dirt road spans before you.  Dust is constantly being kicked in the 
+air as you travel.  Glowing huts can be seen in the near distance - 
+spanning the horizon.  Ahead of you, you see a couple of grand entrances.
+~
+0 0 16384 2
+D0
+~
+~
+0 -1 9914
+D2
+~
+~
+0 -1 9916
+S
+#9916
+`3A wide dirt path``~
+A wide dirt road spans before you.  Dust is constantly being kicked in the 
+air as you travel.  Huts can be seen in the near distance - spanning the
+horizon.  Ahead of you, you see a couple of grand entrances with strange
+symbols above them.
+~
+A wide dirt road spans before you.  Dust is constantly being kicked in the 
+air as you travel.  Glowing huts can be seen in the near distance - 
+spanning the horizon.  Ahead of you, you see a couple of grand entrances.
+~
+0 0 32768 2
+D0
+~
+~
+0 -1 9915
+D1
+~
+~
+0 -1 9919
+D2
+~
+~
+0 -1 9917
+S
+#9917
+`3A wide dirt path``~
+A wide dirt road spans before you.  Dust is constantly being kicked in the 
+air as you travel.  Huts can be seen in the near distance - spanning the
+horizon.  Ahead of you, you see a couple of grand entrances with strange
+symbols above them.
+~
+A wide dirt road spans before you.  Dust is constantly being kicked in the 
+air as you travel.  Glowing huts can be seen in the near distance - 
+spanning the horizon.  Ahead of you, you see a couple of grand entrances.
+~
+0 0 32768 2
+D0
+~
+~
+0 -1 9916
+D2
+~
+~
+0 -1 9918
+S
+#9918
+`7A large cave``~
+This cave is rather dark and very humid.  Sound of water dripping from the 
+cave ceiling can be heard.  Stalagmites and Stalactites are in abundance.
+~
+~
+0 8 0 1
+D0
+~
+~
+0 -1 9917
+S
+#9919
+`7A small cave``~
+You are in a deep, dark cave.  Stalagmites and stalactites line the cave 
+almost to its entirety - creating a very jagged but beautiful scene.  The 
+sound of water dripping from the ceiling echos very hollow-like in the 
+almost silent section of the cave.  A funny smelling green slime is found 
+all around the cave sides - each covered with a number of maggots.
+~
+~
+0 8 0 1
+D3
+~
+~
+0 -1 9916
+S
+#9920
+`3A slave chamber``~
+You are in a crude cell made of a course brick.  A pile of straw is in the 
+far corner of the chamber along with a pair of shackles.  The chamber is
+set up so that passerbys will be able to see the prisoners within.
+~
+~
+0 8 65536 2
+D2
+~
+~
+0 -1 9906
+S
+#9921
+`3A slave chamber``~
+You are in a crude cell made of a course brick.  A pile of straw is in the 
+far corner of the chamber along with a pair of shackles.  The chamber is
+set up so that passerbys will be able to see the prisoners within.
+~
+~
+0 8 32768 2
+D2
+~
+~
+0 -1 9907
+S
+#9922
+`3A slave chamber``~
+You are in a crude cell made of a coarse brick.  A pile of straw is in the 
+far corner of the chamber along with a pair of shackles.  The chamber is
+set up so that passerbys will be able to see the prisoners within.
+~
+~
+0 8 16384 2
+D2
+~
+~
+0 -1 9908
+S
+#9923
+`3A slave chamber``~
+You are in a crude cell made of a course brick.  A pile of straw is in the 
+far corner of the chamber along with a pair of shackles.  The chamber is
+set up so that passerbys will be able to see the prisoners within.
+~
+~
+0 8 16384 2
+D2
+~
+~
+0 -1 9909
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#9912
+a poison dart trap~
+Some poison darts shoot out of the wall and hit you in the legs.~
+Some poison darts shoot out of the wall and hit $n in $s legs.~
+spell 5 CI
+poison~ 1 enfeeblement~ 5 1
+#0
+
+#RESETS
+M 0 9900 10 9900 1
+M 0 9908 1 9901 1
+G 0 9910 0
+O 0 9920 0 9902
+M 0 9902 12 9903 2
+M 0 9900 4 9904 1
+E 0 9901 0 8
+E 0 9900 0 17
+E 0 9905 0 12
+M 0 9902 7 9905 1
+E 0 9908 0 18
+M 0 9902 7 9907 1
+M 0 9907 1 9908 1
+M 0 9902 7 9908 1
+M 0 9900 4 9908 1
+E 0 9901 0 8
+E 0 9905 0 12
+E 0 9900 0 17
+M 0 9902 7 9910 1
+M 0 9900 4 9912 1
+E 0 9901 0 8
+E 0 9905 0 12
+E 0 9900 0 17
+O 0 9911 0 9912
+T 0 9912 0 9912 0
+P 0 9910 0 9911 1
+M 0 9902 7 9913 1
+M 0 9902 7 9914 1
+M 0 9902 7 9915 1
+M 0 9900 4 9917 1
+E 0 9901 0 7
+E 0 9905 0 11
+E 0 9900 0 16
+M 0 9901 1 9918 1
+E 0 9903 0 14
+E 0 9902 0 17
+M 0 9903 1 9919 1
+E 0 9906 0 18
+E 0 9904 0 13
+G 0 9909 0
+M 0 9904 1 9920 1
+E 0 9907 0 3
+M 0 9905 1 9921 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+M 9900 1 gobvil_guard.prg NL
+M 9901 1 gobvil_chieftain.prg NL
+M 9902 1 gobvil_goblin.prg NL
+M 9903 1 gobvil_shaman.prg NL
+M 9904 1 gobvil_elf.prg NL
+M 9905 1 gobvil_dwarf.prg NL
+M 9907 1 gobvil_messenger.prg NL
+M 9908 1 gobvil_guard.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#9901
+if hasquest $n 'Discovered the Shrine to Dormicc in Balnost'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Dormicc!``
+    room permquest $n Discovered the Shrine to Dormicc in Balnost
+endif
+~
+#9902
+room echoat $n The wanderlust of Dormicc is conveyed upon your traveling soul.
+~
+#0
+
+#$

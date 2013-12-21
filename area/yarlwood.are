@@ -1,0 +1,1289 @@
+#AREADATA
+Name The Yarlwood Forest~
+Pref ~
+Builders Zharth Valeryn~
+VNUMs 600 699
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 2
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#600
+hayli forest woman~
+Hayli the forest woman~
+Hayli the lazy forest woman is here.
+~
+~
+human~
+ABGe A 0 0 750 0
+15 5 5d10+250 10d10+100 4d4+0 slap
+0 0 0 0
+EIK 0 0 0
+sleep sleep female none~
+10
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#600
+`3A rocky shore``~
+Large rocks and boulders surround you and seem to make
+you shrink in both size and power. Massive, jagged stones
+shoot through the ground here like teeth from hell, waiting
+for you to make a wrong move. To the south you can see a
+dim forest. The sound of the animals within is muffled by
+the water to your north.
+~
+Large rocks and boulders surround you and seem to make
+you shrink in both size and power. Massive, jagged stones
+shoot through the ground here like teeth from hell, waiting
+for you to make a wrong move. To the south you can see a
+dim forest. The sound of the animals within is muffled by
+the water to your north.
+~
+0 0 65536 5
+D2
+~
+~
+0 0 601
+S
+#601
+`@Approaching a rocky shore``~
+You stand before a very well-defined treeline. As you
+look southward, you notice several small animals merrily
+playing and eating among the trees. The darkness in
+the forest grows with its depth; each tree seems to 
+take more and more light away from the ground.
+~
+You stand before a very well-defined treeline. As you
+look southward, you notice several small animals merrily
+playing and eating among the trees. The darkness in
+the forest grows with its depth; each tree seems to 
+take more and more light away from the ground.
+~
+0 0 65536 3
+D0
+~
+~
+0 0 600
+D1
+~
+~
+0 0 602
+D2
+~
+~
+0 0 604
+S
+#602
+`@Skirting the edge of the Yarlwood Forest``~
+You stand before a very well-defined treeline. As you
+look southward, you notice several small animals merrily
+playing and eating among the trees. The darkness in
+the forest grows with its depth; each tree seems to 
+take more and more light away from the ground.
+~
+You stand before a very well-defined treeline. As you
+look southward, you notice several small animals merrily
+playing and eating among the trees. The darkness in
+the forest grows with its depth; each tree seems to 
+take more and more light away from the ground.
+~
+0 0 65536 3
+D1
+~
+~
+0 0 603
+D2
+~
+~
+0 0 605
+D3
+~
+~
+0 0 601
+S
+#603
+`@Skirting the edge of the Yarlwood Forest``~
+You stand before a very well-defined treeline. As you
+look southward, you notice several small animals merrily
+playing and eating among the trees. The darkness in
+the forest grows with its depth; each tree seems to 
+take more and more light away from the ground.
+~
+You stand before a very well-defined treeline. As you
+look southward, you notice several small animals merrily
+playing and eating among the trees. The darkness in
+the forest grows with its depth; each tree seems to 
+take more and more light away from the ground.
+~
+0 0 16384 3
+D2
+~
+~
+0 0 606
+D3
+~
+~
+0 0 602
+S
+#604
+`@Approaching a dark forest``~
+Your vision dims as the trees steal your light. The south
+is like night compared to the sunlight north of you. All
+around, animals frolic among the trees. Thick oaks tower
+overhead giving the forest a sense of immense power and
+mysticism.
+~
+Your vision dims as the trees steal your light. The south
+is like night compared to the moonlight north of you. All
+around, animals frolic among the trees. Thick oaks tower
+overhead giving the forest a sense of immense power and
+mysticism.
+~
+0 0 8192 3
+D0
+~
+~
+0 0 601
+D1
+~
+~
+0 0 605
+D2
+~
+~
+0 0 611
+S
+#605
+`@Approaching a dark forest``~
+Your vision dims as the trees steal your light. The south
+is like night compared to the sunlight north of you. All
+around, animals frolic among the trees. Thick oaks tower
+overhead giving the forest a sense of immense power and
+mysticism.
+~
+Your vision dims as the trees steal your light. The south
+is like night compared to the moonlight north of you. All
+around, animals frolic among the trees. Thick oaks tower
+overhead giving the forest a sense of immense power and
+mysticism.
+~
+0 0 8192 3
+D0
+~
+~
+0 0 602
+D1
+~
+~
+0 0 606
+D2
+~
+~
+0 0 612
+D3
+~
+~
+0 0 604
+S
+#606
+`@Approaching a dark forest``~
+Your vision dims as the trees steal your light. The south
+is like night compared to the sunlight north of you. All
+around, animals frolic among the trees. Thick oaks tower
+overhead giving the forest a sense of immense power and
+mysticism.
+~
+Your vision dims as the trees steal your light. The south
+is like night compared to the moonlight north of you. All
+around, animals frolic among the trees. Thick oaks tower
+overhead giving the forest a sense of immense power and
+mysticism.
+~
+0 0 8192 3
+D0
+~
+~
+0 0 603
+D1
+~
+~
+0 0 607
+D2
+~
+~
+0 0 613
+D3
+~
+~
+0 0 605
+S
+#607
+`@Approaching a sandy bank``~
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 608
+D2
+~
+~
+0 0 614
+D3
+~
+~
+0 0 606
+S
+#608
+`#A sandy bank``~
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 609
+D2
+~
+~
+0 0 615
+D3
+~
+~
+0 0 607
+S
+#609
+`#A sandy bank``~
+~
+~
+0 0 0 10
+D2
+~
+~
+0 0 616
+D3
+~
+~
+0 0 608
+S
+#610
+`@A secluded corner``~
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 611
+D2
+~
+~
+0 0 618
+S
+#611
+`@Admist large oaks``~
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 604
+D1
+~
+~
+0 0 612
+D2
+~
+~
+0 0 619
+D3
+~
+~
+0 0 610
+S
+#612
+`@Admist large oaks``~
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 605
+D1
+~
+~
+0 0 613
+D2
+~
+~
+0 0 620
+D3
+~
+~
+0 0 611
+S
+#613
+`@Admist large oaks``~
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 606
+D1
+~
+~
+0 0 614
+D2
+~
+~
+0 0 621
+D3
+~
+~
+0 0 612
+S
+#614
+`@Trees all around``~
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 607
+D1
+~
+~
+0 0 615
+D3
+~
+~
+0 0 613
+S
+#615
+`@Approaching a sandy bank``~
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 608
+D1
+~
+~
+0 0 616
+D3
+~
+~
+0 0 614
+S
+#616
+`@Approaching a sandy bank``~
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 609
+D3
+~
+~
+0 0 615
+S
+#617
+`@Skirting the edge of the Yarlwood Forest``~
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 618
+D2
+~
+~
+0 0 622
+S
+#618
+`@Deep within the Yarlwood Forest``~
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 610
+D1
+~
+~
+0 0 619
+D2
+~
+~
+0 0 623
+D3
+~
+~
+0 0 617
+S
+#619
+`@Deep within the Yarlwood Forest``~
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 611
+D1
+~
+~
+0 0 620
+D2
+~
+~
+0 0 624
+D3
+~
+~
+0 0 618
+S
+#620
+`@Deep within the Yarlwood Forest``~
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 612
+D1
+~
+~
+0 0 621
+D2
+~
+~
+0 0 625
+D3
+~
+~
+0 0 619
+S
+#621
+`@A cleared pathway``~
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 613
+D2
+~
+~
+0 0 626
+D3
+~
+~
+0 0 620
+S
+#622
+`@Skirting the edge of the Yarlwood Forest``~
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 617
+D1
+~
+~
+0 0 623
+D2
+~
+~
+0 0 628
+S
+#623
+`@Deep within the Yarlwood Forest``~
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 618
+D1
+~
+~
+0 0 624
+D2
+~
+~
+0 0 629
+D3
+~
+~
+0 0 622
+S
+#624
+`@Deep within the Yarlwood Forest``~
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 619
+D1
+~
+~
+0 0 625
+D2
+~
+~
+0 0 630
+D3
+~
+~
+0 0 623
+S
+#625
+`@Deep within the Yarlwood Forest``~
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 620
+D1
+~
+~
+0 0 626
+D2
+~
+~
+0 0 631
+D3
+~
+~
+0 0 624
+S
+#626
+`@A cleared pathway``~
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 621
+D2
+~
+~
+0 0 632
+D3
+~
+~
+0 0 625
+S
+#627
+`@A sparkling spring``~
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 628
+D2
+~
+~
+0 0 634
+S
+#628
+`@Approaching a game trail``~
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 622
+D1
+~
+~
+0 0 629
+D2
+~
+~
+0 0 635
+D3
+~
+~
+0 0 627
+S
+#629
+`@Deep within the Yarlwood Forest``~
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 623
+D1
+~
+~
+0 0 630
+D2
+~
+~
+0 0 636
+D3
+~
+~
+0 0 628
+S
+#630
+`@Deep within the Yarlwood Forest``~
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 624
+D1
+~
+~
+0 0 631
+D2
+~
+~
+0 0 637
+D3
+~
+~
+0 0 629
+S
+#631
+`@Deep within the Yarlwood Forest``~
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 625
+D1
+~
+~
+0 0 632
+D2
+~
+~
+0 0 638
+D3
+~
+~
+0 0 630
+S
+#632
+`@A cleared pathway``~
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 626
+D2
+~
+~
+0 0 639
+D3
+~
+~
+0 0 631
+S
+#633
+`@A beautiful clearing``~
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 634
+S
+#634
+`@Approaching a clearing``~
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 627
+D1
+~
+~
+0 0 635
+D3
+~
+~
+0 0 633
+S
+#635
+`@A game trail``~
+The dirt beneath your feet has been compacted from all
+of the traffic on the trail. Various animal tracks litter
+the path to the east and west. There are several struggling
+saplings to either side of the game trail, many of which
+have been chewed on by passers-by.
+~
+The dirt beneath your feet has been compacted from all
+of the traffic on the trail. Various animal tracks litter
+the path to the east and west. There are several struggling
+saplings to either side of the game trail, many of which
+have been chewed on by passers-by.
+~
+0 0 8192 3
+D0
+~
+~
+0 0 628
+D1
+~
+~
+0 0 636
+D3
+~
+~
+0 0 634
+S
+#636
+`@A game trail``~
+The dirt beneath your feet has been compacted from all
+of the traffic on the trail. Various animal tracks litter
+the path to the east and west. There are several struggling
+saplings to either side of the game trail, many of which
+have been chewed on by passers-by.
+~
+The dirt beneath your feet has been compacted from all
+of the traffic on the trail. Various animal tracks litter
+the path to the east and west. There are several struggling
+saplings to either side of the game trail, many of which
+have been chewed on by passers-by.
+~
+0 0 16384 3
+D0
+~
+~
+0 0 629
+D1
+~
+~
+0 0 637
+D3
+~
+~
+0 0 635
+S
+#637
+`@A game trail``~
+The dirt beneath your feet has been compacted from all
+of the traffic on the trail. Various animal tracks litter
+the path to the east and west. There are several struggling
+saplings to either side of the game trail, many of which
+have been chewed on by passers-by.
+~
+The dirt beneath your feet has been compacted from all
+of the traffic on the trail. Various animal tracks litter
+the path to the east and west. There are several struggling
+saplings to either side of the game trail, many of which
+have been chewed on by passers-by.
+~
+0 0 32768 3
+D0
+~
+~
+0 0 630
+D1
+~
+~
+0 0 638
+D3
+~
+~
+0 0 636
+S
+#638
+`@A game trail``~
+The dirt beneath your feet has been compacted from all
+of the traffic on the trail. Various animal tracks litter
+the path to the east and west. There are several struggling
+saplings to either side of the game trail, many of which
+have been chewed on by passers-by.
+~
+The dirt beneath your feet has been compacted from all
+of the traffic on the trail. Various animal tracks litter
+the path to the east and west. There are several struggling
+saplings to either side of the game trail, many of which
+have been chewed on by passers-by.
+~
+0 0 32768 3
+D0
+~
+~
+0 0 631
+D1
+~
+~
+0 0 639
+D2
+~
+~
+0 0 641
+D3
+~
+~
+0 0 637
+S
+#639
+`@A game trail``~
+The dirt beneath your feet has been compacted from all
+of the traffic on the trail. Various animal tracks litter
+the path to the east and west. There are several struggling
+saplings to either side of the game trail, many of which
+have been chewed on by passers-by.
+~
+The dirt beneath your feet has been compacted from all
+of the traffic on the trail. Various animal tracks litter
+the path to the east and west. There are several struggling
+saplings to either side of the game trail, many of which
+have been chewed on by passers-by.
+~
+0 0 8192 3
+D0
+~
+~
+0 0 632
+D1
+~
+~
+0 0 640
+D2
+~
+~
+0 0 642
+D3
+~
+~
+0 0 638
+S
+#640
+`@A game trail``~
+The dirt beneath your feet has been compacted from all
+of the traffic on the trail. Various animal tracks litter
+the path to the east and west. There are several struggling
+saplings to either side of the game trail, many of which
+have been chewed on by passers-by.
+~
+The dirt beneath your feet has been compacted from all
+of the traffic on the trail. Various animal tracks litter
+the path to the east and west. There are several struggling
+saplings to either side of the game trail, many of which
+have been chewed on by passers-by.
+~
+0 0 65536 3
+D2
+~
+~
+0 0 643
+D3
+~
+~
+0 0 639
+S
+#641
+`@Thick brush``~
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 638
+D1
+~
+~
+0 0 642
+S
+#642
+`@Thick brush``~
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 639
+D1
+~
+~
+0 0 643
+D2
+~
+~
+0 0 645
+D3
+~
+~
+0 0 641
+S
+#643
+`@Thick brush``~
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 640
+D1
+~
+~
+0 0 644
+D2
+~
+~
+0 0 646
+D3
+~
+~
+0 0 642
+S
+#644
+`@Thick brush``~
+~
+~
+0 0 32768 3
+D2
+~
+~
+0 0 647
+D3
+~
+~
+0 0 643
+S
+#645
+`@Thick brush``~
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 642
+D1
+~
+~
+0 0 646
+D2
+~
+~
+0 0 649
+S
+#646
+`@Among stumps and logs``~
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 643
+D1
+~
+~
+0 0 647
+D2
+~
+~
+0 0 650
+D3
+~
+~
+0 0 645
+S
+#647
+`@Among stumps and logs``~
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 644
+D1
+~
+~
+0 0 648
+D2
+~
+~
+0 0 651
+D3
+~
+~
+0 0 646
+S
+#648
+`@Before a large cabin``~
+~
+~
+0 0 8192 3
+D1
+~
+~
+AB 0 654
+D3
+~
+~
+0 0 647
+S
+#649
+`@Nearing the sound of water``~
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 645
+D1
+~
+~
+0 0 650
+D2
+~
+~
+0 0 652
+S
+#650
+`@Thin trees``~
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 646
+D1
+~
+~
+0 0 651
+D2
+~
+~
+0 0 653
+D3
+~
+~
+0 0 649
+S
+#651
+`@Thin trees``~
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 647
+D3
+~
+~
+0 0 650
+S
+#652
+`5A muddy bank``~
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 649
+D1
+~
+~
+0 0 653
+S
+#653
+`@Nearing the sound of water``~
+~
+-
+~
+0 0 16384 3
+D0
+~
+~
+0 0 650
+D3
+~
+~
+0 0 652
+S
+#654
+`8Within a dirty cabin``~
+~
+~
+0 0 0 0
+D0
+~
+~
+AB 0 655
+D1
+~
+~
+AB 0 656
+D2
+~
+~
+AB 0 657
+D3
+~
+~
+AB 0 648
+S
+#655
+`8A dirty bedroom``~
+~
+~
+0 0 0 0
+D2
+~
+~
+AB 0 654
+S
+#656
+`8Within a dusty closet``~
+~
+~
+0 0 0 0
+D3
+~
+~
+AB 0 654
+S
+#657
+`@A hidden grove``~
+~
+~
+0 0 65536 3
+D0
+~
+~
+AB 0 654
+D2
+~
+~
+0 0 658
+S
+#658
+`3Within a beautiful garden``~
+Thousands of colorful flowers take your breath away as you
+enter the garden. Harmonious blends of color fill your eyes
+with delight as the sweet scent of the blooms tickles your
+nose. Small pebbles below you cover the dirt and form tidy
+paths around the flowerbeds.
+~
+Thousands of colorful flowers take your breath away as you
+enter the garden. Harmonious blends of color fill your eyes
+with delight as the sweet scent of the blooms tickles your
+nose. Small pebbles below you cover the dirt and form tidy
+paths around the flowerbeds.
+~
+0 0 8192 2
+D0
+~
+~
+0 0 657
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 600 1 655 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

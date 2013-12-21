@@ -1,0 +1,1710 @@
+#AREADATA
+Name the Heldamar Forest~
+Pref ~
+Builders Haevin~
+VNUMs 21000 21099
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 2
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#21001
+an old druid~
+An old druid~
+An old druid digs in the earth, searching for herbs.
+~
+The old druid seen before you has obviously seen many days
+and countless moons.  Though his face is a blanket of wrinkles,
+his eyes shine bright with a strength known to those devoted to
+nature.
+~
+human~
+AGd A 0 0 0 0
+25 0 9d50+375 0d0+0 5d6+15 pound
+0 0 0 0
+RU QX QX H
+stand stand none none~
+12
+AHMV ABCDEFGHIJK medium 0
+#21002
+a beautiful druidess~
+A beautiful druidess~
+A beautiful druidess stands in the shadows, watching you closely.
+~
+A young woman, cloaked in robes that seem to meld with the surrounding
+forest, stands within the shadows watching you closely.  
+~
+human~
+AGd A 0 0 0 0
+30 0 10d61+416 0d0+0 5d6+15 slap
+0 0 0 0
+JU QX QX H
+stand stand female none~
+12
+AHMV ABCDEFGHIJK medium 0
+#21003
+flying squirrel~
+A flying squirrel~
+A flying squirrel glides from tree to tree, chittering loudly at your presence.
+~
+~
+unique~
+AGUd A Ta 0 0 0
+15 0 5d30+150 0d0+0 3d5+8 bite
+0 0 0 0
+0 0 0 0
+stand stand either none~
+11
+0 0 small 0
+#21004
+goblin thief~
+a goblin thief~
+A goblin thief skulks about the woods here.
+~
+A horribly ugly little thing, short and squat, with long, pointed
+ears, a bulbous nose, and a smashed-in face stands before you. He
+is clearly some sort of scout for the greater horde that lies deeper
+in the Heldamar.
+~
+goblin~
+AGd A J 0 -750 0
+10 6 4d6+90 0d0+0 1d1+11 stab
+1 1 2 1
+0 0 Q C
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#21005
+elven ranger elf~
+An elven ranger~
+An elven ranger watches you closely from behind a tree.
+~
+The ranger seen before you is cloaked in deep green garmets that aid in
+traveling the woods unseen.  A face masked by a long, brown veil makes his
+features hard to see, though it is easily to conclude they are elven in
+their heritage.  
+~
+elf~
+ABG A JP J 0 0
+30 0 10d61+419 0d0+0 5d6+15 pierce
+-8 -8 -8 0
+HNR 0 B Z
+stand stand either none~
+15
+AHMV ABCDEFGHIJK medium 0
+#21006
+a young deer~
+a deer~
+A young deer is here grazing.
+~
+The dear is obviously young, with faint white spots still marking its
+coat.  Slim, and graceful, it travels the woods in silence.  
+ 
+~
+deer~
+AGd A P 0 0 0
+10 0 3d22+95 0d0+0 2d5+5 charge
+0 0 0 0
+0 0 0 0
+stand stand either none~
+10
+AGV ACDEFJKQ medium 0
+#21007
+goblin warrior~
+a goblin warrior~
+A goblin warrior stands here boldly.
+~
+Even more hideous that his thief counterpart, this warrior's face
+is only complimented by the massive amount of scars and lacerations
+done to his face over the years. He is stout, lightly armored, and
+has the appearance of being fierce...for a goblin.
+~
+goblin~
+AGd A J 0 -750 0
+14 10 4d6+150 0d0+0 2d4+6 crush
+1 1 2 1
+0 0 Q C
+stand stand male none~
+8
+AHMV ABCDEFGHIJK medium 0
+#21008
+goblin sergeant~
+a goblin sergeant~
+A goblin sergeant is here, directing the assault.
+~
+Battle hardened and fierce, this short, but imposing little goblin
+is one of the sergeants of the gathering goblin horde that fills the
+confines of the Heldamar. They seem to be haphazardly massing for an
+attack on Ulsym, located to the south of you.
+~
+goblin~
+AGd A J 0 -750 0
+19 14 4d6+290 0d0+0 2d4+11 slash
+1 1 2 1
+0 0 Q C
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#21009
+trailblazer goblin~
+a goblin trailblazer~
+A goblin trailblazer is here, perched on a warthog.
+~
+The "cavalry" of the goblin forces, this goblin trailblazer sits atop
+quite possibly an uglier animal than himself. This hog has more fangs
+that it knows what to do with, and it's covered with warts. He carries
+a goblin rider with a long spear in his hand, as evidence of his status
+as a cavalry rider.
+~
+goblin~
+AGd A J 0 -750 0
+24 17 4d6+290 0d0+0 2d4+16 thrust
+0 0 0 1
+0 0 Q C
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+#21010
+warthog~
+a warthog~
+A massive warthog is here, wandering around, saddle-less.
+~
+This creature looks to be a casualty from the siege of Ulsym. He
+walks around riderless, with blood stains all over his flanks. Still,
+he is quite ferocious looking, as if he's even more angry now that
+his rider was killed in combat.
+~
+pig~
+ACEd A J 0 -750 0
+13 3 1d10+170 0d0+100 2d4+11 charge
+0 0 1 2
+N 0 0 0
+stand stand male none~
+13
+AGV ACDEFHJK medium 0
+#21011
+goblin commander~
+a goblin commander~
+A goblin commander is here, ordering his troops to and fro.
+~
+This horrifically ugly creature is most certainly an older goblin. He's
+even more battle-hardened that his other troops, bearing scars of ages
+of combat all over his scrawny body. Taller, and more stout than most of
+the goblins that you've seen throughout this wood, he snarls angrily,
+and shouts hostile words at his grunts.
+~
+goblin~
+AGd A J 0 -750 0
+29 19 4d6+320 0d0+0 4d6+6 slash
+0 0 0 1
+0 0 Q C
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#21012
+drow cavalier~
+a drow Cavalier~
+A drow Cavalier is here, overseeing the movements of the goblins.
+~
+This dark elf is clearly some sort of Drow nobility. You see now that
+the situation is far more serious! It looks as is somehow the Drow from
+Dargoth are behind the attacking goblin forces, driving them to overtake
+the city of Ulsym, and plant their flag within Astrelas.
+~
+drow~
+AGd A JP 0 -750 0
+35 23 4d6+455 0d0+0 4d6+12 slash
+-1 -1 -2 0
+0 0 BQ CYa
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#21032
+goblin grunt~
+a goblin grunt~
+A goblin grunt is here, manning the catapult.
+~
+The lowest of the low, this gangly little goblin grunt's life expectancy
+in battle is about three seconds. His mission in life is to man the giant
+catapult next to him, and die killing enemies. Aside from that, he's of
+little use to anyone.
+~
+goblin~
+AGe A J 0 -750 0
+10 6 4d6+90 0d0+0 1d1+11 stab
+1 1 2 1
+0 0 Q C
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#21043
+drow Xymiraxus lord~
+Xymiraxus~
+The Drow Lord Xymiraxus, of Dargoth is here, commanding the army.
+~
+Lord Xymiraxus of House Ariaxe of Dargoth is here. Clearly the leader of
+this insurgence against Astrelas, Xymiraxus came prepared for the battle. His
+army is encamped around the entire forest, and he watches on high as his
+troops bombard Ulsym from afar with a rain of stone and fire.
+~
+drow~
+AGZe A DFJP 0 -1000 0
+50 33 4d6+1600 0d0+0 4d6+39 slash
+-11 -10 -14 -6
+FHKX AB BQ CYa
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 21052 20~
+#0
+
+
+
+#OBJECTS
+#21000
+A natural spring~
+a small, bubbling spring~
+A small, bubbling spring shoots up from a bed of rocks.~
+water~
+fountain MSTc 0
+5 5 'water' 0 0
+0 0 0 P
+#21002
+wooden spear long~
+a wooden spear~
+A wooden spear sits in the dirt.~
+wood~
+weapon 0 AN
+spear 4 4 none 0
+15 8 3450 P
+#21012
+guidon~
+a war guidon~
+A guidon bearing a small, square flag is lying on the ground here.~
+cloth~
+light A AO
+0 0 999 0 0
+35 10 100 P
+#21013
+breastplate iron~
+an iron breastplate~
+A breastplate made of iron is lying on the ground here.~
+iron~
+armor GL AD
+9 9 9 4 0
+30 100 6400 P
+#21014
+spotted mushroom~
+some button mushrooms~
+A handful of button mushrooms are lying on the ground here.~
+plant~
+food 0 A
+8 8 0 0 72
+1 30 4 P
+#21015
+waterskin~
+a goat's bladder~
+A goat's bladder is lying on the ground here.~
+skin~
+drink 0 A
+25 25 'water' 0 0
+1 1 10 P
+#21016
+tent~
+a gray army tent~
+A gray army tent has been set up here.~
+cloth~
+furniture 0 0
+0 0 0 0 0
+10 500 1000 P
+E
+tent~
+This gray tent looks as if it's seem some days! Clearly this tent
+is a part of the invading goblin horde, and used to house troops
+on their campaign to overthrow the Astrelan city of Ulsym.
+~
+#21020
+oak tree~
+a colossal maple tree~
+(`2Green Aura``) A colossal maple tree is rooted here.~
+wood~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#21032
+catapult~
+a catapult~
+A massive wooden catapult is here, launching stones into Ulsym.~
+wood~
+furniture 0 0
+0 0 0 0 0
+10 2000 5000 P
+E
+catapult~
+This massive war engine was setup and built by the goblins. It
+periodically launches heavy stones, and flaming barrels of tar out
+over the canopy of the Heldamar deep into the city of Ulsym.
+~
+P RANDOM 21032 10~
+#21043
+blackened lance~
+a blackened lance~
+A long, blackened lance is lying on the ground here.~
+steel~
+weapon B AN
+lance 4 8 thrust 0
+24 100 500 P
+#21049
+tree trunk~
+a tree trunk~
+A tree trunk is here, filled with clear water.~
+wood~
+fountain 0 0
+-1 -1 'water' 0 0
+0 0 0 P
+#21052
+tent~
+a decorated tent~
+A colossal, ornately decorated army tent has been pitched here.~
+cloth~
+furniture 0 0
+0 0 0 0 0
+10 500 1000 P
+#21053
+flail pestilence~
+the Flail of Pestilence~
+A horrible looking flail rests on the ground here.~
+evil~
+weapon AEJL ANX
+flail 5 9 disease H
+50 100 7 P
+R
+3
+#0
+
+
+
+#ROOMS
+#21000
+`@A shaded entrance``~
+The entry way into the forest is shaded by a grouping of old oaks, 
+their branches hanging slightly limp, creating an arch like effect.
+The ground beneath your feet is rather soft, and squishes lightly
+underfoot.  A variety of green mosses cover the darkened path, and
+little can be seen of what follows ahead.
+ 
+South of you, the gates to Ulsym can be seen.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 21001
+D1
+~
+~
+0 0 6768
+D2
+~
+~
+0 0 11603
+S
+#21001
+`@A moss covered trail``~
+The forest surrounds you in a thick blanket of green.  The local flora of
+the area is wild, with vines grasping tightly to the nearby trees.  The
+ground itself is somewhat moist underfoot, with a variety of soft mosses
+providing cover.  A small deer path can barely be seen, working its way
+westward through the brush.  
+~
+~
+0 1 16384 3
+D0
+~
+~
+0 0 21002
+D2
+~
+~
+0 0 21000
+D3
+~
+~
+0 0 21003
+S
+#21002
+`@Trail in the forest``~
+The trail continues, passing under the arching branches of the towering trees
+above.  The moss covered path makes traveling somewhat easy, though one
+could enter the dark woods if they so wished.
+~
+~
+0 1 65536 3
+D0
+~
+~
+0 0 21020
+D1
+~
+~
+0 0 21011
+D2
+~
+~
+0 0 21001
+S
+#21003
+`@A small deer trail``~
+The creature who made this trail was obviously both agile and light,
+easily making their way over fallen trees and dangerous brambles.
+The way is considerably harder for those not of this type, and the 
+solitude of the surrounding woods offer no comfort.
+~
+~
+0 1 16384 14
+D1
+~
+~
+0 0 21001
+D3
+~
+~
+0 0 21004
+S
+#21004
+`@A sharp turn``~
+The path curves wickedly at this point, making it obvious that this
+trail belongs to a most agile species of beast.  Branches portrude from
+the surrounding trees, making the way both difficult and weary.
+~
+~
+0 1 65536 14
+D0
+~
+~
+0 0 21005
+D1
+~
+~
+0 0 21003
+S
+#21005
+`@A small deer trail``~
+The path forks at this point, continuing in other directions, none of
+them looking any easier then the others.  To the west, the darkened 
+woods seems to lose their density, though the trail looks somewhat
+treacherous and steep.
+~
+~
+0 1 16384 14
+D0
+~
+~
+0 0 21006
+D2
+~
+~
+0 0 21004
+D3
+~
+~
+0 0 21007
+S
+#21006
+`@A small deer trail``~
+The deer trail continues deeper into the trees, and it seems unlikely
+that it will lead to anywhere of importance.  It appears that the way is
+rarely traveled by other persons, and one would think it pointless to
+continue.  
+ 
+~
+~
+0 1 16384 3
+D0
+~
+~
+0 0 21041
+D2
+~
+~
+0 0 21005
+S
+#21007
+`@A faint sound of water``~
+A faint sound can be heard through the deep silence of the dark forest.
+Dripping, or perhaps a trickling sound, like bits of water falling upon a
+hard surface draws your attention as you push your way through the
+thicket.
+~
+~
+0 1 16384 3
+D1
+~
+~
+0 0 21005
+D3
+~
+~
+0 0 21008
+S
+#21008
+`@Sounds of water``~
+The trickling of water, a sound once faint, grows clearer as you push
+your way through the brush.  South of here, it appears that the thick
+blanket of trees softens somewhat, allowing a few stray bursts of
+sunlight through.
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 21007
+D2
+~
+~
+0 0 21009
+S
+#21009
+`@A natural spring``~
+Clear in its quality, a small natural spring bubbles up from a bed of
+rocks concealed in the brush.  The canopy of trees breaks open at this
+location, allowing a few direct rays of light to cast down upon the area.  
+ 
+~
+Clear in its quality, a small natural spring bubbles up from a bed 
+of rocks concealed in the brush.  The canopy of the forest breaks open at
+this location, allowing the stars of the night sky to shine down.
+~
+0 0 16384 3
+D0
+~
+~
+0 0 21008
+S
+#21011
+`2Off the trail``~
+Thick brambles and wicked thistles make moving in this area rather
+difficult, and at times even painful.  Darkness surrounds you, even in the
+brightest of days, the immediate area above you consisting of a blanket
+of solid green.
+~
+~
+0 1 65536 14
+D0
+~
+~
+0 0 21016
+D1
+~
+~
+0 0 21012
+D3
+~
+~
+0 0 21002
+S
+#21012
+`2Deep within the forest``~
+Wild brambles poke and stick at you from every angle possible as you make
+your way though this uninviting forest of shadows.  The ground beneath your
+feet is relatively soft and moist in its texture, covered by a thick blanket
+of moss.  
+~
+~
+0 1 32768 14
+D0
+~
+~
+0 0 21017
+D1
+~
+~
+0 0 21013
+D3
+~
+~
+0 0 21011
+S
+#21013
+`2Deep within the forest``~
+The thick forest surrounds you on all sides, and the lack of natural
+light making its way through the canopy makes your travels both difficult
+and weary.  Thick brambles poke and stick at you from every angle, and a
+thick green moss covers the ground beneath your feet.  
+~
+~
+0 1 65536 14
+D0
+~
+~
+0 0 21018
+D1
+~
+~
+0 0 21014
+D3
+~
+~
+0 0 21012
+S
+#21014
+`2Deep within the forest``~
+Wild brambles poke and stick at you from every angle possible as you make
+your way through this uninviting forest of shadows.  The ground beneath your
+feet is relatively soft and moist in its texture, covered by a thick blanket
+of deep green moss.  
+~
+~
+0 1 8192 14
+D0
+~
+~
+0 0 21019
+D1
+~
+~
+0 0 21015
+D3
+~
+~
+0 0 21013
+S
+#21015
+`2Deep within the forest``~
+The forest around you is deep and thick, no light making its way to the
+area that you travel.  Wicked brambles and dangerous thickets protrude and
+poke at you from every angle possible, making the way both difficult and
+weary.  
+~
+~
+0 1 32768 14
+D0
+~
+~
+0 0 21021
+D3
+~
+~
+0 0 21014
+S
+#21016
+`2Off the main trail``~
+The thick blanket of trees and brush consume all light as you travel
+through this area of the forest that runs beside the trail.  Shadows flicker
+and dance in the cornor of your vision, making the area even less inviting
+to those who know not the dangers.  
+~
+~
+0 1 8192 14
+D0
+~
+~
+0 0 21023
+D1
+~
+~
+0 0 21017
+D2
+~
+~
+0 0 21011
+D3
+~
+~
+0 0 21020
+S
+#21017
+`2Off the main trail``~
+The forest around you is deep and thick, no light finding its way through
+the thick canopy of branches above.  Wicked brambles and dangerous thickets
+stick and pike at you from every angle possible, making the way both weary
+and painful.  
+~
+~
+0 1 32768 14
+D0
+~
+~
+0 0 21025
+D1
+~
+~
+0 0 21018
+D2
+~
+~
+0 0 21012
+D3
+~
+~
+0 0 21016
+S
+#21018
+`2Deep within the forest``~
+All natural light is consumed and concealed by the thick canopy of trees
+that cover the immediate area above your head.  Little to nothing can be
+seen within the woods around you, making your travels both difficult and
+weary.  
+  
+~
+~
+0 1 16384 14
+D0
+~
+~
+0 0 21026
+D1
+~
+~
+0 0 21019
+D2
+~
+~
+0 0 21013
+D3
+~
+~
+0 0 21017
+S
+#21019
+`2Deep within the forest``~
+Deep shadows and dangerous brambles are your only welcome in this
+uninviting forest.  Fallen branches and painful thickets make traveling in
+this area a somewhat difficult task, and the lack of light does little to
+help matters.  
+~
+~
+0 1 65536 14
+D0
+~
+~
+0 0 21027
+D1
+~
+~
+0 0 21021
+D2
+~
+~
+0 0 21014
+D3
+~
+~
+0 0 21018
+S
+#21020
+`@Between two maples``~
+At this point, the trail opens up in a small clearing.  To the left and
+right, a pair of large, silver maples tower up into the canopy of leaves.
+The ground here is somewhat more stable than in previous areas of
+the forest traveled, and large, twisted roots protrude from the earth.
+~
+~
+0 1 32768 3
+D0
+~
+~
+0 0 21022
+D1
+~
+~
+0 0 21016
+D2
+~
+~
+0 0 21002
+S
+#21021
+`2Deep within the forest``~
+The depth of the shadows and the lack of light make traveling this region
+of the forest both dangerous and weary.  It is obvious that few have passed
+this way in recent times, and there is no clear path on which you could
+follow.  
+~
+~
+0 1 16384 14
+D0
+~
+~
+0 0 21028
+D2
+~
+~
+0 0 21015
+D3
+~
+~
+0 0 21019
+S
+#21022
+`@Farther up the trail``~
+The trail continues, passing under the arching branches of the towering
+trees above.  The moss covered path makes traveling somewhat easy, though
+one could enter the dark woods if they so wished.  
+~
+~
+0 1 16384 3
+D0
+~
+~
+0 0 21024
+D1
+~
+~
+0 0 21023
+D2
+~
+~
+0 0 21020
+S
+#21023
+`2Deep within the forest``~
+Deeper into the forest your travels take you, pushing your way through
+the high weeds and thick brambles.  The ground under your feet it soft,
+moist to the touch.  
+~
+~
+0 1 8192 14
+D0
+~
+~
+0 0 21029
+D1
+~
+~
+0 0 21025
+D2
+~
+~
+0 0 21016
+D3
+~
+~
+0 0 21022
+S
+#21024
+`@Up the trail``~
+At this point in your travels, a split can be see in the trail, a small
+deer path that moves in a westward direction.  Little can be seen of what
+follows that way, the thick trees and dense foliage concealing anything that
+may be within.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 21034
+D1
+~
+~
+0 0 21029
+D2
+~
+~
+0 0 21022
+D3
+~
+~
+0 0 21043
+S
+#21025
+`2Deep within the trees``~
+The trees here are thick and old, their bark twisted and curled about
+by wild creeper vines.  Toadstools shoot up around their roots, emitting
+a pungent, musty aroma.
+~
+~
+0 1 65536 14
+D0
+~
+~
+0 0 21030
+D1
+~
+~
+0 0 21026
+D2
+~
+~
+0 0 21017
+D3
+~
+~
+0 0 21023
+S
+#21026
+`2Deep within the trees``~
+All natural light is consumed and concealed by the think canopy of
+trees that cover the immediate area above your head.  Little to nothing 
+can be seen of the area around you, which makes your travels both
+difficult and weary.
+~
+~
+0 1 8192 14
+D0
+~
+~
+0 0 21031
+D1
+~
+~
+0 0 21027
+D2
+~
+~
+0 0 21018
+D3
+~
+~
+0 0 21025
+S
+#21027
+`2Thick trees``~
+The ground beneath you is soft and moist, covered with a thick blanket of
+deep green moss.  Ancient trees tower above your head, their large, leaf
+adorned branches creating a solid canopy that blocks out any forms of
+natural light.  
+~
+~
+0 1 16384 14
+D0
+~
+~
+0 0 21032
+D1
+~
+~
+0 0 21028
+D2
+~
+~
+0 0 21019
+D3
+~
+~
+0 0 21026
+S
+#21028
+`2Thick trees``~
+As you push your way through the mass of thick and ancient trees, it is
+easy to conclude that such travels will lead you nowhere quickly.  Darkness
+surrounds you, the thick blanket of leaves above blocking out all forms of
+natural light.  
+~
+~
+0 1 65536 14
+D0
+~
+~
+0 0 21033
+D2
+~
+~
+0 0 21021
+D3
+~
+~
+0 0 21027
+S
+#21029
+`2Deep in the woods``~
+The trees here are thick and old, their large branches covered with leaves
+that block out all natural forms of light.  Deep the shadows are, and an
+occasional rustling sound can be heard behind you.
+~
+~
+0 1 32768 14
+D0
+~
+~
+0 0 21035
+D1
+~
+~
+0 0 21030
+D2
+~
+~
+0 0 21023
+D3
+~
+~
+0 0 21024
+S
+#21030
+`2Deep in the woods``~
+Deeper into the forest your travels bring you, and little comfort is to
+be had in the darkness of these woods.  Startling noises seem to come
+from all around, and the thick brambles tug at your clothing.
+~
+~
+0 1 8192 14
+D0
+~
+~
+0 0 21037
+D1
+~
+~
+0 0 21031
+D2
+~
+~
+0 0 21025
+D3
+~
+~
+0 0 21029
+S
+#21031
+`2Within a thick forest``~
+As your travels bring you deeper into this uninviting forest of shadows,
+one would think it better sense to head back towards the main path.  Little
+comfort is to be found in the darkness of these woods, and it is doubtful
+much profit is to be found within.  
+~
+~
+0 1 65536 14
+D0
+~
+~
+0 0 21038
+D1
+~
+~
+0 0 21032
+D2
+~
+~
+0 0 21026
+D3
+~
+~
+0 0 21030
+S
+#21032
+`2Within a thick forest``~
+Thick trees and dense foliage surround you on all sides.  Deep shadows
+follow your motions, and the silence of the dark woods offers little
+comfort.  Your travels in this region are somewhat difficult for there is no
+clear path on which you could follow.  
+~
+~
+0 1 65536 14
+D0
+~
+~
+0 0 21039
+D1
+~
+~
+0 0 21033
+D2
+~
+~
+0 0 21027
+D3
+~
+~
+0 0 21031
+S
+#21033
+`2Within a thick forest``~
+The dense forest surrounds you on all sides.  Large, towering trees
+block out all forms of natural light, and shifting, suspicious shadows
+move about within the woods, at times seeming to mimic your motions.
+~
+~
+0 1 65536 14
+D0
+~
+~
+0 0 21040
+D2
+~
+~
+0 0 21028
+D3
+~
+~
+0 0 21032
+S
+#21034
+`@A trail through the forest``~
+The trail continues on a steady path, north to south.  The ground
+underfoot feels rather unstable, and somewhat moist, the brown earth covered
+entirely by thick, green moss.  Trees arch over your head, concealing most
+of the area around where you travel.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 21036
+D1
+~
+~
+0 0 21035
+D2
+~
+~
+0 0 21024
+S
+#21035
+`2Deep within the woods``~
+Thick trees and dense foliage surround you on all sides.  Deep shadows
+follow your motions, and the silence of the dark woods provides little
+comfort.  Your travels in this region are somewhat difficult, for there is
+no clear path on which to follow.  
+~
+~
+0 1 8192 14
+D0
+~
+~
+0 0 21044
+D1
+~
+~
+0 0 21037
+D2
+~
+~
+0 0 21029
+D3
+~
+~
+0 0 21034
+S
+#21036
+`@Following the trail``~
+Bare patches of earth can been seen, peeping out from under the thick
+layer of moss that covers the ground.  Shadows move and flicker in the
+dense woods to your east, at times seeming to mimic your motions.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 21049
+D1
+~
+~
+0 0 21044
+D2
+~
+~
+0 0 21034
+S
+#21037
+`2Deep within the woods``~
+Thick trees and dense foliage surround you on all sides.  Deep shadows
+follow your motions, and the silence of the woods provides little comfort. 
+Your travels in this region are somewhat difficult for there is no clear
+path on which to follow.  
+~
+~
+0 1 16384 14
+D0
+~
+~
+0 0 21045
+D1
+~
+~
+0 0 21038
+D2
+~
+~
+0 0 21030
+D3
+~
+~
+0 0 21035
+S
+#21038
+`2Deep within the woods``~
+As your travels bring you deeper into this uninviting forest of shadows
+and brambles, one would think it better sense to head back towards the path.
+Little comfor is to be found in the darkness of these woods, and it is
+doubtful that much profit is to be gained within.  
+~
+~
+0 1 16384 14
+D0
+~
+~
+0 0 21046
+D1
+~
+~
+0 0 21039
+D2
+~
+~
+0 0 21031
+D3
+~
+~
+0 0 21037
+S
+#21039
+`2Deep in the forest``~
+The trees here are thick and old, their bark twisted and curled about by
+wild creeper vines.  Toadstools shoot up from around the roots of a few,
+emitting a pungent, musty aroma.  
+~
+~
+0 1 8192 14
+D0
+~
+~
+0 0 21047
+D1
+~
+~
+0 0 21040
+D2
+~
+~
+0 0 21032
+D3
+~
+~
+0 0 21038
+S
+#21040
+`2Deep in the forest``~
+Wild creeper vines curl and twists their way over the fallen branches
+and thick brambles that cover the ground beneath you.  Grasping for
+life, these vines cling to the surrounding trees.
+~
+~
+0 1 32768 14
+D0
+~
+~
+0 0 21048
+D2
+~
+~
+0 0 21033
+D3
+~
+~
+0 0 21039
+S
+#21041
+`@A deer trail``~
+The creature who made this trail was obviously both agile and light,
+easily making their way over fallen trees and dangerous brambles.
+The way is considerably more difficult for those not of this type, and
+the solitude of the surrouding woods offer no comfort.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 21042
+D2
+~
+~
+0 0 21006
+S
+#21042
+`@Turn in the deer trail``~
+The path curves wickedly at this point, making it obvious that this trail
+belongs to a most agile species of beast.  Branches protrude from the
+surrounding trees, making the way both difficult and weary.  
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 21043
+D2
+~
+~
+0 0 21041
+S
+#21043
+`@Approaching the main trail``~
+Through the dense trees, a clearing can be seen to your east, taking you
+back to the mail trail through the forest.  To the west, however, little can
+bee seen accept thick foliage and darkened shadows.  
+~
+~
+0 1 8192 3
+D1
+~
+~
+0 0 21024
+D3
+~
+~
+0 0 21042
+S
+#21044
+`2Deep in the woods``~
+The forest that runs besides the main trail is both thick and ancient. 
+Old trees tower over your head, blocking out all forms of natural light.  A
+layer of thick moss covers the ground beneath your feet, making the earth
+feel both soft and moist.  
+~
+~
+0 1 16384 14
+D1
+~
+~
+0 0 21045
+D2
+~
+~
+0 0 21035
+D3
+~
+~
+0 0 21036
+S
+#21045
+`2Within the deep forest``~
+The forest around you is deep and thick, no light finding its way to the
+area that you travel.  Wicked brambles and dangerous thickets protrude and
+poke at you from every angle, making the way both weary and painful.  
+~
+~
+0 1 16384 14
+D1
+~
+~
+0 0 21046
+D2
+~
+~
+0 0 21037
+D3
+~
+~
+0 0 21044
+S
+#21046
+`2Within the deep forest``~
+All natural light is consumed and concealed by the thick canopy of trees
+that cover the immediate area above your head.  Little to nothing can be
+seen within the woods around you, making your travels both difficult and
+weary.  
+~
+~
+0 1 16384 14
+D1
+~
+~
+0 0 21047
+D2
+~
+~
+0 0 21038
+D3
+~
+~
+0 0 21045
+S
+#21047
+`2Within the deep forest``~
+Thick brambles and wicked thistles make moving in this area rather
+difficult, and at times even painful.  Darkness surrounds you, even in the
+brightest of days, the immidiate area above you consisting of a thick
+blanket of solid green.  
+~
+~
+0 1 16384 14
+D1
+~
+~
+0 0 21048
+D2
+~
+~
+0 0 21039
+D3
+~
+~
+0 0 21046
+S
+#21048
+`2Deeper into the woods``~
+The depth of the shadows and the lack of light make traveling this
+region of the forest both dangerous and weary.  It is obvous that few
+have passed this way in recent times, and there is no clear path on 
+which you could follow.
+~
+~
+0 1 8192 14
+D2
+~
+~
+0 0 21040
+D3
+~
+~
+0 0 21047
+S
+#21049
+`@A moss covered trail``~
+The trail continues, passing under the arching branches of the towering trees
+above.  The moss covered path makes traveling somewhat easy, though on 
+could enter the dark woods if they so wished.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 21050
+D2
+~
+~
+0 0 21036
+S
+#21050
+`@Trail through the forest``~
+The trail takes a sharp turn at this point, swerving around an ancient oak, 
+its branches stretching high into the heavens above.  Wild creeper vines curl
+and twists their way around the oak's lower trunk, grasping for life.
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 21051
+D2
+~
+~
+0 0 21049
+S
+#21051
+`@Turn in the trail``~
+Th trail turns slightly at this point in order to continue around a large,
+ancient oak tree, its branches reaching far up into the heavens above.
+To the north, the dense trees seem to clear up a bit and a faint light can
+be seen ahead.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 21052
+D3
+~
+~
+0 0 21050
+S
+#21052
+`@An open meadow``~
+You stand in the midst of a large, open weadow surrounded on all sides by
+a thick and shadowed forest.  A small trail, covered with moss, extends
+south into the darkened woods.  
+~
+~
+0 0 16384 3
+D2
+~
+~
+0 0 21051
+S
+#2800
+~
+~
+~
+0 0 0 0
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 21004 25 21001 2
+M 0 21004 25 21002 2
+M 0 21004 25 21003 2
+M 0 21006 10 21004 2
+M 0 21004 25 21004 2
+M 0 21003 1 21005 1
+O 0 21000 0 21009
+M 0 21006 10 21009 1
+M 0 21012 5 21012 1
+E 0 21012 0 18
+E 0 21013 0 5
+M 0 21005 10 21013 1
+E 0 21002 0 17
+M 0 21001 10 21014 2
+G 0 21014 0
+G 0 21015 0
+M 0 21010 1 21014 1
+M 0 21011 10 21014 1
+M 0 21011 10 21015 1
+M 0 21010 15 21018 1
+M 0 21002 10 21019 2
+M 0 21003 10 21020 2
+O 0 21020 0 21020
+M 0 21004 25 21022 2
+M 0 21004 25 21023 2
+O 0 21016 0 21024
+M 0 21005 10 21025 1
+E 0 21002 0 17
+M 0 21003 1 21025 1
+M 0 21001 10 21026 2
+M 0 21010 15 21026 1
+M 0 21011 10 21028 1
+M 0 21007 30 21029 2
+M 0 21012 5 21030 1
+E 0 21012 0 18
+E 0 21013 0 5
+O 0 21032 0 21030
+M 0 21032 10 21030 2
+M 0 21010 15 21031 1
+O 0 21016 0 21031
+M 0 21005 10 21032 1
+E 0 21002 0 17
+O 0 21016 0 21032
+O 0 21032 0 21032
+M 0 21032 30 21032 2
+M 0 21003 1 21033 1
+M 0 21010 15 21034 1
+O 0 21016 0 21034
+M 0 21010 15 21035 1
+O 0 21016 0 21035
+M 0 21010 15 21036 1
+M 0 21010 15 21037 1
+O 0 21016 0 21037
+M 0 21005 10 21038 1
+E 0 21002 0 17
+M 0 21010 15 21038 1
+O 0 21016 0 21038
+M 0 21007 30 21040 2
+M 0 21011 10 21040 1
+M 0 21007 30 21042 2
+M 0 21012 5 21042 1
+E 0 21012 0 18
+E 0 21013 0 5
+O 0 21016 0 21042
+M 0 21004 25 21043 2
+M 0 21007 30 21043 2
+M 0 21012 5 21043 1
+E 0 21012 0 18
+E 0 21013 0 5
+O 0 21016 0 21043
+M 0 21032 10 21043 2
+O 0 21032 0 21043
+E 0 21043 0 17
+M 0 21007 30 21044 2
+M 0 21011 10 21044 1
+M 0 21002 10 21045 1
+M 0 21007 30 21045 2
+M 0 21008 30 21045 2
+M 0 21007 30 21046 2
+M 0 21008 30 21046 2
+M 0 21011 10 21046 1
+M 0 21007 30 21047 2
+M 0 21008 30 21047 2
+M 0 21005 10 21048 1
+E 0 21002 0 17
+M 0 21008 30 21048 2
+O 0 21049 0 21049
+M 0 21008 30 21049 2
+M 0 21010 15 21049 1
+M 0 21008 30 21050 2
+M 0 21010 15 21050 1
+M 0 21011 10 21050 1
+M 0 21008 30 21051 2
+M 0 21010 15 21051 1
+M 0 21008 30 21052 2
+M 0 21011 10 21052 1
+M 0 21043 1 21052 1
+O 0 21052 0 21052
+E 0 21053 0 17
+S
+
+
+
+#SHOPS
+21001 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#21052
+if rand 50
+     if rand 50
+          say More fire to the catapults! Move move move!
+          spit
+     else
+          say Grakk, concentrate fire on the main gates!
+          snort
+     endif
+else
+     if rand 50
+          say Get your troops to mass, and flank on the left, Zorgh!
+          growl
+     else
+          say Bah, stupid goblins. What I wouldn't give for competent troops...
+  sigh
+     endif
+endif
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#21032
+if rand 50
+     obj zecho A ball of fire sails high over the Heldamar forest, inbound for Ulsym.
+     break
+else
+     obj zecho A giant boulder launches over the Heldamar forest, inbound for Ulsym.
+     break
+endif
+~
+#0
+
+#ROOMPROGS
+#0
+
+#$

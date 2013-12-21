@@ -1,0 +1,2531 @@
+#AREADATA
+Name the Lost Desert~
+Pref ~
+Builders Ankharan Kysammie~
+VNUMs 5300 5399
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 0
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#5300
+light dust brownish digger insectoid~
+a dust digger~
+A light brownish tan insectoid is trying to conceal itself here.
+~
+Before you is a flat insect like creature with very long antenna that
+roll back along its body.  Its large pincers look as though they could grab
+a man and cut him in half with little to no effort.  Its six legs look
+padded for ease of desert walking in the loose hot sands.  This creature
+looks to be about 10 feet long and about 4 feet thick looking much like a
+flattened tan almond.  
+~
+insect~
+ACGWd A JPQ 0 -750 0
+13 8 4d27+140 0d0+100 2d4+5 bite
+0 0 0 0
+0 0 D IQ
+stand stand none none~
+5
+AGOc ACDEFHK large 0
+#5301
+dervish nomad fighter~
+a dervish nomad~
+A desert nomad is here eyeing you up and down.
+~
+A desert nomad is here looking around for easy prey.  Their
+dirt caked face is streaked from where the sweat from the days
+perspiration gives him a near comical look.  If not for the many
+battle scars and wounds they might be taken for an easy target.
+~
+human~
+ACGSTWd A P 0 -750 0
+6 1 1d20+50 0d0+100 2d3+3 pound
+6 6 6 8
+FHNU 0 0 0
+stand stand none none~
+5
+AHMV ABCDEFGHIJK medium 0
+#5303
+dervish warrior~
+the dervish warrior~
+A dervish warrior sulks about here.
+~
+A buff shirtless male warrior paces about here.  His bulging
+muscles and lean form are typical of the hardened desert warriors.
+His deep dark tan and black hair are also typical of the dervish
+clansmen.  By the looks of him, the ability to fight also seems very
+typical of these desert wanderers.
+~
+human~
+ACGTWd A P 0 -750 0
+8 1 1d19+70 0d0+100 2d4+3 slash
+5 5 5 7
+EKNRU 0 B 0
+stand stand male none~
+6
+AHMV ABCDEFGHIJK medium 0
+#5304
+snake sidewinder~
+the sidewinder~
+An eight foot long sidewinder desert snake is here hissing.
+~
+Before you is one pissed off snake.  About eight feet in length
+this reptile looks to be in no mood to be messed with.  Resting
+here after a fat juicy meal its belly shows the signs of its meal
+working its way down.
+~
+snake~
+AGW A JP 0 -750 0
+8 0 1d20+20 0d0+100 1d4+2 bite
+6 8 8 8
+FX 0 L I
+stand stand none none~
+4
+AGXYc ADEFKLQVX medium 0
+#5305
+monitor lizard~
+the monitor lizard~
+A massive monitor lizard is here searching for food.
+~
+This monestrous beast is here and there seeking a meal.  Heavy
+and thick skinned, this lizard looks to be a very large specimen even for
+its kind.  Upwards of 20 feet in length, about twice the size of a normal
+lizard.  It has black, leathery skin that looks like it has seen a few seasons.
+~
+unique~
+AGHWd A DJ 0 -750 0
+10 0 3d25+100 0d0+100 2d4+4 bite
+2 2 2 2
+CMUX P BFGQR HI
+stand stand none none~
+9
+0 0 medium 0
+#5306
+turkey vulture~
+a vulture~
+A turkey vulture flies over head.
+~
+A big black bird with balded head circles overhead looking for an easy
+meal.  One of the few birds seen in this area its characteristicly feather
+free head is made for gorging upon flesh of the recently dead or dying.  
+~
+unique~
+AWd A T 0 -750 0
+10 3 2d22+100 0d0+100 2d5+5 claw
+3 3 3 5
+EFHUX 0 LQ H
+stand stand none none~
+7
+AHMV ABCDEFGHIJK medium 0
+#5307
+tarantula spider~
+the giant tarantula~
+A giant black tarantula lurks here trying to sneak up on a meal.
+~
+A gigantic hairy tarantula makes its way across the lands.
+Its fangs are dark and glistening with droplets of venoum.
+Its many eyes seem to catch every movement as it gets ready to
+pounce upon its enemies.
+~
+insect~
+AGd A FJP 0 -750 0
+11 2 3d23+100 0d0+100 2d5+1 bite
+3 3 3 6
+EHUX 0 AQ H
+stand stand none none~
+5
+AGOc ACDEFHK giant 0
+#5315
+dervish lord~
+the dervish lord~
+A dervish lord is here preparing for battle.
+~
+A dark-tanned male warrior looks as if he is preparing to do battle.  He
+is shor t of stature but solid in muscle.  His long braided black locks fall
+to the midd le of his back which has been tied off in various rag cloth
+ribbons.  
+~
+human~
+ACGTd A DP 0 -750 0
+17 4 6d45+180 0d0+100 3d6+9 smash
+-1 -1 -1 2
+FHUX 0 B 0
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#5320
+Ankheg insect praying mantis~
+a large insect~
+A huge insect resembling a praying mantis is here.
+~
+Walking on its two hind legs of its six, this insect is a greenish tan. 
+It has large red eyes that look like giant bees eyes.  Its mantibles, drip
+with some sort of clear liquid.  It has large claw like front legs that
+appear to be for grasping its food fast to pull it closer to its mouth.  
+~
+insect~
+AGTd A DFJPQ 0 -750 0
+25 5 8d50+380 0d0+100 5d6+10 bite
+-4 -4 -4 3
+FHJRU K B 0
+stand stand none none~
+18
+AGOc ACDEFHK medium 0
+#5325
+fairy dragon~
+a fairy dragon~
+A fairy dragon is flitting about here.
+~
+One of the smallest of the dragon race, this dragon looks like its larger
+cousins with large moth-like wings.  It is a myriad of colors, radiating
+like the neons of a rainbow.  It looks though it has a permanent smirk on
+its reptilian face.  Although about the size of a large sparrow it appears
+to be a sturdy creature none the less.  
+~
+dragon~
+AGRWd A BDJNT 0 -750 0
+20 4 8d45+350 0d0+100 4d5+12 magic
+-1 -1 -1 0
+FHLMQRUX 0 BH F
+stand stand none none~
+15
+AHZ ACDEFGHIJKLPQUVX medium 0
+F res E
+F vul I
+#5326
+fairy dragon~
+a fairy dragon~
+A fairy dragon is flitting about here.
+~
+One of the smallest of the dragon race, this dragon looks like its larger
+cousins with large moth-like wings.  It is a myriad of colors, radiating
+like the neons of a rainbow.  It looks though it has a permanent smirk on
+its reptilian face.  Although about the size of a large sparrow it appears
+to be a sturdy creature none the less.  
+~
+dragon~
+AGRWd A BDJPT 0 -750 0
+25 5 8d45+350 0d0+100 4d5+12 magic
+-2 -2 -2 -2
+FHLMQRUX 0 BH 0
+stand stand none none~
+14
+AHZ ACDEFGHIJKLPQUVX medium 0
+F res E
+F vul FI
+#5330
+dune stalker creature sands~
+a creature of the sands~
+A dune stalker darts back and forth here searching for prey.
+~
+A sandy tannish, humanoid looking, bipedal creature lurks here.  Its head
+way to large for its rail thin body makes it comical looking.  Except for
+the near foot long claws and fangs that jut out of its wispy thin lips.  Its
+skin pulled so tight against its body that it looks as though it were a
+skeleton.  
+~
+undead~
+ACGOSd A J 0 -750 0
+12 6 3d40+125 0d0+100 2d3+3 claw
+3 3 3 5
+X LQ I N
+stand stand none none~
+6
+0 ABCDEFGHIJK medium 0
+#5332
+land urchin~
+a land urchin~
+A small heavily spiked land urchin is digging for food here.
+~
+A small creature which resembles a porcupine is foraging here for food. 
+It looks like a small ball with hundreds of long tubular spikes all around
+it.  It is near indistinguishable from the sand and light colored rocks. 
+Perfect camouflage for such a seemingly helpless creature. 
+~
+unique~
+AGHd A V 0 -750 0
+10 2 3d22+96 0d0+100 2d5+4 sting
+4 4 4 6
+0 L 0 R
+stand stand none none~
+4
+0 0 medium 0
+#5334
+cacti cactus~
+a cactus~
+A bunch of cacti grow here.
+~
+A large plant with many long needle-like spikes grows here.  Its green
+flesh with umber streaks run up and down its raised outer skin.  
+~
+unique~
+ABGWe A 0 0 -750 0
+5 0 1d17+42 0d0+100 1d4+1 pierce
+8 8 8 5
+0 B 0 0
+stand stand none none~
+9
+0 0 large 0
+#5344
+hyena~
+a hyena~
+A hyena is here growling.
+~
+A rusty brown and black creature that resembles a dog with hunched back
+legs and back.  It looks weak but those canines it is sporting look as
+though they could crush some of the strongest of bones.  Saliva drips from
+its hungry maw.  
+~
+dog~
+AGHTd A JP 0 -750 0
+15 5 5d30+170 0d0+100 3d8+5 bite
+0 0 0 6
+FHRU 0 0 0
+stand stand none none~
+15
+AGV ACDEFHJKUV medium 0
+#5358
+desert wanderer man~
+a desert wanderer~
+A desert wanderer is here.
+~
+What once was a human male is wandering the desert.  He appears to be
+lost and crazed.  His blank facial expressions hint that he has lost
+something more than just his dignity, cloths and a few meals.  His skin is
+dirt streaked by sweat and places where it looks like he rubbed up against
+something.  
+~
+human~
+ACGOd A KV 0 -750 0
+18 4 6d50+200 0d0+100 3d8+8 punch
+0 0 0 3
+DFHIU A BLPQ I
+stand stand male none~
+8
+AHMV ABCDEFGHIJK medium 0
+#5369
+fire toad~
+a fire toad~
+A large fire toad sits here looking for food.
+~
+This beast of an amphibian had light red warty skin with darker maroon
+warts all over its thick skin.  It is about the size of a large dwarf and
+weighing just about that much as well.  Its skin glistens from secretion
+that give it a sort of shimmer.  It has large yellowish eyes with slits for
+pupils, much like a snakes.  
+~
+unique~
+ACGWd A J 0 -750 0
+14 2 5d30+140 0d0+100 3d5+6 magic
+1 1 1 6
+FU H R I
+stand stand none none~
+12
+0 0 medium 0
+#5371
+sand man sandman~
+a sandman~
+A sandman is here scanning about the area.
+~
+A form about six feet tall and vaguely humanoid shape made of what
+appears to be tightly fit particles of sand.  Near featureless and with but
+a rough form and shape of a human its eyes glow with an disturbingly
+orangish glow.  This creature wears no clothing or outward appearance of
+gear.  
+~
+unique~
+ACEGTWd A DFJP 0 -750 0
+16 3 5d35+170 0d0+100 3d6+9 none
+0 0 0 5
+FHJUX BLQ HI ER
+stand stand male none~
+14
+0 0 medium 0
+#5384
+Hargrath fire giant~
+the fire giant Hargrath~
+Hargrath, the fire giant warrior, stands here looking for wimps to beat upon.
+~
+This massive fire giant looks to be in a foul mood.  His wiry black hair
+and bear nearly cover all of his face.  His belly sticks out like he has had
+too much food and drink and his cloths look like they are in need of a good
+washing, much like the rest of his body.  His yellow teeth show through his
+thin stretched lips in a mock smile.  One of his eyes appears to be larger
+than the other.  Many battle scars in various places over his face and arms
+lean to the idea that he is a willing brawler of many fights.  
+~
+fire~
+ACGTd A Ja 0 -750 0
+25 5 10d50+300 0d0+100 5d5+5 beating
+0 0 0 0
+CEFHIJNRU 0 DH I
+stand stand male none~
+17
+AHMV ABCDEFGHIJK huge 0
+F vul P
+#5397
+Kathresha oasis guardian nereid~
+a nereid female~
+Kathresha, the beautiful nereid swims here.
+~
+This aquatic beauty looks much like a elf with her slender body and sharp facial features, high arching eyes and long black hair.  She appears to blend with the very water itself.
+~
+elf~
+ABCGJKRWbe A BDEFJNPQ 0 -750 0
+30 6 10d61+420 0d0+100 5d6+16 pierce
+-9 -9 -9 -1
+EFHX LPR AB H
+stand stand female none~
+20
+AHMV ABCDEFGHIJK medium 0
+F vul Z
+#0
+
+
+
+#OBJECTS
+#5300
+ball mace~
+a mace~
+A metal ball headed mace is here.~
+metal~
+weapon 0 AN
+mace 3 6 smash 0
+8 50 3 P
+L
+0
+#5301
+cloak~
+a sandy brown cloak~
+A sandy brown cloak is here.~
+unknown~
+clothing 0 AC
+0 0 0 0 0
+6 50 2 P
+L
+0
+F
+A 2 1 0
+#5302
+small shield~
+a small shield~
+A small metal shield is here.~
+unknown~
+armor Y AJ
+3 3 3 0 0
+7 70 3 P
+L
+0
+#5303
+scimitar~
+a scimitar~
+A well made, deeply curved, scimitar is here.~
+unknown~
+weapon 0 AN
+sword 4 4 slash 0
+8 50 3 P
+L
+0
+#5304
+studded steel bracers~
+a pair of bracers~
+A pair of studded steel bracers is here.~
+steel~
+armor 0 AI
+2 2 2 2 0
+8 10 2 P
+L
+0
+F
+A 1 1 0
+#5305
+leather cuirass~
+a leather cuirass~
+A leather cuirass is lying here.~
+leather~
+armor 0 AD
+3 0 5 0 0
+10 70 3 P
+L
+0
+#5306
+leather boots~
+a pair of leather boots~
+A fine pair of polished leather boots is here.~
+leather~
+clothing 0 AG
+0 0 0 0 0
+10 10 3 P
+L
+0
+F
+A 14 20 0
+#5307
+snakeskin skin~
+sidewinder skin~
+The hide of a sidewinder is here.~
+flesh~
+armor 0 AF
+1 0 5 2 0
+10 10 2 P
+L
+0
+#5313
+kriss dagger~
+a kriss dagger~
+A long curved dagger is here.~
+unknown~
+weapon 0 ANR
+dagger 4 7 pierce 0
+15 10 3 P
+L
+0
+#5314
+shield dust digger~
+an almond shaped shield~
+A tannish almond shaped shield is here.~
+flesh~
+armor 0 AJ
+5 5 5 -5 0
+15 30 5 P
+L
+0
+#5315
+black steel spear~
+a long black spear~
+A long blackened steel spear with elongated head is here.~
+steel~
+weapon 0 AN
+spear 5 6 pierce 0
+20 50 4 P
+L
+0
+F
+A 18 2 0
+#5319
+broken bottle~
+a broken bottle~
+A bottle, once a fince collectors piece, is here.~
+glass~
+trash 0 AO
+0 0 0 0 0
+0 10 0 P
+L
+0
+F
+A 3 -2 0
+#5326
+ring~
+a golden ring~
+A golden ring is here glistening.~
+unknown~
+jewelry A AB
+0 0 0 0 0
+10 1 2 P
+L
+0
+F
+A 5 2 0
+#5327
+cross dagger~
+a dagger~
+A dagger shaped in the form of a cross is here.~
+iron~
+weapon 0 AN
+dagger 4 5 pierce 0
+10 1 1 P
+L
+0
+#5384
+double headed battle axe~
+a double headed battle axe~
+A double headed battle axe which appears to be well used but in good condition is here.~
+iron~
+weapon Y AN
+axe 6 6 slash F
+25 100 4 P
+L
+0
+#5391
+ruby ring~
+a ruby ring~
+A princess cut ruby inset upon a gold band is here.~
+ruby~
+jewelry GHY AB
+0 0 0 0 0
+30 1 0 P
+L
+0
+F
+A 24 -5 0
+#5392
+oasis~
+an oasis~
+A beautiful oasis has sprung up here.~
+water~
+fountain MY 0
+-1 -1 'water' 0 0
+0 0 0 P
+L
+0
+#5393
+coconuts coconut~
+some coconuts~
+A couple of coconuts are here.~
+milk~
+food 0 0
+8 8 0 0 24
+1 30 4 P
+L
+0
+#5394
+trees tree coconut~
+a copse of coconut trees~
+A copse of coconut trees grows here.~
+wood~
+container 0 0
+50 0 0 50 0
+0 0 0 P
+L
+0
+#5395
+dates date~
+a bunch of dates~
+A bunch of ripend dates are here ready to eat.~
+unknown~
+food 0 AO
+8 4 0 0 8
+1 20 2 P
+L
+0
+#5396
+copse date tree trees~
+date trees~
+A copse of date trees grow here.~
+wood~
+container 0 0
+1000 0 0 1000 0
+0 9000 0 P
+L
+0
+#5397
+dagger nereid~
+a ruby dagger~
+The dagger of the Nereid.~
+ruby~
+weapon H AN
+exotic 5 8 pierce G
+30 3 100 P
+L
+0
+#0
+
+
+
+#ROOMS
+#5300
+`#Deserts edge ``~
+You are at the edge of a vast desert wasteland.  This area
+spans as far as the eye can see.  Mountains and dunes can be
+seen along the horizon in many different directions.  You are on
+what looks to be a well traveled road that leads into this no mans
+land.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5301
+D2
+~
+~
+0 0 3113
+S
+#5301
+`#Deeper into the desert ``~
+The road into the desert narrows slightly here.
+Gravel and rocks that have been kicked up over the
+years lay by the sides of the road.  Craggy and cracked
+from lack of water the road is dusty and hot.
+~
+~
+0 0 0 10
+D2
+~
+~
+0 0 5302
+D3
+~
+~
+0 0 5300
+S
+#5302
+`#Over a small dune ``~
+The road  cuts through a small section of dunes here.  To the
+north you can see that the road becomes less and less sandy and
+just up ahead it appears to take a turn to the west.  To the south
+more dunes.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5301
+D2
+~
+~
+0 0 5303
+S
+#5303
+`#Miles of sand ``~
+Dunes raise a little higher here, making looking ahead or behind
+more difficult.  However, you can see that to the east, the road looks
+as though it continues for miles and miles through this blazing hot arid
+land.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5302
+D1
+~
+~
+0 0 5304
+S
+#5304
+`#An eastward passage ``~
+Sand, everywhere.  Hot, scorching heat.  The road becomes
+barely a trail here that is only kept clear of the wind blown sand
+by the traffic of the traveler that comes though this god forsaken
+place.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5305
+D3
+~
+~
+0 0 5303
+S
+#5305
+`#A choice in the road ``~
+You have come to a "T" section in the path.  To the east the road
+continues on for miles and to the south it looks pretty much the same.
+Not much in the way of plant life or animals except the occasional snake
+that slithers by.
+There is a small post with a weathered sign here.
+
+~
+~
+0 0 0 10
+E
+sign~
+South - The Great Thule Waste Lands
+West - Astrelas
+East - The Lost Desert
+
+~
+D1
+~
+~
+0 0 5329
+D2
+~
+~
+0 0 5306
+D3
+~
+~
+0 0 5304
+S
+#5306
+`#Open Desert ``~
+You are in a vast open desert.  Dunes large and small cover this
+expansive region.  The heat generated from the sun bearing down
+and reflecting off of the sun is near intolerable.  The occasional
+scrub, tumbleweed and cacti can be seen here.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5305
+D2
+~
+~
+0 0 5307
+S
+#5307
+`#Rocks around the path ``~
+Strewn about the desert floor are several larger boulders.
+Most travelers use these places for land marks to help guild
+them through this waste as the dunes shift and turn with the
+constant change brought on by the unimpeded winds.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5306
+D2
+~
+~
+0 0 5308
+S
+#5308
+`#Open desert ``~
+Looking around the amazing zone of these dunes seem to
+have naturally left a cleft in the sands.  The wind looks to have
+carved out of the desert sand a natural crevice that looks like
+it has been here for centuries.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5307
+D3
+~
+~
+0 0 5309
+S
+#5309
+`#A turn in the sands ``~
+The road traverses through a winding section of these
+sandy dunes.  It appears that the trail leads southwards for
+many miles and eastwards around the bend.  The road can
+be spied for a goodly distance which seems to go on and on.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5308
+D2
+~
+~
+0 0 5310
+S
+#5310
+`#Southern path through the sands ``~
+Heat pounded sand and the footfalls of years of travel have
+packed this roadway through this desolate place.  The name
+Lost Desert apply names this horrid place.  Scarcely can be
+seen hide nor hair of any animal brave enough to venture
+into this deadly heat.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5309
+D2
+~
+~
+0 0 5311
+S
+#5311
+`#A rock monolith ``~
+A huge monolith juts out of the ground here.  Raising hundreds of feet
+into the sky this rock formation looks like it may fall over at any second.
+Jagged edges and the straight sheer sides give the birds circling above
+ample places to nest and seek protection from the other desert creatures.
+There is a depression here leading downwards.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5310
+D5
+~
+~
+0 0 5312
+S
+#5312
+`#A valley of sand ``~
+The low valley through the dunes provide some good shade.  
+With the soft continual winds driven through here the temperature
+is a bit more bearable.  Signs of life all around with tracks of
+various animals that roam this place can be easily seen.
+~
+~
+0 0 0 10
+D2
+~
+~
+0 0 5313
+D4
+~
+~
+0 0 5311
+S
+#5313
+`#A valley of sand ``~
+The low valley through the dunes provide some good shade.  
+With the soft continual winds driven through here the temperature
+is a bit more bearable.  Signs of life all around with tracks of
+various animals that roam this place can be easily seen
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5312
+D4
+~
+~
+0 0 5314
+S
+#5314
+`#Southern sands ``~
+You are on the south side of a deep valley.  The desert
+is more rocky here with larger mesa's and rock towers that
+climb high into the sky.
+~
+~
+0 0 0 10
+D2
+~
+~
+0 0 5315
+D5
+~
+~
+0 0 5313
+S
+#5315
+`#South sands ``~
+There is a deep canyon that stretches far beyond the
+horizon to the west of here.  Below, a river that courses
+its way along far below at the base of this massive gorge.
+There seems to be no safe way to descend down.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5314
+D2
+~
+~
+0 0 5316
+S
+#5316
+`#A turn in the road ``~
+The rocky road turns here.  It branches off to the east and
+to the north.  Looking around one can see that it would be
+very easy to become lost should they step off the trail as
+this area looks the same in all directions.  Very little to
+differentiate between one way or the other save for this
+ancient road.
+ 
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5315
+D1
+~
+~
+0 0 5317
+S
+#5317
+`#A sink hole ``~
+You have come up on a large depression in the sand.
+The size of it eludes to a deep and very soft sands.  Its
+edges slopped and perilous looking.  Stepping too close
+to the edge may be fatal indeed.
+~
+~
+0 0 0 10
+D2
+~
+~
+0 0 5318
+D3
+~
+~
+0 0 5316
+S
+#5318
+`#A dried river bed ``~
+You are traveling along the length of a dried river bed.
+The river bed runs east and west twisting and turning
+but remaining pretty consistent with a west and east run.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5317
+D1
+~
+~
+0 0 5319
+D3
+~
+~
+0 0 5320
+S
+#5319
+`#A dried river bed ``~
+You are traveling along the length of a dried river bed.
+The river bed runs east and west twisting and turning
+but remaining pretty consistent with a west and east run.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5378
+D3
+~
+~
+0 0 5318
+S
+#5320
+`#A dried river bed ``~
+You are traveling along the length of a dried river bed.
+The river bed runs east and west twisting and turning
+but remaining pretty consistent with a west and east run.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5318
+D3
+~
+~
+0 0 5321
+S
+#5321
+`#A faded river bed ``~
+You are at the end or beginning of a faded dried river bed.
+To the south the lands look forsaken and devoid of life.  An
+overwhelming feeling of dread and loss could easily take over
+the a weaker constitution.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5320
+D2
+~
+~
+0 0 5322
+S
+#5322
+`#A lone tree ``~
+You have come to a lone tree in this barren area of the
+desert.  It looks weathered and ancient.  Twisted and gnarled
+the branches stretch out for droplets of moisture in the air.
+Although old and apparently starving for nutrients this tree is
+rather large reaching a good 70 to 80 feet upwards.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5321
+D3
+~
+~
+0 0 5323
+S
+#5323
+`#Deep in the south desert ``~
+You can see a twist in the beaten path to the east and
+south.  Not much of a road, more of a trail that is kept
+free of the blowing sands via the traffic of travelers.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5322
+D2
+~
+~
+0 0 5324
+S
+#5324
+`#Winding path in the desert ``~
+The path winds around some old large rock formations.
+Softened by the driving winds the rocks are slowly being 
+eroded away leaving behind more sand to fill the desert floor.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5323
+D3
+~
+~
+0 0 5325
+S
+#5325
+`#A twisted path ``~
+The path twists around some boulders and large rocks
+that jut out of the desert floor.  There are some hardy plants
+that have sprung up in the shades of these giant monoliths.
+Most look spare and near dead from the heat and lack of
+water but still they appear to thrive in this desolate place.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5324
+D2
+~
+~
+0 0 5326
+S
+#5326
+`#A turn to the north and west ``~
+There are some larger boulders strewn all around.  It looks
+like one of the larger rock formations so numerous here toppled
+over and nearly coved the road.  Barely passable but with just
+enough room to maneuver past this slight obstacle one can weave
+their way along without too much delay.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5325
+D3
+~
+~
+0 0 5327
+S
+#5327
+`#The black sands ``~
+The sand here changes color from the bright tannish color to
+an ominously black looking grain.  Its consistency appears that of
+a fine dust.  Much finer than the normal sand found throughout here.
+The feel of residual magic and the lack of anything other than a vast
+flat black sandy are are all that remain here.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5326
+D2
+~
+~
+0 0 5328
+S
+#5328
+`#to The Great Wastes of Thule ``~
+The trail through the desert comes to an abrupt halt here.
+A huge rock sits here that has been engraved into with
+haunting words of warning.  The desert sand looks black
+and reflective, as if it had been charred by some powerfully
+force.
+~
+~
+0 0 0 10
+E
+boulder~
+Warned are you of the Great Wastes of Thule.  Enter upon
+risk of life and limb.
+~
+E
+sand~
+The sand appears to have been burned.  Leaving it fine and black as coal dust.
+~
+E
+engraved~
+The Great Wastes of Thule lay to the south of here.  Enter at your
+own peril.
+~
+E
+rock~
+The Great Wastes of Thule lay to the south of here.  Enter at your own peril.
+~
+E
+words~
+The Great Wastes of Thule lay to the south of here.  Enter at your own peril.
+~
+E
+warning~
+The Great Wastes of Thule lay to the south of here.  Enter at your own peril.
+~
+D0
+~
+~
+0 0 5327
+S
+#5329
+`#Along the eastern passage ``~
+You are on a rough traversed road that leads east and west.
+This area is dotted with some desert thriving plants which
+tend to break up the monotony of the dunes and desert rock
+formations.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5330
+D3
+~
+~
+0 0 5305
+S
+#5330
+`#At the base of a dune ``~
+You are at the base of a large dune.  Impassable steep
+sided dunes to either side of this path that leads up and
+over this massive pile of sand.  The trail seems to extend
+into the very clouds.
+~
+~
+0 0 0 10
+D3
+~
+~
+0 0 5329
+D4
+~
+~
+0 0 5331
+S
+#5331
+`#Up the steep slope ``~
+The climb up this dune is wearisome and long but you
+are about the mid point of this shifting mass.  Looking to
+the left and right it is easily understandable how a slight
+misstep has probably led to the death of many a traveler.
+Still the trail seems to go on for a long ways ahead.
+~
+~
+0 0 0 10
+D4
+~
+~
+0 0 5332
+D5
+~
+~
+0 0 5330
+S
+#5332
+`#Top of the dune ``~
+You are at the very top of one of the largest dunes in
+the area which gives a birds eye view for many miles around.
+To the north the path leads down and to the east the path leads
+along the ridge of this sandy dune.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5333
+D1
+~
+~
+0 0 5359
+D5
+~
+~
+0 0 5331
+S
+#5333
+`#The side of a dune ``~
+You are climbing up a very large dune.  One of the largest in
+the vicinity.  Blocked by other dunes around the view is that of
+sand, sand and more sand.
+~
+~
+0 0 0 10
+D2
+~
+~
+0 0 5332
+D5
+~
+~
+0 0 5334
+S
+#5334
+`#The base of a massive dune ``~
+You are standing at the north base of an extremely big dune.
+The path has leads through many more smaller dunes that are
+only marginally smaller in size.  This makes looking around
+the area a little difficult as all that can really be seen is
+the path that winds through these massive desert mountains
+of sand.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5335
+D4
+~
+~
+0 0 5333
+S
+#5335
+`#Winding through the dunes ``~
+The road you are on winds through some small dunes here.
+The only signs of life are the occasional desert bird that flies
+overhead and a lizard or two that scurry under some rocks for cover.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5336
+D2
+~
+~
+0 0 5334
+S
+#5336
+`#Continuing up ``~
+The path here is near level but to the west and south it does wind
+downwards and upwards depending on your direction of travel.  From
+this vantage point you can see off in the distance, through the dunes,
+to the north east there is a huge lake some many miles away.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5337
+D3
+~
+~
+0 0 5335
+S
+#5337
+`#On a ridge of the dune ``~
+You are at a point where the road runs along the ridge of
+a very large dune.  Down below you can see the smaller dunes
+and sandy desert floor.  To the south the dune levels some and
+then continues on up even higher.
+~
+~
+0 0 0 10
+D2
+~
+~
+0 0 5336
+D5
+~
+~
+0 0 5338
+S
+#5338
+`#East base of a large dune ``~
+You are at the eastern base of a large dune.  The path runs up its
+steep slope and along its lengthy ridge.  To the east the path cuts
+through a less sandy area of the desert and interesting rock formations.
+ 
+More desert shrubs and brush is noticiable here.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5339
+D4
+~
+~
+0 0 5337
+S
+#5339
+`#The lost desert ``~
+You are in a desert.  While on a semi-well traveled path
+discerning anything is most difficult as it all pretty much
+looks the same.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5340
+D3
+~
+~
+0 0 5338
+S
+#5340
+`#The lost desert ``~
+You are in a desert.  While on a semi-well traveled path
+discerning anything is most difficult as it all pretty much
+looks the same.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5341
+D3
+~
+~
+0 0 5339
+S
+#5341
+`#The lost desert ``~
+You are in a desert.  While on a semi-well traveled path
+discerning anything is most difficult as it all pretty much
+looks the same.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5342
+D2
+~
+~
+0 0 5340
+S
+#5342
+`#The lost desert ``~
+You are in a desert.  While on a semi-well traveled path
+discerning anything is most difficult as it all pretty much
+looks the same.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5343
+D3
+~
+~
+0 0 5341
+S
+#5343
+`#The lost desert ``~
+You are in a desert.  While on a semi-well traveled path
+discerning anything is most difficult as it all pretty much
+looks the same.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5344
+D3
+~
+~
+0 0 5342
+S
+#5344
+`#The lost desert ``~
+You are in a desert.  While on a semi-well traveled path
+discerning anything is most difficult as it all pretty much
+looks the same.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5345
+D3
+~
+~
+0 0 5343
+S
+#5345
+`#At the outer rim of a vast desert ``~
+You are in a desert.  While on a semi-well traveled path
+discerning anything is most difficult as it all pretty much
+looks the same.
+~
+~
+0 0 0 10
+D2
+~
+~
+0 0 5346
+D3
+~
+~
+0 0 5344
+S
+#5346
+`#A north and south rocky road ``~
+You have come upon a north and south road that skirts
+the very edges of a massive desert.  Off in the distance
+you can see vultures circling above as if they are mocking
+those that would attempt passage.  A final reminder that
+death may very well find you here even if no one else can.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5345
+D1
+~
+~
+0 0 5347
+D2
+~
+~
+0 0 5349
+S
+#5347
+`#A well traveled road ``~
+You are on a well traveled road that leads west. Up
+ahead to the west you can see the road appears to
+veer to the south and north.  To the east, moisture is
+carried along a zephyr.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5348
+D3
+~
+~
+0 0 5346
+S
+#5348
+`3A rocky road ``~
+You are on a path that rounds through some low-lying
+hills.  Off to the west, the road levels out and appears
+to lead into a sparsely covered area with few trees and
+plenty of rocks.
+~
+~
+0 0 16384 4
+D3
+~
+~
+0 0 5347
+S
+#5349
+`#Along the outer rim ``~
+You are on a road that takes you along the outer
+rim of the desert that is to the west.  The desert
+looks uninhabitable as well as unwelcoming to all
+but the most determined traveler.  Crossing this
+wasteland may very well be the last thing one does.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5346
+D2
+~
+~
+0 0 5350
+S
+#5350
+`#A rocky plato plateau ``~
+You are at the edge of a rocky plateau that leads westward
+into a huge desert region.  To the north the path seems to
+curve around the outer rim of this heat soaked land.  To the
+west, a dry expanse of sand and rocks that looks very uninviting.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5349
+D3
+~
+~
+0 0 5351
+S
+#5351
+`#The lost desert ``~
+You are in a desert.  While on a semi-well traveled path
+discerning anything is most difficult as it all pretty much
+looks the same.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5350
+D3
+~
+~
+0 0 5352
+S
+#5352
+`#The lost desert ``~
+You are in a desert.  While on a semi-well traveled path
+discerning anything is most difficult as it all pretty much
+looks the same.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5351
+D2
+~
+~
+0 0 5353
+S
+#5353
+`#The lost desert ``~
+You are in a desert.  While on a semi-well traveled path
+discerning anything is most difficult as it all pretty much
+looks the same.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5352
+D3
+~
+~
+0 0 5354
+S
+#5354
+`#The lost desert ``~
+You are in a desert.  While on a semi-well traveled path
+discerning anything is most difficult as it all pretty much
+looks the same.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5353
+D3
+~
+~
+0 0 5355
+S
+#5355
+`#The lost desert ``~
+You are in a desert.  While on a semi-well traveled path
+discerning anything is most difficult as it all pretty much
+looks the same.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5354
+D2
+~
+~
+0 0 5356
+S
+#5356
+`#The lost desert ``~
+You are in a desert.  While on a semi-well traveled path
+discerning anything is most difficult as it all pretty much
+looks the same.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5355
+D2
+~
+~
+0 0 5357
+S
+#5357
+`#A sharp turn along the road ``~
+You are standing in a sharp turn of the road that leads
+to the west and to the north.  The sandy desert floor is
+littered with varying sized rocks and boulders along side
+its edges.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5356
+D3
+~
+~
+0 0 5358
+S
+#5358
+`#A turn in the desert ``~
+You are at a crossways in the road through the desert.
+To the west a series of dunes impedes the path and the only
+way through is up and over them.  To the south the path travels
+along the base of the steep-sided dunes and to the east the path
+takes a sharp turn to the north.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5357
+D2
+~
+~
+0 0 5360
+D4
+~
+~
+0 0 5359
+S
+#5359
+`#The side of a dune ``~
+You are on the side of a large dune.  Its steep slope
+shows signs of massive sand shifts from large sections of 
+sand that slide down its side from time to time.  The path
+here seems to be fairly firm and well traveled.
+~
+~
+0 0 0 10
+D3
+~
+~
+0 0 5332
+D5
+~
+~
+0 0 5358
+S
+#5360
+`#Wandering the lost desert ``~
+You are somewhere in an expansive desert.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5358
+D2
+~
+~
+0 0 5361
+S
+#5361
+`#Wandering the desert. ``~
+You are somewhere in an expansive desert.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5360
+D2
+~
+~
+0 0 5362
+S
+#5362
+`#Wandering the desert. ``~
+You are somewhere in an expansive desert.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5361
+D1
+~
+~
+0 0 5363
+S
+#5363
+`#Wandering the desert. ``~
+You are somewhere in an expansive desert.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5364
+D3
+~
+~
+0 0 5362
+S
+#5364
+`#Wandering the desert. ``~
+You are somewhere in an expansive desert.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5365
+D3
+~
+~
+0 0 5363
+S
+#5365
+`#Wandering the desert. ``~
+You are somewhere in an expansive desert.
+~
+~
+0 0 0 10
+D2
+~
+~
+0 0 5366
+D3
+~
+~
+0 0 5364
+S
+#5366
+`#Wandering the desert. ``~
+You are somewhere in an expansive desert.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5365
+D2
+~
+~
+0 0 5367
+S
+#5367
+`#Wandering the desert. ``~
+You are somewhere in an expansive desert.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5366
+D3
+~
+~
+0 0 5368
+S
+#5368
+`#Wandering the desert. ``~
+You are somewhere in an expansive desert.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5367
+D2
+~
+~
+0 0 5369
+S
+#5369
+`#Wandering the desert. ``~
+You are somewhere in an expansive desert.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5368
+D2
+~
+~
+0 0 5370
+S
+#5370
+`#Wandering the desert. ``~
+You are somewhere in an expansive desert.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5369
+D1
+~
+~
+0 0 5387
+D3
+~
+~
+0 0 5371
+S
+#5371
+`#Wandering the desert. ``~
+You are somewhere in an expansive desert.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5370
+D2
+~
+~
+0 0 5372
+D3
+~
+~
+0 0 5394
+S
+#5372
+`#Wandering the desert. ``~
+You are somewhere in an expansive desert.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5371
+D2
+~
+~
+0 0 5373
+S
+#5373
+`#Wandering the desert. ``~
+You are somewhere in an expansive desert.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5372
+D2
+~
+~
+0 0 5374
+S
+#5374
+`#Wandering the desert. ``~
+You are somewhere in an expansive desert.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5373
+D3
+~
+~
+0 0 5375
+S
+#5375
+`#A bend in the desert ``~
+You are in between some high rising dunes where the path
+bends a little to the east and south.  Lizard and snake trails
+have been left behind in the soft sand of these dunes.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5374
+D2
+~
+~
+0 0 5376
+S
+#5376
+`#A dried river bed ``~
+There is a narrow slit in one of the embedded rocks that sticks
+out of the desert sands here.  It would appear that a small stream
+once coursed through the slit and formed a small river.  All that is
+left behind now is a hardened and crackled river bed.  The bed
+cris-crosses a small north south path.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5375
+D2
+~
+~
+0 0 5379
+D3
+~
+~
+0 0 5377
+S
+#5377
+`#A dried river bed ``~
+You are traveling along the length of a dried river bed.
+The river bed runs east and west twisting and turning
+but remaining pretty consistent with a west and east run.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5376
+D3
+~
+~
+0 0 5378
+S
+#5378
+`#A dried river bed ``~
+You are traveling along the length of a dried river bed.
+The river bed runs east and west twisting and turning
+but remaining pretty consistent with a west and east run.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5377
+D3
+~
+~
+0 0 5319
+S
+#5379
+`#Some bleached dried bones ``~
+There are some bleached dried bones poking out of the
+sand here.  Cracked and pitted from the wind blown sand they
+resemble the bones of some large desert animal that meet an ill
+fate.
+~
+~
+0 0 0 10
+E
+bones~
+Upon closer inspection of the bones they appear to be of
+a camel that passed on some years ago.  The dry air has
+preserved the bones fairly well.
+~
+D0
+~
+~
+0 0 5376
+D1
+~
+~
+0 0 5380
+S
+#5380
+`#A bone arch ``~
+The path here leads under an oddity.  Someone has taken the
+time to arrange bones of various animals into an arch that spans
+over the road.  Mangled and twisted the columns of bones looks like
+they have been here for a very long time.  Something catches your eye as
+you pass through this place.  The bones, something about the bones.
+~
+~
+0 0 0 10
+E
+bones~
+A closer look reveals that some of the bones still have bits and
+pieces of fresh carcass revealing that they have been recently placed
+here.  Perhaps a monument of some desert tribesmen or a sick reminder
+that being here is dangerous to ones health.  Perhaps a warning to stay out.
+~
+D1
+~
+~
+0 0 5381
+D3
+~
+~
+0 0 5379
+S
+#5381
+`#A sandy mire ``~
+Here the boulders that have been beaten down by the
+hard blowing wind mixed in with sand as far as the eyes
+can se give this a less than sought after place to be except
+for the most hardy of souls who wish to disappear from the
+prying eyes of the world.
+~
+~
+0 0 0 10
+D2
+~
+~
+0 0 5382
+D3
+~
+~
+0 0 5380
+S
+#5382
+`#A slight depression ``~
+The path has taken you into a slight depression here.
+Not much of note except the seeming randomness of the
+road that continues on to the north and south.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5381
+D2
+~
+~
+0 0 5383
+S
+#5383
+`#On a desert road ``~
+You are on a long and dusty road that travels through
+a desert.  The road stretches for miles to the south and north
+with impassable areas to the east and west due to shifting sand
+dunes and ancient rocks.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5382
+D2
+~
+~
+0 0 5384
+S
+#5384
+`#A road north ``~
+You are on a road that leads northwards.  The heat of the desert
+is almost too much to bear as the sun beats down upon your flesh.
+The road also swings east and appears to turn drastically to the south
+just a little ways beyond that.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5383
+D1
+~
+~
+0 0 5385
+S
+#5385
+`#In the lost desert ``~
+You are at the outer rim of a desert.  The road travels
+directly west here into what people call "The Lost Desert."
+It does not take much imagination to figure out why this place
+has been so aptly named.
+~
+~
+0 0 0 10
+D2
+~
+~
+0 0 5386
+D3
+~
+~
+0 0 5384
+S
+#5386
+`#Entrance into The Lost Desert ``~
+You are at the very southern edge of the desert.
+To the north sand, lots and lots of sand.  To the
+south Malunda swamp as the eroded rock that has
+been chiseled and left for the adventuring traveler reads.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5385
+S
+#5387
+`#A western road through the desert ``~
+You are somewhere in an expansive desert.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5388
+D3
+~
+~
+0 0 5370
+S
+#5388
+`#An upwards and rocky trail ``~
+The trail through the desert is becoming more rocky and trending upwards.
+Still miles and miles of sand but it is broken up by the larger boulders
+that seem to dot the area around here.  Off to the east, large looming
+mountains can be seen.  
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5389
+D3
+~
+~
+0 0 5387
+S
+#5389
+`#Tumble weeds ``~
+You are traveling along what looks to be an very old and ancient creek
+bed.  There are remnants of bushes in the form of tumble weeds that roll by
+and that are stuck in the sandy crags of the larger boulders.  To the east,
+mountains.  
+~
+~
+0 0 0 10
+D2
+~
+~
+0 0 5390
+D3
+~
+~
+0 0 5388
+S
+#5390
+`#The outer edge of the desert ``~
+You are at the outer edge of the eastern desert.  Here the mountains
+start to invade the sand and bleakness of the desert.  The climb looks
+perilous and dauntingly precarious footing.  To the south the desert
+stretches out like a foreboding hand of death.  
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5389
+D4
+~
+~
+0 0 5391
+S
+#5391
+`#A low plateau ``~
+You have reached a plateau.  A divide between the low lying desert floor
+and the mountains to the east.  Craggy rocks, little vegetation and the
+occasional desert creature are about all that is notable here.
+~
+~
+0 0 0 10
+D2
+~
+~
+0 0 5392
+D5
+~
+~
+0 0 5390
+S
+#5392
+`#A plateau ``~
+You have reached a plateau.  A divide between the low lying desert floor
+and the mountains to the east.  Craggy rocks, little vegetation and the
+occasional desert creature are about all that is notable here.  
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5391
+D4
+~
+~
+0 0 5393
+S
+#5393
+`#Road to the Fangteeth Mountains `` ``~
+You are at the threshold of the Fangteeth Mountains.  Its high steep
+peaks reach beyond the clouds seemingly to the gods themselves.  
+~
+~
+0 0 32768 5
+D5
+~
+~
+0 0 5392
+S
+#5394
+`#A little greener ``~
+The sand has given way to some greener vegetation
+here.  Hints of life other than lizards and snakes as well
+as the ever present feeling of emptiness of desert existence
+can be seen here.
+~
+~
+0 0 0 10
+D0
+~
+~
+0 0 5395
+D1
+~
+~
+0 0 5371
+S
+#5395
+`#Thicker vegetation and trees ``~
+It appears that just up ahead that in the middle of this
+dry desert an oasis has sprung up into existence.  Tall
+palms and date trees feed off of the desert spring.  A
+refreshing sight for lost and thirsty desert life.
+~
+~
+0 0 0 10
+D2
+~
+~
+0 0 5394
+D3
+~
+~
+0 0 5396
+S
+#5396
+`#A beautiful oasis ``~
+There are signs of all manner of desert life that come to
+this place to gain sustenance provided by this life saving oasis
+for many desert animals and thriving food bearing trees and
+foliage.  The small spring feed water hole looks shallow,
+refreshing and clear.  The sandy bottom can be well visualized.
+~
+~
+0 0 0 10
+D1
+~
+~
+0 0 5395
+D3
+~
+~
+0 0 5397
+S
+#5397
+`6The Oasis ``~
+You are in waist deep water to an average human.  Most of the oasis water
+is about this deep with a few pockets of water that are deeper and some more
+shallow.  There are all kinds of small fish and aquatic plant growth in this
+small area of desert liquid gold.  
+~
+~
+0 0 0 6
+D1
+~
+~
+0 0 5396
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 5304 spec_poison
+M 5320 spec_breath_acid
+M 5325 spec_cast_cleric
+M 5326 spec_cast_mage
+M 5332 spec_poison
+M 5369 spec_breath_fire
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 5301 3 5301 3
+E 0 5301 0 3
+E 0 5302 0 11
+E 0 5300 0 16
+M 0 5303 1 5303 1
+E 0 5303 0 16
+E 0 5304 0 10
+E 0 5305 0 5
+E 0 5306 0 8
+M 0 5304 2 5304 2
+M 0 5305 2 5306 2
+M 0 5307 3 5308 3
+M 0 5301 5 5313 5
+E 0 5313 0 16
+M 0 5300 1 5314 1
+M 0 5300 1 5314 1
+M 0 5315 1 5315 1
+E 0 5315 0 16
+M 0 5306 3 5317 3
+O 0 5319 0 5319
+M 0 5320 2 5320 2
+M 0 5320 1 5321 2
+M 0 5320 2 5321 1
+M 0 5325 1 5325 1
+M 0 5326 1 5326 1
+M 0 5301 3 5327 5
+E 0 5327 0 16
+E 0 5326 0 1
+M 0 5330 7 5330 2
+M 0 5332 5 5332 2
+M 0 5334 1 5334 1
+M 0 5307 2 5335 1
+M 0 5306 3 5337 3
+M 0 5305 6 5339 6
+M 0 5304 2 5342 2
+M 0 5344 5 5344 5
+M 0 5320 3 5349 1
+M 0 5304 2 5353 2
+M 0 5330 2 5355 1
+M 0 5358 1 5358 1
+M 0 5305 2 5361 2
+M 0 5332 2 5364 2
+M 0 5301 1 5367 1
+E 0 5301 0 3
+E 0 5302 0 11
+E 0 5304 0 10
+E 0 5306 0 8
+E 0 5327 0 16
+M 0 5315 1 5367 1
+E 0 5315 0 16
+E 0 5305 0 5
+E 0 5301 0 3
+E 0 5326 0 1
+M 0 5369 3 5369 1
+M 0 5371 3 5371 1
+M 0 5371 2 5374 1
+M 0 5369 3 5379 1
+M 0 5344 5 5382 2
+M 0 5384 1 5384 1
+E 0 5384 0 16
+M 0 5371 2 5388 1
+M 0 5305 3 5390 1
+O 0 5394 0 5395
+P 0 5393 6 5394 4
+O 0 5396 0 5396
+P 0 5395 0 5396 1
+P 0 5395 0 5396 1
+O 0 5394 0 5396
+P 0 5393 0 5394 1
+P 0 5393 0 5394 1
+O 0 5392 0 5396
+M 0 5397 1 5397 1
+E 0 5397 0 16
+E 0 5391 0 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+M 5300 1 dustdigger.prg NL
+M 5303 1 dervishwar.prg NL
+M 5304 1 sidewinder.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

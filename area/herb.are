@@ -1,0 +1,55 @@
+#AREADATA
+Name ~
+Builders None~
+VNUMs 30000 31000
+Credits ~
+Security 9
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#MOBPROGS
+S
+
+
+
+
+#OBJECTS
+#30000
+abscess root~
+abscess root~
+A slender rootstock with nodding blue flowers creeps along the ground.~
+plant~
+herb 0 0
+5 'reserved' 'cure poison' 'cure poison' 'reserved'
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

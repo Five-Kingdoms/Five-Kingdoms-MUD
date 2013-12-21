@@ -5945,7 +5945,7 @@ void do_rename (CHAR_DATA *ch, char *argument)
     char arg1[MIL], arg2[MIL], buf[MSL], filename[MIL];
     FILE *fp;
     CHAR_DATA *vict;
-    int garbage, extract_them = 1, success = 1;
+    int garbage = 0, extract_them = 1, success = 1;
     argument = one_argument (argument, arg1);
     argument = one_argument (argument, arg2);
     if (!arg1[0] || !arg2[0])

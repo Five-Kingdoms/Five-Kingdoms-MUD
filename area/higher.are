@@ -1,0 +1,6429 @@
+#AREADATA
+Name Higher planes of existance~
+Pref ~
+Builders Immortals~
+VNUMs 30000 30400
+Max_Bastions 0
+Credits { Imm } Imms     Higher Planes ~
+Security 9
+Startroom 0
+Flags 160
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#30000
+Morgorin's Shadow~
+Morgorin's shadow~
+A residue of Morgorin's presence has been left here.
+~
+~
+unique~
+ABOSZ A DFJ K -750 0
+60 100 10000d1+1 0d0+100 3d5+10 pierce
+0 0 0 0
+BFHK DLQ CI NS
+stand stand none none~
+30
+AHMV ABCDEFGHIJK huge 0
+P SPEECH 30022 *~
+P EXIT 30000 east~
+P RANDOM 30021 100~
+P FIGHT 30023 100~
+P DEATH 30026 100~
+P SPEECH 30040 ulsym~
+P SPEECH 30041 revelsport~
+#30001
+plant~
+a plant~
+A plant is here.
+~
+~
+plant~
+ABVZe A 0 0 0 0
+1 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 H
+stand stand none none~
+6
+D Z medium 0
+#30002
+shade shadow undead~
+a Shade~
+Its empty sockets hungry, a Shade lurks in darkness.
+~
+~
+undead~
+AOTZcd ACGH DFJO EK -1000 15500
+50 15 10d10+600 70d5+3 5d2+25 drain
+-5 -5 -5 0
+0 ABLQ CDI N
+stand stand none none~
+25
+0 ABCDEFGHIJK medium 0
+P SPECIAL 30009 100~
+P FIGHT 30005 100~
+P DEATH 30004 100~
+P RANDOM 30003 100~
+P KILL 30006 100~
+#30003
+wraith !30003!~
+a wraith~
+A pair of bleak white eyes glaring a Wraith lurks here.
+~
+~
+undead~
+AOTZcd ACGHI DFJO EK -1000 15500
+50 15 10d20+2000 70d5+3 5d5+25 drain
+-5 -5 -5 0
+0 ABLQ CDI N
+stand stand none none~
+20
+0 ABCDEFGHIJK medium 0
+P RANDOM 30007 20~
+P FIGHT 30005 100~
+P DEATH 30004 100~
+P DELAY 30008 100~
+P SPECIAL 30009 100~
+P KILL 30032 100~
+#30004
+shade shadow undead~
+a Shade~
+Its empty sockets hungry, a Shade lurks in darkness.
+~
+~
+undead~
+AOTZcd ACGHI DFJO EK -1000 15500
+50 15 10d10+600 100d5+3 5d3+25 drain
+-5 -5 -5 0
+0 ABLQ CDI N
+stand stand none none~
+26
+0 ABCDEFGHIJK medium 0
+P KILL 30006 100~
+P RANDOM 30003 100~
+P DEATH 30004 100~
+P FIGHT 30005 100~
+P SPECIAL 30009 100~
+#30005
+Amedus Divinity ghost~
+the Apparition~
+You see a shadowy apparition that is there, and not really there.
+~
+The only thing you can clearly make out from the ghostly figure is
+its face, and even that flickers amongst the hundreds of faces you
+have known in your life before it settles to one that you are _sure_
+is unknown to you.
+ 
+The face is pale, yet its eyes still sparkle with spirit of a man
+whom once wielded power and knowledge beyond the grasp
+of most mortals.  The green pupils which once gazed upon 
+infinite secrets of Arcane and Spiritual now brim  with sadness 
+and sorrow such as to fill you with dark clouds of despair and 
+apathy.
+~
+human~
+A A DFJ K 1000 0
+60 0 100d100+1000 0d0+0 1d1+1 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+24
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 30010 100~
+#30006
+Amedus Divinity ghost~
+Amedus~
+You see a shadowy apparition that is there, and not really there.
+~
+The only thing you can clearly make out from the ghostly figure is
+its face, and even that flickers amongst the hundreds of faces you
+have known in your life before it settles to one that you are _sure_
+is unknown to you.
+ 
+The face is pale, yet its eyes still sparkle with spirit of a man
+whom once wielded power and knowledge beyond the grasp
+of most mortals.  The green pupils which once gazed upon 
+infinite secrets of Arcane and Spiritual now brim  with sadness 
+and sorrow such as to fill you with dark clouds of despair and 
+apathy.
+~
+human~
+A A DFHJNU BCEK 1000 0
+60 0 1d1+30000 0d0+0 1d5+60 magic
+0 0 0 0
+0 0 0 0
+stand stand none none~
+26
+AHMV ABCDEFGHIJK medium 0
+P EXIT 30000 east~
+P RANDOM 30025 100~
+P FIGHT 30024 100~
+#30007
+rasep dh'artep 30007~
+Rasep Dh'artep~
+Rasep Dh'artep is here, choosing its next victim.
+~
+A horror bare of any flesh, and composed of bone and sinew stands before
+you.  Measuring well over 5 meters tall it towers above the area on its
+thick pair of skeletal legs, as its 4 arms swing about ready to bring swift
+end to any living being within its reach.  
+ 
+Its skull head is affixed on a torso of bones bristling with spikes as if barbed
+wire of bone was wrapped about it.  A pair of dead black eyes seem to gaze around
+looking for next victim. While the 4 arms extending from within the skeletal torso
+weave about.  The upper pair is affixed with bony scythes, while the lower pair's 
+fingers bristle with razor like claws, both look equally deadly and dangerous.
+ 
+It moves with deadly grace and unbelievable speed, as seems to search endlessly for a 
+next living thing to consume.  Surprisingly you notice a black cube set writhing its 
+forehead, and even from this distance you can read the glowing mark of ownership 
+upon its surface: "CALANDRA".
+~
+undead~
+AOZd AI DJO 0 -750 15500
+60 35 1d1+8000 70d5+3 6d5+55 slash
+-25 -25 -25 -10
+EFKX 0 CD 0
+stand stand none none~
+30
+0 ABCDEFGHIJK huge 0
+F imm LQ
+F res I
+F vul N
+P RANDOM 30038 50~
+P SPECIAL 30031 100~
+P DEATH 30033 100~
+P KILL 30032 100~
+P FIGHT 30034 100~
+P FIGHT 30035 100~
+#30008
+Morgorin's Shadow~
+Morgorin's shadow~
+A residue of Morgorin's presence has been left here.
+~
+~
+unique~
+ABOSZ A DFJ K -750 0
+60 100 10000d1+1 0d0+100 3d5+10 pierce
+0 0 0 0
+BFHK DLQ CI NS
+stand stand none none~
+25
+AHMV ABCDEFGHIJK huge 0
+P SPEECH 30039 quiet shadow~
+P EXIT 30000 east~
+#30030
+gnome alchemist~
+a Mar'Kyer Alchemist~
+A Mar'Kyer Alchemist is here, selling trips through his portals.
+~
+This short, fat, stubby little gnome is a member of the elite Mar'Kyer
+Guild of Alchemy. They first discovered the methods of portal travel
+years ago, and keep their secret closely guarded from others outside
+of their own guild. They seem to run quite a racket here, with shops set
+in nearly every city around Mirlan.
+~
+gnome~
+ABe A DFHJ 0 0 0
+60 45 4d6+5000 0d0+0 4d6+65 magic
+-21 -21 -19 -28
+0 AB 0 BP
+stand stand either none~
+28
+AHMV ABCDEFGHIJK tiny 0
+#30040
+stag great~
+stag of Raght~
+The Stag of Raght
+~
+~
+human~
+Ae A DFV 0 0 0
+60 1 1d1+400 0d0+100 5d8+0 charge
+-2 -2 -2 -2
+DEFHIJL ABCDEFGHIJKLMNOPQRSTX 0 0
+stand stand male none~
+23
+AHMV ABCDEFGHIJK huge 0
+#30041
+great serpent~
+serpent of Raght~
+The Serpent of Raght
+~
+~
+human~
+Ae A DFV 0 0 0
+60 1 1d1+400 0d0+100 5d8+300 bite
+-2 -2 -2 -2
+DFHLNU ABCDEFGHIJKLMNOPQRSTX 0 0
+stand stand none none~
+24
+AHMV ABCDEFGHIJK huge 0
+#30053
+chaos demon~
+a winged Chaos Demon~
+A winged Chaos Demon hovers here, guarding.
+~
+Before you stands terror itself. These things seem to be everywhere
+in this tower! The creature is huge! Covered in black and red scales,
+it has a pointy snout with razor sharp teeth. A long red, barbed tail
+runs from its back, and heavy membranous wings keep it aloft as it
+snarls at you...then attacks!
+~
+demon~
+ABOZ A DFJNTVa 0 -750 0
+45 45 10d28+6415 0d0+100 8d8+30 corruption
+-2 -1 -2 0
+EFHKMNR ABP C AN
+stand stand none none~
+18
+AHMV ABCDEFGHIJK huge 0
+#30054
+The Gatekeeper of the Winds~
+the Gatekeeper~
+The Gatekeeper of the Winds stands here, silently.
+~
+A large spectre of a being looms before you. Blackened
+cloaks flutter about him in the surreal breeze. You
+can not seem to make out his face, but from his looks,
+you would guess he is demonic in nature. He seems to be
+whispering silently.
+~
+demon~
+ABT AD DFJNT 0 -750 0
+60 25 10d40+4500 0d0+100 8d6+30 corruption
+-2 -1 -2 -1
+EFHKNX AC 0 AN
+stand stand male none~
+27
+AHMV ABCDEFGHIJK huge 0
+#30095
+doe~
+a doe~
+A large doe is here in the glade, grazing.
+~
+A large female doe stands here, looking at you calmly. She
+seems fearless here in the glade, and chews her cud idly as
+you observe her.
+~
+deer~
+ACd A DFJ 0 0 0
+35 35 4d6+3500 0d0+100 4d6+35 charge
+-8 -8 -8 -8
+FKN AB 0 0
+stand stand female none~
+14
+AGV ACDEFJKQ medium 0
+#30096
+rabbit jackrabbit~
+a cute jackrabbit~
+A fuzzy jackrabbit hops around here.
+~
+A brown, furry jackrabbit twitches its nose at you, and hops
+around here in the glade. Covered in thick fur, the rabbit seems
+totally at peace here in the glade, and has grown much larger
+than most of the rabbits you see around the lands.
+~
+rabbit~
+ACd A DFJ 0 0 0
+40 35 4d6+3500 0d0+100 4d6+35 bite
+-9 -9 -9 -9
+FH AB 0 0
+stand stand either none~
+22
+AGV ACDEFHJK tiny 0
+#30097
+deer stag~
+a male stag~
+A male stag grazes in the glade here.
+~
+You see before you a stunning stag deer. Long antlers covered in
+spring velvet shine with wicked tips. His hide is smooth and brown,
+and the stag is nearly fearless of you. He seems to find protection
+and comfort in this glade.
+~
+deer~
+ACd A DFJ 0 0 0
+50 30 4d6+4500 0d0+100 4d6+50 charge
+-10 -10 -10 -10
+FHKNO AB 0 0
+stand stand male none~
+25
+AGV ACDEFJKQ medium 0
+#30099
+medium psychic~
+a psychic medium of Crypticant~
+A psychic medium of the God of Chaos is meditating here.
+~
+Before you hovers a human man shrouded in an aura of Darkness.
+He is Laidar Krynn, and is named Verudant, the High Lord of
+Chaos, and servant only to Crypticant. He is used as a means
+of communication between the realms of reality and the Chaos
+Nexus, where Crypticant resides. His skin is covered in thick
+runes, and his eyes remain closed as he speaks.
+~
+human~
+A A DFHJTUV 0 -750 0
+60 100 4d6+6500 0d0+100 8d10+65 none
+-5 -5 -5 -5
+FK ABKLMNPQZ 0 0
+stand stand male none~
+27
+AHMV ABCDEFGHIJK medium 0
+#30100
+K'ira Savruul~
+The Guardian of Chaos~
+K'ira Savruul, the Guardian of `8Chaos`` stands here at guard.
+~
+Before you stands one of the loveliest creatures you have ever seen.
+Long silky black hair falls in oceanic tresses to her slender waist.
+Her face is painted milky white, with black, pouty lips. Long black
+lashes hide dark, and evil eyes. Her body is slim, and well proport-
+ioned. She covers herself in long black dresses that are both reveal-
+ing and concealing at the same time. Runes are etched into her slim
+fingers that end with black painted fingernails. This woman is the gem
+of Chaos, and the eternal servant of Shadowspawn, Lord of Chaos.
+~
+demon~
+ABOR A DFHJTV 0 -1000 0
+30 45 10d26+1000 0d0+100 1d15+30 torrent
+0 0 0 0
+CEFHIKRWX ABH CIKMN AS
+stand stand female none~
+12
+AHMV ABCDEFGHIJK medium 0
+#30101
+Barak dwarf blacksmith~
+Barak~
+Barak, the famous dwarven blacksmith stands here over his anvil.
+~
+Known for his amazing ability and unmatched skill in the realm of
+forging, Barak is heralded as one of the greatest smiths in the history of
+Aabahran.  It is said that a weapon forged by Barak cannot be destroyed by any
+mortal means.  
+~
+dwarf~
+ABT A DFJV 0 0 0
+60 30 1d1+9999 0d0+100 10d5+10 smash
+-15 -15 -15 -15
+CDEJKX B CDL ER
+stand stand male none~
+27
+AHMV ABCDEFGHIJK medium 0
+#30102
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+A A 0 0 0 0
+0 0 0d0+0 0d0+100 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+3
+AHMV ABCDEFGHIJK medium 0
+#30105
+mechanical sphere steel~
+a mechanical steel sphere~
+A mechanical steel sphere hovers over a cube here.
+~
+Before you, hovering above a strange, runed cube, is a perfect
+steel sphere. Encased in shiny, polished steel, the cube seems
+to rotate slowly. No sign of any opening or marking mars the shiny
+surface of the sphere, but you can feel immense power radiating
+from it.
+~
+unique~
+ABe AC DFJ 0 0 0
+60 2 4d6+1000 0d0+0 2d4+5 none
+0 0 0 0
+0 AB 0 0
+stand stand none none~
+25
+0 0 medium 0
+P GIVE 30108 6527~
+P GIVE 30107 1126~
+P GIVE 30106 5032~
+P GIVE 30105 1311~
+P RANDOM 30104 100~
+P SPEECH 30103 efuzan~
+P SPEECH 30103 efuzan~
+P SPEECH 30103 efuzan~
+#30150
+Danudar~
+Danudar~
+Danudar the Keeper of the Ancient Scroll is here, bathed in light.
+~
+Clad in the garb of one of the highest priests in the land, Danudar
+is the idol of Light, his body immersed in shimmering auras, and his
+hands and face tattooed with ancient glyphs and symbols.
+~
+human~
+ABT A DFHNT 0 750 0
+40 0 1d1+1500 0d0+100 5d5+10 slash
+0 0 0 0
+0 ABNQ 0 0
+stand stand male none~
+14
+AHMV ABCDEFGHIJK medium 0
+#30152
+Korduun~
+Korduun~
+Korduun the High Priest of the Seventh Circle is here, waiting for you.
+~
+The High Priest of the Seventh Circle stands here, covered in arcane
+robes of High Wizardry. He is radiant in shimmering auras of power and
+blessings, and seems to be awaiting to perform some sacred ritual.
+~
+human~
+ABT A DFHNT 0 750 0
+40 0 1d1+1500 0d0+100 5d5+10 slash
+0 0 0 0
+0 ABNQ 0 0
+stand stand male none~
+15
+AHMV ABCDEFGHIJK medium 0
+P GRALL 30152 100~
+#30154
+Sec~
+Sec~
+Sec, a small infant child, is here.
+~
+This little guy has seen some ordeal. Covered in soot and strange glyphs,
+this baby boy seems to still be smiling and babbling happily.
+~
+human~
+ACEG A J 0 0 0
+3 0 2d6+35 0d0+100 1d6+0 punch
+7 7 7 10
+EFNU 0 0 E
+stand stand male none~
+4
+AHMV ABCDEFGHIJK small 0
+P RANDOM 30153 100~
+#30155
+Kaylian~
+Kaylian~
+Kaylian, in a ghostly form, is here holding Sec in her arms.
+~
+A beauty of a spectre, Kaylian stands, like a ghost from the grave,
+cloaked in shimmering white gowns that seem to billow and sway around
+her ethereal form. Encased in an aura of brilliant white light, her
+hair moves on the wind as if pushed by some unseen force. Radiant even
+in death, Kaylian seems happy as she observes the small gathering before
+her, and pauses to speak from beyond the grave.
+~
+avian~
+ABGRZce AI DFHJT 0 0 0
+50 24 4d6+8000 0d0+0 4d6+100 pain
+-25 -25 -25 -10
+0 ABCD 0 Qb
+stand stand female none~
+22
+AHMVW ABCDEFGHIJKP medium 0
+P GRALL 30155 100~
+P RANDOM 30156 100~
+#30200
+greasy thief man~
+A greasy stranger~
+A man with greasy hair stands here.
+~
+This man stands before you wearing tight, black clothes.
+His thick hair is slicked back with a large amount of grease and his smile looks very fake.
+-
+ 
+~
+human~
+A A 0 0 -800 0
+50 60 1d1+10000 0d0+100 20d3+1 none
+-40 -40 -40 -40
+FHKX 0 0 0
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+#30201
+vortex~
+the center of the Vortex~
+(Energy) Before you is the center of the Vortex, where all things magic begin.
+~
+As you gaze into the center of the vortex, you see several objects swirling
+in a chaotic parade of spinning energy.  The shadows in the room combine with
+the magical energy that is being sucked into the room.  It seems all the magical
+energy in the land is created at this one point, and released in the same unknown
+fashion.
+~
+human~
+ABGe A V 0 -700 0
+60 48 5d50+3500 0d0+100 6d10+20 magic
+-10 -10 -10 -10
+EFIK AO AB 0
+stand stand none none~
+22
+AHMV ABCDEFGHIJK giant 0
+#30202
+scarecrow~
+a scarecrow~
+A huge scarecrow hangs from a long pole to scare off pests in the garden.
+~
+Wearing worn clothes and stuffed with hay, a large scarecrow hangs on a pole.  
+Created by Mircea to watch over his garden, the scarecrow seems quite strange. 
+Upon closer inspection you see it is not a scarecrow at all, yet a man held in
+captivity by a madman...by Mircea.
+~
+human~
+ABGe A V 0 0 0
+51 9 100d100+10000 0d0+100 2d2+5 slap
+-7 -7 -10 -2
+0 A 0 H
+stand stand none none~
+27
+AHMV ABCDEFGHIJK giant 0
+#30205
+mircea's shadow~
+Mircea's shadow~
+A dark shadow lurks around the room.
+~
+~
+human~
+ABGe A 0 0 0 0
+51 25 100d100+10000 0d0+100 2d10+15 slap
+-7 -7 -10 -2
+DFI A 0 H
+stand stand none none~
+18
+AHMV ABCDEFGHIJK giant 0
+#30210
+waffle iron~
+a waffle iron~
+A waffle iron walks around here.
+~
+~
+human~
+A A 0 0 0 0
+2 0 0d0+0 0d0+100 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+1
+AHMV ABCDEFGHIJK medium 0
+#30211
+carnifex~
+the Carnifex~
+A dark, wicked figure stands here, torturing someone.
+~
+~
+demon~
+ABZe A DFJT 0 -750 0
+60 46 4d6+10000 0d0+100 4d6+76 agony
+-20 -20 -20 -20
+0 ABCD 0 A
+stand stand none none~
+30
+AHMV ABCDEFGHIJK medium 0
+P GIVE 30210 30220~
+P RANDOM 30211 100~
+#30293
+translucent apparition~
+the apparition~
+A translucent apparition flies nearby.
+~
+You look at where you think the apparition is, but see only an endless
+sky filled with many clouds.  
+~
+unique~
+AL A HJNO 0 750 0
+50 0 1d1+0 0d0+0 1d1+0 none
+0 0 0 0
+0 AB 0 0
+stand stand none none~
+24
+AHMV ABCDEFGHIJK medium 0
+#30294
+Statue Starstone Warrior~
+A gallant warrior statue~
+A statue of a warrior chiseled from pure starstone regally poses here.
+~
+This statue gleams with a bright polish of buffed starstone.  The white finish
+is intricately carved with the tiniest of details. Veins, muscle and armor all
+give the impression of realism. If it weren't for the pupiless eyes and the lack
+of breathing, one might think such a statue capable of coming to life.
+~
+unique~
+AGTe A DFHT 0 750 906
+59 20 50d10+9000 0d0+100 8d6+30 divine
+-29 -29 -29 1
+BDEFGN ABQ 0 0
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+#30295
+Librarian~
+Librarian~
+Wizened by age, an old and bitter librarian walks around here
+~
+This aged, overworked librarian is constantly walking around trying to
+keep everything in order.  Although she seems very frustrated with her work,
+the job gets done.  
+~
+human~
+AB A HNOTa ACEO 0 0
+49 70 8d7+4000 8d7+4000 4d6+40 agony
+-30 -30 -30 -30
+0 ABQ 0 H
+stand stand female none~
+23
+AHMV ABCDEFGHIJK medium 0
+#30299
+mina chaoshound dog~
+Mina the Chaoshound~
+A small, dog-shaped creature with floppy ears is here.
+~
+This tiny creature runs about in a frantic pace, bouncing off of nearby
+chunks of earth, flame and water, and swirls about in eddies of air. 
+Ear-shattering yelps make you wince as this frenzied beast leaps about,
+nipping at your heels, and chewing on some random hunk of chaosstuff.  
+~
+unique~
+A A DFHPTVa 0 0 0
+55 500 10000d1+500 0d0+100 200d1+100 corruption
+-100 -100 -100 -100
+CHJKNX 0 D B
+stand stand none none~
+19
+0 0 small 0
+P RANDOM 30299 20~
+#30300
+Varshyl gimp owner beacon mob~
+Varshyl the gimp~
+Varshyl, the gimp, is standing here.
+~
+~
+human~
+A A 0 0 0 0
+35 10 0d0+0 0d0+100 0d0+0 slap
+0 0 0 0
+0 AB 0 0
+stand stand none none~
+21
+AHMV ABCDEFGHIJK medium 0
+#30303
+builder instructor~
+the OLC Instructor~
+The OLC instructor stands here, ready to teach.
+~
+To begin the tutorial, just say 'BEGIN'.
+To show the index, just say 'INDEX'.
+To skip to a chapter, just say the chapter keyword.
+~
+human~
+AB AC DFJ 0 0 0
+60 100 4d6+10000 0d0+0 4d6+100 none
+-50 -50 -50 -50
+0 ABCD 0 0
+stand stand male none~
+28
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 30303 index~
+P SPEECH 30304 intro~
+#30360
+Thri-kreen~
+Thri-Kreen~
+A multi armed mantis like creature is here.
+~
+~
+unique~
+AGTZc A JV 0 -1000 0
+38 42 1d10+3000 0d0+100 4d8+20 slash
+-15 -15 -15 -8
+DEFJKNX 0 0 0
+stand stand none none~
+14
+0 0 medium 0
+#30400
+bastion~
+a massive bastion~
+A massive bastion has been erected here.
+~
+~
+unique~
+ABZce AC DF 0 0 0
+60 40 4d6+20000 0d0+0 5d10+60 none
+-40 -40 -40 -40
+0 ABLQ HI 0
+stand stand none none~
+22
+0 0 huge 0
+#0
+
+
+
+#OBJECTS
+#30000
+huge rusty sword Carnifex Pax~
+the `&Carnifex Pax``, blade of `8Executioners``~
+The `&Carnifex Pax`` pierces the ground at your feet with its rusty blade.~
+rust~
+weapon CGHJLMTY AN
+sword 7 6 kiss FL
+60 600 1 P
+T
+466 2 60
+`&Carnifex Pax`` sings its deadly note!~
+You head a sound of a watermelon being cut in half.~
+F
+A 18 3 0
+P USE 30000 100~
+#30001
+tattoo skull snarling~
+a `8Snarling`` `7Skull``~
+A ghostly `7skull`` floats in the air.~
+ink~
+armor HMTYZ T
+2 2 4 15 0
+20 0 0 P
+T
+503 2 20
+The `7Skull writhes and snarls``.~
+Something snarls with anger.~
+T
+41 2 5
+The `7Skulls sockets glow `!crimson``.~
+Something gives of a foreboding glow.~
+#30002
+dark colum pillar souls~
+the pillar of souls~
+Filling you with dread and fear the Pillar of Souls is here~
+start stone~
+furniture 0 P
+0 0 0 0 0
+21 30000 0 P
+E
+pillar~
+You gaze upon the Pillar of Souls and feel the maligant entity
+struggling against the very walls of its prison.  The surface 
+of the dark stone shimmers and ripples with features of faces
+locked in eternal agony.  The dance the deadly dance of oblivion
+as if screaming in torment, beggin for realease.  A loud repetitive
+humming sound carries around you and you know that you have 
+drawn attention to yourself
+~
+E
+souls~
+You gaze upon the Pillar of Souls and feel the maligant entity
+struggling against the very walls of its prison.  The surface 
+of the dark stone shimmers and ripples with features of faces
+locked in eternal agony.  The dance the deadly dance of oblivion
+as if screaming in torment, beggin for realease.  A loud repetitive
+humming sound carries around you and you know that you have 
+drawn attention to yourself
+~
+E
+column~
+You gaze upon the Pillar of Souls and feel the maligant entity
+struggling against the very walls of its prison.  The surface 
+of the dark stone shimmers and ripples with features of faces
+locked in eternal agony.  The dance the deadly dance of oblivion
+as if screaming in torment, beggin for realease.  A loud repetitive
+humming sound carries around you and you know that you have 
+drawn attention to yourself
+~
+#30003
+reward object~
+dummy obj~
+A dummy obj is here.~
+flesh~
+armor MYZ A
+6 7 7 6 0
+60 60 1 P
+F
+A 18 1 0
+F
+A 19 1 0
+F
+A 24 -1 0
+#30004
+tattoo namless pillar~
+a `8Black Pillar``~
+A ghostly pillar floats in the air.~
+ink~
+armor HMTYZ T
+2 2 4 15 0
+20 0 0 P
+P USE 30004 100~
+#30006
+arrow~
+a sleepy arrow~
+An arrow rests here.~
+bone~
+projectile 0 Ae
+A 5 5 pierce CDFHIJ 50 250 2 P
+#30007
+ancient plate~
+an Ancient Plate of Armor~
+An ancient rusted plate of armor rests here.~
+iron~
+armor EHJLTe AD
+400 600 450 400 0
+60 10 0 P
+#30008
+circlet onyx~
+a Circlet of Onyx~
+A circlet of onyx lies here radiating evil and malice.~
+onyx~
+armor EJLTY AE
+0 0 0 0 0
+60 10000 0 P
+F
+A 19 40 0
+F
+A 18 30 0
+#30009
+kingisher rapier~
+the Kingfisher Rapier~
+A long thing rapier inscribed with a kingfisher motive.~
+steel~
+weapon ESY ANc
+sword 5 8 pierce H
+50 20 40000 P
+F
+A 18 5 0
+F
+A 19 2 0
+F
+S 99 3 0
+#30010
+tablet skull pillar |30010|~
+tablet of passage~
+A small stone tablet engraved with a image of a giant pillar~
+stone~
+trash JT AO
+0 0 0 0 0
+60 0 10 P
+E
+tablet~
+It is a small stone tablet, its edges rounded out by passage to time.
+Upon its surface you see an etched image of a pillar, marked with
+miniscule pictures of skulls and bones.  With a start you notice more
+then few blood stains on its surface.
+~
+#30011
+orb enlightenment~
+the Orb of Enlightenment~
+A mysterious orb floats here.~
+ethereal~
+armor ABHM AQX
+4 4 4 6 0
+0 3 1 P
+F
+A 24 -5 0
+F
+A 21 -2 0
+F
+A 20 -1 0
+F
+A 12 50 0
+F
+A 5 -1 0
+#30012
+don't drink this potion~
+a potion labeled 'Don't Drink This'~
+A large potion labeled 'Don't Drink This' lies here.~
+dark goo~
+potion A AO
+100 'dispel magic' 'hellstream' 'hellstream' 'hellstream'
+50 0 1000000 P
+#30013
+leather bracer filcher filcher's band~
+a filcher's band~
+A strange leather bracer with a mark of a black hand.~
+leather~
+armor I AM
+-7 -6 -10 -6 0
+50 10 1000 P
+F
+A 26 5 0
+F
+A 19 2 0
+#30014
+a swirling cloud of bone dust~
+a `&could of bone dust``~
+A pale luminous cloud of dust.~
+bone~
+trash AM AQ
+0 0 0 0 0
+60 1 0 P
+T
+81 2 20
+$p swirls and forms into a ghastly skull!~
+You feel a ghostly presence nearby.~
+F
+A 19 1 0
+F
+A 24 -3 0
+#30015
+large ring blood crimson high blood~
+the ring of `1High Blood``~
+A large crimson ring glows with reddish hue.~
+ruby~
+armor MY AB
+1 1 1 25 0
+60 5 0 P
+T
+25 1 25
+$p bathes the area in a crimson glow.~
+$p bathes the area in a crimson glow.~
+F
+A 19 1 0
+#30016
+bone sword flesh eater~
+the Flesh Eater~
+A vicious looking dagger made of long thin piece of bone.~
+bone~
+weapon EHZ ANY
+dagger 7 6 psbite H
+60 10 100 P
+T
+64 2 30
+$p lunges forward glowing with a green glow.~
+$p lunges forward glowing with a green glow.~
+F
+A 19 2 0
+F
+A 18 8 0
+F
+A 2 2 0
+#30017
+mist cloud dark~
+dark could of mist~
+A dark cloud of thick mist billows across the ground defiling the temple with Morgorin's power.~
+unknown~
+trash 0 P
+0 0 0 0 0
+0 0 0 P
+#30018
+seium claw~
+`8Seium's `&claw``~
+A pair of three taloned claws lie in the dust.~
+flesh~
+weapon AEHY ANP
+axe 7 7 claw JL
+60 400 0 P
+M
+You extend your bone talons.~
+A pair of three bladed talons slide out of $n's hands.~
+You retract your talons.~
+$n retracts its talons.~
+F
+A 19 -1 0
+F
+A 18 7 0
+#30019
+simple bastard ira sanctum bastardsword sword~
+a Bastard sword~
+Simple bastard sword inscribed with words "IRA SANCTUM"~
+Iron~
+weapon Ie AN
+sword 6 8 divine 0
+50 350 1 P
+F
+A 18 4 0
+F
+A 19 2 0
+F
+A 13 20 0
+F
+A 1 1 0
+#30020
+diamond studded glasses luck~
+some Diamond Glasses of Endless Luck~
+A pair of diamond studded glasses lie here.~
+unknown~
+armor BMTY Ad
+3 4 3 5 0
+50 5 0 P
+M
+You arch your eyebrows in a sly manner as you slide the glasses on.~
+$n looks at you through his dark shades.~
+~
+~
+F
+A 26 5 0
+F
+A 18 2 0
+#30021
+tome large ancient~
+an Ancient Tome~
+A large ancient tome lies in the dust.~
+elven skin~
+treasure CY AQ
+0 0 0 0 0
+35 20 0 P
+F
+A 34 10 0
+F
+A 35 10 0
+F
+A 17 -10 0
+#30022
+baker's hat black~
+a black baker's hat~
+A bakers hat made of jet black cloth rests here.~
+cloth~
+armor CY AE
+8 9 10 2 0
+35 20 0 P
+M
+$p's dark cloth clouds your thoughts with evil.~
+~
+~
+~
+F
+S 108 25 0
+F
+A 18 1 0
+F
+A 19 1 0
+#30023
+twin daggers~
+a pair of twin daggers~
+A pair of twin daggers on a string.~
+steel~
+armor 0 AC
+11 10 11 8 0
+36 0 0 P
+F
+A 18 2 0
+F
+A 19 1 0
+F
+A 34 10 0
+#30024
+Morgorin's soul~
+Morgorin's Soul~
+Filled with hate and agony `7Morgorin's Soul`` is trapped here through a link to the `8Pillar``.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+link~
+The strange link seems to lead from the shadow sphere imprisoning
+Morgorin's Soul to the Pillar of Souls.  It squirms and writhes 
+with dark forces, as it torments the soul and produces countless
+legions of Shades.  Your only hope of stopping this invasion is
+somehow breaking this link..
+~
+E
+soul~
+Surrounded by dark power of The Nameless, a vague humanoid shape
+composed of darkness floats within a sphere of translucent shadows.
+Its mouth is opened in an eternal scream of hate and agony as it
+relentlessly struggles against the powers binding it to this plane.
+Extending from the revolting prison is a long tubular link of power
+leading towards the Pillar of Souls.  It seems to squirm and writhe
+with malignant force as tendrils of hair thin shadows shoot out 
+towards the shady shape within the shadow sphere.
+An agonizing scream ensues and you see a drop of the dark matter
+separate itself from Morgorin's soul only to quickly become a 
+Shade screaming its first cry of hate.  It turns its empty sockets
+towards you as it vanishes.
+~
+E
+Morgorin's~
+Surrounded by dark power of The Nameless, a vague humanoid shape
+composed of darkness floats within a sphere of translucent shadows.
+Its mouth is opened in an eternal scream of hate and agony as it
+relentlessly struggles against the powers binding it to this plane.
+Extending from the revolting prison is a long tubular link of power
+leading towards the Pillar of Souls.  It seems to squirm and writhe
+with malignant force as tendrils of hair thin shadows shoot out 
+towards the shady shape within the shadow sphere.
+An agonizing scream ensues and you see a drop of the dark matter
+separate itself from Morgorin's soul only to quickly become a 
+Shade screaming its first cry of hate.  It turns its empty sockets
+towards you as it vanishes.
+~
+P RANDOM 30006 20~
+#30025
+tattoo bloodhound paw~
+`8The `3Paw `8of a `!Bloodhound``~
+If you see this contact an immortal.~
+ink~
+trash MTYZ T
+0 0 0 0 0
+50 0 0 P
+F
+S 106 5 0
+F
+A 34 15 0
+F
+A 36 15 0
+P FIGHT 30001 15~
+#30026
+Morgorin's soul~
+Morgorin's Soul~
+Filled with hate and agony `7Morgorin's Soul`` is trapped here through a link to the `8Pillar``.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+link~
+The strange link seems to lead from the shadow sphere imprisoning
+Morgorin's Soul to the Pillar of Souls.  It squirms and writhes 
+with dark forces, as it torments the soul and produces countless
+legions of Shades.  Your only hope of stopping this invasion is
+somehow breaking this link..
+~
+E
+soul~
+Surrounded by dark power of The Nameless, a vague humanoid shape
+composed of darkness floats within a sphere of translucent shadows.
+Its mouth is opened in an eternal scream of hate and agony as it
+relentlessly struggles against the powers binding it to this plane.
+Extending from the revolting prison is a long tubular link of power
+leading towards the Pillar of Souls.  It seems to squirm and writhe
+with malignant force as tendrils of hair thin shadows shoot out 
+towards the shady shape within the shadow sphere.
+An agonizing scream ensues and you see a drop of the dark matter
+separate itself from Morgorin's soul only to quickly become a 
+Shade screaming its first cry of hate.  It turns its empty sockets
+towards you as it vanishes.
+~
+E
+Morgorin's~
+Surrounded by dark power of The Nameless, a vague humanoid shape
+composed of darkness floats within a sphere of translucent shadows.
+Its mouth is opened in an eternal scream of hate and agony as it
+relentlessly struggles against the powers binding it to this plane.
+Extending from the revolting prison is a long tubular link of power
+leading towards the Pillar of Souls.  It seems to squirm and writhe
+with malignant force as tendrils of hair thin shadows shoot out 
+towards the shady shape within the shadow sphere.
+An agonizing scream ensues and you see a drop of the dark matter
+separate itself from Morgorin's soul only to quickly become a 
+Shade screaming its first cry of hate.  It turns its empty sockets
+towards you as it vanishes.
+~
+P RANDOM 30007 100~
+#30027
+seed~
+a plant seed~
+A small seed is lying on the ground here.~
+wood~
+food U A
+1 1 0 0 72
+10 10 0 P
+#30028
+spark~
+a spark of life~
+A spark of Sirant's power twinkles above you.~
+unknown~
+trash 0 P
+0 0 0 0 0
+60 0 0 P
+P RANDOM 30008 100~
+#30029
+tattoo avariel~
+the `5Scales`` of `%Balance.``~
+The `5Scales`` of `%Balance.`` tattoo rests here.~
+ink~
+armor T T
+0 0 0 0 0
+50 0 0 P
+F
+A 13 20 0
+F
+A 24 -5 0
+P FIGHT 30029 8~
+#30030
+A small brook~
+a brook~
+A small `$brook`` winds through the glade.~
+water~
+fountain T P
+-1 -1 'water' 0 0
+60 0 0 P
+#30031
+ore~
+ore~
+Ore~
+unknown~
+treasure 0 A
+0 0 0 0 0
+0 0 0 P
+#30041
+Steel Table~
+a steel table~
+A shiny steel table is here.~
+steel~
+furniture B 0
+0 0 0 0 0
+50 10000 0 P
+#30042
+Tree Life~
+a large tree is here.~
+A large life-filled tree sits here.~
+special~
+furniture A 0
+0 0 0 0 0
+60 16960 0 P
+#30043
+Axe Righteous Anger~
+an Axe of Righteous Anger~
+An extremely large axe glows with an inner light~
+Uranium~
+weapon AGIMY ANS
+axe 10 4 divine DF
+50 500 100 P
+F
+A 19 5 0
+F
+A 18 3 0
+#30044
+Helmet Destiny~
+the Helmet of Destiny~
+The Helmet of Destiny shines with a holy light.~
+Steel~
+armor GIY AESc
+9 9 9 12 0
+50 15 100 P
+F
+A 26 2 0
+F
+A 19 2 0
+#30045
+Sword Vengeance~
+the `8Sword`` of `1Vengeance``~
+The `8Sword`` of `1Vengeance`` glows with a `7holy light``...~
+light~
+weapon AHIMPSU ANSY
+sword 10 20 wrath AD
+60 30 0 P
+F
+A 26 10 0
+F
+A 18 100 0
+F
+A 19 100 0
+#30046
+Morningsun Breastplate~
+`7silver breastplate``~
+A silver breastplate that shines as brightly as the morning sun.~
+silver~
+armor AIPUY DS
+100 100 100 100 0
+60 300 0 P
+F
+A 19 50 0
+F
+A 18 50 0
+F
+A 10 3 0
+#30047
+ray light~
+ray of light~
+A ray of light surrounds Orealt~
+Light~
+light AKSY ASc
+0 0 999 0 0
+60 0 100 P
+F
+A 26 2 0
+F
+A 12 50 0
+F
+A 19 2 0
+#30048
+Mace Cold truth~
+a Mace of the Cold Truth~
+A fine mace made of a strange material that radiates a fine chill.~
+Essence of Truth~
+weapon GIKMY ANSc
+mace 8 5 wrath B
+0 160 100 P
+F
+A 19 4 0
+F
+A 18 2 0
+#30049
+Spear Gaia~
+a Spear of Gaia~
+A crude spear covered in leaves and vines.~
+Wood~
+weapon IMSY ANSc
+spear 7 6 wrath 0
+50 350 100 P
+M
+You feel Gaia's vines twine themselves tightly about your hands.~
+Gaia's vines twitch and grow.~
+You feel Gaia's vines shrivel from your grasp.~
+Gaia's vines shrivel and wilt.~
+F
+A 18 4 0
+F
+A 19 5 0
+#30050
+statuette snow tigress~
+a statuette of a snow tigress~
+A breathtakingly beautiful statuette of a snow tigress is here~
+ivory~
+relic TY APS
+0 'reserved' 'reserved' 'reserved' 'reserved'
+60 10 100000 P
+#30051
+ring verdigar~
+the Ring of Verdigar~
+An intricately carved wooden ring lies here~
+wood~
+relic TY ABP
+0 '' '' '' ''
+50 1 1000 P
+F
+A 34 10 0
+F
+A 17 -10 0
+F
+A 26 1 0
+F
+A 19 1 0
+F
+A 18 1 0
+#30054
+torch of skulls~
+a glowing torch of skulls~
+A torch fashioned from skulls burns here brightly.~
+bone~
+light ABJL AX
+0 0 999 0 0
+55 0 1 P
+F
+A 18 2 0
+F
+A 19 2 0
+F
+A 5 -1 0
+F
+A 4 1 0
+#30055
+gate key chaos~
+the key to the Tower of the Winds~
+A stone key rests here.~
+stone~
+key 0 A
+0 0 0 0 0
+55 0 1 P
+#30092
+tattoo mark demon~
+the `8Mark`` of the `!Demon``~
+This is a tattoo. Pray to an Immortal if you see this.~
+scar~
+armor TY AT
+4 4 4 4 0
+0 0 0 P
+T
+183 2 30
+~
+~
+F
+A 2 1 0
+F
+A 18 3 0
+F
+A 4 -1 0
+#30093
+crystal stream~
+a crystal stream~
+A crystal clear stream runs though the Glade here.~
+water~
+fountain 0 0
+-1 -1 'water' 0 0
+0 0 1 P
+#30094
+boots woodwalking~
+(`2Green Aura``) The Boots of Woodwalking~
+If you see this, contact an Imm.~
+leather~
+armor HMT AG
+0 100 100 100 0
+60 0 1 P
+F
+A 19 100 0
+F
+A 18 100 0
+#30095
+cloak nature~
+(`2Green Aura``) The Cloak of Nature~
+If you see this, contact an Immortal.~
+nature~
+armor HMT AK
+100 100 100 100 0
+60 0 0 P
+F
+A 24 -100 0
+#30096
+bow verdigar~
+(`2Green Aura``) The Bow of Verdigar~
+If you see this, contact an immortal.~
+wood~
+weapon HMT AN
+sword 20 20 crush 0
+60 0 0 P
+F
+A 17 -100 0
+#30097
+Great Horn~
+(`2Green Aura``) The Great Hunting Horn of Varrakesh~
+If you see this, contact an Immortal.~
+horn~
+armor HMT AOX
+20 20 20 20 0
+60 0 1 P
+F
+A 19 10 0
+F
+A 18 10 0
+#30098
+The Crown of Chaos~
+the `8Crown of Chaos``~
+A strange crown rests here, humming with power.~
+evil~
+trash ABCEJLX AEX
+0 0 0 0 0
+0 0 1 P
+F
+A 1 4 0
+F
+A 24 -6 0
+P USE 30098 100~
+#30099
+burning skull key~
+a `1Burning`` `8Skull``~
+A `1flaming`` skull rests here.~
+bone~
+key 0 AE
+0 0 0 0 0
+60 0 0 P
+#30100
+flail punisher exitialis~
+'`1Exitialis``', the `8Punisher``.~
+IMMORTAL WEAPON~
+death~
+weapon ABCEHM AN
+flail 10 25 pain H
+60 0 0 P
+T
+148 2 75
+'`1Exitialis``' `8blurs, as words of power fill the shadows!``~
+`8Your body can no longer withstand the agony, and you collapse.``~
+T
+29 2 40
+`8The flail sails through the air, followed by flashes of hellfire!``~
+`8Your mind and body erupt in searing pain!``~
+#30101
+storm crowned oak~
+(`2Green Aura``) A Storm Crowned Oak~
+If you see this, contact an immortal.~
+ink~
+armor G ANT
+0 0 0 0 0
+25 1 0 P
+T
+516 2 5
+$p glows a brilliant green, then fades.~
+$p seems to come alive!~
+F
+A 4 2 0
+F
+S 415 10 0
+F
+S 246 10 0
+F
+S 524 10 0
+#30102
+hammer Barak~
+the Hammer of Barak~
+A great forging hammer lies here, humming loudly.~
+diamond~
+weapon ABHPTY AN
+mace 7 7 none 0
+60 25 100000 P
+#30103
+ancient key~
+bozbar's Key~
+An ancient key lies here.~
+stone~
+key AGPTY AO
+0 0 0 0 0
+60 0 10 P
+#30104
+The Tome of Infinite Knowledge~
+the Tome of Infinite Knowledge~
+An ancient tome is lying on the ground here.~
+paper~
+treasure ABGHOTZ AO
+0 0 0 0 0
+50 50 5 P
+F
+A 35 5 0
+F
+A 12 50 0
+#30105
+Miruvhor's Arcadian Tetra cube box~
+Miruvhor's Arcadian Tetra~
+A very strange, runed cube is lying on the ground here.~
+unknown~
+container AGXY AO
+100 AC 0 100 100
+60 100 5 P
+E
+cube~
+What seems to be a hand carved box made of solid heart walnut
+wood rests here. Inscribed on all six sides of the cube are sets
+of runes, embossed into the wood. The wood is well oiled, and looks
+quite antiquated. A small clasp is located adjacent to a set of
+hinges that seems to open the cube.
+~
+E
+tetra~
+What seems to be a hand carved box made of solid heart walnut
+wood rests here. Inscribed on all six sides of the cube are sets
+of runes, embossed into the wood. The wood is well oiled, and looks
+quite antiquated. A small clasp is located adjacent to a set of
+hinges that seems to open the cube.
+~
+M
+Miruvhor's Arcadian Tetra hovers slightly above your hand.~
+Miruvhor's Arcadian Tetra hovers slightly above $n's hand.~
+Miruvhor's Arcadian Tetra stops hovering.~
+Miruvhor's Arcadian Tetra stops hovering above $n's hand.~
+F
+A 24 -5 0
+P USE 30105 100~
+P RANDOM 30106 40~
+P DROP 30107 100~
+#30106
+hand grenade~
+a hand grenade~
+A hand grenade is lying here.~
+metal~
+throw 0 AO
+-1 10 10 none 0
+60 5 1 P
+P GIVE 30110 100~
+#30107
+Tome Velphane Grimoire~
+the `8Grimoire`` of `%Velphane``~
+The Grimoire of Velphane emits an evil taint here.~
+Dark Knowledge~
+treasure BCEGHMSTYZ AP
+0 0 0 0 0
+60 20 1 P
+E
+grimoire~
+Looking at the Grimoire you see it is a night-black bound book of
+dragonhide, expertly stitched, and containing a series of warding glyphs and
+insidious runes of evil.  A leering, blackened skull adorns the cover, and
+contained within are a hundred jet black pages of parchment, with malevolent
+red runes engraved upon them in blood magic.  You cannot discern exactly
+what they make out, for it is in some strange language, yet on the back
+inside cover, a small addendum says "Seek out the twelve to release the
+One".  
+~
+#30110
+spectacles glasses smoked~
+some smoked glass spectacles~
+A pair of smoked glass spectacles is lying here.~
+metal~
+armor C Ad
+2 2 3 2 0
+10 10 500 P
+F
+A 3 1 0
+#30125
+Sunfang, the staff of wonder~
+sunfang, the staff of wonder~
+A gnarled wooden staff, engraved with strange symbols lies here.~
+wood~
+weapon BJK ANP
+staff 6 7 beating F
+50 200 10 P
+E
+staff~
+Sunfang, the staff of wonders, was created at the dawn of time.  It is
+said that the staff was a branch of the tree that became the mother goddess.
+This branch was shed for impurity, and having a mind of it's own.  
+~
+#30126
+Greate Pendulum aabahran~
+the Great Pendulum of Aabahran~
+A giant pendulum swings slowly before you.If you see this item, contact an Immortal.~
+Water~
+armor AT AQ
+0 0 0 0 0
+51 0 1 P
+#30127
+Runed White wizards hat~
+a Runed White Wizard's Hat~
+A hat grins evilly at you. If you see this item, run.~
+Cloth~
+armor T AE
+0 0 0 0 0
+51 15 1 P
+#30128
+Gnome Sandals~
+a pair of gnomish sandals~
+A pair of sandals laughs at all your insecurities.~
+skin~
+armor BT AG
+0 0 0 0 0
+51 15 1 P
+#30145
+The Warmonger~
+the warmonger~
+A long bladed weapon of a dark steel alloy hungers here.~
+dark steel~
+weapon BCEJMTZ ANS
+exotic 8 6 hunger 0
+51 240 1 P
+#30150
+bloody blade~
+the Bloody Blade~
+If you see this contact an immortal.~
+steel~
+weapon HMTY AN
+axe 10 5 crush D
+60 500 1000 P
+#30151
+book of rites~
+the Book of Rites~
+An ancient, tattered tome is lying on the ground here.~
+paper~
+treasure 0 AO
+0 0 0 0 0
+0 10 250 P
+E
+page3~
+[PAGE 3]
+After the first [rite?] is read, the [priest?] 
+will recite a consecration. After such, the First
+Consecrator will be told to recite the last full
+canticle, after which, the ceremony will be complete.
+Mathair Danu, tabhair dom do fhoighne.
+An Mhor Rioghan, tabhair dom do fraoch.
+[The text is destroyed past this point.]
+~
+E
+page2~
+[PAGE 2]
+ 
+First Canticle:
+Brighid, tabhair dom do fhollain.
+Second Canticle:
+Arianrhod, tabhair dom do shuil fuacht.
+Third Canticle:
+Lugh, tabhair dom do Ghrian-geal.
+Fourth Canticle:
+Gwydion, tabhair dom do theanga airgead.
+Fifth Canticle:
+Oengus Og, tabhair dom do thinfeadh.
+Sixth Canticle:
+Rhiannon, tabhair dom do chinneadh.
+ 
+Seventh Canticle:
+Macha, tabhair dom do chlisteacht.
+[SEE PAGE3]
+~
+E
+book~
+[Tahaear Demhand]
+(The Ritual of [Demonic?] Exorcism)
+The [Demon?] is shackled in the center of the Sevenstar,
+each side lit with a candle of a different color to represent
+the seven [divine?] forces of reality. Once the ritual is
+consecrated, the Circle of Seven can commence. Each canticle
+read by a different [consecrator?], and passed clockwise
+to the next, until the seventh canticle is read.
+If for some reason one of the canticles is misread or
+mis-[pronounced?], the entire ceremony must begin again
+from the beginning.
+[SEE PAGE2]
+~
+#30152
+winged fire dragon gimp~
+a winged `!fire`` dragon~
+A winged `!fire`` dragon is hovering here.~
+dragon~
+armor AHMZ AQ
+-5 -5 -5 -5 0
+30 80 5 P
+E
+dragon~
+You see before you a tiny dragon, almost a miniature replica
+of a real, large dragon. He looks at you with tiny, whirling
+eyes, and floats nearby you. You seem to feel a sort of primal
+protection with this little creature by your side.
+~
+T
+45 2 5
+A winged `!fire`` dragon breathes forth a breath of fire!~
+A winged `!fire`` dragon breathes forth a breath of fire!~
+F
+A 19 1 0
+#30153
+chained shackles~
+chained shackles~
+Some chained shackles lie cemented in the center of the room here.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#30154
+cloth~
+some cotton cloth~
+%d yards of cotton cloth are lying here.~
+cotton~
+clothing 0 A
+0 0 0 0 0
+60 50 5 P
+#30155
+pill~
+a pill~
+A pill is lying here.~
+herbs~
+pill 0 A
+0 '' '' '' ''
+1 1 1 P
+#30160
+glasses of blind sight~
+the Glasses of Blind Sight~
+A set of strange glasses are here, radiating a magical aura.~
+magic~
+jewelry AGM APd
+0 0 0 0 0
+50 10 1000 P
+M
+Vision fills your eyes. You can see again!~
+$n's vision is restored! $e can see again!~
+Darkness fills your world as you remove the glasses.~
+$n's vision fades as $e removes the glasses.~
+#30180
+bottle of dark whisky~
+a small bottle of dark whisky~
+A small bottle of dark whisky lies here~
+clay~
+fountain HY APS
+20 20 'whisky' 0 0
+50 30 1 P
+#30200
+thick mithril earring~
+a thick mithril band~
+A thick mithril band sits here like a minature manacle.~
+mythril~
+jewelry BHMT AZ
+0 0 0 0 0
+40 1 100 P
+#30201
+vortex magic~
+a Vortex of Magic~
+A sword made of pure magic hums here.~
+energy~
+weapon ABEHMT AN
+exotic 6 10 magic 0
+51 50 0 P
+F
+A 26 7 0
+F
+A 18 10 0
+F
+A 19 10 0
+#30202
+robe robes gold~
+a long black robe~
+A long black robe lays here.~
+cloth~
+armor HMT AK
+50 45 47 50 0
+51 1 0 P
+F
+A 26 5 0
+#30203
+brimstone~
+a glowing brimstone~
+A glowing piece of brimstone from the pits of Hell burns bright.~
+brimstone~
+light AEHMT AO
+0 0 999 0 0
+0 5 0 P
+#30204
+ram skull~
+a ram's skull~
+A ram's skull is here from a recent sacrifice.~
+bone~
+armor T AE
+1 2 2 2 0
+51 1 10 P
+#30205
+blood vein heart~
+mircea's vein~
+An exposed vein of Mircea's heart squirts blood everywhere.~
+unknown~
+fountain CE AP
+9999999 9999999 'blood' 0 0
+50 10000 0 P
+#30206
+ring fire~
+a ring of flames~
+A ring of fire engulfs all that is around.~
+fire~
+trash AEHMT AU
+0 0 0 0 0
+51 1 50 P
+#30207
+shield ~
+a shield of souls~
+A shield created from the souls of the departed is here.~
+unknown~
+armor ABHMT AJ
+3 4 4 4 0
+51 1 0 P
+F
+A 18 10 0
+F
+A 19 10 0
+#30208
+shadow~
+a dark shadow~
+A dark shadow looms nearby Mircea.~
+shadows~
+armor C AQ
+0 0 0 0 0
+51 1 10 P
+F
+A 22 -100 0
+F
+A 20 -100 0
+F
+A 21 -100 0
+F
+A 24 -100 0
+#30209
+invisible flowers~
+some invisible flowers~
+Swaying in the grass, invisible flowers grow wildly.~
+unknown~
+herb FGT AO
+0 'invisibility' 'reserved' 'reserved' 'reserved'
+51 10 10 P
+E
+flowers~
+As you focus your eyes on a shimmering object, you begin to make an outline of
+flowers.  These unknown flowers grow wildly, yet they are invisible.  You have 
+never seen such a wierd thing in all your life.
+~
+#30210
+purple lily pad~
+a purple lily pad~
+A purple lily pad floats on the water's surface.~
+plant~
+herb BT A
+0 'reserved' 'reserved' 'reserved' 'reserved'
+51 0 0 P
+F
+A 26 2 0
+#30211
+jeweled crown~
+a jeweled crown~
+A crown covered in blue jewels is here.~
+unknown~
+armor AB AE
+0 0 0 0 0
+51 200 0 P
+#30212
+ring magic~
+a sphere of magic~
+A sphere of magic engulfs all that is around.~
+fire~
+armor AEHMT AU
+0 0 0 0 0
+51 1 50 P
+#30213
+long silk gown~
+a long silk gown~
+A long silk gown lies here.~
+cloth~
+armor HMT AK
+50 45 47 50 0
+51 1 0 P
+F
+A 26 5 0
+#30214
+spell book~
+an ancient spellbook~
+An ancient spellbook is here.~
+paper~
+trash T AO
+0 0 0 0 0
+52 200 0 P
+F
+A 19 50 0
+#30215
+chair~
+a strapped chair~
+A chair covered in straps and shackles is resting here.~
+wood~
+furniture 0 0
+0 0 0 0 0
+50 1000 1000 P
+#30216
+table~
+a surgical table~
+A steel surgical table is here, covered in blood.~
+steel~
+furniture 0 0
+0 0 0 0 0
+50 1000 1000 P
+#30220
+black token~
+the Black Token~
+An eerie black token is lying on the ground here.~
+metal~
+treasure APTY AP
+0 0 0 0 0
+60 1 1000 P
+#30250
+shroud fear~
+the Shroud of Fear~
+A massive black shield radiates fear here.~
+onyx~
+armor ABEHJLMY AJ
+9 12 4 17 0
+60 150 1 P
+F
+A 13 20 0
+F
+A 1 1 0
+F
+A 19 3 0
+F
+A 18 2 0
+#30293
+cloud~
+a cloud~
+Floating in the air is a cloud.~
+moisture~
+treasure 0 P
+0 0 0 0 0
+50 0 0 P
+#30294
+Glowing anvil starstone~
+a glowing anvil of starstone~
+An gigantic anvil the size of a small cottage sits here.~
+Starstone~
+furniture ABKTY AP
+0 0 0 0 0
+55 32000 1 P
+#30296
+rift nexus~
+the Nexus Rift~
+Pulsating with wild energies the `!Nexus Rift`` is here.~
+vellum~
+trash BO P
+0 0 0 0 0
+60 0 0 P
+#30298
+whistle~
+a whistle of summoning~
+If you see this, run away from it as fast as you can.~
+chaos~
+treasure X AC
+0 0 0 0 0
+0 0 0 P
+P DELAY 30297 100~
+P USE 30298 100~
+#30299
+disc balance~
+The Balance~
+A huge, mithril disc hovers behind the Throne of Balance.~
+balance~
+treasure XZ 0
+0 0 0 0 0
+60 0 0 P
+E
+mithril disc balance~
+From what you can discern, this large disc floats in mid-air, and isn't
+attached to the wall that it hovers before.  As you inspect it closer, you
+can see that the disc is spinning quick rapidly, but it's flawless, perfect
+surface makes it difficult to see.  
+~
+P USE 30299 100~
+#30300
+winged fire dragon~
+a winged `!fire`` dragon~
+A winged `!fire`` dragon is hovering here.~
+dragon~
+armor AHM AQ
+9 9 9 11 0
+30 80 5 P
+E
+dragon~
+You see before you a tiny dragon, almost a miniature replica
+of a real, large dragon. He looks at you with tiny, whirling
+eyes, and floats nearby you. You seem to feel a sort of primal
+protection with this little creature by your side.
+~
+T
+45 2 5
+A winged `!fire`` dragon breathes forth a breath of fire!~
+A winged `!fire`` dragon breathes forth a breath of fire!~
+F
+A 19 1 0
+#30301
+winged lightning dragon~
+a winged `4lightning`` dragon~
+A winged `4lightning`` dragon is hovering here.~
+dragon~
+armor AHM AQ
+9 9 9 12 0
+30 90 5 P
+E
+dragon~
+You see before you a tiny dragon, almost a miniature replica
+of a real, large dragon. He looks at you with tiny, whirling
+eyes, and floats nearby you. You seem to feel a sort of primal
+protection with this little creature by your side.
+~
+T
+58 2 5
+A winged `4lightning`` dragon breathes forth a bolt of lightning!~
+A winged `4lightning`` dragon breathes forth a bolt of lightning!~
+F
+A 18 1 0
+F
+A 19 1 0
+#30302
+winged water dragon~
+a winged `7water`` dragon~
+A winged `7water`` dragon is hovering here.~
+dragon~
+armor AHM AQ
+8 8 8 6 0
+30 90 5 P
+E
+dragon~
+You see before you a tiny dragon, almost a miniature replica
+of a real, large dragon. He looks at you with tiny, whirling
+eyes, and floats nearby you. You seem to feel a sort of primal
+protection with this little creature by your side.
+~
+E
+dragon~
+You see before you a tiny dragon, almost a miniature replica
+of a real, large dragon. He looks at you with tiny, whirling
+eyes, and floats nearby you. You seem to feel a sort of primal
+protection with this little creature by your side.
+~
+T
+165 2 5
+A winged `7water`` dragon breathes forth a shard of ice!~
+A winged `7water`` dragon breathes forth a shard of ice!~
+F
+A 3 1 0
+F
+A 14 10 0
+#30303
+winged air dragon~
+a winged `6air`` dragon~
+A winged `6air`` dragon is hovering here.~
+dragon~
+armor AHM AQ
+8 8 6 7 0
+30 90 5 P
+E
+dragon~
+You see before you a tiny dragon, almost a miniature replica
+of a real, large dragon. He looks at you with tiny, whirling
+eyes, and floats nearby you. You seem to feel a sort of primal
+protection with this little creature by your side.
+~
+F
+A 2 2 0
+P FIGHT 30003 5~
+#30304
+winged earth dragon~
+a winged `3earth`` dragon~
+A winged `3earth`` dragon is hovering here.~
+dragon~
+armor AHM AQ
+7 7 8 8 0
+30 90 5 P
+E
+dragon~
+You see before you a tiny dragon, almost a miniature replica
+of a real, large dragon. He looks at you with tiny, whirling
+eyes, and floats nearby you. You seem to feel a sort of primal
+protection with this little creature by your side.
+~
+F
+A 13 5 0
+F
+A 1 1 0
+P RANDOM 30002 50~
+#30305
+leggings bear~
+the Leggings of the Bear~
+A pair of leather leggings are here, radiating strength.~
+Leather~
+armor BY AF
+5 5 5 5 0
+35 100 500 P
+F
+A 18 2 0
+F
+A 19 2 0
+F
+A 1 3 0
+#30306
+earrings crystal~
+a pair of crystal earrings~
+A pair of earrings made of glowing crystal are here.~
+Crystal~
+jewelry AY AZ
+0 0 0 0 0
+35 5 10000 P
+F
+A 26 3 0
+#30307
+ring void~
+the Ring of Void~
+Something is here, and not here.~
+Void~
+jewelry ABY AB
+0 0 0 0 0
+35 1 100000 P
+F
+A 12 10 0
+F
+A 24 -5 0
+#30308
+brightly shining orb~
+a brightly shining orb~
+An orb radiating a very intense light is here.~
+Ether~
+light ABY AO
+0 0 999 0 0
+30 1 10000 P
+F
+A 12 5 0
+F
+A 13 5 0
+#30309
+black velvet gloves~
+a pair of black velvet gloves~
+A pair of gloves are here, reflecting no light whatsoever.~
+Velvet~
+armor Y AH
+8 8 8 8 0
+35 2 1000 P
+F
+A 24 -3 0
+F
+A 19 1 0
+F
+A 18 1 0
+#30310
+spear courage~
+the Spear of Courage~
+A small spear radiating a powerful aura of courage and strength lies here.~
+steel~
+weapon AY ANY
+spear 8 5 stab 0
+40 10 0 P
+F
+A 18 7 0
+F
+A 1 2 0
+F
+A 2 1 0
+#30311
+tattoo gold circle~
+the `#Gold`` Circle of Commonality~
+A gleaming `3circle`` levitates here mysteriously.~
+ink~
+armor TY T
+2 2 4 15 0
+20 0 0 P
+F
+S 537 20 0
+F
+S 295 20 0
+P FIGHT 30311 10~
+#30312
+dragon dragonslayer slayer~
+the `1Dragon Slayer``~
+The `1Dragon Slayer`` rests here in the dust.~
+dragon bone~
+weapon BH AN
+exotic 8 5 pierce D
+30 110 50000 P
+F
+A 19 4 0
+F
+A 18 3 0
+P USE 30312 100~
+#30325
+A graceful songbird~
+a beautiful little songbird~
+A graceful and beautiful songbird perches here.~
+bird~
+armor BHMT APQ
+0 0 0 0 0
+50 5 10 P
+#30326
+picture portrait~
+a portrait of the missing Morgorin~
+Affixed to the pillar is a picture of Morgorin with the word 'MISSING' above it.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+portrait~
+Missing.
+1 Morgorin
+Last seen drinking himself into a stupor.
+If found please contact Ambryr as he is worried.
+Thankyou.
+ 
+~
+E
+picture~
+Missing.
+1 Morgorin
+Last seen drinking himself into a stupor.
+If found please contact Ambryr as he is worried.
+Thankyou.
+ 
+~
+#30350
+midnight blue smoke mask~
+a Midnight Blue Mask of Eternal Smoke~
+A midnight blue mask sits here letting off waffs of smoke.~
+smoke~
+armor EHMT AE
+500 500 500 500 0
+51 1 1 P
+F
+A 19 80 0
+F
+A 18 80 0
+#30351
+black crystal bottle~
+a black crystal bottle~
+A black crystal bottle sits here.~
+crystal~
+drink JT AO
+100 100 'brandy' 0 0
+30 3 15 P
+#30352
+blackened dagger souls~
+a Blackened Dagger of Souls~
+A blackened dagger sits here, mirroring your soul.~
+soul~
+weapon HJLMT AN
+dagger 70 7 corruption H
+0 20 15 P
+#30353
+blood bloody dagger~
+a Crimson Dagger, forever dripping Blood~
+A crimson dagger sits here in a pool of blood.~
+dark_matter~
+weapon HJLMT AN
+exotic 80 4 slice C
+51 5 0 P
+#30354
+willow tree crossed~
+a gigantic willow tree with crossed branches~
+A gigantic willow tree with crossed branches.~
+wood~
+container OT 0
+10000 AC 0 0 0
+51 500 0 P
+P RANDOM 30354 10~
+#30355
+mask ninja~
+the Mask of the Ninja~
+A black facemask is lying on the ground here.~
+cloth~
+armor AM Ad
+10 9 11 8 0
+55 30 5 P
+F
+A 18 4 0
+F
+S 224 5 0
+#30356
+crystal emerald sphere~
+(`2Green Aura``) A perfect emerald sphere~
+A glittering emerald is lying here, shimmering with power.~
+emerald~
+gem GY AQ
+0 0 0 0 0
+50 10 1500000 P
+E
+emerald~
+Made of the purest emerald within the earth, this gem has been painstakingly
+cut and polished to resemble a perfect sphere, roughly the size of a man's
+head. While it would ordinarily weight many pounds, the emerald sphere seems
+to float of its own volition, maintaing a perfect orbit. Inside, due to the
+pressures at hand when the emerald was formed, small facets reflect errant
+rays of light, and cause the emerald sphere to bathe any room in a soft,
+pleasant green glow.
+~
+T
+521 1 10
+$p radiates brilliantly!~
+$p radiates brilliantly!~
+T
+28 2 10
+$p shivers violently, and bathes the room in a green glow!~
+$p shivers violently, and bathes the room in a green glow!~
+M
+The emerald sphere envelops you in a soft, radiant light.~
+The emerald sphere envelops $p in a soft, radiant light.~
+The emerald sphere darkens as it is removed.~
+The emerald sphere darkens as it is removed.~
+F
+A 21 -2 0
+F
+A 35 3 0
+F
+A 34 3 0
+F
+A 24 -3 0
+#30359
+shard vellum disc~
+(`8Black Aura``) A shard of Vellum~
+A sharp shard of Vellum is here.~
+Vellum~
+relic HMTY AX
+0 'reserved' 'reserved' 'reserved' 'reserved'
+60 100 5 P
+F
+A 12 100 0
+F
+A 12 1000 0
+#30360
+Bent mace~
+curved wooden mace~
+Mace~
+wood~
+weapon 0 AN
+mace 1 8 crush F
+12 250 0 P
+E
+mace~
+huge bent mace with dents is laying here
+~
+#30361
+Large marble fountain~
+a marble fountain.~
+Standing taller than most humans there is a large, polished smooth, fountain here.~
+marble~
+fountain 0 P
+100 100 'water' 0 0
+45 0 0 P
+#30362
+The Open eye~
+a tattoo of The Open Eye~
+A tattoo of The Open Eye is surrounded by a blinding aura~
+Magic~
+armor ATY T
+0 0 0 0 0
+59 0 0 P
+F
+A 0 0 J
+#30363
+Spirit of the Light~
+the Spirit of the Light~
+Encased in a sphere of brilliant light lives a sword of noble heritage~
+Light~
+weapon ABIKLMTY ANOPX
+exotic 10 11 divine E
+59 550 20 P
+#30364
+no name~
+(no short description)~
+(no description)~
+Light~
+armor ABILTUY ADPX
+50 50 50 50 0
+0 1050 30 P
+#30365
+split infinity~
+`&Split`` / `8Infinity``~
+If you see this, pray to the gods.~
+eternity~
+armor GHMTYZ AK
+-400 -400 -400 -400 0
+60 0 0 P
+F
+A 19 100 0
+F
+A 18 100 0
+F
+A 24 -100 0
+#30366
+doomsday cube~
+the Doomsday Cube~
+A very deadly looking cube is lying here.~
+death~
+treasure 0 AO
+0 0 0 0 0
+60 10 100 P
+P GIVE 30366 100~
+#30367
+tiny elemental dragon~
+a tiny elemental dragon~
+A tiny elemental dragon flits about here, anxiously.~
+flesh~
+armor AHM AQ
+10 8 12 7 0
+10 10 1500 P
+P FIGHT 30368 10~
+P RANDOM 30367 20~
+#30368
+crown revelsport~
+the `&Queen's `#Crown`` of `8Revelsport``~
+A lovely golden crown is lying here.~
+gold~
+treasure HKLMTYZ AE
+0 0 0 0 0
+50 5 100000 P
+F
+A 24 -5 0
+F
+A 21 -3 0
+F
+A 22 -4 0
+#30369
+band unbiased love ring~
+a band of unbiased love~
+A simple mithril band radiates a aura of affection.~
+mithril~
+jewelry ABIY ABPS
+0 0 0 0 0
+60 10 1 P
+M
+A feeling of pure, unrefined love washes over you.~
+$n's eyes well with tears of love.~
+As you remove the ring, you feel its love leave your heart.~
+$n's eyes dry and the look of peace and happiness fades.~
+F
+A 13 50 0
+F
+A 12 50 0
+F
+A 24 -5 0
+P FIGHT 30369 100~
+#30370
+mantle affection cloak~
+a mantle of affection~
+A long fur cloak with mithril brooches lays here, radiating love.~
+fur~
+armor ABY ACPS
+12 10 12 10 0
+60 50 1 P
+F
+A 1 -2 0
+F
+A 12 50 0
+F
+A 18 2 0
+F
+R 0 0 I
+P FIGHT 30370 100~
+#30380
+parchment~
+some parchment~
+Some parchment is lying here.~
+paper~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#30381
+scroll~
+a scroll~
+A scroll is lying here.~
+paper~
+scroll 0 AO
+0 '' '' '' ''
+0 0 0 P
+#30382
+hide~
+some hide~
+Some hide is lying here.~
+hide~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#30383
+leather~
+some leather~
+Leather~
+leather~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#30384
+leathershell~
+a leathershell~
+A leathershell is here.~
+leather~
+armor 0 A
+0 0 0 0 0
+0 0 0 P
+#30385
+weaponshell~
+weaponshell~
+Weaponshell~
+metal~
+weapon 0 A
+exotic 0 0 none 0
+0 0 0 P
+#30386
+spellbook~
+A spellbook~
+A spellbook is here.~
+paper~
+spellbook 0 AO
+0 0 0 0 0
+0 0 0 P
+#30390
+wooden bow~
+a wooden bow~
+A wooden bow is lying on the ground here.~
+wood~
+ranged 0 Ae
+A 5 1 0 A
+60 200 1000 P
+F
+A 18 5 0
+F
+A 19 8 0
+#30391
+Demonic rune symbol~
+a Demonic Rune~
+A demonic rune floats here, crackling with eldritch energy.~
+chaos~
+treasure T AS
+0 0 0 0 0
+50 10 6 P
+E
+rune demonic~
+This infernal rune floats with unseen wings, bobbing only slightly in the
+wind.  It's surface shimmers slightly, but seems to absorb all of the light
+around it.  Something about it just doesn't sit right with you.  The rune's
+edges are soft yet sharp and hard, bright yet dark...  
+~
+#30392
+quiver crossbow bolts~
+a quiver of bolts~
+A quiver of bolts is lying here.~
+leather~
+container 0 ALe
+100 0 0 100 0
+10 10 1000 P
+#30393
+!bolt! crossbow bolt~
+a steel crossbow bolt~
+A steel crossbow bolt is lying on the ground here.~
+steel~
+throw 0 AO
+-1 2 2 pierce 0
+10 100 500 P
+#30394
+whispering sandals~
+the whispering sandals~
+A set of sandals made to be very quiet are here.~
+leather~
+armor A AG
+7 5 6 2 0
+50 30 5 P
+F
+A 0 0 P
+#30395
+steel crossbow~
+a steel crossbow~
+A long steel crossbow is lying on the ground here.~
+metal~
+weapon X AO
+exotic 5 10 arrows 0
+60 10 10 P
+P USE 30395 100~
+P DELAY 30394 100~
+#30396
+sword rapture~
+(`8Black Aura``) the Sword of Rapture~
+(`8Black Aura``) A massive sword encased in flames rests here.~
+chaos~
+weapon BHY AN
+sword 8 6 slice A
+50 130 3500 P
+M
+You feel overcome with rapture, as the sword binds to you!~
+The Sword of Rapture binds itself to $n!~
+Agony seeps into your being as the sword is stripped from you!~
+$n looks stricken as the Sword of Rapture is stripped!~
+F
+A 19 6 0
+F
+A 18 4 0
+P DROP 30396 100~
+P FIGHT 30397 15~
+P GET 30398 100~
+P FIGHT 30399 10~
+#30397
+wrath god~
+a broadsword named 'The Wrath of God'~
+A long steel broadsword radiates divine power here.~
+steel~
+weapon ABHMYZ ANX
+sword 9 6 divine D
+54 210 4 P
+F
+A 18 8 0
+F
+A 19 6 0
+#30398
+gauntlets rage~
+the Gauntlets of Rage~
+Some wicked looking gauntlets are lying here.~
+steel~
+armor ABHKMXY AH
+12 14 9 7 0
+50 100 10000 P
+E
+gauntlets~
+These massive steel gauntlets are hand crafted of the finest quality.
+More, a strange aura of immense power surrounds them, and they tend
+to glow and hum with holy fervor.
+~
+M
+The Fury of the Gods seems to glow in your fists!~
+The Fury of the Gods seems to surround $n!~
+The Fury of the Gods seeps from within you.~
+The Fury of the Gods seeps from $n.~
+F
+A 24 -4 0
+F
+A 21 -2 0
+F
+A 20 -3 0
+F
+A 22 -2 0
+P USE 30300 100~
+#30399
+red scar~
+(`!Bleeding``) A festering red scar~
+A red scar.~
+flesh~
+armor HMTYZ AES
+0 0 0 0 0
+40 2 5 P
+E
+scar~
+A horrible red scar adorns Rithwin's face.
+~
+F
+A 17 -5 0
+F
+A 18 2 0
+F
+A 19 1 0
+F
+A 31 5 0
+F
+A 5 -2 0
+F
+A 9 10 0
+F
+A 24 -1 0
+#30400
+death shroud~
+(`8Black Aura``) The Pale Shroud of Death~
+If you see this, pray to an Immortal~
+unknown~
+armor HMT AD
+0 0 0 0 0
+60 0 0 P
+F
+A 17 -500 0
+F
+A 19 100 0
+F
+A 18 100 0
+#0
+
+
+
+#ROOMS
+#30000
+`7Ancient Mausoleum``~
+You stand in an ancient crypt from times forgotten.  The walls are bare
+and hewn in from the dark rock which composes the isle.  The floor and all
+surfaces are swept clean as if time did not touch this place.  Your eyes are
+drawn to a dark column, its surface pulsating with an unholy power filling
+you with dread.  Around it more then few skeletons litter the ground, all of
+them missing their skulls.  To your west a giant gate stands.  Its surface
+scribed with ancient runes, and barely flickering feeble light.  You have a
+strange feeling that the runes now hold a mere fraction of the power they
+used to have...  
+~
+~
+0 805838860 1024 1
+D1
+~
+~
+AB 0 30001
+P SIT 30000 100~
+S
+#30001
+`8In the Limbo of Unlife``~
+You float through thick Grey mist, your body drained of all vitality
+and life.  Your sense of time is lost and all you can do is hold on
+to your sanity.  Apparitions and shapes form out of the mist, shades
+of begins and identifies, some smiling and some attempting to claw
+at you angrily.  Suddenly the Grey mist retreats and you find yourself
+with in totally darkness, yet defend by roaring sound of thousands
+of whispers, chanting, screaming, and mumbling in tongues unknown to
+you.  Yet all this slowly retreats only to leave you in total darkness
+with a sense of suffocating evil and power chilling your very soul.
+Your eardrums fill with throbbing repetitive sound as all around you
+a small fraction of the entity called Nameless manifests itself.
+Far above you see a small point of light, and know you could leave 
+this place that way if you choose to.
+ 
+Far below you in a swirling vortex of grayness a giant gate seems to 
+fade in and out of existence.
+~
+~
+0 8201 0 0
+D4
+A small point of light is your salvation and exit out of this place.
+~
+light~
+ABM 0 1
+D5
+~
+~
+0 0 30003
+M 0 H 0
+S
+#30002
+`8Amongst Shadows``~
+You are in an unknown area surrounded by a circle of darkness that
+not even your keen eyes can hope to pierce.  Dank smell of death 
+and decay is around you, and in the perfect silence the rush of
+your blood is a thunderous roar.  Not even a slightest sensation
+enters your mind...
+~
+~
+0 13 512 0
+S
+#30003
+`8Before Incandescent Gate``~
+You float near a mere flickering outline of a giant gate covered with
+intricate runes and designs.  Its shape and form blurs and focuses
+into existance as if phasing in and out of reality.  As it comes to
+focus it brightens considerably from the shimmering runes of power
+scribed onto its surface.
+~
+~
+0 8204 0 0
+E
+patterns~
+A patter of a Bone, claw, fangs and eyes are arranged around the gate. 
+Each one created by an outline of shimmmering light.
+~
+E
+pattern~
+A patter of a Bone, claw, fangs and eyes are arranged around the gate. 
+Each one created by an outline of shimmmering light.
+~
+E
+name~
+Set in the corner of the gate etched in eye searing lettering
+a name DIVINITY is woven into every strand of brilliant runes
+covering the gate.  Surely the name of the maker, it is the 
+only part of the gate still totaly unstained by the dark oily
+matter.
+~
+E
+divinity~
+Set in the corner of the gate etched in eye searing lettering
+a name DIVINITY is woven into every strand of brilliant runes
+covering the gate.  Surely the name of the maker, it is the 
+only part of the gate still totaly unstained by the dark oily
+matter.
+~
+E
+inscription~
+Set in the corner of the gate etched in eye searing lettering
+a name DIVINITY is woven into every strand of brilliant runes
+covering the gate.  Surely the name of the maker, it is the 
+only part of the gate still totaly unstained by the dark oily
+matter.
+~
+E
+gate~
+Catching hints of details between the Gates cycle of focus and unfocused
+you piece together an intricate network of bright lines of power 
+which emit light intense enough to force you to avert your eyes.
+What is quite intriguing however is that most of those lines have
+been stained by black oily matter which seems to glisten in the
+light as it ripples oddly.
+With the whole gate firmly set in your mind you suddenly notice
+four distinctive patterns set in the gate along with a small
+inscription in the corner.
+~
+D4
+~
+~
+0 0 30001
+D5
+~
+~
+0 0 30004
+P EXALL 30000 down~
+P DELAY 30002 100~
+S
+#30004
+`8Amongst Shadows``~
+You are in an unknown area surrounded by a circle of darkness that not
+even your keen eyes can hope to pierce.  Dank smell of death and decay is
+around you, and in the perfect silence the rush of your blood is a
+thunderous roar.  A slight sensation tickles your mind...  
+~
+~
+0 13 0 0
+P DELAY 30001 100~
+P GRALL 30003 100~
+S
+#30005
+`2Ancient Mausoleum``~
+You stand in an ancient crypt from times forgotten.  The walls are bare
+and hewn in from the dark rock which composes the isle.  The floor and all
+surfaces are swept clean as if time did not touch this place.  Your eyes are
+drawn to a dark column, its surface pulsating with an unholy power filling
+you with dread.  Around it more then few skeletons litter the ground, all of
+them missing their skulls.  To your west a giant gate stands.  Its surface
+scribed with ancient runes, and barely flickering feeble light.  You have a
+strange feeling that the runes now hold a mere fraction of the power they
+used to have...  
+~
+~
+0 805838860 16384 3
+D1
+~
+~
+0 0 30001
+P EXALL 30004 east~
+S
+#30006
+`2In the Limbo of Unlife``~
+You float through the grey bleakness that is Limbo, the lands of the dead with
+only a mere spark of your life left. Through a mere chance or a boon of Sirant
+your soul was spared from the abbyss to which the servant of The Namless
+sent your soul.  Far above you a mere twinkling of Sirant's power sparkles
+and you know you are capable of leaving this place that way.
+~
+~
+0 9221 32768 3
+D4
+~
+~
+0 0 1
+M 0 H 0
+P EXALL 30005 up~
+S
+#30007
+`8In Deep Shit``~
+You are up to your thighs in deep stinking shit.  It covers your clothes
+and reeks of years and years of fear, arrogance, and idiocy.  
+
+If you are here, it means an Immortal has found you doing something you
+should not have.  BE QUIET, RESPECTFUL and LISTEN.  Otherwise save yourself
+the trouble and delete right now.  
+~
+~
+0 8448 1025 0
+S
+#30010
+`2The Eternal Glade``~
+You stand in a grassy glade surrounded by thick forest.  All around you
+feel the presence of life, as if someone or something was surrounding you,
+touching your mind and spirit.  The soft scent of damp grass and evergreen
+wafts on the air.  The sounds of insects and wildlife can be heard
+everywhere, as if unaffraid of your presence.  A small brook gently winds
+through the glade, disappearing into the woods.  
+~
+~
+0 0 32768 3
+S
+#30030
+`3Forest Throne``~
+~
+~
+0 870318084 32768 2
+S
+#30040
+`8Altar of Blind Truth``~
+Rich, exotic wood paneling covers the walls surrounding you in this
+cavernous room.  Cold, yet flawless granite covers the floor.  While
+a lone massive judicial bench of the same wood as the walls rises up 
+like a foreboding headstone before you.
+~
+~
+0 268969996 0 0
+D0
+~
+~
+0 0 30040
+D1
+~
+~
+0 0 30040
+D2
+~
+~
+0 0 30040
+D3
+~
+~
+0 0 30040
+S
+#30041
+`8A Small Morgue``~
+You are standing within a small morgue.  Lining the walls are various
+steel instruments caked with blood.  The dominant piece of furniture in the
+room is a large steel slab in the middle of the room held up by four
+dismembered arms.  The room is filled with an overpowering stench of death
+and decay.  
+~
+~
+0 532996 0 0
+T 80
+S
+#30050
+`8Up a Narrow Stairway``~
+You find yourself climbing a dark and narrow stairway. All around
+you the thick granite walls seem to be alive as your lightsource
+is consumed by the dark shadows present all around you. You are
+in a nexus of instability, and around any corner could reside
+the horrid Chaos Demons...
+~
+~
+0 65011712 0 0
+D4
+~
+~
+0 0 30100
+D5
+~
+~
+0 0 30051
+S
+#30051
+`8Up a Narrow Stairway``~
+You find yourself climbing a dark and narrow stairway. All around
+you the thick granite walls seem to be alive as your lightsource
+is consumed by the dark shadows present all around you. You are
+in a nexus of instability, and around any corner could reside
+the horrid Chaos Demons...
+~
+~
+0 65011712 0 0
+D4
+~
+~
+0 0 30050
+D5
+~
+~
+0 0 30060
+S
+#30052
+`8At the base of a staircase``~
+You are at a small landing to a stairway inside the Tower of the Wind.
+Lightning shatters the area all around you, and just your presence
+here makes you feel rather ill. The light is a tainted source and
+seems to cast odd shadows on all around you. A thick stone staircase
+leads upward.
+~
+~
+0 65011712 0 0
+D0
+~
+~
+0 0 30060
+D1
+~
+~
+0 0 30053
+S
+#30053
+`8Inside the Tower of the Winds``~
+You are inside the main door of the Tower of the Winds. If you
+have lost yourself, it would be wise for you to turn back, or so
+it seems. Skeletal remains litter the walk here, those of human,
+and many other races now unidentifiable. The denizens of this
+tower seem to not care about the piling bones surrounding this
+place.
+~
+~
+0 65011712 0 0
+D2
+~
+~
+ABCF 0 30054
+D3
+~
+~
+0 0 30052
+S
+#30054
+`8Inside a Grand Gate``~
+You stand now before a large gate. It is covered in heavy rust
+and corrosion, but still seems operable. A being clad in heavy
+cloaks and bearing a large scythe stands before the gate, as if
+an eternal guard to this unholiest of towers.
+~
+~
+0 65011712 0 0
+D0
+~
+gate~
+ABCF 30055 30053
+D5
+~
+~
+0 0 30055
+S
+#30055
+`8The Entrance to the Tower``~
+You stand before a broad entrance. The ground beneath you is
+cracked and crumbling. There is an ancient feel to the unholy
+grounds which surround you, and a sense of imminent darkness
+pervades your inner soul. A rusted sign is nailed to the front
+gate of this tower.
+~
+~
+0 0 0 0
+E
+sign~
+The sign reads:
+"Thine Angel visits few, and far between. Soul hath corrupted
+thy eternal will, and beyond such, shall traveler meet thy
+fate. Hands of darkness await, souls of chaos forge toil
+nearby, and the fated shall meet order's counter..."
+~
+D2
+~
+~
+0 0 30056
+D4
+~
+~
+0 0 30054
+S
+#30056
+`8A Ruined City Street``~
+You stand amid ruins of what was once a rather large city.
+Large, crumbling gray buildings rise up to the skies, in
+jagged fingers, but most of the heavy gray stone has fallen
+into the side streets, allowing this main road you only
+passage through. Ahead in the distance stands a looming
+gray tower. The air is cold, and you feel on edge.
+~
+~
+0 1 0 0
+D0
+~
+~
+0 0 30055
+D2
+~
+~
+0 0 30057
+S
+#30057
+`8A Ruined City Street``~
+You stand amid ruins of what was once a rather large city.
+Large, crumbling gray buildings rise up to the skies, in
+jagged fingers, but most of the heavy gray stone has fallen
+into the side streets, allowing this main road you only
+passage through. Ahead in the distance stands a looming
+gray tower. The air is cold, and you feel on edge.
+~
+~
+0 1 0 0
+D0
+~
+~
+0 0 30056
+D2
+~
+~
+0 0 30058
+S
+#30058
+`8A Ruined City Street``~
+You stand amid ruins of what was once a rather large city.
+Large, crumbling gray buildings rise up to the skies, in
+jagged fingers, but most of the heavy gray stone has fallen
+into the side streets, allowing this main road you only
+passage through. Ahead in the distance stands a looming
+gray tower. The air is cold, and you feel on edge.
+~
+~
+0 1 0 0
+D0
+~
+~
+0 0 30057
+D2
+~
+~
+0 0 30059
+S
+#30059
+`8A Ruined City Street``~
+You stand amid ruins of what was once a rather large city.
+Large, crumbling gray buildings rise up to the skies, in
+jagged fingers, but most of the heavy gray stone has fallen
+into the side streets, allowing this main road you only
+passage through. Ahead in the distance stands a looming
+gray tower. The air is cold, and you feel on edge.
+~
+~
+0 1 0 0
+D0
+~
+~
+0 0 30058
+S
+#30060
+`8Up a Narrow Stairway``~
+You find yourself climbing a dark and narrow stairway. All around
+you the thick granite walls seem to be alive as your lightsource
+is consumed by the dark shadows present all around you. You are
+in a nexus of instability, and around any corner could reside
+the horrid Chaos Demons...
+~
+~
+0 65011712 0 0
+D2
+~
+~
+0 0 30052
+D4
+~
+~
+0 0 30051
+S
+#30090
+`8Division by Zero``~
+~
+~
+0 4 0 0
+S
+#30091
+`8``~
+~
+~
+0 4 0 0
+S
+#30092
+`8``~
+~
+~
+0 4 0 0
+S
+#30093
+`8``~
+~
+~
+0 4 0 0
+S
+#30094
+`2The Glade``~
+You are standing in a huge glade. Massive trees encircle this
+place, their thick, leaf covered branches forming a canopy so 
+far above your head you can see clouds drifting by beneath them.
+Everything is bathed in a soft light whose source is not apparent.
+The thick, green grass is very soft beneath your feet, dotted here
+and there by sweet smelling flowers. A flock of deer watches you
+from the edge of the glade and the trees are home to a myriad of
+birds and quite a few squirrels. A small, crystal clear stream
+meanders through the grass, making a happy burbling sound. Despite
+all this you have the feeling that someone is watching you.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 30097
+D3
+~
+~
+0 0 30095
+S
+#30095
+`2The Glade``~
+You are standing in a huge glade. Massive trees encircle this
+place, their thick, leaf covered branches forming a canopy so 
+far above your head you can see clouds drifting by beneath them.
+Everything is bathed in a soft light whose source is not apparent.
+The thick, green grass is very soft beneath your feet, dotted here
+and there by sweet smelling flowers. A flock of deer watches you
+from the edge of the glade and the trees are home to a myriad of
+birds and quite a few squirrels. A small, crystal clear stream
+meanders through the grass, making a happy burbling sound. Despite
+all this you have the feeling that someone is watching you.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 30096
+D1
+~
+~
+0 0 30094
+S
+#30096
+`2The Glade``~
+You are standing in a huge glade. Massive trees encircle this
+place, their thick, leaf covered branches forming a canopy so 
+far above your head you can see clouds drifting by beneath them.
+Everything is bathed in a soft light whose source is not apparent.
+The thick, green grass is very soft beneath your feet, dotted here
+and there by sweet smelling flowers. A flock of deer watches you
+from the edge of the glade and the trees are home to a myriad of
+birds and quite a few squirrels. A small, crystal clear stream
+meanders through the grass, making a happy burbling sound. Despite
+all this you have the feeling that someone is watching you.
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 30097
+D2
+~
+~
+0 0 30095
+S
+#30097
+`2The Glade``~
+You are standing in a huge glade. Massive trees encircle this
+place, their thick, leaf covered branches forming a canopy so 
+far above your head you can see clouds drifting by beneath them.
+Everything is bathed in a soft light whose source is not apparent.
+The thick, green grass is very soft beneath your feet, dotted here
+and there by sweet smelling flowers. A flock of deer watches you
+from the edge of the glade and the trees are home to a myriad of
+birds and quite a few squirrels. A small, crystal clear stream
+meanders through the grass, making a happy burbling sound. Despite
+all this you have the feeling that someone is watching you.
+~
+~
+0 0 32768 3
+D2
+~
+~
+0 0 30094
+D3
+~
+~
+0 0 30096
+S
+#30098
+`8``~
+~
+~
+0 4 0 0
+S
+#30099
+`8Before the Chaos Portal``~
+You stand in a blackened room. Dark shadows play on the walls
+about you. A large being is present near you, but you cannot
+make out what or whom. You have been called before Shadowspawn,
+the Lord of Chaos, Avatar of Death...His room could well seal
+your permanent death. You feel it wise to remain silent, and
+step very lightly.
+~
+~
+0 870318080 0 0
+D2
+~
+~
+ABC 0 30100
+S
+#30100
+`8In the Grand Foyer of the Underworld``~
+You stand in a grand foyer. The walls are slate black, and carry a
+dull sheen. Large columns of black basalt rock span from floor to
+ceiling, supporting a roof well over 4 spans above you. On the wall
+tiles around you large black iron spikes just out from every square
+foot. On some, skeletal remains still hang, faces contorted in agony.
+The hard, black floor stretches across the gymnasium sized foyer,
+and shines with a bright polish. On the far side of the room a door
+is set in the wall.
+~
+~
+0 1071644680 0 0
+D0
+~
+entryway~
+ABC 30099 30099
+D5
+~
+~
+0 0 30050
+T 90
+S
+#30101
+`8The Home of Avariel``~
+You stand in an enourmous marble tiled room. The high ceiling
+is carved with large, intrcate arches. Then room is empty, save
+a giant Scale in the center of the room. In one side, is a 
+flickering flame, and in the other, a solid shadow. Behind the
+Scale sits an ornate oak chair. The chair is positioned as if
+the sitter could watch the Scale indefinately. A sense of burden
+hangs in the air, one of infinite purpose and responsibility.
+~
+~
+0 4 0 0
+S
+#30102
+`8A Small Entryway``~
+You stand in the entryway of the home of the ancient mage Bozbar.  Aside
+from some arcane markings upon the floor, you see nothing of interest.  The
+walls are made of stone, and though well crafted, are more practical than
+aesthetic.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 30103
+D3
+~
+~
+0 0 30105
+D4
+~
+~
+0 0 30107
+S
+#30103
+`8A Busy Kitchen``~
+The clank of pots and pans can be heard as servants rush about the
+kitchen, preparing food.  The smell of spices and herbs is overpowering,
+almost to the point of being unbearable.  You notice a small door in the
+back of the kitchen, with a sign above it.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 30104
+D3
+~
+~
+0 0 30102
+S
+#30104
+`8``~
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 30103
+S
+#30105
+`8``~
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 30106
+D1
+~
+~
+0 0 30102
+S
+#30106
+`8``~
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 30105
+S
+#30107
+`8``~
+At the top of the stairs in nothing but a single wooden door.  Engraved
+upon the door is the Great Pendulum of Aabahran, a symbol of balance and
+neutrality.  You notice the Pendulum seems to sway slightly, but dismiss it
+as a trick of the poor lighting.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 30103 30108
+D5
+~
+~
+0 0 30102
+S
+#30108
+`8``~
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 30107
+S
+#30150
+`8A Room of Purging``~
+Brilliant light cascades into the room, spiraling down from a
+hidden skylight in the ceiling. White marble columns stand in
+the four corners like stone Guardians. A faint layer of dust 
+has accrued on the floor before you. Centered in the middle of
+the floor is a seven-pointed star, embedded with pearl tiles.
+A faint aura of peace and regret eminates in the air.
+~
+~
+0 9228 0 0
+P RANDOM 30150 100~
+P DELAY 30151 100~
+S
+#30151
+`8A Marble Staircase``~
+You stand at the bottom of a grand staircase. The marble steps
+are aged and miscolored slightly, yet somehow remain the sheen
+they had in whatever Age they were made. You feel an urging to
+continue upwards... as if something is pulling you to take the 
+first step. 
+~
+~
+0 9224 0 0
+D4
+~
+~
+0 0 30152
+S
+#30152
+`8The Staircase Ends``~
+As the last step is taken, the room is bathed in light. Torches still
+burn in sacred holders, giving off an unknown incense. The dust swirls
+around your feet, as if pushed by an unseen wind. Great marble tables
+are set against each wall, each reflecting the light off their glazed
+surfaces. An exit to the south beckons you with a sense of urgency.
+~
+~
+0 9224 0 0
+D2
+~
+~
+0 0 30153
+D5
+~
+~
+0 0 30151
+S
+#30153
+`8Chamber of Expulsion``~
+Upon entering the room, a set of stocks and chains catch your eye. 
+Obviously created for holding a person still, the menacing steel 
+contraption seems a grand contrast from the rest of the room. Inlaid
+into the floor is the same seven-pointed star as seen before, only 
+this time surrounded by an amber Circle. There is a feeling of deep
+remorse and guilt in the air.
+~
+~
+0 9224 0 0
+D1
+~
+~
+ABG 0 30154
+P SPEECH 30165 an~
+P DELAY 30163 100~
+P GRALL 30153 100~
+P RANDOM 30154 100~
+P SPEECH 30155 brighid,~
+P SPEECH 30156 arianrhod,~
+P SPEECH 30157 lugh,~
+P SPEECH 30158 gwydion,~
+P SPEECH 30159 oengus~
+P SPEECH 30160 rhiannon,~
+P SPEECH 30161 macha,~
+S
+#30154
+`8The Purification``~
+You stand amid a room bathed in pure, white light. In the center
+of the room, a small black pentacle has been inscribed in the floor,
+with a colored candle burning at each point. In the center of the
+pentacle, a pile of colored robes can be seen covering something.
+A large, pristine woman is here, cloaked in ethereal mists, seeming
+as if she were a ghost, or some strange spectre.
+~
+~
+0 9228 0 0
+S
+#30200
+`8A Dimly Lit Living Room``~
+The sounds and light of the surface world are completely obstructed
+from this lavishly decorated room. Spanning well over twice the height
+of any regular room and almost the size of a small house in width.  A
+fine liquor cabinet sits at the side of a decadent velvety black
+couch, which looks so inviting.  Various paintings, inlaid with
+gold-trim frames hang from the walls detailing various past
+revolutions. This room is built for a king with no detail spared.
+~
+The sounds and light of the surface world are completely obstructed
+from this lavishly decorated room. Spanning well over twice the height
+of any regular room and almost the size of a small house in width.  A
+fine liquor cabinet sits at the side of a decadent velvety black
+couch, which looks so inviting.  Various paintings, inlaid with
+gold-trim frames hang from the walls detailing various past
+revolutions. This room is built for a king with no detail spared.
+~
+0 929562637 0 0
+M 10 H 200
+T 65
+S
+#30201
+`2Inside a Magical Vortex``~
+You are inside what appears to be a vortex of pulsating magic, swirling
+around a central point in the room.  It seems to be source of all magical
+power that is all around you.  The intense power of the vortex is very
+intense and overwhelming.  
+~
+~
+0 906504201 32772 3
+D0
+~
+~
+0 0 30203
+D1
+~
+~
+0 0 30206
+D2
+~
+~
+0 0 30204
+D3
+~
+~
+0 0 30207
+D4
+~
+~
+0 0 30202
+D5
+~
+~
+0 0 30205
+S
+#30202
+`8Mircea's Mind``~
+You are just a figment of Mircea's evil mind here.  Lost thoughts roam
+freely, without bounds.  Feelings of intesne evil loom here.  This is
+probably the darkest part of Mircea.  Many secrets and horrid thoughts are
+kept here.  
+~
+~
+0 906502157 0 0
+D5
+~
+~
+0 0 30201
+S
+#30203
+`8Mircea's Heart``~
+You are inside the confines of a cold, dark, empty void.  Shadows move
+about, lurking at every glance.  The sound of your breathing is overrun by
+the sound of the rhythmic beating of Mircea's heart.  Few dear to enter
+here, and even fewer understand the secrets kept inside.  
+~
+~
+0 906502157 0 0
+D2
+~
+~
+0 0 30201
+S
+#30204
+`8Mircea's Soul``~
+You are inside a cold dark place where all that makes Mircea what he is
+begins.  There is a great feeling of emptiness around you, a void if you
+will.  The dark secrets this soul holds seem to swirl chaotically around 
+you.  It seems everything collected here is waiting to consume you in a 
+vortex of despair and destruction.  
+~
+~
+0 906502157 0 0
+D0
+~
+~
+0 0 30201
+S
+#30205
+`8Inside Mircea's Moral Fortitude``~
+You are at the source of Mircea's moral worth.  You are overcome with a
+filling of fulfillment, yet very empty.  As you peer around in the darkness
+you notice there is nothing here, only silence.  It seems for Mircea, there
+is no moral worth for him.  
+~
+~
+0 900210693 0 0
+D4
+~
+~
+0 0 30201
+S
+#30206
+`8The Gateway to the Outer Reaches``~
+You stand before a gateway of energy spirialing towards the heavens.  Its purpose
+is unknown, and its destination is unclear.  As you gaze out into the darkness 
+towards the west, you realize that nothing could be more outragous than what you
+have just seen.
+~
+~
+0 906502157 0 0
+D3
+~
+~
+0 0 30201
+D4
+~
+gateway~
+ABG 0 30208
+S
+#30207
+`8Inside the Shadow of Despair``~
+You are in an utter cold darkness, where despair looms in a lonley accord.  
+The chilling darkness only parts for Mircea's shadow to take form.  An
+unsettling feeling forms in your gut, as you stand inside this shadow.
+~
+~
+0 906502157 0 0
+D1
+~
+~
+0 0 30201
+S
+#30208
+`8The Gateway to the Inner Reaches``~
+You stand before a gateway of energy spirialing downward like a whirlpool.  Its
+purpose is unknown, and its destination is unclear.  As you gaze out into the 
+darkness towards the east, you realize that nothing could be more outragous than 
+what you have just seen.
+~
+~
+0 906502157 0 0
+D1
+~
+~
+0 0 30209
+D5
+~
+gateway~
+ABG 0 30206
+S
+#30209
+`3Perplexity``~
+The sky drips profusely onto the ground as it vortexes around you. The grass 
+beats against your feet like waves from the ocean. Bright rays of light blind you 
+and the ground seems to move, confusing you more.  The actions of this place are 
+quite similar to a hallucination.
+~
+~
+0 906502157 32768 2
+D0
+~
+~
+0 0 30210
+D1
+~
+~
+0 0 30212
+D2
+~
+~
+0 0 30211
+D3
+~
+~
+0 0 30208
+S
+#30210
+`3A Puzzling Ramp ``~
+You sway back and forth almost losing your balance on a ramp that rocks up and 
+down like a seesaw. It is hard to understand which way the ramp goes for it is 
+constantly contorting and moving at a different angle all the time.
+~
+~
+0 906502157 65536 2
+D1
+~
+~
+0 0 30216
+D2
+~
+~
+0 0 30209
+D3
+~
+~
+0 0 30213
+S
+#30211
+`3Amidst Lush Pastures ``~
+A short blue grass grows across the ground of this lush pasture.   Invisible 
+flowers grow wildly across the ground, thriving on the vast rays of light. 
+Shimmering with glee, orange drops of dew collects on the blades of grass and 
+sway in the breeze.
+~
+~
+0 906502156 32768 2
+D0
+~
+~
+0 0 30209
+D1
+~
+~
+0 0 30217
+D2
+~
+~
+0 0 30227
+S
+#30212
+`3A Small Gravel Path ``~
+Tiny green chunks of gravel form a small path that guides your way through the 
+area.  Long vines hang down over your head, but you do not see anything they
+could be attached to. It is if they are attached to the sky. This is one strange
+place.
+~
+~
+0 906502157 32768 2
+D0
+~
+~
+0 0 30216
+D2
+~
+~
+0 0 30217
+D3
+~
+~
+0 0 30209
+S
+#30213
+`3Outside a Small Cabin ``~
+Before you is an old cabin that is almost in ruins.  Orange vines climb up the 
+outside nearly engulfing the whole structure.  A collapsed porch hangs over your 
+head.  Tree branches loom over the tin roof and scratch the surface, producing 
+an eerie screech. 
+~
+~
+0 906502157 65536 2
+D1
+~
+~
+0 0 30210
+D2
+~
+~
+0 0 30214
+S
+#30214
+`8Inside a Small Cabin ``~
+You are inside a tiny cabin. Broken glass and boards litter your path. An annoying 
+creaking can be heard with every step. From outside, the wind slams the broken
+shutters against the side of the house. You hope whatever lived here is gone.
+~
+~
+0 906502157 0 0
+D0
+~
+~
+0 0 30213
+D1
+~
+~
+0 0 30215
+S
+#30215
+`8A Collapsed Side of the Cabin ``~
+The weight of the cabin has caused the boards to buckle here, collapsing this
+room in the cabin. Falling rubble and blinding dust make it hard to see where
+a safe place to walk. This is making being here quite dangerous.   
+~
+~
+0 906502157 0 0
+D3
+~
+~
+0 0 30214
+S
+#30216
+`3A Tiny Garden ``~
+You are standing in a well-maintained garden. Rich soil and vast amounts of 
+water provide sustenance for these unusual plants to flourish.  In the distance 
+small scarecrow can be seen in the garden, designed to keep out pests.
+~
+~
+0 906502157 16384 2
+D1
+~
+~
+0 0 30218
+D2
+~
+~
+0 0 30212
+D3
+~
+~
+0 0 30210
+S
+#30217
+`3A Large Field ``~
+Spiraling stalks of grass sway in a unison chorus of brown majesty along this vast 
+field. Patches of stump grass seem to make it difficult for you to step. The sound
+of buzzing insects fill you ears, yet the grass is surrounding you so tightly that 
+you can't see where they are to swat them away. 
+~
+~
+0 906502157 16384 2
+D0
+~
+~
+0 0 30212
+D2
+~
+~
+0 0 30219
+D3
+~
+~
+0 0 30211
+S
+#30218
+`3Rows of Tomatoes ``~
+You are standing between the rows of giant tomato plants. They are over 10 ft.
+tall and seem to engulf you. Huge tomatoes loom over you blocking out the light.
+The way the tomato vines are getting tangled in your feet you would think they
+were alive and trying to consume you.
+~
+~
+0 906502156 65536 2
+D3
+~
+~
+0 0 30216
+S
+#30219
+`3A Thick Line of Trees ``~
+You are along the edge of a thick wall of brilliant green trees. These growing 
+creations seem to form a seemly impenetrable barrier around you. The trees seem 
+to part for the screams of many forest animals off in the distance. 
+~
+~
+0 906502157 65536 2
+D0
+~
+~
+0 0 30217
+D2
+~
+~
+0 0 30220
+S
+#30220
+`3A Dark Hidden Footpath ``~
+Covered in black moss, a well used footpath twists through the forest.  Tree limbs 
+slap you in the face as if they are alive with anger. All around you here, the 
+sounds of rustling in the leaves and you get a sense that you are being watched. 
+You hope that it is just your imagination.
+~
+~
+0 906502157 32768 2
+D0
+~
+~
+0 0 30219
+D2
+~
+~
+0 0 30221
+S
+#30221
+`3On the Banks of a Small Creek ``~
+You are totally confused as you stand at the edge of a small creek. The laws of 
+Physics do not seem to apply here. This clear water majesty is flowing in an 
+unexplainable manner. You can see the whole creek in this area. There is no 
+beginning and no ending, just the endless circular flowing of rushing water.   
+~
+~
+0 906502157 32768 2
+D0
+~
+~
+0 0 30220
+D1
+~
+~
+0 0 30222
+S
+#30222
+`^The Edge of the Pond ``~
+You are at the edge of a bubbling, swirling, and churning pond. The foul stench of 
+the stagnant water fills your noise. The crooking of several frogs can be heard all
+about. Purple lily pads can be seen floating in the water off in the distance.  
+~
+~
+0 906502157 0 6
+D2
+~
+~
+0 0 30223
+D3
+~
+~
+0 0 30221
+S
+#30223
+`^A Strange Pond ``~
+You are standing knee deep in murky green water. Your feet are getting hung in the
+suction of the thick mud. You can feel creatures pelting you in the legs but the
+the water is too murky to see their size. You hope that they are small and not
+hungry.
+~
+~
+0 906502157 0 6
+D0
+~
+~
+0 0 30222
+D3
+~
+~
+0 0 30224
+S
+#30224
+`^Along the Back of the Pond``~
+You are in a portion of the pond that is less traveled. Thick weeds and stagnation 
+coat your path. Broken tree stumps poke out from the stench of the foul stagnant 
+water in an attempt to get a breath of fresh air.
+~
+~
+0 906502157 0 6
+D1
+~
+~
+0 0 30223
+D3
+~
+~
+0 0 30225
+S
+#30225
+`^A Strange Side Pool ``~
+A small shallow pool of water lies trembling in the light. Small colorful fish 
+can be seen scurrying about. Nibbling and chasing each other whom also got caught 
+here in this watery death trap when the water receded.  This place is indeed
+strange.
+~
+~
+0 906502157 0 6
+D0
+~
+~
+0 0 30226
+D1
+~
+~
+0 0 30224
+S
+#30226
+`3Thick Grass and Mud ``~
+You are engulfed in thick swamp grass and deep brown mud. Your feet are swallowed 
+by the powerful suction of the mud. Huge flies, enticed by the stench of the, 
+stagnant damp marsh, swarm around the area. A breath of fresh air would sure be a 
+welcomed gift.
+~
+~
+0 906502157 32768 2
+D0
+~
+~
+0 0 30227
+D2
+~
+~
+0 0 30225
+S
+#30227
+`3A Mysterious Trail ``~
+A thick fog rolls in and surrounds your body. You can barely see the path, much 
+less breathe in this thick green mass. The trail winds in the darkness of the dense
+forest. A momentary chill overcomes you as a faint sound grabs your attention.
+~
+~
+0 906502157 8192 2
+D0
+~
+~
+0 0 30211
+D2
+~
+~
+0 0 30226
+S
+#30228
+`8Inside a Shadow``~
+Lunima
+Gyrambus
+~
+~
+0 906502157 0 0
+S
+#30229
+`8On the Tongue of a Serpent``~
+You are standing on the edge of a serpents tongue.  You seem to be here
+because your tongue is just that of a serpent.  Your forked tongue speaks
+without presense of thought and is not very appropriate in society.  You can
+remain on the edge of the serpents tongue until the serpent realizes he has
+a meal on his tongue and engulfs you, or you can clean your vocabulary and
+hope he spits you out.  Even on the edge of a serpents tongue no one can
+hear you scream.  
+~
+~
+0 838860804 0 0
+S
+#30230
+`8Before the Throne of Power``~
+You are standing before the Throne of Power, where Mircea sits to look over all
+that was created.  Everywhere the light and shadows touch, Mircea can see.  Now
+you are graced to be in such a place, in the presence of a God.  But for what
+reason?
+~
+~
+0 906502156 0 0
+S
+#30250
+`2The Eternal Library``~
+Truly the most amazing place you have ever seen in your life, the Eternal
+Library holds the wisdom of every generation of mortals to walk Aabahran, of
+every race.  Crafted from the living trees themselves, and forming a massive
+canopy to prevent rain from touching the treasured tomes and works, the
+library used no wood or stone, only the living creatures of Aabahran, its
+lifeblood, its children, the plants and trees to create a two hundred foot
+enclosure that is nearly twenty stories high.  Created nearly two thousand
+years ago by the great elven druids of Ancient Shaszarade, the Eternal
+Library houses more knowledge then every mortal library in Aabahran. 
+Occasionally a mortal is given access to the tomes, but they are all works
+scribed by the Gods of the Heralds themselves as they record time for all
+eternity.  Over the centuries, magic, and advances in druidic lore have
+strengthened the eternal library to have smaller, sideways growing talwyd
+trees to hold all the tomes above the ground itself which has been known to
+get damp and cause seepage into the texts.  A hundred small pixies, faeries,
+and sprites tend the tomes, making sure they are placed in the right spot,
+and generally keeping the things in order.  Truly you are blessed to witness
+such.  
+~
+~
+0 9476 16384 3
+S
+#30293
+`6Amongst the Clouds``~
+You are floating in mid-air.  Puffy clouds of all shapes and sizes glide
+gently past you, though you feel no wind.  Beyond them is a light-blue sky
+that stretches as far as you can see, and beyond.  A sense of calm surrounds
+this place, so strong and so complete that one feels little else.  Indeed it
+seems as if you are in a dream, and a very pleasant one at that.
+  As you continue to gaze thoughtlessly, you begin to feel that you are not
+alone...
+~
+~
+0 9480 0 9
+S
+#30294
+`8Precipice of Purity``~
+You stand on the plateau of a surreal mountain top.  Thick white
+clouds obscure your view to the ground below.  The ocean of white
+extends as far as you can see in all directions.  White light from
+an indeterminable source dances over the clouds, sending soft
+reflections that seem to concentrate on your location.  Before you
+brightly polished silver tiles lead to an abrupt drop-off. This path 
+is lined with glowing white statues of warriors in gallant poses.
+At the end of this path the cloud banks form a massive thrown that
+hovers beyond the precipice.  You feel the righteous call of honor,
+valor and courage permeate through your soul.
+~
+~
+0 8456 1024 0
+M 150 H 150
+S
+#30295
+`8Peikloz's Personal Collection.``~
+You find yourself standing in the middle of a magical staircase.  Its
+lowest and highest point is unseen.  Both sides of the staircase are made of
+bookshelves and seem to be filled with all that Peikloz has collected.  An
+intense glow from the magical stones which floats in the air above you. 
+Despite the light it gives you are unable to see anything else but darkness
+when leaning to see what there is on the side, you find nothing but
+darkness.  As you walk in the staircase you shiver from the misty cold air. 
+Allthough this place seems lifeless and lonely, you manage to make out a
+silent distant voice..
+~
+You find yourself standing in the middle of a magical staircase.  Its
+lowest and highest point is unseen.  Both sides of the staircase are made of
+bookshelves and seem to be filled with all that Peikloz has collected.  An
+intense glow from the magical stones which floats in the air above you. 
+Despite the light it gives you are unable to see anything else but darkness
+when leaning to see what there is on the side, you find nothing but
+darkness.  As you walk in the staircase you shiver from the misty cold air. 
+Allthough this place seems lifeless and lonely, you manage to make out a
+silent distant voice..
+~
+0 533504 1024 0
+S
+#30296
+`1A Cacophonous Inferno``~
+Immediately upon entering this unnatural void, the backs of your eyes start 
+to strain and ache from the vehement barrage of bright devouring flame. 
+Pillars of blazing fire and ash swirl around your body unendingly, and though 
+they are close enough to cremate you alive, your skin remains unscathed. The 
+fire feels very real, however, instantly forcing you to your knees. The embers 
+do not release any harmful chemicals, yet you still choke and wheeze in a 
+futile effort to breathe. Your eyes soon start to tear, attempting to clean 
+themselves of the smoke that does not exist. A circular isolated precipice is 
+all that supports your mortal coil, exponentially infinitesimal in comparison 
+to the unbounded territory around you. Yet, in the midst of the blazing fires, 
+an immense flying shadowy figure looms menacingly. For a moment, you feel as 
+though it is laughing at you, although no clear sound can be heard.
+~
+~
+0 870318088 1024 11
+S
+#30297
+`&Within the Light``~
+All around you, blindingly bright light shines from unseen sources,
+blurring your vision greatly.  Standing not on physical surface, but rather
+the light itself, a strange, vibrant, and warm feeling slowly spreads
+through your feet into your body.  As your eyes adjust to the light, you can
+make out a few shaded outlines of objects scattered about.  The light seems
+to stretch on for what could very well be an eternity, in every direction,
+ever contouring itself around your body.  
+~
+~
+0 8192 0 12
+M 200 H 200
+S
+#30298
+`8Overturned Earth``~
+Are you dead?  Opening your eyes, you behold what can best be described
+as a grave, albeit a large one.  The loamy soil muffles the sound and
+amplifies the beats of your own heartbeat into a terrible macabre rythm. 
+Despite a lack of torches, the room is illuminated but in a method that only
+seems to deepen the existing shadows, and make it more difficult to see. 
+But one thing is clear, an overwhelming sensation of despair.  The stench of
+death and decay fill your nostrils, sweetened by the heady smell of
+overturned earth.  Looking above, the roots of unseen plants dangle from the
+ceiling and beneath your feet worms writhe and churn the soil.  In the far
+corner, a neatly lain garden is tended, rows of root vegetables clearly
+identified by small, wooden signs.  
+~
+~
+0 8201 0 0
+E
+signs~
+Small, illustrated, wooden signs have been inserted into the soil, clearly identifying
+the vibrant vegetables as turnips.  Ornate, pewter nameplates are hung from delicate
+silver chains around the leafy bits of each.  The names, Cyril, Graham, and Peter are
+engraved on the signs closest to you.
+~
+P RANDOM 30298 10~
+S
+#30299
+`8The Great Hall of Apathy``~
+You find yourself standing in the middle of a grand hall.  Vaulted
+ceilings stretch out far above your head, and ornately carved pillars line
+the walls of this immense hall, their intricately formed heads supporting
+the roofs obviously great weight.  There are no windows that you can see,
+nor any visible light sources, yet the room is bathed in a cold, white
+light.  The walls are unadorned hewn stone, as is the floor, save for a
+large, featureless stone dias at the far end of the room.  Upon this huge
+pedestal stands a throne hewn of dull grey metal, and apholstered in purple
+velvet.  The acoustics of this room enhance every sound, regardless of how
+minute, and even your heart beat seems to reverberate off of the cold walls.
+Behind the throne, upon the wall is a large mithril disc, devoid of decor.
+~
+~
+0 8196 0 0
+S
+#30300
+`8The Object Room``~
+Imms only! If you are mortal, and stuck here, pray to the
+Gods to get you out...
+~
+~
+0 532484 0 8
+S
+#30303
+`2The OLC Classroom``~
+If you are here, you are a prospective builder, learning to build
+on Mirlan for the first time. This mob is equipped with a
+full OLC tutorial. For help, just LOOK at the instructor, and you
+will know where to begin. If you are finished, just PRAY, and an
+Immortal will transfer you out.
+~
+~
+0 8196 65536 3
+S
+#30350
+`2A Dark Pass``~
+The hazy clouds in the sky never move an inch, dumfounding your tracking
+skills and making it quite impossible to navigate.  A very stagnant smell
+permeates from the soft mushy ground below, leaving questions as to what
+truly lies below your feet.  The air is very thick and humid all around you.
+An odd willow tree sits right in the middle, like some sort of a marker for
+this room.  
+~
+The hazy clouds in the sky never move an inch, dumfounding your tracking
+skills and making it quite impossible to navigate.  A very stagnant smell
+permeates from the soft mushy ground below, leaving questions as to what
+truly lies below your feet.  The air is very thick and humid all around you.
+An odd willow tree sits right in the middle, like some sort of a marker for
+this room.  
+~
+0 929562625 8192 3
+D0
+~
+~
+0 0 30350
+D1
+~
+~
+0 0 30350
+D2
+~
+~
+0 0 30350
+D3
+~
+~
+0 0 30350
+D4
+~
+~
+0 0 30350
+D5
+~
+~
+0 0 30350
+M 100 H 50
+S
+#30360
+`3On a Path of Gold``~
+~
+~
+0 2105348 16384 2
+S
+#30361
+`8``~
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 30362
+D1
+~
+~
+0 0 30361
+D3
+~
+~
+0 0 30361
+S
+#30362
+`8``~
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 30361
+S
+#30400
+`2The Eye of the Demon``~
+You appear in a dark room, and naked.  A bright flash of light leaves
+translucent outlines in your blackened vision.  A soft rhythmic thumping is
+the only noise you hear.  Its speed increases with each sequence, and is no
+different than what you would imagine the beating of a slowly dieing heart
+to sound like, each urgent pulse a sudden and fading gasp for life.  Slowly
+your eyes begin to clear, and the heat begins to become unbearable.  Before
+you and around you is a large and mutilated eye..  Its sinewy and bloodshot
+veins ripple from the inside.  You are inside.  There is no air here, and
+you begin to double up, and silenty asphyxiate.  Though it seems just an
+illusion, as it blinks it seems to focus...  As if watching you.  A dark
+presence resides here.  
+~
+~
+0 4 16384 3
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 30002 spec_hunter_allied_warp
+M 30003 spec_hunter_allied
+M 30004 spec_hunter_allied_warp
+M 30007 spec_hunter_allied_cwarp
+M 30041 spec_poison
+M 30053 spec_gate_guard
+S
+
+
+
+#TRAPS
+#30000
+Morgorin's Little Trap~
+~
+~
+damage 50 0
+slash 1 1 1 1
+#0
+
+#RESETS
+O 0 30002 0 30000
+M 0 30008 1 30000 1
+M 0 30000 2 30005 1
+O 0 30002 0 30005
+O 0 30024 0 30005
+O 0 30028 0 30006
+O 0 100 0 30007
+O 0 30030 0 30010
+O 0 30041 0 30041
+O 0 30041 0 30041
+M 0 30053 10 30050 10
+M 0 30053 10 30050 10
+M 0 30053 25 30050 3
+M 0 30053 10 30051 10
+M 0 30053 10 30051 10
+M 0 30053 25 30051 3
+M 0 30053 10 30052 10
+M 0 30053 10 30052 10
+M 0 30053 25 30052 3
+M 0 30053 10 30053 10
+M 0 30053 10 30053 10
+M 0 30053 25 30053 3
+M 0 30054 1 30054 1
+E 0 30054 0 0
+M 0 30053 25 30054 3
+M 0 30053 10 30060 10
+M 0 30053 10 30060 10
+M 0 30053 25 30060 3
+O 0 30093 0 30097
+M 0 30097 2 30097 1
+M 0 30096 5 30097 1
+M 0 30095 4 30097 1
+M 0 30099 1 30099 1
+E 0 30098 0 6
+M 0 30100 1 30100 1
+E 0 30099 0 19
+O 0 30126 0 30101
+O 0 30127 0 30101
+O 0 30128 0 30101
+O 0 30101 0 30101
+O 0 30101 0 30101
+O 0 30101 0 30101
+O 0 30101 0 30101
+M 0 30152 1 30152 1
+O 0 30153 0 30153
+M 0 30155 1 30154 1
+M 0 30210 1 30200 1
+M 0 30211 1 30200 1
+M 0 30201 1 30201 1
+G 0 30201 0
+G 0 30202 0
+G 0 30203 0
+G 0 30206 0
+G 0 30208 0
+G 0 30211 0
+G 0 30212 0
+G 0 30213 0
+G 0 30214 0
+G 0 30207 0
+G 0 30204 0
+O 0 30205 0 30203
+O 0 30209 0 30211
+M 0 30202 1 30218 1
+O 0 30210 0 30224
+O 0 30107 0 30250
+M 0 30293 1 30293 1
+O 0 30293 0 30293
+O 0 30294 0 30294
+M 0 30294 1 30294 1
+M 0 30295 1 30295 1
+M 0 30295 1 30295 1
+O 0 30296 0 30296
+O 0 30299 0 30299
+M 0 30300 1 30300 1
+O 0 30300 0 30300
+O 0 30301 0 30300
+O 0 30302 0 30300
+O 0 30303 0 30300
+O 0 30304 0 30300
+O 0 30305 0 30300
+O 0 30306 0 30300
+O 0 30307 0 30300
+O 0 30307 0 30300
+O 0 30308 0 30300
+O 0 30309 0 30300
+O 0 30305 0 30300
+O 0 30306 0 30300
+O 0 30307 0 30300
+O 0 30308 0 30300
+O 0 30309 0 30300
+O 0 30309 0 30300
+O 0 30310 0 30300
+O 0 30020 0 30300
+O 0 30394 0 30300
+O 0 30104 0 30300
+O 0 30312 0 30300
+M 0 30303 1 30303 1
+O 0 30354 0 30350
+O 0 30361 0 30360
+O 0 30363 0 30360
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#30000
+if isimmort $n
+  mob echoat $n $I bows before  you and lets you pass.
+  mob echoaround $n $I bows before $N as $j lets $m pass.
+  break
+endif
+mob echoaround $n $N attempts to leave but $I seems to block the exit!
+mob echoat $n $I blocks your passage.  To proceed would be sure death!
+mob stop $n       
+~
+#30001
+if isimmort $n
+  if isdelay $i
+  or name $n Morgorin
+    break
+  endif
+  '$N, YOU'RE FIRED!
+  mob delay 3
+endif
+~
+#30002
+~
+#30003
+if rand 20
+  mob echo $I emits a blood curdling scream.
+  mob zecho A chilling scream echoes through the area!
+endif
+if affspell $i 'timer'
+  break
+else
+ mob attrib $i timer = 48
+endif     
+~
+#30004
+mob echo $I emits one final cry of hate and fades away.
+~
+#30005
+if vnum $i == 30003 
+  if hpcnt $i < 20
+    say We shall meet again $N!
+    mob delay 12
+    mob remember $n
+    mob echo $I snarls angrly and retreats.
+    random
+    break
+  endif
+endif
+if rand 10
+  lifedrain
+  break
+endif
+if rand 15
+  cast 'blindness'
+  break
+endif
+if rand 20
+  cast 'plague'
+  break
+endif            
+~
+#30006
+if isnpc $n
+  if rand 30
+    break
+  endif
+  mob echo `8Shadows thicken about $N's corpse and it rises forth!``
+  mob mload 30002
+  set string char 1.shade name zombie shade $N's
+  set string char 1.zombie short a zombie
+  set string char 1.zombie long A zombie shambles towards you.
+  force 1.zombie emote begins to grope towards you!
+  break
+endif
+mob echo `8Shadows thicken about $N's corpse and a shade steps forth!``
+mob zecho $N's shade screams its first cry of hate!
+mob  mload 30003
+set string char 1.shade nam $N's shade undead
+set string char 1.shade short $N's Shade
+set string char 1.shade long $N's Shade stares at you hungrly.
+ 
+~
+#30007
+if rand 20
+  mob echo $I emits a blood curdling scream.
+  mob zecho A chilling scream echoes through the area!
+endif
+if affspell $i 'timer'
+  break
+else
+ mob attrib $i timer = 250
+endif     
+~
+#30008
+if hastarget $i
+  mob goto $q
+  mob echoat $q `8The shadows around you grow strangely animated!``
+  mob echoaround $q `8The shadows around $Q grow strangely animated!``
+  say Remeber me $Q?
+  murder $q
+endif
+~
+#30009
+if wears $n 30005
+  mob echoat $n As $I attacks you the amulet fades dead black.  
+  mob echoaround $n As $I attacks $N $s's amulet fades dead black.
+  if room $i <= 20906 
+    if room $i >= 20901
+      echo With the Well of Souls nearby $I attacks anyway!
+      murder $n
+      break
+    endif
+  endif
+  random
+  break
+else
+  mob echoat $n $I emits a blood chilling scream and attacks you!
+  mob echoaround $n $I emits a blood chilling scream and attacks $N!
+  murder $n
+endif 
+~
+#30010
+if getdelay == 20
+  mob call 30011 $i null null
+  break
+endif
+if getdelay == 18
+  mob call 30012 $i null null
+  break
+endif
+if getdelay == 16
+  mob call 30013 $i null null
+  break
+endif
+if getdelay == 14
+  mob call 30014 $i null null
+  break
+endif
+if getdelay == 12
+  mob call 30015 $i null null
+  break
+endif
+if getdelay == 10
+  mob call 30016 $i null null
+  break
+endif
+if getdelay == 8
+  mob call 30017 $i null null
+  break
+endif
+if getdelay == 6
+  mob call 30018 $i null null
+  break
+endif
+if getdelay == 4
+  mob call 30019 $i null null
+  break
+endif
+if getdelay == 2
+  mob echo You feel as if you are rushed upwards, away!
+  mob echo ```
+  mob echo You find yourself blinking as you are about to step through the Gates of Judgement.
+  mob echo The strange dream like experience still in your mind, you brazenly step through!
+  mob echo ```
+  mob rtransfer $i 30005
+  mob goto 30005
+  tell Morgorin's start
+  mob goto 30004
+  mob attrib $i timer = 1
+  break
+endif
+if isdelay $i
+  break
+endif
+mob delay 21
+mob attrib $i timer = 21
+~
+#30011
+emote continues after a while.
+'The tale of how the Nameless was created, you surely know and I will not waste time on it.
+'Yet much is left unsaid about the vile force's prison, the accursed pillar itself!
+mob echo As the apparition of Amedus speak a strange feeling comes over you..
+mob echo ```
+mob echo *change*
+mob echo ```
+mob echo You are in a small tower room, a single window showing a dark burdened sky.
+mob echo Two man stand looking out at the steel firmament, with wind carrying shrill cries of undead.
+mob echo One of the man you _know_ is Amedus the other is Zigmunt the Ageless, leader of the Order.
+mob echo Zigmunt says `#..and they grow stronger still Amedus!  I can't hide the truth from the Council.``
+mob echo `#            Unless we take drastic measures the last fortress of Light will fall within this year!``
+mob echo Amedus says `#But the reports..``
+mob echo Zigmunt says `#Were false!  Its forces will soon besiege us and then nothing shall save this land!``
+mob echo The last words ring like a bell through your mind, and you _know_ this to be a counter point.
+mob echo The vision begins to fade...
+mob echo ```
+mob cast 'create spring'
+mob cast 'create food'
+mob cast 'create food'
+mob cast 'create food'
+mob cast 'create food'
+~
+#30012
+mob echo ```
+mob echo *change*
+mob echo ```
+mob echo Once again you see Amedus in the same room, but this time the room is dustier.
+mob echo His once bright robes sparkling with intricate runes are now stained and frayed.
+mob echo He sits hunched over with a light of a torch drawing runes you recognize from
+mob echo ``the Pillar of Souls and the Gates of Judgement.  As you watch he turns his eyes
+mob echo ``away from the sheets of paper towards a pair of heavily warded shutters on the wall.
+mob echo Amedus: `#What is the price of life?.. And if life is priceless then what of the soul?``
+mob echo Amedus: `#A pillar of Starstone, the runes of Life, Light and Earth.``
+mob echo Amedus: `#The effort of a thousand clerics, yet the true price remains at hand to be paid..``
+mob echo The hunched figure turns back towards the sheets as blood chilling cries of hate erupt
+mob echo ``behind the shutters, quickly followed by sounds of battle.``
+mob echo The vision begins to fade...
+mob echo ``
+~
+#30013
+mob echo ``
+mob echo *change*
+mob echo ``
+mob echo A new vision, a new time, a new place.. Your mind once again moves in time and space.
+mob echo You stand in a great cathedral, its dome shaped ceiling over hundred meters above you.
+mob echo The great building is filled sparsely by men in arms which you _know_ are of Order of Light.
+mob echo Their faces are gaunt with hunger, scarred by countless battles, but most of all carry the
+mob echo ``look of men who have lost all hope, and cling to life only because the alternative is far
+mob echo ``worse.  The rest of the building is filled with clerics and men and women of Art already
+mob echo ``in process of summoning the Nameless to be trapped.
+mob echo ``
+mob echo In the middle of the cathedral a great pillar of hewn, black rock stands, and even now you
+mob echo ``recognize the figure of Amedus Divinity working the last touches of the Great Art upon its
+mob echo ``surface as last preparations are made.  A giant arch of runed and worked stone flickers
+mob echo ``in and out of existence, the horrible means of damnation and salvation at once..
+mob echo ``
+mob echo His voice caring clear, even as he stands awkward his face scarred, his only arm carrying the
+mob echo ``staff of his office, Zigmunt ends his address the remaining men and women of the Order.
+mob echo Zigmunt says `#..yet it is the sacrifice we have to make.  This time we no longer sacrifice
+mob echo `#              ourselves to save lives of whom we love, but their very souls!``
+mob echo Words failing him, Zigmunt the Ageless, now a scarred, broken shadow of a man of 20 years past
+mob echo ``begins to walk forward towards the pillar knowing that those whom would follow him have already
+mob echo ``decided to do so months ago.
+mob echo ``
+mob echo Battle alarms begin to ring and battle erupts about the cathedral as the last of the 100 Clerics
+mob echo disappear amidst chanting and magics such as have not been felt for millennia.
+mob echo As the vision begins to fade you see Amedus, a scared old man in frayed torn robes.  
+mob echo He weeps in the shadowy corner oblivious to the battle about him..
+mob echo ``
+~
+#30014
+mob echo ``
+mob echo *change*
+mob echo You are once again in the darkness..
+'They went! Knowing that an eternal imprisonment awaits them they still went!
+'Think you your mere life or equipment are priceless.. How do you sacrifice your soul?..
+emote begins to blur its face twisted in pain and agony only to weep for a thousandth time.
+'A hundred of the Order whom I was second in command of passed through into the Pillar, their
+'souls locked within to fuel the Pillar of Soul's powers for eternity.  My friends, loyal men, 
+'mentors and students.  I did not even see them go..
+'Great plight is cowardice, for it makes enemy of oneself.  And as time does pass so does the
+'venom of guilt build.  And when time, guilt and fear are your enemy, even the greatest men shall
+'kneel to their power..
+mob echo ```
+mob echo You begin sensing a new vision takeover you mind once again.
+~
+#30015
+mob echo ``
+mob echo *change*
+mob echo ``
+mob echo Once again you revisit the small dusty room high in the tower of S'handar Fortress.
+mob echo This time the shutters are light wooden ones, closed merely to keep the chill out.
+mob echo A single candle burns brightly by desk filled with dark dusty tomes.
+mob echo A man whom you _know_ to be Amedus Divine with his hair grayed studies the tomes.
+mob echo ``
+mob echo Amedus: `#Time.. Always it is Time..  The ever hungry, the unstoppable time..``
+mob echo Amedus: `#What worth is knowledge of Great Art when it stands useless against its assault?``
+mob echo As those thoughts pass through your mind the candle upon the table flickers.
+mob echo Unnatural chill passes through you and you see Amedus's breath mist in the air.
+mob echo He stands slowly, a single staff as his support, covered in flaring runes of Power.
+mob echo ``
+mob echo Amedus raises the staff high and brilliant wardings of searing light encircle him.
+mob echo Amedus yells `6You shall not win me! You hear!  You are trapped, powerless! Begone!``
+mob echo Amedus yells `6I will not fall to your revenge! Not last night, not next night, ``
+mob echo `6            and not the night after!``
+mob echo The shadows encircle the brilliant ward, as if testing the defense for a weakness.
+mob echo Amedus shrieks `6You are trapped!! This is merely a residual effect of the warding!
+mob echo `6             Residual effect! Begone!``
+mob echo Then the darkness retreats, leaving the old man wheezing as he leans heavily on his staff.
+mob echo The candle flickers and all is as was, except for a circular sear of the ward's power
+mob echo ``burnt into the floor covered by hundreds of its twins...``
+mob echo Amedus says `#Yes.. residual warding effect.. Time.. always time..``
+mob echo ``
+mob echo The vision fades with the old hunched man sifting through yet another tome his breath
+mob echo ``still haggard and heavy.``
+~
+#30016
+mob echo ``
+mob echo *change*
+mob echo You are once again in the darkness..
+'And so I searched, vainly for a way to protect myself against the Nameless revenge.
+'But how do you escape the inescapable?  Death, end of existence?  It all ends does it not?
+emote seems to grin sadly.
+'I did not know then that Zigmunt KNEW.  He knew from the start that It would never be fully contained.
+'And so to be trapped, to be ever out of its reach was far better then fall prey to Its power..
+emote seems to blur once again yet it regains its composure.
+mob echo ```
+'I searched for near 12 years for a way to cheat death forever.
+'Less and less I came out of my room, as the venoms of fear, and guilt clawed upon my spirit.
+'Finally when my days were at end, I incaned the first rune of the warding I prepared for such an eventuality.
+'And so I sent myself to this limbo, through Great Art, thinking myself safe in my madness.
+'I was a fool!  It found me, and finally I knew the purpose of its tireless visitations..
+emote falls silent as the final vision fills your mind.
+~
+#30017
+mob echo ``
+mob echo *change*
+mob echo You stand before the magnificent Gates of Judgement, its surface shining forth
+mob echo with great power.  Its surface perfect in geometry and layout of the great runes
+mob echo ``unmarred by any taint or power of the Nameless.  You notice the absence of 
+mob echo ``the signs of `*Bone``, `3Claw``, `&Eyes`` and `!Fangs`` anywhere on its surface.
+mob echo ``
+mob echo Amedus: `#The greatest of prisons, the Pillar of Souls was buried through Art in``
+mob echo `#       Isle of Souls.  Protected by the impenetrable Gate of Judgement which`` 
+mob echo `#       took me, the greatest Runemaster of the land, 3 years to fashion.  I`` 
+mob echo `#       thought that never again would the power of the First Manifestation be`` 
+mob echo `#       felt though the land.``
+mob echo Amedus: `#I was wrong..  For I did not account for my weakness, and fear, and my``
+mob echo `#       cowardice in the end caught up with me.``
+mob echo Amedus: `#And so Through my failure to enter the Pillar, I condemned myself to be`` 
+mob echo `#       Its pawn sooner or later.  I did not know it at the time, but Zigmunt DID``
+mob echo `#       and it was that that I saw in his eyes moments before he stepped through``
+mob echo `#       the Arch of the Damned..``
+mob echo Amedus: `#The Gate of Judgement prevented any of the Nameless' power to seep out``
+mob echo `#       into the land, and to forever keep the Pillar of Souls out of reach of``
+mob echo `#       mortals.``
+mob echo The vision begins to fade and you are once again the strange netherworld.
+mob echo ``
+~
+#30018
+emote begins to speak once more.
+'yet it was not to be.  Even in this limbo, a sanctuary of desolation the Nameless found me
+mob echo `#       and my secrets of Greater Art were stolen from my mind.``
+'With the secret to the Gate of Judgement's runes, Morgorin was able to forge 4 keys that
+mob echo `#       would compromise most of the gates power, and allow it to be passed in the Limbo,``
+mob echo `#       land of the dead.``
+'And so due to my cowardice and failure the land is once again in grips of undead, and Nameless
+mob echo `#       stirs in Its prison.``
+emote floats closer to you.
+'You MUST stop It, or the Well of Souls will truly open and all the wrath and misery of the Limbo
+mob echo `#       will pour out into the land like an unstoppable flood.``
+'The Pillar will be broken, and the world as you know it will come to the end..
+'Journey forward and know, that the Well of Souls is kept only through sheer power of Morgorin's
+mob echo `#       soul.  ``
+'The Nameless has overpowered the souls of the trapped Clerics and works from
+mob echo `#       within the Pillar of souls to hold Morgorin's soul and hate at the mouth``
+mob echo `#       of the Well to keep it open for the Shades to come through.``
+mob echo ```
+emote falls silent a moment...
+~
+#30019
+'The Pillar of Souls which rests in the ancient mausoleum far below the waves of the sea,
+mob echo `#       is now guarded by shadow of Morgorin's essence, the very same being
+mob echo `#       which you have unfortunatley met before.
+'You would not last a second against its might, and so take these runes upon your flesh
+mob echo `#       for they will make it blind to your presence unless you come close to it.
+mob echo ```
+emote begins to draw brilliant runes about you as he incans.
+'Therun, Avega, Prontus!
+echo `&Brilliant runes cover your skin in intricate pattern and then fade out of sight!``
+mob echo ```
+'Their power will not last long, so you will have to work in haste.
+'Now go forth and destroy the link between Morgorin's soul and the pillar.  You will only
+mob echo `#       have a moment to do it before you are extinguished so hurry!
+mob echo With those words $i begins to fade out of your sight to once again leave you alone.
+mob echo ```
+
+~
+#30020
+if ispc
+  break
+endif
+if vnum $n == 30005
+  mob delay 5
+  break
+endif
+~
+#30021
+if getdelay == 3
+  mob echo $I slowly gazes about the mausoleum its glance passing you as if you were not there.
+  mob echo Then it grows still once again, blending in with the rest of the Mausoleum.
+  break
+endif
+if getdelay == 2
+  mob echo Your skin tingles and you realize that Amedus's runes are starting to wear off!
+  mob echo $I's translucent head snaps in your direction as it emits a low ominous sound.
+  mob echo It seems to gaze at you for what seems like eternity before falling still again.
+  break
+endif
+if getdelay == 1
+  mob echo ```
+  mob echo `&With brilliant flash the runes on your skin wear off!``
+  mob echo ```
+  mob echo Its form bluring in motion $I rushes in your direction as it sprouts blades in its arms!
+  mob echo $I screams '`6None shall pass!``'
+  mob echo ```
+  murder $r
+  break
+endif
+~
+#30022
+if isdelay $i
+  mob echoaround $n $I's translucent head snaps towards $N's direction.
+  mob echoat $n $I's translucent head snaps towards your direction.
+  mob echo Not seeing anything, it moves slightly closer.
+endif
+~
+#30023
+if rand 10
+  mob echoat $n `8You get a strange feeling that $I is toying with you.``
+  mob echoat $n `8Its attacks are weak, and it seems to enjoy hurting you rather then go for a kill.``
+  mob echoaround $n `8You get a strange feeling that $I is toying with $N.``
+  mob echoaround $n `8Its attacks are weak, and it seems to enjoy hurting $N rather then go for a kill.``
+endif
+if hpcnt $n < 20
+  mob echo ```
+  mob echo Chilling power of death slams into you as $I shows its true power.
+  mob echo $I's pierce `1<<< ANNIHILATES >>>`` you!
+  mob damage all 1000 1000
+  mob echo ```
+  mob echo `7As $I is about to land a final blow a shadowy shape takes form!``
+  if mobhere 30006
+  else
+    mob mload 30006
+  endif
+  mob force amedus 'Stand back!  Even in death I have few lessons of Greater Art to teach!
+  mob echo Amedus turns towards the Shadow his eyes blazing with uneartly power.
+  mob echo ```
+  snarl Amedus
+  peace
+endif
+if hpcnt $i < 50
+restore $i
+~
+#30024
+if rand 10
+  mob echo `7$I draws a single brilliant rune and throws it at $N!``
+  mob echo $I's `&Negate Animation`` rune `1does UNSPEAKABLE things to`` $N!
+  mob damage $n 2000 2000 
+  break
+endif
+if rand 10
+  mob echo `7$I draws a pair of pulsating runes and makes a strange gesture.``
+  mob echo $I's `&Singularity Implosion`` `1does UNSPEAKABLE things to`` $N!
+  mob damage $n 2000 2000 
+  break
+endif
+if rand 10
+  mob echo `7$I Incans as a circle of runes form around $N.``
+  mob echo $I's `&Disintegration`` `1does UNSPEAKABLE things to`` $N!
+  mob damage $n 2000 2000 
+  break
+endif
+if rand 10
+  mob echo `7$I Quickly draws a giant rune before $N and moves back!``
+  mob echo $I's `&Mass Disruption`` `1does UNSPEAKABLE things to`` $N!
+  mob damage $n 3000 3000 
+  break
+endif
+~
+#30025
+if getdelay == 39
+  mob call 30027 $i null null
+endif
+if getdelay == 38
+  mob call 30028 $i null null
+endif
+if getdelay == 37
+  mob call 30029 $i null null
+endif
+if getdelay < 30
+  mob call 30030 $i null null
+endif
+if isdelay $i
+  break
+endif
+mob delay 20
+mob echo Amedus incans '`#Firuin, Efrugrah, Bahat Efulen!``'
+mob echo `&Brilliant wards of Power and Protection form about Amedus``
+mob echo ```
+murder Morgorin's
+~
+#30026
+mob echo `8As $I emits its final cry its form darkens and black shard of shadows strikes forth at $N!``
+mob echo `8$N cries in agony and falls to the ground!``
+set string mob $n long Amedus rests on the ground, his life essence slowly being consumed
+set mob $n hp 100
+~
+#30027
+mob echo $I's figure seems to phase in and out and grow ever more translucent.
+   'My.. powers.. are at end..  Even the dead.. can die..
+   'Yet I thank you.. for... it is through your bravery.. that my own spirit has..
+   'been regained..
+   mob echo $I begins to rise into the air as his form all but fades out of sight.
+   'I will have my revenge and salvation now. Behold the last of Great Art in annals of time!
+   mob echo `&$I releases a one final rune!``
+   mob echo `7With crackling of potent magics, the Arch of the Damned fades into existence!``
+   mob echo ```
+~
+#30028
+'Once again I thank you.. for it is through you that I have found my courage of ages past!
+   mob echo $I smiles sadly as he begins to slowly float towards the crackling arch.
+   'Once again will I sit by Zigmunts side..
+   'And then I will have my revenge upon The Nameless through my salvation!
+   mob echo His form almost gone now $I nears the Arch.
+   mob echo ```
+   mob attrib $i timer 1
+~
+#30029
+mob echo As $I passes the Arch, his form shimmers and a middle aged man clad in 
+   mob echo ``robes sparkling with brilliant runes of Great Art appears.  
+   mob echo A mighty staff in one hand he gives you a short smile and takes one final step.
+   mob echo ```
+mob echo A great flash of energy follows as $I's soul is consumed.  Seconds later the 
+   mob echo Pillar of Souls emits a powerful low sound followed by rapid increase in pitch.
+   mob echo ```
+   mob echo The link between Morgorin's soul and the Pillar begins to heave violently as the
+   mob echo shadow sphere encasing the soul begins to fade.
+   mob echo `8You are sure that to stay here a moment means your certain demise!``
+   mob purge Morgorin's soul
+   mob oload 30026 50 r
+~
+#30030
+if mobhere 30000
+  else
+    'Arghh, the vile bastard has worked its foul magic upon my soul..
+    'Do not pity me!  There is nothing you can do, and I only deserve this fate..
+    'It would seem The Nameless will have my soul in the end.
+     emote looks off towards the Pillar.
+    'Oh cursed vengeance, you have not broken the link!  Yet the shadow's death has opened a weakness.
+    'It seems The One God has blessed me this day, for a way within the pillar stands before me!
+    mob delay 40
+  endif
+~
+#30031
+if affspell $n 'mortally wounded'
+  emote grin $n
+  break
+endif
+if isnpc $n
+  if level $n < 50
+    mob call 30034 $n null null
+  endif
+  break
+endif
+mob echoaround $n $I's head snaps towards $n.
+mob echoat $n $I's head snaps towards you!
+if rand 50
+  yell Ahhran, Theraranvien $N!  Your soul shall feed the Nameless!
+else
+  if rand 50
+    yell Vesutan, Uhraul $N!  Your flesh is mine!
+  else
+    yell Sh'gah'rat, Ehzean, Theravien $N!  Your flesh is as weak as your soul!
+  endif
+endif
+murder $n
+~
+#30032
+if ispc $n
+  mob echoat $n  `8A gate to the Limbo opens and you swallowed into the lands of the dead!``
+  mob echoat $n  ``
+  mob echoaround $n  `8A gate to the Limbo opens and swallows $N into the lands of the dead!``
+  mob transfer $n 30006
+  mob zecho A chill passes through you as $I sends yet another soul to the Limbo!
+  set char $n hunger 100
+  set char $n thirst 100
+  cackle
+endif
+~
+#30033
+mob echo `8In a cloud of bonedust $I falls apart into a heap of broken bones.``
+if objexists 8741
+  tell self obj exists.
+else
+  mob oload 8741 50 R    
+endif
+if cabal $n 'chaos'
+  break
+endif
+if cabal $n 'conclave'
+  break
+endif
+mob pfor group $n permquest # `&Rid Aabahran of Rasep Dh'artep``
+mob pfor group $n echoat # `&You've gained 5000 experience points!``
+mob pfor group $n gain exp pc # 5000 5000
+mob pfor group $n gain cp pc # 250 250
+ 
+~
+#30034
+if isnpc $n
+  if isdelay $i
+    break
+  endif
+  mob delay 2
+  if rand 30
+    mob echoaround $n $I picks up $N with its lower arms while the upper pair comes down like a pair of scissors.
+    mob asound Sparying blood about, $N's head lands in the room!
+    qslay $n
+    break
+  endif
+  if rand 50
+    mob echoaround $n With casual grace $I decapitates $N.
+    qslay $n
+    mob asound Sparying blood about, $N's head lands in the room!
+    break
+  endif
+  mob echoaround $n Lifting $N all four of its arms $I rips $N apart!
+  qslay $n
+  cackle
+  mob asound Sparying blood about, a piece of $N lands in the room!
+  break
+endif
+~
+#30035
+if affspell $i 'haste'
+  if rand 5
+    mob echo `8$I stops moving with hellish speed.``
+    affstrip $i haste
+  endif
+else
+  if rand 20
+    mob echo `8$I starts moving with hellish speed.``
+    mob cast 'haste' $i
+  endif
+endif
+if hpcnt $i > 40
+  if rand 10
+    mob echo In horror you see the bones you have hacked off meld themselfs back to $I!
+    mob gain hp mob $i 300 500    
+    break
+  endif
+else
+  if rand 20
+    mob echo In horror you see the bones you have hacked off meld themselfs back to $I!
+    mob gain hp mob $i 1000 1600
+    break
+  endif
+endif
+mob call 30037 $n null null
+~
+#30036
+if isnpc $n
+  break
+endif
+if level $n < 20
+  break
+endif
+if isvisible $n
+  mob call 30031 $n null null
+endif
+~
+#30037
+if rand 20
+  mob echo $I begins to swing its bladed scythes in wide arcs!
+  swing
+endif
+if rand 20
+  disarm
+  break
+endif
+if rand 20
+  shielddisarm
+  break
+endif
+if rand 60
+  mob echoat $n `8$I lunges forward and claws at your face with its talons!``
+  mob echoaround $n `8$I lunges forward and claws at $n's face with its talons!``
+  mob echoat $n $I's slash `1*** DEMOLISHES ***`` you!
+  mob echoaround $n $I's slash `1*** DEMOLISHES ***`` $n!
+  mob damage $n 80 120
+  break
+endif
+~
+#30038
+if rand 10
+  mob zecho You hear $I cackle somewhere nearby.
+endif
+if hpcnt $i < 80
+mob echo You see $I's broken bones make themselfs whole! 
+mob gain hp mob $i 1000 1000
+~
+#30039
+if name $n Morgorin
+  mob cast fireball
+else
+  spit $n
+endif
+~
+#30040
+if isnpc $n
+ 'mobs in cabals? Are you nuts?
+ break
+endif
+cabal $n Ulsym
+'Have fun!
+~
+#30041
+if isnpc $n
+ 'mobs in cabals? Are you nuts?
+ break
+endif
+cabal $n Revelsport
+'Have fun!
+~
+#30103
+if carries $n 1493
+  if carries $n 1494
+    if carries $n 1495
+      if carries $n 1496
+        mob echo A steel sphere glows with extreme pressure!
+        chown 1493 $n
+        chown 1494 $n
+        chown 1495 $n
+        chown 1496 $n
+        mob echo You feel the air around you increase in pressure.
+        chown tetra $n
+        mpjunk all
+        mob echo A steel sphere explodes violently!
+        mob echo A steel sphere's explosion `1MANGLES`` you!
+        mob damage $n 50 80
+        mob oload 1497
+        drop diamond
+        mob attrib $i timer = 0
+        tick
+      endif
+    endif
+  endif
+endif
+~
+#30104
+mob echo A steel sphere buzzes and whirrs erratically.
+mob echo You feel a rapid discharge of energy as a steel sphere vanishes!
+mob echo A steel sphere's energy discharge `1MUTILATES`` you!
+mob damage $n 20 40
+mob attrib $i timer = 0
+~
+#30105
+mob echo A steel sphere opens at the center, and engulfs a gold bar.
+chown goldbar $n
+mob echo The sound of grinding is heard, followed by flashes of smoke and fire!
+mpjunk all
+mob oload 1493
+give emerald $n
+mob echo A steel sphere closes, and returns to its orbit.
+~
+#30106
+mob echo A steel sphere opens at the center, and engulfs a fiery emerald.
+chown fieryemerald $n
+mob echo The sound of grinding is heard, followed by flashes of smoke and fire!
+mpjunk all
+mob oload 1494
+give sapphire $n
+mob echo A steel sphere closes, and returns to its orbit.
+~
+#30107
+mob echo A steel sphere opens at the center, and engulfs a red crystal shard.
+chown redshard $n
+mob echo The sound of grinding is heard, followed by flashes of smoke and fire!
+mpjunk all
+mob oload 1495
+give ruby $n
+mob echo A steel sphere closes, and returns to its orbit.
+~
+#30108
+mob echo A steel sphere opens at the center, and engulfs a shard of starstone.
+chown starstone $n
+mob echo The sound of grinding is heard, followed by flashes of smoke and fire!
+mpjunk all
+mob oload 1496
+give amethyst $n
+mob echo A steel sphere closes, and returns to its orbit.
+~
+#30110
+obj echo `8A hand grenade explodes into fragments!``
+obj echo A hand grenade's explosion `1=== OBLITERATES ===`` you!
+obj damage $n 400 500
+~
+#30152
+say We have made preparations, $n. You must proceed southward.
+say The Exorcism Chamber awaits you all. Take your places around the Circle.
+say The Circle of Seven must be complete to channel the necessary power.
+emote gestures for you to continue southward.
+~
+#30153
+wake
+say Ma-ma!
+emote coos to himself quietly.
+open east
+emote crawls through a small door east of you.
+east
+mob purge self
+~
+#30154
+emote looks around happily.
+say Da...da...
+mob echo A white aura of light surrounds Sec, and his image begins to waver.
+emote looks around contentedly.
+~
+#30155
+if isnpc $n
+ break
+else
+ say You have found my child.
+ beam
+ mob remember $n
+ mob delay 8
+endif
+~
+#30156
+if getdelay == 7
+  say Shandronas, my old friend, you have served me in life, and death.
+  smile shandronas
+  say For that, I can repay you only by giving you what Manheim has.
+  mob oload 30160
+  give glasses shandronas
+endif
+if getdelay == 6
+  say Manheim, you have served faithfully this kind healer.
+  say For that, you have earned a place amid the heavens.
+  say And you are no longer tied to the ethereal planes.
+  mob echo A white aura encases Manheim as he is pulled into the heavens.
+  mob transfer manheim 7
+endif
+if getdelay == 5
+  say Qax, my darling. You have been faithful to me in life...
+  say And in death. I will miss you dearly, my love. Take good care of Lec.
+  smile qax
+endif
+if getdelay == 4
+  say To the rest of you, you have my eternal thanks for the life of my child.
+  say I bid you all blessings in the future from the Gods.
+endif
+if getdelay == 3
+  emote flickers slightly.
+  say Sec, come to your mother.
+  mob echo Sec crawls into his mother's embrace.
+  mob echo As the light in the room dims, Kaylian and Sec smile at you.
+  mob pfor group $q call 30160 # null null
+endif
+if getdelay == 2
+  mob echo With a small, wistful smile, Kaylian waves, and fades into the Light.
+  mob transfer all dante
+endif
+if getdelay == 1
+  mob purge self
+endif
+~
+#30160
+mob echoat $n You have purged the demon, and rescued Sec!
+mob permquest $n Rescued a child from the clutches of a demon.
+mob permquest $n Performed the ancient ritual of exorcism.
+~
+#30210
+emote looks at the Black Token, and stashes it away.
+mpjunk all
+mob echoat $n `@For angering the gods, you will receive DEATH by TORTURE.``
+mob echoaround $n `@For angering the gods, $n will receive DEATH by TORTURE.``
+say The time has come for you to experience more pain than you have ever felt.
+grin $n
+say Your death will be slow, and agonizing. There will be no mercy.
+mob remember $n
+mob delay 14
+~
+#30211
+if getdelay == 14
+  mob call 30212
+endif
+if getdelay == 13
+  mob call 30213
+endif
+if getdelay == 12
+  mob call 30214
+endif
+if getdelay == 11
+  mob call 30215
+endif
+if getdelay == 10
+  mob call 30216
+endif
+if getdelay == 9
+  mob call 30217
+endif
+if getdelay == 8
+  mob call 30218
+endif
+if getdelay == 7
+  mob call 30219
+endif
+if getdelay == 6
+  mob call 30220
+endif
+if getdelay == 5
+  mob call 30221
+endif
+if getdelay == 4
+  mob call 30222
+endif
+if getdelay == 3
+  mob call 30223
+endif
+if getdelay == 2
+  mob call 30224
+endif
+if getdelay == 1
+  mob call 30225
+endif
+~
+#30212
+mob oload 30215
+mob oload 30216
+mob echoat $q The Carnifex grins wickedly as he belts you to a bizarre looking chair.
+mob echoaround $q The Carnifex belts $q to a bizarre chair.
+mob echo The Carnifex unrolls a long black cloth from a surgical table.
+emote grins wickedly as he seems to caress the shiny instruments of torture.
+~
+#30213
+emote selects a sharp set of tongs, and a scalpel.
+say This may take me a while.
+grin
+mob echoat $q The Carnifex slowly inserts the scalpel into your eye socket.
+mob echoaround $q The Carnifex slowly inserts the scalpel into $q's eye socket.
+mob cast 'blindness' $q
+mob echoaround $q $q screams in agony as $q's eyes are cut from the skull!
+mob force $q yell Ahhhhh.....! Nnnnnoooooo!
+~
+#30214
+emote places a sharp set of tongs back on the surgical table.
+emote selects a wicked set of shears, and holds them.
+mob echoat $q With a clamp, the Carnifex grasps your tongue, and slices it off with the shears.
+mob echoaround $q With a clamp, the Carnifex grasps $q's tongue, and slices it off with the shears.
+mob echoat $q You try to scream in agony, but end up just spitting blood.
+mob echoaround $q $q tries to scream, but just ends up sputtering blood.
+mob cast 'silence' $q
+~
+#30215
+emote places a wicked set of shears back on the surgical table.
+emote withdraws a glowing hot brand from the fire.
+mob echoat $q With a slow movement, the Carnifex presses a flaming brand into your chest.
+mob echoaround $q With a slow movement, the Carnifex presses a flaming brand into $q's chest.
+mob echoaround $q $q cries and whines under the immense pain.
+mob damage $q 50 100
+mob echoaround $q A flaming brand `1SEARS`` $q's flesh!
+mob echoat $q A flaming brand `1SEARS`` your flesh!
+~
+#30216
+emote places a glowing hot brand back in the fire for later use.
+emote selects a set of sharp nails from the surgical table, and a mallet.
+mob echoat $q With sharp blows, the Carnifex hammers several sharp nails into your fingernails.
+mob echoaround $q With sharp blows, the Carnifex hammers several sharp nails into $q's fingernails.
+mob damage $q 50 100
+mob echoaround $q Some sharp nails under $q's fingernails `1AGONIZES`` $q!
+mob echoat $q Some sharp nails under your fingernails `1AGONIZES`` you!
+~
+#30217
+emote places a mallet back on the surgical table.
+emote selects a sharp band saw from the surgical table.
+mob echoat $q With some sawing, the Carnifex manages to saw off the front of your skull.
+mob echoaround $q With some sawing, the Carnifex manages to saw off the front of $q's skull.
+mob zecho The grisly sound of a saw cutting through bone fills the air.
+mob cast 'forget' $q
+mob damage $q 50 100
+mob echoaround $q $q has been `1LOBOTOMIZED``!
+mob echoat $q You have been `1LOBOTOMIZED``!
+~
+#30218
+emote places a sharp band saw back on the surgical table.
+emote withdraws a heavy steel pipe from the surgical table.
+mob echoat $q With quick strikes, the Carnifex shatters your legs with a pipe!
+mob echoaround $q With quick strikes, the Carnifex shatters $q's legs with a pipe!
+mob cast 'enfeeblement' $q
+mob echoat $q You legs have been broken!
+mob echoaround $q $q's legs have been broken!
+~
+#30219
+emote places a heavy steel pipe back on the surgical table.
+emote withdraws a gutting hook from the surgical table.
+emote grins wickedly as he wields the nasty hook.
+mob echoat $q The Carnifex inserts the gutting hook just below your navel.
+mob echoat $q With heavy thrusts, the Carnifex rips open your stomach, and exposes your intestines.
+mob echoaround $q The Carnifex inserts the gutting hook just below $q's navel.
+mob echoaround $q With quick jerks, the Carnifex rips open $q's stomach, and exposes $q's intestines.
+mob damage $q 100 150
+mob cast 'dysentery' $q
+mob echoat $q You have been `1DISEMBOWELED``!
+mob echoaround $q $q has been `1DISEMBOWELED``!
+~
+#30220
+emote places a gutting hook on the surgical table.
+emote takes a hand drill from the table.
+mob echoat $q The Carnifex inserts the drill into your chestplate, and drills a small hole.
+mob echoaround $q The Carnifex inserts the drill into $q's chestplate, and drills a small hole.
+mob damage $q 100 150
+emote inserts a small packet of flesh-eating insects into the small hole.
+mob cast 'poison' $q
+mob force $q yell Ungh....Uhg...N...Nnnnn....NNOOOOOO!!!
+~
+#30221
+emote places the bloody instruments back on the surgical table.
+mob echoat $q The Carnifex watches with sick interest as the insects eat into your body cavity.
+mob echoaround $q The Carnifex watches with sick interest as the insects eat into $q's body cavity.
+~
+#30222
+mob echo The insects begin their nasty work, and disappear into the hole.
+mob echoat $q You pass out from the immense pain.
+mob echoaround $q $q passes out from the immense pain.
+mob cast sleep $q
+~
+#30223
+emote takes a short bedded cutting axe from a surgical table.
+mob echoaround $q With a sharp motion, the Carnifex cuts halfway through $q's neck.
+mob echoat $q You are awakened as your neck is cleaved halfway through!
+mob echo `!BLOOD SPRAYS EVERYWHERE!``
+mob force $q yell Ghhhh...AAAAAAGGGHHHH!
+~
+#30224
+emote grins, and takes one last heavy strike.
+mob echoaround $q $q's head is severed off, and topples to the ground.
+mob echoaround $q With a spray of blood, $q is `1BEHEADED``!!!
+mob echoat $q You have been `1BEHEADED``!!!
+slay $q
+~
+#30225
+emote gathers up the bloody instruments and the chair.
+mob echo With a wicked, satisfied grin, the Carnifex returns from whence he came.
+get table
+get chair
+goto 7
+mob purge self
+~
+#30299
+if rand 50
+  if rand 33
+    emote liquifies and turns into brakkish water.
+    set string mob mina long A small, dog-shaped blob of brakkish `^water`` with floppy ears is here.
+  else
+    if rand 50
+      emote ignites into a ball of crimson flame.
+      set string mob mina long A small, dog-shaped ball of crimson `1flame`` with floppy ears is here.
+    else
+      emote rolls around on her back, chewing on a bit of chaosstuff.
+    endif
+  endif
+else
+  if rand 33
+    emote solidifies into a slab of soft earth.
+    set string mob mina long A small, dog-shaped chunk of soft `3earth`` with floppy ears is here.
+  else
+    if rand 50
+      emote disspiates into a gust of hot wind.
+      set string mob mina long A small, dog-shaped eddie of hot `6wind`` with floppy ears is here.
+    else
+      emote rolls around on her back, chewing on a bit of chaosstuff.
+    endif
+  endif
+endif
+~
+#30302
+if players < 1
+  mob cancel
+  mob forget
+  break
+endif
+if getdelay < 1
+  'I will begin the tutorial for lesson 1.
+  mob delay 13
+  mob remember $n
+  break
+endif
+if getdelay >= 12
+  mob call 30305 $q null null
+  break
+endif
+if getdelay >= 11
+  mob call 30306 $q null null
+  break
+endif
+if getdelay >= 10
+  mob call 30307 $q null null
+  break
+endif
+if getdelay >= 9
+  mob call 30308 $q null null
+  break
+endif
+if getdelay >= 8
+  mob call 30309 $q null null
+  break
+endif
+if getdelay >= 7
+  mob call 30310 $q null null
+  break
+endif
+if getdelay >= 6
+  mob call 30311 $q null null
+  break
+endif
+if getdelay >= 5
+  mob call 30312 $q null null
+  break
+endif
+if getdelay >= 4
+  mob call 30313 $q null null
+  break
+endif
+if getdelay >= 3
+  mob call 30314 $q null null
+  break
+endif
+if getdelay >= 2
+  mob call 30315 $q null null
+  break
+endif
+if getdelay >= 1
+  mob call 30316 $q null null
+  break
+endif
+~
+#30303
+mob echo The following is the index of lessons and their keywords.
+mob echo ---------------------------------------------------------
+mob echo INTRODUCTION - (Intro) - Introduction
+mob echo LESSON ONE --- (L1) ---- Room Creation
+mob echo LESSON TWO --- (L2) ---- Object Creation
+mob echo LESSON THREE - (L3) ---- Mob Creation
+mob echo LESSON FOUR -- (L4) ---- Resets
+mob echo LESSON FIVE -- (L5) ---- Flags
+mob echo LESSON SIX --- (L6) ---- Balancing
+mob echo LESSON SEVEN - (L7) ---- Useful Commands
+mob echo LESSON EIGHT - (L8) ---- Summary
+mob echo LESSON NINE -- (L9) ---- Troubleshooting
+'Just 'say' the keyword of the lesson to skip to, or 'begin' to start the tutorial.
+~
+#30304
+mob echo `&INTRODUCTION``
+mob echo ---------------
+'Welcome to the wonderful world of OLC. First, I'll run through the
+'basics of conduct here on the testport, as well as a few things you
+'as builders should know.
+mob echo ...
+'First, your presence here is a privilege, not a right. There are a
+'lot of things that are in-progress here that the main port should
+'not know about. This brings me to the act of privacy. Anything that
+'is happening here is EYES ONLY. Information you receive here is NOT
+'under ANY CIRCUMSTANCES to be divulged to any other party, mud, forum,
+'or chat. Failure to adhere to this will result in an immediate removal
+'from this port, and possible repercussions on the main port.
+mob echo ...
+'All work you do here is the express property of the Age of Mirlan, 
+'and its administration. Any areas you create here are automatically
+'assumed to be the property of The Age of Mirlan, and are not
+'transferrable to any other media.
+mob echo ...
+'Keep in mind that when you are building here, there will be certain
+'times that the IMPS are coding, and will not always be here to guide
+'you along. Reboots may occur frequently, so SAVE AND SAVE OFTEN! If
+'we (The IMPS) are busy coding or building, please try to disturb us as
+'little as possible.
+mob echo ...
+'Now, onto the fun stuff.
+smile $n
+mob pfor room $i tempquest # Read the OLC Introduction.
+~
+#30305
+mob echo `&LESSON ONE``
+mob echo -------------
+'OLC stands for ON-LINE-CREATION. It is a process whereby you, (The Builder),
+'enteres into the "OLC EDITOR" for the purpose of creating rooms, objects,
+'and mobs. We will first cover the basics of ROOM CREATION.
+'Before we begin, I will tell you that you are assigned to ONE area, and
+'ONE area only! You are only to work on this area that has been assigned to
+'you. While you are here, you will be working, not exploring, or testing
+'out spells/skills. Most areas are safe from tampering, but if you edit
+'an area outside of your own, I will know about it, and it is grounds for
+'removal from this port.
+~
+#30306
+'You will be assigned to an AREA by an IMPLEMENTOR. This area will consist
+'of a filename (eg. gobvil.are), an area name (eg. The Goblin Village), and
+'a set of "Virtual Numbers", or VNUMS. The standard area has 100 VNUMS.
+'This basically means that within your area, you have 100 possible rooms,
+'100 possible objects, and 100 possible mobiles (mobs). I will explain more
+'about this.
+~
+#30307
+'Let us say you have been assigned VNUMS 1000-1099 (100 rooms). This means
+'that VNUM 1000 can be a room, an object AND a mob. Any or all of each. Keep
+'in mind that you never have to use all available VNUMS in an area, and also
+'keep in mind that VNUMS of mobs and/or objects do not have to correspond with
+'a particular room. In room 1000, you could have an object of VNUM 1034, and
+'a mob of VNUM 1087. (We will cover this in RESETS).
+~
+#30308
+'To create the FIRST room of your area, type the following. <CR> stands for a
+'"Carriage Return". Do NOT type <CR> at the end, just press return.
+'`6EDIT ROOM CREATE 1000 <CR>``
+'This will create room 1000. You will see the following:
+mob echo `7[Room 1000]
+mob echo [Exits: none]``
+'The room will FIRST need a name. You do this by:
+'NAME (name of the room, we'll call it Testroom) <CR>
+'You will see the following:
+mob echo `7Testroom [Room 1000]
+mob echo [Exits: none]``
+~
+#30309
+'Then, you type in the DESCRIPTION of the room. This is rather simple to do.
+'You simply type:
+'`6DESC``
+'And you enter a description editor. Keep in mind that good builders use
+'colorfully worded room descriptions, that should be ONE paragraph, and
+'between 4 and 6 lines long. Line lengths are the same as you would use
+'for a character description. Once you are done typing in the description,
+'just type "@" on an empty line, and you will exit the editor. Now, type
+'LOOK. You will see:
+mob echo ...
+mob echo `7Testroom [Room 1000]
+mob echo     This is a test description we have made. The lines should be no longer
+mob echo than this, and keep in mind, that room descriptions automatically indent the
+mob echo first line 5 spaces. Watch your spelling and grammar here, and be sure to
+mob echo use as much creativity as you have in these descriptions.
+mob echo [Exits: none]``
+~
+#30310
+'Also, something of note. If you type 'who' now, you will see a little [OLC]
+'tag by your name. This signifies that you are presently INSIDE the OLC
+'editor. Any regular MUD commands that you type (ie, n, s, e, w, etc) may
+'cause problems, since the editor uses keywords to enter different editors.
+'In order to get OUT of the editor, type: 
+'`6DONE <CR>``
+~
+#30311
+'Now you are out of the editor. If you 'look', you will see the room you
+'have just created. Now that this room is created, to get BACK into the OLC
+'editor, just type
+'`6EDIT ROOM <CR>``
+'This will bring you back into the editor. Each room has many different settable
+'flags that can be toggled. We will cover these now. Type:
+'`6SHOW <CR>``
+'This will give you a brief overview of the current room settings. I will list
+'the different flags below, as well as a brief description of what each of them
+'does.
+~
+#30312
+mob echo `7 Day Description: What characters see during daylight hours
+mob echo Night Description: What characters see during the night hours. This function
+mob echo                    is OPTIONAL (and encouraged). To enter the NIGHT DESCRIPTION 
+mob echo                    editor, just type NDESC.
+mob echo Name:       [The Name of this Room]
+mob echo Area:       [   01] The Name of your Area
+mob echo Vnum:       [ 1000] The current VNUM of the room you are in.
+mob echo Sector:     [swim] Type of SECTOR your are in. For more information, type
+mob echo                    "? SECTOR" within the editor to show all possible sectors.
+mob echo Watched By: [ ] (Don't worry about this flag for now)
+mob echo Room flags: [none] (Type "? ROOM" within the editor to show all room flags.
+mob echo Room2 flags: [none] ("Type "? ROOM2" within the editor to show room2 flags.
+mob echo Health recovery:[100] (Leave this one alone!)
+mob echo Mana recovery  :[100] (Leave this one alone!)
+mob echo Temperature:[72] (Temp of the room, not required)
+mob echo Cabal:     [0] none (If this is a CABAL, leave it alone)
+mob echo Characters: [yourname] Shows the characters currently in the room.
+mob echo Objects:    [none] Shows the objects currently in the roomn.``
+'Also, the exits (if any) will be listed at the very bottom. We will get to that
+'next.
+~
+#30313
+'So, now you have your first room, and any of the ROOM flags you have setup. Most
+'are self explanatory, but the best rule of thumb is, if you don't know, ASK FIRST
+'before you set any of them. Some can cause very adverse affects in gameplay.
+'The only flags you should need to set for now are the SECTOR flags, and the
+'ROOM INDOORS flag. Leave the rest alone until you learn more about what they do.
+'We will cover more about room flags in LESSON 5.
+'Now, we need to make an exit. This is very simple to do, and there are two methods.
+'First, we will need to create a room to make our exit TO. So:
+'`6EDIT ROOM CREATE 1001 <CR>``
+~
+#30314
+'Now, go ahead and name this room and make a short description for it. Then, GOTO
+'1000. This will take you back to the room you were just in. Let's say we want to
+'make a door to the north, that leads FROM 1000, TO 1001. Inside room 1000, you type:
+'`6NORTH LINK 1001 <CR>``
+'You will see, as you 'look' now, an exit that leads NORTH from 1000 to 1001. There
+'are several exit flags that can be toggled for this. First, you can do:
+'`6NORTH DOOR <CR>``
+'This will specify that the north exit is a DOOR. Now, you can do:
+'`6NORTH CLOSED <CR>``
+'This will mean that the north exit is always closed, unless you open it. You will
+'now see a little [Exits: (north)] meaning that the north door is closed. We will
+'look into this later, and learn about "locked", once we get into the objects section.
+'You can also set an exit name for your door. If you type:
+'`6NORTH NAME GATE <CR>``
+'When you open the north door, you will see: "You open the gate north of you.
+~
+#30315
+'Keep in mind you can link room in any direction. A good rule of thumb is to take
+'a piece of graph paper initially, and 'draw' your area there, with the VNUMS you
+'plan to use. That way, it becomes much easier to make links, and you don't run
+'the chance of making double links, or incorrect links to rooms. Also, using
+''Notepad' to write your room descriptions will make it much easier to just cut
+'and paste them in. You can do most of this offline.
+'The second method of linking rooms is making ONE WAY exits to the room. Let's
+'say I wanted to link 1000 and 1001 together, without a return exit. I would GOTO
+'1000, and type:
+'`6NORTH ROOM 1001 <CR>``
+'This makes it so that I can be in room 1000, go north to room 1001, and not be
+'able to return southward to 1000. I will just see [Exits: none] in room 1001.
+'This is useful for creating mazes and labyrinths, but keep in mind, if you do
+'a link that way, be sure there is an alternate way for the player to get out!
+'Doors can be made the same way, using the above method.
+~
+#30316
+'This brings us to the end of LESSON ONE. If you missed anything, just say
+''L1', and I will repeat this lesson. LESSON TWO will cover OBJECT creation and
+'usage. Just say 'L2' to begin.
+mob pfor room $i tempquest # Completed Lesson 1 of the OLC Training.
+~
+#0
+
+M 30000 0 higher_shadow.prg NL
+M 30000 0 higher_shadow.prg NL
+M 30007 0 higher_shadow.prg NL
+M 30007 0 higher_shadow.prg NL
+M 30008 0 higher_shadow.prg NL
+M 30008 0 higher_shadow.prg NL
+M 30053 0 chaos_demon.prg NL
+M 30053 0 chaos_demon.prg NL
+M 30054 0 chaos_gate.prg NL
+M 30054 0 chaos_gate.prg NL
+M 30099 0 psychic.prg NL
+M 30100 0 kira_savruul.prg NL
+M 30154 1 gnome_child.prg NL
+M 30294 1 olympus_ares.prg NL
+S
+
+
+
+
+#OBJPROGS
+#30000
+obj attrib none wear = nosac
+~
+#30001
+if affspell $n 'mark of prey'
+  break
+endif
+obj echoat $n Amidst a loud growl $I comes alive!
+obj echoaround $n $I seems to move, scratching $N.
+obj cast 'mark of prey' $n
+~
+#30002
+if affspell $n 'armor'
+  break
+endif
+if wears $n 30304
+  obj echoat $n $I coils about your shoulder.
+  obj echoaround $n $I coils about $N's shoulders.
+  obj cast 'armor' $n      
+endif
+~
+#30003
+obj echo $I spits an arc of energy!
+obj cast 'lightning'                          
+~
+#30004
+if affspell $n 'unholy gift'
+  break
+endif
+obj echoat $n Cold vice grips your heart as your flesh grows inanimate.
+obj echoaround $n $N's flesh pales as $I shimmers with vile power.
+obj cast 'unholy gift' $n 
+~
+#30005
+if cabal $n 'chaos'
+or cabal $n 'conclave'
+  break
+else
+  obj echoat $n $I seems to pass right through you hands!
+  obj echoaround $n $I seems to pass right through $N's hands!
+  obj goto $n
+endif
+~
+#30006
+obj echo The link between Morgorin's soul and the Pillar of Souls squirms and writhes!
+obj echo A Shade splits its self off from the shadowy soul and screams its first scream of hate!
+obj echo A shade vanishes!
+~
+#30007
+obj echo Potent forces of death lash out and rend your soul!
+obj damage all 30 50
+obj echo The forces of death `1decimate`` you!
+~
+#30008
+obj remember $r
+if affspell $q 'mortally wounded'
+  break
+endif
+obj echoat $q `&You enter the light and feel Sirant's power breath life into you``
+obj echoat $q `&and return you to somewhere in the lands of the living``
+obj echoat $q 
+obj echoaround $q `&$Q enters the light and disappears bathed in Sirant's power!``
+if rand 20
+  obj transfer $q 9508
+  break
+endif
+if rand 20
+  obj transfer $q 3592
+  break
+endif
+if rand 20
+  obj transfer $q 2966
+  break
+endif
+if rand 20
+  obj transfer $q 4004
+  break
+endif
+obj transfer $q 216
+~
+#30009
+obj zecho You see a crimson flash somewhere near the horizon.
+~
+#30029
+if rand 50
+     obj echo $I emits a dark glow.
+     obj cast 'dispel good' $n
+else
+     obj echo $I emits a white glow.
+     obj cast 'dispel evil' $n
+endif
+~
+#30098
+if rand 50
+     cast 'enlarge' $n
+else
+     cast 'shrink' $n
+endif
+~
+#30105
+if mobhere 30105
+     obj echoat $n The Arcadian Tetra is already in use.
+else
+obj echo Miruvhor's Arcadian Tetra glows with a strange inner energy.
+obj echo The Tetra opens, and a strange steel sphere emerges!
+obj echo You feel an immense drain as the Tetra draws power from you.
+obj damage $n 15 35
+obj echo The Arcadian Tetra's life drain `1maims`` you!
+obj mload 30105
+endif
+~
+#30106
+if rand 50
+     obj echo Miruvhor's Arcadian Tetra rotates slowly.
+else
+     obj echo Miruvhor's Arcadian Tetra stops rotating.
+endif
+~
+#30107
+-=======================================-
+if isnpc $n
+  break
+endif
+obj echo $I hovers to the ground, and with a small rotation, hovers back up.
+obj echoat $n Miruvhor's Arcadian Tetra realigns itself with your hand.
+obj equipself $n
+~
+#30110
+obj echo `8A hand grenade explodes into fragments!``
+obj echo A hand grenade's explosion `1=== OBLITERATES ===`` $q!
+obj damage $q 400 500 kill
+obj attrib $i timer = 0
+tick
+~
+#30297
+if isdelay $i
+  break
+endif
+obj echo `*A foot-tall tear in time and space appears in front of $n.``
+obj echo `*Ear-splitting yelps fill the air as a tiny dog-shaped creature emerges from the rift.``
+obj mload 30299
+obj force mina pmote runs circles around $n's legs, yelping and barking excitedly.
+obj force mina emote sits down beside $n's leg.
+obj obey Mina $n 24
+obj force mina pmote now follows $n.
+break
+~
+#30298
+obj echoat $n `*As you blow into the whistle, ghastly shrieks and screams emenate from within it.``
+obj echoaround $n `*The air is filled with ghastly shrieks and screams as $n blows into the whistle.``
+obj delay 1
+~
+#30299
+if isneutral $n
+  obj echoat $n You can feel the forces of Balance consume your body.
+  obj echoaround $n The powers of the Balance visibly radiate from $n.
+  obj cast accession $n
+else
+  obj echoat $n You can feel the forces of Balance consume your body.
+  obj echoat $n You scream in pain as your moral bonds conflict with the Balance.
+  obj echoat $n The Balance's Judgement `1>>> ANNIHILATES <<<`` you!
+  obj echoaround $n $n screams in pain as they are judged by the balance.
+  obj echoaround $n The Balance's Judgement `1>>> ANNIHILATES <<<`` $n!
+  obj damage $n 200 300
+endif
+~
+#30300
+if rand 50
+     obj echoat $N You smash the Gauntlets of Fury together, and feel an aura of power surround you!
+     obj cast 'frenzy' $N
+     obj echoat $n Your fist smash `1MASSACRES`` you!
+     obj damage $n 85 130
+else
+     obj echoat $N You raise your gauntlets into the air in a cry of exultation!
+     obj cast 'haste' $N
+     obj echoat $n The Fury of the Gods `1MANGLES`` you!
+     obj damage 110 140
+endif
+~
+#30311
+obj echo $I glimers eerly.
+obj cast 'swords to plows'
+~
+#30312
+if iscombat $n
+  if cabal $n 'warmaster'
+    obj echoat $n 'This is not the way a Warmaster should act!'
+    break
+  endif
+else
+  obj echoat $n You must be in combat first.
+  break
+endif
+if isdelay $i
+  obj echoat $n $I's powers are drained.
+  break
+endif
+if ispc $f
+  obj echoat $n $I's powers are useful only against dragons.
+  break
+endif
+if name $f dragon
+  obj echoat $n $I sings in your hand as it swings!
+  obj echoaround $n $I sings in $N's hand as it swings!
+  obj echoat $n Your swing `3>>> ANNIHILATES <<<`` $F!
+  obj echoaround $n $N's swing `3>>> ANNIHILATES <<<`` $F!
+  obj damage $f 350 500 kill
+  obj delay 4
+else 
+  obj echoat $n $F is not a dragon!
+endif
+~
+#30354
+obj echo $I seems to sway as strange aura shimmers about it.
+obj cast 'create food' $r
+obj cast 'create spring' $r
+~
+#30366
+obj echo `8$I glows with a sickly, dark light.``
+  obj echoat $n `!You feel that your time has come...``
+  obj cast 'doomsday' $n
+  obj goto crypticant
+  obj equipself crypticant
+~
+#30367
+if rand 50
+     obj echo A tiny elemental dragon curls itself tightly around $n's neck.
+else
+     obj echo A tiny elemental dragon's eyes whirl with affection as it nuzzles $n.
+endif
+~
+#30368
+if rand 50
+     obj echo A tiny elemental dragon issues forth a shrill cry, and attacks!
+     obj cast 'flamestrike' $n
+else
+     obj echo A tiny elemental dragon circles $n, chittering nervously!
+     obj cast 'lightning' $n
+endif
+~
+#30369
+if isdelay $i
+break
+endif
+if hpcnt $n < 15
+obj echo A band of unbiased love flashes with brilliant light.
+obj echoat $n Many of your wounds close as the power of unbiased love heals you.
+obj echoaround $n When the light fades, you notice that many of $n's wounds have closed.
+obj cast esuna %f
+obj delay 48
+~
+#30370
+if isdelay $i
+  break
+endif
+if hpcnt $t < 15
+  obj echoat $t A mantle of protection wraps around you in a protective embrace.
+  obj echoaround $t A mantle of protection wraps around $T in a protective embrace.
+  obj cast 'cure critical' $t
+  obj gain mana gain pc $t 200 250
+  obj delay 48
+endif
+~
+#30394
+if carries $n 30393
+     obj echoat $n You manage to reload $I.
+else
+      obj echoat $n You attempt to reload $I, but are out of projectiles.
+endif
+~
+#30395
+if isdelay $i
+  if carries $n 30393
+     obj echoat $n You are still reloading $I.
+     break
+  else
+     obj echoat $n You are out of projectiles for $I.
+     break
+  endif
+endif
+if carries $n 30393
+  if rand 10
+     obj echoat $n Your crossbow bolt ricochets off of the target's armor and falls to the ground.
+     obj echoaround $n A bolt from $n's crossbow ricochets off the target's armor, and falls to the ground.
+     obj otransfer !bolt! $n
+  else     
+     obj attrib !bolt! timer 1
+     obj cast 'fired projectile' !bolt!
+     obj delay 2
+  endif
+else
+     obj echoat $n You are out of projectiles for $I.
+endif
+~
+#30396
+obj echoat $n The Sword of Rapture burns your soul as it is stripped away!
+obj echo The Sword of Rapture's agony `1MANGLES`` you!
+obj damage $n 100 180
+~
+#30397
+obj echo $I hums with Dark Power!
+obj cast 'cure serious'
+~
+#30398
+obj echo The `8Sword`` of `1Rapture`` overcomes you with power!
+~
+#30399
+if rand 10
+     cast 'curse' $n
+else
+     cast 'slow' $n
+endif
+~
+#0
+
+#ROOMPROGS
+#30000
+if getdelay > 0
+  break
+endif
+if carries $n 10217
+  if carries $n 10260
+    if carries $n 10261
+     if carries $n 10262
+        room echo ``
+        room echoat $n You hold the `*Bone``, the `3Claw``, the `&Eyes`` and the `!Fangs`` high before the gate. 
+        room echoaround $n $N holds the `*Bone``, `3the Claw``, the `&Eyes`` and the `!Fangs`` high before the Gate.
+        room echo The Gates of Judgement seem to phase into existance!
+        room echoat $n With an agonizing creak the gates open and you step through!
+        room echoaround $n With an agonizing creak the gates open and $N steps through!
+        room echo ``
+room delay 1
+        break
+      endif
+    endif
+  endif
+endif
+room echoat $n ``
+room echoat $n You pass through the gate as if it were not there!
+room echoaround $n $N tries vainly to pass through the translucent gate.
+room echoaround $n ``
+room stop $n
+~
+#30001
+if mobhere 30005
+  break
+endif
+room echo An apparition forms before you out of the shadows.
+room echo Its face flickers with faces of people you have known, only to settle on one alien to you.
+room mload 30005
+room force 1. emote closes in, while you vainly try to move a muscle.
+room force 1. Say Know you that I am Amedus Divinity.  Creator of the Pillar of Souls, 
+room force 1. say Lord Runemaster to the Order of Light, and also its betrayer..
+room force 1. say Heed my tale, for from the depths of the limbo I bear you the only chance you have!
+room cancel
+~
+#30002
+room echo The Gates of Judgement swing shut and phase out of existance once again.
+~
+#30003
+room delay 1
+~
+#30004
+room echo `8As you are about to leave the sphere surrounding Morgorin's soul shatters.``
+room echo `8Your mind reels as heinous cry of hate, agony and anger washes over you. 
+room echo `8It is followed by an explosion of deathly energies which consume the area and you along with it!``
+room echo The forces of death `1do UNSPEAKABLE things to`` you!
+room echo You are stunned, but will probably recover
+room echo ```
+room echo You feel your death quickly approaching when you feel a faint, familiar presence...
+room echo Amedus:  `#Courage, Honor and Perseverance... Remember those and fear not even Death itself..``
+room echo `&You feel yourself being rushed away quickly as life returns to your limbs..``
+room gain hp all $n 5000 5000
+room gain mana all $n 5000 5000
+room gain move all $n 5000 5000
+room echo Amedus:  `#Farewell for all time...``
+room echo ```
+room echo You have been restored!
+room echo You've gained a large sum of experience!
+room pfor room $n permquest # `&Have Stopped the Invasion of Shades``
+room gain exp all $n 15000 15000
+room gain cp all $n 1000 1000
+room echo ```
+if objhere soul
+  room purge soul
+endif
+if mobhere shadow
+  room purge shadow
+endif
+if mobhere amedus
+  room purge amedus
+endif
+room stop $n
+room rtransfer all 20605
+room mload 30000
+room oload 30024 50
+~
+#30005
+room echoat $n `&You enter the light and feel Sirant's power breath life into you``
+room echoat $n `&and return you to somewhere in the lands of the living``
+room echoat $n ``
+room echoaround $n `&$N enters the light and disappears bathed in Sirant's power!``
+room stop $n
+if rand 20
+  room gtransfer $n 9508
+  break
+endif
+if rand 20
+  room gtransfer $n 3592
+  break
+endif
+if rand 20
+  room gtransfer $n 2966
+  break
+endif
+if rand 20
+  room gtransfer $n 4004
+  break
+endif
+room gtransfer $n 216`
+~
+#30006
+room cast $r 'calm'
+~
+#30150
+if people > 6
+  room mload 30150
+  room echo Danudar steps from a hidden alcove.
+  room force Danudar say You are trapped, Demon. There is no way out.
+  room force Danudar say These brave souls have ensnared you in this room.
+  room echo Danudar looks about warily.
+  room delay 1
+endif
+~
+#30151
+room echo Suddenly, with a gleam in his eye, Danudar leaps at Gehenna!
+room echo Gehenna has been bound and gagged!
+room force Danudar say Quickly, friends, while he is detained! To the temple!
+room echo Danudar quickly unlocks a secret passageway to the north and ushers you in.
+room purge danudar
+room transfer all 30151
+~
+#30152
+~
+#30153
+room echo As you enter the room, the heavy vault door slams shut behind you.
+room echo The Circle of Seven seems to glow lightly.
+room delay 3
+~
+#30154
+~
+#30155
+room echo The point of the star glows brightly, then fades.
+~
+#30156
+room echo You feel the air around you bristle with power and energy.
+~
+#30157
+room echo The chains on Gehenna's wrists suddenly glow with holy energy.
+~
+#30158
+room echo A brilliant bright aura surrounds Gehenna.
+~
+#30159
+room echo A humming resounds in the room, as the Holy Power manifests itself!
+~
+#30160
+room echo The room is suddenly bathed in a brilliant light from the heavens!
+~
+#30161
+room echo As the last chant is issued forth, the room explodes in a brilliant white glow!
+room echo `#The room fills with brilliant white light!``
+room echo You are blinded!
+room transfer Gehenna 7
+room delay 1
+~
+#30163
+room echo As the light filters and fades from the room, smoke fills your nostrils.
+room echo Where Gehenna once stood, a smoking hole is resting in the ground.
+room transfer korduun
+force korduun say Gehenna has been sent back to Hell!
+force korduun say Now, quickly, recite the last two phrases of the text!
+force korduun say We must let Karman back through the Nexus!
+room echo Korduun gestures for you to recite the last two phrases.
+~
+#30165
+room echo As the last words fill the air, a massive crack opens in the stone floor.
+room echo The room shudders and shakes violently.
+room gecho `!The cries of the damned fill the air around you, then fade suddenly in agony.``
+room echo Then, as quickly as the shaking began, it fades.
+room echo A small child can be heard crying to himself.
+room purge Korduun
+room mload 30154
+room force sec follow Shandronas
+~
+#30298
+if rand 50
+  room echo Small bits of loose soil fall from the ceiling above.
+else
+  if rand 50
+    room echo `*The sound of your heartbeat fills your ears.``
+  else
+    room echo You are able to discern small worms crawling in the earthen walls of the room.
+  endif
+endif
+~
+#30299
+if rand 30
+  room echo `1A large chunk of flaming earth hurtles past, narrowly missing your head.``
+else
+  if rand 50
+    room echo `^A deluge of water soaks you, drenching your clothes.``
+  else
+    room echo `7A torrent of wind buffets you, sending particles of scalding dust into your face.``
+  end if
+endif
+~
+#0
+
+#$

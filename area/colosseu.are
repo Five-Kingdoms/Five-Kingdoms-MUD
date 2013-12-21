@@ -1,0 +1,4017 @@
+#AREADATA
+Name the Revelsport Colosseum~
+Pref ~
+Builders Crypticant~
+VNUMs 8700 8799
+Max_Bastions 0
+Credits { ALL } Cryptica The Revelsport Colosseum~
+Security 9
+Startroom 8700
+Flags 160
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#8700
+Colosseum guard~
+a Colosseum Guard~
+A Colosseum Guard wanders the arena observatories here, keeping the peace.
+~
+~
+human~
+ACGTd AC DF 0 0 5555
+35 5 10d5+480 0d0+100 5d6+15 pierce
+0 0 0 0
+EFKNTU 0 0 0
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 8709 20~
+P SPEECH 8710 kill~
+#8703
+arena guardian master Vorholm~
+Vorholm~
+Vorholm, the Master of War, stands here guarding the gates.
+~
+Before you stands Vorholm, the Great Master of War. He towers above you, and
+is easily the largest human being you have ever seen. Layers of bulging
+muscle cover his body, and he stands before the gates of the Grand Arena,
+allowing on the worthy to pass. He stands, as if waiting for the correct
+words.
+~
+human~
+ABZe A DFJ 0 0 0
+40 25 4d6+4000 0d0+100 4d6+25 slash
+-30 -30 -30 -30
+0 ABCD 0 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+P BRIBE 8703 300~
+P GRALL 8700 100~
+P SPEECH 8702 observer~
+P SPEECH 8701 competitor~
+P EXIT 8721 north~
+#8705
+Colosseum onlooker~
+an onlooker~
+A Colosseum onlooker is here, watching the fights.
+~
+~
+human~
+ACd A DFJ 0 -1000 0
+20 8 1d1+450 0d0+0 3d3+10 pierce
+-1 -1 -1 -1
+EJK A CL R
+stand stand either none~
+11
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 8708 50~
+#8708
+dirty food vendor~
+a dirty food vendor~
+A dirty food vendor is here selling eats.
+~
+~
+human~
+ABe AC DFJ 0 0 0
+50 0 4d6+8000 0d0+100 0d0+0 punch
+-10 -10 -10 -10
+CEN AB 0 0
+stand stand none none~
+21
+AHMV ABCDEFGHIJK medium 0
+#8709
+sweaty bartender~
+a sweaty bartender~
+A sweaty bartender is here pouring drinks.
+~
+~
+human~
+ABe AC DFJ 0 0 0
+50 0 4d6+8000 0d0+100 0d0+0 punch
+-10 -10 -10 -10
+CEN AB 0 0
+stand stand none none~
+17
+AHMV ABCDEFGHIJK medium 0
+#8710
+shady drug dealer drugdealer~
+a shady drug dealer~
+A shady drug dealer is here, selling off his 'goods'.
+~
+~
+human~
+ABe AC DFJ 0 0 0
+50 0 4d6+8000 0d0+100 0d0+0 punch
+-10 -10 -10 -10
+CEN AB 0 0
+stand stand none none~
+21
+AHMV ABCDEFGHIJK medium 0
+#8712
+massive bouncer~
+a massive bouncer~
+A very large man with a shaved head guards the Upper Decks here.
+~
+~
+stone~
+ABTZ A DFJ 0 0 10045
+35 10 25d10+3000 0d0+100 8d3+10 beating
+-10 -10 -10 -10
+KN AB BDJP P
+stand stand male none~
+14
+AHMV ABCDEFGHIJK medium 0
+P DEATH 8711 100~
+P EXIT 8712 north~
+#8714
+massive bouncer~
+a massive bouncer~
+A very large man with a shaved head guards the Upper Decks here.
+~
+~
+stone~
+ABTZ A DFJ 0 0 10045
+35 10 25d10+3000 0d0+100 8d3+10 beating
+-10 -10 -10 -10
+KN AB BDJP P
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+P DEATH 8711 100~
+P EXIT 8714 north~
+#8715
+food vendor young man~
+a food vendor~
+A young man is here, selling food.
+~
+~
+human~
+ABC A DFJ 0 0 0
+25 10 4d6+1000 0d0+100 4d6+10 slap
+0 0 0 0
+F AB 0 0
+stand stand male none~
+9
+AHMV ABCDEFGHIJK medium 0
+#8716
+massive bouncer~
+a massive bouncer~
+A very large man with a shaved head guards the Upper Decks here.
+~
+~
+stone~
+ABTZ A DFJ 0 0 10045
+40 18 25d10+3000 0d0+100 8d3+14 beating
+-10 -10 -10 -10
+KN AB BDJP P
+stand stand male none~
+19
+AHMV ABCDEFGHIJK medium 0
+P DEATH 8711 100~
+P EXIT 8716 north~
+#8717
+beautiful serving woman~
+a beautiful serving woman~
+A beautiful serving woman is here, carrying a cocktail tray.
+~
+One of the finest specimens of women in Revelsport, this lovely blonde haired
+blue eyed serving girl seems to be here to placate your every whim. She
+is scantily clad in loose gauzy robes, and moves lithely to and fro from
+the cocktail bar to assuage your hunger and thirst. A small brass placard
+carried on her serving tray seems to prompt you to inquire about 'food',
+'drink', 'wine', 'champagne', and even a 'massage'.
+~
+human~
+ABC A DFJ 0 0 0
+25 10 4d6+1000 0d0+100 4d6+10 slap
+0 0 0 0
+F AB 0 0
+stand stand female none~
+11
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 8706 massage~
+P SPEECH 8717 drink~
+P SPEECH 8705 food~
+P SPEECH 8705 caviar~
+P SPEECH 8704 champagne~
+P SPEECH 8715 wine~
+P SPEECH 8717 milk~
+#8718
+trey arena shopkeeper~
+Trey~
+Trey the Legionnaire is here, glowering darkly.
+~
+Old and grizzled, this former Legionnaire turned healer is here,
+aiding you in your preparations before the next battle. Covered
+in old scars from wars untold, this disgusting man hardly seems
+the healing type.
+~
+human~
+ABae A FHJ 0 0 0
+60 0 10d10+7000 0d0+100 4d6+50 punch
+-40 -40 -40 -40
+DEFJK AB 0 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+P EXIT 8793 north~
+P RANDOM 8718 50~
+#8719
+Raktar massive guardian ogre~
+Raktar~
+Raktar, the massive Ogre guardian, is here prodding you along.
+~
+This colossal ogre guards the Colosseum gates, and coordinates all of
+the battles in the arena. He has little patience for idiots, and his
+only company is that of his ferocious pitbull, who keeps any of the
+competitors who may cause trouble at bay.
+~
+human~
+ABe A FJ 0 0 0
+60 0 10d10+7000 0d0+100 4d6+50 punch
+-40 -40 -40 -40
+DEFJK AB 0 0
+stand stand male none~
+30
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 8732 v3xc4d~
+P SPEECH 8761 3xx5wc~
+P SPEECH 8760 2xx4va~
+P SPEECH 8759 1xx3dc~
+P SPEECH 8758 3h3f21~
+P SPEECH 8757 2h9c87~
+P SPEECH 8756 1h4c33~
+P SPEECH 8755 31f9dv~
+P SPEECH 8754 21v7qc~
+P SPEECH 8753 11c3ek~
+P SPEECH 8752 3x5trv~
+P SPEECH 8751 2x3aaf~
+P GRALL 8719 100~
+P SPEECH 8750 1x2bbc~
+P DELAY 8724 100~
+#8720
+orc hordemaster~
+the Orc hordemaster~
+A gigantic angry Orc glares balefully at you.
+~
+~
+orc~
+ADFGTce AGI DFJ 0 0 7040
+50 42 10d25+750 0d0+100 7d7+25 crush
+-5 -5 -5 -5
+EFNU AB HQ FIS
+stand stand none none~
+26
+AHMV ABCDEFGHIJK medium 0
+P KILL 8775 100~
+P DEATH 8762 100~
+P DELAY 8776 100~
+P RANDOM 8794 50~
+#8721
+gnoll slavekeeper~
+the gnoll slavekeeper~
+A massive gnoll is here, covered in heavy chains.
+~
+~
+unique~
+ADFGTce AGI DFJ I 0 7040
+50 36 12d16+1100 0d0+100 4d9+20 crush
+-6 -6 -6 3
+EFNU AB Q S
+stand stand either none~
+19
+AHMV ABCDEFGHIJK medium 0
+P KILL 8775 100~
+P DEATH 8763 100~
+P DELAY 8776 100~
+P RANDOM 8794 50~
+#8722
+lizardman king thieves~
+the lizardman Thief King~
+A giant lizardman is here, bearing the mark of the Master Thief.
+~
+~
+lizardman~
+ADFGTce AGI DFJ 0 0 7040
+50 30 14d12+800 0d0+100 6d6+25 crush
+-3 -3 -3 0
+EFHJKNU AB Q F
+stand stand male none~
+24
+0 ABCDEFGHIJKLQXc medium 0
+P KILL 8775 100~
+P DEATH 8764 100~
+P DELAY 8776 100~
+P RANDOM 8794 50~
+#8723
+hill giant~
+a hill giant~
+A massive hill giant is here, ready to pound you to a pulp.
+~
+~
+giant~
+ADFGTce AGI DFJ 0 0 7040
+50 20 5d8+1075 0d0+100 5d6+23 crush
+-13 -13 -15 -1
+EFNU AB DH P
+stand stand male none~
+26
+AHMV ABCDEFGHIJK large 0
+P KILL 8775 100~
+P DEATH 8765 100~
+P DELAY 8776 100~
+P RANDOM 8794 50~
+#8724
+black shade~
+a black shade~
+A black shade lurks in the shadows, then attacks!
+~
+~
+unique~
+ADFGTce AGI DFJ 0 0 7040
+50 21 12d15+1275 0d0+100 5d6+25 crush
+-16 -13 -15 -3
+EFKNU AB EQ S
+stand stand none none~
+26
+AHMV ABCDEFGHIJK medium 0
+P KILL 8775 100~
+P DEATH 8766 100~
+P DELAY 8776 100~
+P RANDOM 8794 50~
+#8725
+forest ifrit~
+a forest ifrit~
+A forest ifrit lurks in the dark shadows here.
+~
+~
+unique~
+ADFGTce AGI DFJ 0 0 7040
+50 23 10d15+1500 0d0+100 5d6+23 magic
+-15 -12 -13 -3
+EFHJKNU AB H I
+stand stand either none~
+24
+AHMV ABCDEFGHIJK medium 0
+P KILL 8775 100~
+P DEATH 8767 100~
+P DELAY 8776 100~
+P RANDOM 8794 50~
+#8726
+chaos demon~
+a Chaos Demon~
+A tainted Chaos Demon leaps from the darkness and attacks!
+~
+~
+demon~
+ADFGTce AGI DFJT 0 -1000 7040
+50 47 4d8+1833 0d0+100 6d14+33 corruption
+-16 -23 -20 0
+EFHKNU AB EH AN
+stand stand none none~
+21
+AHMV ABCDEFGHIJK large 0
+P KILL 8775 100~
+P DEATH 8768 100~
+P DELAY 8776 100~
+P RANDOM 8794 50~
+#8727
+gladiator champion~
+the Gladiator Champion~
+The Gladiator Champion leaps from the entrance, and attacks!
+~
+~
+ogre~
+ADFGTce AGI DFJ 0 0 7040
+50 49 4d6+2400 0d0+100 8d8+33 smash
+-18 -18 -16 -6
+EFHJKNU AB E C
+stand stand male none~
+21
+AHMV ABCDEFGHIJK giant 0
+P KILL 8775 100~
+P DEATH 8769 100~
+P DELAY 8776 100~
+P RANDOM 8794 50~
+#8728
+manticore~
+the manticore~
+A deadly manticore sees you, and lunges!
+~
+~
+unique~
+ADFGTce AGI DFJTa I 0 7040
+50 50 12d11+2250 0d0+100 5d6+43 sting
+-20 -16 -13 -5
+EFJKNUX AB BEHQ 0
+stand stand none none~
+22
+AHMV ABCDEFGHIJK medium 0
+P FIGHT 8799 10~
+P KILL 8775 100~
+P DEATH 8770 100~
+P DELAY 8776 100~
+P RANDOM 8794 50~
+#8729
+chimera~
+the chimera~
+The chimera slinks from its cave, and lunges at you!
+~
+~
+unique~
+ADFGTce AGI DFHJ 0 0 7040
+50 30 4d6+1950 0d0+100 4d6+29 chomp
+-20 -19 -13 -7
+EFJKMNU AB 0 0
+stand stand either none~
+19
+AHMV ABCDEFGHIJK medium 0
+P FIGHT 8799 10~
+P KILL 8775 100~
+P DEATH 8771 100~
+P DELAY 8776 100~
+P RANDOM 8794 50~
+#8730
+undead wight~
+the Undead Wight~
+An Undead Wight lurks here, chanting vile magic!
+~
+~
+undead~
+ADFGTce AGI DFHJV 0 -750 7040
+50 26 4d6+2200 0d0+100 4d6+35 crush
+-17 -14 -16 -7
+EFKNU ABLQ CEQ NS
+stand stand none none~
+17
+0 ABCDEFGHIJK medium 0
+F act O
+F res I
+P FIGHT 8799 10~
+P KILL 8775 100~
+P DEATH 8772 100~
+P DELAY 8776 100~
+P RANDOM 8794 50~
+#8731
+black dragon~
+the Black Dragon~
+The Black Dragon looms before you, in all its splendor.
+~
+~
+dragon~
+ADFGTce ACI DFHJT 0 0 7040
+56 40 10d10+3500 0d0+100 4d6+55 crush
+-30 -31 -31 -28
+DEFJKMNU AB BEHQ S
+stand stand female none~
+21
+AHZ ACDEFGHIJKLPQUVX medium 0
+F vul FI
+P KILL 8775 100~
+P DEATH 8773 100~
+P FIGHT 8799 10~
+P DELAY 8776 100~
+P RANDOM 8794 50~
+P FIGHT 8740 60~
+#8732
+cardinal Colosseum~
+Colosseum Cardinal~
+The Colosseum Cardinal watches over the Morgue.
+~
+~
+human~
+ABTVZ A DFHJO 0 -750 0
+60 0 50d10+7000 0d0+100 3d80+20 drain
+-30 -30 -30 -30
+EFHJK AB D 0
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 8707 50~
+#8741
+Dirien~
+dirien~
+Dirien the Mistress of Ceremonies is here, congratulating you.
+~
+A lovely lass with radiant eyes and a winning smile, she greets you
+warmly as you leave the combat arena, and nods at you, knowing the
+pain you have endured.
+~
+human~
+ABe A FHJ 0 0 0
+60 0 10d10+7000 0d0+100 4d6+50 punch
+-40 -40 -40 -40
+DEFJK AB 0 0
+stand stand female none~
+25
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 8741 35~
+#8742
+reginald vault keeper~
+Reginald~
+Reginald the Vault Keeper is here, watching over the treasure.
+~
+One of the oldest competitors in the Arena, Reginald has long
+since retired, and now runs the vault, where awards and prizes
+are given out to the strongest competitors in Revelsport.
+~
+human~
+ABe A FHJ 0 0 0
+60 0 10d10+7000 0d0+100 4d6+50 punch
+-40 -40 -40 -40
+DEFJK AB 0 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+P BRIBE 8735 2500~
+P BRIBE 8734 1~
+P EXIT 8733 west~
+P GRALL 8742 100~
+#8743
+minotaur combatant~
+a minotaur combatant~
+A minotaur combatant weaves his way through crowds here.
+~
+~
+minotaur~
+ACd A DFJ 0 -1000 0
+20 8 1d1+450 0d0+0 3d3+10 pierce
+-1 -1 -1 -1
+EJK A CL R
+stand stand either none~
+9
+AHMV ABCDEFGHIJKWY medium 0
+P RANDOM 8708 50~
+#8744
+stone giant combatant~
+a stone giant combatant~
+A massive stone giant walks boldly through the crowds here.
+~
+~
+minotaur~
+ACd A DFJ 0 -1000 0
+20 8 1d1+450 0d0+0 3d3+10 pierce
+-1 -1 -1 -1
+EJK A CL R
+stand stand either none~
+16
+AHMV ABCDEFGHIJKWY medium 0
+P RANDOM 8708 50~
+#8745
+human patron~
+a human patron~
+A human patron is here, watching the spectacle.
+~
+~
+human~
+ACd A DFJ 0 -1000 0
+20 8 1d1+450 0d0+0 3d3+10 pierce
+-1 -1 -1 -1
+EJK A CL R
+stand stand either none~
+13
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 8708 50~
+#8799
+vicious pitbull pit bull~
+a vicious pitbull~
+A vicious pitbull is here, snarling.
+~
+This is a very mean looking dog. And since it doesn't know you ...I think he's
+thinking of biting You!!....
+~
+dog~
+ABFT A DFJ 0 100 0
+15 0 4d6+1000 0d0+100 2d6+3 bite
+5 5 5 7
+FHKNU 0 0 0
+stand stand none none~
+8
+AGV ACDEFHJKUV medium 0
+P GRALL 8722 100~
+P DELAY 8713 100~
+P FIGHT 8792 100~
+#0
+
+
+
+#OBJECTS
+#8700
+bronze token~
+a bronze token~
+A brightly shining bronze token is lying on the floor here.~
+metal~
+treasure 0 A
+0 0 0 0 0
+20 10 100 P
+E
+token~
+A token bearing the seal of the Grand Colosseum glitters brightly.
+It seems to be made of shiny gold.
+~
+#8701
+silver token~
+a silver token~
+A brightly shining silver token is lying on the floor here.~
+metal~
+treasure 0 A
+0 0 0 0 0
+20 10 100 P
+E
+token~
+A token bearing the seal of the Grand Colosseum glitters brightly.
+It seems to be made of shiny gold.
+~
+#8702
+gold token~
+a gold token~
+A brightly shining gold token is lying on the floor here.~
+metal~
+treasure 0 A
+0 0 0 0 0
+20 10 100 P
+E
+token~
+A token bearing the seal of the Grand Colosseum glitters brightly.
+It seems to be made of shiny gold.
+~
+#8703
+chicken roasted duck~
+a roasted duck~
+A whole roasted duck is here.~
+chicken~
+food 0 A
+24 24 0 0 72
+0 0 12 P
+#8704
+fine bottle champagne~
+a fine bottle of champagne~
+A fine bottle of champagne is lying here.~
+glass~
+drink 0 A
+20 20 'champagne' 0 0
+0 0 5000 P
+#8705
+turkey leg~
+a large turkey leg~
+A large turkey leg is on the ground here.~
+turkey~
+food 0 A
+20 20 0 0 20
+1 0 10 P
+#8706
+row seats~
+one of the seats~
+A large row of seats is here, overlooking the arena.~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 0 100 P
+#8707
+finely cut opium~
+some finely cut opium~
+A pack of finely cut opium is lying here.~
+poppy~
+herb 0 A
+0 'poison' 'reserved' 'reserved' 'frenzy'
+10 10 10000 P
+E
+opium~
+From the color, this looks to be a fine grade of opium.
+~
+#8708
+black harvar root~
+some black harvar root~
+Some dried black roots are lying on the ground here.~
+root~
+herb 0 A
+0 'dysentery' 'reserved' 'reserved' 'frenzy'
+25 10 8700 P
+#8709
+shot dark whisky~
+a shot of dark whisky~
+A shotglass is lying on the ground here.~
+glass~
+drink 0 A
+2 2 'whisky' 0 0
+0 10 250 P
+#8710
+mug ale~
+a mug of dark ale~
+A mug of dark ale is here.~
+glass~
+drink 0 A
+16 16 'dark ale' 0 0
+0 10 100 P
+#8711
+cheese~
+a hunk of cheese~
+A hunk of cheese lies here.~
+dairy~
+food 0 A
+5 5 0 0 96
+0 10 2 P
+#8717
+slab beef~
+a large slab of beef~
+A large slab of beef is resting here.~
+meat~
+food 0 A
+24 24 0 0 24
+2 20 12 P
+#8718
+circular stone well~
+a circular stone well~
+A large circular stone well is set into the ground here.~
+bone~
+fountain 0 P
+-1 -1 'water' 0 0
+55 100 100 P
+#8719
+rope~
+a rope~
+A large, tasseled rope dangles from far above here.~
+rope~
+furniture X 0
+0 0 0 0 0
+0 0 100 P
+E
+rope~
+A small inscription on the rope reads:
+ 
+If you are stuck in this room and not fighting, USE this rope
+to get back to Raktar.
+~
+P USE 8719 100~
+#8732
+steel gong~
+a steel gong~
+A massive steel gong is set into the ground here.~
+steel~
+furniture X 0
+0 0 0 0 0
+0 0 1000 P
+P USE 8732 100~
+#8750
+steel coif arena~
+a steel coif~
+A large steel coif is lying on the ground here.~
+steel~
+armor Ae ACX
+7 6 9 3 0
+30 30 3100 P
+F
+A 17 -20 0
+#8751
+plated steel neckguard arena~
+a plated steel neckguard~
+A neckguard made of plated steel is lying here.~
+steel~
+armor Ae ACX
+4 5 3 3 0
+30 30 3100 P
+F
+A 19 2 0
+#8752
+combat belt leather arena~
+a leather combat belt~
+A leather belt is lying on the ground here.~
+leather~
+armor e AL
+6 7 6 4 0
+30 10 1000 P
+F
+A 2 1 0
+#8753
+battle sheath leather arena~
+a leather battle sheath~
+A leather battle sheath is lying on the ground here.~
+leather~
+container 0 AL
+20 A 0 20 45
+30 10 1000 P
+F
+A 2 1 0
+#8754
+golden bracer arena~
+a golden bracer~
+A golden bracer is lying on the ground here.~
+leather~
+armor e AM
+4 6 4 2 0
+7 10 690 P
+E
+bracer~
+This bracer is covered with runes of protection and luck in combat.
+~
+F
+A 24 -1 0
+F
+A 22 -3 0
+#8755
+embossed leather bracer arena~
+an embossed leather bracer~
+A leather bracer, embossed with a lion, is lying here.~
+leather~
+armor e AM
+2 4 4 2 0
+7 10 690 P
+E
+bracer~
+This bracer is covered with runes of protection and luck in combat.
+~
+F
+A 24 -1 0
+F
+S 111 1 0
+#8756
+spiked stone club arena~
+a spiked stone club~
+A large club with a sharp spike in it is lying here.~
+earth~
+weapon 0 AN
+mace 4 8 pound DF
+13 160 730 P
+F
+A 19 1 0
+#8757
+heavy steel maul arena~
+a heavy steel maul~
+A heavy steel maul is lying on the ground here.~
+earth~
+weapon e AN
+mace 4 9 pound 0
+13 160 730 P
+F
+A 19 2 0
+F
+A 1 1 0
+#8758
+battle helm arena~
+a battle helm~
+A large helm made for battle is lying here.~
+steel~
+armor Ae AE
+8 7 8 3 0
+27 40 270 P
+F
+A 18 1 0
+F
+S 245 3 0
+#8759
+combat helmet arena~
+a combat helmet~
+A large helmet designed for combat is lying on the ground here.~
+steel~
+armor Ae AEX
+6 5 7 2 0
+27 40 270 P
+F
+A 2 -1 0
+F
+A 18 2 0
+F
+A 19 1 0
+#8760
+burnished steel leggings arena~
+some burnished steel leggings~
+A set of leggings made from burnished steel is lying here.~
+steel~
+armor Ae AFX
+9 9 9 4 0
+29 170 3700 P
+F
+A 18 2 0
+F
+A 14 10 0
+#8761
+burnished steel armguards arena~
+some burnished steel armguards~
+A set of armguards made from burnished steel is lying here.~
+steel~
+armor Ae AIX
+7 5 9 4 0
+29 170 3700 P
+F
+A 18 2 0
+#8762
+cobalt earring~
+a cobalt earring~
+An earring made from deep blue cobalt is lying here.~
+cobalt~
+armor APe AXZ
+0 0 0 0 0
+40 10 7 P
+F
+A 21 -1 0
+F
+A 22 -1 0
+F
+A 13 15 0
+#8763
+silver hoop earring arena~
+a silver hoop earring~
+A small silver hoop is lying on the ground here.~
+metal~
+armor Ae AXZ
+0 0 0 0 0
+40 10 22 P
+F
+A 13 10 0
+#8764
+spiked leather combat gloves arena~
+some spiked leather combat gloves~
+A set of spiked leather gloves are lying on the ground here.~
+leather~
+armor e AHX
+5 7 8 4 0
+40 50 12 P
+F
+A 18 1 0
+F
+S 109 3 0
+F
+S 347 1 0
+F
+S 346 1 0
+#8765
+chainmail gauntlets arena~
+some chainmail gauntlets~
+Some gauntlets made of chainmail are lying here.~
+chain~
+armor e AHX
+4 5 6 2 0
+40 100 22 P
+F
+A 2 -1 0
+F
+A 1 -1 0
+F
+A 19 1 0
+F
+A 18 2 0
+#8766
+embossed leather armguards arena~
+embossed leather armguards~
+A pair of armguards adorned with two embossed horses is lying here.~
+leather~
+armor Ae AIX
+11 9 10 6 0
+50 250 12 P
+F
+S 97 1 0
+F
+A 21 -5 0
+F
+A 20 -2 0
+F
+A 1 1 0
+F
+A 13 10 0
+#8767
+suit platemail arena~
+a suit of platemail~
+A suit of heavy platemail is lying here.~
+metal~
+armor e ADX
+8 9 9 7 0
+50 400 18 P
+F
+A 2 -2 0
+F
+A 34 5 0
+F
+A 19 1 0
+#8768
+arena rod enchantment~
+a rod of enchantment~
+A strange glowing rod is lying on the ground here.~
+glass~
+staff ABX AOS
+60 4 4 'enchant weapon' 0
+45 10 7 P
+#8769
+arena sack gold~
+a sack of gold~
+A very large sack of gold is lying here.~
+burlap~
+container A AOX
+100 0 0 100 100
+60 10 10 P
+P USE 8769 100~
+#8770
+arena gatestone~
+the Gatestone~
+A strange glowing stone is lying on the ground here.~
+magic~
+treasure ABc APS
+0 0 0 0 0
+60 50 5 P
+P DELAY 8771 100~
+P USE 8770 100~
+#8771
+glimmering white staff arena~
+a glimmering white staff~
+A spectacular white staff is lying on the ground here.~
+ivory~
+staff BPX AOX
+50 15 15 'sanctuary' 0
+50 100 9 P
+#8772
+skull black dragon arena !8772!~
+the Skull of the Black Dragon~
+A massive black dragon skull is lying on the ground here.~
+ebony~
+armor AMPZ AESX
+9 6 3 16 0
+25 50 3 P
+F
+A 29 -3 0
+F
+A 27 1 0
+P USE 8772 100~
+#8773
+shield black dragon arena~
+the Shield of the Black Dragon~
+A massive black shield is resting on the ground here.~
+dragon~
+armor ABPe AJX
+11 13 12 8 0
+50 50 5 P
+M
+An aura of immense power fills your body.~
+~
+~
+~
+F
+A 19 3 0
+F
+A 18 3 0
+#8790
+luxurious leather sofa~
+a luxurious leather sofa~
+A luxurious leather sofa spans nearly the entire room here.~
+leather~
+furniture 0 0
+0 0 0 0 0
+60 100 10000 P
+#8791
+soft cloth couch~
+a soft cloth couch~
+A soft cloth couch is here, overlooking the arena.~
+cloth~
+furniture 0 0
+0 0 0 0 0
+60 100 1000 P
+#8792
+wicker chair~
+a wicker chair~
+A wicker chair is here, overlooking the Colosseum.~
+cloth~
+furniture 0 0
+0 0 0 0 0
+60 100 100 P
+#8793
+dipping well~
+a dipping well~
+A large dipping well has been set up here.~
+wood~
+fountain 0 P
+-1 -1 'water' 0 0
+1 2000 1000 P
+#8794
+crystalline fountain~
+a crystalline fountain~
+A beautiful crystalline fountain bubbles forth water here.~
+wood~
+fountain 0 P
+-1 -1 'water' 0 0
+1 2000 1000 P
+#8795
+a golden cocktail bar~
+a golden cocktail bar~
+A golden cocktail bar spreads across the back of the room here.~
+wood~
+furniture O P
+0 0 0 0 0
+1 2000 1000 P
+#8796
+wine glass~
+a glass of wine~
+A glass rests here.~
+glass~
+drink 0 A
+6 6 'red wine' 0 0
+0 10 500 P
+#8797
+glass champagne~
+a flute of champagne~
+A fluted glass rests here.~
+glass~
+drink 0 A
+6 6 'champagne' 0 0
+0 10 1000 P
+#8798
+plate caviar~
+some caviar~
+A plate of caviar is lying here.~
+caviar~
+food U A
+8 8 0 0 8
+50 5 4 P
+#8799
+glass milk~
+a glass of warm milk~
+A glass rests here.~
+glass~
+drink 0 A
+6 6 'milk' 0 0
+0 10 13 P
+#0
+
+
+
+#ROOMS
+#8700
+`8The Road to the Colosseum``~
+A broad cobblestone walkway winds its way towards a massive arena to your
+east.  People mill about, murmuring of recent battles and combatants, and
+the air seems to hold a strange, vibrating quality as the smell of blood
+fills the air.  Truly you begin to get excited as you think of the
+possiblities of today's battles.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 8701
+D2
+~
+~
+0 0 20622
+S
+#8701
+`8A broad pathway``~
+A broad cobblestone walkway winds its way towards a massive arena to your
+east.  People mill about, murmuring of recent battles and combatants, and
+the air seems to hold a strange, vibrating quality as the smell of blood
+fills the air.  Truly you begin to get excited as you think of the
+possiblities of today's battles.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 8702
+D3
+~
+~
+0 0 8700
+S
+#8702
+`8Before the Revelsport Colosseum``~
+The wide pathway expands into a large circular cobblestone area that
+seems to open into an area for purchasing tickets and such.  Many
+sidevendors mill about, selling small foodstuffs, and souvenirs.  You
+continue to grow in anticipation of the time you will spend here.  Looming
+large in front of you is the Colosseum itself, a true marvel of Border Marcher
+craftsmanship in its enormity and splendor.  Surely it can house several
+thousand and seems to be rimmed with multiple layers and great, open arches
+to the outside to give it an open, airy feel.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 8703
+D3
+~
+~
+0 0 8701
+S
+#8703
+`8The Entrance Hall of the Colosseum``~
+As you step within the massive Hall, you cannot help but gasp in awe of
+the sheer enormity of the place.  Cut from enormous slabs of granite by
+master dwarven crafters, the hall looks like it could stand down an
+earthquake without a scratch.  Massive butressed ceilings soar nearly twenty
+feet above your head, and extend the length of twenty men to either side of
+you.  Clearly you could walk an army of spectators through this hall.  
+~
+~
+0 0 0 0
+D0
+~
+immense granite doors~
+AB 0 8782
+D3
+~
+~
+AB 0 8702
+S
+#8704
+`8The Lower Deck of the Observatory``~
+The cheaper seats are located here, encircling the Colosseum's battlefield
+below, you seem to have a good view of nearly every fighting area except for
+the top ranked fighters.  You dig in your coinpurse and wonder if maybe you
+should not splurge and decide to sit on the top deck.  The view here is not
+bad, however, and the seats are suprisingly comfortable as vendors walk
+about the rows, selling various foodstuffs and refreshments.  Just as you
+move to sit down, a spray of blood from one of the arenas shoots up to coat
+your face.  Definitely no shortage of blood here.  
+~
+~
+0 0 0 0
+D2
+~
+~
+AB 0 8702
+D4
+~
+~
+0 0 8705
+S
+#8705
+`8The Dragon Row [Arena II]``~
+Your ticket said dragon row and here you are.  A large section of seats,
+all surrounding a massive jade statue of a coiled, rearing dragon, this
+section is known for the frequent fights that break out within its seats,
+seemingly every day.  Rumor has it a practical joke by the Savant Tower
+imbued the dragon with an odd flair to bring about mass hysteria.  Your view
+here is quite good though, and you decide to settle into your seat so that
+you might not miss anymore of the action.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8706
+D2
+~
+~
+0 0 8707
+D3
+~
+~
+0 0 8708
+D5
+~
+~
+0 0 8704
+S
+#8706
+`8The Lion Row [Arena III]``~
+The lion section of the Observatory, these seats are known for attracting
+fighters between battles.  A massive golden lion statue of Alabaster is
+here, surrounded by the seats, which at present seem to hold quite a few who
+you think might be fighters, or considering becoming one.  A gang of four
+minotaurs is grouped together, talking heatedly about some particular
+subject, and a dwarf and a duergar are arguing violently about world peace
+or something thereabouts.  You quickly make your way to a seat and settle in
+to enjoy the fights.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 8705
+P RANDOM 8706 20~
+S
+#8707
+`8The Colossus Row [Arena I]``~
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8705
+S
+#8708
+`8Vendor's Row``~
+A massive slew of tables, grills and ovens adorn this enclosed area, and
+warm, exotic aromas fill the area with the smell of cooking meats and
+poultry.  Long lines of people have formed around each of the "stations" as
+people wait anxiously in line for the foods the wandering vendors do not
+sell.  You spy an exotic fish perhaps ten feet long, adorned with wild
+mushrooms and herbs and begin to drool at the amazing smell.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8709
+D1
+~
+~
+0 0 8705
+S
+#8709
+`8Vendor's Row``~
+The refreshment section is here, and massive barrels of water, kegs of
+beer, and casks of wine line the entire left side of the Row.  The lines
+here are even longer then in the food sections, and there are huge spills of
+beverages all over the ground, making your feet almost stick as you walk. 
+Several of the more inebriated individuals are passed out, comatose along
+the opposite walls, and have clearly imbibed more then they should.  South
+is the food areas.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8710
+D2
+~
+~
+0 0 8708
+S
+#8710
+`8Vendor's Row``~
+South of you appears to be a swarming, writhing mass of people in line
+for various foods and beverages, and what appear to be the last lingering
+edges of some of the lines are now in front of you.  Several shadier
+individuals are wandering about, causing problems and commotions as they
+jostle with one another for whatever it is they are doing.  You decide maybe
+to head a bit further south to get in line.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 8711
+D2
+~
+~
+0 0 8709
+S
+#8711
+`8The Stairway to the Upper Decks``~
+A massive set of granite stairs climbs to the upper reaches of the Colosseum
+here, and a pair of enormous, chiseled guards approaches you menacingly to
+check your tickets.  Seems only the very rich, or the very powerful, or the
+very "not to be messed with" are allowed access to the upper deck of the
+Colosseum.  Are you one of them?  
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 8710
+D4
+~
+~
+0 0 8712
+S
+#8712
+`8The Second Deck``~
+The upper decks passages sprawl before you in opulent splendor, and you
+can barely contain your glee as you prepare to watch some of the greatest
+fighters in all of the Border Marches do battle.  Peering around, you 
+notice many a baron, courtesan, and their entourages moving about, talking, 
+or simply looking rich.  You supress and inner chuckle and decide to move 
+to your seat just as another large guard approaches and demands your ticket.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8713
+D4
+~
+~
+0 0 8714
+D5
+~
+~
+0 0 8711
+S
+#8713
+`8The Blue Room Observatory``~
+The Blue Room private box, true beauty is in this small, enclosed section
+reserved especially for you.  A small well is here to draw water from, and a
+servant stands at your beck and call should you need anything.  The view of
+the arena here is spectacular to say the least, and each of the walls around
+you is covered in dark blue tapestries of various former champions of the
+Colosseum.  
+~
+~
+0 8200 0 0
+D2
+~
+~
+0 0 8712
+S
+#8714
+`8The Third Deck``~
+The very finest of the Upper Decks other then the Royal Observatory, this
+area is nicely maintained with flowers and tapestries, to give a nice,
+opulent look to it.  The walkways are nice and clean, unlike below, and the
+ever present guards give you a nice sense of security.  Visiting
+dignitaries, and several lesser nobles all seem to populate the immediate
+areas and their respective boxes.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8715
+D4
+~
+~
+0 0 8716
+D5
+~
+~
+0 0 8712
+S
+#8715
+`8The Gold Room Observatory``~
+An impressive observatory, the Gold Room is so known because of the
+tapestries spun of golden threads that adorn the walls.  A pleasant enough
+fellow stands here ready to cater to your needs, and your view of the arena
+below is nothing short of spectacular.  You must have spent a pretty penny
+to get here, but it was worth it as the couch you rest upon is one of the
+most comfortable resting places you have ever had.  
+~
+~
+0 8200 0 0
+D2
+~
+~
+0 0 8714
+S
+#8716
+`8The Royal Deck``~
+Either you are a Royal of one of the major cities of Mirlan, or you have
+battled your way here, in which case, guards are on their way.  A massive
+guard stands before you, barring the entrance to the Royal Box.  The walkway
+here is immaculately maintained and, flowers are arranged gorgeously about
+the area for your viewing and aromatic enjoyment.  You prepare to watch some
+spectacular fights with mild trepidation.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8717
+D5
+~
+~
+0 0 8714
+S
+#8717
+`8The Royal Observatory``~
+Truly decadent splendor permeates the Royal Box.  Everything is of the
+finest quality and craftsmanship, as well as materials in this luxurious,
+comfortable observatory.  You can choose from any of the arenas below to
+turn your attention, and a gorgeous serving woman stands ready to assist you
+from behind a massive bar which seems to contain nearly every drink
+imaginable.  Truly life as a royal is fine indeed.  
+~
+~
+0 8200 0 0
+E
+sign~
+Welcome to the Royal Observatory.
+ 
+We offer complimentary wine, champagne, warm milk, and
+caviar. Our serving staff is also skilled in massage therapy.
+For any of the above, just ask.
+ 
+-The Colosseum Staff
+~
+D2
+~
+~
+0 0 8716
+S
+#8718
+`8The Rack Room``~
+The infamous rack room, so named for the massive iron weaponrack on the
+far wall.  The spare weapons here have seen more death then most of
+Virigoth's minions, but they are still very combat worthy and deadly.  Now
+is the time to get ready if you havent already.  
+ 
+A small side door is set in the west wall.
+~
+~
+0 4 0 0
+E
+sign~
+A small sign on the wall reads:
+==--
+Welcome to the battle arena. This is the place where you want to be sure
+you are prepared fully for Arena Combat within the Colosseum. Rest here, and
+get yourself ready, for in the next room, Raktar will direct you to your
+battle grounds. Good luck, and die well!
+==--
+~
+D0
+~
+~
+0 0 8719
+D3
+~
+small side door~
+AB 0 8703
+M 200 H 200
+S
+#8719
+`8Before the Revelsport Colosseum``~
+Here you are, about to fight in front of thousands of people, and this
+giant Ogre cant even show you some courtesy.  It is rather humbling to say
+the least, but Raktar has undoubtedly seen a thousand like you before. 
+Massive iron studded portcullis prevents retreat back in here should you
+choose to flee.  If you have a god, pray to him now.  
+ 
+A large wooden sign hangs before the entrance here.
+~
+~
+0 0 0 0
+E
+sign~
+A large sign reads:
+==--
+`!Welcome, Gladiator...``
+==--
+You have come down the road to your certain demise.
+Pray that you die bravely, and with honor to serve
+your family name proud.
+==--
+Choose your battle wisely, for failure to do so will
+result in your imminent demise. The greater the battle,
+the more the victory bounty. Good luck!
+==--
+The OPEN ARENA will allow you to fight your peers
+without fear of death at their hand.  Any fights
+in the open arena end before a death occurs.
+==--
+`&LEVELS  SKILL     VENUE       KEYWORD``
+==--
+  15-50   Easy      Plains      1x2bbc  
+  15-50   Medium    Hills       2x3aaf  
+  15-50   Hard      Mountains   3x5trv  
+==--
+  21-50   Easy      Hills       11c3ek  
+  21-50   Medium    Mountains   21v7qc  
+  21-50   Hard      Forest      31f9dv  
+==--
+  31-50   Easy      Forest      1h4c33  
+  31-50   Medium    Desert      2h9c87  
+  31-50   Hard      Snow        3h3f21  
+==--
+  40-50   Easy      Desert      1xx3dc  
+  40-50   Medium    Snow        2xx4va  
+  40-50   Hard      Nexus       3xx5wc  
+==--
+  Open Arena        Various     v3xc4d
+==--
+Choosing Open Arena will lead you to the main Arena,
+whereby your targets will be those that come as they
+please. Just say the KEYWORD when you have selected.
+==--
+--The Colosseum Staff
+~
+D2
+~
+~
+0 0 8718
+M 0 H 0
+S
+#8720
+`3[Arena I] (Grassy terrain)``~
+A sprawling grassy area, this is one of the smaller arenas in the Colosseum,
+yet enough blood is spilled upon the coarse, dark grass to quench the thirst
+of a thousand vampires.  A tall wooden pole extends upwards and has a small
+rope attached to it.  
+~
+~
+0 8192 65536 2
+D2
+~
+~
+0 0 8786
+W 8707
+P SPEECH 8720 begin~
+S
+#8721
+`3[Arena I] (Hilly terrain)``~
+The terrain here is a bit hillier, and has small mounds of grassy dirt
+piled up in various locations to make the combat more interesting and
+enjoyable to the spectators.  Once again a tall wooden pole rises high above
+you with a rope attached to it.  
+~
+~
+0 8192 65536 4
+D2
+~
+~
+0 0 8783
+W 8707
+P SPEECH 8721 begin~
+S
+#8722
+`3[Arena I] (Rocky terrain)``~
+Nasty footing here, as medium sized boulders abound this gravelly area of
+the Colosseum.  This is one of the most popular of the lesser arenas because of
+the high propensity for broken legs and ankles, which generally lead to
+brutal, gory death.  Another tall wooden pole extends upwards here with a
+rope attached to it.  
+~
+~
+0 8192 32768 5
+D2
+~
+~
+0 0 8784
+W 8707
+P SPEECH 8722 begin~
+S
+#8723
+`3[Arena II] (Hilly terrain)``~
+The second flight of hilly terrain, this is laying just north of the
+lower hilly part of the Colosseum.  Seems the architects went to great lengths
+to make this terrain even more treacherous then the one below, but the crowd
+does seem to favor more exotic combat.  Another tall wooden pole extends up
+with a rope attached to it here.  
+~
+~
+0 8192 65536 4
+D2
+~
+~
+0 0 8785
+W 8705
+P SPEECH 8723 begin~
+S
+#8724
+`3[Arena II] (Rocky terrain)``~
+Even more boulders and gravel abound this area, and some of the smaller
+shards have wicked edges to them.  Looking between two of the boulders you
+see a small eyeball apparently left over from a previous battle.  Yet again
+a wooden pole rises out of the rock with a rope attached to it.  
+~
+~
+0 8192 16384 5
+D2
+~
+~
+0 0 8787
+W 8705
+P SPEECH 8724 begin~
+S
+#8725
+`2[Arena II] (Forest terrain)``~
+A small wooded copse is here, with an assortment of spindly, misshapen
+trees sprouting up from the fetid, blood soaked soil.  There are dozens of
+small shrubs adorning the area as well, giving it a foresty look to it.  Yet
+another tall wooden pole extends above the small trees with a rope attached
+to it.  
+~
+~
+0 8192 16384 3
+D2
+~
+~
+0 0 8788
+W 8705
+P SPEECH 8725 begin~
+S
+#8726
+`2[Arena III] (Forest terrain)``~
+Another of the small, wooded copses, this one of small fir trees which
+over ample hiding spots and such.  Much tangled undegrowth abounds, and
+makes movement a chore, yet again, there is a large wooden pole extending
+upwards.  
+~
+~
+0 8192 65536 3
+D2
+~
+~
+0 0 8789
+W 8706
+P SPEECH 8726 begin~
+S
+#8727
+`#[Arena III] (Desert terrain)``~
+The only terrain here is a swirling morass of sand and grit.  Not a
+pleasant place, it is flat, and very slippery, with a few dunes having piled
+up here and there, which will definitely keep you on your toes.  Yet again
+there is another wooden pole extending upwards with a rope attached.  
+~
+~
+0 8192 0 10
+D2
+~
+~
+0 0 8790
+W 8706
+P SPEECH 8727 begin~
+S
+#8728
+`&[Arena III] (Snowy terrain)``~
+With the help of the Savant Tower, the architects here were able to
+create a snowy, icy enclosure for certain beasts to fight in.  An icy
+surface caked with frozen clumps of snow is beneath your feet, and you cant
+help but wonder how it is you are expected to fight here.  A true challenge
+indeed.  A pole extends upwards with a rope attached.  
+~
+~
+0 8192 0 12
+D2
+~
+~
+0 0 8791
+W 8706
+P SPEECH 8728 begin~
+S
+#8729
+`#[Arena IV] (Desert terrain)``~
+Another of the sandy, warm arenas, this one seems to be populated with
+dozens of sinister black scorpions that make your movement that much more
+dangerous.  A massive sand dune is in the center of the terrain, and looms
+high above you with dark pools of blood around its base.  
+~
+~
+0 8192 0 10
+D2
+~
+~
+0 0 8792
+W 8713
+W 8715
+W 8717
+P SPEECH 8729 begin~
+S
+#8730
+`&[Arena IV] (Snowy terrain)``~
+Another of the frigid magical arenas, this one is deathly cold, and
+covered with rivulets of frozen water like daggers.  Huge icy drifts have
+piled here and there as you keep watch for icy patches that may cause you to
+lose your footing.  An icy stake extends upwards from which a tasseled rope
+hangs.  
+~
+~
+0 8192 0 12
+D2
+~
+~
+0 0 8793
+W 8713
+W 8715
+W 8717
+P SPEECH 8730 begin~
+S
+#8731
+`8[Arena IV] (Nexus)``~
+The center arena, the Nexus, and the grandest of them all.  This is a
+black walled circular room with small spikes around the walls to prevent
+escape, and oiled floors to perpetrate falls and test even the most
+experienced swordsman.  Truly this is a pit of death, but you feel confident
+you can win.  That is, you did until you saw your foe.  An oiled, razor
+edged black chrome pole extends upwards with a tasseled rope attached.  The
+cries of hundreds of spectators fill your soul with battlelust.  
+~
+~
+0 8192 0 8
+D2
+~
+~
+0 0 8794
+W 8713
+W 8715
+W 8717
+P SPEECH 8731 begin~
+S
+#8732
+`8The Center of the Grand Arena``~
+A large gong is situated in the center of this massive, open-air arena. 
+To the west are stone carved paths and large pillars creating a suitable
+place to hide.  To the east are large trees that extend well above the
+spectator seats and cast an eerie shadow over that section of the arena.  
+~
+~
+0 8196 512 0
+D0
+~
+~
+0 0 8733
+D1
+~
+~
+0 0 8739
+D2
+~
+~
+0 0 8737
+D3
+~
+~
+0 0 8735
+S
+#8733
+`2The Grand Arena``~
+~
+~
+0 8192 66048 3
+D1
+~
+~
+0 0 8740
+D2
+~
+~
+0 0 8732
+D3
+~
+~
+0 0 8734
+S
+#8734
+`8The Grand Arena``~
+~
+~
+0 8192 512 0
+D1
+~
+~
+0 0 8733
+D2
+~
+~
+0 0 8735
+S
+#8735
+`8The Grand Arena``~
+~
+~
+0 8192 512 0
+D0
+~
+~
+0 0 8734
+D1
+~
+~
+0 0 8732
+D2
+~
+~
+0 0 8736
+S
+#8736
+`8The Grand Arena``~
+~
+~
+0 8192 512 0
+D0
+~
+~
+0 0 8735
+D1
+~
+~
+0 0 8737
+S
+#8737
+`2The Grand Arena``~
+~
+~
+0 8192 16896 3
+D0
+~
+~
+0 0 8732
+D1
+~
+~
+0 0 8738
+D3
+~
+~
+0 0 8736
+S
+#8738
+`2A Shady Corner of the Arena``~
+~
+~
+0 8192 8704 3
+D0
+~
+~
+0 0 8739
+D3
+~
+~
+0 0 8737
+S
+#8739
+`2A Forking Path``~
+The small path here forks into two small paths as it reaches the towering
+walls of the arena.  The paths lead to the north and south but little can be
+seen in either direction.  Despite the serene setting of this small forest
+the sounds of combat and the cheering crowd eliminate any sense of comfort. 
+~
+~
+0 8192 66048 3
+D0
+~
+~
+0 0 8740
+D2
+~
+~
+0 0 8738
+D3
+~
+~
+0 0 8732
+S
+#8740
+`2A Shady Corner of the Arena``~
+~
+~
+0 8192 33280 3
+D2
+~
+~
+0 0 8739
+D3
+~
+~
+0 0 8733
+S
+#8741
+`8The Champion's Row``~
+Triumph!  You have succeeded in your battles and now walk Champions row,
+where adoring spectators rush up to congratulate you, and young ladies steal
+a kiss on the cheek.  You are tired, sore, and worn, but at least you are
+alive.  A tall woman stands before you ready to congratulate you on your
+victory.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8742
+S
+#8742
+`8The Treasure Vault``~
+Mounds of gold and treasure from fallen foes and amorous spoils from
+bedazzled ladies are here.  You grin mischievously as you await your reward
+for your success in the arena.  
+ 
+West lies more glorious combat, while east is the entrance to the Arena.
+~
+~
+0 0 0 0
+D1
+~
+stairs~
+AB 0 8703
+D2
+~
+~
+0 0 8741
+D3
+~
+~
+0 0 8718
+S
+#8774
+`8Temporary Mob Room``~
+~
+~
+0 4 0 0
+S
+#8775
+`8The Morgue``~
+Dark and lonely, you have awoken here on a large, bloody
+cot. Pain seeps throughout your entire body, as you see
+the marks of defeat covering your limbs. Agony devastates
+you as you work to look around in this small room. Large,
+cold stone walls enclose this place, and there is no light,
+only the rotten smell of death and decay. You were dead.
+Perhaps you still are...
+~
+~
+0 8200 512 0
+D2
+~
+wall~
+AB 0 8776
+S
+#8776
+`8A dark tunnel``~
+You stand amid a dark, arched tunnel. The stench of death and
+decay creeps drearily into your nostrils, and you hear some
+sort of rumbling echoing around you, which seems to be coming
+from something above you. It seems you may actually be in some
+tunnel below the Colosseum.
+~
+~
+0 8200 0 0
+D0
+~
+~
+AB 0 8775
+D2
+~
+~
+0 0 8777
+S
+#8777
+`8A dark tunnel``~
+You stand amid a dark, arched tunnel. The stench of death and
+decay creeps drearily into your nostrils, and you hear some
+sort of rumbling echoing around you, which seems to be coming
+from something above you. It seems you may actually be in some
+tunnel below the Colosseum.
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 8776
+D2
+~
+~
+0 0 8778
+S
+#8778
+`8A flight of stairs``~
+You stand at the foot of a large flight of stairs. Light streams in from
+above you, as you see a large hallway that traverses below the crowds of
+the Colosseum. Thousands of cheering, jeering voices fill your ears, as you
+realize you must now proceed down the walk of shame, below the crowd.
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 8777
+D4
+~
+~
+0 0 8779
+S
+#8779
+`8Below the Colosseum``~
+You are walking down a small passageway that leads below the
+Colosseum. Above you, thousands of patrons jeer and yell threats
+and insults at you for losing your last battle. You are shamed,
+and as your face turns a deep shade of red, you are pelted
+with spoiled fruit, only adding insult to injury.
+~
+~
+0 8200 0 0
+D2
+~
+~
+0 0 8780
+D5
+~
+~
+0 0 8778
+P GRALL 8781 75~
+S
+#8780
+`8Below the Colosseum``~
+You are walking down a small passageway that leads below the
+Colosseum. Above you, thousands of patrons jeer and yell threats
+and insults at you for losing your last battle. You are shamed,
+and as your face turns a deep shade of red, you are pelted
+with spoiled fruit, only adding insult to injury.
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 8779
+D2
+~
+~
+0 0 8781
+P GRALL 8781 75~
+S
+#8781
+`8Below the Colosseum``~
+You are walking down a small passageway that leads below the
+Colosseum. Above you, thousands of patrons jeer and yell threats
+and insults at you for losing your last battle. You are shamed,
+and as your face turns a deep shade of red, you are pelted
+with spoiled fruit, only adding insult to injury.
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 8780
+D2
+~
+~
+0 0 8782
+P GRALL 8781 75~
+S
+#8782
+`8Before a large door``~
+You stand before a large door, finally out of range of the
+spoiled fruit and crowd's yells. The door seems to lead back
+out to the entrance of the Colosseum
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 0 8781
+D2
+~
+immense granite doors~
+AB 0 8703
+S
+#8783
+`3[Arena I] (Hilly terrain)``~
+The terrain here is a bit hillier, and has small mounds of grassy dirt
+piled up in various locations to make the combat more interesting and
+enjoyable to the spectators.  Once again a tall wooden pole rises high above
+you with a rope attached to it.  
+~
+~
+0 8192 32768 4
+D0
+~
+~
+0 0 8721
+W 8707
+S
+#8784
+`3[Arena I] (Rocky terrain)``~
+Nasty footing here, as medium sized boulders abound this gravelly area of
+the Colosseum.  This is one of the most popular of the lesser arenas because of
+the high propensity for broken legs and ankles, which generally lead to
+brutal, gory death.  Another tall wooden pole extends upwards here with a
+rope attached to it.  
+~
+~
+0 8192 8192 5
+D0
+~
+~
+0 0 8722
+W 8707
+S
+#8785
+`3[Arena II] (Hilly terrain)``~
+The second flight of hilly terrain, this is laying just north of the
+lower hilly part of the Colosseum.  Seems the architects went to great lengths
+to make this terrain even more treacherous then the one below, but the crowd
+does seem to favor more exotic combat.  Another tall wooden pole extends up
+with a rope attached to it here.  
+~
+~
+0 8192 16384 4
+D0
+~
+~
+0 0 8723
+W 8707
+W 8705
+S
+#8786
+`3[Arena I] (Grassy terrain)``~
+A sprawling grassy area, this is one of the smaller arenas in the Colosseum,
+yet enough blood is spilled upon the coarse, dark grass to quench the thirst
+of a thousand vampires.  A tall wooden pole extends upwards and has a small
+rope attached to it.  
+~
+~
+0 8196 8192 2
+D0
+~
+~
+0 0 8720
+W 8707
+S
+#8787
+`3[Arena II] (Rocky terrain)``~
+Even more boulders and gravel abound this area, and some of the smaller
+shards have wicked edges to them.  Looking between two of the boulders you
+see a small eyeball apparently left over from a previous battle.  Yet again
+a wooden pole rises out of the rock with a rope attached to it.  
+~
+~
+0 8192 32768 5
+D0
+~
+~
+0 0 8724
+W 8705
+S
+#8788
+`2[Arena II] (Forest terrain)``~
+A small wooded copse is here, with an assortment of spindly, misshapen
+trees sprouting up from the fetid, blood soaked soil.  There are dozens of
+small shrubs adorning the area as well, giving it a foresty look to it.  Yet
+another tall wooden pole extends above the small trees with a rope attached
+to it.  
+~
+~
+0 8192 8192 3
+D0
+~
+~
+0 0 8725
+W 8705
+S
+#8789
+`2[Arena III] (Forest terrain)``~
+Another of the small, wooded copses, this one of small fir trees which
+over ample hiding spots and such.  Much tangled undegrowth abounds, and
+makes movement a chore, yet again, there is a large wooden pole extending
+upwards.  
+~
+~
+0 8192 8192 3
+D0
+~
+~
+0 0 8726
+W 8706
+S
+#8790
+`#[Arena III] (Desert terrain)``~
+The only terrain here is a swirling morass of sand and grit.  Not a
+pleasant place, it is flat, and very slippery, with a few dunes having piled
+up here and there, which will definitely keep you on your toes.  Yet again
+there is another wooden pole extending upwards with a rope attached.  
+~
+~
+0 8192 0 10
+D0
+~
+~
+0 0 8727
+S
+#8791
+`&[Arena III] (Snowy terrain)``~
+With the help of the Savant Tower, the architects here were able to
+create a snowy, icy enclosure for certain beasts to fight in.  An icy
+surface caked with frozen clumps of snow is beneath your feet, and you cant
+help but wonder how it is you are expected to fight here.  A true challenge
+indeed.  A pole extends upwards with a rope attached.  
+~
+~
+0 8192 0 12
+D0
+~
+~
+0 0 8728
+W 8706
+S
+#8792
+`#[Arena IV] (Desert terrain)``~
+Another of the sandy, warm arenas, this one seems to be populated with
+dozens of sinister black scorpions that make your movement that much more
+dangerous.  A massive sand dune is in the center of the terrain, and looms
+high above you with dark pools of blood around its base.  
+~
+~
+0 8192 0 10
+D0
+~
+~
+0 0 8729
+W 8713
+W 8715
+W 8717
+S
+#8793
+`&[Arena IV] (Snowy terrain)``~
+Another of the frigid magical arenas, this one is deathly cold, and
+covered with rivulets of frozen water like daggers.  Huge icy drifts have
+piled here and there as you keep watch for icy patches that may cause you to
+lose your footing.  An icy stake extends upwards from which a tasseled rope
+hangs.  
+~
+~
+0 8192 0 12
+D0
+~
+~
+0 0 8730
+W 8713
+W 8715
+W 8717
+S
+#8794
+`8[Arena IV] (Nexus)``~
+The center arena, the Nexus, and the grandest of them all.  This is a
+black walled circular room with small spikes around the walls to prevent
+escape, and oiled floors to perpetrate falls and test even the most
+experienced swordsman.  Truly this is a pit of death, but you feel confident
+you can win.  That is, you did until you saw your foe.  An oiled, razor
+edged black chrome pole extends upwards with a tasseled rope attached.  The
+cries of hundreds of spectators fill your soul with battlelust.  
+~
+~
+0 8192 0 8
+D0
+~
+~
+0 0 8731
+W 8717
+W 8715
+W 8713
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 8700 spec_executioner
+M 8715 spec_janitor
+M 8717 spec_janitor
+M 8718 spec_cast_cleric
+M 8722 spec_terminator
+M 8730 spec_cast_undead
+M 8731 spec_terminator
+M 8732 spec_cast_adept
+M 8741 spec_cast_cleric
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 8703 1 8703 1
+O 0 8706 0 8705
+M 0 8705 8 8705 2
+M 0 8700 10 8705 2
+M 0 8744 4 8705 1
+M 0 8745 4 8705 1
+O 0 8706 0 8706
+M 0 8705 8 8706 2
+M 0 8700 10 8706 2
+M 0 8743 4 8706 1
+M 0 8745 4 8706 1
+O 0 8706 0 8707
+M 0 8705 8 8707 2
+M 0 8744 4 8707 1
+M 0 8745 4 8707 1
+M 0 8708 1 8708 1
+G 0 8703 0
+G 0 8705 0
+G 0 8717 0
+G 0 8711 0
+M 0 8700 10 8708 2
+M 0 8743 4 8708 1
+M 0 8709 1 8709 1
+G 0 8704 0
+G 0 8796 0
+G 0 8797 0
+G 0 8709 0
+G 0 8710 0
+M 0 8700 10 8709 2
+M 0 8743 4 8709 1
+M 0 8710 1 8710 1
+G 0 8707 0
+G 0 8708 0
+M 0 8700 10 8710 2
+M 0 8712 1 8712 1
+O 0 8792 0 8713
+O 0 8793 0 8713
+M 0 8714 1 8714 1
+O 0 8791 0 8715
+O 0 8794 0 8715
+M 0 8715 1 8715 1
+G 0 8703 0
+G 0 8705 0
+G 0 8704 0
+M 0 8716 1 8716 1
+O 0 8790 0 8717
+O 0 8795 0 8717
+M 0 8717 1 8717 1
+M 0 8718 1 8718 1
+O 0 8718 0 8718
+G 0 8717 0
+M 0 8719 1 8719 1
+O 0 8719 0 8720
+O 0 8719 0 8721
+O 0 8719 0 8722
+O 0 8719 0 8723
+O 0 8719 0 8724
+O 0 8719 0 8725
+O 0 8719 0 8726
+O 0 8719 0 8727
+O 0 8719 0 8728
+O 0 8719 0 8729
+O 0 8719 0 8730
+O 0 8719 0 8731
+O 0 8732 0 8732
+M 0 8741 1 8741 1
+M 0 8742 1 8742 1
+M 0 8732 1 8775 1
+S
+
+
+
+#SHOPS
+8708 0 0 0 0 0 100 100 0 23
+8709 0 0 0 0 0 100 100 0 23
+8710 0 0 0 0 0 100 100 0 23
+8715 0 0 0 0 0 100 100 0 23
+8718 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#8700
+say Welcome, $n. Are you here to be a 'competitor' or an 'observer' ?
+emote peers at you awaiting an answer.
+~
+#8701
+if isnpc $n
+     break
+endif
+if isbloody $n
+     say Yer too wounded to enter the Colosseum as a combatant, $n!
+     say Come back when yer not so roughed up!
+     grumble $n
+else
+  if level $n > 20
+    if clan $n 'battle'
+      'I look forward to your battles $N.
+      emote waives the entrance fee.
+    else
+      if money $n < 5000
+        'You do not have the funds $N.  Price of entry is 5000 gold.
+        break
+      else
+        mob gain gold pc $n -5000 -5000
+      endif
+      pmote collects 5000 gold from $N.
+    endif
+  else
+    say Yer a bit young.  The battles are on me $N till yer of 21st rank.
+    wink $n
+  endif
+  say Aye, then, $n. I'll direct you to the rack room.
+  say Someone will be along them to give you further instructions.
+  trans $n 8718
+  mob at 8718 echo A heavy steel door slams shut and locks behind you.
+endif
+~
+#8702
+if isnpc $n
+break
+else
+say Very well, $n. Entry price is 300 gold coins.
+emote extends his hand impatiently.
+endif
+~
+#8703
+mob junk gold
+say Aye, off to the observatory with you, then.
+say Enjoy the fights!
+mob trans $n 8704
+~
+#8704
+if isnpc $n
+  break
+endif
+if isdelay $i
+  say One moment, $n, while I get another bottle.
+  curt $n
+  break
+endif
+if sex $n == 1
+     say Yes, Master $n.
+     mob echoat $n A beautiful serving woman pours you a glass of bubbly.
+     mob oload 8797
+     give champagne $n
+     curt $n
+     mob delay 2
+endif
+if sex $n == 2
+     say Yes, Mistress $n.
+     mob echoat $n A beautiful serving woman pours you a glass of bubbly.
+     mob oload 8797
+     give champagne $n
+     curt $n
+     mob delay 2
+endif
+if sex $n == 0
+     say As you wish, $n.
+     mob echoat $n A beautiful serving woman pours you a glass of bubbly.
+     mob oload 8797
+     give champagne $n
+     curt $n
+     mob delay 2
+endif
+~
+#8705
+if isnpc $n
+  break
+endif
+if isdelay $i
+  say One moment, $n, while I open up a fresh container.
+  curt $n
+  break
+endif
+if sex $n == 1
+     say Yes, Master $n.
+     mob echoat $n A beautiful serving woman fixes you a plate of caviar.
+     mob oload 8798
+     give caviar $n
+     curt $n
+     mob delay 2
+endif
+if sex $n == 2
+     say Yes, Mistress $n.
+     mob echoat $n A beautiful serving woman fixes you a plate of caviar.
+     mob oload 8798
+     give caviar $n
+     curt $n
+     mob delay 2
+endif
+if sex $n == 0
+     say As you wish, $n.
+     mob echoat $n A beautiful serving woman fixes you a plate of caviar.
+     mob oload 8798
+     give caviar $n
+     curt $n
+     mob delay 2
+endif
+~
+#8706
+if isdelay $i
+  mob echoat $n You feel as relaxed as you are likely to get for now.
+  break
+endif
+mob echoat $n A beautiful serving woman lays her hands on your shoulders.
+mob echoat $n Tension slowly seeps from your body and muscles, and you feel relaxed.
+mob echoaround $n A beautiful serving woman lays her hands on $n's shoulders.
+mob echoaround $n Tension seems to slowly seeps from $n's body and muscles.
+mob cast 'cure critical' $n
+mob echo A beautiful serving woman returns to her duties with a light smile.
+mob delay 10
+~
+#8707
+if isdelay $i
+  break
+endif
+mob forget
+mob remember $r
+if hastarget $i
+and affspell $q 'mortally wounded'
+  pmote walks over to $Q and begins chanting.
+  restore $q
+  affstrip $q 'mortally wounded'
+  mob delay 4
+endif
+~
+#8708
+if rand 50
+  if rand 50
+     emote takes a deep sip from a mug of dark ale.
+     burp
+  else
+     emote counts their tokens from the winning bets.
+  endif
+else
+  if rand 50
+     emote cups their hands to their mouth, and yells down at the arena floor.
+  else
+     emote brushes past you hastily on their way to the betting booth.
+  endif
+endif
+~
+#8709
+if iscombat $I
+     break
+else
+     mob echo With no further suspects, a Colosseum Guard goes about his business elsewhere.
+     mob purge self
+endif
+~
+#8710
+if ispc $n 
+  break
+else
+  if mobhere bouncer
+    rescue bouncer
+  else
+    break
+  endif
+endif
+~
+#8711
+yell Guards! Guards! $n is attempting illegal entry into the upper decks!
+emote coughs and spits up blood, as he collapses to the floor.
+echo Suddenly, three Colosseum Guards appear from the chambers!
+mob mload 8700
+mob mload 8700
+mob mload 8700
+mob echo A Colosseum Guard walks in.
+mob echo A Colosseum Guard walks in.
+mob echo A Colosseum Guard walks in.
+say Kill him! Kill $n!
+~
+#8712
+if isbloody $n
+     say You are too bloody to be in the Blue Room.
+     mob echoat $n A massive bouncer stops you from entering the room.
+     mob echoaround $n A massive bouncer stops $n from entering.
+     mob stop $n
+endif
+if level $n < 40
+     say Younglings are not allowed in the Blue Room!
+     mob echoat $n A massive bouncer stops you from entering the room.
+     mob echoaround $n A massive bouncer stops $n from entering.
+     mob stop $n
+endif
+~
+#8713
+mob echoat $q A vicious pitbull lunges at you and attacks!
+murder $q
+~
+#8714
+if isbloody $n
+     say You are too bloody to be in the Gold Room.
+     mob echoat $n A massive bouncer stops you from entering the room.
+     mob echoaround $n A massive bouncer stops $n from entering.
+     mob stop $n
+endif
+if level $n < 50
+     say Only the highest ranked are allowed in the Gold Room!
+     mob echoat $n A massive bouncer stops you from entering the room.
+     mob echoaround $n A massive bouncer stops $n from entering.
+     mob stop $n
+endif
+~
+#8715
+if isnpc $n
+  break
+endif
+if isdelay $i
+  say One moment, $n, while I refill the glasses.
+  curt $n
+  break
+endif
+if sex $n == 1
+     say Yes, Master $n.
+     mob echoat $n A beautiful serving woman pours you a glass of red wine.
+     mob oload 8796
+     give wine $n
+     curt $n
+     mob delay 2
+endif
+if sex $n == 2
+     say Yes, Mistress $n.
+     mob echoat $n A beautiful serving woman pours you a glass of red wine.
+     mob oload 8796
+     give wine $n
+     curt $n
+     mob delay 2
+endif
+if sex $n == 0
+     say As you wish, $n.
+     mob echoat $n A beautiful serving woman pours you a glass of red wine.
+     mob oload 8796
+     give wine $n
+     curt $n
+     mob delay 2
+endif
+~
+#8716
+if isbloody $n
+     say You are too bloody to be in the Royal Room.
+     mob echoat $n A massive bouncer stops you from entering the room.
+     mob echoaround $n A massive bouncer stops $n from entering.
+     mob stop $n
+endif
+if level $n < 50
+     say Only the highest ranked are allowed in the Royal Room!
+     mob echoat $n A massive bouncer stops you from entering the room.
+     mob echoaround $n A massive bouncer stops $n from entering.
+     mob stop $n
+endif
+if isroyal $n 
+     bow $n
+     say Welcome to the Royal Room, $n.
+else
+     say The Royal Room is reserved for only the Royalty of Mirlan.
+     mob echoat $n A massive bouncer stops you from entering the room.
+     mob echoaround $n A massive bouncer stops $n from entering.
+     mob stop $n
+endif
+~
+#8717
+if isnpc $n
+  break
+endif
+if isdelay $i
+  say One moment, $n, while I refill the milk container.
+  curt $n
+  break
+endif
+if sex $n == 1
+     say Yes, Master $n.
+     mob echoat $n A beautiful serving woman pours you a glass of milk.
+     mob oload 8799
+     give milk $n
+     curt $n
+     mob delay 2
+endif
+if sex $n == 2
+     say Yes, Mistress $n.
+     mob echoat $n A beautiful serving woman pours you a glass of milk.
+     mob oload 8799
+     give milk $n
+     curt $n
+     mob delay 2
+endif
+if sex $n == 0
+     say As you wish, $n.
+     mob echoat $n A beautiful serving woman pours you a glass of milk.
+     mob oload 8799
+     give milk $n
+     curt $n
+     mob delay 2
+endif
+~
+#8718
+if rand 50
+say Look a' th' sign, then head nor'ward when yer read it.
+emote spits a wad of tobacco on the floor in a messy splatter.
+else
+say Read th' sign, lads, 'den head out nor'ward.
+emote wipes his nose with his sleeve.
+endif
+~
+#8719
+if players > 1
+     say  One fighter at a time $N!
+     emote throws $n out of the room!
+     mob gtransfer $n 8718
+else
+say Ahhhl right, $n, ye be almost on y'r way....
+snort
+say Look a' th' sign, tell m' what ye be wantin' t'do, an I'll be seein' ya gits thar.
+emote points to a large wooden sign attached to the wall.
+endif
+~
+#8720
+if iscombat $I
+     break
+else
+     mob echo With no further targets, $I retreats to its cell.
+     mob purge self
+endif
+~
+#8721
+say Only cardinals and corpses allowed in there, $n.
+mob stop $n
+close north
+emote blocks your path northward.
+~
+#8722
+if players > 1
+  break
+else
+emote growls at you as you walk in, then returns to his corner.
+mob remember $n
+mob delay 5
+endif
+~
+#8723
+~
+#8724
+if hasquest $q 'Decided to battle the orc hordemaster. [Arena I].'
+  remquest $q Decided to battle the orc hordemaster. [Arena I].
+  say It's time, $q.
+  say Good luck, $q, you'll need it!
+  snicker
+  gtransfer $q 8720
+  mob at 8720 say Begin!
+endif
+if hasquest $q 'Decided to battle the gnoll slavekeeper. [Arena I].'
+  remquest $q Decided to battle the gnoll slavekeeper. [Arena I].
+  say It's time, $q.
+  say Good luck, $q, you'll need it!
+  snicker
+  gtransfer $q 8721
+  mob at 8721 say Begin!
+endif
+if hasquest $q 'Decided to battle the lizardman king. [Arena I].'
+  remquest $q Decided to battle the lizardman king. [Arena I].
+  say It's time, $q.
+  say Good luck, $q, you'll need it!
+  snicker
+  gtransfer $q 8722
+  mob at 8722 say Begin!
+endif
+if hasquest $q 'Decided to battle the hill giant. [Arena II].'
+  remquest $q Decided to battle the hill giant. [Arena II].
+  say It's time, $q.
+  say Good luck, $q, you'll need it!
+  snicker
+  gtransfer $q 8723
+  mob at 8723 say Begin!
+endif
+if hasquest $q 'Decided to battle the black shade. [Arena II].'
+  remquest $q Decided to battle the black shade. [Arena II].
+  say It's time, $q.
+  say Good luck, $q, you'll need it!
+  snicker
+  gtransfer $q 8724
+  mob at 8724 say Begin!
+endif
+if hasquest $q 'Decided to battle the forest ifrit. [Arena II].'
+  remquest $q Decided to battle the forest ifrit. [Arena II].
+  say It's time, $q.
+  say Good luck, $q, you'll need it!
+  snicker
+  gtransfer $q 8725
+  mob at 8725 say Begin!
+endif
+if hasquest $q 'Decided to battle the chaos demon. [Arena III].'
+  remquest $q Decided to battle the chaos demon. [Arena III].
+  say It's time, $q.
+  say Good luck, $q, you'll need it!
+  snicker
+  gtransfer $q 8726
+  mob at 8726 say Begin!
+endif
+if hasquest $q 'Decided to battle the champion gladiator. [Arena III].'
+  remquest $q Decided to battle the champion gladiator. [Arena III].
+  say It's time, $q.
+  say Good luck, $q, you'll need it!
+  snicker
+  gtransfer $q 8727
+  mob at 8727 say Begin!
+endif
+if hasquest $q 'Decided to battle the manticore. [Arena III].'
+  remquest $q Decided to battle the manticore. [Arena III].
+  say It's time, $q.
+  say Good luck, $q, you'll need it!
+  snicker
+  gtransfer $q 8728
+  mob at 8728 say Begin!
+endif
+if hasquest $q 'Decided to battle the chimera. [Arena IV].'
+  remquest $q Decided to battle the chimera. [Arena IV].
+  say It's time, $q.
+  say Good luck, $q, you'll need it!
+  snicker
+  gtransfer $q 8729
+  mob at 8729 say Begin!
+endif
+if hasquest $q 'Decided to battle the undead wight. [Arena IV].'
+  remquest $q Decided to battle the undead wight. [Arena IV].
+  say It's time, $q.
+  say Good luck, $q, you'll need it!
+  snicker
+  gtransfer $q 8730
+  mob at 8730 say Begin!
+endif
+if hasquest $q 'Decided to battle the black dragon. [Arena IV].'
+  remquest $q Decided to battle the black dragon. [Arena IV].
+  say It's time, $q.
+  say Good luck, $q, you'll need it!
+  snicker
+  gtransfer $q 8731
+  mob at 8731 say Begin!
+endif
+~
+#8732
+if level $n < 10
+    say Get out of here, kid! Come back when ye grow some facial hair!
+    emote tosses $n out of the room.
+    gtrans $n 8703
+    break
+else
+    yell Hear ye! Hear ye! $n is entering `7[The Grand Arena] `6right now!``
+    at 11500 yell Hear ye! Hear ye! $N is entering the Open Arena and awaits challengers!
+    yell Those who are about to die, salute you!``
+    say Right, $n, off to the arena with you.
+    gtrans $n 8732
+endif
+~
+#8733
+if clan $n 'battle'
+  'I will look forward to your battle $N.
+  emote waives your fee.
+  break
+endif
+if hasquest $n 'paid Reginald for passage.'
+  'Good luck $N, may your aim be true.
+  mob remquest $n paid Reginald for passage.
+else
+  if level $n < 21
+    say Such bravery in one so young..
+    say You might fight free of charge $n till your 21st rank.
+    mob tempquest $n paid Reginald for passage.
+    mob stop $n
+    break
+  endif
+  'The price of another battle is 2500 gold $N.
+  'Hand it to me and you may pass, or leave east.
+  mob stop $n
+endif
+~
+#8734
+'The price of another battle is 2500 gold $N.
+give 1. $n
+~
+#8735
+if hasquest $n 'paid Reginald for passage.'
+  'You've already paid $N.  Walk west to the rack room.
+  break
+endif
+nod $n
+pmote steps aside an allows $N into the rack room.
+mob tempquest $n paid Reginald for passage.
+mob junk gold
+~
+#8740
+if isnpc $n
+mob echo `!With an earth shaking roar $I chomps $N in two!``
+qslay $n
+endif
+~
+#8741
+if rand 50
+   say Congratulations on your success. Proceed north to receive your accolades from Reginald.
+     smile
+else
+     say Northward lies the treasure vault. Congratulations!
+     beam
+endif
+~
+#8742
+if hasquest $n 'Defeated the orc hordemaster. [Arena I].'
+  mob call 8780 $n NULL NULL
+endif
+if hasquest $n 'Defeated the gnoll slavekeeper. [Arena I].'
+  mob call 8781 $n NULL NULL
+endif
+if hasquest $n 'Defeated the lizardman thief. [Arena I].'
+  mob call 8782 $n NULL NULL
+endif
+if hasquest $n 'Defeated the hill giant. [Arena II].'
+  mob call 8783 $n NULL NULL
+endif
+if hasquest $n 'Defeated the black shade. [Arena II].'
+  mob call 8784 $n NULL NULL
+endif
+if hasquest $n 'Defeated the forest ifrit. [Arena II].'
+  mob call 8785 $n NULL NULL
+endif
+if hasquest $n 'Defeated the chaos demon. [Arena III].'
+  mob call 8786 $n NULL NULL
+endif
+if hasquest $n 'Defeated the champion gladiator. [Arena III].'
+  mob call 8787 $n NULL NULL
+endif
+if hasquest $n 'Defeated the manticore. [Arena III].'
+  mob call 8788 $n NULL NULL
+endif
+if hasquest $n 'Defeated the chimera. [Arena IV].'
+  mob call 8789 $n NULL NULL
+endif
+if hasquest $n 'Defeated the undead wight. [Arena IV].'
+  mob call 8790 $n NULL NULL
+endif
+if hasquest $n 'Defeated the black dragon. [Arena IV].'
+  mob call 8791 $n NULL NULL
+endif
+drop all
+~
+#8750
+if level $n < 15
+    say Get out of here, kid! Come back when ye grow some facial hair!
+    emote tosses $n out of the room.
+    gtransfer $n 8703
+    break
+endif
+goto 8720
+if people > 0
+    goto 8719
+    say Room's in use right now, $n. Try again wit' me in a bit.
+    break
+else
+    goto 8719
+    yell Hear ye! Hear ye! $n will fight the Orc hordemaster in [Arena I] in three hours!
+    at 11500 yell Hear ye! Hear ye! $n will fight the Orc hordemaster in [Arena I] in three hours!
+    yell All ye who wish to witness the spectacle, direct yourselves to Colossus Row to watch!
+    at 11500 yell All ye who wish to witness the spectacle, direct yourselves to Arena's Colossus Row to watch!
+    mob tempquest $n Decided to battle the orc hordemaster. [Arena I].
+    mob remember $n
+    mob delay 3
+endif
+~
+#8751
+if level $n < 15
+    say Get out of here, kid! Come back when ye grow some facial hair!
+    emote tosses $n out of the room.
+    gtransfer $n 8703
+    break
+endif
+goto 8721
+if people > 0
+    goto 8719
+    say Room's in use right now, $n. Try again wit' me in a bit.
+    break
+else
+    goto 8719
+    yell Hear ye! Hear ye! $n will fight the gnoll slavekeeper in [Arena I] in three hours!
+    yell All ye who wish to witness the spectacle, direct yourselves to Colossus Row to watch!
+    at 11500 yell Hear ye! Hear ye! $n will fight the gnoll slavekeeper in [Arena I] in three hours!
+    at11500 yell All ye who wish to witness the spectacle, direct yourselves to Arena's Colossus Row to watch!
+    mob tempquest $n Decided to battle the gnoll slavekeeper. [Arena I].
+    mob remember $n
+    mob delay 3
+endif
+~
+#8752
+if level $n < 15
+    say Get out of here, kid! Come back when ye grow some facial hair!
+    emote tosses $n out of the room.
+    gtransfer $n 8703
+    break
+endif
+goto 8722
+if people > 0
+    goto 8719
+    say Room's in use right now, $n. Try again wit' me in a bit.
+    break
+else
+    goto 8719
+    yell Hear ye! Hear ye! $n will fight the lizardman Thief King in [Arena I] in three hours!
+    yell All ye who wish to witness the spectacle, direct yourselves to Colossus Row to watch!
+    at 11500 yell Hear ye! Hear ye! $n will fight the lizardman Thief King in [Arena I] in three hours!
+    at 11500 yell All ye who wish to witness the spectacle, direct yourselves to Arena's Colossus Row to watch!
+    mob tempquest $n Decided to battle the lizardman king. [Arena I].
+    mob remember $n
+    mob delay 3
+endif
+~
+#8753
+if level $n < 20
+    say Get out of here, kid! Come back when ye grow some facial hair!
+    emote tosses $n out of the room.
+    gtransfer $n 8703
+    break
+endif
+goto 8723
+if people > 0
+    goto 8719
+    say Room's in use right now, $n. Try again wit' me in a bit.
+    break
+else
+    goto 8719
+    yell Hear ye! Hear ye! $n will fight the Hill Giant in [Arena II] in three hours!
+    yell All ye who wish to witness the spectacle, direct yourselves to Dragon Row to watch!
+    at 11500 yell Hear ye! Hear ye! $n will fight the Hill Giant in [Arena II] in three hours!
+    at 11500 yell All ye who wish to witness the spectacle, direct yourselves to Arena's Dragon Row to watch!
+    mob tempquest $n Decided to battle the hill giant. [Arena II].
+    mob remember $n
+    mob delay 3
+endif
+~
+#8754
+if level $n < 20
+    say Get out of here, kid! Come back when ye grow some facial hair!
+    emote tosses $n out of the room.
+    gtransfer $n 8703
+    break
+endif
+goto 8724
+if people > 0
+    goto 8719
+    say Room's in use right now, $n. Try again wit' me in a bit.
+    break
+else
+    goto 8719
+    yell Hear ye! Hear ye! $n will fight the Black Shade in [Arena II] in three hours!
+    yell All ye who wish to witness the spectacle, direct yourselves to Dragon Row to watch!
+    at 11500 yell Hear ye! Hear ye! $n will fight the Black Shade in [Arena II] in three hours!
+    at 11500 yell All ye who wish to witness the spectacle, direct yourselves to Arena's Dragon Row to watch!
+    mob tempquest $n Decided to battle the black shade. [Arena II].
+    mob remember $n
+    mob delay 3
+endif
+~
+#8755
+if level $n < 20
+    say Get out of here, kid! Come back when ye grow some facial hair!
+    emote tosses $n out of the room.
+    gtransfer $n 8703
+    break
+endif
+goto 8725
+if people > 0
+    goto 8719
+    say Room's in use right now, $n. Try again wit' me in a bit.
+    break
+else
+    goto 8719
+    yell Hear ye! Hear ye! $n will fight the Forest Ifrit in [Arena II] in three hours!
+    yell All ye who wish to witness the spectacle, direct yourselves to Dragon Row to watch!
+    at 11500 yell Hear ye! Hear ye! $n will fight the Forest Ifrit in [Arena II] in three hours!
+    at 11500 yell All ye who wish to witness the spectacle, direct yourselves to Arena's Dragon Row to watch!
+    mob tempquest $n Decided to battle the forest ifrit. [Arena II].
+    mob remember $n
+    mob delay 3
+endif
+~
+#8756
+if level $n < 30
+    say Get out of here, kid! Come back when ye grow some facial hair!
+    emote tosses $n out of the room.
+    gtransfer $n 8703
+    break
+endif
+goto 8726
+if people > 0
+    goto 8719
+    say Room's in use right now, $n. Try again wit' me in a bit.
+    break
+else
+    goto 8719
+    yell Hear ye! Hear ye! $n will fight the Chaos Demon in [Arena III] in three hours!
+    yell All ye who wish to witness the spectacle, direct yourselves to Lion Row to watch!
+    at 11500 yell Hear ye! Hear ye! $n will fight the Chaos Demon in [Arena III] in three hours!
+    at 11500 yell All ye who wish to witness the spectacle, direct yourselves to Arena's Lion Row to watch!
+    say Good luck, $n, you'll need it!
+    mob tempquest $n Decided to battle the chaos demon. [Arena III].
+    mob remember $n
+    mob delay 3
+endif
+~
+#8757
+if level $n < 30
+    say Get out of here, kid! Come back when ye grow some facial hair.
+    emote tosses $n out of the room.
+    gtransfer $n 8703
+    break
+endif
+goto 8727
+if people > 0
+    goto 8719
+    say Room's in use right now, $n. Try again wit' me in a bit.
+    break
+else
+    goto 8719
+    yell Hear ye! Hear ye! $n will fight the Gladiator Champion in [Arena III] in three hours!
+    yell All ye who wish to witness the spectacle, direct yourselves to Lion Row to watch!
+    at 11500 yell Hear ye! Hear ye! $n will fight the Gladiator Champion in [Arena III] in three hours!
+    at 11500 yell All ye who wish to witness the spectacle, direct yourselves to Arena's Lion Row to watch!
+    mob tempquest $n Decided to battle the champion gladiator. [Arena III].
+    mob remember $n
+    mob delay 3
+endif
+~
+#8758
+if level $n < 30
+    say Get out of here, kid! Come back when ye grow some facial hair!
+    emote tosses $n out of the room.
+    gtransfer $n 8703
+    break
+endif
+goto 8728
+if people > 0
+    goto 8719
+    say Room's in use right now, $n. Try again wit' me in a bit.
+    break
+else
+    goto 8719
+    yell Hear ye! Hear ye! $n will fight the Manticore in [Arena III] in three hours!
+    yell All ye who wish to witness the spectacle, direct yourselves to Lion Row to watch!
+    at 11500 yell Hear ye! Hear ye! $n will fight the Manticore in [Arena III] in three hours!
+    at 11500 yell All ye who wish to witness the spectacle, direct yourselves to Arena's Lion Row to watch!
+    mob tempquest $n Decided to battle the manticore. [Arena III].
+    mob remember $n
+    mob delay 3
+endif
+~
+#8759
+if level $n < 40
+    say Yer courage outweighs yer intelligence, $n.
+    say I canna' let ye enter at yer age. Ye'd be a lamb to the slaughter.
+    smirk $n
+    break
+endif
+goto 8729
+if people > 0
+    goto 8719
+    say Room's in use right now, $n. Try again wit' me in a bit.
+    break
+else
+    goto 8719
+    yell Hear ye! Hear ye! $n will fight the Chimera in [Arena IV] in three hours!
+    yell All ye who wish to witness the spectacle, direct yourselves to any Upper Deck to watch!
+    at 11500 yell Hear ye! Hear ye! $n will fight the Chimera in [Arena IV] in three hours!
+    at 11500 yell All ye who wish to witness the spectacle, direct yourselves to any Arena Upper Deck to watch!
+    mob tempquest $n Decided to battle the chimera. [Arena IV].
+    mob remember $n
+    mob delay 3
+endif
+~
+#8760
+if level $n < 40
+    say Yer courage outweighs yer intelligence, $n.
+    say I canna' let ye enter at yer age. Ye'd be a lamb to the slaughter.
+    smirk $n
+    break
+endif
+goto 8730
+if people > 0
+    goto 8719
+    say Room's in use right now, $n. Try again wit' me in a bit.
+    break
+else
+    goto 8719
+    yell Hear ye! Hear ye! $n will fight the Undead Wight in [Arena IV] in three hours!
+    yell All ye who wish to witness the spectacle, direct yourselves to any Upper Deck to watch!
+    at 11500 yell Hear ye! Hear ye! $n will fight the Undead Wight in [Arena IV] in three hours!
+    at 11500 yell All ye who wish to witness the spectacle, direct yourselves to any Arena Upper Deck to watch!
+    mob tempquest $n Decided to battle the undead wight. [Arena IV].
+    mob remember $n
+    mob delay 3
+endif
+~
+#8761
+if level $n < 40
+    say Yer courage outweighs yer intelligence, $n.
+    say I canna' let ye enter at yer age. Ye'd be a lamb to the slaughter.
+    smirk $n
+    break
+endif
+goto 8731
+if people > 0
+    goto 8719
+    say Room's in use right now, $n. Try again wit' me in a bit.
+    break
+else
+    goto 8719
+    yell Hear ye! Hear ye! $n will fight the Black Dragon in [Arena IV] in three hours!
+    yell All ye who wish to witness $N's death, direct yourselves to any Arena Upper Deck to watch!
+    at 11500 yell Hear ye! Hear ye! $n will fight the Black Dragon in [Arena IV] in three hours!
+    at 11500 yell All ye who wish to witness $N's death, direct yourselves to any Arena Upper Deck to watch!
+    mob tempquest $n Decided to battle the black dragon. [Arena IV].
+    mob remember $n
+    mob delay 3
+endif
+~
+#8762
+mob echo `!$I screams as $s body is torn to shreds!``
+mob pfor group $n tempquest # Defeated the orc hordemaster. [Arena I].
+mob echoat $n You quickly make your way to Champion row.
+mob gain hp group $n 3000 3000
+mob gain move group $n 3000 3000
+mob gain mana group $n 3000 3000
+get all
+at 8741 drop all
+gtransfer $n 8741
+~
+#8763
+mob echo `!$I screams as $s body is torn to shreds!``
+mob pfor group $n tempquest # Defeated the gnoll slavekeeper. [Arena I].
+mob echoat $n You quickly make your way to Champion row.
+mob gain hp group $n 3000 3000
+mob gain move group $n 3000 3000
+mob gain mana group $n 3000 3000	
+get all
+at 8741 drop all
+gtransfer $n 8741
+~
+#8764
+mob echo `!$I screams as $s body is torn to shreds!``
+mob pfor group $n tempquest # Defeated the lizardman thief. [Arena I].
+mob echoat $n You quickly make your way to Champion row.
+mob gain hp group $n 3000 3000
+mob gain move group $n 3000 3000
+mob gain mana group $n 3000 3000	
+get all
+at 8741 drop all
+gtransfer $n 8741
+~
+#8765
+mob echo `!$I screams as $s body is torn to shreds!``
+mob pfor group $n tempquest # Defeated the hill giant. [Arena II].
+mob echoat $n You quickly make your way to Champion row.
+mob gain hp group $n 3000 3000
+mob gain move group $n 3000 3000
+mob gain mana group $n 3000 3000	
+get all
+at 8741 drop all
+gtransfer $n 8741
+~
+#8766
+mob echo `!$I screams as $s body is torn to shreds!``
+mob pfor group $n tempquest # Defeated the black shade. [Arena II].
+mob echoat $n You quickly make your way to Champion row.
+mob gain hp group $n 3000 3000
+mob gain move group $n 3000 3000
+mob gain mana group $n 3000 3000	
+get all
+at 8741 drop all
+gtransfer $n 8741
+~
+#8767
+mob echo `!$I screams as $s body is torn to shreds!``
+mob pfor group $n tempquest # Defeated the forest ifrit. [Arena II].
+mob echoat $n You quickly make your way to Champion row.
+mob gain hp group $n 3000 3000
+mob gain move group $n 3000 3000
+mob gain mana group $n 3000 3000	
+get all
+at 8741 drop all
+gtransfer $n 8741
+~
+#8768
+mob echo `!$I screams as $s body is torn to shreds!``
+mob pfor group $n tempquest # Defeated the chaos demon. [Arena III].
+mob echoat $n You quickly make your way to Champion row.
+mob gain hp group $n 3000 3000
+mob gain move group $n 3000 3000
+mob gain mana group $n 3000 3000	
+get all
+at 8741 drop all
+gtransfer $n 8741
+~
+#8769
+mob echo `!$I screams as $s body is torn to shreds!``
+mob pfor group $n tempquest # Defeated the champion gladiator. [Arena III].
+mob echoat $n You quickly make your way to Champion row.
+mob gain hp group $n 3000 3000
+mob gain move group $n 3000 3000
+mob gain mana group $n 3000 3000	
+get all
+at 8741 drop all
+gtransfer $n 8741
+~
+#8770
+mob echo `!$I screams as $s body is torn to shreds!``
+mob pfor group $n tempquest # Defeated the manticore. [Arena III].
+mob echoat $n You quickly make your way to Champion row.
+mob gain hp group $n 3000 3000
+mob gain move group $n 3000 3000
+mob gain mana group $n 3000 3000	
+get all
+at 8741 drop all
+gtransfer $n 8741
+~
+#8771
+mob echo `!$I screams as $s body is torn to shreds!``
+mob pfor group $n tempquest # Defeated the chimera. [Arena IV].
+mob echoat $n You quickly make your way to Champion row.
+mob gain hp group $n 3000 3000
+mob gain move group $n 3000 3000
+mob gain mana group $n 3000 3000	
+get all
+at 8741 drop all
+mob gtransfer $n 8741
+~
+#8772
+mob echo `!$I screams as $s body is torn to shreds!``
+mob pfor group $n tempquest # Defeated the undead wight. [Arena IV].
+mob echoat $n You quickly make your way to Champion row.
+mob gain hp group $n 3000 3000
+mob gain move group $n 3000 3000
+mob gain mana group $n 3000 3000	
+get all
+at 8741 drop all
+gtransfer $n 8741
+~
+#8773
+mob echo `!$I screams as $s body is torn to shreds!``
+mob pfor group $n tempquest # Defeated the black dragon. [Arena IV].
+mob echoat $n You quickly make your way to Champion row.
+mob gain hp group $n 3000 3000
+mob gain move group $n 3000 3000
+mob gain mana group $n 3000 3000	
+get all
+at 8741 drop all
+gtransfer $n 8741
+~
+#8775
+if isnpc $n
+  break
+endif
+peace
+mob echoaround $n The Praseum of the Arena stands and looks down over the Arena at $n.
+mob echoat $n The Praseum of the Arena stands and looks down over the Arena at you.
+mob echo The Praesum of the Arena extends his hand in a fist.
+mob echo The Praseum of the Arena listens quietly to the crowd.
+mob remember $n
+mob delay 1
+mob attrib $i timer = 3
+~
+#8776
+if hpcnt $i > 20
+  mob echo Thousands of 'boos' fill the air in the Arena!
+  mob echoat $q The Praesum of the Arena looks at you with mock pity.
+  mob echoaround $q The Praesum of the Arena looks at $Q with mock pity.
+  mob echo The Praesum of the Arena extends his thumb, and points it downward!
+  mob echoat $q You have recieved a `!THUMBS DOWN`7!``
+  if rand 50
+    mob zecho `6Blood curdling screams ensue as $Q is torn to shreds by $I!``
+  else
+    mob zecho `6Gobbets of flesh and blood are splattered everywhere as $Q is gutted by $I!!``
+  endif
+  mob echoat $q You have been `1KILLED`7!!``
+  mob echoat $q As the cold chill of death descends upon you The Creator grants you yet another chance.
+  mob echoat $q You have been granted a temporary sanctuary as an invincible ghost.
+  mob echoat $q As long as you don't attack anything.
+  get all
+  at 8775 drop all
+  mob trans $q 8775
+  emote turns, and moves quietly back through a large gate.
+  mob purge self
+else
+  mob echo Thousands of chants of '`6Live, live!``' fill the air in the Arena!
+  mob echoat $q The Praesum of the Arena looks at $i with a dour glare.
+  mob echo The Praesum of the Arena extends his thumb, and points it upward!
+  mob echoat $q You have recieved a `#THUMBS UP`7!``
+  mob zecho An onlooker yells '`6$Q's life has been spared by the Praesum!``
+  mob echoat $q The Praesum of the Arena returns to his seat with a nod at you.
+  mob echoat $q It seems the Creator has given you another chance at life.
+  affstrip $q 'mortally wounded'
+  mob gain hp pc $n 3000 3000
+  mob gain move pc $n 3000 3000
+  mob gain mana pc $n 3000 3000	
+  get all
+  at 8718 drop all
+  mob trans $q 8718
+  emote turns, and moves quietly back through a large gate.
+  mob purge self
+endif
+~
+#8780
+mob remquest $n Defeated the orc hordemaster. [Arena I].
+yell $n has triumphed over the Orc Hordemaster!
+say Congratulations on your victory over the Orc hordemaster, $n.
+say You have earned a reward.
+if rand 25
+   mob oload 8750
+   give arena $n
+else
+   mob oload 8751
+   give arena $n
+endif
+~
+#8781
+mob remquest $n Defeated the gnoll slavekeeper. [Arena I].
+yell $n has triumphed over the Gnoll Slavekeeper!
+say Congratulations on your victory over the gnoll slavekeeper, $n.
+say You have earned a reward.
+if rand 25
+   mob oload 8752
+   give arena $n
+else
+   mob oload 8753
+   give arena $n
+endif
+~
+#8782
+mob remquest $n Defeated the lizardman thief. [Arena I].
+yell $n has triumphed over the lizardman Thief King!
+say Congratulations on your victory over the lizardman thief, $n.
+say You have earned a reward.
+if rand 25
+   mob oload 8754
+   give arena $n
+else
+   mob oload 8755
+   give arena $n
+endif
+~
+#8783
+mob remquest $n Defeated the hill giant. [Arena II].
+yell $n has triumphed over the Hill Giant!
+say Congratulations on your victory over the hill giant, $n.
+say You have earned a reward.
+if rand 25
+   mob oload 8756
+   give arena $n
+else
+   mob oload 8757
+   give arena $n
+endif
+~
+#8784
+mob remquest $n Defeated the black shade. [Arena II].
+yell $n has triumphed over the Black Shade!
+say Congratulations on your victory over the black shade, $n.
+say You have earned a reward.
+if rand 25
+   mob oload 8758
+   give arena $n
+else
+   mob oload 8759
+   give arena $n
+endif
+~
+#8785
+mob remquest $n Defeated the forest ifrit. [Arena II].
+yell $n has triumphed over the Forest Ifrit!
+say Congratulations on your victory over the forest ifrit, $n.
+say You have earned a reward.
+if rand 25
+   mob oload 8760
+   give arena $n
+else
+   mob oload 8761
+   give arena $n
+endif
+~
+#8786
+mob remquest $n Defeated the chaos demon. [Arena III].
+yell $n has triumphed over the Chaos Demon!
+say Congratulations on your victory over the chaos demon, $n.
+say You have earned a reward.
+if rand 25
+   mob oload 8762
+   give arena $n
+else
+   mob oload 8763
+   give arena $n
+endif
+~
+#8787
+mob remquest $n Defeated the champion gladiator. [Arena III].
+yell $n has triumphed over the Champion of the Gladiators!
+say Congratulations on your victory over the champion gladiator, $n.
+say You have earned a reward.
+if rand 25
+   mob oload 8764
+   give arena $n
+else
+   mob oload 8765
+   give arena $n
+endif
+~
+#8788
+mob remquest $n Defeated the manticore. [Arena III].
+yell $n has triumphed over the Manticore!
+say Congratulations on your victory over the manticore, $n.
+say You have earned a reward.
+if rand 25
+   mob oload 8766
+   give arena $n
+else
+   mob oload 8767
+   give arena $n
+endif
+~
+#8789
+mob remquest $n Defeated the chimera. [Arena IV].
+yell $n has triumphed over the Chimera!
+say Congratulations on your victory over the chimera, $n.
+say You have earned a reward.
+if rand 25
+   mob oload 8768
+   give arena $n
+else
+   mob oload 8769
+   give arena $n
+endif
+~
+#8790
+mob remquest $n Defeated the undead wight. [Arena IV].
+yell $n has triumphed over the Undead Wight!
+say Congratulations on your victory over the undead wight, $n.
+say You have earned a reward.
+if rand 25
+   mob oload 8770
+   give arena $n
+else
+   mob oload 8771
+   give arena $n
+endif
+~
+#8791
+mob remquest $n Defeated the black dragon. [Arena IV].
+yell $n has triumphed over the Black Dragon!
+say Congratulations on your victory over the black dragon, $n.
+say You have earned a reward.
+if rand 25
+   if objexists !8772!
+     mob oload 8773
+   else
+     mob oload 8772
+   endif
+   give arena $n
+else
+   mob oload 8773
+   give arena $n
+endif
+~
+#8792
+mob echoat $n $I chases you out of the room!
+gtransfer $n 8718
+restore self
+~
+#8793
+if isbloody $n
+     say You are too bloody to enter right now, $n
+     say Come back lata, when yer not so beat up, eh?
+     mob stop $n
+endif
+~
+#8794
+if affspell $i 'blindness'
+  mob cast 'cure blindness'
+  mob echo $I quaffs a dark red potion.
+endif
+~
+#8799
+if affspell $n 'fly'
+  mob cast 'hurricane' $n
+endif
+if affspell $n 'sanctuary'
+  mob cast 'dispel magic' $n
+endif
+if affspell $n 'haste'
+  mob cast 'slow' $n
+endif
+if race $n fire
+  mob cast 'icicle' $n
+endif
+if race $n dwarf
+  mob cast 'deluge water' $n
+endif
+if race $n duergar
+  mob cast 'deluge water' $n
+endif
+if race $n stone
+  mob cast 'blindness' $n
+endif
+if race $n storm
+  mob cast 'fireball' $n
+endif
+if race $n elf
+  mob cast 'sharpmetal' $n
+endif
+if race $n gnome
+  bash $n
+endif 
+if race $n avian
+  mob cast 'hurricane' $n
+endif
+if race $n illithid
+  mob cast 'colour spray' $n
+endif
+if race $n half-elf
+  mob cast 'sharpmetal' $n
+endif
+if race $n lizardman
+  mob cast 'fireball' $n
+endif
+if race $n ogre
+  mob cast 'blindness' $n
+endif
+if race $n demon
+  mob cast 'wrath' $n
+endif
+if race $n undead
+  mob cast 'turn undead'
+endif
+if race $n halfling
+  bodyslam $n
+endif
+if race $n faerie
+  mob cast 'hurricane' $n
+endif
+if race $n minotaur
+  mob cast 'slow' $n
+endif
+if race $n werebeast
+  mob cast 'fireball' $n
+endif
+~
+#0
+
+M 8700 0 newthalo_guard.prg NL
+M 8703 0 guildguard.prg NL
+M 8712 0 guildguard.prg NL
+M 8714 0 guildguard.prg NL
+M 8716 0 guildguard.prg NL
+S
+
+
+
+
+#OBJPROGS
+#8700
+~
+#8719
+if iscombat $n
+     obj echoat $n You pull on the rope ... And nothing happens.
+     break
+else
+     obj echoat $n You pull swiftly on the rope, and hear a gong ring somewhere.
+     obj gtransfer $n 8741
+endif
+~
+#8732
+if iscombat $n
+     obj echoat $n You bang on the gong loudly ... and nothing happens.
+     obj echoaround $n $n bangs on the gong.
+     break
+endif
+if isbloody $n
+     obj echoat $n You bang on the gong.
+     obj echoaround $n $n bangs on the gong.
+     obj echoat $n You realize the blood on your hands prevents your leaving this place.
+     obj echoat $n Better wait until you are not so bloody.
+else
+     obj echoat $n You bang heavily on the gong, and feel a strange energy around you.
+     obj echoaround $n $n bangs on the gong.
+     obj transfer $n 8741
+endif
+~
+#8769
+if isdelay $i
+  obj echoat $n It seems to be devoid of power.
+  break
+endif
+if objcost $i == 0
+  obj echoat $n Nothing seems to happend.
+  obj attrib none timer = 1
+  break
+endif
+obj attrib none cost - 1
+obj echo A sack of gold glows brightly.
+obj gain gold pc $n 3000 5000
+obj echoat $n A sack of gold suddenly feels heavier, and you suddenly feel richer!
+obj delay 12
+~
+#8770
+if getdelay > 0
+  obj echoat $n The Gatestone is already in use.
+  break
+else
+  obj echo The Gatestone emits a series of strange clicks and whirrs.
+  obj echoat $n The Gatestone glows brightly, then fades.
+  obj attrib none wear * take
+  obj remember $n
+  obj delay 24
+endif
+~
+#8771
+obj echoat $q `%You are suddenly surrounded by a brilliant glowing gate!``
+obj pfor group $q transfer #
+obj attrib none wear * take
+obj echoat $q The Gatestone whirrs and clicks, then falls silent.
+~
+#8772
+if getdelay > 0
+     obj echoat $n The skull glows for a moment, then fades.
+else
+     obj echoat $n The skull glows brightly!
+     obj cast 'sanctuary' $n 25
+     obj delay 25
+endif
+~
+#0
+
+#ROOMPROGS
+#8706
+if rand 50
+     room zecho You hear a large roar come from the audience as a combatant is felled.
+else
+     room zecho The sound of clashing steel on steel reverberates throughout the arena.
+endif
+~
+#8718
+if isbloody $n
+     room echoat $n You are too bloody to enter the Arena.
+endif
+~
+#8719
+if iscombat $n
+     break
+else
+     room transfer $n 8719
+endif
+~
+#8720
+if ispc $n
+     break
+else
+if players > 1
+  room echo Loud boos and yells of 'Cowards! Cowards!' echo from the audience.
+  break
+endif
+room echo A large steel grate opens from the southern wall.
+room echo `8A massive orc leaps from the open gates, right at your throat!``
+room mload 8720
+endif
+~
+#8721
+if ispc $n
+     break
+else
+if players > 1
+  room echo Loud boos and yells of 'Cowards! Cowards!' echo from the audience.
+  break
+endif
+room echo A large steel grate opens from the southern wall.
+room echo `8A vile gnoll leaps from the open gates, right at your throat!``
+room mload 8721
+endif
+~
+#8722
+if ispc $n
+     break
+else
+if players > 1
+  room echo Loud boos and yells of 'Cowards! Cowards!' echo from the audience.
+  break
+endif
+room echo A large steel grate opens from the southern wall.
+room echo `8A slinky lizardman leaps from the open gates, right at your throat!``
+room mload 8722
+endif
+~
+#8723
+if ispc $n
+     break
+else
+if players > 1
+  room echo Loud boos and yells of 'Cowards! Cowards!' echo from the audience.
+  break
+endif
+room echo A large steel grate opens from the southern wall.
+room echo `8A colossal giant lunges from the open gates, right at your throat!``
+room mload 8723
+endif
+~
+#8724
+if ispc $n
+     break
+else
+if players > 1
+  room echo Loud boos and yells of 'Cowards! Cowards!' echo from the audience.
+  break
+endif
+room echo A large steel grate opens from the southern wall.
+room echo `8A dark shade sneaks from the open gates, and attacks!``
+room mload 8724
+endif
+~
+#8725
+if ispc $n
+     break
+else
+if players > 1
+  room echo Loud boos and yells of 'Cowards! Cowards!' echo from the audience.
+  break
+endif
+room echo A large steel grate opens from the southern wall.
+room echo `8A shadowy ifrit flies from the open gates, and attacks!``
+room mload 8725
+endif
+~
+#8726
+if ispc $n
+     break
+else
+if players > 1
+  room echo Loud boos and yells of 'Cowards! Cowards!' echo from the audience.
+  break
+endif
+room echo A large steel grate opens from the southern wall.
+room echo `8A chaos demon charges from the open gates, and attacks!``
+room mload 8726
+endif
+~
+#8727
+if ispc $n
+     break
+else
+if players > 1
+  room echo Loud boos and yells of 'Cowards! Cowards!' echo from the audience.
+  break
+endif
+room echo A large steel grate opens from the southern wall.
+room echo `8The gladiator champion emerges from the open gates, and attacks!``
+room mload 8727
+endif
+~
+#8728
+if ispc $n
+     break
+else
+if players > 1
+  room echo Loud boos and yells of 'Cowards! Cowards!' echo from the audience.
+  break
+endif
+room echo A large steel grate opens from the southern wall.
+room echo `8The deadly manticore races from the gates, and lunges at you!``
+room mload 8728
+endif
+~
+#8729
+if ispc $n
+     break
+else
+if players > 1
+  room echo Loud boos and yells of 'Cowards! Cowards!' echo from the audience.
+  break
+endif
+room echo A large steel grate opens from the southern wall.
+room echo `8The chimera charges out from the gates, hissing and snarling!``
+room mload 8729
+endif
+~
+#8730
+if ispc $n
+     break
+else
+if players > 1
+  room echo Loud boos and yells of 'Cowards! Cowards!' echo from the audience.
+  break
+endif
+room echo A large steel grate opens from the southern wall.
+room echo `8An undead wight emerges from the darkness, and attacks!``
+room mload 8730
+endif
+~
+#8731
+if ispc $n
+     break
+else
+if players > 1
+  room echo Loud boos and yells of 'Cowards! Cowards!' echo from the audience.
+  break
+endif
+room echo A large steel grate opens from the southern wall.
+room echo `8The room blackens as the Black Dragon emerges from the massive gates!``
+room mload 8731
+endif
+~
+#8781
+if getdelay > 0
+  break
+else
+  room delay 1
+endif
+if rand 50
+  if rand 50
+    room echoat $n The crowd above jeers and taunts you mercilessly!
+  else
+    room echoat $n Someone from the crowds above yells, '`6$n is a sod!`7'``
+  endif
+else
+  if rand 50
+    room echoat $n You are assaulted by a barrage of rotten fruit.
+  else
+    room echoat $n Someone from the crows taunts, '`6$n needs to go back to the guildhall!`7'``
+  endif
+endif
+~
+#0
+
+#$

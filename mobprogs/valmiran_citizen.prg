@@ -6,7 +6,7 @@ if rand(33)
 	pmote moves about busily.
 else
 	if rand(50)
-		say Val Miran is so lovely in the summertime.
+		say Revelsport is so lovely in the summertime.
 		smile self
 	else
 		say I hear the King's new palace is finished!

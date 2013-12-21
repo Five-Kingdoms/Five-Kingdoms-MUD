@@ -1,0 +1,1229 @@
+#AREADATA
+Name Border Marcher Road~
+Pref ~
+Builders Crypticant~
+VNUMs 2000 2099
+Max_Bastions 5
+Credits {1  50} Shadowsp The Border Marcher Road~
+Security 9
+Startroom 2036
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#2028
+captain guard Zach~
+Zach, the Captain in the Guard.~
+Zach, the Captain of the Guard goes about his duties here.
+~
+Dressed in shining armor, he glances at you with a slight nod.  With a regal
+look on his face, he stands guard - looking for criminals.  
+~
+human~
+AGT A CDFHJ 0 1000 10023
+36 20 10d10+1400 0d0+100 5d10+15 slash
+-12 -12 -12 -12
+EKNT A 0 0
+stand stand male none~
+20
+AHMV ABCDEFGHIJK medium 0
+#2029
+guard armed wall~
+A Guard of the Mirlan Wall~
+A heavily armored guard stands watch here.
+~
+~
+human~
+ABZ AD DFHV 0 0 0
+50 15 10d12+3000 0d0+100 4d10+20 slash
+-1 -1 -1 0
+CEJTU AB P 0
+stand stand male none~
+25
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#2001
+double plated armor breastplate~
+a double plated breastplate~
+Some bolted plates of steel lie here.~
+steel~
+armor AKLe ADX
+9 9 8 9 0
+35 90 15 P
+F
+A 19 1 0
+F
+A 18 1 0
+#2002
+double plated arm guards~
+a double plated arm guard~
+A plated set of steel made for the arms is here.~
+steel~
+armor AKL AIX
+9 7 9 10 0
+35 50 15 P
+F
+A 19 1 0
+F
+A 18 1 0
+#2003
+double plated helm~
+a double plated helm~
+A set of fine steel hammered into the shape of a helm is here.~
+steel~
+armor A AEX
+7 9 8 7 0
+35 30 15 P
+F
+A 1 1 0
+F
+A 22 -6 0
+F
+A 21 -10 0
+#2004
+double plated leggings~
+some double plated leggings~
+Some double plated leggings is here.~
+steel~
+armor A AFX
+8 8 9 10 0
+35 40 15 P
+F
+A 2 2 0
+F
+A 18 1 0
+F
+A 19 1 0
+#2005
+shining crystal sword~
+a shining crystal sword~
+A long rod of crystal is here.~
+crystal~
+weapon e AN
+sword 4 8 slash 0
+35 190 15 P
+F
+A 19 3 0
+F
+A 18 2 0
+#2006
+spiked spike crystal~
+crystal spike~
+A small crystal spike.~
+glass~
+socket A AX
+B A 0 0 0
+36 0 10 P
+F
+A 18 1 0
+F
+A 19 2 0
+#2008
+no name~
+(no short description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#2030
+precious stones~
+a handful of shiny, precious stones~
+A pile of shiny stones are lying here in the dirt.~
+stone~
+trash A A
+0 0 0 0 0
+0 0 10 P
+#2041
+bronze fist~
+a bronze fist~
+A shiny bronze fist rests here.~
+bronze~
+key G A
+0 0 0 0 0
+0 0 100 P
+#2042
+searing mace smoking~
+mace of searing~
+(no description)~
+unknown~
+weapon 0 0
+exotic 0 0 none 0
+0 0 0 P
+#2051
+shrine altar Beronor~
+an altar~
+An Altar to Beronor has been erected here for his followers to bend knee and pray.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#0
+
+
+
+#ROOMS
+#2048
+`3Foothills into the Scarred Lands``~
+You find yourself on a path leading into mountains. To the east,
+all you can see is desolate waste. Even Dargoth is now covered
+in the thick haze which coats the land in sickness and filth.
+~
+~
+0 8192 8192 5
+D1
+~
+~
+0 0 2049
+D3
+~
+~
+0 0 2047
+T 55
+S
+#2049
+`3Foothills into the Scarred Lands``~
+You find yourself on a path leading into mountains. To the east,
+all you can see is desolate waste. Even Dargoth is now covered
+in the thick haze which coats the land in sickness and filth.
+~
+~
+0 8192 16384 5
+D3
+~
+~
+0 0 2048
+T 55
+S
+#2050
+`3A wide path``~
+You find yourself walking down a wie path leading in, or out,
+or Revelsport.  Westward you can see the checkpoint, which
+eventually leads into the city gates, and eastwards, the massive
+crags and rocks of the Scarred Lands loom in the
+distance.
+~
+~
+0 4 32768 2
+D1
+~
+~
+0 0 2012
+D3
+~
+~
+0 0 2051
+S
+#2051
+`3A Shrine to Beronor``~
+There is a shrine that has been ornately carved and placed here with
+obvious care and love.  The markings on the shrine mark it to be one of
+Beronor's so that his followers can worship and pray before they take the
+journey to the east. 
+~
+~
+0 0 16384 2
+D1
+~
+~
+0 0 2050
+D3
+~
+~
+0 0 2052
+P GRALL 2050 100~
+P SPEECH 2051 worship~
+S
+#2052
+`7Before the Eastern Gate``~
+You stand on a wide cobbled road leading to and from the great city of
+Revelsport.  Before you loom the massive gates of Revelsport with the great city
+walls continuing north and south.  East lies the checkpoint and the road
+through the Lesser Raider mountains.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2053
+D1
+~
+~
+0 0 2051
+D2
+~
+~
+0 0 2070
+D3
+~
+~
+0 0 20620
+S
+#2053
+`7North of the Gates``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2054
+D2
+~
+~
+0 0 2052
+S
+#2054
+`7North of the Gates``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2061
+D2
+~
+~
+0 0 2053
+S
+#2061
+`7Below Northeastern Wall``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2062
+D2
+~
+~
+0 0 2054
+S
+#2062
+`7Below Northeastern Wall``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2068
+D2
+~
+~
+0 0 2061
+S
+#2068
+`7Northeastern Wall Corner``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2069
+D2
+~
+~
+0 0 2062
+S
+#2069
+`7Northeastern Wall Corner``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 2068
+S
+#2070
+`7South of the Gates``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2052
+D2
+~
+~
+0 0 2071
+S
+#2071
+`7South of the Gates``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2070
+D2
+~
+~
+0 0 2076
+S
+#2076
+`7Below Southeastern Wall``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2071
+D2
+~
+~
+0 0 2077
+S
+#2077
+`7Below Southeastern Wall``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2076
+D2
+~
+~
+0 0 2083
+S
+#2078
+`7Below Southeastern Wall``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 2079
+S
+#2079
+`7Below Southeastern Wall``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2078
+D2
+~
+~
+0 0 2080
+S
+#2080
+`7Below Southeastern Wall``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2079
+D2
+~
+~
+0 0 2082
+S
+#2082
+`7Below Southeastern Wall``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2080
+S
+#2083
+`7Southeastern Wall Corner``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2077
+D2
+~
+~
+0 0 2084
+S
+#2084
+`7Southeastern Wall Corner``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2083
+S
+#2012
+`3Further into the Scarred Lands``~
+You've walked for what seems like miles. The Scarred Lands
+still rise all around you, and you have even harder terrain ahead, so
+it seems. The wind has picked up, and ice and snow are all around you.
+It seems this is the only path through the mountains.
+~
+~
+0 0 32768 5
+D3
+~
+~
+0 0 2050
+D4
+~
+~
+0 0 2016
+T 35
+S
+#2014
+`3Deep Within the Mountains``~
+You are walking along a rugged, narrow path that leads through
+the mountains of the Scarred Lands. Around you, canyon walls
+rise up to rocky crags and steep plateaus. The footing here is
+unsure, and you feel it best to take it slow. A chilly wind
+blows through the mountains, smelling of alpine snow.
+~
+~
+0 0 32768 5
+D1
+~
+~
+0 0 2015
+T 40
+S
+#2015
+`3Deep Within the Mountains``~
+You are walking along a rugged, narrow path that leads through
+the mountains of the Scarred Lands. Around you, canyon walls
+rise up to rocky crags and steep plateaus. The footing here is
+unsure, and you feel it best to take it slow. A chilly wind
+blows through the mountains, smelling of alpine snow.
+~
+~
+0 0 65536 5
+D3
+~
+~
+0 0 2014
+T 40
+S
+#2016
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+~
+~
+0 0 32768 5
+D1
+~
+~
+0 0 2017
+D5
+~
+~
+0 0 2012
+T 40
+S
+#2017
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+~
+~
+0 0 65536 5
+D2
+~
+~
+0 0 2018
+D3
+~
+~
+0 0 2016
+T 40
+S
+#2018
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 2017
+D4
+~
+~
+0 0 2019
+T 40
+S
+#2019
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+~
+~
+0 0 16384 5
+D1
+~
+~
+0 0 2020
+D5
+~
+~
+0 0 2018
+T 40
+S
+#2020
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+~
+~
+0 0 8192 5
+D3
+~
+~
+0 0 2019
+D4
+~
+~
+0 0 2024
+T 40
+S
+#2024
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+~
+~
+0 0 8192 5
+D1
+~
+~
+0 0 2025
+D5
+~
+~
+0 0 2020
+T 40
+S
+#2025
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+North of you set upon a cliff face a sizable fortress stands.
+~
+~
+0 0 16384 5
+D1
+~
+~
+0 0 2026
+D3
+~
+~
+0 0 2024
+T 40
+S
+#2026
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+~
+~
+0 0 65536 5
+D2
+~
+~
+0 0 2027
+D3
+~
+~
+0 0 2025
+T 40
+S
+#2027
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 2026
+D1
+~
+~
+0 0 2028
+T 40
+S
+#2028
+`7The Great Wall of Revelsport``~
+You stand before two monolithic obsidian columns. This is known as
+the Great Wall. It was where the people of Revelsport drove back
+invading armies of Darhelm. back into the Scarred Lands. This is the
+far reaches of the Law of Tiradel's jurisdiction in the lands, and
+beginning the long trek of sorrow into the Scarred Lands.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 2029
+D3
+~
+~
+0 0 2027
+T 40
+S
+#2029
+`3Before the Great Wall of Mirlan``~
+You stand before two towering gates. This is known in Mirlan as
+the Great Wall. It was where Prince Rashand and Lord D'Saul made
+one of their last stands against the Scarlet Horde, driving them
+back into the Scarred Lands. This marks the end of the Light's
+jurisdiction in the lands, and beging the dark misery of the
+Scarred Lands.
+~
+~
+0 0 65536 5
+D1
+~
+~
+0 0 2030
+D3
+~
+~
+0 0 2028
+T 40
+S
+#2030
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+~
+~
+0 0 8192 5
+D3
+~
+~
+0 0 2029
+D5
+~
+~
+0 0 2035
+T 40
+S
+#2031
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+~
+~
+0 8192 32768 5
+D5
+~
+~
+0 0 2032
+T 40
+S
+#2032
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+~
+~
+0 8192 32768 5
+D1
+~
+~
+0 0 2033
+D4
+~
+~
+0 0 2031
+T 40
+S
+#2033
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+~
+~
+0 8192 16384 5
+D2
+~
+~
+0 0 2034
+D3
+~
+~
+0 0 2032
+T 40
+S
+#2034
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+~
+~
+0 8192 16384 5
+D0
+~
+~
+0 0 2033
+T 40
+S
+#2035
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+~
+~
+0 0 32768 5
+D1
+~
+~
+0 0 2036
+D4
+~
+~
+0 0 2030
+T 40
+S
+#2036
+`3A Crossroads in the Scarred Lands``~
+You stand on a narrow path that splits into the four cardinal directions.
+A small sign is tacked into the hard earth here, and seems to have made
+it through many hard winters. The rocky road leads upward, and deeper
+into the mountains to the west, or back east, into the Scarred Lands.
+ 
+A small sign is nailed into the ground here.
+~
+~
+0 0 16384 5
+E
+sign~
+EAST -> DARGOTH
+REVELSPORT <- WEST
+~
+D0
+~
+~
+0 0 2037
+D1
+~
+~
+0 0 2039
+D2
+~
+~
+0 0 2038
+D3
+~
+~
+0 0 2035
+T 60
+S
+#2037
+`3A rocky mountain path``~
+You are on a treacherous northern path along the edge of the
+Scarred Lands. Small sounds of activity can be heard all around
+you, but when you look, you see nothing. Who would live in these
+high reaches, and why?
+~
+~
+0 0 65536 5
+D2
+~
+~
+0 0 2036
+S
+#2038
+`3A small branch from the main path``~
+You are on a small path leading south along the Scarred Lands.
+The road leads downward into a desolate barrows area. Huge boulders are
+scattered about here, and the air reeks of war and power. Below you,
+you can see a large valley stretch out.
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 2036
+S
+#2039
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+~
+~
+0 0 8192 5
+D1
+~
+~
+0 0 2040
+D3
+~
+~
+0 0 2036
+T 40
+S
+#2040
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+~
+~
+0 0 16384 5
+D3
+~
+~
+0 0 2039
+D5
+~
+~
+0 0 2041
+T 40
+S
+#2041
+`3Within the Scarred Lands``~
+You are now deep within the Scarred Lands rolling plains. Rock
+is all around you, and the snow here comes to your knees in
+certain drifts. It is chilly, and bleak up here. The desolate
+winds from the Scarred Lands now blow through the canyons here
+with a cold sigh of misery.
+ 
+A large placard marks a boulder just to the south of you. Here
+there seems to be a well used trail that leads to the boulder,
+but mysteriously ends...
+ 
+A small inscription is placed into the boulder, waiting to
+be read.
+~
+~
+0 0 65536 5
+E
+inscription~
+Beyond lies a dangerous keep.  Only those possessing the power
+and mind to pass this door may survive this place.  If you seek
+the knowledge of beyond, the Guards at the Wall of Mirlan may aid
+you in your journey.
+~
+D1
+~
+~
+0 0 2042
+D2
+~
+boulder~
+ABM 0 2600
+D4
+~
+~
+0 0 2040
+T 40
+S
+#2042
+`3A Small Path into the Scarred Lands``~
+You are on a steep path leading from the Scarred Lands. It
+merges into hills further east, but the view from here is
+incredible. The Scarred Lands extend as far east as you
+can see, but from this vantage, you can see the dark city
+of Dargoth in the center of the desolate waste.
+~
+~
+0 0 16384 5
+D2
+~
+~
+0 0 2046
+D3
+~
+~
+0 0 2041
+T 55
+S
+#2043
+`3A Small Path into the Scarred Lands``~
+You are on a steep path leading from the Scarred Lands. It
+merges into hills further east, but the view from here is
+incredible. The Scarred Lands extend as far east as you
+can see, but from this vantage, you can see the dark city
+of Dargoth in the center of the desolate waste.
+~
+~
+0 8192 16384 5
+D1
+~
+~
+0 0 2044
+T 55
+S
+#2044
+`3A Small Path into the Scarred Lands``~
+You are on a steep path leading from the Scarred Lands. It
+merges into hills further east, but the view from here is
+incredible. The Scarred Lands extend as far east as you
+can see, but from this vantage, you can see the dark city
+of Dargoth in the center of the desolate waste.
+~
+~
+0 8192 16384 5
+D1
+~
+~
+0 0 2045
+D3
+~
+~
+0 0 2043
+T 55
+S
+#2045
+`3A Small Path into the Scarred Lands``~
+You are on a steep path leading from the Scarred Lands. It
+merges into hills further east, but the view from here is
+incredible. The Scarred Lands extend as far east as you
+can see, but from this vantage, you can see the dark city
+of Dargoth in the center of the desolate waste.
+~
+~
+0 8192 32768 5
+D3
+~
+~
+0 0 2044
+T 55
+S
+#2046
+`3A Small Path into the Scarred Lands``~
+You stand before a small cairn in the middle of the Scarred Lands.  It
+seems to be marking the entrance to something, but what, you can't be sure. 
+There is a massive hold in the ground, fortified with ornate rock and
+cement, that appears to be the entrance to something.  Again, you can't be
+sure of what, though from the Drow script on the rocks, you believe you may
+be in Darhelm...  
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 2042
+D5
+~
+~
+0 0 1200
+T 55
+S
+#2047
+`3A Small Path into the Scarred Lands``~
+You are on a steep path leading from the Scarred Lands. It
+merges into hills further east, but the view from here is
+incredible. The Scarred Lands extend as far east as you
+can see, but from this vantage, you can see the dark city
+of Dargoth in the center of the desolate waste.
+~
+~
+0 8192 65536 5
+D1
+~
+~
+0 0 2048
+T 55
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 2028 spec_guard
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+O 0 2051 0 2051
+M 0 2029 4 2028 4
+M 0 2028 1 2028 1
+E 0 2001 0 5
+E 0 2002 0 11
+E 0 2003 0 6
+E 0 2004 0 8
+G 0 2006 0
+M 0 2029 1 2029 1
+O 0 2030 0 2041
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+M 2029 1 dragon_guard.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#2050
+if hasquest $n 'Discovered the Shrine to Beronor on the Border Marcher Road'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Beronor!``
+    room permquest $n Discovered the Shrine to Beronor on the Border Marcher Road
+endif
+~
+#2051
+room echoat $n Beronors blessing fill your senses as you commune your worship to his greatness.
+~
+#0
+
+#$

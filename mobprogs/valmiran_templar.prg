@@ -11,14 +11,14 @@ if iscabal($n) == 10
 		else
 			if iscabal($n) == 1
 			bow $n
-			say The Templars have secured Val Miran, $n.
+			say The Templars have secured Revelsport, $n.
 			say The city is safe again under our army's protection.
 			salute $n
 			say Walk in the Light.
 			else
 				if iscabal($n) == 3
 				bow $n
-				say We aid you in protection of Val Miran, $n.
+				say We aid you in protection of Revelsport, $n.
 				say We cannot have such madness in the City of the Light.
 				salute $n
 				say Walk in the Light.

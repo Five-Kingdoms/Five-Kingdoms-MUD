@@ -1,0 +1,4773 @@
+#AREADATA
+Name The Western Underdark~
+Pref ~
+Builders Crypticant~
+VNUMs 11000 11199
+Max_Bastions 0
+Credits {20 50} Staff    The Western Underdark~
+Security 9
+Startroom 11000
+Flags 1024
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#11011
+strange fish~
+a blind cave fish~
+A blind cave fish swims about your ankles here.
+~
+A sickly white fish, with no eyes swims about here.
+~
+unique~
+AGTe A 0 0 200 0
+5 0 1d16+42 0d0+100 2d4+3 pierce
+6 6 6 8
+EFNU 0 0 0
+stand stand none none~
+4
+AHMV ABCDEFGHIJK medium 0
+#11023
+Charlie~
+Charlie~
+Charlie is here, hiding in the tunnels.
+~
+Covered in mud, a little man wearing blue pajamas is here. His
+narrow eyes glare at you menacingly, and he walks through these
+muddy trenches barefooted.
+~
+human~
+Ae A 0 0 800 0
+52 11 5d75+4000 0d0+100 4d10+37 slash
+-18 -18 -18 -4
+EFHN A 0 0
+stand stand male none~
+19
+AHMV ABCDEFGHIJK medium 0
+#11035
+drow tunneler~
+a drow tunneler~
+A drow tunneler is here, carving glyphs into the walls.
+~
+Covered in soot and dirt, this grubby drow is using a sharpened pick
+to carve directional glyphs into the walls in these parts of the
+tunnels.
+~
+drow~
+AGHd A JP 0 -1000 0
+11 3 2d8+134 0d0+100 1d10+2 pierce
+1 1 1 8
+EFNU 0 B Ya
+stand stand either none~
+9
+AHMV ABCDEFGHIJK medium 0
+#11036
+duergar slave~
+a duergar slave~
+A duergar slave is here, hiding from persecution.
+~
+This slave seems to have escaped the tunneling parties of the
+Drow, and now hides secure in his hole, fleeing from his
+persecution.
+~
+duergar~
+ACGTd A J 0 -1000 6603
+17 5 2d10+280 0d0+100 3d10+2 punch
+-3 -4 -3 -4
+FIK 0 CL CR
+stand stand male none~
+14
+AHMV ABCDEFGHIJK small 0
+#11037
+Kaelyn Rat King~
+Kaelyn the Rat King~
+The rat king feasts on a corpse, a celebration of divine right.
+~
+Possesor of the silver circlet of divinity, the rat king is known to his
+followers as a benevolent lord.  A miniature black robe lies hunched on his
+back.  Hanging as a cape flutters a small pink rag.  Sharp elongated yellow
+fangs curve outward from his twisted and opened jaws.  He is Kaelyn.  He is
+the Rat King!  
+~
+unique~
+ACGORZe A DHV 0 0 0
+35 102 12d12+300 0d0+100 10d10+100 claw
+-20 -15 5 9
+EFNU AB ELPQ HNO
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#11044
+unmoving shadow shade keeper~
+a shade~
+An unmoving shadow lurks in the darkness here.
+~
+A mere fragment of a life, this shade haunts these tunnels, seeking to
+recover a tangible form again.
+~
+undead~
+ABOVZc A DFJ 0 0 15500
+25 5 1d1+1000 0d0+100 5d5+10 drain
+-5 -5 -5 -5
+FK ABLQ I N
+stand stand none none~
+13
+0 ABCDEFGHIJK medium 0
+#11049
+stomach wurm~
+the wurm's stomach~
+A large, sickening looking stomach lining surrounds you.
+~
+A large sickening looking stomach surrounds you. Oozing with vile
+excrements and acid, the digestion and air in here is stifling!
+You had better get out as fast as you can!
+~
+unique~
+AFG AC DFJ 0 0 0
+60 20 4d6+6000 0d0+100 4d6+20 digestion
+-15 -20 -19 -8
+FHK AB C 0
+stand stand none none~
+21
+0 0 medium 0
+P DEATH 11049 100~
+P FIGHT 11050 100~
+P FIGHT 11048 10~
+#11051
+hooded viper~
+a hooded viper~
+A large hooded viper sees you, and attacks!
+~
+A relative of the cobra family, this viper looks very, very
+angry that you have walked in on him!
+~
+snake~
+AFGHe A P 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 none
+6 6 6 9
+EFNR 0 L I
+stand stand none none~
+2
+AGXYc ADEFKLQVX medium 0
+P GRALL 11051 100~
+#11052
+white asp~
+a white asp~
+A white asp sees you, and attacks!
+~
+A relative of the cobra family, this viper looks very, very
+angry that you have walked in on him!
+~
+snake~
+AFGHe A P 0 0 0
+8 0 4d6+100 0d0+100 1d5+6 none
+6 6 6 9
+EFNR 0 L I
+stand stand none none~
+5
+AGXYc ADEFKLQVX medium 0
+P GRALL 11051 100~
+#11053
+black king snake~
+a black king snake~
+A black king snake sees you, and attacks!
+~
+A relative of the cobra family, this viper looks very, very
+angry that you have walked in on him!
+~
+snake~
+AFGHe A P 0 0 0
+8 0 4d6+100 0d0+100 1d5+6 none
+6 6 6 9
+EFNR 0 L I
+stand stand none none~
+12
+AGXYc ADEFKLQVX medium 0
+P GRALL 11051 100~
+#11061
+bat~
+a bat~
+A small bat hangs from the ceiling here.
+~
+You have never in your entire life seen such a mean looking small creature,
+though it looks rather peaceful, hanging there. The thought of arousing this
+cruel creature doesn't seem appealing.
+~
+bat~
+AFG A PT 0 -500 0
+1 0 2d6+10 0d0+100 1d4+0 none
+9 9 9 10
+EFHNR 0 0 S
+sleep sleep none none~
+6
+AGW ACDEFJKPU medium 0
+#11069
+mole~
+a mole~
+A mole is here, tunneled away in safety.
+~
+Inquisitive, this little mole seems to he half blind, and
+twitches his nose at you.
+~
+unique~
+ABCT A 0 0 100 0
+4 0 1d10+33 0d0+100 1d7+2 pierce
+7 7 7 8
+EFNU 0 0 0
+stand stand male none~
+10
+AHMV ABCDEFGHIJK medium 0
+#11070
+Gremlin~
+a gremlin~
+A small gremlin stands here, peering into the darkness.
+~
+A hideous, big eared little thing, this gremlin seems intent on peering
+deep into the darkness, as if looking for something...
+~
+goblin~
+AGe A 0 0 -1000 208
+15 5 2d1+200 0d0+100 4d5+5 pierce
+5 5 5 5
+CDEFJK AB Q N
+stand stand none none~
+6
+AHMV ABCDEFGHIJK small 0
+F aff J
+F vul C
+#11071
+drow tunnel guardian~
+a drow tunnel guardian~
+A Drow Tunnel Guardian is here, patrolling the tunnels.
+~
+A very rugged looking drow elf, this being is dark, and sinister, After
+years of patrolling the tunnels for unwanted intruders, he has become the
+sole ruler of the tunnels, and walks his patrols with a vengeance.
+~
+drow~
+AGTe A DFJPV 0 -750 0
+40 26 4d6+2200 0d0+0 4d6+20 slice
+-22 -22 -22 -2
+CEFHKNUX A B Ya
+stand stand none none~
+20
+AHMV ABCDEFGHIJK medium 0
+#11101
+drow slavemaster~
+a drow slavemaster~
+A Drow Slavemaster is here, beating his slaves to dig faster.
+~
+~
+drow~
+AGTe A DFJPV 0 -750 0
+40 26 4d6+2200 0d0+0 4d6+20 slice
+-22 -22 -22 -2
+CEFHKNUX A B Ya
+stand stand none none~
+14
+AHMV ABCDEFGHIJK medium 0
+#11102
+kobold slave~
+a kobold slave~
+An enslaved kobold miner works here, diligently.
+~
+~
+kobold~
+ACGd A J 0 -1000 6604
+13 4 2d10+175 0d0+100 2d10+8 punch
+-1 0 -1 0
+FI 0 L C
+stand stand either none~
+7
+ABHMV ABCDEFGHIJKQ small 0
+#11103
+duergar slave~
+a duergar slave~
+A duergar slave works diligently in the dark here.
+~
+Beaten and tormented, this duergar has seen the worst of days. Hours
+of endless digging have made him thin, weak, and weary, and his only
+hope will be to die, soon.
+~
+duergar~
+ACGd A J 0 -1000 6604
+13 4 2d10+175 0d0+100 2d10+8 punch
+-1 0 -1 0
+FI 0 CL CR
+stand stand either none~
+5
+AHMV ABCDEFGHIJK small 0
+#11104
+mud monster mudmonster~
+a digusting mudbeast~
+A mudbeast is here, wallowing in the filth.
+~
+It sure looks like something out of a horror movie. It strongly resembles
+a huge figure made up from mud alone, and it sure looks like it had human 
+flesh for breakfast and is strongly intent on having the same for dinner.
+~
+cold~
+AFG A P 0 -250 0
+12 0 2d10+150 0d0+100 1d10+3 pound
+0 0 0 8
+EFNU 0 0 0
+rest rest none none~
+11
+CJc 0 medium 0
+#11105
+sewer rat~
+a sewer rat~
+A sewer rat scurries along here, looking for food.
+~
+A dirty nasty sewer rat . Obviously  looking for food in the mires.
+~
+unique~
+AG A Q 0 300 13216
+10 0 2d33+96 0d0+100 1d4+0 pierce
+3 3 3 6
+EFNU 0 0 0
+stand stand none none~
+11
+AHMV ABCDEFGHIJK medium 0
+#11111
+slime creature~
+a slime creature~
+A slime creature rises up from the murk here.
+~
+You see little interesting about it. Looks like a large
+pile of green slime.
+~
+unique~
+AGd A 0 0 0 0
+10 0 4d6+80 0d0+0 4d6+2 slime
+0 0 0 0
+0 0 0 0
+stand stand none none~
+7
+0 0 medium 0
+#11139
+gargoyle~
+a gargoyle~
+A massive stone gargoyle is constructed here.
+~
+It looks as if a master craftsman built this gargoyle from a life replica.
+You think you can almost see it breathe...
+~
+undead~
+ABCDGO A DFJ 0 -750 0
+25 10 4d6+450 0d0+100 4d6+20 wrath
+-1 -2 -1 0
+EFNU ABLQ I N
+stand stand none none~
+16
+0 ABCDEFGHIJK medium 0
+#11147
+craw wurm !wurm!~
+the Craw Wurm~
+A massive snakelike wurm hisses at you, and attacks!
+~
+What seems to be a cross between a land serpent and one of the giant
+fire breathing dragons of ancient lore, the Craw Wurm lies within its
+nest, guarding several of her recently laid eggs. While this creature
+only bears small, skinned wings, she manages to fly, while the rest
+of her coiled, scaled tail lies dormant on the ground. At the end of
+her tail lie several barbed spikes, which she uses, along with rough,
+serrated teeth, and blasts of flame, to protect her closely guarded
+nest.
+~
+dragon~
+ABFGZe A DFJT 0 0 0
+60 19 4d6+11000 0d0+100 4d6+25 chomp
+-10 -10 -14 -9
+ADEFKMN AB BCEH FI
+stand stand female none~
+25
+AHZ ACDEFGHIJKLPQUVX huge 0
+P FIGHT 11147 75~
+P RANDOM 11148 100~
+P DEATH 11149 100~
+#11152
+mud toad~
+a mud toad~
+A brown mud toad wallows in the wet mud here.
+~
+Small and brown, this toad is covered in warts and slime, and seems
+perfectly content to live in his residence of feces.
+~
+unique~
+AGe AD 0 0 -250 103
+14 0 2d10+190 0d0+100 1d12+3 none
+-1 -1 -1 8
+EFNU 0 0 0
+sit sit none none~
+14
+AHMV ABCDEFGHIJK medium 0
+#11156
+Davrikkah beast giant~
+the Davrikkah~
+The Giant Davrikkah sees you, and attacks!
+~
+A beast standing as tall as any giant howls here. Covered in heavy,
+thick fur, this thing is a massive killing machine! Sharp bone horns
+poke out at odd angles from his head, and long, razor sharp claws
+protrude from giant paws.
+~
+unique~
+ADFGe A HJV 0 0 5715
+52 20 10d8+5000 0d0+100 3d15+20 claw
+25 25 25 25
+HKUX 0 DEHI JP
+stand stand male none~
+25
+AHMV ABCDEFGHIJK large 0
+#11161
+spider~
+the small spider~
+A small cave spider is here, nested up in a web.
+~
+~
+insect~
+AFG A P 0 -700 0
+1 0 2d6+10 0d0+100 1d4+0 bite
+9 9 9 10
+EFNU 0 0 0
+stand stand male none~
+5
+AGOc ACDEFHK medium 0
+#11162
+queen spider~
+the Giant Tarantula~
+A gigantic tarantula is here, nested in a heavy web.
+~
+One of the most hideous spiders you have seen, this giant tarantula is
+enormous! Covered in thick hair with a pair of the nastiest fangs you
+have ever seen, this tarantula looks at you with all eight eyes, and
+lunges to attack!
+~
+insect~
+AFGZe A DFHJV 0 -1000 0
+60 25 4d6+6500 0d0+100 4d6+45 bite
+-31 -20 -28 -19
+EFHKNUX ABL 0 0
+stand stand female none~
+24
+AGOc ACDEFHK medium 0
+#11168
+fox~
+a brown fox~
+A small red tailed fox is here, nestled in its den.
+~
+It is a large fox with beautiful, red-brown fur and a long, thick brush.
+~
+fox~
+AGe A 0 0 -50 0
+2 0 2d7+21 0d0+100 1d5+0 none
+8 8 8 10
+EFHNR 0 0 0
+stand stand either none~
+7
+AHMV ABCDEFGHIJK medium 0
+#11169
+minotaur enraged~
+a minotaur guard~
+A very large minotaur guards the entrance here.
+~
+Strange to see a minotaur deep in the Underdark, but this beast seems to
+have been here for some time, guarding the entrance to the Maze. With a
+large bull head, and muscular human torso, he looks rather formidable.
+~
+minotaur~
+ACTe A D 0 0 0
+35 15 7d7+1200 0d0+0 4d4+25 pierce
+-15 -10 -3 -3
+CJKN A 0 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJKWY medium 0
+#11198
+drow slavemaster~
+a drow slavemaster~
+A Drow Slavemaster is here, beating his slaves to dig faster.
+~
+~
+drow~
+AGTe A DFJPV 0 -750 0
+40 26 4d6+2200 0d0+0 4d6+20 slice
+-22 -22 -22 -2
+CEFHKNUX A B Ya
+stand stand none none~
+18
+AHMV ABCDEFGHIJK medium 0
+#11199
+slave human~
+A human slave~
+A Human slave is here, hard at work.          
+~
+He looks like he's under a lot of stress.  He would probably like it if you
+left him alone.
+~
+human~
+AGS A DF 0 0 0
+5 0 2d7+46 0d0+100 1d5+1 punch
+6 6 6 9
+BEFJNU 0 0 0
+stand stand male none~
+2
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#11000
+flying serpent~
+a flying serpent~
+A serpent hovers mid-air here.~
+dragon~
+armor A AQX
+9 9 9 11 0
+30 80 5 P
+E
+dragon~
+A tiny little winged serpent flits about on small,
+leathery skin wings, breathing little hot balls of
+fire.
+~
+T
+45 2 5
+A winged `!fire`` dragon breathes forth a breath of fire!~
+A winged `!fire`` dragon breathes forth a breath of fire!~
+F
+A 21 -5 0
+F
+A 22 -5 0
+F
+S 1 5 0
+#11001
+whip snake four-headed~
+a snake headed whip~
+A whip with four snake heads has been left here.~
+snake~
+weapon AG AN
+whip 4 5 whip 0
+24 10 1530 P
+F
+A 18 2 0
+F
+A 19 2 0
+#11035
+adamantite pickaxe~
+an adamantite pickaxe~
+A mining pickaxe, warped by use lays here in the dust.~
+iron~
+weapon 0 AN
+axe 4 5 cleave 0
+5 50 10 P
+#11036
+corpse~
+the corpse of a drow infant~
+The corpse of a drow infant is lying here.~
+meat~
+npc_corpse 0 A
+0 0 0 A 0
+0 1000 0 D
+#11037
+silver circlet of divinity~
+the silver circlet of divinity~
+A glimmering silver circlet is lying here.~
+stone~
+jewelry AK ACS
+0 0 0 0 0
+50 20 5 P
+F
+A 5 -2 0
+F
+S 167 5 0
+F
+A 18 3 0
+#11038
+rat dagger~
+the Rat Dagger~
+A dagger with rats engraved on the blade lies here.~
+steel~
+weapon ABGHJ ANX
+dagger 8 6 pierce 0
+50 30 2 P
+F
+A 19 1 0
+#11044
+scimitar~
+a scimitar~
+A scimitar lies here.~
+steel~
+weapon 0 AN
+sword 3 9 slash 0
+5 100 490 P
+#11045
+sarcophagus coffin~
+a stone sarcophagus~
+A stone sarcophagus is sitting here.~
+wood~
+container 0 0
+400 AC 0 400 100
+0 0 0 P
+E
+sarcophagus coffin~
+A well crafted, if dusty and ancient, home for the afterworld, it seems
+to be able to be opened but needs a key.
+~
+#11046
+corpse~
+a decomposed skeleton~
+A decomposed skeleton is lying here.~
+bone~
+weapon 0 AN
+exotic 2 3 disease 0
+0 1000 100 D
+#11048
+hotsprings spring bubbling~
+some bubbling hotsprings~
+Hotsprings bubble up from the earth here.~
+mud~
+fountain 0 0
+-1 -1 'water' 0 0
+60 0 100 P
+#11049
+lining stomach !tummy!~
+a stomach lining~
+A strange stomach lining is lying here.~
+guts~
+food U A
+4 4 0 0 4
+20 10 2 P
+P GET 11049 100~
+#11054
+rock fungus~
+a strange rock fungus~
+A strange rock fungus grows on the walls here.~
+food~
+food 0 A
+-1 12 0 0 -1
+10 10 6 P
+#11056
+psychedelic fungus~
+a chunk of glowing fungus~
+A large chunk of glowing fungus is attached to a wall here.~
+fungus~
+herb 0 A
+60 'insomnia' 'enlarge' 'enlarge' 'visitation'
+15 10 100 P
+#11101
+wings craw wurm~
+the wings of the Craw Wurm~
+A set of leathering wings are lying here.~
+skin~
+staff AX AOX
+0 15 15 'fly' 0
+50 50 3 P
+#11139
+wooden table large ~
+a large wooden table~
+A large table covered in a thick layer of dust is here.~
+unknown~
+container 0 0
+0 0 0 0 0
+0 10 100 P
+#11147
+egg leathery white~
+a white, leathery egg~
+A white, leathery egg is in a nest here.~
+shell~
+container 0 A
+100 A 0 10 30
+50 0 50 P
+#11156
+razor claws~
+a set of razor sharp claws~
+A large set of black claws is lying here.~
+steel~
+armor ABR AHX
+12 13 11 0 0
+50 40 3 P
+F
+A 19 3 0
+P FIGHT 11156 8~
+#11157
+pool mineral~
+a warm pool of mineral water~
+A large pool of mineral water steams here.~
+water~
+fountain 0 0
+-1 -1 'salt water' 0 0
+50 0 100 P
+#11162
+mask of fangs~
+a mask made of spider fangs~
+A large mask made entirely of spider fangs is lying here.~
+gold~
+armor ABGMZ AXd
+8 10 10 9 0
+60 100 6 P
+F
+A 1 -2 0
+F
+A 18 2 0
+F
+A 19 4 M
+P FIGHT 11162 8~
+#11163
+pile rocks~
+a pile of rocks~
+A pile of rocks has crumbled here.~
+unknown~
+throw 0 AN
+4 3 3 crush 0
+0 100 0 P
+#11169
+maze key~
+the maze key~
+A key with a hexagonal base is lying here.~
+stone~
+key 0 A
+0 0 0 0 0
+40 1 100 P
+#11172
+fountain of youth~
+the Fountain of Youth~
+A large fountain is here, bubbling forth a burgundy substance.~
+bone~
+fountain 0 P
+-1 -1 'amontillado' 0 0
+55 0 0 P
+#11173
+whip snake three-headed~
+a snake headed whip~
+A whip with three snake heads has been left here.~
+snake~
+weapon AG AN
+whip 2 7 whip 0
+15 10 1020 P
+F
+A 19 2 0
+F
+A 18 2 0
+#11174
+quartz crystal~
+a quartz crystal~
+A intricate quartz crystal is growing here.~
+quartz~
+socket G A
+0 0 0 0 0
+10 10 100 P
+F
+A 3 1 0
+#11175
+ring ruby~
+a small ruby ring~
+A small ruby ring lies in the dirt.~
+ruby~
+jewelry G AB
+0 0 0 0 0
+25 10 980 P
+F
+A 13 15 0
+#11176
+blue pajamas~
+a set of blue pajamas~
+A set of blue pajamas is lying on the ground here.~
+cloth~
+armor 0 AD
+4 5 4 2 0
+50 0 0 P
+F
+A 19 1 0
+#0
+
+
+
+#ROOMS
+#11000
+`8The Western Underdark``~
+You find yourself in an extremely large cavern.  The darkened walls
+spread around you, embracing your miniscule form.  Echos dance off of this
+expansive cave, creating a cacaphonous symphony of discord.  It is as if the
+shadows are speaking.  To your east lies the silvery gates of Dargoth,
+Seemingly a haven to this deserted place.  Intricate mosaics of stone outlay
+the cavern floor, Illuminated by glowing fungus far above your head.  The
+cavern branches into a tunnel, a much smaller counterpart of this
+monstrosity.  
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11001
+D5
+~
+floor~
+AB 0 11036
+S
+#11001
+`8A hand-hewn granite tunnel``~
+You walk amonsgt the forsaken.  Few have dared to travel within the
+underdark of Aabahran.  The carved granite stone around you tell of an
+ancient and long lost architecture.  Cracked and blackened pillars lie
+fallen on this now ruined highway of Aabahran.  Perhaps once an extension of
+Dargoth, the tunnel is void of any life.  A mutilated rat corpse hangs by a
+severed loop of skin on an extension of rock, a lone witness to the
+screaming silence.  
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11000
+D3
+~
+~
+0 0 11002
+S
+#11002
+`8A hand-hewn granite tunnel``~
+You walk amonsgt the forsaken.  Few have dared to travel within the
+underdark of Aabahran.  The carved granite stone around you tell of an
+ancient and long lost architecture.  Cracked and blackened pillars lie
+fallen on this now ruined highway of Aabahran.  Perhaps once an extension of
+Dargoth, the tunnel is void of any life.  
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11001
+D3
+~
+~
+0 0 11003
+S
+#11003
+`8A hand-hewn granite tunnel``~
+You walk amonsgt the forsaken.  Few have dared to travel within the
+underdark of Aabahran.  The carved granite stone around you tell of an
+ancient and long lost architecture.  Cracked and blackened pillars lie
+fallen on this now ruined highway of Aabahran.  Perhaps once an extension of
+Dargoth, the tunnel is void of any life.  A small pool of mud bubbles to
+your north.  
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11004
+D1
+~
+~
+0 0 11002
+D3
+~
+~
+0 0 11005
+S
+#11004
+`8A muddy tunnel``~
+Pools of mud bubble softly within rough depressions of the cave floor. 
+The walls around you are caked with the aged mud.  Its origin, as seemingly
+everything in these caves, is unknown.  The temperature rises noticeably
+here, perhaps a source of the muds constant bubbling echo.  
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11100
+D2
+~
+~
+0 0 11003
+S
+#11005
+`8A warmer passageway``~
+A dry and dusty cavern, the passageways begin to narrow.  The hand hewn
+exquisite patterns of carved stone no longer bear the mark of time on these
+seemingly natural made walls.  A warmth emanates from this place, a contrast
+from the cold and icy darkness you have begun to expect.  
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11003
+D3
+~
+~
+0 0 11006
+S
+#11006
+`8A warmer passageway``~
+A dry and dusty cavern, the passageways begin to narrow.  The hand hewn
+exquisite patterns of carved stone no longer bear the mark of time on these
+seemingly natural made walls.  A warmth emanates from this place, a contrast
+from the cold and icy darkness you have begun to expect.  A large wooden
+door braced with iron looms to the north, years of decaying moss guard its
+entrance.  
+~
+~
+0 9 0 0
+D0
+~
+~
+AB 0 11037
+D1
+~
+~
+0 0 11005
+D5
+~
+~
+0 0 11007
+S
+#11007
+`8A rocky descent``~
+You make your way down the crumbling and rocky footholds to find
+yourself on a vast plateau overlooking the mazes of tunnels.  An imagination
+greater than yours may picture a lone darkened figure on a long forgotten
+quest staring thoughtfully into the blackness, wind prophetically blowing
+his hair.  Too bad there isnt a trace of wind here, the dust and mildew
+throw you into a violent fit of coughing.  Nice view, though.  
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11119
+D3
+~
+~
+0 0 11008
+D4
+~
+~
+0 0 11006
+S
+#11008
+`8A small canal``~
+You find yourself walking down what seems to be a small drainage. Water
+trickles slowly down inky, black walls that are covered with algae that
+seems to glow in the soft light. The steady drip-drip of water can be
+heard in the distance.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11007
+D3
+~
+~
+0 0 11009
+S
+#11009
+`8A small canal``~
+You find yourself walking down what seems to be a small drainage. Water
+trickles slowly down inky, black walls that are covered with algae that
+seems to glow in the soft light. The steady drip-drip of water can be
+heard in the distance.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11010
+D1
+~
+~
+0 0 11008
+S
+#11010
+`8A drainage vent``~
+The canal ends here, leading downward through a small grating. You can hear
+the drizzle of water as it cascades down the vent, and lands in a small pool
+below. The floor of the vent is eroded deeply with the destructive force of
+years of water flowing over it.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11009
+D5
+~
+~
+0 0 11011
+S
+#11011
+`^A pool of murky water``~
+You are standing in a very murky pool of water. The stench is almost
+overwhelming as the yellowish water contains large quantities of sulfur,
+making the air and everything around it reek of rotten eggs. There seems
+to be another egress to the west.
+~
+~
+0 9 0 6
+D3
+~
+~
+0 0 11012
+D4
+~
+~
+0 0 11010
+S
+#11012
+`8A reinforced cave tunnel``~
+You stand amid a tunnel that has been heavily reinforced by large steel
+bands, and heavy wooden logs to keep the sagging tunnel from caving in.
+This is obviously a very important tunnel to the drow, and it looks as
+if it has been heavily traveled in the past, as the floors are worn
+flat and smooth.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11011
+D3
+~
+~
+0 0 11013
+S
+#11013
+`8A reinforced cave tunnel``~
+You stand amid a tunnel that has been heavily reinforced by large steel
+bands, and heavy wooden logs to keep the sagging tunnel from caving in.
+This is obviously a very important tunnel to the drow, and it looks as
+if it has been heavily traveled in the past, as the floors are worn
+flat and smooth.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11012
+D4
+~
+~
+0 0 11014
+S
+#11014
+`8Above a rise``~
+Here, the tunnel rises a bit, and the rock walls turn to a distinctive
+red color. There seems to be quite a bit of iron inherent in these
+walls, and the overall outlook is brighter than deep below. The rise
+levels off here, and continues downward, and westward.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11015
+D5
+~
+~
+0 0 11013
+S
+#11015
+`8Within the Main Tunnel System``~
+You are deep within the Underdark now, walking within what is known
+as the Main Tunnel System. The walls here are very wide, and several
+deep tracks have been lay in the flooring to allow mining trains to
+go to and fro from Dargoth to the reaches beyond. The main tunnel
+runs east and west.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11014
+D3
+~
+~
+0 0 11016
+S
+#11016
+`8A fallout``~
+Here, a good section of the Main Tunnel System has collapsed,
+leaving large chunks of rock and wood reinforcements scattered
+all over the floor. It doesn't seem like anyone has been told to
+com fix this section, but there is an alternate path that leads
+to the north.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11017
+D1
+~
+~
+0 0 11015
+D2
+~
+dirt~
+AB 0 11045
+S
+#11017
+`8A smelly passage``~
+You are within a passage that reeks of old fossil oils. You can
+see that the walls are streaked with black oil, and the stench of
+the heavy crude oil makes your eyes water, and gasp for air. The
+floors here are slippery with the tarry sunstance, and you cannot
+help but become black and sooty from your travel.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11016
+D3
+~
+~
+0 0 11018
+S
+#11018
+`8An eerie calm``~
+You can hear nothing here. No water dripping. Even your own footfalls
+seem to fade into nothing. All is very still here, and a feeling of
+something very supernatural surrounds you. It is rumored that the ghosts
+of the dead miners still inhabit these tunnels. Perhaps they are here
+now.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11017
+D3
+~
+~
+0 0 11019
+D5
+~
+~
+AB 0 11045
+S
+#11019
+`8Within the Main Tunnel System``~
+You are deep within the Underdark now, walking within what is known
+as the Main Tunnel System. The walls here are very wide, and several
+deep tracks have been lay in the flooring to allow mining trains to
+go to and fro from Dargoth to the reaches beyond. The main tunnel
+runs east and west.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11018
+D3
+~
+~
+0 0 11020
+S
+#11020
+`8Within the Main Tunnel System``~
+You are deep within the Underdark now, walking within what is known
+as the Main Tunnel System. The walls here are very wide, and several
+deep tracks have been lay in the flooring to allow mining trains to
+go to and fro from Dargoth to the reaches beyond. The main tunnel
+runs east and west.
+~
+~
+0 9 0 0
+D0
+~
+boulder~
+AB 0 11046
+D1
+~
+~
+0 0 11019
+D5
+~
+~
+0 0 11021
+S
+#11021
+`8A cave-in``~
+The Main Tunnel seems to have collapsed above, leading you to this
+small cave-in. The floor here is covered in rubble from above, and it
+seems an alternate tunnel has been dug to the west, leading the same
+direction as the main tunnel. Dust and dirt still fills the air here,
+making it hard to breathe.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11022
+D4
+~
+~
+0 0 11020
+S
+#11022
+`8Muddy trenches``~
+Underneath the collapsed Main Tunnel, you are walking in large, recently
+made trenches, that are used as an alternate to the tunnels above. Water
+isn't flowing here, but it seems to have been soaked up by the dirt, and
+you find yourself mired knee-deep in thick, gray mud, left over from the
+digging of the tunnel. You plod along slowly here.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11021
+D3
+~
+~
+0 0 11023
+S
+#11023
+`8Muddy trenches``~
+Underneath the collapsed Main Tunnel, you are walking in large, recently
+made trenches, that are used as an alternate to the tunnels above. Water
+isn't flowing here, but it seems to have been soaked up by the dirt, and
+you find yourself mired knee-deep in thick, gray mud, left over from the
+digging of the tunnel. You plod along slowly here.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11022
+D5
+~
+~
+0 0 11024
+S
+#11024
+`^Rushing water``~
+The trenches seem to have finally given way to water here, as the mud
+ends, and now water flows quickly and smoothly over hard granite. You
+can hear is rush past you, just before it disappears into small cracks
+in the walls just ahead. A small ladder has been built here, which may
+lead back up to the Main Tunnel.
+~
+~
+0 9 0 6
+D3
+~
+~
+0 0 11025
+D4
+~
+~
+0 0 11023
+S
+#11025
+`8A junction circuit``~
+The tunnel branches here into a three way intersection. Small, hand
+hewn tunnels lead east, west, and down. This at least seems to be a
+newer section, as the walls still carry deep score marks, and large
+holes that the drow use for blasting.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11024
+D3
+~
+~
+0 0 11026
+D5
+~
+~
+0 0 11128
+S
+#11026
+`8A reinforced tunnel``~
+Around you, large metal bands and heavy wood poles support the ceiling
+and the walls all around you. Despite their use, large chunks of rock
+and dirt have fallen to the ground around you, and impacted on the neatly
+bricked floor. The tunnel continues downward.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11025
+D5
+~
+~
+0 0 11027
+S
+#11027
+`8A reinforced tunnel``~
+Around you, large metal bands and heavy wood poles support the ceiling
+and the walls all around you. Despite their use, large chunks of rock
+and dirt have fallen to the ground around you, and impacted on the neatly
+bricked floor. The tunnel continues westward.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11028
+D4
+~
+~
+0 0 11026
+S
+#11028
+`8A tunnel collapse``~
+A large section of the tunnel has collapsed here. The drow seem very
+slack on their work here! Another tunnel has been recently made that
+leads southward, into darkness. Overhead, you seem to be able to hear
+a rumble of somesort, as if you were underneath a body of water?
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11027
+D2
+~
+~
+0 0 11029
+S
+#11029
+`8The Western Passage``~
+You stand within the Great Western Passage. A triumph of tunnel building,
+the Passage is one of the largest and newest tunnels in the Underdark. Well
+reinforced, with high ceilings and heavy wood girders, the tunnel looks very
+sturdy. The floors have been neatly bricked here, and the walls are all smooth
+cement.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11028
+D2
+~
+~
+0 0 11030
+S
+#11030
+`8The Western Passage``~
+You stand within the Great Western Passage. A triumph of tunnel building,
+the Passage is one of the largest and newest tunnels in the Underdark. Well
+reinforced, with high ceilings and heavy wood girders, the tunnel looks very
+sturdy. The floors have been neatly bricked here, and the walls are all smooth
+cement.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11029
+D3
+~
+~
+0 0 11031
+S
+#11031
+`8The Western Passage``~
+You stand within the Great Western Passage. A triumph of tunnel building,
+the Passage is one of the largest and newest tunnels in the Underdark. Well
+reinforced, with high ceilings and heavy wood girders, the tunnel looks very
+sturdy. The floors have been neatly bricked here, and the walls are all smooth
+cement.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11030
+D3
+~
+~
+0 0 11032
+S
+#11032
+`8The Western Passage``~
+You stand within the Great Western Passage. A triumph of tunnel building,
+the Passage is one of the largest and newest tunnels in the Underdark. Well
+reinforced, with high ceilings and heavy wood girders, the tunnel looks very
+sturdy. The floors have been neatly bricked here, and the walls are all smooth
+cement.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11031
+D3
+~
+~
+0 0 11033
+S
+#11033
+`8The Western Passage``~
+You stand within the Great Western Passage. A triumph of tunnel building,
+the Passage is one of the largest and newest tunnels in the Underdark. Well
+reinforced, with high ceilings and heavy wood girders, the tunnel looks very
+sturdy. The floors have been neatly bricked here, and the walls are all smooth
+cement.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11032
+D5
+~
+~
+0 0 11034
+S
+#11034
+`8A darkened tunnel``~
+You stand within a very small tunnel, with a small overhead. Claustrophobia
+begins to set in mildly, as you feel very cramped, and cannot even turn around
+in this tunnel. You are walking on soggy boards that have been lay down to
+allow travelers to walk on then, instead of mud.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11035
+D4
+~
+~
+0 0 11033
+S
+#11035
+`8An older passageway``~
+You seem to have discovered an ancient section of the Underdark. The
+walls here are covered in glyphs that are strange to you, but they seem
+to portray the actual digging of the tunnels! You have heard that these
+tunnels have existed for time immeasureable, but the the glyphs certainly
+seem to fit with that precept.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11038
+D1
+~
+~
+0 0 11034
+S
+#11036
+`8A hiding hole``~
+Black moss hangs from twisted knobs of a long dead root.  You have sought
+refuge within a cramped and musty crevice.  A small puddle of water has
+accumulated here, and your body rests half within its embrace.  Leeches and
+other creatures cling to your exposed flesh.  You feel confident none would
+look for life here.  
+~
+~
+0 16777225 0 0
+D4
+~
+~
+AB 0 11000
+S
+#11037
+`8A storage chamber``~
+Seemingly a storage for fungus and various diseases, the only presence of
+life here is in the form of an extremely large rat.  Broken bottles of wine
+line the upper shelves.  This place was abandoned quickly, though the reason
+remains unclear.  The corpse of a drow infant pays homage to the rats power,
+a small silver circlet on its head marks it the monarch of this room.  Bow
+before the rat king.  
+~
+~
+0 8201 0 0
+D2
+~
+~
+AB 0 11006
+S
+#11038
+`8An older passageway``~
+You seem to have discovered an ancient section of the Underdark. The
+walls here are covered in glyphs that are strange to you, but they seem
+to portray the actual digging of the tunnels! You have heard that these
+tunnels have existed for time immeasureable, but the the glyphs certainly
+seem to fit with that precept.
+~
+~
+0 9 0 0
+D0
+~
+passage~
+AB 0 11140
+D2
+~
+~
+0 0 11035
+D3
+~
+~
+0 0 11039
+S
+#11039
+`8An older passageway``~
+You seem to have discovered an ancient section of the Underdark. The
+walls here are covered in glyphs that are strange to you, but they seem
+to portray the actual digging of the tunnels! You have heard that these
+tunnels have existed for time immeasureable, but the the glyphs certainly
+seem to fit with that precept.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11038
+D3
+~
+~
+0 0 11040
+S
+#11040
+`8An older passageway``~
+You seem to have discovered an ancient section of the Underdark. The
+walls here are covered in glyphs that are strange to you, but they seem
+to portray the actual digging of the tunnels! You have heard that these
+tunnels have existed for time immeasureable, but the the glyphs certainly
+seem to fit with that precept.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11039
+D3
+~
+~
+0 0 11041
+S
+#11041
+`8An older passageway``~
+You seem to have discovered an ancient section of the Underdark. The
+walls here are covered in glyphs that are strange to you, but they seem
+to portray the actual digging of the tunnels! You have heard that these
+tunnels have existed for time immeasureable, but the the glyphs certainly
+seem to fit with that precept.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11042
+D1
+~
+~
+0 0 11040
+D2
+~
+~
+0 0 11148
+S
+#11042
+`8A shadowed tunnel``~
+No matter how bright you try to make your torch, this tunnel seems
+totally confined in shadows and darkness. You have heard of strange
+witchcraft that can be made to bind the powers of undead shades to
+certain places. Perhaps that is the case here.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11041
+D3
+~
+~
+0 0 11043
+S
+#11043
+`8A shadowed tunnel``~
+No matter how bright you try to make your torch, this tunnel seems
+totally confined in shadows and darkness. You have heard of strange
+witchcraft that can be made to bind the powers of undead shades to
+certain places. Perhaps that is the case here.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11044
+D1
+~
+~
+0 0 11042
+S
+#11044
+`8A shadowed tunnel``~
+No matter how bright you try to make your torch, this tunnel seems
+totally confined in shadows and darkness. You have heard of strange
+witchcraft that can be made to bind the powers of undead shades to
+certain places. Perhaps that is the case here.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11043
+D3
+~
+~
+0 0 11055
+S
+#11045
+`8A tomb``~
+You stand within a small cemented room, offset from the main path.
+Here, deep within the Underdark, is a small tomb. An altar is set
+in the center of the room here, and several strange runes are deeply
+engraved in the walls. You feel an unnatural chill pass through you
+as you stand here. You can see light emanating from above.
+~
+~
+0 9 0 0
+D0
+~
+~
+AB 0 11016
+D2
+~
+secret~
+ABM 0 5599
+D4
+~
+~
+AB 0 11018
+S
+#11046
+`8A damp tunnel``~
+You are walking down a very deep, dark tunnel. It seems to wind
+and twist errantly, and you smell a stench of sulphur fill your
+nose with acridity. Steam rises through the air, as if there
+were some geothermal activity taking place nearby.
+~
+~
+0 9 0 0
+D2
+~
+~
+AB 0 11020
+D3
+~
+~
+0 0 11047
+S
+#11047
+`8A damp tunnel``~
+You are walking down a very deep, dark tunnel. It seems to wind
+and twist errantly, and you smell a stench of sulphur fill your
+nose with acridity. Steam rises through the air, as if there
+were some geothermal activity taking place nearby.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11048
+D1
+~
+~
+0 0 11046
+S
+#11048
+`8Hotsprings``~
+You have found the source of the sulphuric smell. A large pool of
+hotsprings rises up from the ground here, bubbling merrily, and
+creating large quantities of steam. The water, while very hot, looks
+very inviting to a weary traveler.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11047
+S
+#11049
+`6Within the stomach of the wurm``~
+You have been swallowed whole! You are within the stomach of the
+Craw Wurm, and it looks like the only way out is to fight your way
+out!
+~
+~
+0 8205 0 9
+S
+#11050
+`8Amid hisses``~
+You stand within a room off of the labyrinth. Around you, in the air,
+you can hear hundreds of agitated hisses, as if some giant snake lair
+loomed just before you. A small pool of blood and bones stands at your
+feet here.
+~
+~
+0 9 0 0
+D2
+~
+~
+AB 0 11059
+D3
+~
+~
+0 0 11051
+S
+#11051
+`8A snake pit``~
+You have entered a snake pit! The room is tiny, dark, and musty, but
+under the light of your torch you can see what seem to be thousands of
+writhing, squirming snakes!
+~
+~
+0 8201 0 0
+D1
+~
+~
+0 0 11050
+S
+#11052
+`^Trudging through murk``~
+You trudge further through the murk, splashing cool water all about you.
+It is refreshing, almost, if you didn't know you were several hundred
+feet underground. Oddly, you seem to be able to feel small fish biting
+at your clothing as you walk. Cave dwellers, no doubt.
+~
+~
+0 9 0 6
+D0
+~
+~
+0 0 11066
+D2
+~
+~
+0 0 11053
+S
+#11053
+`4An undergound aquifer``~
+The water here has become too deep to swim safely. Radiating a deep
+blue, almost black, in the dark gloom, the water has become very warm
+as if from geothermal activity below. You can make out the sound of
+quickly moving water nearby.
+~
+~
+0 9 0 7
+D0
+~
+~
+0 0 11052
+D3
+~
+~
+0 0 11054
+S
+#11054
+`4A waterfall``~
+You find the source of the rushing water! A waterfall rushes over a
+large rock ledge, carrying you with it!
+~
+~
+0 8201 0 7
+D1
+~
+~
+0 0 11053
+D5
+~
+~
+0 0 11157
+P GRALL 11054 100~
+S
+#11055
+`8Amid glowing fungus``~
+All around you is aglow with hundreds of tiny green fungi that
+seems to radiate light all on their own. The green glow can be
+seen for hundreds of feet all around you, and extends off into
+the distance. The fungi seem to also give off a very unpleasant
+odor, which makes you not want to hang around here for too long.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11056
+D1
+~
+~
+0 0 11044
+S
+#11056
+`8Amid glowing fungus``~
+All around you is aglow with hundreds of tiny green fungi that
+seems to radiate light all on their own. The green glow can be
+seen for hundreds of feet all around you, and extends off into
+the distance. The fungi seem to also give off a very unpleasant
+odor, which makes you not want to hang around here for too long.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11055
+D3
+~
+~
+0 0 11057
+S
+#11057
+`8Further into the passage``~
+Deep within the passage now, the rock here suddenly smoothes, and
+becomes cement. The walls are square, and the tunnel seems totally
+encased in heavy rock. A large skull is engraved on one of the walls
+nearby, and you feel hesitant to continue further.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11058
+D1
+~
+~
+0 0 11056
+S
+#11058
+`8A labyrinth``~
+You stand before the entrance to the labyrinthe. A large set of
+steel spikes protrudes from the ceiling here, making you feel as
+if you were entering the mouth of some strange beast. The tunnel
+ahead of you seems to maze about.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11057
+D3
+~
+~
+0 0 11059
+S
+#11059
+`8A labyrinth``~
+You stand within the laybrinthe. Whoever built this place seems to
+have done a good job of making all of the walls appear the same, and
+you quickly find yourself confused with where you were heading, and
+where you just came from.
+~
+~
+0 9 0 0
+D0
+~
+mud~
+AB 0 11050
+D1
+~
+~
+0 0 11058
+D3
+~
+~
+0 0 11060
+D4
+~
+~
+0 0 11158
+S
+#11060
+`8Further along the passage``~
+Deep within the passage now, the rock here suddenly smoothes, and
+becomes cement. The walls are square, and the tunnel seems totally
+encased in heavy rock. A large skull is engraved on one of the walls
+nearby, and you feel hesitant to continue further.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11061
+D1
+~
+~
+0 0 11059
+S
+#11061
+`8Hotter climates``~
+Heat! The walls here seem to glow with heat, and you quickly find yourself
+soaked through and through with sweat. The air is hot and dry, as if you
+were walking through a vein of lava rock. All of the walls here are quite
+hot to the touch, and the air is as stifling as a blacksmith's forge!
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11060
+D3
+~
+~
+0 0 11062
+S
+#11062
+`8Hotter climates``~
+Heat! The walls here seem to glow with heat, and you quickly find yourself
+soaked through and through with sweat. The air is hot and dry, as if you
+were walking through a vein of lava rock. All of the walls here are quite
+hot to the touch, and the air is as stifling as a blacksmith's forge!
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11061
+D3
+~
+~
+0 0 11063
+S
+#11063
+`8A dense mist``~
+You now stand amid a dense fog. You can still make out the walls of the
+tunnels, but now a heavy mist surrounds you, obscuring your vision deeper
+into the tunnels. The mist is hot, almost as if hot rock had suddenly been
+cooled by cold water, making this thick, impenetrable mist.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11062
+D3
+~
+~
+0 0 11064
+S
+#11064
+`8A dense mist``~
+You now stand amid a dense fog. You can still make out the walls of the
+tunnels, but now a heavy mist surrounds you, obscuring your vision deeper
+into the tunnels. The mist is hot, almost as if hot rock had suddenly been
+cooled by cold water, making this thick, impenetrable mist.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11063
+D5
+~
+~
+0 0 11065
+S
+#11065
+`^In a splashpool``~
+You stand in waist deep water, which, oddly, runs deep and clear in
+the center. You have come upon some sort of underground aquifer, and
+the water here is ice cold. The surface of the pool is covered in a
+dense mist, probably from the cooling of the hot rock which surrounds
+these tunnels.
+~
+~
+0 9 0 6
+D2
+~
+~
+0 0 11066
+D4
+~
+~
+0 0 11064
+S
+#11066
+`^Trudging through murk``~
+You trudge further through the murk, splashing cool water all about you.
+It is refreshing, almost, if you didn't know you were several hundred
+feet underground. Oddly, you seem to be able to feel small fish biting
+at your clothing as you walk. Cave dwellers, no doubt.
+~
+~
+0 9 0 6
+D0
+~
+~
+0 0 11065
+D2
+~
+~
+0 0 11052
+D4
+~
+~
+0 0 11067
+S
+#11067
+`8On a ledge``~
+You have managed to climb up a small ledge that overlooks the tunnel
+floor. The ground here is muddy and slippery, and you quickly are
+covered from head to toe in brown, sticky mud. You can crawl through
+the passage to the west, or descend back down into the tunnels.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11068
+D5
+~
+~
+0 0 11066
+S
+#11068
+`8A narrow passage``~
+You find yourself crawling through a tiny narrow passage. You feel like
+a baby being born, squeezing through this canal as you are. Mud quickly
+covers your entire body, and you manage to wriggle and squeeze yourself
+deeper into the passage.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11067
+D3
+~
+~
+0 0 11069
+S
+#11069
+`8A narrow passage``~
+You find yourself crawling through a tiny narrow passage. You feel like
+a baby being born, squeezing through this canal as you are. Mud quickly
+covers your entire body, and you manage to wriggle and squeeze yourself
+deeper into the passage.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11068
+D3
+~
+~
+0 0 11070
+S
+#11070
+`8A small junction``~
+You emerge, filthy from a series of small tunnels, into a small junction.
+Here, the passage splits into many directions, each as dark and as strange
+looking as the next. The room here is well insulated, and your voice has
+no depth or echo as you speak.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11071
+D1
+~
+~
+0 0 11069
+D2
+~
+~
+0 0 11160
+S
+#11071
+`8The Main Tunnel System``~
+You have once again found yourself deep within the Main Tunnel System, after
+a long series of changes. The walls here are heavily reinforced, and the floor
+below you is neatly bricked with a rich, red brick. The tracks in the floor
+appear once again, and this place looks heavily traveled and used.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11072
+D2
+~
+~
+0 0 11070
+S
+#11072
+`8The Main Tunnel System``~
+You have once again found yourself deep within the Main Tunnel System, after
+a long series of changes. The walls here are heavily reinforced, and the floor
+below you is neatly bricked with a rich, red brick. The tracks in the floor
+appear once again, and this place looks heavily traveled and used.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11071
+D3
+~
+~
+0 0 11073
+S
+#11073
+`8The Main Tunnel System``~
+You have once again found yourself deep within the Main Tunnel System, after
+a long series of changes. The walls here are heavily reinforced, and the floor
+below you is neatly bricked with a rich, red brick. The tracks in the floor
+appear once again, and this place looks heavily traveled and used.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11072
+D3
+~
+~
+0 0 11074
+S
+#11074
+`8The Main Tunnel System``~
+You have once again found yourself deep within the Main Tunnel System, after
+a long series of changes. The walls here are heavily reinforced, and the floor
+below you is neatly bricked with a rich, red brick. The tracks in the floor
+appear once again, and this place looks heavily traveled and used.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11073
+D5
+~
+~
+0 0 11075
+S
+#11075
+`8A sinkhole``~
+A large hole has opened up in the Main Tinnel system, creating this huge
+muddy sinkhole. Filled with wet silt and sand, the sinkhole has eroded the
+nice brick floor of the tunnel, depositing everything down to this lower
+level. A small path leads westward, or you can climb back up the sinkhole.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11076
+D4
+~
+~
+0 0 11074
+S
+#11076
+`8A sandy passageway``~
+The crunch of sand under your feet indicates you are within a strange section
+indeed of the Underdark. The sand is yellow, not brown like all of the dirt that
+surrounds you, and all of the walls and floors seem to be covered with it. Salty
+water leaks in slowly from overhead.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11077
+D1
+~
+~
+0 0 11075
+S
+#11077
+`8A sandy passageway``~
+The crunch of sand under your feet indicates you are within a strange section
+indeed of the Underdark. The sand is yellow, not brown like all of the dirt that
+surrounds you, and all of the walls and floors seem to be covered with it. Salty
+water leaks in slowly from overhead.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11076
+D3
+~
+~
+0 0 11078
+S
+#11078
+`8Firmer ground``~
+You've come across firmer ground. There is much less sand here than before,
+and finally your footing is secure as you place it. A small pathway leads
+upward, or you can continue down the path to the west or east.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11077
+D3
+~
+~
+0 0 11079
+D4
+~
+~
+0 0 11166
+S
+#11079
+`8Above a small pit``~
+You are overlooking a small pit that leads to the underground tunnels further
+below the underdark. The pit seems to have been carefully excavated, as if
+someone were looking for something, or perhaps just creating an alternate pass
+underneath the floor.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11078
+D5
+~
+~
+0 0 11080
+S
+#11080
+`8In the pit``~
+You stand within a deep pit. A small rope leads upward to a passageway, or
+you can walk further west. This pit seems rather recently dug out, as if one
+of the miners were looking for an alternate route, or perhaps something much
+more interesting.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11081
+D4
+~
+~
+0 0 11079
+S
+#11081
+`8A three-way intersection``~
+You have come across another three way junction. A small tunnel leads down,
+and from what you can see, it looks to be the main tunnel below you. Another
+path branches off to southward, leading only into darkness.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11080
+D2
+~
+~
+0 0 11169
+D5
+~
+~
+0 0 11082
+S
+#11082
+`8The Main Tunnel``~
+You have once again found yourself deep within the Main Tunnel System, after
+a long series of changes. The walls here are heavily reinforced, and the floor
+below you is neatly bricked with a rich, red brick. The tracks in the floor
+appear once again, and this place looks heavily traveled and used.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11083
+D4
+~
+~
+0 0 11081
+S
+#11083
+`8The Main Tunnel``~
+You have once again found yourself deep within the Main Tunnel System, after
+a long series of changes. The walls here are heavily reinforced, and the floor
+below you is neatly bricked with a rich, red brick. The tracks in the floor
+appear once again, and this place looks heavily traveled and used.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11082
+D2
+~
+~
+0 0 11084
+S
+#11084
+`8A drainage room``~
+This is a large, squarish room that was built to drain any floodwaters
+out of the main tunnel system. A large, locked grating leads downward, and
+you can hear rushing water below as it is added to the main waterline which
+leads into Dargoth.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11083
+D3
+~
+~
+0 0 11085
+D4
+~
+~
+0 0 11173
+S
+#11085
+`8The Main Tunnel``~
+You have once again found yourself deep within the Main Tunnel System, after
+a long series of changes. The walls here are heavily reinforced, and the floor
+below you is neatly bricked with a rich, red brick. The tracks in the floor
+appear once again, and this place looks heavily traveled and used.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11175
+D1
+~
+~
+0 0 11084
+D3
+~
+~
+0 0 11086
+S
+#11086
+`8The Main Tunnel``~
+You have once again found yourself deep within the Main Tunnel System, after
+a long series of changes. The walls here are heavily reinforced, and the floor
+below you is neatly bricked with a rich, red brick. The tracks in the floor
+appear once again, and this place looks heavily traveled and used.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11085
+D2
+~
+~
+0 0 11087
+S
+#11087
+`8Above a hole``~
+Once again, the Main Tunnel has crumbled, and someone has dug a small hole
+that leads downward into the gloom. You can make out a small ladder that can
+carry a man safely into the depths without fear of breaking anything important.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11086
+D5
+~
+~
+0 0 11088
+S
+#11088
+`8A wide passage``~
+You stand within a passage wide enough to drive a horsecart through. When
+the Main Tunnel collapsed, it seems the drow used this part of the tunnel to
+carry supplies, for several hundred feet of track have been lain down here
+to direct tunnel train carts to their proper locations.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11089
+D4
+~
+~
+0 0 11087
+S
+#11089
+`8A junction``~
+The tracks here continue to lead southward into the darkness, while
+another small ventilation duct seems to lead downward. You can feel
+the rush of air nearby, coming from some odd source. 
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11088
+D2
+~
+~
+0 0 11187
+D5
+~
+~
+0 0 11090
+S
+#11090
+`8Quickly moving air``~
+Air races about you at high velocity, as if being directed outward to some
+exhaust vent.  You clothes are whipped about you at high speed, and dust
+and sand race by you, pelting you with debris.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11091
+D4
+~
+~
+0 0 11089
+S
+#11091
+`8Quickly moving air``~
+Air races about you at high velocity, as if being directed outward to some
+exhaust vent.  You clothes are whipped about you at high speed, and dust
+and sand race by you, pelting you with debris.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11090
+D3
+~
+~
+0 0 11092
+S
+#11092
+`8A drainage tunnel``~
+The rush of air can be heard heavily nearby, as if it were exhausting to
+some outside vent. This tunnel seems to be used primarily for drainage from
+the Northern Passage, which leads north of this intersection. A small hole
+has been dug downward.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11195
+D1
+~
+~
+0 0 11091
+D5
+~
+~
+0 0 11093
+S
+#11093
+`8Deep underground``~
+You are in perhaps the deepest section of the Underdark. You can tell
+because the rock around you is very hard and solid, and seems to have
+been chiseled out by hand, over a long period of time. The caves seem
+solid enough, and the passage continues to the west.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11094
+D4
+~
+~
+0 0 11092
+S
+#11094
+`8A granite tunnel``~
+You are in perhaps the deepest section of the Underdark. You can tell
+because the rock around you is very hard and solid, and seems to have
+been chiseled out by hand, over a long period of time. The caves seem
+solid enough, and the passage continues to the west.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11093
+D3
+~
+~
+0 0 11095
+S
+#11095
+`8A granite tunnel``~
+You are in perhaps the deepest section of the Underdark. You can tell
+because the rock around you is very hard and solid, and seems to have
+been chiseled out by hand, over a long period of time. The caves seem
+solid enough, and the passage continues to the west.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11094
+D4
+~
+~
+0 0 11096
+S
+#11096
+`8A small drop``~
+You stand above a small drop, that seems to lead downward in the darkness.
+The tunnel below is not visible to you in the gloom that lie ahead. In the
+air, you can smell what seems to be saltwater, and hear birds crying? Have
+you gone insane already?
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11097
+D5
+~
+~
+0 0 11095
+S
+#11097
+`8A cement landing``~
+A small ladder here leads upwards toward a large grate. Sun filters down
+from above, making your squint your eyes in pain. The ladder is corroded
+and worn from the sands of time, but you think freedom is nearby...just
+ahead.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11096
+D4
+~
+~
+0 0 11098
+S
+#11098
+`8A rising passage``~
+A small ladder here leads upwards toward a large grate. Sun filters down
+from above, making your squint your eyes in pain. The ladder is corroded
+and worn from the sands of time, but you think freedom is nearby...just
+ahead.
+~
+~
+0 9 0 0
+D4
+~
+~
+0 0 11099
+D5
+~
+~
+0 0 11097
+S
+#11099
+`8The End of the Tunnel``~
+You have come to the furthest westward reach of the Underdark. A small grating
+leads upward, and you can see bright sun shining through the grates, searing
+your eyes which have grown accustom to the darkness. This is the end of the
+tunnel! What a long trip it has been...
+~
+~
+0 9 0 0
+D5
+~
+~
+0 0 11098
+S
+#11100
+`8A muddy tunnel``~
+Pools of mud bubble softly within rough depressions of the caves surface.
+The walls around you are caked with the aged mud.  Its origin, as seemingly
+everything in these caves, is unknown.  The end of this hall begans to widen
+into a small curving corridor.  To your south lay the scalding mud, and
+ahead darkness.  
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11101
+D2
+~
+~
+0 0 11004
+S
+#11101
+`8A bend in the tunnel``~
+Small bits of vegetation and fungi grow in unchecked patterns throughout
+the now twisting corridors.  The all encompassing smell of feces begins to
+fill your nostrils.  Southward lay pools of mud, and to your west the
+passage continues.  
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11100
+D3
+~
+~
+0 0 11102
+S
+#11102
+`8A sewer drainage``~
+Sewage: yay.  You are wading through pools and mounds of anothers
+excrement.  It smells altogethor completely different from what you would
+like to be smelling, and the wet slop of your steps creates a perfect
+imagery of the bathroom habits of those above.  Well, not perfect.  You have
+great trouble deciphering exactly what it is that you are stepping in,
+considering most dont defecate in such interesting colors.  
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11103
+D1
+~
+~
+0 0 11101
+S
+#11103
+`8A sewer drainage``~
+You are wading through pools and mounds of anothers excrement.  It
+smells altogethor completely different from what you would like to be
+smelling, and the wet slop of your steps creates a perfect imagery of the
+bathroom habits of those above.  Hollow echoes of trickling water originate
+from beneath you, and spiral into the drain.  
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11102
+D5
+~
+~
+0 0 11104
+S
+#11104
+`8A washout``~
+What once was a proud home to mounds and mounds of sewage is now simply a
+hollowed basin and makeshift passageway.  Brownish water from above glides
+along the walls in intricate patterns, and is the obvious source of the
+erosion present here.  The ground beneath you is only a thin sheet of rock. 
+Your weight here makes small depressions on the already sinking ground.  
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11105
+D4
+~
+~
+0 0 11103
+S
+#11105
+`8A dank passage``~
+Humid gusts of air fill this otherwise wet and musty room with a silent
+calm, and it feels as if you are suffocating.  Small translucent wisps of
+fog shy from your path as you walk along just another passageway.  The rough
+tiling beneath you is covered with verdigrised metal shards.  
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11106
+D2
+~
+~
+0 0 11104
+S
+#11106
+`8A dank passage``~
+Humid gusts of air fill this otherwise wet and musty room with a silent
+calm, and it feels as if you are suffocating.  Small translucent wisps of
+fog shy from your path as you walk along just another passageway.  The rough
+tiling beneath you is covered with verdigrised metal shards.  
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11105
+D3
+~
+~
+0 0 11107
+S
+#11107
+`8A three way junction``~
+You are in a barren crossways.  It is hot and warm, and it smells like
+rotten muskrat.  A small spider walks across a large expanse of web on the
+cracked granite ceiling, he is your only freind.  Before you and behind you
+lay darkness.  
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11108
+D1
+~
+~
+0 0 11106
+D3
+~
+~
+0 0 11111
+S
+#11108
+`8A wet passageway``~
+It is wet and stinky.  And you begin to realize that the brownish liquid
+slowly dripping on you from the cracks above probably isnt a magic serum. 
+So completely lacking in magic, in fact, that you begin to feel ill after
+drinking it.  So ill, in fact, that you wet your pants..  Or is that someone
+elses urine?  
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11109
+D2
+~
+~
+0 0 11107
+S
+#11109
+`8Before a ladder``~
+You linger before this enchanting ladder.  Two ladders, since the broken
+and decaying wooden steps have seperated it into almost-touching sects. 
+Swarms of termites walk busily along the lower half, while the upper half
+seems untouched by time.  The latter ladder is what you have climbed down,
+and what will bring you to the top.  Its such a pretty ladder that you never
+want to leave it.  You want to stroke it and caress it.  You would take it
+with you, but you realize you may need it later.  You feel incompetent and
+insecure that this ladder will remain truthful to only you, as you would
+have it.  You know its surface by heart.  Does that mean anything?  Are you
+the only one?  It doesnt even write you anymore.  You love it, and so you
+must set it free.  Goodbye, ladder.  
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11108
+D4
+~
+~
+0 0 11110
+S
+#11110
+`8Below a manhole cover``~
+Within a small crawlspace below a metal grating, the spiders and worms
+crawl incessantly.  Sewage trickles into the passageways below.  Above you
+the footsteps and echoes of a populated area can be heard.  A small ladder
+descends into the dark.  
+~
+~
+0 9 0 0
+D5
+~
+~
+0 0 11109
+S
+#11111
+`8A slimy passage``~
+Slippidy slime, all the time.  Everywhere, anywhere, all over YOU.  As
+you make your way along this passage your progress is hindered by the
+plethora of dripping greenish-black sludge.  There are little slime monsters
+laughing at you, because you are stupid and cannot live comfortably in their
+ecosytem.  If you were a slime monster, you would be better off.  People
+would like you, and you would have a raw charisma only seen within slime.  
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11107
+D3
+~
+~
+0 0 11112
+S
+#11112
+`8A downslide``~
+The sludge and sewage and urine and dead rats here slowly drudge down an
+incline.  Small pops and the sound of stone on stone are evidence to deeper
+tunnels below you, but the opaque river cannot be penetrated.  
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11111
+D5
+~
+~
+0 0 11113
+S
+#11113
+`8Dripping water``~
+Around you the sound of dripping water fills your ears. The walls here
+are slick and damp from some underground source, and stalactites and
+stalagmites grow from the floor and ceiling of this natural cave. You
+can make out old footprints in the mud of the cave floor.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11114
+D4
+~
+~
+0 0 11112
+S
+#11114
+`8Dripping water``~
+Around you the sound of dripping water fills your ears. The walls here
+are slick and damp from some underground source, and stalactites and
+stalagmites grow from the floor and ceiling of this natural cave. You
+can make out old footprints in the mud of the cave floor.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11113
+D3
+~
+~
+0 0 11115
+S
+#11115
+`8A murky bend``~
+Around you the sound of dripping water fills your ears. The walls here
+are slick and damp from some underground source, and stalactites and
+stalagmites grow from the floor and ceiling of this natural cave. You
+can make out old footprints in the mud of the cave floor.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11116
+D1
+~
+~
+0 0 11114
+S
+#11116
+`8A darkened passage``~
+Meandering deeper into the tunnels, you find yourself walking along a
+dark passage. The walls here are carved from thick, black rock, that
+tend to dull both your light, and the very sound of your voice. You
+have never had a feeling of such solitude.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11117
+D2
+~
+~
+0 0 11115
+S
+#11117
+`8Below light``~
+The beams of light that penetrate from above now filter through the
+grainy dirt that surrounds you. The scent of dry earth fills your nose,
+and the darkness only grows thicker south of you. A small rope ladder
+leads upward here, toward a small landing.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11116
+D4
+~
+~
+0 0 11118
+S
+#11118
+`8Below a manhole cover``~
+You are just below a heavy metal covering, that covers a tunnel leading
+downward into darkness. A ladder is here, covered with rust from ages of
+being immersed in water. The ladder only leads deeper into the murk, and
+you seem to be able to hear howling nearby.
+~
+~
+0 9 0 0
+D4
+~
+manhole~
+ABM 0 3304
+D5
+~
+~
+0 0 11117
+S
+#11119
+`8A tiny crawlspace``~
+You dont know what this small tunnel was made for.  The heighth is equal
+to that of a small drow child.  The greasy and jet black moss clings to your
+skin as you maneuver through this infantile crevice.  Below you the floor
+opens into a solitary room.  
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11007
+D5
+~
+~
+0 0 11120
+S
+#11120
+`8Below a small crawlspace``~
+Mounds of dust coat the thick granite walls.  To your west a winding
+dusty passage curves farther than your eyes can see.  A faint dripping noise
+can be heard in the distance.  
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11121
+D4
+~
+~
+0 0 11119
+S
+#11121
+`8A dusty tunnel``~
+Thin wisps of ancient dust fill your nostrils as you enter this twisting
+corridor.  The granite ceiling provides an intricate display of cracks and
+crevices.  Tiny streams of icy water defy gravity, slowly twisting among
+this maze of rocky canals.  Occasionally the water slides down from the
+rocks above, creating a damp yet welcome impression upon the all too still
+dusty floor.  
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11120
+D3
+~
+~
+0 0 11122
+S
+#11122
+`8A dusty tunnel``~
+Thin wisps of ancient dust fill your nostrils as you enter this twisting
+corridor.  The granite ceiling provides an intricate display of cracks and
+crevices.  Tiny streams of icy water defy gravity, slowly twisting among
+this maze of rocky canals.  Occasionally the water slides down from the
+rocks above, creating a damp yet welcome impression upon the all too still
+dusty floor.  To your south the passage widens.  
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11121
+D2
+~
+~
+0 0 11123
+S
+#11123
+`8Broadening passages``~
+Towers of crawling fungi provide ample light for these expansive caverns.
+Every sound seems to echo across its vast base.  You walk within a maze of
+Aabahran's underdark.  To your north a dusty tunnel twists into oblivion.  
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11122
+D2
+~
+~
+0 0 11124
+S
+#11124
+`8Broadening passages``~
+Towers of crawling fungi provide ample light for these expansive caverns.
+Every sound seems to echo across its vast base.  You walk within a maze of
+Aabahran's underdark.  A hole in the floor leads into a small and unoccupied
+room, more tunnels are to your north.  
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11123
+D5
+~
+~
+0 0 11125
+S
+#11125
+`8A small square room``~
+A plain wooden room is not what you expected to find here.  Paintings of
+dragons and beholders line the walls, giving it a somewhat erie and ancient
+feel.  A small door is to your south, above you lies a hole leading into a
+broad passageway.  In the midst of the room is a small, comfy chair.  
+~
+~
+0 9 0 0
+D2
+~
+~
+AB 0 11126
+D4
+~
+~
+0 0 11124
+S
+#11126
+`8Below a small ladder``~
+Oh great, another venture into the sewers.  Rats infest every crevice of
+this room, cobwebs and gargantuan spiders line the walls.  Fecal matter is
+spread everywhere.  To your north lies a small and untouched wooden door.  
+~
+~
+0 9 0 0
+D0
+~
+~
+AB 0 11125
+D4
+~
+~
+0 0 11127
+S
+#11127
+`8Below a grate``~
+The smell of sewage is prominent within this dank and musty junction. 
+The room is filled with a dark colored water, and you can feel spiky fish
+glide past your legs.  In the corner a small ledge holds a ladder into a
+passage down from here.  
+~
+~
+0 9 0 0
+D5
+~
+~
+0 0 11126
+S
+#11128
+`8A narrow passage``~
+You find yourself shimmying down a very narrow, dangerous passage. The
+walls are very slick and coated with a thin sheen of slime and mud, making
+your traverse deeper very treacherous.
+~
+~
+0 9 0 0
+D3
+~
+~
+AB 0 11139
+D4
+~
+~
+0 0 11025
+D5
+~
+~
+0 0 11129
+S
+#11129
+`8A narrow passage``~
+You find yourself shimmying down a very narrow, dangerous passage. The
+walls are very slick and coated with a thin sheen of slime and mud, making
+your traverse deeper very treacherous.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11130
+D4
+~
+~
+0 0 11128
+S
+#11130
+`8A triple junction``~
+You stand amid a junction of three tunnels, with exist leading to
+the north, east, and south. The tunnel seems very old, and quite
+unused, judging by the lack of footprints in the dust, and the utter
+quiet which surrounds you.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11131
+D1
+~
+~
+0 0 11138
+D2
+~
+~
+0 0 11129
+S
+#11131
+`8A shallow branch-off``~
+The ceiling of this tunnel is very low, making you squat to move
+along. Covered with old spiderwebs, and thick dust, this part of
+the tunnel seems very unused, and rather old. Chunks of dirt seem
+to come off the walls as you walk, and you begin to wonder how secure
+this tunnel really is.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11130
+D3
+~
+~
+0 0 11132
+S
+#11132
+`8A rock tunnel``~
+The dusty tunnel has given way to heavy granite rock. The rock seems
+to have been blasted out ages ago, then forgotten entirely. The floor
+is hard packed mud, covered over with a layer of cave dust, that tends
+to leave footprints as you walk.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11133
+D1
+~
+~
+0 0 11131
+S
+#11133
+`8A rock tunnel``~
+The dusty tunnel has given way to heavy granite rock. The rock seems
+to have been blasted out ages ago, then forgotten entirely. The floor
+is hard packed mud, covered over with a layer of cave dust, that tends
+to leave footprints as you walk.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11134
+D2
+~
+~
+0 0 11132
+S
+#11134
+`8A rock tunnel``~
+The dusty tunnel has given way to heavy granite rock. The rock seems
+to have been blasted out ages ago, then forgotten entirely. The floor
+is hard packed mud, covered over with a layer of cave dust, that tends
+to leave footprints as you walk.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11135
+D2
+~
+~
+0 0 11133
+S
+#11135
+`8A deadend``~
+This seems to be an utter deadend. A small hole has been dug upwards,
+that is now covered over with a thick slab of basalt. South, the tunnel
+leads into darkness. A still, eerie quiet surrounds you as no sound
+seems to penetrate these dark corners of the tunnel.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11134
+D4
+~
+~
+0 0 11136
+S
+#11136
+`8An upward climb``~
+You find yourself climbing through a small service tunnel, that runs
+from the surface world deeper into the tunnels of the Underdark. The
+walls around you have been made recently from blasting, and the small
+blast holes are still visible in the heavy rock.
+~
+~
+0 9 0 0
+D4
+~
+~
+0 0 11137
+D5
+~
+~
+0 0 11135
+S
+#11137
+`8Below a manhole cover``~
+You are just below a heavy metal covering, that covers a tunnel leading
+downward into darkness. A ladder is here, covered with rust from ages of
+being immersed in water. The ladder only leads deeper into the murk, and
+you seem to be able to hear howling nearby.
+~
+~
+0 9 0 0
+D4
+~
+manhole~
+AB 0 1
+D5
+~
+~
+0 0 11136
+S
+#11138
+`8A venting duct``~
+You seem to have come into a large duct where fresh air is allowed
+to enter these tunnels, and allow toxis fumes to escape. Wind rushes
+past you as the warmer air of the tunnels rushed upward and outward,
+allowing cooler, fresh air to enter.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11130
+S
+#11139
+`8A dusty chamber``~
+This chamber seems to rather nonchalant. Just off of a nondescript
+passage, the chamber seems very, very old, and the entire room is
+covered in a thick, greasy dust. The floor is hard packed, and there
+seem to be several chairs and tables here, all underneath the thick
+blanket of dust.
+~
+~
+0 9 0 0
+D1
+~
+vault~
+AB 0 11128
+S
+#11140
+`8Rushing air``~
+Hot cave air races past you here, carrying with it dirt, grime,
+bits of sand, and all sorts of other debris. It seems there must
+be some sort of air vent nearby that is allowing all of this cave
+air to escape to the surface.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11141
+D2
+~
+~
+AB 0 11038
+S
+#11141
+`8Rushing air``~
+Hot cave air races past you here, carrying with it dirt, grime,
+bits of sand, and all sorts of other debris. It seems there must
+be some sort of air vent nearby that is allowing all of this cave
+air to escape to the surface.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11140
+D3
+~
+~
+0 0 11142
+S
+#11142
+`8Rushing air``~
+Hot cave air races past you here, carrying with it dirt, grime,
+bits of sand, and all sorts of other debris. It seems there must
+be some sort of air vent nearby that is allowing all of this cave
+air to escape to the surface.
+~
+~
+0 9 0 0
+D0
+~
+grating~
+AB 0 11143
+D1
+~
+~
+0 0 11141
+S
+#11143
+`8A small room``~
+You stand in a small, square cement room. A large steel ladder
+leads upward, and the room here is much brighter, forcing you to
+squint your eyes to see properly. You can make out another grate
+that leads eastward, and another lies southward.
+~
+~
+0 9 0 0
+D1
+~
+grate~
+AB 0 11147
+D2
+~
+~
+AB 0 11142
+D4
+~
+~
+0 0 11144
+S
+#11144
+`8Above a small ladder``~
+You are on a small cement pad. You can see bright sunlight shining
+in from the west, and the smell of fresh woods fills your nose, a
+stark contrast to the stench of the lower tunnels.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11145
+D5
+~
+~
+0 0 11143
+S
+#11145
+`8In a sunbeam``~
+You stand here, immersed in light from above. Your eyes have to
+squint to adjust to the light and dark contrast in the tunnel. A
+small ladder leads up, and a cement pad is resting to your east.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11144
+D4
+~
+~
+0 0 11146
+S
+#11146
+`8Below a large steel grate``~
+The passage above you seems to have been grown over by thick foilage and
+undergrowth.  There is no way to pass through magical or mundane.  
+~
+~
+0 9 0 0
+D5
+~
+~
+0 0 11145
+S
+#11147
+`^The Lair of the Craw Wurm``~
+You stand with the Lair of one of the most infamous creatures in all of
+the Underdark. The Wurm is a gigantic serpentine creature, who coils her
+self all about the room. Hisses can be heard as she rears back, and begins
+her attack to protect her young!
+~
+~
+0 9 0 6
+D3
+~
+~
+AB 0 11143
+S
+#11148
+`8A water main``~
+You have wandered into a massive pipe junction. The tunnel is huge, and
+seems to be designed to carry a massive amount of water. Now, though,
+the water that flows here only runs waist deep, and moves slowly. The
+tunnel seems to have been put here somewhat recently, and you can see
+a large arrow that says: 'Dargoth -> East 10mi.'.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11041
+D2
+~
+~
+0 0 11149
+S
+#11149
+`8Among sludge``~
+You stand knee-deep in the sludge taken from Dargoth's water main. The
+smell of aging dung fills your nose, and makes you very sick to your 
+stomach. As you walk, the feces has a tendency to stick to all of your
+clothing, ultimately, covering you in it. This is very unpleasant.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11148
+D3
+~
+~
+0 0 11150
+S
+#11150
+`8A leaking tunnel``~
+A steady drip of water leaks in from overhead, as if you were traveling
+in a tunnel that was built underwater. The water smells fresh, not salty,
+but it is successful in completely dousing you with water, and making your
+initial impression of this place somewhat of a dismal one.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11149
+D3
+~
+~
+0 0 11151
+S
+#11151
+`8A leaking tunnel``~
+A steady drip of water leaks in from overhead, as if you were traveling
+in a tunnel that was built underwater. The water smells fresh, not salty,
+but it is successful in completely dousing you with water, and making your
+initial impression of this place somewhat of a dismal one.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11150
+D3
+~
+~
+0 0 11152
+S
+#11152
+`8A leaking tunnel``~
+A steady drip of water leaks in from overhead, as if you were traveling
+in a tunnel that was built underwater. The water smells fresh, not salty,
+but it is successful in completely dousing you with water, and making your
+initial impression of this place somewhat of a dismal one.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11151
+D3
+~
+~
+0 0 11155
+D4
+~
+~
+0 0 11153
+S
+#11153
+`8On a ladder``~
+You are on a ladder leading deep into the Dargothn tunnel system, also
+known as the Underdark. The ladder is old, and covered with rust from the
+water that is constantly leaking in. You can hear something howling nearby.
+~
+~
+0 9 0 0
+D4
+~
+~
+0 0 11154
+D5
+~
+~
+0 0 11152
+S
+#11154
+`8Below a manhole cover``~
+You are just below a heavy metal covering, that covers a tunnel leading
+downward into darkness. A ladder is here, covered with rust from ages of
+being immersed in water. The ladder only leads deeper into the murk, and
+you seem to be able to hear howling nearby.
+~
+~
+0 9 0 0
+D4
+~
+manhole~
+AB 0 1
+D5
+~
+~
+0 0 11153
+S
+#11155
+`8Among howls``~
+The howling here has grown louder. You can make out something howling very
+nearby, but you can't quite place where it is coming from. The cries make
+your skin crawl, and the place you are is certainly doesn't add to the over
+all pleasantness of everything.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11152
+D2
+~
+mud~
+AB 0 11156
+S
+#11156
+`8The Lair of the Beast``~
+You stand within a disgusting lair. Gore, blood, and guts are thrown
+everywhere, all over the wall, and you see all races of corpses stacked
+here, from drow to duergar, to kobold, to human. The corpses rot and
+decompose here, food, and entertainment for the beast himself.
+~
+~
+0 9 0 0
+D0
+~
+~
+AB 0 11155
+S
+#11157
+`^A hot mineral pool``~
+Water crashes down all around you from the waterfall, which falls
+a good fifty feet from the ledge above, splashing down here, in a
+hot mineral pool. The water is warm, and steaming, and gives off
+an inviting glow, while the air around you is much like a steam room.
+~
+~
+0 9 0 6
+D4
+~
+~
+0 0 11054
+W 11054
+S
+#11158
+`8A ducting vent``~
+You are crawling up a small ducting vent. Small steps made for drow
+feet have been carved into the rock wall, making climing dicey, at
+best. You can see a small hatch lying above you, just outside of you
+reach.
+~
+~
+0 9 0 0
+D4
+~
+~
+0 0 11159
+D5
+~
+~
+0 0 11059
+S
+#11159
+`8Below a hatch``~
+You are below a small wooden hatch. The wood is rather dryrotted
+from years of exposure, but, despite that, it still seems rather
+solid. A small stairway carved into stone leads downward, into the
+dark tunnels that spread out below.
+~
+~
+0 9 0 0
+D4
+~
+hatch~
+AB 0 1
+D5
+~
+~
+0 0 11158
+S
+#11160
+`8A pathway branch``~
+Spiderwebs everywhere! They cling all over your body, wrapping into
+your face and eyes. As you breath, long strings of web get caught in
+your throat, and you work to free yourself from the sticky mass almost
+in vain. Fortunately, you don't see many spiders trapped in the webs,
+waiting to bite you.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11070
+D3
+~
+~
+0 0 11161
+S
+#11161
+`8A webby tunnel``~
+Spiderwebs everywhere! They cling all over your body, wrapping into
+your face and eyes. As you breath, long strings of web get caught in
+your throat, and you work to free yourself from the sticky mass almost
+in vain. Fortunately, you don't see many spiders trapped in the webs,
+waiting to bite you.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11160
+D2
+~
+web~
+AB 0 11162
+D3
+~
+~
+0 0 11163
+P GRALL 11161 100~
+S
+#11162
+`8The spider's lair``~
+You have found the source of all of the spider webs! A HUGE tarantula
+is here, nested up in layers of heavy webbing. All around it are corpses
+of all sorts of miscellaneous cave dwellers...Bats, moles...All drained
+of blood, leaving large, lifeless husks. Looks like you're next.
+~
+~
+0 9 0 0
+D0
+~
+~
+AB 0 11161
+S
+#11163
+`8Moving air currents``~
+Air billows around you here, blowing in gusts as it works to escape
+the darkness of the tunnels. You can feel cooler air from the ducting
+vent above wash over you, as it brings with is a cool fragrance of the
+outdoors to your nostrils.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11161
+D3
+~
+~
+0 0 11164
+S
+#11164
+`8Moving air currents``~
+Air billows around you here, blowing in gusts as it works to escape
+the darkness of the tunnels. You can feel cooler air from the ducting
+vent above wash over you, as it brings with is a cool fragrance of the
+outdoors to your nostrils.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11163
+D4
+~
+~
+0 0 11165
+S
+#11165
+`8Below a drainage``~
+A large culvert above you rushes rainwater downward into the tunnels
+here. Large grooves have been cut into the tunnels from years of the
+rushing water. Air billows around you, blowing in gusts as it works to
+escape the darkness of the tunnels. You can feel cooler air from above
+wash over you, bringing with it a cool scent of the outdoors.
+~
+~
+0 9 0 0
+D5
+~
+~
+0 0 11164
+S
+#11166
+`8A small ledge``~
+You have found yourself standing above the tunnels on a tiny ledge. You
+can see a crawlspace leads eastward and upward, while the floor of the
+tunnel lies several feet below you. The ledge here is made of dark clay,
+and you are quickly dirtied from crawling.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11167
+D5
+~
+~
+0 0 11078
+S
+#11167
+`8A very small crawlspace``~
+You manage to wriggle through a very small crawlspace, and find
+yourself almost asphyxiated due to lack of air. You can see what
+seems to be a small den of sorts above you, and the exit to this
+little crawlspace is east.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11166
+D4
+~
+~
+0 0 11168
+P GRALL 11167 100~
+S
+#11168
+`8A den``~
+You seem to be within a very small fox den. A hole just large
+enough for you to crawl through is here, and the den is filled
+with a large red fox. Layers of grass and brush have been piled
+here, to add comfort to the fox den.
+~
+~
+0 9 0 0
+D5
+~
+~
+0 0 11167
+S
+#11169
+`8The maze entrance``~
+You stand at the entrance to a large maze. Around you, large slate walls
+rise up around you, and seem to be carved right from the cave wall itself.
+Whoever did this is surely a master craftsman, as the walls all seem to
+form single unions, with no seams whatsoever.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11081
+D3
+~
+maze~
+ABCF 11169 11170
+S
+#11170
+`8The Underground Maze``~
+Large walls rise up all around you. You are suddenly confused as to where
+you are. All of the walls begin to look the same. Did you just turn right,
+or left? It is almost as if these walls were all MADE to look exactly the
+same, in order to confuse travelers.
+~
+~
+0 9 0 0
+D1
+~
+~
+ABCF 0 11169
+D2
+~
+~
+0 0 11171
+S
+#11171
+`8The Underground Maze``~
+Large walls rise up all around you. You are suddenly confused as to where
+you are. All of the walls begin to look the same. Did you just turn right,
+or left? It is almost as if these walls were all MADE to look exactly the
+same, in order to confuse travelers.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11170
+D1
+~
+~
+0 0 11172
+D2
+~
+~
+0 0 11172
+S
+#11172
+`8The Underground Maze``~
+Large walls rise up all around you. You are suddenly confused as to where
+you are. All of the walls begin to look the same. Did you just turn right,
+or left? It is almost as if these walls were all MADE to look exactly the
+same, in order to confuse travelers.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11171
+D3
+~
+~
+0 0 11171
+S
+#11173
+`8On a small ladder``~
+You find yourself walking down a small ladder. Made of old, rotted out
+wood, the ladder creaks under your weight as you are on it. Below you
+lie the miles of tunnel of the Underdark, and above you the tunnel of
+quartz is radiant.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11174
+D5
+~
+~
+0 0 11084
+S
+#11174
+`8A quartzite tunnel``~
+You are surrounded by a marvel of nature! Large quartz crystals that have
+taken thousands of years to grow are placed all around the room, in varying
+sizes and shapes. They reflect back your torchlight in a spectrum of color,
+making little rainbows dance all around the room.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11173
+D4
+~
+~
+0 0 11178
+S
+#11175
+`8A rutty passage``~
+The passage turns here, giving you an extended view of the corridors
+ahead.  A strange stench wafts over you, and you suppress the gag reflex as
+you press on into the darkness.  
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11085
+D3
+~
+~
+0 0 11176
+S
+#11176
+`8A rutty passage``~
+The passage begins to open up, just as a hideously revolting stench
+overpowers you.  Like rotted horseflesh, your nostrils burn from the pungent
+and heinous aroma.  The strange lichens seem to be much more prevalent here
+as well.  You can only hope there is fresh air around here somewhere.  
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11177
+D1
+~
+~
+0 0 11175
+S
+#11177
+`8Walls of slime``~
+The thin layer of slime is more pronounced as the passage continues into
+the very depths of the earth.  No beings of the surface were meant to be
+here, of that you are certain.  You wonder just what this odd slime is, let
+The thin layer of slime is more pronounced as the passage continues into the
+very depths of the earth.  No beings of the surface were meant to be here,
+of that you are certain.  You wonder just what this odd slime is, let alone
+the fungus.  And what is that strange scratching sound that grows more
+pronounced with every step?  
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11179
+D2
+~
+~
+0 0 11176
+S
+#11178
+`8A small hole``~
+You find yourself stuck in a small hole. The ground below you opens up,
+and seems to reflect back your torchlight with a radiant glow. Above
+you, a small dirt passage leads back to the surface world.
+~
+~
+0 9 0 0
+D5
+~
+~
+0 0 11174
+S
+#11179
+`8Walls of slime``~
+The thin layer of slime is more pronounced as the passage continues into
+the very depths of the earth.  No beings of the surface were meant to be
+here, of that you are certain.  You wonder just what this odd slime is, let
+alone the fungus.  
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11177
+D4
+~
+~
+0 0 11180
+S
+#11180
+`8A small crest``~
+The tunnel crests here, and descends into the inky blackness below.  A
+thin film of moisture coats the walls, and up ahead you see a fine layer of
+slime caked the walls along with a strange, red fungus.  
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11181
+D5
+~
+~
+0 0 11179
+S
+#11181
+`8A hard, granite tunnel``~
+Here the corridor of ancient granite continues to plunge into the bowels
+of the earth like a warm dagger into a stick of butter.  Still the darkness
+is all around you, penetrating, consuming, enveloping your very being.  It
+is then you hear a faint sound to your east, like scratching, or did you?  
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11180
+D3
+~
+~
+0 0 11182
+S
+#11182
+`8A hard, granite tunnel``~
+A new tunnel forms here, obviously carved from the living rock by master
+engineers.  The cold granite is smooth and cool to the touch, and is quite
+well hewn.  Faint pools of water have formed on the tunnel floor, and seem
+to have seeped down from the ceiling.  You wonder where the water above you
+has come from.  
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11183
+D1
+~
+~
+0 0 11181
+S
+#11183
+`8A mineshaft``~
+Once more this shaft continues to descend into the bowels of the earth,
+or travel to the south, where it links with yet another hand hewn shaft. 
+Scurrying rats scamble by your feet as you decide which direction to travel.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11182
+D4
+~
+~
+0 0 11184
+S
+#11184
+`8A mineshaft``~
+Travelling along the mine shift you have come to a small perpendicular
+abutment.  Darkness seeps all around you, and the faint sounds of a
+slithering beast can be heard in the distance.  
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11185
+D5
+~
+~
+0 0 11183
+S
+#11185
+`8A mineshaft``~
+The shaft continues to the south here, descending from the entrance above
+you.  The hand hewn walls are smooth and quite worn, as if travelled
+previously and by more then a few individuals.  
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11184
+D4
+~
+~
+0 0 11186
+S
+#11186
+`8A tunnel entrance``~
+As the tunnel unfolds before you, you cannot help but feel the emptiness
+and loneliness of the darkness begin to encompass you.  Your eyes begin to
+narrow as they adjust to the lack of light, and you try in vain to get your
+bearings.  
+~
+~
+0 9 0 0
+D5
+~
+~
+0 0 11185
+S
+#11187
+`8A meandering tunnel``~
+You are walking down a large tunnel. The flooring here is hard packed
+earth, and the walls are rough granite. You can still see small holes
+where the drow had placed blast charges to clear out sections of this
+tunnel. It seems to wind about aimlessly, as if the maker of the tunnel
+was under the influence of a fine wine.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11089
+D2
+~
+~
+0 0 11188
+S
+#11188
+`8A meandering tunnel``~
+You are walking down a large tunnel. The flooring here is hard packed
+earth, and the walls are rough granite. You can still see small holes
+where the drow had placed blast charges to clear out sections of this
+tunnel. It seems to wind about aimlessly, as if the maker of the tunnel
+was under the influence of a fine wine.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11187
+D3
+~
+~
+0 0 11189
+S
+#11189
+`8Above a fallout``~
+You stand amid a large pile of rubble. It looks as if a large segment
+of rock caved in here, leaving piles and slabs of heavy granite lying
+about haphazardly as if tossed by a large giant. A hole in the floor
+leads downward, and eastward, a tunnel winds off in the distance.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11188
+D5
+~
+~
+0 0 11190
+S
+#11190
+`8Down in a hole``~
+You are at the very bottom of a large hole. A tunnel carved from
+tertiary rock leads eastward, and above you, through a pile of
+heavy rubble, is a small ledge. This room is large enough for you
+to stand upright without bumping your head, and the room is square,
+and obviously recently carved.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 11191
+D4
+~
+~
+0 0 11189
+S
+#11191
+`8A hot tunnel``~
+Hard tertiary layers surround you as you find yourself deep within
+this hand-dug tunnel. It is hot in here, and you are quickly covered
+with a sheen of sweat. As you place your hands on the walls, you find
+them hot to the touch, as if you are walking through a vein of rock
+rick with thermal activity.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11190
+D3
+~
+~
+0 0 11192
+S
+#11192
+`8A hot tunnel``~
+Hard tertiary layers surround you as you find yourself deep within
+this hand-dug tunnel. It is hot in here, and you are quickly covered
+with a sheen of sweat. As you place your hands on the walls, you find
+them hot to the touch, as if you are walking through a vein of rock
+rick with thermal activity.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11191
+D2
+~
+~
+0 0 11193
+S
+#11193
+`8A hot tunnel``~
+Hard tertiary layers surround you as you find yourself deep within
+this hand-dug tunnel. It is hot in here, and you are quickly covered
+with a sheen of sweat. As you place your hands on the walls, you find
+them hot to the touch, as if you are walking through a vein of rock
+rick with thermal activity.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11192
+D4
+~
+~
+0 0 11194
+S
+#11194
+`8A dark hole``~
+You have fallen down a dark hole. Around you, walls made of soft
+earth surround you, and you can see tree roots poking out. The
+smell in the air is earthy, as a fresh dug grave would smell. A
+small tunnel leads downward, deeper into the tunnels.
+~
+~
+0 9 0 0
+D4
+~
+sand~
+ABM 0 25157
+D5
+~
+~
+0 0 11193
+S
+#11195
+`8The Northern Passage``~
+You find yourself walking what is commonly known as the Northern
+Passage. It is rather obvious here, because the tunnel is all newly
+hewn granite, with a flat, paved stone surface underneath. While the
+tunnel is still damp and musty like most of the Underdark, all of this
+part seems to be made of polished granite stone, recently made. You can
+even make out footprints in the dirt below you.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11196
+D2
+~
+~
+0 0 11092
+S
+#11196
+`8The Northern Passage``~
+You find yourself walking what is commonly known as the Northern
+Passage. It is rather obvious here, because the tunnel is all newly
+hewn granite, with a flat, paved stone surface underneath. While the
+tunnel is still damp and musty like most of the Underdark, all of this
+part seems to be made of polished granite stone, recently made. You can
+even make out footprints in the dirt below you.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 11197
+D2
+~
+~
+0 0 11195
+S
+#11197
+`8The Northern Passage``~
+You find yourself walking what is commonly known as the Northern
+Passage. It is rather obvious here, because the tunnel is all newly
+hewn granite, with a flat, paved stone surface underneath. While the
+tunnel is still damp and musty like most of the Underdark, all of this
+part seems to be made of polished granite stone, recently made. You can
+even make out footprints in the dirt below you.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 11198
+D3
+~
+~
+0 0 11196
+S
+#11198
+`8The Northern Passage``~
+You feel that you have neared much of the end of the Northern Passage.
+A small, hand dug tunnel leads upward, but otherwise, this may as well
+be a dead end. The tunnel leads southward, back the way you came. Only
+your torchlight seems to penetrate the shadows, and the rocks around you
+seem to constantly drip with moisture and slime.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 11197
+D4
+~
+~
+0 0 11199
+S
+#11199
+`8A secret hatchway``~
+Filth and dirt everywhere! You find yourself crawling upward through
+a small secret passageway. Light filters in above you from a small grate
+embedded in the surface area. Small handholes are all carved in the walls
+to allow you easier access to the surface. Below, the Northern Passage
+looms in the darkness.
+~
+~
+0 9 0 0
+D4
+~
+secret~
+ABM 0 7613
+D5
+~
+~
+0 0 11198
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 11037 spec_poison
+M 11051 spec_poison
+M 11052 spec_poison
+M 11053 spec_poison
+M 11147 spec_breath_fire
+M 11156 spec_cast_cleric
+M 11161 spec_poison
+M 11162 spec_poison
+M 11199 spec_thief
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 11101 5 11001 2
+M 0 11102 10 11001 2
+E 0 11001 0 17
+M 0 11101 5 11002 2
+M 0 11102 10 11002 2
+E 0 11001 0 17
+M 0 11101 5 11003 2
+M 0 11102 10 11003 2
+M 0 11103 10 11003 2
+M 0 11105 40 11003 2
+E 0 11001 0 17
+M 0 11103 10 11004 2
+M 0 11103 10 11005 2
+M 0 11011 6 11011 2
+M 0 11023 1 11023 1
+E 0 11176 0 5
+M 0 11071 6 11029 2
+M 0 11071 6 11031 2
+O 0 11163 0 11031
+O 0 11163 0 11033
+M 0 11035 20 11034 3
+E 0 11035 0 17
+M 0 11035 20 11035 3
+E 0 11035 0 17
+O 0 11163 0 11035
+M 0 11036 1 11036 1
+M 0 11037 1 11037 1
+E 0 11037 0 3
+E 0 11038 0 17
+O 0 11036 0 11037
+M 0 11035 20 11038 3
+E 0 11035 0 17
+M 0 11044 20 11038 2
+M 0 11044 20 11039 2
+M 0 11044 20 11040 2
+M 0 11044 20 11041 2
+M 0 11044 20 11042 2
+M 0 11044 20 11043 2
+M 0 11044 20 11044 2
+O 0 11045 0 11045
+P 0 11046 0 11045 1
+O 0 11048 0 11048
+M 0 11049 1 11049 1
+G 0 11049 0
+M 0 11051 6 11051 6
+M 0 11052 6 11051 6
+M 0 11053 6 11051 6
+M 0 11011 6 11052 2
+O 0 11056 0 11055
+O 0 11056 0 11056
+M 0 11061 5 11061 5
+M 0 11061 5 11062 5
+M 0 11011 6 11065 2
+M 0 11011 6 11066 2
+M 0 11069 6 11068 2
+M 0 11069 6 11069 2
+M 0 11070 10 11070 2
+M 0 11071 20 11071 2
+E 0 11044 0 17
+M 0 11071 20 11072 2
+E 0 11044 0 17
+M 0 11071 20 11073 2
+E 0 11044 0 17
+M 0 11071 20 11074 2
+E 0 11044 0 17
+M 0 11103 10 11100 2
+M 0 11105 40 11100 2
+M 0 11103 10 11101 2
+M 0 11104 6 11101 2
+M 0 11104 6 11102 2
+M 0 11104 6 11103 2
+M 0 11105 40 11105 2
+M 0 11105 40 11106 2
+M 0 11105 40 11107 2
+M 0 11105 40 11109 2
+M 0 11111 6 11111 2
+M 0 11111 6 11112 2
+M 0 11139 1 11139 1
+O 0 11139 0 11139
+M 0 11147 1 11147 1
+O 0 11147 0 11147
+E 0 11101 0 11
+M 0 11152 6 11150 2
+M 0 11152 6 11151 2
+M 0 11152 6 11152 2
+M 0 11156 1 11156 1
+E 0 11156 0 10
+O 0 11157 0 11157
+O 0 11054 0 11157
+O 0 11054 0 11157
+O 0 11054 0 11157
+M 0 11161 20 11161 4
+M 0 11162 1 11162 1
+E 0 11162 0 7
+M 0 11168 1 11168 1
+M 0 11169 1 11169 1
+G 0 11169 0
+O 0 11172 0 11172
+O 0 11174 0 11174
+M 0 11198 4 11195 2
+M 0 11199 6 11196 2
+M 0 11198 4 11196 2
+E 0 11175 0 2
+E 0 11173 0 17
+M 0 11199 6 11197 2
+M 0 11198 4 11197 2
+E 0 11175 0 1
+E 0 11173 0 17
+M 0 11199 6 11198 2
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#11048
+mob echo You have been vomited from a craw wurm's stomach!
+teleport $n 11147
+~
+#11049
+mob echo You manage to slice through the lining of a Craw Wurm's stomach!
+mob echo You are spilled out along with all of the most recent contents...
+mob transfer all 11147
+at $n echoaround $n The stomach of $I parts and someone steps forth!
+~
+#11050
+if mobexists !wurm!
+     break
+else
+     mob echo You have been vomited from a craw wurm's stomach!
+     teleport $n 11147
+endif
+~
+#11051
+murder $n
+~
+#11147
+if rand 10
+     if mobexists stomach
+        emote hisses, and unhinges her jaw!
+        emote swallows $n whole!
+        teleport $n 11049
+        echo You see the figure of $n slide down into the Craw Wurm's belly!
+     else
+       break
+     endif
+else
+        emote hisses, and unhinges her jaw!
+        emote tries to swallow $n, but fails.
+endif
+~
+#11148
+if mobexists stomach
+     break
+else
+     mob echo As a Craw Wurm's stomach is split open, it dies from internal injuries!
+     remove all
+     drop all
+     mob attrib $i timer = 0
+endif
+~
+#11149
+mob echo As a wurm dies, its stomach contents are spilled forth!
+~
+#0
+
+M 11035 1 thalos_drow.prg NL
+M 11037 1 mouse.prg NL
+M 11051 1 snake.prg NL
+M 11052 1 snake.prg NL
+M 11053 1 snake.prg NL
+M 11061 1 bat.prg NL
+M 11104 1 sewer_mudmonster.prg NL
+M 11139 1 gargoyle.prg NL
+M 11152 1 frog.prg NL
+M 11152 1 quest_toad.prg NL
+M 11161 1 spider.prg NL
+M 11162 1 spider.prg NL
+M 11168 1 fox.prg NL
+M 11199 1 slave.prg NL
+S
+
+
+
+
+#OBJPROGS
+#11049
+obj echo You manage to open the lining of the wurm's stomach and escape!
+gteleport $n 11147
+obj force $n drop !tummy!
+~
+#11101
+obj cast 'fly' $n
+~
+#11156
+if isworn $i
+  obj echoat $t You cut yourself on $I edge! 
+  obj echoat $t $I' slash `1grazes`` you.
+  obj echoaround $t $I' slash `1grazes`` $T.
+  obj damage $t 3 5 kill
+endif
+~
+#11162
+if affspell $n 'poison'
+  break
+endif
+if isworn $i
+  obj echo $I writhes as a thin cloud of poison shoots forth! 
+  obj cast 'poison'
+endif
+~
+#0
+
+#ROOMPROGS
+#11049
+if mobhere stomach
+     break
+else
+     room echo You slide immediately back out of the Wurm's stomach.
+     room gteleport all 11147
+endif
+~
+#11054
+if getdelay > 0
+  break
+endif
+if affected $n flying
+     room echoaround $n As the waterfall carries $n over the ledge, $e takes flight just in time!
+     room echoat $n As the waterfall carries you over the ledge, you take flight just in time!
+     break
+endif
+if affspell $n 'fly'
+     room echoaround $n As the waterfall carries $n over the ledge, $e takes flight just in time!
+     room echoat $n As the waterfall carries you over the ledge, you take flight just in time!
+else
+     room echoat $n You are swept over the the ledge by the waterfall!
+     room echoaround $n $n is swept over the the ledge by the waterfall!
+     room force $n yell Whhhhhhhhooooooooooooooaaaaaaahhhhhhhh!!!
+     room echoat $n You land with a colossal splash in a pool of mineral water!
+     room echoat $n Your ungraceful swan dive `1DISMEMBERS`` you!
+     room delay 24
+     room damage $n 30 50
+     room transfer $n 11157
+endif
+~
+#11161
+room echoat $n You work to free yourself from layers of spider web!
+room echoaround $n $n works to free $mself from layers of spider web!
+~
+#11167
+room echoat $n You manage to wriggle through the crawlspace.
+~
+#0
+
+#$

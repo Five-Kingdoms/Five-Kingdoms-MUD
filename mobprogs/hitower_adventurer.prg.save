@@ -1,0 +1,30 @@
+>greet_prog 50~
+if ishome ($i)
+
+endif
+~
+>rand_prog 10~
+if ishome ($i)
+	say Can you show me how to get out of here?
+endif
+~
+>speech_prog p follow~
+if ishome ($i)
+	stand
+	follow $n
+endif
+~
+>entry_prog 100~
+if isindoor ($i)
+	tell self shit
+else
+	say Thank you for rescuing me!
+	fol self
+	if rand (50)
+		say To show my appreciation...
+		c mass
+	endif
+endif
+~
+|
+

@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -59,7 +59,7 @@ BOUNTY_DATA* bounty_list = NULL;
 
 /* attatches an objec to a bounty bid and puts it in a bounty room */
 void obj_to_bbid( OBJ_DATA* obj, BBID_DATA* bbid ){
-  
+
   if (obj == NULL || bbid == NULL)
     return;
   else if (obj->in_room )
@@ -94,7 +94,7 @@ void obj_from_bbid( OBJ_DATA* obj ){
   }
   if (obj->in_room && obj->in_room->vnum == ROOM_VNUM_BOUNTY )
     obj_from_room( obj );
-  
+
   if ( obj == bbid->obj )
     bbid->obj = obj->next_bidobj;
   else{
@@ -114,7 +114,7 @@ void obj_from_bbid( OBJ_DATA* obj ){
   obj->bbid = NULL;
 }
 
-  
+
 /* creates/destroys bounty bids, we do not use lists for this */
 BBID_DATA* new_bbid(void){
   BBID_DATA* pBb = (BBID_DATA*) malloc( sizeof( *pBb ));
@@ -140,7 +140,7 @@ void free_bbid( BBID_DATA* pBb ){
     return;
 
   free_string( pBb->name );
-  
+
   pBb->next = NULL;
 
   free( pBb );
@@ -154,7 +154,7 @@ BOUNTY_DATA *new_bounty(){
     if (bounty_free == NULL)
 	pB = alloc_perm(sizeof(*pB));
     else
-    { 
+    {
       pB = bounty_free;
       bounty_free = bounty_free->next;
     }
@@ -164,7 +164,7 @@ BOUNTY_DATA *new_bounty(){
 
     pB->time_stamp	= 0;
     pB->name		= str_empty;
-    
+
     VALIDATE(pB);
     return pB;
 }
@@ -213,7 +213,7 @@ void add_bounty( BOUNTY_DATA* pb ){
     victim->pcdata->pbounty = pb;
   }
 }
-	
+
 
 /* removes a bounty from the bounty list */
 bool rem_bounty( BOUNTY_DATA* pb ){
@@ -267,7 +267,7 @@ void bid_from_bounty( BBID_DATA* bbid ){
   bbid->bounty = NULL;
   bbid->next = NULL;
 }
-  
+
 /* adds a single bounty bid onto a bounty */
 BBID_DATA* bid_to_bounty( BBID_DATA* bbid, BOUNTY_DATA* bounty ){
   if (bbid == NULL || bounty == NULL)
@@ -335,7 +335,7 @@ BBID_DATA* add_bounty_bid( BBID_DATA* new_bbid, char* name){
     bounty = new_bounty();
 
     bounty->next	= NULL;
-    
+
     bounty->name	= str_dup( name );
     bounty->time_stamp	= mud_data.current_time;
     bounty->bids	= new_bbid;
@@ -361,7 +361,7 @@ BBID_DATA* add_bounty_bid( BBID_DATA* new_bbid, char* name){
   }
   else
     return bid_to_bounty( new_bbid, bounty );
-  
+
   return NULL;
 }
 
@@ -397,7 +397,7 @@ BOUNTY_DATA* make_bounty_list( BOUNTY_DATA* bounties, bool fGold, bool fObj){
     /* at this point val has a total comparison for this bounty */
     /* we cheat and put it in new bounties time stamp */
     new_bount->time_stamp = val;
-    
+
     /* ordered insert */
     if (bounties == NULL){
       bounties = new_bount;
@@ -443,7 +443,7 @@ void show_top_10( CHAR_DATA* ch ){
     obj[count][0] = '\0';
     cp[count][0] = '\0';
   }
-  /* we perform three similiar operations to build a linked list 
+  /* we perform three similiar operations to build a linked list
      with sorted entries according to: gold, cp, and objects
      After each build we enter the top 10 entries into the array
      destroy the list and do the next top 10
@@ -462,7 +462,7 @@ void show_top_10( CHAR_DATA* ch ){
     BOUNTY_DATA* b = bounties;
     bounties = b->next;
     free_bounty( b );
-  }  
+  }
   /* CP */
   bounties = make_bounty_list( bounties, FALSE, FALSE );
   count = 0;
@@ -476,7 +476,7 @@ void show_top_10( CHAR_DATA* ch ){
     BOUNTY_DATA* b = bounties;
     bounties = b->next;
     free_bounty( b );
-  }  
+  }
   /*OBJ */
   bounties = make_bounty_list( bounties, FALSE, TRUE );
   count = 0;
@@ -491,7 +491,7 @@ void show_top_10( CHAR_DATA* ch ){
     BOUNTY_DATA* b = bounties;
     bounties = b->next;
     free_bounty( b );
-  }  
+  }
 /* print the top out */
   send_to_char("TOP 10 BOUNTIES:\n\r", ch);
   send_to_char("Place  Gold      Cabal Pts.  Object Lvl.\n\r", ch);
@@ -499,11 +499,11 @@ void show_top_10( CHAR_DATA* ch ){
   for (count = 0; count < max_10; count++){
     sendf( ch, "%2d.    %-10s %-10s  %-10s\n\r",
 	   count + 1,
-	   gold[count] [0] ? gold[count] : "", 
-	   cp[count] [0] ? cp[count] : "", 
+	   gold[count] [0] ? gold[count] : "",
+	   cp[count] [0] ? cp[count] : "",
 	   obj[count] [0] ? obj[count] : "");
   }
-}  
+}
 void do_top10( CHAR_DATA* ch, char* argument ){
   show_top_10( ch );
 }
@@ -546,7 +546,7 @@ int get_buyout_cost( BOUNTY_DATA* pBounty ){
   int place_cost = 0;
   int cp_cost = 0;
   int cost = 0;
-  
+
 
 
   /* get the highest place first */
@@ -565,7 +565,7 @@ int get_buyout_cost( BOUNTY_DATA* pBounty ){
     BOUNTY_DATA* b = bounties;
     bounties = b->next;
     free_bounty( b );
-  }  
+  }
   /* CP */
   bounties = make_bounty_list( bounties, FALSE, FALSE );
   count = 0;
@@ -582,7 +582,7 @@ int get_buyout_cost( BOUNTY_DATA* pBounty ){
     BOUNTY_DATA* b = bounties;
     bounties = b->next;
     free_bounty( b );
-  }  
+  }
   /*OBJ */
   bounties = make_bounty_list( bounties, FALSE, TRUE );
   count = 0;
@@ -600,7 +600,7 @@ int get_buyout_cost( BOUNTY_DATA* pBounty ){
     BOUNTY_DATA* b = bounties;
     bounties = b->next;
     free_bounty( b );
-  }  
+  }
 
   /* we have the lowest spot on top 10, if its 0, 1, or 2 we return negative */
   if (place < 3)
@@ -637,7 +637,7 @@ int get_buyout_cost( BOUNTY_DATA* pBounty ){
     cost = cp_cost;
 
   return cost;
-}  
+}
 
 /* shows a bounty to a character with all its bids */
 void show_bounty( CHAR_DATA* ch, BOUNTY_DATA* bounty, bool fGold, bool fObj ){
@@ -696,7 +696,7 @@ void show_bounty( CHAR_DATA* ch, BOUNTY_DATA* bounty, bool fGold, bool fObj ){
 	  OBJ_DATA* obj;
 	  int max_obj = 1;
 	  int tot_level = 0;
-	  
+
 	  for (obj = cur->obj; obj; obj = obj->next_bidobj ){
 	    max_obj++;
 	    tot_level += obj->level;
@@ -705,7 +705,7 @@ void show_bounty( CHAR_DATA* ch, BOUNTY_DATA* bounty, bool fGold, bool fObj ){
 	}
 	else
 	  key = cur->cp;
-	
+
 	/* we now have a key and value to compare */
 	if (val > key)
 	  break;
@@ -760,13 +760,13 @@ void show_bounty( CHAR_DATA* ch, BOUNTY_DATA* bounty, bool fGold, bool fObj ){
     free_bbid( bbid );
   }
 }
-      
-    
-	
 
-      
 
-  
+
+
+
+
+
 void show_bbid( CHAR_DATA* ch, BBID_DATA* bbid ){
   OBJ_DATA* obj;
   char buf[MSL];
@@ -774,7 +774,7 @@ void show_bbid( CHAR_DATA* ch, BBID_DATA* bbid ){
   if (ch == NULL || bbid == NULL)
     return;
 
-  sendf(ch, 
+  sendf(ch,
 	 "Gold  : %-10ld %s%s: %-10d\n\r",
 	bbid->gp,
 	ch->pCabal ? capitalize(ch->pCabal->currency) : "CP",
@@ -795,9 +795,9 @@ void show_bbid( CHAR_DATA* ch, BBID_DATA* bbid ){
     send_to_char("\n\r", ch );
   }
 }
-  
-    
-  
+
+
+
 /* MAIN BOUNTY FUNCTION TO CREATE BOUNTY BIDS */
 /* Syntax:
 
@@ -818,7 +818,7 @@ void do_bounty( CHAR_DATA* ch, char* argument ){
     return;
   else
     argument = one_argument( argument, arg );
-  
+
   if (IS_NULLSTR( arg )){
     if (ch->pcdata->pbbid){
       send_to_char("Your current bounty bid is composed of:\n\r", ch );
@@ -846,8 +846,8 @@ void do_bounty( CHAR_DATA* ch, char* argument ){
     }
     else{
       ch->pcdata->pbbid->cp = val;
-      sendf( ch, "Your bounty now includes %d %s%s.\n\r", ch->pcdata->pbbid->cp, 
-	     ch->pCabal->currency, 
+      sendf( ch, "Your bounty now includes %d %s%s.\n\r", ch->pcdata->pbbid->cp,
+	     ch->pCabal->currency,
 	     ch->pcdata->pbbid->cp == 1 ? "" : "s" );
     }
     return;
@@ -956,7 +956,7 @@ void do_bounty( CHAR_DATA* ch, char* argument ){
       send_to_char("That object has not been placed into the bounty you are working on.\n\r", ch );
       return;
     }
-    
+
     obj_from_bbid( obj );
     ch->pcdata->pbbid->level --;
 
@@ -1050,9 +1050,9 @@ void do_bounty( CHAR_DATA* ch, char* argument ){
       sendf(ch, "The minimum gold bid on %s is %ld gold.\n\r", victim->name, min_gp);
     }
     else if (ch->pCabal && bbid->cp && bbid->cp < min_cp){
-      sendf(ch, "The minimum %s bid on %s is %ld %ss.\n\r", 
-	    ch->pCabal->currency, 
-	    victim->name, 
+      sendf(ch, "The minimum %s bid on %s is %ld %ss.\n\r",
+	    ch->pCabal->currency,
+	    victim->name,
 	    min_cp,
 	    ch->pCabal->currency);
     }
@@ -1115,7 +1115,7 @@ void do_bounty( CHAR_DATA* ch, char* argument ){
 	  CP_CAB_GAIN( pCab, -coffers );
 	}
       }
-	
+
       CP_GAIN( ch, -cost, TRUE );
       ch->in_bank -= new_bid->gp;
 
@@ -1212,7 +1212,7 @@ void do_bounty( CHAR_DATA* ch, char* argument ){
 	break;
       }
     }
-    
+
     if (pRouge == NULL){
       send_to_char("You lack the contacts neccessary.\n\r", ch);
       return;
@@ -1221,7 +1221,7 @@ void do_bounty( CHAR_DATA* ch, char* argument ){
       send_to_char("There are no bounties associated with you.\n\r", ch );
       return;
     }
-    
+
     /* get the cost */
     cost = get_buyout_cost( bounty );
 
@@ -1237,8 +1237,8 @@ void do_bounty( CHAR_DATA* ch, char* argument ){
 
     if (IS_NULLSTR(argument)){
       if (coffers){
-	sendf(ch, "The bribe will cost you %d %s%s with %d being covered by [%s] coffers.\n\r", 
-	      cost, 
+	sendf(ch, "The bribe will cost you %d %s%s with %d being covered by [%s] coffers.\n\r",
+	      cost,
 	      pCab->currency,
 	      cost == 1 ? "" : "s",
 	      coffers,
@@ -1246,7 +1246,7 @@ void do_bounty( CHAR_DATA* ch, char* argument ){
       }
       else{
 	sendf(ch, "The bribe will cost %d %s%s.\n\r",
-	      cost, 
+	      cost,
 	      pCab->currency,
 	      cost == 1 ? "" : "s");
       }
@@ -1324,7 +1324,7 @@ void return_bbid( BBID_DATA* bbid, char* name ){
 
   bool fPurge = FALSE;
   int count = 0;
-  
+
   if (bbid == NULL || IS_NULLSTR(name))
     return;
 
@@ -1351,7 +1351,7 @@ void return_bbid( BBID_DATA* bbid, char* name ){
   /* transfer items from bid */
   for (obj = bbid->obj; obj; obj = obj_next){
     obj_next = obj->next_bidobj;
-    
+
     obj_from_bbid( obj );
 
     if (!can_take(owner, obj)){
@@ -1367,7 +1367,7 @@ void return_bbid( BBID_DATA* bbid, char* name ){
   /* return gold */
   owner->in_bank += bbid->gp;
   CP_GAIN(owner, bbid->cp, TRUE );
-  
+
   if (fPurge && count)
     SET_BIT(owner->pcdata->messages, MSG_BOUNTY_RETURN);
   else if (count){
@@ -1462,14 +1462,14 @@ void fwrite_bounty( FILE* fp, BOUNTY_DATA* bounty ){
   sprintf(pFile, PLAYER_DIR"%s", bounty->name);
   if ( -1 == stat( pFile, &Stat))
     return;
-  
+
   fprintf( fp, "#BOUNTY %s~ %ld\n", bounty->name, bounty->time_stamp );
 
   /* save bids */
   for (bbid = bounty->bids; bbid; bbid = bbid->next ){
     fwrite_bbid( fp, bbid );
   }
-  
+
   /* terminate */
   fprintf( fp, "#End\n" );
 
@@ -1556,9 +1556,10 @@ void load_bounties(){
     fp = fopen( NULL_FILE, "r" );
     fclose (fp);
     perror( path );
+    fpReserve = fopen( NULL_FILE, "r" );
     return;
   }
-  
+
   for (;;){
     letter		= fread_letter( fp );
     if ( letter != '#' ){
@@ -1592,7 +1593,7 @@ void fulfill_bounty( CHAR_DATA *ch, CHAR_DATA *victim, char* name){
   AFFECT_DATA* paf;
 
   const int cab_share = 75;	//percent taken by cabal,  if not allied kill
-  
+
   long gold	= 0;
   int	cp	= 0;
   int cp_cab	= 0;
@@ -1619,7 +1620,7 @@ void fulfill_bounty( CHAR_DATA *ch, CHAR_DATA *victim, char* name){
       return;
     }
   }
-   
+
   /* set transfer for cp/gp, if this is not an allied kill, then cabal takes cab_share% to coffers */
   gold = pAlly ? bbid->gp : cab_share * bbid->gp / 100;
   cp_cab = pAlly ? 0 : cab_share * bbid->cp / 100;
@@ -1628,12 +1629,12 @@ void fulfill_bounty( CHAR_DATA *ch, CHAR_DATA *victim, char* name){
   /* transfer bounty items to killer */
   for (obj = bbid->obj; obj; obj = obj_next){
     obj_next = obj->next_bidobj;
-    
+
     obj_from_bbid( obj );
 
     if (!can_take(ch, obj)){
       sendf( ch, "You could not use %s.\n\rIt has been sold to help widowed families of %s%s%s.\n\r",
-	     obj->short_descr, 
+	     obj->short_descr,
 	     ch->pCabal ? "[" : "",
 	     ch->pCabal ? ch->pCabal->who_name : victim->name,
 	     ch->pCabal ? "]" : "");
@@ -1651,7 +1652,7 @@ void fulfill_bounty( CHAR_DATA *ch, CHAR_DATA *victim, char* name){
 
     if (cp_cab > 0){
       sprintf( buf, "%d %s%s %s been directed to our coffers from %s's bounty.",
-	       cp_cab, 
+	       cp_cab,
 	       ch->pCabal->currency,
 	       cp_cab == 1 ? "" : "s",
 	       cp_cab == 1 ? "has" : "have",
@@ -1698,7 +1699,7 @@ void fulfill_bounty( CHAR_DATA *ch, CHAR_DATA *victim, char* name){
     strcat(to, " ");
   }
   sprintf( buf, warn_table[WARN_BOUNTY].subj, victim->name );
-  
+
   do_hal( to, buf, warn_table[WARN_BOUNTY].text, NOTE_NOTE);
 
   /* get rid of contract */
@@ -1740,12 +1741,12 @@ void do_bounty_collect( CHAR_DATA *ch, char *argument ){
   AFFECT_DATA* paf = NULL;
   CHAR_DATA *victim;
   OBJ_DATA *obj;
-  
+
   char arg[MIL];
   char buf[MSL];
-  
+
   argument = one_argument( argument, arg);
-  
+
   if ((ch->pCabal == NULL || !IS_CABAL(ch->pCabal, CABAL_ROUGE))
       && ( (paf = affect_find(ch->affected, gen_contract)) == NULL
 	   || !paf->has_string
@@ -1763,10 +1764,10 @@ void do_bounty_collect( CHAR_DATA *ch, char *argument ){
       BBID_DATA* bbid;
       char arg2[MIL];
       argument = one_argument( argument, arg2);
-  
+
       if (paf)
 	strcpy(arg2, paf->string);
-	  
+
       if (IS_NULLSTR( arg2 )){
 	send_to_char("List the bounty for who?\n\r", ch );
 	return;
@@ -1815,22 +1816,22 @@ void do_bounty_collect( CHAR_DATA *ch, char *argument ){
     sendf(ch, "%s is not standing still enough for you to collect a bounty.\n\r", PERS2(victim));
     return;
   }
-  
+
   sprintf(buf,"AAAAAAGGGGGHHHHH!!!!");
   do_yell(victim, buf);
-  
+
   obj = create_object(get_obj_index(OBJ_VNUM_SEVERED_HEAD),ch->level);
-  
+
   sprintf(buf, obj->short_descr, victim->name);
   free_string( obj->short_descr );
   obj->short_descr = str_dup( buf );
-  
+
   sprintf(buf, obj->description, victim->name);
   free_string( obj->description );
   obj->description = str_dup( buf );
-  
+
   obj_to_char(obj, ch);
-  
+
   act("You slice off $N's head and place it in a bag.",ch,NULL,victim,TO_CHAR);
   act("$n slices off $N's head and places it in a bag.",ch,NULL,victim,TO_NOTVICT);
   act("$n slices off your head!",ch,NULL,victim,TO_VICT);
@@ -1839,7 +1840,7 @@ void do_bounty_collect( CHAR_DATA *ch, char *argument ){
   send_to_char( "You have been `1KILLED`` by a Bounty Hunter!\n\r",victim );
 
   fulfill_bounty( ch, victim, IS_NULLSTR( argument ) ? "1" : argument );
-  
+
   _raw_kill( ch, victim, FALSE );
   affect_strip(ch, skill_lookup("analyze"));
 }
@@ -1857,7 +1858,7 @@ CABAL_DATA* is_bounty_priority( BOUNTY_DATA* bounty, CABAL_DATA* pCabal ){
 
   /* check bids in the bounty for alliances with this rouge cabal */
   for (bbid = bounty->bids; bbid; bbid = bbid->next ){
-    if (bbid->pCabal && IS_CABAL(bbid->pCabal, CABAL_ALLIANCE) && get_parent(bbid->pCabal) != pCab 
+    if (bbid->pCabal && IS_CABAL(bbid->pCabal, CABAL_ALLIANCE) && get_parent(bbid->pCabal) != pCab
 	&& get_pact(bbid->pCabal, pCab, PACT_ALLIANCE, FALSE) != NULL)
       return bbid->pCabal;
   }
@@ -1878,14 +1879,14 @@ bool bounty_covered( CHAR_DATA* victim ){
     return FALSE;
   }
 }
-  
+
 
 /* command used to get a contract on a bounty rouge cabals cannot cover */
 void do_contract( CHAR_DATA* ch, char* argument ){
   CHAR_DATA* vch;
   CHAR_DATA* mob;
   int count = 0;
-  
+
   if (ch->pCabal && IS_CABAL(ch->pCabal, CABAL_ROUGE)){
     send_to_char("Use \"who bounty\" to see bounties avaliable.\n\r", ch);
     return;
@@ -1899,7 +1900,7 @@ void do_contract( CHAR_DATA* ch, char* argument ){
     bool fFound = FALSE;
     send_to_char("Following bounties can be contracted out to you:\n\r", ch );
     for (vch = player_list; vch; vch = vch->next_player){
-      if (vch->pcdata->pbounty && vch != ch && is_pk_abs(ch, vch) 
+      if (vch->pcdata->pbounty && vch != ch && is_pk_abs(ch, vch)
 	  && can_see(ch, vch) && !bounty_covered( vch )){
 	sendf( ch, "%2d. %s\n\r", ++count, vch->name);
 	fFound = TRUE;
@@ -1927,11 +1928,11 @@ void do_contract( CHAR_DATA* ch, char* argument ){
   }
   else{
     AFFECT_DATA af, *paf;
-    
+
     af.type	= gen_contract;
     af.level	= ch->level;
     af.duration	= 72;
-    
+
     af.where	= TO_AFFECTS;
     af.bitvector= 0;
     af.location	= APPLY_NONE;
@@ -1964,20 +1965,20 @@ bool can_collect( BOUNTY_DATA* bounty, CHAR_DATA* ch ){
     return FALSE;
   else if ( och->pCabal != NULL && IS_CABAL(och->pCabal, CABAL_ROUGE) )
     return TRUE;
-  else if ( (paf =  affect_find(och->affected, gen_contract)) != NULL 
-	    && paf->has_string 
-	    && !IS_NULLSTR(paf->string) 
+  else if ( (paf =  affect_find(och->affected, gen_contract)) != NULL
+	    && paf->has_string
+	    && !IS_NULLSTR(paf->string)
 	    && is_name(paf->string, bounty->name)){
     return TRUE;
   }
   else
     return FALSE;
 }
-	    
+
 bool check_rouge_bounty( CHAR_DATA* och, int pen ){
   CHAR_DATA* ch = och;
   CHAR_DATA* vch;
-  CABAL_DATA* pc; 
+  CABAL_DATA* pc;
   char buf[MIL];
   int sn = skill_lookup("analyze");
 
@@ -1986,19 +1987,19 @@ bool check_rouge_bounty( CHAR_DATA* och, int pen ){
 
   if (ch->pCabal == NULL || !IS_CABAL(ch->pCabal, CABAL_ROUGE))
     return FALSE;
-  else 
+  else
     pc = get_parent( ch->pCabal);
 
 /* penalty for not collecting bounties */
   for (vch = player_list; vch; vch = vch->next_player){
-    if (vch->pcdata->pbounty 
+    if (vch->pcdata->pbounty
 	&& !is_affected(vch, gsn_noquit )
-	&& can_see(ch, vch) 
+	&& can_see(ch, vch)
 	&& is_pk(ch, vch)
 	&& can_collect(vch->pcdata->pbounty, ch))
       break;
   }
-  
+
   return (vch != NULL);
 
 /* Viri: no longer used */
@@ -2006,7 +2007,7 @@ bool check_rouge_bounty( CHAR_DATA* och, int pen ){
     AFFECT_DATA *paf;
     int strike = 0;
 
-    // give them three strikes 
+    // give them three strikes
     if ( (paf = affect_find(ch->affected, sn)) == NULL){
       AFFECT_DATA af;
 
@@ -2031,9 +2032,9 @@ bool check_rouge_bounty( CHAR_DATA* och, int pen ){
       sprintf( buf, "%s has ignored a bounty!", ch->name);
       cabal_echo( pc, buf );
       distribute_cps(ch, ch->pCabal, pen * CPTS, TRUE );
-    
-      // if person is out of cps we demote them 
-      // we subtract the gain since reward takes effect on tick, not instantenously 
+
+      // if person is out of cps we demote them
+      // we subtract the gain since reward takes effect on tick, not instantenously
       if ((GET_CP( ch ) < 1) && ch->pcdata->rank > RANK_NEWBIE ){
 	char sub[MIL];
 	sprintf( buf, "Due to disregard for bounties, %s has been demoted.", PERS2(ch) );
@@ -2047,11 +2048,11 @@ bool check_rouge_bounty( CHAR_DATA* och, int pen ){
       }
     }
     else{
-      sprintf( buf, "%s can ignore %d more %s.", 
+      sprintf( buf, "%s can ignore %d more %s.",
 	       ch->name,
 	       (3 - strike),
 	       (3 - strike) == 1 ? "bounty" : "bounties");
-      cabal_echo( pc, buf );      
+      cabal_echo( pc, buf );
     }
     return TRUE;
   }

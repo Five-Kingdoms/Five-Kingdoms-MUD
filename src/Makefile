@@ -6,7 +6,7 @@ all:		clean clands
 CC      = gcc
 PROF    = -ggdb
 NOCRYPT = 
-C_FLAGS =  -pipe -Wall -O2 $(PROF) $(NOCRYPT)
+C_FLAGS =  -pipe -Wall -g $(PROF) $(NOCRYPT)
 L_FLAGS =  $(PROF)
 LIBS =
 

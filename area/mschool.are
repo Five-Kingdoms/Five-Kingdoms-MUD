@@ -1,13 +1,13 @@
 #AREADATA
-Name The Mud School~
+Name the Mud School~
 Pref ~
-Builders ~
+Builders Crypticant~
 VNUMs 7700 7799
 Max_Bastions 0
 Credits { ALL } Staff    The Mud School~
 Security 9
 Startroom 0
-Flags 1072
+Flags 48
 Crimes 6 1 0 0 0 1 3 
 End
 
@@ -33,18 +33,18 @@ ABa A 0 0 0 0
 0 0 0 0
 0 ACDQ 0 0
 stand stand none none~
-1400
+21
 AHMV ABCDEFGHIJK medium 0
 #7701
-The Keeper of the Seals~
-The Keeper of the Seals~
-The Keeper of the Seals stands here, watching over the Younglings.
+The Headmistress~
+The Headmistress~
+The Headmistress stands here, watching over the students.
 ~
 You see before you a very attractive woman, clad in white Adept robes. She
 bears encircling her waist a long silver chain, denoting her Keeper status.
 With long flowing golden hair, a porcelain face, and attractive green eyes
 that you feel like you could easily get lost in, you understand that this
-Keeper is perhaps the most important person on Academy Grounds, save for
+Keeper is perhaps the most important person on University Grounds, save for
 the Headmaster himself, whom she reports progress directly to.
 ~
 human~
@@ -53,26 +53,10 @@ ABZ AC 0 0 0 0
 -4 -4 -4 -4
 DEJMNX ABCDGHKLNPQ 0 0
 stand stand female none~
-0
+30
 AHMV ABCDEFGHIJK huge 0
 P RANDOM 7700 25~
 P GREET 7701 100~
-#7702
-keeper first room~
-The Keeper of the First Room~
-The Keeper of the First Room is here
-~
-~
-human~
-AL A 0 0 0 0
-50 0 10d5+5 0d0+0 0d0+0 none
-0 0 0 0
-0 0 0 0
-stand stand none none~
-0
-AHMV ABCDEFGHIJK medium 0
-P SPEECH 7702 teach~
-P GREET 7703 100~
 #7703
 statue~
 (no short description)~
@@ -85,12 +69,12 @@ A A 0 0 0 0
 0 0 0 0
 0 0 0 0
 stand stand none none~
-0
+2
 AHMV ABCDEFGHIJK medium 0
 #7704
-priest cleric~
+the priest of Discord~
 the priest of Chaos~
-The priest of Chaos is ready to help you practice.
+A priest of Discord is ready to help you practice.
 ~
 ~
 human~
@@ -99,12 +83,12 @@ ABCKQTV A 0 0 0 0
 -15 -15 -15 -15
 ACEFHIKN ABCD 0 0
 stand stand male none~
-125
+13
 AHMV ABCDEFGHIJK medium 0
 #7705
 adept cleric~
-the adept of Tamaneril~
-An adept of Tamaneril is here, training younglings.
+the adept of Markul~
+An adept of Markul is here, training younglings.
 ~
 Encased in a shimmering sphere of light, the Adept who stands before
 you is at one with his own holiness. Garbed in simple attire, an aura
@@ -119,10 +103,10 @@ ABJQT A 0 0 0 0
 -15 -15 -15 -15
 ACEFHIKN ABCD 0 0
 stand stand male none~
-125
+20
 AHMV ABCDEFGHIJK medium 0
 #7713
-statue raght~
+statue Beronor~
 (no short description)~
 (no long description)
 ~
@@ -133,12 +117,12 @@ A A 0 0 0 0
 0 0 0 0
 0 0 0 0
 stand stand none none~
-0
+2
 AHMV ABCDEFGHIJK medium 0
 #7716
-Drumlin headmaster academy~
+Drumlin headmaster University~
 Drumlin~
-Lord Drumlin, the Academy Headmaster, rests at a desk here.
+Lord Drumlin, the University Headmaster, rests at a desk here.
 ~
 ~
 human~
@@ -147,13 +131,13 @@ ABTVZ A 0 0 0 0
 -30 -30 -30 -30
 EFHJK AB D 0
 stand stand male none~
-300
+30
 AHMV ABCDEFGHIJK medium 0
 P GREET 7716 100~
 #7717
 adept cleric~
-the adept of Mircea~
-An adept of Sirant is here, selling magical items.
+the adept of Tiradel~
+An adept of Tiradel is here, selling magical items.
 ~
 ~
 human~
@@ -162,12 +146,12 @@ ABCQTV A 0 0 0 0
 -15 -15 -15 -15
 ACEFHIKN ABCD 0 0
 stand stand male none~
-125
+17
 AHMV ABCDEFGHIJK medium 0
 #7718
 adept cleric~
-the adept of Sirant~
-An adept of Sirant is here, selling sundries.
+the adept of Tiradel~
+An adept of Tiradel is here, selling sundries.
 ~
 ~
 human~
@@ -176,7 +160,7 @@ ABCQTV A 0 0 0 0
 -15 -15 -15 -15
 ACEFHIKN ABCD 0 0
 stand stand male none~
-125
+13
 AHMV ABCDEFGHIJK medium 0
 #7724
 gate guardian creature~
@@ -208,12 +192,12 @@ AGU A 0 0 0 0
 7 7 7 10
 FHNR 0 0 0
 stand stand either none~
-0
+8
 AHMV ABCDEFGHIJK medium 0
 #7737
-goblin trainee~
-a goblin trainee~
-A goblin trainee snarls at you.
+kobold footsoldier~
+a kobold footsoldier~
+A kobold footsoldier snarls at you.
 ~
 Short, ugly, with big, misshapen ears and head, this disgusting
 little creature seems to be placed here only to die by your sword.
@@ -224,12 +208,12 @@ AGU A 0 0 0 0
 7 7 7 9
 CDFR 0 0 0
 stand stand either none~
-5
+3
 AGV ACDEFHJK medium 0
 #7738
-plasm beast~
-a plasm beast~
-A plasm beast slithers along the ground here.
+green ooze~
+a green ooze~
+A green ooze slithers along the ground here.
 ~
 You don't see much but slime about it.
 ~
@@ -239,12 +223,12 @@ AGU A 0 0 0 3713
 10 10 10 10
 0 0 0 0
 stand stand none none~
-0
+7
 AGQc ADEFGKM tiny 0
 #7743
-hyena~
-a spotted hyena~
-A spotted hyena paws at the ground here.
+jackal~
+a jackal~
+A jackal paws at the ground here.
 ~
 Nasty beast, with sharp teeth, and an odorous stench.
 ~
@@ -254,23 +238,23 @@ ACG A 0 0 -50 0
 8 8 8 10
 EFHNR 0 0 0
 stand stand none none~
-0
+2
 AGV ACDEFHJKUV medium 0
 #7771
-lizard~
-a frilled lizard~
-A frilled lizard is sunning itself here.
+cockatrice~
+a cockatrice~
+A cockatrice is sunning itself here.
 ~
 Looks like a strange beast, with a large, skin collar, and sharp teeth.
 ~
-lizard~
-AGU A 0 0 -100 0
+lizardman~
+AGU A J 0 -100 0
 2 0 2d2+20 0d0+100 1d4+1 bite
 8 8 8 10
 R 0 L I
 stand stand either none~
-0
-AGXc ACDEFHKLQ small 0
+2
+0 ABCDEFGHIJKLQXc small 0
 #7774
 Gholynn priest healer mudschool~
 Gholynn the priest~
@@ -286,7 +270,7 @@ ABTVZa A 0 0 0 0
 -30 -30 -30 -30
 EFHJK AB D 0
 stand stand male none~
-300
+25
 AHMV ABCDEFGHIJK medium 0
 P GRALL 7774 30~
 #7777
@@ -305,7 +289,7 @@ ABGe A DFJTU 0 0 0
 2 3 2 1
 0 AB DJ PX
 stand stand male none~
-0
+12
 AHMV ABCDEFGHIJK medium 0
 P SPEECH 7777 me~
 P SPEECH 7778 *~
@@ -324,7 +308,7 @@ ABFGUe A 0 0 0 0
 0 0 0 0
 AI AB CD C
 stand stand none none~
-0
+10
 AMV ABCDEFGHIJKLMNOPQUVWXY large 0
 #7780
 mage instructor archmage nikolaus~
@@ -338,7 +322,7 @@ ABCQTV A J 0 0 0
 -15 -15 -15 -15
 ACEFHIKN ABCD 0 BEP
 stand stand male none~
-125
+16
 AHMV ABCDEFGHIJK medium 0
 P SPEECH 7717 battle~
 P SPEECH 7715 conduct~
@@ -353,7 +337,7 @@ Blademaster Farrahn, the Instructor, is standing here.
 ~
 This massive stone giant was once a powerful member of the famed Warmasters,
 but has since retired in relative peace to help young warriors learn about
-the Arts of War within the Academy.
+the Arts of War within the University.
 ~
 stone~
 ABCQTV A 0 0 0 0
@@ -361,7 +345,7 @@ ABCQTV A 0 0 0 0
 -15 -15 -15 -15
 ACEFHIKN ABCD D EP
 stand stand male none~
-125
+19
 AHMV ABCDEFGHIJK medium 0
 P SPEECH 7713 conduct~
 P SPEECH 7712 tips~
@@ -369,6 +353,24 @@ P SPEECH 7711 history~
 P SPEECH 7710 battle~
 P SPEECH 7783 notes~
 P GREET 7780 100~
+#7799
+greeter girard~
+Girard~
+Girard the Greeter is here, welcoming you to Mirlan.
+~
+Girard is a whisper thin man, with a wiry little moustache. He's a
+rather silly looking man, but of course, he's only temporary, so
+there wasn't much need to make him attractive.
+~
+human~
+AB A DF 0 0 0
+60 100 4d6+6000 0d0+0 4d6+25 pound
+-20 -20 -20 -18
+0 0 0 0
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+P GREET 7799 100~
 #0
 
 
@@ -384,6 +386,7 @@ furniture AT 0
 0 0 100 P
 E
 chapter9~
+`8--==```! COMPILED BY CRYPTICANT```8 ==--``
 ~
 E
 chapter~
@@ -401,7 +404,7 @@ E
 chapter7~
 `8--==`` `&Commands and Actions`` `8==--``
  
-There are many, many commands available within The Forsaken Lands. As you
+There are many, many commands available within The Age of Mirlan. As you
 progress, you will learn their usefulness, but we will give you a brief overview
 of basic commands and their uses.
  
@@ -411,7 +414,7 @@ of basic commands and their uses.
 4) `!Get, Take`` - Picks up an item
 5) `!Wear, Wield, Hold`` - Wears or wields an item.
 6) `!Scan (Direction, or all)`` - Scans rooms in various directions ahead
-7) `!Quit`` - Leave the Forsaken Lands.
+7) `!Quit`` - Leave the Age of Mirlan.
 8) `!Delete + Delete`` - Remove your character permanently
 9) `!Practice`` - View your current skills and percentages
 10) `!Train`` - View your current trains and stats
@@ -428,7 +431,7 @@ They are not paid for their services here, and are here to encourage, support,
 and, when needed, discipline. Their word is absolute, and talking back to,
 insulting, or harassing any Immortal, or abusing any channel with 'spam' will
 only get you banned. The following is a list of acts expressly forbidden by the
-Staff of The Forsaken Lands:
+Staff of the Age of Mirlan:
  
 1) `&Any advertisement for any other MUD or service.``
 2) `&Spamming, excess profanity, or harassment.``
@@ -450,8 +453,8 @@ E
 chapter4~
 `8--==`` `&Seeking Knowledge`` `8==--``
  
-For more information on Aabahran: The Forsaken Lands, visit our extremely
-large resource at `!http://forsakenlands.net``.
+For more information on the Age of Mirlan, visit our extremely
+large resource at `!http://www.ageofmirlan.com``.
 ~
 E
 chapter3~
@@ -507,7 +510,7 @@ MULTI for any further clarification.
 ~
 E
 book~
-Welcome, Traveler. You have entered the Realms of Aabahran. Before you continue,
+Welcome, Traveler. You have entered the Realms of Mirlan. Before you continue,
 you must familiarize yourself with the laws and rules of the land before you can
 proceed. This book has several chapters of express interest to you, and they must
 all be read and digested before you continue further. To view a chapter, simply
@@ -558,21 +561,27 @@ trash 0 0
 0 0 0 0 0
 0 0 0 P
 #7705
-statue malignant~
-a statue of malignant~
-An iron statue of Malignant is standing here.~
+statue Ixtaros~
+a statue of Ixtaros~
+An iron statue of Ixtaros is standing here.~
 unknown~
 furniture 0 0
 0 0 0 0 0
 60 0 100 P
 E
 statue~
-Malignant took a new form in the midst of the fifth age. Aspiring unto the
-heavens to watch the ancient battle between Chaos and Order, the light and
-the shadows.. within eternity. As with all of the Demonic kin, Malignant
-bears the traits of his name. A cruelty is spoken of by those who have
-known him, A black and chaotic heart within the broken form of a robed
-winged figure.
+Ixtaros is the son of Morgorin and Veshalma and is the father of the Lords
+of Strife.  Ixtaros is responsible for war in all its barbarous fury and
+bloodletting, unlike Tiradels code of chivalry and honor.  Ixtare, the red
+moon created by Sahaeyeh, was taken in battle by Ixtaros and now proclaims
+his power to the heavens.
+        
+Temples to Ixtaros vary but many include means of viewing Ixtare 
+at its fullness.  Nearly all the humanoid races worship Ixtaros as their 
+patron deity, especially the more warlike ones, like gnolls and hobgoblins.
+
+Human sacrifice is very common among such tribes. Clerics of Ixtaros are
+expected to be in the thick of battle.  
 ~
 #7706
 fountain~
@@ -587,7 +596,7 @@ fountain~
 As a new traveler, you will find many nuances of life here interesting.
 You will also notice that, as you travel, you will become affected by
 hunger and thirst. It is a wise idea to keep with you at all times some
-means of sustenance, as well as a water skin of sorts. Around Thera, many
+means of sustenance, as well as a water skin of sorts. Around Mirlan, many
 cities have fountains, however, while traveling into the mountains or
 forests, water and food become much less available. Your hunger and your
 thirst will not cause any noticable damage or injury to you before you
@@ -599,62 +608,67 @@ other parts, such as guts, may be poisoned, so be cautious!
 P RANDOM 7706 50~
 #7707
 statue god~
-a statue of Verdigar~
-A statue of Verdigar, patron god of Nature, stands here.~
+a statue of Gaemina~
+A statue of Gaemina, patron god of Nature, stands here.~
 stone~
 furniture 0 0
 0 0 0 0 0
 60 0 100 P
 E
 statue~
-Verdigar is the patron God of rangers, druids and all others who
-respect and love Nature. It is not uncommon among the small folk
-to utter a small prayer to him upon entering his domain on any
-undertaking. There is no record of him ever having been a mortal,
-but even so he has many mortal traits, being well known for his
-love of strong drink and pretty girls. According to rumors he
-has been known to engage in drinking contests with mortals that
-he deems worthy of such an honor. Known as a fierce fighter, a
-superb hunter and a great carouser, some think that Verdigar
-often assumes a mortal form to walk the lands in pursuit of his
-favorite activities. Aside from these "qualities" he is utterly
-devoted to Nature and will not stand aside to see the Natural
-Order corrupted, even though he takes no particular interest in
-the conflicts between his immortal siblings. Even so, few, even
-among his fellow Gods, would risk angering the Lord of Nature,
-for his wrath is a terrible thing to behold.
+Gaemina is a primal god.  One of the original three.  She is the mother off all
+Mirlan.  Her sphere is Nature, Life and Being.  While she does not usually have
+many followers those that are her followers are generally of the Druid, Ranger
+or Lycan's.  Those that do worship her never commune with her directly by more
+so through the power of Mirlan.
 ~
 #7708
-statue virigoth~
-a statue of Virigoth~
-An onyx statue of Virigoth is standing here.~
+statue Morgorin~
+a statue of Morgorin~
+An onyx statue of Morgorin is standing here.~
 onyx~
 furniture 0 0
 0 0 0 0 0
 60 0 100 P
 E
 statue~
-Virigoth is the embodiment of death and decay in Thera, often deity of 
-choice for necromancers, executioners and morticians. It represents the 
-inevitable end of all that is natural and the counterbalance to forces of
-life. Those who worship It, worship not the act of death but the inescapable 
-collapse of life and its eventual end which allows the cycle of rebirth and 
-creation to continue. It holds power over all things of Thera that ceased
-their natural life, and not even its name is spoken out loud in fear of 
-sickness and death it brings. The foreboding mark of a snarling skull is a 
-common symbol around graveyards of Thera. Engraved for protection of the 
-deceased to ward of grave robbers, alive and not. It is rumored that a whole 
-cult exists in Virigoth's name, yet to even enquire about its existence is to 
-court death.
+Morgorin is the personification of all the evil in the world as well as being
+the Lord of the Dead.  He is one of the four great deities of Mirlan, being the
+brother of Beronor and half brother to Pajumet and Markul.  Morgorin is active
+among mortals, sowing evil and discord among them, directly as well as
+directing his numerous servants.  The followers of Beronor, Rasazra, and Tiradel
+actively oppose many of his schemes yet his plots are everywhere.
+
+The worship of Morgorin usually takes two forms.  For most people, he is a god
+to be feared and placated, thus those not of evil alignment honor him in his
+role as guardian of the dead.  Others serve him directly as the Evil One, hoping
+for power and favor.  Ceremonies to Morgorin are held in underground temples,
+oftentimes located within cities or their burial grounds.
 ~
 #7709
-statue chaos~
-a statue of Bryntryst~
-A basalt statue of Bryntryst is standing here.~
+statue crypticant~
+a statue of Crypticant~
+A basalt statue of Crypticant is standing here.~
 basalt~
 furniture 0 0
 0 0 0 0 0
 60 0 100 P
+E
+statue~
+Shadowspawn's hand is in nearly all aspects of Mirlan. It dabbles in 
+each species, each guild, each cabal, whether the denizens know of 
+it or not. He is the aberration of all that is evil, and the 
+embodiment of pure Chaos. Those who have come before Shadowspawn have 
+called him 'Crypticant', in the Old Tongue meaning 'Heart of Darkness'. 
+It is said that utterance of Shadowspawn's name will bring about the 
+Fifth Cataclysm. Rumor, perhaps. However, those who have come before 
+Shadowspawn have been forever changed. Those who have lived, anyway.
+To this day he breeds beings of Chaos, new Demons come forth every day 
+from his hidden nexus and taint the planet with evil and pain. His 
+friends are only pain, misery, grief, agony...This is all he knows, all 
+he believes. To know of Shadowspawn is to know true terror and fear...To 
+know Shadowspawn...is to know Death.
+~
 #7710
 statue warrior~
 a massive statue~
@@ -665,143 +679,123 @@ furniture 0 0
 60 0 100 P
 E
 plaque~
-Aabahran is a very violent place. All around, wars are fought, and
+Mirlan is a very violent place. All around, wars are fought, and
 people die following their causes. For now, as a youngling, you are
 safe from the harm of other players. However, once you attain the
 tenth rank, a <`1PK``> will appear by your name as well as the names
 of other individuals who you can harm, and likewise, can harm you.
 At level 10, you may attack and kill, and as well be killed. However,
 not until the rank of 15 can you loot the corpses of fallen players.
-Playerkilling (PK) ranges are highly balanced here in Aabahran, so
+Playerkilling (PK) ranges are highly balanced here in Mirlan, so
 there is seldom the chance of an unfair kill. Be highly wary of
 those who may wish to cause you harm, by using 'WHO PK' and 'WHERE
 PK' after you reach the rank of 10.
 ~
 #7711
 statue god~
-a statue of Athaekeetha~
-A bronze statue of Athaekeetha is standing here.~
+a statue of Dormicc~
+A bronze statue of Dormicc is standing here.~
 bronze~
 furniture 0 0
 0 0 0 0 0
 60 0 100 P
 E
 statue~
-The High God Athaekeetha was once a famed mortal warrior of the duergar race.
-Known for his intense hatred of magic, he was the original founder of the
-cabal known as Warmasters.  A master in all forms of physical combat,
-Athaekeetha has never known fear nor has he known defeat.
- 
-He demands the same courage from his followers as he leads them to victory
-verses the mage.  Legend has it that in the dark days during the invasions
-Athaekeetha ran ahead of his army and alone destroyed scores of the undead
-wizards.  He embodies the perfection that can be achieved through mastery
-of tactics and the right amount of insanity.
- 
-If you seek the respect of Athaekeetha then become a master of your own body.
-Learn of its strengths, its weaknesses, and never attempt to rely on
-other wordly forces.  Athaekeetha is worshipped for the true warrior that
-he is.  Bloodthirsty yet disciplined, like a sword made of well tempered
-steel he watches Thera from the heavens as his Warmasters enforce his will.
+Dormicc is one of the youngest gods and was not born in the usual manner, but
+was created by Felana and Lojani to wander Mirlan and protect those who do
+likewise.  Dormicc disdains cities and towns, instead preferring to roam the
+wilderness aiding fellow travelers in need.
+
+Because of this wanderlust, temples of the Wandering God are small and
+located in wild areas away from civilization.  Few are staffed but all offer
+hospitality for they are kept well stocked with food, water, and fuel for those
+who require them.  It is not unusual to find clerics of Dormicc traveling with
+those of Arondos.
 ~
 #7712
-palison statue~
+Amathe statue~
 an ivory statue~
-An ivory statue of Palison is standing here.~
+An ivory statue of Amathe is standing here.~
 stone~
 furniture 0 0
 0 0 0 0 0
 60 0 0 P
 E
-Palison~
-In the early ages of Thera, A war of grand proportion expanded the 
-boundaries of existence. Once the chaos had ended and corpses of many 
-mortals had littered the land, the souls of the  warriors that carried 
-noble traits as honor, truth, and bravery took up a search for a lone 
-mortal  who carried the belief's the stood for. After many years of 
-searching a battle of chaos and death claimed many mortal souls, in the 
-end there stood few mortals. The souls of the noble warriors had found 
-their champion, a mortal name Palison. They claimed his body for the 
-betterment of all, consumed his life force and breathed a new force 
-into existence. Immortality had been given to this vessel named Palison, 
-driven by the rage of the fallen to over see peace with a new vengeance.
+Amathe~
+Amathe is the wife of Beronor and the mother of the Gods of 
+Weal.  It is she who is ever ready to offer healing and rest to her 
+husband and children in their struggles against the Lords of Strife.  
+Often she has healed the other gods as well, including the ones bent on 
+causing harm.
+
+Temples of Amathe are found in many areas and all are devoted to 
+healing and helping the less fortunate.  Offerings given to the goddess 
+are used to feed and clothe the poor.  Many of her clerics are pilgrims 
+and travel the countryside, dispensing aid to all who need it.
+
+Clerics of Amathe are the most revered of all their brethren for 
+the works they do.  They must always seek to aid those in need, even (or 
+especially) at their own expense.  They may fight if necessary but only in 
+self defense.
 ~
 #7713
-statue raght~
+statue Beronor~
 a granite statue~
-A granite statue of Raght is standing here.~
+A granite statue of Beronor is standing here.~
 granite~
 furniture 0 0
 0 0 0 0 0
 60 0 100 P
 E
-Raght~
-Never one to care much for the disputes of his brother and sister Gods,
-Raght is solely concerned with the preservation of order and the
-upholding of law within the civilized parts of Thera.
-Understanding the need for justice, he commands his followers to
-uphold the law in every decent city, and to protect the inhabitants
-that dwell within them.
-He too once fought along side the others during the great invasion,
-but only because of the danger that existed for the cities of Thera.
-Though not true enemies, it is said that Falthar and Raght are
-in constant disagreement over how the lands should be ruled.  Helaman
-insists on a kingdom being restored, while Raght refuses to
-relinquish the power that his Justice cabal has attained.  Thus,
-it is not uncommon to see the two mortal factions of these gods
-in a violent struggle.
-Though often reserved and silent, Raght possesses greatness in
-his own right.  Not one to be trifled with he is more than willing
-to meet any challenge to his power, though he forces himself to
-abide by the same laws that he has dictated to his followers.
+Beronor~
+Beronor, the Father, is the predominate deity of good and 
+the father of many of the other Gods of Weal.  They strive against the 
+plots of his brother, Morgorin, and that deitys lineage, known as the 
+Lords of Strife.  Beronor and Morgorin are the highest order of deities 
+short of the Primal Ones.
+
+Temples built to honor Beronor vary in structure but all share a 
+similar feature: a great golden dome topping the innermost sanctuary.  The 
+domes are pierced in such a way as to allow the sun to shine into the 
+temple on the solstices and equinoxes.  The motions of the sun are thought 
+to reflect the gods struggle against his dark brother.
+
+Clerics of Beronor are well known for their zeal in rooting out 
+and destroying evil.  
 ~
 #7714
-statue sirant~
+statue Tiradel~
 a marble statue~
-A marble statue of Sirant is standing here.~
+A marble statue of Tiradel is standing here.~
 unknown~
 furniture 0 0
 0 0 0 0 0
 60 0 100 P
 E
-sirant~
-He served his mortal life as the right and of his beloved King.  By far
-the most gallant of the Knights, Sirant used his amazing skills in battle
-to serve the kingdom that once reigned supreme over Thera.
-When Cormac died, part of Sirant died too.  Unwilling to replace the
-King he became an even more devout servant of Helaman.  It is said
-that he wandered the lands alone for over twenty years, righting
-the wrongs he found, and searching for the answers that his soul
-yearned for.
- 
-Sirant sets the example of Knights, for he was loved by all, and 
-respected even by his most hated enemies.  Renowned for his kind
-heart and even temper, he is often depicted as being deep in thought.
-Yet do not mistake his kindness for weakness, for he will help restore
-the Crown by nearly any means.
-Now residing in the heavens above, Sirant helps his God to carry out
-the Chosen's destiny, so that there may once again be one sovereign
-King of Thera.
+Tiradel~
+Where Ixtaros represents all the atrocities and horrors of war, Tiradel
+embodies all its nobility and honor.  He is the patron of all knights, along
+with his sister Rasazra, and few are the orders that do not honor these gods.
+Tiradel is active among his followers, guiding them on quests and holy
+missions, often against his uncle Morgorin.
+
+The sword is the holy symbol of Tiradel and all of his places of worship are
+constructed to resemble one.  There are no particular days that are holy to
+Tiradel; as his sphere is warfare and honor he is usually invoked before
+appropriate occasions.
 ~
 E
-sirant~
-He served his mortal life as the right hand of his beloved King.  By far
-the most gallant of the Knights, Sirant used his amazing skills in battle
-to serve the kingdom that once reigned supreme over Thera.
-When Cormac died, part of Sirant died too.  Unwilling to replace the
-King he became an even more devout servant of Helaman.  It is said
-that he wandered the lands alone for over twenty years, righting
-the wrongs he found, and searching for the answers that his soul
-yearned for.
- 
-Sirant sets the example of Knights, for he was loved by all, and 
-respected even by his most hated enemies.  Renowned for his kind
-heart and even temper, he is often depicted as being deep in thought.
-Yet do not mistake his kindness for weakness, for he will help restore
-the Crown by nearly any means.
-Now residing in the heavens above, Sirant helps his God to carry out
-the Chosen's destiny, so that there may once again be one sovereign
-King of Thera.
+Tiradel~
+Where Ixtaros represents all the atrocities and horrors of war, Tiradel
+embodies all its nobility and honor.  He is the patron of all knights, along
+with his sister Rasazra, and few are the orders that do not honor these gods.
+Tiradel is active among his followers, guiding them on quests and holy
+missions, often against his uncle Morgorin.
+
+The sword is the holy symbol of Tiradel and all of his places of worship are
+constructed to resemble one.  There are no particular days that are holy to
+Tiradel; as his sphere is warfare and honor he is usually invoked before
+appropriate occasions.
 ~
 #7715
 fountain~
@@ -821,111 +815,63 @@ very bottom. The water looks pure, and clean.
 ~
 P RANDOM 7715 100~
 #7716
-statue drenaar~
+statue Rhuma~
 a crystal statue~
-A crystal statue of Drenaar is standing here.~
+A crystal statue of Rhuma is standing here.~
 crystal~
 furniture 0 0
 0 0 0 0 0
 60 0 100 P
 E
-Drenaar~
-Goddess of The Five Spheres, Guardian of Magic, Warrior of The Mind,
-Drenaar exemplifies perfection attained through the magical arts.
-The first Faerie ever to be seen on Thera, it is a widely held belief
-that her origins are not originally of this world.
-Her age is also unknown, as there is no record of her ever having a
-mortal life.  What is known is that she is the source of power and
-inspriration for the Savants, the most hated enemy of Warmasters,
-the mages of war, and the protectors of the magical arts in Thera.
- 
-Her charms are many, and it is believed by some that she once seduced
-Helaman and thus gave birth to the once great King known as Cormac.
-Her promise is the destruction of Athaekeetha and his chosen, and
-she seeks only the strongest of the magi to aid her.
-Those who have had the privelage of being granted an audience have
-warned that her appearance and manner is most deceptive.  Small
-and often quiet she seems, yet she hears all and understands more
-than any mortal mind could ever hope.
+Rhuma~
+Rhuma is the younger child of Sahaeyeh and Madshem and brother to Hoiwinas.
+Like his father, Rhuma is concerned with the material aspects of life,
+especially wealth and is a favored god within mercantile cities.  Although
+Rhuma is true neutral, his clerics may be of any neutral alignment this is the
+only deity where this is possible.
+
+The worship of Rhuma is centered in his temples, which resemble great wagon
+wheels.  The inner hub is the sanctuary and is topped with a great golden
+spire.  A market is usually built in front of his temples, allowing the god to
+see all that transpires.  Clerics of Rhuma are consummate traders and hagglers.
 ~
 #7717
-statue streantian~
+statue Jolma~
 a steel statue~
-A steel statue of Streantian is standing here.~
+A steel statue of Jolma is standing here.~
 steel~
 furniture 0 0
 0 0 0 0 0
 60 0 100 P
 E
 statue~
-In a time where Chaos dominated, the severely crippled
-forces of Justice 
-struggled to maintain order in a society controlled by
-violence and the
-clashing of the major factions of power. In this era,
-so intense was the
-bloodshed, it was said that the streets of Val Miran
-were stained red with 
-the blood of the fallen. Demons of Chaos stood
-triumphantly, every aspect
-of order was clenched tightly within the grip of
-Chaos. Both Raght and Falthar
-mysteriously vanished in the time of disarray, leaving
-the forces of law without
-hope. The very tablets of Justice seemed to crumble
-into nothingness... 
-Within a plane not akin to that of Thera, a great
-leader walked. A man of 
-order, respected by all. Crime itself ceased to exist
-in his presence, as those
-who opposed laws were swiftly executed. Several years
-passed under his
-rule, a time of order and peace. Yet his rule was no
-exception to the weakness
-that plagues all great empires. The ethereal realm
-known as the Void collided
-with his plane of existence, causing a chaotic event
-that would forever change
-his life. The collision of the two planes spawned
-forth two forces from the
-essence of both realms, a force of chaos, and a force
-of order. Chaos quickly
-manifested itself into the ranks of the guards,
-causing corruption and deceit
-previously unheard of. It wasn't long before the
-second in command created
-a plot to murder the leader, Streantian. With
-unrivaled adeptness in melee 
-combat, Streantian easily cut down the second in
-command and his men. 
+Jolma is one of the Lords of Strife and the wife of Bracc.  She delights in 
+the misery of humankind and is active in the affairs of mankind.  Jolma and
+Bracc are especially active during the winter months, stalking the land and
+taking grim delight in its hardships.
+
+There are few temples dedicated to this goddess as few choose to honor such
+a deity.  However, small shrines to her abound in evil lands and near those who
+require her attention, mostly executions and torturers.
 ~
 #7718
 statue god~
 a sapphiric statue~
-A sapphiric statue of Mircea is standing here.~
+A sapphiric statue of Pajumet is standing here.~
 sapphire~
 trash 0 0
 0 0 0 0 0
 60 0 5000 P
 E
 statue~
-Woven from the fabric of magic, swirled with dark shadows, Mircea was forged
-by the Gods as a tribute to their magical powers.  Created with the ideas of
-magical dominance and a lust for evil, Mircea was a testament to all that 
-encompasses the dark arts, a monument to evil, and a display for the 
-cohesiveness of both.  His creators placed their hands to his flesh, and it 
-began to glow.  Mircea's flesh began to distort and a mark took form.  A tattoo 
-of a sorcerer encased in a ring of fire appeared on his arm where his distorted 
-flesh was.
-Tired of being enslaved by the Gods, Mircea broke free to peruse his own
-ideas of magical preservation.  He began to focus on the elimination of
-all who seek the destruction of the higher arts.  He traveled the lands and 
-destroyed many who opposed the reign of magic.  Overtime the numbers of those 
-opposed to the spell casters became great, and Mircea began to seek out those 
-who, like him, wished to save their way of life. Out of this search, Mircea 
-came to find the Savants, followers of Drenaar, who rightfully claim to be 
-the greatest magi of Thera.  He now serves as her right hand, and together 
-they guide their mortal followers towards their goal.
+Pajumet is the one of the oldest gods and most powerful.  In ranking order
+she is found with her brother Markul just below the Primal Ones, making her one
+of the four strongest Greater Deities.  She has many worshippers, but is, as is
+to be expected, a fickle goddess, and bestows luck on both sides capriciously.
+
+Temples to Pajumet are usually located in cities or towns as opposed to the
+lonely countryside.  Dedicated to randomness, her priests are as likely to
+hinder as to help.
 ~
 #7719
 wooden bench~
@@ -970,7 +916,7 @@ armor U AG
 0 30 72 P
 E
 sandals~
-Property of the Academy. For training use only.
+Property of the University. For training use only.
 ~
 #7735
 cuff steel~
@@ -982,7 +928,7 @@ armor U AM
 0 10 48 P
 E
 cuff~
-It seems to be engraved with a lion crest. Below that, a tag reads 'Property of the Academy.'
+It seems to be engraved with a lion crest. Below that, a tag reads 'Property of the University.'
 ~
 #7736
 leather sleeves~
@@ -1043,8 +989,8 @@ armor U AE
 0 30 72 P
 E
 helmet~
-Looks like standard issue for all Academy trainees. A small medallion bearing the
-crest of the Academy adorns the front of the beret.
+Looks like standard issue for all University trainees. A small medallion bearing the
+crest of the University adorns the front of the beret.
 ~
 #7742
 gray cape~
@@ -1057,7 +1003,7 @@ armor U AK
 E
 cape~
 Looks like a large piece of gray fabric, with a loop for your neck. A stitched
-seal of the Academy is embroidered on the back.
+seal of the University is embroidered on the back.
 ~
 #7743
 cloak apprentice~
@@ -1070,118 +1016,99 @@ armor U AC
 E
 cloak~
 Many of the apprentices around here seem to be wearing this style of
-blue cloak to show their progress. The seal of the Academy is emblazoned
+blue cloak to show their progress. The seal of the University is emblazoned
 on the back.
 ~
 #7750
 tapestry historic~
 a massive tapestry~
-A tapestry depicting the history of Thera is hung here. (`#LOOK TAPESTRY``)~
+A tapestry depicting the history of Mirlan is hung here. (`#LOOK TAPESTRY``)~
 cloth~
 furniture 0 0
 0 0 0 0 0
 0 0 10000 P
 E
 tapestry~
-At the dawn of time there was only darkness.  The Chaos Machine had 
-riddled the galaxies and universes with its decay, and had moved,
-finally, on to greener pastures.  Astral bodies fell and fused, and
-in time, planets were formed.  Little is known about the powerful 
-magic's that came together to forge the lands known as Thera, only 
-that a once lifeless husk of rock in space was born under the warmth
-of a sun.  From the dawn of its existence, Thera was a doomed land.
-It grew to full fruition in what the ancient texts called 'The Fourth
-Turn".  But the relative peace was not to last.  Two dark lords 
-emerged from the shadows and razed the land to ruin.  Shadowspawn, 
-his only mortal name, and Virigoth emerged from the depths of a 
-hellish netherworld, and took Thera for their own, executing
-mortals and deities alike, and ravaging the land.  Dark Scourges
-were born unholy births, and came to rise in power against the select
-few mortals who still walked the lands.  These survivors banded 
-together in small towns, and trained themselves to survive and fight
-the darkness that so consumed the land.  Armies of undead poured from
-the torn landscapes and assaulted the survivors, harnessing powers
-and skills never before seen by any mortal.  New races and breeds of
-creatures came from the woodwork, some to aid the darkness, some to
-aid the survivors.  Old texts were uncovered by the survivors as they
-battled back with new energies and renewed vigor until the armies
-of Shadowspawn and Virigoth fell back in retreat.  From these 
-survivors walked three mortal men.  Athaekeetha, Raght, and Palison
-stood victorious over the ravened mountains cape of Tyr Unguld, and 
-earned their place in the heavens.  Order was restored as Shadowspawn
-and Virigoth spent much less of their time leading their armies to
-victory, and much more battling their new immortal foes.  Once
-again the survivors rebuilt the cities and lands to make way  for
-the new breeds that walked forth.  All seemed once again safe...but
-under the watchful, vengeful eyes of Virigoth and Shadowspawn, new
-breeds of hatred burned and frothed...in time, the scourges would
-once again stalk the lands...
+Chronology and Timeline
+
+For the recording of time, there are currently five main systems 
+in usage.  In the north, time is measured from the year that the Paylen 
+and Esterian tribes were unified into the Kingdom of Paleganor  this is 
+called Year of the Kings 1 (YK 1).  The Eastern Empire and its neighbors 
+and some of its former territories reckon years using the Imperial Year 
+(IY), which has its first year some 770 years after the first YK.  The 
+southern kingdoms are much older and their time scale, Southern Year (SY) 
+was brought with the immigration of the Tzambuli tribesmen, already 
+counting the year 1313.  Both the dwarven (Muzaran Year  MY) and elven 
+races keep separate calendars but these are little used by men.
 ~
 #7751
 tapestry historic~
 a historic tapestry~
-A hand sewn tapestry of the Prophecies of Damnil is hung here. (`#LOOK TAPESTRY``)~
+A hand sewn tapestry of the Timeline of Mirlan is hung here. (`#LOOK TAPESTRY``)~
 fabric~
 furniture 0 0
 0 0 0 0 0
 0 0 10000 P
 E
 tapestry~
-The History and Prophecies of Thera
- 
-In the First Age of Thera (1-386 B.C.), Damnel, the Seer Prophet of 
-Thalos, spoke of a great disaster that would bring Armageddon to Thera. 
-With the end of the Month of the Grand Struggle, a great Cataclysm 
-brought an end to Theran life. As the Second Age of Thera (1-595 P.C.) 
-came to rise and man was once again brought into the world from the 
-Ethereal Nexus, the books of Damnel were uncovered in the North Forests 
-of Banor, and brought into the Temple of Sreyb to be deciphered by the 
-scholars of the time. Once deciphered, it spoke of the rise and fall of 
-the Fourth Age of Thera (800-1200 P.C.), and spoke of the Four Prophecies 
-that would come to pass in the Fifth Age of Thera (1200 P.C. - present). 
-As Thera came out of the Second Age and prospered into the Third Age 
-(595-800 P.C.), more secrets of the Book of Damnel were learned. This 
-was documented in the Prophecy of the Coming (Help Prophecy1). A great 
-death to Thera was also imminent, as documented in the Prophecy of the 
-Shadowkin (Help Prophecy2). During this Fourth Age, Thera would change 
-forever. New breeds of people would cross the Great Chasm, and come to 
-fight in the last battle. (Help Prophecy3). If Thera made it into the 
-Fifth Age, the Fourth Prophecy would never come true (Help Prophecy4). 
-As Thera now stands in the Fifth Age, forces battle to ensure the Fourth 
-Prophecy remains a fable.
+Imperial Year of  Muzara Southern
+Year     the King Year   Year
+(IY)     (YK)     (MY)   (SY)
+
+The Age of Empires
+                        1313    First wave of Tzambuli migrations    
+                        1450    Southern kingdoms formed
+                  1     1497    Dwarven Kingdom of Muzara founded
+                200     1696    Wynnyc migrations begin 
+                230     1726    Esterian migrations begin
+                317     1813    Kingdom of Grayldemir founded
+                350     1846    Paylens pushed east of Lesser Raiders
+          1     408     1896    Unifying of Paylens and Esterians into 
+                                Kingdom of Paleganor
+         11     418     2006    Grayldemir conquers lands north of Narryl 
+                                R.
+         75     482     2080    Eastern Empire formed from Greldemir
+        119     526     2124    Palinor conquers land west of Sabre R.  
+        176     583     2181    Muzara and Palinor form alliance
+        227     634     2232    Western Empire proclaimed       
+        231     638     2236    War of the Empires begins
+        354     761     2359    Eastern Empire defeated 
+        359     765     2364    Fall of Muzara
+
 ~
 #7752
 tapestry historic~
 a historic tapestry~
-A lovely tapestry of the bylaws of the Heralds is hung here. (`#LOOK TAPESTRY``)~
+A lovely tapestry of the bylaws of the Muses is hung here. (`#LOOK TAPESTRY``)~
 fabric~
 furniture 0 0
 0 0 0 0 0
 0 0 10000 P
 E
 tapestry~
-Heralds are the lifelines of history in Thera. Often, they are the eyes
+Muses are the lifelines of history in Mirlan. Often, they are the eyes
 peering from the corner of a bar, watching the social elite and listening
 in to the gossip and stories of the current and past events.  Interacting
-with the various characters abroad, Heralds observe the very history of
-Thera to link Thera to its notables.  They are loyal to the Winds, every
+with the various characters abroad, Muses observe the very history of
+Mirlan to link Mirlan to its notables.  They are loyal to the Winds, every
 so often coming to meet with their superiors and giving them what 
 biographies
 they have recorded.
  
-A Herald's communication skills are what he/she relies on.  Heralds
+A Muse's communication skills are what he/she relies on.  Muses
 demonstrate through their intelligence and wit their story telling and
-rumor gathering skills.  Heralds are also courteous to those deserving
+rumor gathering skills.  Muses are also courteous to those deserving
 of courtesy, given the number of people they must interact with on a
 daily basis.  Those who flagrantly use foul language or violence have
 no place within the cabal.
  
-Anyone who wishes to may ask a Herald for the history of a certain person
-of Thera, and the Herald will give them what knowledge he/she has.  When
-a Herald does not do this, they are considered to be unessential, and may
-be extricated from the group.  Also, if a Herald is remiss in his/her duty
-to collect biographies, that Herald is also ousted from the group.  Bards
-and Monks are the classes best suited to be Heralds, although non-physical
+Anyone who wishes to may ask a Muse for the history of a certain person
+of Mirlan, and the Muse will give them what knowledge he/she has.  When
+a Muse does not do this, they are considered to be unessential, and may
+be extricated from the group.  Also, if a Muse is remiss in his/her duty
+to collect biographies, that Muse is also ousted from the group.  Bards
+and Monks are the classes best suited to be Muses, although non-physical
 classes may also join if they meet cabal requirements and have exceptionally
 good role-play.
 ~
@@ -1227,12 +1154,12 @@ furniture 0 0
 E
 sign~
 You are now heading out of MUD school.  Want to continue your learning
-after you leave ?  The ACADEMY is now inducting new students from ranks 5 to
-rank 10.  If you want to be part of the biggest school in Thera and learn
+after you leave ?  The University is now inducting new students from ranks 5 to
+rank 10.  If you want to be part of the biggest school in Mirlan and learn
 everything from basic equipping to battle tactics get yourself to the
-academy gates.  You will find the academy 2 south of the Temple of
+University gates.  You will find the University 2 south of the Temple of
 Abstraction.  Simply speak to Mohcran there and tell him you wish to join. 
-He will grant you an academy pass.  
+He will grant you an University pass.  
 ~
 #7775
 ring life~
@@ -1303,6 +1230,14 @@ visitors leaving with his prize!
 ~
 P DROP 7779 7778~
 P GET 7778 7778~
+#7779
+lance~
+a steel lance~
+A steel lance is lying here.~
+steel~
+weapon U AN
+lance 2 4 charge 0
+1 0 0 P
 #7780
 mace sub practice~
 a practice mace~
@@ -1443,7 +1378,7 @@ E
 vest~
 It's what seems to be a very comfortable vest, with thick padding for
 battle, but light enough not to restrict movement. A small insignia of
-the Academy dons the upper right breast pocket.
+the University dons the upper right breast pocket.
 ~
 #7790
 shield iron~
@@ -1515,7 +1450,7 @@ A large delicious, filling, chicken wing~
 meat~
 food 0 A
 50 50 0 0 50
-0 30 20 P
+0 30 25 P
 #7796
 warrior notes~
 a booklet of notes~
@@ -1582,34 +1517,2436 @@ pill G A
 
 #ROOMS
 #7700
-`8Entrance to the Academy``~
-You stand to the south of a set of great, white walls.  To your north
-lies the Academy, which promises to teach you all you need to know to ensure
-success in this life.  To Your east lies the training grounds of this fabled
-Academy, so that you may test your skills in combat and begin your journey
-towards the top of the pyramid which is power.  To your west lies the fabled
-hall of wisdom and to your south lies what is beyond.  It is a mystery to
-you as it is to us all.  
+`8The Gateway into Mirlan``~
+You have died. You have visited the regions beyond. And you have been
+reincarnated yet again to walk among the realms of the living of these
+people of Mirlan. A bright white light surrounds the room in which you now
+stand. There are no walls, no floors. You float in nothing, merely a mass
+of astral energy awaiting a body to overcome, and give life to. Below you
+unfolds a world, and as time passes, it grows larger, giving you a full
+observation of what lies below.  There is a twinge of regret as your old
+past is washed clean, and you are reborn to live again in the realms of
+Mirlan...
 ~
 ~
 0 268566536 0 0
-D0
+D5
+The world of Mirlan swirls in many different hues below you.
 ~
 ~
 0 0 7701
 S
 #7701
-`8The First Room``~
-Here you must learn the most simplictic things of this world.  Here you
-will cast aside your definition of reality and progress only in the reality
-of this world.  
+`8The Entrance to the University``~
+You stand before a set of colossal ivory gates. You are not entirely sure
+how you got here exactly, but on a golden sign that adorns the top of the
+gates, you can see the words, 'Training University",  'Established in the
+Year of the King 121'. North, you can see a large path that leads into a
+set of small rooms. If you have been here before, you can walk south and
+enter the practice arena, or, if you wish to gain the knowledge and
+instruction regarding the world in which you now live, continue north.
+ 
+A large plaque is on the wall. (Type`# 'LOOK PLAQUE'`` to read.)
 ~
 ~
-0 0 0 0
+0 268566536 0 0
+E
+plaque~
+Welcome to the University! The first thing you will want to do here is to
+activate ANSI color, if you run a terminal that supports it. To do so,
+just type 'COLOR'. Please remember that no one over level 5 is allowed
+into the University. If you are stuck, just type 'recall' to be released.
+Once you have finished reading this, you may continue northward.
+~
+D0
+~
+~
+0 0 7702
+D2
+Looks like the Combat Courtyard is just beyond that door.
+~
+grand gates~
+AB 0 7761
+P RANDOM 7701 100~
+S
+#7702
+`8The Hall of Order``~
+As you walk further into the University, and past the large doors of the
+entrance, you come to the Hall of Order, or the Hall of Rules, as many
+of the younglings in the University choose to call it. Several large signs
+are placed on the walls of this well-lit room for you to read. It is
+imperative that you read all of the signs as you walk through the University,
+as they will only aid you in your progress within these realms.
+~
+~
+0 268566536 0 0
+D0
+You see what seems to be some sort of training quadrangle just north of you.
+~
+~
+0 0 7703
+D2
+The entrance to the University lies southward.
+~
+~
+0 0 7701
+S
+#7703
+`8The Training Quadrangle``~
+You stand in a small stone square. Exits leads in all cardinal directions.
+The stone under your feet is made of heavy granite, and seems very well
+traveled over the years. In the center of the room is a large podium, with
+a heavy book placed in the center for your perusal. The northward exit
+leads through another small archway around which is wrapped a thick ivy
+plant. East and west lie small rooms for training and practice.
+~
+~
+0 268566536 0 0
+D0
+You see a lovely path with a large marble fountain to the north.
+~
+~
+0 0 7706
+D1
+The Practice Room lies east of you.
+~
+~
+0 0 7704
+D2
+A large hall with a book stand lies south.
+~
+~
+0 0 7702
+D3
+The Training Room lies west of you.
+~
+~
+0 0 7705
+S
+#7704
+`8The Practice Room``~
+You stand within a square room, with painted white walls adorned with
+many portraits of famous University Graduates. An adept stands here to aid
+you with the practicing of your skills. A small door leads back west
+into the Quadrangle. Once you have sufficiently practiced here, you may
+proceed back into the Quadrangle.
+~
+~
+0 268566536 0 0
+D3
+The Training Quadrangle lies west of you.
+~
+~
+0 0 7703
+S
+#7705
+`8The Training Room``~
+You stand within a square room, with painted white walls adorned with
+many portraits of famous University Graduates. An adept stands here to aid
+you with the training of your attributes. A small door leads back east
+into the Quadrangle. Once you have sufficiently trained here, you may
+proceed back into the Quadrangle.
+ 
+A small sign lies on the back wall. (`#LOOK SIGN``)
+~
+~
+0 268566536 0 0
+E
+sign~
+Welcome to the Training Room. To train your attributes, simply type,
+'train <stat>'. Typing '`^HELP TRAIN``' will show you more information.
+If you wish to learn more about the attribute, simply say the three
+letter abbreviation for the stat. (ie: SAY STR).
+~
+D1
+The Training Quadrangle lies east of you.
+~
+~
+0 0 7703
+S
+#7706
+`8A Marble Path``~
+You stand amid a beautiful marble pathway. Eastward lies the Museum
+of the Gods, a highly interesting journey for any new recruit here.
+Within the Museum you will learn the history of the Gods of Mirlan, and
+as well you choices in selecting a deity to serve. Within this pathway
+lies a large marble fountain, with a brass placard attached to it. It
+bubbles forth clean, clear water. (`#LOOK FOUNTAIN``)
+~
+~
+0 268566536 0 0
+D0
+The Hall of Life lies northward.
+~
+~
+0 0 7710
+D1
+The Museum of the Gods lies eastward.
+~
+~
+0 0 7707
+D2
+The Training Quadrangle lies south of you.
+~
+~
+0 0 7703
+S
+#7707
+`8The Museum of the Gods``~
+You stand within the Museum of the Gods. Several large statues stand in
+the room is colored all in neutral shades, signifying that this room is
+representative of the deities and gods that serve the path of neutrality.
+On each statue is mounted a plaque, which explains the God's function and
+history in the realm. To view the separate statues, the correct syntax is
+"LOOK 1.STATUE', 'LOOK 2.STATUE', etc.
+ 
+It is important that you choose which deity to follow before you reach
+the tenth rank, for you can not gain any experience after that if you
+do not choose a deity to follow.
+~
+~
+0 268566536 0 0
+D1
+~
+~
+0 0 7708
+D3
+~
+~
+0 0 7706
+S
+#7708
+`8The Museum of the Gods``~
+You stand within the Museum of the Gods. Several large statues stand in
+the room is colored all in darker shades, signifying that this room is
+representative of the deities and gods that serve the path of darkness.
+On each statue is mounted a plaque, which explains the God's function and
+history in the realm. To view the separate statues, the correct syntax is
+"LOOK 1.STATUE', 'LOOK 2.STATUE', etc.
+ 
+It is important that you choose which deity to follow before you reach
+the tenth rank, for you can not gain any experience after that if you
+do not choose a deity to follow.
+~
+~
+0 268566536 0 0
+D1
+~
+~
+0 0 7709
+D3
+~
+~
+0 0 7707
+S
+#7709
+`8The Museum of the Gods``~
+You stand within the Museum of the Gods. Several large statues stand in
+the room is colored all in light shades, signifying that this room is
+representative of the deities and gods that serve the path of the light.
+On each statue is mounted a plaque, which explains the God's function and
+history in the realm. To view the separate statues, the correct syntax is
+"LOOK 1.STATUE', 'LOOK 2.STATUE', etc.
+ 
+It is important that you choose which deity to follow before you reach
+the tenth rank, for you can not gain any experience after that if you
+do not choose a deity to follow.
+~
+~
+0 268566536 0 0
+D3
+~
+~
+0 0 7708
+S
+#7710
+`8The Hall of Life``~
+You stand in a well lit marble room, just off of the corridor. Here,
+a tall statue of a clad warrior stands stolidly in the center of the
+room, adorned with a large brass plaque. (`#LOOK PLAQUE``). Exits 
+leads southward, back to the Quadrangle, or westward to the Hall of
+the Muses, where you will learn about the history of Mirlan.
+~
+~
+0 268566536 0 0
+D2
+You see a large marble path, with a white fountain.
+~
+~
+0 0 7706
+D3
+You see the entrance to the Hall of the Muses.
+~
+~
+0 0 7711
+S
+#7711
+`8The Halls of the Muses``~
+You stand within a well lit hallway. A large sign inscribed on the
+entrance of the hallway denotes that this hallway was funded by the
+Muses to further knowledge of history within the realms. Several
+large murals hang on the walls, as well as a number of tapestries that
+depict the short, and violent history of Mirlan, from genesis to
+today. The hallway continues to the west.
+~
+~
+0 268566536 0 0
+D1
+You see the Hall of Life in the distance to the east.
+~
+~
+0 0 7710
+D3
+The Hall of the Muses continues further to the west.
+~
+~
+0 0 7712
+P RANDOM 7710 75~
+S
+#7712
+`8The Halls of the Muses``~
+You stand within a well lit hallway. A large sign inscribed on the
+entrance of the hallway denotes that this hallway was funded by the
+Muses to further knowledge of history within the realms. Several
+large murals hang on the walls, as well as a number of tapestries that
+depict the short, and violent history of Mirlan, from genesis to
+today. The hallway continues to the west.
+~
+~
+0 268566536 0 0
+D1
+You see the entrance to the Hall of the Muses to the east.
+~
+~
+0 0 7711
+D3
+The Hall of the Muses continues further to the west.
+~
+~
+0 0 7713
+P RANDOM 7710 75~
+S
+#7713
+`8The Halls of the Muses``~
+You stand within a well lit hallway. A large sign inscribed on the
+entrance of the hallway denotes that this hallway was funded by the
+Muses to further knowledge of history within the realms. Several
+large murals hang on the walls, as well as a number of tapestries that
+depict the short, and violent history of Mirlan, from genesis to
+today. The hallway continues to the north.
+~
+~
+0 268566536 0 0
+D0
+A small arched thoroughfare lies to your north.
+~
+~
+0 0 7714
+D1
+The Hall of the Muses continues further to the east.
+~
+~
+0 0 7712
+P RANDOM 7710 75~
+S
+#7714
+`8An arched thoroughfare``~
+You've come to the end of the Hall of the Muses. A small stone pathway
+leads northward into a small courtyard, where you can hear the gurgle
+of a fountain. The sun shines down on you from overhead through the
+small latticework archway, and you can hear people talking ahead of
+you, as well as the mixed sounds of clashing swords. Southward lies
+the Hall of the Muses.
+~
+~
+0 268566536 0 0
+D0
+You see the entrance to a courtyard to your north.
+~
+~
+0 0 7715
+D2
+The Hall of the Muses lies directly south.
+~
+~
+0 0 7713
+P RANDOM 7714 75~
+S
+#7715
+`8The Courtyard``~
+You stand in a brightly lit courtyard. The sky is blue above you, and the air
+is clean and fresh. A large granite water fountain stands in the center of the
+airy square, bubbling fresh, clean water, and a cooling mist. The stones below
+you are of polished white marble, and seem to be kept clean, and free of moss
+and dirt. Three arched entrances lie in all cardinal directions, and a doorway
+is to the north. A set of carved spiral stairs lead downward from this yard.
+Several wrought iron benches add rustic charm to the yard.
+ 
+A large rope leads upward...to something...
+~
+~
+0 268566536 0 0
+E
+rope~
+A long rope is hanging magically here in the air. It seems to lead only
+upward.
+~
+D0
+The Headmaster's office lies north.
+~
+brass inlaid oaken door~
+AB 0 7716
+D1
+You see the Archmage's Workshop to the east.
+~
+~
+0 0 7717
+D2
+A small archway is south of here.
+~
+~
+0 0 7714
+D3
+The Supply Store lies to the west.
+~
+~
+0 0 7718
+D4
+A long rope leads upward into the clouds.
+~
+~
+0 0 7775
+D5
+A large staircase leads downward.
+~
+~
+0 0 7721
+M 200 H 200
+S
+#7716
+`8The Office of the Headmaster``~
+You stand within the Headmaster's Office. A neat desk lies in the center of
+the room, and toward the back wall. Large woodgrain panels make the room seem
+cozy, and you step on thick, plush red carpet embroidered in the center with
+the Golden Seal of the University. The room is filled with several torchiers, all
+which give off a warm, golden glow. The Headmaster is here to ensure students
+achieve all they need from the University, and to handle any disciplinary problems.
+~
+~
+0 268566536 0 0
+D2
+~
+brass inlaid oaken door~
+AB 0 7715
+S
+#7717
+`8The Archmage's Workshop``~
+You stand within a dimly lit room. As you enter, the smell of burning incense,
+mingled with the acrid odors of brimstone fill your nose. A long wooden work
+bench lies behind a long countertop, and the bench is covered with glass vials,
+test tubes, and various scales and measuring devices. A wizened old man lurks
+behind the counter, bearing a quizzical look in his face. A small painted sign
+is lying on the countertop before you. (`#LOOK SIGN``)
+~
+~
+0 268566536 0 0
+E
+sign~
+Welcome, Student!
+ 
+To see what is available for purchase here, simply type '`6LIST``'.
+To sell an item here, just type '`6SELL``' <item>.
+To find the value of an item, simply type '`6VALUE``' <item>.
+To purchase an item, simply type '`6BUY``' <item>.
+ 
+Thank you for visiting.
+~
+D0
+You see an entrance to a classroom.
+~
+~
+0 0 7719
+D2
+You see an entrance to a classroom.
+~
+~
+0 0 7720
+D3
+The Courtyard lies west of you.
+~
+~
+0 0 7715
+S
+#7718
+`8The Supply Store``~
+You stand within the Supply Store for the University. Several large shelves are
+built behind the counter, and an elderly, motherly looking woman is manning
+the counter here. This seems to be an ideal place to shop for necessary items
+for travel, such as food and liquids. A small sign is placed on the counter,
+handwritten on a slab of white birch. (`#LOOK SIGN``)
+~
+~
+0 268566536 0 0
+E
+sign~
+Welcome, Student!
+ 
+To see what is available for purchase here, simply type '`6LIST``'.
+To sell an item here, just type '`6SELL``' <item>.
+To find the value of an item, simply type '`6VALUE``' <item>.
+To purchase an item, simply type '`6BUY``' <item>.
+ 
+Thank you for visiting.
+~
+D1
+The Courtyard lies east of you.
+~
+~
+0 0 7715
+S
+#7719
+`8A classroom``~
+You stand in a small, squarish room, just off of the Archmage's workshop.
+Several benches are set up here, facing forward, and a large board with
+chalked markings lies at the head of the room. This seems to be a class-
+room of sorts. A small sign is posted on the door. (`#LOOK SIGN``)
+~
+~
+0 268566536 0 0
+E
+sign~
+Welcome, student. Classes are held here each day at 9:00 AM, sharp!
+If you wish to learn more about the ways of the Mage, be here at the
+above time for a class held by Archmage Nikolaus.
+~
+D2
+The Archmage's Workshop is south of you.
+~
+~
+0 0 7717
+D4
+~
+~
+0 0 7780
+S
+#7720
+`8A classroom``~
+You stand in a small, squarish room, just off of the Archmage's workshop.
+Several benches are set up here, facing forward, and a large board with
+chalked markings lies at the head of the room. This seems to be a class-
+room of sorts. A small sign is posted on the door. (`#LOOK SIGN``)
+~
+~
+0 268566536 0 0
+E
+sign~
+Welcome, student. Classes are held here each day at 9:00 AM, sharp!
+If you wish to learn more about the ways of the Warrior, be here at the
+above time for a class held by Blademaster Farrahn.
+~
+D0
+The Archmage's Workshop is north of you.
+~
+~
+0 0 7717
+D4
+~
+~
+0 0 7781
+S
+#7721
+`8A flight of stairs``~
+You are walking down a flight of spiral stairs that have been handcarved into
+the walls of the ground here. Lit well with bright torches that are changed
+daily, you can see an underground passage unfold below you, leading into the
+Combat Courtyard, a place for you to practice what you have learned in the University
+in a more practical sense. Sounds of armed combat already fill your ears.
+~
+~
+0 268566536 0 0
+D4
+The Courtyard lies just above you.
+~
+~
+0 0 7715
+D5
+The stairs extend to a hall below you.
+~
+~
+0 0 7722
+S
+#7722
+`8An underground walkway``~
+Having reached the bottom of the spiral stairs, a small carved out passageway
+leads you northward, toward a grand entrance. The walls here are bare stone,
+lit with burning torches about every ten yards or so. The ceiling is high, and
+arched, so that even students who happen to be of giant races can walk through
+unimpeded. Stairs behind you lead back up to the Courtyard of the University.
+~
+~
+0 268566536 0 0
+D0
+And underground hallway leads north.
+~
+~
+0 0 7723
+D4
+A flight of stairs leads up.
+~
+~
+0 0 7721
+S
+#7723
+`8An underground walkway``~
+Having reached the bottom of the spiral stairs, a small carved out passageway
+leads you northward, toward a grand entrance. The walls here are bare stone,
+lit with burning torches about every ten yards or so. The ceiling is high, and
+unimpeded. Stairs behind you lead back up to the Courtyard of the University.
+~
+~
+0 268566536 0 0
+D0
+And underground hallway leads north.
+~
+~
+0 0 7724
+D2
+And underground hallway leads south.
+~
+~
+0 0 7722
+S
+#7724
+`8Before a Stone Grate``~
+You stand before a large, hand carved stone entrance. A large granite door
+leads northward, into what you believe to be the Combat Courtyard. Standing by
+the door is a large creature, with something dangling about his neck. As
+you enter, he growls at you in warning. A small underground walkway leads
+back southward toward the stairs. It looks as if you may have to fight this
+creature in order to get the key to proceed northward.
+~
+~
+0 268566536 0 0
+D0
+Looks like the entrance to the Courtyard.
+~
+large granite door~
+ABC 7724 7725
+D2
+An underground hallway leads north.
+~
+~
+0 0 7723
+S
+#7725
+`2The Southern Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 65536 3
+D0
+~
+~
+0 0 7771
+D1
+~
+~
+0 0 7727
+D3
+~
+~
+0 0 7726
+D4
+~
+~
+0 0 7774
+S
+#7726
+`2The Southern Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 16384 3
+D0
+~
+~
+0 0 7770
+D1
+~
+~
+0 0 7725
+D3
+~
+~
+0 0 7728
+D4
+~
+~
+0 0 7774
+S
+#7727
+`2The Southern Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 8192 3
+D0
+~
+~
+0 0 7772
+D1
+~
+~
+0 0 7730
+D3
+~
+~
+0 0 7725
+D4
+~
+~
+0 0 7774
+S
+#7728
+`2The Southern Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 8192 3
+D0
+~
+~
+0 0 7769
+D1
+~
+~
+0 0 7726
+D3
+~
+~
+0 0 7729
+D4
+~
+~
+0 0 7774
+S
+#7729
+`2The Southwestern Corner of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 16384 3
+D0
+~
+~
+0 0 7738
+D1
+~
+~
+0 0 7728
+D4
+~
+~
+0 0 7774
+S
+#7730
+`2The Southern Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 16384 3
+D0
+~
+~
+0 0 7773
+D1
+~
+~
+0 0 7731
+D3
+~
+~
+0 0 7727
+D4
+~
+~
+0 0 7774
+S
+#7731
+`2The Southeastern Corner of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 16384 3
+D0
+~
+~
+0 0 7732
+D3
+~
+~
+0 0 7730
+D4
+~
+~
+0 0 7774
+S
+#7732
+`2The Eastern Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 65536 3
+D0
+~
+~
+0 0 7733
 D2
 ~
 ~
-0 0 7700
+0 0 7731
+D3
+~
+~
+0 0 7773
+D4
+~
+~
+0 0 7774
+S
+#7733
+`2The Eastern Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 65536 3
+D0
+~
+~
+0 0 7734
+D2
+~
+~
+0 0 7732
+D3
+~
+~
+0 0 7768
+D4
+~
+~
+0 0 7774
+S
+#7734
+`2The Eastern Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 16384 3
+D0
+~
+~
+0 0 7735
+D2
+~
+~
+0 0 7733
+D3
+~
+~
+0 0 7763
+D4
+~
+~
+0 0 7774
+S
+#7735
+`2The Eastern Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 16384 3
+D0
+~
+~
+0 0 7736
+D2
+~
+~
+0 0 7734
+D3
+~
+~
+0 0 7758
+D4
+~
+~
+0 0 7774
+S
+#7736
+`2The Eastern Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 32768 3
+D0
+~
+~
+0 0 7737
+D2
+~
+~
+0 0 7735
+D3
+~
+~
+0 0 7753
+D4
+~
+~
+0 0 7774
+S
+#7737
+`2The Northeastern Corner of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 8192 3
+D2
+~
+~
+0 0 7736
+D3
+~
+~
+0 0 7748
+D4
+~
+~
+0 0 7774
+S
+#7738
+`2The Western Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 16384 3
+D0
+~
+~
+0 0 7739
+D1
+~
+~
+0 0 7769
+D2
+~
+~
+0 0 7729
+D4
+~
+~
+0 0 7774
+S
+#7739
+`2The Western Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 65536 3
+D0
+~
+~
+0 0 7740
+D1
+~
+~
+0 0 7764
+D2
+~
+~
+0 0 7738
+D4
+~
+~
+0 0 7774
+S
+#7740
+`2The Western Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 16384 3
+D0
+~
+~
+0 0 7741
+D1
+~
+~
+0 0 7759
+D2
+~
+~
+0 0 7739
+D4
+~
+~
+0 0 7774
+S
+#7741
+`2The Western Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 8192 3
+D0
+~
+~
+0 0 7742
+D1
+~
+~
+0 0 7754
+D2
+~
+~
+0 0 7740
+D4
+~
+~
+0 0 7774
+S
+#7742
+`2The Western Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 16384 3
+D0
+~
+~
+0 0 7743
+D1
+~
+~
+0 0 7749
+D2
+~
+~
+0 0 7741
+D4
+~
+~
+0 0 7774
+S
+#7743
+`2The Northwestern Corner of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 32768 3
+D1
+~
+~
+0 0 7744
+D2
+~
+~
+0 0 7742
+D4
+~
+~
+0 0 7774
+S
+#7744
+`2The Northern Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 16384 3
+D1
+~
+~
+0 0 7745
+D2
+~
+~
+0 0 7749
+D3
+~
+~
+0 0 7743
+D4
+~
+~
+0 0 7774
+S
+#7745
+`2The Northern Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 8192 3
+D1
+~
+~
+0 0 7746
+D2
+~
+~
+0 0 7750
+D3
+~
+~
+0 0 7744
+D4
+~
+~
+0 0 7774
+S
+#7746
+`2The Northern Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 65536 3
+D1
+~
+~
+0 0 7747
+D2
+~
+~
+0 0 7751
+D3
+~
+~
+0 0 7745
+D4
+~
+~
+0 0 7774
+S
+#7747
+`2The Northern Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 16384 3
+D1
+~
+~
+0 0 7748
+D2
+~
+~
+0 0 7752
+D3
+~
+~
+0 0 7746
+D4
+~
+~
+0 0 7774
+S
+#7748
+`2The Northern Wall of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 65536 3
+D1
+~
+~
+0 0 7737
+D2
+~
+~
+0 0 7753
+D3
+~
+~
+0 0 7747
+D4
+~
+~
+0 0 7774
+S
+#7749
+`2The Northwestern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 8192 3
+D0
+~
+~
+0 0 7744
+D1
+~
+~
+0 0 7750
+D2
+~
+~
+0 0 7754
+D3
+~
+~
+0 0 7742
+D4
+~
+~
+0 0 7774
+S
+#7750
+`2The Northwestern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566540 16384 3
+D0
+~
+~
+0 0 7745
+D1
+~
+~
+0 0 7751
+D2
+~
+~
+0 0 7755
+D3
+~
+~
+0 0 7749
+D4
+~
+~
+0 0 7774
+S
+#7751
+`2The Northern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 8192 3
+D0
+~
+~
+0 0 7746
+D1
+~
+~
+0 0 7752
+D2
+~
+~
+0 0 7756
+D3
+~
+~
+0 0 7750
+D4
+~
+~
+0 0 7774
+S
+#7752
+`2The Northeastern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 16384 3
+D0
+~
+~
+0 0 7747
+D1
+~
+~
+0 0 7753
+D2
+~
+~
+0 0 7757
+D3
+~
+~
+0 0 7751
+D4
+~
+~
+0 0 7774
+S
+#7753
+`2The Northeastern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 8192 3
+D0
+~
+~
+0 0 7748
+D1
+~
+~
+0 0 7736
+D2
+~
+~
+0 0 7758
+D3
+~
+~
+0 0 7752
+D4
+~
+~
+0 0 7774
+S
+#7754
+`2The Northwestern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 65536 3
+D0
+~
+~
+0 0 7749
+D1
+~
+~
+0 0 7755
+D2
+~
+~
+0 0 7759
+D3
+~
+~
+0 0 7741
+D4
+~
+~
+0 0 7774
+S
+#7755
+`2The Northwestern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 8192 3
+D0
+~
+~
+0 0 7750
+D1
+~
+~
+0 0 7756
+D2
+~
+~
+0 0 7760
+D3
+~
+~
+0 0 7754
+D4
+~
+~
+0 0 7774
+S
+#7756
+`2The Northern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 65536 3
+D0
+~
+~
+0 0 7751
+D1
+~
+~
+0 0 7757
+D2
+~
+~
+0 0 7761
+D3
+~
+~
+0 0 7755
+D4
+~
+~
+0 0 7774
+S
+#7757
+`2The Northeastern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 65536 3
+D0
+~
+~
+0 0 7752
+D1
+~
+~
+0 0 7758
+D2
+~
+~
+0 0 7762
+D3
+~
+~
+0 0 7756
+D4
+~
+~
+0 0 7774
+S
+#7758
+`2The Northeastern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 8192 3
+D0
+~
+~
+0 0 7753
+D1
+~
+~
+0 0 7735
+D2
+~
+~
+0 0 7763
+D3
+~
+~
+0 0 7757
+D4
+~
+~
+0 0 7774
+S
+#7759
+`2The Western Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 8192 3
+D0
+~
+~
+0 0 7754
+D1
+~
+~
+0 0 7760
+D2
+~
+~
+0 0 7764
+D3
+~
+~
+0 0 7740
+D4
+~
+~
+0 0 7774
+S
+#7760
+`2The Western Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 32768 3
+D0
+~
+~
+0 0 7755
+D1
+~
+~
+0 0 7761
+D2
+~
+~
+0 0 7765
+D3
+~
+~
+0 0 7759
+D4
+~
+~
+0 0 7774
+S
+#7761
+`2The Center of the Courtyard``~
+You find yourself standing in the very center of the Combat Courtyard. Large grassy
+fields surround you, and in all cardinal directions lies a large masonblock wall
+that surrounds the Courtyard. Sounds of clashing steel and death cries can be heard
+over this otherwise pleasant Courtyard. Small saplings and bushes dot the landscape
+haphazardly.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 8192 3
+D0
+~
+~
+0 0 7756
+D1
+~
+~
+0 0 7762
+D2
+~
+~
+0 0 7766
+D3
+~
+~
+0 0 7760
+D4
+~
+~
+0 0 7774
+S
+#7762
+`2The Eastern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 16384 3
+D0
+~
+~
+0 0 7757
+D1
+~
+~
+0 0 7763
+D2
+~
+~
+0 0 7767
+D3
+~
+~
+0 0 7761
+D4
+~
+~
+0 0 7774
+S
+#7763
+`2The Eastern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 65536 3
+D0
+~
+~
+0 0 7758
+D1
+~
+~
+0 0 7734
+D2
+~
+~
+0 0 7768
+D3
+~
+~
+0 0 7762
+D4
+~
+~
+0 0 7774
+S
+#7764
+`2The Southwestern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 8192 3
+D0
+~
+~
+0 0 7759
+D1
+~
+~
+0 0 7765
+D2
+~
+~
+0 0 7769
+D3
+~
+~
+0 0 7739
+D4
+~
+~
+0 0 7774
+S
+#7765
+`2The Southwestern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 16384 3
+D0
+~
+~
+0 0 7760
+D1
+~
+~
+0 0 7766
+D2
+~
+~
+0 0 7770
+D3
+~
+~
+0 0 7764
+D4
+~
+~
+0 0 7774
+S
+#7766
+`2The Southern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 65536 3
+D0
+~
+~
+0 0 7761
+D1
+~
+~
+0 0 7767
+D2
+~
+~
+0 0 7771
+D3
+~
+~
+0 0 7765
+D4
+~
+~
+0 0 7774
+S
+#7767
+`2The Southeastern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 16384 3
+D0
+~
+~
+0 0 7762
+D1
+~
+~
+0 0 7768
+D2
+~
+~
+0 0 7772
+D3
+~
+~
+0 0 7766
+D4
+~
+~
+0 0 7774
+S
+#7768
+`2The Southeastern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 16384 3
+D0
+~
+~
+0 0 7763
+D1
+~
+~
+0 0 7733
+D2
+~
+~
+0 0 7773
+D3
+~
+~
+0 0 7767
+D4
+~
+~
+0 0 7774
+S
+#7769
+`2The Southwestern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 8192 3
+D0
+~
+~
+0 0 7764
+D1
+~
+~
+0 0 7770
+D2
+~
+~
+0 0 7728
+D3
+~
+~
+0 0 7738
+D4
+~
+~
+0 0 7774
+S
+#7770
+`2The Southwestern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 16384 3
+D0
+~
+~
+0 0 7765
+D1
+~
+~
+0 0 7771
+D2
+~
+~
+0 0 7726
+D3
+~
+~
+0 0 7769
+D4
+~
+~
+0 0 7774
+S
+#7771
+`2The Southern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 65536 3
+D0
+~
+~
+0 0 7766
+D1
+~
+~
+0 0 7772
+D2
+~
+~
+0 0 7725
+D3
+~
+~
+0 0 7770
+D4
+~
+~
+0 0 7774
+S
+#7772
+`2The Southeastern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 32768 3
+D0
+~
+~
+0 0 7767
+D1
+~
+~
+0 0 7773
+D2
+~
+~
+0 0 7727
+D3
+~
+~
+0 0 7771
+D4
+~
+~
+0 0 7774
+S
+#7773
+`2The Southeastern Part of the Courtyard``~
+You stand amid the Combat Courtyard. It is what appears to be a very large, grassy
+field, with small saplings and bushes planted haphazardly. It is quite large,
+and very airy. Bloodstains lie here and there from fallen corpses in battle, and
+a large masonblock wall surrounds the entire Courtyard. The sounds of clashing steel
+can be heard over all else.
+~
+You stand amid a darkened field. The night air is chilly, and visibility seems
+to be limited. Several large torches are stuck in the ground at various parts
+of this massive Courtyard, lighting the Courtyard, even at night. The grass below you
+is damp from the evening dew, and slippery, either with the same dew, or with
+spilled blood.
+~
+0 268566536 16384 3
+D0
+~
+~
+0 0 7768
+D1
+~
+~
+0 0 7732
+D2
+~
+~
+0 0 7730
+D3
+~
+~
+0 0 7772
+D4
+~
+~
+0 0 7774
+S
+#7774
+`7The Chapel of Sanctuary``~
+You stand within the Chapel of Sanctuary, a small church just above the
+Combat Courtyard.  You feel a sense of peace and serenity here, within this one
+room, non denominational chapel.  A small flight of steps leads upward
+toward the square of the city, where you can hear the daily commotion of
+citizens going about their daily tasks.  
+ 
+Walk UP to the city of Ulsym
+Walk NORTH to the city of Revelsport
+Walk EAST to the city of Mirlsport
+Walk WEST to the city of Dargoth
+Walk SOUTH to the city of Emmereaux
+Walk DOWN to the city of Zalango
+~
+~
+0 268575748 0 1
+D0
+~
+~
+0 0 20605
+D1
+~
+~
+0 0 7646
+D2
+~
+~
+0 0 9223
+D3
+~
+~
+0 0 1216
+D4
+Stairs lead up towards a busy square.
+~
+~
+0 0 11500
+D5
+~
+~
+0 0 7800
+M 200 H 200
+S
+#7775
+`8On a thick rope``~
+You are hanging well above the courtyard, now, heading upward on a long, thin
+rope. You feel it best not to tarry here, lest the your grip on the rope slip,
+and you find yourself plummeting downward onto the hard ground. A small cloud
+is floating above you. The rope seems to lead directly through it.
+~
+~
+0 268574724 0 0
+D4
+~
+~
+0 0 7776
+D5
+The Courtyard lies far beneath you.
+~
+~
+0 0 7715
+P SPEECH 7775 *~
+P RANDOM 7774 100~
+P RANDOM 7775 50~
+S
+#7776
+`8On a small cloud``~
+You find yourself floating on a small cloud, far above the Courtyard.
+The surface here is odd, and almost spongy, and it is very obvious that
+this cloud is magically created. Eastward, you see something glimmer in
+the distance, and you feel a compelling need to venture there, to see
+what mischief is afoot.
+~
+~
+0 268566528 0 0
+D1
+A small patch of clouds lies east of you.
+~
+~
+0 0 7777
+D5
+A long rope leads downward.
+~
+~
+0 0 7775
+S
+#7777
+`8A cloudy archway``~
+You stand an a strange, clouded archway. There don't seem to be any exits here,
+at least none visible, but lost within these clouds, anywhere could be an exit.
+The strange, airy room you are in is almost squarish, with some thick, glowing
+carpets lying on the "floor", hovering slightly. The only way that appears to
+be 'out' is back behind you, from whence you came. A large cloudman stands here,
+casting a "stormy" gaze at you as you enter.
+~
+~
+0 268566540 0 0
+E
+lettering~
+As you peer at the cloudman, the lettering on him reveals...
+ 
+"I ask only this, that you keep your silence here. If you speak, you will disturb
+my cloud structure here, and frighten the birds...Only one word will answer the
+riddle, and keep the birds from fleeing...Think on it...
+ 
+"`3This man is my father's son, and my son's father.``"
+ 
+"`6Who is this man?``"
+ 
+Answer only once, and once only, with one word...And I will grant you this key!
+~
+S
+#7778
+`8Lost in the clouds``~
+You cannot see so much as your hand before you face in this area. As you
+find yourself clawing for vision, you feel the claws of some beast attack
+you immediately! In the confusion, all perspective of direction is lost,
+and you feel the need to `!FLEE``!
+~
+~
+0 268566536 0 0
+D5
+The Courtyard lies directly below you.
+~
+~
+0 0 7715
+S
+#7780
+`8A cluttered study``~
+You stand within a cluttered study and bedroom. Large bookshelves hold massive
+tomes of forgotten knowledge, while several small desks hold candles that have
+long since burned to their base. The floor is covered with wax and discarded
+sheets of paper, and a small bed lies unmade in the far corner. Downward lies
+the classroom.
+~
+~
+0 268566528 0 0
+D5
+~
+~
+0 0 7719
+S
+#7781
+`8A spartan bedroom``~
+You stand in a room above the classroom. The room is rather bare, but sports
+a wooden bed, and a few leather sacks filled with clothing and training weapons.
+A small desk sits in the corner, where several sheets of parchment lie with
+haphazard abandon about the desk. A small flight of steps leads downward to
+the classroom.
+~
+~
+0 268574720 0 0
+D5
+~
+~
+0 0 7720
 S
 #0
 
@@ -1621,6 +3958,10 @@ S
 
 
 #SPECIALS
+M 7701 spec_breath_any
+M 7774 spec_cast_adept
+M 7780 spec_keeper_move
+M 7781 spec_keeper_move
 S
 
 
@@ -1629,7 +3970,89 @@ S
 #0
 
 #RESETS
-M 0 7702 1 7701 1
+M 0 7700 1 7700 1
+M 0 7701 1 7701 1
+O 0 7702 0 7702
+O 0 7703 0 7703
+M 0 7704 1 7704 1
+M 0 7705 1 7705 1
+O 0 7706 0 7706
+O 0 7707 0 7707
+O 0 7711 0 7707
+O 0 7718 0 7707
+O 0 7709 0 7708
+O 0 7708 0 7708
+O 0 7705 0 7708
+O 0 7717 0 7708
+O 0 7712 0 7709
+O 0 7713 0 7709
+O 0 7714 0 7709
+O 0 7716 0 7709
+O 0 7710 0 7710
+O 0 7750 0 7711
+O 0 7751 0 7712
+O 0 7752 0 7713
+O 0 7715 0 7715
+O 0 7720 0 7715
+M 0 7716 1 7716 1
+O 0 7770 0 7716
+M 0 7717 1 7717 1
+G 0 7798 0
+G 0 7799 0
+M 0 7718 1 7718 1
+G 0 7793 0
+G 0 7794 0
+G 0 7795 0
+O 0 7719 0 7719
+M 0 7780 1 7719 1
+O 0 7719 0 7720
+M 0 7781 1 7720 1
+M 0 7724 1 7724 1
+E 0 7724 0 3
+M 0 7738 20 7725 2
+M 0 7738 20 7728 2
+E 0 7743 0 3
+M 0 7738 20 7730 2
+M 0 7771 20 7732 2
+M 0 7771 20 7733 2
+M 0 7733 15 7734 2
+E 0 7734 0 9
+E 0 7735 0 15
+E 0 7735 0 16
+M 0 7737 2 7736 20
+E 0 7741 0 6
+E 0 7742 0 13
+M 0 7737 2 7737 20
+E 0 7737 0 8
+E 0 7738 0 14
+E 0 7739 0 12
+M 0 7771 20 7738 2
+M 0 7743 20 7741 2
+M 0 7743 20 7742 2
+M 0 7743 2 7743 20
+E 0 7736 0 11
+M 0 7743 2 7744 20
+M 0 7743 2 7745 20
+M 0 7737 2 7748 20
+M 0 7743 20 7749 2
+M 0 7737 2 7753 20
+M 0 7737 2 7753 20
+M 0 7733 20 7757 2
+M 0 7733 15 7762 2
+M 0 7733 15 7763 2
+M 0 7738 20 7764 2
+M 0 7738 20 7765 2
+M 0 7771 20 7768 2
+M 0 7771 20 7770 2
+M 0 7771 20 7772 2
+M 0 7774 1 7774 1
+O 0 7774 0 7774
+O 0 7777 0 7777
+M 0 7777 1 7777 1
+G 0 7776 0
+P 0 7778 0 7777 1
+P 0 7775 0 7777 1
+M 0 7778 1 7778 1
 S
 
 
@@ -1652,18 +4075,12 @@ else
 endif
 ~
 #7701
-say To begin your training, head north.
-say If you'd like to head directly to the arena, you can open this southward door.
+say Welcome to the University, $n! 
+say If you'd like to head directly to the Courtyard, you can open this southward door.
 emote points to a doorway to the south.
-say Remember to read HELP ACADEMY and good luck!
-~
-#7702
-Say Here you must learn the simple ways of our communication. We do so in a few ways.
-Say You can always 'say' things like I am now, or you can 'tell' them only to those you wish to hear them.
-Say If you would like to know more of these things, consult their help scrolls by using 'Help say" or 'Help tell" respectively.
-~
-#7703
-Say If you need me to teach you, just say so.
+say I will go ahead and assign you a guide to aid in your travel!
+force $n guide
+smile
 ~
 #7710
 if isnpc $n
@@ -1723,7 +4140,7 @@ snort
 #7715
 say Ah, yes, your behavior.
 emote thinks thoughtfully.
-say You are an emblem of the Vortex of Magic.
+say You are an emblem of the Source of Ether.
 say You have been gifted with the innate ability to use this force!
 say Because of this, you are above the foolish brutish warrior classes.
 say You will carry yourself with dignity...
@@ -1733,7 +4150,6 @@ smile $n
 ~
 #7716
 if carries $n 7769
-or hasquest $n 'recieved a diploma.'
      say Ah, yes, $n. Well done, and congratulations on your graduation!
      shake $n
      say Good luck in the real world!
@@ -1742,7 +4158,6 @@ else
      give 1. $n
      say Congratulations, $n, you have earned your diploma!
      shake $n
-     mob tempquest $n recieved a diploma.
 endif
 ~
 #7717
@@ -1762,11 +4177,11 @@ smile
 #7718
 say Yes, you seek information about our past...
 smile
-say Our main deities are Mircea, and the late Drenaar.
+say Our main deities are Pajumet, and the late Rhuma.
 frown
-say They upkeep and maintain the Vortex of Magic...
+say They upkeep and maintain the Source of Ether...
 say From where all things magic came.
-say Also, the Dark Gods, Virigoth and Arzaeth are the deities of many of the magi.
+say Also, the Dark Gods, Morgorin and Ixtaros are the deities of many of the magi.
 say For they both utilize and provide magics, as well.
 say We have long since been proud of our knowledge and intellect.
 say This alone has bested many a foolish Warmaster.
@@ -1797,28 +4212,40 @@ say Welcome, $n.
 say If you need the n-o-t-e-s, just say the word, and I will provide you with them.
 ~
 #7783
-say O
-if hasquest $n 'been given the notes.'
- say You've already been given the notes.
- break
-endif
-'Oh, yes, $n. Here is your copy of the material.
- load obj 7796
+say Oh, yes, $n. Here is your copy of the material.
+load obj 7796
 give notes $n
-mob tempquest $n been given the notes.
 ~
 #7784
-if isnpc $n
-  break
-endif
-if hasquest $n 'been given the notes.'
- say You've already been given the notes.
- break
-endif
 say Oh, yes, $n. Here is your copy of the material.
 load obj 7797
 give notes $n
-mob tempquest $n been given the notes.
+~
+#7797
+say Here you go, $n.
+advance $n 50
+restore $n
+say You're level 50 now. Time to get you outta here!
+mob cast 'word of recall' $n
+~
+#7798
+say Splendid!
+     mob oload 42
+     give 1. $n
+     say There you are. Enjoy!
+     smile $n
+     mob permquest $n Gotten Armor from Girard
+~
+#7799
+say Ah, yes, welcome $n, welcome to Mirlan. We're ever so glad you came.
+say Now, I'm Girard, and I'll help you get adjusted!
+mob oload 42
+give 1. $n
+say There's some armor....
+say Now to advance you...
+advance $n 30
+say Enjoy Mirlan, $n!
+mob cast 'word of recall' $n
 ~
 #0
 

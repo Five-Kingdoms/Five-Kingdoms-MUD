@@ -1,0 +1,13 @@
+>rand_prog 3~
+if rand(10)
+	nofol
+else
+	if rand(50)
+		c "stone golem"
+	else
+		c "flesh golem"
+	endif
+endif
+~
+|
+

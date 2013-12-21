@@ -1,5 +1,5 @@
 >entry_prog 5~
-say I am the Enforcer of Law, Guardian of Val Miran.
+say I am the Enforcer of Law, Guardian of Revelsport.
 say You better observe the laws while I'm around.
 ~
 >rand_prog 10~

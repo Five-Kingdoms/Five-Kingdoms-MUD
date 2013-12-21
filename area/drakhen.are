@@ -1,0 +1,1930 @@
+#AREADATA
+Name the Drakhenspur Mountains~
+Pref ~
+Builders Teronim~
+VNUMs 400 499
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 2
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#400
+cave bear~
+a cave bear~
+A cave bear is here, glaring at you.
+~
+This bear is covered with thick brown fur.  Long teeth are stained with
+blood and jut out from it's mouth.  HUGE claws arm this bear, and it's
+almost enough to make you run.  
+~
+bear~
+Ae A 0 0 -1 0
+40 20 10d61+419 0d0+0 5d6+19 none
+0 0 0 0
+DEO 0 EI 0
+sleep stand male none~
+15
+AG ACDEFJKU medium 0
+#401
+barbarian warrior~
+a tall cave barbarian~
+A tall cave barbarian is here, glaring at you.
+~
+Before you is a tall barbarian, with a long, shaggy beard.  He holds a
+large club made from a tree trunk in one hand and has a tight fist balled
+with the other.  Around his waist is a loin cloth, made of pale leather,
+beaten by weather and time.  
+~
+human~
+A A 0 0 -1 0
+35 21 10d61+419 35d10+100 5d6+19 none
+-1 -1 -1 0
+0 I H S
+stand stand male none~
+20
+AHMV ABCDEFGHIJK medium 0
+#402
+cave barbarian chief~
+a cave barbarian chief~
+A particularly vicious looking barbarian stands here, ready to attack.
+~
+A tall barbarian stands here, his beard longer than any other barbarians.
+He wears a large ugly crown on his head, letting it droop over his eyes
+slightly.  He wields a large sword made of stone, that looks like it could
+crush your skull in a single drop 
+~
+human~
+A A 0 0 -1 0
+40 30 10d100+610 40d10+100 5d8+24 punch
+0 0 0 0
+0 I H 0
+stand stand male none~
+14
+AHMV ABCDEFGHIJK medium 0
+#403
+large condor~
+a large condor~
+A large condor is here, getting ready to peck your eyes out.
+~
+A large condor sits on a branch here, eyeing you up.  It's about as big
+as an ogre's torso.  It has big grey feathers on it's wings, and it's beak
+is covered in blood.  HUGE talons on it's feet scratch at the rocks, leaving
+huge gashes in the stone.  Better stay your distance away from it.  
+~
+unique~
+A A T 0 -1 0
+40 20 10d100+620 40d10+100 5d8+20 beating
+0 0 0 0
+0 0 0 0
+stand stand female none~
+23
+0 0 large 0
+#404
+squirrel~
+a small squirrel~
+A small squirrel is here, chittering at you.
+~
+Short and brown, with a fluffy tail, this squirrel looks like any other
+squirrel.  Quite cute actually.  
+~
+unique~
+A A 0 0 0 0
+0 5 1d1+1 0d0+0 1d1+1 none
+0 0 0 0
+0 0 0 0
+stand stand male none~
+6
+0 0 small 0
+#0
+
+
+
+#OBJECTS
+#400
+bear claw~
+claws of a cave bear~
+(no description)~
+bone~
+armor 0 AH
+0 0 0 0 0
+53 0 0 P
+#402
+condor talon~
+a pair of condor talons~
+A pair of sharp talons from a condor lies here.~
+bone~
+armor 0 G
+-3 -1 -2 -1 0
+0 0 0 P
+F
+A 18 2 0
+F
+A 19 1 0
+#0
+
+
+
+#ROOMS
+#400
+`3The base of the Drakhenspur Mountains``~
+Before you looms a mountain range of gigantic proportions.  They are so
+big that you cannot even see the peak of the one before you.  A small path
+leads through the middle, with the mountains overhanging dangerously on
+either side.  There is a small sign here that reads "Warning!  Avalanches
+may occur!"  Northwards lays the path through, while south returns you to
+your start.  
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 401
+S
+#401
+`3The Start of the Path``~
+You are now standing at the path to the Drakhenspur Mountains.  They loom
+before you, almost daring you to enter.  Brave are those who venture here.  
+~
+~
+0 0 8192 5
+D0
+~
+~
+0 0 402
+D2
+~
+~
+0 0 400
+S
+#402
+`3A Split in the Path``~
+You have arrived at a fork in your trail.  Now is the time to decide your
+path.  Choose it wisely.  
+~
+~
+0 0 8192 5
+D1
+~
+~
+0 0 403
+D2
+~
+~
+0 0 401
+D3
+~
+~
+0 0 406
+S
+#403
+`3Down the Eastern Path``~
+You now travel down the first of many paths, leading to either your doom,
+or profit.  Choose wisely.  
+~
+~
+0 0 16384 5
+D1
+~
+~
+0 0 404
+D3
+~
+~
+0 0 402
+S
+#404
+`3Between Cliffs``~
+You walk down a trail now, that is almost hidden deep between two
+mountain faces.  Only the strongest shrubs survive and those are sparse. 
+You walk carefully so as not to cause an avalanche which would almost
+certainly mean death 
+~
+~
+0 0 16384 5
+D1
+~
+~
+0 0 405
+D3
+~
+~
+0 0 403
+S
+#405
+`3Between Cliffs``~
+You walk down a trail now, that is almost hidden deep between two
+mountain faces.  Only the strongest shrubs survive, and those are sparse. 
+You walk carefully so as not to cause an avalanche which would almost
+certainly mean death 
+~
+~
+0 0 65536 5
+D1
+~
+~
+0 0 410
+D3
+~
+~
+0 0 404
+S
+#406
+`3The Western Path``~
+You now travel down the first of many paths, leading to either your doom,
+or profit.  Choose wisely.  
+~
+~
+0 0 8192 5
+D1
+~
+~
+0 0 402
+D3
+~
+~
+0 0 407
+S
+#407
+`3Between Cliffs``~
+You walk down a trail now, that is almost hidden deep between two
+mountain faces.  Only the strongest shrubs survive, and those are sparse. 
+You walk carefully so as not to cause an avalanche which would almost
+certainly mean death 
+~
+~
+0 0 32768 5
+D1
+~
+~
+0 0 406
+D3
+~
+~
+0 0 408
+S
+#408
+`3Between Cliffs``~
+You walk down a trail now, that is almost hidden deep between two
+mountain faces.  Only the strongest shrubs survive, and those are sparse. 
+You walk carefully so as not to cause an avalanche which would almost
+certainly mean death 
+~
+~
+0 0 16384 5
+D1
+~
+~
+0 0 407
+D3
+~
+~
+0 0 409
+S
+#409
+`3A Turn in the Path``~
+You come to a turn in the path.  Either you take it, not knowing the
+dangers ahead, or return where you came from, forever labelled a coward.  
+~
+~
+0 0 8192 5
+D0
+~
+~
+0 0 411
+D1
+~
+~
+0 0 408
+S
+#410
+`3A Sharp Turn in the Trail``~
+You come to a turn in the path.  Either you take it, not knowing the
+dangers ahead, or return where you came from, forever labelled a coward.  
+~
+~
+0 0 8192 5
+D2
+~
+~
+0 0 418
+D3
+~
+~
+0 0 405
+S
+#411
+`3A Slowly Elevating Grade``~
+Now you climb up a long path that slowly but surely gets higher and
+higher.  With each step, gravel skitters down the incline.  Small bushes
+struggle to survive, but none can make it in the harsh terrain.  
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 412
+D2
+~
+~
+0 0 409
+S
+#412
+`3A Small Overlook``~
+You stand on the edge of a cliff, looking over a great distance.  Nice
+view, eh?  
+~
+~
+0 0 32768 5
+D2
+~
+~
+0 0 411
+D5
+~
+~
+0 0 413
+S
+#413
+`3Another Split Path``~
+You have arrived at a fork in your trail.  Now is the time to decide your
+path.  Choose it wisely.  
+~
+~
+0 0 32768 5
+D1
+~
+~
+AB 0 414
+D3
+~
+~
+0 0 415
+D4
+~
+~
+0 0 412
+S
+#414
+`8A Damp Cave``~
+You stand in a damp, dark cave.  The temperature here is significantly
+lower than right outside.  Stalagtites and stalagmites are everywhere and
+you can hear the faint drip of percipitation.  Small animals skitter across
+the floors and wells, echoing softly.  
+~
+~
+0 0 0 0
+D3
+~
+~
+AB 0 413
+T 60
+S
+#415
+`3A Turn in the Path``~
+You come to a turn in the path.  Either you take it, not knowing the
+dangers ahead, or return where you came from, forever labelled a coward.  
+~
+~
+0 0 65536 5
+D0
+~
+~
+0 0 416
+D1
+~
+~
+0 0 413
+S
+#416
+`3A Slowly Elevating Grade``~
+Now you climb up a long path that slowly but surely gets higher and
+higher.  With each step, gravel skitters down the incline.  Small bushes
+struggle to survive, but none can make it in the harsh terrain.  
+~
+~
+0 0 65536 5
+D0
+~
+~
+0 0 417
+D2
+~
+~
+0 0 415
+S
+#417
+`3A Steep Climb``~
+You come now to a cliff that is almost straight up.  Holes and jutting
+rocks provide the only means for climbing.  Unless you can fly, you better
+be careful, because the only other way is down.  STRAIGHT down.  
+~
+~
+0 0 65536 5
+D2
+~
+~
+0 0 416
+D4
+~
+~
+0 0 424
+S
+#418
+`3Three Way Split``~
+You have arrived at a fork in your trail.  Now is the time to decide your
+path.  Choose it wisely.  
+~
+~
+0 0 65536 5
+D0
+~
+~
+0 0 410
+D1
+~
+~
+0 0 420
+D3
+~
+~
+0 0 419
+S
+#419
+`8A Damp Cave``~
+You stand in a damp, dark cave.  The temperature here is significantly
+lower than right outside.  Stalagtites and stalagmites are everywhere and
+you can hear the faint drip of percipitation.  Small animals skitter across
+the floors and wells, echoing softly.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 418
+T 60
+S
+#420
+`3Darker Canyons``~
+Surrounding you on either side are canyons made of a dark rock.  High
+above you, huge overhangings black out most of the light.  The air smells of
+meat, and as you walk further, the scent grows.  
+~
+~
+0 0 8192 5
+D1
+~
+~
+0 0 421
+D3
+~
+~
+0 0 418
+S
+#421
+`3On a Cliff``~
+Before you are steps carved into the cliff which gradually descend to the
+bottom.  
+~
+~
+0 0 65536 5
+D3
+~
+~
+0 0 420
+D5
+~
+~
+0 0 422
+S
+#422
+`3Down the Cliff``~
+Before you are steps carved into the cliff which gradually descend to the
+bottom.  
+~
+~
+0 0 8192 5
+D4
+~
+~
+0 0 421
+D5
+~
+~
+0 0 423
+S
+#423
+`3The Bottom of the Cliff``~
+At the bottom of a cliff is where you stand now, exhausted at the THOUGHT
+of the climb up.  Soft grass grows underfoot, and a tree nearby somehow
+manages to bear fruit.  The sky above is open and you can see it clearly.  
+~
+~
+0 0 16384 5
+D1
+~
+~
+0 0 427
+D4
+~
+~
+0 0 422
+S
+#424
+`3Almost Straight Up``~
+You come now to a cliff that is almost straight up.  Holes and jutting
+rocks provide the only means for climbing.  Unless you can fly, you better
+be careful, because the only other way is down.  STRAIGHT down.  
+~
+~
+0 0 16384 5
+D4
+~
+~
+0 0 425
+D5
+~
+~
+0 0 417
+S
+#425
+`3A Large Overlook``~
+You stand on the edge of a cliff, looking over a great distance.  Nice
+view, eh?  
+~
+~
+0 0 65536 5
+D1
+~
+~
+0 0 426
+D5
+~
+~
+0 0 424
+S
+#426
+`3A Thin Path``~
+You walk on a dangerously narrow trail.  You have 3 feet of stone to walk
+on, as each side of you is a straight drop, and it's a loooooong way down.  
+~
+~
+0 0 65536 5
+D1
+~
+~
+0 0 428
+D3
+~
+~
+0 0 425
+S
+#427
+`8A Damp Cave``~
+You stand in a damp, dark cave.  The temperature here is significantly
+lower than right outside.  Stalagtites and stalagmites are everywhere and
+you can hear the faint drip of percipitation.  Small animals skitter across
+the floors and wells, echoing softly.  
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 423
+T 60
+S
+#428
+`3A Thin Path``~
+You walk on a dangerously narrow trail.  You have 3 feet of stone to walk
+on, as each side of you is a straight drop, and it's a loooooong way down.  
+~
+~
+0 0 16384 5
+D1
+~
+~
+0 0 429
+D3
+~
+~
+0 0 426
+S
+#429
+`3A Thin Path``~
+You walk on a dangerously narrow trail.  You have 3 feet of stone to walk
+on, as each side of you is a straight drop, and it's a loooooong way down.  
+~
+~
+0 0 65536 5
+D1
+~
+~
+0 0 430
+D3
+~
+~
+0 0 428
+S
+#430
+`3A Thin Path``~
+You walk on a dangerously narrow trail.  You have 3 feet of stone to walk
+on, as each side of you is a straight drop, and it's a loooooong way down.  
+~
+~
+0 0 65536 5
+D1
+~
+~
+0 0 431
+D3
+~
+~
+0 0 429
+S
+#431
+`3A Thin Path``~
+You walk on a dangerously narrow trail.  You have 3 feet of stone to walk
+on, as each side of you is a straight drop, and it's a loooooong way down.  
+~
+~
+0 0 65536 5
+D1
+~
+~
+0 0 432
+D3
+~
+~
+0 0 430
+S
+#432
+`3A Sharp Curve``~
+You come to a turn in the path.  Either you take it, not knowing the
+dangers ahead, or return where you came from, forever labelled a coward.  
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 433
+D3
+~
+~
+0 0 431
+S
+#433
+`3Against a Rockface``~
+You now walk along a rockface, the edge being a safe ten feet out.  Over
+the edge you see more mountains and sometimes a distant bird.  Pebbles
+crunch under your boots with each step.  
+~
+~
+0 0 65536 5
+D0
+~
+~
+0 0 434
+D1
+~
+~
+0 0 441
+D2
+~
+~
+0 0 432
+S
+#434
+`3A Turn on the Edge``~
+You come to a turn in the path.  Either you take it, not knowing the
+dangers ahead, or return where you came from, forever labelled a coward.  
+~
+~
+0 0 65536 5
+D2
+~
+~
+0 0 433
+D3
+~
+~
+0 0 435
+S
+#435
+`3A Thin Edge``~
+With a wall to your back and a long way down in front of you, carefully
+place your feet and watch for broken rocks.  
+~
+~
+0 0 8192 5
+D1
+~
+~
+0 0 434
+D3
+~
+~
+0 0 436
+S
+#436
+`3A Broadening Trail``~
+You walk now on a path that, a few steps ago was narrow, but now grows
+wider.  Trees grow on either side, competing in the harsh area for water. 
+Cliff lizards and insects flit about the path as you walk.  
+~
+~
+0 0 8192 5
+D0
+~
+~
+0 0 439
+D1
+~
+~
+0 0 435
+D3
+~
+~
+0 0 437
+S
+#437
+`3A Thin Path``~
+You walk on a dangerously narrow trail.  You have 3 feet of stone to walk
+on, as each side of you is a straight drop, and it's a loooooong way down.  
+~
+~
+0 0 65536 5
+D1
+~
+~
+0 0 436
+D3
+~
+~
+0 0 438
+S
+#438
+`3A Thin path``~
+You walk on a dangerously narrow trail.  You have 3 feet of stone to walk
+on, as each side of you is a straight drop, and it's a loooooong way down.  
+~
+~
+0 0 8192 5
+D1
+~
+~
+0 0 437
+D3
+~
+~
+0 0 445
+S
+#439
+`3A Wide Path``~
+You walk now, comfortable on this path, with many feet on each side.  The
+canyons give you a cool, soft breeze, cooling you down.  Pine trees grow
+tall and big here, and squirrels group in abundance.  Even the occasional
+chipmunk titters at you.  
+~
+~
+0 0 65536 5
+D0
+~
+~
+0 0 440
+D2
+~
+~
+0 0 436
+S
+#440
+`3A Wide Path``~
+You walk now, comfortable on this path, with many feet on each side.  The
+canyons give you a cool, soft breeze, cooling you down.  Pine trees grow
+tall and big here, and squirrels group in abundance.  Even the occasional
+chipmunk titters at you.  
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 446
+D2
+~
+~
+0 0 439
+S
+#441
+`3A Thin Path``~
+You walk on a dangerously narrow trail.  You have 3 feet of stone to walk
+on, as each side of you is a straight drop, and it's a loooooong way down.  
+~
+~
+0 0 16384 5
+D1
+~
+~
+0 0 442
+D3
+~
+~
+0 0 433
+S
+#442
+`3A Sharp Drop``~
+You are now standing on a stone ridge on the side of a cliff.  The only
+way to go is down.  Better not slip.  
+~
+~
+0 0 8192 5
+D3
+~
+~
+0 0 441
+D5
+~
+~
+0 0 443
+S
+#443
+`3Down the Drop``~
+You are now standing on a stone ridge on the side of a cliff.  The only
+way to go is down.  Better not slip.  
+~
+~
+0 0 32768 5
+D4
+~
+~
+0 0 442
+D5
+~
+~
+0 0 444
+S
+#444
+`3A Long Way Down``~
+Dangerously standing on a thin ridge, you look down and can faintly see a
+downward hill, that with luck, you could land on.  You cannot, however, see
+where it ends.  Looking up, you see only black.  LOOK OUT BELOW!  
+~
+~
+0 0 32768 5
+D5
+~
+~
+0 0 400
+S
+#445
+`3A High Overlook``~
+You stand on the edge of a cliff, looking over a great distance.  Nice
+view, eh?  
+~
+~
+0 0 16384 5
+D1
+~
+~
+0 0 438
+S
+#446
+`3A Wide Path``~
+You walk now, comfortable on this path, with many feet on each side.  The
+canyons give you a cool, soft breeze, cooling you down.  Pine trees grow
+tall and big here, and squirrels group in abundance.  Even the occasional
+chipmunk titters at you.  
+~
+~
+0 0 65536 5
+D0
+~
+~
+0 0 447
+D2
+~
+~
+0 0 440
+S
+#447
+`3A Fork in the Path``~
+You have arrived at a fork in your trail.  Now is the time to decide your
+path.  Choose it wisely.  
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 448
+D1
+~
+~
+0 0 449
+D2
+~
+~
+0 0 446
+S
+#448
+`3A Vine Covered Cave Entrance``~
+In front of you is a cave.  The gaping maw itself is covered with thick
+green vines.  Moss coveres the rocks thickly, making it look almost healthy.
+If it werent' for the bones near the entrance, it might almost look
+inviting.  From inside you can hear a faint rumbling.  
+~
+~
+0 0 8192 5
+D0
+~
+~
+AB 0 493
+D2
+~
+~
+0 0 447
+S
+#449
+`3The Path to Topshannah Forest``~
+You now walk on a healthy path, surrounded by life.  You see a thick
+grove on the path near you.  Birds, deer, and other forest creatures can be
+seen.  You can even hear a stream.  The smell of flowers takes you over from
+the grove.  
+~
+~
+0 0 8192 5
+D1
+~
+~
+0 0 450
+D3
+~
+~
+0 0 447
+S
+#450
+`3The Path to Tophsannah Forest``~
+You now walk on a healthy path, surrounded by life.  You see a thick
+grove on the path near you.  Birds, deer, and other forest creatures can be
+seen.  You can even hear a stream.  The smell of flowers takes you over from
+the grove.  
+~
+~
+0 0 16384 5
+D1
+~
+~
+0 0 451
+D3
+~
+~
+0 0 449
+S
+#451
+`@Tophsannah Forest``~
+You stand underneath the tallest oak trees you've ever seen.  They lead
+up so high, they top off in the clouds.  Forest animals wander around,
+grazing and the whole area seems quite peaceful.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 452
+D3
+~
+~
+0 0 450
+S
+#452
+`@Tophsannah Forest``~
+You stand underneath the tallest oak trees you've ever seen.  They lead
+up so high, they top off in the clouds.  Forest animals wander around,
+grazing and the whole area seems quite peaceful.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 453
+D2
+~
+~
+0 0 451
+S
+#453
+`@Tophsannah Forest``~
+You stand underneath the tallest oak trees you've ever seen.  They lead
+up so high, they top off in the clouds.  Forest animals wander around,
+grazing and the whole area seems quite peaceful.  
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 454
+D2
+~
+~
+0 0 452
+S
+#454
+`@Tophsannah Forest``~
+You stand underneath the tallest oak trees you've ever seen.  They lead
+up so high, they top off in the clouds.  Forest animals wander around,
+grazing and the whole area seems quite peaceful.  
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 461
+D2
+~
+~
+0 0 455
+D3
+~
+~
+0 0 453
+S
+#455
+`@Tophsannah Forest``~
+You stand underneath the tallest oak trees you've ever seen.  They lead
+up so high, they top off in the clouds.  Forest animals wander around,
+grazing and the whole area seems quite peaceful.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 454
+D1
+~
+~
+0 0 460
+D2
+~
+~
+0 0 456
+S
+#456
+`@Tophsannah Forest``~
+You stand underneath the tallest oak trees you have ever seen.  They lead
+up so high they top off in the clouds.  Forest animals wander around,
+grazing peacefully.  The whole area seems quite calm and pleasant.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 455
+D1
+~
+~
+0 0 459
+D2
+~
+~
+0 0 457
+S
+#457
+`@Tophsannah Forest``~
+You stand underneath the tallest oak trees you have ever seen.  They lead
+up so high they top off in the clouds.  Forest animals wander around,
+grazing peacefully.  The whole area seems quite calm and pleasant.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 456
+D1
+~
+~
+0 0 458
+S
+#458
+`@Tophsannah Forest``~
+You stand underneath the tallest oak trees you have ever seen.  They lead
+up so high they top off in the clouds.  Forest animals wander around,
+grazing peacefully.  The whole area seems quite calm and pleasant.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 459
+D1
+~
+~
+0 0 465
+D3
+~
+~
+0 0 457
+S
+#459
+`^A Calm Running Stream``~
+You are in a small clearing in the forest.  A quietly babbling stream
+runs through the middle, and animals drink the cool, fresh water, paying no
+attention to you.  
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 460
+D1
+~
+~
+0 0 464
+D2
+~
+~
+0 0 458
+D3
+~
+~
+0 0 456
+S
+#460
+`^A Calm Running Stream``~
+You are in a small clearing in the forest.  A quietly babbling stream
+runs through the middle, and animals drink the cool, fresh water, paying no
+attention to you.  
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 461
+D1
+~
+~
+0 0 463
+D2
+~
+~
+0 0 459
+D3
+~
+~
+0 0 455
+S
+#461
+`@Tophsannah Forest``~
+You stand underneath the tallest oak trees you have ever seen.  They lead
+up so high they top off in the clouds.  Forest animals wander around,
+grazing peacefully.  The whole area seems quite calm and pleasant.  
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 462
+D2
+~
+~
+0 0 460
+D3
+~
+~
+0 0 454
+S
+#462
+`@Tophsannah Forest``~
+You stand underneath the tallest oak trees you have ever seen.  They lead
+up so high they top off in the clouds.  Forest animals wander around,
+grazing peacefully.  The whole area seems quite calm and pleasant.  
+~
+~
+0 0 8192 3
+D2
+~
+~
+0 0 463
+D3
+~
+~
+0 0 461
+S
+#463
+`@Tophsannah Forest``~
+You stand underneath the tallest oak trees you have ever seen.  They lead
+up so high they top off in the clouds.  Forest animals wander around,
+grazing peacefully.  The whole area seems quite calm and pleasant.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 462
+D2
+~
+~
+0 0 464
+D3
+~
+~
+0 0 460
+S
+#464
+`@Tophsannah Forest``~
+You stand underneath the tallest oak trees you have ever seen.  They lead
+up so high they top off in the clouds.  Forest animals wander around,
+grazing peacefully.  The whole area seems quite calm and pleasant.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 463
+D2
+~
+~
+0 0 465
+D3
+~
+~
+0 0 459
+S
+#465
+`@Tophsannah Forest``~
+You stand underneath the tallest oak trees you have ever seen.  They lead
+up so high they top off in the clouds.  Forest animals wander around,
+grazing peacefully.  The whole area seems quite calm and pleasant.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 464
+D1
+~
+~
+0 0 466
+D3
+~
+~
+0 0 458
+S
+#466
+`3The Path to Tophsannah Forest``~
+You now walk on a healthy path, surrounded by life.  You see a thick
+grove on the path near you.  Birds, deer, and other forest creatures can be
+seen.  You can even hear a stream.  The smell of flowers takes you over from
+the grove.  
+~
+~
+0 0 16384 5
+D1
+~
+~
+0 0 467
+D3
+~
+~
+0 0 465
+S
+#467
+`3A Slight Curve``~
+You come to a turn in the path.  Either you take it, not knowing the
+dangers ahead, or return where you came from, forever labelled a coward.  
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 468
+D3
+~
+~
+0 0 466
+S
+#468
+`3Between Cliffs``~
+You walk down a trail now, that is almost hidden deep between two
+mountain faces.  Only the strongest shrubs survive, and those are sparse. 
+You walk carefully so as not to cause an avalanche which would almost
+certainly mean death 
+~
+~
+0 0 8192 5
+D0
+~
+~
+0 0 469
+D2
+~
+~
+0 0 467
+S
+#469
+`3Between Cliffs``~
+~
+~
+0 0 8192 5
+D0
+~
+~
+0 0 470
+D2
+~
+~
+0 0 468
+S
+#470
+`3Between Cliffs``~
+You walk down a trail now, that is almost hidden deep between two
+mountain faces.  Only the strongest shrubs survive, and those are sparse. 
+You walk carefully so as not to cause an avalanche which would almost
+certainly mean death 
+~
+~
+0 0 8192 5
+D0
+~
+~
+0 0 471
+D2
+~
+~
+0 0 469
+S
+#471
+`3Between Cliffs``~
+You walk down a trail now, that is almost hidden deep between two
+mountain faces.  Only the strongest shrubs survive, and those are sparse. 
+You walk carefully so as not to cause an avalanche which would almost
+certainly mean death 
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 472
+D2
+~
+~
+0 0 470
+S
+#472
+`3A Steady Curve``~
+You come to a turn in the path.  Either you take it, not knowing the
+dangers ahead, or return where you came from, forever labelled a coward.  
+~
+~
+0 0 32768 5
+D2
+~
+~
+0 0 471
+D3
+~
+~
+0 0 473
+S
+#473
+`3A Calm Path``~
+You walk down a wide path now, and silence covers you.  Only the faintest
+breezes blows here, barely stirring a hair.  Not even the animals stir here,
+giving almost a deathly calm.  
+~
+~
+0 0 8192 5
+D1
+~
+~
+0 0 472
+D3
+~
+~
+0 0 474
+S
+#474
+`3A Calm Path``~
+You walk down a wide path now, and silence covers you.  Only the faintest
+breezes blows here, barely stirring a hair.  Not even the animals stir here,
+giving almost a deathly calm.  
+~
+~
+0 0 16384 5
+D1
+~
+~
+0 0 473
+D3
+~
+~
+0 0 475
+S
+#475
+`3Before a Bright Field``~
+You stand in a small clearing.  Around you are two very different
+settings.  To the east and north are mountains, but to the west is a large,
+open field.  
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 476
+D1
+~
+~
+0 0 474
+D3
+~
+~
+0 0 477
+S
+#476
+`3Towards the Dark Ridges``~
+You walk now, in a dead area.  All is quiet aorund you, and you feel a
+drain on your lifeforce.  The famed Dark Ridges are close, and a dark
+feeling comes over you.  
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 478
+D2
+~
+~
+0 0 475
+S
+#477
+`3A Bright Field``~
+All around you is tall, green grass blowing in the wind.  The light warms
+you, filling you with hope.  Deer grace and even a wolf lounges in the sun. 
+Flowers grow everywhere, and the rolling hills seem to beg for a picnic.  
+~
+~
+0 0 65536 2
+D1
+~
+~
+0 0 475
+S
+#478
+`3Towards the Dark Ridges``~
+You walk now, in a dead area.  All is quiet aorund you, and you feel a
+drain on your lifeforce.  The famed Dark Ridges are close, and a dark
+feeling comes over you.  
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 479
+D2
+~
+~
+0 0 476
+S
+#479
+`3The First of the Dark Ridges``~
+One of the Dark Ridges looms before you.  It is easy to see how they got
+their names, because they are covered in blackness.  It is said that five of
+the most evil wizards were killed here, one on each ridge, and that their
+vile blood soaked the stone with evil.  
+~
+~
+0 0 65536 5
+D2
+~
+~
+0 0 478
+D3
+~
+~
+0 0 480
+S
+#480
+`3Towards the Second of the Dark Ridges``~
+You walk now, in a dead area.  All is quiet aorund you, and you feel a
+drain on your lifeforce.  The famed Dark Ridges are close, and a dark
+feeling comes over you.  
+~
+~
+0 0 8192 5
+D1
+~
+~
+0 0 479
+D3
+~
+~
+0 0 481
+S
+#481
+`3Before the Second Dark Ridge``~
+Almost at one of the five Dark Ridges, a feeling of evil seeps into you,
+removing all hope and happiness.  Dark shadows line the walls, as if
+stalking you.  You might want to walk faster..  For safety.  
+~
+~
+0 0 65536 5
+D0
+~
+~
+0 0 482
+D1
+~
+~
+0 0 480
+S
+#482
+`3The Second Dark Ridge``~
+One of the Dark Ridges looms before you.  It is easy to see how they got
+their names, because they are covered in blackness.  It is said that five of
+the most evil wizards were killed here, one on each ridge, and that their
+vile blood soaked the stone with evil.  
+~
+~
+0 0 8192 5
+D1
+~
+~
+0 0 483
+D2
+~
+~
+0 0 481
+S
+#483
+`3Before a Pool``~
+From where you stand, you can see a deep cave lagoon.  You can't see the
+bottom even though the water is crystal clear.  Small silver fish dart
+around in the water, reflecting the minimal light and cave lizards lounge
+about on the rocks.  
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 484
+D1
+~
+~
+0 0 485
+D3
+~
+~
+0 0 482
+S
+#484
+`3Towards the Third Dark Ridge``~
+You walk now, in a dead area.  All is quiet aorund you, and you feel a
+drain on your lifeforce.  The famed Dark Ridges are close, and a dark
+feeling comes over you.  
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 486
+D2
+~
+~
+0 0 483
+S
+#485
+`^A Deep Cave Lagoon``~
+A deep cave lagoon washes water onto your feet.  One more step and you'd
+be in the water.  It's quite cold, but still inviting.  Perhaps a swim is in
+order?  
+~
+~
+0 0 0 6
+D3
+~
+~
+0 0 483
+S
+#486
+`3A Crack in the Canyon Wall``~
+Walking down this path, with your eyes peeled you see a small break in
+the east wall.  You can keep going, or perhaps you should examine that
+wall...  
+~
+~
+0 0 65536 5
+D0
+~
+~
+0 0 488
+D1
+~
+~
+ABM 0 487
+D2
+~
+~
+0 0 484
+S
+#487
+`8Into the Crack``~
+Go figure, an empty cave.  The only thing of interest is a name scratched
+into the wall by some vandal.  It reads "Elfrosto".  What a waste of time.  
+~
+~
+0 0 0 0
+D3
+~
+~
+ABM 0 486
+S
+#488
+`3Before the Third Dark Ridge``~
+Almost at one of the five Dark Ridges, a feeling of evil seeps into you,
+removing all hope and happiness.  Dark shadows line the walls, as if
+stalking you.  You might want to walk faster..  For safety.  
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 489
+D2
+~
+~
+0 0 486
+S
+#489
+`3The Third Dark Ridge``~
+You walk down a trail now, that is almost hidden deep between two
+mountain faces.  Only the strongest shrubs survive, and those are sparse. 
+You walk carefully so as not to cause an avalanche which would almost
+certainly mean death One of the Dark Ridges looms before you.  It is easy to
+see how they got their names, because they are covered in blackness.  It is
+said that five of the most evil wizards were killed here, one on each ridge,
+and that their vile blood soaked the stone with evil.  
+~
+~
+0 0 8192 5
+D2
+~
+~
+0 0 488
+D3
+~
+~
+0 0 490
+S
+#490
+`3Towards the Fourth Dark Ridge``~
+You walk now, in a dead area.  All is quiet aorund you, and you feel a
+drain on your lifeforce.  The famed Dark Ridges are close, and a dark
+feeling comes over you.  
+~
+~
+0 0 8192 5
+D1
+~
+~
+0 0 489
+D3
+~
+~
+0 0 491
+S
+#491
+`3Towards the Fourth Dark Ridge``~
+You walk now, in a dead area.  All is quiet aorund you, and you feel a
+drain on your lifeforce.  The famed Dark Ridges are close, and a dark
+feeling comes over you.  
+~
+~
+0 0 32768 5
+D1
+~
+~
+0 0 490
+D3
+~
+~
+0 0 492
+S
+#492
+`3Before the Fourth Dark Ridge``~
+Almost at one of the five Dark Ridges, a feeling of evil seeps into you,
+removing all hope and happiness.  Dark shadows line the walls, as if
+stalking you.  You might want to walk faster..  For safety.  
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 494
+D1
+~
+~
+0 0 491
+S
+#493
+`8The Lair of the Bear``~
+You stumbled upon a cave bear's home.  Luckily it's sleeping.  If you
+were smart, you'd leave quietly and leave it be.  
+~
+~
+0 0 0 0
+D2
+~
+~
+AB 0 448
+S
+#494
+`3The Fourth Dark Ridge``~
+One of the Dark Ridges looms before you.  It is easy to see how they got
+their names, because they are covered in blackness.  It is said that five of
+the most evil wizards were killed here, one on each ridge, and that their
+vile blood soaked the stone with evil.  
+~
+~
+0 0 32768 5
+D1
+~
+~
+0 0 495
+D2
+~
+~
+0 0 492
+S
+#495
+`3Before the Fifth Dark Ridge``~
+Almost at one of the five Dark Ridges, a feeling of evil seeps into you,
+removing all hope and happiness.  Dark shadows line the walls, as if
+stalking you.  You might want to walk faster..  For safety.  
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 496
+D3
+~
+~
+0 0 494
+S
+#496
+`3The Fifth Dark Ridge``~
+One of the Dark Ridges looms before you.  It is easy to see how they got
+their names, because they are covered in blackness.  It is said that five of
+the most evil wizards were killed here, one on each ridge, and that their
+vile blood soaked the stone with evil.  
+~
+~
+0 0 65536 5
+D2
+~
+~
+0 0 495
+D3
+~
+~
+0 0 497
+S
+#497
+`3Towards the Peak``~
+You now head towards the highest peak in the whole mountain range.  You
+can see it.  You are almost there.  
+~
+~
+0 0 65536 5
+D1
+~
+~
+0 0 496
+D3
+~
+~
+0 0 498
+S
+#498
+`3Almost to the Top``~
+Almost...  So...  Close!  
+~
+~
+0 0 8192 5
+D1
+~
+~
+0 0 497
+D4
+~
+~
+0 0 499
+S
+#499
+`3The Highest Peak of the Drakhenspur Mountains``~
+You finally reached the highest peak.  Leave a flag, give a yodel and
+head down before you die.  
+~
+~
+0 0 32768 5
+D5
+~
+~
+0 0 498
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 401 1 404 1
+M 0 401 1 404 1
+M 0 401 1 404 1
+M 0 401 1 405 1
+M 0 401 1 405 1
+M 0 401 1 410 1
+M 0 401 1 410 1
+M 0 401 1 418 1
+M 0 401 1 420 1
+M 0 401 1 423 1
+M 0 401 1 427 1
+M 0 401 1 427 1
+M 0 402 1 427 1
+M 0 403 1 445 1
+E 0 402 0 9
+M 0 404 1 456 1
+M 0 400 1 493 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

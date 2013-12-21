@@ -1,0 +1,669 @@
+#AREADATA
+Name Southern Marcher Road~
+Pref ~
+Builders Immortals~
+VNUMs 200 299
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 2
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#200
+`3Outside the city``~
+You stand just outside the town of Mirlsport. Though a nation of the Border
+Marches, Mirlsport was settled decades ago by ogres and giants migrating
+south from the Lesser Raider mountains. The result is a once great and
+thriving city turned into little more than a crude village.
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 201
+D3
+~
+~
+0 0 7657
+S
+#201
+`7Under an overpass``~
+The dirt trail leads you under a crude looking stone bridge with oddly shaped
+stones crammed together to form the bridge into the city.  A few birds have
+decided to nest under the supports of the bridge and feed their hungry chicks.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 202
+D2
+~
+~
+0 0 200
+S
+#202
+`3Outside the Gates of Mirlsport``~
+You can see what is left of the crumbling gates of Mirlsport - a once 
+strong structure falling to ruin due to lack of adequate maintenance.  A few
+small flowering weeds are stuggling to break through the thick grass of the
+plains that is starting to overtake the worn dirt trail you tread upon now.
+~
+~
+0 0 16384 2
+D1
+~
+~
+0 0 203
+D2
+~
+~
+0 0 201
+S
+#203
+`3Near a guardpost``~
+A small humble structure is visible as well as a few men dressed in similar 
+clothing.  The dirt trail widens here a bit due to the heavy traffic of 
+travelers coming to and from the city.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 204
+D3
+~
+~
+0 0 202
+S
+#204
+`3A guardpost``~
+A crude structure is built from the same ruined stone as the rest of the 
+city of Mirlsport.  Within its crumbling walls are a few guards poorly attired
+with rusted weapons and weary looks upon their dirty faces - they pay you little notice.
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 205
+D2
+~
+~
+0 0 203
+S
+#205
+`3Approaching Mirlsport``~
+A short wall of crumbling stone edges the city adorned with the dirty faces
+of small children pretending to be knights and princesses along the ruined 
+wall with small fistfuls of wild flowers clutched in their hands.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 206
+D2
+~
+~
+0 0 204
+S
+#206
+`3Nearing the coast``~
+The sharp tang of salt spray lingers in the air and the air is cooler with a
+strong breeze.  In the distance a large body of water is detected and the soft 
+lapping of water can be heard.
+~
+~
+0 0 8192 2
+D1
+~
+~
+0 0 207
+D2
+~
+~
+0 0 205
+S
+#207
+`3The Cliffs of Daegen``~
+Just a few feet away from the trail the grassy land plumets down sharply to a steep 
+rocky cliff where, at the deep bottom, rocks break the waves of the ocean apart
+in a spray of icy water.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 208
+D3
+~
+~
+0 0 206
+S
+#208
+`3The Cliffs of Daegen``~
+The worn trail continues on, the deep plummeting cliff dangerously close to 
+where your feet tread as you can hear the ocean raging against the side
+of the steep cliff.
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 209
+D2
+~
+~
+0 0 207
+S
+#209
+`3The coastline``~
+The sound of crashing waves can be heard and the scent of the ocean hangs 
+thickly in the air.  A cool, soothing breeze fills the air filling your
+lungs with the scent of the sea and causes the small wildflowers to bob
+on their stems.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 210
+D2
+~
+~
+0 0 208
+S
+#210
+`3The Crossroads``~
+A hardy worn of dirt, small rocks and trampled grass is visible through the 
+endless sea of short grass that adorns the countryside.  Small rabbits peep at 
+you from the safty of their burrowed holes.  
+ 
+You see a wooden sign here, stuck in the dirt.
+~
+~
+0 0 16384 2
+E
+sign~
+An old sign has been planted here in the earth.
+______________________________________
+\                                    /
+/ North ... Leominter ... 10 miles   \
+\                                    /
+/ East ... Revelsport ... 8 miles    \
+\____________________________________/
+ 
+~
+D0
+~
+~
+0 0 250
+D1
+~
+~
+0 0 211
+D2
+~
+~
+0 0 209
+S
+#211
+`3A path through the plains``~
+The yellow colored grass waves gently in the soft breeze, lining the dirt path
+worn into the plains leading your way to new travels.  The grass stretches as 
+far as the eye can see with no break and no hills upon its smooth, even surface.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 212
+D1
+~
+~
+0 0 210
+D3
+~
+~
+0 0 210
+S
+#212
+`3A well traveled road``~
+The path is much more wide here suggesting its use is more frequent than the 
+rest of the trail.  Two parallel grooves in the pliable ground suggest traveling
+merchants use this trail often to transport their goods from town to town.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 213
+D2
+~
+~
+0 0 211
+S
+#213
+`3A well traveled road``~
+The path here is obviously well worn, trails from carts and wagons are visible
+in the soft dirt.  Townspeople from the local city are often seen traveling this
+road seeking out merchants for specific dry goods and other various and sundry items.
+~
+~
+0 0 65536 2
+D1
+~
+~
+0 0 214
+D2
+~
+~
+0 0 212
+S
+#214
+`3Nearing Revelsport``~
+In the horizon you can make out a large city, obviously well kept for the stone
+walls rise proud and clean in the distance.  Flags rise high announcing the city is
+Revelsport that you near.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 215
+D3
+~
+~
+0 0 213
+S
+#215
+`3Before the Southern Gate``~
+Large gates of smooth stone tower before you, meant to invoke feeling of intimidation
+to those who threaten its safety and security for those who seek its shelter.  The 
+path widens into a gaping mouth at the end of the trail bidding you to enter the
+grand city of Revelsport.
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 20742
+D2
+~
+~
+0 0 214
+S
+#250
+`8A Trail in the Grass``~
+The thick yellowed grass parts here into a well traveled trail.  Small animals 
+bound around you through the grass and back into the safety of their homes.  Birds
+soar overhead singing sweetly to you.
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 210
+D3
+~
+~
+0 0 251
+S
+#251
+`8In the Plains``~
+Thick, sinewy grass swishes around your ankles as you walk through the
+thin dirt trail marking your way.  Small flowers push their heads through
+the lush grass with effort rendering them thin and weak.  The sky overhead
+is clear and calm.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 252
+D1
+~
+~
+0 0 250
+S
+#252
+`8In the Plains``~
+As far as the eye can see, the ground is flat and even, alive with
+yellowed grass that reaches your ankles.  It is dead quiet leaving every
+birds chirp and burrowing animal sound that much more apparent.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 253
+D2
+~
+~
+0 0 251
+S
+#253
+`8Open Plains``~
+You begin to feel as though you have been traveling through this boring
+scenery for your entire life - everything looks the same and there are no
+hills or trees to break the monotony of it all.  You feel your sanity
+slipping away....  Craziness...  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 252
+D3
+~
+~
+0 0 254
+S
+#254
+`8Open Plains``~
+Grass surrounds you everywhere.  When you sleep at night, you will dream
+of this grass as it fills your thoughts, turning you into a mindless grass
+void.  You keep following the trail, because it is the only think that
+diverts your attention from the grass.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 255
+D1
+~
+~
+0 0 253
+S
+#255
+`8The Great Plains``~
+A thin trail of dirt and small pebbles lines a path through the waves of
+grass on either side of the road.  It is apparent that this path is traveled
+often, parallel lines in the trail suggest merchant's carts are often driven
+over this path.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 256
+D2
+~
+~
+0 0 254
+S
+#256
+`8The Great Plains``~
+Flowing plains stretch before you as far as the eye can see.  Bland
+scenery passes slowly by you as you draw one foot in front of the other in
+this long boring march across the plains.  More and more grass for as far as
+the eye can see......  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 257
+D2
+~
+~
+0 0 255
+S
+#257
+`8The Great Plains``~
+A thin trails twists a small maze through the endless stretch of yellowed
+grass.  A soft ripples sighs through the fields as a gentle breeze flows
+through, cooling you.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 256
+D3
+~
+~
+0 0 258
+S
+#258
+`8Endless Plains``~
+The trail continues on, each step seemingly the same as the first as
+waves of grass pass you looking the same.  You stop and look about - where
+are you?  All you can do is continue on and hope this trail ends soon.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 259
+D1
+~
+~
+0 0 257
+S
+#259
+`8Within the Great Plains``~
+A narrow path is slightly worn here through the grass and dirt.  Bending
+blades of yellowed grass frame your way as you trudge along the trail hoping
+for an end sometime soon.  The sky overhead is clear and you hear the soft
+call of a bird.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 260
+D2
+~
+~
+0 0 258
+S
+#260
+`8Within the Deepest of the Plains``~
+There is little to say about what is going on about you that you don't
+already know.  There is grass, and no trees or hils or any other various
+things of the like.  It's boring and you hope it ends soon as you have been
+traveling forever!  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 261
+D2
+~
+~
+0 0 259
+S
+#261
+`8Within the Depths of the Plains``~
+The thin dirt trail becomes difficult to detect, though the parting waves
+of grass helps lead the way for you.  Scanning all around you, there is
+nothing but yellowing grass and open sky making you feel small and
+insignificant.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 262
+D2
+~
+~
+0 0 260
+S
+#262
+`8Within the Depths of the Plains``~
+You feel so small compared to the vastness of this empty void of grass
+and other weedlike shrubs.  The sky is so large overhead and the bounty of
+grass in the fields is endless as is the small dirt trail you travel.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 261
+D3
+~
+~
+0 0 263
+S
+#263
+`8The Plains``~
+Soft billowing grass stretches like yards of velvet green fabric
+stretched out by the Gods for the enjoyment of butterflies, rabbits and
+travelers such as yourself.  The trail keeps you on the correct track and
+you follow it as you take in all the sights.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 264
+D1
+~
+~
+0 0 262
+S
+#264
+`8The Plains``~
+Prairie as far as the eye can see, overwhelming you with the sneezing of
+hayfever and the wonder of why there are not more cows out here grazing. 
+The sea of rippling grass goes on and on - does it ever end?  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 265
+D2
+~
+~
+0 0 263
+S
+#265
+`8Entering the Plains``~
+A thin dirt trail leads you through an endless sea of bent, yellowing
+grass, a gentle breeze softly rippling through it making the vast fields
+appear magical and surreal.  The sky overhead is clear and calm.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 266
+D2
+~
+~
+0 0 264
+S
+#266
+`8Approaching the South Gate``~
+A dirt trail widens as you see in the distance a pile of stones, rubble
+that was once a great structure - perhaps a guardhouse or city gates to some
+magnificent castle though over the years has fallen into disrepair.  To your
+south the trail continues on.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 4456
+D2
+~
+~
+0 0 265
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

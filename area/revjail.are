@@ -1,0 +1,189 @@
+#AREADATA
+Name Revelsport Jail~
+Pref ~
+Builders Crypticant~
+VNUMs 20500 20599
+Max_Bastions 0
+Credits { ALL } Crypticant Jails of Revelsport~
+Security 9
+Startroom 20501
+Flags 160
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#20501
+`8Jail Hall``~
+You stand in a dank, smelly hallway. Along the corridors stand smoldering
+torches that give off an unpleasant, piney smell. The air here is very
+musty, and reeks of decay, fecal matter, and rotting meat. Along the
+walls are several eyelets, where chains can be fastened, and below,
+lie the remains of many different humanoid forms.
+~
+~
+0 8456 0 0
+D1
+~
+~
+0 0 20503
+D2
+~
+~
+0 0 20502
+M 0 H 0
+S
+#20502
+`8West Cell``~
+You stand in a small, dark cell.  The walls are moist and carry distinct
+marks of blood, and the air is thick with fear and stench of over occupants.
+A bit of straw covers the ground and serves as a bed, with a small bucket
+doubling as food pot and sanitary device.  Cries of remorse fill the air
+mixed with occasional shuffle and clank of guards.  North of you a magical
+barrier crackles, preventing any escape.
+ 
+~
+~
+0 9480 129 0
+D0
+~
+~
+0 0 20501
+M 0 H 100
+S
+#20503
+`8Jail Hall``~
+You stand in a dank, smelly hallway. Along the corridors stand smoldering
+torches that give off an unpleasant, piney smell. The air here is very
+musty, and reeks of decay, fecal matter, and rotting meat. Along the
+walls are several eyelets, where chains can be fastened, and below,
+lie the remains of many different humanoid forms.
+~
+~
+0 8456 0 0
+D1
+~
+~
+0 0 20505
+D2
+~
+~
+0 0 20504
+D3
+~
+~
+0 0 20501
+M 0 H 0
+S
+#20504
+`8Center Cell``~
+You stand in a small, dunk cell.  The walls are moist and carry distinct
+marks of blood, and the air is thick with fear and stench of over occupants.
+A bit of straw covers the ground and serves as a bed, with a small bucket
+doubling as food pot and sanitary device.  Cries of remorse fill the air
+mixed with occasional shuffle and clank of guards.  North of you a magical
+barrier crackles, preventing any escape.
+~
+~
+0 9480 129 0
+D0
+~
+~
+0 0 20503
+M 0 H 100
+S
+#20505
+`8Jail Hall``~
+You stand in a dank, smelly hallway. Along the corridors stand smoldering
+torches that give off an unpleasant, piney smell. The air here is very
+musty, and reeks of decay, fecal matter, and rotting meat. Along the
+walls are several eyelets, where chains can be fastened, and below,
+lie the remains of many different humanoid forms.
+~
+~
+0 8456 0 0
+D2
+~
+~
+0 0 20506
+D3
+~
+~
+0 0 20503
+M 0 H 0
+S
+#20506
+`8East Jail``~
+You stand in a small, dunk cell.  The walls are moist and carry distinct
+marks of blood, and the air is thick with fear and stench of over occupants.
+A bit of straw covers the ground and serves as a bed, with a small bucket
+doubling as food pot and sanitary device.  Cries of remorse fill the air
+mixed with occasional shuffle and clank of guards.  North of you a magical
+barrier crackles, preventing any escape.
+~
+~
+0 9480 129 0
+D0
+~
+~
+0 0 20505
+M 0 H 100
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

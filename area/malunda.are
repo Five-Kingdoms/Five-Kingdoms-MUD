@@ -1,0 +1,2318 @@
+#AREADATA
+Name the Malunda Swamp~
+Pref ~
+Builders Zharth~
+VNUMs 2900 2999
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 0
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#2900
+old dockworker man~
+An old dockworker~
+An old man is here, beaten by time.
+~
+As you gaze upon this old being, only a sense of remorse can be felt.
+Aged by time and sun, this dockworker hangs on his last thread of
+life. He almost seems to beg to be cut free.
+~
+human~
+A A H 0 0 0
+42 30 7d6+500 0d0+100 5d6+18 none
+0 0 0 0
+0 0 0 0
+rest rest none none~
+24
+AHMV ABCDEFGHIJK medium 0
+#2901
+A living dune~
+A living dune~
+A sand dune is here, it almost appears to be living.
+~
+A bank of sand that appears to almost breathe, it's composure
+made of nothing but grains of sand. It heaves in a away that would
+almost seem like it was moving towards you. A violent aura swells from
+it's being as it comes to attack.
+~
+unique~
+A A 0 0 0 0
+40 0 7d10+500 0d0+100 5d6+18 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+20
+0 0 medium 0
+#2902
+A charming secretary~
+A charming secretary~
+A charming secretary is here, gazing into your eyes.
+~
+A beautiful woman, who's touch any man would die for, is here, gazing
+into you eyes. Her skin is pale, almost ghost like. Yet eyes are the
+shade of blue that no man would ever be able to describe. Her body is
+perfect, each curve a precise cut. Her slender arms, their skin so moist.
+Her claws, reaching for your throat......
+~
+human~
+A A 0 M 0 0
+38 20 7d45+350 0d0+100 10d4+5 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+13
+AHMV ABCDEFGHIJK medium 0
+#2903
+A rocky pillar~
+A rocky pillar~
+A pillar of rock tumbles down on top of you.
+~
+A tall pillar constructed of various rocks and stones has been left here
+for ages.  It foundation has begun to crumble, freeing the restraint on it's
+build.  The stones begin to fall and the pillar starts to collapse.  
+~
+unique~
+AFe A 0 0 0 0
+38 30 7d10+400 0d0+100 5d6+19 none
+0 0 0 0
+CJ 0 0 0
+rest rest none none~
+20
+0 0 medium 0
+#2904
+An ancient lycanthorpe~
+An ancient lycanthorpe~
+An ancient lycanthorpe is poised here, ready to make it's last defense.
+~
+~
+human~
+A A 0 0 0 0
+38 30 7d6+500 0d0+0 5d6+18 bite
+0 0 0 0
+CE 0 0 0
+rest rest none none~
+19
+AHMV ABCDEFGHIJK large 0
+#2905
+elder lycan~
+An Elder Lycan~
+An Elder Lycanthorpse is here, standing amongst the corpses.
+~
+~
+lycanthrope~
+AFe A 0 0 0 0
+43 20 7d10+1000 0d0+0 5d10+15 claw
+0 0 0 0
+EJN 0 0 0
+stand stand none none~
+17
+AHMV ABCDEFGHIJK medium 0
+#2969
+topless dancer stripper~
+A topless stripper~
+A topless stripper wanders the room here, waiting for your approach.
+~
+Beautiful.  This is the only word that comes to mind.  This woman is half
+naked, her breasts completely exposed before you.  The chill of the room has
+perculated her nipples and you begin to salivate.  Tight spandex shorts is
+all that covers this woman.  Her body is perfect.  Her eyes are magical.... 
+And she's staring at YOU.  
+~
+human~
+AB A 0 0 0 0
+60 0 10d10+9000 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand female none~
+28
+AHMV ABCDEFGHIJK medium 0
+P GRALL 2970 100~
+#2999
+orc kreft~
+(no short description)~
+(no long description)
+~
+~
+orc~
+AF A J 0 3 0
+30 20 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 Q S
+stand stand male none~
+19
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#2900
+polearm exactium bane~
+'Exactium' the Bane of Sloth, Inspiration of the Masses~
+A magnificent polearm rests here. It seems fit only for a God.~
+ethereal~
+weapon AEHJKLMT AN
+polearm 100 1 slice DFKL
+55 60 50000 P
+#2901
+lycan claw~
+an elder lycan claw~
+The torn claw of an elder lycanthorpe lies here.~
+flesh~
+weapon 0 AN
+exotic 7 6 claw D
+45 2 0 P
+#2910
+dagger rod~
+icicle dagger rod~
+(no description)~
+Ice~
+weapon BM AN
+exotic 0 0 none 0
+25 0 0 P
+#2999
+gold ring elves~
+the ring of Elves.~
+On a near by rock, a glisten on the gold ring catches your eyes.~
+gold~
+armor BIKLX AB
+0 0 0 0 0
+50 2 10000 P
+#0
+
+
+
+#ROOMS
+#2900
+`@Nearing a Swamp``~
+The ground here has become rather damp, unlike the stiff earth in most
+forests. The pungent smell of murky water invades your senses and the
+air begins to heat up. The trees are not as thick here, the ground bears
+the green tint now, and vegetation has started to take root. All around
+you the most ferocious bugs have started to swarm. Ahead lies some
+marshy ground and there seems to be a boardwalk off in the distance.
+~
+~
+0 21 8192 3
+D0
+~
+~
+0 0 2901
+D1
+~
+~
+0 0 3164
+S
+#2901
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 1 0 8
+D0
+~
+~
+0 0 2902
+D2
+~
+~
+0 0 2900
+S
+#2902
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 1 0 8
+D0
+~
+~
+0 0 2906
+D1
+~
+~
+0 0 2903
+D2
+~
+~
+0 0 2901
+S
+#2903
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 1 0 8
+D1
+~
+~
+0 0 2904
+D3
+~
+~
+0 0 2902
+S
+#2904
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 1 0 8
+D0
+~
+~
+0 0 2905
+D3
+~
+~
+0 0 2903
+S
+#2905
+`@Nearing a Swamp ``~
+The ground here has become rather damp, unlike the stiff earth in most
+forests. The pungent smell of murky water invades your senses and the
+air begins to heat up. The trees are not as thick here, the ground bears
+the green tint now, and vegetation has started to take root. All around
+you the most ferocious bugs have started to swarm. Ahead lies some
+marshy ground and there seems to be a boardwalk off in the distance.
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 2982
+D2
+~
+~
+0 0 2904
+S
+#2906
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 1 0 8
+D0
+~
+~
+0 0 2907
+D2
+~
+~
+0 0 2902
+S
+#2907
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 1 0 8
+D0
+~
+~
+0 0 2908
+D2
+~
+~
+0 0 2906
+S
+#2908
+Outside of the Shack~
+The swampy lands have led you to a run down shack of sorts. It appears
+to be a forgotten building, left to rot away with time. It has what could be 
+called a  door, but it's more like an opening where a door once might have 
+been. Inside you can see some ancient furniture with papers decaying on 
+the floor. It appears to have been an office at one point or another. The 
+marshy ground continues to the east and west of you, just as hot as before.
+~
+~
+0 0 0 0
+D0
+~
+debris~
+A 0 2911
+D1
+~
+~
+0 0 2909
+D2
+~
+~
+0 0 2907
+D3
+~
+~
+0 0 2910
+S
+#2909
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 1 0 8
+D1
+~
+~
+0 0 2919
+D3
+~
+~
+0 0 2908
+S
+#2910
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 1 0 8
+D1
+~
+~
+0 0 2908
+D3
+~
+~
+0 0 2912
+S
+#2911
+Within the Shack~
+You are now standing in a run-down building which appears to have been
+used as an office in the past.  Rotted furniture graces the molding floor
+and papers line the baseboards.  There is a desk in the far corner of the
+building with a stool behind it.  The windows all have been busted out and
+the make shift door you came through hangs on it's hinges.  
+~
+~
+0 0 0 0
+D2
+~
+debris~
+A 0 2908
+S
+#2912
+`8A Shaky Boardwalk ``~
+You've finally got your feet off the wet ground of the marsh and onto
+some dry land. A boardwalk caked with moss extends down the water
+for a bit and small boat landings come off on either side. The boards
+shake under you as you go across, a miracle you haven't fallen below
+yet. The water is every bit of green as before and the bugs have taken
+a liking to your flesh as you invade their territory.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2914
+D1
+~
+~
+0 0 2910
+D3
+~
+~
+0 0 2913
+S
+#2913
+`8A Shaky Boardwalk ``~
+You've finally got your feet off the wet ground of the marsh and onto
+some dry land. A boardwalk caked with moss extends down the water
+for a bit and small boat landings come off on either side. The boards
+shake under you as you go across, a miracle you haven't fallen below
+yet. The water is every bit of green as before and the bugs have taken
+a liking to your flesh as you invade their territory.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 2912
+D2
+~
+~
+0 0 2915
+D3
+~
+~
+0 0 2916
+S
+#2914
+A Boat Landing~
+You've taken a step off the main boardwalk and stand now on a little
+jetta, meant to be used as a boat landing. It appears to have not been
+used in quite some time. The ropes have begun to decay from the hot
+air and the spray of the water. The wood here is a bit better condition
+then the main walk, but nowhere near safe. There is a man here, if that
+is what he still is, reaching out towards you.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 2955
+D2
+~
+~
+0 0 2912
+S
+#2915
+A Boat Landing~
+You've taken a step off the main boardwalk and stand now on a little
+jetta, meant to be used as a boat landing. It appears to have not been
+used in quite some time. The ropes have begun to decay from the hot
+air and the spray of the water. The wood here is a bit better condition
+then the main walk, but nowhere near safe. There is a man here, if that
+is what he still is, reaching out towards you.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 2913
+D2
+~
+~
+0 0 2955
+S
+#2916
+`8A Shaky Boardwalk ``~
+You've finally got your feet off the wet ground of the marsh and onto
+some dry land. A boardwalk caked with moss extends down the water
+for a bit and small boat landings come off on either side. The boards
+shake under you as you go across, a miracle you haven't fallen below
+yet. The water is every bit of green as before and the bugs have taken
+a liking to your flesh as you invade their territory.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2917
+D1
+~
+~
+0 0 2913
+D3
+~
+~
+0 0 2918
+S
+#2917
+A Boat Landing~
+You've taken a step off the main boardwalk and stand now on a little
+jetta, meant to be used as a boat landing. It appears to have not been
+used in quite some time. The ropes have begun to decay from the hot
+air and the spray of the water. The wood here is a bit better condition
+then the main walk, but nowhere near safe. There is a man here, if that
+is what he still is, reaching out towards you.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 2955
+D2
+~
+~
+0 0 2916
+S
+#2918
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 1 0 8
+D1
+~
+~
+0 0 2916
+D3
+~
+~
+0 0 2940
+S
+#2919
+`8A Shaky Boardwalk ``~
+You've finally got your feet off the wet ground of the marsh and onto
+some dry land. A boardwalk caked with moss extends down the water
+for a bit and small boat landings come off on either side. The boards
+shake under you as you go across, a miracle you haven't fallen below
+yet. The water is every bit of green as before and the bugs have taken
+a liking to your flesh as you invade their territory.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2921
+D1
+~
+~
+0 0 2920
+D3
+~
+~
+0 0 2909
+S
+#2920
+`8A Shaky Boardwalk ``~
+You've finally got your feet off the wet ground of the marsh and onto
+some dry land. A boardwalk caked with moss extends down the water
+for a bit and small boat landings come off on either side. The boards
+shake under you as you go across, a miracle you haven't fallen below
+yet. The water is every bit of green as before and the bugs have taken
+a liking to your flesh as you invade their territory.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 2923
+D2
+~
+~
+0 0 2922
+D3
+~
+~
+0 0 2919
+S
+#2921
+A Boat Landing~
+You've taken a step off the main boardwalk and stand now on a little
+jetta, meant to be used as a boat landing. It appears to have not been
+used in quite some time. The ropes have begun to decay from the hot
+air and the spray of the water. The wood here is a bit better condition
+then the main walk, but nowhere near safe. There is a man here, if that
+is what he still is, reaching out towards you.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 2955
+D2
+~
+~
+0 0 2919
+S
+#2922
+A Boat Landing~
+You've taken a step off the main boardwalk and stand now on a little
+jetta, meant to be used as a boat landing. It appears to have not been
+used in quite some time. The ropes have begun to decay from the hot
+air and the spray of the water. The wood here is a bit better condition
+then the main walk, but nowhere near safe. There is a man here, if that
+is what he still is, reaching out towards you.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 2920
+D2
+~
+~
+0 0 2955
+S
+#2923
+`8A Shaky Boardwalk ``~
+You've finally got your feet off the wet ground of the marsh and onto
+some dry land. A boardwalk caked with moss extends down the water
+for a bit and small boat landings come off on either side. The boards
+shake under you as you go across, a miracle you haven't fallen below
+yet. The water is every bit of green as before and the bugs have taken
+a liking to your flesh as you invade their territory.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2925
+D1
+~
+~
+0 0 2924
+D3
+~
+~
+0 0 2920
+S
+#2924
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 1 0 8
+D1
+~
+~
+0 0 2926
+D3
+~
+~
+0 0 2923
+S
+#2925
+A Boat Landing~
+You've taken a step off the main boardwalk and stand now on a little
+jetta, meant to be used as a boat landing. It appears to have not been
+used in quite some time. The ropes have begun to decay from the hot
+air and the spray of the water. The wood here is a bit better condition
+then the main walk, but nowhere near safe. There is a man here, if that
+is what he still is, reaching out towards you.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 2955
+D2
+~
+~
+0 0 2923
+S
+#2926
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 1 0 8
+D1
+~
+~
+0 0 2928
+D3
+~
+~
+0 0 2924
+S
+#2927
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 2950
+D2
+~
+~
+0 0 2955
+S
+#2928
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 1 0 8
+D0
+~
+~
+0 0 2929
+D3
+~
+~
+0 0 2926
+S
+#2929
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 1 0 8
+D0
+~
+~
+0 0 2930
+D2
+~
+~
+0 0 2928
+S
+#2930
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 1 0 8
+D2
+~
+~
+0 0 2929
+D3
+~
+~
+0 0 2931
+S
+#2931
+`3Approaching a Field ``~
+You stand before an overgrown field of earth and stone. The damp air 
+of the swamp is behind you, yet the heat remains. The ground is firm
+beneath your feet finally. Ahead you can make out the distant remains
+of the area's last inhabitants. A spirtual feeling floods this area and it
+feels almost as though the rubble is alive. 
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 2932
+D1
+~
+~
+0 0 2930
+S
+#2932
+`3A Field of Ruins ``~
+You've made it out of the marsh, finding yourself in a spongy field of
+green vegetation.  Stone structures, withered and beaten by wind and time,
+sprout out from the ground.  Their appearance is only a testament to their
+age. It appears some ancient civilization once called this place home,
+but has long been removed, either by force or nature.  The ruins are covered
+in moss and are almost hidden from view.  Mangled so bad, you can barely
+make out what they were supposed to form.  It would appear you are on the
+southern border of what was a city square.   
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 2934
+D1
+~
+~
+0 0 2933
+D2
+~
+~
+0 0 2931
+S
+#2933
+`3A Field of Ruins ``~
+You've made it out of the marsh, finding yourself in a spongy field of
+green vegetation.  Stone structures, withered and beaten by wind and time,
+sprout out from the ground.  Their appearance is only a testament to their
+age. It appears some ancient civilization once called this place home,
+but has long been removed, either by force or nature.  The ruins are covered
+in moss and are almost hidden from view.  Mangled so bad, you can barely
+make out what they were supposed to form.  It would appear you are on the
+southern border of what was a city square.   
+~
+~
+0 0 8192 2
+D3
+~
+~
+0 0 2932
+S
+#2934
+`3A Field of Ruins ``~
+You've made it out of the marsh, finding yourself in a spongy field of
+green vegetation.  Stone structures, withered and beaten by wind and time,
+sprout out from the ground.  Their appearance is only a testament to their
+age. It appears some ancient civilization once called this place home,
+but has long been removed, either by force or nature.  The ruins are covered
+in moss and are almost hidden from view.  Mangled so bad, you can barely
+make out what they were supposed to form.  It would appear you are in the
+center region of what was a city square.   
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 2936
+D2
+~
+~
+0 0 2932
+D3
+~
+~
+0 0 2935
+S
+#2935
+`3A Field of Ruins ``~
+You've made it out of the marsh, finding yourself in a spongy field of
+green vegetation.  Stone structures, withered and beaten by wind and time,
+sprout out from the ground.  Their appearance is only a testament to their
+age. It appears some ancient civilization once called this place home,
+but has long been removed, either by force or nature.  The ruins are covered
+in moss and are almost hidden from view.  Mangled so bad, you can barely
+make out what they were supposed to form.  It would appear you are in the
+center region of what was a city square.   
+~
+~
+0 0 65536 2
+D1
+~
+~
+0 0 2934
+S
+#2936
+`3A Field of Ruins ``~
+You've made it out of the marsh, finding yourself in a spongy field of
+green vegetation.  Stone structures, withered and beaten by wind and time,
+sprout out from the ground.  Their appearance is only a testament to their
+age. It appears some ancient civilization once called this place home,
+but has long been removed, either by force or nature.  The ruins are covered
+in moss and are almost hidden from view.  Mangled so bad, you can barely
+make out what they were supposed to form.  It would appear you are on the
+northern border of what was a city square.  
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 2939
+D1
+~
+~
+0 0 2937
+D2
+~
+~
+0 0 2934
+S
+#2937
+`3A Field of Ruins ``~
+You've made it out of the marsh, finding yourself in a spongy field of
+green vegetation.  Stone structures, withered and beaten by wind and time,
+sprout out from the ground.  Their appearance is only a testament to their
+age. It appears some ancient civilization once called this place home,
+but has long been removed, either by force or nature.  The ruins are covered
+in moss and are almost hidden from view.  Mangled so bad, you can barely
+make out what they were supposed to form.  It would appear you are on the
+northern border of what was a city square.   
+~
+~
+0 0 8192 2
+D3
+~
+~
+0 0 2936
+S
+#2939
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 0 0 8
+D1
+~
+~
+0 0 2959
+D2
+~
+~
+0 0 2936
+D3
+~
+~
+0 0 2956
+S
+#2940
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 1 0 8
+D1
+~
+~
+0 0 2918
+D2
+~
+~
+0 0 2941
+S
+#2941
+`3Through the Quicksand ``~
+Out from the marsh and into the sand. Your feet sink in the wet ground
+as the swamp tries to swallow you whole. A narrow path has been blazed
+ahead of you through the wilderness. Any wrong step and you might find
+yourself choking on the very ground you walk on. Sporadic vegetation
+finds its home on the banks of the swamp, to either side of you. It seems
+almost as if this place was alive in a sadistic sort of way.
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 2940
+D2
+~
+~
+0 0 2942
+S
+#2942
+`3Through the Quicksand ``~
+Out from the marsh and into the sand. Your feet sink in the wet ground
+as the swamp tries to swallow you whole. A narrow path has been blazed
+ahead of you through the wilderness. Any wrong step and you might find
+yourself choking on the very ground you walk on. Sporadic vegetation
+finds its home on the banks of the swamp, to either side of you. It seems
+almost as if this place was alive in a sadistic sort of way.
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 2941
+D1
+~
+~
+0 0 2943
+D2
+~
+~
+0 0 2945
+D3
+~
+~
+0 0 2944
+S
+#2943
+`3Sandy Banks ``~
+You've stepped off the well beaten path and into the the banks of sand.
+Sand and vegetation stretch on for miles all around you. The sand is a
+bit wet, making it shift underneath your feet. The vegetation is thicker
+here than in most places. The heat is unbearable as the sand reflects all
+energy that grazes it. Movement is made difficult as your body starts to
+become drained of its resources.
+~
+~
+0 0 8192 2
+D3
+~
+~
+0 0 2942
+S
+#2944
+`3Sandy Banks ``~
+You've stepped off the well beaten path and into the the banks of sand.
+Sand and vegetation stretch on for miles all around you. The sand is a
+bit wet, making it shift underneath your feet. The vegetation is thicker
+here than in most places. The heat is unbearable as the sand reflects all
+energy that grazes it. Movement is made difficult as your body starts to
+become drained of its resources.
+~
+~
+0 0 16384 2
+D1
+~
+~
+0 0 2942
+S
+#2945
+`3Through the Quicksand ``~
+Out from the marsh and into the sand. Your feet sink in the wet ground
+as the swamp tries to swallow you whole. A narrow path has been blazed
+ahead of you through the wilderness. Any wrong step and you might find
+yourself choking on the very ground you walk on. Sporadic vegetation
+finds its home on the banks of the swamp, to either side of you. It seems
+almost as if this place was alive in a sadistic sort of way.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 2942
+D1
+~
+~
+0 0 2947
+D2
+~
+~
+0 0 2949
+D3
+~
+~
+0 0 2946
+D5
+~
+sand~
+A 0 2948
+S
+#2946
+`3Sandy Banks ``~
+You've stepped off the well beaten path and into the the banks of sand.
+Sand and vegetation stretch on for miles all around you. The sand is a
+bit wet, making it shift underneath your feet. The vegetation is thicker
+here than in most places. The heat is unbearable as the sand reflects all
+energy that grazes it. Movement is made difficult as your body starts to
+become drained of its resources.
+~
+~
+0 0 32768 2
+D1
+~
+~
+0 0 2945
+S
+#2947
+`3Sandy Banks ``~
+You've stepped off the well beaten path and into the the banks of sand.
+Sand and vegetation stretch on for miles all around you. The sand is a
+bit wet, making it shift underneath your feet. The vegetation is thicker
+here than in most places. The heat is unbearable as the sand reflects all
+energy that grazes it. Movement is made difficult as your body starts to
+become drained of its resources.
+~
+~
+0 0 8192 2
+D3
+~
+~
+0 0 2945
+S
+#2948
+`3A Sand Trap ``~
+Somehow ro another you've wound up in a pit of sand. All around you the
+sand closed in, almost trapping you within. There's just enough room above
+your head so that you can breathe and see the sky. The sand continues to 
+cave in, the swamp trying to keep you from leaving it to it's dreariness.
+There is only one way out, and that is directly opposite of which you came.
+~
+~
+0 0 16384 2
+D4
+~
+sand~
+A 0 2945
+S
+#2949
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 2945
+D3
+~
+~
+0 0 2950
+S
+#2950
+`5The Marsh ``~
+You stand on a patch of soft ground, surrounded by various insects and
+other bugs. The hot, damp air surrounds you in a cloak like case. It's
+almost as if the swamp were trying to swallow you alive. The mossy area
+is a sickly green color, even the water holds a peculiar tint to it. A
+flicker can be seen on the surface of the swamp as various animals come
+up for air. In certain sections, the swamp water is bubbling over with  
+the intense heat.
+~
+~
+0 0 0 8
+D1
+~
+~
+0 0 2949
+D2
+~
+~
+0 0 2927
+S
+#2951
+`6Freedom ``~
+You've managed to navigate through the swamp lands to come to the 
+end...alive. Ahead you see the marsh, somewhat familiar to you now...or is 
+it? You've almost escaped the hot stench of the swamp water, relief is 
+just ahead. Was it north? East? Your sense of direction can't falter now. 
+All around you the scenery stays the same. Which passage did you just 
+come from? Which one haven't you traversed already? Freedom seems to 
+be in hand, but, now you're not quite so sure.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 2939
+D1
+~
+~
+0 0 2952
+D2
+~
+~
+0 0 2954
+D3
+~
+~
+0 0 2953
+S
+#2952
+`6Lost in the Swamp ``~
+The air has become so heavy you almost find it impossible to breathe.
+The insects swarm around your body as though you were nothing but
+a bloody piece of meat. The puke green water goes on for what seems
+like an eternity. Each way you look everything seems the same. From
+the trees, to the bugs, to the sand, to the animals. There is no denying
+it. You are lost.  
+~
+~
+0 1 0 6
+D0
+~
+~
+0 0 2953
+D1
+~
+~
+0 0 2954
+D2
+~
+~
+0 0 2952
+D3
+~
+~
+0 0 2951
+S
+#2953
+`6Lost in the Swamp ``~
+The air has become so heavy you almost find it impossible to breathe.
+The insects swarm around your body as though you were nothing but
+a bloody piece of meat. The puke green water goes on for what seems
+like an eternity. Each way you look everything seems the same. From
+the trees, to the bugs, to the sand, to the animals. There is no denying
+it. You are lost.  
+~
+~
+0 1 0 6
+D0
+~
+~
+0 0 2955
+D1
+~
+~
+0 0 2951
+D2
+~
+~
+0 0 2953
+D3
+~
+~
+0 0 2953
+S
+#2954
+`6Lost in the Swamp ``~
+The air has become so heavy you almost find it impossible to breathe.
+The insects swarm around your body as though you were nothing but
+a bloody piece of meat. The puke green water goes on for what seems
+like an eternity. Each way you look everything seems the same. From
+the trees, to the bugs, to the sand, to the animals. There is no denying
+it. You are lost. 
+~
+~
+0 1 0 6
+D0
+~
+~
+0 0 2951
+D1
+~
+~
+0 0 2954
+D2
+~
+~
+0 0 2953
+D3
+~
+~
+0 0 2952
+S
+#2955
+`6Lost in the Swamp ``~
+The air has become so heavy you almost find it impossible to breathe.
+The insects swarm around your body as though you were nothing but
+a bloody piece of meat. The puke green water goes on for what seems
+like an eternity. Each way you look everything seems the same. From
+the trees, to the bugs, to the sand, to the animals. There is no denying
+it. You are lost.  
+~
+~
+0 1 0 6
+D0
+~
+~
+0 0 2952
+D1
+~
+~
+0 0 2955
+D2
+~
+~
+0 0 2953
+D3
+~
+~
+0 0 2954
+S
+#2956
+`5Within the Fog ``~
+The air here has become completely translucent. All around you,
+clouds of mist engulf the area. Anyway you glance, your vision
+is limited to just a few steps. There is no telling what lies beyond 
+this heavy fog. It's obvious now that this place will be no simple 
+task of navigation. From your feet to your eyes, this place is a great 
+burden that you must bear.
+~
+~
+0 0 0 8
+D1
+~
+~
+0 0 2939
+D3
+~
+~
+0 0 2957
+S
+#2957
+`5Within the Fog ``~
+The air here has become completely translucent. All around you,
+clouds of mist engulf the area. Anyway you glance, your vision
+is limited to just a few steps. There is no telling what lies beyond 
+this heavy fog. It's obvious now that this place will be no simple 
+task of navigation. From your feet to your eyes, this place is a great 
+burden that you must bear.
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 2958
+D1
+~
+~
+0 0 2956
+S
+#2958
+`5Entering a Trench ``~
+Entering now what appears to be a rather large trench, you almost sink
+into the soft ground.  For what seems like an eternity, this narrow path
+goes on and on, with no light at the end.  There are puddles on the ground
+and you can almost see steam rising from them.  The air and the bugs are
+still intolerable.  This dank, hot air does not seem to be helping matters
+any.  
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 2972
+D2
+~
+~
+0 0 2957
+D3
+~
+~
+0 0 2971
+S
+#2959
+`5Within the Fog ``~
+The air here has become completely translucent. All around you,
+clouds of mist engulf the area. Anyway you glance, your vision
+is limited to just a few steps. There is no telling what lies beyond 
+this heavy fog. It's obvious now that this place will be no simple 
+task of navigation. From your feet to your eyes, this place is a great 
+burden that you must bear.
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 4000
+D1
+~
+~
+0 0 2960
+D3
+~
+~
+0 0 2939
+S
+#2960
+`5Within the Fog ``~
+The air here has become completely translucent. All around you,
+clouds of mist engulf the area. Anyway you glance, your vision
+is limited to just a few steps. There is no telling what lies beyond 
+this heavy fog. It's obvious now that this place will be no simple 
+task of navigation. From your feet to you eyes, this place is a great 
+burden that you must bear.
+~
+~
+0 0 0 8
+D2
+~
+~
+0 0 2961
+D3
+~
+~
+0 0 2959
+S
+#2961
+`5A Small Tunnel``~
+A rounded tunnel goes on for miles here.  Walls of dirt form a path here,
+the soft dirt almost swallowing your feet.  
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 2960
+D1
+~
+~
+0 0 2962
+S
+#2962
+`5A Small Tunnel``~
+A rounded tunnel goes on for miles here.  Walls of dirt form a path here,
+the soft dirt almost swallowing your feet.  
+~
+~
+0 0 0 8
+D1
+~
+~
+0 0 2963
+D3
+~
+~
+0 0 2961
+S
+#2963
+`5A Small Tunnel``~
+A rounded tunnel goes on for miles here.  Walls of dirt form a path here,
+the soft dirt almost swallowing your feet.  
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 2964
+D3
+~
+~
+0 0 2962
+S
+#2964
+`5A Small Tunnel``~
+A rounded tunnel goes on for miles here.  Walls of dirt form a path here,
+the soft dirt almost swallowing your feet.  
+~
+~
+0 0 0 8
+D1
+~
+~
+0 0 2966
+D2
+~
+~
+0 0 2963
+D3
+~
+~
+0 0 2965
+S
+#2965
+`5Within the Fog ``~
+The air here has become completely translucent. All around you,
+clouds of mist engulf the area. Anyway you glance, your vision
+is limited to just a few steps. There is no telling what lies beyond 
+this heavy fog. It's obvious now that this place will be no simple 
+task of navigation. From your feet to your eyes, this place is a great 
+burden that you must bear.
+~
+~
+0 0 0 8
+D1
+~
+~
+0 0 2964
+S
+#2966
+`5Entering a Trench ``~
+Entering now what appears to be a rather large trench, you almost sink
+into the soft ground.  For what seems like an eternity, this narrow path
+goes on and on, with no light at the end.  There are puddles on the ground
+and you can almost see steam rising from them.  The air and the bugs are
+still intolerable.  This dank, hot air does not seem to be helping matters
+any.  
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 2967
+D2
+~
+~
+0 0 2968
+D3
+~
+~
+0 0 2964
+S
+#2967
+`5Navigating the Trench ``~
+Walls of dirt and mud rise up on either side of you.  The path you must
+walk now is very narrow, it almost chokes the life from you.  Most
+inconvient: the bugs seems to have not overlooked this place.  They are as
+thick here as they ever were, still trying to make their way past your outer
+layers, so that they may feed from your insides.  Desperate now, you must
+find your way out.  
+~
+~
+0 0 0 8
+D2
+~
+~
+0 0 2966
+D3
+~
+~
+0 0 2969
+S
+#2968
+`5Within the Fog ``~
+The air here has become completely translucent. All around you,
+clouds of mist engulf the area. Anyway you glance, your vision
+is limited to just a few steps. There is no telling what lies beyond 
+this heavy fog. It's obvious now that this place will be no simple 
+task of navigation. From your feet to your eyes, this place is a great 
+burden that you must bear.
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 2966
+S
+#2969
+`5Navigating the Trench ``~
+Walls of dirt and mud rise up on either side of you.  The path you must
+walk now is very narrow, it almost chokes the life from you.  Most
+inconvient: the bugs seems to have not overlooked this place.  They are as
+thick here as they ever were, still trying to make their way past your outer
+layers, so that they may feed from your insides.  Desperate now, you must
+find your way out.  
+~
+~
+0 0 0 8
+D1
+~
+~
+0 0 2967
+D3
+~
+~
+0 0 2970
+S
+#2970
+`5Navigating the Trench ``~
+Walls of dirt and mud rise up on either side of you.  The path you must
+walk now is very narrow, it almost chokes the life from you.  Most
+inconvient: the bugs seems to have not overlooked this place.  They are as
+thick here as they ever were, still trying to make their way past your outer
+layers, so that they may feed from your insides.  Desperate now, you must
+find your way out.  
+~
+~
+0 0 0 8
+D1
+~
+~
+0 0 2969
+D3
+~
+~
+0 0 2972
+S
+#2971
+`5A Small Tunnel``~
+A rounded tunnel goes on for miles here.  Walls of dirt form a path here,
+the soft dirt almost swallowing your feet.  
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 2975
+D1
+~
+~
+0 0 2958
+D3
+~
+~
+0 0 2973
+S
+#2972
+`5Navigating the Trench ``~
+Walls of dirt and mud rise up on either side of you.  The path you must
+walk now is very narrow, it almost chokes the life from you.  Most
+inconvient: the bugs seems to have not overlooked this place.  They are as
+thick here as they ever were, still trying to make their way past your outer
+layers, so that they may feed from your insides.  Desperate now, you must
+find your way out.  
+~
+~
+0 0 0 8
+D1
+~
+~
+0 0 2970
+D2
+~
+~
+0 0 2958
+S
+#2973
+`5A Small Tunnel``~
+A rounded tunnel goes on for miles here.  Walls of dirt form a path here,
+the soft dirt almost swallowing your feet.  
+~
+~
+0 0 0 8
+D1
+~
+~
+0 0 2971
+D3
+~
+~
+0 0 2974
+S
+#2974
+`5A Small Tunnel``~
+A rounded tunnel goes on for miles here.  Walls of dirt form a path here,
+the soft dirt almost swallowing your feet.  
+~
+~
+0 0 0 8
+D1
+~
+~
+0 0 2973
+D2
+~
+~
+0 0 2976
+D3
+~
+~
+0 0 2977
+S
+#2975
+`5A Small Tunnel``~
+A rounded tunnel goes on for miles here.  Walls of dirt form a path here,
+the soft dirt almost swallowing your feet.  
+~
+~
+0 0 0 8
+D2
+~
+~
+0 0 2971
+S
+#2976
+`5A Small Tunnel``~
+A rounded tunnel goes on for miles here.  Walls of dirt form a path here,
+the soft dirt almost swallowing your feet.  
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 2974
+S
+#2977
+`5A Small Tunnel``~
+A rounded tunnel goes on for miles here.  Walls of dirt form a path here,
+the soft dirt almost swallowing your feet.  
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 2978
+D1
+~
+~
+0 0 2974
+S
+#2978
+`5A Small Tunnel``~
+A rounded tunnel goes on for miles here.  Walls of dirt form a path here,
+the soft dirt almost swallowing your feet.  
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 2979
+D2
+~
+~
+0 0 2977
+D3
+~
+~
+0 0 2980
+S
+#2979
+`5Within the Fog ``~
+The air here has become completely translucent. All around you,
+clouds of mist engulf the area. Anyway you glance, your vision
+is limited to just a few steps. There is no telling what lies beyond 
+this heavy fog. It's obvious now that this place will be no simple 
+task of navigation. From your feet to your eyes, this place is a great 
+burden that you must bear.
+~
+~
+0 0 0 8
+D2
+~
+~
+0 0 2978
+S
+#2980
+`5A Small Tunnel``~
+A rounded tunnel goes on for miles here.  Walls of dirt form a path here,
+the soft dirt almost swallowing your feet.  
+~
+~
+0 0 0 8
+D1
+~
+~
+0 0 2978
+D2
+~
+~
+0 0 2981
+S
+#2981
+`5Lair of the Beast``~
+You've stumbled upon the lair of some mighty beast.  Hot air grips you
+and you suddenly find it hard to breathe.  The aroma of death fills your
+nostrils and the pungent smell of carcass flows through the room. 
+~
+~
+0 1 0 8
+D0
+~
+~
+0 0 2980
+S
+#2982
+`@Nearing a Swamp ``~
+The ground here has become rather damp, unlike the stiff earth in most
+forests. The pungent smell of murky water invades your senses and the
+air begins to heat up. The trees are not as thick here, the ground bears
+the green tint now, and vegetation has started to take root. All around
+you the most ferocious bugs have started to swarm. Ahead lies some
+marshy ground and there seems to be a boardwalk off in the distance.
+~
+~
+0 0 32768 3
+D2
+~
+~
+0 0 2983
+D3
+~
+~
+0 0 2905
+S
+#2983
+`@Nearing a Swamp ``~
+The ground here has become rather damp, unlike the stiff earth in most
+forests. The pungent smell of murky water invades your senses and the
+air begins to heat up. The trees are not as thick here, the ground bears
+the green tint now, and vegetation has started to take root. All around
+you the most ferocious bugs have started to swarm. Ahead lies some
+marshy ground and there seems to be a boardwalk off in the distance.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 2982
+D1
+~
+~
+0 0 2984
+S
+#2984
+`@Nearing a Swamp ``~
+The ground here has become rather damp, unlike the stiff earth in most
+forests. The pungent smell of murky water invades your senses and the
+air begins to heat up. The trees are not as thick here, the ground bears
+the green tint now, and vegetation has started to take root. All around
+you the most ferocious bugs have started to swarm. Ahead lies some
+marshy ground and there seems to be a boardwalk off in the distance.
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 2985
+D3
+~
+~
+0 0 2983
+S
+#2985
+`@Nearing a Swamp ``~
+The ground here has become rather damp, unlike the stiff earth in most
+forests. The pungent smell of murky water invades your senses and the
+air begins to heat up. The trees are not as thick here, the ground bears
+the green tint now, and vegetation has started to take root. All around
+you the most ferocious bugs have started to swarm. Ahead lies some
+marshy ground and there seems to be a boardwalk off in the distance.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 2986
+D2
+~
+~
+0 0 2987
+D3
+~
+~
+0 0 2984
+S
+#2986
+`@Nearing a Swamp ``~
+The ground here has become rather damp, unlike the stiff earth in most
+forests. The pungent smell of murky water invades your senses and the
+air begins to heat up. The trees are not as thick here, the ground bears
+the green tint now, and vegetation has started to take root. All around
+you the most ferocious bugs have started to swarm. Ahead lies some
+marshy ground and there seems to be a boardwalk off in the distance.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 2990
+D2
+~
+~
+0 0 2985
+S
+#2987
+`5Within the Fog ``~
+The air here has become completely translucent. All around you,
+clouds of mist engulf the area. Anyway you glance, your vision
+is limited to just a few steps. There is no telling what lies beyond 
+this heavy fog. It's obvious now that this place will be no simple 
+task of navigation. From your feet to your eyes, this place is a great 
+burden that you must bear.
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 2985
+D3
+~
+~
+0 0 2988
+S
+#2988
+`5Within the Fog ``~
+The air here has become completely translucent. All around you,
+clouds of mist engulf the area. Anyway you glance, your vision
+is limited to just a few steps. There is no telling what lies beyond 
+this heavy fog. It's obvious now that this place will be no simple 
+task of navigation. From your feet to your eyes, this place is a great 
+burden that you must bear.
+~
+~
+0 0 0 8
+D1
+~
+~
+0 0 2987
+D2
+~
+~
+0 0 2989
+S
+#2989
+`@Nearing a Swamp ``~
+The ground here has become rather damp, unlike the stiff earth in most
+forests. The pungent smell of murky water invades your senses and the
+air begins to heat up. The trees are not as thick here, the ground bears
+the green tint now, and vegetation has started to take root. All around
+you the most ferocious bugs have started to swarm. Ahead lies some
+marshy ground and there seems to be a boardwalk off in the distance.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 2988
+S
+#2990
+`5Within the Fog ``~
+The air here has become completely translucent. All around you,
+clouds of mist engulf the area. Anyway you glance, your vision
+is limited to just a few steps. There is no telling what lies beyond 
+this heavy fog. It's obvious now that this place will be no simple 
+task of navigation. From your feet to your eyes, this place is a great 
+burden that you must bear.
+~
+~
+0 0 0 8
+D1
+~
+~
+0 0 2991
+D2
+~
+~
+0 0 2986
+S
+#2991
+`5Within the Fog ``~
+The air here has become completely translucent. All around you,
+clouds of mist engulf the area. Anyway you glance, your vision
+is limited to just a few steps. There is no telling what lies beyond 
+this heavy fog. It's obvious now that this place will be no simple 
+task of navigation. From your feet to your eyes, this place is a great 
+burden that you must bear.
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 2992
+D3
+~
+~
+0 0 2990
+S
+#2992
+`@Nearing a Swamp ``~
+The ground here has become rather damp, unlike the stiff earth in most
+forests. The pungent smell of murky water invades your senses and the
+air begins to heat up. The trees are not as thick here, the ground bears
+the green tint now, and vegetation has started to take root. All around
+you the most ferocious bugs have started to swarm. Ahead lies some
+marshy ground and there seems to be a boardwalk off in the distance.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 2994
+D2
+~
+~
+0 0 2991
+D3
+~
+~
+0 0 2993
+S
+#2993
+`5Within the Fog ``~
+The air here has become completely translucent. All around you,
+clouds of mist engulf the area. Anyway you glance, your vision
+is limited to just a few steps. There is no telling what lies beyond 
+this heavy fog. It's obvious now that this place will be no simple 
+task of navigation. From your feet to your eyes, this place is a great 
+burden that you must bear.
+~
+~
+0 0 0 8
+D1
+~
+~
+0 0 2992
+D3
+~
+~
+0 0 2125
+S
+#2994
+`5Within the Fog ``~
+The air here has become completely translucent. All around you,
+clouds of mist engulf the area. Anyway you glance, your vision
+is limited to just a few steps. There is no telling what lies beyond 
+this heavy fog. It's obvious now that this place will be no simple 
+task of navigation. From your feet to your eyes, this place is a great 
+burden that you must bear.
+~
+~
+0 0 0 8
+D1
+~
+~
+0 0 2995
+D2
+~
+~
+0 0 2996
+D3
+~
+~
+0 0 2992
+S
+#2995
+`@Nearing a Swamp ``~
+The ground here has become rather damp, unlike the stiff earth in most
+forests. The pungent smell of murky water invades your senses and the
+air begins to heat up. The trees are not as thick here, the ground bears
+the green tint now, and vegetation has started to take root. All around
+you the most ferocious bugs have started to swarm. Ahead lies some
+marshy ground and there seems to be a boardwalk off in the distance.
+~
+~
+0 0 8192 3
+D3
+~
+~
+0 0 2994
+S
+#2996
+`@Nearing a Swamp ``~
+The ground here has become rather damp, unlike the stiff earth in most
+forests. The pungent smell of murky water invades your senses and the
+air begins to heat up. The trees are not as thick here, the ground bears
+the green tint now, and vegetation has started to take root. All around
+you the most ferocious bugs have started to swarm. Ahead lies some
+marshy ground and there seems to be a boardwalk off in the distance.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 2994
+D2
+~
+~
+0 0 2997
+S
+#2997
+`5Within the Fog ``~
+The air here has become completely translucent. All around you,
+clouds of mist engulf the area. Anyway you glance, your vision
+is limited to just a few steps. There is no telling what lies beyond 
+this heavy fog. It's obvious now that this place will be no simple 
+task of navigation. From your feet to your eyes, this place is a great 
+burden that you must bear.
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 2996
+D1
+~
+~
+0 0 2998
+S
+#2998
+`@Nearing a Swamp ``~
+The ground here has become rather damp, unlike the stiff earth in most
+forests. The pungent smell of murky water invades your senses and the
+air begins to heat up. The trees are not as thick here, the ground bears
+the green tint now, and vegetation has started to take root. All around
+you the most ferocious bugs have started to swarm. Ahead lies some
+marshy ground and there seems to be a boardwalk off in the distance.
+~
+~
+0 0 65536 3
+D2
+~
+~
+0 0 2999
+D3
+~
+~
+0 0 2997
+S
+#2999
+`@Nearing a Swamp ``~
+The ground here has become rather damp, unlike the stiff earth in most
+forests. The pungent smell of murky water invades your senses and the
+air begins to heat up. The trees are not as thick here, the ground bears
+the green tint now, and vegetation has started to take root. All around
+you the most ferocious bugs have started to swarm. Ahead lies some
+marshy ground and there seems to be a boardwalk off in the distance.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 2998
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 2902 10 2911 1
+M 0 2900 10 2914 1
+M 0 2900 10 2915 1
+M 0 2900 10 2917 1
+M 0 2900 10 2918 1
+M 0 2900 10 2921 1
+M 0 2900 10 2922 1
+M 0 2900 10 2924 1
+M 0 2900 10 2925 1
+M 0 2903 10 2931 1
+M 0 2903 10 2933 1
+M 0 2903 10 2934 1
+M 0 2903 10 2935 1
+M 0 2903 10 2936 1
+M 0 2903 10 2937 1
+M 0 2901 10 2941 1
+M 0 2901 10 2942 1
+M 0 2901 10 2943 1
+M 0 2901 10 2944 1
+M 0 2901 10 2945 1
+M 0 2901 10 2946 1
+M 0 2901 10 2947 1
+M 0 2904 1 2963 10
+M 0 2904 1 2964 10
+M 0 2904 1 2965 10
+M 0 2904 6 2974 6
+M 0 2904 6 2975 1
+M 0 2904 6 2976 2
+M 0 2904 6 2978 3
+M 0 2904 6 2979 4
+M 0 2905 1 2981 1
+E 0 2901 0 17
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#2970
+if isimmort $n
+if ispc $n
+if isbloody $n 
+    say Hello! How may I pleasure you today? 
+endif
+endif
+endif
+
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

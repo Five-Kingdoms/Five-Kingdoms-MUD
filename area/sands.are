@@ -1,0 +1,873 @@
+#AREADATA
+Name the Shining Sands~
+Pref ~
+Builders Maelduin~
+VNUMs 1700 1799
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 0
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#1700
+scorpion desert~
+A small desert scorpion~
+A small desert scorpion scuttles across the sandy ground here.
+~
+Of a black color and with a hard crust that seem to offer it ample
+protection, this creature darts back and forth through the sand looking for
+something to hunt.  The sharp claws are almost as large as the body and
+appears to be able to inflict quite some damage upon its prey.  A large tail
+extends from the body; swaying back and forth in a seemingly random fashion
+it offers the stability and balance needed to navigate across the sandy
+floor.  
+~
+unique~
+AGW A 0 0 0 0
+23 0 7d30+170 0d0+100 4d5+12 none
+-3 -3 -3 3
+U 0 0 CE
+stand stand either none~
+15
+0 0 small 0
+#1701
+mature scorpion~
+a mature scorpion~
+A mature desert scorpion is here.
+~
+~
+unique~
+ABGW A 0 0 0 0
+27 0 9d50+250 0d0+100 5d6+10 none
+-5 -5 -5 2
+NU 0 0 C
+stand stand either none~
+13
+0 0 small 0
+#0
+
+
+
+#OBJECTS
+#1700
+decay~
+the skeletal remains of a desert scorpion~
+The skeletal remains of a desert scorpion is decaying here.~
+unknown~
+npc_corpse MT 0
+0 0 0 0 0
+0 0 0 P
+L
+0
+#1701
+nnn~
+an old and withered wooden sign.~
+An old and withered wooden sign has been placed here.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+L
+0
+#1702
+scorpion ring~
+a scorpion ring~
+A small ring made from the carapace of a desert scorpion is here.~
+unknown~
+armor 0 B
+0 0 0 0 0
+25 0 50 P
+L
+0
+F
+A 18 1 0
+#0
+
+
+
+#ROOMS
+#1700
+`#At the edge of the desert ``~
+Large sand dunes majestically spread out before you, dwarfing the
+surroundings.  The sand, of a bright golden hue, seems to illuminate the
+area offering ample light during the day and a somewhat eerie glow during
+the night.  A small, well travelled, path seems to lead the way through this
+desert like landscape, inviting you to travel upon it.  
+~
+~
+0 4 0 10
+D0
+~
+~
+0 0 11605
+D1
+The small path continues into the desert.
+~
+~
+0 0 1701
+D2
+~
+~
+0 0 4076
+S
+#1701
+`#Traversing the Shining Sands ``~
+The small path in the sand grows a little wider here, alerting unwary
+travellers to stay on track and follow it as it twists through the desert. 
+You can barely see the contours of a large dune that the path seems to
+ascend in the distance.  
+~
+~
+0 0 0 10
+D0
+The small path continues through the desert.
+~
+~
+0 0 1702
+D3
+The path seems to lead to the end of this desert as the sand recedes to
+the west.  
+~
+~
+0 0 1700
+S
+#1702
+`#Traversing the Shining Sands ``~
+The sand is deeper here and navigating through it without sinking too
+deep demands quite the effort.  What you believe to be the faint sound of
+water breaking against a shore can be heard far away in the distance.  
+~
+~
+0 0 0 10
+D0
+To the north you see endless amounts of sand.
+~
+~
+0 0 1703
+D2
+The path leads to the end of the desert to the south.
+~
+~
+0 0 1701
+S
+#1703
+`#A bend in the path ``~
+You have reached a point where the path in the sand makes an abrupt turn,
+offering you but two choices of direction.  The faint glowing sand seem to
+recede a bit to the south while you, to the east, observe a large dune that
+appears to be able to drain you of all your energy, should you choose to
+climb it.  
+~
+~
+0 0 0 10
+E
+scorpion~
+The withered corpse of a desert corpion lies in the sand here.  The frail
+pieces of bone that barely holds this skeleton togethe appears ready to fall
+apart and wither away.  
+~
+E
+skeleton~
+The withered corpse of a desert corpion lies in the sand here.  The frail
+pieces of bone that barely holds this skeleton togethe appears ready to fall
+apart and wither away.  
+~
+E
+corpse~
+The withered corpse of a desert corpion lies in the sand here.  The frail
+pieces of bone that barely holds this skeleton togethe appears ready to fall
+apart and wither away.  
+~
+D1
+A large dune can be seen to the east.
+~
+~
+0 0 1704
+D2
+Far away you think you can see the end of this path.  
+~
+~
+0 0 1702
+S
+#1704
+`#The Shining Sands ``~
+The endless landscape of sand completely envelops you, the occasional
+decaying corpse of one of the desert creatures being the only thing but sand
+that you see.  
+~
+~
+0 0 0 10
+D1
+A large dune is towering up towards the sky.
+~
+~
+0 0 1705
+D3
+You see nothing but sand.
+~
+~
+0 0 1703
+S
+#1705
+`#Near the large dune ``~
+Small dunes of sand are scattered around the desert here.  The narrow
+path, that would easily be lost from the line of sight in even the most
+moderate of sandstorms, leads west into the desert and east, climbing the
+huge dune.  
+~
+~
+0 0 0 10
+D1
+Near by, you see the enormous dune that the path ascends.  
+~
+~
+0 0 1706
+D3
+You see nothing but sand.
+~
+~
+0 0 1704
+S
+#1706
+`#Before the large dune ``~
+This large dune of glowing sand seems to reach for the sky as it towers
+up before you, its size resembling that of a smaller mountain.  The small
+path that has taken you through this barren region leads all the way to the
+top of the dune or west into the seemingly lifeless desert.  
+~
+~
+0 0 0 10
+D3
+You see nothing but sand.
+~
+~
+0 0 1705
+D4
+The path finds it way up the steep incline of the large dune.  
+~
+~
+0 0 1707
+S
+#1707
+`#Climbing the dune ``~
+Compared to the other dunes of this region this one certainly is
+something special as it seems to take on the size of a mountain.  The narrow
+path continues to twist through the wasteland at the bottom of this dune
+while it, in the other direction, mercilessly continues upward towards the
+peak of this sandy mass.  
+~
+~
+0 0 0 10
+D4
+~
+~
+0 0 1708
+D5
+~
+~
+0 0 1706
+S
+#1708
+`#Approaching the peak ``~
+With the highest point of the dune to the east you find yourself looking
+out over the western part of the desert region.  Smaller dunes are scattered
+throughout the dark-yellow area of soft sand that seems to go on forever as
+you are barely able to make out the edge of the desert to the far west.  The
+sand rises up in form a large natural wall the north, seemingly offering
+some protection to whatever is behind it.  
+~
+~
+0 4 0 10
+D1
+~
+~
+0 0 1709
+D5
+~
+~
+0 0 1707
+S
+#1709
+`#On top of the dune ``~
+You have reached the highest point of this dune, giving you a
+breathtaking view of the surrounding area.  To the east and west the sand of
+the desert glows ever so subtle, the vast spaces of waterless wasteland
+certainly not inviting anyone to travel upon it.  Two sharp slopes can be
+seen to the north and south which leads down into areas with some minor
+vegetation - the green color of the flora breaking the monotone appearance
+of the desert, providing a well needed change of scenery.  
+~
+~
+0 0 0 10
+E
+sign~
+The old sign, which looks like it has been standing here for hundreds of
+years, has a simple message carved into it: "Commoners, beware of straying
+too far from the path if you are not prepared for battle.  These canyons are
+the home of several aggressive creatures."  
+~
+D0
+This path appears to descend into the northern canyon.  
+~
+~
+0 0 1710
+D1
+Nothing but the slightly shining sand can be seen below this dune.
+~
+~
+0 0 1711
+D2
+This path appears to descend into the southern canyon.  
+~
+~
+0 0 1712
+D3
+From here you see the large, lifeless, desert that spreads out to the
+west.  
+~
+~
+0 0 1708
+S
+#1710
+`3Approaching the northern canyon ``~
+Looking out over this mighty canyon you notice that the sand of the
+desert has retreated in the middle and instead it towers up on the left and
+right hand side of this chasm, creating two walls that shield it from the
+rest of the arid region.  The ground here is sturdier and the sand seems to
+rest on a harder mountain like surface, offering you a safer grip with your
+feet than the soft sand of the desert ever could provide.  
+~
+~
+0 0 16384 4
+D2
+~
+~
+0 0 1709
+D5
+~
+~
+0 0 1713
+S
+#1711
+~
+~
+~
+0 4 0 0
+D3
+~
+~
+0 0 1709
+S
+#1712
+~
+~
+~
+0 4 0 0
+D0
+~
+~
+0 0 1709
+S
+#1713
+`3Entering the northern canyon ``~
+Such a bizarre place, the chasm is completely void of any wind or outside
+sound as the large sandy walls shield everything within from the outer
+world.  The faint sound of running water can be heard from the north,
+offering an explanation to the presence of the vegetation that is scattered
+randomly over the sandy floor.  
+~
+~
+0 0 32768 4
+D0
+~
+~
+0 0 1714
+D4
+~
+~
+0 0 1710
+S
+#1714
+`3The northern canyon ``~
+The canyon floor is a strange mix of soft sand and small pebbles which
+make a faint cracking sound as you walk upon them.  The small green plants,
+that would barely reach the kneecaps of a dwarf, dominate the flora here and
+provide the air with the well needed freshness that the desert could not
+provide.  
+~
+~
+0 0 8192 4
+E
+plant~
+The frail plants are firmly rooted in the ground, obviously connected to
+a near by water source.  
+~
+D0
+~
+~
+0 0 1717
+D1
+~
+~
+0 0 1715
+D2
+~
+~
+0 0 1713
+D3
+~
+~
+0 0 1716
+S
+#1715
+~
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 1718
+D3
+~
+~
+0 0 1714
+S
+#1716
+~
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 1720
+D1
+~
+~
+0 0 1714
+S
+#1717
+`3The northern canyon ``~
+~
+~
+0 0 32768 4
+D0
+~
+~
+0 0 1722
+D1
+~
+~
+0 0 1718
+D2
+~
+~
+0 0 1714
+D3
+~
+~
+0 0 1720
+S
+#1718
+~
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 1723
+D1
+~
+~
+0 0 1719
+D2
+~
+~
+0 0 1715
+D3
+~
+~
+0 0 1717
+S
+#1719
+~
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 1718
+S
+#1720
+~
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 1724
+D1
+~
+~
+0 0 1717
+D2
+~
+~
+0 0 1716
+D3
+~
+~
+0 0 1721
+S
+#1721
+~
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 1720
+S
+#1722
+~
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 1725
+D1
+~
+~
+0 0 1723
+D2
+~
+~
+0 0 1717
+D3
+~
+~
+0 0 1724
+S
+#1723
+~
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 1726
+D2
+~
+~
+0 0 1718
+D3
+~
+~
+0 0 1722
+S
+#1724
+~
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 1727
+D1
+~
+~
+0 0 1722
+D2
+~
+~
+0 0 1720
+S
+#1725
+~
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 1728
+D1
+~
+~
+0 0 1726
+D2
+~
+~
+0 0 1722
+D3
+~
+~
+0 0 1727
+S
+#1726
+~
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 1723
+D3
+~
+~
+0 0 1725
+S
+#1727
+~
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 1725
+D2
+~
+~
+0 0 1724
+S
+#1728
+`3Before the scorpion lair ``~
+~
+~
+0 0 32768 4
+D2
+~
+~
+0 0 1725
+D5
+~
+ground~
+A 0 1729
+S
+#1729
+`1In the lair ``~
+This small underground lair is certainly not for the claustrophobic as
+the tight walls close in on you.  The small hole in the ground that leads up
+to the canyon allows a small portion of light to enter and bounce off the
+walls in this underground den, lighting it up in an ominous fashion. 
+Nothing but darkness can be seen to the south as the lair stretches out
+under the ground.  
+~
+~
+0 0 0 12
+D2
+~
+~
+0 0 1730
+D4
+~
+ground~
+A 0 1728
+S
+#1730
+`1 The dark underground ``~
+The small burrow, which in reality is nothing more than a large hole in
+the ground, opens up a bit here.  A subtle smell of rotten flesh and
+decaying creatures is prevalent in the den and you quickly notice the
+remains of several smaller animals that lies scattered across the sandy
+ground.  
+~
+~
+0 1 0 12
+D0
+~
+~
+0 0 1729
+D1
+~
+~
+0 0 1732
+D2
+~
+~
+0 0 1733
+D3
+~
+~
+0 0 1731
+S
+#1731
+~
+~
+~
+0 1 0 0
+D1
+~
+~
+0 0 1730
+D2
+~
+~
+0 0 1734
+S
+#1732
+`1The dark underground ``~
+~
+~
+0 1 0 12
+D2
+~
+~
+0 0 1744
+D3
+~
+~
+0 0 1730
+S
+#1733
+~
+~
+~
+0 1 0 0
+D0
+~
+~
+0 0 1730
+D1
+~
+~
+0 0 1744
+D2
+~
+~
+0 0 1735
+D3
+~
+~
+0 0 1734
+S
+#1734
+~
+~
+~
+0 1 0 0
+D0
+~
+~
+0 0 1731
+D1
+~
+~
+0 0 1733
+S
+#1735
+`1The southern corner of the lair ``~
+Apparently this corner is the end of the lair as you are blocked from
+moving any other way than from which you came.  The soil here is not as soft
+and porous as in the northern parts of the burrow, making it impossible to
+extend it to the south.  
+~
+~
+0 1 0 12
+D0
+~
+~
+0 0 1733
+S
+#1743
+~
+~
+~
+0 4 0 0
+S
+#1744
+`1 A dark corner ``~
+~
+~
+0 1 0 12
+D0
+~
+~
+0 0 1732
+D3
+~
+~
+0 0 1733
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+O 0 1700 0 1703
+O 0 1701 0 1709
+M 0 1700 15 1713 1
+M 0 1700 15 1715 1
+M 0 1700 15 1716 1
+M 0 1700 15 1718 1
+M 0 1700 15 1719 1
+M 0 1700 15 1720 1
+M 0 1700 15 1721 1
+M 0 1701 7 1727 1
+M 0 1701 7 1730 1
+M 0 1701 7 1731 1
+E 0 1702 0 1
+M 0 1701 7 1732 1
+M 0 1701 7 1733 1
+M 0 1701 7 1735 1
+M 0 1701 7 1744 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+M 1700 1 mdnm1700.prg NL
+M 1700 1 mdnm1700d.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

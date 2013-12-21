@@ -1,0 +1,1281 @@
+#AREADATA
+Name [WARMASTER]~
+Pref ~
+Builders Rotarx~
+VNUMs 17400 17499
+Max_Bastions 0
+Credits { ALL } Rotarx   [WARMASTER] ~
+Security 9
+Startroom 17400
+Flags 32
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#17400
+titan~
+the Titan~
+Towering far above the treeline a Titan stands here.
+~
+Its thick legs placed wide apart, the titan towers over the area.  Its
+features are roughly human and it grins a wide smile in your general
+direction.  Two pairs of arms the size of large tree trunks are crossed upon
+its chest and a giant axe rests by its leg.  
+~
+unique~
+ABTVZ A DFJ 0 0 0
+50 40 1d1+10000 1d1+1 6d4+55 chop
+-20 -20 -20 -20
+ACDEFJKNW AB D 0
+stand stand either Warmaster~
+400
+AHMV ABCDEFGHIJK medium 0
+P GRALL 26 100~
+P EXALL 17400 east~
+P EXALL 17400 west~
+P EXALL 17400 up~
+P EXALL 17400 down~
+P EXALL 17400 north~
+P FIGHT 17401 100~
+#17401
+Bragging Warrior~
+A bragging warrior~
+A large warrior walks around telling stories of his deeds.
+~
+An enormous man clad in furs and leather walks around the room telling of
+great deeds and feats in combat.  As he wanders around he points to heads of
+animals and recovered weapons and armor and comments on how he was
+instrumental in their capture.  His demeanor and actions lead one to think
+he is quite fond of himself.  
+~
+giant~
+AGe A 0 0 0 0
+50 0 2d7+46 0d0+100 1d5+1 pound
+6 6 6 9
+EFN AB DHI JP
+stand stand male none~
+0
+AHMV ABCDEFGHIJK large 0
+#17402
+Sacrastic Dwarf Warrior~
+A sarcastic dwarf~
+A dwarf walks around with a giant warrior making comments.
+~
+A barrel of a man clad in heavy, bulky armor padded with heavy fur walks
+around the room following a huge warrior.  He wears a huge axe on his back
+and has a small buckler strapped to his left arm.  As he walks the room
+listening to the giant, he continuously rolls his eyes in disgust and adds
+his own comments.  
+~
+dwarf~
+AGe A J 0 0 0
+40 0 2d7+46 0d0+100 1d5+1 pound
+6 6 6 9
+EFN AB CHIL JPR
+stand stand male none~
+0
+AHMV ABCDEFGHIJK medium 0
+#17403
+drunk scavenging warrior~
+A drunk warrior~
+A rough looking drunk warrior digs through old equipment.
+~
+A dirty, scraggly man is perched upon a stool swaying as he digs through
+battered old equipment lying on the ground.  His oily hair is plastered to
+his face and his eyes are watery and unfocused.  He reeks of body odor and
+alcohol and looks as if he hasn't bathed in quite some time.  He wears
+little armor, and what he has seems old and ill cared for.  He seems to
+constantly mumble to himself and laugh at nothing now and then.  
+~
+human~
+AGe A J 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 pound
+6 6 6 9
+EFN AB CHIL JPR
+stand stand male none~
+0
+AHMV ABCDEFGHIJK medium 0
+#17404
+tavern wench~
+A tavern wench~
+A busty tavern wench wanders the room.
+~
+A young woman wearing a white halter-top and a long black skirt wanders
+around the room taking orders from patrons.  She carries a large wooden
+platter to place food and drinks on in one hand while her other hand rests
+on her hip.  She smiles at all that greet and hail her, and offers friendly
+conversation to those who attempt to talk to her.  
+~
+human~
+AGe A J 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 pound
+6 6 6 9
+EFN AB CHIL JPR
+stand stand female none~
+0
+AHMV ABCDEFGHIJK medium 0
+#17405
+The falconer~
+A falconer~
+A ragged looking man is here talking to birds.
+~
+A ragged looking man walks around the room talking to the birds.  His
+long, matted brown hair more resembles a birds nest than anything else. 
+What you can see of his face is filthy, the rest is covered by a unkempt
+beard and mustache so stained the true color is indiscernible.  His only
+garment is a homespun robe that appears to have been white at one time, but
+now is simply dirt colored.  Looking into his eyes you get the impression
+that he is quite mad.  
+~
+human~
+AGe A J 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 pound
+6 6 6 9
+EFN AB CHIL JPR
+stand stand male none~
+0
+AHMV ABCDEFGHIJK medium 0
+#17406
+Ogre guard~
+An ogre guard~
+A large ogre stands here guarding a door.
+~
+A mountain of muscle stands to one side of a door growling menacingly at
+anyone that comes close.  His head and face are grotesquely shaped, with
+large tusks jutting from his jaw.  Around his neck is a long string of teeth
+of all shapes and sizes.  His armor and weapons all seem to be treated with
+the greatest of care, as they gleam and shine even in the faint light of the
+hallway.  
+~
+ogre~
+AGe A J 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 pound
+6 6 6 9
+EFN AB CHIL CJPR
+stand stand male none~
+0
+AHMV ABCDEFGHIJK large 0
+#17407
+burly human guard~
+A human guard~
+A burly human stands guard next to a door.
+~
+A large human stands here guarding a door.  His long black hair is a bit
+messy, and his clothing a bit rumpled.  His face appears to have a day or
+two of growth on his chin.  His armor looks as though it hasnt been polished
+in a few days also, as there are small spots of rust just starting to form
+on it.  
+~
+human~
+AGe A J 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 pound
+6 6 6 9
+EFN AB CHIL CJPR
+stand stand male none~
+0
+AHMV ABCDEFGHIJK large 0
+#17408
+name gate guard~
+A gate guard~
+A guard stands before the large gates inspecting travellers.
+~
+A heavily armored man stands here inspecting travelers as they seek
+entrance to the hall grounds.  He carries a short spear and wears a small
+buckler on his arm.  He seems to have a look of irritation and frustration
+on his face as he barks commands to travelers to uncover wagons and open
+containers and such.  Now and then he glares at the watch commander and
+mutters something under his breath.  
+~
+human~
+AGe A J 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 pound
+6 6 6 9
+EFN AB CHIL CJPR
+stand stand male none~
+0
+AHMV ABCDEFGHIJK medium 0
+#17409
+watch commander~
+A watch commander~
+An arrogant looking man stands here barking orders to the guards.
+~
+A man clad in fine armor and clothing stands here barking orders to the
+gate guards.  His hair is closely cropped and slicked back, with his head
+held high, giving him a haughty appearance.  He wears a short sword on one
+side of his belt and a wicked looking whip on the other.  A long billowing
+cape falls over his shoulders down to the ground.  
+~
+human~
+AGe A J 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 pound
+6 6 6 9
+EFN AB CHIL CJPR
+stand stand male none~
+0
+AHMV ABCDEFGHIJK medium 0
+#17410
+blacksmith dwarf~
+A blacksmith~
+A hefty dwarf bangs away at the forge.
+~
+A hefty dwarf stands at a large anvil hammering on a piece of equipment. 
+He wears no shirt allowing you to see the cords of muscle twisting and
+bulging as he pounds his hammer time and again.  Sweat pours from him as he
+works, and now and then he plunges his head into a water trough to cool
+himself down.  Now and then he yells something to the apprentices that work
+the forge.  
+~
+human~
+AGe A J 0 0 0
+60 0 1d1+10000 0d0+100 5d5+80 pound
+6 6 6 9
+EFN AB CHIL 0
+stand stand male Warmaster~
+0
+AHMV ABCDEFGHIJK medium 0
+#17411
+master of ceremonies~
+A master of ceremonies~
+A leathery man paces around inspecting equipment.
+~
+An old wrinkled man walks around inspecting wicked looking instruments. 
+His face is so dried and wrinkled that it looks like old leather that is
+about to crack.  He is wire thin with bony joints and shoulders.  His head
+is shaved with a large tattoo covering the top of his head.  He wears a long
+black hooded robe with the cowl pushed down onto his shoulders.  
+~
+human~
+AGJabe A J 0 0 0
+4 0 2d7+46 64d1+99 1d5+1 pound
+6 6 6 9
+EFN AB CHIL CJPR
+stand stand male Warmaster~
+0
+AHMV ABCDEFGHIJK medium 0
+#17412
+hanging man~
+A hanging man~
+A man is here hanging from a pole by long ropes hooked into his body.
+~
+A well musceled man is hanging from a pole here, suspened by ropes hooked
+into his flesh.  Small streams of blood trickle from the wounds where the
+metal hooks pierce his flesh just below his breast.  His only attire is a
+pair of loose shorts around his waist.  
+~
+human~
+AGe A J 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 pound
+6 6 6 9
+EFN AB CHIL CJPR
+stand stand male none~
+0
+AHMV ABCDEFGHIJK medium 0
+#17413
+priest healer goron~
+Goron~
+Goron the medic is here healing and selling herbs.
+~
+Clad in a full plate armor of bolted steel, a bulky man with short
+cropped white hair wanders the chapel.  His uncovered head is marked with a
+stern intense look as he surveys the room.  He wanders from one place to the
+next giving assistance to those in need.  
+~
+human~
+ABJKab A DFJN 0 1000 0
+60 25 9999d1+1 5d1+1 6d4+30 divine
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male Warmaster~
+1000
+AHMV ABCDEFGHIJK medium 0
+#17414
+tarrack~
+Tarrack~
+The ancient warrior Tarrack sits in his chair.
+~
+Clad in a simple pale robe of soft silk, Tarrack, the ancient,
+battle-worn warrior sits in his rocking chair, humming to himself.  His face
+wears a soft, gentle expression, like one at total peace with himself.  His
+milky white eyes simply stare forward, looking everywhere, yet at nothing.  
+~
+human~
+ABJKab A DFJN 0 1000 0
+60 25 9999d1+1 2d1+100 6d4+30 pound
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male Warmaster~
+1000
+AHMV ABCDEFGHIJK medium 0
+#17415
+saltan beastmaster~
+Saltan~
+Saltan the beastmaster stands in the pens surrounded by dogs.
+~
+A man dressed in a thin leather vest and rugged cloth breeches stands in
+the middle of the pens with hounds gathered around him yelping and whining. 
+On his head rests a wide brimmed straw hat with a long feather falling down
+the back.  
+~
+human~
+ABJKab A DFJN 0 1000 0
+60 25 9999d1+1 34d1+1 6d4+30 pierce
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male Warmaster~
+1000
+AHMV ABCDEFGHIJK medium 0
+#17416
+master trainer~
+the master trainer~
+The master trainer stands here awaiting his next pupil.
+~
+An older man in a long robe stands in the middle of a large padded mat. 
+His body seems thin and wiry, power without bulk.  His hands are clasped
+behind his back as gazes around the room, waiting patiently for someone to
+train.  
+~
+human~
+ABJKab A DFJN 0 1000 0
+60 25 9999d1+1 64d1+100 6d4+30 pierce
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male Warmaster~
+1000
+AHMV ABCDEFGHIJK medium 0
+#17417
+rhurdan trainer~
+Rhurdan~
+Rhurdan the trainer wanders around shouting commands.
+~
+A short man walks around the practice grounds yelling commands and
+instructions at the combatants around him.  Not much can be seen of his
+appearance due to the massive beard covering his face and falling to touch
+the ground.  All that can really be seen are short arms flailing and
+pointing in angry gestures.  
+~
+human~
+ABJKab A DFJN 0 1000 0
+60 25 9999d1+1 24d1+99 6d4+30 pierce
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male Warmaster~
+1000
+AHMV ABCDEFGHIJK medium 0
+#17418
+company swordsman~
+a company of swordsman~
+A company of swordsman stand ready for battle.
+~
+A company of vicious swordsman stand in loose formation awaiting orders. 
+Their weapons and armors are varied but all wear signs of many battles and
+the particular look of man whom have seen death many times and bested it.  
+~
+human~
+ABLVZe AK 0 0 1000 0
+50 1200 1500d1+0 0d0+0 0d0+0 none
+0 0 0 0
+0 CD 0 0
+stand stand none Warmaster~
+10
+AHMV ABCDEFGHIJK medium 0
+#17419
+group warlords~
+a group of warlords~
+A small group of warlords stands here proudly.
+~
+Clad in fantastic armors and weapons they bear proudly trophies of past
+victories.  The faces are grim, but their eyes sparkle as promises of
+battle and blood to be shed still ring in their ears.
+~
+human~
+ABLVZe AK 0 0 1000 0
+50 1600 2000d1+0 0d0+0 0d0+0 none
+0 0 0 0
+0 CD 0 0
+stand stand none Warmaster~
+15
+AHMV ABCDEFGHIJK medium 0
+#17420
+tower fort warmaster bastion~
+a crude fort~
+A crude fort flying banners of [`3WARMASTER``] watches over the area.
+~
+It is a simple fort constructed in a hurry but with great experience. 
+The pallisade of sharpened logs provide fair defense and a few squat
+watchtowers have been built for advanced warning.  
+~
+human~
+ABLVZe AJ 0 0 1000 0
+50 1500 2000d1+0 0d0+0 0d0+0 none
+0 0 0 0
+0 CD 0 0
+stand stand none Warmaster~
+10
+AHMV ABCDEFGHIJK giant 0
+#17421
+tower fort warmaster bastion~
+a crude fort~
+A [`3WARMASTER``] staging fortress has been built here.
+~
+A huge crude fortress made of latched logs stands in the area.  It has a
+single, simple tower flying the banner of the Warmasters where sentries
+watch the surrounding area.  A large wooden gate stands in the center of a
+thick log fence allowing access in and out of the fortress.  
+~
+human~
+ABLVZe AJ 0 0 1000 0
+50 1500 2000d1+0 0d0+0 0d0+0 none
+0 0 0 0
+0 CD 0 0
+stand stand none Warmaster~
+20
+AHMV ABCDEFGHIJK giant 0
+#17422
+warmaster chieftain~
+the Chieftain~
+The Warmaster Chieftain stands here glaring at you with bloodshot eyes.
+~
+A tall powerful man, clad with layered armor of metal and leather.  A
+mane of hair flows freely about his head giving him a look of a lion, tamed
+yet still full of anger and fury.  His bloodshot eyes glare in your
+direction as the mouth slowly chews some herbal extract.  
+~
+human~
+ABJKab A DFJN 0 1000 0
+60 25 9999d1+1 32d1+1 6d4+30 pierce
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male Warmaster~
+1000
+AHMV ABCDEFGHIJK medium 0
+#17423
+amazon guardian~
+an amazon~
+A dangerous looking amazon guards the trophies.
+~
+Though is armor is poor in terms of quality it bears marks of countless
+battles.  The weapons which hang about her person bear simliar look
+their edges chipped though still gleaming with deadly edge.
+~
+human~
+AB A DFJN 0 1000 0
+60 25 9999d1+1 32d1+1 6d4+30 pierce
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand female Warmaster~
+1000
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#17400
+pit storage~
+a storage pit~
+A large pit has been dug out here.~
+stone~
+container OT 0
+10000 0 0 10000 100
+60 0 10000 P
+C
+Warmaster~
+#17401
+cure blindness eyes bloodwolf~
+a bloodwolf's eye~
+A bloodwolf's eye lies here.~
+warflesh~
+pill 0 A
+5 'cure blindness' '' '' ''
+35 5 5 P
+C
+Warmaster~
+#17402
+deer liver cure disease~
+a dried deer liver~
+A dried deer liver is here.~
+warflesh~
+pill 0 A
+5 'cure disease' '' '' ''
+35 5 10 P
+C
+Warmaster~
+#17403
+cure poison lizard testicles~
+a pair of lizard testicles~
+A pair of lizard testicles lie here.~
+warflesh~
+pill P A
+5 'cure poison' '' '' ''
+35 5 7 P
+C
+Warmaster~
+#17404
+garlic string~
+a string of garlic~
+A string of garlic lies here.~
+warflesh~
+pill P A
+5 'purge unlife' '' '' ''
+45 5 25 P
+C
+Warmaster~
+#17405
+dried perwinkle herb~
+a dried perwinkle herb~
+A large dried periwinkle herb is here.~
+warflesh~
+herb P A
+12 'cure dysentery' 'poison' 'poison' 'cure dysentery'
+50 5 15 P
+C
+Warmaster~
+#17406
+leather sack~
+a leather sack~
+A large leather sack lies here.~
+leather~
+container HU AO
+350 A 0 80 90
+10 20 12 P
+C
+Warmaster~
+#17407
+dried rations~
+a pack of dried rations~
+A small pack of dried rations is here.~
+food~
+food U A
+48 48 0 0 360
+10 20 1 P
+C
+Warmaster~
+#17408
+waterskin~
+a waterskin~
+A large waterskin is here.~
+tin~
+drink U AO
+240 240 'water' 0 0
+10 50 11 P
+C
+Warmaster~
+#17409
+training sword~
+a training sword~
+A training sword is lying here.~
+wood~
+weapon 0 AN
+sword 1 1 slap 0
+35 50 62 P
+C
+Warmaster~
+#17410
+training dagger~
+a training dagger~
+A training dagger is here.~
+wood~
+weapon 0 AN
+dagger 1 1 slap 0
+35 50 62 P
+C
+Warmaster~
+#17411
+training axe~
+a training axe~
+A training axe is here.~
+wood~
+weapon 0 AN
+axe 1 1 slap 0
+35 50 62 P
+C
+Warmaster~
+#17412
+training mace~
+a training mace~
+A training mace is here.~
+wood~
+weapon 0 AN
+mace 1 1 slap 0
+35 50 62 P
+C
+Warmaster~
+#17413
+training glaive~
+a training glaive~
+A training glaive is here.~
+wood~
+weapon 0 AN
+polearm 1 1 slap F
+35 50 62 P
+C
+Warmaster~
+#17414
+training spear~
+a training spear~
+A training spear is here.~
+wood~
+weapon 0 AN
+spear 1 1 slap 0
+35 50 62 P
+C
+Warmaster~
+#17415
+training staff~
+a training staff~
+A training staff is here.~
+wood~
+weapon 0 AN
+staff 1 1 slap F
+35 50 62 P
+C
+Warmaster~
+#17416
+training flail~
+a training flail~
+A training flail is here.~
+wood~
+weapon 0 AN
+flail 1 1 slap 0
+35 50 62 P
+C
+Warmaster~
+#17417
+training vest~
+a training vest~
+A training vest is here.~
+leather~
+armor 0 AD
+0 0 0 0 0
+35 350 87 P
+C
+Warmaster~
+F
+A 19 -50 0
+#17418
+table~
+a table~
+A large table is here covered in bowls and plates.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#17419
+table~
+a table~
+A large table is here littered with maps.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#17420
+spiked brass breastplate~
+a spiked brass breastplate~
+A heavy brass breatplate with sharp spikes along the neck and shoulders.~
+brass~
+armor 0 AD
+9 9 9 10 0
+30 150 20 P
+C
+Warmaster~
+F
+A 19 1 0
+F
+A 18 1 0
+#17421
+large brass helm~
+a large brass helm~
+A large brass helm with with a flaring neck guard.~
+brass~
+armor 0 AE
+9 9 9 8 0
+30 50 15 P
+C
+Warmaster~
+F
+A 18 2 0
+#17422
+brass leg plates~
+brass leg plates~
+A pair of large brass leg plates with fur padding.~
+brass~
+armor 0 AF
+9 9 9 6 0
+30 100 15 P
+C
+Warmaster~
+F
+A 19 2 0
+#17423
+brass arm guards~
+brass arm guards~
+A set of brass arm guards with sharpened studs along the forearm.~
+brass~
+armor 0 AI
+9 9 9 6 0
+30 100 15 P
+C
+Warmaster~
+F
+A 18 1 0
+F
+A 19 1 0
+#17424
+glowing band light~
+a glowing band of light~
+A band of steel glows brightly.~
+steel~
+light 0 A
+0 0 999 0 0
+30 20 15 P
+C
+Warmaster~
+F
+A 24 -1 0
+F
+A 18 1 0
+#17425
+god forged battle plate godforged battleplate~
+Godforged Battleplate~
+Some divinely crafted armor plates lie here.~
+adamantite~
+armor BY AD
+15 15 15 10 0
+50 150 1500 P
+C
+Warmaster~
+E
+god forged battle plate godforged battleplate~
+Rumors claim that these mighty plates of adamantite were woven together
+using the life energies of fallen battlemasters spun into an ethereal
+thread.  Each plate contains the energies of a different weaponmaster.  
+~
+F
+A 19 3 0
+F
+A 18 2 0
+F
+S 100 3 0
+F
+S 99 3 0
+F
+S 267 3 0
+F
+S 98 3 0
+F
+S 96 3 0
+F
+S 95 3 0
+F
+S 94 3 0
+F
+S 93 3 0
+F
+S 92 3 0
+#17426
+robe precision woolen~
+a Robe of Precision~
+A rough woolen robe is here, gathering dust.~
+wool~
+armor ABY AD
+14 16 16 12 0
+50 50 1500 P
+C
+Warmaster~
+E
+robe precision woolen~
+Rumored to be woven from the wool of a yeti king, this robe has been cut
+and sewn to permit complete and absolute freedom of movement, to the point
+of actually increasing one's skill with battle maneuvers.  Embroidered with
+adamantine thread and reinforced with mithril plates, this robe moves freely
+seemingly of its own accord.  
+~
+F
+A 19 3 0
+F
+A 18 2 0
+F
+S 349 3 0
+F
+S 347 3 0
+F
+S 357 3 0
+F
+S 358 5 0
+F
+S 355 5 0
+F
+S 352 5 0
+F
+S 356 5 0
+F
+S 351 5 0
+F
+S 353 5 0
+#17427
+Ephemeral Scabbard~
+Ephemeral Scabbard~
+The Ephemeral Scabbard shimmers in and out of existance here.~
+wraith spine~
+container AMYZ AL
+30 0 0 30 100
+50 0 1000 P
+C
+Warmaster~
+E
+ephemeral scabbard~
+The strange sheath shimmers lightly fading in and out of existance
+slightly.  Said to have been made with a spine of a captured wraith within
+its belt, the sheath is known to grant its user the ability to pass through
+walls and doors unharmed.  
+~
+F
+A 2 1 0
+F
+A 19 1 0
+F
+A 18 2 0
+P RANDOM 17427 20~
+#17428
+manticore's eye eyeball~
+the Eye of Manticore~
+A large manticore eye floats here.~
+flesh~
+treasure 0 AQ
+0 0 0 0 0
+50 0 750 P
+C
+Warmaster~
+E
+manticore's eye eyeball~
+Torn from the socket of a live manticore, this inky black orb still
+contains a tiny fragment of it's previous owner's power.  Legends tell of
+this item turning the tide of battle by helping him resist magics, and
+quickening his rate of healing turning mortal wounds into minor nicks and
+grazes.  
+~
+F
+A 34 5 0
+F
+A 24 -1 0
+F
+A 19 2 0
+F
+A 18 1 0
+P FIGHT 17428 75~
+#0
+
+
+
+#ROOMS
+#17408
+`8The Infirmary``~
+As you walk into the Infirmary the smell of incense plays cloyingly on
+your senses, giving you a light-headed, ethereal feeling.  Hardwood benches
+line the room leading to a simple altar at the back.  Through doors off to
+the sides you can see injured and sick lying in beds being tended to by
+monks in plain brown robes.  A priest wearing full plate armor with no helm
+walks from room to room speaking with monks and tending to those in need.  
+~
+~
+0 0 2 0
+C Warmaster~
+S
+#17409
+`8The Scrying Room``~
+As you enter the tiny Scrying Room, you step in front of the rooms only
+occupant, an old, grizzled warrior with milky white eyes.  The room itself
+is stark, with no decoration of any kind.  The only piece of furniture in
+the room is a large padded rocking chair that the man sits on.  There is a
+presence within the room that you feel immediately, a heavy pressure, almost
+an aura, that causes the hair on your neck to stand on end.  
+~
+~
+0 0 2 0
+C Warmaster~
+S
+#17410
+`8The Guard Shack``~
+Two burly guards stand on either side of a massive gate allowing for the
+only entrance into the hall grounds.  The shack itself lies off to the side,
+light glowing from the two windows set in the wall facing out.  Polearms
+stand ready against the wall just inside the half open door.  Conversations
+and movement can be heard inside.  
+~
+~
+0 0 2 0
+C Warmaster~
+S
+#17411
+`8Master's Chamber``~
+A single door opens into a medium sized room with no decorations.  On the
+floor lies a large padded mat that takes up half the area of the room. 
+Along the walls large weapon stands hold padded training weapons.  An older
+warrior stands on the mat waiting to give one-on-one instructions to those
+ready for his advanced teachings.  
+~
+~
+0 0 2 0
+C Warmaster~
+S
+#17412
+`8The Tribal Council``~
+Guards stand to either side of the large doors as you enter the room.  A
+large table sits in the center of the room with chairs littered around it. 
+Maps of the realms cover the walls with smaller maps stacked in the center
+of the table.  Fruit bowls, plates of cheese, and goblets are placed at
+intervals around the table with documents scattered around them.  
+~
+~
+0 0 2 0
+C Warmaster~
+S
+#17413
+`8The Forge``~
+The heat of the forge almost bowls you over as you step through the door
+and into the room.  Iron ingots lie stacked pyramid-like along an entire
+wall, while coal and wood occupy another.  A giant forge takes up an entire
+wall with tubs of water close by for dipping and cooling.  In front of the
+forge a single massive steel anvil sits, being pounded on by the master
+smith, while his apprentices scurry around tending to the fire and running
+errands for their master.  
+~
+~
+0 0 2 0
+C Warmaster~
+S
+#17414
+`8The Armory``~
+The clanging of hammer on steel is almost deafening as you step into the
+armory.  Armor and weapons of all sizes hang from large iron hooks,
+alongside different tools.  A wooden workbench rests against the far wall
+covered in metal scraps, leather straps, and wooden shafts.  In sloppily
+arranged boxes are metal studs, leather nails, and iron splints.  
+~
+~
+0 0 2 0
+C Warmaster~
+S
+#17415
+`8Chieftain's Chamber``~
+Two of the chieftains personal guards stand outside the door leading into
+this small room.  Inside a simple wood desk sits against a wall off to the
+side.  It is covered with papers, maps, and old food.  Bookcases and shelves
+line the walls all filled with books and personal objects.  Set on the wall
+above the desk is a huge shield with a battleaxe and great sword crossed
+behind it.  
+~
+~
+0 0 2 0
+C Warmaster~
+S
+#17416
+`8Rites of Passage``~
+Ceremonial decorations cover the large doors that open into the Rites of
+Passage.  Inside are all manner of instruments and items used for the
+ceremony to mark a child transitioning to adulthood.  Tall poles with ropes
+that end in hooks stand around the chamber, ceremonial knives, altars,
+pipes, and much more can be located around the room to accommodate all the
+diverse cultures of the lands.  An old leathery man is stationed inside the
+room awaiting those that deem themselves ready to pass his tests.  
+~
+~
+0 0 2 0
+C Warmaster~
+S
+#17417
+`6Pitfall``~
+You stand before a large empty space with nothing but dusty air filling
+the void before you.  As you gaze down into the murky depths of the opening
+only the echos of small pebbles falling answers you.  
+~
+~
+0 362807304 2 9
+C Warmaster~
+S
+#17418
+`2An Empty Garden``~
+You find yourself in an unattended garden its ground long overgrown with
+various species of weeds.  The growth reaches up to your waist and sways
+lightly with your passage.  
+~
+~
+0 362807304 2 3
+C Warmaster~
+S
+#17400
+`3Before the Hall``~
+Sprawling before you is a massive construct of wood.  Fully hundreds of
+feet long and over a hundred feet wide, this multi-storied structure looms
+above even the tallest tree.  Made of the thick, ancient trees, interlaced,
+and set with tar and pitch, it is topped off with a brick shingled roof. 
+There is no decoration covering the outside, or sign announcing its name or
+purpose.  Inside there can be heard the muffled sounds of combat and raucous
+laughter and singing.  Around the structure lies a tall wooden fence with
+guard shacks placed at the openings, and towers set high above.  
+~
+~
+0 295698440 16 4
+C Warmaster~
+S
+#17401
+`8Trophy Room``~
+A single door opens into a long, wide chamber.  Heads of ferocious beasts
+hang on the walls alongside great weapons and painted shields captured in
+combat.  The floor sports the stuffed bodies of vicious monsters and full
+suits of armor.  Murals cover the ceiling depicting great battles.  A lone
+table sits in the middle of the floor with an ancient text atop it.  
+~
+~
+0 0 2 0
+C Warmaster~
+S
+#17402
+`8The Donation Room``~
+Stepping through the massive doors into the donation room, you notice
+piles of old, rusted equipment lying around collecting dust.  Sitting in the
+corner is a partially armored man.  He is far into drink, holding a pewter
+mug, and leaning over the piles sorting through them all the while spilling
+his drink often.  
+~
+~
+0 0 2 0
+C Warmaster~
+S
+#17403
+`8The Mercenary Hall``~
+This large room is filled with long wooden tables at which are seated
+dozens of men and women of all races with one thing in common; they are all
+huge.  Each possesses no less then three weapons of various types, and
+handles them as though they are well versed in their use.  Standing among
+them are even a couple giants, sticking out like sore thumbs in the further
+corners of the hall.  
+~
+~
+0 0 2 0
+C Warmaster~
+S
+#17404
+`8The Common Room``~
+As you step into the massive common room the noise seems to hit you like
+wall.  Yelling, singing, fighting, all take place here.  Hardened men and
+women sit around eating, drinking, and carousing while serving wenches tend
+to the long, crowded tables.  In the center of the room lies a large open
+pit fire, used not only for warmth, but inlaid with spits skewering game of
+all sorts, tended to by a burly man in an apron.  Along the side wall sits a
+long bar, with two watchful men standing behind watching for empty glasses
+and unruly patrons.  
+~
+~
+0 0 2 0
+C Warmaster~
+S
+#17405
+`8The Falconry``~
+Entering the Falconry you immediately notice the cages hanging around the
+room, each labeled with the name of a location in the realms.  Tended to by
+three tamers, they are trained in the ages old trade of delivering messages
+throughout the lands.  In the corner lies a large desk with papers,
+envelopes, wax, and seals.  
+~
+~
+0 0 2 0
+C Warmaster~
+S
+#17406
+`8Practice Grounds``~
+As you enter the large double doors you notice a walking beard pacing a
+large courtyard bellowing as combatants rage and swirl in mock combat.  The
+dwarf wears no armor, though he carries a long, thick stick that he uses to
+poke and smack trainees as he walks by, commenting on stance and style.  On
+the sides of the large enclosure are training dummies and targets for ranged
+weapons.  At the back of the room lies a large raised platform made of wood.
+~
+~
+0 0 2 0
+C Warmaster~
+S
+#17407
+`8The Hoard Room``~
+Two burly guards stand watch before a thick iron bound door.  As you
+enter you notice long counting tables running through the room with stacks
+of coins littering them.  Sitting in the middle of the back wall is another
+iron bound door that lies partially open.  Through it you can see sacks
+piled upon each other.  Dispersed along each wall are crossed slits
+typically used by bowmen in castle sieges.  
+~
+~
+0 0 2 0
+C Warmaster~
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 17413 spec_cast_cabal_healer
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 17413 1 17408 1
+G 0 17401 0
+G 0 17402 0
+G 0 17403 0
+G 0 17404 0
+G 0 17405 0
+M 0 17414 1 17409 1
+M 0 17408 1 17410 1
+M 0 17409 1 17410 1
+M 0 17416 1 17411 1
+O 0 17418 0 17412
+M 0 17410 1 17413 1
+G 0 17406 0
+G 0 17407 0
+G 0 17408 0
+G 0 17409 0
+G 0 17410 0
+G 0 17411 0
+G 0 17412 0
+G 0 17413 0
+G 0 17414 0
+G 0 17415 0
+G 0 17416 0
+G 0 17417 0
+G 0 17420 0
+G 0 17421 0
+G 0 17422 0
+G 0 17423 0
+G 0 17424 0
+O 0 17400 0 17413
+M 0 17415 1 17414 1
+O 0 17419 0 17415
+M 0 17422 1 17415 1
+M 0 17412 1 17416 1
+M 0 17411 1 17416 1
+M 0 17423 1 17401 1
+G 0 17425 0
+G 0 17426 0
+G 0 17427 0
+G 0 17428 0
+M 0 17403 1 17402 1
+O 0 17400 0 17402
+M 0 17400 1 17403 1
+M 0 17404 1 17404 1
+M 0 17405 1 17405 1
+M 0 17417 1 17406 1
+M 0 17401 1 17406 1
+M 0 17402 1 17406 1
+M 0 17406 1 17407 1
+M 0 17407 1 17407 1
+S
+
+
+
+#SHOPS
+17410 0 0 0 0 0 100 100 0 23
+17413 0 0 0 0 0 100 100 0 23
+17423 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#17400
+if room $i != 17400
+or isimmort $n
+  break
+endif
+if cabally $n warmaster
+  if isbloody $n
+    if affspell $n 'blindness'
+    or affspell $n 'death grasp'
+    or affspell $n 'plague'
+    or affspell $n 'poison'
+    or affspell $n 'dysentery'
+    or affspell $n 'enfeeblement'
+    or affspell $n 'vampire bite'
+      pmote glances at $N noticing the sickness.
+    else
+      'Come back when you have no blood upon you $N.
+      mob stop $n
+      break
+    endif
+  endif
+  if isdelay $i
+    break
+  else
+    'Almost stepped on you there $N.
+    chuckle $i
+    mob delay 1
+    break
+  endif
+else
+  mob echoaround $n With a slow but unstoppable motion $I places the giant axe before you.
+  mob echoat $n With a slow but unstoppable motion $I places the giant axe before $N.
+  'Be on your way $N, or you will need a few resurrections just to look normal again.
+  mob stop $n
+endif
+~
+#17401
+if act $n raider
+and rand 10
+  if name $n watchermonster
+    break
+  else 
+    mob echo With casual grace $I steps on $N.
+    qslay $n
+  endif
+endif
+if isdelay $i
+  break
+else
+  cb $N is attacking our home!
+  mob delay 6
+endif
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#17427
+if affected $n pass_door
+or isdelay $i
+  break
+else
+  if isworn $i
+    obj echo $I moves into another dimension.
+    obj cast 'pass door' $n
+    obj delay 24
+  endif
+endif
+~
+#17428
+obj cast 'endorphin rush'
+~
+#0
+
+#ROOMPROGS
+#0
+
+#$

@@ -3,9 +3,9 @@ if rand(25)
 	pmote steps aside and allow you to pass $k.
 else
 	if rand(60)
-		say Greetings adventurer, welcome to Val Miran.
+		say Greetings adventurer, welcome to Revelsport.
 	else
-		say Behold! The grand city of Val Miran!
+		say Behold! The grand city of Revelsport!
 	endif
 endif
 ~

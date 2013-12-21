@@ -1,0 +1,1142 @@
+#AREADATA
+Name [EMPIRE]~
+Pref ~
+Builders Crypticant~
+VNUMs 17000 17099
+Max_Bastions 0
+Credits { ALL } Crypticant [EMPIRE] ~
+Security 9
+Startroom 17000
+Flags 32
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#17000
+Empire abomination guard guardian~
+an abomination~
+An Abomination bars the way.
+~
+Yeeeuch!  To say this thing is ugly would be the understatement of the
+millenium.  Oozing in all the wrong places and slopping about repugnantly
+the Abomination bars your way through.  The only thing more repulsive than
+his appearance is his smell but you suspect nobody ever gets close enough to
+worry about that.  
+~
+unique~
+ABVZ A DFHJNO 0 0 0
+40 20 1d1+5000 0d0+100 8d5+60 slime
+-20 -20 -20 -20
+ADEFKW AB C 0
+stand stand none none~
+17
+AHMV ABCDEFGHIJK medium 0
+P GRALL 26 100~
+P EXALL 17000 north~
+P FIGHT 17001 100~
+P EXALL 17000 east~
+P EXALL 17000 west~
+P EXALL 17000 down~
+P EXALL 17000 up~
+#17001
+pack spawns~
+a pack of spawns~
+A pack of twisted Spawns of Empire slither about.
+~
+Their misshapen forms composed of flesh corrupted by the forces of Empire
+quiver and change without a pause.  Eyes filled with hate and unquenched
+anger lock with yours as a legion of voices hurls threats and promises of
+damnation aimed at no one in particular.  
+~
+human~
+ABLVZe AK 0 0 1000 0
+50 1000 1200d1+0 0d0+0 0d0+0 none
+0 0 0 0
+0 CD 0 0
+stand stand none none~
+22
+AHMV ABCDEFGHIJK medium 0
+#17002
+horde demons~
+a horde of demons~
+A horde of Empire Demons hovers overhead their talons dripping blood.
+~
+Soaring above on giant leathery wings they pay no heed to your presence. 
+Their large forms cast shapeless shadows marking their restless passage
+overhead, as their unnatural silence suffocates the air.  
+~
+human~
+ABLVZe AK T 0 1000 0
+50 1500 1500d1+0 0d0+0 0d0+0 none
+0 0 0 0
+0 CD 0 0
+stand stand none none~
+22
+AHMV ABCDEFGHIJK medium 0
+#17003
+tower bastion Empire dungeon~
+a dungeon~
+A fortified dungeon serves as a hideout for [`1EMPIRE``].
+~
+Not much can be seen of it, as the heart of this structure is always
+built far below the ground.  Only the fortified entrance can be spotted, its
+massive wrought gates worked with motives of twisted and tortured faces.  
+~
+human~
+ABLVZe AJ 0 0 1000 0
+50 1000 1000d1+0 0d0+0 0d0+0 none
+0 0 0 0
+0 CD 0 0
+stand stand none none~
+20
+AHMV ABCDEFGHIJK huge 0
+#17004
+tower bastion gateway Empire~
+a Empire Gateway~
+A [`1EMPIRE``] Gateway crackles with dark magics atop a fortifed tower.
+~
+Sending an occasional arc of black energies towards the heavens this tall
+black spire has but one purpose.  To support the infernal spells of
+Pandemonium conjures and keep the gates to Empire open for the armies of
+Demons and Undead.  
+~
+human~
+ABLVZe AJ 0 0 1000 0
+50 1000 2000d1+1 0d0+0 0d0+0 none
+0 0 0 0
+0 CD 0 0
+stand stand none none~
+26
+AHMV ABCDEFGHIJK huge 0
+#17005
+robed gremlin teacher~
+a gremlin~
+A robed gremlin stands here holding a small book.
+~
+Standing only about two feet high this little gremlin shows wisdom in
+every wrinkle on his ugly face.  Consulting a small but thick book he
+lectures on the powers of the Empire.  
+~
+unique~
+AB A DFHJN 0 1000 0
+60 25 9999d1+1 1d1+1 6d4+30 slash
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male none~
+27
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17005 20~
+#17006
+little brain demon~
+a little demon~
+A little demon tends to the vat of brains.
+~
+Tiny, scaly wings blur as they try to keep the fat, bloated, disgusting
+beast afloat in the air.  It's skin is a sickly reddish purple that hangs
+loosely from its bones, with oozing yellow sores.
+~
+demon~
+AGe AC DJT 0 -750 0
+4 0 2d7+46 0d0+100 1d5+1 claw
+6 6 6 9
+EFN AB 0 AE
+stand stand male none~
+7
+AHMV ABCDEFGHIJK small 0
+P RANDOM 17002 20~
+#17007
+lesser daemon teacher~
+a lesser daemon~
+A lesser Daemon hovers inside a pentagram here.
+~
+Hovering a few feet from the ground a lesser daemon consults his book of
+spells.  Originally summoned via a pentagram he instructs on the Dark Arcane
+arts.  Horned and haggard he is nonetheless a powerful mage.  
+~
+unique~
+ABa A DFHJN 0 1000 0
+60 25 9999d1+1 24d1+1 6d4+30 slash
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17007 20~
+#17008
+huge horned demon teacher~
+a horned demon~
+A huge Horned Demon stands here ready to instruct.
+~
+Standing twelve feet tall and armed to the high teeth with an assortment
+of nasty pointy implements this is one mean bugger.  Teeth that appear they
+could bite through bone, and fists so large he could crush heads, give him
+an overall picture of nastiness.  
+~
+demon~
+ABa A DFHJNT 0 1000 0
+60 25 9999d1+1 34d1+1 6d4+30 slash
+-30 -30 -30 -30
+EHK AB 0 A
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17008 20~
+#17009
+greater daemon trainer~
+a greater daemon~
+A greater Daemon stands here ready to train your body.
+~
+Bulging with muscles and a picture of strength and health the greater
+Daemon barely breaks a sweat as he puts people through their paces.  He is
+the ultimate fitness instructor able to help you improve any facet of your
+body and mind.  
+~
+unique~
+AB A DFHJN 0 1000 0
+60 25 9999d1+1 64d1+1 6d4+30 slash
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male none~
+29
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17009 15~
+#17010
+little slavemaster imp~
+a little imp~
+A tiny imp flies about here.
+~
+A tiny creature flutters on fly-like wings buzzing around the room.  It
+holds a long slender wood pole that it uses to poke the people in the
+cages it guards.
+~
+demon~
+AGe AC DJT 0 -750 0
+4 0 2d7+46 0d0+100 1d5+1 claw
+6 6 6 9
+EFN AB 0 AE
+stand stand male none~
+8
+AHMV ABCDEFGHIJK small 0
+#17011
+beautiful succubus healer~
+a beautiful succubus~
+A beautiful succubus stands here ready to tend to your wounds and needs.
+~
+Wow!  This is beauty incarnate.  As you stare into her eyes you feel lost
+in thought and extremely peaceful.  A perfect figure and face adorn this
+woman and it is only when you catch sight of her large pointed horns and
+even pointier teeth you remember what she is.  Regardless she does have
+amazing powers of healing and will apply her hands to your wounds and
+perhaps elsewhere.....  Perhaps not.  
+~
+demon~
+ABJKab A DFHJNT 0 1000 0
+60 25 9999d1+1 5d1+1 6d4+30 slash
+-30 -30 -30 -30
+EHK AB 0 A
+stand stand female none~
+24
+AHMV ABCDEFGHIJK medium 0
+#17012
+quasit butcher~
+a quasit~
+A quasit butchers a corpse violently here.
+~
+A small quasit with long, dragon-fly like wings stands behind a table
+of body parts.  It is covered from head to toe in blood and gore.  In
+his hands are a meat cleaver and a large two-pronged fork.
+~
+demon~
+AGe AC DJT 0 -750 0
+4 0 2d7+46 0d0+100 1d5+1 claw
+6 6 6 9
+EFN AB 0 AE
+stand stand male none~
+7
+AHMV ABCDEFGHIJK small 0
+#17013
+treasury goblin servant~
+a goblin~
+A squat goblin is sitting here counting gold.
+~
+A short, squat, furry goblin sits behind a desk holding a quill pen.
+Its green skin is covered in large warts and boils.  It counts money
+and piles it, then peers over ledgers and makes markings in them.
+~
+goblin~
+AGe AC DJ 0 -750 0
+4 0 2d7+46 0d0+100 1d5+1 claw
+6 6 6 9
+EFN AB Q ACE
+stand stand male none~
+11
+AHMV ABCDEFGHIJK small 0
+#17014
+demon treasury master~
+a large demon~
+A large winged demon stands here watching.
+~
+A huge demon with fiery red skin stands glaring around him at the goblins
+as they do their work.  Huge wings fold across his back.  One hand is
+planted firmly on his hip, the other grasps a large, barbed, leather whip
+that he uses now and then to inspire faster work.
+~
+demon~
+AGe AC DJT 0 -750 0
+12 0 2d7+46 0d0+100 3d10+10 none
+6 6 6 9
+EFN AB Q A
+stand stand male none~
+8
+AHMV ABCDEFGHIJK large 0
+P RANDOM 17014 20~
+P RANDOM 17016 20~
+#17015
+crafty devil~
+a crafty devil~
+A crafty looking Devil sits here behind a giant tome.
+~
+Standing behind an enormous tome, which you assumed to be filled with
+'clients', is a large Devil.  Clad heavily in gold and wearing a thick
+sheepskin jacket he seems like he's trying to be 'your friend'.  Odd
+considering you wouldn't trust him with your soul but even odder is the fact
+you probably will end up doing so.  
+~
+demon~
+AB A DFHJNT 0 1000 0
+60 25 9999d1+1 1d1+1 6d4+30 slash
+-30 -30 -30 -30
+EHK AB 0 A
+stand stand female none~
+23
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17015 20~
+#17016
+wandering demon~
+a wandering demon~
+An enormous demon wanders through the room.
+~
+An enormous demon hovers just above the ground, its long, spiked tail
+dragging behind it.  Its huge head is split by a gaping maw filled with
+large razor-like teeth.  Its bulking body is supported in the air by
+huge wings that stir the air as they beat a pulsing rhythm.  It looks
+around itself as if searching for something.
+~
+demon~
+AGd AC DJT 0 -750 0
+10 0 2d7+46 0d0+100 3d10+12 claw
+6 6 6 9
+EFN AB 0 AE
+stand stand male none~
+10
+AHMV ABCDEFGHIJK small 0
+#17017
+butcher demon~
+a demon butcher~
+A large demon butcher glares at you.
+~
+A large demon glares at you, his souless black eyes disecting you as he
+grips a large meat cleaver tightly in his hand.  His grey skin is
+glistening with a sheen of blood, as small chunks of flesh from slaughter
+fall to the ground.  Perhaps it would be best to make your purchase and
+leave him to his work.
+~
+human~
+ABZ A DFHV 0 300 15700
+70 15 1000d1+1 0d0+100 10d20+45 cleave
+20 20 20 20
+CEIJN ABCD 0 0
+stand stand male none~
+25
+AHMV ABCDEFGHIJK large 0
+P RANDOM 17017 20~
+#17018
+beautiful succubus healer~
+A Chaos Guardian~
+A Chaos Guardian looms here in all its terror and might.
+~
+This enormous winged beast is one the most vile creatures that you have
+had the misfortune of landing your eyes on. It is taller than any mortal
+giant, and twice as wide. Its red skin is completely mangled from head to
+toe, but beneath it lies pound upon pound of pure muscle. In one hand it grips
+a large rapier, entirely entrenched in red flame, and in the other it wields a 
+black flail, dripping of corrosive acid.
+~
+demon~
+ABa A DFHJNT 0 -750 0
+60 25 9999d1+1 64d1+1 6d4+30 slash
+-30 -30 -30 -30
+EHK AB 0 AB
+stand stand none none~
+24
+AHMV ABCDEFGHIJK huge 0
+#0
+
+
+
+#OBJECTS
+#17000
+pit storage~
+a storage pit~
+A large storage pit has been built here.~
+stone~
+container OT 0
+10000 0 0 10000 100
+60 0 10000 P
+#17001
+vat brains~
+vat of brains~
+An immense vat of brains is here.~
+glass~
+furniture 0 0
+0 0 0 0 0
+60 10000 0 P
+E
+immense vat brains~
+Incalculable amounts of brains float inside this immense glass vat.  A
+clear fluid flows between them bairly keeping them seperated.  
+~
+#17003
+slave cage~
+a cage of slaves~
+An iron cage filled with slaves is here.~
+iron~
+furniture 0 0
+0 0 0 0 0
+0 10000 0 P
+E
+cage~
+Dirty bodies huddle away from the bars of this iron cage trying to avoid
+the prodding of the imps.  
+~
+#17004
+potion recall blood~
+a potion of blood~
+A potion of blood is here.~
+liquid~
+potion U AO
+10 'word of recall' '' '' ''
+10 30 3 P
+#17005
+potion imp wings~
+a potion of imp wings~
+A small potion with chopped bits of wing floating in it.~
+Liquid~
+potion B AO
+0 'fly' '' '' ''
+10 2 5 P
+#17006
+sack elven skin~
+a sack of elven skin~
+A large sack of elven skin lies here.~
+leather~
+container HU AO
+350 A 0 80 90
+10 20 12 P
+#17007
+stomach~
+a filled stomach~
+A stomach filled with half digested food is here.~
+food~
+food U A
+48 48 0 0 360
+10 20 24 P
+#17008
+scroll demon flight~
+a scroll of demon flight~
+A large scroll bearing demonic enscriptions lieas here.~
+papyrus~
+scroll A AO
+15 'fly' '' '' ''
+10 2 10 P
+#17009
+scroll intensity~
+a scroll of intensity~
+A small scroll glows with intense energy.~
+papyrus~
+scroll A AO
+15 'refresh' '' '' ''
+30 2 1 P
+#17010
+bladder~
+a bladder~
+A large bladder filled with fluid.~
+flesh~
+drink PU AO
+240 240 'water' 0 0
+10 50 11 P
+#17011
+eye acolyte~
+an eye of an acolyte~
+An eye of an acolyte forever stares.~
+flesh~
+staff G AO
+10 10 10 'sanctuary' 0
+40 50 25 P
+#17012
+wand finger witch~
+a witch finger wand~
+A glass rod tipped with the finger of a witch lays here.~
+glass~
+wand G AO
+15 5 5 'sanctuary' 0
+40 50 18 P
+#17013
+crystal crystalized soul~
+a Crystalized Soul~
+A strange glowing crystal floats here.~
+crystal~
+light MZ A
+0 0 999 0 0
+50 10 1500 P
+E
+crystal crystalized soul~
+This small chunk of facted crystal seems to throb with some sort of inner
+intelligence.  You can vaguely make out a cloudy substance within it, and
+the whisps almost seem to reach out to you, and words begin to form in your
+mind.  
+~
+F
+A 21 -3 0
+F
+A 22 -5 0
+P USE 17013 100~
+#17014
+dusty imp~
+a Dusty Imp~
+A dusty imp floats about.~
+flesh~
+armor 0 AQ
+8 8 8 4 0
+50 10 500 P
+E
+dusty imp~
+A tiny imp with large liquid eyes floats through the air holding a small
+leather bag.  His scabby, scaly skin is covered lightly with dust.  He has
+sharp teeth that shine brightly from a cruel smile.  His hands and feet end
+in sharp claws.  Dragging behind him is a long whip-like tail.  
+~
+F
+A 18 1 0
+F
+A 19 1 0
+P DELAY 17017 100~
+P USE 17014 100~
+#17015
+gruesome mask~
+a Gruesome Mask~
+A hideous but intricately carved mask lies here.~
+wood~
+armor MZ Ad
+10 11 9 7 0
+50 50 2000 P
+E
+gruesome mask~
+A strangely carved and painted mask stares back at you through hollow
+eyes.  Small horns arch over the head, while sharp ear-looking flaps extend
+from the sides.  The face is painted to resemble a look of pure terror and
+pain, the features twisted and pulled.  Now and then the mask pulsates with
+a faint green aura.  
+~
+F
+A 12 50 0
+F
+A 13 35 0
+F
+A 18 2 0
+P FIGHT 17015 30~
+#17016
+brimstone shield~
+a Brimstone Shield~
+A shield forged from Brimstone lies here.~
+stone~
+armor HY AJ
+15 15 15 10 0
+50 90 2500 P
+E
+brimstone shield~
+A medium sized shield made from stone.  Bolted on the back is simple
+leather straps with metal buckles.  
+~
+F
+A 19 2 0
+F
+A 18 2 0
+P USE 17017 100~
+P FIGHT 17016 15~
+#17017
+potion detect invis~
+a potion of detect-invisibility~
+A potion of detect-invisibility is here.~
+liquid~
+potion 0 AO
+10 'detect invis' 'reserved' 'reserved' 'reserved'
+20 0 5 P
+#17082
+no name~
+(no short description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#17000
+`8Before the Empire Fortress``~
+Hewn into the side of a mountainface this impressive structure is
+sinister and almost skull shaped.  Slits carved into the side give way to
+the internal flickering of flames.  A strange roaring is heard below, almost
+like the rush of a river.  An atmosphere of tension fills the air and you
+have a deep foreboding feeling that you can't shift.  The smell of brimstone
+and smoldering is unmistakable and all consuming.  
+~
+~
+0 295698440 16 0
+D5
+~
+~
+0 0 1240
+M 0 H 0
+S
+#17001
+`8The Thought Node``~
+You find yourself in a most distasteful room.  Blackened granite walls
+drip with a thick, black ichor.  There is a flurry of activity here, as
+countless little demons tend to an immense vat of brains.  The stench of rot
+is heavy here, and you can almost swear you hear words being spoken within
+your mind.  The piles upon piles of brains almost pulsate as they continue
+their mental barrage.  
+~
+~
+0 295698440 2 0
+S
+#17002
+`8Infernal Altar``~
+Upon entering, you sense a distinct feeling of unease.  The vaulted
+ceilings of this large chamber are covered with intricate runes that have
+been carved into their ebony surface.  Tall, smooth walls of obsidian tower
+high, covered with runes much as the ceiling.  Thick tapestries depicting
+various Gods of Chaos and Pain hang from iron spikes driven in the walls. 
+In the center of room, on the far wall, a wicked looking altar looms, carved
+into which is the ancient symbol...  +/- 
+~
+~
+0 295698440 2 0
+S
+#17003
+`8Slave Pits``~
+The air is thick with dust, as you enter this rough-hewn cavern.  A
+plethora of slaves of an equal amount of races pound relentlessly at the
+cavern walls.  Thick, shining veins of ore run like rivulets down the walls
+here, and rich deposits of gems glitter in the dim torchlight.  Near you, a
+row of iron cages contain those who chose not to work.  Tiny little imps
+with rather large sticks prod the occupants of the cages mercilessly.  
+~
+~
+0 295698440 2 0
+S
+#17004
+`8Pulsating Crystal``~
+Your vision is blinded for a moment by the brilliance of this hall. 
+Suspended in the air in the center of the room, a large red crystal bobs
+slowly over a pentagram that has been carved into the floor.  It's terrible
+light is reflected off of the ebony walls, and cast eerie shadows upon the
+vaulted ceilings here.  Within the thousands of facets of the Crystal, you
+can faintly discern a multitude of scenes of pain and death, as the it
+consumes the souls of the just recently deceased and converts it to power to
+fuel the Empire.  
+~
+~
+0 295698440 2 0
+S
+#17005
+`8Planar Breach``~
+The walls here hang thick with embroidered tapestries, each crawling with
+animated spider-like runes.  The far wall, however, is unadorned, and
+featureless, save the immense hole in it's surface.  The jagged edges of
+the rift give the impression of a tear in a fragile piece of silk-cloth. 
+Past the portal, you can make out faint images of flames and jagged peaks,
+as though this is a door to hell itself.  Occasionally, a tiny demon hops
+through the rift, cackles, and scitters away.  
+~
+~
+0 295698440 2 0
+S
+#17006
+`8The Butchery``~
+The stench of death hangs in an almost tangible cloud here, filling your
+mind with nausea.  Countless cells line the walls each occupied to brimming
+with prisoners who have been packed in like cattle.  A like number of tables
+fill the main floor of the chamber, a lifeless corpse laying upon each,
+being butchered and hacked to pieces by imps and quasits.  They fling each
+severed part over their shoulder as they go, into a large, bloody trench cut
+into the floor in the center of the room.  
+~
+~
+0 295698440 2 0
+S
+#17007
+`8The Pentagram``~
+Black walls surround the room, curved to form an ominous dome at the
+pinnacle.  The solid obsidian floor, seemingly carved from one massive
+monolith, surrounds the only true object of interest in the room.
+Placed directly under the small hole in the dome, exactly centered
+in the room the obsidian gives way to a strange red rock that seems to
+pulsate with dark power.  Where light pours in from above to the center
+of the giant figure, opening a mystic gate of sorts.  Reaching from the
+dark portal you see the hands of all sorts of dark demons, clawed arms
+groping for escape.  Tracing the figure, which is now seen as a giant
+pentagram, an army of dark priests stand chanting dark mantras.  At the
+edge of the dark portal a behemoth hovers, peering into a tome of the
+arcane.
+~
+~
+0 295698440 2 0
+S
+#17008
+`8Hell-Forge``~
+Overwhelming heat eminates from the enormous pit of magma centered in
+this cave-like room.  Embedded in the craggy walls of the pit below
+are niches just large enough to house an anvil and one of many Hell-Spawns
+seen working tirelessly forging and enchanting demonic blades for the
+dark army.  From the center of the pit of flames rises a massive pedestal
+on which an enormous demon stands overseeing the work.  Scanning around
+it seems as if noone even notices or cares that you have entered the
+forge, they only slave at creating the weapons used for disembowling
+the Knights of the Crown.
+~
+~
+0 295698440 2 0
+S
+#17009
+`89th Gate``~
+Coming to a dead-end you enter a circular room covered in ornate
+tapestries and cryptic runes.  At the back of the room a massive gateway has
+been built purely from Vellum.  Priests stand on either side of the gate
+chanting the dark prayers to maintain its integrity.  Hung on either side a
+bit higher, however, are two young human women.  Blood trickles from their
+writhing bodies into deep pools that seem to glow with some dark
+enchantment.  The gate flares as demonic creatures pour both into and out of
+the portal.  Perched above the entrance is a massive black daemon that seems
+to almost hum with physical strength.  Glaring at everything to emerge from
+the dark gate.  Off to one side stands a group of weakish looking soldiers,
+waiting to be trained by the master.  
+~
+~
+0 295698440 2 0
+S
+#17010
+`8Faceless' Prison``~
+This chamber's ceiling cannot even be seen, instead a dark cloud looms
+overhead, as flashes of lightning dance across it's width.  The walls are
+pitted and scarred as though acid were splashed upon it's surface.  The
+chamber is wide as well, but there is cause for this.  In the center of the
+room, surrounded by layer upon layer of protective circles is a cage.  The
+cage does not seem large, creating a sense of ridiculousness.  And within
+the cage, a man-sized shape can be seen.  It just seems odd that such a
+small thing be warded so.  
+~
+~
+0 295698440 2 0
+S
+#17011
+`8Morgue``~
+This room, while still black and dismal, gives the impression of
+cleanliness.  Utter attention has been paid to the numerous tables occupying
+the main floor.  The tables are crafted from solid black marble, with thin
+grey lines running like veins throughout it's surface.  On one wall, a
+number of square doors, a meter on each side, are numbered and meticulously
+labeled with it's current occupant.  On the opposite wall hang instruments
+and tools of the mortician's trade, though she might use them for personal
+satisfaction as well.  
+~
+~
+0 295698440 2 0
+S
+#17012
+`8Treasury``~
+This roughly-hewn cavern is filled with pile upon pile of coins, gems,
+and trade bars.  Small, squat creatures scamper about, counting and
+arranging the valuable items.  A group of the odd creatures maintain
+numerous ledgers and journals, adding and recording the abundant wealth.  A
+large, winged demon wielding a flaming whip stands observantly, waiting for
+one of the servants to pocket something.  
+~
+~
+0 295698440 2 0
+S
+#17013
+`8The Abyss``~
+This dark, dank chamber reeks of excrement and other atrocious material. 
+On the far wall, a arch crafted of some unknown substance writhes and
+buckles as though it were alive.  A circle of arcane runes are carved into
+the smooth obsidian floor.  Through the arch you can discern a land of
+flowing masses of lava, upon wich floats huge islands of rock.  Moving
+shapes can be seen beyond the doorway, and they seem to be headed towards
+you.  
+~
+~
+0 295698440 2 0
+S
+#17014
+`8Lavafalls``~
+A virtually unpassable river of molten rock bars any progress you had
+intended.  On the far side, you can see the entrance to the black tower
+taunting you.  Small chunks of white-hot rock float aimlessly within it's
+flow.  The heat is nearly unbearable, and you begin to sweat profusely.  All
+hope of reaching your destination is quickly washed away.  
+~
+~
+0 295698440 2 0
+S
+#17015
+`8Covenant Room``~
+This large chamber is lined with row upon row of bookshelves, loaded
+heavy with thick, ancient tomes.  No windows allow light to enter, yet the
+room is far from dark.  Glowing orbs float weightlessly about the room,
+following the various people brousing the contents of each shelf with
+interest.  The floor is of smooth, black granite, and sitting in the center
+of the room, atop a tall stool is a huge being with ebon skin, ivory horns
+sprouting from the crown of his head.  He glances up from the tome he reads
+as you enter.  
+~
+~
+0 295698440 2 0
+S
+#17016
+`2An Empty Garden``~
+You find yourself in an unattended garden its ground long overgrown with
+various species of weeds.  The growth reaches up to your waist and sways
+lightly with your passage.  
+~
+~
+0 362807304 65538 3
+S
+#17017
+`6Pitfall``~
+You stand before a large empty space with nothing but dusty air filling
+the void before you.  As you gaze down into the murky depths of the opening
+only the echos of small pebbles falling answers you.  
+~
+~
+0 362807304 2 9
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 17011 spec_cast_cabal_healer
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 17006 1 17001 1
+O 0 17001 0 17001
+O 0 17000 0 17002
+M 0 17016 2 17002 6
+O 0 17003 0 17003
+M 0 17010 2 17003 2
+M 0 17005 1 17005 1
+M 0 17012 1 17006 1
+M 0 17017 1 17006 1
+G 0 17017 0
+G 0 17004 0
+G 0 17005 0
+G 0 17006 0
+G 0 17007 0
+G 0 17008 0
+G 0 17009 0
+G 0 17010 0
+G 0 17011 0
+G 0 17012 0
+O 0 17000 0 17006
+M 0 17007 1 17007 1
+M 0 17008 1 17008 1
+M 0 17009 1 17009 1
+M 0 21 1 17010 1
+M 0 17018 1 17010 1
+M 0 17011 1 17011 1
+M 0 17013 1 17012 1
+M 0 17013 3 17012 3
+M 0 17014 1 17012 1
+M 0 17015 1 17015 1
+G 0 17013 0
+G 0 17014 0
+G 0 17015 0
+G 0 17016 0
+S
+
+
+
+#SHOPS
+17015 0 0 0 0 0 100 100 0 23
+17017 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#17000
+if room $i != 17000
+or isimmort $n
+  break
+endif
+if cabally $n Empire
+  if isbloody $n
+    if affspell $n 'blindness'
+    or affspell $n 'death grasp'
+    or affspell $n 'plague'
+    or affspell $n 'poison'
+    or affspell $n 'dysentery'
+    or affspell $n 'enfeeblement'
+    or affspell $n 'vampire bite'
+      pmote glances at $N noticing the sickness.
+    else  
+      mob echoaround $n $I Sensing blood $I lurches towards $N hungrily.
+      mob echoat $n Seeing hungry bloodlust in $I's eyes you wisly decide to wait.     
+      mob stop $n
+      break
+    endif
+  endif
+  if isdelay $i
+    break
+  else
+    mob delay 1
+    pmote slops to one side and lets $N pass.
+    'Weeelcome tooo theee Empire $N.
+    break
+  endif
+else
+  pmote oozes and slops in the way and prevents $N from entering.
+  say Noooone ssshalllll passsss!
+  mob stop $n
+endif
+~
+#17001
+if act $n raider
+and rand 10
+  if name $n watchermonster
+    break
+  else 
+    mob echo $I engulfs $N!
+    qslay $n
+    mob echo A few bloody bones spill out of $I's maw.
+  endif
+endif
+if isdelay $i
+  break
+else
+  cb Weeee arre underrrr attaccck by $N!
+  mob delay 6
+endif
+~
+#17002
+if rand 50 then
+  emote dips his finger into the vat and licks it.
+  emote pulls a face like a bulldog chewing a wasp.
+  emote produces a little shaker and adds some salt before continuing his stirring.
+else
+  emote peers intently into the vat and then squeals angrily.
+  emote almost falls in attempting to fish something out.
+  emote emerges with some kind of sock.
+endif
+~
+#17005
+if rand 50 then
+  emote is fixated with his book. He turns it sideways and the centre pages unfold.
+  drool
+  echo Peering over his shoulder you see the object of his affections.
+  echo A diagram of some kind of wand. Underneath the text reads 'Wand of sexual magnetism'
+else
+  emote thumbs through his book. He then frantically thumbs backwards.
+  scream
+  grumble
+  say I KNOW this is a book of Chaos but PLEASE can't we just have the pages in order for once.
+  cry
+endif
+ 
+~
+#17007
+if rand 50 then
+  emote mumbles and chants dramatically.
+  echo Lightning sparks between his fingertips and his eyes glow a deep red.
+  echo The room fills with energy and a swirling vortex surrounds him.
+  echo As the vortex dissipates you see...... a roast chicken.
+  emote takes the chicken and munches contentedly.
+else
+  emote rises through the air slowly.
+  emote keeps rising....
+  emote peers downwards with a shock.
+  emote floats back down rather quickly.
+endif
+~
+#17008
+if rand 50 then
+  snicker
+  say 'ere's a good'un.
+  say what's da difference between a knight an' a barrel of poop ?
+  say da barrel.
+  rofl
+else
+  grumble
+  mutter
+  groan
+  mutter
+  grumble
+  say I 'ate soddin' Knights.
+  mutter
+endif
+~
+#17009
+if rand 50 then
+  say RIGHT YOU 'ORRIBLE LOT. I WANT TO SEE YOU WORK THOSE ARMS!
+  say WORK THAT BODY! NOW!
+else
+  emote looks at you.
+  say YOU ARE ONE 'ORRIBLE LITTLE CREATURE! YOU NEED SOME TRAINING!
+  say ONE TWO! ONE TWO! WORK THAT BODY!
+endif
+~
+#17014
+if rand 50 then
+  if mobhere 17013 then
+    emote suddenly whips a goblin and grins.
+    mob force goblin emote squeals.
+    mob force goblin say What was that for ?
+    say I just don't like you scum !
+    mob force goblin say Well that seems fair.
+  endif
+else
+  emote glares at everyone trying to look sinister.
+  echo His glare fails miserably but his massive size, nasty whip, and pointy teeth save him.
+endif
+~
+#17015
+if rand 50 then
+  emote looks at you, gives a sly wink and points.
+  echo You feel strangely violated.
+else
+  emote flicks thoughtfully through his tome.
+  emote produces a quill and starts crossing names out muttering to himself 'Dead, dead, dead'
+endif
+~
+#17016
+if mobhere 17013 then
+  if rand 50 then
+    mob force goblin emote looks around shiftily before slipping a gold coin under his foot.
+    echo CRACK!! The demon's whip comes down and removes it.... along with a toe.
+    mob force goblin emote squeals loudly.
+    mob force goblin say Again! Again!
+  else
+    mob force goblin emote counts out 'one for them.... one for me... one for them.'
+    mob force goblin emote looks at the inquiring faces.
+    mob force goblin say I was dreaming out loud again wasn't I ?
+    mob force goblin sigh
+  endif
+endif
+~
+#17017
+if rand 50 then
+  emote produces a small spoon-like implement.
+  echo There are a couple of squishing popping noises as he merrily scoops out a couple of eyeballs.
+else
+  emote whistles happily as he unravels some entrails and winds them round his hands.
+  emote almost dances with joy at finding an almost full stomach in the carcass.
+endif
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#17013
+if cabal $n 'warmaster'
+  obj echoat $n This is not the way a Warmaster should act!
+  break
+endif
+if isdelay $i
+   obj echoat $n $I seems devoid of any power.
+else
+   if iscombat $n
+     obj echoaround $f $I drains mana from $F!
+     obj echoat $f $I drains mana from you!
+     obj gain mana pc $f -150 -90
+     obj gain mana pc $n  90 150
+     obj delay 1
+  else
+    obj echoat $n You're not in combat!
+  endif
+endif
+~
+#17014
+if isdelay $i
+  obj echoat $n $I is still gathering more dust.
+  break
+endif
+if isworn $i
+  obj echo A dusty imp pulls some dust from his bag and sprinkles it around.
+  obj pfor group $n cast 'invisibility' #
+  obj delay 3
+endif
+~
+#17015
+if affspell $n 'hysteria'
+  else
+  if isworn $i
+    obj echo A gruesome mask comes to life, twisting into a look of pure evil and terror! 
+    obj cast terror $n
+  endif
+endif
+~
+#17016
+obj echo A crown of flames sprouts around $I.
+obj cast 'flamestrike'
+~
+#17017
+if isdelay $i
+  obj echoat $n $I seems devoid of all power.
+else
+  obj echo $I glows with infernal power!
+  if rand 30
+     obj cast 'armor' $n
+     break
+   endif
+   if rand 50
+     obj cast 'shield' $n
+   else
+     obj cast 'flesh armor' $n
+     break
+   endif
+   obj delay 8
+endif
+~
+#0
+
+#ROOMPROGS
+#0
+
+#$

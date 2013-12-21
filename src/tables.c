@@ -12,7 +12,7 @@
  *                                                                         *
  *  Much time and thought has gone into this software and you are          *
  *  benefitting.  We hope that you share your changes too.  What goes      *
- *  around, comes around.                                                  * 
+ *  around, comes around.                                                  *
  *                                                                         *
  *      ROM 2.4 is copyright 1993-1998 Russ Taylor                         *
  *      ROM has been brought to you by the ROM consortium                  *
@@ -37,32 +37,32 @@
 #include "comm.h"
 
 const char*   day_name        [MAX_DAYS] =
-{ 
-  "Firstday", 
-  "Seconday", 
-  "Thirday", 
-  "Fourthday", 
-  "Fiftday", 
-  "Sixday", 
-  "Sevenday", 
-  "Eightday", 
-  "Nineday", 
+{
+  "Firstday",
+  "Seconday",
+  "Thirday",
+  "Fourthday",
+  "Fiftday",
+  "Sixday",
+  "Sevenday",
+  "Eightday",
+  "Nineday",
   "Sunday" ,
 };
 
 const char*   month_name      [MAX_MONTHS] =
 {
-  "Life", 
-  "Nature", 
-  "Balance", 
-  "Chaos", 
-  "Death", 
+  "Life",
+  "Nature",
+  "Balance",
+  "Chaos",
+  "Death",
   "Order",
 };
 
-/* Holds Jail info for JUSTICE jails 
+/* Holds Jail info for JUSTICE jails
 name		holds name of hometown, NULL for termination
-entrance	VNUM of room that the guard is in 
+entrance	VNUM of room that the guard is in
 cell[MAX_CELL]	Array of cells, mates are dumped in lowest populated one first
 exe_mob		Vnum of mob used for executions, (Also used for yells).
 exe_room	Vnum of room used for execution, yells etc.
@@ -70,15 +70,15 @@ exe_room	Vnum of room used for execution, yells etc.
 */
 const struct jail_type jail_table[MAX_HOMETOWN] =
 {
-  /* FIRST SPOT needed for "FALSE" return of 0 
+  /* FIRST SPOT needed for "FALSE" return of 0
      and for jail cells selected if characters hometown has no jails*/
   {"",		20900,	20501,	{20502, 20504, 20506}, 20901,	20605},
   {"ValMiran",  20900,	20501,	{20502, 20504, 20506}, 20901,	20605},
-  {"Rheydin",   11698,  11453,  {11449, 11452, 11455}, 11455,   11500},  
+  {"Rheydin",   11698,  11453,  {11449, 11452, 11455}, 11455,   11500},
   {NULL,	0,	0,	{0, 0, 0},	       0,	    0}
 };
 
-const struct execution_type execution_table[] = 
+const struct execution_type execution_table[] =
 {
   /* first spot left blank for return of FALSE */
   {
@@ -148,42 +148,42 @@ const struct execution_type execution_table[] =
 
 
 /* psalm table (gGroup = TRUE means group allowed)*/
-const struct psalm_type  psalm_table[] = 
+const struct psalm_type  psalm_table[] =
 {
   {"", NULL, 0, 0, FALSE, FALSE, FALSE},
-/*	name,		gsn,   check,  
+/*	name,		gsn,   check,
 	chant,	wait,	fTwo,	fRand,	fGroup  */
-  {"Righteousness", &gsn_righteous,  &gsn_righteous, 
+  {"Righteousness", &gsn_righteous,  &gsn_righteous,
 				4, 120,	TRUE,	TRUE,	FALSE},
   {"Divine void",   &gsn_dvoid,	&gen_dvoid,
 				5, 144,	TRUE,	TRUE,	FALSE},
   {"Insight",	    &gsn_insight, &gsn_insight,
 				7, 396,	TRUE,	TRUE,	FALSE},
-  {"Divine Wrath",  &gsn_dwrath, &gsn_dwrath,     
+  {"Divine Wrath",  &gsn_dwrath, &gsn_dwrath,
 				1,  48,	TRUE,	FALSE,	FALSE},
-  {"Shadow Bane",   &gsn_sbane, &gsn_sbane,     
+  {"Shadow Bane",   &gsn_sbane, &gsn_sbane,
 				1,  48,	TRUE,	TRUE,	FALSE},
 
-  {"Purewater",     &gsn_pwater, &gsn_pwater,     
+  {"Purewater",     &gsn_pwater, &gsn_pwater,
 				1,  48,	TRUE,	TRUE,	FALSE},
-  {"Icefire",	    &gsn_icefire, &gsn_icefire,    
+  {"Icefire",	    &gsn_icefire, &gsn_icefire,
 				1,  48,	TRUE,	TRUE,	FALSE},
-  {"Searing Might", &gsn_smight, &gsn_smight,     
+  {"Searing Might", &gsn_smight, &gsn_smight,
 				3,  48,	TRUE,	TRUE,	FALSE},
-  {"Divine Might",  &gsn_dmight, &gsn_dmight,     
+  {"Divine Might",  &gsn_dmight, &gsn_dmight,
 				3,  48,	TRUE,	TRUE,	FALSE},
   {"Vitality",      &gsn_vitality, &gsn_vitality,
 				7, 372,	TRUE,	TRUE,	FALSE},
 
-  {"Purity",        &gsn_purity, &gsn_purity,     
+  {"Purity",        &gsn_purity, &gsn_purity,
 				3, 120,	TRUE,	TRUE,	FALSE},
   {"Constitution",  &gsn_const, &gsn_const,
 				3, 120,	TRUE,	TRUE,	FALSE},
-  {"the Eye of Palison",&gsn_epal, &gsn_epal,  
+  {"the Eye of Palison",&gsn_epal, &gsn_epal,
 				3, 120,	TRUE,	TRUE,	FALSE},
   {"Swift retribution",&gsn_sretrib, &gsn_sretrib,
 				0,  48,	TRUE,	TRUE,	TRUE},
-  {"Virtues",       &gsn_virtues, &gsn_virtues,  
+  {"Virtues",       &gsn_virtues, &gsn_virtues,
 				1,   1,	TRUE,	TRUE,	TRUE},
 
   {"Preservation",  &gsn_preserve,  &gsn_preserve,
@@ -201,13 +201,13 @@ const struct psalm_type  psalm_table[] =
 				   11,  360,	TRUE,	FALSE,	TRUE},
   {"the Triumph of Palison",&gsn_ptrium, &gsn_ptrium,
 				   11,  360,	TRUE,	FALSE,	FALSE},
-  {"Undeniable Order",&gsn_uorder, &gsn_uorder,     
+  {"Undeniable Order",&gsn_uorder, &gsn_uorder,
 				   11,  360,	TRUE,	FALSE,	FALSE},
   {"Baptism",      &gsn_baptize,   &gsn_baptize,
 				   11,  20,	FALSE,	FALSE,	FALSE},
-  {"Inner Strength",&gsn_istrength, &gsn_istrength,     
+  {"Inner Strength",&gsn_istrength, &gsn_istrength,
 				    3,   96,	TRUE,	FALSE,	FALSE},
-  {"Inner Peace",&gsn_icalm, &gsn_icalm,     
+  {"Inner Peace",&gsn_icalm, &gsn_icalm,
 				    23,  239,	TRUE,	TRUE,	FALSE},
 
 
@@ -221,35 +221,35 @@ const struct hometown_type hometown_table[MAX_HOMETOWN] =
     /*  pit obj :	good,	  neutral,  evil        */
     /*  race						*/
 
-  { 
-    "ValMiran",		
-    20790,    20784,	    0,        
+  {
+    "ValMiran",
     20790,    20784,	    0,
-    20700,    20784,        0,       
+    20790,    20784,	    0,
+    20700,    20784,        0,
     NULL
-  },	
+  },
 
-  { 
-    "Falen_Dara", 
-    9609,     9609,     9609,        
-    9610,     9610,     9610,	
+  {
+    "Falen_Dara",
+    9609,     9609,     9609,
+    9610,     9610,     9610,
     9609,     9609,     9609,
     "Slith"
   },
 
   { "Miruvhor",
-    0,	 7870,	   7870,	
-    0,	 7870,	   7870,	
+    0,	 7870,	   7870,
+    0,	 7870,	   7870,
     0,	 7870,	   7870,
     NULL,
   },
 
   { "Marak",
-    7646,	 7646,	   7646,	
-    7646,	 7646,	   7646,	
+    7646,	 7646,	   7646,
+    7646,	 7646,	   7646,
     7646,	 7646,	   7646,
     "Ogre"
-  },  
+  },
 
 
   { "Shasarazade",
@@ -260,12 +260,12 @@ const struct hometown_type hometown_table[MAX_HOMETOWN] =
   },
 
 
-  { "Xymerria", 
+  { "Xymerria",
     0,         0,     1281,
     0,         0,     1281,
     0,         0,     1281,
     "Drow"
-  },  
+  },
 
   { "Rheydin",
     11663,	  11667,    11665,
@@ -279,54 +279,54 @@ const struct hometown_type hometown_table[MAX_HOMETOWN] =
     0,             0,     8049,
     0,             0,     8049,
     "Illithid"
-  },  
+  },
 
   { "Tarandue",
     0,          4109,     0,
     0,          4109,     0,
     0,          4109,     0,
     "Gnome"
-  },    
+  },
 
   { "Shire",
     1185,       1185,     0,
     1185,       1185,     0,
     1185,       1185,     0,
   "Halfling"
-  }, 
+  },
 
   { "Gal-Ranidon",
     0,        0,     21052,
     0,        0,     21052,
     0,        0,     21052,
     "Duergar"
-  }, 
+  },
 
-  { "Khorandain", 
+  { "Khorandain",
     21579,        21559,     0,
     21578,        21560,     0,
     21510,        21511,     0,
     "Dwarf"
-  }, 
+  },
 
-  { "Ralardia", 
+  { "Ralardia",
     0,        11922,     0,
     0,        11921,     0,
     0,        11904,     0,
     "werebeast"
-  }, 
+  },
 
   /*
-  { "Airia", 
+  { "Airia",
     0,        10972,     0,
     0,        10972,     0,
     0,        10924,     0,
     "avian"
-  }, 
+  },
   */
   { NULL,
-    0,        0,        0,        
-    0,        0,        0,        
+    0,        0,        0,
+    0,        0,        0,
     0,        0,        0,
     NULL
   }
@@ -342,11 +342,11 @@ to_room:  "$n's %s %s $N's <shield name>",
 **look in skill.c lagprot_msg for details.
 */
 
-const struct lagattack_type lagattack_table[] = 
+const struct lagattack_type lagattack_table[] =
 {
   {
-    &gsn_bash, 
-    "bash", 
+    &gsn_bash,
+    "bash",
     "you slam into",
     "collides with your",
     "collides with",
@@ -358,12 +358,12 @@ const struct lagattack_type lagattack_table[] =
   },
 
   {
-    &gsn_bodyslam, 
-    "bodyslam", 
+    &gsn_bodyslam,
+    "bodyslam",
     "you slam into",
     "collides into your",
     "collides with",
-    
+
 //balance
     "You slam into $N, but $E stays on $S feet!",
     "$n knocks you with a full on bodyslam, but you stay on your feet!",
@@ -371,8 +371,8 @@ const struct lagattack_type lagattack_table[] =
   },
 
   {
-    &gsn_grapple, 
-    "grapple", 
+    &gsn_grapple,
+    "grapple",
     "your hands slide around",
     "is useless due to your",
     "is useless due to",
@@ -385,7 +385,7 @@ const struct lagattack_type lagattack_table[] =
 
   {
     &gsn_thrust,
-    "thrust", 
+    "thrust",
     "it becomes absorbed by",
     "is absorbed by your",
     "collides into",
@@ -397,8 +397,8 @@ const struct lagattack_type lagattack_table[] =
   },
 
   {
-    &gsn_wolf_form, 
-    "tackle", 
+    &gsn_wolf_form,
+    "tackle",
     "it's stopped short by",
     "seems to land short before your",
     "collides into",
@@ -411,7 +411,7 @@ const struct lagattack_type lagattack_table[] =
 
   {
     &gsn_armored_rush,
-    "swipe", 
+    "swipe",
     "it's stopped short by",
     "digs into your",
     "digs into",
@@ -423,7 +423,7 @@ const struct lagattack_type lagattack_table[] =
   },
 
   {
-    NULL, 
+    NULL,
     "",
     "",
     "",
@@ -449,11 +449,11 @@ const struct flag_type path_table[] = {
   {NULL, 0, FALSE}
 };
 
-/* table with the way/align/ethos/god for religions 
- * Table length set by MAX_DIETY in merc.h 
- * WAY, GOD, PATH, 
- ALIGN, 
- ETHOS , 
+/* table with the way/align/ethos/god for religions
+ * Table length set by MAX_DIETY in merc.h
+ * WAY, GOD, PATH,
+ ALIGN,
+ ETHOS ,
  SHRINE, TATTOO_VNUM
 
  * NOTE: IF A SHRINE IS NOT PRESENT, THE WAY WILL PREVENT COMMUNING
@@ -609,7 +609,7 @@ const struct flag_type punish_table[] =
   {	NULL		,		   0,	FALSE }
 };
 
-const struct flag_type pact_flags[] = 
+const struct flag_type pact_flags[] =
 {
   {	"none"		,	PACT_NONE,	FALSE },
   {	"Trade"		,	PACT_TRADE,	TRUE },
@@ -691,11 +691,11 @@ const struct flag_type rprog_flags[] =
 
 
 /* table with descriptions for study total */
-/* If adding in here, %s can be replaced with the char name 
+/* If adding in here, %s can be replaced with the char name
 ONLY in the 6th entry, this was done in order to be
 able to display character's name even when he is not online.
 */
-const struct study_msg_type  study_msg_table [] = 
+const struct study_msg_type  study_msg_table [] =
 {
   {"You would be a fool to try to"},
   {"You should wait another day before trying to"},
@@ -758,9 +758,9 @@ const struct maxmcharge_type  maxmcharge_table[] =
  {"almost full"},
  {"`!critical``"},
  {"NULL"},
- 
+
 };
- 
+
 
 const struct position_type position_table[] =
 {
@@ -810,7 +810,7 @@ const struct anatomy_type anatomy_table[] =
 };
 
 const struct size_type size_table[] =
-{ 
+{
     {	"tiny"		},
     {	"small" 	},
     {	"medium"	},
@@ -899,9 +899,9 @@ const struct flag_type plr_flags[] =
 };
 
 /* terminated with non-positive */
-/* 
+/*
 this is a bit different from normal flag type use
-it stores strings to be printed on login if that flag 
+it stores strings to be printed on login if that flag
 is present.
 */
 const struct flag_type message_flags[] =
@@ -931,7 +931,7 @@ const struct flag_type message_flags[] =
   {"`@You have been given a chance to apply to your clan's Cabal.``",
    MSG_CABAL_ALLOW,		FALSE},
   {	 NULL,				-1,	FALSE }
-  
+
 };
 
 /* basic cabal room data flags */
@@ -1285,7 +1285,7 @@ const struct item_type          item_table      []      =
     {   ITEM_ARTIFACT,  "artifact"      },
     {   ITEM_RELIC,     "relic"         },
     {   ITEM_THROW,     "throw"         },
-    {   ITEM_INSTRUMENT,"instrument"    }, 
+    {   ITEM_INSTRUMENT,"instrument"    },
     {   ITEM_SOCKET,    "socket"        },
     {   ITEM_RESEARCH,  "research"      },
     {   ITEM_RANGED,    "ranged"	},
@@ -1385,7 +1385,7 @@ const   struct flag_type      damtype_table    []    ={
 const   struct attack_type      attack_table    [MAX_DAMAGE_MESSAGE]    =
 {
     {   "none",         "hit",          -1              },  /*  0 */
-    {   "slice",        "slice",        DAM_SLASH       },      
+    {   "slice",        "slice",        DAM_SLASH       },
     {   "stab",         "stab",         DAM_PIERCE      },
     {   "slash",        "slash",        DAM_SLASH       },
     {   "whip",         "whip",         DAM_SLASH       },
@@ -1503,24 +1503,24 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	name,           pc_race?,	act2 bits,
 	act bits,       aff_by bits,    off bits,
 	imm,            res,            vuln,
-	form,           parts,		
+	form,           parts,
 	grn
     },
 */
-    { 
+    {
 	"unique",               FALSE,  0,
 	0,              0,              0,
 	0,              0,              0,
-	0,        	0,		
+	0,        	0,
 	NULL,
     },
-    { 
+    {
 	"human",                TRUE, 	0,
 	0,              0,              0,
 	0,              0,              0,
 	FORM_HUMANOID,
         PART_HUMANOID,
-	
+
 	NULL,
     },
     {
@@ -1529,7 +1529,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	0,              RES_CHARM,    VULN_IRON,
 	FORM_HUMANOID,
         PART_HUMANOID,
-	
+
 	NULL,
     },
     {
@@ -1538,7 +1538,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	0,              RES_CHARM,    VULN_SILVER|VULN_MITHRIL,
 	FORM_HUMANOID,
         PART_HUMANOID,
-	
+
 	NULL,
     },
     {
@@ -1547,7 +1547,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	0,              RES_POISON|RES_MAGIC, VULN_DROWNING,
 	FORM_HUMANOID,
         PART_HUMANOID,
-	
+
 	NULL,
     },
     {
@@ -1555,7 +1555,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	0,              AFF_INFRARED,   0,
 	0,              RES_POISON|RES_MAGIC, VULN_DROWNING,
 	A|H|M|V,        A|B|C|D|E|F|G|H|I|J|K,
-	
+
 	NULL,
     },
     {
@@ -1564,7 +1564,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	0,              RES_MAGIC,              0,
 	FORM_HUMANOID,
         PART_HUMANOID,
-	
+
 	NULL,
     },
     {
@@ -1573,7 +1573,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	0,              0,              VULN_CHARM | VULN_MENTAL,
 	FORM_HUMANOID,
         PART_HUMANOID,
-	
+
 	NULL,
     },
     {
@@ -1582,7 +1582,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
         0,              0,              VULN_AIR,
 	FORM_HUMANOID | FORM_BIRD,
         PART_HUMANOID | PART_WINGS,
-	
+
 	NULL,
     },
     {
@@ -1612,7 +1612,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 
 	NULL,
     },
-    { 
+    {
 	"undead",                TRUE, 	0,
 	ACT_UNDEAD,              AFF_INFRARED,              0,
 	IMM_DISEASE|IMM_POISON,  RES_COLD,             VULN_HOLY,
@@ -1621,7 +1621,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 
 	&grn_undead,
     },
-    { 
+    {
 	"illithid",                TRUE, 	  0,
 	0,             AFF_INFRARED,              0,
 	0,	       RES_MENTAL|RES_LIGHTNING,  VULN_LIGHT,
@@ -1629,7 +1629,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
         PART_HUMANOID | PART_TENTACLES,
 
 	&grn_illithid,
-    }, 
+    },
     {
 	"minotaur",                  TRUE,	0,
 	0,              0,              0,
@@ -1672,7 +1672,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	0,              0,              0,
 	0,              0,              VULN_FIRE,
 	FORM_HUMANOID | FORM_ANIMAL,
-	PART_HUMANOID | PART_TAIL | PART_CLAWS,        
+	PART_HUMANOID | PART_TAIL | PART_CLAWS,
 	&grn_feral,
     },
     {
@@ -1680,7 +1680,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	0,              0,              0,
 	0,              0,              VULN_SILVER,
 	FORM_HUMANOID,
-        PART_HUMANOID,	
+        PART_HUMANOID,
 
 	&grn_werebeast,
     },
@@ -1689,7 +1689,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	0,              0,              0,
 	0,              0,              0,
 	FORM_HUMANOID,
-        PART_HUMANOID,	
+        PART_HUMANOID,
 
 	NULL,
     },
@@ -1698,7 +1698,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	0,              0,              0,
 	0,              0,              0,
 	FORM_HUMANOID,
-        PART_HUMANOID,	
+        PART_HUMANOID,
 
 	NULL,
     },
@@ -1707,7 +1707,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	0,              0,              0,
 	0,              0,              0,
 	FORM_HUMANOID,
-        PART_HUMANOID,	
+        PART_HUMANOID,
 
 	NULL,
     },
@@ -1716,7 +1716,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	0,              0,              0,
 	0,              0,              0,
 	FORM_HUMANOID,
-        PART_HUMANOID,	
+        PART_HUMANOID,
 
 	NULL,
     },
@@ -1725,7 +1725,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	0,              0,              0,
 	0,              0,              0,
 	FORM_HUMANOID,
-        PART_HUMANOID,	
+        PART_HUMANOID,
 
 	NULL,
     },
@@ -1734,7 +1734,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	0,              AFF_FLYING,              0,
 	0,              0,              0,
 	FORM_HUMANOID,
-        PART_HUMANOID,       
+        PART_HUMANOID,
 
 	NULL,
     },
@@ -1743,73 +1743,73 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	0,              AFF_INFRARED,   0,
 	0,              RES_CHARM,      0,
 	FORM_HUMANOID,
-        PART_HUMANOID,	
+        PART_HUMANOID,
 
 	&grn_half_elf,
     },
-    { 
+    {
       "faerie",               TRUE ,  0,
       0,              AFF_FLYING | AFF_SNEAK,     0,
       0,              0,              0,
       FORM_HUMANOID,
-      PART_HUMANOID,      
+      PART_HUMANOID,
 
       &grn_faerie,
     },
 
-    { 
+    {
       "demon",               TRUE ,   0,
       0,              AFF_INFRARED | AFF_FLYING | AFF_DETECT_INVIS,   0,
       0,              0,              VULN_SUMMON,
       FORM_HUMANOID,
-      PART_HUMANOID,      
+      PART_HUMANOID,
 
       &grn_demon,
     },
 
-    { 
+    {
       "ogre",                TRUE ,   0,
       0,              0,              0,
       0,              0,	      VULN_MAGIC,
       FORM_HUMANOID,
-      PART_HUMANOID,      
+      PART_HUMANOID,
 
       &grn_ogre,
     },
-    { 
+    {
       "vampire",                TRUE, 	0,
       ACT_UNDEAD,              AFF_INFRARED,              0,
       IMM_DISEASE|IMM_POISON,  RES_COLD,             VULN_HOLY|VULN_LIGHT,
       FORM_HUMANOID,
-      PART_HUMANOID,      
-      
+      PART_HUMANOID,
+
       &grn_vampire,
     },
-    { 
+    {
       "lich",                TRUE, 	0,
       ACT_UNDEAD,              AFF_INFRARED,              0,
       IMM_DISEASE|IMM_POISON,  RES_COLD,             VULN_HOLY,
       FORM_HUMANOID,
-      PART_HUMANOID,       
-      
+      PART_HUMANOID,
+
       NULL,
-    }, 
-    { 
+    },
+    {
 	"goblin",                TRUE, 	0,
 	0,              0,              0,
 	0,              0,              0,
 	FORM_HUMANOID,
         PART_HUMANOID,
-	
+
 	NULL,
     },
-    { 
+    {
 	"quickling",                TRUE, 	0,
 	0,              0,              0,
 	0,              0,              0,
 	FORM_HUMANOID,
         PART_HUMANOID,
-	
+
 	NULL,
     },
     {
@@ -1817,8 +1817,8 @@ const   struct  race_type       race_table      [MAX_RACE]              =
       0,              0,              0,
       0,              RES_WEAPON,     VULN_MENTAL,
       FORM_HUMANOID,
-      PART_HUMANOID,	
-      
+      PART_HUMANOID,
+
       NULL,
     },
     {
@@ -1873,7 +1873,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
     },
     {   "dragon",               FALSE, 0,
 	0,                      AFF_INFRARED|AFF_FLYING,        0,
-	0,                      RES_FIRE|RES_BASH|RES_CHARM, 
+	0,                      RES_FIRE|RES_BASH|RES_CHARM,
 	VULN_PIERCE|VULN_COLD,
 	A|H|Z,          A|C|D|E|F|G|H|I|J|K|L|P|Q|U|V|X,
 
@@ -1886,7 +1886,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	A|B|G|V,        A|C|D|E|F|H|J|K|Q|V,
 
 	NULL,
-    },   
+    },
     {
 	"goblin",               FALSE,	0,
 	0,              AFF_INFRARED,   0,
@@ -1951,7 +1951,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	A|G|V,          A|C|D|E|F|H|J|K,
 
 	NULL,
-    },  
+    },
     {
 	"rabbit",               FALSE,	0,
 	0,              0,              OFF_DODGE|OFF_FAST,
@@ -1967,7 +1967,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	A|M|V,          A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|U|V|W|X|Y,
 
 	NULL,
-    },  
+    },
     {
 	"snake",                FALSE,	0,
 	0,              0,              0,
@@ -1991,7 +1991,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 	A|G|W,          A|C|D|E|F|H|K|P,
 
 	NULL,
-    },          
+    },
     {
 	"wyvern",               FALSE,	0,
 	0,              AFF_FLYING|AFF_DETECT_INVIS|AFF_DETECT_HIDDEN,
@@ -2001,7 +2001,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 
 	NULL,
     },
-    { 
+    {
 	"horse",               FALSE, 	0,
 	0,              0,              0,
 	0,              0,              0,
@@ -2009,7 +2009,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 
 	NULL,
     },
-    { 
+    {
 	"horned beast",               FALSE, 	0,
 	0,              0,              0,
 	0,              0,              0,
@@ -2017,7 +2017,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 
 	NULL,
     },
-    { 
+    {
 	"insect",               FALSE, 	0,
 	0,              0,              0,
 	0,              0,              0,
@@ -2025,7 +2025,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 
 	NULL,
     },
-    { 
+    {
 	"fly",               FALSE, 	0,
 	0,              T,              0,
 	0,              0,              0,
@@ -2033,7 +2033,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 
 	NULL,
     },
-    { 
+    {
 	"centaur",               FALSE, 0,
 	0,              0,              0,
 	0,              0,              0,
@@ -2041,7 +2041,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 
 	NULL,
     },
-    { 
+    {
 	"deer",               FALSE, 	0,
 	0,              0,              0,
 	0,              0,              0,
@@ -2049,7 +2049,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 
 	NULL,
     },
-    { 
+    {
 	"golem",               FALSE, 	0,
 	0,              0,              0,
 	0,              0,              0,
@@ -2065,7 +2065,7 @@ const   struct  race_type       race_table      [MAX_RACE]              =
 
 	NULL,
     },
-    { 
+    {
 	"cold",               FALSE, 	0,
 	0,              0,              0,
 	0,              0,              0,
@@ -2132,19 +2132,19 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
 	{ "Baron of Lightning",  "Baroness of Lightning"},
 	{ "Master of the Elements",  "Mistress of the Elements"},
 	{ "Master of Copper",  "Mistress of Copper"},
-	
+
 	{ "Master of Bronze",  "Mistress of Bronze"},
 	{ "Master of Brass",  "Mistress of Brass"},
 	{ "Master of Iron",  "Mistress of Iron"},
 	{ "Master of Steel",  "Mistress of Steel"},
 	{ "Master of Mithril",  "Mistress of Mithril"},
-	
+
 	{ "Master of Adamantite",  "Mistress of Adamantite"},
 	{ "Captain",  "Captain"},
 	{ "General",  "General"},
 	{ "Field Marshall",  "Field Marshall"},
 	{ "Master of War",  "Mistress of War"},
-	
+
 	{ "Knight Hero",		"Knight Heroine"		},
 	{ "Avatar of War",		"Avatar of War"			},
 	{ "Angel of War",		"Angel of War"			},
@@ -2523,7 +2523,7 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
 	{ "Unseen",  "Unseen"},
 	{ "Grand Master of Thieves",  "Grand Mistress of Thieves"},
 	{ "Grand Master of Assassins",  "Grand Mistress of Assassins"},
-	
+
 	{ "Assassin Hero",		"Assassin Heroine"		},
 	{ "Avatar of Death",		"Avatar of Death",		},
 	{ "Angel of Death",		"Angel of Death"		},
@@ -2561,7 +2561,7 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
       { "Ude",  "Ude"},
       { "Empi",  "Empi"},
       { "Josokutei",  "Josokotei"},
-      { "Kasokutei",  "Kasokutei"}, 
+      { "Kasokutei",  "Kasokutei"},
 
       { "Master of Atemi Waza",  "Mistress of Atemi Waza"},
       { "Master of Kotegaeshi",  "Mistress of Kotegaeshi"},
@@ -2579,7 +2579,7 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
       { "Koshi Garuma",  "Koshi Garuma"},
       { "Sukuinage",  "Sukuinage"},
       { "Osotogari",  "Osotogari"},
-      { "Uki Goshi",  "Uki Goshi"},	
+      { "Uki Goshi",  "Uki Goshi"},
 
       { "Taiotoshi",  "Taiotoshi"},
       { "Harai Goshi",  "Harai Goshi"},
@@ -2662,7 +2662,7 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
 	{ "Enlightened",  		"Enlightened"			},
 	{ "Divine",			"Divine"			},
 	{ "Cardinal of Elements",	"Cardinal of Elements"		},
-	
+
 	{ "Cardinal of Water",		"Cardinal of Water"		},
 	{ "Cardinal of Fire",		"Cardinal of Fire"		},
 	{ "Cardinal of Ice",		"Cardinal of Ice"		},
@@ -2674,7 +2674,7 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
 	{ "Voice of Faith",		"Voice of Faith"		},
 	{ "Hand of Faith",		"Hand of Faith"			},
 	{ "Will of Gods",		"Will of Gods"			},
-	
+
 	{ "Holy Hero",			"Holy Heroine"			},
 	{ "Holy Avatar",		"Holy Avatar"			},
 	{ "Angel",			"Angel"				},
@@ -3073,26 +3073,26 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
 	{ "Sacred Heart",  		"Sacred Heart"			},
 	{ "Saint",  			"Saint"				},
 	{ "Baptist", 			"Baptist"			},
-	{ "Divine Healer",		"Divine Healer"			},	
-	
+	{ "Divine Healer",		"Divine Healer"			},
+
 	{ "Healer of Blindness",	"Healer of Blindness"		},
 	{ "Healer of Deafness",		"Healer of Deafness"		},
 	{ "Healer of Poison",		"Healer of Poison"		},
 	{ "Healer of Disease", 		"Healer of Disease"		},
 	{ "Cleanser of Maledictions",	"Cleanser of Maledictions"	},
-	
+
 	{ "Rejuvenator",		"Rejuvenator"			},
 	{ "Priest of Life",		"Priestess of Life"		},
 	{ "Shepherd of the Weak",	"Shepherd of the Weak"		},
 	{ "Shepherd of the Helpless",	"Shepherd of the Helpless"	},
-	{ "Shepherd of the Misguided",	"Shepherd of the Misguided"	},	
-	
+	{ "Shepherd of the Misguided",	"Shepherd of the Misguided"	},
+
 	{ "Defender of the Faithful",	"Defender of the Faithful"	},
 	{ "Pillar of Faith",		"Pillar of Faith"		},
 	{ "Living Touch",		"Living Touch"			},
 	{ "Holy Father",		"Holy Mother"			},
 	{ "Holy Patriarch of Healing",  "Holy Matriarch of Healing"	},
-	
+
 	{ "Holy Hero",			"Holy Heroine"			},
 	{ "Holy Avatar",		"Holy Avatar"			},
 	{ "Angel",			"Angel"				},
@@ -3131,7 +3131,7 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
 	{ "Expositor",			"Expositor"},
 	{ "Diviner",			"Diviness"},
 	{ "Apprentice Shaman",		"Apprentice Shaman"},
-	
+
 	{ "Apothecary",			"Apothecary"},
 	{ "Inquisitor",			"Inquisitor"},
 	{ "Witch Doctor",		"Witch Doctor"},
@@ -3143,7 +3143,7 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
 	{ "Order of the Grey Robe",	"Order of the Grey Robe"},
 	{ "Order of the Black Robe",	"Order of the Black Robe"},
 	{ "Order of the Red Robe",	"Order of the Red Robe"},
- 
+
 	{ "Zealot",			"Zealot"},
 	{ "Chosen",			"Chosen"},
 	{ "Adept of Faith",		"Adept of Faith"},
@@ -3154,8 +3154,8 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
 	{ "Communer of Damnation",	"Communer of Damnation"},
 	{ "Communer of Decay",		"Communer of Decay"},
 	{ "Communer of Diseases",	"Communer of Diseases"},
-	{ "Wrath of the Blasphemers",	"Wrath of the Blasphemers"},	
-	
+	{ "Wrath of the Blasphemers",	"Wrath of the Blasphemers"},
+
 	{ "Keeper of Faith",		"Keeper of Faith"},
 	{ "Shaman of Fire",		"Shaman of Fire"},
 	{ "Shaman of Ice",		"Shaman of Ice"},
@@ -3167,7 +3167,7 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
 	{ "Wrath of an Immortal",	"Wrath of an Immortal"},
 	{ "Master of Faith",		"Master of Faith"},
 	{ "Holy Shaman",  "Holy Shaman"},
-	
+
 	{ "Shaman Hero",		"Shaman Hero"			},
 	{ "Holy Avatar",		"Holy Avatar"			},
 	{ "Angel",			"Angel"				},
@@ -3397,7 +3397,7 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
       	{ "Druid Angel", 		"Druid Angel"			},
       	{ "Druid Demigod", 		"Druid Demigod"			},
       	{ "Immortal Druid", 		"Immortal Druid"		},
-      
+
       	{ "Druid God", 			"Druid God"			},
       	{ "Druid Deity", 		"Druid Deity"			},
       	{ "Druid Supremity", 		"Druid Supremity"		},
@@ -3413,7 +3413,7 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
         { "Venerable",                  "Venerable"                     },
         { "Reverent",                   "Reverent"                      },
 
-        { "Ethical",                    "Ethical"                       },  
+        { "Ethical",                    "Ethical"                       },
         { "Fervid",                     "Fervid"                        },
         { "Proselytor",                 "Proselytress"                  },
         { "Moralist",                   "Moralist"                      },
@@ -3429,7 +3429,7 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
         { "Staunch",                    "Staunch"                       },
         { "Child of God",               "Child of God"                  },
         { "Devoted",                    "Devoted"                       },
-        { "Crusader",                   "Crusader"                      },   
+        { "Crusader",                   "Crusader"                      },
 
         { "Hand of God",                "Hand of God"                   },
         { "Will of the Holy",           "Will of the Holy"              },
@@ -3447,7 +3447,7 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
         { "Bane of Atheists",           "Bane of Atheists"              },
         { "Bane of Heathens",           "Bane of Heathens"              },
         { "Bane of Heretics",           "Bane of Heretics"              },
-        { "Bane of Sybarites",          "Bane of Sybarites"             },  
+        { "Bane of Sybarites",          "Bane of Sybarites"             },
 
         { "Cleanser of Infidels",       "Cleanser of Infidels"		},
         { "Cleanser of Pagans",         "Cleanser of Pagans"		},
@@ -3464,9 +3464,9 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
         { "Lieutenant of the Order",    "Lieutenant of the Order"	},
         { "Captain of the Order",       "Captain of the Order"		},
         { "Major of the Order",         "Major of the Order" 		},
-        { "Commander of the Order",     "Commander of the Order"	},     
+        { "Commander of the Order",     "Commander of the Order"	},
 /* DEFAULT LEVEL 50 TITLE */
-        { "Cardinal of the Order",	"Patron Sister of the Order"	},     
+        { "Cardinal of the Order",	"Patron Sister of the Order"	},
 /* Level 50 titles in this order: */
 /* behead, pommel bash, armor pierce, high sight, pious, fourth attack */
 
@@ -3554,7 +3554,7 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
         { "Questor Extraordinaire",	"Questor Extraordinaire"		},
         { "Questor Extraordinaire",	"Questor Extraordinaire"		},
         { "Questor Extraordinaire",	"Questor Extraordinaire"		},
-//55      
+//55
         { "Questor Extraordinaire",	"Questor Extraordinaire"		},
         { "Questor Extraordinaire",	"Questor Extraordinaire"		},
         { "Questor Extraordinaire",	"Questor Extraordinaire"		},
@@ -3638,16 +3638,16 @@ char *  const                   title_table     [MAX_CLASS][MAX_LEVEL+1][2] =
 	{ "Blademaster Hero",			"Blademaster Hero" },
 	{ "Blademaster Hero",			"Blademaster Hero" },
     }
-	
+
 };
 
 const   struct  str_app_type    str_app         [26]            =
 {
 /* to hit, to dam, carry, wield */
-    {  0,  0, 140, 0 },          
-    {  0,  0, 140, 0 },            
     {  0,  0, 140, 0 },
-    {  0,  0, 140, 0 },            
+    {  0,  0, 140, 0 },
+    {  0,  0, 140, 0 },
+    {  0,  0, 140, 0 },
     {  0,  0, 140, 18 },
     {  0,  0, 140, 18 }, /* 5  */
     {  0,  0, 140, 18 },
@@ -3657,12 +3657,12 @@ const   struct  str_app_type    str_app         [26]            =
     {  1,  1, 140, 18 }, /* 10  */
     {  1,  1, 140, 18 },
     {  1,  1, 140, 18 },
-    {  1,  1, 140, 18 },              
+    {  1,  1, 140, 18 },
     {  1,  2, 140, 18 },
     {  1,  2, 150, 18 }, /* 15  */
     {  1,  3, 165, 20 },
     {  2,  3, 180, 24 },
-    {  3,  4, 200, 28 },             
+    {  3,  4, 200, 28 },
     {  3,  5, 225, 32 },
     {  4,  6, 250, 38 }, /* 20  */
     {  6,  7, 300, 40 },
@@ -3676,9 +3676,9 @@ const   struct  int_app_type    int_app         [26]            =
 {
 /* practice , learn, manap */
     { 20, 5,  0 },
-    { 20, 5,  0 },                
     { 20, 5,  0 },
-    { 20, 5,  0 },               
+    { 20, 5,  0 },
+    { 20, 5,  0 },
     { 20, 5,  0 },
     { 20, 5,  0 },     /*  5 */
     { 20, 5,  0 },
@@ -3693,7 +3693,7 @@ const   struct  int_app_type    int_app         [26]            =
     { 32, 7,  2 },     /* 15 */
     { 34, 7,  2 },
     { 38, 8,  2 },
-    { 41, 8,  3 },   
+    { 41, 8,  3 },
     { 43, 9,  3 },
     { 46, 9,  3 },     /* 20 */
     { 56,10,  4 },
@@ -3706,10 +3706,10 @@ const   struct  int_app_type    int_app         [26]            =
 const   struct  wis_app_type    wis_app         [26]            =
 {
 /* practice, mana gain */
-    { 0,  0 },                 
-    { 0,  0 },                
     { 0,  0 },
-    { 0,  0 },                
+    { 0,  0 },
+    { 0,  0 },
+    { 0,  0 },
     { 0,  0 },
     { 1,  0 },      /*  5 */
     { 1,  0 },
@@ -3724,7 +3724,7 @@ const   struct  wis_app_type    wis_app         [26]            =
     { 2,  2 },      /* 15 */
     { 2,  2 },
     { 2,  2 },
-    { 3,  2 },                 
+    { 3,  2 },
     { 3,  3 },
     { 3,  3 },      /* 20 */
     { 3,  4 },
@@ -3737,8 +3737,8 @@ const   struct  wis_app_type    wis_app         [26]            =
 const   struct  dex_app_type    dex_app         [26]            =
 {
 /* defensive */
-    {    0 },           
-    {    0 },            
+    {    0 },
+    {    0 },
     {    0 },
     {    0 },
     {    0 },
@@ -3768,10 +3768,10 @@ const   struct  dex_app_type    dex_app         [26]            =
 const   struct  con_app_type    con_app         [26]            =
 {
 /* hitpoints, shock */
-    {  0,  5 },             
-    {  0, 10 },           
+    {  0,  5 },
+    {  0, 10 },
     {  0, 15 },
-    {  0, 20 },           
+    {  0, 20 },
     {  0, 25 },
     {  0, 30 },   /*  5 */
     {  0, 35 },
@@ -3786,7 +3786,7 @@ const   struct  con_app_type    con_app         [26]            =
     {  1, 80 },   /* 15 */
     {  1, 85 },
     {  2, 88 },
-    {  2, 90 },              
+    {  2, 90 },
     {  3, 95 },
     {  3, 97 },   /* 20 */
     {  4, 99 },
@@ -3818,7 +3818,7 @@ const   struct  liq_type        liq_table       []      =
     { "blood",                  "red",          {   0, 2, -1, 2,  6 }   },
 // 15
     { "salt water",             "clear",        {   0, 1, -2, 0,  1 }   },
-    { "coke",                   "brown",        {   0, 2,  9, 2, 12 }   }, 
+    { "coke",                   "brown",        {   0, 2,  9, 2, 12 }   },
     { "root beer",              "brown",        {   0, 2,  9, 2, 12 }   },
     { "elvish wine",            "green",        {  35, 2,  8, 1,  5 }   },
     { "white wine",             "golden",       {  28, 1,  8, 1,  5 }   },
@@ -3830,7 +3830,7 @@ const   struct  liq_type        liq_table       []      =
     { "vodka",                  "clear",        { 130, 1,  5, 0,  2 }   },
 // 25
     { "cranberry juice",        "red",          {   0, 1,  9, 2, 12 }   },
-    { "orange juice",           "orange",       {   0, 2,  9, 3, 12 }   }, 
+    { "orange juice",           "orange",       {   0, 2,  9, 3, 12 }   },
     { "absinthe",               "green",        { 200, 1,  4, 0,  2 }   },
     { "brandy",                 "golden",       {  80, 1,  5, 0,  4 }   },
     { "aquavit",                "clear",        { 140, 1,  5, 0,  2 }   },
@@ -3838,7 +3838,7 @@ const   struct  liq_type        liq_table       []      =
     { "schnapps",               "clear",        {  90, 1,  5, 0,  2 }   },
     { "icewine",                "purple",       {  50, 2,  6, 1,  5 }   },
     { "amontillado",            "burgundy",     {  35, 2,  8, 1,  5 }   },
-    { "sherry",                 "red",          {  38, 2,  7, 1,  5 }   },      
+    { "sherry",                 "red",          {  38, 2,  7, 1,  5 }   },
     { "framboise",              "red",          {  50, 1,  7, 1,  5 }   },
 // 35
     { "rum",                    "amber",        { 151, 1,  4, 0,  2 }   },
@@ -4088,8 +4088,8 @@ const struct flag_type wear_flags[] =
     {  "parry",                ITEM_PARRY,             TRUE    },
     {  "earring",              ITEM_WEAR_EARRING,      TRUE    },
     {  "owner",                ITEM_HAS_OWNER,	       FALSE    },
-    {  "ranged",               ITEM_WEAR_RANGED,       TRUE    },  
-    {  "quiver",               ITEM_WEAR_QUIVER,       TRUE    },  
+    {  "ranged",               ITEM_WEAR_RANGED,       TRUE    },
+    {  "quiver",               ITEM_WEAR_QUIVER,       TRUE    },
     {  NULL,                   0,                      0       }
 };
 
@@ -4342,7 +4342,7 @@ const struct flag_type weapon_type2[] =
     {   "jeweled",       WEAPON_JEWELED,       FALSE   },
     {   "wounds",	 WEAPON_WOUNDS,	       TRUE    },
     {   NULL,              0,                  0       }
-};	
+};
 
 
 const struct flag_type socket_flags[] =
@@ -4350,7 +4350,7 @@ const struct flag_type socket_flags[] =
     {   "weapon",	SOCKET_WEAPON,	      TRUE    },
     {   "armor",        SOCKET_ARMOR,         TRUE    },
     {   NULL,              0,                  0       }
-};	
+};
 
 const struct flag_type ranged_type[] =
 {
@@ -4378,13 +4378,13 @@ const struct flag_type projectile_type[] =
     {   "spear",       PROJECTILE_SPEAR,       TRUE	},
     {   "blade",       PROJECTILE_BLADE,       TRUE	},
     {   "bullet",      PROJECTILE_BULLET,       TRUE	},
-    {   NULL,	       0,		       FALSE    }   
+    {   NULL,	       0,		       FALSE    }
 };
 
 const struct flag_type proj_spec_type[] =
 {
-    {   "poison",         PROJ_SPEC_POISON,       TRUE    },  
-    {   "plague",         PROJ_SPEC_PLAGUE,       TRUE    },  
+    {   "poison",         PROJ_SPEC_POISON,       TRUE    },
+    {   "plague",         PROJ_SPEC_PLAGUE,       TRUE    },
     {   "sharp",          PROJ_SPEC_SHARP,        TRUE    },
     {   "blunt",	  PROJ_SPEC_BLUNT,        TRUE    },
     {   "paralyze",       PROJ_SPEC_PARALYZE,     TRUE    },
@@ -4397,7 +4397,7 @@ const struct flag_type proj_spec_type[] =
     {   "vorpal",	  PROJ_SPEC_VORPAL,	  TRUE    },
     {   "ghostly",	  PROJ_SPEC_PASSDOOR,	  TRUE    },
     {   NULL,          0,                      FALSE    }
-};                                                         
+};
 
 const struct flag_type res_flags[] =
 {
@@ -4708,10 +4708,10 @@ const struct warn_type warn_table[] =
 
 };
 
-/* 
+/*
    what follows is the table that orginizes the information used to seed
    objects into random places of the game. (crusader obelisks, starstones etc.)
-   
+
    Fields are as follows:
 
    vnum :  vnum obj object to seed
@@ -4724,7 +4724,7 @@ const struct warn_type warn_table[] =
    rmax: max ROOM vnum to that area must contain
 
    i_area: array of area vnum's to include	(NULL to ignore)
-   ia_num: length of the includ array		
+   ia_num: length of the includ array
 
    e_area: array of area vnum's to exclude	(NULL to ignore)
    ea_num: length of the includ array
@@ -4764,13 +4764,13 @@ const struct warn_type warn_table[] =
    - room: solitary
 */
 
-struct objseed_type	objseed_table[] = 
+struct objseed_type	objseed_table[] =
 {
 /* RIGHTESOUNESS */
-  {114, 1, 100,					//vnum, amount chance, 
+  {114, 1, 100,					//vnum, amount chance,
    0,0, 0,0,					//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "Order of Crusades"},4,	//areas by name to exclude
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -4780,10 +4780,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* DIVINE VOID */
-  {115, 1, 100,					//vnum, amount chance, 
+  {115, 1, 100,					//vnum, amount chance,
    0,0, 0,0,					//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -4793,10 +4793,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* INSIGHT */
-  {116, 1, 100,					//vnum, amount chance, 
+  {116, 1, 100,					//vnum, amount chance,
    0,0, 0,0,					//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -4806,10 +4806,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* DIVINE MIGHT (Olympus, Caranduin, Seryb) */
-  {122, 1, 100,					//vnum, amount chance, 
+  {122, 1, 100,					//vnum, amount chance,
    0,0, 0,0,					//amin, amax, rmin, rmax
-   {"The Cloud Kingdom", "Caranduin", "Temple of Sreyb"},4,//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {NULL}, 0,					//areas by name to select from
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -4819,10 +4819,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* SHADOW BANE */
-  {118, 1, 100,					//vnum, amount chance, 
+  {118, 1, 100,					//vnum, amount chance,
    0,0, 0,0,					//amin, amax, rmin, rmax
-   {"Xymerria", "The Western Underdark", "The Eastern Underdark", "Duergar City", "The Illithid Hive"}, 5,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"Dargoth", "The Western Underdark","The Illithid Hive"}, 3,		//areas by name to select from
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -4832,11 +4832,11 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
   /* PURE WATER */
-  {119, 1, 100,					//vnum, amount chance, 
+  {119, 1, 100,					//vnum, amount chance,
    0,0, 0,0,					//amin, amax, rmin, rmax
-   {"Elemental Canyon", "Crystalmir Lake", "The River Wood", "Tainted Valley", "The Dead Sea" }, 5,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
-   {SECT_WATER_SWIM, SECT_WATER_NOSWIM}, 2,	//sectors required  
+   {NULL}, 0,					//areas by name to select from
+  {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
+   {0}, 0,					//sectors required
    {SECT_AIR, SECT_LAVA}, 2,			//sectors excluding choice
    {0}, 0,					//room1 flags required
    {0}, 0,					//room1 flags excluding
@@ -4845,12 +4845,12 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* ICEFIRE */
-  {120, 1, 100,					//vnum, amount chance, 
+  {120, 1, 100,					//vnum, amount chance,
    0,0, 0,0,				//amin, amax, rmin, rmax
-   {"Fortress of Ice"}, 1,				//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"Desolation"}, 1,				//areas by name to select from
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
-   {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM}, 3,	//sectors excluding choice
+   {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
    {0}, 0,					//room1 flags excluding
    {0}, 0,					//room2 flags required
@@ -4858,12 +4858,12 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* SEARING MIGHT */
-  {121, 1, 100,					//vnum, amount chance, 
-   0,0, 10800,10900,				//amin, amax, rmin, rmax
-   {"Fortress of Fire"}, 1,			//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+  {121, 1, 100,					//vnum, amount chance,
+   0,0, 0,0,				//amin, amax, rmin, rmax
+   {"desolation"}, 1,			//areas by name to select from
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
-   {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM}, 3,	//sectors excluding choice
+   {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
    {0}, 0,					//room1 flags excluding
    {0}, 0,					//room2 flags required
@@ -4871,10 +4871,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* HOLY WRATH */
-  {117, 1, 100,					//vnum, amount chance, 
-   0,0, 5484,5484,				//amin, amax, rmin, rmax
-   {"Clockwork Gauntlet"}, 1,			//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor"},0,	//areas by name to exclude
+  {117, 1, 100,					//vnum, amount chance,
+   0,0, 0,0,				//amin, amax, rmin, rmax
+   {"desolation"}, 1,			//areas by name to select from
+   {"emmereaux", "ulsym", "dargoth"},0,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -4884,10 +4884,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* VITALITY */
-  {123, 1, 100,					//vnum, amount chance, 
+  {123, 1, 100,					//vnum, amount chance,
    0,0, 0,0,					//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -4897,10 +4897,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* SWIFT RETRIBUTION */
-  {124, 1, 100,					//vnum, amount chance, 
+  {124, 1, 100,					//vnum, amount chance,
    0,0, 0,0,					//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -4910,10 +4910,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* VIRTUE */
-  {125, 1, 100,					//vnum, amount chance, 
+  {125, 1, 100,					//vnum, amount chance,
    0,0, 0,0,					//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -4923,10 +4923,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* PURITY */
-  {126, 1, 100,					//vnum, amount chance, 
+  {126, 1, 100,					//vnum, amount chance,
    0,0, 0,0,					//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -4936,10 +4936,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* CONSTITUTION */
-  {127, 1, 100,					//vnum, amount chance, 
+  {127, 1, 100,					//vnum, amount chance,
    0,0, 0,0,					//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -4949,10 +4949,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* PALISONS EYE */
-  {128, 1, 100,					//vnum, amount chance, 
+  {128, 1, 100,					//vnum, amount chance,
    0,0, 0,0,					//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -4962,10 +4962,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* FEASTING */
-  {129, 1, 100,					//vnum, amount chance, 
+  {129, 1, 100,					//vnum, amount chance,
    0,0, 0,0,					//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -4975,10 +4975,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* FINAL PARTING */
-  {130, 1, 100,					//vnum, amount chance, 
-   0,0, 13209,13209,				//amin, amax, rmin, rmax
-   {"End of World"}, 1,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+  {130, 1, 100,					//vnum, amount chance,
+   0,0, 0,0,				//amin, amax, rmin, rmax
+   {"Desolation"}, 1,					//areas by name to select from
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -4988,10 +4988,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* DIVINE HEALTH (GASTERIDE) */
-  {131, 1, 100,					//vnum, amount chance, 
-   0,0, 4858,4858,				//amin, amax, rmin, rmax
+  {131, 1, 100,					//vnum, amount chance,
+   0,0, 0,0,				//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -5001,10 +5001,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* Vicarious Redemption */
-  {132, 1, 100,					//vnum, amount chance, 
+  {132, 1, 100,					//vnum, amount chance,
    0,0, 0,0,					//amin, amax, rmin, rmax
-   {"Temple of Sreyb", "Ofcol", "Thalos", "Elderwood", "New Ofcol", "Shire", "Winter", "Isile of Exile", "Tarandue"}, 9,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {NULL}, 0,					//areas by name to select from
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -5014,10 +5014,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* ONE GODS TRIUMPH (OLYMPUS) */
-  {133, 1, 100,					//vnum, amount chance, 
-   0,0, 905,905,				//amin, amax, rmin, rmax
+  {133, 1, 100,					//vnum, amount chance,
+   0,0, 0,0,				//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"valmiran", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -5027,10 +5027,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* The TRIUMPH of Sirant (Tainted Valley, essence of evil)*/
-  {134, 1, 100,					//vnum, amount chance, 
-   0,0, 3683,3683,					//amin, amax, rmin, rmax
+  {134, 1, 100,					//vnum, amount chance,
+   0,0, 0,0,					//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -5040,10 +5040,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* THE TRIUMPH OF PALISON (By vald in the mansion) */
-  {135, 1, 100,					//vnum, amount chance, 
-   0,0, 3273,3273,					//amin, amax, rmin, rmax
+  {135, 1, 100,					//vnum, amount chance,
+   0,0, 0,0,					//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -5052,11 +5052,11 @@ struct objseed_type	objseed_table[] =
    {0}, 0,					//room2 flags excluding
    5, TRUE					//area pool size, fExit
   },
-/* UNDENIABLE ORDER (Towr at the End of Time)*/
-  {136, 1, 100,					//vnum, amount chance, 
-   0,0, 10547,10547,				//amin, amax, rmin, rmax
+/* UNDENIABLE ORDER (By Order Imprisoned)*/
+  {136, 1, 100,					//vnum, amount chance,
+   0,0, 0,0,				//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -5066,10 +5066,10 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 /* Inner Strength (DISCHORD) */
-  {137, 1, 100,					//vnum, amount chance, 
-   0,0, 4985,4990,				//amin, amax, rmin, rmax
+  {137, 1, 100,					//vnum, amount chance,
+   0,0, 0,0,				//amin, amax, rmin, rmax
    {"Dischord"}, 1,				//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -5078,11 +5078,11 @@ struct objseed_type	objseed_table[] =
    {0}, 0,					//room2 flags excluding
    5, TRUE					//area pool size, fExit
   },
-/* Baptism (Inside the Order of Crusades) */
-  {138, 1, 100,					//vnum, amount chance, 
-   0,0, 6413,6413,				//amin, amax, rmin, rmax
+/* Baptism (Inside the luva) */
+  {138, 1, 100,					//vnum, amount chance,
+   0,0, 0,0,				//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
-   {"valmiran", "miruvhor"},2,	//areas by name to exclude
+   {"ulsym", "dargoth"},2,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -5093,10 +5093,10 @@ struct objseed_type	objseed_table[] =
   },
 /* INNER PEACE */
 
-  {139, 1, 100,					//vnum, amount chance, 
+  {139, 1, 100,					//vnum, amount chance,
    0,0, 0,0,					//amin, amax, rmin, rmax
-   {"Elderwood"}, 1,				//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"Desolation"}, 1,				//areas by name to select from
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
    {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
    {0}, 0,					//room1 flags required
@@ -5106,21 +5106,50 @@ struct objseed_type	objseed_table[] =
    5, TRUE					//area pool size, fExit
   },
 
-/* STARSTONE */
-  {141, 20, 80,					//vnum, amount chance, 
+/*
+  {139, 1, 100,					//vnum, amount chance,
    0,0, 0,0,					//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
-   {"valmiran", "rheydin", "miruvhor", "order of crusades"},4,	//areas by name to exclude
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
    {0}, 0,					//sectors required
-   {SECT_INSIDE, SECT_CITY, SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_AIR}, 6,					//sectors excluding choice
+   {SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_LAVA}, 4,	//sectors excluding choice
+   {0}, 0,					//room1 flags required
+   {0}, 0,					//room1 flags excluding
+   {0}, 0,					//room2 flags required
+   {0}, 0,					//room2 flags excluding
+   5, TRUE					//area pool size, fExit
+  },
+*/
+/* METEORS */
+  {141, 20, 80,					//vnum, amount chance,
+   0,0, 0,0,					//amin, amax, rmin, rmax
+   {NULL}, 0,					//areas by name to select from
+   {"emmereaux", "ulsym", "dargoth", "luva"},4,	//areas by name to exclude
+   {0}, 0,					//sectors required
+   {SECT_INSIDE, SECT_CITY, SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_AIR}, 6,
+//sectors excluding choice
    {0}, 0,					//room1 flags required
    {ROOM_INDOORS}, 1,				//room1 flags excluding
    {0}, 0,					//room2 flags required
    {0}, 0,					//room2 flags excluding
    10, TRUE					//area pool size, fExit
   },
+/* SEEDS */
+  {197, 60, 80,                                 //vnum, amount chance,
+   0,0, 0,0,                                    //amin, amax, rmin, rmax
+   {NULL}, 0,                                   //areas by name to select from
+   {"emmereaux", "ulsym", "dargoth", "luva"},4, //areas by name to exclude
+   {0}, 0,                                      //sectors required
+   {SECT_INSIDE, SECT_CITY, SECT_AIR, SECT_WATER_SWIM, SECT_WATER_NOSWIM, SECT_AIR}, 6,
+//sectors excluding choice
+   {0}, 0,                                      //room1 flags required
+   {ROOM_INDOORS}, 1,                           //room1 flags excluding
+   {0}, 0,                                      //room2 flags required
+   {0}, 0,                                      //room2 flags excluding
+   10, TRUE                                     //area pool size, fExit
+  },
 /* TERMINATOR */
-  {0, 0, 0,					//vnum, amount chance, 
+  {0, 0, 0,					//vnum, amount chance,
    0,0, 0,0,					//amin, amax, rmin, rmax
    {NULL}, 0,					//areas by name to select from
    {NULL}, 0,					//areas by name to exclude
@@ -5131,7 +5160,7 @@ struct objseed_type	objseed_table[] =
    {0}, 0,					//room2 flags required
    {0}, 0,					//room2 flags excluding
    0, TRUE					//area pool size, fExit
-  }
+  },
 };
 
 /* used for info on modifications to armors */
@@ -5262,7 +5291,7 @@ const struct wmodify_type	wmodify_table[] = {
   {"weight",	0,	3,    H,  14,   4,   10,     TRUE,  FALSE,  0,
    "Addition of extra weight into the blade or haft to allow for better ability to block weapons."},
   {"blessing",  0,	3,    I,  15,   4,   0,      FALSE,   FALSE,  0,
-   "A standard blessing uttered on weapons and armor by Order's Patron Saint."}, 
+   "A standard blessing uttered on weapons and armor by Order's Patron Saint."},
   {"stargrind",0,	3,    I,  16,   4,  -15,      FALSE,   FALSE,  1,
    "Use a startstone to grind the edge of the weapon to instil extremely sharp edge to it."},
 
@@ -5284,13 +5313,13 @@ const struct wmodify_type	wmodify_table[] = {
   {"blessing of accuracy",
 		0,	5,    L,  22,   5,   0,    FALSE,  FALSE,  2,
    "A powerful blessing empowering the user's aim and handling in combat."},
-  {"blessing of resistance",  
+  {"blessing of resistance",
 		0,	5,    L,  23,   5,   0,    FALSE,  FALSE,  2,
    "A powerful blessing helping to resist the shock of blocking an attack."},
-  {"blessing of health",  
+  {"blessing of health",
 		0,	5,    M,  24,   5,   0,    FALSE,  FALSE,  2,
    "A powerful blessing which helps the user's constitution."},
-  {"blessing of vitality",  
+  {"blessing of vitality",
 		0,	5,    M,  25,   5,   0,    FALSE,  FALSE,  2,
    "A powerful blessing which helps the user's vitality."},
 
@@ -5404,7 +5433,7 @@ const struct  flag_type       cont_table     []      =
   {       "attack",     CONT_ATTACK,    TRUE    },
   {       "defense",    CONT_ATTACKED,  TRUE    },
   {       "health",	CONT_HP30,	TRUE	 },
-  {       "mind",	CONT_MN30,	TRUE	 },  
+  {       "mind",	CONT_MN30,	TRUE	 },
     {   NULL,             0,                   0       }
 };
 
@@ -5425,11 +5454,11 @@ const struct flag_type fletcher_type[] =		//skill
 
   {   "",		0		,       TRUE    },
   {   NULL,          0,                      FALSE    }
-};                                                         
+};
 
 /* detailed creation choices, all using chargen_table_s
  * name, string, int1 int2 */
-struct chargen_choice_s chargen_body_table[CGEN_MAX_BODY] = 
+struct chargen_choice_s chargen_body_table[CGEN_MAX_BODY] =
 {
   { "Normal",	NULL,		0,	0 },
   { "Slender",	NULL,		0,	0 },
@@ -5543,134 +5572,134 @@ struct chargen_choice_s chargen_eyes_table[CGEN_MAX_EYES] = {
 };
 
 struct chargen_choice_s chargen_perk_table[CGEN_MAX_PERK] = {
-  { "Overweight",	
+  { "Overweight",
     "You are used to carrying more weight, but are less agile.",
-    PERK_OVERWEIGHT,	0 
+    PERK_OVERWEIGHT,	0
   },
-  { "Underweight",	
+  { "Underweight",
     "You can count your ribs with closed eyes and feast on a small snack.",
-    PERK_UNDERWEIGHT,	0 
+    PERK_UNDERWEIGHT,	0
   },
-  { "Bookworm",	
+  { "Bookworm",
     "Your love of books has paid off.  You are a master at reading scrolls.",
     PERK_BOOKWORM,	&gsn_scrolls
   },
-  { "Athletic",	
+  { "Athletic",
     "Your athletic build make you stronger and more accurate then others.",
-    PERK_ATHLETIC,	0 
+    PERK_ATHLETIC,	0
   },
 
-  { "Healthy",	
+  { "Healthy",
     "You're an example of perfect health.  You heal faster then normal.",
-    PERK_HEALTHY,	0 
+    PERK_HEALTHY,	0
   },
 
-  { "Sickly",	
+  { "Sickly",
     "You cough, weeze, and learn faster then your peers.",
-    PERK_SICKLY,	0 
+    PERK_SICKLY,	0
   },
 
-  { "Stout",	
+  { "Stout",
     "You're healthier then normal, but your mana reserves are smaller.",
-    PERK_STOUT,	0 
+    PERK_STOUT,	0
   },
 
-  { "Nimble",	
+  { "Nimble",
     "You can carry more items then normal, but you're weaker then normal.",
-    PERK_NIMBLE,	0 
+    PERK_NIMBLE,	0
   },
 
-  { "Charismatic",	
+  { "Charismatic",
     "You are a natural charmer and a master at haggling.",
     PERK_CHARISMATIC,	&gsn_haggle
   },
 
-  { "Fearsome",	
+  { "Fearsome",
     "Your fearsome appearance makes creatures less aggressive.",
-    PERK_FEARSOME,	0 
+    PERK_FEARSOME,	0
   },
 
-  { "Greedy",	
+  { "Greedy",
     "Avarice is your middle name.  You avoid paying bank transaction fees.",
-    PERK_GREEDY,	0 
+    PERK_GREEDY,	0
   },
 
-  { "Tall",	
+  { "Tall",
     "You've sprouted taller then most.  Your long legs allow for extra movement.",
-    PERK_TALL,	0 
+    PERK_TALL,	0
   },
 
-  { "Short",	
+  { "Short",
     "Your smaller figure is easier to conceal in shadows or foliage.",
-    PERK_SHORT,	0 
+    PERK_SHORT,	0
   },
 
-  { "Alcoholic",	
+  { "Alcoholic",
     "You love all things spiritual and ignore negative effects of alcohol.",
-    PERK_ALCOHOLIC,	0 
+    PERK_ALCOHOLIC,	0
   },
 
-  { "Addict",	
+  { "Addict",
     "You love all things chemical and resist negative effects of drugs.",
-    PERK_ADDICT,	0 
+    PERK_ADDICT,	0
   },
 
-  { "Lucky",	
+  { "Lucky",
     "Lady Luck fancies you.  Your luck tends to run higher then average.",
-    PERK_LUCKY,	0 
+    PERK_LUCKY,	0
   },
 
-  { "Unlucky",	
+  { "Unlucky",
     "Jinx is your middle name but you tend to grow healthier with ranks.",
-    PERK_UNLUCKY,	0 
+    PERK_UNLUCKY,	0
   },
 
-  { "Pious",	
+  { "Pious",
     "Your faith has no equal.  Gods give you with more gold for sacrifices.",
-    PERK_PIOUS,	0 
+    PERK_PIOUS,	0
   },
 
-  { "Magical",	
+  { "Magical",
     "Your mana resources are greater but you're less healthy then normal.",
-    PERK_MAGICAL,	0 
+    PERK_MAGICAL,	0
   },
 
-  { "Artificer",	
+  { "Artificer",
     "Your knowledge about magical artifacts, orbs and staves knowns no equal.",
     PERK_ARTIFICER,	&gsn_staves
   },
 
-  { "Tinkerer",	
+  { "Tinkerer",
     "You own Brambusworks VIP scroll.  Your skill with wands is unmatched.",
     PERK_TINKERER,	&gsn_wands
   },
 
-  { "Eagle-eye",	
+  { "Eagle-eye",
     "Your perfect eyesight alows you to scan and scout over longer distance.",
     PERK_EAGLEEYE,	0
   },
 
-  { "Adventurer",	
+  { "Adventurer",
     "Your spirit thirsts for the unknown.  You gain more experience.",
     PERK_ADVENTURER,	0
   },
 
-  { "Heroic",	
+  { "Heroic",
     "Another day, another damsel in distress.  You're a one-man rescue team.",
     PERK_HEROIC,	0
   },
 
-  { "Merciful",	
+  { "Merciful",
     "You fight in calm manner and thus may grant \"mercy\" to your foes.",
     PERK_MERCY,	0
   },
 
-  { "none",	
+  { "none",
     "You have no special perks.",
     0,	0
   },
 
-  { NULL,	
+  { NULL,
     NULL,
     0, 0
   },
@@ -5678,192 +5707,192 @@ struct chargen_choice_s chargen_perk_table[CGEN_MAX_PERK] = {
 };
 
 /* this should correspond to CGEN_ constants */
-const struct chargen_type chargen_table[] = 
+const struct chargen_type chargen_table[] =
 {
-  { 
-    "Playing",		
+  {
+    "Playing",
     "",
     chargen_null				},
 
-  { "",			
+  { "",
     "",
     chargen_greet				},
 
-  { "Main",		
+  { "Main",
     "\n\rYour Choice> ",
     chargen_main				},
- 
-  { "Help",		
+
+  { "Help",
     "\n\r\"?\" for info or [Q]uit.\n\rSearch for> ",
     chargen_help				},
 
-  { "Enter",		
+  { "Enter",
     "\n\r([Q]uit) Enter Aabahran with which Name?> ",
     chargen_enter				},
 
-  { "Create",		
+  { "Create",
     "\n\r([Q]uit) What will be your Name?> ",
     chargen_create				},
 
-  { "Passwrd",		
+  { "Passwrd",
     "\n\rPassword?> ",
     chargen_pass				},
 
-  { "ImmPass",		
+  { "ImmPass",
     "\n\rImm-Password?> ",
     chargen_immpass				},
 
-  { "motd",		
+  { "motd",
     "\n\rPrepare yourself. For you are about to <Enter> the Forsaken Lands!\n\r",
     chargen_motd				},
 
-  { "ready",		
+  { "ready",
     "",
     chargen_ready				},
-  { "con-name",		
+  { "con-name",
     "Did I get that right: %s? (Y/N)>",
     chargen_con_name				},
 
-  { "new-pass",		
+  { "new-pass",
     "\n\rEnter password for %s>",
     chargen_new_pass				},
-  { "con-pass",		
+  { "con-pass",
     "\n\rRetype Password>",
     chargen_con_pass				},
 
-  { "new-last",		
+  { "new-last",
     "\n\r([N]one) What is your last name> ",
     chargen_new_last				},
-  { "con-last",		
+  { "con-last",
     "Did I get that right: %s %s? (Y/N)>",
     chargen_con_last				},
 
-  { "new-sex",		
+  { "new-sex",
     "\n\rSex [M/F]>",
     chargen_new_sex				},
 
-  { "new-race",		
+  { "new-race",
     "\n\rRace [1 - %d]>",
     chargen_new_race				},
-  { "con-race",		
+  { "con-race",
     "\n\rDid I get that right: %s? (Y/N)>",
     chargen_con_race				},
 
-  { "new-class",		
+  { "new-class",
     "\n\rClass [1 - %d]>",
     chargen_new_clas				},
-  { "con-class",		
+  { "con-class",
     "\n\rDid I get that right: %s? (Y/N)>",
     chargen_con_clas				},
 
-  { "new-alig",		
+  { "new-alig",
     "\n\rChoose your Alignment: %s>",
     chargen_new_alig				},
-  { "con-alig",		
+  { "con-alig",
     "\n\rDid I get that right: %s? (Y/N)>",
     chargen_con_alig				},
 
-  { "new-etho",		
+  { "new-etho",
     "\n\rChoose your Ethos: %s>",
     chargen_new_etho				},
-  { "con-etho",		
+  { "con-etho",
     "\n\rDid I get that right: %s? (Y/N)>",
     chargen_con_etho				},
 
-  { "rolling",		
+  { "rolling",
     "",
     chargen_roll				},
 
-  { "new-reli",		
+  { "new-reli",
     "\n\rReligious path [1 - %d]>",
     chargen_new_reli				},
-  { "con-reli",		
+  { "con-reli",
     "\n\rDid I get that right: %s->%s? (Y/N)>",
     chargen_con_reli				},
 
-  { "new-home",		
+  { "new-home",
     "\n\rHome city [1 - %d]>",
     chargen_new_home				},
-  { "con-home",		
+  { "con-home",
     "\n\rDid I get that right: %s? (Y/N)>",
     chargen_con_home				},
 
-  { "ask-deta",		
+  { "ask-deta",
     "\n\rProceed with detailed creation? (Y/N)>",
     chargen_ask_deta				},
 
-  { "new-end",		
+  { "new-end",
     "\n\rYou may view your personal information using \"bio\" or \"info\""\
     "\n\rCharacter Saved...  Press <ENTER> to continue.\n\r",
     chargen_new_done				},
 
-  { "reconn",		
+  { "reconn",
     "\n\rThat character is already playing.  Connect anyway? (Y/N)>",
     chargen_con_break				},
 
-  { "det-body",		
+  { "det-body",
     "\n\rPlease choose your body build [1 - %d]>",
-    chargen_det_body				},  
-  { "det-face",		
+    chargen_det_body				},
+  { "det-face",
     "\n\rPlease choose your facial features [1 - %d]>",
-    chargen_det_face				},  
-  { "det-skin",		
+    chargen_det_face				},
+  { "det-skin",
     "\n\rPlease choose your skin color [1 - %d]>",
-    chargen_det_skin				},  
-  { "det-eyes",		
+    chargen_det_skin				},
+  { "det-eyes",
     "\n\rPlease choose your eye color [1 - %d]>",
-    chargen_det_eyes				},  
-  { "det-hair",		
+    chargen_det_eyes				},
+  { "det-hair",
     "\n\rPlease choose your hair color [1 - %d]>",
-    chargen_det_hair				},  
-  { "det-haiL",		
+    chargen_det_hair				},
+  { "det-haiL",
     "\n\rPlease choose your hair length [1 - %d]>",
-    chargen_det_haiL				},  
-  { "det-haiT",		
+    chargen_det_haiL				},
+  { "det-haiT",
     "\n\rPlease choose your hair texture [1 - %d]>",
-    chargen_det_haiT				},  
-  { "det-haiF",		
+    chargen_det_haiT				},
+  { "det-haiF",
     "\n\rPlease choose your facial hair [1 - %d]>",
-    chargen_det_haiF				},  
-  { "det-perk",		
+    chargen_det_haiF				},
+  { "det-perk",
     "\n\rPlease choose your perk [1 - %d]>",
-    chargen_det_perk				},  
-  { "con-perk",		
+    chargen_det_perk				},
+  { "con-perk",
     "\n\r%s:\n\r%s\n\rDid I get that right: %s? (Y/N)>",
     chargen_con_perk				},
-  { "det-hand",		
+  { "det-hand",
     "\n\rAre you [L]eft or [R]ight handed?>",
     chargen_det_hand				},
-  { "det-age",		
+  { "det-age",
     "\n\rHow old are you in terms of your natural lifespan? (15 - 50%)?>",
-    chargen_det_age				},  
-  { "con-age",		
+    chargen_det_age				},
+  { "con-age",
     "\n\rDid I get that right: %d years? (Y/N)>",
-    chargen_con_age				},  
-  { "det-weap",		
+    chargen_con_age				},
+  { "det-weap",
     "Please choose your favorite weapon [1 - %d]>",
-    chargen_det_weap				},  
-  { "new-tele",		
+    chargen_det_weap				},
+  { "new-tele",
     "Do you wish to be telepathic? [Y/N]>",
-    chargen_new_tele				},  
-  { "new-enem",		
+    chargen_new_tele				},
+  { "new-enem",
     "Choose your racial enemy. [1 - %d]>",
-    chargen_new_enemy				},  
-  { "new-adve",		
+    chargen_new_enemy				},
+  { "new-adve",
     "\n\r\n\rIf you are new to Forsaken Lands and wish to initially avoid the PLAYER-KILLING.\n\r"\
     "We suggest you play with the ADVENTURER class which is exempt from PK attacks.\n\r\n\r"\
     "Do you wish to view the Adventurer class information? [Y/N]>",
     chargen_new_adve },
 
-  { "nag-scre",		
+  { "nag-scre",
     "",
-    chargen_nag_screen				},  
-  { "nag-lag",		
+    chargen_nag_screen				},
+  { "nag-lag",
     "",
-    chargen_nag_lag				},  
-  { "???",		
+    chargen_nag_lag				},
+  { "???",
     "",
-    NULL					},  
+    NULL					},
 };
 
 /* used as basic for how many repetitions required to progress in a skill */
@@ -5907,10 +5936,10 @@ const int progress_table[] = {
  * A   4	Po 3		Ex  3		Ex -4	Ex 4		*
  * W   5	St 5		W   5		W  -5	F  5		*
  */
-   
+
 //weapon ratings in various categories on scale of -5(bad) to 5(excellent)
 //Hand to Hand is considered Exotic as far as ratings
-const struct weapon_rate_type weapon_rating [WEAPON_MAX] = 
+const struct weapon_rate_type weapon_rating [WEAPON_MAX] =
 /* attack	defense		with_dis	tobe_dis	with_sdis */
 {
   //exotic
@@ -5964,7 +5993,7 @@ const struct croom_type croom_table[CROOM_LEVELS] = {
     1,
     0
   },
-  
+
   /* CHAT AND HEARGUARD */
   {
     "Messengers",
@@ -6071,7 +6100,7 @@ const struct critical_type critical_table[] = {
   {	60,		"head"		},
   {	75,		"wrist"		},
   {	90,		"feet"		},
-  
+
   {	101,		"spleen"	},//expert level
   {	104,		"temple"	},
   {	107,		"diaphragm"	},

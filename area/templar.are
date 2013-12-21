@@ -1,0 +1,1195 @@
+#AREADATA
+Name [TEMPLAR]~
+Pref ~
+Builders Crypticant~
+VNUMs 16800 16899
+Max_Bastions 0
+Credits { ALL } Crypticant [TEMPLAR] ~
+Security 9
+Startroom 16800
+Flags 32
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#16800
+Templar armor guard guardian~
+an armored Templar~
+A large Templar clad in armor bars the way.
+~
+Heavily armored and clad head to toe in metal not one piece of flesh is
+visible on this brute.  He stands with his legs apart and his long sword
+thrust downwards between them barring your passage.  Absolutely lacking
+motion he is almost statue-like.  From under his huge visor you hear him
+utter the words 'none shall pass!'  
+~
+human~
+ABVZ A DFHJNO 0 0 0
+40 20 1d1+5000 0d0+100 8d5+60 arrows
+-20 -20 -20 -20
+ADEFKW AB C 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+P GRALL 26 100~
+P EXALL 16800 north~
+P EXALL 16800 east~
+P EXALL 16800 west~
+P EXALL 16800 up~
+P EXALL 16800 down~
+P FIGHT 16801 100~
+#16801
+company halberdiers~
+a company of halberdiers~
+A company of halberdiers stand in battle formation here.
+~
+With halberds by their sides the company of halberdiers stand in battle
+formation.  Well-armed and well trained they wait for their orders.  
+~
+human~
+ABLVZe AK 0 0 1000 0
+50 1000 1500d1+0 0d0+0 0d0+0 none
+0 0 0 0
+0 CD 0 0
+stand stand none none~
+24
+AHMV ABCDEFGHIJK medium 0
+#16802
+column crusaders~
+a column of crusaders~
+A column of crusaders stand here alert and ready for battle.
+~
+Trained to perfection and armed to the high teeth a column of crusaders
+survey the surroundings.  Hungry for battle their large swords are raised
+expectantly.  
+~
+human~
+ABLVZe AK 0 0 1000 0
+50 1500 2000d1+0 0d0+0 0d0+0 none
+0 0 0 0
+0 CD 0 0
+stand stand none none~
+23
+AHMV ABCDEFGHIJK medium 0
+#16803
+gregor quartermaster~
+Gregor~
+Gregor, the Quartermaster General stands here, issuing equipment.
+~
+This slim man's arms are knotted with thick muscles, built from a
+lifetime of lifting crates.  He wears a pair of metal rimmed spectacles and
+looks you over as you enter.  He holds his hand out expectantly for your
+orders.  
+~
+human~
+ABZ A DFHV 0 1000 0
+70 15 1000d1+1 0d0+100 10d20+45 beating
+20 20 20 20
+CEIJN ABCD 0 0
+stand stand male none~
+30
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16803 20~
+#16804
+recruit young~
+A young recruit~
+A young recruit stands here patiently, waiting for his order to be filled.
+~
+This young man looks barely old enough to heft a blade.  His thin arms
+hang at his side, holding a small sheet of paper as though he has been
+standing in line all day long.  He notices you cut in line in front of him,
+and scowls.  
+~
+human~
+AGe A 0 0 1000 0
+4 0 2d7+46 0d0+100 1d5+1 slap
+6 6 6 9
+EFN AB 0 0
+stand stand male none~
+3
+AHMV ABCDEFGHIJK medium 0
+#16805
+rulthon man Templar~
+Rulthon~
+A tall, musclular man stands here, leaning upon an immense lance.
+~
+His face is concealed behind a heavy steel visor, yet his body is
+apparently well-muscled beneath his armor.  He holds a HUGE lance in his
+hand, capped in steel with a gleaming silver tassle dangling from it's
+pommel.  A hint of laughter echoes from the depths of his helm, as you step
+forward, prepared to learn.  
+~
+human~
+AB A DFHJN 0 750 0
+60 25 9999d1+1 32d1+1 6d4+30 pierce
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#16806
+short dumpy man shopkeeper~
+a stumpy shopkeeper~
+A short dumpy man peers at you through thick glasses.
+~
+What this man lacks for in height he makes up for in width and thickness
+of glasses.  Behind them his eyes look like two huge balls as they are
+magnified many times.  He appears to enjoy a good meal but does not seem so
+keen on letting it go afterwards.  Thumbing through some ledgers he pauses
+now and then to lick his thumb and think a little.  
+~
+human~
+ABZ A DFHV 0 300 15700
+70 15 1000d1+1 0d0+100 10d20+45 digestion
+20 20 20 20
+CEIJN ABCD 0 0
+stand stand male none~
+25
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16806 20~
+#16807
+circle chanters seers~
+A circle of Seers~
+A circle of Seers sits here in deep concentration.
+~
+This small group of four people sit evenly spaced around the orb floating
+in the middle of the room.  A soft chanting sound escapes thier lips as they
+focus on the unseen.  To disturb them could bring about undesirable
+consequences, so it had best be important.  
+~
+human~
+ABac A DFHJN 0 750 0
+60 25 9999d1+1 24d1+1 6d4+30 divine
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand none none~
+24
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16807 20~
+#16808
+father jacobis~
+Father Jacobis~
+Father Jacobis stands here, dispensing blessings.
+~
+Ancient beyond belief, the frail man before you is clad in home-spun,
+white cotton robes, and rests his weight upon a gnarled yew staff.  Deep
+lines are etched into the pale skin of his face.  Light blue eyes are set
+deep beneath thin eyebrows and the sparkling orbs rise and fall as he looks
+at you intently.  
+~
+human~
+ABab A DFHJN 0 1000 0
+60 25 9999d1+1 5d1+100 6d4+30 divine
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+#16809
+gabrielle young blademaiden~
+Gabrielle~
+A young blademaiden in leather armor is here, wielding a short sword in each hand.
+~
+Her face, though, weather beaten and scarred, is still young and
+beautiful.  Large arms emerge from her armor ending in rough, albeit
+feminine hands.  A coy smile plays across her lips as you step up for
+instruction, and the grip on her blades tighten.  
+~
+human~
+ABJKb A DFHJN 0 1000 0
+60 25 9999d1+1 1d1+1 6d4+30 slash
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand female none~
+21
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16809 20~
+#16810
+Isthanna caretaker~
+Isthanna~
+Isthanna, the caretaker is here, selling Templarly relics.
+~
+Holding a small polishing rag in her hands, she notices your gaze.  Her
+hair is held back in a simple leather thong, and she is clothed in a simple
+grey tunic.  She is rather homely, and were it not for her full head of
+thick black hair, some would consider her unattractive.  She caresses the
+statue on display with her rag, with loving care, and a mother's touch.  
+~
+human~
+ABZ A DFHV 0 1000 15700
+70 15 1000d1+1 5d1+100 10d20+45 slap
+20 20 20 20
+CEIJN ABCD 0 0
+stand stand female none~
+24
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16810 20~
+#16811
+tower bastion armored~
+an Armored Tower~
+A tall armored tower flying banners of [`6TEMPLAR``] stands here.
+~
+Its tall walls have been built with quality betraying phenomenal  skill and
+expertise in matters of fortification.  The tall smooth walls rise high up
+to the parapet bristling with weapons and restless eyes.  
+~
+human~
+ABLVZe AJ 0 0 1000 0
+50 1000 1000d1+0 0d0+0 0d0+0 none
+0 0 0 0
+0 CD 0 0
+stand stand none none~
+20
+AHMV ABCDEFGHIJK huge 0
+#16812
+tower bastion fortress Templar~
+a Templar Fortress~
+A massive fortress flying banners of [`6TEMPLAR``] watches over the area.
+~
+Immense in size and mass its tall turreted walls bristle with various catapults, ballistas 
+and men.  Built with near perfect strategic planning its defenders seem to have a clear 
+field of fire in every direction.  A massive gate bars the entrance with hundreds of 
+armored figures pacing the battlements above.
+~
+human~
+ABLVZe AJ 0 0 1000 0
+50 1500 2000d1+0 0d0+0 0d0+0 none
+0 0 0 0
+0 CD 0 0
+stand stand none none~
+22
+AHMV ABCDEFGHIJK giant 0
+#16813
+Helga fat lady~
+Helga~
+A huge woman in a leather apron stands here, forging armor.
+~
+She is sweating profusely, and it runs in rivlets down the front of the
+apron she wears.  A thinning mass of dirty red hair crowns her rotund head,
+and a short, fat neck disappears into the depths of the sleeveless cotton
+tunic she has draped over her body.  Her short, thick legs, are spread in a
+stance to permit her to use the weight of her body to land her hammer's
+blows.  She wipes the sweat from her brow with a dirty rag, and looks at you
+with a impatient look on her face.  
+~
+human~
+ABZa A DFHV 0 300 15700
+70 15 1000d1+1 34d1+100 10d20+45 crush
+20 20 20 20
+CEIJN ABCD 0 0
+stand stand female none~
+24
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16814 20~
+P GREET 16813 100~
+#16814
+peasant spectator~
+A Peasant~
+A peasant sits in the stands, cheering for his favorite Templar.
+~
+In a filthy shirt and no shoes, this bedragled man jumps up and down
+furiously trying to gain attention.  He holds a turkey leg in his hand,
+which has been ravenously torn apart.  A jug of mead rests at his side, and
+jostles as the man jumps about.  
+~
+human~
+AGe A 0 0 1000 0
+4 0 2d7+46 0d0+100 1d5+1 slap
+6 6 6 9
+EFN AB 0 0
+stand stand male none~
+8
+AHMV ABCDEFGHIJK medium 0
+#16815
+children hungry~
+Two Hungry Children~
+Two children hound people nearby for a bite off their turkey leg.
+~
+These two adorable children jump up and down in vain attempts to snatch a
+turkey leg from the nearby spectators.  Their clothes are dirty from playing
+and they look in dire need of a bath.  They see you enter the Arena, and run
+in your direction, in search of a tasty morsel.  
+~
+human~
+AGe A 0 0 1000 0
+4 0 2d7+46 0d0+100 1d5+1 slap
+6 6 6 9
+EFN AB 0 0
+stand stand male none~
+9
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16815 20~
+#16816
+sleeping Templar~
+A sleeping Templar~
+A Templar is here, curled up on a nearby bed and sleeping soundly.
+~
+The poor man seems exhausted.  Despite the noise you make, he sleeps
+soundly , his snores echoing off of the stone walls here.  A suit of armor
+rests in a neat pile at the foot of his bed, and a halberd against the wall.
+Needless to say, he does not notice your entrance.
+~
+human~
+AGe A 0 0 1000 0
+4 0 2d7+46 0d0+100 1d5+1 slap
+6 6 6 9
+EFN AB 0 0
+stand stand male none~
+3
+AHMV ABCDEFGHIJK medium 0
+#16817
+kneeling praying Templar~
+A praying Templar~
+A Templar kneels here, in silent prayer.
+~
+Clad in gleaming armor, and resting his forehead upon the pommel of his
+blade, this Templar meditates in focused meditation on the days events.  He
+doesnt seem to notice your arrival, instead chanting in a low, soft tone.  
+~
+human~
+AGae A 0 0 1000 0
+60 25 9999d1+1 64d1+1 6d4+30 slap
+-30 -30 -30 -30
+EFN AB 0 0
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+#16818
+elf man~
+an elf apprentice~
+An elf apprentice is sitting here waiting for the counsel to determine his fate.
+~
+Sitting with his face clasped in his hands a tiny elf man sits.  He
+appears very anxious about something as he fidgets his legs.  He seems to
+look around everytime a noise is heard, and gets more nervous when the
+sounds do not reveal the counsel.  
+~
+elf~
+ABGd A JP 0 750 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN ABN B YZa
+sit sit male none~
+8
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16818 20~
+#16819
+attendant~
+an attendant~
+An attendant waits patiently for any questions on the commandments.
+~
+A slightly older man stands here, paitently waiting for any questions.
+He has a warm smile upon his face and a his eyes have the wisdom of
+one of many years.
+~
+elf~
+ABGd A JP 0 750 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN ABN B YZa
+sit sit male none~
+2
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#16800
+The Templar's Commandments~
+the Templar's Commandments.~
+Three brass placards are bolted to the wall.~
+brass~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#16801
+potion recall~
+a potion of recall~
+A potion of recall is here, coveted by all.~
+liquid~
+potion U AO
+10 'word of recall' '' '' ''
+10 30 3 P
+#16802
+potion griffin wings~
+a potion of griffin wings~
+A small potion bubbles away here.~
+Liquid~
+potion B AO
+0 'fly' '' '' ''
+10 2 5 P
+#16803
+leather sack~
+a leather sack~
+A large leather sack lies here.~
+leather~
+container HU AO
+350 A 0 80 90
+10 20 12 P
+#16804
+army ration rations~
+a pack of army rations~
+A dented tin can with the words RATIONS written on it.~
+food~
+food U A
+48 48 0 0 360
+10 20 24 P
+#16805
+scroll griffin wings~
+a scroll of Griffin wings~
+A large scroll bearing a picture of a Griffin in flight lies here.~
+papyrus~
+scroll A AO
+15 'fly' '' '' ''
+10 2 10 P
+#16806
+scroll vigor~
+a scroll of vigor~
+A small scroll inscribed with runes of vigor.~
+papyrus~
+scroll A AO
+15 'refresh' '' '' ''
+30 2 1 P
+#16807
+canteen~
+a tin canteen~
+A round piece of tin used to store water.~
+tin~
+drink PU AO
+240 240 'water' 0 0
+10 50 11 P
+#16808
+orb protection sphere~
+the Orb of Protection~
+A large white orb sparkling with inner light.~
+glass~
+staff G AO
+10 10 10 'sanctuary' 0
+40 50 25 P
+#16809
+wand protection~
+the Wand of Protection~
+A small white wand sparkling with inner light.~
+glass~
+wand G AO
+15 5 5 'sanctuary' 0
+40 50 18 P
+#16810
+replace me~
+replace me~
+Replace me is here.~
+magic~
+trash GHZ 0
+0 0 0 0 0
+50 350 1200 P
+E
+justice~
+A mighty shield marked with the brilliant insignia of Justice.  It is
+said that it was a gift from the Royal Duke Stalatharata given when the
+forces of Justice aided the town of Shasarazade in its time of need.  The
+great kite shield has been known not only to enhance its user's aim but also
+posses potent healing powers.  
+~
+E
+shield~
+A mighty shield marked with the brilliant insignia of Justice.  It is
+said that it was a gift from the Royal Duke Stalatharata given when the
+forces of Justice aided the town of Shasarazade in its time of need.  The
+great kite shield has been known not only to enhance its user's aim but also
+posses potent healing powers.  
+~
+T
+27 1 30
+$p shines with righeous glow.~
+$p shines with righeous glow.~
+F
+A 12 10 0
+F
+A 13 5 0
+F
+A 18 3 0
+#16811
+holy breastplate~
+a holy breastplate~
+A steel breastplate shines heroically.~
+steel~
+armor AKU AD
+9 9 9 9 0
+30 140 0 P
+F
+A 13 5 0
+F
+A 19 1 0
+F
+A 18 1 0
+#16812
+table~
+a large triangle table~
+A large table is here with documents scattered over it is here.~
+oak~
+furniture 0 P
+0 0 0 0 0
+1 1000 0 P
+#16813
+slab ancient granite~
+a slab of ancient granite~
+The Commandments have been carved into an ancient slab of granite.~
+stone~
+trash 0 P
+0 0 0 0 0
+0 0 0 P
+E
+slab ancient granite~
+There are words carved into the giant stone you.  Written in an ornate script,
+their contents are adorned by dipictions of Templars riding into battle with flaming
+demons and mythological beasts.  Carved into the stone the words read...
+ 
+	  		  `#Courage, Honor, and Birthright``	
+ 
+   Let no Templar Sigil or Praetorian fail in his Courage against enemies of the King.
+                            Our `#Courage`` is our Blade.
+ 
+Let no Templar Sigil or Praetorian stain the name of Templar with lack of Honor in Combat.
+                            Our `#Honor`` is our Shield.
+ 
+        Let no Templar Sigil or Praetorian forget the Quest for the True King.
+                          Our `#Birthright`` is the Mirlan.
+ 
+~
+#16814
+brass plates commandments~
+a polished brass plate~
+A heavily engraved, polished brass plate is bolted onto the wall here.~
+brass~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+brass plate commandments engraved~
+There are words carved into the brass plate before you.  Written in an ornate script,
+their contents are adorned by dipictions of Templars riding into battle with flaming
+demons and mythological beasts.  Words carved into the plate read...
+ 
+	  		  `#Courage, Honor, and Birthright``	
+ 
+   Let no Templar Sigil or Praetorian fail in his Courage against enemies of the King.
+                            Our `#Courage`` is our Blade.
+ 
+Let no Templar Sigil or Praetorian stain the name of Templar with lack of Honor in Combat.
+                            Our `#Honor`` is our Shield.
+ 
+        Let no Templar Sigil or Praetorian forget the Quest for the True King.
+                         Our `#Birthright`` is the Mirlan.
+  
+~
+#16815
+young griffin~
+a young griffin~
+A young griffin circles nearby.~
+flesh~
+treasure Y AQ
+0 0 0 0 0
+50 0 1000 P
+E
+young griffin~
+A symbol of Templarly virtues, this young griffon swoops about you
+emitting a cry every so often.  Despite is size and age, the griffin still
+carries itself with the strength and pride of the adults of its kind.  
+~
+F
+S 174 25 0
+F
+S 186 5 0
+P RANDOM 16814 10~
+P USE 16815 100~
+#16816
+vanguard's visor~
+the Vanguard's Visor~
+A giant visor lacking any means to look through it.~
+godforged steel~
+armor AIY Ad
+15 16 17 15 0
+50 10 1800 P
+E
+vanguard's visor~
+This ancient visor was reputedly worn by the Templars of Old.
+Reputedly forged from the ore at the heart of a meteor, small
+lines of eldritch energy dance across the solid surface.  How
+you would be able to see without it obstructing your view is
+a mystery.
+~
+F
+A 18 4 0
+P RANDOM 16816 30~
+#16817
+Tower Shield Thee'dlor~
+the Tower Shield of Thee'dlor~
+The great Tower Shield of Thee'dlor rests here.~
+godforged steel~
+armor BRY AJ
+24 23 25 18 0
+50 350 1400 P
+E
+tower shield Thee'dlor~
+Wrought of elven mithril and dwarven steel and crafted from
+the best human smiths, this shield is polished to a near mirror-
+like shine.  This shield was carried into battle by the Anicient
+Templar Thee'dlor, and through it's enchantments, was able to
+stem the tide of evil.
+~
+F
+A 24 -3 0
+P DELAY 16818 100~
+P USE 16817 100~
+#16818
+pit storage~
+a storage pit~
+A large pit has been dug out here.~
+stone~
+container OT 0
+10000 0 0 10000 100
+60 0 10000 P
+#16819
+potion detect invis~
+a potion of detect-invisibility~
+A potion of detect-invisibility is here.~
+liquid~
+potion 0 AO
+10 'detect invis' 'reserved' 'reserved' 'reserved'
+20 0 5 P
+#0
+
+
+
+#ROOMS
+#16800
+`3Before the Templar Cabal``~
+You stand before the legendary castle of the Templars.  A great stone
+castle rises high into the air with grand towers and courtyards.  You see
+armored soldiers standing atop the ramparts, pacing back and forth, guarding
+the walls.  Pennants fly atop poles perched on the castle proper, gently
+swaying in the breeze.  Encircling the castle is a wide moat with a long
+drawbridge crossing it, allowing traffic in and out of the courtyard.  
+~
+This path is quiet, save for the sounds of crickets chirping softly in
+the light of several torches set beside it.  Faint lights in the distance
+attract your attention and a castle can be seen, set high into the side of
+the surrounding chasm.  Your footfalls seem deafening in the silence.  
+~
+0 295698440 8208 4
+D2
+~
+~
+0 0 15114
+D3
+~
+~
+0 0 5742
+M 0 H 0
+S
+#16801
+`8The Armory``~
+Large stone blocks embrace this dimly lit room.  Forged metal weapons
+hang on the wall in a organized fashion, almost looking like metal soldiers
+standing at attention.  Massive suits of armor are leaning against the walls
+and spaced perfectly for easy access.  
+~
+~
+0 295698440 2 0
+S
+#16802
+`8Errant Court``~
+Eight large podiums line the outside of a large, raised, marble circle. 
+Inside the circle are ten sitting blocks arranged in a star.  A large volume
+of water shoots up the side of each wall, disperses over the ceiling, and
+back down another wall.  Oddly enough a powerful spray of water never
+touches another spray.  The whole room gives you the sense you are drowning,
+yet you are not even wet.  
+~
+~
+0 295698440 2 0
+S
+#16803
+`8The Quartermasters``~
+As you walk though the double doors that lead to the Quartermaster you
+see row upon row of shelves set high on the walls covered with various wares
+for issue.  The floor is lined with racks holding all manner of armor and
+weapon, with tall racks holding lances and polearms along the walls.  A long
+counter splits the room in the back with the Quartermaster himself standing
+behind it.  
+~
+~
+0 295698440 2 0
+S
+#16804
+`8Jousting Arena``~
+You stand atop the stairs of a large arena.  Rows of benches fill the
+stands, where spectators watch the events below.  A large oval shapped
+courtyard lies at the base where the challengers face each other in
+tournaments.  A long wood rail runs down the center of the field, separating
+the arena in half.  Pennents of various colors fly high on poles around the
+arena.  On the north side sits a booth for the royalty to watch in comfort,
+while pages and servents scurry about their duties.  
+~
+~
+0 295698440 2 0
+S
+#16805
+`8Seer's Tower``~
+Standing high atop this tower is a single room with an unusual treasure. 
+A large irredescent globe floats in the center on the room.  Inside of it
+fog and mist seems to swirl as colors blink and pulse.  Now and then a
+picture forms showing the surrounding countryside where travellers walk,
+appraoching the castle.  At the base of the globe sits a golden pillar,
+standing about four feet tall, it seems to support the globe, though it
+never touches it.  
+~
+~
+0 295698440 2 0
+S
+#16806
+`8Barracks``~
+This rather large room is of rough, hewn granite reinforced with bands of
+steel wrought iron.  A number of oak bunks line the wall, set with wool
+linen.  While most are empty at the moment, a few are occupied.  In the far
+corner a counter is set into the wall, behind which is a small office.  The
+office's walls are lined with shelves and boxes.  A short, squat man with
+thick glasses stands behind the counter reviewing ledgers.  
+~
+~
+0 295698440 2 0
+S
+#16807
+`8Hall of Commandments``~
+Iron chandeliers hang from the tall, vaulted ceilings of this hall
+casting shadows throughout.  Engraved, brass placards are set evenly along
+the wall, each ornately engraved.  A single torch, resting in a iron sconce
+hangs above each placard illuminating each to ease in reading.  An attendant
+is here, more than happy to share his knowledge regarding the commandments. 
+~
+~
+0 295698440 2 0
+S
+#16808
+`8Chamber of Piety``~
+This room's walls have been whitewashed and the marble floors polished to
+perfection.  A simple stone bench rests in the middle of the floor, upon
+lies a small velvet cushion.  Simple brass candelabras provide little light,
+yet the walls and the floor amplify it creating an almost holy aura within. 
+This room exudes peace, and the worries and troubles of the world seem to
+disappear upon entering.  
+~
+~
+0 295698440 2 0
+S
+#16809
+`8The Royal Triad``~
+A large triangular table rests in the middle of this extravagant room. 
+Rich tapestries depicting the royal crests of Revelsport, Ulsym, and
+Miruvhor.  In front of each hanging is a oaken chair carved and cushioned
+and gilded with precious metal.  The table before each chair is laden with
+numerous documents and journals.  On the far side of the room is a large
+throne, crafted from oak, and inlaid with silver, gold and other precious
+metals.  The wooden floor has been covered with a fine carpet, depicting
+Templars of old in various scenes of battle.  
+~
+~
+0 295698440 2 0
+S
+#16810
+`8The Chapel``~
+You enter through a great archway into a quiet, softly lit chamber. 
+Light flickers across the walls as a gentle draft wafts through the room,
+blowing over the tops of hundreds of candles.  Pews line each side of the
+room where masses can gather for prayer or sermon.  A great dais stands in
+the front of the room with an altar pearched upon it.  Frescoes decorate the
+ceiling, depicting the Gods of Light in a ferocious battle with those of
+evil.  
+~
+~
+0 295698440 2 0
+S
+#16811
+`8The Treasury``~
+As you walk through the heavily bound, reinforced steel door you see
+thick, heavy counting tables to either side of the room.  Each decorated
+with gold coins neatly stacked in piles along with burlap bags bulging
+heavily from their contents.  In the back wall a steel gate stands, much
+like a dungeon cell, with bulging sacks piled upon each other lying behind. 
+~
+~
+0 295698440 2 0
+S
+#16812
+`8Drawbridge``~
+Stout oak beams, bound and joined, makeup the gigantic drawbridge you are
+crossing.  Enormous steel chains run from high up in the castle walls to
+just below the end of the bridge.  Underneath you hear the lazy lapping of
+water as the moat ripples from the breeze.  Looming ahead is the grand
+entryway into the castle.  In the distance you see Templars milling about as
+they tend to their duties.   
+~
+~
+0 295698440 2 0
+S
+#16813
+`8Battle Academy``~
+The din of battle is near deafening.  You stand in a large courtyard
+surrounded by Templars practicing various forms of combat.  From mounted men
+charging into each other with blunted lances, to mailed Templars clashing
+with training weapons, all come here to train and master the art of combat. 
+At the end of the courtyard stands a man on a platform, yelling commands and
+instructions to the combatants.  
+~
+~
+0 295698440 2 0
+S
+#16814
+`8Shrine of the Fallen``~
+As you enter the small alcove your eyes focus on the only thing in the
+oval chamber, a solitary bronze statue.  Larger than life a Templar kneels,
+his bare head bowed over hands that clasp the hilt of his sword, its point
+driven into the ground.  His face drawn with a look of loss and sorrow so
+deep it hits your very soul.  His eyes focus in front of him, at the body of
+a fallen brother lying on the ground.  The fallen Templar stares blankly at
+the sky above.  At the base of the statue an engraving reads, Never
+Forgotten.  
+~
+~
+0 295698440 2 0
+S
+#16815
+`2An Empty Garden``~
+You find yourself in an unattended garden its ground long overgrown with
+various species of weeds.  The growth reaches up to your waist and sways
+lightly with your passage.  
+~
+~
+0 362807304 16386 3
+S
+#16816
+`6Pitfall``~
+You stand before a large empty space with nothing but dusty air filling
+the void before you.  As you gaze down into the murky depths of the opening
+only the echos of small pebbles falling answers you.  
+~
+~
+0 362807304 2 9
+S
+#16817
+`8Secret Passage``~
+You are standing in a damp underground tunnel.  Lit only by small torches
+you can see small tunnels leading off in every direction possible.  You seem
+to be in main connecting point of the tunnels for they all seem to end here.
+Next to each tunnel are small marked saying where it leads to and how far of
+a walk it is.  Every once in awhile you see a few small dwarves go walking
+by with carriages that you could rent.  
+~
+~
+0 295698440 2 0
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 16807 spec_knight_seer
+M 16808 spec_cast_cabal_healer
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 16813 1 16801 1
+M 0 16818 1 16802 1
+M 0 16803 1 16803 1
+M 0 16804 2 16803 2
+M 0 16805 1 16804 1
+M 0 16814 1 16804 1
+M 0 16814 2 16804 2
+M 0 16815 1 16804 1
+M 0 16807 1 16805 1
+M 0 16806 1 16806 1
+G 0 16819 0
+G 0 16809 0
+G 0 16808 0
+G 0 16807 0
+G 0 16806 0
+G 0 16805 0
+G 0 16804 0
+G 0 16803 0
+G 0 16802 0
+G 0 16801 0
+M 0 16816 1 16806 1
+O 0 16818 0 16806
+O 0 16813 0 16807
+M 0 16817 1 16808 1
+O 0 16812 0 16809
+M 0 16808 1 16810 1
+M 0 16809 1 16813 1
+M 0 16810 1 16814 1
+G 0 16815 0
+G 0 16816 0
+G 0 16817 0
+S
+
+
+
+#SHOPS
+16806 0 0 0 0 0 100 100 0 23
+16810 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#16800
+if room $i != 16800
+or isimmort $n
+  break
+endif
+if cabally $n Templar
+  if isbloody $n
+    if affspell $n 'blindness'
+    or affspell $n 'death grasp'
+    or affspell $n 'plague'
+    or affspell $n 'poison'
+    or affspell $n 'dysentery'
+    or affspell $n 'enfeeblement'
+    or affspell $n 'vampire bite'
+      pmote glances at $N noticing the sickness.
+    else
+      'Come back when you have no blood upon you $N.
+      mob stop $n
+      break
+    endif
+  endif
+  if isdelay $i
+    break
+  else
+    mob delay 1
+    pmote stands aside and lets $N pass.
+    'The Templar's castle welcomes you $N.
+    break
+  endif
+else
+  pmote moves across and bars $N from entering.
+  say None shall pass!
+  mob stop $n
+endif
+~
+#16801
+if act $n raider
+and rand 10
+  if name $n watchermonster
+    break
+  else 
+    mob echo A ballista fires from the battlements with a loud swoosh.
+    qslay $n
+  endif
+endif
+if isdelay $i
+  break
+else
+  cb We are under attack by $N!
+  mob delay 6
+endif
+~
+#16803
+if mobhere 16804 then
+  if rand 50 then
+    echo A young recruit mutters to himself about slow order filling.
+    echo Gregor looks up and says 'I heard that! You! Go to the back.'
+    echo A young recruit grumbles and goes to the back of the queue.
+  else
+    echo Gregor says to a young recruit 'This request you gave me is empty!'
+    echo A young recruit says 'Well I don't need anything.'
+    echo Gregor sighs. 'GET OUT!', he shouts.
+  endif
+else
+  if rand 50 then
+    emote looks thoughtfully at one of his request notes.
+    emote screws it up and tosses it over his shoulder.
+    emote snickers to himself.
+  else
+    emote looks at one of his request notes.
+    emote mumbles to himself whilst writing 'Armor - check. Weapons - check. Turnips - check.'
+  endif
+endif
+~
+#16806
+if rand 50 then
+  emote mutters to himself as his glasses fall off.
+  echo Leaning over to pick them up he knocks his ledger onto the floor.
+  echo As he bends down to pick that up his glasses fall off again.
+else
+  emote goes to lick his thumb forgetting he has a quill in his hand.
+  echo Obliviously he draws on his face for a while before reaching down to continue his work.
+endif
+~
+#16807
+if rand 50 then
+  echo A seer opens one eye and craftily looks at the others.
+  echo Another seer says 'I foresaw you would sneak a peep.'
+  echo A third seer says 'I knew you'd both break concentration.'
+  echo The fourth seer snores gently.
+else
+  echo A seer hums gently.
+  echo Another seer mumbles quietly.
+  echo A third seer meditates.
+  echo The fourth seer snores gently.
+endif
+~
+#16809
+if rand 50 then
+  emote throws a piece of parchment into the air.
+  emote twirls and swishes her swords at an insane speed.
+  echo As the remains floats down into her hand you see she has created a foldup swan.
+else
+  emote shifts uncomfortably in her armor and adjusts her cleavage.
+  emote glares at you.
+  say It's chafing me ALRIGHT!
+endif
+~
+#16810
+if rand 50 then
+  emote peers around quickly to check nobody is looking.
+  emote walks up to a statue of a naked man with a fig leaf covering his modesty.
+  emote peers under the figleaf.
+  faint
+else
+  echo There is a loud smash as Isthanna knocks over and breaks a small statue.
+  emote looks around innocently.
+  emote quickly sweeps the pieces under a podium.
+endif
+~
+#16813
+if carries $n 16811
+  break
+endif
+if equipped $n body
+  break
+else
+  if cabal $n Templar
+    say Cover yerself up! Can't 'ave ya wanderin' around naked now can we ?
+    mob oload 16811
+    mob otransfer holy $n
+    pmote gives $n a holy breastplate.
+  endif
+endif
+~
+#16814
+if rand 33 then
+  mob echo As Helga pounds on her anvil drops of sweat fly off her brow and hit you. 
+else
+  if rand 50 then
+    emote produces her sweat rag and blows her nose on it. She then wipes her face with it before tucking it away.
+  else
+    mob echo The air is thick with cussing as Helga hits her thumb with a hammer.
+  endif
+endif
+~
+#16815
+if rand 50 then
+  echo A child scurries off into the crowd shouting 'Oi Mister! Gis a bit o' turkey leg!'
+  echo There is the sound of a muffled slap.
+  echo The child returns holding his swollen eye.
+else
+  echo A man tosses some turkey bones on the floor.
+  echo The two hungry children look at each other then dive to get them.
+  echo A struggle ensues and whilst they are fighting a stray wanders in and eats the bones.
+endif
+~
+#16818
+if rand 50 then
+  emote shifts nervously in his seat and twiddles with his thumbs.
+  emote mutters about being accepted as a Templar or not.
+else
+  emote breaks out into a sweat and suddenly leaps to his feet.
+  say I CAN'T TAKE IT ANYMORE.... I HAVE TO KNOW!!
+  emote slumps back into his chair and continues twitching.
+endif
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#16814
+obj echo $I circles above, its shadow skimming the ground.
+~
+#16815
+if cabal $n 'warmaster'
+  obj echoat $n This is not the way a Warmaster should act!
+  break
+endif
+if isdelay $i
+  obj echoat $n $I seems to ignore you.
+  break
+else
+  if isworn $i
+    obj echoat $n $I swoops over your head and emites a shrill cry!
+    obj echoaround $n $I swoops over $N's head and emits a shrill cry!
+    obj cast 'refresh' $n
+    obj delay 2
+  endif
+endif
+~
+#16816
+if isdelay $i
+  break
+endif
+if affspell $n blindness
+  obj echo $I begins to crackle with energy.
+  obj cast 'cure blindness' 
+  if affspell $n blindness
+    break
+  else
+    obj delay 24
+  endif
+endif
+~
+#16817
+if cabal $n 'warmaster'
+  obj echoat $n This is not the way a Warmaster should act!
+  break
+endif
+if isdelay $i
+  obj echoat $n $I seems devoid of all power.
+  break
+endif
+if isworn $i
+  obj echoat $n You raise $I high overhead as it surges with power!
+  obj echoaround $n $N raises $I high overhead and it surges with power!
+  obj pfor group $n cast 'armor' #
+  obj delay 24
+endif
+~
+#16818
+obj echoat $n You sense $I regain its powers.
+~
+#0
+
+#ROOMPROGS
+#0
+
+#$

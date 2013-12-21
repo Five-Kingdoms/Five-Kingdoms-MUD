@@ -1,0 +1,746 @@
+#AREADATA
+Name the Eastern Imperial Road~
+Pref ~
+Builders Crypticant~
+VNUMs 6900 6999
+Max_Bastions 5
+Credits { ALL } Cryptica The Eastern Imperial Road~
+Security 9
+Startroom 6909
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#6900
+`3The Eastern Imperial Road``~
+You are on the Eastern Imperial Road which runs from Emmereaux directly east into
+the jagged peaks of the Lesser Raiders, the large mountain range which
+separates Palinor from East and West. You can see them rise up in the far
+horizon. Wind rustles the grass here, which stands tall around you, and
+smells of fresh cut hay, wheat, and barley.
+~
+~
+0 0 8192 2
+D1
+~
+~
+0 0 6901
+D3
+~
+~
+0 0 9123
+S
+#6901
+`3The Grasslands``~
+You are walking farther into the grasslands of Eastern Emmereaux, often
+called the Miran Steppe, but many of the local farmers. The Lesser Raider
+mountains, still far in the distance, seem to tower, with white peaks, far
+to the east, while the gates of Emmereaux lie due west.
+~
+~
+0 0 32768 2
+D1
+~
+~
+0 0 6902
+D3
+~
+~
+0 0 6900
+S
+#6902
+`3The Abandoned Checkpoint``~
+A small path enters a light woods to the east.  Various pieces of rusted
+armor and burnt grass are the only remnants of a faction that used to be
+encamped here, just outside of Emmereaux.  The wind whips up the grass and
+as the trees thicken eastwards they sway as one.  
+~
+~
+0 0 32768 2
+D1
+~
+~
+0 0 6903
+D3
+~
+~
+0 0 6901
+S
+#6903
+`2Light Woods``~
+You are on a small path running through a light woodland..  The trees are
+quite thinly arranged and you can still clearly make out the foothills of
+the Lesser Raiders eastward.  The happy chirping of birds completes this
+serene setting.  
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 6904
+D3
+~
+~
+0 0 6902
+S
+#6904
+`2Thickening Woods``~
+The trees thicken slightly around you but your path is still clearly
+visible having been worn down by many feet.  The land under foot becomes a
+little more rugged as you sense the terrain becoming slightly more uneven.  
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 6905
+D3
+~
+~
+0 0 6903
+S
+#6905
+`2A Small Clearing``~
+You find yourself in a small clearing in the woods.  The trees are even
+more sparse here and you can clearly make out the foothills of the Lesser
+Raiders and, even beyond that, the snow capped peaks of the mountains.  
+
+North of you large oaks arch over to meet each other forming the entrance to
+a wide grove.  
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 6906
+D3
+~
+~
+0 0 6904
+S
+#6906
+`2Leaving the Woodland``~
+The woodland begins to dissipate and the ground becomes hillier as you
+find yourself leaving the leafy enclosure.  Fields with tall grass sway
+gently in the wind north of you and eastwards the land ascends into the
+lower foothills of the Lesser Raiders.  
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 6907
+D3
+~
+~
+0 0 6905
+S
+#6907
+`3Lower Foothills``~
+A slight lift in altitude and increasingly rugged terrain welcomes you
+into the lower foothills of the Lesser Raiders.  The air has cooled slightly
+and the rocky path leads south deeper into the hills.  A lighter path heads
+north into a greener less hilly area.  
+~
+~
+0 0 8192 4
+D2
+~
+~
+0 0 6908
+D3
+~
+~
+0 0 6906
+S
+#6908
+`3Nearing the Cross Roads``~
+The road begins to dwindle as the hills of the Lesser Raiders turn into
+mountains. The fields here are thin, and the air seems cooler as you
+tread further. Emmereaux is a tiny speck on the wester horizon, and
+the tall peaks of the Lesser Raiders rise up to the east.
+~
+~
+0 0 65536 4
+D0
+~
+~
+0 0 6907
+D1
+~
+~
+0 0 6909
+S
+#6909
+`3The Cross Roads``~
+Here, the great Eastern Imperial Road intersects with a smaller, older road that
+now only runs southward into a darkened, blasted forest. The outskirts
+of Emmereaux lie to your west, and the trail that once lead to Leominter
+lies nouth of you. Eastward, the great Lesser Raiders rise up almost
+immediately.
+~
+~
+0 0 32768 4
+D1
+~
+~
+0 0 6910
+D3
+~
+~
+0 0 6908
+P GRALL 12112 100~
+S
+#6910
+`3Nearing the Cross Roads``~
+The path is nearly gone. Now, a small trail of gravel and round river
+stones lead the way. To the east, the mountains are before you, rising
+up into the heavens, and to the west, a long stretch of plains lies
+before you.
+~
+~
+0 0 65536 4
+D1
+~
+~
+0 0 6911
+D3
+~
+~
+0 0 6909
+S
+#6911
+`3The Base of the Lesser Raiders``~
+You stand amid gradually inclining foothills. The Lesser Raider mountains
+rise up before you, rugged faces and snowy peaks, while the easier route
+lies downward, descending into a grassy valley that leads eventually into
+Emmereaux.
+~
+~
+0 0 32768 4
+D1
+~
+~
+0 0 6912
+D3
+~
+~
+0 0 6910
+S
+#6912
+`3The Road into the Lesser Raiders``~
+You are walking along a rugged, narrow path that leads through
+the mountains of the Lesser Raiders. Around you, canyon walls
+rise up to rocky crags and steep plateaus. The footing here is
+unsure, and you feel it best to take it slow. A chilly wind
+blows through the mountains, smelling of alpine snow.
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 6913
+D3
+~
+~
+0 0 6911
+T 50
+S
+#6913
+`3The Road into the Lesser Raiders``~
+You are walking along a rugged, narrow path that leads through
+the mountains of the Lesser Raiders. Around you, canyon walls
+rise up to rocky crags and steep plateaus. The footing here is
+unsure, and you feel it best to take it slow. A chilly wind
+blows through the mountains, smelling of alpine snow.
+~
+~
+0 0 16384 4
+D1
+~
+~
+0 0 6914
+D2
+~
+~
+0 0 6912
+T 50
+S
+#6914
+`3The Road into the Lesser Raiders``~
+You are walking along a rugged, narrow path that leads through
+the mountains of the Lesser Raiders. Around you, canyon walls
+rise up to rocky crags and steep plateaus. The footing here is
+unsure, and you feel it best to take it slow. A chilly wind
+blows through the mountains, smelling of alpine snow.
+~
+~
+0 0 16384 4
+D1
+~
+~
+0 0 6915
+D3
+~
+~
+0 0 6913
+T 50
+S
+#6915
+`3The Road into the Lesser Raiders``~
+You are walking along a rugged, narrow path that leads through
+the mountains of the Lesser Raiders. Around you, canyon walls
+rise up to rocky crags and steep plateaus. The footing here is
+unsure, and you feel it best to take it slow. A chilly wind
+blows through the mountains, smelling of alpine snow.
+~
+~
+0 0 32768 5
+D3
+~
+~
+0 0 6914
+D4
+~
+~
+0 0 6916
+T 50
+S
+#6916
+`3The Road into the Lesser Raiders``~
+You are walking along a rugged, narrow path that leads through
+the mountains of the Lesser Raiders. Around you, canyon walls
+rise up to rocky crags and steep plateaus. The footing here is
+unsure, and you feel it best to take it slow. A chilly wind
+blows through the mountains, smelling of alpine snow.
+~
+~
+0 0 32768 5
+D1
+~
+~
+0 0 6917
+D5
+~
+~
+0 0 6915
+T 50
+S
+#6917
+`3The Road into the Lesser Raiders``~
+You are walking along a rugged, narrow path that leads through
+the mountains of the Lesser Raiders. Around you, canyon walls
+rise up to rocky crags and steep plateaus. The footing here is
+unsure, and you feel it best to take it slow. A chilly wind
+blows through the mountains, smelling of alpine snow.
+~
+~
+0 0 8192 5
+D3
+~
+~
+0 0 6916
+D4
+~
+~
+0 0 6918
+T 50
+S
+#6918
+`3The Road into the Lesser Raiders``~
+You are walking along a rugged, narrow path that leads through
+the mountains of the Lesser Raiders. Around you, canyon walls
+rise up to rocky crags and steep plateaus. The footing here is
+unsure, and you feel it best to take it slow. A chilly wind
+blows through the mountains, smelling of alpine snow.
+~
+~
+0 0 65536 5
+D4
+~
+~
+0 0 6919
+D5
+~
+~
+0 0 6917
+T 50
+S
+#6919
+`3The Road into the Lesser Raiders``~
+You are walking along a rugged, narrow path that leads through
+the mountains of the Lesser Raiders. Around you, canyon walls
+rise up to rocky crags and steep plateaus. The footing here is
+unsure, and you feel it best to take it slow. A chilly wind
+blows through the mountains, smelling of alpine snow.
+~
+~
+0 0 32768 5
+D0
+~
+~
+0 0 700
+D1
+~
+~
+0 0 6920
+D5
+~
+~
+0 0 6918
+T 50
+S
+#6920
+`3A Small Plateau in the Lesser Raiders``~
+You are on a small plateau. The Lesser Raiders are all around you
+now. Steep granite faces rise up on both sides. The trail you now
+walk on was forged by little more than horse hooves and men's feet
+as they trudged the way you now walk. The air is clean and fresh
+here, but with the feeling of something foreboding in the air.
+~
+~
+0 0 16384 5
+D1
+~
+~
+0 0 6921
+D3
+~
+~
+0 0 6919
+T 40
+S
+#6921
+`3A gradually widening path``~
+You manage to climb upward to this large plateau which now seems
+to spread out for miles. Centered in the plateau, you can start
+making out the sprawl of the great city of Rocksbay. The smell of
+foods in the market and fireplace smoke start to greet your
+nose.
+~
+~
+0 0 32768 2
+E
+sign~
+North - Steeper Mountains
+South - The Gnome Village
+East - Steeper Mountains
+West - Emmereaux
+~
+D1
+~
+~
+0 0 6922
+D3
+~
+~
+0 0 6920
+T 50
+S
+#6922
+`3The Western Checkpoint``~
+You stand along the Eastern Imperial Road, leading eastward into the massive
+city of Rocksbay. The road continues westward all the way towards
+Emmereaux, and eventually to the Dead Sea. Large craggy spires rise
+up all around you, and the chill mountain air is sweet and cool in
+your lungs. Here, a large checkpoint has been set up by the council
+of Rocksbay to keep out unwanted visitors.
+~
+~
+0 0 16384 2
+D1
+~
+~
+0 0 6923
+D3
+~
+~
+0 0 6921
+S
+#6923
+`7Before the Western Gate``~
+You stand on a wide cobbled road leading to and from the great city of
+Revelsport.  Before you loom the massive gates of Rocksbay with the great city
+walls continuing north and south.  West lies the Eastern Imperial Road leading
+towards Emmereaux.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 6929
+D1
+~
+~
+0 0 20623
+D2
+~
+~
+0 0 6924
+D3
+~
+~
+0 0 6922
+S
+#6924
+`7South of the Gates``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 6923
+D2
+~
+~
+0 0 6942
+S
+#6929
+`7North of the Gates``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 6930
+D2
+~
+~
+0 0 6923
+S
+#6930
+`7North of the Gates``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 6934
+D2
+~
+~
+0 0 6929
+S
+#6934
+`7Below Northwestern Wall``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 6935
+D2
+~
+~
+0 0 6930
+S
+#6935
+`7Below Northwestern Wall``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 6940
+D2
+~
+~
+0 0 6934
+S
+#6940
+`7Northwestern Wall Corner``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 6941
+D2
+~
+~
+0 0 6935
+S
+#6941
+`7Northwestern Wall Corner``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 6940
+S
+#6942
+`7South of the Gates``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 6924
+D2
+~
+~
+0 0 6947
+S
+#6947
+`7Below Southwestern Wall``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 6942
+D2
+~
+~
+0 0 6948
+S
+#6948
+`7Below Southwestern Wall``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 6947
+D2
+~
+~
+0 0 6953
+S
+#6953
+`7Southwestern Wall Corner``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 6948
+D2
+~
+~
+0 0 6954
+S
+#6954
+`7Southwestern Wall Corner``~
+You are passing along the great city walls of Revelsport.  Tall stone walls
+rise far above, with the crisp mountain air clearly carrying the sound of
+the guard's footsteps.  
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 6953
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

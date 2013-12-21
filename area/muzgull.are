@@ -1,0 +1,2349 @@
+#AREADATA
+Name Dungeon of Muzgull~
+Pref ~
+Builders Crypticant~
+VNUMs 12000 12099
+Max_Bastions 4
+Credits {28 50} Crypticant Dungeon of Muzgull~
+Security 9
+Startroom 12003
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#12001
+undead soldier~
+an undead soldier~
+An undead soldier is here, pondering your existence.
+~
+An undead soldier dressed in ancient armor who seems to be tormented by 
+an unseen force.
+~
+unique~
+AFGOT A DFJ 0 -1000 12001
+28 13 6d12+703 0d0+100 5d8+15 slash
+-8 -8 -8 -8
+CKU ABQ 0 HN
+stand stand none none~
+14
+ABHMV ABCDEFGHIJK medium 0
+#12002
+rotting mummy~
+a rotting mummy~
+A rotting mummy is here, oblivious to all.
+~
+A rotting mummy's entire body is tightly wound in loose burial wrapping.
+~
+unique~
+ABGOT A ADF 0 -1000 12002
+34 13 10d10+1300 0d0+100 5d9+10 claw
+-11 -11 -11 -11
+EK ABQ 0 HN
+stand stand none none~
+12
+ABHMV ABCDEFGHIJK medium 0
+#12003
+dark warrior guard~
+a dark warrior guard~
+A dark warrior guard stands here on duty.
+~
+A guard cursed to the very end.  He is wearing ancient platemail and 
+wields a bow.  His shield bears the symbol of a silver chalice.
+~
+unique~
+ACGOTYd A DFJ 0 -1000 12003
+45 12 10d50+2500 0d0+100 9d5+32 slash
+-5 -5 -5 -5
+CEFKU ABIQ 0 N
+stand stand male none~
+23
+ABHMV ABCDEFGHIJK large 0
+#12005
+Mhordren master warrior wight~
+Mhordren, the master warrior~
+An ancient wight stands here.
+~
+Ghastly to say the least, he somewhat resembles that of a human.  
+However, his warrior like personality remains.  He glows with an eerie
+blue aura.  Rotted flesh hangs limply from his limbs which seems as if
+they would rip and fall off any second. 
+~
+unique~
+ACFGOTe A DFHJU 0 -1000 12005
+50 20 50d10+5000 0d0+100 8d6+45 slash
+-15 -15 -18 -14
+ACDFJKN ABIQ B N
+stand stand male none~
+17
+ABHMV ABCDEFGHIJK medium 0
+#12006
+Maaekar cleric wight~
+Maaekar~
+An ancient wight is here.
+~
+She was once a holy cleric to her chosen god - Grydran.  Tainted with an 
+unholy curse, she was turned from such a path.  Wearing a light set of 
+armor, she bears a deadly mace.  It is a strange sight to see one so 
+convoluted from both holy and unholy powers.
+~
+unique~
+ACFGOQce A DFHJTUV 0 -1000 12006
+50 20 10d10+4500 0d0+100 10d6+40 crush
+-14 -17 -18 -17
+IK ABIQ B N
+stand stand female none~
+25
+ABHMV ABCDEFGHIJK medium 0
+#12007
+Ohrylok mage wight~
+Ohrylok~
+An ancient wight stands here.
+~
+Silvery runes of arcane origin flash before your eyes.  Some depict 
+sources of power while some represent protective spells.  These runes are 
+worn upon the sleeves a bright red robe.  He was once a frail mage but 
+now bones are all that's left.
+~
+unique~
+ACFGOZce A DFHUV 0 -1000 12007
+50 30 10d50+4000 0d0+100 10d7+20 stab
+-30 -30 -30 -30
+Kc ABIQ BCE N
+stand stand male none~
+23
+ABHMV ABCDEFGHIJK medium 0
+#12008
+thief wight Dhaemon~
+Dhaemon~
+An ancient wight stands here.
+~
+Covered in an old black cloth, he steps lightly upon the floor without 
+sound.  His rotted teeth are bared at you when he flashes a toothy grin.  
+A sneak even to the very end, he bears a gold purse upon his belt.  
+Greedy - even beyond death.  
+~
+unique~
+ACFGOSTce A DFHJ 0 -1000 12008
+45 20 10d50+4000 0d0+100 10d9+15 pierce
+-10 -9 -11 -9
+FIKN ABIQ B N
+stand stand male none~
+18
+ABHMV ABCDEFGHIJK medium 0
+#12009
+Xanthak Lich~
+Xanthak, the Lich King~
+An embodiment of pure evil shakes off years of horror and attacks!
+~
+Now black as death, his red eyes glare at you menacingly.  He no longer 
+resembles that of a human but more of a winged creature serving some
+sort of dark lord.  
+~
+unique~
+ABCDFGOSZ A DFHJOTUV 0 -1000 12009
+60 20 10d20+8500 0d0+100 8d6+36 claw
+-30 -30 -30 -10
+AEFKN ABILPQ 0 N
+stand stand none none~
+23
+ABHMV ABCDEFGHIJK huge 0
+#0
+
+
+
+#OBJECTS
+#12001
+spiked steel gauntlets~
+a pair of spiked light-steel gauntlets~
+A gleaming pair of gauntlets that seem extraordinarily light is here.~
+steel~
+armor ABR AHX
+12 13 11 0 0
+50 40 10 P
+E
+spiked steel gauntlets~
+It seems to shine even in the dark.  Made of the finest steel - the 
+weight that it holds is almost negligible compared to that of other metal 
+gauntlets.  Upon the palm is inscripted an ancient symbol from the Lord 
+of the dungeon.  
+~
+F
+A 19 2 0
+F
+A 18 2 0
+#12002
+battlemaster blade~
+a battlemaster's blade~
+A cold, thin-bladed longsword is lying here.~
+adamantite~
+weapon ABHMRZ ANX
+sword 6 8 slash 0
+50 70 4 P
+F
+A 18 -2 0
+F
+A 19 3 0
+#12003
+cube force~
+a Cube of Force~
+A cube glowing with power lies here.~
+diamond~
+light AFGJLR AX
+0 0 999 0 0
+50 20 15 P
+E
+cute force~
+A seemingly gelatinous cube hovers in the air.  An small glow is emitted 
+from within the center.  Runes are written upon every face of the cube.
+~
+F
+A 1 1 0
+F
+A 13 25 0
+F
+A 17 -5 0
+#12004
+scroll transient decapitation~
+a scroll titled 'Transient Decapitation'~
+A scroll with 'Transient Decapitation' written on it is here.~
+paper~
+scroll R AX
+50 'acid blast' 'acid blast' 'phantom grasp' ''
+40 10 10 P
+#12005
+belt invokation~
+a belt of invokation~
+A belt lies here that hums with arcane power.~
+leather~
+armor ABR ALX
+10 10 8 0 0
+40 40 11 P
+F
+A 13 10 0
+F
+A 12 50 0
+#12006
+scroll critical vaporizing~
+a scroll titled 'Critical Vaporize'~
+A scroll that has 'Critical Vaporize' written on it is here.~
+paper~
+scroll R AX
+50 'plague' 'blindness' 'weaken' 'poison'
+40 10 10 P
+#12007
+goat horns~
+a pair of goat horns~
+A helm is here from that of a goat.~
+adamantite~
+armor BR AE
+5 6 8 0 0
+45 40 200000 P
+F
+A 2 2 0
+F
+A 13 -20 0
+F
+A 20 -4 0
+#12008
+eog bodyarmor~
+a suit of black eog bodyarmor~
+A suit if black eog bodyarmor is here.~
+leather~
+armor BLRe ADX
+9 12 11 0 0
+45 80 10 P
+F
+A 13 25 0
+F
+A 20 -5 0
+#12009
+spider-climbing slippers~
+some spider-climbing slippers~
+A pair of slippers lie here that seem to get up and walk on their own.~
+leather~
+armor ABLR AGX
+12 9 9 0 0
+45 50 8 P
+F
+A 14 100 0
+F
+A 2 3 0
+F
+A 19 1 0
+#12010
+black medallion~
+a black sun medallion~
+A string seems to have taken the sun right out of the sky.~
+bronze~
+jewelry ABJRe ACX
+0 0 0 0 0
+40 30 3 P
+F
+A 19 3 0
+#12011
+mace unholy spirits~
+a mace of the unholy spirits~
+A mace is here eating a hole in its very existence.~
+adamantite~
+weapon ABEJ ANX
+mace 11 4 crush 0
+40 200 2 P
+F
+A 18 3 0
+F
+A 19 1 0
+#12012
+death scarab~
+a scarab of death~
+A strange object is here that radiates with cryptic energy.~
+leather~
+armor ABEGHJMRY ACX
+12 9 11 5 0
+60 40 4 P
+F
+A 19 4 0
+F
+A 13 20 0
+F
+A 3 -4 0
+F
+A 5 -3 0
+#12013
+bracer torment Graz'zt~
+a bracer of damnation~
+A bracer is here calling upon the the demons of hell.~
+steel~
+armor ABJR AMX
+9 8 12 2 0
+60 50 8 P
+F
+A 19 4 0
+F
+A 13 -25 0
+F
+A 5 -1 0
+#12014
+dusty key~
+a dusty key~
+a dusty key is here.~
+steel~
+key H A
+0 0 0 0 0
+1 10 0 P
+#12015
+burial wrap~
+a burial wrap~
+A burial wrap is here.~
+cloth~
+trash 0 AL
+0 0 0 0 0
+35 20 20 P
+F
+A 13 10 0
+F
+A 5 -1 0
+#12016
+flask blood~
+a small flask of strange blood~
+A small glass flask is here, filled with a strange reddish liquid.~
+liquid~
+potion B AO
+28 'poison' '' '' ''
+28 20 36 P
+#12017
+skinned body~
+a skinned body~
+A skinned body hangs lifelessly here from the ceiling.~
+meat~
+trash 0 0
+0 0 0 0 0
+1 0 0 P
+#12018
+important sign~
+an important sign~
+An IMPORTANT sign is here.~
+wood~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+This area holds vile creatures that were cursed long , long ago. To tread
+upon this dwelling is an act for only the well prepared and the courageous.
+These creatures will attack on sight ..and have no remorse for death.
+~
+#12019
+blue triad~
+the `$blue`` triad~
+A strange piece of stone carved in the shape of a triangle is here.~
+heartstone~
+treasure AT AO
+0 0 0 0 0
+50 30 1 P
+#12020
+xanthak's eye~
+Xanthak's Eye~
+Xanthak's Eye floats here starring at you with anger.~
+bone~
+socket AE AS
+B H 0 0 C
+60 1 1 P
+#0
+
+
+
+#ROOMS
+#12000
+`3A Weeded Path``~
+You are walking down a small path just outside of the Shadow Grove. 
+Howls and eerie screams still surround you, and you feel as if a tainted
+energy source were nearby.  South of you a large eery structure with black
+pillars seems to steal the light from around it and to your north a large
+stone appears to have been rolled across a cave entrance.  
+~
+~
+0 0 65536 2
+D2
+~
+~
+0 0 12001
+D3
+~
+~
+0 0 4716
+S
+#12001
+`8Entrance to the Dungeon of Muzgull``~
+You are at the entrance of a building with the eeriness that prickles 
+your skin.  Howls of intense pain fill the air as the winds seem to blow 
+with a renewed vigor.  There is an ancient presence about.  It is a 
+presence of insurmountable evil that can be felt in the atmosphere around 
+you.  Tall black pillars lie in front of the structure and seem to mock 
+your existence. 
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 0 12000
+D2
+~
+~
+0 -1 12002
+T 30
+S
+#12002
+`8Entrance Hall of the Dungeon``~
+There is an unusual calmness here.  The howls have stopped as if waiting
+for something.  There is an ancient presence about.  A presence of in 
+surmountable evil that can be felt around you.  The unholy atmosphere is 
+almost unbearable.  The dungeon seems to have prospered at a certain point 
+in time but abruptly taken over by a mystical force.
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 -1 12001
+D2
+~
+~
+ABG 0 12003
+T 31
+S
+#12003
+`8Northern edge of the Dungeon.``~
+Dark blood covers the aged brick walls which seem to have a life of their 
+own.  You feel your heart race as moans of the undead are heard echoing 
+through the seemingly empty halls.
+~
+~
+0 574627849 0 0
+D0
+~
+~
+ABG 0 12002
+D1
+~
+~
+0 -1 12005
+D2
+~
+~
+0 -1 12004
+D3
+~
+~
+0 -1 12006
+T 32
+S
+#12004
+`8Toward the center of the Dungeon.``~
+Alas, you seem to be in the center of it all.  The stench of death is as 
+strong as ever.  It is as barren as the rest of the place - save for the 
+rotting corpses strewn across the floor.  You feel an urge to leave this 
+area.
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 -1 12003
+D1
+~
+~
+0 -1 12023
+D2
+~
+~
+0 0 12080
+D3
+~
+~
+0 -1 12024
+T 30
+S
+#12005
+`8Northeastern edge of the Dungeon.``~
+Dark blood covers the aged brick walls which seem to have a life of its 
+own.  You feel your heart race as moans of the undead are heard echoing 
+through the seemingly empty halls.
+~
+~
+0 8201 0 0
+D2
+~
+~
+0 -1 12023
+D3
+~
+~
+0 -1 12003
+D4
+~
+~
+AB -1 12041
+T 30
+S
+#12006
+`8Northern edge of the Dungeon.``~
+Dark blood covers the aged brick walls which seem to have a life all its  
+own.  You feel your heart race as your hear moans of the undead echoing 
+through the seemingly empty halls.
+~
+~
+0 8201 0 0
+D1
+~
+~
+0 -1 12003
+D2
+~
+~
+0 -1 12024
+D3
+~
+~
+0 -1 12007
+T 29
+S
+#12007
+`8Northwestern edge of the Dungeon.``~
+Dark blood covers the aged brick walls which seem to have a life all its 
+own.  You feel your heart race as your hear moans of the undead echoing 
+through the seemingly empty halls.
+~
+~
+0 8201 0 0
+D1
+~
+~
+0 -1 12006
+D2
+~
+~
+0 -1 12008
+D4
+~
+~
+AB -1 12042
+T 28
+S
+#12008
+`8Western area.``~
+You find yourself along a wall of the dungeon.  No longer on the edge you 
+find yourself keeping to this wall for the fear you might be lost.  Dark 
+blood covers the aged brick walls which seem to have a life all its own.  
+You feel your heart race as your hear moans of the undead echo through 
+the seemingly empty halls.
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 -1 12007
+D1
+~
+~
+0 -1 12024
+D2
+~
+~
+0 0 12082
+T 29
+S
+#12009
+`8Magical platform``~
+The dungeon widens into a wide marble hallway.  The walls were once golden 
+but now they are stained black as death.  You feel a strange arcane power 
+crackling in the air.  Occasionally, you hear a low mumble of 
+incantations.  The rank air seems to clear up a bit as you stand here.  
+The hallway continues west and east.  To the west are a large pair of 
+double doors with arcane runes on the handle.  To the distant east lies a 
+small door.  To the far south, you see another hallway.
+~
+~
+0 8201 0 0
+D1
+~
+~
+0 -1 12029
+D3
+~
+~
+0 0 12021
+T 31
+S
+#12010
+`8Along a wall``~
+Cobwebs form a greyish layer on the blood streaked on the wall.  It must 
+be at least a couple inches worth of webbing.  Skeletons line the wall in 
+a random fashion.  Here, a feeling of eternal torment is present.  Along 
+the wall, you can see a dusty portrait.  The portrait seems to depict a 
+time when the dungeon was not over-run by the undead.  There are four heroic 
+looking people on the portrait with names you can't make out.
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 0 12082
+D1
+~
+~
+0 0 12085
+D2
+~
+~
+0 -1 12011
+T 32
+S
+#12011
+`8Further down a wall.``~
+Spiders and maggots crawl relentlessly about here.  Cobwebs form a 
+greyish layer on a blood streaked wall.  It must be at least a couple 
+inches thick.  Skeletons of the dead line in the wall in random fashion.  
+Here a feeling of eternal torment is present.  To the south is a hallway 
+with a strange sort of liquid dropping from the ceiling.
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 -1 12010
+D1
+~
+~
+0 0 12087
+D2
+~
+~
+0 0 12013
+T 32
+S
+#12012
+`8A bloody corridor.``~
+Black blood seems to drip incessantly from the ceiling.  The blood was 
+from the cursed sacrifices made to the High Lord himself.  Tainted with 
+dark arcane powers, it would forever flow - never to dry.  Doors can be 
+seen on either side of the hallway.
+~
+~
+0 8201 0 0
+D1
+~
+~
+0 -1 12036
+D3
+~
+~
+0 -1 12039
+T 33
+S
+#12013
+`8Western area.``~
+You find yourself along a wall of the dungeon.  No longer on the edge you 
+find yourself keeping to this wall for fear that you will get lost.  Dark 
+blood covers the aged brick wall which seems to have a life of its own.
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 0 12011
+D1
+~
+~
+0 -1 12025
+D2
+~
+~
+0 -1 12014
+T 33
+S
+#12014
+`8A grisly SW scene.``~
+Skinned corspes hang from the ceilings.  The unfortunate victims were 
+slain hundreds of years ago.  These corpses seem to have subtle movements 
+within. 
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 -1 12013
+D1
+~
+~
+0 -1 12015
+D4
+~
+~
+AB -1 12047
+T 60
+S
+#12015
+`8Outside an entrance way.``~
+Before you lies an opening into what seems to be an entrance to 
+something.  However, it is abruptly blocked by a wall.  As you edge 
+closer, a blast of evil hits you square in the face.  It is ominously 
+still.  Gargoyle statues which were once regal and grand are now cracked 
+and aged with time.  Dust covered tapestries are strewn all over the 
+ground. 
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 -1 12025
+D1
+~
+~
+0 -1 12016
+D3
+~
+~
+0 -1 12014
+T 40
+S
+#12016
+`8An aprupt ending.``~
+The wall ends with mysterious suddeness.  You feel as if something is 
+missing - that this accursed dungeon has a lot more to show.  You notice a 
+break in the pattern on the floor.  A few of the adjacent bricks you 
+stand on are stained blood red.
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 -1 12026
+D1
+~
+~
+0 -1 12017
+D3
+~
+~
+0 -1 12015
+D5
+~
+~
+ABM -1 12053
+T 38
+S
+#12017
+`8A grisly SE scene.``~
+Skinned corpses hang from the ceiling.  The unfortunate victims were 
+slaing hundreds of years ago.  The corpses seem to have some subtle 
+movements within. 
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 -1 12018
+D3
+~
+~
+0 -1 12016
+D4
+~
+~
+AB -1 12048
+T 36
+S
+#12018
+`8Western area.``~
+You find yourself along a wall of the dungeon.  No longer near the edge, you 
+keep yourself close in fear of getting lost.  Dark blood covers the aged
+brick wall which seems to have a life all its own.
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 0 12020
+D2
+~
+~
+0 -1 12017
+D3
+~
+~
+0 -1 12026
+T 34
+S
+#12019
+`8A bloody corridor.``~
+Black blood seems to drip incessantly from the ceiling.  The blood was 
+from the sacrifices made to the High Lord himself.  Tainted with dark 
+arcane powers, it would forever flow - never to dry.
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 0 12053
+D3
+~
+~
+0 -1 12035
+T 34
+S
+#12020
+`8Further down a wall.``~
+Spiders and maggots crawl relentlessly about.  Cobwebs form a greyish 
+layer on the blood streaked walls.  It must be at least a couple inches 
+thick.  Here, a feeling of eternal torment is present.  To the south lies 
+a hallway with some strange liquid dripping from the celing.
+~
+~
+0 8200 0 0
+D0
+~
+~
+0 -1 12021
+D2
+~
+~
+0 0 12018
+D3
+~
+~
+0 0 12088
+T 33
+S
+#12021
+`8Along a wall.``~
+Cobwebs form a greyish layer on the blood streaked wall.  It must be at 
+least a couple inches thikc.  Skeletons line the walls in random fashion. 
+Here, a feeling of eternal torment is present.  Inscribed upon a dusty 
+plque are the names:  Maaekar, Mhordren, Dhaemon, and Ohrylok.  The
+names mean nothing to you.
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 0 12083
+D1
+~
+~
+0 0 12009
+D2
+~
+~
+0 -1 12020
+D3
+~
+~
+0 0 12084
+T 33
+S
+#12022
+`8A cryptic magical hallway``~
+The dungeon widens into a wide marble hallway.  The walls were once golden 
+but now they are stained black as death.  You feel a strange unholiness 
+about.  Ocassionally you can here some incantations being murmured.  The 
+rank air seems to clear up a bit as you stand here.
+~
+~
+0 8201 0 0
+D1
+~
+~
+0 -1 12033
+D3
+~
+~
+0 -1 12027
+T 31
+S
+#12023
+`8Eastern area``~
+You find yourself along a wall of the dungeon.  No longer on the edge, you 
+find that you try and stay close for fear of getting lost.  Dark blood 
+covers the aged walls which seem to pulsate with a life all their own.
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 -1 12005
+D2
+~
+~
+0 0 12083
+D3
+~
+~
+0 -1 12004
+T 34
+S
+#12024
+`8Within the Dungeon.``~
+You step further in to the acursed dungeon.  All is still around you except 
+for an occasional flicker or your torch.  The stench of death fills your 
+nostrils as you walk.  It seems uninhabited.  On the second thought - or 
+is it? 
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 -1 12006
+D1
+~
+~
+0 -1 12004
+D2
+~
+~
+0 0 12081
+D3
+~
+~
+0 -1 12008
+T 33
+S
+#12025
+`8Within the dungeon.``~
+You step further into this acursed dungeon.  All is still around you except 
+for an occasional flicker of your torch.  The stench of death fills your 
+nostrils as you walk.  It seems uninhabited - or is it?
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 0 12087
+D1
+~
+~
+0 -1 12026
+D2
+~
+~
+0 -1 12015
+D3
+~
+~
+0 -1 12013
+T 35
+S
+#12026
+`8Toward the center of the Dungeon.``~
+Alas, you have reached the center of it all.  The stench of death is as 
+strong as every.  It is as barren as the rest of the place - save of 
+course for the rotting corpses strewn across the floor.  You feel an urge 
+to leave. 
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 0 12088
+D1
+~
+~
+0 -1 12018
+D2
+~
+~
+0 -1 12016
+D3
+~
+~
+0 -1 12025
+T 34
+S
+#12027
+`8A cryptic magical hallway.``~
+The energy of the magic once produced can still be felt within this 
+morbid hallway.  The remains of mages lie smeared on the wall as 
+consequence of spells gone awry.  On the wall are pictures of the great 
+arch-mages of the land.
+~
+~
+0 8201 0 0
+D1
+~
+~
+0 -1 12022
+D3
+~
+~
+0 -1 12029
+T 33
+S
+#12028
+`8Thieves Room``~
+You see an assortment of treasures - all seem extremely valueable and are
+usually glowing with some sort of strange aura.  Gold litters the floor as
+you walk gingerly about.  Nearby, you can hear a strange sound that
+resembles water splashing over rocks.  
+~
+~
+0 574627840 0 0
+D0
+~
+~
+0 0 12040
+S
+#12029
+`8A cryptic magical hallway.``~
+The energy of magic once produced can still be felt within this morbid 
+hallway.  The remains of mages lie smeared on the wall as a consequence 
+to spells gone awry.  On the wall are picture of the greatest arch-mages 
+of the land.
+~
+~
+0 8201 0 0
+D1
+~
+~
+0 -1 12027
+D3
+~
+~
+0 -1 12009
+T 32
+S
+#12030
+`7Apon an arcane forcefield.``~
+A virtual barrier stands between you and the door that you see not too 
+far away.  It shimmers with the intense power of its creator.  Passage
+through this barrier seems impossible.  Your only option is to head back 
+from whence you came.
+~
+~
+0 8201 0 1
+D1
+~
+~
+ABC 12014 12082
+D3
+~
+~
+ABC 12014 12031
+T 31
+S
+#12031
+`8Outside a hidden laboratory.``~
+It seems that no living being has been here for ages.  Spellbooks line 
+the shelves.  They seem to glow slightly with a green hue.  You dare not 
+touch them for fear of setting off a trigger spell linked to the books.  
+Wooden chairs are placed in orderly fashion around the room.  It seems to 
+be some kind of waiting area.
+~
+~
+0 8201 0 0
+D1
+~
+forcefield~
+ABC 12014 12030
+D3
+~
+~
+AB 0 12032
+T 33
+S
+#12032
+`8An Archmages workshop.``~
+Various potions, wands, staves, and scrolls lie scattered about.  More 
+than half the potions are cracked.  In the middle of the room is a giant 
+cauldron.  It smell foul - must of been used to create magic componants 
+and that sort of thing.
+~
+~
+0 574627849 0 0
+D1
+~
+~
+AB 0 12031
+T 31
+S
+#12033
+`8An unholy area.``~
+You can feel the presence of spirits and ghosts travelling about.  Bodies 
+of elves are tossed in the corner.  They must have been test subjects for 
+their rituals.
+~
+~
+0 8201 0 0
+D1
+~
+~
+ABC 12014 12034
+D3
+~
+~
+0 -1 12022
+T 30
+S
+#12034
+`7A bloody altar.``~
+An enormous altar is here before you.  A variety of jewels are encrusted 
+around it.  Statues of demons are all around the room.  There is a 
+feeling of unholiness about this place.  Pieces of battlearmor and maces 
+are on the ground.  Tiny square rugs (well, what's left of them) are 
+placed adjacent to one another.
+~
+~
+0 574627849 0 1
+D3
+~
+~
+ABC 12014 12033
+T 33
+S
+#12035
+`8A blood-encrusted corridor.``~
+Black blood seems to drip non-stop from the ceilings.  Tainted with dark 
+arcane powers, it would never stop dripping.  This was the effect of 
+religious sacrifices to the lord of the dungeon.  Doors can be seen on 
+either end of the hallway.
+~
+~
+0 8201 0 0
+D1
+~
+~
+0 -1 12019
+D3
+~
+~
+0 -1 12036
+T 34
+S
+#12036
+`7A blood-encrusted corridor.  ``~
+Black blood seems to drip constantly from the ceilings.  Tainted with 
+dark arcane powers, it will forever flow - never to dry.  This was the 
+result of sacrifices made to the lord of the dungeon.  Doors can be seen on 
+either side of the hallway.
+~
+~
+0 8201 0 1
+D1
+~
+~
+0 -1 12035
+D3
+~
+~
+0 -1 12012
+T 32
+S
+#12037
+`7The arena.``~
+You are in a small arena.  There are a few sets of bleacher-like seats.  
+The brick on the ground is smooth white marble which seems resistant to 
+the effect of time.  Pikes, polearms, swords, and spears line the outside 
+of the arena.  Practice dummies are set up in the corners.
+~
+~
+0 8201 0 1
+D1
+~
+~
+0 0 12038
+D3
+~
+~
+ABC 12014 12090
+T 32
+S
+#12038
+`8The sleeping quarters.``~
+A bed is in one corner and a practice dummy in the other.  Like the 
+arena, there are practice weapons on display.  The room is otherwise 
+spartan and unusually warm.  Several blood smears stain the brick floor.  
+Tossed in the far corner is a full set of platemail armor.
+~
+~
+0 574627849 0 0
+D1
+~
+~
+0 0 12099
+D3
+~
+~
+0 0 12037
+T 30
+S
+#12039
+`7Into the darkness.``~
+This room is unusally dark - much too dark for your own comfort.  Several 
+fleeting shadows dart here and there.  Your gold purse feels a little 
+lighter... or is it just your imagination.  A dagger, dripping with blood 
+is stuck against a wooden plank.  A huge pile of coins is here.  As you 
+approach them, the coins shimmer and disappear.
+~
+~
+0 8201 0 1
+D1
+~
+~
+0 -1 12012
+D3
+~
+~
+ABC 12014 12040
+T 27
+S
+#12040
+`^The quiet room.``~
+You make a gurgling sound as a sharp nice plunges into your back.  This 
+room is almost completely dark.  Straining your eyes, you make out a pair 
+of boots and a light colored cloak in the northern corners.  Empty gold 
+purses are everywhere.
+~
+~
+0 574627849 0 6
+D1
+~
+~
+ABC 12014 12039
+D2
+~
+~
+0 0 12028
+T 27
+S
+#12041
+`7The NE intersection of the northern battlements.``~
+You look out yonder and see a grand view of the graveyard.  You imagine 
+how at one time, the graveyard was a beautiful plain full of animals and 
+plants.  Guards and archers take their protective positions here.  The 
+battlement stonework is grey.  There are stair leading back down into the 
+dungeon. 
+~
+~
+0 8201 0 1
+D1
+~
+~
+0 -1 12043
+D2
+~
+~
+0 0 12093
+D3
+~
+~
+0 -1 12044
+D5
+~
+~
+AB -1 12005
+T 29
+S
+#12042
+`8The NW intersection of the northern battlements.``~
+You look out yonder and see a grand view of the graveyard.  You imagine 
+at one time, the graveyard used to be a beautiful pasture full of 
+wildlife and lush vegetation.  Guards and archers take took their 
+protective positions here.  The stairs lead back into the dungeon.
+~
+~
+0 8201 0 0
+D1
+~
+~
+0 -1 12045
+D2
+~
+~
+0 0 12098
+D3
+~
+~
+0 -1 12046
+D5
+~
+~
+AB -1 12007
+T 29
+S
+#12043
+`7End of the northern battlements.``~
+You look out yonder and see a grand view of the graveyard.  You imagine 
+how at one time, the graveyard was a lush pasture full of wildlife and 
+vegetation.  Guards and archers took their protective positions here.
+~
+~
+0 8201 0 1
+D3
+~
+~
+0 -1 12041
+T 31
+S
+#12044
+`7Along the northern battlements.``~
+You look out yonder and see a grand view of the graveyard.  You imagine 
+how at one time, the graveyard was a lush pasture full of wildlife and 
+vegetation.  Guards and archers take their protective positions here.
+~
+~
+0 8201 0 1
+D1
+~
+~
+0 -1 12041
+D3
+~
+~
+0 -1 12045
+T 31
+S
+#12045
+`7Along the northern battlements.``~
+You look out yonder and see a grand view of the graveyard.  You imagine 
+how at one point in time the graveyard was a lush pasture full of 
+wildlife and vegetation.  Guards and archers took their protective 
+positions here. 
+~
+~
+0 8201 0 1
+D1
+~
+~
+0 -1 12044
+D3
+~
+~
+0 -1 12042
+T 33
+S
+#12046
+`7End of the northern battlements.``~
+You look out yonder and see a grand view of the graveyard.  You imagine 
+how at one time it was a lush pasture filled with wildlife and 
+vegetation.  The battlements are made with a grey type of stonework.  
+Guards and archers took their positions here.
+~
+~
+0 8201 0 1
+D1
+~
+~
+0 -1 12042
+T 33
+S
+#12047
+`8A SW intersection on the southern battlements.``~
+You look out yonder and see a grand view of the graveyard.  You imagine 
+how at one time, the graveyard was a lush pasture full of wildlife and 
+vegetation.  Guards and archers took their protective positions here.
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 0 12094
+D1
+~
+~
+0 -1 12051
+D3
+~
+~
+0 -1 12052
+D5
+~
+~
+AB -1 12014
+T 35
+S
+#12048
+`7A SE intersection on the southern battlements``~
+You look out yonder and see a grand view of the graveyard.  You imagine 
+how at one time the graveyard was a lush pasture filled with wildlife and 
+vegetation.  Guards and archers took their respective positions here - 
+defending the dungeon against enemies.
+~
+~
+0 8201 0 1
+D0
+~
+~
+0 0 12089
+D1
+~
+~
+0 -1 12049
+D3
+~
+~
+0 -1 12050
+D5
+~
+~
+AB -1 12017
+T 32
+S
+#12049
+`7End of the southern battlements.``~
+You look out yonder and see a grand view of the graveyard.  You imagine 
+how at one time, it used to be a lush pasture filled with wildlife and 
+vegetation.  Guards and archers took their protective posistions here.
+~
+~
+0 8201 0 1
+D3
+~
+~
+0 -1 12048
+T 31
+S
+#12050
+`7Along the southern battlements.``~
+You look out yonder and see a grand view of the graveyard.  You imagine 
+how it used to be a lush pasture filled with wildlife and vegetation.  
+Guards and archers took their protective positions here.
+~
+~
+0 8201 0 1
+D1
+~
+~
+0 -1 12048
+D3
+~
+~
+0 -1 12051
+T 31
+S
+#12051
+`7Along the southern battlements.``~
+You look out and see a grand view of the graveyard.  You imagine how at 
+one time, the graveyard used to be a lush pasture filled with wildlife 
+and vegetation.  Guards and archers took their protective positions here 
+- defending the dungeon against enemies.
+~
+~
+0 8201 0 1
+D1
+~
+~
+0 -1 12050
+D3
+~
+~
+0 -1 12047
+T 32
+S
+#12052
+`7End of the southern battlements.``~
+You look out yonder and see a grand view of the graveyard.  You imagine 
+how at one time it used to be a lush pasture filled with wildlife and 
+vegetation.  Guards and archers take took their protective positions 
+here. 
+~
+~
+0 8201 0 1
+D1
+~
+~
+0 -1 12047
+T 33
+S
+#12053
+`7A musty entrance hall.``~
+Red tapestry line the ceiling.  The brick is jet black here.  The musty 
+scent of the hallway fills your nostrils.  The air seems to be a little 
+more damp compared to that of the surface.  You can hear water dripping, 
+though you can't make out where it's coming from.  You hear intense 
+howling to the north.
+~
+~
+0 8201 0 1
+D0
+~
+~
+0 -1 12054
+D2
+~
+~
+0 0 12019
+D4
+~
+~
+ABM -1 12016
+T 34
+S
+#12054
+`7A treacherous hallway.``~
+You are in a narrow marble hallway that leads to a wide door to the 
+north.  On either side, dark rooms are present.  You try and stay closer 
+to the middle of the hallway in fear of getting to close to the rooms.
+~
+~
+0 8201 0 1
+D0
+~
+~
+0 -1 12057
+D1
+~
+~
+0 -1 12055
+D2
+~
+~
+0 -1 12053
+D3
+~
+~
+0 -1 12056
+T 34
+S
+#12055
+`7A cursed dungeon cell.``~
+Eeeeew!  Fecal matter is everywhere.  The stench of the cell makes you 
+gag and extremely sick.  There is blood smeared on the black brick walls. 
+Empty shackles lay about.
+~
+~
+0 8201 0 1
+D3
+~
+~
+0 -1 12054
+T 36
+S
+#12056
+`7A cursed dungeon cell.``~
+Eeeew!  Fecal matter is everywhere.  The stench of this cell makes you 
+gag and extremely sick.  There is blood smeared on the black brick walls. 
+A pair of empty shackles lay about.
+~
+~
+0 8201 0 1
+D1
+~
+~
+0 -1 12054
+T 36
+S
+#12057
+`7A treacherous walkway.``~
+You are in a narrow hallway that leads to a wide door to the north.  To 
+the west and east, dark rooms are present.  You try and stay closer to 
+the middle of the hall in fear of wandering too close to the dark rooms.
+~
+~
+0 8201 0 1
+D0
+~
+~
+0 -1 12060
+D1
+~
+~
+0 -1 12058
+D2
+~
+~
+0 -1 12054
+D3
+~
+~
+0 -1 12059
+T 34
+S
+#12058
+`7A cursed dungeon cell.``~
+Eeeeew!  There is fecal matter everywhere.  The stench of this cell makes 
+you gag and extremely sick.  There is blood smeared on the black brick 
+walls.  Empty shackles lay about.
+~
+~
+0 8201 0 1
+D3
+~
+~
+0 -1 12057
+T 36
+S
+#12059
+`7A cursed dungeon cell.``~
+Eeeew!  Fecal matter is everywhere.  The stench of this place makes you 
+gag and extremely sick. There is blood smeared on the black, brick 
+walls.  Empty shackles lay about.
+~
+~
+0 8201 0 1
+D1
+~
+~
+0 -1 12057
+T 36
+S
+#12060
+`7A treacherous walkway.``~
+You are in a narrow hallway that leads to a wide door to the north.  On 
+either side of you, dark rooms are present.  You try and stay closer 
+toward the middle of the hallway in fear of wandering too close to the 
+dark rooms. 
+~
+~
+0 937435145 0 1
+D0
+~
+~
+ABC 12014 12063
+D1
+~
+~
+0 -1 12061
+D2
+~
+~
+0 -1 12057
+D3
+~
+~
+0 -1 12062
+T 34
+S
+#12061
+`7A cursed dungeon cell.``~
+Eeew!  Fecal matter is everywhere.  The stench makes you gag and 
+extremely sick.  There is blood smeared on the black, brick walls.  Empty 
+shackles lay about.
+~
+~
+0 8201 0 1
+D3
+~
+~
+0 -1 12060
+T 36
+S
+#12062
+`7A cursed dungeon cell.``~
+Eeeew!  Fecal matter is everywhere.  The stench of this cell makes you 
+gag and extremely sick.  There is blood smeared on the black, brick 
+walls.  Empty shackles lay about.
+~
+~
+0 8201 0 1
+D1
+~
+~
+0 -1 12060
+T 36
+S
+#12063
+`7Hall of the Lord of the Muzgull Dungeon``~
+You see a once handsome High Lord of the Dungeon.  Now he is a scarred and
+cursed visage of his former self.  The god of black magic, Veria cast a 
+spell on the entire dungeon.  None shall ever die - but shall age and hurt 
+as a regular mortal.  You gasp in horror as the creature comes toward
+you.  Blackened, cursed, and twisted - it begins its attack.
+~
+~
+0 37756937 0 1
+D0
+~
+~
+0 0 12064
+D2
+~
+~
+ABC 12014 12060
+T 30
+S
+#12064
+`7Hall of the Lord of the Muzgull Dungeon``~
+The hall ends abruptly here.  Once fine tapestries now reflect the
+cursed doom that has befallen this dungeon.  Dust layers everything, from the
+crumbling remains of walls to smashed remnants of furniture.  This place
+is so devoid of anything living, even the usual decor of cobwebs is
+missing ... as if to signify nothing living can dwell here.
+~
+~
+0 8201 0 1
+D2
+~
+~
+0 0 12063
+T 31
+S
+#12080
+`8Center of the Dungeon``~
+Within the center of it all, the dungeon doesn't look as big as you had
+initially anticipated.  No movement is seen nor any sound heard as
+it is about as lifeless as death itself.  The rotting stench to your 
+nostrils is particularly revolting as you spot various organs, still red 
+with life sitting there waiting to decease.  From a distance, a grey 
+thick fog can be seen.
+~
+~
+0 8192 0 0
+D0
+~
+~
+0 0 12004
+D1
+~
+~
+0 0 12083
+D2
+~
+~
+0 0 12084
+D3
+~
+~
+0 0 12081
+T 32
+S
+#12081
+`8Center of the Dungeon``~
+Within the center of it all, the dungeon doesn't look as big as you had 
+initially anticipated.  No movement is seen nor any sound heard as 
+it is about as lifeless as death.  The rotting stench to your nostrils
+is particularly revolting as you spot various organs, still red with life
+sitting there waiting to decease.  From a distance, a grey thick
+fog can be seen.
+~
+~
+0 8192 0 0
+D0
+~
+~
+0 0 12024
+D1
+~
+~
+0 0 12080
+D2
+~
+~
+0 0 12085
+D3
+~
+~
+0 0 12082
+T 33
+S
+#12082
+`8Western barracks``~
+A coldness from within your soul suddenly chills and causes you to 
+stiffen.  Skeletons with arrows from which they have been slain are lying 
+piled up upon one another.  The wooden barracks at one time provided a 
+decent defense but now, they are but rotted pieces of wood.  Sounds of 
+battle and victory can be felt and almost heard as traces from the past.  
+The ceiling drips massive quantities of blood causing a neat little river 
+to flow through these wooden planks.  
+~
+~
+0 8192 0 0
+D0
+~
+~
+0 0 12008
+D1
+~
+~
+0 0 12081
+D2
+~
+~
+0 0 12010
+D3
+~
+~
+ABC 12014 12030
+T 30
+S
+#12083
+`8Eastern barracks``~
+A coldness from within your soul suddenly chills and causes you to 
+stiffen.  Skeletons with arrows from which they have been slain are lying 
+piled up upon one another.  The wooden barracks at one time provided a 
+decent defense but now, they are but rotted pieces of wood.  Sounds of 
+battle and victory can be felt and almost heard as traces from the past.  
+The ceiling drips massive quantities of blood causing a neat little river 
+to flow through these wooden planks.
+~
+~
+0 8201 0 0
+D0
+~
+~
+0 0 12023
+D2
+~
+~
+0 0 12021
+D3
+~
+~
+0 0 12080
+T 28
+S
+#12084
+`8Within the Dungeon``~
+You step further into the acursed dungeon.  All is still around you except 
+for an occasional flicker of your torch.  The stench of death fills your 
+nostrils as you walk.  It seems uninhabited.  On the second thought - or 
+is it? 
+~
+~
+0 574619648 0 0
+D0
+~
+~
+0 0 12080
+D1
+~
+~
+0 0 12021
+D2
+~
+~
+0 0 12088
+D3
+~
+~
+0 0 12085
+T 29
+S
+#12085
+`8Within the Dungeon``~
+You step further into the acursed dungeon.  All is still around you except 
+for an occasional flicker of your torch.  The stench of death fills your 
+nostrils as you walk.  It seems uninhabited.  On the second thought - or 
+is it? 
+~
+~
+0 8192 0 0
+D0
+~
+~
+0 0 12081
+D1
+~
+~
+0 0 12084
+D2
+~
+~
+0 0 12087
+D3
+~
+~
+0 0 12010
+T 30
+S
+#12086
+`8A secret room``~
+~
+~
+0 2105348 0 0
+T 30
+S
+#12087
+`8A strange fog``~
+You are blind and cannot see but a great white blur in front of you!  
+Caused by a great white fog created from an unknown source, it remains 
+stationary as if in waiting.  Swirls from within give rise to the notion 
+that there is indeed motion from within.  But to what purpose?  A 
+tingling on your skin indicates that the great cloud is toxic to your 
+system. 
+~
+~
+0 8192 0 0
+D0
+~
+~
+0 0 12085
+D1
+~
+~
+0 0 12088
+D2
+~
+~
+0 0 12025
+D3
+~
+~
+0 0 12011
+T 34
+S
+#12088
+`8A strange fog``~
+You are blind and cannot see but a great white blur in front of you! 
+Caused by a great white fog create from an unknown source, it remains 
+stationary as if in waiting.  Swirls from within give rise to the notion 
+that there is indeed motion from within.  But to what purpose?  A 
+tingling on your skin indicates that the great cloud is toxic to your 
+system.  It is in your best interest to leave now.
+~
+~
+0 8192 0 0
+D0
+~
+~
+0 0 12084
+D1
+~
+~
+0 0 12020
+D2
+~
+~
+0 0 12026
+D3
+~
+~
+0 0 12087
+T 33
+S
+#12089
+`8A defensive outpost``~
+You see a grand view of the graveyard before you.  Small chairs and 
+tables are set rotted away and torn asunder here.  this was an outpost in 
+case intruders broke past the initial defenses.  Heavily armored guards 
+took their positions here and provided the dungeon with the necessary 
+defenses. 
+~
+~
+0 8192 0 0
+D0
+~
+~
+0 0 12090
+D2
+~
+~
+0 0 12048
+T 36
+S
+#12090
+`8A defensive outpost``~
+You see a grand view of the graveyard before you.  Small chairs and 
+tables are set rotted away and torn asunder here.  This was an outpost in 
+case intruders broke past the initial defenses.  Heavily armored guards 
+took their positions here and provided the dungeon with the necessary 
+defenses. 
+~
+~
+0 8192 0 0
+D0
+~
+~
+0 0 12091
+D1
+~
+~
+ABC 12014 12037
+D2
+~
+~
+0 0 12089
+T 36
+S
+#12091
+`8A defensive outpost``~
+You see a grand view of the graveyard before you.  Small chairs and 
+tables are set rotted away and torn asunder here.  This was an outpost in 
+case intruders broke past the initial defenses.  Heavily armored guards 
+took their positions here and provided the dungeon with the necessary 
+defenses. 
+~
+~
+0 8192 0 0
+D0
+~
+~
+0 0 12092
+D2
+~
+~
+0 0 12090
+T 36
+S
+#12092
+`8A defensive outpost``~
+You see a grand view of the graveyard before you.  Small chairs and 
+tables are set rotted away and torn asunder here.  This was an outpost in 
+case intruders broke past the initial defenses.  Heavily armored guards 
+took their positions here and provided the dungeon with the necessary 
+defenses. 
+~
+~
+0 8192 0 0
+D0
+~
+~
+0 0 12093
+D2
+~
+~
+0 0 12091
+T 36
+S
+#12093
+`8A defensive outpost``~
+You look out yonder and see a grand view of the graveyard.  You imagine 
+how at one time, the graveyard was a beautiful plain full of animals and 
+plants.  Guards and archers take their protective positions here.  The 
+battlement stonework is grey with stairs leading back down into the dungeon. 
+~
+~
+0 8192 0 0
+D0
+~
+~
+0 0 12041
+D2
+~
+~
+0 0 12092
+T 35
+S
+#12094
+`8A defensive outpost``~
+You see a grand view of the graveyard before you.  Small chairs and 
+tables are set rotted away and torn asunder here.  This was an outpost 
+incase intruders broke past the initial defenses.  Heavily armored 
+guards took their position here and provided the dungeon with the necessary
+defense.
+~
+~
+0 8192 0 0
+D0
+~
+~
+0 0 12095
+D2
+~
+~
+0 0 12047
+T 35
+S
+#12095
+`8A defensive outpost``~
+You see a grand view of the graveyard before you.  Small chairs and 
+tables are set rotted away and torn asunder here.  This was an outpost in 
+case intruders broke past the initial defenses.  Heavily armored guards 
+took their positions here and provided the dungeon with the necessary 
+defense. 
+~
+~
+0 8192 0 0
+D0
+~
+~
+0 0 12096
+D2
+~
+~
+0 0 12094
+T 35
+S
+#12096
+`8A defensive outpost``~
+You see a grand view of the graveyard before you.  Small chairs and 
+tables are set rotted away and torn asunder here.  This was an outpost in 
+case intruders broke past the initial defenses.  Heavily armored guards 
+took their positions here and provided the dungeon with the necessary 
+defense. 
+~
+~
+0 8192 0 0
+D0
+~
+~
+0 0 12097
+D2
+~
+~
+0 0 12095
+T 36
+S
+#12097
+`8A defensive outpost``~
+You see a grand view of the graveyard before you.  Small chairs and 
+tables are set rotted away and torn asunder here.  This was an outpost in 
+case intruders broke past the initial defenses.  Heavily armored guards 
+took their positions here and provided the dungeon with the necessary 
+defenses. 
+~
+~
+0 8192 0 0
+D0
+~
+~
+0 0 12098
+D2
+~
+~
+0 0 12096
+T 36
+S
+#12098
+`8A defensive outpost``~
+You see a grand view of the graveyard before you.  Small chairs and 
+tables are set rotted away and torn asunder here.  This was an outpost in 
+case intruders broke past the initial defenses.  Heavily armored guards 
+took their positions here and provided the dungeon with the necessary 
+defenses. 
+~
+~
+0 8192 0 0
+D0
+~
+~
+0 0 12042
+D2
+~
+~
+0 0 12097
+T 36
+S
+#12099
+`8A dark room``~
+The darkness is unbearable.  You can see nothing, feel nothing, and are 
+very very afraid all of a sudden.
+~
+~
+0 574619648 0 0
+D3
+~
+~
+0 0 12038
+T 30
+S
+#12100
+`8Thieves Room``~
+You see an assortment of treasures - all seem extremely valueable and 
+are usually glowing with some sort of strange aura.  Gold litters the
+floor as you walk gingerly about.  Nearby, you can hear a strange sound
+that resembles water splashing over rocks.
+~
+~
+0 574627840 0 0
+T 33
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 12006 spec_cast_cleric
+M 12007 spec_cast_mage
+M 12008 spec_thief
+M 12009 spec_breath_gas
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 12002 1 12000 10
+O 0 12018 0 12001
+M 0 12001 30 12003 1
+G 0 12014 0
+O 0 12017 0 12003
+M 0 12001 30 12004 1
+G 0 12014 0
+M 0 12001 30 12005 1
+G 0 12014 0
+M 0 12001 30 12006 1
+G 0 12014 0
+M 0 12001 30 12007 1
+G 0 12014 0
+M 0 12001 30 12008 1
+M 0 12001 30 12008 2
+G 0 12014 0
+M 0 12002 18 12010 1
+M 0 12002 18 12010 2
+M 0 12002 18 12010 3
+M 0 12002 18 12010 4
+M 0 12002 18 12010 5
+M 0 12001 30 12010 1
+M 0 12001 30 12010 2
+G 0 12014 0
+M 0 12002 18 12011 1
+M 0 12002 18 12011 2
+M 0 12002 18 12011 3
+M 0 12002 18 12011 4
+M 0 12001 30 12011 2
+G 0 12014 0
+M 0 12001 30 12013 1
+G 0 12014 0
+M 0 12001 30 12014 1
+G 0 12014 0
+O 0 12017 0 12015
+M 0 12001 30 12017 1
+G 0 12014 0
+O 0 12017 0 12017
+M 0 12002 18 12020 1
+M 0 12002 18 12020 2
+M 0 12002 18 12020 3
+M 0 12002 18 12020 4
+M 0 12001 30 12020 1
+M 0 12001 30 12020 2
+M 0 12002 18 12021 1
+M 0 12002 18 12021 2
+M 0 12002 18 12021 4
+O 0 12015 0 12021
+M 0 12001 30 12023 1
+M 0 12001 30 12023 2
+M 0 12001 30 12023 3
+G 0 12014 0
+O 0 12016 0 12024
+M 0 12001 30 12026 1
+G 0 12014 0
+O 0 12014 0 12031
+M 0 12007 1 12032 1
+E 0 12005 0 13
+G 0 12004 0
+G 0 12006 0
+M 0 12006 1 12034 1
+E 0 12010 0 3
+E 0 12011 0 17
+O 0 12014 0 12034
+M 0 12005 1 12038 1
+E 0 12003 0 0
+E 0 12001 0 9
+E 0 12002 0 17
+M 0 12008 1 12040 1
+E 0 12007 0 4
+E 0 12008 0 5
+E 0 12009 0 9
+M 0 12003 9 12041 1
+M 0 12003 9 12042 1
+M 0 12003 9 12045 1
+M 0 12003 9 12046 1
+M 0 12003 9 12047 1
+M 0 12003 9 12049 1
+M 0 12003 9 12050 1
+M 0 12003 9 12051 1
+M 0 12003 9 12052 1
+M 0 12009 1 12063 1
+E 0 12012 0 3
+E 0 12020 0 7
+E 0 12013 0 15
+G 0 12014 0
+M 0 12001 30 12080 1
+M 0 12001 30 12080 2
+M 0 12001 30 12081 2
+M 0 12001 30 12082 1
+M 0 12001 30 12084 1
+M 0 12001 30 12084 2
+M 0 12001 30 12085 1
+M 0 12001 30 12085 2
+M 0 12001 30 12087 1
+M 0 12001 30 12087 2
+O 0 12016 0 12087
+O 0 12014 0 12099
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+M 12009 1 keep_xanthak.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

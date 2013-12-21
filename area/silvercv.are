@@ -1,0 +1,1565 @@
+#AREADATA
+Name the Silver Caverns~
+Pref ~
+Builders Crypticant~
+VNUMs 1500 1550
+Max_Bastions 3
+Credits { 5-30} Cryptica The Silver Caverns~
+Security 9
+Startroom 1502
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#1504
+cavern snake~
+a cavern snake~
+A white cavern snake is here, slithering around.
+~
+Before is a giant looking snake but with the head of some ghastly looking
+creature. The scales are green and shiny and its fangs glisten as it hisses
+at you.
+~
+unique~
+AGS A DF 0 -1000 2406
+17 10 20d3+283 0d0+100 5d4+2 bite
+-2 -2 -2 -2
+KNU 0 0 0
+stand stand none none~
+11
+AHMV ABCDEFGHIJK medium 0
+#1505
+bat~
+a bat~
+A small bat hangs from the ceiling here.
+~
+You have never in your entire life seen such a mean looking small creature,
+though it looks rather peaceful, hanging there. The thought of arousing this
+cruel creature doesn't seem appealing.
+~
+bat~
+AFG A PT 0 -500 0
+5 0 2d6+10 0d0+100 1d4+0 none
+9 9 9 10
+EFHNR 0 0 S
+sleep sleep none none~
+5
+AGW ACDEFJKPU medium 0
+#1509
+sewer rat~
+a sewer rat~
+A sewer rat scurries along here, looking for food.
+~
+A dirty nasty sewer rat . Obviously  looking for food in the mines.
+~
+unique~
+AG A 0 0 300 13216
+10 0 2d33+96 0d0+100 1d4+0 pierce
+3 3 3 6
+EFNU 0 0 0
+stand stand none none~
+7
+AHMV ABCDEFGHIJK medium 0
+#1520
+thief kadrach~
+kadrach the thief~
+(`1WANTED``) Kadrach, the Elder Thief is here, plotting his next exploit.
+~
+Garbed in ratty black attire, this thief is covered with age old
+scars and wounds. Bearing a black patch over one eye, this man is
+one of the more notorious of wanted felons in the Ulsym area.
+~
+human~
+AGSe A P 0 -750 202
+29 10 2d10+750 0d0+100 5d5+10 stab
+-10 -10 -10 -10
+KU B 0 0
+stand stand male none~
+14
+AHMV ABCDEFGHIJK medium 0
+#1521
+linieus brigand~
+Linieus the Brigand~
+(`#OUTLAW``) Linieus the Brigand is here, plotting with Kadrach.
+~
+One of the more notorious hijackers of the Ulsym reaches, Linieus
+is not a man to be trifled with. The rough scars and old scabs all
+over his face and hands are tribute to his rough life.
+~
+human~
+AGSe A P 0 -750 202
+29 10 2d10+750 0d0+100 5d5+10 stab
+-10 -10 -10 -10
+KU B 0 0
+stand stand male none~
+15
+AHMV ABCDEFGHIJK medium 0
+P GREET 1520 100~
+#1539
+dwarf miner~
+the dwarven miner~
+A dwarven miner is here.
+~
+The mineworker is very tired, and very dirty, and he has bulging muscles.
+~
+dwarf~
+Ae A J 0 0 6507
+8 0 2d7+96 0d0+100 1d7+2 pierce
+3 3 3 9
+EFNR 0 CL R
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#1543
+cavern spider~
+a cavern spider~
+A cavern spider lurks in the caverns here.
+~
+~
+unique~
+ACG A J 0 -1000 2405
+13 3 1d10+170 0d0+100 2d4+11 psbite
+3 3 3 3
+KN 0 0 0
+stand stand none none~
+11
+AHMV ABCDEFGHIJK medium 0
+#1550
+chimera~
+the Chimera~
+A giant Chimera is here, snarling and hissing in anger.
+~
+This gigantic three headed beast bears the head of a goat,
+a lion, and a dragon. Covered in thick armor, this beast takes
+one look at you, and lunges in attack!
+~
+dragon~
+ADFGTce A DJT 0 -1000 7040
+32 40 10d10+1000 0d0+100 3d14+20 crush
+-10 -10 -10 5
+EFNU 0 BEH FI
+stand stand none none~
+18
+AHZ ACDEFGHIJKLPQUVX giant 0
+P FIGHT 1550 65~
+P DEATH 1549 100~
+#0
+
+
+
+#OBJECTS
+#1500
+old wooden chest~
+an old wooden chest~
+A dusty old wooden chest is here.~
+steel~
+container KT 0
+1000 ACD 1512 1000 10
+50 100 100 W
+#1501
+gleaming steel bracer~
+a gleaming steel bracer~
+A gleaming steel bracer is lying here.~
+leather~
+armor e AM
+2 4 4 2 0
+7 10 690 G
+E
+bracer~
+This bracer is covered with runes of protection and luck in combat.
+~
+F
+A 18 1 0
+#1502
+bottle red wine~
+a bottle of ancient vintage wine~
+A bottle of ancient vintage wine is lying here.~
+glass~
+drink 0 A
+20 20 'framboise' 0 0
+0 0 20000 P
+#1503
+finely cut opium~
+some finely cut opium~
+A pack of finely cut opium is lying here.~
+poppy~
+herb 0 A
+0 'poison' 'reserved' 'reserved' 'frenzy'
+10 10 10000 P
+E
+opium~
+From the color, this looks to be a fine grade of opium.
+~
+#1504
+guardian steel sword~
+a guardian steel sword~
+A glimmering sword shines on the ground here.~
+steel~
+weapon Ae ANO
+sword 4 6 slash 0
+20 18 40 P
+F
+A 18 2 0
+#1505
+leather satchel~
+a leather satchel~
+A black leather satchel is lying here.~
+leather~
+container 0 AD
+100 A 0 100 100
+5 10 250 P
+#1507
+torch~
+a torch~
+A small torch lies smoldering on the ground here.~
+wood~
+light 0 A
+0 0 30 0 0
+1 20 200 P
+#1509
+rusted steel dagger~
+a rusted steel dagger~
+A rusted steel dagger is lying on the ground here.~
+steel~
+weapon 0 AN
+dagger 5 3 pierce 0
+1 10 45 P
+F
+A 2 2 0
+#1510
+wooden table round~
+a round wooden table~
+A round wooden table is placed in the room here.~
+wood~
+container 0 0
+100 0 0 100 100
+10 100 100 P
+#1511
+decomposing corpse~
+a decomposing corpse~
+A decomposing corpse is here, rotting away.~
+flesh~
+container 0 0
+100 0 0 100 100
+40 100 100 P
+#1512
+tarnished brass key~
+a tarnished brass key~
+A tarnished brass key is lying here.~
+brass~
+key 0 A
+0 0 0 0 0
+20 10 10 B
+#1515
+bent iron key~
+a bent iron key~
+A bent iron key is lying on the ground here.~
+brass~
+key 0 A
+0 0 0 0 0
+20 10 10 W
+#1518
+weapons crate~
+a weapons crate~
+A large weapons crate marked with the Seal of Ulsym is here.~
+steel~
+container T 0
+1000 ACD 1522 1000 10
+50 100 100 W
+#1519
+wooden crate wine~
+a wooden crate~
+A large wooden crate is here, coated in dust.~
+steel~
+container T 0
+1000 ACD 1522 1000 10
+50 100 100 W
+#1520
+fractured wooden crate~
+a fractured wooden crate~
+A fractured wooden crate is here, leaking a black powder.~
+steel~
+container T 0
+1000 ACD 1522 1000 10
+50 100 100 W
+#1521
+black leather eyepatch~
+a black eyepatch~
+A black leather eyepatch is lying on the ground here.~
+leather~
+jewelry 0 Ad
+0 0 0 0 0
+15 10 100 P
+F
+S 104 3 0
+#1522
+black skull key~
+a black skull key~
+A black key made like a skull is lying here.~
+brass~
+key 0 A
+0 0 0 0 0
+20 10 10 P
+#1527
+bubbling mineral spring~
+a bubbling mineral spring~
+A mineral spring bubbles up from the ground here.~
+water~
+fountain 0 P
+-1 -1 'water' 0 0
+55 100 100 P
+#1530
+wooden blockade~
+a wooden blockade~
+A large wooden blockade has been broken open here.~
+stone~
+furniture 0 P
+0 0 0 0 0
+50 300 100 P
+E
+blockade~
+Warning: This place property of the SAVANT tower. All trespassers
+will be fined and executed.
+~
+E
+sign~
+Warning: This place property of the Ulsym Brigands. All trespassers
+will be fined and executed.
+~
+#1536
+amethyst shard~
+an amethyst shard~
+A beautiful piece of amethyst is lying here.~
+amethyst~
+socket G A
+B 0 0 0 0
+10 10 100 P
+F
+A 19 1 0
+#1542
+chimera lion skull~
+a chimera's lion skull~
+A helmet made from the skull of a chimera's lion head is here.~
+chimera~
+armor GJ AE
+9 9 9 4 0
+29 150 7000 P
+F
+A 4 2 0
+F
+A 2 -1 0
+F
+A 18 2 0
+#1543
+chimera goat skull~
+a chimera's goat skull~
+A helmet made from the skull of a chimera's goat head is here.~
+chimera~
+armor GJ AE
+9 9 9 4 0
+29 150 7000 P
+F
+A 4 2 0
+F
+A 2 -1 0
+#1544
+chimera dragonhorn~
+the chimera's dragonhorn~
+A large horn from the dragonhead of a chimera is lying here.~
+chimera~
+weapon GJ AN
+exotic 2 15 claw 0
+31 190 5800 P
+E
+claw red redclaw~
+This big claw looks like a part of a dragon.
+~
+F
+A 19 5 0
+F
+A 17 2 0
+#1545
+scale sleeves chimera~
+the scale sleeves of the chimera~
+A set of scale sleeves from the chimera are lying on the ground here.~
+chimera~
+armor GJ AI
+9 9 9 4 0
+29 400 3700 P
+F
+A 2 -1 0
+F
+A 19 2 0
+#1546
+clawed feet chimera~
+the clawed feet of the chimera~
+A set of rear claws from the chimera is lying here.~
+chimera~
+armor GJ AG
+9 9 9 4 0
+29 400 3700 P
+F
+A 2 -1 0
+F
+A 19 2 0
+#1547
+shield chimera~
+the shield of the chimera~
+A large shield of the chimera rests on the floor here.~
+dragon~
+armor GJ AJ
+10 10 10 5 0
+35 100 6900 P
+F
+A 19 2 0
+#1548
+claws chimera~
+the claws of the chimera~
+A set of claws from a chimera are lying on the ground here.~
+chimera~
+armor GJ AH
+9 9 9 4 0
+20 40 1150 P
+F
+A 19 2 0
+F
+A 2 -1 0
+#1549
+chimera scale leggings~
+some chimera scale leggings~
+A set of leggings made from chimera scales is lying here.~
+chimera~
+armor GJ AF
+9 9 9 4 0
+29 170 3700 P
+F
+A 19 2 0
+F
+A 2 -1 0
+#1550
+chimera scales shimmering~
+some shimmering chimera scales~
+A skinned off set of chimera scales are lying on the ground here.~
+chimera~
+armor GJ AD
+9 9 9 4 0
+29 300 6400 P
+F
+A 19 2 0
+F
+A 2 -1 0
+#0
+
+
+
+#ROOMS
+#1500
+`3The mouth of the cavern``~
+You stand before the mouth of a large cavern. Peering inside, you can
+make out what seems to be a long corridor dotted from place to place
+with dimly burning, smoldering torches. In the distance, you can hear
+the low squeaks and cries of bats, and cool air blows past you face as
+you peer inside the caverns.
+~
+~
+0 0 8192 5
+D0
+~
+~
+0 0 1501
+D2
+~
+~
+0 0 3106
+S
+#1501
+`8A darkly lit passageway``~
+You are walking along a long, narrow passageway that makes up the
+main vein of this cavern system. Along the walls have been placed at
+regular intervals small torch sconces, which hold smoldering embers
+of torches. The cavern is filled with a thin film of acrid smoke that
+makes your eyes tear up from time to time.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1502
+D2
+~
+~
+0 0 1500
+S
+#1502
+`8A darkly lit passageway``~
+You are walking along a long, narrow passageway that makes up the
+main vein of this cavern system. Along the walls have been placed at
+regular intervals small torch sconces, which hold smoldering embers
+of torches. The cavern is filled with a thin film of acrid smoke that
+makes your eyes tear up from time to time.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1513
+D2
+~
+~
+0 0 1501
+D3
+~
+~
+0 0 1503
+S
+#1503
+`8A smooth canal``~
+Within this tunnel, the cavern walls are much smoother, as if carved over
+a period of time by water. Indeed, the walls are still wet to the touch,
+and the floor is coated in a thick, sticky mud that seems to try to pull
+your boots off as you walk.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 1502
+D3
+~
+~
+0 0 1504
+S
+#1504
+`8A smooth canal``~
+Within this tunnel, the cavern walls are much smoother, as if carved over
+a period of time by water. Indeed, the walls are still wet to the touch,
+and the floor is coated in a thick, sticky mud that seems to try to pull
+your boots off as you walk.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 1503
+D2
+~
+~
+0 0 1505
+S
+#1505
+`8A sandstone cavern``~
+You stand within a large cavern formed from water erosion of the local
+sandstone. The cavern is rather awe striking, as the walls rise up in
+large sandy pillars for several spans. Along the ceiling here, you can
+see what appear to be thousands of tiny bats. They all move and flap
+their wings from time to time, which gives the appearance that the upper
+wall of the cavern is writhing.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1504
+D2
+~
+~
+0 0 1507
+D3
+~
+~
+0 0 1506
+S
+#1506
+`8A sandstone cavern``~
+You stand within a large cavern formed from water erosion of the local
+sandstone. The cavern is rather awe striking, as the walls rise up in
+large sandy pillars for several spans. Along the ceiling here, you can
+see what appear to be thousands of tiny bats. They all move and flap
+their wings from time to time, which gives the appearance that the upper
+wall of the cavern is writhing.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 1505
+D2
+~
+~
+0 0 1508
+S
+#1507
+`8A small alcove``~
+You stand within a small alcove that seems perfect for hiding. On the
+ground below you are piles of bat droppings. Seems they like this place
+for hiding, also. Small carved out places in the wall seemed to once
+hold torches, but are now long since empty.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1505
+S
+#1508
+`8A hand hewn tunnel``~
+This part of the cavern seems to have been carved out by hand, and a
+small tunnel snakes its way around here. It appears to be somewhat well
+used, and you can see recent footprints embedded in the thick bat dung
+that covers the floors here.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1506
+D3
+~
+~
+0 0 1509
+S
+#1509
+`8A hand hewn tunnel``~
+This part of the cavern seems to have been carved out by hand, and a
+small tunnel snakes its way around here. It appears to be somewhat well
+used, and you can see recent footprints embedded in the thick bat dung
+that covers the floors here.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1510
+D1
+~
+~
+0 0 1508
+S
+#1510
+`8A small cavern``~
+You stand amid a rather squarish room, which seems to have been carved
+by hand by some craftsman. To the north and the west, small doors have
+been built into the cavern walls. A small table is set up here, which seems
+to be well used over the years. You can see a dagger sticking out from
+the top of it.
+~
+~
+0 9 0 0
+D0
+~
+small door~
+ABCG 1512 1512
+D2
+~
+~
+0 0 1509
+D3
+~
+cell~
+AB 0 1511
+S
+#1511
+`8A murky cell``~
+You stand within a dark prison cell, reeking of waste and decay. A
+pair of steel shackles are embedded into the walls, and a small bench
+is here, covered in dried blood. The floor is covered in bones and
+torn clothing, as if this cell has been in use for many years.
+~
+~
+0 9 0 0
+D1
+~
+cell~
+AB 0 1510
+S
+#1512
+`8A dusty storage``~
+You stand within what appears to be a small storage room. Large casks
+of wine line the walls, and a small chest is here in the center of the
+room, bearing a very old, rusty lock. All of the casks and the chest
+are covered in a film of white dust.
+~
+~
+0 9 0 0
+D2
+~
+small door~
+ABCG 1512 1510
+S
+#1513
+`8A darkly lit passageway``~
+You are walking along a long, narrow passageway that makes up the
+main vein of this cavern system. Along the walls have been placed at
+regular intervals small torch sconces, which hold smoldering embers
+of torches. The cavern is filled with a thin film of acrid smoke that
+makes your eyes tear up from time to time.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1523
+D1
+~
+~
+0 0 1514
+D2
+~
+~
+0 0 1502
+S
+#1514
+`8Amid stalactites``~
+You stand amid a natural cavern. Large, jagged stalactites hang from
+the ceiling here made of sulfa, and you can see where several of them
+have released, and fallen to the ground in crumbled piles. This cavern
+is quite large, and your voice tends to echo as you speak.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 1515
+D3
+~
+~
+0 0 1513
+S
+#1515
+`8Amid stalactites``~
+You stand amid a natural cavern. Large, jagged stalactites hang from
+the ceiling here made of sulfa, and you can see where several of them
+have released, and fallen to the ground in crumbled piles. This cavern
+is quite large, and your voice tends to echo as you speak.
+~
+~
+0 9 0 0
+D1
+~
+rubble~
+ABCFG 1515 1519
+D2
+~
+~
+0 0 1516
+D3
+~
+~
+0 0 1514
+S
+#1516
+`8A small footpath``~
+Still within the caverns, this small pathway seems to have been made
+by some beings. A dusty floorway winds and snakes its way deeper into
+this section of the cavern system. Around you, large pillar like columns
+rise up from floor to ceiling.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1515
+D2
+~
+~
+0 0 1517
+S
+#1517
+`8A small footpath``~
+Still within the caverns, this small pathway seems to have been made
+by some beings. A dusty floorway winds and snakes its way deeper into
+this section of the cavern system. Around you, large pillar like columns
+rise up from floor to ceiling.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1516
+D1
+~
+~
+0 0 1518
+S
+#1518
+`8A broader cavern``~
+The tunnels here open up into a broad cavern. The ceiling
+rises several spans upward, and is lined with sharp, toothy
+deposits that make this cavern appear to be the stomach of some
+dastardly beast. A small footpath winds its way between the
+large stone columns.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 1521
+D3
+~
+~
+0 0 1517
+S
+#1519
+`8The smuggler's bounty``~
+You stand in a small, square storage room. Around you, large wooden
+crates and chests of smuggled weapons, drugs, and liquors surround
+you, a tribute to the theivery of whoever resides in these tunnels.
+~
+~
+0 9 0 0
+D3
+~
+rubble~
+ABCFG 1515 1515
+S
+#1520
+`8A plotting room``~
+You stand in a small, square room, hand carved out of the solid
+rock that makes up these caverns. A small table is here, with large
+charts and maps of city sewer systems. It appears as if a gang of
+thieves uses this place as their headquarters.
+~
+~
+0 9 0 0
+D2
+~
+planks~
+AB 0 1522
+S
+#1521
+`8A broader cavern``~
+The tunnels here open up into a broad cavern. The ceiling
+rises several spans upward, and is lined with sharp, toothy
+deposits that make this cavern appear to be the stomach of some
+dastardly beast. A small footpath winds its way between the
+large stone columns.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1518
+D1
+~
+~
+0 0 1522
+S
+#1522
+`8Murmurs and whispers``~
+You have reached a small passageway. Northward, a small wooden
+door blocks further passage. You can hear small bits of garbled
+conversation coming from within, mostly carried out in hushed
+tones to avoid any detection.
+~
+~
+0 9 0 0
+D0
+~
+planks~
+AB 0 1520
+D3
+~
+~
+0 0 1521
+S
+#1523
+`8A darkly lit passageway``~
+You are walking along a long, narrow passageway that makes up the
+main vein of this cavern system. Along the walls have been placed at
+regular intervals small torch sconces, which hold smoldering embers
+of torches. The cavern is filled with a thin film of acrid smoke that
+makes your eyes tear up from time to time.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1528
+D2
+~
+~
+0 0 1513
+D3
+~
+~
+0 0 1524
+S
+#1524
+`8A reinforced tunnel``~
+You stand within a squarish tunnel. Large thick timbers surround
+you, supporting a cracking, crumbling ceiling. Small tracks lead
+into these caverns, as if someone is, or once used this place to lay
+a mine.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 1523
+D3
+~
+~
+0 0 1525
+S
+#1525
+`8A reinforced tunnel``~
+You stand within a squarish tunnel. Large thick timbers surround
+you, supporting a cracking, crumbling ceiling. Small tracks lead
+into these caverns, as if someone is, or once used this place to lay
+a mine.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1526
+D1
+~
+~
+0 0 1524
+S
+#1526
+`8Rocky slag``~
+You stand amid a place where a large section of the caverns has collapsed.
+Large, thick rocks lie scattered all over the floor, and a large chunk
+of the former ceiling is missing from the cavern-in. You can see where some
+one has cleared a pathway for a small mining cart to pass through.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 1525
+D3
+~
+~
+0 0 1527
+S
+#1527
+`8Dripping water``~
+The sound of dripping water fills your ears. You seem to have come upon
+a section of the caverns where there is some geothermal activity. It is
+rather hot and humid here, and you can see condensation gathering on all
+of the walls around you as viscous paste drips down onto the chalky floor.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1542
+D1
+~
+~
+0 0 1526
+S
+#1528
+`8A darkly lit passageway``~
+You are walking along a long, narrow passageway that makes up the
+main vein of this cavern system. Along the walls have been placed at
+regular intervals small torch sconces, which hold smoldering embers
+of torches. The cavern is filled with a thin film of acrid smoke that
+makes your eyes tear up from time to time.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1537
+D1
+~
+~
+0 0 1529
+D2
+~
+~
+0 0 1523
+S
+#1529
+`8An ancient tunnel``~
+You stand amid a tunnel that seems to have been here for eons. It
+seems to be entirely naturally made, with erratic heights on all of
+the ceilings, and heavy traces of mineral dust on all of the walls.
+The air in here is cool, and rather fresh smelling.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 1530
+D3
+~
+~
+0 0 1528
+S
+#1530
+`8A tunnel blockade``~
+Here, a large wooden blockade was built up to prevent further access
+into the caverns. It seems to have been broken down recently by some of
+the local vandals, and you can see clearly ahead into the passage. A
+small sign hangs off of the blockade.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1531
+D3
+~
+~
+0 0 1529
+S
+#1531
+`8A rocky passageway``~
+You stand within a long, rocky passageway. It seems to have been blasted
+out of these parts of the caverns using some sort of arcane sorcery, as many
+of the large stones and rocks seem charred, or cut at unusual angles. Many
+large chunks of stone still litter the floor of the passage.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 1532
+D2
+~
+~
+0 0 1530
+S
+#1532
+`8A rocky passageway``~
+You stand within a long, rocky passageway. It seems to have been blasted
+out of these parts of the caverns using some sort of arcane sorcery, as many
+of the large stones and rocks seem charred, or cut at unusual angles. Many
+large chunks of stone still litter the floor of the passage.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 1533
+D3
+~
+~
+0 0 1531
+S
+#1533
+`8A rocky passageway``~
+You stand within a long, rocky passageway. It seems to have been blasted
+out of these parts of the caverns using some sort of arcane sorcery, as many
+of the large stones and rocks seem charred, or cut at unusual angles. Many
+large chunks of stone still litter the floor of the passage.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 1534
+D3
+~
+~
+0 0 1532
+S
+#1534
+`8A rocky passageway``~
+You stand within a long, rocky passageway. It seems to have been blasted
+out of these parts of the caverns using some sort of arcane sorcery, as many
+of the large stones and rocks seem charred, or cut at unusual angles. Many
+large chunks of stone still litter the floor of the passage.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1533
+D1
+~
+~
+0 0 1535
+S
+#1535
+`8A crystalline chamber``~
+You stand in the very center of a glorious cavern. Filled with thousands
+of crystals glimmering from all sides of the cavern, purples, greens, reds,
+and so many more colors glitter and refract within the cavern from the light
+of your torch. You can feel an immense power filling this amazing cavern,
+and you can now see why the blocade was in effect nearby.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 1536
+D3
+~
+~
+0 0 1534
+P RANDOM 1535 10~
+S
+#1536
+`8A crystalline chamber``~
+You stand in the very center of a glorious cavern. Filled with thousands
+of crystals glimmering from all sides of the cavern, purples, greens, reds,
+and so many more colors glitter and refract within the cavern from the light
+of your torch. You can feel an immense power filling this amazing cavern,
+and you can now see why the blocade was in effect nearby.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1535
+P RANDOM 1535 10~
+S
+#1537
+`8A darkly lit passageway``~
+You are walking along a long, narrow passageway that makes up the
+main vein of this cavern system. Along the walls have been placed at
+regular intervals small torch sconces, which hold smoldering embers
+of torches. The cavern is filled with a thin film of acrid smoke that
+makes your eyes tear up from time to time.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1543
+D2
+~
+~
+0 0 1528
+D3
+~
+~
+0 0 1538
+S
+#1538
+`8A darker tunnel``~
+You find yourself meandering down a darker passageway. It is very
+hard to see here, even with your torch, as all of the walls here have
+been sealed from moisture by black pine tar. The acrid odor makes your
+eyes tear up, and your nose works to suppress a sneeze.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1539
+D1
+~
+~
+0 0 1537
+S
+#1539
+`8Sharp stalagmites``~
+You make your way over the treacherous ground. It is littered with
+sharp, jagged bits of rock that protrude from the floor beneath, and
+seem to be caused by dripping water from the ceiling. Many of these
+stalagmites are as sharp as a dog's tooth, and they tend to snag your
+clothing and armor as you walk.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 1538
+D3
+~
+~
+0 0 1540
+S
+#1540
+`8Sharp stalagmites``~
+You make your way over the treacherous ground. It is littered with
+sharp, jagged bits of rock that protrude from the floor beneath, and
+seem to be caused by dripping water from the ceiling. Many of these
+stalagmites are as sharp as a dog's tooth, and they tend to snag your
+clothing and armor as you walk.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 1539
+D3
+~
+~
+0 0 1541
+S
+#1541
+`8A winding tunnel``~
+You stand amid a long, winding tunnel passageway. It looks as it if was
+carved by a drunk dwarf, as it seems to lead every which way, and all of
+the walls are cut and carved unevenly. Thick ridges line the walls, as
+evidence of recent activity of the resident miners.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 1540
+D2
+~
+~
+0 0 1542
+S
+#1542
+`8A winding tunnel``~
+You stand amid a long, winding tunnel passageway. It looks as it if was
+carved by a drunk dwarf, as it seems to lead every which way, and all of
+the walls are cut and carved unevenly. Thick ridges line the walls, as
+evidence of recent activity of the resident miners.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1541
+D2
+~
+~
+0 0 1527
+S
+#1543
+`8A craggy branch-off``~
+The passage here has turned dicey, as large heavy rocks and treacherous
+slag makes travel more difficult. Large notches line all of the walls
+here, and if something very large were recently dragged through this
+section of the caverns.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 1544
+D2
+~
+~
+0 0 1537
+S
+#1544
+`8A ridged cavern``~
+This section of the cavern sports heavily lined walls that run in a
+horizontal direction, all along either side of the cavern walls. It is
+almost as if something cylindrical were dragged through here, marking
+all of the walls in a perfect pattern.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1545
+D3
+~
+~
+0 0 1543
+S
+#1545
+`8A ridged cavern``~
+This section of the cavern sports heavily lined walls that run in a
+horizontal direction, all along either side of the cavern walls. It is
+almost as if something cylindrical were dragged through here, marking
+all of the walls in a perfect pattern.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1546
+D2
+~
+~
+0 0 1544
+S
+#1546
+`8A ridged cavern``~
+This section of the cavern sports heavily lined walls that run in a
+horizontal direction, all along either side of the cavern walls. It is
+almost as if something cylindrical were dragged through here, marking
+all of the walls in a perfect pattern.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 1547
+D2
+~
+~
+0 0 1545
+S
+#1547
+`8A cramped corridor``~
+In this part of the cavern, the ceiling has been dug so low, that you have
+to stoop and squat to make your way deeper within. Nearby, you think you
+start to hear the roars of some caged animal, as the voice of it echoes
+down through the caverns.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 1548
+D3
+~
+~
+0 0 1546
+S
+#1548
+`8A cramped corridor``~
+In this part of the cavern, the ceiling has been dug so low, that you have
+to stoop and squat to make your way deeper within. Nearby, you think you
+start to hear the roars of some caged animal, as the voice of it echoes
+down through the caverns.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 1549
+D2
+~
+~
+0 0 1547
+S
+#1549
+`8Among gutteral rumblings``~
+The ground here is all but shaking from the roars and howls
+of some nearby caged animal. A heavy steel door has been put in
+place to the south, to keep whatever it is from escaping. Your
+hair raises as you hear it cry and scratch at the doors.
+~
+~
+0 9 0 0
+D2
+~
+heavy steel door~
+ABG 0 1550
+D3
+~
+~
+0 0 1548
+S
+#1550
+`8The Lair of the Chimera``~
+You stand within a filthy lair. Strips of flesh, some human, some
+not, are rended all over the place. Large chunks of stone have been
+ripped from the walls and scattered all over the floor. You can see
+in the center of the room a large pile of carcasses has been left to
+feed the beast that resides in this lair.
+~
+~
+0 9 0 0
+D0
+~
+heavy steel door~
+ABG 0 1549
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 1550 spec_breath_fire
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+O 0 1507 0 1501
+M 0 1509 30 1503 2
+M 0 1543 2 1503 20
+M 0 1543 2 1504 20
+M 0 1505 5 1505 10
+M 0 1505 5 1506 10
+O 0 1507 0 1507
+M 0 1505 5 1507 10
+M 0 1509 30 1509 2
+O 0 1510 0 1510
+P 0 1509 0 1510 1
+O 0 1511 0 1511
+P 0 1512 0 1511 1
+M 0 1509 30 1511 1
+O 0 1500 0 1512
+P 0 1501 0 1500 1
+O 0 1512 0 1512
+O 0 1507 0 1513
+M 0 1509 30 1513 2
+O 0 1519 0 1519
+O 0 1520 0 1519
+O 0 1518 0 1519
+P 0 1502 0 1519 1
+P 0 1502 0 1519 1
+P 0 1502 0 1519 1
+P 0 1502 0 1519 1
+P 0 1502 0 1519 1
+P 0 1502 0 1519 1
+P 0 1503 0 1520 1
+P 0 1503 0 1520 1
+P 0 1503 0 1520 1
+P 0 1503 0 1520 1
+P 0 1504 0 1518 1
+P 0 1504 0 1518 1
+M 0 1521 1 1520 1
+G 0 1522 0
+E 0 1505 0 5
+O 0 1510 0 1520
+M 0 1520 1 1520 1
+E 0 1521 0 7
+E 0 1515 0 18
+M 0 1543 2 1523 20
+M 0 1543 2 1524 20
+M 0 1539 1 1525 6
+M 0 1509 30 1525 2
+M 0 1539 1 1526 6
+M 0 1543 2 1526 20
+M 0 1539 1 1527 6
+O 0 1527 0 1527
+O 0 1507 0 1528
+M 0 1509 30 1528 2
+M 0 1509 30 1529 2
+O 0 1530 0 1530
+M 0 1543 2 1530 20
+M 0 1504 2 1532 20
+M 0 1504 2 1533 20
+O 0 1536 0 1536
+M 0 1543 2 1537 20
+M 0 1543 2 1538 20
+M 0 1539 1 1539 6
+M 0 1539 1 1540 6
+M 0 1543 2 1540 20
+M 0 1539 1 1541 6
+M 0 1509 30 1543 2
+M 0 1543 2 1543 20
+M 0 1504 3 1544 20
+M 0 1504 3 1545 20
+M 0 1504 3 1546 20
+M 0 1504 3 1547 20
+M 0 1504 3 1548 20
+M 0 1550 1 1550 1
+E 0 1550 0 5
+E 0 1549 0 8
+E 0 1548 0 10
+E 0 1547 0 12
+E 0 1546 0 9
+E 0 1545 0 11
+E 0 1544 0 17
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#1520
+say An intruder! Kill him!
+murder $n
+~
+#1548
+if hasquest $n 'to destroy the monster in the Silver Caverns.'
+  mob echoat $n `@You have destroyed $I of the Silver Caverns!``
+  mob remquest $n to destroy the monster in Silver Caverns.
+  mob tempquest $n to get a reward from Dorcy or Sedgewick in Ulsym.
+endif
+~
+#1549
+if rand 50
+     mob echoat $n You manage to slice off the goat head of the Chimera!
+     mob echoaround $n $n manages to slice off the goat head of the Chimera!
+     mob oload 1543
+else
+     mob echoat $n You manage to slice off the lion head of the Chimera!
+     mob echoaround $n $n manages to slice off the lion head of the Chimera!
+     mob oload 1542
+endif
+mob pfor group $n call 1548 # null null
+~
+#1550
+if rand 50
+     mob echoat $n The Chimera rams you with its goat head!
+     mob echoaround $n The Chimera rams $n with its goat head!
+     bash $n
+else
+     mob echo The Chimera breathes forth a breath of fire from its dragon head!
+     mob cast 'flamestrike' $n
+endif
+~
+#0
+
+M 1505 1 bat.prg NL
+M 1539 1 dwarven_miner.prg NL
+M 1550 1 dragon.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#1535
+room echoat $n Your torchlight glitters and reflects off of the crystals in the room.
+~
+#0
+
+#$

@@ -1,0 +1,1153 @@
+#AREADATA
+Name the Highlands~
+Pref ~
+Builders Airen~
+VNUMs 8500 8599
+Max_Bastions 0
+Credits All~
+Security 1
+Startroom 0
+Flags 0
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#8500
+raider guard~
+a raider guard~
+A raider is here, falling asleep at his post.
+~
+Slightly overweight, this highlander leans back against
+the side of the gate, eyes closed and nostrils flaring
+with each inhalation. Dressed in patchwork of fur hides,
+the raider looks like a bear of some sort. Drool
+trickles out of the corner of his mouth and a hint of
+snoring can be heard from deep within him.
+~
+human~
+ABT A 0 0 -1000 202
+45 0 0d0+0 0d0+100 0d0+0 none
+-18 0 0 0
+0 AB 0 0
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+#8501
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+A A 0 0 0 0
+0 0 0d0+0 0d0+100 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+6
+AHMV ABCDEFGHIJK medium 0
+#8521
+mob~
+Barnok~
+Barnok is standing here cockily.
+~
+He's MUCH cuter than that Immortal fellow.
+~
+human~
+A A 0 0 0 0
+10 0 0d0+0 0d0+100 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand male none~
+11
+AHMV ABCDEFGHIJK medium 0
+#8522
+raider guard~
+(no short description)~
+(no long description)
+~
+~
+human~
+ABT A 0 0 -1000 8522
+30 20 0d0+0 0d0+100 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand male none~
+20
+AHMV ABCDEFGHIJK medium 0
+#8526
+Crypt's Wife.~
+Crypt's Wife.~
+Crypt's Wife.
+~
+~
+human~
+A A 0 0 0 0
+0 0 0d0+0 0d0+100 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+8
+AHMV ABCDEFGHIJK medium 0
+#8527
+fat raider~
+a fat raider~
+A fat raider waddles about idly.
+~
+~
+human~
+ABFGWe A 0 0 -200 0
+48 20 10d10+2500 0d0+100 0d0+0 pierce
+0 0 0 0
+0 0 0 0
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+#8528
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+A A 0 0 0 0
+48 0 0d0+0 0d0+100 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#8506
+tombstone~
+a tombstone~
+A lichen covered tombstone juts out of the ground.~
+stone~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+L
+0
+#8521
+scrap bone~
+a scrap of bone~
+A scrap of bone lies slightly off of the path here.~
+wood~
+furniture 0 P
+0 0 0 0 0
+0 0 0 P
+L
+0
+#8526
+no name~
+(no short description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+L
+0
+#8531
+spider shrine~
+the spider shrine~
+A spider shrine is set in the center of the area.~
+unknown~
+furniture 0 P
+0 0 0 0 0
+0 0 0 P
+L
+0
+#8549
+pike heads~
+a string of heads on a pike~
+A string of heads are stacked on a pike here.~
+unknown~
+furniture 0 P
+0 0 0 0 0
+0 0 0 P
+L
+0
+#8552
+decaying pit~
+a decaying pit~
+A decaying pit rests here.~
+stone~
+container 0 P
+5 0 0 5 5
+0 0 0 P
+L
+0
+#8553
+maggot meat hunk~
+a maggot-covered hunk of meat~
+A maggot-covered hunk of meat is rotting here.~
+meat~
+food 0 0
+3 3 0 A 1000
+0 1 1 P
+L
+0
+#0
+
+
+
+#ROOMS
+#8500
+`3A Faint Trail ``~
+You find yourself on what is barely a path. Fading in one place, more 
+pronounced in another, and sometimes disappearing altogether, the 
+trail leads erratically, yet more or less, to the north. The many 
+markings and prints on the ground appear to be those of deer. Farther
+north, the land is much more sparse.
+~
+~
+0 1 8200 4
+D0
+~
+~
+0 0 8501
+D2
+~
+~
+0 0 4740
+S
+#8501
+`3Further Along the Trail ``~
+The trees have thinned out almost completely, and you find yourself
+encroaching on a vast plain. Green-brown grass crunches beneath your
+feet as you traverse this rapidly disappearing trail. There seems to
+be hardly any life at all in this bleak land. The air has grown very chilly.
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 8502
+D2
+~
+~
+0 0 8500
+S
+#8502
+`3A Bend in the Path ``~
+The path seems to veer eastward from here, since a massive boulder
+obstructs all passage immediately to the north. You can see your
+breath now, and the wind only seems to be getting stronger. The
+trail has almost vanished completely.
+~
+~
+0 0 32768 4
+D1
+~
+~
+0 0 8503
+D2
+~
+~
+0 0 8501
+S
+#8503
+`3The Open Plains ``~
+The trail is now non-existant. To the north lies a great open plain,
+dotted with great boulders that seem to have been dropped by a giant
+in the sky. The ground sparkles and shimmers with frost, and there
+seems to be smoke rising far to the north. Other than that you see no
+signs of life.
+~
+~
+0 0 65536 4
+D0
+~
+~
+0 0 8504
+D3
+~
+~
+0 0 8502
+S
+#8504
+`3Among Boulders ``~
+Boulders lie all around you, most being the size of small houses.
+Oddly, they vary in material as well. While some are made of quartz,
+there are marble, limestone, and other kinds of boulders as well.
+However, they all have the same eerie reddish aura about them. On
+closer inspection, one can see that all of the boulders are covered
+in red lichen, making them seem to be drenched in blood.
+~
+~
+0 0 8192 4
+D0
+~
+~
+0 0 8505
+D2
+~
+~
+0 0 8503
+S
+#8505
+`3Among Boulders ``~
+Although they can be obstacles, the giant rocks prove to be
+suitable protection from the freezing winds. To the north lies
+a small cluster of pine trees, still covered in snow from a
+recent flurry. Under a boulder lies a rusted sword, its blade
+pointing west. Perhaps there is life here after all.
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 8546
+D2
+~
+~
+0 0 8504
+D3
+~
+~
+0 0 8506
+S
+#8506
+`3Ancient Burial Grounds ``~
+The earth here looks as if someone has been digging holes.
+Dozens of the mounds dot the ground for several yards in
+all directions. Though many are bare, a couple of mounds
+have inscriptions written upon them.
+~
+~
+0 0 8192 4
+D1
+~
+~
+0 0 8505
+S
+#8507
+`3Surrounded by Mounds ``~
+The mounds surround you on all sides now. Though the identity
+of the mounds' inhabitants is still unknown, droppings frequent
+the ground all around- quite the contrast to the frosted grass
+blades they lie among.
+~
+~
+0 0 16384 4
+D3
+~
+~
+0 0 8508
+S
+#8508
+`3An Especially Large Mound ``~
+Whoa! The mound before you is massive! It is not the height
+of the mound that is so incredible, but the diameter of the 
+hole itself! The entire thing is so large, you could probably
+go into it yourself. Hm...
+~
+~
+0 0 8192 4
+D0
+~
+~
+0 0 8509
+D1
+~
+~
+0 0 8507
+S
+#8509
+`3Surrounded by Mounds ``~
+You are very deep into the area of the mounds. Droppings
+litter the ground almost as much as the mounds do. Just south
+of here lies a rather large mound. You wonder how anything could
+survive within this barren land.
+~
+~
+0 0 8192 4
+D2
+~
+~
+0 0 8508
+S
+#8510
+`8The Burrow ``~
+It is incredibly dark down here, but by the light of the
+mound's entrance, you can see the occupants of these burrows:
+prairie dogs! Scuttling all around the place, they hardly seem
+to notice your presence and continue on their duties despite the
+intrusion.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8511
+D2
+~
+~
+0 0 8512
+S
+#8511
+`8The Storage Room ``~
+This room of the burrow is filled with food of all kinds.
+Grain, crisp green leaves, and sweet pieces of fruit are
+among the delicacies of this food storage cubby. A particularly
+fat prairie dog eyes you suspiciously.
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 8510
+S
+#8512
+`8The Southern End ``~
+This section of the burrow splits into two directions: a small
+room eminating high-pitched cries from the east, and a longer
+tunnel extending to the west. The western tunnel seems dark and
+foreboding but the noise to the east sounds just as unnerving.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8510
+D1
+~
+~
+0 0 8513
+D3
+~
+~
+0 0 8514
+S
+#8513
+`8The Nursery ``~
+Oh, it's a nursery! Dozens of little prairie pups crawl
+along on the floor here, most of them screaming their heads
+off. A single adult prarie dog is here, trying to pry two
+fighting prarie pups off of each other.
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 8512
+S
+#8514
+`8A Tunnel ``~
+You are in a long, dank tunnel, dug out in a seemingly
+careless fashion. Water drips from the ceiling here and
+there, forming puddles along the floor. If it weren't 
+for the lack of piping, this could almost be mistaken
+for a sewage tunnel.
+Muffled shouts echo from within the northern side of the wall.
+~
+~
+0 0 0 0
+D0
+~
+~
+A 0 8525
+D1
+~
+~
+0 0 8512
+D3
+~
+~
+0 0 8515
+S
+#8515
+`8A Tunnel ``~
+The tunnel ends here. You are almost in absolute
+darkness. The only source of light comes from far to the
+east, where the main section of the burrow lies. To
+the west is a small door. You wonder how a prairie dog
+burrow can have a door in it.
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 8514
+D3
+~
+~
+A 0 8516
+S
+#8516
+`8The Royal Quarters ``~
+This grand chamber is filled with prairie dog courtesans,
+all aiming to please the High Queen Prairie Dog. Sitting
+atop a bed of lettuce, the High Queen lounges lazily,
+overseeing her domain with little concern.
+~
+~
+0 0 0 0
+D1
+~
+~
+A 0 8515
+S
+#8517
+`3 By the Frozen Pond ``~
+~
+~
+0 4 16384 4
+S
+#8518
+`3Frozen Earth ``~
+The ground once again crunches under your feet here. To
+the north, the makings of another path begin to form while
+the shadowy forms of pine trees rise up to the west.
+Smoke rises into the sky to the north.
+~
+~
+0 0 8192 4
+D0
+~
+~
+0 0 8521
+D2
+~
+~
+0 0 8519
+S
+#8519
+`@At the Edge of Trees ``~
+The trees cease to grow from the north onwards, and
+all travel in the that direction is much easier than to
+the west, where the snow refuses to melt. Smoke rises
+in thick tendrils to the north-east; a sure sign of
+civilization.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 8518
+D3
+~
+~
+0 0 8547
+S
+#8520
+`$On the Frozen Pond ``~
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 8522
+S
+#8521
+`3The Beginnings of a Path ``~
+The frosted, brown-green grasses disperse here,
+making way for the beginning of a new trail, which
+snakes it's way north towards what appears to
+be a small community of huts of some sort. The
+men and women milling about the huts and the
+surrounding area seem rather primitive.
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 8526
+D2
+~
+~
+0 0 8518
+S
+#8522
+`3At the Edge of the Pond ``~
+~
+~
+0 0 65536 4
+D2
+~
+~
+0 0 8520
+S
+#8523
+`3A Dirt Path ``~
+~
+~
+0 4 32768 4
+S
+#8524
+`3Nearby Civilization ``~
+~
+~
+0 4 32768 4
+S
+#8525
+A Secret Chamber~
+Revolution! Dozens of prairie dogs are gathered in this
+small chamber, throwing their tiny fists in the air and
+chanting fervently. Against the back wall is a large sign:
+"KILL THE GOPHERS! PRAIRIE DOG REVOLUTION!"
+Hm...maybe you should leave...
+~
+~
+0 0 0 0
+D2
+~
+~
+A 0 8514
+S
+#8526
+`8A Crude Gate ``~
+A large, very poorly built gate rises up from the ground
+here. It is composed of several long wooden poles which
+have been whittled to points at the top. The poles jut
+out of the ground in a line and are tied together with
+a coarse woolen thread. There is a small gap in the gate-
+just enough to allow you to pass through.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 8527
+D2
+~
+~
+0 0 8521
+S
+#8527
+`3Through the Village ``~
+The bustle of men and women going about their business is
+the core point of this tiny village along the coast of the
+great lake. Men come to and from this place, bringing in a
+kill, transporting loot from a recent raid, and even taking
+in slaves. You notice that there are hardly any women out.
+~
+~
+0 0 32768 4
+D1
+~
+~
+0 0 8528
+D2
+~
+~
+0 0 8543
+D3
+~
+~
+0 0 8526
+S
+#8528
+`3Through the Village ``~
+The occasional shout and general chatter of the village
+fills the air. Dust clouds up and settles rhythmically as
+raiders travel up and down this main pathway through the
+village. All of the buildings in the area seem poorly
+constructed, as if made for temporary use only. To the
+north, a loud raucous seems to emanate.
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 8542
+D1
+~
+~
+0 0 8529
+D3
+~
+~
+0 0 8527
+S
+#8529
+`3The Central Fire ``~
+A large bonfire shoots up into the sky in the middle
+of the path here. Half a dozen children of the village
+scurry to and from the bonfire, constantly feeding it
+branches and twigs. Many raiders stand around the fire's
+proximity, roasting the carcasses of various beasts. The
+path through the village curves north, while the main
+building of the area lies directly east.
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 8533
+D1
+~
+~
+0 0 8530
+D3
+~
+~
+0 0 8528
+S
+#8530
+`8The Long House ``~
+This low-ceiling building stretches from north to
+south, and appears to be slightly better built than
+the various huts in the village. Many raiders occupy
+this section of the long house, either standing 
+around and talking in loud, harsh tones, or sitting
+around a long table and pigging out.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8531
+D2
+~
+~
+0 0 8532
+D3
+~
+~
+0 0 8529
+S
+#8531
+`8A Gruesome Shrine ``~
+The site before you is so completely horrific that
+it's a wonder you haven't thrown up yet. At the far
+end of the room is a great wooden statue of a large
+spider, mounted on the wall. Foul incense stifles
+the air, not able to conceal the scent of the bodies
+that lie all around here. Sprawled out in various
+positions, these corpses of men, women, and children
+are tied to the ground facing the spider monument.
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 8530
+S
+#8532
+`8A Grander Room ``~
+This room is by far the grandest room in all of the
+village. Though that does not say much. The floor is
+covered in a carpet of green-grey moss, and a window
+lies on the eastern wall. This is the bedroom of the
+Lord of the Highlanders. Along the back wall lies a
+large four-poster bed, which must have been apart of
+a loot, for no highlander could ever construct such an
+elegant piece of woodwork.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8530
+S
+#8533
+`8The Northern Gate ``~
+You stand at the Northern Gate of the village of the
+highlanders. The shouts and constant noise to the
+south are merely a general hum here. Likewise, the
+lapping water of the lake shore to the north is faint
+and in the back of you mind.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 8544
+D2
+~
+~
+0 0 8529
+S
+#8534
+`6A Half-Frozen Inlet ``~
+~
+~
+0 4 0 6
+S
+#8535
+`3The Eastern Path ``~
+~
+~
+0 0 16384 4
+D1
+~
+~
+0 0 8536
+S
+#8536
+`8The Burial Grounds ``~
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 8537
+D1
+~
+~
+0 0 8539
+D3
+~
+~
+0 0 8535
+S
+#8537
+`8The Burial Grounds ``~
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 8538
+D2
+~
+~
+0 0 8536
+S
+#8538
+`8The Burial Grounds ``~
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 8539
+D3
+~
+~
+0 0 8537
+S
+#8539
+`8The Burial Grounds ``~
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 8538
+D3
+~
+~
+0 0 8536
+S
+#8540
+`3The Western Path ``~
+~
+~
+0 0 16384 4
+D3
+~
+~
+0 0 8541
+S
+#8541
+`8The Wiseman's Hut ``~
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 8540
+S
+#8542
+`8A Small Hut ``~
+Ten or fifteen women are stuffed within this very
+enclosed space, giving the air a hot, sticky stench.
+The loud racket caused by the constant, irritating
+chatter amongst these women is almost deafening.
+They all appear to be sewing a large piece of fabric
+together.
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 8528
+S
+#8543
+`8A Small Hut ``~
+The walls of this small hut are lined with tall, dead
+grasses, and the floor is earthen bare. Bits of moss
+hang down from the ceiling and the unappealing smell
+of something dead reaches your nostrils. It seems you
+have walked in on some personal business.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 8527
+S
+#8544
+`6The Mouth of the Fjord ``~
+The water here is absolutely chilling. A single boat
+is shored slightly off to the right, which most likely
+belongs to the highland raiders. Several reeds along
+the shore line have been frozen into icy stalagmites.
+To make matters worse, chunks of ice float about in
+the lake, making passage quite difficult.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 8545
+D2
+~
+~
+0 0 8533
+S
+#8545
+`3Frozen Earth ``~
+~
+~
+0 0 16384 4
+D2
+~
+~
+0 0 8544
+S
+#8546
+`@Snowy Pine Trees ``~
+The coniferous trees here stick out like sore thumbs.
+Because of the shade provided by the pine branches,
+The snow covering the earth floor has still not
+melted. To the west you can see a dirt trail, while
+the trees continue to sprawl eastward.
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 8547
+D2
+~
+~
+0 0 8505
+D3
+~
+~
+0 0 8548
+S
+#8547
+`@Snowy Pine Trees ``~
+The unmelted snow here makes movement beneath these
+pine trees quite slower than normally. With each step
+you take, pine needles sprinkle down like rain, with
+the occasional pine cone falling to the earth as well.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 8519
+D3
+~
+~
+0 0 8546
+S
+#8548
+`3A Trail in the Dirt ``~
+Not really a trail, but more of a group of footprints
+concentrated in a specific area and direction. At any
+rate, the path leads north from here, towards the gate
+of a small village. Trees encroach to the east.
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 8549
+D1
+~
+~
+0 0 8546
+S
+#8549
+`8A Threshold of Heads ``~
+A bloody sight indeed. This gate is no more than two
+erected wooden pillars, each lined with the heads of
+unfortunate souls. Clouds of flies buzz horridly around
+the heads. Each face bears an expression of sheer terror.
+The village beyond seems oddly quiet.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 8550
+D2
+~
+~
+0 0 8548
+S
+#8550
+`3An Abandoned Village ``~
+The few huts that surround the small area are completely
+in ruins. Not a soul seems to be anywhere in the entire
+village. Scorch marks pattern the ground in various places.
+A putrid stench seems to emanate from the west. You can
+hear the crash of water north of here.
+~
+~
+0 0 8192 4
+D0
+~
+~
+0 0 8551
+D2
+~
+~
+0 0 8549
+D3
+~
+~
+0 0 8552
+S
+#8551
+`8A Primitive Dock ``~
+Loosely tied logs float upon the icy waters of the
+Fjord here. Almost completely split on one side,
+the only way to venture safely into the waters
+is to the east.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 8553
+D2
+~
+~
+0 0 8550
+S
+#8552
+`3A Roasting Pit ``~
+UGH. An extremely foul odor permeates the air all
+around the area, almost suffocating you. In the center
+of everything is what appears to have once been a roasting
+pit of some kind. Maggots crawl around the edge of the pit
+and the occasional crow swoops into it. Whatever it is
+has been in there for a long time.
+~
+~
+0 0 65536 4
+D1
+~
+~
+0 0 8550
+S
+#8553
+`6Entry to the Fjord ``~
+Small waves curl gently, with the barren Highlands
+to the south, and the great waters of the Fjord
+towards the north. Few seabirds fly overhead; the
+water is much too frigid for both man and beast.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 8600
+D3
+~
+~
+0 0 8551
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 8500 1 8500 1
+O 0 8506 0 8506
+O 0 8521 0 8521
+M 0 8500 1 8526 1
+M 0 8500 1 8526 1
+M 0 8500 1 8526 1
+O 0 8531 0 8531
+O 0 8549 0 8549
+O 0 8552 0 8552
+O 0 8553 0 8552
+O 0 8552 0 8552
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

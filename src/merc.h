@@ -4642,10 +4642,11 @@ char *	crypt		args( ( const char *key, const char *salt ) );
 #define HISTORY_DIR       "../history/"     /* History files */
 #define HTML_DIR	  "../public_html/"
 #define VOTE_DIR	  "../voter/votes/"
+#define AREA_DIR      "../area/"
 #endif
 
-#define AREA_LIST         "area.lst"              /* List of areas */
-#define HELP_FILE         "help.txt"              /* For 'helps' */
+#define AREA_LIST         AREA_DIR "area.lst"     /* List of areas */
+#define HELP_FILE         AREA_DIR "help.txt"              /* For 'helps' */
 #define BUG_FILE          "bugs.txt"              /* For 'bug' and bug() */
 #define TYPO_FILE         "typos.txt"             /* For 'typo' */
 #define NOTE_FILE         "notes.not"             /* For 'notes' */

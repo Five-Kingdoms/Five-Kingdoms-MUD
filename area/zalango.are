@@ -1,0 +1,7665 @@
+#AREADATA
+Name Zalango~
+Pref ~
+Builders Crypticant~
+VNUMs 7800 7999
+Max_Bastions 8
+Credits { ALL } Crypticant Zalango~
+Security 9
+Startroom 7800
+Flags 8
+Crimes 6 0 4 4 4 4 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#7800
+Zalango Shahnate guard~
+an Shahnate Guard~
+An Shahnate guard is here, patrolling the wet streets.
+~
+Regal and proud this guardian's armor seems to be covered with the
+same patina that the rest of the guards bear. He serves the Shahnate
+of Zalango proudly, despite the bad reputation the guards in this
+area have for taking bribes and exercising brutality.
+~
+human~
+AGTd ACG DJ 0 -750 10025
+50 0 6d10+750 0d0+100 5d5+10 slash
+-9 -9 -9 -9
+U A 0 0
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+P GRALL 7800 10~
+#7802
+Ghregory merchant~
+Ghregory~
+Ghregory, the Emporium's head merchant stands here, dusting a display case.
+~
+Although his skin is weathered, and his hair is sparse and gray,
+Ghregory's hands are nimble for one of his age.  He constantly flips a small
+silver coin between them, flipping it over and under each finger in rapid
+succession.  He is dressed quite nicely considering the layer of grime that
+seems to cover everything in this city, and wears a loose, leather cap atop
+his head.  A pair of blue eyes sparkle beneath a set of thin glasses,
+scouring his shop for would-be thieves.  
+~
+human~
+ABTVZ AD DFJ 0 0 0
+60 0 50d10+7000 0d0+100 3d80+20 punch
+-30 -30 -30 -30
+EFHJK AB D 0
+stand stand male none~
+30
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 7802 caveat emptor~
+#7803
+darden trainer Zalango~
+Darden~
+Darden, the trainer, is here showing his swordplay.
+~
+~
+human~
+AGJTUZbce AC H 0 0 0
+60 35 10d6+6000 0d0+100 6d8+40 slash
+3 3 3 3
+Z AB 0 0
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 7803 10~
+#7804
+Hezel banker~
+Hezel~
+Hezel is here, her eyes dark and predatory.
+~
+Her clothes and features are unremarkable, but leave you with a strange impression
+of facing a shark bent on stripping you clean to the bone.
+~
+human~
+ABTVZ A 0 0 750 7804
+60 0 50d10+7000 0d0+100 3d80+20 punch
+-30 -30 -30 -30
+EFHJK AB D 0
+stand stand female none~
+23
+AHMV ABCDEFGHIJK medium 0
+P GREET 7804 50~
+#7805
+clay golem~
+a clay golem~
+A clay golem stands by the door awaiting a command.
+~
+It holds a roughly humanoid shape, though has no facial features beyond a
+roll of old paper in the place where its mouth might be.  It looks like a
+basic unsophisticated model built for nothing more then most menial of
+tasks...  Like breaking limbs and such.  
+~
+golem~
+A A 0 0 0 7804
+40 40 5000d1+500 0d0+0 5d8+50 none
+-20 -20 -20 -20
+0 D C 0
+stand stand none none~
+19
+HJc ABCHIJK medium 0
+P RANDOM 7805 10~
+#7807
+dark knight mercenary~
+a dark-knight mercenary~
+A dark-knight mercenary wanders around the streets here.
+~
+Covered with a mask as black as death, you cannot see his face.  He is 
+dressed in armor that is as black to match.  Medium in height, the ease in
+which he swings his flail gives notice that he is one not to trifle with.
+~
+human~
+AGT A DFHJ 0 -1000 10039
+28 15 10d4+850 0d0+100 3d9+5 slash
+-10 -10 -10 -10
+CFK A 0 0
+stand stand male none~
+15
+AHMV ABCDEFGHIJK medium 0
+#7811
+beggar homeless~
+a homeless beggar~
+A homeless beggar rests in the corner.
+~
+Reeking of urine and booze this beggar nurses a cracked bottle
+of wine while issuing out swears and curses at all those who
+pass him by without leaving a cent. He is shabby, dressed in
+filthy rags and sporting a month's growth of a beard.
+~
+human~
+ACGHe A J 0 750 0
+10 0 2d7+121 0d0+100 2d4+2 punch
+1 1 1 8
+EFNU 0 0 0
+rest rest male none~
+6
+AHMV ABCDEFGHIJK medium 0
+#7821
+dock worker stevedore~
+a stevedore~
+A stevedore is here, carting fish from the docks.
+~
+Big and burly this man looks like he's been doing the same task for
+countless years. His body is taut and muscular and covered at the
+moment with fish slime and scales. He barely pays attention to you as
+he hurries by heading to the markets.
+~
+human~
+AGT A 0 0 125 0
+5 0 1d16+42 0d0+100 2d4+3 slash
+6 6 6 8
+EFNU 0 0 0
+stand stand male none~
+6
+AHMV ABCDEFGHIJK medium 0
+#7822
+fisherman~
+a fisherman~
+A fisherman is here, carting nets from the wharf.
+~
+Somewhat wiry, yet lean and strong this fisherman bears a look
+of a hard life at sea. His face is unshaven, his hair long and
+pulled back in a tight and oily ponytail.
+~
+human~
+AGT A 0 0 125 0
+5 0 1d16+42 0d0+100 2d4+3 slash
+6 6 6 8
+EFNU 0 0 0
+stand stand male none~
+6
+AHMV ABCDEFGHIJK medium 0
+#7829
+Xavier warrior lord~
+Xavier~
+Xavier is here overseeing the loading and unloading of his smuggling ships.
+~
+Long since retired from the fishing trade, Xavier now oversees his fleet
+of smuggling ships that pass into and out of Zalango. He is massive,
+with deep set scars in his face that show a long history of armed combat
+and the telltale signs of a hard lived life. He occasionally barks orders
+to the dockworkers in a thick baritone voice that seems to somehow drown
+out the cries of seagulls and the chatter of other voices around the docks.
+~
+human~
+ABGLT A DFHJ 0 0 10024
+50 20 25d10+5000 0d0+100 5d12+30 slash
+-20 -20 -20 -20
+CEHKN AB 0 H
+stand stand male none~
+19
+AHMV ABCDEFGHIJK medium 0
+P GREET 12161 100~
+P SPEECH 12160 yes~
+P SPEECH 12159 no~
+P SPEECH 12158 work~
+P SPEECH 12158 quest~
+#7836
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+A A 0 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+4
+AHMV ABCDEFGHIJK medium 0
+#7837
+mariner~
+a scruffy mariner~
+A malevolent looking mariner beams a vicious smile at you.
+~
+The sailor is old, and weary. The tired look of his body only matches
+the burnt out expression in his exhausted eyes. He looks lascivious
+and vile, as if he has seen things no other man has.
+~
+unique~
+ASe A DFJ 0 -1000 10000
+21 15 4d5+360 0d0+100 4d4+5 slash
+-5 -5 -5 -5
+0 A 0 0
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+P BRIBE 7890 5000~
+P SPEECH 7891 passage~
+#7838
+dockworker~
+a dockworker~
+A dockworker is here, loading ships for travel.
+~
+With rolled up sleeves and a haphazard beard this guy fits the look of
+a burly sailor. He is loading the ships with crates of goods for travel,
+or unloading, with crates of fish or other sealife.
+~
+human~
+ACGc A 0 0 -1000 2405
+13 3 1d10+170 0d0+100 2d4+11 digestion
+3 3 3 3
+KN 0 0 0
+stand stand either none~
+7
+AHMV ABCDEFGHIJK medium 0
+#7840
+prosperous woman citizen~
+a prosperous woman~
+A somewhat prosperous woman walks along the street here.
+~
+Seeming to be of some money, by Zalango standards anyway, this
+woman is carting goods to and fro from her home to the docks. She
+is regally dressed in crisp white aprons and bonnet, with long
+grey petticoats covering up high ankled black boots.
+~
+human~
+AGd AC 0 0 0 0
+15 2 2d4+120 0d0+100 5d6+5 none
+0 0 0 0
+0 0 0 0
+stand stand female none~
+13
+AHMV ABCDEFGHIJK medium 0
+#7847
+teenage gangster~
+a teenage gangster~
+A teenage gangster is here, measuring you up.
+~
+Young and shiftless this gangster has a hungry look in his eye. He
+is dirty and bruised, assumably from recent combat, and he twirls a
+small club between his fingers idly as he watches you. He is
+wearing a bright green bandanna tied around his head as if in some
+sort of marking for his gang.
+~
+human~
+AGd A DP 0 -500 201
+24 8 2d10+500 0d0+100 5d5+5 punch
+-7 -7 -7 -7
+K B N 0
+stand stand male none~
+14
+AHMV ABCDEFGHIJK small 0
+P RANDOM 7847 100~
+#7848
+young girl~
+a young girl~
+A young girl is here, peering along the street.
+~
+Short with pigtails tied in barrettes, this girl is peering about
+her expectantly. She is cute, but far from pretty, and seems to be
+wearing some sort of school uniform. Her friends gather around her
+anxiously, twittering like housewifes.
+~
+human~
+AG A D 0 0 205
+17 5 2d1+280 0d0+100 4d5+9 slap
+-4 -4 -4 -4
+K B CN 0
+stand stand female none~
+14
+AHMV ABCDEFGHIJK small 0
+#7849
+teenage gangster~
+a teenage gangster~
+A teenage gangster is here, measuring you up.
+~
+Young and shiftless this gangster has a hungry look in his eye. He
+is dirty and bruised, assumably from recent combat, and he twirls a
+small jacknife between his fingers idly as he watches you. He is
+wearing a bright red bandanna tied around his head as if in some
+sort of marking for his gang.
+~
+human~
+AGd A DP 0 -500 201
+24 8 2d10+500 0d0+100 5d5+5 punch
+-7 -7 -7 -7
+K B N 0
+stand stand male none~
+10
+AHMV ABCDEFGHIJK small 0
+P RANDOM 7849 100~
+#7859
+hawker pirate~
+a pirate hawker~
+A pirate hawker is here, selling various booty.
+~
+With an eye path over his left eye, he snarls at you angrily as if
+protecting something or someone.  He wears a red bandana over his head
+and a black coat over his body.
+~
+human~
+ABS A DFJ 0 -1000 10030
+28 0 5d20+1000 0d0+100 5d8+8 slash
+-10 -10 -10 -10
+0 0 0 0
+stand stand male none~
+16
+AHMV ABCDEFGHIJK medium 0
+#7860
+dark thief~
+a dark thief~
+A dark thief prowls the alleys here.
+~
+Enshrouded with black capes and cloaks this wiry thief nearly
+blends in with the walls. His arms and hands remain hidden
+beneath his cloaks, and his eyes dart about nervously as if
+on watch for the law.
+~
+human~
+AGSd A FPQ 0 700 0
+10 0 2d7+121 0d0+100 1d5+1 stab
+1 1 1 8
+EFNU 0 0 0
+stand stand male none~
+9
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 7860 100~
+#7864
+brown rat~
+a large brown rat~
+A large brown rat is here, skittering across the street.
+~
+Patchy and disease ridden this rat seems to be ferocious in nature. His
+eyes are almost red and his claws are long and sharp. You feel it may be
+best to stay well away from this one.
+~
+unique~
+ABGe A JP 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 bite
+6 6 6 9
+EFN AB BQ CEYZa
+stand stand male none~
+8
+AHMV ABCDEFGHIJK small 0
+P FIGHT 7864 50~
+#7866
+pack cats~
+a pack of cats~
+A small pack of cats stands before the store here, yowling.
+~
+You see a small pack of cats. Some black, some tabby, some calico, and
+some just downright ugly. They all seem to be relatively well fed judging
+by their distended bellies and small pile of fish bones lying on the
+ground here.
+~
+cat~
+ABCHU A 0 0 -10 0
+2 0 2d7+21 0d0+100 1d5+0 none
+8 8 8 10
+EFHNU 0 0 0
+stand stand none none~
+7
+AGV ACDEFHJKQUV tiny 0
+#7869
+acolyte~
+an Acolyte of the Dark Temple~
+An Acolyte of the Dark Temple stands here in meditation.
+~
+Dressed in dark grey robes this acolyte regards you nonchalantly. He is
+obviously some sort of guard here set to keep the peace within the dark
+temple. On the front of his robe lies a small blue serpent above three
+waves, a denotation of his sect in the Temple of the Three Seas.
+~
+elf~
+ABH A DFGHJP 0 750 0
+15 10 4d6+1100 0d0+100 4d6+10 pound
+0 0 0 0
+FK 0 B Z
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#7870
+Tulco ghastly healer~
+Tulco~
+A ghastly looking healer is here offering his services.
+~
+Pale white beyond any form of natural aging, he or it rather seems more
+appropriate to walk among the living dead than the living.  Dressed all in
+black, it gives you shivers as you stare it in disbelief.  Where the skin
+shows you can see diseased, malformed skin with open lesions and pustules.
+~
+human~
+ABGLQVa A DFHJU 0 -750 0
+60 0 10d10+3000 0d0+100 1d1+100 divine
+-20 -20 -20 -20
+FHK AB 0 0
+stand stand none none~
+28
+AHMV ABCDEFGHIJK medium 0
+#7871
+Aerin barkeep~
+Aerin the Barkeep~
+Aerin the Barkeep tends to your business.
+~
+A rough looking woman - but yet sexy and beautiful.  You wonder what a pretty
+woman is doing taking care of a tavern.  She wears a pair of navy blue overalls
+and a red apron.
+~
+human~
+AB A DFHJV 0 -1000 0
+43 25 50d10+3000 0d0+100 5d9+30 pierce
+-20 -20 -20 -20
+EFIKN A 0 0
+stand stand female none~
+20
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 12344 soul~
+P SPEECH 12344 vial~
+#7872
+drunken sailor~
+a drunken sailor~
+A drunken sailor is here, staring into his empty tankard.
+~
+Old and weather worn, this crusty old salt seems to be a permanent icon
+in the Crow's Nest. Covered with tattoos and old fishing scars his life
+seems to have lead him to drink, primarily, and fight, secondarily.
+~
+human~
+ABCGc A 0 0 -1000 2405
+13 3 1d10+170 0d0+100 2d4+11 digestion
+3 3 3 3
+KN 0 0 0
+stand stand male none~
+10
+AHMV ABCDEFGHIJK medium 0
+#7874
+urchin~
+a street urchin~
+A street urchin is here, scavenging around.
+~
+This raggedy little kid seems to have his pockets full of junk.
+Wandering around the street in search of items of value, this
+little urchin seems to be parentless, and homeless, judging by
+the filth and squalor in whih he lives.
+~
+human~
+ACSUd A DF 0 0 0
+10 4 4d6+150 0d0+0 2d5+3 punch
+1 0 1 0
+0 0 0 0
+stand stand either none~
+9
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 7874 50~
+#7884
+mildred~
+Mildred~
+Mildred, Jonathan's wife, stands here by his side.
+~
+Old and matronly, Mildred has wispy gray hair pulled back in a neat bun.
+She wears thick denim aprons around her hefty waist and seems to scold
+poor Jonathan relentlessly. This old woman has seen her share of hardship
+on the open seas, and seems condemned to spend the rest of her days
+tending to her old man, and the lighthouse.
+~
+human~
+ABT A CDFHJP 0 1000 10015
+50 20 10d50+5000 0d0+100 11d8+30 slash
+-20 -20 -20 -20
+FKNQU AB B Z
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#7885
+Jonathan~
+Jonathan~
+Jonathan the lighthouse keeper is here, sweeping the floor.
+~
+This old man has been watching the lighthouse nearly all his life.
+He peers idly out to sea, observing the passing ships that move to
+and fro from his port.
+~
+unique~
+A AD DF 0 -100 10004
+10 0 1d8+115 0d0+100 1d8+2 punch
+2 2 2 2
+0 0 0 0
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#7891
+cleric robed guildguard Zalango~
+a robed cleric~
+A robed cleric stands here, his arms folded across his chest.
+~
+Attired in robes emblazoned with a large holy symbol of some sort
+this cleric, while rather young looking, regards you with wise eyes
+and a dapper grin, as if knowing something you did not.
+~
+drow~
+ABZ AC JP 0 0 0
+35 5 55d10+3000 0d0+100 6d6+10 punch
+-1 -1 -1 -1
+KV AB B Ya
+stand stand male none~
+16
+AHMV ABCDEFGHIJK medium 0
+#7892
+shaman dark robed guildguard~
+a dark robed shaman~
+A dark robed shaman utters curses at you as you approach.
+~
+Cloaked in attire that all but hangs off his body, this gaunt
+shaman, as he must be, wears the sacramental runes of disease on
+his hands and face as a marking of his travels in the guild.
+~
+drow~
+ABZ AC JP 0 -750 0
+35 5 55d10+3000 0d0+100 6d6+10 punch
+-1 -1 -1 -1
+KV AB B Ya
+stand stand male none~
+19
+AHMV ABCDEFGHIJK medium 0
+#7893
+shaman guildmaster~
+the Shaman Guildmaster~
+The Shaman Guildmaster stands here, uttering strange prayers.
+~
+Garbed almost completely in black attire this man is the embodiment
+of sinister evil. His hands are marked with runic symbols as a sort
+of effigy to his vile gods and his tongue, split by his own hand,
+works to commune the prayers of damnation.
+~
+duergar~
+ABKVZ AC DFJ 0 -750 0
+60 90 50d10+7000 0d0+100 2d40+30 tainted
+-2 -2 -2 -2
+FHKX AB CDL R
+stand stand male none~
+29
+AHMV ABCDEFGHIJK medium 0
+#7894
+cleric guildmaster~
+the Cleric Guildmaster~
+The Cleric Guildmaster meditates silently here.
+~
+Obviously a devout man, his frame is hefty and rotund. Clad in light
+khaki robes beset with the marks of this guild sect he nods at you
+in acknowledgement then returns to his reading of some large, and
+rather ancient tome.
+~
+duergar~
+ABKVZ AC DFHJ 0 -750 0
+60 90 50d10+7000 0d0+100 2d40+30 divine
+-2 -2 -2 -2
+FHKX AB CDL R
+stand stand male none~
+28
+AHMV ABCDEFGHIJK medium 0
+#7895
+harbormaster~
+the Harbormaster~
+The Harbormaster stands watch here, overseeing the ships.
+~
+This man is massive. Well over two spans in height his ripped muscles
+and square jaw lead you to believe he was a longtime captain in the
+Zalango fleet. Large tattoos alluding to his station as a senior
+Boatswain's Mate for the Shahnate don his tree-thick forearms
+while several golden earrings jut from each ear.
+~
+human~
+ABGQT A DFJV 0 -1000 10032
+45 0 10d20+5000 0d0+100 3d35+20 beating
+-25 -25 -25 -25
+FKN AB 0 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#7897
+necromancer guildguard dark mage~
+a dark mage~
+A dark mage stands here, regarding you with dead eyes.
+~
+Cloaked in drab garb spattered with bits of flesh and gore this
+mage seems more dead than alive. His face is pallid, his cheeks
+sunken and jaundiced. The arts he practices have lead him to favor
+his victims, it seems.
+~
+drow~
+ABZ AC JP 0 -750 0
+35 5 25d10+6000 0d0+100 6d6+0 punch
+1 1 1 0
+KV AB BQ Ya
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+#7898
+necromancer guildmaster~
+the Necromancer Guildmaster~
+The Necromancer Guildmaster is here, working on a corpse.
+~
+Covered with drops of rank blood and gore this strange man looms
+over a multitude of corpses, puppeteering many of them in strange,
+jerky motions. A visage of grotesque proportions peers back at you
+from under a strange hood.
+~
+unique~
+ABKRVZ AC DJ 0 -750 0
+60 0 50d10+12000 0d0+100 2d40+0 drain
+2 2 2 2
+FHK AB 0 0
+stand stand male none~
+24
+AHMV ABCDEFGHIJK medium 0
+#7899
+battlemage guildguard~
+a dour battlemage~
+A dour battlemage is here, regarding you with insolence.
+~
+Clad in black robes marked with strange runes you notice that this
+battle hardened mage is covered with deep scars from his travels.
+Obviously no stranger to combat he stands guard before you.
+~
+gnome~
+ABQZ A JP 0 0 10045
+35 10 25d10+3000 0d0+100 8d3+10 magic
+-10 -10 -10 -10
+KNV AB BJP BEPSYa
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#7912
+duergar gateguard armed~
+a Zalango Gateguard~
+An armed Zalango Gateguard is here, patrolling the ramparts.
+~
+Dour and wearing a grim face this gateguard wears patina'd armor that
+seems perpetually covered with a grimy sheen. The insignia of the
+Shahnate of Zalango is apparent on his steel breastplate, and he
+bears a long halbert that he raises, only slightly, to allow you to
+pass.
+~
+human~
+ATe A DFJ 0 -1000 0
+35 25 6d10+2000 0d0+0 6d6+25 slice
+-5 -5 -5 -5
+CDJNU AB CL R
+stand stand male none~
+15
+AHMV ABCDEFGHIJK medium 0
+#7916
+Zalango gate guard Shahnate~
+an Shahnate Gateguard~
+An Shahnate Gateguard is here, patrolling the wet streets.
+~
+Regal and proud this guardian's armor seems to be covered with the
+same patina that the rest of the guards bear. He serves the Shahnate
+of Zalango proudly, despite the bad reputation the guards in this
+area have for taking bribes and exercising brutality.
+~
+human~
+ABGT ACG DHJ 0 -750 10025
+50 13 6d10+1500 0d0+100 5d6+30 slash
+-9 -9 -9 -9
+KNU AB 0 0
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+P GRALL 26 100~
+#7932
+saltwater crocodile~
+a saltwater crocodile~
+A saltwater crocodile swims in the moat here, in search of prey.
+~
+Lithe and agile and covered with crusty green scales, this crocodile
+has obviously been placed here to keep close watch over those who
+might sneak into the city via the moat.
+~
+unique~
+AB AC d 0 0 0
+5 0 4d6+450 0d0+0 2d1+2 bite
+0 0 0 0
+X ABT 0 HK
+stand stand none none~
+9
+0 0 medium 0
+#7943
+seagull~
+a seagull~
+A seagull wheels overhead here.
+~
+Covered in mottled white feathers, these nasty birds seem to be
+prevalent in this area. Their cries can be heard all over the town
+and their droppings don the piers and gates of the city with white
+goo.
+~
+avian~
+AGd AC Td 0 0 0
+5 -2 4d6+450 0d0+0 2d1+2 peck
+-20 -21 -22 -19
+F ABLQT 0 HKQb
+stand stand none none~
+7
+AHMVW ABCDEFGHIJKP medium 0
+#7950
+Elysus drow carver~
+Elysus~
+Elysus the Master Tanner works silently with some leather.
+~
+An ancient drow stands before you, his face wrinkled and 
+the gray hair thinned out.  You judge him to be ancient even
+for his long lived race. His hands are hard and rough, yet
+delicate. He works deftly with his tools, punching holes in
+some wet, skinned hide that seems to come from...something
+sapient. He notices your entrance, and turns his attention
+to you.
+~
+human~
+ABe A DHJ 0 -750 0
+60 25 50d200+7500 0d0+100 10d5+50 punch
+0 0 0 0
+FK AB B Ya
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 12202 100~
+P SPEECH 12200 cycle~
+P SPEECH 12200 shrine~
+P GRALL 12201 100~
+P SPEECH 12211 continue~
+P SPEECH 12211 go~
+P GIVE 12212 all~
+P SPEECH 12200 carving~
+#7958
+clan guard guardian Zalango cultist~
+a Cultist~
+A black robed cultist guards the Despair Clan Hall.
+~
+The flowing black robes hide most details of this figure including its
+sex.  Strange crimson runes crawl over the dark cloth crawling under your
+scrutiny.  The stink of black magic is impossible to miss, as is the glowing
+rune of Despair upon his chest.  
+~
+human~
+ABCLTZ AC DFJ 0 0 0
+35 5 25d10+6000 0d0+100 6d6+10 pierce
+1 1 1 0
+FHKV AB 0 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+P EXALL 7958 down~
+P GRALL 7959 100~
+P BRIBE 7960 30000~
+#7962
+clan guard guardian Zalango serimel~
+Serimel the Cartel Clanguard~
+Serimel the Cartel Clanguard watches your every move.
+~
+This thin female clad in clothes of a Zalango street thug seems little
+of a threat.  But upon closer inspection her stance, and the sharp, rather
+deadly looking lumps under her sleeves convince you otherwise.  
+~
+human~
+ABCLTZ AC DFJ 0 0 0
+35 5 25d10+6000 0d0+100 6d6+10 pierce
+1 1 1 0
+FHKV AB 0 0
+stand stand female none~
+15
+AHMV ABCDEFGHIJK medium 0
+P BRIBE 7961 30000~
+P GRALL 7963 100~
+P EXALL 7962 south~
+#7963
+battlemage guildmaster~
+the Battlemage Guildmaster~
+The Battlemage Guildmaster is here, circled in whirling blades.
+~
+Dressed in runic robes and encircled by all sorts of strange and whizzing
+blades this man peers back at you with an almost maniacal and euphoric
+grin.
+~
+gnome~
+ABKVZ AC DHJ 0 0 0
+60 0 50d10+6000 0d0+100 4d40+0 punch
+2 2 2 2
+K ABC 0 BEP
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#7964
+invoker guildguard mage~
+a flourshing mage~
+A mage is here, flourishing his wands wildly.
+~
+Covered in robes bedecked with runes and strange symbols
+this mage seems to be keenly intent on playing with a strange
+wand that is twirling of its own accord nearby him.
+~
+gnome~
+ABTZ A JP 0 0 10045
+35 10 25d10+3000 0d0+100 8d3+10 magic
+-10 -10 -10 -10
+KNV AB BJP BEPSYa
+stand stand male none~
+16
+AHMV ABCDEFGHIJK medium 0
+#7965
+invoker guildmaster~
+the Invoker Guildmaster~
+The Invoker Guildmaster is here, burning some leaves.
+~
+This grizzled old gnome is here poring over dozens of thick books.
+The archetype for an arcane wizard his nose is long, wrinkled, and
+bespectacled while several candles burn, dripping hot wax all over
+several of his books. Inkstains lurk deep in his fingertips.
+~
+gnome~
+ABKVZ AC DHJ 0 0 0
+60 0 50d10+6000 0d0+100 4d40+0 punch
+2 2 2 2
+K ABC 0 BEP
+stand stand male none~
+27
+AHMV ABCDEFGHIJK medium 0
+#7969
+warrior guildguard~
+a burly warrior~
+A burly warrior stands here blocking a large door.
+~
+Shirtless and covered with thick sinews of muscle and taut
+ligaments this highly trained warrior regards you with an
+air of arrogance and disdain, almost in challenge.
+~
+stone~
+ABTZ A JP 0 0 10045
+35 10 25d10+3000 0d0+100 8d3+10 punch
+-10 -10 -10 -10
+KNV AB BDJP EPSYa
+stand stand male none~
+17
+AHMV ABCDEFGHIJK medium 0
+#7970
+warrior guildmaster~
+the Warrior Guildmaster~
+The Warrior Guildmaster is here, sharpening his swords.
+~
+Shirtless and wearing only loose fitting trousers this hulk of
+a man stands perfecting his sword forms against a shredded straw
+practice dummy. He is heavily tattooed and pierced, obviously a
+sort of strength ritual he performed in service to his guild.
+~
+gnome~
+ABKVZ AC DJ 0 0 0
+60 0 50d10+6000 0d0+100 4d40+0 punch
+2 2 2 2
+K ABC 0 BEP
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+#7971
+berserker guildguard guard~
+a crazed berserker~
+A crazed berserker stands here, a wild look in his eyes.
+~
+He appears to be quite normal, except for the mortal wound stretching
+across his abdomen.  How he clings to life is quite extraordinary.  His eyes
+bulge from his angered red face as his mouth screams forth crude things at
+students passing in as well as those just passing by.  
+~
+human~
+ABTe A DFJ 0 -1000 0
+35 15 1d1+3500 0d0+0 5d4+17 slash
+-4 -4 -4 -4
+DFJKV AB 0 0
+stand stand male none~
+18
+AHMV ABCDEFGHIJK medium 0
+#7972
+berserker guildmaster~
+the Berserker Guildmaster~
+The Berserker Guildmaster is here getting pumped for battle.
+~
+A large and rather hairy man, this guildmaster bears all sorts of
+battle scars and lacerations that he almost seems to wear as a badge
+of honor. His eyes are bloodshot and practically insane as he peers
+at you, his red hair in total disarray.
+~
+human~
+ABKVZ AC DF 0 0 0
+60 40 50d10+9500 0d0+100 2d40+40 beating
+2 2 2 2
+AHK AB 0 0
+stand stand male none~
+27
+AHMV ABCDEFGHIJK medium 0
+#7973
+Vadnek dark-knight guildguard xymerria~
+a darkly clad knight~
+A knight clad in ink black armor stands menacingly before you.
+~
+He is massive and cloaked in black, oily looking armor that almost seems
+to maintain a wet sheen to it. Covered with sharp points and wicked looking
+edges this knight seems to all but exude evil and menace.
+~
+drow~
+ABTZ AC JP 0 -750 0
+35 15 25d10+6000 0d0+100 6d6+10 beating
+1 1 1 0
+CFHKV AB B Ya
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#7974
+dark knight guildmaster~
+the Dark Knight Guildmaster~
+The Dark Knight Guildmaster stands here, torturing an underling.
+~
+Garbed in heavy black armor specked with blood this man looms
+over a poor prisoner, exacting information from him with a
+merciless cruelty. His head is shaved and shiny, his face a
+mask of pitilessness.
+~
+human~
+ABKVZ AC DJ 0 -750 0
+60 0 50d10+14000 0d0+100 2d40+10 slash
+2 2 2 2
+FHK AB 0 0
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+#7975
+ranger guildguard~
+a rogue ranger~
+A rogue clad in browns and greens stands here, on watch.
+~
+This man is intent on you as you approach. His gray eyes peer back at
+you with a deep regard and concern, but also a lacing of wisdom and
+knowledge. His hands are rough and marred from hard work and his hair
+remains tied back in a loose ponytail.
+~
+human~
+ABTZ A JP 0 0 10045
+35 10 25d10+3000 0d0+100 8d3+10 slash
+-10 -10 -10 -10
+KNV AB BJP ESYa
+stand stand male none~
+13
+AHMV ABCDEFGHIJK medium 0
+#7976
+ranger guildmaster~
+the Ranger Guildmaster~
+The Ranger Guildmaster is here, sharpening some arrows.
+~
+A boyish man stands here looking jovial, but nonetheless dangerous.
+Garbed in greens and browns you almost didn't see him when you
+entered. He is obviously skilled in his trade as he makes little
+or no sound as he moves.
+~
+gnome~
+ABKVZ AC DHJ 0 0 0
+60 0 50d10+6000 0d0+100 4d40+0 punch
+2 2 2 2
+K ABC 0 BEP
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+#7977
+monk guildguard~
+a warrior monk~
+A warrior monk seems to meditate peacefully here.
+~
+Garbed in plain attire and brown robes he bears a thick chain of
+seashells around his neck that almost seems of offset his shaved
+head and thick, burly figure. His eyes remain closed but you can
+detect a slight awareness as you approach.
+~
+human~
+ABTZ A J 0 0 10258
+35 10 25d10+3000 0d0+100 8d3+10 crush
+-10 -10 -10 -10
+KNV AB B 0
+stand stand female none~
+17
+AHMV ABCDEFGHIJK medium 0
+#7978
+monk guildmaster~
+the Monk Guildmaster~
+The Monk Guildmaster is here, tending to a bamboo plant.
+~
+Wise and learned this man is the image of reverie and piety. He
+is dressed in comfortable flowing robes of brown and orange and
+sports a strange haircut with a long, braided beard that leads
+easily to his waist.
+~
+human~
+ABKVZ AC DJ 0 0 0
+60 15 50d10+7000 0d0+100 2d40+0 none
+2 2 2 2
+FHKX AB 0 0
+stand stand male none~
+30
+AHMV ABCDEFGHIJK medium 0
+#7979
+Korylon guildguard~
+Korylon~
+Korylon, the Blacksmith guildguard, looms here.
+~
+This massive, imposing giant of a man stands before you with
+crossed arms. Unshaven, and covered in sweat from the heat of
+the forge nearby, Korylon seems to take his job of guarding the
+smiths very seriously.
+~
+drow~
+ABSZ AC JP 0 0 0
+35 5 25d10+5000 0d0+100 6d6+10 pierce
+1 1 1 0
+FHKV AB BC Ya
+stand stand male none~
+16
+AHMV ABCDEFGHIJK medium 0
+#7980
+blacksmith guildmaster~
+the Guildmaster of the Blacksmiths~
+The Blacksmith Guildmaster is here, hammering iron.
+~
+Bigger than the guard in the previous room, this massive giant
+has arms as thick as tree trunks. He looks aged and wise, though
+the years beside the hot forge have been less than kind to his
+face.
+~
+drow~
+ABKVZ AC JP 0 0 0
+60 0 50d10+14000 0d0+100 2d40+10 punch
+2 2 2 2
+FHKZ AB B Ya
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+#7981
+weathered fisherman~
+a weathered fisherman~
+A weathered fisherman is here selling his catch.
+~
+Unshaved and dirty this man looks like he just shipped in from a
+fishing voyage. His stained clothing covered in fish offal is a tribute
+to his hard work and the deep lines in his face and hands go further
+to display his lifelong devotion to the art of fishing.
+~
+unique~
+ABT A H 0 0 0
+51 13 20d20+2300 0d0+100 5d5+20 punch
+-30 -30 -30 -30
+KN ABD 0 0
+stand stand male none~
+27
+AHMV ABCDEFGHIJK medium 0
+#7983
+fishermans wife fisherman's~
+a fisherman's wife~
+A fisherman's wife is here, selling traveling supplies.
+~
+Frumpy and bedraggled this poor pauper of a woman seems to run the
+shop for her husband who idly sits in the corner of the room carving
+designs into ivory whale teeth. She is old judging from the crow's
+feet embedded in the corner of her eyes, and poor, based on her three
+yellow teeth.
+~
+human~
+ABZ AC J 0 0 0
+60 0 50d10+7000 0d0+100 3d80+20 cleave
+-30 -30 -30 -30
+EFHJK AB D 0
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+#7984
+old mariner~
+an old mariner~
+An old mariner is here, carving some whale bone.
+~
+Obviously nearing the end of his days this weathered man has
+certainly seen a hard life. His hands are arthritic and can
+scarcely hold his carving knife while the palsy grips him in
+an almost rythmic fashion. A peg stands in place of his lost
+foot.
+~
+human~
+Ae A 0 0 800 13230
+13 3 10d10+5 0d0+100 1d7+0 pierce
+1 1 1 6
+EKNU 0 0 0
+stand stand male none~
+9
+AHMV ABCDEFGHIJK medium 0
+#7988
+weaponsmith Zalango davram~
+Davram~
+Davram the blacksmith is here working over his forge.
+~
+Covered in black soot this hardy looking dwarf stands amid his
+smelting forge working hard on some pieces of armor. Behind him
+placed on racks and mounts stand all sorts of weaponry and armor
+that he sells, consigns, or is repairing.
+~
+dwarf~
+ABTVZ AC DFJ 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 punch
+-30 -30 -30 -30
+EFHJK AB CDL R
+stand stand male none~
+30
+AHMV ABCDEFGHIJK medium 0
+#7989
+yak~
+a yak~
+A white yak is here, chewing on some cud.
+~
+A strange breed of mountain yak, this one's curved back and torn,
+tattered nose applies evidence to the fact that this creature was
+used for some time working farm equipment. His cloven hooves look
+good for traveling mountains, but this specimen seems rather near
+his death bed.
+~
+horse~
+AEI A 0 0 0 0
+5 5 5d8+400 0d0+100 1d5+3 bite
+0 0 0 0
+0 0 0 0
+stand stand male none~
+5
+AGV ABCDEFHJK medium 0
+#7990
+lathman alchemist Zalango~
+Lathman~
+Lathman the Alchemist is here peddling potions.
+~
+~
+human~
+ABTVZ AD DFJ 0 0 0
+60 0 50d10+7000 0d0+100 3d80+20 punch
+-30 -30 -30 -30
+EFHJK AB D 0
+stand stand female none~
+25
+AHMV ABCDEFGHIJK medium 0
+P BRIBE 7823 1000~
+P GREET 7824 100~
+P BRIBE 7826 2500~
+P SPEECH 7825 vampire~
+#7991
+ass donkey~
+a donkey~
+A fat ugly donkey stands here.
+~
+This short, squat donkey bears the traditional long bovine ears
+of the jackass. His face is mousy gray, and almost cute, if not
+for the loud braying that comes from its mouth every few moments.
+~
+horse~
+AEI A 0 0 0 0
+5 5 5d10+550 0d0+100 1d5+5 charge
+0 0 0 0
+0 0 0 0
+stand stand male none~
+2
+AGV ABCDEFHJK medium 0
+#7992
+gnome alchemist !zalangoportal!~
+a Mar'Kyer Alchemist~
+A Mar'Kyer Alchemist is here, selling trips through his portals.
+~
+This short, fat, stubby little gnome is a member of the elite Mar'Kyer
+Guild of Alchemy. They first discovered the methods of portal travel
+years ago, and keep their secret closely guarded from others outside
+of their own guild. They seem to run quite a racket here, with shops set
+in nearly every city around Mirlan.
+~
+gnome~
+ABe A DFHJ 0 0 0
+60 45 4d6+5000 0d0+0 4d6+65 magic
+-21 -21 -19 -28
+0 AB 0 BP
+stand stand either none~
+21
+AHMV ABCDEFGHIJK tiny 0
+P SPEECH 8 dargoth~
+P SPEECH 6 revelsport~
+P SPEECH 5 emmereaux~
+P SPEECH 4 luva~
+P GRALL 2 100~
+P SPEECH 3 ulsym~
+P RANDOM 25 50~
+P DELAY 9 100~
+#7993
+quarterhorse~
+a quarterhorse~
+A strong quarterhorse is reigned here.
+~
+Rich and muscular this quarterhorse, though young, looks like a powerful
+animal. His mane is a deep gloss black while his hide is a rich chestnut
+brown. His eyes are willful and wild, yet refined as if sentient. He is
+obviously of good stock.
+~
+horse~
+AEI A 0 0 0 0
+30 5 5d10+550 0d0+100 1d5+5 charge
+0 0 0 0
+0 0 0 0
+stand stand male none~
+11
+AGV ABCDEFHJK medium 0
+#7994
+Visram stablemaster Zalango~
+Visram~
+Visram, the Zalango Stablemaster, is here tending to his animals.
+~
+Weathered and wiry this ropy man leers at you with a menacing grin.  He
+looks all the part of a horsetrader, resplendent with thick gold rings on
+his fingers, and thick, dirty leather boots.  He is unshaven, as most around
+here tend to be, and his greasy hair hangs in unkemp locks to his shoulders.
+~
+human~
+ABTVZ A DJ 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 punch
+-30 -30 -30 -30
+EFHJK ABH D 0
+stand stand male none~
+30
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 7994 yak~
+P SPEECH 7993 donkey~
+P SPEECH 7992 quarterhorse~
+P SPEECH 7991 warhorse~
+P BRIBE 7990 2000~
+P BRIBE 7989 1000~
+P BRIBE 7988 250~
+P BRIBE 7987 100~
+#7995
+warhorse battlemount great~
+a warhorse~
+Heavy armor laid upon it, a great warhorse is reigned here.
+~
+Covered in mighty plates padded with an intricate coat of arms a mighty
+stallion paws the ground here lashing its tail in anger.  Its eyes are
+ablaze with battle lust and it occasionally whinnies with anger.  
+~
+horse~
+AEI A 0 0 0 0
+35 5 5d10+550 0d0+100 1d5+5 charge
+0 0 0 0
+0 0 0 0
+stand stand male none~
+14
+AGV ABCDEFHJK large 0
+#7996
+slate tattoo artist~
+Slate~
+Slate the Tattoo Artist is here putting a tattoo on a sailor.
+~
+This colossus of a man is literally covered in tattooings. His arms,
+legs, torso, and even head bear tattoo art from all over the lands.
+He is clad in heavy leather pants and keeps a long, sharp dagger at
+his side in all times.
+~
+human~
+ABTVZ AC DFJ 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 punch
+-30 -30 -30 -30
+EFHJK AB D 0
+stand stand male none~
+23
+AHMV ABCDEFGHIJK medium 0
+P BRIBE 7998 1~
+P SPEECH 7972 9~
+P SPEECH 7971 8~
+P SPEECH 7970 7~
+P SPEECH 7969 6~
+P SPEECH 7968 5~
+P SPEECH 7967 4~
+P SPEECH 7966 3~
+P SPEECH 7965 2~
+P SPEECH 7964 1~
+P BRIBE 7996 10000~
+P GRALL 7995 100~
+#7997
+sailor~
+a tattooed sailor~
+A sailor is here, receiving a tattoo from Slate.
+~
+Rather young this man seems to have just arrived in Zalango from abroad
+and is showing his allegiance to 'The Silver Swan' by getting her name
+tattooed on his left forearm.
+~
+human~
+ABCGc A 0 0 -1000 2405
+13 3 1d10+170 0d0+100 2d4+11 digestion
+3 3 3 3
+KN 0 0 0
+stand stand either none~
+6
+AHMV ABCDEFGHIJK medium 0
+#7998
+master secret arts thief guildguard~
+the Master of the Secret Arts~
+The Master of the Secret Arts is here, instructing.
+~
+This man seems to be terminally covered in pockets and cloaks.
+His face is hawkish, and beaklike, while his hairy hands remain
+deft and nimble. He bears the sneer of a man skilled in his
+art, which of course, would be thievery.
+~
+halfling~
+ABKVZ AC DHJ 0 0 0
+60 0 50d10+6000 0d0+100 4d40+0 punch
+2 2 2 2
+K ABC C E
+stand stand male none~
+30
+AHMV ABCDEFGHIJK medium 0
+#7999
+street brawler thief guardian~
+a street brawler~
+A large street brawler is here, guarding a door.
+~
+This massive behemoth looks like he spends his days pumping iron,
+or people for cash. His neck seems to just merge into his head, which
+is cleanly shaven. His large sloping forehead is blunt, and he wears
+leather armor that seems to fit him like a tight glove. Fingerless
+gloves don his fingers.
+~
+stone~
+ABTZ A JP 0 0 10045
+35 10 25d10+3000 0d0+100 8d3+10 beating
+-10 -10 -10 -10
+KNV AB BDJP EPSYa
+stand stand male none~
+12
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#7800
+marlin fountain~
+a water fountain~
+A fountain set with three large marlins is here, trickling water.~
+stone~
+fountain 0 0
+-1 -1 'water' 0 0
+0 0 0 P
+E
+fountain~
+This colossal fountain seems to be hand hewn from granite.
+Sporting three large marlins beset in a triad and each with
+water trickling down this fountain has become pitted and worn
+from constant exposure to the sea air.
+~
+#7801
+Shahnate rapier~
+an Shahnate rapier~
+A cold, grey sword bearing the sigil of the Shahnate is here.~
+steel~
+weapon L AN
+sword 4 7 slash 0
+31 120 50 P
+F
+A 19 4 0
+F
+A 18 -1 0
+#7802
+sign~
+a large sign~
+A large wooden sign creaks in the breeze.~
+wood~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+<=== The Mar'Kyer Portals
+Travel to anywhere in Mirlan for 200 gold!
+~
+#7803
+feathered flying scroll~
+A feathered scroll of flying~
+A scroll with dog-eared corners is here, floating on an unseen wind.~
+feathers~
+scroll 0 AO
+25 'fly' '' '' ''
+30 2 5500 P
+#7804
+scroll defusion~
+a scroll of defusion~
+A bound scroll depicting dismantled traps is here.~
+parchment~
+scroll 0 AO
+50 'defusion' '' '' ''
+30 2 9500 P
+#7805
+scroll detect traps~
+a scroll of detect traps~
+A small piece of tanned hide is here, inscribed with methods of detection.~
+skin~
+scroll 0 AO
+60 'detect traps' '' '' ''
+30 2 11500 P
+#7806
+scroll omnipotence arcane lore~
+a scroll of arcane lore~
+A scroll of arcane lore is here, bound in blue silk.~
+silk~
+scroll 0 AO
+30 'omnipotence' '' '' ''
+30 2 10000 P
+E
+scroll omnipotence arcane lore~
+You read through the arcane text and gather the spell has something
+to do with examining items.
+~
+#7807
+runed black gauntlets~
+a pair of runed-black gauntlets~
+A pair of runed-black gauntlets is here.~
+leather~
+armor Ae AHX
+6 7 7 5 0
+28 70 15 P
+F
+A 19 1 0
+F
+A 12 30 0
+F
+A 1 1 0
+#7808
+sparkling pill !7808!~
+a sparkling pill~
+A pill is here sparkling.~
+dried liquid~
+pill 0 AO
+15 'sanctuary' '' '' ''
+15 10 0 P
+#7809
+wand armor plates armorplates~
+a wand of armor plates~
+The wand of armor plates lies here.~
+steel~
+wand 0 AO
+30 25 25 'armor' 0
+40 15 12500 P
+#7810
+wand steel kites~
+a wand of steel kites~
+The wand of steel kites lies here.~
+steel~
+wand 0 AO
+30 25 25 'shield' 0
+40 15 12500 P
+#7811
+orb recall~
+the orb of recall~
+The orb of recall lies here.~
+oak~
+staff AG AO
+50 25 25 'word of recall' 0
+50 20 25000 P
+#7812
+old sign~
+an old sign~
+An old sign hands here.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+old sign~
+The writting on the wooden sign has been scarred by flames and what 
+look like blood stains.  You can still see some of the letters...
+ 
+CA.E.T .MPT.R
+~
+#7815
+clothesline~
+a clothesline~
+A long clothesline spans the street here, sheets flapping in the breeze.~
+cotton~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#7825
+garlic clove~
+a garlic clove~
+A clove of garlic is lying on the ground here.~
+garlic~
+food 0 A
+1 1 0 0 150
+0 5 0 P
+#7829
+withering scythe~
+a withering scythe~
+A wicked looking scythe pulsates violently on the ground.~
+metal~
+weapon He ANX
+polearm 9 5 drain F
+45 300 3 P
+F
+A 18 3 0
+#7833
+schooner kestrel~
+a schooner~
+A schooner bearing the name 'Kestrel' is moored to the slip here.~
+wood~
+furniture 0 0
+0 0 0 0 0
+50 0 0 P
+E
+schooner kestrel~
+The 'Kestrel' is a small schooner, lightly armed but said to be the fastest ship on
+the Croizan Sea. The 'Kestrel' and her sister ships are used as an advanced screen for
+the rest of the armada during fleet actions.
+~
+#7834
+tallship flying lady~
+a tallship~
+The tallship 'Flying Lady' is moored to the slip here.~
+wood~
+furniture 0 0
+0 0 0 0 0
+50 0 0 P
+E
+tallship flying lady~
+The 'Flying Lady' is a large and heavily armed warship, only outmatched in size by
+the mighty 'Zalango'. It is armed primarily with catapults loaded with Stygian fire
+and the mere sight of this vessel has sent enemy vessels fleeing in terror.
+~
+#7835
+some crates~
+some crates~
+A few crates are here waiting to be loaded.~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#7836
+freighter castillans~
+a freighter~
+A freighter bearing the moniker 'Castillans' is moored here.~
+wood~
+furniture 0 0
+0 0 0 0 0
+50 0 0 P
+E
+freighter castillans~
+The 'Castillans' is a broad bottomed freighter class ship capable of carrying tons
+of merchandise. Usually protected by complement of smaller ships while at sea it is
+ships like this that bring in most of Zalango's wealth by sea.
+~
+#7837
+sloop glacier bay~
+a sloop~
+A sloop marked with the name 'Glacier Bay' is tied to the pier here.~
+wood~
+furniture 0 0
+0 0 0 0 0
+50 0 0 P
+E
+sloop glacier bay~
+This sloop serves a dual purpose in the Zalango armada. It is often used to transport goods
+but as it is quite heavily armed it is also used as an escort for the heavier warships, such
+as the 'Zalango'. The 'Glacier Bay' is one of the fastest ships in the armada.
+~
+#7838
+trawler merced~
+a trawler~
+A fishing trawler named the 'Merced' is moored here.~
+wood~
+furniture 0 0
+0 0 0 0 0
+50 0 0 P
+E
+trawler merced~
+The 'Merced' is a sturdy fishing vessel almost forty feet long. It daily plies the waters
+of the Croizan Sea, bringing fresh fish back to Zalango.
+~
+#7839
+battleship Zalango~
+a battleship~
+The battleship 'Zalango' is here, preparing to sail.~
+wood~
+furniture 0 0
+0 0 0 0 0
+50 0 0 P
+E
+battleship Zalango~
+The 'Zalango' is a dromon class battleship, capable of moving under the power of
+ its three massive sails or the triple rows of oars manned by hundreds of slaves
+below the decks. This behemoth of a ship is almost two hundred feet long and
+bristles with catapults and ballistae. The 'Zalango' usually has a complement of
+a hundred and twenty heavily armed marines on board, making it the terror of the
+Croizan Sea.
+~
+#7846
+knotted club~
+a knotted club~
+A club decked with large knots is lying here.~
+wood~
+weapon 0 AN
+mace 4 4 smash 0
+1 10 800 P
+F
+A 18 1 0
+#7847
+nail studded board~
+a nail studded board~
+A board studded with rusty nails is lying here.~
+wood~
+weapon 0 AN
+mace 4 4 smash D
+1 10 800 P
+F
+A 18 1 0
+#7849
+jacknife jack knife~
+a jacknife~
+A jacknife is lying on the ground here.~
+steel~
+weapon 0 AN
+dagger 4 4 pierce 0
+1 10 800 P
+F
+A 18 1 0
+#7850
+potion recall~
+a potion of recall~
+A potion of recall is here, coveted by all.~
+liquid~
+potion U AO
+10 'word of recall' '' '' ''
+10 30 2800 P
+#7851
+garlic serum~
+a garlic serum~
+A garlic serum is lying on the ground here.~
+ice~
+potion 0 AO
+45 'purge unlife' '' '' ''
+10 10 25000 P
+#7852
+fuchsia potion~
+a fuchsia potion~
+A potion that seems to be burning is lying here.~
+ice~
+potion 0 AO
+5 'fireball' '' '' ''
+10 10 5000 P
+#7853
+yellow vial~
+a yellow vial of liquid~
+A vial of yellow liquid is lying on the ground here.~
+unknown~
+potion 0 AO
+10 'teleport' 'cure light' '' ''
+10 0 7500 P
+#7854
+frothy white potion~
+a frothy white potion~
+A small vial full of a frothy liquid is here.~
+magic~
+potion 0 AO
+5 'fly' '' '' ''
+5 0 3500 P
+#7859
+cloak dreamseeking~
+a Cloak of Dreamseeking~
+A Cloak of Dreamseeking lies here.~
+leather~
+armor 0 AC
+5 5 5 5 0
+30 30 10 P
+F
+A 2 2 0
+#7860
+thief guild ring guildring~
+a thief's guildring~
+A brass guildring is lying on the ground here.~
+brass~
+jewelry 0 AB
+0 0 0 0 0
+5 70 23 P
+L
+5
+F
+S 124 1 0
+#7861
+trash cans~
+some trash cans~
+Some trash cans, overflowing with garbage, are piled here.~
+tin~
+trash 0 0
+0 0 0 0 0
+5 300 0 P
+P RANDOM 7860 20~
+#7866
+fish bones~
+a pile of greasy fish bones~
+A pile of greasy fish bones is lying here.~
+bone~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#7870
+pit sacrifice~
+a sacrificial pit~
+A sacrificial pit lies here in waiting.~
+earth~
+container 0 0
+0 0 0 100000 100
+1 0 0 P
+#7871
+cocktail table~
+a cocktail table~
+A cocktail table is here, surrounded by a few wooden chairs.~
+wood~
+furniture 0 0
+0 0 0 0 0
+10 0 0 P
+#7872
+fish and chips~
+fish n' chips~
+A plate of fish n' chips is lying here, steaming.~
+fish~
+food 0 A
+25 32 0 0 12
+0 10 16 P
+#7873
+bottle rum~
+a bottle of rum~
+A bottle of rum is lying here.~
+glass~
+drink 0 A
+4 4 'rum' 0 0
+10 10 500 P
+#7874
+tankard export ale~
+a tankard of export ale~
+A tankard of ale is lying on the ground here.~
+glass~
+drink 0 A
+2 2 'ale' 0 0
+0 10 25 P
+#7875
+spider blade~
+a spider blade~
+A light, arachnoid looking blade is here.~
+adamantite~
+weapon AB ANXY
+dagger 5 8 sting 0
+40 50 6 P
+#7876
+altar Wuzamuli~
+an altar~
+A black slime covered altar with rats running all over it is here for you to offer up your prayers.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#7880
+wicked trident~
+a wicked trident~
+A wicked looking trident is lying on the ground here.~
+onyx~
+weapon ABJL ANX
+polearm 5 9 slash EF
+45 350 5 P
+F
+A 18 3 0
+F
+A 19 5 0
+#7885
+church bell bronze~
+lighthouse bell~
+A massive watch bell hangs here.~
+bronze~
+furniture X 0
+0 0 0 0 0
+0 10000 100 P
+P RANDOM 7885 100~
+P USE 7887 100~
+#7886
+elven globe light~
+an elven globe of light~
+A small bauble shines brightly here.~
+energy~
+light AK AX
+0 0 999 0 0
+50 10 15 P
+F
+A 2 2 0
+F
+A 18 2 0
+F
+A 17 -10 0
+#7890
+old boat~
+the boat~
+An old boat is barely staying afloat here.~
+wood~
+boat 0 0
+0 0 0 0 0
+5 0 0 P
+E
+old boat~
+Years ago this boat belonged to the proud armada of Miruhvor. Years of wear and tear
+has reduced it to an old wreck. Now it is pensioned off and simply rests here at the
+pier.
+~
+#7912
+halberd~
+a long halberd~
+A long pole topped with a sharp steel tip is lying here.~
+wood~
+weapon 0 AN
+polearm 5 4 cleave F
+1 200 500 P
+F
+A 18 1 0
+F
+A 19 2 0
+#7916
+bronze patina breastplate Shahnate~
+an Shahnate breastplate~
+A bronze breastplate bearing the sigil of the Shahnate is here.~
+steel~
+armor e AD
+8 6 6 0 0
+15 20 2000 P
+#7917
+patina~
+patina~
+Some bluegreen patina has flaked off here.~
+patina~
+socket 0 A
+A 0 0 0 0
+10 10 50 P
+F
+A 17 -2 0
+#7950
+skin~
+a stretched skin~
+A stretched skin hangs from a rack here, drying.~
+skin~
+trash 0 P
+0 0 0 0 0
+1 10000 10 P
+#7951
+carving ~
+a small carving~
+A small carving  resembling a pillar rests on the ground.~
+stone~
+trash 0 P
+0 0 0 0 0
+1 10000 10 P
+#7964
+black dragon tattoo~
+a tattoo of a `8Black Dragon``~
+Some ink has been spilled on the ground here.~
+ink~
+jewelry MPUYZ AI
+0 0 0 0 0
+10 0 2500 P
+F
+A 19 1 0
+F
+A 18 2 0
+F
+S 357 1 0
+#7965
+green dragonfly tattoo~
+a tattoo of a `@Green Dragonfly``~
+Some ink has been spilled on the ground here.~
+ink~
+jewelry MPUYZ AI
+0 0 0 0 0
+10 0 2500 P
+F
+S 247 1 0
+F
+S 246 1 0
+F
+A 18 1 0
+F
+A 19 1 0
+#7966
+tattoo red grinning skull~
+a tattoo of a `!Red `8Grinning Skull``~
+Some ink has been spilled on the ground here.~
+ink~
+jewelry MPUYZ AI
+0 0 0 0 0
+10 0 2500 P
+F
+A 24 -1 0
+F
+S 64 1 0
+F
+A 18 1 0
+F
+A 19 1 0
+#7967
+tattoo black rose~
+a tattoo of a `8Black `!Rose``~
+Some ink has been spilled on the ground here.~
+ink~
+jewelry MPUYZ AI
+0 0 0 0 0
+10 0 2500 P
+F
+S 123 1 0
+F
+S 118 1 0
+F
+A 19 1 0
+F
+A 18 1 0
+#7968
+tattoo charging bull~
+a tattoo of a `3Charging Bull``~
+Some ink has been spilled on the ground here.~
+ink~
+jewelry MPUYZ AI
+0 0 0 0 0
+10 0 2500 P
+F
+S 238 1 0
+F
+A 18 1 0
+F
+A 19 2 0
+#7969
+tattoo white cross~
+a tattoo of a `&White Cross``~
+Some ink has been spilled on the ground here.~
+ink~
+jewelry MPUYZ AI
+0 0 0 0 0
+10 0 2500 P
+F
+A 24 -1 0
+F
+S 424 1 0
+F
+A 18 1 0
+F
+A 19 1 0
+#7970
+tattoo lightning bolt~
+a tattoo of a `$Lightning `#Bolt``~
+Some ink has been spilled on the ground here.~
+ink~
+jewelry MPUYZ AI
+0 0 0 0 0
+10 0 2500 P
+F
+A 18 1 0
+F
+A 19 2 0
+F
+S 58 1 0
+#7971
+tattoo band briars~
+a tattoo of a `3Band`` of Briars~
+Some ink has been spilled on the ground here.~
+ink~
+jewelry MPUYZ AI
+0 0 0 0 0
+10 0 2500 P
+F
+A 24 -1 0
+F
+S 520 1 0
+F
+A 18 1 0
+F
+A 19 1 0
+#7972
+tattoo blue tear~
+a tattoo of a `$Blue `4Tear``~
+Some ink has been spilled on the ground here.~
+ink~
+jewelry MPUYZ Ad
+0 0 0 0 0
+10 0 2500 P
+F
+S 106 1 0
+F
+S 224 1 0
+F
+A 18 1 0
+F
+A 19 1 0
+#7973
+tattoo crossed daggers~
+a tattoo of `&Crossed `8Daggers``~
+Some ink has been spilled on the ground here.~
+ink~
+armor MPUY AI
+0 0 0 0 0
+10 0 2500 P
+F
+A 19 2 0
+F
+A 18 2 0
+F
+S 93 1 0
+#7974
+tattoo burning heart~
+a tattoo of a `1Burning Heart``~
+Some ink has been spilled on the ground here.~
+ink~
+armor MPUY AI
+0 0 0 0 0
+10 0 2500 P
+F
+A 21 -3 0
+F
+A 19 1 0
+F
+A 18 1 0
+#7975
+tattoo blue tear~
+a tattoo of a `4Blue `$Tear``~
+Some ink has been spilled on the ground here.~
+ink~
+armor MPUY Ad
+0 0 0 0 0
+10 0 2500 P
+F
+A 22 -1 0
+#7976
+tattoo thorn brian~
+a tattoo of a `2Thorn `3Briar``~
+Some ink has been spilled on the ground here.~
+ink~
+armor MPUY AI
+0 0 0 0 0
+10 0 2500 P
+F
+S 111 1 0
+#7977
+tattoo colorful butterfly~
+a tattoo of a `%Colorful `5Butterfly``~
+Some ink has been spilled on the ground here.~
+ink~
+armor MPUY AI
+0 0 0 0 0
+10 0 2500 P
+F
+S 106 1 0
+#7978
+tattoo fouled anchor~
+a tattoo of a `6Fouled `#Anchor``~
+Some ink has been spilled on the ground here.~
+ink~
+armor MPUY AI
+0 0 0 0 0
+10 0 2500 P
+F
+A 14 5 0
+#7979
+no name~
+(no short description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#7980
+altar Hoiwinas~
+an altar~
+An altar to Hoiwinas has been carved here.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#7981
+hard tack~
+some hard tack~
+Some hard tack has been left here.~
+flour~
+food 0 A
+32 32 0 0 336
+0 10 16 P
+#7982
+salted fish~
+salted herring~
+Salted herring~
+flour~
+food 0 A
+20 32 0 0 150
+0 10 16 P
+#7983
+ring seashell~
+a seashell ring~
+A small seashell has been left here.~
+seashell~
+boat GU AB
+0 0 0 0 0
+0 20 5000 P
+#7984
+sack~
+a HUGE sack~
+A very big sack is here.~
+leather~
+container 0 AK
+350 A 0 200 100
+1 20 500 P
+E
+sack~
+A brownish leather-like sack rests here.
+~
+#7985
+canteen~
+a canteen~
+A canteen is here.~
+metal~
+drink 0 A
+100 100 'water' 0 0
+1 10 500 P
+#7986
+lantern~
+a lantern~
+A lantern is here.~
+brass~
+light A A
+0 0 200 0 0
+5 2 400 P
+#7987
+whalebone carving~
+a whalebone carving~
+An intricate carving made from whale bone is lying here.~
+bone~
+treasure B AO
+0 0 0 0 0
+2 10 500 P
+E
+carving~
+You see what appear to be flocks of birds surrounding a tallship.
+The bone is very light in your hand, and seems to be humming.
+~
+F
+A 4 1 0
+#7988
+filet knife~
+a filet knife~
+A short, foldable hunting knife is lying on the ground here.~
+steel~
+weapon 0 AN
+dagger 4 4 stab 0
+5 250 650 P
+F
+A 18 1 0
+#7989
+oilskins~
+some oilskins~
+A set of oilskins is lying on the ground here.~
+hide~
+armor 0 AK
+6 4 5 0 0
+10 30 350 P
+#7990
+claw hammer~
+a claw hammer~
+A claw hammer is lying on the ground here.~
+copper~
+weapon 0 AN
+mace 3 5 smash 0
+9 120 750 P
+#7991
+fisherman's gaff~
+a fisherman's gaff~
+A long gaff hook is here, gleaming wickedly.~
+steel~
+weapon 0 AN
+spear 4 5 stab D
+11 25 500 P
+#7992
+spearfishing pike~
+a spearfishing pike~
+A long pike designed for spearfishing is lying here.~
+steel~
+weapon 0 AN
+polearm 4 6 pierce 0
+15 50 1500 P
+#7993
+chainmail filet gloves~
+some chainmail fileting gloves~
+Some steel gloves designed for fileting fish are lying here.~
+steel~
+armor 0 AH
+3 2 6 0 0
+4 30 450 P
+#7994
+some golden hoops~
+some golden hoops~
+A set of golden hoops is lying on the ground here.~
+gold~
+jewelry A AZ
+0 0 0 0 0
+30 5 10 P
+F
+A 19 1 0
+#7995
+poison barbed gauntlets~
+some poison barbed gauntlets~
+A pair of poison barbed gauntlets is lying here.~
+slime~
+armor A AIX
+7 7 7 7 0
+45 200 3 P
+F
+A 18 -1 0
+F
+A 24 -1 0
+F
+A 22 -5 0
+F
+A 20 -5 0
+F
+A 5 1 0
+P FIGHT 7995 10~
+#7996
+tattoo chair~
+a tattoo chair~
+A metal tattooing chair is here, bolted to the floor.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#7997
+black dragon tattoo~
+a tattoo of a `8Black Dragon``~
+Some ink has been spilled on the ground here.~
+ink~
+armor MUY AI
+0 0 0 0 0
+10 0 2500 P
+F
+A 1 1 0
+#7999
+no name~
+(no short description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#7800
+`7Central Common``~
+Here is the black heart of Zalango.  A baroque fountain, once grand
+but now choked with refuse, stands here.  Three marlins rise from the
+central portion of the fountain on their tails, their mouths agape.  Water
+trickles down their length to pool in the basin below.  Every so often a
+spurt of foul smelling water erupts from them, dousing anyone nearby.
+~
+~
+0 8 0 1
+D0
+~
+~
+0 0 7801
+D1
+~
+~
+0 0 7807
+D2
+~
+~
+0 0 7805
+D3
+~
+~
+0 0 7803
+P RANDOM 7801 10~
+P RANDOM 7802 5~
+S
+#7801
+`7Northern Plaza``~
+You are standing near the black heart of Zalango.  Black and pale blue tiles
+form a checkerboard here.  The plaza is thronged with citizens going
+about their daily routines, sailors headed towards the docks, and a host
+of unsavory looking characters who seem to measure you as you pass.  To
+the north looms a brooding black edifice, its spires clawing into the sky.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7869
+D1
+~
+~
+0 0 7808
+D2
+~
+~
+0 0 7800
+D3
+~
+~
+0 0 7802
+S
+#7802
+`7Northwestern Plaza``~
+The northern and western edges of the plaza here are lined with houses
+of red brick, pitted with age and neglect.  Small piles of refuse litter the
+ancient blue and ebony tiles of the place.  Shouts and the hubbub of daily
+life echo in from the east and south.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7801
+D2
+~
+~
+0 0 7803
+S
+#7803
+`7Western Plaza``~
+The plaza here is choked with crowds hurrying eastwards into the heart
+of Zalango.  Wagons rattle by at high speed, headed towards the docks
+to the east.  The western edge of the plaza is lined with tottering buildings
+of red brick.  Once grand, they now lie under the weight of the years,
+their wooden roofs sagging and covered with gull droppings.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7802
+D1
+~
+~
+0 0 7800
+D2
+~
+~
+0 0 7804
+D3
+~
+~
+0 0 7818
+S
+#7804
+`7Southwestern Plaza``~
+Less traffic flows through the portion of the plaza.  The blue and black
+tilework here is worn and ill-cared for.  Small sere weeds poke their heads
+up through the latticework of cracks.  Local tinkers sit with blankets
+spread before them, holding a miscellany of cheap wares.  A facade of red
+brick buildings like the plaza here to the west and south.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7803
+D1
+~
+~
+0 0 7805
+P SPEECH 7804 worship~
+S
+#7805
+`7Southern Plaza``~
+The ground here is paved in a mosaic of sheer black and blue tilework.
+Crowds teem through the plaza, going about the routine of their lives.  
+South stands a immense baroque building, with many spires and turrets
+reaching into the sky.
+A large stairway leads up into the Zalango Palace.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7800
+D1
+~
+~
+0 0 7806
+D3
+~
+~
+0 0 7804
+S
+#7806
+`7Southeatern Plaza``~
+Long rows of red brick tenement homes form the eastern and southern
+boundaries of the plaza here.  Neglect over the centuries has reduced 
+their once fine splendor to decrepitude.  The pale blue and polished black
+paving stones have been worn under the heels of countless passerbys.
+Weeds grow up through cracks between the tiles, waving in the gentle
+breeze.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7807
+D3
+~
+~
+0 0 7805
+S
+#7807
+`7Eastern Plaza``~
+Much traffic moves through the plaza here, bound for the wharves to
+the east.  Tough looking sailors, fresh in from months at sea, idle here,
+exchanging words with hard eyed women.  A line of weathered brick 
+buildings lies along the eastern edge of the plaza here.  The creak of
+taut ropes punctuated with an occasional crash are heard to the east.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7808
+D1
+~
+~
+0 0 7815
+D2
+~
+~
+0 0 7806
+D3
+~
+~
+0 0 7800
+S
+#7808
+`7Northeastern Plaza``~
+Pitted and crumbling structures of red brick demark the eastern and
+northern edges of the plaza here.  The blue and black flagstones here are
+strewn with garbage and litter.  Overhead, sea gulls dive and turn in the
+air, filling the plaza with their cries.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 7807
+D3
+~
+~
+0 0 7801
+S
+#7809
+`7Southern Herring Lane``~
+Rickety buildings, their wooden faces cracked and peeling with age, line
+the earthen street here.  A squat stone structure catches your eye to the 
+west.  As you watch, several well dressed people enter the building but do
+not emerge.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7861
+D2
+~
+~
+0 0 7810
+D3
+~
+~
+0 0 7992
+S
+#7810
+`7Southern Herring Lane``~
+The wooden houses here are small and old, yet show a decent amount of 
+care.  Large gables overhang the street, their shutters thown open.  The 
+road is dirt and full of water filled wagon ruts.  The foot traffic seems to 
+head mostly to the north.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7809
+D2
+~
+~
+0 0 7859
+S
+#7811
+`7The Southern Common``~
+Here is a filthy square, surrounded by tottering rickety
+shacks and hovels.  Numerous dirty urchins,crippled beggars,
+and shifty eyed characters mill around through the piles of
+trash and debris.  To the south can be seen a large wooden
+portcullis, firmly closed against the wilderness beyond.
+~
+~
+0 8 0 1
+D0
+~
+~
+0 0 7958
+D1
+~
+~
+0 0 7827
+D2
+~
+portcullis~
+A 0 7878
+D3
+~
+~
+0 0 7860
+D4
+~
+~
+0 0 7912
+S
+#7812
+`7Northern Herring Lane``~
+A repetitious ringing of metal on metal echoes off the faces of the brick
+buildings here.  The sound seems to be coming from an open doorway
+to the west.  Over the door hangs a sign from an iron rod, showing an
+anvil on its face.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7813
+D2
+~
+~
+0 0 7862
+D3
+~
+~
+0 0 7988
+S
+#7813
+`7Northern Herring Lane``~
+The cobbles of this lane pass between red brick buildings to either side.
+Well dressed people saunter by, intent on their errands.  Over an open
+doorway to the west swings a limed sign, showing a bubbling flask.  An
+acrid stench rolls out of the shop, choking you with its noxious fumes.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7848
+D2
+~
+~
+0 0 7812
+D3
+~
+~
+0 0 7990
+S
+#7814
+`7The Northern Common``~
+You stand amid the bustling Northern Common.  Around you people move to
+and fro heading toward the business sectors of the city.  Large buildings
+made of red brick line the streets, many crumbling with age or covered with
+a green shade of algae from the balmy sea air.  To your north a large
+porticullis denotes the northern gate of Zalango.  
+~
+~
+0 0 0 1
+D0
+~
+portcullis~
+A 0 7876
+D1
+~
+~
+0 0 7846
+D2
+~
+~
+0 0 7886
+D3
+~
+~
+0 0 7847
+D4
+~
+~
+0 0 7928
+S
+#7815
+`7Eastern Flourantine Way``~
+The cobblestones here are sunken into two parallel ruts from the weight
+of the wagons which constantly traverse its length.  Towering buildings of
+brick rise to either side and clotheslines stretch between them.  Billowing
+white sheets flap from them in the freshening sea breeze.  To the west lies
+a brick archway, beyond which can be seen a large open area.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7865
+D1
+~
+~
+0 0 7816
+D2
+~
+~
+0 0 7866
+D3
+~
+~
+0 0 7807
+S
+#7816
+`7Eastern Flourantine Way``~
+Here the brick buildings actually join over the cobbled roadway,
+creating a dark tunnel.  Inside, scruffy men sit propped against the walls,
+drinking from thick bottles of emerald green glass.  Beyond the tunnel the
+street opens up again and you can hear the soft echoing of the sea lapping
+around pilings.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7817
+D3
+~
+~
+0 0 7815
+S
+#7817
+`7Entrance to the Zalango Wharf``~
+An open gate pierces the wall to the west beyond which can be seen the
+tall masts of ships at anchor.  In the square before the gate teem sailors,
+dockmen, and whores, all vying for trade.  Wagons stand ready to load
+the cargo from the docks beyond.  Loud cries of wheeling gulls mingle
+with the grunts of laborers and the creaking of wagons.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7840
+D1
+~
+~
+0 0 7828
+D2
+~
+~
+0 0 7821
+D3
+~
+~
+0 0 7816
+D4
+~
+~
+0 0 7920
+S
+#7818
+`7Western Flourantine Way``~
+You are approaching the center of the city.  To the north runs a cobbled
+street while southwards lies a rutted dirt road.  All around you rise
+worn buildings of red brick that seem to sag under some oppressive
+weight.  Eastward the road passes through an archway between the
+buildings.  On the other side is a large open air plaza, choked with people.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7862
+D1
+~
+~
+0 0 7803
+D2
+~
+~
+0 0 7861
+D3
+~
+~
+0 0 7819
+S
+#7819
+`7Western Flourantine Way``~
+The cobbled road here is highly traveled and knots of people idle along
+its length.  Several shifty eyed men seem to take particular interest in you
+as you pass.  Crumbling red brick buildings line the street to either side,
+their faces showing patches of pale green moss.  To the east you can see
+a busy thoroughfare.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7818
+D3
+~
+~
+0 0 7820
+S
+#7820
+`7Beneath the Western Ramparts``~
+You stand beneath the towering gate of the western wall of Zalango.
+Twin stairs climb to either side of the gateway, allowing soldiers to mount
+the walls in times of siege.  Narrow arrow slits pierce the wall here,
+turning the open area here into a murderous killing ground.  From the
+south comes the brash braying of mules and high whinnying of horses,
+punctuated occasionally with the deep roar of some unknown beast.
+~
+~
+0 8 0 1
+D0
+~
+~
+0 0 7853
+D1
+~
+~
+0 0 7819
+D2
+~
+~
+0 0 7854
+D3
+~
+porticullis~
+AB 0 7877
+D4
+~
+~
+0 0 7904
+S
+#7821
+`7Southern Larken Road``~
+A fine view of the harbor is blotted out by the great stone city wall to
+the east.  Squat warehouses to the west are busy, their double doors
+thrown open and burly stevedores cart crates and boxes within.  The air
+is rent with the grunts and cries of heavy labor.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7817
+D2
+~
+~
+0 0 7822
+S
+#7822
+`7Southern Larken Road``~
+Homes once fine but now weathered and battered by time stand along 
+the western side on the street here.  Their height and widow's walks allow
+their inhabitants to see over the looming city wall to the east.  Fishermen
+pass by, carrying nets or the days catch.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7821
+D2
+~
+~
+0 0 7823
+S
+#7823
+`7Southern Larken Road``~
+Small quaint shacks stand here in the shadow of the eastern city wall.
+In front of each is a small porch, decorated with shells, driftwood, and
+other bounty from the sea.  Nets hang from their railings, in obvious need 
+of mending.  The rich smell of bouillabaisse simmering fills the air and 
+makes your stomach growl.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7822
+D2
+~
+~
+0 0 7824
+S
+#7824
+`7Beneath the Southeastern Bastion``~
+A broad swath of packed earth lies here at the base of the
+corner of the eastern and southern walls of Zalango.  A 
+steep stone stairway is set against the eastern wall, 
+allowing soldiers to mount the ramparts above.  A brisk
+breeze swirls around, carrying the odor of fish and tar.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7823
+D3
+~
+~
+0 0 7825
+D4
+~
+~
+0 0 7916
+S
+#7825
+`7Eastern Shanty Street``~
+Blackened remains of several shacks stand here, gutted and
+empty.  Although it appears the fire occured some time ago,
+no attempt at rebuilding has been made.  A couple small 
+children play in the ruins, ignorant of your approach.
+East lies the seaward wall of the city and you can catch
+the sounds of breakers rolling in.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7996
+D1
+~
+~
+0 0 7824
+D3
+~
+~
+0 0 7826
+S
+#7826
+`7Eastern Shanty Street``~
+Small rickety fishing shantys line the road here.  Many 
+older fishermen, either too aged or crippled by the sea,
+lounge in front of their shacks, mending nets.  Wives gut
+the day's catch and the odor of smoked fish drifts on the
+salty breeze.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7825
+D2
+~
+~
+0 0 16900
+D3
+~
+~
+0 0 7827
+S
+#7827
+`7Eastern Shanty Street``~
+The tall buildings to the west have given way here to
+small hovels and shacks.  The smell of the sea is growing
+stronger and the air is split with the cries of gulls.
+Day laborers and other itenerant workers mill about here,
+staring at you suspiciously.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7868
+D1
+~
+~
+0 0 7826
+D3
+~
+~
+0 0 7811
+S
+#7828
+`7The Zalango Wharf``~
+A broad stone quay build of piled boulders and paved with cobblestones
+reaches out into the bay from the city wall.  Bare-chested stevedores lug
+crates and boxes along its length into the city beyond while fishermen
+scurry by with sacks slung over their shoulders, dripping with the day's
+catch.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7995
+D1
+~
+~
+0 0 7829
+D3
+~
+~
+0 0 7817
+S
+#7829
+`7The Zalango Wharf``~
+The stone quay continues here, reaching out to the north and south.  A
+warped wooden dock juts out to the east here.  The tang of the salt air
+is heavy on your tongue and your face feels tacky from the rime.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7830
+D1
+~
+~
+0 0 7836
+D2
+~
+~
+0 0 7832
+D3
+~
+~
+0 0 7828
+S
+#7830
+`7The Northern Pier``~
+The quay continues north here, paralleling the city wall to the west.
+Tiny sea vermin teem along the rocks below, disappearing as the waves
+splash over them.  Several well-dressed men, resplendent in their silks
+and brocades, argue boisterously with gruff-looking captains.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7831
+D2
+~
+~
+0 0 7829
+S
+#7831
+`7The Northern Pier``~
+This is the end of the stone quay that also serves as a breakwater to
+protect the city wall to the west.  East of here a wooden dock stretches 
+into the harbor, leaning precariously to one side.  Rising up along its length
+you can see the masts of several large ocean-going ships.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7834
+D2
+~
+~
+0 0 7830
+S
+#7832
+`7The Southern Pier``~
+You continue walking along the length of the quay here.  The sounds of
+the harbor are fainter here, for little activity is noticed here.  A row of 
+large brown pelicans stand here like sentries, watching your every move.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7829
+D2
+~
+~
+0 0 7833
+S
+#7833
+`7The Southern Pier``~
+The stone quay ends here, the tide rolling against the large rocks at its
+base.  To the east runs a long wooden pier, splattered with white splotches
+of guano.  A shallow saltmarsh lies to the south over which a narrow
+planked walkway runs.  Beyond the marsh rises the stone spire of a 
+lighthouse.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7832
+D1
+~
+~
+0 0 7838
+D2
+~
+~
+0 0 7879
+S
+#7834
+`7A Row of Boat Slips``~
+Bare-chested sailors in blue-striped pantaloons scamper up a gangplank
+here, carrying supplies abroad their ship.  Others swing in the riggings,
+preparing to raise sail.  Standing on the foc's'l, a bearded man in a blue
+buff coat growls orders.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7835
+D3
+~
+~
+0 0 7831
+S
+#7835
+`7A Row of Boat Slips``~
+Burly stevedores and bare-chested sailors alike swarm down the 
+gangplank here, carrying wooden crates and cursing under their weight.
+From the ship itself comes the groaning creak of taut rope as another load
+is hauled up from the hold in huge cargo nets.
+~
+~
+0 0 0 1
+D3
+~
+~
+0 0 7834
+S
+#7836
+`7A Row of Boat Slips``~
+You walk along a wooden dock that creaks alarmingly under your feet.
+To either side you can see small dingies, longboats, and other watercraft
+moored securely to its posts.  Sailors lounge around, clad only in white
+trousers striped in blue.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7837
+D3
+~
+~
+0 0 7829
+S
+#7837
+`7A Row of Boat Slips``~
+You have reached the end of the dock.  Below you lap the white-tipped
+swells of the bay, laden with flotsam.  You can peer through large cracks
+in the dock and see the barnacle crusted pillars that hold it up.  Eastward
+lies nothing except the great broad expanse of the Croizan Sea.
+~
+~
+0 0 0 1
+D3
+~
+~
+0 0 7836
+S
+#7838
+`7A Row of Boat Slips``~
+Small boats bob at the ends of their hawses here, occasionally clunking
+against the pilings of the pier.  Several dockworkers sit on crates here,
+busily eating their lunch of dried fish.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7839
+D3
+~
+~
+0 0 7833
+S
+#7839
+`7A Row of Boat Slips``~
+The southernmost dock of Zalango shows little activity.  The wooden
+planks under your feet are bowed and you can see the water through them
+below your feet.  A few dockmen loiter here, stretching out the day's
+labor.
+~
+~
+0 0 0 1
+D3
+~
+~
+0 0 7838
+S
+#7840
+`7Northern Seaside Road``~
+A series of red brick buildings runs along the western verge of the street
+here, paralleled on the other side by the stone height of the eastern wall of
+Zalango.  Three stories in height, each has an iron balcony the runs the
+entire length of its face.  Women whose dress shows some degree of
+prosperity walk along the street here, carting bundles of goods from the
+market.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7841
+D1
+~
+~
+0 0 7871
+D2
+~
+~
+0 0 7817
+S
+#7841
+`7Northern Seaside Road``~
+It seems likely that the red brick homes to the west are the domiciles 
+of the city's sea captains.  Although age and the effects of the salt air has
+weathered them, their once grand faces still appear imposing.  Each has
+an iron widow's walk encompassing its upper stories though most are
+stained with blotches of chalky white sea gull droppings.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7842
+D2
+~
+~
+0 0 7840
+S
+#7842
+`7Northern Seaside Road``~
+The smell of the sea is strong as you walk down the cobbles of this 
+narrow street.  Any view to the east is obscured by the bulk of the city wall
+but along the western edge of the lane rise several ornate houses of red
+brick.  Their upper stories are surrounded by iron widow's walks.  A
+massive white sea gull perches on one's railing, eyeing you as if you might
+make a tasty snack.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7843
+D2
+~
+~
+0 0 7841
+S
+#7843
+`7Beneath the Northeastern Bastion``~
+A small grassy green is located here at the corner of the eastern and
+northern city walls.  Although pocked with weeds and bits of rubbish, it
+is the closest thing to a clean area you have seen in this city.  A stone
+stairway climbs the western wall here, from which you can ascend the
+top of the city walls.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 7842
+D3
+~
+~
+0 0 7844
+D4
+~
+~
+0 0 7924
+S
+#7844
+`7Eastern Larken Road``~
+The top of a gloomy brooding mansion rises above the height of a brick
+wall along the southern side of the cobbled way.  A massive gate of
+twisted black iron bars is set firmly in the gate, secured to the wall with
+a length of soldered iron chain.  The top of the wall is set with jagged
+iron spikes, their upper length wickedly barbed.
+ 
+A rusted, weathered sign hangs on the rusty gate here.
+~
+~
+0 0 0 1
+E
+sign~
+NOTICE TO ALL: This house declared CONDEMNED by the Shahnate
+of Zalango. Notice of public hearing for auction rites to
+take place regarding the estate of Bartelby Marsh, notorious
+pirate captain of the Croizan Sea, effective immediately.
+No Trespassing or Loitering.
+~
+D1
+~
+~
+0 0 7843
+D3
+~
+~
+0 0 7845
+S
+#7845
+`7Eastern Larken Road``~
+In the wide spot where the two roads converge at the base of the northern
+wall of the city several tinkers have gathered.  One busily turns a grindstone
+while his companion holds a knife against the wheel, showering out a
+cascade of sparks while a woman looks on.  Several other ladies stand
+nearby, holding a collection of domestic cutlery.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7844
+D2
+~
+~
+0 0 7863
+D3
+~
+~
+0 0 7846
+S
+#7846
+`7Eastern Larken Road``~
+A wooden scaffolding has been erected against the city wall to the north.
+Blocks of cut stone stand stacked nearby and a group of muscled men
+sits on the ground with their backs against them, passing a emerald-green
+glass bottle between them.  From the porches of the red brick homes across
+the street women yell at the workers, but they appear not to take any
+notice.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7845
+D3
+~
+~
+0 0 7814
+S
+#7847
+`7Western Larken Road``~
+Standing in front of a row of squalid red brick hovels is a mob of young
+teen-aged boys, arguing loudly.  Each wears a sash of sea green cloth
+bound around his waist and most carry knotted clubs, nail-studded boards
+and other impromptu weapons.  They stare at you coldly as you walk by.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7814
+D3
+~
+~
+0 0 7848
+S
+#7848
+`7Western Larken Road``~
+At the intersection of the two roads here stands a knot of young girls.
+They ignore you, seemingly intent on peering to the east and west along
+the street, expectantly.  The air is filled with the high sounds of their
+anxious chatter. 
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7847
+D2
+~
+~
+0 0 7813
+D3
+~
+~
+0 0 7849
+S
+#7849
+`7Western Larken Road``~
+The cobblestone street runs east and west here, underneath the shadow
+of the northern wall of the city.  A group of sullen-looking teenagers 
+malingers in front of the row of decrepit red brick buildings to the south.
+Each has a strip of brilliant red cloth tied around his right bicep, the ends
+fluttering as he moves.   They seem to size you up as you pass by.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7848
+D3
+~
+~
+0 0 7850
+S
+#7850
+`7Beneath the Northwestern Bastion``~
+Here at the base of the northern and western walls of Zalango is a small
+muddy square.  Piles of offal and garbage show it is evidently serves as
+a midden heap for the locals.  A wooden series of steps rises up along the
+northern edge of the square, allowing access to the top of the city wall.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7849
+D2
+~
+~
+0 0 7851
+D4
+~
+~
+0 0 7900
+S
+#7851
+`7Northern Wall Road``~
+The rutted dirt road here shows disuse and neglect.  Large standing
+puddles of muddy water are everywhere and despite your careful steps,
+a squelch indicates a trip to the cobbler might be in order.  A row of
+red brick tenements parallels the mired lane along the east while the city
+wall looms off to the west.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7850
+D2
+~
+~
+0 0 7852
+S
+#7852
+`7Northern Wall Road``~
+The dirt road continues here, running past the roofless shell of a gutted 
+brick building, blackened by fire.  Its empty windows and doorways stare 
+at you blankly, like the hollow sockets of a skull.  Sere weeds wave in
+front of the ediface and clumps of moss send tendrils into the air from 
+cracks between the bricks.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7851
+D2
+~
+~
+0 0 7853
+S
+#7853
+`7Northern Wall Road``~
+A road of packed earth runs north here along the inner face of the city
+wall.  To the east is a row of small brick houses, their faces stained with 
+patches of greenish moss.  Several children play in the street here, hitting
+a ball of twine-wound rags with short sticks.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7852
+D2
+~
+~
+0 0 7820
+S
+#7854
+`7Southern Wall Road``~
+Your boots squelch in piles of unmentionable filth as you walk along
+the street here.  To the west lies the defensive wall of Zalango while to
+the east runs a long line of wooden structures.  Hanging over a large
+open double door is a simple wagon wheel.  From within comes the
+sounds of whickering and snorting.  Every so often a loud crack echoes
+out.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7820
+D1
+~
+~
+0 0 7994
+D2
+~
+~
+0 0 7855
+S
+#7855
+`7Southern Wall Road``~
+The  western  side of  the street  is  bordered by  the city  wall, its
+crenellations rising up into the sky.  On the other side are drab wooden
+houses, boring in their similarity and lack of decor.  The air is still and 
+quiet, broken only by the occasion ring of metal on metal from a guard 
+pacing atop the wall.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7854
+D2
+~
+~
+0 0 7856
+S
+#7856
+`7Southern Wall Road``~
+Along the western side of the street stands the city wall.  Several large
+houses, their lower stories built of red brick line the other side.  Each has
+their shutters tightly closed.  No sounds are heard except for the cry of
+marsh birds beyond the wall.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7855
+D2
+~
+~
+0 0 7857
+S
+#7857
+`7Beneath the Southwestern Bastion``~
+The buildings stop abruptly, leaving an open area where the
+western and southern walls of Zalango converge.  A narrow
+stairway of stone rises along the wall here, giving access
+to the ramparts above.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7856
+D1
+~
+~
+0 0 7858
+D4
+~
+~
+0 0 7908
+S
+#7858
+`7Western Shanty Street``~
+The buildings here rise up and reach out over the street,
+casting their shadow on those hurrying by.  Loud noises and
+bursts of riotous laughter echo out of the hovels nearby.
+Evidently there is a tanner nearby, for the stench of his
+craft permeates the air here, nearly making you gag.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7859
+D2
+~
+~
+0 0 7997
+D3
+~
+~
+0 0 7857
+S
+#7859
+`7Western Shanty Street``~
+At the intersection here the street widens a little,
+allowing a little more light.  This intersection obviously
+serves as an impromptu meeting place, for small groups of
+people stand around, idly chatting, while others hawk
+various trinkets.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7810
+D1
+~
+~
+0 0 7860
+D3
+~
+~
+0 0 7858
+S
+#7860
+`7Western Shanty Street``~
+The street here is cloaked in perpetual semi-gloom from
+the buildings rising up and inward to either side.  Shutters
+hang open, revealing small rooms from which the sounds of 
+their inhabitants issue.  The air is thick with the odors of
+the garbage heaped along the street.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7811
+D2
+~
+~
+0 0 7999
+D3
+~
+~
+0 0 7859
+S
+#7861
+`7Southern Herring Lane``~
+The tall and narrow three story houses that line the street here look
+fairly clean and prosperous.  A steady stream of goodwives walk along
+the street here, heading to the markets and returning.  Smells of cooking
+food and baking bread waft from the open windows here, along with the
+crying of babies and chattering of children.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7818
+D2
+~
+~
+0 0 7809
+S
+#7862
+`7Northern Herring Lane``~
+The narrow lane is flanked with large red brick buildings that rise to 
+either side, eclipsing a portion of the sky.  Boot heels ring on the cobbles
+as citizens dressed in nice wools amble by, sparing you barely a glance
+as they pass.  A distant dinging rings in from the north.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7812
+D2
+~
+~
+0 0 7818
+S
+#7863
+`7Northern Misty Lane``~
+Tiny houses of red brick line both sides of the cobblestone street.  In
+front of each three stairs rise to the doorway.  On one of the stoops squats
+a knot of children in a circle.  From within their midst rises a pitiful feline
+squall.  Mothers in stained white aprons look on with bland expressions
+on their broad faces, saying nothing.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7845
+D1
+~
+~
+0 0 7872
+D2
+~
+~
+0 0 7864
+D3
+~
+~
+0 0 7873
+S
+#7864
+`7Northern Misty Lane``~
+All the openings of the brick buildings to either side of the street here
+have been boarded securely shut.  Across each panel is scrawled a 
+painted white X.  No people are in evidence and the sole occupants here
+seem to be the cat-sized brown rats which chitter at you menacingly.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7863
+D2
+~
+~
+0 0 7865
+S
+#7865
+`7Northern Misty Lane``~
+High facades of red brick buildings rise to either side of the cobble walk
+here, nearly meeting overhead and blotting out the sky.  From windows
+with their shutters thrown wide, people call to their neighbors, giving
+the day's news.  In the street stout members of Zalango's middle class
+pass by, stopping to give you a quizzical glance.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7864
+D2
+~
+~
+0 0 7815
+S
+#7866
+`7Southern Misty Lane``~
+The air is full of the smell of frying fish and baking bread here. Wooden
+shops packed closely together draw large crowds of people who bustle
+past you.  Darting into doorways, they emerge a minute later with a loaf
+of bread or a fish wrapped in cloth.  To the east hangs a sign over an open
+doorway, showing three silvery fish.  A pack of cats meander in front, 
+yowling.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7815
+D1
+~
+~
+0 0 7981
+D2
+~
+~
+0 0 7867
+S
+#7867
+`7Southern Misty Lane``~
+The shops here all have large windows, covered by awnings, in which 
+they display their wares.  The street is full of people and you are elbowed
+and jostled repeatedly as you survey the area.  To the east a sign swings
+in the breeze.  Painted on it are depictions of a coil of rope, a sack, and a
+lantern.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7866
+D1
+~
+~
+0 0 7983
+D2
+~
+~
+0 0 7868
+S
+#7868
+`7Southern Misty Lane``~
+Many small wooden shops line the street here.  They do not look very
+well cared for or frequented, for few goods are displayed.  Sullen stares
+greet you from open windows and a few people who loiter in front of the
+stores watch you as you walk by.
+~
+~
+0 8 0 1
+D0
+~
+~
+0 0 7867
+D2
+~
+~
+0 0 7827
+S
+#7869
+`8Temple Entrance``~
+The air inside the temple is chill and damp and a slick
+sheen of moisture glistens everywhere.  A huge bronze gong
+and hammer hang on chains from the ceiling.  The surface of
+the gong is graven so as to resemble strands of kelp.  A 
+closer look reveals the tortured forms of people entwined
+within the seaweed, dying from suffocation.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 7801
+D4
+~
+~
+0 0 7870
+S
+#7870
+`8Altar of Wuzamuli``~
+Towering over everything in this room is a huge bronze effigy
+of a rat. Before his rodent feet lies a deep stone pit, half full of
+sewer water. Sickly pale green illumination seems to issue from
+the walls themselves, making the air swim and shimmer.
+~
+~
+0 12 0 0
+D5
+~
+~
+0 0 7869
+P GRALL 7869 100~
+P SPEECH 7870 worship~
+P GRALL 12109 100~
+S
+#7871
+`8The Crow's Nest Tavern``~
+You stand amid the local watering hole for the town of Zalango.
+Here, sailors returning from a voyage often come to partake in the
+myriad fights and brawls or a few sips of the local export ale or
+rum headed for the other side of the Croizan Sea. A few cocktail
+tables are set up here, most wobbly and dented, while a young maid
+with a beautific smile waits patiently on the rowdy bar crowd.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 7840
+S
+#7872
+`8The Eldritch Emporium``~
+This room is filled with a plethora of shelves, boxes, crates, and
+display cases, all of which are filled with a large number of trinkets,
+artifacts, and other miscellaneous nic nacs of interest.  An old, splintered
+sign hangs above a like counter depicting a faded moon mounted atop a
+single, yellow star.  The counter is in worse condition, it's once-smooth
+surface now pitted and scarred from flame and such.  
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 7863
+S
+#7873
+`8Hezel's Financing``~
+The room is dark and somber in its outlook.  A number of dusty, unused
+ledgers line impressive bookcases on its walls and a massive desk dominates
+the far corner.  A single stool designed to inflict upon its user maximum
+amount of discomfort is positioned before it, facing what must be the owner
+of this establishment.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 7863
+S
+#7876
+`7The Northern Drawbridge of Zalango``~
+You stand at the edge of a deep brackish moat, choked with reeds and
+lilypads.  A thick wooden drawbridge spans the moat, its timbers covered
+in slimy growths of algae.  One iron chain runs from the drawbridge into
+the gate beyond while the other hangs limply down into the moat.  A
+iron nailed portcullis stands firmed closed, barring entry into the city.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 2126
+D2
+~
+~
+A 0 7814
+D5
+~
+~
+0 0 7942
+S
+#7877
+`7The Western Drawbridge of Zalango``~
+The black gate of Zalango lies to the east here, beyond a drawbridge
+spanning a moat of foul brackish water.  The timbers and beams of the
+bridge are splintered and warped with age and the salt air.  Twisted iron
+chains, their lengths pitted with rust, rise up and disappear within the gate
+house to the east.
+~
+~
+0 0 0 1
+D1
+~
+porticullis~
+AB 0 7820
+D5
+~
+~
+0 0 7932
+S
+#7878
+`7Southern Drawbridge of Zalango``~
+Long forgotten by the rulers of Zalango, the southern
+entrance to the city shows the neglect. A cracked and 
+splintered drawbridge, its iron chains marred with rust,
+lies across a weed-choked moat.  On the other side of the
+drawbridge is a wooden portcullis, its timbers festooned
+with growths of greenish moss.
+~
+~
+0 0 0 1
+D0
+~
+portcullis~
+A 0 7811
+D5
+~
+~
+0 0 7957
+S
+#7879
+`7A Long Gangplank``~
+The rickety gangway sways alarmingly under your feet as you carefully
+walk along it.  A great heron of slate grey hue stalks menacingly amidst
+the marshgrass.  The walkway stretches further south towards the base
+of a large stone tower or you can return north to the firm safety of the
+quay.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7833
+D2
+~
+~
+0 0 7880
+S
+#7880
+`7A Long Gangplank``~
+Carefully placing your feet so as to avoid the huge gaping holes in the
+bridge, you ease your way further along.   The water below has given
+way to a vast expanse of mud over which scuttle tiny crabs, their pincers
+waving in the air.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7879
+D2
+~
+~
+0 0 7881
+S
+#7881
+`7At the Base of the Lighthouse``~
+You have reached a narrow outcropping of stone that sticks out from 
+the mainland into the bay.  Rising up here into the sky is a great tower
+of stone blocks, the lighthouse of Zalango.  A heavy wooden door to
+the east stands closed.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7880
+D1
+~
+~
+AB 0 7882
+S
+#7882
+`8The First Floor of the Lighthouse``~
+You are standing in a circular chamber.  Glancing up gives you a severe
+case of vertigo for the tower continues straight up with only small stone
+landings connected by a iron stairway that spirals up along the inner wall.
+Several barrels line the wall here.  Judging by the smell they are full of 
+whale oil.  Two ropes dangle down here from a shaft, each with a metal
+hook at its end.
+~
+~
+0 8 0 0
+D3
+~
+~
+AB 0 7881
+D4
+~
+~
+0 0 7883
+S
+#7883
+`8The Second Floor of the Lighthouse``~
+You continue your climb upwards and your legs begin to burn with the
+exertion.  It is gloomy here for there are no windows although some light
+filters down from above.  The ropes you saw below continue past you,
+rising up into the heights of the lighthouse.
+~
+~
+0 8 0 0
+D4
+~
+~
+0 0 7884
+D5
+~
+~
+0 0 7882
+S
+#7884
+`8The Third Floor of the Lighthouse``~
+Narrow windows here, their shutters opened inwards along the walls,
+allows the sharp wind to snap it, chilling you.  Above you can finally see
+a ceiling through which the stairway disappears.  Two ropes stretch down
+from a hole and sway in the breeze.
+~
+~
+0 8 0 0
+D4
+~
+~
+0 0 7885
+D5
+~
+~
+0 0 7883
+S
+#7885
+`8The Top of the Lighthouse``~
+From the top of the lighthouse you can see the entirety of Zalango laid
+out below you.  Sharp peaked gables stick up from within the city walls
+to the northwest while tiny boats bob in the harbor to the north.  A lantern
+burns brightly in the center of the room, filling it with the odor of burning
+whale oil.  A stack of metal buckets stands near the lantern.
+~
+~
+0 0 0 0
+D5
+~
+~
+0 0 7884
+P RANDOM 7885 75~
+S
+#7886
+`7Guild Row``~
+South of you stands a great stone tower, rising into the sky.  Set 
+equidistant around its girth are three smaller towers that reach far above
+the top of the main structure.  Weird lights flash and flicker in their upper
+ windows and the air is sharp with energy, causing the hair on your arms 
+and neck to stand on end.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7814
+D1
+~
+~
+0 0 7887
+D2
+~
+~
+0 0 7895
+D3
+~
+~
+0 0 7888
+S
+#7887
+`7Guild Row``~
+A long two-story building lies to the south of the cobbled alley here.  Cries
+and shouts, punctuated with the ring of steel on steel and the thunk of
+heavier impacts can clearly be heard.  A steady line of people stagger
+out of the doorway, nursing blackened eyes, holding sprung limbs, and
+showing other painful signs of their lessons.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 7966
+D3
+~
+~
+0 0 7886
+S
+#7888
+`7Guild Row``~
+To the south rises a mammoth building, remarkable in that it is built of
+stone instead of the usual red brick so common elsewhere in the city.
+The faint drone of chanting murmurs out and you can smell the sweet
+cloying odor of incense.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7886
+D2
+~
+~
+0 0 7889
+S
+#7889
+`8The Clerical Guildhouse``~
+You stand in a great hall, its pillars rising up dozens of feet to support
+the vaulted ceiling overhead.  It stretches on to the south into the depths
+of the building.  To the east a high pointed archway allows access to a
+room beyond.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7888
+D1
+~
+~
+0 0 7891
+D2
+~
+~
+0 0 7890
+S
+#7890
+`8The Clerical Guildhouse``~
+Darkness cloaks the far end of this hall, making everything within appear
+shadowy and surreal.  Sounds are muted and thin, seemingly coming from
+a great distance.  A piteous shriek breaks the still, causing your teeth to
+ache.  The sound comes from a short post and lintel doorway to the east.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7889
+D1
+~
+~
+0 0 7892
+S
+#7891
+`8The Guildhall of the Clerics``~
+You have entered a circular room, half pillars framing its circumference.
+An iron spiral staircase wends its way upward in the center of the room.
+The monotonous sounds of chanting filter in from above and the air carries
+the thick smell of incense.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 7889
+D4
+~
+~
+0 0 7894
+S
+#7892
+`8The Guildhall of the Shamans``~
+This long rectangular hall is dark and its atmosphere oppressive.  Even
+the firepit burning halfway down its length seems to add to the pall rather
+than dispel it.  A choked sobbing echoes down from above and the air
+carries the stench of suppuration and misery.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 7890
+D4
+~
+~
+0 0 7893
+S
+#7893
+`8The Hall of Disease``~
+Manacled to the far wall here is a pitiful wretch, his body covered in open
+running sores and his crazed eyes fever bright.  A semi-circle of people
+in black robes before him gaze on his misery in calculated interest.  A
+gangrenous odor fills the chamber.
+~
+~
+0 836763656 4096 0
+D5
+~
+~
+0 0 7892
+S
+#7894
+`8The Hall of Communion``~
+This circular room is topped with a dome, its center pierced with an oculus.
+Robed and hooded acolytes kneel here, their voices droning on in paeans 
+to the divinities of Mirlan.  The air chokes you, full of the sweet stench
+of burning herbs mingled with the fumes of smoldering dung.
+~
+~
+0 836763656 4096 0
+D5
+~
+~
+0 0 7891
+S
+#7895
+`8The Mage Guildhouse``~
+The air here is brightly lit from a huge shimmering globe that floats freely
+in the upper reaches of the hall.  Strange creatures spring into being,
+cavorting briefly before vanishing with a pop.  A fine rain starts, ceasing
+a second later.  Reality bends and fluxes here under the strain of those
+imposing their will upon it.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7886
+D1
+~
+~
+0 0 7964
+D2
+~
+~
+0 0 7896
+D3
+~
+~
+0 0 7899
+S
+#7896
+`8The Mage Guildhouse``~
+Unlike the entrance area, this portion of the tower is still and quiet.  Few
+people move through here and those that do scurry by, hunched over as if
+draw as little attention to themselves as possible.   From the archway to
+the east comes a slight scent of decay.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7895
+D1
+~
+~
+0 0 7897
+S
+#7897
+`8The Guildhall of the Necromancers``~
+Leering skulls, stacked as high as the ceiling, line the walls of this room.
+The scent of decay has bloomed into a full fruity stench of corruption.  No
+sound is heard in the oppressive stillness.  A stone ramp reaches upwards
+into the darkness of the tower's heights.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 7896
+D4
+~
+~
+0 0 7898
+S
+#7898
+`8The Hall of the Undead``~
+Large stone tables stand around the room here, each with a still form lying
+on it.  A shriveled mummy, its bandages half wound exposing the
+desiccated face and torso, occupies the central table.  Shelves, holding
+canopic jars of bronze, stone, and clay, line the walls of the chamber.  A 
+ripe brown reek rises from a bin of body parts, awaiting attention.
+~
+~
+0 836763656 0 0
+D5
+~
+~
+0 0 7897
+S
+#7899
+`8The Guildhall of the Battlemages``~
+The air inside the base of this tower smells scorched and hot.  As you
+stand here, a ponderous rolling boom echoes down from above and the air
+sizzles around you.  The ground actually lurches a bit under your feet.  An
+iron staircase, running with white-blue sparks, winds its way upward into
+the tower.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 7895
+D4
+~
+~
+0 0 7963
+S
+#7900
+`7The Northwestern Bastion``~
+The walls meet here in squat stone bastion.  A wooden platform stands
+in the center of the structure, and a pile of cut timber and coils of twisted
+help rope lay nearby.  Gazing out from the bastion you can see miles of
+trackless wasteland, barren and empty.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7931
+D2
+~
+~
+0 0 7901
+D5
+~
+~
+0 0 7850
+S
+#7901
+`7The Northwestern Ramparts``~
+You are walking along the western wall top of the city.  You can walk
+north to where a large flat-topped bastion sits at the northwestern corner
+of the city or to the south towards a barbette.  Beyond the moat at the
+foot of the wall lies a barren grassland.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7900
+D2
+~
+~
+0 0 7902
+S
+#7902
+`7The Northwestern Ramparts``~
+Thrusting out from the wall here is a machicolated barbette that protects
+the base of the wall.  Bins of fist-sized rocks rest against the battlement,
+ready to be hurled at anyone below.  Off to the west beyond the city you
+can see miles of browned grassland.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7901
+D2
+~
+~
+0 0 7903
+S
+#7903
+`7The Northwestern Ramparts``~
+You are atop the western wall of the city.  A circular barbette hangs over
+wall to the north while the top of the city gate can be spied to the south.
+Westward you can see miles of brown grasses blowing in the wind.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7902
+D2
+~
+~
+0 0 7904
+S
+#7904
+`7The Western Ramparts``~
+The top of the western gate is ringed with battlements that project over
+the walls.  An iron pole rises up here and at its top a pendant showing the
+three marlin crest of Zalango flutters in the breeze.  West of the city lies
+a great barren plain, sere and dry.  Two stairways descend here, allowing
+access into the city below.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7903
+D2
+~
+~
+0 0 7905
+D5
+~
+~
+0 0 7820
+S
+#7905
+`7The Southwestern Ramparts``~
+You are high atop the western wall of Zalango.  The city stretches out
+to the east of you to the edge of the sea.  Further north you can see the
+top of the western gate while southwards lies a narrow stone barbette 
+projecting from the wall's face.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7904
+D2
+~
+~
+0 0 7906
+S
+#7906
+`7The Southwestern Ramparts``~
+At this point the wall has a barbette projecting from it, allowing the
+archers into to shoot along the walls.  A raised wooden platform stands
+on the wall behind it, mossy with age.  At the foot of the wall you can see
+the brackish moat that surrounds the city.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7905
+D2
+~
+~
+0 0 7907
+S
+#7907
+`7The Southwestern Ramparts``~
+The outer wall here runs north and south along the western edge of the
+city.  To the north you can see a circular barbette jutting out from the
+wall.  A wide bastion lies southward from here.  West of the city the
+wilderness stretches out, miles of dry barren plain.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7906
+D2
+~
+~
+0 0 7908
+S
+#7908
+`7The Southwestern Bastion``~
+The tops of the walls come together here in a large flat-topped bastion
+that bows out from the wall's face.  Glancing down you can see logs
+drifting amidst the weeds of the moat which lies at the bastion's foot.  Far
+to the south a faint green haze can be seen.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7907
+D1
+~
+~
+0 0 7909
+D5
+~
+~
+0 0 7857
+S
+#7909
+`7The Southwestern Ramparts``~
+The wind whips and whirls around you and through the stone merlons
+that shadow the walk here.  Further to the west you the wall widens into
+a great bastion while eastwards you can see a delicate barbette hanging
+over the wall.  Far away to the south a green stain mars the horizon.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7910
+D3
+~
+~
+0 0 7908
+S
+#7910
+`7The Southwestern Ramparts``~
+Thrusting out from the wall face here is a narrow barbette, its dressed
+stone wall pierced with crossletted arrow slits.  Archers here can rake the
+walls to either side with a murderous crossfire.  At the edge of your
+vision to the south you can faintly see the tops of large trees.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7911
+D3
+~
+~
+0 0 7909
+S
+#7911
+`7The Southwestern Ramparts``~
+You are walking atop the southern wall of Zalango.  The air is fresh
+and cool here from the steady sea breeze that blows from the east.  The
+top of the southern gate lies to the east and to the west is a stone barbette.
+Staring off to the south you can see the faint traces of a great forest.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7912
+D3
+~
+~
+0 0 7910
+S
+#7912
+`7The Southern Ramparts``~
+You stand high above the city on the windswept ramparts.  A huge
+cauldron, once used to pour boiling water on attackers, stands here empty.
+Looking south over the battlements you can see a faint trail leading south
+away from the gate, snaking into the shadowy forest on the horizon.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7913
+D3
+~
+~
+0 0 7911
+D5
+~
+~
+0 0 7811
+S
+#7913
+`7The Southeastern Ramparts``~
+A wall walk runs along the top of the wall here, protected by large merlons
+of stone.  To the west lies the crenellated top of the southern gate while
+eastward a barbette projects from the wall.  On the horizon to the south
+you can make out a green smudge.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7914
+D3
+~
+~
+0 0 7912
+S
+#7914
+`7The Southeastern Ramparts``~
+A slender barbette juts out from the wall here to allow archers to shoot
+along the walls to either side.  The top of a large canopy of trees can 
+just faintly be discerned to the south.  Atop a high pole here a flag bearing
+the three marlin crest of Zalango snaps in the breeze.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7915
+D3
+~
+~
+0 0 7913
+S
+#7915
+`7The Southeastern Ramparts``~
+Inside the battlements here runs a wall walk to provide cover to soldiers.
+Large stone merlons pierced with arrow slits rise up, shadowing the walk.
+To the east lies a stone bastion and to the west a barbette projects out from
+the wall top.  A green haze to the south seems to indicate a large forest
+there.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7916
+D3
+~
+~
+0 0 7914
+S
+#7916
+`7The Southeastern Bastion``~
+Here the southern and eastern walls converge in a wide bastion, helping
+to provide flanking fire along the walls.  Looking south you can see the
+faint smudge of a great forest on the horizon while eastward tall masts
+rise up into the sky from ships riding at anchor in the harbor.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7917
+D3
+~
+~
+0 0 7915
+D5
+~
+~
+0 0 7824
+S
+#7917
+`7The Southeastern Ramparts``~
+The eastern wall stretches on here, its foot disappearing underneath the
+waters of the bay.  Sea gulls, terns, and many other birds fly high above,
+rending the air with their raucous cries.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7918
+D2
+~
+~
+0 0 7916
+S
+#7918
+`7The Southeastern Ramparts``~
+Evidently a favorite resting place for the myriad of sea birds that dwell
+nearby, the wall here is covered in chalky white and green droppings.
+Remains of crumbling nests adorn the spaces between the merlons.  East
+lies the city's harbor, its surface covered with boats and ships.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7919
+D2
+~
+~
+0 0 7917
+S
+#7919
+`7The Southeastern Ramparts``~
+A brisk breeze from the sea blows strongly here.  To the north you can
+see the top of the eastern gate of the city.  The walls stretches on further
+to the south.  Watercraft of all sorts move across the blue-green waters
+of the harbor to the east, the commercial center of Zalango.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7920
+D2
+~
+~
+0 0 7918
+S
+#7920
+`7The Eastern Ramparts``~
+Atop the eastern gate of Zalango is a picture perfect view of the city's
+great harbor.  Tall masted ships ride at anchor while small oared vessels
+ply the waters, nets swirling out with a splash.  Beyond the harbor mouth
+white capped waves ride it, breaking against yellow sandbars and the
+upthrust teeth of jagged reefs.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7921
+D2
+~
+~
+0 0 7919
+D5
+~
+~
+0 0 7817
+S
+#7921
+`7The Northeastern Ramparts``~
+Large dressed blocks of stone line the wall here, providing protection
+for the city's archers.  Southwards you can see the top of the western
+gate of the city while north runs an uninterrupted length of wall.  The air
+is full of the tang of salt and the screams of sea birds gliding above harbor
+to the east.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7922
+D2
+~
+~
+0 0 7920
+S
+#7922
+`7The Northeastern Ramparts``~
+The wall continues on here in the shadow of its battlements.  The length
+of the stonework here is festooned with shrieking sea birds, hopping up
+and fluttering as you approach.  A look to the sea shows the harbor of
+Zalango and ships bobbing gently on its surface.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7923
+D2
+~
+~
+0 0 7921
+S
+#7923
+`7The Northeastern Ramparts``~
+On the wall here a small boy teases an angry gull with a fish head tied to
+a length of string.  You can see a long wooden beam rising into the sky
+from the bastion to the north.  Out to the east you can see lines of long
+gentle swells riding in from the Croizan Sea.
+~
+~
+0 0 0 1
+D0
+~
+~
+0 0 7924
+D2
+~
+~
+0 0 7922
+S
+#7924
+`7The Northeastern Bastion``~
+Atop the bastion here stands an enormous trebouchet, its upper arm
+towering into the sky.  It faces the harbor to the southeast and a pile of
+massive boulders is heaped nearby, ready for use.  The danger of
+operating such a machine is evidenced by the dried blackened stains
+on the stones nearby.
+~
+~
+0 0 0 1
+D2
+~
+~
+0 0 7923
+D3
+~
+~
+0 0 7925
+D5
+~
+~
+0 0 7843
+S
+#7925
+`7The Northeastern Ramparts``~
+Underneath the battlements the wall stretches eastwards towards a large
+bastion, from which a long wooden beam extends into the sky.  West you
+can see the outline of a barbette.  Your view to the north is unobstructed
+but reveals only countless miles of barren plains.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7924
+D3
+~
+~
+0 0 7926
+S
+#7926
+`7The Northeastern Ramparts``~
+A barbette hangs out over the wall here.  A pole set within its stonework
+holds aloft a flapping pennant with the three marlin crest of Zalango
+embroidered upon its cloth.  A look over the merlons northwards shows
+only a dry sere plain, its desiccated grass waving feebly in the wind.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7925
+D3
+~
+~
+0 0 7927
+S
+#7927
+`7The Northeastern Ramparts``~
+A huge gap appears in the battlements here.  Glancing down through the
+gap you can see piles of stonework in the moat below.  Pans of dried
+mortar and several trowels lie nearby but no workmen are present.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7926
+D3
+~
+~
+0 0 7928
+S
+#7928
+`7The Northern Ramparts``~
+You stand atop the northern gate of the city of Zalango.  Crenellated
+stonework juts out over the wall here, allowing defenders to show any
+one rash enough to attack the walls with a deluge of rocks.  A road leads
+away from the drawbridge below, snaking off into the desolate plains
+beyond.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7927
+D3
+~
+~
+0 0 7929
+D5
+~
+~
+0 0 7814
+S
+#7929
+`7The Northwestern Ramparts``~
+Pitted with age and disrepair, the battlements here are crumbling and 
+look as if they could collapse at any moment.  You can see the top of a 
+gatehouse to the east and a bastion clings precariously to the wall to your
+west.  North of the city lies a vast barren plain and nothing appears to 
+move on it.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7928
+D3
+~
+~
+0 0 7930
+S
+#7930
+`7The Northwestern Ramparts``~
+From the wall face here a stone circular barbette protrudes outward.  Its
+merlons are crossletted with arrow slits that cover either side of the wall.
+A thick haze lies over the wasted grassland to the north.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7929
+D3
+~
+~
+0 0 7931
+S
+#7931
+`7The Northwestern Ramparts``~
+Tall merlons of stone line the wall here, each pierced with a narrow
+slit to allow arrow fire.  You can continue to the east where you can see
+a bastion overhanging the wall or to the west, where the wall broadens
+into a defensive bastion.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 7930
+D3
+~
+~
+0 0 7900
+S
+#7932
+`4The Western Zalango Moat``~
+Expanding about forty feet or so in front of you is a long
+ago dug moat, its edges slowly creeping farther out,
+devouring all in its path, you see a dilapidated boat 
+somewhere in the middle slowly being consumed by the great
+mass of the water.  A thick rainbow oily residue coats the
+smooth ripples of the water and from the depths you almost
+see a pair of glowing red eyes sizing you up.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7933
+D2
+~
+~
+0 0 7948
+D4
+~
+~
+0 0 7877
+S
+#7933
+`4The Western Zalango Moat``~
+As you continue to walk, you notice the brush around the
+moat getting thicker and you have the distinct feeling you
+are being watched by someone, or something.  You hear the
+surface of the water break and out of the corner of your
+eye, you swore you saw something.  Or maybe it is just your
+mind playing jokes on you.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7934
+D2
+~
+~
+0 0 7932
+S
+#7934
+`4The Western Zalango Moat``~
+As you walk further, you begin to notice several strange
+shapes bobbing on top of the greasy black surface of the
+moat.  Upon further inspection you realize they are
+crocodiles, they eye you hungrily and with a great deal of
+interest as you scurry past.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7935
+D2
+~
+~
+0 0 7933
+S
+#7935
+`4The Western Zalango Moat``~
+You notice that the moat starts to expand quite a few feet
+more across here, chunks of the shore slide easily into
+the thick water.  You see a small flower has attempted to
+grow, its meager, gray petals stretching to the sky for
+life while the weeds about it mercilessly choke it away.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7936
+D2
+~
+~
+0 0 7934
+S
+#7936
+`4The Western Zalango Moat``~
+As you trudge on, you notice your feet are begining to sink
+into the thick mulch, with each step there is a loud sucking
+noise.  A thick fog is starting to spread its wispy fingers
+over the murky deep waters.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7937
+D2
+~
+~
+0 0 7935
+S
+#7937
+`4The Northern Zalango Moat``~
+The moat rounds into a massive corner, the fog is thicker
+here, but you can still make out the crocodiles swimming
+restlessly. A crocodile swims by with a leg protruding
+from its mouth.  You hear seagulls cry in the distance.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 7938
+D2
+~
+~
+0 0 7936
+S
+#7938
+`4The Northern Zalango Moat``~
+There is a putrid smell rising from the bowels of the moat,
+the fog lets the odor linger and permeate the land.  The
+mangled cat tails droop and the grass is a dank gray here.
+You can barely see your hand in front of your face due to
+the heavy fog.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 7939
+D3
+~
+~
+0 0 7937
+S
+#7939
+`4The Northern Zalango Moat``~
+As you blindly press on, the fog remains thick, making the
+air smolder in your lungs.  Snakes slither across the marsh
+making it seem as though it is constantly moving.  The sky
+is grey and overcast, lending a dismal appearance that leaves
+little hope in the soul and mind.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 7940
+D3
+~
+~
+0 0 7938
+S
+#7940
+`4The Northern Zalango Moat``~
+The fog is finally starting to lift a bit, yet there still
+is no sunlight, only the dismal gray of the overcast skies.
+The moat here stretches about sixty feet across, where the
+thick black water laps hungrily at the crumbling shores.  A
+few crocodiles have made their way to the edge of the water
+and are inspecting the shore.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 7941
+D3
+~
+~
+0 0 7939
+S
+#7941
+`4The Northern Zalango Moat``~
+You see a moat before you that stretches about fifty feet
+accross, the water a thick, oily black, the surface choppy
+and rough.  A putrid smell permeates the air and hangs heavy
+in the thick fog.  A layer of steam rolls over the heaving
+surface of the water.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 7942
+D3
+~
+~
+0 0 7940
+S
+#7942
+`4The Northern Zalango Moat``~
+A forty foot moat stretching before you filled with putrid,
+murky waters.  In the bowels of the water, you see glowing
+red eyes glaring hungrily at you.  Sunk deep into the water
+are two crumbling concrete arches, one on either side of the
+moat.  Through the heavy fog, you can make out a building and
+perhaps the outline of a solid wooden drawbridge just south
+of you.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 7943
+D2
+~
+~
+0 0 7962
+D3
+~
+~
+0 0 7941
+D4
+~
+~
+0 0 7876
+S
+#7943
+`4The Northern Zalango Moat``~
+Pushing through the morass of reeds and marsh grass, you across piles of
+stone blocks scattered around, half buried beneath the thick mud and
+brackish water.  Several small turtles sunning themselves, become nervous
+at your approach and slid down rocks into the water with a splash.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 7944
+D3
+~
+~
+0 0 7942
+S
+#7944
+`4The Northern Zalango Moat``~
+Tall weeds line the banks of the moat, its edges crumbling
+easily into the thick murky water.  There appears to be quite
+a few old logs floating atop the choppy water.  Further
+inspection leads you to realize that those logs are rather
+large crocodiles.  They eye you hungrily as you pass.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 7945
+D3
+~
+~
+0 0 7943
+S
+#7945
+`4The Northern Zalango Moat``~
+Recent rains have caused the moat to swell here, its shore
+lapping greedily, consuming all in its path as it grows
+larger.  The cold air carries the sharp scent of salt and
+sulpher.  The ground is soggy here and you notice you feet
+sliding deeper into the wet marsh lands as you trudge on.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 7946
+D3
+~
+~
+0 0 7944
+S
+#7946
+`4The Northern Zalango Moat``~
+The wind is sharper here, cutting through your clothes as
+though they were nothing and chilling your bones.  The fog
+is thick and clings to you like small beads of ice.  The
+moat has now expanded to about sixty feet accross and seems
+to widen as you walk east.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 7947
+D3
+~
+~
+0 0 7945
+S
+#7947
+`4The Shores of the Croizan Sea``~
+There is a slender, slippery edge for you to stand as the
+moat spills into the vast sea in front of you.  The thick
+fog only allows you to see about thirty or so feet in front
+of you, all of it nothing but seemingly endless sea.  The
+wind here is merciless, however the putrid odor that hangs
+about is finally swept out to the sea with the oily black
+water of the moat.
+~
+~
+0 0 0 7
+D3
+~
+~
+0 0 7946
+S
+#7948
+`4The Western Zalango Moat``~
+High city walls rise before you, brown mulch like plants 
+sprout from cracks and loose mortar.  There is a moat of
+about forty feet that stretches before you, protecting the
+city walls with its putrid stench and thick, black waters.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7932
+D2
+~
+~
+0 0 7949
+S
+#7949
+`4The Western Zalango Moat``~
+A thin fog is stretching its wavering fingers out over the
+choppy, greasy water, concealing the towering city walls
+from view of the sharpest eye and hiding dangerous crocodiles
+which are hungrily eyeing all that passes.  Crooked cat
+tails and meager weeds trail about the edge of the man-made
+moat.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7948
+D2
+~
+~
+0 0 7950
+S
+#7950
+`4The Western Zalango Moat``~
+As you walk by, a few crocodiles take teasing nips at your
+heels, as though to sample you.  Crocodiles float about in
+the center of the moat like large logs, waiting on an 
+unsuspecting victim to come swimming along.  It looks as
+though nothing has lived in these waters, save the crocodiles,
+for quite some time now.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7949
+D2
+~
+~
+0 0 7951
+S
+#7951
+`4The Western Zalango Moat``~
+The water of the moat here is festering with insects as they
+swarm about the remains of a small woodland creature who
+didn't have much luck with the crocodiles.  The fog is
+heavier here, causing it difficult to see your hand in front
+of your face, while the stench of sulphur is so thick it
+chokes you.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7950
+D2
+~
+~
+0 0 7952
+S
+#7952
+`4The Western Zalango Moat``~
+The moat rounds into a large corner, its vast waters swirling
+and murky.  The fog is clearing up a little bit here, enabling
+you to see the high city walls.  Chunks of stone and mortar are
+crumbling into the bowels of the moat leaving the wall looking
+pathetic and meager, yet the moat keeps it strong, barring entry
+with putrid smells and vicious crocodiles.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 7951
+D1
+~
+~
+0 0 7953
+S
+#7953
+`4The Southern Zalango Moat``~
+The marsh thickens here, the cat tails and weeds ensnaring
+your ankles as you walk while the mud sucks at the soles of
+your shoes.  The moat seems to widen as the shore slowly
+crumbles away into the bowels of the oily black water.
+Sulphur hangs in the air like death, feeding the plants and
+empowering the fog.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 7954
+D3
+~
+~
+0 0 7952
+S
+#7954
+`4The Southern Zalango Moat``~
+The wind whistles eerily through the weeds, forcing them to bow
+their mangled bodies.  The moat is about forty feet wide, its
+water swirling and churning causing brown foam to cap the crests
+of the choppy waves.  Many crocodiles have swarmed to the center
+of the moat.  The scent of death is strong here.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 7955
+D3
+~
+~
+0 0 7953
+S
+#7955
+`4The Southern Zalango Moat``~
+The moat stretch about forty feet in width with a thick city
+wall to the north of you, which you can barely make out due to
+the thick fog that has rolled in.  Cat tails and other various
+marsh weeds have ensnared their roots together and rest on the
+murky shores.  You hear seagulls cry overhead and know you must
+be near the sea.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 7956
+D3
+~
+~
+0 0 7954
+S
+#7956
+`4The Southern Zalango Moat``~
+The waters of the moat are more calm here, sending smooth
+ripples through its oily body.  You notice a small island in
+the middle of the moat just large enough to hold a cage.
+Inside you see two skeletons, long since touched by the hand
+of time, their naked faces grinning sadistically at you.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 7957
+D3
+~
+~
+0 0 7955
+S
+#7957
+`4The Southern Zalango Moat``~
+Looming before you is a great moat of about a forty foot girth,
+its water is thick and black with an oily residue lining its
+choppy surface.  Sunk deep into the murky water are two large
+stone arches, cracked and chipped, on either side of the moat
+banks.  There is a large splintered wood drawbridge embedded
+into the towering city walls.
+~
+~
+0 0 0 7
+D3
+~
+~
+0 0 7956
+D4
+~
+~
+0 0 7878
+S
+#7958
+`8Before the Despair Clan Hall``~
+This room reflects the terrors that occur in the chambers below.  A
+single iron-rung ladder is set into the wall and disappears into the unknown
+depths.  From the darkness, the sounds of pain and terror echo in a morbid
+symphony.  The air that emenates from it's depths is cold and damp.  
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 7811
+D5
+~
+~
+0 0 7959
+S
+#7959
+`8Echoes of Terror``~
+Screams of pain and cries of terror reverberate off of the cold, wet
+stone walls of this pit.  Patches of grey-green mildew grow sporadically in
+the cracks of the unevenly hewn stone, and rivulets of water run down their
+length and collect in stagnant pools at your feet.  The air is thick with
+the metallic stench of blood and the sour smell of brimstone.  Ahead the
+light of dozens of flickering candles casts eerie shadows on the walls
+around you.  
+~
+~
+0 295698440 0 0
+D1
+~
+iron barred door~
+AB 0 7960
+D3
+~
+iron barred door~
+AB 0 7961
+D4
+~
+~
+0 0 7958
+S
+#7960
+`8Inferal Agony``~
+This room is large and expansive, with a large pentagram engraved into
+the rough stone floor.  Carved a full three inches deep and inlaid with
+molten silver, the ground within it is pitted and charred from what may be
+gouts of flame and spurts of acid.  Thousands of candles of all sizes burn
+in crude iron fittings, their smoke choking the air and obscuring vision. 
+Large chunks of yellow stone smolder at each of the pentagram's five points.
+~
+~
+0 295698440 0 0
+D3
+~
+iron barred door~
+AB 0 7959
+S
+#7961
+`8The Chamber of Pain``~
+As you enter this room, horrific sights, sounds and smells assault you. 
+Mutilated corpses hang from rusted hooks set into the ceiling and various
+implements of torture are arranged around the room, most of them occupied
+unwillingly.  A large iron grate is set into the floor and what seems to be
+an unending torrent of flowing blood pours into the drain.  The metallic
+smell of blood is its greatest here, and uneases your stomach as you breathe
+it in.  A single iron grate above your head allows light to enter this
+forboding realm.  
+~
+~
+0 295698440 0 0
+D1
+~
+iron barred door~
+AB 0 7959
+S
+#7962
+`8Before the Cartel Clan Hall``~
+The waters of the moat lap against the a small dock set under the bridge
+and used for loading an unloading cargo from the smaller ships not fit for
+the harbor.  Someone has extinguished all the torches in this area however,
+giving it a rather unsavioury, dangerous look.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7942
+D2
+~
+~
+A 0 7985
+S
+#7963
+`8The Hall of Sorcery``~
+Shouts ring out here, barely heard beneath the roar and boom of energies
+harnessed and flung out.  The walls here are soot-stained and cracked,
+mute evidence to the occasional accident.  Training mages circle, gouts of 
+fire and blindingly bright washes of color flash out from their hands and
+staves, buckling the shimmering fields that protect them.
+~
+~
+0 836763656 4096 0
+D5
+~
+~
+0 0 7899
+S
+#7964
+`8The Guildhall of the Invokers``~
+This room is brightly lit by a multitude of candles hanging from the ceiling
+in ornate chandeliers.  The candles burn steadily, without a flicker, and no
+wax drips from them at all.  A stone stairway circles upward into the
+heights of the tower.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 7895
+D4
+~
+~
+0 0 7965
+S
+#7965
+`8The Hall of the Elements``~
+The focal point of this high chamber is a central glowing pedestal of waist
+height.  Atop it burns a ball of incandescent fire, which morphs into a 
+a floating puddle of blue.  The puddle is eclipsed by a pitted flinty rock,
+which in turns vanishes to be replaced by swirling milky vapors.  A rack
+here holds many lengths of polished wood, ranging from the length of a
+forearm to the height of a man.
+~
+~
+0 836763656 4096 0
+D5
+~
+~
+0 0 7964
+S
+#7966
+`8The Martial Guildhouse``~
+Inside the massive building, along hall stretches off to the south. 
+Along its length tall stone pillars rise up, supporting the heavy oaken
+beams of the ceiling nearly 30 feet overhead.  Armor clad people move
+briskly by, keeping appointments with their instructos.  Others idle nearby,
+discussing the day's lessons.  
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7887
+D1
+~
+~
+0 0 7979
+D2
+~
+~
+0 0 7967
+D3
+~
+~
+0 0 7977
+S
+#7967
+`8The Martial Guildhouse``~
+The cavernous hall looms on here, running both north and
+south.  Light comes from iron cressets filled with flaming
+logs.  The air echoes in the rafters with the clash of steel
+and high shouted warcries.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7966
+D1
+~
+~
+0 0 7975
+D2
+~
+~
+0 0 7968
+D3
+~
+~
+0 0 7973
+S
+#7968
+`8The Martial Guildhouse``~
+You have reached the end of this grand vaulted hall.  Your
+nostrils wrinkle at the scent of decades of soot and dried
+sweat that permeates the air here.  A huge window of stained
+glass is set high in the southern wall, showing in slate
+grey surrounded by white, the three marlin crest of Zalango.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7967
+D1
+~
+~
+0 0 7971
+D3
+~
+~
+0 0 7969
+S
+#7969
+`8The Guildhall of Warriors``~
+Set in the floor of this room are four leather wrapped beams.
+In front of each stands a person wielding a dulled weapon.
+Sweat pours down their face and stains their gameson as they
+execute stroke after stroke under the watchful eye of their
+instructors.  From above ring forth the cries and shouts of
+sparring.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 7968
+D4
+~
+~
+0 0 7970
+S
+#7970
+`8The Hall of Combat``~
+Young men and women, clad in heavy leather clothes stalk
+each other here, whirling lead-weighted weapons.  The air
+rings with the thump of impacts and higher cries tell of
+successfully landed blows.  Grizzled men mill through the
+throng, barking corrections and encouragment to thier pupils.
+~
+~
+0 836763656 4096 0
+D5
+~
+~
+0 0 7969
+S
+#7971
+`8The Guildhall of Berserkers``~
+Trainees struggle stagger across the room here, struggling
+under the weight of the heavy stones they carry.  Beet faced
+instructions scream in their faces as they labor, showering
+them with spittle.  Iron rungs are set in the stonework of
+the far wall, allowing one to climb to the upper reaches of
+the guildhall.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 7968
+D4
+~
+~
+0 0 7972
+S
+#7972
+`8The Hall of Fury``~
+The air in this room is hot and humid, from both the torches
+that burn in iron sconces set along the walls and the mass
+of people wrestling here.  Their sweat-slick bodies rush and
+collide with grunts and whoofs of exhalation as they
+struggle.  
+~
+~
+0 836763656 4096 0
+D5
+~
+~
+0 0 7971
+S
+#7973
+`8The Guildhall of Dark Knights``~
+The walls of this hall are adorned with hacked shields,
+cloven helms, and shattered weapons, the trophies of this
+guild's prowess.  In recessed niches stand effigies of the
+dark gods of Aabrahan, watching those who enter this place.
+A iron stair runs up to the upper levels of this hall.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 7967
+D4
+~
+~
+0 0 7974
+S
+#7974
+`8The Hall of Intimidation``~
+Stocks, a rack, and a whipping post arrayed around the room
+along with their current occupants, give mute testimony to 
+the price of failing to master one's lessons.  Combatants 
+clad in black cloth armor whirl and clash, under the watchful
+eye of the Guildmaster.  The sobs and groans of those who 
+have failed provide extra incentive to those still training.
+~
+~
+0 836763656 4096 0
+D5
+~
+~
+0 0 7973
+S
+#7975
+`8The Guildhall of Rangers``~
+The walls and floor of this room are paneled in rough wooden
+planks.  Along one wall an archery lane has been established
+and at its end stands a wicker target, studded with arrows
+and quarrels.  A knotted rope hangs down from a hole cut in
+the ceiling timbers above.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 7967
+D4
+~
+~
+0 0 7976
+S
+#7976
+`8The Guildhall of the Rangers``~
+The room here is open to the sky, allowing the elements in.
+Thick vines of verdant green grow wildly over the walls and
+snake along the ceiling.  Where the floor should be grows
+thick grass instead and small trees branch up towards the 
+sky.
+~
+~
+0 836763656 4096 0
+D5
+~
+~
+0 0 7975
+S
+#7977
+`8The Guildhall of Monks``~
+Inside this room a number of potted bamboo plants grow, their delicate
+green shoots rising up to sway overhead.  There is no decorations of any
+sort and even the wooden stairs that rise along the rear wall, giving access
+to the upper chambers, are bland and spartan.  
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 7966
+D4
+~
+~
+0 0 7978
+S
+#7978
+`8The Hall of Control``~
+This chamber is immaculately clean and austere in its decor.
+A number of woven reed mats are scattered about on the floor.
+Hanging from the walls are delicate rice paper charts that
+show detailed anatomies of the various races of Mirlan. 
+Inked in red are many strange characters above lines that
+point to areas on the charts.
+~
+~
+0 836763656 4096 0
+D5
+~
+~
+0 0 7977
+S
+#7979
+`8Before the Forge``~
+The hot fires of the forge can be felt on your face as the
+red glow of hot embers emerges from the room above you. The
+sound of steel clinking on steel reverberates throughout the
+area, and you know you must be before the Blacksmith guild.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 7966
+D4
+~
+~
+0 0 7980
+S
+#7980
+`8The Forge``~
+You stand within a large, open room. Massive wooden pilings rise
+up from the floor, supporting thick oaken beams in the ceiling.
+In the center of the room is a massive iron forge, glowing
+red-hot from the inner fires. Around the rooms, spaced haphazardly
+are several workbenches and anvils.
+~
+~
+0 836763656 4198400 0
+D5
+~
+~
+0 0 7979
+S
+#7981
+`8A Fisherman's Shanty``~
+Inside the gloomy shop the air is close with the stench of fish.  Large
+wooden tables, their surfaces crosshatched with a multitude of cuts and
+furrows and covered in scales and fish guts lie behind a long counter.
+Dressed fish are laid out on it in rows, the bounty of the Croizan Sea.
+Barrels, their lids removed, stand in rows along the wall.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 7866
+D4
+~
+~
+0 0 7982
+S
+#7982
+`8Bedroom``~
+Stretching between two iron eyebolts set into the walls is a woven hemp
+hammock.  A sea trunk lies against one wall, its lid open and garments
+are draped over it.  Shutters stand open at the far end, allowing a view of
+the street below.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 7981
+S
+#7983
+`8Supplies``~
+Faint light enters the shop through the open window along its front.
+Inside shelves line the walls holding a miscellany of items.  You can see
+brass lanterns, coils of tarred rope, leathern backpacks and sacks, and a 
+host of other necessary gear for travelers.
+~
+~
+0 8 0 0
+D3
+~
+~
+0 0 7867
+D4
+~
+~
+0 0 7984
+S
+#7984
+`8Bedroom``~
+The walls of this tiny room slant inward, making it seem even smaller
+than it is.  Shelves line the walls and hold a vast assortment of small
+white sculptures.  You can see mermaids, ships, anchors, and gulls, just
+to name a few.  Twin beds rest against the northern wall and a small
+wooden table lies between them.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 7983
+S
+#7985
+`8A Warehouse``~
+The tunnel under the bridge ends in what appears to be a room full of
+crates of perfectly legitimate trade goods (honest!)  .  Numerous crates
+labeled "Silk", "Hay" and "Fishing Hooks" line the walls in neat, orderly
+stacks.  Looking more closely, a stack of six crates are set into the wall
+with hinges and have a handle bolted onto the front.  A door?  
+~
+~
+0 295698440 0 0
+D0
+~
+~
+A 0 7962
+D2
+~
+cunningly disguised door~
+ABM 0 7986
+S
+#7986
+`8A Hidden Office``~
+This small, cramped room is furnished only with a table and three chairs.
+The table is littered with bounty reciepts, gold coins and knives.  A
+dartboard hangs from the eastern wall, and is impaled by a handful of steel
+darts.  A short hallway leads south out of the room.  
+~
+~
+0 295698440 0 0
+D0
+~
+cunningly disguised door~
+ABM 0 7985
+D2
+~
+~
+0 0 7987
+S
+#7987
+~
+The floor of this room is mostly occupied by a large, circular table and
+a dozen or so chairs.  Bounty reciepts, ledgers and coins are stacked in
+neat, orderly piles and a bullitein board hangs from the southern wall.  On
+the board charicitures of prominent figures have been tacked up, some marked
+with a checkmark, some with an "X" and some with the word "Cleaned" written
+over them.  
+~
+~
+0 295698440 0 0
+D0
+~
+~
+0 0 7986
+S
+#7988
+`8Armory``~
+The air is stale and hot here from the long forge that burns along the
+rear wall of the shop.  Hanging from hooks and pegs along the walls are
+a variety of weapons: saw toothed knives, barbed harpoons, and thick 
+oaken belaying pins.  His huge frame running with sweat, a massive man
+pulls a length of glowing metal from the forge with iron tongs and begins
+to pound it against an anvil.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 7812
+D4
+~
+~
+0 0 7989
+S
+#7989
+`8Bedroom``~
+An enormous bed, its head and foot boards of black ironwork, occupies
+the center of this room.  Soiled leather garments lie heaped in mounds on
+the floor and the entire place smells of soot and old sweat.  Closed
+latticework shutters mute the sounds of the street below.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 7988
+S
+#7990
+`8The Alchemist's Shop``~
+The low ceiling of this shop is palled with a roiling haze
+of sharp grey smoke.  The only light comes from a tripod
+bronze brazier that burns with a steady blue flame.  As the
+alchemist works, she throws pinches of shimmering dust into
+the fire, causing it to flare up in a brilliant azure flash.
+~
+~
+0 295698440 0 0
+D1
+~
+~
+0 0 7813
+D4
+~
+~
+0 0 7991
+S
+#7991
+`8Bedroom``~
+The tiny room here is an utter shambles.  It looks as if a
+strong wind blew in the open shutters, scattering everything
+inside.  Clothes hang out of open chests or lie in soiled
+heaps on the floor.  A stack of precariously balanced dishes,
+crusted with the remnants of a week's worth of meals, totters
+on a nightstand.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 7990
+S
+#7992
+`8The Portal Room``~
+You stand inside the Portal Room of the Mar'Kyer Alchemists.
+The rooms around the realm all look pretty much the same,
+as these little crafty gnomes have setup quite a business
+for themselves. The room is rounded, with a small hexagram
+inset into the floor in the center of the room. The rest of
+the room is entirely empty except for a small chair where
+the alchemist sits, and a small sign on the wall, with some
+trade common writing on it.
+~
+~
+0 8 0 0
+E
+sign~
+`%---=== THE MAR'KYER PORTAL SYSTEM ===---``
+--
+If you'd like to travel somewhere, we're the best! Once the 
+portal is created, just "enter portal" to be transported to your
+location. Items can be passed as well through the portals. Just
+give the item to the portal. Remember, they only stay open for 
+a short time. Only one portal may be opened at a time. We 
+serve the following locales:
+--
+`^DARGOTH, ZALANGO, REVELSPORT, ULSYM, LUVA, and EMMEREAUX``
+--
+Just `#SAY`` the location you wish to portal to, and your monies
+will be taken by the Alchemist.
+--
+Thank you for using the Mar'Kyer Portal System!
+~
+D1
+~
+~
+0 0 7809
+P GRALL 12103 100~
+S
+#7993
+`8Hayloft``~
+At the top of the ladder lies a tiny hayloft, musty with the smell of old
+mildewing hay.  Opposite the ladder stands an old bed, its mattress split
+and sagging.  A pair of shutters covers an opening over the street and a
+rope hangs from a pulley depending from the ceiling beam.
+~
+~
+0 8 0 0
+D5
+~
+~
+0 0 7994
+S
+#7994
+`8Stables``~
+The air inside this long wooden structure is thick with the odors of hay
+and sweat.  Closed stall doors lie to either side and you can hear the
+sounds of their occupants moving around.  A ladder rises up along the
+back wall of the stable and urchins scurry up and down it on their errands.
+ 
+A large sign swings from two hooks in the ceiling beam.
+~
+~
+0 8 0 0
+E
+sign~
+_____________________________________________
+(_____________________________________________)
+ |                                           |
+ |            The Zalango Stables           |
+ |      ---------------------------------    |
+ |                                           |
+ |  1. Yak                      100 Gold     |
+ |  2. Donkey                   250 Gold     |
+ |  3. Quarterhorse            1000 Gold     |
+ |  4. Warhorse                2000 Gold     |
+ |                                           |
+ | To order a mount simply say its type,     |
+ | or pay the fee to the Stablemaster.       |
+ |                                           |
+ +===========================================+
+~
+D3
+~
+~
+0 0 7854
+D4
+~
+~
+0 0 7993
+S
+#7995
+`8The Harbormaster's Office``~
+You find yourself amid a large, spacious nautical room. On the walls,
+several brass placards denotion merits, licenses, or awards are placed
+haphazardly, some corroded by the salty air. Several large desks are
+around the room covered with chart books and loose maps, while several
+plotters and sextants line the sills. Two large bay windows oversee the
+docks, while a massive man observes the activity in the wharf.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 7828
+S
+#7996
+`8Slate's Tattoo Parlor``~
+You stand within a dimly lit room in what would certainly be
+considered the 'bad' district of Zalango. Around you several
+large sheets of parchment line the walls, each with strange bits
+of art painted on them. You hear the clicking of a taphammer on
+a needle and look over to see a very large man working over a
+sailor who has a rather pained expression on his face.
+ 
+A large sign is placed on the far wall with large lettering.
+~
+~
+0 8 0 0
+E
+sign~
+_____________________________________________
+(____________________________________________()
+ |                                           |
+ |      Slate's Tattoo Parlor - Price List   |
+ |      ---------------------------------    |
+ |  1. Black Dragon             10,000 Gold  |
+ |  2. Green Dragonfly          10,000 Gold  |
+ |  3. Red Grinning Skull       10,000 Gold  |
+ |  4. Black Rose               10,000 Gold  |
+ |  5. Charging Bull            10,000 Gold  |
+ |  6. White Cross              10,000 Gold  |
+ |  7. Lightning Bolt           10,000 Gold  |
+ |  8. Band of Briars           10,000 Gold  |
+ |  9. Blue Tear                10,000 Gold  |
+ |                                           |
+ | When ordering, just ask for the number... |
+ | AFTER you pay, that is! Oh, and remember, |
+ | Tattoos are PERMANENT.         -Slate     |
+ |                                           |
+ _____________________________________________
+(____________________________________________()
+~
+D2
+~
+~
+0 0 7825
+S
+#7997
+`8The Tannery``~
+As you enter this squalid shop, your legs buckle against the
+awful reek.  The stretch of harsh chemicals mingles with the
+crisp acrid taint of urine, causing your eyes to water.  A
+number of skinnig knives, their length clotted with hair and
+tissue, lie haphazardly on scarred tabletops.  Vats burble 
+nearby, softening the hides into leather.
+~
+~
+0 532488 0 0
+D0
+~
+~
+0 0 7858
+S
+#7998
+`8The Hall of Conspiracy``~
+A huge circular table of oak occupies the center of this
+basement.  Atop it flickers a lone tallow candle, casting
+only the dimmest of illumination.  Several old rusted locks
+and iron keys are scattered around on a shelf bolted to the
+wall.
+~
+~
+0 836763656 4096 0
+D4
+~
+~
+0 0 7999
+S
+#7999
+`8The Entrance to a Shanty``~
+With a roof nearly caving in, this small shanty looks more like
+it should be a condemned warehouse, rather than an apartment.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 7860
+D5
+~
+~
+0 0 7998
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 7800 spec_executioner
+M 7829 spec_thief
+M 7869 spec_cast_cleric
+M 7870 spec_cast_cleric
+M 7895 spec_cast_cleric
+M 7899 spec_breath_any
+M 7916 spec_gate_guard
+M 7981 spec_keeper_move
+M 7983 spec_keeper_stay
+M 7988 spec_keeper_move
+M 7990 spec_keeper_move
+M 7994 spec_keeper_stay
+M 7996 spec_keeper_stay
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+O 0 7800 0 7800
+M 0 7800 12 7800 1
+E 0 7801 0 17
+M 0 7803 1 7803 1
+E 0 7801 0 17
+O 0 7980 0 7804
+O 0 7802 0 7809
+M 0 7811 4 7811 1
+O 0 7815 0 7815
+M 0 7916 8 7817 2
+M 0 7916 8 7820 2
+M 0 7821 10 7821 2
+M 0 7822 6 7822 2
+M 0 7800 12 7822 1
+E 0 7801 0 17
+M 0 7800 12 7826 1
+E 0 7801 0 17
+M 0 7811 4 7827 1
+M 0 7821 10 7828 2
+M 0 7829 1 7829 1
+O 0 7835 0 7831
+O 0 7835 0 7833
+M 0 7837 1 7833 1
+O 0 7890 0 7833
+M 0 7838 10 7834 1
+O 0 7833 0 7834
+M 0 7838 10 7835 1
+O 0 7835 0 7835
+O 0 7834 0 7835
+M 0 7838 10 7836 1
+O 0 7835 0 7836
+O 0 7836 0 7836
+M 0 7838 10 7837 1
+O 0 7837 0 7837
+M 0 7838 10 7838 1
+O 0 7838 0 7838
+M 0 7838 10 7839 1
+O 0 7835 0 7839
+O 0 7839 0 7839
+M 0 7840 2 7840 2
+M 0 7800 12 7841 1
+E 0 7801 0 17
+M 0 7800 12 7845 1
+E 0 7801 0 17
+M 0 7847 8 7847 2
+M 0 7874 8 7847 2
+E 0 7801 0 17
+M 0 7800 12 7848 1
+E 0 7801 0 17
+M 0 7849 6 7849 3
+E 0 7849 0 17
+M 0 7800 12 7852 1
+E 0 7801 0 17
+M 0 7800 12 7855 1
+E 0 7801 0 17
+M 0 7859 1 7859 1
+E 0 7859 0 3
+M 0 7800 12 7859 1
+E 0 7801 0 17
+M 0 7860 8 7860 2
+E 0 7860 0 2
+O 0 7861 0 7860
+M 0 7864 4 7864 2
+M 0 7866 1 7866 1
+O 0 7866 0 7866
+M 0 7869 1 7869 1
+M 0 7870 1 7870 1
+O 0 7870 0 7870
+O 0 7876 0 7870
+M 0 7871 1 7871 1
+O 0 7871 0 7871
+G 0 7872 0
+G 0 7873 0
+G 0 7874 0
+E 0 7875 0 17
+M 0 7872 1 7871 1
+G 0 7825 0
+M 0 7802 1 7872 1
+G 0 7803 0
+G 0 7804 0
+G 0 7805 0
+G 0 7806 0
+G 0 7809 0
+G 0 7810 0
+G 0 7811 0
+O 0 7812 0 7872
+M 0 7804 1 7873 1
+M 0 7916 8 7876 2
+M 0 7916 8 7878 2
+M 0 7884 1 7884 1
+O 0 7885 0 7885
+M 0 7885 1 7885 1
+M 0 7891 1 7891 1
+M 0 7892 1 7892 1
+M 0 7893 1 7893 1
+M 0 7894 1 7894 1
+M 0 7897 1 7897 1
+M 0 7898 1 7898 1
+M 0 7899 1 7899 1
+E 0 7916 0 5
+M 0 7800 12 7900 1
+E 0 7801 0 17
+M 0 7800 12 7908 1
+E 0 7801 0 17
+M 0 7800 12 7916 1
+E 0 7801 0 17
+M 0 7800 12 7924 1
+E 0 7801 0 17
+M 0 7932 20 7932 5
+M 0 7943 20 7933 5
+M 0 7932 20 7935 5
+M 0 7943 20 7935 5
+M 0 7943 20 7937 5
+M 0 7932 20 7939 5
+M 0 7943 20 7941 5
+M 0 7932 20 7943 5
+M 0 7943 20 7943 5
+M 0 7943 20 7948 5
+M 0 7932 20 7950 5
+M 0 7943 20 7951 5
+M 0 7932 20 7954 5
+M 0 7943 20 7955 5
+M 0 7943 20 7957 5
+M 0 7958 1 7958 1
+M 0 7962 1 7962 1
+M 0 7963 1 7963 1
+M 0 7964 1 7964 1
+M 0 7965 1 7965 1
+M 0 7969 1 7969 1
+M 0 7970 1 7970 1
+M 0 7971 1 7971 1
+M 0 7972 1 7972 1
+M 0 7973 1 7973 1
+M 0 7974 1 7974 1
+M 0 7975 1 7975 1
+M 0 7976 1 7976 1
+M 0 7977 1 7977 1
+M 0 7978 1 7978 1
+M 0 7979 1 7979 1
+M 0 7980 1 7980 1
+M 0 7981 1 7981 1
+G 0 7981 0
+G 0 7982 0
+M 0 7983 1 7983 1
+G 0 7983 0
+G 0 7984 0
+G 0 7985 0
+G 0 7986 0
+M 0 7984 1 7983 1
+E 0 7987 0 18
+M 0 7988 1 7988 1
+G 0 7988 0
+G 0 7989 0
+G 0 7990 0
+G 0 7991 0
+G 0 7992 0
+G 0 7993 0
+G 0 7846 0
+M 0 7990 1 7990 1
+G 0 7850 0
+G 0 7852 0
+G 0 7854 0
+M 0 7992 1 7992 1
+M 0 7994 1 7994 1
+M 0 7895 1 7995 1
+E 0 7995 0 11
+E 0 7880 0 17
+E 0 7994 0 23
+M 0 7996 1 7996 1
+O 0 7996 0 7996
+M 0 7997 1 7996 1
+M 0 7950 1 7997 1
+O 0 7950 0 7997
+O 0 7951 0 7997
+M 0 7998 1 7998 1
+M 0 7999 1 7999 1
+S
+
+
+
+#SHOPS
+7802 0 2 0 0 0 100 100 4 22
+7821 0 0 0 0 0 100 100 0 23
+7871 0 0 0 0 0 100 100 0 23
+7981 0 0 0 0 0 100 100 0 23
+7983 0 0 0 0 0 100 100 0 23
+7988 0 5 9 0 0 100 100 5 19
+7990 0 0 0 0 0 100 100 4 21
+0
+
+
+
+#MOBPROGS
+#7800
+if isgood $n
+     emote eyes $n cautiously, and ushers $n along.
+endif
+if isevil $n
+     emote nods at $n respectfully, and ushers $n along.
+endif
+~
+#7802
+if isdelay $i
+break
+else
+'Yes.. Yes.. Do be wary..
+chuckle self
+mob delay 1
+endif
+~
+#7803
+if rand 50
+     emote idly swings his sword in figure eights.
+else
+     say I offer my training services, free of charge to residents!
+endif
+~
+#7804
+if isdelay $i
+or isnpc $n
+  break
+endif
+'You look like you could use some gold hmm?
+mob delay 1
+~
+#7805
+pmote drips some of its torso onto the floor.
+~
+#7823
+if carries $n 2100
+  emote dumps the vial into cauldron and quickly dries out the solution.
+  mob destroy ch $n 2100 1
+  load obj 7808
+  pmote hands $N a pill.
+  mob otrans !7808! $n
+  mob junk 1.gold
+  break
+endif
+if carries $n 9910
+  emote dumps the vial into cauldron and quickly dries out the solution.
+  mob destroy ch $n 9910 1
+  load obj 7808
+  pmote hands $N a pill.
+  mob otrans !7808! $n
+  mob junk 1.gold
+  break
+endif
+'You don't seem to have a vial $N..
+give 1.gold $n
+~
+#7824
+if carries $n 2100
+or carries $n 9910
+  'For 1000 gold I will convert your sparkling vials to pills.
+  pmote extends a hand to $N for the gold.
+endif
+~
+#7825
+if isnpc $n
+     break
+else
+'Vampires? Vampires ye say? Ah! Yes!
+cackle
+'I've an old recipe, guaranteed to ward 'em off, I do!
+'But what I need is some garlic, to brew the serum! And 2,500 gold, mind you!
+cackle self
+endif
+~
+#7826
+if carries $n 7825
+     say Ah, yes, you found one! I believe I can make this serum.
+     chown clove $n
+     emote whips together some strange concotion in a vial.
+     mob oload 7851
+     give serum $n
+     say There you go, $n. Let me know if it works!
+     mob junk 1.gold
+     mob junk clove
+else
+     say Well, I still need the garlic clove. Find that, and come back.
+     give 1.gold $n
+endif
+~
+#7829
+if rand 5
+     emote shouts at a passing dockworker '`#Careful with those crates, boy!``'.
+else
+     if rand 50
+          emote watches as his cargo is loaded onto a large tallship.
+     else
+          emote watches as his cargo is unloaded from a freighter.
+     endif
+endif
+~
+#7830
+if isdelay $i
+or isnpc $n
+  break
+endif
+if hasquest $n 'to answer Xavier yes or no.'
+if hasquest $n 'Assassinated the Raider Leader.'
+  mob oload 12107
+  give 1. $n
+  drop 1.  
+  'Here is what is required of you. Destroy the scroll once you read it.
+  'As usual.. We've never met $N or..
+  pmote sweeps his index finger across his throat.
+  pmote turns away.
+  mob echoat $n You have been charged with a quest!
+  mob permquest $n to weaken Goblin defenses.
+  mob remquest $n to answer Xavier yes or no.
+  mob delay 1
+  break
+endif
+if hasquest $n 'Killed the dark raiders.'
+  mob oload 12106
+  give 1. $n
+  drop 1.  
+  'Here is what is required of you. Destroy the scroll once you read it.
+  'Once again.. We've never met $N or..
+  pmote sweeps his index finger across his throat.
+  pmote turns away.
+  mob echoat $n You have been charged with a quest!
+  mob permquest $n to find and eliminate the Raider Leader south of Zalango.
+  mob remquest $n to answer Xavier yes or no.
+  mob delay 1
+  break
+endif
+mob oload 12105
+give 1. $n
+drop 1.  
+'Here is what is required of you. Destroy the scroll once you read it.
+'And remeber.. We've never met $N or..
+pmote sweeps his index finger across his throat.
+pmote turns away.
+mob echoat $n You have been charged with a quest!
+mob permquest $n to find and eliminate dark raiders south of Zalango.
+mob remquest $n to answer Xavier yes or no.
+mob delay 1
+break
+endif
+~
+#7831
+if isdelay $i
+  break
+endif
+if ispc $n
+and hasquest $n 'to answer Xavier yes or no.'
+  spit
+  emote turns away, an angry look on his face.
+  mob remquest $n to answer Xavier yes or no.
+  mob delay 1
+endif
+~
+#7832
+if isnpc $n
+or isdelay $i
+or hasquest $n 'to answer Xavier yes or no.'
+or hasquest $n 'been told to seek a drow slave master in Zalango sewers.'
+or hasquest $n 'killed a pair of elven children for Reskath.'
+  break
+endif
+if hasquest $n 'to find and eliminate dark raiders south of Zalango.'
+or hasquest $n 'To find and eliminate the Raider Leader south of Zalango.'
+or hasquest $n 'to weaken Goblin defenses.'
+  mob call 12161 $n null null
+  break
+endif  
+if level $n < 5
+  'I do not hire children for grown up's work $N.
+  break
+endif
+if hasquest $n 'assassinated the Raider Leader.'
+  pmote walks up to $N.
+  'Well, you've solved my problems nicely $N.  However I still have need a hand.
+  'Interested?
+  emote awaits a yes or no answer.
+  mob tempquest $n to answer Xavier yes or no.
+  break
+endif
+if hasquest $n 'Killed the dark raiders.'
+  pmote walks up to $N.
+  'Well, you've solved a portion of the problem so far $N.
+  'I wonder however if you are up to solving rest of it...
+  emote awaits a yes or no answer.
+  mob tempquest $n to answer Xavier yes or no.
+  break
+endif
+if hasquest $n 'been told that Xavier of Zalango might have more work.'
+  pmote looks $N over and rubs his chin.
+  'You're looking for odd jobs hmm?  Tell you what, I might in fact have something.
+  'Not far south of here, lies a village of goblins who happen to pay me for protection.
+  'As it happends however, the area has been of late plagued by problems.  
+  'Do you think you could solve the problems for me perhaps?
+  emote awaits a yes or no answer.
+  mob tempquest $n to answer Xavier yes or no.
+  break
+endif
+~
+#7833
+if isnpc $n
+or isdelay $i
+or hasquest $n 'to answer Xavier yes or no.'
+  break
+endif
+if hasquest $n 'been told to seek a drow slave master in Zalango sewers.'
+or hasquest $n 'killed a pair of elven children for Reskath.'
+  break
+endif
+if hasquest $n 'to weaken Goblin defenses.'
+  pmote glances up at $N.
+  if hasquest $n 'killed the goblin scout.'
+  and hasquest $n 'killed the goblin guards.'
+  and hasquest $n 'killed the goblin shaman.'
+  and hasquest $n 'killed the goblin chieftain.'
+    pmote whispers something to $N.
+    tell $n Well done $N! I admit I had my doubts but you pulled through.
+    tell $n I must lie low after this incident, so I cannot give you more tasks.
+    tell $n However I hear a drow slavemaster needs something done in the sewers.
+    tell $n Just look for the grate in Town Square.
+    pmote throws $N a sack of gold and fades back into the crowd.
+      mob echoat `@$n Congratulations! You've weakened the Goblin Defenses!``
+    if level $n < 15
+      mob echoat `@$n You've gained 5000 gold and 3000 experience!``
+      mob gain gold pc $n 5000 5000
+      mob gain exp pc $n 3000 3000
+   else
+      mob echoat $n You've gained 5000 gold!
+      mob gain gold pc $n 5000 5000
+    endif
+    mob remquest $n to weaken Goblin defenses.
+    mob remquest $n killed the goblin scout.
+    mob remquest $n killed the goblin guards.
+    mob remquest $n killed the goblin shaman.
+    mob remquest $n killed the goblin chieftain.
+    mob permquest $n weakened the Goblin Defenses.
+    mob permquest $n destroyed the Goblin Council.
+    mob permquest $n Been told to seek a drow slave master in Zalango sewers.
+  else
+     spit
+    'You have not done what I've asked $N. No deed, no pay.
+  endif
+  break
+endif
+if hasquest $n 'to find and eliminate the Raider Leader south of Zalango.'
+  pmote gives $N a questioning look.
+  if hasquest $n 'killed the Raider Leader.'
+    'I had you followed $N and know of the deed.  Here is the pay.
+    'You've proven useful, come back later if you want more work.
+    pmote throws $N a sack of gold.
+      mob echoat $n `@Congratulations! You've assassinated the Raider Leader!``
+    if level $n < 15
+      mob echoat $n `@You've gained a large sum of gold and experience!``
+      mob gain gold pc $n 1000 3000
+      mob gain exp pc $n 1500 2500
+   else
+      mob echoat $n `@You've gained a large sum of gold!``
+      mob gain gold pc $n 1000 3000
+    endif
+    mob remquest $n To find and eliminate the Raider Leader south of Zalango.
+    mob remquest $n killed the Raider Leader.
+    mob permquest $n assassinated the Raider Leader.
+  else
+    'The leader lives. No deed, no pay.
+     spit
+  endif
+  break
+endif
+if hasquest $n 'to find and eliminate dark raiders south of Zalango.'
+  pmote gives $N a hard look.
+  if hasquest $n 'killed all the dark raiders.'
+    'My sources tell me the raiders are dead.
+    'Good work, as promised here is the reward.  Come back later if you want more work.
+    pmote throws $N a sack of gold.
+    if level $n < 15
+      mob echoat $n `@Congratulations! You've killed the dark raiders!``
+      mob echoat $n `@You've gained a large sum of gold and experience!``
+      mob gain gold pc $n 1000 3000
+      mob gain exp pc $n 1500 2500
+   else
+      mob echoat $n `@Congratulations! You've killed the dark raiders!``
+      mob echoat $n `@You've gained a large sum of gold!``
+      mob gain gold pc $n 1000 3000
+    endif
+    mob remquest $n to find and eliminate dark raiders south of Zalango.
+    mob remquest $n killed all the dark raiders.
+    mob permquest $n killed the dark raiders.
+  else
+    'My sources tell me the raiders still live! Get back to Miden'nir and take care of it!
+     spit
+  endif
+  break
+endif
+~
+#7834
+~
+#7847
+if mobhere 7849
+     if rand 50
+          say Now you'll get yours, you sod!
+          kill gangster
+     else
+          say Get some of me, scumbag!
+          kill gangster
+     endif
+else
+     if rand 10
+          emote looks around, mischief intent on his face.
+     endif
+endif
+~
+#7849
+if mobhere 7847
+     if rand 50
+          say Time to die, bastard!
+          kill gangster
+     else
+          say I'm gonna pound you into next week.
+          kill gangster
+     endif
+else
+     if rand 10
+          emote looks around for some trouble to get into.
+     endif
+endif
+~
+#7860
+hide
+~
+#7864
+echoat $n As a brown rat bites you, you feel momentarily ill.
+cast 'plague' $n
+~
+#7874
+get all
+mpjunk all
+~
+#7890
+mob junk gold
+emote looks you over with his clouded gaze.
+if carries $n 30010
+  'Heh, good thing you have that little trinket there, else your trip might have been rough.
+  pmote gets the boat ready and in seconds you are off.
+  mob gtrans $n 10210
+  mob at 10210 say Arr, you are on your own here, for this not be place for me.
+else
+  'Arr, hope you are stronger then you look, without one of those tablets...
+  spit
+  pmote gets the boat ready and in seconds you are off.
+  mob gtrans $n 10210
+  mob at 10210 say Arr, you are on your own here, for this not be place for me.
+endif 
+~
+#7891
+'Arr, the trip to the dead waters will cost you 5000 gold mate.
+~
+#7958
+if isnpc $n
+  break
+endif
+if isbloody $n
+  'You cannot enter with blood still upon you $N!
+  mob stop $n
+  break
+endif
+if clan $n 'despair'
+  salute $n
+else
+  mob stop $n
+  pmote stands before $n barring the way.
+  'Over my dead body $N.
+endif
+~
+#7959
+if isnpc
+or clan $n 'despair'
+or iselawful $n
+  break
+endif
+if isevil $n
+  tell $n If you seek to join Despair the cost is 30000 gold.
+endif
+~
+#7960
+if isnpc
+or clan $n 'despair'
+  give 1.gold $n
+  'You're already a member $N.
+  break
+endif
+if iselawful $n
+or isneutral $n
+or isgood $n
+  'You are not welcome in Despair $N.
+  give 1.gold $n
+else
+  clan draft $n Despair
+  'Welcome to the halls of Despair $N.
+  mob
+~
+#7961
+if isnpc
+or clan $n 'cartel'
+  give 1.gold $n
+  'You're already a member $N.
+  break
+endif
+if iselawful $n
+or isgood $n
+  'You are not welcome in Cartel $N.
+  give 1.gold $n
+else
+  clan draft $n Cartel
+  'Welcome to the halls of Cartel $N.
+  mob junk all
+endif
+~
+#7962
+if isnpc $n
+  break
+endif
+if isbloody $n
+  'You cannot enter with blood still upon you $N!
+  mob stop $n
+  break
+endif
+if clan $n 'cartel'
+  salute $n
+else
+  mob stop $n
+  pmote stands before $n barring the way.
+  'Over my dead body $N.
+endif
+~
+#7963
+if isnpc
+or clan $n 'cartel'
+or iselawful $n
+or isgood $n
+  break
+endif
+tell $n If you seek to join Cartel the cost is 30000 gold.
+~
+#7964
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'To let Slate know which number of tattoo you want.'
+  if equipped $n arms
+    'Bare your arms first.
+    break
+  endif
+  say Alright, in you go.
+  emote sits you down in a steel tattoo chair, and goes to work.
+  echoat $n After a while your arm numbs.
+  mob junk all
+  mob oload 7964
+  mob otransfer tattoo $n
+  force $n wear 1.
+  echo Slate stands up.
+  say All done. Thanks for comin', kid.
+  wink $n
+  mob remquest $n to let Slate know which number of tattoo you want.
+  break
+else
+  say You might wanna pay me first, kid. I don't do this for free.
+  say Hey $n.
+  snort
+endif
+~
+#7965
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'To let Slate know which number of tattoo you want.'
+  if equipped $n arms
+    'Bare your arms first.
+    break
+  endif
+  say Alright, in you go.
+  emote sits you down in a steel tattoo chair, and goes to work.
+  echoat $n After a while your arm numbs.
+  mob junk all
+  mob oload 7965
+  mob otransfer tattoo $n
+  force $n wear 1.
+  echo Slate stands up.
+  say All done. Thanks for comin', kid.
+  wink $n
+  mob remquest $n to let Slate know which number of tattoo you want.
+  break
+else
+  say You might wanna pay me first, kid. I don't do this for free.
+  say Hey $n.
+  snort
+endif
+~
+#7966
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'To let Slate know which number of tattoo you want.'
+  if equipped $n arms
+    'Bare your arms first.
+    break
+  endif
+  say Alright, in you go.
+  emote sits you down in a steel tattoo chair, and goes to work.
+  echoat $n After a while your arm numbs.
+  mob junk all
+  mob oload 7966
+  mob otransfer tattoo $n
+  force $n wear 1.
+  echo Slate stands up.
+  say All done. Thanks for comin', kid.
+  wink $n
+  mob remquest $n to let Slate know which number of tattoo you want.
+  break
+else
+  say You might wanna pay me first, kid. I don't do this for free.
+  say Hey $n.
+  snort
+endif
+~
+#7967
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'To let Slate know which number of tattoo you want.'
+  if equipped $n arms
+    'Bare your arms first.
+    break
+  endif
+  say Alright, in you go.
+  emote sits you down in a steel tattoo chair, and goes to work.
+  echoat $n After a while your arm numbs.
+  mob junk all
+  mob oload 7967
+  mob otransfer tattoo $n
+  force $n wear 1.
+  echo Slate stands up.
+  say All done. Thanks for comin', kid.
+  wink $n
+  mob remquest $n to let Slate know which number of tattoo you want.
+  break
+else
+  say You might wanna pay me first, kid. I don't do this for free.
+  say Hey $n.
+  snort
+endif
+~
+#7968
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'To let Slate know which number of tattoo you want.'
+  if equipped $n arms
+    'Bare your arms first.
+    break
+  endif
+  say Alright, in you go.
+  emote sits you down in a steel tattoo chair, and goes to work.
+  echoat $n After a while your arm numbs.
+  mob junk all
+  mob oload 7968
+  mob otransfer tattoo $n
+  force $n wear 1.
+  echo Slate stands up.
+  say All done. Thanks for comin', kid.
+  wink $n
+  mob remquest $n to let Slate know which number of tattoo you want.
+  break
+else
+  say You might wanna pay me first, kid. I don't do this for free.
+  say Hey $n.
+  snort
+endif
+~
+#7969
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'To let Slate know which number of tattoo you want.'
+  if equipped $n arms
+    'Bare your arms first.
+    break
+  endif
+  say Alright, in you go.
+  emote sits you down in a steel tattoo chair, and goes to work.
+  echoat $n After a while your arm numbs.
+  mob junk all
+  mob oload 7969
+  mob otransfer tattoo $n
+  force $n wear 1.
+  echo Slate stands up.
+  say All done. Thanks for comin', kid.
+  wink $n
+  mob remquest $n to let Slate know which number of tattoo you want.
+  break
+else
+  say You might wanna pay me first, kid. I don't do this for free.
+  say Hey $n.
+  snort
+endif
+~
+#7970
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'To let Slate know which number of tattoo you want.'
+  if equipped $n arms
+    'Bare your arms first.
+    break
+  endif
+  say Alright, in you go.
+  emote sits you down in a steel tattoo chair, and goes to work.
+  echoat $n After a while your arm numbs.
+  mob junk all
+  mob oload 7970
+  mob otransfer tattoo $n
+  force $n wear 1.
+  echo Slate stands up.
+  say All done. Thanks for comin', kid.
+  wink $n
+  mob remquest $n to let Slate know which number of tattoo you want.
+  break
+else
+  say You might wanna pay me first, kid. I don't do this for free.
+  say Hey $n.
+  snort
+endif
+~
+#7971
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'To let Slate know which number of tattoo you want.'
+  if equipped $n arms
+    'Bare your arms first.
+    break
+  endif
+  say Alright, in you go.
+  emote sits you down in a steel tattoo chair, and goes to work.
+  echoat $n After a while your arm numbs.
+  mob junk all
+  mob oload 7971
+  mob otransfer tattoo $n
+  force $n wear 1.
+  echo Slate stands up.
+  say All done. Thanks for comin', kid.
+  wink $n
+  mob remquest $n to let Slate know which number of tattoo you want.
+  break
+else
+  say You might wanna pay me first, kid. I don't do this for free.
+  say Hey $n.
+  snort
+endif
+~
+#7972
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'To let Slate know which number of tattoo you want.'
+  if equipped $n arms
+    'Bare your arms first.
+    break
+  endif
+  say Alright, in you go.
+  emote sits you down in a steel tattoo chair, and goes to work.
+  echoat $n After a while your arm numbs.
+  mob junk all
+  mob oload 7972
+  mob otransfer tattoo $n
+  force $n wear 1.
+  echo Slate stands up.
+  say All done. Thanks for comin', kid.
+  wink $n
+  mob remquest $n to let Slate know which number of tattoo you want.
+  break
+else
+  say You might wanna pay me first, kid. I don't do this for free.
+  say Hey $n.
+  snort
+endif
+~
+#7973
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'To let Slate know which number of tattoo you want.'
+  if equipped $n arms
+    'Bare your arms first.
+    break
+  endif
+  say Alright, in you go.
+  emote sits you down in a steel tattoo chair, and goes to work.
+  echoat $n After a while your arm numbs.
+  mob junk all
+  mob oload 7973
+  mob otransfer tattoo $n
+  force $n wear 1.
+  echo Slate stands up.
+  say All done. Thanks for comin', kid.
+  wink $n
+  mob remquest $n to let Slate know which number of tattoo you want.
+  break
+else
+  say You might wanna pay me first, kid. I don't do this for free.
+  say Hey $n.
+  snort
+endif
+~
+#7974
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'To let Slate know which number of tattoo you want.'
+  if equipped $n arms
+    'Bare your arms first.
+    break
+  endif
+  say Alright, in you go.
+  emote sits you down in a steel tattoo chair, and goes to work.
+  echoat $n After a while your arm numbs.
+  mob junk all
+  mob oload 7974
+  mob otransfer tattoo $n
+  force $n wear 1.
+  echo Slate stands up.
+  say All done. Thanks for comin', kid.
+  wink $n
+  mob remquest $n to let Slate know which number of tattoo you want.
+  break
+else
+  say You might wanna pay me first, kid. I don't do this for free.
+  say Hey $n.
+  snort
+endif
+~
+#7975
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'To let Slate know which number of tattoo you want.'
+  if equipped $n arms
+    'Bare your arms first.
+    break
+  endif
+  say Alright, in you go.
+  emote sits you down in a steel tattoo chair, and goes to work.
+  echoat $n After a while your arm numbs.
+  mob junk all
+  mob oload 7975
+  mob otransfer tattoo $n
+  force $n wear 1.
+  echo Slate stands up.
+  say All done. Thanks for comin', kid.
+  wink $n
+  mob remquest $n to let Slate know which number of tattoo you want.
+  break
+else
+  say You might wanna pay me first, kid. I don't do this for free.
+  say Hey $n.
+  snort
+endif
+~
+#7976
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'To let Slate know which number of tattoo you want.'
+  if equipped $n arms
+    'Bare your arms first.
+    break
+  endif
+  say Alright, in you go.
+  emote sits you down in a steel tattoo chair, and goes to work.
+  echoat $n After a while your arm numbs.
+  mob junk all
+  mob oload 7977
+  mob otransfer tattoo $n
+  force $n wear 1.
+  echo Slate stands up.
+  say All done. Thanks for comin', kid.
+  wink $n
+  mob remquest $n to let Slate know which number of tattoo you want.
+  break
+else
+  say You might wanna pay me first, kid. I don't do this for free.
+  say Hey $n.
+  snort
+endif
+~
+#7977
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'To let Slate know which number of tattoo you want.'
+  if equipped $n arms
+    'Bare your arms first.
+    break
+  endif
+  say Alright, in you go.
+  emote sits you down in a steel tattoo chair, and goes to work.
+  echoat $n After a while your arm numbs.
+  mob junk all
+  mob oload 7977
+  mob otransfer tattoo $n
+  force $n wear 1.
+  echo Slate stands up.
+  say All done. Thanks for comin', kid.
+  wink $n
+  mob remquest $n to let Slate know which number of tattoo you want.
+  break
+else
+  say You might wanna pay me first, kid. I don't do this for free.
+  say Hey $n.
+  snort
+endif
+~
+#7978
+if isnpc $n
+or isdelay $i
+  break
+endif
+if hasquest $n 'To let Slate know which number of tattoo you want.'
+  if equipped $n arms
+    'Bare your arms first.
+    break
+  endif
+  say Alright, in you go.
+  emote sits you down in a steel tattoo chair, and goes to work.
+  echoat $n After a while your arm numbs.
+  mob junk all
+  mob oload 7978
+  mob otransfer tattoo $n
+  force $n wear 1.
+  echo Slate stands up.
+  say All done. Thanks for comin', kid.
+  wink $n
+  mob remquest $n to let Slate know which number of tattoo you want.
+  break
+else
+  say You might wanna pay me first, kid. I don't do this for free.
+  say Hey $n.
+  snort
+endif
+~
+#7987
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+'Ah yes...I have just the animal for you.
+pmote leads a tired looking yak to $N.
+'Enjoy.
+snicker
+mob junk 1.gold
+mob mount 7989 24 $n
+~
+#7988
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+'An ass? An ass you say? Fine, I have one.
+pmote leads an ugly donkey to $N.
+'Now, you do too.
+snicker self
+mob junk 1.gold
+mob mount 7991 36 $n
+~
+#7989
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+'Ah, yes. I have a fine horse for you.
+pmote leads a beautiful quarterhorse to $N.
+'He's the best I have in my stock.
+'Enjoy.
+mob junk 1.gold
+mob mount 7993 72 $n
+~
+#7990
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+'Ah, into battle ye go, aye? Very good.
+pmote leads a powerful warhorse to $N.
+'Combat trained and all. Got him off a dead royal!
+'Hope he brings ya better luck.
+mob junk 1.gold
+mob mount 7995 144 $n
+~
+#7991
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 2000
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -2000 -2000
+endif
+'Ah, into battle ye go, aye? Very good.
+pmote leads a powerful warhorse to $N.
+'Combat trained and all. Got him off a dead royal!
+'Hope he brings ya better luck.
+mob junk 1.gold
+mob mount 7995 144 $n
+~
+#7992
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 1000
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -1000 -1000
+endif
+'Ah, yes. I have a fine horse for you.
+pmote leads a beautiful quarterhorse to $N.
+'He's the best I have in my stock.
+'Enjoy.
+mob junk 1.gold
+mob mount 7993 72 $n
+~
+#7993
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 250
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -250 -250
+endif
+'An ass? An ass you say? Fine, I have one.
+pmote leads an ugly donkey to $N.
+'Now, you do too.
+snicker self
+mob junk 1.gold
+mob mount 7991 36 $n
+~
+#7994
+if isnpc $n
+  break
+endif
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 100
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -100 -100
+endif
+'Ah yes...I have just the animal for you.
+pmote leads a tired looking yak to $N.
+'Enjoy.
+snicker
+mob junk 1.gold
+mob mount 7989 24 $n
+~
+#7995
+say Welcome to the shop, kid. Price list is on the wall.
+emote looks up.
+say When ya figger out whatcha want, pay me, and lemme know the number.
+emote goes back to tattooing.
+~
+#7996
+if wears $n tattoo
+     say Bah, get the hell outta here. You already got a tattoo.
+     say For your stupidity, I'll keep the gold. Now get OUT!
+     emote points to the door, looking pissed.
+     break
+endif
+if hasquest $n 'to let Slate know which number of tattoo you want.'
+     say Hey, where'd you run off to, kid? Get scared? Well, hell, I'll still tattoo ya.
+     say Now which number d'ya want?
+     pmote looks at you expectantly.
+     give 1.gold $n
+     break
+  else
+     emote jingles the gold in his hand.
+     say Yeah, looks like it's enough. Now, what number d'you want, kid?
+     mob permquest $n to let Slate know which number of tattoo you want.
+     mob junk all.gold
+     break
+endif
+~
+#7997
+~
+#7998
+'Thanks.
+grin
+mob junk all.gold
+~
+#7999
+~
+#0
+
+M 7802 1 zenja_quest.prg NL
+M 7803 0 serin_trainer.prg NL
+M 7811 1 sewer_wanderer.prg NL
+M 7840 0 valmiran_citizen.prg NL
+M 7860 1 eastern_warrior.prg NL
+M 7866 1 cat.prg NL
+M 7885 1 quest_jonathan.prg NL
+M 7891 0 serin_shaman.prg NL
+M 7891 0 serin_guild.prg NL
+M 7892 0 serin_shaman.prg NL
+M 7892 0 serin_guild.prg NL
+M 7893 0 serin_shaman.prg NL
+M 7894 0 serin_shaman.prg NL
+M 7897 0 serin_necromancer.prg NL
+M 7897 0 serin_guild.prg NL
+M 7898 0 serin_necromancer.prg NL
+M 7899 0 guildguard.prg NL
+M 7963 0 serin_invoker.prg NL
+M 7964 0 guildguard.prg NL
+M 7965 0 serin_invoker.prg NL
+M 7969 0 guildguard.prg NL
+M 7970 0 serin_invoker.prg NL
+M 7971 0 serin_guild.prg NL
+M 7972 0 serin_berserker.prg NL
+M 7973 0 serin_dark-knight.prg NL
+M 7973 0 serin_guild.prg NL
+M 7974 0 serin_dark-knight.prg NL
+M 7975 0 guildguard.prg NL
+M 7976 0 serin_invoker.prg NL
+M 7977 0 guildguard.prg NL
+M 7978 0 serin_monk.prg NL
+M 7979 0 serin_ninja.prg NL
+M 7979 0 serin_guild.prg NL
+M 7980 0 serin_ninja.prg NL
+M 7989 1 serin_mercenary.prg NL
+M 7990 1 zenja_quest.prg NL
+M 7991 1 serin_mercenary.prg NL
+M 7993 1 serin_mercenary.prg NL
+M 7995 1 serin_mercenary.prg NL
+M 7998 0 serin_invoker.prg NL
+M 7999 0 guildguard.prg NL
+S
+
+
+
+
+#OBJPROGS
+#7860
+if rand 50
+     obj echo Hordes of flies buzz errantly around some trash cans.
+else
+     obj echo The horrific stench of trash fills your nostrils.
+endif
+~
+#7885
+if hour == 12
+obj echo A loud bell clangs overhead.
+obj zecho The watch bell in the Lighthouse tolls High Noon.
+endif
+if hour == 18
+     obj echo A loud bell clangs overhead.
+     obj zecho The watch bell in the Lighthouse tolls Sunset.
+endif
+if hour == 6
+     obj echo A loud bell clangs overhead.
+     obj zecho The watch bell in the Lighthouse tolls Sunrise.
+endif
+~
+#7886
+~
+#7887
+obj echoat $n Jonathan eyes you angrily.
+obj echo Jonathan says '`#Don't touch my bell.``'
+~
+#7987
+obj cast 'fly' $n
+~
+#7988
+if carries $n 7987
+   if affected $n fly
+     obj affstrip $n fly
+   endif
+endif
+~
+#7995
+obj echo Some poison barbed gauntlets gleam with lethal poison.
+obj cast 'poison' $n
+~
+#0
+
+#ROOMPROGS
+#7801
+if rand 50
+room zecho `8A chilly fog slinks over the city from the sea bringing with it the smell of brine.``
+else
+room zecho `8You hear the distant cries of wheeling seagulls accompanied by the sound of breakers.``
+endif
+~
+#7802
+room echo A spurt of foul smelling water erupts from the fountain.
+~
+#7804
+room echoat $n Hoiwinas hears your dutiful prayers.
+~
+#7869
+if hasquest $n 'Discovered the Shrine to Wuzamuli in Zalango'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Wuzamuli!``
+    room permquest $n Discovered the Shrine to Wuzamuli in Zalango
+endif
+~
+#7870
+room echoat $n You feel the vile gaze of Wuzamuli upon your heart.
+~
+#7871
+echoat $n Hoiwinas has heard your prayers.
+~
+#7885
+if rand 25
+     if hour < 6
+          room zecho `#A bright beam from the lighthouse sweeps across the dark city.``
+     endif
+else
+     room echo The lighthouse lantern swivels, washing the room with bright light.
+endif
+~
+#0
+
+#$

@@ -1,0 +1,1213 @@
+#AREADATA
+Name the Dark Castle~
+Pref ~
+Builders Crypticant~
+VNUMs 27001 27050
+Max_Bastions 0
+Credits { 50  } Cryptica The Dark Castle~
+Security 9
+Startroom 27001
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#27014
+guardian daemon~
+a guardian Daemon~
+A guardian Daemon stands here, clad in black armor.
+~
+~
+demon~
+ABSe A DFJT 0 -500 0
+30 18 4d6+1000 0d0+100 4d6+10 corruption
+0 0 0 0
+FJKMR 0 0 A
+stand stand either none~
+16
+AHMV ABCDEFGHIJK medium 0
+#27015
+sator guardian demon~
+a Sator Demon~
+A massive Sator Demon guards the gates here.
+~
+~
+demon~
+ABZe A DFJT 0 -750 0
+30 25 4d6+1000 0d0+100 4d6+20 corruption
+-1 -1 -1 -1
+EFJKV AB 0 0
+stand stand male none~
+20
+AHMV ABCDEFGHIJK medium 0
+F vul A
+#27022
+Keenan~
+Keenan~
+Keenan, a dark demoness, waits here with a plate of food.
+~
+~
+demon~
+AGd A DFJT 0 0 0
+25 10 4d6+700 0d0+100 4d6+8 corruption
+0 0 0 0
+E AB H A
+stand stand female none~
+13
+AHMV ABCDEFGHIJK medium 0
+#27023
+demonic loremaster Gro'lrin~
+Gro'lrin~
+Gro'lrin, the demon loremaster is here, casting his brooding gaze at you.
+~
+The demon you see before you, is surprisingly somewhat human looking,
+only a hint of flame in his eyes, and a pair of large leathery wings
+betray his true kind.  He is clad in a lose robe of black wool, it's
+hem embroidered with gold and silver thread in a series of arcane
+runes.  His face is solemn, and looks about his surroundings with
+a brooding glare.
+~
+demon~
+AGQRe A DJOTU AC -1000 0
+55 35 50d10+5000 50d10+500 4d20+35 corruption
+-25 -25 -25 -25
+EFKN AB LQ AN
+stand stand none none~
+25
+AHMV ABCDEFGHIJK huge 0
+#0
+
+
+
+#OBJECTS
+#27013
+altar shrine Jolma~
+an altar~
+A dedication shrine has been placed here in the shape of a large black obsidian coiled whip.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+#27015
+demonic key~
+a Demonic Key~
+A black key is lying here.~
+steel~
+key 0 AO
+0 0 0 0 0
+50 0 0 P
+#27017
+wicked fountain~
+a fountain~
+A black onyx fountain flows with water here.~
+rock~
+fountain 0 0
+-1 -1 'water' 0 0
+50 0 500 P
+#27021
+potato~
+a potato~
+A potato is on the ground here.~
+unknown~
+food 0 A
+50 24 0 0 300
+0 2 12 P
+#27022
+human hand~
+a human hand~
+A dessicated human hand is lying here.~
+flesh~
+food 0 A
+30 30 0 0 50
+25 10 15 P
+#27023
+vacuus wood splinter~
+the Splinter of 'Vacuus'~
+A sharp splinter of blackened wood is here, radiating manevolence.~
+wood~
+weapon AEHJLMTYZ ANS
+exotic 4 13 corruption 0
+50 1 1 P
+T
+28 2 10
+A ruby-hilted dagger gives off a spark.~
+Something gives off a spark.~
+T
+64 2 5
+A ruby-hilted dagger glows with a sickly light.~
+Something glows with a sickly light.~
+T
+65 2 10
+A ruby-hilted dagger glows with a sickly light.~
+Something glows with a sickly light.~
+M
+You feel possessed by a strong evil force, and are suddenly sick to the stomach.~
+The lights dim suddenly as a ruby-hilted dagger crackles with dark energy.~
+You must have that dagger back, it is a part of you!~
+A loud thunderous clap is heard as a ruby-hilted dagger crackles with dark energy.~
+F
+A 0 0 M
+F
+A 0 0 K
+F
+A 2 2 0
+F
+A 1 -2 0
+F
+A 18 3 0
+F
+A 19 5 0
+#27024
+Vacuus wood splinter~
+the Splinter of 'Vacuus'~
+A sharp splinter of blackened wood is here, radiating manevolence.~
+wood~
+trash ABEJLTY AOS
+0 0 0 0 0
+50 100 1 P
+E
+vacuus splinter wood~
+This jagged, charred chunk of dark wood is crawling with spidery, demonic
+script spelling out the words, 'Vacuus' the Sou.....'.  The rest of the
+letters are undecipherable.
+~
+#27040
+ring black vellum~
+(`8Black Aura``) a ring of Black Vellum~
+(`8Black Aura``) A dark ring glows here with energy.~
+Chaos~
+jewelry EJMY ABX
+0 0 0 0 0
+25 10 10 P
+T
+72 1 5
+$p glows with a sickly black light.~
+$p glows with a sickly black light.~
+T
+27 1 5
+$p radiates a chaotic force.~
+$p radiates a chaotic force.~
+M
+$p fuses to your finger. Dark power consumes you.~
+~
+$p unfuses from your finger. Dark power leaves you.~
+~
+F
+A 19 2 0
+F
+A 2 -1 0
+F
+A 5 -1 0
+F
+A 13 -10 0
+F
+A 12 -10 0
+#27047
+mask ninja~
+the Mask of the Ninja~
+A black hooded mask is lying on the ground here.~
+cloth~
+armor JM Ad
+8 4 4 6 0
+50 10 5000 P
+M
+The wrath of the ninjas overcomes you.~
+$n looks posessed by the wrath of the ancients.~
+~
+~
+#27050
+Vacuus wood splinter~
+the Splinter of 'Vacuus'~
+A sharp splinter of blackened wood is here, radiating manevolence.~
+wood~
+trash ABEJLTY AOS
+0 0 0 0 0
+50 100 1 P
+E
+vacuus splinter wood~
+This jagged, charred chunk of dark wood is crawling with spidery, demonic
+script spelling out the words, 'Vacuus' the Sou.....'.  The rest of the
+letters are undecipherable.
+~
+#0
+
+
+
+#ROOMS
+#27001
+`2A forest trail``~
+You are deep within the forest . Tall black pines surround
+you from every direction. There is a winding trail that seems to
+lead deeper into the woods, to where, you do not know. Spooky owls
+and cries of odd birds are all around you.
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 27002
+D2
+~
+~
+0 0 6719
+S
+#27002
+`2A forest trail``~
+You are deep within the forest . Tall black pines surround
+you from every direction. There is a winding trail that seems to
+lead deeper into the woods, to where, you do not know. Spooky owls
+and cries of odd birds are all around you.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 27003
+D3
+~
+~
+0 0 27001
+S
+#27003
+`2A forest trail``~
+You are deep within the forest . Tall black pines surround
+you from every direction. There is a winding trail that seems to
+lead deeper into the woods, to where, you do not know. Spooky owls
+and cries of odd birds are all around you.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 27004
+D3
+~
+~
+0 0 27002
+S
+#27004
+`2A forest trail``~
+You are deep within the forest . Tall black pines surround
+you from every direction. There is a winding trail that seems to
+lead deeper into the woods, to where, you do not know. Spooky owls
+and cries of odd birds are all around you.
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 27005
+D2
+~
+~
+0 0 27003
+S
+#27005
+`3A break in the forest``~
+You are within a large forest clearing. The ground here seems to be
+well traveled, and is marred by hundreds of clawed footprints. The
+black forest still looms all around you, but the sounds of animals
+have ceased, leaving the air deathly still.
+~
+~
+0 0 65536 2
+D1
+~
+~
+0 0 27006
+D3
+~
+~
+0 0 27004
+S
+#27006
+`3A dirt path``~
+You are walking along a small dirt path that leads even farther
+eastward into Banor. The woods around you seem almost haunted, and
+are filled with large, thick black pine trees that obscure vision.
+This path is well traveled, but by what, you can't begin to guess.
+~
+~
+0 0 16384 2
+D1
+~
+~
+0 0 27007
+D3
+~
+~
+0 0 27005
+S
+#27007
+`3A dirt path``~
+You are walking along a small dirt path that leads even farther
+eastward into Banor. The woods around you seem almost haunted, and
+are filled with large, thick black pine trees that obscure vision.
+This path is well traveled, but by what, you can't begin to guess.
+~
+~
+0 0 8192 2
+D1
+~
+~
+0 0 27008
+D3
+~
+~
+0 0 27006
+S
+#27008
+`3A cobbled road``~
+The dirt path gives way to a cobbled stone path. The stones are worm
+smooth from travel and age, and seem to have been only recently laid.
+The edges of the path are lined with thorned brambles that come head
+high, seemingly to prevent flight into the deep woods. But why would
+anyone want to flee there?
+~
+~
+0 0 8192 2
+D1
+~
+~
+0 0 27009
+D3
+~
+~
+0 0 27007
+S
+#27009
+`3A cobbled road``~
+The dirt path gives way to a cobbled stone path. The stones are worn
+smooth from travel and age, and seem to have been only recently laid.
+The edges of the path are lined with thorned brambles that come head
+high, seemingly to prevent flight into the deep woods. But why would
+anyone want to flee there?
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 27010
+D3
+~
+~
+0 0 27008
+S
+#27010
+`3A cobbled road``~
+The dirt path gives way to a cobbled stone path. The stones are worn
+smooth from travel and age, and seem to have been only recently laid.
+The edges of the path are lined with thorned brambles that come head
+high, seemingly to prevent flight into the deep woods. But why would
+anyone want to flee there?
+~
+~
+0 0 8192 2
+D1
+~
+~
+0 0 27011
+D2
+~
+~
+0 0 27009
+S
+#27011
+`7A dark road``~
+You are now walking down a paved road that leads eastward. A large,
+dark castle looms in the distance, its twin spires rising up well
+above tree level. The sky here is cloudy, and seems to always be
+overcast and rainy. The road is slick with recent rain, and a dark
+sense of fear begins to penetrate you.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 27012
+D3
+~
+~
+0 0 27010
+S
+#27012
+`7A dark road``~
+You are now walking down a paved road that leads eastward. A large,
+dark castle looms in the distance, its twin spires rising up well
+above tree level. The sky here is cloudy, and seems to always be
+overcast and rainy. The road is slick with recent rain, and a dark
+sense of fear begins to penetrate you.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 27013
+D3
+~
+~
+0 0 27011
+S
+#27013
+`7A dark road``~
+You are now walking down a paved road that leads eastward. A large,
+dark castle looms in the distance, its twin spires rising up well
+above tree level. The sky here is cloudy, and seems to always be
+overcast and rainy. The road is slick with recent rain, and a dark
+sense of fear begins to penetrate you.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 27014
+D3
+~
+~
+0 0 27012
+P GRALL 27012 100~
+P SPEECH 27013 worship~
+S
+#27014
+`7Dark stone bastions``~
+You stand between two large stone bastions that lead to the dark
+castle. Built of sturdy granite, a set of guards stands watch here,
+to keep any unwanted visitors away from the castle. Eastward lies a
+large drawbridge and porticullis that leads into the castle keep.
+~
+~
+0 0 0 1
+D1
+~
+~
+0 0 27015
+D3
+~
+~
+0 0 27013
+S
+#27015
+`7Before a Dark Castle``~
+You stand before the dark castle. The drawbridge is up, and another
+large figure stands guard here. The castle is impressive. Two large
+floors, and a set of twin stone towers that rise into the sky from
+the north and south ends. Both are donned with a blood red banner,
+marked with the sigil of the Tryst. It looks like you're not going
+to get any further with this guard here.
+~
+~
+0 0 0 1
+D1
+~
+drawbridge~
+ABCF 0 27016
+D3
+~
+~
+0 0 27014
+S
+#27016
+`8An entranceway``~
+You stand in a broad, arched entranceway within the castle. Made
+almost entirely of heavy granite, the castle is quite impressive.
+This room rises well over fifty feet, and contains several armed
+guards to prevent unwanted visitors. Guard housing seems to be
+within the walls of this entranceway, as you can see many small
+windows lit with torches.
+~
+~
+0 8 0 0
+D1
+~
+~
+0 0 27017
+D3
+~
+drawbridge~
+ABCF 27015 27015
+S
+#27017
+`3A stone courtyard``~
+You are within the main courtyard of the castle. This seems to be
+a garden of sorts. Hundreds of black roses grow around the walls,
+and thick thornbriars are neatly cut, and set in stone circles around
+the yard here. Ugly to some, the owners of this castle seem to take
+great pride in their wicked plants.
+~
+~
+0 0 65536 2
+D1
+~
+entrance~
+AB 0 27018
+D3
+~
+~
+0 0 27016
+S
+#27018
+`8The foyer``~
+You stand within a grand foyer. Large dark granite walls rise up
+all around you, and a large iron hearth stands in the center of
+the room, roaring with fire. The area is warm, almost hot from
+the heat of the fireplace. The room is sparsely decorated, leaving
+only a few large red banners and busts of gargoyles on the walls.
+Hallways lead in all directions.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 27019
+D1
+~
+~
+0 0 27021
+D2
+~
+~
+0 0 27020
+D3
+~
+entrance~
+AB 0 27017
+S
+#27019
+`8The North Hall``~
+You are walking down the northern hallway of the castle. It is
+rather silent here, save for the crackle of the torches that line
+the walls. Large black tapestries are hung on the walls, and your
+boots make a soft clicking on the stone floor as you walk. The
+torches cast a shadowy light on everything you see.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 27028
+D2
+~
+~
+0 0 27018
+S
+#27020
+`8The South Hall``~
+You are walking down the southern hallway of the castle. It is
+rather silent here, save for the crackle of the torches that line
+the walls. Large black tapestries are hung on the walls, and your
+boots make a soft clicking on the stone floor as you walk. The
+torches cast a shadowy light on everything you see.
+~
+~
+0 8 0 0
+D0
+~
+~
+0 0 27018
+D2
+~
+~
+0 0 27026
+S
+#27021
+`8The Eastern Hall``~
+You are within the eastern hall of the castle. It seems to lead
+into some sort of living quarters further east. It is well lit
+with torches and the occasional candelabra, but sparsely furnished
+or decorated. It seems the denizens of this castle have little need
+for such.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 27022
+D3
+~
+~
+0 0 27018
+S
+#27022
+`8The Eastern Hall``~
+You are within the eastern hall of the castle. It seems to lead
+into some sort of living quarters further east. It is well lit
+with torches and the occasional candelabra, but sparsely furnished
+or decorated. It seems the denizens of this castle have little need
+for such.
+~
+~
+0 2097161 0 0
+D1
+~
+~
+0 0 27023
+D3
+~
+~
+0 0 27021
+S
+#27023
+`8A Demonic Altar``~
+You stand before a large obelisk. Encased completely in dark
+black rock, the altar is a visage of the Lord of Chaos. The
+two large demonic eyes of the altar are set with fist-sized
+rubies, which seem to glow with an inner light. Two large stone
+doors lie north and south.
+~
+~
+0 9 0 0
+D0
+~
+~
+AB 0 27024
+D2
+~
+~
+AB 0 27025
+D3
+~
+~
+0 0 27022
+D5
+~
+grating~
+AB 0 27041
+S
+#27024
+`8The Sanctum``~
+You stand within the Sanctum. An aura of dark power surrounds
+you, and keeps you at peace. Nothing here can harm you, so long
+as the dark glyphs that protect this room remain canted. Energy
+radiates wildly here, and the powers of Chaos intertwine here
+with vigor.
+~
+~
+0 9 0 0
+D2
+~
+~
+AB 0 27023
+S
+#27025
+`8Isolation``~
+You stand within Isolation. This room is encased solely in
+black obsidian, and the forces of Chaos channel here in a
+locked isolation. You are here. You are alone. The Void fills
+your soul, and without disturbance, you feel yourself heal
+rapidly.
+~
+~
+0 9 0 0
+D0
+~
+~
+AB 0 27023
+S
+#27026
+`8Before a staircase``~
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 27020
+D4
+~
+~
+0 0 27027
+S
+#27027
+`8The Second Floor of the Castle``~
+You stand at on the southern end of the second floor of the
+castle. A dark hallway leads northward into the darkness, and
+a small spiral staircase leads upward. Inlaid with brushed steel,
+the granite staircase is a work of art. Magical runes are all
+inscribed on each step.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 27032
+D4
+~
+~
+AB 0 27035
+D5
+~
+~
+0 0 27026
+S
+#27028
+`8Before a staircase``~
+You stand before a large, hand worked stone spiral staircase. The
+tiles in the floor are inlaid with deep redstone, set in almost
+black granite. The stairway is lit again with torches, and spirals
+upward to the second floor, and the north tower of the castle.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 27019
+D4
+~
+~
+0 0 27029
+S
+#27029
+`8The Second Floor of the Castle``~
+You stand on the second floor of the castle. A long hallway runs
+south, down to the south tower, you can only assume. A heavy wood
+door lies above you, apparently leading further upward into the
+spire. The door is marked with a face of a grinning demon, holding
+a knocker in its mouth.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 27030
+D4
+~
+~
+AB 0 27033
+D5
+~
+~
+0 0 27028
+S
+#27030
+`8A wicked hallway``~
+You are walking down a dark, and poorly lit hallway. Thick black
+carpet is under your feet, making you walk silently. The ceiling
+above you is rather low, and arched. It is nearly silent in this
+hallway, save for your own breathing.
+~
+~
+0 1 0 0
+D0
+~
+~
+0 0 27029
+D2
+~
+~
+0 0 27031
+S
+#27031
+`8A wicked hallway``~
+You are walking down a dark, and poorly lit hallway. Thick black
+carpet is under your feet, making you walk silently. The ceiling
+above you is rather low, and arched. It is nearly silent in this
+hallway, save for your own breathing.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 27030
+D2
+~
+~
+0 0 27032
+S
+#27032
+`8A wicked hallway``~
+You are walking down a dark, and poorly lit hallway. Thick black
+carpet is under your feet, making you walk silently. The ceiling
+above you is rather low, and arched. It is nearly silent in this
+hallway, save for your own breathing.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 27031
+D2
+~
+~
+0 0 27027
+S
+#27033
+`8A spiral staircase``~
+You are again on a spiral staircase leading upward into a dark
+spire of the castle. A small port window is here, and allows you
+to see that you are several hundred feet above the ground here.
+A strange presence is felt upward, a feeling of dread, and perhaps
+impending doom.
+~
+~
+0 9 0 0
+D4
+~
+~
+0 0 27034
+D5
+~
+~
+AB 0 27029
+S
+#27034
+`8The Top of the North Tower``~
+You stand at the top of the North Tower. This is home to Miscreant,
+a Chosen Demon. Black runes are all around the room, and unholy glyphs
+are set in the walls here at regular intervals. A feeling of power
+fills the room from an unknown source. The room, while circular, is
+rather large, with an archway leading north.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 27037
+D5
+~
+~
+0 0 27033
+S
+#27035
+`8A spiral staircase``~
+You are walking up a narrow spiral staircase that leads
+upward into the southern spire of the castle. A large port
+window is here, and you can see that you stand several hundred
+feet above the ground here. Thunder roils outside, and pregnant
+rainclouds seem ready to spray forth rain at any time.
+~
+~
+0 9 0 0
+D4
+~
+~
+0 0 27036
+D5
+~
+~
+AB 0 27027
+S
+#27036
+`8The Top of the South Tower``~
+You are within the Southern Spire. This is Malignant's tower,
+an Elder Chaos Demon. Large libraries of ancient texts surround
+the room, and large runes are inscribed within the circular walls.
+The room is well lit by several burning candelabras set within
+the walls of the room.
+~
+~
+0 8 0 0
+D2
+~
+~
+0 0 27039
+D5
+~
+~
+0 0 27035
+S
+#27037
+`8The Chamber of Rituals``~
+You are within sacred grounds now. A large pentgram is scribed
+on the floor, inlaid with silver, and at each point, a red candle
+is burning brightly. In the center of the room is a small black
+altar with dessicated animal corpse lying bleeding on it. This is
+a ritual chamber, and powers at work here are not to be toyed with.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 27034
+D4
+~
+hatch~
+AB 0 27038
+S
+#27038
+`8A Black Room``~
+You stand within a meditation room. This is the highest point of
+the tower, and the domed ceiling allows little headroom. All of
+the walls of this room seem to be made of polished black onyx,
+and utter silence surrounds you. No light permeates this room,
+and you feel a complete lack of senses here.
+~
+~
+0 9 0 0
+D5
+~
+~
+AB 0 27037
+S
+#27039
+`8The Chamber of Blades``~
+You stand on sacred grounds. This seems to be not only a room
+of worship to the Dark Lord, but also a training room for a very
+skilled battlemage. Several large blunt objects lie embedded in
+the dark walls of the room, and many ancient texts are littered
+across the floor, each opened to important pages. The room is lit
+only by a single floor candelabra.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 27036
+D4
+~
+hatch~
+AB 0 27040
+S
+#27040
+`8A Black Room``~
+You stand within a meditation room. This is the highest point of
+the tower, and the domed ceiling allows little headroom. All of
+the walls of this room seem to be made of polished black onyx,
+and utter silence surrounds you. No light permeates this room,
+and you feel a complete lack of senses here.
+~
+~
+0 19136521 0 0
+D5
+~
+~
+AB 0 27039
+S
+#27041
+`8Underground``~
+You stand in a hewn out tunnel that runs underground. It is dark
+here, and very damp. It seems to wind about aimlessly.
+~
+~
+0 9 0 0
+D4
+~
+~
+AB 0 27023
+D5
+~
+~
+0 0 27042
+S
+#27042
+`8Underground``~
+You stand in a hewn out tunnel that runs underground. It is dark
+here, and very damp. It seems to wind about aimlessly.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 27043
+D4
+~
+~
+0 0 27041
+S
+#27043
+`8A underground tunnel``~
+You stand in a hewn out tunnel that runs underground. It is dark
+here, and very damp. It seems to wind about aimlessly.
+~
+~
+0 9 0 0
+D0
+~
+~
+0 0 27044
+D1
+~
+~
+0 0 27042
+S
+#27044
+`8A underground tunnel``~
+You stand in a hewn out tunnel that runs underground. It is dark
+here, and very damp. It seems to wind about aimlessly.
+~
+~
+0 9 0 0
+D2
+~
+~
+0 0 27043
+D3
+~
+~
+0 0 27045
+S
+#27045
+`8A underground tunnel``~
+You stand in a hewn out tunnel that runs underground. It is dark
+here, and very damp. It seems to wind about aimlessly.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 27044
+D3
+~
+~
+0 0 27046
+S
+#27046
+`8A underground tunnel``~
+You stand in a hewn out tunnel that runs underground. It is dark
+here, and very damp. It seems to wind about aimlessly.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 27045
+D5
+~
+~
+0 0 27048
+S
+#27047
+`8``~
+~
+~
+0 8196 0 0
+S
+#27048
+`8A underground tunnel``~
+You stand in a hewn out tunnel that runs underground. It is dark
+here, and very damp. It seems to wind about aimlessly.
+~
+~
+0 9 0 0
+D3
+~
+~
+0 0 27049
+D4
+~
+~
+0 0 27046
+S
+#27049
+`8A hot passageway``~
+You stand within a dark tunnel. Heat penetrates the walls
+here, and you can feel yourself sweat through your armor.
+A black door lies westward here, and the power of the Nexus
+fills your bones with enigmatic vibrations.
+~
+~
+0 9 0 0
+D1
+~
+~
+0 0 27048
+D3
+~
+chamber~
+AB 0 27050
+S
+#27050
+`8A portal``~
+You stand before an orb of liquid. It seems to pulsate before
+your very eyes, leading somewhere unusual. Flashes of light,
+and red flashes of blood and pain blur on its surface. Your
+reflection is cast back at you, only horribly distorted.
+~
+~
+0 9 0 0
+D1
+~
+~
+AB 0 27049
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 27015 spec_breath_any
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+O 0 27013 0 27013
+M 0 27014 2 27014 2
+M 0 27015 1 27015 1
+O 0 27017 0 27017
+M 0 27022 1 27022 1
+M 0 27023 1 27050 1
+E 0 27024 0 18
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+M 27015 1 demoncastle_guard.prg NL
+M 27022 1 demoncastle_servant.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#27012
+if hasquest $n 'Discovered the Shrine to Jolma within the Dark Castle'
+    break
+else
+    room echoat $n `@You have discovered the Shrine to Jolma!``
+    room permquest $n Discovered the Shrine to Jolma within the Dark Castle
+endif
+~
+#27013
+room echoat $n For an instant all the pain you can imagine stung your senses as Jolma hears your prayers.
+~
+#0
+
+#$

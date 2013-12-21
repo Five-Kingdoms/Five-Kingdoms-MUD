@@ -1,0 +1,407 @@
+#AREADATA
+Name Bastion Area~
+Pref ~
+Builders Immortals~
+VNUMs 32600 32699
+Max_Bastions 0
+Credits { --- } Bastion Subsystem~
+Security 9
+Startroom 0
+Flags 160
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#32600
+bastion knight ivory fortress~
+an ivory fortress~
+A tall ivory fortress flying the banners of [`6TEMPLAR``] is built here.
+~
+Before you stands a tall edifice constructed from what looks like pure
+ivory. A large door stands at the base of the fortress, and small windows
+for archers line the walls. The fortress stands well over one hundred
+spans high, and looks nearly impenetrable. Large banners fly from the
+steepled roof high above, and a giant golden cross is embossed into the
+center of the tower.
+~
+unique~
+ABZce AC DF 0 0 15910
+60 1 4d6+30000 0d0+0 4d6+20 defense
+-40 -40 -40 -40
+AHXZ ABELPQ HI 0
+stand stand none none~
+25
+0 0 huge 0
+P FIGHT 32600 25~
+P FIGHT 32601 25~
+P FIGHT 32605 50~
+P FIGHT 32608 50~
+P FIGHT 32603 25~
+P FIGHT 32604 25~
+P FIGHT 32606 10~
+P FIGHT 32607 25~
+P FIGHT 32602 20~
+P FIGHT 32609 25~
+#32601
+bastion chaos black tower colossal~
+a colossal black tower~
+A colossal black tower marked with the signet of [`1EMPIRE``] stands here.
+~
+Rising up from the ground, a massive black tower scars the landscape here.
+Constructed of black granite, the tower seems to leer at you menacingly.
+Large spikes don the turrets, and before you, a massive door blocked with
+a rusted iron porticullis blocks entry into the tower. Blood is smeared
+on many of the spikes, and several large, black banners fly from the tops
+of the spires.
+~
+unique~
+ABZce AC DF 0 0 16100
+60 1 4d6+30000 0d0+0 4d6+20 defense
+-40 -40 -40 -40
+HXZ ABELPQ HI 0
+stand stand none none~
+23
+0 0 huge 0
+#32602
+bastion warmaster fortress~
+a fortress~
+A fortress bearing the warbanners of [`3WARLORD``] has been erected here.
+~
+A wide stone castle has been built up from the land here. Crudely constructed
+of hand hewn granite and rocks, and reinforced with heavy steel cables, this
+fortress looks not only imposing, but very sturdy. The designs seem to be of
+Ogre make, and the giant oak door before you seems impenetrable. Several rows
+of sharpened wooden spikes surround the lower walls of the fortress.
+~
+unique~
+ABZce AC DF 0 0 16501
+60 1 4d6+30000 0d0+0 4d6+20 defense
+-40 -40 -40 -40
+HXZ ABELPQ HI 0
+stand stand none none~
+21
+0 0 huge 0
+#32603
+bastion savant crystal tower~
+a crystal tower~
+A crystal tower flying the banners of [`4SAGE``] has been created here.
+~
+A tall, thin tower crafted entirely of heart crystal has been built here.
+It radiates with an invisible shield of pure energy, and though it is made
+of clear crystal, the facets are cut so that you cannot see within. Sharp
+shards surround the base, and there seems to be no definite entrance into
+the tower.
+~
+unique~
+ABZce AC DF 0 0 16300
+60 1 4d6+30000 0d0+0 4d6+20 none
+-40 -40 -40 -40
+HXZ ABELPQ HI 0
+stand stand none none~
+26
+0 0 huge 0
+#32604
+bastion justice~
+a massive bastion~
+A massive bastion flying the flags of [`&LAW``] is built here.
+~
+A rather tall building, this perfectly square tower rises up several
+hundred spans, where a small catwalk for archers dons the tower. A
+large steel pole extends from the tower, flying several long banners
+embossed with a white sigil. A ladder begins several feet up, and
+seems to lead to the top of the tower.
+~
+unique~
+ABZce AC DF 0 0 15700
+60 1 4d6+30000 0d0+0 4d6+20 defense
+-40 -40 -40 -40
+HXZ ABELPQ HI 0
+stand stand none none~
+26
+0 0 huge 0
+#32605
+bastion conclave black obelisk~
+a black obelisk~
+A giant black obelisk rises up from the ground here.
+~
+Smooth walls made of either ebony or onyx define this imposing
+monolithe. It rises straight up from the ground like a crystal
+shard. You see no entrances, no flags, nothing that would even
+denote that this obelisk is here for a purpose. It remains still
+and silent.
+~
+unique~
+ABZce AC DF 0 0 15500
+60 1 4d6+30000 0d0+0 4d6+20 defense
+-40 -40 -40 -40
+HXZ ABELPQ HI 0
+stand stand none none~
+29
+0 0 huge 0
+#32606
+bastion hunter wooden fortress~
+a wooden fortress~
+A wooden fortress bearing the banners of [`!HUNTER``] has been built here.
+~
+Before you stands a large wooden fortress. Made cheifly of hand hewn
+logs sharpened with points on each end, this fortress, while not tall
+by any means, looks very imposing. Sharpened branches jut out from
+underneath the fortress, and the massive wooden drawbridge is held
+up by rope hausers as thick as a man's knee.
+~
+unique~
+ABZce AC DF 0 0 27500
+60 1 4d6+30000 0d0+0 4d6+20 defense
+-40 -40 -40 -40
+HXZ ABELPQ HI 0
+stand stand none none~
+29
+0 0 huge 0
+#32607
+bastion herald basalt monolithe~
+a basalt monolithe~
+A basalt monolithe engraved with the runes of [`2MUSE``] is built here.
+~
+A large monolithe made of deep earth basalt is built here. It seems
+to be adorned with heavy runestones, denoting earth, Gaia, and the
+several deities of Song. You can see no definitive entries into the
+monolithe, but it seems to glow with a green aura, and your skin
+prickles as you near it.
+~
+unique~
+ABZce AC DF 0 0 28100
+60 1 4d6+30000 0d0+0 4d6+20 defense
+-40 -40 -40 -40
+HXZ ABELPQ HI 0
+stand stand none none~
+26
+0 0 huge 0
+#32608
+sentry guard~
+a sentry~
+A sentry walks a patrol here.
+~
+Subservient only to the rightful land owners of this area, this scout
+seems intent on his business of keeping this land free of would-be
+intruders from enemy forces.
+~
+human~
+AGHd A DFJ 0 0 0
+50 1 4d6+30000 0d0+0 4d6+20 slash
+-10 -11 -9 -7
+FJKN AB 0 0
+stand stand either none~
+24
+AHMV ABCDEFGHIJK medium 0
+#32609
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+A A 0 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+8
+AHMV ABCDEFGHIJK medium 0
+#32620
+light infantry~
+a division of light infantry~
+A division of light infantry is mustered here.
+~
+~
+human~
+ABGZe AC DFJV 0 0 0
+40 10 4d6+3000 0d0+0 4d6+15 charge
+-20 -18 -17 -12
+DFHJKX AB 0 0
+stand stand none none~
+17
+AHMV ABCDEFGHIJK large 0
+P DEATH 32620 100~
+#32621
+heavy cavalry~
+a divsion of heavy cavalry~
+A division of heavy cavalry stands amid a battlefield here.
+~
+~
+human~
+ABGZe AC DFJV 0 0 0
+50 20 4d6+6000 0d0+0 4d6+30 charge
+-30 -29 -27 -21
+DFHJKX AB 0 0
+stand stand none none~
+26
+AHMV ABCDEFGHIJK large 0
+P DEATH 32620 100~
+#0
+
+
+
+#OBJECTS
+#32600
+bastion rubble~
+a pile of rubble~
+A towering pile of rubble lies here, where a bastion used to stand.~
+rubble~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+rubble~
+Covering a broad expanse, rubble lies everywhere! It looks as if some
+massive building or bastion once stood here, but has recently been
+destroyed by some massive force. All that is left are piles of smoking
+brick, rock, and wood.
+~
+#32601
+bastion chaos~
+(no short description)~
+A colossal black tower marked with the signet of [`1EMPIRE``] stands here.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#32600
+`8Bastion Testing Area``~
+Mortals, OUT!
+~
+~
+0 8196 0 0
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#32600
+mob echo `8A batallion of archers appear on the turrets and begin firing!``
+mob echo A volley of arrows `1MUTILATES`` you!
+mob damage $n 20 30
+~
+#32601
+mob echo `8A catapult fires a burning fireball at you!``
+mob echo A catapult's fireball `1MASSACRES`` you!
+mob damage $n 40 60
+~
+#32602
+mob echo `8You are repelled back by a fortification of sharp spikes!``
+if rand 90
+     mob echo A spiked fortification `1MUTILATES`` you!
+     mob damage $n 20 30
+else
+     mob echo You have `1impaled`` yourself upon a spike!
+     mob damage $n 50 70
+     mob cast 'slow' $n
+endif
+~
+#32603
+mob echo Workers re-fortify the castle walls from damage!
+if rand 50
+     mob cast 'cure critical'
+else
+     mob cast 'cure serious'
+endif
+~
+#32604
+if rand 50
+     mob echo `8Soldiers from the turrets immerse the area in boiling oil!``
+     mob echo The onslaught of boiling oil `1MANGLES`` you!
+     mob damage $n 70 90
+else
+     mob echo `8Soldiers begin to hurl stones down upon you from above!``
+     mob echo The falling debris `1MASSACRES`` you!
+     mob damage $n 50 70
+endif
+~
+#32605
+if mobhere 32620
+     mob force infantry murder $n
+     break
+endif
+mob echo `8A division of light infantry emerges from the castle gates!``
+mob mload 32620
+mob echo A division of light infantry charges into the fray!
+mob force infantry murder $n
+~
+#32606
+mob echo `8The bastion sounds a call to arms!``
+mob zecho `&The sounding of trumpets is heard nearby!``
+mob cast 'frenzy' infantry
+mob cast haste
+~
+#32607
+mob echo You see workers rebuild the damage you have made to the castle.
+mob cast 'heal'
+~
+#32608
+if mobhere 32621
+     mob force cavalry murder $n
+     break
+endif
+mob echo `8A division of heavy cavalry rides forth from the castle gates!``
+mob zecho You hear the thunder of heavy hoofbeats nearby.
+mob mload 32621
+mob echo A division of heavy cavalry sounds the battle charge!
+mob force cavalry murder $n
+~
+#32609
+mob echo `8A bastion is heavily fortified from within!``
+mob cast sanctuary
+~
+#32620
+mob echo Taking heavy losses, a division scatters into the hills!
+mob purge self
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

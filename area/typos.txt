@@ -1,0 +1,3 @@
+
+[11524] Kselth: The aura of Imaju's power fades form your hands.
+[11500] Zharth: the 'liver' emote is messed up. Typing liver by itself outputs this. "Zharth angrily for someone to disembowl."

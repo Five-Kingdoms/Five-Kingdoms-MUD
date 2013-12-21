@@ -1370,14 +1370,19 @@ void boot_db( bool fHotReboot )
 	}
 	for ( ; ; )
 	{
+	    static char filebuf[MIL*2];
+
 	    strcpy( strArea, fread_word( fpList ) );
+
+	    snprintf( filebuf, MIL*2, "%s%s", AREA_DIR, strArea );
+
 	    if ( strArea[0] == '$' )
 		break;
 	    if ( strArea[0] == '-' )
 	    {
 		fpArea = stdin;
 	    }
-	    else if ( ( fpArea = fopen( strArea, "r" ) ) == NULL )
+	    else if ( ( fpArea = fopen( filebuf, "r" ) ) == NULL )
 	    {
 	        perror( strArea );
 		fpArea = fopen( NULL_FILE, "r" );
@@ -1779,6 +1784,8 @@ void load_helps_new( ){
     fp = fopen( NULL_FILE, "r" );
     fclose (fp);
     perror( HELP_FILE );
+    fpReserve = fopen( NULL_FILE, "r" );
+    return;
   }
   else{
     for ( ; ; ){
@@ -1840,8 +1847,8 @@ void load_helps_new( ){
       pHelp->next	= NULL;
     }
     fclose(fp);
-    fpReserve = fopen( NULL_FILE, "r" );
   }
+  fpReserve = fopen( NULL_FILE, "r" );
 }
 
 void load_old_mob( FILE *fp )

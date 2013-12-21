@@ -21,7 +21,7 @@ endif
 if rand (50)
 	pmote sits down, and takes a shallow breath.
 	say My love left this city when the Blight came.
-	say I hear she was headed toward the city of Val Miran.
+	say I hear she was headed toward the city of Revelsport.
 	sigh
 	say Though I've not spoken to her in years.
 	say If I only had a pen, I would write her!

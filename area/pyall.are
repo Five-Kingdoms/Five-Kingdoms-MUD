@@ -1,0 +1,2629 @@
+#AREADATA
+Name the Pyall Mountains~
+Pref ~
+Builders Ihlxhul~
+VNUMs 5200 5299
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 0
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#5201
+Orc Raider~
+an Orc Raider~
+A cunning orc raider lurks here.
+~
+A slobbering, fat orc is here, looking quite bored.  He is clad in
+leather armor that seems to be studded with iron.  He glares in your
+direction as he covetously looks you over.  
+~
+orc~
+AB A J 0 -750 0
+25 20 4d6+1000 0d0+100 4d6+25 punch
+-2 -2 -2 -2
+C 0 FQ NS
+stand stand male none~
+9
+AHMV ABCDEFGHIJK large 0
+#5202
+Orc Veteran Raider~
+a Veteran Orc Raider~
+A veteran orc raider lurks here.
+~
+This orc appears a bit more seasoned then others, yet still fairly
+stupid.  He is clad in iron and leather armor and he watches you angrily as
+he grips his weapon.  
+~
+orc~
+AB A J 0 -750 0
+27 24 4d6+1400 0d0+100 4d7+27 punch
+-3 -3 -3 -3
+CJ 0 FQ NS
+stand stand male none~
+15
+AHMV ABCDEFGHIJK large 0
+#5203
+Orc Orcish Shocktrooper~
+an Orc Shocktrooper~
+An Orc Shocktrooper keeps a vigilant eye.
+~
+This orc looks deadly indeed.  He has jet black skin and a physique set
+with rippling muscle.  He has a pair of long bloodied tusks and wears a cold
+sneer upon his face.  He turns and growls in your direction as he senses
+your presence.  
+~
+orc~
+ABGTZe A J 0 -750 0
+45 33 4d6+2200 0d0+100 7d7+55 smash
+-5 -5 -5 -5
+ACJ 0 FQ NS
+stand stand none none~
+18
+AHMV ABCDEFGHIJK large 0
+#5204
+Orc Berserker Massive Bodyguard~
+a Massive Orc Berserker~
+A massive orc bodyguard is here.
+~
+One of the most massive orc's you have ever seen, this orc roars with
+savage anger as he senses your presence.  He is clad in various, dented and
+ragtag armors, but he is nearly the size of a giant.  He grips his weapon
+with bloodshot eyes as he rushes in your direction.  
+~
+orc~
+ABCZ A DJ 0 -750 0
+50 44 4d6+4500 0d0+100 9d5+55 none
+-25 -25 -25 -25
+ACDFHKORX AB FLQ NS
+stand stand male none~
+25
+AHMV ABCDEFGHIJK large 0
+#5205
+Orc Waraxe~
+an Orc Waraxe~
+A massive orc is here, wielding a bloodied axe.
+~
+Clad in the armor of the Elite Guards of the gaping maw, this orc bears a
+tunic with the emblem upon it.  He is quite large, and broad-chested, yet
+looks more alert then most of the other orcs.  He bears a massive axe in his
+tightly-clenched hands.  
+~
+orc~
+ABCGHT A DJ 0 -750 0
+48 38 4d6+5500 0d0+100 9d5+55 none
+-10 -10 -10 -10
+CFHJKN AB FLQ NS
+stand stand none none~
+18
+AHMV ABCDEFGHIJK large 0
+#5206
+Elf Elven Slender Nightblade~
+an Elven Nightblade~
+A slender elven nightblade lurks in the shadows.
+~
+A slender elf is here, lurking in the shadows.  He is clad in lightweight
+mithril armors, and has a gleaming saber in his left hand.  He seems very
+alert and moves with fluid grace.  He looks in your direction, as if trying
+to appraise your intentions.  
+
+~
+elf~
+ABGSZ A FHJPQV 0 750 0
+51 88 4d6+5100 0d0+100 9d5+50 none
+-30 -30 -30 -30
+FHJKNX ABN B Z
+stand stand none none~
+26
+AHMV ABCDEFGHIJK medium 0
+#5208
+Orc Palace Guard~
+an Orc Palace Guard~
+An orc palace guard stands here.
+~
+This is the elite palace guard of the gaping maw.  He is clad in a suit
+of iron mail and walks with authority.  
+~
+orc~
+ACHT A DFHJ 0 -750 0
+49 41 4d6+4400 0d0+100 9d5+58 smash
+-10 -10 -10 -10
+CFKNOX AB FQ NS
+stand stand none none~
+18
+AHMV ABCDEFGHIJK large 0
+#5209
+Orc Warcaptain~
+an Orc Warcaptain~
+An orc warcaptain stands here.
+~
+This is a mean, snarling orc.  He has a constant sneer on his face and
+has a body of rugged muscle, covered with thick dark hair.  He looks
+menacing as well as cunning.  He has a long, thick black beard as well.  
+~
+orc~
+ABT A DFJ 0 -750 0
+50 49 4d6+5000 0d0+100 8d6+66 none
+-21 -21 -21 -21
+ACHJNO AB LQ CNS
+stand stand none none~
+20
+AHMV ABCDEFGHIJK large 0
+#5210
+Dark-elf Drow Invoker Advisor~
+a drow invoker, advisor to Bukrinuk~
+A drow invoker, advisor to Bukrinuk, waits here.
+~
+A sinister looking dark-elf stands in the alcove here.  He is clad in
+black robes and he leans on a thin black staff.  This drow appears to have a
+magickal aura to him, and he glares at you with cold disdain.  
+~
+drow~
+ABR A BDFHJPTZ 0 -750 0
+51 61 4d6+4000 0d0+100 7d6+35 acbite
+-40 -40 -40 -40
+FHK AB CD Ya
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+F res B
+#5213
+Fire Giant Emissary Vhauugu~
+Vhauugu, the fire giant emissary~
+Vhauugu, the fire giant emissary, waits here.
+~
+A massive fire giant is here in a set of blackened iron armor.  He is
+quite large and he seems to have a regal aura to himself.  He looks
+intelligent and quite strong.  
+~
+fire~
+ABC A BDHV 0 -750 0
+51 55 4d6+5500 0d0+100 7d7+66 punch
+-10 -10 -10 -10
+ACEFHJKNX AB DH IP
+stand stand male none~
+23
+AHMV ABCDEFGHIJK large 0
+#5215
+Orc Battlelord~
+an Orc Battlelord~
+An orc battlelord stands here defiantly.
+~
+This orc is clearly a commander of sorts.  He bears a dozen medals and
+other trophies upon his body, and he seems to bear innumerous scars all over
+his body.  He looks like he is capable of handling himself quite well.  
+~
+orc~
+ABFZ A DFJ 0 -750 0
+51 65 4d6+6500 0d0+100 9d6+65 claw
+-20 -20 -20 -20
+ACEHJOX AB FLQ NS
+stand stand none none~
+22
+AHMV ABCDEFGHIJK large 0
+#5216
+Drow Bodyguard Thief~
+a drow thief, bodyguard to the invoker~
+A drow thief, bodyguard to the invoker lurks in the shadows.
+~
+A lanky, shifty-eyed drow lurks in the lingering shadows here.  He is
+clad in darkened cloth and wears a night-black mask about his face.  He
+carries in his hands a pair of dark yet shiny weapons.  He looks quite
+dangerous.  
+~
+drow~
+ACGSe A DFHJPQUV 0 -750 0
+55 77 4d6+4500 0d0+100 9d6+55 drain
+-40 -40 -40 -40
+ABEFHKNX AB BCD Ya
+stand stand female none~
+24
+AHMV ABCDEFGHIJK medium 0
+#5299
+Bukrinuk Chieftain Orc Black Maw~
+Bukrinuk, the Chieftain of the Gaping Maw~
+Bukrinuk, the Chieftain of the Gaping Maw, stands here growling.
+~
+Looming menacingly before you is a repugnant humanoid swarthed in skins
+and pelts of various creatures, some appearing rather fresh, and bear the
+flesh of the civilized.  Twin streams of mucus ooze slowly from his thick
+nose, dripping occasionally into his prutruding jaw.  His lower teeth are
+perpetually bared, yellowed and rotting, his breath escaping in fetid
+whisps.  Feral eyes stare at you with intense hatred, dancing about
+slightly, eyeing your wares longingly.  Snorting slightly, you can almost
+sense his intense concentration as he attempts to discern why you are near
+him.  Looking closer, you note that..  
+
+~
+orc~
+ACFHTZ A DFHJTV 0 -750 0
+51 65 9d500+5000 0d0+100 9d6+70 smash
+-20 -20 -20 -20
+ACDEFHJKNORX AB LQ NS
+stand stand male none~
+18
+AHMV ABCDEFGHIJK giant 0
+#0
+
+
+
+#OBJECTS
+#5201
+Bracer Gaping Maw~
+a bracer adorned with a gaping maw.~
+A bracer is here, adorned with a gaping maw.~
+leather~
+armor 0 AM
+1 3 1 0 0
+25 100 750 P
+F
+A 19 1 0
+F
+A 18 1 0
+#5202
+Collar Studded Leather~
+a studded leather collar~
+A studded leather collar is here.~
+leather~
+armor 0 AC
+0 0 0 0 0
+25 200 700 P
+F
+A 1 1 0
+F
+A 19 1 0
+F
+A 18 1 0
+#5203
+Spiked Iron Gauntlets~
+some spiked iron gauntlets~
+(no description)~
+iron~
+armor 0 AHX
+3 2 9 1 0
+27 300 17 P
+F
+A 18 1 0
+F
+A 19 2 0
+#5204
+Ring Bloodied Iron~
+a Bloodied Iron Ring~
+An iron ring, covered in blood lies here.~
+iron~
+armor EJ ABX
+0 0 0 3 0
+50 10 6 P
+F
+A 3 -1 0
+F
+A 19 4 0
+#5205
+Flail Iron Poison~
+an Iron Flail, coated with poison~
+An Iron Flail, coated with poison is here.~
+iron~
+weapon AJM ANX
+flail 7 6 smash H
+45 220 33 P
+F
+A 3 -2 0
+F
+A 1 1 0
+F
+A 19 4 0
+F
+A 18 -3 0
+#5206
+Saber Razor Razor-Sharp Mithril Runes~
+a razor-sharp mithril saber, engraved with runes~
+A razor-sharp mithril saber, engraved with runes is here.~
+mithril~
+weapon IKLMY ANX
+sword 9 5 divine D
+52 110 3 P
+E
+runes~
+The faint, light blue runes trail down
+from the tip of the blade to taper off
+about a foot from the hilt. They seem
+elvish in marking, and you sense they
+are strongly magickal and wrought with
+holy power.
+~
+#5207
+Leggings Exquisite Mithril Chain~
+some exquisite mithril chain leggings~
+(no description)~
+mithril~
+armor AGKL AFX
+11 14 3 6 0
+52 90 4 P
+F
+A 18 1 0
+F
+A 13 40 0
+#5209
+Vest Bloodied Iron Chainmail~
+a vest of bloodied iron chainmail~
+A vest of bloodied iron chainmail is piled here.~
+iron~
+armor CEJ AKX
+5 3 5 2 0
+0 300 12 P
+F
+A 24 2 0
+F
+A 19 4 0
+F
+A 2 -1 0
+#5210
+Leggings Bloodied Iron Chainmail~
+some bloodied iron chainmail leggings~
+Some bloodied iron chainmail leggings are here.~
+iron~
+armor CEJ AFX
+4 9 3 1 0
+50 100 14 P
+F
+A 24 2 0
+F
+A 18 1 0
+F
+A 19 3 0
+F
+A 2 -1 0
+#5211
+Boots Spiked Bloodied Iron~
+some bloodied, spiked iron boots~
+Some bloodied, spiked iron boots are here.~
+iron~
+armor CEJ AGX
+3 6 7 4 0
+50 200 7 P
+F
+A 24 4 0
+F
+A 1 1 0
+F
+A 18 2 0
+F
+A 19 4 0
+F
+A 2 -1 0
+#5212
+Black Robe Embroidered Blood-red Runes blood~
+a black robe, embroidered with blood-red runes~
+A black robe, embroidered with blood-red runes has been piled here.~
+cloth~
+armor CEFGJLSY ADS
+1 13 6 13 0
+50 100 2 P
+F
+A 19 -4 0
+F
+A 3 3 0
+F
+A 13 50 0
+#5214
+spiked adamantite wristguard~
+a spiked adamantite wristguard~
+A spiked adamantite wristguard has been left here.~
+adamantite~
+armor CEJ AMX
+1 4 1 1 0
+51 0 4 P
+F
+A 1 3 0
+F
+A 18 2 0
+F
+A 19 3 0
+#5215
+Necklace Elven Ears~
+a Necklace of Elven Ears~
+(no description)~
+flesh~
+armor CEGJSY ACX
+1 1 1 1 0
+51 100 3 P
+F
+A 24 1 0
+F
+A 26 -1 0
+F
+A 18 2 0
+F
+A 19 5 0
+F
+A 2 -3 0
+#5216
+Necklace Skull Human~
+a necklace of human skulls~
+A necklace of human skulls rests here.~
+bone~
+armor CEJS ACX
+1 1 4 11 0
+51 400 3 P
+F
+A 24 -1 0
+F
+A 19 5 0
+F
+A 2 -1 0
+#5217
+Helmet Spikes Bloodied~
+a Helmet set with bloodied spikes~
+A helmet set with bloodied spikes has been left here.~
+iron~
+armor CJ AEX
+5 6 9 4 0
+51 300 6 P
+F
+A 24 3 0
+F
+A 19 3 0
+F
+A 18 3 0
+F
+A 2 -1 0
+#5218
+Darksilver Stiletto~
+a darksilver stiletto~
+A darksilver stiletto is here.~
+Darksilver~
+weapon CEJMTY ANRS
+dagger 6 6 stab 0
+55 70 2 P
+#5219
+no name~
+a darksilver longsword~
+A darksilver longsword has been left here.~
+Darksilver~
+weapon BCEJMY ANS
+sword 9 5 slash 0
+55 210 3 P
+L
+0
+#5220
+Night Black Mask Night-Black~
+a Night-Black mask~
+A night-black mask has been left here.~
+darkleather~
+armor CEFGJLSY AEX
+1 4 3 9 0
+51 10 2 P
+F
+A 2 -2 0
+F
+A 18 3 0
+F
+A 19 4 0
+#5221
+Desk Teak~
+a teak desk~
+A teak desk rests here against the rear wall.~
+Teak~
+container OY P
+100 AC 0 0 0
+0 5000 2000 P
+#5222
+Wand Jet Black~
+a jet black wand~
+A jet black wand sits here.~
+Ebony~
+wand GHTY AOS
+51 1 1 'force field' 0
+35 10 4 P
+#5295
+Massive Iron Axe~
+a massive Iron axe~
+A massive Iron axe is laid here.~
+iron~
+weapon 0 ANX
+axe 6 7 cleave F
+48 400 5 P
+F
+A 3 -1 0
+F
+A 19 4 0
+F
+A 1 2 0
+#5298
+Banner Orcish Gaping Maw ~
+an Orcish War Banner of the Gaping Maw~
+An Orcish War Banner of the Gaping Maw is piled here.~
+cloth~
+light ABCEGJMSYZ AQX
+0 0 999 0 0
+51 100 7 P
+F
+A 19 4 0
+F
+A 3 -5 0
+F
+A 24 -5 0
+#5299
+Iron Battleaxe axe twin-bladed Desecrator~
+a twin-bladed Iron battleaxe named "Desecrator"~
+A twin-bladed battleaxe lies here, covered in blood.~
+iron~
+weapon ACEGHJLMY ANS
+axe 8 6 cleave FH
+51 270 3 P
+L
+1
+F
+A 18 3 0
+F
+A 19 3 0
+#0
+
+
+
+#ROOMS
+#5200
+`3A trail into the Pyall Mountains``~
+The trail you are on begins to climb into the Pyall Mountains here, and
+you can see it winds it's way up the cliffs just ahead.  Boulders surround
+the path on all sides, and it is strangely quiet here.  You smell blood in
+the air, mixed with staleness of some sort.
+~
+~
+0 4 32768 5
+D0
+~
+~
+0 0 5704
+D3
+~
+~
+0 0 5201
+S
+#5201
+`3A trail into the Pyall Mountains``~
+The trail you are on begins to climb into the Pyall Mountains here, and
+you can see it winds it's way up the cliffs just ahead.  Boulders surround
+the path on all sides, and it is strangely quiet here.  You smell blood in
+the air, mixed with staleness of some sort.  
+~
+~
+0 0 8192 5
+D0
+~
+~
+0 0 5202
+D1
+~
+~
+0 0 5200
+S
+#5202
+`3A trail into the Pyall Mountains``~
+The trail you are on begins to climb into the Pyall Mountains here, and
+you can see it winds it's way up the cliffs just ahead.  Boulders surround
+the path on all sides, and it is strangely quiet here.  You smell blood in
+the air, mixed with staleness of some sort.  
+~
+~
+0 0 32768 5
+D2
+~
+~
+0 0 5201
+D4
+~
+~
+0 0 5203
+S
+#5203
+`3A trail into the Pyall Mountains.``~
+The trail you are on begins to climb into the Pyall Mountains here, and
+you can see it winds it's way up the cliffs just ahead.  Boulders surround
+the path on all sides, and it is strangely quiet here.  You smell blood in
+the air, mixed with staleness of some sort.  
+~
+~
+0 0 32768 5
+D4
+~
+~
+0 0 5204
+D5
+~
+~
+0 0 5202
+S
+#5204
+`3A trail into the Pyall Mountains``~
+The trail you are on begins to climb into the Pyall Mountains here, and
+you can see it winds it's way up the cliffs just ahead.  Boulders surround
+the path on all sides, and it is strangely quiet here.  You smell blood in
+the air, mixed with staleness of some sort.  
+~
+~
+0 0 32768 5
+D4
+~
+~
+0 0 5205
+D5
+~
+~
+0 0 5203
+S
+#5205
+`3Pyall Mountains``~
+The mountains extend into an open area here, with the trail below you. 
+Up to your north you can see them continue ahead, but the same foul, strange
+smell is in the air.  The mountains are strangely quiet, and the tan-colored
+rock of the walls surrounding you gives an enclosing feeling.  
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 5206
+D5
+~
+~
+0 0 5204
+S
+#5206
+`3Pyall Mountains``~
+The mountains extend into an open area here, with the trail below you. 
+Up to your north you can see them continue ahead, but the same foul, strange
+the path on all sides, and it is strangely quiet here.  You smell blood in
+the air, mixed with staleness of some sort.  
+~
+~
+0 0 16384 5
+D0
+~
+~
+0 0 5207
+D2
+~
+~
+0 0 5205
+S
+#5207
+`3Pyall Mountains``~
+The mountains narrow into a ravine of sorts, extending to your northwest
+in a zigzag means.  Back to your south is the open area, with the trail edge
+still visible.  You can still smell the same odor in the area, but can't
+quite place it.  The rock walls seem about seventy five to two hundred feet
+high above you, and you can see a large peak off in the distance high above
+you.  
+~
+~
+0 0 65536 5
+D2
+~
+~
+0 0 5206
+D3
+~
+~
+0 0 5208
+S
+#5208
+`3Pyall Mountains``~
+The mountains narrow into a ravine of sorts, extending to your northwest
+in a zigzag means.  Back to your south is the open area, with the trail edge
+still visible.  You can still smell the same odor in the area, but can't
+quite place it.  The rock walls seem about seventy five to two hundred feet
+high above you, and you can see a large peak off in the distance high above
+you.  
+~
+~
+0 0 8192 5
+D0
+~
+~
+0 0 5209
+D1
+~
+~
+0 0 5207
+S
+#5209
+`3Pyall Mountains``~
+The mountains narrow into a ravine of sorts, extending to your northwest
+in a zigzag means.  Back to your south is the open area, with the trail edge
+still visible.  You can still smell the same odor in the area, but can't
+quite place it.  The rock walls seem about seventy five to two hundred feet
+high above you, and you can see a large peak off in the distance high above
+you.  
+~
+~
+0 0 65536 5
+D0
+~
+~
+0 0 5210
+D2
+~
+~
+0 0 5208
+S
+#5210
+`3Before an entrance to the Mountain``~
+The mountains narrow into a ravine of sorts, extending to your northwest
+in a zigzag means.  Back to your south is the open area, with the trail edge
+still visible.  You can still smell the same odor in the area, but can't
+quite place it.  The rock walls seem about seventy five to two hundred feet
+high above you, and you can see a large peak off in the distance high above
+you.  North of you the entrance into the mountain is clearly visible.  
+~
+~
+0 0 65536 5
+D0
+~
+~
+0 0 5211
+D2
+~
+~
+0 0 5209
+S
+#5211
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5216
+D1
+~
+~
+0 0 5214
+D2
+~
+~
+0 0 5210
+D3
+~
+~
+0 0 5212
+S
+#5212
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5211
+D3
+~
+~
+0 0 5213
+S
+#5213
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5212
+S
+#5214
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5215
+D3
+~
+~
+0 0 5211
+S
+#5215
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 5214
+S
+#5216
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5221
+D1
+~
+~
+0 0 5217
+D2
+~
+~
+0 0 5211
+D3
+~
+~
+0 0 5219
+S
+#5217
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5218
+D3
+~
+~
+0 0 5216
+S
+#5218
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 5217
+S
+#5219
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5216
+D3
+~
+~
+0 0 5220
+S
+#5220
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5219
+S
+#5221
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5223
+D2
+~
+~
+0 0 5216
+D3
+~
+~
+0 0 5222
+S
+#5222
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5221
+S
+#5223
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  Looking to your north you have an uneasy feeling.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5225
+D1
+~
+~
+0 0 5224
+D3
+~
+~
+0 0 5221
+S
+#5224
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5228
+D1
+~
+~
+0 0 5226
+D3
+~
+~
+0 0 5223
+S
+#5225
+`8Deeper into the Mountain``~
+The passage is more heavily fortified up ahead, and here against the
+crudely carved stone wall you can see some markings that may be
+decipherable.  You can continue to the west or go back to the south, but you
+get the impression that heading west is not the best choice.  
+~
+~
+0 4 0 0
+E
+markings~
+This area created by Ihlxhul for use
+on Age of Mirlan only. Adventurers 
+beneath the rank of 40 should not 
+progress further beyond this point.
+~
+D2
+~
+~
+0 0 5223
+D3
+~
+~
+0 0 5232
+S
+#5226
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5229
+D1
+~
+~
+0 0 5227
+D2
+~
+~
+0 0 5230
+D3
+~
+~
+0 0 5224
+S
+#5227
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 5226
+S
+#5228
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 5224
+S
+#5229
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 5226
+S
+#5230
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5226
+D1
+~
+~
+0 0 5231
+S
+#5231
+`8Inside the Pyall Mountains``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 5230
+S
+#5232
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5238
+D1
+~
+~
+0 0 5225
+D3
+~
+~
+0 0 5233
+S
+#5233
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5232
+D3
+~
+~
+0 0 5234
+S
+#5234
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5233
+D3
+~
+~
+0 0 5235
+S
+#5235
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5234
+D2
+~
+~
+0 0 5236
+S
+#5236
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5235
+D3
+~
+~
+0 0 5237
+S
+#5237
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5236
+S
+#5238
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5248
+D1
+~
+~
+0 0 5241
+D2
+~
+~
+0 0 5232
+D3
+~
+~
+0 0 5239
+S
+#5239
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5238
+D3
+~
+~
+0 0 5240
+S
+#5240
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5239
+S
+#5241
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5242
+D3
+~
+~
+0 0 5238
+S
+#5242
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5243
+D3
+~
+~
+0 0 5241
+S
+#5243
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5246
+D1
+~
+~
+0 0 5244
+D2
+~
+~
+0 0 5242
+S
+#5244
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5245
+D3
+~
+~
+0 0 5243
+S
+#5245
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 5244
+S
+#5246
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5247
+D2
+~
+~
+0 0 5243
+S
+#5247
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 5246
+S
+#5248
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5249
+D2
+~
+~
+0 0 5238
+S
+#5249
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5250
+D3
+~
+~
+0 0 5248
+S
+#5250
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5251
+D2
+~
+~
+0 0 5249
+D3
+~
+~
+0 0 5253
+S
+#5251
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 5250
+D3
+~
+~
+0 0 5252
+S
+#5252
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5251
+D2
+~
+~
+0 0 5253
+S
+#5253
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5252
+D1
+~
+~
+0 0 5250
+D3
+~
+~
+0 0 5254
+S
+#5254
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5253
+D3
+~
+~
+0 0 5255
+S
+#5255
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  You can see a vertical shaft, lined with steel rungs
+ascending into the mountain here.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5254
+D3
+~
+~
+0 0 3114
+D4
+~
+~
+0 0 5256
+S
+#5256
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  You can see a vertical shaft, lined with steel rungs
+ascending into the mountain here.  
+~
+~
+0 0 0 0
+D3
+~
+~
+BGM 0 5258
+D4
+~
+~
+0 0 5257
+D5
+~
+~
+0 0 5255
+S
+#5257
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  You can see a vertical shaft, lined with steel rungs
+ascending into the mountain here.  
+~
+~
+0 0 0 0
+D4
+~
+~
+0 0 5259
+D5
+~
+~
+0 0 5256
+S
+#5258
+`8A concealed room``~
+This small room was obviously carved for some reason, but it is hardly
+apparent.  Jutting off of the main shaft outside, you get the feeling it may
+have been a miner's cubby or some such.  It looks quiet, and small yet
+appears to be a place you could rest.  
+~
+~
+0 0 0 0
+D1
+~
+~
+BGM 0 5256
+S
+#5259
+`8Deeper into the Mountain``~
+The inside of the mountain is a patchwork of passages, and you cannot
+tell one from the other.  The fetid, animal-like smell is heavy inside here,
+and the temperature is surely higher as well.  Overall it has a musty
+staleness too it, and from deep within the mountain you can hear strange
+guttural echoes.  You can see a vertical shaft, lined with steel rungs
+ascending into the mountain here.  
+~
+~
+0 0 0 0
+D4
+~
+~
+0 0 5260
+D5
+~
+~
+0 0 5257
+S
+#5260
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5261
+D3
+~
+~
+0 0 5262
+D5
+~
+~
+0 0 5259
+S
+#5261
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 5260
+S
+#5262
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5260
+D3
+~
+~
+0 0 5263
+S
+#5263
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5264
+D1
+~
+~
+0 0 5262
+D2
+~
+~
+0 0 5265
+D3
+~
+~
+0 0 5266
+S
+#5264
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 5263
+S
+#5265
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5263
+S
+#5266
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5267
+D1
+~
+~
+0 0 5263
+S
+#5267
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5268
+D2
+~
+~
+0 0 5266
+S
+#5268
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5270
+D2
+~
+~
+0 0 5267
+D3
+~
+~
+0 0 5269
+S
+#5269
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5268
+D2
+~
+~
+0 0 5274
+S
+#5270
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5271
+D3
+~
+~
+0 0 5268
+S
+#5271
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 5272
+D3
+~
+~
+0 0 5270
+S
+#5272
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5271
+D2
+~
+~
+0 0 5273
+S
+#5273
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5272
+S
+#5274
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5269
+D2
+~
+~
+0 0 5275
+S
+#5275
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5274
+D3
+~
+~
+0 0 5276
+S
+#5276
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5275
+D3
+~
+~
+0 0 5277
+S
+#5277
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5276
+D3
+~
+~
+0 0 5278
+S
+#5278
+`8Before a staircase``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  Beneath your feet you see a crudely carved
+staircase descending into the unknown.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5277
+D5
+~
+~
+0 0 5279
+S
+#5279
+`8A crude staircase``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D4
+~
+~
+0 0 5278
+D5
+~
+~
+0 0 5280
+S
+#5280
+`8A crude staircase``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D4
+~
+~
+0 0 5279
+D5
+~
+~
+0 0 5281
+S
+#5281
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 5282
+D4
+~
+~
+0 0 5280
+S
+#5282
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5281
+D3
+~
+~
+0 0 5283
+S
+#5283
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5284
+D1
+~
+~
+0 0 5282
+S
+#5284
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 5283
+D3
+~
+~
+0 0 5285
+S
+#5285
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5284
+D3
+~
+~
+0 0 5286
+S
+#5286
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5285
+D2
+~
+~
+0 0 5287
+D3
+~
+~
+0 0 5288
+S
+#5287
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5286
+D3
+~
+~
+0 0 5289
+S
+#5288
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5286
+D3
+~
+~
+0 0 5290
+S
+#5289
+`8A dark place in the mountain``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  This area seems unnaturally dark.  
+~
+~
+0 8193 0 0
+D1
+~
+~
+0 0 5287
+S
+#5290
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5291
+D1
+~
+~
+0 0 5288
+S
+#5291
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5292
+D2
+~
+~
+0 0 5290
+S
+#5292
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5295
+D1
+~
+~
+0 0 5294
+D2
+~
+~
+0 0 5291
+D3
+~
+~
+0 0 5293
+S
+#5293
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 5292
+S
+#5294
+`8Within the palace of the Gaping Maw``~
+The orc palace is a quieter, warmer area then the rest of the mountain. 
+The stench isn't quite as bad, but the walls appear to be more well crafted.
+Crude tapestries and war banners of victories past hang all over the dark
+black walls of the mountain.  The passages here within the palace however,
+are hard to distinguish.  
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 5292
+S
+#5295
+`8A wide hallway``~
+This hallway extends north and south and is about twenty feet wide.  To
+the north you can hear a series of guttural curses, and a fetid stink seems
+to arise from that direction as well.  To the south the tunnel continues.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 5296
+D2
+~
+~
+0 0 5292
+S
+#5296
+`8Before the Throne``~
+The wide hallway continues in four directions here and seems to lead to
+the throne to your north.  You can hear a lot of loud grunts and yells
+coming from the north.  Alcoves lead off to the east and west and the
+passage also continues to the south.  
+~
+~
+0 4 0 0
+D0
+~
+~
+0 0 5299
+D1
+~
+~
+0 0 5298
+D2
+~
+~
+0 0 5295
+D3
+~
+~
+0 0 5297
+S
+#5297
+`8Within a shaded alcove``~
+This alcove seems unnaturally dark, and has a small, desk of a dark teak
+set against the rear wall.  A slim black chest lays at the foot of the desk,
+and you can see the chairs both behind and in front of the desk have been
+moved.  It seems strangely quiet in here.  
+~
+~
+0 4 0 0
+D1
+~
+~
+0 0 5296
+S
+#5298
+`8A Warm Alcove``~
+This alcove seems a bit warmer, and you find out why when you look upon
+the massive fire giant standing here.  The room has a crude desk and chairs
+that seem plundered from somewhere, as they do not look orcish.  The main
+hall is to your west.  
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 5296
+S
+#5299
+`8Throne Room of the Black Maw``~
+A massive throne of elven skulls has been piled here.  The room is about
+twenty feet wide, by forty feet long, and seems to have a very high ceiling.
+Crude tapestries of orc victories have been hung from the walls as have many
+different war banners.  Sitting on the throne is the meanest orc you have
+ever seen.  
+~
+~
+0 287309824 0 0
+D2
+~
+~
+0 0 5296
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 5206 spec_thief
+M 5210 spec_cast_mage
+M 5213 spec_breath_fire
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 5201 16 5205 1
+E 0 5201 0 15
+M 0 5201 16 5206 1
+E 0 5201 0 15
+M 0 5201 16 5207 1
+E 0 5202 0 3
+M 0 5201 16 5208 1
+E 0 5202 0 3
+M 0 5201 16 5209 1
+M 0 5201 16 5210 1
+M 0 5201 16 5211 1
+M 0 5201 16 5212 1
+M 0 5201 16 5213 1
+M 0 5201 16 5214 1
+M 0 5201 16 5215 1
+M 0 5201 16 5216 1
+M 0 5201 16 5217 1
+M 0 5201 16 5218 1
+M 0 5201 16 5219 1
+M 0 5201 16 5220 1
+M 0 5202 16 5221 1
+M 0 5202 16 5222 1
+M 0 5202 16 5223 1
+M 0 5202 16 5224 1
+M 0 5202 16 5225 1
+M 0 5203 20 5225 1
+M 0 5202 16 5226 1
+M 0 5202 16 5227 1
+M 0 5202 16 5228 1
+M 0 5202 16 5229 1
+M 0 5202 16 5230 1
+M 0 5202 16 5231 1
+E 0 5203 0 9
+M 0 5203 20 5232 1
+M 0 5203 20 5233 1
+M 0 5203 20 5234 1
+M 0 5203 20 5235 1
+M 0 5203 20 5236 1
+M 0 5203 20 5237 1
+M 0 5203 20 5238 1
+M 0 5203 20 5239 1
+M 0 5203 20 5240 1
+M 0 5203 20 5241 1
+M 0 5203 20 5242 1
+M 0 5203 20 5243 1
+M 0 5203 20 5244 1
+M 0 5203 20 5245 1
+M 0 5203 20 5246 1
+M 0 5203 20 5247 1
+M 0 5203 20 5248 1
+M 0 5205 8 5250 1
+M 0 5205 8 5251 1
+M 0 5205 8 5252 1
+M 0 5205 8 5253 1
+M 0 5205 8 5254 1
+M 0 5205 8 5255 1
+M 0 5205 8 5256 1
+E 0 5295 0 16
+M 0 5205 8 5257 1
+M 0 5206 1 5258 1
+E 0 5206 0 16
+E 0 5207 0 7
+M 0 5208 10 5260 1
+M 0 5208 10 5261 1
+M 0 5208 10 5262 1
+M 0 5208 10 5263 1
+M 0 5208 10 5264 1
+M 0 5208 10 5265 1
+M 0 5208 10 5266 1
+M 0 5208 10 5267 1
+M 0 5208 10 5268 1
+M 0 5209 3 5288 1
+E 0 5209 0 13
+M 0 5209 3 5290 1
+E 0 5210 0 8
+M 0 5209 3 5291 1
+E 0 5211 0 9
+M 0 5215 1 5295 1
+E 0 5215 0 3
+E 0 5216 0 4
+E 0 5217 0 6
+M 0 5210 1 5297 1
+E 0 5212 0 5
+M 0 5216 1 5297 1
+E 0 5220 0 6
+E 0 5219 0 17
+E 0 5218 0 20
+O 0 5221 0 5297
+O 0 5221 0 5297
+P 0 5222 0 5221 1
+M 0 5213 1 5298 1
+E 0 5214 0 15
+M 0 5299 1 5299 1
+E 0 5298 0 0
+M 0 5204 2 5299 2
+E 0 5204 0 1
+E 0 5205 0 17
+E 0 5205 0 17
+E 0 5299 0 17
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+M 5299 1 bukrinuk1.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

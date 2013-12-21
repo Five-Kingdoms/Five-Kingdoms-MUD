@@ -1,0 +1,2902 @@
+#AREADATA
+Name The Hidden Vale~
+Pref ~
+Builders Ankharan~
+VNUMs 3100 3199
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 0
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#3100
+Centaur~
+a centaur~
+A centaur roams his vale looking for intruders.
+~
+A half human torso with the lower body of a horse stands here guarding
+the forest.  The size of this creature is that of a large warhorse.  The
+hoofs look chipped and well worn from travel.  A half human torso with the
+lower body of a horse stands here guarding the forest.  The size of this
+creature is that of a large warhorse.  The hoofs look chipped and well worn
+from travel.  Its long brown mane runs from its noble head down its back
+with occasional red ties holding some of it in braids.  
+~
+centaur~
+ACTWd A 0 K 0 0
+20 3 8d40+200 0d0+0 4d5+11 pound
+-2 -2 -2 2
+FIU 0 BL 0
+stand stand male none~
+13
+AHNV ACDEFHJKQ large 0
+#3103
+helf-elf ranger half-elven~
+a half-elf ranger~
+A half-elven ranger is passing through the underbrush here.
+~
+Standing about 5 feet tall with long silky brown hair is a half-elf.  He
+looks to be on patrol of some sort as he peers about looking far off into
+the woods as if there is something there that only he can see.  
+~
+half-elf~
+ATWcd A JP 0 300 0
+10 3 3d22+100 0d0+0 2d4+3 slash
+4 4 4 6
+FHJUX 0 BC Z
+stand stand male none~
+6
+AHMV ABCDEFGHIJK medium 0
+#3104
+sprite~
+a sprite~
+A tiny sprite is here flitting about.
+~
+A tiny being is here zipping about their business.  They seem to radiate
+a sort of dim yellowish glow.  It looks like they are wielded a very small
+weapon that resembles a rapier but looks more like a sewing needle than
+anything.  They are fair of skin and their wings look more like a
+dragonflies than birds.  The only clothing is the tiny little shear
+gown-like robe that is about knee length and tattered at the edges.  
+~
+unique~
+AGHd A JT 0 500 0
+8 5 3d25+150 0d0+0 1d2+1 peck
+5 5 5 5
+0 0 C D
+stand stand none none~
+7
+0 0 tiny 0
+#3106
+pixie~
+a pixie~
+A pixie is darting in and out of the forest here.
+~
+This pinkish creature is fair of skin with long brownish hair.  She is
+thin of frame and delictate of form.  Her wide almond eyes resemble those of
+the elf-kind.  She praces more than she walks and makes little to no sound
+as she passes by.  
+~
+unique~
+AHSd A BCDJN 0 750 0
+3 1 1d20+50 0d0+0 1d2+2 magic
+8 8 8 4
+FH 0 C E
+stand stand female none~
+2
+0 0 tiny 0
+#3107
+pixie princess~
+a pixie princess~
+A pixie princess is slipping through the forest looking for intruders.
+~
+~
+unique~
+AGRd A BDJN 0 350 0
+10 4 3d35+100 0d0+0 2d5+5 magic
+3 3 3 3
+0 0 BC E
+stand stand none none~
+9
+0 0 tiny 0
+#3109
+deer stag~
+a male stag~
+A large stag eases his way through the forest here.
+~
+You see before you a stunning stag deer. Long antlers covered in
+spring velvet shine with wicked tips. His hide is smooth and brown,
+and the stag is nearly fearless of you. He seems to prance through
+the forests as if he actually owned it.
+ 
+~
+deer~
+ACd A J 0 300 0
+13 3 1d10+170 0d0+100 2d4+11 charge
+3 3 3 3
+KN 0 0 0
+stand stand male none~
+12
+AGV ACDEFJKQ medium 0
+#3110
+treant tree~
+an ancient tree~
+An ancient treant looks over its forest like a protective mother watching her children.
+~
+Aside from its size and obvious age this tree looks much like the other
+trees here.  Occasionally, a pair of penetrating yellowish eyes can be seen
+blinking as the treant stares out over its forest.  
+~
+unique~
+AGTZd A NO M 495 0
+25 0 9d55+375 0d0+0 5d6+20 smash
+0 0 0 0
+ENU EX CJ DH
+stand stand none none~
+13
+AHMV ABCDEFGHIJK giant 0
+#3111
+basilisk~
+a basilisk~
+A basilisk is rummaging though the forest here.
+~
+This eight legged reptilian creature is a fright.  With its protruding
+horn off of its great maw it rears back and shows its formidable teeth. 
+Claws like short swords and a huge muscular tail give this creature some
+intimidating weapons.  Green scaley hide with a yellowish underbelly are set
+off by its neon green eyes. 
+~
+unique~
+AGTWd A J 0 -250 0
+20 5 7d40+225 0d0+0 4d5+10 claw
+-9 -9 -9 0
+FHX B ELQ J
+stand stand none none~
+16
+0 0 medium 0
+#3113
+wood nymph~
+a wood nymph~
+A wood nymph is here taking survey of her forest.
+~
+~
+unique~
+A A CDGJ 0 0 0
+17 3 5d30+125 0d0+0 15d15+15 magic
+1 1 1 1
+FH B C D
+stand stand female none~
+7
+0 0 medium 0
+#3115
+Dryad~
+a dryad~
+A dryad is here hiding behind some foliage.
+~
+This gorgeous forest creature seems demure and nonconfrontational.  She
+has wild red hair and bright shining purplish eyes.  She sports a pretty
+nice bronze color tone to her skin like a deep inherited tan from
+generations of living under the open skies.  
+~
+unique~
+AGWd A DJ 0 400 0
+25 4 9d55+375 0d0+0 4d5+15 none
+-2 -2 -2 1
+AFU 0 BC H
+stand stand female none~
+16
+AHMVW ABCDEFGHIJKP medium 0
+P GRALL 3115 75~
+#3116
+brownie~
+a brownie~
+A brownie is here peeking out though some underbrush.
+~
+You are looking at what is best described as a little elf with elongated
+ears.  They are dressed in nearly all brown.  They dart in and out of the
+foliage as they try to keep a watch on you and your doings in their forest. 
+~
+unique~
+AGSWd A DEFJP K 350 0
+7 3 2d20+30 0d0+0 2d4+0 pierce
+5 5 5 6
+FJU 0 0 0
+stand stand either none~
+11
+0 0 small 0
+#3118
+glories glory morning flower~
+morning glories~
+A bunch of morning glories
+~
+These radiately blue and white flowers are in perfect bloom.
+~
+unique~
+AB A 0 0 0 0
+9 0 1d1+1 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+12
+0 0 medium 0
+P GET 3118 3118~
+#3120
+willow wisp ball light~
+a ball of light~
+A ball of light zips around here.
+~
+Lore has it that this ball of light is a younger version of the ancient
+beings known as a willow-the-wisp.  With its varying flashing colors and
+speed of flight this creature is almost impossible to catch or hit.  Mostly
+benign in nature, no one really knows what it eats, its habitat or why they
+are here in Mirlan.  
+~
+unique~
+AGd A T 0 20 0
+5 20 1d100+300 0d0+0 1d1+1 touch
+-20 -20 -20 -5
+H ABT 0 0
+stand stand none none~
+10
+0 0 medium 0
+#3121
+giant falcon~
+a falcon~
+A giant falcon circles above.
+~
+A black and white falcon the size of a young dragon flies over head searching to fill its
+voracious appetite. A screech from the depths of its lungs pierces the air as it apparently
+has found a morsel or two to dine upon.
+~
+falcon~
+AGWd A T 0 200 0
+22 4 5d35+200 0d0+0 4d5+12 claw
+-3 -3 -3 2
+0 0 0 0
+stand stand female none~
+8
+AHMV ABCDEFGHIJK giant 0
+#3132
+elf warrior~
+the elf warrior~
+A elf warrior scouts the area.
+~
+A braided long haired elf warrior slips through the brush and trees. 
+Their wary eyes dart too and fro looking for signs of danger and intruders
+into the vale.  Most of the elven warriors of The Vale look very much alike.
+They do this purposefully to keep their enemies from guessing their strength
+of numbers.  The Hidden Vale Elves are widely known to mimic each other to
+the point of impossibility of telling the difference from one another.  
+
+Very few outsiders know just how many they number.  It is widely known that
+the elvish female warriors dress in the same androgynous ways.  This helps
+their survival in not being culled out by the slave traders that wander into
+the area and try to abduct females for harems.  
+~
+elf~
+AGd A CDJ 0 750 0
+20 5 7d40+250 0d0+0 4d5+15 slash
+-3 -3 -3 1
+HX 0 B Z
+stand stand none none~
+12
+AHMV ABCDEFGHIJK medium 0
+F aff P
+#3140
+nixie~
+a nixie~
+A nixie, cousin to the pixie-folk, is here scouting the area.
+~
+A wild nixie is busily tending to the forest.  She has a radiant silvery
+glow about her that shimmers and twinkles with luminescent beauty.  Her
+small stature and fine features reminds one of her relationship to the
+pixie-folk and even to some degree the people of the elves and dryads.  
+~
+unique~
+ACEQW A EJN 0 50 0
+9 2 3d22+85 0d0+100 2d4+4 punch
+6 6 6 4
+FHRU 0 BX Z
+stand stand female none~
+7
+0 0 small 0
+#3143
+Centaur~
+a centaur~
+A centaur is here.
+~
+A half human torso with the lower body of a horse stands here guarding
+the forest.  The size of this creature is that of a large warhorse.  The
+hoofs look chipped and well worn from travel.  A half human torso with the
+lower body of a horse stands here guarding the forest.  The size of this
+creature is that of a large warhorse.  The hoofs look chipped and well worn
+from travel.  Its long brown mane runs from its noble head down its back
+with occasional red ties holding some of it in braids.  
+~
+centaur~
+ACTWZd A 0 JK 0 0
+35 7 10d85+600 0d0+0 5d6+12 pound
+-15 -15 -15 -3
+EFIJRU 0 BLQ M
+stand stand none none~
+14
+AHNV ACDEFHJKQ large 0
+#3145
+Wilk Arch Druid~
+Wilk~
+The Arch-Druid Wilk tends to the forest here.
+~
+A balding man stands here in brownish garb.  He has a long tangled beard
+and weathered beaten eyes.  He seems to look content going about tending to
+his wards.  
+~
+half-elf~
+ACGJKQWcd A CDEFGJ K 0 0
+35 6 10d62+450 0d0+0 5d8+23 magic
+-20 -20 -20 -10
+FHJX A BC 0
+stand stand male none~
+15
+AHMV ABCDEFGHIJK medium 0
+#3150
+badger~
+a badger~
+A furry snarling bager is here.
+~
+This little fur ball looks innocent enough except for those razor sharp
+teeth they seem to be baring at you.  It appears you have intruded upon its
+foraging area and quite likely have spooked it enough for it to put up its
+guard.  
+~
+unique~
+ACFGd A 0 0 0 0
+5 1 10d75+500 0d0+0 1d2+1 bite
+-10 -10 -10 1
+HX CLQ 0 HI
+stand stand none none~
+4
+0 0 small 0
+#3151
+giant skunk~
+a giant skunk~
+A giant skunk is here eating berries.
+~
+This skunk is nearly the size of a large gnome.  It has the tell tale
+long white stripe that runs the course of its spine down to the tip of its
+fluffy black tale.  
+~
+unique~
+A A 0 0 0 0
+14 0 4d40+175 0d0+0 3d8+2 spray
+1 1 1 6
+HU 0 0 0
+stand stand none none~
+13
+0 0 small 0
+P DEATH 3151 100~
+#3153
+elf warrioress~
+an elf warrioress~
+A elf warrioress stands watch.
+~
+This blonde haired beauty slips in and out of the trees like the wind. 
+Her almond blue eyes and pursed thin lips are characteristic of the valley
+elf people that inhabit this region.  
+~
+elf~
+A A CJNP J 350 0
+33 5 10d61+500 0d0+0 5d6+17 none
+-10 -10 -10 -1
+0 0 B 0
+stand stand female none~
+13
+AHMV ABCDEFGHIJK medium 0
+F vul Z
+#3156
+grig~
+a grig~
+A grig is climbing the trees here.
+~
+A cross between a sprite and what looks to be an extremely large
+grasshopper from the waits down.  This green skinned creature looks a bit
+odd.  
+~
+unique~
+AGHd A J 0 500 0
+8 5 3d25+150 0d0+0 1d2+1 none
+5 5 5 5
+0 0 C D
+stand stand none none~
+3
+0 0 tiny 0
+#3160
+Jolston hermit cleric dormicc~
+Jolston the Hermit~
+Jolston the hermit is sifting through the underbrush here.
+~
+You are looking at a sad sight.  Bent and twisted this elderly man seems
+to be foraging for a bite to eat.  Perhaps some herbs or lose berries that
+his aged body can reach.  His arms seem to be too long for his short and
+stocky body while his legs have been horribly deformed and stumpy.  He
+carries with him a gnarled staff that has seen one too many years.  Cracked
+and not much of a weapon.  
+~
+human~
+AGHQd A DJ 0 750 0
+25 6 9d55+375 0d0+0 4d5+15 magic
+-90 -9 -9 0
+FX 0 0 0
+stand stand none none~
+10
+AHMV ABCDEFGHIJK medium 0
+P FIGHT 3160 50~
+#3163
+brownie warrior~
+a brownie warrioress~
+A brownie warrioress is here.
+~
+Dressed in all olive drab and forest greens this little creature blends
+nearly perfectly with her surroundings.  She looks fierce for such a small
+one and perhaps a little more than most can handle.  Strength is in those
+eyes as well as determination.  
+~
+unique~
+ACGJKTWd A DJ 0 600 0
+15 3 5d30+250 0d0+0 3d5+10 pound
+-1 -1 -1 -1
+FHU 0 A 0
+stand stand female none~
+12
+0 ABCDEFGHIJK medium 0
+#3167
+silver unicorn~
+a silver unicorn~
+A silver unicorn is grazing here.
+~
+A unicorn, silver mane and coat, majestically stands here watching over
+its glen.  Its silver horn seems to have a glow of its own.  Even in the
+bright of day it emits this silvery aura of magic. 
+~
+unique~
+AWZc A DEHJN K 400 0
+45 10 10d100+900 0d0+0 5d6+20 stab
+-30 -30 -30 -50
+FHIX BLQ A I
+stand stand female none~
+18
+0 0 large 0
+P DEATH 3167 60~
+#3172
+cooshee elven dog~
+the cooshee~
+A cooshee, an elven dog, is here.
+~
+This dog looks a lot like a chow save for its forest green fur and
+lighter strips of brown and sahdes of green.  It has an intelligent look
+about it as if it knows what you are thinking.  It stands about the size of
+a large mastiff, broad shoulders and thick fur cover it head to toe.  
+~
+dog~
+AGd A JP 0 450 0
+15 3 5d30+175 0d0+0 3d8+6 bite
+1 1 1 3
+UX 0 B 0
+stand stand none none~
+9
+AGV ACDEFHJKUV medium 0
+F off H
+#3183
+Silver Dragon Plathix~
+Plathix~
+Plathix the silver dragon rests here.
+~
+The dazzling spectrum of silver shimmers off of this dragons scales. 
+Ivory white horns protrude from its skull while its foot long, razor-like
+teeth overlap its lower jaw line.  The claws on this beast look as though
+they could skewer a man or two with little difficulty.  As the beast looks
+up at you, you can see an ancient wisdom there that goes beyond mortal
+understanding.  She looks to be of the adult size and strength.  
+~
+dragon~
+ABGTe A CDFGJTV AK 750 0
+35 10 10d200+1000 0d0+0 5d10+27 claw
+-12 -12 -12 -5
+AFHX EK ACEGHLNPQ FI
+stand stand female none~
+21
+AHZ ACDEFGHIJKLPQUVX giant 0
+F res B
+#3184
+deer doe~
+a doe~
+A doe lays here resting.
+~
+Before you is a beautiful doe.  She looks as though she is a little
+fuller in body than most deers of her height and size.  
+~
+deer~
+ACd A J 0 300 0
+13 3 1d10+170 0d0+100 2d4+11 smash
+3 3 3 3
+I 0 0 0
+stand stand male none~
+5
+AGV ACDEFJKQ medium 0
+#0
+
+
+
+#OBJECTS
+#3100
+spade spear ~
+a brown spear~
+A brown spade spear is here.~
+unknown~
+weapon 0 AN
+spear 5 5 pierce D
+20 50 2 P
+#3101
+blueberries~
+blueberries~
+A bunch of blueberries are here.~
+unknown~
+food 0 A
+8 8 0 0 12
+10 10 4 P
+#3102
+blueberry bush~
+a blueberry bush~
+A blueberry bush grows here.~
+unknown~
+container c 0
+200 0 0 0 0
+1 30000 0 P
+#3103
+short sword shortsword~
+a short sword~
+An ornate silver gilded short sword is here.~
+steel~
+weapon 0 ANR
+sword 4 5 slash 0
+15 0 0 P
+F
+A 2 2 0
+#3104
+leather leggings~
+a pair of leggings~
+A pair of nice looking leather leggings is here.~
+leather~
+armor 0 AF
+3 3 3 3 0
+15 30 3 P
+#3105
+studded leather bracers~
+a pair of studded leather bracers~
+A pair of studded leather bracers is here.~
+leather~
+armor 0 AI
+2 2 2 0 0
+15 30 3 P
+#3106
+fine elven leather boots~
+a pair of boots~
+A pair of fine elven boots is here.~
+leather~
+clothing 0 AG
+0 0 0 0 0
+15 30 3 P
+F
+A 14 10 0
+#3107
+bone dagger~
+a bone dagger~
+A finely crafted bone dagger is here.~
+bone~
+weapon 0 ANORY
+dagger 3 6 pierce 0
+35 10 3 P
+F
+A 2 1 0
+F
+A 1 1 0
+#3108
+rapier needle~
+a small needle-like weapon~
+A small needle-like weapon resembling a rapier for small-folk is here.~
+steel~
+weapon 0 ANR
+dagger 2 13 pierce 0
+8 20 0 P
+F
+A 24 -3 0
+#3109
+whip~
+a whip~
+A coiled black braided whip.~
+leather~
+weapon G ANO
+exotic 0 0 whip 0
+10 20 0 P
+F
+A 18 2 0
+#3110
+tiara crown~
+a platinum tiara~
+A platinum tiara is here.~
+unknown~
+treasure 0 AE
+0 0 0 0 0
+0 10 0 P
+F
+A 3 1 0
+F
+A 4 1 0
+F
+A 22 -3 0
+F
+A 24 -3 0
+#3112
+long stemmed blue roses~
+roses~
+A bunch of long stemmed blue roses is here.~
+wood~
+herb 0 AO
+0 'reserved' '' 'reserved' 'reserved'
+1 2 0 P
+F
+A 12 10 0
+#3113
+nymph gown~
+a silvery gown~
+A silvery gown from a wood nymph is here.~
+cloth~
+clothing 0 AD
+0 0 0 0 0
+20 0 0 P
+F
+A 17 -5 0
+#3116
+spear~
+a thin hunting spear~
+A short thin hunting spear is here with a spaded blade.~
+wood~
+weapon 0 ANO
+spear 4 3 pierce 0
+7 50 0 P
+#3117
+green felt brush hat~
+a brush felt hat~
+A brushed green felt with a cap feather.~
+felt~
+clothing 0 AE
+0 0 0 0 0
+7 5 0 P
+F
+A 4 -2 0
+F
+A 3 2 0
+#3118
+morning glories~
+morning glories~
+A bunch of blooming morning glories are here.~
+flowers~
+food 0 AO
+4 4 0 0 4
+9 5 2 P
+E
+flower~
+These radiately blue and white flowers are in perfect bloom.
+~
+E
+morning~
+These radiately blue and white flowers are in perfect bloom.
+~
+E
+glories~
+These radiately blue and white flowers are in perfect bloom.
+~
+F
+A 24 -10 0
+#3123
+battle axe~
+a battle axe~
+A sharp looking, forged steel, battle axe is here.~
+steel~
+weapon Y AN
+axe 8 3 chop 0
+15 50 0 P
+#3124
+dead deer~
+a dead deer~
+A dead deer lays here in the grass.~
+flesh~
+food 0 A
+12 12 0 0 48
+20 500 6 P
+#3135
+chair throne forest gods~
+the chair~
+The Throne of the Forest Gods is here.~
+wood~
+furniture Y 0
+0 0 0 0 0
+60 0 0 P
+E
+chair~
+Formed out of what once was a tree, still living, this massive chair has
+never been carved upon, yet it has been formed by the magic of the
+few-elves.  This throne is so large it can fit 10 normal sized fire giants
+with ease and comfort.  
+~
+E
+throne~
+Formed out of what once was a tree, still living, this massive chair has
+never been carved upon, yet it has been formed by the magic of the
+few-elves.  This throne is so large it can fit 10 normal sized fire giants
+with ease and comfort.
+~
+E
+forest~
+Formed out of what once was a tree, still living, this massive chair has
+never been carved upon, yet it has been formed by the magic of the
+few-elves.  This throne is so large it can fit 10 normal sized fire giants
+with ease and comfort.
+~
+E
+gods~
+Formed out of what once was a tree, still living, this massive chair has
+never been carved upon, yet it has been formed by the magic of the
+few-elves.  This throne is so large it can fit 10 normal sized fire giants
+with ease and comfort.
+~
+#3138
+muddy narrow spring~
+a muddy narrow spring~
+A muddy and narrow stream passes through the path here.~
+water~
+fountain 0 0
+-1 0 'water' 0 0
+1 0 0 P
+#3142
+horn plenty~
+a drinking horn~
+A huge drinking horn is here.~
+unknown~
+drink Y AKO
+50 50 'orange juice' 0 0
+35 60 5 P
+#3143
+ashwood staff~
+ashwood staff~
+An ashwood staff with silver bindings is here.~
+wood~
+weapon 0 ANO
+staff 5 8 smash 0
+15 60 3 P
+F
+A 19 1 0
+F
+A 18 1 0
+#3145
+battle axe~
+an axe~
+A double headed battle axe is here.~
+unknown~
+weapon I ANO
+axe 5 10 slash 0
+49 50 5 P
+F
+A 19 3 0
+#3147
+scarf maroon~
+a maroon scarf~
+A frayed maroon scarf is here.~
+silk~
+clothing 0 AC
+0 0 0 0 0
+5 1 0 P
+F
+A 13 10 0
+#3149
+black diamond~
+a black diamond~
+A black gem sparkles here.~
+diamond~
+treasure Ye AO
+0 0 0 0 0
+35 10 1000 P
+F
+A 18 5 0
+#3150
+steel box~
+a steel box~
+A steel rusty box is here.~
+unknown~
+container GY AKO
+20 AC 0 0 0
+35 70 2 P
+#3151
+cracked emerald~
+a green stone~
+A cracked emerald is here.~
+gem~
+treasure 0 AO
+0 0 0 0 0
+0 10 25 P
+#3152
+golden disk~
+a golden disk~
+A highly polished golden disk is here.~
+gold~
+jewelry 0 AC
+0 0 0 0 0
+0 30 100 P
+F
+A 12 100 0
+#3153
+cloak elvinkind~
+a fine cloak~
+A fine elven cloak is here.~
+silk~
+clothing 0 AK
+0 0 0 0 0
+33 10 5 P
+F
+A 24 -1 0
+F
+A 2 2 0
+#3154
+whip~
+a whip~
+A buckskin salted whip is here.~
+leather~
+weapon 0 AN
+whip 5 8 whip 0
+33 0 0 P
+#3155
+chainmail thong~
+a chainmail thong~
+A chainmail thong is here.~
+steel~
+armor 0 AL
+2 1 4 0 0
+33 50 4 P
+F
+A 6 -1 0
+#3156
+chainmail garter~
+chainmail garter belts~
+A pair of chainmail garter belts is here.~
+metal~
+armor 0 AF
+2 1 3 0 0
+15 30 3 P
+#3157
+leather mask~
+a leather black panther mask~
+A leather mask in the shape of a black panthers head is here.~
+leather~
+armor 0 Ad
+0 0 0 -3 0
+33 10 2 P
+#3167
+unicorn horn~
+a horn~
+A silver unicorn horn is here glowing.~
+horn~
+weapon AGHIKY ANORX
+exotic 8 8 none 0
+47 10 3 P
+F
+A 26 -5 0
+F
+A 23 -5 0
+F
+A 21 -5 0
+F
+A 20 -5 0
+F
+A 24 -5 0
+F
+A 31 -5 0
+F
+A 12 100 0
+#3169
+spring~
+a spring~
+A crisp cool spring runs through the vale here.~
+unknown~
+fountain 0 0
+-1 0 'water' 0 0
+20 0 0 P
+#3179
+wisteria vine~
+a wisteria vine~
+Wisteria vines are growning up through the trees here.~
+flower~
+herb 0 AO
+6 'cure light' 'cure blindness' 'infravision' 'detect invis'
+10 8 0 P
+#3182
+dragon tooth~
+a dragon tooth~
+The tooth of a green dragon is here.~
+unknown~
+weapon 0 AO
+exotic 5 7 pierce K
+49 30 3 P
+#3183
+green dragon scale~
+a green dragon scale~
+A huge green dragon scale formed like a shield is here.~
+scale~
+armor HY AJO
+5 5 5 5 0
+49 50 3 P
+#0
+
+
+
+#ROOMS
+#3100
+`3A path into the hills``~
+You are on a pathway that is at the base of some hills.  The area is
+dotted with some spruce and various other trees and with the low-lying hills
+makes it difficult to see to far ahead down the path.  
+~
+~
+0 0 8192 4
+D0
+~
+~
+0 0 3101
+S
+#3101
+`3higher into the hills ``~
+You are ascending into the hills of this lush area.  The area is teaming
+with vegetation and foliage.  The path ahead moves upwards a little at a
+slight incline.  
+~
+~
+0 0 32768 4
+D2
+~
+~
+0 0 3100
+D4
+~
+~
+0 0 3102
+S
+#3102
+`3A deer trail into the foot hills``~
+The path has dwindled down to more of a deer trail with rough footing and
+close brushes with the bushes all around.  The dry leaves seem to make
+trespass here a little more noise than most.  The trees provide little cover
+except for the occasional massive elder oak.  
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 3103
+D5
+~
+~
+0 0 3101
+S
+#3103
+`@A four way trail``~
+While still steep and hilly, the area here gives way to more of a
+forested and tree heavy cover.  A person can go any of four directions.  The
+ground appears to be well packed along the trail here but off of the trail
+the ground is covered with old leaves, branches and brush.  
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 3112
+D2
+~
+~
+0 0 3102
+D3
+~
+~
+0 0 3109
+D5
+~
+~
+0 0 3104
+S
+#3104
+`3A small gully``~
+You have descended into a small gully into what looks like the depression
+of a large hill.  Steep sides all around but there is footing well enough to
+make your way upwards and to the north.  Muck and mud seem to collect
+permanently here from where it runs off when it rains down the sides
+collecting in stagnant puddles.  
+~
+~
+0 0 16384 4
+D0
+~
+~
+0 0 3105
+D4
+~
+~
+0 0 3103
+S
+#3105
+`@Deeper into the forest``~
+The path you are treading upon runs three ways.  To the south, east and
+west.  To the south it would appear that it runs down into a small steep
+gully.  To the east and west more forest with a light path that traverses
+along the edges of some beautifully full trees and foliage.  
+~
+The path you are on traverses to the west and east as well as back
+towards the south.  The forest seems to be getting thicker and more crowded
+with lower laying vegetation than to the south.  There is a small break in
+the canopy of the upper branches of the forest where the occasional cloud
+passes over. 
+~
+0 0 65536 3
+D1
+~
+~
+0 0 3122
+D2
+~
+~
+0 0 3104
+D3
+~
+~
+0 0 3121
+S
+#3106
+`@A dead end``~
+The path looks as though it runs into a conifer that looks roughly the
+size of a small mountain.  Reaching high above the rest of these large trees
+this pine looks old and ancient like it has been here since the beginning of
+time itself.  
+ 
+A large cave is set into the side of a rocky cliff face just north of you.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 1500
+D1
+~
+~
+0 0 3107
+S
+#3107
+`@A narrowing path``~
+The pathway is getting more narrow and less and less easier to travel. 
+Up ahead it looks like even in the day the path becomes impassable with the
+ever thickening of the brush and trees that grow increasingly closer.  
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 3108
+D3
+~
+~
+0 0 3106
+S
+#3108
+`@A sandy path in the forest``~
+You are on a soft and sandy path that feels much like walking on the soft
+sands of desert dunes.  This area is full of different species of pines. 
+White, pinyon, red and scotch pines mostly.  
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 3109
+D2
+~
+~
+0 0 3110
+D3
+~
+~
+0 0 3107
+S
+#3109
+`@A sandy path``~
+You are along a sandy path.  So well traveled that the grasses and have
+been beaten down and not much but loose sand guides the way east and west
+here.  The trees and brush are relatively thick and dense here with the path
+giving way just enough for a moderate amount of foot traffic.  
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 3103
+D3
+~
+~
+0 0 3108
+S
+#3110
+`@A southward turn``~
+The sandy path becomes a little harder here.  To the sides of the path
+are areas where water has eroded the edges away exposing roots from the
+nearby trees.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 3108
+D2
+A large elderberry bush is here.
+~
+~
+0 0 3111
+S
+#3111
+`2A covered path``~
+The path runs through some very thick and low lying vines that have grown
+into the limbs of the surrounding trees making it look more like a rabbit
+hole than a passable track through the forest.  Briar brushes and thickets
+cling to the edges of the path.  
+~
+~
+0 0 16384 14
+D0
+~
+~
+0 0 3110
+D2
+A hole in a large oak.
+ 
+~
+hole~
+0 0 3143
+S
+#3112
+`@A circle of roses``~
+You have wandered onto a semi-open area where thick and thorny climbing
+rose vines have taken pretty much over the ground cover and up into various
+trees.  Fragrant blossoms of reds, whites, blues and oranges this area is
+scented heavily with this heavenly aroma.  
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 3113
+D3
+~
+~
+0 0 3103
+S
+#3113
+`2Rest area``~
+The path opens up into a cleared area where it appears travelers have
+used and kept clear for fires and a resting spot in this thicket of wooded
+area.  Small twigs and deadwood are scattered about.  Near the center of the
+cleared area a blackened charred area of burned wood and scored ground with
+small rocks circling them.  
+~
+~
+0 0 8192 14
+D0
+~
+~
+0 0 5300
+D2
+~
+~
+0 0 3116
+D3
+~
+~
+0 0 3112
+D5
+~
+~
+0 0 3114
+S
+#3114
+`3A hilly section of the forest``~
+You are traveling along the sides of a forested hilly area.  Not much of
+a slope to it but graded enough to make travel slightly slower.  The sounds
+of forest life permeate the area.  
+ 
+There is a sign posted here for travelers of Mirlan.
+~
+~
+0 0 8192 4
+E
+sign~
+UP    - FURTHER INTO THE VALE.
+EAST  - TO THE PYALL MOUNTAINS.
+Beware the mountains least you never return.
+~
+D4
+~
+~
+0 0 3113
+S
+#3115
+`@Inside of a tree.``~
+You are on the inside of a very large tree.  It is very dark in here.  
+~
+~
+0 134750217 8192 3
+E
+west~
+A large hunk of tree bark covering the opening is here.
+~
+E
+sign~
+You will become lost if you are not careful how you tread from this point.  
+~
+D3
+~
+~
+ABM 0 3129
+M 150 H 150
+S
+#3116
+`@A southern glen``~
+You have entered a small glen.  The ground is littered with large moss
+covered boulders and dense growing ferns.  The trees are thick and grow
+upwards of several hundred feet.  Although not dense forest the branches of
+these humongous trees makes a near impenetrable canopy allowing little if
+any direct sunlight through.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 3113
+D2
+~
+~
+0 0 3117
+S
+#3117
+`@A southern pass``~
+The path looks like it continues on a southern route through rolling
+hills and thick forested areas.  The dotted with animal tracks here and
+there that cross the path in various directions.  Everything from rabbits to
+large unidentifiable creatures best left undisturbed.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 3116
+D2
+~
+~
+0 0 3135
+S
+#3118
+`@The east and westward path``~
+You are on a east and westward path through a dense forest.  The path
+winds and widens in several places here.  Small shrubs and creeper vines
+make their way up the trees tangling the limbs and leaving behind many a
+dead pole pine.  
+~
+The dim light from the night sky shows a path that appears to run along a
+west and eastward direction.  The darkness of the forest is ever present and
+seems a little denser here as the trees crowd around the path making it
+difficult to peer too far into the wood.  
+~
+0 0 32768 3
+D1
+~
+~
+0 0 3119
+D3
+~
+~
+0 0 3125
+S
+#3119
+`@a turn in the path``~
+You have stumbled upon a branch in the path.  The path takes a sharp
+narrowing turn to the north as well as continues along to the east and west.
+~
+The canopy above breaks open a little more giving you a better sense of
+the path ahead.  The path also takes a drastic turn to the north.  Due to
+the overly dense vines and low-lying foliage it is hard to see just how far
+the path continues to the north.  It also continues along its east and west
+axis.  
+~
+0 0 32768 3
+D0
+~
+~
+0 0 3132
+D1
+~
+~
+0 0 3120
+D3
+~
+~
+0 0 3118
+S
+#3120
+`@A path that runs east and west through the forest``~
+You are on a hardened path that runs through a dense patch of heavily
+forested area.  There are lights zipping in and out of the trees along this
+section of the path.  The smell of some far off swamp titillates the senses
+as it mixes with th sap of trees and the scent of flowers.  Truly, this
+place if any is a magical place.  
+~
+The trees here encroach closely onto the path here.  It is extremely dark
+and next to impossible to see the sky above.  
+~
+0 0 16384 3
+D3
+~
+~
+0 0 3119
+D4
+~
+~
+0 0 3121
+S
+#3121
+`@A downward slope``~
+You are at the crest of a small hill.  The path continues on to the north
+and west but it also slopes a little down where it appears that several
+animals have carved out a trail that looks to be heavily used by these
+forest denizens.  
+~
+The path appears to have crested here and there is a turn to the north. 
+Through the threes you can see a small break where the path appears to have
+been notched out but not by humanoid footfalls.  The dark of the night hides
+the kinds of animals that may have made such a trail.  
+~
+0 0 32768 3
+D0
+~
+~
+0 0 3135
+D1
+~
+~
+0 0 3105
+D5
+~
+~
+0 0 3120
+S
+#3122
+`@Through some thick briars``~
+The narrow trail you are on runs primarily through thick, close packed,
+low-laying brush.  The trees seem to have been pushed back by this hearty
+brush.  Still, one can make out ever so slightly the path that runs through
+most of this vegetation.  
+~
+The trail is increasingly harder to spot here as there seem to be thick
+briars and brush in abundance here.  They cover the ground so completely
+that the darkness of there evening shadows conceals the main path nearly
+completely.  
+~
+0 0 8192 3
+D3
+~
+~
+0 0 3105
+D5
+~
+~
+0 0 3123
+S
+#3123
+`@A small incline``~
+The narrow trail you are on runs primarily through thick, close packed,
+low-laying brush.  The trees seem to have been pushed back by this hearty
+brush.  Still, one can make out ever so slightly the path that runs through
+most of this vegetation.  However there is a slight rise here that leads up
+a small hill.  
+~
+The brush and briars here cover the area completely.  There is a hill
+that the path apparently travels up as well as continuing towards the east. 
+The night sounds seem to vanish in this semi-cleared area.  
+~
+0 0 16384 3
+D1
+~
+~
+0 0 3124
+D4
+~
+~
+0 0 3122
+S
+#3124
+`@A small alcove``~
+The trail you are on opens up into what seems to be a carved out niche in
+the woods.  The brush and briars seem to have been cut back and the ground
+packed down from extensive use.  There appears to be small trails off into
+the woods in all directions that just "end."  
+~
+The trail opens up significantly here.  The ground appears to have been
+packed down and hardened artificially.  There are a few trails that lead out
+of this mini-alcove.  One to the east, one to the west and one that runs
+northward.  
+~
+0 0 16384 3
+D0
+~
+~
+0 0 3126
+D1
+~
+~
+0 0 3125
+D3
+~
+~
+0 0 3123
+S
+#3125
+`@A strange and eerie passage``~
+The forest seems grow around a spot towards the east.  The path in that
+direction looks to be un-natural in a way that is not easily described.  The
+surrounding forest thick with pole pines and heavy with moss laden boulders
+that lay on either side of the eastward passage.  The whole of it looks out of
+place somehow.
+~
+Off to the east the path seems to shift and shimmer.  There are several
+large boulders that sit to either side of the path to the east.  The forest
+seems to be clear of the path in that direction as if the forest itself
+feared to touch it.  
+~
+0 0 65536 3
+D1
+~
+~
+0 0 3118
+D3
+~
+~
+0 0 3124
+S
+#3126
+`@A depression in the trail``~
+The trail is riddled with long, deep groove-like trenches here.  The
+trail itself looks to be of recently dried mud which caked fast enough to
+cause severe cracks in the dried areas.  Some animal tracks run in several
+directions that have been captured in the dried mud sections.  
+~
+Walking along this section of the path is a bit tricky as it appears that
+the path was a recently deep mud puddle that dried quickly leaving severe
+trenches and grooves.  Carefully picking ones way through the path is needed
+else an ankle could easily be broken.  
+~
+0 0 32768 3
+D0
+~
+~
+0 0 3127
+D2
+~
+~
+0 0 3124
+S
+#3127
+`@A fork in the road``~
+The path forks here to the north and the east.  There is a copious amount
+of dried mud and fairly deep grooves in the path here.  Many of the trees in
+the area seem to have been cut down some years ago and the forest looks to
+be reclaiming the land with younger saplings of various kinds.  
+~
+There is a copious amount of dried mud and depressions in the forest
+floor here.  The path looks like it has been picked out along its safest
+route.  Through the evening darkness one can see that the path here forks to
+the north and east as well as continues to the south.  
+~
+0 0 16384 3
+D0
+~
+~
+0 0 3130
+D1
+~
+~
+0 0 3128
+D2
+~
+~
+0 0 3126
+S
+#3128
+`@A sernene setting``~
+The trail has placed you in one of the most serene and peaceful looking
+places most men have ever seen.  The ancient trees loom above and the sheer
+size of them is nearly unmatched anywhere in Mirlan.  There is a small creek
+that runs through here sparkeling in the days light.  Small patches of
+various greenery grows in abundance filling in the open.  
+~
+Vileness and stench are all that can be seen here.  The darkness engulfs
+the area and in this darkness a hate so strong that its evil can be felt in
+the deep recesses of ones mind.  
+~
+0 0 16384 3
+D1
+~
+~
+0 0 3129
+D3
+~
+~
+0 0 3127
+S
+#3129
+`@Shylore dead tree``~
+The area appears to be nothing but dead and decaying trees.  Hardly any
+green to be found.  No animals, sounds of birds or buzzing of insects. 
+Desolate and deserted.  Even the trees are escaping by dying.  
+
+The tree of Shylore is here as well.  This massive tree is about 20 people
+in girth.  Over the years it seems tha the bark has been stripped away
+somewhat.  
+~
+~
+0 0 65536 3
+E
+bark~
+The bark on Shylore on its eastern side looks to be abnormal.
+~
+E
+east~
+A large hunk of tree bark covering an opening is here.
+~
+D1
+~
+~
+ABM 0 3115
+D3
+~
+~
+0 0 3128
+S
+#3130
+`@A copse of willow trees``~
+The path has wound its way up to this sizable copse of huge weeping
+willow trees.  The whip-like branches of these massive sentinels droop some
+60 feet to lay the tips upon the ground.  As the small breeze takes hold the
+thin tips of the branches sweep the forest floor making a soft russelling
+sound against fallen leaves and ground.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 3131
+D2
+~
+~
+0 0 3127
+S
+#3131
+`@A curve in the path``~
+The trail takes a turn to the south and to the west.  To the south you
+can spot a large group of willow trees.  There seems to be tracks that lead
+up to a nearly hidden burrow that looks to have been long abandoned.  
+~
+~
+0 0 65536 3
+D2
+~
+~
+0 0 3130
+D3
+~
+~
+0 0 3152
+S
+#3132
+`@A damp ground``~
+The trail seems to pass over a moss ridden forest floor that feels spongy
+and soft.  There is a heavy smell of mildew and rotted wood all throughout. 
+Most of the trees and larger bushes seem to have a deep green moss growing
+upon their bark.  
+~
+There is a powerful smell of mildew and wood rot that waifs through here.
+The path seems slippery, damp and sponge-like.  With the cool night air
+this area has an oppressive feel to it. 
+~
+0 0 32768 3
+D0
+~
+~
+0 0 3133
+D2
+~
+~
+0 0 3119
+D3
+~
+~
+0 0 3139
+S
+#3133
+`@A twist in the path``~
+The path twists and turns here running under some low hanging oak
+branches so thick one could nearly walk on them like a bridge.  There is a
+stringy grey-green moss that appears to be growing out of the bark dangling
+down in large matts.  The moss looks like it is somehow choking off the
+trees ability to grow.  
+~
+Massive oak arms stretch out over the trail making all those that wish to
+travel through duck and twist to stay on the path.  Huge clumps of a stringy
+moss hang from these ancient trees obscuring the immediate view.  
+~
+0 0 8192 3
+D0
+~
+~
+0 0 3168
+D2
+~
+~
+0 0 3132
+S
+#3134
+`8``~
+~
+~
+0 8192 0 0
+S
+#3135
+`@The Chair of the Forest Gods``~
+You have come across a place in the trail known as the "Chair of the
+Forest Gods."  So named because of the massive redwood here.  This tree
+stands out for several reasons.  It is the only redwood in the area and it
+grew in such a fashion to resemble a natural chair so big only a god could
+sit in it.  The tree is still living and by the looks of the area just in
+front of the tree visited often.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 3136
+D2
+~
+~
+0 0 3121
+P RANDOM 3136 95~
+P GRALL 3135 75~
+S
+#3136
+`@A burned area in the vale``~
+The trail passes over a burned area.  It seems a fire had run through
+here some many years ago taking most of the vegetation with it.  For some
+reason the blackened trunks and foliage have not grown back as well as it
+should have.  
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 3137
+D2
+~
+~
+0 0 3135
+S
+#3137
+`@The path continues``~
+The trail you are on continues to the north, west and east through much
+of the same dense forest.  Heavy with tall brush, briars and thorny vines
+this area is a little foreboding.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 3140
+D1
+~
+~
+0 0 3138
+D3
+~
+~
+0 0 3136
+S
+#3138
+`@A weathered and dilapidated shack``~
+The trail passes in front of what looks like an old wooden shack that has
+collapsed upon itself many years ago.  It has been over taken by many years
+of flora and fauna overgrowth.  
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 3139
+D3
+~
+~
+0 0 3137
+S
+#3139
+`@A passage through the undergrowth``~
+The trail leads through a brumous of vegetation so thick that it looks as
+though travelers have had to cut their way through it leaving a tunnel as a
+passageway.
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 3132
+D3
+~
+~
+0 0 3138
+S
+#3140
+`@The trail continues on``~
+You are deep in the forest.  Much of what is a trail is not much more
+than a small cleared path that twists and turns though the denseness of
+trees and fauna.  A myriad of tree types can be seen here.  Sycamore,
+cypress, fir, live oak, scrub oak and manzanita to the discerning eye.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 3141
+D2
+~
+~
+0 0 3137
+S
+#3141
+`@A western road bypass``~
+The small trail has come up on a well cut out road here in the forest. 
+It looks so out of place here in the middle of nothing.  The road is about
+two carriages wide and hard packed.  It looks well taken care of and free of
+weeds and clutter, signs of continuous usage.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 3142
+D2
+~
+~
+0 0 3140
+D3
+~
+~
+0 0 3144
+S
+#3142
+`@A circle of rocks``~
+A circle of rocks have been stacked up all around here.  An ancient
+design of some sorts a they appear to have been laid out in a purposefully
+set pattern.  The rocks are of a bluish-grey stone.  Some look to be well
+over a few hundred tons in weight.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 3143
+D1
+~
+~
+0 0 3146
+D2
+~
+~
+0 0 3141
+S
+#3143
+`@A curve in the trail``~
+The trail curves off to the south and to the west.  Bending around a
+thick patch of large brush and briars that have encompassed most of the
+surrounding trees.  
+~
+~
+0 0 65536 3
+D2
+~
+~
+0 0 3142
+D3
+~
+~
+0 0 3157
+S
+#3144
+`@A road in the forest``~
+You are on a hard pack road.  The road is as wide as about two carriages
+give or take a little.  It appears that the forest area around has been
+trimmed back to keep it free of debris and quite usable.  
+~
+You are on a hard packed road.  The evening sky shines through the
+trimmed back forest canopy which allows for a greater extended viewing of
+the area to the east and west.  Back in the forest the darkness envelops the
+trees which makes it not an easy venture peering into it.  Night sounds
+escape the hardwood.  
+~
+0 0 32768 3
+D1
+~
+~
+0 0 3141
+D3
+~
+~
+0 0 3145
+S
+#3145
+`@A clearing in the forest``~
+The road you are on has ended at this clearing where it looks as though
+people have been logging.  Stumps of various trees some freshly cut and some
+showing signs of older takings.  There is a stack of logs here that have
+been neatly stacked.  They look to have been sitting here for quite some
+time.  
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 3144
+S
+#3146
+`@Through some trees``~
+The trail runs through a large cypress tree.  With a nasty looking cliff
+to either side of this tree it is the only way to go east and west here
+without endangering ones life.  The tree is ancient, perhaps a few thousand
+years in age.  The tunnel that traverses though it has been ever so
+beautifully cut out and apparently, sealed off to save the tree.  
+~
+~
+0 0 8192 3
+E
+tunnel~
+The tunnel that runs through the cypress here has
+been sealed off with some sort of blackish pitch which
+was smoothed out and leveled much like spreading a
+fine layer of icing on a cake.
+~
+D1
+~
+~
+0 0 3147
+D3
+~
+~
+0 0 3142
+S
+#3147
+`@A perilous path``~
+The trail here runs along a steep ridge on both sides.  A slip here would
+be a very bad thing.  Someone was kind enough to build a make-shift railing
+that runs along this section of path for hand holds to help the weary
+traveler along their way though this dangerous place.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 3148
+D3
+~
+~
+0 0 3146
+S
+#3148
+`@A perilous trail``~
+The trail here runs along a steep ridge on both sides.  A slip here would
+be a very bad thing.  Someone was kind enough to build a make-shift railing
+that runs along this section of path for hand holds to help the weary
+traveler along their way though this dangerous place. 
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 3150
+D1
+~
+~
+0 0 3151
+D2
+~
+~
+0 0 3147
+S
+#3149
+`8``~
+~
+~
+0 8192 0 0
+S
+#3150
+`@A northern trail``~
+The trail you are on seesm to twist and turn a lot.  It primarily runs a
+north and south course taking you deeper into the vale in both directions. 
+There are many small animal tracks that dot the area across the path.  
+~
+~
+0 0 32768 3
+D2
+~
+~
+0 0 3148
+D3
+~
+~
+0 0 3153
+S
+#3151
+`@A grove of trees``~
+You have entered a grove of oaks.  Large ancient trees stand here as a
+testament to the age of this Vale.  Gnarled thick bark and twisted branches
+as solid as many an average trunk best describe these elder sentinels. 
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 3152
+D3
+~
+~
+0 0 3148
+S
+#3152
+`@A thatch of high grass``~
+The path passes through some high grasses here.  Interestingly enough the
+grasses look to be a mix of cat-tails, lemon grass, red tips and other
+grasses that tend to bunch together.  The trees have parted back some which
+gives it a more open feeling here.  
+~
+~
+0 0 8192 3
+D3
+~
+~
+0 0 3151
+S
+#3153
+`@A twist in the trail``~
+The trail here begins to twist and turn to avoid thickets of briars and
+high growing shrubs.  One can see how easy it would be to get lost in here. 
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 3154
+D1
+~
+~
+0 0 3150
+S
+#3154
+`@A thinning forest``~
+The forest has thickened to the south here and thin to the north.  The
+trail appears to be a sandy well traveled and dusty venture.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 3155
+D2
+~
+~
+0 0 3153
+S
+#3155
+`@The entrance to a foreboding forest``~
+You are at the edge of a dense forest.  To the south the gnarled, ancient
+trees stand as they have for a millennia.  To the east mountains rise up
+sharply.  
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 3156
+D2
+~
+~
+0 0 3154
+S
+#3156
+`3A rocky road``~
+You are on a rocky road.  To the east, large mountains that resemble
+sharp, jagged teeth.  To the west a narrowing trail that looks to take you
+into an ancient forest.  The merging of two totally different worlds blends
+so smoothly here.  
+~
+~
+0 0 65536 4
+D3
+~
+~
+0 0 3163
+S
+#3157
+`@A peaceful glen``~
+You walk among the stately oaks.  Peaceful is this beautiful forest.  If
+only the rest of the lands were so tranquil.  This narrow trail cuts through
+the a copse of denser surroundings.  The trees here are somewhat withered,
+and desiccated, but no less full of life as the rest of the forest.  
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 3161
+D1
+~
+~
+0 0 3143
+D3
+~
+~
+0 0 3158
+S
+#3158
+`@A secluded dell``~
+You are in a secluded dell.  Old valley ash are in abundance here. 
+Bushes of flowering foxglove line the bank of a stream which runs west into
+a small murky pond.  To the south there is a great forest of majestic oaks,
+while to your east a trail that seems little-used heads further into the
+valley forest.  
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 3157
+D3
+~
+~
+0 0 3159
+S
+#3159
+`@A long winding trail``~
+You are on a long trail that primarily runs east and west.  Here however
+there is a side trail that runs to the north.  This area is a young area. 
+Many of the trees here look to be younger and shorter than the rest of the
+forest.  Sort of a new growth.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 3163
+D1
+~
+~
+0 0 3158
+D3
+~
+~
+0 0 3160
+S
+#3160
+`@A thinning trail``~
+Your trail here runs east and west.  The sounds of birds and other forest
+creatures fill the air.  Up above the canopy of the thousands of high
+growing pole pines obscures only a little of the sky.  
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 3159
+D3
+~
+~
+0 0 3163
+S
+#3161
+`@Off the beaten path``~
+You are not exactly on a path but more of a clearing that runs
+perpendicular to the edge of the forest heading north and south.  To the
+north a road seems to spring up almost out of nowhere.  There seems to be a
+dry, cutting wind that is channeled from the north as well.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 3162
+D2
+~
+~
+0 0 3157
+S
+#3162
+`3At the end of a road``~
+You are at the end of a north running road.  To the south a field or
+clearing presents itself just prior to an immensely thick forest.  
+~
+~
+0 0 16384 4
+D2
+~
+~
+0 0 3161
+S
+#3163
+`5A damp road``~
+The road you are on runs directly through a marshy swamp-like area.  The
+trail hops from nearly covered stump to moss covered rocks with the
+occasional higher dry dirt.  The decay of a swamp fills the air with an
+eerie kind of permeation.  
+~
+~
+0 0 0 8
+D0
+~
+~
+0 0 3164
+D1
+~
+~
+0 0 3160
+D2
+~
+~
+0 0 3166
+S
+#3164
+`5A meeting of swamp and forest``~
+The murky path you are on seems to be between a forested and swamp area. 
+To the north, swamp and to the south, forest.  
+~
+~
+0 0 0 8
+D2
+~
+~
+0 0 3163
+D3
+~
+~
+0 0 2900
+S
+#3166
+`@A hidden trail``~
+The trail you are on is all but obscured from normal sight.  If you stray
+too far off it would be too easy to become forever lost as the forest here
+engulfs just about everything in a tight packed wall of trees and
+vegetation.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 3163
+D2
+~
+~
+0 0 3167
+D3
+~
+~
+0 0 3169
+S
+#3167
+`@A hidden path``~
+The trail you are on is all but obscured from normal sight.  If you stray
+too far off it would be too easy to become forever lost as the forest here
+engulfs just about everything in a tight packed wall of trees and
+vegetation. 
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 3166
+D2
+~
+~
+0 0 3168
+S
+#3168
+`@A dead end``~
+You have arrived at a dead end.  The path....  Just seems to stop.  All
+around there are the normal sights and sounds of a populated forest.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 3167
+S
+#3169
+`@An arbor of ivy``~
+The trail has led you here to an arbor that is arched over the trail.  It
+seems to be made naturally of ivy which has grown up the sides of some trees
+and over entwined with more ivy that has done the same on the opposite side
+of the trail.  The greens and fauna here are bright and fresh just like
+after a morning spring shower or the morning dews as sunrise.  
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 3166
+D3
+~
+~
+0 0 3170
+S
+#3170
+`@An arbor of ivy``~
+The trail has led you here to an arbor that is arched over the trail.  It
+seems to be made naturally of ivy which has grown up the sides of some trees
+and over entwined with more ivy that has done the same on the opposite side
+of the trail.  The greens and fauna here are bright and fresh just like
+after a morning spring shower or the morning dews as sunrise.
+~
+~
+0 0 16384 3
+D1
+~
+~
+0 0 3169
+D3
+~
+~
+0 0 3172
+S
+#3171
+`8A small alcove``~
+You are in a small alcove set in the side of a small hill.  The damp
+earth has dangling roots from plants and trees up above and the shelter is
+just barely big enough for ten or so people.  Signs of continuous use are all
+about with the charred remains of old camp fires and impressions in the
+hardened dirt where people have slept. 
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 3172
+S
+#3172
+`@A den``~
+You have stumbled upon some sort of anumal den.  By the smell of it some
+sort of canine beds down here.  Most of the grasses and dirt have been
+patted down for comfort and small indentations in the dirt where it looks
+like an animal lays have been made as well.  
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 3171
+D1
+~
+~
+0 0 3170
+D2
+~
+~
+0 0 3173
+D3
+~
+~
+0 0 3175
+S
+#3173
+`@A beautiful vale``~
+You are in a beautiful vale, secluded in the forest.  This place has
+wonderful multicolored flowers growing up into the trees high which brighten
+the place up with their coloring.  Massive wisteria vines entangle most of
+the other vines, their purplish flowers emit a wonderful fragrance.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 3172
+D1
+~
+~
+0 0 3185
+D2
+~
+~
+0 0 3174
+D3
+~
+~
+0 0 3176
+S
+#3174
+`@A beautiful vale``~
+You are in a beautiful vale, somewhere in a secluded forest.  The trees
+are lush as full.  Shades of green and browns permiate the entire area. 
+Tall grasses have grown up and taken over most of the ground here.   
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 3173
+D3
+~
+~
+0 0 3177
+P GRALL 3174 95~
+S
+#3175
+`@A seculed vale``~
+You are in a secluded vale hidden in an ancient forest.  The vale really
+shows off its lushness here.  So many variety of flowers, shrubs and trees
+grow in abundance it is hard to count the many different kinds.  Above, the
+sky, seems so perfect and clear.  
+~
+~
+0 0 32768 3
+D1
+~
+~
+0 0 3172
+D2
+~
+~
+0 0 3176
+S
+#3176
+`@A field of grass``~
+You are in a secluded vale hidden in an ancient forest.  The vale really
+shows off its lushness here.  So many variety of flowers, shrubs and trees
+grow in abundance it is hard to count the many different kinds.  Above, the
+sky, seems so perfect and clear.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 3175
+D1
+~
+~
+0 0 3173
+D2
+~
+~
+0 0 3177
+D3
+~
+~
+0 0 3180
+S
+#3177
+`@A copse of trees``~
+You are in a copse of elder yew trees.  These auld yews appear to have
+withstood the eons of time.  Windswept branches and graying bark are a
+declaration of power and age-old wisdom.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 3176
+D1
+~
+~
+0 0 3174
+D2
+~
+~
+0 0 3178
+D3
+~
+~
+0 0 3181
+S
+#3178
+`@A copse of ancient yew trees``~
+You are in a copse of elder yew trees.  These auld yews appear to have
+withstood the eons of time.  Windswept branches and graying bark are a
+declaration of power and age-old wisdom.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 3177
+D3
+~
+~
+0 0 3179
+S
+#3179
+`@A natural spring``~
+Among the elder yew trees a natural spring bubbles up from the ground
+forming a small fountain of fresh water.  
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 3181
+D1
+~
+~
+0 0 3178
+D2
+~
+~
+0 0 3184
+D3
+~
+~
+0 0 3183
+S
+#3180
+`@Somewhere deep in the vale``~
+You are somewhere deep in the vale.  Rolling hills, large trees and a
+plethora of vegetation make this a pleasingly scenic view to most eyes.
+~
+~
+0 0 8192 3
+D1
+~
+~
+0 0 3176
+D2
+~
+~
+0 0 3181
+D3
+~
+~
+0 0 3182
+S
+#3181
+`@Somewhere in the Vale``~
+You are somewhere deep in the vale.  Rolling hills, large trees and a
+plethora of vegetation make this a pleasingly scenic view to most eyes.  
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 3180
+D1
+~
+~
+0 0 3177
+D2
+~
+~
+0 0 3179
+S
+#3182
+`@Deep in the Hidden Vale``~
+You are somewhere deep in the vale.  Rolling hills, large trees and a
+plethora of vegetation make this a pleasingly scenic view to most eyes.
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 3180
+S
+#3183
+`@A surreptitous spot``~
+Deep in the vale you find this spot.  Hidden and out of main sight the
+natural growth of the area makes observation here impossible for other than
+ordinary means.  
+~
+~
+0 134742016 8192 3
+D1
+~
+~
+0 0 3179
+S
+#3184
+`@A deer lair``~
+Among the trees is a patted down lair that resembles a deers evening
+resting spot.  Neatly laid out and difficult to spot this place looks ideal
+for hiding and resting.  
+~
+~
+0 134742016 16384 3
+D0
+~
+~
+0 0 3179
+S
+#3185
+`@Behind a rock``~
+The small forest trail has led you behind this large moss covered
+boulder.  There are smaller smoothed out rocks at the base of this massive
+behemoth that looks to have been chipped off and come to lay at its base
+over time.  
+~
+~
+0 0 65536 3
+D3
+~
+~
+0 0 3173
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 3107 spec_cast_mage
+M 3111 spec_mob_call
+M 3145 spec_cast_cleric
+M 3150 spec_mob_call
+M 3160 spec_cast_cleric
+M 3183 spec_breath_acid
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 3100 2 3100 5
+E 0 3100 0 17
+O 0 3102 0 3101
+P 0 3101 0 3102 1
+P 0 3101 0 3102 1
+P 0 3101 0 3102 1
+P 0 3101 0 3102 1
+M 0 3116 10 3102 3
+E 0 3116 0 17
+E 0 3117 0 6
+M 0 3103 1 3103 3
+E 0 3103 0 17
+E 0 3104 0 8
+E 0 3105 0 11
+E 0 3106 0 9
+M 0 3103 2 3103 5
+M 0 3104 5 3104 2
+E 0 3108 0 17
+M 0 3106 10 3106 3
+M 0 3107 1 3107 1
+E 0 3109 0 17
+E 0 3110 0 6
+M 0 3109 5 3109 2
+M 0 3110 5 3110 2
+M 0 3111 1 3111 1
+M 0 3106 4 3112 2
+O 0 3112 0 3112
+O 0 3112 0 3112
+M 0 3113 10 3113 3
+E 0 3113 0 5
+M 0 3115 10 3114 3
+M 0 3116 3 3116 10
+E 0 3107 0 17
+O 0 3118 0 3118
+O 0 3118 0 3118
+M 0 3120 15 3120 5
+M 0 3121 2 3121 6
+M 0 3100 5 3123 2
+E 0 3123 0 17
+O 0 3124 0 3124
+M 0 3132 20 3128 4
+E 0 3104 0 8
+E 0 3105 0 11
+E 0 3153 0 13
+E 0 3143 0 17
+M 0 3120 10 3130 4
+M 0 3132 10 3132 3
+E 0 3109 0 17
+O 0 3135 0 3135
+M 0 3116 10 3137 5
+M 0 3103 1 3137 1
+E 0 3103 0 17
+O 0 3118 0 3138
+O 0 3138 0 3138
+M 0 3140 10 3140 3
+M 0 3143 3 3143 5
+E 0 3143 0 17
+E 0 3142 0 13
+M 0 3150 10 3144 4
+M 0 3145 1 3145 1
+E 0 3145 0 17
+M 0 3113 10 3147 3
+E 0 3147 0 3
+M 0 3150 5 3150 5
+M 0 3151 5 3151 2
+M 0 3153 2 3153 6
+E 0 3153 0 13
+E 0 3154 0 17
+E 0 3155 0 14
+E 0 3156 0 8
+E 0 3157 0 7
+M 0 3156 1 3156 1
+M 0 3156 10 3156 5
+M 0 3103 1 3159 1
+M 0 3116 3 3159 2
+M 0 3160 1 3160 1
+M 0 3100 5 3162 2
+M 0 3120 10 3166 3
+M 0 3163 10 3166 3
+M 0 3167 1 3167 2
+O 0 3102 0 3171
+P 0 3101 0 3102 1
+P 0 3101 0 3102 1
+P 0 3101 0 3102 1
+M 0 3172 10 3172 4
+O 0 3179 0 3173
+O 0 3179 0 3173
+O 0 3179 0 3173
+M 0 3104 10 3174 3
+M 0 3113 6 3175 2
+M 0 3100 1 3177 1
+M 0 3121 1 3177 1
+M 0 3110 1 3177 1
+O 0 3118 0 3177
+O 0 3169 0 3179
+M 0 3109 5 3180 2
+M 0 3183 1 3183 1
+E 0 3183 0 18
+O 0 3179 0 3183
+O 0 3179 0 3183
+O 0 3112 0 3183
+O 0 3112 0 3183
+O 0 3118 0 3183
+O 0 3118 0 3183
+M 0 3184 7 3184 2
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#3111
+cast petrify $n
+emote roars at $n.
+emote rears up and charges $n.
+cast sleep $n
+~
+#3115
+f isgood $n
+say Have you come to help save our Vale?
+say The place is being overrun by evil creatures.
+     endif
+else
+       if isneutral $n
+Say Are going to help protect your brothers and sisters of the Vale?
+     endif
+else
+       if isevil $n
+Say Leave you foul beast of evil!
+Say Leave our Vale and do no harm!
+     endif
+~
+#3118
+mob cast infravision $n
+mob echoat $n your vision has improved.
+~
+#3150
+if isgood $n
+load obj 3149
+emote spits forth a sparkling object from its rubbery corpse.
+endif
+if isneutral $n
+load obj 3151
+emote spits forth an object.
+endif
+if isevil $n
+load obj 3152
+emote drops an object.
+endif
+~
+#3151
+mob echoat $n The skunks bowels have exploded sending entrails all over the place.
+mob echoat $n The smell is so vile you cannot help yourself but to feel like puking
+~
+#3156
+if hour == 18
+mload 3156
+mload 3156
+mload 3156
+mload 3156
+mload 3156
+mload 3156
+endif
+
+~
+#3157
+if hour == 6
+purge room
+mob echo A grig has conjured awesome powers and cleansed the room.
+endif
+ 
+~
+#3160
+if isevil $n
+         Yell I am a cleric of Dormicc, how dare you attack me you vile beast of evil!
+         Yell begone!
+         Yell Dormicc imbue me with your holy power!
+        Say You will feel the wrath of Dormicc upon your soul!
+endif
+break
+if isgood $n
+   smile $n
+    Say It is so good to see the pious here in the Vale.
+    peace
+    Say You should not go around attacking those who follow the same path as you.
+endif
+~
+#3163
+if isevil $n
+grin $n
+say Art thou ready to meet thy maker vile one?
+cast hellstream $n
+endif
+if isgood $n
+yell The gods torment me so!  Bane of my existance DIE $n! 
+yell $n Ixatro take your soul and torment you forever!
+cackle $n
+~
+#3167
+load obj 3167
+echo A silver horn falls to the ground, glistening.
+~
+#3182
+load obj 3182
+echo A green dragons tooth falls to the ground.
+~
+#3183
+cast lightening $n
+cast fireball $n
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#3118
+obj cast $n infravision
+~
+#3135
+~
+#0
+
+#ROOMPROGS
+#3118
+room cast infravision $n
+~
+#3135
+if rand 51
+           room echoat $n  A screech from above pierces the air.
+      else
+            room echoat $n The rustling of the trees leaves softly caresses the forest quite.
+endif 
+~
+#3136
+if rand 45
+        room echoat $n You hear the faint voices of long forgotten forest gods whisper in your ears.
+        else 
+        room echoat $n The wind picks up slightly and brushes your cheeks.
+endif
+~
+#3151
+room say The skunks bowels have exploded sending entrails all over the place.
+room say The smell is so vile you cannot help yourself but to puke.
+room force $n puke
+~
+#3156
+if istime == 18
+room mload 3156
+room mload 3156
+room mload 3156
+room mload 3156
+room mload 3156
+room mload 3156
+endif
+~
+#3157
+if istime == 6
+purge room 3156
+endif
+~
+#3174
+if rand 50
+     room echoat $n A woodpeckers pounding on a tree resonates off in the distance.
+  else
+    room echoat $n A cool gentle breeze picks up and brings along the fragrant smell of wisteria.
+endif
+~
+#0
+
+#$

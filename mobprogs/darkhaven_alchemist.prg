@@ -3,7 +3,7 @@ if isasleep($i)
   break
 endif
 if rand(50)
-	say Beware the roads around Miruvhor, the dead travel fast...
+	say Beware the roads around Zalango, the dead travel fast...
 else
 	load obj 1622
 	emote places the potion on the shelf.

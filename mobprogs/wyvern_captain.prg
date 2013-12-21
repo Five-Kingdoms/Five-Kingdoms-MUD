@@ -12,7 +12,7 @@ if rand (50)
 	murder $n
 else
 	cackle
-	say Val Miran will be mine!
+	say Revelsport will be mine!
 endif
 endif
 ~

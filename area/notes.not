@@ -1,22 +1,874 @@
-Sender  Brinson~
-Prefix  6000
-Date    Thu Sep 21 20:34:53 2006~
-Stamp   1158885293
-To      all~
-Subject Why you can't sacrifice~
-Text
-You weren't able to sac the items because the "take" wear flag hadn't been added, so the mud treated it as a permanent object.
-~
-Sender  Raki~
+Sender  Haevin~
 Prefix  5900
-Date    Fri Sep 22 13:45:18 2006~
-Stamp   1158947118
-To      brinson~
-Subject Objests 513, 514, 515~
+Date    Mon Aug  2 15:38:12 2004~
+Stamp   1091482692
+To      Ankharan~
+Subject Tombs are done!~
 Text
-The above objects are programed in, but I cannot figure out how to get
-the treant king to wield the staff.  They are also quality that would
-usually be marked rare or unique.  If this is a problem let me know I will
-fix it.  
-Raki
+As the subject states, the tombs are done, and I'm moving
+on to another area.
+
+Haevin
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Mon Aug  2 19:13:47 2004~
+Stamp   1091495627
+To      Haevin~
+Subject excellent.~
+Text
+Ankh-
+~
+Sender  Crypticant~
+Prefix  6000
+Date    Mon Aug  2 20:12:45 2004~
+Stamp   1091499165
+To      immortal~
+Subject Blank rooms~
+Text
+8604, 8545 need descs
+
+Thanks!
+~
+Sender  Valdaric~
+Prefix  5400
+Date    Mon Aug  2 20:23:12 2004~
+Stamp   1091499792
+To      Immortal~
+Subject Northlake~
+Text
+Just letting everyone know that if some vnums in this area need descriptions please let me know. 
+
+Sincerely,
+Valdaric
+~
+Sender  Haevin~
+Prefix  5900
+Date    Mon Aug  2 22:02:44 2004~
+Stamp   1091505764
+To      Ankharan~
+Subject Dark Knight guild~
+Text
+Started the dark knight guild and its mobs..think I got the guidlmaster
+done right, but not sure about the guardian.  Used the bringon command to
+test it, but not sure if it worked, cause the testmort could still enter the
+guild when I forced him to do it.  Plus I didn't know how to un-bringon
+the freaking tester, so he hung around with me and kept me company, hehe.
+Will just stick to descriptions on the rest of them until I know for sure
+if I have done it right.
+
+Haevin
+~
+Sender  Haevin~
+Prefix  5900
+Date    Mon Aug  2 22:24:31 2004~
+Stamp   1091507071
+To      Immortal~
+Subject Darkling Wood~
+Text
+Went ahead and fixed the typos in this area that were mention on the
+forum.  Still a good amount of this area without descriptions though, and
+was curious if anyone was working on it.  Will take care of it if there
+isn't, just gotta let me know.  Haevin 
+~
+Sender  Haevin~
+Prefix  5900
+Date    Mon Aug  2 23:41:44 2004~
+Stamp   1091511704
+To      Ankharan~
+Subject Guilds!~
+Text
+Well, stayed up a bit late and got some guild descriptions done.
+Lets see..got the dark knight, ranger, and warrior done so far, and might
+be another before I hit the bed.
+
+Haevin
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Tue Aug  3 03:48:18 2004~
+Stamp   1091526498
+To      Haevin~
+Subject What area~
+Text
+Whatarea is still missing descps?  Good deal on the guilds...  Let me
+know when you get on and we will go to the guilds and check them out.  Also
+I have to check the const.  C to see if they are set in that as guukld
+houses.  Some new things need to be added to all NPK guild masters.  We have
+to make sure they are set to "earnlevel" So that the NPCs can advance.  All
+guilds need a Guild master too.  So they can practice in the guilds.  
+
+Ankh-
+~
+Sender  Kysammie~
+Prefix  5400
+Date    Tue Aug  3 13:14:16 2004~
+Stamp   1091560456
+To      haevin~
+Subject DW~
+Text
+Hehe, thought I was doing those. You beat me to it. I
+do have longer desc. for the rooms though. If you want to look at them.
+They would have been in already, but I did not have security to edit
+rooms.
+
+- Kysammie
+~
+Sender  Kysammie~
+Prefix  5400
+Date    Tue Aug  3 13:17:12 2004~
+Stamp   1091560632
+To      haevin~
+Subject DW - 2~
+Text
+haevin
+subject DW - 2
+
+Opps, hehe, wrong part of the forest. I have the desc's for the
+rooms that need it, I only need security for it and they will be put
+in.
+
+- Kysammie.
+~
+Sender  Haevin~
+Prefix  5900
+Date    Tue Aug  3 16:13:10 2004~
+Stamp   1091571190
+To      Kysammie~
+Subject DW~
+Text
+I wrote that note about DW before Ank assasigned you to it, was why
+he did.  Go ahead and do what you wish with the area, and have fun!
+
+Haevin
+~
+Sender  Haevin~
+Prefix  5900
+Date    Tue Aug  3 19:52:16 2004~
+Stamp   1091584336
+To      Ankharan~
+Subject Emmereaux Guilds~
+Text
+Alright..this is what has been completed so far..
+
+Healer Guild, Mobs and Descriptions
+Cavalier Guild, Mobs and Descriptions
+Berserker Guild, Mobs and Descriptions
+Warrior Guild, Mobs and Descriptions
+Dark Knight Guild, Mobs and Descriptions
+Ranger Guild, Mobs and Descriptions
+
+May be back later to bag out a few more, all depends on how late it is
+when I get home later tonight.  Have to work tomorrow morning, but
+should be around later in the evening, and I will hopefully finished the rest
+of the guilds up then.  If you get the time, check out what I have
+finished to make sure I didn't screw up anything major.
+
+Haevin
+~
+Sender  Haevin~
+Prefix  5900
+Date    Tue Aug  3 22:55:54 2004~
+Stamp   1091595354
+To      ankharan~
+Subject More guilds..~
+Text
+Came back and did the Paladin guild, and most of the Cleric as well.
+Will finished up tomorrow, take care!
+
+Haevin
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Wed Aug  4 04:17:01 2004~
+Stamp   1091614621
+To      Haevin~
+Subject You Rock~
+Text
+Ankh-
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Wed Aug  4 07:36:22 2004~
+Stamp   1091626582
+To      Haevin~
+Subject outter road of Emmereaux~
+Text
+Done.  Now I will get to the inner streets fast as I can 
+
+Ankh-
+~
+Sender  Zharth~
+Prefix  5600
+Date    Wed Aug  4 09:12:58 2004~
+Stamp   1091632378
+To      Ankharan~
+Subject The Malunda Swamp~
+Text
+Ranking area for mid 30s completed.
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Wed Aug  4 09:20:17 2004~
+Stamp   1091632817
+To      Zharth ~
+Subject Maulnda~
+Text
+Excellent..  Will have Crypt or Mael copy it over to live port soon as I
+see them 
+
+Need a new area?
+
+Ankh-
+~
+Sender  Zharth~
+Prefix  5600
+Date    Wed Aug  4 09:21:07 2004~
+Stamp   1091632867
+To      Ankharan~
+Subject Need?~
+Text
+I -NEED- a million dollars my friend...  But if there is more work to be
+done, I'd gladly take some of it.  Hehe.  
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Wed Aug  4 09:22:05 2004~
+Stamp   1091632925
+To      Haevin~
+Subject Streets~
+Text
+Streets of Emmereaux are mobed up.  Will start looing at your guilds/ etc
+asap as well as help populate them.  We are almost done with Emmereaux... 
+Yeah!!!!!  
+
+Ankh-
+~
+Sender  Valeryn~
+Prefix  5400
+Date    Wed Aug  4 13:26:49 2004~
+Stamp   1091647609
+To      Maelduin~
+Subject Fallen Angel~
+Text
+My forum account is Fallen Angel.  So, if you could set me up with
+Immortal rights on there when you have time please.  Thanks.  
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Wed Aug  4 14:08:59 2004~
+Stamp   1091650139
+To      Zharth~
+Subject always work to be done~
+Text
+Let me dig around and see what is what.  I will get you a note by tonight
+or first thing in the morning tomorrow.  
+
+Ankh-
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Wed Aug  4 19:14:23 2004~
+Stamp   1091668463
+To      Crypticant~
+Subject help #~
+Text
+Just a reminder  to add the help listing number into the
+help when it pulls up each help called for.
+
+Ankh-
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Wed Aug  4 19:36:56 2004~
+Stamp   1091669816
+To      all~
+Subject Jobs~
+Text
+HELP JOBS
+If your name doesn't have naything by it.  Let me know.  I will update this when
+I remember or you tell me what it is I had you do.
+
+Ankh-
+~
+Sender  Crypticant~
+Prefix  6000
+Date    Wed Aug  4 20:10:00 2004~
+Stamp   1091671800
+To      ankharan~
+Subject Helps~
+Text
+Vnums are now listed beside all helps.
+~
+Sender  Zharth~
+Prefix  5600
+Date    Thu Aug  5 07:55:03 2004~
+Stamp   1091714103
+To      Dymmeria Lerntu Valeryn Kysammie Haevin~
+Subject Need a job?~
+Text
+I hear room 14 is hiring...perhaps you all should go turn in applications.
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Thu Aug  5 08:28:07 2004~
+Stamp   1091716087
+To      Immortal~
+Subject new job assignment~
+Text
+Due to "her" work and proof she can build... Kysammie has the new job assinment of "The City of Estar"
+Everyone congradulate her.  *snicker*
+that is all, oh, unless YOU are done with your jobs....
+yes, you, the one reading the note.
+if so... let me know... I have one that absolutely HAS to be done... Forest area
+
+Ankh
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Thu Aug  5 08:55:17 2004~
+Stamp   1091717717
+To      Immortal~
+Subject New Job Assignment~
+Text
+Congratulate Valeryn and Zharth, for they have inherited the Yarlwood forest.
+vnums 600 - 699
+The Malunda swamp is DONE!, give them a round of applause.
+
+Ankh-
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Thu Aug  5 09:13:56 2004~
+Stamp   1091718836
+To      Kysammie~
+Subject change~
+Text
+Change the name to Fresia, same vnums same mentality, different city location and name
+Ankh
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Thu Aug  5 12:32:44 2004~
+Stamp   1091730764
+To      Immortal~
+Subject That ROCKS!~
+Text
+Crypt m'man, that number the help files code is FUCKING awesome!
+Yeah I know, language.  Screw it, it is man, fucking awesome!
+
+Ankh-
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Thu Aug  5 12:36:37 2004~
+Stamp   1091730997
+To      all~
+Subject tired yet~
+Text
+Tired of my seemingly hundreds of posts per day?
+
+Ankh-
+~
+Sender  Zharth~
+Prefix  5600
+Date    Thu Aug  5 12:53:34 2004~
+Stamp   1091732014
+To      Immortal~
+Subject Motion~
+Text
+I hereby move for Ankharan to stfu.
+
+
+J/K man, lol....talk all you want, I know I do :)))
+
+kkthxpwnt omgwtfbbq?  --Zharth
+~
+Sender  Lerntu~
+Prefix  5400
+Date    Thu Aug  5 12:55:36 2004~
+Stamp   1091732136
+To      immortal~
+Subject RE: Ankh~
+Text
+you're not kidding, that rules. time to mess around somemore.
+~
+Sender  Zharth~
+Prefix  5900
+Date    Thu Aug  5 17:12:18 2004~
+Stamp   1091747538
+To      Crypticant~
+Subject Xervicus~
+Text
+He is denied.  Xervicus from test and Jahvarius from main.  Those were
+his accounts.  
+
+-- Zharth
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Thu Aug  5 18:52:53 2004~
+Stamp   1091753573
+To      haevin~
+Subject emmereaux~
+Text
+I think the guilds are all done.  Last up are the merchants....  
+
+
+Ankh-
+~
+Sender  Crypticant~
+Prefix  6000
+Date    Thu Aug  5 20:03:09 2004~
+Stamp   1091757789
+To      Ankharan~
+Subject Tattoos~
+Text
+Just remembered, we need tattoos for every Religious Path.
+Basically, you need to create them as items in higher.are, and note
+me what vnums belong to which path, so I can add them to the 
+code. I'll help you out with them tomorrow since I know there are a lot
+to do. If you want to know what a tattoo looks like, check out
+30025 (Paw of a Bloodhound). The don't have to have progs on them, they
+should really just be for show. Was thinking like a holy symbol of
+whatever the patron deity was for that faith.
+
+Thanks!
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Fri Aug  6 08:14:15 2004~
+Stamp   1091801655
+To      ALL~
+Subject JOBS, HOB CHANGES, NEW BUILDER... PLEASE READ AND RESPOND~
+Text
+Greetigns everyone...
+Tomorrow is when we go live. 
+I still have not heard from certain Imms on their progress.
+PLEASE note me on the subject of your area.
+Progress that is.
+PLEASE read the HELP JOBS and tell me if it is accurate.
+
+There is a minor change in area building.
+I have put Daego on Yarlwood forest and switch Valeryn to the Haunted Hills
+along with Zhart has helper/trainer.
+This is to get the area Yarlwood forest done as fast as possible, as it needs to be done ASAP.
+
+As an Update, Xervious has been removed from IMM status.  It is for Zharth to explain if
+there are problems/bitching/complaints.  He has explained it to me and Crypt and
+both of us leave the call to him as it is his job.  Zharth has his reasons for doing so,
+which, not that it makes too much of a difference, I agree with.
+He has my support in his choice not for his choice but in the trust placed in him
+to do a specific job.  Much like your jobs assigned to you, you have the same backing and trust.
+
+If there is a problem with Zharths duties, bring it to me so I can restate what I
+just said.
+
+Again, tomorrow we go live.  Some areas are NOT going to be completely done.
+bear that in mind when players.... get a bit testy.
+Lastly, for now, a gentle reminder to familiarize yourself with the pantheon of deities,
+the COMMANDMENTS and the job listing.
+All of you have done a bang up job getting us ready for tomorrow.
+I would like to say thank you for your time and dedication to helping getting 
+us ready to go live.  Jobs are being done well.  Professionally and with care.
+So...
+Thank you from me.
+
+Ankh-
+~
+Sender  Ihlxhul~
+Prefix  6000
+Date    Fri Aug  6 10:07:45 2004~
+Stamp   1091808465
+To      Maelduin~
+Subject Dargoth~
+Text
+Should be ready for upload. Dargoth.are is the file name. Thanks.
+~
+Sender  Haevin~
+Prefix  5900
+Date    Fri Aug  6 12:35:51 2004~
+Stamp   1091817351
+To      crypticant maelduin~
+Subject Guild guard in Emmereaux~
+Text
+Dark Knight Guard 9299 to block room 9298
+Necromancer Guard 9297 to block room 9296
+Ranger Guard 9257 to block room 9258
+Berserker Guard 9255 to block room 9256
+Warrior Guard 9253 to block room 9254
+Cavalier Guard 9265 to block room 9266
+Healer Guard 9261 to block room 9262
+Paladin Guard 9263 to block room 9264
+Cleric Guard 9267 to block room 9268
+Thaumaturgist Guard 9277 to block room 9278
+Sorcerer Guard 9279 to block room 9280
+
+~
+Sender  Zharth~
+Prefix  5900
+Date    Fri Aug  6 13:46:52 2004~
+Stamp   1091821612
+To      Kysammie~
+Subject Messenger~
+Text
+I'm on AIM and Yahoo alot if you ever want to talk.  Yahoo as nicnsaid
+and AIM as omfgwtfbbq19.  
+~
+Sender  Valdaric~
+Prefix  5400
+Date    Fri Aug  6 13:54:55 2004~
+Stamp   1091822095
+To      Ankharan~
+Subject Northlake~
+Text
+Just letting you know I should have the descriptions for my rooms done by
+tonight.  I will attempt to have my mobs and items in as well but I am not
+sure.  I apologize for my absence, real life things have been interfering
+slightly.  As I have said though I will attempt to finish my area tonight, I
+have three hours at the moment then must go for about four.  I'll stay up as
+late as possible but I do have to work tomorrow morning so I cannot be up
+all night.  
+
+Sincerely,
+Valdaric
+~
+Sender  Alathar~
+Prefix  5300
+Date    Fri Aug  6 14:18:19 2004~
+Stamp   1091823499
+To      immortal~
+Subject My area, 4700~
+Text
+Hmm.  I didn't realize I had this much work to pick up on, I thought I
+was building a few mobs, a few rooms, and that's it..  But there is a lot of
+stuff missing here.  I'll try to finish it before we open.  
+~
+Sender  Zharth~
+Prefix  5900
+Date    Fri Aug  6 14:23:14 2004~
+Stamp   1091823794
+To      Immortal~
+Subject Typos and other room appearances~
+Text
+We open for real tomorrow...  Let's all spend some time off of our areas
+and hunt down remaining typos and errors.  Anything that the players see
+tomorrow will give them their first impression.  Let's make it a good one!  
+
+-- Zharth
+~
+Sender  Daego~
+Prefix  5400
+Date    Fri Aug  6 21:04:44 2004~
+Stamp   1091847884
+To      All~
+Subject My area: the Yarlwood Forest~
+Text
+I'm going out of state (I live in texas, I'm going
+to louisiana) for the weekend. I won't be able to
+log in and work on the area until sunday night or
+maybe even monday night.
+
+I apoligize for any inconvenience, but I've had this
+trip planned for months. I've talked with Zharth
+and he and I are going to work on the area together
+to get it done ASAP... but since I have to get up 
+really early and drive for hundreds of miles, I'd
+better get off now.
+
+See you guys Sunday or Monday,
+-Daego
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Fri Aug  6 21:59:56 2004~
+Stamp   1091851196
+To      Crypticant~
+Subject Hall of Gods~
+Text
+It be done Boss.  Some changes will have to take place per our
+discussion, but the rough of it is complete.  
+
+I am off to bed now.
+
+Ankh-
+~
+Sender  Lerntu~
+Prefix  5400
+Date    Fri Aug  6 22:51:29 2004~
+Stamp   1091854289
+To      immortal~
+Subject damnit.. *swear* *curse* *slam* *yell*~
+Text
+I accidently oreset the same item into itself..  Meaning the container
+will contain that item, and that item, will contain that item..  Forever and
+ever Any idea how to "UNoreset?"  I would like to know the command..  
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Sat Aug  7 09:23:07 2004~
+Stamp   1091892187
+To      Immortals~
+Subject deity ASSIGNMANTS~
+Text
+Crypticant -Ixatros, Tzaelcos, Syithe
+Maelduin - Rhuma, Madshem, 
+Ixhthul - Morgorin, Ulwarzi
+Dymmeria - Lojani, Jolma
+Ankharan - Tiradel, Raszara, Markul
+Haevin - Moiwen, Dabyula
+Zharth - Zarkirond, Veshalma 
+Teronim - Hoiwinas, Wuzamuli
+Drendan - Beronor, Arondos
+Lerntu - Wyihemi, Pajument 
+ValdaricBracc, Imaju
+Alathar -Amathe, Sahaeyeh  
+Kysammie - Gaemina, Dormicc 
+Valeryn -Felana, Ejamina
+Daego - Not assigned.
+
+Any changes ?  This list okay with you all?
+
+Ankh-
+~
+Sender  Crypticant~
+Prefix  6000
+Date    Sun Aug  8 11:17:16 2004~
+Stamp   1091985436
+To      all~
+Subject Immortal Status~
+Text
+Okay, I know this is going to piss a lot of you off, and I'm
+sorry, it can't be helped.
+
+We have made an administrative decision, for the moment, to not allow
+any Immortals on the main port, except a couple level 59+. This
+has to happen for a lot of reasons, mainly because 1) right now, it's
+all chiefs, no indians, and that's not really very interesting.
+2) We're finding that we're having to watch over the Imms on the main
+port all the time, instead of getting any real work done.
+3) I see a lot more talking going on than helping.
+
+Note that we are NOT revoking your status as Immortals on this port. YOu
+are free to help build and create, and I assure it, it is `#NOTHING PERSONAL``.
+But what we need now is just some peace and quiet on the main port so
+that we can resolve any bugs and gliches. I like all of you guys, and
+if I didn't, I wouldn't have you around here at all. And again, I have no
+problem with you guys helping out here. If you want to help us out the
+most, build, or play a mortal on the main port, so you can find out
+what needs  to be built, fixed, etc. That's what I've been doing for the
+last couple of days.
+
+So, again, I'm sorry it has to come like this, and again, it's nothing personal,
+it's just so that we can get everything streamlined and working like we
+need it to be working.
+
+If you have questions, comments, or concerns, you guys know how to get in
+touch with me.
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Sun Aug  8 14:03:26 2004~
+Stamp   1091995406
+To      Crypticant~
+Subject Shoppies in Luva, Maelduin, you may know something about this too.~
+Text
+A few of the shopkeepers in luva will not list, but, if you use the
+command buy <x> it will tell you they do not sell that item, even, though
+you know they have it.  I have created four shoppies, wandering, one works. 
+The other three, one got changed and the other two just left them be.  The
+mobs are 5705 (works) and 5787 (does not work).  I am going to check the
+other (instore) shoppies in minute.  The shoppies are pretty much the same
+made wise.  Nothing odd or strange about them, no special glags, etc.  Just
+posting this as a reminder to Crypt and an update to Maelduin.  
+
+Ankh-
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Sun Aug  8 17:05:47 2004~
+Stamp   1092006347
+To      Crypticant~
+Subject Luva items~
+Text
+All items in Luva have been fixed.
+Will go through again and check the vnums of rooms and mobs.
+
+Ankh-
+~
+Sender  Crypticant~
+Prefix  6000
+Date    Sun Aug  8 18:16:49 2004~
+Stamp   1092010609
+To      immortal~
+Subject Updates~
+Text
+Please read the forum post about BUGFIXES/ADDITIONS, so you
+know what's fixed, so you don't fix it again. :)
+
+Cheers,
+-Crypt
+~
+Sender  Haevin~
+Prefix  5900
+Date    Mon Aug  9 16:53:37 2004~
+Stamp   1092092017
+To      Ankharan~
+Subject Hidden Vale~
+Text
+Got all the agrro mobs take care of and toned down a bit.  Shouldn't
+be nearly as dangerous as it was before.
+
+Haevin
+~
+Sender  Haevin~
+Prefix  5900
+Date    Mon Aug  9 20:13:31 2004~
+Stamp   1092104011
+To      Ankharan ~
+Subject Object errors..~
+Text
+A few errors with random objects..a few don't have the take flag..
+Will fix them as I come upon them or hear about them.
+
+Haevin
+~
+Sender  Haevin~
+Prefix  5900
+Date    Mon Aug  9 20:47:09 2004~
+Stamp   1092106029
+To      ankharan~
+Subject ..~
+Text
+Have a mob prob I don't know quite how to fix..
+The Mar'Kyer Alchemist says 'smile'
+
+Haevin
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Tue Aug 10 04:53:15 2004~
+Stamp   1092135195
+To      Haevin~
+Subject awesome stuff.~
+Text
+Thanks for the info, let me know if you run out of work or just want
+something different to do : ) BTW, what was the problem with the Portal
+dude/Mob?  
+
+Ankh-
+~
+Sender  Haevin~
+Prefix  5900
+Date    Tue Aug 10 08:09:05 2004~
+Stamp   1092146945
+To      ankharan~
+Subject Portal dude~
+Text
+The problem with the protal dude is that instead of smiling, he says 'smile.'
+
+Haevin
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Tue Aug 10 08:44:20 2004~
+Stamp   1092149060
+To      Haevin~
+Subject Shoppie Jubert~
+Text
+Just thought I would let you know it isn't your mob.  There is something
+going on with the shopkeepers all over.  I don't know what it is though to
+fix it.  The shoppie you created WILL work once the bug is found.  I just
+don't know what or where it is.  This is a job for Crypt or Maelduin. 
+Something is screwy though.  The last shoppie I created that I know works is
+mob 5705.  Then, created one right after that, three vnums away, and no go. 
+I looked at both mobs and there is absolutely no reason for them not to work
+that I can see.  Just keep creating them the way you did.  Once the bug is
+tracked and fixed the shoppies will work.  You did a good job with it.  He
+needs a little more inventory but that is about it.  I figured you stopped
+I figured you stopped cause it wasn't working right is all.
+
+Ankh-
+
+PS, keep up the good work.  You are kicking ass.
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Wed Aug 11 15:09:56 2004~
+Stamp   1092258596
+To      Crypticant~
+Subject Hidden Vale~
+Text
+Its populated with a bunch of goodie goodies...  Should be an awesome
+place to level now.  I even threw in some mobs that are like the scarecrows
+to beat up on and get better at skills.  I tried for several hours to set
+quests and do some object and room progs.  I ended up with some simple
+mprogs and rprogs but i can't get the object programs to work, or any
+detailed mprogs/rprogs to fire correctly.  Syntax I assume.  Anyway, it
+should be ready to send over to the live port for play now as is and add the
+quests later.  
+
+Ankh-
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Wed Aug 11 15:13:12 2004~
+Stamp   1092258792
+To      Crypticant~
+Subject hidden vale send over~
+Text
+Never mind, remembered that Maelduin showed me how to send over an area. 
+It is there now.  
+
+Ankh-
+~
+Sender  Daego~
+Prefix  5400
+Date    Wed Aug 11 16:37:50 2004~
+Stamp   1092263870
+To      Ankharan~
+Subject haha~
+Text
+WiZNET 16:37:03: Crypticant has deleted himself.
+~
+Sender  Ankharan~
+Prefix  6000
+Date    Thu Aug 12 12:19:47 2004~
+Stamp   1092334787
+To      all~
+Subject shopkeepers and why they do not work sometimes.~
+Text
+I found the reason why some of the shopkeepers do not work.  Do not set
+items on them that are LEVEL 0.  I think it has something to do with the
+random obj/shopkeeper values for their inventory but could be incorrect.  I
+do know that I have had the problems with level 0 items but once changed it,
+the problem "seems" fixed.  
+
+Ankh-
+~
+Sender  Haevin~
+Prefix  5900
+Date    Sat Aug 14 18:27:23 2004~
+Stamp   1092529643
+To      Crypticant~
+Subject Frostwood~
+Text
+Am almost finished with adding evil mobs to the Frostwood.
+Sorry it has taken so long, has been one of those weeks.
+Anywho, you can go ahead and copy it over anytime now.
+Just gonna go back in when I can get the time to add some basic armor.
+
+Haevin
+~
+Sender  Haevin~
+Prefix  5900
+Date    Sun Aug 15 08:13:17 2004~
+Stamp   1092579197
+To      Ankharan~
+Subject Frostwood done~
+Text
+
+Done with the Frostwood, whatcha wanna me to do now?
+
+Haevin
 ~

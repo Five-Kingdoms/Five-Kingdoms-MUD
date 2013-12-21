@@ -1,0 +1,2426 @@
+#AREADATA
+Name Byr Tu'jol~
+Pref ~
+Builders Ihlxhul~
+VNUMs 20000 20199
+Max_Bastions 0
+Credits { All }~
+Security 1
+Startroom 0
+Flags 0
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#20000
+Obsidian Sentinel Statue~
+an Obsidian Sentinel~
+An obsidian statue stands here like a sentinel.
+~
+A lifeless, solid block of stone, it guards these tunnels for eternity. 
+It seems to have been created by a true master of magic, and looks quite
+strong as well as resilient.  
+~
+golem~
+ABFGTZe A BDFQV 0 0 0
+51 90 1d1+10000 0d0+100 9d6+90 palmstrike
+-68 -68 -68 -68
+ACEFHIJKNRX AB CD E
+stand stand none none~
+22
+HJc ABCHIJK giant 0
+#20001
+Kyahuur Dilaen Dark-elf Drow Infiltrator~
+Kyahuur Dilaen~
+The drow infiltrator, Kyahuur Dilaen, lurks in the shadows.
+~
+This slender dark-elf looks old even by drow standards.  His hair is a
+stark white, and his skin is a pallid, almost brittle grayish color.  Dark
+red, bloodshot eyes look at you with both wariness and curiousity as he
+studies you for a moment.  He is clad in the black cloth of a nightblade,
+and seems quite graceful even in his old age.  He wears a flowing black
+cape, clasped with an emblem of some sort around his neck.  He has a pair of
+scabbards at his waist, and his hands hold matching razor-edged shortswords,
+which he seems quite adept with.  
+~
+drow~
+ABCGHZe A DFHJPQTV 0 -750 0
+51 111 4d6+7000 0d0+100 9d6+70 punch
+-60 -60 -60 -60
+ADEFHKNX AB D Ya
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+F res B
+#20002
+Gravewyrm Galdricculoun~
+the gravewyrm Galdricculoun~
+The gravewyrm Galdricculoun waits for a victim.
+~
+A massive unliving dragon, this beast is little more then a skeleton with
+decaying, putrid skin wrapped piecemail around it's bones.  It seems almost
+intangible, and vaporous, except for the sinister red eyes which peer at you
+with pure hatred.  This gravewyrm is surrounded by a black aura of pain and
+hatred for all things living.  It's very breath the antithesis of life, this
+creature was believed to exist only in nightmare.  Unfortunately for you, it
+is very real indeed.  
+~
+dragon~
+ACFGOZe A DFHJTUV 0 -750 0
+52 86 4d100+12000 0d0+100 9d8+80 claw
+-70 -70 -70 -70
+ADFHMOX ABHIJLMQR CD N
+stand stand none none~
+19
+AHZ ACDEFGHIJKLPQUVX giant 0
+F res BEH
+F vul FI
+#20003
+Qaalis Veyrr Illithid~
+Qaalis Veyrr, illithid Mindlord~
+The Illithid Mindlord, Qaalis Veyrr stands here.
+~
+A tall, pale-skinned illithid, he has a bulbuous, watery head, and milky,
+lifeless eyes.  His tentacles extend down like a beard to his chest and end
+in small suckers.  He is clad in a thick, high-necked robe of a striking
+crimson color.  He clutches in his hands a thick staff of a strange,
+metallic looking wood.  He appears to throb with magical power as well as
+malice.  
+~
+illithid~
+ACFZe A BDFHJPTUZ AM -750 0
+52 33 5d100+5500 5d500+2000 9d6+55 telekinesis
+-20 -20 -20 -20
+AFHRX AB EJNOPb S
+stand stand none none~
+20
+AHMV ABCDEFGHIJKN medium 0
+#0
+
+
+
+#OBJECTS
+#20000
+Corpse Decaying Skeleton ~
+a decaying skeleton~
+A decaying skeleton lies broken here.~
+flesh~
+container OSTY S
+500 0 0 0 0
+50 2000 3 P
+L
+0
+#20001
+Ripped Parchment Byr Tu'jol~
+a ripped piece of parchment~
+A piece of ripped parchment is here.~
+parchment~
+trash SY AX
+0 0 0 0 0
+50 10 10 P
+L
+0
+E
+parchment~
+The words are faint and hard to read but you make out the words "Byr
+Tu'jol" upon them, and a warning of sorts, that reads "Only a true master of
+his or her craft can enter the Way Beyond".  
+~
+#20002
+remains shadow giant shredded bound~
+the shredded remains of two shadow giants~
+The shredded remains of two shadow giants are bound here.~
+shadow~
+container CEGOSTY PS
+100 0 0 0 0
+50 2000 5 P
+L
+0
+E
+remains~
+These appear to be the shredded remains of two shadow giants.  Their
+bodies are bound together and appear to have been left here in a hurry. 
+Whoever slew them was obviously a true master, for each of the cuts on their
+bodies would have been deadly, and there are quite a few of them on each
+giant.  
+~
+#20003
+Scroll Bound Black Seal~
+a scroll bound with a black seal~
+A scroll bound with a black seal is here.~
+parchment~
+trash CEPSTUY AS
+0 0 0 0 0
+51 10 4 P
+L
+0
+E
+scroll~
+*The scroll is in a strange tongue, yet you can make out the words.  *
+
+There is an intruder in the tunnels who has somehow gotten past the
+guardians.  Seek him out and bring him to me, alive.  I believe it is a
+drow, of all things.  
+
+Irranhul 
+~
+#20004
+Emblem House Dilaen~
+an emblem of House Dilaen~
+An emblem of House Dilaen is here.~
+adamantite~
+armor CEGJLMTYZ ACXa
+19 11 9 13 0
+51 20 4 P
+L
+0
+F
+A 24 -10 0
+F
+A 13 40 0
+#20005
+Cape Black Velvet Flowing~
+a cape of flowing black velvet~
+A cape of flowing black velvet is piled here.~
+velvet~
+armor CJS ACX
+7 11 7 3 0
+51 40 4 P
+L
+0
+F
+A 2 2 0
+F
+A 18 3 0
+#20006
+Shortsword Razor Razor-Edged Ruby~
+a razor-edged shortsword set with a ruby~
+A razor-edged shortsword set with a ruby is here.~
+adamantite~
+weapon ABMT ANX
+sword 8 5 slash D
+51 140 4 P
+L
+0
+F
+A 19 5 0
+F
+A 1 5 0
+#20007
+Shortsword Razor Razor-Edged Diamond~
+a razor-edged shortsword set with a diamond~
+A razor-edged shortsword set with a diamond is here.~
+adamantite~
+weapon ABMT ANRX
+sword 8 5 stab D
+51 40 4 P
+L
+0
+F
+A 2 5 0
+F
+A 18 5 0
+#20008
+Jar Glowing Red~
+a jar of glowing red liquid~
+A jar of glowing red liquid has been left here.~
+glass~
+potion ABGR AOX
+51 'esuna' 'stone skin' 'sanctuary' 'heal'
+51 10 10 P
+L
+0
+E
+jar~
+It seems to be marked with runes of both protection and healing.  
+~
+#20009
+Wand Slender Obsidian~
+a slender obsidian wand~
+A slender obsidian wand has been left here.~
+Obsidian~
+wand ABFGOSTY AOS
+51 5 5 'silence' 0
+51 10 5 P
+L
+0
+#20010
+Drawer~
+a drawer in the teak desk~
+A drawer in the teak desk can be seen.~
+Teak~
+container OSYa PX
+1000 0 0 0 0
+51 20 100 P
+L
+0
+E
+drawer~
+This drawer can be seen hanging slightly ajar, and there appears to be
+something inside.  
+~
+#20011
+Rack Jars~
+a rack of jars~
+A rack of jars is on the table.~
+Adamantite~
+container OTYa PX
+1000 0 0 0 0
+51 100 10 P
+L
+0
+E
+rack~
+An adamantite rack seems to hold many different jars of various types,
+but one catches your eye.  
+~
+#20012
+Sword Long Spellbreaker~
+a long sword named 'Spellbreaker'~
+A long sword named 'Spellbreaker' is lying on it's side.~
+steel~
+weapon AHMY AN
+sword 8 7 slash 0
+52 110 3 P
+F
+A 24 -10 0
+F
+A 2 4 0
+F
+A 1 4 0
+#20013
+Circlet Devils~
+a Circlet of Devils~
+A circlet engraved with devils has been left here.~
+adamantite~
+armor CEJMTYZ ACX
+1 4 3 11 0
+52 400 4 P
+L
+0
+F
+A 19 6 0
+F
+A 18 3 0
+F
+A 2 -4 0
+F
+A 1 2 0
+F
+A 24 -5 0
+F
+A 9 20 0
+#20014
+Essence Gravewyrm~
+the essence of the gravewyrm~
+The glowing essence of the gravewyrm floats here.~
+souls~
+treasure BCEFGSY APS
+0 0 0 0 0
+52 10 6 P
+L
+0
+#20015
+Journal Silver Dragonscale Bound~
+a journal bound in silver dragonscale~
+A journal bound in silver dragonscale is here.~
+dragonhide~
+container AGHSYZ AOX
+1 AC 0 0 0
+52 200 4 P
+L
+0
+F
+A 13 20 0
+F
+A 12 20 0
+#20016
+Robes High-Necked Crimson~
+high-necked crimson robes~
+A set of high-necked crimson robes are piled here.~
+cloth~
+armor ABCEGJLRSTY AKS
+14 4 6 11 0
+52 150 2 P
+R
+13
+F
+A 13 55 0
+F
+A 12 55 0
+F
+A 19 -10 0
+#20017
+Page Removed Spidery~
+a page of a journal~
+A page of a journal is here, inscribed with spidery lettering.~
+parchment~
+scroll ASY A
+0 '' '' '' ''
+52 1 1000 P
+E
+page~
+This page of the journal seems to have been ripped out, and is marked
+with spidery lettering.  Examining closer you begin to read..  
+
+The gravewyrm never slumbers, his gaze is too piercing for me to engage him
+now.  I have deciphered only that he is vulnerable to the holy weapons, and
+that he may in fact carry the sword 'Spellbreaker'.  If I can get Luun Aon's
+staff, perhaps I will stand a chance, until then I bide my time...  
+
+That is all you can piece together, the rest of the journal seems to be
+indecipherable.  
+~
+#20018
+Ring Focus~
+the ring of focus~
+The ring of focus lies here.~
+adamantite~
+armor GR ABX
+1 3 1 6 0
+52 10 7 P
+F
+A 12 50 0
+F
+A 13 30 0
+#0
+
+
+
+#ROOMS
+#20000
+`1An ancient, dust-filled tunnel ``~
+As you step into the tunnel, the first thing you notice is the ornately
+carved tunnel walls.  They seem to be bas-reliefs of soldiers of some sort,
+and are spaced approximately twenty feet apart from one another.  The tunnel
+has a stale, musty odor to it, as if fresh air has not entered these parts
+for many years.  It is slightly cooler here then you would expect, and you
+can see the tunnel continues to your west.  The tunnel is approximately
+fifteen feet wide, with a ceiling of approximately twenty feet.  A decaying
+skeleton lies piled in the corner, its bones have begun to deteriorate to
+the point that soon it will be no more then dust.  
+~
+~
+0 1005330697 32 12
+E
+statues~
+These statues appear to be of a tall, dark-skinned humanoid, with
+chiseled features.  The stonework is masterfully done, and seems to be of a
+strange, obsidian-like material.  You can see there are two of these statues
+and they are spaced approximately twenty feet apart from one another.  Their
+eyes seem strangely lifelike and appear to be focused upon you.  
+~
+E
+north~
+The great darkness of the Underdark extends out of the tunnel.  
+~
+E
+n~
+The great darkness of the Underdark extends out of the tunnel.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+south~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+west~
+The tunnel extends into darkness to the west, where it appears to turn.  
+~
+E
+w~
+The tunnel extends into darkness to the west, where it appears to turn.  
+~
+E
+east~
+The wall is cold and unmarred, flawless in it's solidity.  Two statues
+appear to guard the passage.  
+~
+E
+e~
+The wall is cold and unmarred, flawless in it's solidity.  Two statues
+appear to guard the passage.  
+~
+D3
+~
+~
+0 0 20001
+S
+#20001
+`1Within ancient tunnels ``~
+The tunnel begins to turn here, and extends back to the east and further
+into the gloom to the south.  The walls, while ancient stone of a blackish
+substance, are in immaculate condition, with no evident cracks or gaps.  The
+thick layer of dust on the ground is undisturbed, however.  It is quiet down
+here, almost too quiet.  
+~
+~
+0 1005330697 0 12
+E
+west~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+north~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+south~
+The tunnel continues on to the south, into darkness.  
+~
+E
+east~
+The tunnel continues to the east, where you can see a pair of statues.  
+~
+E
+w~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+n~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+e~
+~
+E
+e~
+The tunnel continues to the east, where you can see a pair of statues.  
+~
+E
+s~
+The tunnel continues on to the south, into darkness.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+D1
+~
+~
+0 0 20000
+D2
+~
+~
+0 0 20002
+S
+#20002
+`1Within ancient tunnels ``~
+The tunnel extends here to the north where it seems to turn and to the
+south where it extends into the gloom.  A thick layer of dust still coats
+the floor, as if it has been some time since travellers passed this way.  As
+you listen carefully, you can hear only the sound of your heart beating and
+you and your companions' breathing.  The only light you can see is that you
+have brought with you, and by the strange "heaviness" in the air, you get
+the feeling you will be needing it.  
+~
+~
+0 1005330697 0 12
+E
+west~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+w~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+east~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+e~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+south~
+The tunnel continues on to the south, into darkness.  
+~
+E
+s~
+The tunnel continues on to the south, into darkness.  
+~
+E
+n~
+The tunnel continues on to the north, into darkness.  
+~
+E
+north~
+The tunnel continues on to the north, into darkness.  
+~
+D0
+~
+~
+0 0 20001
+D2
+~
+~
+0 0 20003
+S
+#20003
+`1Within ancient tunnels ``~
+The tunnel extends here to the north where it seems to turn and to the
+south where it extends into the gloom.  A thick layer of dust still coats
+the floor, as if it has been some time since travellers passed this way.  As
+you listen carefully, you can hear only the sound of your heart beating and
+you and your companions' breathing.  The only light you can see is that you
+have brought with you, and by the strange "heaviness" in the air, you get
+the feeling you will be needing it.  
+~
+~
+0 1005330697 0 12
+E
+s~
+The tunnel continues on to the south, into darkness.  
+~
+E
+south~
+The tunnel continues on to the south, into darkness.  
+~
+E
+e~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+east~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+w~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+west~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+n~
+The tunnel continues on to the north, into darkness.  
+~
+E
+north~
+The tunnel continues on to the north, into darkness.  
+~
+D0
+~
+~
+0 0 20002
+D2
+~
+~
+0 0 20004
+S
+#20004
+`1Within ancient tunnels ``~
+The tunnel continues to the south and to the north here, with no end in
+sight.  The darkness seems to be even deeper here, if that is possible, and
+you feel what appears to be less "stale" air to the south.  The quiet all
+around you remains, but seems less pronounced here, and the air seems almost
+alive with a strange tingling sensation.  The tunnel however retains it's
+unmarred course except for what appears to be a small fold in the western
+wall, about halfway down the passage.  
+~
+~
+0 1005330697 0 12
+E
+east~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+e~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+north~
+The tunnel continues on to the north, into darkness.  
+~
+E
+n~
+The tunnel continues on to the north, into darkness.  
+~
+E
+south~
+The tunnel continues on to the south, where it appears to open into
+something larger.  
+~
+E
+s~
+The tunnel continues on to the south, where it appears to open into
+something larger.  
+~
+E
+west~
+Upon the flawless western wall you can see a cunningly concealed fold, a
+slim passage wide enough for perhaps one person to pass through at a time. 
+If not for the angle you saw it at, it would be invisible.  
+~
+E
+w~
+Upon the flawless western wall you can see a cunningly concealed fold, a
+slim passage wide enough for perhaps one person to pass through at a time. 
+If not for the angle you saw it at, it would be invisible.  
+~
+E
+fold~
+There appears to be a way to open it further, and perhaps enter the room
+beyond.  
+~
+D0
+~
+~
+0 0 20003
+D2
+~
+~
+0 0 20006
+D3
+~
+fold~
+AG 0 20005
+S
+#20005
+`1Within a concealed fold ``~
+This small, hollowed out section of the same, grayish-black rock of the
+tunnels, has been set back from them for some reason, perhaps as a lair or
+lookout place of some kind.  It is unnaturally cold in here however, and the
+darkness seems even heavier here.  Other then that it is nearly barren
+except for something which looks like giant remains piled in the corner.  
+~
+~
+0 1005330697 0 12
+E
+east~
+To the east you can see the outline of a fold in the rock, cunningly
+concealed to allow access back to the tunnel.  
+~
+E
+e~
+To the east you can see the outline of a fold in the rock, cunningly
+concealed to allow access back to the tunnel.  
+~
+E
+fold~
+There appears to be a way to open it further, and enter the tunnel beyond.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust and the remains of a pair of dead giants, sliced to
+bits.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust and the remains of a pair of dead giants, sliced to
+bits.  
+~
+E
+west~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+w~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+south~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+s~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+north~
+The wall is cold and unmarred, yet you can see a small set of runes has
+been carved to the far side.  
+~
+E
+n~
+The wall is cold and unmarred, yet you can see a small set of runes has
+been carved to the far side.  
+~
+E
+runes~
+They seem to be written in dark-elven of an archaic sort.  You can make
+them out to be -
+
+Ul'Veldruk Qu'ellar del Dilaen zhahus ghil, ragar ukta wund.  Tlu kyone. 
+Nindol k'lar zhah verin.  
+
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+D1
+~
+fold~
+AG 0 20004
+S
+#20006
+`1A junction in the ancient tunnels ``~
+You appear to be at a junction in the ancient tunnels, though you cannot
+tell exactly where.  All directions seem to look the same, with the same
+dull, flawlessly cut rock of the walls in each direction the tunnel extends
+to.  To the north you can see what appears to be a long tunnel, and to the
+west and east appear to be smaller passages.  
+~
+~
+0 1005330697 0 12
+E
+s~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+south~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+e~
+A tunnel heads off to the east here.  
+~
+E
+east~
+A tunnel heads off to the east here.  
+~
+E
+w~
+A tunnel heads off to the west here.  
+~
+E
+west~
+A tunnel heads off to the west here.  
+~
+E
+n~
+A tunnel heads off to the north here.  
+~
+E
+north~
+A tunnel heads off to the north here.  
+~
+D0
+~
+~
+0 0 20004
+D1
+~
+~
+0 0 20010
+D3
+~
+~
+0 0 20007
+S
+#20007
+`1Within ancient tunnels ``~
+The tunnel extends here to the east where it seems to join other tunnels
+and to the south where it extends into the gloom.  A thick layer of dust
+still coats the floor, as if it has been some time since travellers passed
+this way.  As you listen carefully, you can hear only the sound of your
+heart beating and you and your companions' breathing.  
+~
+~
+0 1005330697 0 12
+E
+e~
+The tunnel continues on to the east, where it appears to meet other
+tunnels.  
+~
+E
+east~
+The tunnel continues on to the east, where it appears to meet other
+tunnels.  
+~
+E
+s~
+The tunnel continues on to the south, into darkness.  
+~
+E
+south~
+The tunnel continues on to the south, into darkness.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+north~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+n~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+w~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+west~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+D1
+~
+~
+0 0 20006
+D2
+~
+~
+0 0 20008
+S
+#20008
+`1Within ancient tunnels ``~
+The tunnel extends here to the north where it seems to turn and to the
+south where it extends into the gloom.  A thick layer of dust still coats
+the floor, as if it has been some time since travellers passed this way.  As
+you listen carefully, you can hear only the sound of your heart beating and
+you and your companions' breathing.  
+~
+~
+0 1005330697 0 12
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+e~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+east~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+w~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+west~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+s~
+The tunnel continues on to the south, into darkness.  
+~
+E
+south~
+The tunnel continues on to the south, into darkness.  
+~
+E
+n~
+The tunnel continues on to the north, into darkness.  
+~
+E
+north~
+The tunnel continues on to the north, into darkness.  
+~
+D0
+~
+~
+0 0 20007
+D2
+~
+~
+0 0 20009
+S
+#20009
+`1A dead-end in the ancient tunnels ``~
+The tunnel comes to an abrupt dead-end here, as if progress simply
+stopped.  The tunnel extends back to the north into the gloom, and all
+around you are the flawlessly cut walls of the tunnels.  Your only exit
+appears to be back the way you came.  There is a strange, lifelike smell in
+the air here.  
+~
+~
+0 1005330697 0 12
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+s~
+The tunnel dead-ends into impenetrable rock.  
+~
+E
+south~
+The tunnel dead-ends into impenetrable rock.  
+~
+E
+w~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+west~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+e~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+east~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+north~
+The tunnel continues on to the north, into darkness.  
+~
+D0
+~
+~
+0 0 20008
+S
+#20010
+`1Within ancient tunnels ``~
+The tunnel continues here, to the west where it appears to meet other
+tunnels, and to the east into the gloom.  The same cramping darkness and
+heaviness in the air is here, and it is still quite stale, yet not as much
+so.  The quiet is almost deathlike in these tunnels, and you hear not a
+sound echoing down the walls.  
+~
+~
+0 1005330697 0 12
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+s~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+south~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+n~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+north~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+e~
+The tunnel continues on to the east, into darkness.  
+~
+E
+east~
+The tunnel continues on to the east, into darkness.  
+~
+E
+west~
+The tunnel continues on to the west, where it appears to meet other
+tunnels.  
+~
+E
+w~
+The tunnel continues on to the west, where it appears to meet other
+tunnels.  
+~
+D1
+~
+~
+0 0 20011
+D3
+~
+~
+0 0 20006
+S
+#20011
+`1Within ancient tunnels ``~
+The tunnel continues east and west here, west back into the gloom and to
+the east it appears to turn a bit ahead.  The same cramping darkness and
+heaviness in the air is here, and it is still quite stale, yet not as much
+so.  The quiet is almost deathlike in these tunnels, and you hear not a
+sound echoing down the walls.  
+~
+~
+0 1005330697 0 12
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+s~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+south~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+w~
+The tunnel continues on to the west, into darkness.  
+~
+E
+west~
+The tunnel continues on to the west, into darkness.  
+~
+E
+e~
+The tunnel continues on to the east, where it appears to turn.  
+~
+E
+east~
+The tunnel continues on to the east, where it appears to turn.  
+~
+E
+n~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+north~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+D1
+~
+~
+0 0 20012
+D3
+~
+~
+0 0 20010
+S
+#20012
+`1Within ancient tunnels ``~
+The tunnel continues here, west into the gloom and to the south where it
+appears to turn yet again.  The same cramping darkness and heaviness in the
+air is here, and it is still quite stale, yet not as much so.  The quiet is
+almost deathlike in these tunnels, and you hear not a sound echoing down the
+walls.  
+~
+~
+0 1005330697 0 12
+E
+w~
+The tunnel continues on to the west, into darkness.  
+~
+E
+west~
+The tunnel continues on to the west, into darkness.  
+~
+E
+s~
+The tunnel continues on to the south, where it appears to turn once more.  
+~
+E
+south~
+The tunnel continues on to the south, where it appears to turn once more.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+n~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+north~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+e~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+east~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+D2
+~
+~
+0 0 20013
+D3
+~
+~
+0 0 20011
+S
+#20013
+`1Within ancient tunnels ``~
+The tunnel continues here, east into the gloom and to the north where it
+appears to turn yet again.  The same cramping darkness and heaviness in the
+air is here, and it is still quite stale, yet not as much so.  The quiet is
+almost deathlike in these tunnels, and you hear not a sound echoing down the
+walls.  
+~
+~
+0 1005330697 0 12
+E
+west~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+w~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+south~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+s~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+east~
+The tunnel continues on to the east, into darkness.  
+~
+E
+e~
+The tunnel continues on to the east, into darkness.  
+~
+E
+north~
+The tunnel continues on to the north, where it appears to turn.  
+~
+E
+n~
+The tunnel continues on to the north, where it appears to turn.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+D0
+~
+~
+0 0 20012
+D1
+~
+~
+0 0 20014
+S
+#20014
+`1Within ancient tunnels ``~
+The tunnel continues here, west into the gloom and east where a junction
+seems to be.  The same cramping darkness and heaviness in the air is here,
+and it is still quite stale, yet not as much so.  The quiet is almost
+deathlike in these tunnels, and you hear not a sound echoing down the walls.
+~
+~
+0 1005330697 0 12
+E
+s~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+south~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+north~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+e~
+The tunnel continues on to the east, into darkness.  
+~
+E
+east~
+The tunnel continues on to the east, into darkness.  
+~
+E
+w~
+The tunnel continues on to the west, into darkness.  
+~
+E
+west~
+The tunnel continues on to the west, into darkness.  
+~
+D1
+~
+~
+0 0 20015
+D3
+~
+~
+0 0 20013
+S
+#20015
+`1A junction in the ancient tunnels ``~
+You appear to be at a junction in the ancient tunnels, though you cannot
+tell exactly where.  All directions seem to look the same, with the same
+dull, flawlessly cut rock of the walls in each direction the tunnel extends
+to.  To the north, a tunnel seems to branch off, yet to the east you see
+what appears to be another junction.  In the distance you can feel a source
+of warmth which seems to emanate from the east.  To the west another tunnel
+extends off into darkness.  
+~
+~
+0 1005330697 0 12
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+n~
+A tunnel heads off to the north here.  
+~
+E
+north~
+A tunnel heads off to the north here.  
+~
+E
+e~
+The tunnel continues on to the east, where it appears to come to another
+junction.  
+~
+E
+east~
+The tunnel continues on to the east, where it appears to come to another
+junction.  
+~
+E
+s~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+south~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+w~
+The tunnel continues on to the west, into darkness.  
+~
+E
+west~
+The tunnel continues on to the west, into darkness.  
+~
+D0
+~
+~
+0 0 20016
+D3
+~
+~
+0 0 20014
+S
+#20016
+`1Within ancient tunnels ``~
+The tunnel extends here to the north into the gloom and to the south
+where it appears to come to a junction of sorts.  A thick layer of dust
+still coats the floor, as if it has been some time since travellers passed
+this way.  As you listen carefully, you can hear only the sound of your
+heart beating and you and your companions' breathing.  Then quietly, almost
+minutely, you hear a faint scratching sound.  
+~
+~
+0 1005330697 0 12
+E
+loose~
+Upon further examination, you can see this brick seems to be able to
+slide sideways a bit.  As you move the brick slightly you reveal a filigreed
+platinum keyhole, which looks quite intricate.  
+~
+E
+brick~
+Upon further examination, you can see this brick seems to be able to
+slide sideways a bit.  As you move the brick slightly you reveal a filigreed
+platinum keyhole, which looks quite intricate.  
+~
+E
+w~
+The wall is cold, upon closer examination you can see what appears to be
+a loose brick of the same material that seems slightly out of place.  
+~
+E
+west~
+The wall is cold, upon closer examination you can see what appears to be
+a loose brick of the same material that seems slightly out of place.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust with what appear to be footprints leading to the west
+wall.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust with what appear to be footprints leading to the west
+wall.  
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+n~
+The tunnel continues on to the north, into darkness.  
+~
+E
+north~
+The tunnel continues on to the north, into darkness.  
+~
+E
+e~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+east~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+s~
+The tunnel continues on to the south, where it appears to come to another
+junction.  
+~
+E
+south~
+The tunnel continues on to the south, where it appears to come to another
+junction.  
+~
+D0
+~
+~
+0 0 20018
+D2
+~
+~
+0 0 20015
+D3
+~
+bricks~
+AG 0 20017
+S
+#20017
+`1A dark laboratory ``~
+This room is impossibly large and appears to be quite magical in nature. 
+The air is alive with energy of sorts, and you can see that the room is
+approximately fifty feet by fifty feet.  The ceiling extends up much higher
+then the rest of the tunnels, and you can see that the floor is covered in a
+huge carpet of a strange animal fur, unlike any you have ever seen.  A
+massive slab of the same strange rock of the tunnels is resting on a large
+adamantite stand in the middle of the room, and it seems quite cluttered.  A
+small teak desk stands in one corner, with a drawer slightly open.  Various
+alchemical regents and beakers cover the slab of rock in the middle of the
+room, and you can feel that this place is warmer then the rest of the
+tunnels as well.  A large scrying portal of sorts seems to hang from the
+western wall.  The room is limmed in a faint glow of purplish faerie fire,
+casting a soft light on the massive bookshelf along the southern wall.  
+~
+~
+0 1005330697 0 12
+E
+brick~
+Upon further examination, you can see this brick seems to be able to
+slide sideways a bit.  As you move the brick slightly you reveal a filigreed
+platinum keyhole, which looks quite intricate.  
+~
+E
+east~
+You can reenter the tunnels through the sliding bricks to the east.  
+~
+E
+e~
+You can reenter the tunnels through the sliding bricks to the east.  
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack, yet also extends a good twenty feet higher then the surrounding
+tunnels.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack, yet also extends a good twenty feet higher then the surrounding
+tunnels.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+large thick carpet of a strange animal fur, which is black and quite
+luxurious.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+large thick carpet of a strange animal fur, which is black and quite
+luxurious.  
+~
+E
+slab~
+This massive piece of stone seems darker then the rest of the tunnels,
+and also seems to be the source of the faint glow of faerie fire.  The slab
+itself is surrounded by a string of glowing red runes, and appears to be
+cluttered with beakers and other various alchemical apparati.  There appears
+to be a small group of jars in a rack on the slab.  
+~
+E
+bookshelf~
+This massive bookshelf holds numerous tomes and archaic texts, and you
+can see some of them are quite old indeed.  As you look over the shelves, a
+single tome, marked with the word Veldrin, catches your eye.  
+~
+E
+teak~
+This small teak desk seems cluttered with papers and drawings, with
+strange magical notations scribbled in the margins.  The drawer in the
+middle of the desk seems slightly ajar.  
+~
+E
+desk~
+This small teak desk seems cluttered with papers and drawings, with
+strange magical notations scribbled in the margins.  The drawer in the
+middle of the desk seems slightly ajar.  
+~
+E
+s~
+A massive bookshelf, containing approximately ten thousand different
+volumes of varying ages and obscurity is against the southern edge of the
+room.  
+~
+E
+south~
+A massive bookshelf, containing approximately ten thousand different
+volumes of varying ages and obscurity is against the southern edge of the
+room.  
+~
+E
+portal~
+As you gaze into the portal, you feel your head throb from your lack of
+control over it.  You quickly close your eyes and turn away with a slight
+ache behind your temples.  
+~
+E
+scrying~
+As you gaze into the portal, you feel your head throb from your lack of
+control over it.  You quickly close your eyes and turn away with a slight
+ache behind your temples.  
+~
+E
+west~
+The cold stone western wall is dominated by what appears to be a scrying
+portal hanging from an adamantite hoop which is itself suspended by a pair
+of chains hung on rungs in the ceiling.  
+~
+E
+w~
+The cold stone western wall is dominated by what appears to be a scrying
+portal hanging from an adamantite hoop which is itself suspended by a pair
+of chains hung on rungs in the ceiling.  
+~
+E
+n~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+north~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+D1
+~
+bricks~
+AG 0 20016
+S
+#20018
+`1Within ancient tunnels ``~
+The tunnel extends here to the north where it appears to open up into
+darkness and to the south where it leads back into the gloom of the tunnels.
+A thick layer of dust still coats the floor, as if it has been some time
+since travellers passed this way.  The quiet of the tunnels seems quite
+pronounced here.  
+~
+~
+0 1005330697 0 12
+E
+north~
+The tunnel continues on to the north, into darkness.  
+~
+E
+n~
+The tunnel continues on to the north, into darkness.  
+~
+E
+south~
+The tunnel continues on to the south, into darkness.  
+~
+E
+s~
+The tunnel continues on to the south, into darkness.  
+~
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust but is otherwise unmarred.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+east~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+e~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+west~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+E
+w~
+The wall is cold and unmarred, flawless in it's solidity.  
+~
+D0
+~
+~
+0 0 20019
+D2
+~
+~
+0 0 20016
+P GRALL 20018 100~
+S
+#20019
+`1Upon a stone ledge ``~
+The tunnel ends here into a vast open cavern that seems shrouded in
+impenetrable darkness.  Looking back over your shoulder, you can see the
+exit appears as a gaping mouth set against the solidity of the surrounding
+walls.  You can hear the faint sound of water, and judging by the looks of
+things, you could probably climb around the rubble on the ledge to move both
+east or west.  South lies the tunnels of Byr Tu'jol, and the sounds of
+silence.  The sound of heavy flapping wings startles you for a moment, and
+appears to be drawing closer.  
+~
+~
+0 1005330697 0 12
+E
+down~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust which appears to have a set of wet footprints which
+seemingly walk off the ledge into the gloom.  
+~
+E
+d~
+The tunnel floor is cool to the touch and smooth.  It is covered in a
+thick layer of dust which appears to have a set of wet footprints which
+seemingly walk off the ledge into the gloom.  
+~
+E
+south~
+The tunnel continues on to the south, into darkness.  
+~
+E
+s~
+The tunnel continues on to the south, into darkness.  
+~
+E
+up~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+u~
+The ceiling is as flawlessly cut as the walls, and bears not a scratch or
+crack.  
+~
+E
+east~
+You appear to be able to climb around the piles of rubble here and move
+on to the east, into the cavern.  
+~
+E
+e~
+You appear to be able to climb around the piles of rubble here and move
+on to the east, into the cavern.  
+~
+E
+west~
+You appear to be able to climb around the piles of rubble here and move
+on to the west, into the cavern.  
+~
+E
+w~
+You appear to be able to climb around the piles of rubble here and move
+on to the west, into the cavern.  
+~
+E
+north~
+The cavern is about two hundred feet wide, and seems to drop off sharply
+north of the ledge.  It doesn't appear you can climb down this way.  
+~
+E
+n~
+The cavern is about two hundred feet wide, and seems to drop off sharply
+north of the ledge.  It doesn't appear you can climb down this way.  
+~
+D1
+~
+~
+0 0 20020
+D2
+~
+~
+0 0 20018
+D3
+~
+~
+0 0 20021
+S
+#20020
+`1 East of a stone ledge ``~
+The ledge continues here, with a pile of rubble slightly obstructing the
+way to the west.  A wide chasm looms before you to the northwest, and up
+ahead you can see that the ledge appears to turn to the north and narrow as
+well.  The cold stone beneath your feet also seems to be sloping slightly
+upwards as well, winding around the chasm below.  
+~
+~
+0 1005330697 0 12
+E
+east~
+To the east you can see the ledge continue, where it climbs the cavern
+wall.  
+~
+E
+west~
+To the west you can see the ledge continue, where there appears to be an
+opening in the cavern wall of some sorts.  
+~
+E
+south~
+The massive walls of the cavern rise up here, making passage impossible. 
+The cavern is of the same rock of the tunnels, but is uncarved and rough,
+with jagged boulders everywhere.  
+~
+E
+down~
+The cavern floor is rough and unfinished, with many small chunks of rock
+and other pebbles, as well as a layer of rock dust and what appears to be
+the droppings of some animal.  
+~
+E
+d~
+The cavern floor is rough and unfinished, with many small chunks of rock
+and other pebbles, as well as a layer of rock dust and what appears to be
+the droppings of some animal.  
+~
+E
+w~
+To the west you can see the ledge continue, where there appears to be an
+opening in the cavern wall of some sorts.  
+~
+E
+up~
+The cavern ceiling is perhaps two hundred feet high, and is barely
+visible in the low light.  Huge stalactites hang from the ceiling the teeth
+of a massive beast.  
+~
+E
+u~
+The cavern ceiling is perhaps two hundred feet high, and is barely
+visible in the low light.  Huge stalactites hang from the ceiling the teeth
+of a massive beast.  
+~
+D1
+~
+~
+0 0 20024
+D3
+~
+~
+0 0 20019
+S
+#20021
+`1West of a stone ledge ``~
+You are standing on the western edge of a massive cavern that is as tall
+as it is wide.  The sound of dripping water can be heard nearby, and there
+is a smell of rotting flesh in the air.  The darkness here is thick and
+heavy, and the air is warm.  
+~
+~
+0 1005330697 0 12
+E
+west~
+The massive walls of the cavern rise up here, making passage impossible. 
+The cavern is of the same rock of the tunnels, but is uncarved and rough,
+with jagged boulders everywhere.  
+~
+E
+w~
+The massive walls of the cavern rise up here, making passage impossible. 
+The cavern is of the same rock of the tunnels, but is uncarved and rough,
+with jagged boulders everywhere.  
+~
+E
+south~
+The massive walls of the cavern rise up here, making passage impossible. 
+The cavern is of the same rock of the tunnels, but is uncarved and rough,
+with jagged boulders everywhere.  
+~
+E
+s~
+The massive walls of the cavern rise up here, making passage impossible. 
+The cavern is of the same rock of the tunnels, but is uncarved and rough,
+with jagged boulders everywhere.  
+~
+E
+east~
+To the east you can see the ledge continue, where there appears to be an
+opening in the cavern wall of some sorts.  
+~
+E
+e~
+To the east you can see the ledge continue, where there appears to be an
+opening in the cavern wall of some sorts.  
+~
+E
+down~
+The cavern floor is rough and unfinished, with many small chunks of rock
+and other pebbles, as well as a layer of rock dust and what appears to be
+the droppings of some animal.  
+~
+E
+d~
+The cavern floor is rough and unfinished, with many small chunks of rock
+and other pebbles, as well as a layer of rock dust and what appears to be
+the droppings of some animal.  
+~
+E
+up~
+The cavern ceiling is perhaps two hundred feet high, and is barely
+visible in the low light.  Huge stalactites hang from the ceiling the teeth
+of a massive beast.  
+~
+E
+u~
+The cavern ceiling is perhaps two hundred feet high, and is barely
+visible in the low light.  Huge stalactites hang from the ceiling the teeth
+of a massive beast.  
+~
+E
+north~
+To the north you can see another opening in the cavern, and there appears
+to be a turn of sorts or even yet another opening near the first.  The sound
+of running water grows louder from this direction.  
+~
+E
+n~
+To the north you can see another opening in the cavern, and there appears
+to be a turn of sorts or even yet another opening near the first.  The sound
+of running water grows louder from this direction.  
+~
+D0
+~
+~
+0 0 20022
+D1
+~
+~
+0 0 20019
+S
+#20022
+`1Outside a hole in the cavern wall ``~
+The boulders have been cleared aside here, and piled to both the eastern
+and western edges of this section of the cavern.  They seem to form a
+walkway of sorts leading to the west and the sound of running water.  Back
+to the south you can see the cavern as well as a ledge that appears a bit
+above you to the southeast.  The air is thick with the smell of decay and
+rotting flesh.  A dark magic throbs in the air, and you start to feel
+uneasy.  
+~
+~
+0 1005330697 0 12
+E
+east~
+The massive walls of the cavern rise up here, making passage impossible. 
+The cavern is of the same rock of the tunnels, but is uncarved and rough,
+with jagged boulders everywhere.  
+~
+E
+e~
+The massive walls of the cavern rise up here, making passage impossible. 
+The cavern is of the same rock of the tunnels, but is uncarved and rough,
+with jagged boulders everywhere.  
+~
+E
+n~
+The massive walls of the cavern rise up here, making passage impossible. 
+The cavern is of the same rock of the tunnels, but is uncarved and rough,
+with jagged boulders everywhere.  
+~
+E
+north~
+The massive walls of the cavern rise up here, making passage impossible. 
+The cavern is of the same rock of the tunnels, but is uncarved and rough,
+with jagged boulders everywhere.  
+~
+E
+down~
+The cavern floor is rough and unfinished, with many small chunks of rock
+and other pebbles, as well as a layer of rock dust and what appears to be
+the droppings of some animal.  Bones of various creatures litter the floor
+here, and some of them are quite large.  They grow more numerous to the
+western path between the boulders.  
+~
+E
+d~
+The cavern floor is rough and unfinished, with many small chunks of rock
+and other pebbles, as well as a layer of rock dust and what appears to be
+the droppings of some animal.  Bones of various creatures litter the floor
+here, and some of them are quite large.  They grow more numerous to the
+western path between the boulders.  
+~
+E
+up~
+The cavern ceiling is perhaps two hundred feet high, and is barely
+visible in the low light.  Huge stalactites hang from the ceiling the teeth
+of a massive beast.  
+~
+E
+u~
+The cavern ceiling is perhaps two hundred feet high, and is barely
+visible in the low light.  Huge stalactites hang from the ceiling the teeth
+of a massive beast.  
+~
+E
+south~
+To the south you can see the cavern continue, and a ledge set upon the
+wall of the cavern to the southeast.  
+~
+E
+s~
+To the south you can see the cavern continue, and a ledge set upon the
+wall of the cavern to the southeast.  
+~
+E
+west~
+To the west you can see the boulders have been piled to form a path of
+sorts into a place where the cavern comes together.  A hole in the cavern
+wall is approximately fifty feet high and fifty feet wide.  As you look, you
+can see a pair of massive red eyes fade into view, and narrow dangerously in
+your direction.  
+~
+E
+w~
+To the west you can see the boulders have been piled to form a path of
+sorts into a place where the cavern comes together.  A hole in the cavern
+wall is approximately fifty feet high and fifty feet wide.  As you look, you
+can see a pair of massive red eyes fade into view, and narrow dangerously in
+your direction.  
+~
+D2
+~
+~
+0 0 20021
+D3
+~
+~
+0 0 20023
+S
+#20023
+`1Lair of the Gravewyrm ``~
+A gaping hole in the cavern, this lair extends perhaps four hundred feet
+of tapering stone to rest on a solid wall of rock on the western edge.  A
+pile of bones perhaps one hundred feet high by one hundred feet wide, by one
+hundred feet wide, by fifty feet high dominates the room, and has been
+constructed along the northern edge of the lair.  The smell of rotting flesh
+and stale decay fills the air here, and the temperature is warmer then the
+rest of the cavern.  What appears to be a pile of treasure is stacked
+haphazardly in the southern corner of the room.  Back to the east lies the
+cavern proper.  
+~
+~
+0 1005330697 0 12
+E
+down~
+The cavern floor is rough and unfinished, with many small chunks of rock
+and other pebbles, as well as a layer of rock dust and what appears to be
+the droppings of some animal.  
+~
+E
+d~
+The cavern floor is rough and unfinished, with many small chunks of rock
+and other pebbles, as well as a layer of rock dust and what appears to be
+the droppings of some animal.  
+~
+E
+pile~
+A massive pile of bones has been left here.  Most of them are human
+skeletons of sorts, but one massive skeleton atop the pile seems to bear not
+only wings, but horns of a sort, and has thicker bones to boot.  
+~
+E
+bones~
+A massive pile of bones has been left here.  Most of them are human
+skeletons of sorts, but one massive skeleton atop the pile seems to bear not
+only wings, but horns of a sort, and has thicker bones to boot.  
+~
+E
+south~
+A large pile of treasure dominates this portion of the lair, coins of
+varying types, some that seem foreign to you included, are stacked beneath
+pieces of armor and weapons that glow with beckoning power.  
+~
+E
+treasure~
+A large pile of treasure dominates this portion of the lair, coins of
+varying types, some that seem foreign to you included, are stacked beneath
+pieces of armor and weapons that glow with beckoning power.  
+~
+E
+s~
+A large pile of treasure dominates this portion of the lair, coins of
+varying types, some that seem foreign to you included, are stacked beneath
+pieces of armor and weapons that glow with beckoning power.  
+~
+E
+north~
+A massive pile of bones has been left here.  Most of them are human
+skeletons of sorts, but one massive skeleton atop the pile seems to bear not
+only wings, but horns of a sort, and has thicker bones to boot.  
+~
+E
+n~
+A massive pile of bones has been left here.  Most of them are human
+skeletons of sorts, but one massive skeleton atop the pile seems to bear not
+only wings, but horns of a sort, and has thicker bones to boot.  
+~
+E
+west~
+The lair is carved from the walls of the cavern and extends to the
+western wall where it ends abruptly.  
+~
+E
+w~
+The lair is carved from the walls of the cavern and extends to the
+western wall where it ends abruptly.  
+~
+E
+up~
+The cavern ceiling is perhaps two hundred feet high, and is barely
+visible in the low light.  Huge stalactites hang from the ceiling like the
+teeth of a massive beast.  
+~
+E
+u~
+The cavern ceiling is perhaps two hundred feet high, and is barely
+visible in the low light.  Huge stalactites hang from the ceiling like the
+teeth of a massive beast.  
+~
+E
+east~
+The cavern proper looms large outside the lair.  
+~
+E
+e~
+The cavern proper looms large outside the lair.  
+~
+D1
+~
+~
+0 0 20022
+S
+#20024
+`1Upon a stone ledge``~
+The ledge continues to climb the cavern wall to your east and north. 
+Back to your west lies a pile of rubble and the ledge descends to a hole in
+the wall.  A wide chasm looms down below, filled with boulders.  The stone
+beneath your feet is rougher and less fitted then elsewhere in this cavern. 
+You hear the faint sound of water running nearby.  
+~
+~
+0 1005330697 8192 13
+E
+n~
+To the north you can hear the sound of dripping water growing stronger. 
+A sense of dread seems to overcome you for a moment, then passes.  
+~
+E
+north~
+To the north you can hear the sound of dripping water growing stronger. 
+A sense of dread seems to overcome you for a moment, then passes.  
+~
+D0
+~
+~
+0 0 20025
+D3
+~
+~
+0 0 20020
+S
+#20025
+`1Before a great hole in the cavern``~
+~
+~
+0 1005330697 16384 13
+D2
+~
+~
+0 0 20024
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 20002 spec_breath_acid
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+O 0 20000 0 20000
+P 0 20001 0 20000 1
+M 0 20000 2 20000 2
+M 0 20000 2 20000 2
+O 0 20002 0 20005
+P 0 20003 0 20002 1
+M 0 20001 1 20009 1
+E 0 20004 0 3
+E 0 20005 0 4
+E 0 20006 0 16
+E 0 20007 0 20
+O 0 20010 0 20017
+P 0 20009 0 20010 1
+O 0 20011 0 20017
+P 0 20008 0 20011 1
+M 0 20003 1 20020 1
+E 0 20016 0 13
+G 0 20015 0
+G 0 20017 0
+E 0 20018 0 2
+M 0 20002 1 20023 1
+G 0 20012 0
+E 0 20013 0 3
+G 0 20014 0
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#20018
+if rand 100
+    echoat $n `@A glowing fungus lets loose with a blast of spores!``
+     room cast 'forget' $n
+endif
+~
+#0
+
+#$

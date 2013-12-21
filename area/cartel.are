@@ -1,0 +1,1230 @@
+#AREADATA
+Name [CARTEL]~
+Pref ~
+Builders Crypticant~
+VNUMs 16900 16999
+Max_Bastions 0
+Credits { ALL } Crypticant [CARTEL] ~
+Security 9
+Startroom 16900
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#16900
+lookout thug Cartel guard~
+the Lookout~
+One of the Cartel thugs stands here as a lookout.
+~
+At first glance he looks just like any other ruffian or thug in the area.
+But after a moment of careful scrutiny you notice the amount of attention he
+pays to the surroundings, and how each of his steps is measured to give him
+the best fighting position.  Of many things this man might be, a thug he is
+not.  
+~
+human~
+ABVZ A DFHJNO 0 0 0
+40 20 1d1+5000 1d1+1 8d5+60 arrows
+-20 -20 -20 -20
+ADEFKW AB C 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+P FIGHT 16901 100~
+P EXALL 16900 down~
+P EXALL 16900 up~
+P EXALL 16900 west~
+P EXALL 16900 east~
+P EXALL 16900 north~
+P GRALL 26 100~
+#16901
+Balzadar head bounty hunter~
+Balzadar~
+Balzadar the Head Bounty Hunter awaits your 'business' proposal.
+~
+Black seems to be a prevalent motif for this person.  His hair is black,
+with a pair of piercing black eyes set below perfectly arched black
+eyebrows.  A black goatee graces his chin set within black silk shirt of
+high collar.  Black vest with black tie covers his torso leading into black
+breaches stuffed into black leather boots.  A black longsword sheathed in
+black scabbard is at his side and he casts you a black look as he waits.  
+~
+human~
+ABa A DFHJN 0 750 0
+60 25 9999d1+1 24d1+1 6d4+30 pierce
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male none~
+25
+AHMV ABCDEFGHIJK medium 0
+#16902
+Leon fat bald balding~
+Leon~
+Leon is here flashing you his dazzling smile.
+~
+A fat balding human offers you a wide grin set with more then eight
+golden teeth and a few diamond ones.  He seems busy hawking at the dark
+figures passing by this area, yet you cannot seem to spot any goods for
+sale.  Occasionally he discreetly takes an item from a passerby and in a
+moment returns it.  
+~
+human~
+ABa A DFHJN 0 750 0
+60 25 9999d1+1 64d1+1 6d4+30 pierce
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male none~
+27
+AHMV ABCDEFGHIJK medium 0
+#16903
+Meliras overseer forge~
+Meliras~
+Meliras the Overseer of the Forge is here.
+~
+Swathed in swirling red robes Meliras is here.  Swathed with flowing
+golden hair and green eyes she stands with the regal of a queen.  She
+wonders about wearily and smiles at all the students as she makes her
+rounds.  She is very knowledgable and can teach you many valuable things if
+you but just ask her.  
+~
+human~
+ABa A DFHJN 0 750 0
+60 25 9999d1+1 34d1+1 6d4+30 pierce
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand female none~
+29
+AHMV ABCDEFGHIJK medium 0
+#16904
+Serraph crone ugly old~
+Serraph~
+An old ugly crone sits apart from everyone in the area.
+~
+She looks just like a stereotypical old, harmless crone.  A large broken
+pointy hat rests on her head, and a few dozen spectacular warts grace her
+face.  A large crooked nose is pointed in your direction and a mouth full of
+dark teeth parts in a slight smile.  The only thing that seems out of place
+are the young, sharp eyes full of vigor and deception.  
+~
+human~
+AB A DFHJN 0 750 0
+60 25 9999d1+1 1d1+1 6d4+30 pierce
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand female none~
+22
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 16907 no~
+P SPEECH 16905 yes~
+P GRALL 16904 100~
+#16905
+razul head archeologist~
+Razul~
+Razul the Master Archeologist is here.
+~
+Standing barely over four feet tall Razul is a very tiny man.  His arms
+are a golden brown and he wears a small turban upon his head.  He wears
+loose clothes that are meant to conceal how weak and skinny he is.  Strapped
+onto a loop in his belt is a huge dagger that he wears as protection from
+the mongrels of the world.  Smiling at you with the kindness of a cobra he
+patiently awaits you to choose what you want.  
+~
+human~
+AB A DFHJN 0 750 0
+60 25 9999d1+1 1d1+1 6d4+30 pierce
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male none~
+28
+AHMV ABCDEFGHIJK medium 0
+#16906
+weak worker man~
+a weak warehouse worker~
+A weak man is here trying to carry a crate across the room.
+~
+Covered in dust and sweat, a runt of a man struggles with a crate of goods.  
+He is biting his lip, to conceal his grunts, while he strains to lift the next 
+shipment alone.  Only a look of defeat and frustration can be seen outlines 
+by his veins popping out from his neck and forehead.
+~
+human~
+ABGe A 0 0 0 1105
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB 0 0
+stand stand male none~
+3
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16906 20~
+#16907
+Pete thieves Cartel~
+Scallywag Pete~
+Scallywag Pete stands here wobbling on his wooden leg.
+~
+Wearing brilliant scraps of clothing all sewed into one big shirt is a
+weary sailor.  With a parrot on his shoulder and a patch on his eye the
+sailor merchant stands here.  Peering at you with his one real eye he taps
+his peg leg over and over on the floor.  With hair sprouting out in all
+directions and teeth the color of sand, this man seems a bit insane.  After
+checking you out he finally stops tapping and awaits you decision.  
+~
+human~
+AB A DFHJN 0 750 0
+60 25 9999d1+1 36d1+1 6d4+30 pierce
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male none~
+22
+AHMV ABCDEFGHIJK medium 0
+#16908
+man drunk ~
+a drunk man~
+A drunk man sits at the bar glancing at the woman nearby.
+~
+Wearing stained clothes a man sits, smelling of ale.  His hair is matted
+and his brown eyes are nearly closed.  He sits at the bar alone with drinks
+lined up.  Every time he takes a drink, he glances at the woman at the end
+of the bar and winks at her.  This drunk almost looks love struck.  
+~
+human~
+ABGe A 0 0 0 1105
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB 0 0
+sit sit male none~
+2
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16908 20~
+#16909
+plump woman prostitute~
+a hefty woman~
+A pleasantly plump woman leans next to the bar trying to get your attention.
+~
+Wearing sheer black lingerie a pleasantly plump woman leans next to the
+bar pressing her flesh against the wood surface.  While you glance at her,
+she shifts her weight and reveals her backside to you.  With her backside
+revealed, you notice some parts of a thong, most consumed in the rift of
+this hefty woman.  
+~
+human~
+ABG A 0 0 0 1105
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB 0 0
+rest rest female none~
+9
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16902 20~
+#16910
+Humbrag bookie~
+Hambrag~
+Humbrag the bookie watches over the bets being made.
+~
+He is short, stocky and most of all reeks of sweat.  But his busy little
+eyes and hands seem to be well in charge of this area.  He calls a bet as
+you watch him and hands out some gold to a smiling thief.  
+~
+human~
+AB A DFHJN 0 750 0
+60 25 9999d1+1 36d1+1 6d4+30 pierce
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male none~
+28
+AHMV ABCDEFGHIJK medium 0
+#16911
+woman girl young prostitute~
+a young prostitute~
+A young girl stands here, swaying her hips back and forth.
+~
+Wearing a tight fitting red set of lingerie, a thin woman stands around
+smiling at every gentleman she makes contact with.  Every part of her body
+seems to seek your attention.  Her brown hair waves, while her hips sway,
+motioning you to look longer.  
+~
+human~
+ABG A 0 0 0 1105
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB 0 0
+stand stand female none~
+8
+AHMV ABCDEFGHIJK medium 0
+P GREET 16911 65~
+#16912
+Elendruib healer druid dark~
+Elendruib~
+Elendruib the Black Druid mixes a suspicious potion.
+~
+This tall slender drow wears robes and staff of a druid yet his behavior
+is most suspicious.  His face is long and slender with eyes like two small
+wells of darkness.  He cackles quietly to himself as he mixes a potion.  
+~
+drow~
+ABa A DFHJNP 0 750 0
+60 25 9999d1+1 5d1+1 6d4+30 pierce
+-30 -30 -30 -30
+EHK AB B Ya
+stand stand male none~
+28
+AHMV ABCDEFGHIJK medium 0
+#16913
+Travious secret master~
+Travious~
+Travious the Secret Master tends the passage ways.
+~
+A drow ancient even by standards of that race, he limps hunched as he
+lights torches in the convoluted passages all around you.  His blind eyes
+are cast towards the ground as the cane he holds slowly taps at the walls
+recalling memories of this labyrinth burnt into his mind over passage of
+centuries.  
+~
+drow~
+AB A DFHJNP 0 750 0
+60 25 9999d1+1 1d1+1 6d4+30 pierce
+-30 -30 -30 -30
+EHK AB B Ya
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+P GREET 16913 100~
+P TELL 16920 ofcol~
+P TELL 16921 haon~
+P TELL 16922 xymerria~
+P TELL 16923 marak~
+P TELL 16924 orc~
+P SPEECH 16924 orc~
+P SPEECH 16923 marak~
+P SPEECH 16922 xymerria~
+P SPEECH 16921 haon~
+P SPEECH 16920 ofcol~
+#16914
+forger thin man~
+a document forger~
+A thin man is sitting here looking at handwriting samples, forging documents.
+~
+Peering from thick glasses, a thin man sits at his desk in deep
+concentration.  He is writing something on parchment that looks like the
+official parchment of the Crown.  His writing motions are steady, precise,
+and without errors.  As you watch this forger at work you wonder how did he
+get the official parchment of the Crown?  
+~
+human~
+ABG A 0 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB 0 0
+stand stand male none~
+5
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16914 20~
+#16915
+man dark sinister~
+a sinister looking man~
+A sinister looking man displays an evil grin as he watches the forger work.
+~
+Dressed in tattered, dark armor, a sinister looking man stands near a
+large desk.  His crooked, yellow, teeth are all you notice as he grins at
+the sight of his purchase from the forger taking form.  
+~
+human~
+ABG A JP 0 -1 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB B Ya
+stand stand male none~
+4
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16915 20~
+#16916
+tiny gnome man~
+a tiny gnome~
+A tiny gnome man wanders around with a purpose.
+~
+Wearing what appears to be a hand-me-down wardrobe, a tiny man is here
+darting about the room.  His narrow eyes seem to focus on everything as he
+scurries with purpose.  
+~
+gnome~
+ABGd A JP 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB B BEPYa
+stand stand male none~
+10
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16916 20~
+#16917
+gambler man drow~
+a drow gambler~
+A drow man wanders around muttering about gambling loses.
+~
+Before you is a broken man.  His tiny drow hands are stuck in his, now
+empty, pockets.  The last remains of tears are long dry, but the remaining
+trails are still visible.  His tiny red lips quiver as he tries to remain
+composed and in command of his emotions.  
+~
+drow~
+ABGd A JP 0 -750 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB B Ya
+stand stand male none~
+7
+AHMV ABCDEFGHIJK medium 0
+#16918
+tiny gnome apprentice~
+a gnome apprentice~
+A tiny gnome apprentice is here practicing her magic.
+~
+Dressed in clothes that appear to have tiny burn marks on them, a tiny
+gnome girl is here arching sparks from her finger tips and waving her hands
+over objects, making them disappear.  A joyious smile is on her face has she
+cackles with glee.  
+~
+gnome~
+ABGRe A JP 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB B BEPYa
+stand stand female none~
+6
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 16918 100~
+#16919
+gnome boy apprentice~
+a gnome apprentice~
+A gnome boy is here laughing at his own actions.
+~
+Dressed in clothes that appear to have tiny burn marks on them, a tiny
+boy is here practicing his magic.  A look of glee is on his pale face as he
+jumps up and down laughing.  
+~
+gnome~
+ABGe A JP 0 0 0
+4 0 2d7+46 0d0+100 1d5+1 smash
+6 6 6 9
+EFN AB B BEPYa
+stand stand male none~
+11
+AHMV ABCDEFGHIJK medium 0
+#0
+
+
+
+#OBJECTS
+#16900
+pit storage~
+a storage pit~
+A large storage pit has been built here.~
+stone~
+container OT 0
+10000 0 0 10000 100
+60 0 10000 P
+#16901
+wooden bar~
+a bar~
+A long wooden bar streches the length of the wall of the brothel.~
+wood~
+furniture 0 P
+0 0 0 0 0
+0 500 0 P
+#16902
+Translucent Veil~
+the Translucent Veil~
+A small veil that shimmers in and out of existance.~
+spirits~
+armor MYZ Ad
+1 2 1 15 0
+50 0 1500 P
+M
+$p's icy surface chills our skin.~
+~
+~
+~
+F
+A 18 3 0
+P USE 16900 100~
+#16903
+dark sphere~
+the Darksphere~
+A large dark sphere floats before you emmiting a quiet moan.~
+souls~
+armor MYZ AL
+1 2 1 5 0
+45 0 1500 P
+M
+$p settles itself near your abdomen.~
+$p settles itself near $n's abdomen.~
+~
+~
+F
+S 510 10 0
+F
+A 19 2 0
+F
+A 18 2 0
+F
+A 24 -5 0
+P RANDOM 16901 30~
+#16904
+eye fear terror large~
+the Eye of Fear~
+A large decomposed eye which radiates an aura of fear and terror.~
+flesh~
+treasure MYZ AQ
+0 0 0 0 0
+50 10 2000 P
+F
+A 2 -1 0
+F
+A 19 2 0
+F
+A 18 1 0
+P USE 16903 100~
+P FIGHT 16902 30~
+#16905
+gambling board~
+the gambling board~
+A gambling board hangs on the wall.~
+wood~
+trash 0 P
+0 0 0 0 0
+50 1000 0 P
+#16906
+potion recall~
+a potion of recall~
+A potion of recall is here, coveted by all.~
+liquid~
+potion U AO
+10 'word of recall' '' '' ''
+10 30 3 P
+#16907
+potion fly flying winged skull~
+a winged skull potion~
+A large potion bearing a mark of a winged skull.~
+Liquid~
+potion B AO
+0 'fly' '' '' ''
+10 2 5 P
+#16908
+assassin's belt assassin sash thin black~
+assassins's belt~
+A thing black sash with many pouches.~
+leather~
+container HU AO
+50 A 0 30 75
+10 20 12 P
+#16909
+iron ration rations~
+a pack of iron rations~
+A dented tin can with the words RATIONS written on it.~
+food~
+food U A
+48 48 0 0 360
+10 20 24 P
+#16910
+scroll skull winged flying fly~
+a winged skull scroll~
+A large scroll with a mark of a winged skull.~
+papyrus~
+scroll A AO
+15 'fly' '' '' ''
+10 2 10 P
+#16911
+scroll vigor~
+a scroll of vigor~
+A small scroll inscribed with runes of vigor.~
+papyrus~
+scroll A AO
+15 'refresh' '' '' ''
+30 2 1 P
+#16912
+wineskin~
+a wineskin~
+A small wineskin.~
+leather~
+drink PU AO
+240 240 'water' 0 0
+10 50 11 P
+#16913
+orb shadow wall sanctuary~
+the Orb of Shadow Wall~
+A large black orb humming with dark energies.~
+glass~
+staff G AO
+10 10 10 'sanctuary' 0
+40 50 25 P
+#16914
+wand shadow wall~
+the Wand of Shadow Wall~
+A small black wand humming with dark energies.~
+glass~
+staff G AO
+15 5 5 'sanctuary' 0
+40 50 16 P
+#16915
+large metal desk~
+a large metal desk~
+A desk forged from the strongest metal in the land is here.~
+metal~
+furniture 0 P
+0 0 0 0 0
+0 500 0 P
+#16916
+sign board scoreboard~
+the scoreboard~
+A large wooden board hangs on the nail here.~
+wood~
+trash 0 P
+0 0 0 0 0
+0 0 0 P
+P LOOK 16904 100~
+#16917
+potion detect invis~
+a potion of detect-invisibility~
+A potion of detect-invisibility is here.~
+liquid~
+potion 0 AO
+10 'detect invis' 'reserved' 'reserved' 'reserved'
+20 0 5 P
+#0
+
+
+
+#ROOMS
+#16900
+`8Entrance to Cartel``~
+You have come to stand before a large wooden building that seems in need
+of repair.  Weeds are beginning to overrun all the space around it but there
+is a space where the weeds have all been trampled down.  You see a barely
+hidden door propped next to the building that seems to be the main entrance
+and exit to the place.  Sitting next to the door is a small crate that looks
+as if someone comes to sit there periodically.  
+~
+~
+0 295698440 16 0
+D0
+~
+~
+0 0 7826
+D2
+~
+~
+0 0 1
+S
+#16901
+`8Warehouse``~
+You find yourself standing within a vast storage space.  All around are
+huge crates with strange markings upon them.  On one side of the room are
+crates that have been filled and sealed while the other side holds empty
+crates, pallets, and workers.  The large room has a faint smell of oil that
+is overpowered by the smell of sawdust.  
+~
+~
+0 295698440 2 0
+S
+#16902
+`8Brothel``~
+You stand inside a well-kept brothel and bar.  All about are lovely
+ladies skantily clad that move from table to table talking with the patrons.
+The bar is full of people and you can barely hear yourself think over the
+noise that is being created.  At the top of a small staircase you see a few
+unmarked rooms where lucky young men are being led into by older women. 
+Every person you see seems to be talking to a group of people or at least
+one other person.  
+~
+~
+0 295698440 2 0
+S
+#16903
+`8Nightrunners``~
+As you enter the dimly lit room you are immediately blindfolded by
+unknown hands.  Off to the left you can hear the faint scratchings of
+charcoal on a scroll and to your right faint whispers are heard.  All about
+you is the hustle and bustle of people moving quickly but quietly.  As you
+are pushed forward and away from the door you hear another anonymous person
+being admitted behind you.  
+~
+~
+0 295698440 2 0
+S
+#16904
+`8Forgemaster``~
+Set squarely against the wall is a large metal desk.  Set upon the desk
+are various seals of Val Miran, Rheydin, Miruvhor, Tarandue and the other
+major cities.  Against the wall is a enlarged drawing of the face of a coin
+and the crucial points that need to be duplicated.  All around you is scrap
+paper and empty scrolls.  A small man sits behind the desk and quickly picks
+at something with a knife and a piece of glass.  
+~
+~
+0 295698440 2 0
+S
+#16905
+`8The Black Guild``~
+You step into a darkly shadowed room.  A single lantern is all the light
+allowed to burn.  Some faces can be seen clearly while others are completely
+masked.  All about you can hear the rustle of clothes and whisper of talk
+but it is very hard to see anyone.  You constantly hear the clink of coins
+being exchanged or dropped off and every once in awhile you can see the
+glint of the coins being passed.  In one corner of the room there is lots of
+quiet laughter and a big chart upon the wall that is marked with skulls over
+names of people.  
+~
+~
+0 295698440 2 0
+S
+#16906
+`8The Bookies``~
+You step into a brilliantly lit room covered with large boards to mark on
+and various recording books.  Men in green vest walk around with small
+notebooks talking to people and collecting money from them after a deal has
+been made.  Leaning against one wall is a giant board marked with odds of
+various events throughout Thera.  Cages full of pigeons and blackbirds
+surround the only window in the room and are constantly sending and
+receiving messages.  
+~
+~
+0 295698440 2 0
+S
+#16907
+`8Shadow Guild``~
+As you enter the Guild of Shadows you are greeting heartily by a fat
+fellow that is almost completely bald.  He immediately draws you off to a
+side table and starts speaking of many things he has for sale.  The other
+patrons in the room are all also browsing various illegal items and goods
+wrapped in brown paper to cover them.  As soon as the items are before you
+then seem to have disappeared again.  As you look up the bald man smiles
+perfectly and begins to barter a price with you.  
+~
+~
+0 295698440 2 0
+S
+#16908
+`8Outer Sanctum``~
+Within the Outer Sanctum mill a few various mages and apprentices.  The
+walls of this room dazzle as held together by pure energy and serve as a
+regeneration force for the mind of a weary mage.  All about are small tables
+with various drinks and serums that are free for all who are sacred enough
+to enter.  Lining the outer wall is shelf after shelf of incantations and
+various spells for the master mage to study and learn from.  
+~
+~
+0 295698440 2 0
+S
+#16909
+`8Inner Sanctum``~
+You are within the hall of the best, the elite, the forsaken.  Standing
+placidly around yet always poised to strike are the elite from each
+guildhall in the land.  Some talk with others while others calmly sip a
+drink in the corner by themselves.  There is little chatter in the room but
+arrogance hangs like a cloud of rain over the area.  Although this room
+looks no different then any other gathering place it is by far the most
+dangerous place in Thera.  
+~
+~
+0 295698440 2 0
+S
+#16910
+`8The Excavation``~
+You have entered a small mineshaft that is completely dark except for
+small bursts of light from the walls.  On one side of the tunnel a large
+half-human, half-hawk figure embossed in silver is corroding slowly.  From
+within the shafts come the howls of lost souls and trapped wights.  Lying
+about are softly glowing ruins and small human bones.  Glowing prominently
+within the middle of the tunnel is a small dagger marked 'Calandra' that
+seems to be stuck between time as it phases into and out of existance.  
+~
+~
+0 295698440 2 0
+S
+#16911
+`8Thieves Guild``~
+You are standing in a very wide room but the ceiling is abnormally low. 
+All around you men and women seem to practice blending into the walls and
+hiding in corners so as not to be seen.  On one side of the room is a sort
+of practice set up with dummies wired up with bells.  The other half of the
+room is dedicated to a shop of items that all thieves can't live without. 
+Marked at ridiculously low prices are items that cannot be found this cheap
+anywhere in Thera.  
+~
+~
+0 295698440 2 0
+S
+#16912
+`8The Safe``~
+You stand in a large steel room.  Lining the walls of this room are
+hundreds of steel boxes that each have a padlock to hold them closed. 
+Sitting quietly in each corner of the room are four large chests that are
+guarded constantly.  This room is impecably clean and not a speck of dust is
+anywhere in sight.  
+~
+~
+0 295698440 2 0
+S
+#16913
+`8Lookout``~
+Standing upon this small wooden tower you are able to see all the
+surrounding landscape easily.  Along the railing are small logbooks to fill
+in what you see.  Nestled perfectly in the corner is a small cot with a
+table next to it.  Hanging just above the door is a large bell that is to be
+rung at the first sign of danger.  Strapped on the rail next to the bell is
+a small tender and flint kit to light the tower on fire if there is fear of
+it being overrun.  
+~
+~
+0 295698440 2 0
+S
+#16914
+`8Apothecary``~
+Entering this small shop you are confronted by a nasty smell seeping from
+the back.  You cannot tell what this smell because of large curtains
+blocking the back part of the shop but you instantly assume it is a potion
+of sorts.  Lining the shelves of the shop are small glasses full of herbs,
+body parts, dusts, and excretions.  Behind the main counter is a dark
+skinned man who looks at you and patiently await you to choose what you
+need.  
+~
+~
+0 295698440 2 0
+S
+#16915
+`8Secret Passage``~
+You are standing in a damp underground tunnel.  Lit only by small torches
+you can see small tunnels leading off in every direction possible.  You seem
+to be in main connecting point of the tunnels for they all seem to end here.
+Next to each tunnel are small marked saying where it leads to and how far of
+a walk it is.  Every once in awhile you see a few small dwarves go walking
+by with carriages that you could rent.  
+~
+~
+0 295698440 2 0
+S
+#16916
+`2An Empty Garden``~
+You find yourself in an unattended garden its ground long overgrown with
+various species of weeds.  The growth reaches up to your waist and sways
+lightly with your passage.  
+~
+~
+0 362807304 65538 3
+S
+#16917
+`6Pitfall``~
+You stand before a large empty space with nothing but dusty air filling
+the void before you.  As you gaze down into the murky depths of the opening
+only the echos of small pebbles falling answers you.  
+~
+~
+0 362807304 2 9
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 16912 spec_cast_cabal_healer
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+O 0 16916 0 16900
+M 0 16906 1 16901 1
+O 0 16900 0 16901
+M 0 16911 1 16902 1
+M 0 16909 1 16902 1
+M 0 16908 1 16902 1
+O 0 16901 0 16902
+M 0 16916 1 16904 1
+O 0 16915 0 16904
+M 0 16914 1 16904 1
+M 0 16915 1 16904 1
+M 0 16903 1 16904 1
+M 0 16901 1 16905 1
+M 0 16917 1 16906 1
+O 0 16916 0 16906
+M 0 16910 1 16906 1
+M 0 16902 1 16907 1
+M 0 16919 1 16908 1
+M 0 16918 1 16908 1
+M 0 16904 1 16909 1
+M 0 16905 1 16910 1
+G 0 16902 0
+G 0 16903 0
+G 0 16904 0
+M 0 16907 1 16911 1
+G 0 16917 0
+G 0 16914 0
+G 0 16913 0
+G 0 16912 0
+G 0 16911 0
+G 0 16910 0
+G 0 16909 0
+G 0 16908 0
+G 0 16907 0
+G 0 16906 0
+O 0 16900 0 16911
+M 0 16912 1 16914 1
+M 0 16913 1 16915 1
+S
+
+
+
+#SHOPS
+16905 0 0 0 0 0 100 100 0 23
+16907 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#16900
+if room $i != 16900
+or isimmort $n
+  break
+endif
+if cabally $n Cartel
+  if isbloody $n
+    if affspell $n 'blindness'
+    or affspell $n 'death grasp'
+    or affspell $n 'plague'
+    or affspell $n 'poison'
+    or affspell $n 'dysentery'
+    or affspell $n 'enfeeblement'
+    or affspell $n 'vampire bite'
+      pmote glances at $N noticing the sickness.
+    else
+      'Come back when you have no blood upon you $N.
+      mob stop $n
+      break
+    endif
+  endif
+  if isdelay $i
+    break
+  else
+    mob delay 1
+    pmote glares at $N for a moment then steps aside in mock bow.
+    'Get in, and move yer feet!
+    break
+  endif
+else
+  pmote points a tip of a suspiciously gleaming dagger at $N.
+  say You really don't want to go in there mate.  Trust me.
+  mob stop $n
+endif
+~
+#16901
+if act $n raider
+and rand 10
+  if name $n watchermonster
+    break
+  else 
+    mob echo A figure steps out of shadows behind $N!
+    qslay $n
+    mob echo An assassin vanishes in a puff of smoke.
+  endif
+endif
+if isdelay $i
+  break
+else
+  cb We are under attack by $N!
+  mob delay 6
+endif
+~
+#16902
+if people == 0
+  break
+endif
+if rand 50
+  if rand 50
+    emote looks around casually to see if anyone is looking.
+    mob echo Satisifed nobody can see she reaches down and removes her knickers from the crack in her backside.
+    break
+  else
+    echo You hear the faint sound of breaking wind.
+    emote shifts in her seat uncomfortably and tries to look innocent.
+    break
+  endif
+else
+  if rand 50
+    emote produces a small handkerchief and daintily wipes the sweat from her brow and her armpits before blowing her nose on it.
+    break
+  else
+    emote wobbles in a fat wobbly fatty kind of way.
+    break
+  endif
+endif
+~
+#16903
+~
+#16904
+if skill $n fasting
+or isdelay $i
+  break
+else
+  if cabal $n Cartel
+    pmote scans $N with a dark eye.
+    'You lack even the most basics skills of an assassin $N...
+    'Do you wish to be shown what you lack for mere 500 Skulls?
+    pmote looks at $N expecting a yes or no answer.
+    mob tempquest $n to answer Serraph yes or no.
+    mob delay 1
+  endif
+endif
+~
+#16905
+if hasquest $n 'to answer Serraph yes or no.'
+  if skill $n fasting
+    'You already know all that I care to bestow upon you $N.
+    break
+  endif
+  if cp $n < 500
+    'You must first have 500 Skulls to hand me $N.
+    break
+  endif
+  pmote leads $N aside and begins a long lecture.
+  grant $n fasting 1 1
+  mob remquest $n to answer Serraph yes or no.
+  mob gain cp pc $n -500 -500
+endif
+~
+#16906
+if rand 50
+emote wobbles unsteadily.
+say Ummmph... out of my way before I drop this cr..
+echo There is a loud smash as a crate is dropped and broken.
+say Bah! Now look what you made me do.
+pout
+else
+emote glares at you coldly.
+say Don't you worry about helping me. No no I'm fine.
+say I'll just do all the work as usual while you laze around.
+say Thanks a lot.
+mutter
+endif
+~
+#16907
+'As you wish.
+mob remquest $n to answer Serraph yes or no.
+~
+#16908
+if people == 0
+  break
+endif
+if rand 50
+  if rand 50
+    sit
+    emote drinks heavily while leering drunkenly at the prostitutes.
+    break
+  else
+    sit
+    emote attempts to strike up a somewhat slurred conversation with a prostitute.
+    break
+  endif
+else
+  if rand 50
+    sit
+    emote empties the contents of his glass and happily begins another.
+    break
+  else
+    sit
+    emote belches, farts, and promptly passes out.
+    sleep
+    break
+  endif
+endif
+~
+#16911
+if isnpc $n
+break
+endif
+if sex $n == 1
+beam $N
+pmote winks naughtily at $N.
+endif
+~
+#16913
+if cabal $n Cartel then
+  emote sniffs the air.
+  tell $n Aaah $N. I recognise your scent.
+  tell $n You wish me to show you the way through the labyrinth ?
+  tell $n My fee is 5 skulls.
+  tell $n Now TELL me where you wish to go.
+  tell $n MARAK, XYMERRIA, ORC Mountains, OFCOL or HAON Dor
+endif
+~
+#16914
+if people == 0
+  break
+endif
+emote flicks his tongue side to side as he concentrates deeply on his work.
+~
+#16915
+if people == 0
+  break
+endif
+emote looks at the forger's handiwork.
+emote cackles manically.
+~
+#16916
+if people == 0
+  break
+endif
+say Hey there. I want a forged arrest warrant for Joe Griff on the grounds of immoral conduct.
+snicker
+~
+#16918
+~
+#16920
+if cabal $n Cartel
+and ishere $n
+  if cp $n < 5
+    tell $n I may be blind but I'm not stupid!
+    tell $n You don't have enough skulls for my services.
+  else
+    mob gain cp pc $n -5 -5
+    emote opens a tunnel door and pushes you through.
+    mob pfor group $n transfer # 2519
+  endif
+endif
+
+~
+#16921
+if cabal $n Cartel
+and ishere $n
+  if cp $n < 5
+    tell $n I may be blind but I'm not stupid!
+    tell $n You don't have enough skulls for my services.
+  else
+    mob gain cp pc $n -5 -5
+    emote opens a tunnel door and pushes you through.
+    mob pfor group $n transfer # 6136
+  endif
+endif
+~
+#16922
+if cabal $n Cartel
+and ishere $n
+  if cp $n < 5
+    tell $n I may be blind but I'm not stupid!
+    tell $n You don't have enough skulls for my services.
+  else
+    mob gain cp pc $n -5 -5
+    emote opens a tunnel door and pushes you through.
+    mob pfor group $n transfer # 1200
+  endif
+endif
+~
+#16923
+if cabal $n Cartel
+and ishere $n
+  if cp $n < 5
+    tell $n I may be blind but I'm not stupid!
+    tell $n You don't have enough skulls for my services.
+  else
+    mob gain cp pc $n -5 -5
+    emote opens a tunnel door and pushes you through.
+    mob pfor group $n transfer # 15056
+  endif
+endif
+~
+#16924
+if cabal $n Cartel
+and ishere $n
+  if cp $n < 5
+    tell $n I may be blind but I'm not stupid!
+    tell $n You don't have enough skulls for my services.
+  else
+    mob gain cp pc $n -5 -5
+    emote opens a tunnel door and pushes you through.
+    mob pfor group $n transfer # 704
+  endif
+endif
+~
+#0
+
+S
+
+
+
+
+#OBJPROGS
+#16900
+if isdelay $i
+   obj echoat $n $I seems devoid of any power.
+  break
+endif
+if isworn $i
+   obj echoat $I becomes icy cold.
+   obj cast 'detect invis' $n
+   obj delay 8
+else
+  obj echoat $n You must wear $I to use it.
+endif
+~
+#16901
+if affspell $n 'dark shroud'
+  break
+else 
+  if isworn $i
+    obj echoat $n $I expands to cover you in darkness.
+    obj echoaround $n $I expands to cover $n in darkness.
+    obj cast 'dark shroud' $n
+  endif
+endif
+~
+#16902
+if getdelay > 8
+  obj echo $I emits an aura of terror!
+endif
+~
+#16903
+if isdelay $i
+   obj echoat $n $I seems devoid of any power.
+  break
+endif
+if isworn $i
+   obj echo Powerful waves of fear begin to pour from $I.
+   obj cast 'enlarge' $n
+   obj delay 16
+else
+  obj echoat $n You must wear $I to use it.
+endif
+~
+#16904
+if cabal $n Cartel
+  obj echoat $n ``
+  obj echoat $n You quickly decipher the writting.
+  obj echoat $n Cartel Bounty Rankings:
+  obj scoreboard Cartel $n
+  break
+else
+  obj echoat $n ``
+  obj echoat $n You can't make heads or tails of the strange cypher.
+  obj echoat $n ``
+endif
+~
+#0
+
+#ROOMPROGS
+#0
+
+#$

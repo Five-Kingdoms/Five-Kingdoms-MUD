@@ -1,0 +1,1078 @@
+#AREADATA
+Name the Venpal Ocean~
+Pref ~
+Builders Crypticant~
+VNUMs 6200 6299
+Max_Bastions 1
+Credits {15 35} Cryptica The Venpal Ocean~
+Security 9
+Startroom 6204
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#6200
+seagull~
+a seagull~
+A seagull is here, flying above your head.
+~
+~
+unique~
+ACGSd A T 0 0 0
+10 3 10d4+150 0d0+100 2d4+5 peck
+0 0 0 0
+0 0 0 0
+stand stand none none~
+12
+AHMV ABCDEFGHIJK tiny 0
+#6201
+fish~
+a bright silver fish~
+A bright silver fish swims alongside your boat.
+~
+~
+unique~
+AGd A 0 0 0 0
+5 3 2d8+40 0d0+100 2d2+5 chomp
+0 0 0 0
+HM 0 0 0
+stand stand none none~
+9
+0 0 tiny 0
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#6200
+`3A jetty into the Venpal Ocean``~
+You stand upon a small rocky island with the Venpal Ocean stretching all
+about you.  To the west lie the deep blue reaches of the Venpal Ocean , and
+unexplored country.  To the east you see the ends of the Chill River.  
+~
+~
+0 0 16384 2
+D1
+~
+~
+0 0 6300
+D3
+~
+~
+0 0 6201
+S
+#6201
+`4The Venpal Ocean Shallows``~
+You are afloat on the great Venpal Ocean, the westernmost sea in Mirlan.
+You are in the shallows, presently, but further to your west lies
+the deep blue reaches of the Venpal Ocean, and unexplored country.
+Small waves lap at your boat, but far on the horizon the chop of
+whitecaps can be seen visibly. Sea salt fills your nose, and the
+sound of seagulls crying overhead can be heard.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 6200
+D2
+~
+~
+0 0 6280
+D3
+~
+~
+0 0 6202
+S
+#6202
+`4The Venpal Ocean Shallows``~
+You are afloat on the great Venpal Ocean, the westernmost sea in Mirlan.
+You are in the shallows, presently, but further to your west lies
+the deep blue reaches of the Venpal Ocean, and unexplored country.
+Small waves lap at your boat, but far on the horizon the chop of
+whitecaps can be seen visibly. Sea salt fills your nose, and the
+sound of seagulls crying overhead can be heard.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 6201
+D3
+~
+~
+0 0 6203
+S
+#6203
+`4The Venpal Ocean Shallows``~
+You are afloat on the great Venpal Ocean, the westernmost sea in Mirlan.
+You are in the shallows, presently, but further to your west lies
+the deep blue reaches of the Venpal Ocean, and unexplored country.
+Small waves lap at your boat, but far on the horizon the chop of
+whitecaps can be seen visibly. Sea salt fills your nose, and the
+sound of seagulls crying overhead can be heard.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 6202
+D3
+~
+~
+0 0 6204
+S
+#6204
+`4The Venpal Ocean Shallows``~
+You are afloat on the great Venpal Ocean, the westernmost sea in Mirlan.
+You are in the shallows, presently, but further to your west lies
+the deep blue reaches of the Venpal Ocean, and unexplored country.
+Small waves lap at your boat, but far on the horizon the chop of
+whitecaps can be seen visibly. Sea salt fills your nose, and the
+sound of seagulls crying overhead can be heard.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 6205
+D1
+~
+~
+0 0 6203
+S
+#6205
+`4The Venpal Ocean Shallows``~
+You are afloat on the great Venpal Ocean, the westernmost sea in Mirlan.
+You are in the shallows, presently, but further to your west lies
+the deep blue reaches of the Venpal Ocean, and unexplored country.
+Small waves lap at your boat, but far on the horizon the chop of
+whitecaps can be seen visibly. Sea salt fills your nose, and the
+sound of seagulls crying overhead can be heard.
+~
+~
+0 0 0 7
+D2
+~
+~
+0 0 6204
+D3
+~
+~
+0 0 6206
+S
+#6206
+`4The Venpal Ocean Shallows``~
+You are afloat on the great Venpal Ocean, the westernmost sea in Mirlan.
+You are in the shallows, presently, but further to your west lies
+the deep blue reaches of the Venpal Ocean, and unexplored country.
+Small waves lap at your boat, but far on the horizon the chop of
+whitecaps can be seen visibly. Sea salt fills your nose, and the
+sound of seagulls crying overhead can be heard.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 6205
+D3
+~
+~
+0 0 6207
+S
+#6207
+`4The Venpal Ocean Shallows``~
+You are afloat on the great Venpal Ocean, the westernmost sea in Mirlan.
+You are in the shallows, presently, but further to your west lies
+the deep blue reaches of the Venpal Ocean, and unexplored country.
+Small waves lap at your boat, but far on the horizon the chop of
+whitecaps can be seen visibly. Sea salt fills your nose, and the
+sound of seagulls crying overhead can be heard.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 6206
+D2
+~
+~
+0 0 6208
+S
+#6208
+`4The Venpal Ocean Shallows``~
+You are afloat on the great Venpal Ocean, the westernmost sea in Mirlan.
+You are in the shallows, presently, but further to your west lies
+the deep blue reaches of the Venpal Ocean, and unexplored country.
+Small waves lap at your boat, but far on the horizon the chop of
+whitecaps can be seen visibly. Sea salt fills your nose, and the
+sound of seagulls crying overhead can be heard.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 6207
+D3
+~
+~
+0 0 6209
+S
+#6209
+`4The Venpal Ocean Shallows``~
+You are afloat on the great Venpal Ocean, the westernmost sea in Mirlan.
+You are in the shallows, presently, but further to your west lies
+the deep blue reaches of the Venpal Ocean, and unexplored country.
+Small waves lap at your boat, but far on the horizon the chop of
+whitecaps can be seen visibly. Sea salt fills your nose, and the
+sound of seagulls crying overhead can be heard.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 6208
+D3
+~
+~
+0 0 6210
+S
+#6210
+`4The Venpal Ocean Shallows``~
+You are afloat on the great Venpal Ocean, the westernmost sea in Mirlan.
+You are in the shallows, presently, but further to your west lies
+the deep blue reaches of the Venpal Ocean, and unexplored country.
+Small waves lap at your boat, but far on the horizon the chop of
+whitecaps can be seen visibly. Sea salt fills your nose, and the
+sound of seagulls crying overhead can be heard.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 6209
+D3
+~
+~
+0 0 6211
+S
+#6211
+`4The Venpal Ocean``~
+You are afloat on the great western Venpal Ocean. The shallows fall far
+behind you now, and the waves here begin to get choppy. The current
+here is very strong, and a stiff nor'easter is blowing in, chilling
+you quickly. All around you is sea, and the horizon is now only a
+small outline back to the east. Westward lie only more waves, and
+deeper ocean.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 6210
+D3
+~
+~
+0 0 6212
+S
+#6212
+`4The Venpal Ocean``~
+You are afloat on the great western Venpal Ocean. The shallows fall far
+behind you now, and the waves here begin to get choppy. The current
+here is very strong, and a stiff nor'easter is blowing in, chilling
+you quickly. All around you is sea, and the horizon is now only a
+small outline back to the east. Westward lie only more waves, and
+deeper ocean.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 6211
+D2
+~
+~
+0 0 6213
+D3
+~
+~
+0 0 6214
+S
+#6213
+`4The Venpal Ocean``~
+You are afloat on the great western Venpal Ocean. The shallows fall far
+behind you now, and the waves here begin to get choppy. The current
+here is very strong, and a stiff nor'easter is blowing in, chilling
+you quickly. All around you is sea, and the horizon is now only a
+small outline back to the east. Westward lie only more waves, and
+deeper ocean.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 6212
+D1
+~
+~
+0 0 6211
+D3
+~
+~
+0 0 6214
+S
+#6214
+`4The Venpal Ocean``~
+You are afloat on the great western Venpal Ocean. The shallows fall far
+behind you now, and the waves here begin to get choppy. The current
+here is very strong, and a stiff nor'easter is blowing in, chilling
+you quickly. All around you is sea, and the horizon is now only a
+small outline back to the east. Westward lie only more waves, and
+deeper ocean.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 6215
+D1
+~
+~
+0 0 6213
+D2
+~
+~
+0 0 6218
+S
+#6215
+`4The Venpal Ocean``~
+You are afloat on the great western Venpal Ocean. The shallows fall far
+behind you now, and the waves here begin to get choppy. The current
+here is very strong, and a stiff nor'easter is blowing in, chilling
+you quickly. All around you is sea, and the horizon is now only a
+small outline back to the east. Westward lie only more waves, and
+deeper ocean.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 6217
+D2
+~
+~
+0 0 6214
+D3
+~
+~
+0 0 6216
+S
+#6216
+`4The Venpal Ocean``~
+You are afloat on the great western Venpal Ocean. The shallows fall far
+behind you now, and the waves here begin to get choppy. The current
+here is very strong, and a stiff nor'easter is blowing in, chilling
+you quickly. All around you is sea, and the horizon is now only a
+small outline back to the east. Westward lie only more waves, and
+deeper ocean.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 6212
+D1
+~
+~
+0 0 6215
+D2
+~
+~
+0 0 6216
+D3
+~
+~
+0 0 6217
+S
+#6217
+`4The Venpal Ocean``~
+You are afloat on the great western Venpal Ocean. The shallows fall far
+behind you now, and the waves here begin to get choppy. The current
+here is very strong, and a stiff nor'easter is blowing in, chilling
+you quickly. All around you is sea, and the horizon is now only a
+small outline back to the east. Westward lie only more waves, and
+deeper ocean.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 6219
+D1
+~
+~
+0 0 6216
+D2
+~
+~
+0 0 6215
+S
+#6218
+`4The Venpal Ocean``~
+You are afloat on the great western Venpal Ocean. The shallows fall far
+behind you now, and the waves here begin to get choppy. The current
+here is very strong, and a stiff nor'easter is blowing in, chilling
+you quickly. All around you is sea, and the horizon is now only a
+small outline back to the east. Westward lie only more waves, and
+deeper ocean.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 6214
+D1
+~
+~
+0 0 10228
+D2
+~
+~
+0 0 6219
+S
+#6219
+`4The Venpal Ocean``~
+You are afloat on the great western Venpal Ocean. The shallows fall far
+behind you now, and the waves here begin to get choppy. The current
+here is very strong, and a stiff nor'easter is blowing in, chilling
+you quickly. All around you is sea, and the horizon is now only a
+small outline back to the east. Westward lie only more waves, and
+deeper ocean.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 6218
+D1
+~
+~
+0 0 6218
+D2
+~
+~
+0 0 6217
+D3
+~
+~
+0 0 6220
+S
+#6220
+`4The Venpal Ocean``~
+You are afloat on the great western Venpal Ocean. The shallows fall far
+behind you now, and the waves here begin to get choppy. The current
+here is very strong, and a stiff nor'easter is blowing in, chilling
+you quickly. All around you is sea, and the horizon is now only a
+small outline back to the east. Westward lie only more waves, and
+deeper ocean.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 6219
+D3
+~
+~
+0 0 6221
+S
+#6221
+`4The Deep Venpal Ocean``~
+You've entered the deep waters of the Venpal Ocean. All around you large swells
+crest and fall, and the wind has picked up, adding a thick white froth to
+the tops of the waves. Dark clouds loom on the far western horizon, as if
+a forewarning that a long traveler should not be moving this far from dry
+land. The water here is piercingly blue, and seems very deep.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 6220
+D3
+~
+~
+0 0 6222
+S
+#6222
+`4The Deep Venpal Ocean``~
+You've entered the deep waters of the Venpal Ocean. All around you large swells
+crest and fall, and the wind has picked up, adding a thick white froth to
+the tops of the waves. Dark clouds loom on the far western horizon, as if
+a forewarning that a long traveler should not be moving this far from dry
+land. The water here is piercingly blue, and seems very deep.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 6221
+D3
+~
+~
+0 0 6223
+S
+#6223
+`4The Deep Venpal Ocean``~
+You've entered the deep waters of the Venpal Ocean. All around you large swells
+crest and fall, and the wind has picked up, adding a thick white froth to
+the tops of the waves. Dark clouds loom on the far western horizon, as if
+a forewarning that a long traveler should not be moving this far from dry
+land. The water here is piercingly blue, and seems very deep.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 6222
+D3
+~
+~
+0 0 6224
+S
+#6224
+`4The Deep Venpal Ocean``~
+You've entered the deep waters of the Venpal Ocean. All around you large swells
+crest and fall, and the wind has picked up, adding a thick white froth to
+the tops of the waves. Dark clouds loom on the far western horizon, as if
+a forewarning that a long traveler should not be moving this far from dry
+land. The water here is piercingly blue, and seems very deep.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 6223
+D3
+~
+~
+0 0 6225
+S
+#6225
+`4The Deep Venpal Ocean``~
+You've entered the deep waters of the Venpal Ocean. All around you large swells
+crest and fall, and the wind has picked up, adding a thick white froth to
+the tops of the waves. Dark clouds loom on the far western horizon, as if
+a forewarning that a long traveler should not be moving this far from dry
+land. The water here is piercingly blue, and seems very deep.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 6224
+D3
+~
+~
+0 0 6226
+S
+#6226
+`4The Deep Venpal Ocean``~
+You've entered the deep waters of the Venpal Ocean. All around you large swells
+crest and fall, and the wind has picked up, adding a thick white froth to
+the tops of the waves. Dark clouds loom on the far western horizon, as if
+a forewarning that a long traveler should not be moving this far from dry
+land. The water here is piercingly blue, and seems very deep.
+~
+~
+0 0 0 7
+D1
+~
+~
+0 0 6225
+D2
+~
+~
+0 0 6227
+S
+#6227
+`4The Deep Venpal Ocean``~
+You've entered the deep waters of the Venpal Ocean. All around you large swells
+crest and fall, and the wind has picked up, adding a thick white froth to
+the tops of the waves. Dark clouds loom on the far western horizon, as if
+a forewarning that a long traveler should not be moving this far from dry
+land. The water here is piercingly blue, and seems very deep.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 6226
+D1
+~
+~
+0 0 6223
+D2
+~
+~
+0 0 6224
+D3
+~
+~
+0 0 6228
+S
+#6228
+`4The Deep Venpal Ocean``~
+You've entered the deep waters of the Venpal Ocean. All around you large swells
+crest and fall, and the wind has picked up, adding a thick white froth to
+the tops of the waves. Dark clouds loom on the far western horizon, as if
+a forewarning that a long traveler should not be moving this far from dry
+land. The water here is piercingly blue, and seems very deep.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 6229
+D1
+~
+~
+0 0 6227
+D2
+~
+~
+0 0 6227
+S
+#6229
+`4The Deep Venpal Ocean``~
+You've entered the deep waters of the Venpal Ocean. All around you large swells
+crest and fall, and the wind has picked up, adding a thick white froth to
+the tops of the waves. Dark clouds loom on the far western horizon, as if
+a forewarning that a long traveler should not be moving this far from dry
+land. The water here is piercingly blue, and seems very deep.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 6230
+D2
+~
+~
+0 0 6228
+D3
+~
+~
+0 0 6230
+S
+#6230
+`4The Deep Venpal Ocean``~
+You've entered the deep waters of the Venpal Ocean. All around you large swells
+crest and fall, and the wind has picked up, adding a thick white froth to
+the tops of the waves. Dark clouds loom on the far western horizon, as if
+a forewarning that a long traveler should not be moving this far from dry
+land. The water here is piercingly blue, and seems very deep.
+~
+~
+0 0 0 7
+D0
+~
+~
+0 0 25185
+D1
+~
+~
+0 0 6229
+S
+#6280
+`8Near the Shallows``~
+You see the etching of land on the horizon and know you much be close to
+civilization.  Seagulls hover here in swarms, seeking the castoff food
+stuffs of sailors and other harbor folk.  The water is slightly more calm as
+you near the shore.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 6201
+D2
+~
+~
+0 0 6281
+S
+#6281
+`8Icy Waters``~
+Cool sprays of salt air sting your nostrils and burn your eyes.  As far
+as you can see, there is the choppy break of the ocean which swirls around
+you now in a deadly dance of allure.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 6280
+D1
+~
+~
+0 0 6282
+S
+#6282
+`8Icy Waters``~
+Waves crash all around you and you are left feeling disoriented - the
+blast from the salt spray is near stunning and your fear of the murky depths
+and the shadow that lurk beneath are heartstopping.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 6283
+D3
+~
+~
+0 0 6281
+S
+#6283
+`8Icy Waters``~
+Icy water swirls around you daring you to swim in it's dangerous depths. 
+Thankfully, you are safe in the confines of your boat which is now soaked
+with the icy saltwater of the sea.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 6282
+D2
+~
+~
+0 0 6284
+S
+#6284
+`8Icy Waters``~
+Swirls of icy water surround you threatening to tip you over and drown
+you in its murky depths.  Dark shadows beneath the choppy waves circle
+around you daring you to go for a quick swim that you may never return from.
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 6283
+D1
+~
+~
+0 0 6285
+S
+#6285
+`8The Dangerous Depths``~
+The icy cold water forms choppy waves all around you, rising and swelling
+and threatening to roll your boat upside down exposing you to the dangers
+it's murky depths hold.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 6286
+D3
+~
+~
+0 0 6284
+S
+#6286
+`8The Dangerous Depths``~
+You've heard rumors of how deep this water can be and of what lurks below
+its icy, muddied surface.  You don't care to test it out, but watch
+anxiously as a seagull swoops into the waves, diving for fish.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 6285
+D2
+~
+~
+0 0 6287
+S
+#6287
+`8Icy Waters``~
+The ocean churns around you in a brownish, murky green cloud.  Rough
+waves break around you in a crash of foam, a brilliant white froth against
+the somber colors of the ocean.  A small while ball with a face painted on
+it in red and a stock of hay atop it's head for hair floats by, strangly in
+the distance you hear a man's desperate cry, "Wilson!"  You shrug to
+yourself - what's that all about?  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 6286
+D2
+~
+~
+0 0 6288
+S
+#6288
+`8Icy Waters``~
+Angry waves rage against the side of your boat causing it to creak and
+groan, threatening to break it apart.  The choppy surface makes detecting
+what lies beneath impossible.  The waves never seem to end as they pound
+your small boat mercilessly.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 6287
+D1
+~
+~
+0 0 6289
+S
+#6289
+`8Knee Deep Waters``~
+The shore is no longer apparent as the water easily snakes around your
+legs, coiling around you with her icy under toe.  You feel a thick, slimy
+body snake its way around your ankles, squeeze and release and slither off
+from where it came.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 6290
+D3
+~
+~
+0 0 6288
+S
+#6290
+`8Venpal Beaches``~
+The sand is softer here and it becomes more difficult to walk.  There are
+gentle sand dunes rising opposite the ocean, with small wiry plants peeking
+out of its sandy shell to get more sunlight.  You find yourself having to
+walk into the dunes to avoid the chilly water that rises to meet you.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 6289
+D1
+~
+~
+0 0 6291
+S
+#6291
+`8Venpal Beaches``~
+The sand is hardpacked from centuries of the rough ocean breaking over it
+and your feet leave small tracks quickly filled in with the tangy salt water
+of the waves.  The sea laps hungrily at the shore, teasing you into a deadly
+game of tag with its icy fingers.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 6292
+D3
+~
+~
+0 0 6290
+S
+#6292
+`8The Docking Post``~
+Polished wood, placed carefully so the grain on the individual slabs are
+even with one another form the dock at the edge of a choppy ocean.  Huge
+posts rise on either side of the dock laced with a thickly corded rope to
+ensure newbies don't fall into the swirling ocean and perish.  Each post is
+covered in seagull droppings as an old man runs about shooing them away and
+futily wipes up after them.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 6293
+D3
+~
+~
+0 0 6291
+S
+#6293
+`8Icy Waters``~
+The water here is extremely rough, you see the reason for that to the
+north of you.  Rising to the north is a large wooden dock raised high off
+the raging waves.  A few seagulls start to build above you hoping for
+scraps, the shadows below the water grow more thick, hoping for seagulls. 
+You scan to the east and see more choppy waves with a great city hovering
+above it's crest.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 6292
+D1
+~
+~
+0 0 6294
+S
+#6294
+`8Icy Waters``~
+Choppy water rises in huge waves, spilling over the edge of your small
+boat giving you a cruel sample of the frigid temperature it's depth holds. 
+Dark shadows under the swirling waters is a constant reminder that your
+boat, though wet and cold, is much more safe than the murky water.  An
+extremely large wave is seen in the distance coming right towards you,
+better hold on!  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 6295
+D3
+~
+~
+0 0 6293
+S
+#6295
+`8Knee High Waters``~
+Wading into the water, it takes your breath with it's icy chill and
+fierce undertow.  Torrents of waves crash around you rendering the water
+murky making you wonder what swims under the choppy surface.  One would not
+want to venture deeper without a boat as it would mean certain death.  While
+you contemplate this you feel a wave of warmth wash over your legs and hear
+the giggling of a small human child next to you.  Wanna guess what she just
+did?  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 11574
+D3
+~
+~
+0 0 6294
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 6200 20 6200 2
+M 0 6201 2 6200 40
+M 0 6200 2 6201 20
+M 0 6201 2 6201 40
+M 0 6200 2 6202 20
+M 0 6201 2 6202 40
+M 0 6200 2 6203 20
+M 0 6201 2 6203 40
+M 0 6200 2 6204 20
+M 0 6201 2 6204 40
+M 0 6200 2 6205 20
+M 0 6201 2 6205 40
+M 0 6200 2 6206 20
+M 0 6201 2 6206 40
+M 0 6200 2 6207 20
+M 0 6201 2 6207 40
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+M 6200 1 seagull.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#0
+
+#$

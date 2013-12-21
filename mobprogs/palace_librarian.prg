@@ -40,7 +40,7 @@ if charobj (4711)
         east
 endif
 if rand (10)
-	say Greetings, $n. Enjoy your stay here at the Val Miran Library.
+	say Greetings, $n. Enjoy your stay here at the Revelsport Library.
 endif
 if rand (33)
 	say Learning is fundamental, $n! Enjoy your time here!

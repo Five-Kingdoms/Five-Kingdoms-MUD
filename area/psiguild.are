@@ -1,0 +1,1466 @@
+#AREADATA
+Name Tower of the Mind's Eye~
+Pref ~
+Builders None~
+VNUMs 12600 12699
+Max_Bastions 0
+Credits { ALL } Bryntrys Tower of the Mind's Eye~
+Security 9
+Startroom 12600
+Flags 34
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#12601
+unseen force~
+An unseen force~
+~
+~
+unique~
+ABZ A DHJ 0 750 0
+35 5 25d10+3500 0d0+100 6d6+10 telekinesis
+1 1 1 0
+FHKVX AB 0 0
+stand stand none none~
+175
+AHMV ABCDEFGHIJK medium 0
+P EXALL 12601 north~
+#12606
+gabo guildmaster halfling guild master~
+Gabo the Psionicist Guildmaster~
+A small halfling in loose clothing stands here, training novice psionicists.
+~
+His face is deceptively youthful, but creased with lines of age.  His
+hair is wild, and stands almost on end in a untamed mane, and adorned with
+rings, feathers, and small bits of crystal.  His clothing is loose, allowing
+freedom of movement, and in his small hands, he holds a gnarled staff,
+topped with a jagged shard of yellow crystal.  
+~
+halfling~
+ABKVZ A DHJ 0 1000 0
+60 0 50d10+8000 0d0+100 2d40+10 telekinesis
+2 2 2 2
+FHKX AB C 0
+stand stand male none~
+300
+AHMV ABCDEFGHIJK small 0
+P RANDOM 12606 20~
+P SPEECH 12112 no~
+P SPEECH 12111 yes~
+P GRALL 12110 100~
+#12650
+examiner~
+The Examiner~
+Clad in his simple grey robe the Examiner stands here.
+~
+He wears a simple robe (grey color of course) fastened with a strange
+blue belt.  His head and face is clean shaven and his steel colored eyes
+glare at you without respite.  
+~
+human~
+ABVZ A DHJ 0 0 0
+60 0 50d10+8000 0d0+100 2d40+10 punch
+2 2 2 2
+FHKX AB 0 0
+stand stand male none~
+300
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 12650 100~
+P DELAY 12651 100~
+#12651
+examiner~
+The Examiner~
+Clad in his simple grey robe the Examiner stands here.
+~
+He wears a simple robe (grey color of course) fastened with a strange
+blue belt.  His head and face is clean shaven and his steel colored eyes
+glare at you without respite.  
+~
+human~
+ABVZ A DHJ 0 0 0
+60 0 50d10+8000 0d0+100 2d40+10 punch
+2 2 2 2
+FHKX AB 0 0
+stand stand male none~
+300
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 12653 *~
+P RANDOM 12652 50~
+P EXALL 12653 north~
+#12656
+massive demon !12656!~
+the Demon~
+A massive demon slowly approaches you with a snarl on its face.
+~
+The thing is easly twice your height and just as wide. To attack it
+would mean instant death.
+~
+human~
+ABLTc A DW 0 0 0
+60 -99 1d1+9999 1d1+999 5d5+40 claw
+-20 -20 -20 0
+HX ABCD 0 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK medium 0
+P EXALL 12660 north~
+P SPECIAL 12661 100~
+#12657
+antimage~
+the antimage~
+A perfect replica of you is here.
+~
+Try as you might you cannot spot a single difference between you and him
+except for the fact that he seems to be trying NOT to kill you.  
+~
+human~
+AB AI DHU 0 0 0
+50 20 1d1+999 1d1+999 1d10+10 punch
+-20 -20 -20 0
+K AB 0 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK medium 0
+P KILL 12654 100~
+P DEATH 12655 100~
+P GRALL 12657 100~
+P FIGHT 12656 100~
+#12660
+examiner~
+The Examiner~
+Clad in his simple grey robe the Examiner stands here.
+~
+He wears a simple robe (grey color of course) fastened with a strange
+blue belt.  His head and face is clean shaven and his steel colored eyes
+glare at you without respite.  
+~
+human~
+ABVZ A DHJ 0 0 0
+60 0 50d10+8000 0d0+100 2d40+10 punch
+2 2 2 2
+FHKX AB 0 0
+stand stand male none~
+300
+AHMV ABCDEFGHIJK medium 0
+P EXALL 12664 north~
+P GRALL 12665 100~
+#0
+
+
+
+#OBJECTS
+#12603
+gold sign~
+A gold sign~
+A gold sign is here, waiting to fulfill it's purpose.~
+gold~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+gold sign~
+Brothers and Sisters of the Mind's Eye:
+ 
+We all know full and well that walking is for those who wish to do so, or
+lack the power to do otherwise.  We have recently contracted the Psychoporation
+Guild to devise these gates to take you where you need to go.  Merely say
+the name of the room you wish to go to, and if you really want to go there,
+you should in `&theory`` end up there.  However in the slight chance you do NOT,
+the management is not to be held liable.  Your destinations are as follows:
+ 
+~
+P LOOK 12603 100~
+#12652
+black outline door~
+black outline~
+There is a black outline of a doorway on the north wall.~
+unknown~
+trash 0 P
+0 0 0 0 0
+50 0 0 P
+P RANDOM 12652 100~
+#12653
+west~
+west portal~
+The WEST portal.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+west~
+It seems to be a very lifelike painting of a room.  The room is a small
+and reminds you of a cabin much like a hunter cabin found deep in the woods
+oft visited by rangers in search of valuable prey.  In the middle stands a
+sizable table, slightly tilted on its east size where one of its legs rests
+in a small pothole in the earthen floor.  The walls are made of timber
+darkened with age and smoke from a fireplace in the east wall.  The
+fireplace is of a stone variety with sizable flame crackling within, small
+trails of smoke drifting up over the mantle and towards the cat sitting in
+the west side of the table eyeing cautiously a pool of dripping milk spilled
+from a large overturned cup on the table's east edge.  The cup is made of
+what seems to be metal, is dark brown in color and has a single loop on
+which it has come to rest stopping it from rolling off the table's edge. 
+Your eyes follow the east edge of the table down one of its legs and notice
+a small house mouse which is sitting by the leg totally oblivious to the
+cat.  The mouse is pawing the milk soaked ground underneath its claws and
+appears to be digging perhaps for cheese?  With a start you notice a heavy
+golden chest underneath the table its lid set with an enormous lock and its
+hinges protected by metal guards.  More then a few magical runes have been
+engraved on its surface and it positively radiates an aura of mystery and
+danger.  
+~
+P USE 12653 100~
+#12654
+east~
+east portal~
+The EAST portal.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+east~
+It seems to be a very lifelike painting of a room.  The room is a small
+and reminds you of a cabin much like a hunter cabin found deep in the woods
+oft visited by rangers in search of valuable prey.  In the middle stands a
+sizable table, slightly tilted on its east size where one of its legs rests
+in a small pothole in the earthen floor.  The walls are made of timber
+darkened with age and smoke from a fireplace in the east wall.  The
+fireplace is of a stone variety with sizable flame crackling within, small
+trails of smoke drifting up over the mantle and towards the cat sitting in
+the west side of the table eyeing cautiously a pool of milk spilled from a
+large overturned cup on the table's east edge.  The cup is made of what
+seems to be metal, is dark brown in color and has a single loop on which it
+has come to rest stopping it from rolling off the table's edge.  Your eyes
+follow the east edge of the table down one of its legs and notice a small
+house mouse which is sitting by the leg totally oblivious to the cat.  The
+mouse is pawing the dry ground underneath its claws and appears to be
+digging perhaps for cheese?  With a start you notice a heavy golden chest
+underneath the table its lid set with an enormous lock and its hinges
+protected by metal guards.  More then a few magical runes have been engraved
+on its surface and it positively radiates an aura of mystery and danger.  
+~
+P USE 12654 100~
+#12655
+east~
+east portal~
+The EAST portal.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+east~
+It seems to be a very lifelike painting of a room.  The room is a small
+and reminds you of a cabin much like a hunter cabin found deep in the woods
+oft visited by rangers in search of valuable prey.  In the middle stands a
+sizable table, slightly tilted on its east size where one of its legs rests
+in a small pothole in the earthen floor.  The walls are made of timber
+darkened with age and smoke from a fireplace in the east wall.  The
+fireplace is of a stone variety with sizable flame crackling within, small
+trails of smoke drifting up over the mantle and towards the cat sitting in
+the west side of the table eyeing cautiously a pool of dripping milk spilled
+from a large overturned cup on the table's east edge.  The cup is made of
+what seems to be metal, is dark brown in color and has a single loop on
+which it has come to rest stopping it from rolling off the table's edge. 
+Your eyes follow the east edge of the table down one of its legs and notice
+a small house mouse which is sitting by the leg totally oblivious to the
+cat.  The mouse is pawing the milk soaked ground underneath its claws and
+appears to be digging perhaps for cheese?  With a start you notice a heavy
+golden chest underneath the table its lid set with an enormous lock and its
+hinges protected by metal guards.  More then a few magical runes have been
+engraved on its surface and it positively radiates an aura of mystery and
+danger.  
+~
+P USE 12653 100~
+#12656
+west~
+west portal~
+The WEST portal.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+west~
+It seems to be a very lifelike painting of a room.  The room is a small
+and reminds you of a cabin much like a hunter cabin found deep in the woods
+oft visited by rangers in search of valuable prey.  In the middle stands a
+sizable table, slightly tilted on its east size where one of its legs rests
+in a small pothole in the earthen floor.  The walls are made of timber
+darkened with age and smoke from a fireplace in the east wall.  The
+fireplace is of a stone variety with sizable flame crackling within, small
+trails of smoke drifting up over the mantle and towards the cat sitting in
+the west side of the table eyeing cautiously a pool of milk spilled from a
+large overturned cup on the table's east edge.  The cup is made of what
+seems to be metal, is dark brown in color and has a single loop on which it
+has come to rest stopping it from rolling off the table's edge.  Your eyes
+follow the east edge of the table down one of its legs and notice a small
+house mouse which is sitting by the leg totally oblivious to the cat.  The
+mouse is pawing the dry ground underneath its claws and appears to be
+digging perhaps for cheese?  With a start you notice a heavy golden chest
+underneath the table its lid set with an enormous lock and its hinges
+protected by metal guards.  More then a few magical runes have been engraved
+on its surface and it positively radiates an aura of mystery and danger.  
+~
+P USE 12654 100~
+#12659
+circle protection~
+circle of protection~
+What looks like a circle of protection has been drawn here.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+P EXALL 12660 north~
+P USE 12658 100~
+P GRALL 12659 100~
+#12660
+remains corpse~
+corpse~
+A burnt corpse lies near the circle of protection.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+remains corpse~
+The corpse seems to be large enough to be a demon or a large human.  It
+lies across the outer edge of the runed circle in a pose that suggests
+whoever it was, was trying to escape the circle rather then enter it.  
+~
+#0
+
+
+
+#ROOMS
+#12600
+`3Before Levitating Cubes``~
+A curious sight unfolds above the trees before you.  Large, windowless
+cubes of some unknown shimmering substance hang motionless in the air in a
+semblance of a tower.  There are no evident passageways between the
+chambers, and judging from the outside appearance, they must be quite small
+and cramped within.  Surrounding the structure is a circle of thin mithril
+poles topped in blue crystal shards.  As you pass through, the shards flash
+momentarily, then grow dark.  
+~
+~
+0 0 0 5
+D0
+~
+~
+0 0 12601
+S
+#12601
+`8Beneath the Crystalline Cubes``~
+Drawing nearer to the cubes, you are able to discern details that were
+otherwise unnoticeable.  Intricate runes have been etched into every square
+inch of the cubes' surface.  Now that you are closer, what once appeared as
+steel or metal is in reality flawless, opaque, blue-grey crystal.  The
+largest of the cubes rests upon the ground with a heavily carved archway
+granting access to the inner sanctum of this odd structure.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 12602
+D2
+~
+~
+0 0 12600
+S
+#12602
+`8The Antechamber of Thought``~
+Entering this chamber is deceptive to say the least.  From the outside,
+it would seem to be relatively small, but now that you are within, it is
+quite large.  But as large as it may be, it is simply decorated.  Thick,
+padded carpets mute your footfalls, and single color tapestries hang from
+the walls.  The room is illunimated by large melon sized balls of crystal,
+floating on guilded iron latices.  On the far side of the room, a small
+alcove with a small circle of engraved silver runes.  
+~
+~
+0 0 4096 0
+D0
+~
+~
+0 0 12603
+D2
+~
+~
+0 0 12601
+S
+#12603
+`8An Improbability Psychoporter``~
+This relatively small chamber is more the size of a walk-in closet than
+that of a seperate room.  The walls and cielings have been completely
+covered in pure translucent blue crystal etched with line after line of
+runes.  Your feet stand in a small circle of like runes that have been
+etched in silver.  A gold sign has been carved into the panel before you.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 12602
+P SPEECH 12603 resident~
+P SPEECH 12602 library~
+P SPEECH 12601 meditation~
+P SPEECH 12600 observatory~
+P SPEECH 12604 antechamber~
+S
+#12604
+`8The Residential Hallway``~
+This hall is lined with doors assigned to the resident psionicists
+dedicated to maintaining and teaching within the tower.  Each door is set
+with a plaquard bearing the title of it's resident and their official title.
+The carpet here is just as thick as it is in the Antechamber of Thought, and
+the walls are made of rich oak, embossed with brass railings, and
+illuminated by delicate brass oil lamps.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 12605
+D1
+~
+~
+0 0 12612
+D3
+~
+~
+0 0 12614
+S
+#12605
+`8An Improbability Psychoporter``~
+This relatively small chamber is more the size of a walk-in closet than
+that of a seperate room.  The walls and cielings have been completely
+covered in pure translucent blue crystal etched with line after line of
+runes.  Your feet stand in a small circle of like runes that have been
+etched in silver.  A gold sign has been carved into the panel before you.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 12604
+P SPEECH 12603 resident~
+P SPEECH 12602 library~
+P SPEECH 12601 meditation~
+P SPEECH 12600 observatory~
+P SPEECH 12604 antechamber~
+S
+#12606
+`8Library and Mind's Theory Study Chamber``~
+This room has a plethora of large, oaken table set in neat orderly lines.
+Each is set with four large, apholstered chairs and lit with brass sconces
+holding thick, scented candles.  The walls have been lined with tall
+bookshelves, laden with tomes of varying sizes, colors, shapes and topics. 
+A delicately built brass ladder runs on rails along the entire length of the
+shelves to grant access to the higher, out of reach books.  Attendants walk,
+run, levitate about helping others fetch the information they need.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 12607
+S
+#12607
+`8An Improbability Psychoporter``~
+This relatively small chamber is more the size of a walk-in closet than
+that of a seperate room.  The walls and cielings have been completely
+covered in pure translucent blue crystal etched with line after line of
+runes.  Your feet stand in a small circle of like runes that have been
+etched in silver.  A gold sign has been carved into the panel before you.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 12606
+P SPEECH 12603 resident~
+P SPEECH 12602 library~
+P SPEECH 12601 meditation~
+P SPEECH 12600 observatory~
+P SPEECH 12604 antechamber~
+S
+#12608
+`8Meditation Chambers``~
+This large room is stuffed to nearly bursting with large, soft pillows,
+and huge, comfy chairs.  Thick, scented candles burn in droves on wood and
+crystal stands set on the walls of the room, and radiate warmth and comfort.
+The room is scented by large chunks of exotic inscence sending whisps of
+blue-grey smoke spiraling into the air.  The smell, warmth, and quiet
+silence of the room is almost enough to put you sleep where you stand.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 12609
+S
+#12609
+`8An Improbability Psychoporter``~
+This relatively small chamber is more the size of a walk-in closet than
+that of a seperate room.  The walls and cielings have been completely
+covered in pure translucent blue crystal etched with line after line of
+runes.  Your feet stand in a small circle of like runes that have been
+etched in silver.  A gold sign has been carved into the panel before you.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 12608
+P SPEECH 12603 resident~
+P SPEECH 12602 library~
+P SPEECH 12601 meditation~
+P SPEECH 12600 observatory~
+P SPEECH 12604 antechamber~
+S
+#12610
+`8The Obervatory``~
+This round room is surrounded on all sides by large, seamless windows. 
+Beneath them all, large, plush cushions have been set around a huge crystal
+ball set in a brass cradle.  A few of the Tower's residents are sitting
+around the ball, with outstretched hands, and closed eyes.  Their rythmic
+chanting can be heard throughout the room, echoing off of the polished
+marble walls.  The scene is simply amazing, Val Miran to the west, and the
+City of Rheydin cradled in the Dragon Tooth Mountains to the east.  
+~
+~
+0 0 0 0
+D0
+~
+~
+0 0 12611
+S
+#12611
+`8An Improbability Psychoporter``~
+This relatively small chamber is more the size of a walk-in closet than
+that of a seperate room.  The walls and cielings have been completely
+covered in pure translucent blue crystal etched with line after line of
+runes.  Your feet stand in a small circle of like runes that have been
+etched in silver.  A gold sign has been carved into the panel before you.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 12610
+P SPEECH 12603 resident~
+P SPEECH 12602 library~
+P SPEECH 12601 meditation~
+P SPEECH 12600 observatory~
+P SPEECH 12604 antechamber~
+S
+#12612
+`8The Residential Hallway``~
+This hall is lined with doors assigned to the resident psionicists
+dedicated to maintaining and teaching within the tower.  Each door is set
+with a plaquard bearing the title of it's resident and their official title.
+The carpet here is just as thick as it is in the Antechamber of Thought, and
+the walls are made of rich oak, embossed with brass railings, and
+illuminated by delicate brass oil lamps. 
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 12613
+D3
+~
+~
+0 0 12604
+S
+#12613
+`8The Residential Hallway``~
+This hall is lined with doors assigned to the resident psionicists
+dedicated to maintaining and teaching within the tower.  Each door is set
+with a plaquard bearing the title of it's resident and their official title.
+The carpet here is just as thick as it is in the Antechamber of Thought, and
+the walls are made of rich oak, embossed with brass railings, and
+illuminated by delicate brass oil lamps.  
+~
+~
+0 0 0 0
+D3
+~
+~
+0 0 12612
+S
+#12614
+`8The Residential Hallway``~
+This hall is lined with doors assigned to the resident psionicists
+dedicated to maintaining and teaching within the tower.  Each door is set
+with a plaquard bearing the title of it's resident and their official title.
+The carpet here is just as thick as it is in the Antechamber of Thought, and
+the walls are made of rich oak, embossed with brass railings, and
+illuminated by delicate brass oil lamps. 
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 12604
+D3
+~
+~
+0 0 12615
+S
+#12615
+`8The Residential Hallway``~
+This hall is lined with doors assigned to the resident psionicists
+dedicated to maintaining and teaching within the tower.  Each door is set
+with a plaquard bearing the title of it's resident and their official title.
+The carpet here is just as thick as it is in the Antechamber of Thought, and
+the walls are made of rich oak, embossed with brass railings, and
+illuminated by delicate brass oil lamps.  
+~
+~
+0 0 0 0
+D1
+~
+~
+0 0 12614
+S
+#12650
+`8The Three Trials``~
+You stand in an area that can only be described as a perfect grey cube. 
+The walls are of some grey substance which you do not recognize.  There is
+no visible exit.  
+~
+~
+0 8456 0 0
+S
+#12651
+`8Entering the Trials``~
+~
+~
+0 8456 0 0
+D0
+~
+~
+0 0 12652
+S
+#12652
+`8The First Trial``~
+You stand in an area that can only be described as a perfect grey cube. 
+The walls are of some grey substance which you do not recognize.  On the
+north wall there is a black outline of a doorway.  
+~
+~
+0 134226184 0 0
+D0
+~
+~
+BF 0 12652
+P EXALL 12652 north~
+S
+#12653
+`8The Second Trial``~
+You stand in an area that can only be described as a perfect grey cube. 
+The walls are of some grey substance which you do not recognize.  There is
+no visible exits except for two painting-like portals on east and west wall.
+~
+~
+0 8456 0 0
+S
+#12654
+`8The Second Trial``~
+You stand in an area that can only be described as a perfect grey cube. 
+The walls are of some grey substance which you do not recognize.  There is
+no visible exits except for two painting-like portals on east and west wall.
+~
+~
+0 8456 0 0
+S
+#12655
+`8Third Trial``~
+The room is a small and reminds you of a cabin much like a hunter
+cabin found deep in the woods oft visited by rangers in search of
+valuable prey.
+~
+~
+0 8456 0 0
+D0
+~
+cabin door~
+ABG 0 12656
+S
+#12656
+`8Third Trial``~
+You stand in an area that can only be described as a perfect grey cube.  The walls
+are of some grey substance which you do not recognize.  The north wall appears to
+be some sort of smokey mirror that you might be able to examine in more detail.
+There is no visible exits.
+~
+~
+0 134226184 0 0
+E
+smokey mirror north wall~
+The north wall seems to be much like a smokey window.  You peer through trying
+to gather some detail but notice nothing except for a shadowy outline of  
+someone standing before you on the other side.  When you try to touch it your
+finger passes right through.
+~
+D0
+~
+~
+0 0 12657
+S
+#12657
+`8Third Trial``~
+You stand in an area that can only be described as a perfect grey cube. 
+The walls are of some grey substance which you do not recognize.  The south
+wall appears to be some sort of smokey mirror that you might be able to
+examine in more detail.  There is no visible exits.  
+~
+~
+0 134226184 0 0
+E
+smokey mirror north wall~
+The north wall seems to be much like a smokey window.  You peer through trying
+to gather some detail but notice nothing except for a shadowy outline of  
+someone standing before you on the other side.  When you try to touch it your
+finger passes right through.
+~
+E
+smokey mirror south wall~
+The south wall seems to be much like a smokey window.  You peer through
+trying to gather some detail but notice nothing except for a shadowy outline
+of someone standing before you on the other side.  When you try to touch it
+your finger passes right through.  
+~
+D2
+~
+~
+M 0 12656
+S
+#12658
+`8Third Trial``~
+The room is a small and reminds you of a cabin much like a hunter
+cabin found deep in the woods oft visited by rangers in search of
+valuable prey.
+~
+~
+0 8456 0 0
+D0
+~
+cabin door~
+AB 0 12659
+S
+#12659
+`8Third Trial``~
+You stand in an area that can only be described as a perfect grey
+rectangle.  The walls are of some grey substance which you do not recognize.
+The tunnel continues north.  
+~
+~
+0 8456 0 0
+E
+smokey mirror north wall~
+The north wall seems to be much like a smokey window.  You peer through trying
+to gather some detail but notice nothing except for a shadowy outline of  
+someone standing before you on the other side.  When you try to touch it your
+finger passes right through.
+~
+D0
+~
+~
+0 0 12662
+S
+#12660
+`8The Three Trials``~
+You stand in an area that can only be described as a perfect grey cube. 
+The walls are of some grey substance which you do not recognize.  There is
+an exit leading north.  
+~
+~
+0 8456 0 0
+D0
+~
+~
+0 0 12665
+S
+#12661
+`8Third Trial``~
+You stand in an area that can only be described as a perfect grey
+rectangle.  The walls are of some grey substance which you do not recognize.
+The tunnel continues south.  
+~
+~
+0 8456 0 0
+E
+smokey mirror north wall~
+The north wall seems to be much like a smokey window.  You peer through trying
+to gather some detail but notice nothing except for a shadowy outline of  
+someone standing before you on the other side.  When you try to touch it your
+finger passes right through.
+~
+D2
+~
+~
+0 0 12664
+S
+#12662
+`8Third Trial``~
+You stand in an area that can only be described as a perfect grey
+rectangle.  The walls are of some grey substance which you do not recognize.
+The tunnel continues north and south.  
+~
+~
+0 8456 0 0
+E
+smokey mirror north wall~
+The north wall seems to be much like a smokey window.  You peer through trying
+to gather some detail but notice nothing except for a shadowy outline of  
+someone standing before you on the other side.  When you try to touch it your
+finger passes right through.
+~
+D0
+~
+~
+0 0 12663
+D2
+~
+~
+0 0 12659
+S
+#12663
+`8Third Trial``~
+You stand in an area that can only be described as a perfect grey
+rectangle.  The walls are of some grey substance which you do not recognize.
+The tunnel continues north and south.  
+~
+~
+0 8456 0 0
+E
+smokey mirror north wall~
+The north wall seems to be much like a smokey window.  You peer through trying
+to gather some detail but notice nothing except for a shadowy outline of  
+someone standing before you on the other side.  When you try to touch it your
+finger passes right through.
+~
+D0
+~
+~
+0 0 12664
+D2
+~
+~
+0 0 12662
+S
+#12664
+`8Third Trial``~
+You stand in an area that can only be described as a perfect grey
+rectangle.  The walls are of some grey substance which you do not recognize.
+The tunnel continues north and south.  
+~
+~
+0 8456 0 0
+E
+smokey mirror north wall~
+The north wall seems to be much like a smokey window.  You peer through trying
+to gather some detail but notice nothing except for a shadowy outline of  
+someone standing before you on the other side.  When you try to touch it your
+finger passes right through.
+~
+D0
+~
+~
+0 0 12661
+D2
+~
+~
+0 0 12663
+S
+#12665
+`8The Three Trials``~
+You stand in an area that can only be described as a perfect grey cube. 
+The walls are of some grey substance which you do not recognize.  There is
+an exit leading north.  
+~
+~
+0 8456 0 0
+D0
+~
+~
+ABCFG 0 12601
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#12659
+circle of death~
+The circle of death flares with power!~
+The circle of death flares with power!~
+damage 60 AFHL
+flame 10000 1 1 1
+#0
+
+#RESETS
+M 0 12601 1 12601 1
+M 0 12601 1 12601 1
+O 0 12603 0 12603
+O 0 12603 0 12605
+M 0 12606 1 12606 1
+O 0 12603 0 12607
+O 0 12603 0 12607
+O 0 12603 0 12609
+O 0 12603 0 12611
+M 0 12650 1 12650 1
+M 0 12651 1 12651 1
+O 0 12652 0 12652
+O 0 12655 0 12653
+O 0 12656 0 12653
+O 0 12653 0 12654
+O 0 12654 0 12654
+M 0 12657 1 12657 1
+O 0 12659 0 12659
+T 0 12659 0 12659 0
+O 0 12660 0 12659
+M 0 12660 1 12665 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#12600
+if hasquest $n 'attempted to become a Psionicists.'
+  if hasquest $n 'been allowed to retry the Trials of Minds Eye.'
+    nod $n
+  else
+    mob remquest $n to seek out the Tower of Minds Eye.
+    'You have already failed the Trials Once $N.
+    'You may not attempt them again.
+    mob stop $n
+    break
+  endif
+endif
+'We have been waiting for you $N...
+mob echoaround $n `&With a flash of light $N disappears!``
+mob echoat $n `&With a flash of light you find yourself somewhere else!``
+mob transfer $n 12650
+~
+#12601
+if isimmort $n
+  break
+endif
+if hasquest $n 'to seek out the Tower of Minds Eye.'
+or hasquest $n 'been allowed to retry the Trials of Minds Eye.'
+  mob stop $n
+  mob call 12600 $n null null
+  break
+endif
+if isbloody $n
+  mob echoat $n `&You get the feeling that the turmoil in your mind could upset the tranquility within.``
+  mob echoat $n `&You feet seem to stop advancing of their own accord.``
+  mob stop $n
+  break
+endif
+if class $n Psionicist
+  mob echoat $n `&A feeling of welcome fills your mind as you advance through the gate.``
+  break
+else
+  mob echoat $n `&A feeling of violation fills your mind as you approach the gate.``
+  mob echoat $n `&Perhaps your mind knows that you do not belong here.``
+  mob stop $n
+endif
+~
+#12603
+if isnpc $n
+  break
+else
+  room echo A gold sign grows a small mouth, inhales deeply and begins to speak.
+  room echo A gold sign says `#Brothers and Sisters of the Mind's Eye:``
+  room echo A gold sign says `#We all know full and well that walking is for those who wish to do so, or
+  room echo A gold sign says `#lack the power to do otherwise.  We have recently contracted the Psychoporation
+  room echo A gold sign says `#Guild to devise these gates to take you where you need to go.  Merely say
+  room echo A gold sign says `#the name of the room you wish to go to, and if you really want to go there,
+  room echo A gold sign says `#you should in `*theory`` end up there.  However in the slight chance you do NOT,
+  room echo A gold sign says `#the management is not to be held liable.  Your destinations are as follows:
+endif
+~
+#12606
+if rand 30
+  emote strolls along casually among an entorage of students.
+  emote spreads his stubby little arms out to emphasize a point.
+  mob echo Abo's feet get tangled in his oversized robes, and send him sprawling to the floor.
+  emote bolts upright, floats about the area, and begins yelling at the innocent bystanders.
+else
+  if rand 50
+    emote levitates to fetch a book from a high shelf.
+    emote concentrates deeply as beads of sweat appear on his forehead.
+    mob echo The book hovers for a moment and begins to quiver.
+    mob echo It then ignites in blue flames, grows spikes, and flies about the room spewing poison gas.
+    eyebr
+    sa Erm...  Take notes.  That will be included in your next tests.
+  else
+    mob echo You hear a low rumbling sound, and Abo grabs his stomach and peers around himself.
+    emote grabs a passing attendant by the shoulders, and looks up into his eyes.
+    emote concentrates deeply as beads of sweat appear on his forehead.
+    mob echo A passing attendant mutters '`#Must...bring...Abo...a...ham...sandwhich...``'
+    mob echo A passing attendant walks dazedly towards the kitchens.
+    smile
+  endif
+endif
+~
+#12650
+if players < 1
+  break
+endif
+'Before you lie the Three Trials which shall test your worth.
+'If you succeed you shall join the Tower of the Mind's Eye.
+'Failure will be announced through your death.
+'Prepare yourself for we are about to begin...
+mob delay 1
+~
+#12651
+mob echo `&The room suddenly looks very different!``
+mob echo ```
+mob transfer all 12651
+~
+#12652
+if players < 1
+or isdelay $i
+  break
+endif
+'Beyond this door lies the First Trial.  Enter ONLY if you believe you are ready.
+'You may attempt the Three Trials only once, and Time is against you.
+'Take more then two days, and you will fail.
+'Good luck and may your mind and eyes be your weapons.
+mob delay 24
+~
+#12653
+if isdelay $i
+  mob remquest $n to seek out the Tower of Minds Eye.
+  mob inviquest $n attempted to become a Psionicists.
+  restore $n
+  mob cast 'timer' 48 $n
+  break
+else
+  mob echoat $n Try as you might you cannot make your legs move!
+  mob stop $n
+endif
+~
+#12654
+mob echo As $I lands the deathblow it clutches its heart!
+mob echo $I `1does UNSPEAKABLE things to`` itself.
+mob echo $I disappears.
+mob echo `&The room suddenly looks very different!``
+mob echo ```
+mob transfer all 12660
+mob attrib self timer = 1
+mob goto 1
+~
+#12655
+mob echoat $n As you land the deathblow you feel a terrible pain in your chest.
+mob echoat $n You `1do UNSPEAKABLE things to`` yourself.
+mob echoaround $n $I `1does UNSPEAKABLE things to`` himself.
+mob damage $n 10000 10000 kill
+~
+#12656
+if name $i antimage
+  mob call 12657 $i null null
+endif
+if getdelay > 0
+  mob delay 0
+  break
+else
+  mob delay 6
+endif
+if class $n invoker
+  mob cast 'flame arrow'
+  break
+endif
+if class $n necromancer
+  mob cast 'acid blast'
+  break
+endif
+if class $n battlemage
+  mob cast 'sharpmetal'
+  break
+endif
+if class $n monk
+  kick
+  break
+endif
+~
+#12657
+if isimmort $n
+or isnpc $n
+or isdelay $i
+  break
+endif
+set string char self short $N
+set string char self name Anti-$N
+if class $n monk
+  mob cast 'haste' $i
+endif
+mob delay 24
+murder $n
+~
+#12660
+if isdelay $i
+  smile
+  'Well done $N.  Sometimes it is fear that is our greatest enemy.
+  mob echo $I changes its form into The Examiner and disappears.
+  mob stop $n
+  mob echo `&The room suddenly looks very different!``
+  mob echo ```
+  mob transfer all 12660
+  mob attrib self timer = 1
+  mob goto 1
+  break
+endif
+pmote grins horribly as you step closer.
+mob echoat $n You decide to reconsider before making your final decision.
+mob stop $n
+mob delay 24
+~
+#12661
+pmote grins horribly as it notices you near the circle.
+pmote draws its weapons which look massive enough to kill in a single blow.
+snarl
+~
+#12664
+mob echoat $n As you step through the door everything goes black.
+mob echoat $n ```
+mob echoat $n You wake up.
+mob echoat $n ```
+~
+#12665
+if isnpc $n
+  break
+endif
+if affspell $n 'timer'
+  'Congratulations $N.  You are one of the few whom have passed the Trials.
+  'Welcome to the Tower of Mind's Eye.
+  mob permquest $n `7Passed the Trials of Minds Eye.``
+  remquest $n been allowed to retry the Trials of Minds Eye.	
+  qpsi $n
+  qtransfer $n
+  mob echo The door unlocks itself.
+  mob rattrib north - locked
+  affstrip $n timer
+  break
+else
+ 'Congratulations $N.  You are one of the few whom have passed the Trials.
+ 'Alas you have taken far too long to do so.  And when working at speed of Thought..
+ 'Those who do not hurry, die.
+ if hasquest $n 'been allowed to retry the Trials of Minds Eye.'
+    'You've had your chances, now begone.
+    remquest $n been allowed to retry the Trials of Minds Eye.
+ else
+   'Return to the tower when you think you can better, you shall have one more chance.
+   permquest $n been allowed to retry the Trials of Minds Eye.
+ endif
+ mob transfer $n 12600
+endif
+~
+#0
+
+M 12606 0 serin_warrior.prg NL
+S
+
+
+
+
+#OBJPROGS
+#12603
+if isnpc $n
+  break
+else
+  obj echo A gold sign grows a small mouth, inhales deeply and begins to speak.
+  obj echo A gold sign says '`&Antechamber`` `#of Thought.``
+  obj echo A gold sign says '`&Resident`` `#Dormitories.``
+  obj echo A gold sign says '`&Library`` `#and Mind's Theory Study Chambers.``
+  obj echo A gold sign says '`&Meditation`` `#Chambers.``
+  obj echo A gold sign says '`&Observatory.``
+endif
+~
+#12651
+if affspell $n 'pass door'
+  break
+else
+  obj cast 'pass door' $n
+endif
+~
+#12652
+if players > 0
+  obj pfor room $r call 12651 # null null
+endif
+if exit north door
+  obj echo The door disappears.
+  obj rattrib north - door
+  obj rattrib north + closed
+  obj rattrib north + nopass
+  break
+endif
+obj echo An open door appears north of you.
+obj rattrib north + door
+obj rattrib north - closed
+obj rattrib north - nopass
+~
+#12653
+if hasquest $n 'psi portal west warning'
+  obj echoat $n `&The room suddenly looks very different!``
+  obj echoat $n  ```
+  obj remquest $n psi portal west warning
+  if rand 40
+    obj transfer $n 12655
+  else
+    obj transfer $n 12658
+  endif
+  break
+endif
+obj echoat $n A feeling of terrible danger overcomes you and you stop
+obj echoat $n to make sure this is the portal you wish to use.
+obj inviquest $n psi portal west warning
+~
+#12654
+if hasquest $n 'psi portal east warning'
+  obj echoat $n The Illusion `1does UNSPEAKABLE things to`` you!
+  obj echoaround $n The Illusion `1does UNSPEAKABLE things to`` $N!
+  obj remquest $n psi portal east warning
+  obj damage $n 10000 10000 kill
+  break
+endif
+obj echoat $n A feeling of terrible danger overcomes you and you stop
+obj echoat $n to make sure this is the portal you wish to use.
+obj inviquest $n psi portal east warning
+~
+#12658
+~
+#12659
+if isnpc $n
+  break
+endif
+if mobexists !12656!
+  if mobhere !12656!
+    obj purge !12656!
+  endif
+  break
+else
+ obj goto 12661
+ obj mload 12656
+ obj path 12659 12656
+ obj goto 12659
+ obj echo You hear a loud snarl from the north.
+endif
+~
+#12660
+if mobexists !12656!
+  if mobhere !12656!
+    break
+  else
+    obj echoat $n Are you crazy? The demon is on its way through there!
+    obj stop $n
+  endif
+else
+ obj goto 12661
+ obj mload 12656
+ obj path 12659 12656
+ obj goto 12659
+ obj stop $n
+ obj echo You hear a loud snarl from the north and stop to reconsider.
+endif
+~
+#0
+
+#ROOMPROGS
+#12600
+if isnpc $n
+  break
+else
+  if rand 30
+    room echoat $n `@You feel a slight pull behind your navel and everything goes black.``
+    room echoat $n `@As you regain consciousness, you find yourself in The Observatory.``
+    room gtrans $n 12610
+    room echo $n disappears in a puff of logic and a whiff of inscense.
+  else
+    if rand 50
+      room echoat $n `@As you utter the words, your head feels as though it is going to split open.``
+      room echoat $n `@You reach down to retrieve your brain, and then realize its still in your head.``
+      room echoat $n `@You're also in The Observatory...  Go figure.``
+      room gtrans $n 12610
+      room echo $n disappears in a puff of logic and a whiff of inscense.
+    else
+      room echoat $n `@As the words pass your lips, you are hurtled through space and time at great speed.``
+      room echoat $n `@You manage to crack your eyelids, and see the words you just spoke speeding next to you.``
+      room echoat $n `@You sure must be going fast.``
+      room gtrans $n 12610
+      room echo $n disappears in a puff of logic and a whiff of inscense.
+    endif
+  endif
+endif
+~
+#12601
+if isnpc $n
+  break
+else
+  if rand 30
+    room echoat $n `@You feel a slight pull behind your navel and everything goes black.``
+    room echoat $n `@As you regain consciousness, you find yourself in The Meditation Chambers.``
+    room gtrans $n 12608
+    room echo $n disappears in a puff of logic and a whiff of inscense.
+  else
+    if rand 50
+      room echoat $n `@As you utter the words, your head feels as though it is going to split open.``
+      room echoat $n `@You reach down to retrieve your brain, and then realize its still in your head.``
+      room echoat $n `@You're also in The Meditation Chambers...  Go figure.``
+      room gtrans $n 12608
+      room echo $n disappears in a puff of logic and a whiff of inscense.
+    else
+      room echoat $n `@As the words pass your lips, you are hurtled through space and time at great speed.``
+      room echoat $n `@You manage to crack your eyelids, and see the words you just spoke speeding next to you.``
+      room echoat $n `@You sure must be going fast.``
+      room gtrans $n 12608
+      room echo $n disappears in a puff of logic and a whiff of inscense.
+    endif
+  endif
+endif
+~
+#12602
+if isnpc $n
+  break
+else
+  if rand 30
+    room echoat $n `@You feel a slight pull behind your navel and everything goes black.``
+    room echoat $n `@As you regain consciousness, you find yourself in The Library and Mind's Theory Study Chamber.``
+    room gtrans $n 12606
+    room echo $n disappears in a puff of logic and a whiff of inscense.
+  else
+    if rand 50
+      room echoat $n `@As you utter the words, your head feels as though it is going to split open.``
+      room echoat $n `@You reach down to retrieve your brain, and then realize its still in your head.``
+      room echoat $n `@You're also in The Library and Mind's Theory Study Chamber...  Go figure.``
+      room gtrans $n 12606
+      room echo $n disappears in a puff of logic and a whiff of inscense.
+    else
+      room echoat $n `@As the words pass your lips, you are hurtled through space and time at great speed.``
+      room echoat $n `@You manage to crack your eyelids, and see the words you just spoke speeding next to you.``
+      room echoat $n `@You sure must be going fast.``
+      room gtrans $n 12606
+      room echo $n disappears in a puff of logic and a whiff of inscense.
+    endif
+  endif
+endif
+~
+#12603
+if isnpc $n
+  break
+else
+  if rand 30
+    room echoat $n `@You feel a slight pull behind your navel and everything goes black.``
+    room echoat $n `@As you regain consciousness, you find yourself in The The Residential Hall.``
+    room gtrans '$n' 12604
+    room echo $n disappears in a puff of logic and a whiff of inscense.
+  else
+    if rand 50
+      room echoat $n `@As you utter the words, your head feels as though it is going to split open.``
+      room echoat $n `@You reach down to retrieve your brain, and then realize its still in your head.``
+      room echoat $n `@You're also in The The Residential Hall...  Go figure.``
+      room gtrans '$n' 12604
+      room echo $n disappears in a puff of logic and a whiff of inscense.
+    else
+      room echoat $n `@As the words pass your lips, you are hurtled through space and time at great speed.``
+      room echoat $n `@You manage to crack your eyelids, and see the words you just spoke speeding next to you.``
+      room echoat $n `@You sure must be going fast.``
+      room gtrans '$n' 12604
+      room echo $n disappears in a puff of logic and a whiff of inscense.
+    endif
+  endif
+endif
+~
+#12604
+if isnpc $n
+  break
+else
+  if rand 30
+    room echoat $n `@You feel a slight pull behind your navel and everything goes black.``
+    room echoat $n `@As you regain consciousness, you find yourself in the Antechamber of Thought.``
+    room gtrans $n 12602
+    room echo $n `&disappears in a puff of logic and a whiff of inscense.``
+  else
+    if rand 50
+      room echoat $n `@As you utter the words, your head feels as though it is going to split open.``
+      room echoat $n `@You reach down to retrieve your brain, and then realize its still in your head.``
+      room echoat $n `@You're also in the Antechamber of Thought...  Go figure.``
+      room gtrans $n 12602
+      room echo $n `&disappears in a puff of logic and a whiff of inscense.``
+    else
+      room echoat $n `@As the words pass your lips, you are hurtled through space and time at great speed.``
+      room echoat $n `@You manage to crack your eyelids, and see the words you just spoke speeding next to you.``
+      room echoat $n `@You sure must be going fast.``
+      room gtrans $n 12602
+      room echo $n `&disappears in a puff of logic and a whiff of inscense.``
+    endif
+  endif
+endif
+~
+#12652
+if exit north closed
+  room echoat $n As you are about to hit the closed door it opens!
+  room echo The door north of you opens and you walk right through.
+  room stop $n
+  room echoat $n `&The room suddenly looks very different!``
+  room echoat $n  ```
+  if rand 50
+    room transfer $n 12653
+  else
+    room transfer $n 12654
+  endif
+  break
+endif
+room echo The door slams shut just as you are about to reach it.
+room echoat $n The door is closed.
+room stop $n
+room rattrib north - door
+room rattrib north + closed
+room rattrib north + nopass
+~
+#0
+
+#$

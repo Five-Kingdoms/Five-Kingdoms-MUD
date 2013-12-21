@@ -1,0 +1,2185 @@
+#AREADATA
+Name the Godswall Lowlands~
+Pref ~
+Builders Crypticant~
+VNUMs 4300 4399
+Max_Bastions 3
+Credits { 5 15} Cryptica The Godswall Lowlands~
+Security 9
+Startroom 4365
+Flags 0
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#4300
+half-elf scout~
+a half-elf scout~
+A half-elf scout patrols the lowlands here.
+~
+As tall an any human, this elf-human crossbreed serves the patrol of the
+lowlands elves to keep his home safe from intruders.
+~
+half-elf~
+ACGd A DFJP 0 0 0
+18 5 10d5+300 0d0+100 2d8+7 slash
+-2 -2 -3 -3
+KN 0 B Z
+stand stand either none~
+12
+AHMV ABCDEFGHIJK medium 0
+#4301
+elf sentry lowlands~
+a lowlands elf sentry~
+A lowlands elf sentry lurks in the tall grasslands here.
+~
+Nearly as tall as a human, this elf is assigned with the task of keeping
+unwanted intruders from entering the lowlands, and deeper within, Grayldemir.
+~
+elf~
+ABd A DFJP 0 1000 0
+22 5 10d5+500 0d0+100 2d8+7 slash
+-4 -4 -4 -4
+FNU 0 B Z
+stand stand either none~
+16
+AHMV ABCDEFGHIJK medium 0
+#4302
+elf scout lowlands~
+a lowlands elf light scout~
+A lowlands elf light scout walks a silent patrol here.
+~
+The elf notices your intrusion and attacks with determination.
+~
+elf~
+ACGd A DFJP 0 1000 0
+18 5 10d5+300 0d0+100 2d8+7 slash
+-2 -2 -3 -3
+KNU 0 B Z
+stand stand either none~
+16
+AHMV ABCDEFGHIJK medium 0
+#4303
+elf watchman~
+an elf watchman~
+An elf watchman is here, keeping a watchful eye over the grounds.
+~
+Very young, yet stern looking, this is probably his first term in this
+regiment, and he seems to take his job too seriously.
+~
+elf~
+AGd A JP 0 1000 0
+22 5 10d5+500 0d0+100 4d5+10 none
+-4 -4 -4 -4
+FN 0 B Z
+stand stand male none~
+10
+AHMV ABCDEFGHIJK medium 0
+#4304
+master elf scout~
+the Master Elf Scout~
+The Master Elf Scout is here, keeping track of his troops.
+~
+Covered in many battle scars, this warrior has proven himself better than the
+other fighters and was given a higher rank. He spends most of his time just
+watching others fight and honing his battle skills.
+~
+elf~
+AGUe A HJPV 0 1000 0
+30 45 4d6+1200 0d0+100 4d6+30 slash
+-20 -15 -15 0
+DFIKN AB B Z
+stand stand male none~
+12
+AHMV ABCDEFGHIJK huge 0
+P GREET 12318 100~
+#4305
+elf elder lowlands~
+a lowlands elf elder~
+An elder of the Lowlands Elves is here, tending to the wounded.
+~
+This elf looks quite old, probably twenty or more times your age.  She looks
+quite potent, though.
+~
+elf~
+ABCRe A JNP 0 1000 0
+22 5 10d10+370 10d10+100 4d5+10 none
+-1 -1 -1 5
+F A B Z
+stand stand female none~
+9
+AHMV ABCDEFGHIJK medium 0
+#4306
+antelope~
+an antelope~
+An antelope is here, peacefully munching on grass.
+~
+With horns and spots over coarse, brown hair, this beast is the spit and
+image of ... an antelope.
+~
+deer~
+AH A 0 0 0 0
+14 5 4d5+180 0d0+100 5d4+10 none
+-1 -1 -1 -1
+KN 0 0 0
+stand stand none none~
+9
+AGV ACDEFJKQ medium 0
+#4307
+deer stag~
+a male stag~
+A male stag lurks in the grasslands here.
+~
+You see before you a stunning stag deer. Long antlers covered in
+spring velvet shine with wicked tips. His hide is smooth and brown,
+and the stag is nearly fearless of you. He seems to find protection
+and comfort in this glade.
+~
+deer~
+ACd A J 0 0 0
+13 3 1d10+170 0d0+100 2d4+11 charge
+3 3 3 3
+KN 0 0 0
+stand stand male none~
+5
+AGV ACDEFJKQ medium 0
+#4308
+large doe~
+a doe~
+A large doe is here in the glade, grazing.
+~
+A large female doe stands here, looking at you calmly. She
+seems fearless here in the glade, and chews her cud idly as
+you observe her.
+~
+deer~
+ACd A J 0 0 0
+5 0 2d6+60 0d0+100 1d8+4 charge
+5 5 5 5
+EK 0 0 0
+stand stand female none~
+3
+AGV ACDEFJKQ medium 0
+#4385
+!crone! crone~
+an old crone~
+An old crone is here, sitting alongside the road.
+~
+This old, wrinkled crone looks like she's seen more than her
+fair share of the years. She's a withered old hag, but for some
+reason, she seems to radiate power...You figure it might not be
+such a fine idea to meddle with her.
+~
+gnome~
+ABGc AC J 0 0 0
+15 2 4d6+1000 1d1+1 5d6+5 none
+0 0 0 0
+0 BCDP 0 0
+stand stand female none~
+6
+AHMV ABCDEFGHIJK medium 0
+F vul BP
+P GRALL 4385 75~
+#0
+
+
+
+#OBJECTS
+#4301
+soft suede boots~
+a pair of soft suede boots~
+A pair of soft boots made from suede is here.~
+leather~
+armor 0 AG
+4 3 4 4 0
+5 100 10 P
+F
+A 2 2 0
+#4302
+deer hide leggings~
+some deer hide leggings~
+A set of leggings made from deer hide is here.~
+leather~
+armor 0 AF
+5 5 5 4 0
+5 100 10 P
+F
+A 5 2 0
+#4303
+fingerless work gloves~
+a set of fingerless work gloves~
+A set of work gloves missing their fingers is lying here.~
+leather~
+armor 0 AH
+3 4 4 4 0
+5 50 10 P
+F
+A 1 1 0
+#4304
+braided leather ring~
+a braided leather ring~
+A braided leather ring is lying here.~
+leather~
+jewelry 0 AB
+0 0 0 0 0
+5 70 23 P
+F
+A 19 1 0
+#4305
+scouts long spear~
+a scout's long spear~
+A very long spear is lying on the ground here.~
+wood~
+weapon 0 AN
+spear 5 4 thrust 0
+7 250 20 P
+F
+A 18 1 0
+F
+A 12 5 0
+F
+A 13 5 0
+#4306
+rawhide buckler~
+a rawhide buckler~
+A round rawhide buckler is lying on thr ground here.~
+rawhide~
+armor 0 AJ
+5 3 4 5 0
+5 200 20 P
+F
+A 18 1 0
+#4307
+scroll evil repulsion~
+a scroll of evil repulsion~
+A scroll is on the floor.~
+paper~
+scroll G A
+35 'enchant armor' '' '' ''
+20 10 1090 P
+#4308
+scroll defense armor shield~
+scroll of defense~
+A scroll is on the floor.~
+paper~
+scroll G A
+5 'shield' '' '' ''
+10 10 400 P
+#4309
+scroll create spring~
+scroll of springs~
+A scroll is on the floor.~
+paper~
+scroll G A
+10 'create spring' '' '' ''
+10 10 400 P
+#4310
+guardian sword~
+a guardian sword~
+A short, curved sword is lying here.~
+wood~
+weapon 0 AN
+sword 5 4 slash 0
+7 250 20 P
+F
+A 18 1 0
+F
+A 12 5 0
+F
+A 13 5 0
+#4311
+hunting knife~
+a hunting knife~
+A short, foldable hunting knife is lying on the ground here.~
+wood~
+weapon 0 AN
+dagger 5 4 stab 0
+7 250 20 P
+F
+A 18 1 0
+F
+A 12 5 0
+F
+A 13 5 0
+#4312
+deerskin tunic~
+a deerskin tunic~
+A tunic made of tanned deerskin is lying here.~
+steel~
+armor 0 AD
+4 4 4 2 0
+5 30 1080 P
+F
+A 20 -1 0
+#4365
+stone firepit fire pit rock~
+a stone firepit~
+A stone firepit is smoldering here.~
+rock~
+container 0 0
+10 0 0 10 0
+0 100 100 P
+#4366
+rabbit roast~
+a rabbit roast~
+A carcass of a roasted rabbit is lying here.~
+meat~
+food 0 A
+24 24 0 0 0
+1 50 12 P
+E
+roast rabbit wabbit~
+Well the rabbit looks rather dead.
+You guess that this once was a ferocious rabbit who's life now has
+changed to that of a tasty wabbit woast.
+~
+#4367
+bear's tooth~
+a bear's tooth~
+A long bear's tooth lies on the ground here.~
+bone~
+socket G AOX
+A 0 0 0 0
+0 10 5 P
+F
+A 17 -5 0
+F
+A 24 -1 0
+#4368
+silver dragon~
+a silver dragon~
+A strange silver dragon is lying on the ground here.~
+bone~
+socket G AOX
+B A 0 0 0
+0 10 800 P
+F
+A 24 -1 0
+#4369
+small stone well~
+a small stone well~
+A small stone well has been dug here.~
+bone~
+fountain 0 P
+-1 -1 'water' 0 0
+55 100 100 P
+#4370
+rod light neutrality~
+the Rod of Neutrality~
+A dull iron shaft is on the floor.~
+steel~
+light AGJK AX
+0 0 999 0 0
+20 10 15 P
+F
+A 19 3 0
+#4380
+cot~
+a small, unmade cot~
+A small, unmade cot is placed here.~
+bedding~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#4300
+`3The entrance to the lowlands``~
+You stand amid a broad, vast grassy lowlands. Along you, the 
+hills roll gently upward, finally apexing at a set of sharp, 
+craggy peaks that denote the Godswall mountains. Around
+you acres and acres of thick, lush grass lie in massive fields
+that are swept from time to time by cool mountain breezes,
+making an oceanic ripple effect wash over the grasslands.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 4301
+D2
+~
+~
+0 0 5902
+S
+#4301
+`3A grassy alpine meadow``~
+You stand amid a broad, vast grassy lowlands. Along you, the 
+hills roll gently upward, finally apexing at a set of sharp, 
+craggy peaks that denote the Godswall mountains. Around
+you acres and acres of thick, lush grass lie in massive fields
+that are swept from time to time by cool mountain breezes,
+making an oceanic ripple effect wash over the grasslands.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 4302
+D2
+~
+~
+0 0 4300
+S
+#4302
+`3A grassy alpine meadow``~
+You stand amid a broad, vast grassy lowlands. Along you, the 
+hills roll gently upward, finally apexing at a set of sharp, 
+craggy peaks that denote the Godswall mountains. Around
+you acres and acres of thick, lush grass lie in massive fields
+that are swept from time to time by cool mountain breezes,
+making an oceanic ripple effect wash over the grasslands.
+~
+~
+0 0 16384 2
+D1
+~
+~
+0 0 4303
+D2
+~
+~
+0 0 4301
+S
+#4303
+`3A grassy alpine meadow``~
+You stand amid a broad, vast grassy lowlands. Along you, the 
+hills roll gently upward, finally apexing at a set of sharp, 
+craggy peaks that denote the Godswall mountains. Around
+you acres and acres of thick, lush grass lie in massive fields
+that are swept from time to time by cool mountain breezes,
+making an oceanic ripple effect wash over the grasslands.
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 4304
+D3
+~
+~
+0 0 4302
+S
+#4304
+`3A rough game trail``~
+You find yourself walking down a narrow game trail, probably
+made by many deer that live within the lowlands. This trail is
+little more than a segment of parted grasses that lead in a
+sinewy fashion around the walls of the lowlands. Deeper below,
+you can see miles and miles of thick grasslands. The slight
+scent of campfire fills your nose.
+~
+~
+0 0 8192 2
+D1
+~
+~
+0 0 4305
+D2
+~
+~
+0 0 4303
+S
+#4305
+`3A rough game trail``~
+You find yourself walking down a narrow game trail, probably
+made by many deer that live within the lowlands. This trail is
+little more than a segment of parted grasses that lead in a
+sinewy fashion around the walls of the lowlands. Deeper below,
+you can see miles and miles of thick grasslands. The slight
+scent of campfire fills your nose.
+~
+~
+0 0 8192 2
+D1
+~
+~
+0 0 4306
+D3
+~
+~
+0 0 4304
+S
+#4306
+`3A rough game trail``~
+You find yourself walking down a narrow game trail, probably
+made by many deer that live within the lowlands. This trail is
+little more than a segment of parted grasses that lead in a
+sinewy fashion around the walls of the lowlands. Deeper below,
+you can see miles and miles of thick grasslands. The slight
+scent of campfire fills your nose.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 4307
+D3
+~
+~
+0 0 4305
+S
+#4307
+`3Deeper into the lowlands``~
+You are making your way deeper into the lowlands, along a narrow
+switchback that runs along the lip of the ridge. The roll down
+would be a steep one, but heavy grasses cover the entire ridge,
+making any fall not so perilous. You can hear the sound of the
+winds whispering through the fields, lulling you.
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 4308
+D2
+~
+~
+0 0 4306
+S
+#4308
+`3Along a switchback``~
+You are making your way deeper into the lowlands, along a narrow
+switchback that runs along the lip of the ridge. The roll down
+would be a steep one, but heavy grasses cover the entire ridge,
+making any fall not so perilous. You can hear the sound of the
+winds whispering through the fields, lulling you.
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 4309
+D2
+~
+~
+0 0 4307
+S
+#4309
+`3Along a switchback``~
+You are making your way deeper into the lowlands, along a narrow
+switchback that runs along the lip of the ridge. The roll down
+would be a steep one, but heavy grasses cover the entire ridge,
+making any fall not so perilous. You can hear the sound of the
+winds whispering through the fields, lulling you.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 4310
+D2
+~
+~
+0 0 4308
+S
+#4310
+`3Along a switchback``~
+You are making your way deeper into the lowlands, along a narrow
+switchback that runs along the lip of the ridge. The roll down
+would be a steep one, but heavy grasses cover the entire ridge,
+making any fall not so perilous. You can hear the sound of the
+winds whispering through the fields, lulling you.
+~
+~
+0 0 8192 2
+D1
+~
+~
+0 0 4311
+D2
+~
+~
+0 0 4309
+S
+#4311
+`3A windy trail``~
+You lie deep within the Lowlands of the Elves, walking along a
+very narrow and unhewn switchback. Around you, the massive grass
+plains that make up the Godswall lowlands rise up with grasses taller
+than an ogre. They sway back and forth gently as the wind runs
+through them.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 4324
+D2
+~
+~
+0 0 4312
+D3
+~
+~
+0 0 4310
+S
+#4312
+`3A southern switchback``~
+You lie deep within the Lowlands of the Elves, walking along a
+very narrow and unhewn switchback. Around you, the massive grass
+plains that make up the Godswall lowlands rise up with grasses taller
+than an ogre. They sway back and forth gently as the wind runs
+through them.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 4311
+D2
+~
+~
+0 0 4313
+S
+#4313
+`3A southern switchback``~
+You lie deep within the Lowlands of the Elves, walking along a
+very narrow and unhewn switchback. Around you, the massive grass
+plains that make up the Godswall lowlands rise up with grasses taller
+than an ogre. They sway back and forth gently as the wind runs
+through them.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 4312
+D1
+~
+~
+0 0 4363
+D2
+~
+~
+0 0 4314
+S
+#4314
+`3A southern switchback``~
+You lie deep within the Lowlands of the Elves, walking along a
+very narrow and unhewn switchback. Around you, the massive grass
+plains that make up the Godswall lowlands rise up with grasses taller
+than an ogre. They sway back and forth gently as the wind runs
+through them.
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 4313
+D2
+~
+~
+0 0 4315
+S
+#4315
+`3A southern switchback``~
+You lie deep within the Lowlands of the Elves, walking along a
+very narrow and unhewn switchback. Around you, the massive grass
+plains that make up the Godswall lowlands rise up with grasses taller
+than an ogre. They sway back and forth gently as the wind runs
+through them.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 4314
+D2
+~
+~
+0 0 4316
+S
+#4316
+`3A southern switchback``~
+You lie deep within the Lowlands of the Elves, walking along a
+very narrow and unhewn switchback. Around you, the massive grass
+plains that make up the Godswall lowlands rise up with grasses taller
+than an ogre. They sway back and forth gently as the wind runs
+through them.
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 4315
+D2
+~
+~
+0 0 4317
+S
+#4317
+`3A southern switchback``~
+You lie deep within the Lowlands of the Elves, walking along a
+very narrow and unhewn switchback. Around you, the massive grass
+plains that make up the Godswall lowlands rise up with grasses taller
+than an ogre. They sway back and forth gently as the wind runs
+through them.
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 4316
+D2
+~
+~
+0 0 4318
+S
+#4318
+`3A southern switchback``~
+You lie deep within the Lowlands of the Elves, walking along a
+very narrow and unhewn switchback. Around you, the massive grass
+plains that make up the Godswall lowlands rise up with grasses taller
+than an ogre. They sway back and forth gently as the wind runs
+through them.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 4317
+D1
+~
+~
+0 0 4319
+S
+#4319
+`3The Southern Godswall Lowlands``~
+Grasslands all around you! Here and there, small patches of grass
+have been cleared away, allowing you a view of the lowlands. On all
+four sides, large hills rise up, making this lowlands a very safe
+and secure point. At each end there seems to be a pass. You are
+nearest the southern end, at this point.
+~
+~
+0 0 16384 2
+D1
+~
+~
+0 0 4320
+D3
+~
+~
+0 0 4318
+S
+#4320
+`3The Southern Godswall Lowlands``~
+Grasslands all around you! Here and there, small patches of grass
+have been cleared away, allowing you a view of the lowlands. On all
+four sides, large hills rise up, making this lowlands a very safe
+and secure point. At each end there seems to be a pass. You are
+nearest the southern end, at this point.
+~
+~
+0 0 8192 2
+D1
+~
+~
+0 0 4321
+D3
+~
+~
+0 0 4319
+S
+#4321
+`3The Southern Godswall Lowlands``~
+Grasslands all around you! Here and there, small patches of grass
+have been cleared away, allowing you a view of the lowlands. On all
+four sides, large hills rise up, making this lowlands a very safe
+and secure point. At each end there seems to be a pass. You are
+nearest the southern end, at this point.
+~
+~
+0 0 32768 2
+D2
+~
+~
+0 0 4322
+D3
+~
+~
+0 0 4320
+S
+#4322
+`3Tall, grassy fields``~
+Miles and miles of nothing but tall, lush green grass. This truly
+is an elven heaven, for the acres of grasslands allow perfect hiding
+places for all of the woodland elves. You can smell deer musk in
+the air, alluding to the presence of wild game in this area.
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 4321
+D2
+~
+~
+0 0 4323
+S
+#4323
+`3Tall, grassy fields``~
+Miles and miles of nothing but tall, lush green grass. This truly
+is an elven heaven, for the acres of grasslands allow perfect hiding
+places for all of the woodland elves. You can smell deer musk in
+the air, alluding to the presence of wild game in this area.
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 4322
+D1
+~
+~
+0 0 4362
+S
+#4324
+`3The Northwestern Godswall Lowlands``~
+You stand amid the northwestern Godswall lowlands. Around you, large
+lush grasslands rise up around you, walling this lowlands in, in
+a gigantic circle. You can see where most of the travel seems to
+originate, as the western lowlands wall is covered in light game
+trails.
+~
+~
+0 0 65536 2
+D1
+~
+~
+0 0 4325
+D2
+~
+~
+0 0 4311
+S
+#4325
+`3The Northwestern Godswall Lowlands``~
+You stand amid the northwestern Godswall lowlands. Around you, large
+lush grasslands rise up around you, walling this lowlands in, in
+a gigantic circle. You can see where most of the travel seems to
+originate, as the western lowlands wall is covered in light game
+trails.
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 4326
+D3
+~
+~
+0 0 4324
+S
+#4326
+`3The Northwestern Godswall Lowlands``~
+You stand amid the northwestern Godswall lowlands. Around you, large
+lush grasslands rise up around you, walling this lowlands in, in
+a gigantic circle. You can see where most of the travel seems to
+originate, as the western lowlands wall is covered in light game
+trails.
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 4327
+D2
+~
+~
+0 0 4325
+S
+#4327
+`3The Northwestern Godswall Lowlands``~
+You stand amid the northwestern Godswall lowlands. Around you, large
+lush grasslands rise up around you, walling this lowlands in, in
+a gigantic circle. You can see where most of the travel seems to
+originate, as the western lowlands wall is covered in light game
+trails.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 4328
+D2
+~
+~
+0 0 4326
+S
+#4328
+`3The Northwestern Godswall Lowlands``~
+You stand amid the northwestern Godswall lowlands. Around you, large
+lush grasslands rise up around you, walling this lowlands in, in
+a gigantic circle. You can see where most of the travel seems to
+originate, as the western lowlands wall is covered in light game
+trails.
+~
+~
+0 0 65536 2
+D1
+~
+~
+0 0 4329
+D2
+~
+~
+0 0 4327
+S
+#4329
+`3A rocky road``~
+You emerge from the grasses on to a roughly paved road. Filled
+with deep potholes and covered in large rocks, the road oddly
+does seem very well traveled, and you can make out deep ruts
+in the roadbed where traveling merchants have carried their
+goods...to somewhere.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 4330
+D1
+~
+~
+0 0 4371
+D3
+~
+~
+0 0 4328
+S
+#4330
+`3A rocky road``~
+You find yourself walking along a roughly paved road. Filled
+with deep potholes and covered in large rocks, the road oddly
+does seem very well traveled, and you can make out deep ruts
+in the roadbed where traveling merchants have carried their
+goods to a nearby village.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 4331
+D2
+~
+~
+0 0 4329
+S
+#4331
+`3A rocky road``~
+You find yourself walking along a roughly paved road. Filled
+with deep potholes and covered in large rocks, the road oddly
+does seem very well traveled, and you can make out deep ruts
+in the roadbed where traveling merchants have carried their
+goods to a nearby village.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 4381
+D1
+~
+~
+0 0 4332
+D2
+~
+~
+0 0 4330
+S
+#4332
+`3A small deer trail``~
+You find yourself walking down a narrow game trail, probably
+made by many deer that live within the lowlands. This trail is
+little more than a segment of parted grasses that lead in a
+sinewy fashion in an almost aimless direction. 
+~
+~
+0 0 65536 2
+D1
+~
+~
+0 0 4333
+D3
+~
+~
+0 0 4331
+S
+#4333
+`3A small deer trail``~
+You find yourself walking down a narrow game trail, probably
+made by many deer that live within the lowlands. This trail is
+little more than a segment of parted grasses that lead in a
+sinewy fashion in an almost aimless direction. 
+~
+~
+0 0 8192 2
+D2
+~
+~
+0 0 4334
+D3
+~
+~
+0 0 4332
+S
+#4334
+`3A small deer trail``~
+You find yourself walking down a narrow game trail, probably
+made by many deer that live within the lowlands. This trail is
+little more than a segment of parted grasses that lead in a
+sinewy fashion in an almost aimless direction. 
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 4333
+D2
+~
+~
+0 0 4335
+S
+#4335
+`3A small deer trail``~
+You find yourself walking down a narrow game trail, probably
+made by many deer that live within the lowlands. This trail is
+little more than a segment of parted grasses that lead in a
+sinewy fashion in an almost aimless direction. 
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 4334
+D1
+~
+~
+0 0 4336
+D3
+~
+~
+0 0 4371
+S
+#4336
+`3A small deer trail``~
+You find yourself walking down a narrow game trail, probably
+made by many deer that live within the lowlands. This trail is
+little more than a segment of parted grasses that lead in a
+sinewy fashion in an almost aimless direction. 
+~
+~
+0 0 16384 2
+D2
+~
+~
+0 0 4337
+D3
+~
+~
+0 0 4335
+S
+#4337
+`3The Northeastern Godswall Lowlands``~
+You have emerged from a pathway through the grasses, back into
+somewhat open meadows. You find you are standing in the northerly
+end of the lowlands, toward a small pass that leads deeper into the
+mountains. North of you, two small hills come together, and if
+you are not mistaken, you think you may even see a road.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 4336
+D2
+~
+~
+0 0 4338
+S
+#4338
+`3The Northeastern Godswall Lowlands``~
+You have emerged from a pathway through the grasses, back into
+somewhat open meadows. You find you are standing in the northerly
+end of the lowlands, toward a small pass that leads deeper into the
+mountains. North of you, two small hills come together, and if
+you are not mistaken, you think you may even see a road.
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 4337
+D2
+~
+~
+0 0 4339
+S
+#4339
+`3The Northeastern Godswall Lowlands``~
+You have emerged from a pathway through the grasses, back into
+somewhat open meadows. You find you are standing in the northerly
+end of the lowlands, toward a small pass that leads deeper into the
+mountains. North of you, two small hills come together, and if
+you are not mistaken, you think you may even see a road.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 4338
+D1
+~
+~
+0 0 4340
+S
+#4340
+`3The Northeastern Godswall Lowlands``~
+You have emerged from a pathway through the grasses, back into
+somewhat open meadows. You find you are standing in the northerly
+end of the lowlands, toward a small pass that leads deeper into the
+mountains. North of you, two small hills come together, and if
+you are not mistaken, you think you may even see a road.
+~
+~
+0 0 65536 2
+D1
+~
+~
+0 0 4341
+D3
+~
+~
+0 0 4339
+S
+#4341
+`3A trail through the grass``~
+You seem to have found a semi-cleared region of the lowlands. Around
+you the grass stalks rise up in a truly labyrinthine fashion, but
+the trail, seemingly made by the local fauna, winds easily through
+the thick grasses, leading northward and roughly southwestward.
+~
+~
+0 0 65536 2
+D2
+~
+~
+0 0 4342
+D3
+~
+~
+0 0 4340
+S
+#4342
+`3A trail through the grass``~
+You seem to have found a semi-cleared region of the lowlands. Around
+you the grass stalks rise up in a truly labyrinthine fashion, but
+the trail, seemingly made by the local fauna, winds easily through
+the thick grasses, leading northward and roughly southwestward.
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 4341
+D2
+~
+~
+0 0 4343
+S
+#4343
+`3A trail through the grass``~
+You seem to have found a semi-cleared region of the lowlands. Around
+you the grass stalks rise up in a truly labyrinthine fashion, but
+the trail, seemingly made by the local fauna, winds easily through
+the thick grasses, leading northward and roughly southwestward.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 4342
+D3
+~
+~
+0 0 4344
+S
+#4344
+`3The Eastern Godswall Lowlands``~
+Grasslands obscure nearly all of your views. Here and there, 
+small patches of grass have been cleared away, allowing you 
+a peek of the lowlands. On all four sides, large hills rise up, 
+making this lowlands a very safe and secure point. At each end 
+there seems to be a pass. You currentl stand in between both
+of the passes.
+~
+~
+0 0 32768 2
+D1
+~
+~
+0 0 4343
+D2
+~
+~
+0 0 4345
+S
+#4345
+`3The Eastern Godswall Lowlands``~
+Grasslands obscure nearly all of your views. Here and there, 
+small patches of grass have been cleared away, allowing you 
+a peek of the lowlands. On all four sides, large hills rise up, 
+making this lowlands a very safe and secure point. At each end 
+there seems to be a pass. You currentl stand in between both
+of the passes.
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 4344
+D2
+~
+~
+0 0 4346
+S
+#4346
+`3The Eastern Godswall Lowlands``~
+Grasslands obscure nearly all of your views. Here and there, 
+small patches of grass have been cleared away, allowing you 
+a peek of the lowlands. On all four sides, large hills rise up, 
+making this lowlands a very safe and secure point. At each end 
+there seems to be a pass. You currentl stand in between both
+of the passes.
+~
+~
+0 0 8192 2
+D0
+~
+~
+0 0 4345
+D1
+~
+~
+0 0 4347
+S
+#4347
+`3The Eastern Godswall Lowlands``~
+Grasslands obscure nearly all of your views. Here and there, 
+small patches of grass have been cleared away, allowing you 
+a peek of the lowlands. On all four sides, large hills rise up, 
+making this lowlands a very safe and secure point. At each end 
+there seems to be a pass. You currentl stand in between both
+of the passes.
+~
+~
+0 0 8192 2
+D1
+~
+~
+0 0 4348
+D3
+~
+~
+0 0 4346
+S
+#4348
+`3The grasslands``~
+You stand deep within the grasslands that compose the Elven Lowlands.
+Large stalks of rich, thick green grass rise up all around you, and
+seem to obscure any of your view in the cardinal directions. The
+wind is still rather prevalent here, coursing idly through the large
+stalks with a gentle sigh.
+~
+~
+0 0 16384 2
+D2
+~
+~
+0 0 4349
+D3
+~
+~
+0 0 4347
+S
+#4349
+`3The grasslands``~
+You stand deep within the grasslands that compose the Elven Lowlands.
+Large stalks of rich, thick green grass rise up all around you, and
+seem to obscure any of your view in the cardinal directions. The
+wind is still rather prevalent here, coursing idly through the large
+stalks with a gentle sigh.
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 4348
+D2
+~
+~
+0 0 4350
+S
+#4350
+`3The grasslands``~
+The grasslands open up a bit here, turning into a large alpine
+meadow. Around you, the grasslands seem to sway and lull you into
+a quiet serenity. The meadow here consists of shortly trimmed grass,
+probably from all of the animals in the area. The wind seems quite
+a bit warmer down in these lower regions.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 4349
+D2
+~
+~
+0 0 4351
+S
+#4351
+`3A meandering meadow``~
+The grasslands open up a bit here, turning into a large alpine
+meadow. Around you, the grasslands seem to sway and lull you into
+a quiet serenity. The meadow here consists of shortly trimmed grass,
+probably from all of the animals in the area. The wind seems quite
+a bit warmer down in these lower regions.
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 4350
+D1
+~
+~
+0 0 4352
+S
+#4352
+`3A meandering meadow``~
+The grasslands open up a bit here, turning into a large alpine
+meadow. Around you, the grasslands seem to sway and lull you into
+a quiet serenity. The meadow here consists of shortly trimmed grass,
+probably from all of the animals in the area. The wind seems quite
+a bit warmer down in these lower regions.
+~
+~
+0 0 32768 2
+D2
+~
+~
+0 0 4353
+D3
+~
+~
+0 0 4351
+S
+#4353
+`3The Southeastern Godswall Lowlands``~
+Grasslands all around you! Here and there, small patches of grass
+have been cleared away, allowing you a view of the lowlands. On all
+four sides, large hills rise up, making this lowlands a very safe
+and secure point. At each end there seems to be a pass. You are
+nearest the southern end, at this point.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 4352
+D2
+~
+~
+0 0 4354
+S
+#4354
+`3The Southeastern Godswall Lowlands``~
+Grasslands all around you! Here and there, small patches of grass
+have been cleared away, allowing you a view of the lowlands. On all
+four sides, large hills rise up, making this lowlands a very safe
+and secure point. At each end there seems to be a pass. You are
+nearest the southern end, at this point.
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 4353
+D3
+~
+~
+0 0 4355
+S
+#4355
+`3The Southeastern Godswall Lowlands``~
+Grasslands all around you! Here and there, small patches of grass
+have been cleared away, allowing you a view of the lowlands. On all
+four sides, large hills rise up, making this lowlands a very safe
+and secure point. At each end there seems to be a pass. You are
+nearest the southern end, at this point.
+~
+~
+0 0 65536 2
+D1
+~
+~
+0 0 4354
+D2
+~
+~
+0 0 4356
+S
+#4356
+`3The Southeastern Godswall Lowlands``~
+Grasslands all around you! Here and there, small patches of grass
+have been cleared away, allowing you a view of the lowlands. On all
+four sides, large hills rise up, making this lowlands a very safe
+and secure point. At each end there seems to be a pass. You are
+nearest the southern end, at this point.
+~
+~
+0 0 32768 2
+D0
+~
+~
+0 0 4355
+D2
+~
+~
+0 0 4357
+S
+#4357
+`^A crisp stream``~
+You are walking through a very marshy part of the lowlands. It looks
+like a small stream runs southward through the southern mountain
+pass, leading into Luva. The stream seems to broaden into a much
+larger river as it winds carefully southward.
+~
+~
+0 0 0 6
+D0
+~
+~
+0 0 4356
+D3
+~
+~
+0 0 4358
+S
+#4358
+`^A crisp stream``~
+You are walking through a very marshy part of the lowlands. It looks
+like a small stream runs southward through the southern mountain
+pass, leading into Luva. The stream seems to broaden into a much
+larger river as it winds carefully southward.
+~
+~
+0 0 0 6
+D1
+~
+~
+0 0 4357
+D3
+~
+~
+0 0 4359
+S
+#4359
+`3A vast grassland``~
+Miles and miles of nothing but tall, lush green grass. This truly
+is an elven heaven, for the acres of grasslands allow perfect hiding
+places for all of the woodland elves. You can smell deer musk in
+the air, alluding to the presence of wild game in this area.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 4360
+D1
+~
+~
+0 0 4358
+S
+#4360
+`3A vast grassland``~
+Miles and miles of nothing but tall, lush green grass. This truly
+is an elven heaven, for the acres of grasslands allow perfect hiding
+places for all of the woodland elves. You can smell deer musk in
+the air, alluding to the presence of wild game in this area.
+~
+~
+0 0 16384 2
+D2
+~
+~
+0 0 4359
+D3
+~
+~
+0 0 4361
+S
+#4361
+`3A vast grassland``~
+Miles and miles of nothing but tall, lush green grass. This truly
+is an elven heaven, for the acres of grasslands allow perfect hiding
+places for all of the woodland elves. You can smell deer musk in
+the air, alluding to the presence of wild game in this area.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 4379
+D1
+~
+~
+0 0 4360
+D3
+~
+~
+0 0 4362
+S
+#4362
+`3A vast grassland``~
+Miles and miles of nothing but tall, lush green grass. This truly
+is an elven heaven, for the acres of grasslands allow perfect hiding
+places for all of the woodland elves. You can smell deer musk in
+the air, alluding to the presence of wild game in this area.
+~
+~
+0 0 16384 2
+D1
+~
+~
+0 0 4361
+D3
+~
+~
+0 0 4323
+S
+#4363
+`3A trail in the grass``~
+Yes, you seem to be lost in these tall grasses. Around you,
+everywhere you look seems to look just the same. There are
+few trails here, and while footing is easy, you have to hack
+a trail out before you. The grasslands almost seem to grow
+back as fast as you cut them away.
+~
+~
+0 0 16384 2
+D1
+~
+~
+0 0 4364
+D3
+~
+~
+0 0 4313
+S
+#4364
+`3A trail in the grass``~
+Yes, you seem to be lost in these tall grasses. Around you,
+everywhere you look seems to look just the same. There are
+few trails here, and while footing is easy, you have to hack
+a trail out before you. The grasslands almost seem to grow
+back as fast as you cut them away.
+~
+~
+0 0 65536 2
+D1
+~
+~
+0 0 4365
+D3
+~
+~
+0 0 4363
+S
+#4365
+`3A campsite``~
+You stand amid a small clearing that has been made in the grasslands. Here,
+a small stone circle holds a fire that is still smoldering. A small tent has
+been setup just north of you, seemingly to hold the elven guards and scouts
+that patrol this lowlands in a neverending manner. Something tasty seems to be
+cooking on the spit over the fire.
+~
+~
+0 0 65536 2
+D0
+~
+~
+0 0 4366
+D1
+~
+tentflap~
+AB 0 4380
+D2
+~
+~
+0 0 4372
+D3
+~
+~
+0 0 4364
+P RANDOM 4365 20~
+S
+#4366
+`2A trail in the grass``~
+Yes, you seem to be lost in these tall grasses. Around you,
+everywhere you look seems to look just the same. There are
+few trails here, and while footing is easy, you have to hack
+a trail out before you. The grasslands almost seem to grow
+back as fast as you cut them away.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 4367
+D2
+~
+~
+0 0 4365
+S
+#4367
+`2A trail in the grass``~
+Yes, you seem to be lost in these tall grasses. Around you,
+everywhere you look seems to look just the same. There are
+few trails here, and while footing is easy, you have to hack
+a trail out before you. The grasslands almost seem to grow
+back as fast as you cut them away.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 4368
+D2
+~
+~
+0 0 4366
+S
+#4368
+`2A trail in the grass``~
+Yes, you seem to be lost in these tall grasses. Around you,
+everywhere you look seems to look just the same. There are
+few trails here, and while footing is easy, you have to hack
+a trail out before you. The grasslands almost seem to grow
+back as fast as you cut them away.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 4369
+D2
+~
+~
+0 0 4367
+S
+#4369
+`2A trail in the grass``~
+Yes, you seem to be lost in these tall grasses. Around you,
+everywhere you look seems to look just the same. There are
+few trails here, and while footing is easy, you have to hack
+a trail out before you. The grasslands almost seem to grow
+back as fast as you cut them away.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 4370
+D2
+~
+~
+0 0 4368
+S
+#4370
+`2A trail in the grass``~
+Yes, you seem to be lost in these tall grasses. Around you,
+everywhere you look seems to look just the same. There are
+few trails here, and while footing is easy, you have to hack
+a trail out before you. The grasslands almost seem to grow
+back as fast as you cut them away.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 4371
+D2
+~
+~
+0 0 4369
+S
+#4371
+`3A broadening path``~
+The grasses seem to widen here, and slowly give way to a carpetlike
+lawn of soft, green grass. At increasing intervals, large rocks and
+pebbles are strewn about, as if some sort of road were lying nearby.
+Southward, all you can see is a giant wall of grasses.
+~
+~
+0 0 32768 2
+D1
+~
+~
+0 0 4335
+D2
+~
+~
+0 0 4370
+D3
+~
+~
+0 0 4329
+S
+#4372
+`2A trail in the grass``~
+Yes, you seem to be lost in these tall grasses. Around you,
+everywhere you look seems to look just the same. There are
+few trails here, and while footing is easy, you have to hack
+a trail out before you. The grasslands almost seem to grow
+back as fast as you cut them away.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 4365
+D2
+~
+~
+0 0 4373
+S
+#4373
+`2A trail in the grass``~
+Yes, you seem to be lost in these tall grasses. Around you,
+everywhere you look seems to look just the same. There are
+few trails here, and while footing is easy, you have to hack
+a trail out before you. The grasslands almost seem to grow
+back as fast as you cut them away.
+~
+~
+0 0 8192 3
+D0
+~
+~
+0 0 4372
+D2
+~
+~
+0 0 4374
+S
+#4374
+`2A trail in the grass``~
+Yes, you seem to be lost in these tall grasses. Around you,
+everywhere you look seems to look just the same. There are
+few trails here, and while footing is easy, you have to hack
+a trail out before you. The grasslands almost seem to grow
+back as fast as you cut them away.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 4373
+D1
+~
+~
+0 0 4375
+S
+#4375
+`2A trail in the grass``~
+Yes, you seem to be lost in these tall grasses. Around you,
+everywhere you look seems to look just the same. There are
+few trails here, and while footing is easy, you have to hack
+a trail out before you. The grasslands almost seem to grow
+back as fast as you cut them away.
+~
+~
+0 0 65536 3
+D1
+~
+~
+0 0 4376
+D3
+~
+~
+0 0 4374
+S
+#4376
+`2A trail in the grass``~
+Yes, you seem to be lost in these tall grasses. Around you,
+everywhere you look seems to look just the same. There are
+few trails here, and while footing is easy, you have to hack
+a trail out before you. The grasslands almost seem to grow
+back as fast as you cut them away.
+~
+~
+0 0 32768 3
+D2
+~
+~
+0 0 4377
+D3
+~
+~
+0 0 4375
+S
+#4377
+`2A trail in the grass``~
+Yes, you seem to be lost in these tall grasses. Around you,
+everywhere you look seems to look just the same. There are
+few trails here, and while footing is easy, you have to hack
+a trail out before you. The grasslands almost seem to grow
+back as fast as you cut them away.
+~
+~
+0 0 16384 3
+D0
+~
+~
+0 0 4376
+D2
+~
+~
+0 0 4378
+S
+#4378
+`2A trail in the grass``~
+Yes, you seem to be lost in these tall grasses. Around you,
+everywhere you look seems to look just the same. There are
+few trails here, and while footing is easy, you have to hack
+a trail out before you. The grasslands almost seem to grow
+back as fast as you cut them away.
+~
+~
+0 0 65536 3
+D0
+~
+~
+0 0 4377
+D2
+~
+~
+0 0 4379
+S
+#4379
+`2A trail in the grass``~
+Yes, you seem to be lost in these tall grasses. Around you,
+everywhere you look seems to look just the same. There are
+few trails here, and while footing is easy, you have to hack
+a trail out before you. The grasslands almost seem to grow
+back as fast as you cut them away.
+~
+~
+0 0 32768 3
+D0
+~
+~
+0 0 4378
+D2
+~
+~
+0 0 4361
+S
+#4380
+`8An Elven Outpost``~
+You stand amid a small tent that has been pitched in this massive
+grassy field. Apparently some sort of headquarters for the lowlands
+elf scouting regiment, this tent has several large cots spread all
+about that seem to be a sort of bivouac locale for this regiment.
+~
+~
+0 8 0 0
+D3
+~
+tentflap~
+AB 0 4365
+S
+#4381
+`3A wide road``~
+You find yourself walking along a roughly paved road. Filled
+with deep potholes and covered in large rocks, the road oddly
+does seem very well traveled, and you can make out deep ruts
+in the roadbed where traveling merchants have carried their
+goods to a nearby village.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 4382
+D2
+~
+~
+0 0 4331
+S
+#4382
+`3A wide road``~
+You find yourself walking along a roughly paved road. Filled
+with deep potholes and covered in large rocks, the road oddly
+does seem very well traveled, and you can make out deep ruts
+in the roadbed where traveling merchants have carried their
+goods to a nearby village.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 4383
+D2
+~
+~
+0 0 4381
+S
+#4383
+`3A wide road``~
+You find yourself walking along a roughly paved road. Filled
+with deep potholes and covered in large rocks, the road oddly
+does seem very well traveled, and you can make out deep ruts
+in the roadbed where traveling merchants have carried their
+goods to Grayldemir.
+~
+~
+0 0 32768 2
+D1
+~
+~
+0 0 4384
+D2
+~
+~
+0 0 4382
+S
+#4384
+`3A wide road``~
+You find yourself walking along a roughly paved road. Filled
+with deep potholes and covered in large rocks, the road oddly
+does seem very well traveled, and you can make out deep ruts
+in the roadbed where traveling merchants have carried their
+goods to Grayldemir.
+~
+~
+0 0 16384 2
+D0
+~
+~
+0 0 4385
+D3
+~
+~
+0 0 4383
+S
+#4385
+`3A wide road``~
+You find yourself walking along a roughly paved road. Filled
+with deep potholes and covered in large rocks, the road oddly
+does seem very well traveled, and you can make out deep ruts
+in the roadbed where traveling merchants have carried their
+goods to Grayldemir.
+~
+~
+0 0 65536 2
+D1
+~
+~
+0 0 8200
+D2
+~
+~
+0 0 4384
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 4305 spec_cast_mage
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 4302 20 4301 2
+E 0 4302 0 8
+M 0 4302 20 4304 2
+E 0 4303 0 10
+M 0 4300 20 4305 2
+E 0 4305 0 17
+M 0 4302 20 4307 2
+M 0 4308 10 4307 2
+E 0 4305 0 17
+M 0 4300 20 4310 2
+M 0 4307 10 4312 2
+M 0 4300 20 4314 2
+M 0 4300 20 4317 2
+E 0 4311 0 17
+M 0 4308 10 4318 2
+M 0 4301 20 4319 2
+E 0 4306 0 12
+M 0 4308 10 4321 2
+M 0 4301 20 4322 2
+E 0 4304 0 1
+M 0 4301 20 4323 2
+E 0 4304 0 2
+M 0 4301 20 4324 2
+M 0 4301 20 4328 2
+E 0 4301 0 9
+M 0 4307 10 4332 2
+M 0 4306 10 4334 2
+M 0 4301 20 4336 2
+E 0 4301 0 9
+M 0 4302 20 4338 2
+M 0 4302 20 4340 2
+M 0 4300 20 4342 2
+E 0 4312 0 5
+M 0 4301 20 4344 2
+M 0 4308 10 4344 2
+E 0 4305 0 17
+M 0 4302 20 4346 2
+M 0 4307 10 4349 2
+M 0 4301 20 4360 2
+E 0 4312 0 5
+M 0 4307 10 4363 2
+M 0 4308 10 4363 2
+O 0 4365 0 4365
+P 0 4366 0 4365 1
+M 0 4303 15 4365 5
+M 0 4305 1 4365 1
+G 0 4309 0
+G 0 4308 0
+E 0 4310 0 17
+G 0 4367 0
+O 0 4369 0 4365
+M 0 4301 20 4367 2
+M 0 4306 10 4369 2
+M 0 4301 20 4374 2
+M 0 4306 10 4376 2
+M 0 4301 20 4377 2
+M 0 4301 20 4379 2
+E 0 4302 0 8
+O 0 4380 0 4380
+O 0 4380 0 4380
+M 0 4303 15 4380 2
+M 0 4304 1 4380 1
+E 0 4370 0 0
+G 0 4368 0
+M 0 4385 1 4385 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#4385
+if rand 50
+     say Yes, the elves, you see, protect the wee gnomes. They live just east of here.
+     cackle self
+else
+     say Eh? Speak up! Gnomes? They're just east and south of here.
+     giggle self
+endif
+~
+#0
+
+M 4300 1 elf.prg NL
+M 4301 1 valley_sentry.prg NL
+M 4302 1 valley_scout.prg NL
+M 4303 1 slave.prg NL
+M 4305 0 valley_elder.prg NL
+M 4306 1 deer.prg NL
+S
+
+
+
+
+#OBJPROGS
+#0
+
+#ROOMPROGS
+#4365
+if rand 50
+     room zecho Wind whispers quietly through the tall grasses.
+else
+     room zecho The tall lowlands grasses sway in the gentle wind.
+endif
+~
+#0
+
+#$

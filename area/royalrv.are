@@ -1,0 +1,1818 @@
+#AREADATA
+Name [REVELSPORT]~
+Pref ~
+Builders Crypticant~
+VNUMs 17100 17199
+Max_Bastions 0
+Credits { ALL } Cryptica [REVELSPT] ~
+Security 9
+Startroom 17100
+Flags 0
+Crimes 6 0 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#17100
+Revelsport whiteguard guard~
+the Whiteguard~
+One of the famous Royal Whiteguards stands here protecting the palace.
+~
+Just to look upon him hurts your eyes.  Every piece of the formidable
+armor set upon his body is icy white scattering and focusing the light in
+unexpected directions.  A huge tower shield of polished steel and set with
+ivory is held firmly in one hand, while the second never leaves the hilt of
+an astonishing long sword.  Its hilt is beset with various milky white gems
+with the guard worked in rare bones and the blade scabbard marked with
+obscure runes of protection.  From behind his visor the eyes of this deadly
+guard scan the area for any sign of movement.  
+~
+human~
+ABVZ A DFHJNO 0 0 0
+50 40 1d1+5000 0d0+1 8d5+60 cleave
+-20 -20 -20 -20
+ADEFKW AB C 0
+stand stand either none~
+17
+AHMV ABCDEFGHIJK medium 0
+P GRALL 26 100~
+P FIGHT 17101 100~
+P EXALL 17100 west~
+P EXALL 17100 east~
+P EXALL 17100 up~
+P EXALL 17100 south~
+P EXALL 17100 north~
+#17101
+saber toothed tiger~
+a saber toothed tiger~
+A massive saber toothed tiger rests in its cage.
+~
+A cat of enormous strength with two piercing black eyes and long dagger like 
+teeth.
+~
+tiger~
+AB AC DJP 0 750 0
+10 20 1d1+150 0d0+100 5d5+15 bite
+-10 -10 -10 -5
+FH AB B Z
+rest rest female none~
+13
+AHMV ABCDEFGHIJK medium 0
+#17102
+bright feathered bird~
+a bright, feathered bird~
+A bright, vividly colored bird is perched here.
+~
+The plumage of this creature is spectacular! Large red and
+green feathers cover its body, while long, thin yellow feathers
+stick out like a strange wig from its head. It peers at you with
+glossy eyes, and chirrups.
+~
+avian~
+AB AC JT 0 0 0
+15 8 1d1+50 0d0+100 4d6+2 peck
+0 0 0 0
+0 AB 0 Qb
+stand stand either none~
+10
+AHMVW ABCDEFGHIJKP tiny 0
+#17103
+servant waiter~
+A waiter~
+A waiter is here with a tray of food on in his hands.
+~
+He is dressed in quite expensive clothes and carrying a large trey full of food.
+~
+human~
+ABG AC DJ 0 0 0
+15 8 1d1+150 0d0+100 1d1+15 slap
+-10 -10 -10 5
+DE AB 0 E
+stand stand male none~
+11
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17128 20~
+#17104
+nobleman noble~
+A nobleman~
+A richly dressed nobleman mingles with the local aristocracy.
+~
+Clad in the richest clothing available in Thera, this nobleman sits here
+consumed by his own affairs.  His yellow teeth show themselves as his
+lips part, forming a perfect smile.
+~
+human~
+AGTd AC DJ 0 0 0
+15 15 1d1+150 0d0+0 1d1+5 punch
+-3 -3 -4 -6
+DFK AB CL R
+stand stand male none~
+9
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17104 20~
+#17105
+noblewoman lady~
+a noblewoman~
+A local noblewoman dazzles the room with her beauty and smiles.
+~
+A stunning white dress covers her beautiful lithe body.  Dark brown locks
+of hair fall down upon her shoulders, pushed behind her ears.  Her eyes
+match the color of her hair, and seem to glimmer with a unique sense of
+beauty not found in any other women you have ever seen.  
+ 
+~
+human~
+AGRcd AC DF 0 200 0
+15 30 1d1+150 0d0+100 1d1+10 slap
+0 0 0 0
+EKN AB C 0
+stand stand female none~
+12
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17105 20~
+#17106
+Golden Griffon~
+the Golden Griffon~
+A Golden Griffon stands at an attention here.
+~
+Just to look upon him hurts your eyes.  Every piece of the formidable
+armor set upon his body is icy white scattering and focusing the light in
+unexpected directions.  A huge tower shield of polished steel and set with
+ivory is held firmly in one hand, while the second never leaves the hilt of
+an astonishing long sword.  Its hilt is beset with various milky white gems
+with the guard worked in rare bones and the blade scabbard marked with
+obscure runes of protection.  From behind his visor the eyes of this deadly
+guard scan the area for any sign of movement.  
+~
+human~
+ABGTU AC DFJ 0 0 0
+30 50 10d20+300 0d0+100 4d6+20 none
+-10 -10 -10 5
+CDEIKLU 0 0 0
+stand stand male none~
+13
+AHMV ABCDEFGHIJK large 0
+#17107
+Golden Griffon~
+the Golden Griffon~
+A Golden Griffon stands at an attention here.
+~
+Just to look upon him hurts your eyes.  Every piece of the formidable
+armor set upon his body is icy white scattering and focusing the light in
+unexpected directions.  A huge tower shield of polished steel and set with
+ivory is held firmly in one hand, while the second never leaves the hilt of
+an astonishing long sword.  Its hilt is beset with various milky white gems
+with the guard worked in rare bones and the blade scabbard marked with
+obscure runes of protection.  From behind his visor the eyes of this deadly
+guard scan the area for any sign of movement.  
+~
+human~
+AGTUd AC DFJ 0 0 0
+30 50 10d20+300 0d0+100 4d6+20 none
+-10 -10 -10 5
+CDEIKLU 0 0 0
+stand stand male none~
+14
+AHMV ABCDEFGHIJK large 0
+#17108
+royal guard~
+The Royal Guard~
+A royal guard patrols the area.
+~
+Well armed and protected he strides through the area watching for any trouble.
+~
+unique~
+AGTUd AC DJ 0 0 0
+15 0 1d1+150 0d0+100 4d6+9 none
+-10 -10 -10 5
+CDEIKLU AB 0 0
+stand stand male none~
+10
+0 ABCDEFGHIJKLQXc medium 0
+#17109
+weaponsmith smith dwarf~
+the weaponsmith~
+The palace weaponsmith shows off his wares before the forge.
+~
+Short, stocky and with a beard that would make any dwarven wench squeal
+with delight, the master weapon smith of the palace proudly displays his
+wares.  
+~
+dwarf~
+ABCGa A DFGHJP 0 750 0
+60 20 4d6+9000 34d1+1 4d6+40 pound
+-20 -20 -20 -20
+CEFK AB CL 0
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+F vul R
+#17110
+saber toothed tiger~
+a saber toothed tiger~
+A massive saber toothed tiger is here.
+~
+A cat of enormous strength with two piercing black eyes and long dagger
+like teeth.  
+~
+tiger~
+ABIe A DJP 0 0 0
+30 20 1d1+999 0d0+100 5d5+15 bite
+-10 -10 -10 -5
+FH 0 B Z
+stand stand either none~
+14
+AHMV ABCDEFGHIJK medium 0
+#17111
+lion pet~
+a large lion~
+A large lion follows its master.
+~
+Its great mane flowing the beasts muscles bunch and uncurl under its skin
+as it follows its master.  
+~
+tiger~
+ABI A DJP 0 0 0
+30 20 1d1+999 0d0+100 5d5+15 bite
+-10 -10 -10 -5
+FH 0 B 0
+stand stand either none~
+11
+AHMV ABCDEFGHIJK medium 0
+#17112
+air drake~
+an air drake~
+An Air Drake flies about, tiny sparkles of lighting dancing on its snout.
+~
+A miniature version of a dragon, it flies about hissing in delight and
+making an awful raucus.  Its deep blue eyes seem are wide open in amusement
+at this opportunity to spread its wings.  
+~
+dragon~
+AI A DFJT 0 0 0
+30 20 6d12+900 0d0+100 6d5+10 bite
+-8 -8 -8 -8
+DFH 0 BEH 0
+stand stand none none~
+20
+AHZ ACDEFGHIJKLPQUVX medium 0
+F vul FI
+#17113
+parrot pet~
+a parrot~
+A parrot is perched here on its owner's shoulder.
+~
+Its pume is a marvel of bright colors, not lacking a single shade of
+rainbow.  It perches on its master shoulder and seems to listen intently to
+every word spoken about.  
+~
+unique~
+AI A 0 0 0 0
+15 5 1d50+400 0d0+0 1d5+10 peck
+-3 -3 -5 -3
+0 AB 0 0
+stand stand none none~
+11
+0 0 small 0
+#17114
+Animal trainer~
+the animal trainer~
+An animal trainer walks through the garden smiling.
+~
+Dressed in loud and gawdy clothing the trainer carries a parrot on a
+shoulder and has a large dangerous looking lion in tow.  Smiling lightly at
+your approach she rests a single hand on her companion's head.  
+~
+human~
+AB A DF K 0 0
+50 30 1d1+10000 0d0+0 5d8+80 punch
+0 0 0 0
+0 AB CD 0
+stand stand female none~
+20
+AHMV ABCDEFGHIJK medium 0
+P GREET 17106 100~
+P SPEECH 17107 parrot~
+P SPEECH 17108 drake~
+P SPEECH 17109 lion~
+P SPEECH 17110 tiger~
+#17115
+royal advisor~
+the Royal Advisor~
+The Royal Advisor stands off in a corner watching the scene.
+~
+His piercing eyes take in the scene behind you with the look of a veteran
+player essaying a gameboard set before him.  His brow furrows and slowly his
+mind surfaces from the depths of deep thought to the matters at hand.  
+~
+human~
+ABJKa A DFHJN 0 750 0
+60 25 9999d1+1 64d1+1 6d4+30 pierce
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+P LOOK 17101 100~
+#17116
+artisan !17116!~
+an Artisan~
+An artisan is selling various items here.
+~
+He is just another shopkeeper trying to make a living by collecting and
+selling various wares to the wealthy royals.  His stall is crammed with
+various potions, scrolls, and devices as well as common adventuring items.  
+~
+human~
+ABe A DFJ 0 0 0
+55 90 191d4+5000 0d0+0 7d5+90 slice
+-10 -10 -20 -30
+CDFKN AB 0 0
+stand stand either none~
+22
+AHMV ABCDEFGHIJK medium 0
+#17117
+local peasant~
+a local peasant~
+A local peasant seems to be searching for something.
+~
+Dressed just like a peasant, with a wide grin of disbelief this simple
+being wanders through the palace grinning madly.  
+~
+human~
+AGcd AC 0 0 0 611
+5 0 2d6+60 0d0+100 1d6+1 none
+5 5 5 9
+EFN 0 0 0
+stand stand either none~
+4
+AHMV ABCDEFGHIJK medium 0
+P RANDOM 17103 10~
+#17118
+Servirion captain guard~
+Servirion~
+Servirion the Captain of the Guard stand here.
+~
+A tall handsome man with an open face, he rose to this station not
+through the usual game of politics but through his sheer honesty and
+ability.  His armor is spotless and his weapon rests in a scabbard hanged on
+his back.  
+~
+human~
+ABJKab A DFHJN 0 750 0
+60 25 9999d1+1 24d1+99 6d4+30 slash
+-30 -30 -30 -30
+EHK AB 0 0
+stand stand male none~
+27
+AHMV ABCDEFGHIJK medium 0
+#17119
+royal stablemaster~
+the Stablemaster~
+The Royal Stablemaster stands here beaming with pride.
+~
+Short and of stocky build, he leans on a large sign.
+~
+human~
+ABTVZ A DJ 0 750 0
+60 0 50d10+7000 0d0+100 3d80+20 punch
+-30 -30 -30 -30
+EFHJK ABH D 0
+stand stand male none~
+21
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 17127 battlemount~
+P GREET 17119 100~
+P BRIBE 17120 100~
+P SPEECH 17121 horse~
+P BRIBE 17122 400~
+P SPEECH 17123 stallion~
+P BRIBE 17124 450~
+P SPEECH 17125 charger~
+P BRIBE 17126 500~
+#17120
+horse~
+a horse~
+A tall lean horse stands here.
+~
+Its black coat glistening with sweat, this well tended mount stands here
+twitching its ears and occasionly lashing its tail.  
+~
+horse~
+AEI A 0 0 0 0
+20 5 5d10+550 0d0+100 1d5+5 charge
+0 0 0 0
+0 0 0 0
+stand stand male none~
+12
+AGV ABCDEFHJK medium 0
+#17121
+white stallion~
+a white stallion~
+A beautiful white stallion is reigned here.
+~
+Its icy white coat is covered in beautiful mane which falls upon to pair
+of eyes that sparkle like sapphires.  Intelligent and fast as the wind
+itself this stallion is obviously a prized possession. 
+~
+horse~
+AEI A 0 0 0 0
+30 5 5d10+550 0d0+100 1d5+5 charge
+0 0 0 0
+0 0 0 0
+stand stand male none~
+11
+AGV ABCDEFHJK medium 0
+#17122
+white charger~
+a white charger~
+A beautiful white charger is reigned here.
+~
+Its icy white coat is covered in beautiful mane which falls upon to pair
+of eyes that sparkle like sapphires.  Intelligent and fast as the wind
+itself this stallion is obviously a prized possession. 
+~
+horse~
+AEI A 0 0 0 0
+30 5 5d10+550 0d0+100 1d5+5 charge
+0 0 0 0
+0 0 0 0
+stand stand male none~
+19
+AGV ABCDEFHJK medium 0
+#17123
+battlemount great warhorse~
+a warhorse~
+Heavy armor laid upon it, a great warhorse is reigned here.
+~
+Covered in mighty plates padded with an intricate coat of arms a mighty
+stallion paws the ground here lashing its tail in anger.  Its eyes are
+ablaze with battle lust and it occasionally whinnies with anger.  
+~
+horse~
+AEI A 0 0 0 0
+35 5 5d10+550 0d0+100 1d5+5 charge
+0 0 0 0
+0 0 0 0
+stand stand male none~
+17
+AGV ABCDEFHJK large 0
+#17124
+priest healer~
+the priest~
+A priest of God stands here solemnly speaking words of praise.
+~
+Obviously a goodly man, you feel closer to God just by gazing upon this man.
+Dressed in white, fine white hair, and a soft slightly wrinkled face ...
+this man has a sacred beauty.
+~
+human~
+AGQae A DFH 0 1000 0
+50 0 3d100+9000 5d1+100 2d15+80 pound
+-2 -2 -2 6
+EIKU 0 0 0
+stand stand male none~
+26
+AHMV ABCDEFGHIJK medium 0
+#17125
+high priest~
+the High Priest~
+The High Priest is here praying amongst the relics.
+~
+He looks a hundred years old, his human face wrinkled and his bald head
+marked with scars.  He chants a holy psalm as his almost blind eyes trace
+over yet another page of a holy tome.  
+~
+elf~
+ABQ ACHT DFGHJP 0 750 0
+56 25 4d6+3400 0d0+100 4d6+27 pound
+-25 -20 -19 -8
+EHNX 0 B Z
+stand stand male none~
+20
+AHMV ABCDEFGHIJK medium 0
+#17126
+Revelsport mercenaries~
+the Revelsport mercenaries~
+A company of Revelsport mercenaries stands in formation.
+~
+With swords at their sides, and shields in ready position, they stand
+awaiting battle.  The standards of the Royal House are proudly displayed
+upon their armor.  
+~
+human~
+ABLVZe AK 0 0 1000 0
+50 1000 1500d1+0 0d0+0 0d0+0 none
+0 0 0 0
+0 CD 0 0
+stand stand none none~
+18
+AHMV ABCDEFGHIJK medium 0
+#17127
+bastion royal Revelsport~
+a Revelsport Bastion~
+A bastion flying Royal banners of [`#REVELSPT``].
+~
+Built with the skill of royal masons, the squat bastion houses the best
+of the Royal mercenaries.  The Royal standards fly with the wind, while
+scouts and messengers gallop in and out of its gate.  
+~
+human~
+ABLVZe AJ 0 0 1000 0
+50 900 1000d1+0 0d0+0 900d1+0 none
+0 0 0 0
+0 CD 0 0
+stand stand none none~
+22
+AHMV ABCDEFGHIJK huge 0
+#0
+
+
+
+#OBJECTS
+#17100
+pit storage~
+a storage pit~
+A large pit has been dug out here.~
+stone~
+container OT 0
+10000 0 0 10000 100
+60 0 10000 P
+#17101
+wine bottles~
+the wine bottles~
+A few wine bottles have been left on the tables.~
+glass~
+fountain 0 0
+-1 -1 'red wine' 0 0
+40 0 0 P
+#17102
+bread~
+some elven bread~
+A loaf of freshly baked elven bread is here.~
+bread~
+food 0 A
+24 24 0 0 72
+0 1 12 P
+#17103
+throne royal~
+the Royal Throne~
+A massive golden throne set with gems and ivory rests before you.~
+gold~
+furniture 0 0
+0 0 0 0 0
+50 100 10000 P
+P SIT 17100 100~
+#17104
+iron anvil~
+an iron anvil~
+A large dented iron anvil rests on the floor here.~
+iron~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#17105
+crested shield~
+a Crested Shield of Revelsport~
+A shield crested with the standard of Revelsport is here.~
+steel~
+armor Y AJ
+10 11 12 5 0
+15 50 28 P
+F
+A 18 2 0
+F
+A 19 1 0
+#17106
+alabaster fullplate~
+the Alabaster Fullplate of Revelsport~
+A suit of gleaming, pearly-white fullplate rests here.~
+alabaster~
+armor ABY AD
+9 12 11 6 0
+15 500 50 P
+F
+A 19 1 0
+F
+A 17 -20 0
+F
+A 18 1 0
+#17107
+platinum dagger~
+a platinum bladed dagger~
+An ornate platinum dagger is here.~
+platinum~
+weapon Ae AN
+dagger 5 6 stab 0
+15 20 25 P
+F
+A 18 1 0
+F
+A 19 2 0
+#17108
+silver scabbard~
+a silver scabbard~
+A silver scabbard is here.~
+leather~
+clothing Ye AK
+0 0 0 0 0
+15 10 4 P
+F
+A 2 1 0
+F
+A 18 1 0
+#17109
+bone hilted longsword~
+a bone hilted longsword~
+An exquisite bone hilted long sword lies here.~
+steel~
+weapon Ye AN
+sword 6 5 slice 0
+15 80 25 P
+F
+A 18 2 0
+F
+A 19 3 0
+#17110
+alabaster vambraces~
+a pair of alabaster vambraces~
+A pair of alabaster vambraces lies in the dust.~
+alabaster~
+armor Y AI
+11 13 9 6 0
+15 110 33 P
+F
+A 1 1 0
+F
+A 2 1 0
+F
+A 19 2 0
+#17111
+alabaster greaves~
+a beautiful set of alabaster greaves~
+A beautiful set of alabaster greaves lies in the dust.~
+ivory~
+armor Y AF
+11 13 9 6 0
+15 110 35 P
+F
+A 2 1 0
+F
+A 18 2 0
+F
+A 19 1 0
+#17112
+bec de corbin~
+a bec de corbin~
+A well crafted bec de corbin with a beautiful engraved handle.~
+steel~
+weapon Ye AN
+mace 9 3 smash 0
+15 110 27 P
+F
+A 2 1 0
+F
+A 18 4 0
+#17113
+golden longspear~
+an engraved, golden longspear~
+A beautifully engraved longspear forged from gold is here.~
+gold~
+weapon e AN
+spear 6 6 thrust F
+15 200 26 P
+#17114
+ornamental flail~
+a golden ornamental flail~
+A large golden flail, clearly ornamental in design.~
+gold~
+weapon Ye AN
+flail 8 4 thwack F
+15 225 27 P
+F
+A 19 3 0
+F
+S 105 5 0
+F
+A 2 -2 0
+#17115
+ornamental staff~
+an ornamental staff~
+A tall ornamental staff cut from ironwood.~
+ironwood~
+weapon Ye AN
+staff 5 6 pound F
+15 12 24 P
+F
+A 18 2 0
+F
+S 621 10 0
+#17116
+adamantium broad axe~
+an Adamantium Broadaxe~
+A broadaxe crafted from a rare metal is here.~
+adamantium~
+weapon ABe AN
+axe 3 12 slash F
+15 400 24 P
+F
+S 171 5 0
+F
+S 170 5 0
+F
+A 19 3 0
+#17117
+blacksteel katar~
+a blacksteel katar~
+An exotic katar cast from blacksteel lies here.~
+blacksteel~
+weapon Ye AN
+exotic 5 4 pierce H
+15 15 12 P
+F
+A 19 1 0
+F
+A 18 1 0
+#17118
+whip platinum chain~
+a long platinum chain~
+A coil of platinum chains lays here.~
+platinum~
+weapon e AN
+whip 7 4 crush 0
+15 100 24 P
+F
+A 19 1 0
+F
+A 18 3 0
+#17119
+military fork ivory~
+an ivory-hilted military fork~
+An ivory-hilted military fork is here.~
+steel~
+weapon e AN
+polearm 9 3 pierce F
+15 250 26 P
+F
+A 19 3 0
+F
+A 18 2 0
+#17120
+potion recall~
+a potion of recall~
+A potion of recall is here, coveted by all.~
+liquid~
+potion U AO
+10 'word of recall' '' '' ''
+10 30 3 P
+#17121
+potion fly flying~
+a potion of flight~
+A potion of flight is here.~
+Liquid~
+potion B AO
+0 'fly' '' '' ''
+10 2 5 P
+#17122
+travel pack~
+a travel pack~
+A smal handy pack is here.~
+leather~
+container 0 AO
+50 A 0 100 75
+10 20 12 P
+#17123
+iron ration rations~
+a pack of iron rations~
+A dented tin can with the words RATIONS written on it.~
+food~
+food U A
+48 48 0 0 360
+10 20 24 P
+#17124
+scroll fly flight~
+a scroll of flight~
+A scroll of flight~
+papyrus~
+scroll A AO
+15 'fly' '' '' ''
+10 2 10 P
+#17125
+scroll vigor~
+a scroll of vigor~
+A small scroll inscribed with runes of vigor.~
+papyrus~
+scroll A AO
+15 'refresh' '' '' ''
+30 2 1 P
+#17126
+wineskin~
+a wineskin~
+A small wineskin.~
+leather~
+drink PU AO
+240 240 'water' 0 0
+10 50 11 P
+#17127
+wand sanctuary~
+the Wand of Sanctuary~
+A small sparkling wand hums with magic.~
+glass~
+staff G AO
+15 5 5 'sanctuary' 0
+40 50 18 P
+#17128
+white staff sanctuary~
+the Staff of Sanctuary~
+A tall white staff glimmers with magic.~
+wood~
+staff G AO
+10 10 10 'sanctuary' 0
+40 50 25 P
+#17129
+crimson cloak~
+a crimson cloak~
+A long beautiful crimson cloak.~
+cloth~
+clothing 0 AC
+0 0 0 0 0
+0 10 5 P
+#17130
+white cloak~
+A white cloak~
+A long beautiful white cloak.~
+cloth~
+clothing 0 AC
+0 0 0 0 0
+0 10 5 P
+#17131
+black cloak~
+A black cloak~
+A long beautiful black cloak.~
+cloth~
+clothing 0 AC
+0 0 0 0 0
+0 10 5 P
+#17132
+velvet vest~
+A velvet vest~
+A rare velvet vest with sliver emblem.~
+cloth~
+clothing 0 AD
+0 0 0 0 0
+0 10 5 P
+#17133
+silk shirt ruffled~
+A silken ruffled shirt~
+A ruffled silken shirt.~
+cloth~
+clothing 0 AD
+0 0 0 0 0
+0 10 5 P
+#17134
+royal gown~
+A stunning royal gown~
+A stunning gown marked with various royal emblems.~
+cloth~
+clothing 0 AC
+0 0 0 0 0
+0 10 5 P
+#17135
+seductive dress~
+A seductive crimson gown~
+A seductive crimson gown marked with royal emblems.~
+cloth~
+clothing 0 AC
+0 0 0 0 0
+0 10 5 P
+#17136
+sign~
+a sign~
+A large sign has been hanged on the stable wall.~
+wood~
+trash 0 P
+0 0 0 0 0
+50 0 0 P
+E
+sign~
+ROYAL STABLE RATES
+ 
+  MOUNT     COST
+Horse       100
+Stallion    400
+Charger     450
+Battlemount 500
+ 
+To order a mount simply say its type,
+or hand over the gold.
+~
+#17137
+golden circlet crown~
+The Royal Circlet of Revelsport~
+The Royal Circlet of Revelsport rests here.~
+gold~
+armor 0 AE
+12 11 13 9 0
+50 0 2500 P
+E
+golden circlet crown~
+A ringed band of gold, inlaid with many precious stones, 
+this circlet is engraved with the sweeping latticework of
+swirled ivy. As thin as a sheaf of paper, it does not bend
+nor bow.
+~
+F
+A 13 40 D
+F
+A 35 10 0
+F
+A 34 10 0
+F
+A 18 2 0
+F
+A 19 1 0
+#17138
+royal sceptre~
+the Royal Sceptre of Revelsport~
+The Royal Sceptre lies in the dust here.~
+gold~
+weapon He AN
+exotic 7 8 smash G
+50 180 2200 P
+E
+royal sceptre Revelsport~
+This sceptre has a handle about a cubit long with
+a smooth golden orb at its tip, which perfectly
+reflects your visage- an almost hypnotic effect.
+The shaft is inlaid with tiny, fine gems and even
+finer engravings of celestial figures.
+~
+F
+A 19 2 0
+F
+A 18 3 0
+P DELAY 17102 100~
+P USE 17101 100~
+#17139
+divine precept sphere light~
+the `#Divine Precept``~
+A divine sphere of light floats here.~
+???~
+treasure ABGY AQ
+0 0 0 0 0
+50 0 1750 P
+E
+divine precept sphere Revelsport~
+Shimmering with the deep twinkling light of stars,
+this small sphere whizzes back and forth in the air
+immediately about you. You can feel a slight heat
+emanating from it, like a small piece of the sun itself.
+~
+F
+A 18 1 0
+F
+A 19 1 0
+F
+A 24 -1 0
+P FIGHT 17104 100~
+P RANDOM 17103 100~
+#17140
+potion detect invis~
+a potion of detect-invisibility~
+A potion of detect-invisibility is here.~
+liquid~
+potion 0 AO
+10 'detect invis' 'reserved' 'reserved' 'reserved'
+20 0 5 P
+#0
+
+
+
+#ROOMS
+#17100
+`8Before the Revelsport Palace``~
+White archways glimmer as you gander at a towering Palace.  Marble
+stonework entwines with elegant woodcraft, to create a grand sight that is
+unmatched in the land.  A brilliantly colored silk banner of the Royal Crown
+is draped over the entrance way, as a testament to true craftsmanship.  
+~
+White archways scatter about as you gander at a towering Palace.  Marble
+stonework entwines with elegant woodcraft, to create a grand sight that is
+unmatched in the land.  A brilliantly colored silk banner of the Royal Crown
+is draped over the entrance way, as a testament to true craftsmanship.  
+~
+0 295698440 16 0
+D5
+~
+~
+0 0 20671
+M 0 H 0
+S
+#17101
+`8Banquet Hall``~
+Possibly the largest room in the palace, the banquet hall stands massive
+and yet elegant before you.  Gilded archways rise to the heavens, welcoming
+you to this dining haven.  Scrolls of intricate tapestries line the walls
+with woven silk and gold weaved into their fine fabrics.  The ground is a
+gleaming polished white marble veined with golden inlays, clearly this is
+the banquet hall of a Royal home.  
+~
+~
+0 295698440 2 0
+S
+#17102
+`2Exotic Garden``~
+Various exotic smells assail your senses as you walk through this
+splendid garden.  Strange colorful flowers full of exotic aromas hang heavy
+with last morning's dew, with occasional bird rustling in the growth.  More
+then few rare and exotic animals find cover in the shade, some walk around
+freely others kept in silver cages.  A canary sings a sweet melody as you
+round a corner.  
+ 
+~
+Various exotic smells assail your senses as you walk through this
+splendid garden.  Strange colorful flowers hang heavy, folded in and wet
+with the night's dew.  More then few rare and exotic animals are sleeping
+about, some laid to sleep freely others finding rest in silver cages.  A
+hunting call of some exotic predator reverberates through the garden causing
+some unrest in its smaller inhabitants.  
+~
+0 295698440 65538 3
+S
+#17103
+`8The Keep``~
+You have found yourself standing before an immense tower, its sheer
+masonry walls spotted with narrow arrow slits.  Breaching the huge wall
+before you is a single gate, the gatehouse around which is sealed with a
+thick, iron portculis.  To either side of the entryway hangs large banners
+heralding the standard of the city.  A single guard, clad in steel finery
+stand to each side of the gate, watching closely as a slough of messengers
+pour in and out, their arms burdened with important writs and scrolls.  
+~
+Though night has fallen upon the keep, it is no less busy.  Couriers and
+messengers still walk to and fro, and the guards still maintain watch over
+all they see.  Torches set in sconces shed their light upon the path below,
+and cast eerie, flickering shadows on the standards above.  
+~
+0 295698440 2 0
+S
+#17104
+`8Royal Court``~
+Draped is lavish tapestries laced with gold or silver, a grand room takes
+form.  Fine Therian rugs seem to kiss the exotic marble floor ever so
+gently.  Lined up near the stonewalls are numerous empty suits of armor that
+seem to greet you.  All around, the clatter of people chatting and scarring
+about is observed.  
+~
+~
+0 295698440 2 0
+S
+#17105
+`8The Throne Room``~
+Your eyes are dazzled by various riches and wealth as you stand in the
+giant throne room of this royal palace.  Rich tapestries hang from the walls
+adorned with great portraits of nobles and royals from the past.  A giant
+throne of gold, ivory and gems stands in the very center, a set of steps
+leading up to it.  The feeling of magnificence and power is unmistakable
+here.  
+~
+~
+0 295698440 2 0
+S
+#17106
+`8Barracks``~
+This room is rather spartanly decorated with tapestries depicting the
+city's standard, and images of the ruling party hanging from the hewn stone
+walls.  A orderly row of wooden bunks lines each wall, each with a steel
+footlocker on the floor before it.  A couple of the bunks are occupied by
+off-duty sentinels, getting their rest before they return to their post.  An
+immense symbol is emblazoned on the wooden floor, and you recognize it as
+the unit of guards hand chosen to escort the royal party and act as their
+personal bodyguards.  
+~
+~
+0 295698440 2 0
+S
+#17107
+`8Weaponsmith``~
+This room is sweltering to say the least.  A group of sweating men
+pound mercilessly upon an iron anvil as a pair of young apprentices
+tend to the immense furnace in the corner of the room.  They pump
+the billows quite frequently, sending sparks into the air and up the
+chimney hanging overhead.  Beside each anvil is a trough of water
+most likely for quenching the blades and armor as they are being
+worked.  As each smith finishes a blade, he tosses to the side where
+it is picked up and placed upon a rack beside hundreds of others.
+~
+Though the furnace's fire has been quelled, and the laborers have gone
+home, the room is still quite hot.  The stone walls and earthen floor have
+retained the heat making it nearly unbearable even in the night hours.  The
+weapon racks have been cleared out, their contents most likely distributed
+to the guards or sent out for export.  
+~
+0 295698440 2 0
+S
+#17108
+`7The Market Place``~
+Large stacks of clothing on top of crates of supplies, create a makeshift
+wall around the market.  Huge piles of clutter seem to lurk around the
+ground begging you to purchase them just so they will not hinder your
+movement.  Even the air you are breathing seems crammed in this market
+place.  
+~
+~
+0 295698440 2 1
+S
+#17109
+`8Elite Barracks``~
+Brilliant beams of light scatter across the stone walls of the barracks,
+in a parade of illumination.  Plush canopy beds covered in crushed velvet
+bedding are aptly spaced apart.  A large star shaped skylight opens just
+enough to allow the suns rays inside to dance about the room.  
+~
+Soft candle light scatters, across the stone walls of the barracks, in a
+parade of illumination.  Plush canopy beds covered in crushed velvet bedding
+are aptly spaced apart.  A large star shaped skylight opens just enough to
+allow the moon light to dance about the room.  
+~
+0 295698440 2 0
+S
+#17110
+`8The Golden Griffons``~
+The walls around you are of purest of marble graced only by various suits
+of armor and coats of arms.  The spotless white floor has been engraved with
+the names of every Golden Griffon that has ever lived, the list continues ahead
+of you to cover the front wall and the entire ceiling.  A single skylight
+sends a column of light upon the ground, the white marble reflecting it a
+thousand times into every crevice.  
+~
+~
+0 295698440 2 0
+S
+#17111
+`8Stables``~
+The sweet smell of hay and dung cling to the air. The
+stables are, however, kept clean and tidy. Spares bits
+and saddles adorn one of the nearby walls, and you can
+hear the sound of restless horses and other pack steeds
+in their stalls. 
+~
+~
+0 295698440 0 0
+S
+#17112
+`8The Cathedral``~
+Beautiful white marble columns rise to meet the high
+arched ceilings, and reflect the candlelight from four
+foot high braziers. A faint sense of calm lingers here. 
+It is seen in every detailed carving and relief, each 
+smooth line and curve worked by a patient and loving
+hand.
+~
+~
+0 295698440 2 0
+M 120 H 120
+S
+#17113
+`8The Royal Treasury``~
+The relatively sparse room is dominated by huge chests
+which line the far wall. One of the many is open, the
+newly minted coins giving off a soft yellow glow when
+reflected by the torch-light. A small desk is set in the
+center, as if set there for accounting purposes. A few
+books are set to one side, alongside an inkwell and a soft
+feather quill.
+~
+~
+0 295698440 2 0
+S
+#17114
+`8Porticullis``~
+The smell of steel and wood here is overwhelming. Huge 
+chain links dominate one side of the room, as does a
+large pulley system. It would seem one could work the
+chains to raise or lower the imposing steel gate to bar
+or allow entry.
+~
+~
+0 295698440 2 0
+S
+#17115
+`8Reliquary``~
+The soft glow of a single silver candle's flame casts
+an awe-inspiring flicker across the room. A weathered
+oak mantle rests on the far wall, it's contents old and
+precious. Many religious and holy artifacts rest there
+as they have for centuries, waiting for those of pure
+blood to pick them up. A slight layer of dust is all
+there is that denotes the age of these holy objects.
+~
+~
+0 295698440 2 0
+S
+#17116
+`2An Empty Garden``~
+You find yourself in an unattended garden its ground long overgrown with
+various species of weeds.  The growth reaches up to your waist and sways
+lightly with your passage.  
+~
+~
+0 362807304 16386 3
+S
+#17117
+`6Pitfall``~
+You stand before a large empty space with nothing but dusty air filling
+the void before you.  As you gaze down into the murky depths of the opening
+only the echos of small pebbles falling answers you.  
+~
+~
+0 362807304 2 9
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+M 17112 spec_breath_lightning
+M 17119 spec_keeper_stay
+M 17124 spec_cast_cabal_healer
+M 17125 spec_cast_adept
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+O 0 17101 0 17101
+M 0 17103 1 17101 1
+G 0 17102 0
+O 0 17100 0 17102
+M 0 17101 1 17102 1
+M 0 17102 1 17102 1
+M 0 17114 1 17102 1
+M 0 17107 10 17103 1
+M 0 17106 10 17103 1
+M 0 17105 10 17104 1
+M 0 17104 10 17104 1
+O 0 17103 0 17105
+M 0 17106 10 17105 1
+M 0 17105 10 17105 1
+M 0 17104 10 17105 1
+M 0 17115 1 17105 1
+M 0 17108 10 17106 2
+M 0 17108 10 17106 2
+M 0 17109 1 17107 1
+G 0 17105 0
+G 0 17111 0
+G 0 17106 0
+G 0 17110 0
+G 0 17109 0
+G 0 17108 0
+G 0 17107 0
+G 0 17112 0
+G 0 17113 0
+G 0 17114 0
+G 0 17115 0
+G 0 17116 0
+G 0 17117 0
+G 0 17118 0
+G 0 17119 0
+M 0 17116 1 17108 1
+G 0 17140 0
+G 0 17120 0
+G 0 17121 0
+G 0 17122 0
+G 0 17123 0
+G 0 17124 0
+G 0 17125 0
+G 0 17126 0
+G 0 17127 0
+G 0 17128 0
+G 0 17129 0
+G 0 17130 0
+G 0 17131 0
+G 0 17132 0
+G 0 17133 0
+G 0 17134 0
+G 0 17135 0
+M 0 17117 10 17108 2
+O 0 17100 0 17108
+M 0 17118 1 17109 1
+M 0 17106 10 17110 1
+M 0 17107 10 17110 1
+M 0 17119 1 17111 1
+O 0 17136 0 17111
+M 0 17124 1 17112 1
+M 0 17125 1 17115 1
+G 0 17137 0
+G 0 17138 0
+G 0 17139 0
+S
+
+
+
+#SHOPS
+17103 0 0 0 0 0 100 100 0 23
+17109 0 0 0 0 0 100 100 0 23
+17116 0 0 0 0 0 100 100 0 23
+17125 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#17100
+if room $i != 17100
+or isimmort $n
+  break
+endif
+if cabally $n Revelsport
+  if isbloody $n
+    if affspell $n 'blindness'
+    or affspell $n 'death grasp'
+    or affspell $n 'plague'
+    or affspell $n 'poison'
+    or affspell $n 'dysentery'
+    or affspell $n 'enfeeblement'
+    or affspell $n 'vampire bite'
+      pmote glances at $N noticing the sickness.
+    else
+      'Come back when you have no blood upon you $N.
+      mob stop $n
+      break
+    endif
+  endif
+  if isdelay $i
+    break
+  else
+    pmote seems to ignore you.
+    mob delay 1
+    break
+  endif
+else
+  mob echoaround $n The arm blurring, $I draws and points his blade at $N's heart.
+  mob echoat $n The arm blurring $I draws and points his blade at your heart.
+  'Stop, or you shall be stopped.
+  mob stop $n
+endif
+~
+#17101
+if act $n raider
+and rand 10
+  if name $n watchermonster
+    break
+  else 
+    mob echo A catapult hurls a huge stone at $N.
+    qslay $n
+  endif
+endif
+if isdelay $i
+  break
+else
+  cb $N is attacking our home!
+  mob delay 6
+endif
+~
+#17102
+if isdelay $i
+  break
+else
+  cb We are under attack by $N!
+  mob delay 1
+endif
+~
+#17103
+if players < 1
+  break
+endif
+if mobhere !17116!
+  if rand 50
+    pmote picks through the wares on the stall.
+    mob force !17116! pmote watches $N with suspicion.
+  else
+    mob force !17116! say Can I help you?
+   'Nay, thank ye, we be just browsin'
+  endif
+  break
+else
+  mob remember $r
+  if hastarget $i
+    'Excuse me $Q, but could ye point me to the market?
+  endif
+endif
+~
+#17104
+if rand 50
+  mob remember $r
+else
+  mob remember $a
+endif
+if rand 30
+  pmote whispers something to $Q.
+  break
+endif
+if rand 50
+  pmote gives $Q a slight nod and a smile.
+  break
+endif
+bow
+'It has been ages $Q since we've last met!  How go your.. investements?
+~
+#17105
+if rand 50
+  mob remember $r
+else
+  mob remember $a
+endif
+if rand 30
+  pmote whispers something to $Q.
+  break
+endif
+if rand 50
+  pmote glances at $Q and smiles.
+  break
+endif
+curtsey
+'What a pleasure to see you again $Q.  Do tell what you have been up to?
+~
+#17106
+if isdelay $i
+  break
+endif
+if isroyal $n
+  bow $n
+  'A parrot, drake, lion and the tiger are ready for your inspection.
+  'Which will be your choice this day $N?
+  mob delay 2
+endif
+~
+#17107
+if isnpc $n
+  break
+endif
+if isroyal $n
+  if getdelay > 2
+    bow
+    'Regrettably the training of my animals is not yet complete.
+    break
+  else
+    if followers $n > 0
+     'It seems you already own a companion.
+     break
+    else
+      pmote reaches for the parrot on its shoulder.
+      bow $n
+      mob mload 17113
+      mob obey 1. $n pet
+      mob force 1. pmote now follows $n.
+      mob delay 24
+      break
+    endif
+  endif
+else
+  pmote ignores $N.
+endif 
+~
+#17108
+if isnpc $n
+  break
+endif
+if isroyal $n
+  if getdelay > 2
+    bow
+    'Regretably the training of my animals is not yet complete.
+    break
+  else
+    if followers $n > 0
+     'It seems you already own a companion.
+     break
+    else
+      pmote whistles and an air drake lands before $N.
+      bow $n
+      mob mload 17112
+      mob obey 1. $n pet
+      mob force 1. pmote now follows $n.
+      mob delay 24
+      break
+    endif
+  endif
+else
+  pmote ignores $N.
+endif 
+~
+#17109
+if isnpc $n
+  break
+endif
+if isroyal $n
+  if getdelay > 2
+    bow
+    'Regretably the training of my animals is not yet complete.
+    break
+  else
+    if followers $n > 0
+     'It seems you already own a companion.
+     break
+    else
+      pmote cracks the whip and a lion slowly walks over to $N.
+      bow $n
+      mob mload 17111
+      mob obey 1. $n pet
+      mob force 1. pmote now follows $n.
+      mob delay 24
+      break
+    endif
+  endif
+else
+  pmote ignores $N.
+endif 
+~
+#17110
+if isnpc $n
+  break
+endif
+if isroyal $n
+  if getdelay > 2
+    bow
+    'Regretably the training of my animals is not yet complete.
+    break
+  else
+    if followers $n > 0
+     'It seems you already own a companion.
+     break
+    else
+      pmote gives her companion a little nudge towards $N.
+      bow $n
+      mob mload 17110
+      mob obey 1. $n pet
+      mob force 1. pmote now follows $n.
+      mob delay 24
+      break
+    endif
+  endif
+else
+  pmote ignores $N.
+endif 
+~
+#17119
+if isdelay $i
+  break
+endif
+if isroyal $n
+  'Greetings $N.  Welcome to the Royal Stables!
+  pmote gestures at the sign.
+  'Those are our current rates, please look at them and let me know what you wish.
+  mob delay 1
+endif
+~
+#17120
+if isnpc $n
+  break
+endif
+if isroyal $n
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+pmote races off in search of the steed.
+pmote returns with the steed and leads it towards $N.
+mob junk 1.gold
+mob mount 11720 120 $n
+endif
+~
+#17121
+if isnpc $n
+or isdelay $i
+  break
+endif
+if isroyal $n
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 100
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -100 -100
+endif
+pmote races off in search of the steed.
+pmote returns with the steed and leads it towards $N.
+mob junk 1.gold
+mob mount 17120 120 $n
+mob delay 1
+else
+  'I cater only to the Royal family $N.
+endif
+~
+#17122
+if isnpc $n
+  break
+endif
+if isroyal $n
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+pmote races off in search of the steed.
+pmote returns with the steed and leads it towards $N.
+mob junk 1.gold
+mob mount 11721 120 $n
+else
+  'I cater only to the Royal family $N.
+endif
+~
+#17123
+if isnpc $n
+or isdelay $i
+  break
+endif
+if isroyal $n
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 400
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -400 -400
+endif
+pmote races off in search of the steed.
+pmote returns with the steed and leads it towards $N.
+mob junk 1.gold
+mob mount 17121 120 $n
+mob delay 1
+else
+  'I cater only to the Royal family $N.
+endif
+~
+#17124
+if isnpc $n
+  break
+endif
+if isroyal $n
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+pmote races off in search of the steed.
+pmote returns with the steed and leads it towards $N.
+mob junk 1.gold
+mob mount 11722 120 $n
+else
+  'I cater only to the Royal family $N.
+endif
+~
+#17125
+if isnpc $n
+or isdelay $i
+  break
+endif
+if isroyal $n
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 450
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -450 -450
+endif
+pmote races off in search of the steed.
+pmote returns with the steed and leads it towards $N.
+mob junk 1.gold
+mob mount 17122 120 $n
+mob delay 1
+else
+  'I cater only to the Royal family $N.
+endif
+~
+#17126
+if isnpc $n
+  break
+endif
+if isroyal $n
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+pmote races off in search of the steed.
+pmote returns with the steed and leads it towards $N.
+mob junk 1.gold
+mob mount 11723 120 $n
+else
+  'I cater only to the Royal family $N.
+endif
+~
+#17127
+if isnpc $n
+or isdelay $i
+  break
+endif
+if isroyal $n
+if affspell $n mounted
+   mob echoat $n $I exchanges your mounts.
+endif
+if money $n < 500
+  'You lack the funds $N.
+  break
+else
+  mob gain gold pc $n -500 -500
+endif
+pmote races off in search of the steed.
+pmote returns with the steed and leads it towards $N.
+mob junk 1.gold
+mob mount 17123 120 $n
+mob delay 1
+else
+  'I cater only to the Royal family $N.
+endif
+~
+#17128
+if rand 50
+  say Try some nice elven bread. Great for your 'elf'.
+  rofl
+  emote wonders why nobody else is laughing.
+  say Bah!
+else
+  say Try some nice elven bread. Puts a spring in your step, know what I mean ?
+  emote winks naughtily at you.
+endif
+~
+#0
+
+M 17101 1 tiger2.prg NL
+M 17102 0 exotic.prg NL
+M 17106 1 goodguard.prg NL
+M 17107 1 goodguard.prg NL
+M 17108 1 goodguard.prg NL
+M 17117 1 ofcol2_sarah.prg NL
+M 17120 1 serin_mercenary.prg NL
+M 17121 1 serin_mercenary.prg NL
+M 17122 1 serin_mercenary.prg NL
+M 17123 1 serin_mercenary.prg NL
+S
+
+
+
+
+#OBJPROGS
+#17100
+if isdelay $i
+  break
+endif
+if isroyal $n
+  obj force 'Golden Griffon' glance $n
+  break
+endif
+if mobhere 'Golden Griffon'
+  obj force 'Golden Griffon' 'You arrogant pig!
+  obj force 'Golden Griffon' murder $n
+  obj delay 2
+endif
+~
+#17101
+if isdelay $i
+  obj echoat $n You sense $I is devoid of any power.
+  break
+endif
+obj echoaround $n $I glows mightly as $N raises it high.
+obj echoat $n $I glows mightly as you raise it high.
+obj pfor group $n cast 'sanctuary' #
+obj cast 'restore faith' $n
+obj delay 12
+~
+#17102
+obj echoat $n  $I has regained its powers.
+~
+#17103
+if isdelay $i
+  break
+endif
+if hpcnt $n < 30
+  obj echo $I glows softly.
+  obj cast 'heal' $n
+  obj delay 3
+endif
+~
+#17104
+if hpcnt $f < 30
+and rand 30
+  obj echo $I glows softly.
+  obj cast 'cure light' $f
+endif
+~
+#0
+
+#ROOMPROGS
+#0
+
+#$
