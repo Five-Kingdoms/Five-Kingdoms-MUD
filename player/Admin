@@ -1,0 +1,1171 @@
+#PLAYER
+SaveVer 3001
+Name Admin~
+ReRace P~
+Religion 7
+Id   953621873
+FLag 1093632576
+PLag 1093630826
+Ansi 3
+Desc Thick oily smoke at its feet an imposing figure stands before you. 
+Bearing human features yet standing well over 2 meters tall, it radiates
+arrogance and chilling power.  At its side rests a giant rusted blade, its
+blunt rounded tip resting on the ground.  
+
+The face is pale, almost icy in color and framed with short jet black hair
+held back by a circlet of onyx.  Below dark arches of brows a pair of eyes
+like bottomless wells of despair consume all light that falls upon them. 
+Unflinching, unmoving they seem to look past all that you see and gaze upon
+reality far darker and more sinister then yours.  Pale lips are pressed in a
+thin line above a sharp pale chin, raised in most arrogant way.  
+
+Clad in ancient armors, eaten away by time and erosion, It seems almost a
+relic of times forgotten.  Yet the aura of deadly power flowing in cascades
+from it is but a testament to the force you are in presence with.  At its
+right hand hangs a giant of swords, its blade rough and rusted beyond use
+and the blunt tip marking the weapon as an executioner's blade.  The guards
+are simple and as rusted as the rest of the blade.  Only the hilt made of
+bone and held in a pale armored hand, seems to be untouched by time.  
+
+The stink of death and decay flows in suffocating waves from the figure, and
+as the heavy oily smoke billows around its legs you see a thick carpet of
+maggots slowly making its way out from under the ground.  For all this the
+man, if it can be called that, stands motionless almost as if looking at
+your very soul...  
+
+~
+Prom %n%P%C<%hhp %mm %vmv> <%R> <%z> [%t] ~
+Race human~
+Etho lawful~
+Sex  0
+Cla  2
+Tatt 0
+Home 11
+Levl 60
+Rec  812 3099 28 1 29
+StartWep -1
+Birthdate 945485369
+Detail 44
+Det_Body 0
+Det_Face 0
+Det_Skin 0
+Det_Eyes 0
+Det_Hair 0
+Det_HairL 0
+Det_HairT 0
+Det_HairF 0
+Det_Hand 78
+EnemyRace human~
+AOS 32  8 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0
+DFavor 500
+Beac 300
+ImmF 65536
+ResF 256
+VulnF 17047553
+FLAGGED 0
+RANK 0
+Sec  9
+Plyd 347436784
+Not  1093473556 1065639690 1085257302 1088640018 1021956005 1029715950
+Vote 1085678418
+BankStamp 1094146355
+Scro 40
+LogO 1094146657
+Room 4
+HMV  10000 10000 1000 1000 20000 20000
+Gold 469000
+Exp  603300
+MExp 603300
+Act  DHNQ
+Act2  JP
+Game  ABCHP
+AfBy J
+Comm AN
+Wizn ACFJKORS
+Pos  9
+Prac 316
+Trai 15
+Saves 0 0 0 0 0
+Alig  0
+Hit   2
+Dam   2
+ACs 100 100 100 100
+AttrB 21 25 25 25 25 15
+AModB 0 8 0 0 0 0
+Mods 16 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+SSpicked 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Bin  Your vitality retreats as swirling form of Virigoth takes form.~
+Bout The vortex of death and decay known as Virigoth dissapates and life slowly returns to your limbs.~
+Title  the Master of Really Small Universes~
+TSex 0
+LLev 22876
+HMVP 10000 1000 20000
+Cnd  0 48 5 5
+Mplayed 8 0
+Quest created a Sky Launcher.~ 1
+Quest Discovered your Rheydin guildhouse.~ 1
+Quest `&Have opened the Starstone.``~ 1
+Quest helped the creatures of Elderwood.~ 1
+Aliases add~ add~
+Aliases bah~ murder~
+Aliases che~ cast armor $~
+Aliases cas~ cast 'armor' $;cast 'shield' $~
+Aliases cw~ say~
+Aliases jim~ alias add $~
+CusA 0 Shi shield~
+Sk 100 'reserved'
+Sk 100 'acid blast'
+Sk 100 'armor'
+Sk 100 'bless'
+Sk 100 'blindness'
+Sk 100 'burning hands'
+Sk 100 'call lightning'
+Sk 100 'calm'
+Sk 100 'cancellation'
+Sk 100 'cause critical'
+Sk 100 'cause light'
+Sk 100 'cause serious'
+Sk 100 'chain lightning'
+Sk 100 'change sex'
+Sk 100 'charm person'
+Sk 100 'chill touch'
+Sk 100 'colour spray'
+Sk 100 'continual light'
+Sk 100 'control weather'
+Sk 100 'create food'
+Sk 100 'create spring'
+Sk 100 'create water'
+Sk 100 'cure blindness'
+Sk 100 'cure critical'
+Sk 100 'cure disease'
+Sk 100 'cure light'
+Sk 100 'cure poison'
+Sk 100 'cure serious'
+Sk 100 'curse'
+Sk 100 'demonfire'
+Sk 100 'detect evil'
+Sk 100 'detect good'
+Sk 100 'detect invis'
+Sk 100 'detect magic'
+Sk 100 'detect traps'
+Sk 100 'dispel evil'
+Sk 100 'dispel good'
+Sk 100 'dispel magic'
+Sk 100 'earthquake'
+Sk 100 'enchant armor'
+Sk 100 'enchant weapon'
+Sk 100 'energy drain'
+Sk 100 'faerie fire'
+Sk 100 'faerie fog'
+Sk 100 'fireball'
+Sk 100 'flamestrike'
+Sk 100 'fly'
+Sk 100 'frenzy'
+Sk 100 'gate'
+Sk 100 'giant strength'
+Sk 100 'harm'
+Sk 100 'haste'
+Sk 100 'heal'
+Sk 100 'holy word'
+Sk 100 'identify'
+Sk 100 'infravision'
+Pr 1155 'infravision'
+Sk 100 'invisibility'
+Sk 100 'know alignment'
+Sk 100 'lightning bolt'
+Sk 100 'locate object'
+Sk 100 'magic missile'
+Sk 100 'mass healing'
+Sk 100 'mass invis'
+Sk 100 'pass door'
+Sk 100 'plague'
+Sk 100 'poison'
+Sk 100 'protection'
+Sk 100 'protection evil'
+Sk 100 'protection good'
+Sk 100 'ray of truth'
+Sk 100 'refresh'
+Sk 100 'remove curse'
+Sk 100 'sanctuary'
+Sk 100 'shield'
+Sk 100 'shocking grasp'
+Sk 100 'sleep'
+Sk 100 'slow'
+Sk 100 'stone skin'
+Sk 100 'summon'
+Sk 100 'teleport'
+Sk 100 'ventriloquate'
+Sk 100 'weaken'
+Sk 100 'word of recall'
+Sk 100 'acid breath'
+Sk 100 'fire breath'
+Sk 100 'frost breath'
+Sk 100 'gas breath'
+Sk 100 'lightning breath'
+Sk 100 'retreat'
+Sk 100 'melee'
+Sk 100 'hurricane'
+Sk 100 'arms of gaia'
+Sk 100 'axe'
+Sk 100 'dagger'
+Pr 130 'dagger'
+Sk 100 'flail'
+Pr 397 'flail'
+Sk 100 'mace'
+Pr 472 'mace'
+Sk 100 'polearm'
+Sk 100 'shield block'
+Sk 100 'spear'
+Pr 1199 'spear'
+Sk 100 'sword'
+Pr 1196 'sword'
+Sk 100 'whip'
+Pr 965 'whip'
+Sk 100 'backstab'
+Sk 100 'bash'
+Pr 508 'bash'
+Sk 100 'berserk'
+Sk 100 'dirt kicking'
+Sk 100 'disarm'
+Pr 218 'disarm'
+Sk 100 'dodge'
+Pr 58 'dodge'
+Sk 100 'enhanced damage'
+Pr 634 'enhanced damage'
+Sk 100 'envenom'
+Sk 100 'hand to hand'
+Pr 50 'hand to hand'
+Sk 100 'kick'
+Sk 100 'parry'
+Pr 520 'parry'
+Sk 100 'rescue'
+Sk 100 'trip'
+Sk 100 'second attack'
+Pr 506 'second attack'
+Sk 100 'third attack'
+Pr 521 'third attack'
+Sk 100 'fast healing'
+Pr 158 'fast healing'
+Sk 100 'haggle'
+Sk 100 'hide'
+Sk 100 'lore'
+Sk 100 'meditation'
+Pr 525 'meditation'
+Sk 100 'peek'
+Sk 100 'pick lock'
+Sk 100 'sneak'
+Pr 840 'sneak'
+Sk 100 'steal'
+Sk 100 'pry'
+Sk 100 'scrolls'
+Sk 100 'staves'
+Sk 100 'wands'
+Sk 100 'recall'
+Sk 100 'ice storm'
+Sk 100 'protective shield'
+Sk 100 'jet steam'
+Sk 100 'mystic tendrils'
+Sk 100 'ice shield'
+Sk 100 'fire shield'
+Sk 100 'mana shield'
+Sk 100 'hellstream'
+Sk 100 'flesh golem'
+Sk 100 'soul capture'
+Sk 100 'vampiric touch'
+Sk 100 'hold undead'
+Sk 100 'animate corpse'
+Sk 100 'shatter'
+Sk 100 'chorus of anguish'
+Sk 100 'stone golem'
+Sk 100 'strength damned'
+Sk 100 'death grasp'
+Sk 100 'powerword kill'
+Sk 100 'knock'
+Sk 100 'blur'
+Sk 100 'phantasmal griffon'
+Sk 100 'spectre illusion'
+Sk 100 'phantasmal dragon'
+Sk 100 'shrink'
+Sk 100 'enlarge'
+Sk 100 'veil of darkness'
+Sk 100 'prismatic spray'
+Sk 100 'thunderclap'
+Sk 100 'meteor swarm'
+Sk 100 'deluge water'
+Sk 100 'shadowform'
+Sk 100 'feeblemind'
+Sk 100 'flame arrow'
+Sk 100 'iceball'
+Sk 100 'icicle'
+Sk 100 'ranger staff'
+Sk 100 'wrath'
+Sk 100 'turn undead'
+Sk 100 'ikuzachi'
+Sk 100 'weapon cleave'
+Sk 100 'shield cleave'
+Sk 100 'holy armor'
+Sk 100 'chaosbane'
+Sk 100 'sense evil'
+Sk 100 'ward of the crown'
+Sk 100 'pixie dust'
+Sk 100 'shadowdemon'
+Sk 100 'silence'
+Sk 100 'catalyst'
+Sk 100 'mana transfer'
+Sk 100 'mental knife'
+Sk 100 'tesseract'
+Sk 100 'demon summon'
+Sk 100 'scourge'
+Sk 100 'golden aura'
+Sk 100 'guard'
+Sk 100 'inquisitor'
+Sk 100 'stallion'
+Sk 100 'wanted'
+Sk 100 'judge'
+Sk 100 'ensnare'
+Sk 100 'third eye'
+Sk 100 'death shroud'
+Sk 100 'unseen'
+Sk 100 'sharpen'
+Sk 100 'ocularis arcanum'
+Sk 100 'nightwalker'
+Sk 100 'guard captain'
+Sk 100 'exile'
+Sk 100 'watchtower'
+Sk 100 'rally call'
+Sk 100 'assassin call'
+Sk 100 'disperse'
+Sk 100 'randomizer'
+Sk 100 'chaos blade'
+Sk 100 'simulacra'
+Sk 100 'nightfall'
+Sk 100 'mirror image'
+Sk 100 'garble'
+Sk 100 'minor banishment'
+Sk 100 'secret arts'
+Sk 100 'dual wield'
+Sk 100 'trance'
+Pr 512 'trance'
+Sk 100 'blind fighting'
+Sk 100 'shield disarm'
+Sk 100 'deflect'
+Sk 100 'fourth attack'
+Sk 100 'deathblow'
+Sk 100 'forms'
+Sk 100 'counter'
+Sk 100 'lay on hands'
+Sk 100 'detect hidden'
+Sk 100 'cleave'
+Sk 100 'assassinate'
+Sk 100 'blackjack'
+Sk 100 'gag'
+Sk 100 'strangle'
+Sk 100 'acupuncture'
+Sk 100 'herb'
+Sk 100 'tame'
+Sk 100 'beast call'
+Sk 100 'rage'
+Sk 100 'relax'
+Sk 100 'regeneration'
+Pr 557 'regeneration'
+Sk 100 'bodyslam'
+Sk 100 'dual backstab'
+Sk 100 'grapple'
+Sk 100 'charge'
+Sk 100 'ambush'
+Sk 100 'endure'
+Sk 100 'barkskin'
+Sk 100 'warcry'
+Sk 100 'circle'
+Sk 100 'swing'
+Sk 100 'headbutt'
+Pr 357 'headbutt'
+Sk 100 'camouflage'
+Sk 100 'quiet movement'
+Sk 100 'butcher'
+Sk 100 'keen sight'
+Sk 100 'vanish'
+Sk 100 'chii'
+Sk 100 'blindness dust'
+Sk 100 'poison smoke'
+Sk 100 'dual parry'
+Sk 100 'riposte'
+Sk 100 'caltraps'
+Sk 100 'nerve'
+Sk 100 'truesight'
+Sk 100 'stance'
+Sk 100 'cognizance'
+Sk 100 'spellbane'
+Sk 100 'trophy'
+Sk 100 'brew'
+Sk 100 'form mastery'
+Sk 100 'challenge'
+Sk 100 'pathfinding'
+Pr 30 'pathfinding'
+Sk 100 'staff'
+Pr 708 'staff'
+Sk 100 'hunt'
+Sk 100 'damnation'
+Sk 100 'flashfire'
+Sk 100 'lash'
+Sk 100 'drained'
+Sk 100 'mortally wounded'
+Sk 100 'vortex tap'
+Pr 24 'vortex tap'
+Sk 100 'invoke artifact'
+Pr 32 'invoke artifact'
+Sk 100 'create artifact'
+Pr 40 'create artifact'
+Sk 100 'spell turning'
+Sk 100 'servant'
+Sk 100 'camp'
+Sk 100 'scout'
+Sk 100 'throw'
+Sk 100 'roar'
+Sk 100 'edge craft'
+Sk 100 'nexus'
+Sk 100 'counterfeit'
+Sk 100 'familiar link'
+Sk 100 'thunder storm'
+Sk 100 'extort'
+Sk 100 'curse weapon'
+Sk 100 'divine retribution'
+Sk 100 'esuna'
+Sk 100 'holy water'
+Sk 100 'barrier'
+Sk 100 'vitalize'
+Sk 100 'sacrifice'
+Sk 100 'portal'
+Sk 100 'rejuvenate'
+Sk 100 'prayer'
+Sk 100 'spirit shield'
+Sk 100 'invigorate'
+Sk 100 'group recall'
+Sk 100 'healer staff'
+Sk 100 'accession'
+Sk 100 'blasphemy'
+Sk 100 'demonic visage'
+Sk 100 'blanket of darkness'
+Sk 100 'enfeeblement'
+Sk 100 'mass hysteria'
+Sk 100 'insomnia'
+Sk 100 'dysentery'
+Sk 100 'phantom grasp'
+Sk 100 'dark shroud'
+Sk 100 'deteriorate'
+Sk 100 'cure dysentery'
+Sk 100 'cure insomnia'
+Sk 100 'remove hysteria'
+Sk 100 'ethereal passage'
+Sk 100 'mystic healing'
+Sk 100 'shield of words'
+Sk 100 'children of the sky'
+Sk 100 'defecate'
+Sk 100 'deathmark'
+Sk 100 'mind link'
+Sk 100 'linked mind'
+Sk 100 'timer'
+Sk 100 'abduct'
+Sk 100 'pilfer'
+Sk 100 'morph'
+Sk 100 'bat form'
+Sk 100 'wolf form'
+Sk 100 'mist form'
+Sk 100 'double kick'
+Sk 100 'dark metamorphosis'
+Sk 100 'soul steal'
+Sk 100 'bloodlust'
+Sk 100 'ecstacy'
+Sk 100 'twilight shift'
+Sk 100 'shadowstalk'
+Sk 100 'coffin'
+Sk 100 'thrust'
+Sk 100 'stake'
+Sk 100 'anatomy'
+Sk 100 'first parry'
+Sk 100 'second parry'
+Sk 100 'beads'
+Sk 100 'martial arts b'
+Sk 100 'martial arts a'
+Sk 100 'kickboxing b'
+Sk 100 'kickboxing a'
+Sk 100 'double grip'
+Sk 100 'monkey stance'
+Sk 100 'tiger stance'
+Sk 100 'crane stance'
+Sk 100 'preying mantis'
+Sk 100 'drunken stance'
+Sk 100 'horse stance'
+Sk 100 'dragon stance'
+Sk 100 'buddha stance'
+Sk 100 'catalepsy'
+Sk 100 'sense motion'
+Sk 100 'balance'
+Sk 100 'aura'
+Sk 100 'healing'
+Sk 100 'kinesis'
+Sk 100 'mind thrust'
+Sk 100 'mind disruption'
+Sk 100 'mind blast'
+Sk 100 'psychic crush'
+Sk 100 'psionic blast'
+Sk 100 'psychic purge'
+Sk 100 'photon'
+Sk 100 'flesh armor'
+Sk 100 'detect aura'
+Sk 100 'displacement'
+Sk 100 'magic eye'
+Sk 100 'mental drain'
+Sk 100 'iron will'
+Sk 100 'cell adjustment'
+Sk 100 'bio manipulation'
+Sk 100 'ego whip'
+Sk 100 'tele lock'
+Sk 100 'enhance armor'
+Sk 100 'there not there'
+Sk 100 'fury'
+Sk 100 'destruction'
+Sk 100 'phase shift'
+Sk 100 'mind store'
+Sk 100 'levitate'
+Sk 100 'gravitate'
+Sk 100 'bio feedback'
+Sk 100 'psychic healing'
+Sk 100 'pyramid of force'
+Sk 100 'terror'
+Sk 100 'body weaponry'
+Sk 100 'ectoplasm'
+Sk 100 'hypnosis'
+Sk 100 'field of fear'
+Sk 100 'control flames'
+Sk 100 'forget'
+Sk 100 'graft weapon'
+Sk 100 'ballistic attack'
+Sk 100 'mental barrier'
+Sk 100 'psychic shout'
+Sk 100 'clairvoyance'
+Sk 100 'spy'
+Sk 100 'kinetics'
+Sk 100 'empower'
+Sk 100 'offensive'
+Sk 100 'defensive'
+Sk 100 'air thrash'
+Sk 100 'chii bolt'
+Sk 100 'justice sigil'
+Sk 100 'wire delay'
+Sk 100 'entomb'
+Sk 100 'insect swarm'
+Sk 100 'duplicate'
+Sk 100 'eternal day'
+Sk 100 'everlasting night'
+Sk 100 'ghoul touch'
+Sk 100 'apathey'
+Sk 100 'feedback'
+Sk 100 'dark ritual'
+Sk 100 'covenant of blood'
+Sk 100 'dispel undead'
+Sk 100 'restore faith'
+Sk 100 'cone of force'
+Sk 100 'burrow'
+Sk 100 'werepower'
+Sk 100 'cutpurse'
+Sk 100 'offhand disarm'
+Sk 100 'were-tiger'
+Sk 100 'were-wolf'
+Sk 100 'were-bear'
+Sk 100 'probe'
+Sk 100 'transform'
+Sk 100 'were-falcon'
+Sk 100 'fasting'
+Sk 100 'shed skin'
+Sk 100 'crusade'
+Sk 100 'heroism'
+Sk 100 'decoy'
+Sk 100 'refrain'
+Sk 100 'tarot cards'
+Sk 100 'knockout'
+Sk 100 'create torch'
+Sk 100 'analyze'
+Sk 100 'panhandle'
+Sk 100 'lure'
+Sk 100 'uppercut'
+Sk 100 'taunt'
+Sk 100 'tune'
+Sk 100 'duet'
+Sk 100 'leech'
+Sk 100 'no quit'
+Sk 100 'heal mana'
+Sk 100 'brawl'
+Sk 100 'virtuous light'
+Sk 100 'unholy strength'
+Sk 100 'hex'
+Sk 100 'ram'
+Sk 100 'blood gout'
+Sk 100 'embrace'
+Sk 100 'vampire bite'
+Sk 100 'holy hands'
+Sk 100 'elemental call'
+Sk 100 '!behead!'
+Sk 100 'Continuum'
+Sk 100 'tear'
+Sk 100 'unholy gift'
+Sk 100 'firestorm'
+Sk 100 'mana charge'
+Sk 100 'disguise'
+Sk 100 'push'
+Sk 100 'study'
+Sk 100 'warmaster code'
+Sk 100 'haymaker'
+Sk 100 'malform weapon'
+Sk 100 'gift'
+Sk 100 'corruption'
+Pr 545 'corruption'
+Sk 100 'isolate'
+Sk 100 'path of deceit'
+Sk 100 'minister'
+Sk 100 'bless arms'
+Sk 100 'divine intervention'
+Sk 100 'voodoo'
+Sk 100 'force field'
+Sk 100 'terra shield'
+Sk 100 'localize gravity '
+Sk 100 'rust'
+Sk 100 'air shield'
+Sk 100 'blades'
+Sk 100 'field dressing'
+Sk 100 'sharpmetal'
+Sk 100 'plumbum manus'
+Sk 100 'sear'
+Sk 100 'dancing blade'
+Sk 100 'manalock'
+Sk 100 'reflective shield'
+Sk 100 'anger'
+Sk 100 'chameleon'
+Sk 100 'two handed'
+Sk 100 'comprehend languages'
+Sk 100 'darklife'
+Sk 100 'shroud of discord'
+Sk 100 'reverse time'
+Sk 100 'call void'
+Sk 100 'eye of moloch'
+Sk 100 'purge unlife'
+Sk 100 'mold chaos'
+Sk 100 'fade'
+Sk 100 'conceal'
+Sk 100 'sacred runes'
+Sk 100 'visitation'
+Sk 100 'efuzan warding'
+Sk 100 'observer call'
+Sk 100 'control fauna'
+Sk 100 'endorphin rush'
+Sk 100 'serpent call'
+Sk 100 'circle of protection'
+Sk 100 'shield of thorns'
+Sk 100 'lifeforce'
+Sk 100 'forest mist'
+Sk 100 'restoration'
+Sk 100 'treeform'
+Sk 100 'druid staff'
+Sk 100 'trap of silvanus'
+Sk 100 'druid gate'
+Sk 100 'entangle'
+Sk 100 'fatality'
+Sk 100 'hound call'
+Sk 100 'collect bounty'
+Sk 100 'deadfall'
+Sk 100 'sequencer'
+Sk 100 'songbird'
+Sk 100 'pardon'
+Sk 100 'reveal hidden'
+Sk 100 'resurrection'
+Sk 100 'life-insurance'
+Sk 100 'lifedrain'
+Sk 100 'mark of prey'
+Sk 100 'light sword'
+Sk 100 'shoulder smash'
+Sk 100 'armored rush'
+Sk 100 'batter'
+Sk 100 'impale'
+Sk 100 'destroy undead'
+Sk 100 'avenger'
+Sk 100 'windmill'
+Sk 100 'psionic control'
+Sk 100 'vomit'
+Sk 100 'bolo'
+Sk 100 'swords to plows'
+Sk 100 'death breath'
+Sk 100 'socketed object'
+Sk 100 'fear'
+Sk 100 'drug use'
+Sk 100 'doomsday'
+Sk 100 'marshall'
+Sk 100 'royal escort'
+Sk 100 'research'
+Sk 100 'roc call'
+Sk 100 'decipher'
+Sk 100 'torment bind'
+Sk 100 'fired projectile'
+Sk 100 'paralyze'
+Sk 100 'fired weapons'
+Sk 100 '2h handling'
+Sk 100 '2h tactics'
+Sk 100 'history of armaments'
+Sk 100 'arms maintenance'
+Sk 100 'basic armor'
+Sk 100 'orealts 1st'
+Sk 100 'adv. handling'
+Sk 100 '2h mastery'
+Sk 100 'orealts 2nd'
+Sk 100 'damage mastery B'
+Sk 100 'damage mastery P'
+Sk 100 'damage mastery S'
+Sk 100 'adv. armor'
+Sk 100 'armor enhancement'
+Sk 100 'backcutter'
+Sk 100 'cutter'
+Sk 100 'control damage'
+Sk 100 'cusinart'
+Sk 100 'psalm master'
+Sk 100 'witch compass'
+Sk 100 'weaponcraft'
+Sk 100 'armorcraft'
+Sk 100 'pommel smash'
+Sk 100 'behead'
+Sk 100 'armor pierce'
+Sk 100 'pious'
+Sk 100 'high sight'
+Sk 100 'chant'
+Sk 100 'righteousness'
+Sk 100 'dvoid'
+Sk 100 'insight'
+Sk 100 'divine wrath'
+Sk 100 'shadow bane'
+Sk 100 'pure water'
+Sk 100 'icefire'
+Sk 100 'searing might'
+Sk 100 'divine might'
+Sk 100 'vitality'
+Sk 100 'swift retribution'
+Sk 100 'virtues'
+Sk 100 'preservation'
+Sk 100 'final parting'
+Sk 100 'vicarious redemption'
+Sk 100 'the Triumph of One God'
+Sk 100 'the Triumph of Sirant'
+Sk 100 'the Triumph of Palison'
+Sk 100 'undeniable order'
+Sk 100 'inner strength'
+Sk 100 'purity'
+Sk 100 'constitution'
+Sk 100 'the Eye of Palison'
+Sk 100 'divine health'
+Sk 100 'Baptism'
+Sk 100 'inner calm'
+Sk 100 'pugil'
+Sk 100 'shadow arts'
+Sk 100 'lotus scourge'
+Sk 100 'bowyer'
+Pr 642 'bowyer'
+Sk 100 'fletchery'
+Sk 100 'archery'
+Sk 100 'beastmaster'
+Sk 100 'exotic mastery'
+Sk 100 'sword mastery'
+Sk 100 'dagger mastery'
+Sk 100 'spear mastery'
+Sk 100 'mace mastery'
+Sk 100 'axe mastery'
+Sk 100 'flail mastery'
+Sk 100 'whip mastery'
+Sk 100 'staff mastery'
+Sk 100 'polearm mastery'
+Sk 100 'exotic expert'
+Sk 100 'sword expert'
+Sk 100 'dagger expert'
+Sk 100 'spear expert'
+Sk 100 'mace expert'
+Sk 100 'axe expert'
+Sk 100 'flail expert'
+Sk 100 'whip expert'
+Sk 100 'polearm expert'
+Sk 100 'staff expert'
+Sk 100 'plant'
+Sk 100 'traps'
+Sk 100 'defuse'
+Sk 100 'poison needle'
+Sk 100 'amnesia charm'
+Sk 100 'snares'
+Sk 100 'runes'
+Sk 100 'eyedust'
+Sk 100 'antimagic'
+Sk 100 'enfeebler'
+Sk 100 'blackspore'
+Sk 100 'chestbuster'
+Sk 100 'brambus needler'
+Sk 100 'devil wheel'
+Sk 100 'webcaster'
+Sk 100 'fireseed'
+Sk 100 'doublesheath'
+Sk 100 'magic web'
+Sk 100 'feign'
+Sk 100 'power grip'
+Sk 100 'mantis maul'
+Sk 100 'focused bash'
+Sk 100 'weapon lock'
+Sk 100 'piercing strike'
+Sk 100 'shield expertise'
+Sk 100 'shield bash'
+Sk 100 'weapon seize'
+Sk 100 'soul transfer'
+Sk 100 'path of anger'
+Sk 100 'path of fury'
+Sk 100 'path of devastation'
+Sk 100 'skull crusher'
+Sk 100 'blood haze'
+Sk 100 'spirit bind'
+Sk 100 'mounted'
+Sk 100 'goliath'
+Sk 100 'bribe'
+Sk 100 'throat cut'
+Sk 100 'asphyxiate'
+Sk 100 'shadowmaster'
+Sk 100 'bloodmark'
+Sk 100 'diplomacy'
+Sk 100 'vengeance'
+Sk 100 'spawn blade'
+Sk 100 'conjuration'
+Sk 100 'maze'
+Sk 100 'nemesis'
+Sk 100 'stand ground'
+Sk 100 'chrono shield'
+Sk 100 'temporal storm'
+Sk 100 'faith ward'
+Sk 100 'vocalize'
+Sk 100 'curse ward'
+Sk 100 'paradox'
+Sk 100 'age'
+Sk 100 'temporal avenger'
+Sk 100 'town gate'
+Sk 100 'contingency'
+Sk 100 'ripple'
+Sk 100 'raise morale'
+Sk 100 'close combat'
+Sk 100 'trample'
+Sk 100 'cyclone'
+Sk 100 'maelstrom'
+Sk 100 'adrenaline rush'
+Sk 100 'recharge'
+Sk 100 'overload'
+Sk 100 'death kiss'
+Sk 100 'falcon eye'
+Sk 100 'defusion'
+Sk 100 'omnipotence'
+Sk 100 'act'
+Sk 100 'scribe'
+Sk 100 'no-learn'
+Sk 100 'metabolic brake'
+Sk 100 'metabolic boost'
+Sk 100 'remove magic'
+Sk 100 'psi amp'
+Sk 100 'subvocalize'
+Sk 100 'wish'
+Sk 100 'mindsurge'
+Sk 100 'pyro kinesis'
+Sk 100 'cryo kinesis'
+Sk 100 'hydro kinesis'
+Sk 100 'electro kinesis'
+Sk 100 'tele kinesis'
+Sk 100 'photon blast'
+Sk 100 'singularity'
+Sk 100 'entropic touch'
+Sk 100 'amorphous infection'
+Sk 100 'disintegrate'
+Sk 100 'breach'
+Sk 100 'omen'
+Sk 100 'deathmare'
+Sk 100 'dreamprobe'
+Sk 100 'mindmelt'
+Sk 100 'telepathy'
+Sk 100 'domination'
+Sk 100 'spell vise'
+Sk 100 'mana trap'
+Sk 100 'spell trap'
+Sk 100 'spell blast'
+Sk 100 'soul pump'
+Sk 100 'masochism'
+Sk 100 'total recall'
+Sk 100 'brain death'
+Sk 100 'unminding'
+Sk 100 'illusion'
+Sk 100 'alteration'
+Sk 100 'false weapon'
+Pr 532 'false weapon'
+Sk 100 'numbness'
+Sk 100 'shadow door'
+Pr 639 'shadow door'
+Sk 100 'nerve amp'
+Sk 100 'mirror cloak'
+Sk 100 'mirage'
+Sk 100 'blink'
+Sk 100 'spook'
+Sk 100 'petrify'
+Sk 100 'time compression'
+Sk 100 'planar rift'
+Sk 100 'molecular leash'
+Sk 100 'webbing'
+Sk 100 'awaken life'
+Sk 100 'greenheart'
+Sk 100 'planar seal'
+Sk 100 'dragon blood'
+Sk 100 'whirlwind'
+Sk 100 'boulder throw'
+Sk 100 'leadership'
+Sk 100 'steel wall'
+Sk 100 'tracker'
+Sk 100 'horn of nature'
+Sk 100 'forestwalk'
+Sk 100 'pack call'
+Sk 100 'group herb'
+Sk 100 'concealment'
+Sk 100 'marksman'
+Sk 100 'horde'
+Sk 100 'rapid fire'
+Sk 100 'missile shield'
+Sk 100 'regenerate'
+Sk 100 'forestmeld'
+Sk 100 'eye of nature'
+Sk 100 'onslaught'
+Pr 252 'onslaught'
+Sk 100 'chop'
+Sk 100 'bladerush'
+Sk 100 'backpin'
+Sk 100 'pinwheel'
+Sk 100 'critical strike'
+Sk 100 'bladework'
+Sk 100 'footwork'
+Sk 100 'battle stance'
+Sk 100 'avatar of steel'
+Sk 100 'powerstrike'
+Sk 100 'deathweaver'
+Sk 100 'bladestorm'
+Sk 100 'ironarm'
+Sk 100 'Kyousanken'
+Sk 100 'shadowdancer'
+Sk 100 'doomsinger'
+Sk 100 'kairishi'
+Sk 100 'vigil'
+Sk 100 'twin counter'
+Sk 100 'predict'
+Sk 100 'snakespeed'
+Sk 100 'spellkiller'
+Sk 100 'deathstrike'
+Sk 100 'mob expert'
+Sk 100 'human expert'
+Sk 100 'elf expert'
+Sk 100 'dwarf expert'
+Sk 100 'demihuman expert'
+Sk 100 'giant expert'
+Sk 100 'beast expert'
+Sk 100 'flying expert'
+Sk 100 'unique expert'
+Sk 100 'mob master'
+Sk 100 'human master'
+Sk 100 'dwarf master'
+Sk 100 'elf master'
+Sk 100 'beast master'
+Sk 100 'giant master'
+Sk 100 'demihuman master'
+Sk 100 'flying master'
+Sk 100 'unique master'
+Sk 100 'blood vow'
+Sk 100 'battlesphere'
+Sk 100 'battlefocus'
+Sk 100 'battletrance'
+Sk 100 'mercy wait'
+Sk 100 'soul tap'
+Sg 100 'reserved'
+Sg 100 'Test Song'
+Sg 100 'Lullaby'
+Sg 100 'Herald of the Sky'
+Sg 100 'Broken Spirit'
+Sg 100 'Ode to God'
+Sg 100 'A Soothing Melody'
+Sg 100 'Rest Thy Feet'
+Sg 100 'Travel of Solitary'
+Sg 100 'Weak of Mind and Body'
+Sg 100 'Devils Dance'
+Sg 100 'Four Seasons'
+Sg 100 'Vertigo'
+Sg 100 'Paranoia'
+Sg 100 'Water to Wine'
+Sg 100 'Intoxify My Mind'
+Sg 100 'Clash of Titans'
+Sg 100 'Twilight of Faeries'
+Sg 100 'Flight of the Condor'
+Sg 100 'Battle Hymn'
+Sg 100 'Shield of Words'
+Sg 100 'Good Tidings'
+Sg 100 'Legend of Hercules'
+Sg 100 'Weight of Burden'
+Sg 100 'Marriage Song'
+Sg 100 'Mourn for the Lost'
+Sg 100 'Rest in Peace'
+Sg 100 'Birth of the Phoenix'
+Sg 100 'Emancipation'
+Sg 100 'Healing of Laughter'
+Sg 100 'Scourge of Black Widow'
+Sg 100 'Mystery of the Unicorn'
+Sg 100 'Complete Focus'
+Sg 100 'Sharp Discord'
+Sg 100 'Remembrance'
+Sg 100 'Serenade'
+Sg 100 'Leviathans Passing'
+Sg 100 'Lust Seduction Desire'
+Sg 100 'A Kings Feast'
+Sg 100 'Let it be Known'
+Sg 100 'Victory Be Ours'
+Sg 100 'Unforgiven'
+Psa 3 'Righteousness'
+Psa 2 'Divine void'
+Psa 1 'Purewater'
+Psa 4 'the Triumph of Palison'
+Psa 5 'Inner Strength'
+Gr 'rom basics'
+Gr 'warrior basics'
+Affc 'soul tap'   0  60 116   1  29          0 1074056137   0    ~
+Affc 'wanted'   7  60 139   8   3          0 147423544   0    ~
+Affc 'lay on hands'   0  60  19   0   0          0 137618432   0    ~
+End
+
+#O
+Vnum 7797
+SaveVer 3001
+Nest 0
+Wear -1
+Cost 2
+End
+
+#O
+Vnum 7797
+SaveVer 3001
+Nest 0
+Wear -1
+Cost 2
+End
+
+#O
+Vnum 7797
+SaveVer 3001
+Nest 0
+Wear -1
+Cost 2
+End
+
+#O
+Vnum 7797
+SaveVer 3001
+Nest 0
+Wear -1
+Cost 2
+End
+
+#O
+Vnum 7797
+SaveVer 3001
+Nest 0
+Wear -1
+Cost 2
+End
+
+#O
+Vnum 7797
+SaveVer 3001
+Nest 0
+Wear -1
+Cost 2
+End
+
+#O
+Vnum 7797
+SaveVer 3001
+Nest 0
+Wear -1
+Cost 2
+End
+
+#O
+Vnum 5
+SaveVer 3001
+Nest 0
+Name sleepy arrows~
+ShD  sleepy arrows~
+Desc A bundle of sleepy arrows lies here.~
+Wear -1
+Lev  60
+Cost 0
+Val  1 3 10 11 128
+Affc 'fletchery'   0  60  -1   5  18          0   0   0    ~
+End
+
+#O
+Vnum 18
+SaveVer 3001
+Nest 0
+Name ranger Virigoth bow~
+ShD  Virigoth's bow~
+Desc Virigoth's bow is lies in the dust.~
+Wear 24
+Lev  60
+Time 19
+Cost 0
+Val  1 125 2 0 1
+Affc 'bowyer'   0  60  -1   2  19          0   0   0    ~
+Affc 'bowyer'   0  60  -1   2  18          0   0   0    ~
+End
+
+#O
+Vnum 5
+SaveVer 3001
+Nest 0
+Name sleepy arrows~
+ShD  sleepy arrows~
+Desc A bundle of sleepy arrows lies here.~
+Cond 38
+Wear -1
+Lev  60
+Cost 0
+Val  1 3 10 11 128
+Affc 'fletchery'   0  60  -1   5  18          0   0   0    ~
+End
+
+#O
+Vnum 5
+SaveVer 3001
+Nest 0
+Name sleepy arrows~
+ShD  sleepy arrows~
+Desc A bundle of sleepy arrows lies here.~
+Cond 30
+Wear 27
+Lev  60
+Cost 0
+Val  1 3 10 11 128
+Affc 'fletchery'   0  60  -1   5  18          0   0   0    ~
+End
+
+#O
+Vnum 5
+SaveVer 3001
+Nest 0
+Name sleepy arrows~
+ShD  sleepy arrows~
+Desc A bundle of sleepy arrows lies here.~
+Cond 23
+Wear -1
+Lev  60
+Cost 0
+Val  1 3 10 11 128
+Affc 'fletchery'   0  60  -1   5  18          0   0   0    ~
+End
+
+#END

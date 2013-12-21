@@ -1,0 +1,22 @@
+Sender  Brinson~
+Prefix  6000
+Date    Thu Sep 21 20:34:53 2006~
+Stamp   1158885293
+To      all~
+Subject Why you can't sacrifice~
+Text
+You weren't able to sac the items because the "take" wear flag hadn't been added, so the mud treated it as a permanent object.
+~
+Sender  Raki~
+Prefix  5900
+Date    Fri Sep 22 13:45:18 2006~
+Stamp   1158947118
+To      brinson~
+Subject Objests 513, 514, 515~
+Text
+The above objects are programed in, but I cannot figure out how to get
+the treant king to wield the staff.  They are also quality that would
+usually be marked rare or unique.  If this is a problem let me know I will
+fix it.  
+Raki
+~

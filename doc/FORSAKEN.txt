@@ -1,0 +1,31 @@
+What you need to know if you're new to this sort of thing:
+
+-1) Use this at your own risk. There is no malicous code in FL source code, no backdoors etc.
+
+0) This tarball includes everything from ForsakenLands except its areas and various morps.
+
+1) 
+./src/ is the source file directory.  The makefile present there allows you to just type in "make" or "make all"
+to compile the code.
+
+2) The executable file is "clands" (the original name for ForsakenLands was CursedLands, however most domain 
+names for that were taken, thus it became ForsakenLands we all know and love today.  The executable file
+stayed as clands beacuse I'm sentimental :)  )
+
+3) You can start the mud using ".startup" script file in the ./area/ directory.  Just enter ".startup" while
+in the directory.  Edit the script file to put in your prefered port.
+
+4) There is a single level 60 pfile included with name "Admin".  Use that to get yourself started.
+
+5) If you activly play FL, please do not mention anything you learned from this source code on its Forums.
+We've always respected everyone's right to learn their own advanced info.  Please keep it that way.
+
+6) These files are presented as-is.  Please do not contanct me for help or explanations, comments etc.
+
+7) Enjoy.
+
+Virigoth, Aka. Voytek Plawny
+www.forsakenlands.org
+
+
+

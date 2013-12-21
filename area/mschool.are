@@ -1,0 +1,1936 @@
+#AREADATA
+Name The Mud School~
+Pref ~
+Builders ~
+VNUMs 7700 7799
+Max_Bastions 0
+Credits { ALL } Staff    The Mud School~
+Security 9
+Startroom 0
+Flags 1072
+Crimes 6 1 0 0 0 1 3 
+End
+
+
+
+#CABALS
+#0
+
+
+
+#MOBILES
+#7700
+creator~
+The Lord of Creation~
+The Lord of Creation is here, restoring your soul and body.
+~
+You just see a bright white light, you can't make out anything.  Don't
+even think about messing with him.
+~
+human~
+ABa A 0 0 0 0
+60 0 1d1+10 0d0+100 2d4+20 wrath
+0 0 0 0
+0 ACDQ 0 0
+stand stand none none~
+1400
+AHMV ABCDEFGHIJK medium 0
+#7701
+The Keeper of the Seals~
+The Keeper of the Seals~
+The Keeper of the Seals stands here, watching over the Younglings.
+~
+You see before you a very attractive woman, clad in white Adept robes. She
+bears encircling her waist a long silver chain, denoting her Keeper status.
+With long flowing golden hair, a porcelain face, and attractive green eyes
+that you feel like you could easily get lost in, you understand that this
+Keeper is perhaps the most important person on Academy Grounds, save for
+the Headmaster himself, whom she reports progress directly to.
+~
+human~
+ABZ AC 0 0 0 0
+60 50 10d50+8000 0d0+100 10d10+80 punch
+-4 -4 -4 -4
+DEJMNX ABCDGHKLNPQ 0 0
+stand stand female none~
+0
+AHMV ABCDEFGHIJK huge 0
+P RANDOM 7700 25~
+P GREET 7701 100~
+#7702
+keeper first room~
+The Keeper of the First Room~
+The Keeper of the First Room is here
+~
+~
+human~
+AL A 0 0 0 0
+50 0 10d5+5 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 7702 teach~
+P GREET 7703 100~
+#7703
+statue~
+(no short description)~
+(no long description)
+~
+~
+human~
+A A 0 0 0 0
+0 0 0d0+0 0d0+100 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK medium 0
+#7704
+priest cleric~
+the priest of Chaos~
+The priest of Chaos is ready to help you practice.
+~
+~
+human~
+ABCKQTV A 0 0 0 0
+30 10 1d1+999 0d0+100 2d4+30 beating
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+stand stand male none~
+125
+AHMV ABCDEFGHIJK medium 0
+#7705
+adept cleric~
+the adept of Tamaneril~
+An adept of Tamaneril is here, training younglings.
+~
+Encased in a shimmering sphere of light, the Adept who stands before
+you is at one with his own holiness. Garbed in simple attire, an aura
+of divine power radiates from him, causing your skin to tingle just as
+you stand in the same room with him. It is perhaps best to train, and
+go about your business. Tangling with these adepts may very well be
+the last thing you do!
+~
+human~
+ABJQT A 0 0 0 0
+30 10 1d1+999 0d0+100 2d4+30 beating
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+stand stand male none~
+125
+AHMV ABCDEFGHIJK medium 0
+#7713
+statue raght~
+(no short description)~
+(no long description)
+~
+~
+human~
+A A 0 0 0 0
+0 0 0d0+0 0d0+100 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none none~
+0
+AHMV ABCDEFGHIJK medium 0
+#7716
+Drumlin headmaster academy~
+Drumlin~
+Lord Drumlin, the Academy Headmaster, rests at a desk here.
+~
+~
+human~
+ABTVZ A 0 0 0 0
+60 0 50d10+7000 0d0+100 3d80+20 divine
+-30 -30 -30 -30
+EFHJK AB D 0
+stand stand male none~
+300
+AHMV ABCDEFGHIJK medium 0
+P GREET 7716 100~
+#7717
+adept cleric~
+the adept of Mircea~
+An adept of Sirant is here, selling magical items.
+~
+~
+human~
+ABCQTV A 0 0 0 0
+30 10 1d1+999 0d0+100 2d4+30 beating
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+stand stand male none~
+125
+AHMV ABCDEFGHIJK medium 0
+#7718
+adept cleric~
+the adept of Sirant~
+An adept of Sirant is here, selling sundries.
+~
+~
+human~
+ABCQTV A 0 0 0 0
+30 10 1d1+999 0d0+100 2d4+30 beating
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 0
+stand stand male none~
+125
+AHMV ABCDEFGHIJK medium 0
+#7724
+gate guardian creature~
+a gate guardian~
+A burly gate guardian stands here.
+~
+He seems to be rather burly, but he's not wearing much for armor. A small
+brown tunic and his hairy forearms look to be a fair match for your present
+skills. A shiny key is dangling about his neck.
+~
+school monster~
+ABU A 0 0 0 0
+2 1 2d2+20 0d0+100 1d4+1 claw
+8 8 8 10
+FN AB 0 C
+stand stand none none~
+5
+AMV ABCDEFGHIJKLMNOPQUVWXY medium 0
+#7733
+wolf~
+the wolf~
+A wolf is here snarling at you.
+~
+The wolf doesn't want to be bothered.
+~
+wolf~
+AGU A 0 0 0 0
+4 0 4d4+44 0d0+100 1d6+2 bite
+7 7 7 10
+FHNR 0 0 0
+stand stand either none~
+0
+AHMV ABCDEFGHIJK medium 0
+#7737
+goblin trainee~
+a goblin trainee~
+A goblin trainee snarls at you.
+~
+Short, ugly, with big, misshapen ears and head, this disgusting
+little creature seems to be placed here only to die by your sword.
+~
+pig~
+AGU A 0 0 0 0
+3 1 3d3+30 0d0+100 1d6+1 charge
+7 7 7 9
+CDFR 0 0 0
+stand stand either none~
+5
+AGV ACDEFHJK medium 0
+#7738
+plasm beast~
+a plasm beast~
+A plasm beast slithers along the ground here.
+~
+You don't see much but slime about it.
+~
+unique~
+AGU A 0 0 0 3713
+0 0 1d1+0 0d0+100 1d1+0 digestion
+10 10 10 10
+0 0 0 0
+stand stand none none~
+0
+AGQc ADEFGKM tiny 0
+#7743
+hyena~
+a spotted hyena~
+A spotted hyena paws at the ground here.
+~
+Nasty beast, with sharp teeth, and an odorous stench.
+~
+dog~
+ACG A 0 0 -50 0
+2 0 2d7+21 0d0+100 1d5+0 none
+8 8 8 10
+EFHNR 0 0 0
+stand stand none none~
+0
+AGV ACDEFHJKUV medium 0
+#7771
+lizard~
+a frilled lizard~
+A frilled lizard is sunning itself here.
+~
+Looks like a strange beast, with a large, skin collar, and sharp teeth.
+~
+lizard~
+AGU A 0 0 -100 0
+2 0 2d2+20 0d0+100 1d4+1 bite
+8 8 8 10
+R 0 L I
+stand stand either none~
+0
+AGXc ACDEFHKLQ small 0
+#7774
+Gholynn priest healer mudschool~
+Gholynn the priest~
+Gholynn, a wise priest, stands here communing blessings.
+~
+With white, frazzled hair, and a serene, calm look about him, Gholynn has
+been helping new travelers in these realms for ages. He looks very grand-
+fatherly.
+~
+human~
+ABTVZa A 0 0 0 0
+60 0 50d10+7000 0d0+100 3d80+20 divine
+-30 -30 -30 -30
+EFHJK AB D 0
+stand stand male none~
+300
+AHMV ABCDEFGHIJK medium 0
+P GRALL 7774 30~
+#7777
+cloudman guardian~
+a mysterious cloudman~
+A mysterious cloudman is standing here, guarding a treasure.
+~
+The man seems to be made entirely of misty clouds! He seems to be guarding something,
+like perhaps the floating chest behind him? You may find that if you 'CONSIDER' him,
+you `!MAY`` be able to kill him. Perhaps reasoning with him to get that cloudy key
+he's holding may be a better idea? You see some tiny lettering on him. (`#LOOK LETTERING``)
+~
+storm~
+ABGe A DFJTU 0 0 0
+10 2 4d6+100 0d0+100 1d1+1 none
+2 3 2 1
+0 AB DJ PX
+stand stand male none~
+0
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 7777 me~
+P SPEECH 7778 *~
+#7778
+ghost wraith~
+a ghost wraith~
+A misty ghost wraith lunges at you, and attacks!
+~
+He is big, he is bad.  You don't want to fight him when he isn't chained up.
+Perhaps now would be a good time to flee from him!!!  If you don't flee, you
+would really suffer the consequences.
+~
+school monster~
+ABFGUe A 0 0 0 0
+5 -10 1d1+19 0d0+100 1d1+6 drowning
+0 0 0 0
+AI AB CD C
+stand stand none none~
+0
+AMV ABCDEFGHIJKLMNOPQUVWXY large 0
+#7780
+mage instructor archmage nikolaus~
+Archmage Nikolaus~
+Archmage Nikolaus, the Instructor, is standing here.
+~
+~
+gnome~
+ABCQTV A J 0 0 0
+30 10 1d1+999 0d0+100 2d4+30 beating
+-15 -15 -15 -15
+ACEFHIKN ABCD 0 BEP
+stand stand male none~
+125
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 7717 battle~
+P SPEECH 7715 conduct~
+P SPEECH 7714 basics~
+P GREET 7780 100~
+P SPEECH 7784 notes~
+P SPEECH 7718 history~
+#7781
+farrahn blademaster warrior instructor~
+Blademaster Farrahn~
+Blademaster Farrahn, the Instructor, is standing here.
+~
+This massive stone giant was once a powerful member of the famed Warmasters,
+but has since retired in relative peace to help young warriors learn about
+the Arts of War within the Academy.
+~
+stone~
+ABCQTV A 0 0 0 0
+30 10 1d1+999 0d0+100 2d4+30 beating
+-15 -15 -15 -15
+ACEFHIKN ABCD D EP
+stand stand male none~
+125
+AHMV ABCDEFGHIJK medium 0
+P SPEECH 7713 conduct~
+P SPEECH 7712 tips~
+P SPEECH 7711 history~
+P SPEECH 7710 battle~
+P SPEECH 7783 notes~
+P GREET 7780 100~
+#0
+
+
+
+#OBJECTS
+#7702
+law book rules divine~
+the Divine Book of Rules~
+A large book rests on a stand here, demanding to be read. (Type '`#LOOK BOOK'``.)~
+paper~
+furniture AT 0
+0 0 0 0 0
+0 0 100 P
+E
+chapter9~
+~
+E
+chapter~
+~
+E
+chapter8~
+`8--==`` `&Miscellaneous`` `8==--``
+ 
+For any questions or comments, please feel free to take use of 'NOTE',
+'IDEA' or 'BUG' channels. If you wish to send a note, simply 'note to immortal',
+'note subject <subject>', then 'note + <information>' line by line. Again,
+abuse of any of these is grounds for a ban. Use them wisely.
+~
+E
+chapter7~
+`8--==`` `&Commands and Actions`` `8==--``
+ 
+There are many, many commands available within The Forsaken Lands. As you
+progress, you will learn their usefulness, but we will give you a brief overview
+of basic commands and their uses.
+ 
+1) `!Score`` - Shows you character's current status, and MANY other things.
+2) `!Inventory (Inv)`` - Shows you your character's current inventory.
+3) `!Equipment (Eq)`` - Shows you what your character is wearing
+4) `!Get, Take`` - Picks up an item
+5) `!Wear, Wield, Hold`` - Wears or wields an item.
+6) `!Scan (Direction, or all)`` - Scans rooms in various directions ahead
+7) `!Quit`` - Leave the Forsaken Lands.
+8) `!Delete + Delete`` - Remove your character permanently
+9) `!Practice`` - View your current skills and percentages
+10) `!Train`` - View your current trains and stats
+11) `!'/'`` or `!'recall'`` - Returns you to the temple of your home town
+   (Levels 1-9 only!)
+12) See `^HELP COMMANDS`` for more.
+~
+E
+chapter6~
+`8--==`` `&Forbidden Acts`` `8==--``
+ 
+Please remember that this MUD is put here by the Immortals for you to enjoy.
+They are not paid for their services here, and are here to encourage, support,
+and, when needed, discipline. Their word is absolute, and talking back to,
+insulting, or harassing any Immortal, or abusing any channel with 'spam' will
+only get you banned. The following is a list of acts expressly forbidden by the
+Staff of The Forsaken Lands:
+ 
+1) `&Any advertisement for any other MUD or service.``
+2) `&Spamming, excess profanity, or harassment.``
+3) `&Disrespect to any staffmember.``
+4) `&Any attempt to hack, solicit, extort, or infringe on any property of FL.``
+5) `&Any other act deemed inappropriate by the Staff.``
+~
+E
+chapter5~
+`8--==`` `&Skills and Spells`` `8==--``
+ 
+Based on your character creation, your character will have at his or her
+disposal a large arsenal of skills and spells. To view all available spells
+for your class, simply type 'spells', and likewise for a skill listing. For
+more information on the function and correct syntax of each skill or spell,
+simple type '`^HELP <SKILL OR SPELL>``'.
+~
+E
+chapter4~
+`8--==`` `&Seeking Knowledge`` `8==--``
+ 
+For more information on Aabahran: The Forsaken Lands, visit our extremely
+large resource at `!http://forsakenlands.net``.
+~
+E
+chapter3~
+`8--==`` `&Your Character and Life`` `8==--``
+ 
+All players here are required to have a description BEFORE rank 15. To write
+a description, read up on '`^HELP DESCRIPTION``'. If you are unsure of what is to
+be written in a description, '`#PRAY``' to an Immortal for assistance. You will
+have a [`#D``] by your name until your description is approved by an Immortal.
+With this approval comes a substantial experience and stat gain, so it is very
+worth your while to get this done as soon as possible.
+ 
+All characters begin life at age 17. Every four deaths, a character will
+lose a 'Condition' or 'Con' point. Once your condition has deteriorated to
+abysmal (generally around 60 deaths), your player will face a permanent death.
+ 
+Keep in mind a history of your character at all times. Remember that roleplay
+here is enforced, and is very well rewarded. Play well, and you will enjoy
+yourself!
+~
+E
+chapter2~
+`8--==`` `&Channels and Conversation`` `8==--``
+ 
+Channels on this MUD are a privilege that the Immortals grant the players. As
+a newbie, you have access to 'Newbie Chat' (syntax: 'Newbie <message>'). You
+may also 'SAY', 'PRAY' (A direct channel to the Immortals), 'EMOTE' (see HELP
+SOCIALS), and 'YELL' (restricted to players level 2 or greater).
+ 
+All of these channels, save for the NEWBIE channel, are ENFORCED ROLEPLAYING
+channels. For more information, please see '`^HELP <CHANNEL>``'.
+~
+E
+chapter1~
+`8--==`` `&Basic Rules and Regulations`` `8==--``
+ 
+There are several basic rules and regulations that a new player must adhere to
+while within these realms. First, keep in mind that this is an ENFORCED roleplay
+MUD. You are to remain IN CHARACTER at ALL TIMES, unless an Immortal expressly
+gives you permission to go OOC. With the exception of the NEWBIE CHANNEL, (See
+Chapter 2), all other channels within this MUD are ROLEPLAY ENFORCED. Keep in
+mind that you may be being observed, even now.
+ 
+This MUD allows NO MULTI-PLAY whatsoever. While you are free to have as many
+characters as you wish, none are allowed to be logged in from the same address
+at ANY time for ANY reason. This is HIGHLY enforced, and breaking this cardinal
+rule WILL result in a ban of your character from this game. This law as well
+extends to sharing of OOC (Out of Character) knowledge with friends via any
+type of chatroom or messenger service.
+ 
+For more information on these rules, read HELP RULES, HELP NEWBIE, and HELP
+MULTI for any further clarification.
+~
+E
+book~
+Welcome, Traveler. You have entered the Realms of Aabahran. Before you continue,
+you must familiarize yourself with the laws and rules of the land before you can
+proceed. This book has several chapters of express interest to you, and they must
+all be read and digested before you continue further. To view a chapter, simply
+type 'LOOK CHAPTER1', or 'LOOK CHAPTER2', etc. Once you have read this, you
+may proceed northward, and further into your training.
+ 
+Chapter1..................`&Basic Rules and Regulations``
+Chapter2..................`&Channels and Conversation``
+Chapter3..................`&Your Character and Life``
+Chapter4..................`&Seeking Knowledge``
+Chapter5..................`&Skills and Spells``
+Chapter6..................`&Forbidden Acts``
+Chapter7..................`&Commands and Actions``
+Chapter8..................`&Miscellaneous``
+~
+#7703
+podium~
+a podium~
+A podium is standing here. (`#LOOK PODIUM``)~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 0 100 P
+E
+podium~
+A large book is lying open here on the podium. (`#LOOK BOOK``)
+~
+E
+book~
+Welcome to the Training Quadrangle. To your east and west lie practice
+rooms where Adepts of the Gods await you. Here, you will increase your
+proficiencies at skills, and use your training sessions to increase your
+attributes. Help files are available for all skills and spells, as well
+as attributes. You get one train every five levels of rank, so be sure
+to use your trains wisely! As well, 10 practice sessions can be converted
+into one training session at your trainer, (located within each city).
+You gain practice sessions each rank, and the amount you get is based
+solely on your Wisdom. Once you have read this, `#SCAN`` in any direction
+to see where the trainers are. You can also use `#SCAN ALL`` to scan in
+all visible cardinal directions.
+~
+#7704
+no name~
+(no short description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#7705
+statue malignant~
+a statue of malignant~
+An iron statue of Malignant is standing here.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 100 P
+E
+statue~
+Malignant took a new form in the midst of the fifth age. Aspiring unto the
+heavens to watch the ancient battle between Chaos and Order, the light and
+the shadows.. within eternity. As with all of the Demonic kin, Malignant
+bears the traits of his name. A cruelty is spoken of by those who have
+known him, A black and chaotic heart within the broken form of a robed
+winged figure.
+~
+#7706
+fountain~
+a marble fountain~
+A white marble fountain flows forth clean water here.~
+stone~
+fountain G 0
+-1 -1 'water' 0 0
+50 5000 5 P
+E
+fountain~
+As a new traveler, you will find many nuances of life here interesting.
+You will also notice that, as you travel, you will become affected by
+hunger and thirst. It is a wise idea to keep with you at all times some
+means of sustenance, as well as a water skin of sorts. Around Thera, many
+cities have fountains, however, while traveling into the mountains or
+forests, water and food become much less available. Your hunger and your
+thirst will not cause any noticable damage or injury to you before you
+attain level 10, however, it will affect your health and mana regeneration
+rate, so it is best to keep well fed and quenched. You will find that you
+can eat certain bodyparts of creatures that you kill (arms, and legs), but
+other parts, such as guts, may be poisoned, so be cautious!
+~
+P RANDOM 7706 50~
+#7707
+statue god~
+a statue of Verdigar~
+A statue of Verdigar, patron god of Nature, stands here.~
+stone~
+furniture 0 0
+0 0 0 0 0
+60 0 100 P
+E
+statue~
+Verdigar is the patron God of rangers, druids and all others who
+respect and love Nature. It is not uncommon among the small folk
+to utter a small prayer to him upon entering his domain on any
+undertaking. There is no record of him ever having been a mortal,
+but even so he has many mortal traits, being well known for his
+love of strong drink and pretty girls. According to rumors he
+has been known to engage in drinking contests with mortals that
+he deems worthy of such an honor. Known as a fierce fighter, a
+superb hunter and a great carouser, some think that Verdigar
+often assumes a mortal form to walk the lands in pursuit of his
+favorite activities. Aside from these "qualities" he is utterly
+devoted to Nature and will not stand aside to see the Natural
+Order corrupted, even though he takes no particular interest in
+the conflicts between his immortal siblings. Even so, few, even
+among his fellow Gods, would risk angering the Lord of Nature,
+for his wrath is a terrible thing to behold.
+~
+#7708
+statue virigoth~
+a statue of Virigoth~
+An onyx statue of Virigoth is standing here.~
+onyx~
+furniture 0 0
+0 0 0 0 0
+60 0 100 P
+E
+statue~
+Virigoth is the embodiment of death and decay in Thera, often deity of 
+choice for necromancers, executioners and morticians. It represents the 
+inevitable end of all that is natural and the counterbalance to forces of
+life. Those who worship It, worship not the act of death but the inescapable 
+collapse of life and its eventual end which allows the cycle of rebirth and 
+creation to continue. It holds power over all things of Thera that ceased
+their natural life, and not even its name is spoken out loud in fear of 
+sickness and death it brings. The foreboding mark of a snarling skull is a 
+common symbol around graveyards of Thera. Engraved for protection of the 
+deceased to ward of grave robbers, alive and not. It is rumored that a whole 
+cult exists in Virigoth's name, yet to even enquire about its existence is to 
+court death.
+~
+#7709
+statue chaos~
+a statue of Bryntryst~
+A basalt statue of Bryntryst is standing here.~
+basalt~
+furniture 0 0
+0 0 0 0 0
+60 0 100 P
+#7710
+statue warrior~
+a massive statue~
+A large stone statue of a warrior stands here.~
+stone~
+furniture 0 0
+0 0 0 0 0
+60 0 100 P
+E
+plaque~
+Aabahran is a very violent place. All around, wars are fought, and
+people die following their causes. For now, as a youngling, you are
+safe from the harm of other players. However, once you attain the
+tenth rank, a <`1PK``> will appear by your name as well as the names
+of other individuals who you can harm, and likewise, can harm you.
+At level 10, you may attack and kill, and as well be killed. However,
+not until the rank of 15 can you loot the corpses of fallen players.
+Playerkilling (PK) ranges are highly balanced here in Aabahran, so
+there is seldom the chance of an unfair kill. Be highly wary of
+those who may wish to cause you harm, by using 'WHO PK' and 'WHERE
+PK' after you reach the rank of 10.
+~
+#7711
+statue god~
+a statue of Athaekeetha~
+A bronze statue of Athaekeetha is standing here.~
+bronze~
+furniture 0 0
+0 0 0 0 0
+60 0 100 P
+E
+statue~
+The High God Athaekeetha was once a famed mortal warrior of the duergar race.
+Known for his intense hatred of magic, he was the original founder of the
+cabal known as Warmasters.  A master in all forms of physical combat,
+Athaekeetha has never known fear nor has he known defeat.
+ 
+He demands the same courage from his followers as he leads them to victory
+verses the mage.  Legend has it that in the dark days during the invasions
+Athaekeetha ran ahead of his army and alone destroyed scores of the undead
+wizards.  He embodies the perfection that can be achieved through mastery
+of tactics and the right amount of insanity.
+ 
+If you seek the respect of Athaekeetha then become a master of your own body.
+Learn of its strengths, its weaknesses, and never attempt to rely on
+other wordly forces.  Athaekeetha is worshipped for the true warrior that
+he is.  Bloodthirsty yet disciplined, like a sword made of well tempered
+steel he watches Thera from the heavens as his Warmasters enforce his will.
+~
+#7712
+palison statue~
+an ivory statue~
+An ivory statue of Palison is standing here.~
+stone~
+furniture 0 0
+0 0 0 0 0
+60 0 0 P
+E
+Palison~
+In the early ages of Thera, A war of grand proportion expanded the 
+boundaries of existence. Once the chaos had ended and corpses of many 
+mortals had littered the land, the souls of the  warriors that carried 
+noble traits as honor, truth, and bravery took up a search for a lone 
+mortal  who carried the belief's the stood for. After many years of 
+searching a battle of chaos and death claimed many mortal souls, in the 
+end there stood few mortals. The souls of the noble warriors had found 
+their champion, a mortal name Palison. They claimed his body for the 
+betterment of all, consumed his life force and breathed a new force 
+into existence. Immortality had been given to this vessel named Palison, 
+driven by the rage of the fallen to over see peace with a new vengeance.
+~
+#7713
+statue raght~
+a granite statue~
+A granite statue of Raght is standing here.~
+granite~
+furniture 0 0
+0 0 0 0 0
+60 0 100 P
+E
+Raght~
+Never one to care much for the disputes of his brother and sister Gods,
+Raght is solely concerned with the preservation of order and the
+upholding of law within the civilized parts of Thera.
+Understanding the need for justice, he commands his followers to
+uphold the law in every decent city, and to protect the inhabitants
+that dwell within them.
+He too once fought along side the others during the great invasion,
+but only because of the danger that existed for the cities of Thera.
+Though not true enemies, it is said that Falthar and Raght are
+in constant disagreement over how the lands should be ruled.  Helaman
+insists on a kingdom being restored, while Raght refuses to
+relinquish the power that his Justice cabal has attained.  Thus,
+it is not uncommon to see the two mortal factions of these gods
+in a violent struggle.
+Though often reserved and silent, Raght possesses greatness in
+his own right.  Not one to be trifled with he is more than willing
+to meet any challenge to his power, though he forces himself to
+abide by the same laws that he has dictated to his followers.
+~
+#7714
+statue sirant~
+a marble statue~
+A marble statue of Sirant is standing here.~
+unknown~
+furniture 0 0
+0 0 0 0 0
+60 0 100 P
+E
+sirant~
+He served his mortal life as the right and of his beloved King.  By far
+the most gallant of the Knights, Sirant used his amazing skills in battle
+to serve the kingdom that once reigned supreme over Thera.
+When Cormac died, part of Sirant died too.  Unwilling to replace the
+King he became an even more devout servant of Helaman.  It is said
+that he wandered the lands alone for over twenty years, righting
+the wrongs he found, and searching for the answers that his soul
+yearned for.
+ 
+Sirant sets the example of Knights, for he was loved by all, and 
+respected even by his most hated enemies.  Renowned for his kind
+heart and even temper, he is often depicted as being deep in thought.
+Yet do not mistake his kindness for weakness, for he will help restore
+the Crown by nearly any means.
+Now residing in the heavens above, Sirant helps his God to carry out
+the Chosen's destiny, so that there may once again be one sovereign
+King of Thera.
+~
+E
+sirant~
+He served his mortal life as the right hand of his beloved King.  By far
+the most gallant of the Knights, Sirant used his amazing skills in battle
+to serve the kingdom that once reigned supreme over Thera.
+When Cormac died, part of Sirant died too.  Unwilling to replace the
+King he became an even more devout servant of Helaman.  It is said
+that he wandered the lands alone for over twenty years, righting
+the wrongs he found, and searching for the answers that his soul
+yearned for.
+ 
+Sirant sets the example of Knights, for he was loved by all, and 
+respected even by his most hated enemies.  Renowned for his kind
+heart and even temper, he is often depicted as being deep in thought.
+Yet do not mistake his kindness for weakness, for he will help restore
+the Crown by nearly any means.
+Now residing in the heavens above, Sirant helps his God to carry out
+the Chosen's destiny, so that there may once again be one sovereign
+King of Thera.
+~
+#7715
+fountain~
+a fountain~
+A large granite fountain cascades water here.~
+unknown~
+fountain 0 0
+-1 -1 'water' 0 0
+0 0 5 P
+E
+fountain~
+A massive stone structure, the fountain stands well over ten feet high.
+With large granite circles, the water pours from the top, and waterfalls
+down into several large bowls, that, in turn, waterfall down into a small
+pool below. Several gold coins are tossed into the wishing well at the
+very bottom. The water looks pure, and clean.
+~
+P RANDOM 7715 100~
+#7716
+statue drenaar~
+a crystal statue~
+A crystal statue of Drenaar is standing here.~
+crystal~
+furniture 0 0
+0 0 0 0 0
+60 0 100 P
+E
+Drenaar~
+Goddess of The Five Spheres, Guardian of Magic, Warrior of The Mind,
+Drenaar exemplifies perfection attained through the magical arts.
+The first Faerie ever to be seen on Thera, it is a widely held belief
+that her origins are not originally of this world.
+Her age is also unknown, as there is no record of her ever having a
+mortal life.  What is known is that she is the source of power and
+inspriration for the Savants, the most hated enemy of Warmasters,
+the mages of war, and the protectors of the magical arts in Thera.
+ 
+Her charms are many, and it is believed by some that she once seduced
+Helaman and thus gave birth to the once great King known as Cormac.
+Her promise is the destruction of Athaekeetha and his chosen, and
+she seeks only the strongest of the magi to aid her.
+Those who have had the privelage of being granted an audience have
+warned that her appearance and manner is most deceptive.  Small
+and often quiet she seems, yet she hears all and understands more
+than any mortal mind could ever hope.
+~
+#7717
+statue streantian~
+a steel statue~
+A steel statue of Streantian is standing here.~
+steel~
+furniture 0 0
+0 0 0 0 0
+60 0 100 P
+E
+statue~
+In a time where Chaos dominated, the severely crippled
+forces of Justice 
+struggled to maintain order in a society controlled by
+violence and the
+clashing of the major factions of power. In this era,
+so intense was the
+bloodshed, it was said that the streets of Val Miran
+were stained red with 
+the blood of the fallen. Demons of Chaos stood
+triumphantly, every aspect
+of order was clenched tightly within the grip of
+Chaos. Both Raght and Falthar
+mysteriously vanished in the time of disarray, leaving
+the forces of law without
+hope. The very tablets of Justice seemed to crumble
+into nothingness... 
+Within a plane not akin to that of Thera, a great
+leader walked. A man of 
+order, respected by all. Crime itself ceased to exist
+in his presence, as those
+who opposed laws were swiftly executed. Several years
+passed under his
+rule, a time of order and peace. Yet his rule was no
+exception to the weakness
+that plagues all great empires. The ethereal realm
+known as the Void collided
+with his plane of existence, causing a chaotic event
+that would forever change
+his life. The collision of the two planes spawned
+forth two forces from the
+essence of both realms, a force of chaos, and a force
+of order. Chaos quickly
+manifested itself into the ranks of the guards,
+causing corruption and deceit
+previously unheard of. It wasn't long before the
+second in command created
+a plot to murder the leader, Streantian. With
+unrivaled adeptness in melee 
+combat, Streantian easily cut down the second in
+command and his men. 
+~
+#7718
+statue god~
+a sapphiric statue~
+A sapphiric statue of Mircea is standing here.~
+sapphire~
+trash 0 0
+0 0 0 0 0
+60 0 5000 P
+E
+statue~
+Woven from the fabric of magic, swirled with dark shadows, Mircea was forged
+by the Gods as a tribute to their magical powers.  Created with the ideas of
+magical dominance and a lust for evil, Mircea was a testament to all that 
+encompasses the dark arts, a monument to evil, and a display for the 
+cohesiveness of both.  His creators placed their hands to his flesh, and it 
+began to glow.  Mircea's flesh began to distort and a mark took form.  A tattoo 
+of a sorcerer encased in a ring of fire appeared on his arm where his distorted 
+flesh was.
+Tired of being enslaved by the Gods, Mircea broke free to peruse his own
+ideas of magical preservation.  He began to focus on the elimination of
+all who seek the destruction of the higher arts.  He traveled the lands and 
+destroyed many who opposed the reign of magic.  Overtime the numbers of those 
+opposed to the spell casters became great, and Mircea began to seek out those 
+who, like him, wished to save their way of life. Out of this search, Mircea 
+came to find the Savants, followers of Drenaar, who rightfully claim to be 
+the greatest magi of Thera.  He now serves as her right hand, and together 
+they guide their mortal followers towards their goal.
+~
+#7719
+wooden bench~
+a wooden bench~
+A long wooden bench is sitting here.~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 0 100 P
+#7720
+wrought iron bench~
+a wrought iron bench~
+A wrought iron bench, inlaid with wood rests here.~
+iron~
+furniture BG 0
+0 0 0 0 0
+60 0 100 P
+E
+bench~
+This bench is smithed of high quality iron, with swirls and ivy
+built into the back. Several long varnished wood planks are set
+into the seat.
+~
+P SIT 7720 100~
+#7724
+brass key~
+a shiny brass key~
+A shiny brass key is lying here.~
+brass~
+key 0 AC
+0 0 0 0 0
+0 5 10 P
+F
+A 3 1 0
+#7734
+sandals leather~
+a pair of thick leather sandals~
+You see a pair of thick leather sandals here.~
+leather~
+armor U AG
+1 1 1 0 0
+0 30 72 P
+E
+sandals~
+Property of the Academy. For training use only.
+~
+#7735
+cuff steel~
+an engraved steel cuff~
+You see a fancy engraved steel cuff here.~
+bronze~
+armor U AM
+0 1 1 0 0
+0 10 48 P
+E
+cuff~
+It seems to be engraved with a lion crest. Below that, a tag reads 'Property of the Academy.'
+~
+#7736
+leather sleeves~
+some leather sleeves~
+You see some leather sleeves lying here.~
+leather~
+armor U AI
+1 1 1 0 0
+0 20 72 P
+E
+sleeves~
+Simply made, these leather sleeves are made of tanned leather, with small
+metal rivets along a single seam.
+~
+#7737
+leather leggings~
+a pair of tanned leather leggings~
+You see a pair of tanned leather leggings here.~
+leather~
+armor U AF
+1 1 1 0 0
+0 30 72 P
+E
+leggings~
+They seem to be made of sturdy rawhide, tanned to a sheen.
+~
+#7738
+chain belt~
+a chain belt~
+You see a chain belt here.~
+chain~
+armor U AL
+1 1 1 0 0
+0 10 72 P
+E
+belt~
+Seems to be little more than a set of linked chains with a buckle.
+~
+#7739
+shield iron~
+a rusted iron shield~
+You see a rusted iron shield lying here.~
+steel~
+armor U AJ
+1 1 1 0 0
+0 30 108 P
+E
+shield~
+You see just a square shaped piece of rusted iron with a leather handle.
+~
+#7741
+red beret~
+a red beret~
+You see a red felt beret lying here.~
+felt~
+armor U AE
+1 1 1 0 0
+0 30 72 P
+E
+helmet~
+Looks like standard issue for all Academy trainees. A small medallion bearing the
+crest of the Academy adorns the front of the beret.
+~
+#7742
+gray cape~
+a gray cloth cape~
+You see a simple gray cloth cape lying here.~
+cloth~
+armor U AK
+1 1 1 0 0
+0 20 72 P
+E
+cape~
+Looks like a large piece of gray fabric, with a loop for your neck. A stitched
+seal of the Academy is embroidered on the back.
+~
+#7743
+cloak apprentice~
+an Apprentice's cloak~
+You see a large blue cloak lying here.~
+cloth~
+armor U AC
+1 1 1 0 1
+0 40 72 P
+E
+cloak~
+Many of the apprentices around here seem to be wearing this style of
+blue cloak to show their progress. The seal of the Academy is emblazoned
+on the back.
+~
+#7750
+tapestry historic~
+a massive tapestry~
+A tapestry depicting the history of Thera is hung here. (`#LOOK TAPESTRY``)~
+cloth~
+furniture 0 0
+0 0 0 0 0
+0 0 10000 P
+E
+tapestry~
+At the dawn of time there was only darkness.  The Chaos Machine had 
+riddled the galaxies and universes with its decay, and had moved,
+finally, on to greener pastures.  Astral bodies fell and fused, and
+in time, planets were formed.  Little is known about the powerful 
+magic's that came together to forge the lands known as Thera, only 
+that a once lifeless husk of rock in space was born under the warmth
+of a sun.  From the dawn of its existence, Thera was a doomed land.
+It grew to full fruition in what the ancient texts called 'The Fourth
+Turn".  But the relative peace was not to last.  Two dark lords 
+emerged from the shadows and razed the land to ruin.  Shadowspawn, 
+his only mortal name, and Virigoth emerged from the depths of a 
+hellish netherworld, and took Thera for their own, executing
+mortals and deities alike, and ravaging the land.  Dark Scourges
+were born unholy births, and came to rise in power against the select
+few mortals who still walked the lands.  These survivors banded 
+together in small towns, and trained themselves to survive and fight
+the darkness that so consumed the land.  Armies of undead poured from
+the torn landscapes and assaulted the survivors, harnessing powers
+and skills never before seen by any mortal.  New races and breeds of
+creatures came from the woodwork, some to aid the darkness, some to
+aid the survivors.  Old texts were uncovered by the survivors as they
+battled back with new energies and renewed vigor until the armies
+of Shadowspawn and Virigoth fell back in retreat.  From these 
+survivors walked three mortal men.  Athaekeetha, Raght, and Palison
+stood victorious over the ravened mountains cape of Tyr Unguld, and 
+earned their place in the heavens.  Order was restored as Shadowspawn
+and Virigoth spent much less of their time leading their armies to
+victory, and much more battling their new immortal foes.  Once
+again the survivors rebuilt the cities and lands to make way  for
+the new breeds that walked forth.  All seemed once again safe...but
+under the watchful, vengeful eyes of Virigoth and Shadowspawn, new
+breeds of hatred burned and frothed...in time, the scourges would
+once again stalk the lands...
+~
+#7751
+tapestry historic~
+a historic tapestry~
+A hand sewn tapestry of the Prophecies of Damnil is hung here. (`#LOOK TAPESTRY``)~
+fabric~
+furniture 0 0
+0 0 0 0 0
+0 0 10000 P
+E
+tapestry~
+The History and Prophecies of Thera
+ 
+In the First Age of Thera (1-386 B.C.), Damnel, the Seer Prophet of 
+Thalos, spoke of a great disaster that would bring Armageddon to Thera. 
+With the end of the Month of the Grand Struggle, a great Cataclysm 
+brought an end to Theran life. As the Second Age of Thera (1-595 P.C.) 
+came to rise and man was once again brought into the world from the 
+Ethereal Nexus, the books of Damnel were uncovered in the North Forests 
+of Banor, and brought into the Temple of Sreyb to be deciphered by the 
+scholars of the time. Once deciphered, it spoke of the rise and fall of 
+the Fourth Age of Thera (800-1200 P.C.), and spoke of the Four Prophecies 
+that would come to pass in the Fifth Age of Thera (1200 P.C. - present). 
+As Thera came out of the Second Age and prospered into the Third Age 
+(595-800 P.C.), more secrets of the Book of Damnel were learned. This 
+was documented in the Prophecy of the Coming (Help Prophecy1). A great 
+death to Thera was also imminent, as documented in the Prophecy of the 
+Shadowkin (Help Prophecy2). During this Fourth Age, Thera would change 
+forever. New breeds of people would cross the Great Chasm, and come to 
+fight in the last battle. (Help Prophecy3). If Thera made it into the 
+Fifth Age, the Fourth Prophecy would never come true (Help Prophecy4). 
+As Thera now stands in the Fifth Age, forces battle to ensure the Fourth 
+Prophecy remains a fable.
+~
+#7752
+tapestry historic~
+a historic tapestry~
+A lovely tapestry of the bylaws of the Heralds is hung here. (`#LOOK TAPESTRY``)~
+fabric~
+furniture 0 0
+0 0 0 0 0
+0 0 10000 P
+E
+tapestry~
+Heralds are the lifelines of history in Thera. Often, they are the eyes
+peering from the corner of a bar, watching the social elite and listening
+in to the gossip and stories of the current and past events.  Interacting
+with the various characters abroad, Heralds observe the very history of
+Thera to link Thera to its notables.  They are loyal to the Winds, every
+so often coming to meet with their superiors and giving them what 
+biographies
+they have recorded.
+ 
+A Herald's communication skills are what he/she relies on.  Heralds
+demonstrate through their intelligence and wit their story telling and
+rumor gathering skills.  Heralds are also courteous to those deserving
+of courtesy, given the number of people they must interact with on a
+daily basis.  Those who flagrantly use foul language or violence have
+no place within the cabal.
+ 
+Anyone who wishes to may ask a Herald for the history of a certain person
+of Thera, and the Herald will give them what knowledge he/she has.  When
+a Herald does not do this, they are considered to be unessential, and may
+be extricated from the group.  Also, if a Herald is remiss in his/her duty
+to collect biographies, that Herald is also ousted from the group.  Bards
+and Monks are the classes best suited to be Heralds, although non-physical
+classes may also join if they meet cabal requirements and have exceptionally
+good role-play.
+~
+#7769
+diploma~
+a mud school diploma~
+You see a mud school diploma here.~
+paper~
+treasure GU AO
+0 0 0 0 0
+0 10 1140 P
+E
+diploma~
+This document shows that you have graduated from Mud School.
+It also has magical effects on your abilities if you hold it!
+
+Merc Industries
+~
+F
+A 5 1 0
+F
+A 4 1 0
+#7770
+desk~
+an ornate desk~
+A very ornately carved desk is resting here.~
+wood~
+furniture A 0
+0 0 0 0 0
+0 10000 100 P
+E
+desk~
+This desk looks FAR too heavy to move...
+~
+#7774
+big sign post~
+a big sign~
+A big SIGN stands here atop a post begging you to LOOK at it. (look sign)~
+unknown~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+You are now heading out of MUD school.  Want to continue your learning
+after you leave ?  The ACADEMY is now inducting new students from ranks 5 to
+rank 10.  If you want to be part of the biggest school in Thera and learn
+everything from basic equipping to battle tactics get yourself to the
+academy gates.  You will find the academy 2 south of the Temple of
+Abstraction.  Simply speak to Mohcran there and tell him you wish to join. 
+He will grant you an academy pass.  
+~
+#7775
+ring life~
+the ring of life~
+A shimmering platinum ring is lying here.~
+platinum~
+jewelry 0 AB
+0 0 0 0 0
+3 10 100 P
+E
+ring~
+A beautifully crafted circlet of platinum is here, glowing with some sort
+of inner magic. It looks like quite a prize!
+~
+F
+A 5 1 0
+#7776
+cloud key~
+the cloud key~
+A strange, misty key is lying here.~
+mist~
+key 0 AO
+0 0 0 0 0
+0 0 10 P
+#7777
+floating chest~
+a floating chest~
+A small, locked chest is floating here.~
+wood~
+container 0 0
+10 ACD 7776 100 100
+0 0 100 P
+E
+chest~
+You see a small floating chest here, with a keyhole in it. If you already have
+the cloud key, just '`3unlock chest``' and '`3open chest``'. Once it's open, 
+just '`3look in chest``' to see what goodies lie inside. If you see something
+of interest, simply '`3get all chest``'. Good luck!
+~
+P RANDOM 7777 100~
+#7778
+shimmering medallion~
+a shimmering silver medallion~
+A shimmering silver medallion is lying here.~
+metal~
+treasure APU A
+0 0 0 0 0
+5 0 0 P
+E
+medallion~
+An inscription reads:
+ 
+Well done! You have the silver medallion of the Cloudman, now. Before you continue,
+you need to learn about a few little things! First, a strange creature lies below
+you, who you will have to face next! The `!WIMPY`` command will allow you to set
+a number of hitpoints at which you will automatically flee. If you type "wimpy" with
+no arguments, it will automatically set it at 25%, so you will flee a foe auto-
+matically if your hit points drop below 25%.
+ 
+Next, within these lands, you will fight many creatures! After they die, they will
+leave behind their corpse. These corpses can be sacrificed to your Deity, in an
+exchange for a few gold coins. To do this, just 'sac corpse'. As a newbie, you will
+find that you automatically loot and sacrifice corpses. To toggle these, simply type
+"`#AUTOLOOT``" or "`#AUTOSAC``".
+ 
+Once you are finished, drop this medallion. The cloudman will not take kindly to
+visitors leaving with his prize!
+~
+P DROP 7779 7778~
+P GET 7778 7778~
+#7780
+mace sub practice~
+a practice mace~
+You see a practice mace here.~
+practice~
+weapon U AN
+mace 1 6 pound 0
+1 120 0 P
+E
+mace~
+You see a mace perfect for practicing with.
+~
+F
+A 18 1 0
+#7781
+dagger sub practice~
+a practice dagger~
+A practice dagger is here.~
+practice~
+weapon Ue AN
+dagger 1 4 pierce 0
+0 10 0 P
+E
+dagger~
+You see a dagger perfect for practicing with.
+~
+F
+A 18 1 0
+#7782
+sword sub practice~
+a practice sword~
+You see a practice sword here.~
+practice~
+weapon U AN
+sword 1 6 slash 0
+1 30 0 P
+E
+sword~
+You see a sword perfect for practicing with.
+~
+F
+A 18 1 0
+#7783
+spear sub practice~
+a practice spear~
+You see a practice spear here.~
+practice~
+weapon U AN
+spear 1 6 thrust 0
+1 50 0 P
+E
+spear~
+You see a spear perfect for practicing with.
+~
+F
+A 18 1 0
+#7784
+staff sub practice~
+a practice staff~
+You see a practice staff here.~
+practice~
+weapon U AN
+staff 1 5 pound F
+1 40 0 P
+E
+staff~
+You see a staff perfect for practicing with.
+~
+F
+A 19 1 0
+F
+A 18 2 0
+#7785
+axe sub practice~
+a practice axe~
+You see a sub issue axe here.~
+practice~
+weapon U AN
+axe 1 6 chop F
+1 50 0 P
+E
+axe~
+You see an axe perfect for practicing with.
+~
+F
+A 18 1 0
+#7786
+flail sub practice~
+a practice flail~
+You see a practice flail here.~
+practice~
+weapon U AN
+flail 1 5 crush 0
+1 50 0 P
+E
+flail~
+You see a flail perfect for practicing with.
+~
+F
+A 19 1 0
+#7787
+whip sub practice~
+a practice whip~
+You see a practice whip here.~
+practice~
+weapon U AN
+whip 2 2 whip 0
+1 20 0 P
+E
+whip~
+You see a whip perfect for practicing with.
+~
+F
+A 18 2 0
+#7788
+glaive sub practice~
+a practice glaive~
+You see a practice glaive here.~
+practice~
+weapon U AN
+polearm 1 7 slash F
+1 80 0 P
+E
+glaive~
+You see a glaive perfect for practicing with.
+~
+F
+A 19 1 0
+#7789
+padded battle vest~
+a padded battle vest~
+You see a black padded battle vest lying here.~
+leather~
+armor U AD
+1 1 1 0 0
+0 50 144 P
+E
+vest~
+It's what seems to be a very comfortable vest, with thick padding for
+battle, but light enough not to restrict movement. A small insignia of
+the Academy dons the upper right breast pocket.
+~
+#7790
+shield iron~
+a rusted iron shield~
+You see a rusted iron shield lying here.~
+steel~
+armor U AJ
+1 1 1 0 0
+0 30 108 P
+E
+shield~
+You see just a square shaped piece of rusted iron with a leather handle.
+~
+#7791
+tarnished lantern~
+a tarnished lantern~
+A tarnished lantern glows on the floor here.~
+paper~
+light AG A
+0 0 200 0 0
+0 20 380 P
+E
+lantern~
+Looks pretty much like a tarnished brass lantern. There is a small
+crack in the glass globe.
+~
+F
+A 24 -1 0
+F
+A 17 -1 0
+#7792
+wooden recorder~
+a wooden recorder~
+A simple wooden recorder.~
+wood~
+instrument U AN
+0 0 0 0 F
+1 10 100 P
+#7793
+skin water buffalo~
+a buffalo water skin~
+A bloated dead buffalo is on the floor.~
+leather~
+drink 0 A
+64 64 'water' 0 0
+0 40 24 G
+#7794
+lantern~
+a hooded brass lantern~
+A hooded brass lantern has been left here.~
+brass~
+light 0 A
+0 0 250 0 0
+0 40 75 P
+E
+letters~
+They say, "Use 'hold lantern' to activate."
+~
+E
+lantern~
+It is a large and robust but somewhat battered oil lantern made from brass,
+equipped with a handle to make it handy and a hood to protect its flame.
+Some letters have been scratched on its bottom.
+~
+#7795
+large chicken wing~
+a large chicken wing~
+A large delicious, filling, chicken wing~
+meat~
+food 0 A
+50 50 0 0 50
+0 30 20 P
+#7796
+warrior notes~
+a booklet of notes~
+A small paper booklet is lying on the ground here.~
+paper~
+trash 0 A
+0 0 0 0 0
+0 0 2 P
+E
+notes~
+Welcome, Student!
+ 
+You are within the Warrior Training Class. These notes will help you along the way.
+ 
+To ask Blademaster Farrahn a question, simply say the single keyword by the section,
+and he will answer it as best as possible.
+ 
+<`6BATTLE``> This will cover the basics of warrior combat.
+<`6HISTORY``> This will cover the basics of warrior history.
+<`6TIPS``> This will cover the useful tips for any warrior.
+<`6CONDUCT``> This will cover the basic warrior behavior.
+ 
+~
+#7797
+mage notes~
+a booklet of notes~
+A small paper booklet is lying on the ground here.~
+paper~
+trash 0 A
+0 0 0 0 0
+0 0 2 P
+E
+notes~
+Welcome Apprentice!
+ 
+These notes cover the basic questions for your instructor. To inquire about topics,
+just say the keyword printed in `6blue``.
+ 
+<`6BASICS``> Covers the basics of typical mage life.
+<`6CONDUCT``> Covers the behavior of most mages.
+<`6BATTLE``> Covers combat tactics for mages.
+<`6HISTORY``> Covers the history of the mage classes.
+ 
+~
+#7798
+potion life~
+a potion of life~
+A blue potion with a silver tag is lying on the ground here.~
+liquid~
+potion 0 AO
+5 'cure light' '' '' ''
+0 5 150 P
+#7799
+energy bar~
+a whole grain energy bar~
+A small bar of pressed grain is lying here.~
+grain~
+pill G A
+5 'refresh' '' '' ''
+0 5 100 P
+#0
+
+
+
+#ROOMS
+#7700
+`8Entrance to the Academy``~
+You stand to the south of a set of great, white walls.  To your north
+lies the Academy, which promises to teach you all you need to know to ensure
+success in this life.  To Your east lies the training grounds of this fabled
+Academy, so that you may test your skills in combat and begin your journey
+towards the top of the pyramid which is power.  To your west lies the fabled
+hall of wisdom and to your south lies what is beyond.  It is a mystery to
+you as it is to us all.  
+~
+~
+0 268566536 0 0
+D0
+~
+~
+0 0 7701
+S
+#7701
+`8The First Room``~
+Here you must learn the most simplictic things of this world.  Here you
+will cast aside your definition of reality and progress only in the reality
+of this world.  
+~
+~
+0 0 0 0
+D2
+~
+~
+0 0 7700
+S
+#0
+
+
+
+#ARMIES
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#TRAPS
+#0
+
+#RESETS
+M 0 7702 1 7701 1
+S
+
+
+
+#SHOPS
+7717 0 0 0 0 0 100 100 0 23
+7718 0 0 0 0 0 100 100 0 23
+7780 0 0 0 0 0 100 100 9 17
+7781 0 0 0 0 0 100 100 9 17
+0
+
+
+
+#MOBPROGS
+#7700
+if rand 50
+     emote smiles at you, and nods at the archway north of you.
+else
+     emote crosses her arms, and beams a smile at you.
+endif
+~
+#7701
+say To begin your training, head north.
+say If you'd like to head directly to the arena, you can open this southward door.
+emote points to a doorway to the south.
+say Remember to read HELP ACADEMY and good luck!
+~
+#7702
+Say Here you must learn the simple ways of our communication. We do so in a few ways.
+Say You can always 'say' things like I am now, or you can 'tell' them only to those you wish to hear them.
+Say If you would like to know more of these things, consult their help scrolls by using 'Help say" or 'Help tell" respectively.
+~
+#7703
+Say If you need me to teach you, just say so.
+~
+#7710
+if isnpc $n
+  break
+endif
+say Ah, yes. Battle. Warrior classes combat people in a much different way.
+smile
+say You will find that your skill lies within melee combat, that is, in short...
+say Do as much damage as possible in the shortest amount of time. You see...
+say A true warrior hasn't the need to protective spells like those...those...
+spit
+say Blasted magi! 
+smirk
+say You will find that mastering your attacks, and your defenses, will be your
+say most useful tactic.
+~
+#7711
+say Yes, indeed. You wonder about the past of the Warrior.
+smile
+say Warriors in general are a proud lot. We do not pride ourselves on our intellect.
+say Rather, our pride and fame lie within our skills and prowss in combat.
+emote pauses, as if reminiscing.
+say We do not have to be quick witted to win in combat, but we must be swift...
+say We are stalward defenders, ferocious attackers, and never back down from an enemy...
+say Cowardice is unbecoming of any Warrior!
+emote pounds his fist to his chest.
+~
+#7712
+say Ah yes, our behavior...
+ponder
+say Warriors are a sect of fighters who focus our training on the complex art of combat.
+say Use your abilities to your advantage, and protect yourself against the magics.
+say While some warriors use magic...
+spit
+say Most think of it as an aberration. I would steer clear of it, myself!
+smirk
+~
+#7713
+say Well, behavior is dictated by who you are, and what you wish to achieve in this life.
+say Some warriors may follow the path to the Masters of War, and fight the Savants.
+spit
+say Some warriors may follow armies of the Darkness or the Light.
+say But always remember, you are a warrior at heart!
+say The thrill of the battle is within your soul!
+say It is not how the war was won, but the manner in which it was fought!
+~
+#7714
+say Ah, yes the fundamentals of our kind.
+smile
+say We are lovers of magic. Magic surrounds us, gives us life. You are its protector.
+say You harness this force, and channel it for use to you, based on your class.
+say You will start out slow, my child.
+say But as you grow in rank, you will gradually grow in power.
+say And you will eventually find yourself on even ground with those warrior brutes!
+snort
+~
+#7715
+say Ah, yes, your behavior.
+emote thinks thoughtfully.
+say You are an emblem of the Vortex of Magic.
+say You have been gifted with the innate ability to use this force!
+say Because of this, you are above the foolish brutish warrior classes.
+say You will carry yourself with dignity...
+say You will be educated, and reflect your magical enlightenment...
+say So that others may learn from you.
+smile $n
+~
+#7716
+if carries $n 7769
+or hasquest $n 'recieved a diploma.'
+     say Ah, yes, $n. Well done, and congratulations on your graduation!
+     shake $n
+     say Good luck in the real world!
+else
+     mob oload 7769 10
+     give 1. $n
+     say Congratulations, $n, you have earned your diploma!
+     shake $n
+     mob tempquest $n recieved a diploma.
+endif
+~
+#7717
+say Hm, yes indeed...combat.
+sigh
+say It is a sad necessity. You will feud with others.
+say Realize that your learning curve at these lower levels is large.
+say But as you grow in rank, you will become much more powerful...
+say As your spellbook, or knowledge of prayers increases...
+say You will find many useful enchantments at your fingertips.
+smile
+say Learn your incantations well, my child...Train diligently!
+say For in time, your true payoff will be knowledge of the forces of magic...
+say And that alone will allow you to overcome your enemy!
+smile
+~
+#7718
+say Yes, you seek information about our past...
+smile
+say Our main deities are Mircea, and the late Drenaar.
+frown
+say They upkeep and maintain the Vortex of Magic...
+say From where all things magic came.
+say Also, the Dark Gods, Virigoth and Arzaeth are the deities of many of the magi.
+say For they both utilize and provide magics, as well.
+say We have long since been proud of our knowledge and intellect.
+say This alone has bested many a foolish Warmaster.
+grin
+~
+#7774
+if ispc $n
+'Hello there $N.  Type 'service' to see the list of services I offer.
+smile
+endif
+~
+#7777
+emote whispers '`6Yes, that is the answer! The key is yours!'``
+give key $n
+emote whispers '`6Take what you wish from my chest.'``
+grin $n
+load obj 7776
+mob delay 1
+~
+#7778
+if isdelay $i
+  break
+else
+pmote whispers to $N '`4That is not it.``
+~
+#7780
+say Welcome, $n.
+say If you need the n-o-t-e-s, just say the word, and I will provide you with them.
+~
+#7783
+say O
+if hasquest $n 'been given the notes.'
+ say You've already been given the notes.
+ break
+endif
+'Oh, yes, $n. Here is your copy of the material.
+ load obj 7796
+give notes $n
+mob tempquest $n been given the notes.
+~
+#7784
+if isnpc $n
+  break
+endif
+if hasquest $n 'been given the notes.'
+ say You've already been given the notes.
+ break
+endif
+say Oh, yes, $n. Here is your copy of the material.
+load obj 7797
+give notes $n
+mob tempquest $n been given the notes.
+~
+#0
+
+M 7701 1 school_keeper.prg NL
+M 7704 1 school_circe.prg NL
+M 7705 1 school_furey.prg NL
+M 7717 1 school_selene.prg NL
+M 7718 1 school_selene.prg NL
+M 7724 1 school_creature.prg NL
+M 7733 1 wolf.prg NL
+M 7737 1 boar.prg NL
+M 7738 1 snail.prg NL
+M 7743 1 fox.prg NL
+M 7771 1 lizard.prg NL
+M 7778 1 school_blob.prg NL
+M 7780 1 school_selene.prg NL
+M 7781 1 school_selene.prg NL
+S
+
+
+
+
+#OBJPROGS
+#7702
+obj echo An errant gust of wind rustles some pages in a large book.
+~
+#7706
+if rand 50
+     obj echo The splash of water echoes around the white marble room.
+else
+     obj echo You suddenly feel very at peace here.
+     obj cast 'bless' $r
+endif              
+~
+#7715
+if rand 50
+     obj echo You see several small birds playing in a large granite fountain.
+else
+     obj echo Some mist from the fountain blows by, cooling you.
+endif
+~
+#7720
+obj cast 'cure serious' $n
+obj echoat $n As you sit down, you feel a sense of well being pass over you!
+obj echoaround $n $n looks much healthier, as $e rests on a bench.
+~
+#7777
+if objhere 7778
+     break
+endif
+obj oload 7778
+~
+#7778
+if level $n < 5
+  obj cast 'cure critical' $n
+endif
+obj echoat $n You feel as if you should suddenly LOOK MEDALLION    
+~
+#7779
+if level $n < 6
+  obj cast 'frenzy' $n
+  obj echoat $n As the medallion falls away through the cloud floor, you suddenly become dizzy!
+  obj transfer $n 7778
+endif 
+~
+#0
+
+#ROOMPROGS
+#7701
+if rand 50
+     room echo Sounds of clashing steel echo through the door to your south.
+else
+     room echo You hear the sound of armed combat to the south of you.
+endif
+~
+#7706
+if rand 50
+     room echo The splash of water echoes around the white marble room.
+else
+     room echo You suddenly feel very at peace here.
+     room cast 'bless' $n
+endif
+~
+#7710
+if rand 50
+     room echo The lighting in the room wavers as the candles flicker.
+else
+     room echo A small breeze causes the candles to flicker.
+endif
+~
+#7714
+if rand 50
+     room echo You hear the clash of swords in the distance.
+else
+     room echo You think you hear people talking ahead.
+endif
+~
+#7774
+if rand 40
+     room echo You feel your grip on the rope slipping...!
+else
+     room echo You attempt to tighten your grip around the rope.
+endif
+~
+#7775
+room echoat $n You lose your grip on the rope, and tumble down!
+room echoaround $n $n loses $s grip on the rope, and tumbles off!
+room echoat $n Your collision with the ground `1wounds`` you.
+room echoaround $n $n's collision with the ground `1wounds`` $m.
+room damage $n 5 15
+room transfer $n 7715
+~
+#0
+
+#$
