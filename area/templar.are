@@ -1,10 +1,10 @@
 #AREADATA
-Name [TEMPLAR]~
+Name [KNIGHT]~
 Pref ~
 Builders Crypticant~
 VNUMs 16800 16899
 Max_Bastions 0
-Credits { ALL } Crypticant [TEMPLAR] ~
+Credits { ALL } Crypticant [KNIGHT] ~
 Security 9
 Startroom 16800
 Flags 32
@@ -20,9 +20,9 @@ End
 
 #MOBILES
 #16800
-Templar armor guard guardian~
-an armored Templar~
-A large Templar clad in armor bars the way.
+Knight armor guard guardian~
+an armored Knight~
+A large Knight clad in armor bars the way.
 ~
 Heavily armored and clad head to toe in metal not one piece of flesh is
 visible on this brute.  He stands with his legs apart and his long sword
@@ -116,7 +116,7 @@ stand stand male none~
 3
 AHMV ABCDEFGHIJK medium 0
 #16805
-rulthon man Templar~
+rulthon man Knight~
 Rulthon~
 A tall, musclular man stands here, leaning upon an immense lance.
 ~
@@ -214,7 +214,7 @@ P RANDOM 16809 20~
 #16810
 Isthanna caretaker~
 Isthanna~
-Isthanna, the caretaker is here, selling Templarly relics.
+Isthanna, the caretaker is here, selling Knightly relics.
 ~
 Holding a small polishing rag in her hands, she notices your gaze.  Her
 hair is held back in a simple leather thong, and she is clothed in a simple
@@ -234,7 +234,7 @@ P RANDOM 16810 20~
 #16811
 tower bastion armored~
 an Armored Tower~
-A tall armored tower flying banners of [`6TEMPLAR``] stands here.
+A tall armored tower flying banners of [`6KNIGHT``] stands here.
 ~
 Its tall walls have been built with quality betraying phenomenal  skill and
 expertise in matters of fortification.  The tall smooth walls rise high up
@@ -249,9 +249,9 @@ stand stand none none~
 20
 AHMV ABCDEFGHIJK huge 0
 #16812
-tower bastion fortress Templar~
-a Templar Fortress~
-A massive fortress flying banners of [`6TEMPLAR``] watches over the area.
+tower bastion fortress Knight~
+a Knight Fortress~
+A massive fortress flying banners of [`6KNIGHT``] watches over the area.
 ~
 Immense in size and mass its tall turreted walls bristle with various catapults, ballistas 
 and men.  Built with near perfect strategic planning its defenders seem to have a clear 
@@ -292,7 +292,7 @@ P GREET 16813 100~
 #16814
 peasant spectator~
 A Peasant~
-A peasant sits in the stands, cheering for his favorite Templar.
+A peasant sits in the stands, cheering for his favorite Knight.
 ~
 In a filthy shirt and no shoes, this bedragled man jumps up and down
 furiously trying to gain attention.  He holds a turkey leg in his hand,
@@ -327,9 +327,9 @@ stand stand male none~
 AHMV ABCDEFGHIJK medium 0
 P RANDOM 16815 20~
 #16816
-sleeping Templar~
-A sleeping Templar~
-A Templar is here, curled up on a nearby bed and sleeping soundly.
+sleeping Knight~
+A sleeping Knight~
+A Knight is here, curled up on a nearby bed and sleeping soundly.
 ~
 The poor man seems exhausted.  Despite the noise you make, he sleeps
 soundly , his snores echoing off of the stone walls here.  A suit of armor
@@ -345,12 +345,12 @@ stand stand male none~
 3
 AHMV ABCDEFGHIJK medium 0
 #16817
-kneeling praying Templar~
-A praying Templar~
-A Templar kneels here, in silent prayer.
+kneeling praying Knight~
+A praying Knight~
+A Knight kneels here, in silent prayer.
 ~
 Clad in gleaming armor, and resting his forehead upon the pommel of his
-blade, this Templar meditates in focused meditation on the days events.  He
+blade, this Knight meditates in focused meditation on the days events.  He
 doesnt seem to notice your arrival, instead chanting in a low, soft tone.  
 ~
 human~
@@ -403,8 +403,8 @@ AHMV ABCDEFGHIJK medium 0
 
 #OBJECTS
 #16800
-The Templar's Commandments~
-the Templar's Commandments.~
+The Knight's Commandments~
+the Knight's Commandments.~
 Three brass placards are bolted to the wall.~
 brass~
 furniture 0 0
@@ -549,18 +549,18 @@ trash 0 P
 E
 slab ancient granite~
 There are words carved into the giant stone you.  Written in an ornate script,
-their contents are adorned by dipictions of Templars riding into battle with flaming
+their contents are adorned by dipictions of Knights riding into battle with flaming
 demons and mythological beasts.  Carved into the stone the words read...
  
 	  		  `#Courage, Honor, and Birthright``	
  
-   Let no Templar Sigil or Praetorian fail in his Courage against enemies of the King.
+   Let no Knight Sigil or Praetorian fail in his Courage against enemies of the King.
                             Our `#Courage`` is our Blade.
  
-Let no Templar Sigil or Praetorian stain the name of Templar with lack of Honor in Combat.
+Let no Knight Sigil or Praetorian stain the name of Knight with lack of Honor in Combat.
                             Our `#Honor`` is our Shield.
  
-        Let no Templar Sigil or Praetorian forget the Quest for the True King.
+        Let no Knight Sigil or Praetorian forget the Quest for the True King.
                           Our `#Birthright`` is the Mirlan.
  
 ~
@@ -575,18 +575,18 @@ trash 0 0
 E
 brass plate commandments engraved~
 There are words carved into the brass plate before you.  Written in an ornate script,
-their contents are adorned by dipictions of Templars riding into battle with flaming
+their contents are adorned by dipictions of Knights riding into battle with flaming
 demons and mythological beasts.  Words carved into the plate read...
  
 	  		  `#Courage, Honor, and Birthright``	
  
-   Let no Templar Sigil or Praetorian fail in his Courage against enemies of the King.
+   Let no Knight Sigil or Praetorian fail in his Courage against enemies of the King.
                             Our `#Courage`` is our Blade.
  
-Let no Templar Sigil or Praetorian stain the name of Templar with lack of Honor in Combat.
+Let no Knight Sigil or Praetorian stain the name of Knight with lack of Honor in Combat.
                             Our `#Honor`` is our Shield.
  
-        Let no Templar Sigil or Praetorian forget the Quest for the True King.
+        Let no Knight Sigil or Praetorian forget the Quest for the True King.
                          Our `#Birthright`` is the Mirlan.
   
 ~
@@ -600,7 +600,7 @@ treasure Y AQ
 50 0 1000 P
 E
 young griffin~
-A symbol of Templarly virtues, this young griffon swoops about you
+A symbol of Knightly virtues, this young griffon swoops about you
 emitting a cry every so often.  Despite is size and age, the griffin still
 carries itself with the strength and pride of the adults of its kind.  
 ~
@@ -620,7 +620,7 @@ armor AIY Ad
 50 10 1800 P
 E
 vanguard's visor~
-This ancient visor was reputedly worn by the Templars of Old.
+This ancient visor was reputedly worn by the Knights of Old.
 Reputedly forged from the ore at the heart of a meteor, small
 lines of eldritch energy dance across the solid surface.  How
 you would be able to see without it obstructing your view is
@@ -642,7 +642,7 @@ tower shield Thee'dlor~
 Wrought of elven mithril and dwarven steel and crafted from
 the best human smiths, this shield is polished to a near mirror-
 like shine.  This shield was carried into battle by the Anicient
-Templar Thee'dlor, and through it's enchantments, was able to
+Knight Thee'dlor, and through it's enchantments, was able to
 stem the tide of evil.
 ~
 F
@@ -671,8 +671,8 @@ potion 0 AO
 
 #ROOMS
 #16800
-`3Before the Templar Cabal``~
-You stand before the legendary castle of the Templars.  A great stone
+`3Before the Knight Cabal``~
+You stand before the legendary castle of the Knights.  A great stone
 castle rises high into the air with grand towers and courtyards.  You see
 armored soldiers standing atop the ramparts, pacing back and forth, guarding
 the walls.  Pennants fly atop poles perched on the castle proper, gently
@@ -799,7 +799,7 @@ and gilded with precious metal.  The table before each chair is laden with
 numerous documents and journals.  On the far side of the room is a large
 throne, crafted from oak, and inlaid with silver, gold and other precious
 metals.  The wooden floor has been covered with a fine carpet, depicting
-Templars of old in various scenes of battle.  
+Knights of old in various scenes of battle.  
 ~
 ~
 0 295698440 2 0
@@ -834,7 +834,7 @@ Stout oak beams, bound and joined, makeup the gigantic drawbridge you are
 crossing.  Enormous steel chains run from high up in the castle walls to
 just below the end of the bridge.  Underneath you hear the lazy lapping of
 water as the moat ripples from the breeze.  Looming ahead is the grand
-entryway into the castle.  In the distance you see Templars milling about as
+entryway into the castle.  In the distance you see Knights milling about as
 they tend to their duties.   
 ~
 ~
@@ -843,8 +843,8 @@ S
 #16813
 `8Battle Academy``~
 The din of battle is near deafening.  You stand in a large courtyard
-surrounded by Templars practicing various forms of combat.  From mounted men
-charging into each other with blunted lances, to mailed Templars clashing
+surrounded by Knights practicing various forms of combat.  From mounted men
+charging into each other with blunted lances, to mailed Knights clashing
 with training weapons, all come here to train and master the art of combat. 
 At the end of the courtyard stands a man on a platform, yelling commands and
 instructions to the combatants.  
@@ -855,11 +855,11 @@ S
 #16814
 `8Shrine of the Fallen``~
 As you enter the small alcove your eyes focus on the only thing in the
-oval chamber, a solitary bronze statue.  Larger than life a Templar kneels,
+oval chamber, a solitary bronze statue.  Larger than life a Knight kneels,
 his bare head bowed over hands that clasp the hilt of his sword, its point
 driven into the ground.  His face drawn with a look of loss and sorrow so
 deep it hits your very soul.  His eyes focus in front of him, at the body of
-a fallen brother lying on the ground.  The fallen Templar stares blankly at
+a fallen brother lying on the ground.  The fallen Knight stares blankly at
 the sky above.  At the base of the statue an engraving reads, Never
 Forgotten.  
 ~
@@ -964,7 +964,7 @@ if room $i != 16800
 or isimmort $n
   break
 endif
-if cabally $n Templar
+if cabally $n Knight
   if isbloody $n
     if affspell $n 'blindness'
     or affspell $n 'death grasp'
@@ -985,7 +985,7 @@ if cabally $n Templar
   else
     mob delay 1
     pmote stands aside and lets $N pass.
-    'The Templar's castle welcomes you $N.
+    'The Knight's castle welcomes you $N.
     break
   endif
 else
@@ -1086,7 +1086,7 @@ endif
 if equipped $n body
   break
 else
-  if cabal $n Templar
+  if cabal $n Knight
     say Cover yerself up! Can't 'ave ya wanderin' around naked now can we ?
     mob oload 16811
     mob otransfer holy $n
@@ -1119,7 +1119,7 @@ endif
 #16818
 if rand 50 then
   emote shifts nervously in his seat and twiddles with his thumbs.
-  emote mutters about being accepted as a Templar or not.
+  emote mutters about being accepted as a Knight or not.
 else
   emote breaks out into a sweat and suddenly leaps to his feet.
   say I CAN'T TAKE IT ANYMORE.... I HAVE TO KNOW!!

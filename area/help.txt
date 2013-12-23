@@ -19930,18 +19930,18 @@ application to CARTEL.
 ~
 
 #1069
--1 TEMPLAR KNIGHT CRUSADER~
-[ `#TEMPLAR`` ] - The Templars of the Realm
+-1 KNIGHT~
+[ `#KNIGHT`` ] - The Knights of the Realm
 
 The embodiment of all that is good and just in the world of Mirlan,
-the Templars are the sword of truth, they eyes of Good. They advocate
+the Knights are the sword of truth, the eyes of Good. They advocate
 the path of the light, often with sword so stalwartly, that are seldom
 swayed. Their conviction is so defined and strong, that even the most
-powerful of evils are often shed off by the Templars. It is their will
+powerful of evils are often shed off by the Knights. It is their will
 and mission to cleanse the lands of the taints of the Evil Gods, and
 keep harmony, peace, and happiness prevalent in Mirlan.
 
-The Templars of the Realm are comprised of three separate clans:
+The Knights of the Realm are comprised of three separate clans:
 
 Order of the Golden Griffons  
 Royal Order of Esterian Knights
@@ -19957,8 +19957,8 @@ Because of the nature of this cabal, you must serve only the Gods of
 Good, and be one of the Cavalier, Paladin, Ranger, Healer, Cleric, or
 Crusader guilds.
 
-If you are interested in applying to the Templars of the Realm, submit
-your application to TEMPLAR.
+If you are interested in applying to the Knights of the Realm, submit
+your application to KNIGHT.
 
 ~
 

@@ -1215,12 +1215,12 @@ stand stand female none~
 26
 AHMV ABCDEFGHIJK large 0
 #20799
-knight templar commander~
-a Knight Templar Commander~
-(`#Golden Aura``) A Knight Templar Commander observes his troops here.
+knight commander~
+a Knight Commander~
+(`#Golden Aura``) A Knight Commander observes his troops here.
 ~
 You have found what seems to be some sort of commander for these
-Templars. Long thought dead, it seems their army is very far from
+Knights. Long thought dead, it seems their army is very far from
 such. They are everywhere! It seems they have taken Revelsport into
 protection, and now walk the streets, purifying any evil doers. The
 man before you is highly decorated, with gleaming golden armor, and
@@ -1235,9 +1235,9 @@ stand stand male none~
 19
 AHMV ABCDEFGHIJK medium 0
 #20800
-knight templar~
-a Knight Templar~
-(`#Golden Aura``) A Knight Templar patrols the city streets here.
+knight~
+a Knight~
+(`#Golden Aura``) A Knight patrols the city streets here.
 ~
 A large man clad in white garb stands guard here, patrolling the
 city streets. Their army resides to the east, and he is but a small

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="default" />
+	<File name="act_comm.c" open="1" top="0" tabpos="1">
+		<Cursor position="1940" topLine="5" />
+	</File>
+	<File name="act_info.c" open="1" top="0" tabpos="19">
+		<Cursor position="136930" topLine="4216" />
+	</File>
+	<File name="act_move.c" open="1" top="0" tabpos="35">
+		<Cursor position="1940" topLine="5" />
+	</File>
+	<File name="act_obj.c" open="1" top="0" tabpos="5">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="act_wiz.c" open="1" top="0" tabpos="8">
+		<Cursor position="227431" topLine="7650" />
+	</File>
+	<File name="alias.c" open="1" top="0" tabpos="36">
+		<Cursor position="1940" topLine="0" />
+	</File>
+	<File name="alias.h" open="1" top="1" tabpos="37">
+		<Cursor position="1940" topLine="0" />
+	</File>
+	<File name="armies.c" open="1" top="0" tabpos="12">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="bounty.c" open="1" top="0" tabpos="9">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="cabal.c" open="1" top="0" tabpos="14">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="cabal.h" open="1" top="0" tabpos="3">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="cabal2.c" open="1" top="0" tabpos="30">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="cabal3.c" open="1" top="0" tabpos="34">
+		<Cursor position="262" topLine="3" />
+	</File>
+	<File name="comm.c" open="1" top="0" tabpos="6">
+		<Cursor position="132985" topLine="4348" />
+	</File>
+	<File name="const.c" open="1" top="0" tabpos="28">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="db.c" open="1" top="0" tabpos="2">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="effect.c" open="1" top="0" tabpos="27">
+		<Cursor position="387227" topLine="12057" />
+	</File>
+	<File name="handler.c" open="1" top="0" tabpos="18">
+		<Cursor position="196626" topLine="6501" />
+	</File>
+	<File name="interp.c" open="1" top="0" tabpos="32">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="interp.h" open="1" top="0" tabpos="33">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="magic.c" open="1" top="0" tabpos="20">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="magic.h" open="1" top="0" tabpos="29">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="merc.h" open="1" top="0" tabpos="17">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="misc.c" open="1" top="0" tabpos="7">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="recycle.c" open="1" top="0" tabpos="10">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="s_skill.c" open="1" top="0" tabpos="26">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="s_skill.h" open="1" top="0" tabpos="23">
+		<Cursor position="1940" topLine="24" />
+	</File>
+	<File name="save.c" open="1" top="0" tabpos="11">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="skills.c" open="1" top="0" tabpos="21">
+		<Cursor position="1940" topLine="25" />
+	</File>
+	<File name="skills2.c" open="1" top="0" tabpos="22">
+		<Cursor position="1940" topLine="15" />
+	</File>
+	<File name="skills4.c" open="1" top="0" tabpos="25">
+		<Cursor position="1940" topLine="0" />
+	</File>
+	<File name="skills5.c" open="1" top="0" tabpos="24">
+		<Cursor position="1940" topLine="0" />
+	</File>
+	<File name="tables.c" open="1" top="0" tabpos="16">
+		<Cursor position="217601" topLine="5657" />
+	</File>
+	<File name="tome.c" open="1" top="0" tabpos="13">
+		<Cursor position="11436" topLine="415" />
+	</File>
+	<File name="update.c" open="1" top="0" tabpos="15">
+		<Cursor position="1940" topLine="25" />
+	</File>
+</CodeBlocks_layout_file>

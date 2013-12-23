@@ -200,6 +200,46 @@
 #define		P_Y			1	//x coordinate in the pos array (+ north, - south)
 #define		P_Z			2	//x coordinate in the pos array (+ up, - down )
 
+/* CABAL NAMES */
+#define     CABALL_JUSTICE               "justice"
+#define     CABALL_JUSTICE_SENTINEL      "sentinel"
+#define     CABALL_JUSTICE_ENFORCER      "enforcer"
+#define     CABALL_SYNDICATE             "syndicate"
+#define     CABALL_SYNDICATE_SYNDICATE   "syndicate"
+#define     CABALL_KNIGHT                "knight"
+#define     CABALL_KNIGHT_PRAETORIAN     "praetorian"
+#define     CABALL_KNIGHT_SIGIL          "sigil"
+#define     CABALL_WARMASTER             "warmaster"
+#define     CABALL_WARMASTER_BARBARIAN   "barbarian"
+#define     CABALL_WARMASTER_GLADIATOR   "gladiator"
+#define     CABALL_SAVANT                "savant"
+#define     CABALL_SAVANT_MYSTERUM       "mysterum"
+#define     CABALL_SAVANT_TEMPORUM       "temporum"
+#define     CABALL_HERALD                "herald"
+#define     CABALL_HERALD_HERALD         "herald"
+#define     CABALL_TRADER                "trader"
+#define     CABALL_TRADER_TRADER         "trader"
+
+#define     CABALU_JUSTICE               "JUSTICE"
+#define     CABALU_JUSTICE_SENTINEL      "SENTINEL"
+#define     CABALU_JUSTICE_ENFORCER      "ENFORCER"
+#define     CABALU_SYNDICATE             "SYNDICATE"
+#define     CABALU_SYNDICATE_SYNDICATE   "SYNDICATE"
+#define     CABALU_KNIGHT                "KNIGHT"
+#define     CABALU_KNIGHT_PRAETORIAN     "PRAETORIAN"
+#define     CABALU_KNIGHT_SIGIL          "SIGIL"
+#define     CABALU_WARMASTER             "WARMASTER"
+#define     CABALU_WARMASTER_BARBARIAN   "BARBARIAN"
+#define     CABALU_WARMASTER_GLADIATOR   "GLADIATOR"
+#define     CABALU_SAVANT                "SAVANT"
+#define     CABALU_SAVANT_MYSTERUM       "MYSTERUM"
+#define     CABALU_SAVANT_TEMPORUM       "TEMPORUM"
+#define     CABALU_HERALD                "HERALD"
+#define     CABALU_HERALD_HERALD         "HERALD"
+#define     CABALU_TRADER                "TRADER"
+#define     CABALU_TRADER_TRADER         "TRADER"
+
+
 /* main structure for cabal data, delcared in merc.h */
 struct	cabal_index_data;
 char*	const	rank_letters [RANK_MAX];

@@ -596,10 +596,10 @@ SaveVer 2018
 Room 16800
 Home 16800
 Nest 0
-Name cabal item standard Templar~
-ShD  the Standard of Templar~
-Desc A standard with the crest of Templar has been left here.~
-Cabal Templar~
+Name cabal item standard Knights~
+ShD  the Standard of the Knights~
+Desc A standard with the crest of Knight has been left here.~
+Cabal Knight~
 Wear 18
 Cost 1
 End

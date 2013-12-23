@@ -421,8 +421,8 @@ End
 #8
 VERSION 1000
 FileName Knight~
-Name Templar~
-WhoName `#TEMPLAR``~
+Name Knight~
+WhoName `#KNIGHT``~
 Imm Tiradel~
 Currency talon~
 OnGate With a thunderous noise the drawbridge is raised.~
