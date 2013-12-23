@@ -782,7 +782,7 @@ void do_jcabaltalk( CHAR_DATA *ch, char *argument )
     makedrunk(argument,ch);
     argument[0] = UPPER(argument[0]);
 
-    sprintf(buf,"[`0JUSTICE``] $n: '`0$t``'");
+    sprintf(buf,"[`0" CABALU_JUSTICE "``] $n: '`0$t``'");
     act_new(buf,ch,argument,NULL,TO_CHAR,POS_DEAD);
     for ( d = descriptor_list; d != NULL; d = d->next )
       if ( d->connected == CON_PLAYING

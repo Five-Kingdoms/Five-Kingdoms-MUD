@@ -45,6 +45,7 @@
 #define core_dumping
 
 #include <sys/types.h>
+#include <sys/stat.h>
 #include <sys/wait.h>
 #include <sys/time.h>
 #include <sys/socket.h>
@@ -283,6 +284,17 @@ int main( int argc, char **argv )
     if( fgets( buf, 100, stdin ) != buf )
         return 0;*/
 
+    /* Ensure all the required directories exist */
+    mkdir(PLAYER_DIR,   0777 );
+    mkdir(PURGE_DIR,    0777 );
+    mkdir(MOB_DIR,      0777 );
+    mkdir(CHALLENGE_DIR,0777 );
+    mkdir(HISTORY_DIR,  0777 );
+    mkdir(VOTE_DIR,     0777 );
+    mkdir(AREA_DIR,     0777 );
+    mkdir(HTML_DIR,     0777 );
+
+
 
     /* Init time. */
     gettimeofday( &now_time, NULL );
@@ -321,7 +333,7 @@ int main( int argc, char **argv )
 	}
 	if (argc > 3){
 	  char arg[MIL];
-	  argv[4] = one_argument(argv[4], arg);
+	  argv[3] = one_argument(argv[3], arg);
 	  while (arg[0]){
 	    /* ROOM COLOR */
 	    if (!str_cmp(arg, "color"))
@@ -350,7 +362,7 @@ int main( int argc, char **argv )
 	      SET_BIT(reboot_act, REBOOT_COLOR);
 	      break;
 	    }
-	    argv[4] = one_argument(argv[4], arg);
+	    argv[3] = one_argument(argv[3], arg);
 	  }
 	}
     }

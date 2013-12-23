@@ -11,21 +11,21 @@ Sex  1
 Cla  19
 Tatt 0
 Home 6
-Levl 1
+Levl 60
 Rec  0 0 0 0 0
 StartWep -1
 Birthdate 1383741853
-AOS 34  8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+AOS 34  1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 FLAGGED 0
 RANK 0
 Sec  0
-Plyd 328
+Plyd 1601
 Not  0 0 0 0 0 0
 Vote 0
-BankStamp 1387629855
+BankStamp 1387789484
 Scro 22
-LogO 1387660769
-Room 7774
+LogO 1387794509
+Room 20604
 HMV  30 30 100 100 100 100
 Gold 1000
 Exp  1500
@@ -39,8 +39,8 @@ Prac 5
 Trai 3
 Saves 0 0 0 0 0
 Alig  350
-ACs 80 80 80 80
-AttrB 8 8 8 8 8 20
+ACs 100 100 100 100
+AttrB 8 8 8 8 8 19
 AModB 0 0 0 0 0 0
 Mods 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 SSpicked 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -49,8 +49,8 @@ Title  the Lost~
 TSex 1
 LLev 0
 HMVP 30 100 100
-Cnd  0 48 48 48
-Mplayed 11 4
+Cnd  0 48 46 46
+Mplayed 11 24
 Sk 1 'armor'
 Sk 1 'create water'
 Sk 1 'detect invis'
@@ -86,7 +86,6 @@ Sk 1 'create torch'
 Sk 1 'two handed'
 Sk 1 'decipher'
 Sk 1 'fired weapons'
-Affc 'armor'   0   1  24 -20  17          0   0   0    ~
 End
 
 #END

@@ -764,3 +764,55 @@ Malloc: (Finished) free_mem clean_room_queue (Sat Dec 21 13:58:36 2013)
 Loop: (Finished) aggr (Sat Dec 21 13:58:44 2013)
 Command: (Finished) [ 4008] Krasq's Spirit in [ 4054] `#The Tainted Sands``: emote seems to grow weaker as its soul is bled of energy. (Sat Dec 21 13:58:26 2013)
 Mobprog: (Finished) [11139] a gargoyle in [11139] `8A dusty chamber``: (Sat Dec 21 13:58:26 2013)
+=========================================================================
+Malloc: (Finished) free_mem clean_room_queue (Mon Dec 23 01:02:48 2013)
+Loop: (Finished) aggr (Mon Dec 23 01:04:20 2013)
+Command: (Finished) [ 5867] a black garbed figure in [ 5867] `8Necromancer's Hall of Death ``: c animate corpse (Mon Dec 23 01:04:19 2013)
+Mobprog: (Finished) [ 5867] a black garbed figure in [ 5867] `8Necromancer's Hall of Death ``: (Mon Dec 23 01:04:19 2013)
+=========================================================================
+
+Loop: (Finished) aggr (Mon Dec 23 02:10:34 2013)
+Command: (Finished) [ 4152] a halfling in [ 4107] `7The Market Square of Eddeltris City``: say Another day of hard work. (Mon Dec 23 02:10:12 2013)
+Mobprog: (Finished) [11139] a gargoyle in [11139] `8A dusty chamber``: (Mon Dec 23 02:10:12 2013)
+=========================================================================
+Malloc: (Finished) free_mem clean_room_queue (Mon Dec 23 02:15:22 2013)
+Loop: command (Mon Dec 23 02:15:26 2013)
+Command: [    0] Kaslai in [20604] `7Saint Romni Way``: asave world (Mon Dec 23 02:15:26 2013)
+Mobprog: (Finished) [11052] a white asp in [11051] `8A snake pit``: (Mon Dec 23 02:15:20 2013)GNU gdb (Ubuntu/Linaro 7.4-2012.04-0ubuntu2.1) 7.4-2012.04
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+For bug reporting instructions, please see:
+<http://bugs.launchpad.net/gdb-linaro/>...
+Reading symbols from /home/kaslai/elance/ongit/Five-Kingdoms-MUD/src/clands...done.
+(gdb) (gdb) quit
+
+=========================================================================
+
+Loop: (Finished) aggr (Mon Dec 23 02:22:41 2013)
+Command: (Finished) [ 4103] the halfling sentry in [ 4142] `8A small guardshack``: endif (Mon Dec 23 02:22:34 2013)
+Mobprog: (Finished) [11139] a gargoyle in [11139] `8A dusty chamber``: (Mon Dec 23 02:22:34 2013)
+=========================================================================
+
+Loop: command (Mon Dec 23 02:23:00 2013)
+Command: [    0] Kaslai in [20604] `7Saint Romni Way``: asave world (Mon Dec 23 02:23:00 2013)
+Mobprog: (Finished) [ 5867] a black garbed figure in [ 5867] `8Necromancer's Hall of Death ``: (Mon Dec 23 02:22:44 2013)GNU gdb (Ubuntu/Linaro 7.4-2012.04-0ubuntu2.1) 7.4-2012.04
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+For bug reporting instructions, please see:
+<http://bugs.launchpad.net/gdb-linaro/>...
+Reading symbols from /home/kaslai/elance/ongit/Five-Kingdoms-MUD/src/clands...done.
+(gdb) (gdb) quit
+
+=========================================================================
+
+Loop: (Finished) aggr (Mon Dec 23 02:27:11 2013)
+Command: (Finished) [ 4103] the halfling sentry in [ 4142] `8A small guardshack``: endif (Mon Dec 23 02:27:08 2013)
+Mobprog: (Finished) [11139] a gargoyle in [11139] `8A dusty chamber``: (Mon Dec 23 02:27:08 2013)

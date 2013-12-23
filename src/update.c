@@ -59,6 +59,7 @@ extern void save_bans(void);
 extern NOTE_DATA *new_note();
 extern void spy_report( CHAR_DATA* ch );
 extern void create_royal_guard( CHAR_DATA* ch, int align, int level );
+extern void make_htmlwho(bool fShow);
 
 /* OBJTICK_CHECK */
 /* link to update.c only */
@@ -3098,9 +3099,9 @@ void data_update( void ){
   /* MAIN  port only */
   if (mud_data.mudport == MAIN_PORT){
 /*Disabled to prevent peeking before login - Viri
-    make_htmlwho(FALSE);
-*/
 
+*/
+    make_htmlwho(FALSE);
     make_area_db();
   }
 }

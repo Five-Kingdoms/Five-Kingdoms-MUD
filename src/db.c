@@ -3914,6 +3914,7 @@ int fread_number( FILE *fp )
         bug( filename, 0 );
 
 	}
+	return 0;
 //	exit( 1 );
     }
     while ( isdigit(c) )
@@ -6264,7 +6265,6 @@ void hotreboot_recover ()
     {
 	perror ("hotreboot_recover:fopen");
 	log_string ("World shift file not found. Exiting.");
-	fclose (fp);
 	exit (1);
     }
     unlink (HOTREBOOT_FILE); /* In case something crashes - doesn't prevent reading	*/

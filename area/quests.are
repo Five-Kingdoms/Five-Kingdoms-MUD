@@ -2362,12 +2362,12 @@ endif
 if isdelay $i
   break
 endif
-if hasquest $n 'to bring a slab of meteorite to Elysus.'
+if hasquest $n 'to bring a starstone to Elysus.'
   mob echoat $n Shivers run down your spine as $I's dark eyes search you.
   mob echoaround $n $I casts a seaching glance at $N.
   if carries $n !141!
   and carries $n '12104'
-    say I see you have the tablet and meteorite. Lets have it.
+    say I see you have the tablet and starstone. Lets have it.
     break
   else
     if carries |30010|
@@ -2376,7 +2376,7 @@ if hasquest $n 'to bring a slab of meteorite to Elysus.'
       say Speak to him of your passage and he might take you across.
       break
     endif
-    'If you wish me to help you get the tablet and a meteorite, now get out.
+    'If you wish me to help you get the tablet and a starstone, now get out.
     break
   endif
   break
@@ -2387,7 +2387,7 @@ if hasquest $n 'to deliver the Tablet of Passage to Elysus.'
   if carries $n !12104!
     emote chuckles as his glance falls on the tablet.
     say I see that you have that little marvel $N.
-    mob tempquest $n to bring a slab of meteorite to Elysus.
+    mob tempquest $n to bring a starstone to Elysus.
     mob delay 10
     mob call 12202 $n null null
     break
@@ -2531,9 +2531,9 @@ pmote continues his tale.
 'Yes.. I know why you are here.
   'There were others before you, but not for a long time now....
   emote looks at your tablet again then frowns.
-  'That tablet has lost its taint unfortunatly, for it is over a centaury old.  
+  'That tablet has lost its taint unfortunatly, for it is over a century old.  
   'It will have to be retraced for it to holds its powers.
-  'Yet I lack the proper chisel, for only one made of meteorite will carry 
+  'Yet I lack the proper chisel, for only one made of starstone will carry 
   'the dark taint needed.  
   'Find a slab of meteorite and bring a tablet to me, and I will give you what 
   'you need to set your foot on the Isle of Souls.  
@@ -2553,7 +2553,7 @@ or vnum $o == 141
     if carries $n !141!
       mob chown !141! $n
     else
-      'You lack a slab of meteorite for the chisel!
+      'You lack a slab of starstone for the chisel!
       give $o $n
       break
     endif
@@ -2568,7 +2568,7 @@ or vnum $o == 141
     endif
   endif
   mob junk all
-  mob echo With crackling of dark magic $I creates a chisel from the meteorite.
+  mob echo With crackling of dark magic $I creates a chisel from the starstone.
   emote begins to work on the tablet, muttering dark incanations as the
   echo chisel etches dark oily lines in the tablet.
   load obj 30010
@@ -2576,7 +2576,7 @@ or vnum $o == 141
   say Speak to him of your passage and he might take you across.
   give |30010| $n
   drop |30010|
-  mob remquest $n to bring a slab of meteorite to Elysus.
+  mob remquest $n to bring a starstone to Elysus.
 else
   if vnum $o != 12104
   and vnum $o != 141

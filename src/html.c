@@ -175,8 +175,8 @@ void make_htmlwho(bool fShow){
 
   DESCRIPTOR_DATA* d;
 
-  char buf[2*MSL];
-  char buf2[2*MSL];
+  char buf[20*MSL];
+  char buf2[20*MSL];
 
   int count = 0;
 
@@ -189,7 +189,7 @@ void make_htmlwho(bool fShow){
   sprintf( buf, "%s%s", HTML_DIR, WHO_HTML_FILE);
   if ( (fp = fopen(buf, "w") ) == NULL){
     bug("Error creating who html file", 0);
-    fclose (fp);
+    fpReserve = fopen( NULL_FILE, "r" );
     return;
   }
 
@@ -372,6 +372,7 @@ void reset_helps(){
     /* get file pointer */
     if ( (fp = fopen(file, "w") ) == NULL){
       bug("reset_helps: Error opening dbase file", 0);
+      fpReserve = fopen( NULL_FILE, "r" );
       return;
     }
     /* write in the header */
@@ -409,7 +410,7 @@ void reset_helps(){
 
 void write_help(char *key){
   HELP_DATA* pHelp;
-  char buf[4*MSL];
+  char buf[20*MSL];
 
   if (!key || !key[0])
     return;
@@ -422,7 +423,7 @@ void write_help(char *key){
   if ( (pHelp = get_help_txt(key, buf)) != NULL){
     FILE *fp;
     char file[MIL];
-    char buf2[4*MSL];
+    char buf2[20*MSL];
 
     /* get the help file we will write to */
     sprintf(file, "%sskill_%c_help.html", HTML_DIR, isdigit(key[0]) ? 'A' : UPPER(key[0]));
@@ -430,6 +431,7 @@ void write_help(char *key){
     /* get file pointer */
     if ( (fp = fopen(file, "a") ) == NULL){
       bug("Error creating html dbase file", 0);
+      fpReserve = fopen( NULL_FILE, "r" );
       return;
     }
 
@@ -454,7 +456,7 @@ void race_help(int race){
   FILE *fp;
   char* name = pc_race_table[race].name;
   char file[MIL];
-  char buf[MSL];
+  char buf[20*MSL];
   bool fQuest = TRUE;
 
   if (race == -1){
@@ -471,6 +473,7 @@ void race_help(int race){
   /* get file pointer */
   if ( (fp = fopen(file, "w") ) == NULL){
     bug("race_help: Error opening help file", 0);
+    fpReserve = fopen( NULL_FILE, "r" );
     return;
   }
   /* Check if this is a restricted race somehow */
@@ -504,7 +507,7 @@ void race_help(int race){
 
   /* Begin actual help here */
   if (get_help_txt(name, buf)){
-    char buf2[MSL];
+    char buf2[20*MSL];
     buf2[0] = '\0';
     fprintf( fp, "<FONT FACE=\"Arial\">\n");
     string_to_html(buf, buf2, FALSE);
@@ -532,7 +535,7 @@ void religion_help(int reli){
   int align = deity_table[reli].align;
   int etho = deity_table[reli].ethos;
   char file[MIL];
-  char buf[MSL], buf2[MSL];
+  char buf[20*MSL], buf2[20*MSL];
 
 
   if (reli  < 0 || reli > MAX_DIETY)
@@ -547,6 +550,7 @@ void religion_help(int reli){
   /* get file pointer */
   if ( (fp = fopen(file, "w") ) == NULL){
     bug("religion_help: Error opening help file", 0);
+    fpReserve = fopen( NULL_FILE, "r" );
     return;
   }
   /* heading of the help */
@@ -613,8 +617,8 @@ void cabal_help(int cabal){
   FILE *fp;
   CABAL_INDEX_DATA* pc;
   char file[MIL];
-  char buf[MSL];
-  char buf2[MSL];
+  char buf[20*MSL];
+  char buf2[20*MSL];
 
 
   if ( (pc = get_cabal_index( cabal )) == NULL)
@@ -629,6 +633,7 @@ void cabal_help(int cabal){
   /* get file pointer */
   if ( (fp = fopen(file, "w") ) == NULL){
     bug("cabal_help: Error opening help file", 0);
+    fpReserve = fopen( NULL_FILE, "r" );
     return;
   }
 
@@ -666,7 +671,7 @@ void class_help(int class){
     FILE *fp;
     char* name = class_table[class].name;
     char file[MIL];
-    char buf[MSL];
+    char buf[20*MSL];
     int level = 0;
     bool fQuest = TRUE;
 
@@ -681,6 +686,7 @@ void class_help(int class){
     /* get file pointer */
     if ( (fp = fopen(file, "w") ) == NULL){
       bug("class_help: Error opening help file", 0);
+      fpReserve = fopen( NULL_FILE, "r" );
       return;
     }
     /* Check if this is a restricted class somehow */
@@ -704,7 +710,7 @@ void class_help(int class){
     /* Begin actual help here */
     /* Start with help file */
     if (get_help_txt(name, buf)){
-      char buf2[MSL];
+      char buf2[20*MSL];
       buf2[0] = '\0';
       fprintf( fp, "<FONT FACE=\"Arial\">\n");
       string_to_html(buf, buf2, FALSE);
@@ -713,7 +719,7 @@ void class_help(int class){
 
     /* Check if this is a restricted class somehow */
     if (!fQuest){
-      char buf3[MSL];
+      char buf3[20*MSL];
       char skill_list[LEVEL_IMMORTAL][MSL];
       char skill_columns[LEVEL_IMMORTAL];
       char spell_list[LEVEL_IMMORTAL][MSL];
@@ -958,11 +964,12 @@ void make_area_db(){
   char name[MIL];
 
   fclose(fpReserve);
+
   /* get file pointer */
   sprintf( buf, "%s%s", HTML_DIR, AREA_HTML_FILE);
   if ( (fp = fopen(buf, "w") ) == NULL){
     bug("Error creating area html file", 0);
-    fclose (fp);
+    fpReserve = fopen( NULL_FILE, "r" );
     return;
   }
   /* run through all areas print out fields to db */

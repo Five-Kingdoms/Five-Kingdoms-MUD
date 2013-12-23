@@ -4645,7 +4645,7 @@ char *	crypt		args( ( const char *key, const char *salt ) );
 #define CHALLENGE_DIR	  "../challenge/"   /* Challenge files */
 #define HISTORY_DIR       "../history/"     /* History files */
 #define HTML_DIR	  "../public_html/"
-#define VOTE_DIR	  "../voter/votes/"
+#define VOTE_DIR	  "../votes/"
 #define AREA_DIR      "../area/"
 #endif
 

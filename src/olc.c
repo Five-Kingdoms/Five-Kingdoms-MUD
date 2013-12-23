@@ -1775,13 +1775,22 @@ void save_helps(){
 	  fprintf( fp, "%s~ ", race_table[pHelp->type].name );
 	break;
       case HELP_CLASS:
+      if (pHelp->type < 0){
+        break;
+        }
 	fprintf( fp, "%s~ ", class_table[pHelp->type].name );
 	break;
       case HELP_CABAL:
+      if (pHelp->type < 0){
+        break;
+        }
 	pCab = get_cabal_index( pHelp->type );
 	fprintf( fp, "%s~ ", pCab ? pCab->name : "cabal" );
 	break;
       case HELP_PSALM:
+      if (pHelp->type < 0){
+        break;
+        }
 	fprintf( fp, "%s~ ", psalm_table[pHelp->type].name );
 	break;
       case HELP_ALL:
