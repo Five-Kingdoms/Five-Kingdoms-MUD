@@ -1818,6 +1818,9 @@ void load_helps_new( ){
 	break;
       case HELP_CLASS:
 	pHelp->type = class_lookup( fread_string (fp ));
+	if( pHelp->type < 0 ){
+        bug( "Load_helps: failed to lookup class", 0 );
+	}
 	break;
       case HELP_RACE:
 	string = fread_string( fp );
@@ -1833,6 +1836,9 @@ void load_helps_new( ){
 	break;
       case HELP_PSALM:
 	pHelp->type = psalm_lookup( fread_string (fp ));
+	if( pHelp->type < 0 ){
+        bug( "Load_helps: failed to lookup psalm", 0 );
+	}
 	break;
       }
       pHelp->keyword	= fread_string( fp );

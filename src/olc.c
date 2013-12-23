@@ -1696,18 +1696,18 @@ void save_area_list()
 {
     FILE *fp;
     AREA_DATA *pArea;
-    if ( ( fp = fopen( "area.lst", "w" ) ) == NULL )
+    if ( ( fp = fopen( AREA_LIST, "w" ) ) == NULL )
     {
 	bug( "Save_area_list: fopen", 0 );
 	fp = fopen( NULL_FILE, "r" );
 	fclose (fp);
-	perror( "area.lst" );
+	perror( AREA_LIST );
     }
     else
     {
         /* Add any help files that need to be loaded at *
          * startup to this section.                     */
-        fprintf( fp, "social.are\n" );
+        fprintf( fp, AREA_DIR "social.are\n" );
 	for( pArea = area_first; pArea; pArea = pArea->next ){
 	  fprintf( fp, "%s\n", pArea->file_name );
 	}

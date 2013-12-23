@@ -1,5 +1,5 @@
 #AREADATA
-Name [WARMASTER]~
+Name [WARLORD]~
 Pref ~
 Builders Crypticant~
 VNUMs 17400 17499
@@ -386,9 +386,9 @@ stand stand none none~
 21
 AHMV ABCDEFGHIJK medium 0
 #17419
-group warmasters~
-a group of warmasters~
-A small group of warmaster stands here proudly.
+group warlords~
+a group of warlords~
+A small group of warlords stands here proudly.
 ~
 Clad in fantastic armors and weapons they bear proudly trophies of past
 victories.  The faces are grim, but their eyes sparkle as promises of
@@ -403,9 +403,9 @@ stand stand none none~
 20
 AHMV ABCDEFGHIJK medium 0
 #17420
-tower fort Warmaster bastion~
+tower fort Warlord bastion~
 a crude fort~
-A crude fort flying banners of [`3WARMASTER``] watches over the area.
+A crude fort flying banners of [`3WARLORD``] watches over the area.
 ~
 It is a simple fort constructed in a hurry but with great experience. 
 The pallisade of sharpened logs provide fair defense and a few squat
@@ -420,12 +420,12 @@ stand stand none none~
 26
 AHMV ABCDEFGHIJK giant 0
 #17421
-tower fort Warmaster bastion~
+tower fort Warlord bastion~
 a crude fort~
-A [`3WARMASTER``] staging fortress has been built here.
+A [`3WARLORD``] staging fortress has been built here.
 ~
 A huge crude fortress made of latched logs stands in the area.  It has a
-single, simple tower flying the banner of the Warmasters where sentries
+single, simple tower flying the banner of the Warlords where sentries
 watch the surrounding area.  A large wooden gate stands in the center of a
 thick log fence allowing access in and out of the fortress.  
 ~
@@ -438,9 +438,9 @@ stand stand none none~
 23
 AHMV ABCDEFGHIJK giant 0
 #17422
-Warmaster chieftain~
+Warlord chieftain~
 the Chieftain~
-The Warmaster Chieftain stands here glaring at you with bloodshot eyes.
+The Warlord Chieftain stands here glaring at you with bloodshot eyes.
 ~
 A tall powerful man, clad with layered armor of metal and leather.  A
 mane of hair flows freely about his head giving him a look of a lion, tamed
@@ -1133,7 +1133,7 @@ if room $i != 17400
 or isimmort $n
   break
 endif
-if cabally $n Warmaster
+if cabally $n Warlord
   if isbloody $n
     if affspell $n 'blindness'
     or affspell $n 'death grasp'

@@ -6823,7 +6823,7 @@ RAGE FOCUS
 ~
 
 #293
--2 berserker~ 'SKULL CRUSHER'~
+-2 'SKULL CRUSHER'~
 SKULL CRUSHER
 
 Syntax:	automatic	(when haymaker is used)
@@ -6837,7 +6837,7 @@ SKULL CRUSHER
 ~
 
 #294
--2 berserker~ 'BLOODHAZE'~
+-2 'BLOODHAZE'~
 BLOODHAZE
 
 Syntax:	automatic
@@ -6871,7 +6871,7 @@ PATH FOCUS
 ~
 
 #296
--2 berserker~ 'PATH OF ANGER'~
+-2 'PATH OF ANGER'~
 PATH OF ANGER
 
 Syntax:	automatic
@@ -6891,7 +6891,7 @@ PATH OF ANGER
 ~
 
 #297
--2 berserker~ 'PATH OF FURY'~
+-2 'PATH OF FURY'~
 PATH OF FURY
 
 Syntax:	automatic
@@ -6913,7 +6913,7 @@ PATH OF FURY
 ~
 
 #298
--2 berserker~ 'PATH OF DEVASTATION'~
+-2 'PATH OF DEVASTATION'~
 PATH OF DEVASTATION
 
 Syntax:	automatic
@@ -6971,7 +6971,7 @@ WARRIOR LORE
 ~
 
 #301
--2 warrior~ 'BACK CUTTER' BACKCUTTER~
+-2 'BACK CUTTER' BACKCUTTER~
 BACKCUTTER
 
 Syntax: automatic
@@ -6987,7 +6987,7 @@ BACKCUTTER
 ~
 
 #302
--2 warrior~ 'SHIELD EXPERTISE'~
+-2 'SHIELD EXPERTISE'~
 SHIELD EXPERTISE
 
 Syntax:	automatic
@@ -7001,7 +7001,7 @@ SHIELD EXPERTISE
 ~
 
 #303
--2 warrior~ 'POWER GRIP' POWERGRIP~
+-2 'POWER GRIP' POWERGRIP~
 POWER GRIP
 
 Syntax: automatic
@@ -7020,7 +7020,7 @@ POWER GRIP
 ~
 
 #304
--2 berserker~ 'POWER GRIP' POWERGRIP~
+-2 'POWER GRIP' POWERGRIP~
 POWER GRIP
 
 Syntax: automatic
@@ -7039,7 +7039,7 @@ POWER GRIP
 ~
 
 #305
--2 warrior~ 'WEAPON SEIZE'~
+-2 'WEAPON SEIZE'~
 WEAPON SEIZE
 
 Syntax:	automatic
@@ -7056,7 +7056,7 @@ WEAPON SEIZE
 ~
 
 #306
--2 warrior~ 'SHIELD BASH'~
+-2 'SHIELD BASH'~
 SHIELD BASH
 
 Syntax: shieldbash
@@ -7071,7 +7071,7 @@ SHIELD BASH
 ~
 
 #307
--2 warrior~ 'FOCUSED BASH'~
+-2 'FOCUSED BASH'~
 FOCUSED BASH
 
 Syntax: focusedbash
@@ -7086,7 +7086,7 @@ FOCUSED BASH
 ~
 
 #308
--2 warrior~ 'MANTIS MAUL'~
+-2 'MANTIS MAUL'~
 MANTIS MAUL
 
 Syntax:	maul 
@@ -7104,7 +7104,7 @@ MANTIS MAUL
 ~
 
 #309
--2 warrior~ FEIGN~
+-2 FEIGN~
 FEIGN
 
 Syntax:	feign
@@ -7122,7 +7122,7 @@ FEIGN
 ~
 
 #310
--2 warrior~ 'WEAPON LOCK' WEAPONLOCK~
+-2 'WEAPON LOCK' WEAPONLOCK~
 WEAPON LOCK
 
 Syntax:	weaponlock
@@ -7150,7 +7150,7 @@ MERCY
 ~
 
 #312
--2 thief~ 'BASIC TRAPS'~
+-2 'BASIC TRAPS'~
 BASIC TRAPS
 
 Alarm
@@ -7167,7 +7167,7 @@ BASIC TRAPS
 ~
 
 #313
--2 thief~ 'POISON NEEDLE'~
+-2 'POISON NEEDLE'~
 POISON NEEDLE
 
   There are those who believe that in simplicity lies beauty, and whoever
@@ -7180,7 +7180,7 @@ POISON NEEDLE
 ~
 
 #314
--2 thief~ 'ENFEEBLER'~
+-2 'ENFEEBLER'~
 ENFEEBLER
 
 A devious trap composed of magical spells and mechanical triggers. When setup
@@ -7193,7 +7193,7 @@ ENFEEBLER
 ~
 
 #315
--2 thief~ 'FIRESEED'~
+-2 'FIRESEED'~
 FIRESEED
 
 A deadly and potent trap created by compressing various compositions of
@@ -7205,7 +7205,7 @@ FIRESEED
 ~
 
 #316
--2 thief~ 'SNARES'~
+-2 'SNARES'~
 SNARES
 
   This collection of traps includes mechanical traps that are meant to
@@ -7231,7 +7231,7 @@ SNARES
 ~
 
 #317
--2 thief~ RUNES~
+-2 RUNES~
 RUNES
 
   Runes are traps made not of wood or metal but of spells woven and cast into
@@ -7276,7 +7276,7 @@ BOOBY TRAPS
 ~
 
 #319
--2 thief~ EYEDUST EYEDUSTER~
+-2 EYEDUST EYEDUSTER~
 EYEDUSTER
 
   Composed of a small packet of rare salts from beyond Fen Marshes then
@@ -7292,7 +7292,7 @@ EYEDUSTER
 ~
 
 #320
--2 thief~ ANTIMAGIC~
+-2 ANTIMAGIC~
 ANTIMAGIC
 
  A trap as ancient as the oldest magics of the Mirlan, it was developed
@@ -7306,7 +7306,7 @@ ANTIMAGIC
 ~
 
 #321
--2 thief~ 'AMNESIA CHARM'~
+-2 'AMNESIA CHARM'~
 AMNESIA CHARM
 
 This trap uses a set of powerful  magical spells to befuddle and confuse its
@@ -7319,7 +7319,7 @@ AMNESIA CHARM
 ~
 
 #322
--2 thief~ 'BLACKSPORE'~
+-2 'BLACKSPORE'~
 BLACKSPORE
 
 Common blackspore is a near invisible spore of an extremely rare fungus. While
@@ -7348,7 +7348,7 @@ MAGICAL TRAPS
 ~
 
 #324
--2 thief~ CHESTBUSTER~
+-2 CHESTBUSTER~
 CHESTBUSTER
 
 This trap is a marvelous blend of magical and mechanical components.  Fused
@@ -7365,7 +7365,7 @@ CHESTBUSTER
 ~
 
 #325
--2 thief~ 'NEEDLER'~
+-2 'NEEDLER'~
 THE NEEDLER
 
 The Needler is a self-aiming guard trap. 
@@ -7374,7 +7374,7 @@ THE NEEDLER
 ~
 
 #326
--2 thief~ 'WEBCASTER'~
+-2 'WEBCASTER'~
 WEBCASTER
 
   The Webcaster is a means to Stun and Capture!
@@ -7383,7 +7383,7 @@ WEBCASTER
 ~
 
 #327
--2 thief~ 'DEVIL WHEEL'~
+-2 'DEVIL WHEEL'~
 DEVIL WHEEL
 
 Designed by a Master Assassin this contraption is composed of a hundred or more
@@ -7536,7 +7536,7 @@ DOUBLESHEATH
 ~
 
 #334
--2 ranger~ 'RANGER LORE'~
+-2 'RANGER LORE'~
 RANGER LORE
 
 A group of skills developed by rangers over time and passed onto the guild in
@@ -7555,7 +7555,7 @@ RANGER LORE
 ~
 
 #335
--2 ranger~ BEASTMASTER~
+-2 BEASTMASTER~
 BEASTMASTER
 
 Syntax: automatic
@@ -7570,7 +7570,7 @@ BEASTMASTER
 ~
 
 #336
--2 ranger~ FLETCHERY~
+-2 FLETCHERY~
 FLETCHERY
 
 Syntax:	fletchery (projectile type)
@@ -7584,7 +7584,7 @@ FLETCHERY
 ~
 
 #337
--2 ranger~ ARCHERY~
+-2 ARCHERY~
 ARCHERY
 
 Syntax: automatic
@@ -7598,7 +7598,7 @@ ARCHERY
 ~
 
 #338
--2 ranger~ BOWYER~
+-2 BOWYER~
 BOWYER
 
 Syntax: stringbow (ammo type)
@@ -8003,7 +8003,7 @@ CONTINUAL LIGHT
 ~
 
 #356
--2 psionicist~ 'MENTAL KNIFE'~
+-2 'MENTAL KNIFE'~
 MENTAL KNIFE  AMPLIFICATION: MEDIUM
 
 syntax: cast 'mental knife' (target)
@@ -8371,7 +8371,7 @@ VOODOO DOLL
 ~
 
 #381
--2 psionicist~ TELEPATHY~
+-2 TELEPATHY~
 TELEPATHY
 
 Syntax: telepathy (person) (message) 
@@ -8539,7 +8539,7 @@ BLINDNESS
 ~
 
 #392
--2 vampire~ BLOODLUST~
+-2 BLOODLUST~
 BLOODLUST
 
 Syntax: cast 'bloodlust'
@@ -8552,7 +8552,7 @@ BLOODLUST
 ~
 
 #393
--2 vampire~ BLOOD GOUT~
+-2 BLOOD GOUT~
 BLOOD GOUT
 
 Syntax: cast 'blood gout'
@@ -9019,7 +9019,7 @@ EDGE CRAFT
 ~
 
 #424
--2 vampire~ EMBRACE~
+-2 EMBRACE~
 EMBRACE
 
 Syntax: embrace (target)
@@ -9702,7 +9702,7 @@ MIRROR IMAGE
 ~
 
 #471
--2 vampire~ MORPH 'BAT FORM' 'WOLF FORM' 'MIST FORM'~
+-2 MORPH 'BAT FORM' 'WOLF FORM' 'MIST FORM'~
 MORPH 'BAT FORM' 'WOLF FORM' 'MIST FORM'
 
 Syntax: cast morph bat
@@ -9805,7 +9805,7 @@ PILFER
 ~
 
 #476
--2 psionicist~ 'PHASE SHIFT'~
+-2 'PHASE SHIFT'~
 PHASE SHIFT
 
 Syntax: cast 'phase shift'
@@ -9821,7 +9821,7 @@ PHASE SHIFT
 ~
 
 #477
--2 psionicist~ DREAMWALK~
+-2 DREAMWALK~
 DREAMWALK
 
 Syntax: dreamwalk (victim)
@@ -10026,7 +10026,7 @@ SHADOWFORM
 ~
 
 #491
--2 vampire~ SHADOWSTALK~
+-2 SHADOWSTALK~
 SHADOWSTALK
 
 Syntax: cast 'shadowstalk' (target)
@@ -10526,7 +10526,7 @@ BODYSLAM
 ~
 
 #526
--2 vampire~ BURROW~
+-2 BURROW~
 BURROW
 
 Syntax: burrow
@@ -10679,7 +10679,7 @@ CUTPURSE
 ~
 
 #536
--2 vampire~ 'DARK METAMORPHOSIS'~
+-2 'DARK METAMORPHOSIS'~
 'DARK METAMORPHOSIS'
 
 Syntax: cast 'dark metamorphosis'
@@ -10844,7 +10844,7 @@ DODGE
 ~
 
 #548
--2 vampire~ ECSTACY~
+-2 ECSTACY~
 ECSTACY
 
 Syntax: cast 'ecstacy' (target)
@@ -11407,7 +11407,7 @@ SCROLLS STAVES WANDS
 ~
 
 #588
--2 vampire~ 'SOUL STEAL'~
+-2 'SOUL STEAL'~
 'SOUL STEAL'
 
 Syntax: cast 'soul steal' (corpse)
@@ -11507,7 +11507,7 @@ THROW
 ~
 
 #595
--2 vampire~ THRUST~
+-2 THRUST~
 THRUST
 
 Syntax: thrust (target)
@@ -11518,7 +11518,7 @@ THRUST
 ~
 
 #596
--2 vampire~ 'TWILIGHT SHIFT'~
+-2 'TWILIGHT SHIFT'~
 'TWILIGHT SHIFT'
 
 Syntax: ca 'twilight shift' (target)
@@ -11719,7 +11719,7 @@ ENCUMBRANCE
 ~
 
 #611
--2 psionicist~ OMEN~
+-2 OMEN~
 OMEN
 
 Syntax: dreamwalk (omen)
@@ -11734,7 +11734,7 @@ OMEN
 ~
 
 #612
--2 psionicist~ 'MIND THRUST'~
+-2 'MIND THRUST'~
 MIND THRUST		AMPLIFICATION: WEAK
 
 Syntax: cast 'mind thrust' (victim)
@@ -11747,7 +11747,7 @@ MIND THRUST		AMPLIFICATION: WEAK
 ~
 
 #613
--2 psionicist~ '1ST CIRCLE' '2ND CIRCLE' '3RD CIRCLE' '4TH CIRCLE' '5TH CIRCLE' 
+-2 '1ST CIRCLE' '2ND CIRCLE' '3RD CIRCLE' '4TH CIRCLE' '5TH CIRCLE' 
 '6TH CIRCLE' 'PSI CIRCLE' 'PSI CIRCLES' 'PSIONICSTS CIRCLES' PSIONICIST CIRCLE'~
 PSION CIRCLES 
 
@@ -11772,7 +11772,7 @@ DISPLACEMENT
 ~
 
 #615
--2 psionicist~ PHOTON~
+-2 PHOTON~
 PHOTON
 
 Syntax: cast 'photon'
@@ -11819,7 +11819,7 @@ AWAKEN
 ~
 
 #619
--2 psionicist~ 'BODY WEAPONRY'~
+-2 'BODY WEAPONRY'~
 BODY WEAPONRY
 
 Syntax: cast 'body weaponry' 
@@ -11855,7 +11855,7 @@ BODY WEAPONRY
 ~
 
 #622
--2 psionicist~ 'ENHANCE ARMOR'~
+-2 'ENHANCE ARMOR'~
 'ENHANCE ARMOR'
 
 Syntax: cast 'enhance armor' (object)
@@ -11882,7 +11882,7 @@ BODY WEAPONRY
 ~
 
 #624
--2 psionicist~ blink~
+-2 blink~
 BLINK
 
 Syntax: cast 'blink'
@@ -11896,7 +11896,7 @@ BLINK
 ~
 
 #625
--2 psionicist~ levitate~
+-2 levitate~
 LEVITATE
 
 Syntax: cast 'levitate'
@@ -11907,7 +11907,7 @@ LEVITATE
 ~
 
 #626
--2 psionicist~ PYRAMID 'PYRAMID OF FORCE'~
+-2 PYRAMID 'PYRAMID OF FORCE'~
 'PYRAMID OF FORCE'
 
 Syntax: cast 'pyramid of force'
@@ -11944,7 +11944,7 @@ ECTOPLASM
 ~
 
 #629
--2 psionicist~ HYPNOSIS~
+-2 HYPNOSIS~
 HYPNOSIS               AMPLIFICATION: STRONG
 
 Syntax: cast hypnosis (target) 
@@ -12071,7 +12071,7 @@ HEROISM
 ~
 
 #637
--2 vampire~ DARK RITUAL~
+-2 DARK RITUAL~
 DARK RITUAL
 
 Syntax: dark
@@ -13032,12 +13032,12 @@ CRUSADER
 ~
 
 #707
--2 crusader~ CRUSADER CRUSADERS 'ORDER OF CRUSADES'~
+-2 CRUSADER CRUSADERS 'ORDER OF CRUSADES'~
 See also: OBELISKS, PSALMS, STARSTONE, MODIFY, CRUSADER LIMIT
 ~
 
 #708
--2 crusader~ 'CRUSADER LIMIT'~
+-2 'CRUSADER LIMIT'~
 CRUSADER LIMIT
 
 
@@ -13045,7 +13045,7 @@ CRUSADER LIMIT
 ~
 
 #709
--2 crusader~ OBELISK OBELISKS~
+-2 OBELISK OBELISKS~
 OBELISKS
 
 Foreseeing great trails and dangers ahead of them, the Order of Crusades
@@ -13062,7 +13062,7 @@ OBELISKS
 ~
 
 #710
--2 crusader~ CHANT~
+-2 CHANT~
 CHANT
 
 syntax: chant (psalm)	:chants a given psalm
@@ -13110,7 +13110,7 @@ STARSTONES
 ~
 
 #712
--2 crusader~ 'SHOULDER SMASH'~
+-2 'SHOULDER SMASH'~
 SHOULDER SMASH
 
 Syntax: shoulder
@@ -13125,7 +13125,7 @@ SHOULDER SMASH
 ~
 
 #713
--2 crusader~ 'ARMORED RUSH'~
+-2 'ARMORED RUSH'~
 ARMORED RUSH
 
 Syntax: rush
@@ -13142,7 +13142,7 @@ ARMORED RUSH
 ~
 
 #714
--2 crusader~ MINOR~
+-2 MINOR~
 MINOR
 
   The Minor skill group is the first group of skill choices a Crusader
@@ -13163,7 +13163,7 @@ MINOR
 ~
 
 #715
--2 crusader~ '2H HANDLING~
+-2 '2H HANDLING~
 2H HANDLING
 
 syntax: automatic
@@ -13179,7 +13179,7 @@ MINOR
 ~
 
 #716
--2 crusader~ '2H TACTICS~
+-2 '2H TACTICS~
 2H HANDLING
 
 syntax: low             : defensive weapon position
@@ -13196,7 +13196,7 @@ MINOR
 ~
 
 #717
--2 crusader~ 'HISTORY OF ARMAMENTS~
+-2 'HISTORY OF ARMAMENTS~
 HISTORY OF ARMAMENTS
 
 syntax: automatic
@@ -13213,7 +13213,7 @@ HISTORY OF ARMAMENTS
 ~
 
 #718
--2 crusader~ 'ARMS MAINTENANCE~
+-2 'ARMS MAINTENANCE~
 ARMS MAINTENANCE
 
 syntax: automatic
@@ -13229,7 +13229,7 @@ ARMS MAINTENANCE
 ~
 
 #719
--2 crusader~ 'BASIC ARMOR~
+-2 'BASIC ARMOR~
 BASIC ARMOR
 
 syntax: automatic
@@ -13244,7 +13244,7 @@ BASIC ARMOR
 ~
 
 #720
--2 crusader~ 'OREALTS 1ST' 'OREALTS FIRST'~
+-2 'OREALTS 1ST' 'OREALTS FIRST'~
 OREALTS FIRST
 
 syntax: automatic
@@ -13261,7 +13261,7 @@ OREALTS FIRST
 ~
 
 #721
--2 crusader~ MAJOR~
+-2 MAJOR~
 MAJOR
 
   The Major group of skills is the second group a Crusader will choose from.
@@ -13285,7 +13285,7 @@ MAJOR
 ~
 
 #722
--2 crusader~ '2H MASTERY'~
+-2 '2H MASTERY'~
 2H MASTERY
 
 syntax: automatic
@@ -13302,7 +13302,7 @@ MAJOR
 ~
 
 #723
--2 crusader~ 'ADV. HANDLING' 'ADV HANDLING'~
+-2 'ADV. HANDLING' 'ADV HANDLING'~
 ADV. HANDLING
 
 syntax: automatic
@@ -13318,7 +13318,7 @@ ADV. HANDLING
 ~
 
 #724
--2 crusader~ 'OREALTS 2nd' 'OREALTS SECOND'~
+-2 'OREALTS 2nd' 'OREALTS SECOND'~
 OREALTS SECOND
 
 syntax: automatic
@@ -13337,7 +13337,7 @@ OREALTS SECOND
 ~
 
 #725
--2 crusader~ CUTTER~
+-2 CUTTER~
 CUTTER
 
 syntax:	cutter (target)
@@ -13353,7 +13353,7 @@ CUTTER
 ~
 
 #726
--2 crusader~ 'DAMAGE MASTERY B' DAMAGE MASTERY S' DAMAGE MASTERY P'~
+-2 'DAMAGE MASTERY B' DAMAGE MASTERY S' DAMAGE MASTERY P'~
 DAMAGE MASTERY B/S/P  (Bash/Slash/Pierce)
 
 syntax: automatic
@@ -13368,7 +13368,7 @@ DAMAGE MASTERY B/S/P  (Bash/Slash/Pierce)
 ~
 
 #727
--2 crusader~ 'ADVANCED ARMOR' 'ADV. ARMOR' 'ADV ARMOR'~
+-2 'ADVANCED ARMOR' 'ADV. ARMOR' 'ADV ARMOR'~
 ADVANCED ARMOR
 
 syntax: automatic
@@ -13385,7 +13385,7 @@ ADVANCED ARMOR
 ~
 
 #728
--2 crusader~ 'ARMOR ENHANCEMENT'~
+-2 'ARMOR ENHANCEMENT'~
 ARMOR ENHANCEMENT
 
 syntax: automatic
@@ -13400,7 +13400,7 @@ ARMOR ENHANCEMENT
 ~
 
 #729
--2 crusader~ SPECIALTY~
+-2 SPECIALTY~
 SPECIALTY
 
   The specialty group of skills fully dedicates the Crusader to a particular
@@ -13421,7 +13421,7 @@ SPECIALTY
 ~
 
 #730
--2 crusader~ 'CONTROL DAMAGE'~
+-2 'CONTROL DAMAGE'~
 CONTROL D DAMAGE
 
 syntax: damage (slash/blunt/pierce/normal)
@@ -13439,7 +13439,7 @@ CONTROL D DAMAGE
 ~
 
 #731
--2 crusader~ CUSINART~
+-2 CUSINART~
 CUSINART
 
 syntax: automatic
@@ -13474,7 +13474,7 @@ WITCH COMPASS
 ~
 
 #733
--2 crusader~ 'PSALM MASTER'~
+-2 'PSALM MASTER'~
 PSALM MASTER
 
 syntax: automatic
@@ -13490,7 +13490,7 @@ PSALM MASTER
 ~
 
 #734
--2 crusader~ 'WEAPON CRAFT' WEAPONCRAFT~
+-2 'WEAPON CRAFT' WEAPONCRAFT~
 WEAPONCRAFT
 
 syntax: automatic
@@ -13507,7 +13507,7 @@ WEAPONCRAFT
 ~
 
 #735
--2 crusader~ 'ARMOR CRAFT' ARMORCRAFT~
+-2 'ARMOR CRAFT' ARMORCRAFT~
 ARMORCRAFT
 
 syntax: automatic
@@ -13526,7 +13526,7 @@ ARMORCRAFT
 ~
 
 #736
--2 crusader~ MODIFY~
+-2 MODIFY~
 MODIFY
 
 syntax:	
@@ -13562,7 +13562,7 @@ MODIFY
 ~
 
 #737
--2 crusader~ INTERRUPT~
+-2 INTERRUPT~
 INTERRUPT
 
 syntax: interrupt
@@ -13575,7 +13575,7 @@ INTERRUPT
 ~
 
 #738
--2 crusader~ 'ARMOR MODIFY'~
+-2 'ARMOR MODIFY'~
 MODIFY
 syntax:	
   modify help (modification)		:show specific info on the modification
@@ -13617,7 +13617,7 @@ MODIFY
 ~
 
 #739
--2 crusader~ 'WEAPON MODIFY'~
+-2 'WEAPON MODIFY'~
 WEAPON MODIFY
 
 syntax:	
@@ -13660,7 +13660,7 @@ WEAPON MODIFY
 ~
 
 #740
--2 crusader~ 'HOLY WEAPON'~
+-2 'HOLY WEAPON'~
 HOLY WEAPON
 
 syntax: automatic with use of "modify (weapon) consecration"
@@ -13685,7 +13685,7 @@ HOLY WEAPON
 ~
 
 #741
--2 crusader~ CRUSADE~
+-2 CRUSADE~
 CRUSADE
 
 syntax: crusade (race or class or cabal)
@@ -13706,7 +13706,7 @@ CRUSADE
 ~
 
 #742
--2 crusader~ AVENGER~
+-2 AVENGER~
 AVENGER
 
 syntax:	avenge (corpse)
@@ -13731,7 +13731,7 @@ AVENGER
 ~
 
 #743
--2 crusader~ SIGNATURE~
+-2 SIGNATURE~
 SIGNATURE
 
 The signature skills of Crusader are so rare and so distinct that many of the
@@ -13754,7 +13754,7 @@ SIGNATURE
 ~
 
 #744
--2 crusader~ BEHEAD~
+-2 BEHEAD~
 BEHEAD
 
 syntax: behead
@@ -13769,7 +13769,7 @@ BEHEAD
 ~
 
 #745
--2 crusader~ 'POMMEL SMASH'~
+-2 'POMMEL SMASH'~
 POMMEL SMASH
 
 syntax: pommel		
@@ -13788,7 +13788,7 @@ POMMEL SMASH
 ~
 
 #746
--2 crusader~ 'ARMOR PIERCE'~
+-2 'ARMOR PIERCE'~
 ARMOR PIERCE
 
 syntax: armorpierce	: (automatic for next round of combat)
@@ -13807,7 +13807,7 @@ ARMOR PIERCE
 ~
 
 #747
--2 crusader~ PIOUS~
+-2 PIOUS~
 PIOUS
 
 syntax:	automatic
@@ -13822,7 +13822,7 @@ PIOUS
 ~
 
 #748
--2 crusader~ 'HIGH SIGHT'~
+-2 'HIGH SIGHT'~
 HIGH SIGHT
 
 syntax:	automatic
@@ -13842,7 +13842,7 @@ HIGH SIGHT
 ~
 
 #749
--2 crusader~ IMPALE~
+-2 IMPALE~
 IMPALE
 
 syntax:	impale (target)
@@ -13859,7 +13859,7 @@ IMPALE
 ~
 
 #750
--2 crusader~ 'DESTROY UNDEAD'~
+-2 'DESTROY UNDEAD'~
 DESTROY UNDEAD
 
 syntax:	destroy
@@ -13872,7 +13872,7 @@ DESTROY UNDEAD
 ~
 
 #751
--2 crusader~ WINDMILL~
+-2 WINDMILL~
 WINDMILL
 
 syntax:	windmill		:turns windmill on/off
@@ -13888,7 +13888,7 @@ WINDMILL
 ~
 
 #752
--2 crusader~ DEFLECT~
+-2 DEFLECT~
 DEFLECT
 
 syntax:	deflect (primary/secondary)
@@ -13904,7 +13904,7 @@ DEFLECT
 ~
 
 #753
--2 crusader~ BATTER~
+-2 BATTER~
 BATTER
 
 syntax: batter
@@ -17373,7 +17373,7 @@ TEAM BATTLES
 ~
 
 #936
--2 psionicist~ 'MIND BLAST'~
+-2 'MIND BLAST'~
 MIND BLAST		AMPLIFICATION: MEDIUM
 
 Syntax: cast 'mind blast' (victim)
@@ -17387,7 +17387,7 @@ MIND BLAST		AMPLIFICATION: MEDIUM
 ~
 
 #937
--2 psionicist~ 'MIND DISRUPTION'~
+-2 'MIND DISRUPTION'~
 MIND DISRUPTION		AMPLIFICATION: WEAK
 
 Syntax: cast 'mind disruption' (victim)
@@ -17401,7 +17401,7 @@ MIND DISRUPTION		AMPLIFICATION: WEAK
 ~
 
 #938
--2 psionicist~ 'FLESH ARMOR'~
+-2 'FLESH ARMOR'~
 FLESH ARMOR
 
 Syntax: cast 'flesh armor'
@@ -17411,7 +17411,7 @@ FLESH ARMOR
 ~
 
 #939
--2 psionicist~ 'DETECT AURA'~
+-2 'DETECT AURA'~
 DETECT AURA
 
 Syntax: cast 'detect aura' 
@@ -17423,7 +17423,7 @@ DETECT AURA
 ~
 
 #940
--2 psionicist~ 'METABOLIC BRAKE'~
+-2 'METABOLIC BRAKE'~
 METABOLIC BRAKE
 
 Syntax: cast 'metabolic brake'
@@ -17438,7 +17438,7 @@ METABOLIC BRAKE
 ~
 
 #941
--2 psionicist~ 'REMOVE MAGIC'~
+-2 'REMOVE MAGIC'~
 REMOVE MAGIC              AMPLIFICATION: WEAK
 
 Syntax: cast 'remove magic' (victim) 
@@ -17452,7 +17452,7 @@ REMOVE MAGIC              AMPLIFICATION: WEAK
 ~
 
 #942
--2 psionicist~ 'MAGIC EYE'~
+-2 'MAGIC EYE'~
 MAGIC EYE
 
 Syntax: cast 'magic eye'
@@ -17464,7 +17464,7 @@ MAGIC EYE
 ~
 
 #943
--2 psionicist~ WISH~
+-2 WISH~
 WISH
 
 Syntax: cast 'wish'
@@ -17477,7 +17477,7 @@ WISH
 ~
 
 #944
--2 psionicist~ 'METABOLIC BOOST'~
+-2 'METABOLIC BOOST'~
 METABOLIC BOOST
 
 Syntax: cast 'metabolic boost' 
@@ -17490,7 +17490,7 @@ METABOLIC BOOST
 ~
 
 #945
--2 psionicist~ 'GRAFT WEAPON'~
+-2 'GRAFT WEAPON'~
 GRAFT WEAPON
 
 Syntax: cast 'graft weapon' 
@@ -17503,7 +17503,7 @@ GRAFT WEAPON
 ~
 
 #946
--2 psionicist~ 'PSI AMP'~
+-2 'PSI AMP'~
 PSI AMP
 
 Syntax: Automatic 
@@ -17526,7 +17526,7 @@ PSI AMP
 ~
 
 #947
--2 psionicist~ SUBVOCALIZE~
+-2 SUBVOCALIZE~
 SUBVOCALIZE
 
 Syntax: cast 'subvocalize'
@@ -17540,7 +17540,7 @@ SUBVOCALIZE
 ~
 
 #948
--2 psionicist~ 'PSI FOCUS'~
+-2 'PSI FOCUS'~
 PSI FOCUS
 
   A member of Psion guild once experienced must make a crucial choice
@@ -17555,7 +17555,7 @@ PSI FOCUS
 ~
 
 #949
--2 psionicist~ 'PSI LORE'~
+-2 'PSI LORE'~
 PSI LORE
 
   An experienced Psion draws on the choice of his focus and further
@@ -17570,7 +17570,7 @@ PSI LORE
 ~
 
 #950
--2 psionicist~ KINESIS~
+-2 KINESIS~
 KINESIS
 
 Syntax: automatic 
@@ -17594,7 +17594,7 @@ KINESIS
 ~
 
 #951
--2 psionicist~ DESTRUCTION~
+-2 DESTRUCTION~
 DESTRUCTION
 
   The culmination the path first begun by focusing on Kinesis, the
@@ -17613,7 +17613,7 @@ DESTRUCTION
 ~
 
 #952
--2 psionicist~ 'PYRO KINESIS' 'CRYO KINESIS' 'HYDRO KINESIS' 'ELECTRO KINESIS' 
+-2 'PYRO KINESIS' 'CRYO KINESIS' 'HYDRO KINESIS' 'ELECTRO KINESIS' 
 'TELE KINESIS' PYRO CRYO HYDRO ELECTRO TELE~
 PRYO KINESIS, CRYO KINESIS, HYDRO KINESIS, ELECTRO KINESIS, TELE KINESIS
 AMPLIFICATION: WEAK
@@ -17637,7 +17637,7 @@ PRYO KINESIS, CRYO KINESIS, HYDRO KINESIS, ELECTRO KINESIS, TELE KINESIS
 ~
 
 #953
--2 psionicist~ 'PHOTON BLAST'~
+-2 'PHOTON BLAST'~
 PHOTON BLAST             AMPLIFICATION: WEAK
 
 Syntax: cast 'photon blast' (victim)
@@ -17652,7 +17652,7 @@ PHOTON BLAST             AMPLIFICATION: WEAK
 ~
 
 #954
--2 psionicist~ 'PSYCHIC PURGE'~
+-2 'PSYCHIC PURGE'~
 PSYCHIC PURGE           AMPLIFICATION: STRONG
 
 Syntax: cast 'psychic purge' (victim)
@@ -17665,7 +17665,7 @@ PSYCHIC PURGE           AMPLIFICATION: STRONG
 ~
 
 #955
--2 psionicist~ 'MINDSURGE'~
+-2 'MINDSURGE'~
 MINDSURGE
 
 Syntax: cast 'mindsurge' 
@@ -17680,7 +17680,7 @@ MINDSURGE
 ~
 
 #956
--2 psionicist~ 'PSIONIC BLAST'~
+-2 'PSIONIC BLAST'~
 PSIONIC BLAST          AMPLIFICATION: MEDIUM
 
 Syntax: cast 'Psionic blast'
@@ -17697,7 +17697,7 @@ PSIONIC BLAST          AMPLIFICATION: MEDIUM
 ~
 
 #957
--2 psionicist~ SINGULARITY~
+-2 SINGULARITY~
 SINGULARITY          AMPLIFICATION: STRONG
 
 Syntax: cast 'singularity'
@@ -17713,7 +17713,7 @@ SINGULARITY          AMPLIFICATION: STRONG
 ~
 
 #958
--2 psionicist~ 'ENTROPIC TOUCH'~
+-2 'ENTROPIC TOUCH'~
 ENTROPIC TOUCH       AMPLIFICATION: STRONG
 
 Syntax: cast 'Entropic touch' (victim)
@@ -17727,7 +17727,7 @@ ENTROPIC TOUCH       AMPLIFICATION: STRONG
 ~
 
 #959
--2 psionicist~ 'AMORPHOUS INFECTION'~
+-2 'AMORPHOUS INFECTION'~
 AMORPHOUS INFECTION  AMPLIFICATION: SPECIAL
 
 Syntax: cast 'amorphous infection' victim 
@@ -17749,7 +17749,7 @@ AMORPHOUS INFECTION  AMPLIFICATION: SPECIAL
 ~
 
 #960
--2 psionicist~ BREACH~
+-2 BREACH~
 BREACH
 
 Syntax: cast 'breach' (victim)
@@ -17763,7 +17763,7 @@ BREACH
 ~
 
 #961
--2 psionicist~ DISINTEGRATE~
+-2 DISINTEGRATE~
 DISINTEGRATE
 
 Syntax: cast 'disintegrate' (victim)
@@ -17838,7 +17838,7 @@ PSION PSIONS PSI PSIONICS
 ~
 
 #965
--2 psionicist~ DEATHMARE~
+-2 DEATHMARE~
 DEATHMARE
 
 Syntax: dreamwalk deathmare
@@ -17857,7 +17857,7 @@ DEATHMARE
 ~
 
 #966
--2 psionicist~ MINDMELT~
+-2 MINDMELT~
 MINDMELT
 
 Syntax: dreamwalk mindmelt
@@ -17871,7 +17871,7 @@ MINDMELT
 ~
 
 #967
--2 psionicist~ DREAMPROBE~
+-2 DREAMPROBE~
 DREAMPROBE
 
 Syntax: dreamwalk dreamprobe
@@ -17890,7 +17890,7 @@ DREAMPROBE
 ~
 
 #968
--2 psionicist~ 'SPELL VISE'~
+-2 'SPELL VISE'~
 SPELL VISE                 AMPLIFICATION: MEDIUM
 
 Syntax: cast 'spell vise' (victim)
@@ -17906,7 +17906,7 @@ SPELL VISE                 AMPLIFICATION: MEDIUM
 ~
 
 #969
--2 psionicist~ 'MANA TRAP'~
+-2 'MANA TRAP'~
 MANA TRAP
 
 Syntax: cast 'mana trap'
@@ -17922,7 +17922,7 @@ MANA TRAP
 ~
 
 #970
--2 psionicist~ 'SPELL TRAP'~
+-2 'SPELL TRAP'~
 SPELL TRAP
 
 Syntax: cast 'spell trap' 
@@ -17941,7 +17941,7 @@ SPELL TRAP
 ~
 
 #971
--2 psionicist~ DOMINATION~
+-2 DOMINATION~
 DOMINATION
 
 The culmination of the path first begun by focusing on telepathy, 
@@ -17959,7 +17959,7 @@ DOMINATION
 ~
 
 #972
--2 psionicist~ 'SOUL PUMP'~
+-2 'SOUL PUMP'~
 SOUL PUMP		AMPLIFICATION: STRONG
 
 Syntax: cast 'soul pump' (victim)
@@ -17974,7 +17974,7 @@ SOUL PUMP		AMPLIFICATION: STRONG
 ~
 
 #973
--2 psionicist~ 'SPELL BLAST'~
+-2 'SPELL BLAST'~
 SPELL BLAST               AMPLIFICATION: WEAK
 
 Syntax: cast 'spell blast'
@@ -17992,7 +17992,7 @@ SPELL BLAST               AMPLIFICATION: WEAK
 ~
 
 #974
--2 psionicist~ MASOCHISM~
+-2 MASOCHISM~
 MASOCHISM               AMPLIFICATION: STRONG
 
 Syntax: cast 'masochism' (victim)
@@ -18006,7 +18006,7 @@ MASOCHISM               AMPLIFICATION: STRONG
 ~
 
 #975
--2 psionicist~ 'TOTAL RECALL'~
+-2 'TOTAL RECALL'~
 TOTAL RECALL
 
 Syntax: cast 'total recall'
@@ -18021,7 +18021,7 @@ TOTAL RECALL
 ~
 
 #976
--2 psionicist~ 'BRAIN DEATH'~
+-2 'BRAIN DEATH'~
 BRAIN DEATH
 
 Syntax: cast 'brain death' (victim)
@@ -18035,4 +18035,2972 @@ BRAIN DEATH
 ~
 
 #977
--2 
+-2 UNMINDING~
+UNMINDING
+
+Syntax: cast 'unminding' (victim) 
+
+  This fearsome and barbaric spell once unleashed upon its victim begins
+to shred and twist the very fabric of the being's memories and experiences.
+The greater the sum of accumulated experience the greater the damage resulting
+from this terrible spell.  A side effect of this terrible unminding the victim
+loses all racial defenses against any sort of mental attack be it damage or a
+spell.
+
+ See also: HELP DOMINATION
+~
+
+#978
+-1 DRUGS DRUG HERBS HERB LEAVES~
+DRUGS DRUG HERBS HERB LEAVES
+
+Rolling dried leaves and herbs into a long tube, lighting it with a small
+flame, and then breathing in the smoke was first developed by the
+Druidic Order.  The rangers soon took up this hobby, and from them the
+rest of the world came to recognize the value of drugs.  Known as both
+a luxury and an aid in certain circumstances, there are nevertheless
+disadvantages in pursuing this activity.
+
+SEE ALSO: SMOKE, PRESERVE
+~
+
+#979
+-1 SMOKE~
+SMOKE
+
+Syntax: smoke (herbs/leaves)
+
+The act of inhaling the fumes given off by burning herbs and/or leaves,
+this is required for one to receive the benefits from a drug. 
+
+SEE ALSO: DRUGS, PRESERVE
+~
+
+#980
+-1 PRESERVE~
+PRESERVE
+
+Syntax: preserve (herbs/leaves)
+
+While those living in the forest could gather the plants as was needed,
+city-dwellers were not so lucky.  They found that the herbs collected
+from only a few days ago would quickly rot away into useless dirt.
+A solution was quickly found by the Thief Guilds.  Today,
+they are the only ones who know how to preserve drugs. 
+
+SEE ALSO: DRUGS, SMOKE
+~
+
+#981
+-1 EXOTIC~
+EXOTIC
+
+Syntax:  automatic
+
+These weapons are those which do not easily fall into any other
+category.  Often they are magical or strange items, or weapons 
+specific to some culture or profession.
+
+Exotics are more offensive then polearms, and easier to defend
+with then flails.  They disarm better then flails, shield-disarm
+better then whips, and are easier to disarm then whips.
+
+See also: HELP WEAPONS
+~
+
+#982
+-1 SWORD~
+SWORD
+
+Syntax:  automatic
+
+These weapons encompass all manner of blades which are more then
+10 inches in length including cutting or pointed blades. They are 
+the most common type of weapon found in the lands.
+
+Swords are more offensive then spears, and easier to defend
+with then daggers. They disarm better then daggers, shield-disarm
+better then spears and are easier to disarm then spears.
+
+See also: HELP WEAPONS
+~
+
+#983
+-1 DAGGER~
+DAGGER
+
+Syntax:  automatic
+
+These weapons include all types of blades under 10 inches in length
+such as knifes dirks, stilettos and daggers.  Blades may be single
+or double edged or pointed.
+
+Daggers are more offensive then staffs, and easier to defend
+with then maces. They disarm better then polearms, shield-disarm 
+worse then spears and are easier to disarm then polearms.
+
+See also: HELP WEAPONS
+~
+
+#984
+-1 MACE~
+MACE
+
+Syntax:  automatic
+
+These weapons relay on brute kinetic force to cause the damage
+and are more effective against armored foes then edged weapons.
+Maces, hammers and war-hammers belong to this category.
+Maces are identical to exotics in terms of offense and defense. 
+They disarm better then spears, shield-disarm better then staffs 
+and are easier to disarm then exotics.
+
+See also: HELP WEAPONS
+~
+
+#985
+-1 AXE~
+AXE
+
+Syntax:  automatic
+
+These weapons are usually composed of a chopping, weighted blade
+affixed to a haft, with a balanced weight or secondary blade
+opposite to the primary blade.
+
+Axes are more offensive then flails, and easier to defend with 
+then whips. They disarm better then staffs, shield-disarm better 
+then polearms and are easier to disarm then daggers.
+
+See also: HELP WEAPONS
+~
+
+#986
+-1 FLAIL~
+FLAIL
+
+Syntax:  automatic
+
+These weapons originate from the simple grain-thrashing farmer
+flail composed of two wooden parts bound by rope.  Military
+flails and morning stars usually include a round head chained
+to a haft or handle.
+
+Flails are more offensive then maces or exotics, and easier to 
+defend with then axes. They disarm better then swords, shield-
+disarm better then exotics and are easier to disarm then maces.
+
+See also: HELP WEAPONS
+~
+
+#987
+-1 WHIP~
+WHIP
+
+Syntax:  automatic
+
+These weapons maybe as simple as a length of leather or as
+devious as barbed cat-o-nine tail.  In proper hands their
+blow can easily shred hardened leather and be practically 
+impossible to avoid.
+
+Whips are more offensive and harder to defend with then axes.
+They disarm better then exotics, shield-disarm better then axes 
+and are harder to disarm then exotics.
+
+See also: HELP WEAPONS
+~
+
+#988
+-1 POLEARM GLAIVE~
+POLEARM
+
+Syntax:  automatic
+
+Polearms include lances, scythes, halberds and glaives.  In case 
+of the latter two they are composed of an axe like blade attached 
+to a long 6-8 foot haft and usually adorned with various hooks and
+barbs.
+
+Polearms are more offensive then swords, and easier to defend with 
+then spears. They disarm better then staffs, shield-disarm better 
+then maces and are easier to disarm then flails.
+
+See also: HELP WEAPONS
+~
+
+#989
+-1 STAFF~
+STAFFS
+
+Syntax:  automatic
+
+These simple weapons are often nothing then a length of wood
+cut to height of 3 to 6 feet.  More intricate variations with
+iron shod or bladed ends have also seen use.
+
+Staffs are less offensive then daggers, and easier to defend
+with then polearms.  They disarm better then mace, shield-
+disarm better then swords, and are easier to disarm then swords.
+
+See also: HELP WEAPONS, PUGIL
+~
+
+#990
+-1 SPEAR~
+SPEAR
+
+Syntax:  automatic
+
+These ancient weapons require only a long haft and a sharpened
+tip.  The length of the haft varies from short one handed spears
+to 21 feet pikes meant to halt cavalry charges.  Variations include
+awl-pikes and barbed spears.
+
+Spears are more offensive and easier to defend with then daggers.
+They disarm worse then maces, shield-disarm better then daggers and
+are easier to disarm then axes.
+
+See also: HELP WEAPONS
+~
+
+#991
+-1 FERAL FERALS~
+FERAL
+
+Through the taint of magic from a long since forgotten Arch-Mage a tribe of
+of people who lived not too far from the mages strong hold were used in
+experiments of this evil lord.  
+
+After hundreds of years of genetic manipulation, torture and mental assault
+on the minds of these people their bodies and minds began to evolve into a 
+more animalistic form.  With the physical change came mental changes as well.
+
+These people once known as the Ferishalli became known simply as "The Feral."
+
+A strong leader came to sit on the Feral's council and convinced the Feral to
+rise up against this dark arch mage and free themselves from his slavery and 
+torture.  The struggle was monumental.  Lasting but a few short hours the
+Feral eventually overcame the arch mage at a high price.  Nearly all had been
+destroyed and nearly wiped out completely.  The battle took men, women and
+children alike.  Leaving but a few of the younger of the tribe behind.
+
+Soon after the battle, the tribe disbanded.  Heated arguments over how best
+to run the tribe and who would be the new leaders broke this once strong and
+ancient people up.  Now, over the hundreds of years of freedom, Feral have
+become very bent on keeping their individual freedoms.  Tribe mentality all
+but washed from their way of thinking.
+
+Feral can be the following classes: 
+
+Warrior, Ranger, Thief, Cleric, and Shaman 
+
+See Also: HELP FURY, SENSE MOTION
+~
+
+#992
+-1 FURY~
+FURY
+
+Syntax: fury (target)
+
+ The feral, with their need for survival, have developed a way to utilize their
+emotion in combat. Combining their great fury with their blazing speed, they
+have been known to execute a blazing flurry of blows unto their opponent.
+These blows, typically targeted at the face, have the intent to terrify and
+confuse their opponents. Those affected by the strike have a difficult time
+concentrating on their spells and faith, as they must cope with the
+excruciating pain. A complex technique to execute, only those feral of 
+moderately high rank are able to utilize this maneuver. 
+
+See also: HELP FERAL
+~
+
+#993
+-2 ILLUSION~
+ILLUSION
+
+Syntax: automatic
+
+Being a more subtle focus, the path of Illusion is concentrated on the 
+manipulation of the senses and the indirect exploitation of the mind. 
+The following spells depend on arts of Illusion:
+
+  False Weapon
+  Shadow Door
+  Mirror Cloak
+  Numbness
+  Nerve Amp
+  Mirage
+  Blink
+  Duplicate
+  Spook 
+
+See also: HELP PSI FOCUS, ALTERATION
+~
+
+#994
+-2 Alteration~
+ALTERATION
+
+Syntax: automatic
+
+   Those psions who focus upon altering the state of matter and
+other people delve into this path of study.
+The following spells depend on arts of Alteration:
+
+  Time Compression
+  Planar Rift
+  Molecular Leash
+  Petrify
+  Paralyze 
+
+See also:  HELP PSI FOCUS, ILLUSION
+~
+
+#995
+-2 'Time Compression'~
+TIME COMPRESSION
+
+Syntax: cast 'time compression'
+
+  Manipulating the threads of temporal energies that surround this world,
+psions are able to speed up time as it relates to themselves.  Upon
+invoking this power, the Psions will be granted superhuman speed, and
+every attack he is normally capable of dealing will instead be dealt twice. 
+
+See also:  HELP ALTERATION
+~
+
+#996
+-2 'Planar Rift'~
+PLANAR RIFT
+
+Syntax: cast 'planar rift'
+
+  By unceremoniously rending a tear in the fabrics of reality, the Psions
+is able to create a blade-shaped plane of force with which he is able to use
+as if it were a weapon.  This blade is infinitely sharp, technically being
+composed of nothing but pure force, and is known to be particularly effective
+against undead opponents. 
+
+See also:  HELP ALTERATION
+~
+
+#997
+-2 'FALSE WEAPON'~
+FALSE WEAPON
+
+Syntax: cast 'false weapon' (type)
+
+In this simple trick, the Psions uses their mind to cloak their weapon. The 
+weapon, thus cloaked, appears to be of a different type. The sight of a Psion's
+measly stick suddenly being transformed into a bristling double-bladed waraxe
+has persuaded many opponents to choose other targets.
+
+See also: HELP ILLUSION
+~
+
+#998
+-2 'SHADOW DOOR'~
+SHADOW DOOR
+
+Syntax: cast 'shadow door' 
+
+A staple of the Illusionist's arsenal, the shadow door spell allows the 
+PSIONICSTS to trick their opponents while fleeing. The Psions appears to step
+through a black door, thus evading their opponent entirely whenever they choose
+to retreat. A skilled Psions also been known to flee right through any physical
+barriers. Upon fleeing, they immediately cloak themselves in an invisibility
+spell to make the illusion complete. 
+
+See also: HELP ILLUSION
+~
+
+#999
+-2 'Molecular Leash'~
+MOLECULAR LEASH		AMPLIFICATION: MEDIUM
+
+Syntax: cast 'molecular leash' 
+
+  This potent spell possesses the ability to stop it's victim dead in their
+tracks, literally.  When invoked upon someone, that person is bound to the
+caster by a line of super-dense air molecules lashed around their neck.  If
+the victim attempts to flee, the leash draws itself tighter around their neck,
+and prevents the attempted flight.  While short-lasted, this spell can be
+used to great effect when properly utilized.
+
+ See also:  HELP ALTERATION
+~
+
+#1000
+-2 petrify~
+PETRIFY
+
+Syntax: cast 'petrify'
+
+  Known by only the most powerful of psions, this viscous spell turns
+the victim into a lifeless statue in all aspects.  While under the effects
+of this alteration, the individual is completely and utterly helpless, unable
+to move, think, or perform any other action.  However, like the stone they
+are composed of, they are totally immune to all physical attacks.  This spell
+has never been known to fail, and once begun, this enchantment spells doom
+for almost everyone. 
+
+See also:  HELP ALTERATION
+~
+
+#1001
+-2 paralyze~
+PARALYZE
+
+Syntax: cast 'paralyze'
+
+  Those who possess this deadly power are thankfully rare in existence.  Upon
+casting, the fluids within the victim's body are frozen nearly solid, and
+normal movement becomes very difficult.  The effects of stunning attacks are
+increased upon a paralyzed victim, and unfortunately, this alteration lasts
+for a substantial amount of time.  As with other powers of it's circle, this
+spell possesses the ability to bypass any resistance or other protections the
+victim may have.
+
+ See also:  HELP ALTERATION
+~
+
+#1002
+-2 'MIRROR CLOAK'~
+MIRROR CLOAK
+
+Syntax: cast 'mirror cloak'
+
+ By focusing the powers of their mind, the Psions is capable of shrouding 
+themselves in a reflective field. This field causes any who choose to view the 
+caster to see themselves instead. This includes all physical properties and
+magical auras surrounding the person being reflected. 
+
+See also: HELP ILLUSION
+~
+
+#1003
+-2 'NERVE AMP'~
+NERVE AMP	AMPLIFICATION: STRONG
+
+Syntax: cast 'nerve amp' (target)
+
+By strengthening certain signals sent throughout the body, a skilled Psions is
+capable of altering their opponent's perception of pain. While thus affected 
+the opponent will start to feel the wounds of battle earlier, and will
+typically be panicked into a hasty retreat. This is the reverse of the numbness
+illusion. 
+
+See also: HELP ILLUSION
+~
+
+#1004
+-2 'NUMBNESS'~
+NUMBNESS	AMPLIFICATION: STRONG
+
+Syntax: cast 'numbness' (target)
+This illusion causes the target's nervous system to slow down. The thus
+affected will be slow to feel any pain received in battle, and an insidious
+Psions will be capable of making them commit longer than their bodies can
+handle. This is the reverse of the nerve amp illusion. 
+
+See also: HELP ILLUSION
+~
+
+#1005
+-2 'MIRAGE'~
+MIRAGE		AMPLIFICATION: WEAK
+
+Syntax: cast 'mirage' 
+
+By creating multiple illusions around them, a Psions is capable of fooling
+their opponents in combat. Even the most skilled warriors are overwhelmed as a 
+multitude of weapons strike at them, never knowing which one is real. This
+allows the Illusionist to easily slip in and hit the confused opponent. 
+
+See also: HELP ILLUSION
+~
+
+#1006
+-2 'DUPLICATE'~
+DUPLICATE
+
+Syntax: cast 'duplicate'
+
+A very complex spell, the Duplicate illusion is used to create a perfect
+replica of another being. Once formed, the being will aid the caster in combat.
+The replica is so perfect that the illusion is fully capable of harming real
+objects. 
+
+See also: HELP ILLUSION
+~
+
+#1007
+-2 'SPOOK'~
+SPOOK		AMPLIFICATION: MEDIUM
+
+Syntax: cast 'spook' (target)
+
+ A powerful Psions is capable probing the inter reaches of the mind and 
+extracting the greatest fears of a person. By melding these fears together,
+they are capable of creating an apparition to torment their foe. This foe,
+only visible by the affected, is so disturbing that even hardened soldiers have
+been known to panic in an attempt to retreat. 
+
+See also: HELP ILLUSION
+~
+
+#1008
+-1 'ARMY PROMPT'~
+ARMY PROMPT
+
+Syntax: army [last]
+
+ The army command toggles your army command mode on and off.  Using the
+last keyword will automatically zoom in on the room of the last army report. 
+
+ Recruits in cabal: decreased as members conscript, increased with time
+  |  Regular units in your barracks: [C]onscripted
+  |  | Elite units in your barracks: [T]rained from normal units
+  |  | |          Barrack Orders  Current Map Number
+  V  V V             |                |  
+( 9: 2.3 )[APHGFB]-[CTR]-[ZMOQ]-[?] Map#7 : The Greate Wastes of Thule   
+             |             |                      |
+      Unit orders      Info Commands       Current map name
+ 
+See Also: HELP ARMY, ARMY COMMANDS
+~
+
+#1009
+-1 'physical perks'~
+PHYSICAL PERKS
+
+While similar to size perks, this category focuses on perks that effect
+not your size, but your physical characteristics.  Healing capacity, mental
+capacity and even physical health are possible choice you can make. 
+
+Healthy:
+You're an example of perfect health.  You heal faster then normal. 
+
+Sickly:
+You cough, wheeze, and learn faster then your peers. 
+
+Stout:
+You're healthier then normal, but your mana reserves are smaller. 
+
+Nimble:
+You can carry more items then normal, but you're weaker then normal. 
+
+See Also:  PERKS
+~
+
+#1010
+-1 'training perks'~
+TRAINING PERKS
+
+ Whether it was in a stuffy library or in the great outdoors, this branch
+of perks reflects changes made by years of diligent study.  The studious
+mage and the keen-eyed scout are possible choices here.
+ 
+Bookworm:
+Your love of books has paid off.  You are a master at reading scrolls.
+
+Athletic:
+Your athletic build make you stronger and more accurate then others. 
+
+Artificer:
+Your knowledge about magical artifacts, orbs and staves knows no equal. 
+
+Tinkerer:
+You own Brambusworks VIP scroll.  Your skill with wands is unmatched. 
+
+Eagle-eye:
+Your perfect eyesight allows you to scan and scout over longer distance. 
+
+See Also:  PERKS
+~
+
+#1011
+-1 'social perks'~
+SOCIAL PERKS
+
+Everyone loves a healthy smile.  Everyone loathes a bully.  This group
+of perks indicates a certain talent, be it for good or ill, that tends
+to get people to do what you want them to do. 
+
+Charismatic:
+You are a natural charmer and a master at haggling. 
+
+Fearsome:
+Your fearsome appearance makes creatures less aggressive. 
+
+Greedy:
+Avarice is your middle name.  You avoid paying bank transaction fees. 
+
+See Also:  PERKS
+~
+
+#1012
+-1 'addiction perks'~
+ADDICTION PERKS
+
+Face it, mortals have their weaknesses, and noone knows that better than
+you.  Whether it is in a bottle or a pipe, you lose yourself in your
+substance of choice, and have grown a tolerance to it. 
+
+Alcoholic:
+You love all things spiritual and ignore negative effects of alcohol.  
+
+Addict:
+You love all things chemical and resist negative effects of drugs.  
+
+See Also:  PERKS
+~
+
+#1013
+-1 'spiritual perks'~
+SPIRITUAL PERKS
+
+ If one thing is for certain in this world, it is that there are forces
+beyond your comprehension at work.  You have seen this as a global truth,
+and have either embraced or denied this.  Maybe you have the knack of
+being in the right place at the right time or vice versa.  Either way,
+someone is pulling string for you. 
+
+Lucky:
+Lady Luck fancies you.  Your luck tends to run higher then average.  
+
+Unlucky:
+Jinx is your middle name but you tend to grow healthier with ranks.
+
+Pious:
+Your faith has no equal.  Gods give you with more gold for sacrifices. 
+
+Magical:
+Your mana resources are greater but you're less healthy then normal. 
+
+See Also:  PERKS
+~
+
+#1014
+-1 AMATHE~
+Amathe (AH-muh-thay)  Goddess of Love, Healing, Hearth; Halflings 
+
+Alignment:  Neutral Good
+Colors:     Red and brown
+Symbol(s):  Hearth, white moon (Maete)
+Raiment:    Red robes
+Temple:     Hall
+Holy Day(s):Midsummers Fest, Night of Goodwill, full moons (Maete)
+Sacrifice:  Food, Money
+Animal:     Dog
+Avatar:     A short, plump apple-cheeked woman wearing an apron
+
+  Amathe is the wife of Beronor and the mother of the Gods of 
+Weal.  It is she who is ever ready to offer healing and rest to her 
+husband and children in their struggles against the Lords of Strife.  
+Often she has healed the other gods as well, including the ones bent on 
+causing harm.
+
+  Temples of Amathe are found in many areas and all are devoted to 
+healing and helping the less fortunate.  Offerings given to the goddess 
+are used to feed and clothe the poor.  Many of her clerics are pilgrims 
+and travel the countryside, dispensing aid to all who need it.
+
+  Clerics of Amathe are the most revered of all their brethren for 
+the works they do.  They must always seek to aid those in need, even (or 
+especially) at their own expense.  They may fight if necessary but only in 
+self defense.
+~
+
+#1015
+-1 BERONOR~
+Beronor  (BARE-roh-nor)  God of the Sun, Light, Weal 
+
+Alignment:  Neutral Good
+Colors:     White and gold
+Symbol(s):  Sunburst
+Raiment:    White robes with gold trim
+Temple:     Hall with gold dome
+Holy Day(s):Summer Solstice, other equinoxes and solstices
+Sacrifice:  Golden items
+Animal:     Lion
+Avatar:     Middle-aged man with golden skin and flaming crown
+
+  Beronor, the Father, is the predominate deity of good and 
+the father of many of the other Gods of Weal.  They strive against the 
+plots of his brother, Morgorin, and that deitys lineage, known as the 
+Lords of Strife.  Beronor and Morgorin are the highest order of deities 
+short of the Primal Ones.
+
+  Temples built to honor Beronor vary in structure but all share a 
+similar feature: a great golden dome topping the innermost sanctuary.  The 
+domes are pierced in such a way as to allow the sun to shine into the 
+temple on the solstices and equinoxes.  The motions of the sun are thought 
+to reflect the gods struggle against his dark brother.
+
+	Clerics of Beronor are well known for their zeal in rooting out 
+and destroying evil.  
+~
+
+#1016
+-1 EJAMINA~
+Ejamina  (eh-djuh-MEEN-uh)  Goddess of Forests, Animals, Hunting 
+
+Alignment:  Neutral
+Colors:     Green and silver
+Symbol:     Bow with nocked arrow
+Raiment:    Green robes
+Temple:     Grove of trees or forest
+Holy Day(s):Solstices and equinoxes
+Sacrifice:  Animal
+Avatar:     A green-skinned woman in huntsman garb carrying a bow
+
+  Ejamina is the Mistress of the Hunt and the Forest Mother, 
+the second youngest of the Five Sisters of the World.  She roams the 
+forests eternally, sometimes in the company of Arondos, and cares little 
+of the affairs of men.
+
+  Because of her neutral alignment, druids usually act as her priesthood.  
+They built sacred groves of trees dedicated to her and within these occur 
+her rites.  
+     
+~
+
+#1017
+-1 FELANA~
+Felana  (FAY-lahn-na)  Goddess of Air, Sky, Wind 
+
+Alignment:  Chaotic Good
+Colors:     White and blue
+Symbol:     White cloud against a sky blue background
+Raiment:    White shawl and blue kilt
+Temple:     Pillared circle open to the sky
+Holy Day(s):None specific
+Sacrifice:  Birds, items of silver
+Animal:     Hawk
+Avatar:     Silver-haired woman clad in silver armor astride a cloud horse
+
+  Felana is the second oldest of the Five Sisters of the 
+World, the daughters of Gaemina who created Mirlan.  Where the rest of the 
+sisters are either unconcerned with men or oftentimes hostile, she is a 
+protector of them.  Of the Elemental Gods, only she is of good alignment.
+
+  Temples to Felana are built as high as possible, mountains being 
+especially desirable locations.  Many of her ceremonies involve the 
+simultaneous release of hundreds of birds because of this, seeing a flock 
+of rising birds is proof that the goddesss attention is nearby.	Clerics of
+Felana tend to be adventurers and, like the wind they serve, move freely about.
+~
+
+#1018
+-1 IXTAROS~
+Ixtaros  (icks-TAHR-rohss)  God of War, Slaughter, Vengeance 
+
+Alignment:  Chaotic Evil
+Colors:     Red and bronze
+Symbol(s):  Severed head over two jagged spear blades, red moon (Ixtare)
+Raiment:    Bare-chested with bronze greaves and red kilt
+Temple:     Hall
+Holy Day(s):Full red moon (Ixtare)
+Sacrifice:  Battle captives or weapons and armor
+Animal:     Tiger
+Avatar:     Black skinned bare-chested man with the head of a tiger, carrying 
+            a bronze spear and riding in a chariot drawn by two tigers.
+
+  Ixtaros is the son of Morgorin and Veshalma and is the father of the Lords
+of Strife.  Ixtaros is responsible for war in all its barbarous fury and
+bloodletting, unlike Tiradels code of chivalry and honor.  Ixtare, the red
+moon created by Sahaeyeh, was taken in battle by Ixtaros and now proclaims
+his power to the heavens.
+	
+  Temples to Ixtaros vary but many include means of viewing Ixtare 
+at its fullness.  Nearly all the humanoid races worship Ixtaros as their 
+patron deity, especially the more warlike ones, like gnolls and hobgoblins.
+Human sacrifice is very common among such tribes. Clerics of Ixtaros are
+expected to be in the thick of battle.  
+~
+
+#1019
+-1 LOJANI~
+Lojani  (LOH-jahn-nee)  Goddess of Fresh Water, Rivers, Rain 
+
+Alignment:  Neutral
+Colors:     Blue and green
+Symbol(s):  Waterfall or vessel emptying water
+Raiment:    Nude
+Temple:     Always incorporating a natural body of water
+Holy Day(s):Solstices and equinoxes
+Sacrifice:  Items of value tossed into a holy body of water
+Animal:     Fish
+Avatar:     A young woman whose green hair covers her bare upper body, her
+            lower half being a column of water.
+
+  Lojani is the youngest of the Five Sisters of the World and, like her sister
+Ejamina, more concerned with nature than with mankind proper.  Unlike the rest
+of the Elemental Deities, her sphere of water is divided with her sister
+Veshalma, who rules over the salt waters of the world.
+
+  Temples to Lojani always have a sacred body of water near them, be it a pond,
+lake, or river.  Within this holy pool, the most sacred rites are performed by
+her druidic priesthood.  
+~
+
+#1020
+-1 MARKUL~
+Markul  (MAHR-kul) -- God of Time, Truth, and LAW (Greater Deity)
+
+Alignment:  Lawful Neutral
+Colors:     Purple and copper
+Symbol(s):  Scales or Hourglass, also star and crescent (Astrelas)
+Raiment:    Purple robes, copper skullcaps, and beards for men
+Temple:     Symmetrical building with copper dome
+Holy Day(s):Night of Sorrow; 7th and 23rd of each month
+Sacrifice:  Valuables, criminals (rare)
+Animal:     Tarqin Bird
+Avatar:     An old balding bearded man, tall and thin, clad in robes and 
+            bearing a scale or hourglass
+
+  Markul is the primary God of LAW and Time and to a lesser degree 
+Order and Stability.  He is the foremost deity of Lawful Neutral and the 
+oldest of the greater deities except Pajumet.  Markul is the father of 
+Amathe through Pajumet and is himself descended from Gaemina and Noirylz, 
+the Form.  His primary duty is to settle the disputes of the other gods 
+and to keep the universe running smoothly forward.
+	
+  Markul is worshipped in temples, whose structure reaches their zenith in
+Astrelas.  The temples are built cross-shaped and are surmounted by copper
+domes and are decorated with many geometric symmetrical patterns.  It is
+also common for courthouses and other places of justice to be used for the
+worship of the deity.
+~
+
+#1021
+-1 MORGORIN~
+Morgorin (MOR-gur-in)  God of Death, Misery, Evil 
+
+Alignment:  Neutral Evil
+Colors:     Black and gray
+Symbol(s):  Skull
+Raiment:    Black cowled robe, high priests wear skull mask
+Temple:     Underground hall
+Holy Day(s):Nights of the One Lamp, winter solstice, new moon 
+Sacrifice:  Innocents
+Animal:     Vulture
+Avatar:     Black robed and cowled skeletal figure
+
+  Morgorin is the personification of all the evil in the world as well as being
+the Lord of the Dead.  He is one of the four great deities of Mirlan, being the
+brother of Beronor and half brother to Pajumet and Markul.  Morgorin is active
+among mortals, sowing evil and discord among them, directly as well as
+directing his numerous servants.  The followers of Beronor, Rasazra, and Tiradel
+actively oppose many of his schemes yet his plots are everywhere.
+
+  The worship of Morgorin usually takes two forms.  For most people, he is a god
+to be feared and placated, thus those not of evil alignment honor him in his
+role as guardian of the dead.  Others serve him directly as the Evil One, hoping
+for power and favor.  Ceremonies to Morgorin are held in underground temples,
+oftentimes located within cities or their burial grounds.
+~
+
+#1022
+-1 PAJUMET~
+Pajumet  (Paa-JOO-met)  Goddess of Fate, Luck, Chance 
+
+Alignment:  Chaotic Neutral
+Colors:     Red and silver
+Symbol(s):  Dice and cup
+Raiment:    Red robes
+Temple:     Hall
+Holy Day(s):Varies
+Sacrifice:  Valuables and treasure
+Animal:     None
+Avatar:     Old woman in raiment shifting from rich to poor, always in 
+            possession of one or more gambling devices
+
+  Pajumet is the one of the oldest gods and most powerful.  In ranking order
+she is found with her brother Markul just below the Primal Ones, making her one
+of the four strongest Greater Deities.  She has many worshippers, but is, as is
+to be expected, a fickle goddess, and bestows luck on both sides capriciously.
+
+  Temples to Pajumet are usually located in cities or towns as opposed to the
+lonely countryside.  Dedicated to randomness, her priests are as likely to
+hinder as to help.  
+~
+
+#1023
+-1 SAHAEYEH~
+Sahaeyeh (Suh-HI-yeh)  God of Earth, Smithing, Craftsmen; Dwarves 
+
+Alignment:  Lawful Neutral
+Colors:     Brown and gold
+Symbol(s):  Hammer and anvil enclosed by a triangle
+Raiment:    Leather apron, hammer
+Temple:     Underground cavern with forge
+Holy Day(s):All full and new moons
+Sacrifice:  Crafted items of great skill or value
+Animal:     None
+Avatar:     A huge, immensely muscled dwarf clad in breeches and an apron
+
+  Sahaeyeh is the master craftsman, the builder of all nonliving things.  He,
+along with his siblings the Five Sisters of the World were given responsibility
+for the continued creation of Mirlan by their mother, Gaemina.  While his
+sisters made things of nature and life, Sahaeyeh forged the great treasures of
+Mirlan: mountains, gemstones, and precious metals.  When Sahaeyeh first lit his
+forge to begin his work, a bit of Primal creation leapt out and became
+Tzaelcos, the God of Destruction, and the bane of all Sahaeyehs work.  Ever
+these two gods make and destroy and their clerics continue on this eternal
+struggle.  This is represented in the cycle of the moons, which Sahaeyeh built
+and Tzaelcos attempts to destroy.  
+
+Sahaeyeh is the Father of the Dwarves, for when his sisters brought forth life
+he became jealous of a craft he did not have and smithed the dwarves in his
+forge.
+
+  Mountains and caverns are holy to Sahaeyeh and his temples are only found in
+such locations.  Great treasures are given to sacrificial fires in the temple
+forges during the full moons in celebration of Sahaeyehs skill and during new
+moons to aid him in rebuilding them.
+~
+
+#1024
+-1 TZAELCOS~
+Tzaelcos  (TSILE-coss)  God of Fire, Destruction, Malice; Fire Giants
+
+Alignment:  Chaotic Evil
+Colors:     Red and yellow
+Symbol(s):  Fireball enclosed in a triangle
+Raiment:    Red and yellow robes with symbol on chest
+Temple:     Hall with great fire
+Holy Day(s):New moons
+Sacrifice:  Beautiful items
+Animal:     None
+Avatar:     Being composed of flames wearing black iron armor and carrying a 
+            two-handed sword
+
+  Tzaelcos is an anomaly among the gods as he was not sired or  created by the
+other deities, but instead leapt fully formed from Sahaeyehs forge when it was
+first stoked.  Since then he has ever been at odds with him, seeking to destroy
+all that the God creates and this is represented in the cycle of the moons.
+
+  Places of worship for Tzaelcos always have great raging fires in their center
+and the holiest places are in the inferno of the earth.  Offerings to the god
+are tossed into the roaring flames to be consumed and are most often made to
+avert the gods anger.
+~
+
+#1025
+-1 VESHALMA~
+Veshalma  (Vay-SHAL-muh)  Goddess of Weather, Oceans; Storm Giants
+
+Alignment:  Chaotic Neutral
+Colors:     Blue and Black
+Symbol(s):  A wave surmounted by a storm cloud with a trident superimposed 
+            over all
+Raiment:    Either robes of blue and black or bronze plate mail armor
+Temple:     Hall located near the sea
+Holy Day(s):Varries
+Sacrifice:  Valuables, animals, humans (rare)
+Animal:     Shark and dolphin
+Avatar:     A young child with fair hair swimming with a dolphin (peaceful) 
+            OR a ancient crone in bronze plate mail carrying a trident and
+            riding on the back of two sharks (angered)
+
+  Veshalma is a deity of dualities and is, owing to this, the most capricious
+deity of Mirlan with the exception of her mother Pajumet.
+  
+Veshalma is the oldest of the Five Sisters of the World but shares the element
+of Water with her youngest sister Lojani.  Veshalma is herself divided, at
+turns helping men with fair weather and cursing them with foul.  She is both
+feared and loved by sailors, who accord her the greatest respect.
+	
+  Temples of Veshalma always are found on the edge of the sea, usually with
+their sacred areas open to the surf.  The most frequent worship of the
+Sea Mother is from the decks of ships as their crews beseech her for good
+weather.  Offerings to her are dropped into the deep.  The spotting of dolphins
+is a good omen just as the presence of sharks bodes ill.
+~
+
+#1026
+-1 WUZAMULI~
+Wuzamuli  (WOO-za-mool-ee)  Goddess of Disease, Pestilence, Famine
+
+Alignment:  Neutral Evil
+Colors:     Black and green
+Symbol(s):  Leering rat head
+Raiment:    Filthy robes of black and green
+Temple:     Hall
+Sacrifice:  Animals
+Holy Day(s):New moon (Maete)
+Animal:     Rat
+Avatar:     Obese rat-headed nude woman covered with oozing sores and hordes 
+            of rats licking at her
+
+  When Mirlan was first formed it was a paradise for there was no sickness or
+pain but the world was out of balance and Morgorin demanded his due.  Gaemina
+created two new offspring, Wuzamuli and Bracc to correct the world to ensure
+that it endured.  So Wuzamuli moves among men, sowing death in the form of
+plagues, pestilence, famine, and other horrors.  
+
+  Few mortals actively worship such a horrid goddess and yet temples to her
+are not uncommon, for many seek to avert her from their lives.  Temples to her
+are filthy and foul and vermin crawl everywhere.
+~
+
+#1027
+-1 WYIHEMI~
+Wyihemi  (Wye-HAY-mee)  Goddess of Fertility, Birth, Harvest 
+
+Alignment:  Neutral Good
+Colors:     Green and brown
+Symbol(s):  Sheaf of grain
+Raiment:    Nude
+Temple:     Hall
+Sacrifice:  Food, wealth
+Holy Day(s):Autumnal Equinox, New Years Day
+Animal:     Goat
+Avatar:     Woman in peasant garb with sickle
+
+  Wyihemi is responsible for the cycle of the continuation of life.  She is a
+favored goddess and much revered among peasants.  She is the middle child of
+the Five Sisters of the World and is at great odds with her other sister
+Wuzamuli.
+
+  Fertility rites are the staple form of worship for this deity and while
+temples to her do exist, the majority of rituals occur in open fields.
+Permanent structures for worship always have crops growing nearby as well as
+livestock.  Clerics of Wyihemi are in great demand for the blessing of
+children, fields, and livestock.
+~
+
+#1028
+-1 ARONDOS~
+Arondos  (uh-RON-dose)  God of Art, Music, Poetry; Elves (Lesser God)
+
+Alignment:  Chaotic Good
+Colors:     Yellow and green
+Symbol(s):  Lyre or harp
+Raiment:    Any
+Temple:     Small shrines
+Sacrifice:  Works of great originality and beauty
+Holy Day(s):Nights of the Three Lamps, Night of Goodwill
+Animal:     Songbird
+Avatar:     A merry young man clad in the fashion of a wandering minstrel 
+            with a songbird perched on his shoulder
+
+  The youngest son of Beronor and Amathe, Arondos is a merry wanderer, roaming
+the world creating and find new songs and poems.  Although a God of Weal, he
+lacks the crusading zeal of his older brother Tiradel.  Although Ejamina is not
+his wife, they sired the race of elves together, though Arondos is generally
+seen as the patron of elves, not Ejamina.
+
+  The worship of Arondos occurs in many places and it is uncommon to have
+centers of worship larger than a shrine alongside some dusty road.  Most of his
+clerics have the same wanderlust as their god and spend their lives traveling
+throughout the lands.  There is a great kinship between the clerics of Arondos
+and Dormicc and they often journey together.
+~
+
+#1029
+-1 BRACC~
+Bracc (BRAK)  God of Winter, Cold, Ice
+
+Alignment:  Lawful Evil
+Colors:     Blue and silver
+Raiment:    Chainmail hauberk, decorative open-faced helm and battle-ax
+Temple:     Great hall
+Sacrifice:  Wealth, animals
+Holy Day(s):Winter Solstice, Spring Equinox
+Animal:     Wolf
+Avatar:     A frost giant with a double-bitted ax and two wolves alongside
+
+  When the world was first being formed, there was neither cold nor winter:
+all was paradise.  Morgorin was angered for not receiving a portion of Mirlan.
+His mother Gaemina, understanding her son and realizing all could not remain as
+was created, made Bracc to bring winter and death for part of year, thereby
+placating the Death God.  So it is each year at the winter solstice that Bracc
+is freed to roam Mirlan but must depart with the spring equinox.
+
+  Temples of Bracc of great halls, cold and drafty, with lofty ceilings and can
+be found most anywhere in the northern reaches of Darengal.  They are active
+mostly during the winter months though the god is honored all year long.
+Clerics of Bracc seek to aid their deity in bringing ice and cold to the world
+that he might wander longer each year.
+~
+
+#1030
+-1 DABYULA~
+Dabyula  (duh-BYOO-luh)  God of Magic, Dreams, Foresight (Lesser God)
+
+Alignment:  Lawful Neutral
+Colors:     Red and purple
+Symbol(s):  A six pointed star inside a circle (hexagram) with primary or 
+            secondary color in each arm and an open eye in its center atop a
+            staff, the blue moon (Yulate)
+Raiment:    Red robes with purple trim
+Temple:     Hexagonal hall
+Sacrifice:  Magic items
+Holy Day(s):Midsummers Eve, phases of the blue moon (Yulate)
+Animal:     Owl
+Avatar:     An owl-headed robed man with a third eye, holding a rod and wand
+
+  Dabyula is the god of mysticism in the forms of magic and dreams and is the
+offspring of Sahaeyeh and Syithe.  Dabyula is deeply concerned with mankind and
+sends visions and portents in the form of dreams or omens often.  Without 
+Dabyula the races would not have the ability to work magic for it was he who
+gave them that gift.
+
+  The holiest night for Dabyula is Midsummers Eve, when the magical powers of
+Mirlan are at their height.  Many great items are crafted on this evening and
+clerics of Dabula are required for the blessing of them.  Because of this, it
+is not unusual to find many clerics who are also skilled in the magical arts.
+~
+
+#1031
+-1 DORMICC~
+Dormicc  (DOHR-mick)  God of Travel, Quests, Adventures 
+
+Alignment:  Chaotic Good
+Colors:     Brown and blue
+Raiment:    Well-worn boots and hood
+Temple:     Small shrines at crossroads and other areas in the countryside
+Holy Day(s):New Years Day
+Sacrifice:  Pilgrimages
+Animal:     Horse
+Avatar:     A young man in worn and stained pilgrims clothes and high boots, 
+            leading a horse
+
+  Dormicc is one of the youngest gods and was not born in the usual manner, but
+was created by Felana and Lojani to wander Mirlan and protect those who do
+likewise.  Dormicc disdains cities and towns, instead preferring to roam the
+wilderness aiding fellow travelers in need.
+
+  Because of this wanderlust, temples of the Wandering God are small and
+located in wild areas away from civilization.  Few are staffed but all offer
+hospitality for they are kept well stocked with food, water, and fuel for those
+who require them.  It is not unusual to find clerics of Dormicc traveling with
+those of Arondos.
+~
+
+#1032
+-1 HOIWINAS~
+Alignment:  Chaotic Neutral
+Colors:     Purple and silver
+Symbol(s):  Wine jug (amphora), cluster of grapes, drinking vessel
+Raiment:    Purple robes with a vine circlet
+Temple:     Hall
+Holy Day(s):Nights of the Three Lamps, Autumnal Equinox
+Sacrifice:  Wine, vessels of precious metals and gems
+Animal:     Crow
+Avatar:     A cheery plump satyr wearing a crown of grapes and vines, bearing
+            an amphora
+
+  Hoiwinas is the eldest son of Sahaeyeh and Madshem and is the patron of the
+wild passions of men, embodied in wine and lust.  He is ever active among men
+and a jealous god; those that slight him suffer the effects of wine madness.
+Thus, those wise enough to keep him in good humor pour a little wine for the
+god.
+
+  Houses of worship to Hoiwinas are found mainly in cities but small shrines
+dot the countryside where grapes grow and wine is made.  These sites are the
+scenes of frenzied worship during the Nights of the Three Lamps, gluttonous
+eating, drinking and coupling being the center of the rites.  There is great
+enmity between the followers of Rasazra and Hoiwinas.
+
+  The priests of Hoiwinas tend to be plump and overindulgent from dutiful
+worshipping. 
+~
+
+#1033
+-1 IMAJU~
+Imaju  (EE-muh-joo)  Goddess of Jealousy, Lies, Deception; Reptiles 
+
+Alignment:  Chaotic Evil
+Colors:     Green and white
+Symbol(s):  Adders head with forked tongue prominent
+Raiment:    Kilt of green and white cloth, bare chests and shaved heads
+Temple:     Hall
+Holy Day(s):Varies
+Sacrifice:  Persons or items of great beauty
+Animal:     Snake
+Avatar:     An enormous serpent with a beautiful womans head
+
+  Imaju is ruler of lies and falsehood and spreads discord in the world of
+men.  Despite being the daughter of Ixtaros and Veshalma, her preferred methods
+are subtle and indirect and she is the patron of all those who require such for
+success.  There is great animosity between the followers of Markul and the Lady
+of Lies.
+
+  Like many of the other Lesser Gods, there are few days specifically set aside
+for worship; instead worship tends to occur when needed or desired.  The focal
+point for all worship is a huge serpent or snake-like being
+(nagas, yuan ti, et al.) and human sacrifices, when offered, always consist of
+the offerings being consumed by this creature.
+
+  Clerics of Imaju are consummate liars and deceivers and are quite adroit at
+trickery and deception, both mundane and magical.  
+~
+
+#1034
+-1 JOLMA~
+Jolma  (JOHL-muh)  Goddess of Pain, Suffering, Torture
+
+Alignment:  Lawful Evil
+Colors:     Gray and purple
+Symbol(s):  Coiled whip
+Raiment:    Robes
+Temple:     Hall
+Holy Day(s):Nights of the One Lamp
+Sacrifice:  Humans, self-mortification
+Animal:     None
+Avatar:     A beautiful young woman with translucent skin dressed in flowing
+            garments
+
+  Jolma is one of the Lords of Strife and the wife of Bracc.  She delights in 
+the misery of humankind and is active in the affairs of mankind.  Jolma and
+Bracc are especially active during the winter months, stalking the land and
+taking grim delight in its hardships.
+
+  There are few temples dedicated to this goddess as few choose to honor such
+a deity.  However, small shrines to her abound in evil lands and near those who
+require her attention, mostly executions and torturers.
+~
+
+#1035
+-1 MADSHEM~
+Madshem (MAD-shem)  Goddess of Merriment, Friendship, Ale; Gnomes 
+
+Alignment:  Neutral Good
+Colors:     Yellow and purple
+Symbol(s):  Two tankards touching
+Raiment:    Garish clothing (motley)
+Temple:     Hall
+Holy Day(s):Nights of the Three Lamps, Night of Goodwill, Autumnal Equinox
+Sacrifice:  Ale and beer, valuable items
+Animal:     Otter
+Avatar:     Short, matronly woman with a mirthful face
+
+  Madshem is the daughter of Beronor and Amathe and thus counted as one of the
+Gods of Weal, though she doesn't carry on that struggle as much as some of her
+siblings do.  She is the wife of Sahaeyeh and the mother of Hoiwinas and Rhuma;
+gnomes reckon her the mother of their race.
+
+  Temples to this goddess can be found in many locations, including the fields,
+for she often serves as a second goddess of the harvest.  On the evenings of
+festivals her temples are full of merry-makers but they are much more sedate
+than the followers of her son Hoiwinas.	Clerics of Madshem are expected to move
+among people and extol the virtues of friendship and laughter.
+~
+
+#1036
+-1 MOIWEN~
+Moiwen  (MOY-wen)  Goddess of Spring, Peace
+
+Alignment:  Lawful Good
+Colors:     White and brown
+Symbol(s):  Open hands palm in palm, laurel wreath
+Raiment:    White robes and laurel wreath circlets
+Temple:     Hall
+Holy Day(s):Night of Sorrow, Spring Equinox
+Sacrifice:  Weapons of war
+Animal:     Dove
+Avatar:     Young girl in white robes with a pair of doves sitting on her 
+            shoulders
+
+  Moiwen is the youngest child of the Gods of Weal.  She oversees the coming of
+spring and the peace it brings.  She is gentle and calm and constantly advises
+her siblings to turn from violence in the course of their struggles with the
+Lords of Strife.  
+
+  Temples to Moiwen are prevalent in many areas and are inviolate, offering
+shelter and clemency to all.  Secular authorities violate the sanctuaries of
+Moiwen at great risk.  As a result her temples are usually crowded with the
+needy and dispossessed.	Clerics of Moiwen are expected to be pacifists and not
+to fight except in dire need and then only to subdue, never kill, even at the
+expense of ones own life.
+~
+
+#1037
+-1 RASAZRA~
+Rasazra  (ruh-ZAHZ-ruh)  Goddess of Purity, Virtue, Sacrifice
+
+Alignment:  Lawful Good
+Colors:     White and silver
+Symbol(s):  Lock
+Raiment:    Silver trimmed white robes, loose hair
+Temple:     Hall
+Holy Day(s):Night of Sorrow, Full Moon (Maete)
+Sacrifice:  Items of great personal value, chastity, fasting
+Animal:     Unicorn
+Avatar:     A beautiful young maiden, clad in a white diaphanous robe with 
+            flowing blond hair with a unicorn
+
+  Rasazra, daughter of Amathe and Beronor, is the goddess of spiritual strength
+and purity.  She and her brother Tiradel are also the gods responsible for
+knighthood among men; indeed knights are often considered the children of these
+two gods, for they have no other offspring.  As a lesser deity, her primary
+concern is the world of men and their spiritual strength.
+
+  Temples to Rasazra are uncommon as she is primarily worshipped individually.
+However many orders of knighthood hold her as their patron deity, especially
+those that number paladins among their number.  A common vow for those who hold
+this deity as their patron is `!celibacy`` and this is a requirement among her
+clerics.  She is very strict about this requirement.  Those that would follow
+her are severely punished for breaking this sacred doctrine.
+~
+
+#1038
+-1 RHUMA~
+Rhuma  (RHOO-muh)  God of Wealth, Trade, Merchants 
+
+Alignment:  Neutral
+Colors:     Gold and gray
+Symbol(s):  Gold wagon wheel or coin
+Raiment:    Vestments richly embroidered in gold
+Temple:     Wheel-like structure with spire in center
+Holy Day(s):Nights of the Three Lamps, Autumnal Equinox
+Sacrifice:  Wealth
+Animal:     Mule
+Avatar:     A middle-aged fat man dressed in golden garments
+
+  Rhuma is the younger child of Sahaeyeh and Madshem and brother to Hoiwinas.
+Like his father, Rhuma is concerned with the material aspects of life,
+especially wealth and is a favored god within mercantile cities.  Although
+Rhuma is true neutral, his clerics may be of any neutral alignment this is the
+only deity where this is possible.
+
+  The worship of Rhuma is centered in his temples, which resemble great wagon
+wheels.  The inner hub is the sanctuary and is topped with a great golden
+spire.  A market is usually built in front of his temples, allowing the god to
+see all that transpires.  Clerics of Rhuma are consummate traders and hagglers.  
+~
+
+#1039
+-1 SYITHE~
+Syithe (SIGH-thay)  Goddess of Night, Shadows, Secrets 
+
+Alignment:  Neutral Evil
+Colors:     Black and purple
+Symbol(s):  An eye open or closed
+Raiment:    Completely hooded robe, either black or purple (high priests)
+Temple:     Hidden underground hall
+Holy Day(s):Nights of the One Lamp, Winter Solstice
+Sacrifice:  Wealth
+Animal:     Bat
+Avatar:     A cloaked female with an empty cowl
+
+  Syithe is the one of the daughters of Ixtaros and Veshalma and a Lord of
+Strife, though she is not as active in her plotting as some of her kindred.
+She is a shadowy figure, preferring like her sister Imaju to work her will in
+subtle ways.  She, in order to give birth to her son Dabula, seduced Sahaeyeh
+on the eve of his marriage to Madshem.
+
+  Temples of Syithe are always well hidden and only the most faithful are
+allowed into the inner sanctums.  Worshippers and clergy alike are always
+completely robed and hidden underneath hoods; layman wear gray while lesser
+clerics don deep purple -- black is reserved for the high priests.
+~
+
+#1040
+-1 TIRADEL~
+Tiradel (TEER-uh-dell)  God of Honor, Chivalry, Knighthood 
+
+Alignment:  Lawful Good
+Colors:     Blue and gold
+Symbol(s):  Sword, fitchy cross (crossletted)
+Raiment:    Chainmail and warhelm, sword
+Temple:     Cross-shaped hall
+Holy Day(s):Festival of Lights
+Sacrifice:  Battle spoils, valuables
+Animal:     Griffon
+Avatar:     Young man clad in chainmail and warhelm, wielding a sword
+
+  Where Ixtaros represents all the atrocities and horrors of war, Tiradel
+embodies all its nobility and honor.  He is the patron of all knights, along
+with his sister Rasazra, and few are the orders that do not honor these gods.
+Tiradel is active among his followers, guiding them on quests and holy
+missions, often against his uncle Morgorin.
+
+  The sword is the holy symbol of Tiradel and all of his places of worship are
+constructed to resemble one.  There are no particular days that are holy to
+Tiradel; as his sphere is warfare and honor he is usually invoked before
+appropriate occasions.
+~
+
+#1041
+-1 ULWARZI~
+Ulwarzi  (ull-WORE-zee)  God of Plots, Treachery, Assassination
+
+Alignment:  Lawful Evil
+Colors:     Red and gray
+Symbol(s):  Crossed scroll and knife
+Raiment:    Full cloaks of gray, red for high priests
+Temple:     Hall
+Holy Day(s):Nights of the One Lamp
+Sacrifice:  Humans
+Animal:     Spider
+Avatar:     A huge bloated spider with the head of a man
+
+  Ulwarzi is one of the Lords of Strife and the son of Ixtaros and Veshalma.
+Like most of his siblings, he is indirect and subtle yet always inflicting
+misery upon mankind.  He is very close to his sister Imaju and they make many
+of their schemes together.
+
+  Temples of Ulwarzi are usually found in cities, for it is there his sphere is
+greatest.  They can be of any shape or style but all will have several huge
+spiders in the place to serve as guardians and to accept the sacrifices to the
+god.
+~
+
+#1042
+-1 ZARKIROND~
+Zarkirond  (ZAHR-keer-rond)  God of Greed, Avarice, Thieves
+
+Alignment:  Neutral Evil
+Colors:     Black and gold
+Symbol(s):  Gloved hand pinching a gold coin
+Raiment:    Black robes
+Temple:     Hall
+Holy Day(s):New moons (all)
+Sacrifice:  Wealth
+Animal:     Cat
+Avatar:     Cat-headed man in full body cloak
+
+  One of the Lords of Strife, Zarkirond is the son of Ixtaros and Veshalma.
+Dedicated to thieving and ill-gotten gains, Zarkirond is one of the least
+inimical siblings of the Lords as much of his efforts goes towards the
+acquiring of wealth.
+
+  Zarkironds temples are almost always found in cities for it is thieves that
+make up the bulk of his worshippers.  Lavishly decorated to the point of
+gaudiness, these sanctuaries are well hidden and admit only the faithful.  It
+is common for thieves guilds to house temples to Zarkirond and vice versa.
+
+  Those priests who follow Zarkirond are expected to dedicate themselves to
+acquiring wealth for themselves and their god.
+~
+
+#1043
+-1 HUNGRY HUNGER EAT EATING THIRST THIRSTY~
+After a certain level, the need to eat and drink are going to affect your
+character.  You will need to secure food either from killing creatures and
+gaining edible food from them or purchasing food in stores.  The same holds
+true for drinking.
+
+Some foods and liquid types are more nutritious than others and some are not
+very good ideas to eat or drink.  Mostly though if you get food from a store
+or body part it is edible enough to provide some sustenance.
+
+You will notice that if you do not eat or drink your character will experience
+hunger and thirst pains.  They get worse the longer you go without.  Keep a
+good supply of food and drink on your character to avoid this.
+
+Some liquids can cause drunkenness.  Which will adversely affect your ability
+to hit and defend.  Be careful when drinking ales, wines and other alcoholic
+beverages.  They will affect you.
+~
+
+#1044
+-1 'SMELT'~
+SMELT
+Syntax: smelt (ore)
+
+Prior to manufacturing weapons or armor, a Blacksmith will need to
+obtain ores from miners. Using these ores, the Blacksmith can smelt
+the ore into heavy ingots of the same quality and material as the
+ore, which they can later use to craft into weapons and armor.
+
+SEE ALSO: Combine, Extract
+~
+
+#1045
+-1 'COMBINE'~
+COMBINE
+Syntax: combine (ore/ingot) (2.ore/2.ingot)
+
+Miners and blacksmiths are known to hold various scraps of metal or
+ore for use. In order for them to be properly processed and to aid
+in ease of carrying, they can combine these ores and ingots with 
+each other. It should be noted that only ores and ingots of the
+same material and quality can be combined with each other.
+
+SEE ALSO: Extract
+~
+
+#1046
+-1 'EXTRACT'~
+EXTRACT
+Syntax: extract (item) (amount in cubits)
+
+Miners and blacksmiths use the ability to extract bits of ore or
+ingot from larger bulk quantities to sell or to use in their craft.
+
+SEE ALSO: Combine
+~
+
+#1047
+-1 'MINE'~
+MINE
+Syntax: mine
+
+The most important skill to a miner is their ability to extract metal
+ores and gems from the earth. They do so by mining. Certain regions
+carry different types of resources, and the amount of material that
+miners pull from the ground is based not only on their skill, but on
+the wealth of the deposit from which they are mining. Miners can only
+mine using an axe.
+
+SEE ALSO: Sense vein, Gemlore
+~
+
+#1048
+-1 'SENSE VEIN'~
+SENSE VEIN
+Syntax: sense
+
+Miners, being prolific geologists, have the ability to determine by
+the color of soil and feel of deposits whether or not the earth will
+contain mineral or gem deposits. They are also noted to be able to
+ascertain the amount of the lode, if any, in the ground.
+
+SEE ALSO: Gemlore, Mine
+~
+
+#1049
+-1 'GEMLORE'~
+GEMLORE
+Syntax: gemlore (ore/gem)
+
+Miners are highly knowledgeable in the field of gems and ores. Hence,
+they have the ability to determine, to a reasonable degree, the very
+quality of that which they have mined. This is very useful when it
+comes to bartering for price with a smith or jeweler.
+
+SEE ALSO: Mine, Sense Vein
+~
+
+#1050
+-1 'CAVALIER' CAVALIERS~
+CAVALIERS
+
+Cavaliers are the perfect combination of chivalry and combat-savvy. They 
+focus completely on their prowess in battle, and therefore lack the 
+prayers and magic abilities that the more pious Paladins possess. Always 
+of the nobility, these humans and half-elves are the most skillful horsemen 
+in the lands and hold the virtues of goodness and chivalry above all else.
+~
+
+#1051
+-1 'SHIELD BASH' SHIELDBASH~
+SHIELD BASH
+Syntax: shieldbash (target)
+
+In the heat of battle, Cavaliers often apply their wits and use their defenses
+offensively. With their shields, Cavaliers have been known to rush at the 
+enemy and slam into him with his shield. If the bash is on target, the 
+opponent will be stunned momentarily, giving the Cavalier the upper hand.
+~
+
+#1052
+-1 'LANCE'~
+LANCE
+Syntax: automatic
+
+Used solely by the Cavalier, the lance is a long pole-like weapon, most 
+closely related to the spear. Because of the lances immense size and 
+length, it may only be wielded while upon horseback. It has been known to 
+have a powerful effect on a mounted charge.
+~
+
+#1053
+-1 'MOUNTED CHARGE' MOUNTED~
+MOUNTED CHARGE
+Syntax: mcharge (target)
+
+Being the great horsemen of Mirlan, Cavaliers can use their equestrian 
+allies to their great advantage. While mounted, Cavaliers are able to 
+charge at their foe, causing a great amount of damage. If a Cavalier 
+wields a lance during this charge, the damage is even greater.
+~
+
+#1054
+-1 'MELEE'~
+MELEE
+Syntax: melee
+
+Cavaliers often find themselves in situations where more than one 
+assailant will attack them simultaneously. To deal with these conditions, 
+Cavaliers have learned the technique of melee. Cavaliers use their agility 
+to swing their weapon at all attackers at once, damaging each 
+individually.
+~
+
+#1055
+-1 'DOLOROUS STRIKE' DOLOROUS~
+DOLOROUS STRIKE
+Syntax: dolorous (target)
+
+Due to their skill in battle, Cavaliers invented a particular style in 
+which to strike their opponent. This strike, known as the dolorous strike, 
+can seriously wound (and sometimes instantly kill) the enemy. However, 
+because of the Cavaliers magnanimity, this strike may only be executed 
+during the very first few rounds of battle.
+~
+
+#1056
+-1 'WEAPON BLOCK'~
+WEAPON BLOCK
+Syntax: automatic
+
+So skilled are Cavaliers with their weapons, that they have learned to 
+block attacks by holding them up in certain positions against the 
+opponents swings, halting the blows completely.
+~
+
+#1057
+-1 'POWERGRIP'~
+POWERGRIP
+Syntax: powergrip
+
+With their innate strength with weapons, Cavaliers have been known grip 
+their weapons with even more power than others, making it very difficult 
+to disarm.
+~
+
+#1058
+-1 'BRAVERY'~
+BRAVERY
+Syntax: automatic
+
+One of the most audacious of the guilds, Cavaliers, as a rule, refuse to 
+ever give up a fight. Thus, they do not flee in battle. However, if they 
+get to the point in which it is clear that they have been defeated, the 
+Cavalier will then be able to flee for the next few hours, having been 
+bested, the Cavalier will feel a surge in health momentarily.
+~
+
+#1059
+-1 'COMBAT HORSEMANSHIP'~
+COMBAT HORSEMANSHIP
+Syntax: automatic
+
+Among all of the guilds of Mirlan, the Cavaliers are the most accomplished
+horsemen of all. When using their knowledge to the best advantage, Cavaliers
+gain extra prowess in battle on horseback, and are given the abilities to
+ride and handle the most powerful of warhorses.
+
+SEE ALSO: Advanced horsemanship, Basic Horsemanship
+~
+
+#1060
+-1 ALCHEMIST~
+ALCHEMIST
+
+Need a wand, staff, potion or scroll?  These are your go to guys.  Alchemist
+are the creators of these items.  Only they have learned the secret arts of
+doing so and they guard this information dearly.  It is their bread and butter
+so to speak.
+
+Using their knowledge gleaned from ancient scrolls and tomes they have perfected
+their art.  
+
+To be a Alchemist, you need to posess a high intellect and a wisdom that borders
+on the edge of oracle.  For with these two characteristics, Alchemist, have made
+their calling into an art form.  
+
+This is an NPK class.  Non-PK, see help NPK or NONPK for details.
+~
+
+#1061
+-1 BLACKSMITH~
+BLACKSMITH
+
+Blacksmiths are your forgers of weapons and other items of metal.
+They are the creators of razor sharp swords and impenetrable armors. 
+Over the hot fires and ringing anvils these master metal workers
+create things of beauty and necessity from lumps of raw metal.
+
+Blacksmiths are one of the most sought out classes for the creation of
+specialized items such as The Armor of Invulnerability.  An item only
+rumored to exist which was created by an ancient Thane of the Dwarven
+people around the time of the first Fey-dwarves.  
+
+To be a blacksmith you need to have exceptional strength and a good
+constitution as both of these are required for the stamina to work the
+forges.
+
+Blacksmith is a NONPK NON-PK class.  See NON-PK or NPK for details.
+~
+
+#1062
+-1 TAILOR~
+TAILOR
+ 
+The tailor is an all in one clothier with the ability to create leather
+products as well.  The leather products are much sought after for their
+durability and weight.  If it can be made of leather a tailor is the person
+to see.
+While not sounding very glamorous of a profession, one will be amazed at the
+possibilities of the tailor class.  Creating leather armors, sheaths, clothing
+of grand design, royal insignias and so much more.  Many classes will not be
+able to function to their fullest potential without the help of the tailors.
+Hides can be sold to tailors an in turn they can produce some of the finest
+cloaks and other wearable items that simply cannot be made out of metal for
+functionality.  Try wearing metal boots and being quite in the woods.
+And yes, tailors can at higher levels imbue their crafts with magic.
+Tailors are an NON-PK class.  See NPK or NON-PK for details.
+~
+
+#1063
+-1 SAINT SAINTS~
+[ `^SAINT`` ] - The Divinity of Saints
+ 
+The Divinity of Saint is a Holy Order devoted not just to one
+path, deity, or religion, but rather whole gamut of Gods present
+within the pantheon. Quite possibly one of the largest, and most
+general of all of the cabals, The Divinity of Saints is comprised
+of nine separate clans, each one devoted to the religious texts
+of one specific God as detailed below.
+
+The Order of Tiradel  - Lawful Good     - See HELP TIRADEL
+The Order of Markul   - Lawful Neutral  - See HELP MARKUL
+The Order of Jolma    - Lawful Evil     - See HELP JOLMA
+The Order of Amathe   - Neutral Good    - See HELP AMATHE
+The Order of Gaemina  - True Neutral    - See HELP GAEMINA
+The Order of Morgorin - Neutral Evil    - See HELP MORGORIN
+The Order of Dormicc  - Chaotic Good    - See HELP DORMICC
+The Order of Pajumet  - Chaotic Neutral - See HELP PAJUMET
+The Order of Ixtaros  - Chaotic Evil    - See HELP IXTAROS
+
+The Saints are devoted fully to their clans, having powers given
+unto them by the Divine Ones, they have remarkable abilities of
+faith healing, conversion, and restoration, and are notorious for
+their "fire and brimstone" evangelism.
+ 
+All classes, all races, all alignments may join the Muses, but must
+serve one of the above listed Gods.
+If you are interested in applying to Divinity of Saints, submit
+your application to SAINT.
+ 
+~
+
+#1064
+-1 MUSE MUSES~
+[ `2MUSE`` ] - The Studio of Muses
+
+The Studio of Muses is a way of life devoted to more artistic
+pursuits. This consortium of artists, poets, scholars, sculptors,
+actors, historians, and entertainers thrives on knowledge, joy,
+and entertainment. They are the scribes of the land, penning
+words of wisdom into the Tomes of the Mirlan Library. They are
+oft seen in taverns and market squares collecting knowledge,
+entertaining, or listening in to local gossip. More often, they
+are subjects of the Royal courts, requested by Kings and Queens
+alike for their wit, elocution, and, often, humor.
+
+The Studio of Muses is comprised of two separate clans:
+
+The Guild of Artists - Sculptors, writers, historians
+The Guild of Actors  - Jesters, actors, gleemen
+
+The Muses are a gentle sort, giving up their possible former
+warlike tendencies for a life of peace and harmony. They are
+free of nearly all sort of persecution, enjoying freedom as well
+as protection inside their walls.
+
+All classes, all races, all alignments may join the Muses.
+
+If you are interested in applying to Studio of Muses, submit
+your application to MUSE.
+
+~
+
+#1065
+-1 EMPIRE SHADOW~
+[ `8EMPIRE`` ] - The Empire of the Shadow
+
+A force of dominance lies within the lands, and it is known only by
+the name of The Empire. It is a faction composed of dark powers and forces
+that serves but one will; domination through power. They are elite, highly
+organized, efficiant, and cold. They serve the will of the Emperor, and
+are only divided into two clans to help further streamline their methods.
+
+The Empire of the Shadow is comprised of two separate clans:
+
+The Inquisition          - Tacticians, scholars, and plotters
+The Wrath of the Emperor - Footsoldiers, combatants, and mercenaries
+
+The Empire, though often perceived as pure evil, has a method to their
+madness, so to speak. Devoted to the ideals that man is weak without
+ones to lead, the Empire strives to unite the lands under one common
+banner, so as to provide an absolutist society to all mankind. Because
+of their strict adherence to non-societal "good" beliefs, only those
+who serve the path of evil may join.
+
+If you are interested in applying to the Empire of the Shadow, submit your 
+application to EMPIRE.
+
+~
+
+#1066
+-1 SAGE SAGES MAGI~
+[ '$SAGE`` ] - The Path of the Magi
+
+Founded eons ago on the Isle of Megius, the Path of the Magi holds inside
+its walls the most powerful magic users and clerics in the land. They are
+those who serve the true ideal of magic and knowledge, combined under one
+roof that has, over the centuries, housed the greatest and most sought
+after Magi in the lands.
+
+The Path of the Magi is comprised of two separate clans:
+
+The Academy of Scholars - Scholars, wisemen, and teachers
+The Arcane Consortium   - Battlefield mages and mages of destruction
+
+The Path is often divided in mentality between outright naked aggression
+towards those who defy magic, and pacifism and the pursuit of knowledge.
+However, because magic is their protector, these Sages ignore alignment
+and ethos in return for devotion to the cause.
+
+If you are interested in applying to the Path of the Magi, submit your 
+application to SAGE.
+
+~
+
+#1067
+-1 BATTLE WARLORD WARMASTER TITAN~
+[ `3BATTLE ``] - The Order of the Titans
+
+By Titans the are called, and by Titans they behave. The Order of the
+Titans is an organization of the most fearsome combatants in the land.
+They are swordsmen, warlord, warriors, fighters and knights. They are
+those who require no magic to assist them in their endeavors to become
+the most powerful force in the land. A wide array of people reside within
+the Order; Retired battlefield generals, young knights trying to make a
+name, bar brawlers, and street fighters alike. They have honed their skill
+and abilities in such a way that they perhaps the most formidable band
+of combatants the land has seen. Oh, and they loathe magic...
+
+The Order of the Titans is comprised of two separate clans:
+
+The Savages  - Berserkers and unorthodox fighters call this clan home.
+The Generals - Tacticians and precision fighters enjoy this clan.
+
+Because of their nature, no practitioner of magic may call the Order
+home. This leaves only those of the Warrior, Paladin, Cavalier, Berserker,
+Paladin, or Thief guilds as participants. Alignment and ethos are
+seldom important.
+
+If you are interested in applying to the Order, submit your 
+application to BATTLE.
+
+~
+
+#1068
+-1 CARTEL OUTFIT~
+[ `@CARTEL`` ] - The Outfit
+
+Devious and clever, wily and cunning. These traits exemplify all that
+the cabal of Cartel stands for. Greed serves them, and they serve
+greed. Little else in life is important. The mission of Cartel is to
+gain power through theft, fear, or intimidation; whichever gets you
+there faster. While not entirely honorless (they maintain a sort of
+aberrant alignment between themselves and their cabalmates), they are
+far more inclined to subterfuge and subtle techniques. On rare instances
+they have been known to fight face to face, but it's not particularly
+their "style".
+
+The Outfit is comprised of two separate clans:
+
+The House of Cloaks  - Thieves are right at home here.
+The House of Daggers - Murderers and brigands fancy this clan.
+
+Cartel members are usually scalywags, though seldom dumb. The are the
+cream of the crop as far as scoundrels are concerned, and can elevate
+their lot in life as much as they wish to steal and pillage.
+
+Because of the diabolic nature of the Outfit, only those who are
+chaotic or neutral may join, and certainly not any lightwalkers.
+
+If you are interested in applying to the Outfit, submit your 
+application to CARTEL.
+
+~
+
+#1069
+-1 KNIGHT~
+[ `#KNIGHT`` ] - The Knights of the Realm
+
+The embodiment of all that is good and just in the world of Mirlan,
+the Knights are the sword of truth, the eyes of Good. They advocate
+the path of the light, often with sword so stalwartly, that are seldom
+swayed. Their conviction is so defined and strong, that even the most
+powerful of evils are often shed off by the Knights. It is their will
+and mission to cleanse the lands of the taints of the Evil Gods, and
+keep harmony, peace, and happiness prevalent in Mirlan.
+
+The Knights of the Realm are comprised of three separate clans:
+
+Order of the Golden Griffons  
+Royal Order of Esterian Knights
+The Knights of the Sword and Cross
+
+Knights are consummate fighters, who tend to be clever witted with
+keen senses, especially in the heat of combat. They are expect to fight
+strongly for their beliefs, and back down from no foe. They are expected
+to fight with honor and courage in all situations. and to defend the
+name and rights of their clans to the death, if required.
+
+Because of the nature of this cabal, you must serve only the Gods of
+Good, and be one of the Cavalier, Paladin, Ranger, Healer, Cleric, or
+Crusader guilds.
+
+If you are interested in applying to the Knights of the Realm, submit
+your application to KNIGHT.
+
+~
+
+#1070
+-1 LAW PILLAR JUSTICE ORDER~
+[ `&LAW`` ] - The Pillar of Law
+
+The cabal of Law is perhaps the most visible, revered, and hated
+cabal in Mirlan. They are the servants of the society, the judges,
+jury, and executioners of those who would walk a path that would be
+contrary to public good. They are devoted and stalwart servants,
+and have a keen and sharp understanding of the laws of the nations,
+as well as a thick skin to battle off naysayers.
+
+The Pillar of Law is comprised of two separate clans:
+
+The Enforcers   - These lawmen chase fugitives, and sentence
+The Magistrates - These lawmen are protectors of the homeland
+
+The Pillar of Law is a highly sought after cabal, one that requires
+cunning, speed, diligence, and intellect. As such, only those who
+are law abiding citizens, and not natively forest denizens may
+apply to the Law cabal.
+
+If you are interested in applying to the Pillar of Law, submit
+your application to LAW.
+
+~
+
+#1071
+50 rip~
+This IMM command allows an Imm to kill someone in a more artistic
+fashion.  The syntax: rip (victim) 
+~
+
+#1072
+-1 LANGUAGE LANGUAGES TRADE COMMON~
+Trade Common is what everyone is capable of speaking but certain races like
+Orc and Ogre have their own distinctive tongues.  If you have not learned
+their particular language you will not be able to understand the speech of
+an Orc or Ogre and it will come out garbled.  To speak in a dialect that you
+have learned use the 
+SPEAK ORC     = to speak orcish
+SPEAK OGRE  = to speak in orge.
+To see the list of languages that you can speak type in:
+LANG.  
+~
+
+#1073
+-1 GOOD~
+*** Good Aligned ***
+
+Lawful:
+An ideal life would only be possible in an orderly society that is 
+governed by a strong government with a clear conscience.  In order to 
+live life to its fullest extent, laws must be created and followed by 
+the people of the society.  In addition, people must be willing to help 
+one another in their times of need.  Only when these two criteria are 
+met will the society succeed and flourish as a whole.
+
+Neutral:
+Although a balance of the forces of order and chaos is important, 
+nothing supercedes the need for good.  To ensure goodness in the world 
+does not affect nor will it unbalance the forces of order and chaos, for 
+there are creatures of good existing in both forces.  To ensure goodness 
+in the world can mean strengthen a society that needs order or to tear 
+down a society that is ruled by tyranny, depending on the situation.  
+The amount of structure in a society has no innate value to the position 
+of goodness.  Goodness above all shall be preserved.
+
+Chaotic
+Goodness is put above all, while laws and order are of little use or 
+relevance.  Those that follow this path tend to have strong and 
+individualistic characteristics mixed with generosity and kindness.  
+Although their actions may not agree with the ways of society, 
+nevertheless it is morally good and with well intentions.
+~
+
+#1074
+-1 NEUTRAL~
+*** Neutral Aligned ***
+
+Lawful:
+A society governed by strict rules, which promotes order of the utmost 
+importance while the morality that the government holds is disregarded.  
+An well-organized society would benefit all of its inhabitants and is 
+more important than any moral issues that the means of its 
+implementation may raise.
+
+True Neutral:
+A balance of all forces in existence must be achieved.  Those that truly 
+follow this path is the hardest to find in Thera for almost everyone has 
+their own biases, no matter great or small.  It is hard to be allies 
+with this group for they tend to switch from side to side, often 
+switching to the side of the weak in order to balance out the tides, 
+bring his original allies towards destruction.
+
+Chaotic
+Order does not exist for chaos, chance, and fate rule the world.  
+Nothing governs the actions of these individuals.  Morality of an action 
+is obviously out of the question.  There is no order to what they do 
+other than knowing that they are not bound by any sort of order at all.  
+They are just as likely to befriend another as to attack another, and 
+even that differs from one moment to another.  These individuals are the 
+true coin-flippers, who lets chance and fate guide their path.
+~
+
+#1075
+-1 EVIL~
+*** Evil Aligned ***
+
+Lawful:
+Society and the order established in it are to be used for one's own 
+benefit.  The established order boosts those who are deserving while 
+stomps down on the worthless, thus clearly defining the masters and the 
+slaves.  It is within this mechanism that an individual seeks to benefit 
+oneself.  Laws are obeyed out of punishment, not due to an ideological 
+agreement.
+
+Neutral:
+One must always look out for the good ol' "Number One".  Whether alone 
+or with others, these are the people whose primary and only interest is 
+how they may benefit from each situation.  The structure of the society 
+they exist in is of little relevance.  They may quietly obey the law or 
+wreck havoc, depending on which situation will provide them with the 
+most gains. 
+
+Chaotic
+Goodness and order have no value while everything is reduced to the 
+power one has.  An orderly society is only for those who are weak who 
+needs to hide behind a shield of order.  Those who are strong have the 
+right to do as they please.  The weak are there to be used anyway wished 
+by those who are strong.  The only authority that prevail among this 
+group is through power, from a leader who is capable of intimidate those 
+who follow him.
+~
+
+#1076
+51 MATERIAL MATERIALS~
+MATERIALS
+acid               adamantite         air                ash
+balm               bamboo             bone               brass
+bronze             canvas             cardboard          clay
+cloth              coal               copper             coral
+cork               cream              crystal            diamond
+earth              ebony              electrum           enamel
+energy             feathers           felt               fire
+flint              fur                glass              gold
+granite            hemp               ice                iron
+ivory              jelly              lace               lead
+leather            linen              marble             metal
+mithril            oil                paper              parchment
+pewter             plastic            platinum           porcelain
+quartz             rubber             sandstone          satin
+shell              silk               silver             slime
+snakeskin          sponge             steel              stone
+tin                vellum             velvet             water
+wax                webbing            wire               wood
+wool               food               gem                none
+~
+
+#1077
+51 LIQUIDS LIQUID~
+LIST OF LIQUID TYPES
+Name                   Color          Proof Full Thirst Food Ssize
+water                  clear              0    1     10    0    16
+beer                   amber             12    1      8    1    12
+red wine               burgundy          30    1      8    1     5
+ale                    brown             15    1      8    1    12
+dark ale               dark              16    1      8    1    12
+whisky                 golden           120    1      5    0     2
+lemonade               pink               0    1      9    2    12
+firebreather           boiling          190    0      4    0     2
+local specialty        clear            151    1      3    0     2
+slime mold juice       green              0    2     -8    1     2
+milk                   white              0    2      9    3    12
+tea                    tan                0    1      8    0     6
+coffee                 black              0    1      8    0     6
+blood                  red                0    2      2    2     6
+salt water             clear              0    1     -2    0     1
+coke                   brown              0    2      9    2    12
+root beer              brown              0    2      9    2    12
+chocolate milk         dark              35    2      8    1     5
+white wine             golden            28    1      8    1     5
+champagne              golden            32    1      8    1     5
+iced tea               dark              34    2      8    2    12
+rose wine              pink              26    1      8    1     5
+benedictine wine       burgundy          40    1      8    1     5
+vodka                  clear            130    1      5    0     2
+Boon's Strawberry Hill pink               0    1      9    2    12
+orange juice           orange             0    2      9    3    12
+absinthe               green            200    1      4    0     2
+brandy                 golden            80    1      5    0     4
+aquavit                clear            140    1      5    0     2
+schnapps               clear             90    1      5    0     2
+icewine                purple            50    2      6    1     5
+amontillado            burgundy          35    2      8    1     5
+sherry                 red               38    2      7    1     5
+framboise              red               50    1      7    1     5
+rum                    amber            151    1      4    0     2
+cordial                clear            100    1      5    0     2
+mead                   honey-brown       10    1      5    5     5
+anti-matter            pitch black        0   -2      6    6     4
+
+~
+
+#1078
+-51 RACE RACENUMBERS RACENUMB RACEN RACE-N~
+RACE RACENUMBERS RACENUMB RACEN RACE-N
+  
+   Below are the race and their cooresponding numbers for mobprograms.
+   Do not use 18 (Temp).  This is for the mobprog if israce($n) == 12
+   command.
+
+   Human number 	 1.	Troll number 		17.
+   Elf number 		 2.	Feral number 		18.
+   Drow number 		 3.	Lycanthrope number 	19. 
+   Dwarf number 	 4.	Lycan-tiger number 	20.
+   Duegar number 	 5.	Lycan-wolf number 	21.
+   Halfling number 	 6.	Lycan-boar number 	22.
+   Gnome number 	 7.	Lycan-ocelot number 	23.
+   Avian number 	 8.	Lycan-fox number 	24.
+   Fire-Giant number 	 9.	Lycan-falcon number 	25.
+   Hill-Giant number 	10.	Half-Elf number 	26.
+   Cloud-Giant number 	11.	Faerie number 		27.
+   Undead number 	12.	Demon number 		28.
+   Illithid number 	13.	Ogre number 		29.
+   Minoatur number 	14.	Vampire number 		30.
+   Ethro number 	15.	Lich number 		31.
+   Lizardman number 	16.	Revnant number 		32.
+   				Ghost number 		33.
+~
+
+#1079
+-51 CLASS CLASS-N CLASSN CLASSNUMBER CLASSNUMB CLASSNUMBERS~
+CLASS CLASS-N CLASSN CLASSNUMBER CLASSNUMB CLASSNUMBERS
+
+   For the is ifclass($) == (value) or similar commands here are the
+   corresponding values.
+
+   0  Warrior        	13  Healer
+   1  Berserker         14  Shaman 
+   2  Ranger      	15  Vampire
+   3  Paladin        	16  Bard
+   4  Dark-Knight     	17  Druid
+   5  Thief       	18  Crusader
+   6  Ninja *          	19  Cavalier
+   7  Cleric         	20  Alchemist
+   8  Monk *     	21  Tailor
+   9  Thalmaturgist     22  Miner
+  10  Sorcerer		To be installed later.
+  11  Necromancer	Jeweler, Commoner, Noble, Merchant, Adventurer
+  12  Psion
+
+~
+
+#1080
+-51 BUILDER BUILDERS~
+Greetings new Immortal
+ 
+You have been hired to build. There are a few things we need to impart upon
+you as a new builder/coder.
+ 
+ 
+Any and all areas, mob, descriptions, built for The Age of Mirlan belong
+explicitly to the owner of the same.
+ 
+The Age of Mirlan is built off of the copy written work of Jim Lawson and
+is used with his explicit permission.
+ 
+ 
+All names of areas, geography, and Mirlan related information that comes
+directly from Jim Lawson's Glossography. The Glossography is property of
+Jim Lawson.  It cannot be used without his written permission.  
+ 
+ 
+All information, intellectual creations done while an Immortal for
+"The Age of Mirlan" shall remain a part of without transfer without explicit
+permission of the owner of the same.
+ 
+ 
+If you are an Immortal already given status as a builder or coder for 
+"The Age of Mirlan" you hereby agree to the above or you will let us know in
+three business days of posting this disclaimer made and integrated on
+July 27, 2004.
+~
+
+#1081
+-1 LUVAMAP MAPLUVA~
+The City of Luva                   ^
+                                   |
+                                   |
+                                 North
+                =
+                =
+                =       G G  
+    G     G     =     G G G
+    G     G   = = =   G
+G G + = + + = = = = = + = = = 
+        G     = = =   G     =
+        G       =     G     =
+            G G = G G       = = = 
+        G G +   =   + G G 
+            =   =   =
+            = = = = =
+       G G      =       G G 
+        +   S S + B B   +
+    G G +       =       + G G
+        =       + B B   =
+      G + + = = = = = + + G
+      G   G     + B B G   G  
+          G     + B B G
+        T     = = =   T
+      T T + = = = = + T T 
+        T     = = =   T
+        G       =     G G
+        G       =     G G   T
+        + = = = = = = + + + T T
+        G G     =       G   T
+        G G S S = S S   G
+                =
+                =
+                =
+
+S = Shop
+T = Temple
+G = Guild house
+= = Street
++ = An entrance to a building
+B = Building
+
+~
+
+#1082
+-1 MALAGSCROSSINGMAP MAPMC MCMAP MALGAGSCROSSINGMAP~
+Map of Malag's Crossing               ^
+                                      ^
+                                      |
+                                B     |
+        = w w w w w w w w w w w B     |
+  = = = = = = = = = = = = = = = +  North
+      = = w w w w w w w w w + =
+        = w                 H + B
+                            H + B B
+                        w w   + B
+                        w D D = B B
+                        w D = + B B
+                        w D B = = =
+                        w w B     = + = = = + =
+                                    T       B =
+                                T T T T     B =
+                                              = 
+
+w = water
+B = Business/Building
+T = Temple
+D = Dock
+= = road/path
++ = Entrance to building
+
+~
+
+#1083
+-1 LUVANWOODMAP MAPLUVANWOOD LWMAP~
+^
+Map of Luvan Wood                  |
+                                   |
+To Malag's Crossing                |
+  =                              North
+  =             = = = = =     = = = = = 
+  =             =   =   =     =
+  =             =   =   = = = = 
+  = =   = = = = = = =     = 
+    = = =                 =
+  = =           = = = = = =       = =
+  =             =   =               =
+  = =       = = =   =         = = = =
+    =           =   =       = =   =
+  = = = = = = = = = = = = = =     = =
+  =             =         =       =
+= =             =         = = = = = 
+                = 
+                = =
+                  =
+                  =
+                  =
+
+        To the city of Luva
+ 
+= Path
+
+~
+
+#1084
+-1 'ENCHANT ARMOR'~
+'ENCHANT ARMOR'
+ 
+Syntax: cast 'enchant armor' (object)
+ 
+The enchant armor spell imbues armor with powerful protective magic.  It is not
+nearly as reliable as enchanting weapons, being far more prone to destructive 
+effects.  Each successful enchant increases the protection from the armor, thus
+deeming the item more powerful than before.
+~
+
+#1085
+-1 MAPEDDELTRIS EDDMAP EDDELTRISMAP MAPEDD~
+Eddeltris City                   ^
+                                 ^
+                                 |
+                            =    |
+                            =  North
+G G G G G                   =
+G G G G G                   =
++ + + + +                   =
+G G G G =         T         =
+G G G G = G G G G T G     = + B
++ + + + = G G G G + G     =
+    G G + + + + + + + = = + G G
+        = G G G G = = B B
+        =         B B 
+        =           B
+  = = = =  
+= = = = =
+      = =
+    = = =
+    = = = 
+    = =  
+ 
+ 
+G = Guild
+B = Building/Store
+T = Temple
+= = Path/Road
++ = Road/Path Entrance to building/store/guild 
+~
+
+#1086
+-1 MAPGRAY GRAYMAP GRAYLDEMIRMAP MAPGRAYLDEMIR~
+City of Grayldemir           ^
+                           ^
+Partial Mapping            |
+   by Johanus the Lost     |
+                         North
+ 
+ 
+    = =           B   B T  
+  = = = = + = = = + = + + 
+= =       B         B = B
+                    B = B
+                    B = B
+                      =
+                      =
+                      =
+                      =
+                      =
+ 
+B = Building/Store
+T = Temple
++ = Entrance to Building/Store/Temple
+= = Road/Path
+~
+
+#1087
+-1 MAPEMM EMMMAP EMMEREAUXMAP MAPEMMERAUX~
+City of Emmereaux               ^
+      By Xenmorphic the Rouge   |
+                                |
+                              North
+                                *
+        + + +                   *
+    W W W W + + + + +           * *             
+          W W W W   + +         * *
+                W W W + + + + + X # # # # # # # 
+                            = = = = =         #
+                        = = = = =   =
+                = = = = = = G G =   = = = 
+          = = = =         = G G =       = = = = = =
+          =               = G G = = =       =     = =   = = W
+          = = = = = = = = = G G =   =       = = = = = = = = W Sea of Palinor
+          = =   =     =   = G G =   =       =     = M = = = W
+          = = = T = = T = = = = = = = = = = = = = = M = = = W
+            =   =     =   = G G =   =   =         = M = = = W
+            =   =     =   = G G = = = = =     B   = M = = = W
+            = = = = = T = = G G =   = G = = B B B = M = = = 
+              =       =   = G G =   = G =         = = = =
+              = = = = = = = G G = = = = =       = = =
+                        = = =   =   =   =   = = =
+                            = = = = = = = = =
+W = Water
+T = Temple
+G = Guild
+B = Building
+M = Merchant
+X = North Gate of Emmereaux
+* = Darkling wood
+# = Eastern Imperial Road
++ = Imperial Road
+~
+
+#1088
+-1 FORAGE~
+Syntax: FORAGE 
+
+Tailors, Alchemists, Blacksmiths, and Miners, with their spectacular
+ability to find things, are able to search an area for something edible
+to eat, to cure their hunger. As Tailors, Alchemists, Blacksmiths, and
+Miners gain ranks within their guilds, they are able to find more efficient
+edible fruits, leaves, or roots, to cure great hunger. 
+
+~
+
+#1089
+-1 NEEDLEWORK NEEDLE ~
+Syntax: NEEDLE (ARTICLE) (FABRIC)
+
+Tailors have the innate ability to sew things with their needles, of any
+such article of clothing. First you must buy the fabric from a store
+keeper, or your guild master whom sells cloth as well. By typing 'needle'
+you will be listed the articles available to sew and make. 
+
+SEE ALSO: HELP DYE 
+
+~
+
+#1090
+-1 DYE~
+Syntax: DYE (ARTICLE) (COLOR)
+
+Tailors have the ability to brew up certain colored dye's and change the 
+color of an article of clothing. An article can be dyed multiple times,
+making it suit whatever the tailor wishes it to look like. Experiment with 
+colors, and see which colors can be used, and what combinations you can
+come up with. 
+
+SEE ALSO: HELP NEEDLEWORK, NEEDLE 
+
+~
+
+#1091
+-1 'CURE HIDE' 'TAN HIDE'~
+Syntax: CURE (ARTICLE)
+Syntax: TAN (ARTICLE) 
+
+Tailors have the inept ability to cure hides and tan them, making both
+parchments and leather. They receive the hide by using the SKIN ability
+on corpses of different animals, giving them many different hides to work
+with. 
+
+SEE ALSO: HELP SKIN, LEATHERWORK, LEATHER 
+
+~
+
+#1092
+-1 SKIN~
+Syntax: SKIN (CORPSE)
+
+Tailors, with their expert use of daggers, are able to skin the hide off 
+of corpses of different creatures, allowing them to further use the hide 
+in different ways. Note that a Tailor may sometimes fail in skinning a
+creature. 
+
+SEE ALSO: HELP CURE HIDE, TAN HIDE, LEATHERWORK, LEATHER 
+
+~
+
+#1093
+-1 'LEATHER WORK' 'LEATHER'~
+Syntax: LEATHER (ARTICLE) (HIDE)
+
+Tailors have the ability to work with leather hides to make an assortment
+of different articles of clothing. Note that you MUST tan the hide of a 
+corpse before using the LEATHER skill. Type LEATHER to view an assortment 
+of different articles you can leatherwork. 
+
+SEE ALSO: TAN HIDE, SKIN
+
+~
+
+#1094
+-1 CODE~
+Think it is stolen code?  Think or say it is stolen code.  Read.
+
+
+http://www.garmonbozia.net/mirlan/viewtopic.php?t=25
+
+Have a nice day.
+~
+
+#1095
+-1 PAJUMET 'GOD OF CHANCE' 'GODDESS OF CHANCE'~
+Pajumet  (Paa-JOO-met)  Goddess of Fate, Luck, Chance 
+
+ 
+Alignment:	Chaotic Neutral
+Colors:		Red and silver
+Symbol(s):	Dice and cup
+Raiment:	Red robes
+Temple:		Hall
+Holy Day(s):	Varies
+Sacrifice:	Valuables
+Animal:		None
+Avatar:		Old woman in raiment shifting from rich to poor, always
+		in possession of one or more gambling devices.
+
+ 
+Description:  	Pajumet is the one of the oldest gods and most powerful.  In
+ranking order she is found with her brother Markul just below the Primal Ones,
+making her one of the four strongest Greater Deities.  She has many worshippers,
+but is, as is to be expected, a fickle goddess, and bestows luck on both sides
+capriciously.
+
+Temples to Pajumet are usually located in cities or towns as opposed to the
+lonely countryside.  Dedicated to randomness, her priests are as likely to
+hinder as to help.
+
+~
+
+#1096
+-1 TRADEMARK 'TRADE MARK'~
+TRADE MARK  BLACKSMITHS
+
+Syntax:  trademark (item)
+
+Blacksmiths can trade mark an item they have forged.  They can apply their name,
+rank, and date to a weapon they've crafted as a sort of signature.  To see the 
+handiwork of a smith, examine the armor or weapon to find out who made such a 
+wonderful, well crafted or poorly crafted item.  Skilled smiths will usually
+have a strong return client base.
+
+~
+
+#1097
+-1 'SHOP' 'MARKUP' 'PEDDLE' 'MERCHANT' 'PURCHASE'~
+MARKUP - 
+ 
+Syntax: SHOP 
+Syntax: MARKUP (PERCENTAGE) 
+ 
+ 
+Blacksmiths, Alchemists, Tailors, and Miners, are all able to open up a
+shop just like the shop keepers you run into within cities and other
+remote places.  In doing so, they are able to sell what they have made,
+or what they have within their inventory Markup can be 0 (default) to 100%.  
+ 
+ 
+PEDDLE - 
+ 
+ 
+Syntax: Peddle
+   Retyping it returns you to normal status.
+ 
+ 
+ALL NPK's - switches to/from selling mode. When you're in selling mode, anything
+in your inventory can be sold to anyone who wants to look. It toggles, so typing 
+"peddle" again, will return you to normal status.
+ 
+ 
+PURCHASE -
+ 
+ 
+Syntax: Purchase (item)
+ 
+ 
+Purchase - Buys items from NPK's who are in selling mode.
+ 
+ 
+LOOK - 
+ 
+
+ 
+ Look - Looks at the items in the sellers's inventory, when they are in sell mode.
+ 
+~
+
+#1098
+-1 ORDAIN 'ORDAIN WEAPON'~
+Syntax:  ordain (item)
+
+Master blacksmiths can take a weapon to any temple and have the weapon ordained by the
+gods. There is a very small chance that the weapon may come "alive." 
+
+To not spoil any surprises, this help file is limited in detail, but this is the master
+skill of the blacksmiths and a very promising one.
+
+~
+
+#1099
+-1 PILL 'PILL PRESS' 'PILLPRESS'~
+Syntax: PILLPRESS (LEAF)
+Syntax: PILL (LEAF) 
+ 
+Alchemist have the ability to press leaves into pills. Depending on what leaves
+you manage to find, or leaves that you forage, the affect of the pill changes. Beware,
+the pill may be dangerous, or even fatal, but at the same time, may be lifesaving.
+~
+
+#1100
+-1 'ARMORFORGE' 'WEAPONFORGE' 'WEAPON FORGE' 'ARMOR FORGE'~
+Syntax: ARMORFORGE (TYPE) (INGOT) 
+Syntax: WEAPONFORGE (TYPE) (INGOT) 
+Blacksmiths are able to forge armors and weapons with the ingot they find within the
+lands, or buy within shops. Some very powerful weapons and armors can be forged by
+experienced Blacksmiths, and some very powerful ingot can be found throughout the lands
+to forge such weapons or armor. 
+ 
+~
+
+#1101
+-1 APPLY~
+'APPLY' 
+ 
+Blacksmiths are able to apply certain attributes to certain things, armor
+ or weapons. Different things are used to give the weapons or armors a better
+look and better stats to help a player out. To list the things you can apply
+to weapons or armors, type: APPLY. 
+SEE ALSO: HELP WEAPONFORGE, ARMORFORGE 
+~
+
+#1102
+-1 'WRITE SCROLL' 'SPELLBOOK' ' SPELL BOOK'~
+'WRITE SCROLL' 'SPELLBOOK' 
+ 
+Syntax: WRITE (PARCHMENT) 
+Syntax: SPELLBOOK (PARCHMENT) 
+Alchemists are able to write scrolls out of parchments, as well as summon
+spellbooks. Depending on what parchment you use, the scroll's powers are
+different. This goes for spellbooks as well. Spellbooks are staves, and
+Scrolls are scrolls. 
+~
+
+#1103
+-1 'SOW SEED' 'SOW'~
+'SOW' 
+ 
+Syntax: SOW (SEED) 
+Alchemists are able to sow seeds into usable leaves to be further used later with
+their different skills. Since Alchemists don't have the ability to dig, they must
+depend on those who can dig to get seeds for them. 
+SEE ALSO: HELP BREW 
+~
+
+#1104
+-1 'INVOKE ARTIFACT' 'CREATE ARTIFACT'~
+'INVOKE ARTIFACT' 'CREATE ARTIFACT' 
+ 
+Syntax: CAST 'CREATE ARTIFACT' (RELIC) 
+Syntax: INVOKE (ARTIFACT) 
+Alchemists, with their extreme skills with the unknown, are able to create
+artifacts from various relics. Depending on what the relic is, will depend
+on the artifacts power created from it. Invoking the artifact will bring
+out it's power. 
+SEE ALSO:  PILLPRESS
+~
+
+#1105
+-1 'LOCATE HERB'  'HERB LOCATE'~
+'LOCATE HERB' 
+ 
+Syntax: CAST 'LOCATE HERB' 
+Alchemists are able to locate herbs throughout Mirlan. Locate herb
+is similar to the locate object spell, but only locates current herbs
+hidden throughout Mirlan. 
+SEE ALSO:  PILLPRESS
+~
+
+#1106
+-1 'PRISMATIC' 'PRISMATIC SPRAY' 'SPRAY'~
+'PRISMATIC SPRAY' 
+ 
+Syntax: CAST 'PRISMATIC SPRAY'
+Alchemists are able to summon a beam of extreme power, similar to that of
+the hellstream spell, it can do some serious damage to those who seek to harm
+or kill an Alchemist. 
+~
+
+#1107
+-1 'TUNNEL'~
+1107
+
+TUNNEL
+
+Syntax: tunnel (direction)
+
+Miners are able to dig a tunnel, allowing a short passage in a certain
+direction.  This allows him to dig underneath locked doors, closed doors,
+and other barriers.  
+~
+
+#1108
+-1 'BLAST'~
+1108
+
+BLAST
+
+Syntax: blast (explosive)
+
+Miners are able to set explosives on the ground to hurt others within the
+room.  Explosives are very deadly, and can be fatal.  
+ 
+SEE ALSO: HELP MINE, MILL
+~
+
+#1109
+-1 'DIG' 'BURY'~
+1109
+ 
+DIG, BURY
+ 
+Syntax: dig (object)
+Syntax: bury (object)
+ 
+Miners, with their expert ability with digging, are able to dig up objects
+from within the ground. They are also able to bury objects to dig up at a
+later time.
+~
+
+#1110
+-1 'MINE'~
+1110
+
+MINE
+
+Syntax: mine
+
+Miners are able to mine ore by digging into the ground.  The ore they dig up
+depend on the area they dig.  Blacksmiths are able to use these ores to
+smelt into ingot for their master work with weapons and armors.  
+~
+
+#1111
+-1 'mill'~
+1111
+
+MILL
+
+Syntax: mill (ore)
+
+Miners are able to mill ore into brimstone to make into explosive charges. 
+When milling, the miner cuts, shapes, polishes, and dresses the metal to
+make it into brimstone.  
+ 
+SEE ALSO: HELP MINE, ASSEMBLE
+~
+
+#1112
+-1 'ASSEMBLE'~
+1112
+ 
+ASSEMBLE
+ 
+Syntax: assemble (brimstone)
+ 
+Miners are able to assemble brimstone into explosive charges to damage
+nearby enemies. The strength of the charge is dependent on the number of
+cubits of brimstone they assemble.
+ 
+SEE ALSO: HELP MINE, MILL
+~
+
+#1113
+-1 'CREATE ALE'~
+1113
+
+CREATE ALE
+
+Syntax: create (container)
+
+Miners are able to create ale within containers.  This skill is similar to
+the Paladin's 'create water' skill, except the container MUST be empty.  
+ 
+SEE ALSO: HELP CREATE WATER
+~
+
+#1114
+-1 'AXEFORGE'~
+1114
+
+AXEFORGE
+
+Syntax: axeforge (axe)
+
+Miners are experts with axes, and are able to further hone their axe's
+skills.  By axeforging, they raise the axe's hit and dam values by one, and
+the level required to use it by one, if it's successful.  If it's not, it
+does the exact opposite.  
+~
+
+#1115
+-1 'FIND BURIED'~
+1115
+
+FIND BURIED
+
+Syntax: find
+
+Miners are able to locate buried objects throughout Mirlan, sort of like the
+find herb skill.  This will help miners in digging up items and/or seeds.  
+ 
+SEE ALSO: HELP DIG, BURY
+~
+
+#1116
+-1 'WORK' 'JOBS'~
+-
+-
+***********************************************************
+* `!Owner``                                                    *
+*  `!Crypticant`` *  Coding, don't bother him unless important.*
+************************************************************
+* `@IMPs``                                                     *
+*  `@Dymmeria``   *  Player Service/Building                   *
+*  `@Maelduin``   *  Coding/Code services                      *
+*  `@Ankharan``   * (Fixing his screw ups all over the world)  *
+*  `@Ihlxhul``    * (Byr Tu Jol)                               *
+*  `@Haevin``     * (Finishing Emmereaux)                      *
+************************************************************
+* `#IMMs``                                                     *
+*  `#Teronim``    * (Drahkenspur mountains)                    *
+*  `#Valdaric``   * (NorthLake finishing)                      *
+*  `#Lerntu``     *  Help File Manager (Shar' Goth, City of)   *
+*  `#Alathar``    * (Raiders Gap)                              *
+*  `#Kysammie``   * (Frasia, City of)                          *
+************************************************************
+* `%Test Port``                                                *
+*  `%Daego``      * (Yarlwood forest)                          *
+************************************************************
+ 
+~
+
+#1117
+-1 MURDER KILL~
+Syntax: kill (MOB NAME)
+Syntax: murder (PLAYER NAME)
+ 
+Example: 
+   kill dryad
+   murder billybob
+ 
+You have to:
+MURDER A PLAYER 
+KILL A MONSTER (NPC)
+ 
+ 
+SEE ALSO:
+PK, NPK, RULES, SKILLS, SPELLS, TRAIN, PRACTICE, MIRLAN
+~
+
+#1118
+50 shoppie shopkeeper~
+To create a shoppie, create your mob.
+next...
+When the mob is just how you want them 
+ 
+
+Syntax:  SHOP ASSIGN
+ 
+next once that is done... Creat their inventory.
+ 
+Meat, bags, sacks, canteens, what ever.
+when you place the stuff on the shoppie it is 
+ 
+Syntax:  MRESET (ITEM) (MOBNAME) NONE
+ 
+You can set the shop hours using military time.
+ 
+ 
+0 = midight
+1 = 1 a.m
+10 = 8 a.m.
+ 
+16 = 4 p.m.
+Etc.
+~
+
+#1119
+-1 GUIDE GUIDES UNIVERSITY~
+`#THE GUILD OF UNIVERSITY GUIDES``
+`!====================================================``
+
+As a traveler of Mirlan, you have no doubt become acquainted
+with the guide that the University has assigned you. We hope
+he will be of assistance to you throughout your first ten
+ranks in your guild. After that, we no longer offer our guide
+service.
+
+As you travel throughout the lands, your guild will aid you, if
+you request. We have provided a list of commands that your guide
+will recognize below. Simply SAY the command, and the guide will
+thusly respond.
+
+`#!heal!``    - Your guide will provide a limited amount of healing to
+            you, in case you fall sick, or get wounded.
+
+`#!food!``    - Your guide can, from time to time, find food and water
+            for you to help sustain yourself with.
+
+`#!water!``   - Same as above
+
+`#!refresh!`` - Because of their travel knowledge, our guides can help
+            show you how to refresh your legs after long travel.
+
+`#!gold!``    - We have provided the guide with a small allowance to
+            help you travel. If you need this at any time, ask, but
+            keep in mind, he will only aid you this way once.
+
+`#!outfit!``  - We have given the guide equipment that you will need
+            for your journey. He will outfit you, free of charge,
+            but one time.
+
+`#!rescue!``  - In cases of dire need, you may call upon your guide
+            to rescue you. He will protect you, for a brief time,
+            before fleeing himself. 
+
+The guides are also quite useful in other ways. They are skilled
+in all matters of crafts and trades, and as such will help you train,
+practice, and earn levels (for those of the Craft guilds). They are
+also experienced shopkeepers, and will buy and sell items to you,
+for a nominal charge. In the case your guide should wander off, or
+fall to an ill fate, using the "GUIDE" command will promptly summon
+another to your side through your 10th level.
+
+Thank you for using the University Guide service!
+~
+
+#1120
+-1 'HILL-GIANT' 'HILLGIANT' 'HILL'~
+HILL-GIANT HILLGIANT HILL
+
+Hill giants are found on hillsides, hills, and mountains.  Typically living
+in small villages, they try and survive with eachother.  Violence within
+their villages are very uncommon, unless voted by a chief, or higher skilled
+giant, in their primative political system.  A little more intelligent then
+fire-giants, they tend to work out things with other races living in the
+hills.  Thus, provoking less fights, and more time on their hands to
+actually relax.  While only being neutral to both evil and good, they don't
+care who they allow into their village, as long as their isn't any fighting.
+Since they're very unfamiliar with mental attacks, they're most vulnerable
+to them.  The only race or profession they try to keep out of their village
+is alchemists, sorcerers, or anything that can cast harmful mental attacks
+at them.  Hill Giants can be the following classes: Warrior, Cleric, and
+Berserker.  
+~
+
+#0

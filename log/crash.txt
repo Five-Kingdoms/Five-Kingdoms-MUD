@@ -816,3 +816,28 @@ Reading symbols from /home/kaslai/elance/ongit/Five-Kingdoms-MUD/src/clands...do
 Loop: (Finished) aggr (Mon Dec 23 02:27:11 2013)
 Command: (Finished) [ 4103] the halfling sentry in [ 4142] `8A small guardshack``: endif (Mon Dec 23 02:27:08 2013)
 Mobprog: (Finished) [11139] a gargoyle in [11139] `8A dusty chamber``: (Mon Dec 23 02:27:08 2013)
+=========================================================================
+
+Loop: (Finished) aggr (Mon Dec 23 02:41:24 2013)
+Command: (Finished) [ 4103] the halfling sentry in [ 4142] `8A small guardshack``: endif (Mon Dec 23 02:41:14 2013)
+Mobprog: (Finished) [11139] a gargoyle in [11139] `8A dusty chamber``: (Mon Dec 23 02:41:14 2013)
+=========================================================================
+
+Loop: (Finished) aggr (Mon Dec 23 02:42:50 2013)
+Command: (Finished) [ 4103] the halfling sentry in [ 4142] `8A small guardshack``: endif (Mon Dec 23 02:42:43 2013)
+Mobprog: (Finished) [11139] a gargoyle in [11139] `8A dusty chamber``: (Mon Dec 23 02:42:43 2013)
+=========================================================================
+
+Loop: (Finished) aggr (Mon Dec 23 02:57:05 2013)
+Command: (Finished) [ 7803] Darden in [ 7803] `7Western Plaza``: say I can convert ten practice sessions into one training session. (Mon Dec 23 02:57:02 2013)
+Mobprog: (Finished) [ 7803] Darden in [ 7803] `7Western Plaza``: (Mon Dec 23 02:57:02 2013)
+=========================================================================
+
+Loop: (Finished) aggr (Mon Dec 23 02:59:40 2013)
+Command: (Finished) [ 4107] a halfling townie in [ 4107] `7The Market Square of Eddeltris City``: say Another day of hard work. (Mon Dec 23 02:59:28 2013)
+Mobprog: (Finished) [11139] a gargoyle in [11139] `8A dusty chamber``: (Mon Dec 23 02:59:28 2013)
+=========================================================================
+Malloc: (Finished) free_mem clean_room_queue (Mon Dec 23 03:39:44 2013)
+Loop: (Finished) aggr (Mon Dec 23 03:39:48 2013)
+Command: (Finished) [ 4008] Krasq's Spirit in [ 4054] `#The Tainted Sands``: emote seems to grow weaker as its soul is bled of energy. (Mon Dec 23 03:39:34 2013)
+Mobprog: (Finished) [11139] a gargoyle in [11139] `8A dusty chamber``: (Mon Dec 23 03:39:34 2013)
