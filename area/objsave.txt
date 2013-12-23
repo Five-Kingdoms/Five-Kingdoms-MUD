@@ -610,10 +610,10 @@ SaveVer 2018
 Room 16900
 Home 16900
 Nest 0
-Name cabal item standard Cartel~
-ShD  the Standard of Cartel~
-Desc A standard with the crest of Cartel has been left here.~
-Cabal Cartel~
+Name cabal item standard Syndicate~
+ShD  the Standard of Syndicate~
+Desc A standard with the crest of Syndicate has been left here.~
+Cabal Syndicate~
 Wear 18
 Cost 1
 End

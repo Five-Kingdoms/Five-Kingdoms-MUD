@@ -798,8 +798,8 @@ P GRALL 7959 100~
 P BRIBE 7960 30000~
 #7962
 clan guard guardian Zalango serimel~
-Serimel the Cartel Clanguard~
-Serimel the Cartel Clanguard watches your every move.
+Serimel the Syndicate Clanguard~
+Serimel the Syndicate Clanguard watches your every move.
 ~
 This thin female clad in clothes of a Zalango street thug seems little
 of a threat.  But upon closer inspection her stance, and the sharp, rather
@@ -5535,7 +5535,7 @@ iron barred door~
 AB 0 7959
 S
 #7962
-`8Before the Cartel Clan Hall``~
+`8Before the Syndicate Clan Hall``~
 The waters of the moat lap against the a small dock set under the bridge
 and used for loading an unloading cargo from the smaller ships not fit for
 the harbor.  Someone has extinguished all the torches in this area however,
@@ -6898,18 +6898,18 @@ else
 ~
 #7961
 if isnpc
-or clan $n 'cartel'
+or clan $n 'syndicate'
   give 1.gold $n
   'You're already a member $N.
   break
 endif
 if iselawful $n
 or isgood $n
-  'You are not welcome in Cartel $N.
+  'You are not welcome in Syndicate $N.
   give 1.gold $n
 else
-  clan draft $n Cartel
-  'Welcome to the halls of Cartel $N.
+  clan draft $n Syndicate
+  'Welcome to the halls of Syndicate $N.
   mob junk all
 endif
 ~
@@ -6922,7 +6922,7 @@ if isbloody $n
   mob stop $n
   break
 endif
-if clan $n 'cartel'
+if clan $n 'syndicate'
   salute $n
 else
   mob stop $n
@@ -6932,12 +6932,12 @@ endif
 ~
 #7963
 if isnpc
-or clan $n 'cartel'
+or clan $n 'syndicate'
 or iselawful $n
 or isgood $n
   break
 endif
-tell $n If you seek to join Cartel the cost is 30000 gold.
+tell $n If you seek to join Syndicate the cost is 30000 gold.
 ~
 #7964
 if isnpc $n

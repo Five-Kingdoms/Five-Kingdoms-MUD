@@ -350,8 +350,8 @@ End
 #7
 VERSION 1000
 FileName syndicat~
-Name Cartel~
-WhoName `@CARTEL``~
+Name Syndicate~
+WhoName `@SYNDICATE``~
 Imm Zarkirond~
 Currency coin~
 OnGate Almost without a sound the entrance is locked from within.~

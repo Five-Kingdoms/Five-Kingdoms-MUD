@@ -1,10 +1,10 @@
 #AREADATA
-Name [CARTEL]~
+Name [SYNDICATE]~
 Pref ~
 Builders Crypticant~
 VNUMs 16900 16999
 Max_Bastions 0
-Credits { ALL } Crypticant [CARTEL] ~
+Credits { ALL } Crypticant [SYNDICATE] ~
 Security 9
 Startroom 16900
 Flags 0
@@ -20,9 +20,9 @@ End
 
 #MOBILES
 #16900
-lookout thug Cartel guard~
+lookout thug Syndicate guard~
 the Lookout~
-One of the Cartel thugs stands here as a lookout.
+One of the Syndicate thugs stands here as a lookout.
 ~
 At first glance he looks just like any other ruffian or thug in the area.
 But after a moment of careful scrutiny you notice the amount of attention he
@@ -165,7 +165,7 @@ stand stand male none~
 AHMV ABCDEFGHIJK medium 0
 P RANDOM 16906 20~
 #16907
-Pete thieves Cartel~
+Pete thieves Syndicate~
 Scallywag Pete~
 Scallywag Pete stands here wobbling on his wooden leg.
 ~
@@ -602,7 +602,7 @@ potion 0 AO
 
 #ROOMS
 #16900
-`8Entrance to Cartel``~
+`8Entrance to Syndicate``~
 You have come to stand before a large wooden building that seems in need
 of repair.  Weeds are beginning to overrun all the space around it but there
 is a space where the weeds have all been trampled down.  You see a barely
@@ -901,7 +901,7 @@ if room $i != 16900
 or isimmort $n
   break
 endif
-if cabally $n Cartel
+if cabally $n Syndicate
   if isbloody $n
     if affspell $n 'blindness'
     or affspell $n 'death grasp'
@@ -980,7 +980,7 @@ if skill $n fasting
 or isdelay $i
   break
 else
-  if cabal $n Cartel
+  if cabal $n Syndicate
     pmote scans $N with a dark eye.
     'You lack even the most basics skills of an assassin $N...
     'Do you wish to be shown what you lack for mere 500 Skulls?
@@ -1062,7 +1062,7 @@ pmote winks naughtily at $N.
 endif
 ~
 #16913
-if cabal $n Cartel then
+if cabal $n Syndicate then
   emote sniffs the air.
   tell $n Aaah $N. I recognise your scent.
   tell $n You wish me to show you the way through the labyrinth ?
@@ -1094,7 +1094,7 @@ snicker
 #16918
 ~
 #16920
-if cabal $n Cartel
+if cabal $n Syndicate
 and ishere $n
   if cp $n < 5
     tell $n I may be blind but I'm not stupid!
@@ -1108,7 +1108,7 @@ endif
 
 ~
 #16921
-if cabal $n Cartel
+if cabal $n Syndicate
 and ishere $n
   if cp $n < 5
     tell $n I may be blind but I'm not stupid!
@@ -1121,7 +1121,7 @@ and ishere $n
 endif
 ~
 #16922
-if cabal $n Cartel
+if cabal $n Syndicate
 and ishere $n
   if cp $n < 5
     tell $n I may be blind but I'm not stupid!
@@ -1134,7 +1134,7 @@ and ishere $n
 endif
 ~
 #16923
-if cabal $n Cartel
+if cabal $n Syndicate
 and ishere $n
   if cp $n < 5
     tell $n I may be blind but I'm not stupid!
@@ -1147,7 +1147,7 @@ and ishere $n
 endif
 ~
 #16924
-if cabal $n Cartel
+if cabal $n Syndicate
 and ishere $n
   if cp $n < 5
     tell $n I may be blind but I'm not stupid!
@@ -1210,11 +1210,11 @@ else
 endif
 ~
 #16904
-if cabal $n Cartel
+if cabal $n Syndicate
   obj echoat $n ``
   obj echoat $n You quickly decipher the writting.
-  obj echoat $n Cartel Bounty Rankings:
-  obj scoreboard Cartel $n
+  obj echoat $n Syndicate Bounty Rankings:
+  obj scoreboard Syndicate $n
   break
 else
   obj echoat $n ``
