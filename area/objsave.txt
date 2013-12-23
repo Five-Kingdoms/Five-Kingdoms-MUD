@@ -582,10 +582,10 @@ SaveVer 2018
 Room 17000
 Home 17000
 Nest 0
-Name cabal item standard Empire~
-ShD  the Standard of Empire~
-Desc A standard with the crest of Empire has been left here.~
-Cabal Empire~
+Name cabal item standard Nexus~
+ShD  the Standard of Nexus~
+Desc A standard with the crest of Nexus has been left here.~
+Cabal Nexus~
 Wear 18
 Cost 1
 End

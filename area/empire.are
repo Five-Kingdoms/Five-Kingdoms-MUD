@@ -1,10 +1,10 @@
 #AREADATA
-Name [EMPIRE]~
+Name [NEXUS]~
 Pref ~
 Builders Crypticant~
 VNUMs 17000 17099
 Max_Bastions 0
-Credits { ALL } Crypticant [EMPIRE] ~
+Credits { ALL } Crypticant [NEXUS] ~
 Security 9
 Startroom 17000
 Flags 32
@@ -20,7 +20,7 @@ End
 
 #MOBILES
 #17000
-Empire abomination guard guardian~
+Nexus abomination guard guardian~
 an abomination~
 An Abomination bars the way.
 ~
@@ -48,9 +48,9 @@ P EXALL 17000 up~
 #17001
 pack spawns~
 a pack of spawns~
-A pack of twisted Spawns of Empire slither about.
+A pack of twisted Spawns of Nexus slither about.
 ~
-Their misshapen forms composed of flesh corrupted by the forces of Empire
+Their misshapen forms composed of flesh corrupted by the forces of Nexus
 quiver and change without a pause.  Eyes filled with hate and unquenched
 anger lock with yours as a legion of voices hurls threats and promises of
 damnation aimed at no one in particular.  
@@ -66,7 +66,7 @@ AHMV ABCDEFGHIJK medium 0
 #17002
 horde demons~
 a horde of demons~
-A horde of Empire Demons hovers overhead their talons dripping blood.
+A horde of Nexus Demons hovers overhead their talons dripping blood.
 ~
 Soaring above on giant leathery wings they pay no heed to your presence. 
 Their large forms cast shapeless shadows marking their restless passage
@@ -81,9 +81,9 @@ stand stand none none~
 22
 AHMV ABCDEFGHIJK medium 0
 #17003
-tower bastion Empire dungeon~
+tower bastion Nexus dungeon~
 a dungeon~
-A fortified dungeon serves as a hideout for [`1EMPIRE``].
+A fortified dungeon serves as a hideout for [`1NEXUS``].
 ~
 Not much can be seen of it, as the heart of this structure is always
 built far below the ground.  Only the fortified entrance can be spotted, its
@@ -98,13 +98,13 @@ stand stand none none~
 20
 AHMV ABCDEFGHIJK huge 0
 #17004
-tower bastion gateway Empire~
-a Empire Gateway~
-A [`1EMPIRE``] Gateway crackles with dark magics atop a fortifed tower.
+tower bastion gateway Nexus~
+a Nexus Gateway~
+A [`1NEXUS``] Gateway crackles with dark magics atop a fortifed tower.
 ~
 Sending an occasional arc of black energies towards the heavens this tall
 black spire has but one purpose.  To support the infernal spells of
-Pandemonium conjures and keep the gates to Empire open for the armies of
+Pandemonium conjures and keep the gates to Nexus open for the armies of
 Demons and Undead.  
 ~
 human~
@@ -122,7 +122,7 @@ A robed gremlin stands here holding a small book.
 ~
 Standing only about two feet high this little gremlin shows wisdom in
 every wrinkle on his ugly face.  Consulting a small but thick book he
-lectures on the powers of the Empire.  
+lectures on the powers of the Nexus.  
 ~
 unique~
 AB A DFHJN 0 1000 0
@@ -593,7 +593,7 @@ trash 0 0
 
 #ROOMS
 #17000
-`8Before the Empire Fortress``~
+`8Before the Nexus Fortress``~
 Hewn into the side of a mountainface this impressive structure is
 sinister and almost skull shaped.  Slits carved into the side give way to
 the internal flickering of flames.  A strange roaring is heard below, almost
@@ -655,7 +655,7 @@ light is reflected off of the ebony walls, and cast eerie shadows upon the
 vaulted ceilings here.  Within the thousands of facets of the Crystal, you
 can faintly discern a multitude of scenes of pain and death, as the it
 consumes the souls of the just recently deceased and converts it to power to
-fuel the Empire.  
+fuel the Nexus.  
 ~
 ~
 0 295698440 2 0
@@ -902,7 +902,7 @@ if room $i != 17000
 or isimmort $n
   break
 endif
-if cabally $n Empire
+if cabally $n Nexus
   if isbloody $n
     if affspell $n 'blindness'
     or affspell $n 'death grasp'
@@ -924,7 +924,7 @@ if cabally $n Empire
   else
     mob delay 1
     pmote slops to one side and lets $N pass.
-    'Weeelcome tooo theee Empire $N.
+    'Weeelcome tooo theee Nexus $N.
     break
   endif
 else
