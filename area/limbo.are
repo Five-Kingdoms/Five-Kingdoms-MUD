@@ -599,8 +599,8 @@ End
 #11
 VERSION 1000
 FileName Warmast~
-Name Battle~
-WhoName `3BATTLE``~
+Name Warmaster~
+WhoName `3WARMASTER``~
 Imm Ixtaros~
 Currency hide~
 OnGate A group of vicious looking warriors surrounds the area.~
@@ -622,8 +622,8 @@ Flags2 0
 Align ABC
 Ethos ABC
 Progress BF
-MRanks 6 Soldier~ Grunt~ Disciple~ Warlord~ Blademaster~ Battlelord~ 
-FRanks 6 Soldier~ Grunt~ Disciple~ Warlord~ Blademaster~ Battlemistress~ 
+MRanks 6 Soldier~ Grunt~ Disciple~ Commander~ Warlord~ Warmaster~ 
+FRanks 6 Soldier~ Grunt~ Disciple~ Commander~ Warlord~ Warmaster~ 
 Race 34 0 1 1 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 
 Class 25 1 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
 Skill 'leadership'  15   9   2   0
@@ -870,8 +870,8 @@ End
 #18
 VERSION 1000
 FileName Barbaria~
-Name Savage~
-WhoName `3SAVAGE``~
+Name BARBARIAN~
+WhoName `3BARBARIAN``~
 Imm Tzaelcos~
 Currency hide~
 PrefixS Pupil~
@@ -907,8 +907,8 @@ End
 #19
 VERSION 1000
 FileName Gladiato~
-Name General~
-WhoName `3GENERAL``~
+Name Gladiator~
+WhoName `3GLADIATOR``~
 Imm Sahaeyeh~
 Currency hide~
 PrefixS Pupil~

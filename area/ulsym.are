@@ -247,11 +247,11 @@ P SPEECH 11239 adventurer~
 P SPECIAL 11236 100~
 #11212
 clan guard guardian Ulsym Brahkum~
-Brahkum the Battle Clanguard~
-Brahkum the Battle Clanguard stands here keeping watch.
+Brahkum the Warmaster Clanguard~
+Brahkum the Warmaster Clanguard stands here keeping watch.
 ~
 This hulk of a man wears a suit of flawless platemail, emblazoned with
-the sigil of Battle upon its breastplate.  A gleaming chain skirt covers his
+the sigil of Warmaster upon its breastplate.  A gleaming chain skirt covers his
 muscular legs, and gauntleted hands hold a rather large axe.  Noticing your
 presence, he turns his attention to you waiting for you to explain yourself.
 ~
@@ -9149,8 +9149,8 @@ D5
 P GRALL 2 100~
 S
 #11696
-`7The Hall of Battle``~
-You stand within the Hall of Battle. Large practice dummies are set
+`7The Hall of Warmaster``~
+You stand within the Hall of Warmaster. Large practice dummies are set
 up about the room for young warriors to hone their skills on. Several
 charts listing warrior forms are on the walls, and a small shrine to
 the Warmaster Gods is sitting in the corner.
@@ -9563,7 +9563,7 @@ D4
 0 0 11221
 S
 #11219
-`8The Battle Armory``~
+`8The Warmaster Armory``~
 You are in a middle of a small armory stacked ceiling high with every
 sort of weapon known in Mirlan.  From longswords, shortswords, gladiuses
 and daggers all the way to massive claymores and war flails this room has it
@@ -10631,7 +10631,7 @@ if isbloody $n
   mob stop $n
   break
 endif
-if clan $n 'battle'
+if clan $n 'warmaster'
   salute $n
 else
   mob stop $n
@@ -10641,7 +10641,7 @@ endif
 ~
 #11241
 if isnpc
-or clan $n 'battle'
+or clan $n 'warmaster'
   break
 endif
 if class $n warrior
@@ -10649,12 +10649,12 @@ or class $n ranger
 or class $n berserker
 or class $n monk
 or class $n thief
-  tell $n If you seek to join Battle the cost is 30000 gold.
+  tell $n If you seek to join Warmaster the cost is 30000 gold.
 endif
 ~
 #11242
 if isnpc
-or clan $n 'battle'
+or clan $n 'warmaster'
   give 1.gold $n
   'You're already a member $N.
   break
@@ -10664,11 +10664,11 @@ or class $n ranger
 or class $n berserker
 or class $n monk
 or class $n thief
-  clan draft $n Battle
-  'Welcome to the halls of Battle $N.
+  clan draft $n Warmaster
+  'Welcome to the halls of Warmaster $N.
   mob junk all
 else
-  'You are not welcome in Battle $N.
+  'You are not welcome in Warmaster $N.
   give 1.gold $n
 endif
 ~
