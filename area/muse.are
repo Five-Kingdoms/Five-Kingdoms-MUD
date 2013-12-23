@@ -1,10 +1,10 @@
 #AREADATA
-Name [MUSE]~
+Name [HERALD]~
 Pref ~
 Builders None~
 VNUMs 16600 16699
 Max_Bastions 0
-Credits { ALL } Staff    [MUSE] ~
+Credits { ALL } Staff    [HERALD] ~
 Security 9
 Startroom 16600
 Flags 0
@@ -242,11 +242,11 @@ stand stand male none~
 AHMV ABCDEFGHIJK small 0
 P RANDOM 16611 20~
 #16612
-young Museric student~
-a young Museric student~
-A young Museric student is here, partaking of a lecture.
+young Heraldic student~
+a young Heraldic student~
+A young Heraldic student is here, partaking of a lecture.
 ~
-This young Muse seems dedicated to his learning, focused intently on
+This young Herald seems dedicated to his learning, focused intently on
 the lecture that the alchemist provides.  He holds a quill in hand, and jots
 down fervently on a pad of spiral-bound parchment on the table before him.  
 ~
@@ -541,7 +541,7 @@ permeates the entire span of this long rectangular room.  Spaced evenly
 apart are several tall tables.  One table is lined with books and scrolls
 while others hold glass beakers, tubes and other tools of alchemy and
 sorcery.  Occasionally in the windowless room a bright flash inevitably
-highlights a young Muse blowing on burned fingers.  Centered in the room
+highlights a young Herald blowing on burned fingers.  Centered in the room
 is a platform with a large chalkboard surrounded by several students
 awaiting a lecture.  
 ~
@@ -755,7 +755,7 @@ if room $i != 16600
 or isimmort $n
   break
 endif
-if cabally $n Muse
+if cabally $n Herald
   if isbloody $n
     if affspell $n 'blindness'
     or affspell $n 'death grasp'
@@ -776,7 +776,7 @@ if cabally $n Muse
   else
     mob delay 1
     pmote looks at $N for a moment then bows slightly at the knees.
-    'Come in, Master Muse.  Welcome back.
+    'Come in, Master Herald.  Welcome back.
     break
   endif
 else

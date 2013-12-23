@@ -540,10 +540,10 @@ SaveVer 2018
 Room 16600
 Home 16600
 Nest 0
-Name cabal item standard Muse~
-ShD  the Standard of Muse~
-Desc A standard with the crest of Muse has been left here.~
-Cabal Muse~
+Name cabal item standard Herald~
+ShD  the Standard of Herald~
+Desc A standard with the crest of Herald has been left here.~
+Cabal Herald~
 Wear 18
 Cost 1
 End

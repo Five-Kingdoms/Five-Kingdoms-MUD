@@ -1080,35 +1080,35 @@ The Age of Empires
 #7752
 tapestry historic~
 a historic tapestry~
-A lovely tapestry of the bylaws of the Muses is hung here. (`#LOOK TAPESTRY``)~
+A lovely tapestry of the bylaws of the Heralds is hung here. (`#LOOK TAPESTRY``)~
 fabric~
 furniture 0 0
 0 0 0 0 0
 0 0 10000 P
 E
 tapestry~
-Muses are the lifelines of history in Mirlan. Often, they are the eyes
+Heralds are the lifelines of history in Mirlan. Often, they are the eyes
 peering from the corner of a bar, watching the social elite and listening
 in to the gossip and stories of the current and past events.  Interacting
-with the various characters abroad, Muses observe the very history of
+with the various characters abroad, Heralds observe the very history of
 Mirlan to link Mirlan to its notables.  They are loyal to the Winds, every
 so often coming to meet with their superiors and giving them what 
 biographies
 they have recorded.
  
-A Muse's communication skills are what he/she relies on.  Muses
+A Herald's communication skills are what he/she relies on.  Heralds
 demonstrate through their intelligence and wit their story telling and
-rumor gathering skills.  Muses are also courteous to those deserving
+rumor gathering skills.  Heralds are also courteous to those deserving
 of courtesy, given the number of people they must interact with on a
 daily basis.  Those who flagrantly use foul language or violence have
 no place within the cabal.
  
-Anyone who wishes to may ask a Muse for the history of a certain person
-of Mirlan, and the Muse will give them what knowledge he/she has.  When
-a Muse does not do this, they are considered to be unessential, and may
-be extricated from the group.  Also, if a Muse is remiss in his/her duty
-to collect biographies, that Muse is also ousted from the group.  Bards
-and Monks are the classes best suited to be Muses, although non-physical
+Anyone who wishes to may ask a Herald for the history of a certain person
+of Mirlan, and the Herald will give them what knowledge he/she has.  When
+a Herald does not do this, they are considered to be unessential, and may
+be extricated from the group.  Also, if a Herald is remiss in his/her duty
+to collect biographies, that Herald is also ousted from the group.  Bards
+and Monks are the classes best suited to be Heralds, although non-physical
 classes may also join if they meet cabal requirements and have exceptionally
 good role-play.
 ~
@@ -1765,7 +1765,7 @@ You stand in a well lit marble room, just off of the corridor. Here,
 a tall statue of a clad warrior stands stolidly in the center of the
 room, adorned with a large brass plaque. (`#LOOK PLAQUE``). Exits 
 leads southward, back to the Quadrangle, or westward to the Hall of
-the Muses, where you will learn about the history of Mirlan.
+the Heralds, where you will learn about the history of Mirlan.
 ~
 ~
 0 268566536 0 0
@@ -1775,16 +1775,16 @@ You see a large marble path, with a white fountain.
 ~
 0 0 7706
 D3
-You see the entrance to the Hall of the Muses.
+You see the entrance to the Hall of the Heralds.
 ~
 ~
 0 0 7711
 S
 #7711
-`8The Halls of the Muses``~
+`8The Halls of the Heralds``~
 You stand within a well lit hallway. A large sign inscribed on the
 entrance of the hallway denotes that this hallway was funded by the
-Muses to further knowledge of history within the realms. Several
+Heralds to further knowledge of history within the realms. Several
 large murals hang on the walls, as well as a number of tapestries that
 depict the short, and violent history of Mirlan, from genesis to
 today. The hallway continues to the west.
@@ -1797,17 +1797,17 @@ You see the Hall of Life in the distance to the east.
 ~
 0 0 7710
 D3
-The Hall of the Muses continues further to the west.
+The Hall of the Heralds continues further to the west.
 ~
 ~
 0 0 7712
 P RANDOM 7710 75~
 S
 #7712
-`8The Halls of the Muses``~
+`8The Halls of the Heralds``~
 You stand within a well lit hallway. A large sign inscribed on the
 entrance of the hallway denotes that this hallway was funded by the
-Muses to further knowledge of history within the realms. Several
+Heralds to further knowledge of history within the realms. Several
 large murals hang on the walls, as well as a number of tapestries that
 depict the short, and violent history of Mirlan, from genesis to
 today. The hallway continues to the west.
@@ -1815,22 +1815,22 @@ today. The hallway continues to the west.
 ~
 0 268566536 0 0
 D1
-You see the entrance to the Hall of the Muses to the east.
+You see the entrance to the Hall of the Heralds to the east.
 ~
 ~
 0 0 7711
 D3
-The Hall of the Muses continues further to the west.
+The Hall of the Heralds continues further to the west.
 ~
 ~
 0 0 7713
 P RANDOM 7710 75~
 S
 #7713
-`8The Halls of the Muses``~
+`8The Halls of the Heralds``~
 You stand within a well lit hallway. A large sign inscribed on the
 entrance of the hallway denotes that this hallway was funded by the
-Muses to further knowledge of history within the realms. Several
+Heralds to further knowledge of history within the realms. Several
 large murals hang on the walls, as well as a number of tapestries that
 depict the short, and violent history of Mirlan, from genesis to
 today. The hallway continues to the north.
@@ -1843,7 +1843,7 @@ A small arched thoroughfare lies to your north.
 ~
 0 0 7714
 D1
-The Hall of the Muses continues further to the east.
+The Hall of the Heralds continues further to the east.
 ~
 ~
 0 0 7712
@@ -1851,12 +1851,12 @@ P RANDOM 7710 75~
 S
 #7714
 `8An arched thoroughfare``~
-You've come to the end of the Hall of the Muses. A small stone pathway
+You've come to the end of the Hall of the Heralds. A small stone pathway
 leads northward into a small courtyard, where you can hear the gurgle
 of a fountain. The sun shines down on you from overhead through the
 small latticework archway, and you can hear people talking ahead of
 you, as well as the mixed sounds of clashing swords. Southward lies
-the Hall of the Muses.
+the Hall of the Heralds.
 ~
 ~
 0 268566536 0 0
@@ -1866,7 +1866,7 @@ You see the entrance to a courtyard to your north.
 ~
 0 0 7715
 D2
-The Hall of the Muses lies directly south.
+The Hall of the Heralds lies directly south.
 ~
 ~
 0 0 7713
