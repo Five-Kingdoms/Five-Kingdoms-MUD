@@ -1053,11 +1053,11 @@ stand stand male none~
 AHMV ABCDEFGHIJK medium 0
 #20716
 Order clan guard guardian Revelsport Krith~
-Krith the Law Clanguard~
-Krith the Law Clanguard stands here keeping watch.
+Krith the Justice Clanguard~
+Krith the Justice Clanguard stands here keeping watch.
 ~
 This hulk of a man wears a suit of flawless platemail, emblazoned with
-the sigil of Law upon its breastplate.  A gleaming chain skirt covers his
+the sigil of Justice upon its breastplate.  A gleaming chain skirt covers his
 muscular legs, and gauntleted hands hold a rather large axe.  Noticing your
 presence, he turns his attention to you waiting for you to explain yourself.
 ~
@@ -5303,7 +5303,7 @@ D2
 0 0 20714
 S
 #20716
-`7Before the Law Clan Hall``~
+`7Before the Justice Clan Hall``~
 You are on a small alleyway off the Welty.  This is a very bad part of
 the city, and you feel the need to hustle as murderers and thieves peer at
 your person, trying to determine if you're worth their time.  
@@ -7841,7 +7841,7 @@ if isbloody $n
   mob stop $n
   break
 endif
-if clan $n 'law'
+if clan $n 'justice'
   salute $n
 else
   mob stop $n
@@ -7851,20 +7851,20 @@ endif
 ~
 #20717
 if isnpc
-or clan $n 'law'
+or clan $n 'justice'
   break
 endif
 if isgood $n
 or isneutral $n
   if iselawful $n
-    tell $n If you seek to join Law the cost is 30000 gold.
+    tell $n If you seek to join Justice the cost is 30000 gold.
   else
     break
 endif
 ~
 #20718
 if isnpc
-or clan $n 'law'
+or clan $n 'justice'
   give 1.gold $n
   'You're already a member $N.
   break
@@ -7872,15 +7872,15 @@ endif
 if isgood $n
 or isneutral $n
   if iselawful $n
-    clan draft $n Law
-    'Welcome to the halls of Law $N.
+    clan draft $n Justice
+    'Welcome to the halls of Justice $N.
     mob junk all
   else
-    'You are not welcome in Law $N.
+    'You are not welcome in Justice $N.
     give 1.gold $n
   endif
 else
-  'You are not welcome in Law $N.
+  'You are not welcome in Justice $N.
   give 1.gold $n
 endif
 ~

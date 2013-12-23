@@ -17,12 +17,12 @@ End
 #1
 VERSION 1000
 FileName justice~
-Name Pillar of Law~
-WhoName `&LAW``~
+Name Pillar of Justice~
+WhoName `&JUSTICE``~
 Imm Markul~
 Currency dinar~
-OnGate A group of heavily armed guards close the entrance to the Pillar of Law.~
-OffGate A group of heavily armed guards open the entrance to the Pillar of Law.~
+OnGate A group of heavily armed guards close the entrance to the Pillar of Justice.~
+OffGate A group of heavily armed guards open the entrance to the Pillar of Justice.~
 MsgGate As you approach the locked gate, a score of crossbows aimed at your heart stop your feet.~
 Anchor 16700
 Guard 16700
@@ -2469,7 +2469,7 @@ armor GP AJ
 #30
 deputy badge~
 a shiny deputy's badge~
-A shiny star symbolizing the local law is here.~
+A shiny star symbolizing the local justice is here.~
 magic~
 armor HMPZ AC
 0 0 0 0 0

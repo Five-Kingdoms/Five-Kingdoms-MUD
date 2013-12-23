@@ -666,10 +666,10 @@ SaveVer 2018
 Room 16700
 Home 16700
 Nest 0
-Name cabal item standard Pillar of Law~
-ShD  the Standard of Pillar of Law~
-Desc A standard with the crest of Pillar of Law has been left here.~
-Cabal Pillar of Law~
+Name cabal item standard Pillar of Justice~
+ShD  the Standard of Pillar of Justice~
+Desc A standard with the crest of Pillar of Justice has been left here.~
+Cabal Pillar of Justice~
 Wear 18
 Cost 1
 End

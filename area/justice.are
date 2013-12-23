@@ -1,10 +1,10 @@
 #AREADATA
-Name [LAW]~
+Name [JUSTICE]~
 Pref ~
 Builders Crypticant~
 VNUMs 16700 16799
 Max_Bastions 0
-Credits { ALL } Crypticant [LAW] ~
+Credits { ALL } Crypticant [JUSTICE] ~
 Security 9
 Startroom 16700
 Flags 32
@@ -20,9 +20,9 @@ End
 
 #MOBILES
 #16700
-Law perimiter guards~
+Justice perimiter guards~
 Perimeter guard~
-One of the Law perimeter guards patrols the area.
+One of the Justice perimeter guards patrols the area.
 ~
 Walking with the measured stride of a seasoned soldier the guard patrols
 the entrance and surrounding area.  He wears spotless armor and at his side
@@ -47,7 +47,7 @@ P EXALL 16700 west~
 P EXALL 16700 north~
 P FIGHT 16701 100~
 #16701
-fergrun Law merchant~
+fergrun Justice merchant~
 Fergrun the Merchant~
 Fergrun a local merchant is here tending his store.
 ~
@@ -68,11 +68,11 @@ AHMV ABCDEFGHIJK medium 0
 #16702
 leslie teacher~
 Leslie~
-Leslie is here teaching the intricacies of Law.
+Leslie is here teaching the intricacies of Justice.
 ~
 Her face bears the fine lines of strength and intellect that give her
 breathtaking beauty.  A large tome is in her hand and she lectures the newer
-members of Law with a stern voice unused to being interrupted.  Without
+members of Justice with a stern voice unused to being interrupted.  Without
 pausing she passes a brief glance and a smile in your direction
 acknowledging your presence.  
 ~
@@ -87,7 +87,7 @@ AHMV ABCDEFGHIJK medium 0
 #16703
 Grummen healer~
 Grummen~
-Grummen the High Cleric of Law stands here muttering something.
+Grummen the High Cleric of Justice stands here muttering something.
 ~
 Before you stands what must be the largest and widest of all storm giants
 of Aabahran.  His height of upwards from three meters is matched only by
@@ -166,9 +166,9 @@ stand stand male none~
 AHMV ABCDEFGHIJK medium 0
 P RANDOM 16706 30~
 #16707
-Law observer~
-a Law observer~
-A Law observer hides here while keeping watch.
+Justice observer~
+a Justice observer~
+A Justice observer hides here while keeping watch.
 ~
 ~
 human~
@@ -180,11 +180,11 @@ stand stand none none~
 22
 AHMV ABCDEFGHIJK medium 0
 #16708
-Law trainee~
-a Law trainee~
-A Law trainee stands here looking about the courtroom.
+Justice trainee~
+a Justice trainee~
+A Justice trainee stands here looking about the courtroom.
 ~
-Dressed in a drab uniform with only the Law Sigil to identify his powers, 
+Dressed in a drab uniform with only the Justice Sigil to identify his powers, 
 or lack there of, a tall man stands.  He scurries about the courtroom making 
 sure everyone is quiet, while listening to the proceedings of the court.  
 ~
@@ -198,11 +198,11 @@ stand stand male none~
 AHMV ABCDEFGHIJK medium 0
 P SPEECH 16702 *~
 #16709
-Law magistrate ~
+Justice magistrate ~
 a magistrate~
 A magistrate sits behind a cluttered desk looking busy.
 ~
-Dressed in long robes with the Law Sigil embroidered on it, a man
+Dressed in long robes with the Justice Sigil embroidered on it, a man
 sits behind a cluttered desk.  He is very clean-shaven, yet his hair is
 nappy and unkempt.  His dark eyes reveal only one thing, boredom.  
 ~
@@ -232,12 +232,12 @@ stand stand male none~
 5
 AHMV ABCDEFGHIJK medium 0
 #16711
-Law judge Forthlon~
+Justice judge Forthlon~
 Judge Forthlon~
 Judge Forthlon, the presiding official is here, trying to look important.
 ~
 A man stands here, wearing flowing robes emblazoned with the Sigil of
-Law.  In his hand, he holds a small oaken gavel, his symbol of office. 
+Justice.  In his hand, he holds a small oaken gavel, his symbol of office. 
 He notices your intrusion into his domain, and continues with his work.  
 ~
 dwarf~
@@ -250,9 +250,9 @@ stand stand male none~
 AHMV ABCDEFGHIJK medium 0
 P RANDOM 16707 20~
 #16712
-young Law page~
-A Law page~
-A young Law page is here, shopping for school supplies.
+young Justice page~
+A Justice page~
+A young Justice page is here, shopping for school supplies.
 ~
 ~
 human~
@@ -297,7 +297,7 @@ sleep sleep male none~
 7
 AHMV ABCDEFGHIJK medium 0
 #16715
-custodian Law pasty~
+custodian Justice pasty~
 The evidence custodian~
 A thin, pale man stands here, tending the shelves.
 ~
@@ -316,7 +316,7 @@ stand stand none none~
 AHMV ABCDEFGHIJK medium 0
 #16716
 wounded guard~
-A wounded Law guard~
+A wounded Justice guard~
 A wounded guard rests on a cot.
 ~
 He isn't looking too good.  Bloodied bandages are wrapped around nearly
@@ -505,9 +505,9 @@ potion U AO
 10 'word of recall' '' '' ''
 10 30 4 P
 #16702
-potion law empowerment~
-a potion of law's empowerment~
-A large potion bearing the crest of Law on its surface lies on the floor here.~
+potion justice empowerment~
+a potion of justice's empowerment~
+A large potion bearing the crest of Justice on its surface lies on the floor here.~
 Liquid~
 potion B AO
 0 'fly' '' '' ''
@@ -529,9 +529,9 @@ food U A
 48 48 0 0 360
 10 20 24 P
 #16705
-scroll law empowerment~
-a scroll of law's empowerment~
-A large scroll bearing the crest of Law on its surface lies on the floor here.~
+scroll justice empowerment~
+a scroll of justice's empowerment~
+A large scroll bearing the crest of Justice on its surface lies on the floor here.~
 papyrus~
 scroll A AO
 15 'fly' '' '' ''
@@ -599,55 +599,55 @@ staff AX AO
 45 15 1000 P
 E
 looking~
-The strange looking glass has been a mystery to Law wise man for many
+The strange looking glass has been a mystery to Justice wise man for many
 years, until a recent Alliance with the forces of Savants allowed the relic
 to be studied by the Chronmasters of Arcanum.  To great surprise of both the
-Savant's and Law the relic seemed to have been forged and imbued with
+Savant's and Justice the relic seemed to have been forged and imbued with
 its power before the Infinity Sequence by the Psion Dreadlord Gorthae
 himself!  To this day the powerful psychic enchantments allow the user to
 see things normally shrouded from normal sight.  
 ~
 E
 glass~
-The strange looking glass has been a mystery to Law wise man for many
+The strange looking glass has been a mystery to Justice wise man for many
 years, until a recent Alliance with the forces of Savants allowed the relic
 to be studied by the Chronmasters of Arcanum.  To great surprise of both the
-Savant's and Law the relic seemed to have been forged and imbued with
+Savant's and Justice the relic seemed to have been forged and imbued with
 its power before the Infinity Sequence by the Psion Dreadlord Gorthae
 himself!  To this day the powerful psychic enchantments allow the user to
 see things normally shrouded from normal sight.  
 ~
 E
 gorthae's~
-The strange looking glass has been a mystery to Law wise man for many
+The strange looking glass has been a mystery to Justice wise man for many
 years, until a recent Alliance with the forces of Savants allowed the relic
 to be studied by the Chronmasters of Arcanum.  To great surprise of both the
-Savant's and Law the relic seemed to have been forged and imbued with
+Savant's and Justice the relic seemed to have been forged and imbued with
 its power before the Infinity Sequence by the Psion Dreadlord Gorthae
 himself!  To this day the powerful psychic enchantments allow the user to
 see things normally shrouded from normal sight.  
 ~
 #16712
-Law shield~
-the Shield of Law~
-A huge shield with the mark of Law lies here.~
+Justice shield~
+the Shield of Justice~
+A huge shield with the mark of Justice lies here.~
 magic~
 armor GHZ AJ
 9 14 15 12 0
 50 35 1200 P
 E
 shield~
-A mighty shield marked with the brilliant insignia of Law.  It is
+A mighty shield marked with the brilliant insignia of Justice.  It is
 said that it was a gift from the Royal Duke Stalatharata given when the
-forces of Law aided the town of Shasarazade in its time of need.  The
+forces of Justice aided the town of Shasarazade in its time of need.  The
 great kite shield has been known not only to enhance its user's aim but also
 posses potent healing powers.  
 ~
 E
-Law~
-A mighty shield marked with the brilliant insignia of Law.  It is
+Justice~
+A mighty shield marked with the brilliant insignia of Justice.  It is
 said that it was a gift from the Royal Duke Stalatharata given when the
-forces of Law aided the town of Shasarazade in its time of need.  The
+forces of Justice aided the town of Shasarazade in its time of need.  The
 great kite shield has been known not only to enhance its user's aim but also
 posses potent healing powers.  
 ~
@@ -673,7 +673,7 @@ E
 truncheon~
 This truncheon is surprisingly heavy considering it's compact size.  The
 thick steel comprising it is bevelled at one end to fit comfortably in your
-hand.  It was crafted in honor of the mighty Law giant Dedric.  His
+hand.  It was crafted in honor of the mighty Justice giant Dedric.  His
 ability to stop criminals dead in their tracks was legendary and for this
 reason the weapon is infused with some kind of magical energy which has been
 known to temporarily stun a criminal.  
@@ -682,7 +682,7 @@ E
 hinderance~
 This truncheon is surprisingly heavy considering it's compact size.  The
 thick steel comprising it is bevelled at one end to fit comfortably in your
-hand.  It was crafted in honor of the mighty Law giant Dedric.  His
+hand.  It was crafted in honor of the mighty Justice giant Dedric.  His
 ability to stop criminals dead in their tracks was legendary and for this
 reason the weapon is infused with some kind of magical energy which has been
 known to temporarily stun a criminal.  
@@ -691,28 +691,28 @@ F
 A 18 2 0
 P FIGHT 16713 20~
 #16714
-Law Codex~
-the Law Codex~
-Cast in solid iron the Law Codex awaits your eyes.~
+Justice Codex~
+the Justice Codex~
+Cast in solid iron the Justice Codex awaits your eyes.~
 Iron~
 trash T P
 0 0 0 0 0
 0 750 0 P
 E
-Law codex~
+Justice codex~
 Cut out of pure iron, yet unmarked by any sign of rust or decay
 the Justce Codex lies before your eyes.
 
 
-	"read page1"............ Scripture of Laws
-	"read page2"............ Scripture of Laws
+	"read page1"............ Scripture of Justices
+	"read page2"............ Scripture of Justices
 	"read page3"............ Scripture of Conduct
 	"read page4"............ Scripture of Conduct
 	"read page5"............ Scripture of Judgement
 ~
 E
 page1~
-This guide is to explain several common crimes and aid Law's in
+This guide is to explain several common crimes and aid Justice's in
 determining what they should do in some given situations. To see
 wether the area you are in is protected by the law or not use the
 "law" command.
@@ -720,14 +720,14 @@ wether the area you are in is protected by the law or not use the
 Sheathing,
 When in protected areas citizens are required to have all weapons
 sheathed, up to two warnings should be given before issuing a
-fine. Laws or Royals MUST look at the individual and only when 
+fine. Justices or Royals MUST look at the individual and only when 
 weapons are noticed to be DRAWM a fine or wanted flag may be issued. 
-Failure to obey this procdure will result in penalties agains the Law.
+Failure to obey this procdure will result in penalties agains the Justice.
 NOTE: Criminals cannot be wanted for this offense.
   
 Looting,
 The taking of items from the corpse of anyone other than an outlaw
-in protected cities is against the law. When Law or Royal sees
+in protected cities is against the law. When Justice or Royal sees
 a person loot another's corpse within the town the offender MUST 
 first be given opportunity to return the belongings to the rightful
 owner.  If they do not comply in timly manner they are to be marked 
@@ -747,9 +747,9 @@ Attacking any creature within a protected city is against the
 law be it a guard, guild servant, bystander, or an animal.
 Any spells causing a yell and spells of summon, faerie fog, and gate 
 like spells are subject to this law.  This includes, but is not
-limited to attacking or provoking the LAW cabal guard or the
+limited to attacking or provoking the JUSTICE cabal guard or the
 jail guards.  Any who are witnessed in person to be in combat with
-any LAW guard is to be found in violation of the law.
+any JUSTICE guard is to be found in violation of the law.
  
 Murder,
 Killing, or attempting to kill a non outlaw within a protected city
@@ -768,18 +768,18 @@ may be treated as if they were a criminal.  The Law is blind
 to those whom are aquited of their crimes.
  
 II.
-All Law members will follow orders from those above them in the 
-hall of Law, Members will follow the orders of elders, elders 
+All Justice members will follow orders from those above them in the 
+hall of Justice, Members will follow the orders of elders, elders 
 will follow the orders of the leader, and the leader will get his 
-orders directly from Law Immortal.
+orders directly from Justice Immortal.
  
 III.
 Under no circumstances will a bribes be accepted.
  
 IV.
-A Law or Royal must be fully visible to the criminal during the crime
-in order to flag him without penalty.  The Law and Royal MUST remain 
-visible at all times when in the city. The Law who flags a criminal 
+A Justice or Royal must be fully visible to the criminal during the crime
+in order to flag him without penalty.  The Justice and Royal MUST remain 
+visible at all times when in the city. The Justice who flags a criminal 
 must first tell them what crime they are charged with, and why before they 
 begin pursuit. To see if your current location is protected under the law 
 use the "law" command.
@@ -789,20 +789,20 @@ use the "law" command.
 E
 page4~
 V.
-No Law shall remove a wanted flag placed by another Law member 
-without the original Law's permission.
+No Justice shall remove a wanted flag placed by another Justice member 
+without the original Justice's permission.
   
 VI.
-If a criminal is visible to a Law in their immediate area, the 
-Law MUST attempt to apprehend the criminal. It is the duty of the 
-Law and should take priority over anything not related to Law.
+If a criminal is visible to a Justice in their immediate area, the 
+Justice MUST attempt to apprehend the criminal. It is the duty of the 
+Justice and should take priority over anything not related to Justice.
  
 VII.
-Laws are not allowed to group with, or in any way aid a known criminal.
+Justices are not allowed to group with, or in any way aid a known criminal.
  
 VIII.
-When more then one Sentinel is present, the Laws must attempt to
-staff each lawful city that holds trade with Law cabal.
+When more then one Sentinel is present, the Justices must attempt to
+staff each lawful city that holds trade with Justice cabal.
  
 IX.
 In the event of a raid upon the city, those people aiding in defense of
@@ -816,7 +816,7 @@ page5~
 Judgement Guidelines,
 
 I.
-When about to pass judgement upon a captured criminal, Law is to
+When about to pass judgement upon a captured criminal, Justice is to
 use the "judge" command to weight the crimes commited by the criminal.
 
 II.
@@ -825,15 +825,15 @@ by the "judge" command, as to be in accordance with the laws set upon
 Royals of the city in which the deed was done.
 
 III.
-Any items transfered to Law upon capture are theirs to keep or
+Any items transfered to Justice upon capture are theirs to keep or
 return as seen fit.  In case of Outlaws, any item upon their corpse
-may be taken or destroyed as per Law judgement.
+may be taken or destroyed as per Justice judgement.
  
 ~
 #16715
 roll call rollcall~
-the Law Roll Call~
-The official Law Roll Call has been posted here.~
+the Justice Roll Call~
+The official Justice Roll Call has been posted here.~
 wood~
 trash 0 P
 0 0 0 0 0
@@ -853,9 +853,9 @@ potion 0 AO
 
 #ROOMS
 #16700
-`8Before the Law Cabal``~
+`8Before the Justice Cabal``~
 Before you are huge pillars of stone that span high into the air,
-embracing the entrance to the Law Cabal.  Tiny etchings are carved in
+embracing the entrance to the Justice Cabal.  Tiny etchings are carved in
 each pillar, with each carving being unique from the others.  A thumping
 sound can be heard from inside, that reminds you of a wardrum, only more
 hollow.  
@@ -896,7 +896,7 @@ S
 As you walk into this room, the silence is almost deafening.  A long
 aisle parts through a sea of fine oaken chairs and leads to a small swinging
 gate.  Beyond this, the room is primarily empty save two long stone tables
-and a tall elevated bench.  An immense sigil of Law adorns the wall
+and a tall elevated bench.  An immense sigil of Justice adorns the wall
 behind the bench, seemingly surveying all before it.  A matching symbol is
 embossed upon the marble floor.  
 ~
@@ -924,7 +924,7 @@ S
 `8The Magistrate``~
 This room is rather small and unimpressive.  On the far wall, a single
 window permits light to enter, and a tapestry depicting the history of
-Law hangs from the wall beside it.  There is a single oaken desk with a
+Justice hangs from the wall beside it.  There is a single oaken desk with a
 small, uncomfortable looking chair.  A stack of paperwork sits on the desk
 on the far corner, as though whoever works here really doesn't want to deal
 with it.  
@@ -943,13 +943,13 @@ composed of complaints, and their contents are rather boring.
 ~
 S
 #16705
-`8Academy of Law``~
+`8Academy of Justice``~
 A large number of desks are here, arranged in neat rows.  Each has a
 small inkwell carved into it's surface, and the chairs show a surprisingly
 high amount of wear.  At the head of the room is a large oaken desk, behind
 which is a large slate board.  To the left of the desk, numerous bookshelves
 are lined with countless legal texts and reference books.  Framed upon the
-wall are characitures of past Laws.  The room is silent as it's
+wall are characitures of past Justices.  The room is silent as it's
 inhabitants are in deep study.  
 ~
 The once silent academy is still silent, and if there were light here,
@@ -1008,10 +1008,10 @@ can just barely be made out.
 0 295698444 2 0
 S
 #16710
-`8Museum of Law``~
+`8Museum of Justice``~
 This pristine room has exquisite marble floors, and white-washed walls,
 lined with countless tapestries and portaits.  Elaborate charactitures of
-past Laws hang from the wall, each with a name and a brief history, and
+past Justices hang from the wall, each with a name and a brief history, and
 mounted within glass display cases are items of interest, each possessing
 it's own unique story.  
 ~
@@ -1025,7 +1025,7 @@ S
 #16711
 `8Guardhouse``~
 You stand beneath an immense granite archway.  The standard of the
-Law cabal hangs on either side of the opening.  Above you, you can see a
+Justice cabal hangs on either side of the opening.  Above you, you can see a
 portcullis pulled into the high ceiling overhead.  The stone wall that this
 gate permits passage through extands to either side as far as you can see.  
 ~
@@ -1191,7 +1191,7 @@ if room $i != 16700
 or isimmort $n
   break
 endif
-if cabally $n Law
+if cabally $n Justice
   if isbloody $n
     if affspell $n 'blindness'
     or affspell $n 'death grasp'
@@ -1212,12 +1212,12 @@ if cabally $n Law
   else
     mob delay 1
     pmote stands aside and lets $N pass.
-    'The halls of Law welcome you $N.
+    'The halls of Justice welcome you $N.
     break
   endif
 else
   pmote signals to the archers above and stops $N.
-  say Halt! Only members of Law and their allies may proceed.
+  say Halt! Only members of Justice and their allies may proceed.
   mob stop $n
 endif
 ~
@@ -1294,7 +1294,7 @@ if rand 30
   break
 endif
 if rand 50
-  'For Law's sake can't I get any bloody time to finish the count?!
+  'For Justice's sake can't I get any bloody time to finish the count?!
   break
 else
   glare $n
@@ -1387,7 +1387,7 @@ S
 
 #OBJPROGS
 #16710
-if cabal $n Law
+if cabal $n Justice
   if objval1 $i > 7
     obj echoat $n You unlock and open $I.
     obj echoaround $n $N unlocks and opens $I.
@@ -1414,8 +1414,8 @@ endif
 ~
 #16715
 obj echoat $n ``
-obj echoat $n Law Roll Call
-obj scoreboard Law $n
+obj echoat $n Justice Roll Call
+obj scoreboard Justice $n
 ~
 #0
 
