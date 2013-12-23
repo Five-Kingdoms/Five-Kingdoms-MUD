@@ -1,10 +1,10 @@
 #AREADATA
-Name [SAINT]~
+Name [WATCHER]~
 Pref ~
 Builders None~
 VNUMs 17800 17899
 Max_Bastions 0
-Credits { ALL } Rotarx   [SAINT]~
+Credits { ALL } Rotarx   [WATCHER]~
 Security 9
 Startroom 17800
 Flags 0
@@ -80,8 +80,8 @@ stand stand none none~
 23
 AHMV ABCDEFGHIJK medium 0
 #17803
-tree fort fortress Saint~
-a Saint Tree Fort~
+tree fort fortress Watcher~
+a Watcher Tree Fort~
 A massive fortress flying banners of [`6KNIGHT``] watches over the area.
 ~
 Set high atop a large tree is a massive fort apparently made of thatch
@@ -849,7 +849,7 @@ if room $i != 17800
 or isimmort $n
 break
 endif
-if cabally $n Saint
+if cabally $n Watcher
 if isbloody $n
 if affspell $n 'blindness'
 or affspell $n 'death grasp'
@@ -870,7 +870,7 @@ break
 else
 mob delay 1
 pmote stands aside and lets $N pass.
-'The Saints welcome you $N.
+'The Watchers welcome you $N.
 break
 endif
 else
@@ -994,7 +994,7 @@ endif
 if isdelay $i
   break
 endif
-if cabal $n Saint
+if cabal $n Watcher
   bow $n
   sa Hello, $n.  We've also trained some of the beasts from the area.
   sa A cockatrice, blink dog, cave bear, unicorn, and a green dragon to be exact.
@@ -1002,14 +1002,14 @@ if cabal $n Saint
   sa The prices are on the wall.
   mob delay 2
 else
-  sa Piss off.  Saints only.
+  sa Piss off.  Watchers only.
 endif
 ~
 #17805
 if isnpc $n
   break
 endif
-if cabal $n Saint
+if cabal $n Watcher
   if getdelay > 2
     eyebrow $n
     sa It takes time and patience to train an animal, $n.
@@ -1031,14 +1031,14 @@ if cabal $n Saint
     endif
   endif
 else
-  sa Piss off.  Saints only.
+  sa Piss off.  Watchers only.
 endif
 ~
 #17806
 if isnpc $n
   break
 endif
-if cabal $n Saint
+if cabal $n Watcher
   if getdelay > 2
     eyebrow $n
     sa It takes time and patience to train an animal, $n.
@@ -1060,14 +1060,14 @@ if cabal $n Saint
     endif
   endif
 else
-  sa Piss off.  Saints only.
+  sa Piss off.  Watchers only.
 endif 
 ~
 #17807
 if isnpc $n
   break
 endif
-if cabal $n Saint
+if cabal $n Watcher
   if getdelay > 2
     eyebrow $n
     sa It takes time and patience to train an animal, $n.
@@ -1089,14 +1089,14 @@ if cabal $n Saint
     endif
   endif
 else
-  sa Piss off.  Saints only.
+  sa Piss off.  Watchers only.
 endif
 ~
 #17808
 if isnpc $n
   break
 endif
-if cabal $n Saint
+if cabal $n Watcher
   if getdelay > 2
     eyebrow $n
     sa It takes time and patience to train an animal, $n.
@@ -1118,14 +1118,14 @@ if cabal $n Saint
     endif
   endif
 else
-  sa Piss off.  Saints only.
+  sa Piss off.  Watchers only.
 endif
 ~
 #17809
 if isnpc $n
   break
 endif
-if cabal $n Saint
+if cabal $n Watcher
   if getdelay > 2
     eyebrow $n
     sa It takes time and patience to train an animal, $n.
@@ -1147,7 +1147,7 @@ if cabal $n Saint
     endif
   endif
 else
-  sa Piss off.  Saints only.
+  sa Piss off.  Watchers only.
 endif
 ~
 #17810

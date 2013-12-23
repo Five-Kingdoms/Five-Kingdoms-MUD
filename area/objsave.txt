@@ -526,10 +526,10 @@ SaveVer 2018
 Room 17800
 Home 17800
 Nest 0
-Name cabal item standard Saint~
-ShD  the Standard of Saint~
-Desc A standard with the crest of Saint has been left here.~
-Cabal Saint~
+Name cabal item standard Watcher~
+ShD  the Standard of Watcher~
+Desc A standard with the crest of Watcher has been left here.~
+Cabal Watcher~
 Wear 18
 Cost 1
 End
