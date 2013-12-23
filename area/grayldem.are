@@ -487,11 +487,11 @@ stand stand male none~
 24
 AHMV ABCDEFGHIJK medium 0
 #8226
-sage tasstellat~
-Tastellat the Sage~
-Tastellat the Sage offers to identify any items of unknown nature you have.
+savant tasstellat~
+Tastellat the Savant~
+Tastellat the Savant offers to identify any items of unknown nature you have.
 ~
-Tastellat is a wise and learned, if a trifle greedy, Sage who can identify 
+Tastellat is a wise and learned, if a trifle greedy, Savant who can identify 
 any item you may have, magical or mundane. A nephew of the great Thesius,
 he does well to hide the taint of Human blood he has.
 ~
@@ -3475,7 +3475,7 @@ left, and a gilded plaque hangs on the wall to your right.
 E
 plaque~
 The Plaque reads-
- "Welcome to the home of Yastellat, Sage of Grayldemir, purveyor of knowledge,
+ "Welcome to the home of Yastellat, Savant of Grayldemir, purveyor of knowledge,
   expander of minds, identifier of all items magical or mundane (all for a
   reasonable price)"
 ~

@@ -252,9 +252,9 @@ rest rest male none~
 50
 AHMV ABCDEFGHIJK medium 0
 #21046
-ghrrenin master sage mage~
-The master sage, Ghrrenin~
-Ghrrenin the master sage scowls at your intrusion.
+ghrrenin master savant mage~
+The master savant, Ghrrenin~
+Ghrrenin the master savant scowls at your intrusion.
 ~
 His dark heavy eyebrows are now bent inwards in anger as he spys your
 intrusion into his dark study.  Black midnight eyes pierce furiously in your
@@ -262,7 +262,7 @@ direction, indicating intense displeasure.  His body is covered in a dark
 runed robe, adorned with several smaller drawings.  His body appears quite
 frail, though the way he gazes at you tells you otherwise.  The air around
 you seems to heat and twist violently, displaying only but a tiny fraction
-of the master sage's supreme power.  
+of the master savant's supreme power.  
 ~
 human~
 ABRe A HTUV 0 -500 0
@@ -317,8 +317,8 @@ bruises are littered throughout her abused flesh.  The condition of the body
 leads you to believe that torture was a big part of the victims demise.  
 ~
 #21003
-robe master sage dark intricate~
-a Master Sage Robe ~
+robe master savant dark intricate~
+a Master Savant Robe ~
 A dark robe covered in tiny intricate runes is upon the floor.~
 Cloth~
 armor CFLM AKS

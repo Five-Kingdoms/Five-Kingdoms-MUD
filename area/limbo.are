@@ -538,8 +538,8 @@ End
 #10
 VERSION 1000
 FileName savant~
-Name Sage~
-WhoName `$SAGE``~
+Name Savant~
+WhoName `$SAVANT``~
 Imm Dabyula~
 Currency disc~
 OnGate With thunderclap, a bridge of pure energy congeals.~

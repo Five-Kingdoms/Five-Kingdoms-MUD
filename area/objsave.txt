@@ -568,10 +568,10 @@ SaveVer 2018
 Room 17200
 Home 17200
 Nest 0
-Name cabal item standard Sage~
-ShD  the Standard of Sage~
-Desc A standard with the crest of Sage has been left here.~
-Cabal Sage~
+Name cabal item standard Savant~
+ShD  the Standard of Savant~
+Desc A standard with the crest of Savant has been left here.~
+Cabal Savant~
 Wear 18
 Cost 1
 End

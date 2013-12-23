@@ -1,10 +1,10 @@
 #AREADATA
-Name [SAGE]~
+Name [SAVANT]~
 Pref ~
 Builders Crypticant~
 VNUMs 17200 17299
 Max_Bastions 0
-Credits { ALL } Crypticant    [SAGE] ~
+Credits { ALL } Crypticant    [SAVANT] ~
 Security 9
 Startroom 17200
 Flags 0
@@ -47,7 +47,7 @@ P GRALL 26 100~
 #17201
 ethereal servants~
 a group of ethereal servants~
-A group of ethereal servants to Sage floats far above you.
+A group of ethereal servants to Savant floats far above you.
 ~
 Their translucent forms shimmer in an out of existance, as the roughly humanoid
 shapes float above the ground with effortless ease.  Not a single sound comes forth
@@ -237,9 +237,9 @@ stand stand male none~
 AHMV ABCDEFGHIJK medium 0
 P RANDOM 17214 20~
 #17215
-a Sage teacher~
-a Sage teacher~
-A Sage teacher is here giving instructions to his class.
+a Savant teacher~
+a Savant teacher~
+A Savant teacher is here giving instructions to his class.
 ~
 Standing in front of his class holding a wand in one hand, and an old
 book in the other, is a wisened man in long flowing robes.  His hair is an
@@ -701,9 +701,9 @@ S 82 10 0
 P USE 17215 100~
 P DELAY 17214 100~
 #17213
-Sage battlerod battle rod~
-Sage Battlerod~
-A Sage battlerod lies here.~
+Savant battlerod battle rod~
+Savant Battlerod~
+A Savant battlerod lies here.~
 steel~
 weapon Be AN
 exotic 11 4 magic G
@@ -721,7 +721,7 @@ P FIGHT 17217 25~
 
 #ROOMS
 #17200
-`3Before the Sage Cabal``~
+`3Before the Savant Cabal``~
 The stairs end right before your nose, surrounded by a large meadow all
 about.  The unknown material or metal below your feet hums and vibrates as
 strange powers of unknown and potent origins rush underneath your feet.
@@ -1093,7 +1093,7 @@ if room $i != 17200
 or isimmort $n
   break
 endif
-if cabally $n Sage
+if cabally $n Savant
   if isbloody $n
     if affspell $n 'blindness'
     or affspell $n 'death grasp'
@@ -1177,7 +1177,7 @@ if rand 50 then
   mob force head say You just wait. I'll get out of here and bite your legs off!
 else
   emote taps on the jar.
-  say Things are looking up for you. You're head of Sage.
+  say Things are looking up for you. You're head of Savant.
   rofl
   mob force head say You'll be sorry you hunchback git. I'll headbutt you to death.
 endif
